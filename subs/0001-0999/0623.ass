@@ -1,0 +1,388 @@
+﻿[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title:
+ScriptType: v4.00+
+Collisions: Normal
+PlayDepth: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Dialogue,Calibri,50,&H00FFFFFF,&H000000FF,&H00093A4F,&H00005067,0,0,0,0,100,100,0,0,1,2,1,2,15,15,15,1
+Style: Text,Arial,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,3,0,2,0,0,0,1
+Style: Adds,Arial,50,&H00FFFFFF,&H000000FF,&H003B5F1B,&H00000000,0,0,0,0,100,100,0,0,1,2,0,7,15,15,15,1
+Style: Signs,Segoe Script,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,7,0,0,0,1
+Style: Name,Calibri,40,&H00CFCFCF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,1,5,15,15,15,204
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:01.26,0:00:02.46,Dialogue,,0,0,0,,This is bad!
+Dialogue: 0,0:00:02.46,0:00:05.04,Dialogue,,0,0,0,,The Detective Boys are in a perilous pinch!
+Dialogue: 0,0:00:05.67,0:00:08.42,Dialogue,,0,0,0,,The whole thing started from a game of kick-the-can.
+Dialogue: 0,0:00:08.45,0:00:13.96,Dialogue,,0,0,0,,Since it was a building soon to be demolished, we thought it'd be no problem if we played there...
+Dialogue: 0,0:00:13.99,0:00:16.51,Dialogue,,0,0,0,,But I heard thumping sounds coming out.
+Dialogue: 0,0:00:16.62,0:00:19.17,Dialogue,,0,0,0,,It was in the rhythm 2-5-2.
+Dialogue: 0,0:00:19.20,0:00:24.36,Dialogue,,0,0,0,,It was the code meaning "someone in need of rescue" used by the Tokyo Fire Department.
+Dialogue: 0,0:00:24.98,0:00:28.61,Dialogue,,0,0,0,,We assumed someone was calling for help, so we started our search...
+Dialogue: 0,0:00:29.16,0:00:33.36,Dialogue,,0,0,0,,And it turned out that sound was from the demolition workers.
+Dialogue: 0,0:00:33.77,0:00:36.41,Dialogue,,0,0,0,,Just as we'd decided it was no big deal...
+Dialogue: 0,0:00:36.99,0:00:38.83,Dialogue,,0,0,0,,Conan-kun figured out.
+Dialogue: 0,0:00:38.83,0:00:42.50,Dialogue,,0,0,0,,They were actually bad guys who'd confining someone here.
+Dialogue: 0,0:00:43.17,0:00:47.82,Dialogue,,0,0,0,,We thought to call the police, but were discovered by the men...
+Dialogue: 0,0:00:47.85,0:00:51.42,Dialogue,,0,0,0,,And Conan was caught by them!
+Dialogue: 0,0:00:51.75,0:00:54.93,Dialogue,,0,0,0,,The building's exit was cut off, rendering us unable to escape.
+Dialogue: 0,0:00:54.93,0:00:58.68,Dialogue,,0,0,0,,There was no other way but to seek an opportunity to call the police, but...
+Dialogue: 0,0:00:58.92,0:01:02.98,Dialogue,,0,0,0,,If we were to do something like that, they would've caught us...
+Dialogue: 0,0:01:02.98,0:01:07.94,Dialogue,,0,0,0,,So, heeding Ai-chan's idea, we went ahead and tricked those bad men.
+Dialogue: 0,0:01:07.94,0:01:10.98,Dialogue,,0,0,0,,Our strategy seemed to have worked, but...
+Dialogue: 0,0:01:11.01,0:01:13.80,Dialogue,,0,0,0,,Even Haibara-san was captured in the end!
+Dialogue: 0,0:01:17.53,0:01:19.21,Dialogue,,0,0,0,,In the deciding moment that determines your future...
+Dialogue: 0,0:01:19.24,0:01:20.87,Dialogue,,0,0,0,,You cannot lie to yourself!
+Dialogue: 0,0:01:21.60,0:01:23.16,Dialogue,,0,0,0,,Decipher the radio code...
+Dialogue: 0,0:01:23.18,0:01:25.08,Dialogue,,0,0,0,,And get through the pinch, Detective Boys!
+Dialogue: 0,0:01:25.36,0:01:27.00,Dialogue,,0,0,0,,Perceiving the one and only truth...
+Dialogue: 0,0:01:27.00,0:01:28.92,Dialogue,,0,0,0,,The appearance of a child and the intellect of an adult...
+Dialogue: 0,0:01:28.92,0:01:31.01,Dialogue,,0,0,0,,His name is: Detective Conan!
+Dialogue: 0,0:03:12.27,0:03:17.90,Dialogue,,0,0,0,,EMERGENCY SITUATION 252\N(PART TWO)
+Dialogue: 0,0:03:19.42,0:03:20.48,Dialogue,,0,0,0,,Hey, Mitsuhiko!
+Dialogue: 0,0:03:20.50,0:03:21.61,Dialogue,,0,0,0,,Call the police!
+Dialogue: 0,0:03:21.64,0:03:22.36,Dialogue,,0,0,0,,Hurry, hurry!
+Dialogue: 0,0:03:22.98,0:03:24.57,Dialogue,,0,0,0,,It's ringing right now...
+Dialogue: 0,0:03:25.18,0:03:26.70,Dialogue,,0,0,0,,Hey, you brats!
+Dialogue: 0,0:03:27.33,0:03:28.39,Dialogue,,0,0,0,,Can you hear me!?
+Dialogue: 0,0:03:28.73,0:03:31.16,Dialogue,,0,0,0,,If you dare call the police or anything...
+Dialogue: 0,0:03:31.16,0:03:36.15,Dialogue,,0,0,0,,The brat with the auburn hair and the brat with the glasses will lose their lives, so you better think twice!
+Dialogue: 0,0:03:37.35,0:03:39.35,Dialogue,,0,0,0,,Hello, this is 110.
+Dialogue: 0,0:03:40.29,0:03:42.56,Dialogue,,0,0,0,,Is this about a crime, or an accident?
+Dialogue: 0,0:03:43.92,0:03:45.24,Dialogue,,0,0,0,,Hello?
+Dialogue: 0,0:03:45.26,0:03:46.17,Dialogue,,0,0,0,,Hello?
+Dialogue: 0,0:03:47.52,0:03:49.18,Dialogue,,0,0,0,,What's the matter?
+Dialogue: 0,0:03:49.21,0:03:50.21,Dialogue,,0,0,0,,Hello?
+Dialogue: 0,0:03:50.56,0:03:51.63,Dialogue,,0,0,0,,Hel-
+Dialogue: 0,0:03:52.06,0:03:53.52,Dialogue,,0,0,0,,Hey...
+Dialogue: 0,0:03:55.28,0:03:57.31,Dialogue,,0,0,0,,You're not telling the police?
+Dialogue: 0,0:03:58.01,0:03:59.71,Dialogue,,0,0,0,,I had no choice...
+Dialogue: 0,0:03:59.73,0:04:02.28,Dialogue,,0,0,0,,Conan-kun and Ai-chan will be in danger.
+Dialogue: 0,0:04:04.22,0:04:06.55,Dialogue,,0,0,0,,But what are we gonna do now?
+Dialogue: 0,0:04:06.57,0:04:07.43,Dialogue,,0,0,0,,What to do...
+Dialogue: 0,0:04:08.53,0:04:10.66,Dialogue,,0,0,0,,For now, let's hide somewhere!
+Dialogue: 0,0:04:22.17,0:04:24.28,Dialogue,,0,0,0,,The fact that we haven't heard any sirens...
+Dialogue: 0,0:04:24.31,0:04:27.55,Dialogue,,0,0,0,,Means those brats really did take our orders to heart.
+Dialogue: 0,0:04:29.04,0:04:31.76,Dialogue,,0,0,0,,Well, what do we do with these two brats?
+Dialogue: 0,0:04:31.79,0:04:35.38,Dialogue,,0,0,0,,Take them to the room on the fourth floor where we're holding that old man.
+Dialogue: 0,0:04:35.55,0:04:38.03,Dialogue,,0,0,0,,I'll find the rest of the brats and be back.
+Dialogue: 0,0:04:38.52,0:04:42.12,Dialogue,,0,0,0,,But, you really sure that old man's got money?
+Dialogue: 0,0:04:42.50,0:04:45.54,Dialogue,,0,0,0,,Yeah, he's rumored to have earned a boatload!
+Dialogue: 0,0:04:45.57,0:04:46.64,Dialogue,,0,0,0,,But...
+Dialogue: 0,0:04:46.67,0:04:49.70,Dialogue,,0,0,0,,When we called his house, no one answered, right?
+Dialogue: 0,0:04:49.72,0:04:51.25,Dialogue,,0,0,0,,She'll come home soon.
+Dialogue: 0,0:04:51.78,0:04:55.38,Dialogue,,0,0,0,,His only daughter who sometimes answers the phone and sounds like a middle-schooler, that is.
+Dialogue: 0,0:04:55.97,0:04:59.38,Dialogue,,0,0,0,,We'll threaten that girl and get her to bring the money here...
+Dialogue: 0,0:04:59.40,0:05:03.42,Dialogue,,0,0,0,,Then shut her up in this building as well, and set it on fire so we can get the hell out of Dodge.
+Dialogue: 0,0:05:03.45,0:05:04.53,Dialogue,,0,0,0,,You're right.
+Dialogue: 0,0:05:04.56,0:05:07.01,Dialogue,,0,0,0,,But those brats sure were unlucky.
+Dialogue: 0,0:05:07.82,0:05:12.51,Dialogue,,0,0,0,,If they hadn't come to play in this abandoned building, they wouldn't have ended up in ashes!
+Dialogue: 0,0:05:12.85,0:05:15.82,Dialogue,,0,0,0,,Well, I'm going to go look for the other rascals.
+Dialogue: 0,0:05:15.85,0:05:18.44,Dialogue,,0,0,0,,You'd better keep close watch on those two brats.
+Dialogue: 0,0:05:18.46,0:05:20.66,Dialogue,,0,0,0,,You never know what they'll do!
+Dialogue: 0,0:05:20.69,0:05:21.66,Dialogue,,0,0,0,,Yeah, yeah.
+Dialogue: 0,0:05:30.47,0:05:31.72,Dialogue,,0,0,0,,Damn!
+Dialogue: 0,0:05:32.52,0:05:34.24,Dialogue,,0,0,0,,Why aren't they anywhere!?
+Dialogue: 0,0:05:34.66,0:05:35.42,Dialogue,,0,0,0,,Hey...
+Dialogue: 0,0:05:35.63,0:05:37.83,Dialogue,,0,0,0,,It's already past 6:00!
+Dialogue: 0,0:05:38.74,0:05:43.41,Dialogue,,0,0,0,,If we don't hurry, these brats' parents will start to worry and make a big fuss...
+Dialogue: 0,0:05:43.43,0:05:45.46,Dialogue,,0,0,0,,What about that old man?
+Dialogue: 0,0:05:45.99,0:05:49.59,Dialogue,,0,0,0,,I mean the one we kidnapped and shut in that locker!
+Dialogue: 0,0:05:49.89,0:05:53.34,Dialogue,,0,0,0,,Ah, I peeked in earlier and found him snoring.
+Dialogue: 0,0:05:53.37,0:05:53.98,Dialogue,,0,0,0,,And?
+Dialogue: 0,0:05:54.00,0:05:56.04,Dialogue,,0,0,0,,Did you call that old man's house?
+Dialogue: 0,0:05:56.07,0:06:00.39,Dialogue,,0,0,0,,Yeah, I've been calling since a little while ago, but no one's picking up still.
+Dialogue: 0,0:06:01.19,0:06:05.44,Dialogue,,0,0,0,,Regardless, where could those brats have disappeared to?
+Dialogue: 0,0:06:05.99,0:06:08.21,Dialogue,,0,0,0,,Did you really search thoroughly?
+Dialogue: 0,0:06:08.24,0:06:09.48,Dialogue,,0,0,0,,Yeah!
+Dialogue: 0,0:06:09.51,0:06:12.66,Dialogue,,0,0,0,,I'm very methodical, unlike you, sloppy one.
+Dialogue: 0,0:06:13.09,0:06:15.03,Dialogue,,0,0,0,,I carefully searched every nook and cranny!
+Dialogue: 0,0:06:15.33,0:06:17.49,Dialogue,,0,0,0,,He still can't find them despite having done so...
+Dialogue: 0,0:06:18.86,0:06:24.29,Dialogue,,0,0,0,,Which means it should be safe to assume they're hiding in one of the lockers in this room.
+Dialogue: 0,0:06:31.81,0:06:34.78,Dialogue,,0,0,0,,They came to this room and hid themselves before we were brought here...
+Dialogue: 0,0:06:34.99,0:06:36.86,Dialogue,,0,0,0,,And can't come out now even if they wanted to.
+Dialogue: 0,0:06:37.55,0:06:38.81,Dialogue,,0,0,0,,We've got no choice.
+Dialogue: 0,0:06:38.84,0:06:41.30,Dialogue,,0,0,0,,If we search once more and still don't find them...
+Dialogue: 0,0:06:41.33,0:06:43.31,Dialogue,,0,0,0,,Let's set this place on fire and scram.
+Dialogue: 0,0:06:43.31,0:06:44.06,Dialogue,,0,0,0,,Yeah...
+Dialogue: 0,0:06:44.06,0:06:46.43,Dialogue,,0,0,0,,Looks like we'll have to give up on the money.
+Dialogue: 0,0:06:46.73,0:06:48.30,Dialogue,,0,0,0,,Start spreading the gasoline.
+Dialogue: 0,0:06:48.33,0:06:50.15,Dialogue,,0,0,0,,Aye, leave it to me!
+Dialogue: 0,0:06:50.66,0:06:52.31,Dialogue,,0,0,0,,What do we do?
+Dialogue: 0,0:06:52.33,0:06:54.16,Dialogue,,0,0,0,,We'll all be turned to ashes!
+Dialogue: 0,0:06:54.19,0:06:56.83,Dialogue,,0,0,0,,We've no choice but to take them down, do we?
+Dialogue: 0,0:06:56.85,0:06:58.24,Dialogue,,0,0,0,,You're right...
+Dialogue: 0,0:06:58.24,0:07:01.25,Dialogue,,0,0,0,,Perhaps this is our chance now that there's only one of them...
+Dialogue: 0,0:07:02.79,0:07:05.25,Dialogue,,0,0,0,,The sound just now was from the detective badge...
+Dialogue: 0,0:07:09.01,0:07:09.72,Dialogue,,0,0,0,,No doubt.
+Dialogue: 0,0:07:09.74,0:07:11.26,Dialogue,,0,0,0,,Could it be...
+Dialogue: 0,0:07:12.01,0:07:13.86,Dialogue,,0,0,0,,As I thought, it's Conan-kun!
+Dialogue: 0,0:07:14.43,0:07:17.54,Dialogue,,0,0,0,,Conan-kun's hitting the detective badge against the floor.
+Dialogue: 0,0:07:20.60,0:07:26.15,Dialogue,,0,0,0,,The sound just now came out twice, then five times, and finally four more times.
+Dialogue: 0,0:07:26.15,0:07:30.65,Dialogue,,0,0,0,,Isn't this the whachacallit code Mitsuhiko-kun said earlier?
+Dialogue: 0,0:07:30.65,0:07:33.46,Dialogue,,0,0,0,,It's the radio code used by the Tokyo Fire Department.
+Dialogue: 0,0:07:33.48,0:07:36.05,Dialogue,,0,0,0,,Let's see, 254 means...
+Dialogue: 0,0:07:36.08,0:07:37.12,Dialogue,,0,0,0,,"Wait in place"!
+Dialogue: 0,0:07:40.27,0:07:41.79,Dialogue,,0,0,0,,Yeah, that's right.
+Dialogue: 0,0:07:42.17,0:07:46.09,Dialogue,,0,0,0,,You guys, do not move from there under any circumstances until further instructed!
+Dialogue: 0,0:07:53.93,0:07:56.64,Dialogue,,0,0,0,,But the situation is pretty bad.
+Dialogue: 0,0:07:57.35,0:08:00.20,Dialogue,,0,0,0,,Our opponents are those two, who have kidnapped and confined some old man...
+Dialogue: 0,0:08:00.53,0:08:03.31,Dialogue,,0,0,0,,And are scheming to make off with the ransom money.
+Dialogue: 0,0:08:04.18,0:08:07.19,Dialogue,,0,0,0,,We came here to play by chance, but those two found us...
+Dialogue: 0,0:08:07.47,0:08:09.82,Dialogue,,0,0,0,,And Haibara and I have been captured and restrained.
+Dialogue: 0,0:08:11.25,0:08:16.36,Dialogue,,0,0,0,,And one of the kidnappers, with the intent to burn us all to death along with the hostage...
+Dialogue: 0,0:08:16.39,0:08:18.48,Dialogue,,0,0,0,,Is spreading the gasoline around the room.
+Dialogue: 0,0:08:18.50,0:08:20.99,Dialogue,,0,0,0,,And other is looking for Genta and the others.
+Dialogue: 0,0:08:21.38,0:08:26.47,Dialogue,,0,0,0,,But Genta and the others are likely hiding in one of the lockers in this confinement room...
+Dialogue: 0,0:08:26.50,0:08:27.99,Dialogue,,0,0,0,,And are unable to come out.
+Dialogue: 0,0:08:28.97,0:08:31.16,Dialogue,,0,0,0,,In order to make a breakthrough...
+Dialogue: 0,0:08:31.51,0:08:35.92,Dialogue,,0,0,0,,We have to make this guy who's been left on watch leave this 4th floor room, but...
+Dialogue: 0,0:08:38.12,0:08:39.14,Dialogue,,0,0,0,,This stinks!
+Dialogue: 0,0:08:39.76,0:08:43.22,Dialogue,,0,0,0,,Guess I'll finish spreading this thing right before we're ready to light it.
+Dialogue: 0,0:08:43.74,0:08:47.39,Dialogue,,0,0,0,,The only thing I can do with my mouth sealed and my four limbs tied...
+Dialogue: 0,0:08:48.17,0:08:52.73,Dialogue,,0,0,0,,Is to strike the detective badge against the floor and give coded directions to Genta and the others.
+Dialogue: 0,0:08:53.97,0:08:55.90,Dialogue,,0,0,0,,But how can I get the guy to leave like this?
+Dialogue: 0,0:08:56.68,0:09:00.78,Dialogue,,0,0,0,,Now, I'll try calling the house of that kidnapped old man again...
+Dialogue: 0,0:09:02.62,0:09:03.37,Dialogue,,0,0,0,,Phone?
+Dialogue: 0,0:09:04.05,0:09:05.21,Dialogue,,0,0,0,,That reminds me...
+Dialogue: 0,0:09:05.75,0:09:07.13,Dialogue,,0,0,0,,Huh?
+Dialogue: 0,0:09:07.16,0:09:09.75,Dialogue,,0,0,0,,Conan-kun, your cell phone's wallpaper...
+Dialogue: 0,0:09:09.77,0:09:11.71,Dialogue,,0,0,0,,It's that uncle from the detective agency!
+Dialogue: 0,0:09:12.19,0:09:12.88,Dialogue,,0,0,0,,Yeah...
+Dialogue: 0,0:09:12.88,0:09:17.88,Dialogue,,0,0,0,,Uncle came home drunk and messed with it a while ago, so now it's my wallpaper.
+Dialogue: 0,0:09:18.22,0:09:21.34,Dialogue,,0,0,0,,Ayumi's is a picture me playing with some sparklers.
+Dialogue: 0,0:09:21.80,0:09:24.43,Dialogue,,0,0,0,,It's in my backpack right now, but I'll show it to you later!
+Dialogue: 0,0:09:24.93,0:09:26.93,Dialogue,,0,0,0,,Mine is Kamen Yaiba!
+Dialogue: 0,0:09:27.39,0:09:28.44,Dialogue,,0,0,0,,What about Haibara-san?
+Dialogue: 0,0:09:29.98,0:09:31.44,Dialogue,,0,0,0,,The professor's sleeping face.
+Dialogue: 0,0:09:31.90,0:09:35.15,Dialogue,,0,0,0,,Mine is of a stray cat from my neighborhood...
+Dialogue: 0,0:09:35.32,0:09:38.15,Dialogue,,0,0,0,,But I think I lost my phone somewhere during kick-the-can.
+Dialogue: 0,0:09:40.11,0:09:40.78,Dialogue,,0,0,0,,Hold on...
+Dialogue: 0,0:09:42.24,0:09:45.20,Dialogue,,0,0,0,,My cell phone is on the second floor hallway where I passed out.
+Dialogue: 0,0:09:46.36,0:09:49.41,Dialogue,,0,0,0,,Ayumi-chan's is probably on the first floor, inside her backpack.
+Dialogue: 0,0:09:50.45,0:09:54.00,Dialogue,,0,0,0,,Genta's is likely somewhere on the third floor where he was hiding.
+Dialogue: 0,0:09:55.06,0:10:00.38,Dialogue,,0,0,0,,Haibara had her body searched by those guys before getting tied up, and she wasn't carrying her cell phone...
+Dialogue: 0,0:10:00.72,0:10:06.64,Dialogue,,0,0,0,,So her phone is possibly in her backpack that was kicked over there by one of the culprits earlier.
+Dialogue: 0,0:10:07.30,0:10:08.60,Dialogue,,0,0,0,,And there's Mitsuhiko's.
+Dialogue: 0,0:10:09.65,0:10:12.02,Dialogue,,0,0,0,,The way they're scattered around is perfect!
+Dialogue: 0,0:10:22.88,0:10:25.76,Dialogue,,0,0,0,,Damn, when the hell is she gonna come home?
+Dialogue: 0,0:10:25.79,0:10:27.87,Dialogue,,0,0,0,,That old geezer's daughter!
+Dialogue: 0,0:10:28.21,0:10:29.11,Dialogue,,0,0,0,,Hello?
+Dialogue: 0,0:10:33.05,0:10:34.00,Dialogue,,0,0,0,,What?
+Dialogue: 0,0:10:34.37,0:10:36.80,Dialogue,,0,0,0,,You say a young man answered the phone?
+Dialogue: 0,0:10:38.18,0:10:40.92,Dialogue,,0,0,0,,Did you really call that old geezer's house?
+Dialogue: 0,0:10:41.30,0:10:44.23,Dialogue,,0,0,0,,I couldn't have gotten the phone number wrong, man...
+Dialogue: 0,0:10:44.86,0:10:48.25,Dialogue,,0,0,0,,I hung up immediately and called again after confirming the number...
+Dialogue: 0,0:10:48.27,0:10:50.43,Dialogue,,0,0,0,,And the same guy answered!
+Dialogue: 0,0:10:51.56,0:10:52.44,Dialogue,,0,0,0,,And?
+Dialogue: 0,0:10:52.47,0:10:54.69,Dialogue,,0,0,0,,Did you say anything to that man?
+Dialogue: 0,0:10:54.71,0:10:56.15,Dialogue,,0,0,0,,How could I say anything?
+Dialogue: 0,0:10:56.17,0:10:58.60,Dialogue,,0,0,0,,I thought he was a cop so I hung up right away!
+Dialogue: 0,0:10:58.63,0:11:00.11,Dialogue,,0,0,0,,You idiot!
+Dialogue: 0,0:11:00.30,0:11:02.00,Dialogue,,0,0,0,,No way he could've been a cop!
+Dialogue: 0,0:11:02.02,0:11:05.12,Dialogue,,0,0,0,,Because no one should know yet whether he's been kidnapped or not!
+Dialogue: 0,0:11:06.01,0:11:07.02,Dialogue,,0,0,0,,But man...
+Dialogue: 0,0:11:07.05,0:11:08.92,Dialogue,,0,0,0,,This is different from what we'd planned!
+Dialogue: 0,0:11:09.08,0:11:13.70,Dialogue,,0,0,0,,The old geezer was supposed to live with his middle school-aged daughter who sometimes answered the phone...
+Dialogue: 0,0:11:13.73,0:11:17.88,Dialogue,,0,0,0,,And we were going to threaten her to bring the ransom money here, right?
+Dialogue: 0,0:11:18.06,0:11:20.29,Dialogue,,0,0,0,,This whole shit is getting real bad!
+Dialogue: 0,0:11:20.31,0:11:21.39,Dialogue,,0,0,0,,Yeah...
+Dialogue: 0,0:11:22.09,0:11:25.60,Dialogue,,0,0,0,,Guess we can't help it that this whole thing started stinking to high heaven.
+Dialogue: 0,0:11:25.63,0:11:27.44,Dialogue,,0,0,0,,Let's light the fire and scram!
+Dialogue: 0,0:11:27.46,0:11:31.05,Dialogue,,0,0,0,,We'll burn those brats to death along with the hostage!
+Dialogue: 0,0:11:31.38,0:11:33.51,Dialogue,,0,0,0,,"Light the fire and scram"?
+Dialogue: 0,0:11:33.53,0:11:36.06,Dialogue,,0,0,0,,But every one of those brats saw our faces!
+Dialogue: 0,0:11:36.36,0:11:37.27,Dialogue,,0,0,0,,Not good...
+Dialogue: 0,0:11:37.57,0:11:39.19,Dialogue,,0,0,0,,If we don't make a move soon...
+Dialogue: 0,0:11:39.54,0:11:42.71,Dialogue,,0,0,0,,What are we gonna do with the brats we haven't found yet?
+Dialogue: 0,0:11:42.74,0:11:43.71,Dialogue,,0,0,0,,Don't ask me!
+Dialogue: 0,0:11:47.31,0:11:49.76,Dialogue,,0,0,0,,There's sound coming from the detective badge again.
+Dialogue: 0,0:11:50.08,0:11:52.67,Dialogue,,0,0,0,,This time it was 5-5-5, huh.
+Dialogue: 0,0:11:52.69,0:11:55.72,Dialogue,,0,0,0,,555 is the code for "call to report".
+Dialogue: 0,0:11:56.04,0:11:58.67,Dialogue,,0,0,0,,So wouldn't that mean to "call the police"?
+Dialogue: 0,0:11:59.08,0:12:03.38,Dialogue,,0,0,0,,No, if it was that, it should be 554, "request for police".
+Dialogue: 0,0:12:03.92,0:12:06.13,Dialogue,,0,0,0,,Then where are we supposed to call?
+Dialogue: 0,0:12:14.17,0:12:15.27,Dialogue,,0,0,0,,The sound again.
+Dialogue: 0,0:12:16.54,0:12:19.02,Dialogue,,0,0,0,,The number of sounds is 9-5-3.
+Dialogue: 0,0:12:19.05,0:12:23.03,Dialogue,,0,0,0,,953 is the code signifying that the cause of fire is "playing with fire".
+Dialogue: 0,0:12:23.44,0:12:27.67,Dialogue,,0,0,0,,Doesn't that mean to call the police and tell them that those guys are planning to light the fire?
+Dialogue: 0,0:12:27.85,0:12:30.33,Dialogue,,0,0,0,,But "arson" should be 951.
+Dialogue: 0,0:12:30.67,0:12:33.83,Dialogue,,0,0,0,,So, does it mean to call someone who's playing with fire?
+Dialogue: 0,0:12:34.27,0:12:37.06,Dialogue,,0,0,0,,But, who's playing with fire?
+Dialogue: 0,0:12:37.08,0:12:39.58,Dialogue,,0,0,0,,I see, it's Ayumi-chan's cell phone.
+Dialogue: 0,0:12:40.29,0:12:46.47,Dialogue,,0,0,0,,He must mean to call Ayumi-chan's cell phone, which has the picture of the sparklers as its wallpaper!
+Dialogue: 0,0:12:50.12,0:12:51.50,Dialogue,,0,0,0,,Why are you freaking out?
+Dialogue: 0,0:12:51.53,0:12:53.43,Dialogue,,0,0,0,,Light the fire and get down here already!
+Dialogue: 0,0:12:53.64,0:12:56.64,Dialogue,,0,0,0,,We don't know where those other brats are hiding, but...
+Dialogue: 0,0:12:56.66,0:13:01.24,Dialogue,,0,0,0,,By the time they notice the building's on fire, they'll already be overcome by the smoke and won't be able to make it out!
+Dialogue: 0,0:13:02.33,0:13:03.36,Dialogue,,0,0,0,,Hold on.
+Dialogue: 0,0:13:03.57,0:13:05.11,Dialogue,,0,0,0,,A cell phone ringtone.
+Dialogue: 0,0:13:05.35,0:13:07.25,Dialogue,,0,0,0,,The brats are on the first floor!
+Dialogue: 0,0:13:10.55,0:13:11.60,Dialogue,,0,0,0,,Hey, where are you!?
+Dialogue: 0,0:13:11.62,0:13:13.08,Dialogue,,0,0,0,,Give up and come out!
+Dialogue: 0,0:13:13.11,0:13:14.10,Dialogue,,0,0,0,,Good.
+Dialogue: 0,0:13:14.13,0:13:14.99,Dialogue,,0,0,0,,The next one is...
+Dialogue: 0,0:13:24.04,0:13:26.25,Dialogue,,0,0,0,,This time it's 6-5-5.
+Dialogue: 0,0:13:26.28,0:13:29.09,Dialogue,,0,0,0,,655 means an "inebriated person".
+Dialogue: 0,0:13:29.09,0:13:31.34,Dialogue,,0,0,0,,It means someone who's really drunk.
+Dialogue: 0,0:13:31.36,0:13:33.05,Dialogue,,0,0,0,,In that case...
+Dialogue: 0,0:13:33.06,0:13:34.99,Dialogue,,0,0,0,,It's Conan-kun's cell phone!
+Dialogue: 0,0:13:35.02,0:13:39.89,Dialogue,,0,0,0,,Because its wallpaper is a picture of him and the drunk Uncle from the detective agency!
+Dialogue: 0,0:13:41.41,0:13:42.73,Dialogue,,0,0,0,,Hey, how goes it?
+Dialogue: 0,0:13:43.40,0:13:45.19,Dialogue,,0,0,0,,Did you find the brats?
+Dialogue: 0,0:13:45.19,0:13:47.74,Dialogue,,0,0,0,,About that, the ringtone suddenly stopped...
+Dialogue: 0,0:13:48.02,0:13:50.49,Dialogue,,0,0,0,,So maybe they turned off the phone.
+Dialogue: 0,0:13:51.39,0:13:52.74,Dialogue,,0,0,0,,Wait, upstairs!
+Dialogue: 0,0:13:53.77,0:13:56.08,Dialogue,,0,0,0,,A different ringtone is sounding on the floor above me!
+Dialogue: 0,0:13:56.48,0:13:57.82,Dialogue,,0,0,0,,Then, I'll go take a look...
+Dialogue: 0,0:13:57.84,0:13:59.65,Dialogue,,0,0,0,,No, I'll go!
+Dialogue: 0,0:13:59.67,0:14:02.04,Dialogue,,0,0,0,,You stay there and watch those brats!
+Dialogue: 0,0:14:11.20,0:14:13.76,Dialogue,,0,0,0,,Did they split up and hide in different places!?
+Dialogue: 0,0:14:19.31,0:14:23.20,Dialogue,,0,0,0,,Good, let's move on before he finishes climbing the stairs.
+Dialogue: 0,0:14:33.53,0:14:35.28,Dialogue,,0,0,0,,"Itinerant"?
+Dialogue: 0,0:14:35.31,0:14:40.04,Dialogue,,0,0,0,,Yeah, 658 is the code indicating an "itinerant".
+Dialogue: 0,0:14:40.06,0:14:41.35,Dialogue,,0,0,0,,What does that mean?
+Dialogue: 0,0:14:41.38,0:14:45.22,Dialogue,,0,0,0,,It's someone wo doesn't have a set place to live and loiters around.
+Dialogue: 0,0:14:45.24,0:14:46.94,Dialogue,,0,0,0,,So that would be...
+Dialogue: 0,0:14:47.21,0:14:50.01,Dialogue,,0,0,0,,The stray cat that's on my cell phone?
+Dialogue: 0,0:14:53.73,0:14:55.35,Dialogue,,0,0,0,,Another ringtone?
+Dialogue: 0,0:14:56.43,0:14:59.38,Dialogue,,0,0,0,,Hey, another ringtone's coming from the floor above again!
+Dialogue: 0,0:15:02.08,0:15:06.58,Dialogue,,0,0,0,,I can hear that sound faintly from where I am on the fourth floor too.
+Dialogue: 0,0:15:06.60,0:15:09.08,Dialogue,,0,0,0,,Can it be those brats are coming up here?
+Dialogue: 0,0:15:09.42,0:15:11.65,Dialogue,,0,0,0,,Good, and for the finale...
+Dialogue: 0,0:15:21.17,0:15:23.21,Dialogue,,0,0,0,,652 means a "bedridden senior".
+Dialogue: 0,0:15:23.23,0:15:24.76,Dialogue,,0,0,0,,That's gotta be...
+Dialogue: 0,0:15:24.78,0:15:26.31,Dialogue,,0,0,0,,Ai-chan's cell phone...
+Dialogue: 0,0:15:26.33,0:15:27.82,Dialogue,,0,0,0,,THE PROFESSOR'S SLEEPING FACE!
+Dialogue: 0,0:15:35.21,0:15:37.67,Dialogue,,0,0,0,,It sounded like those brats just now...
+Dialogue: 0,0:15:38.64,0:15:39.31,Dialogue,,0,0,0,,Hey...
+Dialogue: 0,0:15:41.84,0:15:45.06,Dialogue,,0,0,0,,Don't tell me they're in one of these lockers?
+Dialogue: 0,0:15:55.40,0:15:57.87,Dialogue,,0,0,0,,Detective Conan Episode 623\NFansub Release by DCTP\NOCR Nixx Car\NOCR Editing by DJ VK
+Dialogue: 0,0:16:06.59,0:16:07.47,Dialogue,,0,0,0,,Hey!
+Dialogue: 0,0:16:08.45,0:16:10.32,Dialogue,,0,0,0,,It's the vibration sound from a cell phone!
+Dialogue: 0,0:16:10.35,0:16:12.35,Dialogue,,0,0,0,,I can hear it coming from real close!
+Dialogue: 0,0:16:15.03,0:16:16.44,Dialogue,,0,0,0,,Hey, what now?
+Dialogue: 0,0:16:16.46,0:16:17.94,Dialogue,,0,0,0,,It stopped.
+Dialogue: 0,0:16:17.96,0:16:23.44,Dialogue,,0,0,0,,It seems those brats are getting in touch via cell phone and trying to find each other.
+Dialogue: 0,0:16:24.07,0:16:24.94,Dialogue,,0,0,0,,All right...
+Dialogue: 0,0:16:25.00,0:16:28.07,Dialogue,,0,0,0,,Block the door to that room with something, and you join the search too!
+Dialogue: 0,0:16:28.10,0:16:28.82,Dialogue,,0,0,0,,Got it!
+Dialogue: 0,0:16:28.85,0:16:30.91,Dialogue,,0,0,0,,I'll be waiting in ambush at the stairs.
+Dialogue: 0,0:16:30.91,0:16:34.12,Dialogue,,0,0,0,,You call out and threaten them so we can corner them from both flanks!
+Dialogue: 0,0:16:43.82,0:16:46.13,Dialogue,,0,0,0,,Well, this should do the trick.
+Dialogue: 0,0:16:46.15,0:16:48.61,Dialogue,,0,0,0,,Hey, you brats, come the hell out!
+Dialogue: 0,0:16:48.93,0:16:51.14,Dialogue,,0,0,0,,I know you're around here!
+Dialogue: 0,0:16:54.22,0:16:55.81,Dialogue,,0,0,0,,Strange...
+Dialogue: 0,0:16:55.83,0:16:57.55,Dialogue,,0,0,0,,I can't hear the sounds anymore.
+Dialogue: 0,0:16:57.58,0:16:59.06,Dialogue,,0,0,0,,Same here.
+Dialogue: 0,0:17:09.31,0:17:10.68,Dialogue,,0,0,0,,It's that brat's cell phone...
+Dialogue: 0,0:17:10.71,0:17:12.30,Dialogue,,0,0,0,,Dropped on the hallway floor!
+Dialogue: 0,0:17:12.39,0:17:13.99,Dialogue,,0,0,0,,What the hell?
+Dialogue: 0,0:17:14.19,0:17:19.06,Dialogue,,0,0,0,,The brats are calling each other's phone one by one in an attempt to confuse us!
+Dialogue: 0,0:17:19.08,0:17:21.30,Dialogue,,0,0,0,,Then where the hell are those brats?
+Dialogue: 0,0:17:22.48,0:17:24.71,Dialogue,,0,0,0,,That's it, I got it!
+Dialogue: 0,0:17:24.91,0:17:26.30,Dialogue,,0,0,0,,The confinement room!
+Dialogue: 0,0:17:27.17,0:17:30.65,Dialogue,,0,0,0,,This was all a strategy in order to get you out from that room!
+Dialogue: 0,0:17:31.19,0:17:33.58,Dialogue,,0,0,0,,So those brats are in that room?
+Dialogue: 0,0:17:33.61,0:17:34.54,Dialogue,,0,0,0,,Yeah.
+Dialogue: 0,0:17:34.57,0:17:36.51,Dialogue,,0,0,0,,Since those lockers haven't been searched even once!
+Dialogue: 0,0:17:37.00,0:17:40.34,Dialogue,,0,0,0,,Damn, so the brats' voices earlier really was...
+Dialogue: 0,0:17:40.37,0:17:41.15,Dialogue,,0,0,0,,Punks!
+Dialogue: 0,0:17:41.17,0:17:44.36,Dialogue,,0,0,0,,Stop dawdling, hurry back there and tie those brats up good!
+Dialogue: 0,0:17:44.38,0:17:47.02,Dialogue,,0,0,0,,Shit, those brats...
+Dialogue: 0,0:17:47.03,0:17:49.02,Dialogue,,0,0,0,,Little bastards tricked us!
+Dialogue: 0,0:17:49.74,0:17:51.39,Dialogue,,0,0,0,,Gotcha!
+Dialogue: 0,0:17:55.73,0:17:56.49,Dialogue,,0,0,0,,Hey!
+Dialogue: 0,0:17:56.78,0:17:58.01,Dialogue,,0,0,0,,Hey, what's wrong?
+Dialogue: 0,0:17:58.04,0:17:59.86,Dialogue,,0,0,0,,Did you find the brats?
+Dialogue: 0,0:17:59.89,0:18:00.89,Dialogue,,0,0,0,,Respond!
+Dialogue: 0,0:18:00.91,0:18:03.71,Dialogue,,0,0,0,,No, the brats are all gone!
+Dialogue: 0,0:18:03.74,0:18:05.63,Dialogue,,0,0,0,,They may have already called the police!
+Dialogue: 0,0:18:06.77,0:18:08.37,Dialogue,,0,0,0,,Things are bad so I'm outta here!
+Dialogue: 0,0:18:08.40,0:18:10.14,Dialogue,,0,0,0,,You'd better scram too!
+Dialogue: 0,0:18:10.16,0:18:11.35,Dialogue,,0,0,0,,Hey!
+Dialogue: 0,0:18:11.37,0:18:12.68,Dialogue,,0,0,0,,Hold on...
+Dialogue: 0,0:18:16.97,0:18:20.40,Dialogue,,0,0,0,,But, why are we letting the other guy get away?
+Dialogue: 0,0:18:20.42,0:18:23.48,Dialogue,,0,0,0,,It was just one more guy, so we could've just combined our strength and...
+Dialogue: 0,0:18:23.51,0:18:24.71,Dialogue,,0,0,0,,It's all right.
+Dialogue: 0,0:18:24.73,0:18:28.57,Dialogue,,0,0,0,,This guy here will tell the police all about the other culprit.
+Dialogue: 0,0:18:29.20,0:18:33.26,Dialogue,,0,0,0,,And since we've run out of weapons, there's no need to take a risky gamble.
+Dialogue: 0,0:18:44.61,0:18:45.37,Dialogue,,0,0,0,,No way...
+Dialogue: 0,0:18:45.38,0:18:47.16,Dialogue,,0,0,0,,I can hear footsteps!
+Dialogue: 0,0:18:47.72,0:18:49.50,Dialogue,,0,0,0,,They're coming closer and closer...
+Dialogue: 0,0:18:49.52,0:18:51.17,Dialogue,,0,0,0,,So he didn't flee?
+Dialogue: 0,0:19:03.73,0:19:05.00,Dialogue,,0,0,0,,You guys, stay back.
+Dialogue: 0,0:19:11.01,0:19:12.31,Dialogue,,0,0,0,,This feeling...
+Dialogue: 0,0:19:12.86,0:19:13.79,Dialogue,,0,0,0,,Could it be!?
+Dialogue: 0,0:19:25.62,0:19:27.12,Dialogue,,0,0,0,,Subaru-san...
+Dialogue: 0,0:19:27.69,0:19:29.22,Dialogue,,0,0,0,,Why are you here?
+Dialogue: 0,0:19:29.24,0:19:30.32,Dialogue,,0,0,0,,Well, see...
+Dialogue: 0,0:19:30.35,0:19:33.99,Dialogue,,0,0,0,,It's getting dark, but the lights at the professor's house never came on.
+Dialogue: 0,0:19:34.02,0:19:38.16,Dialogue,,0,0,0,,So I got curious and checked it out, but found the front door left unlocked...
+Dialogue: 0,0:19:38.18,0:19:39.88,Dialogue,,0,0,0,,With neither the professor nor that child in sight.
+Dialogue: 0,0:19:40.70,0:19:46.10,Dialogue,,0,0,0,,Just as I was pondering what might have happened, two silent calls came in back-to-back.
+Dialogue: 0,0:19:46.12,0:19:50.41,Dialogue,,0,0,0,,I thought perhaps the two of them had gotten caught up in some sort of case...
+Dialogue: 0,0:19:50.43,0:19:53.98,Dialogue,,0,0,0,,So, using these spare pursuit glasses in the professor's room...
+Dialogue: 0,0:19:54.00,0:19:59.28,Dialogue,,0,0,0,,I ascertained the location of your detective badges, and finally made my way here.
+Dialogue: 0,0:19:59.61,0:20:02.36,Dialogue,,0,0,0,,Then, could it be the kidnapped old man is...
+Dialogue: 0,0:20:02.64,0:20:03.16,Dialogue,,0,0,0,,Yeah.
+Dialogue: 0,0:20:03.76,0:20:05.71,Dialogue,,0,0,0,,You all know him very well...
+Dialogue: 0,0:20:10.49,0:20:12.17,Dialogue,,0,0,0,,It's Professor Agasa!
+Dialogue: 0,0:20:13.50,0:20:15.77,Dialogue,,0,0,0,,Professor!
+Dialogue: 0,0:20:15.79,0:20:18.46,Dialogue,,0,0,0,,The fact that the front door was unlocked...
+Dialogue: 0,0:20:18.48,0:20:22.74,Dialogue,,0,0,0,,Means the kidnappers likely disguised as home delivery staff and got into the house...
+Dialogue: 0,0:20:22.76,0:20:25.10,Dialogue,,0,0,0,,Abducted the professor and confined him here.
+Dialogue: 0,0:20:25.90,0:20:29.15,Dialogue,,0,0,0,,Since the professor invents all sorts of things...
+Dialogue: 0,0:20:30.51,0:20:33.38,Dialogue,,0,0,0,,They mistook that to mean he's considerably rich.
+Dialogue: 0,0:20:33.40,0:20:34.52,Dialogue,,0,0,0,,So true...
+Dialogue: 0,0:20:35.50,0:20:40.16,Dialogue,,0,0,0,,Most of the professor's inventions are junk, and he's actually getting poorer...
+Dialogue: 0,0:20:40.50,0:20:44.03,Dialogue,,0,0,0,,Then, the middle-school-aged daughter who sometimes answers the phone...
+Dialogue: 0,0:20:44.05,0:20:46.12,Dialogue,,0,0,0,,Was in fact Haibara, right?
+Dialogue: 0,0:20:46.12,0:20:49.62,Dialogue,,0,0,0,,Since Ai-chan's voice and her way of speech are like an adult's!
+Dialogue: 0,0:20:49.93,0:20:51.67,Dialogue,,0,0,0,,Anyway, Subaru-san...
+Dialogue: 0,0:20:51.69,0:20:53.66,Dialogue,,0,0,0,,Did you happen to see the other culprit?
+Dialogue: 0,0:20:53.69,0:20:54.81,Dialogue,,0,0,0,,Yeah.
+Dialogue: 0,0:20:54.83,0:20:56.88,Dialogue,,0,0,0,,He was out cold near the stairs.
+Dialogue: 0,0:20:57.42,0:21:01.76,Dialogue,,0,0,0,,He must have been frantically trying to flee, and lost his footing on the steps.
+Dialogue: 0,0:21:01.79,0:21:04.37,Dialogue,,0,0,0,,But Subaru-san's just like Superman!
+Dialogue: 0,0:21:04.40,0:21:07.75,Dialogue,,0,0,0,,To have caught on to the abnormalities and come to rescue us!
+Dialogue: 0,0:21:07.77,0:21:08.64,Dialogue,,0,0,0,,Yeah, right.
+Dialogue: 0,0:21:10.83,0:21:14.79,Dialogue,,0,0,0,,Coming to check on the situation just because the house lights weren't on...
+Dialogue: 0,0:21:14.82,0:21:17.36,Dialogue,,0,0,0,,It's as if he had been keeping watch the entire time.
+Dialogue: 0,0:21:28.65,0:21:29.83,Dialogue,,0,0,0,,Yeah.
+Dialogue: 0,0:21:29.85,0:21:33.33,Dialogue,,0,0,0,,It's true that I had been keeping watch for your return the entire time.
+Dialogue: 0,0:21:37.80,0:21:41.65,Dialogue,,0,0,0,,I made too much curry for lunch today, so I was thinking of sharing some.
+Dialogue: 0,0:21:41.67,0:21:42.86,Dialogue,,0,0,0,,Curry!
+Dialogue: 0,0:21:42.89,0:21:47.06,Dialogue,,0,0,0,,Then, we should all go to the professor's house tomorrow at noon for curry!
+Dialogue: 0,0:21:47.08,0:21:49.33,Dialogue,,0,0,0,,Next-day curry is the best, you know!
+Dialogue: 0,0:23:19.02,0:23:20.57,Dialogue,,0,0,0,,The Next Day
+Dialogue: 0,0:23:20.57,0:23:24.00,Dialogue,,0,0,0,,You kicked the wall without knowing what 252 was!?
+Dialogue: 0,0:23:24.38,0:23:27.16,Dialogue,,0,0,0,,Yeah, since I heard everyone's voices...
+Dialogue: 0,0:23:27.16,0:23:29.95,Dialogue,,0,0,0,,I kicked the wall while clinging to that bit of hope.
+Dialogue: 0,0:23:30.20,0:23:33.61,Dialogue,,0,0,0,,Conveying my thoughts of, "Hurry, call the police here, right now!"
+Dialogue: 0,0:23:39.53,0:23:40.62,Dialogue,,0,0,0,,Hur-ry...
+Dialogue: 0,0:23:40.64,0:23:42.38,Dialogue,,0,0,0,,Call the po-lice here...
+Dialogue: 0,0:23:42.38,0:23:43.25,Dialogue,,0,0,0,,Right now...
+Dialogue: 0,0:23:43.91,0:23:46.98,Dialogue,,0,0,0,,So the rhythm 2-5-2 was just a fluke...
+Dialogue: 0,0:23:47.12,0:23:50.55,Dialogue,,0,0,0,,It's wonderful that you guys understood my intention.
+Dialogue: 0,0:23:50.82,0:23:53.63,Dialogue,,0,0,0,,Goes to show you can transmit your thoughts if you try!
+Dialogue: 0,0:23:55.23,0:23:58.19,Dialogue,,0,0,0,,Who would've {\i1}thought{\i0} that my voice was that old...
+Dialogue: 0,0:24:00.15,0:24:24.05,Новый,,0,0,0,,Next Episode
+Dialogue: 0,0:24:00.90,0:24:05.80,Dialogue,,0,0,0,,You were looking for a reply to a love letter from 13 years ago?
+Dialogue: 0,0:24:05.92,0:24:07.32,Dialogue,,0,0,0,,See, it's this girl.
+Dialogue: 0,0:24:07.89,0:24:09.49,Dialogue,,0,0,0,,How cute!
+Dialogue: 0,0:24:10.49,0:24:14.15,Dialogue,,0,0,0,,Since that special effects drama is a memory of her...
+Dialogue: 0,0:24:14.17,0:24:16.38,Dialogue,,0,0,0,,And it's etched deeply into my mind.
+Dialogue: 0,0:24:17.07,0:24:17.68,Dialogue,,0,0,0,,Video?
+Dialogue: 0,0:24:18.51,0:24:24.07,Dialogue,,0,0,0,,Perhaps it was left somewhere in here as a video letter?
+Dialogue: 0,0:24:24.09,0:24:29.09,Dialogue,,0,0,0,,VIDEO LETTER OF FIRST LOVE
+Dialogue: 0,0:24:46.05,0:24:48.58,Dialogue,,0,0,0,,Next Conan's Hint
+Dialogue: 0,0:24:48.61,0:24:50.20,Dialogue,,0,0,0,,Prone To Sweat A Lot
+Dialogue: 0,0:24:50.22,0:24:54.99,Новый,,0,0,0,,Look Forward to the Next Episode
+Dialogue: 0,0:24:50.40,0:24:52.27,Dialogue,,0,0,0,,The next episode is about Detective Chiba's first love!
+Dialogue: 0,0:24:52.24,0:24:53.97,Dialogue,,0,0,0,,First love - it's a thing in the past.
+Dialogue: 0,0:24:53.99,0:24:54.89,Dialogue,,0,0,0,,In the past?
