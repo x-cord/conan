@@ -1,0 +1,411 @@
+[Script Info]
+Title: Detective Conan - 0357
+TL Source: UTB
+ScriptType: v4.00+
+WrapStyle: 3
+PlayResX: 1440
+PlayResY: 1080
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Dialogue,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00401311,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Dialogue Top,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00401311,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,8,30,30,55,1
+Style: Signs,FrancophilSans,74,&H14FFFFFF,&H00FFFFFF,&H46101010,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,8,30,30,55,1
+Style: Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,0,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Radio,FrancophilSans,74,&H00BEE1FF,&H00FFFFFF,&H000B2A42,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Narration,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00BF6F00,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Narration Off,FrancophilSans,74,&H6E8C6F00,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,0,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Flashback,FrancophilSans,74,&H00CDFAFF,&H00FFFFFF,&H00373737,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Flashback Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00CCFFFF,&HC0313134,-1,0,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Honorifics - Dialogue,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00401311,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Signs,FrancophilSans,74,&H14FFFFFF,&H00FFFFFF,&H46101010,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,-1,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Honorifics - Radio,FrancophilSans,74,&H00BEE1FF,&H00FFFFFF,&H000B2A42,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Narration,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00BF6F00,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Narration Off,FrancophilSans,74,&H6E8C6F00,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,-1,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Honorifics - Flashback,FrancophilSans,74,&H00CDFAFF,&H00FFFFFF,&H00373737,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Flashback Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00CCFFFF,&HC0313134,-1,-1,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Masks,FrancophilSans,74,&H00000000,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,2,0,0,0,1
+Style: Title,Conan Episode Title,74,&H00E1E4E3,&H000000FF,&HC8DBDAE1,&HC0000000,-1,0,0,0,100,100,0,0,1,1,0,5,0,0,0,1
+Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-1,0,0,0,100,100,0,0,1,0,0,2,0,0,65,1
+Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
+Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
+Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:19.95,0:00:22.38,Dialogue,,0,0,0,,Today's case is hard to take in
+Dialogue: 0,0:00:22.42,0:00:23.58,Dialogue,,0,0,0,,It may not be right,
+Dialogue: 0,0:00:23.59,0:00:24.28,Dialogue,,0,0,0,,It may not be right,
+Dialogue: 0,0:00:24.29,0:00:25.89,Dialogue,,0,0,0,,but a person's warmth is hard to erase
+Dialogue: 0,0:00:25.89,0:00:27.76,Dialogue,,0,0,0,,He sees through the one and only truth
+Dialogue: 0,0:00:27.76,0:00:29.62,Dialogue,,0,0,0,,A child in appearance with\Nthe I.Q. of an adult
+Dialogue: 0,0:00:29.62,0:00:31.76,Dialogue,,0,0,0,,ENO case-is lefttunsolved with.\NDetective. Conan.
+Dialogue: 0,0:01:55.78,0:01:56.64,Dialogue,,0,0,0,,Conan,\Nwhat do you want to eat tonight?
+Dialogue: 0,0:01:56.64,0:01:59.28,Dialogue,,0,0,0,,Conan,\Nwhat do you want to eat tonight?
+Dialogue: 0,0:02:00.05,0:02:02.47,Dialogue,,0,0,0,,We had fish last night. so...
+Dialogue: 0,0:02:02.47,0:02:06.22,Dialogue,,0,0,0,,tonight let's have...
+Dialogue: 0,0:02:06.22,0:02:08.09,Dialogue,,0,0,0,,Right!! Let's have meat!
+Dialogue: 0,0:02:08.09,0:02:08.62,Dialogue,,0,0,0,,Huh'!
+Dialogue: 0,0:02:08.62,0:02:10.49,Dialogue,,0,0,0,,Meat! Meat!
+Dialogue: 0,0:02:10.49,0:02:13.43,Dialogue,,0,0,0,,I thought*we had meat\Njust the other day
+Dialogue: 0,0:02:13.43,0:02:17.16,Dialogue,,0,0,0,,Huh? Conan!!
+Dialogue: 0,0:02:17.16,0:02:19.30,Dialogue,,0,0,0,,I'll take it...
+Dialogue: 0,0:02:19.30,0:02:23.80,Dialogue,,0,0,0,,Ran=are.you sure we re eating\Nexpensive steak like this tonight?
+Dialogue: 0,0:02:23.84,0:02:25.44,Dialogue,,0,0,0,,Of course not...\NRan...
+Dialogue: 0,0:02:25.44,0:02:28.38,Dialogue,,0,0,0,,I thought so...\NCome on...\NYou're Ran. aren't you...?
+Dialogue: 0,0:02:28.38,0:02:31.85,Dialogue,,0,0,0,,Sachiko...
+Dialogue: 0,0:02:31.85,0:02:34.51,Dialogue,,0,0,0,,Ran... who is she?
+Dialogue: 0,0:02:34.52,0:02:37.72,Dialogue,,0,0,0,,Remember?\NBack when I dropped my student pass?
+Dialogue: 0,0:02:37.72,0:02:39.85,Dialogue,,0,0,0,,She the one who found it\Nand delivered it to me.
+Dialogue: 0,0:02:39.85,0:02:41.99,Dialogue,,0,0,0,,Oh. she's"the-one...
+Dialogue: 0,0:02:42.12,0:02:43.86,Dialogue,,0,0,0,,There... How's this...
+Dialogue: 0,0:02:43.86,0:02:45.99,Dialogue,,0,0,0,,h... Yes. I'll take it.
+Dialogue: 0,0:02:45.99,0:02:50.53,Dialogue,,0,0,0,,You're the one
+Dialogue: 0,0:02:50.53,0:02:51.83,Dialogue,,0,0,0,,who bought that high grade\Nexpensive steak meat a while ago...
+Dialogue: 0,0:02:51.87,0:02:54.80,Dialogue,,0,0,0,,Ufuh, fuh, fun.\NOh, Conan, stop that, will you...
+Dialogue: 0,0:02:54.80,0:02:59.07,Dialogue,,0,0,0,,But that wine sure looks\Nsuper expensive...
+Dialogue: 0,0:02:59.07,0:03:05.21,Dialogue,,0,0,0,,You see. «today is a specialiday...\NMy steady's coming over...
+Dialogue: 0,0:03:05.21,0:03:06.81,Dialogue,,0,0,0,,Oh!!!
+Dialogue: 0,0:03:06.81,0:03:12.15,Dialogue,,0,0,0,,Sachiko is a super career woman...
+Dialogue: 0,0:03:12.15,0:03:15.09,Dialogue,,0,0,0,,I didn't think she was interested\Nat all in men,
+Dialogue: 0,0:03:15.09,0:03:18.56,Dialogue,,0,0,0,,but I'm surprised she has a boyfriend.
+Dialogue: 0,0:03:18.56,0:03:22.56,Dialogue,,0,0,0,,Somebody that she can cook for...
+Dialogue: 0,0:03:22.56,0:03:27.33,Dialogue,,0,0,0,,Ran... You have people\Nyou can cook for too. Ran
+Dialogue: 0,0:03:27.37,0:03:32.42,Dialogue,,0,0,0,,But. Shinichi hasn't been home at all...
+Dialogue: 0,0:03:32.42,0:03:35.34,Dialogue,,0,0,0,,No. I meant Pops and me.
+Dialogue: 0,0:03:35.38,0:03:38.05,Dialogue,,0,0,0,,oh? .\NRight!
+Dialogue: 0,0:03:38.05,0:03:41.78,Dialogue,,0,0,0,,However, the following day...
+Dialogue: 0,0:03:41.78,0:03:47.39,Dialogue,,0,0,0,,She was killed?\NShe was living alone.
+Dialogue: 0,0:03:47.39,0:03:52.73,Dialogue,,0,0,0,,Sachiko?!
+Dialogue: 0,0:03:52.79,0:03:55.93,Dialogue,,0,0,0,,Sachiko?!
+Dialogue: 0,0:03:57.23,0:04:00.73,Dialogue,,0,0,0,,Illusionary Spring Lover
+Dialogue: 0,0:04:05.51,0:04:09.01,Dialogue,,0,0,0,,This is not 2 case where we need you 10\Nhave come all the way out for Mr Mourn
+Dialogue: 0,0:04:09.01,0:04:12.98,Dialogue,,0,0,0,,My daughter owes her a lot...
+Dialogue: 0,0:04:13.01,0:04:15.15,Dialogue,,0,0,0,,I'd like to at least be informed of\Nthe circumstances...
+Dialogue: 0,0:04:15.28,0:04:15.78,Dialogue,,0,0,0,,The body was found by...
+Dialogue: 0,0:04:16.02,0:04:16.25,Dialogue,,0,0,0,,The body was found by...
+Dialogue: 0,0:04:16.28,0:04:18.05,Dialogue,,0,0,0,,401$\NThe body was found by...
+Dialogue: 0,0:04:18.09,0:04:20.19,Dialogue,,0,0,0,,a colleague of hers
+Dialogue: 0,0:04:20.19,0:04:21.02,Dialogue,,0,0,0,,that had doubts about her nottfcomingato\Nwork without reporting her absence,
+Dialogue: 0,0:04:21.02,0:04:22.59,Dialogue,,0,0,0,,came to visit her...
+Dialogue: 0,0:04:22.59,0:04:23.42,Dialogue,,0,0,0,,The cause of death is
+Dialogue: 0,0:04:23.42,0:04:26.63,Dialogue,,0,0,0,,fractured skull from a sharp blow on\Nthe back of her head
+Dialogue: 0,0:04:26.63,0:04:30.10,Dialogue,,0,0,0,,The weapon is.a bronze figurine\Nat was found in the roon
+Dialogue: 0,0:04:30.10,0:04:35.69,Dialogue,,0,0,0,,The estimated time of her death is\NIast night from 19:00 to 20:00...
+Dialogue: 0,0:04:35.69,0:04:37.82,Dialogue,,0,0,0,,In the middle of dinner. eh...
+Dialogue: 0,0:04:37.82,0:04:41.58,Dialogue,,0,0,0,,Um. was Sachiko a smoker?
+Dialogue: 0,0:04:43.70,0:04:46.38,Dialogue,,0,0,0,,If not. this side is Sachikorgrseat
+Dialogue: 0,0:04:46.38,0:04:49.58,Dialogue,,0,0,0,,and the other side as\Nthe seat of her guest who was a smoker
+Dialogue: 0,0:04:49.58,0:04:53.82,Dialogue,,0,0,0,,- Oar\NIt's no doubt that someone such as\N«her boyfriend-came to visit her.
+Dialogue: 0,0:04:53.82,0:04:54.92,Dialogue,,0,0,0,,am» Ue\NAt about 19:30
+Dialogue: 0,0:04:54.92,0:04:55.36,Dialogue,,0,0,0,,am gar\NMs: Nishimura... the woman living next\Ndoor heard Sachiko talking to her guest.
+Dialogue: 0,0:04:55.36,0:04:59.73,Dialogue,,0,0,0,,Ms. Nishimura, the woman living next\Ndoor heard Sachiko talking to her guest.
+Dialogue: 0,0:04:59.73,0:05:03.73,Dialogue,,0,0,0,,Promise to take me with you next time,\Nokay?
+Dialogue: 0,0:05:03.73,0:05:07.77,Dialogue,,0,0,0,,It's not fair that you go to see such a\Nwonderful fenery all by yourself!
+Dialogue: 0,0:05:07.77,0:05:08.10,Dialogue,,0,0,0,,Agh?!\NMaybe I over cooked it. the steak!
+Dialogue: 0,0:05:08.10,0:05:12.57,Dialogue,,0,0,0,,Aqgh 2!\NMaybe I over cooked it, the steak!
+Dialogue: 0,0:05:14.41,0:05:17.38,Dialogue,,0,0,0,,It seems that her boyfriend's hobby\Nwas mountain climbing.
+Dialogue: 0,0:05:17.38,0:05:19.78,Dialogue,,0,0,0,,We found this picture ihere
+Dialogue: 0,0:05:24.55,0:05:27.52,Dialogue,,0,0,0,,Her boyfriend's probably responsible for\Nthis crime.
+Dialogue: 0,0:05:27.62,0:05:29.12,Dialogue,,0,0,0,,Why?!
+Dialogue: 0,0:05:29.12,0:05:35.26,Dialogue,,0,0,0,,If someone came in and attacked\NSachiko all of a sudden...
+Dialogue: 0,0:05:35.26,0:05:37.40,Dialogue,,0,0,0,,Where did her boyfriend disappear to
+Dialogue: 0,0:05:37.40,0:05:39.53,Dialogue,,0,0,0,,without even reporting\Nthe incident to the police...?
+Dialogue: 0,0:05:39.53,0:05:40.80,Dialogue,,0,0,0,,Well...
+Dialogue: 0,0:05:41.14,0:05:42.20,Dialogue,,0,0,0,,rue.
+Dialogue: 0,0:05:42.20,0:05:42.47,Dialogue,,0,0,0,,Like I was saying, it's not an incident\Nthat calls for your help...
+Dialogue: 0,0:05:42.47,0:05:45.67,Dialogue,,0,0,0,,Lo. < Fe.\NLike I was saying, it's not an incident\Nthat calls for your help...
+Dialogue: 0,0:05:45.67,0:05:49.14,Dialogue,,0,0,0,,The police thinks that\Nher boyfriend is the killer too?!
+Dialogue: 0,0:05:49.14,0:05:52.08,Dialogue,,0,0,0,,There is no other possibility'taking into\Nconsideration-the circumstances...
+Dialogue: 0,0:05:53.65,0:06:01.69,Dialogue,,0,0,0,,Takagi here. None? Not even one?\NAll right.
+Dialogue: 0,0:06:01.69,0:06:04.09,Dialogue,,0,0,0,,It s from the forensic officer.
+Dialogue: 0,0:06:04.09,0:06:06.23,Dialogue,,0,0,0,,They found no fingerprints\Nwhat so.ever other than
+Dialogue: 0,0:06:06.23,0:06:08.10,Dialogue,,0,0,0,,that of Ms Sachiko Nishimura from the\Nbronze figurine
+Dialogue: 0,0:06:08.10,0:06:09.96,Dialogue,,0,0,0,,that is thought to be the murder weapon,
+Dialogue: 0,0:06:09.96,0:06:11.30,Dialogue,,0,0,0,,the picture of the mountain,\Nor the wine glass
+Dialogue: 0,0:06:11.30,0:06:16.10,Dialogue,,0,0,0,,that they both were thought to\Nhave toasted with.
+Dialogue: 0,0:06:16.10,0:06:18.77,Dialogue,,0,0,0,,No fingerprints left?!
+Dialogue: 0,0:06:18.97,0:06:21.44,Dialogue,,0,0,0,,No traces of them\Nbeing wiped off either...
+Dialogue: 0,0:06:21.44,0:06:25.98,Dialogue,,0,0,0,,If so... this as a carefully\Nplanned homicide
+Dialogue: 0,0:06:25.98,0:06:26.58,Dialogue,,0,0,0,,He came to visit her after he made sure\Nthat no fingerprints
+Dialogue: 0,0:06:26.58,0:06:30.52,Dialogue,,0,0,0,,He came to visit her after he made sure\Nthat no fingerprints
+Dialogue: 0,0:06:30.52,0:06:32.92,Dialogue,,0,0,0,,would bereft behind...
+Dialogue: 0,0:06:37.16,0:06:42.80,Dialogue,,0,0,0,,Promise that you'll\Ntake me with you next time.
+Dialogue: 0,0:06:45.70,0:06:50.80,Dialogue,,0,0,0,,Aghvd=... Maybe I over cooked Ww?
+Dialogue: 0,0:06:50.81,0:06:54.27,Dialogue,,0,0,0,,And. a while after they began eating.
+Dialogue: 0,0:06:55.84,0:06:58.25,Dialogue,,0,0,0,,Me made Sachiko get up from her seat...
+Dialogue: 0,0:07:03.05,0:07:04.28,Dialogue,,0,0,0,,Why /!
+Dialogue: 0,0:07:04.29,0:07:05.49,Dialogue,,0,0,0,,Why?!
+Dialogue: 0,0:07:05.49,0:07:08.69,Dialogue,,0,0,0,,Why do you say it's her boyfriend\Nthat did that?!
+Dialogue: 0,0:07:08.82,0:07:10.82,Dialogue,,0,0,0,,He was after her money...
+Dialogue: 0,0:07:11.89,0:07:13.23,Dialogue,,0,0,0,,There is nothing valuable
+Dialogue: 0,0:07:13.23,0:07:14.83,Dialogue,,0,0,0,,such as money and jewelry\Nanywhere in sight
+Dialogue: 0,0:07:14.83,0:07:18.83,Dialogue,,0,0,0,,That's hard to believe, isn't it. Conan?
+Dialogue: 0,0:07:18.83,0:07:23.37,Dialogue,,0,0,0,,UN AM\NBecause Sachiko looked so happy\Nyesterday. didn't she...?
+Dialogue: 0,0:07:23.37,0:07:28.18,Dialogue,,0,0,0,,Todayis~a special day...\NMy steady's coming over today...
+Dialogue: 0,0:07:28.18,0:07:36.18,Dialogue,,0,0,0,,That boyfriend couldn't have killed her!\NRight, Conan?!
+Dialogue: 0,0:07:36.25,0:07:36.68,Dialogue,,0,0,0,,Y. Yep...
+Dialogue: 0,0:07:38.59,0:07:43.62,Dialogue,,0,0,0,,If so then, Ran...\Nwhere did that man disappear to?...
+Dialogue: 0,0:07:43.66,0:07:47.11,Dialogue,,0,0,0,,It's strange that he left no fingerprints\Nbehind either.
+Dialogue: 0,0:07:51.10,0:07:55.67,Dialogue,,0,0,0,,Huh?... Something doesn't feel right...\NI wonder what it is'?
+Dialogue: 0,0:07:55.67,0:07:58.87,Dialogue,,0,0,0,,62g)\NI confirmed with a colleague of hers...
+Dialogue: 0,0:07:58.87,0:08:01.01,Dialogue,,0,0,0,,was told that she started going with\Nher boyfriend
+Dialogue: 0,0:08:01.01,0:08:02.88,Dialogue,,0,0,0,,about six months ago.
+Dialogue: 0,0:08:02.88,0:08:05.31,Dialogue,,0,0,0,,However,\NIt seemed that heywas really busy
+Dialogue: 0,0:08:05.31,0:08:07.45,Dialogue,,0,0,0,,or something that\Nhe only came to visit her
+Dialogue: 0,0:08:07.45,0:08:09.58,Dialogue,,0,0,0,,on the 25th of each month...
+Dialogue: 0,0:08:09.58,0:08:12.22,Dialogue,,0,0,0,,So: it seemed that Ms. Nishimura\Nalways seemed excited
+Dialogue: 0,0:08:12.25,0:08:15.99,Dialogue,,0,0,0,,from, morning on the 25th.
+Dialogue: 0,0:08:15.99,0:08:18.93,Dialogue,,0,0,0,,Yesterday was also the 25th...
+Dialogue: 0,0:08:18.93,0:08:23.73,Dialogue,,0,0,0,,I wonder if there's any meaning to\Nthe fact that he only comes to visit her
+Dialogue: 0,0:08:23.73,0:08:26.40,Dialogue,,0,0,0,,on the 25th of each month?
+Dialogue: 0,0:08:26.40,0:08:28.80,Dialogue,,0,0,0,,It"seems that even that colleague though.
+Dialogue: 0,0:08:28.80,0:08:32.01,Dialogue,,0,0,0,,Was never told what\Nher boyfriend's name was.
+Dialogue: 0,0:08:32.01,0:08:35.21,Dialogue,,0,0,0,,Which means we have no clue\Nwhat so ever?
+Dialogue: 0,0:08:35.21,0:08:39.21,Dialogue,,0,0,0,,'Went to visit her best friend since her\Nschool days who lives nearby too. but...
+Dialogue: 0,0:08:39.21,0:08:43.22,Dialogue,,0,0,0,,Ohno, Sachiko-couldn't have been
+Dialogue: 0,0:08:43.22,0:08:46.15,Dialogue,,0,0,0,,I just swung at air...
+Dialogue: 0,0:08:47.46,0:08:51.76,Dialogue,,0,0,0,,She didn't even know\Nshe had a boyfriend.
+Dialogue: 0,0:08:51.76,0:08:52.16,Dialogue,,0,0,0,,She hid the fact from her best friend?\NWhy. .7?
+Dialogue: 0,0:08:52.16,0:08:56.56,Dialogue,,0,0,0,,She hid the fact from her best friend?\NTyy/
+Dialogue: 0,0:08:56.56,0:09:00.03,Dialogue,,0,0,0,,At any rate, that does it, Ran.\NIt's her boyfriend.
+Dialogue: 0,0:09:05.57,0:09:07.51,Dialogue,,0,0,0,,[We'll try to crack who the Killer is
+Dialogue: 0,0:09:07.51,0:09:09.68,Dialogue,,0,0,0,,from among her acquaintances\Nas soon as possible.
+Dialogue: 0,0:09:09.68,0:09:11.26,Dialogue,,0,0,0,,Yeah... do so. please.
+Dialogue: 0,0:09:11.26,0:09:14.75,Dialogue,,0,0,0,,I'll try and trace what\Nthe victim. did yesterday.
+Dialogue: 0,0:09:14.75,0:09:18.49,Dialogue,,0,0,0,,Maybe I'll get Vlead to her boyfriend.
+Dialogue: 0,0:09:18.49,0:09:19.55,Dialogue,,0,0,0,,Ye 'sin!
+Dialogue: 0,0:09:22.72,0:09:25.69,Dialogue,,0,0,0,,Now that they know who the killer is,
+Dialogue: 0,0:09:25.69,0:09:27.83,Dialogue,,0,0,0,,I guess there's no role for\Na detective to play.
+Dialogue: 0,0:09:27.83,0:09:28.90,Dialogue,,0,0,0,,Let's go home.
+Dialogue: 0,0:09:29.70,0:09:32.27,Dialogue,,0,0,0,,Officer Takagi!\NPlease let me go with you.
+Dialogue: 0,0:09:32.27,0:09:34.27,Dialogue,,0,0,0,,Officer Takag!\NPlease let me go with you.
+Dialogue: 0,0:09:34.27,0:09:37.70,Dialogue,,0,0,0,,I just can't believe that\Nher boyfriend is the killer!
+Dialogue: 0,0:09:37.71,0:09:39.04,Dialogue,,0,0,0,,Ran...
+Dialogue: 0,0:09:39.04,0:09:40.64,Dialogue,,0,0,0,,Ran...
+Dialogue: 0,0:09:51.55,0:09:57.19,Dialogue,,0,0,0,,What?! You saw Ms. Nishimura's\Nboyfriend come running out?!
+Dialogue: 0,0:09:57.19,0:10:01.16,Dialogue,,0,0,0,,Yes- I think it was around 20:00\NIast night
+Dialogue: 0,0:10:10.50,0:10:15.08,Dialogue,,0,0,0,,But. how did you know that the man was\NMs. Nishimura's boyfriend? \
+Dialogue: 0,0:10:15.08,0:10:18.81,Dialogue,,0,0,0,,I think it was on the 25th of last month... Lg
+Dialogue: 0,0:10:18.81,0:10:21.45,Dialogue,,0,0,0,,There was a big fire.
+Dialogue: 0,0:10:22.82,0:10:26.99,Dialogue,,0,0,0,,My apartment is right opposite\NMs. Nishimura's condo.
+Dialogue: 0,0:10:26.99,0:10:29.46,Dialogue,,0,0,0,,WwW. When I happened to\NIook out casually...
+Dialogue: 0,0:10:31.61,0:10:36.26,Dialogue,,0,0,0,,You mean the man\Nthat you saw a month ago during the fire
+Dialogue: 0,0:10:36.26,0:10:38.53,Dialogue,,0,0,0,,was the same man\Nwho came running out last night?
+Dialogue: 0,0:10:38.53,0:10:41.20,Dialogue,,0,0,0,,His eyes were blood-shot and\Nhe ran like he was lurching forward...
+Dialogue: 0,0:10:42.54,0:10:45.21,Dialogue,,0,0,0,,Excuse me,\Nmay I have your name. please?
+Dialogue: 0,0:10:45.21,0:10:47.47,Dialogue,,0,0,0,,Me? I'm Suenaga.
+Dialogue: 0,0:10:47.48,0:10:52.55,Dialogue,,0,0,0,,Mr Suenaga. will you'help us.make\Na composite picture of that mane
+Dialogue: 0,0:10:52.55,0:10:56.48,Dialogue,,0,0,0,,Okay. \.\NBut. let me go tell the boss.
+Dialogue: 0,0:10:59.22,0:11:03.69,Dialogue,,0,0,0,,There's even eye-witness...\NI guess this is it.
+Dialogue: 0,0:11:03.69,0:11:03.99,Dialogue,,0,0,0,,There's even eye-witness .\NI guess this is it.
+Dialogue: 0,0:11:04.03,0:11:06.19,Dialogue,,0,0,0,,Ran...
+Dialogue: 0,0:11:08.30,0:11:09.53,Dialogue,,0,0,0,,With a composite picture in hand,
+Dialogue: 0,0:11:09.53,0:11:11.20,Dialogue,,0,0,0,,If they go asking around the vicinity\Nwhere the victim lived.
+Dialogue: 0,0:11:11.20,0:11:14.70,Dialogue,,0,0,0,,It's just a matter of time\Nbefore they find the killer
+Dialogue: 0,0:11:14.80,0:11:20.21,Dialogue,,0,0,0,,But, there's something that bothers me...\NI wonder what it is...
+Dialogue: 0,0:11:20.84,0:11:24.08,Dialogue,,0,0,0,,Oh! About time!
+Dialogue: 0,0:11:24.08,0:11:24.61,Dialogue,,0,0,0,,Oh! About time!
+Dialogue: 0,0:11:24.61,0:11:27.68,Dialogue,,0,0,0,,Oooh. Munch, munch...
+Dialogue: 0,0:11:27.68,0:11:30.82,Dialogue,,0,0,0,,What's the matter? Eat. you guys.
+Dialogue: 0,0:11:30.82,0:11:33.42,Dialogue,,0,0,0,,Okay. Conan?
+Dialogue: 0,0:11:33.55,0:11:37.59,Dialogue,,0,0,0,,Huh? .Oh...Yep!
+Dialogue: 0,0:11:37.59,0:11:38.22,Dialogue,,0,0,0,,Huh?...Oh\. Yep!
+Dialogue: 0,0:11:38.23,0:11:40.96,Dialogue,,0,0,0,,What?
+Dialogue: 0,0:11:40.96,0:11:41.83,Dialogue,,0,0,0,,- - >>\NO0cC .
+Dialogue: 0,0:11:41.83,0:11:43.50,Dialogue,,0,0,0,,It's really good.
+Dialogue: 0,0:11:44.40,0:11:44.80,Dialogue,,0,0,0,,I'm glad.
+Dialogue: 0,0:11:45.17,0:11:45.43,Dialogue,,0,0,0,,I'm glad
+Dialogue: 0,0:11:45.43,0:11:49.00,Dialogue,,0,0,0,,What's this. Did you make me check to\Nsee if it was okay or what?
+Dialogue: 0,0:11:49.00,0:11:54.74,Dialogue,,0,0,0,,Ufuh. no, it's not that but...\NI wasn't sure if it was seasoned enough
+Dialogue: 0,0:11:56.01,0:12:01.15,Dialogue,,0,0,0,,Uh, Ran,\NSachiko 'must've been really hungry.
+Dialogue: 0,0:12:01.15,0:12:02.82,Dialogue,,0,0,0,,Why ?
+Dialogue: 0,0:12:02.82,0:12:07.09,Dialogue,,0,0,0,,Because the steak and salad\Non her side of the table were eaten.
+Dialogue: 0,0:12:07.09,0:12:11.36,Dialogue,,0,0,0,,But her boyfriend's side was untouched.
+Dialogue: 0,0:12:13.86,0:12:17.63,Dialogue,,0,0,0,,So what, you brat!"Munch. munch...
+Dialogue: 0,0:12:17.63,0:12:18.23,Dialogue,,0,0,0,,Not possible That's strange,\Nreally strange!
+Dialogue: 0,0:12:18.23,0:12:22.20,Dialogue,,0,0,0,,Not possible... Thalls strange,\Nreally strange!
+Dialogue: 0,0:12:22.24,0:12:24.57,Dialogue,,0,0,0,,What's so strange?
+Dialogue: 0,0:12:24.57,0:12:24.77,Dialogue,,0,0,0,,Maybe\NBut .
+Dialogue: 0,0:12:24.77,0:12:24.97,Dialogue,,0,0,0,,Maybe...\NBut...
+Dialogue: 0,0:12:24.97,0:12:28.37,Dialogue,,0,0,0,,Maybe...\NBut...
+Dialogue: 0,0:12:28.38,0:12:32.01,Dialogue,,0,0,0,,The woman living next door heard
+Dialogue: 0,0:12:32.01,0:12:34.41,Dialogue,,0,0,0,,Ms. Nishimura talking to her boyfriend.
+Dialogue: 0,0:12:34.42,0:12:35.28,Dialogue,,0,0,0,,She only heard Sachiko's voice...!
+Dialogue: 0,0:12:35.28,0:12:38.92,Dialogue,,0,0,0,,She only heard Sachiko's voice...!
+Dialogue: 0,0:12:39.02,0:12:40.02,Dialogue,,0,0,0,,Yeah,
+Dialogue: 0,0:12:40.02,0:12:44.56,Dialogue,,0,0,0,,if that's how it was, it's understandable\Nthat there were no other fingerprints
+Dialogue: 0,0:12:44.56,0:12:48.90,Dialogue,,0,0,0,,If so. why did she put on such an act...?
+Dialogue: 0,0:12:51.83,0:12:55.64,Dialogue,,0,0,0,,Hey. what's all this about?!
+Dialogue: 0,0:12:55.64,0:12:57.97,Dialogue,,0,0,0,,I'm going with her,\Nbecause I'm kind of worried!
+Dialogue: 0,0:12:57.97,0:13:02.08,Dialogue,,0,0,0,,Hey!! You too?!\NI'm going to eat all this up. you know!
+Dialogue: 0,0:13:03.14,0:13:06.11,Dialogue,,0,0,0,,Like I told the officer.
+Dialogue: 0,0:13:06.11,0:13:09.58,Dialogue,,0,0,0,,I really never heard\Nthat: she had a boyfriend
+Dialogue: 0,0:13:09.58,0:13:12.39,Dialogue,,0,0,0,,She did have one before though...
+Dialogue: 0,0:13:12.39,0:13:14.49,Dialogue,,0,0,0,,She did...before?
+Dialogue: 0,0:13:14.49,0:13:16.49,Dialogue,,0,0,0,,About 5 years ago...
+Dialogue: 0,0:13:16.49,0:13:20.76,Dialogue,,0,0,0,,A man called Mr. Henma...\Nwhose hobby was mountain climbing.
+Dialogue: 0,0:13:23.11,0:13:26.53,Dialogue,,0,0,0,,When was this?
+Dialogue: 0,0:13:26.53,0:13:28.50,Dialogue,,0,0,0,,About 6: months ago.
+Dialogue: 0,0:13:28.50,0:13:31.50,Dialogue,,0,0,0,,Was it on the 25th,\N6 months ago 7?
+Dialogue: 0,0:13:31.51,0:13:36.71,Dialogue,,0,0,0,,Right. it was my husband's pay day...
+Dialogue: 0,0:13:36.71,0:13:39.18,Dialogue,,0,0,0,,Just as I thought...
+Dialogue: 0,0:13:41.68,0:13:44.02,Dialogue,,0,0,0,,Huh?!\NThe real killer is not her boyfriend?!
+Dialogue: 0,0:13:44.02,0:13:46.75,Dialogue,,0,0,0,,Huh /!\NThe real killer is not her boyfriend?!
+Dialogue: 0,0:13:46.79,0:13:50.99,Dialogue,,0,0,0,,It's impossible for Sachikds boyfriend to\Nhave killed her, that's totally impossible!
+Dialogue: 0,0:13:51.16,0:13:53.59,Dialogue,,0,0,0,,Otally impossible...
+Dialogue: 0,0:13:53.59,0:14:00.57,Dialogue,,0,0,0,,And, if it wasn't her boyfriend, then, the\Nreal killer is none other than that person!
+Dialogue: 0,0:14:07.26,0:14:09.29,Dialogue,,0,0,0,,Mr. Izaak?
+Dialogue: 0,0:14:09.29,0:14:12.23,Dialogue,,0,0,0,,Yeah... Who're you. .?
+Dialogue: 0,0:14:16.13,0:14:17.57,Dialogue,,0,0,0,,There's something I'd like to ask you...
+Dialogue: 0,0:14:38.92,0:14:40.56,Dialogue,,0,0,0,,Mr. Suenaga.
+Dialogue: 0,0:14:40.56,0:14:41.49,Dialogue,,0,0,0,,Yeas...
+Dialogue: 0,0:14:41.49,0:14:41.93,Dialogue,,0,0,0,,About this composite picture...
+Dialogue: 0,0:14:41.93,0:14:45.26,Dialogue,,0,0,0,,About this composite picture...
+Dialogue: 0,0:14:45.30,0:14:49.50,Dialogue,,0,0,0,,I can't remember anything\Nmore In detail than that.
+Dialogue: 0,0:14:49.50,0:14:54.24,Dialogue,,0,0,0,,No, it was impossible to make\Na composite picture to begin with.
+Dialogue: 0,0:14:54.24,0:14:55.57,Dialogue,,0,0,0,,Huh 2
+Dialogue: 0,0:14:57.01,0:15:03.38,Dialogue,,0,0,0,,Because there was no boyfriend that\Ncould've comeyto Ms. Nishimura at all...
+Dialogue: 0,0:15:06.88,0:15:11.49,Dialogue,,0,0,0,,Because...\NThissis strange.
+Dialogue: 0,0:15:11.52,0:15:15.22,Dialogue,,0,0,0,,If she prepared this for a boyfriend\Nthat she was seeing after a month
+Dialogue: 0,0:15:15.23,0:15:17.66,Dialogue,,0,0,0,,First her boyfriend would take a bite,
+Dialogue: 0,0:15:17.70,0:15:19.96,Dialogue,,0,0,0,,and she would wait for him to say\Nsomething-abou her cooking...
+Dialogue: 0,0:15:19.96,0:15:23.90,Dialogue,,0,0,0,,It's only naturalsfor hergto start eating\Nafter hearing what he had to say
+Dialogue: 0,0:15:23.90,0:15:29.71,Dialogue,,0,0,0,,It's unthinkable for a woman to start\Neating and drinking-before her guest
+Dialogue: 0,0:15:29.71,0:15:36.85,Dialogue,,0,0,0,,In other words.\NNobody came to visit her last night!
+Dialogue: 0,0:15:36.85,0:15:37.05,Dialogue,,0,0,0,,Then\Nwhy is everything prepared for two?
+Dialogue: 0,0:15:37.05,0:15:39.52,Dialogue,,0,0,0,,Then,\Nwhy is everything prepared for two?
+Dialogue: 0,0:15:39.52,0:15:42.25,Dialogue,,0,0,0,,It's for her boyfriend.
+Dialogue: 0,0:15:42.25,0:15:44.95,Dialogue,,0,0,0,,I don't Know what you're talking about.
+Dialogue: 0,0:15:44.96,0:15:49.16,Dialogue,,0,0,0,,Ms. Nishimura happily told\Nher colleagues and Ran
+Dialogue: 0,0:15:49.16,0:15:52.70,Dialogue,,0,0,0,,that her boyfriend was going to\Ncome visit her...
+Dialogue: 0,0:15:52.70,0:15:55.37,Dialogue,,0,0,0,,But that was
+Dialogue: 0,0:15:55.37,0:15:57.17,Dialogue,,0,0,0,,ale.
+Dialogue: 0,0:16:04.88,0:16:08.51,Dialogue,,0,0,0,,Promise to take me with you next time,\Nokay?
+Dialogue: 0,0:16:08.51,0:16:12.12,Dialogue,,0,0,0,,It's not fair that you go to see such\Na wonderful scenery all by yourself!
+Dialogue: 0,0:16:17.69,0:16:23.33,Dialogue,,0,0,0,,Maybe I over cooked it, the steak!
+Dialogue: 0,0:16:23.33,0:16:26.86,Dialogue,,0,0,0,,She acted the whole thing out-herself
+Dialogue: 0,0:16:26.86,0:16:31.53,Dialogue,,0,0,0,,"Where can be. no other\Nexplanation for this.
+Dialogue: 0,0:16:31.54,0:16:36.81,Dialogue,,0,0,0,,He wasn't there to. begin with, so\Nof course there would-be no fingerprints.
+Dialogue: 0,0:16:36.81,0:16:39.91,Dialogue,,0,0,0,,You. Mr Suenaga said-that you saw
+Dialogue: 0,0:16:39.91,0:16:44.51,Dialogue,,0,0,0,,someonedhat didn't even\Ncome to visit her!
+Dialogue: 0,0:16:44.52,0:16:47.72,Dialogue,,0,0,0,,And, you even helped makeup\Nsomething like this...
+Dialogue: 0,0:16:47.72,0:16:53.32,Dialogue,,0,0,0,,to divert our attention from\Nthe real killer... You!
+Dialogue: 0,0:16:53.32,0:16:57.46,Dialogue,,0,0,0,,Why need I do something like that?
+Dialogue: 0,0:16:57.46,0:16:57.66,Dialogue,,0,0,0,,You have a friend named Mr. lzaki,\Ndon't you?
+Dialogue: 0,0:16:57.66,0:17:00.93,Dialogue,,0,0,0,,You have a friend named Mr: lzaki,\Ndon't your?
+Dialogue: 0,0:17:00.93,0:17:04.67,Dialogue,,0,0,0,,The owner of the liquor shop told us\Nabout him and we went to see him.
+Dialogue: 0,0:17:05.94,0:17:10.94,Dialogue,,0,0,0,,I hear-that you were complaining ,\NIast month...
+Dialogue: 0,0:17:10.94,0:17:12.88,Dialogue,,0,0,0,,that a shopper who patronized your shop.
+Dialogue: 0,0:17:12.88,0:17:15.14,Dialogue,,0,0,0,,A woman who lived in the condo\Nopposite you
+Dialogue: 0,0:17:15.15,0:17:18.25,Dialogue,,0,0,0,,refuse when you asked her to\Ngo out with you
+Dialogue: 0,0:17:18.28,0:17:20.97,Dialogue,,0,0,0,,You heldia grudge against her because\Nshe brushed you off...isn't that right?
+Dialogue: 0,0:17:20.97,0:17:25.39,Dialogue,,0,0,0,,That's your motive for killing her. no?
+Dialogue: 0,0:17:25.39,0:17:28.26,Dialogue,,0,0,0,,Where's the evidence that I did it?!
+Dialogue: 0,0:17:28.26,0:17:28.66,Dialogue,,0,0,0,,Where's the evidence that.l-did it?!
+Dialogue: 0,0:17:28.66,0:17:31.99,Dialogue,,0,0,0,,You borrowed money from Mr Izaak,\Ndidn't you?
+Dialogue: 0,0:17:32.00,0:17:32.76,Dialogue,,0,0,0,,But, you returned the total amount\Nto him this morning.
+Dialogue: 0,0:17:32.76,0:17:35.13,Dialogue,,0,0,0,,But. you returned the total amount\Nto him this morning.
+Dialogue: 0,0:17:35.13,0:17:39.60,Dialogue,,0,0,0,,Fingerprints were found on all the bills...
+Dialogue: 0,0:17:39.60,0:17:44.01,Dialogue,,0,0,0,,Your fingerprints as well as\NFive\NMs. Nishimurass!
+Dialogue: 0,0:17:44.01,0:17:47.71,Dialogue,,0,0,0,,You killed her, holding a grudge\Nagainst her for brushing you off
+Dialogue: 0,0:17:47.75,0:17:50.75,Dialogue,,0,0,0,,and stole cash as well as\Nvaluables from her!
+Dialogue: 0,0:17:50.75,0:17:52.48,Dialogue,,0,0,0,,Am I wrong?!
+Dialogue: 0,0:17:55.72,0:17:56.15,Dialogue,,0,0,0,,'I _l
+Dialogue: 0,0:17:58.71,0:18:02.04,Dialogue,,0,0,0,,Exactly... But officer.
+Dialogue: 0,0:18:02.08,0:18:06.98,Dialogue,,0,0,0,,That woman was one hell of a liar too!\NHow dare she lie!
+Dialogue: 0,0:18:09.10,0:18:15.81,Dialogue,,0,0,0,,I'm sornry--Y can't go out withyou.\NI have .afboyfriend.
+Dialogue: 0,0:18:16.61,0:18:19.54,Dialogue,,0,0,0,,He's coming today again too...
+Dialogue: 0,0:18:19.54,0:18:25.41,Dialogue,,0,0,0,,I thought that lit couldn't bérhelped then...\NBut. that night"
+Dialogue: 0,0:18:37.33,0:18:40.03,Dialogue,,0,0,0,,Her boyfriend wasn't with her!
+Dialogue: 0,0:18:43.73,0:18:46.44,Dialogue,,0,0,0,,She bought wine again yesterday...
+Dialogue: 0,0:18:46.44,0:18:48.64,Dialogue,,0,0,0,,Saying that her boyfriend was coming...
+Dialogue: 0,0:18:48.64,0:18:51.91,Dialogue,,0,0,0,,I went to check it out yesterday!
+Dialogue: 0,0:18:52.04,0:18:53.78,Dialogue,,0,0,0,,PP. Please. no!
+Dialogue: 0,0:18:53.78,0:18:57.38,Dialogue,,0,0,0,,P ease leave! Because he's coming!
+Dialogue: 0,0:18:58.88,0:19:02.65,Dialogue,,0,0,0,,Where is her ae\NThis boyfriend of yours?!
+Dialogue: 0,0:19:02.65,0:19:04.99,Dialogue,,0,0,0,,I'm calling the police!
+Dialogue: 0,0:19:06.72,0:19:10.19,Dialogue,,0,0,0,,Whaaaa!\NWhaaaa!
+Dialogue: 0,0:19:13.00,0:19:13.43,Dialogue,,0,0,0,,It's your fault... for/lyingéto met. 4
+Dialogue: 0,0:19:13.43,0:19:14.00,Dialogue,,0,0,0,,It's your fault. for'lyingito me...
+Dialogue: 0,0:19:14.00,0:19:14.40,Dialogue,,0,0,0,,It's your fault... for lyingito me!...
+Dialogue: 0,0:19:14.40,0:19:14.93,Dialogue,,0,0,0,,It's your fault... for lyingito me.
+Dialogue: 0,0:19:14.93,0:19:15.46,Dialogue,,0,0,0,,It's your fault. for lyingito me
+Dialogue: 0,0:19:15.93,0:19:16.40,Dialogue,,0,0,0,,It's your faults. for lying'toime...
+Dialogue: 0,0:19:16.40,0:19:16.87,Dialogue,,0,0,0,,It's your faulte.for lying:to me...
+Dialogue: 0,0:19:16.87,0:19:17.37,Dialogue,,0,0,0,,It's your fault .-for lying-to-me...
+Dialogue: 0,0:19:17.37,0:19:20.50,Dialogue,,0,0,0,,It's your fault. .for lying to me...
+Dialogue: 0,0:19:21.74,0:19:25.44,Dialogue,,0,0,0,,She didn't even have a boyfriend,\Nbut put on a front of having one...
+Dialogue: 0,0:19:25.44,0:19:25.81,Dialogue,,0,0,0,,If she wanted to just put on a front,
+Dialogue: 0,0:19:25.81,0:19:27.18,Dialogue,,0,0,0,,If she wanted to just put on a front.
+Dialogue: 0,0:19:27.18,0:19:29.71,Dialogue,,0,0,0,,Wouldn't it have been enough for her\Njust to buy steak for two?
+Dialogue: 0,0:19:29.71,0:19:32.25,Dialogue,,0,0,0,,She wouldn't have had to\Nreally cook the steak
+Dialogue: 0,0:19:32.25,0:19:34.78,Dialogue,,0,0,0,,or pour the wine into the glass. right?
+Dialogue: 0,0:19:35.72,0:19:40.32,Dialogue,,0,0,0,,It was a lie, but not really a lie...
+Dialogue: 0,0:19:40.32,0:19:45.43,Dialogue,,0,0,0,,Yesterday, her boyfriend\Nreally did visit her
+Dialogue: 0,0:19:45.46,0:19:46.53,Dialogue,,0,0,0,,and was-sitting\Nactually sitting there.
+Dialogue: 0,0:19:46.53,0:19:48.53,Dialogue,,0,0,0,,And was sitting\Nactually-sitting there _
+Dialogue: 0,0:19:48.53,0:19:53.04,Dialogue,,0,0,0,,Her boyfriend called Mr. Henmu.
+Dialogue: 0,0:19:53.04,0:19:59.51,Dialogue,,0,0,0,,Sachiko had a boyfriend during her\Nschool days called Mr Henmi
+Dialogue: 0,0:19:59.51,0:20:03.25,Dialogue,,0,0,0,,But, five years ago...
+Dialogue: 0,0:20:03.25,0:20:10.25,Dialogue,,0,0,0,,I'll be fine. I'll be back on the 25th.
+Dialogue: 0,0:20:10.25,0:20:14.52,Dialogue,,0,0,0,,The 25th? I'll prepare a nice meal\Nand wait for you then.
+Dialogue: 0,0:20:14.52,0:20:18.53,Dialogue,,0,0,0,,I'd like steak then. A thick one like this!
+Dialogue: 0,0:20:18.53,0:20:24.60,Dialogue,,0,0,0,,But. Mr. Henmi never returned...
+Dialogue: 0,0:20:24.60,0:20:27.32,Dialogue,,0,0,0,,His body wasn't found either...
+Dialogue: 0,0:20:27.32,0:20:30.94,Dialogue,,0,0,0,,But. 6 months ago. 5 years later...
+Dialogue: 0,0:20:30.94,0:20:35.38,Dialogue,,0,0,0,,Mr Henmi's knapsack was found\Nin the mountains...
+Dialogue: 0,0:20:35.38,0:20:39.37,Dialogue,,0,0,0,,And inside the knapsack they found#films\Nthat were already developed...
+Dialogue: 0,0:20:40.20,0:20:40.73,Dialogue,,0,0,0,,I had second thoughts about showing\Nthis to you after 5 years...
+Dialogue: 0,0:20:40.73,0:20:43.12,Dialogue,,0,0,0,,I had'second thoughts about showing\Nthis to-you after 5 years.
+Dialogue: 0,0:20:43.12,0:20:43.65,Dialogue,,0,0,0,,I had second thoughts about showing\Nthis to you after 5 years...
+Dialogue: 0,0:20:43.65,0:20:47.12,Dialogue,,0,0,0,,But. ll thought that he would've liked\Nfor you to sce it too so
+Dialogue: 0,0:20:47.12,0:20:50.79,Dialogue,,0,0,0,,Mr. Henmi:. Came home...
+Dialogue: 0,0:20:53.03,0:20:58.13,Dialogue,,0,0,0,,Just as he: promised::.on the 25th...
+Dialogue: 0,0:20:58.14,0:21:02.74,Dialogue,,0,0,0,,It was on the 25th. 6 months ago.
+Dialogue: 0,0:21:02.74,0:21:07.28,Dialogue,,0,0,0,,Since then. on'the 25th of each month.
+Dialogue: 0,0:21:07.28,0:21:10.66,Dialogue,,0,0,0,,Mr. Henmi visited her...
+Dialogue: 0,0:21:10.66,0:21:16.05,Dialogue,,0,0,0,,In Sachiko's heart... even last night
+Dialogue: 0,0:21:20.29,0:21:23.86,Dialogue,,0,0,0,,She decided to believe in him and wait.
+Dialogue: 0,0:21:23.86,0:21:26.23,Dialogue,,0,0,0,,She believed that by doing\Nso he would return
+Dialogue: 0,0:21:26.26,0:21:29.13,Dialogue,,0,0,0,,That her boyfriend would\Nnever betray her...
+Dialogue: 0,0:21:44.68,0:21:49.65,Dialogue,,0,0,0,,Original Comic Books By
+Dialogue: 0,0:21:50.35,0:21:55.69,Dialogue,,0,0,0,,Prod U CGFS .\NMICHIHIKO SUWA¢\NMASAHITO YOSHIOKA
+Dialogue: 0,0:21:56.36,0:22:01.75,Dialogue,,0,0,0,,Background Music.\NKATSUO ONO
+Dialogue: 0,0:22:02.37,0:22:07.79,Dialogue,,0,0,0,,Character. Designs By.\NARK TN : vf\NTo &. > AE so ~_ - rs
+Dialogue: 0,0:22:08.46,0:22:13.79,Dialogue,,0,0,0,,Story Editor.
+Dialogue: 0,0:22:14.49,0:22:19.85,Dialogue,,0,0,0,,KAN]! ASHYWABARA\NCHI MIYAS\NYUICHI HIGURE\NTOSHIKI INOUE
+Dialogue: 0,0:22:20.55,0:22:25.86,Dialogue,,0,0,0,,Animation Directors.\NMASAVQMO $1100\NUO OOGA /\NATSU HI AOND\NAKIO KAWAMURA\NTAKASHI HYODO
+Dialogue: 0,0:22:26.64,0:22:31.84,Dialogue,,0,0,0,,Art Director\NYUKIHIRO SHIBUTANI
+Dialogue: 0,0:22:32.70,0:22:37.90,Dialogue,,0,0,0,,Directors Of Photography\NTAKASHI NOMURA\NHIRONOBU HORIKOSHI\NTAKAHISA OWACGA
+Dialogue: 0,0:22:38.79,0:22:44.04,Dialogue,,0,0,0,,Recording Director\NKATSUYOSHI KOBAYASHI
+Dialogue: 0,0:22:44.66,0:22:50.05,Dialogue,,0,0,0,,Editor\NTERUMITSU OKADA
+Dialogue: 0,0:22:50.75,0:22:56.05,Dialogue,,0,0,0,,Chief Director\NKEN] KODAMA
+Dialogue: 0,0:22:56.80,0:23:02.09,Dialogue,,0,0,0,,ENTERTAINMENT\Nin association with\NYOMIURI TELECASTING\NCORPORATION
+Dialogue: 0,0:23:02.83,0:23:09.00,Dialogue,,0,0,0,,DETECTIVE CONAN\NCC COSHO AOYAMA / SHOGAKUKAN YTV - TMS\NAll Rights Reserved
+Dialogue: 0,0:23:09.70,0:23:15.37,Dialogue,,0,0,0,,Which means for these past 6 months on\Nthe 25th. she was talking all by herself?!
+Dialogue: 0,0:23:15.37,0:23:18.37,Dialogue,,0,0,0,,I just said she wasn't alone!
+Dialogue: 0,0:23:19.74,0:23:21.51,Dialogue,,0,0,0,,Uh, Ran...
+Dialogue: 0,0:23:21.51,0:23:22.04,Dialogue,,0,0,0,,Huh'...
+Dialogue: 0,0:23:22.05,0:23:25.58,Dialogue,,0,0,0,,I'm sure that'Shinichi will\Ncome back one day too.
+Dialogue: 0,0:23:25.58,0:23:28.78,Dialogue,,0,0,0,,Thank you...Conan...
+Dialogue: 0,0:23:28.79,0:23:32.99,Dialogue,,0,0,0,,He'll open that door and say. "I'm home!
+Dialogue: 0,0:23:32.99,0:23:35.52,Dialogue,,0,0,0,,If he does...
+Dialogue: 0,0:23:35.53,0:23:39.73,Dialogue,,0,0,0,,Hey. Shinichi. where and what the hell\Nwere you doing till now!
+Dialogue: 0,0:23:39.73,0:23:41.40,Dialogue,,0,0,0,,The first thing I'll do I's spin kick him!
+Dialogue: 0,0:23:41.40,0:23:46.77,Dialogue,,0,0,0,,Huh?! She has no intention of\Nwelcoming me kindly
+Dialogue: 0,0:23:46.77,0:23:48.20,Dialogue,,0,0,0,,Notjonly will I'spinikick him!
+Dialogue: 0,0:23:48.24,0:23:51.64,Dialogue,,0,0,0,,I'll do a heel-drop...\NI'm training for that time!
+Dialogue: 0,0:23:51.64,0:23:54.18,Dialogue,,0,0,0,,I don't think...\NI'll be coming home for a while yet...
+Dialogue: 0,0:23:54.18,0:23:54.61,Dialogue,,0,0,0,,rah!
+Dialogue: 0,0:24:01.82,0:24:07.26,Dialogue,,0,0,0,,Oh. n.no. ll really went to\Na c.class reunion...
+Dialogue: 0,0:24:07.26,0:24:08.86,Dialogue,,0,0,0,,Oh. that's...
+Dialogue: 0,0:24:09.63,0:24:15.68,Dialogue,,0,0,0,,Uh, well... .you see...\NIt's nothing much but...
+Dialogue: 0,0:24:15.68,0:24:17.33,Dialogue,,0,0,0,,Uh, well you see...\NIt s nothing much but
+Dialogue: 0,0:24:17.33,0:24:17.80,Dialogue,,0,0,0,,Uh, well...you see...\NIt's nothing much but...
+Dialogue: 0,0:24:17.80,0:24:20.27,Dialogue,,0,0,0,,W.What's this?
+Dialogue: 0,0:24:22.10,0:24:22.39,Dialogue,,0,0,0,,Love Story at Police Headquarters #5\NPart 1
+Dialogue: 0,0:24:22.39,0:24:27.48,Dialogue,,0,0,0,,(By)\NLove Story at Police-Headquartéers #5\NPart-1

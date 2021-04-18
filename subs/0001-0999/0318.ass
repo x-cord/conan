@@ -1,0 +1,541 @@
+[Script Info]
+Title: Detective Conan - 0318
+TL Source: UTB
+ScriptType: v4.00+
+WrapStyle: 3
+PlayResX: 1440
+PlayResY: 1080
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Dialogue,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00401311,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Dialogue Top,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00401311,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,8,30,30,55,1
+Style: Signs,FrancophilSans,74,&H14FFFFFF,&H00FFFFFF,&H46101010,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,8,30,30,55,1
+Style: Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,0,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Radio,FrancophilSans,74,&H00BEE1FF,&H00FFFFFF,&H000B2A42,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Narration,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00BF6F00,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Narration Off,FrancophilSans,74,&H6E8C6F00,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,0,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Flashback,FrancophilSans,74,&H00CDFAFF,&H00FFFFFF,&H00373737,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Flashback Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00CCFFFF,&HC0313134,-1,0,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Honorifics - Dialogue,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00401311,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Signs,FrancophilSans,74,&H14FFFFFF,&H00FFFFFF,&H46101010,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,-1,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Honorifics - Radio,FrancophilSans,74,&H00BEE1FF,&H00FFFFFF,&H000B2A42,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Narration,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00BF6F00,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Narration Off,FrancophilSans,74,&H6E8C6F00,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,-1,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Honorifics - Flashback,FrancophilSans,74,&H00CDFAFF,&H00FFFFFF,&H00373737,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Flashback Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00CCFFFF,&HC0313134,-1,-1,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Masks,FrancophilSans,74,&H00000000,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,2,0,0,0,1
+Style: Title,Conan Episode Title,74,&H00E1E4E3,&H000000FF,&HC8DBDAE1,&HC0000000,-1,0,0,0,100,100,0,0,1,1,0,5,0,0,0,1
+Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-1,0,0,0,100,100,0,0,1,0,0,2,0,0,65,1
+Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
+Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
+Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:02.76,0:00:03.58,Dialogue,,0,0,0,,Uae PON rod\Nmm iB; Let men 2\NsDeesco os - LI . e [I\NIn {IIII III\NDeduction flows with\Nthe rhythm of the wind
+Dialogue: 0,0:00:04.08,0:00:04.53,Dialogue,,0,0,0,,Deduction flows with\NDCT 2 AS\NH= AH HHR O H= A HO
+Dialogue: 0,0:00:04.57,0:00:06.25,Dialogue,,0,0,0,,Dark stains are rinsed\Nclean and exposed
+Dialogue: 0,0:00:06.50,0:00:08.17,Dialogue,,0,0,0,,The strange action after a crime
+Dialogue: 0,0:00:08.20,0:00:10.64,Dialogue,,0,0,0,,Is an accidentora case? the hidden truth
+Dialogue: 0,0:00:10.64,0:00:12.14,Dialogue,,0,0,0,,Dark stains are rinsed\Nclean and exposed
+Dialogue: 0,0:00:12.27,0:00:13.77,Dialogue,,0,0,0,,A child in appearance\Nwith the I.Q. of an adult
+Dialogue: 0,0:00:13.81,0:00:14.14,Dialogue,,0,0,0,,A child in appearance\Nwith the I.Q. of an adult
+Dialogue: 0,0:00:14.28,0:00:16.94,Dialogue,,0,0,0,,no case.'is left unsolved\Nwith Detective Conan
+Dialogue: 0,0:02:01.28,0:02:03.62,Dialogue,,0,0,0,,Oh no, not again
+Dialogue: 0,0:02:03.99,0:02:07.79,Dialogue,,0,0,0,,Why is it that all the cars\Nyou rent always break down, dad?
+Dialogue: 0,0:02:08.36,0:02:11.26,Dialogue,,0,0,0,,We can't even use the cell phone\Nin the mountains like this...
+Dialogue: 0,0:02:11.36,0:02:14.43,Dialogue,,0,0,0,,We've got no choice but\Nto wait for the fog to clear...
+Dialogue: 0,0:02:14.80,0:02:18.90,Dialogue,,0,0,0,,Hey, don't smoke in\Na small place like this!
+Dialogue: 0,0:02:19.53,0:02:22.84,Dialogue,,0,0,0,,Quiet! I'll open the window, okay!
+Dialogue: 0,0:02:24.74,0:02:27.54,Dialogue,,0,0,0,,Ghads, so what now...
+Dialogue: 0,0:02:28.31,0:02:30.01,Dialogue,,0,0,0,,Its nothing...
+Dialogue: 0,0:02:30.45,0:02:33.31,Dialogue,,0,0,0,,Ran, I'll bet you're scared?
+Dialogue: 0,0:02:34.22,0:02:37.63,Dialogue,,0,0,0,,That there's a mountain monster's\NIooking at us from somewhere
+Dialogue: 0,0:02:37.89,0:02:42.16,Dialogue,,0,0,0,,I can't hear you, I can't hear a thing!
+Dialogue: 0,0:02:42.26,0:02:44.53,Dialogue,,0,0,0,,Just as I though...
+Dialogue: 0,0:02:44.66,0:02:46.96,Dialogue,,0,0,0,,Ghads, hopeless...
+Dialogue: 0,0:02:47.86,0:02:48.20,Dialogue,,0,0,0,,Hmm?
+Dialogue: 0,0:02:48.80,0:02:50.20,Dialogue,,0,0,0,,Oh, It's a car!
+Dialogue: 0,0:02:50.23,0:02:50.70,Dialogue,,0,0,0,,Huh
+Dialogue: 0,0:02:50.97,0:02:52.63,Dialogue,,0,0,0,,Saved...
+Dialogue: 0,0:02:53.57,0:02:54.10,Dialogue,,0,0,0,,Huh?
+Dialogue: 0,0:02:54.17,0:02:54.80,Dialogue,,0,0,0,,It turned the corner...
+Dialogue: 0,0:02:55.04,0:02:56.07,Dialogue,,0,0,0,,Gee...
+Dialogue: 0,0:02:56.40,0:02:57.57,Dialogue,,0,0,0,,Wait sec
+Dialogue: 0,0:02:58.14,0:03:00.74,Dialogue,,0,0,0,,Was there side road there?
+Dialogue: 0,0:03:00.81,0:03:01.18,Dialogue,,0,0,0,,Huh
+Dialogue: 0,0:03:01.74,0:03:04.98,Dialogue,,0,0,0,,Pops that that mean\Nthat the car we just saw...
+Dialogue: 0,0:03:05.81,0:03:06.45,Dialogue,,0,0,0,,Yeah
+Dialogue: 0,0:03:07.25,0:03:08.35,Dialogue,,0,0,0,,It could've been an apparition...
+Dialogue: 0,0:03:09.45,0:03:12.32,Dialogue,,0,0,0,,NO re
+Dialogue: 0,0:03:14.77,0:03:20.39,Dialogue,,0,0,0,,(B1%R)\NThe Cigar Case of Good Luck" Part 1
+Dialogue: 0,0:03:21.26,0:03:23.50,Dialogue,,0,0,0,,Hey, hey, let's not...
+Dialogue: 0,0:03:23.70,0:03:25.37,Dialogue,,0,0,0,,Don't worry
+Dialogue: 0,0:03:25.77,0:03:27.33,Dialogue,,0,0,0,,You saw the sign, didn't you?
+Dialogue: 0,0:03:27.34,0:03:30.67,Dialogue,,0,0,0,,It's a study facility\Nfor a legitimate company...
+Dialogue: 0,0:03:31.11,0:03:33.97,Dialogue,,0,0,0,,The people of the company would\Nnever be in a place like this at this time!
+Dialogue: 0,0:03:34.24,0:03:36.88,Dialogue,,0,0,0,,I'm sure that the car that we just saw\NIS a robber's car or something...
+Dialogue: 0,0:03:36.98,0:03:38.01,Dialogue,,0,0,0,,Ghads...
+Dialogue: 0,0:03:38.38,0:03:40.25,Dialogue,,0,0,0,,I'll go first and check things out!
+Dialogue: 0,0:03:40.38,0:03:42.02,Dialogue,,0,0,0,,Be carefull!!
+Dialogue: 0,0:03:45.19,0:03:46.52,Dialogue,,0,0,0,,Oh, it's a car...
+Dialogue: 0,0:03:50.79,0:03:52.63,Dialogue,,0,0,0,,It still warm...
+Dialogue: 0,0:03:52.89,0:03:54.46,Dialogue,,0,0,0,,It's a cute car...
+Dialogue: 0,0:03:55.16,0:03:56.06,Dialogue,,0,0,0,,What a relief!
+Dialogue: 0,0:03:56.36,0:03:58.37,Dialogue,,0,0,0,,Bad people don't ride\Ncars like this, do they!
+Dialogue: 0,0:03:58.85,0:04:01.10,Dialogue,,0,0,0,,There seems to be a lot of other cars...
+Dialogue: 0,0:04:01.49,0:04:01.77,Dialogue,,0,0,0,,Coven\NOS...
+Dialogue: 0,0:04:04.64,0:04:06.41,Dialogue,,0,0,0,,This one is warmer!
+Dialogue: 0,0:04:06.74,0:04:09.98,Dialogue,,0,0,0,,The car that came in here just a\Nwhile ago is probably this car!
+Dialogue: 0,0:04:13.51,0:04:15.98,Dialogue,,0,0,0,,This car is still warm too...
+Dialogue: 0,0:04:16.12,0:04:17.35,Dialogue,,0,0,0,,Which means...
+Dialogue: 0,0:04:17.75,0:04:20.75,Dialogue,,0,0,0,,There are people here for sure!
+Dialogue: 0,0:04:20.96,0:04:21.59,Dialogue,,0,0,0,,Let's go!
+Dialogue: 0,0:04:21.62,0:04:22.06,Dialogue,,0,0,0,,Okay!
+Dialogue: 0,0:04:28.43,0:04:31.63,Dialogue,,0,0,0,,Kooklong Health Equipment Corporation.
+Dialogue: 0,0:04:31.77,0:04:33.33,Dialogue,,0,0,0,,I've never heard of them
+Dialogue: 0,0:04:35.87,0:04:37.47,Dialogue,,0,0,0,,You two, mind your manners
+Dialogue: 0,0:04:37.74,0:04:38.51,Dialogue,,0,0,0,,Yes, sir!
+Dialogue: 0,0:04:41.11,0:04:42.08,Dialogue,,0,0,0,,Hello!
+Dialogue: 0,0:04:42.41,0:04:44.41,Dialogue,,0,0,0,,Is anyone in?
+Dialogue: 0,0:04:47.42,0:04:50.08,Dialogue,,0,0,0,,They couldn't be sleeping\Nat'"this hour yet. could they...
+Dialogue: 0,0:04:54.59,0:04:55.59,Dialogue,,0,0,0,,What it is?
+Dialogue: 0,0:04:56.29,0:04:58.09,Dialogue,,0,0,0,,I'm sorry to be intruding\Non you at this hour,
+Dialogue: 0,0:04:58.39,0:05:01.40,Dialogue,,0,0,0,,but our car broke down nearby
+Dialogue: 0,0:05:03.43,0:05:04.90,Dialogue,,0,0,0,,Uh, so, you see,
+Dialogue: 0,0:05:05.03,0:05:09.84,Dialogue,,0,0,0,,we're stalled in this fog, so we\Nwould like to ask you for some help...
+Dialogue: 0,0:05:09.87,0:05:11.20,Dialogue,,0,0,0,,Please go find someone else to help you,
+Dialogue: 0,0:05:11.51,0:05:12.87,Dialogue,,0,0,0,,because I'm going to get busy from now
+Dialogue: 0,0:05:13.57,0:05:16.24,Dialogue,,0,0,0,,Wait!
+Dialogue: 0,0:05:16.28,0:05:19.11,Dialogue,,0,0,0,,Please at least lend\Nus your phone! Please!
+Dialogue: 0,0:05:20.05,0:05:20.88,Dialogue,,0,0,0,,Agh!
+Dialogue: 0,0:05:22.45,0:05:23.52,Dialogue,,0,0,0,,Please wait!!
+Dialogue: 0,0:05:23.65,0:05:24.68,Dialogue,,0,0,0,,Wait!
+Dialogue: 0,0:05:24.75,0:05:25.82,Dialogue,,0,0,0,,Hey!!
+Dialogue: 0,0:05:26.75,0:05:28.76,Dialogue,,0,0,0,,What a guy
+Dialogue: 0,0:05:29.29,0:05:31.49,Dialogue,,0,0,0,,I promise that if I die,\NI'll come and haunt you!!
+Dialogue: 0,0:05:31.76,0:05:32.73,Dialogue,,0,0,0,,Darn
+Dialogue: 0,0:05:33.83,0:05:35.76,Dialogue,,0,0,0,,I guess we'll just have to\Ngo back:to the car...
+Dialogue: 0,0:05:36.16,0:05:37.90,Dialogue,,0,0,0,,it's cold
+Dialogue: 0,0:05:39.60,0:05:41.07,Dialogue,,0,0,0,,You seem to be in trouble.
+Dialogue: 0,0:05:41.44,0:05:42.74,Dialogue,,0,0,0,,Please do come in.
+Dialogue: 0,0:05:42.77,0:05:44.67,Dialogue,,0,0,0,,Wow, is it okay?!
+Dialogue: 0,0:05:44.74,0:05:46.97,Dialogue,,0,0,0,,Thank you so very much!
+Dialogue: 0,0:05:49.38,0:05:50.98,Dialogue,,0,0,0,,What a fix, eh.
+Dialogue: 0,0:05:51.28,0:05:55.92,Dialogue,,0,0,0,,This is a study facility for the company\Nthat there's usually no one here?
+Dialogue: 0,0:05:57.45,0:05:59.42,Dialogue,,0,0,0,,The phone's over there.
+Dialogue: 0,0:05:59.65,0:06:01.76,Dialogue,,0,0,0,,Oh, thank you.
+Dialogue: 0,0:06:02.12,0:06:03.36,Dialogue,,0,0,0,,Are you sure it's okay!
+Dialogue: 0,0:06:03.73,0:06:05.59,Dialogue,,0,0,0,,What if they're spies?
+Dialogue: 0,0:06:06.09,0:06:07.69,Dialogue,,0,0,0,,Talk aboutzpush over,
+Dialogue: 0,0:06:07.70,0:06:07.89,Dialogue,,0,0,0,,//7//
+Dialogue: 0,0:06:07.90,0:06:09.66,Dialogue,,0,0,0,,or rather is it that\Nyou have a lot-of-elbow room
+Dialogue: 0,0:06:10.06,0:06:11.47,Dialogue,,0,0,0,,because you-'re in the 1st\Ndevelopment-section...
+Dialogue: 0,0:06:11.53,0:06:13.47,Dialogue,,0,0,0,,I heard you all!
+Dialogue: 0,0:06:13.67,0:06:14.40,Dialogue,,0,0,0,,Oh, president...
+Dialogue: 0,0:06:14.60,0:06:16.34,Dialogue,,0,0,0,,Just what are you guys doing!!
+Dialogue: 0,0:06:18.47,0:06:20.31,Dialogue,,0,0,0,,We're sorry to be intruding on you,
+Dialogue: 0,0:06:20.61,0:06:22.88,Dialogue,,0,0,0,,but we're not suspicious people.
+Dialogue: 0,0:06:23.54,0:06:28.75,Dialogue,,0,0,0,,am a privae, e ecive\Nand my name is Kogoro Mourns
+Dialogue: 0,0:06:28.78,0:06:31.99,Dialogue,,0,0,0,,Mouri, you mean-that:\Nfamous Sleeping?
+Dialogue: 0,0:06:32.12,0:06:32.75,Dialogue,,0,0,0,,Huh?
+Dialogue: 0,0:06:33.29,0:06:34.86,Dialogue,,0,0,0,,Yes, well.
+Dialogue: 0,0:06:35.12,0:06:36.86,Dialogue,,0,0,0,,This is my daughter Ran,
+Dialogue: 0,0:06:37.66,0:06:39.63,Dialogue,,0,0,0,,and the little one there is Conan.
+Dialogue: 0,0:06:40.76,0:06:42.33,Dialogue,,0,0,0,,Oh my,
+Dialogue: 0,0:06:42.63,0:06:44.40,Dialogue,,0,0,0,,I am very honored to be able meet you.
+Dialogue: 0,0:06:44.47,0:06:45.40,Dialogue,,0,0,0,,I am...
+Dialogue: 0,0:06:45.70,0:06:49.50,Dialogue,,0,0,0,,the president of Kuron Health\NEquipment Corporation, Umetani.
+Dialogue: 0,0:06:49.60,0:06:52.14,Dialogue,,0,0,0,,Please make yourselves at home here.
+Dialogue: 0,0:06:52.57,0:06:53.81,Dialogue,,0,0,0,,Oh, that's right!
+Dialogue: 0,0:06:54.04,0:06:56.41,Dialogue,,0,0,0,,Mr. Mourn, please\Nbecome a monitor for us!
+Dialogue: 0,0:06:56.81,0:06:57.74,Dialogue,,0,0,0,,How about it?
+Dialogue: 0,0:06:58.68,0:06:58.91,Dialogue,,0,0,0,,We having an; in-company\Ncompetition -n a relax sheet,
+Dialogue: 0,0:06:58.91,0:07:01.98,Dialogue,,0,0,0,,We having an in-company\Ncompetition on a relax sheet,
+Dialogue: 0,0:07:01.98,0:07:03.72,Dialogue,,0,0,0,,An we wou - apprecia e\Nit if you could give us
+Dialogue: 0,0:07:03.72,0:07:05.15,Dialogue,,0,0,0,,your unbiased opinion\Nhow you feel about it...
+Dialogue: 0,0:07:05.15,0:07:05.39,Dialogue,,0,0,0,,I'll
+Dialogue: 0,0:07:05.72,0:07:07.59,Dialogue,,0,0,0,,Oh...
+Dialogue: 0,0:07:09.46,0:07:10.72,Dialogue,,0,0,0,,Whoah
+Dialogue: 0,0:07:10.93,0:07:12.49,Dialogue,,0,0,0,,Aaaah
+Dialogue: 0,0:07:12.66,0:07:14.19,Dialogue,,0,0,0,,Fuheh, heh, heh
+Dialogue: 0,0:07:14.60,0:07:15.73,Dialogue,,0,0,0,,Aaagh
+Dialogue: 0,0:07:15.86,0:07:16.46,Dialogue,,0,0,0,,Agh,
+Dialogue: 0,0:07:16.66,0:07:17.76,Dialogue,,0,0,0,,right there,
+Dialogue: 0,0:07:19.20,0:07:20.30,Dialogue,,0,0,0,,Aaaaaaah
+Dialogue: 0,0:07:20.44,0:07:22.04,Dialogue,,0,0,0,,This is just great
+Dialogue: 0,0:07:22.50,0:07:24.77,Dialogue,,0,0,0,,It-feels so.good!
+Dialogue: 0,0:07:24.77,0:07:26.54,Dialogue,,0,0,0,,Gee, dad,
+Dialogue: 0,0:07:26.97,0:07:28.11,Dialogue,,0,0,0,,you're so embarrassing.
+Dialogue: 0,0:07:30.71,0:07:34.15,Dialogue,,0,0,0,,I've never experienced\Na great massage/chair like this!
+Dialogue: 0,0:07:34.45,0:07:36.98,Dialogue,,0,0,0,,It fits right into the vital spot. /
+Dialogue: 0,0:07:38.45,0:07:40.19,Dialogue,,0,0,0,,the combination of\Nthe softness of{\rHonorifics - Dialogue} tan{\r}ned hide
+Dialogue: 0,0:07:40.19,0:07:42.39,Dialogue,,0,0,0,,and the combination\Nof artificial leather for durability
+Dialogue: 0,0:07:42.39,0:07:44.39,Dialogue,,0,0,0,,makes for a sensation of perfect fit
+Dialogue: 0,0:07:44.49,0:07:46.33,Dialogue,,0,0,0,,Just as expected of the 1st\Ndevelopment section!!
+Dialogue: 0,0:07:46.69,0:07:48.36,Dialogue,,0,0,0,,Well done, Nakano!
+Dialogue: 0,0:07:49.20,0:07:50.30,Dialogue,,0,0,0,,But president
+Dialogue: 0,0:07:50.50,0:07:53.27,Dialogue,,0,0,0,,that artificial leather\Nyou take pride in is made in.Italy!
+Dialogue: 0,0:07:53.87,0:07:54.47,Dialogue,,0,0,0,,Moreover
+Dialogue: 0,0:07:54.64,0:07:57.37,Dialogue,,0,0,0,,For the massager part high grade\Nsilicone rubber isgdavishly used!!
+Dialogue: 0,0:07:58.11,0:08:01.14,Dialogue,,0,0,0,,Therefore, the production cost is too high...
+Dialogue: 0,0:08:01.34,0:08:02.11,Dialogue,,0,0,0,,What?!
+Dialogue: 0,0:08:02.28,0:08:03.64,Dialogue,,0,0,0,,What is the meaning of this, Nakano?!
+Dialogue: 0,0:08:03.91,0:08:05.95,Dialogue,,0,0,0,,The original parts«of the basic\Ncomponents such as the rollers,
+Dialogue: 0,0:08:05.95,0:08:08.65,Dialogue,,0,0,0,,are of the same product line as\Nwhat we've used so far,
+Dialogue: 0,0:08:08.92,0:08:10.42,Dialogue,,0,0,0,,SO as far as that's\Nconcerned, the cost is...
+Dialogue: 0,0:08:10.49,0:08:11.72,Dialogue,,0,0,0,,You fool!
+Dialogue: 0,0:08:12.19,0:08:14.72,Dialogue,,0,0,0,,Never mind durability!
+Dialogue: 0,0:08:16.26,0:08:17.79,Dialogue,,0,0,0,,even if we don't make\Nmuch profit so long as
+Dialogue: 0,0:08:17.79,0:08:20.39,Dialogue,,0,0,0,,we produce good items\Nand our customers like them,
+Dialogue: 0,0:08:20.43,0:08:21.50,Dialogue,,0,0,0,,then eventually...
+Dialogue: 0,0:08:21.63,0:08:23.16,Dialogue,,0,0,0,,Eventually is not what we're after!!
+Dialogue: 0,0:08:23.70,0:08:25.50,Dialogue,,0,0,0,,Make profit for me right this minute!!
+Dialogue: 0,0:08:25.87,0:08:27.13,Dialogue,,0,0,0,,Rather, what I mean is,
+Dialogue: 0,0:08:27.94,0:08:30.34,Dialogue,,0,0,0,,if we don't keep dishing\Nout new products,
+Dialogue: 0,0:08:30.40,0:08:33.11,Dialogue,,0,0,0,,the customers will give up on us
+Dialogue: 0,0:08:33.27,0:08:34.21,Dialogue,,0,0,0,,Ha, ha, ha .
+Dialogue: 0,0:08:34.41,0:08:34.98,Dialogue,,0,0,0,,Next!!
+Dialogue: 0,0:08:35.38,0:08:36.14,Dialogue,,0,0,0,,Next!!
+Dialogue: 0,0:08:37.28,0:08:39.45,Dialogue,,0,0,0,,That president is kind of scary, isnt he?
+Dialogue: 0,0:08:39.68,0:08:40.15,Dialogue,,0,0,0,,Yeah...
+Dialogue: 0,0:08:40.95,0:08:44.25,Dialogue,,0,0,0,,Next for the 2nd development\Nsection's Ecstasy One
+Dialogue: 0,0:08:44.59,0:08:47.59,Dialogue,,0,0,0,,This product is made for\Nthe younger generation
+Dialogue: 0,0:08:48.86,0:08:50.02,Dialogue,,0,0,0,,Please take a look
+Dialogue: 0,0:08:50.34,0:08:51.93,Dialogue,,0,0,0,,This seat is a cover-type seat
+Dialogue: 0,0:08:52.18,0:08:54.29,Dialogue,,0,0,0,,There.are 7 color variations and\Nthe color of the customer's choice
+Dialogue: 0,0:08:54.30,0:08:56.65,Dialogue,,0,0,0,,can be chosen to meet any type of interior
+Dialogue: 0,0:08:57.40,0:09:01.13,Dialogue,,0,0,0,,300 (77 *Y\NIV) X-\NThe back part of the seat\Ncan be reclined to any angle,
+Dialogue: 0,0:09:01.14,0:09:04.87,Dialogue,,0,0,0,,5 Aux,\Nand it can also be used\Nin the living room asia sofa
+Dialogue: 0,0:09:05.37,0:09:06.64,Dialogue,,0,0,0,,I see
+Dialogue: 0,0:09:06.77,0:09:09.18,Dialogue,,0,0,0,,it sure seems to be great for\Na young person's room!
+Dialogue: 0,0:09:09.58,0:09:10.28,Dialogue,,0,0,0,,You move this device...
+Dialogue: 0,0:09:10.31,0:09:13.81,Dialogue,,0,0,0,,Using the remote controller\Nthat is in the side pocket
+Dialogue: 0,0:09:14.05,0:09:16.72,Dialogue,,0,0,0,,First, let's start with full body massage...
+Dialogue: 0,0:09:19.15,0:09:20.29,Dialogue,,0,0,0,,Yawn
+Dialogue: 0,0:09:20.35,0:09:21.72,Dialogue,,0,0,0,,Are you. sleepy, Conan. 7?
+Dialogue: 0,0:09:21.82,0:09:22.92,Dialogue,,0,0,0,,Aaaagh
+Dialogue: 0,0:09:25.89,0:09:27.46,Dialogue,,0,0,0,,stop it already
+Dialogue: 0,0:09:28.33,0:09:30.33,Dialogue,,0,0,0,,What on earth is this?!
+Dialogue: 0,0:09:30.70,0:09:32.03,Dialogue,,0,0,0,,It's made for young people
+Dialogue: 0,0:09:32.07,0:09:34.30,Dialogue,,0,0,0,,SO maybe it's too\Nstrong for you, Mr. Mourn?
+Dialogue: 0,0:09:34.64,0:09:37.14,Dialogue,,0,0,0,,I'll switch it to weak sleep mode...
+Dialogue: 0,0:09:37.30,0:09:38.87,Dialogue,,0,0,0,,No thanks!
+Dialogue: 0,0:09:38.94,0:09:40.17,Dialogue,,0,0,0,,Relieve my tiredness, my foot!
+Dialogue: 0,0:09:40.17,0:09:42.24,Dialogue,,0,0,0,,My whole body feels\Nas if it's going to fall apart!!
+Dialogue: 0,0:09:42.74,0:09:44.01,Dialogue,,0,0,0,,But.
+Dialogue: 0,0:09:44.35,0:09:45.28,Dialogue,,0,0,0,,Kasahara!
+Dialogue: 0,0:09:45.55,0:09:46.21,Dialogue,,0,0,0,,That's enough.
+Dialogue: 0,0:09:46.45,0:09:47.45,Dialogue,,0,0,0,,Oh, well...
+Dialogue: 0,0:09:47.52,0:09:47.81,Dialogue,,0,0,0,,Next!!
+Dialogue: 0,0:09:48.08,0:09:48.75,Dialogue,,0,0,0,,Hiramatsu!!
+Dialogue: 0,0:09:49.82,0:09:50.48,Dialogue,,0,0,0,,Ed od aaa
+Dialogue: 0,0:09:53.12,0:09:54.79,Dialogue,,0,0,0,,Hey, hey, what's this?
+Dialogue: 0,0:09:55.21,0:09:56.92,Dialogue,,0,0,0,,Are you going to beat up some monster...
+Dialogue: 0,0:09:57.63,0:09:58.46,Dialogue,,0,0,0,,I Huh ¥
+Dialogue: 0,0:09:58.69,0:09:59.63,Dialogue,,0,0,0,,Comdito think of it,
+Dialogue: 0,0:09:59.69,0:10:02.93,Dialogue,,0,0,0,,my child has a toy that\NIooks somethingUike this...
+Dialogue: 0,0:10:03.03,0:10:03.86,Dialogue,,0,0,0,,Really,
+Dialogue: 0,0:10:04.17,0:10:05.73,Dialogue,,0,0,0,,it looks like some robot.animation.
+Dialogue: 0,0:10:06.03,0:10:06.97,Dialogue,,0,0,0,,Well,
+Dialogue: 0,0:10:07.17,0:10:08.70,Dialogue,,0,0,0,,take a look at it please
+Dialogue: 0,0:10:10.14,0:10:13.47,Dialogue,,0,0,0,,Oh: yes, right-there!
+Dialogue: 0,0:10:13.64,0:10:15.51,Dialogue,,0,0,0,,Right, just'great; right there!
+Dialogue: 0,0:10:15.51,0:10:16.51,Dialogue,,0,0,0,,Typ fay Say
+Dialogue: 0,0:10:16.51,0:10:17.64,Dialogue,,0,0,0,,Dad?!
+Dialogue: 0,0:10:18.15,0:10:20.71,Dialogue,,0,0,0,,How does thing know just\Nwhere I want to be massaged...
+Dialogue: 0,0:10:22.12,0:10:25.79,Dialogue,,0,0,0,,That's exactly what th 1 main-feature\Nof this business type AIMS is allsabout!!
+Dialogue: 0,0:10:26.02,0:10:29.12,Dialogue,,0,0,0,,A micro sensor detects\Nthe part of your body that is stiff
+Dialogue: 0,0:10:29.12,0:10:31.59,Dialogue,,0,0,0,,and massages with\Nthe exact strength needed.
+Dialogue: 0,0:10:32.33,0:10:34.46,Dialogue,,0,0,0,,Sounds like a great function,
+Dialogue: 0,0:10:34.46,0:10:37.33,Dialogue,,0,0,0,,but I'll bet the cost is really high...
+Dialogue: 0,0:10:34.66,0:10:37.33,Dialogue,,0,0,0,,but I'll bet the cost is really high...
+Dialogue: 0,0:10:38.30,0:10:40.20,Dialogue,,0,0,0,,the only thing new is the program,
+Dialogue: 0,0:10:40.27,0:10:43.84,Dialogue,,0,0,0,,and the rest involves diverting\Nwhat was being used till now,
+Dialogue: 0,0:10:43.84,0:10:47.91,Dialogue,,0,0,0,,so I think the cost is less\Nthan half of what your cost is!
+Dialogue: 0,0:10:47.91,0:10:48.48,Dialogue,,0,0,0,,Guah!
+Dialogue: 0,0:10:48.81,0:10:49.88,Dialogue,,0,0,0,,Besides,
+Dialogue: 0,0:10:50.08,0:10:51.31,Dialogue,,0,0,0,,with a function as good as that,
+Dialogue: 0,0:10:51.31,0:10:53.95,Dialogue,,0,0,0,,it'll probably sell even if\Nthe price is a bit high.
+Dialogue: 0,0:10:54.45,0:10:55.15,Dialogue,,0,0,0,,Yes.
+Dialogue: 0,0:10:57.25,0:11:02.89,Dialogue,,0,0,0,,I'll think over which machine I'll sell\Nwhile taking a smoke...
+Dialogue: 0,0:11:03.29,0:11:04.86,Dialogue,,0,0,0,,Mr. Mouri, do make yourself at home too!
+Dialogue: 0,0:11:04.86,0:11:06.19,Dialogue,,0,0,0,,Thank you...
+Dialogue: 0,0:11:06.53,0:11:08.46,Dialogue,,0,0,0,,I donst want to come out just yet
+Dialogue: 0,0:11:08.46,0:11:09.73,Dialogue,,0,0,0,,what?, ha, ha!
+Dialogue: 0,0:11:10.80,0:11:12.00,Dialogue,,0,0,0,,Well,
+Dialogue: 0,0:11:12.00,0:11:14.87,Dialogue,,0,0,0,,it feels so good, I feel like-falling-asleep.
+Dialogue: 0,0:11:15.10,0:11:16.07,Dialogue,,0,0,0,,Dad,
+Dialogue: 0,0:11:16.24,0:11:18.54,Dialogue,,0,0,0,,you re interfering everybody\Nwith their'work!
+Dialogue: 0,0:11:18.67,0:11:19.91,Dialogue,,0,0,0,,It's okay
+Dialogue: 0,0:11:20.11,0:11:22.34,Dialogue,,0,0,0,,because it seems\Ne's already decided so...
+Dialogue: 0,0:11:22.38,0:11:23.54,Dialogue,,0,0,0,,I'm sorry
+Dialogue: 0,0:11:23.81,0:11:26.51,Dialogue,,0,0,0,,Things are moving really\Nfast today, don't. ou think?
+Dialogue: 0,0:11:26.95,0:11:30.48,Dialogue,,0,0,0,,It seems like the rumor about behind the\Nscenes negotiations was true after all
+Dialogue: 0,0:11:31.29,0:11:33.65,Dialogue,,0,0,0,,It's probably because Mr. Mouri\Nplayed monitor for us.
+Dialogue: 0,0:11:34.05,0:11:36.06,Dialogue,,0,0,0,,President didn't even have to think about it,
+Dialogue: 0,0:11:36.12,0:11:37.59,Dialogue,,0,0,0,,but I guess he just wanted to\Nemphasize his importance...
+Dialogue: 0,0:11:38.36,0:11:39.66,Dialogue,,0,0,0,,I get it!
+Dialogue: 0,0:11:40.03,0:11:45.40,Dialogue,,0,0,0,,Maybe the rumor about the development\Nsection going to be downsized is true!
+Dialogue: 0,0:11:45.80,0:11:49.37,Dialogue,,0,0,0,,Maybe he's thinking over which\Ndevelopment section to shut down now
+Dialogue: 0,0:11:50.97,0:11:53.24,Dialogue,,0,0,0,,By the way, Mr! Kasahara,
+Dialogue: 0,0:11:53.47,0:11:56.68,Dialogue,,0,0,0,,your seat pushes at the vital points\Neven if it isn't moving. .4
+Dialogue: 0,0:11:57.01,0:11:58.28,Dialogue,,0,0,0,,It's so lumpy!
+Dialogue: 0,0:11:58.28,0:11:59.01,Dialogue,,0,0,0,,What?!
+Dialogue: 0,0:11:59.28,0:12:00.38,Dialogue,,0,0,0,,How dare you...
+Dialogue: 0,0:12:00.38,0:12:03.05,Dialogue,,0,0,0,,Please calm down, Mr. Kasahara!
+Dialogue: 0,0:12:03.25,0:12:05.32,Dialogue,,0,0,0,,Thank you everyone!
+Dialogue: 0,0:12:05.59,0:12:08.09,Dialogue,,0,0,0,,May you all work together in peace.
+Dialogue: 0,0:12:08.22,0:12:11.59,Dialogue,,0,0,0,,I hope all of your inventions\Nend up being marketed.
+Dialogue: 0,0:12:11.66,0:12:12.96,Dialogue,,0,0,0,,Ha, ha, ha, ha, ha.
+Dialogue: 0,0:12:12.96,0:12:14.43,Dialogue,,0,0,0,,It's all your fault!!
+Dialogue: 0,0:12:14.43,0:12:16.00,Dialogue,,0,0,0,,You're to blame for this...
+Dialogue: 0,0:12:16.76,0:12:17.63,Dialogue,,0,0,0,,Ric ht,
+Dialogue: 0,0:12:17.97,0:12:21.50,Dialogue,,0,0,0,,you do monitor for him,\Nrepresenting the young generation, Ran!
+Dialogue: 0,0:12:21.80,0:12:23.37,Dialogue,,0,0,0,,No I'd rather not...
+Dialogue: 0,0:12:23.80,0:12:25.61,Dialogue,,0,0,0,,Huh? Where's Conan?
+Dialogue: 0,0:12:26.54,0:12:27.54,Dialogue,,0,0,0,,Conan!!
+Dialogue: 0,0:12:27.81,0:12:28.91,Dialogue,,0,0,0,,What are ou down ?
+Dialogue: 0,0:12:29.28,0:12:30.91,Dialogue,,0,0,0,,Don't touch things here!
+Dialogue: 0,0:12:31.88,0:12:34.55,Dialogue,,0,0,0,,Ism~t this a knife! It's dangerous!
+Dialogue: 0,0:12:34.62,0:12:36.45,Dialogue,,0,0,0,,But, I wonder if it's for real?
+Dialogue: 0,0:12:36.48,0:12:37.82,Dialogue,,0,0,0,,It's real!
+Dialogue: 0,0:12:38.15,0:12:39.62,Dialogue,,0,0,0,,The president is a famous knife collector.
+Dialogue: 0,0:12:39.62,0:12:41.22,Dialogue,,0,0,0,,The president is a famous knife collector.
+Dialogue: 0,0:12:41.84,0:12:44.19,Dialogue,,0,0,0,,There's a lot of talk about his collection\Namong the companies we deal with,
+Dialogue: 0,0:12:44.19,0:12:46.63,Dialogue,,0,0,0,,so he has a lot decorated\Nat the company too.
+Dialogue: 0,0:12:49.26,0:12:50.83,Dialogue,,0,0,0,,Sorry to keep you guys waiting!
+Dialogue: 0,0:12:52.00,0:12:53.03,Dialogue,,0,0,0,,I've made up my mind!
+Dialogue: 0,0:12:53.50,0:12:56.67,Dialogue,,0,0,0,,We're going to put AIMS of the\N3rd development section on the market!
+Dialogue: 0,0:12:58.71,0:12:59.40,Dialogue,,0,0,0,,And,
+Dialogue: 0,0:12:59.51,0:13:01.24,Dialogue,,0,0,0,,we're going to consolidate: the first
+Dialogue: 0,0:13:01.24,0:13:02.98,Dialogue,,0,0,0,,and second development\Nsections into one section.
+Dialogue: 0,0:13:03.24,0:13:03.98,Dialogue,,0,0,0,,Huh /!
+Dialogue: 0,0:13:05.71,0:13:07.88,Dialogue,,0,0,0,,Will everyone except\NHiramatsu leave the room!
+Dialogue: 0,0:13:08.02,0:13:08.75,Dialogue,,0,0,0,,President!
+Dialogue: 0,0:13:08.75,0:13:09.95,Dialogue,,0,0,0,,I'll talk to you later!
+Dialogue: 0,0:13:10.35,0:13:12.95,Dialogue,,0,0,0,,Thank you so much also Mr. Mouri.
+Dialogue: 0,0:13:13.15,0:13:15.49,Dialogue,,0,0,0,,Please relax in the reception corner.
+Dialogue: 0,0:13:16.09,0:13:17.26,Dialogue,,0,0,0,,After we finish work
+Dialogue: 0,0:13:17.26,0:13:20.49,Dialogue,,0,0,0,,I'd like to talk with you over drinks.
+Dialogue: 0,0:13:22.36,0:13:23.96,Dialogue,,0,0,0,,that'd be just great!
+Dialogue: 0,0:13:25.43,0:13:26.63,Dialogue,,0,0,0,,Okay,
+Dialogue: 0,0:13:26.70,0:13:28.17,Dialogue,,0,0,0,,I'll be waiting then...
+Dialogue: 0,0:13:29.10,0:13:33.17,Dialogue,,0,0,0,,They say that they can't dispatch\Na repair car until the fog clears up after all.
+Dialogue: 0,0:13:33.41,0:13:35.38,Dialogue,,0,0,0,,I'll bet ou're reall relieved
+Dialogue: 0,0:13:35.71,0:13:37.74,Dialogue,,0,0,0,,because you can drink all you like now!
+Dialogue: 0,0:13:38.45,0:13:39.01,Dialogue,,0,0,0,,Well,
+Dialogue: 0,0:13:39.01,0:13:40.68,Dialogue,,0,0,0,,I guess I'll go make some coffee then
+Dialogue: 0,0:13:41.22,0:13:42.85,Dialogue,,0,0,0,,Iet me help you!
+Dialogue: 0,0:13:43.85,0:13:45.22,Dialogue,,0,0,0,,I have to go to the restroom.
+Dialogue: 0,0:13:46.02,0:13:48.65,Dialogue,,0,0,0,,The restroom's beyond the room\Nwe were in just a while ago
+Dialogue: 0,0:13:49.32,0:13:51.46,Dialogue,,0,0,0,,It's the second door to your left.
+Dialogue: 0,0:13:51.66,0:13:52.59,Dialogue,,0,0,0,,Okay
+Dialogue: 0,0:13:53.16,0:13:55.23,Dialogue,,0,0,0,,Please nullify my contract with you!
+Dialogue: 0,0:13:55.63,0:13:58.13,Dialogue,,0,0,0,,I'm fed up having to work under you'!
+Dialogue: 0,0:13:58.30,0:13:58.93,Dialogue,,0,0,0,,Phooey!
+Dialogue: 0,0:13:59.47,0:14:05.10,Dialogue,,0,0,0,,Do I look like a softy who would say,\NYes, off course, and nullify our contract?
+Dialogue: 0,0:14:05.81,0:14:06.14,Dialogue,,0,0,0,,No...
+Dialogue: 0,0:14:07.27,0:14:10.31,Dialogue,,0,0,0,,so I have already made\Nappropriate arrangements...
+Dialogue: 0,0:14:11.51,0:14:14.66,Dialogue,,0,0,0,,$0, that you would by\NnO means refuse to do so
+Dialogue: 0,0:14:14.75,0:14:16.75,Dialogue,,0,0,0,,I'm definite thatyou won't refuse...
+Dialogue: 0,0:14:22.39,0:14:24.29,Dialogue,,0,0,0,,They're sure taking their time...
+Dialogue: 0,0:14:24.39,0:14:29.33,Dialogue,,0,0,0,,He's probably being threatened and\Nsigning a ruthless contract or something.
+Dialogue: 0,0:14:29.36,0:14:30.80,Dialogue,,0,0,0,,Serves him right
+Dialogue: 0,0:14:31.30,0:14:33.37,Dialogue,,0,0,0,,A ruthless contract?
+Dialogue: 0,0:14:33.37,0:14:34.33,Dialogue,,0,0,0,,Yes...
+Dialogue: 0,0:14:34.40,0:14:34.90,Dialogue,,0,0,0,,Y. my
+Dialogue: 0,0:14:34.90,0:14:36.97,Dialogue,,0,0,0,,what-does it mean to nullify a contract?
+Dialogue: 0,0:14:38.31,0:14:40.04,Dialogue,,0,0,0,,Keep out of this kid!
+Dialogue: 0,0:14:40.27,0:14:41.07,Dialogue,,0,0,0,,Sonny,
+Dialogue: 0,0:14:41.28,0:14:43.58,Dialogue,,0,0,0,,did you hear Hiramatsu\Ny Say so to the president?
+Dialogue: 0,0:14:44.71,0:14:49.32,Dialogue,,0,0,0,,Don't tell me Hiramatsu's\Nplanning to quit the company?
+Dialogue: 0,0:14:49.65,0:14:52.95,Dialogue,,0,0,0,,Which means that\Nyou're all contract employees?
+Dialogue: 0,0:14:53.02,0:14:54.29,Dialogue,,0,0,0,,Nd nd awa
+Dialogue: 0,0:14:54.29,0:14:57.39,Dialogue,,0,0,0,,when the president finds\Na talented developer
+Dialogue: 0,0:14:57.39,0:15:00.03,Dialogue,,0,0,0,,he forces the developer to sign\Na long-term contract with him,
+Dialogue: 0,0:15:00.03,0:15:02.40,Dialogue,,0,0,0,,and makes it difficult\Nfor the person to quit easily.
+Dialogue: 0,0:15:02.53,0:15:04.40,Dialogue,,0,0,0,,By force?
+Dialogue: 0,0:15:05.67,0:15:06.87,Dialogue,,0,0,0,,It's true...
+Dialogue: 0,0:15:07.03,0:15:09.44,Dialogue,,0,0,0,,The president's physique\NIS as you saw him...
+Dialogue: 0,0:15:09.44,0:15:11.91,Dialogue,,0,0,0,,And besides he carries\Na dan in karate...
+Dialogue: 0,0:15:12.41,0:15:15.48,Dialogue,,0,0,0,,Even if he doesn't really hit you\Nand stops justbefore hitting,
+Dialogue: 0,0:15:15.48,0:15:18.91,Dialogue,,0,0,0,,a weak hearted person would panic\Nand sign the contract immediately
+Dialogue: 0,0:15:19.41,0:15:20.41,Dialogue,,0,0,0,,Oh, no...
+Dialogue: 0,0:15:20.61,0:15:21.21,Dialogue,,0,0,0,,Oh well,
+Dialogue: 0,0:15:21.22,0:15:24.68,Dialogue,,0,0,0,,Kasahara and I have been here since\Nthe previous president was our boss,
+Dialogue: 0,0:15:24.69,0:15:26.92,Dialogue,,0,0,0,,SO we've been spared\Nthat karate scare...
+Dialogue: 0,0:15:26.92,0:15:31.96,Dialogue,,0,0,0,,but all the young staff are being\Ntemperedhere at this study dormitory
+Dialogue: 0,0:15:32.19,0:15:33.09,Dialogue,,0,0,0,,Moreover,
+Dialogue: 0,0:15:33.09,0:15:34.76,Dialogue,,0,0,0,,he takes advantage of tax exemptions and\Nuses company funds to cover everything
+Dialogue: 0,0:15:34.76,0:15:41.43,Dialogue,,0,0,0,,funds to cover everything from his hobby of\Ncollecting knives to giving gifts to women
+Dialogue: 0,0:15:42.74,0:15:46.94,Dialogue,,0,0,0,,Even on our way here, take a look at this!
+Dialogue: 0,0:15:47.24,0:15:47.74,Dialogue,,0,0,0,,Oh...
+Dialogue: 0,0:15:48.58,0:15:50.58,Dialogue,,0,0,0,,Huh, what's that?
+Dialogue: 0,0:15:50.91,0:15:51.71,Dialogue,,0,0,0,,Strange,
+Dialogue: 0,0:15:52.05,0:15:52.88,Dialogue,,0,0,0,,that's the sound ofia car...
+Dialogue: 0,0:15:57.18,0:15:58.99,Dialogue,,0,0,0,,it's Mr. Hiramatsu's car
+Dialogue: 0,0:15:59.02,0:16:00.25,Dialogue,,0,0,0,,I wonder what's going on...
+Dialogue: 0,0:16:02.89,0:16:03.96,Dialogue,,0,0,0,,The window on the other side!
+Dialogue: 0,0:16:04.39,0:16:05.69,Dialogue,,0,0,0,,It's open...
+Dialogue: 0,0:16:05.79,0:16:07.23,Dialogue,,0,0,0,,No way?!
+Dialogue: 0,0:16:08.36,0:16:09.43,Dialogue,,0,0,0,,Conan?!
+Dialogue: 0,0:16:18.47,0:16:19.61,Dialogue,,0,0,0,,This: us?
+Dialogue: 0,0:16:19.61,0:16:20.24,Dialogue,,0,0,0,,President?!
+Dialogue: 0,0:16:21.38,0:16:22.19,Dialogue,,0,0,0,,President?!
+Dialogue: 0,0:16:22.88,0:16:23.84,Dialogue,,0,0,0,,President!!
+Dialogue: 0,0:16:24.01,0:16:25.58,Dialogue,,0,0,0,,Please get a hold of yourself!
+Dialogue: 0,0:16:25.68,0:16:27.38,Dialogue,,0,0,0,,Please stay back!!
+Dialogue: 0,0:16:28.48,0:16:30.65,Dialogue,,0,0,0,,Mr. Umetani, are you okay?
+Dialogue: 0,0:16:34.42,0:16:35.89,Dialogue,,0,0,0,,He's still breathing!
+Dialogue: 0,0:16:35.89,0:16:36.76,Dialogue,,0,0,0,,President!!
+Dialogue: 0,0:16:36.96,0:16:37.36,Dialogue,,0,0,0,,Ran!
+Dialogue: 0,0:16:37.52,0:16:39.16,Dialogue,,0,0,0,,Get the ambulance and the police!!
+Dialogue: 0,0:16:39.16,0:16:39.73,Dialogue,,0,0,0,,Yes, sir!
+Dialogue: 0,0:16:41.26,0:16:42.90,Dialogue,,0,0,0,,Let's leave the rest to Ran
+Dialogue: 0,0:16:43.06,0:16:44.73,Dialogue,,0,0,0,,and go after Mr. Hiramatsu!!
+Dialogue: 0,0:16:47.07,0:16:48.23,Dialogue,,0,0,0,,The car in the foreground!!
+Dialogue: 0,0:16:48.34,0:16:49.90,Dialogue,,0,0,0,,I've got the keys.
+Dialogue: 0,0:16:50.00,0:16:53.01,Dialogue,,0,0,0,,It's the presidents but I drive it so...
+Dialogue: 0,0:16:53.31,0:16:54.11,Dialogue,,0,0,0,,Wait!!
+Dialogue: 0,0:16:54.14,0:16:54.97,Dialogue,,0,0,0,,There's a flat!
+Dialogue: 0,0:16:55.11,0:16:55.78,Dialogue,,0,0,0,,Huh?
+Dialogue: 0,0:16:55.88,0:16:58.04,Dialogue,,0,0,0,,This side is super flat too!
+Dialogue: 0,0:16:58.78,0:17:00.71,Dialogue,,0,0,0,,The tires of my car are flat too!
+Dialogue: 0,0:17:00.95,0:17:02.32,Dialogue,,0,0,0,,Darn!
+Dialogue: 0,0:17:12.73,0:17:14.23,Dialogue,,0,0,0,,In the mountains like this,
+Dialogue: 0,0:17:14.33,0:17:19.77,Dialogue,,0,0,0,,it's faster to take him to the hospital by car\Nthan to wait for an ambulance but...
+Dialogue: 0,0:17:21.00,0:17:22.14,Dialogue,,0,0,0,,Oh, president.
+Dialogue: 0,0:17:22.14,0:17:22.97,Dialogue,,0,0,0,,President!
+Dialogue: 0,0:17:22.97,0:17:23.87,Dialogue,,0,0,0,,Mr. Umetani?!
+Dialogue: 0,0:17:23.90,0:17:24.44,Dialogue,,0,0,0,,President,
+Dialogue: 0,0:17:24.44,0:17:26.31,Dialogue,,0,0,0,,please get a hold of yourself!!
+Dialogue: 0,0:17:27.21,0:17:27.81,Dialogue,,0,0,0,,Huh
+Dialogue: 0,0:17:27.81,0:17:28.04,Dialogue,,0,0,0,,Huh
+Dialogue: 0,0:17:30.28,0:17:31.98,Dialogue,,0,0,0,,The knife fell off!!
+Dialogue: 0,0:17:32.28,0:17:34.25,Dialogue,,0,0,0,,What's going on...
+Dialogue: 0,0:17:37.02,0:17:37.72,Dialogue,,0,0,0,,Huh.
+Dialogue: 0,0:17:39.15,0:17:39.95,Dialogue,,0,0,0,,This is?!
+Dialogue: 0,0:17:40.29,0:17:43.22,Dialogue,,0,0,0,,The knife poked into the cigar case!
+Dialogue: 0,0:17:43.52,0:17:47.33,Dialogue,,0,0,0,,Which means that\Nthe cigar case saved hislife?!
+Dialogue: 0,0:17:51.30,0:17:52.20,Dialogue,,0,0,0,,President!
+Dialogue: 0,0:17:52.20,0:17:53.27,Dialogue,,0,0,0,,Thank God!
+Dialogue: 0,0:17:55.00,0:17:58.34,Dialogue,,0,0,0,,Mr. Umetani, what in the\Nworld happened?
+Dialogue: 0,0:18:00.34,0:18:02.11,Dialogue,,0,0,0,,Hiramatsu suddenly.
+Dialogue: 0,0:18:02.78,0:18:04.08,Dialogue,,0,0,0,,Stabbed me with a knife...
+Dialogue: 0,0:18:10.35,0:18:11.60,Dialogue,,0,0,0,,Whaaa
+Dialogue: 0,0:18:37.38,0:18:41.88,Dialogue,,0,0,0,,It seems that there was a thick fog\Nat the time of the accident
+Dialogue: 0,0:18:41.92,0:18:44.75,Dialogue,,0,0,0,,and besides this slope is\Nsteep and the curve is very sharp...
+Dialogue: 0,0:18:44.95,0:18:49.66,Dialogue,,0,0,0,,It's most likely that he couldn't steer\Nfast enough while he was on the run
+Dialogue: 0,0:18:49.89,0:18:52.13,Dialogue,,0,0,0,,eah, most likely...
+Dialogue: 0,0:18:52.69,0:18:55.56,Dialogue,,0,0,0,,All the tires of the other cars were flat,
+Dialogue: 0,0:18:55.76,0:19:01.00,Dialogue,,0,0,0,,so there was no reason for him\Nto rush as much as he did, though...
+Dialogue: 0,0:19:01.40,0:19:04.27,Dialogue,,0,0,0,,If he could think on that line,
+Dialogue: 0,0:19:04.44,0:19:07.01,Dialogue,,0,0,0,,he wouldn't. have gotten\Nenraged and stab somebody.
+Dialogue: 0,0:19:07.41,0:19:08.91,Dialogue,,0,0,0,,Exactly!
+Dialogue: 0,0:19:09.38,0:19:10.88,Dialogue,,0,0,0,,Just as expected of you Mr. Moun,
+Dialogue: 0,0:19:10.98,0:19:12.45,Dialogue,,0,0,0,,very sharp deduction!
+Dialogue: 0,0:19:17.25,0:19:17.82,Dialogue,,0,0,0,,Huh.
+Dialogue: 0,0:19:20.65,0:19:21.15,Dialogue,,0,0,0,,Well,
+Dialogue: 0,0:19:21.46,0:19:23.19,Dialogue,,0,0,0,,the victim is only slightly hurt,
+Dialogue: 0,0:19:23.36,0:19:25.86,Dialogue,,0,0,0,,So we'llgbe able to get at the\Nmotive of the stabber right away.
+Dialogue: 0,0:19:26.19,0:19:26.76,Dialogue,,0,0,0,,Ri ht!
+Dialogue: 0,0:19:32.17,0:19:32.87,Dialogue,,0,0,0,,Sonny!
+Dialogue: 0,0:19:32.87,0:19:33.90,Dialogue,,0,0,0,,What are you doing?
+Dialogue: 0,0:19:33.90,0:19:36.17,Dialogue,,0,0,0,,You shouldn't be inhere.
+Dialogue: 0,0:19:36.50,0:19:36.97,Dialogue,,0,0,0,,Whit,
+Dialogue: 0,0:19:37.37,0:19:39.07,Dialogue,,0,0,0,,what's this mirror?
+Dialogue: 0,0:19:39.31,0:19:40.91,Dialogue,,0,0,0,,Oh, that?
+Dialogue: 0,0:19:41.04,0:19:42.54,Dialogue,,0,0,0,,It's called a corner mirror
+Dialogue: 0,0:19:42.71,0:19:45.04,Dialogue,,0,0,0,,From here on down\Nit's the land of that company
+Dialogue: 0,0:19:45.05,0:19:46.05,Dialogue,,0,0,0,,and it's a private road
+Dialogue: 0,0:19:46.38,0:19:48.41,Dialogue,,0,0,0,,It seems that nobody is here now, though...
+Dialogue: 0,0:19:48.75,0:19:49.25,Dialogue,,0,0,0,,OCT,
+Dialogue: 0,0:19:49.42,0:19:50.85,Dialogue,,0,0,0,,there's the sign of the company
+Dialogue: 0,0:19:51.05,0:19:52.65,Dialogue,,0,0,0,,It says public welfare facility
+Dialogue: 0,0:19:52.65,0:19:55.09,Dialogue,,0,0,0,,Well, it's like a company villa
+Dialogue: 0,0:19:55.62,0:19:57.62,Dialogue,,0,0,0,,This large rock is really a pain and
+Dialogue: 0,0:19:57.62,0:20:00.39,Dialogue,,0,0,0,,it blocks vision when going in and out\Nmaking it really dangerous...
+Dialogue: 0,0:20:00.86,0:20:03.16,Dialogue,,0,0,0,,I On this side\there's this-sharp curve-tot)
+Dialogue: 0,0:20:03.60,0:20:06.15,Dialogue,,0,0,0,,There's a curve minor there\Nfor the public road too
+Dialogue: 0,0:20:06.90,0:20:09.57,Dialogue,,0,0,0,,Because I'm in charge around here,
+Dialogue: 0,0:20:09.70,0:20:13.57,Dialogue,,0,0,0,,I wanted a cerner mirror ,\Nfor the private road!
+Dialogue: 0,0:20:15.91,0:20:16.84,Dialogue,,0,0,0,,Huh?!
+Dialogue: 0,0:20:17.04,0:20:19.05,Dialogue,,0,0,0,,The position of the mirror is not right...
+Dialogue: 0,0:20:20.11,0:20:22.32,Dialogue,,0,0,0,,It's good that they made a large one,
+Dialogue: 0,0:20:22.52,0:20:24.42,Dialogue,,0,0,0,,but I wonder if the wind\Nblows it out of place
+Dialogue: 0,0:20:24.65,0:20:26.39,Dialogue,,0,0,0,,It was okay in the day time!
+Dialogue: 0,0:20:27.09,0:20:29.02,Dialogue,,0,0,0,,I think it's better not to fix it
+Dialogue: 0,0:20:30.26,0:20:32.63,Dialogue,,0,0,0,,It could've been the reason\Nthe accident occurred, right?!
+Dialogue: 0,0:20:34.13,0:20:35.60,Dialogue,,0,0,0,,Oh. no!
+Dialogue: 0,0:20:36.76,0:20:41.27,Dialogue,,0,0,0,,Mr. Mouri wants you to chec 4\Nthe brakes of the car right away!
+Dialogue: 0,0:20:41.57,0:20:43.34,Dialogue,,0,0,0,,Mr. Mouri wants me-to?
+Dialogue: 0,0:20:43.94,0:20:44.80,Dialogue,,0,0,0,,See!
+Dialogue: 0,0:20:45.07,0:20:47.17,Dialogue,,0,0,0,,The brakes may have not been working
+Dialogue: 0,0:20:47.51,0:20:50.54,Dialogue,,0,0,0,,I'll ask using the wireless\Nso wait a while, okay...
+Dialogue: 0,0:20:50.61,0:20:51.78,Dialogue,,0,0,0,,Conan!
+Dialogue: 0,0:20:51.91,0:20:54.05,Dialogue,,0,0,0,,Just what are you\Ndoing in a place like this!
+Dialogue: 0,0:20:54.68,0:20:57.78,Dialogue,,0,0,0,,Dad's angry because\Nhe wants you to come back up
+Dialogue: 0,0:20:57.88,0:20:59.32,Dialogue,,0,0,0,,I'm sorry
+Dialogue: 0,0:20:59.55,0:21:00.62,Dialogue,,0,0,0,,Hurry. quick
+Dialogue: 0,0:21:01.12,0:21:02.46,Dialogue,,0,0,0,,Oh, wait
+Dialogue: 0,0:21:03.59,0:21:05.02,Dialogue,,0,0,0,,I'm .sorry to keep you waiting
+Dialogue: 0,0:21:05.33,0:21:06.03,Dialogue,,0,0,0,,I tell you!
+Dialogue: 0,0:21:06.03,0:21:07.63,Dialogue,,0,0,0,,+ Stop scampering about!
+Dialogue: 0,0:21:07.63,0:21:09.33,Dialogue,,0,0,0,,I'm going to leave you here!!
+Dialogue: 0,0:21:09.50,0:21:10.80,Dialogue,,0,0,0,,I'm sorry
+Dialogue: 0,0:21:11.03,0:21:12.73,Dialogue,,0,0,0,,Oh come now, Mr: Mouri
+Dialogue: 0,0:21:13.00,0:21:14.07,Dialogue,,0,0,0,,Mr. Mouril\
+Dialogue: 0,0:21:14.10,0:21:14.60,Dialogue,,0,0,0,,Hah,
+Dialogue: 0,0:21:15.97,0:21:17.50,Dialogue,,0,0,0,,#9 Oh, Inspector Yokomizo!
+Dialogue: 0,0:21:17.97,0:21:20.47,Dialogue,,0,0,0,,About your question a while ago...
+Dialogue: 0,0:21:21.54,0:21:25.81,Dialogue,,0,0,0,,It seems that the brake oil of the car that\Ngot intopthe accident was completely gone
+Dialogue: 0,0:21:26.15,0:21:26.58,Dialogue,,0,0,0,,Huh?
+Dialogue: 0,0:21:26.91,0:21:28.01,Dialogue,,0,0,0,,What did you just say?!
+Dialogue: 0,0:21:28.58,0:21:31.08,Dialogue,,0,0,0,,I can't tell for sure whether it happened\Nbecause of the shock of the accident
+Dialogue: 0,0:21:31.08,0:21:34.15,Dialogue,,0,0,0,,or whether it happened\Nbefore the accident,
+Dialogue: 0,0:21:34.15,0:21:36.92,Dialogue,,0,0,0,,but the tube seems to have come off
+Dialogue: 0,0:21:37.42,0:21:39.36,Dialogue,,0,0,0,,Which means, Mr. Mouri
+Dialogue: 0,0:21:39.86,0:21:43.26,Dialogue,,0,0,0,,that the oil leaked out and thefbrakes\Nmay not have been working...
+Dialogue: 0,0:21:45.13,0:21:48.93,Dialogue,,0,0,0,,It's only natural fordhim to have gotten into\Nan accident on this mountainous road...
+Dialogue: 0,0:21:50.74,0:21:51.84,Dialogue,,0,0,0,,Strange...
+Dialogue: 0,0:21:52.64,0:21:54.27,Dialogue,,0,0,0,,there are too many\Nstrange things involved...
+Dialogue: 0,0:21:55.28,0:21:57.88,Dialogue,,0,0,0,,A person who gets enraged,\Nstabs someone and flees,
+Dialogue: 0,0:21:58.48,0:22:01.28,Dialogue,,0,0,0,,flattens the tires of everyone's car because\Nhe doesn't want anyone to come after him...
+Dialogue: 0,0:22:02.02,0:22:06.12,Dialogue,,0,0,0,,This same person panics and\Nsteers his car out of control,
+Dialogue: 0,0:22:06.42,0:22:07.72,Dialogue,,0,0,0,,and falls over the cliff to his death...
+Dialogue: 0,0:22:09.96,0:22:12.16,Dialogue,,0,0,0,,The curve mirror that\Nwas facing the wrong way...
+Dialogue: 0,0:22:13.59,0:22:15.90,Dialogue,,0,0,0,,Brake oil that was completely gone...
+Dialogue: 0,0:22:18.03,0:22:19.23,Dialogue,,0,0,0,,omething smells fishy...
+Dialogue: 0,0:22:20.27,0:22:21.67,Dialogue,,0,0,0,,Very fishy!!
+Dialogue: 0,0:22:28.21,0:22:31.84,Dialogue,,0,0,0,,Original Comic Books By\NGOSHO AOYAMA
+Dialogue: 0,0:22:34.15,0:22:37.85,Dialogue,,0,0,0,,Producers.\NMICHIHIKO SLJWA\NMASAHITO YOSHIOKA
+Dialogue: 0,0:22:40.25,0:22:43.79,Dialogue,,0,0,0,,Background Music.\NKATSUO ONO
+Dialogue: 0,0:22:46.19,0:22:49.83,Dialogue,,0,0,0,,Characlcr Designs By.\NMas/xromo sumo
+Dialogue: 0,0:22:52.42,0:22:55.80,Dialogue,,0,0,0,,Story Editor.\NJUNICHI 11OKA
+Dialogue: 0,0:22:58.21,0:23:01.84,Dialogue,,0,0,0,,Scripts By.\NKAN]! KASHIWABARA\NKAZUNARI KOUCHI\NJUNICHI MIYASHITA\NYUICHI HIGURE\NTOSHIKI INOUE
+Dialogue: 0,0:23:04.18,0:23:07.85,Dialogue,,0,0,0,,Animation DiFectors\NMASATOMO SUDO\NHIROTOSHI TAKATANI\NATSUSHI AONO\NAKIO KAWAMURA\NTAKASHI HYODO
+Dialogue: 0,0:23:10.22,0:23:13.89,Dialogue,,0,0,0,,Art Director\NYUKIHIRO SHIBUTANI
+Dialogue: 0,0:23:16.26,0:23:19.82,Dialogue,,0,0,0,,Directors Of Photography\NTAKASHI NOMURA\NHIRONOBU HORIKOSHI\NTAKAHISA OWAGA
+Dialogue: 0,0:23:22.23,0:23:25.87,Dialogue,,0,0,0,,Recording Director.\NKATSUYOSHI KOBAYASHI
+Dialogue: 0,0:23:28.20,0:23:31.90,Dialogue,,0,0,0,,Editor.\NTERUMITSU OKADA
+Dialogue: 0,0:23:34.31,0:23:37.84,Dialogue,,0,0,0,,Chicf Director.\NKENJIJKODAMA
+Dialogue: 0,0:23:40.21,0:23:43.88,Dialogue,,0,0,0,,roducedt\NIMS ENTERTAINMENT, LTD\Nit association with\NYOMIURI TELE\NCORPORATION
+Dialogue: 0,0:23:46.25,0:23:52.46,Dialogue,,0,0,0,,DETECTIVE CC NAN\NCLONHO AOYAMA SHOGAKURAN YTV CIM\NAll Ri } WReserved
+Dialogue: 0,0:23:54.13,0:23:56.83,Dialogue,,0,0,0,,A rope, a stun gun
+Dialogue: 0,0:23:56.96,0:23:57.93,Dialogue,,0,0,0,,and a death note
+Dialogue: 0,0:23:58.73,0:23:59.80,Dialogue,,0,0,0,,A death note?!
+Dialogue: 0,0:23:59.87,0:24:01.07,Dialogue,,0,0,0,,What's going on...?
+Dialogue: 0,0:24:02.04,0:24:02.74,Dialogue,,0,0,0,,Huh
+Dialogue: 0,0:24:02.77,0:24:04.57,Dialogue,,0,0,0,,What's this?!
+Dialogue: 0,0:24:04.87,0:24:05.87,Dialogue,,0,0,0,,What's wrong?
+Dialogue: 0,0:24:06.07,0:24:06.54,Dialogue,,0,0,0,,Ran,
+Dialogue: 0,0:24:06.94,0:24:09.57,Dialogue,,0,0,0,,please call Inspector Yokomizo and\Nthe others and tell them to come back!
+Dialogue: 0,0:24:11.11,0:24:11.81,Dialogue,,0,0,0,,This is
+Dialogue: 0,0:24:12.18,0:24:14.25,Dialogue,,0,0,0,,a cleverly schemed
+Dialogue: 0,0:24:14.41,0:24:16.45,Dialogue,,0,0,0,,case of homicide!
+Dialogue: 0,0:24:16.45,0:24:22.19,Dialogue,,0,0,0,,TheOCigar Case:of Good Luck" 7\NPart 2

@@ -1,0 +1,467 @@
+[Script Info]
+Title: Detective Conan - 0313
+TL Source: UTB
+ScriptType: v4.00+
+WrapStyle: 3
+PlayResX: 1440
+PlayResY: 1080
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Dialogue,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00401311,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Dialogue Top,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00401311,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,8,30,30,55,1
+Style: Signs,FrancophilSans,74,&H14FFFFFF,&H00FFFFFF,&H46101010,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,8,30,30,55,1
+Style: Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,0,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Radio,FrancophilSans,74,&H00BEE1FF,&H00FFFFFF,&H000B2A42,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Narration,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00BF6F00,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Narration Off,FrancophilSans,74,&H6E8C6F00,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,0,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Flashback,FrancophilSans,74,&H00CDFAFF,&H00FFFFFF,&H00373737,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Flashback Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00CCFFFF,&HC0313134,-1,0,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Honorifics - Dialogue,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00401311,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Signs,FrancophilSans,74,&H14FFFFFF,&H00FFFFFF,&H46101010,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,-1,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Honorifics - Radio,FrancophilSans,74,&H00BEE1FF,&H00FFFFFF,&H000B2A42,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Narration,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00BF6F00,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Narration Off,FrancophilSans,74,&H6E8C6F00,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,-1,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Honorifics - Flashback,FrancophilSans,74,&H00CDFAFF,&H00FFFFFF,&H00373737,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Flashback Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00CCFFFF,&HC0313134,-1,-1,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Masks,FrancophilSans,74,&H00000000,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,2,0,0,0,1
+Style: Title,Conan Episode Title,74,&H00E1E4E3,&H000000FF,&HC8DBDAE1,&HC0000000,-1,0,0,0,100,100,0,0,1,1,0,5,0,0,0,1
+Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-1,0,0,0,100,100,0,0,1,0,0,2,0,0,65,1
+Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
+Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
+Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:02.54,0:00:03.09,Dialogue,,0,0,0,,Prc,\N8,0,0,0,0,0, 05,8800,\Na0 ssa as sR . aes\N< LL.\NPLL aa a%% 0%0%0%" ., .,\NDeduction=flows\Nwith the rhythm of the wind
+Dialogue: 0,0:00:03.14,0:00:04.39,Dialogue,,0,0,0,,Deduction flows\Nwith the rhythm of the wind
+Dialogue: 0,0:00:04.48,0:00:06.38,Dialogue,,0,0,0,,Dark stains are rinsed\Nclean and exposed
+Dialogue: 0,0:00:06.60,0:00:08.38,Dialogue,,0,0,0,,Finding the treasure thief.
+Dialogue: 0,0:00:08.38,0:00:10.28,Dialogue,,0,0,0,,Ayumi's real objective!
+Dialogue: 0,0:00:10.62,0:00:12.15,Dialogue,,0,0,0,,- He sees through the one and only truth,
+Dialogue: 0,0:00:12.22,0:00:14.12,Dialogue,,0,0,0,,A child in appearance\Nwith the HQ. of an adult
+Dialogue: 0,0:00:15.72,0:00:18.56,Dialogue,,0,0,0,,no case is left unsolved\Nwith Detective Conan
+Dialogue: 0,0:01:25.24,0:01:25.57,Dialogue,,0,0,0,,Cw DY
+Dialogue: 0,0:01:29.16,0:01:30.08,Dialogue,,0,0,0,,<7 > >
+Dialogue: 0,0:01:30.55,0:01:30.88,Dialogue,,0,0,0,,\v Loe NY -
+Dialogue: 0,0:01:31.88,0:01:32.71,Dialogue,,0,0,0,,V- Al\N- Ww,
+Dialogue: 0,0:01:55.29,0:01:57.36,Dialogue,,0,0,0,,We the members\Nof the Youth Detective Squad were
+Dialogue: 0,0:01:57.36,0:01:59.19,Dialogue,,0,0,0,,taken by Ayumi
+Dialogue: 0,0:01:59.19,0:02:02.13,Dialogue,,0,0,0,,to go get a set of Girls' Festival Dolls\Nat the Kanno residence
+Dialogue: 0,0:02:03.16,0:02:04.15,Dialogue,,0,0,0,,While we were there...
+Dialogue: 0,0:02:04.18,0:02:07.23,Dialogue,,0,0,0,,Mr. Mizutaka Tsumagari brings\Nan antique appraiser Mr. Yoshiharu Mie
+Dialogue: 0,0:02:07.23,0:02:10.50,Dialogue,,0,0,0,,with him saying that he wants to buy
+Dialogue: 0,0:02:10.50,0:02:12.60,Dialogue,,0,0,0,,the hanging scroll at a\Nvery high price, but...
+Dialogue: 0,0:02:12.87,0:02:15.31,Dialogue,,0,0,0,,Mrs. Kanno's grandma flatly refuses
+Dialogue: 0,0:02:16.18,0:02:19.38,Dialogue,,0,0,0,,But. while we were out shopping
+Dialogue: 0,0:02:19.38,0:02:20.13,Dialogue,,0,0,0,,that hanging scroll
+Dialogue: 0,0:02:20.13,0:02:20.78,Dialogue,,0,0,0,,that hanging scroll
+Dialogue: 0,0:02:21.00,0:02:21.88,Dialogue,,0,0,0,,disappears!!
+Dialogue: 0,0:02:24.65,0:02:25.95,Dialogue,,0,0,0,,And, besides the time
+Dialogue: 0,0:02:26.09,0:02:29.15,Dialogue,,0,0,0,,the FA was sentwoutrall show 15:28!
+Dialogue: 0,0:02:29.39,0:02:30.46,Dialogue,,0,0,0,,Which means that
+Dialogue: 0,0:02:30.46,0:02:32.86,Dialogue,,0,0,0,,the FAX kept coming in all
+Dialogue: 0,0:02:32.86,0:02:35.99,Dialogue,,0,0,0,,the while we were out shopping\Nuntil we came back, right?
+Dialogue: 0,0:02:36.43,0:02:39.70,Dialogue,,0,0,0,,Do you think a burglar\Nwould break into a room where
+Dialogue: 0,0:02:39.70,0:02:41.90,Dialogue,,0,0,0,,noise is constantly coming from?
+Dialogue: 0,0:02:42.00,0:02:42.73,Dialogue,,0,0,0,,Beside
+Dialogue: 0,0:02:43.14,0:02:47.21,Dialogue,,0,0,0,,it's strange that\Nthe burglar didn't notice her wallet
+Dialogue: 0,0:02:47.51,0:02:49.78,Dialogue,,0,0,0,,and if the burglar\Ncouldn't find what he was after,
+Dialogue: 0,0:02:49.78,0:02:51.99,Dialogue,,0,0,0,,wouldn't all the other\Nrooms be ransacked too?
+Dialogue: 0,0:02:54.35,0:02:56.88,Dialogue,,0,0,0,,The strangest thing is
+Dialogue: 0,0:02:56.88,0:02:59.82,Dialogue,,0,0,0,,why only the hanging scroll was stolen.
+Dialogue: 0,0:03:00.32,0:03:01.22,Dialogue,,0,0,0,,But,
+Dialogue: 0,0:03:01.22,0:03:01.57,Dialogue,,0,0,0,,that hanging scroll is\Nworth 2010007000 yen...
+Dialogue: 0,0:03:01.69,0:03:02.19,Dialogue,,0,0,0,,that hanging scroll is\Nworth 20.000,000.yen...
+Dialogue: 0,0:03:03.19,0:03:03.49,Dialogue,,0,0,0,,that hanging scroll is\Nworth 20,000,000 yen...
+Dialogue: 0,0:03:03.59,0:03:04.42,Dialogue,,0,0,0,,You idiot.
+Dialogue: 0,0:03:04.66,0:03:06.46,Dialogue,,0,0,0,,Only a professional would know
+Dialogue: 0,0:03:06.46,0:03:08.66,Dialogue,,0,0,0,,if that scroll is real! worth that rice...
+Dialogue: 0,0:03:09.13,0:03:10.20,Dialogue,,0,0,0,,Which means that
+Dialogue: 0,0:03:10.20,0:03:14.30,Dialogue,,0,0,0,,the burglar knew that\Nthe scroll was here to begin with...
+Dialogue: 0,0:03:14.67,0:03:15.60,Dialogue,,0,0,0,,Yeah...
+Dialogue: 0,0:03:16.27,0:03:18.84,Dialogue,,0,0,0,,& er @)\Nbut if the burglar was after the scroll.
+Dialogue: 0,0:03:18.84,0:03:20.84,Dialogue,,0,0,0,,the other room wouldn't\Nhave been ransacked...
+Dialogue: 0,0:03:21.21,0:03:23.88,Dialogue,,0,0,0,,Maybe the burglar messed up\Nthe other room just to throw people off,
+Dialogue: 0,0:03:24.01,0:03:26.43,Dialogue,,0,0,0,,so that he's not suspected...
+Dialogue: 0,0:03:27.01,0:03:28.43,Dialogue,,0,0,0,,Which means that
+Dialogue: 0,0:03:28.46,0:03:30.55,Dialogue,,0,0,0,,the culprit has no definite alibi
+Dialogue: 0,0:03:30.65,0:03:32.65,Dialogue,,0,0,0,,and on top of that had to face
+Dialogue: 0,0:03:32.65,0:03:34.99,Dialogue,,0,0,0,,the police reluctantly after the incident
+Dialogue: 0,0:03:35.12,0:03:36.09,Dialogue,,0,0,0,,Furthermore,
+Dialogue: 0,0:03:36.09,0:03:39.32,Dialogue,,0,0,0,,that person knows the value\Nof that hanging scroll!
+Dialogue: 0,0:03:42.30,0:03:47.53,Dialogue,,0,0,0,,(1523)\NGirls' Festival Dolls in the Sunset Part 2
+Dialogue: 0,0:03:47.53,0:03:47.90,Dialogue,,0,0,0,,(52 FR)
+Dialogue: 0,0:03:51.07,0:03:52.47,Dialogue,,0,0,0,,Hey. Conan...
+Dialogue: 0,0:03:52.71,0:03:54.04,Dialogue,,0,0,0,,Butlin the Japanese room...
+Dialogue: 0,0:03:54.04,0:03:56.27,Dialogue,,0,0,0,,all there is thene is the set\Nof Girls Festival dolls,
+Dialogue: 0,0:03:56.28,0:03:57.71,Dialogue,,0,0,0,,and nothing else...
+Dialogue: 0,0:03:58.34,0:03:58.58,Dialogue,,0,0,0,,Look. see!
+Dialogue: 0,0:03:58.58,0:03:59.44,Dialogue,,0,0,0,,Look. see!
+Dialogue: 0,0:03:59.61,0:04:00.65,Dialogue,,0,0,0,,It's{\rHonorifics - Dialogue} chan{\r}ged. isn't it?
+Dialogue: 0,0:04:00.65,0:04:00.88,Dialogue,,0,0,0,,It's{\rHonorifics - Dialogue} chan{\r}ged. isn t it?
+Dialogue: 0,0:04:01.35,0:04:04.25,Dialogue,,0,0,0,,It's somehow different from\Nhow it was before we went shopping...
+Dialogue: 0,0:04:04.45,0:04:06.59,Dialogue,,0,0,0,,Somehow different...
+Dialogue: 0,0:04:06.62,0:04:08.39,Dialogue,,0,0,0,,It looks the same to me.
+Dialogue: 0,0:04:08.52,0:04:10.16,Dialogue,,0,0,0,,Oh. I see!
+Dialogue: 0,0:04:10.36,0:04:12.62,Dialogue,,0,0,0,,The position. of the Emperor\Nand the Empress isn't correct
+Dialogue: 0,0:04:12.63,0:04:15.23,Dialogue,,0,0,0,,The right and left is opposite!
+Dialogue: 0,0:04:15.70,0:04:17.10,Dialogue,,0,0,0,,R.Right...
+Dialogue: 0,0:04:17.23,0:04:18.76,Dialogue,,0,0,0,,It's not only those two
+Dialogue: 0,0:04:19.10,0:04:21.07,Dialogue,,0,0,0,,Ayumi, will you get your\Ndigital-camera out!
+Dialogue: 0,0:04:21.07,0:04:21.83,Dialogue,,0,0,0,,Okay!
+Dialogue: 0,0:04:22.87,0:04:23.80,Dialogue,,0,0,0,,Here you go!
+Dialogue: 0,0:04:23.84,0:04:24.84,Dialogue,,0,0,0,,Thank you!
+Dialogue: 0,0:04:25.30,0:04:26.34,Dialogue,,0,0,0,,Sees...
+Dialogue: 0,0:04:26.54,0:04:27.57,Dialogue,,0,0,0,,although it's very slight,
+Dialogue: 0,0:04:27.57,0:04:29.84,Dialogue,,0,0,0,,when youzcompare the picture\Nwith the one that was taken previously.
+Dialogue: 0,0:04:29.84,0:04:33.11,Dialogue,,0,0,0,,The position of the other 13 dolls\Nare slightly moved. right?
+Dialogue: 0,0:04:34.11,0:04:35.38,Dialogue,,0,0,0,,Y.You're rights
+Dialogue: 0,0:04:35.41,0:04:39.75,Dialogue,,0,0,0,,It's most likely that the person\Nwho took the hanging scroll bumped
+Dialogue: 0,0:04:39.75,0:04:44.16,Dialogue,,0,0,0,,into the altar of. the dolls accidentally\Nand the'dolls fell
+Dialogue: 0,0:04:44.49,0:04:45.52,Dialogue,,0,0,0,,I see
+Dialogue: 0,0:04:45.93,0:04:48.09,Dialogue,,0,0,0,,So the person who\NIined the dolls back again
+Dialogue: 0,0:04:48.09,0:04:49.83,Dialogue,,0,0,0,,placed them in the wrong position...
+Dialogue: 0,0:04:50.00,0:04:50.93,Dialogue,,0,0,0,,And?
+Dialogue: 0,0:04:50.93,0:04:52.76,Dialogue,,0,0,0,,Who's the culprit?
+Dialogue: 0,0:04:52.77,0:04:53.43,Dialogue,,0,0,0,,Huh 2!
+Dialogue: 0,0:04:53.87,0:04:55.43,Dialogue,,0,0,0,,Hurry up and tell us!
+Dialogue: 0,0:04:55.43,0:04:56.74,Dialogue,,0,0,0,,Oh, well as to that...
+Dialogue: 0,0:04:56.74,0:05:00.14,Dialogue,,0,0,0,,I still haven't figured it out
+Dialogue: 0,0:05:00.51,0:05:01.21,Dialogue,,0,0,0,,Obey
+Dialogue: 0,0:05:01.21,0:05:04.04,Dialogue,,0,0,0,,Stop talking like you got the answer then!
+Dialogue: 0,0:05:04.64,0:05:07.88,Dialogue,,0,0,0,,The dolls look sad...
+Dialogue: 0,0:05:08.25,0:05:09.25,Dialogue,,0,0,0,,1» 600
+Dialogue: 0,0:05:09.48,0:05:13.62,Dialogue,,0,0,0,,this doll here was smiling a bit more\Nwhen it was first lined up...
+Dialogue: 0,0:05:14.44,0:05:17.46,Dialogue,,0,0,0,,How dare drop the dolls after we went\Nthrough the trouble of lining them up right.
+Dialogue: 0,0:05:17.46,0:05:19.46,Dialogue,,0,0,0,,1 see! I got it!
+Dialogue: 0,0:05:19.46,0:05:20.12,Dialogue,,0,0,0,,Huh?
+Dialogue: 0,0:05:20.59,0:05:21.93,Dialogue,,0,0,0,,The burglar is
+Dialogue: 0,0:05:21.93,0:05:25.36,Dialogue,,0,0,0,,somebody who doesn't know very well\Nhow the dolls should be lined up...
+Dialogue: 0,0:05:25.87,0:05:29.37,Dialogue,,0,0,0,,The burglar is you!
+Dialogue: 0,0:05:29.37,0:05:30.59,Dialogue,,0,0,0,,Mr. Tsumagar!
+Dialogue: 0,0:05:31.64,0:05:34.47,Dialogue,,0,0,0,,7 remember you said you\Ndon't have a daughter
+Dialogue: 0,0:05:34.47,0:05:37.08,Dialogue,,0,0,0,,SO you're not interested\Nin the dolls, right!
+Dialogue: 0,0:05:37.11,0:05:38.34,Dialogue,,0,0,0,,Fl see,
+Dialogue: 0,0:05:38.34,0:05:41.06,Dialogue,,0,0,0,,so that's why you lined\Nthe-dolls up wrong!
+Dialogue: 0,0:05:41.10,0:05:43.05,Dialogue,,0,0,0,,Please confess!
+Dialogue: 0,0:05:43.05,0:05:45.28,Dialogue,,0,0,0,,You're the burglar. aren't you?
+Dialogue: 0,0:05:47.72,0:05:49.55,Dialogue,,0,0,0,,It's not Mr. Tsumagar!
+Dialogue: 0,0:05:50.37,0:05:52.59,Dialogue,,0,0,0,,The burglar is one of the twee!
+Dialogue: 0,0:05:54.04,0:05:56.80,Dialogue,,0,0,0,,Only these two would be able to\Ndo something like this!
+Dialogue: 0,0:05:57.63,0:05:59.00,Dialogue,,0,0,0,,But why?
+Dialogue: 0,0:05:59.43,0:06:02.18,Dialogue,,0,0,0,,Why did the person line the dolls\Nthat dropped back again?
+Dialogue: 0,0:06:02.74,0:06:05.14,Dialogue,,0,0,0,,It would've been more effective\Nto leave the dolls as they were,
+Dialogue: 0,0:06:05.14,0:06:07.51,Dialogue,,0,0,0,,to make it look like burglary...
+Dialogue: 0,0:06:08.51,0:06:10.08,Dialogue,,0,0,0,,Mr. Tsumagari.
+Dialogue: 0,0:06:10.58,0:06:13.58,Dialogue,,0,0,0,,Will you please let me\Ncheck your room out?
+Dialogue: 0,0:06:13.58,0:06:14.58,Dialogue,,0,0,0,,Huh
+Dialogue: 0,0:06:14.78,0:06:16.75,Dialogue,,0,0,0,,Of course,\NI'm asking you to do it voluntarily...
+Dialogue: 0,0:06:16.92,0:06:18.98,Dialogue,,0,0,0,,Oh. all right!
+Dialogue: 0,0:06:18.99,0:06:21.12,Dialogue,,0,0,0,,Go on and check my\Nroom out if you want to!
+Dialogue: 0,0:06:21.12,0:06:23.32,Dialogue,,0,0,0,,I assure you that you'll find nothing!
+Dialogue: 0,0:06:24.56,0:06:28.29,Dialogue,,0,0,0,,And I'm going to have to do a\Nbody check on all three of you,
+Dialogue: 0,0:06:28.66,0:06:29.93,Dialogue,,0,0,0,,since there is a possibility that
+Dialogue: 0,0:06:29.93,0:06:33.06,Dialogue,,0,0,0,,you may be hiding the hanging scroll\Nsomewhere in your body...
+Dialogue: 0,0:06:33.53,0:06:34.47,Dialogue,,0,0,0,,Okay
+Dialogue: 0,0:06:34.47,0:06:36.57,Dialogue,,0,0,0,,we'll get a woman officer\Nand start right away...
+Dialogue: 0,0:06:36.57,0:06:39.30,Dialogue,,0,0,0,,We better move fast or the sun will set...
+Dialogue: 0,0:06:39.44,0:06:40.11,Dialogue,,0,0,0,,Yes: sir
+Dialogue: 0,0:06:40.11,0:06:41.57,Dialogue,,0,0,0,,What. oh no?
+Dialogue: 0,0:06:42.51,0:06:44.51,Dialogue,,0,0,0,,It's this late already}
+Dialogue: 0,0:06:44.88,0:06:48.61,Dialogue,,0,0,0,,Are you sure that\NMr. Tsumagari is the culprit?
+Dialogue: 0,0:06:48.61,0:06:50.37,Dialogue,,0,0,0,,Although you did seem really confident...
+Dialogue: 0,0:06:50.40,0:06:52.77,Dialogue,,0,0,0,,You're the one that\Nstarted this whole thing!
+Dialogue: 0,0:06:58.02,0:06:59.76,Dialogue,,0,0,0,,Hey; Conan...
+Dialogue: 0,0:07:00.49,0:07:02.53,Dialogue,,0,0,0,,Did you figure out who the culprit is?
+Dialogue: 0,0:07:03.16,0:07:03.76,Dialogue,,0,0,0,,Huh?
+Dialogue: 0,0:07:04.03,0:07:05.30,Dialogue,,0,0,0,,I'm sorry.
+Dialogue: 0,0:07:05.30,0:07:07.13,Dialogue,,0,0,0,,I'm in the process of thinking now...
+Dialogue: 0,0:07:07.13,0:07:10.57,Dialogue,,0,0,0,,We'd better rry or the steps will...
+Dialogue: 0,0:07:12.24,0:07:13.64,Dialogue,,0,0,0,,The steps...
+Dialogue: 0,0:07:13.77,0:07:14.64,Dialogue,,0,0,0,,Huh?
+Dialogue: 0,0:07:14.87,0:07:16.54,Dialogue,,0,0,0,,Thanks, Ayumi!
+Dialogue: 0,0:07:16.54,0:07:18.01,Dialogue,,0,0,0,,I've figured it out!
+Dialogue: 0,0:07:18.28,0:07:19.01,Dialogue,,0,0,0,,R.Really?
+Dialogue: 0,0:07:19.05,0:07:21.01,Dialogue,,0,0,0,,Have you figured out\Nwho the culprit is. then?
+Dialogue: 0,0:07:21.15,0:07:23.25,Dialogue,,0,0,0,,Yeah, thanks to-you. Ayumi!
+Dialogue: 0,0:07:23.48,0:07:26.05,Dialogue,,0,0,0,,I'll go get the officers then!
+Dialogue: 0,0:07:26.55,0:07:26.99,Dialogue,,0,0,0,,Ayumi?
+Dialogue: 0,0:07:26.99,0:07:27.82,Dialogue,,0,0,0,,Ayumi?
+Dialogue: 0,0:07:30.02,0:07:33.73,Dialogue,,0,0,0,,Out who stOle the hanging scroll?
+Dialogue: 0,0:07:34.89,0:07:37.03,Dialogue,,0,0,0,,Who could've done a thing like that...
+Dialogue: 0,0:07:37.03,0:07:40.87,Dialogue,,0,0,0,,You'll find out after you\Ncome to Mrs Kanno's room!
+Dialogue: 0,0:07:41.13,0:07:42.73,Dialogue,,0,0,0,,Hurry. officer!
+Dialogue: 0,0:07:54.71,0:08:01.55,Dialogue,,0,0,0,,Please. sunset,\Nstay still a little while lenger.
+Dialogue: 0,0:08:01.79,0:08:03.46,Dialogue,,0,0,0,,Just a little while longer...
+Dialogue: 0,0:08:03.46,0:08:04.62,Dialogue,,0,0,0,,I see.
+Dialogue: 0,0:08:05.62,0:08:08.19,Dialogue,,0,0,0,,So this sunset was what\Nyou were waiting for
+Dialogue: 0,0:08:08.39,0:08:09.76,Dialogue,,0,0,0,,Haibara...
+Dialogue: 0,0:08:10.46,0:08:15.73,Dialogue,,0,0,0,,It's just like you to do something like this\NI like things like this too
+Dialogue: 0,0:08:16.34,0:08:18.00,Dialogue,,0,0,0,,R.Really?
+Dialogue: 0,0:08:18.57,0:08:21.47,Dialogue,,0,0,0,,So let's hurry and solve the\Ncase, bring him along!
+Dialogue: 0,0:08:31.37,0:08:37.31,Dialogue,,0,0,0,,It smears the world in blood.\NThe death throes of the sun.
+Dialogue: 0,0:08:41.53,0:08:43.93,Dialogue,,0,0,0,,I wonder how many more\Ntimes I'll get to see
+Dialogue: 0,0:08:46.93,0:08:49.10,Dialogue,,0,0,0,,Thi sad color...
+Dialogue: 0,0:08:53.04,0:08:57.48,Dialogue,,0,0,0,,And,\Nwho is it that solved the case?
+Dialogue: 0,0:08:58.41,0:08:59.84,Dialogue,,0,0,0,,Don't tell me you did, Mrs. Kanno?
+Dialogue: 0,0:08:59.85,0:09:00.78,Dialogue,,0,0,0,,Oh. no...
+Dialogue: 0,0:09:03.35,0:09:04.55,Dialogue,,0,0,0,,You. sonny?
+Dialogue: 0,0:09:05.02,0:09:07.49,Dialogue,,0,0,0,,Yep! I've figured it all out!
+Dialogue: 0,0:09:07.49,0:09:09.49,Dialogue,,0,0,0,,The one who took the hanging\Nscroll and where it is too!
+Dialogue: 0,0:09:12.56,0:09:14.36,Dialogue,,0,0,0,,The hint is the altar of the dolls!
+Dialogue: 0,0:09:15.68,0:09:18.76,Dialogue,,0,0,0,,When the thief took the\Nhanging scroll and fled,
+Dialogue: 0,0:09:18.76,0:09:22.03,Dialogue,,0,0,0,,the thief accidentally bumped into\Nthe doll altar and the dolls fell.
+Dialogue: 0,0:09:22.10,0:09:24.70,Dialogue,,0,0,0,,Then when putting the dolls back\Non the steps the position
+Dialogue: 0,0:09:24.70,0:09:27.11,Dialogue,,0,0,0,,Lied)\Nof the Emperor and Empress\Nwere reversed, right?
+Dialogue: 0,0:09:27.24,0:09:31.18,Dialogue,,0,0,0,,That's why we searched Mr.\NTsumagari's room
+Dialogue: 0,0:09:31.18,0:09:34.78,Dialogue,,0,0,0,,Of all the four people that have a motive\Nfor stealing the hanging scroll,
+Dialogue: 0,0:09:34.78,0:09:38.42,Dialogue,,0,0,0,,only he doesn't know\Nhow to line the dolls up!
+Dialogue: 0,0:09:38.98,0:09:41.15,Dialogue,,0,0,0,,No. it's just the opposite!
+Dialogue: 0,0:09:41.15,0:09:42.09,Dialogue,,0,0,0,,Opposite?
+Dialogue: 0,0:09:42.09,0:09:44.52,Dialogue,,0,0,0,,Take a good look at the altar!
+Dialogue: 0,0:09:44.82,0:09:46.79,Dialogue,,0,0,0,,When you compare it to the time when we
+Dialogue: 0,0:09:46.79,0:09:48.79,Dialogue,,0,0,0,,Iined the dolls up before\Nthe burglar broke in,
+Dialogue: 0,0:09:48.79,0:09:51.50,Dialogue,,0,0,0,,a -0-1e--0 S-are a )I\Nout of position. and except for the
+Dialogue: 0,0:09:51.50,0:09:55.13,Dialogue,,0,0,0,,Emperor and Empress, all the dolls\Nare in the correct position!
+Dialogue: 0,0:09:55.57,0:09:57.40,Dialogue,,0,0,0,,Is he rights
+Dialogue: 0,0:09:57.60,0:09:59.14,Dialogue,,0,0,0,,Yes. he's correct.
+Dialogue: 0,0:09:59.14,0:10:03.44,Dialogue,,0,0,0,,I checked the position of the dolls after\Nthe children lined them in place
+Dialogue: 0,0:10:03.88,0:10:05.88,Dialogue,,0,0,0,,If the burglar bumped into t\Nhe altar with enough
+Dialogue: 0,0:10:05.88,0:10:09.05,Dialogue,,0,0,0,,impact to drop the Emperor\Nand the Empress.
+Dialogue: 0,0:10:09.05,0:10:11.98,Dialogue,,0,0,0,,The other dolls and accessories\Nwould have fell too. right?
+Dialogue: 0,0:10:12.59,0:10:15.29,Dialogue,,0,0,0,,If the person didn't know\Nhow to line the dolls up.
+Dialogue: 0,0:10:15.29,0:10:18.09,Dialogue,,0,0,0,,There is no way that the dolls would be\NIined up as perfectly as this!
+Dialogue: 0,0:10:18.12,0:10:24.70,Dialogue,,0,0,0,,But. the burglar did actually line the\NEmperor and Empress up wrong...
+Dialogue: 0,0:10:24.83,0:10:26.83,Dialogue,,0,0,0,,What if it's not a mistake?
+Dialogue: 0,0:10:28.20,0:10:30.70,Dialogue,,0,0,0,,What if this is the\Ntraditional way that dolls
+Dialogue: 0,0:10:30.70,0:10:32.74,Dialogue,,0,0,0,,used to be lined up in\Nancient times in Japan?
+Dialogue: 0,0:10:33.47,0:10:34.54,Dialogue,,0,0,0,,The traditional way?
+Dialogue: 0,0:10:34.54,0:10:35.34,Dialogue,,0,0,0,,Yep!
+Dialogue: 0,0:10:36.01,0:10:37.94,Dialogue,,0,0,0,,4 Aro 1\NOriginally in Japan, the\Nhonorable seat was
+Dialogue: 0,0:10:37.94,0:10:40.71,Dialogue,,0,0,0,,to the left and the\NIower seat to the right.
+Dialogue: 0,0:10:40.71,0:10:44.42,Dialogue,,0,0,0,,SO the person who is higher in\Nrank used to stand on the left.
+Dialogue: 0,0:10:44.48,0:10:48.62,Dialogue,,0,0,0,,AS you can see, the elderly\NMinister of the left is on the left,
+Dialogue: 0,0:10:48.69,0:10:51.46,Dialogue,,0,0,0,,¢df6K5CF\Nwhereas, the young Minister of\Nthe right is on the right.
+Dialogue: 0,0:10:52.42,0:10:53.76,Dialogue,,0,0,0,,So. the Emperor and\NEmpress in accordance
+Dialogue: 0,0:10:53.76,0:10:56.29,Dialogue,,0,0,0,,to this tradition of men being\Nhigher in rank than women
+Dialogue: 0,0:10:56.30,0:10:59.53,Dialogue,,0,0,0,,the Emperor is on the left and the\NEmpress is on the right
+Dialogue: 0,0:10:59.90,0:11:05.74,Dialogue,,0,0,0,,Hey. Conan. you're wrong!\NThe man's on the right!
+Dialogue: 0,0:11:05.74,0:11:06.80,Dialogue,,0,0,0,,So. like I've been telling you
+Dialogue: 0,0:11:07.07,0:11:10.54,Dialogue,,0,0,0,,from the viewpoint of the 'dolls the\NEmperor as to tfuveft of the Empress!
+Dialogue: 0,0:11:10.54,0:11:11.68,Dialogue,,0,0,0,,Oh. I see...
+Dialogue: 0,0:11:13.05,0:11:17.68,Dialogue,,0,0,0,,But, all the dolls decorated in show\Nwindows are opposite from the altar there
+Dialogue: 0,0:11:17.85,0:11:19.78,Dialogue,,0,0,0,,That's because this is Tokyo!
+Dialogue: 0,0:11:20.22,0:11:22.62,Dialogue,,0,0,0,,During the Meiji Restoration when\Nthe western custom of the
+Dialogue: 0,0:11:22.62,0:11:24.89,Dialogue,,0,0,0,,right side being the honorable\Nposition entered Japan,
+Dialogue: 0,0:11:24.89,0:11:29.33,Dialogue,,0,0,0,,the position of the Emperor during\Nthe coronation also{\rHonorifics - Dialogue} chan{\r}ged.
+Dialogue: 0,0:11:29.63,0:11:34.27,Dialogue,,0,0,0,,And so followed the\Ndoll industry of Tokyo!
+Dialogue: 0,0:11:36.30,0:11:38.24,Dialogue,,0,0,0,,You sure know a lot, don't you sonny.
+Dialogue: 0,0:11:38.24,0:11:42.54,Dialogue,,0,0,0,,Yep. I love to check out things like this!
+Dialogue: 0,0:11:46.78,0:11:47.61,Dialogue,,0,0,0,,Conan?
+Dialogue: 0,0:11:48.48,0:11:51.02,Dialogue,,0,0,0,,I've been meaning to ask you
+Dialogue: 0,0:11:51.32,0:11:55.25,Dialogue,,0,0,0,,Why do you always talk childish\Nonly when you talk to adults?
+Dialogue: 0,0:11:55.25,0:11:58.26,Dialogue,,0,0,0,,It's as you're fawning. on\Nthem or something
+Dialogue: 0,0:11:58.26,0:11:59.86,Dialogue,,0,0,0,,O.Oh yeah?
+Dialogue: 0,0:11:59.92,0:12:03.03,Dialogue,,0,0,0,,Rather. you give me the creeps.
+Dialogue: 0,0:12:03.73,0:12:08.10,Dialogue,,0,0,0,,Okay okay. you want me to act\Nnatural like always huh satisfied!
+Dialogue: 0,0:12:08.10,0:12:10.23,Dialogue,,0,0,0,,I like the way you talk, it's cute!
+Dialogue: 0,0:12:10.24,0:12:12.77,Dialogue,,0,0,0,,Although it's kind of girlish. it's sweet.
+Dialogue: 0,0:12:15.14,0:12:18.31,Dialogue,,0,0,0,,So. who's the burglar, sonny?
+Dialogue: 0,0:12:18.48,0:12:21.05,Dialogue,,0,0,0,,@h. yes. So. the burglar is someone
+Dialogue: 0,0:12:21.05,0:12:23.21,Dialogue,,0,0,0,,who knows how the dolls used\Nto lined up in olden times
+Dialogue: 0,0:12:23.62,0:12:27.89,Dialogue,,0,0,0,,Either Grandma Kanno or\Nappraiser Mr. Mie!
+Dialogue: 0,0:12:38.60,0:12:40.38,Dialogue,,0,0,0,,When grandma was still a\Nchild the old way
+Dialogue: 0,0:12:40.42,0:12:43.64,Dialogue,,0,0,0,,of lining up the dolls was widespread.
+Dialogue: 0,0:12:43.82,0:12:45.60,Dialogue,,0,0,0,,Besides. she's originally from « oto!
+Dialogue: 0,0:12:46.17,0:12:48.44,Dialogue,,0,0,0,,There are many homes in\NKyoto that take traditional
+Dialogue: 0,0:12:48.44,0:12:51.01,Dialogue,,0,0,0,,seriously and stick to the\Ntraditional way of doing things.
+Dialogue: 0,0:12:51.01,0:12:54.18,Dialogue,,0,0,0,,She probably learned to line the\Ndolls up the traditional way!
+Dialogue: 0,0:12:55.05,0:12:59.83,Dialogue,,0,0,0,,Mr. Mie should also know the traditional\Nway of lining the dolls up.
+Dialogue: 0,0:12:59.89,0:13:02.95,Dialogue,,0,0,0,,And if he knows that those\Ndolls are from Kyoto
+Dialogue: 0,0:13:02.96,0:13:07.93,Dialogue,,0,0,0,,it's not inconceivable that he\Nwould line them up that way.
+Dialogue: 0,0:13:08.43,0:13:11.20,Dialogue,,0,0,0,,I does he know that\Nthose dolls are from « oto?
+Dialogue: 0,0:13:11.86,0:13:15.20,Dialogue,,0,0,0,,Because Setsuko told him so
+Dialogue: 0,0:13:15.20,0:13:16.97,Dialogue,,0,0,0,,and the dolls from\NKyoto have accessories
+Dialogue: 0,0:13:16.97,0:13:18.94,Dialogue,,0,0,0,,that are different from the dolls in To v0
+Dialogue: 0,0:13:18.94,0:13:21.11,Dialogue,,0,0,0,,that a professional would be\Nable to tell right off the bat.
+Dialogue: 0,0:13:21.11,0:13:24.81,Dialogue,,0,0,0,,S.So. which one of them is the burglar\Nand where is the hanging scroll?
+Dialogue: 0,0:13:24.81,0:13:27.25,Dialogue,,0,0,0,,Don't tell me you don't know\Nwho it is again?
+Dialogue: 0,0:13:27.25,0:13:28.78,Dialogue,,0,0,0,,I know who it is!
+Dialogue: 0,0:13:28.78,0:13:31.75,Dialogue,,0,0,0,,Because Ayumi gave me the hint. steps.
+Dialogue: 0,0:13:33.39,0:13:35.95,Dialogue,,0,0,0,,S.Steps. don't tell me that!
+Dialogue: 0,0:13:36.52,0:13:37.72,Dialogue,,0,0,0,,1.1 get it!
+Dialogue: 0,0:13:37.72,0:13:40.93,Dialogue,,0,0,0,,The burglar climbed-the altar as if they\Nwere steps and hid the hanging scroll
+Dialogue: 0,0:13:40.93,0:13:44.63,Dialogue,,0,0,0,,scroll in the cabinet above the closet!
+Dialogue: 0,0:13:44.63,0:13:48.40,Dialogue,,0,0,0,,And, when the burglar did so, some of\Nthe dolls were kicked by the burglar's foot.
+Dialogue: 0,0:13:48.40,0:13:49.83,Dialogue,,0,0,0,,so the dolls fell!
+Dialogue: 0,0:13:49.84,0:13:53.34,Dialogue,,0,0,0,,Hey. Genta. be careful!
+Dialogue: 0,0:13:53.34,0:13:56.94,Dialogue,,0,0,0,,So. the hanging scroll is\Nprobably still in here.
+Dialogue: 0,0:13:56.94,0:13:57.51,Dialogue,,0,0,0,,So. the hanging scroll is\Nprobably still in here.
+Dialogue: 0,0:13:58.48,0:14:00.31,Dialogue,,0,0,0,,It's not here...
+Dialogue: 0,0:14:00.31,0:14:03.18,Dialogue,,0,0,0,,Not there. In the back. behind!
+Dialogue: 0,0:14:03.45,0:14:08.29,Dialogue,,0,0,0,,A steps like this altar was brought out and\Nthe hanging scrdéll was hid in the back.
+Dialogue: 0,0:14:08.59,0:14:11.96,Dialogue,,0,0,0,,So the dolls fell when\Nthe altar was moved.
+Dialogue: 0,0:14:13.09,0:14:15.89,Dialogue,,0,0,0,,The burglar wasn't aware that if you\Ngo inside the closet like this
+Dialogue: 0,0:14:15.89,0:14:18.46,Dialogue,,0,0,0,,it would've been easy to hide the scroll.
+Dialogue: 0,0:14:19.33,0:14:24.47,Dialogue,,0,0,0,,The box for the doll set is here,\Nbut there's nothing else
+Dialogue: 0,0:14:24.94,0:14:30.24,Dialogue,,0,0,0,,Maybe the dolls fell when\Nthe burglar fled, after all.
+Dialogue: 0,0:14:30.24,0:14:32.88,Dialogue,,0,0,0,,No. no dolls were dropped.
+Dialogue: 0,0:14:33.11,0:14:37.55,Dialogue,,0,0,0,,The burglar took all the dolls\Naway from the altar deliberately.
+Dialogue: 0,0:14:37.98,0:14:39.67,Dialogue,,0,0,0,,In order to hide the hanging scroll.
+Dialogue: 0,0:14:40.22,0:14:41.59,Dialogue,,0,0,0,,Took the dolls away?
+Dialogue: 0,0:14:42.72,0:14:44.69,Dialogue,,0,0,0,,Don't tell me that the hanging scroll is!
+Dialogue: 0,0:14:46.43,0:14:48.26,Dialogue,,0,0,0,,Hey. help me move the dolls!
+Dialogue: 0,0:14:48.26,0:14:49.49,Dialogue,,0,0,0,,Y.Yes. sir!
+Dialogue: 0,0:14:50.50,0:14:55.73,Dialogue,,0,0,0,,Yes, it's a convenient place to hide\Npaper things such as hanging scrolls.
+Dialogue: 0,0:14:55.73,0:14:59.30,Dialogue,,0,0,0,,And yet, it's asplace that's hard to\Nfind even if you search for it
+Dialogue: 0,0:15:00.47,0:15:01.34,Dialogue,,0,0,0,,The place is...
+Dialogue: 0,0:15:04.74,0:15:07.98,Dialogue,,0,0,0,,behind-the red cloth of the altar';.
+Dialogue: 0,0:15:08.65,0:15:10.08,Dialogue,,0,0,0,,That's how. it is.
+Dialogue: 0,0:15:10.68,0:15:14.42,Dialogue,,0,0,0,,A place that is not visible unless\Nall the dolls are moved,
+Dialogue: 0,0:15:14.65,0:15:18.06,Dialogue,,0,0,0,,IS hard to reach. in other\Nwords, hard to find.
+Dialogue: 0,0:15:18.29,0:15:22.53,Dialogue,,0,0,0,,And, Ayumi mentioned that\Nthe dolls looked sad.
+Dialogue: 0,0:15:22.53,0:15:25.26,Dialogue,,0,0,0,,That's because the this\Nwooden plate that is on the
+Dialogue: 0,0:15:25.26,0:15:27.23,Dialogue,,0,0,0,,top of the hanging\Nscroll was underneath
+Dialogue: 0,0:15:27.23,0:15:30.17,Dialogue,,0,0,0,,If you put-the wooden\Nplace above this laughing doll,
+Dialogue: 0,0:15:30.17,0:15:31.64,Dialogue,,0,0,0,,Pr »/ }\Nit tilts forward.
+Dialogue: 0,0:15:31.77,0:15:33.77,Dialogue,,0,0,0,,And its facial expression\Nchanges. doesn't it?
+Dialogue: 0,0:15:34.57,0:15:39.44,Dialogue,,0,0,0,,See, that's why its laughing\Nface looked a bit different!
+Dialogue: 0,0:15:39.44,0:15:42.08,Dialogue,,0,0,0,,But. why is it placed reversed?
+Dialogue: 0,0:15:42.75,0:15:48.95,Dialogue,,0,0,0,,The thick plate that is\Nattached under the hanging scroll
+Dialogue: 0,0:15:48.95,0:15:52.96,Dialogue,,0,0,0,,cannot be covered with just the red cloth.
+Dialogue: 0,0:15:53.53,0:15:58.43,Dialogue,,0,0,0,,WwW. Wait! If the burglar hid the hanging\Nscroll in a place like this, it means
+Dialogue: 0,0:15:58.43,0:16:02.33,Dialogue,,0,0,0,,Yeah. after the police leave. the burglar can
+Dialogue: 0,0:16:02.33,0:16:05.94,Dialogue,,0,0,0,,pretend to put the dolls away\Nand also retrieve the hanging scroll.
+Dialogue: 0,0:16:08.04,0:16:09.67,Dialogue,,0,0,0,,Only grandma is capable of\Ndoing this, right?
+Dialogue: 0,0:16:11.11,0:16:14.55,Dialogue,,0,0,0,,What? Grandma?\NYou have have to b joking!
+Dialogue: 0,0:16:14.55,0:16:17.95,Dialogue,,0,0,0,,Yeah, after we left to go shopping\Nand she was at home all alone,
+Dialogue: 0,0:16:17.95,0:16:20.02,Dialogue,,0,0,0,,She probably came up with the idea
+Dialogue: 0,0:16:20.02,0:16:23.25,Dialogue,,0,0,0,,of hiding the hanging scroll\Nand messing up the room
+Dialogue: 0,0:16:23.26,0:16:25.66,Dialogue,,0,0,0,,to make it look like a burglar broke In!
+Dialogue: 0,0:16:27.69,0:16:30.49,Dialogue,,0,0,0,,And then she goes up shopping herself
+Dialogue: 0,0:16:30.50,0:16:35.30,Dialogue,,0,0,0,,to make it look as if a\Nburglar broke in while she was out...
+Dialogue: 0,0:16:35.70,0:16:38.10,Dialogue,,0,0,0,,But. I wonder if that granny would\Neven come across the idea of
+Dialogue: 0,0:16:38.10,0:16:43.51,Dialogue,,0,0,0,,a burglar opening the veranda window\Nand breaking in through the roof?
+Dialogue: 0,0:16:45.84,0:16:48.91,Dialogue,,0,0,0,,Well, they broadcast a lot of\Nthose kinds of programs on TV
+Dialogue: 0,0:16:48.91,0:16:50.98,Dialogue,,0,0,0,,recently that I'm sure\Ngrandma had seen them too.
+Dialogue: 0,0:16:51.52,0:16:52.92,Dialogue,,0,0,0,,1.l guess so...
+Dialogue: 0,0:16:53.22,0:16:55.45,Dialogue,,0,0,0,,But. why would she do a\Nthing like that?
+Dialogue: 0,0:16:55.79,0:16:57.76,Dialogue,,0,0,0,,D.Don't tell me you did it, granny!
+Dialogue: 0,0:16:57.76,0:17:01.36,Dialogue,,0,0,0,,You tried to get insurance money for it\Nafter making it look as if it were stolen.
+Dialogue: 0,0:17:01.36,0:17:04.30,Dialogue,,0,0,0,,I would never do something so evil.
+Dialogue: 0,0:17:06.86,0:17:10.67,Dialogue,,0,0,0,,This hanging scroll is the protective\Ngod of thesKanno family
+Dialogue: 0,0:17:11.00,0:17:12.37,Dialogue,,0,0,0,,Protective god?
+Dialogue: 0,0:17:12.50,0:17:18.31,Dialogue,,0,0,0,,Yes. That's why I decided to hide it for\Nnow. and after my son returns from work
+Dialogue: 0,0:17:18.61,0:17:23.61,Dialogue,,0,0,0,,I was going to show him the\NThunder God and tell him about it
+Dialogue: 0,0:17:25.12,0:17:29.52,Dialogue,,0,0,0,,That is, not to repeat the\Nmistake that I made
+Dialogue: 0,0:17:30.42,0:17:32.96,Dialogue,,0,0,0,,Repeat?\NDon't tell me that...
+Dialogue: 0,0:17:33.09,0:17:38.40,Dialogue,,0,0,0,,Right, We originally had the hanging\Nscroll of the Wind God here too.
+Dialogue: 0,0:17:39.06,0:17:43.42,Dialogue,,0,0,0,,It was found in the storeroom of\Nmy husband's parental home,
+Dialogue: 0,0:17:43.45,0:17:45.50,Dialogue,,0,0,0,,SO we're not sure where\Nit came from but
+Dialogue: 0,0:17:45.57,0:17:48.07,Dialogue,,0,0,0,,My husband used to always say
+Dialogue: 0,0:17:48.07,0:17:52.84,Dialogue,,0,0,0,,We aresthe Kanno family, so this hanging\Nscroll is most likely our protective god
+Dialogue: 0,0:17:53.55,0:17:56.28,Dialogue,,0,0,0,,Come to think of it.- the Wind God\Nand Thunder God are
+Dialogue: 0,0:17:56.28,0:17:59.02,Dialogue,,0,0,0,,the guardian deity of the 12\Nhanded Goddess of Mercy
+Dialogue: 0,0:17:59.62,0:18:03.39,Dialogue,,0,0,0,,When my son got married,
+Dialogue: 0,0:18:03.39,0:18:06.32,Dialogue,,0,0,0,,we were having trouble getting\Nmoney together to buy this condo.
+Dialogue: 0,0:18:06.36,0:18:10.33,Dialogue,,0,0,0,,Therefore, I decided\Nto sell the Wind God scroll
+Dialogue: 0,0:18:11.26,0:18:14.87,Dialogue,,0,0,0,,I sold it secretly while my\Nhusband was on a company trip
+Dialogue: 0,0:18:15.27,0:18:16.53,Dialogue,,0,0,0,,Then...
+Dialogue: 0,0:18:17.77,0:18:21.64,Dialogue,,0,0,0,,the passenger liner that my\Nhusband was on board sunk
+Dialogue: 0,0:18:21.81,0:18:26.53,Dialogue,,0,0,0,,when they encountered a typhoon that\Nwas just as if the Wind GodMhad-created
+Dialogue: 0,0:18:28.55,0:18:32.68,Dialogue,,0,0,0,,Then are you saying that the cursed
+Dialogue: 0,0:18:32.68,0:18:35.39,Dialogue,,0,0,0,,Wind God scroll made\Nits rounds and came to me
+Dialogue: 0,0:18:35.39,0:18:37.46,Dialogue,,0,0,0,,It is not cursed .
+Dialogue: 0,0:18:37.46,0:18:42.06,Dialogue,,0,0,0,,Like they say the Girls' Festival\Ndolls were originally placed
+Dialogue: 0,0:18:42.06,0:18:45.13,Dialogue,,0,0,0,,by the pillow of the child as a\Nprotective charm to ward off evil.
+Dialogue: 0,0:18:45.13,0:18:50.13,Dialogue,,0,0,0,,Likewise, every time that hanging\Nscroll is stained or soiled I feel
+Dialogue: 0,0:18:50.14,0:18:59.14,Dialogue,,0,0,0,,that it may be warding off misfortune\Nthat may befall our family for us
+Dialogue: 0,0:19:01.51,0:19:08.10,Dialogue,,0,0,0,,So. please do not lay a hand on\Nthat Thunder God scroll.
+Dialogue: 0,0:19:12.09,0:19:18.53,Dialogue,,0,0,0,,Now that we know it is not only very\Nvaluable, but also has additional benefits,
+Dialogue: 0,0:19:18.53,0:19:23.37,Dialogue,,0,0,0,,the more we wouldn't mind risking\Nour lives for it. right Mr. Tsumagari?
+Dialogue: 0,0:19:23.37,0:19:26.57,Dialogue,,0,0,0,,N.Nos I'm totally satisfied\Nwith only the Wind God.
+Dialogue: 0,0:19:27.24,0:19:29.67,Dialogue,,0,0,0,,Forget all of this!
+Dialogue: 0,0:19:31.01,0:19:33.11,Dialogue,,0,0,0,,My. how disappointing...
+Dialogue: 0,0:19:34.18,0:19:38.88,Dialogue,,0,0,0,,However. I will be back again later,\Nrs. anno.
+Dialogue: 0,0:19:39.08,0:19:39.32,Dialogue,,0,0,0,,Huh'?
+Dialogue: 0,0:19:40.59,0:19:43.32,Dialogue,,0,0,0,,To teach you an easy way to store it...
+Dialogue: 0,0:19:48.99,0:19:52.20,Dialogue,,0,0,0,,Let's get going too. officers.
+Dialogue: 0,0:19:53.10,0:19:56.07,Dialogue,,0,0,0,,I'll have to be punished for\Nhaving committed this case.
+Dialogue: 0,0:19:56.33,0:19:57.33,Dialogue,,0,0,0,,A case?!
+Dialogue: 0,0:19:57.60,0:19:58.77,Dialogue,,0,0,0,,Give me a break!
+Dialogue: 0,0:19:59.60,0:20:01.51,Dialogue,,0,0,0,,The owner of the house\Nmesses the room up.
+Dialogue: 0,0:20:01.77,0:20:04.74,Dialogue,,0,0,0,,And something disappears so\Nthere was a great fuss over it...
+Dialogue: 0,0:20:05.51,0:20:07.24,Dialogue,,0,0,0,,If I file this as a case,
+Dialogue: 0,0:20:07.25,0:20:10.95,Dialogue,,0,0,0,,I'm really going to be struck\Nby my boss' thunder!
+Dialogue: 0,0:20:11.12,0:20:13.55,Dialogue,,0,0,0,,Oh, god how frightening. ha. ha. ha...
+Dialogue: 0,0:20:16.42,0:20:21.49,Dialogue,,0,0,0,,ButOit is a fact-that I scared the children.
+Dialogue: 0,0:20:22.23,0:20:25.36,Dialogue,,0,0,0,,I'll help you pack the dolls\Nas a token of my apology.
+Dialogue: 0,0:20:25.63,0:20:27.60,Dialogue,,0,0,0,,So that you can take it home right away.
+Dialogue: 0,0:20:27.93,0:20:29.77,Dialogue,,0,0,0,,Oh. on second thought,\NI'm not going to take it!
+Dialogue: 0,0:20:30.30,0:20:33.37,Dialogue,,0,0,0,,Because it could be that my doll broke
+Dialogue: 0,0:20:33.41,0:20:38.11,Dialogue,,0,0,0,,because it warded off evil\Nin my place, right?
+Dialogue: 0,0:20:39.11,0:20:44.01,Dialogue,,0,0,0,,So, I'll try asking daddy again\Nif he'll get it repaired for me!!
+Dialogue: 0,0:20:45.12,0:20:47.25,Dialogue,,0,0,0,,I'm so sorry: after you went out of\Nyour way to help me line the dolls up!
+Dialogue: 0,0:20:47.59,0:20:48.89,Dialogue,,0,0,0,,Oh no. no problem.
+Dialogue: 0,0:20:49.02,0:20:50.29,Dialogue,,0,0,0,,Are you sure?
+Dialogue: 0,0:20:50.35,0:20:50.79,Dialogue,,0,0,0,,Yep!
+Dialogue: 0,0:20:52.19,0:20:52.96,Dialogue,,0,0,0,,Besides.
+Dialogue: 0,0:20:53.59,0:20:56.24,Dialogue,,0,0,0,,The Girls' Festival doll\Nthat I really wanted...
+Dialogue: 0,0:20:57.03,0:20:59.36,Dialogue,,0,0,0,,What I really, really want is...
+Dialogue: 0,0:21:00.40,0:21:04.03,Dialogue,,0,0,0,,Original Comic Books By\NGOSHO AOYAMA
+Dialogue: 0,0:21:06.34,0:21:10.01,Dialogue,,0,0,0,,Producers\NMICHIHIKO SUWA\NMA AHITO YOSHIOKA
+Dialogue: 0,0:21:12.44,0:21:16.01,Dialogue,,0,0,0,,Background Music.\NKATSUO ONO
+Dialogue: 0,0:21:18.38,0:21:21.99,Dialogue,,0,0,0,,Character Designs By.\NMAS/HOMO suoé
+Dialogue: 0,0:21:24.39,0:21:28.03,Dialogue,,0,0,0,,Story Editor.\NJUNICHI I1OKA
+Dialogue: 0,0:21:30.36,0:21:33.96,Dialogue,,0,0,0,,Scripts By.\NKANIPKASHIWABARA\NKAZUNARI.KOUGCHI\NJUNIGHI MIYASHITA\NYUICHI HIGURE\NTOSHIKI INOUE
+Dialogue: 0,0:21:36.37,0:21:40.04,Dialogue,,0,0,0,,Animation Directors.\NMASATOMO SUDO\NHIROTOSHI TAKATANI\NHARUO OOGAWARA\NATSUSHI AONO\NAKIO KAWAMURA\NTAKASHI HYODO
+Dialogue: 0,0:21:36.40,0:21:40.04,Dialogue,,0,0,0,,Animation Directors.\NMASATOMO SUDO\NHIROTOSHI TAKATANI\NHARUO OOGAWARA\NATSUSHI AONO\NAKIO KAWAMURA\NTAKASHI HYODO
+Dialogue: 0,0:21:42.44,0:21:46.04,Dialogue,,0,0,0,,Art Director\NYUKIHIRO SHIBUTANI
+Dialogue: 0,0:21:42.44,0:21:46.08,Dialogue,,0,0,0,,Art Director\NYUKIHIRO SHIBUTANI
+Dialogue: 0,0:21:48.38,0:21:52.05,Dialogue,,0,0,0,,Directors Of Photography\NTAKASHI NOMURA\NHIRONOBU HORIKOSHI\NTAKAHISA OWAGA
+Dialogue: 0,0:21:54.45,0:21:58.06,Dialogue,,0,0,0,,Recording Director\NKATSUYOSHI KOBAYASHI
+Dialogue: 0,0:22:00.43,0:22:04.06,Dialogue,,0,0,0,,Editor.\NTERUMITSU OKADA
+Dialogue: 0,0:22:06.50,0:22:10.03,Dialogue,,0,0,0,,Chief Director.\NKENJIfKODAMA
+Dialogue: 0,0:22:12.50,0:22:16.07,Dialogue,,0,0,0,,Produced By.\NTMS-ENTERTAINMENT, LTD.\NM=assocration with\NYOMIURI TELECASTING\NCORPORATION
+Dialogue: 0,0:22:18.44,0:22:24.65,Dialogue,,0,0,0,,DETECTIVE CONAN\NCLOWN AOYAMA SHOGARURAN YTV IMS\NAll RiTh Reserved
+Dialogue: 0,0:22:27.75,0:22:29.85,Dialogue,,0,0,0,,What I really. really want is...
+Dialogue: 0,0:22:30.02,0:22:31.49,Dialogue,,0,0,0,,I don't care what but,
+Dialogue: 0,0:22:32.56,0:22:33.66,Dialogue,,0,0,0,,You'd better hurry
+Dialogue: 0,0:22:33.76,0:22:35.73,Dialogue,,0,0,0,,or you're going to lose the{\rHonorifics - Dialogue} chan{\r}ce\Nto push the shutter at the right time.
+Dialogue: 0,0:22:37.43,0:22:39.10,Dialogue,,0,0,0,,Because it looks just great now.
+Dialogue: 0,0:22:40.80,0:22:43.75,Dialogue,,0,0,0,,Hey. take a load of that!!
+Dialogue: 0,0:22:44.04,0:22:46.00,Dialogue,,0,0,0,,What a beautiful sunset
+Dialogue: 0,0:22:46.74,0:22:47.67,Dialogue,,0,0,0,,I see!
+Dialogue: 0,0:22:47.71,0:22:51.11,Dialogue,,0,0,0,,You wanted to take a picture of\Nthis sunset. right? Akemi?
+Dialogue: 0,0:22:51.31,0:22:53.94,Dialogue,,0,0,0,,@€onan, you sit right here!
+Dialogue: 0,0:22:54.01,0:22:57.38,Dialogue,,0,0,0,,Mitsuhiko. Ail and Genta,.\Nsit one step below!
+Dialogue: 0,0:22:58.32,0:22:59.48,Dialogue,,0,0,0,,Please sét'the camera!
+Dialogue: 0,0:22:59.55,0:23:00.18,Dialogue,,0,0,0,,@OK.
+Dialogue: 0,0:23:00.69,0:23:03.72,Dialogue,,0,0,0,,But. why are we facing this way?
+Dialogue: 0,0:23:03.79,0:23:06.49,Dialogue,,0,0,0,,You may as well take a picture\Nwith the sunset in the background
+Dialogue: 0,0:23:06.56,0:23:08.39,Dialogue,,0,0,0,,because it'll be a nice picture that way.
+Dialogue: 0,0:23:08.43,0:23:10.49,Dialogue,,0,0,0,,Oh, never mind!
+Dialogue: 0,0:23:10.56,0:23:12.76,Dialogue,,0,0,0,,Okay, everybody, smile!
+Dialogue: 0,0:23:13.67,0:23:17.07,Dialogue,,0,0,0,,The stairs are red from the sunset
+Dialogue: 0,0:23:17.14,0:23:20.60,Dialogue,,0,0,0,,so with the cream-colored elevator door\Nin the background
+Dialogue: 0,0:23:20.91,0:23:23.17,Dialogue,,0,0,0,,you all look as if you're...
+Dialogue: 0,0:23:23.34,0:23:24.68,Dialogue,,0,0,0,,Hina dolls!!
+Dialogue: 0,0:23:24.81,0:23:25.28,Dialogue,,0,0,0,,Huh
+Dialogue: 0,0:23:26.18,0:23:28.11,Dialogue,,0,0,0,,Which means Conan is the Emperor, 4
+Dialogue: 0,0:23:28.15,0:23:30.28,Dialogue,,0,0,0,,and I'm the Minister of the Right?!
+Dialogue: 0,0:23:30.68,0:23:32.28,Dialogue,,0,0,0,,Rather. the three court ladies.
+Dialogue: 0,0:23:32.52,0:23:35.42,Dialogue,,0,0,0,,Hey. you gotta be joking!
+Dialogue: 0,0:23:36.12,0:23:39.06,Dialogue,,0,0,0,,Ai. lets go up the steps!li
+Dialogue: 0,0:23:39.12,0:23:39.49,Dialogue,,0,0,0,,Huh
+Dialogue: 0,0:23:39.59,0:23:41.63,Dialogue,,0,0,0,,Move it. Conan!!
+Dialogue: 0,0:23:41.63,0:23:42.33,Dialogue,,0,0,0,,No!!!
+Dialogue: 0,0:23:48.03,0:23:50.80,Dialogue,,0,0,0,,I mean,\Nwe're more like the five musicians
+Dialogue: 0,0:23:59.24,0:24:01.31,Dialogue,,0,0,0,,The tip of the rope is twisted.
+Dialogue: 0,0:24:06.15,0:24:07.32,Dialogue,,0,0,0,,This is part of a spider web.
+Dialogue: 0,0:24:09.35,0:24:11.19,Dialogue,,0,0,0,,I wonder when it stuck on...
+Dialogue: 0,0:24:12.77,0:24:14.46,Dialogue,,0,0,0,,Why would it be in a place like this?
+Dialogue: 0,0:24:16.53,0:24:21.50,Dialogue,,0,0,0,,The-Scenic. View Point\Nwith 'a Broken Fence

@@ -1,0 +1,522 @@
+[Script Info]
+Title: Detective Conan - 0328
+TL Source: UTB
+ScriptType: v4.00+
+WrapStyle: 3
+PlayResX: 1440
+PlayResY: 1080
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Dialogue,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00401311,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Dialogue Top,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00401311,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,8,30,30,55,1
+Style: Signs,FrancophilSans,74,&H14FFFFFF,&H00FFFFFF,&H46101010,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,8,30,30,55,1
+Style: Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,0,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Radio,FrancophilSans,74,&H00BEE1FF,&H00FFFFFF,&H000B2A42,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Narration,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00BF6F00,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Narration Off,FrancophilSans,74,&H6E8C6F00,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,0,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Flashback,FrancophilSans,74,&H00CDFAFF,&H00FFFFFF,&H00373737,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Flashback Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00CCFFFF,&HC0313134,-1,0,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Honorifics - Dialogue,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00401311,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Signs,FrancophilSans,74,&H14FFFFFF,&H00FFFFFF,&H46101010,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,-1,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Honorifics - Radio,FrancophilSans,74,&H00BEE1FF,&H00FFFFFF,&H000B2A42,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Narration,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00BF6F00,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Narration Off,FrancophilSans,74,&H6E8C6F00,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,-1,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Honorifics - Flashback,FrancophilSans,74,&H00CDFAFF,&H00FFFFFF,&H00373737,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Flashback Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00CCFFFF,&HC0313134,-1,-1,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Masks,FrancophilSans,74,&H00000000,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,2,0,0,0,1
+Style: Title,Conan Episode Title,74,&H00E1E4E3,&H000000FF,&HC8DBDAE1,&HC0000000,-1,0,0,0,100,100,0,0,1,1,0,5,0,0,0,1
+Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-1,0,0,0,100,100,0,0,1,0,0,2,0,0,65,1
+Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
+Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
+Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:02.83,0:00:03.03,Dialogue,,0,0,0,,Déduction:if lows- with\Nthe Fhijthin of the Wind
+Dialogue: 0,0:00:03.45,0:00:04.53,Dialogue,,0,0,0,,Deduction flows with
+Dialogue: 0,0:00:04.65,0:00:06.27,Dialogue,,0,0,0,,Dark stains are rinsed clean and exposed
+Dialogue: 0,0:00:06.57,0:00:08.40,Dialogue,,0,0,0,,The fragrance of murder and\Nthe blotches of a love affair
+Dialogue: 0,0:00:08.77,0:00:10.47,Dialogue,,0,0,0,,Wine glass which includes many things
+Dialogue: 0,0:00:10.77,0:00:12.14,Dialogue,,0,0,0,,He sees through the one and only truth,
+Dialogue: 0,0:00:12.44,0:00:14.07,Dialogue,,0,0,0,,A child in appearance\Nwith the l.Q. of an-adult
+Dialogue: 0,0:00:14.18,0:00:16.81,Dialogue,,0,0,0,,no case is left unsolved\Nwith Detective Conan
+Dialogue: 0,0:01:25.11,0:01:25.45,Dialogue,,0,0,0,,K/fl
+Dialogue: 0,0:01:27.87,0:01:28.45,Dialogue,,0,0,0,,my SS eC
+Dialogue: 0,0:01:29.90,0:01:31.49,Dialogue,,0,0,0,,An - >
+Dialogue: 0,0:01:58.48,0:02:00.58,Dialogue,,0,0,0,,Yes-!'" Who is it?
+Dialogue: 0,0:02:00.82,0:02:02.05,Dialogue,,0,0,0,,It's Ran Mourn...
+Dialogue: 0,0:02:02.08,0:02:04.05,Dialogue,,0,0,0,,Oh, okay! One moment...
+Dialogue: 0,0:02:05.75,0:02:07.59,Dialogue,,0,0,0,,What s up, Ran?
+Dialogue: 0,0:02:08.02,0:02:09.26,Dialogue,,0,0,0,,Yuki
+Dialogue: 0,0:02:09.36,0:02:11.59,Dialogue,,0,0,0,,thanks for the'books!
+Dialogue: 0,0:02:12.03,0:02:12.93,Dialogue,,0,0,0,,How-did you like it?
+Dialogue: 0,0:02:13.29,0:02:16.20,Dialogue,,0,0,0,,Well... my heart was pounding\Nexcitedly from beginning to.end...
+Dialogue: 0,0:02:16.43,0:02:17.73,Dialogue,,0,0,0,,$0. you thought so too?
+Dialogue: 0,0:02:17.83,0:02:20.00,Dialogue,,0,0,0,,You came all this way just to return it time?
+Dialogue: 0,0:02:20.17,0:02:21.80,Dialogue,,0,0,0,,Thank you'd
+Dialogue: 0,0:02:21.90,0:02:22.87,Dialogue,,0,0,0,,Ohl... No. well not really...
+Dialogue: 0,0:02:23.10,0:02:27.47,Dialogue,,0,0,0,,I was on my way 0 a restaurant\Nwith my father and family
+Dialogue: 0,0:02:27.51,0:02:28.34,Dialogue,,0,0,0,,so I just dropped by on the way...
+Dialogue: 0,0:02:28.64,0:02:29.34,Dialogue,,0,0,0,,Hello!
+Dialogue: 0,0:02:29.78,0:02:32.21,Dialogue,,0,0,0,,Thank you for being nice\Ntozmy daughter always.
+Dialogue: 0,0:02:32.65,0:02:34.41,Dialogue,,0,0,0,,Oh no, I've done nothing.
+Dialogue: 0,0:02:34.72,0:02:35.48,Dialogue,,0,0,0,,Thank you too...
+Dialogue: 0,0:02:35.72,0:02:36.95,Dialogue,,0,0,0,,Hey. Kojima!
+Dialogue: 0,0:02:37.79,0:02:39.62,Dialogue,,0,0,0,,Which plate should I put out?
+Dialogue: 0,0:02:39.79,0:02:40.95,Dialogue,,0,0,0,,Please wait.
+Dialogue: 0,0:02:41.12,0:02:42.76,Dialogue,,0,0,0,,Oh. that's right!!...
+Dialogue: 0,0:02:43.06,0:02:45.63,Dialogue,,0,0,0,,We're holding a birthday\Npanty-for a friend now.
+Dialogue: 0,0:02:45.93,0:02:47.56,Dialogue,,0,0,0,,Why don't-you all join us. Ran?
+Dialogue: 0,0:02:47.73,0:02:48.96,Dialogue,,0,0,0,,Huh? But...
+Dialogue: 0,0:02:49.06,0:02:50.50,Dialogue,,0,0,0,,Please do so by all means!
+Dialogue: 0,0:02:50.73,0:02:53.17,Dialogue,,0,0,0,,There are only going to be\Nthree of my university friends.
+Dialogue: 0,0:02:53.20,0:02:55.04,Dialogue,,0,0,0,,So/you do Tt have to be hesitant!
+Dialogue: 0,0:02:55.14,0:02:58.17,Dialogue,,0,0,0,,Besides, being able to meet\Nthe renown Detective Moun]
+Dialogue: 0,0:02:58.17,0:03:00.64,Dialogue,,0,0,0,,IS a birthday present that can't be beat!
+Dialogue: 0,0:03:01.94,0:03:04.71,Dialogue,,0,0,0,,If it's okay with you... right, Ran?!
+Dialogue: 0,0:03:05.01,0:03:06.05,Dialogue,,0,0,0,,Dad!!
+Dialogue: 0,0:03:06.75,0:03:09.92,Dialogue,,0,0,0,,I'll bet all you want to do\NIs get free booze.
+Dialogue: 0,0:03:11.25,0:03:17.09,Dialogue,,0,0,0,,Mystery of the Birthday Wine
+Dialogue: 0,0:03:23.87,0:03:24.43,Dialogue,,0,0,0,,Yuk!
+Dialogue: 0,0:03:24.80,0:03:25.13,Dialogue,,0,0,0,,Huh?
+Dialogue: 0,0:03:25.80,0:03:27.50,Dialogue,,0,0,0,,Where shall I put thus?
+Dialogue: 0,0:03:27.67,0:03:29.30,Dialogue,,0,0,0,,Can you put it in the kitchen for now?
+Dialogue: 0,0:03:29.60,0:03:30.44,Dialogue,,0,0,0,,Okay.
+Dialogue: 0,0:03:38.95,0:03:40.58,Dialogue,,0,0,0,,Ouch!
+Dialogue: 0,0:03:41.95,0:03:42.78,Dialogue,,0,0,0,,My. are you okay?
+Dialogue: 0,0:03:42.78,0:03:43.72,Dialogue,,0,0,0,,Ouch...
+Dialogue: 0,0:03:43.82,0:03:45.92,Dialogue,,0,0,0,,Fm fine.
+Dialogue: 0,0:03:51.43,0:03:52.86,Dialogue,,0,0,0,,I'm sorry...
+Dialogue: 0,0:03:53.23,0:03:55.26,Dialogue,,0,0,0,,this chair is a little broken.
+Dialogue: 0,0:03:55.43,0:03:58.67,Dialogue,,0,0,0,,The chair that: Keiko, the star of\Ntoday sits on goes way: inside, right?
+Dialogue: 0,0:03:58.90,0:03:59.27,Dialogue,,0,0,0,,Yep,
+Dialogue: 0,0:03:59.57,0:04:03.20,Dialogue,,0,0,0,,and oh, this bag of yours,\Nwill you-put it in the kitchen
+Dialogue: 0,0:04:03.44,0:04:04.47,Dialogue,,0,0,0,,It's kidd of in the way here.
+Dialogue: 0,0:04:04.57,0:04:05.71,Dialogue,,0,0,0,,Huh?
+Dialogue: 0,0:04:06.11,0:04:06.81,Dialogue,,0,0,0,,Y right away, ma
+Dialogue: 0,0:04:06.81,0:04:07.04,Dialogue,,0,0,0,,@kay... right away, ma'am.
+Dialogue: 0,0:04:07.34,0:04:08.84,Dialogue,,0,0,0,,Are you really okay?!
+Dialogue: 0,0:04:09.21,0:04:10.11,Dialogue,,0,0,0,,You're not hurt, are you?
+Dialogue: 0,0:04:10.45,0:04:12.35,Dialogue,,0,0,0,,Yep. I'm fine!
+Dialogue: 0,0:04:12.65,0:04:14.95,Dialogue,,0,0,0,,Yuki, is there anything else\Nyou'd like me to do?
+Dialogue: 0,0:04:14.98,0:04:17.08,Dialogue,,0,0,0,,Hmm - No. I guess that's it...
+Dialogue: 0,0:04:17.25,0:04:19.55,Dialogue,,0,0,0,,I'm sorry to have made you help me...
+Dialogue: 0,0:04:19.85,0:04:21.49,Dialogue,,0,0,0,,Oh. no problem at all...
+Dialogue: 0,0:04:26.59,0:04:29.43,Dialogue,,0,0,0,,Oh, that chair's broken Togash.
+Dialogue: 0,0:04:29.46,0:04:31.03,Dialogue,,0,0,0,,O@h. no problem,
+Dialogue: 0,0:04:31.20,0:04:32.43,Dialogue,,0,0,0,,because I'll sit in it.
+Dialogue: 0,0:04:34.74,0:04:36.34,Dialogue,,0,0,0,,It's Keiko and the others...
+Dialogue: 0,0:04:36.34,0:04:37.07,Dialogue,,0,0,0,,Yeah...
+Dialogue: 0,0:04:37.41,0:04:38.77,Dialogue,,0,0,0,,Yes!
+Dialogue: 0,0:04:40.07,0:04:41.24,Dialogue,,0,0,0,,Good evening.
+Dialogue: 0,0:04:41.28,0:04:43.04,Dialogue,,0,0,0,,We've been waiting for you, Keiko!
+Dialogue: 0,0:04:43.41,0:04:44.98,Dialogue,,0,0,0,,Hello!
+Dialogue: 0,0:04:45.05,0:04:45.85,Dialogue,,0,0,0,,Hi. thanks~for coming!
+Dialogue: 0,0:04:46.15,0:04:47.78,Dialogue,,0,0,0,,Hi Nonaka, you're late!
+Dialogue: 0,0:04:48.25,0:04:50.32,Dialogue,,0,0,0,,So sorry, the roads were jammed.
+Dialogue: 0,0:04:51.08,0:04:53.65,Dialogue,,0,0,0,,I'll go park the car then... Keiko...
+Dialogue: 0,0:04:53.86,0:04:54.39,Dialogue,,0,0,0,,Okay.
+Dialogue: 0,0:04:55.26,0:04:56.42,Dialogue,,0,0,0,,And... Keiko,
+Dialogue: 0,0:04:56.89,0:04:58.73,Dialogue,,0,0,0,,has the day you're going abroad as\Nan exchange studentObeen decided...?
+Dialogue: 0,0:04:58.99,0:05:00.99,Dialogue,,0,0,0,,I'm leaving next week Tuesday!!
+Dialogue: 0,0:05:01.13,0:05:03.00,Dialogue,,0,0,0,,$0. I'm sort of busy with this and that!
+Dialogue: 0,0:05:03.10,0:05:05.10,Dialogue,,0,0,0,,You mean. you're leaving that soon...?
+Dialogue: 0,0:05:07.00,0:05:08.30,Dialogue,,0,0,0,,Mr. Moun
+Dialogue: 0,0:05:08.30,0:05:09.30,Dialogue,,0,0,0,,please move a bit more to the left...
+Dialogue: 0,0:05:09.30,0:05:10.77,Dialogue,,0,0,0,,You mean like so...?
+Dialogue: 0,0:05:11.51,0:05:13.71,Dialogue,,0,0,0,,Yes, okay. Here goes
+Dialogue: 0,0:05:13.88,0:05:15.58,Dialogue,,0,0,0,,One plus one is...
+Dialogue: 0,0:05:15.71,0:05:17.24,Dialogue,,0,0,0,,Twol!
+Dialogue: 0,0:05:17.75,0:05:18.98,Dialogue,,0,0,0,,I'm so happy
+Dialogue: 0,0:05:19.01,0:05:21.92,Dialogue,,0,0,0,,to be able to take a snapshot with\Nthe renown Detective KogoroJMdun...
+Dialogue: 0,0:05:21.92,0:05:23.78,Dialogue,,0,0,0,,Well, well .
+Dialogue: 0,0:05:25.85,0:05:28.69,Dialogue,,0,0,0,,Huh? Tihe glass 'cups are.already out.here.
+Dialogue: 0,0:05:28.72,0:05:29.46,Dialogue,,0,0,0,,Yeah...
+Dialogue: 0,0:05:29.59,0:05:31.49,Dialogue,,0,0,0,,On. Nonaka. will you get the\Nyou know what out.
+Dialogue: 0,0:05:31.63,0:05:32.09,Dialogue,,0,0,0,,Huh
+Dialogue: 0,0:05:32.13,0:05:32.89,Dialogue,,0,0,0,,Oh.right...
+Dialogue: 0,0:05:36.03,0:05:37.13,Dialogue,,0,0,0,,This.
+Dialogue: 0,0:05:37.27,0:05:39.13,Dialogue,,0,0,0,,Is my gift to you!
+Dialogue: 0,0:05:39.30,0:05:41.23,Dialogue,,0,0,0,,I bought it when I went to\NGermany some time ago...
+Dialogue: 0,0:05:41.27,0:05:43.07,Dialogue,,0,0,0,,just for your birthday...
+Dialogue: 0,0:05:43.20,0:05:44.77,Dialogue,,0,0,0,,It wasn't.Cheap. youzknow.
+Dialogue: 0,0:05:44.94,0:05:46.81,Dialogue,,0,0,0,,Oh. wow, thanks so:much!:-
+Dialogue: 0,0:05:46.91,0:05:49.68,Dialogue,,0,0,0,,Hey, hey, I dished out my half\Nfor it toe. you know
+Dialogue: 0,0:05:50.65,0:05:51.81,Dialogue,,0,0,0,,you did?
+Dialogue: 0,0:05:52.01,0:05:52.61,Dialogue,,0,0,0,,Heck!
+Dialogue: 0,0:05:57.92,0:05:59.59,Dialogue,,0,0,0,,First, for the birthday girl...
+Dialogue: 0,0:06:00.09,0:06:01.36,Dialogue,,0,0,0,,Thank you...
+Dialogue: 0,0:06:02.36,0:06:04.62,Dialogue,,0,0,0,,I hope you like it...
+Dialogue: 0,0:06:04.83,0:06:06.23,Dialogue,,0,0,0,,Thank you
+Dialogue: 0,0:06:06.96,0:06:08.26,Dialogue,,0,0,0,,Nice color...
+Dialogue: 0,0:06:08.53,0:06:11.10,Dialogue,,0,0,0,,Hey. Nonaka. leave some for me too.
+Dialogue: 0,0:06:11.67,0:06:12.07,Dialogue,,0,0,0,,Shoots
+Dialogue: 0,0:06:12.27,0:06:13.40,Dialogue,,0,0,0,,there's still some more left...
+Dialogue: 0,0:06:13.77,0:06:14.33,Dialogue,,0,0,0,,Here you go.
+Dialogue: 0,0:06:16.24,0:06:18.81,Dialogue,,0,0,0,,Like they say. Save the best for last "
+Dialogue: 0,0:06:20.14,0:06:21.61,Dialogue,,0,0,0,,Oh, just enough...
+Dialogue: 0,0:06:22.84,0:06:24.68,Dialogue,,0,0,0,,Here:s a-toast to our dear friend
+Dialogue: 0,0:06:24.68,0:06:27.41,Dialogue,,0,0,0,,Keiko Sawaguchi's 20th birthday
+Dialogue: 0,0:06:27.42,0:06:30.52,Dialogue,,0,0,0,,as well as her study trip\Nabroad to the States...
+Dialogue: 0,0:06:30.72,0:06:31.65,Dialogue,,0,0,0,,Cheers!
+Dialogue: 0,0:06:31.65,0:06:32.79,Dialogue,,0,0,0,,Cheers?
+Dialogue: 0,0:06:32.79,0:06:33.29,Dialogue,,0,0,0,,Cheers!
+Dialogue: 0,0:06:33.42,0:06:34.39,Dialogue,,0,0,0,,Thank you!!
+Dialogue: 0,0:06:36.12,0:06:37.29,Dialogue,,0,0,0,,It's delicious!!
+Dialogue: 0,0:06:40.90,0:06:41.93,Dialogue,,0,0,0,,Really...
+Dialogue: 0,0:06:42.26,0:06:43.40,Dialogue,,0,0,0,,It's so refreshing...
+Dialogue: 0,0:06:44.73,0:06:47.03,Dialogue,,0,0,0,,Oh! This is really good!
+Dialogue: 0,0:06:49.87,0:06:50.64,Dialogue,,0,0,0,,Everybody
+Dialogue: 0,0:06:50.74,0:06:52.14,Dialogue,,0,0,0,,please don't forget.
+Dialogue: 0,0:06:52.27,0:06:54.17,Dialogue,,0,0,0,,I dished out...
+Dialogue: 0,0:07:02.15,0:07:04.35,Dialogue,,0,0,0,,Just what do you think\Nyou're doing Togashi!!
+Dialogue: 0,0:07:04.45,0:07:05.68,Dialogue,,0,0,0,,Sorry... sorry!
+Dialogue: 0,0:07:05.79,0:07:08.05,Dialogue,,0,0,0,,I'd completely forgotten about this chair...
+Dialogue: 0,0:07:08.69,0:07:10.49,Dialogue,,0,0,0,,Keiko, it didn't spill on\Nyour clothes, did it?
+Dialogue: 0,0:07:10.89,0:07:11.99,Dialogue,,0,0,0,,I think I'm fine...
+Dialogue: 0,0:07:12.19,0:07:14.49,Dialogue,,0,0,0,,I spilled the wine of the birthday girl...
+Dialogue: 0,0:07:14.63,0:07:16.53,Dialogue,,0,0,0,,The bottle's already empty too
+Dialogue: 0,0:07:17.53,0:07:19.33,Dialogue,,0,0,0,,so if you want my drink you can have it...
+Dialogue: 0,0:07:19.33,0:07:20.07,Dialogue,,0,0,0,,Go ahead and pass it around.
+Dialogue: 0,0:07:22.44,0:07:23.34,Dialogue,,0,0,0,,Nonaka...
+Dialogue: 0,0:07:23.67,0:07:24.20,Dialogue,,0,0,0,,Yeah...
+Dialogue: 0,0:07:25.37,0:07:27.01,Dialogue,,0,0,0,,I tell you, you're hopeless...
+Dialogue: 0,0:07:27.11,0:07:28.04,Dialogue,,0,0,0,,Togashi
+Dialogue: 0,0:07:29.34,0:07:30.31,Dialogue,,0,0,0,,I'm sorry.
+Dialogue: 0,0:07:30.31,0:07:31.61,Dialogue,,0,0,0,,Please bear with that...
+Dialogue: 0,0:07:32.05,0:07:32.48,Dialogue,,0,0,0,,Okay...
+Dialogue: 0,0:07:32.85,0:07:33.65,Dialogue,,0,0,0,,thank you...
+Dialogue: 0,0:07:35.12,0:07:36.75,Dialogue,,0,0,0,,I almost forgot the cake!
+Dialogue: 0,0:07:36.85,0:07:38.75,Dialogue,,0,0,0,,Yeah, I'll bring it.
+Dialogue: 0,0:07:38.95,0:07:39.82,Dialogue,,0,0,0,,UW Pah up\NHen Ks\NOh. will you please...
+Dialogue: 0,0:07:39.82,0:07:41.69,Dialogue,,0,0,0,,Wry B Fday
+Dialogue: 0,0:07:41.69,0:07:42.79,Dialogue,,0,0,0,,UW bah op\NHobs [\NRead ?
+Dialogue: 0,0:07:42.89,0:07:44.86,Dialogue,,0,0,0,,I'm going to turn out the lights.
+Dialogue: 0,0:07:46.49,0:07:48.50,Dialogue,,0,0,0,,Ppt Poach dag?\NKH KT
+Dialogue: 0,0:07:53.50,0:07:54.50,Dialogue,,0,0,0,,Well, Keiko
+Dialogue: 0,0:07:58.77,0:08:00.51,Dialogue,,0,0,0,,Happy birthday!
+Dialogue: 0,0:08:01.04,0:08:01.98,Dialogue,,0,0,0,,Happy birthday!
+Dialogue: 0,0:08:05.31,0:08:06.88,Dialogue,,0,0,0,,It's really good!
+Dialogue: 0,0:08:10.52,0:08:11.12,Dialogue,,0,0,0,,Art...
+Dialogue: 0,0:08:11.39,0:08:12.79,Dialogue,,0,0,0,,Okay. I'll cut the cake. then
+Dialogue: 0,0:08:18.93,0:08:19.69,Dialogue,,0,0,0,,Keiko?
+Dialogue: 0,0:08:20.29,0:08:21.50,Dialogue,,0,0,0,,Keiko. what's the matter?
+Dialogue: 0,0:08:27.47,0:08:28.74,Dialogue,,0,0,0,,Keiko, what the matter?!
+Dialogue: 0,0:08:28.90,0:08:29.94,Dialogue,,0,0,0,,Get a hold of yourself!!
+Dialogue: 0,0:08:30.10,0:08:30.80,Dialogue,,0,0,0,,Keiko!!
+Dialogue: 0,0:08:33.74,0:08:35.01,Dialogue,,0,0,0,,\ Keiko?!
+Dialogue: 0,0:08:37.61,0:08:38.21,Dialogue,,0,0,0,,Ran!
+Dialogue: 0,0:08:38.31,0:08:39.15,Dialogue,,0,0,0,,The ambulance!!
+Dialogue: 0,0:08:39.51,0:08:40.61,Dialogue,,0,0,0,,Get the ambulance!!
+Dialogue: 0,0:08:40.75,0:08:41.65,Dialogue,,0,0,0,,Oh. okay!
+Dialogue: 0,0:08:41.75,0:08:42.85,Dialogue,,0,0,0,,Get the police too!!
+Dialogue: 0,0:08:42.85,0:08:43.78,Dialogue,,0,0,0,,Okay!
+Dialogue: 0,0:08:44.52,0:08:45.59,Dialogue,,0,0,0,,Stay back!
+Dialogue: 0,0:08:45.65,0:08:49.09,Dialogue,,0,0,0,,Don't touch anything on the table!!
+Dialogue: 0,0:08:52.46,0:08:53.23,Dialogue,,0,0,0,,FN Eire,
+Dialogue: 0,0:08:56.76,0:08:57.10,Dialogue,,0,0,0,,Inspector!!
+Dialogue: 0,0:08:57.37,0:09:02.07,Dialogue,,0,0,0,,Poison was found from the cup that\Nthe victimudrank out of after ally,
+Dialogue: 0,0:09:03.34,0:09:03.70,Dialogue,,0,0,0,,And...
+Dialogue: 0,0:09:03.94,0:09:05.37,Dialogue,,0,0,0,,what about the other glass cups?
+Dialogue: 0,0:09:05.67,0:09:11.34,Dialogue,,0,0,0,,No poison was detected from the other\Nfour glass cups or the empty wine bottle.
+Dialogue: 0,0:09:12.45,0:09:13.31,Dialogue,,0,0,0,,And...
+Dialogue: 0,0:09:13.61,0:09:15.55,Dialogue,,0,0,0,,on the cup that was used by the victim,
+Dialogue: 0,0:09:15.58,0:09:17.62,Dialogue,,0,0,0,,Ms. Sawaguehi, her fingerprints,
+Dialogue: 0,0:09:17.79,0:09:19.39,Dialogue,,0,0,0,,as well as those of\NMr. Togashi, Mr. Nonaka
+Dialogue: 0,0:09:19.52,0:09:21.96,Dialogue,,0,0,0,,and Ms. Kojima were also found.
+Dialogue: 0,0:09:22.19,0:09:23.52,Dialogue,,0,0,0,,The fingerprintsrofiall fouZpeople?
+Dialogue: 0,0:09:28.33,0:09:29.33,Dialogue,,0,0,0,,I see...
+Dialogue: 0,0:09:29.63,0:09:32.13,Dialogue,,0,0,0,,the glass cup that Ms. Sawaguchi\Ndrank from was the one that
+Dialogue: 0,0:09:32.13,0:09:36.30,Dialogue,,0,0,0,,Mr. Togashi had passed around to\NMs. Kojima and Mr. Nonaka,
+Dialogue: 0,0:09:36.30,0:09:39.21,Dialogue,,0,0,0,,and finally passed around to\NMs. Sawaguchi. the victim...
+Dialogue: 0,0:09:39.71,0:09:41.44,Dialogue,,0,0,0,,if you want my drink you can have it...
+Dialogue: 0,0:09:41.44,0:09:42.24,Dialogue,,0,0,0,,Go ahead and pass it around.
+Dialogue: 0,0:09:44.78,0:09:45.65,Dialogue,,0,0,0,,Nonaka...
+Dialogue: 0,0:09:45.88,0:09:46.48,Dialogue,,0,0,0,,Yeah...
+Dialogue: 0,0:09:47.58,0:09:49.28,Dialogue,,0,0,0,,I tell you, you're hopeless...
+Dialogue: 0,0:09:49.35,0:09:50.32,Dialogue,,0,0,0,,Togashi.
+Dialogue: 0,0:09:51.89,0:09:52.59,Dialogue,,0,0,0,,Yes.
+Dialogue: 0,0:09:52.85,0:09:54.72,Dialogue,,0,0,0,,And... who opened the wine bottle?
+Dialogue: 0,0:09:55.19,0:09:57.86,Dialogue,,0,0,0,,Pulled the cork off the bottle.
+Dialogue: 0,0:09:58.96,0:10:00.83,Dialogue,,0,0,0,,Then, I poured wine for\NKeiko, the birthday girl,
+Dialogue: 0,0:10:01.13,0:10:02.70,Dialogue,,0,0,0,,the guest Mr. Mourn
+Dialogue: 0,0:10:03.33,0:10:05.23,Dialogue,,0,0,0,,Yuki and myself...
+Dialogue: 0,0:10:06.17,0:10:08.57,Dialogue,,0,0,0,,Then I finally took the bottle from Nonaka
+Dialogue: 0,0:10:09.12,0:10:10.70,Dialogue,,0,0,0,,and poured wine for myself.
+Dialogue: 0,0:10:13.14,0:10:14.01,Dialogue,,0,0,0,,Inspector...
+Dialogue: 0,0:10:14.31,0:10:18.88,Dialogue,,0,0,0,,maybe someone had put poison\Nin the glass cup beforehand?
+Dialogue: 0,0:10:19.11,0:10:20.18,Dialogue,,0,0,0,,But...
+Dialogue: 0,0:10:20.25,0:10:22.55,Dialogue,,0,0,0,,Mr. Togashi. you said that you took\Na sip of wine from your glass
+Dialogue: 0,0:10:22.65,0:10:25.12,Dialogue,,0,0,0,,before you gave it to the vietim. didn't you?
+Dialogue: 0,0:10:25.39,0:10:26.05,Dialogue,,0,0,0,,Yes...
+Dialogue: 0,0:10:26.42,0:10:29.32,Dialogue,,0,0,0,,And, how do you feel?
+Dialogue: 0,0:10:31.29,0:10:33.53,Dialogue,,0,0,0,,Just fine.
+Dialogue: 0,0:10:35.16,0:10:36.43,Dialogue,,0,0,0,,Then
+Dialogue: 0,0:10:36.63,0:10:40.27,Dialogue,,0,0,0,,the poison must've been\Ninserted after he drank the wine.
+Dialogue: 0,0:10:40.50,0:10:44.24,Dialogue,,0,0,0,,Maybe he just pretended\Nto drink and didn't YN
+Dialogue: 0,0:10:44.41,0:10:45.87,Dialogue,,0,0,0,,e c- ran ou o us cup or sure,
+Dialogue: 0,0:10:46.97,0:10:49.71,Dialogue,,0,0,0,,I saw him drink after the toast...
+Dialogue: 0,0:10:50.98,0:10:52.65,Dialogue,,0,0,0,,Quiet, kid...
+Dialogue: 0,0:10:52.98,0:10:56.05,Dialogue,,0,0,0,,If there were ice cubes in the cup,\Nthen maybe...
+Dialogue: 0,0:10:56.68,0:11:00.89,Dialogue,,0,0,0,,poison could ve been put in\Nthe ice cubes beforehand .
+Dialogue: 0,0:11:01.22,0:11:02.42,Dialogue,,0,0,0,,I donst think .
+Dialogue: 0,0:11:02.56,0:11:04.59,Dialogue,,0,0,0,,People ever drink wine-on the rocks.
+Dialogue: 0,0:11:06.83,0:11:07.69,Dialogue,,0,0,0,,True...
+Dialogue: 0,0:11:08.03,0:11:11.53,Dialogue,,0,0,0,,And after he took a sip, Mr Togashi\Ngave that cup of wine to...
+Dialogue: 0,0:11:12.07,0:11:14.87,Dialogue,,0,0,0,,me. and I gave it to Mr. Nonaka.
+Dialogue: 0,0:11:15.27,0:11:17.77,Dialogue,,0,0,0,,He couldn't have put poison in the cup
+Dialogue: 0,0:11:17.97,0:11:19.41,Dialogue,,0,0,0,,since everybody was watching...
+Dialogue: 0,0:11:19.71,0:11:20.91,Dialogue,,0,0,0,,Fl SQQ...
+Dialogue: 0,0:11:21.01,0:11:22.54,Dialogue,,0,0,0,,I was watching him too...
+Dialogue: 0,0:11:24.55,0:11:25.88,Dialogue,,0,0,0,,Inspector.
+Dialogue: 0,0:11:25.98,0:11:28.45,Dialogue,,0,0,0,,When Ms. Sawaguchi blew out the candles.
+Dialogue: 0,0:11:28.45,0:11:30.55,Dialogue,,0,0,0,,The lights went out for an instant.
+Dialogue: 0,0:11:30.69,0:11:31.45,Dialogue,,0,0,0,,Huh?!
+Dialogue: 0,0:11:31.55,0:11:32.79,Dialogue,,0,0,0,,I see, if then,
+Dialogue: 0,0:11:32.92,0:11:35.19,Dialogue,,0,0,0,,I guess poison could've been put in...
+Dialogue: 0,0:11:38.53,0:11:39.96,Dialogue,,0,0,0,,Oh...
+Dialogue: 0,0:11:40.39,0:11:41.26,Dialogue,,0,0,0,,I see.
+Dialogue: 0,0:11:41.30,0:11:42.70,Dialogue,,0,0,0,,If then maybe it would've been possible...
+Dialogue: 0,0:11:42.96,0:11:43.93,Dialogue,,0,0,0,,Inspector Megure.
+Dialogue: 0,0:11:44.10,0:11:47.53,Dialogue,,0,0,0,,How about having everyone\Ntake his seats again?
+Dialogue: 0,0:11:47.87,0:11:49.77,Dialogue,,0,0,0,,You want to replay the scene of the crime,
+Dialogue: 0,0:11:50.17,0:11:52.11,Dialogue,,0,0,0,,Will you help us out everyone?
+Dialogue: 0,0:11:52.64,0:11:53.11,Dialogue,,0,0,0,,Yes.
+Dialogue: 0,0:11:55.28,0:11:56.38,Dialogue,,0,0,0,,Sure thing!
+Dialogue: 0,0:11:57.85,0:11:59.68,Dialogue,,0,0,0,,Let's start. then
+Dialogue: 0,0:12:00.25,0:12:03.55,Dialogue,,0,0,0,,So. you all sat in this order?
+Dialogue: 0,0:12:03.85,0:12:05.52,Dialogue,,0,0,0,,Yes. that's right.
+Dialogue: 0,0:12:06.12,0:12:09.86,Dialogue,,0,0,0,,So, the glass cup that the victim\N; received from Mr. Togashi goes
+Dialogue: 0,0:12:10.09,0:12:11.46,Dialogue,,0,0,0,,here? Is this correct...?
+Dialogue: 0,0:12:11.96,0:12:12.59,Dialogue,,0,0,0,,Yes.
+Dialogue: 0,0:12:13.13,0:12:15.66,Dialogue,,0,0,0,,I put it there. so there's no mistake about it
+Dialogue: 0,0:12:16.03,0:12:18.47,Dialogue,,0,0,0,,After that. the candles were blown out.
+Dialogue: 0,0:12:18.53,0:12:23.57,Dialogue,,0,0,0,,The roomygot dark, and the lights were\Nswitched back on again right away?
+Dialogue: 0,0:12:24.00,0:12:26.14,Dialogue,,0,0,0,,I turned the lights back on with\Nthat switch over there
+Dialogue: 0,0:12:29.88,0:12:33.21,Dialogue,,0,0,0,,How long was it pitch dark?
+Dialogue: 0,0:12:33.91,0:12:36.08,Dialogue,,0,0,0,,I think it was no more than 4 {05 seconds.
+Dialogue: 0,0:12:36.28,0:12:40.75,Dialogue,,0,0,0,,because I got up and turned on the lights\Nright after the candles were blown out...
+Dialogue: 0,0:12:41.05,0:12:43.09,Dialogue,,0,0,0,,Do you all agree. .?
+Dialogue: 0,0:12:43.69,0:12:44.22,Dialogue,,0,0,0,,Well.
+Dialogue: 0,0:12:44.29,0:12:46.29,Dialogue,,0,0,0,,I think so too.
+Dialogue: 0,0:12:46.66,0:12:49.26,Dialogue,,0,0,0,,Then. the answer is simple.
+Dialogue: 0,0:12:49.46,0:12:51.87,Dialogue,,0,0,0,,The only one who could pour poison in\Nthe cup within a period of 4 to 5 seconds
+Dialogue: 0,0:12:51.87,0:12:53.13,Dialogue,,0,0,0,,would be the one who was\Nsitting to the right of the victim
+Dialogue: 0,0:12:53.37,0:12:54.00,Dialogue,,0,0,0,,That is.
+Dialogue: 0,0:12:54.07,0:12:57.97,Dialogue,,0,0,0,,The one who was nearest to the cup.\NNo one oth&r than you, Mr. Nonaka!
+Dialogue: 0,0:12:59.27,0:13:00.37,Dialogue,,0,0,0,,Dad!
+Dialogue: 0,0:13:00.78,0:13:03.08,Dialogue,,0,0,0,,It doesn't have to me.
+Dialogue: 0,0:13:03.48,0:13:06.61,Dialogue,,0,0,0,,Even Yuki could've reached\Nthe glass if she leaned over.
+Dialogue: 0,0:13:06.78,0:13:08.15,Dialogue,,0,0,0,,Why should I do something like that?!
+Dialogue: 0,0:13:08.32,0:13:08.85,Dialogue,,0,0,0,,Inspector!
+Dialogue: 0,0:13:09.32,0:13:13.75,Dialogue,,0,0,0,,It's true that from where Ms. Kojima\Nwas seated she could've done so too...
+Dialogue: 0,0:13:15.29,0:13:16.32,Dialogue,,0,0,0,,Oh no...
+Dialogue: 0,0:13:17.16,0:13:18.66,Dialogue,,0,0,0,,I couldn't have done it.
+Dialogue: 0,0:13:19.19,0:13:23.33,Dialogue,,0,0,0,,I'd have to climb over to the table\Nor something to reach the.cup...
+Dialogue: 0,0:13:23.93,0:13:26.10,Dialogue,,0,0,0,,Or. you went around behind everybody.
+Dialogue: 0,0:13:26.17,0:13:28.07,Dialogue,,0,0,0,,Came all the way here and»
+Dialogue: 0,0:13:28.20,0:13:30.69,Dialogue,,0,0,0,,went back to turn on-the lights...
+Dialogue: 0,0:13:34.74,0:13:37.31,Dialogue,,0,0,0,,4 to 5 seconds isn't enough time.
+Dialogue: 0,0:13:37.38,0:13:41.38,Dialogue,,0,0,0,,Even if {Were dark; I'm sure somebody\Nwould've sensed you do so if you did.
+Dialogue: 0,0:13:41.72,0:13:42.62,Dialogue,,0,0,0,,Which means...
+Dialogue: 0,0:13:42.92,0:13:46.59,Dialogue,,0,0,0,,That Mr. Togashi couldn't\Nhave done it after all.
+Dialogue: 0,0:13:46.72,0:13:47.59,Dialogue,,0,0,0,,Inspector!
+Dialogue: 0,0:13:47.86,0:13:52.13,Dialogue,,0,0,0,,I guess it would be safe to say that the\NKiller is either Mr. Nonaka or Ms. Kojima.
+Dialogue: 0,0:13:53.96,0:13:55.03,Dialogue,,0,0,0,,No...
+Dialogue: 0,0:13:56.96,0:13:58.10,Dialogue,,0,0,0,,Why.
+Dialogue: 0,0:13:59.37,0:14:03.04,Dialogue,,0,0,0,,Why did that person take\Nsuch a strange attitude...
+Dialogue: 0,0:14:11.25,0:14:12.05,Dialogue,,0,0,0,,Wait a sec...
+Dialogue: 0,0:14:12.51,0:14:13.68,Dialogue,,0,0,0,,If that method is used...
+Dialogue: 0,0:14:14.85,0:14:15.92,Dialogue,,0,0,0,,I got it!
+Dialogue: 0,0:14:16.48,0:14:19.32,Dialogue,,0,0,0,,Ffigured out the method of\Nhow thé'poison was put inside the cup!
+Dialogue: 0,0:14:21.69,0:14:22.09,Dialogue,,0,0,0,,w/a .
+Dialogue: 0,0:14:24.04,0:14:24.91,Dialogue,,0,0,0,,Inspector Megure!!
+Dialogue: 0,0:14:25.58,0:14:26.21,Dialogue,,0,0,0,,Huh?
+Dialogue: 0,0:14:27.71,0:14:30.41,Dialogue,,0,0,0,,I checked the belongings of the three...
+Dialogue: 0,0:14:30.58,0:14:33.35,Dialogue,,0,0,0,,And found this is in Mr. Nonaka's bag...
+Dialogue: 0,0:14:34.02,0:14:36.42,Dialogue,,0,0,0,,Oh. .Just-what is it?
+Dialogue: 0,0:14:37.76,0:14:39.72,Dialogue,,0,0,0,,That's the bottle that I...
+Dialogue: 0,0:14:40.12,0:14:42.29,Dialogue,,0,0,0,,There could be poison inside...
+Dialogue: 0,0:14:42.46,0:14:44.03,Dialogue,,0,0,0,,We'll check it out right away.
+Dialogue: 0,0:14:44.36,0:14:45.56,Dialogue,,0,0,0,,Please do.
+Dialogue: 0,0:14:47.70,0:14:49.23,Dialogue,,0,0,0,,So. Mr. Nonaka...
+Dialogue: 0,0:14:49.37,0:14:50.90,Dialogue,,0,0,0,,Will you please explain\Nthe bottle that we just found?
+Dialogue: 0,0:14:51.47,0:14:52.97,Dialogue,,0,0,0,,I know nothing about it!
+Dialogue: 0,0:14:53.20,0:14:55.67,Dialogue,,0,0,0,,That's my bag all right,
+Dialogue: 0,0:14:55.67,0:14:57.87,Dialogue,,0,0,0,,but it's the first time\NI've ever seen that tiny bottle!
+Dialogue: 0,0:14:57.94,0:15:00.21,Dialogue,,0,0,0,,That's what they all say...
+Dialogue: 0,0:15:00.78,0:15:01.98,Dialogue,,0,0,0,,I know nothing of it!
+Dialogue: 0,0:15:02.08,0:15:04.51,Dialogue,,0,0,0,,It's the first time I've seen it!
+Dialogue: 0,0:15:04.82,0:15:06.48,Dialogue,,0,0,0,,Officer Takagi!
+Dialogue: 0,0:15:06.78,0:15:08.48,Dialogue,,0,0,0,,What is it, Conan...
+Dialogue: 0,0:15:08.75,0:15:09.65,Dialogue,,0,0,0,,Um...
+Dialogue: 0,0:15:10.45,0:15:13.39,Dialogue,,0,0,0,,What?! The same thing?!
+Dialogue: 0,0:15:13.42,0:15:14.06,Dialogue,,0,0,0,,Yes, sir
+Dialogue: 0,0:15:14.26,0:15:18.09,Dialogue,,0,0,0,,as to the detailed substance, I'll go\Nback to headquarters and analyze it.
+Dialogue: 0,0:15:18.20,0:15:20.26,Dialogue,,0,0,0,,This was found in Ms: Sawaguchi's glass
+Dialogue: 0,0:15:20.36,0:15:22.33,Dialogue,,0,0,0,,and this was found in the tiny bottle.
+Dialogue: 0,0:15:22.67,0:15:25.00,Dialogue,,0,0,0,,The reaction of both is exactly the same.
+Dialogue: 0,0:15:27.07,0:15:28.00,Dialogue,,0,0,0,,Mr. Nonaka
+Dialogue: 0,0:15:28.36,0:15:30.64,Dialogue,,0,0,0,,we'd like to hear more\Ndetails from you so...
+Dialogue: 0,0:15:30.71,0:15:32.31,Dialogue,,0,0,0,,I didn't do it!
+Dialogue: 0,0:15:34.91,0:15:36.61,Dialogue,,0,0,0,,Please calm down, Mr. Nonaka!
+Dialogue: 0,0:15:36.78,0:15:38.18,Dialogue,,0,0,0,,Please come with me to the station!
+Dialogue: 0,0:15:38.25,0:15:39.02,Dialogue,,0,0,0,,No good!!
+Dialogue: 0,0:15:39.98,0:15:41.45,Dialogue,,0,0,0,,Please hear me out. Inspector!
+Dialogue: 0,0:15:41.55,0:15:44.15,Dialogue,,0,0,0,,I've never seen that bottle, honestly!
+Dialogue: 0,0:15:44.36,0:15:45.69,Dialogue,,0,0,0,,Please believe me!!
+Dialogue: 0,0:15:54.53,0:15:56.30,Dialogue,,0,0,0,,Please wait. Inspector!
+Dialogue: 0,0:15:56.57,0:15:57.17,Dialogue,,0,0,0,,Huh
+Dialogue: 0,0:15:57.33,0:15:58.94,Dialogue,,0,0,0,,What is it... Mr. Mourn...
+Dialogue: 0,0:15:58.97,0:16:00.17,Dialogue,,0,0,0,,Inspector!!
+Dialogue: 0,0:16:00.37,0:16:02.27,Dialogue,,0,0,0,,Hey. that pose...?!
+Dialogue: 0,0:16:02.61,0:16:04.84,Dialogue,,0,0,0,,It's... the Sleeping Kogor
+Dialogue: 0,0:16:05.21,0:16:07.44,Dialogue,,0,0,0,,I've figured out who the real killer is,
+Dialogue: 0,0:16:07.61,0:16:07.96,Dialogue,,0,0,0,,Inspector!!
+Dialogue: 0,0:16:08.88,0:16:10.55,Dialogue,,0,0,0,,Real killer...?!
+Dialogue: 0,0:16:10.58,0:16:12.80,Dialogue,,0,0,0,,He's not the one?
+Dialogue: 0,0:16:13.00,0:16:14.85,Dialogue,,0,0,0,,Are you saying that it's her?
+Dialogue: 0,0:16:14.89,0:16:15.15,Dialogue,,0,0,0,,Who? I didn't...
+Dialogue: 0,0:16:15.42,0:16:16.59,Dialogue,,0,0,0,,Who? I didn't...
+Dialogue: 0,0:16:16.62,0:16:18.96,Dialogue,,0,0,0,,No! It's not her.
+Dialogue: 0,0:16:19.42,0:16:20.66,Dialogue,,0,0,0,,Then, is it Mr. Togashi?!
+Dialogue: 0,0:16:20.99,0:16:24.19,Dialogue,,0,0,0,,But I thought you said\Nhe didn't have the{\rHonorifics - Dialogue} chan{\r}ce
+Dialogue: 0,0:16:24.36,0:16:26.60,Dialogue,,0,0,0,,to insert the poison just\Na while ago. didn't you...? Dad...
+Dialogue: 0,0:16:27.67,0:16:30.37,Dialogue,,0,0,0,,The poison was not inserted\Nafterwards but rather,
+Dialogue: 0,0:16:30.67,0:16:33.20,Dialogue,,0,0,0,,was in the glass to begin with!
+Dialogue: 0,0:16:33.40,0:16:34.87,Dialogue,,0,0,0,,Cut it out.
+Dialogue: 0,0:16:35.01,0:16:38.41,Dialogue,,0,0,0,,I drank out of the cup myself, but I'm alive\Nand kicking as you can see for yourself!
+Dialogue: 0,0:16:38.61,0:16:40.88,Dialogue,,0,0,0,,That's just it, Mr. Togashi!
+Dialogue: 0,0:16:41.15,0:16:44.98,Dialogue,,0,0,0,,That's the very reason why\NI was suspicious of you to start with...
+Dialogue: 0,0:16:45.15,0:16:45.75,Dialogue,,0,0,0,,What?!
+Dialogue: 0,0:16:46.55,0:16:48.55,Dialogue,,0,0,0,,When someone who\Ndrank the same wine
+Dialogue: 0,0:16:48.62,0:16:50.79,Dialogue,,0,0,0,,as you starts to suffer in agony
+Dialogue: 0,0:16:50.92,0:16:53.36,Dialogue,,0,0,0,,even if you didn't drink the poison,
+Dialogue: 0,0:16:53.36,0:16:55.43,Dialogue,,0,0,0,,you would be worried nonetheless...
+Dialogue: 0,0:16:55.43,0:16:57.99,Dialogue,,0,0,0,,and get sick for real.
+Dialogue: 0,0:16:58.53,0:16:59.53,Dialogue,,0,0,0,,I see...
+Dialogue: 0,0:16:59.53,0:17:01.63,Dialogue,,0,0,0,,Come to think of it. that's true...
+Dialogue: 0,0:17:01.77,0:17:04.43,Dialogue,,0,0,0,,But. you acted differently!
+Dialogue: 0,0:17:04.77,0:17:07.24,Dialogue,,0,0,0,,Ms. Sawaguchi drank the poison and
+Dialogue: 0,0:17:07.24,0:17:10.07,Dialogue,,0,0,0,,collapsed right before\Nyour eyes, yet you...
+Dialogue: 0,0:17:11.71,0:17:14.11,Dialogue,,0,0,0,,No. I'm fine.
+Dialogue: 0,0:17:14.45,0:17:19.60,Dialogue,,0,0,0,,Al '/\NYou were completely sure that\Nyou didn't drink the poison...
+Dialogue: 0,0:17:20.15,0:17:21.22,Dialogue,,0,0,0,,Why? Because you're the one
+Dialogue: 0,0:17:21.55,0:17:23.29,Dialogue,,0,0,0,,who used a trick
+Dialogue: 0,0:17:23.39,0:17:27.99,Dialogue,,0,0,0,,to poison Ms. Sawaguchi
+Dialogue: 0,0:17:28.16,0:17:29.43,Dialogue,,0,0,0,,So. there's no mistake about it.
+Dialogue: 0,0:17:29.43,0:17:30.46,Dialogue,,0,0,0,,Mr. Togashi!
+Dialogue: 0,0:17:33.26,0:17:35.00,Dialogue,,0,0,0,,- - Cut out the gibberish!!
+Dialogue: 0,0:17:35.53,0:17:37.60,Dialogue,,0,0,0,,If the poison was in there to begin with
+Dialogue: 0,0:17:37.70,0:17:39.77,Dialogue,,0,0,0,,I would've been poisoned too.
+Dialogue: 0,0:17:40.37,0:17:41.77,Dialogue,,0,0,0,,Right. Yuki?!
+Dialogue: 0,0:17:44.58,0:17:46.24,Dialogue,,0,0,0,,Just a while ago Conan found
+Dialogue: 0,0:17:46.38,0:17:52.62,Dialogue,,0,0,0,,one empty container of gum syrup\Nfrom the basket in the kitchen...
+Dialogue: 0,0:17:53.12,0:17:53.95,Dialogue,,0,0,0,,The thing is
+Dialogue: 0,0:17:54.02,0:17:56.75,Dialogue,,0,0,0,,the murder is possible\Nif gum syrup is used
+Dialogue: 0,0:17:56.99,0:17:59.16,Dialogue,,0,0,0,,Even if the poisoned wine\Nwere to be drunk...
+Dialogue: 0,0:17:59.49,0:18:03.53,Dialogue,,0,0,0,,The first sip can be drunk\Nwithout drinking the poison!
+Dialogue: 0,0:18:04.19,0:18:06.46,Dialogue,,0,0,0,,Is that true. Mr. Mouri?!
+Dialogue: 0,0:18:06.73,0:18:07.41,Dialogue,,0,0,0,,Yes...
+Dialogue: 0,0:18:07.53,0:18:10.50,Dialogue,,0,0,0,,First gum syrup is put into the glass
+Dialogue: 0,0:18:10.57,0:18:14.44,Dialogue,,0,0,0,,then the poison. and the liquid is stirred.
+Dialogue: 0,0:18:14.67,0:18:19.38,Dialogue,,0,0,0,,Ac en, None oo Ye Ive g asses 1a\NMr. Togashi brought from the kitchen
+Dialogue: 0,0:18:19.51,0:18:23.15,Dialogue,,0,0,0,,gum syrup was inside!
+Dialogue: 0,0:18:23.55,0:18:27.52,Dialogue,,0,0,0,,The bottom part of\Nthat glass was colored...
+Dialogue: 0,0:18:27.65,0:18:31.32,Dialogue,,0,0,0,,Therefore, there was\Nno worry of anyone noticing it.
+Dialogue: 0,0:18:32.69,0:18:33.86,Dialogue,,0,0,0,,I see...
+Dialogue: 0,0:18:34.09,0:18:38.03,Dialogue,,0,0,0,,Moreover, he poured the wine in slowly.
+Dialogue: 0,0:18:38.13,0:18:41.73,Dialogue,,0,0,0,,Even if you pour wine over the gum syrup\Nwhich is heavier than the wine,
+Dialogue: 0,0:18:41.90,0:18:45.00,Dialogue,,0,0,0,,they won't mix and the wine\Nstays on top of the gum syrup.
+Dialogue: 0,0:18:45.04,0:18:48.29,Dialogue,,0,0,0,,In other words, the poison\Nwon't mix with the wine!
+Dialogue: 0,0:18:48.71,0:18:49.91,Dialogue,,0,0,0,,See...
+Dialogue: 0,0:18:50.41,0:18:53.09,Dialogue,,0,0,0,,It's the same principle as
+Dialogue: 0,0:18:53.13,0:18:56.18,Dialogue,,0,0,0,,when you put gum syrup into iced coffee\Nand it sinks to-the bottom of the cup.
+Dialogue: 0,0:18:56.41,0:18:58.25,Dialogue,,0,0,0,,Then after the toast.
+Dialogue: 0,0:18:58.58,0:19:01.52,Dialogue,,0,0,0,,Mr. Togashi drank the wine\Nfor everyone to see...
+Dialogue: 0,0:19:01.52,0:19:05.92,Dialogue,,0,0,0,,After which he deliberately tipped\Nover Ms. Sawaguchi's wine glass.
+Dialogue: 0,0:19:06.02,0:19:08.76,Dialogue,,0,0,0,,By giving her his own glass
+Dialogue: 0,0:19:08.93,0:19:13.20,Dialogue,,0,0,0,,He made her drink the poison that\Nwas at the bottom of the glass cup...
+Dialogue: 0,0:19:13.46,0:19:14.30,Dialogue,,0,0,0,,Togas!
+Dialogue: 0,0:19:15.80,0:19:17.70,Dialogue,,0,0,0,,No. it's not me!
+Dialogue: 0,0:19:17.87,0:19:19.47,Dialogue,,0,0,0,,Mr. Mourn
+Dialogue: 0,0:19:19.57,0:19:21.24,Dialogue,,0,0,0,,all you just said is based\Nonly on assumption!
+Dialogue: 0,0:19:21.51,0:19:24.27,Dialogue,,0,0,0,,Do you have any proof that I did wt?!
+Dialogue: 0,0:19:24.41,0:19:26.88,Dialogue,,0,0,0,,Did you get the fingerprints\NI asked you for,
+Dialogue: 0,0:19:26.98,0:19:27.64,Dialogue,,0,0,0,,Officer Tome?
+Dialogue: 0,0:19:28.05,0:19:28.68,Dialogue,,0,0,0,,Yes...
+Dialogue: 0,0:19:29.28,0:19:33.05,Dialogue,,0,0,0,,There were no fingerprints\Non the sides of the bottle...
+Dialogue: 0,0:19:33.28,0:19:38.29,Dialogue,,0,0,0,,But, Conan's fingerprints were\Nfound on the bottom of the bottle.
+Dialogue: 0,0:19:38.32,0:19:39.19,Dialogue,,0,0,0,,What?!
+Dialogue: 0,0:19:39.72,0:19:41.46,Dialogue,,0,0,0,,Before the party started.
+Dialogue: 0,0:19:41.49,0:19:45.29,Dialogue,,0,0,0,,I goofed and turned your bag\Nupside down, Mr. Togashi...
+Dialogue: 0,0:19:45.70,0:19:46.53,Dialogue,,0,0,0,,And at that time.
+Dialogue: 0,0:19:46.56,0:19:49.20,Dialogue,,0,0,0,,A bottle just like that one came rolling out
+Dialogue: 0,0:19:49.33,0:19:51.27,Dialogue,,0,0,0,,so I put it right back into the bag...
+Dialogue: 0,0:19:52.17,0:19:54.37,Dialogue,,0,0,0,,Like this. so it wouldn't drop.
+Dialogue: 0,0:19:54.81,0:19:55.34,Dialogue,,0,0,0,,Huh?
+Dialogue: 0,0:19:55.57,0:19:56.64,Dialogue,,0,0,0,,But, it's strange...
+Dialogue: 0,0:19:56.91,0:19:59.61,Dialogue,,0,0,0,,I put it back inside Mr. Togashi's bag and
+Dialogue: 0,0:19:59.61,0:20:02.61,Dialogue,,0,0,0,,yet. why is it in Mr. Nonaka's bag...
+Dialogue: 0,0:20:05.11,0:20:06.98,Dialogue,,0,0,0,,Conan. thank you!
+Dialogue: 0,0:20:07.35,0:20:08.42,Dialogue,,0,0,0,,There's nothing strange about it.
+Dialogue: 0,0:20:08.49,0:20:09.85,Dialogue,,0,0,0,,Huh. why not?!...
+Dialogue: 0,0:20:10.15,0:20:14.06,Dialogue,,0,0,0,,Because he sneakedgthat\Nbottle into Mr. Nonaka's bag!!
+Dialogue: 0,0:20:16.36,0:20:18.19,Dialogue,,0,0,0,,That's right. isn't it. Mr. Togashi!
+Dialogue: 0,0:20:20.33,0:20:21.16,Dialogue,,0,0,0,,Mr. Togashi
+Dialogue: 0,0:20:21.47,0:20:28.10,Dialogue,,0,0,0,,you must've worked very carefully\Nnot to leave your fingerprints behind...
+Dialogue: 0,0:20:28.31,0:20:32.54,Dialogue,,0,0,0,,That's why you didn't bother to\Nwipe of off the fingerprints at the end
+Dialogue: 0,0:20:38.08,0:20:41.35,Dialogue,,0,0,0,,I used to go with Keiko 2 years ago.
+Dialogue: 0,0:20:41.89,0:20:44.05,Dialogue,,0,0,0,,During that time she kept on
+Dialogue: 0,0:20:44.19,0:20:46.86,Dialogue,,0,0,0,,asking me to get her expensive presents...
+Dialogue: 0,0:20:47.32,0:20:49.63,Dialogue,,0,0,0,,Kept giving her stuff despite\Nhaving to go into debts...
+Dialogue: 0,0:20:50.39,0:20:52.16,Dialogue,,0,0,0,,Then. in the end
+Dialogue: 0,0:20:52.36,0:20:54.06,Dialogue,,0,0,0,,she. had the nerve) to; switch,\Nover to Nonaka. that broad...!
+Dialogue: 0,0:20:54.70,0:20:58.47,Dialogue,,0,0,0,,She dumped me as if I were\Nworn out rag or something...
+Dialogue: 0,0:20:59.40,0:21:03.31,Dialogue,,0,0,0,,I've been waiting for today!!
+Dialogue: 0,0:21:03.64,0:21:06.71,Dialogue,,0,0,0,,Her 20th birthday...
+Dialogue: 0,0:21:07.31,0:21:10.98,Dialogue,,0,0,0,,I planned it out carefully to poison Keiko...
+Dialogue: 0,0:21:11.35,0:21:17.29,Dialogue,,0,0,0,,and then schemed to frame you,\NNonaka. up as the killer...
+Dialogue: 0,0:21:28.36,0:21:31.97,Dialogue,,0,0,0,,Original Comic Books By\NGOSHO AOYAMA
+Dialogue: 0,0:21:34.30,0:21:37.97,Dialogue,,0,0,0,,Producers\NMICHIHIKO_SUWA\NMASAHITO YO -HIOKA
+Dialogue: 0,0:21:40.31,0:21:43.98,Dialogue,,0,0,0,,Background Music\NKATSUO ONO
+Dialogue: 0,0:21:46.35,0:21:49.99,Dialogue,,0,0,0,,Character Designs By.\NMASATOMO SUDO
+Dialogue: 0,0:21:52.36,0:21:55.99,Dialogue,,0,0,0,,Story Editor.\NJUNICHI I1OKA
+Dialogue: 0,0:21:58.33,0:22:02.03,Dialogue,,0,0,0,,Scripts By.\NKAN]! KASHIWABARA\NKAZUNARI KOUCHI\NJUNICHI MIYASHITA\NCHI HIG\NTOSHIKI INOUE
+Dialogue: 0,0:22:04.33,0:22:08.00,Dialogue,,0,0,0,,Animation Directors.\NMASATOMO SUDO\NHIROTOSHI TAKATANI\NVB DYUDNITTT /VUJINU)\NAKIO KAWAMURA\NTAKASHI HYODO
+Dialogue: 0,0:22:10.44,0:22:14.04,Dialogue,,0,0,0,,Art Director\NYUKIHIRO SHIBUTANI
+Dialogue: 0,0:22:16.38,0:22:20.02,Dialogue,,0,0,0,,Directors Of Photography.\NTAKASHI NOMURA\NHIRONOBU HORIKOSHI\NTAKAHISA OWAGA
+Dialogue: 0,0:22:22.42,0:22:26.02,Dialogue,,0,0,0,,Recording Director\NKATSUYOSHI KOBAYASHI
+Dialogue: 0,0:22:28.36,0:22:32.06,Dialogue,,0,0,0,,Editor\NTERUMITSU OKADA
+Dialogue: 0,0:22:34.46,0:22:38.00,Dialogue,,0,0,0,,Chief-Director.\NKENJIJKODAMA
+Dialogue: 0,0:22:40.44,0:22:44.04,Dialogue,,0,0,0,,Produced By.\NTMS ENTERTAINMENT; Tn)\Narr 1ssocrirtion with\NYOMIURI TELECASTINC\NCORPORATION
+Dialogue: 0,0:22:46.41,0:22:52.62,Dialogue,,0,0,0,,DETECTIVE CONAN\NCONTHO AOYAMA SHOGARUK AN YIV 1 YS\NAll Ris:! Reserved
+Dialogue: 0,0:22:53.78,0:22:55.79,Dialogue,,0,0,0,,Oh. right'! I almost forgot.
+Dialogue: 0,0:22:56.12,0:22:57.09,Dialogue,,0,0,0,,Dad!!!
+Dialogue: 0,0:22:57.75,0:23:00.76,Dialogue,,0,0,0,,Sonoko came back from\NGermany yesterday and
+Dialogue: 0,0:23:00.92,0:23:03.39,Dialogue,,0,0,0,,she brought a bottle of wine as a souvenir!\NWould you like'to drink it?
+Dialogue: 0,0:23:03.86,0:23:05.21,Dialogue,,0,0,0,,Wine...
+Dialogue: 0,0:23:05.93,0:23:07.86,Dialogue,,0,0,0,,Sure!!!
+Dialogue: 0,0:23:13.30,0:23:13.90,Dialogue,,0,0,0,,Huh?!
+Dialogue: 0,0:23:14.17,0:23:16.94,Dialogue,,0,0,0,,It sure is . good!
+Dialogue: 0,0:23:18.64,0:23:22.24,Dialogue,,0,0,0,,I'm so lucky that it tastes just like\Nthe one we had last week...
+Dialogue: 0,0:23:22.38,0:23:23.18,Dialogue,,0,0,0,,Ran!
+Dialogue: 0,0:23:23.28,0:23:23.81,Dialogue,,0,0,0,,AN pt\NWhat?!
+Dialogue: 0,0:23:26.62,0:23:27.55,Dialogue,,0,0,0,,Oh. you-re right!!
+Dialogue: 0,0:23:28.52,0:23:32.32,Dialogue,,0,0,0,,Well... expensive things\Nsure suit my taste buds...
+Dialogue: 0,0:23:33.52,0:23:36.53,Dialogue,,0,0,0,,I made a mistake and gave you\Nthe cheap wine I got at a shop nearby!
+Dialogue: 0,0:23:38.96,0:23:40.26,Dialogue,,0,0,0,,Cheers!!!
+Dialogue: 0,0:23:40.40,0:23:42.30,Dialogue,,0,0,0,,Who cares. since he seems\Nto be enjoying himself!
+Dialogue: 0,0:23:43.57,0:23:49.04,Dialogue,,0,0,0,,Cheap stuff is just the thing\Nfor Pops' taste buds...
+Dialogue: 0,0:23:56.71,0:23:59.48,Dialogue,,0,0,0,,Then, when you passed here about 7:00.
+Dialogue: 0,0:23:59.52,0:24:02.22,Dialogue,,0,0,0,,There was nobody lying on the road?
+Dialogue: 0,0:24:02.49,0:24:03.62,Dialogue,,0,0,0,,A bicycle...?
+Dialogue: 0,0:24:04.15,0:24:05.19,Dialogue,,0,0,0,,This is...
+Dialogue: 0,0:24:06.32,0:24:08.36,Dialogue,,0,0,0,,Let's go see the place where
+Dialogue: 0,0:24:08.36,0:24:11.43,Dialogue,,0,0,0,,you all say you were\Nwatching the fireworks!
+Dialogue: 0,0:24:11.63,0:24:14.93,Dialogue,,0,0,0,,There are bicycle wheel traces\Nnear the broken fence...
+Dialogue: 0,0:24:15.53,0:24:21.07,Dialogue,,0,0,0,,Friendship Tom. Apart Part 4

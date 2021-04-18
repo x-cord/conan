@@ -1,0 +1,397 @@
+[Script Info]
+Title: Detective Conan - 0303
+TL Source: UTB
+ScriptType: v4.00+
+WrapStyle: 3
+PlayResX: 1440
+PlayResY: 1080
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Dialogue,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00401311,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Dialogue Top,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00401311,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,8,30,30,55,1
+Style: Signs,FrancophilSans,74,&H14FFFFFF,&H00FFFFFF,&H46101010,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,8,30,30,55,1
+Style: Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,0,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Radio,FrancophilSans,74,&H00BEE1FF,&H00FFFFFF,&H000B2A42,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Narration,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00BF6F00,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Narration Off,FrancophilSans,74,&H6E8C6F00,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,0,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Flashback,FrancophilSans,74,&H00CDFAFF,&H00FFFFFF,&H00373737,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Flashback Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00CCFFFF,&HC0313134,-1,0,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Honorifics - Dialogue,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00401311,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Signs,FrancophilSans,74,&H14FFFFFF,&H00FFFFFF,&H46101010,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,-1,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Honorifics - Radio,FrancophilSans,74,&H00BEE1FF,&H00FFFFFF,&H000B2A42,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Narration,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00BF6F00,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Narration Off,FrancophilSans,74,&H6E8C6F00,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,-1,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Honorifics - Flashback,FrancophilSans,74,&H00CDFAFF,&H00FFFFFF,&H00373737,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Flashback Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00CCFFFF,&HC0313134,-1,-1,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Masks,FrancophilSans,74,&H00000000,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,2,0,0,0,1
+Style: Title,Conan Episode Title,74,&H00E1E4E3,&H000000FF,&HC8DBDAE1,&HC0000000,-1,0,0,0,100,100,0,0,1,1,0,5,0,0,0,1
+Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-1,0,0,0,100,100,0,0,1,0,0,2,0,0,65,1
+Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
+Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
+Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.40,0:00:04.13,Dialogue,,0,0,0,,The distance between love and hate is\Nfilled as the two solve mysteries together.
+Dialogue: 0,0:00:04.13,0:00:05.83,Dialogue,,0,0,0,,Is there such case?
+Dialogue: 0,0:00:05.83,0:00:07.57,Dialogue,,0,0,0,,You can't recycle crime!
+Dialogue: 0,0:00:07.80,0:00:09.44,Dialogue,,0,0,0,,He sees through the one\Nand only truth.
+Dialogue: 0,0:00:09.44,0:00:11.31,Dialogue,,0,0,0,,Axchild in appearance\Nwith the l.Q. of an adult
+Dialogue: 0,0:00:11.31,0:00:13.51,Dialogue,,0,0,0,,no case is left unsolved\Nwith Detective Conan.
+Dialogue: 0,0:01:48.00,0:01:55.88,Dialogue,,0,0,0,,On that day, we set off to Akebonocho\Nin order to arrest a serial thief
+Dialogue: 0,0:01:56.71,0:01:59.71,Dialogue,,0,0,0,,@onan, let¢s catch the thief no\Nmatter wat it takes, okay!
+Dialogue: 0,0:01:59.85,0:02:01.72,Dialogue,,0,0,0,,Y.Yeah
+Dialogue: 0,0:02:01.72,0:02:03.12,Dialogue,,0,0,0,,But.
+Dialogue: 0,0:02:03.12,0:02:05.79,Dialogue,,0,0,0,,Doesn't it feel A bit eerie?
+Dialogue: 0,0:02:05.79,0:02:09.39,Dialogue,,0,0,0,,To have other people take\Nover and use what can still be used
+Dialogue: 0,0:02:09.52,0:02:14.33,Dialogue,,0,0,0,,cherishing what limited resources we\Nhave. I'd say it's a splendid arrangement.
+Dialogue: 0,0:02:15.46,0:02:17.70,Dialogue,,0,0,0,,Oh, you mean recycling.
+Dialogue: 0,0:02:18.07,0:02:22.84,Dialogue,,0,0,0,,But, you don't know who the stuff was\Nbeing used by previously, you know.
+Dialogue: 0,0:02:22.84,0:02:23.84,Dialogue,,0,0,0,,Right, Conan?
+Dialogue: 0,0:02:23.84,0:02:25.24,Dialogue,,0,0,0,,No need for worry.
+Dialogue: 0,0:02:25.24,0:02:29.81,Dialogue,,0,0,0,,Because there is nobody who rubs snot\Non everything like you do, Genta.
+Dialogue: 0,0:02:30.21,0:02:33.05,Dialogue,,0,0,0,,You really do, Genta?
+Dialogue: 0,0:02:33.05,0:02:35.62,Dialogue,,0,0,0,,Y.You rat!\NWhat a thing to say!
+Dialogue: 0,0:02:36.02,0:02:38.19,Dialogue,,0,0,0,,< O Tu\NStop it, don't touch 'me!
+Dialogue: 0,0:02:38.99,0:02:41.76,Dialogue,,0,0,0,,Oh, there's the bus\Nheaded for Akebonocho
+Dialogue: 0,0:02:41.76,0:02:43.16,Dialogue,,0,0,0,,On, right!
+Dialogue: 0,0:02:47.50,0:02:53.30,Dialogue,,0,0,0,,The Victim Returns
+Dialogue: 0,0:03:01.01,0:03:02.54,Dialogue,,0,0,0,,It sure is quiet...
+Dialogue: 0,0:03:02.54,0:03:03.74,Dialogue,,0,0,0,,Th 7&'s nobody in sight...
+Dialogue: 0,0:03:03.75,0:03:07.15,Dialogue,,0,0,0,,Maybe that's why\Nthe thief targets this area
+Dialogue: 0,0:03:07.18,0:03:10.38,Dialogue,,0,0,0,,If you see any suspicious\NIooking people. be careful
+Dialogue: 0,0:03:10.82,0:03:13.69,Dialogue,,0,0,0,,Ah gee. what the heck am I doing...
+Dialogue: 0,0:03:17.96,0:03:19.63,Dialogue,,0,0,0,,Is it that room!
+Dialogue: 0,0:03:20.63,0:03:22.56,Dialogue,,0,0,0,,Wait up. Conan!
+Dialogue: 0,0:03:25.10,0:03:26.37,Dialogue,,0,0,0,,What's going on?
+Dialogue: 0,0:03:29.47,0:03:30.50,Dialogue,,0,0,0,,Excuse me!
+Dialogue: 0,0:03:31.61,0:03:32.94,Dialogue,,0,0,0,,Is it okay conan?
+Dialogue: 0,0:03:44.59,0:03:46.45,Dialogue,,0,0,0,,This
+Dialogue: 0,0:03:52.36,0:03:53.43,Dialogue,,0,0,0,,The cause of death is\Ncerebral contusion from
+Dialogue: 0,0:03:53.43,0:03:56.26,Dialogue,,0,0,0,,being hit in the back of his\Nhead with a blunt object.
+Dialogue: 0,0:03:56.73,0:04:01.24,Dialogue,,0,0,0,,The estimated time of death is between\N2:00 pm to 3-004 yesterday.
+Dialogue: 0,0:04:01.54,0:04:06.04,Dialogue,,0,0,0,,He had nothing on him that\Nwould help us identify him
+Dialogue: 0,0:04:07.61,0:04:08.78,Dialogue,,0,0,0,,Ms. HOsSONO...
+Dialogue: 0,0:04:08.78,0:04:12.75,Dialogue,,0,0,0,,willyyou please explain in detail the\Ncondition in which you found the corpse.
+Dialogue: 0,0:04:12.95,0:04:13.88,Dialogue,,0,0,0,,Yes, sir...
+Dialogue: 0,0:04:14.28,0:04:21.09,Dialogue,,0,0,0,,That sofa, is what I bought yesterday at\Nsundown at a recycle shop at Beikacho.
+Dialogue: 0,0:04:22.39,0:04:25.89,Dialogue,,0,0,0,,And I had it delivered here\Nat about 10:00 this morning.
+Dialogue: 0,0:04:26.73,0:04:30.53,Dialogue,,0,0,0,,By the way, after taking a good look,\Nthe sheet was a little out of place
+Dialogue: 0,0:04:30.53,0:04:32.17,Dialogue,,0,0,0,,so I attempted to put it back in place...
+Dialogue: 0,0:04:42.34,0:04:44.15,Dialogue,,0,0,0,,I found that lady inside the sofa...
+Dialogue: 0,0:04:44.75,0:04:49.28,Dialogue,,0,0,0,,I see, and do you\Nhave any idea who the victim is?
+Dialogue: 0,0:04:49.82,0:04:51.12,Dialogue,,0,0,0,,Not at all...
+Dialogue: 0,0:04:51.19,0:04:54.86,Dialogue,,0,0,0,,Where were you yesterday betweenl\Nthe hours of 14:00 and 15.007?
+Dialogue: 0,0:04:55.56,0:04:58.09,Dialogue,,0,0,0,,A. Are you suspecting me?
+Dialogue: 0,0:04:58.46,0:05:02.13,Dialogue,,0,0,0,,No. no. it's just routine\Nprocedure to ask
+Dialogue: 0,0:05:02.43,0:05:05.37,Dialogue,,0,0,0,,I was at the movies\Nyesterday afternoon!
+Dialogue: 0,0:05:05.37,0:05:07.43,Dialogue,,0,0,0,,Was somebody else with you?
+Dialogue: 0,0:05:07.77,0:05:09.10,Dialogue,,0,0,0,,I went alone...
+Dialogue: 0,0:05:09.47,0:05:12.87,Dialogue,,0,0,0,,I wonder if Inspector\NMegure suspects her.
+Dialogue: 0,0:05:13.14,0:05:14.01,Dialogue,,0,0,0,,Yeah...
+Dialogue: 0,0:05:17.51,0:05:19.78,Dialogue,,0,0,0,,There are two things\Nthat-are~thinkable.
+Dialogue: 0,0:05:19.78,0:05:22.88,Dialogue,,0,0,0,,Ms. Sanae Hosono\Nkilled the victim and
+Dialogue: 0,0:05:22.88,0:05:27.82,Dialogue,,0,0,0,,made it look like the corpse was inside\Nthe sofa that was delivered.
+Dialogue: 0,0:05:27.82,0:05:32.53,Dialogue,,0,0,0,,The other is, a sofa with the corpse\Ninside it is delivered just like she said
+Dialogue: 0,0:05:32.66,0:05:38.40,Dialogue,,0,0,0,,But when:we over there she\Nreally looked.surprised and pale!
+Dialogue: 0,0:05:38.40,0:05:41.80,Dialogue,,0,0,0,,It didn't look like she was\Nputting on an act at all!
+Dialogue: 0,0:05:42.14,0:05:43.34,Dialogue,,0,0,0,,Right.
+Dialogue: 0,0:05:43.34,0:05:44.27,Dialogue,,0,0,0,,Yeah.
+Dialogue: 0,0:05:44.54,0:05:48.78,Dialogue,,0,0,0,,It's the job of the police\Nto consider all possibilities.
+Dialogue: 0,0:05:48.91,0:05:49.98,Dialogue,,0,0,0,,But .
+Dialogue: 0,0:05:54.82,0:05:59.85,Dialogue,,0,0,0,,Inspector. the old lady's\Nashoes werelalso inside the sofa
+Dialogue: 0,0:06:00.16,0:06:03.06,Dialogue,,0,0,0,,I wonder why she\Nwashst wearing her shoes?
+Dialogue: 0,0:06:04.43,0:06:08.00,Dialogue,,0,0,0,,When she was killed. she was\Nprobably not wearing her shoes.
+Dialogue: 0,0:06:08.53,0:06:12.93,Dialogue,,0,0,0,,I see! Which means\Nshe was killed in the room.
+Dialogue: 0,0:06:13.10,0:06:16.50,Dialogue,,0,0,0,,If she is the killer,\Nthe site of the crime is in this room
+Dialogue: 0,0:06:16.67,0:06:19.04,Dialogue,,0,0,0,,Officer Takagi go\Nand question the neighborhood!
+Dialogue: 0,0:06:19.04,0:06:19.67,Dialogue,,0,0,0,,YES'; SM
+Dialogue: 0,0:06:25.18,0:06:26.08,Dialogue,,0,0,0,,Inspector...
+Dialogue: 0,0:06:29.85,0:06:32.39,Dialogue,,0,0,0,,What. the room next door?
+Dialogue: 0,0:06:32.95,0:06:35.19,Dialogue,,0,0,0,,Excuse me, may I ask your name?
+Dialogue: 0,0:06:35.19,0:06:37.49,Dialogue,,0,0,0,,1. Tokunaga...
+Dialogue: 0,0:06:37.86,0:06:39.46,Dialogue,,0,0,0,,Did something happen?
+Dialogue: 0,0:06:39.69,0:06:42.76,Dialogue,,0,0,0,,Well, at your next door\Nneighbor, Ms Hosono's room
+Dialogue: 0,0:06:42.76,0:06:45.40,Dialogue,,0,0,0,,a corpse was found in the sofa.
+Dialogue: 0,0:06:45.40,0:06:46.30,Dialogue,,0,0,0,,What?
+Dialogue: 0,0:06:46.97,0:06:51.31,Dialogue,,0,0,0,,And, Mr. Tokunaga,\Nwere, ou in your room
+Dialogue: 0,0:06:51.31,0:06:52.91,Dialogue,,0,0,0,,between the hours\Nof 14:001015:00 yesterday?
+Dialogue: 0,0:06:54.84,0:06:56.81,Dialogue,,0,0,0,,I-work in the evening...
+Dialogue: 0,0:06:57.51,0:07:03.25,Dialogue,,0,0,0,,Around 15:00 did you hear any strange\Nsounds or voices from next door?
+Dialogue: 0,0:07:05.25,0:07:07.39,Dialogue,,0,0,0,,Please try to remember.
+Dialogue: 0,0:07:08.52,0:07:13.29,Dialogue,,0,0,0,,C.Come to think of it,\NI sort of heard somebody arguing
+Dialogue: 0,0:07:14.43,0:07:15.80,Dialogue,,0,0,0,,You heard somebody arguing?
+Dialogue: 0,0:07:16.26,0:07:17.36,Dialogue,,0,0,0,,Y. Yes...
+Dialogue: 0,0:07:18.43,0:07:20.30,Dialogue,,0,0,0,,And, what was the argument about?
+Dialogue: 0,0:07:21.17,0:07:24.84,Dialogue,,0,0,0,,And. what was\Nthe argument about?
+Dialogue: 0,0:07:25.47,0:07:28.28,Dialogue,,0,0,0,,Oh, all right, thank you.
+Dialogue: 0,0:07:28.48,0:07:31.38,Dialogue,,0,0,0,,I think I'll be asking you\Nabout it againilater
+Dialogue: 0,0:07:31.38,0:07:31.95,Dialogue,,0,0,0,,Yes, sir.4
+Dialogue: 0,0:07:38.95,0:07:42.12,Dialogue,,0,0,0,,I wonder if what?he said\Njust now, is true...
+Dialogue: 0,0:07:42.49,0:07:45.03,Dialogue,,0,0,0,,It's sort of hard to believe, isn't it?
+Dialogue: 0,0:07:45.76,0:07:50.30,Dialogue,,0,0,0,,The thing about her going\Nto the movies seems to be a lie
+Dialogue: 0,0:07:50.97,0:07:52.43,Dialogue,,0,0,0,,Inspector...
+Dialogue: 0,0:07:52.60,0:07:53.77,Dialogue,,0,0,0,,What is it?
+Dialogue: 0,0:07:54.24,0:07:57.30,Dialogue,,0,0,0,,I would like to go ask\Naround the recycle shop.
+Dialogue: 0,0:07:58.81,0:08:01.91,Dialogue,,0,0,0,,I got curious on what the\Nchildren was talking about
+Dialogue: 0,0:08:02.81,0:08:03.88,Dialogue,,0,0,0,,Officer Takagi
+Dialogue: 0,0:08:04.68,0:08:08.12,Dialogue,,0,0,0,,Okay,\NYeah, please do so then.
+Dialogue: 0,0:08:08.32,0:08:09.25,Dialogue,,0,0,0,,Yes. sir!
+Dialogue: 0,0:08:10.92,0:08:13.09,Dialogue,,0,0,0,,Oh. that se>fa...
+Dialogue: 0,0:08:13.56,0:08:16.99,Dialogue,,0,0,0,,It's an item that we bought\Nfrom a customer yesterday.
+Dialogue: 0,0:08:16.99,0:08:18.53,Dialogue,,0,0,0,,Yesterday?
+Dialogue: 0,0:08:19.03,0:08:21.80,Dialogue,,0,0,0,,You mean you bought it and\Nput it out for sale right away?
+Dialogue: 0,0:08:22.16,0:08:26.33,Dialogue,,0,0,0,,Yes, we put the items that we\Npurchase out for sale right 3 ay.
+Dialogue: 0,0:08:26.47,0:08:32.14,Dialogue,,0,0,0,,That way, we can sell the\Nitem for a cheaper price
+Dialogue: 0,0:08:32.51,0:08:34.94,Dialogue,,0,0,0,,What about after\NMs. Hosono bought it?
+Dialogue: 0,0:08:35.61,0:08:38.18,Dialogue,,0,0,0,,It was here right through\Ntill closing time
+Dialogue: 0,0:08:38.18,0:08:42.22,Dialogue,,0,0,0,,Then it was loaded on\Nthe truck for delivery.
+Dialogue: 0,0:08:42.65,0:08:45.89,Dialogue,,0,0,0,,A oN °\NS ere any possiianity ra someone\Nfrom outside can get near the truck?
+Dialogue: 0,0:08:46.52,0:08:51.02,Dialogue,,0,0,0,,That's impossible because the truck\NIS parked inside the warehouse
+Dialogue: 0,0:08:51.36,0:08:53.99,Dialogue,,0,0,0,,And, of course, the\Nwarehouse is locked
+Dialogue: 0,0:08:54.40,0:08:55.83,Dialogue,,0,0,0,,Oh. is that so.
+Dialogue: 0,0:08:56.60,0:08:58.13,Dialogue,,0,0,0,,Which means...
+Dialogue: 0,0:08:58.47,0:09:03.77,Dialogue,,0,0,0,,That the old lady was in there\Nalready when it was purchased...
+Dialogue: 0,0:09:03.94,0:09:07.51,Dialogue,,0,0,0,,Does that mean that the previous\Nowner of that sofa is the killer
+Dialogue: 0,0:09:14.98,0:09:19.49,Dialogue,,0,0,0,,The fact is, that sofa is not something\Nthat we bought from a customer
+Dialogue: 0,0:09:19.49,0:09:20.12,Dialogue,,0,0,0,,What?
+Dialogue: 0,0:09:20.36,0:09:21.89,Dialogue,,0,0,0,,But, Mr. Hirose, I thought you said
+Dialogue: 0,0:09:21.89,0:09:26.66,Dialogue,,0,0,0,,that you were told to take the\Nsofa, even if it were for free
+Dialogue: 0,0:09:27.40,0:09:31.37,Dialogue,,0,0,0,,I'm sorry, yesterday\Nafternoon, on the way back
+Dialogue: 0,0:09:31.37,0:09:33.80,Dialogue,,0,0,0,,after I went to purchase items\Nin several places in town,
+Dialogue: 0,0:09:33.80,0:09:35.90,Dialogue,,0,0,0,,I think it was around 16:00...
+Dialogue: 0,0:09:44.11,0:09:46.18,Dialogue,,0,0,0,,What's the matter Mr. Hirose?
+Dialogue: 0,0:09:46.21,0:09:48.28,Dialogue,,0,0,0,,Look at that, what a waste...
+Dialogue: 0,0:09:48.75,0:09:50.72,Dialogue,,0,0,0,,It still looks very usable
+Dialogue: 0,0:09:51.45,0:09:53.42,Dialogue,,0,0,0,,You can say that again...
+Dialogue: 0,0:09:55.49,0:09:59.13,Dialogue,,0,0,0,,You picked it up at a trash dump\Nthat youlhappened to pass?
+Dialogue: 0,0:09:59.13,0:09:59.96,Dialogue,,0,0,0,,Right
+Dialogue: 0,0:10:01.70,0:10:04.50,Dialogue,,0,0,0,,But manager. I felt it so\Nwasteful to be thrown away
+Dialogue: 0,0:10:04.50,0:10:07.37,Dialogue,,0,0,0,,Iike that when it still\NIooked so usable, so I...
+Dialogue: 0,0:10:07.84,0:10:09.67,Dialogue,,0,0,0,,I'm sorry I lied...
+Dialogue: 0,0:10:09.94,0:10:14.27,Dialogue,,0,0,0,,Well, I do understand your\Nfeelings of wanting to cherish things.
+Dialogue: 0,0:10:14.44,0:10:17.88,Dialogue,,0,0,0,,But. if you picked it\Nup from a trash dump
+Dialogue: 0,0:10:18.91,0:10:21.82,Dialogue,,0,0,0,,We have no idea who the Killer is.
+Dialogue: 0,0:10:22.22,0:10:23.12,Dialogue,,0,0,0,,Right...
+Dialogue: 0,0:10:23.92,0:10:25.49,Dialogue,,0,0,0,,But, Officer Takagi.
+Dialogue: 0,0:10:25.49,0:10:26.19,Dialogue,,0,0,0,,Yea hr>
+Dialogue: 0,0:10:26.55,0:10:30.86,Dialogue,,0,0,0,,It's hard to think>that the Killer carried\Nthe corpse a long wayYisnt it?
+Dialogue: 0,0:10:31.63,0:10:32.89,Dialogue,,0,0,0,,Wait a minute...
+Dialogue: 0,0:10:33.19,0:10:36.20,Dialogue,,0,0,0,,Where is the trash dump that\Nyou picked that sofa up from?
+Dialogue: 0,0:10:36.93,0:10:38.70,Dialogue,,0,0,0,,If I'm not\mistaken. I think it was...
+Dialogue: 0,0:10:38.70,0:10:40.63,Dialogue,,0,0,0,,Akebonocho 3-chome
+Dialogue: 0,0:10:41.07,0:10:42.94,Dialogue,,0,0,0,,Akebonocho!
+Dialogue: 0,0:10:59.15,0:11:01.46,Dialogue,,0,0,0,,We're back-where we started...
+Dialogue: 0,0:11:02.96,0:11:04.59,Dialogue,,0,0,0,,In othe, words. that old lady
+Dialogue: 0,0:11:04.59,0:11:09.13,Dialogue,,0,0,0,,Yeah, left here about 16:00 yesterday,\Nand via the recycle shop.
+Dialogue: 0,0:11:09.13,0:11:15.80,Dialogue,,0,0,0,,Came back to the original place\Nabout 10:00 this morning.
+Dialogue: 0,0:11:16.37,0:11:19.61,Dialogue,,0,0,0,,I'm sure the killer is living\Nsomewhere near here
+Dialogue: 0,0:11:19.61,0:11:21.94,Dialogue,,0,0,0,,but howgdo we go\Nabout looking for the killer...
+Dialogue: 0,0:11:22.44,0:11:27.35,Dialogue,,0,0,0,,Besides, why did the killer put the\Nbody into a sofa in the trash dump?
+Dialogue: 0,0:11:27.35,0:11:29.48,Dialogue,,0,0,0,,Why else!
+Dialogue: 0,0:11:29.48,0:11:32.75,Dialogue,,0,0,0,,Right, the killer didn't\Nthink that anyone
+Dialogue: 0,0:11:32.75,0:11:35.22,Dialogue,,0,0,0,,would pick up a\Nsofa that was thrown away.
+Dialogue: 0,0:11:36.26,0:11:38.83,Dialogue,,0,0,0,,Oh, there you go\Nagain Conan with your "buts"
+Dialogue: 0,0:11:39.09,0:11:42.70,Dialogue,,0,0,0,,It's a bad habit of yours of not\NIooking at the situation as is.
+Dialogue: 0,0:11:43.60,0:11:45.20,Dialogue,,0,0,0,,Talk for yourself...
+Dialogue: 0,0:11:46.20,0:11:50.14,Dialogue,,0,0,0,,Mr. Tokunaga was a little creepy.
+Dialogue: 0,0:11:50.71,0:11:53.64,Dialogue,,0,0,0,,I saw him at that family\Nrestaurant this morning,
+Dialogue: 0,0:11:53.64,0:11:55.61,Dialogue,,0,0,0,,where he was\Ndrinking and all smiles.
+Dialogue: 0,0:11:56.28,0:11:58.98,Dialogue,,0,0,0,,So he smiles?
+Dialogue: 0,0:11:58.98,0:12:01.42,Dialogue,,0,0,0,,He always looks so super square.
+Dialogue: 0,0:12:01.42,0:12:04.95,Dialogue,,0,0,0,,So. something really\Ngood must've happened?
+Dialogue: 0,0:12:07.92,0:12:09.46,Dialogue,,0,0,0,,Tiokunaga...
+Dialogue: 0,0:12:09.76,0:12:11.43,Dialogue,,0,0,0,,He's the one that\Nwe saw this morning) right.
+Dialogue: 0,0:12:11.43,0:12:13.39,Dialogue,,0,0,0,,Ms. Sanae Hosono's\Nnext door neighbor.
+Dialogue: 0,0:12:13.39,0:12:15.93,Dialogue,,0,0,0,,What're you doing 'here?
+Dialogue: 0,0:12:16.70,0:12:18.77,Dialogue,,0,0,0,,Inspector Megure!
+Dialogue: 0,0:12:19.30,0:12:21.17,Dialogue,,0,0,0,,What're you doing\Nhere, Inspector Megure?
+Dialogue: 0,0:12:22.04,0:12:25.91,Dialogue,,0,0,0,,I came to tell Ms. Hosono that\Nher alibi's been backed up.
+Dialogue: 0,0:12:27.41,0:12:30.74,Dialogue,,0,0,0,,I came to tell Ms. Hosono that\Nher alibi's been backed up.
+Dialogue: 0,0:12:30.91,0:12:32.11,Dialogue,,0,0,0,,Wa trad
+Dialogue: 0,0:12:32.48,0:12:35.02,Dialogue,,0,0,0,,But. if so...
+Dialogue: 0,0:12:35.22,0:12:39.89,Dialogue,,0,0,0,,Voice that Mr. Tokunaga said he heard,\Nmust've been a mistake or something
+Dialogue: 0,0:12:40.05,0:12:40.99,Dialogue,,0,0,0,,A mistake?
+Dialogue: 0,0:12:42.22,0:12:46.19,Dialogue,,0,0,0,,The thing is, while we were tracing\Nthe source of where the sofa came from,
+Dialogue: 0,0:12:46.19,0:12:48.46,Dialogue,,0,0,0,,we ended back to where we started...
+Dialogue: 0,0:12:51.07,0:12:55.04,Dialogue,,0,0,0,,There is no mistake about the fact that\Nthe victim was put inside the sofa here.
+Dialogue: 0,0:12:55.57,0:12:57.30,Dialogue,,0,0,0,,I'll go look for a witness.
+Dialogue: 0,0:12:57.47,0:12:59.17,Dialogue,,0,0,0,,Yeah, do that will you.
+Dialogue: 0,0:13:02.04,0:13:03.91,Dialogue,,0,0,0,,I got it!\NI figured out who the killer is!
+Dialogue: 0,0:13:06.11,0:13:07.78,Dialogue,,0,0,0,,Are you rious. Mitsuhiko?
+Dialogue: 0,0:13:08.22,0:13:08.98,Dialogue,,0,0,0,,Yes!
+Dialogue: 0,0:13:09.45,0:13:12.62,Dialogue,,0,0,0,,Mr. Tokunaga's testimony about having
+Dialogue: 0,0:13:12.62,0:13:15.46,Dialogue,,0,0,0,,heard an argument is\Nprobably not a mistake!
+Dialogue: 0,0:13:15.56,0:13:17.59,Dialogue,,0,0,0,,But! just"«a while ago.\NInspector Meglite
+Dialogue: 0,0:13:18.93,0:13:22.43,Dialogue,,0,0,0,,So. the killer is Mr. Tokunaga!
+Dialogue: 0,0:13:22.43,0:13:23.60,Dialogue,,0,0,0,,What!
+Dialogue: 0,0:13:24.37,0:13:26.03,Dialogue,,0,0,0,,He's theakiller?!
+Dialogue: 0,0:13:38.28,0:13:41.55,Dialogue,,0,0,0,,It's just as those\NIadies were saying after all!
+Dialogue: 0,0:13:41.55,0:13:44.99,Dialogue,,0,0,0,,This morning, that man called Tokunaga\Nseemed to be in a super good mood.
+Dialogue: 0,0:13:45.45,0:13:47.32,Dialogue,,0,0,0,,So. my deduction's been backed up.
+Dialogue: 0,0:13:47.32,0:13:50.82,Dialogue,,0,0,0,,Mr Tokunaga must be the suspect!
+Dialogue: 0,0:13:50.83,0:13:56.30,Dialogue,,0,0,0,,Conan, when a killer\Nwants ta hide the corpse.
+Dialogue: 0,0:13:56.30,0:13:56.73,Dialogue,,0,0,0,,<<) <>\N@€onan, when a killer [\Nvv wants to hide the corpses
+Dialogue: 0,0:13:57.10,0:13:59.80,Dialogue,,0,0,0,,The killer doesn't want anyone /\Nto find the corpse, rights'?
+Dialogue: 0,0:13:59.97,0:14:03.17,Dialogue,,0,0,0,,If the body is found,\Nthe victim will be identified.
+Dialogue: 0,0:14:03.17,0:14:05.81,Dialogue,,0,0,0,,And the people who are around the\Nvictim will be theroughly checked.
+Dialogue: 0,0:14:05.81,0:14:09.21,Dialogue,,0,0,0,,The hands of the police will\Neventually reach the killer...
+Dialogue: 0,0:14:09.48,0:14:11.95,Dialogue,,0,0,0,,The corpse is hidden to prevent this.
+Dialogue: 0,0:14:12.35,0:14:13.68,Dialogue,,0,0,0,,Exactly.
+Dialogue: 0,0:14:13.95,0:14:16.22,Dialogue,,0,0,0,,But if the killer\Nreally wants to hide the body,
+Dialogue: 0,0:14:16.22,0:14:20.65,Dialogue,,0,0,0,,the body could be buried in the\Nmountains, OF sunk into the sea.
+Dialogue: 0,0:14:20.66,0:14:23.49,Dialogue,,0,0,0,,However, why didn't\Nthe Killer do so this time?
+Dialogue: 0,0:14:23.89,0:14:26.99,Dialogue,,0,0,0,,Yeah, that's the-point's\Nthat hardsto understand...
+Dialogue: 0,0:14:27.43,0:14:28.70,Dialogue,,0,0,0,,Right...
+Dialogue: 0,0:14:30.13,0:14:31.36,Dialogue,,0,0,0,,There is only one answer.
+Dialogue: 0,0:14:31.57,0:14:36.27,Dialogue,,0,0,0,,The killer wanted to go hide the corps\Nin the mountains this time too.
+Dialogue: 0,0:14:36.27,0:14:38.57,Dialogue,,0,0,0,,But. the killer had reasons\Nfor not being able 6.go.
+Dialogue: 0,0:14:38.74,0:14:41.61,Dialogue,,0,0,0,,So. what was the\NKiller's reason for not doing $07?
+Dialogue: 0,0:14:42.34,0:14:44.41,Dialogue,,0,0,0,,He was saying that.
+Dialogue: 0,0:14:44.68,0:14:47.18,Dialogue,,0,0,0,,He works in the evening
+Dialogue: 0,0:14:47.18,0:14:50.05,Dialogue,,0,0,0,,That's why he couldn't\Ngo far to hide the body!
+Dialogue: 0,0:14:51.79,0:14:56.59,Dialogue,,0,0,0,,I see, adults can't\Nta 3 off from work so
+Dialogue: 0,0:14:56.59,0:14:58.86,Dialogue,,0,0,0,,Right, Officer Takagi?
+Dialogue: 0,0:14:59.59,0:15:00.59,Dialogue,,0,0,0,,Yeah...
+Dialogue: 0,0:15:01.00,0:15:05.57,Dialogue,,0,0,0,,That's why the killer hid the"corpse\Ninside the sofa for the time being.
+Dialogue: 0,0:15:06.40,0:15:07.57,Dialogue,,0,0,0,,For the time being?
+Dialogue: 0,0:15:08.17,0:15:10.74,Dialogue,,0,0,0,,<<) (O\NThe Killer was goingfto threw it away\Nsomewhere after coming back from work!
+Dialogue: 0,0:15:10.74,0:15:13.27,Dialogue,,0,0,0,,Yes. the killer was going to\Nthrow it away somewhere
+Dialogue: 0,0:15:15.81,0:15:18.78,Dialogue,,0,0,0,,after coming, back ffom work!
+Dialogue: 0,0:15:19.08,0:15:21.92,Dialogue,,0,0,0,,Before the killer could get to the sofa
+Dialogue: 0,0:15:21.92,0:15:23.78,Dialogue,,0,0,0,,the truck of the recycle shop had\Nalready taken the sofa away!
+Dialogue: 0,0:15:24.29,0:15:25.12,Dialogue,,0,0,0,,Right!
+Dialogue: 0,0:15:26.99,0:15:30.89,Dialogue,,0,0,0,,I'm sure the killer was surprised\Nwhen he got home from work.
+Dialogue: 0,0:15:31.99,0:15:35.00,Dialogue,,0,0,0,,Because the sofa\Nhad suddenly disappeared.
+Dialogue: 0,0:15:36.06,0:15:39.07,Dialogue,,0,0,0,,And after he was surprised,\Ndelight filled his heart
+Dialogue: 0,0:15:39.73,0:15:43.70,Dialogue,,0,0,0,,Because after all someone had\Ntaken care of the corpse for him
+Dialogue: 0,0:15:44.44,0:15:47.01,Dialogue,,0,0,0,,He was spared the trouble of\Ngetting rid of the corpse himself
+Dialogue: 0,0:15:47.11,0:15:51.14,Dialogue,,0,0,0,,Unable to hold back his joy, he\Nwent to celebrate on his own.
+Dialogue: 0,0:15:53.15,0:15:58.02,Dialogue,,0,0,0,,However, when he got back to the condo.\NHe found out the worse had happened
+Dialogue: 0,0:15:58.89,0:16:01.39,Dialogue,,0,0,0,,The corpse that had\Ndisappeared somewhere
+Dialogue: 0,0:16:01.39,0:16:04.26,Dialogue,,0,0,0,,Was found) in the room next 1 his
+Dialogue: 0,0:16:05.53,0:16:10.06,Dialogue,,0,0,0,,But the killer who finds that the\Npolice suspects Sanae Hosono.
+Dialogue: 0,0:16:10.06,0:16:15.14,Dialogue,,0,0,0,,The one who first\Nfinds the corpse, remarks...
+Dialogue: 0,0:16:15.90,0:16:20.64,Dialogue,,0,0,0,,C.Come to think of it I heard\Nthe voices of people arguing
+Dialogue: 0,0:16:22.08,0:16:28.42,Dialogue,,0,0,0,,It was no mistake, but rather a lie\Nto frame Sanae up as the killer.
+Dialogue: 0,0:16:28.75,0:16:31.75,Dialogue,,0,0,0,,Everything falls right\Ninto place, Mitsuhiko!
+Dialogue: 0,0:16:31.75,0:16:32.82,Dialogue,,0,0,0,,Wow!
+Dialogue: 0,0:16:32.82,0:16:33.09,Dialogue,,0,0,0,,Wow!
+Dialogue: 0,0:16:33.35,0:16:35.96,Dialogue,,0,0,0,,Nah, it's really no big deal
+Dialogue: 0,0:16:37.06,0:16:38.79,Dialogue,,0,0,0,,What's the matter, €@enan?
+Dialogue: 0,0:16:39.49,0:16:42.63,Dialogue,,0,0,0,,Even if the killer had to go to work
+Dialogue: 0,0:16:42.66,0:16:46.70,Dialogue,,0,0,0,,why did he have to go out of\Nthe way to move the corpse?
+Dialogue: 0,0:16:46.70,0:16:51.64,Dialogue,,0,0,0,,If he left it in his room until he got back,\Nnobody would've seem hims right:
+Dialogue: 0,0:16:53.21,0:16:55.51,Dialogue,,0,0,0,,Now that you mentioned it
+Dialogue: 0,0:16:56.08,0:17:00.41,Dialogue,,0,0,0,,What did we come here to Akebonocho\Ntoday for in the first place?
+Dialogue: 0,0:17:00.85,0:17:04.85,Dialogue,,0,0,0,,To arrest the serial thief that's been\Nraiding the houses in this vicinity, right?
+Dialogue: 0,0:17:05.42,0:17:09.39,Dialogue,,0,0,0,,The killer was afraid that the\Nthief would break into his house!
+Dialogue: 0,0:17:09.92,0:17:15.10,Dialogue,,0,0,0,,I see! If the thief breaks\Nin and finds the dead old lady,
+Dialogue: 0,0:17:15.10,0:17:17.83,Dialogue,,0,0,0,,the police may be contacted!
+Dialogue: 0,0:17:18.63,0:17:19.70,Dialogue,,0,0,0,,Exactly!
+Dialogue: 0,0:17:20.07,0:17:23.20,Dialogue,,0,0,0,,That's why he couldn't\NNO MO He Er) ad Doel
+Dialogue: 0,0:17:23.37,0:17:26.21,Dialogue,,0,0,0,,That's why he couldn't\NIeave it in the house!
+Dialogue: 0,0:17:27.61,0:17:30.48,Dialogue,,0,0,0,,That won't do after all, Mitsuhiko.
+Dialogue: 0,0:17:30.54,0:17:32.18,Dialogue,,0,0,0,,OO SN TX\N. omy -
+Dialogue: 0,0:17:34.98,0:17:37.68,Dialogue,,0,0,0,,Think about it...
+Dialogue: 0,0:17:38.19,0:17:40.55,Dialogue,,0,0,0,,The possibility of someone witnessing\Nhim hiding the corpse
+Dialogue: 0,0:17:40.55,0:17:44.69,Dialogue,,0,0,0,,is higher than the possibility of a\Nthief breaking into his house
+Dialogue: 0,0:17:44.69,0:17:46.23,Dialogue,,0,0,0,,don't you think?
+Dialogue: 0,0:17:48.66,0:17:51.23,Dialogue,,0,0,0,,Besides, will he really be happy
+Dialogue: 0,0:17:51.23,0:17:54.37,Dialogue,,0,0,0,,when he finds out that the sofa where\Nthe corpse is hidden disappears?
+Dialogue: 0,0:17:54.84,0:17:57.10,Dialogue,,0,0,0,,Think it would be more\Nnatural for him to worry
+Dialogue: 0,0:17:57.10,0:17:59.37,Dialogue,,0,0,0,,that it may have been discovered\Nby the police. don't you?
+Dialogue: 0,0:18:01.84,0:18:06.51,Dialogue,,0,0,0,,Besides, it wouldn't hurt to day a day\NO romwor , I Orjus acay.
+Dialogue: 0,0:18:06.71,0:18:09.88,Dialogue,,0,0,0,,In other words, deducing Mr. Tokunaga
+Dialogue: 0,0:18:09.88,0:18:11.69,Dialogue,,0,0,0,,as being the killer is all an illusion\Ncreated in your head. Mitsuhiko!
+Dialogue: 0,0:18:12.05,0:18:16.89,Dialogue,,0,0,0,,This is homicide~ilet"sithin\Nabout it more seriously: okay?
+Dialogue: 0,0:18:16.99,0:18:22.23,Dialogue,,0,0,0,,Just who his the one that is\Novertaken by illusion?
+Dialogue: 0,0:18:23.63,0:18:25.37,Dialogue,,0,0,0,,Although you say, normally this\Nand normally that,
+Dialogue: 0,0:18:25.37,0:18:29.27,Dialogue,,0,0,0,,I'm sure there a people who get anxious\Nover thieves breaking into their houses.
+Dialogue: 0,0:18:29.27,0:18:31.30,Dialogue,,0,0,0,,I'm sure there are\Npeople who think themselves
+Dialogue: 0,0:18:31.31,0:18:32.74,Dialogue,,0,0,0,,Iucky about the corpse\Ndisappearing too, don't you?
+Dialogue: 0,0:18:32.77,0:18:34.71,Dialogue,,0,0,0,,If someone who had never taken\Na day off from work does so,
+Dialogue: 0,0:18:34.71,0:18:38.11,Dialogue,,0,0,0,,the people around\Nhim may get suspicious
+Dialogue: 0,0:18:38.11,0:18:43.38,Dialogue,,0,0,0,,Therefore, he may go to work as usual.\NThat's possible too, isn't it?
+Dialogue: 0,0:18:52.99,0:18:54.63,Dialogue,,0,0,0,,According to the\Nmanager of the condo.
+Dialogue: 0,0:18:55.20,0:18:59.10,Dialogue,,0,0,0,,It seems that Mr. Tokunaga is running\Na small pub in the neighboring town.
+Dialogue: 0,0:18:59.87,0:19:02.37,Dialogue,,0,0,0,,It seems he's having a tough time,
+Dialogue: 0,0:19:02.37,0:19:04.97,Dialogue,,0,0,0,,but he seems to be running the pub\Nwithout resting even one day
+Dialogue: 0,0:19:05.14,0:19:06.87,Dialogue,,0,0,0,,the manager also commented that
+Dialogue: 0,0:19:07.27,0:19:09.38,Dialogue,,0,0,0,,Mr. Tokunaga is a square\Nand timid{personality...
+Dialogue: 0,0:19:10.04,0:19:12.91,Dialogue,,0,0,0,,It's just a Mitsuhiko\Nhad portrayed him
+Dialogue: 0,0:19:13.68,0:19:15.55,Dialogue,,0,0,0,,Since he has to make preparations\NI before opening the shop.
+Dialogue: 0,0:19:15.55,0:19:18.08,Dialogue,,0,0,0,,It seems he always goes\Nout around this time.
+Dialogue: 0,0:19:19.89,0:19:20.95,Dialogue,,0,0,0,,15:00...
+Dialogue: 0,0:19:21.12,0:19:24.96,Dialogue,,0,0,0,,But. no matter how timid,
+Dialogue: 0,0:19:24.96,0:19:27.99,Dialogue,,0,0,0,,I wonder if he would be afraid of a thief\Nthat he's not sure will break in or not?
+Dialogue: 0,0:19:28.20,0:19:29.40,Dialogue,,0,0,0,,This is the Aekbono Police Stati fh.
+Dialogue: 0,0:19:29.40,0:19:32.70,Dialogue,,0,0,0,,Serial break ins have been\Nreported in this area,
+Dialogue: 0,0:19:33.50,0:19:37.14,Dialogue,,0,0,0,,so please be sure to\NIock your doors when going out
+Dialogue: 0,0:19:39.31,0:19:40.54,Dialogue,,0,0,0,,This is the. Aekbono Police Station.
+Dialogue: 0,0:19:40.54,0:19:41.24,Dialogue,,0,0,0,,Hey!
+Dialogue: 0,0:19:41.24,0:19:42.81,Dialogue,,0,0,0,,Please stop!
+Dialogue: 0,0:19:44.75,0:19:46.61,Dialogue,,0,0,0,,This is Officer Takagi\Nfrom police headquarters!
+Dialogue: 0,0:19:46.61,0:19:48.78,Dialogue,,0,0,0,,Did you patroldthis\Narea yesterday too?
+Dialogue: 0,0:19:48.98,0:19:49.92,Dialogue,,0,0,0,,Yes, sir.
+Dialogue: 0,0:19:49.92,0:19:52.82,Dialogue,,0,0,0,,But maybe yesterday we patrolled this\Narea about 10 minutes earlier than today.
+Dialogue: 0,0:19:53.75,0:19:54.99,Dialogue,,0,0,0,,Officer Takagi!
+Dialogue: 0,0:19:55.59,0:19:58.66,Dialogue,,0,0,0,,Yeah, so, that's the story!
+Dialogue: 0,0:20:00.36,0:20:05.70,Dialogue,,0,0,0,,Mr. Tokunaga, was probably panicky\Nafter killing the victim and heard
+Dialogue: 0,0:20:06.57,0:20:08.44,Dialogue,,0,0,0,,the voice from this police car...
+Dialogue: 0,0:20:09.27,0:20:12.21,Dialogue,,0,0,0,,This is the Akebono Police Station.
+Dialogue: 0,0:20:12.44,0:20:17.14,Dialogue,,0,0,0,,Serial break ins have been\Nreported in this area.
+Dialogue: 0,0:20:19.51,0:20:23.88,Dialogue,,0,0,0,,Therefore, you were\Nfrightened and hid the corpse
+Dialogue: 0,0:20:23.88,0:20:25.12,Dialogue,,0,0,0,,inside the sofa that you\Nfound in the trash dump nearby
+Dialogue: 0,0:20:25.85,0:20:28.46,Dialogue,,0,0,0,,Isn't that right. Mr. Tokunaga?
+Dialogue: 0,0:20:32.19,0:20:38.90,Dialogue,,0,0,0,,Owed that old lady money...
+Dialogue: 0,0:20:39.20,0:20:45.87,Dialogue,,0,0,0,,And I asked her to wait just another\Nweek for me to pay her back...
+Dialogue: 0,0:20:46.57,0:20:49.21,Dialogue,,0,0,0,,Then, she came to my condo and yelled
+Dialogue: 0,0:20:49.21,0:20:51.48,Dialogue,,0,0,0,,at me saying that if I didn't pay\Nher back by the date due,
+Dialogue: 0,0:20:51.48,0:20:54.05,Dialogue,,0,0,0,,she would take\Nthis shop away from me...
+Dialogue: 0,0:20:54.45,0:20:57.82,Dialogue,,0,0,0,,That's why I...
+Dialogue: 0,0:20:57.82,0:20:59.62,Dialogue,,0,0,0,,That's why I,\NIost my temper and...
+Dialogue: 0,0:21:02.52,0:21:05.29,Dialogue,,0,0,0,,1.I'm sorry
+Dialogue: 0,0:21:05.79,0:21:09.90,Dialogue,,0,0,0,,Mr. Tokunaga,\Nplease come to the station with me
+Dialogue: 0,0:21:10.23,0:21:10.83,Dialogue,,0,0,0,,Yes, sir
+Dialogue: 0,0:21:12.07,0:21:14.03,Dialogue,,0,0,0,,You?did it. Mitsuhiko!
+Dialogue: 0,0:21:14.27,0:21:15.17,Dialogue,,0,0,0,,Gr 'at!
+Dialogue: 0,0:21:17.17,0:21:22.01,Dialogue,,0,0,0,,Good deduction work Mitsuhiko, thanks\Nto being free of preconceived opinions.
+Dialogue: 0,0:21:28.78,0:21:32.42,Dialogue,,0,0,0,,Original Comic Books By\NGOSHO AOYAMA
+Dialogue: 0,0:21:34.72,0:21:38.42,Dialogue,,0,0,0,,wv (HTH «1-534 WA\NWigan Tas oY Iv PKA
+Dialogue: 0,0:21:40.76,0:21:44.40,Dialogue,,0,0,0,,Background Must\NKAI " '0 ONO
+Dialogue: 0,0:21:46.77,0:21:50.40,Dialogue,,0,0,0,,Charact r Designs By\NM SATOMO SUDO
+Dialogue: 0,0:21:52.77,0:21:56.41,Dialogue,,0,0,0,,Story Editor:
+Dialogue: 0,0:21:58.75,0:22:02.45,Dialogue,,0,0,0,,Scripts By\NKAN]! KASHIWABARA\NAZUNARI KOUCH\NJUNICHI MIYASHITA\NCHI HIG\NOSHI 1 INOUE
+Dialogue: 0,0:22:04.75,0:22:08.42,Dialogue,,0,0,0,,Animation DiFectors\NMASATOMO SUDO\NHIROTOSHI TAKATANI\NHARUO OOGAWARA\NATSUSHI AONO\NAKIO KAWAMURA\Nyo TET ey
+Dialogue: 0,0:22:10.79,0:22:14.43,Dialogue,,0,0,0,,Art Director.\NYUKIHIRO SHIBUTANI
+Dialogue: 0,0:22:16.76,0:22:20.43,Dialogue,,0,0,0,,Directors Of Photography\NTAKASHI NOMURA\NHIRONQBU HORIKOSHI\NTAKAHISA OWAGA
+Dialogue: 0,0:22:22.84,0:22:26.44,Dialogue,,0,0,0,,Recording Director.\NKATSUYOSHI KOBAYASHI
+Dialogue: 0,0:22:28.78,0:22:32.45,Dialogue,,0,0,0,,Editor.\NTERUMITSU OKADA
+Dialogue: 0,0:22:34.78,0:22:38.45,Dialogue,,0,0,0,,Chet Director.\NKEN}! KODAMA
+Dialogue: 0,0:22:40.82,0:22:44.46,Dialogue,,0,0,0,,Produced By.\NTMSIENTERTAINMENT,). LTD\NI association with\NYOMIURI TELECASTING\NCORPORATION
+Dialogue: 0,0:22:46.83,0:22:52.73,Dialogue,,0,0,0,,DETECTIVE CC NAN\N0 AOYAMA HOCGCAKUKAN YTV\NAll RY WReverved
+Dialogue: 0,0:22:54.34,0:22:55.07,Dialogue,,0,0,0,,What?
+Dialogue: 0,0:22:55.07,0:22:56.97,Dialogue,,0,0,0,,The thief who had\Nbeen breaking into house
+Dialogue: 0,0:22:56.97,0:22:58.84,Dialogue,,0,0,0,,in Akebonocho\Nwas-arrested long time.ago?
+Dialogue: 0,0:22:58.94,0:23:02.94,Dialogue,,0,0,0,,Yeah [last week a man was\Narrested h charges of theft,
+Dialogue: 0,0:23:02.94,0:23:05.28,Dialogue,,0,0,0,,and when checked\Nfor fOrther'crimes, confessed.
+Dialogue: 0,0:23:05.58,0:23:06.98,Dialogue,,0,0,0,,Oh boy.
+Dialogue: 0,0:23:07.31,0:23:10.38,Dialogue,,0,0,0,,We were all dut to get him and then!
+Dialogue: 0,0:23:10.38,0:23:13.29,Dialogue,,0,0,0,,What a bummer,\NI even 168t out on bus fare!
+Dialogue: 0,0:23:13.89,0:23:16.82,Dialogue,,0,0,0,,Which means that Mr.\NTokunaga didn t have tolgo out
+Dialogue: 0,0:23:16.82,0:23:21.33,Dialogue,,0,0,0,,of the way to hide the corpse\Nin the sofa~at the/trash dump?
+Dialogue: 0,0:23:21.76,0:23:24.40,Dialogue,,0,0,0,,Yeah, if he left the\Ncorpse inside his room,
+Dialogue: 0,0:23:24.40,0:23:27.43,Dialogue,,0,0,0,,maybe the case\Nwould've never come to light.
+Dialogue: 0,0:23:27.84,0:23:31.24,Dialogue,,0,0,0,,He sure is an unluc \\Ncharacter isn't he?
+Dialogue: 0,0:23:31.74,0:23:33.27,Dialogue,,0,0,0,,You can say that again.
+Dialogue: 0,0:23:37.85,0:23:41.88,Dialogue,,0,0,0,,Gee, it's a homicide\Ncase-and no laughing matter...
+Dialogue: 0,0:23:46.65,0:23:49.36,Dialogue,,0,0,0,,Excuse me is Ms. Ujo that Ms. Ujo!
+Dialogue: 0,0:23:49.82,0:23:53.53,Dialogue,,0,0,0,,Ms. Ujo the number 1 nicest actress!
+Dialogue: 0,0:23:53.53,0:23:56.80,Dialogue,,0,0,0,,That means we get to\Nsee Ms. Ujo in person?
+Dialogue: 0,0:23:57.50,0:23:59.63,Dialogue,,0,0,0,,It's the real deal!
+Dialogue: 0,0:24:10.01,0:24:15.35,Dialogue,,0,0,0,,The Unseen Suspect\NPart 1

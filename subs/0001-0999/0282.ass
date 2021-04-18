@@ -1,0 +1,401 @@
+[Script Info]
+Title: Detective Conan - 0282
+TL Source: UTB
+ScriptType: v4.00+
+WrapStyle: 3
+PlayResX: 1440
+PlayResY: 1080
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Dialogue,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00401311,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Dialogue Top,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00401311,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,8,30,30,55,1
+Style: Signs,FrancophilSans,74,&H14FFFFFF,&H00FFFFFF,&H46101010,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,8,30,30,55,1
+Style: Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,0,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Radio,FrancophilSans,74,&H00BEE1FF,&H00FFFFFF,&H000B2A42,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Narration,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00BF6F00,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Narration Off,FrancophilSans,74,&H6E8C6F00,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,0,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Flashback,FrancophilSans,74,&H00CDFAFF,&H00FFFFFF,&H00373737,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Flashback Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00CCFFFF,&HC0313134,-1,0,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Honorifics - Dialogue,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00401311,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Signs,FrancophilSans,74,&H14FFFFFF,&H00FFFFFF,&H46101010,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,-1,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Honorifics - Radio,FrancophilSans,74,&H00BEE1FF,&H00FFFFFF,&H000B2A42,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Narration,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00BF6F00,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Narration Off,FrancophilSans,74,&H6E8C6F00,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,-1,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Honorifics - Flashback,FrancophilSans,74,&H00CDFAFF,&H00FFFFFF,&H00373737,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Flashback Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00CCFFFF,&HC0313134,-1,-1,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Masks,FrancophilSans,74,&H00000000,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,2,0,0,0,1
+Style: Title,Conan Episode Title,74,&H00E1E4E3,&H000000FF,&HC8DBDAE1,&HC0000000,-1,0,0,0,100,100,0,0,1,1,0,5,0,0,0,1
+Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-1,0,0,0,100,100,0,0,1,0,0,2,0,0,65,1
+Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
+Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
+Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.33,0:00:03.73,Dialogue,,0,0,0,,Suspense and deduction\Ncloses the gap between
+Dialogue: 0,0:00:03.73,0:00:07.77,Dialogue,,0,0,0,,In a beautiful garden a mysterious\Ncase occurs
+Dialogue: 0,0:00:07.77,0:00:09.17,Dialogue,,0,0,0,,He sees through the one and only truth
+Dialogue: 0,0:00:09.47,0:00:10.84,Dialogue,,0,0,0,,a child in appearance\Nwith the I.Q. of an adult
+Dialogue: 0,0:00:11.14,0:00:13.31,Dialogue,,0,0,0,,nojcase is left unsolved\Nwith Detective Conan.
+Dialogue: 0,0:02:00.55,0:02:02.62,Dialogue,,0,0,0,,Thank you for the treat
+Dialogue: 0,0:02:02.62,0:02:05.25,Dialogue,,0,0,0,,Gee... This is such a great\Ngarden that's true to your title
+Dialogue: 0,0:02:05.25,0:02:08.32,Dialogue,,0,0,0,,as the president of\Nthe Kiyama Furniture Company
+Dialogue: 0,0:02:08.32,0:02:11.26,Dialogue,,0,0,0,,What a nice house you have!
+Dialogue: 0,0:02:11.26,0:02:14.20,Dialogue,,0,0,0,,This is the first time I've seen\Na garden with a waterfall like this!
+Dialogue: 0,0:02:14.20,0:02:16.93,Dialogue,,0,0,0,,This garden somehow\Nmakes me feel at peace
+Dialogue: 0,0:02:16.93,0:02:19.93,Dialogue,,0,0,0,,Glad to hear that...
+Dialogue: 0,0:02:19.94,0:02:20.20,Dialogue,,0,0,0,,You like my garden.\NI'm glad I brought you up here too.
+Dialogue: 0,0:02:20.20,0:02:20.60,Dialogue,,0,0,0,,You like my garden.\NI'm glad I brought you up here too.\NMichiyoshi Majima
+Dialogue: 0,0:02:20.60,0:02:24.84,Dialogue,,0,0,0,,you like my garden.\NI'm glad I brought you up here too.\NMichiyoshi Majima\NDI DI all.»\NO v9 fr C Let)\NXLRI MR
+Dialogue: 0,0:02:24.84,0:02:25.07,Dialogue,,0,0,0,,you like my garden.\NI'm glad I brought you up here too.\NLe & &UL\Nw PF fr CC LoTOoD\NKIRA T=
+Dialogue: 0,0:02:25.07,0:02:25.67,Dialogue,,0,0,0,,you like my garden.\NI'm glad I brought you up here too.
+Dialogue: 0,0:02:27.34,0:02:29.88,Dialogue,,0,0,0,,I think it's about time to begin
+Dialogue: 0,0:02:29.88,0:02:31.95,Dialogue,,0,0,0,,Eh? To begin what?
+Dialogue: 0,0:02:31.95,0:02:34.82,Dialogue,,0,0,0,,You'll see.
+Dialogue: 0,0:02:38.19,0:02:40.49,Dialogue,,0,0,0,,Oh, Conan, look over there!
+Dialogue: 0,0:02:40.49,0:02:43.09,Dialogue,,0,0,0,,Water is flowing over\Nthe basin of the waterfall!
+Dialogue: 0,0:02:43.09,0:02:44.43,Dialogue,,0,0,0,,Clio, Tl
+Dialogue: 0,0:02:44.43,0:02:47.16,Dialogue,,0,0,0,,The water is filling the garden!
+Dialogue: 0,0:02:47.40,0:02:49.70,Dialogue,,0,0,0,,What's that!
+Dialogue: 0,0:02:49.70,0:02:52.90,Dialogue,,0,0,0,,Hahaha Surprised. eh?
+Dialogue: 0,0:02:52.90,0:02:53.97,Dialogue,,0,0,0,,Let me explain how this works.
+Dialogue: 0,0:02:53.97,0:02:59.57,Dialogue,,0,0,0,,At 8am... 4 p.m. and 8 p.m. three times\Na day, the water flows into the garden
+Dialogue: 0,0:02:59.74,0:03:03.71,Dialogue,,0,0,0,,But in doing so,\Nwon't the{\rHonorifics - Dialogue} san{\r}d pattern disappear?
+Dialogue: 0,0:03:03.71,0:03:06.71,Dialogue,,0,0,0,,Water is poured in slowly\Nso that the pattern is not lost,
+Dialogue: 0,0:03:06.72,0:03:09.25,Dialogue,,0,0,0,,then the water is drained in 30 minutes.
+Dialogue: 0,0:03:11.35,0:03:14.19,Dialogue,,0,0,0,,It's quite highly reputed.
+Dialogue: 0,0:03:14.19,0:03:16.79,Dialogue,,0,0,0,,The former president made this device.
+Dialogue: 0,0:03:19.33,0:03:21.83,Dialogue,,0,0,0,,Well, if you'll excuse me for a moment,\NI'd like to get back to work
+Dialogue: 0,0:03:21.83,0:03:24.30,Dialogue,,0,0,0,,But make yourselves at home.\NSee you at dinner.
+Dialogue: 0,0:03:24.30,0:03:27.17,Dialogue,,0,0,0,,And don't worry about your car.
+Dialogue: 0,0:03:27.17,0:03:29.57,Dialogue,,0,0,0,,I'll get my secretary to pick it up tomorrow.
+Dialogue: 0,0:03:29.57,0:03:32.37,Dialogue,,0,0,0,,Thank so much for everything.
+Dialogue: 0,0:03:32.61,0:03:35.58,Dialogue,,0,0,0,,I'm sure you'd have done the same for me\Nif I were in your shoes.
+Dialogue: 0,0:03:35.58,0:03:38.25,Dialogue,,0,0,0,,OK then. I'll leave them to you, Ayaka.
+Dialogue: 0,0:03:38.25,0:03:40.38,Dialogue,,0,0,0,,Very well, President...
+Dialogue: 0,0:03:40.38,0:03:42.85,Dialogue,,0,0,0,,Boy oh boy, what ajtruly superb view!
+Dialogue: 0,0:03:42.85,0:03:44.12,Dialogue,,0,0,0,,It's really awesome...
+Dialogue: 0,0:03:45.75,0:03:48.39,Dialogue,,0,0,0,,Heck! What carefree jokers they are!
+Dialogue: 0,0:03:48.39,0:03:49.72,Dialogue,,0,0,0,,Don't they realize how costly\Nit is to maintain it!
+Dialogue: 0,0:03:50.03,0:03:53.86,Dialogue,,0,0,0,,The garden Kiyama made is\Nreally nothing but a big nuisance for me!
+Dialogue: 0,0:03:55.83,0:03:57.80,Dialogue,,0,0,0,,Look, Conan!
+Dialogue: 0,0:03:58.37,0:04:02.80,Dialogue,,0,0,0,,Oh, my, we can see clearly through\Nthe circles of white{\rHonorifics - Dialogue} san{\r}d!
+Dialogue: 0,0:04:02.80,0:04:05.27,Dialogue,,0,0,0,,It's beautiful, Ran!
+Dialogue: 0,0:04:05.57,0:04:08.94,Dialogue,,0,0,0,,I'll bet it's especially romanticsat night\Nwhen the moon is reflected on the water
+Dialogue: 0,0:04:08.94,0:04:11.08,Dialogue,,0,0,0,,Yes, indeed.
+Dialogue: 0,0:04:11.08,0:04:15.88,Dialogue,,0,0,0,,We even have guests\Nwho come here every full moon.
+Dialogue: 0,0:04:17.75,0:04:21.79,Dialogue,,0,0,0,,Wonderful to drink cold sake while viewing\Na full moon rising from behind Mt. Fuji
+Dialogue: 0,0:04:24.96,0:04:28.00,Dialogue,,0,0,0,,Phew!\NIt's out of this world...
+Dialogue: 0,0:04:28.00,0:04:29.33,Dialogue,,0,0,0,,Hey, what's that?
+Dialogue: 0,0:04:30.23,0:04:32.60,Dialogue,,0,0,0,,Over there. Something's by the pillar...
+Dialogue: 0,0:04:32.77,0:04:35.00,Dialogue,,0,0,0,,Oh, that! It's a catching pole.
+Dialogue: 0,0:04:35.10,0:04:36.54,Dialogue,,0,0,0,,Catching pole?
+Dialogue: 0,0:04:39.57,0:04:43.14,Dialogue,,0,0,0,,You see, when someone drops\Nsomething on the white{\rHonorifics - Dialogue} san{\r}d of the yard,
+Dialogue: 0,0:04:43.51,0:04:46.88,Dialogue,,0,0,0,,we lengthen this pole\Nand pick it up like this.
+Dialogue: 0,0:04:47.65,0:04:51.49,Dialogue,,0,0,0,,We can't step on the wave pattern\Nof the white{\rHonorifics - Dialogue} san{\r}d, you see.
+Dialogue: 0,0:04:51.49,0:04:54.36,Dialogue,,0,0,0,,I see. It's well thought out.
+Dialogue: 0,0:04:54.36,0:04:55.42,Dialogue,,0,0,0,,Well,
+Dialogue: 0,0:04:55.42,0:05:00.03,Dialogue,,0,0,0,,since Mr. Majima became president, the -\Ngardener comes only once a month. So...
+Dialogue: 0,0:05:00.03,0:05:01.73,Dialogue,,0,0,0,,Pretty mind racking, isn't it...
+Dialogue: 0,0:05:01.73,0:05:02.36,Dialogue,,0,0,0,,Pretty mind racking, isn't it...
+Dialogue: 0,0:05:04.93,0:05:06.77,Dialogue,,0,0,0,,Oh, the water's begun to drain.
+Dialogue: 0,0:05:06.87,0:05:07.97,Dialogue,,0,0,0,,Yeah, really.
+Dialogue: 0,0:05:11.04,0:05:14.01,Dialogue,,0,0,0,,Oh, It's amazing how well this works...
+Dialogue: 0,0:05:19.31,0:05:19.75,Dialogue,,0,0,0,,VA. AA.
+Dialogue: 0,0:05:19.75,0:05:24.89,Dialogue,,0,0,0,,HA AA\NMystery of the Japanese Water\NFlowing Rock Garden Part
+Dialogue: 0,0:05:28.39,0:05:31.09,Dialogue,,0,0,0,,If you like, shall we go to the saloon
+Dialogue: 0,0:05:31.19,0:05:33.69,Dialogue,,0,0,0,,where aperitif will be served
+Dialogue: 0,0:05:33.86,0:05:36.23,Dialogue,,0,0,0,,Oh yeah, here we go!
+Dialogue: 0,0:05:41.67,0:05:44.10,Dialogue,,0,0,0,,You don't have money!?
+Dialogue: 0,0:05:44.11,0:05:46.31,Dialogue,,0,0,0,,Give me a break!
+Dialogue: 0,0:05:48.61,0:05:50.04,Dialogue,,0,0,0,,You still owe me 5 million yen,
+Dialogue: 0,0:05:50.05,0:05:52.38,Dialogue,,0,0,0,,no, 7 million yet including interest!!
+Dialogue: 0,0:05:52.61,0:05:54.98,Dialogue,,0,0,0,,Mr. Majima?
+Dialogue: 0,0:05:56.08,0:05:59.52,Dialogue,,0,0,0,,Pay back the money in full\Nby the end of this month!
+Dialogue: 0,0:05:59.52,0:06:00.99,Dialogue,,0,0,0,,Otherwise, you'll be fired!
+Dialogue: 0,0:06:00.99,0:06:02.39,Dialogue,,0,0,0,,You better dig in!
+Dialogue: 0,0:06:02.39,0:06:05.26,Dialogue,,0,0,0,,Pease wait! President...
+Dialogue: 0,0:06:23.21,0:06:27.31,Dialogue,,0,0,0,,Nd THIS WEST SWYIS\Nhouse 1s marvelous too!
+Dialogue: 0,0:06:27.32,0:06:28.85,Dialogue,,0,0,0,,Yes. It's truly splendid...
+Dialogue: 0,0:06:28.85,0:06:30.85,Dialogue,,0,0,0,,Please come on in...
+Dialogue: 0,0:06:30.85,0:06:32.45,Dialogue,,0,0,0,,Oh, well well...
+Dialogue: 0,0:06:36.63,0:06:38.26,Dialogue,,0,0,0,,Please come this way.
+Dialogue: 0,0:06:38.26,0:06:40.13,Dialogue,,0,0,0,,Oh, thank you, thank you
+Dialogue: 0,0:06:40.76,0:06:42.86,Dialogue,,0,0,0,,It's the man we saw just a while ago.
+Dialogue: 0,0:06:42.86,0:06:43.53,Dialogue,,0,0,0,,Yeah...
+Dialogue: 0,0:06:43.70,0:06:46.33,Dialogue,,0,0,0,,Can I get you something to drink, sir?
+Dialogue: 0,0:06:46.33,0:06:48.00,Dialogue,,0,0,0,,Sure, I'll take a beer!
+Dialogue: 0,0:06:48.00,0:06:49.34,Dialogue,,0,0,0,,I'll be right back
+Dialogue: 0,0:06:49.34,0:06:53.01,Dialogue,,0,0,0,,Hey, Dad!\NIt-s too early to be drinking yet!
+Dialogue: 0,0:06:53.01,0:06:54.61,Dialogue,,0,0,0,,Why not?
+Dialogue: 0,0:06:54.61,0:06:55.74,Dialogue,,0,0,0,,Ayaka!
+Dialogue: 0,0:06:56.31,0:06:58.28,Dialogue,,0,0,0,,Who're these people!?
+Dialogue: 0,0:06:58.28,0:07:00.88,Dialogue,,0,0,0,,They are Mr. Majima's guests.
+Dialogue: 0,0:07:00.88,0:07:02.45,Dialogue,,0,0,0,,His guests?
+Dialogue: 0,0:07:02.45,0:07:05.72,Dialogue,,0,0,0,,I don't know if we can be called guest,
+Dialogue: 0,0:07:06.09,0:07:11.33,Dialogue,,0,0,0,,because you see, we\Nactually ran out of gas on Sanbonzaka
+Dialogue: 0,0:07:11.33,0:07:17.13,Dialogue,,0,0,0,,Then, President Majima, who\Nhappened to pass by, looked in on us.
+Dialogue: 0,0:07:17.13,0:07:22.34,Dialogue,,0,0,0,,Moreover, he kindly invited us\Nfor dinner this evening.
+Dialogue: 0,0:07:22.70,0:07:27.74,Dialogue,,0,0,0,,The president is a nice\Nfriendly person, isn't he?
+Dialogue: 0,0:07:27.74,0:07:31.08,Dialogue,,0,0,0,,Heck! He always puts\Non a friendly face in public!
+Dialogue: 0,0:07:31.08,0:07:32.88,Dialogue,,0,0,0,,Can I ask you something.
+Dialogue: 0,0:07:32.88,0:07:37.22,Dialogue,,0,0,0,,Feo Theory coro yor aed To\NPB OMAY Du wie TTL WY\Nbe a private gathering
+Dialogue: 0,0:07:37.22,0:07:39.69,Dialogue,,0,0,0,,VOy Coat ner troy ss bes Whe Oy yeti (vy\NSa. SA tata LA\Nof Kiyama Furniture's first store?
+Dialogue: 0,0:07:42.52,0:07:44.63,Dialogue,,0,0,0,,All is well, Mr. Endo.
+Dialogue: 0,0:07:44.63,0:07:46.96,Dialogue,,0,0,0,,Mr. Majima invited them...
+Dialogue: 0,0:07:46.96,0:07:50.36,Dialogue,,0,0,0,,And besides.\NThe more the merrier for dinner, right?
+Dialogue: 0,0:07:50.37,0:07:51.90,Dialogue,,0,0,0,,I guess so, but...
+Dialogue: 0,0:07:52.53,0:07:54.03,Dialogue,,0,0,0,,If you will excuse me.
+Dialogue: 0,0:07:55.97,0:07:57.81,Dialogue,,0,0,0,,Well, I'd like to introduce everyone
+Dialogue: 0,0:07:58.44,0:08:00.51,Dialogue,,0,0,0,,This is the secretary to the president
+Dialogue: 0,0:08:00.58,0:08:02.01,Dialogue,,0,0,0,,Mr. Masayuki Hashimoto\NMasayuki Hashimoto\N+ BZ (37)
+Dialogue: 0,0:08:02.01,0:08:02.38,Dialogue,,0,0,0,,MasayukigHashimoto\NME BZ (37)\NmBR Be
+Dialogue: 0,0:08:02.38,0:08:03.74,Dialogue,,0,0,0,,Nice to meet you...\NMasayuki Hashimoto\N££ & - JE\NMA = (37)
+Dialogue: 0,0:08:03.75,0:08:03.94,Dialogue,,0,0,0,,Nice to meet you .
+Dialogue: 0,0:08:03.95,0:08:06.48,Dialogue,,0,0,0,,And this is the president of\Nthe Kiyama Interior Company,
+Dialogue: 0,0:08:06.48,0:08:08.68,Dialogue,,0,0,0,,one of our affiliated\Ncompanies, Mr. Endo
+Dialogue: 0,0:08:08.98,0:08:13.75,Dialogue,,0,0,0,,Mr. Endo has taken part in the\NNational Sports Festival as an archer.
+Dialogue: 0,0:08:13.76,0:08:15.96,Dialogue,,0,0,0,,That's something!
+Dialogue: 0,0:08:15.96,0:08:16.19,Dialogue,,0,0,0,,But it was long time ago.\NNow, it's a different story...
+Dialogue: 0,0:08:16.19,0:08:16.66,Dialogue,,0,0,0,,But it was long time ago.\NNow, it's a different story...\NNobuakiEndo
+Dialogue: 0,0:08:16.66,0:08:20.63,Dialogue,,0,0,0,,But it was long time.ago.\NNow, it's a different story...\NNobuakiEndo\N5 DU IQ\NBR 5 (BAA (45)\NTr STE
+Dialogue: 0,0:08:21.00,0:08:21.33,Dialogue,,0,0,0,,And I'm Tomonori Kiyama,\Na freelance writer.
+Dialogue: 0,0:08:21.33,0:08:24.57,Dialogue,,0,0,0,,And I'm Tomonori Kiyama,\Na freelance writer.\NTomonori Kiyama\NKL 8 AY (28)\NDI-- SS
+Dialogue: 0,0:08:26.74,0:08:31.44,Dialogue,,0,0,0,,Are you Mr. Kiyama, the author of\NWandering Through Africa?
+Dialogue: 0,0:08:31.81,0:08:32.04,Dialogue,,0,0,0,,Yes, I am.
+Dialogue: 0,0:08:32.27,0:08:34.64,Dialogue,,0,0,0,,Wow! I thought so!
+Dialogue: 0,0:08:34.68,0:08:36.54,Dialogue,,0,0,0,,Do you know him?
+Dialogue: 0,0:08:36.64,0:08:40.85,Dialogue,,0,0,0,,Yeah! He is a travelogue writer\Nwho travels to many countries.
+Dialogue: 0,0:08:40.85,0:08:43.58,Dialogue,,0,0,0,,I've read your\NWandering Through Africa!
+Dialogue: 0,0:08:43.59,0:08:45.59,Dialogue,,0,0,0,,Oh, thank you
+Dialogue: 0,0:08:45.59,0:08:47.05,Dialogue,,0,0,0,,How did you like it?
+Dialogue: 0,0:08:47.05,0:08:49.19,Dialogue,,0,0,0,,Oh...I was deeply moved!
+Dialogue: 0,0:08:50.86,0:08:53.49,Dialogue,,0,0,0,,Could I have your autograph,please?
+Dialogue: 0,0:08:53.50,0:08:55.56,Dialogue,,0,0,0,,Sure, my pleasure!
+Dialogue: 0,0:08:55.56,0:08:56.30,Dialogue,,0,0,0,,I tell you what
+Dialogue: 0,0:08:57.33,0:08:59.30,Dialogue,,0,0,0,,I'll be holding a photo exhibition
+Dialogue: 0,0:08:59.30,0:09:01.50,Dialogue,,0,0,0,,So if it's okay with you, please come.
+Dialogue: 0,0:09:01.50,0:09:04.10,Dialogue,,0,0,0,,Wow! Thank you, are you sure it's okay...
+Dialogue: 0,0:09:04.27,0:09:06.57,Dialogue,,0,0,0,,Thank you so much.
+Dialogue: 0,0:09:06.57,0:09:09.24,Dialogue,,0,0,0,,I'll sign my autograph now...
+Dialogue: 0,0:09:14.08,0:09:17.18,Dialogue,,0,0,0,,What an old fashioned fountain pen\Nyou have!
+Dialogue: 0,0:09:17.62,0:09:19.92,Dialogue,,0,0,0,,This is the only thing\NI have to remember my father by.
+Dialogue: 0,0:09:20.09,0:09:21.79,Dialogue,,0,0,0,,Although it's no great fountain pen
+Dialogue: 0,0:09:21.79,0:09:25.66,Dialogue,,0,0,0,,I just couldn't bear getting rid of it\NSo, I always keep it on me
+Dialogue: 0,0:09:25.76,0:09:26.99,Dialogue,,0,0,0,,I see .
+Dialogue: 0,0:09:27.70,0:09:29.40,Dialogue,,0,0,0,,OK, here you are
+Dialogue: 0,0:09:29.40,0:09:30.90,Dialogue,,0,0,0,,Thank you very much!
+Dialogue: 0,0:09:31.37,0:09:32.93,Dialogue,,0,0,0,,Please come with your friends.
+Dialogue: 0,0:09:33.70,0:09:36.00,Dialogue,,0,0,0,,Yes, I definitely will!
+Dialogue: 0,0:09:36.00,0:09:41.41,Dialogue,,0,0,0,,However, I didn't know you were related\Nto the family of Kiyama Furniture
+Dialogue: 0,0:09:41.91,0:09:43.14,Dialogue,,0,0,0,,My father built the company\Nfrom nothing into
+Dialogue: 0,0:09:43.14,0:09:44.81,Dialogue,,0,0,0,,a considerable business In\Nthe course of his lifetime.
+Dialogue: 0,0:09:44.81,0:09:48.65,Dialogue,,0,0,0,,After his death, Mr. Majima\Nsucceeded my father as president...
+Dialogue: 0,0:09:49.32,0:09:51.85,Dialogue,,0,0,0,,Oh, have you already\Nseen the Rock Garden?
+Dialogue: 0,0:09:51.85,0:09:55.19,Dialogue,,0,0,0,,Yes, we have! Patterns on the\Nwhite{\rHonorifics - Dialogue} san{\r}d were so beautiful!
+Dialogue: 0,0:09:55.19,0:09:59.36,Dialogue,,0,0,0,,Exactly! That waterfall and white{\rHonorifics - Dialogue} san{\r}d!\NThe garden you saw
+Dialogue: 0,0:09:59.36,0:10:01.96,Dialogue,,0,0,0,,was what my father kept working on to\Ncomplete, whenever he had time
+Dialogue: 0,0:10:01.96,0:10:03.43,Dialogue,,0,0,0,,to spare from his busy schedule,\Nputting his heart and soul into it.
+Dialogue: 0,0:10:03.43,0:10:07.43,Dialogue,,0,0,0,,Hey. how did you father die?
+Dialogue: 0,0:10:07.44,0:10:09.90,Dialogue,,0,0,0,,C-Conan! H.How rude!
+Dialogue: 0,0:10:10.21,0:10:11.77,Dialogue,,0,0,0,,No. It's okay.
+Dialogue: 0,0:10:12.61,0:10:14.44,Dialogue,,0,0,0,,He died in a traffic accident last year...
+Dialogue: 0,0:10:16.54,0:10:19.85,Dialogue,,0,0,0,,You never know what\Ndestiny lies ahead...
+Dialogue: 0,0:10:21.15,0:10:25.12,Dialogue,,0,0,0,,Uh... There's a scenic site\Nwith fantastic night view
+Dialogue: 0,0:10:25.12,0:10:26.85,Dialogue,,0,0,0,,So, I suggest you go there later.
+Dialogue: 0,0:10:26.86,0:10:27.59,Dialogue,,0,0,0,,Huh
+Dialogue: 0,0:10:27.96,0:10:30.72,Dialogue,,0,0,0,,It's very beautiful.\NAll of you really must see it
+Dialogue: 0,0:10:31.09,0:10:32.79,Dialogue,,0,0,0,,Shall we go up there, Conan!
+Dialogue: 0,0:10:32.96,0:10:33.46,Dialogue,,0,0,0,,Yeah!
+Dialogue: 0,0:10:33.76,0:10:35.93,Dialogue,,0,0,0,,I think I'll pass
+Dialogue: 0,0:10:37.97,0:10:41.67,Dialogue,,0,0,0,,I'd rather stay here and\Nenjoy a leisurely drink...
+Dialogue: 0,0:10:42.04,0:10:44.14,Dialogue,,0,0,0,,Come off it, Dad...
+Dialogue: 0,0:10:44.14,0:10:47.88,Dialogue,,0,0,0,,You must see it, too!\NIt-s'well worth looking at!
+Dialogue: 0,0:10:48.34,0:10:50.04,Dialogue,,0,0,0,,Unlike To \ 0::the stars seem so close
+Dialogue: 0,0:10:50.04,0:10:53.18,Dialogue,,0,0,0,,hat it looks like their\Ngoing to shower down on you!
+Dialogue: 0,0:10:53.28,0:10:55.45,Dialogue,,0,0,0,,Hmm... Stars...
+Dialogue: 0,0:10:55.45,0:10:56.78,Dialogue,,0,0,0,,Thank you for waiting.
+Dialogue: 0,0:10:58.02,0:10:59.92,Dialogue,,0,0,0,,Here comes the beer!
+Dialogue: 0,0:11:00.76,0:11:03.59,Dialogue,,0,0,0,,Wow! Thank you very much
+Dialogue: 0,0:11:03.96,0:11:06.13,Dialogue,,0,0,0,,If you like, we have\Ndrinks other than beer too.
+Dialogue: 0,0:11:06.29,0:11:08.13,Dialogue,,0,0,0,,I'll bring you another cup
+Dialogue: 0,0:11:08.36,0:11:11.00,Dialogue,,0,0,0,,Thanks! Now, I can\Ndrink my heart out .
+Dialogue: 0,0:11:11.00,0:11:12.53,Dialogue,,0,0,0,,Which one should I drink...
+Dialogue: 0,0:11:12.70,0:11:14.94,Dialogue,,0,0,0,,Hey! Stop it, Dad...
+Dialogue: 0,0:11:14.94,0:11:18.07,Dialogue,,0,0,0,,Ah... Oh. Hey. hey! Cut it out!\N- Donrt spill it!!
+Dialogue: 0,0:11:18.07,0:11:20.14,Dialogue,,0,0,0,,What a waste!
+Dialogue: 0,0:11:20.31,0:11:24.14,Dialogue,,0,0,0,,Oh man, talk about addicted to liquor.
+Dialogue: 0,0:11:42.13,0:11:43.83,Dialogue,,0,0,0,,Here, havclanother one.
+Dialogue: 0,0:11:43.83,0:11:47.17,Dialogue,,0,0,0,,Oh. thank you.
+Dialogue: 0,0:11:47.17,0:11:50.04,Dialogue,,0,0,0,,Well, well, I've had enough.
+Dialogue: 0,0:12:01.22,0:12:03.45,Dialogue,,0,0,0,,Excuse me...
+Dialogue: 0,0:12:03.89,0:12:04.92,Dialogue,,0,0,0,,Mr. Majima!
+Dialogue: 0,0:12:05.89,0:12:07.65,Dialogue,,0,0,0,,Sorry I haven't been around\Nyou to see you lately.
+Dialogue: 0,0:12:07.66,0:12:10.59,Dialogue,,0,0,0,,I came to tell you that I'm going\Nto holding an exhibition.
+Dialogue: 0,0:12:10.59,0:12:12.33,Dialogue,,0,0,0,,If you like, please come by\Nand look at my photos.
+Dialogue: 0,0:12:12.83,0:12:15.53,Dialogue,,0,0,0,,A photo exhibition...
+Dialogue: 0,0:12:16.10,0:12:20.13,Dialogue,,0,0,0,,Well, Tomonori, you seem to\Nreally be working at it.
+Dialogue: 0,0:12:20.13,0:12:21.87,Dialogue,,0,0,0,,OK, I'll drop by.
+Dialogue: 0,0:12:21.87,0:12:22.94,Dialogue,,0,0,0,,President!
+Dialogue: 0,0:12:23.57,0:12:26.14,Dialogue,,0,0,0,,This is last month's sales report.
+Dialogue: 0,0:12:26.14,0:12:30.28,Dialogue,,0,0,0,,I hope-that the figures are accurate\Nat least, since this is your last time.
+Dialogue: 0,0:12:38.45,0:12:39.95,Dialogue,,0,0,0,,Now then .
+Dialogue: 0,0:12:39.95,0:12:40.95,Dialogue,,0,0,0,,Wait!
+Dialogue: 0,0:12:50.23,0:12:54.00,Dialogue,,0,0,0,,Dinner is ready, Sir.
+Dialogue: 0,0:12:55.97,0:12:58.81,Dialogue,,0,0,0,,Will you all please come\Nthis way to the banquet hall.
+Dialogue: 0,0:12:58.81,0:13:02.14,Dialogue,,0,0,0,,Finally! Dinner party!
+Dialogue: 0,0:13:22.10,0:13:27.07,Dialogue,,0,0,0,,Well: yd like to propose a toast\Nfor Kiyama Furniture's future prosperity!
+Dialogue: 0,0:13:27.30,0:13:29.07,Dialogue,,0,0,0,,Cheers!
+Dialogue: 0,0:13:29.44,0:13:32.41,Dialogue,,0,0,0,,This is the best meat I've ever tasted!
+Dialogue: 0,0:13:32.41,0:13:34.81,Dialogue,,0,0,0,,Yeah. .it.s-so-tender.
+Dialogue: 0,0:13:34.84,0:13:36.88,Dialogue,,0,0,0,,Care for a drink?
+Dialogue: 0,0:13:36.88,0:13:39.55,Dialogue,,0,0,0,,Oh, well, thank you.
+Dialogue: 0,0:13:39.55,0:13:42.42,Dialogue,,0,0,0,,Hahaha...You really do\NIike that, don You?
+Dialogue: 0,0:13:42.42,0:13:45.55,Dialogue,,0,0,0,,I really appreciate having the\Nopportunity to meet new friends like you.
+Dialogue: 0,0:13:45.55,0:13:47.42,Dialogue,,0,0,0,,So, if you like it, I'll sell it cheap to you.
+Dialogue: 0,0:13:47.42,0:13:49.09,Dialogue,,0,0,0,,Really!
+Dialogue: 0,0:13:49.09,0:13:50.02,Dialogue,,0,0,0,,Dad!
+Dialogue: 0,0:13:50.02,0:13:54.43,Dialogue,,0,0,0,,Hyahahah. You've go to be\Njoking...Hahaha...
+Dialogue: 0,0:13:54.43,0:13:56.70,Dialogue,,0,0,0,,H Hey. listen, Dad!
+Dialogue: 0,0:13:56.70,0:13:57.16,Dialogue,,0,0,0,,Huh
+Dialogue: 0,0:13:57.17,0:13:59.23,Dialogue,,0,0,0,,Hm...Come on!
+Dialogue: 0,0:13:59.23,0:14:01.23,Dialogue,,0,0,0,,So, please talk this over with your father
+Dialogue: 0,0:14:01.24,0:14:02.97,Dialogue,,0,0,0,,before you decide whether you\Nwant to buy it or not.
+Dialogue: 0,0:14:06.34,0:14:11.91,Dialogue,,0,0,0,,If you'll excuse me, I'veggot to get going\Nsince I still have work: left to do...
+Dialogue: 0,0:14:15.35,0:14:18.72,Dialogue,,0,0,0,,I guess I'll be going too...
+Dialogue: 0,0:14:18.82,0:14:21.12,Dialogue,,0,0,0,,OK, listen, I have a video\Nthat I want to watch,
+Dialogue: 0,0:14:21.12,0:14:22.99,Dialogue,,0,0,0,,so I hope you don't mind going to see\Nthe night view after I'm done.
+Dialogue: 0,0:14:23.49,0:14:24.99,Dialogue,,0,0,0,,Sure, no problem.
+Dialogue: 0,0:14:25.36,0:14:28.93,Dialogue,,0,0,0,,Well, I'll come and pick you up\Naround eleven fifteen.
+Dialogue: 0,0:14:28.93,0:14:30.33,Dialogue,,0,0,0,,So, please wait in your room.
+Dialogue: 0,0:14:30.33,0:14:32.13,Dialogue,,0,0,0,,Yes. I got it.
+Dialogue: 0,0:14:33.77,0:14:36.00,Dialogue,,0,0,0,,Wonder what kind of video it is?
+Dialogue: 0,0:14:36.17,0:14:38.81,Dialogue,,0,0,0,,It's a documentary film that he\Nwanted to watch about an adventurer
+Dialogue: 0,0:14:38.81,0:14:41.07,Dialogue,,0,0,0,,named Hiroyuki Sekiguchi.\NI happened to find the
+Dialogue: 0,0:14:41.08,0:14:44.28,Dialogue,,0,0,0,,video so I brought it with\Nme to show it to him
+Dialogue: 0,0:14:44.65,0:14:46.61,Dialogue,,0,0,0,,Hmm, I see
+Dialogue: 0,0:14:47.12,0:14:50.02,Dialogue,,0,0,0,,Phooey! Documentary film about a\Nn adventurer, my foot!
+Dialogue: 0,0:14:50.32,0:14:52.69,Dialogue,,0,0,0,,Neeser FOR\Nwatching videos like that
+Dialogue: 0,0:14:52.69,0:14:54.62,Dialogue,,0,0,0,,that's why the company's\Ntaken over by Majima.
+Dialogue: 0,0:14:54.66,0:14:57.89,Dialogue,,0,0,0,,What a thing to say, Mr. Hashimote!
+Dialogue: 0,0:14:57.89,0:15:00.43,Dialogue,,0,0,0,,Mr. Majima is not that kind of person.
+Dialogue: 0,0:15:00.46,0:15:03.70,Dialogue,,0,0,0,,Oh. and what's come\Nover you, Mr. Endo.
+Dialogue: 0,0:15:03.70,0:15:06.97,Dialogue,,0,0,0,,How strange for you to be\Ntaking sides with Majima
+Dialogue: 0,0:15:08.67,0:15:13.17,Dialogue,,0,0,0,,Making remarks like that\Nwon't help at this point already.
+Dialogue: 0,0:15:13.94,0:15:17.31,Dialogue,,0,0,0,,I hear you'll be discharged next month
+Dialogue: 0,0:15:17.31,0:15:19.51,Dialogue,,0,0,0,,due to the firm's poor performance,\Nwhich you're held responsible for.
+Dialogue: 0,0:15:20.62,0:15:23.18,Dialogue,,0,0,0,,But, the debts of Kiyama Interior are. "I
+Dialogue: 0,0:15:23.18,0:15:25.52,Dialogue,,0,0,0,,essentially the debts of Kiyama Furniture
+Dialogue: 0,0:15:25.52,0:15:29.12,Dialogue,,0,0,0,,The fact is that the parent company\Npassed the buck to your company, right?
+Dialogue: 0,0:15:29.12,0:15:32.33,Dialogue,,0,0,0,,I also hear that you are just\Ntaking out your misery on others,
+Dialogue: 0,0:15:32.33,0:15:35.26,Dialogue,,0,0,0,,shouting furiously\NWhy should I be fired for that...
+Dialogue: 0,0:15:35.26,0:15:41.33,Dialogue,,0,0,0,,So. everyone's worried saying, It comes\Nas no surprise if he killed Majima *
+Dialogue: 0,0:15:41.34,0:15:44.87,Dialogue,,0,0,0,,Hey, Mr. Hashimoto! You're really\Nstarting to get on my nerves!
+Dialogue: 0,0:15:50.24,0:15:55.78,Dialogue,,0,0,0,,So, please excuse me too because\NI have some work to do at my office.
+Dialogue: 0,0:15:56.82,0:16:00.72,Dialogue,,0,0,0,,By the way, you had better forget about\Nwhat you mentioned a little while ago...
+Dialogue: 0,0:16:01.16,0:16:02.62,Dialogue,,0,0,0,,What I mentioned a little while ago?
+Dialogue: 0,0:16:04.39,0:16:06.56,Dialogue,,0,0,0,,You mentioned the desk. Listen. At first\Nhe approaches you looking very friendly
+Dialogue: 0,0:16:06.66,0:16:08.80,Dialogue,,0,0,0,,But once he gets you,\Nyou can't get rid of him.
+Dialogue: 0,0:16:08.83,0:16:14.47,Dialogue,,0,0,0,,That's his way so don't get involved\Nwith him! He's bad news!
+Dialogue: 0,0:16:14.84,0:16:16.14,Dialogue,,0,0,0,,Mr. Hashimoto!
+Dialogue: 0,0:16:23.58,0:16:27.08,Dialogue,,0,0,0,,Dad, let's go back to our room too.
+Dialogue: 0,0:16:27.92,0:16:30.52,Dialogue,,0,0,0,,Come on It wouldn't\Nhurt to drink a little more.
+Dialogue: 0,0:16:30.89,0:16:35.52,Dialogue,,0,0,0,,You know, our life could come to an\Nend tomorrow. So, drink when you can.
+Dialogue: 0,0:16:35.82,0:16:37.76,Dialogue,,0,0,0,,Now you re talking.
+Dialogue: 0,0:16:38.13,0:16:40.16,Dialogue,,0,0,0,,Hey, Dad!
+Dialogue: 0,0:16:58.55,0:17:01.08,Dialogue,,0,0,0,,Oh, it's this late already...
+Dialogue: 0,0:17:01.22,0:17:04.22,Dialogue,,0,0,0,,Mr. Mouri, I think we\Nhave to call it a night
+Dialogue: 0,0:17:04.42,0:17:06.29,Dialogue,,0,0,0,,Dad, wake up.
+Dialogue: 0,0:17:06.42,0:17:07.82,Dialogue,,0,0,0,,Eh? What?
+Dialogue: 0,0:17:07.82,0:17:09.49,Dialogue,,0,0,0,,Let's get back to our room.
+Dialogue: 0,0:17:10.79,0:17:17.53,Dialogue,,0,0,0,,H-hey, wait! There's still a bottle of beer\Nto drink! Drink, drink while you can!
+Dialogue: 0,0:17:18.43,0:17:20.30,Dialogue,,0,0,0,,Is Mr. Mouri all right?
+Dialogue: 0,0:17:20.30,0:17:22.33,Dialogue,,0,0,0,,I'm really sorry for all the fuss...
+Dialogue: 0,0:17:22.44,0:17:24.67,Dialogue,,0,0,0,,I can still drink!
+Dialogue: 0,0:17:24.71,0:17:27.31,Dialogue,,0,0,0,,Here you are. This is\Nmedicine for hangover.
+Dialogue: 0,0:17:27.48,0:17:28.98,Dialogue,,0,0,0,,Thank you.
+Dialogue: 0,0:17:28.98,0:17:30.74,Dialogue,,0,0,0,,I'll be here if you need any assistance,
+Dialogue: 0,0:17:30.75,0:17:32.41,Dialogue,,0,0,0,,so please let me know if there is\Nanything else I can do for you.
+Dialogue: 0,0:17:32.41,0:17:33.55,Dialogue,,0,0,0,,Okay.
+Dialogue: 0,0:17:33.71,0:17:35.25,Dialogue,,0,0,0,,Good night.
+Dialogue: 0,0:17:52.77,0:17:57.97,Dialogue,,0,0,0,,Phew..This will be fine.\NI'm sorry for you father
+Dialogue: 0,0:17:58.34,0:18:00.61,Dialogue,,0,0,0,,I feel bad that I pushed\Nhim to drink more.
+Dialogue: 0,0:18:00.71,0:18:03.34,Dialogue,,0,0,0,,Don't worry. This happens all the time.
+Dialogue: 0,0:18:04.85,0:18:06.38,Dialogue,,0,0,0,,Sorry for the trouble. Thank you too.
+Dialogue: 0,0:18:06.68,0:18:07.78,Dialogue,,0,0,0,,Good night.
+Dialogue: 0,0:18:07.82,0:18:09.18,Dialogue,,0,0,0,,Yeah, good night...
+Dialogue: 0,0:18:27.47,0:18:29.30,Dialogue,,0,0,0,,Ah, yes\NI'll open the door now.
+Dialogue: 0,0:18:31.17,0:18:33.01,Dialogue,,0,0,0,,Sorry to keep you waiting.
+Dialogue: 0,0:18:33.24,0:18:34.67,Dialogue,,0,0,0,,No, not at all
+Dialogue: 0,0:18:35.04,0:18:36.74,Dialogue,,0,0,0,,Did you enjoy the video?
+Dialogue: 0,0:18:36.74,0:18:40.55,Dialogue,,0,0,0,,Yes very much. It was a superb\Ndocumentary with great power.
+Dialogue: 0,0:18:43.25,0:18:46.35,Dialogue,,0,0,0,,We're just taking a run\Nup to Mt. Prospect.
+Dialogue: 0,0:18:46.39,0:18:47.75,Dialogue,,0,0,0,,Don't be long.
+Dialogue: 0,0:18:59.80,0:19:02.97,Dialogue,,0,0,0,,Wow. It's so beautiful... like a dream!
+Dialogue: 0,0:19:03.60,0:19:06.57,Dialogue,,0,0,0,,Pop should have come here too!
+Dialogue: 0,0:19:06.57,0:19:07.37,Dialogue,,0,0,0,,Yeah.
+Dialogue: 0,0:19:07.38,0:19:11.78,Dialogue,,0,0,0,,I recall the days...when I was a child,\Nwhen my father and I used to come here
+Dialogue: 0,0:19:13.48,0:19:16.38,Dialogue,,0,0,0,,My father also liked this night view...
+Dialogue: 0,0:19:36.14,0:19:37.64,Dialogue,,0,0,0,,We're back now!
+Dialogue: 0,0:19:41.41,0:19:42.98,Dialogue,,0,0,0,,Welcome back!
+Dialogue: 0,0:19:42.98,0:19:45.25,Dialogue,,0,0,0,,How was the night scene?
+Dialogue: 0,0:19:45.25,0:19:48.68,Dialogue,,0,0,0,,It was so beautiful that\NI was impressed. Right, Conan?
+Dialogue: 0,0:19:49.32,0:19:49.92,Dialogue,,0,0,0,,Yeah.
+Dialogue: 0,0:19:50.62,0:19:52.45,Dialogue,,0,0,0,,That's great.
+Dialogue: 0,0:19:52.99,0:19:54.55,Dialogue,,0,0,0,,So, Ayaka, good night!
+Dialogue: 0,0:19:55.06,0:19:56.26,Dialogue,,0,0,0,,Good night!
+Dialogue: 0,0:19:57.49,0:19:58.63,Dialogue,,0,0,0,,Good night
+Dialogue: 0,0:20:09.17,0:20:10.10,Dialogue,,0,0,0,,A picturerg
+Dialogue: 0,0:20:11.41,0:20:13.57,Dialogue,,0,0,0,,Thank you veryamuch!
+Dialogue: 0,0:20:14.14,0:20:18.08,Dialogue,,0,0,0,,I'm glad that you enjoyed it.\NSo, see you tomorrow...
+Dialogue: 0,0:20:18.55,0:20:20.48,Dialogue,,0,0,0,,Good night!
+Dialogue: 0,0:20:47.84,0:20:51.24,Dialogue,,0,0,0,,Aughhaaa
+Dialogue: 0,0:20:54.32,0:20:55.48,Dialogue,,0,0,0,,This voice!
+Dialogue: 0,0:20:58.22,0:21:00.35,Dialogue,,0,0,0,,Huh? Wh-what is it?
+Dialogue: 0,0:21:00.99,0:21:02.92,Dialogue,,0,0,0,,Ayaka! What's wrong?
+Dialogue: 0,0:21:03.96,0:21:05.89,Dialogue,,0,0,0,,Th-that!
+Dialogue: 0,0:21:07.63,0:21:10.83,Dialogue,,0,0,0,,What happened? Ah!
+Dialogue: 0,0:21:17.67,0:21:20.21,Dialogue,,0,0,0,,Ma...President Majima!
+Dialogue: 0,0:21:20.21,0:21:22.28,Dialogue,,0,0,0,,What? What was that scream about?
+Dialogue: 0,0:21:22.94,0:21:24.28,Dialogue,,0,0,0,,Mr. Majima!
+Dialogue: 0,0:21:24.45,0:21:26.95,Dialogue,,0,0,0,,Ran! Call the police HOW! *
+Dialogue: 0,0:21:26.95,0:21:27.98,Dialogue,,0,0,0,,Yes!
+Dialogue: 0,0:21:30.22,0:21:31.89,Dialogue,,0,0,0,,What's the trouble?
+Dialogue: 0,0:21:32.95,0:21:35.26,Dialogue,,0,0,0,,P...President!
+Dialogue: 0,0:21:35.59,0:21:38.59,Dialogue,,0,0,0,,You!. .Keep Out! This is a homicide!
+Dialogue: 0,0:21:38.59,0:21:41.56,Dialogue,,0,0,0,,Don't enter the garden! We've\Ngot to preserve the crime scene!
+Dialogue: 0,0:21:41.73,0:21:44.93,Dialogue,,0,0,0,,What's with you. pushing.yourweight\Naround and giving out orders...
+Dialogue: 0,0:21:44.93,0:21:47.63,Dialogue,,0,0,0,,I'm Kogero Mouri, a private detective!
+Dialogue: 0,0:21:47.87,0:21:51.60,Dialogue,,0,0,0,,You're." Kogoro Mourn.\NThat:renowned detective!
+Dialogue: 0,0:21:51.94,0:21:53.61,Dialogue,,0,0,0,,You cot wt!
+Dialogue: 0,0:21:53.84,0:21:57.71,Dialogue,,0,0,0,,Don't you think that there's something\Nstrange about the President's corpse?
+Dialogue: 0,0:21:57.95,0:22:00.68,Dialogue,,0,0,0,,Huh? Strange? What s strange?
+Dialogue: 0,0:22:01.05,0:22:04.68,Dialogue,,0,0,0,,Around the body...\Nthere are no footsteps at all!
+Dialogue: 0,0:22:04.92,0:22:05.85,Dialogue,,0,0,0,,What?
+Dialogue: 0,0:22:09.32,0:22:10.32,Dialogue,,0,0,0,,Really...
+Dialogue: 0,0:22:10.96,0:22:13.06,Dialogue,,0,0,0,,So, how did the murderer
+Dialogue: 0,0:22:13.36,0:22:15.36,Dialogue,,0,0,0,,carry Mr. Majima up there?
+Dialogue: 0,0:22:25.67,0:22:29.21,Dialogue,,0,0,0,,Original Comic Books By.\NGOSH A@YAMA
+Dialogue: 0,0:22:31.65,0:22:35.28,Dialogue,,0,0,0,,: Producers\NMASAHITO YOSHIOKA
+Dialogue: 0,0:22:37.69,0:22:41.29,Dialogue,,0,0,0,,Background Music
+Dialogue: 0,0:22:43.69,0:22:47.29,Dialogue,,0,0,0,,Character Designs By.\NMASATOMO SUDGO
+Dialogue: 0,0:22:49.66,0:22:53.30,Dialogue,,0,0,0,,Story Editor.\NJUNICHI I11OKA
+Dialogue: 0,0:22:55.67,0:22:59.27,Dialogue,,0,0,0,,Scripts By\NKAN]! KASHIWABARA\NKAZUNARI KOUGHI *\N[UNICHI MW) mm\N» ad '» »\NTOSHIKI INOUE
+Dialogue: 0,0:23:01.68,0:23:05.31,Dialogue,,0,0,0,,Animition Directors.\NMASATOMO SUD\NHARUO QOOGAWARA\NATSUSHI AONO\NAKIO KAWAMURA\NTAKASHI HYOD
+Dialogue: 0,0:23:07.72,0:23:11.32,Dialogue,,0,0,0,,Art Director\NYUKIHIRO SHIBUTANI
+Dialogue: 0,0:23:13.69,0:23:17.32,Dialogue,,0,0,0,,Directors Of Photography.\NTAKASHI NOMURA\NHIRONOBU HORIKOSHI\NTAKAHISA OWAGA
+Dialogue: 0,0:23:19.69,0:23:23.33,Dialogue,,0,0,0,,Recording Director.\NKATSUYOSHI KOBAYASHI
+Dialogue: 0,0:23:25.73,0:23:29.30,Dialogue,,0,0,0,,Editor.\NTERUMITSU OKADA
+Dialogue: 0,0:23:31.74,0:23:35.38,Dialogue,,0,0,0,,Chief Director.\NKEN]! KODAMA
+Dialogue: 0,0:23:37.71,0:23:41.31,Dialogue,,0,0,0,,Produced By\NTMS ENTERTAINMENT, LTD\Nin association with\NYOMIURI TELECASTING\NCORPORATION
+Dialogue: 0,0:23:43.68,0:23:49.99,Dialogue,,0,0,0,,I> 11 (010 Le IN ANT\NGOSTIO VOY AMT SHOGARUR ANY TV TMS\NAl Rights Resyrved
+Dialogue: 0,0:23:50.86,0:23:54.96,Dialogue,,0,0,0,,What? sscrape. it looks\NIike something was dragged
+Dialogue: 0,0:23:55.66,0:23:57.16,Dialogue,,0,0,0,,Strange...
+Dialogue: 0,0:23:57.43,0:24:01.87,Dialogue,,0,0,0,,If Pop is right. how can the dead\Nbody be lying in that way?
+Dialogue: 0,0:24:02.50,0:24:04.27,Dialogue,,0,0,0,,But, if he is wrong
+Dialogue: 0,0:24:07.71,0:24:09.28,Dialogue,,0,0,0,,Why is this here?
+Dialogue: 0,0:24:10.81,0:24:13.78,Dialogue,,0,0,0,,Aha . I've got it...

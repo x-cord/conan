@@ -1,0 +1,337 @@
+[Script Info]
+Title: Detective Conan - 0219a Remastered
+TL Source: interNed
+ScriptType: v4.00+
+WrapStyle: 3
+PlayResX: 1440
+PlayResY: 1080
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Dialogue,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00401311,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Dialogue Top,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00401311,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,8,30,30,55,1
+Style: Signs,FrancophilSans,74,&H14FFFFFF,&H00FFFFFF,&H46101010,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,8,30,30,55,1
+Style: Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,0,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Radio,FrancophilSans,74,&H00BEE1FF,&H00FFFFFF,&H000B2A42,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Narration,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00BF6F00,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Narration Off,FrancophilSans,74,&H6E8C6F00,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,0,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Flashback,FrancophilSans,74,&H00CDFAFF,&H00FFFFFF,&H00373737,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Flashback Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00CCFFFF,&HC0313134,-1,0,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Honorifics - Dialogue,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00401311,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Signs,FrancophilSans,74,&H14FFFFFF,&H00FFFFFF,&H46101010,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,-1,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Honorifics - Radio,FrancophilSans,74,&H00BEE1FF,&H00FFFFFF,&H000B2A42,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Narration,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00BF6F00,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Narration Off,FrancophilSans,74,&H6E8C6F00,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,-1,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Honorifics - Flashback,FrancophilSans,74,&H00CDFAFF,&H00FFFFFF,&H00373737,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Flashback Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00CCFFFF,&HC0313134,-1,-1,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Masks,FrancophilSans,74,&H00000000,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,2,0,0,0,1
+Style: Title,Conan Episode Title,74,&H00E1E4E3,&H000000FF,&HC8DBDAE1,&HC0000000,-1,0,0,0,100,100,0,0,1,1,0,5,0,0,0,1
+Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-1,0,0,0,100,100,0,0,1,0,0,2,0,0,65,1
+Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
+Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
+Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:01.91,0:00:16.56,Dialogue,,0,0,0,,{\an7}Translated to En by: Spimer and Ned\NTimed and Typesetted by: Ned
+Dialogue: 0,0:02:12.82,0:02:18.95,Dialogue Top,,0,0,0,,The Gathering of the Detectives\N(Part 1)
+Dialogue: 0,0:02:24.45,0:02:26.78,Dialogue,,0,0,0,,{\an5}Shit! What part of this is a shortcut?!
+Dialogue: 0,0:02:27.19,0:02:30.96,Dialogue,,0,0,0,,{\an5}That old guy from the gasoline stand,\Ntelling me to use this road...!
+Dialogue: 0,0:02:31.67,0:02:33.13,Dialogue,,0,0,0,,Say, dad
+Dialogue: 0,0:02:33.13,0:02:35.30,Dialogue,,0,0,0,,Are we really on the right road?
+Dialogue: 0,0:02:35.75,0:02:36.49,Dialogue,,0,0,0,,For sure!
+Dialogue: 0,0:02:36.87,0:02:39.34,Dialogue,,0,0,0,,He had me come inside the store, buy a map,
+Dialogue: 0,0:02:39.40,0:02:43.55,Dialogue,,0,0,0,,and then told me this road... That old guy!
+Dialogue: 0,0:02:43.55,0:02:46.97,Dialogue,,0,0,0,,If this is the wrong road,\Nthen I'll make him regret doing that!
+Dialogue: 0,0:02:53.62,0:02:56.40,Dialogue,,0,0,0,,Looks like we are finally\Nback on a decent road!
+Dialogue: 0,0:02:57.15,0:02:59.57,Dialogue,,0,0,0,,But it looks like it really was a shortcut!
+Dialogue: 0,0:03:01.05,0:03:03.94,Dialogue,,0,0,0,,That's it, isn't it?
+Dialogue: 0,0:03:04.36,0:03:07.71,Dialogue,,0,0,0,,Where we are heading to...
+Dialogue: 0,0:03:08.49,0:03:11.45,Dialogue,,0,0,0,,The "Twilight Mansion"...
+Dialogue: 0,0:03:12.20,0:03:15.50,Dialogue,,0,0,0,,Instead of twilight mansion,\Nit looks more like Drakula's castle
+Dialogue: 0,0:03:16.44,0:03:19.79,Dialogue,,0,0,0,,Are we really going there?
+Dialogue: 0,0:03:20.28,0:03:21.12,Dialogue,,0,0,0,,Idiot!
+Dialogue: 0,0:03:21.47,0:03:24.61,Dialogue,,0,0,0,,I got an invitation which said\N"I want to invite you to my banquet, so as to praise your wisdom"
+Dialogue: 0,0:03:24.72,0:03:27.56,Dialogue,,0,0,0,,And 2 million yen in bank notes!\NWe have to go investigate, right?
+Dialogue: 0,0:03:28.17,0:03:32.57,Dialogue,,0,0,0,,But didn't that invitation have something\Ncreepy written where the sender's name would be?
+Dialogue: 0,0:03:32.83,0:03:36.60,Dialogue,,0,0,0,,Yeah... Something like that...\N"The phantom of the child abandoned by God"
+Dialogue: 0,0:03:36.76,0:03:37.98,Dialogue,,0,0,0,,Don't worry
+Dialogue: 0,0:03:38.35,0:03:40.50,Dialogue,,0,0,0,,It's just a word play
+Dialogue: 0,0:03:41.49,0:03:42.87,Dialogue,,0,0,0,,I wonder about that...
+Dialogue: 0,0:03:54.93,0:03:56.51,Dialogue,,0,0,0,,A mountain witch?!
+Dialogue: 0,0:03:56.74,0:04:01.08,Dialogue,,0,0,0,,What a way for addressing a lady
+Dialogue: 0,0:04:01.45,0:04:04.15,Dialogue,,0,0,0,,What's the matter, grandma?
+Dialogue: 0,0:04:04.15,0:04:05.95,Dialogue,,0,0,0,,As you can see
+Dialogue: 0,0:04:05.95,0:04:09.66,Dialogue,,0,0,0,,My cute little Fiat's engine has stalled
+Dialogue: 0,0:04:10.09,0:04:12.74,Dialogue,,0,0,0,,I was waiting for someone to drive by
+Dialogue: 0,0:04:15.50,0:04:20.88,Dialogue,,0,0,0,,You're also going to that mansion,\Naren't you? Can you give me a ride?
+Dialogue: 0,0:04:33.56,0:04:35.75,Dialogue,,0,0,0,,Dad, are we there yet?
+Dialogue: 0,0:04:37.00,0:04:39.71,Dialogue,,0,0,0,,Almost... What's wrong?
+Dialogue: 0,0:04:40.84,0:04:42.64,Dialogue,,0,0,0,,I need to go to the restroom!
+Dialogue: 0,0:04:42.82,0:04:43.65,Dialogue,,0,0,0,,Sheesh...
+Dialogue: 0,0:04:44.61,0:04:48.53,Dialogue,,0,0,0,,Why didn't you use the{\rHonorifics - Dialogue} chan{\r}ce you had\Nwhen you stopped by the gasoline stand a while ago?
+Dialogue: 0,0:04:50.41,0:04:52.53,Dialogue,,0,0,0,,Grandma, how did you know,
+Dialogue: 0,0:04:52.53,0:04:55.33,Dialogue,,0,0,0,,that we stopped by the\Ngasoline stand a while ago?
+Dialogue: 0,0:04:55.95,0:04:58.71,Dialogue,,0,0,0,,It's very simple little boy
+Dialogue: 0,0:04:58.71,0:05:04.46,Dialogue,,0,0,0,,The ashtray is empty,\Nand a brand new finished cigarette has dropped below it
+Dialogue: 0,0:05:05.13,0:05:09.05,Dialogue,,0,0,0,,If the ashtray was full enough to have spilled over,
+Dialogue: 0,0:05:09.05,0:05:10.76,Dialogue,,0,0,0,,that's a proof that it's used by a heavy smoker...
+Dialogue: 0,0:05:10.76,0:05:13.06,Dialogue,,0,0,0,,And yet the ashtray is empty
+Dialogue: 0,0:05:13.13,0:05:18.48,Dialogue,,0,0,0,,The only place you can do that is\Nthe isolated gasoline stand about 10KM away from here...
+Dialogue: 0,0:05:18.80,0:05:21.81,Dialogue,,0,0,0,,Excuse me, but who are you?!
+Dialogue: 0,0:05:22.17,0:05:24.06,Dialogue,,0,0,0,,I am Senma Furuya
+Dialogue: 0,0:05:22.80,0:05:26.80,Dialogue Top,,0,0,0,,Senma Furuya (63)\NDetective
+Dialogue: 0,0:05:24.06,0:05:27.44,Dialogue,,0,0,0,,I'm a detective, like you,\NMr. Sleeping Kogoro!
+Dialogue: 0,0:05:28.44,0:05:29.77,Dialogue,,0,0,0,,Senma Furuya?!
+Dialogue: 0,0:05:29.77,0:05:35.94,Dialogue,,0,0,0,,The famous detective who solves cases\Nsimply by listening to its details whilst sitting in an armchair?
+Dialogue: 0,0:05:35.94,0:05:39.95,Dialogue,,0,0,0,,Well, an old lady like me doesn't\Ndeserve this kind of compliment
+Dialogue: 0,0:05:58.84,0:06:00.43,Dialogue,,0,0,0,,Dad, open the boot
+Dialogue: 0,0:06:05.39,0:06:10.02,Dialogue,,0,0,0,,Whoa... When you look at it up this close,\Nit does look like a monster's mansion
+Dialogue: 0,0:06:10.73,0:06:12.77,Dialogue,,0,0,0,,I'll go in first
+Dialogue: 0,0:06:13.40,0:06:14.11,Dialogue,,0,0,0,,OK
+Dialogue: 0,0:06:14.86,0:06:15.86,Dialogue,,0,0,0,,Toilet, toilet
+Dialogue: 0,0:06:19.61,0:06:22.99,Dialogue,,0,0,0,,Whoa... It's full of classy cars...
+Dialogue: 0,0:06:22.99,0:06:24.54,Dialogue,,0,0,0,,Yeah...
+Dialogue: 0,0:06:24.54,0:06:27.87,Dialogue,,0,0,0,,A Benz, a Ferrari, and a Porsche!
+Dialogue: 0,0:06:28.29,0:06:30.65,Dialogue,,0,0,0,,Oh! It's an Alfa Romeo, isn't it!
+Dialogue: 0,0:06:32.56,0:06:33.58,Dialogue,,0,0,0,,How elegant!
+Dialogue: 0,0:06:33.76,0:06:34.18,Dialogue,,0,0,0,,You!
+Dialogue: 0,0:06:36.85,0:06:39.60,Dialogue,,0,0,0,,Don't touch my girl!!
+Dialogue: 0,0:06:40.77,0:06:44.61,Dialogue,,0,0,0,,That's a horse that took me 5 years to win over
+Dialogue: 0,0:06:45.23,0:06:49.32,Dialogue,,0,0,0,,It's inconvenient for me if other men are touching her
+Dialogue: 0,0:06:50.24,0:06:51.82,Dialogue,,0,0,0,,Right, whiskers?
+Dialogue: 0,0:06:52.12,0:06:53.53,Dialogue,,0,0,0,,Whiskers?
+Dialogue: 0,0:06:53.53,0:06:55.66,Dialogue,,0,0,0,,Why it has been a while, Mogi!
+Dialogue: 0,0:06:56.74,0:06:58.29,Dialogue,,0,0,0,,So you've been summoned as well?
+Dialogue: 0,0:06:58.72,0:07:00.75,Dialogue,,0,0,0,,Oh, it's granny Senma!
+Dialogue: 0,0:07:00.75,0:07:02.79,Dialogue,,0,0,0,,You too?
+Dialogue: 0,0:07:03.34,0:07:04.25,Dialogue,,0,0,0,,Mogi?
+Dialogue: 0,0:07:04.57,0:07:08.03,Dialogue Top,,0,0,0,,Mogi Harufumi (39)\NDetective
+Dialogue: 0,0:07:05.25,0:07:06.96,Dialogue,,0,0,0,,Is he detective Mogi Harufumi?
+Dialogue: 0,0:07:15.21,0:07:16.21,Dialogue,,0,0,0,,Welcome
+Dialogue: 0,0:07:16.88,0:07:20.59,Dialogue,,0,0,0,,Mr. Mogi, Mr. Mouri, and Ms. Senma, right?
+Dialogue: 0,0:07:20.59,0:07:22.26,Dialogue,,0,0,0,,We were expecting you...
+Dialogue: 0,0:07:22.26,0:07:23.51,Dialogue,,0,0,0,,Please, come in...
+Dialogue: 0,0:07:30.31,0:07:31.48,Dialogue,,0,0,0,,It is indeed
+Dialogue: 0,0:07:31.48,0:07:33.10,Dialogue,,0,0,0,,like a haunted mansion, right?
+Dialogue: 0,0:07:34.48,0:07:37.15,Dialogue,,0,0,0,,Excuse me...\NYou can use this bin for the wet umbrellas
+Dialogue: 0,0:07:37.15,0:07:38.52,Dialogue,,0,0,0,,Alright
+Dialogue: 0,0:07:38.52,0:07:39.61,Dialogue,,0,0,0,,Hey you!
+Dialogue: 0,0:07:39.61,0:07:40.61,Dialogue,,0,0,0,,yes...
+Dialogue: 0,0:07:40.61,0:07:41.94,Dialogue,,0,0,0,,Excuse me...
+Dialogue: 0,0:07:44.53,0:07:47.16,Dialogue,,0,0,0,,Just checked the kitchen,
+Dialogue: 0,0:07:47.91,0:07:49.41,Dialogue,,0,0,0,,If I'm not mistaken, this
+Dialogue: 0,0:07:49.41,0:07:51.16,Dialogue,,0,0,0,,is the gourmet detective
+Dialogue: 0,0:07:51.11,0:07:55.07,Dialogue Top,,0,0,0,,Oogami Shuzuken (51)\NDetective
+Dialogue: 0,0:07:51.42,0:07:52.32,Dialogue,,0,0,0,,Huh??!
+Dialogue: 0,0:07:52.53,0:07:55.43,Dialogue,,0,0,0,,The cook suddenly got sick and cannot come?!
+Dialogue: 0,0:07:55.43,0:07:57.51,Dialogue,,0,0,0,,This isn't what I've been told!!
+Dialogue: 0,0:07:57.51,0:08:01.06,Dialogue,,0,0,0,,I came here to enjoy the banquet, you know!!
+Dialogue: 0,0:08:01.06,0:08:04.69,Dialogue,,0,0,0,,I am sorry, sir... I did buy the ingredients, but...
+Dialogue: 0,0:08:04.82,0:08:08.73,Dialogue,,0,0,0,,Fine... Lend me the kitchen, I'll cook it myself
+Dialogue: 0,0:08:08.92,0:08:09.81,Dialogue,,0,0,0,,Sheesh!
+Dialogue: 0,0:08:15.80,0:08:17.45,Dialogue,,0,0,0,,Sorry for your wait
+Dialogue: 0,0:08:18.62,0:08:23.95,Dialogue,,0,0,0,,What's your game? Why did you summon four\Ndetectives to this secluded spot in the mountains?
+Dialogue: 0,0:08:24.24,0:08:25.03,Dialogue,,0,0,0,,Ah, no...
+Dialogue: 0,0:08:25.03,0:08:28.45,Dialogue,,0,0,0,,There is a total of six detectives who were invited...
+Dialogue: 0,0:08:29.47,0:08:31.24,Dialogue,,0,0,0,,Hey hey...
+Dialogue: 0,0:08:31.24,0:08:33.54,Dialogue,,0,0,0,,So there's two more?
+Dialogue: 0,0:08:33.54,0:08:36.08,Dialogue,,0,0,0,,Y-yes... A lady, and a young man...
+Dialogue: 0,0:08:36.83,0:08:39.08,Dialogue,,0,0,0,,A young man...? Could it be Shinichi?!
+Dialogue: 0,0:08:39.38,0:08:40.83,Dialogue,,0,0,0,,Wrong!
+Dialogue: 0,0:08:40.83,0:08:44.09,Dialogue,,0,0,0,,It must be Heiji-niichan!
+Dialogue: 0,0:08:44.09,0:08:50.97,Dialogue,,0,0,0,,No, those two people were also in the\Nname of guests I received from the master,
+Dialogue: 0,0:08:50.97,0:08:52.80,Dialogue,,0,0,0,,but I couldn't contact Mr. Kudou...
+Dialogue: 0,0:08:53.43,0:08:58.82,Dialogue,,0,0,0,,And regarding Mr. Hattori, his mother called\Nus to decline, saying that his mid-term exams were close
+Dialogue: 0,0:09:00.37,0:09:03.91,Dialogue,,0,0,0,,And, where is that mad detective-loving rascal?
+Dialogue: 0,0:09:04.71,0:09:08.25,Dialogue,,0,0,0,,I do not know... I have not met him either
+Dialogue: 0,0:09:08.56,0:09:11.09,Dialogue,,0,0,0,,Huh? But you got a list from him, no?
+Dialogue: 0,0:09:11.09,0:09:16.76,Dialogue,,0,0,0,,Yes, sir... It's true that I got the list\Nduring the interview for the maid job,
+Dialogue: 0,0:09:16.76,0:09:19.26,Dialogue,,0,0,0,,but it was an odd interview
+Dialogue: 0,0:09:19.93,0:09:20.76,Dialogue,,0,0,0,,Odd?
+Dialogue: 0,0:09:20.80,0:09:24.81,Dialogue Top,,0,0,0,,Ishihara Aki (23)\NMaid
+Dialogue: 0,0:09:21.09,0:09:22.39,Dialogue,,0,0,0,,Yes
+Dialogue: 0,0:09:22.39,0:09:26.60,Dialogue,,0,0,0,,It was a fairly good job so it was flooded with applicants
+Dialogue: 0,0:09:26.60,0:09:29.77,Dialogue,,0,0,0,,when I entered the interview's room
+Dialogue: 0,0:09:29.77,0:09:36.99,Dialogue,,0,0,0,,There was only a PC, the instructions of the banquet,\Nand the list of guests above a desk
+Dialogue: 0,0:09:36.99,0:09:38.78,Dialogue,,0,0,0,,there was no-one
+Dialogue: 0,0:09:39.57,0:09:44.12,Dialogue,,0,0,0,,I had to read the instructions\Nwhilst sitting in front of the PC
+Dialogue: 0,0:09:44.83,0:09:50.79,Dialogue,,0,0,0,,Then all of a sudden, a phrase says\N"you have been selected" appeared on the screen
+Dialogue: 0,0:09:51.12,0:09:56.02,Dialogue,,0,0,0,,I see... That's interesting...\NI've finally gotten excited
+Dialogue: 0,0:09:57.72,0:10:01.47,Dialogue,,0,0,0,,I've been excited ever since I saw those\Nodd patterns on the hall's door, you know?
+Dialogue: 0,0:10:03.47,0:10:05.35,Dialogue,,0,0,0,,It's an odd pattern, yes...
+Dialogue: 0,0:10:05.91,0:10:07.91,Dialogue,,0,0,0,,I wonder what kind of decoration is this
+Dialogue: 0,0:10:07.91,0:10:09.42,Dialogue,,0,0,0,,Watch out, baby
+Dialogue: 0,0:10:09.42,0:10:11.71,Dialogue,,0,0,0,,Those gotta be old traces of blood
+Dialogue: 0,0:10:13.52,0:10:15.09,Dialogue,,0,0,0,,No way!
+Dialogue: 0,0:10:16.26,0:10:18.13,Dialogue,,0,0,0,,You are joking, right?
+Dialogue: 0,0:10:18.13,0:10:19.72,Dialogue,,0,0,0,,Nope, it's true
+Dialogue: 0,0:10:22.22,0:10:27.35,Dialogue,,0,0,0,,They're splash bloodstains which reached\Nthe door with a 45 degrees angle of incidence
+Dialogue: 0,0:10:27.98,0:10:29.69,Dialogue,,0,0,0,,It's not only the door
+Dialogue: 0,0:10:29.69,0:10:31.44,Dialogue,,0,0,0,,The walls have downward-flowing blood stains
+Dialogue: 0,0:10:31.44,0:10:32.94,Dialogue,,0,0,0,,And the floor has dripping blood stains
+Dialogue: 0,0:10:34.06,0:10:35.98,Dialogue,,0,0,0,,And it seems that the source of these
+Dialogue: 0,0:10:36.60,0:10:38.86,Dialogue,,0,0,0,,Isn't for only one or two people
+Dialogue: 0,0:10:38.88,0:10:40.75,Dialogue,,0,0,0,,As expected of you
+Dialogue: 0,0:10:41.72,0:10:42.89,Dialogue,,0,0,0,,Luminol...
+Dialogue: 0,0:10:44.68,0:10:49.94,Dialogue,,0,0,0,,If you spray it on blood stains, the active\Noxygen in the bloodstream oxidises
+Dialogue: 0,0:10:49.94,0:10:52.94,Dialogue,,0,0,0,,a bluish purple phosphorescence is emitted
+Dialogue: 0,0:10:54.23,0:10:58.70,Dialogue,,0,0,0,,You have good tools...\NEx-coroner, Ms. Souda Ikumi
+Dialogue: 0,0:10:57.80,0:11:02.80,Dialogue,,0,0,0,,Souda Ikumi (29)\NDetective
+Dialogue: 0,0:10:59.66,0:11:04.54,Dialogue,,0,0,0,,I'm honoured by this praise, boy
+Dialogue: 0,0:11:04.43,0:11:09.14,Dialogue,,0,0,0,,Hakuba Saguru (17)\NDetective
+Dialogue: 0,0:11:06.00,0:11:08.29,Dialogue,,0,0,0,,My name is Hakuba Saguru
+Dialogue: 0,0:11:08.29,0:11:09.29,Dialogue,,0,0,0,,Nice to meet you
+Dialogue: 0,0:11:14.43,0:11:15.93,Dialogue,,0,0,0,,A hawk?!
+Dialogue: 0,0:11:18.56,0:11:19.94,Dialogue,,0,0,0,,Ah. Sorry for startling you
+Dialogue: 0,0:11:20.69,0:11:26.95,Dialogue,,0,0,0,,Guess it's because I had them with me in England,\Nit seem it's gotten used to blood
+Dialogue: 0,0:11:28.26,0:11:30.89,Dialogue,,0,0,0,,But it was worth coming back here
+Dialogue: 0,0:11:30.93,0:11:36.48,Dialogue,,0,0,0,,This is the scene of the rumored tragedy\Nwhich has been concealed for a long time
+Dialogue: 0,0:11:36.58,0:11:39.73,Dialogue,,0,0,0,,And, after 40 years, I've finally been able to descend on it
+Dialogue: 0,0:11:40.60,0:11:41.98,Dialogue,,0,0,0,,Tragedy
+Dialogue: 0,0:11:45.12,0:11:48.21,Dialogue,,0,0,0,,{\an7}Translated to En by: Spimer and Ned\NTimed and Typesetted by: Ned
+Dialogue: 0,0:11:55.73,0:11:57.33,Dialogue,,0,0,0,,I think I've lost my appetite
+Dialogue: 0,0:12:06.20,0:12:07.16,Dialogue,,0,0,0,,Please...
+Dialogue: 0,0:12:13.32,0:12:16.42,Dialogue,,0,0,0,,My noble six detectives!
+Dialogue: 0,0:12:16.66,0:12:19.93,Dialogue,,0,0,0,,Thank you for coming to my Twilight Mansion
+Dialogue: 0,0:12:21.30,0:12:24.43,Dialogue,,0,0,0,,Sit down in your respective seats
+Dialogue: 0,0:12:31.23,0:12:35.25,Dialogue,,0,0,0,,Bring out the food in the order I told you to
+Dialogue: 0,0:12:35.25,0:12:36.44,Dialogue,,0,0,0,,Yes sir
+Dialogue: 0,0:12:36.90,0:12:43.79,Dialogue,,0,0,0,,I invited you here because I want you to search for a treasure
+Dialogue: 0,0:12:43.79,0:12:46.65,Dialogue,,0,0,0,,which I've put to rest somewhere in this mansion
+Dialogue: 0,0:12:47.06,0:12:50.61,Dialogue,,0,0,0,,Enormous wealth that I've gained over my many years
+Dialogue: 0,0:12:51.40,0:12:53.60,Dialogue,,0,0,0,,And you will stake your lives to find it
+Dialogue: 0,0:12:54.21,0:12:55.38,Dialogue,,0,0,0,,Our lives?!
+Dialogue: 0,0:12:59.68,0:13:01.53,Dialogue,,0,0,0,,What was that sound?!
+Dialogue: 0,0:13:01.59,0:13:03.18,Dialogue,,0,0,0,,Don't fret. I've only cut your feet
+Dialogue: 0,0:13:03.18,0:13:05.88,Dialogue,,0,0,0,,I destroyed the cars so you won't run away
+Dialogue: 0,0:13:06.12,0:13:06.74,Dialogue,,0,0,0,,What?
+Dialogue: 0,0:13:07.18,0:13:10.02,Dialogue,,0,0,0,,I'm always being hunted by the\Npolice and you detectives
+Dialogue: 0,0:13:10.90,0:13:15.36,Dialogue,,0,0,0,,I thought that you should be the\Nones being hunted, for once
+Dialogue: 0,0:13:16.07,0:13:20.07,Dialogue,,0,0,0,,I've also brought down the bridge\Nthat leads here at the same time
+Dialogue: 0,0:13:20.53,0:13:23.91,Dialogue,,0,0,0,,so it's impossible to flee\Neven if you had a car left
+Dialogue: 0,0:13:24.58,0:13:29.46,Dialogue,,0,0,0,,And, of course, there are no phones here\Nand we're outside of cell phone range
+Dialogue: 0,0:13:29.46,0:13:32.54,Dialogue,,0,0,0,,Thus it's impossible to seek help from outside
+Dialogue: 0,0:13:33.42,0:13:34.21,Dialogue,,0,0,0,,Indeed...
+Dialogue: 0,0:13:34.44,0:13:38.88,Dialogue,,0,0,0,,To put it another way, this is a game\Nin which whoever finds the treasure will be given half of it
+Dialogue: 0,0:13:38.88,0:13:44.43,Dialogue,,0,0,0,,and told how to escape this place
+Dialogue: 0,0:13:44.43,0:13:46.39,Dialogue,,0,0,0,,Are you interested?
+Dialogue: 0,0:13:48.54,0:13:53.98,Dialogue,,0,0,0,,I dislike rascals who hide their face and run around, hiding from us!!
+Dialogue: 0,0:13:58.61,0:14:01.54,Dialogue,,0,0,0,,Alright! You can't fight a war with an empty stomach
+Dialogue: 0,0:14:01.61,0:14:05.33,Dialogue,,0,0,0,,make sure to enjoy it... Enjoy your last banquet
+Dialogue: 0,0:14:04.03,0:14:05.91,Dialogue,,0,0,0,,A speaker set in a mannequin's head?!
+Dialogue: 0,0:14:05.95,0:14:07.45,Dialogue,,0,0,0,,Shit!
+Dialogue: 0,0:14:07.54,0:14:08.24,Dialogue,,0,0,0,,Who is...
+Dialogue: 0,0:14:09.30,0:14:10.89,Dialogue,,0,0,0,,Who is behind this?!
+Dialogue: 0,0:14:11.14,0:14:11.70,Dialogue,,0,0,0,,Oh my...
+Dialogue: 0,0:14:11.80,0:14:14.68,Dialogue,,0,0,0,,You, Detective Mouri, actually came here without knowing that?
+Dialogue: 0,0:14:16.10,0:14:18.55,Dialogue,,0,0,0,,It was written in the invitation, wasn't it?
+Dialogue: 0,0:14:19.29,0:14:21.48,Dialogue,,0,0,0,,"The phantom of the child abandoned by God
+Dialogue: 0,0:14:23.96,0:14:29.71,Dialogue,,0,0,0,,The "genie" is a "phantom"...\NIt's elusive, yet it's not real... It's an illusion
+Dialogue: 0,0:14:29.81,0:14:33.66,Dialogue,,0,0,0,,This kanji for child, which has the radical for "human"\Nattached to it means a beast's offspring
+Dialogue: 0,0:14:33.75,0:14:36.86,Dialogue,,0,0,0,,See! You use it for "puppy" or "pony", no?
+Dialogue: 0,0:14:37.19,0:14:43.93,Dialogue,,0,0,0,,The child abandoned by God is the yagi\Nin the New Testament, which wasn't blessed by God
+Dialogue: 0,0:14:44.22,0:14:47.08,Dialogue,,0,0,0,,So this phrase means a koyagi
+Dialogue: 0,0:14:47.82,0:14:52.58,Dialogue,,0,0,0,,The "yagi" is called "goat" in English, and the "koyagi" is called
+Dialogue: 0,0:14:53.62,0:14:54.57,Dialogue,,0,0,0,,"Kid"
+Dialogue: 0,0:14:56.31,0:14:57.76,Dialogue,,0,0,0,,Kaito Kid
+Dialogue: 0,0:14:58.50,0:15:04.01,Dialogue,,0,0,0,,You mean... Kaito Kid invited us here?
+Dialogue: 0,0:15:05.43,0:15:09.48,Dialogue,,0,0,0,,It seems that his intent is to gather us six famous detectives
+Dialogue: 0,0:15:09.57,0:15:11.98,Dialogue,,0,0,0,,to pit our wits against each other
+Dialogue: 0,0:15:22.16,0:15:23.58,Dialogue,,0,0,0,,Brought the dishes
+Dialogue: 0,0:15:29.34,0:15:30.83,Dialogue,,0,0,0,,Say, Ms. maid
+Dialogue: 0,0:15:31.01,0:15:31.59,Dialogue,,0,0,0,,Yes
+Dialogue: 0,0:15:32.29,0:15:38.35,Dialogue,,0,0,0,,Could it be that the order in which you put the food\Nin the table was part of the master's instructions?
+Dialogue: 0,0:15:38.68,0:15:39.35,Dialogue,,0,0,0,,Yes
+Dialogue: 0,0:15:39.35,0:15:42.85,Dialogue,,0,0,0,,I was ordered to start from\NMr. Hakuba and serve clockwise
+Dialogue: 0,0:15:44.76,0:15:48.48,Dialogue,,0,0,0,,There's not any poison since I'm the one who cooked it!
+Dialogue: 0,0:15:48.94,0:15:52.01,Dialogue,,0,0,0,,How about we do rock-paper-scissors to swap seats?
+Dialogue: 0,0:15:52.28,0:15:55.57,Dialogue,,0,0,0,,But what if someone had bad luck and got the poisoned food?!
+Dialogue: 0,0:15:56.89,0:16:01.03,Dialogue,,0,0,0,,They'll accept their destiny and cry inside of their coffin
+Dialogue: 0,0:16:01.91,0:16:03.12,Dialogue,,0,0,0,,No way!
+Dialogue: 0,0:16:08.54,0:16:10.61,Dialogue,,0,0,0,,Delicious!
+Dialogue: 0,0:16:10.79,0:16:12.77,Dialogue,,0,0,0,,As expected from the gourmet detective
+Dialogue: 0,0:16:12.77,0:16:15.30,Dialogue,,0,0,0,,Brilliant cooking skills!
+Dialogue: 0,0:16:16.09,0:16:20.72,Dialogue,,0,0,0,,I went through intense training\Nto serve my own taste
+Dialogue: 0,0:16:21.24,0:16:25.87,Dialogue,,0,0,0,,How was it, my fellows,\Nthe last banquet that I prepared for you?
+Dialogue: 0,0:16:26.40,0:16:28.37,Dialogue,,0,0,0,,Huh, here it comes again...
+Dialogue: 0,0:16:29.25,0:16:37.38,Dialogue,,0,0,0,,I should begin to explain why I spent a fortune\Nto make this mansion the stage for this game
+Dialogue: 0,0:16:37.97,0:16:43.89,Dialogue,,0,0,0,,First of all, have a look at the\Neating utensils in front of you...
+Dialogue: 0,0:16:46.43,0:16:46.89,Dialogue,,0,0,0,,A bird?
+Dialogue: 0,0:16:47.68,0:16:51.40,Dialogue,,0,0,0,,There's a mark of a bird with\Na big beak which is rather creepy
+Dialogue: 0,0:16:51.90,0:16:54.32,Dialogue,,0,0,0,,Isn't this a crow?
+Dialogue: 0,0:16:54.32,0:16:56.61,Dialogue,,0,0,0,,If that's the case, this might be...
+Dialogue: 0,0:16:56.73,0:16:58.18,Dialogue,,0,0,0,,Have you realised?
+Dialogue: 0,0:16:58.74,0:17:02.62,Dialogue,,0,0,0,,That's the millionaire who died a\Nmysterious death half a century ago
+Dialogue: 0,0:17:04.50,0:17:07.58,Dialogue,,0,0,0,,Karasuma Renya
+Dialogue: 0,0:17:05.33,0:17:07.58,Dialogue,,0,0,0,,The crest of Karasuma Renya
+Dialogue: 0,0:17:07.96,0:17:09.87,Dialogue,,0,0,0,,Karasuma Renya?!
+Dialogue: 0,0:17:10.89,0:17:11.79,Dialogue,,0,0,0,,True
+Dialogue: 0,0:17:12.24,0:17:19.15,Dialogue,,0,0,0,,This happened one night, 40 years ago,\Nwhen this mansion was still beautiful
+Dialogue: 0,0:17:19.44,0:17:24.80,Dialogue,,0,0,0,,A meeting, to which celebrities of the financial world were invited
+Dialogue: 0,0:17:25.76,0:17:31.30,Dialogue,,0,0,0,,Hailed as the Karasuma Renya Memorial,\Nin honour of the man who'd died at the age of 99 years old
+Dialogue: 0,0:17:32.01,0:17:35.36,Dialogue,,0,0,0,,But in reality, it was an auction to compete\Nfor the many highly expensive works of art
+Dialogue: 0,0:17:35.41,0:17:38.31,Dialogue,,0,0,0,,which Karasuma had collected during his lifetime
+Dialogue: 0,0:17:38.85,0:17:44.40,Dialogue,,0,0,0,,There were more than 300 items to be auctioned\Nand the auction was scheduled to last 3 days
+Dialogue: 0,0:17:45.32,0:17:49.24,Dialogue,,0,0,0,,And on the night of the second day
+Dialogue: 0,0:17:51.20,0:17:55.81,Dialogue,,0,0,0,,Two men soaking wet arrived at the mansion
+Dialogue: 0,0:17:56.38,0:18:00.78,Dialogue,,0,0,0,,The two men spoke with lips trembling from the cold
+Dialogue: 0,0:18:01.37,0:18:07.17,Dialogue,,0,0,0,,"We got lost in the storm... But we found this mansion...\NLet us stay here until the storm ceases"
+Dialogue: 0,0:18:08.13,0:18:12.68,Dialogue,,0,0,0,,The organizer of the auction was hesitating\Nabout letting them into the mansion at first
+Dialogue: 0,0:18:13.18,0:18:17.68,Dialogue,,0,0,0,,But he was given a leaf in exchange...\NHis attitude suddenly{\rHonorifics - Dialogue} chan{\r}ged
+Dialogue: 0,0:18:18.81,0:18:20.96,Dialogue,,0,0,0,,It looked as if it was tobaccos
+Dialogue: 0,0:18:21.32,0:18:24.20,Dialogue,,0,0,0,,The organizer rolled the leaf into a paper and inhaled it
+Dialogue: 0,0:18:25.01,0:18:30.61,Dialogue,,0,0,0,,He gradually turned jovial, and took them to the mansion
+Dialogue: 0,0:18:31.05,0:18:36.02,Dialogue,,0,0,0,,The other people there, who'd seen that, were asked to do the same
+Dialogue: 0,0:18:36.17,0:18:39.20,Dialogue,,0,0,0,,And the mansion filled with that leaf's smoke
+Dialogue: 0,0:18:39.66,0:18:42.21,Dialogue,,0,0,0,,Could that be...?
+Dialogue: 0,0:18:42.75,0:18:44.21,Dialogue,,0,0,0,,Marijuana...
+Dialogue: 0,0:18:45.04,0:18:49.67,Dialogue,,0,0,0,,People had some jocosity
+Dialogue: 0,0:18:49.67,0:18:52.51,Dialogue,,0,0,0,,Not for long, though...
+Dialogue: 0,0:18:53.89,0:18:57.39,Dialogue,,0,0,0,,One of the guests screamed like he had seen the devil
+Dialogue: 0,0:18:57.39,0:19:01.23,Dialogue,,0,0,0,,He grabbed the work of art he had bidded on, and ran across the mansion
+Dialogue: 0,0:19:01.23,0:19:07.23,Dialogue,,0,0,0,,A woman cried until her tears dried
+Dialogue: 0,0:19:08.40,0:19:13.01,Dialogue,,0,0,0,,And a man happily stabbed his hand with the pen he had on him
+Dialogue: 0,0:19:14.84,0:19:19.02,Dialogue,,0,0,0,,Eventually the guests began stealing the pieces from each other
+Dialogue: 0,0:19:19.32,0:19:23.24,Dialogue,,0,0,0,,And killing each other with the famed and\Nhistorical blades which were pieces of the auction
+Dialogue: 0,0:19:23.34,0:19:26.21,Dialogue,,0,0,0,,The auction hall turned into a picture of Hell
+Dialogue: 0,0:19:27.92,0:19:30.25,Dialogue,,0,0,0,,And then dawn came, after that nightmarish night
+Dialogue: 0,0:19:30.80,0:19:35.05,Dialogue,,0,0,0,,It left 8 dead and over 10 people in a coma
+Dialogue: 0,0:19:35.54,0:19:40.26,Dialogue,,0,0,0,,And the two men vanished along with the pieces of art
+Dialogue: 0,0:19:42.65,0:19:47.03,Dialogue,,0,0,0,,But why isn't such a huge case known to the public?
+Dialogue: 0,0:19:47.15,0:19:49.98,Dialogue,,0,0,0,,Amongst the guests, there were probably,
+Dialogue: 0,0:19:51.07,0:19:55.42,Dialogue,,0,0,0,,some famous people with political influence,\Nor the family members of politician
+Dialogue: 0,0:19:55.73,0:20:02.57,Dialogue,,0,0,0,,Do you understand now? Understand why I choose this mansion?
+Dialogue: 0,0:20:03.48,0:20:11.85,Dialogue,,0,0,0,,It's because I want you detectives to perform that tragedy once again
+Dialogue: 0,0:20:13.16,0:20:17.36,Dialogue,,0,0,0,,The disgraceful sight of people killing over this mansion's treasure
+Dialogue: 0,0:20:19.08,0:20:20.08,Dialogue,,0,0,0,,Worthless...
+Dialogue: 0,0:20:20.71,0:20:25.17,Dialogue,,0,0,0,,Well, it would be cruel to have you search at random
+Dialogue: 0,0:20:25.45,0:20:28.09,Dialogue,,0,0,0,,So allow me to give you a hint
+Dialogue: 0,0:20:28.92,0:20:30.09,Dialogue,,0,0,0,,A hint?
+Dialogue: 0,0:20:31.05,0:20:36.67,Dialogue,,0,0,0,,"On the night that the two travelers looked up at the skies,\Nthe devil descended upon the castle"
+Dialogue: 0,0:20:37.38,0:20:40.31,Dialogue,,0,0,0,,"the king grabbed his treasure and ran away, trying to flee"
+Dialogue: 0,0:20:41.19,0:20:45.11,Dialogue,,0,0,0,,"The queen poured her tears into the Holy Grail and begged for forgiveness"
+Dialogue: 0,0:20:45.98,0:20:50.22,Dialogue,,0,0,0,,"The knight stained his sword with his own blood and died"
+Dialogue: 0,0:21:08.40,0:21:11.30,Dialogue,,0,0,0,,At 10:34:51 PM
+Dialogue: 0,0:21:11.60,0:21:16.25,Dialogue,,0,0,0,,I confirm, cardiac arrest...\NImpossible to revive him in these circumstances
+Dialogue: 0,0:21:17.08,0:21:17.83,Dialogue,,0,0,0,,What did you say?
+Dialogue: 0,0:21:18.79,0:21:23.36,Dialogue,,0,0,0,,I can see cyanosis, which{\rHonorifics - Dialogue} chan{\r}ges the colour of the lips to purple
+Dialogue: 0,0:21:23.63,0:21:26.38,Dialogue,,0,0,0,,And also, the characteristic almond scent of hydrocyanic gas
+Dialogue: 0,0:21:27.72,0:21:30.93,Dialogue,,0,0,0,,So there was potassium cyanide in the black tea that he was drinking?
+Dialogue: 0,0:21:32.39,0:21:34.10,Dialogue,,0,0,0,,No... There's no oxidation-reduction reaction
+Dialogue: 0,0:21:35.06,0:21:37.89,Dialogue,,0,0,0,,It seems that the source isn't this black tea
+Dialogue: 0,0:21:38.31,0:21:40.39,Dialogue,,0,0,0,,But then, how was he poisoned
+Dialogue: 0,0:21:40.66,0:21:43.08,Dialogue,,0,0,0,,Alright, the dice have been cast
+Dialogue: 0,0:21:43.44,0:21:46.69,Dialogue,,0,0,0,,Detective Oogami, he has given such a gorgeous start through his death
+Dialogue: 0,0:21:46.69,0:21:50.25,Dialogue,,0,0,0,,to this match of wits in which you stake your lives
+Dialogue: 0,0:21:50.57,0:21:54.41,Dialogue,,0,0,0,,So focus your wills into finding the treasure, this is also for his sake
+Dialogue: 0,0:21:51.45,0:21:53.32,Dialogue Top,,0,0,0,,You rascal, don't screw us over!!
+Dialogue: 0,0:21:55.45,0:21:57.45,Dialogue,,0,0,0,,While you're still alive, that is
+Dialogue: 0,0:21:59.25,0:22:00.41,Dialogue,,0,0,0,,A cassette tape?
+Dialogue: 0,0:22:00.57,0:22:05.24,Dialogue,,0,0,0,,So the culprit didn't speak as he observed us, but
+Dialogue: 0,0:22:07.10,0:22:09.89,Dialogue,,0,0,0,,but he was just playing the voice recorded in the tape
+Dialogue: 0,0:22:10.12,0:22:11.91,Dialogue,,0,0,0,,Now we know 2 things
+Dialogue: 0,0:22:12.50,0:22:21.00,Dialogue,,0,0,0,,That the culprit always intended to kill Oogami{\rHonorifics - Dialogue}-san{\r}...\NAnd it's possible that the culprit May even be hiding amongst us

@@ -1,0 +1,388 @@
+[Script Info]
+Title: Detective Conan - 0321
+TL Source: UTB
+ScriptType: v4.00+
+WrapStyle: 3
+PlayResX: 1440
+PlayResY: 1080
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Dialogue,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00401311,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Dialogue Top,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00401311,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,8,30,30,55,1
+Style: Signs,FrancophilSans,74,&H14FFFFFF,&H00FFFFFF,&H46101010,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,8,30,30,55,1
+Style: Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,0,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Radio,FrancophilSans,74,&H00BEE1FF,&H00FFFFFF,&H000B2A42,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Narration,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00BF6F00,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Narration Off,FrancophilSans,74,&H6E8C6F00,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,0,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Flashback,FrancophilSans,74,&H00CDFAFF,&H00FFFFFF,&H00373737,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Flashback Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00CCFFFF,&HC0313134,-1,0,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Honorifics - Dialogue,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00401311,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Signs,FrancophilSans,74,&H14FFFFFF,&H00FFFFFF,&H46101010,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,-1,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Honorifics - Radio,FrancophilSans,74,&H00BEE1FF,&H00FFFFFF,&H000B2A42,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Narration,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00BF6F00,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Narration Off,FrancophilSans,74,&H6E8C6F00,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,-1,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Honorifics - Flashback,FrancophilSans,74,&H00CDFAFF,&H00FFFFFF,&H00373737,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Flashback Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00CCFFFF,&HC0313134,-1,-1,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Masks,FrancophilSans,74,&H00000000,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,2,0,0,0,1
+Style: Title,Conan Episode Title,74,&H00E1E4E3,&H000000FF,&HC8DBDAE1,&HC0000000,-1,0,0,0,100,100,0,0,1,1,0,5,0,0,0,1
+Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-1,0,0,0,100,100,0,0,1,0,0,2,0,0,65,1
+Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
+Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
+Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:04.17,0:00:05.58,Dialogue,,0,0,0,,Deduction flows with\Nthe rhythm of the wind
+Dialogue: 0,0:00:05.62,0:00:07.17,Dialogue,,0,0,0,,Dark stains are rinsed\Nclean and exposed
+Dialogue: 0,0:00:07.17,0:00:09.10,Dialogue,,0,0,0,,The abducting case; ransom money.
+Dialogue: 0,0:00:09.10,0:00:10.87,Dialogue,,0,0,0,,What has happenediin:the tunnel?
+Dialogue: 0,0:00:10.87,0:00:12.71,Dialogue,,0,0,0,,He sees through the one and only truth,
+Dialogue: 0,0:00:12.71,0:00:14.32,Dialogue,,0,0,0,,A child in appearance\Nwith the 1.QY of anadult
+Dialogue: 0,0:00:14.36,0:00:16.88,Dialogue,,0,0,0,,no case is left unsolved\Nwith 'Detective Conan.
+Dialogue: 0,0:01:24.98,0:01:25.28,Dialogue,,0,0,0,,LI - >
+Dialogue: 0,0:01:28.15,0:01:28.53,Dialogue,,0,0,0,,7 -e>2
+Dialogue: 0,0:01:55.24,0:01:56.03,Dialogue,,0,0,0,,The Kidnap Car that Disappeared\NPart 1
+Dialogue: 0,0:01:56.03,0:02:01.68,Dialogue,,0,0,0,,nis 7\NGREET),\NThe Kidnap Car that Disappeared"\NPart 1
+Dialogue: 0,0:02:05.79,0:02:06.84,Dialogue,,0,0,0,,Yeah, I thought that
+Dialogue: 0,0:02:06.87,0:02:09.82,Dialogue,,0,0,0,,Yaiba was going to lose yesterday
+Dialogue: 0,0:02:09.82,0:02:12.76,Dialogue,,0,0,0,,What a thing to say!
+Dialogue: 0,0:02:12.76,0:02:15.76,Dialogue,,0,0,0,,He missed his Yaiba kick.
+Dialogue: 0,0:02:31.81,0:02:33.25,Dialogue,,0,0,0,,Jun!
+Dialogue: 0,0:02:33.25,0:02:34.15,Dialogue,,0,0,0,,Hello!
+Dialogue: 0,0:02:36.55,0:02:41.02,Dialogue,,0,0,0,,How's it.-Jun! .\NHow's your broken bone
+Dialogue: 0,0:02:42.96,0:02:45.06,Dialogue,,0,0,0,,You don't look too happy.
+Dialogue: 0,0:02:45.66,0:02:48.66,Dialogue,,0,0,0,,I They're Jun's classmates...\NThey always come to visit him
+Dialogue: 0,0:02:48.66,0:02:50.16,Dialogue,,0,0,0,,They're Jan's classmates...\NThey always come to visit him
+Dialogue: 0,0:02:50.73,0:02:54.27,Dialogue,,0,0,0,,Is tht so,\Nthank you so much!
+Dialogue: 0,0:02:54.50,0:02:56.57,Dialogue,,0,0,0,,It's rothing. fight?
+Dialogue: 0,0:02:56.91,0:02:59.04,Dialogue,,0,0,0,,W. We're friends so...
+Dialogue: 0,0:03:00.78,0:03:03.11,Dialogue,,0,0,0,,You two are always like\Nthat when you see prettt women
+Dialogue: 0,0:03:03.55,0:03:04.65,Dialogue,,0,0,0,,How disgusting!\NDon:t.you think so?
+Dialogue: 0,0:03:05.98,0:03:10.32,Dialogue,,0,0,0,,Hey! Jun, I didn't\Nknow you had an older sister.
+Dialogue: 0,0:03:10.32,0:03:13.52,Dialogue,,0,0,0,,Did you call me his Older sister?
+Dialogue: 0,0:03:13.79,0:03:15.49,Dialogue,,0,0,0,,Oh! Yes!
+Dialogue: 0,0:03:15.56,0:03:16.89,Dialogue,,0,0,0,,My. how flattering.
+Dialogue: 0,0:03:16.89,0:03:20.49,Dialogue,,0,0,0,,She's Ms. Sachiko Ezaki,\Na fashion designer.
+Dialogue: 0,0:03:20.50,0:03:23.50,Dialogue,,0,0,0,,A.A fashion designer?
+Dialogue: 0,0:03:23.77,0:03:25.17,Dialogue,,0,0,0,,Wow!
+Dialogue: 0,0:03:25.17,0:03:27.03,Dialogue,,0,0,0,,Did you come to visit Jun?
+Dialogue: 0,0:03:27.04,0:03:28.07,Dialogue,,0,0,0,,Yes!
+Dialogue: 0,0:03:28.60,0:03:30.54,Dialogue,,0,0,0,,Nic ) meeting you all!
+Dialogue: 0,0:03:31.24,0:03:33.41,Dialogue,,0,0,0,,Come over to my place someday!
+Dialogue: 0,0:03:33.91,0:03:35.84,Dialogue,,0,0,0,,You're all very welcomed to come!
+Dialogue: 0,0:03:35.88,0:03:37.54,Dialogue,,0,0,0,,- . Place'?
+Dialogue: 0,0:03:37.81,0:03:39.68,Dialogue,,0,0,0,,Jun:s house!
+Dialogue: 0,0:03:39.68,0:03:43.22,Dialogue,,0,0,0,,J.Jun's? What do you mean?
+Dialogue: 0,0:03:45.05,0:03:46.72,Dialogue,,0,0,0,,- - She-means...
+Dialogue: 0,0:03:46.72,0:03:49.19,Dialogue,,0,0,0,,think you'd\Nbetter go already!
+Dialogue: 0,0:03:49.49,0:03:53.26,Dialogue,,0,0,0,,Isn't it time for your\Nfashion show recital to start?
+Dialogue: 0,0:03:53.63,0:03:58.30,Dialogue,,0,0,0,,Oh, right.\NWe'd better get going then
+Dialogue: 0,0:03:58.50,0:04:01.40,Dialogue,,0,0,0,,Okay.\NSee you, Jun
+Dialogue: 0,0:04:01.40,0:04:06.81,Dialogue,,0,0,0,,Since Jun. *-'looks bored. please spend\Nas much time as "Ou can with hiff]
+Dialogue: 0,0:04:06.81,0:04:07.67,Dialogue,,0,0,0,,Goodbye.
+Dialogue: 0,0:04:09.18,0:04:14.08,Dialogue,,0,0,0,,Jun, you'll be discharged tomorrow.\NHang in there j73t one more day. okay,
+Dialogue: 0,0:04:14.25,0:04:16.98,Dialogue,,0,0,0,,< ) << Dp
+Dialogue: 0,0:04:28.36,0:04:30.33,Dialogue,,0,0,0,,Is that person called Ezaki
+Dialogue: 0,0:04:30.33,0:04:32.77,Dialogue,,0,0,0,,Going to become your new mother?
+Dialogue: 0,0:04:32.77,0:04:34.10,Dialogue,,0,0,0,,How nice that such a pretty person's
+Dialogue: 0,0:04:34.10,0:04:37.10,Dialogue,,0,0,0,,going to be your mother.
+Dialogue: 0,0:04:38.01,0:04:41.71,Dialogue,,0,0,0,,My mother who died was) much prettier!\NShe's just marrying daddy because
+Dialogue: 0,0:04:41.71,0:04:44.54,Dialogue,,0,0,0,,she wants his estate.
+Dialogue: 0,0:04:45.55,0:04:47.51,Dialogue,,0,0,0,,Estate?
+Dialogue: 0,0:04:47.72,0:04:51.05,Dialogue,,0,0,0,,Right.\NBecause I heard them
+Dialogue: 0,0:04:52.59,0:04:53.59,Dialogue,,0,0,0,,What?
+Dialogue: 0,0:04:54.39,0:04:55.56,Dialogue,,0,0,0,,For me?
+Dialogue: 0,0:04:56.42,0:04:59.86,Dialogue,,0,0,0,,I'm so happy\NThank you!
+Dialogue: 0,0:05:02.86,0:05:03.90,Dialogue,,0,0,0,,How do I look?
+Dialogue: 0,0:05:04.43,0:05:08.43,Dialogue,,0,0,0,,They look nice! And, when\Nshall we hav the wedding?
+Dialogue: 0,0:05:09.34,0:05:14.91,Dialogue,,0,0,0,,Please wait a little while more.\NUntil the February show is over.
+Dialogue: 0,0:05:15.08,0:05:18.81,Dialogue,,0,0,0,,Are you saying you want to put\Nall your energy into the show?
+Dialogue: 0,0:05:20.21,0:05:22.98,Dialogue,,0,0,0,,Yes. I want to succeed\Nthis time no matter what...
+Dialogue: 0,0:05:24.05,0:05:25.85,Dialogue,,0,0,0,,If I don't make it again this time,
+Dialogue: 0,0:05:26.02,0:05:29.86,Dialogue,,0,0,0,,I'm going to give up my career as a\Nfashion designer! My minds made-up
+Dialogue: 0,0:05:30.12,0:05:31.06,Dialogue,,0,0,0,,Okay!
+Dialogue: 0,0:05:32.09,0:05:33.69,Dialogue,,0,0,0,,I'm sorry.
+Dialogue: 0,0:05:33.86,0:05:41.27,Dialogue,,0,0,0,,J It's okay. By the way. about this show, do\Nyou have enough cash? If you need some
+Dialogue: 0,0:05:41.27,0:05:45.84,Dialogue,,0,0,0,,I'm fine! If I ever need any, I won't\NIGSIGG 08$ YOU Of 16p
+Dialogue: 0,0:05:45.97,0:05:47.44,Dialogue,,0,0,0,,So. please be prepared!
+Dialogue: 0,0:05:47.64,0:05:49.71,Dialogue,,0,0,0,,Keep it within reasonable range now!
+Dialogue: 0,0:05:53.65,0:05:55.08,Dialogue,,0,0,0,,Jun! Aren't you
+Dialogue: 0,0:05:55.08,0:06:00.45,Dialogue,,0,0,0,,taking everything too negatively?\NA pretty person like her could never...
+Dialogue: 0,0:06:00.46,0:06:01.42,Dialogue,,0,0,0,,Genta!
+Dialogue: 0,0:06:02.96,0:06:07.56,Dialogue,,0,0,0,,I understand how you feel...\NRevulsion against your new mother?
+Dialogue: 0,0:06:23.23,0:06:24.64,Dialogue,,0,0,0,,G.Game corner
+Dialogue: 0,0:06:24.65,0:06:28.65,Dialogue,,0,0,0,,You know the one, where the\Nsupermarket in Haidocho is?
+Dialogue: 0,0:06:28.65,0:06:31.15,Dialogue,,0,0,0,,From now . a;
+Dialogue: 0,0:06:31.15,0:06:34.52,Dialogue,,0,0,0,,Please just once!\NI always wanted to go!
+Dialogue: 0,0:06:34.52,0:06:36.06,Dialogue,,0,0,0,,But, you're still not fullysrecovered...
+Dialogue: 0,0:06:36.06,0:06:37.52,Dialogue,,0,0,0,,I'm just fine, fine.
+Dialogue: 0,0:06:37.52,0:06:42.43,Dialogue,,0,0,0,,The cast is just for show. I'm\Ndoing just fine See! Watch!
+Dialogue: 0,0:06:42.43,0:06:44.60,Dialogue,,0,0,0,,Even if-'you say that.
+Dialogue: 0,0:06:44.93,0:06:47.40,Dialogue,,0,0,0,,Are you sure you're okay?
+Dialogue: 0,0:06:47.40,0:06:50.54,Dialogue,,0,0,0,,You can go after you're discharged from\Nthe hospital tomorrow, right?
+Dialogue: 0,0:06:50.54,0:06:53.61,Dialogue,,0,0,0,,No way. impossible\NIt would never happen
+Dialogue: 0,0:06:53.61,0:06:56.18,Dialogue,,0,0,0,,As soon as I'm discharged I'll\Nhave to study with my tutor,
+Dialogue: 0,0:06:56.78,0:07:00.88,Dialogue,,0,0,0,,Ilalso. have piano and english lessons,\NI don't have time for games
+Dialogue: 0,0:07:00.88,0:07:04.52,Dialogue,,0,0,0,,sp Fr.\NWell, I've always felt sorry\Nfory '1 behind the scenes
+Dialogue: 0,0:07:04.52,0:07:06.05,Dialogue,,0,0,0,,So. please!
+Dialogue: 0,0:07:06.25,0:07:08.69,Dialogue,,0,0,0,,Today's the only{\rHonorifics - Dialogue} chan{\r}ce I have.
+Dialogue: 0,0:07:08.69,0:07:10.79,Dialogue,,0,0,0,,If we can back here\Nin two hot Ts in time for the
+Dialogue: 0,0:07:10.79,0:07:14.29,Dialogue,,0,0,0,,12:00 rounds that the doctor makes\Nthey'll never & @ miss me
+Dialogue: 0,0:07:14.30,0:07:17.76,Dialogue,,0,0,0,,H.Hey! What do you think, €@onan?
+Dialogue: 0,0:07:18.87,0:07:25.17,Dialogue,,0,0,0,,In order to leave the hospital. first,\Nyou'd have to go past the nurse station
+Dialogue: 0,0:07:25.31,0:07:28.81,Dialogue,,0,0,0,,And, I'm pretty sure that a male nurse\Nwill come by and check the room
+Dialogue: 0,0:07:29.04,0:07:33.88,Dialogue,,0,0,0,,So. as long as somebody sleeps\Nin bed in place
+Dialogue: 0,0:07:33.88,0:07:36.25,Dialogue,,0,0,0,,Hey! Hey! That's absurd...
+Dialogue: 0,0:07:36.35,0:07:39.59,Dialogue,,0,0,0,,Come on, we're friends,\NIet's help him.
+Dialogue: 0,0:07:39.72,0:07:42.06,Dialogue,,0,0,0,,Yeah, please!
+Dialogue: 0,0:07:42.06,0:07:45.16,Dialogue,,0,0,0,,Jun"s pleading with us too...
+Dialogue: 0,0:07:45.53,0:07:48.63,Dialogue,,0,0,0,,If we ignore his wish,\Nit'll make a bad name for the
+Dialogue: 0,0:07:48.63,0:07:50.90,Dialogue,,0,0,0,,Youth Detective Squad!\NWell, Conan?
+Dialogue: 0,0:07:51.00,0:07:51.26,Dialogue,,0,0,0,,Youth Detective Squad\NWell, Conan?
+Dialogue: 0,0:07:51.27,0:07:53.77,Dialogue,,0,0,0,,Okay...
+Dialogue: 0,0:07:53.77,0:07:54.97,Dialogue,,0,0,0,,Thank you
+Dialogue: 0,0:07:54.97,0:07:59.57,Dialogue,,0,0,0,,Shall we decide by stone,\Npaper, scissors. then, Conan?!
+Dialogue: 0,0:07:59.57,0:08:02.04,Dialogue,,0,0,0,,What? Stone, paper, scissors?
+Dialogue: 0,0:08:06.38,0:08:08.18,Dialogue,,0,0,0,,What's 'with him...
+Dialogue: 0,0:08:08.18,0:08:11.47,Dialogue,,0,0,0,,Conan is really weak when it\Ncomes to stone; paper, scissors...
+Dialogue: 0,0:08:11.50,0:08:13.02,Dialogue,,0,0,0,,We don't have time=let'sshurry!
+Dialogue: 0,0:08:13.02,0:08:15.12,Dialogue,,0,0,0,,Let's have eels over\Nrice on the way home!
+Dialogue: 0,0:08:15.12,0:08:16.46,Dialogue,,0,0,0,,If yourre treating us. Genta!
+Dialogue: 0,0:08:16.46,0:08:17.82,Dialogue,,0,0,0,,Yeah!
+Dialogue: 0,0:08:25.03,0:08:28.17,Dialogue,,0,0,0,,Well, go enjoy yourselves\Nto your heart's content
+Dialogue: 0,0:09:10.04,0:09:11.31,Dialogue,,0,0,0,,Jun?
+Dialogue: 0,0:09:14.47,0:09:15.98,Dialogue,,0,0,0,,J:Jun?
+Dialogue: 0,0:09:18.22,0:09:18.99,Dialogue,,0,0,0,,Hey! Hey!
+Dialogue: 0,0:09:18.99,0:09:19.35,Dialogue,,0,0,0,,Hey! Hey!
+Dialogue: 0,0:09:19.49,0:09:23.82,Dialogue,,0,0,0,,Jun's bed is empty, but do you have\Nany idea where he went?
+Dialogue: 0,0:09:23.82,0:09:24.14,Dialogue,,0,0,0,,No...
+Dialogue: 0,0:09:24.14,0:09:24.93,Dialogue,,0,0,0,,No...
+Dialogue: 0,0:09:25.01,0:09:29.90,Dialogue,,0,0,0,,Come to think of it, a bunch\Nof children-came to see him
+Dialogue: 0,0:09:29.90,0:09:31.06,Dialogue,,0,0,0,,Shall-l.go-look for them?
+Dialogue: 0,0:09:43.74,0:09:47.88,Dialogue,,0,0,0,,It's me, Yoshizawa!\NI kidnapped the kid named Jun.
+Dialogue: 0,0:09:48.32,0:09:52.02,Dialogue,,0,0,0,,It's going just as you planned.
+Dialogue: 0,0:09:52.29,0:09:56.82,Dialogue,,0,0,0,,Now, yeah, he's fast asleep.
+Dialogue: 0,0:09:59.99,0:10:01.53,Dialogue,,0,0,0,,Where is this?
+Dialogue: 0,0:10:01.53,0:10:02.80,Dialogue,,0,0,0,,What happened...
+Dialogue: 0,0:10:07.94,0:10:10.80,Dialogue,,0,0,0,,So, you're up, sonny?\NGet out!
+Dialogue: 0,0:10:11.30,0:10:12.57,Dialogue,,0,0,0,,Hurry it up!
+Dialogue: 0,0:10:15.11,0:10:17.78,Dialogue,,0,0,0,,What's with you.\NYou can't move yet?
+Dialogue: 0,0:10:18.88,0:10:20.45,Dialogue,,0,0,0,,Where is this?
+Dialogue: 0,0:10:20.45,0:10:23.15,Dialogue,,0,0,0,,WwW. What're you going te do to me?
+Dialogue: 0,0:10:23.58,0:10:24.48,Dialogue,,0,0,0,,Hey...
+Dialogue: 0,0:10:27.52,0:10:32.79,Dialogue,,0,0,0,,Nothing much. We're just going\Nto ask your dad for ransom.
+Dialogue: 0,0:10:33.23,0:10:35.53,Dialogue,,0,0,0,,You mean I was kidnapped?
+Dialogue: 0,0:10:35.80,0:10:37.70,Dialogue,,0,0,0,,Well, I guess so.
+Dialogue: 0,0:10:48.84,0:10:52.48,Dialogue,,0,0,0,,Good! OK!! That's it.
+Dialogue: 0,0:10:52.78,0:10:57.08,Dialogue,,0,0,0,,Do the same for tonight's.show!\NLet's take a-break till then!
+Dialogue: 0,0:10:57.62,0:11:02.32,Dialogue,,0,0,0,,Fantastic! No mistake you're going to\Njoin the circle of top class designers now
+Dialogue: 0,0:11:02.32,0:11:04.26,Dialogue,,0,0,0,,I sure hope so...
+Dialogue: 0,0:11:05.23,0:11:07.16,Dialogue,,0,0,0,,Believe in your ability.
+Dialogue: 0,0:11:09.13,0:11:10.90,Dialogue,,0,0,0,,Yes, this is Kataoka.\NWhat?
+Dialogue: 0,0:11:11.83,0:11:14.53,Dialogue,,0,0,0,,J.Jun's been?
+Dialogue: 0,0:11:15.57,0:11:19.87,Dialogue,,0,0,0,,Yes! Okay, I'll head\Nover there right away.
+Dialogue: 0,0:11:20.41,0:11:22.78,Dialogue,,0,0,0,,Jun, is something wrong?
+Dialogue: 0,0:11:22.78,0:11:25.35,Dialogue,,0,0,0,,It seems he disappeared\Nfrom the hospital...
+Dialogue: 0,0:11:25.35,0:11:28.28,Dialogue,,0,0,0,,What!! I.I'll go with you. #
+Dialogue: 0,0:11:28.28,0:11:30.95,Dialogue,,0,0,0,,No, I'll go to the hospital alone.
+Dialogue: 0,0:11:31.15,0:11:33.15,Dialogue,,0,0,0,,You've got an important\Nshow to take care of.
+Dialogue: 0,0:11:33.85,0:11:35.22,Dialogue,,0,0,0,,But...
+Dialogue: 0,0:11:35.42,0:11:38.93,Dialogue,,0,0,0,,I'm sure everything's okay! He probably\Nwentout to play some place nearby
+Dialogue: 0,0:11:38.93,0:11:40.46,Dialogue,,0,0,0,,There's nothing to worry about!
+Dialogue: 0,0:11:41.36,0:11:43.13,Dialogue,,0,0,0,,I'll get in touch with you later!
+Dialogue: 0,0:11:46.97,0:11:51.57,Dialogue,,0,0,0,,He hasn't gone home, and I've\Nhad the nearby area checked but
+Dialogue: 0,0:11:51.57,0:11:54.27,Dialogue,,0,0,0,,Do.you/have any idea\Nwhere else he could be?
+Dialogue: 0,0:11:54.38,0:11:58.65,Dialogue,,0,0,0,,I wonder, his leg is hurt, so I\Ndon't think he can go that far...
+Dialogue: 0,0:12:00.28,0:12:02.02,Dialogue,,0,0,0,,S.Sachiko!
+Dialogue: 0,0:12:02.42,0:12:03.02,Dialogue,,0,0,0,,Did you out where Jun is?
+Dialogue: 0,0:12:03.02,0:12:04.58,Dialogue,,0,0,0,,Did you out where Jun is?
+Dialogue: 0,0:12:04.85,0:12:07.79,Dialogue,,0,0,0,,Sachike, go back to the show site!
+Dialogue: 0,0:12:07.79,0:12:12.66,Dialogue,,0,0,0,,Leave Jun to us: What's most\Nimportant to you now is...
+Dialogue: 0,0:12:12.66,0:12:17.63,Dialogue,,0,0,0,,Jun is more important than the show.\NI won't go back until I know he's safe!
+Dialogue: 0,0:12:18.30,0:12:19.67,Dialogue,,0,0,0,,Officer Sato!
+Dialogue: 0,0:12:19.67,0:12:20.63,Dialogue,,0,0,0,,How was it?
+Dialogue: 0,0:12:20.87,0:12:22.60,Dialogue,,0,0,0,,I asked the nurses,
+Dialogue: 0,0:12:22.60,0:12:26.87,Dialogue,,0,0,0,,It seems that the classmates who came\Nto see him were Conan and the others
+Dialogue: 0,0:12:26.87,0:12:28.17,Dialogue,,0,0,0,,Conan and his friends?
+Dialogue: 0,0:12:28.17,0:12:30.78,Dialogue,,0,0,0,,All four of them seem to have come"\Ntogether and gone home together
+Dialogue: 0,0:12:31.25,0:12:34.75,Dialogue,,0,0,0,,Oh, which means he didn't go out with them...
+Dialogue: 0,0:12:39.75,0:12:42.12,Dialogue,,0,0,0,,T.This is Kataoka...
+Dialogue: 0,0:12:44.83,0:12:46.83,Dialogue,,0,0,0,,You kidnaped Jun?
+Dialogue: 0,0:12:57.54,0:13:01.94,Dialogue,,0,0,0,,\ If you want your kid back.:get\N30.000.000 yen in old bills ready!
+Dialogue: 0,0:13:02.14,0:13:05.15,Dialogue,,0,0,0,,H. How's Jun? Is Jun okay?
+Dialogue: 0,0:13:05.21,0:13:10.22,Dialogue,,0,0,0,,Yeah, he's fine. I let\Nyou hear his voice right now!
+Dialogue: 0,0:13:11.02,0:13:13.85,Dialogue,,0,0,0,,Oh no. don't have\Nmy voice{\rHonorifics - Dialogue} chan{\r}ger either.
+Dialogue: 0,0:13:15.09,0:13:17.22,Dialogue,,0,0,0,,He wants to hear your voice.
+Dialogue: 0,0:13:20.36,0:13:21.86,Dialogue,,0,0,0,,What's the matter?
+Dialogue: 0,0:13:23.60,0:13:24.50,Dialogue,,0,0,0,,Daddy.
+Dialogue: 0,0:13:24.67,0:13:25.50,Dialogue,,0,0,0,,Jun!
+Dialogue: 0,0:13:25.93,0:13:26.70,Dialogue,,0,0,0,,Jun!
+Dialogue: 0,0:13:26.93,0:13:27.87,Dialogue,,0,0,0,,"_'- :\NJun!
+Dialogue: 0,0:13:27.87,0:13:28.77,Dialogue,,0,0,0,,Ay 4h\NA «O y
+Dialogue: 0,0:13:29.47,0:13:35.31,Dialogue,,0,0,0,,Seems the kid's panicked that he's\NIost his voice, get the cash ready quick
+Dialogue: 0,0:13:35.61,0:13:37.41,Dialogue,,0,0,0,,PA Please wait a minute!
+Dialogue: 0,0:13:38.35,0:13:39.41,Dialogue,,0,0,0,,7 ({ MM\NHe hung up...
+Dialogue: 0,0:13:39.41,0:13:42.48,Dialogue,,0,0,0,,74 NM\NMr. Kataoka, does the\Nvoice sound familiar to you?
+Dialogue: 0,0:13:42.48,0:13:43.45,Dialogue,,0,0,0,,Ray \
+Dialogue: 0,0:13:43.62,0:13:45.75,Dialogue,,0,0,0,,This is the first time\NI've heard his voice.
+Dialogue: 0,0:13:45.75,0:13:51.62,Dialogue,,0,0,0,,Jun"s voice was so weak ll\Nwonder if he's really safe?
+Dialogue: 0,0:13:51.63,0:13:55.70,Dialogue,,0,0,0,,I can't say, but please leave\Nthe rest up to the police
+Dialogue: 0,0:13:56.20,0:13:58.50,Dialogue,,0,0,0,,All right...
+Dialogue: 0,0:14:02.37,0:14:03.57,Dialogue,,0,0,0,,Inspector Megure!
+Dialogue: 0,0:14:03.57,0:14:04.64,Dialogue,,0,0,0,,Everything's ready
+Dialogue: 0,0:14:04.64,0:14:06.06,Dialogue,,0,0,0,,on. thanks!
+Dialogue: 0,0:14:08.58,0:14:12.15,Dialogue,,0,0,0,,All we can do now is wait for the\Nkidnapper to get back in touch with us
+Dialogue: 0,0:14:22.32,0:14:23.56,Dialogue,,0,0,0,,Inspector Megure!
+Dialogue: 0,0:14:24.79,0:14:26.89,Dialogue,,0,0,0,,Please answer the phone\NMr Kataoka!
+Dialogue: 0,0:14:26.89,0:14:28.23,Dialogue,,0,0,0,,Y.Yes...
+Dialogue: 0,0:14:34.47,0:14:36.70,Dialogue,,0,0,0,,Hello. this is Kataoka.
+Dialogue: 0,0:14:36.94,0:14:38.94,Dialogue,,0,0,0,,Did you get the cash ready?
+Dialogue: 0,0:14:38.94,0:14:45.35,Dialogue,,0,0,0,,Yes, it's ready, and, you're going to give\NJun back to us, aren't you?
+Dialogue: 0,0:14:45.38,0:14:49.92,Dialogue,,0,0,0,,Bring that money to. the clock tower\Nof the Ogane Park at 12:00!
+Dialogue: 0,0:14:49.92,0:14:54.42,Dialogue,,0,0,0,,12:00 to the clock tower of Ogane Park\NIll be there!
+Dialogue: 0,0:14:55.06,0:14:58.99,Dialogue,,0,0,0,,Hold it! You're not the\None who's bringing the money!
+Dialogue: 0,0:14:59.89,0:15:03.03,Dialogue,,0,0,0,,We wantla.woman called\NSachiko Ezaki to bring it.
+Dialogue: 0,0:15:05.10,0:15:06.33,Dialogue,,0,0,0,,What!\NYou want her to bring it?
+Dialogue: 0,0:15:06.33,0:15:09.30,Dialogue,,0,0,0,,We don't hassle with\Nanybody acting funny!
+Dialogue: 0,0:15:09.84,0:15:12.27,Dialogue,,0,0,0,,We feel more secure if\Na woman brings it.
+Dialogue: 0,0:15:12.41,0:15:14.87,Dialogue,,0,0,0,,Don't be late.
+Dialogue: 0,0:15:20.61,0:15:21.78,Dialogue,,0,0,0,,Inspector Megure.
+Dialogue: 0,0:15:23.12,0:15:25.05,Dialogue,,0,0,0,,I'll go disguised as Ms. Ezaki.
+Dialogue: 0,0:15:26.39,0:15:28.19,Dialogue,,0,0,0,,No! Let me
+Dialogue: 0,0:15:28.52,0:15:30.39,Dialogue,,0,0,0,,M.Ms. Ezaki?
+Dialogue: 0,0:15:30.42,0:15:31.69,Dialogue,,0,0,0,,Il Bot
+Dialogue: 0,0:15:32.43,0:15:33.59,Dialogue,,0,0,0,,S.Sachiko!
+Dialogue: 0,0:15:33.86,0:15:39.37,Dialogue,,0,0,0,,The kidnapper demanded me to go.\NI'm sure he knows how 'l look
+Dialogue: 0,0:15:39.87,0:15:43.37,Dialogue,,0,0,0,,But. if the worst should happen.
+Dialogue: 0,0:15:43.37,0:15:48.31,Dialogue,,0,0,0,,Please! Nothing. nothing\Ncan be greater than Jun"s life!
+Dialogue: 0,0:15:48.51,0:15:51.54,Dialogue,,0,0,0,,Let me go! Inspector!
+Dialogue: 0,0:15:52.21,0:15:53.78,Dialogue,,0,0,0,,Inspector!
+Dialogue: 0,0:15:58.25,0:15:59.42,Dialogue,,0,0,0,,Inspector.
+Dialogue: 0,0:16:04.36,0:16:07.19,Dialogue,,0,0,0,,All right. Will you do it for us.
+Dialogue: 0,0:16:07.46,0:16:08.16,Dialogue,,0,0,0,,Yes.
+Dialogue: 0,0:16:08.40,0:16:09.63,Dialogue,,0,0,0,,Inpsector!
+Dialogue: 0,0:16:09.76,0:16:11.23,Dialogue,,0,0,0,,I know!
+Dialogue: 0,0:16:12.77,0:16:14.13,Dialogue,,0,0,0,,Ms. Ezaki,
+Dialogue: 0,0:16:14.50,0:16:19.37,Dialogue,,0,0,0,,we will be 500 meters behind you so that\Nthe kidnapper doesn't realize we're there.
+Dialogue: 0,0:16:19.97,0:16:22.64,Dialogue,,0,0,0,,I'll put this tracking device in your bag.
+Dialogue: 0,0:16:22.64,0:16:24.71,Dialogue,,0,0,0,,So we'll be able to locate\Nthe kidnapper right away, ==
+Dialogue: 0,0:16:24.88,0:16:26.51,Dialogue,,0,0,0,,And, if you need to get\Nin touch with us for anything.
+Dialogue: 0,0:16:26.51,0:16:27.91,Dialogue,,0,0,0,,Please use this to contact us.
+Dialogue: 0,0:16:28.12,0:16:30.92,Dialogue,,0,0,0,,Sachiko, please donatiill\Ndo anything reckless
+Dialogue: 0,0:16:31.29,0:16:33.99,Dialogue,,0,0,0,,I promise I'll bring Jun back withime.
+Dialogue: 0,0:16:34.66,0:16:35.76,Dialogue,,0,0,0,,Ezaki...
+Dialogue: 0,0:16:38.29,0:16:42.20,Dialogue,,0,0,0,,This is your grave!\NNo use calling for help
+Dialogue: 0,0:16:57.24,0:16:59.68,Dialogue,,0,0,0,,Darn! I've got to get out of here fast.
+Dialogue: 0,0:16:59.78,0:17:03.88,Dialogue,,0,0,0,,Understand, when the kidnapper\Ncomes in contact with Ms. Ezaki
+Dialogue: 0,0:17:04.45,0:17:07.02,Dialogue,,0,0,0,,If he has Jun with him,\Nnab him on the spot
+Dialogue: 0,0:17:07.35,0:17:10.36,Dialogue,,0,0,0,,If Jun is nowhere in sight,
+Dialogue: 0,0:17:10.36,0:17:12.36,Dialogue,,0,0,0,,Let the kidnapper go and get a hold\Nof the whereabouts of Jun.
+Dialogue: 0,0:17:12.36,0:17:12.61,Dialogue,,0,0,0,,Let the kidnapper go and get a hold\Nof the whereabouts of Jun.
+Dialogue: 0,0:17:12.61,0:17:12.86,Dialogue,,0,0,0,,Let the kidnapper go and get a hold\Nof the whereabouts of Jun.
+Dialogue: 0,0:17:12.86,0:17:13.11,Dialogue,,0,0,0,,Let the kidnapper go and get a hold\Nof the whereabouts of Jun.
+Dialogue: 0,0:17:13.11,0:17:14.06,Dialogue,,0,0,0,,Let the kidnapper go and get a hold\Nof the whereabouts of Jun.
+Dialogue: 0,0:17:14.06,0:17:15.86,Dialogue,,0,0,0,,After confirming whether-he is\Nokay or not, then nab the kidnapper!
+Dialogue: 0,0:17:16.83,0:17:20.73,Dialogue,,0,0,0,,This is Sato at Ogane Park!\NAll the investigators are in, position!
+Dialogue: 0,0:17:21.07,0:17:23.94,Dialogue,,0,0,0,,Good! Be very careful.
+Dialogue: 0,0:17:28.21,0:17:30.44,Dialogue,,0,0,0,,Takagi, come closer to me!
+Dialogue: 0,0:17:30.44,0:17:32.48,Dialogue,,0,0,0,,Oh, no, I'm okay with here.
+Dialogue: 0,0:17:33.21,0:17:36.75,Dialogue,,0,0,0,,Don't be silly, if you don't\Nwe won't look like lovers!
+Dialogue: 0,0:17:36.75,0:17:38.25,Dialogue,,0,0,0,,Oh, okay...
+Dialogue: 0,0:17:38.25,0:17:41.59,Dialogue,,0,0,0,,Come on, at least put your\Narm around me or something
+Dialogue: 0,0:17:42.92,0:17:43.96,Dialogue,,0,0,0,,H Here goes, then...
+Dialogue: 0,0:17:45.23,0:17:46.76,Dialogue,,0,0,0,,I.Like this?
+Dialogue: 0,0:17:47.13,0:17:49.36,Dialogue,,0,0,0,,Get with it, will you!
+Dialogue: 0,0:17:53.37,0:17:56.77,Dialogue,,0,0,0,,Inspector!\NMs. Ezaki's car has arrived
+Dialogue: 0,0:18:06.95,0:18:11.48,Dialogue,,0,0,0,,Inspector!\NA suspicious car is in view
+Dialogue: 0,0:18:14.56,0:18:16.02,Dialogue,,0,0,0,,It's a compact truck with the\Nwords Honeybee courier written on it
+Dialogue: 0,0:18:16.12,0:18:17.36,Dialogue,,0,0,0,,It's a~=compact truck with the!\NWords Honeybee courier written on it
+Dialogue: 0,0:18:17.36,0:18:21.56,Dialogue,,0,0,0,,Would a kidnapper come in a\Nflashy car like that?
+Dialogue: 0,0:18:27.53,0:18:29.74,Dialogue,,0,0,0,,It stopped beside Ms. Ezaki.
+Dialogue: 0,0:18:30.17,0:18:31.74,Dialogue,,0,0,0,,Is Jun anywhere in sight?
+Dialogue: 0,0:18:32.91,0:18:34.27,Dialogue,,0,0,0,,I can't really confirm whether or not.
+Dialogue: 0,0:18:34.27,0:18:37.31,Dialogue,,0,0,0,,Jun, isn't Jun with you?
+Dialogue: 0,0:18:37.91,0:18:39.91,Dialogue,,0,0,0,,@ne of my friends is watching the«id.
+Dialogue: 0,0:18:40.31,0:18:42.22,Dialogue,,0,0,0,,I'll give him back to you as-soon\Nas I return with this ransom
+Dialogue: 0,0:18:42.62,0:18:46.55,Dialogue,,0,0,0,,Tell the police that if I'm late\Ngetting back, the kid's dead.
+Dialogue: 0,0:18:46.55,0:18:49.66,Dialogue,,0,0,0,,The kidnapper\Ngrabbed the bag from Ms. Ezaki.
+Dialogue: 0,0:18:49.66,0:18:51.16,Dialogue,,0,0,0,,And has fled by truck!
+Dialogue: 0,0:18:52.66,0:18:54.99,Dialogue,,0,0,0,,ihe number plate on: 'the truck\NIs Shinjuku=two letters 44
+Dialogue: 0,0:18:55.03,0:18:57.33,Dialogue,,0,0,0,,Mi" for Mikasa 328,\NOn its orange colored bed
+Dialogue: 0,0:18:57.33,0:19:00.70,Dialogue,,0,0,0,,there is a large honeybee mark.
+Dialogue: 0,0:19:00.70,0:19:02.57,Dialogue,,0,0,0,,What shall we do, Inspector?
+Dialogue: 0,0:19:02.84,0:19:04.30,Dialogue,,0,0,0,,Don't get to close!
+Dialogue: 0,0:19:04.30,0:19:07.04,Dialogue,,0,0,0,,Chiba, get the officers in\Nemergency-position on the double.
+Dialogue: 0,0:19:07.31,0:19:08.04,Dialogue,,0,0,0,,Yes.
+Dialogue: 0,0:19:08.04,0:19:10.21,Dialogue,,0,0,0,,Sato, Takagi, go after him by chopper!
+Dialogue: 0,0:19:10.21,0:19:11.01,Dialogue,,0,0,0,,Roger!
+Dialogue: 0,0:19:11.41,0:19:14.21,Dialogue,,0,0,0,,A child's life is at stake,\NSO be extremely careful
+Dialogue: 0,0:19:14.21,0:19:16.25,Dialogue,,0,0,0,,Don't let him get away, no matter what.
+Dialogue: 0,0:19:18.60,0:19:21.52,Dialogue,,0,0,0,,Isn't it about time we get going?
+Dialogue: 0,0:19:22.89,0:19:24.29,Dialogue,,0,0,0,,It's only a little after 11:00 yet, though.
+Dialogue: 0,0:19:24.29,0:19:24.66,Dialogue,,0,0,0,,It's only a little after 11:00 yet, though.
+Dialogue: 0,0:19:25.69,0:19:27.83,Dialogue,,0,0,0,,Then you can still play a lot more!
+Dialogue: 0,0:19:28.03,0:19:30.60,Dialogue,,0,0,0,,Next. why don't you\Nchallenge the game over there!
+Dialogue: 0,0:19:30.60,0:19:32.06,Dialogue,,0,0,0,,Okay!
+Dialogue: 0,0:19:32.07,0:19:33.90,Dialogue,,0,0,0,,Genta, are you good\Nat the game?
+Dialogue: 0,0:19:33.90,0:19:34.83,Dialogue,,0,0,0,,Nope!
+Dialogue: 0,0:19:46.55,0:19:49.12,Dialogue,,0,0,0,,Something. if I can only find something...
+Dialogue: 0,0:20:01.13,0:20:04.73,Dialogue,,0,0,0,,Inspector! The truck's\Nheaded for Kenbashi Tunnel!
+Dialogue: 0,0:20:05.13,0:20:06.67,Dialogue,,0,0,0,,What's the length of the tunnel?
+Dialogue: 0,0:20:06.77,0:20:09.62,Dialogue,,0,0,0,,About 1 kilometer, so at this speed...
+Dialogue: 0,0:20:09.65,0:20:11.10,Dialogue,,0,0,0,,it'lgo through it-in about a minute!
+Dialogue: 0,0:20:13.82,0:20:17.13,Dialogue,,0,0,0,,It'll go through it in about a minute!
+Dialogue: 0,0:20:17.16,0:20:19.91,Dialogue,,0,0,0,,Go on ahead and wait at\Nthe exit of the tunnel!
+Dialogue: 0,0:20:19.91,0:20:20.71,Dialogue,,0,0,0,,Roger!
+Dialogue: 0,0:20:32.76,0:20:34.33,Dialogue,,0,0,0,,It,It stopped!
+Dialogue: 0,0:20:34.90,0:20:36.43,Dialogue,,0,0,0,,It stopped in the center of the tunnel!
+Dialogue: 0,0:20:39.43,0:20:42.99,Dialogue,,0,0,0,,Darn, it won't budge with\Nthe strength of a child!
+Dialogue: 0,0:20:48.11,0:20:50.66,Dialogue,,0,0,0,,Maybe the kidnapper\Nabandoned the truck...
+Dialogue: 0,0:20:51.28,0:20:53.25,Dialogue,,0,0,0,,Po. ou see anybody-suspicious?
+Dialogue: 0,0:20:53.51,0:20:57.25,Dialogue,,0,0,0,,No. only other cars are\Ncoming out of the tunnel.
+Dialogue: 0,0:20:57.28,0:21:01.12,Dialogue,,0,0,0,,No humans,\Nnot even a cat for that matter
+Dialogue: 0,0:21:01.57,0:21:03.86,Dialogue,,0,0,0,,Why? Why isnat it moving?
+Dialogue: 0,0:21:04.06,0:21:06.86,Dialogue,,0,0,0,,Inspector, 10 minutes have gone by.
+Dialogue: 0,0:21:07.46,0:21:10.03,Dialogue,,0,0,0,,Okay, let's go inside the tunnel!
+Dialogue: 0,0:21:10.03,0:21:10.76,Dialogue,,0,0,0,,Ro er!
+Dialogue: 0,0:21:13.58,0:21:16.94,Dialogue,,0,0,0,,Darn! I've got to do something quick!
+Dialogue: 0,0:21:21.38,0:21:24.21,Dialogue,,0,0,0,,It was abandoned on the side of the\Nroad in the center of the tunnel.
+Dialogue: 0,0:21:24.78,0:21:26.05,Dialogue,,0,0,0,,Which means...
+Dialogue: 0,0:21:26.41,0:21:29.72,Dialogue,,0,0,0,,The kidnapper threw away the\Ncommunicator and got away with the cash
+Dialogue: 0,0:21:29.92,0:21:34.09,Dialogue,,0,0,0,,But the honeybee courier truck\Ndidn't come out of the tunnel...
+Dialogue: 0,0:21:34.25,0:21:35.69,Dialogue,,0,0,0,,Are you sure about it?
+Dialogue: 0,0:21:35.92,0:21:40.29,Dialogue,,0,0,0,,Yes, the pilot of the chopper as well as\NI was watching carefully but
+Dialogue: 0,0:21:40.46,0:21:43.26,Dialogue,,0,0,0,,the honeybee courier truck\Ndidn't come out of the tunnel.
+Dialogue: 0,0:21:43.53,0:21:45.83,Dialogue,,0,0,0,,Maybe he made a\NU-turn inside the tunnel?
+Dialogue: 0,0:21:46.07,0:21:47.80,Dialogue,,0,0,0,,But if so. he would be driving in
+Dialogue: 0,0:21:47.80,0:21:50.14,Dialogue,,0,0,0,,the opposite direction on the\Nfreeway and cause a commotion!
+Dialogue: 0,0:21:50.14,0:21:54.17,Dialogue,,0,0,0,,Then, are you saying that the kidnapper's\Ncar disappeared in the tunnel?
+Dialogue: 0,0:21:56.06,0:21:58.11,Dialogue,,0,0,0,,Another thing I don't understands how
+Dialogue: 0,0:21:58.11,0:22:01.41,Dialogue,,0,0,0,,the kidnapper found out\Nabout this.communicater...
+Dialogue: 0,0:22:02.28,0:22:06.25,Dialogue,,0,0,0,,Officer Sato, I have. something\NI want you to check for me
+Dialogue: 0,0:22:06.45,0:22:07.22,Dialogue,,0,0,0,,Yes, Sir.
+Dialogue: 0,0:22:29.21,0:22:32.88,Dialogue,,0,0,0,,Original Comic Books By\NGOSHO AOYAMA
+Dialogue: 0,0:22:35.18,0:22:38.88,Dialogue,,0,0,0,,Producers\NMITCHIHTKO SUWA\N\ -5 a > >a A »
+Dialogue: 0,0:22:41.22,0:22:44.86,Dialogue,,0,0,0,,Background Music\NKalsUO ONO
+Dialogue: 0,0:22:47.23,0:22:50.83,Dialogue,,0,0,0,,Character Designs By.\NMASATOMO SUDO
+Dialogue: 0,0:22:53.23,0:22:56.87,Dialogue,,0,0,0,,Story Editor.\NJUNICHI 11OKA
+Dialogue: 0,0:22:59.27,0:23:02.91,Dialogue,,0,0,0,,Scripts By.\NKANJI"KASHIWABARA\NKAZ7UUNARI KOUCHI\N«JF MM rr IT «\NLICH £1] 5 J\NT@WSHIKI INOUE
+Dialogue: 0,0:23:05.21,0:23:08.88,Dialogue,,0,0,0,,Animation Directors\NMA ATOMO SUDO\N» * LR Yo. row, \\Nha - = AR\NHARUO OOGAWARA\NATSUSHI AONO\NAKIO KAWAMURA
+Dialogue: 0,0:23:11.25,0:23:14.92,Dialogue,,0,0,0,,Art Director.\NYUKIHIRO SHIBUTANI
+Dialogue: 0,0:23:17.26,0:23:20.89,Dialogue,,0,0,0,,Directors Of Photography\NTAKASHI NOMURA\NHIRONOBU HORIKOSHI\NTAKAHISA OWAGA
+Dialogue: 0,0:23:23.26,0:23:26.90,Dialogue,,0,0,0,,Recording Director.\NKATSUYOSHI KOBAYASHI
+Dialogue: 0,0:23:29.24,0:23:32.94,Dialogue,,0,0,0,,Editor.\NTERUMITSU OKADA
+Dialogue: 0,0:23:35.24,0:23:38.88,Dialogue,,0,0,0,,Chief Director.\NKENJI KODAMA
+Dialogue: 0,0:23:41.35,0:23:44.88,Dialogue,,0,0,0,,Produced By\NTMS ENTERTAINMENT, LTD.\NIn=assocaiation with\NYOMIURI TELECASTING\NCORPORATION
+Dialogue: 0,0:23:47.29,0:23:53.49,Dialogue,,0,0,0,,DETECTIVE CONAN\Nt <.<>w':<fi,\<>>AMA; \II()(.AI\UI\AN-)IV-IHS\NAll RH Fescrved
+Dialogue: 0,0:23:53.63,0:23:57.10,Dialogue,,0,0,0,,Strange. Conan's not answering...
+Dialogue: 0,0:23:57.10,0:23:58.63,Dialogue,,0,0,0,,I wonder if something's ~appened?
+Dialogue: 0,0:23:58.63,0:24:01.33,Dialogue,,0,0,0,,What? What do you mean something?
+Dialogue: 0,0:24:01.67,0:24:04.40,Dialogue,,0,0,0,,I called the honeybee courier company
+Dialogue: 0,0:24:04.47,0:24:07.51,Dialogue,,0,0,0,,and was told that the whereabouts\Nof all their cars are known!
+Dialogue: 0,0:24:07.74,0:24:11.24,Dialogue,,0,0,0,,Could that truck have been stolen?
+Dialogue: 0,0:24:12.48,0:24:16.38,Dialogue,,0,0,0,,Does that mean you have no clue\Nwhere the kidnapper is?
+Dialogue: 0,0:24:17.95,0:24:22.96,Dialogue,,0,0,0,,TheiKidnap Car that Disappeared\NPart 2

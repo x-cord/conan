@@ -1,0 +1,423 @@
+[Script Info]
+Title: Detective Conan - 0260
+TL Source: UTB
+ScriptType: v4.00+
+WrapStyle: 3
+PlayResX: 1440
+PlayResY: 1080
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Dialogue,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00401311,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Dialogue Top,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00401311,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,8,30,30,55,1
+Style: Signs,FrancophilSans,74,&H14FFFFFF,&H00FFFFFF,&H46101010,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,8,30,30,55,1
+Style: Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,0,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Radio,FrancophilSans,74,&H00BEE1FF,&H00FFFFFF,&H000B2A42,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Narration,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00BF6F00,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Narration Off,FrancophilSans,74,&H6E8C6F00,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,0,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Flashback,FrancophilSans,74,&H00CDFAFF,&H00FFFFFF,&H00373737,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Flashback Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00CCFFFF,&HC0313134,-1,0,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Honorifics - Dialogue,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00401311,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Signs,FrancophilSans,74,&H14FFFFFF,&H00FFFFFF,&H46101010,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,-1,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Honorifics - Radio,FrancophilSans,74,&H00BEE1FF,&H00FFFFFF,&H000B2A42,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Narration,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00BF6F00,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Narration Off,FrancophilSans,74,&H6E8C6F00,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,-1,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Honorifics - Flashback,FrancophilSans,74,&H00CDFAFF,&H00FFFFFF,&H00373737,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Flashback Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00CCFFFF,&HC0313134,-1,-1,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Masks,FrancophilSans,74,&H00000000,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,2,0,0,0,1
+Style: Title,Conan Episode Title,74,&H00E1E4E3,&H000000FF,&HC8DBDAE1,&HC0000000,-1,0,0,0,100,100,0,0,1,1,0,5,0,0,0,1
+Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-1,0,0,0,100,100,0,0,1,0,0,2,0,0,65,1
+Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
+Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
+Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:01.63,0:00:03.46,Dialogue,,0,0,0,,What lies.in one's heart is\Ntery to us:all.
+Dialogue: 0,0:00:03.47,0:00:05.07,Dialogue,,0,0,0,,Star and snow glitter on thet .
+Dialogue: 0,0:00:05.07,0:00:07.13,Dialogue,,0,0,0,,Ayumi's idea breaks the code,
+Dialogue: 0,0:00:07.27,0:00:09.10,Dialogue,,0,0,0,,who is the person full of mystery?
+Dialogue: 0,0:00:09.10,0:00:10.77,Dialogue,,0,0,0,,He sees through the one andvonly truth.
+Dialogue: 0,0:00:10.77,0:00:12.44,Dialogue,,0,0,0,,A child in appearance\Nwith the. kQ of an adult.
+Dialogue: 0,0:00:12.44,0:00:14.68,Dialogue,,0,0,0,,No case is left unsolved\Nsth Detective Conan.
+Dialogue: 0,0:00:14.88,0:00:19.21,Dialogue,,0,0,0,,Gosho Aoyama / Shogakukan °~ YTV TMS\NAll Rights Reserved
+Dialogue: 0,0:01:59.61,0:02:01.78,Dialogue,,0,0,0,,How big it is!!
+Dialogue: 0,0:02:01.78,0:02:04.22,Dialogue,,0,0,0,,They're building a bypass.
+Dialogue: 0,0:02:06.05,0:02:08.82,Dialogue,,0,0,0,,Are you sure we're heading\Nright direction?
+Dialogue: 0,0:02:08.82,0:02:10.86,Dialogue,,0,0,0,,Absolutely!
+Dialogue: 0,0:02:10.86,0:02:13.46,Dialogue,,0,0,0,,We've been wandering\Naround for the past 30 minutes...
+Dialogue: 0,0:02:14.40,0:02:16.93,Dialogue,,0,0,0,,That hurts on an empty stomach.
+Dialogue: 0,0:02:17.07,0:02:19.53,Dialogue,,0,0,0,,I'm starved
+Dialogue: 0,0:02:19.53,0:02:21.64,Dialogue,,0,0,0,,I know!!! Keep on walking!
+Dialogue: 0,0:02:23.41,0:02:24.97,Dialogue,,0,0,0,,You're not the only one .
+Dialogue: 0,0:02:25.61,0:02:26.87,Dialogue,,0,0,0,,Mr. Hanaoka!
+Dialogue: 0,0:02:26.98,0:02:28.14,Dialogue,,0,0,0,,Mr. Mourn .
+Dialogue: 0,0:02:28.28,0:02:30.14,Dialogue,,0,0,0,,Hello! I'm here again!
+Dialogue: 0,0:02:30.91,0:02:33.61,Dialogue,,0,0,0,,I'm not alone tonight.
+Dialogue: 0,0:02:33.62,0:02:34.51,Dialogue,,0,0,0,,Hello
+Dialogue: 0,0:02:34.52,0:02:34.75,Dialogue,,0,0,0,,Well, well... welcome to my restaur
+Dialogue: 0,0:02:34.75,0:02:35.92,Dialogue,,0,0,0,,Well, well... welcome to my restaur\NShigeru Hanaoka\NfEaE EA
+Dialogue: 0,0:02:35.92,0:02:36.28,Dialogue,,0,0,0,,Shigeru Hanaoka\NfEELTE EA
+Dialogue: 0,0:02:36.28,0:02:37.65,Dialogue,,0,0,0,,Here, come inside.\NShigeru Hanaoka\NfEa& EA
+Dialogue: 0,0:02:37.65,0:02:37.95,Dialogue,,0,0,0,,Shigeru Hanaoka\N{EAE XA
+Dialogue: 0,0:02:42.36,0:02:43.82,Dialogue,,0,0,0,,Oh, welcome.
+Dialogue: 0,0:02:44.79,0:02:46.36,Dialogue,,0,0,0,,Where have you been?
+Dialogue: 0,0:02:46.86,0:02:50.20,Dialogue,,0,0,0,,Just to get cigarettes...
+Dialogue: 0,0:02:50.33,0:02:52.37,Dialogue,,0,0,0,,We're having customers now.
+Dialogue: 0,0:02:52.40,0:02:52.60,Dialogue,,0,0,0,,Reiko Hanaoka\NEm #7 (30)\NERjoOR
+Dialogue: 0,0:02:52.60,0:02:54.77,Dialogue,,0,0,0,,welcome, Mr. Mourn.\NReiko Hanaoka\NEm IF (30)\N(4. [0]
+Dialogue: 0,0:02:54.77,0:02:57.84,Dialogue,,0,0,0,,So my I wasn't here. I was\Nchanging the water for the flowers\NReiko Hanaoka\NTem IF (30)\NExam
+Dialogue: 0,0:02:57.91,0:03:00.37,Dialogue,,0,0,0,,You{\rHonorifics - Dialogue} chan{\r}ged the water just this morning.
+Dialogue: 0,0:03:00.61,0:03:03.74,Dialogue,,0,0,0,,The flowers last longer this way.
+Dialogue: 0,0:03:05.05,0:03:07.38,Dialogue,,0,0,0,,The flowers last longer this way.
+Dialogue: 0,0:03:08.15,0:03:09.55,Dialogue,,0,0,0,,I'm sorry...
+Dialogue: 0,0:03:09.55,0:03:11.55,Dialogue,,0,0,0,,Oh, no, I can't get it off:
+Dialogue: 0,0:03:11.95,0:03:13.99,Dialogue,,0,0,0,,please take the table at the middle.
+Dialogue: 0,0:03:13.99,0:03:15.16,Dialogue,,0,0,0,,Saki!
+Dialogue: 0,0:03:15.16,0:03:16.62,Dialogue,,0,0,0,,Yes, coming!
+Dialogue: 0,0:03:18.69,0:03:23.73,Dialogue,,0,0,0,,Rocking Restaurant
+Dialogue: 0,0:03:26.47,0:03:27.90,Dialogue,,0,0,0,,Hello... and welcome.
+Dialogue: 0,0:03:27.90,0:03:29.50,Dialogue,,0,0,0,,Well! I haven't seen you...
+Dialogue: 0,0:03:30.27,0:03:34.48,Dialogue,,0,0,0,,I'm Saki Yoshizawa.\NI'm the new waitress here.\NSaki Yoshizawa
+Dialogue: 0,0:03:38.08,0:03:39.41,Dialogue,,0,0,0,,I'm so sorry...
+Dialogue: 0,0:03:39.41,0:03:40.98,Dialogue,,0,0,0,,That's all right.
+Dialogue: 0,0:03:41.18,0:03:42.78,Dialogue,,0,0,0,,I'll get a towel right away!
+Dialogue: 0,0:03:43.09,0:03:44.22,Dialogue,,0,0,0,,I've got this!
+Dialogue: 0,0:03:45.72,0:03:47.69,Dialogue,,0,0,0,,Here, let me do it for you...
+Dialogue: 0,0:03:48.42,0:03:49.82,Dialogue,,0,0,0,,Thanks, Ran.
+Dialogue: 0,0:03:50.73,0:03:52.26,Dialogue,,0,0,0,,You demand so much attention.
+Dialogue: 0,0:03:56.70,0:03:58.53,Dialogue,,0,0,0,,Sorry about that, Mr. Mourn.
+Dialogue: 0,0:03:59.17,0:03:59.83,Dialogue,,0,0,0,,I'm sorry about the tremors\Nfrom the construction next: door.
+Dialogue: 0,0:03:59.84,0:04:03.07,Dialogue,,0,0,0,,MM Sorry about the tremors\Nfrom the construction next door.\NMinoru Wada\NJESSE O_o
+Dialogue: 0,0:04:03.47,0:04:06.44,Dialogue,,0,0,0,,I... the place is really sha
+Dialogue: 0,0:04:06.64,0:04:10.21,Dialogue,,0,0,0,,But we've been told that\Nthe tremors will stop tomorrow morning.
+Dialogue: 0,0:04:10.45,0:04:12.61,Dialogue,,0,0,0,,We have to wait until 10 tonight,\Nit will all be over.
+Dialogue: 0,0:04:12.81,0:04:15.75,Dialogue,,0,0,0,,Hey. I'm starved!
+Dialogue: 0,0:04:16.89,0:04:19.95,Dialogue,,0,0,0,,We have a big,\Nfat sea bream today. Sonny.
+Dialogue: 0,0:04:20.16,0:04:22.76,Dialogue,,0,0,0,,But... I prefer fried prawn.
+Dialogue: 0,0:04:22.76,0:04:23.59,Dialogue,,0,0,0,,Okay-:coming up!
+Dialogue: 0,0:04:32.87,0:04:33.97,Dialogue,,0,0,0,,Mr. Hanaoka...
+Dialogue: 0,0:04:34.04,0:04:37.57,Dialogue,,0,0,0,,ou're closed tomorrow...\NGoing fishing for spearfish as usual?
+Dialogue: 0,0:04:37.57,0:04:38.44,Dialogue,,0,0,0,,Oh, yes!
+Dialogue: 0,0:04:38.51,0:04:39.91,Dialogue,,0,0,0,,I'maiplanning to prepare the tackle\N1 baititomight
+Dialogue: 0,0:04:39.91,0:04:42.41,Dialogue,,0,0,0,,andlleave the first thing in the morning.
+Dialogue: 0,0:04:42.78,0:04:45.08,Dialogue,,0,0,0,,Spearfish fishing in the ocean breeze .
+Dialogue: 0,0:04:45.25,0:04:46.88,Dialogue,,0,0,0,,Lenv ou...
+Dialogue: 0,0:04:46.88,0:04:50.48,Dialogue,,0,0,0,,Thanks te his hobby,\NIm left all alone on holidays.
+Dialogue: 0,0:04:51.19,0:04:52.55,Dialogue,,0,0,0,,Alone
+Dialogue: 0,0:04:53.02,0:04:54.52,Dialogue,,0,0,0,,I'm no feel...
+Dialogue: 0,0:04:56.06,0:04:57.79,Dialogue,,0,0,0,,What do you mean by that?
+Dialogue: 0,0:04:57.99,0:04:59.33,Dialogue,,0,0,0,,What is it?
+Dialogue: 0,0:04:59.43,0:05:01.53,Dialogue,,0,0,0,,Stop that! Were having customers!
+Dialogue: 0,0:05:01.86,0:05:03.56,Dialogue,,0,0,0,,Mr. Hanaoka . look.
+Dialogue: 0,0:05:04.97,0:05:07.27,Dialogue,,0,0,0,,Here this picture...
+Dialogue: 0,0:05:07.60,0:05:10.24,Dialogue,,0,0,0,,This big fish. Is this spearfish?
+Dialogue: 0,0:05:10.31,0:05:11.84,Dialogue,,0,0,0,,Yeah, that's right.
+Dialogue: 0,0:05:11.94,0:05:17.85,Dialogue,,0,0,0,,Shing buddy who's also\Na photographer took that picture.
+Dialogue: 0,0:05:17.91,0:05:19.05,Dialogue,,0,0,0,,Mr. Hanaoka,
+Dialogue: 0,0:05:19.05,0:05:20.98,Dialogue,,0,0,0,,how long have you been fishing?
+Dialogue: 0,0:05:20.98,0:05:23.92,Dialogue,,0,0,0,,Well . I think... for 25'years... maybe.
+Dialogue: 0,0:05:23.92,0:05:25.95,Dialogue,,0,0,0,,You know,\NI used to live in Hachijo Island.
+Dialogue: 0,0:05:26.32,0:05:28.76,Dialogue,,0,0,0,,Look! Is that you?
+Dialogue: 0,0:05:28.99,0:05:31.16,Dialogue,,0,0,0,,You're so young!
+Dialogue: 0,0:05:31.53,0:05:35.23,Dialogue,,0,0,0,,But this picture looks\Na little different from others...
+Dialogue: 0,0:05:35.40,0:05:38.27,Dialogue,,0,0,0,,Probably it was taken by an amateur.
+Dialogue: 0,0:05:39.33,0:05:40.17,Dialogue,,0,0,0,,See?
+Dialogue: 0,0:05:40.24,0:05:41.14,Dialogue,,0,0,0,,If you look close enough,
+Dialogue: 0,0:05:41.14,0:05:43.87,Dialogue,,0,0,0,,the camera is focused on the chef\N1d not the fish
+Dialogue: 0,0:05:44.27,0:05:49.04,Dialogue,,0,0,0,,Usually, a photo like this\Nis focused on the fish.
+Dialogue: 0,0:05:49.04,0:05:50.95,Dialogue,,0,0,0,,You know a lot about pictures)
+Dialogue: 0,0:05:50.95,0:05:53.58,Dialogue,,0,0,0,,Actually, I wanted to become\Na photographer once.
+Dialogue: 0,0:05:55.68,0:05:57.15,Dialogue,,0,0,0,,What's this...
+Dialogue: 0,0:05:57.89,0:05:58.92,Dialogue,,0,0,0,,one...
+Dialogue: 0,0:06:04.99,0:06:06.19,Dialogue,,0,0,0,,Conan!
+Dialogue: 0,0:06:06.39,0:06:09.33,Dialogue,,0,0,0,,Oh#it's you, Saki. Are you off work?
+Dialogue: 0,0:06:09.33,0:06:10.03,Dialogue,,0,0,0,,Yeah...
+Dialogue: 0,0:06:10.03,0:06:12.80,Dialogue,,0,0,0,,Why, you're here, too!
+Dialogue: 0,0:06:12.80,0:06:15.94,Dialogue,,0,0,0,,Oh, hello. Aren't you with your father?
+Dialogue: 0,0:06:15.94,0:06:19.14,Dialogue,,0,0,0,,He said he hasn't had enough-yet\Nand went drinking alone
+Dialogue: 0,0:06:19.37,0:06:21.51,Dialogue,,0,0,0,,He's a dud of a father!
+Dialogue: 0,0:06:22.58,0:06:25.11,Dialogue,,0,0,0,,But, you've still got one.
+Dialogue: 0,0:06:26.95,0:06:30.78,Dialogue,,0,0,0,,Found it! "The Last Super Detective"!\ND to see this!
+Dialogue: 0,0:06:31.19,0:06:34.72,Dialogue,,0,0,0,,This is about a playboy detective, right?
+Dialogue: 0,0:06:35.66,0:06:40.26,Dialogue,,0,0,0,,Mr. Mou I mus. be having a good time\Nsurrounded by young-girl fans right now!
+Dialogue: 0,0:06:40.46,0:06:41.96,Dialogue,,0,0,0,,You must be kidding...
+Dialogue: 0,0:06:44.93,0:06:46.33,Dialogue,,0,0,0,,Freezing!
+Dialogue: 0,0:06:46.50,0:06:50.37,Dialogue,,0,0,0,,What luck! The bar closed!
+Dialogue: 0,0:06:51.21,0:06:54.01,Dialogue,,0,0,0,,This one's closed, too.
+Dialogue: 0,0:06:55.81,0:06:57.95,Dialogue,,0,0,0,,It's Hanaoka alone...
+Dialogue: 0,0:06:58.41,0:06:59.71,Dialogue,,0,0,0,,Right .
+Dialogue: 0,0:06:59.71,0:07:02.75,Dialogue,,0,0,0,,He must be working\Non the tackle and bait for tomorrow.
+Dialogue: 0,0:07:02.75,0:07:04.45,Dialogue,,0,0,0,,I'd rather not interrupt...
+Dialogue: 0,0:07:15.86,0:07:17.77,Dialogue,,0,0,0,,That's... Wada...right??
+Dialogue: 0,0:07:20.87,0:07:22.67,Dialogue,,0,0,0,,Yes, Mouri here...
+Dialogue: 0,0:07:22.94,0:07:24.37,Dialogue,,0,0,0,,Oh hi, Ito!!
+Dialogue: 0,0:07:25.24,0:07:27.84,Dialogue,,0,0,0,,What? Mah onc ? Now? Where?
+Dialogue: 0,0:07:27.84,0:07:32.18,Dialogue,,0,0,0,,Next to Karantei? What coincidence!\NOf course, I'm going. You bet I will!!
+Dialogue: 0,0:07:38.65,0:07:39.95,Dialogue,,0,0,0,,Oh! I forgot!
+Dialogue: 0,0:07:39.95,0:07:41.16,Dialogue,,0,0,0,,What is it?
+Dialogue: 0,0:07:41.16,0:07:43.32,Dialogue,,0,0,0,,I need to buy bread for breakfast...
+Dialogue: 0,0:07:43.33,0:07:44.93,Dialogue,,0,0,0,,You can go ahead and go home!
+Dialogue: 0,0:07:45.13,0:07:46.93,Dialogue,,0,0,0,,Is ate and unsafe now...
+Dialogue: 0,0:07:47.56,0:07:49.63,Dialogue,,0,0,0,,Let's go home together.
+Dialogue: 0,0:07:49.63,0:07:51.43,Dialogue,,0,0,0,,I'll wait for you here with Conan.
+Dialogue: 0,0:07:51.77,0:07:55.84,Dialogue,,0,0,0,,Right. You're safe with her.\NHe knows karate.
+Dialogue: 0,0:07:55.84,0:07:57.20,Dialogue,,0,0,0,,Conan.That's embarrassing!
+Dialogue: 0,0:07:57.21,0:07:59.61,Dialogue,,0,0,0,,@kay. I'll be back as soon as I can.
+Dialogue: 0,0:08:03.91,0:08:06.15,Dialogue,,0,0,0,,I told you you can go drinking,
+Dialogue: 0,0:08:06.15,0:08:08.68,Dialogue,,0,0,0,,but why do you have to drink\Nuntil morning?
+Dialogue: 0,0:08:09.62,0:08:13.15,Dialogue,,0,0,0,,Top yelling at me!\NIt's ringing in my head!
+Dialogue: 0,0:08:13.15,0:08:15.09,Dialogue,,0,0,0,,You only get what you deserve...
+Dialogue: 0,0:08:15.09,0:08:18.33,Dialogue,,0,0,0,,I'd really love a hot cup of coffee here.
+Dialogue: 0,0:08:25.13,0:08:26.47,Dialogue,,0,0,0,,Something wrong?
+Dialogue: 0,0:08:27.37,0:08:28.34,Dialogue,,0,0,0,,What in the...
+Dialogue: 0,0:08:38.48,0:08:39.88,Dialogue,,0,0,0,,Sorry to tell you...
+Dialogue: 0,0:08:39.88,0:08:42.48,Dialogue,,0,0,0,,He's.been dead for quite some time.
+Dialogue: 0,0:08:42.75,0:08:45.15,Dialogue,,0,0,0,,Ran, call the police!
+Dialogue: 0,0:08:45.15,0:08:46.15,Dialogue,,0,0,0,,Okay!
+Dialogue: 0,0:08:47.49,0:08:50.36,Dialogue,,0,0,0,,Mrs Hanaoka,\Nwhere do you usually put this vase?
+Dialogue: 0,0:08:51.13,0:08:53.33,Dialogue,,0,0,0,,On the top of the stairs...
+Dialogue: 0,0:08:54.80,0:08:59.47,Dialogue,,0,0,0,,Could it be that the vase fell\Nith the tremors...
+Dialogue: 0,0:08:59.63,0:09:00.93,Dialogue,,0,0,0,,Probably...
+Dialogue: 0,0:09:01.07,0:09:03.57,Dialogue,,0,0,0,,By some unfortunate coincidence,
+Dialogue: 0,0:09:03.57,0:09:06.37,Dialogue,,0,0,0,,it hit your husbandis head...
+Dialogue: 0,0:09:07.38,0:09:09.38,Dialogue,,0,0,0,,By the way, who are you?
+Dialogue: 0,0:09:09.78,0:09:14.21,Dialogue,,0,0,0,,My name is Yamamoto,\NMr. Hanaoka's friend.
+Dialogue: 0,0:09:14.52,0:09:19.72,Dialogue,,0,0,0,,We were planning to go spearfish\Nfishing off Hachijo Island-today...\NKoiti Yamamoto\NNADI
+Dialogue: 0,0:09:20.26,0:09:22.86,Dialogue,,0,0,0,,I had to wait for a long time for him.
+Dialogue: 0,0:09:22.86,0:09:26.76,Dialogue,,0,0,0,,Since I was told he's not home either,\Name here with his wife.
+Dialogue: 0,0:09:27.20,0:09:32.37,Dialogue,,0,0,0,,Was looking forward to going\Nto Hachijo every year, around this time.
+Dialogue: 0,0:09:37.11,0:09:39.94,Dialogue,,0,0,0,,Trace of blood forming straight lines...
+Dialogue: 0,0:09:42.98,0:09:44.65,Dialogue,,0,0,0,,Don't touch material evidence!
+Dialogue: 0,0:09:45.31,0:09:49.65,Dialogue,,0,0,0,,I was just wondering whether\Nthe vase really hit Mr. Hanaoka...
+Dialogue: 0,0:09:49.85,0:09:52.19,Dialogue,,0,0,0,,There's blood on the inside of the hat.
+Dialogue: 0,0:09:52.52,0:09:54.72,Dialogue,,0,0,0,,At's proof enough\Nthat the vase hit his head!
+Dialogue: 0,0:09:54.82,0:09:58.46,Dialogue,,0,0,0,,But look... the flowers\Nfrom the vase that fell...
+Dialogue: 0,0:09:58.46,0:10:00.89,Dialogue,,0,0,0,,They're withered compared to others...
+Dialogue: 0,0:10:01.50,0:10:04.06,Dialogue,,0,0,0,,I was just about to get to that...
+Dialogue: 0,0:10:05.97,0:10:09.24,Dialogue,,0,0,0,,True... the flowers here still look fresh
+Dialogue: 0,0:10:12.14,0:10:14.01,Dialogue,,0,0,0,,Uncle, see?
+Dialogue: 0,0:10:17.81,0:10:18.88,Dialogue,,0,0,0,,Dad!
+Dialogue: 0,0:10:19.71,0:10:24.59,Dialogue,,0,0,0,,See, there's a white fragment\Nsomething on the floor...
+Dialogue: 0,0:10:24.59,0:10:26.32,Dialogue,,0,0,0,,It probably came from the ceiling.
+Dialogue: 0,0:10:26.32,0:10:26.55,Dialogue,,0,0,0,,Sq, A
+Dialogue: 0,0:10:27.55,0:10:29.69,Dialogue,,0,0,0,,If it's not to salt or sugar,
+Dialogue: 0,0:10:29.79,0:10:33.49,Dialogue,,0,0,0,,s highly likely\Nit's white paint from the ceiling!
+Dialogue: 0,0:10:34.10,0:10:38.60,Dialogue,,0,0,0,,It has something to do with the\Ncause of Mr Hanaoka's death
+Dialogue: 0,0:10:40.54,0:10:42.94,Dialogue,,0,0,0,,There's a fine scratch on the beam.
+Dialogue: 0,0:10:43.14,0:10:45.81,Dialogue,,0,0,0,,The paint must have peeled\Nff from here.
+Dialogue: 0,0:10:46.11,0:10:48.18,Dialogue,,0,0,0,,Oka The other sida!\NNIN CA, § 0 IC JAN ICE OINAC.
+Dialogue: 0,0:10:50.35,0:10:52.61,Dialogue,,0,0,0,,And the window is open...
+Dialogue: 0,0:10:54.32,0:10:55.68,Dialogue,,0,0,0,,I knew it!
+Dialogue: 0,0:10:55.95,0:10:59.69,Dialogue,,0,0,0,,The same scratch I found on the beam!
+Dialogue: 0,0:11:01.09,0:11:03.96,Dialogue,,0,0,0,,Looks into the construction site...
+Dialogue: 0,0:11:06.06,0:11:08.36,Dialogue,,0,0,0,,This may net be an accident...
+Dialogue: 0,0:11:10.20,0:11:13.77,Dialogue,,0,0,0,,Mr. Hanaoka may have been killed,\Nset up to look like an accident.
+Dialogue: 0,0:11:27.22,0:11:28.48,Dialogue,,0,0,0,,Mrs. Hanaoka.
+Dialogue: 0,0:11:28.48,0:11:30.65,Dialogue,,0,0,0,,Mr Wada, Saki...
+Dialogue: 0,0:11:30.65,0:11:33.89,Dialogue,,0,0,0,,A flower vase fell'... and my husband...
+Dialogue: 0,0:11:34.05,0:11:35.46,Dialogue,,0,0,0,,What!!
+Dialogue: 0,0:11:40.23,0:11:42.50,Dialogue,,0,0,0,,And then? What happened to him?
+Dialogue: 0,0:11:43.73,0:11:46.87,Dialogue,,0,0,0,,He's been taken\Nte the hospital for autopsy.
+Dialogue: 0,0:11:47.54,0:11:49.37,Dialogue,,0,0,0,,Autopsy?
+Dialogue: 0,0:11:49.50,0:11:50.87,Dialogue,,0,0,0,,That means...
+Dialogue: 0,0:11:50.87,0:11:53.37,Dialogue,,0,0,0,,Excuse me, but who are you two?
+Dialogue: 0,0:11:53.37,0:11:56.21,Dialogue,,0,0,0,,I'm Wada. I work here as a cook.
+Dialogue: 0,0:11:56.21,0:11:58.18,Dialogue,,0,0,0,,I'm Saki Yoshizawa, a waitress here
+Dialogue: 0,0:11:58.25,0:12:02.82,Dialogue,,0,0,0,,Inspector, wasn't it an accident\Ncaused by a falling vase?
+Dialogue: 0,0:12:03.18,0:12:09.29,Dialogue,,0,0,0,,Yes, Mr. Hanaoka died of wounds\Na falling vase
+Dialogue: 0,0:12:09.29,0:12:12.69,Dialogue,,0,0,0,,However, it appears that\Nthe vase was dropped deliberately.
+Dialogue: 0,0:12:12.69,0:12:13.99,Dialogue,,0,0,0,,Deliberately...?
+Dialogue: 0,0:12:14.00,0:12:15.10,Dialogue,,0,0,0,,Right!
+Dialogue: 0,0:12:15.56,0:12:19.00,Dialogue,,0,0,0,,I thought it was so at first...
+Dialogue: 0,0:12:21.24,0:12:24.87,Dialogue,,0,0,0,,t, my investigation\Nturned up a lot of things...
+Dialogue: 0,0:12:24.91,0:12:31.88,Dialogue,,0,0,0,,e. autopsy showed\Nhe.died between 11 pm'and 1am today...
+Dialogue: 0,0:12:32.08,0:12:33.08,Dialogue,,0,0,0,,However
+Dialogue: 0,0:12:33.08,0:12:34.88,Dialogue,,0,0,0,,we found that construction
+Dialogue: 0,0:12:34.88,0:12:40.45,Dialogue,,0,0,0,,ork ended at 10:30 pm\NIast night due to machine failure...
+Dialogue: 0,0:12:40.96,0:12:42.29,Dialogue,,0,0,0,,That means...
+Dialogue: 0,0:12:42.29,0:12:46.86,Dialogue,,0,0,0,,Tremors from the construction sight\Ncouldn't have caused the vase to falls
+Dialogue: 0,0:12:48.73,0:12:51.26,Dialogue,,0,0,0,,I'd like you to see something...
+Dialogue: 0,0:12:53.43,0:12:56.10,Dialogue,,0,0,0,,It was found at the construction site.
+Dialogue: 0,0:12:56.37,0:12:59.54,Dialogue,,0,0,0,,The line onthe fork is\Nused for spearfish: fishing
+Dialogue: 0,0:12:59.74,0:13:03.31,Dialogue,,0,0,0,,and the line wasted to a'steel frame.
+Dialogue: 0,0:13:03.68,0:13:06.51,Dialogue,,0,0,0,,The culprit used this line and\Nhe steel frame,
+Dialogue: 0,0:13:06.61,0:13:09.55,Dialogue,,0,0,0,,ositioned the vase right\Nabove Mr. Hanaoka's head,
+Dialogue: 0,0:13:09.55,0:13:11.35,Dialogue,,0,0,0,,and made it fall.
+Dialogue: 0,0:13:11.99,0:13:16.39,Dialogue,,0,0,0,,I had Inspector Takagi cheek\Nthe freezer in the back of the kitchen
+Dialogue: 0,0:13:16.39,0:13:18.93,Dialogue,,0,0,0,,He found the Sea Breem
+Dialogue: 0,0:13:18.93,0:13:21.90,Dialogue,,0,0,0,,and found a few petals inside
+Dialogue: 0,0:13:22.70,0:13:24.80,Dialogue,,0,0,0,,Which means the culprit...
+Dialogue: 0,0:13:25.33,0:13:29.47,Dialogue,,0,0,0,,placed the fork with the fishing line\N0 the vase with flowers...
+Dialogue: 0,0:13:29.77,0:13:32.57,Dialogue,,0,0,0,,and placed the vase in the freezer.
+Dialogue: 0,0:13:33.21,0:13:34.11,Dialogue,,0,0,0,,Later,
+Dialogue: 0,0:13:34.28,0:13:37.84,Dialogue,,0,0,0,,the frozen vase was\Nplaced instead of the other
+Dialogue: 0,0:13:37.85,0:13:40.61,Dialogue,,0,0,0,,right above Mr. Hanaoka's head,\Nas he was preparing his tackle
+Dialogue: 0,0:13:40.72,0:13:42.98,Dialogue,,0,0,0,,Moved on the pretense\Nof{\rHonorifics - Dialogue} chan{\r}ging water for the flowers.
+Dialogue: 0,0:13:43.38,0:13:46.75,Dialogue,,0,0,0,,And the line running along the beam
+Dialogue: 0,0:13:46.75,0:13:49.12,Dialogue,,0,0,0,,was tied to the line to the vase...
+Dialogue: 0,0:13:49.42,0:13:52.89,Dialogue,,0,0,0,,Later, the culprit went out...
+Dialogue: 0,0:13:53.06,0:13:57.30,Dialogue,,0,0,0,,to go to the construction site\Nand tied the line to the steel frame there
+Dialogue: 0,0:13:57.33,0:14:00.07,Dialogue,,0,0,0,,slowly dropping it into the trench.
+Dialogue: 0,0:14:00.74,0:14:04.27,Dialogue,,0,0,0,,This way, the frame pulled the vase\Nand moved the vase
+Dialogue: 0,0:14:04.47,0:14:07.94,Dialogue,,0,0,0,,right above his head
+Dialogue: 0,0:14:08.08,0:14:12.28,Dialogue,,0,0,0,,as the ice melts...
+Dialogue: 0,0:14:15.02,0:14:17.82,Dialogue,,0,0,0,,That's what really happened...
+Dialogue: 0,0:14:18.55,0:14:22.26,Dialogue,,0,0,0,,Wow! He's done it again\Nand he's awake this time!
+Dialogue: 0,0:14:22.52,0:14:23.66,Dialogue,,0,0,0,,By the way,
+Dialogue: 0,0:14:23.66,0:14:27.43,Dialogue,,0,0,0,,it's your job to take care of\Nthe flowers, isn't it?
+Dialogue: 0,0:14:28.16,0:14:29.46,Dialogue,,0,0,0,,Don't tell me
+Dialogue: 0,0:14:29.46,0:14:31.30,Dialogue,,0,0,0,,You think I did it?
+Dialogue: 0,0:14:33.20,0:14:37.57,Dialogue,,0,0,0,,W-Why do I have to kill my husband!?
+Dialogue: 0,0:14:39.14,0:14:42.48,Dialogue,,0,0,0,,This was found inside\NMr. Hanaoka's locker.
+Dialogue: 0,0:14:44.28,0:14:46.18,Dialogue,,0,0,0,,What's this?
+Dialogue: 0,0:14:46.35,0:14:48.62,Dialogue,,0,0,0,,A report written by\Na private investigation firm.
+Dialogue: 0,0:14:48.68,0:14:52.79,Dialogue,,0,0,0,,This is a report on Mrs. Hanaoka's\Nactivities that her husband requested
+Dialogue: 0,0:14:54.92,0:14:57.32,Dialogue,,0,0,0,,is a photo of 'her with...
+Dialogue: 0,0:14:58.06,0:14:59.13,Dialogue,,0,0,0,,Mr. Wada
+Dialogue: 0,0:14:59.93,0:15:01.19,Dialogue,,0,0,0,,Yes,
+Dialogue: 0,0:15:01.50,0:15:03.70,Dialogue,,0,0,0,,there is an accomplice in this case.
+Dialogue: 0,0:15:03.87,0:15:07.43,Dialogue,,0,0,0,,The one who created the contraption\Nin the construction site must be you.
+Dialogue: 0,0:15:07.44,0:15:08.67,Dialogue,,0,0,0,,Mr Wada?
+Dialogue: 0,0:15:09.27,0:15:10.57,Dialogue,,0,0,0,,By coincidence,
+Dialogue: 0,0:15:10.57,0:15:16.18,Dialogue,,0,0,0,,I saw Mr. Wada last night\Ncoming out of the construction site.
+Dialogue: 0,0:15:16.74,0:15:17.84,Dialogue,,0,0,0,,Extramarnital affair.
+Dialogue: 0,0:15:17.98,0:15:21.68,Dialogue,,0,0,0,,So that is why you wanted to\Nget rid off your husband.
+Dialogue: 0,0:15:22.48,0:15:23.38,Dialogue,,0,0,0,,Is that right?
+Dialogue: 0,0:15:31.89,0:15:32.66,Dialogue,,0,0,0,,I'm sorry!
+Dialogue: 0,0:15:33.59,0:15:36.16,Dialogue,,0,0,0,,Everything is true!
+Dialogue: 0,0:15:36.83,0:15:37.20,Dialogue,,0,0,0,,I did it!
+Dialogue: 0,0:15:37.20,0:15:37.90,Dialogue,,0,0,0,,Cc I.
+Dialogue: 0,0:15:39.70,0:15:42.94,Dialogue,,0,0,0,,Mr. Mouri! You're splendid as always!
+Dialogue: 0,0:15:43.54,0:15:46.04,Dialogue,,0,0,0,,Well... a piece of cake.
+Dialogue: 0,0:15:48.54,0:15:51.18,Dialogue,,0,0,0,,Get your foot off that chair!
+Dialogue: 0,0:15:52.65,0:15:53.98,Dialogue,,0,0,0,,What's . that?
+Dialogue: 0,0:15:55.28,0:15:57.55,Dialogue,,0,0,0,,I didn't see that yesterday
+Dialogue: 0,0:15:59.59,0:16:01.19,Dialogue,,0,0,0,,Hey. What's with you!?
+Dialogue: 0,0:16:01.32,0:16:04.66,Dialogue,,0,0,0,,Uncle, the shape of the scratch\Non the chair and the vase.
+Dialogue: 0,0:16:08.10,0:16:12.23,Dialogue,,0,0,0,,Hello, Megurethere:;Hummm...
+Dialogue: 0,0:16:12.23,0:16:13.50,Dialogue,,0,0,0,,Okay
+Dialogue: 0,0:16:13.97,0:16:17.90,Dialogue,,0,0,0,,It was from Chiba at the autopsy. &\NHe says sea bream scales
+Dialogue: 0,0:16:17.91,0:16:20.67,Dialogue,,0,0,0,,were found in the collar\Nand.around the neck of the victim.
+Dialogue: 0,0:16:20.84,0:16:21.91,Dialogue,,0,0,0,,Seabream scales?
+Dialogue: 0,0:16:23.21,0:16:25.71,Dialogue,,0,0,0,,Fishing was his hobby...
+Dialogue: 0,0:16:26.01,0:16:29.72,Dialogue,,0,0,0,,so maybe they stuck there\Nin an earlier fishing trap
+Dialogue: 0,0:16:34.76,0:16:36.22,Dialogue,,0,0,0,,This must be...!
+Dialogue: 0,0:16:37.26,0:16:40.13,Dialogue,,0,0,0,,So, that's it... amazing...
+Dialogue: 0,0:16:40.73,0:16:44.87,Dialogue,,0,0,0,,Anyway, we need you both\Nto come with us for further questioning.
+Dialogue: 0,0:16:48.14,0:16:50.07,Dialogue,,0,0,0,,Wait, Inspector
+Dialogue: 0,0:16:50.27,0:16:51.34,Dialogue,,0,0,0,,Mr Moun?
+Dialogue: 0,0:16:51.94,0:16:54.31,Dialogue,,0,0,0,,The two are not the killers.
+Dialogue: 0,0:16:56.11,0:16:57.48,Dialogue,,0,0,0,,Who then!?
+Dialogue: 0,0:16:58.21,0:17:02.42,Dialogue,,0,0,0,,Certainly, the two built that device...
+Dialogue: 0,0:17:03.15,0:17:05.65,Dialogue,,0,0,0,,But, when the vase fell...
+Dialogue: 0,0:17:06.15,0:17:09.49,Dialogue,,0,0,0,,Mr Hanaoka was already dead!!
+Dialogue: 0,0:17:09.49,0:17:10.92,Dialogue,,0,0,0,,What!!?
+Dialogue: 0,0:17:11.39,0:17:16.20,Dialogue,,0,0,0,,The real culprit learned of the scheme\Nto kill and took advantage of it.
+Dialogue: 0,0:17:16.56,0:17:22.47,Dialogue,,0,0,0,,The trick will not work unless\NMr. Hanaoka sits exactly under the vase.
+Dialogue: 0,0:17:22.47,0:17:24.84,Dialogue,,0,0,0,,It was totally unreliable...
+Dialogue: 0,0:17:25.74,0:17:30.11,Dialogue,,0,0,0,,That is why the culprit\Nchose the most reliable way...
+Dialogue: 0,0:17:30.48,0:17:32.51,Dialogue,,0,0,0,,approaching Mr Hanaoka from behind...
+Dialogue: 0,0:17:32.51,0:17:35.48,Dialogue,,0,0,0,,and with the frozen sea bream...
+Dialogue: 0,0:17:37.29,0:17:40.12,Dialogue,,0,0,0,,hitting him on the head.
+Dialogue: 0,0:17:40.12,0:17:43.66,Dialogue,,0,0,0,,The simplest and sure-fire solution.
+Dialogue: 0,0:17:43.66,0:17:45.76,Dialogue,,0,0,0,,So, that's how the scales got there...
+Dialogue: 0,0:17:46.19,0:17:48.73,Dialogue,,0,0,0,,After killing the man,\Nthe culprit rushed to return
+Dialogue: 0,0:17:48.73,0:17:53.53,Dialogue,,0,0,0,,the sea bream to the freezer\Nand had a problem taking off the glove...
+Dialogue: 0,0:17:54.34,0:17:59.71,Dialogue,,0,0,0,,Because this person had to go to\Na certain location as soon as possible.
+Dialogue: 0,0:17:59.71,0:18:03.71,Dialogue,,0,0,0,,To the vi eo shop\Nwhere Ran and Conan are waiting.
+Dialogue: 0,0:18:03.71,0:18:05.21,Dialogue,,0,0,0,,Isn't that right?
+Dialogue: 0,0:18:05.21,0:18:07.55,Dialogue,,0,0,0,,Saki!
+Dialogue: 0,0:18:07.82,0:18:11.02,Dialogue,,0,0,0,,Conan, show that to the Inspector.
+Dialogue: 0,0:18:11.02,0:18:12.19,Dialogue,,0,0,0,,Okay!!
+Dialogue: 0,0:18:13.29,0:18:14.59,Dialogue,,0,0,0,,Here you are.
+Dialogue: 0,0:18:14.59,0:18:15.79,Dialogue,,0,0,0,,Humm.
+Dialogue: 0,0:18:16.42,0:18:18.69,Dialogue,,0,0,0,,This is a rubber glove.
+Dialogue: 0,0:18:18.99,0:18:21.53,Dialogue,,0,0,0,,This was used in the murder.
+Dialogue: 0,0:18:22.46,0:18:25.83,Dialogue,,0,0,0,,I see afaintt ace of Lipstick
+Dialogue: 0,0:18:25.83,0:18:30.84,Dialogue,,0,0,0,,Yes, the same color of lipstick\NSaki was using yesterday...
+Dialogue: 0,0:18:30.84,0:18:36.31,Dialogue,,0,0,0,,No... don't make me a killer\Njust because I wear the same color.
+Dialogue: 0,0:18:36.31,0:18:39.11,Dialogue,,0,0,0,,You tried to take off the glove in a hurry
+Dialogue: 0,0:18:39.11,0:18:42.18,Dialogue,,0,0,0,,because you had to get to\Nwhere they were waiting.
+Dialogue: 0,0:18:42.75,0:18:46.22,Dialogue,,0,0,0,,But the glove sticks\Nand is hard to take off...
+Dialogue: 0,0:18:46.22,0:18:49.99,Dialogue,,0,0,0,,ST, you bit the tip.
+Dialogue: 0,0:18:49.99,0:18:52.06,Dialogue,,0,0,0,,To remove it.
+Dialogue: 0,0:18:52.06,0:18:57.33,Dialogue,,0,0,0,,There is a bite mark believed to\Nbelong to a woman...
+Dialogue: 0,0:18:57.33,0:19:01.57,Dialogue,,0,0,0,,You can check and prove whose it is.
+Dialogue: 0,0:19:01.57,0:19:03.70,Dialogue,,0,0,0,,Is that true?
+Dialogue: 0,0:19:06.11,0:19:10.21,Dialogue,,0,0,0,,He deserved 10 be killed...
+Dialogue: 0,0:19:11.15,0:19:15.88,Dialogue,,0,0,0,,21 years ago, he was a fisherman\Nin Hachijo Island...
+Dialogue: 0,0:19:15.88,0:19:19.12,Dialogue,,0,0,0,,There was a girl named Aiko Morimura
+Dialogue: 0,0:19:19.12,0:19:22.59,Dialogue,,0,0,0,,whom he promised to marry in the future.
+Dialogue: 0,0:19:23.06,0:19:26.66,Dialogue,,0,0,0,,But Hanaoka said\Nhe wan &d to study cooking
+Dialogue: 0,0:19:26.66,0:19:29.03,Dialogue,,0,0,0,,and left the island and Aiko...
+Dialogue: 0,0:19:29.93,0:19:33.07,Dialogue,,0,0,0,,Aiko let him go without a complaint
+Dialogue: 0,0:19:33.07,0:19:35.47,Dialogue,,0,0,0,,She didn't even tell him\Nshe was carrying his baby
+Dialogue: 0,0:19:36.70,0:19:38.97,Dialogue,,0,0,0,,Aiko waited.
+Dialogue: 0,0:19:38.97,0:19:42.04,Dialogue,,0,0,0,,Sheihad the baby .byherself\Nand waitingsfor him: to-return,
+Dialogue: 0,0:19:42.04,0:19:44.68,Dialogue,,0,0,0,,caringifor his,child.
+Dialogue: 0,0:19:46.31,0:19:48.55,Dialogue,,0,0,0,,She waited and waited
+Dialogue: 0,0:19:48.55,0:19:52.29,Dialogue,,0,0,0,,until she lost hope and died this spring...
+Dialogue: 0,0:19:52.29,0:19:56.09,Dialogue,,0,0,0,,Then, Aiko's child is...
+Dialogue: 0,0:19:56.56,0:20:01.59,Dialogue,,0,0,0,,I could not forgive him...\Ncould never forgive him
+Dialogue: 0,0:20:02.86,0:20:04.00,Dialogue,,0,0,0,,Saki...
+Dialogue: 0,0:20:04.40,0:20:06.60,Dialogue,,0,0,0,,that photo
+Dialogue: 0,0:20:06.60,0:20:11.81,Dialogue,,0,0,0,,thatiphoto at the tn\NMr. Hanaoka sat all the time
+Dialogue: 0,0:20:11.81,0:20:16.51,Dialogue,,0,0,0,,it most likely was taken\Nby your mother?
+Dialogue: 0,0:20:16.51,0:20:17.61,Dialogue,,0,0,0,,What! 2
+Dialogue: 0,0:20:17.65,0:20:24.08,Dialogue,,0,0,0,,The focus Is Not on the fish\Nbut on Mr. Hanaoka...
+Dialogue: 0,0:20:24.09,0:20:28.96,Dialogue,,0,0,0,,It looks like a picture taken\Nby somebody who loves him...
+Dialogue: 0,0:20:34.60,0:20:35.40,Dialogue,,0,0,0,,Look!
+Dialogue: 0,0:20:39.67,0:20:42.97,Dialogue,,0,0,0,,Mr. Hanaoka had the photo\Nplaced in the shop
+Dialogue: 0,0:20:42.97,0:20:45.51,Dialogue,,0,0,0,,and probably was looking at\Nit all the time
+Dialogue: 0,0:20:46.21,0:20:52.91,Dialogue,,0,0,0,,He was thinking of his memories of\NAiko in Hachijo Island.
+Dialogue: 0,0:20:54.42,0:20:58.42,Dialogue,,0,0,0,,There is something that looks like\Nthe numeral 1 at the corner of the photo.
+Dialogue: 0,0:20:58.42,0:20:58.79,Dialogue,,0,0,0,,There is something that looks like\Nthe numeral 1 at the corner of the photo.
+Dialogue: 0,0:20:58.79,0:21:01.55,Dialogue,,0,0,0,,That probably stands for Aiko...
+Dialogue: 0,0:21:02.49,0:21:04.22,Dialogue,,0,0,0,,Aiko Morimura...
+Dialogue: 0,0:21:04.59,0:21:07.16,Dialogue,,0,0,0,,So what\Nwhat's that supposed to mean!?
+Dialogue: 0,0:21:07.16,0:21:08.60,Dialogue,,0,0,0,,Are you telling me he should be forgiven
+Dialogue: 0,0:21:08.60,0:21:10.06,Dialogue,,0,0,0,,because he kept the photo\Ned at it?
+Dialogue: 0,0:21:10.06,0:21:13.13,Dialogue,,0,0,0,,My mother's already dead!?\NRked hard,
+Dialogue: 0,0:21:13.13,0:21:15.07,Dialogue,,0,0,0,,Ied a hard life, and died alone!!
+Dialogue: 0,0:21:15.07,0:21:18.37,Dialogue,,0,0,0,,If he really did think of her\Nthat much, why didnitthe contact her!?
+Dialogue: 0,0:21:18.37,0:21:21.24,Dialogue,,0,0,0,,Why didn't he write her even once?
+Dialogue: 0,0:21:21.24,0:21:26.31,Dialogue,,0,0,0,,If he did... if he ever did...\Nmy mother w. Tld have.
+Dialogue: 0,0:21:30.25,0:21:31.75,Dialogue,,0,0,0,,Saki...
+Dialogue: 0,0:21:32.02,0:21:38.22,Dialogue,,0,0,0,,I don't know whysMr Hanaoka\Nnever contacted her...
+Dialogue: 0,0:21:38.56,0:21:43.23,Dialogue,,0,0,0,,Still, regardless of\Nwhat he did in the past.
+Dialogue: 0,0:21:43.23,0:21:47.40,Dialogue,,0,0,0,,There must have been ways for you\Nto tell him how you feel.
+Dialogue: 0,0:21:48.24,0:21:56.34,Dialogue,,0,0,0,,Ways ether than committing\Nsomething abominable like murder...
+Dialogue: 0,0:21:58.88,0:22:02.65,Dialogue,,0,0,0,,ORIGINAL COMIC BOOKS BY.\NGosho Aoyama
+Dialogue: 0,0:22:04.89,0:22:08.66,Dialogue,,0,0,0,,PRODUCERS.\NMichihiko Suwa\N. Masahito Yoshioka
+Dialogue: 0,0:22:10.89,0:22:14.63,Dialogue,,0,0,0,,BACKGROUND MUSIC.\NKatsuo Ono
+Dialogue: 0,0:22:16.93,0:22:20.67,Dialogue,,0,0,0,,CHARACTER DESIGNS -BY.\NMasatomo Sudo
+Dialogue: 0,0:22:22.90,0:22:26.67,Dialogue,,0,0,0,,STORY EDITOR\NJunichi hioka
+Dialogue: 0,0:22:28.91,0:22:32.68,Dialogue,,0,0,0,,SCRIPTS BY\NKanji Kashiwabiri\NKazunari Kouchi\NJunichi Miyashita\NYuichi Higure\NToshiki Inoue
+Dialogue: 0,0:22:34.92,0:22:38.69,Dialogue,,0,0,0,,Masatomo Sudo\NHirotoshi Takatani\NHaruo Oogawara\NAtsushi Aono\NAkio Kawamura\NTakashi Hyodo
+Dialogue: 0,0:22:40.92,0:22:44.69,Dialogue,,0,0,0,,ART DIRE JOR.\NYukihiro Shibutani
+Dialogue: 0,0:22:46.93,0:22:50.70,Dialogue,,0,0,0,,DIRECTORS OFsPHOTQGRAPHY\NTakishi Nomura\NHironobu Horikoshi\NTakahisa Ogawa
+Dialogue: 0,0:22:52.90,0:22:56.70,Dialogue,,0,0,0,,RECORDING DIRECTOR\NKatsuyoshi Kobayashi
+Dialogue: 0,0:22:58.94,0:23:02.71,Dialogue,,0,0,0,,EDITOR.\NTerumitsu Okada
+Dialogue: 0,0:23:04.95,0:23:08.72,Dialogue,,0,0,0,,CHIEF DIRECTOR.\NKenji KOdamay
+Dialogue: 0,0:23:10.99,0:23:14.72,Dialogue,,0,0,0,,TMS Entertainment, Ltd.\NIn association with\NYomiuri elecastine Corporation
+Dialogue: 0,0:23:17.99,0:23:24.23,Dialogue,,0,0,0,,DETECTIVE CONAN\NGosho Abyamaf-Shoqakukan - YTV - TM\NAil Rights Reserved
+Dialogue: 0,0:23:28.04,0:23:29.87,Dialogue,,0,0,0,,Oh! Wow!!
+Dialogue: 0,0:23:30.37,0:23:32.81,Dialogue,,0,0,0,,It's pulling, pulling hard.\NMust be a big one.
+Dialogue: 0,0:23:32.81,0:23:34.44,Dialogue,,0,0,0,,Hold on to it tight!
+Dialogue: 0,0:23:34.84,0:23:36.91,Dialogue,,0,0,0,,Im ready to sheet!
+Dialogue: 0,0:23:36.91,0:23:39.98,Dialogue,,0,0,0,,Ran move back a little.\NI can't get the fish.
+Dialogue: 0,0:23:40.15,0:23:43.28,Dialogue,,0,0,0,,I can't meve any more\NYou move back, Dad.
+Dialogue: 0,0:23:43.28,0:23:44.42,Dialogue,,0,0,0,,Okay 4
+Dialogue: 0,0:23:44.42,0:23:45.72,Dialogue,,0,0,0,,Some more.
+Dialogue: 0,0:23:45.72,0:23:46.99,Dialogue,,0,0,0,,A bit more.
+Dialogue: 0,0:23:47.49,0:23:48.69,Dialogue,,0,0,0,,Doh. &%
+Dialogue: 0,0:23:49.09,0:23:52.59,Dialogue,,0,0,0,,Dad! Are you all right?
+Dialogue: 0,0:23:55.33,0:24:00.27,Dialogue,,0,0,0,,You're better off in front of the camera,\Nrather than behind it, mister!!
+Dialogue: 0,0:24:03.14,0:24:05.37,Dialogue,,0,0,0,,Oh..my!!
+Dialogue: 0,0:24:05.37,0:24:08.31,Dialogue,,0,0,0,,I-is that the legendary...
+Dialogue: 0,0:24:19.12,0:24:21.62,Dialogue,,0,0,0,,Uncle; look at this!!
+Dialogue: 0,0:24:22.02,0:24:25.06,Dialogue,,0,0,0,,The armor is gone!!

@@ -1,0 +1,433 @@
+[Script Info]
+Title: Detective Conan - 0294
+TL Source: UTB
+ScriptType: v4.00+
+WrapStyle: 3
+PlayResX: 1440
+PlayResY: 1080
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Dialogue,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00401311,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Dialogue Top,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00401311,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,8,30,30,55,1
+Style: Signs,FrancophilSans,74,&H14FFFFFF,&H00FFFFFF,&H46101010,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,8,30,30,55,1
+Style: Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,0,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Radio,FrancophilSans,74,&H00BEE1FF,&H00FFFFFF,&H000B2A42,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Narration,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00BF6F00,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Narration Off,FrancophilSans,74,&H6E8C6F00,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,0,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Flashback,FrancophilSans,74,&H00CDFAFF,&H00FFFFFF,&H00373737,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Flashback Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00CCFFFF,&HC0313134,-1,0,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Honorifics - Dialogue,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00401311,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Signs,FrancophilSans,74,&H14FFFFFF,&H00FFFFFF,&H46101010,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,-1,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Honorifics - Radio,FrancophilSans,74,&H00BEE1FF,&H00FFFFFF,&H000B2A42,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Narration,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00BF6F00,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Narration Off,FrancophilSans,74,&H6E8C6F00,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,-1,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Honorifics - Flashback,FrancophilSans,74,&H00CDFAFF,&H00FFFFFF,&H00373737,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Flashback Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00CCFFFF,&HC0313134,-1,-1,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Masks,FrancophilSans,74,&H00000000,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,2,0,0,0,1
+Style: Title,Conan Episode Title,74,&H00E1E4E3,&H000000FF,&HC8DBDAE1,&HC0000000,-1,0,0,0,100,100,0,0,1,1,0,5,0,0,0,1
+Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-1,0,0,0,100,100,0,0,1,0,0,2,0,0,65,1
+Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
+Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
+Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.33,0:00:02.16,Dialogue,,0,0,0,,Suspense and deduction\Ncloses the gap between
+Dialogue: 0,0:00:02.16,0:00:03.73,Dialogue,,0,0,0,,the love and hatred\Nbetween two people
+Dialogue: 0,0:00:04.03,0:00:05.73,Dialogue,,0,0,0,,Tennis concert in the\NIand of Kumamoto
+Dialogue: 0,0:00:06.03,0:00:07.77,Dialogue,,0,0,0,,Cellphone and mail. Ran's in trouble!
+Dialogue: 0,0:00:07.97,0:00:09.64,Dialogue,,0,0,0,,He sees through the\None and only truth
+Dialogue: 0,0:00:09.67,0:00:11.41,Dialogue,,0,0,0,,a child in appearance\Nwith the IQ. of an adult
+Dialogue: 0,0:00:11.41,0:00:13.54,Dialogue,,0,0,0,,no case is left unsolved\Nwith Detective Conan.
+Dialogue: 0,0:01:49.17,0:01:51.47,Dialogue,,0,0,0,,Mt. Asosan\NI 35.50
+Dialogue: 0,0:01:55.54,0:01:55.74,Dialogue,,0,0,0,,Vv Na \\NWe are on board our\Nplane flying to Kumamoto.
+Dialogue: 0,0:01:55.74,0:01:55.98,Dialogue,,0,0,0,,We are on board our\Nplane flying to Kumamoto.
+Dialogue: 0,0:01:55.98,0:01:59.18,Dialogue,,0,0,0,,We are on board our\Nplane flying to Kumamoto.
+Dialogue: 0,0:02:00.38,0:02:04.02,Dialogue,,0,0,0,,We headed there to enter a tennis\Nmatch that Genta won in-arlotteny.
+Dialogue: 0,0:02:04.89,0:02:07.56,Dialogue,,0,0,0,,Ran and Pops is with us\Nas our guardian and
+Dialogue: 0,0:02:07.56,0:02:09.32,Dialogue,,0,0,0,,Sonoko has also come along\Npaying her own way.
+Dialogue: 0,0:02:10.76,0:02:13.46,Dialogue,,0,0,0,,Just as would be expected of the\Ndaughter of the Suzuki financial group...
+Dialogue: 0,0:02:14.23,0:02:16.43,Dialogue,,0,0,0,,And, this time there is one more\Nperson who came along with us
+Dialogue: 0,0:02:16.83,0:02:18.57,Dialogue,,0,0,0,,It's not usual for her to come\Nalong on something like this...
+Dialogue: 0,0:02:19.77,0:02:20.80,Dialogue,,0,0,0,,Want anything?
+Dialogue: 0,0:02:21.17,0:02:22.90,Dialogue,,0,0,0,,Oh, well, no
+Dialogue: 0,0:02:23.24,0:02:23.74,Dialogue,,0,0,0,,Okay then
+Dialogue: 0,0:02:24.67,0:02:26.71,Dialogue,,0,0,0,,I was just-wondering why\Nyou came along this time. because
+Dialogue: 0,0:02:26.71,0:02:31.58,Dialogue,,0,0,0,,you usually say you're not interested\Nin stuff/like this. and don't join us
+Dialogue: 0,0:02:32.01,0:02:34.92,Dialogue,,0,0,0,,There's no special\Nreason why I came along...
+Dialogue: 0,0:02:35.48,0:02:38.52,Dialogue,,0,0,0,,It's because Dr. Agasa\Nkept bugging me to go.
+Dialogue: 0,0:02:39.82,0:02:44.33,Dialogue,,0,0,0,,And besides, unless I stay near you,\Nyou can't protect. me, can you?
+Dialogue: 0,0:02:44.63,0:02:45.86,Dialogue,,0,0,0,,What?
+Dialogue: 0,0:02:46.29,0:02:47.86,Dialogue,,0,0,0,,I was joking
+Dialogue: 0,0:02:49.30,0:02:50.16,Dialogue,,0,0,0,,Oh boy...
+Dialogue: 0,0:02:52.17,0:02:57.84,Dialogue,,0,0,0,,(Bik)\NSmash of Love and Resolve\NPart 1
+Dialogue: 0,0:03:09.72,0:03:11.19,Dialogue,,0,0,0,,Here we are!
+Dialogue: 0,0:03:11.55,0:03:12.72,Dialogue,,0,0,0,,It's Kyushu!
+Dialogue: 0,0:03:12.85,0:03:14.19,Dialogue,,0,0,0,,It's Kumamoto!
+Dialogue: 0,0:03:14.66,0:03:16.19,Dialogue,,0,0,0,,It's alcohol
+Dialogue: 0,0:03:22.03,0:03:24.63,Dialogue,,0,0,0,,Just as expectedpof your dad. Ran.
+Dialogue: 0,0:03:26.00,0:03:30.60,Dialogue,,0,0,0,,Come on dad, let's hurry and\Nrent a car and go to the hotel!
+Dialogue: 0,0:03:30.81,0:03:32.41,Dialogue,,0,0,0,,Hey. wait up!
+Dialogue: 0,0:03:32.41,0:03:35.71,Dialogue,,0,0,0,,We bring to you the Land of Fire Charity
+Dialogue: 0,0:03:35.71,0:03:36.98,Dialogue,,0,0,0,,Tennis Tournament,\Nplaying the semi-finals will be,
+Dialogue: 0,0:03:37.45,0:03:39.05,Dialogue,,0,0,0,,It's Kyohei Mabuchi!
+Dialogue: 0,0:03:39.05,0:03:39.71,Dialogue,,0,0,0,,I WV»\NWhat?
+Dialogue: 0,0:03:39.71,0:03:42.15,Dialogue,,0,0,0,,You're right!
+Dialogue: 0,0:03:42.15,0:03:43.55,Dialogue,,0,0,0,,His awesome!
+Dialogue: 0,0:03:44.49,0:03:46.25,Dialogue,,0,0,0,,You're still kids
+Dialogue: 0,0:03:46.25,0:03:48.82,Dialogue,,0,0,0,,The one who "3 really awesome is. #
+Dialogue: 0,0:03:49.52,0:03:53.43,Dialogue,,0,0,0,,Same from the Kumamoto-area,\NTachikawarMasato'and from England...
+Dialogue: 0,0:03:53.43,0:03:56.16,Dialogue,,0,0,0,,Masahito!
+Dialogue: 0,0:03:59.13,0:04:02.77,Dialogue,,0,0,0,,We could never beat him though...
+Dialogue: 0,0:04:03.14,0:04:05.51,Dialogue,,0,0,0,,What are you saying Genta...
+Dialogue: 0,0:04:05.97,0:04:11.45,Dialogue,,0,0,0,,We're participating in the ¢*\NJr tournament. those guys aneypros!
+Dialogue: 0,0:04:11.51,0:04:14.52,Dialogue,,0,0,0,,The .@ is no way\Nwe are going agaisnt them!
+Dialogue: 0,0:04:14.98,0:04:16.75,Dialogue,,0,0,0,,Wait, really?
+Dialogue: 0,0:04:16.82,0:04:18.29,Dialogue,,0,0,0,,That's right Genta!
+Dialogue: 0,0:04:18.29,0:04:22.72,Dialogue,,0,0,0,,Well that sucks...\NI was hoping to play agaisnt them...
+Dialogue: 0,0:04:23.26,0:04:24.36,Dialogue,,0,0,0,,Your joking. right!
+Dialogue: 0,0:04:29.00,0:04:31.60,Dialogue,,0,0,0,,Kumamoto Ninomardl Park
+Dialogue: 0,0:04:42.31,0:04:44.08,Dialogue,,0,0,0,,It so spacious and feels good!
+Dialogue: 0,0:04:44.08,0:04:44.88,Dialogue,,0,0,0,,Yup!
+Dialogue: 0,0:04:45.98,0:04:48.92,Dialogue,,0,0,0,,Kids sure are active\Nno matter what they do...
+Dialogue: 0,0:04:49.12,0:04:52.32,Dialogue,,0,0,0,,Really training 1s\Nsoon as they get here!
+Dialogue: 0,0:04:52.72,0:04:54.92,Dialogue,,0,0,0,,It's so nice to6'be young...
+Dialogue: 0,0:04:54.96,0:04:57.49,Dialogue,,0,0,0,,You're talking like you're some\Nmiddle-agediwoman or something!
+Dialogue: 0,0:04:57.93,0:04:59.46,Dialogue,,0,0,0,,Genta, what are you doing!
+Dialogue: 0,0:04:59.46,0:05:00.76,Dialogue,,0,0,0,,You guys are too fast!
+Dialogue: 0,0:05:05.37,0:05:07.10,Dialogue,,0,0,0,,Let's rest a little...
+Dialogue: 0,0:05:07.50,0:05:10.64,Dialogue,,0,0,0,,Just what are you talking\Nabout. the match is tomorrow
+Dialogue: 0,0:05:11.14,0:05:14.54,Dialogue,,0,0,0,,Kumamoto to win. you know.
+Dialogue: 0,0:05:15.81,0:05:18.71,Dialogue,,0,0,0,,But, where's Mr. Mourn?
+Dialogue: 0,0:05:19.15,0:05:21.82,Dialogue,,0,0,0,,You're right. Air's not around either
+Dialogue: 0,0:05:22.45,0:05:25.55,Dialogue,,0,0,0,,Well, I do have an\Nidea where they are though
+Dialogue: 0,0:05:29.59,0:05:32.49,Dialogue,,0,0,0,,Spicy lotus root,\Nraw horse meat and shochu!
+Dialogue: 0,0:05:33.56,0:05:35.40,Dialogue,,0,0,0,,Wow! Viva Kumamoto!
+Dialogue: 0,0:05:49.88,0:05:51.05,Dialogue,,0,0,0,,I can't go on...
+Dialogue: 0,0:05:53.92,0:05:56.68,Dialogue,,0,0,0,,Let's take a 5 minute break then. Ny
+Dialogue: 0,0:05:56.95,0:05:59.25,Dialogue,,0,0,0,,Only 5 minutes?
+Dialogue: 0,0:05:59.25,0:06:00.59,Dialogue,,0,0,0,,Are you serious!
+Dialogue: 0,0:06:00.82,0:06:01.99,Dialogue,,0,0,0,,Of course!
+Dialogue: 0,0:06:02.66,0:06:04.16,Dialogue,,0,0,0,,Hey. Mitsuhiko.,
+Dialogue: 0,0:06:04.39,0:06:06.66,Dialogue,,0,0,0,,since we came all th way to Kumaméto
+Dialogue: 0,0:06:06.70,0:06:10.03,Dialogue,,0,0,0,,, we call it a day for\Ntraining and go look around.
+Dialogue: 0,0:06:10.50,0:06:12.40,Dialogue,,0,0,0,,I agree. I agree!
+Dialogue: 0,0:06:12.47,0:06:14.43,Dialogue,,0,0,0,,I'm starving too!
+Dialogue: 0,0:06:16.54,0:06:17.94,Dialogue,,0,0,0,,Hey. Mitsuhiko?
+Dialogue: 0,0:06:18.31,0:06:20.98,Dialogue,,0,0,0,,Besides, we don't want anybody\Nto Overwork them and get hu -t
+Dialogue: 0,0:06:20.98,0:06:22.31,Dialogue,,0,0,0,,or something just before\Nthe match." do we?
+Dialogue: 0,0:06:22.61,0:06:24.25,Dialogue,,0,0,0,,But. Ran...
+Dialogue: 0,0:06:24.98,0:06:31.62,Dialogue,,0,0,0,,Participating in the game is what counts.\NHave you ever heard this phrase?
+Dialogue: 0,0:06:33.05,0:06:34.52,Dialogue,,0,0,0,,I think it's more important\Nto give it all we've got
+Dialogue: 0,0:06:34.82,0:06:40.86,Dialogue,,0,0,0,,and to try our best,\Nrather than we win the game or not
+Dialogue: 0,0:06:44.13,0:06:45.47,Dialogue,,0,0,0,,Alright .
+Dialogue: 0,0:06:45.87,0:06:48.37,Dialogue,,0,0,0,,All right!\NLet's go eat eels over rice!
+Dialogue: 0,0:06:48.77,0:06:50.20,Dialogue,,0,0,0,,What are you talking about?
+Dialogue: 0,0:06:50.37,0:06:52.97,Dialogue,,0,0,0,,Tonkotsu Ramen is what\NKumamoto is famous for!
+Dialogue: 0,0:06:55.68,0:06:56.08,Dialogue,,0,0,0,,Ran...
+Dialogue: 0,0:06:57.05,0:06:59.28,Dialogue,,0,0,0,,You'll become a good mother...
+Dialogue: 0,0:07:10.43,0:07:10.66,Dialogue,,0,0,0,,Kumamoto:Castle
+Dialogue: 0,0:07:10.66,0:07:12.83,Dialogue,,0,0,0,,Kumamoto Oastle
+Dialogue: 0,0:07:27.04,0:07:27.24,Dialogue,,0,0,0,,Suizenji Park
+Dialogue: 0,0:07:27.24,0:07:29.51,Dialogue,,0,0,0,,Suizenji Park\NTHEA I CORA\NkAIF2. HA
+Dialogue: 0,0:07:38.39,0:07:39.75,Dialogue,,0,0,0,,What is it. Sonoko?
+Dialogue: 0,0:07:40.02,0:07:42.59,Dialogue,,0,0,0,,Look what I found!
+Dialogue: 0,0:07:43.19,0:07:44.19,Dialogue,,0,0,0,,Isn't that a cell phone?
+Dialogue: 0,0:07:44.69,0:07:46.29,Dialogue,,0,0,0,,We've got to turn\Nit into the police Fight away
+Dialogue: 0,0:07:48.86,0:07:50.86,Dialogue,,0,0,0,,Wow lit's vibrating]
+Dialogue: 0,0:07:50.97,0:07:51.77,Dialogue,,0,0,0,,A mail?
+Dialogue: 0,0:07:52.07,0:07:53.47,Dialogue,,0,0,0,,Yeah. I think-so. \
+Dialogue: 0,0:07:54.77,0:07:56.34,Dialogue,,0,0,0,,shall we take a look at it?
+Dialogue: 0,0:07:56.67,0:07:59.07,Dialogue,,0,0,0,,No. we shouldn't peek\Ninto other.people"s mail
+Dialogue: 0,0:07:59.24,0:08:02.81,Dialogue,,0,0,0,,Who cares. besides, it may be, from the\Nowner of this cell phone, right?
+Dialogue: 0,0:08:03.01,0:08:04.75,Dialogue,,0,0,0,,Hey. don't!
+Dialogue: 0,0:08:05.41,0:08:05.95,Dialogue,,0,0,0,,What
+Dialogue: 0,0:08:06.31,0:08:09.05,Dialogue,,0,0,0,,Sonoko! I want to see you! It says!
+Dialogue: 0,0:08:09.25,0:08:11.75,Dialogue,,0,0,0,,Wow. it's a love ma lk
+Dialogue: 0,0:08:11.85,0:08:13.62,Dialogue,,0,0,0,,You're blushed.
+Dialogue: 0,0:08:13.92,0:08:16.12,Dialogue,,0,0,0,,Hey, what's up, Sonoko?
+Dialogue: 0,0:08:16.73,0:08:17.62,Dialogue,,0,0,0,,You see...
+Dialogue: 0,0:08:17.63,0:08:21.50,Dialogue,,0,0,0,,Oh it's nothing. really\NThis is not kid's stuff!
+Dialogue: 0,0:08:22.33,0:08:26.40,Dialogue,,0,0,0,,Better watch out; the-police may scold\Nyou for looking at,other people's mail!
+Dialogue: 0,0:08:26.40,0:08:30.60,Dialogue,,0,0,0,,The ether kids:are waiting for you\N- over there. Hurry andgo onsover there!
+Dialogue: 0,0:08:32.77,0:08:36.44,Dialogue,,0,0,0,,At any rate, we've got te hurry\Nandstake it to the police
+Dialogue: 0,0:08:36.88,0:08:38.31,Dialogue,,0,0,0,,What re you talking about!
+Dialogue: 0,0:08:38.31,0:08:41.58,Dialogue,,0,0,0,,We're going to deliver this in person
+Dialogue: 0,0:08:41.58,0:08:43.75,Dialogue,,0,0,0,,tomorrow to the person\Nwho sent this mail!
+Dialogue: 0,0:08:44.19,0:08:47.19,Dialogue,,0,0,0,,Wait, but, we've got the\Ntennis match tomorrow
+Dialogue: 0,0:08:47.79,0:08:48.69,Dialogue,,0,0,0,,Don't worry!
+Dialogue: 0,0:08:48.69,0:08:53.89,Dialogue,,0,0,0,,This Prefectural Athletic Park is where\Nthe tennis matct ris-going "O be held!
+Dialogue: 0,0:08:55.96,0:09:00.17,Dialogue,,0,0,0,,See?\NSo it won't Kurt to leave for just a while!
+Dialogue: 0,0:09:00.34,0:09:01.80,Dialogue,,0,0,0,,I guess so...
+Dialogue: 0,0:09:02.17,0:09:03.00,Dialogue,,0,0,0,,Then it's decided!
+Dialogue: 0,0:09:03.27,0:09:07.61,Dialogue,,0,0,0,,Tomorrow wejll see how this love\Nas well as the tennis match goes!
+Dialogue: 0,0:09:18.22,0:09:20.05,Dialogue,,0,0,0,,Finally, tomorrow...
+Dialogue: 0,0:09:20.39,0:09:23.66,Dialogue,,0,0,0,,Are going to be okay? \
+Dialogue: 0,0:09:24.63,0:09:25.69,Dialogue,,0,0,0,,I'll do it!
+Dialogue: 0,0:09:32.60,0:09:35.07,Dialogue,,0,0,0,,We will now begin the First Land of Fire\NCup Charity Tennis Tournament.
+Dialogue: 0,0:09:35.10,0:09:39.24,Dialogue,,0,0,0,,We will now begin the First Land of F\NCup Charity Tennis Tournament.\N1stannual-Land.of Fire Cup\N3, Charity Tennis .Toulinament.Jr. Stadium\NJM-BXDEN yTRBT RAKE = I
+Dialogue: 0,0:09:39.24,0:09:39.57,Dialogue,,0,0,0,,1steannual. Land of Fire Cup\NChairiityO tennis Tournament Jr. Stadium\Nm- BE AXXO >» TEES - RIXEeil
+Dialogue: 0,0:09:39.94,0:09:45.91,Dialogue,,0,0,0,,Before the start of the game, I, Kenzo\NNarimasu¥Chairman of this tournament
+Dialogue: 0,0:09:45.98,0:09:46.28,Dialogue,,0,0,0,,would like to give a\Nwelcome speech to the guardians\NKenzo Narimasu\Nchairman
+Dialogue: 0,0:09:46.28,0:09:49.32,Dialogue,,0,0,0,,would like to give a\Nwelcome speech:to-the guardians\NKenzo Narimasu\Nchairman\NO (TAXED\NHill:
+Dialogue: 0,0:09:49.32,0:09:50.75,Dialogue,,0,0,0,,of the contestants as well\Nas all the spectators here.\NKenzo Narimasu\Nchairman\NTT PAL\NRi 48 - (GO)
+Dialogue: 0,0:09:50.75,0:09:50.95,Dialogue,,0,0,0,,of the contestants as well\Nas all the spectators here.\NKenzo Narimasu\Nchairman
+Dialogue: 0,0:09:50.95,0:09:51.42,Dialogue,,0,0,0,,of the contestants as well\Nas all the spectators here.
+Dialogue: 0,0:09:51.79,0:09:55.06,Dialogue,,0,0,0,,I am being suspected by the Diet
+Dialogue: 0,0:09:55.06,0:10:00.63,Dialogue,,0,0,0,,at present for something that I\Nhave no kn Wledge of whatsoever. but... «
+Dialogue: 0,0:10:00.76,0:10:02.20,Dialogue,,0,0,0,,What's with that man?
+Dialogue: 0,0:10:02.60,0:10:05.60,Dialogue,,0,0,0,,He's talking about same\Ntotally irrelevant to tennis
+Dialogue: 0,0:10:06.13,0:10:09.64,Dialogue,,0,0,0,,He looks awfully familiar, though...
+Dialogue: 0,0:10:09.87,0:10:11.44,Dialogue,,0,0,0,,You probably some him on TV...
+Dialogue: 0,0:10:11.94,0:10:15.24,Dialogue,,0,0,0,,He's Kenzo Narimasu, a congressman\Nwho was elected from Kumamoto
+Dialogue: 0,0:10:15.28,0:10:18.58,Dialogue,,0,0,0,,that has recently been talked\Nabout a lot regarding his corrupted acts
+Dialogue: 0,0:10:19.35,0:10:21.62,Dialogue,,0,0,0,,O@Oh. yes. I've heard of him!
+Dialogue: 0,0:10:21.75,0:10:23.55,Dialogue,,0,0,0,,The other day. his secretary called Saikl 7
+Dialogue: 0,0:10:23.55,0:10:26.29,Dialogue,,0,0,0,,took on all the guilt\Nand committed suicide. right?
+Dialogue: 0,0:10:26.49,0:10:27.12,Dialogue,,0,0,0,,Yeah.
+Dialogue: 0,0:10:27.62,0:10:30.46,Dialogue,,0,0,0,,So. in order to gain back\Nhis reputation with the public.
+Dialogue: 0,0:10:30.46,0:10:33.03,Dialogue,,0,0,0,,He offered to be sponsor\Nfor this tournament
+Dialogue: 0,0:10:33.76,0:10:35.23,Dialogue,,0,0,0,,The usual stuff...
+Dialogue: 0,0:10:35.36,0:10:36.96,Dialogue,,0,0,0,,WOW...
+Dialogue: 0,0:11:07.33,0:11:08.13,Dialogue,,0,0,0,,We did it!
+Dialogue: 0,0:11:08.16,0:11:08.90,Dialogue,,0,0,0,,We did it!
+Dialogue: 0,0:11:08.90,0:11:10.93,Dialogue,,0,0,0,,Really..l don't believe it!
+Dialogue: 0,0:11:10.93,0:11:11.20,Dialogue,,0,0,0,,Great victory for\NtheilYouth Detective Squad!!
+Dialogue: 0,0:11:11.27,0:11:12.97,Dialogue,,0,0,0,,Great victory for\Nthe Youth Detective Squad!!
+Dialogue: 0,0:11:13.54,0:11:15.37,Dialogue,,0,0,0,,Good work and welcome back everybody.
+Dialogue: 0,0:11:15.57,0:11:17.64,Dialogue,,0,0,0,,Were»you watchinglus. Ai?!
+Dialogue: 0,0:11:17.77,0:11:20.17,Dialogue,,0,0,0,,ies. you're all, pretty good
+Dialogue: 0,0:11:20.17,0:11:21.98,Dialogue,,0,0,0,,Now, we get to. go on, to-the semi-finals!
+Dialogue: 0,0:11:21.98,0:11:23.64,Dialogue,,0,0,0,,We've already come this far...
+Dialogue: 0,0:11:23.65,0:11:26.38,Dialogue,,0,0,0,,idly\NVictory of the Y(Tith Detective Squad!!!
+Dialogue: 0,0:11:30.08,0:11:32.25,Dialogue,,0,0,0,,Hey. Where are Ran and Sonoko?
+Dialogue: 0,0:11:32.55,0:11:36.56,Dialogue,,0,0,0,,I wonder, they went sneaking off\Njust a while ago
+Dialogue: 0,0:11:37.63,0:11:37.93,Dialogue,,0,0,0,,Oh...
+Dialogue: 0,0:11:39.73,0:11:42.60,Dialogue,,0,0,0,,Café Athlete\NNIO-PAR)
+Dialogue: 0,0:11:43.20,0:11:45.50,Dialogue,,0,0,0,,There's nobody who looks te-be*the owner.
+Dialogue: 0,0:11:45.50,0:11:46.43,Dialogue,,0,0,0,,WORO
+Dialogue: 0,0:11:46.94,0:11:48.57,Dialogue,,0,0,0,,Should we mail him?
+Dialogue: 0,0:11:48.57,0:11:50.57,Dialogue,,0,0,0,,Dont. Sonoko.
+Dialogue: 0,0:11:51.87,0:11:53.51,Dialogue,,0,0,0,,Just joking. only joking.
+Dialogue: 0,0:11:53.51,0:11:55.51,Dialogue,,0,0,0,,But, this is so exciting.
+Dialogue: 0,0:11:58.15,0:12:01.58,Dialogue,,0,0,0,,I think I kind of got too nervous\Nthat I have to go te the ladies' room.
+Dialogue: 0,0:12:01.75,0:12:04.12,Dialogue,,0,0,0,,Sorry, Ran, I'll be right back...
+Dialogue: 0,0:12:09.29,0:12:10.52,Dialogue,,0,0,0,,I tell you...
+Dialogue: 0,0:12:10.53,0:12:12.39,Dialogue,,0,0,0,,Sonoko sure is late.
+Dialogue: 0,0:12:12.39,0:12:12.93,Dialogue,,0,0,0,,Huh
+Dialogue: 0,0:12:13.03,0:12:16.26,Dialogue,,0,0,0,,Yeah, she wasnst for it to begin with so...
+Dialogue: 0,0:12:16.26,0:12:20.53,Dialogue,,0,0,0,,That's why we decided to meet\Nand talk it out, right?
+Dialogue: 0,0:12:20.90,0:12:24.00,Dialogue,,0,0,0,,Yeah, but if Sonoko doesn't come...
+Dialogue: 0,0:12:24.24,0:12:29.68,Dialogue,,0,0,0,,If so, we wait outside until\Nshe succeeds and run for it together.
+Dialogue: 0,0:12:30.04,0:12:34.01,Dialogue,,0,0,0,,After all, today's the only{\rHonorifics - Dialogue} chan{\r}ce\Nwe got to kill that guy!
+Dialogue: 0,0:12:40.29,0:12:43.46,Dialogue,,0,0,0,,What shall I do,\NI've got to get somebody, quick...
+Dialogue: 0,0:12:45.96,0:12:48.80,Dialogue,,0,0,0,,ell phone. cell phone...\Nwhere's my cell phone...
+Dialogue: 0,0:12:50.90,0:12:53.13,Dialogue,,0,0,0,,You heard us, didn't you?
+Dialogue: 0,0:12:54.90,0:12:57.47,Dialogue,,0,0,0,,Hey. isn't that Sonokoss cell phone...
+Dialogue: 0,0:12:59.84,0:13:01.88,Dialogue,,0,0,0,,No doubt about it. It's Sonoko's!
+Dialogue: 0,0:13:02.38,0:13:04.48,Dialogue,,0,0,0,,How come you have it?
+Dialogue: 0,0:13:04.55,0:13:07.95,Dialogue,,0,0,0,,MM. My friend picked it up...\Nso, I was/going to return it...
+Dialogue: 0,0:13:08.12,0:13:10.25,Dialogue,,0,0,0,,You mean Sonoko dropped it...
+Dialogue: 0,0:13:10.45,0:13:13.42,Dialogue,,0,0,0,,Which means maybe\Nshe didn't read our mail...
+Dialogue: 0,0:13:13.99,0:13:17.36,Dialogue,,0,0,0,,Either way. we cant let you go. like this.
+Dialogue: 0,0:13:23.26,0:13:25.03,Dialogue,,0,0,0,,Oh, you were here?
+Dialogue: 0,0:13:25.10,0:13:27.37,Dialogue,,0,0,0,,What do we do about this girl?
+Dialogue: 0,0:13:27.80,0:13:31.17,Dialogue,,0,0,0,,Just like Akira says,\Nwe can't let her go as is.
+Dialogue: 0,0:13:31.47,0:13:33.31,Dialogue,,0,0,0,,Let's take her-to the factory for now.
+Dialogue: 0,0:13:33.67,0:13:35.31,Dialogue,,0,0,0,,Yeah. I guess so.
+Dialogue: 0,0:13:41.02,0:13:41.88,Dialogue,,0,0,0,,What?
+Dialogue: 0,0:13:41.95,0:13:44.52,Dialogue,,0,0,0,,EXIT XA I57Cene
+Dialogue: 0,0:13:45.02,0:13:48.82,Dialogue,,0,0,0,,Right, she disappeared while\NI was in the lady's room .
+Dialogue: 0,0:13:48.82,0:13:51.76,Dialogue,,0,0,0,,Are you sure she's" not back\Nat the hotel room sleeping?
+Dialogue: 0,0:13:51.86,0:13:55.66,Dialogue,,0,0,0,,I called and asked, but was told\Nshe hasn't come back yet...
+Dialogue: 0,0:13:56.36,0:13:57.56,Dialogue,,0,0,0,,I wonder what happened...
+Dialogue: 0,0:13:58.47,0:14:00.13,Dialogue,,0,0,0,,That's cause for worry
+Dialogue: 0,0:14:00.27,0:14:03.34,Dialogue,,0,0,0,,Hey. did you try callingffRer cell phone?\NRan's cell phone?
+Dialogue: 0,0:14:03.40,0:14:06.67,Dialogue,,0,0,0,,Yep. but no one answered
+Dialogue: 0,0:14:06.74,0:14:11.81,Dialogue,,0,0,0,,I wonder if she has it on manner mode\Nand doesn't know it's ringing...
+Dialogue: 0,0:14:11.95,0:14:15.32,Dialogue,,0,0,0,,Or, it could be that...\Nshe's in a situation that she can't answer
+Dialogue: 0,0:14:16.15,0:14:16.65,Dialogue,,0,0,0,,™4%1l
+Dialogue: 0,0:14:17.52,0:14:20.99,Dialogue,,0,0,0,,I can't tell if it's an accident\Nor an incident, but...
+Dialogue: 0,0:14:31.00,0:14:32.57,Dialogue,,0,0,0,,Where is this?
+Dialogue: 0,0:14:35.10,0:14:37.00,Dialogue,,0,0,0,,Why am I here...
+Dialogue: 0,0:14:39.77,0:14:42.14,Dialogue,,0,0,0,,You heard us talking. didn't you?
+Dialogue: 0,0:14:42.14,0:14:44.98,Dialogue,,0,0,0,,Hey. isn't that Sonoko's cell phone?
+Dialogue: 0,0:14:44.98,0:14:47.58,Dialogue,,0,0,0,,No doubt about it. It's Sonoko's!
+Dialogue: 0,0:14:47.82,0:14:49.78,Dialogue,,0,0,0,,How come you have it?
+Dialogue: 0,0:14:49.78,0:14:53.19,Dialogue,,0,0,0,,Either way, we can't let you go as is.
+Dialogue: 0,0:14:54.49,0:14:56.02,Dialogue,,0,0,0,,Maybe I...
+Dialogue: 0,0:14:57.16,0:14:59.83,Dialogue,,0,0,0,,D. Don't tell she was kidnapped...
+Dialogue: 0,0:14:59.83,0:15:00.56,Dialogue,,0,0,0,,§unh >!
+Dialogue: 0,0:15:00.83,0:15:02.03,Dialogue,,0,0,0,,It.It can't be?
+Dialogue: 0,0:15:02.03,0:15:03.90,Dialogue,,0,0,0,,Y! you guys
+Dialogue: 0,0:15:04.57,0:15:06.70,Dialogue,,0,0,0,,What's with that bummed out\NIook ontyour faces?
+Dialogue: 0,0:15:07.17,0:15:09.00,Dialogue,,0,0,0,,I get it, you guys lost?
+Dialogue: 0,0:15:09.34,0:15:11.71,Dialogue,,0,0,0,,Oh no. it's not that...
+Dialogue: 0,0:15:11.84,0:15:13.47,Dialogue,,0,0,0,,Ran.»
+Dialogue: 0,0:15:13.47,0:15:15.81,Dialogue,,0,0,0,,may have been,kidnapped
+Dialogue: 0,0:15:16.08,0:15:17.61,Dialogue,,0,0,0,,W. What!
+Dialogue: 0,0:15:23.48,0:15:25.05,Dialogue,,0,0,0,,There!
+Dialogue: 0,0:15:25.29,0:15:27.05,Dialogue,,0,0,0,,H. Hey hold it!
+Dialogue: 0,0:15:27.05,0:15:29.36,Dialogue,,0,0,0,,Are you sure about this kidnap thing?
+Dialogue: 0,0:15:29.59,0:15:32.83,Dialogue,,0,0,0,,Maybe she's lost somewhere near here?
+Dialogue: 0,0:15:32.93,0:15:35.56,Dialogue,,0,0,0,,But, she's Not answering her cell phone...
+Dialogue: 0,0:15:35.56,0:15:37.63,Dialogue,,0,0,0,,She's not back at the hotel either.
+Dialogue: 0,0:15:37.63,0:15:40.23,Dialogue,,0,0,0,,But that's not enough to go on...
+Dialogue: 0,0:15:44.61,0:15:46.11,Dialogue,,0,0,0,,It's from Ran!
+Dialogue: 0,0:15:46.11,0:15:49.94,Dialogue,,0,0,0,,See. how dare you worry me like that.
+Dialogue: 0,0:15:50.71,0:15:53.65,Dialogue,,0,0,0,,Hello hey. 'Ran,\Njust where the hell are you now...
+Dialogue: 0,0:15:53.78,0:15:57.35,Dialogue,,0,0,0,,Sorry, Sonoko.\NIt's seems as if I've been kidnapped.
+Dialogue: 0,0:15:57.55,0:15:59.82,Dialogue,,0,0,0,,Huh?! You've been kidnapped after all!
+Dialogue: 0,0:15:59.92,0:16:00.52,Dialogue,,0,0,0,,What?
+Dialogue: 0,0:16:00.72,0:16:02.16,Dialogue,,0,0,0,,Lend it to me!
+Dialogue: 0,0:16:02.76,0:16:04.19,Dialogue,,0,0,0,,Me . Ran!
+Dialogue: 0,0:16:04.69,0:16:06.06,Dialogue,,0,0,0,,Oh, Conan.
+Dialogue: 0,0:16:06.43,0:16:07.99,Dialogue,,0,0,0,,Do you know where you are?
+Dialogue: 0,0:16:08.00,0:16:09.36,Dialogue,,0,0,0,,Where?
+Dialogue: 0,0:16:09.36,0:16:13.03,Dialogue,,0,0,0,,It seems to be the locker room of\Nan abandoned factory or something...
+Dialogue: 0,0:16:13.20,0:16:16.17,Dialogue,,0,0,0,,CER you look.ou 'the window?
+Dialogue: 0,0:16:16.17,0:16:19.97,Dialogue,,0,0,0,,Do you somet,ing-that can serve as a hint\Nto where you are... Anything will do.
+Dialogue: 0,0:16:19.97,0:16:20.21,Dialogue,,0,0,0,,Do you something that can serve as a hint\Nto where you are... Anything will do.
+Dialogue: 0,0:16:20.41,0:16:22.51,Dialogue,,0,0,0,,Okay. hold on...
+Dialogue: 0,0:16:27.18,0:16:28.78,Dialogue,,0,0,0,,How-about it: Ran?
+Dialogue: 0,0:16:28.95,0:16:30.18,Dialogue,,0,0,0,,Sunflower...
+Dialogue: 0,0:16:31.22,0:16:33.82,Dialogue,,0,0,0,,Right, there are a lot of\Nsunflowers in bloom here.
+Dialogue: 0,0:16:33.86,0:16:34.75,Dialogue,,0,0,0,,Anything else?
+Dialogue: 0,0:16:34.92,0:16:38.33,Dialogue,,0,0,0,,On the other side of the sunflowers\Nthere is a building that is not in use...
+Dialogue: 0,0:16:38.46,0:16:39.83,Dialogue,,0,0,0,,There is a sign.
+Dialogue: 0,0:16:39.83,0:16:41.80,Dialogue,,0,0,0,,What's written onithe:sign?
+Dialogue: 0,0:16:46.93,0:16:48.57,Dialogue,,0,0,0,,Hirukomachil.
+Dialogue: 0,0:16:49.60,0:16:51.64,Dialogue,,0,0,0,,Hiruko Town is what's written!
+Dialogue: 0,0:16:51.64,0:16:54.04,Dialogue,,0,0,0,,That's Hiru for bloodsucker\Nand Ko for child!
+Dialogue: 0,0:16:54.41,0:16:56.51,Dialogue,,0,0,0,,0c:\'...\NOkay! Hirukonfchi. right!
+Dialogue: 0,0:16:56.61,0:16:58.88,Dialogue,,0,0,0,,And about the kidnappers.
+Dialogue: 0,0:16:59.35,0:17:02.55,Dialogue,,0,0,0,,The kidnappers are the ones\Nwho sent the mail to Sonoko!
+Dialogue: 0,0:17:02.78,0:17:06.39,Dialogue,,0,0,0,,Huh? The-enes who mailed Senoko?
+Dialogue: 0,0:17:06.39,0:17:06.89,Dialogue,,0,0,0,,In. [l1
+Dialogue: 0,0:17:07.62,0:17:09.16,Dialogue,,0,0,0,,Conan, please listen to me!
+Dialogue: 0,0:17:09.16,0:17:09.42,Dialogue,,0,0,0,,Conan. please listen to me!
+Dialogue: 0,0:17:09.72,0:17:13.16,Dialogue,,0,0,0,,Those people were saving that\Nthey're going to kill somebody today...
+Dialogue: 0,0:17:14.10,0:17:15.90,Dialogue,,0,0,0,,Hey, Ran! It's me!
+Dialogue: 0,0:17:15.90,0:17:17.33,Dialogue,,0,0,0,,Can you hear me!
+Dialogue: 0,0:17:17.33,0:17:20.20,Dialogue,,0,0,0,,Hey! Answer me, Ran!
+Dialogue: 0,0:17:23.50,0:17:25.11,Dialogue,,0,0,0,,The line's been cut
+Dialogue: 0,0:17:25.17,0:17:25.87,Dialogue,,0,0,0,,What!
+Dialogue: 0,0:17:25.87,0:17:28.94,Dialogue,,0,0,0,,Maybe the kidnappers found her\Ntalking on the phone?
+Dialogue: 0,0:17:32.18,0:17:33.38,Dialogue,,0,0,0,,What shall we do?
+Dialogue: 0,0:17:33.38,0:17:35.75,Dialogue,,0,0,0,,She could've contacted the police...
+Dialogue: 0,0:17:36.08,0:17:38.12,Dialogue,,0,0,0,,Maybe we should drop\Nthe whole idea after all...
+Dialogue: 0,0:17:38.15,0:17:40.32,Dialogue,,0,0,0,,No, we won't let anybody get in our way.
+Dialogue: 0,0:17:41.16,0:17:42.46,Dialogue,,0,0,0,,Not anybody!
+Dialogue: 0,0:17:58.71,0:18:00.34,Dialogue,,0,0,0,,Thank you for waiting
+Dialogue: 0,0:18:00.47,0:18:00.71,Dialogue,,0,0,0,,I am officer Tamana from Kumamotc\NPrefectural Police Department.\NOfficer Tamana\N17831
+Dialogue: 0,0:18:00.71,0:18:03.38,Dialogue,,0,0,0,,I am officer Tamana from Kumamotc\NPrefectural Police Department.\NFicer Tamana\NOEITAAT GD
+Dialogue: 0,0:18:03.38,0:18:03.71,Dialogue,,0,0,0,,I am officer Tamana from Kumamot\NPrefecture! Police Department.\NFicer Tamana
+Dialogue: 0,0:18:03.71,0:18:04.18,Dialogue,,0,0,0,,I am officer Tamana from Kumamot«\NPrefectural Police Department.
+Dialogue: 0,0:18:04.18,0:18:06.11,Dialogue,,0,0,0,,This is Officer Kato.
+Dialogue: 0,0:18:06.11,0:18:07.25,Dialogue,,0,0,0,,Hello.
+Dialogue: 0,0:18:08.18,0:18:12.08,Dialogue,,0,0,0,,Sorry for, troubling you,\Nmy name is :Mouri Kogorou
+Dialogue: 0,0:18:12.39,0:18:14.25,Dialogue,,0,0,0,,Oh./I've heard-a lot about you
+Dialogue: 0,0:18:14.56,0:18:16.22,Dialogue,,0,0,0,,/Well, please sit down
+Dialogue: 0,0:18:16.22,0:18:16.86,Dialogue,,0,0,0,,Yes .
+Dialogue: 0,0:18:20.29,0:18:22.53,Dialogue,,0,0,0,,I'm sure you're very worried,
+Dialogue: 0,0:18:22.53,0:18:23.93,Dialogue,,0,0,0,,because I was contacted by Inspector
+Dialogue: 0,0:18:23.93,0:18:26.33,Dialogue,,0,0,0,,telling me to handle the\Nsituation with great care
+Dialogue: 0,0:18:26.70,0:18:30.17,Dialogue,,0,0,0,,Please do let us handle\Nthis case completely.
+Dialogue: 0,0:18:30.30,0:18:31.71,Dialogue,,0,0,0,,Yes, but...
+Dialogue: 0,0:18:31.74,0:18:32.71,Dialogue,,0,0,0,,Mr. Mouri
+Dialogue: 0,0:18:33.34,0:18:35.28,Dialogue,,0,0,0,,I understand how you feel
+Dialogue: 0,0:18:35.51,0:18:39.28,Dialogue,,0,0,0,,I don't think that you are in a situation\Nto judge things objectively right now.
+Dialogue: 0,0:18:39.71,0:18:42.55,Dialogue,,0,0,0,,This case involves the life\Nof your daughter,
+Dialogue: 0,0:18:42.85,0:18:44.52,Dialogue,,0,0,0,,SO please bear with us for\Nnow and let us handle this.
+Dialogue: 0,0:18:45.02,0:18:46.42,Dialogue,,0,0,0,,All right...
+Dialogue: 0,0:18:46.92,0:18:51.29,Dialogue,,0,0,0,,I appreciate it.\NNow, as to the current situation.
+Dialogue: 0,0:18:51.79,0:18:52.39,Dialogue,,0,0,0,,Yes, Sir.
+Dialogue: 0,0:18:55.10,0:18:58.03,Dialogue,,0,0,0,,As a result of our inquiries\Nwithin this athletic park,
+Dialogue: 0,0:18:58.23,0:19:05.21,Dialogue,,0,0,0,,the said woman victim seems to\Nhave been carried away by two men
+Dialogue: 0,0:19:05.44,0:19:06.27,Dialogue,,0,0,0,,That's it!
+Dialogue: 0,0:19:06.54,0:19:07.61,Dialogue,,0,0,0,,Also...
+Dialogue: 0,0:19:07.61,0:19:10.78,Dialogue,,0,0,0,,And about the Hiruko Town that\Nthe victim had mentioned
+Dialogue: 0,0:19:10.78,0:19:12.91,Dialogue,,0,0,0,,Currently around the\NKumamoto prefecture...
+Dialogue: 0,0:19:12.91,0:19:15.48,Dialogue,,0,0,0,,such a town does not exist.
+Dialogue: 0,0:19:15.62,0:19:16.22,Dialogue,,0,0,0,,What!
+Dialogue: 0,0:19:16.22,0:19:17.18,Dialogue,,0,0,0,,Are you serious?
+Dialogue: 0,0:19:18.39,0:19:20.42,Dialogue,,0,0,0,,What the hell is going on...
+Dialogue: 0,0:19:24.46,0:19:26.46,Dialogue,,0,0,0,,I'm sorry Mr. Mourn...
+Dialogue: 0,0:19:26.79,0:19:31.46,Dialogue,,0,0,0,,If I didn't pick up that cell Mane...
+Dialogue: 0,0:19:31.47,0:19:34.23,Dialogue,,0,0,0,,Don't worry about it,\Nyou're not to blame.
+Dialogue: 0,0:19:34.67,0:19:36.40,Dialogue,,0,0,0,,The kidnappers are the villains!
+Dialogue: 0,0:19:40.21,0:19:42.64,Dialogue,,0,0,0,,This is no time to\Nbe playing tennis. is it?
+Dialogue: 0,0:19:42.64,0:19:43.48,Dialogue,,0,0,0,,Yea...
+Dialogue: 0,0:19:43.98,0:19:47.18,Dialogue,,0,0,0,,We've got to give\Nup the tennis match...
+Dialogue: 0,0:19:47.18,0:19:50.32,Dialogue,,0,0,0,,Yep. Ran is more important
+Dialogue: 0,0:19:51.49,0:19:53.82,Dialogue,,0,0,0,,I don't think
+Dialogue: 0,0:19:54.99,0:19:59.26,Dialogue,,0,0,0,,Like Ran was saying. the whole I\Npoint Is to participate In the game!
+Dialogue: 0,0:19:59.76,0:20:06.70,Dialogue,,0,0,0,,She was for us through and«through!\NWe can't give up the game now!
+Dialogue: 0,0:20:07.40,0:20:10.77,Dialogue,,0,0,0,,Of course I'm worried about Ran too!
+Dialogue: 0,0:20:10.77,0:20:14.54,Dialogue,,0,0,0,,But there's nothing we\Ncan do by staying here either.
+Dialogue: 0,0:20:14.78,0:20:17.11,Dialogue,,0,0,0,,I think it's way better to show Ran
+Dialogue: 0,0:20:17.11,0:20:21.82,Dialogue,,0,0,0,,our victory trophy when she\Ncomes back and make her happy!
+Dialogue: 0,0:20:21.92,0:20:23.28,Dialogue,,0,0,0,,Yeah, but...
+Dialogue: 0,0:20:23.28,0:20:24.28,Dialogue,,0,0,0,,He's right.
+Dialogue: 0,0:20:25.42,0:20:26.99,Dialogue,,0,0,0,,Just like Mitsuhiko says,
+Dialogue: 0,0:20:26.99,0:20:31.06,Dialogue,,0,0,0,,we can't do anything here anyway.\NLet's participate'in the game.
+Dialogue: 0,0:20:31.36,0:20:32.49,Dialogue,,0,0,0,,Right, Pops?
+Dialogue: 0,0:20:32.76,0:20:34.79,Dialogue,,0,0,0,,Huh? Yeah. right.
+Dialogue: 0,0:20:35.10,0:20:39.27,Dialogue,,0,0,0,,The police is working onthe case-and\Nyou guys made it to the finals, right?
+Dialogue: 0,0:20:40.10,0:20:41.30,Dialogue,,0,0,0,,If so, go for it.
+Dialogue: 0,0:20:41.44,0:20:43.30,Dialogue,,0,0,0,,Okay. we'll do our best!
+Dialogue: 0,0:20:44.37,0:20:46.94,Dialogue,,0,0,0,,Oh, okay. then.\NI'll give it my beSt shot!
+Dialogue: 0,0:20:46.94,0:20:47.17,Dialogue,,0,0,0,,Oh. okay. then.\NI'll give it my best shot!
+Dialogue: 0,0:20:47.17,0:20:47.84,Dialogue,,0,0,0,,Okay.
+Dialogue: 0,0:20:48.11,0:20:51.41,Dialogue,,0,0,0,,@kay, then let's all 'do our best\Nshow Ran the champion trophy!
+Dialogue: 0,0:20:54.98,0:20:58.95,Dialogue,,0,0,0,,Shinichi, I'll bet you have no intention\Nof participating in the game, do you?
+Dialogue: 0,0:20:59.45,0:21:02.39,Dialogue,,0,0,0,,You're planning to go\Nsearch for her alone. aren't you?
+Dialogue: 0,0:21:03.02,0:21:06.56,Dialogue,,0,0,0,,Yeah, although I feel\Nbad for those kids
+Dialogue: 0,0:21:07.96,0:21:09.33,Dialogue,,0,0,0,,You're really something...
+Dialogue: 0,0:21:13.93,0:21:15.27,Dialogue,,0,0,0,,If you will excuse me.
+Dialogue: 0,0:21:15.97,0:21:18.07,Dialogue,,0,0,0,,Hello. this is Tamanna
+Dialogue: 0,0:21:18.91,0:21:19.81,Dialogue,,0,0,0,,What!
+Dialogue: 0,0:21:20.07,0:21:20.71,Dialogue,,0,0,0,,Then what?
+Dialogue: 0,0:21:25.95,0:21:27.91,Dialogue,,0,0,0,,Okay. do that. will you!
+Dialogue: 0,0:21:28.98,0:21:32.08,Dialogue,,0,0,0,,What's up? Don't tell me\Nsomething happened to Ran
+Dialogue: 0,0:21:32.42,0:21:37.92,Dialogue,,0,0,0,,No. the kidnappers seem to have called\Nthe station directly demanding ransom.
+Dialogue: 0,0:21:38.36,0:21:39.19,Dialogue,,0,0,0,,What!
+Dialogue: 0,0:21:41.56,0:21:45.63,Dialogue,,0,0,0,,An officer is on his way here with the\Nrecording of the phone conversation.
+Dialogue: 0,0:21:45.80,0:21:48.40,Dialogue,,0,0,0,,Damn those guys.\NRow dare they do this to Ran...
+Dialogue: 0,0:21:48.40,0:21:50.17,Dialogue,,0,0,0,,They're not going to get\Naway with this!!
+Dialogue: 0,0:21:51.47,0:21:53.31,Dialogue,,0,0,0,,What the hell s going on?
+Dialogue: 0,0:21:53.84,0:21:56.74,Dialogue,,0,0,0,,Why, weuldithey call the\NDOO Elicit) ose wtf
+Dialogue: 0,0:21:57.48,0:22:03.62,Dialogue,,0,0,0,,Maybe this is no usual kidnapping.\NIf sow-what are they actually after
+Dialogue: 0,0:22:05.19,0:22:08.32,Dialogue,,0,0,0,,The last words of Ran"s call was...
+Dialogue: 0,0:22:09.56,0:22:12.82,Dialogue,,0,0,0,,They were saying, they re\Ngoing to kill somebody today
+Dialogue: 0,0:22:13.19,0:22:15.60,Dialogue,,0,0,0,,They're going') to Kill somebody today...
+Dialogue: 0,0:22:17.53,0:22:20.17,Dialogue,,0,0,0,,Maybe Ran?
+Dialogue: 0,0:22:27.71,0:22:31.31,Dialogue,,0,0,0,,Original Comic Books By\NGOSHO AOYAMA
+Dialogue: 0,0:22:33.61,0:22:37.38,Dialogue,,0,0,0,,Producers\NCT THI siwA\NSA. 12333533 nA
+Dialogue: 0,0:22:39.65,0:22:43.32,Dialogue,,0,0,0,,Background Music.\NKAT -UQ ONO
+Dialogue: 0,0:22:45.69,0:22:49.30,Dialogue,,0,0,0,,Charact r Designs By\NMASATOMO SUDO
+Dialogue: 0,0:22:51.70,0:22:55.30,Dialogue,,0,0,0,,Story Editor.\NJUNICHI 11OKA
+Dialogue: 0,0:22:57.67,0:23:00.47,Dialogue,,0,0,0,,Scripts By.\NKANJ1O* ASHIWABARA\NKAZUNARI KOUGHI\NJWUNICHI MIYASH HA\Nrun,» r MURI:\NTOSHIKI INOUE
+Dialogue: 0,0:23:00.47,0:23:01.37,Dialogue,,0,0,0,,Scripts By\NKAN]! KASHIWABARA\NJUNICHI MIYASHITA\NCHI HIG\NOSHIKI INOUE
+Dialogue: 0,0:23:03.68,0:23:07.35,Dialogue,,0,0,0,,Animation DiFectors\NMASATOMO SUDO\NHIROTOSHI TAKATANI\NHARUO OOGAWARA\NATSUSHI AONO\NAKIO KAWAMURA\Nyo eR «ax YC
+Dialogue: 0,0:23:09.72,0:23:13.39,Dialogue,,0,0,0,,Art Director.\NYUKIHIRO SHIBUTANI
+Dialogue: 0,0:23:15.76,0:23:19.36,Dialogue,,0,0,0,,Directors Of Photography\NTAKASHI NOMURA\NHIRONOBU HORIKOSHI\NTAKAHISA OWAGA
+Dialogue: 0,0:23:21.73,0:23:25.37,Dialogue,,0,0,0,,Recording Director.\NKATSUYOSHI KOBAYASHI
+Dialogue: 0,0:23:27.70,0:23:31.37,Dialogue,,0,0,0,,Editor.\NTERUMITSU OX DA
+Dialogue: 0,0:23:33.74,0:23:37.38,Dialogue,,0,0,0,,Chief I rector.\NKEN]! KODAMA
+Dialogue: 0,0:23:39.81,0:23:43.38,Dialogue,,0,0,0,,Produced By.\NTMS ENTERTAINMENT, LTD\Nin association with\NYOMIURI TELECASTINC\NCORPORATION
+Dialogue: 0,0:23:45.75,0:23:51.96,Dialogue,,0,0,0,,DETECTIVE CC NAN\NCOWL AOYAMA HOGCAKUKAN YIV:-1A1S
+Dialogue: 0,0:23:52.56,0:23:54.46,Dialogue,,0,0,0,,50.000.000 yen is totally impossible.
+Dialogue: 0,0:23:54.46,0:23:55.50,Dialogue,,0,0,0,,Po s...
+Dialogue: 0,0:23:55.83,0:23:57.30,Dialogue,,0,0,0,,You don't like it, do you
+Dialogue: 0,0:23:59.57,0:24:02.77,Dialogue,,0,0,0,,You're thinking that it's not just\Na plain kidnapping case. right?
+Dialogue: 0,0:24:02.90,0:24:04.00,Dialogue,,0,0,0,,Yea...
+Dialogue: 0,0:24:04.14,0:24:07.94,Dialogue,,0,0,0,,881d news!\\.\NConan 1s nowhere In sight!
+Dialogue: 0,0:24:08.74,0:24:10.64,Dialogue,,0,0,0,,Come to think oft neither is Al
+Dialogue: 0,0:24:10.64,0:24:11.94,Dialogue,,0,0,0,,Al too?
+Dialogue: 0,0:24:11.95,0:24:14.71,Dialogue,,0,0,0,,Maybe they both went\Nto look for Ran...
+Dialogue: 0,0:24:15.98,0:24:21.55,Dialogue,,0,0,0,,Smash. of Loverand Resolve\NPart ll

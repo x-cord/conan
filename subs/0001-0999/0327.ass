@@ -1,0 +1,406 @@
+[Script Info]
+Title: Detective Conan - 0327
+TL Source: UTB
+ScriptType: v4.00+
+WrapStyle: 3
+PlayResX: 1440
+PlayResY: 1080
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Dialogue,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00401311,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Dialogue Top,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00401311,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,8,30,30,55,1
+Style: Signs,FrancophilSans,74,&H14FFFFFF,&H00FFFFFF,&H46101010,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,8,30,30,55,1
+Style: Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,0,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Radio,FrancophilSans,74,&H00BEE1FF,&H00FFFFFF,&H000B2A42,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Narration,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00BF6F00,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Narration Off,FrancophilSans,74,&H6E8C6F00,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,0,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Flashback,FrancophilSans,74,&H00CDFAFF,&H00FFFFFF,&H00373737,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Flashback Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00CCFFFF,&HC0313134,-1,0,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Honorifics - Dialogue,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00401311,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Signs,FrancophilSans,74,&H14FFFFFF,&H00FFFFFF,&H46101010,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,-1,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Honorifics - Radio,FrancophilSans,74,&H00BEE1FF,&H00FFFFFF,&H000B2A42,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Narration,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00BF6F00,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Narration Off,FrancophilSans,74,&H6E8C6F00,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,-1,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Honorifics - Flashback,FrancophilSans,74,&H00CDFAFF,&H00FFFFFF,&H00373737,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Flashback Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00CCFFFF,&HC0313134,-1,-1,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Masks,FrancophilSans,74,&H00000000,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,2,0,0,0,1
+Style: Title,Conan Episode Title,74,&H00E1E4E3,&H000000FF,&HC8DBDAE1,&HC0000000,-1,0,0,0,100,100,0,0,1,1,0,5,0,0,0,1
+Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-1,0,0,0,100,100,0,0,1,0,0,2,0,0,65,1
+Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
+Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
+Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:03.88,0:00:05.03,Dialogue,,0,0,0,,Ple Tne endo tn\NDeductionsflows with\Nthe rhythm of the wind
+Dialogue: 0,0:00:05.07,0:00:07.05,Dialogue,,0,0,0,,Dark stains are rinsed clean and exposed
+Dialogue: 0,0:00:07.27,0:00:08.75,Dialogue,,0,0,0,,This is the case closed\Nepisode of a 3-part story!
+Dialogue: 0,0:00:08.79,0:00:10.87,Dialogue,,0,0,0,,The sharp twosome, extinguish the flames!
+Dialogue: 0,0:00:10.97,0:00:12.71,Dialogue,,0,0,0,,He sees through the one and only truth,
+Dialogue: 0,0:00:12.71,0:00:14.58,Dialogue,,0,0,0,,A child in appearance\Nwith the I.Q. of an adult
+Dialogue: 0,0:00:14.61,0:00:17.01,Dialogue,,0,0,0,,no case is left unsolved\Nwith Detective Conan.
+Dialogue: 0,0:01:26.41,0:01:28.13,Dialogue,,0,0,0,,ad QQ
+Dialogue: 0,0:01:28.38,0:01:28.75,Dialogue,,0,0,0,,o> 2a @
+Dialogue: 0,0:01:29.75,0:01:30.17,Dialogue,,0,0,0,,U101
+Dialogue: 0,0:01:30.47,0:01:31.14,Dialogue,,0,0,0,,Vy. J\Nw % 43)
+Dialogue: 0,0:01:32.25,0:01:32.97,Dialogue,,0,0,0,,( 3 QR
+Dialogue: 0,0:01:48.79,0:01:50.24,Dialogue,,0,0,0,,an Te. Tom o>
+Dialogue: 0,0:01:55.14,0:01:57.01,Dialogue,,0,0,0,,The Morozumi residence that Hattori,\NPops and I went on behalf of Kusukawa,
+Dialogue: 0,0:01:57.01,0:01:59.91,Dialogue,,0,0,0,,to investigate caught fire
+Dialogue: 0,0:02:00.22,0:02:03.12,Dialogue,,0,0,0,,and Ryoko Morozumi dies.
+Dialogue: 0,0:02:03.82,0:02:08.66,Dialogue,,0,0,0,,Like all the other serial arson sites
+Dialogue: 0,0:02:08.66,0:02:09.59,Dialogue,,0,0,0,,a red horse! doll is left behind at the site.
+Dialogue: 0,0:02:09.59,0:02:11.49,Dialogue,,0,0,0,,A red horse doll is left behind at the site.
+Dialogue: 0,0:02:13.16,0:02:17.56,Dialogue,,0,0,0,,However, one of the suspects\NTakanori Genda, admits to the crime,
+Dialogue: 0,0:02:17.80,0:02:21.24,Dialogue,,0,0,0,,and the case seems to have closed. but...
+Dialogue: 0,0:02:22.87,0:02:28.51,Dialogue,,0,0,0,,(8% 25)\NRed Horse in the Fire\NCase Solved Part 3
+Dialogue: 0,0:02:30.48,0:02:31.21,Dialogue,,0,0,0,,Ash?!
+Dialogue: 0,0:02:31.35,0:02:33.35,Dialogue,,0,0,0,,Oh no! It's already 3:00 pm...
+Dialogue: 0,0:02:33.35,0:02:36.98,Dialogue,,0,0,0,,I guess we'll just have to forget\Nabout Tropical Land.
+Dialogue: 0,0:02:40.81,0:02:42.19,Dialogue,,0,0,0,,I see...
+Dialogue: 0,0:02:42.39,0:02:43.86,Dialogue,,0,0,0,,It's true...
+Dialogue: 0,0:02:43.89,0:02:48.50,Dialogue,,0,0,0,,that if we do as you-say,\Nfire could be ignited automatically...
+Dialogue: 0,0:02:49.00,0:02:51.06,Dialogue,,0,0,0,,But the burn on that light bulb...
+Dialogue: 0,0:02:51.07,0:02:54.85,Dialogue,,0,0,0,,Could be something that coincidentally\Ngot there during the fire...
+Dialogue: 0,0:02:58.64,0:03:00.51,Dialogue,,0,0,0,,If that trick were to be used...
+Dialogue: 0,0:03:00.54,0:03:03.44,Dialogue,,0,0,0,,any of the three could've done it,\Ncouldn't they?
+Dialogue: 0,0:03:05.68,0:03:09.15,Dialogue,,0,0,0,,The owner of that house\NAkira Morozumi, of course.
+Dialogue: 0,0:03:09.38,0:03:11.90,Dialogue,,0,0,0,,That womanizer Misao Soga.
+Dialogue: 0,0:03:12.02,0:03:13.82,Dialogue,,0,0,0,,As well as Ryoko's older\Nsister. Keiko Gondo
+Dialogue: 0,0:03:13.82,0:03:17.72,Dialogue,,0,0,0,,seem to have frequently gone\Nin and out of the house!
+Dialogue: 0,0:03:19.59,0:03:23.86,Dialogue,,0,0,0,,We came to Mr. Genda's house\Nto find out who the culprit is,
+Dialogue: 0,0:03:24.00,0:03:25.33,Dialogue,,0,0,0,,so let's hurry and go into the house!
+Dialogue: 0,0:03:25.53,0:03:26.73,Dialogue,,0,0,0,,Yeah. right!
+Dialogue: 0,0:03:26.94,0:03:30.80,Dialogue,,0,0,0,,We may find a diary or something\Nthat could be a key to the case!
+Dialogue: 0,0:03:34.98,0:03:40.31,Dialogue,,0,0,0,,you don't even have a search wainrant,\Nand-yet you have-the keys-It's amazing...
+Dialogue: 0,0:03:42.38,0:03:45.69,Dialogue,,0,0,0,,I told Genda that\NI would prove his innocence.
+Dialogue: 0,0:03:45.82,0:03:48.56,Dialogue,,0,0,0,,Then he broke out in tears\Nand lent«it to me...
+Dialogue: 0,0:03:49.42,0:03:53.49,Dialogue,,0,0,0,,It sure is a big house for\NMr. Genda to be living in alone.
+Dialogue: 0,0:03:54.00,0:03:54.63,Dialogue,,0,0,0,,Yeah...
+Dialogue: 0,0:03:55.10,0:03:58.50,Dialogue,,0,0,0,,He was living here with his mother\Nafter his father passed away...
+Dialogue: 0,0:03:58.67,0:04:01.87,Dialogue,,0,0,0,,but last year his mother also\Npassed away of an illness...
+Dialogue: 0,0:04:02.84,0:04:03.74,Dialogue,,0,0,0,,By the way. Mouri,
+Dialogue: 0,0:04:03.74,0:04:06.41,Dialogue,,0,0,0,,did you notice the\Nshoe marks in the corridor?
+Dialogue: 0,0:04:06.54,0:04:07.34,Dialogue,,0,0,0,,Yes...
+Dialogue: 0,0:04:07.71,0:04:09.64,Dialogue,,0,0,0,,they're here and there...
+Dialogue: 0,0:04:10.04,0:04:12.08,Dialogue,,0,0,0,,the shoe marks of someone...
+Dialogue: 0,0:04:12.48,0:04:14.35,Dialogue,,0,0,0,,These are Mr. Gendas shoe marks...
+Dialogue: 0,0:04:15.38,0:04:17.99,Dialogue,,0,0,0,,It's the same as the shoes\Nthat's in the shoes cabinet!
+Dialogue: 0,0:04:18.22,0:04:20.92,Dialogue,,0,0,0,,Which means that.. Mr. Genda...
+Dialogue: 0,0:04:21.59,0:04:22.09,Dialogue,,0,0,0,,Hey...
+Dialogue: 0,0:04:22.42,0:04:23.86,Dialogue,,0,0,0,,take a look at this!!
+Dialogue: 0,0:04:24.16,0:04:26.43,Dialogue,,0,0,0,,There's something strange\Nin the waste basket!
+Dialogue: 0,0:04:30.60,0:04:34.13,Dialogue,,0,0,0,,Soiled socks and a burnt shirt...
+Dialogue: 0,0:04:34.74,0:04:38.11,Dialogue,,0,0,0,,If Mr. Genda's sleepwalking habit\Nwas getting worse, maybe his saying.
+Dialogue: 0,0:04:38.34,0:04:43.28,Dialogue,,0,0,0,,The other me did it". is not\Nall that much of a lie...
+Dialogue: 0,0:04:44.38,0:04:46.15,Dialogue,,0,0,0,,He's not that kind of a guy...
+Dialogue: 0,0:04:46.58,0:04:51.29,Dialogue,,0,0,0,,He's not the kind of man that\Nwould set fire to other people's houses...
+Dialogue: 0,0:04:53.62,0:04:54.92,Dialogue,,0,0,0,,Yuminaga...
+Dialogue: 0,0:04:58.49,0:04:59.53,Dialogue,,0,0,0,,Hey! Kudo!!
+Dialogue: 0,0:05:00.26,0:05:01.70,Dialogue,,0,0,0,,Come here a minute!
+Dialogue: 0,0:05:04.13,0:05:07.73,Dialogue,,0,0,0,,It's the telephone bill that wD\Non top of the shoes cabinet...
+Dialogue: 0,0:05:08.24,0:05:12.07,Dialogue,,0,0,0,,It says 30.000 yen a month!\NIsn't it a bit too much?
+Dialogue: 0,0:05:12.64,0:05:15.94,Dialogue,,0,0,0,,It's true that it's strange for a guy\Nwho's living alone but...
+Dialogue: 0,0:05:16.44,0:05:19.18,Dialogue,,0,0,0,,Ran also talks to Sonoko\Nfor a long time over silly things
+Dialogue: 0,0:05:19.18,0:05:20.91,Dialogue,,0,0,0,,and the bill totals to about that much...
+Dialogue: 0,0:05:22.98,0:05:24.45,Dialogue,,0,0,0,,Come to think of it...
+Dialogue: 0,0:05:24.45,0:05:26.72,Dialogue,,0,0,0,,silly Kazuha does the same thing...
+Dialogue: 0,0:05:26.89,0:05:30.26,Dialogue,,0,0,0,,She talks for a long time with mom.
+Dialogue: 0,0:05:30.46,0:05:33.96,Dialogue,,0,0,0,,I wonder why women like to\Ntalk on the phone so much...
+Dialogue: 0,0:05:35.23,0:05:36.46,Dialogue,,0,0,0,,Well. I'm so sorry!
+Dialogue: 0,0:05:37.40,0:05:38.77,Dialogue,,0,0,0,,That our phone calls are so silly!!
+Dialogue: 0,0:05:39.53,0:05:40.43,Dialogue,,0,0,0,,Hopi?
+Dialogue: 0,0:05:40.57,0:05:41.77,Dialogue,,0,0,0,,Conan!
+Dialogue: 0,0:05:41.85,0:05:43.15,Dialogue,,0,0,0,,Huh
+Dialogue: 0,0:05:45.71,0:05:49.71,Dialogue,,0,0,0,,Don't tell me you guys were\Neavesdropping from the front door?!
+Dialogue: 0,0:05:49.88,0:05:52.11,Dialogue,,0,0,0,,We wouldn't do something\NIow class like that!!
+Dialogue: 0,0:05:52.11,0:05:53.01,Dialogue,,0,0,0,,You fool!!
+Dialogue: 0,0:05:54.28,0:05:58.49,Dialogue,,0,0,0,,We were listening to the car radio\Nwhen we heard ou cu s talkinc!
+Dialogue: 0,0:05:59.42,0:05:59.92,Dialogue,,0,0,0,,Right
+Dialogue: 0,0:06:00.39,0:06:01.96,Dialogue,,0,0,0,,Radio?!
+Dialogue: 0,0:06:10.83,0:06:12.80,Dialogue,,0,0,0,,=Itvs inside this vase!!!
+Dialogue: 0,0:06:14.17,0:06:14.77,Dialogue,,0,0,0,,Here it is!!
+Dialogue: 0,0:06:14.87,0:06:16.14,Dialogue,,0,0,0,,Look!!
+Dialogue: 0,0:06:16.40,0:06:17.77,Dialogue,,0,0,0,,It's a wiretap!
+Dialogue: 0,0:06:18.07,0:06:18.61,Dialogue,,0,0,0,,Huh ?
+Dialogue: 0,0:06:19.57,0:06:20.51,Dialogue,,0,0,0,,That's...
+Dialogue: 0,0:06:20.61,0:06:24.24,Dialogue,,0,0,0,,exactly the same as the vase that is in\Nthe front entrance of the Morozumi's. isn't its?
+Dialogue: 0,0:06:24.41,0:06:26.38,Dialogue,,0,0,0,,We heard other things too...
+Dialogue: 0,0:06:26.71,0:06:28.12,Dialogue,,0,0,0,,Something about the wastebasket
+Dialogue: 0,0:06:31.89,0:06:33.35,Dialogue,,0,0,0,,Hey. wait!
+Dialogue: 0,0:06:35.96,0:06:39.33,Dialogue,,0,0,0,,There's got be one near\Nthis waste basket too. a wiretap!
+Dialogue: 0,0:06:40.66,0:06:41.70,Dialogue,,0,0,0,,Huh? A crystal ball...?
+Dialogue: 0,0:06:43.56,0:06:44.06,Dialogue,,0,0,0,,Hattori!
+Dialogue: 0,0:06:45.03,0:06:46.10,Dialogue,,0,0,0,,I found it!!
+Dialogue: 0,0:06:46.60,0:06:49.24,Dialogue,,0,0,0,,This time inside the cushion\Nunder the crystal ball!
+Dialogue: 0,0:06:49.44,0:06:51.61,Dialogue,,0,0,0,,Oh. I've seen that!
+Dialogue: 0,0:06:52.01,0:06:52.57,Dialogue,,0,0,0,,Huh
+Dialogue: 0,0:06:53.17,0:06:55.61,Dialogue,,0,0,0,,It's the crystal of good luck\Nthat the woman fortuneteller
+Dialogue: 0,0:06:55.61,0:06:57.74,Dialogue,,0,0,0,,at the building in front\Nof Haido Station is selling!
+Dialogue: 0,0:06:57.95,0:07:01.95,Dialogue,,0,0,0,,She's known for being pretty good...
+Dialogue: 0,0:07:03.68,0:07:05.82,Dialogue,,0,0,0,,Hey! That small cushion...
+Dialogue: 0,0:07:06.20,0:07:10.16,Dialogue,,0,0,0,,It's a different color.but similar to the one\NRyoko was holding. don't you think?
+Dialogue: 0,0:07:12.19,0:07:12.89,Dialogue,,0,0,0,,No...
+Dialogue: 0,0:07:13.69,0:07:14.93,Dialogue,,0,0,0,,Could it be in here too?!
+Dialogue: 0,0:07:15.20,0:07:16.30,Dialogue,,0,0,0,,Hey...
+Dialogue: 0,0:07:23.74,0:07:25.14,Dialogue,,0,0,0,,No...
+Dialogue: 0,0:07:25.34,0:07:27.11,Dialogue,,0,0,0,,It's not a wiretap!!
+Dialogue: 0,0:07:27.51,0:07:30.78,Dialogue,,0,0,0,,But. something else has come out instead!
+Dialogue: 0,0:07:35.35,0:07:35.95,Dialogue,,0,0,0,,Yes...
+Dialogue: 0,0:07:36.15,0:07:40.22,Dialogue,,0,0,0,,Iithe guyfGenda-confessed.\NBut suddenly refused to say anything...
+Dialogue: 0,0:07:40.22,0:07:44.32,Dialogue,,0,0,0,,The red horse was indeed\Nhand-made by Genda...
+Dialogue: 0,0:07:44.86,0:07:49.76,Dialogue,,0,0,0,,But, he refuses to say anything\Nabout the serial arsons.
+Dialogue: 0,0:07:49.80,0:07:55.14,Dialogue,,0,0,0,,And. we're at Gendafs. house right» now.\NBut can't find any vital evidence...
+Dialogue: 0,0:07:55.50,0:08:00.64,Dialogue,,0,0,0,,Genda saying that he has a habit of\Nsleepwalking is probably a lie too...
+Dialogue: 0,0:08:00.98,0:08:03.11,Dialogue,,0,0,0,,Well, the forensic officers\Nwill be here tomorrow
+Dialogue: 0,0:08:03.11,0:08:04.74,Dialogue,,0,0,0,,so I'm sure something will come out...
+Dialogue: 0,0:08:04.75,0:08:06.75,Dialogue,,0,0,0,,When something more concerning\Nthe investigations: come up.
+Dialogue: 0,0:08:06.75,0:08:08.78,Dialogue,,0,0,0,,I'll contact you again...
+Dialogue: 0,0:08:09.52,0:08:10.48,Dialogue,,0,0,0,,Whew...
+Dialogue: 0,0:08:12.32,0:08:14.29,Dialogue,,0,0,0,,Was it okay. sonny?
+Dialogue: 0,0:08:14.62,0:08:17.22,Dialogue,,0,0,0,,Just great. Inspector!
+Dialogue: 0,0:08:17.49,0:08:19.86,Dialogue,,0,0,0,,But...what are you up to anyway?
+Dialogue: 0,0:08:20.06,0:08:23.86,Dialogue,,0,0,0,,Making fake calls like that\Nto all three suspects?
+Dialogue: 0,0:08:24.23,0:08:25.13,Dialogue,,0,0,0,,Fake calls?
+Dialogue: 0,0:08:25.17,0:08:26.53,Dialogue,,0,0,0,,They're fake calls, aren't they?!
+Dialogue: 0,0:08:26.60,0:08:29.64,Dialogue,,0,0,0,,You found wiretaps in\Nthe vase at the front entrance
+Dialogue: 0,0:08:29.64,0:08:31.30,Dialogue,,0,0,0,,as well as something in the cushion.
+Dialogue: 0,0:08:31.31,0:08:35.54,Dialogue,,0,0,0,,There is proof everywhere that Mr. Genda\Nhad a habit of sleepwalking...
+Dialogue: 0,0:08:35.64,0:08:38.48,Dialogue,,0,0,0,,Well... I'll explain everything later...
+Dialogue: 0,0:08:38.85,0:08:41.72,Dialogue,,0,0,0,,And us being here too.
+Dialogue: 0,0:08:41.72,0:08:44.42,Dialogue,,0,0,0,,Won't that make more work\Nfor the forensic officers?
+Dialogue: 0,0:08:44.55,0:08:45.42,Dialogue,,0,0,0,,Yeah!
+Dialogue: 0,0:08:45.72,0:08:48.32,Dialogue,,0,0,0,,I'm sure our hair is on\Nthe floor somewhere too!
+Dialogue: 0,0:08:48.49,0:08:49.06,Dialogue,,0,0,0,,Then,
+Dialogue: 0,0:08:49.26,0:08:52.33,Dialogue,,0,0,0,,what should we do to erase\Nall evidence that we were here?
+Dialogue: 0,0:08:52.46,0:08:53.69,Dialogue,,0,0,0,,Hat should we do...
+Dialogue: 0,0:08:54.13,0:08:55.83,Dialogue,,0,0,0,,Go all out and clean the place. what else?
+Dialogue: 0,0:08:55.96,0:08:58.70,Dialogue,,0,0,0,,If you didn't have time to do so. then what?
+Dialogue: 0,0:08:59.23,0:09:00.67,Dialogue,,0,0,0,,Well .
+Dialogue: 0,0:09:01.10,0:09:02.17,Dialogue,,0,0,0,,Ag hi?
+Dialogue: 0,0:09:02.27,0:09:03.57,Dialogue,,0,0,0,,Maybe...
+Dialogue: 0,0:11:13.47,0:11:15.04,Dialogue,,0,0,0,,Shh~~~!
+Dialogue: 0,0:11:34.96,0:11:38.52,Dialogue,,0,0,0,,Aren't you forgetting to leave\Nthis red horse behind?
+Dialogue: 0,0:11:38.96,0:11:40.86,Dialogue,,0,0,0,,Mr. Arsonist?
+Dialogue: 0,0:11:58.03,0:12:00.26,Dialogue,,0,0,0,,Mr. Morozumi...
+Dialogue: 0,0:12:00.63,0:12:01.26,Dialogue,,0,0,0,,Yeah...
+Dialogue: 0,0:12:01.90,0:12:06.54,Dialogue,,0,0,0,,this. key holder of the red horse that\NMr. Genda made was the start of everything.
+Dialogue: 0,0:12:06.97,0:12:10.64,Dialogue,,0,0,0,,This red horse, that is supposed to\Nbring prosperous business...
+Dialogue: 0,0:12:11.01,0:12:15.08,Dialogue,,0,0,0,,I don't know what caused\Nhe first fire in Rizencho,
+Dialogue: 0,0:12:15.08,0:12:17.65,Dialogue,,0,0,0,,but this horse was found\Nat the site of the fire because
+Dialogue: 0,0:12:17.85,0:12:22.09,Dialogue,,0,0,0,,e Owner oe use was\Na good customer of Mr. Genda's store...
+Dialogue: 0,0:12:22.85,0:12:27.79,Dialogue,,0,0,0,,Mr. Genda probably gave that person\Nthis key holder inside a box...
+Dialogue: 0,0:12:27.79,0:12:30.83,Dialogue,,0,0,0,,But, before the person opened\Nthe box. the house caught fire...
+Dialogue: 0,0:12:30.83,0:12:34.60,Dialogue,,0,0,0,,The box and Kanu both burned leaving\Nbehind only the Red Rabbit Horse .
+Dialogue: 0,0:12:35.07,0:12:38.03,Dialogue,,0,0,0,,Of course the owner of the house would\Nhave no knowledge of the horse
+Dialogue: 0,0:12:38.20,0:12:42.17,Dialogue,,0,0,0,,And Red Horse is a code word\Nfor the police meaning arsonist!
+Dialogue: 0,0:12:42.44,0:12:44.21,Dialogue,,0,0,0,,So, the press began making\Na fuss writing articles
+Dialogue: 0,0:12:44.21,0:12:46.58,Dialogue,,0,0,0,,such as "The Start of a Series of Arsons. "...
+Dialogue: 0,0:12:47.14,0:12:48.65,Dialogue,,0,0,0,,On the other hand.
+Dialogue: 0,0:12:48.65,0:12:50.81,Dialogue,,0,0,0,,Mr Genda who was shocked at\Nhearing the person saying
+Dialogue: 0,0:12:50.82,0:12:52.65,Dialogue,,0,0,0,,she knew nothing about\Nthe horse that he gave her...
+Dialogue: 0,0:12:53.05,0:12:57.45,Dialogue,,0,0,0,,got worried that his sleepwalking habit\Nwhen he was a child had occurred again,
+Dialogue: 0,0:12:57.66,0:13:02.46,Dialogue,,0,0,0,,and went to your hospital,\Nwhere he was taken advantage of!
+Dialogue: 0,0:13:03.03,0:13:05.60,Dialogue,,0,0,0,,And. when you heard Genda's story.\NYou made him believe that
+Dialogue: 0,0:13:05.60,0:13:09.30,Dialogue,,0,0,0,,he was a sleepwalker who had a habit\Nof committing arsons...
+Dialogue: 0,0:13:09.60,0:13:12.90,Dialogue,,0,0,0,,and took note of the fact that\Nthe first fire occurred in 1 chome.
+Dialogue: 0,0:13:13.07,0:13:16.17,Dialogue,,0,0,0,,Then after, you set fire to\N2-chome and 3-chome in order...
+Dialogue: 0,0:13:16.47,0:13:18.94,Dialogue,,0,0,0,,You burned your house on 4 chome,
+Dialogue: 0,0:13:19.11,0:13:22.03,Dialogue,,0,0,0,,and killed your wife, Ryoko.
+Dialogue: 0,0:13:23.38,0:13:26.12,Dialogue,,0,0,0,,You cut the Kanu and\Nstand off the key holder
+Dialogue: 0,0:13:26.12,0:13:28.18,Dialogue,,0,0,0,,and left the red horse at the site of the fire
+Dialogue: 0,0:13:28.29,0:13:33.39,Dialogue,,0,0,0,,to make it look like the serial arsonist did it,\Nand framed Mr. Genda up as the arsonist!
+Dialogue: 0,0:13:34.06,0:13:38.73,Dialogue,,0,0,0,,You made a spare key for\Nthis house and snuck in here
+Dialogue: 0,0:13:38.86,0:13:42.40,Dialogue,,0,0,0,,night after night to corner\NMr. Genda up against the wall
+Dialogue: 0,0:13:42.60,0:13:44.17,Dialogue,,0,0,0,,You left shoe prints.
+Dialogue: 0,0:13:44.27,0:13:47.30,Dialogue,,0,0,0,,Burnt shirts and dirty socks in his room
+Dialogue: 0,0:13:47.30,0:13:50.37,Dialogue,,0,0,0,,to make him come under\Nthe illusion that he was the arsonist!
+Dialogue: 0,0:13:51.01,0:13:52.21,Dialogue,,0,0,0,,But...
+Dialogue: 0,0:13:52.44,0:13:55.45,Dialogue,,0,0,0,,Mr. Genda came of his own\Ninitiative to my hospital
+Dialogue: 0,0:13:55.61,0:13:57.88,Dialogue,,0,0,0,,saying that he had a habit of sleepwalking.
+Dialogue: 0,0:13:58.05,0:13:59.08,Dialogue,,0,0,0,,But. that's...
+Dialogue: 0,0:13:59.42,0:14:01.58,Dialogue,,0,0,0,,when he was a child. right?
+Dialogue: 0,0:14:02.05,0:14:05.89,Dialogue,,0,0,0,,I saw on TV that there are many cases,\Nwhen a nervous child unable to cope with
+Dialogue: 0,0:14:05.89,0:14:10.83,Dialogue,,0,0,0,,all the excitement during the day\Nsleepwalks around at night!
+Dialogue: 0,0:14:11.16,0:14:15.20,Dialogue,,0,0,0,,A psychiatrist should know\Nsomething like that right off the bat, no?
+Dialogue: 0,0:14:15.53,0:14:18.70,Dialogue,,0,0,0,,But. Mr. Genda~was loitering around nearby
+Dialogue: 0,0:14:18.80,0:14:21.07,Dialogue,,0,0,0,,when my house caught fire, wasn't he?
+Dialogue: 0,0:14:21.37,0:14:24.77,Dialogue,,0,0,0,,I would never know something like that,\Neven if I were his doctor, would I...
+Dialogue: 0,0:14:27.24,0:14:30.75,Dialogue,,0,0,0,,You heard Genda and Soga\Ntalking on the phone. didn't you.
+Dialogue: 0,0:14:31.18,0:14:33.92,Dialogue,,0,0,0,,With the wiretap that you set up inside\Nthe underside of the telephone
+Dialogue: 0,0:14:33.92,0:14:35.62,Dialogue,,0,0,0,,that you took out a while ago!
+Dialogue: 0,0:14:37.32,0:14:39.46,Dialogue,,0,0,0,,After hearing Soga say. If you go\Nto the houses on that day]
+Dialogue: 0,0:14:39.46,0:14:43.66,Dialogue,,0,0,0,,Your fortune will take a turn for the better.\Nyou picked the date to set fire!
+Dialogue: 0,0:14:45.13,0:14:49.92,Dialogue,,0,0,0,,All you had to do was{\rHonorifics - Dialogue} chan{\r}ge the beckoning\Ncat key holder Genda was supposed
+Dialogue: 0,0:14:49.95,0:14:52.64,Dialogue,,0,0,0,,to pass out to the neighborhood\Nthat day. to the Red Rabbit Horse.
+Dialogue: 0,0:14:52.74,0:14:55.54,Dialogue,,0,0,0,,You knew that Mr. Genda would\Ncome to retrieve the key holders
+Dialogue: 0,0:14:55.54,0:14:57.91,Dialogue,,0,0,0,,when he finds out that he had\Npassed out the wrong ones and that,
+Dialogue: 0,0:14:57.98,0:15:01.68,Dialogue,,0,0,0,,the people would become\Nsuspicious at seeing him do this.
+Dialogue: 0,0:15:02.35,0:15:05.42,Dialogue,,0,0,0,,Since it was the day that\NRyoko had called the detective,
+Dialogue: 0,0:15:05.58,0:15:09.85,Dialogue,,0,0,0,,you figured that if things worked out well,\Nthe detective would remember Genda
+Dialogue: 0,0:15:10.22,0:15:12.09,Dialogue,,0,0,0,,Please wait!
+Dialogue: 0,0:15:12.36,0:15:15.12,Dialogue,,0,0,0,,The fire was set at past 7:30 pm... right?
+Dialogue: 0,0:15:15.13,0:15:18.16,Dialogue,,0,0,0,,Went out to drink with\NMr. Soga before 7:30 and
+Dialogue: 0,0:15:18.30,0:15:20.96,Dialogue,,0,0,0,,he also testified to this!
+Dialogue: 0,0:15:21.23,0:15:26.50,Dialogue,,0,0,0,,Or, ares ou saying the boy next door who\Ntestified to the time of the arson is lying?
+Dialogue: 0,0:15:26.77,0:15:27.84,Dialogue,,0,0,0,,Huh
+Dialogue: 0,0:15:27.97,0:15:29.24,Dialogue,,0,0,0,,What's this?
+Dialogue: 0,0:15:29.94,0:15:33.68,Dialogue,,0,0,0,,The tissue paper is wrapped around\Nthe light bulb and taped on!
+Dialogue: 0,0:15:33.78,0:15:36.68,Dialogue,,0,0,0,,And there's something poked in\Nbetween the tissue paper too!
+Dialogue: 0,0:15:37.11,0:15:38.45,Dialogue,,0,0,0,,Wait
+Dialogue: 0,0:15:38.55,0:15:41.35,Dialogue,,0,0,0,,Agh! It's a match!!
+Dialogue: 0,0:15:41.57,0:15:45.54,Dialogue,,0,0,0,,The surface temperature of a light bulb\Nof 100 watts is 218 degrees...
+Dialogue: 0,0:15:45.66,0:15:47.79,Dialogue,,0,0,0,,Wrapping tissue paper around\Nsome ng I e a an
+Dialogue: 0,0:15:47.79,0:15:49.53,Dialogue,,0,0,0,,moreover, poking a match between it...
+Dialogue: 0,0:15:49.59,0:15:51.23,Dialogue,,0,0,0,,it's not hard to figure out\Nwhat will happen. is it?
+Dialogue: 0,0:15:51.93,0:15:52.70,Dialogue,,0,0,0,,In other words...
+Dialogue: 0,0:15:52.73,0:15:55.53,Dialogue,,0,0,0,,it's a time-igniting device
+Dialogue: 0,0:15:55.67,0:16:00.40,Dialogue,,0,0,0,,to set fire to your house while\Nyou are out drinking with Mr. Soga!!
+Dialogue: 0,0:16:00.60,0:16:04.87,Dialogue,,0,0,0,,You did the same thing to\Nthe light bulb in the storeroom,
+Dialogue: 0,0:16:05.04,0:16:06.68,Dialogue,,0,0,0,,poured kerosene on the floor
+Dialogue: 0,0:16:06.68,0:16:09.21,Dialogue,,0,0,0,,and stuck a red horse between\Nthe window beforehand.
+Dialogue: 0,0:16:09.28,0:16:12.45,Dialogue,,0,0,0,,Then, before you went out drinking\Nwith Mr. Soga you turned on the light!
+Dialogue: 0,0:16:12.82,0:16:16.42,Dialogue,,0,0,0,,So. 10 minutes later, the match would ignite,\Nthe tissue paper would fall to the ground
+Dialogue: 0,0:16:16.42,0:16:19.59,Dialogue,,0,0,0,,and fire would break out...\NYou shouldn't do stuff like this...
+Dialogue: 0,0:16:19.92,0:16:24.46,Dialogue,,0,0,0,,Then, the boy next door as usual\Nwatches TV with the room dark.
+Dialogue: 0,0:16:24.75,0:16:27.20,Dialogue,,0,0,0,,When the tissue is wrapped\Naround the light bulb,
+Dialogue: 0,0:16:27.20,0:16:30.07,Dialogue,,0,0,0,,the light is still weak, so the silhouette\Nof the horse will not project.
+Dialogue: 0,0:16:30.07,0:16:32.94,Dialogue,,0,0,0,,But after the tissue paper burns off,\Nthe silhouette of the horse is projected
+Dialogue: 0,0:16:32.94,0:16:36.11,Dialogue,,0,0,0,,as if the arsonist had left\Nthe horse behind at that time.
+Dialogue: 0,0:16:36.11,0:16:38.31,Dialogue,,0,0,0,,You deliberately created this illusion!
+Dialogue: 0,0:16:38.44,0:16:40.71,Dialogue,,0,0,0,,Next. you were probably\Nplanning to sneak in here
+Dialogue: 0,0:16:40.71,0:16:44.61,Dialogue,,0,0,0,,and burn this place down: to erase\Ntraces of you having been here...
+Dialogue: 0,0:16:44.62,0:16:46.88,Dialogue,,0,0,0,,But. there is still other evidence.
+Dialogue: 0,0:16:47.02,0:16:50.07,Dialogue,,0,0,0,,It's the stand of the key holder with\Nthe words Red Rabbit Horse on it that
+Dialogue: 0,0:16:50.10,0:16:51.95,Dialogue,,0,0,0,,Ryoko was holding on\Nto at the time she died!
+Dialogue: 0,0:16:53.62,0:16:57.93,Dialogue,,0,0,0,,The cut part matched the leg that\Nwas left back at the fire site on 3-chome
+Dialogue: 0,0:16:58.30,0:17:00.93,Dialogue,,0,0,0,,Now all that needs to be done,\Nis to see if the fingerprints that are on it
+Dialogue: 0,0:17:00.93,0:17:04.30,Dialogue,,0,0,0,,match your fingerprints.
+Dialogue: 0,0:17:04.54,0:17:06.90,Dialogue,,0,0,0,,You cut off the stand and Kanu because
+Dialogue: 0,0:17:06.90,0:17:09.87,Dialogue,,0,0,0,,you didn't want anyone to know it\Nwas what Mr.-Genda had made.
+Dialogue: 0,0:17:09.87,0:17:15.66,Dialogue,,0,0,0,,You didn't want him to get\Ncaught before you kill Ryoko...
+Dialogue: 0,0:17:15.70,0:17:19.50,Dialogue,,0,0,0,,It seems she knew what\Nyou were up to though.
+Dialogue: 0,0:17:19.75,0:17:21.98,Dialogue,,0,0,0,,She probably asked the detective\Nto come and investigate
+Dialogue: 0,0:17:21.99,0:17:25.59,Dialogue,,0,0,0,,the suspicious person\NIoitering around at night
+Dialogue: 0,0:17:25.66,0:17:30.56,Dialogue,,0,0,0,,but found out that it was you,\Nexperimenting on the trick!
+Dialogue: 0,0:17:30.83,0:17:35.06,Dialogue,,0,0,0,,After realizing it was you,\Nshe checked your belongings
+Dialogue: 0,0:17:35.07,0:17:37.37,Dialogue,,0,0,0,,and found the red horse and the stand.
+Dialogue: 0,0:17:37.37,0:17:40.67,Dialogue,,0,0,0,,And was convinced that\Nthe serial arsonist was you.
+Dialogue: 0,0:17:41.14,0:17:45.71,Dialogue,,0,0,0,,She probably asked us to leave, because\Nshe was planning to threaten you to...
+Dialogue: 0,0:17:45.74,0:17:47.01,Dialogue,,0,0,0,,Right!
+Dialogue: 0,0:17:47.14,0:17:49.85,Dialogue,,0,0,0,,She threatened to divorce me\Nand kick me out of this house!!
+Dialogue: 0,0:17:50.11,0:17:51.45,Dialogue,,0,0,0,,All I wanted to do was...
+Dialogue: 0,0:17:51.57,0:17:54.98,Dialogue,,0,0,0,,burn the house and build a hospital...
+Dialogue: 0,0:17:55.29,0:17:56.45,Dialogue,,0,0,0,,Hey. hey...
+Dialogue: 0,0:17:56.72,0:17:58.86,Dialogue,,0,0,0,,Only if this stand wasn't found...
+Dialogue: 0,0:17:58.89,0:18:00.82,Dialogue,,0,0,0,,If I didn't get deceived\Ninto a trap like this...
+Dialogue: 0,0:18:01.73,0:18:03.96,Dialogue,,0,0,0,,This was supposed to be a perfect crime!!
+Dialogue: 0,0:18:04.43,0:18:05.36,Dialogue,,0,0,0,,You fool,
+Dialogue: 0,0:18:05.73,0:18:08.26,Dialogue,,0,0,0,,we knew from before you came here.
+Dialogue: 0,0:18:08.45,0:18:09.57,Dialogue,,0,0,0,,Don't lie!!
+Dialogue: 0,0:18:09.83,0:18:11.77,Dialogue,,0,0,0,,Soga could've done it and\Nso could Ryoko's older sister!
+Dialogue: 0,0:18:12.14,0:18:12.57,Dialogue,,0,0,0,,Yeah...
+Dialogue: 0,0:18:13.20,0:18:16.17,Dialogue,,0,0,0,,Those two also sold objects\Nwith wiretaps in them to Genda
+Dialogue: 0,0:18:16.17,0:18:17.84,Dialogue,,0,0,0,,and? ere wiretapping him...
+Dialogue: 0,0:18:17.84,0:18:20.44,Dialogue,,0,0,0,,They probably wanted him\Nto believe in Feng Shui
+Dialogue: 0,0:18:20.44,0:18:24.21,Dialogue,,0,0,0,,and fortune-telling by telling\Nhim stuff only he alone knew,
+Dialogue: 0,0:18:24.21,0:18:27.58,Dialogue,,0,0,0,,and sell him more expensive stuff...
+Dialogue: 0,0:18:27.85,0:18:32.61,Dialogue,,0,0,0,,We found out from the telephone bill\Nthat the phone was wiretapped!
+Dialogue: 0,0:18:32.64,0:18:35.26,Dialogue,,0,0,0,,When you wiretap\Nusing the telephone line,
+Dialogue: 0,0:18:35.26,0:18:40.76,Dialogue,,0,0,0,,it has to be connected all the while\Nso the telephone bill sky-rockets...
+Dialogue: 0,0:18:40.93,0:18:44.13,Dialogue,,0,0,0,,So. how can you tell that\NI'm the one who set it up?!
+Dialogue: 0,0:18:44.13,0:18:48.40,Dialogue,,0,0,0,,It could be either one of the two!!
+Dialogue: 0,0:18:48.47,0:18:50.11,Dialogue,,0,0,0,,You still don't realize?
+Dialogue: 0,0:18:50.24,0:18:50.61,Dialogue,,0,0,0,,Huh
+Dialogue: 0,0:18:51.61,0:18:54.04,Dialogue,,0,0,0,,You understand that in order to\Nset up a wiretap in the phone
+Dialogue: 0,0:18:54.04,0:18:57.45,Dialogue,,0,0,0,,you have to sneak into the house, right?
+Dialogue: 0,0:18:57.65,0:18:59.25,Dialogue,,0,0,0,,Yeah...
+Dialogue: 0,0:18:59.82,0:19:01.18,Dialogue,,0,0,0,,As for the other two.
+Dialogue: 0,0:19:01.19,0:19:03.65,Dialogue,,0,0,0,,If they were to sneak into the house
+Dialogue: 0,0:19:03.65,0:19:08.46,Dialogue,,0,0,0,,they would first of all remove the wiretap\Nfrom the things that they sold Mr. Genda,
+Dialogue: 0,0:19:08.46,0:19:11.73,Dialogue,,0,0,0,,because otherwise. they'd be suspected.
+Dialogue: 0,0:19:15.40,0:19:18.33,Dialogue,,0,0,0,,You probably came across\Ncommitting this crime
+Dialogue: 0,0:19:18.34,0:19:21.90,Dialogue,,0,0,0,,after reading Agatha Christie's\NThe ABC Murders but,
+Dialogue: 0,0:19:22.37,0:19:25.17,Dialogue,,0,0,0,,\~why-didn't you realize then that\Nno matter how hard you think out the plan.
+Dialogue: 0,0:19:26.24,0:19:31.21,Dialogue,,0,0,0,,The one who gets to laugh at\Nthe end is not the killer...
+Dialogue: 0,0:19:31.52,0:19:35.95,Dialogue,,0,0,0,,but the old man with the gray brain...
+Dialogue: 0,0:19:50.73,0:19:51.83,Dialogue,,0,0,0,,See you then, Mourn!
+Dialogue: 0,0:19:51.90,0:19:53.20,Dialogue,,0,0,0,,Thanks for everythig.
+Dialogue: 0,0:19:53.34,0:19:55.17,Dialogue,,0,0,0,,H... no not at all...
+Dialogue: 0,0:19:55.67,0:19:56.54,Dialogue,,0,0,0,,No...rather.
+Dialogue: 0,0:19:56.64,0:19:59.54,Dialogue,,0,0,0,,Maybe I should be thanking these boys?
+Dialogue: 0,0:20:02.35,0:20:05.11,Dialogue,,0,0,0,,By the way...\NWhat will become of those two?
+Dialogue: 0,0:20:05.22,0:20:05.68,Dialogue,,0,0,0,,Hmm?
+Dialogue: 0,0:20:07.62,0:20:11.19,Dialogue,,0,0,0,,It's not that they sold something\Noutrageously expensive to Genda yet.
+Dialogue: 0,0:20:11.35,0:20:13.96,Dialogue,,0,0,0,,And all they did was sneak\NIn to collect their wiretaps
+Dialogue: 0,0:20:13.96,0:20:16.32,Dialogue,,0,0,0,,because they didn't want to be\Nsuspected as arsonists, so...
+Dialogue: 0,0:20:16.46,0:20:19.73,Dialogue,,0,0,0,,We'll let them go after we give\Nthem a good lecture at the station.
+Dialogue: 0,0:20:23.13,0:20:25.74,Dialogue,,0,0,0,,Why did you believe\NGenda was innocent...
+Dialogue: 0,0:20:25.94,0:20:26.44,Dialogue,,0,0,0,,Yeah...
+Dialogue: 0,0:20:27.14,0:20:30.02,Dialogue,,0,0,0,,When Genda came up as a suspect,
+Dialogue: 0,0:20:30.06,0:20:33.41,Dialogue,,0,0,0,,I called him out to the park\Nand talked to him...
+Dialogue: 0,0:20:33.74,0:20:36.48,Dialogue,,0,0,0,,stayed with him for 30 minutes,\Nbut he hardly talked
+Dialogue: 0,0:20:36.48,0:20:38.95,Dialogue,,0,0,0,,So, we decided to talk again\Nsome other time and
+Dialogue: 0,0:20:38.95,0:20:41.88,Dialogue,,0,0,0,,I got up from the bench.
+Dialogue: 0,0:20:41.99,0:20:44.02,Dialogue,,0,0,0,,I turned to look back at him\Nfrom a distance... and saw him
+Dialogue: 0,0:20:44.02,0:20:48.59,Dialogue,,0,0,0,,Iooking desperately for something\Nin the grassy area around the bench.
+Dialogue: 0,0:20:49.23,0:20:54.06,Dialogue,,0,0,0,,It began raining a little while\Nafter he left the bench...
+Dialogue: 0,0:20:54.06,0:20:54.70,Dialogue,,0,0,0,,It began raining a little while\Nafter he left the bench...
+Dialogue: 0,0:20:54.80,0:20:57.10,Dialogue,,0,0,0,,After seeing the look of relief on his face,
+Dialogue: 0,0:20:57.10,0:20:59.70,Dialogue,,0,0,0,,I finally understood...
+Dialogue: 0,0:21:00.67,0:21:05.11,Dialogue,,0,0,0,,that he was looking for the cigarette butt\Nthat I threw down on the ground...
+Dialogue: 0,0:21:05.61,0:21:09.91,Dialogue,,0,0,0,,Because that was what caused\Nthe fire that took his father's life...
+Dialogue: 0,0:21:11.72,0:21:15.79,Dialogue,,0,0,0,,I just couldn't believe that a guy like him\Ncould; set fireito anybody's house...
+Dialogue: 0,0:21:15.92,0:21:18.22,Dialogue,,0,0,0,,Neither:did I want believe he could...
+Dialogue: 0,0:21:18.22,0:21:20.16,Dialogue,,0,0,0,,It's as simple as that...
+Dialogue: 0,0:21:22.19,0:21:24.23,Dialogue,,0,0,0,,See you... Mourn!
+Dialogue: 0,0:21:25.86,0:21:26.66,Dialogue,,0,0,0,,Yes sir
+Dialogue: 0,0:21:30.07,0:21:33.70,Dialogue,,0,0,0,,Original Comic Books By.\NGOSHO AOYAMA
+Dialogue: 0,0:21:36.01,0:21:39.68,Dialogue,,0,0,0,,Producers.\NMICHTHI O SUWA\NMA AH{TOS OSHIWKA
+Dialogue: 0,0:21:42.05,0:21:45.72,Dialogue,,0,0,0,,Det IT QUITIUI VIII «\Ngore
+Dialogue: 0,0:21:48.05,0:21:51.69,Dialogue,,0,0,0,,Character Designs By\NMAS'AT@MO sumo
+Dialogue: 0,0:21:54.06,0:21:57.66,Dialogue,,0,0,0,,Story Editor.\NJUNICHI 11OKA
+Dialogue: 0,0:22:00.06,0:22:02.83,Dialogue,,0,0,0,,Scripts By.\NKAN]! KASHIWABARA\NKAZUNARI KOUCHI\NJUNICHI MIYASHITA\NYUICHI HIGURE\NTOSHIKI INOUE
+Dialogue: 0,0:22:02.83,0:22:03.70,Dialogue,,0,0,0,,Scripts By.\NKAN]! KASHIWABARA\NKAZUNARI KOUCHI\NCHI HIG\NTOSHIKI INOUE
+Dialogue: 0,0:22:06.04,0:22:09.71,Dialogue,,0,0,0,,Animation Directors.\NMASATOMO SUDO\N» - ey bh «Lr LL. N\NIS NNICWERWAYE NEN VAVIVEY FE VAW\NHARUO OOGAWARA\NTSUSHI AONO\NAKIO KAWAMURA\NTAKASHI HYODO
+Dialogue: 0,0:22:12.08,0:22:15.75,Dialogue,,0,0,0,,Art Director\NYUKIHIRO SHIBUTANI
+Dialogue: 0,0:22:18.08,0:22:21.72,Dialogue,,0,0,0,,Directors Of Photography\NTAKASHI NOMURA\NHIRONOBU HORIKOSHI\NTAKAHISA OWAGA
+Dialogue: 0,0:22:24.12,0:22:27.72,Dialogue,,0,0,0,,Recording Director\NKATSUYOSHI KOBAYASHI
+Dialogue: 0,0:22:30.06,0:22:33.76,Dialogue,,0,0,0,,Editor\NTERUMITSU OKADA
+Dialogue: 0,0:22:36.07,0:22:39.74,Dialogue,,0,0,0,,2d oD\NChief Director.\NKENJI KODAMA
+Dialogue: 0,0:22:42.17,0:22:45.74,Dialogue,,0,0,0,,Produced By.\NTMS:-ENTERTAINMENT, LTD\Nin-assocration with\NYOMIURI TELECASTINC\NCORPORATION
+Dialogue: 0,0:22:48.11,0:22:54.25,Dialogue,,0,0,0,,DETECTIVE CONAN\NCGOMO AOY MAT SHOGAKUKAN YTV -TATS\NAll Ris hReserved
+Dialogue: 0,0:22:54.32,0:22:58.09,Dialogue,,0,0,0,,Hey. come on, a little cheaper!
+Dialogue: 0,0:22:58.09,0:23:01.89,Dialogue,,0,0,0,,I came all the way here to buy\Nfrom you to cheer you up, you know!
+Dialogue: 0,0:23:01.89,0:23:05.93,Dialogue,,0,0,0,,But that watch is made\Nby a famous craftsman...
+Dialogue: 0,0:23:05.93,0:23:07.56,Dialogue,,0,0,0,,No matter how famous...
+Dialogue: 0,0:23:07.56,0:23:09.50,Dialogue,,0,0,0,,if it doesn't move unless you wind it
+Dialogue: 0,0:23:09.50,0:23:13.33,Dialogue,,0,0,0,,It's practically useless\Nin this day and age. right?
+Dialogue: 0,0:23:13.54,0:23:15.87,Dialogue,,0,0,0,,Hunk but...
+Dialogue: 0,0:23:15.97,0:23:16.94,Dialogue,,0,0,0,,Okay!
+Dialogue: 0,0:23:16.94,0:23:19.01,Dialogue,,0,0,0,,Give me this too and as500~yenzdiscounti
+Dialogue: 0,0:23:19.01,0:23:20.04,Dialogue,,0,0,0,,How's about-it!
+Dialogue: 0,0:23:20.38,0:23:21.18,Dialogue,,0,0,0,,Heir,
+Dialogue: 0,0:23:21.31,0:23:23.65,Dialogue,,0,0,0,,we better hurry or we won't make it\Nin time for the planevgoingsback .-home
+Dialogue: 0,0:23:23.65,0:23:24.05,Dialogue,,0,0,0,,we better*hurry or we won't make it\Nin-time for the plane going back home
+Dialogue: 0,0:23:24.15,0:23:24.98,Dialogue,,0,0,0,,Come on. mister
+Dialogue: 0,0:23:24.98,0:23:26.62,Dialogue,,0,0,0,,hurry and wrap it up:"will you.
+Dialogue: 0,0:23:26.62,0:23:28.42,Dialogue,,0,0,0,,Simple wrapping will do.
+Dialogue: 0,0:23:28.42,0:23:29.92,Dialogue,,0,0,0,,Hey. Kazuha?!
+Dialogue: 0,0:23:30.09,0:23:31.29,Dialogue,,0,0,0,,Oh, yes. thank you very much!
+Dialogue: 0,0:23:31.29,0:23:33.22,Dialogue,,0,0,0,,Never mind giving him a discount already
+Dialogue: 0,0:23:33.26,0:23:36.59,Dialogue,,0,0,0,,SO can you give me this\Nantique jewelry for free!
+Dialogue: 0,0:23:38.76,0:23:40.46,Dialogue,,0,0,0,,Okay. mister?!
+Dialogue: 0,0:23:44.03,0:23:47.30,Dialogue,,0,0,0,,Are you guys really trying\Nto cheer him up or what...
+Dialogue: 0,0:23:47.47,0:23:49.47,Dialogue,,0,0,0,,Please. mister!!
+Dialogue: 0,0:23:57.85,0:24:00.12,Dialogue,,0,0,0,,Oh- this is just great!
+Dialogue: 0,0:24:05.62,0:24:07.46,Dialogue,,0,0,0,,Ranan;ambulance!
+Dialogue: 0,0:24:07.49,0:24:08.76,Dialogue,,0,0,0,,Callan ambulance!
+Dialogue: 0,0:24:08.86,0:24:09.63,Dialogue,,0,0,0,,Oh. okay!
+Dialogue: 0,0:24:09.86,0:24:11.03,Dialogue,,0,0,0,,Get the police too!
+Dialogue: 0,0:24:12.63,0:24:15.83,Dialogue,,0,0,0,,Stay away everybody\NDon't touch anything on the table!
+Dialogue: 0,0:24:15.83,0:24:21.54,Dialogue,,0,0,0,,Next Conan's:Hint\NMystery of the-Birthday.Wine"
