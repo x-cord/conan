@@ -36,8 +36,6 @@ Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0
 Style: Name,Century Gothic,35,&H00FFFFFF,&H000000FF,&H005E2D0A,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,5,15,15,15,1
 Style: ED_61_TL,Ubuntu,30,&H20FFFFFF,&H00FFFFFF,&H32FF1F95,&HC0000000,-1,0,0,0,100,100,0,0,1,3,0,2,0,0,5,1
 Style: Romaji OP,Calibri,56,&H00D0BDE9,&H00FFFFFF,&H007E2489,&H005E3804,-1,0,0,0,100,100,0,0,1,2.2,1.5,8,15,15,25,1
-Style: ED_61_Romaji,@A-OTF Shin Go Pro M,50,&H0013FEBA,&H00EFF5FB,&H004E5151,&HC0000000,-1,0,0,0,100,100,1,0,1,4,0,8,70,70,20,1
-Style: OP_51_Romaji,@A-OTF Shin Go Pro M,50,&H0017EFFE,&H00EFF5FB,&H00252525,&HC0000000,-1,0,0,0,100,100,0,0,1,4,0,8,50,50,20,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -53,22 +51,6 @@ Dialogue: 0,0:00:37.00,0:00:39.14,Narration Off,,0,0,0,,{\be10}The incident lurk
 Dialogue: 0,0:00:39.14,0:00:40.79,Narration Off,,0,0,0,,{\be10}He sees the single truth for what it is,
 Dialogue: 0,0:00:40.79,0:00:42.62,Narration Off,,0,0,0,,{\be10}and looks like a kid but has the mind of an adult!
 Dialogue: 0,0:00:42.62,0:00:44.81,Narration Off,,0,0,0,,{\be10}His name? Detective Conan!
-Dialogue: 0,0:00:44.81,0:00:46.77,OP_51_Romaji,,0,0,0,,{\be10}{\k14}Gim{\k15}me {\k24}Love {\k13}Gim{\k14}me {\k21}Love {\k20}ki{\k13}mi {\k17}wa {\k45}doubt
-Dialogue: 0,0:00:46.98,0:00:50.82,OP_51_Romaji,,0,0,0,,{\k12}hi{\k18}do{\k22}ku {\k30}chachi {\k23}na {\k29}kono {\k15}to{\k24}rikku {\k14}na{\k14}no{\k15}ni {\k28}mis{\k36}take {\k14}wa{\k20}na {\k12}ni {\k26}ochi{\k28}te
-Dialogue: 0,0:00:51.19,0:00:55.40,OP_51_Romaji,,0,0,0,,{\k12}mo{\k29}ga{\k15}ku {\k23}ho{\k33}do {\k26}o{\k27}bore{\k10}ru {\k55}dream {\k16}fu{\k13}ryo{\k22} no{\k32} kisu{\k25} wa{\k17} a{\k12}ma{\k15}ku{\k39}te
-Dialogue: 0,0:00:55.57,0:01:01.54,OP_51_Romaji,,0,0,0,,{\k12}u{\k13}ru{\k10}n{\k22}da {\k20}ki{\k12}mi {\k27}ga {\k19}ha{\k22}na{\k27}re{\k24}na{\k15}i {\k30}no {\k42}way {\k24}mu{\k13}ja{\k27}ki {\k28}ni {\k33}ka{\k12}ku{\k88}shi{\k76}ta
-Dialogue: 0,0:01:02.04,0:01:08.79,OP_51_Romaji,,0,0,0,,{\k39}your {\k40}way {\k30}do{\k9}ku {\k28}ga {\k27}ma{\k27}wa{\k83}ru {\k24}a{\k17}ma{\k18}i {\k33}mi{\k21}tsu {\k87}ni {\k22}ho{\k19}ne {\k16}ma{\k18}de {\k40}o{\k9}ka{\k44}sa{\k25}re
-Dialogue: 0,0:01:09.13,0:01:14.76,OP_51_Romaji,,0,0,0,,{\k18}bo{\k21}ku {\k16}ga {\k21}ko{\k38}wa{\k16}re{\k28}te{\k28}ku {\k20}na{\k7}n{\k22}te {\k23}so{\k36}u{\k20}te{\k27}i{\k42}ga{\k27}i {\k155}da
-Dialogue: 0,0:01:14.76,0:01:18.72,OP_51_Romaji,,0,0,0,,{\k17}ma{\k21}k{\k14}ka {\k13}na {\k25}Lip {\k30}no {\k16}gu{\k26}ra{\k9}de{\k11}e{\k24}sho{\k11}n {\k10}mi{\k27}wa{\k26}ku{\k21}te{\k15}ki {\k20}sho{\k15}u{\k30}ta{\k16}i
-Dialogue: 0,0:01:19.14,0:01:23.22,OP_51_Romaji,,0,0,0,,{\k17}ma{\k8}t{\k24}ta{\k10}ku {\k20}ka{\k10}i{\k14}do{\k17}ku {\k21}fu{\k10}no{\k6}u {\k14}na{\k12}n{\k28}da {\k10}ya{\k28}ba{\k23}i {\k23}ki{\k24}mi {\k18}no {\k20}sho{\k10}u{\k33}ta{\k9}i
-Dialogue: 0,0:01:23.52,0:01:27.19,OP_51_Romaji,,0,0,0,,{\k18}de{\k9}n{\k7}ko{\k14}u {\k33}se{\k9}k{\k7}ka {\k10}de {\k18}ha{\k26}ma{\k24}t{\k18}cha{\k10}t{\k12}te {\k27}no{\k27}ga{\k21}re{\k24}ra{\k24}re{\k29}nai
-Dialogue: 0,0:01:27.19,0:01:29.56,OP_51_Romaji,,0,0,0,,{\k10}ko{\k27}no {\k17}mu{\k26}ne {\k28}ga {\k11}ha{\k20}re{\k20}tsu {\k22}shi{\k45}so{\k12}u
-Dialogue: 0,0:01:32.07,0:01:36.07,OP_51_Romaji,,0,0,0,,{\k19}ma{\k17}k{\k18}ka {\k9}na {\k27}Lip {\k27}de {\k12}ba{\k31}re {\k24}ba{\k23}re {\k15}de{\k31}mo {\k25}da{\k16}ma{\k26}sa{\k27}re{\k37}ta{\k17}i
-Dialogue: 0,0:01:36.36,0:01:40.57,OP_51_Romaji,,0,0,0,,{\k28}cho{\k9}p{\k17}pi{\k12}ri {\k17}a{\k10}za{\k14}to{\k6}i {\k23}shi{\k18}gu{\k36}sa {\k25}mo {\k14}ze{\k26}n{\k26}bu {\k23}da{\k18}ki{\k29}shi{\k25}me{\k36}ta{\k9}i
-Dialogue: 0,0:01:40.78,0:01:46.79,OP_51_Romaji,,0,0,0,,{\k21}i{\k9}s{\k16}sa{\k11}i {\k12}ga{\k10}s{\k20}sa{\k12}i {\k15}i{\k21}to{\k30}shi{\k16}ku{\k12}te {\k21}ze{\k17}t{\k20}ta{\k10}i {\k12}ze{\k32}tsu{\k24}me{\k30}i {\k28}ki{\k24}mi {\k26}wo {\k25}mo{\k15}u {\k22}ha{\k13}na{\k32}sa{\k27}na{\k18}i
-Dialogue: 0,0:01:47.12,0:01:49.92,OP_51_Romaji,,0,0,0,,{\k16}so {\k28}I'm {\k28}go{\k23}ing {\k25}to {\k31}cra{\k29}zy {\k47}cra{\k52}zy!
-Dialogue: 0,0:01:50.21,0:01:58.72,OP_51_Romaji,,0,0,0,,{\k32}to{\k40}ke{\k40}te{\k83}ku {\k27}yu{\k25}me {\k44}no {\k38}na{\k108}ka {\k27}ko{\k43}no {\k38}ma{\k84}ma {\k24}i{\k28}tsu{\k41}ma{\k40}de{\k88}mo
-Dialogue: 0,0:01:59.30,0:02:02.47,OP_51_Romaji,,0,0,0,,{\k41}su{\k26}be{\k26}te {\k56}ki{\k51}mi {\k16}no{\k15} o{\k16}mo{\k10}i {\k18}do{\k11}o{\k31}ri
 Dialogue: 0,0:02:22.83,0:02:22.87,Signs,Title,0,0,0,,The Big Investigation of\Nthe Nine Doors
 Dialogue: 0,0:02:22.87,0:02:22.91,Signs,Title,0,0,0,,The Big Investigation of\Nthe Nine Doors
 Dialogue: 0,0:02:22.91,0:02:22.95,Signs,Title,0,0,0,,The Big Investigation of\Nthe Nine Doors
@@ -105,7 +87,7 @@ Dialogue: 0,0:03:41.74,0:03:45.12,Dialogue,,0,0,0,,If so, the one looking for he
 Dialogue: 0,0:03:47.08,0:03:50.41,Dialogue,,0,0,0,,There's lipstick on the S-hook.
 Dialogue: 0,0:03:51.75,0:03:53.87,Dialogue,,0,0,0,,She's right! There's lipstick on it!
 Dialogue: 0,0:03:54.67,0:03:57.25,Thoughts,,0,0,0,,{\be10}Hey, hey. You're getting carried away.
-Dialogue: 0,0:03:57.84,0:04:01.01,Dialogue,,0,0,0,,Mitsuhiko-{\i1}kun{\i0}, let me take a look at the ring.
+Dialogue: 0,0:03:57.84,0:04:01.01,Dialogue,,0,0,0,,Mitsuhiko{\rHonorifics - Dialogue}-kun{\r}, let me take a look at the ring.
 Dialogue: 0,0:04:02.72,0:04:04.43,Dialogue,,0,0,0,,This is a wedding ring!
 Dialogue: 0,0:04:04.43,0:04:06.01,Dialogue,,0,0,0,,Look... "M to A".
 Dialogue: 0,0:04:08.06,0:04:12.60,Dialogue,,0,0,0,,"March 21, 1999" is carved on it.
@@ -150,12 +132,12 @@ Dialogue: 0,0:06:11.30,0:06:12.11,Dialogue,,0,0,0,,This way!
 Dialogue: 0,0:06:12.82,0:06:13.95,Dialogue,,0,0,0,,Yeah!
 Dialogue: 0,0:06:16.20,0:06:18.35,Dialogue,,0,0,0,,He's pretty good, isn't he?
 Dialogue: 0,0:06:19.17,0:06:21.13,Dialogue,,0,0,0,,There's nothing to be amazed of.
-Dialogue: 0,0:06:23.05,0:06:25.10,Dialogue,,0,0,0,,Tsutomu Otake-{\i1}san{\i0}...
+Dialogue: 0,0:06:23.05,0:06:25.10,Dialogue,,0,0,0,,Tsutomu Otake{\rHonorifics - Dialogue}-san{\r}...
 Dialogue: 0,0:06:26.13,0:06:29.09,Dialogue,,0,0,0,,His first initial is {\c&HFFDD99&}T{\c}, for Tsutomu.
 Dialogue: 0,0:06:29.72,0:06:30.95,Dialogue,,0,0,0,,It's not this apartment.
 Dialogue: 0,0:06:31.66,0:06:35.03,Dialogue,,0,0,0,,All the apartments above this one should end in 5.
 Dialogue: 0,0:06:35.03,0:06:37.03,Dialogue,,0,0,0,,Let's split up and check the nameplates.
-Dialogue: 0,0:06:42.63,0:06:46.36,Dialogue,,0,0,0,,Haibara-{\i1}san{\i0} and Ayumi-{\i1}chan{\i0},\Ncheck the odd-numbered floors.
+Dialogue: 0,0:06:42.63,0:06:46.36,Dialogue,,0,0,0,,Haibara{\rHonorifics - Dialogue}-san{\r} and Ayumi{\rHonorifics - Dialogue}-chan{\r},\Ncheck the odd-numbered floors.
 Dialogue: 0,0:06:46.36,0:06:49.03,Dialogue,,0,0,0,,We'll go check the even-numbered floors.
 Dialogue: 0,0:06:49.03,0:06:50.42,Dialogue,,0,0,0,,You can count on us!
 Dialogue: 0,0:06:55.89,0:06:58.14,Dialogue,,0,0,0,,"Go-ju-kaze"...
@@ -177,7 +159,7 @@ Dialogue: 0,0:07:37.41,0:07:39.84,Dialogue,,0,0,0,,And all their initials were d
 Dialogue: 0,0:07:41.77,0:07:44.50,Dialogue,,0,0,0,,Akihiko and Misato Uehara...
 Dialogue: 0,0:07:45.26,0:07:46.40,Dialogue,,0,0,0,,{\c&HD3D567&}A{\c} and {\c&HAD77C4&}M{\c}.
 Dialogue: 0,0:07:46.75,0:07:49.45,Dialogue,,0,0,0,,Yay! Isn't this it?
-Dialogue: 0,0:07:49.45,0:07:54.78,Dialogue,,0,0,0,,{\a6}Genta-{\i1}kun{\i0}, we're looking for a husband with the initial {\c&HFFDD99&}M{\c} and a wife with the initial {\c&HDD99DD&}A{\c}.
+Dialogue: 0,0:07:49.45,0:07:54.78,Dialogue,,0,0,0,,{\a6}Genta{\rHonorifics - Dialogue}-kun{\r}, we're looking for a husband with the initial {\c&HFFDD99&}M{\c} and a wife with the initial {\c&HDD99DD&}A{\c}.
 Dialogue: 0,0:07:54.78,0:07:55.91,Dialogue,,0,0,0,,This is the opposite!
 Dialogue: 0,0:07:55.91,0:07:57.00,Dialogue,,0,0,0,,I see...
 Dialogue: 0,0:08:00.65,0:08:01.65,Dialogue,,0,0,0,,Look here!
@@ -191,7 +173,7 @@ Dialogue: 0,0:08:19.21,0:08:22.10,Dialogue,,0,0,0,,Out of the five, four only ha
 Dialogue: 0,0:08:23.00,0:08:26.74,Dialogue,,0,0,0,,Hey, maybe their names are written on the mailboxes outside.
 Dialogue: 0,0:08:26.74,0:08:29.86,Dialogue,,0,0,0,,Aha! Let's go check.
 Dialogue: 0,0:08:29.86,0:08:32.03,Dialogue,,0,0,0,,Good thinking, Ayumi!
-Dialogue: 0,0:08:32.03,0:08:34.43,Dialogue,,0,0,0,,Wait! Please stay here, Genta-{\i1}kun{\i0}.
+Dialogue: 0,0:08:32.03,0:08:34.43,Dialogue,,0,0,0,,Wait! Please stay here, Genta{\rHonorifics - Dialogue}-kun{\r}.
 Dialogue: 0,0:08:34.89,0:08:37.99,Dialogue,,0,0,0,,If we all go out, we won't be able to get back in.
 Dialogue: 0,0:08:37.99,0:08:40.25,Dialogue,,0,0,0,,You're no fun.
 Dialogue: 0,0:08:41.05,0:08:46.50,Dialogue,,0,0,0,,205 and 305 have only the last names written, after all.
@@ -213,8 +195,8 @@ Dialogue: 0,0:09:33.01,0:09:34.00,Dialogue,,0,0,0,,Here it is.
 Dialogue: 0,0:09:35.83,0:09:37.69,Dialogue,,0,0,0,,Masakazu Shima...
 Dialogue: 0,0:09:38.55,0:09:40.24,Dialogue,,0,0,0,,His first initial is {\c&HFFDD99&}M{\c}.
 Dialogue: 0,0:09:40.24,0:09:41.63,Dialogue,,0,0,0,,Yay!
-Dialogue: 0,0:09:41.63,0:09:45.24,Dialogue,,0,0,0,,So the possibilities now are\NMasakazu Shima-{\i1}san{\i0} in apartment 305
-Dialogue: 0,0:09:45.24,0:09:49.22,Dialogue,,0,0,0,,and Michihiro Ishida-{\i1}san{\i0} in 705.
+Dialogue: 0,0:09:41.63,0:09:45.24,Dialogue,,0,0,0,,So the possibilities now are\NMasakazu Shima{\rHonorifics - Dialogue}-san{\r} in apartment 305
+Dialogue: 0,0:09:45.24,0:09:49.22,Dialogue,,0,0,0,,and Michihiro Ishida{\rHonorifics - Dialogue}-san{\r} in 705.
 Dialogue: 0,0:09:49.22,0:09:51.79,Dialogue,,0,0,0,,But this is as far as we can check...
 Dialogue: 0,0:09:57.31,0:09:59.29,Dialogue,,0,0,0,,How about if we check the bicycles?
 Dialogue: 0,0:10:00.12,0:10:01.79,Dialogue,,0,0,0,,Good idea, Mitsuhiko!
@@ -225,12 +207,12 @@ Dialogue: 0,0:10:13.51,0:10:14.62,Dialogue,,0,0,0,,What's up?
 Dialogue: 0,0:10:14.62,0:10:16.89,Dialogue,,0,0,0,,It seems that you've gotten interested.
 Dialogue: 0,0:10:17.52,0:10:20.09,Dialogue,,0,0,0,,They're so serious about it...
 Dialogue: 0,0:10:20.76,0:10:21.86,Dialogue,,0,0,0,,Found it!
-Dialogue: 0,0:10:21.86,0:10:24.00,Dialogue,,0,0,0,,Shima-{\i1}san{\i0}'s bike! Look!
+Dialogue: 0,0:10:21.86,0:10:24.00,Dialogue,,0,0,0,,Shima{\rHonorifics - Dialogue}-san{\r}'s bike! Look!
 Dialogue: 0,0:10:26.39,0:10:27.85,Dialogue,,0,0,0,,Asuka...
 Dialogue: 0,0:10:27.85,0:10:29.41,Dialogue,,0,0,0,,Her initial is {\c&HDD99DD&}A{\c}!
 Dialogue: 0,0:10:30.14,0:10:32.72,Dialogue,,0,0,0,,Then, the husband's initial is {\c&HFFDD99&}M{\c}, and the wife's initial is {\c&HDD99DD&}A{\c}?
 Dialogue: 0,0:10:32.72,0:10:35.57,Dialogue,,0,0,0,,Bingo! We've finally found them!
-Dialogue: 0,0:10:35.57,0:10:39.48,Dialogue,,0,0,0,,But there's still Michihiro Ishida-{\i1}san{\i0} left.
+Dialogue: 0,0:10:35.57,0:10:39.48,Dialogue,,0,0,0,,But there's still Michihiro Ishida{\rHonorifics - Dialogue}-san{\r} left.
 Dialogue: 0,0:10:40.35,0:10:43.72,Dialogue,,0,0,0,,If it's just one family, I guess we could ask the neighbors.
 Dialogue: 0,0:10:48.70,0:10:50.41,Dialogue,,0,0,0,,I guess nobody's home...
 Dialogue: 0,0:10:50.41,0:10:52.27,Dialogue,,0,0,0,,If the neighbor's not in, let's try the apartment directly below.
@@ -242,18 +224,18 @@ Dialogue: 0,0:11:11.42,0:11:12.46,Dialogue,,0,0,0,,What is it?
 Dialogue: 0,0:11:13.22,0:11:17.41,Dialogue,,0,0,0,,We're doing research for our Japanese class...
 Dialogue: 0,0:11:17.41,0:11:19.27,Dialogue,,0,0,0,,What? I can't hear you well!
 Dialogue: 0,0:11:20.30,0:11:22.95,Dialogue,,0,0,0,,And we're checking on Japanese names in particular.
-Dialogue: 0,0:11:22.95,0:11:27.59,Dialogue,,0,0,0,,Do you happen to know the name of Ishida-{\i1}san{\i0}'s wife who lives above you?
+Dialogue: 0,0:11:22.95,0:11:27.59,Dialogue,,0,0,0,,Do you happen to know the name of Ishida{\rHonorifics - Dialogue}-san{\r}'s wife who lives above you?
 Dialogue: 0,0:11:27.59,0:11:30.93,Dialogue,,0,0,0,,How should I know the name of someone's wife who lives above me?!
 Dialogue: 0,0:11:35.46,0:11:37.35,Dialogue,,0,0,0,,What an awful woman...
 Dialogue: 0,0:11:38.40,0:11:39.70,Dialogue,,0,0,0,,If right below is no good...
 Dialogue: 0,0:11:39.70,0:11:40.81,Dialogue,,0,0,0,,Let's try right above, right?
-Dialogue: 0,0:11:42.27,0:11:44.25,Dialogue,,0,0,0,,Ishida-{\i1}san{\i0}'s wife's name?
-Dialogue: 0,0:11:44.96,0:11:47.70,Dialogue,,0,0,0,,It was Fumiko-{\i1}san{\i0}, wasn't it?
+Dialogue: 0,0:11:42.27,0:11:44.25,Dialogue,,0,0,0,,Ishida{\rHonorifics - Dialogue}-san{\r}'s wife's name?
+Dialogue: 0,0:11:44.96,0:11:47.70,Dialogue,,0,0,0,,It was Fumiko{\rHonorifics - Dialogue}-san{\r}, wasn't it?
 Dialogue: 0,0:11:47.70,0:11:50.13,Dialogue,,0,0,0,,{\a6}You spell it with the "bun" in "bunsho"...
 Dialogue: 0,0:11:50.88,0:11:53.72,Dialogue,,0,0,0,,{\a6}Once, a package meant for her was delivered here by mistake.
-Dialogue: 0,0:11:53.72,0:11:55.95,Dialogue,,0,0,0,,"Fumiko-{\i1}san{\i0}", that means...
+Dialogue: 0,0:11:53.72,0:11:55.95,Dialogue,,0,0,0,,"Fumiko{\rHonorifics - Dialogue}-san{\r}", that means...
 Dialogue: 0,0:11:55.95,0:11:57.77,Dialogue,,0,0,0,,Her first initial is {\c&HDD99DD&}F{\c}.
-Dialogue: 0,0:11:57.77,0:12:01.52,Dialogue,,0,0,0,,Her son is Yuta-{\i1}kun{\i0}. He's a smart kid.
+Dialogue: 0,0:11:57.77,0:12:01.52,Dialogue,,0,0,0,,Her son is Yuta{\rHonorifics - Dialogue}-kun{\r}. He's a smart kid.
 Dialogue: 0,0:12:01.52,0:12:05.68,Dialogue,,0,0,0,,But once he got locked in the closet and couldn't get out!
 Dialogue: 0,0:12:06.62,0:12:09.33,Dialogue,,0,0,0,,A closet... You mean the room to the extreme west?
 Dialogue: 0,0:12:09.33,0:12:10.46,Dialogue,,0,0,0,,Right, right!
@@ -266,14 +248,14 @@ Dialogue: 0,0:12:25.00,0:12:26.55,Dialogue,,0,0,0,,Yes, I'm sure they do.
 Dialogue: 0,0:12:27.41,0:12:29.55,Dialogue,,0,0,0,,It's a well-known story in this building.
 Dialogue: 0,0:12:30.85,0:12:32.42,Thoughts,,0,0,0,,{\be10}Oh, my God...
 Dialogue: 0,0:12:32.42,0:12:33.94,Thoughts,,0,0,0,,{\be10}It's been done before!
-Dialogue: 0,0:12:37.70,0:12:38.73,Dialogue,,0,0,0,,Conan-{\i1}kun{\i0}!
+Dialogue: 0,0:12:37.70,0:12:38.73,Dialogue,,0,0,0,,Conan{\rHonorifics - Dialogue}-kun{\r}!
 Dialogue: 0,0:12:39.26,0:12:41.21,Dialogue,,0,0,0,,What on earth is the matter?
 Dialogue: 0,0:12:41.21,0:12:42.86,Dialogue,,0,0,0,,We're going to the third floor.
 Dialogue: 0,0:12:42.86,0:12:44.93,Dialogue,,0,0,0,,Because the only ones with the initials {\c&HFFDD99&}M{\c} and {\c&HDD99DD&}A{\c}
 Dialogue: 0,0:12:44.93,0:12:47.79,Dialogue,,0,0,0,,are Masakazu Shima and\Nhis wife Asuka in apartment 305.
 Dialogue: 0,0:12:48.75,0:12:52.27,Dialogue,,0,0,0,,What's going on? You're suddenly so interested.
 Dialogue: 0,0:12:52.27,0:12:55.80,Dialogue,,0,0,0,,He's starting to think that there's something going on after talking to the lady.
-Dialogue: 0,0:13:03.35,0:13:06.19,Signs,,0,0,0,,Detective Conan Episode 182\NOriginally aired February 28, 2000\N \NTiming, editing, typesetting, encoding: Licca\NTranslation: Anonymous, Licca\NRe-Timing: Ruffy\N \NA Baaro Fansub
+Dialogue: 0,0:13:03.35,0:13:06.19,Signs,,0,0,0,,Detective Conan Episode 182\NOriginally aired February 28, 2000\N\NTiming, editing, typesetting, encoding: Licca\NTranslation: Anonymous, Licca\NRe-Timing: Ruffy\N\NA Baaro Fansub
 Dialogue: 0,0:13:18.48,0:13:19.36,Dialogue,,0,0,0,,What?
 Dialogue: 0,0:13:19.77,0:13:20.32,Dialogue,,0,0,0,,Hide!
 Dialogue: 0,0:13:33.79,0:13:35.29,Dialogue,,0,0,0,,Robbers!
@@ -284,7 +266,7 @@ Dialogue: 0,0:13:42.46,0:13:44.09,Dialogue,,0,0,0,,Why did you kill?
 Dialogue: 0,0:13:44.09,0:13:44.92,Dialogue,,0,0,0,,Shut up.
 Dialogue: 0,0:13:45.88,0:13:46.97,Dialogue,,0,0,0,,Kill?!
 Dialogue: 0,0:13:46.97,0:13:48.76,Dialogue,,0,0,0,,Damn! We're too late.
-Dialogue: 0,0:13:49.22,0:13:51.10,Dialogue,,0,0,0,,What do we do, Conan-{\i1}kun{\i0}?
+Dialogue: 0,0:13:49.22,0:13:51.10,Dialogue,,0,0,0,,What do we do, Conan{\rHonorifics - Dialogue}-kun{\r}?
 Dialogue: 0,0:13:51.10,0:13:52.51,Dialogue,,0,0,0,,Let's call the police!
 Dialogue: 0,0:13:54.18,0:13:55.31,Dialogue,,0,0,0,,Hurry!
 Dialogue: 0,0:13:55.31,0:13:58.06,Dialogue,,0,0,0,,Let's get outside before they get into the elevator!
@@ -305,7 +287,7 @@ Dialogue: 0,0:14:48.98,0:14:50.57,Dialogue,,0,0,0,,What on earth is this about?!
 Dialogue: 0,0:14:50.57,0:14:52.15,Dialogue,,0,0,0,,Freeze!
 Dialogue: 0,0:14:52.86,0:14:54.24,Dialogue,,0,0,0,,You kids go outside.
 Dialogue: 0,0:14:54.99,0:14:58.33,Dialogue,,0,0,0,,Anyway, please check in apartment 305!
-Dialogue: 0,0:14:58.33,0:15:00.71,Dialogue,,0,0,0,,The dead body of Asuka Shima-{\i1}san{\i0} should be there!
+Dialogue: 0,0:14:58.33,0:15:00.71,Dialogue,,0,0,0,,The dead body of Asuka Shima{\rHonorifics - Dialogue}-san{\r} should be there!
 Dialogue: 0,0:15:00.71,0:15:01.83,Dialogue,,0,0,0,,Dead body?
 Dialogue: 0,0:15:01.83,0:15:03.39,Dialogue,,0,0,0,,What are you talking about?!
 Dialogue: 0,0:15:03.39,0:15:05.62,Dialogue,,0,0,0,,There's no such dead body!
@@ -339,7 +321,7 @@ Dialogue: 0,0:16:30.89,0:16:31.72,Thoughts,,0,0,0,,{\be10}I wonder what it is...
 Dialogue: 0,0:16:32.72,0:16:33.60,Dialogue,,0,0,0,,Hey.
 Dialogue: 0,0:16:33.60,0:16:38.23,Dialogue,,0,0,0,,Maybe the person in apartment 705 isn't Fumiko, but Ayako?
 Dialogue: 0,0:16:39.06,0:16:42.27,Dialogue,,0,0,0,,Right! If it's Ayako, her first initial is {\c&HDD99DD&}A{\c}!
-Dialogue: 0,0:16:49.74,0:16:52.95,Dialogue,,0,0,0,,We were lucky to find meat so cheap, weren't we, Fumiko-{\i1}san{\i0}?
+Dialogue: 0,0:16:49.74,0:16:52.95,Dialogue,,0,0,0,,We were lucky to find meat so cheap, weren't we, Fumiko{\rHonorifics - Dialogue}-san{\r}?
 Dialogue: 0,0:16:52.95,0:16:54.70,Dialogue,,0,0,0,,We sure were, Mother.
 Dialogue: 0,0:16:55.29,0:16:57.41,Dialogue,,0,0,0,,It {\i1}was{\i0} Fumiko.
 Dialogue: 0,0:16:57.41,0:16:59.12,Dialogue,,0,0,0,,So they're safe.
@@ -349,8 +331,8 @@ Dialogue: 0,0:17:18.31,0:17:20.73,Dialogue,,0,0,0,,Hurry up, Yuta.
 Dialogue: 0,0:17:21.98,0:17:24.48,Dialogue,,0,0,0,,What a skinny mother.
 Dialogue: 0,0:17:24.48,0:17:29.28,Dialogue,,0,0,0,,My mom's so overweight she's wearing Dad's T-shirts.
 Dialogue: 0,0:17:29.28,0:17:30.45,Thoughts,,0,0,0,,{\be10}Overweight?
-Dialogue: 0,0:17:31.36,0:17:33.53,Dialogue,,0,0,0,,Ayumi-{\i1}chan{\i0}, let me see the ring.
-Dialogue: 0,0:17:35.45,0:17:36.62,Dialogue,,0,0,0,,Uh, Conan-{\i1}kun{\i0}!
+Dialogue: 0,0:17:31.36,0:17:33.53,Dialogue,,0,0,0,,Ayumi{\rHonorifics - Dialogue}-chan{\r}, let me see the ring.
+Dialogue: 0,0:17:35.45,0:17:36.62,Dialogue,,0,0,0,,Uh, Conan{\rHonorifics - Dialogue}-kun{\r}!
 Dialogue: 0,0:17:38.41,0:17:40.41,Dialogue,,0,0,0,,What's with him?!
 Dialogue: 0,0:17:42.29,0:17:43.92,Dialogue,,0,0,0,,Hey, Conan!
 Dialogue: 0,0:17:43.92,0:17:46.17,Dialogue,,0,0,0,,What's up?!
@@ -360,8 +342,8 @@ Dialogue: 0,0:18:05.23,0:18:07.82,Dialogue,,0,0,0,,You again? What is it this ti
 Dialogue: 0,0:18:09.82,0:18:12.24,Dialogue,,0,0,0,,H-Hey! What's with you?!
 Dialogue: 0,0:18:12.82,0:18:16.95,Thoughts,,0,0,0,,{\be10}This is what was bothering me after all!
 Dialogue: 0,0:18:17.74,0:18:20.62,Dialogue,,0,0,0,,Hey, get out of here, will you?!
-Dialogue: 0,0:18:20.62,0:18:23.75,Dialogue,,0,0,0,,Are you Akihiko Uehara-{\i1}san{\i0}'s wife?
-Dialogue: 0,0:18:24.75,0:18:26.50,Dialogue,,0,0,0,,Is your name Misato-{\i1}san{\i0}?
+Dialogue: 0,0:18:20.62,0:18:23.75,Dialogue,,0,0,0,,Are you Akihiko Uehara{\rHonorifics - Dialogue}-san{\r}'s wife?
+Dialogue: 0,0:18:24.75,0:18:26.50,Dialogue,,0,0,0,,Is your name Misato{\rHonorifics - Dialogue}-san{\r}?
 Dialogue: 0,0:18:27.17,0:18:28.84,Dialogue,,0,0,0,,Y-Yes...
 Dialogue: 0,0:18:28.84,0:18:31.17,Dialogue,,0,0,0,,Then this is yours, right?
 Dialogue: 0,0:18:31.17,0:18:33.68,Dialogue,,0,0,0,,I picked it up in front of the door a while ago.
@@ -370,53 +352,44 @@ Dialogue: 0,0:18:39.22,0:18:40.39,Dialogue,,0,0,0,,Try it on.
 Dialogue: 0,0:18:48.94,0:18:52.82,Dialogue,,0,0,0,,Take a good look at the ring, lady.
 Dialogue: 0,0:18:52.82,0:18:55.53,Dialogue,,0,0,0,,The initials "M to A" are carved on it.
 Dialogue: 0,0:18:57.12,0:18:58.74,Dialogue,,0,0,0,,From M to A...
-Dialogue: 0,0:18:58.74,0:19:00.95,Dialogue,,0,0,0,,From Misato-{\i1}san{\i0} to Akihiko-{\i1}san{\i0}.
-Dialogue: 0,0:19:01.74,0:19:05.67,Dialogue,,0,0,0,,Yes. That's actually Akihiko-{\i1}san{\i0}'s ring.
-Dialogue: 0,0:19:06.46,0:19:08.88,Dialogue,,0,0,0,,But Misato-{\i1}san{\i0} was wearing it.
+Dialogue: 0,0:18:58.74,0:19:00.95,Dialogue,,0,0,0,,From Misato{\rHonorifics - Dialogue}-san{\r} to Akihiko{\rHonorifics - Dialogue}-san{\r}.
+Dialogue: 0,0:19:01.74,0:19:05.67,Dialogue,,0,0,0,,Yes. That's actually Akihiko{\rHonorifics - Dialogue}-san{\r}'s ring.
+Dialogue: 0,0:19:06.46,0:19:08.88,Dialogue,,0,0,0,,But Misato{\rHonorifics - Dialogue}-san{\r} was wearing it.
 Dialogue: 0,0:19:08.88,0:19:11.67,Dialogue,,0,0,0,,That's why it was hard to tell.
-Dialogue: 0,0:19:11.67,0:19:16.13,Dialogue,,0,0,0,,The neighbors said that Misato-{\i1}san{\i0} had recently gained weight.
-Dialogue: 0,0:19:17.01,0:19:21.51,Dialogue,,0,0,0,,Not being able to wear her own ring, she probably wore Akihiko-{\i1}san{\i0}'s instead.
+Dialogue: 0,0:19:11.67,0:19:16.13,Dialogue,,0,0,0,,The neighbors said that Misato{\rHonorifics - Dialogue}-san{\r} had recently gained weight.
+Dialogue: 0,0:19:17.01,0:19:21.51,Dialogue,,0,0,0,,Not being able to wear her own ring, she probably wore Akihiko{\rHonorifics - Dialogue}-san{\r}'s instead.
 Dialogue: 0,0:19:22.56,0:19:26.94,Dialogue,,0,0,0,,Because many Japanese men don't wear rings, even after getting married.
-Dialogue: 0,0:19:26.94,0:19:31.52,Dialogue,,0,0,0,,And besides, I think Akihiko-{\i1}san{\i0} has slender fingers for a man.
+Dialogue: 0,0:19:26.94,0:19:31.52,Dialogue,,0,0,0,,And besides, I think Akihiko{\rHonorifics - Dialogue}-san{\r} has slender fingers for a man.
 Dialogue: 0,0:19:34.19,0:19:36.11,Dialogue,,0,0,0,,What are you trying to say?
 Dialogue: 0,0:19:36.82,0:19:41.49,Dialogue,,0,0,0,,Aren't those shoes a little too small for you?
 Dialogue: 0,0:19:43.33,0:19:45.58,Dialogue,,0,0,0,,And your point is?
 Dialogue: 0,0:19:48.25,0:19:50.00,Dialogue,,0,0,0,,What I want to say...
-Dialogue: 0,0:19:50.00,0:19:52.71,Dialogue,,0,0,0,,is that you're not Misato-{\i1}san{\i0}, but an impostor.
+Dialogue: 0,0:19:50.00,0:19:52.71,Dialogue,,0,0,0,,is that you're not Misato{\rHonorifics - Dialogue}-san{\r}, but an impostor.
 Dialogue: 0,0:19:54.80,0:19:55.67,Dialogue,,0,0,0,,If I am...
 Dialogue: 0,0:19:56.59,0:19:58.34,Dialogue,,0,0,0,,So what?!
 Dialogue: 0,0:20:11.40,0:20:12.73,Dialogue,,0,0,0,,That was close.
-Dialogue: 0,0:20:27.41,0:20:29.46,Dialogue,,0,0,0,,You're Misato Uehara-{\i1}san{\i0}, right?
+Dialogue: 0,0:20:27.41,0:20:29.46,Dialogue,,0,0,0,,You're Misato Uehara{\rHonorifics - Dialogue}-san{\r}, right?
 Dialogue: 0,0:20:29.46,0:20:31.38,Dialogue,,0,0,0,,Yes. And you?
 Dialogue: 0,0:20:31.38,0:20:34.92,Dialogue,,0,0,0,,Me? I'm Conan Edogawa, a detective.
-Dialogue: 0,0:20:44.51,0:20:50.85,ED_61_Romaji,,0,0,0,,{\k262}why {\k27}a{\k17}na{\k34}ta {\k23}no {\k61}ko{\k37}to {\k24}wo {\k35}o{\k31}mo{\k17}u {\k66}to
-Dialogue: 0,0:20:51.89,0:20:57.94,ED_61_Romaji,,0,0,0,,{\k34}Mu{\k14}na{\k39}sa{\k30}wa{\k18}gi {\k45}ga {\k42}su{\k35}ru {\k29}ka{\k96}ze {\k32}ga {\k62}fu{\k60}ku {\k70}no
-Dialogue: 0,0:20:58.23,0:21:04.45,ED_61_Romaji,,0,0,0,,{\k38}Ko{\k19}n{\k29}na {\k40}sa{\k24}bi{\k48}shi{\k53}i {\k35}ha{\k64}na {\k30}da{\k29}ka{\k212}ra
-Dialogue: 0,0:21:07.28,0:21:16.67,ED_61_Romaji,,0,0,0,,{\k99}Aa {\k41}ko{\k91}n{\k32}do {\k32}ko{\k92}so {\k88}wa {\k42}sa{\k92}i{\k32}go {\k96}ka{\k19}mo{\k60}shi{\k47}re{\k36}na{\k39}i
-Dialogue: 0,0:21:16.92,0:21:24.55,ED_61_Romaji,,0,0,0,,{\k42}I{\k17}tsu {\k16}ka{\k17}ra {\k50}ko{\k14}n{\k16}na {\k103}ni {\k15}Su{\k21}re{\k33}chi{\k31}ga{\k12}u {\k38}you {\k43}ni {\k32}nat{\k29}tan{\k19}da{\k215}rou
-Dialogue: 0,0:21:25.97,0:21:35.60,ED_61_Romaji,,0,0,0,,{\k69}Su{\k27}ko{\k28}shi {\k38}zu{\k86}tsu {\k43}su{\k49}ko{\k41}shi {\k36}zu{\k94}tsu {\k34}na{\k29}ni{\k32}ka {\k36}ga {\k28}he{\k90}n{\k16}ka {\k50}shi{\k30}te{\k41}i{\k16}t{\k51}te
-Dialogue: 0,0:21:35.98,0:21:41.65,ED_61_Romaji,,0,0,0,,{\k51}A{\k29}na{\k34}ta {\k31}mo {\k31}ma{\k94}wa{\k27}ri {\k65}mo {\k63}ka{\k110}wa{\k17}t{\k15}te
-Dialogue: 0,0:21:41.90,0:21:46.15,ED_61_Romaji,,0,0,0,,{\k53}Wa{\k22}ta{\k42}shi {\k22}no {\k44}se{\k29}i {\k34}na{\k30}no{\k51}ka{\k13}t{\k86}te
-Dialogue: 0,0:21:46.65,0:21:57.75,ED_61_Romaji,,0,0,0,,{\k53}{\fad(0,1000)}Ko{\k27}n{\k37}na {\k31}ni {\k35}da{\k27}i{\k32}ji {\k62}na {\k63}hi{\k123}to {\k98}na{\k32}no{\k489}ni
 Dialogue: 0,0:20:44.51,0:20:50.85,ED_61_TL,,0,0,0,,Why is it that, when I think about you
 Dialogue: 0,0:20:51.89,0:20:57.94,ED_61_TL,,0,0,0,,I am filled with uneasiness?
 Dialogue: 0,0:20:58.23,0:21:04.45,ED_61_TL,,0,0,0,,It is because of the wind blowing at such a lonely flower
 Dialogue: 0,0:21:07.28,0:21:16.67,ED_61_TL,,0,0,0,,Ah, it might really be the end for sure this time
 Dialogue: 0,0:21:16.92,0:21:19.63,ED_61_TL,,0,0,0,,Since when did it become like this
 Dialogue: 0,0:21:19.63,0:21:24.55,ED_61_TL,,0,0,0,,Where we would just miss each other?
-Dialogue: 0,0:21:25.97,0:21:35.60,ED_61_TL,,0,0,0,,Little by little, little by little, things are changing for some reason
-Dialogue: 0,0:21:35.98,0:21:41.65,ED_61_TL,,0,0,0,,You have changed, and so has the surroundings
+Dialogue: 0,0:21:25.97,0:21:35.60,ED_61_TL,,0,0,0,,Little by little, little by little, things are{\rHonorifics - ED_61_TL} chan{\r}ging for some reason
+Dialogue: 0,0:21:35.98,0:21:41.65,ED_61_TL,,0,0,0,,You have{\rHonorifics - ED_61_TL} chan{\r}ged, and so has the surroundings
 Dialogue: 0,0:21:41.90,0:21:46.15,ED_61_TL,,0,0,0,,Am I the cause for these?
 Dialogue: 0,0:21:46.65,0:21:56.66,ED_61_TL,,0,0,0,,{\fad(0,1000)}Even though you are such a precious person to me
 Dialogue: 0,0:21:58.92,0:22:01.04,Narration Off,,0,0,0,,{\be10}Her name is Ikuyo Hasegawa.
-Dialogue: 0,0:22:02.00,0:22:05.30,Narration Off,,0,0,0,,{\be10}She used to work with Misato Uehara-{\i1}san{\i0}'s husband Akihiko-{\i1}san{\i0}.
-Dialogue: 0,0:22:06.17,0:22:09.34,Narration Off,,0,0,0,,{\be10}She was fired when Akihiko-{\i1}san{\i0} found that she had embezzled money from the company.
+Dialogue: 0,0:22:02.00,0:22:05.30,Narration Off,,0,0,0,,{\be10}She used to work with Misato Uehara{\rHonorifics - Narration Off}-san{\r}'s husband Akihiko{\rHonorifics - Narration Off}-san{\r}.
+Dialogue: 0,0:22:06.17,0:22:09.34,Narration Off,,0,0,0,,{\be10}She was fired when Akihiko{\rHonorifics - Narration Off}-san{\r} found that she had embezzled money from the company.
 Dialogue: 0,0:22:09.34,0:22:11.35,Narration Off,,0,0,0,,{\be10}She had committed the crime out of hatred.
-Dialogue: 0,0:22:12.81,0:22:16.27,Narration Off,,0,0,0,,{\be10}She visited the building in order to kill Akihiko-{\i1}san{\i0}.
-Dialogue: 0,0:22:17.23,0:22:21.52,Narration Off,,0,0,0,,{\be10}When Misato-{\i1}san{\i0} answered the door, she drugged her to sleep
+Dialogue: 0,0:22:12.81,0:22:16.27,Narration Off,,0,0,0,,{\be10}She visited the building in order to kill Akihiko{\rHonorifics - Narration Off}-san{\r}.
+Dialogue: 0,0:22:17.23,0:22:21.52,Narration Off,,0,0,0,,{\be10}When Misato{\rHonorifics - Narration Off}-san{\r} answered the door, she drugged her to sleep
 Dialogue: 0,0:22:21.52,0:22:23.82,Narration Off,,0,0,0,,{\be10}and locked her in the closet.
 Dialogue: 0,0:22:23.82,0:22:26.78,Narration Off,,0,0,0,,{\be10}When she came to a while later,
-Dialogue: 0,0:22:26.78,0:22:29.28,Narration Off,,0,0,0,,{\be10}Misato-{\i1}san{\i0} connected the ring to the S-hooks
+Dialogue: 0,0:22:26.78,0:22:29.28,Narration Off,,0,0,0,,{\be10}Misato{\rHonorifics - Narration Off}-san{\r} connected the ring to the S-hooks
 Dialogue: 0,0:22:29.28,0:22:31.37,Narration Off,,0,0,0,,{\be10}and threw it out the window, hoping to get help.
 Dialogue: 0,0:22:33.08,0:22:34.24,Narration Off,,0,0,0,,{\be10}But right after that,
 Dialogue: 0,0:22:35.29,0:22:38.41,Narration Off,,0,0,0,,{\be10}she came to check on her, closed the window,
@@ -424,7 +397,7 @@ Dialogue: 0,0:22:38.41,0:22:40.83,Narration Off,,0,0,0,,{\be10}and drugged her t
 Dialogue: 0,0:22:41.96,0:22:44.00,Dialogue,,0,0,0,,Good work!
 Dialogue: 0,0:22:44.75,0:22:46.84,Dialogue,,0,0,0,,Take care on your way home.
 Dialogue: 0,0:22:46.84,0:22:47.55,Dialogue,,0,0,0,,Yes, sir!
-Dialogue: 0,0:22:50.97,0:22:52.76,Dialogue,,0,0,0,,No fair, Conan-{\i1}kun{\i0}!
+Dialogue: 0,0:22:50.97,0:22:52.76,Dialogue,,0,0,0,,No fair, Conan{\rHonorifics - Dialogue}-kun{\r}!
 Dialogue: 0,0:22:52.76,0:22:55.56,Dialogue,,0,0,0,,She's right! Taking the best part for yourself...
 Dialogue: 0,0:22:55.56,0:22:57.56,Dialogue,,0,0,0,,You get me so mad!
 Dialogue: 0,0:22:57.56,0:23:00.60,Dialogue,,0,0,0,,As punishment, you hold all this!
