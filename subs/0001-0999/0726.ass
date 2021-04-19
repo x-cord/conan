@@ -51,10 +51,10 @@ Style: AitakuteRomaji,AlaskanNightsM,52,&H60DB9572,&H000000FF,&H00FFFFFF,&HC02F2
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:05.42,0:00:06.56,Dialogue,,0,0,0,,{\a6}Dad!
-Dialogue: 0,0:00:07.27,0:00:09.30,Dialogue,,0,0,0,,{\a6}Is this really the right way?
-Dialogue: 0,0:00:09.30,0:00:09.98,Dialogue,,0,0,0,,{\a6}Yeah.
-Dialogue: 0,0:00:09.98,0:00:12.40,Dialogue,,0,0,0,,{\a6}We're not lost, are we?
+Dialogue: 0,0:00:05.42,0:00:06.56,Dialogue Top,,0,0,0,,Dad!
+Dialogue: 0,0:00:07.27,0:00:09.30,Dialogue Top,,0,0,0,,Is this really the right way?
+Dialogue: 0,0:00:09.30,0:00:09.98,Dialogue Top,,0,0,0,,Yeah.
+Dialogue: 0,0:00:09.98,0:00:12.40,Dialogue Top,,0,0,0,,We're not lost, are we?
 Dialogue: 0,0:00:13.00,0:00:14.13,Dialogue,,0,0,0,,Quiet!
 Dialogue: 0,0:00:14.13,0:00:17.28,Dialogue,,0,0,0,,All these country lanes are too dark anyway!
 Dialogue: 0,0:00:19.49,0:00:20.50,Dialogue,,0,0,0,,Dad, look in front!{***}
@@ -65,19 +65,18 @@ Dialogue: 0,0:00:33.79,0:00:35.39,Dialogue,,0,0,0,,Uncle, over there!
 Dialogue: 0,0:00:43.12,0:00:44.94,Dialogue,,0,0,0,,No good. She's dead.
 Dialogue: 0,0:00:48.01,0:00:49.02,Dialogue,,0,0,0,,What's this?
 Dialogue: 0,0:00:51.49,0:00:52.96,Dialogue,,0,0,0,,A dying message!
-Dialogue: 0,0:01:07.13,0:01:11.05,BCPrologue,,0,0,0,,{\blur3}{\fad(200,0)}Only the light of deductions can tear apart black shadows and deep darkness!
+Dialogue: 0,0:01:07.13,0:01:11.05,BCPrologue,,0,0,0,,{\blur3\fad(200,0)}Only the light of deductions can tear apart black shadows and deep darkness!
 Dialogue: 0,0:01:11.05,0:01:12.28,BCPrologue,,0,0,0,,{\blur3}An e-mail brings about an unexpected reaction.
 Dialogue: 0,0:01:12.28,0:01:14.82,BCPrologue,,0,0,0,,{\blur3}Let's expose the whole truth behind the alibi trick!
 Dialogue: 0,0:01:14.82,0:01:16.16,BCPrologue,,0,0,0,,{\blur3}He sees the single truth for what it is,
 Dialogue: 0,0:01:16.16,0:01:18.33,BCPrologue,,0,0,0,,{\blur3}and looks like a kid but has the mind of an adult!
-Dialogue: 0,0:01:18.33,0:01:20.58,BCPrologue,,0,0,0,,{\blur3}{\fad(0,200)}His name? Detective Conan!
-Comment: 0,0:02:40.03,0:02:45.79,Dialogue,,0,0,0,,A HAPPY E-MAIL BRINGS SADNESS
+Dialogue: 0,0:01:18.33,0:01:20.58,BCPrologue,,0,0,0,,{\blur3\fad(0,200)}His name? Detective Conan!
 Dialogue: 0,0:02:49.88,0:02:53.88,Dialogue,,0,0,0,,Let's see... The victim is Nana Hirose{\rHonorifics - Dialogue}-san{\r}, 27.
 Dialogue: 0,0:02:54.26,0:02:57.17,Dialogue,,0,0,0,,She was a door-to-door insurance saleswoman who lived nearby.
 Dialogue: 0,0:02:57.17,0:03:02.14,Dialogue,,0,0,0,,It looks like she was attacked when passing through this park after work.
-Dialogue: 0,0:03:02.46,0:03:05.51,Dialogue,,0,0,0,,{\a6Nana Hirose (27)\NDoor-to-door Insurance Saleswoman\N}She was strangled, and suffocated.
+Dialogue: 0,0:03:02.46,0:03:05.51,Dialogue Top,,0,0,0,,{Nana Hirose (27)\NDoor-to-door Insurance Saleswoman\N}She was strangled, and suffocated.
 Dialogue: 0,0:03:02.39,0:03:06.94,Signs,,0,0,0,,Nana Hirose (27)\NDoor-to-door Saleswoman
-Dialogue: 0,0:03:05.51,0:03:09.94,Dialogue,,0,0,0,,{\a6}The killer strangled her over and over again to make sure she was dead.
+Dialogue: 0,0:03:05.51,0:03:09.94,Dialogue Top,,0,0,0,,The killer strangled her over and over again to make sure she was dead.
 Dialogue: 0,0:03:10.38,0:03:13.87,Dialogue,,0,0,0,,They left lots of marks on her neck from doing so.
 Dialogue: 0,0:03:13.87,0:03:16.03,Dialogue,,0,0,0,,What's the estimated time of death?
 Dialogue: 0,0:03:16.03,0:03:19.99,Dialogue,,0,0,0,,Oh, between 10:00 and 10:30.
@@ -87,9 +86,9 @@ Dialogue: 0,0:03:26.06,0:03:28.12,Dialogue,,0,0,0,,Sorry, we didn't.
 Dialogue: 0,0:03:28.12,0:03:31.00,Dialogue,,0,0,0,,If we had, we'd have told you already!
 Dialogue: 0,0:03:31.00,0:03:37.61,Dialogue,,0,0,0,,I guess. But don't worry! The victim left us a dying message!
 Dialogue: 0,0:03:38.59,0:03:42.05,Dialogue,,0,0,0,,The culprit's name begins with 'na'.
-Dialogue: 0,0:03:38.59,0:03:42.05,Signs,,0,0,0,,ナ
+Dialogue: 0,0:03:38.59,0:03:42.05,Thoughts,,0,0,0,,{\be10}ナ
 Dialogue: 0,0:03:43.82,0:03:47.03,Dialogue,,0,0,0,,Oh! The victim's name was 'Nana'!
-Dialogue: 0,0:03:43.82,0:03:47.03,Signs,,0,0,0,,ナナ
+Dialogue: 0,0:03:43.82,0:03:47.03,Thoughts,,0,0,0,,{\be10}ナナ
 Dialogue: 0,0:03:47.03,0:03:51.51,Dialogue,,0,0,0,,I get it! She murdered herself! So it was suicide.
 Dialogue: 0,0:03:51.51,0:03:54.36,Dialogue,,0,0,0,,She probably had a split personality.
 Dialogue: 0,0:03:55.65,0:03:59.86,Thoughts,,0,0,0,,{\be10}Still, something seems odd about it.
@@ -107,8 +106,8 @@ Dialogue: 0,0:04:27.95,0:04:28.80,Dialogue,,0,0,0,,Nana!
 Dialogue: 0,0:04:29.56,0:04:33.31,Dialogue,,0,0,0,,Nana! Let go of me! Nana!!
 Dialogue: 0,0:04:33.78,0:04:34.91,Dialogue,,0,0,0,,Who's he?
 Dialogue: 0,0:04:34.91,0:04:37.23,Dialogue,,0,0,0,,Who knows. But he seems to know the victim.
-Dialogue: 0,0:04:43.19,0:04:48.25,Dialogue,,10,10,0,,{\a6}My name is Osamu Samon. I'm a primary school teacher.
-Dialogue: 0,0:04:43.19,0:04:48.25,Signs,,10,10,0,,左門治
+Dialogue: 0,0:04:43.19,0:04:48.25,Dialogue Top,,10,10,0,,My name is Osamu Samon. I'm a primary school teacher.
+Dialogue: 0,0:04:43.19,0:04:48.25,Thoughts,,10,10,0,,{\be10}左門治
 Dialogue: 0,0:04:42.74,0:04:48.25,Signs,,0,0,0,,Osamu Samon (27)\NPrimary School Teacher
 Dialogue: 0,0:04:48.25,0:04:51.30,Dialogue,,0,0,0,,And how did you know Hirose{\rHonorifics - Dialogue}-san{\r}, the victim?
 Dialogue: 0,0:04:51.30,0:04:52.37,Dialogue,,0,0,0,,Well...
@@ -116,7 +115,6 @@ Dialogue: 0,0:04:53.20,0:04:56.38,Dialogue,,0,0,0,,We were engaged.
 Dialogue: 0,0:04:56.68,0:04:58.05,Dialogue,,0,0,0,,I see.
 Dialogue: 0,0:04:58.05,0:05:02.23,Dialogue,,0,0,0,,Then has she seemed different to you lately?
 Dialogue: 0,0:05:02.23,0:05:10.68,Dialogue,,0,0,0,,Actually, we were supposed to have dinner together tonight, but then she sent me this e-mail...
-Dialogue: 0,0:05:10.68,0:05:16.15,Signs,,0,0,0,,.
 Dialogue: 0,0:05:11.12,0:05:12.72,Dialogue,,0,0,0,,I'll be a bit late.
 Dialogue: 0,0:05:12.72,0:05:15.14,Dialogue,,0,0,0,,Talking with Migita in the park.
 Dialogue: 0,0:05:15.14,0:05:16.15,Dialogue,,0,0,0,,Nana.
@@ -129,13 +127,13 @@ Dialogue: 0,0:05:33.40,0:05:35.92,Dialogue,,0,0,0,,So maybe he...
 Dialogue: 0,0:05:37.34,0:05:39.34,Dialogue,,0,0,0,,I see! I've got it!
 Dialogue: 0,0:05:39.65,0:05:40.57,Dialogue,,0,0,0,,Samon{\rHonorifics - Dialogue}-san{\r}!
 Dialogue: 0,0:05:40.57,0:05:43.26,Dialogue,,0,0,0,,That's Migita written with the 'migi' of 'migi-hidari'
-Dialogue: 0,0:05:40.57,0:05:43.26,Signs,,0,0,0,,右左
+Dialogue: 0,0:05:40.57,0:05:43.26,Thoughts,,0,0,0,,{\be10}右左
 Dialogue: 0,0:05:43.26,0:05:46.14,Dialogue,,0,0,0,,and the 'ta' of 'tambo', right?
-Dialogue: 0,0:05:43.26,0:05:46.14,Signs,,0,0,0,,田んぼ
+Dialogue: 0,0:05:43.26,0:05:46.14,Thoughts,,0,0,0,,{\be10}田んぼ
 Dialogue: 0,0:05:46.14,0:05:48.76,Dialogue,,0,0,0,,Y-Yes, that's right.
 Dialogue: 0,0:05:49.07,0:05:52.62,Dialogue,,0,0,0,,So she didn't write a katakana 'na'.
-Dialogue: 0,0:05:49.07,0:05:52.62,Signs,,0,0,0,,ナ
-Dialogue: 0,0:05:53.52,0:05:57.82,Signs,,0,0,0,,右
+Dialogue: 0,0:05:49.07,0:05:52.62,Thoughts,,0,0,0,,{\be10}ナ
+Dialogue: 0,0:05:53.52,0:05:57.82,Thoughts,,0,0,0,,{\be10}右
 Dialogue: 0,0:05:53.52,0:05:57.82,Dialogue,,0,0,0,,She was trying to write the 'migi' kanji and ran out of strength.
 Dialogue: 0,0:05:58.40,0:06:01.39,Dialogue,,0,0,0,,I see! Great work, Mouri{\rHonorifics - Dialogue}-san{\r}!
 Dialogue: 0,0:06:05.91,0:06:08.84,Dialogue,,0,0,0,,Anyway, let's go and see Migita.
@@ -155,12 +153,12 @@ Dialogue: 0,0:06:41.59,0:06:44.78,Dialogue,,0,0,0,,I don't know how I should tel
 Dialogue: 0,0:06:46.19,0:06:47.61,Dialogue,,0,0,0,,Oh, you noticed?
 Dialogue: 0,0:06:47.61,0:06:48.77,Dialogue,,0,0,0,,Yes.
 Dialogue: 0,0:06:48.77,0:06:51.33,Dialogue,,0,0,0,,If you started writing my name, Samon,
-Dialogue: 0,0:06:48.77,0:06:51.33,Signs,,0,0,0,,左門
+Dialogue: 0,0:06:48.77,0:06:51.33,Thoughts,,0,0,0,,{\be10}左門
 Dialogue: 0,0:06:52.38,0:06:55.04,Dialogue,,0,0,0,,you'd end up with that dying message too.
 Dialogue: 0,0:06:58.05,0:07:01.08,Dialogue,,0,0,0,,Right. Of course I knew that.
 Dialogue: 0,0:07:01.08,0:07:03.55,Dialogue,,0,0,0,,It means that you're a suspect as well.
-Dialogue: 0,0:07:05.55,0:07:08.55,Dialogue,,0,0,0,,{\a6}'Migita Bookshop'
-Dialogue: 0,0:07:10.00,0:07:13.31,Dialogue,,0,0,0,,{\a6}S-Someone murdered Nana?! Really?!
+Dialogue: 0,0:07:05.55,0:07:08.55,Dialogue Top,,0,0,0,,'Migita Bookshop'
+Dialogue: 0,0:07:10.00,0:07:13.31,Dialogue Top,,0,0,0,,S-Someone murdered Nana?! Really?!
 Dialogue: 0,0:07:10.05,0:07:13.31,Signs,,0,0,0,,Toshihiko Migita (32)\NBookshop Owner
 Dialogue: 0,0:07:13.31,0:07:17.48,Dialogue,,0,0,0,,Yes. And in the park where you arranged to meet her tonight.
 Dialogue: 0,0:07:17.95,0:07:19.23,Dialogue,,0,0,0,,Shut up!
@@ -175,10 +173,10 @@ Dialogue: 0,0:07:39.58,0:07:45.15,Dialogue,,0,0,0,,She was trying to write your 
 Dialogue: 0,0:07:46.59,0:07:49.18,Dialogue,,0,0,0,,No, you can't say that for sure.
 Dialogue: 0,0:07:49.18,0:07:53.18,Dialogue,,0,0,0,,She could've been trying to write 'migi'.
 Dialogue: 0,0:07:54.67,0:07:59.45,Dialogue,,0,0,0,,But it could've been a katakana 'na', or a kanji 'dai'.
-Dialogue: 0,0:07:54.67,0:07:59.45,Signs,,0,0,0,,ナ
-Dialogue: 0,0:07:54.67,0:07:59.45,Signs,,0,0,0,,大
+Dialogue: 0,0:07:54.67,0:07:59.45,Thoughts,,0,0,0,,{\be10}ナ
+Dialogue: 0,0:07:54.67,0:07:59.45,Thoughts,,0,0,0,,{\be10}大
 Dialogue: 0,0:07:59.45,0:08:01.10,Dialogue,,0,0,0,,Or even 'inu'!
-Dialogue: 0,0:07:59.45,0:08:01.10,Signs,,0,0,0,,犬
+Dialogue: 0,0:07:59.45,0:08:01.10,Thoughts,,0,0,0,,{\be10}犬
 Dialogue: 0,0:08:01.47,0:08:03.02,Dialogue,,0,0,0,,Hmm, right.
 Dialogue: 0,0:08:03.02,0:08:08.72,Dialogue,,0,0,0,,That reminds me, the same thing'd happen if she was trying to write Samon's name.
 Dialogue: 0,0:08:08.72,0:08:09.78,Dialogue,,0,0,0,,Oh, you're right.
@@ -210,7 +208,7 @@ Dialogue: 0,0:09:37.26,0:09:39.35,Dialogue,,0,0,0,,Then you have an alibi?
 Dialogue: 0,0:09:39.35,0:09:40.58,Dialogue,,0,0,0,,Well...
 Dialogue: 0,0:09:40.58,0:09:46.88,Dialogue,,0,0,0,,It's certainly possible that you wrote that e-mail to frame on Migita{\rHonorifics - Dialogue}-san{\r}.
 Dialogue: 0,0:09:46.88,0:09:48.88,Dialogue,,0,0,0,,I-I didn't!
-Dialogue: 0,0:09:49.35,0:09:54.03,Thoughts,,0,0,0,,{\be10}No, the dying message was pointing to Migita{\rHonorifics - Thoughts}-san{\r}.
+Dialogue: 0,0:09:49.35,0:09:54.03,Thoughts,,0,0,0,,{\be10}No, the dying message was pointing to Migita{\rHonorifics - Thoughts\be10}-san{\r\be10}.
 Dialogue: 0,0:09:54.03,0:09:55.95,Thoughts,,0,0,0,,{\be10}Then there's that footage...
 Dialogue: 0,0:09:55.95,0:09:57.97,Thoughts,,0,0,0,,{\be10}But that's not enough evidence.
 Dialogue: 0,0:10:12.08,0:10:12.82,Thoughts,,0,0,0,,{\be10}What's this?
@@ -230,8 +228,8 @@ Dialogue: 0,0:10:56.29,0:10:58.21,Dialogue,,0,0,0,,But you, Migita{\rHonorifics 
 Dialogue: 0,0:11:00.48,0:11:02.22,Dialogue,,0,0,0,,How can you say that for sure?
 Dialogue: 0,0:11:02.22,0:11:04.29,Dialogue,,0,0,0,,M-Mouri{\rHonorifics - Dialogue}-san{\r}?
 Dialogue: 0,0:11:04.29,0:11:08.73,Dialogue,,0,0,0,,This isn't enough to tell if she was trying to write 'migi' or 'sa'...
-Dialogue: 0,0:11:04.29,0:11:08.73,Signs,,0,0,0,,右
-Dialogue: 0,0:11:04.29,0:11:08.73,Signs,,0,0,0,,左
+Dialogue: 0,0:11:04.29,0:11:08.73,Thoughts,,0,0,0,,{\be10}右
+Dialogue: 0,0:11:04.29,0:11:08.73,Thoughts,,0,0,0,,{\be10}左
 Dialogue: 0,0:11:08.73,0:11:10.63,Dialogue,,0,0,0,,You can tell.
 Dialogue: 0,0:11:10.63,0:11:11.73,Dialogue,,0,0,0,,Hey, Conan!
 Dialogue: 0,0:11:11.73,0:11:13.56,Dialogue,,0,0,0,,Right!
@@ -286,14 +284,9 @@ Dialogue: 0,0:14:36.28,0:14:44.00,Dialogue,,0,0,0,,When you left the view of the
 Dialogue: 0,0:14:44.00,0:14:47.49,Dialogue,,0,0,0,,As if you had been wearing a helmet.
 Dialogue: 0,0:14:47.49,0:14:51.99,Dialogue,,0,0,0,,I figured out the trick when I saw that.
 Dialogue: 0,0:14:55.51,0:14:58.00,Dialogue,,0,0,0,,It was her fault.
-Dialogue: 0,0:14:58.00,0:15:02.25,Signs,,0,0,0,,.
 Dialogue: 0,0:14:58.34,0:15:02.25,Dialogue,,0,0,0,,She kept harassing me by sending me photos like these!
 Dialogue: 0,0:15:02.92,0:15:04.15,Dialogue,,0,0,0,,Damn it!
 Dialogue: 0,0:15:10.47,0:15:17.00,Dialogue,,0,0,0,,And she kept making fun of me, saying she never sent them!
-Dialogue: 0,0:15:15.72,0:15:19.73,Signs,,0,0,0,,.
-Comment: 0,0:15:17.00,0:15:19.73,Dialogue,,0,0,0,,migitasan\Nstop joking like this\Nnana
-Comment: 0,0:15:17.00,0:15:19.73,Dialogue,,0,0,0,,please stop it\Nnana
-Comment: 0,0:15:17.00,0:15:19.73,Dialogue,,0,0,0,,ill see you in the park\Nnana
 Dialogue: 0,0:15:19.73,0:15:22.22,Thoughts,,0,0,0,,{\be10}Just as I thought. All that's left is...
 Dialogue: 0,0:15:24.62,0:15:25.38,Dialogue,,0,0,0,,Yes?
 Dialogue: 0,0:15:26.24,0:15:28.11,Dialogue,,0,0,0,,Huh? Gunshot residue?
@@ -337,7 +330,7 @@ Dialogue: 0,0:17:27.30,0:17:30.11,Dialogue,,0,0,0,,But that doesn't mean that I 
 Dialogue: 0,0:17:30.11,0:17:33.86,Dialogue,,0,0,0,,No, it most likely means exactly that.
 Dialogue: 0,0:17:35.45,0:17:36.91,Dialogue,,0,0,0,,Think back.
 Dialogue: 0,0:17:36.91,0:17:39.81,Dialogue,,0,0,0,,Remember the stroke order of the 'migi' written by Migita{\rHonorifics - Dialogue}-san{\r}.
-Dialogue: 0,0:17:36.91,0:17:39.81,Signs,,0,0,0,,右
+Dialogue: 0,0:17:36.91,0:17:39.81,Thoughts,,0,0,0,,{\be10}右
 Dialogue: 0,0:17:41.37,0:17:45.91,Dialogue,,0,0,0,,And the stroke order Samon{\rHonorifics - Dialogue}-san{\r}, a teacher, used.
 Dialogue: 0,0:17:47.94,0:17:49.83,Dialogue,,0,0,0,,But I killed her...
 Dialogue: 0,0:17:49.83,0:17:52.64,Dialogue,,0,0,0,,I'll explain everything from the beginning.
@@ -396,9 +389,9 @@ Dialogue: 0,0:21:29.90,0:21:35.31,Dialogue,,0,0,0,,That's when I realised that y
 Dialogue: 0,0:21:37.94,0:21:44.86,Dialogue,,0,0,0,,I couldn't bear it. As long as she was alive, my sadness wouldn't go away.
 Dialogue: 0,0:21:45.92,0:21:48.60,Dialogue,,0,0,0,,I just couldn't bear it!
 Dialogue: 0,0:23:15.89,0:23:18.63,Dialogue,,0,0,0,,Do we really take a right turn here?
-Dialogue: 0,0:23:18.63,0:23:20.70,Signs,,0,0,0,,右
+Dialogue: 0,0:23:18.63,0:23:20.70,Thoughts,,0,0,0,,{\be10}右
 Dialogue: 0,0:23:18.63,0:23:20.70,Dialogue,,0,0,0,,Yeah, I think we take a right...
-Dialogue: 0,0:23:20.70,0:23:22.47,Signs,,0,0,0,,左
+Dialogue: 0,0:23:20.70,0:23:22.47,Thoughts,,0,0,0,,{\be10}左
 Dialogue: 0,0:23:20.70,0:23:22.47,Dialogue,,0,0,0,,Hmph! If you're so sure, then let's turn left!
 Dialogue: 0,0:23:22.47,0:23:26.00,Dialogue,,0,0,0,,How cruel! We go right! Right! We have to go right!
 Dialogue: 0,0:23:26.00,0:23:28.35,Dialogue,,0,0,0,,No, we go left! Left! We have to go left!
@@ -413,14 +406,12 @@ Dialogue: 0,0:23:48.10,0:23:49.75,Dialogue,,0,0,0,,The key.
 Dialogue: 0,0:23:51.00,0:23:52.63,Dialogue,,0,0,0,,You stay back!
 Dialogue: 0,0:23:52.63,0:23:55.80,Dialogue,,0,0,0,,The path from here on leads to our territory!
 Dialogue: 0,0:23:55.80,0:23:58.89,Dialogue,,0,0,0,,And today's fruit is...!
-Dialogue: 0,0:23:58.89,0:24:04.89,Signs,,0,0,0,,(PART I)
-Dialogue: 0,0:23:58.89,0:24:04.89,Signs,,0,0,0,,A TREASURE CHEST FULL OF FRUITS
 Dialogue: 0,0:23:58.89,0:24:04.89,Dialogue,,0,0,0,,On the next Conan: 'A Treasure Chest Full of Fruits (Part I)'!
 Dialogue: 0,0:24:04.89,0:24:09.82,Dialogue,,0,0,0,,Next Conan's Hint: Padlock!
-Dialogue: 0,0:24:09.82,0:24:12.06,Dialogue,,0,0,0,,{\a6}Next time, there's a case at a TV station?!
-Dialogue: 0,0:24:12.06,0:24:13.50,Dialogue,,0,0,0,,{\a6}I hope I get to meet Yōko{\rHonorifics - Dialogue}-chan{\r}!
-Dialogue: 0,0:24:13.50,0:24:14.68,Dialogue,,0,0,0,,{\a6}Show some discretion...
-Dialogue: 0,0:00:54.22,0:00:59.22,ButterflyCore,,0,0,0,,{\blur4}{\fad(200,0)}kage o mau chō no kodō ga seijaku no umi o saite
+Dialogue: 0,0:24:09.82,0:24:12.06,Dialogue Top,,0,0,0,,Next time, there's a case at a TV station?!
+Dialogue: 0,0:24:12.06,0:24:13.50,Dialogue Top,,0,0,0,,I hope I get to meet Yōko{\rHonorifics - Dialogue}-chan{\r}!
+Dialogue: 0,0:24:13.50,0:24:14.68,Dialogue Top,,0,0,0,,Show some discretion...
+Dialogue: 0,0:00:54.22,0:00:59.22,ButterflyCore,,0,0,0,,{\blur4\fad(200,0)}kage o mau chō no kodō ga seijaku no umi o saite
 Dialogue: 0,0:00:59.39,0:01:06.56,ButterflyCore,,0,0,0,,{\blur4}kasanariau koe ga ima yami o furiharatta
 Dialogue: 0,0:01:21.12,0:01:26.54,ButterflyCore,,0,0,0,,{\blur4\c&H005500}haritsuita ase o nugutte nigemawaru light o ketta
 Dialogue: 0,0:01:26.92,0:01:32.21,ButterflyCore,,0,0,0,,{\blur4\c&H005500}kanashimi ni utareta kyō no kizuato kabau yō ni
@@ -432,7 +423,7 @@ Dialogue: 0,0:01:54.57,0:01:59.62,ButterflyCore,,0,0,0,,{\blur4\c&HAA0000}kage o
 Dialogue: 0,0:01:59.78,0:02:05.12,ButterflyCore,,0,0,0,,{\blur4\c&H000077}kimi ni miseru itsuwari no subete ga uso ja nai daro
 Dialogue: 0,0:02:05.29,0:02:10.75,ButterflyCore,,0,0,0,,{\blur4\c&HAA0000}mayo'u tabi suteta kotae mo kitto erabu hi wa mata kuru kara
 Dialogue: 0,0:02:10.92,0:02:19.85,ButterflyCore,,0,0,0,,{\blur4\c&H006600}kono kokoro wa dare yori mo atsuku moyashi tsuzukeyō kienai yō ni
-Dialogue: 0,0:02:29.73,0:02:35.32,ButterflyCore,,0,0,0,,{\blur4\c&H006600}{\fad(0,1000)}kienai yō ni
+Dialogue: 0,0:02:29.73,0:02:35.32,ButterflyCore,,0,0,0,,{\blur4\c&H006600\fad(0,1000)}kienai yō ni
 Dialogue: 0,0:00:54.22,0:00:59.22,ButterflyCore2,,0,0,0,,{\fad(200,0)}kage o mau chō no kodō ga seijaku no umi o saite
 Dialogue: 0,0:00:59.39,0:01:06.56,ButterflyCore2,,0,0,0,,kasanariau koe ga ima yami o furiharatta
 Dialogue: 0,0:01:21.12,0:01:26.54,ButterflyCore2,,0,0,0,,haritsuita ase o nugutte nigemawaru light o ketta
@@ -446,16 +437,6 @@ Dialogue: 0,0:01:59.78,0:02:05.12,ButterflyCore2,,0,0,0,,kimi ni miseru itsuwari
 Dialogue: 0,0:02:05.29,0:02:10.75,ButterflyCore2,,0,0,0,,mayo'u tabi suteta kotae mo kitto erabu hi wa mata kuru kara
 Dialogue: 0,0:02:10.92,0:02:19.85,ButterflyCore2,,0,0,0,,{\3c&H006600}kono kokoro wa dare yori mo atsuku moyashi tsuzukeyō kienai yō ni
 Dialogue: 0,0:02:29.73,0:02:35.32,ButterflyCore2,,0,0,0,,{\fad(0,1000)\3c&H006600}kienai yō ni
-Dialogue: 0,0:02:39.78,0:02:39.83,Signs,,0,0,0,,A HAPPY E-MAIL BRINGS SADNESS
-Dialogue: 0,0:02:39.83,0:02:39.87,Signs,,0,0,0,,A HAPPY E-MAIL BRINGS SADNESS
-Dialogue: 0,0:02:39.87,0:02:39.91,Signs,,0,0,0,,A HAPPY E-MAIL BRINGS SADNESS
-Dialogue: 0,0:02:39.91,0:02:39.95,Signs,,0,0,0,,A HAPPY E-MAIL BRINGS SADNESS
-Dialogue: 0,0:02:39.95,0:02:39.99,Signs,,0,0,0,,A HAPPY E-MAIL BRINGS SADNESS
-Dialogue: 0,0:02:39.99,0:02:40.03,Signs,,0,0,0,,A HAPPY E-MAIL BRINGS SADNESS
-Dialogue: 0,0:02:40.03,0:02:40.08,Signs,,0,0,0,,A HAPPY E-MAIL BRINGS SADNESS
-Dialogue: 0,0:02:40.08,0:02:40.12,Signs,,0,0,0,,A HAPPY E-MAIL BRINGS SADNESS
-Dialogue: 0,0:02:40.12,0:02:40.16,Signs,,0,0,0,,A HAPPY E-MAIL BRINGS SADNESS
-Dialogue: 0,0:02:40.16,0:02:45.79,Signs,,0,0,0,,A HAPPY E-MAIL BRINGS SADNESS
 Dialogue: 0,0:22:03.71,0:22:11.05,AitakuteRomaji,,0,0,0,,{\blur3}denwa ga naru tabi kono mune ga zawameku
 Dialogue: 0,0:22:11.39,0:22:18.39,AitakuteRomaji,,0,0,0,,{\blur3}demo kikoetekuru no wa kimi no koe ja nai
 Dialogue: 0,0:22:20.60,0:22:27.40,AitakuteRomaji,,0,0,0,,{\blur3}ima kimi wa doko ni iru no nani shite'ru no
@@ -464,5 +445,3 @@ Dialogue: 0,0:22:37.58,0:22:44.46,AitakuteRomaji,,0,0,0,,{\blur3}aitakute kimi n
 Dialogue: 0,0:22:44.96,0:22:53.43,AitakuteRomaji,,0,0,0,,{\blur3}ima mo kono mune wa kimi{\fsp-2\fs40}- {\fsp\fs}iro ni somaru (dakishimetakute)
 Dialogue: 0,0:22:53.60,0:23:00.60,AitakuteRomaji,,0,0,0,,{\blur3}setsunakute nido to aenai nara
 Dialogue: 0,0:23:00.94,0:23:08.90,AitakuteRomaji,,0,0,0,,{\fad(0,1000)\blur3}maichiru yuki shiroku kono kokoro somete
-Dialogue: 0,0:21:52.41,0:21:55.87,Signs,,0,0,0,,Ima aitakute...\N(I want to be with you...)
-Dialogue: 0,0:24:14.68,0:24:16.68,Dialogue,,0,0,0,,

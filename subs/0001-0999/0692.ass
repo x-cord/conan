@@ -50,9 +50,9 @@ Style: Massugu Yuku Romaji,Hey Gorgeous M,40,&H878C7D00,&H877D4400,&H00FFFFFF,&H
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:03.56,0:00:04.48,Dialogue,,0,0,0,,{\a6}M spotted.
-Dialogue: 0,0:00:05.56,0:00:06.65,Dialogue,,0,0,0,,{\a6}His mobile's ringing.
-Dialogue: 0,0:00:08.23,0:00:10.57,Dialogue,,0,0,0,,{\a6}Hello, this is Mouri.
+Dialogue: 0,0:00:03.56,0:00:04.48,Dialogue Top,,0,0,0,,M spotted.
+Dialogue: 0,0:00:05.56,0:00:06.65,Dialogue Top,,0,0,0,,His mobile's ringing.
+Dialogue: 0,0:00:08.23,0:00:10.57,Dialogue Top,,0,0,0,,Hello, this is Mouri.
 Dialogue: 0,0:00:11.86,0:00:15.16,Dialogue,,0,0,0,,Yeah. Nihon Bridge Post Office, right?
 Dialogue: 0,0:00:15.16,0:00:16.32,Dialogue,,0,0,0,,Got it.
 Dialogue: 0,0:00:18.83,0:00:22.96,Dialogue,,0,0,0,,The man on the phone told me to pick up a package held at a post office.
@@ -88,7 +88,7 @@ Dialogue: 0,0:04:11.54,0:04:13.83,Dialogue,,0,0,0,,What did you just say?
 Dialogue: 0,0:04:13.83,0:04:14.79,Dialogue,,0,0,0,,Ah, nothing!
 Dialogue: 0,0:04:16.92,0:04:19.80,Dialogue,,0,0,0,,Well then, we should get going.
 Dialogue: 0,0:04:19.80,0:04:20.80,Dialogue,,0,0,0,,Right.
-Dialogue: 0,0:04:29.64,0:04:32.39,Thoughts,,0,0,0,,{\be10}{\fad(250,0)}'Put the money in this briefcase.'
+Dialogue: 0,0:04:29.64,0:04:32.39,Thoughts,,0,0,0,,{\be10\fad(250,0)}'Put the money in this briefcase.'
 Dialogue: 0,0:04:32.39,0:04:36.48,Thoughts,,0,0,0,,{\be10}'Get rid of your mobile. I'll contact\Nyou through this transceiver.'
 Dialogue: 0,0:04:36.48,0:04:42.28,Thoughts,,0,0,0,,{\be10}'Get on the 17:45 flower viewing\Ncruise departing from Nihon Bridge.'
 Dialogue: 0,0:04:42.28,0:04:44.87,Thoughts,,0,0,0,,{\be10}'Get rid of the microphone you're\Nusing to contact the police.''
@@ -120,7 +120,7 @@ Dialogue: 0,0:05:59.27,0:06:00.27,Dialogue,,0,0,0,,Where does it go?
 Dialogue: 0,0:06:00.27,0:06:04.86,Dialogue,,0,0,0,,It is. It goes out of the Sumida River and into Ōyoko River.
 Dialogue: 0,0:06:05.28,0:06:06.99,Dialogue,,0,0,0,,Would you like a pamphlet?
 Dialogue: 0,0:06:06.99,0:06:08.91,Dialogue,,0,0,0,,Thank you.
-Dialogue: 0,0:06:13.75,0:06:15.29,Flashback,,0,0,0,,{\be10}{\fad(250,0)}But, Inspector...
+Dialogue: 0,0:06:13.75,0:06:15.29,Flashback,,0,0,0,,{\be10\fad(250,0)}But, Inspector...
 Dialogue: 0,0:06:15.29,0:06:19.17,Flashback,,0,0,0,,{\be10}I wonder why I was chosen to deliver the money?
 Dialogue: 0,0:06:19.50,0:06:21.88,Flashback,,0,0,0,,{\be10}We aren't entirely sure.
 Dialogue: 0,0:06:21.88,0:06:24.09,Flashback,,0,0,0,,{\be10}Don't you have any ideas yourself?
@@ -299,8 +299,8 @@ Dialogue: 0,0:19:36.25,0:19:39.79,Massugu Yuku Romaji,insert,0,0,0,,{\blur4}ima 
 Dialogue: 0,0:19:39.79,0:19:46.68,Massugu Yuku Romaji,insert,0,0,0,,{\blur4}futari wa ayumi tomenai
 Dialogue: 0,0:19:46.68,0:19:53.77,Massugu Yuku Romaji,insert,0,0,0,,{\blur4}kagayaku tobira akete massugu yuku
 Dialogue: 0,0:19:53.77,0:20:01.40,Massugu Yuku Romaji,insert,0,0,0,,{\blur4}me no mae ni wa michi no mystery...
-Dialogue: 0,0:20:01.40,0:20:12.70,Massugu Yuku Romaji,insert,0,0,0,,{\fad(0,500)}{\blur4}futari no shisen awasete mezasu wa ginga no mystery...
-Dialogue: 0,0:20:15.95,0:20:27.72,Massugu Yuku Romaji,insert,0,0,0,,{\fad(0,500)}{\blur4}futari no shisen awasete tsutamu wa uchū no mystery...
+Dialogue: 0,0:20:01.40,0:20:12.70,Massugu Yuku Romaji,insert,0,0,0,,{\fad(0,500)\blur4}futari no shisen awasete mezasu wa ginga no mystery...
+Dialogue: 0,0:20:15.95,0:20:27.72,Massugu Yuku Romaji,insert,0,0,0,,{\fad(0,500)\blur4}futari no shisen awasete tsutamu wa uchū no mystery...
 Dialogue: 0,0:19:17.44,0:19:21.65,Massugu Yuku Romaji,insert,0,0,0,,{\bord2\1a&FF\blur1\3a40\4a&FF}asahi ga noboru ryōsen
 Dialogue: 0,0:19:21.65,0:19:24.99,Massugu Yuku Romaji,insert,0,0,0,,{\bord2\1a&FF\blur1\3a40\4a&FF}ikusuji mono hikari no hashira
 Dialogue: 0,0:19:24.99,0:19:31.54,Massugu Yuku Romaji,insert,0,0,0,,{\bord2\1a&FF\blur1\3a40\4a&FF}doremo ga kimi no kokoro e
@@ -309,8 +309,8 @@ Dialogue: 0,0:19:36.25,0:19:39.79,Massugu Yuku Romaji,insert,0,0,0,,{\bord2\1a&F
 Dialogue: 0,0:19:39.79,0:19:46.68,Massugu Yuku Romaji,insert,0,0,0,,{\bord2\1a&FF\blur1\3a40\4a&FF}futari wa ayumi tomenai
 Dialogue: 0,0:19:46.68,0:19:53.77,Massugu Yuku Romaji,insert,0,0,0,,{\bord2\1a&FF\blur1\3a40\4a&FF}kagayaku tobira akete massugu yuku
 Dialogue: 0,0:19:53.77,0:20:01.40,Massugu Yuku Romaji,insert,0,0,0,,{\bord2\1a&FF\blur1\3a40\4a&FF}me no mae ni wa michi no mystery...
-Dialogue: 0,0:20:01.40,0:20:12.70,Massugu Yuku Romaji,insert,0,0,0,,{\bord2\1a&FF\blur1\3a40\4a&FF}{\fad(0,500)}futari no shisen awasete mezasu wa ginga no mystery...
-Dialogue: 0,0:20:15.95,0:20:27.72,Massugu Yuku Romaji,insert,0,0,0,,{\bord2\1a&FF\blur1\3a40\4a&FF}{\fad(0,500)}futari no shisen awasete tsutamu wa uchū no mystery...
+Dialogue: 0,0:20:01.40,0:20:12.70,Massugu Yuku Romaji,insert,0,0,0,,{\bord2\1a&FF\blur1\3a40\4a&FF\fad(0,500)}futari no shisen awasete mezasu wa ginga no mystery...
+Dialogue: 0,0:20:15.95,0:20:27.72,Massugu Yuku Romaji,insert,0,0,0,,{\bord2\1a&FF\blur1\3a40\4a&FF\fad(0,500)}futari no shisen awasete tsutamu wa uchū no mystery...
 Dialogue: 0,0:19:17.44,0:19:21.65,Massugu Yuku TL,insert,0,0,0,,{\blur4}The morning sun rises on the mountains
 Dialogue: 0,0:19:21.65,0:19:24.99,Massugu Yuku TL,insert,0,0,0,,{\blur4}Casting uncountable pillars of light
 Dialogue: 0,0:19:24.99,0:19:31.54,Massugu Yuku TL,insert,0,0,0,,{\blur4}Each one leading to your heart
@@ -319,8 +319,8 @@ Dialogue: 0,0:19:36.25,0:19:39.79,Massugu Yuku TL,insert,0,0,0,,{\blur4}and the 
 Dialogue: 0,0:19:39.79,0:19:46.68,Massugu Yuku TL,insert,0,0,0,,{\blur4}We will never stop walking
 Dialogue: 0,0:19:46.68,0:19:53.77,Massugu Yuku TL,insert,0,0,0,,{\blur4}Open the shining door and go straight through
 Dialogue: 0,0:19:53.77,0:20:01.40,Massugu Yuku TL,insert,0,0,0,,{\blur4}In front of you lay yet unknown mysteries...
-Dialogue: 0,0:20:01.40,0:20:12.70,Massugu Yuku TL,insert,0,0,0,,{\fad(0,500)}{\blur4}When our eyes meet, we seek the galaxy's mystery...
-Dialogue: 0,0:20:15.95,0:20:27.72,Massugu Yuku TL,insert,0,0,0,,{\fad(0,500)}{\blur4}When our eyes meet, we grasp the universe's mystery...
+Dialogue: 0,0:20:01.40,0:20:12.70,Massugu Yuku TL,insert,0,0,0,,{\fad(0,500)\blur4}When our eyes meet, we seek the galaxy's mystery...
+Dialogue: 0,0:20:15.95,0:20:27.72,Massugu Yuku TL,insert,0,0,0,,{\fad(0,500)\blur4}When our eyes meet, we grasp the universe's mystery...
 Dialogue: 0,0:20:37.68,0:20:38.81,Dialogue,,0,0,0,,I've got it!
 Dialogue: 0,0:20:38.81,0:20:40.44,Dialogue,,0,0,0,,Couldn't this be it?
 Dialogue: 0,0:20:41.35,0:20:42.69,Dialogue,,0,0,0,,Look at this!
@@ -350,14 +350,14 @@ Dialogue: 0,0:24:01.60,0:24:03.68,Dialogue,NEP,0,0,0,,the suspect was found dead
 Dialogue: 0,0:24:03.68,0:24:09.27,Dialogue,NEP,0,0,0,,On the next Conan: 'The Evening Cherry Blossom Viewing Route on Sumida River (Part II)'!
 Dialogue: 0,0:24:09.27,0:24:14.19,Dialogue,NCH,0,0,0,,Next Conan's Hint: Flower-viewing boat!
 Dialogue: 0,0:24:14.19,0:24:15.69,Dialogue,Conte,0,0,0,,Dad, are you okay?
-Dialogue: 0,0:24:16.49,0:24:19.15,Signs,Conte,0,0,0,,hana
-Dialogue: 0,0:24:16.49,0:24:19.15,Signs,Conte,0,0,0,,hana
+Dialogue: 0,0:24:16.49,0:24:19.15,Thoughts,Conte,0,0,0,,{\be10}hana
+Dialogue: 0,0:24:16.49,0:24:19.15,Thoughts,Conte,0,0,0,,{\be10}hana
 Dialogue: 0,0:24:16.49,0:24:19.15,Dialogue,Conte,0,0,0,,He ran to look at flowers{hana}, and caught a runny nose{hana}.{adapted because I can't make much sensible out of the literal 'hana wa mirarezu hana ga deru'}
 Dialogue: 0,0:01:18.85,0:01:22.22,OPTLTextless,,0,0,0,,{\blur2}Take me to the high, we never cry on
 Dialogue: 0,0:01:22.22,0:01:25.81,OPTLTextless,,0,0,0,,{\blur2}To a tomorrow we've never seen
 Dialogue: 0,0:01:25.85,0:01:29.57,OPTLTextless,,0,0,0,,{\blur2}Try again Try again Try again Always
 Dialogue: 0,0:01:29.57,0:01:32.86,OPTLTextless,,0,0,0,,{\blur2}Try again Try again Try again
-Dialogue: 0,0:01:32.86,0:01:35.95,OPTLTextless,,0,0,0,,{\blur2}{\fad(0,300)}Speak out the truth!
+Dialogue: 0,0:01:32.86,0:01:35.95,OPTLTextless,,0,0,0,,{\blur2\fad(0,300)}Speak out the truth!
 Dialogue: 0,0:01:41.99,0:01:45.66,OPTLTextless,,0,0,0,,{\blur2}Not knowing exactly what you're searching for
 Dialogue: 0,0:01:45.66,0:01:49.13,OPTLTextless,,0,0,0,,{\blur2}living in the moment in your reckless way
 Dialogue: 0,0:01:49.13,0:01:52.96,OPTLTextless,,0,0,0,,{\blur2}If you don't brighten up a bit soon
@@ -373,55 +373,12 @@ Dialogue: 0,0:02:22.99,0:02:26.71,OPTLTextless,,0,0,0,,{\blur2}Try again Try aga
 Dialogue: 0,0:02:26.71,0:02:33.75,OPTLTextless,,0,0,0,,{\blur2}Not everything is bad, we're dreamers after all
 Dialogue: 0,0:02:33.75,0:02:37.30,OPTLTextless,,0,0,0,,{\blur2}Try again Try again Try again Always
 Dialogue: 0,0:02:37.30,0:02:41.05,OPTLTextless,,0,0,0,,{\blur2}Try again Try again Try again
-Dialogue: 0,0:02:41.05,0:02:44.43,OPTLTextless,,0,0,0,,{\blur2}{\fad(0,500)}Speak out the truth!
-Dialogue: 0,0:01:07.83,0:01:10.59,Signs,,0,0,0,,TRY AGAIN\NSong by Mai Kuraki
-Dialogue: 0,0:01:18.85,0:01:22.22,Signs,,0,0,0,,「Detective Conan」\NSerialised in Shōgakukan's 'Weekly Shōnen Sunday'
-Dialogue: 0,0:01:18.85,0:01:22.22,Signs,,0,0,0,,Original Comics by\NGōshō Aoyama\N
-Dialogue: 0,0:01:41.99,0:01:45.66,Signs,,0,0,0,,Planning\NMichihiko Suwa
-Dialogue: 0,0:01:41.99,0:01:45.66,Signs,,0,0,0,,( )
-Dialogue: 0,0:01:45.66,0:01:49.13,Signs,,0,0,0,,Character Design\NMasatomo Sudō\N\NArt Director\NJun'ichi Higashi
-Dialogue: 0,0:01:49.13,0:01:52.76,Signs,,0,0,0,,Director of Photography\NTakahisa Ogawa\N\NSound Directors\NYasuo Uragami\NKeiko Uragami
-Dialogue: 0,0:01:52.96,0:01:56.26,Signs,,0,0,0,,Music\NKatsuo Ōno
-Dialogue: 0,0:01:56.26,0:01:59.76,Signs,,0,0,0,,Opening Theme\N「TRY AGAIN」
-Dialogue: 0,0:01:56.26,0:01:59.76,Signs,,0,0,0,,Performed by:\NLyrics:\NMusic:\NArrangement:
-Dialogue: 0,0:01:56.26,0:01:59.76,Signs,,0,0,0,,Mai Kuraki\NMai Kuraki\NAkihito Tokunaga\NCybersound
-Dialogue: 0,0:01:56.26,0:01:59.76,Signs,,0,0,0,,(NORTHERN MUSIC)
-Dialogue: 0,0:02:03.43,0:02:07.02,Signs,,0,0,0,,Editor\NTerumitsu Okada\N\NStory Editor\NJun'ichi Iioka\N\NColour Key\NShigenobu Kaihō\N\NExecutive Producer\NSeikō Terajima
-Dialogue: 0,0:02:16.95,0:02:19.41,Signs,,0,0,0,,Planning Assistance\NHiroshi Torimitsu\NKazumasa Ogura\NMasakazu Hakuya
-Dialogue: 0,0:02:19.41,0:02:22.99,Signs,,0,0,0,,Producers\NShūichi Kitada\N\NTakeshi Yamakawa\N\N\N\N\NAssociate Producer\NMitomu Asai
-Dialogue: 0,0:02:19.41,0:02:22.99,Signs,,0,0,0,,( )
-Dialogue: 0,0:02:19.41,0:02:22.99,Signs,,0,0,0,,(TMS/V1 Studio)
-Dialogue: 0,0:02:27.83,0:02:30.29,Signs,,0,0,0,,Chief Producers\NMichihiko Suwa\N\NKei'ichi Ishiyama
-Dialogue: 0,0:02:27.83,0:02:30.29,Signs,,0,0,0,,( )
-Dialogue: 0,0:02:27.83,0:02:30.29,Signs,,0,0,0,,(TMS/V1 Studio)
-Dialogue: 0,0:21:21.77,0:21:29.57,HitomiRomaji,,0,0,0,,{\3c&HFFD4D4&}{\blur4}miagetara haru no ame machi ni oritekita
-Dialogue: 0,0:21:29.78,0:21:37.49,HitomiRomaji,,0,0,0,,{\3c&HFFD4D4&}{\blur4}kimi no aruku michi nurashite yuku
-Dialogue: 0,0:21:38.37,0:21:46.34,HitomiRomaji,,0,0,0,,{\3c&HFFD4D4&}{\blur4}kinō sasatta toge no yō na kimi no kotoba hitotsu
-Dialogue: 0,0:21:46.50,0:21:54.01,HitomiRomaji,,0,0,0,,{\3c&HFFD4D4&}{\blur4}mada honto wa nani mo shiranai yo
+Dialogue: 0,0:02:41.05,0:02:44.43,OPTLTextless,,0,0,0,,{\blur2\fad(0,500)}Speak out the truth!
+Dialogue: 0,0:21:21.77,0:21:29.57,HitomiRomaji,,0,0,0,,{\3c&HFFD4D4&\blur4}miagetara haru no ame machi ni oritekita
+Dialogue: 0,0:21:29.78,0:21:37.49,HitomiRomaji,,0,0,0,,{\3c&HFFD4D4&\blur4}kimi no aruku michi nurashite yuku
+Dialogue: 0,0:21:38.37,0:21:46.34,HitomiRomaji,,0,0,0,,{\3c&HFFD4D4&\blur4}kinō sasatta toge no yō na kimi no kotoba hitotsu
+Dialogue: 0,0:21:46.50,0:21:54.01,HitomiRomaji,,0,0,0,,{\3c&HFFD4D4&\blur4}mada honto wa nani mo shiranai yo
 Dialogue: 0,0:21:55.93,0:22:11.99,HitomiRomaji,,0,0,0,,{\blur4}sunao ni nareba kodoku nante nai yo hitori de wa nai kara
 Dialogue: 0,0:22:12.82,0:22:20.66,HitomiRomaji,,0,0,0,,{\blur4\3c&HEFF9FD&}don'na mirai kimi to mirai
 Dialogue: 0,0:22:20.91,0:22:30.17,HitomiRomaji,,0,0,0,,{\blur4\3c&HEFF9FD&}sono hitomi no shita e to tashikame ni yuku yo
-Dialogue: 0,0:22:30.55,0:22:38.22,HitomiRomaji,,0,0,0,,{\blur4\3c&HEFF9FD&}{\fad(0,750)}yukkuri to orite yuku kara
-Dialogue: 0,0:21:21.77,0:21:25.65,Signs,,0,0,0,,Hitomi no Melody (The melody in your eyes)
-Dialogue: 0,0:03:00.05,0:03:00.09,Signs,,0,0,0,,The Evening Cherry Blossom\NViewing Route on Sumida River\N.
-Dialogue: 0,0:03:00.09,0:03:00.14,Signs,,0,0,0,,The Evening Cherry Blossom\NViewing Route on Sumida River\N.
-Dialogue: 0,0:03:00.14,0:03:00.18,Signs,,0,0,0,,The Evening Cherry Blossom\NViewing Route on Sumida River\N.
-Dialogue: 0,0:03:00.18,0:03:00.22,Signs,,0,0,0,,The Evening Cherry Blossom\NViewing Route on Sumida River\N.
-Dialogue: 0,0:03:00.22,0:03:00.26,Signs,,0,0,0,,The Evening Cherry Blossom\NViewing Route on Sumida River\N.
-Dialogue: 0,0:03:00.26,0:03:00.30,Signs,,0,0,0,,The Evening Cherry Blossom\NViewing Route on Sumida River\N.
-Dialogue: 0,0:03:00.30,0:03:00.34,Signs,,0,0,0,,The Evening Cherry Blossom\NViewing Route on Sumida River\N.
-Dialogue: 0,0:03:00.34,0:03:00.39,Signs,,0,0,0,,The Evening Cherry Blossom\NViewing Route on Sumida River\N.
-Dialogue: 0,0:03:00.39,0:03:00.43,Signs,,0,0,0,,The Evening Cherry Blossom\NViewing Route on Sumida River\N.
-Dialogue: 0,0:03:00.43,0:03:06.06,Signs,,0,0,0,,The Evening Cherry Blossom\NViewing Route on Sumida River\N.
-Dialogue: 0,0:03:00.05,0:03:00.09,Signs,,0,0,0,,(Part I)
-Dialogue: 0,0:03:00.09,0:03:00.14,Signs,,0,0,0,,(Part I)
-Dialogue: 0,0:03:00.14,0:03:00.18,Signs,,0,0,0,,(Part I)
-Dialogue: 0,0:03:00.18,0:03:00.22,Signs,,0,0,0,,(Part I)
-Dialogue: 0,0:03:00.22,0:03:00.26,Signs,,0,0,0,,(Part I)
-Dialogue: 0,0:03:00.26,0:03:00.30,Signs,,0,0,0,,(Part I)
-Dialogue: 0,0:03:00.30,0:03:00.34,Signs,,0,0,0,,(Part I)
-Dialogue: 0,0:03:00.34,0:03:00.39,Signs,,0,0,0,,(Part I)
-Dialogue: 0,0:03:00.39,0:03:00.43,Signs,,0,0,0,,(Part I)
-Dialogue: 0,0:03:00.43,0:03:06.06,Signs,,0,0,0,,(Part I)
-Dialogue: 0,0:24:06.31,0:24:09.27,Signs,,0,0,0,,The Evening Cherry Blossom\NViewing Route on Sumida River
-Dialogue: 0,0:24:06.31,0:24:09.27,Signs,,0,0,0,,(Part II)
+Dialogue: 0,0:22:30.55,0:22:38.22,HitomiRomaji,,0,0,0,,{\blur4\3c&HEFF9FD&\fad(0,750)}yukkuri to orite yuku kara

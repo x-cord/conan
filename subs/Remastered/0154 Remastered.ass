@@ -38,12 +38,12 @@ Style: 154-ThreeDaysLater,Open Sans,37,&H00FFFFFF,&H000000FF,&H00000000,&H000000
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 Dialogue: 0,0:00:01.25,0:00:24.02,Signs,,0000,0000,0000,,Culprit
-Dialogue: 0,0:00:01.78,0:00:02.78,Dialogue,,0000,0000,0112,,{\fs48}"Culprit".
-Dialogue: 0,0:00:03.45,0:00:06.39,Dialogue,,0000,0000,0112,,{\fs48}Whenever there is a crime, there is a culprit.
-Dialogue: 0,0:00:06.71,0:00:09.95,Dialogue,,0000,0000,0112,,{\fs48}And in order to cover up their crime,
-Dialogue: 0,0:00:09.95,0:00:13.93,Dialogue,,0000,0000,0112,,{\fs48}they'll stop at nothing to try and deceive us.
-Dialogue: 0,0:00:14.75,0:00:19.62,Dialogue,,0000,0000,0112,,{\fs48}Today, the surprising identity of the culprit\Nwho targeted Sonoko is revealed,
-Dialogue: 0,0:00:19.62,0:00:23.60,Dialogue,,0000,0000,0112,,{\fs48}as we play back\N"Sonoko's Dangerous Summer Tale (Part 2)"!
+Dialogue: 0,0:00:01.78,0:00:02.78,Dialogue,,0000,0000,0112,,"Culprit".
+Dialogue: 0,0:00:03.45,0:00:06.39,Dialogue,,0000,0000,0112,,Whenever there is a crime, there is a culprit.
+Dialogue: 0,0:00:06.71,0:00:09.95,Dialogue,,0000,0000,0112,,And in order to cover up their crime,
+Dialogue: 0,0:00:09.95,0:00:13.93,Dialogue,,0000,0000,0112,,they'll stop at nothing to try and deceive us.
+Dialogue: 0,0:00:14.75,0:00:19.62,Dialogue,,0000,0000,0112,,Today, the surprising identity of the culprit\Nwho targeted Sonoko is revealed,
+Dialogue: 0,0:00:19.62,0:00:23.60,Dialogue,,0000,0000,0112,,as we play back\N"Sonoko's Dangerous Summer Tale (Part 2)"!
 Dialogue: 0,0:00:43.06,0:00:44.52,Narration Off,,0000,0000,0112,,{\be10}If we keep mourning the passing seasons,
 Dialogue: 0,0:00:44.52,0:00:46.31,Narration Off,,0000,0000,0112,,{\be10}we can't confront the mysteries in cases!
 Dialogue: 0,0:00:46.92,0:00:50.12,Narration Off,,0000,0000,0112,,{\be10}Big trouble by the summer seaside!\NThe mysterious man in front of Sonoko!
@@ -53,7 +53,7 @@ Dialogue: 0,0:00:54.27,0:00:56.57,Narration Off,,0000,0000,0112,,{\be10}His name
 Dialogue: 0,0:02:20.57,0:02:22.53,Narration Off,,0000,0000,0000,,{\be10}The three of us went to Izu to do some swimming.
 Dialogue: 0,0:02:22.53,0:02:25.16,Narration Off,,0000,0000,0000,,{\be10}Ran and I are witness to a strange summer event!
 Dialogue: 0,0:02:25.71,0:02:26.87,Narration Off,,0000,0000,0000,,{\be10}Can you believe it?
-Dialogue: 0,0:02:26.87,0:02:30.00,Narration Off,,0000,0000,0000,,{\be10}Sonoko gets herself a boyfriend. His name is Michiwaki{\rHonorifics - Narration Off}-san{\r}.
+Dialogue: 0,0:02:26.87,0:02:30.00,Narration Off,,0000,0000,0000,,{\be10}Sonoko gets herself a boyfriend. His name is Michiwaki{\rHonorifics - Narration Off\be10}-san{\r\be10}.
 Dialogue: 0,0:02:31.16,0:02:33.47,Narration Off,,0000,0000,0000,,{\be10}But while she's in seventh heaven,
 Dialogue: 0,0:02:33.47,0:02:36.34,Narration Off,,0000,0000,0000,,{\be10}waiting for him to pick her up for their dinner date,
 Dialogue: 0,0:02:37.00,0:02:38.94,Narration Off,,0000,0000,0000,,{\be10}someone attacks her!
@@ -160,7 +160,7 @@ Dialogue: 0,0:09:13.09,0:09:16.41,Thoughts,,0000,0000,0000,,{\be10}we would have
 Dialogue: 0,0:09:18.37,0:09:22.54,Thoughts,,0000,0000,0000,,{\be10}The waiter told me that the back door is always kept locked.
 Dialogue: 0,0:09:23.56,0:09:27.58,Thoughts,,0000,0000,0000,,{\be10}We first noticed him when he came out of the restroom,
 Dialogue: 0,0:09:27.58,0:09:31.42,Thoughts,,0000,0000,0000,,{\be10}but there's no window leading out from inside the toilet.
-Dialogue: 0,0:09:32.73,0:09:34.88,Thoughts,,0000,0000,0000,,{\be10}And of course, Michiwaki{\rHonorifics - Thoughts}-san{\r}'s in the clear too.
+Dialogue: 0,0:09:32.73,0:09:34.88,Thoughts,,0000,0000,0000,,{\be10}And of course, Michiwaki{\rHonorifics - Thoughts\be10}-san{\r\be10}'s in the clear too.
 Dialogue: 0,0:09:34.88,0:09:40.85,Thoughts,,0000,0000,0000,,{\be10}He was eating with us and never left the table.
 Dialogue: 0,0:09:41.47,0:09:43.10,Thoughts,,0000,0000,0000,,{\be10}That means...
 Dialogue: 0,0:09:43.09,0:09:47.19,Thoughts,,0000,0000,0000,,{\be10}The most likely suspect is the man following us!
@@ -186,9 +186,9 @@ Dialogue: 0,0:10:42.33,0:10:44.24,Dialogue,,0000,0000,0000,,Michiwaki{\rHonorifi
 Dialogue: 0,0:10:44.24,0:10:46.35,Dialogue,,0000,0000,0000,,and so will Ran.
 Dialogue: 0,0:10:47.95,0:10:51.79,Dialogue,,0000,0000,0000,,Just don't stop anywhere.\NCome straight to the station.
 Dialogue: 0,0:10:52.22,0:10:53.33,Dialogue,,0000,0000,0000,,Yes, sir.
-Dialogue: 0,0:10:56.41,0:10:57.71,Dialogue,,0000,0000,0000,,But, man...{old: I can't believe it.}{I *think* Viz had 'But still...'?}
+Dialogue: 0,0:10:56.41,0:10:57.71,Dialogue,,0000,0000,0000,,But, man...{old: I can't believe it.I *think* Viz had 'But still...'?}
 Dialogue: 0,0:10:57.72,0:11:00.55,Dialogue,,0000,0000,0000,,The attack at the inn last night,\Nand then the car incident today.
-Dialogue: 0,0:11:00.55,0:11:02.55,Dialogue,,0000,0000,0000,,They sure are after you.{What's with you anyway?}{gonbe suggestions: You sure have bad luck. - Just why is this all happening to you. }{Viz had lol: Danger seems to stick to you like GLUE.}
+Dialogue: 0,0:11:00.55,0:11:02.55,Dialogue,,0000,0000,0000,,They sure are after you.{What's with you anyway?gonbe suggestions: You sure have bad luck. - Just why is this all happening to you. Viz had lol: Danger seems to stick to you like GLUE.}
 Dialogue: 0,0:11:03.30,0:11:05.93,Dialogue,,0000,0000,0000,,Sonoko, are you sure you\Ndon't know what's going on?
 Dialogue: 0,0:11:05.93,0:11:07.52,Dialogue,,0000,0000,0000,,No, I have no idea.
 Dialogue: 0,0:11:08.05,0:11:10.56,Dialogue,,0000,0000,0000,,Maybe it's because you're so charming?
@@ -389,14 +389,3 @@ Dialogue: 0,0:23:49.66,0:23:50.39,Dialogue,,0000,0000,0000,,Good grief.
 Dialogue: 0,0:23:50.39,0:23:52.61,Dialogue,,0000,0000,0000,,I thought you were going to wait for Kyogoku{\rHonorifics - Dialogue}-san{\r} to return.
 Dialogue: 0,0:23:53.20,0:23:55.82,Dialogue,,0000,0000,0000,,That was then. This is now!{That's that, this is this!}
 Dialogue: 0,0:23:58.03,0:23:59.32,Thoughts,,0000,0000,0000,,{\be10}I knew it.
-Dialogue: 0,0:00:34.49,0:00:37.91,Signs,,0000,0000,0000,,Created by\NGosho Aoyama\N"Detective Conan"\NSerialized in Shogakukan's\N"Weekly Shonen Sunday"
-Dialogue: 0,0:01:05.02,0:01:08.02,Signs,,0000,0000,0000,,Character Design\NMasatomo Sudo\N\NArt Director\NYukihiro Shibutani\N\NArt Design\NHiroyuki Mitsumoto
-Dialogue: 0,0:01:12.94,0:01:15.95,Signs,,0000,0000,0000,,Director of Photography\NTakehisa Ogawa\N\NSound Director\NKatsuyoshi Kobayashi
-Dialogue: 0,0:01:22.28,0:01:24.83,Signs,,0000,0000,0000,,Music Producer\NHiroki Horio\N(PolyGram)\N\NMusic\NKatsuo Ono
-Dialogue: 0,0:01:30.00,0:01:33.59,Signs,,0000,0000,0000,,Opening Theme\N"SUMMER TIME GONE"
-Dialogue: 0,0:01:30.00,0:01:33.59,Signs,,0000,0000,0000,, Performed by\N Lyrics\N Music\N Arrangement
-Dialogue: 0,0:01:30.00,0:01:33.59,Signs,,0000,0000,0000,,Mai Kuraki\NMai Kuraki\NAika Ono\NTakeshi Hayama
-Dialogue: 0,0:01:30.00,0:01:33.59,Signs,,0000,0000,0000,,(NORTHERN MUSIC)
-Dialogue: 0,0:01:33.88,0:01:36.76,Signs,,0000,0000,0000,,Editor\NTeramitsu Okada\N\NStory Editor\NJunichi Iioka\N\NColor Key\NReiko Hirayama\N\NExecutive Producer\NHiroaki Kobayashi
-Dialogue: 0,0:01:38.38,0:01:41.39,Signs,,0000,0000,0000,,Planning Support\NToyohiko Okuyama\NMitome Asai
-Dialogue: 0,0:01:51.02,0:01:54.28,Signs,,0000,0000,0000,,Chief Director\NKenji Kodama\N\NDirector\NYasuichiro Yamamoto

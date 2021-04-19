@@ -45,16 +45,6 @@ Style: AitakuteRomaji,AlaskanNightsM,52,&H60DB9572,&H000000FF,&H00FFFFFF,&HC02F2
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:02:15.36,0:02:15.40,Signs,,0,0,0,,THE WEDDING BANQUET AND THE TWO GUNSHOTS
-Dialogue: 0,0:02:15.40,0:02:15.44,Signs,,0,0,0,,THE WEDDING BANQUET AND THE TWO GUNSHOTS
-Dialogue: 0,0:02:15.44,0:02:15.49,Signs,,0,0,0,,THE WEDDING BANQUET AND THE TWO GUNSHOTS
-Dialogue: 0,0:02:15.49,0:02:15.53,Signs,,0,0,0,,THE WEDDING BANQUET AND THE TWO GUNSHOTS
-Dialogue: 0,0:02:15.53,0:02:15.57,Signs,,0,0,0,,THE WEDDING BANQUET AND THE TWO GUNSHOTS
-Dialogue: 0,0:02:15.57,0:02:15.61,Signs,,0,0,0,,THE WEDDING BANQUET AND THE TWO GUNSHOTS
-Dialogue: 0,0:02:15.61,0:02:15.65,Signs,,0,0,0,,THE WEDDING BANQUET AND THE TWO GUNSHOTS
-Dialogue: 0,0:02:15.65,0:02:15.69,Signs,,0,0,0,,THE WEDDING BANQUET AND THE TWO GUNSHOTS
-Dialogue: 0,0:02:15.69,0:02:15.74,Signs,,0,0,0,,THE WEDDING BANQUET AND THE TWO GUNSHOTS
-Dialogue: 0,0:02:15.74,0:02:21.37,Signs,,0,0,0,,THE WEDDING BANQUET AND THE TWO GUNSHOTS
 Dialogue: 0,0:03:15.46,0:03:20.18,Signs,,0,0,0,,Masaru Hatakeyama (28)\NGroom/Head of the Hatakeyama Group
 Dialogue: 0,0:03:15.46,0:03:20.18,Signs,,0,0,0,,Miho Itō (26)\NBride
 Dialogue: 0,0:03:57.46,0:04:02.76,Signs,,0,0,0,,Yuuko Hatakeyama (62)\NMasaru's mother
@@ -70,7 +60,7 @@ Dialogue: 0,0:00:46.69,0:00:50.40,BCPrologue,,0,0,0,,{\blur3}Gunshots aimed at a
 Dialogue: 0,0:00:50.40,0:00:52.03,BCPrologue,,0,0,0,,{\blur3}He sees the single truth for what it is,
 Dialogue: 0,0:00:52.03,0:00:54.11,BCPrologue,,0,0,0,,{\blur3}and looks like a kid but has the mind of an adult!
 Dialogue: 0,0:00:54.11,0:00:56.82,BCPrologue,,0,0,0,,{\blur3}His name? Detective Conan!
-Dialogue: 0,0:00:29.92,0:00:34.97,ButterflyCore,,0,0,0,,{\blur4}{\fad(200,0)}kage o mau chō no kodō ga seijaku no umi o saite
+Dialogue: 0,0:00:29.92,0:00:34.97,ButterflyCore,,0,0,0,,{\blur4\fad(200,0)}kage o mau chō no kodō ga seijaku no umi o saite
 Dialogue: 0,0:00:35.13,0:00:42.31,ButterflyCore,,0,0,0,,{\blur4}kasanariau koe ga ima yami o furiharatta
 Dialogue: 0,0:00:56.82,0:01:02.24,ButterflyCore,,0,0,0,,{\blur4\c&H005500}haritsuita ase o nugutte nigemawaru light o ketta
 Dialogue: 0,0:01:02.62,0:01:07.92,ButterflyCore,,0,0,0,,{\blur4\c&H005500}kanashimi ni utareta kyō no kizuato kabau yō ni
@@ -82,7 +72,7 @@ Dialogue: 0,0:01:30.27,0:01:35.32,ButterflyCore,,0,0,0,,{\blur4\c&HAA0000}kage o
 Dialogue: 0,0:01:35.49,0:01:40.83,ButterflyCore,,0,0,0,,{\blur4\c&H000077}kimi ni miseru itsuwari no subete ga uso ja nai daro
 Dialogue: 0,0:01:40.99,0:01:46.46,ButterflyCore,,0,0,0,,{\blur4\c&HAA0000}mayo'u tabi suteta kotae mo kitto erabu hi wa mata kuru kara
 Dialogue: 0,0:01:46.62,0:01:55.55,ButterflyCore,,0,0,0,,{\blur4\c&H006600}kono kokoro wa dare yori mo atsuku moyashi tsuzukeyō kienai yō ni
-Dialogue: 0,0:02:05.43,0:02:11.02,ButterflyCore,,0,0,0,,{\blur4\c&H006600}{\fad(0,1000)}kienai yō ni
+Dialogue: 0,0:02:05.43,0:02:11.02,ButterflyCore,,0,0,0,,{\blur4\c&H006600\fad(0,1000)}kienai yō ni
 Dialogue: 0,0:00:29.92,0:00:34.97,ButterflyCore2,,0,0,0,,{\fad(200,0)}kage o mau chō no kodō ga seijaku no umi o saite
 Dialogue: 0,0:00:35.13,0:00:42.31,ButterflyCore2,,0,0,0,,kasanariau koe ga ima yami o furiharatta
 Dialogue: 0,0:00:56.82,0:01:02.24,ButterflyCore2,,0,0,0,,haritsuita ase o nugutte nigemawaru light o ketta
@@ -105,7 +95,7 @@ Dialogue: 0,0:02:53.52,0:03:01.82,Dialogue,,0,0,0,,And when I do go to an occasi
 Dialogue: 0,0:03:02.74,0:03:05.24,Dialogue,,0,0,0,,and I don't get to eat in peace!
 Dialogue: 0,0:03:07.66,0:03:11.08,Dialogue,,0,0,0,,I guess it's tough, being heiress to a financial group.
 Dialogue: 0,0:03:11.54,0:03:15.42,Dialogue,,0,0,0,,Yeah, it is. I bet Masaru{\rHonorifics - Dialogue}-san{\r} feels the same way.
-Dialogue: 0,0:03:15.42,0:03:20.18,Dialogue,,0,0,0,,{\a6}Falling in love at first sight\Nwith the caretaker of his holiday villa...
+Dialogue: 0,0:03:15.42,0:03:20.18,Dialogue Top,,0,0,0,,Falling in love at first sight\Nwith the caretaker of his holiday villa...
 Dialogue: 0,0:03:20.18,0:03:22.55,Dialogue,,0,0,0,,How romantic!
 Dialogue: 0,0:03:27.18,0:03:30.44,Dialogue,,0,0,0,,Ladies and gentlemen, I apologise for the interruption,
 Dialogue: 0,0:03:30.89,0:03:35.61,Dialogue,,0,0,0,,but we would like to hold a round of congratulatory messages from various speakers here.
@@ -113,21 +103,21 @@ Dialogue: 0,0:03:35.61,0:03:39.07,Dialogue,,0,0,0,,But before that, we have an a
 Dialogue: 0,0:03:40.28,0:03:47.91,Dialogue,,0,0,0,,The bride and groom who have just held their solemn marriage\Nceremony at the church, Masaru{\rHonorifics - Dialogue}-san{\r} and Miho{\rHonorifics - Dialogue}-san{\r},
 Dialogue: 0,0:03:48.70,0:03:53.58,Dialogue,,0,0,0,,would like you to know they have already sent their\Nmarriage registration to the ward office yesterday.
 Dialogue: 0,0:03:55.71,0:03:57.25,Dialogue,,0,0,0,,Did you know about that, Mother?
-Dialogue: 0,0:03:57.63,0:04:00.88,Dialogue,,0,0,0,,{\a6}No, I had no idea.
-Dialogue: 0,0:04:00.88,0:04:02.76,Dialogue,,0,0,0,,{\a6}What a selfish thing to do!
+Dialogue: 0,0:03:57.63,0:04:00.88,Dialogue Top,,0,0,0,,No, I had no idea.
+Dialogue: 0,0:04:00.88,0:04:02.76,Dialogue Top,,0,0,0,,What a selfish thing to do!
 Dialogue: 0,0:04:02.76,0:04:07.97,Dialogue,,0,0,0,,I'd like to ask for another show of applause for our happy couple.
-Dialogue: 0,0:04:12.98,0:04:16.15,Dialogue,,0,0,0,,{\a6}What's going on now? There isn't even any wine left!
-Dialogue: 0,0:04:16.15,0:04:18.07,Dialogue,,0,0,0,,{\a6}Hey, Arisa! You're drinking too much.
-Dialogue: 0,0:04:18.07,0:04:22.53,Dialogue,,0,0,0,,{\a6}You be quiet! I'm only here because you insisted I come, Dad.
+Dialogue: 0,0:04:12.98,0:04:16.15,Dialogue Top,,0,0,0,,What's going on now? There isn't even any wine left!
+Dialogue: 0,0:04:16.15,0:04:18.07,Dialogue Top,,0,0,0,,Hey, Arisa! You're drinking too much.
+Dialogue: 0,0:04:18.07,0:04:22.53,Dialogue Top,,0,0,0,,You be quiet! I'm only here because you insisted I come, Dad.
 Dialogue: 0,0:04:23.49,0:04:26.91,Dialogue,,0,0,0,,That girl was one of the many who wanted to marry Masaru{\rHonorifics - Dialogue}-san{\r}.
 Dialogue: 0,0:04:28.29,0:04:31.79,Dialogue,,0,0,0,,Oh, you need some wine? I'll bring some straightaway.
-Dialogue: 0,0:04:33.62,0:04:37.29,Dialogue,,0,0,0,,{\a6}Yoshifumi{\rHonorifics - Dialogue}-kun{\r}, you're the bride's brother...
-Dialogue: 0,0:04:37.29,0:04:39.17,Dialogue,,0,0,0,,{\a6}You should let someone else take care of it.
-Dialogue: 0,0:04:39.17,0:04:42.84,Dialogue,,0,0,0,,{\a6}It's fine. I don't really like sitting still.
-Dialogue: 0,0:04:42.84,0:04:45.51,Dialogue,,0,0,0,,{\a6}I'm more comfortable when I'm up and about.
+Dialogue: 0,0:04:33.62,0:04:37.29,Dialogue Top,,0,0,0,,Yoshifumi{\rHonorifics - Dialogue}-kun{\r}, you're the bride's brother...
+Dialogue: 0,0:04:37.29,0:04:39.17,Dialogue Top,,0,0,0,,You should let someone else take care of it.
+Dialogue: 0,0:04:39.17,0:04:42.84,Dialogue Top,,0,0,0,,It's fine. I don't really like sitting still.
+Dialogue: 0,0:04:42.84,0:04:45.51,Dialogue Top,,0,0,0,,I'm more comfortable when I'm up and about.
 Dialogue: 0,0:04:48.35,0:04:51.56,Dialogue,,0,0,0,,He should've let himself relax today, at least...
 Dialogue: 0,0:04:51.56,0:04:54.10,Dialogue,,0,0,0,,Once a caretaker, always a caretaker.
-Dialogue: 0,0:04:55.02,0:05:00.57,Dialogue,,0,0,0,,{\a6}Honestly! It's hard to bear thinking that that woman\Nwill have the Hatakeyama fortune at her fingertips.
+Dialogue: 0,0:04:55.02,0:05:00.57,Dialogue Top,,0,0,0,,Honestly! It's hard to bear thinking that that woman\Nwill have the Hatakeyama fortune at her fingertips.
 Dialogue: 0,0:05:00.57,0:05:03.53,Dialogue,,0,0,0,,Father will be turning in his grave!
 Dialogue: 0,0:05:05.41,0:05:10.70,Dialogue,,0,0,0,,Now, we will begin with a message\Nfrom Kenshirō Hatakeyama{\rHonorifics - Dialogue}-sama{\r},
 Dialogue: 0,0:05:10.70,0:05:14.79,Dialogue,,0,0,0,,the uncle of the newly-wedded Masaru{\rHonorifics - Dialogue}-san{\r}\Nand the president of Hatakeyama Bank.
@@ -264,8 +254,8 @@ Dialogue: 0,0:14:41.44,0:14:43.78,Dialogue,,0,0,0,,Let's see, it must've been...
 Dialogue: 0,0:14:43.78,0:14:50.20,Dialogue,,0,0,0,,Oh, I got the call at 9:40, so it must've been about 9:45.
 Dialogue: 0,0:14:50.20,0:14:52.62,Thoughts,,0,0,0,,{\be10}9:45...?
 Dialogue: 0,0:14:53.49,0:14:54.95,Thoughts,,0,0,0,,{\be10}What could that mean...?
-Dialogue: 0,0:14:56.37,0:15:01.63,Thoughts,,0,0,0,,{\be10}At 9:45, Miho{\rHonorifics - Thoughts}-san{\r} had only {\i1}just{\i0} left the villa...
-Dialogue: 0,0:15:01.63,0:15:05.21,Thoughts,,0,0,0,,{\be10}That's half an hour before we\Ndiscovered Masaru{\rHonorifics - Thoughts}-san{\r}'s corpse.
+Dialogue: 0,0:14:56.37,0:15:01.63,Thoughts,,0,0,0,,{\be10}At 9:45, Miho{\rHonorifics - Thoughts\be10}-san{\r\be10} had only {\i1}just{\i0} left the villa...
+Dialogue: 0,0:15:01.63,0:15:05.21,Thoughts,,0,0,0,,{\be10}That's half an hour before we\Ndiscovered Masaru{\rHonorifics - Thoughts\be10}-san{\r\be10}'s corpse.
 Dialogue: 0,0:15:11.80,0:15:14.51,Thoughts,,0,0,0,,{\be10}So that's it!
 Dialogue: 0,0:15:14.51,0:15:16.72,Thoughts,,0,0,0,,{\be10}But then that means...
 Dialogue: 0,0:15:16.72,0:15:17.81,Dialogue,,0,0,0,,Hey, kid!
@@ -343,7 +333,6 @@ Dialogue: 0,0:20:21.11,0:20:23.82,Dialogue,,0,0,0,,It made the sound that everyo
 Dialogue: 0,0:20:26.16,0:20:30.33,Dialogue,,0,0,0,,Damn it! This was all my sister's fault!
 Dialogue: 0,0:20:30.33,0:20:36.92,Dialogue,,0,0,0,,She was marrying into a family with billions,\Nbut wouldn't give me anything at all!
 Dialogue: 0,0:20:37.55,0:20:40.84,Dialogue,,0,0,0,,Have you ever heard of someone so heartless?!
-Dialogue: 0,0:20:46.39,0:20:49.85,Signs,,0,0,0,,Ima Aitakute...\N(I want to be with you...)
 Dialogue: 0,0:20:57.69,0:21:05.03,AitakuteRomaji,,0,0,0,,{\blur3}denwa ga naru tabi kono mune ga zawameku
 Dialogue: 0,0:21:05.37,0:21:12.37,AitakuteRomaji,,0,0,0,,{\blur3}demo kikoetekuru no wa kimi no koe ja nai
 Dialogue: 0,0:21:14.54,0:21:21.38,AitakuteRomaji,,0,0,0,,{\blur3}ima kimi wa doko ni iru no nani shite'ru no
@@ -377,7 +366,6 @@ Dialogue: 0,0:23:28.92,0:23:32.76,Thoughts,,0,0,0,,{\be10}My, my... I'll end up 
 Dialogue: 0,0:23:35.35,0:23:37.31,Dialogue,,0,0,0,,G-Great luck?
 Dialogue: 0,0:23:37.81,0:23:41.03,Dialogue,,0,0,0,,I just witnessed a murder taking place!
 Dialogue: 0,0:23:43.53,0:23:49.25,Dialogue,,0,0,0,,On the next Conan Special:\N‘Jodie's Memories and the Flower Viewing Trap'!
-Dialogue: 0,0:23:44.45,0:23:49.25,Signs,,0,0,0,,JODIE'S MEMORIES AND THE FLOWER VIEWING TRAP
 Dialogue: 0,0:23:49.25,0:23:54.25,Dialogue,,0,0,0,,Next Conan's Hint: A five yen coin!
-Dialogue: 0,0:23:54.25,0:23:56.00,Dialogue,,0,0,0,,Next week, an hour-long special!
-Dialogue: 0,0:23:56.00,0:23:59.34,Dialogue,,0,0,0,,It's filled with the FBI and Men in Black!
+Dialogue: 0,0:23:54.25,0:23:56.00,Dialogue Top,,0,0,0,,Next week, an hour-long special!
+Dialogue: 0,0:23:56.00,0:23:59.34,Dialogue Top,,0,0,0,,It's filled with the FBI and Men in Black!

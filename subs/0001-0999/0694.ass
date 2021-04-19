@@ -62,10 +62,10 @@ Style: Phoneradio,Calibri,50,&H0FFDFFC6,&H000000FF,&H00370001,&HC0000000,-1,0,0,
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:01.68,0:00:05.19,Dialogue,,0000,0000,0000,,{\a6}To take advantage of the holiday week, we, the Detective Boys
-Dialogue: 0,0:00:05.19,0:00:06.77,Dialogue,,0000,0000,0000,,{\a6}started off by going to Kyōto.
-Dialogue: 0,0:00:07.82,0:00:09.61,Dialogue,,0000,0000,0000,,{\a6}We're finally in Kyōto!
-Dialogue: 0,0:00:09.61,0:00:11.24,Dialogue,,0000,0000,0000,,{\a6}Isn't this exciting?!
+Dialogue: 0,0:00:01.68,0:00:05.19,Dialogue Top,,0000,0000,0000,,To take advantage of the holiday week, we, the Detective Boys
+Dialogue: 0,0:00:05.19,0:00:06.77,Dialogue Top,,0000,0000,0000,,started off by going to Kyōto.
+Dialogue: 0,0:00:07.82,0:00:09.61,Dialogue Top,,0000,0000,0000,,We're finally in Kyōto!
+Dialogue: 0,0:00:09.61,0:00:11.24,Dialogue Top,,0000,0000,0000,,Isn't this exciting?!
 Dialogue: 0,0:00:11.24,0:00:12.11,Dialogue,,0000,0000,0000,,Yeah!
 Dialogue: 0,0:00:12.11,0:00:16.74,Dialogue,,0000,0000,0000,,But if we're not gonna get on the boat till tomorrow, then why'd we arrive a day early?
 Dialogue: 0,0:00:16.74,0:00:22.58,Dialogue,,0000,0000,0000,,The answer for that, of course, is that since we've come all the way to Kyōto, we should enjoy the food here!
@@ -88,55 +88,27 @@ Dialogue: 0,0:01:01.08,0:01:05.37,Thoughts,,0000,0000,0000,,{\be10}A shocking ca
 Dialogue: 0,0:01:05.37,0:01:06.92,Thoughts,,0000,0000,0000,,{\be10}He sees the single truth for what it is,
 Dialogue: 0,0:01:06.92,0:01:09.09,Thoughts,,0000,0000,0000,,{\be10}and looks like a kid but has the mind of an adult!
 Dialogue: 0,0:01:09.09,0:01:11.10,Thoughts,,0000,0000,0000,,{\be10}His name? Detective Conan!
-Dialogue: 0,0:01:11.10,0:01:14.47,Signs,,0000,0000,0000,,Original Comics by\NGōshō Aoyama\N
 Dialogue: 0,0:01:11.10,0:01:14.47,OPTLTextless,,0000,0000,0000,,{\blur2}Take me to the high, we never cry on
 Dialogue: 0,0:01:14.47,0:01:18.10,OPTLTextless,,0000,0000,0000,,{\blur2}To a tomorrow we've never seen
 Dialogue: 0,0:01:18.14,0:01:21.82,OPTLTextless,,0000,0000,0000,,{\blur2}Try again Try again Try again Always
 Dialogue: 0,0:01:21.82,0:01:25.15,OPTLTextless,,0000,0000,0000,,{\blur2}Try again Try again Try again
-Dialogue: 0,0:01:25.15,0:01:28.20,OPTLTextless,,0000,0000,0000,,{\blur2}{\fad(0,300)}Speak out the truth!
-Dialogue: 0,0:01:34.24,0:01:37.91,Signs,,0000,0000,0000,,Planning\NMichihiko Suwa
-Dialogue: 0,0:01:34.24,0:01:37.91,Signs,,0000,0000,0000,,( )
+Dialogue: 0,0:01:25.15,0:01:28.20,OPTLTextless,,0000,0000,0000,,{\blur2\fad(0,300)}Speak out the truth!
 Dialogue: 0,0:01:34.24,0:01:37.91,OPTLTextless,,0000,0000,0000,,{\blur2}Not knowing exactly what you're searching for
-Dialogue: 0,0:01:37.91,0:01:41.38,Signs,,0000,0000,0000,,Character Design\NMasatomo Sudō\N\NArt Director\NJun'ichi Higashi
 Dialogue: 0,0:01:37.91,0:01:41.38,OPTLTextless,,0000,0000,0000,,{\blur2}living in the moment in your reckless way
-Dialogue: 0,0:01:41.38,0:01:45.01,Signs,,0000,0000,0000,,Director of Photography\NTakahisa Ogawa\N\NSound Directors\NYasuo Uragami\NKeiko Uragami
 Dialogue: 0,0:01:41.38,0:01:45.21,OPTLTextless,,0000,0000,0000,,{\blur2}If you don't brighten up a bit soon
-Dialogue: 0,0:01:45.21,0:01:48.51,Signs,,0000,0000,0000,,Music\NKatsuo Ōno
 Dialogue: 0,0:01:45.21,0:01:48.51,OPTLTextless,,0000,0000,0000,,{\blur2}you'll get crushed by your own anxiety
-Dialogue: 0,0:01:48.51,0:01:52.05,Signs,,0000,0000,0000,,Opening Theme\N「TRY AGAIN」
-Dialogue: 0,0:01:48.51,0:01:52.05,Signs,,0000,0000,0000,,Performed by:\NLyrics:\NMusic:\NArrangement:
-Dialogue: 0,0:01:48.51,0:01:52.05,Signs,,0000,0000,0000,,Mai Kuraki\NMai Kuraki\NAkihito Tokunaga\NCybersound
-Dialogue: 0,0:01:48.51,0:01:52.05,Signs,,0000,0000,0000,,(NORTHERN MUSIC)
 Dialogue: 0,0:01:48.51,0:01:52.05,OPTLTextless,,0000,0000,0000,,{\blur2}Surely you have dreams too?
 Dialogue: 0,0:01:52.05,0:01:55.72,OPTLTextless,,0000,0000,0000,,{\blur2}I want to fulfill them, I want to cry... but I'll still chase them
-Dialogue: 0,0:01:55.72,0:01:59.23,Signs,,0000,0000,0000,,Editor\NTerumitsu Okada\N\NStory Editor\NJun'ichi Iioka\N\NColour Key\NShigenobu Kaihō\N\NExecutive Producer\NSeikō Terajima
 Dialogue: 0,0:01:55.72,0:01:59.23,OPTLTextless,,0000,0000,0000,,{\blur2}Aren't you just quietly giving up?
 Dialogue: 0,0:01:59.23,0:02:03.36,OPTLTextless,,0000,0000,0000,,{\blur2}Can't you see now the reality you've distanced yourself from?
 Dialogue: 0,0:02:04.82,0:02:08.24,OPTLTextless,,0000,0000,0000,,{\blur2}Take me to the high, we never cry on
 Dialogue: 0,0:02:08.24,0:02:11.66,OPTLTextless,,0000,0000,0000,,{\blur2}To a tomorrow we've never seen
-Dialogue: 0,0:02:09.20,0:02:11.66,Signs,,0000,0000,0000,,Planning Assistance\NHiroshi Torimitsu\NKazumasa Ogura\NMasakazu Hakuya
-Dialogue: 0,0:02:11.66,0:02:15.24,Signs,,0000,0000,0000,,Producers\NShūichi Kitada\N\NTakeshi Yamakawa\N\N\N\N\NAssociate Producer\NMitomu Asai
-Dialogue: 0,0:02:11.66,0:02:15.24,Signs,,0000,0000,0000,,( )
-Dialogue: 0,0:02:11.66,0:02:15.24,Signs,,0000,0000,0000,,(TMS/V1 Studio)
 Dialogue: 0,0:02:11.66,0:02:15.24,OPTLTextless,,0000,0000,0000,,{\blur2}Try again Try again Try again Always
 Dialogue: 0,0:02:15.24,0:02:18.96,OPTLTextless,,0000,0000,0000,,{\blur2}Try again Try again Try again
 Dialogue: 0,0:02:18.96,0:02:26.00,OPTLTextless,,0000,0000,0000,,{\blur2}Not everything is bad, we're dreamers after all
-Dialogue: 0,0:02:20.12,0:02:22.58,Signs,,0000,0000,0000,,Chief Producers\NMichihiko Suwa\N\NKei'ichi Ishiyama
-Dialogue: 0,0:02:20.12,0:02:22.58,Signs,,0000,0000,0000,,( )
-Dialogue: 0,0:02:20.12,0:02:22.58,Signs,,0000,0000,0000,,(TMS/V1 Studio)
 Dialogue: 0,0:02:26.00,0:02:29.59,OPTLTextless,,0000,0000,0000,,{\blur2}Try again Try again Try again Always
 Dialogue: 0,0:02:29.59,0:02:33.30,OPTLTextless,,0000,0000,0000,,{\blur2}Try again Try again Try again
-Dialogue: 0,0:02:33.30,0:02:36.72,OPTLTextless,,0000,0000,0000,,{\blur2}{\fad(0,500)}Speak out the truth!
-Dialogue: 0,0:02:52.26,0:02:52.30,Signs,,0000,0000,0000,,The Missing Sweets in the Old Shop
-Dialogue: 0,0:02:52.30,0:02:52.34,Signs,,0000,0000,0000,,The Missing Sweets in the Old Shop
-Dialogue: 0,0:02:52.34,0:02:52.39,Signs,,0000,0000,0000,,The Missing Sweets in the Old Shop
-Dialogue: 0,0:02:52.39,0:02:52.43,Signs,,0000,0000,0000,,The Missing Sweets in the Old Shop
-Dialogue: 0,0:02:52.43,0:02:52.47,Signs,,0000,0000,0000,,The Missing Sweets in the Old Shop
-Dialogue: 0,0:02:52.47,0:02:52.51,Signs,,0000,0000,0000,,The Missing Sweets in the Old Shop
-Dialogue: 0,0:02:52.51,0:02:52.55,Signs,,0000,0000,0000,,The Missing Sweets in the Old Shop
-Dialogue: 0,0:02:52.55,0:02:52.60,Signs,,0000,0000,0000,,The Missing Sweets in the Old Shop
-Dialogue: 0,0:02:52.60,0:02:52.64,Signs,,0000,0000,0000,,The Missing Sweets in the Old Shop
-Dialogue: 0,0:02:52.64,0:02:58.31,Signs,,0000,0000,0000,,The Missing Sweets in the Old Shop
+Dialogue: 0,0:02:33.30,0:02:36.72,OPTLTextless,,0000,0000,0000,,{\blur2\fad(0,500)}Speak out the truth!
 Dialogue: 0,0:02:59.35,0:03:03.56,Dialogue,,0000,0000,0000,,Our special dough glazed with rice bran oil, a release agent,
 Dialogue: 0,0:03:03.56,0:03:05.82,Dialogue,,0000,0000,0000,,is poured into the Kyō no Tori moulds, and...
 Dialogue: 0,0:03:06.36,0:03:08.78,Dialogue,,0000,0000,0000,,Those look really tasty!
@@ -155,7 +127,7 @@ Dialogue: 0,0:03:49.28,0:03:53.78,Dialogue,,0000,0000,0000,,Hey, is it true? I h
 Dialogue: 0,0:03:53.78,0:03:55.62,Dialogue,,0000,0000,0000,,The chocolate ones vanished?
 Dialogue: 0,0:03:55.62,0:03:57.24,Dialogue,,0000,0000,0000,,What does he mean by 'vanished'?
 Dialogue: 0,0:03:57.45,0:04:00.87,Signs,,0000,0000,0000,,Kōzō Umehara (63)\NUmehara President
-Dialogue: 0,0:03:57.79,0:04:00.87,Dialogue,,0000,0000,0000,,{\a6}Yeah! How did this happen?!
+Dialogue: 0,0:03:57.79,0:04:00.87,Dialogue Top,,0000,0000,0000,,Yeah! How did this happen?!
 Dialogue: 0,0:04:01.96,0:04:04.25,Dialogue,,0000,0000,0000,,We don't quite know how.
 Dialogue: 0,0:04:04.25,0:04:04.92,Dialogue,,0000,0000,0000,,You don't know?
 Dialogue: 0,0:04:06.84,0:04:13.05,Dialogue,,0000,0000,0000,,I'm sure that the Umehara{梅はら} chefs delivered them this morning, but well...
@@ -222,7 +194,7 @@ Dialogue: 0,0:07:41.43,0:07:42.09,Dialogue,,0000,0000,0000,,And you are?
 Dialogue: 0,0:07:42.80,0:07:45.43,Dialogue,,0000,0000,0000,,Inspector{keibu} Ayanokōji from the Kyōto Police, right?
 Dialogue: 0,0:07:46.56,0:07:48.93,Dialogue,,0000,0000,0000,,And just what is such an inspector doing here?
 Dialogue: 0,0:07:49.22,0:07:54.31,Signs,,0000,0000,0000,,Fumimaro Ayanokōji\NKyōto Prefectural Police — Division 1 Inspector
-Dialogue: 0,0:07:49.27,0:07:54.31,Dialogue,,0000,0000,0000,,{\a6}Well, I'm off duty for today, so I was taking this little guy for a walk.
+Dialogue: 0,0:07:49.27,0:07:54.31,Dialogue Top,,0000,0000,0000,,Well, I'm off duty for today, so I was taking this little guy for a walk.
 Dialogue: 0,0:07:55.44,0:07:56.02,Dialogue,,0000,0000,0000,,I see...
 Dialogue: 0,0:07:56.57,0:07:59.40,Dialogue,,0000,0000,0000,,Do you even need to walk chipmunks?
 Dialogue: 0,0:07:59.40,0:08:00.61,Dialogue,,0000,0000,0000,,Who knows...
@@ -304,7 +276,6 @@ Dialogue: 0,0:11:59.69,0:12:01.61,Dialogue,,0000,0000,0000,,So it started with 1
 Dialogue: 0,0:12:01.61,0:12:05.78,Dialogue,,0000,0000,0000,,Still, I can't believe they went missing from every single shop.
 Dialogue: 0,0:12:05.78,0:12:08.03,Dialogue,,0000,0000,0000,,Do you have any idea of what could've happened?
 Dialogue: 0,0:12:09.62,0:12:13.21,Dialogue,,0000,0000,0000,,Maybe it's the late president cursing us...
-Comment: 0,0:12:13.21,0:12:14.04,Dialogue,,0000,0000,0000,,Hah...
 Dialogue: 0,0:12:16.58,0:12:18.67,Dialogue,,0000,0000,0000,,Conan{\rHonorifics - Dialogue}-kun{\r}, Mitsuhiko here.
 Dialogue: 0,0:12:19.13,0:12:24.93,Dialogue,,0000,0000,0000,,All they knew was that there was an 8 in the right half of the number.
 Dialogue: 0,0:12:24.93,0:12:27.14,Dialogue,,0000,0000,0000,,So there was a 8 in the right half.
@@ -340,7 +311,7 @@ Dialogue: 0,0:14:07.15,0:14:10.16,Dialogue,,0000,0000,0000,,I forgot you hated g
 Dialogue: 0,0:14:10.16,0:14:11.16,Dialogue,,0000,0000,0000,,Sorry...
 Dialogue: 0,0:14:17.71,0:14:19.17,Dialogue,,0000,0000,0000,,Inspector Ayanokōji!
 Dialogue: 0,0:14:20.29,0:14:22.84,Dialogue,,0000,0000,0000,,Detective Kurumazaki, thank you.
-Dialogue: 0,0:14:22.84,0:14:29.43,Dialogue,,0000,0000,0000,,{\a6}The suspect's car was spotted by the N System camera here, on Marutamachidōri{丸太町通り}, ten minutes ago.
+Dialogue: 0,0:14:22.84,0:14:29.43,Dialogue Top,,0000,0000,0000,,The suspect's car was spotted by the N System camera here, on Marutamachidōri{丸太町通り}, ten minutes ago.
 Dialogue: 0,0:14:23.13,0:14:25.84,CharCards,,0000,0000,0160,,{\fad(250,0)}Detective Kurumazaki\NKyōtō Prefectural Police — Division 1 Detective
 Dialogue: 0,0:14:30.01,0:14:32.43,Dialogue,,0000,0000,0000,,That's close to the Shirakawa store.
 Dialogue: 0,0:14:32.43,0:14:35.93,Dialogue,,0000,0000,0000,,Yes. And this is the picture it took.
@@ -387,7 +358,6 @@ Dialogue: 0,0:17:05.67,0:17:08.33,Dialogue,,0000,0000,0000,,How... How could...?
 Dialogue: 0,0:17:08.63,0:17:13.09,Dialogue,,0000,0000,0000,,And the chocolate Kyō no Tori went missing at all of those stores...
 Dialogue: 0,0:17:16.59,0:17:19.35,Dialogue,,0000,0000,0000,,Mouri-{\i1}han{\i0}, Mouri-{\i1}han{\i0}...
 Dialogue: 0,0:17:19.35,0:17:20.60,Dialogue,,0000,0000,0000,,Mouri-{\i1}han{\i0}!
-Comment: 0,0:17:20.60,0:17:21.97,Dialogue,,0000,0000,0000,,H-hmm?
 Dialogue: 0,0:17:21.97,0:17:23.64,Dialogue,,0000,0000,0000,,Mouri-{\i1}han{\i0} isn't back yet?
 Dialogue: 0,0:17:24.56,0:17:27.65,Dialogue,,0000,0000,0000,,Uncle should be back any minute.
 Dialogue: 0,0:17:27.65,0:17:29.27,Dialogue,,0000,0000,0000,,So how'd it go?
@@ -445,16 +415,14 @@ Dialogue: 0,0:20:44.47,0:20:46.30,Dialogue,,0000,0000,0000,,It's not like that!
 Dialogue: 0,0:20:47.18,0:20:49.47,Dialogue,,0000,0000,0000,,It's not like that at all...
 Dialogue: 0,0:20:49.47,0:20:55.73,Dialogue,,0000,0000,0000,,That's why we didn't want to start selling chocolate ones on the day of his death no matter what.
 Dialogue: 0,0:20:55.73,0:21:02.44,Dialogue,,0000,0000,0000,,But we're sorry — we never thought it would end up like this...
-Dialogue: 0,0:21:02.44,0:22:48.70,Dialogue,,0000,0000,0000,,{REMAINING SUBS ARE OFF BY CA. 15 SECONDS DUE TO CACKED-UP VIDEO EDITING. -uso.}
-Dialogue: 0,0:21:24.96,0:21:32.76,HitomiRomaji,,0000,0000,0000,,{\3c&HFFD4D4&}{\blur4}miagetara haru no ame machi ni oritekita
-Dialogue: 0,0:21:24.96,0:21:28.84,Signs,,0000,0000,0000,,Hitomi no Melody (The melody in your eyes)
-Dialogue: 0,0:21:32.97,0:21:40.68,HitomiRomaji,,0000,0000,0000,,{\3c&HFFD4D4&}{\blur4}kimi no aruku michi nurashite yuku
-Dialogue: 0,0:21:41.56,0:21:49.52,HitomiRomaji,,0000,0000,0000,,{\3c&HFFD4D4&}{\blur4}kinō sasatta toge no yō na kimi no kotoba hitotsu
-Dialogue: 0,0:21:49.73,0:21:57.20,HitomiRomaji,,0000,0000,0000,,{\3c&HFFD4D4&}{\blur4}mada honto wa nani mo shiranai yo
+Dialogue: 0,0:21:24.96,0:21:32.76,HitomiRomaji,,0000,0000,0000,,{\3c&HFFD4D4&\blur4}miagetara haru no ame machi ni oritekita
+Dialogue: 0,0:21:32.97,0:21:40.68,HitomiRomaji,,0000,0000,0000,,{\3c&HFFD4D4&\blur4}kimi no aruku michi nurashite yuku
+Dialogue: 0,0:21:41.56,0:21:49.52,HitomiRomaji,,0000,0000,0000,,{\3c&HFFD4D4&\blur4}kinō sasatta toge no yō na kimi no kotoba hitotsu
+Dialogue: 0,0:21:49.73,0:21:57.20,HitomiRomaji,,0000,0000,0000,,{\3c&HFFD4D4&\blur4}mada honto wa nani mo shiranai yo
 Dialogue: 0,0:21:58.82,0:22:15.34,HitomiRomaji,,0000,0000,0000,,{\blur4}sunao ni nareba kodoku nante nai yo hitori de wa nai kara
 Dialogue: 0,0:22:16.01,0:22:23.85,HitomiRomaji,,0000,0000,0000,,{\blur4\3c&HEFF9FD&}don'na mirai kimi to mirai
 Dialogue: 0,0:22:24.10,0:22:33.36,HitomiRomaji,,0000,0000,0000,,{\blur4\3c&HEFF9FD&}sono hitomi no shita e to tashikame ni yuku yo
-Dialogue: 0,0:22:33.73,0:22:41.41,HitomiRomaji,,0000,0000,0000,,{\blur4\3c&HEFF9FD&}{\fad(0,750)}yukkuri to orite yuku kara
+Dialogue: 0,0:22:33.73,0:22:41.41,HitomiRomaji,,0000,0000,0000,,{\blur4\3c&HEFF9FD&\fad(0,750)}yukkuri to orite yuku kara
 Dialogue: 0,0:22:48.52,0:22:51.78,Dialogue,,0000,0000,0000,,Are you sure you don't want to file for damages?
 Dialogue: 0,0:22:51.78,0:22:56.49,Dialogue,,0000,0000,0000,,I am. Their skills come from the late president, after all.
 Dialogue: 0,0:22:56.49,0:22:57.58,Dialogue,,0000,0000,0000,,I see.
@@ -479,15 +447,12 @@ Dialogue: 0,0:24:01.35,0:24:04.14,Dialogue,,0000,0000,0000,,Back then, nobody co
 Dialogue: 0,0:24:04.64,0:24:07.44,Dialogue,,0000,0000,0000,,That as we were sleeping, exhausted from the case yesterday...
 Dialogue: 0,0:24:07.44,0:24:11.23,Dialogue,,0000,0000,0000,,The curtain to a huge case was slowly beginning to rise...
 Dialogue: 0,0:24:11.23,0:24:13.92,Dialogue,,0000,0000,0000,,On the Aegis warship we were to board the next day...
-Dialogue: 0,0:24:13.40,0:24:15.24,Dialogue,,0000,0000,0000,,{NCH & Conte}
 Dialogue: 0,0:24:14.61,0:24:16.49,Dialogue,,0000,0000,0000,,An innovative winery!
 Dialogue: 0,0:24:16.49,0:24:18.49,Dialogue,,0000,0000,0000,,A case occurs revolving around quality!{hinshitsu megutte jiken hassei!}
 Dialogue: 0,0:24:18.49,0:24:20.28,Dialogue,,0000,0000,0000,,An alibi trick hidden within the fields!{hatake o hasanda alibi trick!}
 Dialogue: 0,0:24:20.28,0:24:23.83,Dialogue,,0000,0000,0000,,Detective Conan: 'The Roses in the Vineyard'!
 Dialogue: 0,0:24:23.83,0:24:26.62,Dialogue,,0000,0000,0000,,Broadcast Saturday, April 27th, at 6 PM!
-Dialogue: 0,0:24:26.62,0:24:29.80,Signs,,0000,0000,0000,,The Roses in the Vineyard
 Dialogue: 0,0:24:29.80,0:24:34.68,Dialogue,,0000,0000,0000,,Next Conan's Hint: Types of grapes!
 Dialogue: 0,0:24:34.68,0:24:36.34,Dialogue,,0000,0000,0000,,The movie's in the cinemas starting today!
 Dialogue: 0,0:24:36.34,0:24:38.14,Dialogue,,0000,0000,0000,,With the star being Sleeping Kogorō?!
 Dialogue: 0,0:24:38.14,0:24:40.10,Dialogue,,0000,0000,0000,,That wouldn't go well.
-Dialogue: 0,0:24:40.10,0:24:42.10,Dialogue,,0000,0000,0000,,

@@ -58,12 +58,9 @@ Style: Copy of TitleCard,X-FilesM,40,&H00FFFFFF,&H000000FF,&H00A7A7A7,&HC0000000
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Comment: 0,0:00:26.51,0:00:27.60,Dialogue,,0000,0000,0000,,Augh!
-Comment: 0,0:11:32.55,0:11:33.83,Dialogue,,0000,0000,0000,,What?!
-Comment: 0,0:11:55.15,0:11:57.45,Dialogue,,0000,0000,0000,,Sign: Beika Central Hospital
-Dialogue: 0,0:00:00.77,0:00:06.61,Narr,,0000,0000,0000,,{\a6\blur3}One morning on a day off from school, we went to the outskirts of Beika to do an art project for homework.
-Dialogue: 0,0:00:07.27,0:00:08.54,Dialogue,,0000,0000,0000,,{\a6}H-Hey!
-Dialogue: 0,0:00:08.54,0:00:10.67,Dialogue,,0000,0000,0000,,{\a6}Could that be—?
+Dialogue: 0,0:00:00.77,0:00:06.61,Narr,,0000,0000,0000,,{\an8\blur3}One morning on a day off from school, we went to the outskirts of Beika to do an art project for homework.
+Dialogue: 0,0:00:07.27,0:00:08.54,Dialogue Top,,0000,0000,0000,,H-Hey!
+Dialogue: 0,0:00:08.54,0:00:10.67,Dialogue Top,,0000,0000,0000,,Could that be—?
 Dialogue: 0,0:00:10.67,0:00:12.28,Dialogue,,0000,0000,0000,,It is!
 Dialogue: 0,0:00:12.28,0:00:14.79,Dialogue,,0000,0000,0000,,It's definitely a UFO!
 Dialogue: 0,0:00:14.79,0:00:16.20,Dialogue,,0000,0000,0000,,Like the one that Adamski saw!
@@ -72,12 +69,12 @@ Dialogue: 0,0:00:18.47,0:00:19.46,Dialogue,,0000,0000,0000,,Hey, hey...
 Dialogue: 0,0:00:20.07,0:00:21.45,Dialogue,,0000,0000,0000,,Edogawa{\rHonorifics - Dialogue}-kun{\r}!
 Dialogue: 0,0:00:21.45,0:00:21.87,Dialogue,,0000,0000,0000,,Over there.
 Dialogue: 0,0:00:28.56,0:00:30.76,Dialogue,,0000,0000,0000,,What in the world...
-Dialogue: 0,0:00:32.88,0:00:36.68,Narration Off,,0000,0000,0000,,{\be10}Seeking comprehensive answers,\N he solves every mystery and code!
-Dialogue: 0,0:00:36.68,0:00:38.43,Narration Off,,0000,0000,0000,,{\be10}A crashed UFO spotted at a riverbank.
-Dialogue: 0,0:00:38.43,0:00:41.06,Narration Off,,0000,0000,0000,,{\be10}What was the victim hiding?
-Dialogue: 0,0:00:41.06,0:00:42.60,Narration Off,,0000,0000,0000,,{\be10}He sees the single truth for what it is,
-Dialogue: 0,0:00:42.60,0:00:44.26,Narration Off,,0000,0000,0000,,{\be10}and looks like a kid but has the mind of an adult!
-Dialogue: 0,0:00:44.27,0:00:46.65,Narration Off,,0000,0000,0000,,{\be10}His name? Detective Conan!
+Dialogue: 0,0:00:32.88,0:00:36.68,Narration Off,,0000,0000,0000,,{\be10\c&HAAAA00\t(0,3800,\c)}Seeking comprehensive answers,\Nhe solves every mystery and code!
+Dialogue: 0,0:00:36.68,0:00:38.43,Narration Off,,0000,0000,0000,,{\be10\t(0,1750,\c&H88AA00)}A crashed UFO spotted at a riverbank.
+Dialogue: 0,0:00:38.43,0:00:41.06,Narration Off,,0000,0000,0000,,{\be10\c&H88AA00)}What was the victim hiding?
+Dialogue: 0,0:00:41.06,0:00:42.60,Narration Off,,0000,0000,0000,,{\be10\c&H88AA00)\t(0,1540,\c)}He sees the single truth for what it is,
+Dialogue: 0,0:00:42.60,0:00:44.26,Narration Off,,0000,0000,0000,,{\be10\t(0,1660,\c&HAA00AA)}and looks like a kid but has the mind of an adult!
+Dialogue: 0,0:00:44.27,0:00:46.65,Narration Off,,0000,0000,0000,,{\be10\c&HAA00AA\t(0,1870,\c&H0000FF)}His name? Detective Conan!
 Dialogue: 0,0:02:35.13,0:02:35.84,Dialogue,,0000,0000,0000,,Right now, we know that—
 Dialogue: 0,0:02:35.84,0:02:36.80,Dialogue,,0000,0000,0000,,Detective Takagi!
 Dialogue: 0,0:02:38.26,0:02:40.01,Dialogue,,0000,0000,0000,,Y-You guys!
@@ -122,8 +119,8 @@ Dialogue: 0,0:04:30.08,0:04:31.58,Dialogue,,0000,0000,0000,,I'm taking this back
 Dialogue: 0,0:04:31.58,0:04:35.12,Dialogue,,0000,0000,0000,,T-Taking it back? Who are you...
 Dialogue: 0,0:04:35.12,0:04:38.58,Dialogue,,0000,0000,0000,,M-Me? I'm...
 Dialogue: 0,0:04:39.88,0:04:46.17,Signs,,0000,0000,0000,,Shōzō Onuma (58)\NUFO researcher
-Dialogue: 0,0:04:39.88,0:04:43.30,Dialogue,,0000,0000,0000,,{\a6}I'm a physics researcher, Shōzō Onuma.
-Dialogue: 0,0:04:43.30,0:04:46.17,Dialogue,,0000,0000,0000,,{\a6}For 30 years, I've dedicated myself
+Dialogue: 0,0:04:39.88,0:04:43.30,Dialogue Top,,0000,0000,0000,,I'm a physics researcher, Shōzō Onuma.
+Dialogue: 0,0:04:43.30,0:04:46.17,Dialogue Top,,0000,0000,0000,,For 30 years, I've dedicated myself
 Dialogue: 0,0:04:46.17,0:04:50.93,Dialogue,,0000,0000,0000,,to developing this flying saucer!
 Dialogue: 0,0:04:51.90,0:04:55.64,Dialogue,,0000,0000,0000,,So it didn't come from outer space?
 Dialogue: 0,0:04:55.64,0:05:00.09,Dialogue,,0000,0000,0000,,Exactly. It's from my laboratory nearby.
@@ -182,7 +179,6 @@ Dialogue: 0,0:07:26.00,0:07:29.38,Dialogue,,0000,0000,0000,,All right! Let's go 
 Dialogue: 0,0:07:29.38,0:07:30.31,Dialogue,,0000,0000,0000,,Yeah!
 Dialogue: 0,0:07:31.09,0:07:34.13,Dialogue,,0000,0000,0000,,Somehow I don't think it'll live up to their expectations...
 Dialogue: 0,0:07:34.13,0:07:36.43,Signs,,0000,0000,0000,,Let the UFO fly to outer space
-Dialogue: 0,0:07:34.13,0:07:36.43,Signs,,0000,0000,0000,,.
 Dialogue: 0,0:07:44.70,0:07:47.94,Dialogue,,0000,0000,0000,,So what do you think of Onuma Flying Saucer Research Laboratory?
 Dialogue: 0,0:07:47.94,0:07:49.95,Dialogue,,0000,0000,0000,,Umm, well...
 Dialogue: 0,0:07:49.94,0:07:52.57,Dialogue,,0000,0000,0000,,Let's look for clues to find the killer!
@@ -218,7 +214,7 @@ Dialogue: 0,0:09:08.56,0:09:09.35,Dialogue,,0000,0000,0000,,Chiba!
 Dialogue: 0,0:09:09.35,0:09:14.57,Dialogue,,0000,0000,0000,,From my research, Osamu Iwabuchi{\rHonorifics - Dialogue}-san{\r} had a friend who was like a brother.
 Dialogue: 0,0:09:15.78,0:09:18.07,Dialogue,,0000,0000,0000,,This is the victim, Iwabuchi{\rHonorifics - Dialogue}-san{\r}.
 Dialogue: 0,0:09:18.08,0:09:18.99,Dialogue,,0000,0000,0000,,Indeed.
-Dialogue: 0,0:09:18.99,0:09:25.00,Dialogue,,0000,0000,0000,,{\a6}And the other guy is Iwabuchi{\rHonorifics - Dialogue}-san{\r}'s friend, Sadao Man'nen.
+Dialogue: 0,0:09:18.99,0:09:25.00,Dialogue Top,,0000,0000,0000,,And the other guy is Iwabuchi{\rHonorifics - Dialogue}-san{\r}'s friend, Sadao Man'nen.
 Dialogue: 0,0:09:21.16,0:09:25.00,Signs,,0000,0000,0000,,Sadao Man'nen (33)\NDebt Collector
 Dialogue: 0,0:09:25.00,0:09:26.37,Dialogue,,0000,0000,0000,,Man'nen?!
 Dialogue: 0,0:09:26.37,0:09:29.25,Dialogue,,0000,0000,0000,,Yesterday, they were at a restaurant...
@@ -233,9 +229,7 @@ Dialogue: 0,0:09:54.61,0:09:56.10,Dialogue,,0000,0000,0000,,You're right.
 Dialogue: 0,0:09:56.11,0:09:59.95,Dialogue,,0000,0000,0000,,No offence, but nothing here looks like it's actually worth much...
 Dialogue: 0,0:09:59.95,0:10:03.45,Dialogue,,0000,0000,0000,,Yeah, there is! That treasure!
 Dialogue: 0,0:18:37.25,0:18:41.25,Signs,,0000,0000,0000,,Let the UFO fly to outer space
-Dialogue: 0,0:18:37.25,0:18:41.25,Signs,,0000,0000,0000,,.
 Dialogue: 0,0:10:04.41,0:10:11.96,Signs,,0000,0000,0000,,Let the UFO fly to outer space
-Dialogue: 0,0:10:04.41,0:10:11.96,Signs,,0000,0000,0000,,.
 Dialogue: 0,0:10:05.34,0:10:07.62,Dialogue,,0000,0000,0000,,I bought it at the end of last month.
 Dialogue: 0,0:10:07.62,0:10:11.96,Dialogue,,0000,0000,0000,,It was supposedly the work of a famous calligrapher, and I paid ¥50,000 for it!
 Dialogue: 0,0:10:11.96,0:10:13.71,Dialogue,,0000,0000,0000,,¥50,000?!
@@ -400,7 +394,7 @@ Dialogue: 0,0:19:02.38,0:19:07.36,Dialogue,,0000,0000,0000,,I have to return it 
 Dialogue: 0,0:19:08.36,0:19:11.20,Dialogue,,0000,0000,0000,,He's not here. Lucky me!
 Dialogue: 0,0:19:11.20,0:19:12.33,Dialogue,,0000,0000,0000,,Are you Sadao Man'nen?
 Dialogue: 0,0:19:15.71,0:19:18.46,Dialogue,,0000,0000,0000,,You were here last night as well, weren't you?
-Dialogue: 0,0:19:18.46,0:19:25.96,Dialogue,,0000,0000,0000,,With your friend, Osamu Iwabuchi,\N looking for Kinji Ōkura's hidden fortune.
+Dialogue: 0,0:19:18.46,0:19:25.96,Dialogue,,0000,0000,0000,,With your friend, Osamu Iwabuchi,\Nlooking for Kinji Ōkura's hidden fortune.
 Dialogue: 0,0:19:26.34,0:19:29.72,Dialogue,,0000,0000,0000,,However, you were caught in an unexpected situation.
 Dialogue: 0,0:19:31.34,0:19:32.35,Dialogue,,0000,0000,0000,,Yeah...
 Dialogue: 0,0:19:32.35,0:19:34.80,Flashback,,0000,0000,0000,,{\be10}It has to be here somewhere.
@@ -456,13 +450,11 @@ Dialogue: 0,0:24:01.64,0:24:02.31,Thoughts,,0000,0000,0000,,{\be10}That's...
 Dialogue: 0,0:24:02.31,0:24:04.15,Thoughts,,0000,0000,0000,,{\be10}A Mystery Train Pass Ring?!
 Dialogue: 0,0:24:08.65,0:24:14.66,Dialogue,,0000,0000,0000,,On the next Conan: 'The Shadow Approaching Haibara's Secret (Part I)'!
 Dialogue: 0,0:24:14.66,0:24:21.41,Dialogue,,0000,0000,0000,,Next Conan's Hint: Shape made by Fingers!
-Dialogue: 0,0:22:06.68,0:22:14.48,HitomiRomaji,,0000,0000,0000,,{\3c&HFFD4D4&}{\blur4}miagetara haru no ame machi ni oritekita
-Dialogue: 0,0:22:14.68,0:22:22.44,HitomiRomaji,,0000,0000,0000,,{\3c&HFFD4D4&}{\blur4}kimi no aruku michi nurashite yuku
-Dialogue: 0,0:22:23.28,0:22:31.24,HitomiRomaji,,0000,0000,0000,,{\3c&HFFD4D4&}{\blur4}kinō sasatta toge no yō na kimi no kotoba hitotsu
-Dialogue: 0,0:22:31.41,0:22:38.92,HitomiRomaji,,0000,0000,0000,,{\3c&HFFD4D4&}{\blur4}mada honto wa nani mo shiranai yo
+Dialogue: 0,0:22:06.68,0:22:14.48,HitomiRomaji,,0000,0000,0000,,{\3c&HFFD4D4&\blur4}miagetara haru no ame machi ni oritekita
+Dialogue: 0,0:22:14.68,0:22:22.44,HitomiRomaji,,0000,0000,0000,,{\3c&HFFD4D4&\blur4}kimi no aruku michi nurashite yuku
+Dialogue: 0,0:22:23.28,0:22:31.24,HitomiRomaji,,0000,0000,0000,,{\3c&HFFD4D4&\blur4}kinō sasatta toge no yō na kimi no kotoba hitotsu
+Dialogue: 0,0:22:31.41,0:22:38.92,HitomiRomaji,,0000,0000,0000,,{\3c&HFFD4D4&\blur4}mada honto wa nani mo shiranai yo
 Dialogue: 0,0:22:40.84,0:22:56.89,HitomiRomaji,,0000,0000,0000,,{\blur4}sunao ni nareba kodoku nante nai yo hitori de wa nai kara
 Dialogue: 0,0:22:57.77,0:23:05.61,HitomiRomaji,,0000,0000,0000,,{\blur4\3c&HEFF9FD&}don'na mirai kimi to mirai
 Dialogue: 0,0:23:05.82,0:23:15.08,HitomiRomaji,,0000,0000,0000,,{\blur4\3c&HEFF9FD&}sono hitomi no shita e to tashikame ni yuku yo
-Dialogue: 0,0:23:15.45,0:23:23.00,HitomiRomaji,,0000,0000,0000,,{\blur4\3c&HEFF9FD&}{\fad(0,750)}yukkuri to orite yuku kara
-Dialogue: 0,0:22:06.68,0:22:10.55,Signs,,0000,0000,0000,,Hitomi no Melody (The melody in your eyes)
-Dialogue: 0,0:24:08.65,0:24:14.66,Signs,,0000,0000,0000,,(Part I)
+Dialogue: 0,0:23:15.45,0:23:23.00,HitomiRomaji,,0000,0000,0000,,{\blur4\3c&HEFF9FD&\fad(0,750)}yukkuri to orite yuku kara

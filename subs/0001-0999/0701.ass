@@ -58,8 +58,8 @@ Style: Copy of TitleCard,X-FilesM,40,&H00FFFFFF,&H000000FF,&H00A7A7A7,&HC0000000
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:07.98,0:00:09.57,Dialogue,,0,0,0,,{\a6}'Mystery Train'?
-Dialogue: 0,0:00:10.40,0:00:11.82,Dialogue,,0,0,0,,{\a6}The Bell Tree Express, huh?
+Dialogue: 0,0:00:07.98,0:00:09.57,Dialogue Top,,0,0,0,,'Mystery Train'?
+Dialogue: 0,0:00:10.40,0:00:11.82,Dialogue Top,,0,0,0,,The Bell Tree Express, huh?
 Dialogue: 0,0:00:12.49,0:00:16.82,Dialogue,,0,0,0,,Never thought Sherry would ride such a ridiculously conspicuous train like that...
 Dialogue: 0,0:00:16.82,0:00:20.33,Dialogue,,0,0,0,,Oh, but isn't it a fitting choice for her?
 Dialogue: 0,0:00:20.70,0:00:23.16,Dialogue,,0,0,0,,Every room on that train is private.
@@ -90,11 +90,11 @@ Dialogue: 0,0:01:52.50,0:01:56.01,Thoughts,,0,0,0,,{\be10}It won't be me who fin
 Dialogue: 0,0:01:58.84,0:02:02.47,Thoughts,,0,0,0,,{\be10}She mustn't be allowed to remain in this world...
 Dialogue: 0,0:02:03.60,0:02:05.14,Thoughts,,0,0,0,,{\be10}Forgive me...
 Dialogue: 0,0:02:05.14,0:02:08.44,Thoughts,,0,0,0,,{\be10}Silver Bullet.
-Dialogue: 0,0:02:11.48,0:02:16.00,Narration Off,,0,0,0,,{\be10}Seeking comprehensive answers, he solves every mystery and code!
-Dialogue: 0,0:02:16.00,0:02:19.87,Narration Off,,0,0,0,,{\be10}As the departure bell rings out, the shadows of the Organisation approach Haibara!
-Dialogue: 0,0:02:19.87,0:02:21.45,Narration Off,,0,0,0,,{\be10}He sees the single truth for what it is,
-Dialogue: 0,0:02:21.45,0:02:23.33,Narration Off,,0,0,0,,{\be10}and looks like a kid but has the mind of an adult!
-Dialogue: 0,0:02:23.33,0:02:25.66,Narration Off,,0,0,0,,{\be10}His name? Detective Conan!
+Dialogue: 0,0:02:11.48,0:02:16.00,Narration Off,,0,0,0,,{\be10\c&HAAAA00\t(0,4520,\c)}Seeking comprehensive answers, he solves every mystery and code!
+Dialogue: 0,0:02:16.00,0:02:19.87,Narration Off,,0,0,0,,{\be10\t(0,1510,\c&H88AA00)}As the departure bell rings out, the shadows of the Organisation approach Haibara!
+Dialogue: 0,0:02:19.87,0:02:21.45,Narration Off,,0,0,0,,{\be10\c&H88AA00)\t(0,1580,\c)}He sees the single truth for what it is,
+Dialogue: 0,0:02:21.45,0:02:23.33,Narration Off,,0,0,0,,{\be10\t(0,1880,\c&HAA00AA)}and looks like a kid but has the mind of an adult!
+Dialogue: 0,0:02:23.33,0:02:25.66,Narration Off,,0,0,0,,{\be10\c&HAA00AA\t(0,1870,\c&H0000FF)}His name? Detective Conan!
 Dialogue: 0,0:04:16.27,0:04:18.31,Dialogue,,0,0,0,,Wow, it's awesome!
 Dialogue: 0,0:04:18.31,0:04:20.57,Dialogue,,0,0,0,,It's the first time I've seen a steam locomotive!
 Dialogue: 0,0:04:20.57,0:04:21.61,Dialogue,,0,0,0,,Me too!
@@ -132,25 +132,25 @@ Dialogue: 0,0:05:59.79,0:06:02.04,Dialogue,,0,0,0,,It's been a long time.
 Dialogue: 0,0:06:02.04,0:06:03.80,Dialogue,,0,0,0,,May I take your luggage?
 Dialogue: 0,0:06:03.80,0:06:05.92,Dialogue,,0,0,0,,Don't worry about this.
 Dialogue: 0,0:06:05.92,0:06:10.05,Dialogue,,0,0,0,,It's a valuable item my client entrusted me with, and it's quite heavy.
-Dialogue: 0,0:06:10.68,0:06:13.14,Dialogue,,0,0,0,,{\a6}Well, the heavy part is the solid-gold picture frame.
-Dialogue: 0,0:06:13.51,0:06:15.81,Dialogue,,0,0,0,,{\a6}The painting's just a counterfeit.
+Dialogue: 0,0:06:10.68,0:06:13.14,Dialogue Top,,0,0,0,,Well, the heavy part is the solid-gold picture frame.
+Dialogue: 0,0:06:13.51,0:06:15.81,Dialogue Top,,0,0,0,,The painting's just a counterfeit.
 Dialogue: 0,0:06:16.14,0:06:19.94,Dialogue,,0,0,0,,The appraiser had finished with it, so I'm escorting it back to my client in Nagoya...
 Dialogue: 0,0:06:20.44,0:06:24.69,Dialogue,,0,0,0,,What? But this is the Mystery Train, destination unknown.
 Dialogue: 0,0:06:24.69,0:06:26.61,Dialogue,,0,0,0,,Why would you think it's headed to Nagoya?
 Dialogue: 0,0:06:26.61,0:06:27.74,Dialogue,,0,0,0,,Come on...
-Dialogue: 0,0:06:28.57,0:06:32.66,Dialogue,,0,0,0,,{\a6}Mr. Conductor... How many years have we been meeting like this?
-Dialogue: 0,0:06:32.66,0:06:39.46,Dialogue,,0,0,0,,{\a6}Anyone can easily deduce that by checking which trains have had their schedules{\rHonorifics - Dialogue} chan{\r}ged today.
+Dialogue: 0,0:06:28.57,0:06:32.66,Dialogue Top,,0,0,0,,Mr. Conductor... How many years have we been meeting like this?
+Dialogue: 0,0:06:32.66,0:06:39.46,Dialogue Top,,0,0,0,,Anyone can easily deduce that by checking which trains have had their schedules{\rHonorifics - Dialogue} chan{\r}ged today.
 Dialogue: 0,0:06:39.46,0:06:40.79,Dialogue,,0,0,0,,R-Right...
-Dialogue: 0,0:06:40.79,0:06:44.46,Dialogue,,0,0,0,,{\a6}The crux of what stimulates our intellect
-Dialogue: 0,0:06:44.46,0:06:46.84,Dialogue,,0,0,0,,{\a6}is the mystery acted out on board this train...
-Dialogue: 0,0:06:47.55,0:06:50.13,Dialogue,,0,0,0,,{\a6}Isn't that right, Sumitomo{\rHonorifics - Dialogue}-san{\r}?
-Dialogue: 0,0:06:50.13,0:06:52.26,Dialogue,,0,0,0,,{\a6}Yes, Mistress...
+Dialogue: 0,0:06:40.79,0:06:44.46,Dialogue Top,,0,0,0,,The crux of what stimulates our intellect
+Dialogue: 0,0:06:44.46,0:06:46.84,Dialogue Top,,0,0,0,,is the mystery acted out on board this train...
+Dialogue: 0,0:06:47.55,0:06:50.13,Dialogue Top,,0,0,0,,Isn't that right, Sumitomo{\rHonorifics - Dialogue}-san{\r}?
+Dialogue: 0,0:06:50.13,0:06:52.26,Dialogue Top,,0,0,0,,Yes, Mistress...
 Dialogue: 0,0:06:52.26,0:06:55.47,Dialogue,,0,0,0,,I should've expected no less from mystery connoisseurs like yourselves.
 Dialogue: 0,0:06:55.47,0:06:56.68,Dialogue,,0,0,0,,I underestimated you.
 Dialogue: 0,0:06:56.68,0:06:57.56,Dialogue,,0,0,0,,Hey, you!
-Dialogue: 0,0:06:58.47,0:07:00.14,Dialogue,,0,0,0,,{\a6}What's going on here?!
-Dialogue: 0,0:07:00.52,0:07:05.15,Dialogue,,0,0,0,,{\a6}I know I reserved my usual room on the first-class car, Carriage 8...
-Dialogue: 0,0:07:05.52,0:07:07.98,Dialogue,,0,0,0,,{\a6}So why'd I get moved to Carriage 7?!
+Dialogue: 0,0:06:58.47,0:07:00.14,Dialogue Top,,0,0,0,,What's going on here?!
+Dialogue: 0,0:07:00.52,0:07:05.15,Dialogue Top,,0,0,0,,I know I reserved my usual room on the first-class car, Carriage 8...
+Dialogue: 0,0:07:05.52,0:07:07.98,Dialogue Top,,0,0,0,,So why'd I get moved to Carriage 7?!
 Dialogue: 0,0:07:08.32,0:07:10.19,Dialogue,,0,0,0,,I do apologise.
 Dialogue: 0,0:07:10.19,0:07:20.29,Dialogue,,0,0,0,,As we mentioned a few days back, we had accidentally double-booked the room, so we had to move you.
 Dialogue: 0,0:07:20.29,0:07:24.96,Dialogue,,0,0,0,,That's my favourite room, and I book it every single year the moment tickets go on sale...
@@ -158,7 +158,7 @@ Dialogue: 0,0:07:24.96,0:07:27.63,Dialogue,,0,0,0,,Where's the jackass who muscl
 Dialogue: 0,0:07:27.63,0:07:29.46,Dialogue,,0,0,0,,I'm the 'jackass' in question.
 Dialogue: 0,0:07:30.80,0:07:32.76,Dialogue,,0,0,0,,Please excuse me...
 Dialogue: 0,0:07:33.26,0:07:36.43,Dialogue,,0,0,0,,You see, my daughter is a friend of the owners of this train.
-Dialogue: 0,0:07:37.64,0:07:44.19,Dialogue,,0,0,0,,{\a6}Anyway, you can be assured that with me on board, no matter what case awaits aboard this train,
+Dialogue: 0,0:07:37.64,0:07:44.19,Dialogue Top,,0,0,0,,Anyway, you can be assured that with me on board, no matter what case awaits aboard this train,
 Dialogue: 0,0:07:46.31,0:07:51.49,Dialogue,,0,0,0,,I, the great detective Poirō Mouri,\Nshall instantly bring the truth to light!
 Dialogue: 0,0:07:55.24,0:07:58.62,Dialogue,,0,0,0,,Hey, Dad! What are you doing?!
 Dialogue: 0,0:07:58.62,0:08:02.62,Dialogue,,0,0,0,,I'm just saying hello to my fellow Carriage 8 passengers...
@@ -402,22 +402,21 @@ Dialogue: 0,0:24:00.57,0:24:06.03,Thoughts,,0,0,0,,{\be10}If the Organisation re
 Dialogue: 0,0:24:06.03,0:24:08.53,Thoughts,,0,0,0,,{\be10}Then I can't...
 Dialogue: 0,0:24:08.53,0:24:14.62,Dialogue,,0,0,0,,On the next Conan: 'The Jet-Black Mystery Train (Tunnel)'!
 Dialogue: 0,0:24:14.62,0:24:19.54,Dialogue,,0,0,0,,Next Conan's Hint: The Conductor's Testimony!
-Dialogue: 0,0:24:19.54,0:24:19.92,Dialogue,,0,0,0,,{\a6}Locked rooms!{Conan}
-Dialogue: 0,0:24:19.92,0:24:20.46,Dialogue,,0,0,0,,{\a6}Building blocks!{Ayumi}
-Dialogue: 0,0:24:20.46,0:24:21.00,Dialogue,,0,0,0,,{\a6}Balloons!{Mitsuhiko}
-Dialogue: 0,0:24:21.00,0:24:21.59,Dialogue,,0,0,0,,{\a6}Eel!{Genta}
-Dialogue: 0,0:24:21.59,0:24:22.05,Dialogue,,0,0,0,,{\a6}Careful investigation!{Haibara}
-Dialogue: 0,0:24:22.05,0:24:22.67,Dialogue,,0,0,0,,{\a6}Locked rooms!{Conan}
-Dialogue: 0,0:24:22.67,0:24:24.13,Dialogue,,0,0,0,,{\a6}Aren't they great?!
-Dialogue: 0,0:22:28.85,0:22:28.89,Signs,,0,0,0,,Hitomi no Melody (The melody in your eyes)
-Dialogue: 0,0:22:25.01,0:22:32.81,HitomiRomaji,,0,0,0,,{\3c&HFFD4D4&}{\blur4}miagetara haru no ame machi ni oritekita
-Dialogue: 0,0:22:33.02,0:22:40.78,HitomiRomaji,,0,0,0,,{\3c&HFFD4D4&}{\blur4}kimi no aruku michi nurashite yuku
-Dialogue: 0,0:22:41.61,0:22:49.58,HitomiRomaji,,0,0,0,,{\3c&HFFD4D4&}{\blur4}kinō sasatta toge no yō na kimi no kotoba hitotsu
-Dialogue: 0,0:22:49.75,0:22:57.25,HitomiRomaji,,0,0,0,,{\3c&HFFD4D4&}{\blur4}mada honto wa nani mo shiranai yo
+Dialogue: 0,0:24:19.54,0:24:19.92,Dialogue Top,,0,0,0,,Locked rooms!{Conan}
+Dialogue: 0,0:24:19.92,0:24:20.46,Dialogue Top,,0,0,0,,Building blocks!{Ayumi}
+Dialogue: 0,0:24:20.46,0:24:21.00,Dialogue Top,,0,0,0,,Balloons!{Mitsuhiko}
+Dialogue: 0,0:24:21.00,0:24:21.59,Dialogue Top,,0,0,0,,Eel!{Genta}
+Dialogue: 0,0:24:21.59,0:24:22.05,Dialogue Top,,0,0,0,,Careful investigation!{Haibara}
+Dialogue: 0,0:24:22.05,0:24:22.67,Dialogue Top,,0,0,0,,Locked rooms!{Conan}
+Dialogue: 0,0:24:22.67,0:24:24.13,Dialogue Top,,0,0,0,,Aren't they great?!
+Dialogue: 0,0:22:25.01,0:22:32.81,HitomiRomaji,,0,0,0,,{\3c&HFFD4D4&\blur4}miagetara haru no ame machi ni oritekita
+Dialogue: 0,0:22:33.02,0:22:40.78,HitomiRomaji,,0,0,0,,{\3c&HFFD4D4&\blur4}kimi no aruku michi nurashite yuku
+Dialogue: 0,0:22:41.61,0:22:49.58,HitomiRomaji,,0,0,0,,{\3c&HFFD4D4&\blur4}kinō sasatta toge no yō na kimi no kotoba hitotsu
+Dialogue: 0,0:22:49.75,0:22:57.25,HitomiRomaji,,0,0,0,,{\3c&HFFD4D4&\blur4}mada honto wa nani mo shiranai yo
 Dialogue: 0,0:22:59.17,0:23:15.23,HitomiRomaji,,0,0,0,,{\blur4}sunao ni nareba kodoku nante nai yo hitori de wa nai kara
 Dialogue: 0,0:23:16.11,0:23:23.95,HitomiRomaji,,0,0,0,,{\blur4\3c&HEFF9FD&}don'na mirai kimi to mirai
 Dialogue: 0,0:23:24.16,0:23:33.42,HitomiRomaji,,0,0,0,,{\blur4\3c&HEFF9FD&}sono hitomi no shita e to tashikame ni yuku yo
-Dialogue: 0,0:23:33.79,0:23:41.21,HitomiRomaji,,0,0,0,,{\blur4\3c&HEFF9FD&}{\fad(0,750)}yukkuri to orite yuku kara
+Dialogue: 0,0:23:33.79,0:23:41.21,HitomiRomaji,,0,0,0,,{\blur4\3c&HEFF9FD&\fad(0,750)}yukkuri to orite yuku kara
 Dialogue: 0,0:06:10.26,0:06:15.81,Signs,,0,0,0,,Satoru Andō (41)\NPassenger in Carriage 8, Room C
 Dialogue: 0,0:06:43.67,0:06:48.76,Signs,,0,0,0,,Natsue Komino (75)\NPassenger in Carriage 8, Room D
 Dialogue: 0,0:06:49.05,0:06:52.26,Signs,,0,0,0,,Hiruka Sumitomo (37)\NPassenger in Carriage 8, Room D
@@ -425,15 +424,4 @@ Dialogue: 0,0:06:29.40,0:06:38.20,Signs,,0,0,0,,Taisaku Noto (52)\NPassenger in 
 Dialogue: 0,0:06:29.40,0:06:38.20,Signs,,0,0,0,,Mari Idemari (33)\NPassenger in Carriage 8, Room E
 Dialogue: 0,0:07:37.56,0:07:45.52,Signs,,0,0,0,,Kogorō Mouri (38)\NPassenger in Carriage 8, Room B
 Dialogue: 0,0:06:59.48,0:07:07.98,Signs,,0,0,0,,Etsuto Murobashi (39)\NPassenger in Carriage 7, Room B
-Dialogue: 0,0:04:05.47,0:04:05.51,Signs,,0,0,0,,(Departure)
-Dialogue: 0,0:04:05.51,0:04:05.55,Signs,,0,0,0,,(Departure)
-Dialogue: 0,0:04:05.55,0:04:05.59,Signs,,0,0,0,,(Departure)
-Dialogue: 0,0:04:05.59,0:04:05.64,Signs,,0,0,0,,(Departure)
-Dialogue: 0,0:04:05.64,0:04:05.68,Signs,,0,0,0,,(Departure)
-Dialogue: 0,0:04:05.68,0:04:05.72,Signs,,0,0,0,,(Departure)
-Dialogue: 0,0:04:05.72,0:04:05.76,Signs,,0,0,0,,(Departure)
-Dialogue: 0,0:04:05.76,0:04:05.80,Signs,,0,0,0,,(Departure)
-Dialogue: 0,0:04:05.80,0:04:05.84,Signs,,0,0,0,,(Departure)
-Dialogue: 0,0:04:05.84,0:04:11.47,Signs,,0,0,0,,(Departure)
-Dialogue: 0,0:24:08.53,0:24:14.62,Signs,,0,0,0,,(Tunnel)
 Dialogue: 0,0:04:12.06,0:04:15.98,PlaceCard,,0,0,130,,{\shad1\fad(400,0)}Tōkyō Station

@@ -36,7 +36,6 @@ Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Comment: 0,0:42:02.79,0:42:05.25,Dialogue,,0000,0000,0000,,{DICTIONARY ENTRY FOR FAKE}
 Dialogue: 0,0:00:01.64,0:00:03.27,Narration Off,,0000,0000,0000,,{\be10}Flowing water has no form.
 Dialogue: 0,0:00:03.27,0:00:05.06,Narration Off,,0000,0000,0000,,{\be10}A blowing wind can't be seen.
 Dialogue: 0,0:00:05.06,0:00:06.31,Narration Off,,0000,0000,0000,,{\be10}All cases can be freely deduced!
@@ -393,8 +392,8 @@ Dialogue: 0,0:20:49.06,0:20:54.69,Dialogue,,0000,0000,0000,,What? You want me to
 Dialogue: 0,0:20:54.69,0:20:56.19,Dialogue,,0000,0000,0000,,N-No...
 Dialogue: 0,0:20:56.48,0:20:58.94,Dialogue,,0000,0000,0000,,All right, then! I'll be waiting for you, dad!
 Dialogue: 0,0:20:58.94,0:20:59.44,Dialogue,,0000,0000,0000,,OK!
-Dialogue: 0,0:21:00.94,0:21:02.86,Flashback,,0000,0000,0000,,{\be10}{\fad(0,250)}I'll be waiting...
-Dialogue: 0,0:21:05.36,0:21:08.49,Flashback,,0000,0000,0000,,{\be10}{\fad(0,250)}I'll be waiting, dad...
+Dialogue: 0,0:21:00.94,0:21:02.86,Flashback,,0000,0000,0000,,{\be10\fad(0,250)}I'll be waiting...
+Dialogue: 0,0:21:05.36,0:21:08.49,Flashback,,0000,0000,0000,,{\be10\fad(0,250)}I'll be waiting, dad...
 Dialogue: 0,0:21:10.08,0:21:12.41,Dialogue,,0000,0000,0000,,Something wrong, Superintendent?
 Dialogue: 0,0:21:13.58,0:21:16.08,Dialogue,,0000,0000,0000,,Oh, no, nothing...
 Dialogue: 0,0:21:16.54,0:21:20.63,Dialogue,,0000,0000,0000,,Then let's start from the top and work down.
@@ -493,7 +492,7 @@ Dialogue: 0,0:25:51.02,0:25:55.90,Dialogue,,0000,0000,0000,,All right then, afte
 Dialogue: 0,0:25:56.74,0:25:59.32,Dialogue,,0000,0000,0000,,I'd appreciate that.
 Dialogue: 0,0:25:59.32,0:26:00.87,Dialogue,,0000,0000,0000,,How much for my drinks?
 Dialogue: 0,0:26:00.87,0:26:03.20,Dialogue,,0000,0000,0000,,Lets see... you had two martinis...
-Dialogue: 0,0:26:01.53,0:26:03.20,Dialogue,,0000,0000,0000,,{\a6}I'll pay my bill too.
+Dialogue: 0,0:26:01.53,0:26:03.20,Dialogue Top,,0000,0000,0000,,I'll pay my bill too.
 Dialogue: 0,0:26:03.79,0:26:06.21,Dialogue,,0000,0000,0000,,H-Huh? My wallet...
 Dialogue: 0,0:26:06.21,0:26:08.79,Dialogue,,0000,0000,0000,,Could this be yours?
 Dialogue: 0,0:26:08.79,0:26:10.33,Dialogue,,0000,0000,0000,,Why, yes, it is!
@@ -516,7 +515,7 @@ Dialogue: 0,0:27:29.79,0:27:31.83,Dialogue,,0000,0000,0000,,Mouri...
 Dialogue: 0,0:27:31.83,0:27:34.42,Dialogue,,0000,0000,0000,,All right, Mouri, let's drink up!
 Dialogue: 0,0:27:34.42,0:27:36.25,Dialogue,,0000,0000,0000,,Sure! I'm with you all the way!
 Dialogue: 0,0:27:37.21,0:27:38.55,Dialogue,,0000,0000,0000,,It's on me!
-Dialogue: 0,0:27:39.67,0:27:42.43,Dialogue,,0000,0000,0000,,{\a6}Gee, that's generous of you!
+Dialogue: 0,0:27:39.67,0:27:42.43,Dialogue Top,,0000,0000,0000,,Gee, that's generous of you!
 Dialogue: 0,0:27:39.67,0:27:45.01,Dialogue,,0000,0000,0000,,I know the old man was in charge of the case,\Nbut don't you think he's a bit obsessed?
 Dialogue: 0,0:27:47.77,0:27:50.73,Dialogue,,0000,0000,0000,,But just like always—
 Dialogue: 0,0:27:50.73,0:27:52.48,Dialogue,,0000,0000,0000,,What was that sound?
@@ -532,7 +531,7 @@ Dialogue: 0,0:28:18.80,0:28:21.84,Dialogue,,0000,0000,0000,,Hey, Kudo, do you th
 Dialogue: 0,0:28:21.84,0:28:24.22,Dialogue,,0000,0000,0000,,No. Look at that, Hattori.
 Dialogue: 0,0:28:24.22,0:28:25.26,Dialogue,,0000,0000,0000,,What?!
 Dialogue: 0,0:28:26.14,0:28:27.18,Dialogue,,0000,0000,0000,,What is this?
-Dialogue: 0,0:28:27.18,0:28:30.89,Dialogue,,0000,0000,0000,,{\a6\fs28}"My phantom shall rise from the dead with the help of Poseidon"
+Dialogue: 0,0:28:27.18,0:28:30.89,Dialogue Top,,0000,0000,0000,,"My phantom shall rise from the dead with the help of Poseidon"
 Dialogue: 0,0:28:28.06,0:28:29.85,Dialogue,,0000,0000,0000,,There's somethin' written on this 10,000 yen note!
 Dialogue: 0,0:28:30.89,0:28:33.10,Dialogue,,0000,0000,0000,,Don't touch the knife!
 Dialogue: 0,0:28:33.10,0:28:36.65,Dialogue,,0000,0000,0000,,Who're you talking to? I'm no amateur!
@@ -837,7 +836,7 @@ Dialogue: 0,0:46:37.98,0:46:40.90,Dialogue,,0000,0000,0000,,Hey, have you seen t
 Dialogue: 0,0:46:40.90,0:46:42.77,Dialogue,,0000,0000,0000,,Kansai accent?
 Dialogue: 0,0:46:42.77,0:46:45.69,Dialogue,,0000,0000,0000,,Oh, he came here to borrow a flashlight.
 Dialogue: 0,0:46:46.57,0:46:47.65,Thoughts,,0000,0000,0000,,{\be10}Flashlight?!
-Dialogue: 0,0:46:48.40,0:46:54.41,Thoughts,,0000,0000,0000,,{\be10}That means there's a good{\rHonorifics - Thoughts} chan{\r}ce he went\Nout on the deck to look for something!
+Dialogue: 0,0:46:48.40,0:46:54.41,Thoughts,,0000,0000,0000,,{\be10}That means there's a good{\rHonorifics - Thoughts\be10} chan{\r\be10}ce he went\Nout on the deck to look for something!
 Dialogue: 0,0:46:55.16,0:46:58.87,Thoughts,,0000,0000,0000,,{\be10}Then that water sound was...
 Dialogue: 0,0:46:59.25,0:47:00.75,Thoughts,,0000,0000,0000,,{\be10}Don't tell me...!
 Dialogue: 0,0:47:01.13,0:47:02.34,Dialogue,,0000,0000,0000,,Hey!
@@ -853,7 +852,7 @@ Dialogue: 0,0:47:21.73,0:47:23.06,Dialogue,,0000,0000,0000,,Hattori...
 Dialogue: 0,0:47:30.32,0:47:32.28,Dialogue,,0000,0000,0000,,It can't be true... It can't!
 Dialogue: 0,0:47:32.28,0:47:33.53,Dialogue,,0000,0000,0000,,Hattori!
 Dialogue: 0,0:47:33.53,0:47:34.99,Dialogue,,0000,0000,0000,,Hey!
-Dialogue: 0,0:47:35.58,0:47:40.00,Dialogue,,0000,0000,0000,,{\fad(0,2000)\fs48}Hattori!
+Dialogue: 0,0:47:35.58,0:47:40.00,Dialogue,,0000,0000,0000,,{\fad(0,2000)}Hattori!
 Dialogue: 0,0:47:46.55,0:47:47.92,Dialogue,,0000,0000,0000,,Hattori!
 Dialogue: 0,0:47:47.92,0:47:48.92,Dialogue,,0000,0000,0000,,Hey, now!
 Dialogue: 0,0:47:50.17,0:47:51.38,Dialogue,,0000,0000,0000,,You've got to be careful!
@@ -925,21 +924,21 @@ Dialogue: 0,0:51:17.88,0:51:24.76,Dialogue,,0000,0000,0000,,The killer could be 
 Dialogue: 0,0:51:24.76,0:51:28.10,Dialogue,,0000,0000,0000,,He could be lying in wait for\None of us to wander off alone!
 Dialogue: 0,0:51:28.10,0:51:29.27,Thoughts,,0000,0000,0000,,{\be10}He's right.
 Dialogue: 0,0:51:29.98,0:51:31.73,Thoughts,,0000,0000,0000,,{\be10}When we heard the first gunshot,
-Dialogue: 0,0:51:31.73,0:51:34.48,Thoughts,,0000,0000,0000,,{\be10}Samezaki{\rHonorifics - Thoughts}-san{\r} was with us in the restaurant,
-Dialogue: 0,0:51:34.48,0:51:36.73,Thoughts,,0000,0000,0000,,{\be10}and Kujirai{\rHonorifics - Thoughts}-san{\r} had just come back from the restroom.
+Dialogue: 0,0:51:31.73,0:51:34.48,Thoughts,,0000,0000,0000,,{\be10}Samezaki{\rHonorifics - Thoughts\be10}-san{\r\be10} was with us in the restaurant,
+Dialogue: 0,0:51:34.48,0:51:36.73,Thoughts,,0000,0000,0000,,{\be10}and Kujirai{\rHonorifics - Thoughts\be10}-san{\r\be10} had just come back from the restroom.
 Dialogue: 0,0:51:37.15,0:51:40.20,Thoughts,,0000,0000,0000,,{\be10}Just as we got to the upper deck,
 Dialogue: 0,0:51:40.20,0:51:41.61,Thoughts,,0000,0000,0000,,{\be10}there was an explosion on the stern,
 Dialogue: 0,0:51:42.36,0:51:44.08,Thoughts,,0000,0000,0000,,{\be10}incinerating the box with the body.
 Dialogue: 0,0:51:45.28,0:51:48.62,Thoughts,,0000,0000,0000,,{\be10}Nobody went missing when we went up on deck,
-Dialogue: 0,0:51:48.62,0:51:54.38,Thoughts,,0000,0000,0000,,{\be10}so Ebina{\rHonorifics - Thoughts}-san{\r} and Isogai{\rHonorifics - Thoughts}-san{\r}\Ncouldn't have set the fire either.
+Dialogue: 0,0:51:48.62,0:51:54.38,Thoughts,,0000,0000,0000,,{\be10}so Ebina{\rHonorifics - Thoughts\be10}-san{\r\be10} and Isogai{\rHonorifics - Thoughts\be10}-san{\r\be10}\Ncouldn't have set the fire either.
 Dialogue: 0,0:51:55.21,0:52:00.63,Thoughts,,0000,0000,0000,,{\be10}We still haven't identified the body.
-Dialogue: 0,0:52:00.63,0:52:04.97,Thoughts,,0000,0000,0000,,{\be10}But the only people who could have\Nlit the fire were Kameda{\rHonorifics - Thoughts}-san{\r}, Kanie{\rHonorifics - Thoughts}-san{\r},
+Dialogue: 0,0:52:00.63,0:52:04.97,Thoughts,,0000,0000,0000,,{\be10}But the only people who could have\Nlit the fire were Kameda{\rHonorifics - Thoughts\be10}-san{\r\be10}, Kanie{\rHonorifics - Thoughts\be10}-san{\r\be10},
 Dialogue: 0,0:52:04.97,0:52:13.23,Thoughts,,0000,0000,0000,,{\be10}and the old man claiming to be Saizo Kano.\NThey were the only three who weren't with us.
 Dialogue: 0,0:52:14.36,0:52:17.23,Thoughts,,0000,0000,0000,,{\be10}But something's bugging me.
 Dialogue: 0,0:52:17.23,0:52:20.15,Thoughts,,0000,0000,0000,,{\be10}Everyone here's giving off weird vibes.
-Dialogue: 0,0:52:20.99,0:52:26.99,Thoughts,,0000,0000,0000,,{\be10}Even Samezaki{\rHonorifics - Thoughts}-san{\r} keeps\Ngetting worked up over nothing.
+Dialogue: 0,0:52:20.99,0:52:26.99,Thoughts,,0000,0000,0000,,{\be10}Even Samezaki{\rHonorifics - Thoughts\be10}-san{\r\be10} keeps\Ngetting worked up over nothing.
 Dialogue: 0,0:52:27.95,0:52:29.75,Thoughts,,0000,0000,0000,,{\be10}What happened?
-Dialogue: 0,0:52:30.45,0:52:34.88,Thoughts,,0000,0000,0000,,{\be10}{\fad(0,500)}What happened in that case 20 years ago?
+Dialogue: 0,0:52:30.45,0:52:34.88,Thoughts,,0000,0000,0000,,{\be10\fad(0,500)}What happened in that case 20 years ago?
 Dialogue: 0,0:52:42.55,0:52:45.76,Dialogue,,0000,0000,0000,,Hang on, I'm going to the bathroom!
 Dialogue: 0,0:52:47.72,0:52:52.56,Thoughts,,0000,0000,0000,,{\be10}Damn, if Hattori were here, he could\Nask the old man about the case!
 Dialogue: 0,0:52:53.77,0:52:55.69,Thoughts,,0000,0000,0000,,{\be10}Where's he gone?!
@@ -975,7 +974,7 @@ Dialogue: 0,0:54:26.57,0:54:27.95,Thoughts,,0000,0000,0000,,{\be10}It couldn't b
 Dialogue: 0,0:54:27.95,0:54:30.03,Thoughts,,0000,0000,0000,,{\be10}It's too much of a coincidence.
 Dialogue: 0,0:54:31.12,0:54:35.96,Thoughts,,0000,0000,0000,,{\be10}Why are there so many people\Nconnected to that case here on this ship?
 Dialogue: 0,0:54:36.58,0:54:40.79,Thoughts,,0000,0000,0000,,{\be10}And who is Masaru Furukawa,\Nthe person who organized this tour?
-Dialogue: 0,0:54:41.50,0:54:45.17,Dialogue,,0000,0000,0000,,{\a6}"Masaru Furukawa"
+Dialogue: 0,0:54:41.50,0:54:45.17,Dialogue Top,,0000,0000,0000,,"Masaru Furukawa"
 Dialogue: 0,0:54:42.21,0:54:45.17,Thoughts,,0000,0000,0000,,{\be10}Who could he be?
 Dialogue: 0,0:54:51.43,0:54:52.97,Radio,,0000,0000,0000,,{\be10}W-What was that sound?
 Dialogue: 0,0:54:52.97,0:54:54.52,Dialogue,,0000,0000,0000,,I have to go now!
@@ -1145,11 +1144,11 @@ Dialogue: 0,1:05:08.84,1:05:12.80,Dialogue,,0000,0000,0000,,can't wait for our s
 Dialogue: 0,1:05:14.63,1:05:16.68,Thoughts,,0000,0000,0000,,{\be10}Masaru Furukawa...
 Dialogue: 0,1:05:17.30,1:05:19.64,Thoughts,,0000,0000,0000,,{\be10}The man who planned this tour...
 Dialogue: 0,1:05:19.64,1:05:22.10,Thoughts,,0000,0000,0000,,{\be10}All the mysteries start here.
-Dialogue: 0,1:05:22.60,1:05:28.57,Thoughts,,0000,0000,0000,,{\be10}If the killer was Kanie{\rHonorifics - Thoughts}-san{\r}, and this\NMasaru Furukawa was Kanie{\rHonorifics - Thoughts}-san{\r} all along,
+Dialogue: 0,1:05:22.60,1:05:28.57,Thoughts,,0000,0000,0000,,{\be10}If the killer was Kanie{\rHonorifics - Thoughts\be10}-san{\r\be10}, and this\NMasaru Furukawa was Kanie{\rHonorifics - Thoughts\be10}-san{\r\be10} all along,
 Dialogue: 0,1:05:28.57,1:05:32.03,Thoughts,,0000,0000,0000,,{\be10}this case almost makes sense.
 Dialogue: 0,1:05:32.03,1:05:34.32,Thoughts,,0000,0000,0000,,{\be10}But I still can't explain...
 Dialogue: 0,1:05:34.32,1:05:37.20,Thoughts,,0000,0000,0000,,{\be10}the watch the corpse was wearing.
-Dialogue: 0,1:05:37.91,1:05:43.75,Thoughts,,0000,0000,0000,,{\be10}And there's that "Furukawa" seal\Nthat Kameda{\rHonorifics - Thoughts}-san{\r} had.
+Dialogue: 0,1:05:37.91,1:05:43.75,Thoughts,,0000,0000,0000,,{\be10}And there's that "Furukawa" seal\Nthat Kameda{\rHonorifics - Thoughts\be10}-san{\r\be10} had.
 Dialogue: 0,1:05:43.75,1:05:49.25,Thoughts,,0000,0000,0000,,{\be10}Damn it. If only I could figure out\Nwho this Masaru Furukawa is...
 Dialogue: 0,1:05:58.09,1:05:59.72,Dialogue,,0000,0000,0000,,Er, excuse me...
 Dialogue: 0,1:06:00.35,1:06:02.60,Dialogue,,0000,0000,0000,,Have you seen a boy with glasses?
@@ -1527,8 +1526,8 @@ Dialogue: 0,1:29:29.67,1:29:32.26,Dialogue,,0000,0000,0000,,He said there were j
 Dialogue: 0,1:29:32.26,1:29:34.68,Dialogue,,0000,0000,0000,,We were to use it when we\Nneeded to contact each other.
 Dialogue: 0,1:29:34.68,1:29:36.64,Dialogue,,0000,0000,0000,,I didn't think it meant anything...
 Dialogue: 0,1:29:38.22,1:29:39.51,Dialogue,,0000,0000,0000,,Are you kidding?
-Dialogue: 0,1:29:39.51,1:29:42.02,Dialogue,,0000,0000,0000,,{\fad(0,500)\a6}"Masaru Furukawa"
-Dialogue: 0,1:29:44.48,1:29:46.69,Dialogue,,0000,0000,0000,,{\fad(500,0)\a6}"Saizo Kano"
+Dialogue: 0,1:29:39.51,1:29:42.02,Dialogue Top,,0000,0000,0000,,{\fad(0,500)}"Masaru Furukawa"
+Dialogue: 0,1:29:44.48,1:29:46.69,Dialogue Top,,0000,0000,0000,,{\fad(500,0)}"Saizo Kano"
 Dialogue: 0,1:29:40.18,1:29:43.48,Dialogue,,0000,0000,0000,,Turn "Masaru Furukawa" sideways!
 Dialogue: 0,1:29:43.48,1:29:45.77,Dialogue,,0000,0000,0000,,The kanji spell "Saizo Kano"!
 Dialogue: 0,1:29:47.48,1:29:50.53,Dialogue,,0000,0000,0000,,That's why I came.
@@ -1568,9 +1567,9 @@ Dialogue: 0,1:33:16.69,1:33:20.44,Dialogue,,0000,0000,0000,,Three people turned 
 Dialogue: 0,1:33:20.44,1:33:22.28,Dialogue,,0000,0000,0000,,Accomplices?
 Dialogue: 0,1:33:22.82,1:33:26.74,Thoughts,,0000,0000,0000,,{\be10}There's only one victim, but there are\Nthree people saying they killed him.
 Dialogue: 0,1:33:26.74,1:33:28.74,Thoughts,,0000,0000,0000,,{\be10}Very interesting.
-Dialogue: 0,1:33:28.74,1:33:34.79,Dialogue,,0000,0000,0000,,{\a6}Next Conan:
+Dialogue: 0,1:33:28.74,1:33:34.79,Signs,,0000,0000,0000,,Next Conan:
 Dialogue: 0,1:33:34.79,1:33:39.80,Dialogue,,0000,0000,0000,,Next Conan's Hint: A head as hard as rock
-Dialogue: 0,1:33:39.80,1:33:41.42,Dialogue,,0000,0000,0000,,{\a6}The next case is super-unique!
-Dialogue: 0,1:33:41.42,1:33:42.97,Dialogue,,0000,0000,0000,,{\a6}You burned the {\i1}mochi{\i0}, Conan{\rHonorifics - Dialogue}-kun{\r}!
-Dialogue: 0,1:33:42.97,1:33:43.68,Dialogue,,0000,0000,0000,,{\a6}Right...
-Dialogue: 0,1:33:43.68,1:33:44.93,Dialogue,,0000,0000,0000,,{\a6}Look forward to this year too!
+Dialogue: 0,1:33:39.80,1:33:41.42,Dialogue Top,,0000,0000,0000,,The next case is super-unique!
+Dialogue: 0,1:33:41.42,1:33:42.97,Dialogue Top,,0000,0000,0000,,You burned the {\i1}mochi{\i0}, Conan{\rHonorifics - Dialogue}-kun{\r}!
+Dialogue: 0,1:33:42.97,1:33:43.68,Dialogue Top,,0000,0000,0000,,Right...
+Dialogue: 0,1:33:43.68,1:33:44.93,Dialogue Top,,0000,0000,0000,,Look forward to this year too!

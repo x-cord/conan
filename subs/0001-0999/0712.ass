@@ -61,36 +61,35 @@ Style: Poodles,MV Boli M,70,&H400102B5,&H000809FC,&H00CFF2F3,&H80000000,0,0,0,0,
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:03.34,0:00:07.69,Dialogue,,0,0,0,,{\a6}{（大滝）いやあ　えらい\Nお世話かけてしもて→\N\Nすいませんでした。\N}So sorry for having imposed on you like this...
-Dialogue: 0,0:00:08.11,0:00:10.69,Dialogue,,0,0,0,,{\a6}{朝飯までごちそうになってもうて。\N}And even having breakfast at your place...
-Dialogue: 0,0:00:10.69,0:00:11.57,Dialogue,,0,0,0,,{\a6}{（毛利小五郎）いえいえ。\N}It's nothing, really...
+Dialogue: 0,0:00:03.34,0:00:07.69,Dialogue Top,,0,0,0,,{（大滝）いやあ　えらい\Nお世話かけてしもて→\N\Nすいませんでした。\N}So sorry for having imposed on you like this...
+Dialogue: 0,0:00:08.11,0:00:10.69,Dialogue Top,,0,0,0,,{朝飯までごちそうになってもうて。\N}And even having breakfast at your place...
+Dialogue: 0,0:00:10.69,0:00:11.57,Dialogue Top,,0,0,0,,{（毛利小五郎）いえいえ。\N}It's nothing, really...
 Dialogue: 0,0:00:11.57,0:00:15.53,Dialogue,,0,0,0,,{（服部平次）まあ　予想外の→\N\Nハプニングっちゅうことで\N堪忍したってや。\N}Well, it was due to an unexpected turn of events, after all!
-Dialogue: 0,0:00:15.53,0:00:19.37,Thoughts,,0,0,0,,{\be10}{（コナン）\N《ウソつけ...最初から泊まる気\Nマンマンじゃねえか。→\N}Liar. You planned on staying over from the start.
-Dialogue: 0,0:00:19.37,0:00:22.03,Thoughts,,0,0,0,,{\be10}{着替え用意してんだから》\N}You even had a{\rHonorifics - Thoughts} chan{\r}ge of clothes ready.
+Dialogue: 0,0:00:15.53,0:00:19.37,Thoughts,,0,0,0,,{\be10（コナン）\N《ウソつけ...最初から泊まる気\Nマンマンじゃねえか。→\N}Liar. You planned on staying over from the start.
+Dialogue: 0,0:00:19.37,0:00:22.03,Thoughts,,0,0,0,,{\be10着替え用意してんだから》\N}You even had a{\rHonorifics - Thoughts\be10} chan{\r\be10}ge of clothes ready.
 Dialogue: 0,0:00:22.03,0:00:24.42,Dialogue,,0,0,0,,{（和葉）ほな　蘭ちゃん　またな。}All right, Ran{\rHonorifics - Dialogue}-chan{\r}, see you later!
 Dialogue: 0,0:00:24.42,0:00:25.38,Dialogue,,0,0,0,,{（毛利　蘭）またね～。\N}Later!
-Dialogue: 0,0:00:25.38,0:00:27.81,Dialogue,,0,0,0,,Well then, I'll get going as well.{ほな　ワシもこれで...。}{AO}
-Dialogue: 0,0:00:27.81,0:00:30.98,Dialogue,,0,0,0,,Please stop by again the next time you're free.{次は仕事ぬきで遊びに来て下さい。\N}{AO}
-Dialogue: 0,0:00:30.98,0:00:33.03,Dialogue,,0,0,0,,Will do! Now, please excuse me.{はい　失礼します。へへっ。}{AO}
-Dialogue: 0,0:00:33.88,0:00:34.75,Dialogue,,0,0,0,,Oh?{あれ？\N}{AO}
+Dialogue: 0,0:00:25.38,0:00:27.81,Dialogue,,0,0,0,,Well then, I'll get going as well.{ほな　ワシもこれで...。AO}
+Dialogue: 0,0:00:27.81,0:00:30.98,Dialogue,,0,0,0,,Please stop by again the next time you're free.{次は仕事ぬきで遊びに来て下さい。\NAO}
+Dialogue: 0,0:00:30.98,0:00:33.03,Dialogue,,0,0,0,,Will do! Now, please excuse me.{はい　失礼します。へへっ。AO}
+Dialogue: 0,0:00:33.88,0:00:34.75,Dialogue,,0,0,0,,Oh?{あれ？\NAO}
 Dialogue: 0,0:00:34.75,0:00:36.39,Dialogue,,0,0,0,,{ん？大滝はん　どこ行くんや？\N}Ōtaki-{\i1}han{\i0}, where are you goin'?
 Dialogue: 0,0:00:37.11,0:00:38.89,Dialogue,,0,0,0,,{東京駅はこっちやで。}Tōkyō Station's this way, y'know?
 Dialogue: 0,0:00:38.89,0:00:43.85,Dialogue,,0,0,0,,{ああ　先に帰ってええで。ワシは\Nちょっと野暮用があるさかい。\N}Ah, you kids can go on home without me. I've got some minor business to take care of over here still.
-Dialogue: 0,0:00:45.30,0:00:46.19,Dialogue,,0,0,0,,{ふ～ん...あ　そう。\N}{AO}I see...
-Dialogue: 0,0:00:48.76,0:00:51.99,Flashback,,0,0,0,,{\be10}{（服部平蔵）場所は\N群馬と埼玉の県境。→\N}The location is on the boundary between Gunma and Saitama prefectures,
-Dialogue: 0,0:00:51.99,0:00:54.43,Flashback,,0,0,0,,{\be10}{山奥に建つ洋館や。→\N}a western-style mansion built in the mountain recesses.
-Dialogue: 0,0:00:54.43,0:00:59.35,Flashback,,0,0,0,,{\be10}{そこで明日の夜\N遺産相続の会議があるんやが...→\N}There, tomorrow night, a meeting will be held to discuss an inheritance.
-Dialogue: 0,0:00:59.35,0:01:02.37,Flashback,,0,0,0,,{\be10}{お前　それに\N出席してくれへんか？\N}Can you attend that meeting for me?
-Dialogue: 0,0:01:02.70,0:01:08.33,Flashback,,0,0,0,,{\be10}{\a6}{依頼主の話やと　被相続人の\Nその館の主人の様子が→\N}According to the client's story, the person whose will is being discussed, the master of the mansion,
-Dialogue: 0,0:01:02.62,0:01:09.59,CharCards,,0,0,0,,{\be10}Heizō Hattori\NŌsaka Police Superintendent · Heiji's Father
-Dialogue: 0,0:01:08.33,0:01:10.71,Flashback,,0,0,0,,{\be10}{\a6}{えらい異様らしくてのぉ...→\N}has been exhibiting truly strange behaviour.
-Dialogue: 0,0:01:10.71,0:01:16.24,Flashback,,0,0,0,,{\be10}{せやから　警察関係者に\Nその話し合いに→\N}That's why he wants someone from the police {同席して欲しい言うてきてん\N}to also attend the discussion.
-Dialogue: 0,0:01:16.24,0:01:19.47,Flashback,,0,0,0,,{\be10}Well, I don't have a problem with that.{はぁ...そらまあ\Nかまいまへんが\N}{AO}
-Dialogue: 0,0:01:20.02,0:01:24.24,Flashback,,0,0,0,,{\be10}{半年前に　その館の近くの森で\N殺しがあって→\N}Now there was a killing in the forest near that mansion a half-year ago
-Dialogue: 0,0:01:24.24,0:01:32.75,Flashback,,0,0,0,,{\be10}{妙な噂も立ってるらしいから\N無理にとは言わんけど...\N}and some odd rumours surfaced, so I can't say this is without cause, {出てくれるんやったら\N気ぃつけよ...→\N}but if you go there for me, do take care...
-Dialogue: 0,0:01:33.65,0:01:35.77,Flashback,,0,0,0,,{\be10}{血ぃ吸われんようにな\N}...that you don't get your blood sucked out.
+Dialogue: 0,0:00:45.30,0:00:46.19,Dialogue,,0,0,0,,{ふ～ん...あ　そう。\NAO}I see...
+Dialogue: 0,0:00:48.76,0:00:51.99,Flashback,,0,0,0,,{\be10（服部平蔵）場所は\N群馬と埼玉の県境。→\N}The location is on the boundary between Gunma and Saitama prefectures,
+Dialogue: 0,0:00:51.99,0:00:54.43,Flashback,,0,0,0,,{\be10山奥に建つ洋館や。→\N}a western-style mansion built in the mountain recesses.
+Dialogue: 0,0:00:54.43,0:00:59.35,Flashback,,0,0,0,,{\be10そこで明日の夜\N遺産相続の会議があるんやが...→\N}There, tomorrow night, a meeting will be held to discuss an inheritance.
+Dialogue: 0,0:00:59.35,0:01:02.37,Flashback,,0,0,0,,{\be10お前　それに\N出席してくれへんか？\N}Can you attend that meeting for me?
+Dialogue: 0,0:01:02.70,0:01:08.33,Flashback,,0,0,0,,{\be10\an8依頼主の話やと　被相続人の\Nその館の主人の様子が→\N}According to the client's story, the person whose will is being discussed, the master of the mansion,
+Dialogue: 0,0:01:02.62,0:01:09.59,Signs,,0,0,0,,Heizō Hattori\NŌsaka Police Superintendent · Heiji's Father
+Dialogue: 0,0:01:08.33,0:01:10.71,Flashback,,0,0,0,,{\be10\an8えらい異様らしくてのぉ...→\N}has been exhibiting truly strange behaviour.
+Dialogue: 0,0:01:10.71,0:01:16.24,Flashback,,0,0,0,,{\be10せやから　警察関係者に\Nその話し合いに→\N}That's why he wants someone from the police {同席して欲しい言うてきてん\N}to also attend the discussion.
+Dialogue: 0,0:01:16.24,0:01:19.47,Flashback,,0,0,0,,{\be10}Well, I don't have a problem with that.{はぁ...そらまあ\Nかまいまへんが\NAO}
+Dialogue: 0,0:01:20.02,0:01:24.24,Flashback,,0,0,0,,{\be10半年前に　その館の近くの森で\N殺しがあって→\N}Now there was a killing in the forest near that mansion a half-year ago
+Dialogue: 0,0:01:24.24,0:01:32.75,Flashback,,0,0,0,,{\be10妙な噂も立ってるらしいから\N無理にとは言わんけど...\N}and some odd rumours surfaced, so I can't say this is without cause, {出てくれるんやったら\N気ぃつけよ...→\N}but if you go there for me, do take care...
+Dialogue: 0,0:01:33.65,0:01:35.77,Flashback,,0,0,0,,{\be10血ぃ吸われんようにな\N}...that you don't get your blood sucked out.
 Dialogue: 0,0:01:35.77,0:01:37.75,Dialogue,,0,0,0,,{（平次）何を吸われるっちゅうねん。\N}What are you sayin' about bein' sucked?
-Dialogue: 0,0:01:37.75,0:01:38.69,Dialogue,,0,0,0,,{え？ええっ！\N}{REACT}
 Dialogue: 0,0:01:39.16,0:01:43.83,Dialogue,,0,0,0,,{さっきから　吸われん吸われんってボソボソ言うてるけど。\N}You've been muttering 'Don't be sucked, don't be sucked' to yourself for a while now.
 Dialogue: 0,0:01:43.83,0:01:45.83,Dialogue,,0,0,0,,{（大滝）へ　平ちゃん！？\N}H-Hei{\rHonorifics - Dialogue}-chan{\r}?!
 Dialogue: 0,0:01:46.73,0:01:50.09,Dialogue,,0,0,0,,{まさか　女の唇のことと\Nちゃうやろな？\N}Don't tell me, you're thinking about a woman's lips, right?
@@ -120,13 +119,13 @@ Dialogue: 0,0:03:24.83,0:03:29.27,Dialogue,,0,0,0,,{あったんは　首筋に�
 Dialogue: 0,0:03:30.16,0:03:32.65,Dialogue,,0,0,0,,{首筋に２つの穴で失血死？\N}Death by blood loss with two holes in the nape of her neck?
 Dialogue: 0,0:03:32.65,0:03:35.57,Dialogue,,0,0,0,,{お　おい　それって　まさか...。\N}H-Hey, that wouldn't be...
 Dialogue: 0,0:03:35.57,0:03:36.59,Dialogue,,0,0,0,,Yeah.
-Dialogue: 0,0:03:36.59,0:03:42.75,Flashback,,0,0,0,,{\be10}{（平蔵の声）\N大滝...お前　この世に\Nおると思うか？吸血鬼...。\N}{AO}Ōtaki, do you think vampires exist in this world?
-Dialogue: 0,0:03:46.49,0:03:50.70,Narration Off,,0,0,0,,{\be10}Seeking comprehensive answers, he clears all mysteries and codes!
-Dialogue: 0,0:03:50.70,0:03:52.58,Narration Off,,0,0,0,,{\be10}Dracula's real?!
-Dialogue: 0,0:03:52.58,0:03:54.83,Narration Off,,0,0,0,,{\be10}The curtains open to a shocking case!{＜ドラキュラが実在するって？\N衝撃事件の幕が開く＞\N}
-Dialogue: 0,0:03:54.83,0:03:56.27,Narration Off,,0,0,0,,{\be10}He sees the single truth for what it is,
-Dialogue: 0,0:03:56.27,0:03:58.02,Narration Off,,0,0,0,,{\be10}and looks like a kid but has the mind of an adult!
-Dialogue: 0,0:03:58.02,0:04:00.88,Narration Off,,0,0,0,,{\be10}His name? Detective Conan!
+Dialogue: 0,0:03:36.59,0:03:42.75,Flashback,,0,0,0,,{\be10（平蔵の声）\N大滝...お前　この世に\Nおると思うか？吸血鬼...。\NAO}Ōtaki, do you think vampires exist in this world?
+Dialogue: 0,0:03:46.49,0:03:50.70,Narration Off,,0,0,0,,{\be10\c&HAAAA00\t(0,4210,\c)}Seeking comprehensive answers, he clears all mysteries and codes!
+Dialogue: 0,0:03:50.70,0:03:52.58,Narration Off,,0,0,0,,{\be10\t(0,1880,\c&H88AA00)}Dracula's real?!
+Dialogue: 0,0:03:52.58,0:03:54.83,Narration Off,,0,0,0,,{\be10\c&H88AA00}The curtains open to a shocking case!{＜ドラキュラが実在するって？\N衝撃事件の幕が開く＞\N}
+Dialogue: 0,0:03:54.83,0:03:56.27,Narration Off,,0,0,0,,{\be10\c&H88AA00)\t(0,1440,\c)}He sees the single truth for what it is,
+Dialogue: 0,0:03:56.27,0:03:58.02,Narration Off,,0,0,0,,{\be10\t(0,1750,\c&HAA00AA)}and looks like a kid but has the mind of an adult!
+Dialogue: 0,0:03:58.02,0:04:00.88,Narration Off,,0,0,0,,{\be10\c&HAA00AA\t(0,1600,\c&H0000FF)\fad(0,500)}His name? Detective Conan!
 Dialogue: 0,0:05:48.33,0:05:50.11,Dialogue,,0,0,0,,{きゅ　吸血鬼！？\N}A-A vampire?!
 Dialogue: 0,0:05:50.49,0:05:53.45,Dialogue,,0,0,0,,{その殺し　吸血鬼の仕業だって\N言うんスか！？\N}Do you mean to say that killing was the work of a vampire?!
 Dialogue: 0,0:05:53.45,0:05:56.50,Dialogue,,0,0,0,,{いや～\Nただのしょうもない噂です。\N}It's just a baseless rumour.
@@ -135,7 +134,7 @@ Dialogue: 0,0:06:00.75,0:06:01.87,Dialogue,,0,0,0,,{ん？大名？\N}Daimyō?
 Dialogue: 0,0:06:02.53,0:06:06.29,Dialogue,,0,0,0,,{ほんで　その殺人犯\Nまだ捕まってないんか？\N}And? That murderer hasn't been arrested yet?
 Dialogue: 0,0:06:06.29,0:06:06.84,Dialogue,,0,0,0,,{ああ...。\N}Yeah...
 Dialogue: 0,0:06:07.25,0:06:09.63,Dialogue,,0,0,0,,{しかし　容疑者ぐらいは\Nいたんじゃ...。\N}But wasn't there at least a suspect?
-Dialogue: 0,0:06:09.63,0:06:15.90,Dialogue,,0,0,0,,{\a6}{ええ　真っ先に疑われたんが\Nこの館の主の寅倉迫弥さんです。\N}Yeah. The first one to be suspected was the master of the mansion, Hakuya Torakura{\rHonorifics - Dialogue}-san{\r}.
+Dialogue: 0,0:06:09.63,0:06:15.90,Dialogue Top,,0,0,0,,{ええ　真っ先に疑われたんが\Nこの館の主の寅倉迫弥さんです。\N}Yeah. The first one to be suspected was the master of the mansion, Hakuya Torakura{\rHonorifics - Dialogue}-san{\r}.
 Dialogue: 0,0:06:09.88,0:06:14.97,Signs,,0,0,0,,Hakuya Torakura (57)\NTorakura Family Head
 Dialogue: 0,0:06:15.90,0:06:20.26,Dialogue,,0,0,0,,{殺されたメイドが　館のシェフに\Nもらしてたらしいんですわ。\N}It seems the murdered maid had confided in the mansion's chef...
 Dialogue: 0,0:06:20.26,0:06:22.25,Dialogue,,0,0,0,,{「旦那様が　最近不気味で→\N}'The master has been acting really weird lately,'
@@ -149,7 +148,7 @@ Dialogue: 0,0:06:40.97,0:06:48.25,Dialogue,,0,0,0,,{皮肉にも　それを証�
 Dialogue: 0,0:06:48.92,0:06:53.88,Dialogue,,0,0,0,,{ようこそ　おいで下さいました。大阪府警の大滝警部ですね？\N}I extend a warm welcome. Inspector Ōtaki from the Ōsaka police, I presume?
 Dialogue: 0,0:06:54.25,0:06:55.65,Dialogue,,0,0,0,,{あ　はい...\N}Ah, yes.
 Dialogue: 0,0:06:55.65,0:06:57.22,Dialogue,,0,0,0,,{ほんなら　あんたが依頼主の...。\N}So you must be the client?
-Dialogue: 0,0:06:57.66,0:07:03.25,Dialogue,,0,0,0,,{\a6}{執事の古賀です。服部本部長の\N父上とは　同期の桜でして。\N}I am Koga, the butler. I was a classmate of Superintendent Hattori's father.{null: Fixed "in the same year year as" -> "a classmate of", }
+Dialogue: 0,0:06:57.66,0:07:03.25,Dialogue Top,,0,0,0,,{執事の古賀です。服部本部長の\N父上とは　同期の桜でして。\N}I am Koga, the butler. I was a classmate of Superintendent Hattori's father.{null: Fixed "in the same year year as" -> "a classmate of", }
 Dialogue: 0,0:06:57.51,0:07:03.23,Signs,,0,0,0,,Rikushige Koga (71)\NTorakura Family Butler
 Dialogue: 0,0:07:03.60,0:07:08.19,Dialogue,,0,0,0,,{ねえ　なんなの？最近の旦那様の\N様子が不気味だったって。\N}Say, what was it? The 'strange behaviour' the master has supposedly been showing lately?
 Dialogue: 0,0:07:08.91,0:07:16.04,Dialogue,,10,10,0,,{ああ...近頃の旦那様は→\N}Oh, recently the master has started {陽を避けるように　昼間はずっと\N部屋で寝てらしたり→\N}doing things such as sleeping in his room all through the day to try and avoid the sunlight,
@@ -181,23 +180,23 @@ Dialogue: 0,0:08:38.56,0:08:43.55,Dialogue,,0,0,0,,{こういうのって映画�
 Dialogue: 0,0:08:43.55,0:08:44.53,Dialogue,,0,0,0,,{（和葉）ホンマ！\N}You said it.
 Dialogue: 0,0:08:45.10,0:08:47.80,Dialogue,,0,0,0,,{アタシらも\N貴族になった気分やわぁ！\N}It feels like we've also become aristocrats!
 Dialogue: 0,0:08:47.80,0:08:48.83,Dialogue,,0,0,0,,{（寅倉瑠莉）誰よ？あんたら。→\N}Who are you lot?
-Dialogue: 0,0:08:51.10,0:08:54.98,Dialogue,,0,0,0,,{\a6}{まさかアンタたち　お義兄様の\N隠し子とかじゃないでしょうね？\N}Don't tell me you lot are our brother's illegitimate children, now!
+Dialogue: 0,0:08:51.10,0:08:54.98,Dialogue Top,,0,0,0,,{まさかアンタたち　お義兄様の\N隠し子とかじゃないでしょうね？\N}Don't tell me you lot are our brother's illegitimate children, now!
 Dialogue: 0,0:08:50.50,0:08:56.42,Signs,,0,0,0,,Ruri Torakura (38)\NAsanobu's Wife
-Dialogue: 0,0:08:54.98,0:08:56.68,Dialogue,,0,0,0,,{\a6}{（寅倉麻信）そんなわけないだろ！\N}There's no way that could be, is there?
-Dialogue: 0,0:08:58.19,0:09:01.89,Dialogue,,0,0,0,,{\a6}{もしそうなら→\N\N兄さんが僕たちを\Nここへ呼ぶわけないし。\N}If that had been the case, there would have been no reason for Brother to have called us here.
+Dialogue: 0,0:08:54.98,0:08:56.68,Dialogue Top,,0,0,0,,{（寅倉麻信）そんなわけないだろ！\N}There's no way that could be, is there?
+Dialogue: 0,0:08:58.19,0:09:01.89,Dialogue Top,,0,0,0,,{もしそうなら→\N\N兄さんが僕たちを\Nここへ呼ぶわけないし。\N}If that had been the case, there would have been no reason for Brother to have called us here.
 Dialogue: 0,0:08:57.71,0:09:01.89,Signs,,0,0,0,,Asanobu Torakura (52)\NSecond son of the Torakura family
-Dialogue: 0,0:09:02.60,0:09:08.06,Dialogue,,0,0,0,,{\a6}That's right. If they really were illegitimate children, Hakuya's inheritance wouldn't go to us, his siblings.
+Dialogue: 0,0:09:02.60,0:09:08.06,Dialogue Top,,0,0,0,,That's right. If they really were illegitimate children, Hakuya's inheritance wouldn't go to us, his siblings.
 Dialogue: 0,0:09:03.18,0:09:08.06,Signs,,0,0,0,,Kamiyo Torakura (60)\NFirst-born daughter of the Torakura family
 Dialogue: 0,0:09:08.55,0:09:11.54,Dialogue,,0,0,0,,The full amount would go to his children.
 Dialogue: 0,0:09:11.54,0:09:13.56,Dialogue,,0,0,0,,But who knows, eh?
 Dialogue: 0,0:09:14.05,0:09:17.28,Dialogue,,0,0,0,,After all, didn't he suddenly bring her here years ago?
 Dialogue: 0,0:09:17.28,0:09:20.07,Dialogue,,0,0,0,,His considerably younger, beautiful fiancée.
-Dialogue: 0,0:09:20.84,0:09:24.01,Dialogue,,0,0,0,,{\a6}It wouldn't be strange at all if he had two or three illegitimate children, you know.
+Dialogue: 0,0:09:20.84,0:09:24.01,Dialogue Top,,0,0,0,,It wouldn't be strange at all if he had two or three illegitimate children, you know.
 Dialogue: 0,0:09:20.32,0:09:26.95,Signs,,0,0,0,,Jōhei Hagawa (29)\NKamiyo's Lover
-Dialogue: 0,0:09:24.39,0:09:27.83,Dialogue,,0,0,0,,{\a6}Well, that fiancée unfortunately died soon after.
+Dialogue: 0,0:09:24.39,0:09:27.83,Dialogue Top,,0,0,0,,Well, that fiancée unfortunately died soon after.
 Dialogue: 0,0:09:28.22,0:09:31.84,Dialogue,,0,0,0,,Oh, I see. That was pretty lucky for you guys, wasn't it?
 Dialogue: 0,0:09:31.84,0:09:32.85,Dialogue,,0,0,0,,H-Hey...
-Dialogue: 0,0:09:35.24,0:09:39.72,Dialogue,,0,0,0,,{\a6}Watch it! If you keep going on about it again, you won't be laughing at the end!
+Dialogue: 0,0:09:35.24,0:09:39.72,Dialogue Top,,0,0,0,,Watch it! If you keep going on about it again, you won't be laughing at the end!
 Dialogue: 0,0:09:35.13,0:09:39.72,Signs,,0,0,0,,Kishiharu Tarakura (45)\NThird Son of the Torakura Family
 Dialogue: 0,0:09:40.47,0:09:42.02,Dialogue,,0,0,0,,W-What?
 Dialogue: 0,0:09:42.02,0:09:44.51,Dialogue,,0,0,0,,I'm sure you thought it was a stroke of luck, right?
@@ -205,13 +204,13 @@ Dialogue: 0,0:09:45.18,0:09:51.27,Dialogue,,0,0,0,,Oh, what's this? Could it be 
 Dialogue: 0,0:09:51.67,0:09:53.62,Dialogue,,0,0,0,,W-Why, you...
 Dialogue: 0,0:09:53.62,0:09:56.19,Dialogue,,0,0,0,,Can we stop talking about mistresses?
 Dialogue: 0,0:09:56.94,0:09:59.69,Dialogue,,0,0,0,,After all, I was a child born from Father's mistress.
-Dialogue: 0,0:10:00.31,0:10:04.98,Dialogue,,0,0,0,,{\a6}Well, legally speaking, if there aren't any heirs besides siblings,
+Dialogue: 0,0:10:00.31,0:10:04.98,Dialogue Top,,0,0,0,,Well, legally speaking, if there aren't any heirs besides siblings,
 Dialogue: 0,0:09:59.90,0:10:07.08,Signs,,0,0,0,,Mina Torakura (26)\NSecond daughter of the Torakura family
-Dialogue: 0,0:10:04.98,0:10:09.30,Dialogue,,0,0,0,,{\a6}the inheritance would be equally divided. So let's all get along.
+Dialogue: 0,0:10:04.98,0:10:09.30,Dialogue Top,,0,0,0,,the inheritance would be equally divided. So let's all get along.
 Dialogue: 0,0:10:09.30,0:10:10.15,Dialogue,,0,0,0,,Umm...
-Dialogue: 0,0:10:11.40,0:10:15.40,Dialogue,,0,0,0,,{\a6}The chef asked me to come and see if it'd be okay with everyone if he started serving now.
+Dialogue: 0,0:10:11.40,0:10:15.40,Dialogue Top,,0,0,0,,The chef asked me to come and see if it'd be okay with everyone if he started serving now.
 Dialogue: 0,0:10:11.20,0:10:17.17,Signs,,0,0,0,,Hikaru Hinohara (24)\NTorakura Family Maid
-Dialogue: 0,0:10:15.40,0:10:19.59,Dialogue,,0,0,0,,{\a6}But if you're not done with your conversation, I'll tell him to wait a bit.
+Dialogue: 0,0:10:15.40,0:10:19.59,Dialogue Top,,0,0,0,,But if you're not done with your conversation, I'll tell him to wait a bit.
 Dialogue: 0,0:10:20.12,0:10:24.22,Dialogue,,0,0,0,,We can still talk while we're eating, so go ahead and bring out the food!
 Dialogue: 0,0:10:24.22,0:10:29.82,Dialogue,,0,0,0,,Either way, since you're just his wife's son, it has no bearing on you.
 Dialogue: 0,0:10:29.82,0:10:34.05,Dialogue,,0,0,0,,This is shapin' up to be some inheritance battle.
@@ -266,8 +265,8 @@ Dialogue: 0,0:13:16.79,0:13:18.01,Thoughts,,0,0,0,,{\be10}He looked like...
 Dialogue: 0,0:13:18.41,0:13:20.01,Thoughts,,0,0,0,,{\be10}...Count Dracula?
 Dialogue: 0,0:13:20.40,0:13:25.76,Dialogue,,0,0,0,,Come to think of it, Brother had that nickname since he was a child.
 Dialogue: 0,0:13:25.76,0:13:28.85,Dialogue,,0,0,0,,Hakuya Torakura becomes Count Dracula?
-Dialogue: 0,0:13:25.76,0:13:28.86,Signs,,0,0,0,,dorakyura
-Dialogue: 0,0:13:25.76,0:13:28.86,Signs,,0,0,0,,hakushaku
+Dialogue: 0,0:13:25.76,0:13:28.86,Thoughts,,0,0,0,,{\be10TL note}dorakyura
+Dialogue: 0,0:13:25.76,0:13:28.86,Thoughts,,0,0,0,,{\be10TL note}hakushaku
 Dialogue: 0,0:13:28.86,0:13:30.77,Dialogue,,0,0,0,,A pretty childish nickname, huh?
 Dialogue: 0,0:13:31.35,0:13:36.62,Dialogue,,0,0,0,,But, that nickname might not just be a pun on his name, you know. {null: Removed the first "you know" to avoid redundancy}
 Dialogue: 0,0:13:36.62,0:13:39.28,Dialogue,,0,0,0,,If you consider the Torakura family ancestors...
@@ -424,21 +423,18 @@ Dialogue: 0,0:23:45.36,0:23:48.95,Dialogue,,0,0,0,,Why is Brother-in-law in this
 Dialogue: 0,0:23:49.57,0:23:53.29,Dialogue,,0,0,0,,I'm certain they should've been able to see the master there at that time.{null: I think it's あの時そこに旦那様が見えたって事が確かと思うよ。}
 Dialogue: 0,0:23:53.86,0:23:57.79,Dialogue,,0,0,0,,The blood found inside the the coffin the master slept in really {\i1}was{\i0} type AB?
 Dialogue: 0,0:23:58.39,0:24:05.59,Dialogue,,10,10,0,,Counting those associated with this mansion, I believe the only one with type AB was the maid Shimizu{\rHonorifics - Dialogue}-san{\r}, who died half a year ago.
-Dialogue: 0,0:24:08.97,0:24:14.98,Signs,,0,0,0,,(TWO)
-Dialogue: 0,0:24:08.97,0:24:14.98,Signs,,0,0,0,,HEIJI HATTORI AND THE VAMPIRE MANSION
 Dialogue: 0,0:24:08.97,0:24:14.98,Dialogue,,0,0,0,,On the next Conan: 'Heiji Hattori and the Vampire Mansion (Two)'!
 Dialogue: 0,0:24:14.98,0:24:19.90,Dialogue,,0,0,0,,Next Conan's Hint: Garlic!
-Dialogue: 0,0:24:20.27,0:24:21.60,Dialogue,,0,0,0,,{\a6}Hattori, what are you looking for?
-Dialogue: 0,0:24:21.60,0:24:23.42,Dialogue,,0,0,0,,{\a6}Garlic, a cross and a silver spoon!{null: Missing the last bit of "大蒜と十字架と銀の?と"}
-Dialogue: 0,0:24:23.42,0:24:24.42,Dialogue,,0,0,0,,{\a6}Hey, calm down!
-Dialogue: 0,0:22:25.62,0:22:30.87,Signs,,0,0,0,,Kimi no Egao ga Nani Yori mo Suki Datta\N(I loved your smile more than anything else)
+Dialogue: 0,0:24:20.27,0:24:21.60,Dialogue Top,,0,0,0,,Hattori, what are you looking for?
+Dialogue: 0,0:24:21.60,0:24:23.42,Dialogue Top,,0,0,0,,Garlic, a cross and a silver spoon!{null: Missing the last bit of "大蒜と十字架と銀の?と"}
+Dialogue: 0,0:24:23.42,0:24:24.42,Dialogue Top,,0,0,0,,Hey, calm down!
 Dialogue: 0,0:22:25.82,0:22:31.00,Poodles,,0,0,0,,{\fax0.25\blur2.5\3c&HFFFFFF}kimi no egao ga nani yori mo suki datta
 Dialogue: 0,0:22:31.33,0:22:34.37,Poodles,,0,0,0,,{\fax0.25\blur2.5\3c&HFFFFFF}onaji koto de waraiatta ne
 Dialogue: 0,0:22:34.71,0:22:42.80,Poodles,,0,0,0,,{\fax0.25\blur2.5\3c&HFFFFFF}futoshita shunkan ni iron'na kimi o omoidasu
 Dialogue: 0,0:22:44.63,0:22:50.85,Poodles,,0,0,0,,{\fax0.25\blur2.5\3c&HF2F2F3&\c&H880088}'boku ga genjitsuteki sugita' to ima ni natte kuyande'ru
 Dialogue: 0,0:22:52.35,0:22:58.94,Poodles,,0,0,0,,{\fax0.25\blur2.5\3c&HF2F2F3&\c&H880088}'kimi to no yume no tame ni' motto ikiru beki datta
 Dialogue: 0,0:22:59.98,0:23:03.24,Poodles,,0,0,0,,{\fax0.25\blur2.5\c&H008800\3c&HF2F2F3}kimi no inai akimatsuri
-Dialogue: 0,0:23:03.40,0:23:08.70,Poodles,,0,0,0,,{\fax0.25\blur2.5}{\3c&HF2F2F3&\c&H880000\t(4470,5220,\c&H0\3c&H0\4c&H0)}ima no boku wa younger than yesterday
+Dialogue: 0,0:23:03.40,0:23:08.70,Poodles,,0,0,0,,{\fax0.25\blur2.5\3c&HF2F2F3&\c&H880000\t(4470,5220,\c&H0\3c&H0\4c&H0)}ima no boku wa younger than yesterday
 Dialogue: 0,0:23:09.45,0:23:14.54,Poodles,,0,0,0,,{\fax0.25\blur2.5\3c&HF2F2F3&}hanabira ga mau yō ni kimi wa waratta ne
 Dialogue: 0,0:23:14.87,0:23:17.50,Poodles,,0,0,0,,{\fax0.25\blur2.5\3c&HF2F2F3&\c&H008800}motto warawasetakatta
 Dialogue: 0,0:23:17.83,0:23:24.55,Poodles,,0,0,0,,{\fax0.25\blur2.5\3c&HF2F2F3&\c&H008800}hareteiru no ni tsumetai ame ga futteiru
@@ -446,25 +442,3 @@ Dialogue: 0,0:23:24.72,0:23:30.26,Poodles,,0,0,0,,{\fax0.25\blur2.5\3c&HF2F2F3&\
 Dialogue: 0,0:23:30.60,0:23:33.56,Poodles,,0,0,0,,{\fax0.25\blur2.5\3c&HF2F2F3&\c&H008800}min'na hitori ja ikirenai
 Dialogue: 0,0:23:33.72,0:23:37.35,Poodles,,0,0,0,,{\fax0.25\blur2.5\3c&HF2F2F3&\c&H008800}kimi no kaeru basho de
 Dialogue: 0,0:23:37.69,0:23:42.53,Poodles,,0,0,0,,{\fax0.25\blur2.5\3c&HF2F2F3&\c&H008800}boku wa zutto aritsuzuketai
-Dialogue: 0,0:05:40.89,0:05:40.93,Signs,,0,0,0,,HEIJI HATTORI AND THE VAMPIRE MANSION
-Dialogue: 0,0:05:40.93,0:05:40.98,Signs,,0,0,0,,HEIJI HATTORI AND THE VAMPIRE MANSION
-Dialogue: 0,0:05:40.98,0:05:41.02,Signs,,0,0,0,,HEIJI HATTORI AND THE VAMPIRE MANSION
-Dialogue: 0,0:05:41.02,0:05:41.06,Signs,,0,0,0,,HEIJI HATTORI AND THE VAMPIRE MANSION
-Dialogue: 0,0:05:41.06,0:05:41.10,Signs,,0,0,0,,HEIJI HATTORI AND THE VAMPIRE MANSION
-Dialogue: 0,0:05:41.10,0:05:41.14,Signs,,0,0,0,,HEIJI HATTORI AND THE VAMPIRE MANSION
-Dialogue: 0,0:05:41.14,0:05:41.19,Signs,,0,0,0,,HEIJI HATTORI AND THE VAMPIRE MANSION
-Dialogue: 0,0:05:41.19,0:05:41.23,Signs,,0,0,0,,HEIJI HATTORI AND THE VAMPIRE MANSION
-Dialogue: 0,0:05:41.23,0:05:41.27,Signs,,0,0,0,,HEIJI HATTORI AND THE VAMPIRE MANSION
-Dialogue: 0,0:05:41.27,0:05:46.86,Signs,,0,0,0,,HEIJI HATTORI AND THE VAMPIRE MANSION
-Dialogue: 0,0:05:40.89,0:05:40.93,Signs,,0,0,0,,(ONE)
-Dialogue: 0,0:05:40.93,0:05:40.98,Signs,,0,0,0,,(ONE)
-Dialogue: 0,0:05:40.98,0:05:41.02,Signs,,0,0,0,,(ONE)
-Dialogue: 0,0:05:41.02,0:05:41.06,Signs,,0,0,0,,(ONE)
-Dialogue: 0,0:05:41.06,0:05:41.10,Signs,,0,0,0,,(ONE)
-Dialogue: 0,0:05:41.10,0:05:41.14,Signs,,0,0,0,,(ONE)
-Dialogue: 0,0:05:41.14,0:05:41.19,Signs,,0,0,0,,(ONE)
-Dialogue: 0,0:05:41.19,0:05:41.23,Signs,,0,0,0,,(ONE)
-Dialogue: 0,0:05:41.23,0:05:41.27,Signs,,0,0,0,,(ONE)
-Dialogue: 0,0:05:41.27,0:05:46.86,Signs,,0,0,0,,(ONE)
-Comment: 0,0:11:20.57,0:24:26.42,Signs,,0,0,0,,'What's it matter?'
-Comment: 0,0:11:20.57,0:24:26.42,Dialogue,,0,0,0,,Maaiika?

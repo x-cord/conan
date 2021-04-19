@@ -45,15 +45,14 @@ Style: AitakuteRomaji,AlaskanNightsM,52,&H60DB9572,&H000000FF,&H00FFFFFF,&HC02F2
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:02.10,0:00:04.69,Dialogue,,0,0,0,,{\a6}Watermelon, right? No, I didn't forget.
-Dialogue: 0,0:00:04.69,0:00:06.69,Phone,,0,0,0,,{\blur2}{\a6}Get a tasty one!
-Dialogue: 0,0:00:06.69,0:00:08.94,Dialogue,,0,0,0,,{\a6}I know that! Geez...
-Dialogue: 0,0:00:09.44,0:00:12.32,Dialogue,,0,0,0,,{\a6}Ran-{\i1}neechan{\i0}, I'm going to the Doc's—
-Dialogue: 0,0:00:12.32,0:00:19.12,Dialogue,,0,0,0,,{\a6}So basically, you, Kaori Kitasaka{\rHonorifics - Dialogue}-san{\r}, are a former member of the Jōnan University Deduction Society,
-Comment: 0,0:00:19.12,0:00:22.80,Dialogue,,0,0,0,,[Kaori Kitasaka (27)\NCompany Employee]
-Dialogue: 0,0:00:19.12,0:00:22.80,Dialogue,,0,0,0,,{\a6}and another former member of that society is throwing a party to celebrate his wedding at 4 PM today,
+Dialogue: 0,0:00:02.10,0:00:04.69,Dialogue Top,,0,0,0,,Watermelon, right? No, I didn't forget.
+Dialogue: 0,0:00:04.69,0:00:06.69,Phone,,0,0,0,,{\blur2\an8}Get a tasty one!
+Dialogue: 0,0:00:06.69,0:00:08.94,Dialogue Top,,0,0,0,,I know that! Geez...
+Dialogue: 0,0:00:09.44,0:00:12.32,Dialogue Top,,0,0,0,,Ran-{\i1}neechan{\i0}, I'm going to the Doc's—
+Dialogue: 0,0:00:12.32,0:00:19.12,Dialogue Top,,0,0,0,,So basically, you, Kaori Kitasaka{\rHonorifics - Dialogue}-san{\r}, are a former member of the Jōnan University Deduction Society,
+Dialogue: 0,0:00:19.12,0:00:22.80,Dialogue Top,,0,0,0,,and another former member of that society is throwing a party to celebrate his wedding at 4 PM today,
 Dialogue: 0,0:00:21.00,0:00:25.29,Signs,,0,0,0,,Kaori Kitasaka (27)\NCompany Employee
-Dialogue: 0,0:00:22.80,0:00:28.55,Dialogue,,0,0,0,,{\a6}but you don't know where the party will be.
+Dialogue: 0,0:00:22.80,0:00:28.55,Dialogue Top,,0,0,0,,but you don't know where the party will be.
 Dialogue: 0,0:00:28.55,0:00:37.50,Dialogue,,0,0,0,,The reason being that the invitation has a picture puzzle on it, due to it being a party for the Deduction Society.
 Dialogue: 0,0:00:37.50,0:00:38.97,Dialogue,,0,0,0,,Is that correct?
 Dialogue: 0,0:00:38.97,0:00:42.14,Dialogue,,0,0,0,,Yes. I couldn't solve that picture puzzle,
@@ -66,7 +65,7 @@ Dialogue: 0,0:01:03.33,0:01:03.83,Dialogue,,0,0,0,,Right...
 Dialogue: 0,0:01:05.35,0:01:06.17,Dialogue,,0,0,0,,Here.
 Dialogue: 0,0:01:13.71,0:01:14.67,Dialogue,,0,0,0,,What's this...?!
 Dialogue: 0,0:01:15.01,0:01:18.68,Thoughts,,0,0,0,,{\be10}I see. This doesn't look easy to solve.
-Dialogue: 0,0:01:34.84,0:01:37.91,BCPrologue,,0,0,0,,{\be10}Only the light of deductions can tear apart black shadows and deep darkness!
+Dialogue: 0,0:01:34.84,0:01:37.91,BCPrologue,,0,0,0,,{\blur3}Only the light of deductions can tear apart black shadows and deep darkness!
 Dialogue: 0,0:01:38.54,0:01:42.04,BCPrologue,,0,0,0,,{\blur3}Solve the riddle of the unusual party near Bell Tree Tower!
 Dialogue: 0,0:01:42.40,0:01:43.95,BCPrologue,,0,0,0,,{\blur3}He sees the single truth for what it is,
 Dialogue: 0,0:01:43.95,0:01:46.12,BCPrologue,,0,0,0,,{\blur3}and looks like a kid but has the mind of an adult!
@@ -74,7 +73,7 @@ Dialogue: 0,0:01:46.12,0:01:48.83,BCPrologue,,0,0,0,,{\blur3}His name? Detective
 Dialogue: 0,0:03:13.96,0:03:22.14,Dialogue,,0,0,0,,I was never too good at deductions and codes, and even when I joined the Society, the Tanuki Code was all I could solve.
 Dialogue: 0,0:03:22.14,0:03:24.25,Dialogue,,0,0,0,,The Tanuki Code?
 Dialogue: 0,0:03:24.25,0:03:28.03,Dialogue,,10,10,0,,It's a simple code where you ‘remove the character た (ta)'{'ta o nuki'} to read it.
-Dialogue: 0,0:03:24.25,0:03:28.03,Signs,,0,0,0,,ta o nuki
+Dialogue: 0,0:03:24.25,0:03:28.03,Thoughts,,0,0,0,,{\be10}ta o nuki
 Dialogue: 0,0:03:29.03,0:03:34.05,Dialogue,,0,0,0,,But then why did you join the Deduction Society?
 Dialogue: 0,0:03:34.05,0:03:35.38,Dialogue,,0,0,0,,Well...
 Dialogue: 0,0:03:35.38,0:03:36.36,Dialogue,,0,0,0,,I've got it!
@@ -92,7 +91,7 @@ Dialogue: 0,0:04:16.15,0:04:17.99,Dialogue,,0,0,0,,But is there anywhere like th
 Dialogue: 0,0:04:18.32,0:04:20.55,Dialogue,,0,0,0,,Unfortunately, there isn't.
 Dialogue: 0,0:04:20.55,0:04:22.66,Dialogue,,0,0,0,,But if you use your brain...
 Dialogue: 0,0:04:25.05,0:04:31.14,Dialogue,,0,0,0,,The numbers written on this invitation tell you to look at a 1/25,000-scale map,
-Dialogue: 0,0:04:31.14,0:04:35.51,Dialogue,,0,0,0,,so if you put the little finger meaning\N the Sōbu Line onto Akihabara,
+Dialogue: 0,0:04:31.14,0:04:35.51,Dialogue,,0,0,0,,so if you put the little finger meaning\Nthe Sōbu Line onto Akihabara,
 Dialogue: 0,0:04:35.51,0:04:39.87,Dialogue,,0,0,0,,the ring finger meaning the Yamanote Line and the middle finger meaning the Keihin-Tōhoku Line
 Dialogue: 0,0:04:39.87,0:04:43.30,Dialogue,,0,0,0,,on the tracks between Akihabara and Kanda,
 Dialogue: 0,0:04:43.30,0:04:50.03,Dialogue,,0,0,0,,and put the index finger meaning the Chūō Line on the track between Ochanomizu and Kanda...
@@ -100,7 +99,7 @@ Dialogue: 0,0:04:50.03,0:04:52.90,Dialogue,,0,0,0,,Then the place that the thumb
 Dialogue: 0,0:04:54.25,0:04:55.40,Dialogue,,0,0,0,,Kanda-Ogawamachi!
 Dialogue: 0,0:04:55.85,0:04:57.25,Dialogue,,0,0,0,,Kanda-Ogawamachi?
 Dialogue: 0,0:04:58.59,0:04:59.15,Dialogue,,0,0,0,,Then...
-Dialogue: 0,0:04:59.60,0:05:03.48,Signs,,0,0,0,,kawa
+Dialogue: 0,0:04:59.60,0:05:03.48,Thoughts,,0,0,0,,{\be10}kawa
 Dialogue: 0,0:04:59.60,0:05:03.48,Dialogue,,0,0,0,,...the picture of the river{kawa} means Ogawa, right?
 Dialogue: 0,0:05:03.48,0:05:07.65,Dialogue,,0,0,0,,But you know, the fingers on the invitation are stretched out.
 Dialogue: 0,0:05:07.65,0:05:10.35,Dialogue,,0,0,0,,And you've got your fingers curled up, Uncle.
@@ -147,13 +146,13 @@ Dialogue: 0,0:07:21.39,0:07:24.81,Dialogue,,0,0,0,,What?! It's not Kanda-Ogawama
 Dialogue: 0,0:07:24.81,0:07:27.05,Dialogue,,0,0,0,,Right. Have a look at this map.
 Dialogue: 0,0:07:27.54,0:07:33.06,Dialogue,,0,0,0,,The river in that picture is the Sumida River, and as for the bridges that cross it...
 Dialogue: 0,0:07:33.22,0:07:35.85,Signs,,0,0,0,,Kuramaebashi Bridge
-Dialogue: 0,0:07:33.66,0:07:35.85,Dialogue,,0,0,0,,{\a6}Kuramaebashi Bridge is yellow...
+Dialogue: 0,0:07:33.66,0:07:35.85,Dialogue Top,,0,0,0,,Kuramaebashi Bridge is yellow...
 Dialogue: 0,0:07:35.96,0:07:39.06,Signs,,0,0,0,,Umayabashi Bridge
-Dialogue: 0,0:07:36.42,0:07:39.06,Dialogue,,0,0,0,,{\a6}Umayabashi Bridge is a yellowish green...
+Dialogue: 0,0:07:36.42,0:07:39.06,Dialogue Top,,0,0,0,,Umayabashi Bridge is a yellowish green...
 Dialogue: 0,0:07:39.22,0:07:42.36,Signs,,0,0,0,,Komagatabashi Bridge
-Dialogue: 0,0:07:39.65,0:07:42.36,Dialogue,,0,0,0,,{\a6}Komagatabashi Bridge is blue...
+Dialogue: 0,0:07:39.65,0:07:42.36,Dialogue Top,,0,0,0,,Komagatabashi Bridge is blue...
 Dialogue: 0,0:07:42.48,0:07:45.07,Signs,,0,0,0,,Azumabashi Bridge
-Dialogue: 0,0:07:42.93,0:07:45.07,Dialogue,,0,0,0,,{\a6}And Azumabashi Bridge is red.
+Dialogue: 0,0:07:42.93,0:07:45.07,Dialogue Top,,0,0,0,,And Azumabashi Bridge is red.
 Dialogue: 0,0:07:45.47,0:07:50.07,Dialogue,,0,0,0,,In other words, those nails meant these four bridges.
 Dialogue: 0,0:07:50.41,0:07:51.98,Dialogue,,0,0,0,,That's amazing, Conan{\rHonorifics - Dialogue}-kun{\r}!
 Dialogue: 0,0:07:53.15,0:07:55.58,Dialogue,,0,0,0,,Uncle, you took a copy of that puzzle, right?\N
@@ -169,7 +168,7 @@ Dialogue: 0,0:08:23.10,0:08:27.29,Dialogue,,0,0,0,,to hold a wedding party for t
 Dialogue: 0,0:08:27.29,0:08:31.44,Dialogue,,0,0,0,,Dad, you have to phone Kaori{\rHonorifics - Dialogue}-san{\r} and let her know right away!\N
 Dialogue: 0,0:08:31.44,0:08:32.49,Dialogue,,0,0,0,,I know!
 Dialogue: 0,0:08:32.49,0:08:36.79,Phone,,0,0,0,,{\blur2}The number you have dialled is not in use.
-Dialogue: 0,0:08:36.79,0:08:39.17,Phone,,0,0,0,,{\blur2}{\a6}Please check that you have dialled the correct number.
+Dialogue: 0,0:08:36.79,0:08:39.17,Phone,,0,0,0,,{\blur2\an8}Please check that you have dialled the correct number.
 Dialogue: 0,0:08:38.00,0:08:40.73,Dialogue,,0,0,0,,That's weird, the number doesn't work.
 Dialogue: 0,0:08:40.73,0:08:44.14,Dialogue,,0,0,0,,Don't call her home phone, call her mobile, Dad!
 Dialogue: 0,0:08:44.14,0:08:46.59,Dialogue,,0,0,0,,Kaori{\rHonorifics - Dialogue}-san{\r} should still be out.
@@ -192,17 +191,17 @@ Dialogue: 0,0:09:32.45,0:09:38.61,Dialogue,,0,0,0,,I was getting worried, since 
 Dialogue: 0,0:09:38.61,0:09:41.73,Dialogue,,0,0,0,,So it's the Bell Tree Tower? Thank you very much.
 Dialogue: 0,0:09:42.14,0:09:44.45,Dialogue,,0,0,0,,Oh, it's no problem. Take care of yourself.
 Dialogue: 0,0:09:45.45,0:09:48.36,Dialogue,,0,0,0,,That's good, now she should make it to the party on time.
-Dialogue: 0,0:09:49.00,0:09:57.29,Thoughts,,0,0,0,,{\be10}But why did Kaori{\rHonorifics - Thoughts}-san{\r} give us her real mobile number, but a fake home number...?
+Dialogue: 0,0:09:49.00,0:09:57.29,Thoughts,,0,0,0,,{\be10}But why did Kaori{\rHonorifics - Thoughts\be10}-san{\r\be10} give us her real mobile number, but a fake home number...?
 Dialogue: 0,0:09:57.29,0:10:05.67,Thoughts,,0,0,0,,{\be10}And even if she was just passing by, is finding the location of a party really a reason to visit a detective agency?
 Dialogue: 0,0:10:06.00,0:10:10.20,Dialogue,,0,0,0,,Did Kaori{\rHonorifics - Dialogue}-san{\r} say anything about her family?
 Dialogue: 0,0:10:10.20,0:10:15.26,Dialogue,,0,0,0,,Yes. She said that she's single, and lives with her parents.
-Dialogue: 0,0:10:15.62,0:10:20.47,Dialogue,,0,0,0,,Did she do anything odd when\N writing down her home number?
+Dialogue: 0,0:10:15.62,0:10:20.47,Dialogue,,0,0,0,,Did she do anything odd when\Nwriting down her home number?
 Dialogue: 0,0:10:21.38,0:10:24.39,Dialogue,,0,0,0,,No, she didn't! Honestly, give me a break!
 Dialogue: 0,0:10:24.78,0:10:29.69,Dialogue,,0,0,0,,Oh, now you mention it, after she wrote down her mobile number...
 Dialogue: 0,0:10:30.70,0:10:34.70,Flashback,,0,0,0,,{\be10}Should I fill in my home phone number too?
 Dialogue: 0,0:10:34.70,0:10:36.93,Flashback,,0,0,0,,{\be10}If you don't mind...
 Dialogue: 0,0:10:45.93,0:10:49.65,Thoughts,,0,0,0,,{\be10}Then maybe she only wrote the last digit down wrong...
-Dialogue: 0,0:10:57.64,0:10:59.10,Phone,,0,0,0,,{\be10}Hello, this is Kitasaka.
+Dialogue: 0,0:10:57.64,0:10:59.10,Phone,,0,0,0,,{\blur2}Hello, this is Kitasaka.
 Dialogue: 0,0:10:59.90,0:11:05.32,Thoughts,,0,0,0,,{\be10}Oh no! I was so focused on checking the phone number that I didn't think of anything to say!\N
 Dialogue: 0,0:11:05.32,0:11:06.38,Dialogue,,0,0,0,,Hello?
 Dialogue: 0,0:11:06.38,0:11:09.76,Dialogue,,0,0,0,,U-Uh, my name's Conan Edogawa.
@@ -254,21 +253,21 @@ Dialogue: 0,0:13:37.18,0:13:41.75,Dialogue,,0,0,0,,When she came to the agency, 
 Dialogue: 0,0:13:41.75,0:13:43.25,Dialogue,,0,0,0,,Huh? Yeah...\N
 Dialogue: 0,0:13:43.25,0:13:45.83,Dialogue,,0,0,0,,And as she was leaving...
 Dialogue: 0,0:13:47.95,0:13:51.66,Dialogue,,0,0,0,,She probably has the gun in that bag.
-Dialogue: 0,0:13:52.59,0:13:57.26,Dialogue,,0,0,0,,Also, did you notice that Kaori{\rHonorifics - Dialogue}-san{\r}\N was wearing low-heeled shoes?
+Dialogue: 0,0:13:52.59,0:13:57.26,Dialogue,,0,0,0,,Also, did you notice that Kaori{\rHonorifics - Dialogue}-san{\r}\Nwas wearing low-heeled shoes?
 Dialogue: 0,0:13:59.78,0:14:01.57,Dialogue,,0,0,0,,Y-Yeah...
-Dialogue: 0,0:14:01.57,0:14:06.44,Dialogue,,0,0,0,,I figured she should wear higher\N heels if she was going to a party.\N
+Dialogue: 0,0:14:01.57,0:14:06.44,Dialogue,,0,0,0,,I figured she should wear higher\Nheels if she was going to a party.\N
 Dialogue: 0,0:14:06.44,0:14:08.88,Dialogue,,0,0,0,,The reason she was wearing those shoes...
 Dialogue: 0,0:14:09.33,0:14:11.58,Dialogue,,0,0,0,,Would be to stabilise herself...
 Dialogue: 0,0:14:12.49,0:14:15.59,Dialogue,,0,0,0,,So she wouldn't miss her target when she fires the gun.
 Dialogue: 0,0:14:16.97,0:14:18.97,Dialogue,,0,0,0,,Then she really did...?
-Dialogue: 0,0:14:19.60,0:14:25.10,Thoughts,,0,0,0,,{\be10}Kaori{\rHonorifics - Thoughts}-san{\r} was bad at deductions and codes,\N so the reason she joined the Deduction Society
+Dialogue: 0,0:14:19.60,0:14:25.10,Thoughts,,0,0,0,,{\be10}Kaori{\rHonorifics - Thoughts\be10}-san{\r\be10} was bad at deductions and codes,\Nso the reason she joined the Deduction Society
 Dialogue: 0,0:14:25.10,0:14:28.52,Thoughts,,0,0,0,,{\be10}might be because of she was in love with that colleague...
 Dialogue: 0,0:14:28.52,0:14:31.69,Thoughts,,0,0,0,,{\be10}Damn! I won't make it in time!
 Dialogue: 0,0:14:32.54,0:14:33.70,Thoughts,,0,0,0,,{\be10}What can I do?\N
 Dialogue: 0,0:14:34.50,0:14:35.65,Thoughts,,0,0,0,,{\be10}What can I do?
 Dialogue: 0,0:14:42.12,0:14:43.12,Dialogue,,0,0,0,,Conan{\rHonorifics - Dialogue}-kun{\r}?
 Dialogue: 0,0:14:44.50,0:14:48.88,Thoughts,,0,0,0,,{\be10}I hope this can get her to give up on her plan!
-Dialogue: 0,0:16:16.09,0:16:23.79,Dialogue,,0,0,0,,Thank you, everyone, for coming\N here for such a blissful occasion!
+Dialogue: 0,0:16:16.09,0:16:23.79,Dialogue,,0,0,0,,Thank you, everyone, for coming\Nhere for such a blissful occasion!
 Dialogue: 0,0:16:23.79,0:16:27.06,Dialogue,,0,0,0,,Did you figure out where the party was right away?
 Dialogue: 0,0:16:27.06,0:16:29.10,Dialogue,,0,0,0,,Well, how could we?\N
 Dialogue: 0,0:16:29.10,0:16:31.10,Dialogue,,0,0,0,,Yonekura's not even here yet!
@@ -281,13 +280,13 @@ Dialogue: 0,0:17:01.92,0:17:03.80,Dialogue,,0,0,0,,Kaori{\rHonorifics - Dialogue
 Dialogue: 0,0:17:03.80,0:17:04.81,Dialogue,,0,0,0,,Dad!
 Dialogue: 0,0:17:17.42,0:17:18.11,Dialogue,,0,0,0,,Kaori{\rHonorifics - Dialogue}-san{\r}!
 Dialogue: 0,0:17:32.90,0:17:33.99,Thoughts,,0,0,0,,{\be10}Don't do it!
-Dialogue: 0,0:17:36.80,0:17:38.80,Thoughts,,0,0,0,,{\be10}Don't do it, Kaori{\rHonorifics - Thoughts}-san{\r}!
+Dialogue: 0,0:17:36.80,0:17:38.80,Thoughts,,0,0,0,,{\be10}Don't do it, Kaori{\rHonorifics - Thoughts\be10}-san{\r\be10}!
 Dialogue: 0,0:17:46.18,0:17:48.02,Dialogue,,0,0,0,,How did you propose to her?\N
 Dialogue: 0,0:17:48.02,0:17:49.10,Dialogue,,0,0,0,,Oh dear...
 Dialogue: 0,0:17:49.60,0:17:51.49,Dialogue,,0,0,0,,You really want me to say that?
 Dialogue: 0,0:17:59.38,0:18:01.15,Dialogue,,0,0,0,,K-Kaori?!
-Dialogue: 0,0:18:01.56,0:18:02.91,Thoughts,,0,0,0,,{\be10}Kaori{\rHonorifics - Thoughts}-san{\r}...
-Dialogue: 0,0:18:12.94,0:18:14.10,Thoughts,,0,0,0,,{\be10}Kaori{\rHonorifics - Thoughts}-san{\r}!
+Dialogue: 0,0:18:01.56,0:18:02.91,Thoughts,,0,0,0,,{\be10}Kaori{\rHonorifics - Thoughts\be10}-san{\r\be10}...
+Dialogue: 0,0:18:12.94,0:18:14.10,Thoughts,,0,0,0,,{\be10}Kaori{\rHonorifics - Thoughts\be10}-san{\r\be10}!
 Dialogue: 0,0:18:18.33,0:18:20.71,Dialogue,,0,0,0,,Congratulations, Nagai{\rHonorifics - Dialogue}-san{\r}.
 Dialogue: 0,0:18:20.71,0:18:25.21,Dialogue,,0,0,0,,T-Thanks, Kaori...
 Dialogue: 0,0:18:42.49,0:18:45.45,Dialogue,,0,0,0,,I'm glad you didn't go through with it.
@@ -295,13 +294,10 @@ Dialogue: 0,0:18:45.86,0:18:47.40,Dialogue,,0,0,0,,Little boy...
 Dialogue: 0,0:18:47.40,0:18:51.87,Dialogue,,0,0,0,,Uncle Kogorō and the detectives went downstairs.
 Dialogue: 0,0:18:51.87,0:18:54.46,Dialogue,,0,0,0,,I think they mistook someone else for you.
 Dialogue: 0,0:19:02.34,0:19:06.35,Dialogue,,0,0,0,,It was just when I was about to head into the party...
-Dialogue: 0,0:19:22.07,0:19:26.07,Signs,,0,0,0,,sonke na otoi koto wa\Nkekarete yoi katta ne\NHairy caterpillar (kemushi) &\N Hairless caterpillar (imomushi)
-Dialogue: 0,0:19:22.07,0:19:26.07,Signs,,0,0,0,,.
-Comment: 0,0:19:22.07,0:19:29.34,Narr,,0,0,0,,[sonke na otoi koto wa kekarete yoi katta ne\N- Hairy caterpillar{kemushi} and Hairless caterpillar{imomushi}]
 Dialogue: 0,0:19:26.50,0:19:29.34,Dialogue,,0,0,0,,At first, I didn't know what it meant.
 Dialogue: 0,0:19:30.30,0:19:35.18,Dialogue,,0,0,0,,But if I ignore the character け (ke){ke o mushi} and also the character い (i){i mo mushi}...\N
-Dialogue: 0,0:19:30.30,0:19:35.18,Signs,,0,0,0,,i mo mushi
-Dialogue: 0,0:19:30.30,0:19:35.18,Signs,,0,0,0,,ke o mushi
+Dialogue: 0,0:19:30.30,0:19:35.18,Thoughts,,0,0,0,,{\be10}i mo mushi
+Dialogue: 0,0:19:30.30,0:19:35.18,Thoughts,,0,0,0,,{\be10}ke o mushi
 Dialogue: 0,0:19:35.18,0:19:38.45,Dialogue,,0,0,0,,‘It's good that you parted ways with him.'
 Dialogue: 0,0:19:43.20,0:19:48.39,Dialogue,,0,0,0,,All my wrought-up emotions vanished\Nas quickly as the receding tide...
 Dialogue: 0,0:19:50.28,0:19:56.10,Dialogue,,0,0,0,,I thought that you'd know what it meant since you could solve the Tanuki Code, Kaori{\rHonorifics - Dialogue}-san{\r}.
@@ -332,10 +328,10 @@ Dialogue: 0,0:23:07.13,0:23:08.59,Dialogue,,0,0,0,,I can't wait!\N
 Dialogue: 0,0:23:08.59,0:23:10.14,Dialogue,,0,0,0,,I hope the weather's good.
 Dialogue: 0,0:23:10.14,0:23:12.29,Dialogue,,0,0,0,,I should make a {\i1}teru-teru bōzu{\i0}.
 Dialogue: 0,0:23:12.87,0:23:16.27,Thoughts,,0,0,0,,{\be10}Ugh, I'll have to spend another day with this lot.
-Dialogue: 0,0:23:19.44,0:23:23.71,Dialogue,,0,0,0,,{\a6}There's lots of tasty restaurants near the Bell Tree Tower!
-Dialogue: 0,0:23:23.71,0:23:27.04,Dialogue,,0,0,0,,{\a6}I'll have eel rice for lunch!\N
+Dialogue: 0,0:23:19.44,0:23:23.71,Dialogue Top,,0,0,0,,There's lots of tasty restaurants near the Bell Tree Tower!
+Dialogue: 0,0:23:23.71,0:23:27.04,Dialogue Top,,0,0,0,,I'll have eel rice for lunch!\N
 Dialogue: 0,0:23:22.45,0:23:34.14,Narr,,0,0,0,,{\blur3}Nobody could have ever suspected that another shooting was waiting for us at the Bell Tree Tower...
-Dialogue: 0,0:01:21.93,0:01:26.94,ButterflyCore,,0,0,0,,{\blur4}{\fad(200,0)}kage o mau chō no kodō ga seijaku no umi o saite
+Dialogue: 0,0:01:21.93,0:01:26.94,ButterflyCore,,0,0,0,,{\blur4\fad(200,0)}kage o mau chō no kodō ga seijaku no umi o saite
 Dialogue: 0,0:01:27.10,0:01:34.28,ButterflyCore,,0,0,0,,{\blur4}kasanariau koe ga ima yami o furiharatta
 Dialogue: 0,0:01:48.83,0:01:54.26,ButterflyCore,,0,0,0,,{\blur4\c&H005500}haritsuita ase o nugutte nigemawaru light o ketta
 Dialogue: 0,0:01:54.63,0:01:59.93,ButterflyCore,,0,0,0,,{\blur4\c&H005500}kanashimi ni utareta kyō no kizuato kabau yō ni
@@ -347,7 +343,7 @@ Dialogue: 0,0:02:22.28,0:02:27.33,ButterflyCore,,0,0,0,,{\blur4\c&HAA0000}kage o
 Dialogue: 0,0:02:27.50,0:02:32.84,ButterflyCore,,0,0,0,,{\blur4\c&H000077}kimi ni miseru itsuwari no subete ga uso ja nai daro
 Dialogue: 0,0:02:33.00,0:02:38.47,ButterflyCore,,0,0,0,,{\blur4\c&HAA0000}mayo'u tabi suteta kotae mo kitto erabu hi wa mata kuru kara
 Dialogue: 0,0:02:38.63,0:02:47.56,ButterflyCore,,0,0,0,,{\blur4\c&H006600}kono kokoro wa dare yori mo atsuku moyashi tsuzukeyō kienai yō ni
-Dialogue: 0,0:02:57.49,0:03:03.03,ButterflyCore,,0,0,0,,{\blur4\c&H006600}{\fad(0,1000)}kienai yō ni
+Dialogue: 0,0:02:57.49,0:03:03.03,ButterflyCore,,0,0,0,,{\blur4\c&H006600\fad(0,1000)}kienai yō ni
 Dialogue: 0,0:01:21.93,0:01:26.94,ButterflyCore2,,0,0,0,,{\fad(200,0)}kage o mau chō no kodō ga seijaku no umi o saite
 Dialogue: 0,0:01:27.10,0:01:34.28,ButterflyCore2,,0,0,0,,kasanariau koe ga ima yami o furiharatta
 Dialogue: 0,0:01:48.83,0:01:54.26,ButterflyCore2,,0,0,0,,haritsuita ase o nugutte nigemawaru light o ketta
@@ -369,25 +365,12 @@ Dialogue: 0,0:22:09.34,0:22:16.16,AitakuteRomaji,,0,0,0,,{\blur3}aitakute kimi n
 Dialogue: 0,0:22:16.66,0:22:25.13,AitakuteRomaji,,0,0,0,,{\blur3}ima mo kono mune wa kimi{\fsp-2\fs40}- {\fsp\fs}iro ni somaru (dakishimetakute)
 Dialogue: 0,0:22:25.29,0:22:32.30,AitakuteRomaji,,0,0,0,,{\blur3}setsunakute nido to aenai nara
 Dialogue: 0,0:22:32.63,0:22:40.60,AitakuteRomaji,,0,0,0,,{\fad(0,1000)\blur3}maichiru yuki shiroku kono kokoro somete
-Dialogue: 0,0:21:24.19,0:21:27.61,Signs,,0,0,0,,Ima Aitakute...\N(I want to be with you...)
-Dialogue: 0,0:03:07.33,0:03:07.37,Signs,,0,0,0,,THE CODED INVITATION
-Dialogue: 0,0:03:07.37,0:03:07.42,Signs,,0,0,0,,THE CODED INVITATION
-Dialogue: 0,0:03:07.42,0:03:07.46,Signs,,0,0,0,,THE CODED INVITATION
-Dialogue: 0,0:03:07.46,0:03:07.50,Signs,,0,0,0,,THE CODED INVITATION
-Dialogue: 0,0:03:07.50,0:03:07.54,Signs,,0,0,0,,THE CODED INVITATION
-Dialogue: 0,0:03:07.54,0:03:07.58,Signs,,0,0,0,,THE CODED INVITATION
-Dialogue: 0,0:03:07.58,0:03:07.62,Signs,,0,0,0,,THE CODED INVITATION
-Dialogue: 0,0:03:07.62,0:03:07.67,Signs,,0,0,0,,THE CODED INVITATION
-Dialogue: 0,0:03:07.67,0:03:07.75,Signs,,0,0,0,,THE CODED INVITATION
-Dialogue: 0,0:03:07.75,0:03:13.34,Signs,,0,0,0,,THE CODED INVITATION
 Dialogue: 0,0:23:35.82,0:23:37.75,Dialogue,,0,0,0,,A challenge from the mysterious Phantom Thief K!
 Dialogue: 0,0:23:37.75,0:23:40.09,Dialogue,,0,0,0,,Lots of tricks set up over a wide area!
 Dialogue: 0,0:23:40.09,0:23:42.30,Dialogue,,0,0,0,,What's behind the shocking calculated trap?!
 Dialogue: 0,0:23:42.30,0:23:45.53,Dialogue,,0,0,0,,Detective Conan: ‘The Secret of the Kogorō Mouri Statue'!
-Dialogue: 0,0:23:46.22,0:23:49.21,Signs,,0,0,0,,THE SECRET OF THE KOGORŌ MOURI STATUE
 Dialogue: 0,0:23:45.53,0:23:49.21,Dialogue,,0,0,0,,Airs Saturday 26th April at 6 PM!
 Dialogue: 0,0:23:49.21,0:23:54.25,Dialogue,,0,0,0,,Next Conan's Hint: Basketball!
-Dialogue: 0,0:23:54.25,0:23:55.82,Dialogue,,0,0,0,,{\a6}The movie opens today!
-Dialogue: 0,0:23:55.82,0:23:57.13,Dialogue,,0,0,0,,{\a6}The theme song's the best!
-Dialogue: 0,0:23:57.13,0:23:59.13,Dialogue,,0,0,0,,{\a6}The singer's lovely, too.
-Dialogue: 0,0:23:59.13,0:24:01.13,Dialogue,,0,0,0,,
+Dialogue: 0,0:23:54.25,0:23:55.82,Dialogue Top,,0,0,0,,The movie opens today!
+Dialogue: 0,0:23:55.82,0:23:57.13,Dialogue Top,,0,0,0,,The theme song's the best!
+Dialogue: 0,0:23:57.13,0:23:59.13,Dialogue Top,,0,0,0,,The singer's lovely, too.

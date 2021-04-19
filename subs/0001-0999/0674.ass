@@ -40,11 +40,9 @@ Style: Blanka30,Arial,20,&HFFFFFFFF,&H000000FF,&H1E000000,&H00000000,0,0,0,0,100
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Comment: 0,0:04:25.03,0:04:29.24,Signs,,0,0,0,,© Gōshō Aoyama / Shōgakukan · Yomiuri TV · TMS 1996
-Comment: 0,0:22:20.72,0:22:21.80,Signs,,0,0,0,,.
 Dialogue: 0,0:00:01.48,0:00:07.07,Thoughts,,0,0,0,,{\be10}We got an easy-looking request via the Detective Agency's new website.{672}
-Dialogue: 0,0:00:07.65,0:00:11.65,Thoughts,,0,0,0,,{\be10}But the client sent an e-mail requesting a{\rHonorifics - Thoughts} chan{\r}ge in the meeting venue,{672}
-Dialogue: 0,0:00:11.65,0:00:17.49,Thoughts,,0,0,0,,{\be10}so the old man went there along with me, Ran and his apprentice Amuro{\rHonorifics - Thoughts}-san{\r}.{672}
+Dialogue: 0,0:00:07.65,0:00:11.65,Thoughts,,0,0,0,,{\be10}But the client sent an e-mail requesting a{\rHonorifics - Thoughts\be10} chan{\r\be10}ge in the meeting venue,{672}
+Dialogue: 0,0:00:11.65,0:00:17.49,Thoughts,,0,0,0,,{\be10}so the old man went there along with me, Ran and his apprentice Amuro{\rHonorifics - Thoughts\be10}-san{\r\be10}.{672}
 Dialogue: 0,0:00:18.17,0:00:19.95,Thoughts,,0,0,0,,{\be10}But the client never showed up.{672}
 Dialogue: 0,0:00:20.82,0:00:25.50,Thoughts,,0,0,0,,{\be10}Afterwards, we returned to the Agency, at which time we got another e-mail from the client.{672}
 Dialogue: 0,0:00:25.50,0:00:27.38,Thoughts,,0,0,0,,{\be10}Somebody tried to make us leave the Agency, but...
@@ -61,7 +59,7 @@ Dialogue: 0,0:01:16.59,0:01:20.97,Thoughts,,0,0,0,,{\be10}W{new}hen in the car, 
 Dialogue: 0,0:01:20.97,0:01:24.95,Thoughts,,0,0,0,,{\be10}However, I narrowly saw through it,\Nand instead determined her identity.
 Dialogue: 0,0:01:26.65,0:01:29.50,Thoughts,,0,0,0,,{\be10}Her name was Serina Urakawa.
 Dialogue: 0,0:01:29.50,0:01:32.69,Thoughts,,0,0,0,,{\be10}She was committing crimes in order to get revenge for her lover,
-Dialogue: 0,0:01:32.69,0:01:37.28,Thoughts,,0,0,0,,{\be10}Ken'ya Shōno{\rHonorifics - Thoughts}-san{\r}, who was murdered by\Nthe three man bank robber group.
+Dialogue: 0,0:01:32.69,0:01:37.28,Thoughts,,0,0,0,,{\be10}Ken'ya Shōno{\rHonorifics - Thoughts\be10}-san{\r\be10}, who was murdered by\Nthe three man bank robber group.
 Dialogue: 0,0:01:38.14,0:01:43.95,Thoughts,,0,0,0,,{\be10}At the same time, old man Kogorō and the others closed in on the truth of the case with Amuro's help,
 Dialogue: 0,0:01:43.95,0:01:47.44,Thoughts,,0,0,0,,{\be10}and went off to see the woman suspected to be the last bank robber.
 Dialogue: 0,0:01:48.67,0:01:56.51,Thoughts,,0,0,0,,{\be10}Also, having been contacted by Ran, Dr. Agasa and Haibara began pursuing us in Okiya's car.
@@ -101,7 +99,7 @@ Dialogue: 0,0:06:13.25,0:06:14.99,Dialogue,,0,0,0,,What is it? So annoying...
 Dialogue: 0,0:06:15.94,0:06:19.65,Dialogue,,0,0,0,,I just moved here today.
 Dialogue: 0,0:06:19.65,0:06:20.52,Dialogue,,0,0,0,,Right, Mum?
 Dialogue: 0,0:06:21.37,0:06:24.67,Dialogue,,0,0,0,,Please accept this small token of my appreciation...
-Dialogue: 0,0:06:24.67,0:06:29.32,Dialogue,,0,0,0,,{\a6}Oh, I see. My shift at the convenience store starts at midnight,
+Dialogue: 0,0:06:24.67,0:06:29.32,Dialogue Top,,0,0,0,,Oh, I see. My shift at the convenience store starts at midnight,
 Dialogue: 0,0:06:24.61,0:06:29.28,Signs,,0,0,0,,Rinko Toyokita (27)
 Dialogue: 0,0:06:29.28,0:06:31.26,Dialogue,,0,0,0,,so I'm usually asleep at this time.
 Dialogue: 0,0:06:33.02,0:06:34.27,Dialogue,,0,0,0,,Be careful now...
@@ -113,7 +111,7 @@ Dialogue: 0,0:06:40.58,0:06:42.08,Dialogue,,0,0,0,,Don't come back again!
 Dialogue: 0,0:06:49.18,0:06:50.93,Thoughts,,0,0,0,,{\be10}Maybe she's not home?
 Dialogue: 0,0:06:51.74,0:06:52.31,Dialogue,,0,0,0,,My...
 Dialogue: 0,0:06:52.97,0:06:56.64,Signs,,0,0,0,,Sakae Furuya (31)
-Dialogue: 0,0:06:53.34,0:06:56.64,Dialogue,,0,0,0,,{\a6}Do you have some business at my flat?
+Dialogue: 0,0:06:53.34,0:06:56.64,Dialogue Top,,0,0,0,,Do you have some business at my flat?
 Dialogue: 0,0:06:56.64,0:06:59.94,Dialogue,,0,0,0,,Umm... A welcome present since I just moved in.
 Dialogue: 0,0:06:59.94,0:07:00.90,Dialogue,,0,0,0,,Oh, is that so?
 Dialogue: 0,0:07:01.49,0:07:03.48,Dialogue,,0,0,0,,But it's of no use to me.
@@ -130,8 +128,8 @@ Dialogue: 0,0:07:29.82,0:07:32.46,Thoughts,,0,0,0,,{\be10}Nothing but leftovers 
 Dialogue: 0,0:07:36.77,0:07:38.89,Dialogue,,0,0,0,,Yes, who is it?
 Dialogue: 0,0:07:39.54,0:07:43.02,Dialogue,,0,0,0,,We've just moved here today, so if you'd like, please take this.
 Dialogue: 0,0:07:43.27,0:07:47.65,Signs,,0,0,0,,Takayo Tegawa (29)
-Dialogue: 0,0:07:43.45,0:07:45.19,Dialogue,,0,0,0,,{\a6}Oh, forgive me.
-Dialogue: 0,0:07:45.19,0:07:47.65,Dialogue,,0,0,0,,{\a6}I'm not into taking such things.
+Dialogue: 0,0:07:43.45,0:07:45.19,Dialogue Top,,0,0,0,,Oh, forgive me.
+Dialogue: 0,0:07:45.19,0:07:47.65,Dialogue Top,,0,0,0,,I'm not into taking such things.
 Dialogue: 0,0:07:47.98,0:07:50.66,Dialogue,,0,0,0,,Say, what do you do, lady?
 Dialogue: 0,0:07:51.37,0:07:52.48,Dialogue,,0,0,0,,I'm a writer.
 Dialogue: 0,0:07:52.48,0:07:54.95,Dialogue,,0,0,0,,It's right before a deadline now, so it's been tough.
@@ -334,34 +332,10 @@ Dialogue: 0,0:24:02.37,0:24:03.95,Dialogue,,0,0,0,,A fierce marital spat at a ba
 Dialogue: 0,0:24:03.95,0:24:06.08,Dialogue,,0,0,0,,From a misunderstanding comes a stabbing!
 Dialogue: 0,0:24:06.08,0:24:09.88,Dialogue,,0,0,0,,Detective Conan: ‘Won't Forgive Even One Millimetre (Part I)'!
 Dialogue: 0,0:24:09.88,0:24:12.68,Dialogue,,0,0,0,,Broadcasts at 6:00 PM on Saturday, November 10!
-Dialogue: 0,0:24:11.88,0:24:14.76,Signs,,0,0,0,,(Part I)
 Dialogue: 0,0:24:14.76,0:24:19.72,Dialogue,,0,0,0,,Next Conan's Hint: Barbecue!
 Dialogue: 0,0:24:20.08,0:24:21.38,Dialogue,,0,0,0,,Bourbon's one of those three!
 Dialogue: 0,0:24:21.38,0:24:22.66,Dialogue,,0,0,0,,Don't act reckless...
 Dialogue: 0,0:24:22.66,0:24:24.66,Dialogue,,0,0,0,,Right. I'll leave it to that guy next time.
-Dialogue: 0,0:04:25.03,0:04:29.24,Signs,,0,0,0,,© Gōshō Aoyama / Shōgakukan · Yomiuri TV · TMS 1996
-Dialogue: 0,0:04:07.93,0:04:12.35,Signs,,0,0,0,,Kimi no namida ni kon'na ni koishite'ru\N(I love your tears so much)
-Dialogue: 0,0:04:07.93,0:04:12.35,Signs,,0,0,0,,(Natsu-Iro)
-Dialogue: 0,0:22:21.63,0:22:25.14,Signs,,0,0,0,,Koi ni Koishite\N(Falling in love)
-Dialogue: 0,0:22:21.63,0:22:25.14,Signs,,0,0,0,,(Mai Kuraki)
-Dialogue: 0,0:22:20.72,0:22:21.80,Signs,,0,0,0,,.
-Dialogue: 0,0:22:21.80,0:22:21.88,Signs,,0,0,0,,.
-Dialogue: 0,0:22:21.88,0:22:21.97,Signs,,0,0,0,,.
-Dialogue: 0,0:22:21.97,0:22:22.05,Signs,,0,0,0,,.
-Dialogue: 0,0:22:22.05,0:22:22.13,Signs,,0,0,0,,.
-Dialogue: 0,0:22:22.13,0:22:22.22,Signs,,0,0,0,,.
-Dialogue: 0,0:22:22.22,0:22:22.30,Signs,,0,0,0,,.
-Dialogue: 0,0:22:22.30,0:22:22.38,Signs,,0,0,0,,.
-Dialogue: 0,0:22:22.38,0:22:22.47,Signs,,0,0,0,,.
-Dialogue: 0,0:22:22.38,0:22:22.47,Signs,,0,0,0,,.
-Dialogue: 0,0:22:25.14,0:22:25.22,Signs,,0,0,0,,.
-Dialogue: 0,0:22:25.14,0:22:25.22,Signs,,0,0,0,,.
-Dialogue: 0,0:22:25.22,0:22:25.30,Signs,,0,0,0,,.
-Dialogue: 0,0:22:25.30,0:22:25.39,Signs,,0,0,0,,.
-Dialogue: 0,0:22:25.39,0:22:25.47,Signs,,0,0,0,,.
-Dialogue: 0,0:22:25.47,0:22:25.55,Signs,,0,0,0,,.
-Dialogue: 0,0:22:25.55,0:22:25.64,Signs,,0,0,0,,.
-Dialogue: 0,0:22:25.64,0:22:26.14,Signs,,0,0,0,,.
 Dialogue: 0,0:22:20.72,0:22:21.80,Signs,,0,0,0,,Shin'ichi Kudō
 Dialogue: 0,0:22:21.80,0:22:21.88,Signs,,0,0,0,,Shin'ichi Kudō
 Dialogue: 0,0:22:21.88,0:22:21.97,Signs,,0,0,0,,Shin'ichi Kudō
@@ -397,13 +371,3 @@ Dialogue: 0,0:22:25.39,0:22:25.47,Signs,,0,0,0,,Shin'ich
 Dialogue: 0,0:22:25.47,0:22:25.55,Signs,,0,0,0,,Shin'ichi Kudō
 Dialogue: 0,0:22:25.55,0:22:25.64,Signs,,0,0,0,,Shin'ichi Kudō
 Dialogue: 0,0:22:25.64,0:22:26.14,Signs,,0,0,0,,Shin'ichi Kudō
-Dialogue: 0,0:05:58.71,0:05:58.75,Signs,,0,0,0,,(Bourbon)
-Dialogue: 0,0:05:58.75,0:05:58.79,Signs,,0,0,0,,(Bourbon)
-Dialogue: 0,0:05:58.79,0:05:58.83,Signs,,0,0,0,,(Bourbon)
-Dialogue: 0,0:05:58.83,0:05:58.87,Signs,,0,0,0,,(Bourbon)
-Dialogue: 0,0:05:58.87,0:05:58.92,Signs,,0,0,0,,(Bourbon)
-Dialogue: 0,0:05:58.92,0:05:58.96,Signs,,0,0,0,,(Bourbon)
-Dialogue: 0,0:05:58.96,0:05:59.00,Signs,,0,0,0,,(Bourbon)
-Dialogue: 0,0:05:59.00,0:05:59.04,Signs,,0,0,0,,(Bourbon)
-Dialogue: 0,0:05:59.04,0:05:59.08,Signs,,0,0,0,,(Bourbon)
-Dialogue: 0,0:05:59.08,0:06:04.67,Signs,,0,0,0,,(Bourbon)

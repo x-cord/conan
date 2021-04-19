@@ -58,13 +58,13 @@ Style: Narr,OSPuto,33,&H6E8C6F00,&H000000FF,&H00FFFFFF,&H80000000,-1,0,0,0,100,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:16.66,0:00:21.91,MERomaji,,0,0,0,,{\fad(0,200)}{\c&HF1F5F2&\3c&HF1F5F2&\4c&HF1F5F2&\t(0,190,\c\3c\4c)}kimi to boku to wa betsu no ikimono dakara
+Dialogue: 0,0:00:16.66,0:00:21.91,MERomaji,,0,0,0,,{\fad(0,200)\c&HF1F5F2&\3c&HF1F5F2&\4c&HF1F5F2&\t(0,190,\c\3c\4c)}kimi to boku to wa betsu no ikimono dakara
 Dialogue: 0,0:00:24.17,0:00:27.88,MERomaji,,0,0,0,,konomi ga chigau aruku hayasa mo
 Dialogue: 0,0:00:27.88,0:00:30.76,MERomaji,,0,0,0,,omoi no tsutaekata mo
 Dialogue: 0,0:00:31.51,0:00:37.68,MERomaji,,0,0,0,,iroasete-yuku futari no kioku no naka ima boku-ra wa
 Dialogue: 0,0:00:38.60,0:00:45.19,MERomaji,,0,0,0,,tesaguri dakedo hoka no dareka o mirai o sagashite-iku
 Dialogue: 0,0:00:45.19,0:00:48.73,MERomaji,,0,0,0,,om{\fsp-2}o'{\fsp}u yori tsuyoku ikite
-Dialogue: 0,0:00:48.73,0:00:52.49,MERomaji,,0,0,0,, tokubetsu na ai motomet{\fsp-2}e'{\fsp}ru
+Dialogue: 0,0:00:48.73,0:00:52.49,MERomaji,,0,0,0,,tokubetsu na ai motomet{\fsp-2}e'{\fsp}ru
 Dialogue: 0,0:00:52.49,0:00:56.53,MERomaji,,0,0,0,,shitataka na hibi ni nayandari
 Dialogue: 0,0:00:56.53,0:00:59.62,MERomaji,,0,0,0,,true heart for mystery eyes
 Dialogue: 0,0:00:59.62,0:01:07.38,MERomaji,,0,0,0,,mō nido to mayowanai yō ni sono ude o hanasanaide
@@ -73,7 +73,7 @@ Dialogue: 0,0:01:14.26,0:01:21.51,MERomaji,,0,0,0,,tada zutto kotae o sagashite 
 Dialogue: 0,0:01:21.51,0:01:28.10,MERomaji,,0,0,0,,{\fad(0,700)}tsugi no basho e you take your way
 Dialogue: 0,0:01:28.65,0:01:32.36,MERomaji,,0,0,0,,dakishimete
 Dialogue: 0,0:01:32.36,0:01:39.62,MERomaji,,0,0,0,,{\fad(0,400)}I feel so all in secret life
-Dialogue: 2,0:00:16.66,0:00:21.91,MERomaji2,,0,0,0,,{\fad(0,200)}{\c&HF1F5F2&\3c&HF1F5F2&\4c&HF1F5F2&\t(0,190,\c\3c\4c)}{\blur2}kimi to boku to wa betsu no ikimono dakara
+Dialogue: 2,0:00:16.66,0:00:21.91,MERomaji2,,0,0,0,,{\fad(0,200)\c&HF1F5F2&\3c&HF1F5F2&\4c&HF1F5F2&\t(0,190,\c\3c\4c)\blur2}kimi to boku to wa betsu no ikimono dakara
 Dialogue: 2,0:00:24.17,0:00:27.88,MERomaji2,,0,0,0,,{\blur2}konomi ga chigau aruku hayasa mo
 Dialogue: 2,0:00:27.88,0:00:30.76,MERomaji2,,0,0,0,,{\blur2}omoi no tsutaekata mo
 Dialogue: 2,0:00:31.51,0:00:37.68,MERomaji2,,0,0,0,,{\blur2}iroasete-yuku futari no kioku no naka ima boku-ra wa
@@ -85,10 +85,10 @@ Dialogue: 2,0:00:56.53,0:00:59.62,MERomaji2,,0,0,0,,{\blur2}true heart for myste
 Dialogue: 2,0:00:59.62,0:01:07.38,MERomaji2,,0,0,0,,{\blur2}mō nido to mayowanai yō ni sono ude o hanasanaide
 Dialogue: 2,0:01:07.38,0:01:10.00,MERomaji2,,0,0,0,,{\blur2}kizutsukeau sono toki mo
 Dialogue: 2,0:01:14.26,0:01:21.51,MERomaji2,,0,0,0,,{\blur2}tada zutto kotae o sagashite mayoikonda toki no naka de
-Dialogue: 2,0:01:21.51,0:01:28.10,MERomaji2,,0,0,0,,{\blur2}{\fad(0,700)}tsugi no basho e you take your way
+Dialogue: 2,0:01:21.51,0:01:28.10,MERomaji2,,0,0,0,,{\blur2\fad(0,700)}tsugi no basho e you take your way
 Dialogue: 2,0:01:28.65,0:01:32.36,MERomaji2,,0,0,0,,{\blur2}dakishimete
-Dialogue: 2,0:01:32.36,0:01:39.62,MERomaji2,,0,0,0,,{\blur2}{\fad(0,400)}I feel so all in secret life
-Dialogue: 0,0:00:16.66,0:00:21.91,MysteriousEyesTL,,0,0,0,,{\fad(0,200)}{\c&HF1F5F2&\3c&HF1F5F2&\4c&HF1F5F2&\t(0,190,\c\3c\4c)}We could{\fsp-2}n'{\fsp}t be less alike
+Dialogue: 2,0:01:32.36,0:01:39.62,MERomaji2,,0,0,0,,{\blur2\fad(0,400)}I feel so all in secret life
+Dialogue: 0,0:00:16.66,0:00:21.91,MysteriousEyesTL,,0,0,0,,{\fad(0,200)\c&HF1F5F2&\3c&HF1F5F2&\4c&HF1F5F2&\t(0,190,\c\3c\4c)}We could{\fsp-2}n'{\fsp}t be less alike
 Dialogue: 0,0:00:24.17,0:00:27.88,MysteriousEyesTL,,0,0,0,,We like different things, walk at different speeds
 Dialogue: 0,0:00:27.88,0:00:30.76,MysteriousEyesTL,,0,0,0,,and confess our feelings in different ways
 Dialogue: 0,0:00:31.51,0:00:37.68,MysteriousEyesTL,,0,0,0,,Now, sorting through the fading memories of our time together
@@ -103,7 +103,7 @@ Dialogue: 0,0:01:14.26,0:01:21.51,MysteriousEyesTL,,0,0,0,,Every time I was lost
 Dialogue: 0,0:01:21.51,0:01:28.10,MysteriousEyesTL,,0,0,0,,{\fad(0,700)}You were already moving onward...
 Dialogue: 0,0:01:28.65,0:01:32.36,MysteriousEyesTL,,0,0,0,,Hold onto me...
 Dialogue: 0,0:01:32.36,0:01:39.62,MysteriousEyesTL,,0,0,0,,{\fad(0,400)}For tha{\fsp-2}t'{\fsp}s my secret life
-Dialogue: 0,0:00:16.66,0:00:21.91,MysteriousEyesTL2,,0,0,0,,{\fad(0,200)}{\blur2}{\c&HF1F5F2&\3c&HF1F5F2&\4c&HF1F5F2&\t(0,190,\c\3c\4c)}We could{\fsp-2}n'{\fsp}t be less alike
+Dialogue: 0,0:00:16.66,0:00:21.91,MysteriousEyesTL2,,0,0,0,,{\fad(0,200)\blur2\c&HF1F5F2&\3c&HF1F5F2&\4c&HF1F5F2&\t(0,190,\c\3c\4c)}We could{\fsp-2}n'{\fsp}t be less alike
 Dialogue: 0,0:00:24.17,0:00:27.88,MysteriousEyesTL2,,0,0,0,,{\blur2}We like different things, walk at different speeds
 Dialogue: 0,0:00:27.88,0:00:30.76,MysteriousEyesTL2,,0,0,0,,{\blur2}and confess our feelings in different ways
 Dialogue: 0,0:00:31.51,0:00:37.68,MysteriousEyesTL2,,0,0,0,,{\blur2}Now, sorting through the fading memories of our time together
@@ -115,9 +115,9 @@ Dialogue: 0,0:00:56.53,0:00:59.62,MysteriousEyesTL2,,0,0,0,,{\blur2}A true heart
 Dialogue: 0,0:00:59.62,0:01:07.38,MysteriousEyesTL2,,0,0,0,,{\blur2}Do{\fsp-2}n'{\fsp}t ever let go of my arm, so I never lose you again
 Dialogue: 0,0:01:07.38,0:01:10.00,MysteriousEyesTL2,,0,0,0,,{\blur2}Even when we may hurt each other...
 Dialogue: 0,0:01:14.26,0:01:21.51,MysteriousEyesTL2,,0,0,0,,{\blur2}Every time I was lost, simply searching for answers
-Dialogue: 0,0:01:21.51,0:01:28.10,MysteriousEyesTL2,,0,0,0,,{\blur2}{\fad(0,700)}You were already moving onward...
+Dialogue: 0,0:01:21.51,0:01:28.10,MysteriousEyesTL2,,0,0,0,,{\blur2\fad(0,700)}You were already moving onward...
 Dialogue: 0,0:01:28.65,0:01:32.36,MysteriousEyesTL2,,0,0,0,,{\blur2}Hold onto me...
-Dialogue: 0,0:01:32.36,0:01:39.62,MysteriousEyesTL2,,0,0,0,,{\blur2}{\fad(0,400)}For tha{\fsp-2}t'{\fsp}s my secret life
+Dialogue: 0,0:01:32.36,0:01:39.62,MysteriousEyesTL2,,0,0,0,,{\blur2\fad(0,400)}For tha{\fsp-2}t'{\fsp}s my secret life
 Dialogue: 0,0:00:01.35,0:00:04.75,MENarration,,0,0,0,,{\blur2}Just as water flows without shape {\blur2}and wind blows without form,
 Dialogue: 0,0:00:04.75,0:00:06.36,MENarration,,0,0,0,,{\blur2}no case can stop you from deducing the truth!
 Dialogue: 0,0:00:06.36,0:00:08.36,MENarration,,0,0,0,,{\blur2}People's feelings are the key to solving this case.
@@ -125,22 +125,6 @@ Dialogue: 0,0:00:08.36,0:00:10.40,MENarration,,0,0,0,,{\blur2}I want to find out
 Dialogue: 0,0:00:10.40,0:00:12.32,MENarration,,0,0,0,,{\blur2}He sees the single truth for what it is,
 Dialogue: 0,0:00:12.32,0:00:13.99,MENarration,,0,0,0,,{\blur2}and looks like a kid but has the mind of an adult!
 Dialogue: 0,0:00:13.99,0:00:16.45,MENarration,,0,0,0,,{\blur2\t(2026,2560,\c&HF1F5F2&\4c&HF1F5F2&)}His name? Detective Conan!
-Dialogue: 0,0:02:24.58,0:02:24.62,Signs,,0,0,0,,THE BLIND SPOT IN THE DARKNESS
-Dialogue: 0,0:02:24.62,0:02:24.66,Signs,,0,0,0,,THE BLIND SPOT IN THE DARKNESS
-Dialogue: 0,0:02:24.66,0:02:24.70,Signs,,0,0,0,,THE BLIND SPOT IN THE DARKNESS
-Dialogue: 0,0:02:24.70,0:02:24.74,Signs,,0,0,0,,THE BLIND SPOT IN THE DARKNESS
-Dialogue: 0,0:02:24.74,0:02:24.79,Signs,,0,0,0,,THE BLIND SPOT IN THE DARKNESS
-Dialogue: 0,0:02:24.79,0:02:24.83,Signs,,0,0,0,,THE BLIND SPOT IN THE DARKNESS
-Dialogue: 0,0:02:24.83,0:02:24.87,Signs,,0,0,0,,THE BLIND SPOT IN THE DARKNESS
-Dialogue: 0,0:02:24.87,0:02:30.67,Signs,,0,0,0,,THE BLIND SPOT IN THE DARKNESS
-Dialogue: 0,0:02:24.58,0:02:24.62,Signs,,0,0,0,,(PART II)
-Dialogue: 0,0:02:24.62,0:02:24.66,Signs,,0,0,0,,(PART II)
-Dialogue: 0,0:02:24.66,0:02:24.70,Signs,,0,0,0,,(PART II)
-Dialogue: 0,0:02:24.70,0:02:24.74,Signs,,0,0,0,,(PART II)
-Dialogue: 0,0:02:24.74,0:02:24.79,Signs,,0,0,0,,(PART II)
-Dialogue: 0,0:02:24.79,0:02:24.83,Signs,,0,0,0,,(PART II)
-Dialogue: 0,0:02:24.83,0:02:24.87,Signs,,0,0,0,,(PART II)
-Dialogue: 0,0:02:24.87,0:02:30.67,Signs,,0,0,0,,(PART II)
 Dialogue: 0,0:01:58.48,0:02:02.36,Narr,,0,0,0,,{\blur2}The old man only has 6 months left to live!
 Dialogue: 0,0:02:03.80,0:02:07.00,Narr,,0,0,0,,{\blur2}Well, that's what he thought he was hearing.
 Dialogue: 0,0:02:07.00,0:02:09.56,Narr,,0,0,0,,{\blur2}But he was actually just being told to stay away from alcohol for 6 months.
@@ -305,7 +289,7 @@ Dialogue: 0,0:11:34.93,0:11:36.20,Dialogue,,0,0,0,,Mouri{\rHonorifics - Dialogue
 Dialogue: 0,0:11:37.15,0:11:39.25,Dialogue,,0,0,0,,He got wet in the rain,
 Dialogue: 0,0:11:39.25,0:11:44.05,Dialogue,,0,0,0,,and he wants to see if you can really get an electric shock by using that razor in the bath.
 Dialogue: 0,0:11:44.69,0:11:46.77,Dialogue,,0,0,0,,Where's the Inspector and the others?
-Dialogue: 0,0:11:46.77,0:11:49.77,Dialogue,,0,0,0,,The detectives said they\N were leaving for the day.
+Dialogue: 0,0:11:46.77,0:11:49.77,Dialogue,,0,0,0,,The detectives said they\Nwere leaving for the day.
 Dialogue: 0,0:11:50.26,0:11:52.64,Dialogue,,0,0,0,,No way! What a shame!
 Dialogue: 0,0:11:52.64,0:11:54.22,Dialogue,,0,0,0,,What do you mean?
 Dialogue: 0,0:11:55.03,0:11:59.21,Dialogue,,0,0,0,,'Cause Uncle Kogorō said that once he gets out of the bath,
@@ -370,7 +354,7 @@ Dialogue: 0,0:15:47.44,0:15:49.87,Dialogue,,0,0,0,,When the lights turned back o
 Dialogue: 0,0:15:49.87,0:15:56.98,Dialogue,,0,0,0,,who was holding the handrail,\Nwas electrocuted, and died instantly.
 Dialogue: 0,0:15:56.98,0:16:00.35,Dialogue,,0,0,0,,But anybody could've done that, Mouri{\rHonorifics - Dialogue}-san{\r}...
 Dialogue: 0,0:16:00.65,0:16:01.70,Dialogue,,0,0,0,,Right.
-Dialogue: 0,0:16:01.70,0:16:05.90,Dialogue,,0,0,0,,Your plan was to create\N an alibi using the phone,
+Dialogue: 0,0:16:01.70,0:16:05.90,Dialogue,,0,0,0,,Your plan was to create\Nan alibi using the phone,
 Dialogue: 0,0:16:05.90,0:16:12.74,Dialogue,,0,0,0,,and also to establish alibis for the others\Nby blocking the corridor to the bathroom.
 Dialogue: 0,0:16:12.74,0:16:15.28,Dialogue,,0,0,0,,But a problem arose.
 Dialogue: 0,0:16:15.28,0:16:21.24,Dialogue,,0,0,0,,Because Hikaru{\rHonorifics - Dialogue}-san{\r} took an extra\N30 seconds to reset the breaker,
@@ -448,7 +432,7 @@ Dialogue: 0,0:22:27.68,0:22:29.20,Dialogue,,0,0,0,,Um...
 Dialogue: 0,0:22:30.14,0:22:33.37,Dialogue,,0,0,0,,I know it's weird to ask you at a time like this, but if it's okay with you...
 Dialogue: 0,0:22:35.95,0:22:39.59,Dialogue,,0,0,0,,...can I borrow that hand-knitted sweater you're wearing?
 Dialogue: 0,0:22:40.39,0:22:43.05,Thoughts,,0,0,0,,{\be10}S-Sweater?
-Dialogue: 0,0:20:55.56,0:21:01.07,FreeMagicRomaji,,0,0,0,,{\be10}Free Magic hontō no tokoro
+Dialogue: 0,0:20:55.56,0:21:01.07,FreeMagicRomaji,,0,0,0,,{\blur3}Free Magic hontō no tokoro
 Dialogue: 0,0:21:01.07,0:21:06.45,FreeMagicRomaji,,0,0,0,,{\blur3}Free Magic ai-tte nan na no sa
 Dialogue: 0,0:21:06.45,0:21:11.54,FreeMagicRomaji,,0,0,0,,{\blur3}tsumetai kurayami no naka de nukumori o tesaguri shite'ru
 Dialogue: 0,0:21:11.54,0:21:17.71,FreeMagicRomaji,,0,0,0,,{\blur3}itsuka wa kitto kiseki mo okoru darō
@@ -456,7 +440,7 @@ Dialogue: 0,0:21:19.84,0:21:30.10,FreeMagicRomaji,,0,0,0,,{\blur3}Free Magic kit
 Dialogue: 0,0:21:30.60,0:21:41.44,FreeMagicRomaji,,0,0,0,,{\blur3}Free Magic ima kono te no naka ubugoe agete
 Dialogue: 0,0:21:41.44,0:21:49.95,FreeMagicRomaji,,0,0,0,,{\blur3}karagenki demo mada-mada mucha-shite
 Dialogue: 0,0:21:49.95,0:21:55.37,FreeMagicRomaji,,0,0,0,,{\blur3}Free Magic wazuka na yūki
-Dialogue: 0,0:21:55.37,0:22:06.01,FreeMagicRomaji,,0,0,0,,{\blur3}{\fad(0,500)}Free Magic atsumete sodachimashō
+Dialogue: 0,0:21:55.37,0:22:06.01,FreeMagicRomaji,,0,0,0,,{\blur3\fad(0,500)}Free Magic atsumete sodachimashō
 Dialogue: 0,0:20:55.56,0:21:01.07,FreeMagicRomaji2,,0,0,0,,{\be2}Free Magic hontō no tokoro
 Dialogue: 0,0:21:01.07,0:21:06.45,FreeMagicRomaji2,,0,0,0,,{\be2}Free Magic ai-tte nan na no sa
 Dialogue: 0,0:21:06.45,0:21:11.54,FreeMagicRomaji2,,0,0,0,,{\be2}tsumetai kurayami no naka de nukumori o tesaguri shite'ru
@@ -465,7 +449,7 @@ Dialogue: 0,0:21:19.84,0:21:30.10,FreeMagicRomaji2,,0,0,0,,{\be2}Free Magic kitt
 Dialogue: 0,0:21:30.60,0:21:41.44,FreeMagicRomaji2,,0,0,0,,{\be2}Free Magic ima kono te no naka ubugoe agete
 Dialogue: 0,0:21:41.44,0:21:49.95,FreeMagicRomaji2,,0,0,0,,{\be2}karagenki demo mada-mada mucha-shite
 Dialogue: 0,0:21:49.95,0:21:55.37,FreeMagicRomaji2,,0,0,0,,{\be2}Free Magic wazuka na yūki
-Dialogue: 0,0:21:55.37,0:22:06.01,FreeMagicRomaji2,,0,0,0,,{\be2}{\fad(0,500)}Free Magic atsumete sodachimashō
+Dialogue: 0,0:21:55.37,0:22:06.01,FreeMagicRomaji2,,0,0,0,,{\be2\fad(0,500)}Free Magic atsumete sodachimashō
 Dialogue: 0,0:20:55.56,0:21:01.07,FreeMagicTL,,0,0,0,,{\blur2}Free Magic, in its true form
 Dialogue: 0,0:21:01.07,0:21:06.45,FreeMagicTL,,0,0,0,,{\blur2}Free Magic, what is this thing called love?
 Dialogue: 0,0:21:06.45,0:21:11.54,FreeMagicTL,,0,0,0,,{\blur2}Even if you're blindly searching through darkness for warmth
@@ -475,10 +459,10 @@ Dialogue: 0,0:21:30.60,0:21:41.44,FreeMagicTL,,0,0,0,,{\blur2}Free Magic, so rig
 Dialogue: 0,0:21:41.44,0:21:49.95,FreeMagicTL,,0,0,0,,{\blur2}Even with faked bravery you can still be reckless
 Dialogue: 0,0:21:49.95,0:21:55.37,FreeMagicTL,,0,0,0,,{\blur2}Free Magic, you may not have much courage now
 Dialogue: 0,0:21:55.37,0:22:06.01,FreeMagicTL,,0,0,0,,{\blur2\fad(0,500)}Free Magic, but I'll gather and raise it
-Dialogue: 0,0:22:43.05,0:22:45.03,Dialogue,,0,0,0,,{\a6}‘Kisaki Law Office'
+Dialogue: 0,0:22:43.05,0:22:45.03,Dialogue Top,,0,0,0,,‘Kisaki Law Office'
 Dialogue: 0,0:22:45.83,0:22:49.23,Dialogue,,0,0,0,,Okay, so this part is like this, and then this part...
 Dialogue: 0,0:22:49.23,0:22:52.22,Dialogue,,0,0,0,,Oh, where'd you get that sweater?
-Dialogue: 0,0:22:53.15,0:22:55.85,Dialogue,,0,0,0,,I borrowed it off a friend.\N I just love the pattern!
+Dialogue: 0,0:22:53.15,0:22:55.85,Dialogue,,0,0,0,,I borrowed it off a friend.\NI just love the pattern!
 Dialogue: 0,0:22:55.85,0:22:58.48,Dialogue,,0,0,0,,That's an Aran pattern. It's difficult, you know.
 Dialogue: 0,0:22:58.89,0:23:01.18,Dialogue,,0,0,0,,Oh, that part's not quite right...
 Dialogue: 0,0:23:01.18,0:23:02.31,Dialogue,,0,0,0,,Here, let me show you.
@@ -494,8 +478,8 @@ Dialogue: 0,0:23:29.06,0:23:31.01,Dialogue,,0,0,0,,Uh, now how did this bit go..
 Dialogue: 0,0:23:31.01,0:23:35.63,Dialogue,,0,0,0,,Oh, those sweaters I knitted are in the way. Could you get rid of them for me?
 Dialogue: 0,0:23:35.63,0:23:36.49,Dialogue,,0,0,0,,No prob!
 Dialogue: 0,0:23:36.79,0:23:41.96,Signs,,0,0,0,,A few days later
-Dialogue: 0,0:23:37.30,0:23:38.89,Phone,,0,0,0,,{\blur2\a6}Hey, did you get it?
-Dialogue: 0,0:23:38.89,0:23:41.94,Dialogue,,0,0,0,,Yeah. The doc sent it to me yesterday.
+Dialogue: 0,0:23:37.30,0:23:38.89,Phone,,0,0,0,,{\blur2\an8}Hey, did you get it?
+Dialogue: 0,0:23:38.89,0:23:41.94,Dialogue Top,,0,0,0,,Yeah. The doc sent it to me yesterday.
 Dialogue: 0,0:23:42.48,0:23:43.96,Phone,,0,0,0,,{\blur2}And? Did you try it on?
 Dialogue: 0,0:23:43.96,0:23:46.06,Dialogue,,0,0,0,,Yeah. I'm wearing it right now.
 Dialogue: 0,0:23:46.06,0:23:47.85,Dialogue,,0,0,0,,Thanks.
@@ -507,8 +491,6 @@ Dialogue: 0,0:24:09.78,0:24:11.60,Dialogue,,0,0,0,,Hey, what was that just now?
 Dialogue: 0,0:24:12.76,0:24:13.43,Thoughts,,0,0,0,,{\be10}Sonoko!
 Dialogue: 0,0:24:13.43,0:24:14.97,Dialogue,,0,0,0,,What happened, Sonoko-{\i1}neechan{\i0}?!
 Dialogue: 0,0:24:24.65,0:24:30.74,Dialogue,,0,0,0,,On the next Conan: 'The Dying Message That Comes Back (Part I)'!
-Dialogue: 0,0:24:24.65,0:24:30.74,Signs,,0,0,0,,(PART I)
-Dialogue: 0,0:24:24.65,0:24:30.74,Signs,,0,0,0,,THE DYING MESSAGE THAT COMES BACK
 Dialogue: 0,0:24:30.74,0:24:35.66,Dialogue,,0,0,0,,Next Conan's Hint: The sound of fireworks!
-Dialogue: 0,0:24:36.02,0:24:37.55,Dialogue,,0,0,0,,{\a6}Next time, we're at an ice-skating rink!
-Dialogue: 0,0:24:37.55,0:24:40.15,Dialogue,,0,0,0,,{\a6}Ah, out the way, out the way, get out of the way!
+Dialogue: 0,0:24:36.02,0:24:37.55,Dialogue Top,,0,0,0,,Next time, we're at an ice-skating rink!
+Dialogue: 0,0:24:37.55,0:24:40.15,Dialogue Top,,0,0,0,,Ah, out the way, out the way, get out of the way!

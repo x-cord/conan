@@ -48,37 +48,35 @@ Style: 689Signs,Helvetica Narrow,50,&H00FFFFFF,&H000000FF,&H005A69CC,&HC0000000,
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Comment: 0,0:00:02.35,0:00:03.56,Dialogue,,0,0,0,,{\a6}Then...
-Comment: 0,0:06:46.28,0:06:48.32,Thoughts,,0,0,0,,{\be10}There's nothing anywhere in the house that'd look like it'd fit.
 pewriter}'{\fn}s Cold Case
-Dialogue: 0,0:00:02.35,0:00:06.73,Dialogue,,0,0,0,,{\a6}Then that woman who hired you to investigate\Nwhether or not her boyfriend was cheating...
-Dialogue: 0,0:00:07.44,0:00:09.44,Dialogue,,0,0,0,,{\a6}Yeah, she's dead.
-Dialogue: 0,0:00:10.19,0:00:11.95,Dialogue,,0,0,0,,{\a6}She fell down a stone staircase.
-Dialogue: 0,0:00:12.99,0:00:15.41,Flashback,,0,0,0,,{\be10}{\a6}Tsuge! How dare you come here?!
-Dialogue: 0,0:00:12.24,0:00:15.41,CharCards,,0,0,0,,{\be10}Kaoru Sasamori (24)\NDeceased
+Dialogue: 0,0:00:02.35,0:00:06.73,Dialogue Top,,0,0,0,,Then that woman who hired you to investigate\Nwhether or not her boyfriend was cheating...
+Dialogue: 0,0:00:07.44,0:00:09.44,Dialogue Top,,0,0,0,,Yeah, she's dead.
+Dialogue: 0,0:00:10.19,0:00:11.95,Dialogue Top,,0,0,0,,She fell down a stone staircase.
+Dialogue: 0,0:00:12.99,0:00:15.41,Flashback,,0,0,0,,{\be10\an8}Tsuge! How dare you come here?!
+Dialogue: 0,0:00:12.24,0:00:15.41,Signs,,0,0,0,,Kaoru Sasamori (24)\NDeceased
 Dialogue: 0,0:00:16.45,0:00:17.49,Flashback,,0,0,0,,{\be10}What are you talking about?
 Dialogue: 0,0:00:17.49,0:00:18.12,Flashback,,0,0,0,,{\be10}Don't play dumb!
-Dialogue: 0,0:00:18.41,0:00:22.87,CharCards,,0,0,0,,{\be10}{\fad(250,0)}Takashi Sasamori (28)\NKaoru's Elder Brother / Photographer
-Dialogue: 0,0:00:18.91,0:00:21.62,Flashback,,0,0,0,,{\be10}{\a6}You were just using her{blu: toying with her}, weren't you?!
-Dialogue: 0,0:00:21.62,0:00:26.88,Flashback,,0,0,0,,{\be10}{\a6}Then when your marriage drew near, Kaoru became\Na nuisance, so you pushed her down a stone staircase!
-Dialogue: 0,0:00:24.21,0:00:28.80,CharCards,,0,0,0,,{\be10}Hikari Tsuge (33)\N Kaoru's Ex-boyfriend / Sculptor
-Dialogue: 0,0:00:27.67,0:00:28.80,Flashback,,0,0,0,,{\be10}{\a6}Talk about nonsense.
+Dialogue: 0,0:00:18.41,0:00:22.87,Signs,,0,0,0,,Takashi Sasamori (28)\NKaoru's Elder Brother / Photographer
+Dialogue: 0,0:00:18.91,0:00:21.62,Flashback,,0,0,0,,{\be10\an8}You were just using her{blu: toying with her}, weren't you?!
+Dialogue: 0,0:00:21.62,0:00:26.88,Flashback,,0,0,0,,{\be10\an8}Then when your marriage drew near, Kaoru became\Na nuisance, so you pushed her down a stone staircase!
+Dialogue: 0,0:00:24.21,0:00:28.80,Signs,,0,0,0,,Hikari Tsuge (33)\NKaoru's Ex-boyfriend / Sculptor
+Dialogue: 0,0:00:27.67,0:00:28.80,Flashback,,0,0,0,,{\be10\an8}Talk about nonsense.
 Dialogue: 0,0:00:29.59,0:00:30.92,Flashback,,0,0,0,,{\be10}I saw it!
 Dialogue: 0,0:00:30.92,0:00:34.22,Flashback,,0,0,0,,{\be10}You were at the top of the staircase Kaoru fell from!
-Dialogue: 0,0:00:34.22,0:00:35.93,Flashback,,0,0,0,,{\be10}{\fad(0,250)}P-Please, stop!
-Dialogue: 0,0:00:35.93,0:00:40.27,CharCards,,0,0,0,,{\be10}Mariko Noguchi (30)\N Tsuge's Manager
-Dialogue: 0,0:00:36.34,0:00:40.27,Flashback,,0,0,0,,{\be10}{\a6}The police investigation already determined that to be a simple misunderstanding!
+Dialogue: 0,0:00:34.22,0:00:35.93,Flashback,,0,0,0,,{\be10\fad(0,250)}P-Please, stop!
+Dialogue: 0,0:00:35.93,0:00:40.27,Signs,,0,0,0,,Mariko Noguchi (30)\NTsuge's Manager
+Dialogue: 0,0:00:36.34,0:00:40.27,Flashback,,0,0,0,,{\be10\an8}The police investigation already determined that to be a simple misunderstanding!
 Dialogue: 0,0:00:40.77,0:00:41.85,Flashback,,0,0,0,,{\be10}Shut up!
 Dialogue: 0,0:00:41.85,0:00:44.10,Flashback,,0,0,0,,{\be10}You might have fooled the police, but not me!
 Dialogue: 0,0:00:44.10,0:00:44.77,Flashback,,0,0,0,,{\be10}Stop it!
 Dialogue: 0,0:00:45.40,0:00:47.77,Flashback,,0,0,0,,{\be10}You two, please cut it out.
-Dialogue: 0,0:00:48.11,0:00:53.28,CharCards,,0,0,0,,{\be10}{\fad(250,0)}Kazumi Ishikura (25)\N Kaoru's friend / Ballerina
-Dialogue: 0,0:00:48.31,0:00:51.57,Flashback,,0,0,0,,{\be10}{\a6}Don't argue in front of Kaoru.
-Dialogue: 0,0:00:51.57,0:00:53.28,Flashback,,0,0,0,,{\be10}{\a6}Please let her rest in peace.
+Dialogue: 0,0:00:48.11,0:00:53.28,Signs,,0,0,0,,Kazumi Ishikura (25)\NKaoru's friend / Ballerina
+Dialogue: 0,0:00:48.31,0:00:51.57,Flashback,,0,0,0,,{\be10\an8}Don't argue in front of Kaoru.
+Dialogue: 0,0:00:51.57,0:00:53.28,Flashback,,0,0,0,,{\be10\an8}Please let her rest in peace.
 Dialogue: 0,0:00:54.20,0:00:58.12,Flashback,,0,0,0,,{\be10}She's right. Remember, this is a funeral.
 Dialogue: 0,0:01:00.03,0:01:04.29,Flashback,,0,0,0,,{\be10}No matter how much you might hate me, I didn't do it.
 Dialogue: 0,0:01:04.29,0:01:05.25,Flashback,,0,0,0,,{\be10}If you excuse me.
-Dialogue: 0,0:01:05.87,0:01:07.50,Flashback,,0,0,0,,{\be10}Hey, Tsuge{\rHonorifics - Flashback}-san{\r}.
+Dialogue: 0,0:01:05.87,0:01:07.50,Flashback,,0,0,0,,{\be10}Hey, Tsuge{\rHonorifics - Flashback\be10}-san{\r\be10}.
 Dialogue: 0,0:01:08.33,0:01:09.92,Dialogue,,0,0,0,,That was three months ago.
 Dialogue: 0,0:01:10.55,0:01:17.68,Dialogue,,0,0,0,,Then this morning, Tsuge{\rHonorifics - Dialogue}-san{\r} contacted\Nyou and said he'd reveal who killed her?
 Dialogue: 0,0:01:17.68,0:01:18.14,Dialogue,,0,0,0,,Yeah.
@@ -142,7 +140,6 @@ Dialogue: 0,0:06:31.01,0:06:32.77,Dialogue,,0,0,0,,Sorry!
 Dialogue: 0,0:06:36.14,0:06:38.60,Thoughts,,0,0,0,,{\be10}Just what was there?
 Dialogue: 0,0:06:39.81,0:06:42.52,Thoughts,,0,0,0,,{\be10}And who moved it?
 Dialogue: 0,0:06:46.28,0:06:52.16,Thoughts,,0,0,0,,{\be10}There's nothing anywhere in the house that'd look like it'd fit, so the killer probably took it out.
-Dialogue: 0,0:06:48.32,0:06:52.16,Thoughts,,0,0,0,,{\be10}
 Dialogue: 0,0:06:53.33,0:06:55.29,Dialogue,,0,0,0,,The victim is Hikari Tsuge.
 Dialogue: 0,0:06:55.29,0:06:58.17,Dialogue,,0,0,0,,Real name, Ritsu Hikage, 33 years old.
 Dialogue: 0,0:06:58.75,0:07:00.83,Dialogue,,0,0,0,,He worked as a sculptor.
@@ -238,10 +235,10 @@ Dialogue: 0,0:12:55.64,0:12:59.44,Dialogue,,0,0,0,,Then, that other woman you me
 Dialogue: 0,0:12:59.44,0:13:01.82,Dialogue,,0,0,0,,Yeah, it was Kazumi Ishikura{\rHonorifics - Dialogue}-san{\r}.
 Dialogue: 0,0:13:03.86,0:13:08.28,Dialogue,,0,0,0,,I didn't know he was going out with Kaoru either.
 Dialogue: 0,0:13:12.08,0:13:12.66,Dialogue,,0,0,0,,What's this?
-Dialogue: 0,0:13:13.16,0:13:16.16,Flashback,,0,0,0,,{\be10}Tsuge{\rHonorifics - Flashback}-san{\r} just proposed to me!
+Dialogue: 0,0:13:13.16,0:13:16.16,Flashback,,0,0,0,,{\be10}Tsuge{\rHonorifics - Flashback\be10}-san{\r\be10} just proposed to me!
 Dialogue: 0,0:13:16.16,0:13:17.16,Flashback,,0,0,0,,{\be10}What should I do?
 Dialogue: 0,0:13:17.16,0:13:18.67,Flashback,,0,0,0,,{\be10}What the hell is this?!
-Dialogue: 0,0:13:22.63,0:13:25.17,Flashback,,0,0,0,,{\be10}{null.AR: It looks like Tsuge is saying somebody's name before being cut off by Kazumi}Tsuge{\rHonorifics - Flashback}-san{\r}, what does this mean?!
+Dialogue: 0,0:13:22.63,0:13:25.17,Flashback,,0,0,0,,{\be10null.AR: It looks like Tsuge is saying somebody's name before being cut off by Kazumi}Tsuge{\rHonorifics - Flashback\be10}-san{\r\be10}, what does this mean?!
 Dialogue: 0,0:13:25.17,0:13:28.18,Flashback,,0,0,0,,{\be10}I'm talking about work right now. Wait until I'm done.
 Dialogue: 0,0:13:28.68,0:13:30.89,Flashback,,0,0,0,,{\be10}How long have you been dating Kaoru?
 Dialogue: 0,0:13:30.89,0:13:31.93,Flashback,,0,0,0,,{\be10}It isn't like that.
@@ -249,7 +246,7 @@ Dialogue: 0,0:13:31.93,0:13:33.93,Flashback,,0,0,0,,{\be10}Don't play dumb with 
 Dialogue: 0,0:13:33.93,0:13:37.56,Flashback,,0,0,0,,{\be10}Break up! Break up with her!
 Dialogue: 0,0:13:38.81,0:13:41.73,Dialogue,,0,0,0,,Even so, it's not like you didn't have a motive to kill her.
 Dialogue: 0,0:13:43.73,0:13:45.07,Dialogue,,0,0,0,,My sister once told me...
-Dialogue: 0,0:13:45.57,0:13:47.28,Flashback,,0,0,0,,{\be10}Kaoru{\rHonorifics - Flashback}-san{\r}, take this.
+Dialogue: 0,0:13:45.57,0:13:47.28,Flashback,,0,0,0,,{\be10}Kaoru{\rHonorifics - Flashback\be10}-san{\r\be10}, take this.
 Dialogue: 0,0:13:47.90,0:13:49.49,Flashback,,0,0,0,,{\be10}What is it?
 Dialogue: 0,0:13:49.49,0:13:51.49,Flashback,,0,0,0,,{\be10}There's one million yen inside.
 Dialogue: 0,0:13:51.49,0:13:53.99,Flashback,,0,0,0,,{\be10}I want you to split up with Tsuge.
@@ -301,8 +298,8 @@ Dialogue: 0,0:16:38.99,0:16:43.08,Dialogue,,0,0,0,,If you please, place it at th
 Dialogue: 0,0:16:43.08,0:16:44.25,Dialogue,,0,0,0,,Right.
 Dialogue: 0,0:16:44.83,0:16:51.09,Dialogue,,0,0,0,,Remember this. His artistic name, Hikari Tsuge,\Nwas an anagram of his real name, Ritsu Hikage.
 Dialogue: 0,0:16:51.96,0:16:54.09,Dialogue,,0,0,0,,'Hikari Tsuge' and 'Ritsu Hikage'...
-Dialogue: 0,0:16:54.09,0:16:55.80,Signs,,0,0,0,,hikari
-Dialogue: 0,0:16:54.09,0:16:55.80,Signs,,0,0,0,,hikage
+Dialogue: 0,0:16:54.09,0:16:55.80,Thoughts,,0,0,0,,{\be10}hikari
+Dialogue: 0,0:16:54.09,0:16:55.80,Thoughts,,0,0,0,,{\be10}hikage
 Dialogue: 0,0:16:54.09,0:16:55.80,Dialogue,,0,0,0,,Truly an artist of light and shadow.
 Dialogue: 0,0:16:56.38,0:17:00.80,Dialogue,,0,0,0,,So if you take the title of this piece of art, 'Demurrer', to be an anagram...
 Dialogue: 0,0:17:01.56,0:17:04.31,Dialogue,,0,0,0,,From the original title, a new one emerges...
@@ -338,7 +335,7 @@ Dialogue: 0,0:18:45.91,0:18:48.54,Dialogue,,0,0,0,,However, there was a pool of 
 Dialogue: 0,0:18:48.54,0:18:53.13,Dialogue,,0,0,0,,so the killer couldn't step over it,\Nas footprints would be left behind.
 Dialogue: 0,0:18:54.08,0:18:57.34,Dialogue,,0,0,0,,In other words, just like Conan did\Nback when we discovered the body,
 Dialogue: 0,0:18:57.84,0:19:02.89,Dialogue,,0,0,0,,the killer crawled underneath the workbench\Nto fetch the lamp from the other side.
-Dialogue: 0,0:19:03.59,0:19:10.39,Dialogue,,5,5,0,,{\fsp-0.3}Sorry if I sound rude, but Sasamori{\rHonorifics - Dialogue}-san{\r} and Noguchi{\rHonorifics - Dialogue}-san{\r}'s physiques\Nprevent them from crawling underneath the workbench.
+Dialogue: 0,0:19:03.59,0:19:10.39,Dialogue,,5,5,0,,Sorry if I sound rude, but Sasamori{\rHonorifics - Dialogue}-san{\r} and Noguchi{\rHonorifics - Dialogue}-san{\r}'s physiques\Nprevent them from crawling underneath the workbench.
 Dialogue: 0,0:19:10.85,0:19:16.90,Dialogue,,0,0,0,,The only one who could've passed through there was the ballerina, Ishikura{\rHonorifics - Dialogue}-san{\r}.
 Dialogue: 0,0:19:17.65,0:19:19.65,Dialogue,,0,0,0,,And there's one last thing...
 Dialogue: 0,0:19:19.65,0:19:24.11,Dialogue,,0,0,0,,When you got out of your car, you didn't have an umbrella, and were soaking wet.
@@ -388,35 +385,15 @@ Dialogue: 0,0:23:59.26,0:24:02.85,Dialogue,,0,0,0,,Ran and two of her friends di
 Dialogue: 0,0:24:02.85,0:24:04.35,Dialogue,,0,0,0,,And next to it, there is...
 Dialogue: 0,0:24:05.31,0:24:09.35,Dialogue,,0,0,0,,On the next Conan: 'Yūsaku Kudō's Cold Case (Part I)'!
 Dialogue: 0,0:24:09.35,0:24:14.27,Dialogue,,0,0,0,,Next Conan's Hint: Candy!
-Dialogue: 0,0:24:14.27,0:24:15.86,Signs,,0,0,0,,tō{\rHonorifics - Signs}-san{\r}
+Dialogue: 0,0:24:14.27,0:24:15.86,Thoughts,,0,0,0,,{\be10}tō{\rHonorifics - Thoughts\be10}-san{\r\be10}
 Dialogue: 0,0:24:14.27,0:24:15.86,Dialogue,,0,0,0,,Dad's cold case, huh?
 Dialogue: 0,0:24:15.86,0:24:16.82,Dialogue,,0,0,0,,Who do you mean by 'dad'?
 Dialogue: 0,0:24:16.82,0:24:19.28,Dialogue,,0,0,0,,I meant Saitō{\rHonorifics - Dialogue}-san{\r}, Saitō{\rHonorifics - Dialogue}-san{\r}! { いや さいとうさんだろ さいとさん！ null.AR: Could be "さいとさん" as well}
-Dialogue: 0,0:01:25.06,0:01:27.85,Signs,,0,0,0,,TRY AGAIN\NSong by Mai Kuraki
-Dialogue: 0,0:01:36.07,0:01:39.45,Signs,,0,0,0,,「Detective Conan」\NSerialised in Shōgakukan's 'Weekly Shōnen Sunday'
-Dialogue: 0,0:01:36.07,0:01:39.45,Signs,,0,0,0,,Original Comics by\NGōshō Aoyama\N
-Dialogue: 0,0:01:59.18,0:02:02.89,Signs,,0,0,0,,Planning\NMichihiko Suwa
-Dialogue: 0,0:01:59.18,0:02:02.89,Signs,,0,0,0,,( )
-Dialogue: 0,0:02:02.89,0:02:06.35,Signs,,0,0,0,,Character Design\NMasatomo Sudō\N\NArt Director\NJun'ichi Higashi
-Dialogue: 0,0:02:06.35,0:02:09.90,Signs,,0,0,0,,Director of Photography\NTakahisa Ogawa\N\NSound Directors\NYasuo Uragami\NKeiko Uragami
-Dialogue: 0,0:02:10.11,0:02:13.48,Signs,,0,0,0,,Music\NKatsuo Ōno
-Dialogue: 0,0:02:13.48,0:02:16.99,Signs,,0,0,0,,Opening Theme\N「TRY AGAIN」
-Dialogue: 0,0:02:13.48,0:02:16.99,Signs,,0,0,0,,Performed by:\NLyrics:\NMusic:\NArrangement:
-Dialogue: 0,0:02:13.48,0:02:16.99,Signs,,0,0,0,,Mai Kuraki\NMai Kuraki\NAkihito Tokunaga\NCybersound
-Dialogue: 0,0:02:13.48,0:02:16.99,Signs,,0,0,0,,(NORTHERN MUSIC)
-Dialogue: 0,0:02:20.66,0:02:24.25,Signs,,0,0,0,,Editor\NTerumitsu Okada\N\NStory Editor\NJun'ichi Iioka\N\NColour Key\NShigenobu Kaihō\N\NExecutive Producer\NSeikō Terajima
-Dialogue: 0,0:02:34.09,0:02:36.51,Signs,,0,0,0,,Planning Assistance\NHiroshi Torimitsu\NKazumasa Ogura\NMasakazu Hakuya
-Dialogue: 0,0:02:36.51,0:02:40.22,Signs,,0,0,0,,Producers\NShūichi Kitada\N\NTakeshi Yamakawa\N\N\N\N\NAssociate Producer\NMitomu Asai
-Dialogue: 0,0:02:36.51,0:02:40.22,Signs,,0,0,0,,( )
-Dialogue: 0,0:02:36.51,0:02:40.22,Signs,,0,0,0,,(TMS/V1 Studio)
-Dialogue: 0,0:02:45.02,0:02:47.52,Signs,,0,0,0,,Chief Producers\NMichihiko Suwa\N\NKei'ichi Ishiyama
-Dialogue: 0,0:02:45.02,0:02:47.52,Signs,,0,0,0,,( )
-Dialogue: 0,0:02:45.02,0:02:47.52,Signs,,0,0,0,,(TMS/V1 Studio)
 Dialogue: 0,0:01:36.07,0:01:39.45,OPTLTextless,,0,0,0,,{\blur2}Take me to the high, we never cry on
 Dialogue: 0,0:01:39.45,0:01:43.04,OPTLTextless,,0,0,0,,{\blur2}To a tomorrow we've never seen
 Dialogue: 0,0:01:43.08,0:01:46.54,OPTLTextless,,0,0,0,,{\blur2}Try again Try again Try again Always
 Dialogue: 0,0:01:46.79,0:01:50.09,OPTLTextless,,0,0,0,,{\blur2}Try again Try again Try again
-Dialogue: 0,0:01:50.09,0:01:53.09,OPTLTextless,,0,0,0,,{\blur2}{\fad(0,300)}Speak out the truth!
+Dialogue: 0,0:01:50.09,0:01:53.09,OPTLTextless,,0,0,0,,{\blur2\fad(0,300)}Speak out the truth!
 Dialogue: 0,0:01:59.18,0:02:02.89,OPTLTextless,,0,0,0,,{\blur2}Not knowing exactly what you're searching for
 Dialogue: 0,0:02:02.89,0:02:06.35,OPTLTextless,,0,0,0,,{\blur2}living in the moment in your reckless way
 Dialogue: 0,0:02:06.35,0:02:10.11,OPTLTextless,,0,0,0,,{\blur2}If you don't brighten up a bit soon
@@ -432,14 +409,12 @@ Dialogue: 0,0:02:40.22,0:02:43.93,OPTLTextless,,0,0,0,,{\blur2}Try again Try aga
 Dialogue: 0,0:02:43.93,0:02:50.98,OPTLTextless,,0,0,0,,{\blur2}Not everything is bad, we're dreamers after all
 Dialogue: 0,0:02:50.98,0:02:54.53,OPTLTextless,,0,0,0,,{\blur2}Try again Try again Try again Always
 Dialogue: 0,0:02:54.53,0:02:58.28,OPTLTextless,,0,0,0,,{\blur2}Try again Try again Try again
-Dialogue: 0,0:02:58.28,0:03:01.62,OPTLTextless,,0,0,0,,{\blur2}{\fad(0,500)}Speak out the truth!
-Dialogue: 0,0:21:56.14,0:22:03.94,HitomiRomaji,,0,0,0,,{\3c&HFFD4D4&}{\blur4}miagetara haru no ame machi ni oritekita
-Dialogue: 0,0:22:04.15,0:22:11.86,HitomiRomaji,,0,0,0,,{\3c&HFFD4D4&}{\blur4}kimi no aruku michi nurashite yuku
-Dialogue: 0,0:22:12.74,0:22:20.75,HitomiRomaji,,0,0,0,,{\3c&HFFD4D4&}{\blur4}kinō sasatta toge no yō na kimi no kotoba hitotsu
-Dialogue: 0,0:22:20.83,0:22:28.38,HitomiRomaji,,0,0,0,,{\3c&HFFD4D4&}{\blur4}mada honto wa nani mo shiranai yo
+Dialogue: 0,0:02:58.28,0:03:01.62,OPTLTextless,,0,0,0,,{\blur2\fad(0,500)}Speak out the truth!
+Dialogue: 0,0:21:56.14,0:22:03.94,HitomiRomaji,,0,0,0,,{\3c&HFFD4D4&\blur4}miagetara haru no ame machi ni oritekita
+Dialogue: 0,0:22:04.15,0:22:11.86,HitomiRomaji,,0,0,0,,{\3c&HFFD4D4&\blur4}kimi no aruku michi nurashite yuku
+Dialogue: 0,0:22:12.74,0:22:20.75,HitomiRomaji,,0,0,0,,{\3c&HFFD4D4&\blur4}kinō sasatta toge no yō na kimi no kotoba hitotsu
+Dialogue: 0,0:22:20.83,0:22:28.38,HitomiRomaji,,0,0,0,,{\3c&HFFD4D4&\blur4}mada honto wa nani mo shiranai yo
 Dialogue: 0,0:22:30.30,0:22:46.36,HitomiRomaji,,0,0,0,,{\blur4}sunao ni nareba kodoku nante nai yo hitori de wa nai kara
 Dialogue: 0,0:22:47.19,0:22:55.03,HitomiRomaji,,0,0,0,,{\blur4\3c&HEFF9FD&}don'na mirai kimi to mirai
 Dialogue: 0,0:22:55.28,0:23:04.54,HitomiRomaji,,0,0,0,,{\blur4\3c&HEFF9FD&}sono hitomi no shita e to tashikame ni yuku yo
-Dialogue: 0,0:23:04.92,0:23:12.59,HitomiRomaji,,0,0,0,,{\blur4\3c&HEFF9FD&}{\fad(0,750)}yukkuri to orite yuku kara
-Dialogue: 0,0:21:56.14,0:22:00.02,Signs,,0,0,0,,Hitomi no Melody (The melody in your eyes)
-Dialogue: 0,0:24:06.40,0:24:09.35,Signs,,0,0,0,,(Part I)
+Dialogue: 0,0:23:04.92,0:23:12.59,HitomiRomaji,,0,0,0,,{\blur4\3c&HEFF9FD&\fad(0,750)}yukkuri to orite yuku kara

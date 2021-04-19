@@ -48,8 +48,8 @@ Style: EDTLBox2,FOT-NewRodin Pro B,33,&HFFFFFFFF,&H000000FF,&H3C4B4B4B,&HC000000
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:10.28,0:00:13.36,Thoughts,,0,0,0,,{\be10}{\a6}My name's Kogorō Mouri... a detective.
-Dialogue: 0,0:00:14.61,0:00:17.87,Thoughts,,0,0,0,,{\be10}{\a6}Right... My job is to find people's faults.
+Dialogue: 0,0:00:10.28,0:00:13.36,Thoughts,,0,0,0,,{\be10\an8}My name's Kogorō Mouri... a detective.
+Dialogue: 0,0:00:14.61,0:00:17.87,Thoughts,,0,0,0,,{\be10\an8}Right... My job is to find people's faults.
 Dialogue: 0,0:00:18.45,0:00:25.88,Thoughts,,0,0,0,,{\be10}Most all detectives have their own secret watering hole, for when they need to heal their work-weary hearts.
 Dialogue: 0,0:00:25.88,0:00:27.29,Dialogue,,0,0,0,,Awesome!
 Dialogue: 0,0:00:27.29,0:00:31.88,Thoughts,,0,0,0,,{\be10}This bar filled with youngsters loudly playing billiards and darts...
@@ -57,7 +57,7 @@ Dialogue: 0,0:00:31.88,0:00:34.63,Thoughts,,0,0,0,,{\be10}is unfortunately not m
 Dialogue: 0,0:00:35.47,0:00:38.89,Thoughts,,0,0,0,,{\be10}But my client happens to be the bartender here, so I must be here as well.
 Dialogue: 0,0:00:40.39,0:00:44.35,Dialogue,,0,0,0,,Here you go, detective. Why don't you give this a try?
 Dialogue: 0,0:00:44.35,0:00:49.61,Signs,,0,0,0,,Yuzuki Fukui (26)\NBartender
-Dialogue: 0,0:00:44.35,0:00:49.61,Thoughts,,0,0,0,,{\be10}{\a6}Her name is Yuzuki Fukui, 26. She's the bartender here.
+Dialogue: 0,0:00:44.35,0:00:49.61,Thoughts,,0,0,0,,{\be10\an8}Her name is Yuzuki Fukui, 26. She's the bartender here.
 Dialogue: 0,0:00:50.32,0:00:52.99,Thoughts,,0,0,0,,{\be10}And she's probably fallen in love with me.
 Dialogue: 0,0:00:52.99,0:00:59.66,Thoughts,,0,0,0,,{\be10}Giving me this faint green gimlet on the house is proof of her feelings...
 Dialogue: 0,0:01:01.62,0:01:06.02,Thoughts,,0,0,0,,{\be10}She must see that famous detective, Philip Marlowe in me.
@@ -115,17 +115,17 @@ Dialogue: 0,0:05:33.56,0:05:34.56,Dialogue,,0,0,0,,There were.
 Dialogue: 0,0:05:34.56,0:05:39.78,Dialogue,,0,0,0,,The four at the table behind you right now were always here at the time.
 Dialogue: 0,0:05:39.78,0:05:41.74,Dialogue,,0,0,0,,Okay, I'm going to take it!
 Dialogue: 0,0:05:41.74,0:05:43.53,Dialogue,,0,0,0,,Ready, say cheese!
-Dialogue: 0,0:05:45.66,0:05:48.37,Dialogue,,0,0,0,,Boss, this roll of film's full up.
+Dialogue: 0,0:05:45.66,0:05:48.37,Dialogue Top,,0,0,0,,Boss, this roll of film's full up.
 Dialogue: 0,0:05:45.07,0:05:49.80,Signs,,0,0,0,,Mompei Kogure (28)\NEmployee
-Dialogue: 0,0:05:48.37,0:05:53.42,Dialogue,,0,0,0,,Don't worry, it's fine. I've got two or three spare rolls somewhere here.
-Dialogue: 0,0:05:53.42,0:05:56.29,Dialogue,,0,0,0,,And we've got plenty of extras now too.
+Dialogue: 0,0:05:48.37,0:05:53.42,Dialogue Top,,0,0,0,,Don't worry, it's fine. I've got two or three spare rolls somewhere here.
+Dialogue: 0,0:05:53.42,0:05:56.29,Dialogue Top,,0,0,0,,And we've got plenty of extras now too.
 Dialogue: 0,0:05:50.14,0:05:55.56,Signs,,0,0,0,,Chikafumi Usuda (51)\NDepartment Head
 Dialogue: 0,0:05:56.75,0:05:57.71,Dialogue,,0,0,0,,Right?
 Dialogue: 0,0:05:57.71,0:05:59.46,Dialogue,,0,0,0,,Oh, right.
 Dialogue: 0,0:06:00.63,0:06:01.88,Dialogue,,0,0,0,,Here, Kogure{\rHonorifics - Dialogue}-kun{\r}.{AO}
 Dialogue: 0,0:06:01.88,0:06:02.30,Dialogue,,0,0,0,,Right.
 Dialogue: 0,0:06:02.84,0:06:07.64,Signs,,0,0,0,,Kensaku Hatsumura (31)\NEmployee
-Dialogue: 0,0:06:02.84,0:06:07.64,Dialogue,,0,0,0,,But boss, don't you think analogue cameras are too much work these days?
+Dialogue: 0,0:06:02.84,0:06:07.64,Dialogue Top,,0,0,0,,But boss, don't you think analogue cameras are too much work these days?
 Dialogue: 0,0:06:08.89,0:06:11.77,Dialogue,,0,0,0,,I hate all that digital stuff!
 Dialogue: 0,0:06:11.77,0:06:15.02,Dialogue,,0,0,0,,You know... You remember that guy in our department?
 Dialogue: 0,0:06:15.48,0:06:20.32,Dialogue,,0,0,0,,That useless geek who always boasted that he was good with digital stuff.
@@ -134,7 +134,7 @@ Dialogue: 0,0:06:22.32,0:06:27.91,Dialogue,,0,0,0,,Yeah, Yoshikuwa, Yoshikuwa...
 Dialogue: 0,0:06:27.91,0:06:34.16,Dialogue,,0,0,0,,They become shut-ins and end up hanging themselves!
 Dialogue: 0,0:06:36.00,0:06:40.67,Dialogue,,0,0,0,,Speaking of which, weren't you close to him, Kishiura{\rHonorifics - Dialogue}-kun{\r}?
 Dialogue: 0,0:06:41.21,0:06:46.09,Signs,,0,0,0,,Mika Kishiura (30)\NEmployee
-Dialogue: 0,0:06:41.30,0:06:46.09,Dialogue,,0,0,0,,If you're feeling lonely because you don't have a boyfriend, I could do something about that.
+Dialogue: 0,0:06:41.30,0:06:46.09,Dialogue Top,,0,0,0,,If you're feeling lonely because you don't have a boyfriend, I could do something about that.
 Dialogue: 0,0:06:46.09,0:06:48.68,Dialogue,,0,0,0,,Oh, no, I'll be fine.
 Dialogue: 0,0:06:49.05,0:06:53.68,Dialogue,,0,0,0,,Come on, give it a try! We'd be perfect for—{one another...}
 Dialogue: 0,0:06:53.68,0:06:54.68,Dialogue,,0,0,0,,Oh right, boss...
@@ -175,14 +175,13 @@ Dialogue: 0,0:09:11.03,0:09:14.83,Dialogue,,0,0,0,,Don't worry. I've just about 
 Dialogue: 0,0:09:15.33,0:09:16.28,Dialogue,,0,0,0,,You mean it?
 Dialogue: 0,0:09:16.87,0:09:17.70,Thoughts,,0,0,0,,{\be10}Seriously?
 Dialogue: 0,0:09:18.66,0:09:22.25,Dialogue,,0,0,0,,The culprit probably spilt some {\i1}ponzu{\i0}.
-Comment: 0,0:09:22.25,0:09:23.92,Signs,,0,0,0,,pon
 Dialogue: 0,0:09:22.25,0:09:23.92,Dialogue,,0,0,0,,Made with {\i1}yuzu{\i0}.
 Dialogue: 0,0:09:24.96,0:09:26.59,Dialogue,,0,0,0,,{\i1}Ponzu{\i0} made with {\i1}yuzu{\i0}?
 Dialogue: 0,0:09:26.59,0:09:27.75,Dialogue,,0,0,0,,Hey...
 Dialogue: 0,0:09:28.38,0:09:30.13,Dialogue,,0,0,0,,Which means...
 Dialogue: 0,0:09:31.22,0:09:32.18,Dialogue,,0,0,0,,Which means...?
 Dialogue: 0,0:09:34.18,0:09:36.22,Dialogue,,0,0,0,,Which means there's ‘{\i1}yuzu{\i0}' and ‘{\i1}pon{\i0}'.
-Dialogue: 0,0:09:37.06,0:09:39.97,Signs,,0,0,0,,pon
+Dialogue: 0,0:09:37.06,0:09:39.97,Thoughts,,0,0,0,,{\be10}pon
 Dialogue: 0,0:09:37.06,0:09:39.97,Dialogue,,0,0,0,,{\i1}Yuzu{\i0} and a ‘pop'! Get it?
 Dialogue: 0,0:09:42.22,0:09:43.65,Dialogue,,0,0,0,,It's got the pop and all, see!
 Dialogue: 0,0:09:42.89,0:09:44.48,Thoughts,,0,0,0,,{\be10}He's utterly hopeless.
@@ -252,7 +251,7 @@ Dialogue: 0,0:13:07.77,0:13:09.02,Dialogue,,0,0,0,,What?!
 Dialogue: 0,0:13:11.56,0:13:14.31,Dialogue,,0,0,0,,No, he doesn't just look dead...
 Dialogue: 0,0:13:14.81,0:13:17.28,Dialogue,,0,0,0,,He really is dead.
 Dialogue: 0,0:13:27.12,0:13:30.08,Thoughts,,0,0,0,,{\be10}My name's Kogorō Mouri... a detective.
-Dialogue: 0,0:13:30.74,0:13:37.75,Thoughts,,0,0,0,,{\be10}I came to this billiard bar at the request of Yuzuki Fukui{\rHonorifics - Thoughts}-chan{\r}, the bartender here who's fallen for me...
+Dialogue: 0,0:13:30.74,0:13:37.75,Thoughts,,0,0,0,,{\be10}I came to this billiard bar at the request of Yuzuki Fukui{\rHonorifics - Thoughts\be10}-chan{\r\be10}, the bartender here who's fallen for me...
 Dialogue: 0,0:13:38.75,0:13:44.84,Thoughts,,0,0,0,,{\be10}But it seems that murders love me even more than she does.
 Dialogue: 0,0:13:45.59,0:13:53.35,Dialogue,,0,0,0,,I can't be sure without a proper autopsy, but I believe the cause of death was suffocation by a neurotoxin.
 Dialogue: 0,0:13:53.35,0:13:54.73,Dialogue,,0,0,0,,P-Poison?!
@@ -267,7 +266,7 @@ Dialogue: 0,0:14:19.38,0:14:22.75,Dialogue,,0,0,0,,Don't tell me you just {\i1}h
 Dialogue: 0,0:14:22.75,0:14:25.63,Dialogue,,0,0,0,,Well, yeah... I just happened to be here.
 Dialogue: 0,0:14:26.26,0:14:29.22,Thoughts,,0,0,0,,{\be10}Yes... A detective has a duty of confidentiality.
 Dialogue: 0,0:14:29.22,0:14:33.06,Thoughts,,0,0,0,,{\be10}No matter what happens, he must never tell others about his clients.
-Dialogue: 0,0:14:33.85,0:14:39.27,Thoughts,,10,10,0,,{\be10}To ensure suspicion never falls on Yuzuki{\rHonorifics - Thoughts}-chan{\r}, he must never mention that she hired him.
+Dialogue: 0,0:14:33.85,0:14:39.27,Thoughts,,10,10,0,,{\be10}To ensure suspicion never falls on Yuzuki{\rHonorifics - Thoughts\be10}-chan{\r\be10}, he must never mention that she hired him.
 Dialogue: 0,0:14:39.85,0:14:41.65,Thoughts,,0,0,0,,{\be10}His pride as a detective depends on it...!
 Dialogue: 0,0:14:41.65,0:14:43.53,Dialogue,,0,0,0,,I called him here!
 Dialogue: 0,0:14:45.03,0:14:47.82,Dialogue,,0,0,0,,There was a mystery I wanted him to solve.
@@ -355,10 +354,10 @@ Dialogue: 0,0:20:36.04,0:20:37.71,Dialogue,,0,0,0,,W-What's this?!
 Dialogue: 0,0:20:37.71,0:20:38.92,Thoughts,,0,0,0,,{\be10}So the old man realised it too!
 Dialogue: 0,0:20:38.92,0:20:41.30,Dialogue,,0,0,0,,It's a poster of Yōko{\rHonorifics - Dialogue}-chan{\r}!
 Dialogue: 0,0:20:41.30,0:20:44.22,Dialogue,,0,0,0,,And it's the elusive western bikini shot!
-Dialogue: 0,0:20:44.51,0:20:45.43,Thoughts,,0,0,0,,{\be10}Is {\i1}that{\i0} what he noticed...?
+Dialogue: 0,0:20:44.51,0:20:45.43,Thoughts,,0,0,0,,{\be10\i1}Is {\i1}that{\i0} what he noticed...?
 Dialogue: 0,0:20:45.43,0:20:47.72,Dialogue,,0,0,0,,And you got it wet!
-Dialogue: 0,0:20:47.72,0:20:49.35,Signs,,0,0,0,,bijo
-Dialogue: 0,0:20:47.72,0:20:49.35,Signs,,0,0,0,,bijo-bijo
+Dialogue: 0,0:20:47.72,0:20:49.35,Thoughts,,0,0,0,,{\be10}bijo
+Dialogue: 0,0:20:47.72,0:20:49.35,Thoughts,,0,0,0,,{\be10}bijo-bijo
 Dialogue: 0,0:20:47.72,0:20:49.35,Dialogue,,0,0,0,,The pretty lady's pretty soaked because of you!{oh geez, not THAT pun}
 Dialogue: 0,0:20:49.77,0:20:50.93,Thoughts,,0,0,0,,{\be10}And he's making bad jokes too...!
 Dialogue: 0,0:20:51.35,0:20:55.10,Dialogue,,0,0,0,,The champagne spilt out when Kogure{\rHonorifics - Dialogue}-kun{\r} pulled out the cork.
@@ -378,7 +377,7 @@ Dialogue: 0,0:21:51.29,0:21:54.16,Thoughts,,0,0,0,,{\be10}My name's Kogorō Mour
 Dialogue: 0,0:21:55.00,0:22:03.17,Thoughts,,10,10,0,,{\be10}It seems my essence as a detective has brought disaster through the doors of this billiard bar, a place of refreshment...
 Dialogue: 0,0:22:04.63,0:22:05.68,Thoughts,,0,0,0,,{\be10}Well, well...
 Dialogue: 0,0:22:06.38,0:22:10.93,Thoughts,,0,0,0,,{\be10}I guess I'm going to have another sleepless night over a case...
-Dialogue: 0,0:22:14.10,0:22:23.99,RainMan,,0,0,0,,{\be10}fui ni furidasu haru no owaritsugeru ame
+Dialogue: 0,0:22:14.10,0:22:23.99,RainMan,,0,0,0,,{\blur2\fad(500,0)}fui ni furidasu haru no owaritsugeru ame
 Dialogue: 0,0:22:25.40,0:22:35.37,RainMan,,0,0,0,,{\blur2}isogu machikado de kimi o mitsuketan da
 Dialogue: 0,0:22:36.67,0:22:46.51,RainMan,,0,0,0,,{\blur2}ame ga suki na no hitotsu kasa ni kakurete
 Dialogue: 0,0:22:48.01,0:22:58.02,RainMan,,0,0,0,,{\blur2}daremo ki ni sezu zutto yorisoeru kara...
@@ -388,27 +387,7 @@ Dialogue: 0,0:23:10.28,0:23:15.75,RainMan,,0,0,0,,{\blur2}aitakute aenakute afur
 Dialogue: 0,0:23:15.91,0:23:21.29,RainMan,,0,0,0,,{\blur2}kaeritai modorenai tōi hi no omoide
 Dialogue: 0,0:23:21.46,0:23:27.38,RainMan,,0,0,0,,{\blur2}nureru mama tachitsukusu machikado de kono kokoro wa
 Dialogue: 0,0:23:27.88,0:23:32.56,RainMan,,0,0,0,,{\blur2\fad(0,750)}mada kimi no koto sagashite'ru
-Dialogue: 0,0:03:56.42,0:03:56.46,Signs,,0,0,0,,KOGORŌ IN THE BAR
-Dialogue: 0,0:03:56.46,0:03:56.51,Signs,,0,0,0,,KOGORŌ IN THE BAR
-Dialogue: 0,0:03:56.51,0:03:56.55,Signs,,0,0,0,,KOGORŌ IN THE BAR
-Dialogue: 0,0:03:56.55,0:03:56.59,Signs,,0,0,0,,KOGORŌ IN THE BAR
-Dialogue: 0,0:03:56.59,0:03:56.63,Signs,,0,0,0,,KOGORŌ IN THE BAR
-Dialogue: 0,0:03:56.63,0:03:56.67,Signs,,0,0,0,,KOGORŌ IN THE BAR
-Dialogue: 0,0:03:56.67,0:03:56.72,Signs,,0,0,0,,KOGORŌ IN THE BAR
-Dialogue: 0,0:03:56.72,0:03:56.76,Signs,,0,0,0,,KOGORŌ IN THE BAR
-Dialogue: 0,0:03:56.76,0:03:56.80,Signs,,0,0,0,,KOGORŌ IN THE BAR
-Dialogue: 0,0:03:56.80,0:04:02.43,Signs,,0,0,0,,KOGORŌ IN THE BAR
-Dialogue: 0,0:03:56.42,0:03:56.46,Signs,,0,0,0,,(PART I)
-Dialogue: 0,0:03:56.46,0:03:56.51,Signs,,0,0,0,,(PART I)
-Dialogue: 0,0:03:56.51,0:03:56.55,Signs,,0,0,0,,(PART I)
-Dialogue: 0,0:03:56.55,0:03:56.59,Signs,,0,0,0,,(PART I)
-Dialogue: 0,0:03:56.59,0:03:56.63,Signs,,0,0,0,,(PART I)
-Dialogue: 0,0:03:56.63,0:03:56.67,Signs,,0,0,0,,(PART I)
-Dialogue: 0,0:03:56.67,0:03:56.72,Signs,,0,0,0,,(PART I)
-Dialogue: 0,0:03:56.72,0:03:56.76,Signs,,0,0,0,,(PART I)
-Dialogue: 0,0:03:56.76,0:03:56.80,Signs,,0,0,0,,(PART I)
-Dialogue: 0,0:03:56.80,0:04:02.43,Signs,,0,0,0,,(PART I)
-Dialogue: 0,0:02:10.94,0:02:15.99,ButterflyCore,,0,0,0,,{\blur4}{\fad(200,0)}kage o mau chō no kodō ga seijaku no umi o saite
+Dialogue: 0,0:02:10.94,0:02:15.99,ButterflyCore,,0,0,0,,{\blur4\fad(200,0)}kage o mau chō no kodō ga seijaku no umi o saite
 Dialogue: 0,0:02:16.15,0:02:23.33,ButterflyCore,,0,0,0,,{\blur4}kasanariau koe ga ima yami o furiharatta
 Dialogue: 0,0:02:10.94,0:02:15.99,ButterflyCore2,,0,0,0,,{\fad(200,0)}kage o mau chō no kodō ga seijaku no umi o saite
 Dialogue: 0,0:02:16.15,0:02:23.33,ButterflyCore2,,0,0,0,,kasanariau koe ga ima yami o furiharatta
@@ -422,7 +401,7 @@ Dialogue: 0,0:03:11.33,0:03:16.38,ButterflyCore,,0,0,0,,{\blur4\c&HAA0000}kage o
 Dialogue: 0,0:03:16.55,0:03:21.88,ButterflyCore,,0,0,0,,{\blur4\c&H000077}kimi ni miseru itsuwari no subete ga uso ja nai daro
 Dialogue: 0,0:03:22.05,0:03:27.52,ButterflyCore,,0,0,0,,{\blur4\c&HAA0000}mayo'u tabi suteta kotae mo kitto erabu hi wa mata kuru kara
 Dialogue: 0,0:03:27.68,0:03:36.61,ButterflyCore,,0,0,0,,{\blur4\c&H006600}kono kokoro wa dare yori mo atsuku moyashi tsuzukeyō kienai yō ni
-Dialogue: 0,0:03:46.53,0:03:52.17,ButterflyCore,,0,0,0,,{\blur4\c&H006600}{\fad(0,1000)}kienai yō ni
+Dialogue: 0,0:03:46.53,0:03:52.17,ButterflyCore,,0,0,0,,{\blur4\c&H006600\fad(0,1000)}kienai yō ni
 Dialogue: 0,0:02:37.88,0:02:43.30,ButterflyCore2,,0,0,0,,haritsuita ase o nugutte nigemawaru light o ketta
 Dialogue: 0,0:02:43.68,0:02:48.98,ButterflyCore2,,0,0,0,,kanashimi ni utareta kyō no kizuato kabau yō ni
 Dialogue: 0,0:02:49.14,0:02:54.44,ButterflyCore2,,0,0,0,,aseru hodo ni tōku natte wake mo naku imi o sagashite
@@ -439,9 +418,7 @@ Dialogue: 0,0:23:38.00,0:23:39.47,Dialogue,,0,0,0,,Kogorō takes to the bar like
 Dialogue: 0,0:23:39.47,0:23:41.38,Dialogue,,0,0,0,,Time for the old man's sleeping deduction show!
 Dialogue: 0,0:23:41.38,0:23:44.78,Dialogue,,0,0,0,,Detective Conan: ‘Kogorō in the Bar (Part II)'!
 Dialogue: 0,0:23:44.78,0:23:48.65,Dialogue,,0,0,0,,Airs on Saturday 17th May at 6 PM!
-Dialogue: 0,0:23:45.64,0:23:48.65,Signs,,0,0,0,,KOGORŌ IN THE BAR
-Dialogue: 0,0:23:45.64,0:23:48.65,Signs,,0,0,0,,(PART II)
 Dialogue: 0,0:23:48.65,0:23:53.75,Dialogue,,0,0,0,,Next Conan's Hint: Clay!
-Dialogue: 0,0:23:53.75,0:23:55.29,Dialogue,,0,0,0,,{\a6}Clay'll get you barred from the bar!{Translating puns is so hard, maybe you can do better. Literally: There's no(neendo) clay(nendo) in a bar.}
-Dialogue: 0,0:23:55.29,0:23:56.62,Dialogue,,0,0,0,,{\a6}Mouri{\rHonorifics - Dialogue}-kun{\r}, are you drunk?
-Dialogue: 0,0:23:56.62,0:23:59.38,Dialogue,,0,0,0,,{\a6}You can just stay in the bar forever...
+Dialogue: 0,0:23:53.75,0:23:55.29,Dialogue Top,,0,0,0,,Clay'll get you barred from the bar!{Translating puns is so hard, maybe you can do better. Literally: There's no(neendo) clay(nendo) in a bar.}
+Dialogue: 0,0:23:55.29,0:23:56.62,Dialogue Top,,0,0,0,,Mouri{\rHonorifics - Dialogue}-kun{\r}, are you drunk?
+Dialogue: 0,0:23:56.62,0:23:59.38,Dialogue Top,,0,0,0,,You can just stay in the bar forever...

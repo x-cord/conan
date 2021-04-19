@@ -43,15 +43,15 @@ Style: topbox,Arial,20,&HFFFFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:01.92,0:00:05.85,Thoughts,,0,0,0,,{\be10}Invited by Nanami Kyōdō{\rHonorifics - Thoughts}-san{\r}, Ran's senior in her karate club,
+Dialogue: 0,0:00:01.92,0:00:05.85,Thoughts,,0,0,0,,{\be10}Invited by Nanami Kyōdō{\rHonorifics - Thoughts\be10}-san{\r\be10}, Ran's senior in her karate club,
 Dialogue: 0,0:00:05.85,0:00:10.44,Thoughts,,0,0,0,,{\be10}we, the Detective Boys, came to search for the Kyōdō family treasure.
-Dialogue: 0,0:00:11.24,0:00:16.53,Thoughts,,0,0,0,,{\be10}The Kyōdō family mansion was built by the previous Kyōdō head, Seitarō Kyōdō,
-Dialogue: 0,0:00:12.99,0:00:16.53,CharCards,,0,0,0,,{\be10}{\fad(250,0)}Nanami Kyōdō (21)\NEldest daughter of the Kyōdō family
+Dialogue: 0,0:00:11.24,0:00:16.53,Thoughts,,0,0,0,,{\be10\an8}The Kyōdō family mansion was built by the previous Kyōdō head, Seitarō Kyōdō,
+Dialogue: 0,0:00:12.99,0:00:16.53,Signs,,0,0,0,,Nanami Kyōdō (21)\NEldest daughter of the Kyōdō family
 Dialogue: 0,0:00:16.82,0:00:21.45,Signs,,0,0,0,,Seitarō Kyōdō\NPrevious head of the Kyōdō family
-Dialogue: 0,0:00:16.53,0:00:20.86,Thoughts,,0,0,0,,{\be10}who meticulously included lots of tricks while building it.
+Dialogue: 0,0:00:16.53,0:00:20.86,Thoughts,,0,0,0,,{\be10\an8}who meticulously included lots of tricks while building it.
 Dialogue: 0,0:00:22.04,0:00:23.79,Thoughts,,0,0,0,,{\be10}One of them being the 'Dark Tower'.
 Dialogue: 0,0:00:23.79,0:00:26.88,Thoughts,,0,0,0,,{\be10}A puzzling tower without any entrance or windows.
-Dialogue: 0,0:00:27.88,0:00:31.38,Thoughts,,0,0,0,,{\be10}While Nanami{\rHonorifics - Thoughts}-san{\r} guided us around the house,
+Dialogue: 0,0:00:27.88,0:00:31.38,Thoughts,,0,0,0,,{\be10}While Nanami{\rHonorifics - Thoughts\be10}-san{\r\be10} guided us around the house,
 Dialogue: 0,0:00:32.07,0:00:33.93,Thoughts,,0,0,0,,{\be10}we suddenly heard a woman screaming.
 Dialogue: 0,0:00:35.80,0:00:37.01,Dialogue,,0,0,0,,That was Mum's voice!
 Dialogue: 0,0:00:39.50,0:00:41.52,Dialogue,,0,0,0,,Mum! Mum!
@@ -110,9 +110,9 @@ Dialogue: 0,0:03:15.85,0:03:18.43,Thoughts,,0,0,0,,{\be10}the light of truth shi
 Dialogue: 0,0:03:18.43,0:03:19.99,Thoughts,,0,0,0,,{\be10}He sees the single truth for what it is,
 Dialogue: 0,0:03:19.99,0:03:22.00,Thoughts,,0,0,0,,{\be10}and looks like a kid but has the brain of an adult!
 Dialogue: 0,0:03:22.00,0:03:24.10,Thoughts,,0,0,0,,{\be10}His name? Detective Conan!
-Dialogue: 0,0:05:14.96,0:05:21.06,Dialogue,,0,0,0,,It seems you were the first person to\Ndiscover the corpse, Tsutomu Kyōdō{\rHonorifics - Dialogue}-san{\r}.
+Dialogue: 0,0:05:14.96,0:05:21.06,Dialogue Top,,0,0,0,,It seems you were the first person to\Ndiscover the corpse, Tsutomu Kyōdō{\rHonorifics - Dialogue}-san{\r}.
 Dialogue: 0,0:05:18.01,0:05:23.26,Signs,,0,0,0,,Tsutomu Kyōdō (25)\NEldest son of the Kyōdō family
-Dialogue: 0,0:05:21.06,0:05:23.26,Dialogue,,0,0,0,,{\a6}Yes, it seems so.
+Dialogue: 0,0:05:21.06,0:05:23.26,Dialogue Top,,0,0,0,,Yes, it seems so.
 Dialogue: 0,0:05:23.26,0:05:25.40,Dialogue,,0,0,0,,What were you doing there?
 Dialogue: 0,0:05:25.40,0:05:26.32,Dialogue,,0,0,0,,Watercress.
 Dialogue: 0,0:05:27.48,0:05:30.71,Dialogue,,0,0,0,,I went to get some watercress for the meal I was cooking.
@@ -138,7 +138,7 @@ Dialogue: 0,0:06:27.18,0:06:29.46,Dialogue,,0,0,0,,Y-Yeah, I'll pull myself toge
 Dialogue: 0,0:06:30.30,0:06:34.75,Dialogue,,0,0,0,,Where were you when you heard your wife scream?
 Dialogue: 0,0:06:34.75,0:06:36.17,Dialogue,,0,0,0,,Near the rose garden.
 Dialogue: 0,0:06:36.38,0:06:40.72,Signs,,0,0,0,,Nozomu Kyōdō\NCurrent head of the Kyōdō family
-Dialogue: 0,0:06:36.17,0:06:40.72,Dialogue,,0,0,0,,I followed her to try and convince her one more time.
+Dialogue: 0,0:06:36.17,0:06:40.72,Dialogue Top,,0,0,0,,I followed her to try and convince her one more time.
 Dialogue: 0,0:06:40.72,0:06:44.35,Dialogue,,0,0,0,,How did you know where the scream came from straight away?
 Dialogue: 0,0:06:46.53,0:06:53.10,Dialogue,,0,0,0,,The corridor and the cellar would've both been closer, but you rushed straight to the tower.
 Dialogue: 0,0:06:53.12,0:06:58.25,Dialogue,,0,0,0,,That was probably because the scream sounded like it was coming from quite high up.
@@ -216,7 +216,7 @@ Dialogue: 0,0:10:32.45,0:10:35.18,Dialogue,,0,0,0,,Don't be tricked! It's an ill
 Dialogue: 0,0:10:35.18,0:10:36.79,Dialogue,,0,0,0,,All that's turning are the walls!
 Dialogue: 0,0:10:50.76,0:10:52.51,Dialogue,,0,0,0,,You're in the way. Move.
 Dialogue: 0,0:11:01.07,0:11:03.46,Dialogue,,0,0,0,,And then I multiplied.
-Dialogue: 0,0:11:03.85,0:11:06.17,Thoughts,,0,0,0,,{\be10}Was this what Tsutomu{\rHonorifics - Thoughts}-san{\r} remembered?
+Dialogue: 0,0:11:03.85,0:11:06.17,Thoughts,,0,0,0,,{\be10}Was this what Tsutomu{\rHonorifics - Thoughts\be10}-san{\r\be10} remembered?
 Dialogue: 0,0:11:07.80,0:11:08.30,Dialogue,,0,0,0,,Genta!
 Dialogue: 0,0:11:13.79,0:11:14.32,Dialogue,,0,0,0,,The killer...?!
 Dialogue: 0,0:11:19.06,0:11:20.62,Dialogue,,0,0,0,,A-A mirror?
@@ -238,8 +238,8 @@ Dialogue: 0,0:12:23.60,0:12:26.43,Thoughts,,0,0,0,,{\be10}Just why were these tu
 Dialogue: 0,0:12:27.10,0:12:28.97,Thoughts,,0,0,0,,{\be10}And then I should reassess my deductions...
 Dialogue: 0,0:12:31.70,0:12:35.11,Thoughts,,0,0,0,,{\be10}Amongst the three of them, who\Ncould have committed the murder?
 Dialogue: 0,0:12:35.11,0:12:39.78,Thoughts,,0,0,0,,{\be10}From the scent of her perfume being left behind,\NI can deduce that the victim entered the tower.
-Dialogue: 0,0:12:39.78,0:12:45.79,Thoughts,,0,0,0,,{\be10}But whether it was Tsutomu{\rHonorifics - Thoughts}-san{\r} who was just below\Nthe tower, Nozomu Kyōdō{\rHonorifics - Thoughts}-san{\r} who was in the garden,
-Dialogue: 0,0:12:45.79,0:12:48.29,Thoughts,,0,0,0,,{\be10}or even Nagase{\rHonorifics - Thoughts}-san{\r} who rushed over from the main building,
+Dialogue: 0,0:12:39.78,0:12:45.79,Thoughts,,0,0,0,,{\be10}But whether it was Tsutomu{\rHonorifics - Thoughts\be10}-san{\r\be10} who was just below\Nthe tower, Nozomu Kyōdō{\rHonorifics - Thoughts\be10}-san{\r\be10} who was in the garden,
+Dialogue: 0,0:12:45.79,0:12:48.29,Thoughts,,0,0,0,,{\be10}or even Nagase{\rHonorifics - Thoughts\be10}-san{\r\be10} who rushed over from the main building,
 Dialogue: 0,0:12:48.29,0:12:53.51,Thoughts,,0,0,0,,{\be10}no one would've had enough time to push her from the roof and then come back.
 Dialogue: 0,0:12:55.17,0:12:56.25,Thoughts,,0,0,0,,{\be10}These tools...
 Dialogue: 0,0:12:58.51,0:12:59.75,Thoughts,,0,0,0,,{\be10}Wait...
@@ -269,15 +269,15 @@ Dialogue: 0,0:14:17.01,0:14:18.99,Dialogue,,0,0,0,,That doesn't matter now!
 Dialogue: 0,0:14:18.99,0:14:21.24,Dialogue,,0,0,0,,Let's just hope the kids are safe...
 Dialogue: 0,0:14:21.24,0:14:24.21,Dialogue,,0,0,0,,There's not a second to lose.
 Dialogue: 0,0:14:24.21,0:14:27.46,Dialogue,,0,0,0,,I'd like your help looking for the tower entrance.
-Dialogue: 0,0:14:30.82,0:14:32.06,Thoughts,,0,0,0,,{\be10}Conan{\rHonorifics - Thoughts}-kun{\r}...
-Dialogue: 0,0:14:36.68,0:14:40.68,Thoughts,,0,0,0,,{\be10}Going by what Tsutomu{\rHonorifics - Thoughts}-san{\r} said, there\Nshould be buttons around here somewhere.
+Dialogue: 0,0:14:30.82,0:14:32.06,Thoughts,,0,0,0,,{\be10}Conan{\rHonorifics - Thoughts\be10}-kun{\r\be10}...
+Dialogue: 0,0:14:36.68,0:14:40.68,Thoughts,,0,0,0,,{\be10}Going by what Tsutomu{\rHonorifics - Thoughts\be10}-san{\r\be10} said, there\Nshould be buttons around here somewhere.
 Dialogue: 0,0:14:42.24,0:14:42.87,Dialogue,,0,0,0,,There!
 Dialogue: 0,0:14:44.40,0:14:45.99,Thoughts,,0,0,0,,{\be10}Are these the three-coloured buttons?
 Dialogue: 0,0:14:47.57,0:14:48.28,Thoughts,,0,0,0,,{\be10}This is...?
 Dialogue: 0,0:14:51.02,0:14:52.32,Thoughts,,0,0,0,,{\be10}It's the roof!
 Dialogue: 0,0:14:52.32,0:14:54.16,Thoughts,,0,0,0,,{\be10}All right, now I can see them better.
 Dialogue: 0,0:14:54.99,0:14:55.90,Thoughts,,0,0,0,,{\be10}That's..?!
-Dialogue: 0,0:14:59.01,0:15:00.69,Thoughts,,0,0,0,,{\be10}One of Momoe{\rHonorifics - Thoughts}-san{\r}'s fake nails!
+Dialogue: 0,0:14:59.01,0:15:00.69,Thoughts,,0,0,0,,{\be10}One of Momoe{\rHonorifics - Thoughts\be10}-san{\r\be10}'s fake nails!
 Dialogue: 0,0:15:02.15,0:15:04.27,Thoughts,,0,0,0,,{\be10}She must have put a lot of strength into pushing it...
 Dialogue: 0,0:15:05.07,0:15:06.68,Thoughts,,0,0,0,,{\be10}So much that her nail ripped off.
 Dialogue: 0,0:15:08.08,0:15:08.96,Dialogue,,0,0,0,,Chief!
@@ -328,7 +328,7 @@ Dialogue: 0,0:17:16.50,0:17:18.54,Dialogue,,0,0,0,,That way, she would get some 
 Dialogue: 0,0:17:19.01,0:17:20.74,Dialogue,,0,0,0,,Conan, are you there?
 Dialogue: 0,0:17:21.40,0:17:22.68,Dialogue,,0,0,0,,I'm right here, uncle.
 Dialogue: 0,0:17:25.38,0:17:26.51,Dialogue,,0,0,0,,I've got it.
-Dialogue: 0,0:17:31.43,0:17:35.27,Signs,,0,0,0,,aoi
+Dialogue: 0,0:17:31.43,0:17:35.27,Thoughts,,0,0,0,,{\be10}aoi
 Dialogue: 0,0:17:31.43,0:17:35.27,Dialogue,,0,0,0,,Then she pushed a button—the {\i1}blue{\i0} button.
 Dialogue: 0,0:17:36.24,0:17:42.07,Dialogue,,0,0,0,,Let me warn you that I haven't checked yet myself what will happen if this button is pushed.
 Dialogue: 0,0:17:42.07,0:17:48.24,Dialogue,,0,0,0,,But something was triggered and the victim fell from the roof due to it.
@@ -351,14 +351,14 @@ Dialogue: 0,0:19:02.91,0:19:06.11,Dialogue,,0,0,0,,Sorry to have caused you so m
 Dialogue: 0,0:19:06.11,0:19:08.26,Dialogue,,0,0,0,,But this is odd...
 Dialogue: 0,0:19:08.26,0:19:12.87,Dialogue,,0,0,0,,According to what my brother remembered, the treasure should have appeared when the blue button was pushed.
 Dialogue: 0,0:19:12.87,0:19:18.00,Dialogue,,0,0,0,,Uncle Kogorō told me that the\Nmistress pressed the wrong button.
-Dialogue: 0,0:19:19.79,0:19:22.49,Signs,,0,0,0,,aoi
+Dialogue: 0,0:19:19.79,0:19:22.49,Thoughts,,0,0,0,,{\be10}aoi
 Dialogue: 0,0:19:18.00,0:19:19.79,Dialogue,,0,0,0,,The wrong button?
 Dialogue: 0,0:19:19.79,0:19:22.49,Dialogue,,0,0,0,,You pushed the {\i1}blue{\i0} button, right?
 Dialogue: 0,0:19:23.34,0:19:28.34,Dialogue,,0,0,0,,Didn't you call those {\i1}green{\i0} vegetables 'blues' as well, mister?
 Dialogue: 0,0:19:28.34,0:19:34.10,Dialogue,,0,0,0,,Preparing blues is my favourite pastime.
 Dialogue: 0,0:19:35.26,0:19:37.98,Dialogue,,0,0,0,,You also called the watercress 'blue', didn't you?
 Dialogue: 0,0:19:37.98,0:19:42.36,Dialogue,,0,0,0,,The blue of the watercress stirs up my appetite.
-Dialogue: 0,0:19:42.36,0:19:45.50,Signs,,0,0,0,,ao
+Dialogue: 0,0:19:42.36,0:19:45.50,Thoughts,,0,0,0,,{\be10}ao
 Dialogue: 0,0:19:42.36,0:19:45.50,Dialogue,,0,0,0,,That's wrong! When I said the {\i1}blue{\i0} button,
 Dialogue: 0,0:19:45.50,0:19:46.86,Dialogue,,0,0,0,,I meant the {\i1}green{\i0} button!
 Dialogue: 0,0:19:47.86,0:19:53.30,Dialogue,,0,0,0,,There are a lot of people who use '{\i1}ao{\i0}' to say green.
@@ -406,52 +406,6 @@ Dialogue: 0,0:23:59.74,0:24:05.12,Dialogue,,0,0,0,,We received a simple-looking 
 Dialogue: 0,0:24:05.12,0:24:08.96,Dialogue,,0,0,0,,But a man kept our client hostage and then committed suicide.
 Dialogue: 0,0:24:09.79,0:24:14.75,Dialogue,,0,0,0,,On the next Conan: 'The Detectives' Nocturne (The Case)'!
 Dialogue: 0,0:24:14.75,0:24:19.72,Dialogue,,0,0,0,,Next Conan's Hint: A beat-up mobile phone!
-Dialogue: 0,0:03:31.06,0:03:35.32,Signs,,0,0,0,,© Gōshō Aoyama / Shōgakukan · Yomiuri TV · TMS 1996
-Dialogue: 0,0:03:24.14,0:03:28.39,Signs,,0,0,0,,'Detective Conan'\NSerialised in Shōgakukan's 'Weekly Shōnen Sunday'
-Dialogue: 0,0:03:24.14,0:03:28.39,Signs,,0,0,0,,Original Comics by\NGōshō Aoyama\N
-Dialogue: 0,0:03:35.82,0:03:40.40,Signs,,0,0,0,,Planning\NMichihiko Suwa
-Dialogue: 0,0:03:35.82,0:03:40.40,Signs,,0,0,0,,( )
-Dialogue: 0,0:03:53.79,0:03:57.92,Signs,,0,0,0,,Opening Theme\N'Kimi no namida ni kon'na ni Koishite'ru'
-Dialogue: 0,0:03:53.79,0:03:57.92,Signs,,0,0,0,,Performed by:\NLyrics:\NMusic:\NArrangement:
-Dialogue: 0,0:03:53.79,0:03:57.92,Signs,,0,0,0,,Natsu-Iro\NNayu Okuno\NAika Ōno\NTakeshi Hayama
-Dialogue: 0,0:03:53.79,0:03:57.92,Signs,,0,0,0,,(D-GO)
-Dialogue: 0,0:04:08.01,0:04:12.64,Signs,,0,0,0,,Planning Assistance\NHiroshi Torimitsu\NKazumasa Ogura\NMasakazu Hakuya
-Dialogue: 0,0:04:13.94,0:04:18.36,Signs,,0,0,0,,Producers\NShūichi Kitada\N\NTakeshi Yamakawa\N\NAssociate Producer\NMitomu Asai
-Dialogue: 0,0:04:13.94,0:04:18.36,Signs,,0,0,0,,( )
-Dialogue: 0,0:04:13.94,0:04:18.36,Signs,,0,0,0,,(TMS/V1 Studio)
-Dialogue: 0,0:04:30.91,0:04:33.62,Signs,,0,0,0,,Chief Producers\NMichihiko Suwa\N\NKei'ichi Ishiyama
-Dialogue: 0,0:04:30.91,0:04:33.62,Signs,,0,0,0,,( )
-Dialogue: 0,0:04:30.91,0:04:33.62,Signs,,0,0,0,,(TMS/V1 Studio)
-Dialogue: 0,0:05:04.91,0:05:04.95,Signs,,0,0,0,,(Part II)
-Dialogue: 0,0:05:04.95,0:05:05.00,Signs,,0,0,0,,(Part II)
-Dialogue: 0,0:05:05.00,0:05:05.04,Signs,,0,0,0,,(Part II)
-Dialogue: 0,0:05:05.04,0:05:05.08,Signs,,0,0,0,,(Part II)
-Dialogue: 0,0:05:05.08,0:05:05.12,Signs,,0,0,0,,(Part II)
-Dialogue: 0,0:05:05.12,0:05:05.16,Signs,,0,0,0,,(Part II)
-Dialogue: 0,0:05:05.16,0:05:05.20,Signs,,0,0,0,,(Part II)
-Dialogue: 0,0:05:05.20,0:05:05.25,Signs,,0,0,0,,(Part II)
-Dialogue: 0,0:05:05.25,0:05:05.29,Signs,,0,0,0,,(Part II)
-Dialogue: 0,0:05:05.29,0:05:10.92,Signs,,0,0,0,,(Part II)
-Dialogue: 0,0:21:52.95,0:21:56.45,Signs,,0,0,0,,Koi ni Koishite\N(Falling in love)
-Dialogue: 0,0:21:52.95,0:21:56.45,Signs,,0,0,0,,(Mai Kuraki)
-Dialogue: 0,0:21:52.03,0:21:53.11,Signs,,0,0,0,,.
-Dialogue: 0,0:21:53.11,0:21:53.20,Signs,,0,0,0,,.
-Dialogue: 0,0:21:53.20,0:21:53.28,Signs,,0,0,0,,.
-Dialogue: 0,0:21:53.28,0:21:53.36,Signs,,0,0,0,,.
-Dialogue: 0,0:21:53.36,0:21:53.45,Signs,,0,0,0,,.
-Dialogue: 0,0:21:53.45,0:21:53.53,Signs,,0,0,0,,.
-Dialogue: 0,0:21:53.53,0:21:53.61,Signs,,0,0,0,,.
-Dialogue: 0,0:21:53.61,0:21:53.70,Signs,,0,0,0,,.
-Dialogue: 0,0:21:53.70,0:21:53.78,Signs,,0,0,0,,.
-Dialogue: 0,0:21:53.70,0:21:53.78,Signs,,0,0,0,,.
-Dialogue: 0,0:21:56.45,0:21:56.53,Signs,,0,0,0,,.
-Dialogue: 0,0:21:56.45,0:21:56.53,Signs,,0,0,0,,.
-Dialogue: 0,0:21:56.53,0:21:56.62,Signs,,0,0,0,,.
-Dialogue: 0,0:21:56.62,0:21:56.70,Signs,,0,0,0,,.
-Dialogue: 0,0:21:56.70,0:21:56.78,Signs,,0,0,0,,.
-Dialogue: 0,0:21:56.78,0:21:56.87,Signs,,0,0,0,,.
-Dialogue: 0,0:21:56.87,0:21:56.95,Signs,,0,0,0,,.
-Dialogue: 0,0:21:56.95,0:21:57.45,Signs,,0,0,0,,.
 Dialogue: 0,0:21:52.03,0:21:53.11,Signs,,0,0,0,,Shin'ichi Kudō
 Dialogue: 0,0:21:53.11,0:21:53.20,Signs,,0,0,0,,Shin'ichi Kudō
 Dialogue: 0,0:21:53.20,0:21:53.28,Signs,,0,0,0,,Shin'ichi Kudō
@@ -484,4 +438,3 @@ Dialogue: 0,0:21:56.70,0:21:56.78,Signs,,0,0,0,,Shin'ich
 Dialogue: 0,0:21:56.78,0:21:56.87,Signs,,0,0,0,,Shin'ichi Kudō
 Dialogue: 0,0:21:56.87,0:21:56.95,Signs,,0,0,0,,Shin'ichi Kudō
 Dialogue: 0,0:21:56.95,0:21:57.45,Signs,,0,0,0,,Shin'ichi Kudō
-Dialogue: 0,0:24:11.79,0:24:14.75,Signs,,0,0,0,,(The Case)

@@ -36,7 +36,6 @@ Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Comment: 0,0:00:00.00,0:00:00.00,Dialogue,,0000,0000,0000,,Add a moving typeset here for "Abandoned building"
 Dialogue: 0,0:00:02.00,0:00:04.97,Narration Off,,0000,0000,0000,,{\be10}As long as modern-day crimes involve people,
 Dialogue: 0,0:00:04.97,0:00:07.01,Narration Off,,0000,0000,0000,,{\be10}there are no unsolvable mysteries!
 Dialogue: 0,0:00:07.01,0:00:08.84,Narration Off,,0000,0000,0000,,{\be10}Today's guests are super special!
@@ -44,28 +43,6 @@ Dialogue: 0,0:00:08.84,0:00:10.81,Narration Off,,0000,0000,0000,,{\be10}Relation
 Dialogue: 0,0:00:10.81,0:00:12.51,Narration Off,,0000,0000,0000,,{\be10}He sees the single truth for what it is,
 Dialogue: 0,0:00:12.51,0:00:14.75,Narration Off,,0000,0000,0000,,{\be10}and looks like a kid but has the mind of an adult.
 Dialogue: 0,0:00:14.75,0:00:16.93,Narration Off,,0000,0000,0000,,{\be10}His name? Detective Conan!
-Dialogue: 0,0:00:22.89,0:00:26.90,Signs,,0000,0000,0000,,Created by\NGosho Aoyama\N"Detective Conan"\NSerialized in Shogakukan's\N"Weekly Shonen Sunday"
-Dialogue: 0,0:00:27.15,0:00:31.07,Signs,,0000,0000,0000,,Planning\NMichihiko Suwa\N(Yomiuri TV)
-Dialogue: 0,0:00:36.61,0:00:40.62,Signs,,0000,0000,0000,,Character Design\NMasatomo Sudo
-Dialogue: 0,0:00:36.61,0:00:40.62,Signs,,0000,0000,0000,,Art Director\NYukihiro Shibutani
-Dialogue: 0,0:00:36.61,0:00:40.62,Signs,,0000,0000,0000,,Art Design\NHiroyuki Mitsumoto
-Dialogue: 0,0:00:40.87,0:00:44.87,Signs,,0000,0000,0000,,Director of Photography\NTakahisa Ogawa
-Dialogue: 0,0:00:40.87,0:00:44.87,Signs,,0000,0000,0000,,Sound Director\NKatsuyoshi Kobayashi
-Dialogue: 0,0:00:47.58,0:00:51.54,Signs,,0000,0000,0000,,Music Producer\NHiroki Horio\N(PolyGram)
-Dialogue: 0,0:00:47.58,0:00:51.54,Signs,,0000,0000,0000,,Music\NKatsuo Ono
-Dialogue: 0,0:00:52.05,0:00:55.51,Signs,,0000,0000,0000,,Opening Theme\N"Nazo"
-Dialogue: 0,0:00:52.05,0:00:55.51,Signs,,0000,0000,0000,,(Zain Records)
-Dialogue: 0,0:00:52.05,0:00:55.51,Signs,,0000,0000,0000,,Performed by
-Dialogue: 0,0:00:52.05,0:00:55.51,Signs,,0000,0000,0000,,Lyrics\NMusic
-Dialogue: 0,0:00:52.05,0:00:55.51,Signs,,0000,0000,0000,,Miho Komatsu
-Dialogue: 0,0:00:52.05,0:00:55.51,Signs,,0000,0000,0000,,Miho Komatsu
-Dialogue: 0,0:00:55.76,0:00:59.14,Signs,,0000,0000,0000,,Editor\NTeramitsu Okada
-Dialogue: 0,0:00:55.76,0:00:59.14,Signs,,0000,0000,0000,,Story Editor\NJun'ichi Iioka
-Dialogue: 0,0:00:55.76,0:00:59.14,Signs,,0000,0000,0000,,Color Key\NReiko Hirayama
-Dialogue: 0,0:00:55.76,0:00:59.14,Signs,,0000,0000,0000,,Associate Producer\NTakeo Izumi
-Dialogue: 0,0:00:59.43,0:01:02.85,Signs,,0000,0000,0000,,Planning Support\NToyohiko Okuyama\NMitome Asai
-Dialogue: 0,0:01:03.85,0:01:07.85,Signs,,0000,0000,0000,,Director\NKenji Kodama
-Dialogue: 0,0:01:13.19,0:01:17.45,Signs,,0000,0000,0000,,Producers\NMichihiko Suwa\N(Yomiuri TV)\NMasahito Yoshioka\N(Tokyo Movie)
 Dialogue: 0,0:01:57.90,0:02:01.03,Signs,,0000,0000,0000,,Sunday, 7:00 AM
 Dialogue: 0,0:02:05.19,0:02:07.26,Dialogue,,0000,0000,0000,,Come on, Dad!
 Dialogue: 0,0:02:07.26,0:02:09.13,Dialogue,,0000,0000,0000,,Are you worn out already?
@@ -151,9 +128,9 @@ Dialogue: 0,0:06:35.13,0:06:37.97,Thoughts,,0000,0000,0000,,{\be10}This switch i
 Dialogue: 0,0:06:37.97,0:06:40.07,Thoughts,,0000,0000,0000,,{\be10}I can see the road out front!
 Dialogue: 0,0:06:40.07,0:06:44.14,Thoughts,,0000,0000,0000,,{\be10}Judging from this angle, there must be a camera on the roof!
 Dialogue: 0,0:06:44.14,0:06:45.66,Thoughts,,0000,0000,0000,,{\be10}It's recording!
-Dialogue: 0,0:06:47.98,0:06:52.88,Thoughts,,0000,0000,0000,,{\be10}Now I see! The camera's angle{\rHonorifics - Thoughts} chan{\r}ges automatically!
+Dialogue: 0,0:06:47.98,0:06:52.88,Thoughts,,0000,0000,0000,,{\be10}Now I see! The camera's angle{\rHonorifics - Thoughts\be10} chan{\r\be10}ges automatically!
 Dialogue: 0,0:06:52.88,0:06:55.32,Thoughts,,0000,0000,0000,,{\be10}Which means that when it's on manual
-Dialogue: 0,0:06:55.32,0:06:58.69,Thoughts,,0000,0000,0000,,{\be10}you use this stick to{\rHonorifics - Thoughts} chan{\r}ge the angle...
+Dialogue: 0,0:06:55.32,0:06:58.69,Thoughts,,0000,0000,0000,,{\be10}you use this stick to{\rHonorifics - Thoughts\be10} chan{\r\be10}ge the angle...
 Dialogue: 0,0:06:58.69,0:07:03.09,Dialogue,,0000,0000,0000,,Hey, you! Don't touch other people's things!
 Dialogue: 0,0:07:05.93,0:07:08.86,Dialogue,,0000,0000,0000,,Is this your wife, Nakayama{\rHonorifics - Dialogue}-san{\r}?
 Dialogue: 0,0:07:08.86,0:07:10.57,Dialogue,,0000,0000,0000,,No, that's my sister.
@@ -233,7 +210,7 @@ Dialogue: 0,0:10:46.71,0:10:50.71,Dialogue,,0000,0000,0000,,That's why I've been
 Dialogue: 0,0:10:51.52,0:10:54.12,Thoughts,,0000,0000,0000,,{\be10}Was it really a coincidence, though?
 Dialogue: 0,0:10:54.12,0:10:56.62,Thoughts,,0000,0000,0000,,{\be10}Could his sister's death have some relevance
 Dialogue: 0,0:10:56.62,0:10:59.83,Thoughts,,0000,0000,0000,,{\be10}to the truth behind this incident?
-Dialogue: 0,0:10:59.83,0:11:04.30,Thoughts,,0000,0000,0000,,{\be10}If so, then it's highly likely that Nakayama{\rHonorifics - Thoughts}-san{\r} did it!
+Dialogue: 0,0:10:59.83,0:11:04.30,Thoughts,,0000,0000,0000,,{\be10}If so, then it's highly likely that Nakayama{\rHonorifics - Thoughts\be10}-san{\r\be10} did it!
 Dialogue: 0,0:11:04.30,0:11:06.43,Thoughts,,0000,0000,0000,,{\be10}But how?!
 Dialogue: 0,0:11:06.43,0:11:09.27,Dialogue,,0000,0000,0000,,At any rate, I'm going to re-question the employees
 Dialogue: 0,0:11:09.27,0:11:11.91,Dialogue,,0000,0000,0000,,who were cleaning the building across the street.
@@ -241,7 +218,7 @@ Dialogue: 0,0:11:11.91,0:11:13.61,Dialogue,,0000,0000,0000,,You folks stay here.
 Dialogue: 0,0:11:13.61,0:11:15.48,Dialogue,,0000,0000,0000,,Understood.
 Dialogue: 0,0:11:15.48,0:11:16.65,Dialogue,,0000,0000,0000,,Let's go.
 Dialogue: 0,0:11:16.65,0:11:18.01,Dialogue,,0000,0000,0000,,Yes, sir!
-Dialogue: 0,0:11:18.01,0:11:22.68,Thoughts,,0000,0000,0000,,{\be10}After entering this room, Nakayama{\rHonorifics - Thoughts}-san{\r} switched the camera to Auto.
+Dialogue: 0,0:11:18.01,0:11:22.68,Thoughts,,0000,0000,0000,,{\be10}After entering this room, Nakayama{\rHonorifics - Thoughts\be10}-san{\r\be10} switched the camera to Auto.
 Dialogue: 0,0:11:22.68,0:11:27.68,Thoughts,,0000,0000,0000,,{\be10}If he's the killer, then it must be the key to something!
 Dialogue: 0,0:11:31.33,0:11:34.76,Dialogue,,0000,0000,0000,,I can see the road out front! This is neat!
 Dialogue: 0,0:11:34.76,0:11:38.80,Dialogue,,0000,0000,0000,,Oh, a security camera on the roof is recording that.
@@ -270,8 +247,8 @@ Dialogue: 0,0:13:02.28,0:13:05.59,Thoughts,,0000,0000,0000,,{\be10}That must be 
 Dialogue: 0,0:13:05.59,0:13:07.29,Thoughts,,0000,0000,0000,,{\be10}This height difference would make it impossible
 Dialogue: 0,0:13:07.29,0:13:09.42,Thoughts,,0000,0000,0000,,{\be10}to return the girder up here if it had been lowered
 Dialogue: 0,0:13:09.42,0:13:11.65,Thoughts,,0000,0000,0000,,{\be10}onto the abandoned building.
-Dialogue: 0,0:13:04.95,0:13:11.41,Dialogue,,0000,0000,0000,,{\move(680,358,540,358)\a6\bord0\shad0\fscx100\fs24}Abandoned\NBuilding
-Dialogue: 0,0:13:13.46,0:13:15.70,Thoughts,,0000,0000,0000,,{\be10}Which means Nakayama{\rHonorifics - Thoughts}-san{\r} couldn't have dropped it—
+Dialogue: 0,0:13:04.95,0:13:11.41,Dialogue Top,,0000,0000,0000,,{\move(680,358,540,358)}Abandoned\NBuilding
+Dialogue: 0,0:13:13.46,0:13:15.70,Thoughts,,0000,0000,0000,,{\be10}Which means Nakayama{\rHonorifics - Thoughts\be10}-san{\r\be10} couldn't have dropped it—
 Dialogue: 0,0:13:15.70,0:13:18.37,Thoughts,,0000,0000,0000,,{\be10}he was inside this building.
 Dialogue: 0,0:13:18.37,0:13:21.86,Thoughts,,0000,0000,0000,,{\be10}Plus, he was in his office when it happened!
 Dialogue: 0,0:13:27.31,0:13:29.57,Dialogue,,0000,0000,0000,,Wait a minute! It's possible that—
@@ -285,16 +262,16 @@ Dialogue: 0,0:13:45.76,0:13:49.49,Dialogue,,0000,0000,0000,,But how did he know 
 Dialogue: 0,0:13:53.16,0:13:53.97,Dialogue,,0000,0000,0000,,Wait!
 Dialogue: 0,0:14:02.91,0:14:04.05,Thoughts,,0000,0000,0000,,{\be10}No good.
 Dialogue: 0,0:14:04.05,0:14:07.42,Thoughts,,0000,0000,0000,,{\be10}None of the lower floors reflect what's in the alley!
-Dialogue: 0,0:14:07.42,0:14:09.78,Thoughts,,0000,0000,0000,,{\be10}Was it really impossible for Nakayama{\rHonorifics - Thoughts}-san{\r} to have done it?!
+Dialogue: 0,0:14:07.42,0:14:09.78,Thoughts,,0000,0000,0000,,{\be10}Was it really impossible for Nakayama{\rHonorifics - Thoughts\be10}-san{\r\be10} to have done it?!
 Dialogue: 0,0:14:09.78,0:14:11.75,Dialogue,,0000,0000,0000,,Conan{\rHonorifics - Dialogue}-kun{\r}?
 Dialogue: 0,0:14:11.75,0:14:13.52,Dialogue,,0000,0000,0000,,What are you doing?
 Dialogue: 0,0:14:13.52,0:14:15.89,Dialogue,,0000,0000,0000,,Nothing really...
 Dialogue: 0,0:14:16.46,0:14:18.69,Thoughts,,0000,0000,0000,,{\be10}Wait! Come to think of it...
-Dialogue: 0,0:14:19.26,0:14:20.26,Thoughts,,0000,0000,0000,,{\be10}Asagi{\rHonorifics - Thoughts}-san{\r}!
+Dialogue: 0,0:14:19.26,0:14:20.26,Thoughts,,0000,0000,0000,,{\be10}Asagi{\rHonorifics - Thoughts\be10}-san{\r\be10}!
 Dialogue: 0,0:14:20.26,0:14:23.29,Thoughts,,0000,0000,0000,,{\be10}Move the Manbo Mobile away from that building right away!
 Dialogue: 0,0:14:23.87,0:14:25.47,Thoughts,,0000,0000,0000,,{\be10}Now I see!
 Dialogue: 0,0:14:25.47,0:14:29.14,Thoughts,,0000,0000,0000,,{\be10}That's why the harmonica didn't have any fingerprints on it!
-Dialogue: 0,0:14:29.14,0:14:31.57,Thoughts,,0000,0000,0000,,{\be10}Nakayama{\rHonorifics - Thoughts}-san{\r} really did do it!
+Dialogue: 0,0:14:29.14,0:14:31.57,Thoughts,,0000,0000,0000,,{\be10}Nakayama{\rHonorifics - Thoughts\be10}-san{\r\be10} really did do it!
 Dialogue: 0,0:14:33.71,0:14:35.00,Dialogue,,0000,0000,0000,,How'd it go, Inspector?
 Dialogue: 0,0:14:35.00,0:14:36.64,Dialogue,,0000,0000,0000,,Not well.
 Dialogue: 0,0:14:36.64,0:14:38.78,Dialogue,,0000,0000,0000,,Apparently they had finished their window-cleaning
@@ -423,6 +400,6 @@ Dialogue: 0,0:24:03.29,0:24:05.09,Dialogue,,0000,0000,0000,,What?!
 Dialogue: 0,0:24:07.03,0:24:09.11,Dialogue,,0000,0000,0000,,Don't tell me Ayako{\rHonorifics - Dialogue}-san{\r}'s in there!
 Dialogue: 0,0:24:09.11,0:24:15.12,Signs,,0000,0000,0000,,Next Conan:
 Dialogue: 0,0:24:15.12,0:24:20.08,Dialogue,,0000,0000,0000,,Next Conan's Hint: Blanket
-Dialogue: 0,0:24:20.25,0:24:22.25,Dialogue,,0000,0000,0000,,{\a6}Next time, Conan's rival returns!
-Dialogue: 0,0:24:22.25,0:24:23.75,Dialogue,,0000,0000,0000,,{\a6}Eh? Me, really?
-Dialogue: 0,0:24:23.75,0:24:25.01,Dialogue,,0000,0000,0000,,{\a6}No, Genta, not you!
+Dialogue: 0,0:24:20.25,0:24:22.25,Dialogue Top,,0000,0000,0000,,Next time, Conan's rival returns!
+Dialogue: 0,0:24:22.25,0:24:23.75,Dialogue Top,,0000,0000,0000,,Eh? Me, really?
+Dialogue: 0,0:24:23.75,0:24:25.01,Dialogue Top,,0000,0000,0000,,No, Genta, not you!

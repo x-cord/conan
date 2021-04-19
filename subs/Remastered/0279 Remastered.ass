@@ -41,9 +41,6 @@ Style: DR,Ubuntu Condensed,35,&H00FFFFFF,&H000000FF,&H00000000,&HC0000000,0,0,0,
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Comment: 0,0:23:21.03,0:23:37.72,Signs,,0000,0000,0000,,Next time... "The Hooligan Mystery (Part II)"\N(Digital Remaster)
-Comment: 0,0:24:35.62,0:24:37.24,Narration Off,,0000,0000,0000,,{\be10}{\a6}blah
-Comment: 0,0:24:37.62,0:24:40.46,Narration Off,,0000,0000,0000,,{\be10}{\a6}something else
 Dialogue: 0,0:22:40.29,0:22:44.09,Signs,,0000,0000,0000,,Kanashii hodo kyō no yūhi kirei da ne\N(Today's sunset is so pretty it's sad)
 Dialogue: 0,0:00:01.25,0:00:20.96,Signs,,0000,0000,0000,,Hooligan
 Dialogue: 0,0:00:01.84,0:00:03.31,Narration Off,,0000,0000,0000,,{\be10}"Hooligan."
@@ -58,10 +55,6 @@ Dialogue: 0,0:00:45.44,0:00:46.79,Narration Off,,0000,0000,0000,,{\be10}in the g
 Dialogue: 0,0:00:46.79,0:00:48.61,Narration Off,,0000,0000,0000,,{\be10}He sees the single truth for what it is,
 Dialogue: 0,0:00:48.61,0:00:50.29,Narration Off,,0000,0000,0000,,{\be10}and looks like a kid but has the mind of an adult!
 Dialogue: 0,0:00:50.29,0:00:53.00,Narration Off,,0000,0000,0000,,{\be10}His name? Detective Conan!
-Dialogue: 0,0:03:49.10,0:03:49.13,Signs,,0000,0000,0000,,The Hooligan Mystery
-Dialogue: 0,0:03:49.10,0:03:49.13,Signs,,0000,0000,0000,,(Part I)
-Dialogue: 0,0:03:49.13,0:03:54.79,Signs,,0000,0000,0000,,The Hooligan Mystery
-Dialogue: 0,0:03:49.13,0:03:54.79,Signs,,0000,0000,0000,,(Part I)
 Dialogue: 0,0:02:19.32,0:02:21.74,Thoughts,,0000,0000,0000,,{\be10}Tōkyō Spirits vs. Noir Tōkyō!
 Dialogue: 0,0:02:21.74,0:02:24.34,Thoughts,,0000,0000,0000,,{\be10}The score's still tied at 0.
 Dialogue: 0,0:02:24.34,0:02:27.12,Thoughts,,0000,0000,0000,,{\be10}Sounds like we may need to go to extra time.
@@ -226,7 +219,7 @@ Dialogue: 0,0:11:48.04,0:11:50.97,Dialogue,,0000,0000,0000,,If something happens
 Dialogue: 0,0:11:50.97,0:11:53.10,Dialogue,,0000,0000,0000,,Yes, of course.
 Dialogue: 0,0:12:03.50,0:12:04.78,Thoughts,,0000,0000,0000,,{\be10}What!?
 Dialogue: 0,0:12:06.27,0:12:09.44,Thoughts,,0000,0000,0000,,{\be10}Haido, Haido...
-Dialogue: 0,0:12:09.44,0:12:12.87,Thoughts,,0001,0001,0000,,{\be10}Passengers transferring to the Haido subway line{\rHonorifics - Thoughts} chan{\r}ge here.
+Dialogue: 0,0:12:09.44,0:12:12.87,Thoughts,,0001,0001,0000,,{\be10}Passengers transferring to the Haido subway line{\rHonorifics - Thoughts\be10} chan{\r\be10}ge here.
 Dialogue: 0,0:12:26.93,0:12:29.39,Thoughts,,0000,0000,0000,,{\be10}One stab to the stomach with a knife.
 Dialogue: 0,0:12:29.39,0:12:31.77,Dialogue,,0000,0000,0000,,Hey, what happened, Conan?
 Dialogue: 0,0:12:32.73,0:12:34.82,Dialogue,,0000,0000,0000,,Doc! Get an ambulance and the police!
@@ -390,22 +383,20 @@ Dialogue: 0,0:21:28.28,0:21:33.31,Dialogue,,0000,0000,0000,,I'd like it if you c
 Dialogue: 0,0:21:33.31,0:21:37.98,Dialogue,,0000,0000,0000,,Then if you would please come with me to the car where the crime took place...
 Dialogue: 0,0:21:39.57,0:21:41.56,Dialogue,,0000,0000,0000,,I gotta get back to the company...
 Dialogue: 0,0:21:41.56,0:21:43.32,Dialogue,,0000,0000,0000,,Really, what is it now?
-Dialogue: 0,0:21:43.32,0:21:44.30,Thoughts,,0000,0000,0000,,{\be10}{\fad(50,50)}Eh?
-Dialogue: 0,0:21:45.11,0:21:47.80,Thoughts,,0000,0000,0000,,{\be10}{\fad(50,50)}Why is that person...
-Dialogue: 0,0:22:08.61,0:22:10.98,Thoughts,,0000,0000,0000,,{\be10}We have three suspects.
-Dialogue: 0,0:22:10.98,0:22:17.70,Thoughts,,0000,0000,0000,,{\be10}The only thing we know for sure is that they all rode in a packed train car.
-Dialogue: 0,0:22:17.70,0:22:22.52,Thoughts,,0000,0000,0000,,{\be10}{\fad(100,100)}But that's not enough to conclude anything.
-Dialogue: 0,0:22:22.52,0:22:26.49,Thoughts,,0000,0000,0000,,{\be10}There's gotta be something... There's gotta be something more!
-Dialogue: 0,0:22:27.24,0:22:31.45,Thoughts,,0000,0000,0000,,{\be10}{\fad(100,100)}Some other clue to solve the case!
+Dialogue: 0,0:21:43.32,0:21:44.30,Thoughts,,0000,0000,0000,,{\be10\fad(50,50)}Eh?
+Dialogue: 0,0:21:45.11,0:21:47.80,Thoughts,,0000,0000,0000,,{\be10\fad(50,50)}Why is that person...
+Dialogue: 0,0:22:08.61,0:22:10.98,Thoughts,,0000,0000,0000,,{\be10\fad(100,100)}We have three suspects.
+Dialogue: 0,0:22:10.98,0:22:17.70,Thoughts,,0000,0000,0000,,{\be10\fad(100,100)}The only thing we know for sure is that they all rode in a packed train car.
+Dialogue: 0,0:22:17.70,0:22:22.52,Thoughts,,0000,0000,0000,,{\be10\fad(100,100)}But that's not enough to conclude anything.
+Dialogue: 0,0:22:22.52,0:22:26.49,Thoughts,,0000,0000,0000,,{\be10\fad(100,100)}There's gotta be something... There's gotta be something more!
+Dialogue: 0,0:22:27.24,0:22:31.45,Thoughts,,0000,0000,0000,,{\be10\fad(100,100)}Some other clue to solve the case!
 Dialogue: 0,0:24:00.21,0:24:03.13,Thoughts,,0000,0000,0000,,{\be10}Higo was knocked down!
 Dialogue: 0,0:24:05.08,0:24:08.55,Thoughts,,0000,0000,0000,,{\be10}Listen to the audience's cheering.
 Dialogue: 0,0:24:08.55,0:24:15.01,Thoughts,,0000,0000,0000,,{\be10}Has Higo been forsaken by all who supported him? Is there no field in Japan where Higo can play?
 Dialogue: 0,0:24:16.31,0:24:17.35,Thoughts,,0000,0000,0000,,{\be10}Hold on...
-Dialogue: 0,0:24:17.35,0:24:19.69,Thoughts,,0000,0000,0000,,{\be10}If I recall correctly, today's Tōkyō Derby was...
+Dialogue: 0,0:24:17.35,0:24:19.69,Thoughts,,0000,0000,0000,,{\be10\fad(0,200)}If I recall correctly, today's Tōkyō Derby was...
 Dialogue: 0,0:24:22.23,0:24:24.69,Thoughts,,0000,0000,0000,,{\be10}As I thought...
-Dialogue: 0,0:24:24.69,0:24:30.70,DR,,0000,0000,0000,,{\be10}{\a1}(Digital Remaster)
-Dialogue: 0,0:24:24.69,0:24:30.70,Signs,,0000,0000,0000,,The Hooligan Mystery
-Dialogue: 0,0:24:24.69,0:24:30.70,Signs,,0000,0000,0000,,(Part II)
+Dialogue: 0,0:24:24.69,0:24:30.70,Signs,,0000,0000,0000,,(Digital Remaster)
 Dialogue: 0,0:24:24.69,0:24:30.70,Dialogue,,0000,0000,0000,,On the next Conan: "The Hooligan Mystery (Part II)"
 Dialogue: 0,0:24:30.70,0:24:35.62,Narration Off,,0000,0000,0000,,{\be10}Next Conan's Hint: The goal scene.
-Dialogue: 0,0:24:35.62,0:24:40.46,Otanoshimi,,0000,0000,0000,,{\be10}{\a1}Look forward to the next episode!
+Dialogue: 0,0:24:35.62,0:24:40.46,Signs,,0000,0000,0000,,Look forward to the next episode!

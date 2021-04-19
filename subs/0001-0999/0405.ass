@@ -33,22 +33,9 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: TL Note,Galliard BT,20,&H00ECEAEA,&H0000FFFF,&H00740E07,&H004D262A,0,0,0,0,106,100,0.4,0,1,1.5,0.8,8,10,10,10,0
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Comment: 0,0:00:00.00,0:00:00.00,Dialogue,Takagi,0000,0000,0000,,-----------------------------------------Next episode-------------------Everything after here is fucked up---------------
-Comment: 0,0:23:55.04,0:23:56.01,Dialogue,,0000,0000,0000,,missing
-Comment: 0,0:24:10.47,0:24:12.11,Dialogue,Takagi,0000,0000,0000,,Next Conan episode
-Comment: 0,0:24:12.11,0:24:15.40,Dialogue,Takagi,0000,0000,0000,,The magic of deduction of Conan and Heiji (machinery part)
-Comment: 0,0:24:16.74,0:24:18.96,Dialogue,Takagi,0000,0000,0000,,Next Conan's hint
-Comment: 0,0:24:18.96,0:24:20.59,Dialogue,Takagi,0000,0000,0000,,The machinery for magic show
-Comment: 0,0:24:20.95,0:24:25.99,Dialogue,Takagi,0000,0000,0000,,Can you do magic?
-Comment: 0,0:00:00.00,0:00:00.00,Dialogue,Takagi,0000,0000,0000,,I can transform myself, 3 2 1
-Comment: 0,0:00:00.00,0:00:00.00,Dialogue,Takagi,0000,0000,0000,,Eel rice!
-Comment: 0,0:00:00.00,0:00:00.00,Dialogue,Takagi,0000,0000,0000,,That's not magic.
-Comment: 0,0:00:00.00,0:00:00.00,Dialogue,,0000,0000,0000,,
-Comment: 0,0:00:00.00,0:00:04.93,Dialogue,,0000,0000,0000,,
 Dialogue: 0,0:00:04.27,0:00:05.86,Dialogue,,0000,0000,0000,,The star of a show is usually charming.
 Dialogue: 0,0:00:05.91,0:00:07.66,Dialogue,,0000,0000,0000,,However, the same could be said for the culprit or victim...
 Dialogue: 0,0:00:07.70,0:00:09.62,Dialogue,,0000,0000,0000,,Today's case is about a misunderstood dying message.
@@ -56,7 +43,7 @@ Dialogue: 0,0:00:09.62,0:00:11.27,Dialogue,,0000,0000,0000,,Work hard on today's
 Dialogue: 0,0:00:11.27,0:00:13.04,Dialogue,,0000,0000,0000,,Solve the case involving "Smiling Peace"!
 Dialogue: 0,0:00:13.11,0:00:14.57,Dialogue,,0000,0000,0000,,Seeing through to the one and only truth,
 Dialogue: 0,0:00:14.57,0:00:16.12,Dialogue,,0000,0000,0000,,I look like a child, but have the intellect of an adult.
-Dialogue: 0,0:00:16.19,0:00:18.20,Dialogue,,0000,0000,0000,,{\3a&H64&}My name is Detective Conan!
+Dialogue: 0,0:00:16.19,0:00:18.20,Dialogue,,0000,0000,0000,,{\fad(0,450)}My name is Detective Conan!
 Dialogue: 0,0:01:51.40,0:01:52.22,Dialogue,Man,0000,0000,0000,,Um...
 Dialogue: 0,0:01:52.22,0:01:54.14,Dialogue,Man,0000,0000,0000,,Are you sleeping?
 Dialogue: 0,0:01:54.14,0:01:55.19,Dialogue,Man,0000,0000,0000,,You'll catch a cold doing that.
@@ -78,8 +65,8 @@ Dialogue: 0,0:02:59.47,0:03:00.43,Dialogue,Policeman,0000,0000,0000,,What's the 
 Dialogue: 0,0:03:00.43,0:03:03.25,Dialogue,Man,0000,0000,0000,,Are you looking for me?
 Dialogue: 0,0:03:04.22,0:03:05.58,Dialogue,Policeman,0000,0000,0000,,It was {\i1}you{\i0}?
 Dialogue: 0,0:03:05.58,0:03:08.09,Dialogue,Policeman,0000,0000,0000,,The person who found the victim and then ran away?
-Dialogue: 0,0:03:08.88,0:03:11.89,Dialogue Top,Hiroshi,0000,0000,0000,,{\be1}I didn't run away!
-Dialogue: 0,0:03:11.89,0:03:13.47,Dialogue,Hiroshi,0000,0000,0000,,I just wanted to get an ambulance quicker...
+Dialogue: 0,0:03:08.88,0:03:11.89,Dialogue Top,Hiroshi,0000,0000,0000,,I didn't run away!
+Dialogue: 0,0:03:11.89,0:03:13.47,Dialogue Top,Hiroshi,0000,0000,0000,,I just wanted to get an ambulance quicker...
 Dialogue: 0,0:03:14.69,0:03:16.72,Dialogue,Policeman,0000,0000,0000,,An ambulance, huh?
 Dialogue: 0,0:03:16.72,0:03:18.19,Dialogue,Policeman,0000,0000,0000,,There was no need for that.
 Dialogue: 0,0:03:18.70,0:03:21.75,Dialogue,Policeman,0000,0000,0000,,The victim was dead long before that.
@@ -142,15 +129,15 @@ Dialogue: 0,0:05:44.16,0:05:45.37,Dialogue,Sakurada,0000,0000,0000,,is the first
 Dialogue: 0,0:05:46.09,0:05:48.09,Dialogue,Hiroshi,0000,0000,0000,,I'm not the culprit!
 Dialogue: 0,0:05:48.52,0:05:52.91,Dialogue,Takagi,0000,0000,0000,,I know Hiromatsu{\rHonorifics - Dialogue}-kun{\r}. It couldn't be him.
 Dialogue: 0,0:05:52.91,0:05:56.09,Dialogue,Sakurada,0000,0000,0000,,The reason why I'm suspecting him is because...
-Dialogue: 0,0:05:58.47,0:05:59.85,Dialogue Top,Yukiko,0000,0000,0000,,{\be1}I'm the one,
-Dialogue: 0,0:06:00.46,0:06:03.39,Dialogue,Yukiko,0000,0000,0000,,who received your message at Yasunaga Agency, Yasunaga Yukiko.
+Dialogue: 0,0:05:58.47,0:05:59.85,Dialogue Top,Yukiko,0000,0000,0000,,I'm the one,
+Dialogue: 0,0:06:00.46,0:06:03.39,Dialogue Top,Yukiko,0000,0000,0000,,who received your message at Yasunaga Agency, Yasunaga Yukiko.
 Dialogue: 0,0:06:03.81,0:06:06.28,Dialogue,Sakurada,0000,0000,0000,,I'm Officer Sakurada from the Eastern police headquarters.
 Dialogue: 0,0:06:06.28,0:06:06.85,Dialogue,Sakurada,0000,0000,0000,,Who's he?
 Dialogue: 0,0:06:07.24,0:06:09.62,Dialogue,Conan,0000,0000,0000,,You're Mizuhara Ryoji{\rHonorifics - Dialogue}-san{\r}, right?
 Dialogue: 0,0:06:09.62,0:06:11.50,Dialogue,Conan,0000,0000,0000,,You're always in TV dramas.
 Dialogue: 0,0:06:11.50,0:06:12.86,Dialogue,Takagi,0000,0000,0000,,Oh yeah, that actor!
 Dialogue: 0,0:06:13.43,0:06:15.17,Dialogue,Mizuhara,0000,0000,0000,,I'm Mizuhara.
-Dialogue: 0,0:06:15.17,0:06:19.78,Dialogue Top,Yukiko,0000,0000,0000,,{\be1}Okubo was Mizuhara's manager.
+Dialogue: 0,0:06:15.17,0:06:19.78,Dialogue Top,Yukiko,0000,0000,0000,,Okubo was Mizuhara's manager.
 Dialogue: 0,0:06:20.01,0:06:21.29,Dialogue,Takagi,0000,0000,0000,,Okubo{\rHonorifics - Dialogue}-san{\r}?
 Dialogue: 0,0:06:21.66,0:06:24.29,Dialogue,Sakurada,0000,0000,0000,,We believe Okubo Iwao{\rHonorifics - Dialogue}-san{\r} was the victim.
 Dialogue: 0,0:06:25.34,0:06:27.39,Dialogue,Sakurada,0000,0000,0000,,Please verify the body for us.
@@ -164,7 +151,7 @@ Dialogue: 0,0:06:40.64,0:06:43.23,Dialogue,Mizuhara,0000,0000,0000,,Hiromatsu{\r
 Dialogue: 0,0:06:43.23,0:06:44.27,Dialogue,Hiroshi,0000,0000,0000,,How should I say this...
 Dialogue: 0,0:06:44.74,0:06:47.10,Dialogue,Sakurada,0000,0000,0000,,You know this man?
 Dialogue: 0,0:06:47.51,0:06:50.11,Dialogue,Mizuhara,0000,0000,0000,,We live in the same apartment.
-Dialogue: 0,0:06:50.46,0:06:53.45,Dialogue,Sakurada,0000,0000,0000,,I see, so that's how it is.
+Dialogue: 0,0:06:50.46,0:06:53.45,Dialogue,Sakurada,0000,0000,0000,,{\fad(0,500)}I see, so that's how it is.
 Dialogue: 0,0:06:54.20,0:06:58.41,Dialogue,Sakurada,0000,0000,0000,,On the phone, you said Okubo{\rHonorifics - Dialogue}-san{\r} worked very late yesterday.
 Dialogue: 0,0:06:59.09,0:07:02.16,Dialogue,Mizuhara,0000,0000,0000,,He was in my room just a while ago.
 Dialogue: 0,0:07:02.16,0:07:04.78,Dialogue,Mizuhara,0000,0000,0000,,He visited very late last night.
@@ -314,7 +301,7 @@ Dialogue: 0,0:14:32.28,0:14:34.90,Dialogue,Yukiko,0000,0000,0000,,The future of 
 Dialogue: 0,0:14:37.52,0:14:39.45,Thoughts,Conan,0000,0000,0000,,{\be10}Just as I thought.
 Dialogue: 0,0:14:39.45,0:14:41.91,Thoughts,Conan,0000,0000,0000,,{\be10}The mystery behind that dying message is solved.
 Dialogue: 0,0:14:43.18,0:14:44.44,Thoughts,Conan,0000,0000,0000,,{\be10}And...
-Dialogue: 0,0:14:45.58,0:14:48.88,Thoughts,Conan,0000,0000,0000,,{\be10}...the true culprit is that person!
+Dialogue: 0,0:14:45.58,0:14:48.88,Thoughts,Conan,0000,0000,0000,,{\be10\fad(0,500)}...the true culprit is that person!
 Dialogue: 0,0:14:53.60,0:14:55.42,Dialogue,Takagi,0000,0000,0000,,Yasunaga{\rHonorifics - Dialogue}-san{\r}?
 Dialogue: 0,0:14:55.54,0:14:57.55,Dialogue,Takagi,0000,0000,0000,,The president of the agency?
 Dialogue: 0,0:14:57.64,0:15:01.94,Dialogue,Conan,0000,0000,0000,,Yes, she told me to tell you something that might be helpful.
@@ -323,8 +310,8 @@ Dialogue: 0,0:15:03.26,0:15:06.60,Flashback,Yukiko,0000,0000,0000,,{\be10}The fu
 Dialogue: 0,0:15:07.68,0:15:09.06,Flashback,Conan,0000,0000,0000,,{\be10}His smile?
 Dialogue: 0,0:15:09.60,0:15:14.94,Flashback,Yukiko,0000,0000,0000,,{\be10}Mizuhara Ryoji is famous for always keeping his cool and never smiling.
 Dialogue: 0,0:15:14.94,0:15:17.98,Flashback,Yukiko,0000,0000,0000,,{\be10}That path has come to a dead end now.
-Dialogue: 0,0:15:17.98,0:15:24.99,Flashback,Yukiko,0000,0000,0000,,{\be10}So, Okubo{\rHonorifics - Flashback}-san{\r} suggested that he try to{\rHonorifics - Flashback} chan{\r}ge his image to that of a smiling person.
-Dialogue: 0,0:15:26.96,0:15:32.42,Flashback,Yukiko,0000,0000,0000,,{\be10}Since he's very charming when he smiles.
+Dialogue: 0,0:15:17.98,0:15:24.99,Flashback,Yukiko,0000,0000,0000,,{\be10}So, Okubo{\rHonorifics - Flashback\be10}-san{\r\be10} suggested that he try to{\rHonorifics - Flashback\be10} chan{\r\be10}ge his image to that of a smiling person.
+Dialogue: 0,0:15:26.96,0:15:32.42,Flashback,Yukiko,0000,0000,0000,,{\be10\fad(0,500)}Since he's very charming when he smiles.
 Dialogue: 0,0:15:33.20,0:15:35.42,Dialogue,Takagi,0000,0000,0000,,"Change his image to that of a smiling person?"
 Dialogue: 0,0:15:35.56,0:15:39.47,Dialogue,Conan,0000,0000,0000,,Yeah, but that request just came out of the blue.
 Dialogue: 0,0:15:39.47,0:15:41.26,Dialogue,Conan,0000,0000,0000,,It's probably hard for Mizuhara{\rHonorifics - Dialogue}-san{\r} to accept it.
@@ -332,7 +319,7 @@ Dialogue: 0,0:15:42.22,0:15:45.52,Dialogue,Takagi,0000,0000,0000,,It's not only 
 Dialogue: 0,0:15:45.52,0:15:50.27,Dialogue,Takagi,0000,0000,0000,,It's hard to{\rHonorifics - Dialogue} chan{\r}ge your behavior like that so quickly.
 Dialogue: 0,0:15:51.15,0:15:52.11,Dialogue,Takagi,0000,0000,0000,,Could it be?
 Dialogue: 0,0:15:52.21,0:15:58.11,Dialogue,Conan,0000,0000,0000,,And she said that Okubo{\rHonorifics - Dialogue}-san{\r} really cares about Mizuhara{\rHonorifics - Dialogue}-san{\r}.
-Dialogue: 0,0:15:59.67,0:16:02.29,Flashback,Yukiko,0000,0000,0000,,{\be10}Okubo{\rHonorifics - Flashback}-san{\r} was really sick.
+Dialogue: 0,0:15:59.67,0:16:02.29,Flashback,Yukiko,0000,0000,0000,,{\be10}Okubo{\rHonorifics - Flashback\be10}-san{\r\be10} was really sick.
 Dialogue: 0,0:16:03.30,0:16:05.83,Flashback,Yukiko,0000,0000,0000,,{\be10}It was diagnosed that he only had 6 months left to live.
 Dialogue: 0,0:16:06.35,0:16:08.83,Flashback,Yukiko,0000,0000,0000,,{\be10}He should have been in the hospital.
 Dialogue: 0,0:16:08.92,0:16:11.28,Flashback,Yukiko,0000,0000,0000,,{\be10}But, no matter what, he wanted turn Mizuhara,
@@ -430,8 +417,8 @@ Dialogue: 0,0:21:37.38,0:21:38.19,Dialogue,Sakurada,0000,0000,0000,,Excuse me.
 Dialogue: 0,0:21:40.94,0:21:42.95,Dialogue,Hiroshi,0000,0000,0000,,Thank you very much,
 Dialogue: 0,0:21:42.95,0:21:44.04,Dialogue,Hiroshi,0000,0000,0000,,Takagi{\rHonorifics - Dialogue}-san{\r}!
 Dialogue: 0,0:21:44.48,0:21:45.88,Dialogue,Takagi,0000,0000,0000,,What a relief.
-Dialogue: 0,0:21:47.00,0:21:48.54,Thoughts,Conan,0000,0000,0000,,{\be10}You were great, {\alphaFF}Officer Takagi.
-Dialogue: 0,0:21:48.56,0:21:50.42,Thoughts,Conan,0000,0000,0000,,{\be10}You were great, Officer Takagi.
+Dialogue: 0,0:21:47.00,0:21:48.54,Thoughts,Conan,0000,0000,0000,,{\be10}You were great, Officer Takagi.
+Dialogue: 0,0:21:48.56,0:21:50.42,Thoughts,Conan,0000,0000,0000,,{\be10\fad(0,500)}You were great, Officer Takagi.
 Dialogue: 0,0:23:16.72,0:23:21.26,Dialogue,Hiroshi,0000,0000,0000,,But, when you said the smile and the "V" sign led to the culprit,
 Dialogue: 0,0:23:21.37,0:23:23.85,Dialogue,Hiroshi,0000,0000,0000,,I thought it was the end for me.
 Dialogue: 0,0:23:24.32,0:23:27.77,Dialogue,Takagi,0000,0000,0000,,It was an unreasonable explanation from the beginning.
@@ -439,4 +426,4 @@ Dialogue: 0,0:23:27.86,0:23:31.77,Dialogue,Conan,0000,0000,0000,,Yeah, I thought
 Dialogue: 0,0:23:31.77,0:23:34.48,Dialogue,Conan,0000,0000,0000,,the comedian called "Smiling Peace."
 Dialogue: 0,0:23:35.78,0:23:37.95,Dialogue,Conan,0000,0000,0000,,Not even the professional managers?
 Dialogue: 0,0:23:37.95,0:23:40.78,Dialogue,Conan,0000,0000,0000,,Am I really {\i1}that{\i0} unknown?
-Dialogue: 0,0:23:41.99,0:23:44.29,Thoughts,Takagi,0000,0000,0000,,{\be10}Continue to try your best, Hiromatsu{\rHonorifics - Thoughts}-kun{\r}!
+Dialogue: 0,0:23:41.99,0:23:44.29,Thoughts,Takagi,0000,0000,0000,,{\be10\fad(0,500)}Continue to try your best, Hiromatsu{\rHonorifics - Thoughts\be10}-kun{\r\be10}!

@@ -45,8 +45,8 @@ Style: RainMan,FOT-Seurat Pro,35,&HC0FE4D00,&H000000FF,&H00FFFFFF,&H80000000,-1,
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:05.90,0:00:09.15,Dialogue,,0000,0000,0000,,{\a6}Argh... They said it wasn't going to rain today!
-Dialogue: 0,0:00:11.24,0:00:13.31,Dialogue,,0000,0000,0000,,{\fad(0,500)\a6}‘Chain of Robberies Underway'
+Dialogue: 0,0:00:05.90,0:00:09.15,Dialogue Top,,0000,0000,0000,,Argh... They said it wasn't going to rain today!
+Dialogue: 0,0:00:11.24,0:00:13.31,Dialogue Top,,0000,0000,0000,,{\fad(0,500)}‘Chain of Robberies Underway'
 Dialogue: 0,0:00:30.80,0:00:32.26,Dialogue,,0000,0000,0000,,Ran-{\i1}neechan{\i0}!
 Dialogue: 0,0:00:33.38,0:00:35.09,Dialogue,,0000,0000,0000,,Conan{\rHonorifics - Dialogue}-kun{\r}! Dad!
 Dialogue: 0,0:00:35.62,0:00:38.18,Dialogue,,0000,0000,0000,,Oh, you came out to meet me! Thank you.
@@ -54,8 +54,7 @@ Dialogue: 0,0:00:38.18,0:00:40.81,Dialogue,,0000,0000,0000,,Geez! It's already p
 Dialogue: 0,0:00:40.81,0:00:43.85,Dialogue,,0000,0000,0000,,Sorry... My club ended up staying late...
 Dialogue: 0,0:00:43.85,0:00:44.98,Dialogue,,0000,0000,0000,,Here's an umbrella.
 Dialogue: 0,0:00:44.98,0:00:46.81,Dialogue,,0000,0000,0000,,Thanks, Conan{\rHonorifics - Dialogue}-kun{\r}.
-Comment: 0,0:00:46.81,0:00:48.27,Dialogue,,0000,0000,0000,,Hmph.
-Dialogue: 0,0:00:48.27,0:00:53.28,ButterflyCore,,0000,0000,0000,,{\blur4}{\fad(200,0)}kage o mau chō no kodō ga seijaku no umi o saite
+Dialogue: 0,0:00:48.27,0:00:53.28,ButterflyCore,,0000,0000,0000,,{\blur4\fad(200,0)}kage o mau chō no kodō ga seijaku no umi o saite
 Dialogue: 0,0:00:53.44,0:01:00.58,ButterflyCore,,0000,0000,0000,,{\blur4}kasanariau koe ga ima yami o furiharatta
 Dialogue: 0,0:00:48.27,0:00:53.28,ButterflyCore2,,0000,0000,0000,,{\fad(200,0)}kage o mau chō no kodō ga seijaku no umi o saite
 Dialogue: 0,0:00:53.44,0:01:00.58,ButterflyCore2,,0000,0000,0000,,kasanariau koe ga ima yami o furiharatta
@@ -74,7 +73,7 @@ Dialogue: 0,0:01:48.75,0:01:53.75,ButterflyCore,,0000,0000,0000,,{\blur4\c&HAA00
 Dialogue: 0,0:01:53.92,0:01:59.26,ButterflyCore,,0000,0000,0000,,{\blur4\c&H000077}kimi ni miseru itsuwari no subete ga uso ja nai daro
 Dialogue: 0,0:01:59.43,0:02:04.89,ButterflyCore,,0000,0000,0000,,{\blur4\c&HAA0000}mayo'u tabi suteta kotae mo kitto erabu hi wa mata kuru kara
 Dialogue: 0,0:02:05.06,0:02:13.98,ButterflyCore,,0000,0000,0000,,{\blur4\c&H006600}kono kokoro wa dare yori mo atsuku moyashi tsuzukeyō kienai yō ni
-Dialogue: 0,0:02:23.91,0:02:29.54,ButterflyCore,,0000,0000,0000,,{\blur4\c&H006600}{\fad(0,1000)}kienai yō ni
+Dialogue: 0,0:02:23.91,0:02:29.54,ButterflyCore,,0000,0000,0000,,{\blur4\c&H006600\fad(0,1000)}kienai yō ni
 Dialogue: 0,0:01:15.30,0:01:20.72,ButterflyCore2,,0000,0000,0000,,haritsuita ase o nugutte nigemawaru light o ketta
 Dialogue: 0,0:01:21.06,0:01:26.35,ButterflyCore2,,0000,0000,0000,,kanashimi ni utareta kyō no kizuato kabau yō ni
 Dialogue: 0,0:01:26.52,0:01:31.82,ButterflyCore2,,0000,0000,0000,,aseru hodo ni tōku natte wake mo naku imi o sagashite
@@ -86,16 +85,6 @@ Dialogue: 0,0:01:53.92,0:01:59.26,ButterflyCore2,,0000,0000,0000,,kimi ni miseru
 Dialogue: 0,0:01:59.43,0:02:04.89,ButterflyCore2,,0000,0000,0000,,mayo'u tabi suteta kotae mo kitto erabu hi wa mata kuru kara
 Dialogue: 0,0:02:05.06,0:02:13.98,ButterflyCore2,,0000,0000,0000,,{\3c&H006600}kono kokoro wa dare yori mo atsuku moyashi tsuzukeyō kienai yō ni
 Dialogue: 0,0:02:23.91,0:02:29.54,ButterflyCore2,,0000,0000,0000,,{\fad(0,1000)\3c&H006600}kienai yō ni
-Dialogue: 0,0:02:33.63,0:02:33.67,Signs,,0000,0000,0000,,TWO OVERLAPPING COINCIDENCES
-Dialogue: 0,0:02:33.67,0:02:33.71,Signs,,0000,0000,0000,,TWO OVERLAPPING COINCIDENCES
-Dialogue: 0,0:02:33.71,0:02:33.75,Signs,,0000,0000,0000,,TWO OVERLAPPING COINCIDENCES
-Dialogue: 0,0:02:33.75,0:02:33.79,Signs,,0000,0000,0000,,TWO OVERLAPPING COINCIDENCES
-Dialogue: 0,0:02:33.79,0:02:33.84,Signs,,0000,0000,0000,,TWO OVERLAPPING COINCIDENCES
-Dialogue: 0,0:02:33.84,0:02:33.88,Signs,,0000,0000,0000,,TWO OVERLAPPING COINCIDENCES
-Dialogue: 0,0:02:33.88,0:02:33.92,Signs,,0000,0000,0000,,TWO OVERLAPPING COINCIDENCES
-Dialogue: 0,0:02:33.92,0:02:33.96,Signs,,0000,0000,0000,,TWO OVERLAPPING COINCIDENCES
-Dialogue: 0,0:02:33.96,0:02:34.04,Signs,,0000,0000,0000,,TWO OVERLAPPING COINCIDENCES
-Dialogue: 0,0:02:34.04,0:02:39.63,Signs,,0000,0000,0000,,TWO OVERLAPPING COINCIDENCES
 Dialogue: 0,0:02:39.63,0:02:45.47,Dialogue,,0000,0000,0000,,Be careful though. There's some dangerous guy creeping around here lately.
 Dialogue: 0,0:02:45.47,0:02:48.02,Dialogue,,0000,0000,0000,,Oh, you mean the hooded robber?
 Dialogue: 0,0:02:48.43,0:02:49.73,Dialogue,,0000,0000,0000,,What was it...?
@@ -131,7 +120,6 @@ Dialogue: 0,0:04:23.74,0:04:25.41,Dialogue,,0000,0000,0000,,Miss! Are you okay?!
 Dialogue: 0,0:04:36.92,0:04:39.63,Dialogue,,0000,0000,0000,,Well, you've been a great help, Mouri{\rHonorifics - Dialogue}-kun{\r}!
 Dialogue: 0,0:04:40.21,0:04:42.88,Dialogue,,0000,0000,0000,,We didn't know what to do about the hoodman.
 Dialogue: 0,0:04:43.36,0:04:47.47,Dialogue,,0000,0000,0000,,Oh, it was nothing special, Inspector.
-Comment: 0,0:04:49.22,0:04:50.76,Dialogue,,0000,0000,0000,,Shhh!
 Dialogue: 0,0:04:50.76,0:04:52.79,Dialogue,,0000,0000,0000,,This is a hospital!
 Dialogue: 0,0:04:52.79,0:04:54.44,Dialogue,,0000,0000,0000,,Shush, I know that.
 Dialogue: 0,0:04:55.19,0:04:58.61,Dialogue,,0000,0000,0000,,Well then, feel free to call if you ever need anything, Inspector!
@@ -142,10 +130,10 @@ Dialogue: 0,0:05:07.11,0:05:07.78,Dialogue,,0000,0000,0000,,How was it?
 Dialogue: 0,0:05:08.37,0:05:09.70,Dialogue,,0000,0000,0000,,She'll be fine.
 Dialogue: 0,0:05:09.70,0:05:14.41,Dialogue,,0000,0000,0000,,Her CT scan and brainwaves show nothing wrong. The doctor said she could go home.
 Dialogue: 0,0:05:14.41,0:05:15.29,Dialogue,,0000,0000,0000,,That's great.
-Dialogue: 0,0:05:15.96,0:05:18.04,Dialogue,,0000,0000,0000,,{\a6}Thank you so much.
+Dialogue: 0,0:05:15.96,0:05:18.04,Dialogue Top,,0000,0000,0000,,Thank you so much.
 Dialogue: 0,0:05:15.50,0:05:21.55,Signs,,0000,0000,0000,,Mizuki Tachibana (25)\NVictim of the hoodman
-Dialogue: 0,0:05:18.04,0:05:19.96,Dialogue,,0000,0000,0000,,{\a6}It's all because of you.
-Dialogue: 0,0:05:19.96,0:05:23.05,Dialogue,,0000,0000,0000,,{\a6}Oh, right. I should call my roommate...
+Dialogue: 0,0:05:18.04,0:05:19.96,Dialogue Top,,0000,0000,0000,,It's all because of you.
+Dialogue: 0,0:05:19.96,0:05:23.05,Dialogue Top,,0000,0000,0000,,Oh, right. I should call my roommate...
 Dialogue: 0,0:05:23.05,0:05:24.92,Dialogue,,0000,0000,0000,,She must be worried about me.
 Dialogue: 0,0:05:24.92,0:05:28.47,Dialogue,,0000,0000,0000,,But I'm glad you got off with light injuries.
 Dialogue: 0,0:05:28.47,0:05:30.93,Dialogue,,0000,0000,0000,,A small relief hidden in misfortune, I guess.
@@ -214,12 +202,12 @@ Dialogue: 0,0:09:38.80,0:09:41.31,Dialogue,,0000,0000,0000,,And you'll give us b
 Dialogue: 0,0:09:41.31,0:09:42.64,Dialogue,,0000,0000,0000,,Our purses!
 Dialogue: 0,0:09:42.64,0:09:44.93,Dialogue,,0000,0000,0000,,I had my driver's license in there!
 Dialogue: 0,0:09:44.93,0:09:46.56,Dialogue,,0000,0000,0000,,Have you really been looking for them?!
-Dialogue: 0,0:09:46.56,0:09:47.89,Dialogue,,0000,0000,0000,,{\a6}We have been looking...
+Dialogue: 0,0:09:46.56,0:09:47.89,Dialogue Top,,0000,0000,0000,,We have been looking...
 Dialogue: 0,0:09:46.94,0:09:47.89,Dialogue,,0000,0000,0000,,Wait a sec!
 Dialogue: 0,0:09:48.38,0:09:51.32,Dialogue,,0000,0000,0000,,All of you ladies had your purses stolen?
 Dialogue: 0,0:09:51.32,0:09:52.40,Dialogue,,0000,0000,0000,,Yeah, that's right!
 Dialogue: 0,0:09:53.44,0:09:54.90,Thoughts,,0000,0000,0000,,{\be10}What does this mean?
-Dialogue: 0,0:09:54.90,0:10:01.20,Thoughts,,0000,0000,0000,,{\be10}The murdered Yōko{\rHonorifics - Thoughts}-san{\r} only had her money stolen, and her purse was left at the scene!
+Dialogue: 0,0:09:54.90,0:10:01.20,Thoughts,,0000,0000,0000,,{\be10}The murdered Yōko{\rHonorifics - Thoughts\be10}-san{\r\be10} only had her money stolen, and her purse was left at the scene!
 Dialogue: 0,0:10:02.78,0:10:05.66,Dialogue,,0000,0000,0000,,Well then, Takagi{\rHonorifics - Dialogue}-kun{\r}, I'll leave them with you.
 Dialogue: 0,0:10:05.66,0:10:08.00,Dialogue,,0000,0000,0000,,Right, I'll drive them back safely.
 Dialogue: 0,0:10:08.00,0:10:09.21,Dialogue,,0000,0000,0000,,Hold on, Detective Satō!
@@ -278,7 +266,6 @@ Dialogue: 0,0:13:14.64,0:13:16.69,Dialogue,,0000,0000,0000,,Really, thank you so
 Dialogue: 0,0:13:16.69,0:13:20.57,Dialogue,,0000,0000,0000,,Oh, and I know this is a tough time, but don't give up, okay?
 Dialogue: 0,0:13:21.27,0:13:24.11,Dialogue,,0000,0000,0000,,If you get lonely, call me anytime...
 Dialogue: 0,0:13:24.11,0:13:26.20,Dialogue,,0000,0000,0000,,I'll be right over!
-Comment: 0,0:13:26.03,0:13:27.45,Dialogue,,0000,0000,0000,,Oww-ow-ow-ow!
 Dialogue: 0,0:13:27.45,0:13:30.37,Dialogue,,0000,0000,0000,,Sorry about that, just ignore him.
 Dialogue: 0,0:13:31.87,0:13:33.87,Dialogue,,0000,0000,0000,,Well then, I should say goodbye.
 Dialogue: 0,0:13:38.54,0:13:39.38,Dialogue,,0000,0000,0000,,Dad?
@@ -377,13 +364,11 @@ Dialogue: 0,0:20:26.31,0:20:30.08,Dialogue,,0000,0000,0000,,You haven't had time
 Dialogue: 0,0:20:30.08,0:20:33.92,Dialogue,,0000,0000,0000,,Now, show us... Show us what's in your bag!
 Dialogue: 0,0:20:42.63,0:20:44.01,Dialogue,,0000,0000,0000,,Mizuki{\rHonorifics - Dialogue}-san{\r}...
 Dialogue: 0,0:20:46.97,0:20:47.97,Dialogue,,0000,0000,0000,,Yōko...
-Comment: 0,0:20:49.06,0:20:52.02,Signs,,0000,0000,0000,,child of the sun
-Dialogue: 0,0:20:49.06,0:20:52.02,Thoughts,,0000,0000,0000,,{\be10}yōko{\i0} = ‘child of the sun'
+Dialogue: 0,0:20:49.06,0:20:52.02,Thoughts,,0000,0000,0000,,{\be10\i1}yōko{\i0} = ‘child of the sun'
 Dialogue: 0,0:20:49.06,0:20:52.02,Dialogue,,0000,0000,0000,,She really was like the sun.
 Dialogue: 0,0:20:52.02,0:20:58.61,Dialogue,,0000,0000,0000,,So bright, so selfish, and everything had to revolve around her...
-Dialogue: 0,0:20:58.61,0:21:02.65,Thoughts,,0000,0000,0000,,{\be10}mizuki{\i0} = ‘beautiful moon'
+Dialogue: 0,0:20:58.61,0:21:02.65,Thoughts,,0000,0000,0000,,{\be10\i1}mizuki{\i0} = ‘beautiful moon'
 Dialogue: 0,0:20:58.61,0:21:02.65,Dialogue,,0000,0000,0000,,She was the sun, and I was just like the powerless moon...
-Comment: 0,0:20:58.61,0:21:02.65,Signs,,0000,0000,0000,,beautiful moon
 Dialogue: 0,0:21:03.74,0:21:08.78,Dialogue,,0000,0000,0000,,And that was Yōko's excuse to steal everything from me...
 Dialogue: 0,0:21:08.78,0:21:15.21,Dialogue,,0000,0000,0000,,She took my clothes, my money, and my boyfriend, all like it was the natural thing to do.
 Dialogue: 0,0:21:15.21,0:21:18.04,Dialogue,,0000,0000,0000,,But I still held back.
@@ -412,10 +397,8 @@ Dialogue: 0,0:23:38.09,0:23:41.81,Dialogue,,0000,0000,0000,,The collar's extende
 Dialogue: 0,0:23:42.60,0:23:46.69,Dialogue,,0000,0000,0000,,This is an off-shoulder, and that's the whole point of it!
 Dialogue: 0,0:23:50.36,0:23:51.49,Thoughts,,0000,0000,0000,,{\be10}Death by drowning, huh?
 Dialogue: 0,0:23:53.61,0:23:56.70,Dialogue,,0000,0000,0000,,I'm taking you into custody for murder!
-Dialogue: 0,0:23:58.20,0:24:04.21,Signs,,0000,0000,0000,,SUSPECT: MAKOTO KYŌGOKU?
-Dialogue: 0,0:23:58.20,0:24:04.21,Signs,,0000,0000,0000,,(PART I)
 Dialogue: 0,0:23:58.20,0:24:04.21,Dialogue,,0000,0000,0000,,On the next Conan: ‘Suspect: Makoto Kyōgoku? (Part I)'!
 Dialogue: 0,0:24:04.21,0:24:09.21,Dialogue,,0000,0000,0000,,Next Conan's Hint: Bowling Alley
-Dialogue: 0,0:24:09.74,0:24:10.80,Dialogue,,0000,0000,0000,,At a bowling alley...
-Dialogue: 0,0:24:10.80,0:24:12.34,Dialogue,,0000,0000,0000,,Karate vs. Jeet Kune Do!
-Dialogue: 0,0:24:12.34,0:24:14.18,Dialogue,,0000,0000,0000,,Why there?!
+Dialogue: 0,0:24:09.74,0:24:10.80,Dialogue Top,,0000,0000,0000,,At a bowling alley...
+Dialogue: 0,0:24:10.80,0:24:12.34,Dialogue Top,,0000,0000,0000,,Karate vs. Jeet Kune Do!
+Dialogue: 0,0:24:12.34,0:24:14.18,Dialogue Top,,0000,0000,0000,,Why there?!

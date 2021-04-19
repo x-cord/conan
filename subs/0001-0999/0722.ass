@@ -49,8 +49,8 @@ Style: AitakuteRomaji,AlaskanNightsM,52,&H60DB9572,&H000000FF,&H00FFFFFF,&HC02F2
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:05.43,0:00:07.27,Dialogue,,0,0,0,,{\a6}{（灰原）ここは通さないわよ！\N（コナン）フッと...。\N}I'm not letting it through!
-Dialogue: 0,0:00:09.78,0:00:11.03,Dialogue,,0,0,0,,{\a6}{（光彦）ヌカせません！\N}It won't get past me!
+Dialogue: 0,0:00:05.43,0:00:07.27,Dialogue Top,,0,0,0,,{（灰原）ここは通さないわよ！\N（コナン）フッと...。\N}I'm not letting it through!
+Dialogue: 0,0:00:09.78,0:00:11.03,Dialogue Top,,0,0,0,,{（光彦）ヌカせません！\N}It won't get past me!
 Dialogue: 0,0:00:13.24,0:00:14.69,Dialogue,,0,0,0,,{ウッと！\N（光彦）あっ...そんなぁ。\N}Oh, no...
 Dialogue: 0,0:00:14.69,0:00:15.32,Dialogue,,0,0,0,,{追って！\N}Go after it!
 Dialogue: 0,0:00:17.14,0:00:17.91,Dialogue,,0,0,0,,{（元太）よし来い！\N}Bring it on!
@@ -89,10 +89,10 @@ Dialogue: 0,0:01:43.14,0:01:45.07,Dialogue,,0,0,0,,Oh? That's Taii!
 Dialogue: 0,0:01:45.07,0:01:46.08,Dialogue,,0,0,0,,Taii?
 Dialogue: 0,0:01:46.95,0:01:49.42,Dialogue,,0,0,0,,You know that cat?
 Dialogue: 0,0:01:49.42,0:01:50.37,Dialogue,,0,0,0,,Yeah.
-Dialogue: 0,0:01:50.37,0:01:54.76,Dialogue,,0,0,0,,It's a stray cat who set up camp around the 5{\fs45}th{\fs} district, near the Mouri Detective Agency.
+Dialogue: 0,0:01:50.37,0:01:54.76,Dialogue,,0,0,0,,It's a stray cat who set up camp around the 5th district, near the Mouri Detective Agency.
 Dialogue: 0,0:01:54.76,0:02:01.09,Dialogue,,0,0,0,,It's attached to Azusa{\rHonorifics - Dialogue}-san{\r} at Café Poirot, and every evening, it goes there to beg for food.
 Dialogue: 0,0:02:01.09,0:02:04.12,Dialogue,,0,0,0,,And so, since it keeps coming to 'Poirot',
-Dialogue: 0,0:02:04.12,0:02:09.77,Signs,,0,0,0,,captain
+Dialogue: 0,0:02:04.12,0:02:09.77,Thoughts,,0,0,0,,{\be10}captain
 Dialogue: 0,0:02:04.12,0:02:09.77,Dialogue,,0,0,0,,the shop owner named it 'Taii', after Detective Poirot's friend Captain Hastings.
 Dialogue: 0,0:02:11.27,0:02:13.13,Dialogue,,0,0,0,,It's Tai{\rHonorifics - Dialogue}-chan{\r} then.
 Dialogue: 0,0:02:13.13,0:02:17.02,Dialogue,,0,0,0,,But is it really a stray? It's wearing a collar.
@@ -103,11 +103,11 @@ Dialogue: 0,0:02:33.60,0:02:37.13,Dialogue,,0,0,0,,But where's it going?
 Dialogue: 0,0:02:37.13,0:02:41.22,Dialogue,,0,0,0,,It'd be horrible if it jumped into the road and got run over by a car!
 Dialogue: 0,0:02:41.22,0:02:42.68,Dialogue,,0,0,0,,Let's chase it!
 Dialogue: 0,0:02:42.68,0:02:44.01,Dialogue,,0,0,0,,{急がないと...。\N}We've gotta hurry...
-Dialogue: 0,0:03:00.34,0:03:04.16,BCPrologue,,0,0,0,,{\blur3}{＜影の黒さと闇の濃さ\N切り裂いてくのが推理の光＞\N}Only the light of deductions can tear apart black shadows and deep darkness!
-Dialogue: 0,0:03:04.16,0:03:07.87,BCPrologue,,0,0,0,,{\blur3}{＜閉じ込められた探偵団。\N冷蔵車両で　びっくり事件＞\N}The Detective Boys shut away! A surprising case in a refrigerated truck!
-Dialogue: 0,0:03:07.87,0:03:09.54,BCPrologue,,0,0,0,,{\blur3}{＜たった１つの真実　見抜く\N見た目は子供　頭脳は大人＞\N}He sees the single truth for what it is,
+Dialogue: 0,0:03:00.34,0:03:04.16,BCPrologue,,0,0,0,,{\blur3＜影の黒さと闇の濃さ\N切り裂いてくのが推理の光＞\N}Only the light of deductions can tear apart black shadows and deep darkness!
+Dialogue: 0,0:03:04.16,0:03:07.87,BCPrologue,,0,0,0,,{\blur3＜閉じ込められた探偵団。\N冷蔵車両で　びっくり事件＞\N}The Detective Boys shut away! A surprising case in a refrigerated truck!
+Dialogue: 0,0:03:07.87,0:03:09.54,BCPrologue,,0,0,0,,{\blur3＜たった１つの真実　見抜く\N見た目は子供　頭脳は大人＞\N}He sees the single truth for what it is,
 Dialogue: 0,0:03:09.54,0:03:11.36,BCPrologue,,0,0,0,,{\blur3}and looks like a kid but has the mind of an adult!
-Dialogue: 0,0:03:11.36,0:03:13.92,BCPrologue,,0,0,0,,{\blur3}{＜その名は　名探偵コナン！＞\N}His name? Detective Conan!
+Dialogue: 0,0:03:11.36,0:03:13.92,BCPrologue,,0,0,0,,{\blur3＜その名は　名探偵コナン！＞\N}His name? Detective Conan!
 Dialogue: 0,0:04:38.90,0:04:41.96,Dialogue,,0,0,0,,Huh? Where'd it go?
 Dialogue: 0,0:04:41.96,0:04:43.39,Dialogue,,0,0,0,,I don't see it anywhere.
 Dialogue: 0,0:04:44.72,0:04:45.97,Dialogue,,0,0,0,,Ah, there it is!
@@ -297,7 +297,7 @@ Dialogue: 0,0:16:15.49,0:16:19.30,Dialogue,,0,0,0,,I see. It was an accidental d
 Dialogue: 0,0:16:20.21,0:16:22.67,Dialogue,,0,0,0,,Either way, we should tell Detective Takagi about this.
 Dialogue: 0,0:16:25.38,0:16:27.96,Dialogue,,0,0,0,,Ladies and gentlemen, we're about to take off.
 Dialogue: 0,0:16:28.68,0:16:36.69,Dialogue,,0,0,0,,We remind you to please turn off all electronic devices including mobile phones, laptops, and game consoles.
-Dialogue: 0,0:16:35.99,0:16:36.69,Dialogue,,0,0,0,,{\a6}Sorry.
+Dialogue: 0,0:16:35.99,0:16:36.69,Dialogue Top,,0,0,0,,Sorry.
 Dialogue: 0,0:16:38.14,0:16:43.30,Dialogue,,0,0,0,,I finished checking the map around the Kyōto Police HQ where we'll be picking up the suspect.
 Dialogue: 0,0:16:43.30,0:16:44.71,Dialogue,,0,0,0,,But how do I turn this thing off?
 Dialogue: 0,0:16:44.71,0:16:47.77,Dialogue,,0,0,0,,Oh, just hold down the power button!
@@ -307,7 +307,7 @@ Dialogue: 0,0:16:56.23,0:16:58.59,Dialogue,,0,0,0,,Yeah, ages ago.
 Dialogue: 0,0:17:01.07,0:17:08.51,Dialogue,,10,10,0,,The number you have dialled is outside the service area or the telephone may be switched off, so your call cannot be completed.
 Dialogue: 0,0:17:08.86,0:17:10.83,Dialogue,,0,0,0,,It's no use, it's not going through.
 Dialogue: 0,0:17:10.83,0:17:12.07,Dialogue,,0,0,0,,No way!
-Dialogue: 0,0:17:12.07,0:17:16.52,Dialogue,,0,0,0,,Oh well, there's no choice then.\N I'll call Dr. Agasa and tell him about this.
+Dialogue: 0,0:17:12.07,0:17:16.52,Dialogue,,0,0,0,,Oh well, there's no choice then.\NI'll call Dr. Agasa and tell him about this.
 Dialogue: 0,0:17:20.81,0:17:23.03,Dialogue,,0,0,0,,H-Hello, Agasa here.
 Dialogue: 0,0:17:23.03,0:17:26.65,Dialogue,,0,0,0,,Doc? It's me. Jot down what I'm about to tell you.
 Dialogue: 0,0:17:26.65,0:17:31.95,Dialogue,,0,0,0,,Oh, sorry. I'm kind of busy, hold on a bit.
@@ -362,8 +362,8 @@ Dialogue: 0,0:20:31.07,0:20:32.84,Dialogue,,0,0,0,,You don't know?
 Dialogue: 0,0:20:35.34,0:20:38.70,Thoughts,,0,0,0,,{\be10}Well, {\i1}you're{\i0} taking this pretty well.
 Dialogue: 0,0:20:38.70,0:20:43.05,Thoughts,,0,0,0,,{\be10}You're the one who got us into this mess in the first place, jumping into the cargo area.
 Dialogue: 0,0:20:47.30,0:20:48.98,Thoughts,,0,0,0,,{\be10}Come to think of it, this cat...
-Dialogue: 0,0:20:50.84,0:20:52.98,Thoughts,,0,0,0,,{\be10}{《あっ　そうか！その手が！！》\N}Aha! That paw...
-Dialogue: 0,0:20:54.09,0:20:57.20,Thoughts,,0,0,0,,{\be10}{《いや～　でもさすがにそれは...》\N}No, but as I expected, that...
+Dialogue: 0,0:20:50.84,0:20:52.98,Thoughts,,0,0,0,,{\be10《あっ　そうか！その手が！！》\N}Aha! That paw...
+Dialogue: 0,0:20:54.09,0:20:57.20,Thoughts,,0,0,0,,{\be10《いや～　でもさすがにそれは...》\N}No, but as I expected, that...
 Dialogue: 0,0:20:57.92,0:21:01.12,Dialogue,,0,0,0,,What? If you have something in your mind, spit it out!
 Dialogue: 0,0:21:02.48,0:21:03.47,Dialogue,,0,0,0,,Yeah.
 Dialogue: 0,0:21:04.19,0:21:07.37,Dialogue,,0,0,0,,The stop before the last one this home delivery truck made
@@ -384,13 +384,11 @@ Dialogue: 0,0:21:55.58,0:21:57.34,Dialogue,,0,0,0,,A code?
 Dialogue: 0,0:23:36.10,0:23:38.02,Dialogue,,0,0,0,,Big trouble in a refrigerated truck!
 Dialogue: 0,0:23:38.02,0:23:41.02,Dialogue,,0,0,0,,Who's the Detective Boys' code meant for?
 Dialogue: 0,0:23:41.02,0:23:45.54,Dialogue,,0,0,0,,Detective Conan: 'A Sweet and Cold Delivery Service (Part II)'!
-Dialogue: 0,0:23:46.99,0:23:49.96,Signs,,0,0,0,,A SWEET AND COLD DELIVERY SERVICE
-Dialogue: 0,0:23:46.99,0:23:49.96,Signs,,0,0,0,,(PART II)
 Dialogue: 0,0:23:45.54,0:23:48.52,Dialogue,,0,0,0,,Airing on Saturday, 21 December at 6 PM!
 Dialogue: 0,0:23:49.96,0:23:54.98,Dialogue,,0,0,0,,Next Conan's Hint: Christmas Cake!
-Dialogue: 0,0:23:54.98,0:23:56.92,Dialogue,,0,0,0,,{\a6}I'd be fine with some chocolates.
-Dialogue: 0,0:23:56.92,0:23:58.20,Dialogue,,0,0,0,,{\a6}You and cake don't go together, huh?
-Dialogue: 0,0:23:58.20,0:24:00.20,Dialogue,,0,0,0,,{\a6}Is that so surprising?
+Dialogue: 0,0:23:54.98,0:23:56.92,Dialogue Top,,0,0,0,,I'd be fine with some chocolates.
+Dialogue: 0,0:23:56.92,0:23:58.20,Dialogue Top,,0,0,0,,You and cake don't go together, huh?
+Dialogue: 0,0:23:58.20,0:24:00.20,Dialogue Top,,0,0,0,,Is that so surprising?
 Dialogue: 0,0:22:26.12,0:22:33.46,AitakuteRomaji,,0,0,0,,{\blur3}denwa ga naru tabi kono mune ga zawameku
 Dialogue: 0,0:22:33.79,0:22:40.80,AitakuteRomaji,,0,0,0,,{\blur3}demo kikoetekuru no wa kimi no koe ja nai
 Dialogue: 0,0:22:43.01,0:22:49.81,AitakuteRomaji,,0,0,0,,{\blur3}ima kimi wa doko ni iru no nani shite'ru no
@@ -399,9 +397,7 @@ Dialogue: 0,0:23:00.03,0:23:06.87,AitakuteRomaji,,0,0,0,,{\blur3}aitakute kimi n
 Dialogue: 0,0:23:07.37,0:23:15.83,AitakuteRomaji,,0,0,0,,{\blur3}ima mo kono mune wa kimi{\fsp-2\fs40}- {\fsp\fs}iro ni somaru (dakishimetakute)
 Dialogue: 0,0:23:16.00,0:23:23.01,AitakuteRomaji,,0,0,0,,{\blur3}setsunakute nido to aenai nara
 Dialogue: 0,0:23:23.34,0:23:31.31,AitakuteRomaji,,0,0,0,,{\fad(0,1000)\blur3}maichiru yuki shiroku kono kokoro somete
-Dialogue: 0,0:22:14.82,0:22:18.28,Signs,,0,0,0,,Ima aitakute...\N(I want to be with you...)
-Dialogue: 0,0:23:31.31,0:23:33.31,AitakuteRomaji,,0,0,0,,
-Dialogue: 0,0:02:46.98,0:02:52.02,ButterflyCore,,0,0,0,,{\blur4}{\fad(200,0)}kage o mau chō no kodō ga seijaku no umi o saite
+Dialogue: 0,0:02:46.98,0:02:52.02,ButterflyCore,,0,0,0,,{\blur4\fad(200,0)}kage o mau chō no kodō ga seijaku no umi o saite
 Dialogue: 0,0:02:52.19,0:02:59.32,ButterflyCore,,0,0,0,,{\blur4}kasanariau koe ga ima yami o furiharatta
 Dialogue: 0,0:03:13.92,0:03:19.34,ButterflyCore,,0,0,0,,{\blur4\c&H005500}haritsuita ase o nugutte nigemawaru light o ketta
 Dialogue: 0,0:03:19.67,0:03:25.01,ButterflyCore,,0,0,0,,{\blur4\c&H005500}kanashimi ni utareta kyō no kizuato kabau yō ni
@@ -413,7 +409,7 @@ Dialogue: 0,0:03:47.37,0:03:52.42,ButterflyCore,,0,0,0,,{\blur4\c&HAA0000}kage o
 Dialogue: 0,0:03:52.58,0:03:57.92,ButterflyCore,,0,0,0,,{\blur4\c&H000077}kimi ni miseru itsuwari no subete ga uso ja nai daro
 Dialogue: 0,0:03:58.09,0:04:03.55,ButterflyCore,,0,0,0,,{\blur4\c&HAA0000}mayo'u tabi suteta kotae mo kitto erabu hi wa mata kuru kara
 Dialogue: 0,0:04:03.72,0:04:12.64,ButterflyCore,,0,0,0,,{\blur4\c&H006600}kono kokoro wa dare yori mo atsuku moyashi tsuzukeyō kienai yō ni
-Dialogue: 0,0:04:22.57,0:04:28.16,ButterflyCore,,0,0,0,,{\blur4\c&H006600}{\fad(0,1000)}kienai yō ni
+Dialogue: 0,0:04:22.57,0:04:28.16,ButterflyCore,,0,0,0,,{\blur4\c&H006600\fad(0,1000)}kienai yō ni
 Dialogue: 0,0:02:46.98,0:02:52.02,ButterflyCore2,,0,0,0,,{\fad(200,0)}kage o mau chō no kodō ga seijaku no umi o saite
 Dialogue: 0,0:02:52.19,0:02:59.32,ButterflyCore2,,0,0,0,,kasanariau koe ga ima yami o furiharatta
 Dialogue: 0,0:03:13.92,0:03:19.34,ButterflyCore2,,0,0,0,,haritsuita ase o nugutte nigemawaru light o ketta
@@ -427,24 +423,3 @@ Dialogue: 0,0:03:52.58,0:03:57.92,ButterflyCore2,,0,0,0,,kimi ni miseru itsuwari
 Dialogue: 0,0:03:58.09,0:04:03.55,ButterflyCore2,,0,0,0,,mayo'u tabi suteta kotae mo kitto erabu hi wa mata kuru kara
 Dialogue: 0,0:04:03.72,0:04:12.64,ButterflyCore2,,0,0,0,,{\3c&H006600}kono kokoro wa dare yori mo atsuku moyashi tsuzukeyō kienai yō ni
 Dialogue: 0,0:04:22.57,0:04:28.16,ButterflyCore2,,0,0,0,,{\fad(0,1000)\3c&H006600}kienai yō ni
-Dialogue: 0,0:04:32.54,0:04:32.59,Signs,,0,0,0,,A SWEET AND COLD DELIVERY SERVICE
-Dialogue: 0,0:04:32.59,0:04:32.63,Signs,,0,0,0,,A SWEET AND COLD DELIVERY SERVICE
-Dialogue: 0,0:04:32.63,0:04:32.67,Signs,,0,0,0,,A SWEET AND COLD DELIVERY SERVICE
-Dialogue: 0,0:04:32.67,0:04:32.71,Signs,,0,0,0,,A SWEET AND COLD DELIVERY SERVICE
-Dialogue: 0,0:04:32.71,0:04:32.75,Signs,,0,0,0,,A SWEET AND COLD DELIVERY SERVICE
-Dialogue: 0,0:04:32.75,0:04:32.79,Signs,,0,0,0,,A SWEET AND COLD DELIVERY SERVICE
-Dialogue: 0,0:04:32.79,0:04:32.84,Signs,,0,0,0,,A SWEET AND COLD DELIVERY SERVICE
-Dialogue: 0,0:04:32.84,0:04:32.88,Signs,,0,0,0,,A SWEET AND COLD DELIVERY SERVICE
-Dialogue: 0,0:04:32.88,0:04:32.92,Signs,,0,0,0,,A SWEET AND COLD DELIVERY SERVICE
-Dialogue: 0,0:04:32.92,0:04:38.55,Signs,,0,0,0,,A SWEET AND COLD DELIVERY SERVICE
-Dialogue: 0,0:04:32.54,0:04:32.59,Signs,,0,0,0,,(PART I)
-Dialogue: 0,0:04:32.59,0:04:32.63,Signs,,0,0,0,,(PART I)
-Dialogue: 0,0:04:32.63,0:04:32.67,Signs,,0,0,0,,(PART I)
-Dialogue: 0,0:04:32.67,0:04:32.71,Signs,,0,0,0,,(PART I)
-Dialogue: 0,0:04:32.71,0:04:32.75,Signs,,0,0,0,,(PART I)
-Dialogue: 0,0:04:32.75,0:04:32.79,Signs,,0,0,0,,(PART I)
-Dialogue: 0,0:04:32.79,0:04:32.84,Signs,,0,0,0,,(PART I)
-Dialogue: 0,0:04:32.84,0:04:32.88,Signs,,0,0,0,,(PART I)
-Dialogue: 0,0:04:32.88,0:04:32.92,Signs,,0,0,0,,(PART I)
-Dialogue: 0,0:04:32.92,0:04:38.55,Signs,,0,0,0,,(PART I)
-Dialogue: 0,0:24:00.20,0:24:02.20,Dialogue,,0,0,0,,

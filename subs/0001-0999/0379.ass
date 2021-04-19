@@ -33,26 +33,18 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: TL Note,Galliard BT,20,&H00ECEAEA,&H0000FFFF,&H00740E07,&H004D262A,0,0,0,0,106,100,0.4,0,1,1.5,0.8,8,10,10,10,0
 Style: ED Karaoke (English),Formal436 BT,24,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,0.9,2,10,10,20,0
 Style: ED Karaoke (Romaji),Comic Sans MS,27,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1,0.9,8,10,10,10,0
 Style: ED Kara eng,Corbel,23,&H00FFFFFF,&H00FFFFFF,&H73686E6F,&H00000000,-1,0,0,0,100,110,0,0,1,7,0,2,10,10,15,0
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Comment: 0,0:00:00.00,0:00:00.00,Dialogue,,0000,0000,0000,,Conan 379 - Translated by aErO^
-Comment: 0,0:00:00.00,0:00:00.00,Dialogue,,0000,0000,0000,,v1.10 -{\rHonorifics - Dialogue} chan{\r}ged Bandou{\rHonorifics - Dialogue}-san{\r} to owner in the beginning. The rest are still the same.
-Comment: 0,0:00:00.00,0:00:00.00,Dialogue,C,0000,0000,0000,,-- OP --
-Comment: 0,0:00:00.00,0:00:00.00,Dialogue,M,0000,0000,0000,,------PART 2-------
-Comment: 0,0:00:00.00,0:00:00.00,Dialogue,C,0000,0000,0000,,------------------
-Comment: 0,0:00:00.00,0:00:00.00,Dialogue,C,0000,0000,0000,,Preview
-Comment: 0,0:24:30.33,0:24:31.97,Dialogue,C,0000,0000,0000,,------------------
 Dialogue: 0,0:00:21.64,0:00:23.33,Dialogue,C,0000,0000,0000,,Today's stage is an inn.
 Dialogue: 0,0:00:23.33,0:00:24.79,Dialogue,C,0000,0000,0000,,A hidden hot spring with a scary legend.
 Dialogue: 0,0:00:25.15,0:00:26.54,Dialogue,C,0000,0000,0000,,Leftover evidence reveals the hot spring's case!
-Dialogue: 0,0:00:26.96,0:00:28.38,Dialogue,C,0000,0000,0000,,{\\3a&H64&}Seeing through to the one and only truth,
-Dialogue: 0,0:00:28.42,0:00:30.18,Dialogue,C,0000,0000,0000,,{\\3a&H64&}I look like a child but have the intellect of an adult.
-Dialogue: 0,0:00:30.19,0:00:32.34,Dialogue,C,0000,0000,0000,,{\\3a&H64&}My name is Detective Conan!
+Dialogue: 0,0:00:26.96,0:00:28.38,Dialogue,C,0000,0000,0000,,{\}Seeing through to the one and only truth,
+Dialogue: 0,0:00:28.42,0:00:30.18,Dialogue,C,0000,0000,0000,,{\}I look like a child but have the intellect of an adult.
+Dialogue: 0,0:00:30.19,0:00:32.34,Dialogue,C,0000,0000,0000,,{\\fad(0,450)}My name is Detective Conan!
 Dialogue: 0,0:00:31.03,0:00:32.13,Signs,C,0000,0000,0000,,Detective Conan!
 Dialogue: 0,0:02:39.93,0:02:42.06,Dialogue,,0000,0000,0000,,Case of the Furisode at the Hidden Hot Spring,
 Dialogue: 0,0:02:42.34,0:02:42.96,Dialogue,,0000,0000,0000,,Part 1!
@@ -82,18 +74,18 @@ Dialogue: 0,0:04:07.30,0:04:12.54,Dialogue,B,0000,0000,0000,,I'm Nichiuri TV's p
 Dialogue: 0,0:04:13.27,0:04:14.85,Dialogue,M,0000,0000,0000,,Oh, really?
 Dialogue: 0,0:04:14.85,0:04:17.27,Dialogue,B,0000,0000,0000,,It's not very comfortable standing and talking here...
 Dialogue: 0,0:04:21.42,0:04:23.78,Dialogue,M,0000,0000,0000,,Eh... What are you doing all gathered over here?
-Dialogue: 0,0:04:23.78,0:04:27.87,Dialogue Top,B,0000,0000,0000,,{\be1}Actually, the editor of Daigakukan Publishing and I... {changed: removed "we also invited" to current}
-Dialogue: 0,0:04:27.87,0:04:34.96,Dialogue Top,B,0000,0000,0000,,are discussing scripts Akechi Eri{\rHonorifics - Dialogue}-sensei{\r} wrote for a new drama airing next spring.
+Dialogue: 0,0:04:23.78,0:04:27.87,Dialogue Top,B,0000,0000,0000,,Actually, the editor of Daigakukan Publishing and I... {changed: removed "we also invited" to current}
+Dialogue: 0,0:04:27.87,0:04:34.96,Dialogue Top,B,0000,0000,0000,,are discussing scripts Akechi Eri{\rHonorifics - Dialogue Top}-sensei{\r} wrote for a new drama airing next spring.
 Dialogue: 0,0:04:35.58,0:04:41.67,Dialogue,Y,0000,0000,0000,,The drama is about three teenage girls trying to achieve their dreams.
 Dialogue: 0,0:04:41.67,0:04:46.22,Dialogue,Y,0000,0000,0000,,Because of that, I'm interviewing young women who are active in each field.
 Dialogue: 0,0:04:47.09,0:04:53.98,Dialogue,B,0000,0000,0000,,Thus, we've invited three girls who graduated from Yoriko{\rHonorifics - Dialogue}-san{\r}'s alma mater, Oodou University.
-Dialogue: 0,0:04:54.48,0:04:58.94,Dialogue Top,B,0000,0000,0000,,{\be1}A fashion model active in Paris and New York, Shibazaki Asuka{\rHonorifics - Dialogue Top}-san{\r}.
+Dialogue: 0,0:04:54.48,0:04:58.94,Dialogue Top,B,0000,0000,0000,,A fashion model active in Paris and New York, Shibazaki Asuka{\rHonorifics - Dialogue Top}-san{\r}.
 Dialogue: 0,0:04:58.94,0:04:59.82,Dialogue,A,0000,0000,0000,,Hi there.
 Dialogue: 0,0:04:59.82,0:05:02.11,Dialogue,M,0000,0000,0000,,Whoa... Beautiful!
-Dialogue: 0,0:05:02.40,0:05:08.53,Dialogue Top,B,0000,0000,0000,,{\be1}Well, the next girl won the "Best Newcomer Award" in the Kyoto Art Show, oil painter Ansai Ema{\rHonorifics - Dialogue Top}-san{\r}.
+Dialogue: 0,0:05:02.40,0:05:08.53,Dialogue Top,B,0000,0000,0000,,Well, the next girl won the "Best Newcomer Award" in the Kyoto Art Show, oil painter Ansai Ema{\rHonorifics - Dialogue Top}-san{\r}.
 Dialogue: 0,0:05:08.53,0:05:09.74,Dialogue,E,0000,0000,0000,,Nice to meet you.
 Dialogue: 0,0:05:10.65,0:05:11.91,Dialogue,M,0000,0000,0000,,Charming!
-Dialogue: 0,0:05:11.91,0:05:15.04,Dialogue,B,0000,0000,0000,,Last but not least, is the music world's recent{\fscx300}-{\fscx100}
+Dialogue: 0,0:05:11.91,0:05:15.04,Dialogue,B,0000,0000,0000,,Last but not least, is the music world's recent-
 Dialogue: 0,0:05:15.04,0:05:18.83,Dialogue,R,0000,0000,0000,,You're the singer and songwriter, Fukatsu Harumi{\rHonorifics - Dialogue}-san{\r}, right? {changed: "Fugatsu" to "Fukatsu"}
 Dialogue: 0,0:05:18.84,0:05:20.50,Dialogue,R,0000,0000,0000,,I'm a big fan of yours.
 Dialogue: 0,0:05:22.50,0:05:23.71,Dialogue,H,0000,0000,0000,,Thank you...
@@ -111,7 +103,7 @@ Dialogue: 0,0:06:12.61,0:06:14.39,Dialogue,I,0000,0000,0000,,Please, call me Eri
 Dialogue: 0,0:06:14.39,0:06:17.77,Dialogue,R,0000,0000,0000,,But... My mother's name is also Eri. {changed: "Your name is pronounced the same way as my mother's" to current}
 Dialogue: 0,0:06:17.77,0:06:20.85,Dialogue,R,0000,0000,0000,,And it feels weird saying "Eri{\rHonorifics - Dialogue}-sensei{\r}." {changed: added "And"}
 Dialogue: 0,0:06:20.87,0:06:22.73,Dialogue,R,0000,0000,0000,,They're written differently, though.
-Dialogue: 0,0:06:22.73,0:06:26.53,Dialogue,I,0000,0000,0000,,{\fscx97}I know what you mean. When people call me "Akechi{\rHonorifics - Dialogue}-sensei{\r},"
+Dialogue: 0,0:06:22.73,0:06:26.53,Dialogue,I,0000,0000,0000,,I know what you mean. When people call me "Akechi{\rHonorifics - Dialogue}-sensei{\r},"
 Dialogue: 0,0:06:26.57,0:06:30.07,Dialogue,I,0000,0000,0000,,it sounds like a detective investigating, and it makes me feel embarrassed.
 Dialogue: 0,0:06:31.14,0:06:35.58,Dialogue,R,0000,0000,0000,,I heard that a god called Furisode{\rHonorifics - Dialogue}-sama{\r} is worshiped around here. {changed: "I heard that there's a god called Furisode{\rHonorifics - Dialogue}-sama{\r} nearby." to current}
 Dialogue: 0,0:06:35.89,0:06:37.45,Dialogue,I,0000,0000,0000,,Yeah... However,
@@ -148,7 +140,7 @@ Dialogue: 0,0:08:33.28,0:08:36.03,Dialogue,H,0000,0000,0000,,I just remembered t
 Dialogue: 0,0:08:38.57,0:08:40.27,Dialogue,C,0000,0000,0000,,Hey, hey, Ran-neechan?
 Dialogue: 0,0:08:40.27,0:08:42.20,Dialogue,C,0000,0000,0000,,What's that shrine for?
 Dialogue: 0,0:08:44.04,0:08:47.13,Dialogue,M,0000,0000,0000,,Now, look! You little brat, you can't keep running off somewhere all the time!
-Dialogue: 0,0:08:45.96,0:08:49.04,Dialogue,I,0000,0000,0000,,{\alpha&H40&\c&HD9D9D9&}That's the shrine to pay tribute to Furisode.
+Dialogue: 0,0:08:45.96,0:08:49.04,Dialogue,I,0000,0000,0000,,{\c&HD9D9D9&}That's the shrine to pay tribute to Furisode.
 Dialogue: 0,0:08:49.42,0:08:50.96,Thoughts,C,0000,0000,0000,,{\be10}Tribute to Furisode?
 Dialogue: 0,0:08:51.25,0:08:54.97,Dialogue,I,0000,0000,0000,,Furisode{\rHonorifics - Dialogue}-sama{\r} is also the god of vengeance.
 Dialogue: 0,0:08:54.99,0:08:55.97,Dialogue,M,0000,0000,0000,,V-Vengeance?!
@@ -201,7 +193,7 @@ Dialogue: 0,0:11:32.80,0:11:34.38,Thoughts,C,0000,0000,0000,,{\be10}How could th
 Dialogue: 0,0:11:34.83,0:11:37.75,Dialogue,M,0000,0000,0000,,Ran{\rHonorifics - Dialogue}-chan{\r}. Get me another bottle.
 Dialogue: 0,0:11:39.46,0:11:43.46,Dialogue,M,0000,0000,0000,,Just one. Just one bottle's enough.
 Dialogue: 0,0:11:43.46,0:11:47.81,Dialogue,M,0000,0000,0000,,Then I won't drink anymore, Ran{\rHonorifics - Dialogue}-chan{\r}!
-Dialogue: 0,0:11:47.81,0:11:48.64,Dialogue,R,0000,0000,0000,,No {\alpha&HFF&}way.
+Dialogue: 0,0:11:47.81,0:11:48.64,Dialogue,R,0000,0000,0000,,No way.
 Dialogue: 0,0:11:48.64,0:11:49.31,Dialogue,R,0000,0000,0000,,No way.
 Dialogue: 0,0:11:53.04,0:11:54.91,Dialogue,R,0000,0000,0000,,Come on. Conan{\rHonorifics - Dialogue}-kun{\r}, you're tricky.
 Dialogue: 0,0:11:54.91,0:11:57.40,Dialogue,H,0000,0000,0000,,Hey, is now a good time?
@@ -301,13 +293,13 @@ Dialogue: 0,0:17:38.71,0:17:40.17,Dialogue,Y,0000,0000,0000,,Wh-What was that?!
 Dialogue: 0,0:17:40.17,0:17:41.16,Dialogue,I,0000,0000,0000,,No way!
 Dialogue: 0,0:17:41.74,0:17:42.37,Dialogue,C,0000,0000,0000,,Where's Ema{\rHonorifics - Dialogue}-san{\r}?
 Dialogue: 0,0:17:42.95,0:17:46.25,Dialogue,Y,0000,0000,0000,,If I remember correctly, she went that way about an hour ago.
-Dialogue: 0,0:17:55.00,0:17:56.72,Thoughts,C,0000,0000,0000,,{\be10}Footprints from Ema{\rHonorifics - Thoughts}-san{\r}'s boots...
+Dialogue: 0,0:17:55.00,0:17:56.72,Thoughts,C,0000,0000,0000,,{\be10}Footprints from Ema{\rHonorifics - Thoughts\be10}-san{\r\be10}'s boots...
 Dialogue: 0,0:18:00.30,0:18:02.22,Dialogue,M,0000,0000,0000,,Did she run over that way?!
 Dialogue: 0,0:18:02.22,0:18:04.35,Dialogue,C,0000,0000,0000,,Uncle, be careful not to step on these tracks.
 Dialogue: 0,0:18:04.35,0:18:08.06,Dialogue,M,0000,0000,0000,,Of course! What do you think I am, an amateur or something? {Yes...}
 Dialogue: 0,0:18:23.83,0:18:26.33,Thoughts,C,0000,0000,0000,,{\be10}Just as I thought, is this Furisode-Hannya?
 Dialogue: 0,0:18:26.33,0:18:29.04,Dialogue,M,0000,0000,0000,,It's the same situation here. Her chest was stabbed.
-Dialogue: 0,0:18:29.75,0:18:33.04,Thoughts,C,0000,0000,0000,,{\be10}There are only Ema{\rHonorifics - Thoughts}-san{\r}'s footprints outside.
+Dialogue: 0,0:18:29.75,0:18:33.04,Thoughts,C,0000,0000,0000,,{\be10}There are only Ema{\rHonorifics - Thoughts\be10}-san{\r\be10}'s footprints outside.
 Dialogue: 0,0:18:33.80,0:18:37.55,Thoughts,C,0000,0000,0000,,{\be10}This means that this is a secret room which was concealed by the heavy snowfall.
 Dialogue: 0,0:18:38.18,0:18:40.05,Dialogue,P,0000,0000,0000,,Excuse me.
 Dialogue: 0,0:18:40.47,0:18:43.35,Dialogue,P,0000,0000,0000,,I was sent to help Detective Mouri{\rHonorifics - Dialogue}-san{\r}.
@@ -378,16 +370,16 @@ Dialogue: 0,0:22:11.92,0:22:16.56,Dialogue,H,0000,0000,0000,,There were two new 
 Dialogue: 0,0:22:17.44,0:22:21.07,Dialogue,H,0000,0000,0000,,Asuka and Ema were killed by Furisode-Hannya's curse!
 Dialogue: 0,0:22:21.07,0:22:23.40,Dialogue,R,0000,0000,0000,,H-How could this happen?
 Dialogue: 0,0:22:23.70,0:22:27.28,Thoughts,C,0000,0000,0000,,{\be10}That kind of curse definitely doesn't exist.
-Dialogue: 0,0:22:28.03,0:22:32.33,Thoughts,C,0000,0000,0000,,{\be10}{\fad(0,700)}However, what kind of trick did the culprit use?
+Dialogue: 0,0:22:28.03,0:22:32.33,Thoughts,C,0000,0000,0000,,{\be10\fad(0,700)}However, what kind of trick did the culprit use?
 Dialogue: 0,0:24:00.41,0:24:01.83,Dialogue,C,0000,0000,0000,,They visited Furisode!
 Dialogue: 0,0:24:01.83,0:24:05.71,Dialogue,C,0000,0000,0000,,Sakurako{\rHonorifics - Dialogue}-san{\r} visited Furisode and wanted revenge on those two people!
 Dialogue: 0,0:24:07.50,0:24:09.17,Thoughts,C,0000,0000,0000,,{\be10}So, that's how it is...
 Dialogue: 0,0:24:10.38,0:24:14.60,Dialogue,C,0000,0000,0000,,Exactly. That's why... That's why Senpai...
 Dialogue: 0,0:24:16.58,0:24:20.63,Dialogue,C,0000,0000,0000,,Wait! Why are your socks all wet?
 Dialogue: 0,0:24:20.72,0:24:24.02,Dialogue,C,0000,0000,0000,,Hold on. Ran-neechan, wait!
-Dialogue: 0,0:24:24.60,0:24:29.40,Dialogue,,0000,0000,0000,,{\fscx90.5}Next Conan: Case of the Furisode at the Hidden Hot Spring, Part 2!
+Dialogue: 0,0:24:24.60,0:24:29.40,Dialogue,,0000,0000,0000,,Next Conan: Case of the Furisode at the Hidden Hot Spring, Part 2!
 Dialogue: 0,0:24:31.05,0:24:33.52,Dialogue,C,0000,0000,0000,,Next Conan's Hint!
 Dialogue: 0,0:24:33.52,0:24:34.37,Dialogue,C,0000,0000,0000,,Obi.
-Dialogue: 0,0:24:35.32,0:24:36.87,Dialogue Top,C,0000,0000,0000,,{\be1}Do you have an obi, Ran-neechan?
+Dialogue: 0,0:24:35.32,0:24:36.87,Dialogue Top,C,0000,0000,0000,,Do you have an obi, Ran-neechan?
 Dialogue: 0,0:24:36.87,0:24:38.32,Dialogue Top,C,0000,0000,0000,,I have a black belt in karate.
-Dialogue: 0,0:24:38.32,0:24:40.04,Dialogue Top,C,0000,0000,0000,,{\be1}That's not quite the same...
+Dialogue: 0,0:24:38.32,0:24:40.04,Dialogue Top,C,0000,0000,0000,,That's not quite the same...

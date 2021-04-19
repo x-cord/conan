@@ -61,7 +61,6 @@ Style: Poodles,MV Boli M,70,&H400102B5,&H000809FC,&H00CFF2F3,&H80000000,0,0,0,0,
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Comment: 0,0:00:03.52,0:00:05.48,Dialogue,,0,0,0,,Whaaaaaat!
 Dialogue: 0,0:00:06.48,0:00:09.15,Dialogue,,0,0,0,,I can't believe it's gone.
 Dialogue: 0,0:00:09.15,0:00:11.28,Dialogue,,0,0,0,,They're building a block of flats instead.
 Dialogue: 0,0:00:11.28,0:00:14.03,Dialogue,,0,0,0,,It was such a great restaurant too.
@@ -96,15 +95,15 @@ Dialogue: 0,0:01:26.98,0:01:30.27,Dialogue,,0,0,0,,He was just at the smoking ar
 Dialogue: 0,0:01:30.86,0:01:31.27,Dialogue,,0,0,0,,Damn!
 Dialogue: 0,0:01:31.86,0:01:33.61,Dialogue,,0,0,0,,Murase{\rHonorifics - Dialogue}-san{\r}, quick, help us!
 Dialogue: 0,0:01:33.61,0:01:34.15,Dialogue,,0,0,0,,A-Ah, right!
-Dialogue: 0,0:01:49.13,0:01:52.92,Narration Off,,0,0,0,,{\be10}Seeking comprehensive answers, he clears all mysteries and codes!
-Dialogue: 0,0:01:52.92,0:01:56.55,Narration Off,,0,0,0,,{\be10}A crash resounds at a building site! And there's a terrible trick behind it!
-Dialogue: 0,0:01:56.55,0:01:58.09,Narration Off,,0,0,0,,{\be10}He sees the single truth for what it is,
-Dialogue: 0,0:01:58.09,0:02:00.18,Narration Off,,0,0,0,,{\be10}and looks like a kid but has the mind of an adult!
-Dialogue: 0,0:02:00.18,0:02:02.56,Narration Off,,0,0,0,,{\be10}His name? Detective Conan!
+Dialogue: 0,0:01:49.13,0:01:52.92,Narration Off,,0,0,0,,{\be10\c&HAAAA00\t(0,3800,\c)}Seeking comprehensive answers, he clears all mysteries and codes!
+Dialogue: 0,0:01:52.92,0:01:56.55,Narration Off,,0,0,0,,{\be10\t(0,1880,\c&H88AA00)}A crash resounds at a building site! And there's a terrible trick behind it!
+Dialogue: 0,0:01:56.55,0:01:58.09,Narration Off,,0,0,0,,{\be10\c&H88AA00)\t(0,1550,\c)}He sees the single truth for what it is,
+Dialogue: 0,0:01:58.09,0:02:00.18,Narration Off,,0,0,0,,{\be10\t(0,2090,\c&HAA00AA)}and looks like a kid but has the mind of an adult!
+Dialogue: 0,0:02:00.18,0:02:02.56,Narration Off,,0,0,0,,{\be10\c&HAA00AA\t(0,1600,\c&H0000FF)\fad(0,500)}His name? Detective Conan!
 Dialogue: 0,0:03:49.72,0:03:51.56,Dialogue,,0,0,0,,Okay, bring me up to date.
 Dialogue: 0,0:03:51.85,0:03:53.10,Dialogue,,0,0,0,,Right!
 Dialogue: 0,0:03:53.10,0:03:58.82,Dialogue,,0,0,0,,At about noon, metal pipes for scaffolding at this construction site collapsed.
-Dialogue: 0,0:03:59.57,0:04:04.07,Dialogue,,0,0,0,,The victim is Yūji Inomata{\rHonorifics - Dialogue}-san{\r}, 56.\N He was apparently the owner of the site.
+Dialogue: 0,0:03:59.57,0:04:04.07,Dialogue,,0,0,0,,The victim is Yūji Inomata{\rHonorifics - Dialogue}-san{\r}, 56.\NHe was apparently the owner of the site.
 Dialogue: 0,0:04:05.03,0:04:11.20,Dialogue,,0,0,0,,The cause of death was injuries from being crushed by the pipes, and he seems to have died instantly.
 Dialogue: 0,0:04:11.70,0:04:17.21,Dialogue,,0,0,0,,Inspector, there are marks suggesting the bands securing the pipes were deliberately cut.
 Dialogue: 0,0:04:18.00,0:04:21.96,Dialogue,,0,0,0,,We should consider this to be murder, not an accident.
@@ -117,11 +116,11 @@ Dialogue: 0,0:04:41.19,0:04:47.11,Dialogue,,0,0,0,,Inomata{\rHonorifics - Dialog
 Dialogue: 0,0:04:47.70,0:04:50.83,Dialogue,,0,0,0,,These are the people who were here when the accident occured.
 Dialogue: 0,0:04:50.83,0:04:52.66,Dialogue,,0,0,0,,They all worked on the site.
 Dialogue: 0,0:04:52.87,0:04:57.42,Signs,,0,0,0,,Masao Kaneda (27)\NInomata's Driver
-Dialogue: 0,0:04:53.41,0:04:57.42,Dialogue,,0,0,0,,{\a6}The victim's driver, Masao Kaneda{\rHonorifics - Dialogue}-san{\r}.{Inomata's Driver}
+Dialogue: 0,0:04:53.41,0:04:57.42,Dialogue Top,,0,0,0,,The victim's driver, Masao Kaneda{\rHonorifics - Dialogue}-san{\r}.{Inomata's Driver}
 Dialogue: 0,0:04:57.62,0:05:02.17,Signs,,0,0,0,,Tsuyoshi Nojima (36)\NBuilding Foreman
-Dialogue: 0,0:04:57.79,0:05:02.17,Dialogue,,0,0,0,,{\a6}Beside him is the foreman for this building site, Tsuyoshi Nojima{\rHonorifics - Dialogue}-san{\r}.{Site Foreman}
+Dialogue: 0,0:04:57.79,0:05:02.17,Dialogue Top,,0,0,0,,Beside him is the foreman for this building site, Tsuyoshi Nojima{\rHonorifics - Dialogue}-san{\r}.{Site Foreman}
 Dialogue: 0,0:05:02.42,0:05:07.43,Signs,,0,0,0,,Naoki Murase (48)\NArchitect
-Dialogue: 0,0:05:02.59,0:05:07.43,Dialogue,,0,0,0,,{\a6}And finally, the architect Naoki Murase{\rHonorifics - Dialogue}-san{\r}.\N He was in charge of the design.{Architect}
+Dialogue: 0,0:05:02.59,0:05:07.43,Dialogue Top,,0,0,0,,And finally, the architect Naoki Murase{\rHonorifics - Dialogue}-san{\r}.\NHe was in charge of the design.{Architect}
 Dialogue: 0,0:05:08.05,0:05:11.56,Dialogue,,0,0,0,,Would you mind telling me what you were each doing just before the accident?
 Dialogue: 0,0:05:12.06,0:05:20.69,Dialogue,,0,0,0,,Let's see... Inomata{\rHonorifics - Dialogue}-san{\r} told me to go get coffee for a visitor, so I went to buy some at the vending machine behind the site.
 Dialogue: 0,0:05:21.32,0:05:25.11,Dialogue,,0,0,0,,And when I got back, the pipes had collapsed.
@@ -142,7 +141,6 @@ Dialogue: 0,0:06:12.87,0:06:14.91,Dialogue,,0,0,0,,Was this an accident?
 Dialogue: 0,0:06:14.91,0:06:16.58,Dialogue,,0,0,0,,Or...
 Dialogue: 0,0:06:16.58,0:06:20.58,Dialogue,,0,0,0,,We are also investigating the possibility that it was murder.
 Dialogue: 0,0:06:23.54,0:06:28.47,Dialogue,,0,0,0,,Well, Kaneda{\rHonorifics - Dialogue}-san{\r} was in debt to Inomata{\rHonorifics - Dialogue}-san{\r}.
-Dialogue: 0,0:06:29.34,0:06:30.47,Dialogue,,0,0,0,,{んっ...ああ！？}
 Dialogue: 0,0:06:30.47,0:06:37.56,Dialogue,,0,0,0,,I heard him say that if Inomata were to vanish, then so would his debt.
 Dialogue: 0,0:06:37.56,0:06:38.85,Dialogue,,0,0,0,,Hey! Hold on a sec!
 Dialogue: 0,0:06:39.56,0:06:41.90,Dialogue,,0,0,0,,I may have said that, but well...
@@ -232,7 +230,7 @@ Dialogue: 0,0:12:08.64,0:12:09.10,Dialogue,,0,0,0,,Sure!
 Dialogue: 0,0:12:09.64,0:12:11.14,Dialogue,,0,0,0,,Then let's head back.
 Dialogue: 0,0:12:12.31,0:12:13.62,Dialogue,,0,0,0,,Oh, hey, Conan{\rHonorifics - Dialogue}-kun{\r}!
 Dialogue: 0,0:12:14.35,0:12:16.44,Dialogue,,0,0,0,,You'll fall down again!
-Dialogue: 0,0:12:18.15,0:12:19.69,Dialogue,,0,0,0,,'Electrical Room'
+Dialogue: 0,0:12:18.15,0:12:19.69,Dialogue Top,,0,0,0,,{\fad(0,500)}'Electrical Room'
 Dialogue: 0,0:12:38.84,0:12:40.05,Dialogue,,0,0,0,,That's...
 Dialogue: 0,0:12:40.63,0:12:42.96,Dialogue,,0,0,0,,Conan{\rHonorifics - Dialogue}-kun{\r}, what happened?
 Dialogue: 0,0:12:43.76,0:12:44.80,Dialogue,,0,0,0,,Conan{\rHonorifics - Dialogue}-kun{\r}?
@@ -388,22 +386,18 @@ Dialogue: 0,0:23:51.81,0:23:53.02,Dialogue,,0,0,0,,Murder.
 Dialogue: 0,0:23:53.80,0:23:57.36,Dialogue,,0,0,0,,No matter which way you look at it.
 Dialogue: 0,0:23:58.89,0:24:03.74,Dialogue,,0,0,0,,Then let's go and see what those three have to say once more...
 Dialogue: 0,0:24:04.77,0:24:09.41,Dialogue,,0,0,0,,I doubt they ever thought they'd be suspects so quickly...
-Dialogue: 0,0:24:09.41,0:24:15.50,Signs,,0,0,0,,(PART I)
-Dialogue: 0,0:24:09.41,0:24:15.50,Signs,,0,0,0,,EVERYBODY WITNESSED IT
 Dialogue: 0,0:24:09.41,0:24:15.50,Dialogue,,0,0,0,,On the next Conan: 'Everybody Witnessed It (Part I)'!
 Dialogue: 0,0:24:15.50,0:24:20.42,Dialogue,,0,0,0,,Next Conan's Hint: Cleaning Robot!
-Dialogue: 0,0:24:20.66,0:24:22.90,Dialogue,,0,0,0,,{\a6}What connects big appetites, sports and falling leaves?
-Dialogue: 0,0:24:22.90,0:24:23.82,Dialogue,,0,0,0,,{\a6}Beer!
-Dialogue: 0,0:24:23.82,0:24:26.18,Dialogue,,0,0,0,,{\a6}Isn't it autumn?
-Dialogue: 0,0:24:24.18,0:24:26.18,Dialogue,,0,0,0,,
-Dialogue: 0,0:21:56.61,0:22:01.87,Signs,,0,0,0,,Kimi no Egao ga Nani Yori mo Suki Datta\N(I loved your smile more than anything else)
+Dialogue: 0,0:24:20.66,0:24:22.90,Dialogue Top,,0,0,0,,What connects big appetites, sports and falling leaves?
+Dialogue: 0,0:24:22.90,0:24:23.82,Dialogue Top,,0,0,0,,Beer!
+Dialogue: 0,0:24:23.82,0:24:26.18,Dialogue Top,,0,0,0,,Isn't it autumn?
 Dialogue: 0,0:21:56.82,0:22:01.99,Poodles,,0,0,0,,{\fax0.25\blur2.5\3c&HFFFFFF}kimi no egao ga nani yori mo suki datta
 Dialogue: 0,0:22:02.33,0:22:05.46,Poodles,,0,0,0,,{\fax0.25\blur2.5\3c&HFFFFFF}onaji koto de waraiatta ne
 Dialogue: 0,0:22:05.79,0:22:13.88,Poodles,,0,0,0,,{\fax0.25\blur2.5\3c&HFFFFFF}futoshita shunkan ni iron'na kimi o omoidasu
 Dialogue: 0,0:22:15.72,0:22:21.93,Poodles,,0,0,0,,{\fax0.25\blur2.5\3c&HF2F2F3&\c&H880088}'boku ga genjitsuteki sugita' to ima ni natte kuyande'ru
 Dialogue: 0,0:22:23.43,0:22:30.02,Poodles,,0,0,0,,{\fax0.25\blur2.5\3c&HF2F2F3&\c&H880088}'kimi to no yume no tame ni' motto ikiru beki datta
 Dialogue: 0,0:22:31.07,0:22:34.32,Poodles,,0,0,0,,{\fax0.25\blur2.5\c&H008800\3c&HF2F2F3}kimi no inai akimatsuri
-Dialogue: 0,0:22:34.49,0:22:39.78,Poodles,,0,0,0,,{\fax0.25\blur2.5}{\3c&HF2F2F3&\c&H880000\t(4470,5220,\c&H0\3c&H0\4c&H0)}ima no boku wa younger than yesterday
+Dialogue: 0,0:22:34.49,0:22:39.78,Poodles,,0,0,0,,{\fax0.25\blur2.5\3c&HF2F2F3&\c&H880000\t(4470,5220,\c&H0\3c&H0\4c&H0)}ima no boku wa younger than yesterday
 Dialogue: 0,0:22:40.53,0:22:45.62,Poodles,,0,0,0,,{\fax0.25\blur2.5\3c&HF2F2F3&}hanabira ga mau yō ni kimi wa waratta ne
 Dialogue: 0,0:22:45.95,0:22:48.58,Poodles,,0,0,0,,{\fax0.25\blur2.5\3c&HF2F2F3&\c&H008800}motto warawasetakatta
 Dialogue: 0,0:22:48.92,0:22:55.63,Poodles,,0,0,0,,{\fax0.25\blur2.5\3c&HF2F2F3&\c&H008800}hareteiru no ni tsumetai ame ga futteiru
@@ -411,13 +405,3 @@ Dialogue: 0,0:22:55.80,0:23:01.35,Poodles,,0,0,0,,{\fax0.25\blur2.5\3c&HF2F2F3&\
 Dialogue: 0,0:23:01.68,0:23:04.64,Poodles,,0,0,0,,{\fax0.25\blur2.5\3c&HF2F2F3&\c&H008800}min'na hitori ja ikirenai
 Dialogue: 0,0:23:04.81,0:23:08.44,Poodles,,0,0,0,,{\fax0.25\blur2.5\3c&HF2F2F3&\c&H008800}kimi no kaeru basho de
 Dialogue: 0,0:23:08.77,0:23:13.61,Poodles,,0,0,0,,{\fax0.25\blur2.5\3c&HF2F2F3&\c&H008800}boku wa zutto aritsuzuketai
-Dialogue: 0,0:03:43.05,0:03:43.09,Signs,,0,0,0,,THE CASE OF THE UNCONFIRMED CRASH
-Dialogue: 0,0:03:43.09,0:03:43.13,Signs,,0,0,0,,THE CASE OF THE UNCONFIRMED CRASH
-Dialogue: 0,0:03:43.13,0:03:43.18,Signs,,0,0,0,,THE CASE OF THE UNCONFIRMED CRASH
-Dialogue: 0,0:03:43.18,0:03:43.22,Signs,,0,0,0,,THE CASE OF THE UNCONFIRMED CRASH
-Dialogue: 0,0:03:43.22,0:03:43.26,Signs,,0,0,0,,THE CASE OF THE UNCONFIRMED CRASH
-Dialogue: 0,0:03:43.26,0:03:43.30,Signs,,0,0,0,,THE CASE OF THE UNCONFIRMED CRASH
-Dialogue: 0,0:03:43.30,0:03:43.34,Signs,,0,0,0,,THE CASE OF THE UNCONFIRMED CRASH
-Dialogue: 0,0:03:43.34,0:03:43.38,Signs,,0,0,0,,THE CASE OF THE UNCONFIRMED CRASH
-Dialogue: 0,0:03:43.38,0:03:43.43,Signs,,0,0,0,,THE CASE OF THE UNCONFIRMED CRASH
-Dialogue: 0,0:03:43.43,0:03:49.06,Signs,,0,0,0,,THE CASE OF THE UNCONFIRMED CRASH

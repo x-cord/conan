@@ -51,8 +51,8 @@ Style: AitakuteRomaji,AlaskanNightsM,52,&H60DB9572,&H000000FF,&H00FFFFFF,&HC02F2
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:05.67,0:00:08.81,Dialogue,,0,0,0,,{\a6}Happy New Year!
-Dialogue: 0,0:00:08.81,0:00:15.89,Dialogue,,0,0,0,,{\a6}You may have been worried about me, but with the new year, I've got my old body back,
+Dialogue: 0,0:00:05.67,0:00:08.81,Dialogue Top,,0,0,0,,Happy New Year!
+Dialogue: 0,0:00:08.81,0:00:15.89,Dialogue Top,,0,0,0,,You may have been worried about me, but with the new year, I've got my old body back,
 Dialogue: 0,0:00:15.89,0:00:21.63,Dialogue,,0,0,0,,so from now on, I, high school detective Shin'ichi Kudō, will solve any case in a flash—
 Dialogue: 0,0:00:22.88,0:00:24.36,Dialogue,,0,0,0,,What're you doing?
 Dialogue: 0,0:00:26.43,0:00:29.07,Dialogue,,0,0,0,,I'm Shin'ichi Kudō, a high school detective.
@@ -86,16 +86,15 @@ Dialogue: 0,0:00:56.96,0:01:00.79,Dialogue,,0,0,0,,Happy New Year!
 Dialogue: 0,0:01:01.42,0:01:05.92,Dialogue,,0,0,0,,Thanks to all of you, the TV show and the movie were very popular last year!
 Dialogue: 0,0:01:06.25,0:01:13.42,Dialogue,,0,0,0,,It was a packed year, as we even had a collaboration movie together with that thieving old man!
 Dialogue: 0,0:01:13.73,0:01:15.43,Dialogue,,0,0,0,,And as for the year to come...
-Comment: 0,0:01:16.55,0:01:22.43,Signs,detective,0,0,0,,.
 Dialogue: 0,0:01:17.38,0:01:20.82,Dialogue,,0,0,0,,It's the 20th anniversary of the manga serialisation! Congratulations!
 Dialogue: 0,0:01:22.75,0:01:24.44,Dialogue,,0,0,0,,And so...
 Dialogue: 0,0:01:24.44,0:01:30.48,Dialogue,,0,0,0,,All of us involved with the series will be giving all we can more than ever...
 Dialogue: 0,0:01:31.68,0:01:35.05,Dialogue,,0,0,0,,So please keep watching!
-Dialogue: 0,0:01:51.95,0:01:55.90,BCPrologue,,0,0,0,,{\blur3\fad(100,0)}{＜影の黒さと闇の濃さ\N切り裂いてくのが推理の光＞\N}Only the light of deductions can tear apart black shadows and deep darkness!
+Dialogue: 0,0:01:51.95,0:01:55.90,BCPrologue,,0,0,0,,{\blur3\fad(100,0)＜影の黒さと闇の濃さ\N切り裂いてくのが推理の光＞\N}Only the light of deductions can tear apart black shadows and deep darkness!
 Dialogue: 0,0:01:55.90,0:01:59.64,BCPrologue,,0,0,0,,{\blur3}Kid's after a crimson diamond.\NTime to unveil his illustrious trick!
-Dialogue: 0,0:01:59.64,0:02:01.24,BCPrologue,,0,0,0,,{\blur3}{＜たった１つの真実　見抜く\N}He sees the single truth for what it is,
-Dialogue: 0,0:02:01.24,0:02:02.94,BCPrologue,,0,0,0,,{\blur3}{見た目は子供　頭脳は大人＞\N}and looks like a kid but has the mind of an adult!
-Dialogue: 0,0:02:02.94,0:02:05.24,BCPrologue,,0,0,0,,{\blur3\fad(0,250)}{＜その名は　名探偵コナン！＞\N}His name? Detective Conan!
+Dialogue: 0,0:01:59.64,0:02:01.24,BCPrologue,,0,0,0,,{\blur3＜たった１つの真実　見抜く\N}He sees the single truth for what it is,
+Dialogue: 0,0:02:01.24,0:02:02.94,BCPrologue,,0,0,0,,{\blur3見た目は子供　頭脳は大人＞\N}and looks like a kid but has the mind of an adult!
+Dialogue: 0,0:02:02.94,0:02:05.24,BCPrologue,,0,0,0,,{\blur3\fad(0,250)＜その名は　名探偵コナン！＞\N}His name? Detective Conan!
 Dialogue: 0,0:03:31.26,0:03:39.81,Narr,,0,0,0,,{\blur3\fad(200,0)}Advisor Jirokichi Suzuki sponsored a special trip for the Bell Tree Express, hoping to capture Kaitō Kid.
 Dialogue: 0,0:03:39.81,0:03:45.84,Narr,,0,0,0,,{\blur3}But the men in black took over the train in their attempts to erase Sherry — a.k.a. Ai Haibara.
 Dialogue: 0,0:03:48.26,0:03:54.61,Narr,,0,0,0,,{\blur3}And even Kaitō Kid, who was on the train to inspect it, ended up caught in the explosion when a carriage blew up.
@@ -235,7 +234,7 @@ Dialogue: 0,0:12:52.33,0:12:54.47,Thoughts,,0,0,0,,{\be10}And another useless id
 Dialogue: 0,0:12:54.47,0:12:59.86,Thoughts,,0,0,0,,{\be10}After all that effort shutting out the visitors, why do we have to show a bunch of amateurs around?
 Dialogue: 0,0:13:00.20,0:13:03.85,Dialogue,,0,0,0,,You're to watch quietly from the back, okay?
 Dialogue: 0,0:13:03.85,0:13:04.87,Dialogue,,0,0,0,,Yup!
-Dialogue: 0,0:13:05.37,0:13:10.27,Dialogue,,0,0,0,,Well then, since we have 30 minutes left until\N 8 PM when he shows up, I'm going to the toilet!
+Dialogue: 0,0:13:05.37,0:13:10.27,Dialogue,,0,0,0,,Well then, since we have 30 minutes left until\N8 PM when he shows up, I'm going to the toilet!
 Dialogue: 0,0:13:11.02,0:13:13.84,Dialogue,,0,0,0,,The nearest toilet's crowded!
 Dialogue: 0,0:13:13.84,0:13:14.34,Dialogue,,0,0,0,,Roger!
 Dialogue: 0,0:13:15.84,0:13:21.08,Dialogue,,0,0,0,,Hey, when did {\i1}you{\i0} go to the toilet, Sonoko?
@@ -244,7 +243,6 @@ Dialogue: 0,0:13:23.88,0:13:25.43,Dialogue,,0,0,0,,You didn't notice?
 Dialogue: 0,0:13:28.73,0:13:29.50,Dialogue,,0,0,0,,Kid!
 Dialogue: 0,0:13:29.50,0:13:31.52,Dialogue,,0,0,0,,Kid! Kid! Kid!
 Dialogue: 0,0:13:31.52,0:13:34.73,Dialogue,,0,0,0,,{\fad(0,250)}Kid! Kid! Kid! Kid!
-Comment: 0,0:13:34.73,0:13:38.19,Dialogue,,0,0,0,,Kid! Kid! Kid! Kid!
 Dialogue: 0,0:13:45.15,0:13:48.43,Dialogue,,0,0,0,,The cheering for Kid's getting pretty loud.
 Dialogue: 0,0:13:49.58,0:13:52.90,Dialogue,,0,0,0,,How long until Kid{\rHonorifics - Dialogue}-sama{\r} appears?
 Dialogue: 0,0:13:52.90,0:13:54.71,Dialogue,,0,0,0,,Let's see...
@@ -259,7 +257,7 @@ Dialogue: 0,0:14:21.25,0:14:27.29,Dialogue,,0,0,0,,Therefore, Kid won't be able 
 Dialogue: 0,0:14:38.12,0:14:38.42,Dialogue,,0,0,0,,What?!
 Dialogue: 0,0:14:38.42,0:14:39.76,Dialogue,,0,0,0,,What's going on?!
 Dialogue: 0,0:14:40.17,0:14:41.47,Dialogue,,0,0,0,,Out of the way!
-Dialogue: 0,0:14:45.52,0:14:47.81,Thoughts,,0,0,0,,{\be10}He covered the{\rHonorifics - Thoughts} tan{\r}k with the carpet!
+Dialogue: 0,0:14:45.52,0:14:47.81,Thoughts,,0,0,0,,{\be10}He covered the{\rHonorifics - Thoughts\be10} tan{\r\be10}k with the carpet!
 Dialogue: 0,0:14:48.12,0:14:51.18,Dialogue,,0,0,0,,Is he planning to steal the entire{\rHonorifics - Dialogue} tan{\r}k along with the carpet?!
 Dialogue: 0,0:14:51.18,0:14:52.23,Dialogue,,0,0,0,,Damn!
 Dialogue: 0,0:14:52.23,0:14:53.31,Dialogue,,0,0,0,,Three!
@@ -300,7 +298,7 @@ Dialogue: 0,0:16:44.61,0:16:46.24,Dialogue,,0,0,0,,Damn it!
 Dialogue: 0,0:16:46.24,0:16:47.53,Dialogue,,0,0,0,,You can't!
 Dialogue: 0,0:16:48.12,0:16:49.91,Dialogue,,0,0,0,,You can't come inside!
 Dialogue: 0,0:16:49.91,0:16:52.41,Dialogue,,0,0,0,,Stay away!
-Dialogue: 0,0:17:01.05,0:17:02.34,Dialogue,,0,0,0,,{\a6}'Kaitō Kid got the treasure!'
+Dialogue: 0,0:17:01.05,0:17:02.34,Dialogue Top,,0,0,0,,'Kaitō Kid got the treasure!'
 Dialogue: 0,0:17:06.07,0:17:07.30,Dialogue,,0,0,0,,Kid! Kid! Kid!
 Dialogue: 0,0:17:07.30,0:17:10.46,Dialogue,,0,0,0,,Damn it. Why are they cheering on the criminal?
 Dialogue: 0,0:17:10.46,0:17:12.44,Dialogue,,0,0,0,,Well, there isn't much we can say.
@@ -351,7 +349,7 @@ Dialogue: 0,0:20:29.31,0:20:32.30,Thoughts,,0,0,0,,{\be10}She really {\i1}is{\i0
 Dialogue: 0,0:20:38.77,0:20:40.59,Dialogue,,0,0,0,,That spot feels nice...
 Dialogue: 0,0:20:40.59,0:20:42.22,Dialogue,,0,0,0,,Just shut up.
 Dialogue: 0,0:20:43.60,0:20:44.82,Thoughts,,0,0,0,,{\be10}I don't get it.
-Dialogue: 0,0:20:46.03,0:20:48.70,Thoughts,,0,0,0,,{\be10}That was an impregnable{\rHonorifics - Thoughts} tan{\r}k, with its four sides made of reinforced glass,
+Dialogue: 0,0:20:46.03,0:20:48.70,Thoughts,,0,0,0,,{\be10}That was an impregnable{\rHonorifics - Thoughts\be10} tan{\r\be10}k, with its four sides made of reinforced glass,
 Dialogue: 0,0:20:48.70,0:20:53.35,Thoughts,,0,0,0,,{\be10}and the top and two sides covered with a special alloy mesh.
 Dialogue: 0,0:20:53.35,0:20:58.70,Thoughts,,0,0,0,,{\be10}How did he get it out in that fraction of time in which our vision was obscured by the carpet?
 Dialogue: 0,0:20:58.70,0:21:03.88,Dialogue,,0,0,0,,Put your hearts into the search! Kid's card was in the water!
@@ -361,8 +359,8 @@ Dialogue: 0,0:21:13.31,0:21:16.54,Thoughts,,0,0,0,,{\be10}You roll up the card a
 Dialogue: 0,0:21:16.54,0:21:21.95,Thoughts,,0,0,0,,{\be10}then pass a fishing line through the card and put a small stone at the end of it.
 Dialogue: 0,0:21:22.77,0:21:27.28,Thoughts,,0,0,0,,{\be10}If you hang that from the light and set it to fall from a remote controlled signal,
 Dialogue: 0,0:21:28.44,0:21:36.57,Thoughts,,0,0,0,,{\be10}the card would fall and drop through the steel mesh, the thread would dissolve, and the message would be revealed.
-Dialogue: 0,0:21:37.47,0:21:43.99,Thoughts,,0,0,0,,{\be10}Either way, the ones who got closest to the{\rHonorifics - Thoughts} tan{\r}k were Sera, Sonoko, the old man and Inspector Nakamori.
-Dialogue: 0,0:21:43.99,0:21:48.88,Thoughts,,0,0,0,,{\be10}They got bundled up in the carpet along with the guards who were already standing in front of the{\rHonorifics - Thoughts} tan{\r}k,
+Dialogue: 0,0:21:37.47,0:21:43.99,Thoughts,,0,0,0,,{\be10}Either way, the ones who got closest to the{\rHonorifics - Thoughts\be10} tan{\r\be10}k were Sera, Sonoko, the old man and Inspector Nakamori.
+Dialogue: 0,0:21:43.99,0:21:48.88,Thoughts,,0,0,0,,{\be10}They got bundled up in the carpet along with the guards who were already standing in front of the{\rHonorifics - Thoughts\be10} tan{\r\be10}k,
 Dialogue: 0,0:21:48.88,0:21:51.11,Thoughts,,0,0,0,,{\be10}so any of them could've put the card directly in the water.
 Dialogue: 0,0:21:52.36,0:21:55.98,Thoughts,,0,0,0,,{\be10}But the most suspicious person at the time was...
 Dialogue: 0,0:22:06.75,0:22:08.60,Thoughts,,0,0,0,,{\be10}...Ran.
@@ -375,14 +373,12 @@ Dialogue: 0,0:23:45.04,0:23:46.29,Dialogue,,0,0,0,,I'm fine.
 Dialogue: 0,0:23:46.29,0:23:50.63,Dialogue,,0,0,0,,Everybody here was just being so weak-minded that it went to my head and I got really dizzy.{this is probably wrong}
 Dialogue: 0,0:23:50.63,0:23:55.13,Dialogue,,0,0,0,,There's only one person here who could slip past without a body check, isn't there?
 Dialogue: 0,0:23:55.13,0:23:57.55,Dialogue,,0,0,0,,...and you, Kaitō Kid.
-Dialogue: 0,0:23:58.80,0:24:04.80,Signs,,0,0,0,,(PART II)
-Dialogue: 0,0:23:58.80,0:24:04.80,Signs,,0,0,0,,KAITŌ KID AND THE BLUSH MERMAID
 Dialogue: 0,0:23:58.80,0:24:04.80,Dialogue,,0,0,0,,On the next Conan: 'Kaitō Kid and the Blush Mermaid (Part II)'!
 Dialogue: 0,0:24:04.80,0:24:09.84,Dialogue,,0,0,0,,Next Conan's Hint: Magnet!
-Dialogue: 0,0:24:09.84,0:24:11.52,Dialogue,,0,0,0,,{\a6}I was barely {\i1}in{\i0} the episode!
-Dialogue: 0,0:24:11.52,0:24:13.09,Dialogue,,0,0,0,,{\a6}You were there all along in disguise, weren't you?
-Dialogue: 0,0:24:13.09,0:24:14.18,Dialogue,,0,0,0,,{\a6}You never know!
-Dialogue: 0,0:01:38.93,0:01:43.98,ButterflyCore,,0,0,0,,{\blur4}{\fad(200,0)}kage o mau chō no kodō ga seijaku no umi o saite
+Dialogue: 0,0:24:09.84,0:24:11.52,Dialogue Top,,0,0,0,,I was barely {\i1}in{\i0} the episode!
+Dialogue: 0,0:24:11.52,0:24:13.09,Dialogue Top,,0,0,0,,You were there all along in disguise, weren't you?
+Dialogue: 0,0:24:13.09,0:24:14.18,Dialogue Top,,0,0,0,,You never know!
+Dialogue: 0,0:01:38.93,0:01:43.98,ButterflyCore,,0,0,0,,{\blur4\fad(200,0)}kage o mau chō no kodō ga seijaku no umi o saite
 Dialogue: 0,0:01:44.15,0:01:51.28,ButterflyCore,,0,0,0,,{\blur4}kasanariau koe ga ima yami o furiharatta
 Dialogue: 0,0:02:05.92,0:02:11.34,ButterflyCore,,0,0,0,,{\blur4\c&H005500}haritsuita ase o nugutte nigemawaru light o ketta
 Dialogue: 0,0:02:11.68,0:02:17.01,ButterflyCore,,0,0,0,,{\blur4\c&H005500}kanashimi ni utareta kyō no kizuato kabau yō ni
@@ -394,7 +390,7 @@ Dialogue: 0,0:02:39.37,0:02:44.42,ButterflyCore,,0,0,0,,{\blur4\c&HAA0000}kage o
 Dialogue: 0,0:02:44.58,0:02:49.92,ButterflyCore,,0,0,0,,{\blur4\c&H000077}kimi ni miseru itsuwari no subete ga uso ja nai daro
 Dialogue: 0,0:02:50.09,0:02:55.55,ButterflyCore,,0,0,0,,{\blur4\c&HAA0000}mayo'u tabi suteta kotae mo kitto erabu hi wa mata kuru kara
 Dialogue: 0,0:02:55.72,0:03:04.64,ButterflyCore,,0,0,0,,{\blur4\c&H006600}kono kokoro wa dare yori mo atsuku moyashi tsuzukeyō kienai yō ni
-Dialogue: 0,0:03:14.57,0:03:20.16,ButterflyCore,,0,0,0,,{\blur4\c&H006600}{\fad(0,1000)}kienai yō ni
+Dialogue: 0,0:03:14.57,0:03:20.16,ButterflyCore,,0,0,0,,{\blur4\c&H006600\fad(0,1000)}kienai yō ni
 Dialogue: 0,0:01:38.93,0:01:43.98,ButterflyCore2,,0,0,0,,{\fad(200,0)}kage o mau chō no kodō ga seijaku no umi o saite
 Dialogue: 0,0:01:44.15,0:01:51.28,ButterflyCore2,,0,0,0,,kasanariau koe ga ima yami o furiharatta
 Dialogue: 0,0:02:05.92,0:02:11.34,ButterflyCore2,,0,0,0,,haritsuita ase o nugutte nigemawaru light o ketta
@@ -408,26 +404,6 @@ Dialogue: 0,0:02:44.58,0:02:49.92,ButterflyCore2,,0,0,0,,kimi ni miseru itsuwari
 Dialogue: 0,0:02:50.09,0:02:55.55,ButterflyCore2,,0,0,0,,mayo'u tabi suteta kotae mo kitto erabu hi wa mata kuru kara
 Dialogue: 0,0:02:55.72,0:03:04.64,ButterflyCore2,,0,0,0,,{\3c&H006600}kono kokoro wa dare yori mo atsuku moyashi tsuzukeyō kienai yō ni
 Dialogue: 0,0:03:14.57,0:03:20.16,ButterflyCore2,,0,0,0,,{\fad(0,1000)\3c&H006600}kienai yō ni
-Dialogue: 0,0:03:24.37,0:03:24.41,Signs,,0,0,0,,KAITŌ KID AND THE BLUSH MERMAID
-Dialogue: 0,0:03:24.41,0:03:24.46,Signs,,0,0,0,,KAITŌ KID AND THE BLUSH MERMAID
-Dialogue: 0,0:03:24.46,0:03:24.50,Signs,,0,0,0,,KAITŌ KID AND THE BLUSH MERMAID
-Dialogue: 0,0:03:24.50,0:03:24.54,Signs,,0,0,0,,KAITŌ KID AND THE BLUSH MERMAID
-Dialogue: 0,0:03:24.54,0:03:24.58,Signs,,0,0,0,,KAITŌ KID AND THE BLUSH MERMAID
-Dialogue: 0,0:03:24.58,0:03:24.62,Signs,,0,0,0,,KAITŌ KID AND THE BLUSH MERMAID
-Dialogue: 0,0:03:24.62,0:03:24.67,Signs,,0,0,0,,KAITŌ KID AND THE BLUSH MERMAID
-Dialogue: 0,0:03:24.67,0:03:24.71,Signs,,0,0,0,,KAITŌ KID AND THE BLUSH MERMAID
-Dialogue: 0,0:03:24.71,0:03:24.75,Signs,,0,0,0,,KAITŌ KID AND THE BLUSH MERMAID
-Dialogue: 0,0:03:24.75,0:03:30.38,Signs,,0,0,0,,KAITŌ KID AND THE BLUSH MERMAID
-Dialogue: 0,0:03:24.37,0:03:24.41,Signs,,0,0,0,,(PART I)
-Dialogue: 0,0:03:24.41,0:03:24.46,Signs,,0,0,0,,(PART I)
-Dialogue: 0,0:03:24.46,0:03:24.50,Signs,,0,0,0,,(PART I)
-Dialogue: 0,0:03:24.50,0:03:24.54,Signs,,0,0,0,,(PART I)
-Dialogue: 0,0:03:24.54,0:03:24.58,Signs,,0,0,0,,(PART I)
-Dialogue: 0,0:03:24.58,0:03:24.62,Signs,,0,0,0,,(PART I)
-Dialogue: 0,0:03:24.62,0:03:24.67,Signs,,0,0,0,,(PART I)
-Dialogue: 0,0:03:24.67,0:03:24.71,Signs,,0,0,0,,(PART I)
-Dialogue: 0,0:03:24.71,0:03:24.75,Signs,,0,0,0,,(PART I)
-Dialogue: 0,0:03:24.75,0:03:30.38,Signs,,0,0,0,,(PART I)
 Dialogue: 0,0:22:25.96,0:22:33.30,AitakuteRomaji,,0,0,0,,{\blur3}denwa ga naru tabi kono mune ga zawameku
 Dialogue: 0,0:22:33.64,0:22:40.64,AitakuteRomaji,,0,0,0,,{\blur3}demo kikoetekuru no wa kimi no koe ja nai
 Dialogue: 0,0:22:42.81,0:22:49.65,AitakuteRomaji,,0,0,0,,{\blur3}ima kimi wa doko ni iru no nani shite'ru no
@@ -436,5 +412,3 @@ Dialogue: 0,0:22:59.87,0:23:06.71,AitakuteRomaji,,0,0,0,,{\blur3}aitakute kimi n
 Dialogue: 0,0:23:07.21,0:23:15.68,AitakuteRomaji,,0,0,0,,{\blur3}ima mo kono mune wa kimi{\fsp-2\fs40}- {\fsp\fs}iro ni somaru (dakishimetakute)
 Dialogue: 0,0:23:15.85,0:23:22.85,AitakuteRomaji,,0,0,0,,{\blur3}setsunakute nido to aenai nara
 Dialogue: 0,0:23:23.19,0:23:31.15,AitakuteRomaji,,0,0,0,,{\fad(0,1000)\blur3}maichiru yuki shiroku kono kokoro somete
-Dialogue: 0,0:22:14.66,0:22:18.12,Signs,,0,0,0,,Ima aitakute...\N(I want to be with you...)
-Dialogue: 0,0:24:13.94,0:24:15.94,Dialogue,,0,0,0,,

@@ -43,18 +43,16 @@ Style: topbox,Arial,20,&HFFFFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Comment: 0,0:01:23.93,0:01:28.36,Signs,,0,0,0,,Kimi no namida ni kon'na ni koishite'ru\N(I love your tears so much)\NSong by Natsu-Iro
 Dialogue: 0,0:00:02.06,0:00:04.48,Dialogue,,0,0,0,,Is this the cactus we heard about?
 Dialogue: 0,0:00:04.48,0:00:06.58,Dialogue,,0,0,0,,It's called a Golden Barrel Cactus,
 Dialogue: 0,0:00:06.58,0:00:09.98,Dialogue,,0,0,0,,and takes 50 years until its flowers bloom.
 Dialogue: 0,0:00:11.00,0:00:12.32,Dialogue,,0,0,0,,50 years?
-Dialogue: 0,0:00:00.00,0:00:00.00,Dialogue,,0,0,0,,{sign: Zenzō Sunada (66): Wealthy Person}
 Dialogue: 0,0:00:12.32,0:00:12.86,Dialogue,,0,0,0,,Yeah.
 Dialogue: 0,0:00:13.11,0:00:17.49,Signs,,0,0,0,,Zenzō Sunada (66)\NWealthy Person
-Dialogue: 0,0:00:12.86,0:00:16.23,Dialogue,,0,0,0,,{\a6}I've raised it myself\Nsince it was this small.
-Dialogue: 0,0:00:16.89,0:00:19.56,Dialogue,,0,0,0,,{\a6}Before I noticed, it'd already grown this big
-Dialogue: 0,0:00:19.56,0:00:21.58,Dialogue,,0,0,0,,{\a6}and started blooming.
-Dialogue: 0,0:00:23.85,0:00:28.00,Dialogue,,0,0,0,,{\a6}Then you've been raising it since\Nyou were Ran-{\i1}neechan{\i0}'s age? {dropped ojisan}
+Dialogue: 0,0:00:12.86,0:00:16.23,Dialogue Top,,0,0,0,,I've raised it myself\Nsince it was this small.
+Dialogue: 0,0:00:16.89,0:00:19.56,Dialogue Top,,0,0,0,,Before I noticed, it'd already grown this big
+Dialogue: 0,0:00:19.56,0:00:21.58,Dialogue Top,,0,0,0,,and started blooming.
+Dialogue: 0,0:00:23.85,0:00:28.00,Dialogue Top,,0,0,0,,Then you've been raising it since\Nyou were Ran-{\i1}neechan{\i0}'s age? {dropped ojisan}
 Dialogue: 0,0:00:28.65,0:00:30.57,Dialogue,,0,0,0,,That's right, kid.
 Dialogue: 0,0:00:30.57,0:00:34.59,Dialogue,,0,0,0,,Sonoko{\rHonorifics - Dialogue}-chan{\r} came here with her father to see it once.
 Dialogue: 0,0:00:35.40,0:00:38.35,Dialogue,,0,0,0,,Really? Did that actually happen?
@@ -68,7 +66,7 @@ Dialogue: 0,0:01:00.11,0:01:02.62,Dialogue,,0,0,0,,They do! How cute!
 Dialogue: 0,0:01:03.62,0:01:05.33,Dialogue,,0,0,0,,They seem kinda odd...
 Dialogue: 0,0:01:07.14,0:01:08.96,Thoughts,,0,0,0,,{\be10}Indeed.
 Dialogue: 0,0:01:10.59,0:01:14.45,Thoughts,,10,10,0,,{\be10}Vivid summer memories surpass their season to solve mysteries!
-Dialogue: 0,0:01:14.45,0:01:18.36,Thoughts,,0,0,0,,{\be10}Rare cacti and painful spines in a\N greenhouse with flawless security.
+Dialogue: 0,0:01:14.45,0:01:18.36,Thoughts,,0,0,0,,{\be10}Rare cacti and painful spines in a\Ngreenhouse with flawless security.
 Dialogue: 0,0:01:18.36,0:01:19.85,Thoughts,,0,0,0,,{\be10}He sees the single truth for what it is,
 Dialogue: 0,0:01:19.85,0:01:21.98,Thoughts,,0,0,0,,{\be10}and looks like a kid but has the mind of an adult!
 Dialogue: 0,0:01:21.98,0:01:24.01,Thoughts,,0,0,0,,{\be10}His name? Detective Conan!
@@ -84,10 +82,8 @@ Dialogue: 0,0:03:45.04,0:03:45.74,Dialogue,,0,0,0,,Dad!
 Dialogue: 0,0:03:48.50,0:03:49.58,Dialogue,,0,0,0,,What is it, you two?
 Dialogue: 0,0:03:49.83,0:03:53.96,Signs,,0,0,0,,Yasuyuki Sunada (36)\NPro Golfer
 Dialogue: 0,0:03:49.83,0:03:53.96,Signs,,0,0,0,,Naoki Sunada (33)\NImport Car Dealer
-Dialogue: 0,0:00:00.00,0:00:00.00,Dialogue,,0,0,0,,{sign: Yasuyuki Sunada (36): Pro Golfer}
-Dialogue: 0,0:00:00.00,0:00:00.00,Dialogue,,0,0,0,,{sign: Naoki Sunada (33): Import Car Dealer}
-Dialogue: 0,0:03:50.08,0:03:51.82,Dialogue,,0,0,0,,{\a6}We heard from the lawyer.
-Dialogue: 0,0:03:51.82,0:03:53.96,Dialogue,,0,0,0,,{\a6}You{\rHonorifics - Dialogue} chan{\r}ged your will?!
+Dialogue: 0,0:03:50.08,0:03:51.82,Dialogue Top,,0,0,0,,We heard from the lawyer.
+Dialogue: 0,0:03:51.82,0:03:53.96,Dialogue Top,,0,0,0,,You{\rHonorifics - Dialogue} chan{\r}ged your will?!
 Dialogue: 0,0:03:54.35,0:03:56.92,Dialogue,,0,0,0,,Be quiet! There are guests here.
 Dialogue: 0,0:03:56.92,0:03:59.51,Dialogue,,0,0,0,,Shut up! Just answer!
 Dialogue: 0,0:03:59.51,0:04:02.55,Dialogue,,0,0,0,,Don't argue with me! Get out!
@@ -100,8 +96,7 @@ Dialogue: 0,0:04:21.77,0:04:22.49,Dialogue,,0,0,0,,Yashiro!
 Dialogue: 0,0:04:23.83,0:04:25.10,Dialogue,,0,0,0,,Yashiro, you here?!
 Dialogue: 0,0:04:25.10,0:04:26.41,Dialogue,,0,0,0,,Yes, I just arrived.
 Dialogue: 0,0:04:28.29,0:04:30.62,Signs,,0,0,0,,Misa Yashiro (27)\NHousekeeper
-Dialogue: 0,0:00:00.00,0:00:00.00,Dialogue,,0,0,0,,{sign: Misa Yashiro (27): Housekeeper}
-Dialogue: 0,0:04:28.65,0:04:30.62,Dialogue,,0,0,0,,{\a6}How may I please you, master?
+Dialogue: 0,0:04:28.65,0:04:30.62,Dialogue Top,,0,0,0,,How may I please you, master?
 Dialogue: 0,0:04:31.36,0:04:33.00,Dialogue,,0,0,0,,What exactly are those?!
 Dialogue: 0,0:04:36.84,0:04:39.80,Dialogue,,0,0,0,,I told you not to use bisque flowerpots!
 Dialogue: 0,0:04:39.80,0:04:41.30,Dialogue,,0,0,0,,Put them away now!
@@ -143,7 +138,7 @@ Dialogue: 0,0:06:40.46,0:06:44.13,Dialogue,,0,0,0,,Then how can I get you to{\rH
 Dialogue: 0,0:06:44.13,0:06:48.50,Dialogue,,0,0,0,,Hmph! As long as you don't intend to inherit my work, I'll never{\rHonorifics - Dialogue} chan{\r}ge it!
 Dialogue: 0,0:06:48.50,0:06:51.00,Dialogue,,0,0,0,,You're telling me to stop golfing?!
 Dialogue: 0,0:06:51.00,0:06:54.10,Dialogue,,0,0,0,,You're a third-rate golfer who'll always get beaten in the preliminaries anyway!
-Dialogue: 0,0:06:54.77,0:06:57.06,Dialogue,,0,0,0,,Now you've gone and said it, that's just what I'm gonna do!{mb misparsed, ask M_L}{言わせておけば いい気になりやがって！}
+Dialogue: 0,0:06:54.77,0:06:57.06,Dialogue,,0,0,0,,Now you've gone and said it, that's just what I'm gonna do!{mb misparsed, ask M_L言わせておけば いい気になりやがって！}
 Dialogue: 0,0:06:57.39,0:06:58.98,Dialogue,,0,0,0,,That's my line!
 Dialogue: 0,0:06:58.98,0:07:02.79,Dialogue,,0,0,0,,Fine, I get it! I'll just do what I want too then!
 Dialogue: 0,0:07:04.76,0:07:06.33,Dialogue,,0,0,0,,Hmm? What're you up to?
@@ -220,7 +215,7 @@ Dialogue: 0,0:10:19.19,0:10:20.26,Dialogue,,0,0,0,,I-I...
 Dialogue: 0,0:10:21.27,0:10:21.68,Dialogue,,0,0,0,,Oh no!
 Dialogue: 0,0:10:26.62,0:10:27.73,Dialogue,,0,0,0,,Mister?!
 Dialogue: 0,0:10:29.43,0:10:30.83,Dialogue,,0,0,0,,Mister!
-Dialogue: 0,0:10:37.10,0:10:42.04,Dialogue,,0,0,0,,The cause of death was cerebral contusion{brain injury}{I've had one of those -uso.} {+from? -uso.} from being hit from behind by a shovel.
+Dialogue: 0,0:10:37.10,0:10:42.04,Dialogue,,0,0,0,,The cause of death was cerebral contusion{brain injuryI've had one of those -uso.} {+from? -uso.} from being hit from behind by a shovel.
 Dialogue: 0,0:10:42.45,0:10:47.36,Dialogue,,0,0,0,,The estimated time of death is 8 to 8:30 PM.
 Dialogue: 0,0:10:48.51,0:10:51.32,Dialogue,,0,0,0,,And the first on the scene was...
 Dialogue: 0,0:10:53.10,0:10:57.13,Dialogue,,0,0,0,,Geez...The brats I always see at crime scenes...
@@ -241,8 +236,6 @@ Dialogue: 0,0:11:46.70,0:11:49.61,Dialogue,,0,0,0,,I rushed in and Dad had colla
 Dialogue: 0,0:11:50.35,0:11:54.36,Dialogue,,0,0,0,,Why were you at the greenhouse when you went to practise golf?
 Dialogue: 0,0:11:54.36,0:11:58.50,Dialogue,,0,0,0,,T-That's because Dad sent me this e-mail.
 Dialogue: 0,0:11:58.50,0:11:59.03,Dialogue,,0,0,0,,Look.
-Dialogue: 0,0:12:00.33,0:12:02.54,Signs,,0,0,0,,.
-Dialogue: 0,0:00:00.00,0:00:00.00,Dialogue,,0,0,0,,{E-mail screen\NTime recieved: 20:20\NCome\Nto the greenhouse\Nat 8:30.\NZenzō}
 Dialogue: 0,0:12:01.37,0:12:02.54,Dialogue,,0,0,0,,I see...
 Dialogue: 0,0:12:02.54,0:12:05.00,Dialogue,,0,0,0,,Received at 8:20...
 Dialogue: 0,0:12:05.81,0:12:06.83,Dialogue,,0,0,0,,And on the victim's phone?
@@ -387,50 +380,14 @@ Dialogue: 0,0:23:33.40,0:23:36.05,Dialogue,,0,0,0,,Solving a hard case like that
 Dialogue: 0,0:23:36.05,0:23:37.66,Dialogue,,0,0,0,,That so?
 Dialogue: 0,0:23:38.44,0:23:44.35,Dialogue,,0,0,0,,Even the hardest case is no match for the\NSuper Detective Deduction Queen, Sonoko{\rHonorifics - Dialogue}-sama{\r}!
 Dialogue: 0,0:23:47.77,0:23:51.26,Thoughts,,0,0,0,,{\be10}Honestly... All you did was sleep.
-Dialogue: 0,0:23:51.26,0:23:53.53,Dialogue,,0,0,0,,{\fs30}sabotten
+Dialogue: 0,0:23:51.26,0:23:53.53,Signs,,0,0,0,,sabotten
 Dialogue: 0,0:23:51.26,0:23:53.53,Thoughts,,0,0,0,,{\be10}Don't go slackin'{sabotten} off!
-Dialogue: 0,0:23:57.39,0:23:59.05,Dialogue,,0,0,0,,{\fs30}saboten
+Dialogue: 0,0:23:57.39,0:23:59.05,Signs,,0,0,0,,saboten
 Dialogue: 0,0:23:57.39,0:23:59.05,Thoughts,,0,0,0,,{\be10}Only with a cactus{saboten}.{lol badpun. maybe M_L can make sense with it}
 Dialogue: 0,0:24:00.77,0:24:05.43,Dialogue,,0,0,0,,In front of the Police HQ, a man gave\Nthe Detective Boys a tablet computer.
 Dialogue: 0,0:24:05.43,0:24:10.02,Dialogue,,0,0,0,,Shown on it is a video of Detective Takagi in big trouble.
 Dialogue: 0,0:24:10.02,0:24:15.02,Dialogue,,10,10,0,,On the next Conan: 'The Life-threatening Broadcast of Love (Begin Broadcasting)'!
 Dialogue: 0,0:24:15.02,0:24:20.92,Dialogue,,0,0,0,,Next Conan's Hint: Date!
-Dialogue: 0,0:01:31.07,0:01:35.32,Signs,,0,0,0,,© Gōshō Aoyama / Shōgakukan · Yomiuri TV · TMS 1996
-Dialogue: 0,0:01:24.14,0:01:28.40,Signs,,0,0,0,,'Detective Conan'\NSerialised in Shōgakukan's 'Weekly Shōnen Sunday'
-Dialogue: 0,0:01:24.14,0:01:28.40,Signs,,0,0,0,,Original Comics by\NGōshō Aoyama\N
-Dialogue: 0,0:01:35.82,0:01:40.41,Signs,,0,0,0,,Planning\NMichihiko Suwa
-Dialogue: 0,0:01:35.82,0:01:40.41,Signs,,0,0,0,,( )
-Dialogue: 0,0:01:53.80,0:01:57.93,Signs,,0,0,0,,Opening Theme\N'Kimi no namida ni kon'na ni Koishite'ru'
-Dialogue: 0,0:01:53.80,0:01:57.93,Signs,,0,0,0,,Performed by:\NLyrics:\NMusic:\NArrangement:
-Dialogue: 0,0:01:53.80,0:01:57.93,Signs,,0,0,0,,Natsu-Iro\NNayu Okuno\NAika Ōno\NTakeshi Hayama
-Dialogue: 0,0:01:53.80,0:01:57.93,Signs,,0,0,0,,(D-GO)
-Dialogue: 0,0:02:08.02,0:02:12.65,Signs,,0,0,0,,Planning Assistance\NHiroshi Torimitsu\NKazumasa Ogura\NMasakazu Hakuya
-Dialogue: 0,0:02:13.94,0:02:18.36,Signs,,0,0,0,,Producers\NShūichi Kitada\N\NTakeshi Yamakawa\N\NAssociate Producer\NMitomu Asai
-Dialogue: 0,0:02:13.94,0:02:18.36,Signs,,0,0,0,,( )
-Dialogue: 0,0:02:13.94,0:02:18.36,Signs,,0,0,0,,(TMS/V1 Studio)
-Dialogue: 0,0:02:30.92,0:02:33.63,Signs,,0,0,0,,Chief Producers\NMichihiko Suwa\N\NKei'ichi Ishiyama
-Dialogue: 0,0:02:30.92,0:02:33.63,Signs,,0,0,0,,( )
-Dialogue: 0,0:02:30.92,0:02:33.63,Signs,,0,0,0,,(TMS/V1 Studio)
-Dialogue: 0,0:22:02.96,0:22:06.46,Signs,,0,0,0,,Koi ni Koishite\N(Falling in love)
-Dialogue: 0,0:22:02.96,0:22:06.46,Signs,,0,0,0,,(Mai Kuraki)
-Dialogue: 0,0:22:02.04,0:22:03.12,Signs,,0,0,0,,.
-Dialogue: 0,0:22:03.12,0:22:03.21,Signs,,0,0,0,,.
-Dialogue: 0,0:22:03.21,0:22:03.29,Signs,,0,0,0,,.
-Dialogue: 0,0:22:03.29,0:22:03.37,Signs,,0,0,0,,.
-Dialogue: 0,0:22:03.37,0:22:03.46,Signs,,0,0,0,,.
-Dialogue: 0,0:22:03.46,0:22:03.54,Signs,,0,0,0,,.
-Dialogue: 0,0:22:03.54,0:22:03.62,Signs,,0,0,0,,.
-Dialogue: 0,0:22:03.62,0:22:03.71,Signs,,0,0,0,,.
-Dialogue: 0,0:22:03.71,0:22:03.79,Signs,,0,0,0,,.
-Dialogue: 0,0:22:03.71,0:22:03.79,Signs,,0,0,0,,.
-Dialogue: 0,0:22:06.46,0:22:06.54,Signs,,0,0,0,,.
-Dialogue: 0,0:22:06.46,0:22:06.54,Signs,,0,0,0,,.
-Dialogue: 0,0:22:06.54,0:22:06.63,Signs,,0,0,0,,.
-Dialogue: 0,0:22:06.63,0:22:06.71,Signs,,0,0,0,,.
-Dialogue: 0,0:22:06.71,0:22:06.79,Signs,,0,0,0,,.
-Dialogue: 0,0:22:06.79,0:22:06.88,Signs,,0,0,0,,.
-Dialogue: 0,0:22:06.88,0:22:06.96,Signs,,0,0,0,,.
-Dialogue: 0,0:22:06.96,0:22:07.46,Signs,,0,0,0,,.
 Dialogue: 0,0:22:02.04,0:22:03.12,Signs,,0,0,0,,Shin'ichi Kudō
 Dialogue: 0,0:22:03.12,0:22:03.21,Signs,,0,0,0,,Shin'ichi Kudō
 Dialogue: 0,0:22:03.21,0:22:03.29,Signs,,0,0,0,,Shin'ichi Kudō
@@ -463,15 +420,3 @@ Dialogue: 0,0:22:06.71,0:22:06.79,Signs,,0,0,0,,Shin'ich
 Dialogue: 0,0:22:06.79,0:22:06.88,Signs,,0,0,0,,Shin'ichi Kudō
 Dialogue: 0,0:22:06.88,0:22:06.96,Signs,,0,0,0,,Shin'ichi Kudō
 Dialogue: 0,0:22:06.96,0:22:07.46,Signs,,0,0,0,,Shin'ichi Kudō
-Dialogue: 0,0:03:04.83,0:03:04.87,Signs,,0,0,0,,Cactus Capriccio
-Dialogue: 0,0:03:04.87,0:03:04.91,Signs,,0,0,0,,Cactus Capriccio
-Dialogue: 0,0:03:04.91,0:03:04.95,Signs,,0,0,0,,Cactus Capriccio
-Dialogue: 0,0:03:04.95,0:03:04.99,Signs,,0,0,0,,Cactus Capriccio
-Dialogue: 0,0:03:04.99,0:03:05.04,Signs,,0,0,0,,Cactus Capriccio
-Dialogue: 0,0:03:05.04,0:03:05.08,Signs,,0,0,0,,Cactus Capriccio
-Dialogue: 0,0:03:05.08,0:03:05.12,Signs,,0,0,0,,Cactus Capriccio
-Dialogue: 0,0:03:05.12,0:03:05.16,Signs,,0,0,0,,Cactus Capriccio
-Dialogue: 0,0:03:05.16,0:03:05.20,Signs,,0,0,0,,Cactus Capriccio
-Dialogue: 0,0:03:05.20,0:03:10.83,Signs,,0,0,0,,Cactus Capriccio
-Dialogue: 0,0:24:12.23,0:24:15.02,Signs,,0,0,0,,(Begin Broadcasting)
-Dialogue: 0,0:24:12.23,0:24:15.02,Signs,,10,10,0,,The Life-Threatening Broadcast of Love

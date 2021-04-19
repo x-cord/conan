@@ -52,10 +52,9 @@ Style: AitakuteRomaji,AlaskanNightsM,52,&H60DB9572,&H000000FF,&H00FFFFFF,&HC02F2
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Comment: 0,0:00:00.00,0:00:00.81,Dialogue,,0000,0000,0000,,V80-5 START\NTL: abs.
-Dialogue: 0,0:00:01.30,0:00:02.69,Dialogue,,0000,0000,0000,,{\a6}The parfait, the parfait!
-Dialogue: 0,0:00:03.18,0:00:06.61,Dialogue,,0000,0000,0000,,{\a6}It {\i1}has{\i0} to be the Tropical Strawberry Parfait!
-Dialogue: 0,0:00:07.21,0:00:11.95,Dialogue,,0000,0000,0000,,{\a6}No, I think the Strawberry Gorgeous Chiffon Cake's got it today!
+Dialogue: 0,0:00:01.30,0:00:02.69,Dialogue Top,,0000,0000,0000,,The parfait, the parfait!
+Dialogue: 0,0:00:03.18,0:00:06.61,Dialogue Top,,0000,0000,0000,,It {\i1}has{\i0} to be the Tropical Strawberry Parfait!
+Dialogue: 0,0:00:07.21,0:00:11.95,Dialogue Top,,0000,0000,0000,,No, I think the Strawberry Gorgeous Chiffon Cake's got it today!
 Dialogue: 0,0:00:14.98,0:00:21.12,Dialogue,,0000,0000,0000,,And now, may I present the winner of tonight's Strawberry Battle...
 Dialogue: 0,0:00:23.48,0:00:26.75,Dialogue,,0000,0000,0000,,The maker of the Tropical Strawberry Parfait,
 Dialogue: 0,0:00:26.75,0:00:29.21,Dialogue,,0000,0000,0000,,Pâtissier Shūhei Kurimura!
@@ -86,7 +85,7 @@ Dialogue: 0,0:02:07.71,0:02:09.86,BCPrologue,,0000,0000,0000,,{\blur3}The myster
 Dialogue: 0,0:02:09.86,0:02:11.46,BCPrologue,,0000,0000,0000,,{\blur3}He sees the single truth for what it is,
 Dialogue: 0,0:02:11.46,0:02:13.45,BCPrologue,,0000,0000,0000,,{\blur3}and looks like a kid but has the mind of an adult!
 Dialogue: 0,0:02:13.45,0:02:15.92,BCPrologue,,0000,0000,0000,,{\blur3}His name? Detective Conan!
-Dialogue: 0,0:01:48.98,0:01:53.98,ButterflyCore,,0000,0000,0000,,{\blur4}{\fad(200,0)}kage o mau chō no kodō ga seijaku no umi o saite
+Dialogue: 0,0:01:48.98,0:01:53.98,ButterflyCore,,0000,0000,0000,,{\blur4\fad(200,0)}kage o mau chō no kodō ga seijaku no umi o saite
 Dialogue: 0,0:01:54.15,0:02:01.32,ButterflyCore,,0000,0000,0000,,{\blur4}kasanariau koe ga ima yami o furiharatta
 Dialogue: 0,0:02:15.88,0:02:21.30,ButterflyCore,,0000,0000,0000,,{\blur4\c&H005500}haritsuita ase o nugutte nigemawaru light o ketta
 Dialogue: 0,0:02:21.68,0:02:26.97,ButterflyCore,,0000,0000,0000,,{\blur4\c&H005500}kanashimi ni utareta kyō no kizuato kabau yō ni
@@ -98,7 +97,7 @@ Dialogue: 0,0:02:49.33,0:02:54.38,ButterflyCore,,0000,0000,0000,,{\blur4\c&HAA00
 Dialogue: 0,0:02:54.54,0:02:59.88,ButterflyCore,,0000,0000,0000,,{\blur4\c&H000077}kimi ni miseru itsuwari no subete ga uso ja nai daro
 Dialogue: 0,0:03:00.05,0:03:05.51,ButterflyCore,,0000,0000,0000,,{\blur4\c&HAA0000}mayo'u tabi suteta kotae mo kitto erabu hi wa mata kuru kara
 Dialogue: 0,0:03:05.68,0:03:14.60,ButterflyCore,,0000,0000,0000,,{\blur4\c&H006600}kono kokoro wa dare yori mo atsuku moyashi tsuzukeyō kienai yō ni
-Dialogue: 0,0:03:24.49,0:03:30.16,ButterflyCore,,0000,0000,0000,,{\blur4\c&H006600}{\fad(0,1000)}kienai yō ni
+Dialogue: 0,0:03:24.49,0:03:30.16,ButterflyCore,,0000,0000,0000,,{\blur4\c&H006600\fad(0,1000)}kienai yō ni
 Dialogue: 0,0:01:48.98,0:01:53.98,ButterflyCore2,,0000,0000,0000,,{\fad(200,0)}kage o mau chō no kodō ga seijaku no umi o saite
 Dialogue: 0,0:01:54.15,0:02:01.32,ButterflyCore2,,0000,0000,0000,,kasanariau koe ga ima yami o furiharatta
 Dialogue: 0,0:02:15.88,0:02:21.30,ButterflyCore2,,0000,0000,0000,,haritsuita ase o nugutte nigemawaru light o ketta
@@ -112,26 +111,6 @@ Dialogue: 0,0:02:54.54,0:02:59.88,ButterflyCore2,,0000,0000,0000,,kimi ni miseru
 Dialogue: 0,0:03:00.05,0:03:05.51,ButterflyCore2,,0000,0000,0000,,mayo'u tabi suteta kotae mo kitto erabu hi wa mata kuru kara
 Dialogue: 0,0:03:05.68,0:03:14.60,ButterflyCore2,,0000,0000,0000,,{\3c&H006600}kono kokoro wa dare yori mo atsuku moyashi tsuzukeyō kienai yō ni
 Dialogue: 0,0:03:24.49,0:03:30.16,ButterflyCore2,,0000,0000,0000,,{\fad(0,1000)\3c&H006600}kienai yō ni
-Dialogue: 0,0:03:34.34,0:03:34.38,Signs,,0000,0000,0000,,The Treasure Chest Filled with Fruit
-Dialogue: 0,0:03:34.38,0:03:34.42,Signs,,0000,0000,0000,,The Treasure Chest Filled with Fruit
-Dialogue: 0,0:03:34.42,0:03:34.46,Signs,,0000,0000,0000,,The Treasure Chest Filled with Fruit
-Dialogue: 0,0:03:34.46,0:03:34.50,Signs,,0000,0000,0000,,The Treasure Chest Filled with Fruit
-Dialogue: 0,0:03:34.50,0:03:34.55,Signs,,0000,0000,0000,,The Treasure Chest Filled with Fruit
-Dialogue: 0,0:03:34.55,0:03:34.59,Signs,,0000,0000,0000,,The Treasure Chest Filled with Fruit
-Dialogue: 0,0:03:34.59,0:03:34.63,Signs,,0000,0000,0000,,The Treasure Chest Filled with Fruit
-Dialogue: 0,0:03:34.63,0:03:34.67,Signs,,0000,0000,0000,,The Treasure Chest Filled with Fruit
-Dialogue: 0,0:03:34.67,0:03:34.71,Signs,,0000,0000,0000,,The Treasure Chest Filled with Fruit
-Dialogue: 0,0:03:34.71,0:03:40.34,Signs,,0000,0000,0000,,The Treasure Chest Filled with Fruit
-Dialogue: 0,0:03:34.34,0:03:34.38,Signs,,0000,0000,0000,,(Part I)
-Dialogue: 0,0:03:34.38,0:03:34.42,Signs,,0000,0000,0000,,(Part I)
-Dialogue: 0,0:03:34.42,0:03:34.46,Signs,,0000,0000,0000,,(Part I)
-Dialogue: 0,0:03:34.46,0:03:34.50,Signs,,0000,0000,0000,,(Part I)
-Dialogue: 0,0:03:34.50,0:03:34.55,Signs,,0000,0000,0000,,(Part I)
-Dialogue: 0,0:03:34.55,0:03:34.59,Signs,,0000,0000,0000,,(Part I)
-Dialogue: 0,0:03:34.59,0:03:34.63,Signs,,0000,0000,0000,,(Part I)
-Dialogue: 0,0:03:34.63,0:03:34.67,Signs,,0000,0000,0000,,(Part I)
-Dialogue: 0,0:03:34.67,0:03:34.71,Signs,,0000,0000,0000,,(Part I)
-Dialogue: 0,0:03:34.71,0:03:40.34,Signs,,0000,0000,0000,,(Part I)
 Dialogue: 0,0:03:41.72,0:03:44.11,Dialogue,,0000,0000,0000,,Can I really come along?
 Dialogue: 0,0:03:44.11,0:03:46.35,Dialogue,,0000,0000,0000,,Yeah. Conan{\rHonorifics - Dialogue}-kun{\r} suggested it.
 Dialogue: 0,0:03:46.35,0:03:48.80,Dialogue,,0000,0000,0000,,R-Really?
@@ -147,7 +126,7 @@ Dialogue: 0,0:04:15.11,0:04:18.31,Dialogue,,0000,0000,0000,,What happens when so
 Dialogue: 0,0:04:18.31,0:04:24.68,Dialogue,,0000,0000,0000,,In the middle portion of the show, Takeki{\rHonorifics - Dialogue}-san{\r} chooses a person from the audience and hands them sample food.
 Dialogue: 0,0:04:24.68,0:04:27.26,Dialogue,,0000,0000,0000,,Sweets he made.
 Dialogue: 0,0:04:27.26,0:04:34.03,Dialogue,,0000,0000,0000,,Then, if they correctly guess what fruit was used to make it, they get to eat the winning sweets from that day's battle.
-Dialogue: 0,0:04:34.03,0:04:37.61,Dialogue,,0000,0000,0000,,But if they get it wrong,\N then they have to leave the studio!
+Dialogue: 0,0:04:34.03,0:04:37.61,Dialogue,,0000,0000,0000,,But if they get it wrong,\Nthen they have to leave the studio!
 Dialogue: 0,0:04:38.18,0:04:41.22,Dialogue,,0000,0000,0000,,Is this Takeki guy really that strict?!
 Dialogue: 0,0:04:41.22,0:04:48.34,Dialogue,,0000,0000,0000,,Yeah. The current champion has won six weeks in a row, but Takeki{\rHonorifics - Dialogue}-san{\r} always grades him harshly.
 Dialogue: 0,0:04:48.34,0:04:52.05,Dialogue,,0000,0000,0000,,Though he still gets more points than the challengers...
@@ -160,16 +139,13 @@ Dialogue: 0,0:05:15.37,0:05:18.40,Dialogue,,0000,0000,0000,,Are you saying the c
 Dialogue: 0,0:05:18.40,0:05:20.87,Dialogue,,0000,0000,0000,,I doubt that's even possible.
 Dialogue: 0,0:05:20.87,0:05:24.70,Dialogue,,0000,0000,0000,,Before the chest opens, not even the TV staff knows what the mystery fruit is.
 Dialogue: 0,0:05:25.09,0:05:29.66,Dialogue,,0000,0000,0000,,By ‘chest', you mean that old metal chest they open at the start of the show, right?
-Dialogue: 0,0:05:30.42,0:05:34.39,Dialogue,,0000,0000,0000,,Couldn't the TV staff\N sneak a peek inside that thing?
+Dialogue: 0,0:05:30.42,0:05:34.39,Dialogue,,0000,0000,0000,,Couldn't the TV staff\Nsneak a peek inside that thing?
 Dialogue: 0,0:05:34.39,0:05:37.55,Dialogue,,0000,0000,0000,,It's set up so they can't do that!
 Dialogue: 0,0:05:37.55,0:05:44.35,Dialogue,,0000,0000,0000,,Every week, they have their ‘fruit selection master' choose a fruit and pack the chest full of it.
-Comment: 0,0:05:43.30,0:05:47.85,Signs,,0000,0000,0000,,Master's House
-Comment: 0,0:05:48.55,0:06:02.36,Signs,,0000,0000,0000,,TV Station Master's House
-Comment: 0,0:06:02.82,0:06:08.37,Signs,,0000,0000,0000,,TV Station
 Dialogue: 0,0:05:43.30,0:05:47.85,Signs,,0000,0000,0000,,Master's House
-Dialogue: 0,0:05:48.55,0:06:02.36,Signs,,0000,0000,0000,,. Master's House...
-Dialogue: 0,0:05:48.55,0:06:02.36,Signs,,0000,0000,0000,,. TV Station...
-Dialogue: 0,0:06:02.82,0:06:08.37,Signs,,0000,0000,0000,,. TV Station...
+Dialogue: 0,0:05:48.55,0:06:02.36,Signs,,0000,0000,0000,,Master's House...
+Dialogue: 0,0:05:48.55,0:06:02.36,Signs,,0000,0000,0000,,TV Station...
+Dialogue: 0,0:06:02.82,0:06:08.37,Signs,,0000,0000,0000,,TV Station...
 Dialogue: 0,0:05:44.35,0:05:49.84,Dialogue,,0000,0000,0000,,After filling it up, he puts a lock on it and sends it to the TV station.
 Dialogue: 0,0:05:49.84,0:05:56.60,Dialogue,,0000,0000,0000,,The show's director then receives the chest, puts {\i1}another{\i0} lock on it, and sends it back to the master.
 Dialogue: 0,0:05:56.60,0:06:03.50,Dialogue,,0000,0000,0000,,The master then removes the original lock and re-sends it to the station,
@@ -177,7 +153,7 @@ Dialogue: 0,0:06:03.50,0:06:08.41,Dialogue,,0000,0000,0000,,where, at the start 
 Dialogue: 0,0:06:09.00,0:06:11.83,Dialogue,,0000,0000,0000,,And that's the first time anyone gets to know what the fruit is!
 Dialogue: 0,0:06:12.40,0:06:15.65,Dialogue,,0000,0000,0000,,I see. Like codes from the old days.
 Dialogue: 0,0:06:16.76,0:06:17.84,Dialogue,,0000,0000,0000,,Code?
-Dialogue: 0,0:06:17.84,0:06:21.46,Dialogue,,0010,0010,0000,,{\fscx90}In the old days, they didn't have\Ncommunication devices like we do now,
+Dialogue: 0,0:06:17.84,0:06:21.46,Dialogue,,0010,0010,0000,,In the old days, they didn't have\Ncommunication devices like we do now,
 Dialogue: 0,0:06:21.46,0:06:25.00,Dialogue,,0010,0010,0000,,so they used that trick to send and receive secret messages!
 Dialogue: 0,0:06:25.00,0:06:29.97,Dialogue,,0000,0000,0000,,Because with that method, nobody other than the two people with the keys can see inside it.
 Dialogue: 0,0:06:29.97,0:06:36.10,Dialogue,,0000,0000,0000,,I see! So even if the people delivering the message wanted to take a look during transit, they couldn't!
@@ -189,12 +165,12 @@ Dialogue: 0,0:06:49.73,0:06:53.70,Thoughts,,0000,0000,0000,,{\be10}Well, the one
 Dialogue: 0,0:06:56.65,0:06:58.27,Dialogue,,0000,0000,0000,,Takeki{\rHonorifics - Dialogue}-san{\r}!
 Dialogue: 0,0:06:58.27,0:07:02.51,Dialogue,,0000,0000,0000,,If it's about the fruits for tomorrow's show, I already packed them in the chest. {DCTP used 'being', but it doesn't seem correct since the fruits haven't been used yet, so I{\rHonorifics - Dialogue} chan{\r}ged it to 'to be' --Monsi}
 Dialogue: 0,0:07:03.46,0:07:09.14,Signs,,0000,0000,0000,,Terafumi Kasuga (45)\NFood Coordinator
-Dialogue: 0,0:07:03.75,0:07:09.14,Dialogue,,0000,0000,0000,,{\a6}Rest assured that as usual, I chose the best and highest quality ones in the entire country.
+Dialogue: 0,0:07:03.75,0:07:09.14,Dialogue Top,,0000,0000,0000,,Rest assured that as usual, I chose the best and highest quality ones in the entire country.
 Dialogue: 0,0:07:09.48,0:07:12.65,Dialogue,,0000,0000,0000,,In that case, let me have a look.
-Dialogue: 0,0:07:12.65,0:07:17.06,Dialogue,,0000,0000,0000,,Oh, no. Takeki{\rHonorifics - Dialogue}-san{\r}, even {\i1}you're{\i0}\N not allowed to see the contents!
+Dialogue: 0,0:07:12.65,0:07:17.06,Dialogue,,0000,0000,0000,,Oh, no. Takeki{\rHonorifics - Dialogue}-san{\r}, even {\i1}you're{\i0}\Nnot allowed to see the contents!
 Dialogue: 0,0:07:17.06,0:07:19.71,Dialogue,,0000,0000,0000,,Isn't that what we agreed on?!
 Dialogue: 0,0:07:19.71,0:07:20.90,Dialogue,,0000,0000,0000,,Don't worry.
-Dialogue: 0,0:07:21.38,0:07:23.90,Dialogue,,0000,0000,0000,,It's not the contents of the\N chest I'm interested in seeing.
+Dialogue: 0,0:07:21.38,0:07:23.90,Dialogue,,0000,0000,0000,,It's not the contents of the\Nchest I'm interested in seeing.
 Dialogue: 0,0:07:23.94,0:07:27.40,Signs,,0000,0350,0000,,Shōtoku Takeki (69)\NFood Critic
 Dialogue: 0,0:07:24.99,0:07:27.40,Dialogue,,0000,0350,0000,,It's the lock!
 Dialogue: 0,0:07:31.59,0:07:34.37,Dialogue,,0000,0000,0000,,Yes, this is tightly locked.
@@ -210,11 +186,11 @@ Dialogue: 0,0:08:06.92,0:08:10.38,Dialogue,,0000,0000,0000,,Then hurry and lock 
 Dialogue: 0,0:08:10.38,0:08:11.72,Dialogue,,0000,0000,0000,,Yes, sir.
 Dialogue: 0,0:08:11.72,0:08:15.62,Dialogue,,0000,0000,0000,,As usual, the padlock's in my desk.
 Dialogue: 0,0:08:15.87,0:08:23.04,Signs,,0000,0000,0000,,Toshihide Taruoka (48)\NNichiuri TV Producer
-Dialogue: 0,0:08:16.35,0:08:19.80,Dialogue,,0000,0000,0000,,{\a6}And don't even think about peeking inside!
-Dialogue: 0,0:08:19.80,0:08:24.13,Dialogue,,0000,0000,0000,,{\a6}Takeki{\rHonorifics - Dialogue}-san{\r} scolded me about it before recording the previous show.
+Dialogue: 0,0:08:16.35,0:08:19.80,Dialogue Top,,0000,0000,0000,,And don't even think about peeking inside!
+Dialogue: 0,0:08:19.80,0:08:24.13,Dialogue Top,,0000,0000,0000,,Takeki{\rHonorifics - Dialogue}-san{\r} scolded me about it before recording the previous show.
 Dialogue: 0,0:08:24.59,0:08:28.88,Signs,,0000,0000,0000,,Wataru Furuya (31)\NNichiuri TV Assistant Director
-Dialogue: 0,0:08:24.69,0:08:26.47,Dialogue,,0000,0000,0000,,{\a6}Not like I could, anyway.
-Dialogue: 0,0:08:26.47,0:08:28.88,Dialogue,,0000,0000,0000,,{\a6}There's already another lock on it, you know.
+Dialogue: 0,0:08:24.69,0:08:26.47,Dialogue Top,,0000,0000,0000,,Not like I could, anyway.
+Dialogue: 0,0:08:26.47,0:08:28.88,Dialogue Top,,0000,0000,0000,,There's already another lock on it, you know.
 Dialogue: 0,0:08:29.48,0:08:31.92,Dialogue,,0000,0000,0000,,That's true.
 Dialogue: 0,0:08:31.92,0:08:34.40,Dialogue,,0000,0000,0000,,Are we {\i1}still{\i0} using that annoying method?
 Dialogue: 0,0:08:34.40,0:08:38.19,Dialogue,,0000,0000,0000,,Takeki{\rHonorifics - Dialogue}-san{\r} could just fill it and lock it himself!
@@ -229,7 +205,7 @@ Dialogue: 0,0:09:12.50,0:09:15.81,Dialogue,,0000,0000,0000,,I'm wearing really c
 Dialogue: 0,0:09:15.81,0:09:17.73,Dialogue,,0000,0000,0000,,It's a little embarrassing, though.
 Dialogue: 0,0:09:17.73,0:09:19.47,Dialogue,,0000,0000,0000,,I-I see.
 Dialogue: 0,0:09:20.18,0:09:22.48,Thoughts,,0000,0000,0000,,{\be10}Nobody can see it, so what's the point?
-Dialogue: 0,0:09:23.00,0:09:26.90,Dialogue,,0000,0000,0000,,Anyway, where's Yōko{\rHonorifics - Dialogue}-chan{\r}?\N She's not even here, is she?
+Dialogue: 0,0:09:23.00,0:09:26.90,Dialogue,,0000,0000,0000,,Anyway, where's Yōko{\rHonorifics - Dialogue}-chan{\r}?\NShe's not even here, is she?
 Dialogue: 0,0:09:27.28,0:09:31.96,Dialogue,,0000,0000,0000,,The judges are in a separate room, waiting for the sweets to be brought in, aren't they?
 Dialogue: 0,0:09:32.84,0:09:36.16,Dialogue,,0000,0000,0000,,Don't worry, you can\Nwatch her on that monitor!
 Dialogue: 0,0:09:37.41,0:09:41.92,Dialogue,,0000,0000,0000,,Then it's not any different\Nfrom watching her at home, is it?!
@@ -252,13 +228,13 @@ Dialogue: 0,0:10:49.89,0:10:52.19,Dialogue,,0000,0000,0000,,The Great Detective 
 Dialogue: 0,0:10:52.53,0:10:53.30,Phone,,0000,0000,0000,,{\blur3}Ta-dah!
 Dialogue: 0,0:10:53.30,0:10:55.44,Dialogue,,0000,0000,0000,,The great Kogorō Mouri!
 Dialogue: 0,0:10:58.33,0:11:00.95,Dialogue,,0000,0000,0000,,This turned into a pretty big deal, somehow.
-Dialogue: 0,0:11:00.95,0:11:04.85,Dialogue,,0000,0000,0000,,Even though he's Takeki{\rHonorifics - Dialogue}-san{\r}'s\N stand-in, he doesn't seem nervous.
+Dialogue: 0,0:11:00.95,0:11:04.85,Dialogue,,0000,0000,0000,,Even though he's Takeki{\rHonorifics - Dialogue}-san{\r}'s\Nstand-in, he doesn't seem nervous.
 Dialogue: 0,0:11:05.69,0:11:07.87,Dialogue,,0000,0000,0000,,Good luck, Dad!
 Dialogue: 0,0:11:08.67,0:11:11.88,Thoughts,,0000,0000,0000,,{\be10}No, it's the chefs who need luck.
 Dialogue: 0,0:11:12.35,0:11:15.68,Dialogue,,0000,0000,0000,,Detective Mouri, do you get the{\rHonorifics - Dialogue} chan{\r}ce to eat sweets often?
 Dialogue: 0,0:11:16.33,0:11:19.28,Phone,,0000,0000,0000,,{\blur3}Yes! I'm extremely fond of sweets!
 Dialogue: 0,0:11:20.70,0:11:22.47,Thoughts,,0000,0000,0000,,{\be10}The old man really knows how to sweet-talk.
-Dialogue: 0,0:11:23.05,0:11:26.24,Phone,,0000,0000,0000,,{\be10}Then, does your wife make them for you often?
+Dialogue: 0,0:11:23.05,0:11:26.24,Phone,,0000,0000,0000,,{\blur3}Then, does your wife make them for you often?
 Dialogue: 0,0:11:26.24,0:11:27.35,Phone,,0000,0000,0000,,{\blur3}My wife?
 Dialogue: 0,0:11:27.86,0:11:31.02,Phone,,0000,0000,0000,,{\blur3}No way! Nobody would eat the kind of stuff {\i1}she{\i0} makes!
 Dialogue: 0,0:11:33.52,0:11:36.91,Dialogue,,0000,0000,0000,,And Mum had been looking forward to watching this too...
@@ -285,7 +261,6 @@ Dialogue: 0,0:13:04.95,0:13:07.65,Dialogue,,0000,0000,0000,,Well then, let's hav
 Dialogue: 0,0:13:07.65,0:13:09.50,Dialogue,,0000,0000,0000,,Tonight's fruit is...!
 Dialogue: 0,0:13:12.38,0:13:16.97,Dialogue,,0000,0000,0000,,Sera-{\i1}neechan{\i0}, have you and I...
 Dialogue: 0,0:13:23.86,0:13:24.59,Thoughts,,0000,0000,0000,,{\be10}No way!
-Comment: 0,0:13:34.13,0:13:34.30,Dialogue,,0000,0000,0000,,V80-6 START\NTL: Zenthisoror
 Dialogue: 0,0:13:34.84,0:13:38.58,Dialogue,,0000,0000,0000,,I-Isn't that Takeki{\rHonorifics - Dialogue}-san{\r}, the sweets judge?
 Dialogue: 0,0:13:38.58,0:13:39.43,Dialogue,,0000,0000,0000,,No way.
 Dialogue: 0,0:13:41.31,0:13:42.14,Dialogue,,0000,0000,0000,,Wait a sec!
@@ -402,7 +377,7 @@ Dialogue: 0,0:21:03.00,0:21:05.87,Dialogue,,0000,0000,0000,,Something about\Ncat
 Dialogue: 0,0:21:06.25,0:21:07.63,Dialogue,,0000,0000,0000,,I see.
 Dialogue: 0,0:21:07.63,0:21:13.98,Dialogue,,0000,0000,0000,,He tried to make it look like he wasn't in the studio anymore,{DCTP had 'any more', I{\rHonorifics - Dialogue} chan{\r}ged it to 'anymore'} so that the opponent would think the coast was clear and show himself.
 Dialogue: 0,0:21:13.98,0:21:19.68,Dialogue,,0000,0000,0000,,Takeki{\rHonorifics - Dialogue}-san{\r} always wore kimonos as well, so it was probably easy for him to mix in with the extras.
-Dialogue: 0,0:21:20.33,0:21:22.25,Dialogue,,0000,0000,0000,,{そうなるとだな...。\N}{AO line}{<SakoeraTyan> first AO line in Part B\N<SakoeraTyan> and it's by Kogorô\N<SakoeraTyan> and it's simple as hell lol\N<bluesun> nod\N<bluesun> wouldn't want to touch without context tho}Looks like it.
+Dialogue: 0,0:21:20.33,0:21:22.25,Dialogue,,0000,0000,0000,,{そうなるとだな...。\NAO line<SakoeraTyan> first AO line in Part B\N<SakoeraTyan> and it's by Kogorô\N<SakoeraTyan> and it's simple as hell lol\N<bluesun> nod\N<bluesun> wouldn't want to touch without context tho}Looks like it.
 Dialogue: 0,0:21:22.89,0:21:30.13,Dialogue,,0000,0000,0000,,In which case, he likely went to the storage room where the chest was kept, and ambushed his killer.
 Dialogue: 0,0:21:32.48,0:21:33.98,Dialogue,,0000,0000,0000,,Huh? Why?
 Dialogue: 0,0:21:38.14,0:21:45.01,Dialogue,,0000,0000,0000,,There were traces of wiped-off blood where the lid closes, on the inside and outside of the chest.
@@ -428,11 +403,9 @@ Dialogue: 0,0:23:47.86,0:23:50.87,Dialogue,,0000,0000,0000,,Then we'd better\Nge
 Dialogue: 0,0:23:52.30,0:23:53.29,Dialogue,,0000,0000,0000,,Get what started?
 Dialogue: 0,0:23:53.75,0:23:55.65,Dialogue,,0000,0000,0000,,What, you ask? Just a little...
 Dialogue: 0,0:23:56.73,0:23:58.29,Dialogue,,0000,0000,0000,,...magic show of mine.
-Dialogue: 0,0:23:58.29,0:24:01.17,Signs,,0000,0000,0000,,The Treasure Chest Filled with Fruit
-Dialogue: 0,0:23:58.29,0:24:01.17,Signs,,0000,0000,0000,,(Part II)
 Dialogue: 0,0:23:58.29,0:24:04.30,Dialogue,,0000,0000,0000,,On the next Conan:\N‘The Treasure Chest Filled with Fruit (Part II)'!
 Dialogue: 0,0:24:04.30,0:24:09.23,Dialogue,,0000,0000,0000,,Next Conan's Hint: Apples!
-Dialogue: 0,0:24:09.23,0:24:10.65,Dialogue,,0000,0000,0000,,{\a6}I give up. {o-teage da na}
-Dialogue: 0,0:24:10.65,0:24:11.65,Dialogue,,0000,0000,0000,,{\a6}On the apples? {ringona dake ni?}
-Dialogue: 0,0:24:11.65,0:24:13.03,Dialogue,,0000,0000,0000,,{\a6}You give {\i1}up{\i0}-ples! {te wo appuru}
-Dialogue: 0,0:24:13.03,0:24:13.64,Dialogue,,0000,0000,0000,,{\a6}Hehe.
+Dialogue: 0,0:24:09.23,0:24:10.65,Dialogue Top,,0000,0000,0000,,I give up. {o-teage da na}
+Dialogue: 0,0:24:10.65,0:24:11.65,Dialogue Top,,0000,0000,0000,,On the apples? {ringona dake ni?}
+Dialogue: 0,0:24:11.65,0:24:13.03,Dialogue Top,,0000,0000,0000,,You give {\i1}up{\i0}-ples! {te wo appuru}
+Dialogue: 0,0:24:13.03,0:24:13.64,Dialogue Top,,0000,0000,0000,,Hehe.

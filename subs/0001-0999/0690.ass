@@ -46,14 +46,10 @@ Style: OPTLTextless,FuntypeFattened,50,&H00FFFFFF,&H000000FF,&H80AF0068,&H800000
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Comment: 0,0:02:49.46,0:02:55.30,Dialogue,,0,0,0,,Yūsaku Kudō's Cold Case (part one)
-Comment: 0,0:03:06.43,0:03:07.14,Dialogue,,0,0,0,,Ooh?
-Comment: 0,0:07:27.53,0:07:28.70,Signs,,0,0,0,,umeawase
-Comment: 0,0:07:28.70,0:07:31.41,Signs,,0,0,0,,tsumeawase
-Dialogue: 0,0:00:10.78,0:00:13.20,Dialogue,,0,0,0,,{\a6}Huh? We should stop?!
-Dialogue: 0,0:00:14.32,0:00:17.49,Dialogue,,0,0,0,,{\a6}You mean we should drop the case?! {null.AR: He doesn't say "close" per se この事件から\N手を引くと言うのかね？}
-Dialogue: 0,0:00:17.49,0:00:19.16,Dialogue,,0,0,0,,{\a6}Well, yeah...
-Dialogue: 0,0:00:19.16,0:00:25.88,Dialogue,,0,0,0,,{\a6}As the police, we should arrest the killer ourselves without relying on some novelist, Assistant Inspector Megure!
+Dialogue: 0,0:00:10.78,0:00:13.20,Dialogue Top,,0,0,0,,Huh? We should stop?!
+Dialogue: 0,0:00:14.32,0:00:17.49,Dialogue Top,,0,0,0,,You mean we should drop the case?! {null.AR: He doesn't say "close" per se この事件から\N手を引くと言うのかね？}
+Dialogue: 0,0:00:17.49,0:00:19.16,Dialogue Top,,0,0,0,,Well, yeah...
+Dialogue: 0,0:00:19.16,0:00:25.88,Dialogue Top,,0,0,0,,As the police, we should arrest the killer ourselves without relying on some novelist, Assistant Inspector Megure!
 Dialogue: 0,0:00:26.46,0:00:29.96,Dialogue,,0,0,0,,The media's in quite an uproar about this case, after all.
 Dialogue: 0,0:00:29.96,0:00:36.51,Dialogue,,0,0,0,,They think the 'death' character written in the deceased's blood could mark the beginning of a series of bizarre murders.
 Dialogue: 0,0:00:36.51,0:00:37.22,Dialogue,,0,0,0,,Yeah...
@@ -73,7 +69,7 @@ Dialogue: 0,0:03:13.15,0:03:17.65,Dialogue,,0,0,0,,Yeah. Though it seems he's no
 Dialogue: 0,0:03:17.65,0:03:19.78,Dialogue,,0,0,0,,When I was younger, I used to read his books a lot.{子供の頃　よく読んだよ。}
 Dialogue: 0,0:03:19.78,0:03:21.78,Dialogue,,0,0,0,,Like the Night Baron series.{闇の男爵シリーズとか。}
 Dialogue: 0,0:03:21.78,0:03:27.12,Dialogue,,0,0,0,,Well, it's thanks to those books\Nthat his son ended up as a mystery nut.
-Dialogue: 0,0:03:27.12,0:03:31.54,Dialogue,,0,0,0,,But it must be a relief for you. With\N a best-selling author for a father-in-law,
+Dialogue: 0,0:03:27.12,0:03:31.54,Dialogue,,0,0,0,,But it must be a relief for you. With\Na best-selling author for a father-in-law,
 Dialogue: 0,0:03:31.54,0:03:33.59,Dialogue,,0,0,0,,you'll be living the good life when you're married. {null.AR: Alternative: "you won't have to endure any hardships after you two marry." // 結婚後も\N食いっ逸れなさそうで。\N}
 Dialogue: 0,0:03:33.59,0:03:35.00,Dialogue,,0,0,0,,Married...?!{結婚って...。}
 Dialogue: 0,0:03:35.00,0:03:37.63,Dialogue,,0,0,0,,Anyway, is what you said earlier true?
@@ -122,7 +118,7 @@ Dialogue: 0,0:06:34.39,0:06:37.50,Thoughts,,0,0,0,,{\be10}Huh? Got an e-mail on 
 Dialogue: 0,0:06:37.50,0:06:39.44,Thoughts,,0,0,0,,{\be10}Oh, it's from Ran.{《ん？蘭からか》}
 Dialogue: 0,0:06:39.44,0:06:43.32,Thoughts,,0,0,0,,{\be10}'Today, on our way to school, we came across a murder scene.'{《「今日　登校中に殺人現場に\N遭遇したんだけど→}
 Dialogue: 0,0:06:43.32,0:06:50.45,Thoughts,,0,0,0,,{\be10}'Shockingly, there was a character written in blood just like the one you showed me ten years ago.'
-Dialogue: 0,0:06:50.87,0:06:58.42,Thoughts,,10,10,0,,{\be10}'Since Sera{\rHonorifics - Thoughts}-san{\r} and Sonoko want to see that photo too, after school we'll go to your house to look for it. I think I know where it was,
+Dialogue: 0,0:06:50.87,0:06:58.42,Thoughts,,10,10,0,,{\be10}'Since Sera{\rHonorifics - Thoughts\be10}-san{\r\be10} and Sonoko want to see that photo too, after school we'll go to your house to look for it. I think I know where it was,
 Dialogue: 0,0:06:58.42,0:07:00.96,Thoughts,,0,0,0,,{\be10}'so that's okay, right?'
 Dialogue: 0,0:07:00.96,0:07:06.51,Thoughts,,10,10,0,,{\be10}A character written in blood ten years ago... Does she mean the case Dad ran out on?
 Dialogue: 0,0:07:06.51,0:07:08.13,Thoughts,,0,0,0,,{\be10}Hey, wait a second!{《...って　ちょっと待て！》}
@@ -140,10 +136,9 @@ Dialogue: 0,0:07:41.46,0:07:45.00,Dialogue,,0,0,0,,'I don't really want you turn
 Dialogue: 0,0:07:45.00,0:07:52.18,Dialogue,,0,0,0,,'so I told Conan{\rHonorifics - Dialogue}-kun{\r} where the photo is and I'm having him pick it up, and bring it to the Detective Agency for you.'
 Dialogue: 0,0:07:52.18,0:07:53.39,Dialogue,,0,0,0,,'Sorry about that.{持って行かせるってことで\N勘弁しろよな」。}'
 Dialogue: 0,0:07:55.14,0:07:58.39,Dialogue,,0,0,0,,Then just tell me where it is...{じゃあ　その場所\N私に教えなさいよ。}
-Dialogue: 0,0:07:58.39,0:08:03.27,Dialogue,,0,0,0,,I get it! Could it be that{わかった！\Nその写真の近くに→} there's\N porn hidden close to it?{エッチな本でも\N隠してあるんじゃないの？}
+Dialogue: 0,0:07:58.39,0:08:03.27,Dialogue,,0,0,0,,I get it! Could it be that{わかった！\Nその写真の近くに→} there's\Nporn hidden close to it?{エッチな本でも\N隠してあるんじゃないの？}
 Dialogue: 0,0:08:04.82,0:08:07.48,Dialogue,,0,0,0,,But, you know... We're already here.{（世良）でもさ～　着いちゃったよ。}
 Dialogue: 0,0:08:08.82,0:08:12.03,Signs,,0,0,0,,KUDŌ
-Dialogue: 0,0:08:08.82,0:08:12.03,Signs,,0,0,0,,.
 Dialogue: 0,0:08:08.82,0:08:11.57,Dialogue,,0,0,0,,Isn't this Shin'ichi Kudō{\rHonorifics - Dialogue}-kun{\r}'s house?
 Dialogue: 0,0:08:11.57,0:08:12.57,Dialogue,,0,0,0,,Yeah...{うん...。}
 Dialogue: 0,0:08:14.53,0:08:17.66,Dialogue,,0,0,0,,Since we're here, we might as well go in.{どうせなら　入ってみようぜ。}
@@ -157,7 +152,7 @@ Dialogue: 0,0:08:36.01,0:08:40.18,Dialogue,,0,0,0,,But you know, there's somethi
 Dialogue: 0,0:08:40.18,0:08:41.89,Dialogue,,0,0,0,,Huh? What?{えっ　何？何？}
 Dialogue: 0,0:08:41.89,0:08:46.82,Dialogue,,0,0,0,,You know, he always wears clothes that cover his neck!
 Dialogue: 0,0:08:46.82,0:08:48.73,Dialogue,,0,0,0,,Huh? Really?{え？そうだっけ？}
-Dialogue: 0,0:08:48.73,0:08:55.16,Dialogue,,0,0,0,,Yeah, that's why I think he has an embarrassing tattoo\N or something on his neck that he wants to hide.
+Dialogue: 0,0:08:48.73,0:08:55.16,Dialogue,,0,0,0,,Yeah, that's why I think he has an embarrassing tattoo\Nor something on his neck that he wants to hide.
 Dialogue: 0,0:08:55.16,0:08:57.41,Dialogue,,0,0,0,,Well, now that you mention it...{う～ん\Nそう言われれば...。}
 Dialogue: 0,0:08:57.41,0:09:02.25,Dialogue,,0,0,0,,So when he lets his guard down sometime, let's leap in and tear off his clothes!
 Dialogue: 0,0:09:02.25,0:09:03.42,Dialogue,,0,0,0,,How about it?{どお？}
@@ -206,8 +201,8 @@ Dialogue: 0,0:11:53.05,0:11:58.39,Dialogue,,0,0,0,,If you think so, then take a 
 Dialogue: 0,0:11:58.39,0:12:07.07,Dialogue,,10,10,0,,If you carefully chronicle where and when you found this piece of evidence, and how you felt at the time, it'll be useful in the trial.
 Dialogue: 0,0:12:07.07,0:12:09.07,Dialogue,,0,0,0,,T-Trial?!{ずずっ　裁判！？}
 Dialogue: 0,0:12:09.07,0:12:13.49,Dialogue,,0,0,0,,For a camera, use an instant one, as digital photos can be altered.
-Dialogue: 0,0:12:13.49,0:12:17.03,Dialogue,,0,0,0,,With the diary, use a ballpoint pen or\N something that can't be amended later,
-Dialogue: 0,0:12:17.03,0:12:21.33,Dialogue,,0,0,0,,and if you write down today's news and\N weather too, you'll increase its credibility.
+Dialogue: 0,0:12:13.49,0:12:17.03,Dialogue,,0,0,0,,With the diary, use a ballpoint pen or\Nsomething that can't be amended later,
+Dialogue: 0,0:12:17.03,0:12:21.33,Dialogue,,0,0,0,,and if you write down today's news and\Nweather too, you'll increase its credibility.
 Dialogue: 0,0:12:21.33,0:12:23.75,Thoughts,,0,0,0,,{\be10}W-Weather and news...{《て　天気とニュース》}
 Dialogue: 0,0:12:23.75,0:12:28.04,Dialogue,,0,0,0,,So that's how you'd beat that eloquent mystery nut, master?!
 Dialogue: 0,0:12:28.04,0:12:29.84,Dialogue,,0,0,0,,W-Well...{ま　まあね...。}
@@ -251,7 +246,7 @@ Dialogue: 0,0:15:20.84,0:15:26.31,Dialogue,,0,0,0,,Shards of a fishbowl that wer
 Dialogue: 0,0:15:26.97,0:15:29.23,Dialogue,,0,0,0,,In order to clean the nursery's aquarium,{保育園の水槽掃除のために→}
 Dialogue: 0,0:15:29.23,0:15:32.35,Dialogue,,0,0,0,,he was supposed to transfer the goldfish into a fishbowl temporarily,
 Dialogue: 0,0:15:32.35,0:15:36.07,Dialogue,,0,0,0,,but the principal forgot the fishbowl at his house, and went back to get it.
-Dialogue: 0,0:15:36.07,0:15:40.86,Dialogue,,0,0,0,,While headed to the nursery with the fishbowl,\N he took a shortcut through the park,
+Dialogue: 0,0:15:36.07,0:15:40.86,Dialogue,,0,0,0,,While headed to the nursery with the fishbowl,\Nhe took a shortcut through the park,
 Dialogue: 0,0:15:41.53,0:15:47.91,Dialogue,,10,10,0,,where it seems he unluckily tripped on the uneven stone paving, and fell and died while holding the fishbowl.
 Dialogue: 0,0:15:48.37,0:15:52.37,Dialogue,,0,0,0,,The first person to find the body was a boy who went to that nursery,
 Dialogue: 0,0:15:52.37,0:15:57.55,Dialogue,,10,10,0,,Ryōsuke Nishimura{\rHonorifics - Dialogue}-kun{\r}, age 5,{西村亮佑君　５歳で→} the only son of a nearby temple's head priest.
@@ -281,7 +276,7 @@ Dialogue: 0,0:17:40.73,0:17:42.78,Dialogue,,0,0,0,,But wasn't he just five?{で�
 Dialogue: 0,0:17:42.78,0:17:44.90,Dialogue,,0,0,0,,He wouldn't have known the {\i1}kanji{\i0} for 'death', right?
 Dialogue: 0,0:17:46.65,0:17:50.49,Thoughts,,0,0,0,,{\be10}I'm sure this brat could write it, and he's not much older...
 Dialogue: 0,0:17:50.49,0:17:55.20,Dialogue,,0,0,0,,Hey, when you three came across the dead man this morning, what did you see?
-Dialogue: 0,0:17:56.62,0:18:02.71,Dialogue,,0,0,0,,If there's any similarity to the case from ten years ago,\N couldn't that be a hint to help catch the killer?
+Dialogue: 0,0:17:56.62,0:18:02.71,Dialogue,,0,0,0,,If there's any similarity to the case from ten years ago,\Ncouldn't that be a hint to help catch the killer?
 Dialogue: 0,0:18:02.71,0:18:06.84,Dialogue,,0,0,0,,I don't think there was anything similar but the bloody character...
 Dialogue: 0,0:18:07.47,0:18:11.60,Dialogue,,0,0,0,,Beside the body there was a cigarette, not flowers.
 Dialogue: 0,0:18:11.60,0:18:15.89,Dialogue,,0,0,0,,I see. So that thing in the photo is a cigarette?{そっか　あの写真に写ってたのってタバコだったんだ？}
@@ -294,7 +289,7 @@ Dialogue: 0,0:18:39.67,0:18:43.71,Dialogue,,0,0,0,,Vending machines stop selling
 Dialogue: 0,0:18:43.71,0:18:48.34,Dialogue,,0,0,0,,But the 'death' character beside him, that was written in blood, right?
 Dialogue: 0,0:18:49.22,0:18:52.30,Dialogue,,0,0,0,,Was he stabbed or anything like that?{そのおじさんも\N何かで刺されたりしてたの？}
 Dialogue: 0,0:18:52.93,0:18:54.60,Dialogue,,0,0,0,,The blood had come from his mouth.
-Dialogue: 0,0:18:55.22,0:19:02.06,Dialogue,,10,10,0,,{\fsp-0.2}Because he was an alcoholic, the first thing I thought{そのおじさん　アルコール依存症\Nだったらしいから→} was that the blood was due to his varices rupturing and that he vomited blood...{最初は静脈瘤が破裂して\N吐血したんだと思ったよ。}
+Dialogue: 0,0:18:55.22,0:19:02.06,Dialogue,,10,10,0,,Because he was an alcoholic, the first thing I thought{そのおじさん　アルコール依存症\Nだったらしいから→} was that the blood was due to his varices rupturing and that he vomited blood...{最初は静脈瘤が破裂して\N吐血したんだと思ったよ。}
 Dialogue: 0,0:19:03.15,0:19:07.53,Dialogue,,0,0,0,,until I spotted the bloody character which had been written by someone {\i1}facing{\i0} the body.
 Dialogue: 0,0:19:12.12,0:19:18.62,Dialogue,,10,10,0,,In other words, the only common elements between the two cases are bloody 'death' characters written in similar styles,
 Dialogue: 0,0:19:18.62,0:19:22.96,Dialogue,,0,0,0,,and that neither appeared to be a murder to begin with, right?
@@ -306,7 +301,7 @@ Dialogue: 0,0:19:38.85,0:19:45.90,Dialogue,,0,0,0,,Which means this photo was li
 Dialogue: 0,0:19:45.90,0:19:51.32,Dialogue,,0,0,0,,the bloody character could've already been written, but he couldn't see it due to the body covering it.
 Dialogue: 0,0:19:52.03,0:19:53.45,Dialogue,,0,0,0,,Oh, I'm sorry.{ああ　すみません\N}
 Dialogue: 0,0:19:54.20,0:19:55.78,Dialogue,,0,0,0,,{null.AR: This line heavily relies on the previous one. I think my current TL doesn't make it sound too natural on its own}Sorry for butting in...{でしゃばってしまって...。}
-Dialogue: 0,0:19:55.78,0:20:01.00,Dialogue,,0,0,0,,Oh, Subaru{\rHonorifics - Dialogue}-san{\r}{ああ　昴さんは→}'s a Holmes fan, and he really likes making deductions.{ホームズファンで　推理するのがとっても好きなんだよ。}
+Dialogue: 0,0:19:55.78,0:20:01.00,Dialogue,,0,0,0,,Oh, Subaru{\rHonorifics - Dialogue}-san{\rああ　昴さんは→}'s a Holmes fan, and he really likes making deductions.{ホームズファンで　推理するのがとっても好きなんだよ。}
 Dialogue: 0,0:20:03.25,0:20:08.96,Dialogue,,0,0,0,,That reminds me, when we found the corpse this morning, his co-workers were shaking him.
 Dialogue: 0,0:20:08.96,0:20:12.88,Dialogue,,0,0,0,,Yeah. Maybe that corpse had been moved a bit too.
 Dialogue: 0,0:20:12.88,0:20:15.47,Dialogue,,0,0,0,,Then, why don't we ask the police?{だったら\N警察の人に聞いてみれば？}
@@ -325,7 +320,7 @@ Dialogue: 0,0:20:58.51,0:21:01.22,Dialogue,,0,0,0,,Didn't you see that bloody 'd
 Dialogue: 0,0:21:01.22,0:21:03.94,Dialogue,,0,0,0,,Y-Yeah, I thought the same thing.
 Dialogue: 0,0:21:03.94,0:21:06.52,Dialogue,,0,0,0,,'Perhaps this is some bizarre murder.'
 Dialogue: 0,0:21:06.52,0:21:10.40,Dialogue,,0,0,0,,But Inspector Megure, who passed you girls as you headed off to school,
-Dialogue: 0,0:21:10.40,0:21:15.91,Dialogue,,0,0,0,,said 'This must've been theft...'\N the moment he saw that bloody character...
+Dialogue: 0,0:21:10.40,0:21:15.91,Dialogue,,0,0,0,,said 'This must've been theft...'\Nthe moment he saw that bloody character...
 Dialogue: 0,0:21:15.91,0:21:19.66,Dialogue,,0,0,0,,It turned out that we couldn't find a wallet on the corpse either.
 Dialogue: 0,0:21:19.66,0:21:21.83,Dialogue,,0,0,0,,But he bought a can of beer, didn't he?{でもビールは買ってただろ？\N}
 Dialogue: 0,0:21:21.83,0:21:25.92,Dialogue,,0,0,0,,If he lived nearby,{家が近くなら→} couldn't he have carried just enough money to buy it?
@@ -341,7 +336,7 @@ Dialogue: 0,0:21:46.56,0:21:47.31,Dialogue,,0,0,0,,Hey!{おい！}
 Dialogue: 0,0:21:50.57,0:21:51.61,Dialogue,,0,0,0,,Damn it...{くそぉ...。}
 Dialogue: 0,0:21:53.44,0:21:56.86,Thoughts,,0,0,0,,{\be10}Not a murder case, but a theft?
 Dialogue: 0,0:23:20.44,0:23:22.15,Dialogue,,0,0,0,,Isn't it strange?{変だよねぇ？}
-Dialogue: 0,0:23:22.15,0:23:26.45,Dialogue,,0,0,0,,I'm sure Inspector Megure was the lead\N investigator for the case ten years ago too.
+Dialogue: 0,0:23:22.15,0:23:26.45,Dialogue,,0,0,0,,I'm sure Inspector Megure was the lead\Ninvestigator for the case ten years ago too.
 Dialogue: 0,0:23:26.45,0:23:29.62,Dialogue,,0,0,0,,It wouldn't be odd for him to think it was the work of a serial killer.
 Dialogue: 0,0:23:29.62,0:23:31.24,Thoughts,,0,0,0,,{\be10}She has a point...{《確かにそうだ...》}
 Dialogue: 0,0:23:32.58,0:23:38.79,Thoughts,,0,0,0,,{\be10}Ten years ago, Inspector Megure had his eyes fixated on that bloody character, so why?
@@ -356,30 +351,19 @@ Dialogue: 0,0:24:09.40,0:24:14.33,Dialogue,,0,0,0,,Next Conan's Hint: Pocket Cha
 Dialogue: 0,0:24:14.33,0:24:16.16,Dialogue,,0,0,0,,Ran's more concerned about an affair than the case!{null.AR: What I think I heard 事件表裏蘭は浮気な心配。}
 Dialogue: 0,0:24:16.16,0:24:17.75,Dialogue,,0,0,0,,So I can win the trial!{null.AR: what I think I heard 裁判かつためには。}
 Dialogue: 0,0:24:17.75,0:24:18.41,Dialogue,,0,0,0,,Hey, hey!
-Dialogue: 0,0:21:59.57,0:22:07.37,HitomiRomaji,,0,0,0,,{\3c&HFFD4D4&}{\blur4}miagetara haru no ame machi ni oritekita
-Dialogue: 0,0:22:07.57,0:22:15.29,HitomiRomaji,,0,0,0,,{\3c&HFFD4D4&}{\blur4}kimi no aruku michi nurashite yuku
-Dialogue: 0,0:22:16.17,0:22:24.13,HitomiRomaji,,0,0,0,,{\3c&HFFD4D4&}{\blur4}kinō sasatta toge no yō na kimi no kotoba hitotsu
-Dialogue: 0,0:22:24.30,0:22:31.81,HitomiRomaji,,0,0,0,,{\3c&HFFD4D4&}{\blur4}mada honto wa nani mo shiranai yo
+Dialogue: 0,0:21:59.57,0:22:07.37,HitomiRomaji,,0,0,0,,{\3c&HFFD4D4&\blur4}miagetara haru no ame machi ni oritekita
+Dialogue: 0,0:22:07.57,0:22:15.29,HitomiRomaji,,0,0,0,,{\3c&HFFD4D4&\blur4}kimi no aruku michi nurashite yuku
+Dialogue: 0,0:22:16.17,0:22:24.13,HitomiRomaji,,0,0,0,,{\3c&HFFD4D4&\blur4}kinō sasatta toge no yō na kimi no kotoba hitotsu
+Dialogue: 0,0:22:24.30,0:22:31.81,HitomiRomaji,,0,0,0,,{\3c&HFFD4D4&\blur4}mada honto wa nani mo shiranai yo
 Dialogue: 0,0:22:33.73,0:22:49.78,HitomiRomaji,,0,0,0,,{\blur4}sunao ni nareba kodoku nante nai yo hitori de wa nai kara
 Dialogue: 0,0:22:50.62,0:22:58.46,HitomiRomaji,,0,0,0,,{\blur4\3c&HEFF9FD&}don'na mirai kimi to mirai
 Dialogue: 0,0:22:58.71,0:23:07.97,HitomiRomaji,,0,0,0,,{\blur4\3c&HEFF9FD&}sono hitomi no shita e to tashikame ni yuku yo
-Dialogue: 0,0:23:08.34,0:23:15.98,HitomiRomaji,,0,0,0,,{\blur4\3c&HEFF9FD&}{\fad(0,750)}yukkuri to orite yuku kara
-Dialogue: 0,0:21:59.57,0:22:03.45,Signs,,0,0,0,,Hitomi no Melody (The melody in your eyes)
-Dialogue: 0,0:02:49.29,0:02:49.33,Signs,,0,0,0,,(Part I)
-Dialogue: 0,0:02:49.33,0:02:49.37,Signs,,0,0,0,,(Part I)
-Dialogue: 0,0:02:49.37,0:02:49.42,Signs,,0,0,0,,(Part I)
-Dialogue: 0,0:02:49.42,0:02:49.46,Signs,,0,0,0,,(Part I)
-Dialogue: 0,0:02:49.46,0:02:49.50,Signs,,0,0,0,,(Part I)
-Dialogue: 0,0:02:49.50,0:02:49.54,Signs,,0,0,0,,(Part I)
-Dialogue: 0,0:02:49.54,0:02:49.58,Signs,,0,0,0,,(Part I)
-Dialogue: 0,0:02:49.58,0:02:49.63,Signs,,0,0,0,,(Part I)
-Dialogue: 0,0:02:49.63,0:02:49.67,Signs,,0,0,0,,(Part I)
-Dialogue: 0,0:02:49.67,0:02:55.30,Signs,,0,0,0,,(Part I)
+Dialogue: 0,0:23:08.34,0:23:15.98,HitomiRomaji,,0,0,0,,{\blur4\3c&HEFF9FD&\fad(0,750)}yukkuri to orite yuku kara
 Dialogue: 0,0:01:08.13,0:01:11.51,OPTLTextless,,0,0,0,,{\blur2}Take me to the high, we never cry on
 Dialogue: 0,0:01:11.51,0:01:15.13,OPTLTextless,,0,0,0,,{\blur2}To a tomorrow we've never seen
 Dialogue: 0,0:01:15.13,0:01:18.85,OPTLTextless,,0,0,0,,{\blur2}Try again Try again Try again Always
 Dialogue: 0,0:01:18.85,0:01:22.14,OPTLTextless,,0,0,0,,{\blur2}Try again Try again Try again
-Dialogue: 0,0:01:22.14,0:01:25.23,OPTLTextless,,0,0,0,,{\blur2}{\fad(0,300)}Speak out the truth!
+Dialogue: 0,0:01:22.14,0:01:25.23,OPTLTextless,,0,0,0,,{\blur2\fad(0,300)}Speak out the truth!
 Dialogue: 0,0:01:31.28,0:01:34.95,OPTLTextless,,0,0,0,,{\blur2}Not knowing exactly what you're searching for
 Dialogue: 0,0:01:34.95,0:01:38.41,OPTLTextless,,0,0,0,,{\blur2}living in the moment in your reckless way
 Dialogue: 0,0:01:38.41,0:01:42.24,OPTLTextless,,0,0,0,,{\blur2}If you don't brighten up a bit soon
@@ -395,27 +379,4 @@ Dialogue: 0,0:02:12.27,0:02:15.99,OPTLTextless,,0,0,0,,{\blur2}Try again Try aga
 Dialogue: 0,0:02:15.99,0:02:23.04,OPTLTextless,,0,0,0,,{\blur2}Not everything is bad, we're dreamers after all
 Dialogue: 0,0:02:23.04,0:02:26.58,OPTLTextless,,0,0,0,,{\blur2}Try again Try again Try again Always
 Dialogue: 0,0:02:26.58,0:02:30.33,OPTLTextless,,0,0,0,,{\blur2}Try again Try again Try again
-Dialogue: 0,0:02:30.33,0:02:33.71,OPTLTextless,,0,0,0,,{\blur2}{\fad(0,500)}Speak out the truth!
-Dialogue: 0,0:24:06.44,0:24:09.40,Signs,,0,0,0,,(Part II)
-Dialogue: 0,0:00:57.12,0:00:59.91,Signs,,0,0,0,,TRY AGAIN\NSong by Mai Kuraki
-Dialogue: 0,0:01:08.13,0:01:11.51,Signs,,0,0,0,,「Detective Conan」\NSerialised in Shōgakukan's 'Weekly Shōnen Sunday'
-Dialogue: 0,0:01:08.13,0:01:11.51,Signs,,0,0,0,,Original Comics by\NGōshō Aoyama\N
-Dialogue: 0,0:01:31.69,0:01:34.95,Signs,,0,0,0,,Planning\NMichihiko Suwa
-Dialogue: 0,0:01:31.69,0:01:34.95,Signs,,0,0,0,,( )
-Dialogue: 0,0:01:35.11,0:01:38.41,Signs,,0,0,0,,Character Design\NMasatomo Sudō\N\NArt Director\NJun'ichi Higashi
-Dialogue: 0,0:01:38.66,0:01:42.04,Signs,,0,0,0,,Director of Photography\NTakahisa Ogawa\N\NSound Directors\NYasuo Uragami\NKeiko Uragami
-Dialogue: 0,0:01:42.24,0:01:45.54,Signs,,0,0,0,,Music\NKatsuo Ōno
-Dialogue: 0,0:01:45.54,0:01:49.04,Signs,,0,0,0,,Opening Theme\N「TRY AGAIN」
-Dialogue: 0,0:01:45.54,0:01:49.04,Signs,,0,0,0,,Performed by:\NLyrics:\NMusic:\NArrangement:
-Dialogue: 0,0:01:45.54,0:01:49.04,Signs,,0,0,0,,Mai Kuraki\NMai Kuraki\NAkihito Tokunaga\NCybersound
-Dialogue: 0,0:01:45.54,0:01:49.04,Signs,,0,0,0,,(NORTHERN MUSIC)
-Dialogue: 0,0:01:52.71,0:01:56.30,Signs,,0,0,0,,Editor\NTerumitsu Okada\N\NStory Editor\NJun'ichi Iioka\N\NColour Key\NShigenobu Kaihō\N\NExecutive Producer\NSeikō Terajima
-Dialogue: 0,0:02:06.23,0:02:08.69,Signs,,0,0,0,,Planning Assistance\NHiroshi Torimitsu\NKazumasa Ogura\NMasakazu Hakuya
-Dialogue: 0,0:02:08.69,0:02:12.27,Signs,,0,0,0,,Producers\NShūichi Kitada\N\NTakeshi Yamakawa\N\N\N\N\NAssociate Producer\NMitomu Asai
-Dialogue: 0,0:02:08.69,0:02:12.27,Signs,,0,0,0,,( )
-Dialogue: 0,0:02:08.69,0:02:12.27,Signs,,0,0,0,,(TMS/V1 Studio)
-Dialogue: 0,0:02:17.11,0:02:19.57,Signs,,0,0,0,,Chief Producers\NMichihiko Suwa\N\NKei'ichi Ishiyama
-Dialogue: 0,0:02:17.11,0:02:19.57,Signs,,0,0,0,,( )
-Dialogue: 0,0:02:17.11,0:02:19.57,Signs,,0,0,0,,(TMS/V1 Studio)
-Dialogue: 0,0:24:31.27,0:24:33.27,Dialogue,,0,0,0,,
-Dialogue: 0,0:24:33.27,0:24:35.27,Dialogue,,0,0,0,,
+Dialogue: 0,0:02:30.33,0:02:33.71,OPTLTextless,,0,0,0,,{\blur2\fad(0,500)}Speak out the truth!

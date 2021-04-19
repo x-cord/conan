@@ -43,14 +43,14 @@ Style: RoomSetup,Ubuntu,20,&H80000000,&H000000FF,&H1AA9CDD5,&H80000000,-1,0,0,0,
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:25.02,0:00:26.89,Narration Off,,0000,0000,0000,,{\be10}Love lasts forever, riddles are puzzling...
-Dialogue: 0,0:00:26.89,0:00:29.40,Narration Off,,0000,0000,0000,,{\be10}...and Saturday nights are for mystery!
-Dialogue: 0,0:00:29.40,0:00:31.36,Narration Off,,0000,0000,0000,,{\be10}The Night Baron case's conclusion!
-Dialogue: 0,0:00:31.36,0:00:33.65,Narration Off,,0000,0000,0000,,{\be10}Underneath the mask lies an unexpected killer!
-Dialogue: 0,0:00:33.65,0:00:35.36,Narration Off,,0000,0000,0000,,{\be10}He sees the single truth for what it is,
+Dialogue: 0,0:00:25.02,0:00:26.89,Narration Off,,0000,0000,0000,,{\be10\fad(300,0)\c&H00FFFF}Love lasts forever, riddles are puzzling...
+Dialogue: 0,0:00:26.89,0:00:29.40,Narration Off,,0000,0000,0000,,{\be10\fad(0,400)\c&H00FFFF}...and Saturday nights are for mystery!
+Dialogue: 0,0:00:29.40,0:00:31.36,Narration Off,,0000,0000,0000,,{\be10\fad(300,0)\c&H88FFFF}The Night Baron case's conclusion!
+Dialogue: 0,0:00:31.36,0:00:33.65,Narration Off,,0000,0000,0000,,{\be10\fad(0,300)\c&H88FFFF}Underneath the mask lies an unexpected killer!
+Dialogue: 0,0:00:33.65,0:00:35.36,Narration Off,,0000,0000,0000,,{\be10\fad(400,0)}He sees the single truth for what it is,
 Dialogue: 0,0:00:35.36,0:00:37.36,Narration Off,,0000,0000,0000,,{\be10}and looks like a kid but has the mind of an adult!
 Dialogue: 0,0:00:37.36,0:00:39.20,Narration Off,,0000,0000,0000,,{\be10}His name? Detective Conan!
-Dialogue: 0,0:21:12.18,0:21:18.81,ED-TL,,0000,0000,0000,,{\be6}{\fad(200,0)}I'll shine on you the light you once shone upon me
+Dialogue: 0,0:21:12.18,0:21:18.81,ED-TL,,0000,0000,0000,,{\be6\fad(200,0)}I'll shine on you the light you once shone upon me
 Dialogue: 0,0:21:18.81,0:21:28.11,ED-TL,,0000,0000,0000,,{\be6}as I offer my endless love to you
 Dialogue: 0,0:21:35.12,0:21:40.00,ED-TL,,0000,0000,0000,,{\be6}Even if those times seem to have shattered,
 Dialogue: 0,0:21:40.00,0:21:46.05,ED-TL,,0000,0000,0000,,{\be6}you were right there next to me
@@ -60,25 +60,7 @@ Dialogue: 0,0:22:01.44,0:22:08.23,ED-TL,,0000,0000,0000,,{\be6}I'll shine on you
 Dialogue: 0,0:22:08.23,0:22:12.82,ED-TL,,0000,0000,0000,,{\be6}In your voice and eyes
 Dialogue: 0,0:22:12.82,0:22:16.49,ED-TL,,0000,0000,0000,,{\be6}I can feel a gentle warmth, like a burning lamp
 Dialogue: 0,0:22:16.49,0:22:22.96,ED-TL,,0000,0000,0000,,{\be6}and I'll never let it burn out again...
-Dialogue: 0,0:22:22.96,0:22:31.42,ED-TL,,0000,0000,0000,,{\be6}{\fad(0,300)}So I dedicate to you this eternal vow
-Dialogue: 0,0:03:04.63,0:03:04.68,Signs,,0000,0000,0000,,ase Pa
-Dialogue: 0,0:03:04.63,0:03:04.68,Signs,,0000,0000,0000,,n Mur
-Dialogue: 0,0:03:04.68,0:03:04.72,Signs,,0000,0000,0000,,t Baron Murde
-Dialogue: 0,0:03:04.72,0:03:04.76,Signs,,0000,0000,0000,,Night Baron Murder Cas
-Dialogue: 0,0:03:04.76,0:03:04.80,Signs,,0000,0000,0000,,The Night Baron Murder Case
-Dialogue: 0,0:03:04.80,0:03:04.84,Signs,,0000,0000,0000,,The Night Baron Murder Case
-Dialogue: 0,0:03:04.84,0:03:04.89,Signs,,0000,0000,0000,,The Night Baron Murder Case
-Dialogue: 0,0:03:04.89,0:03:04.93,Signs,,0000,0000,0000,,The Night Baron Murder Case
-Dialogue: 0,0:03:04.93,0:03:04.97,Signs,,0000,0000,0000,,The Night Baron Murder Case
-Dialogue: 0,0:03:04.97,0:03:10.72,Signs,,0000,0000,0000,,The Night Baron Murder Case
-Dialogue: 0,0:03:04.68,0:03:04.72,Signs,,0000,0000,0000,,Case Closed
-Dialogue: 0,0:03:04.72,0:03:04.76,Signs,,0000,0000,0000,,(Case Closed)
-Dialogue: 0,0:03:04.76,0:03:04.80,Signs,,0000,0000,0000,,(Case Closed)
-Dialogue: 0,0:03:04.80,0:03:04.84,Signs,,0000,0000,0000,,(Case Closed)
-Dialogue: 0,0:03:04.84,0:03:04.89,Signs,,0000,0000,0000,,(Case Closed)
-Dialogue: 0,0:03:04.89,0:03:04.93,Signs,,0000,0000,0000,,(Case Closed)
-Dialogue: 0,0:03:04.93,0:03:04.97,Signs,,0000,0000,0000,,(Case Closed)
-Dialogue: 0,0:03:04.97,0:03:10.72,Signs,,0000,0000,0000,,(Case Closed)
+Dialogue: 0,0:22:22.96,0:22:31.42,ED-TL,,0000,0000,0000,,{\be6\fad(0,300)}So I dedicate to you this eternal vow
 Dialogue: 0,0:00:01.31,0:00:23.05,Signs,,0000,0000,0000,,Perfect Crime
 Dialogue: 0,0:00:01.56,0:00:03.60,Narration Off,,0000,0000,0000,,{\be10}A perfect crime.
 Dialogue: 0,0:00:03.60,0:00:08.65,Narration Off,,0000,0000,0000,,{\be10}An unsolvable crime, where nobody can uncover the true circumstances behind it.
@@ -90,13 +72,13 @@ Dialogue: 0,0:02:20.22,0:02:23.05,Thoughts,,0000,0000,0000,,{\be10}Ran, the old 
 Dialogue: 0,0:02:23.05,0:02:27.99,Thoughts,,0000,0000,0000,,{\be10}replacing Dr. Agasa, his friend,\Nand his friend's granddaughter.
 Dialogue: 0,0:02:27.99,0:02:32.73,Thoughts,,0000,0000,0000,,{\be10}Whoever determines the organiser's\Nidentity gets to stay for free
 Dialogue: 0,0:02:32.73,0:02:36.27,Thoughts,,0000,0000,0000,,{\be10}and receives floppy disks\Ncontaining a certain program.
-Dialogue: 0,0:02:36.27,0:02:42.15,Thoughts,,0000,0000,0000,,{\be10}But then Ebara{\rHonorifics - Thoughts}-san{\r} -- dressed as\Nthe Night Baron -- fell to his death!
+Dialogue: 0,0:02:36.27,0:02:42.15,Thoughts,,0000,0000,0000,,{\be10}But then Ebara{\rHonorifics - Thoughts\be10}-san{\r\be10} -- dressed as\Nthe Night Baron -- fell to his death!
 Dialogue: 0,0:02:42.74,0:02:44.95,Thoughts,,0000,0000,0000,,{\be10}It was clearly a murder!
-Dialogue: 0,0:02:44.95,0:02:51.41,Thoughts,,0000,0000,0000,,{\be10}How'd the killer leave after\Npushing Ebara{\rHonorifics - Thoughts}-san{\r} off his veranda?
+Dialogue: 0,0:02:44.95,0:02:51.41,Thoughts,,0000,0000,0000,,{\be10}How'd the killer leave after\Npushing Ebara{\rHonorifics - Thoughts\be10}-san{\r\be10} off his veranda?
 Dialogue: 0,0:02:51.41,0:02:55.92,Thoughts,,0000,0000,0000,,{\be10}He then knocked out a karate\Nexpert guarding the body
 Dialogue: 0,0:02:55.92,0:02:58.71,Thoughts,,0000,0000,0000,,{\be10}and appeared before us\Nas the Night Baron!
-Dialogue: 0,0:02:58.71,0:03:00.76,Thoughts,,0000,0000,0000,,{\be10}Ran's kicks were useless.
-Dialogue: 0,0:03:01.42,0:03:02.97,Thoughts,,0000,0000,0000,,{\be10}Could the killer be--
+Dialogue: 0,0:02:58.71,0:03:00.76,Thoughts,,0000,0000,0000,,{\be10\fad(0,500)}Ran's kicks were useless.
+Dialogue: 0,0:03:01.42,0:03:02.97,Thoughts,,0000,0000,0000,,{\be10\fad(200,0)}Could the killer be--
 Dialogue: 0,0:03:13.06,0:03:18.65,Dialogue,,0000,0000,0000,,Was that policeman\Nreally a karate expert?!
 Dialogue: 0,0:03:18.65,0:03:20.98,Dialogue,,0000,0000,0000,,Yeah, a third level black belt.
 Dialogue: 0,0:03:20.98,0:03:21.82,Dialogue,,0000,0000,0000,,Really?
@@ -107,7 +89,7 @@ Dialogue: 0,0:03:33.25,0:03:36.21,Thoughts,,0000,0000,0000,,{\be10}...was the Ja
 Dialogue: 0,0:03:36.21,0:03:37.83,Thoughts,,0000,0000,0000,,{\be10}Only he could've done it.
 Dialogue: 0,0:03:37.83,0:03:43.30,Thoughts,,0000,0000,0000,,{\be10}So that's why neither of them\Nran after the Night Baron!
 Dialogue: 0,0:03:43.30,0:03:48.35,Thoughts,,0000,0000,0000,,{\be10}They both realised it was him!
-Dialogue: 0,0:03:48.35,0:03:49.72,Thoughts,,0000,0000,0000,,{\be10}{\fad(0,200)}Ran...
+Dialogue: 0,0:03:48.35,0:03:49.72,Thoughts,,0000,0000,0000,,{\be10\fad(0,200)}Ran...
 Dialogue: 0,0:03:52.77,0:03:56.23,Thoughts,,0000,0000,0000,,{\be10}What would Shin'ichi do in this situation?
 Dialogue: 0,0:03:56.23,0:03:58.19,Thoughts,,0000,0000,0000,,{\be10}What would Shin'ichi...
 Dialogue: 0,0:03:58.19,0:04:00.73,Dialogue,,0000,0000,0000,,Eh? If I knew the criminal?
@@ -186,7 +168,7 @@ Dialogue: 0,0:08:14.44,0:08:16.24,Dialogue,,0000,0000,0000,,Sounds suspicious...
 Dialogue: 0,0:08:16.24,0:08:17.78,Signs,,0000,0000,0000,,Princess Hotel 2F\NPub Emerald
 Dialogue: 0,0:08:17.78,0:08:21.37,Dialogue,,0000,0000,0000,,Kamjō{\rHonorifics - Dialogue}-san{\r} drugged my glass!?
 Dialogue: 0,0:08:21.37,0:08:24.20,Dialogue,,0000,0000,0000,,Yes. You fell asleep afterward...
-Dialogue: 0,0:08:24.20,0:08:28.71,Thoughts,,0000,0000,0000,,{\be10}Knew it! Kamijō{\rHonorifics - Thoughts}-san{\r}'s pills {\i1}were{\i0} a sleeping drug!
+Dialogue: 0,0:08:24.20,0:08:28.71,Thoughts,,0000,0000,0000,,{\be10}Knew it! Kamijō{\rHonorifics - Thoughts\be10}-san{\r\be10}'s pills {\i1}were{\i0} a sleeping drug!
 Dialogue: 0,0:08:28.71,0:08:31.42,Thoughts,,0000,0000,0000,,{\be10}Did she drug the old man to create an alibi?
 Dialogue: 0,0:08:31.42,0:08:33.38,Dialogue,,0000,0000,0000,,What about her?
 Dialogue: 0,0:08:33.38,0:08:38.39,Dialogue,,0000,0000,0000,,She went to the restroom,\Nbut returned five minutes later.
@@ -199,11 +181,11 @@ Dialogue: 0,0:08:58.32,0:09:00.45,Dialogue,,0000,0000,0000,,Crap! I suspected th
 Dialogue: 0,0:09:00.45,0:09:04.58,Dialogue,,0000,0000,0000,,It's okay. We've narrowed\Nit down to two suspects now!
 Dialogue: 0,0:09:04.58,0:09:07.21,Thoughts,,0000,0000,0000,,{\be10}That's true.
 Dialogue: 0,0:09:07.21,0:09:10.96,Thoughts,,0000,0000,0000,,{\be10}The only ones with unconfirmed alibis
-Dialogue: 0,0:09:10.96,0:09:13.80,Thoughts,,0000,0000,0000,,{\be10}are Kon'no{\rHonorifics - Thoughts}-san{\r} {\i}and Maeda{\rHonorifics - Thoughts}-san{\r}.
-Dialogue: 0,0:09:13.80,0:09:17.17,Thoughts,,0000,0000,0000,,{\be10}Maeda{\rHonorifics - Thoughts}-san{\r} {\i}was with us in\Nthe observation lounge,
-Dialogue: 0,0:09:17.17,0:09:21.09,Thoughts,,0000,0000,0000,,{\be10}but he's the one who checked\Nthe time, so he could've lied.
-Dialogue: 0,0:09:21.51,0:09:27.39,Thoughts,,0000,0000,0000,,{\be10}And considering that the knocked-out\Nofficer was a karate expert,
-Dialogue: 0,0:09:29.35,0:09:31.48,Thoughts,,0000,0000,0000,,{\be10}Maeda{\rHonorifics - Thoughts}-san{\r} {\i0}must be the one who...
+Dialogue: 0,0:09:10.96,0:09:13.80,Thoughts,,0000,0000,0000,,{\be10}are Kon'no{\rHonorifics - Thoughts\be10}-san{\r\be10} {\i}and Maeda{\rHonorifics - Thoughts\be10}-san{\r\be10}.
+Dialogue: 0,0:09:13.80,0:09:17.17,Thoughts,,0000,0000,0000,,{\be10}Maeda{\rHonorifics - Thoughts\be10}-san{\r\be10} {\i}was with us in\Nthe observation lounge,
+Dialogue: 0,0:09:17.17,0:09:21.09,Thoughts,,0000,0000,0000,,{\be10\fad(0,300)}but he's the one who checked\Nthe time, so he could've lied.
+Dialogue: 0,0:09:21.51,0:09:27.39,Thoughts,,0000,0000,0000,,{\be10\fad(200,0)}And considering that the knocked-out\Nofficer was a karate expert,
+Dialogue: 0,0:09:29.35,0:09:31.48,Thoughts,,0000,0000,0000,,{\be10}Maeda{\rHonorifics - Thoughts\be10}-san{\r\be10} {\i0}must be the one who...
 Dialogue: 0,0:09:31.48,0:09:33.02,Dialogue,,0000,0000,0000,,Conan{\rHonorifics - Dialogue}-kun{\r}!
 Dialogue: 0,0:09:33.02,0:09:34.77,Dialogue,,0000,0000,0000,,Ran-{\i1}néechan{\i}!
 Dialogue: 0,0:09:35.78,0:09:37.44,Dialogue,,0000,0000,0000,,Where's Dad?
@@ -215,14 +197,14 @@ Dialogue: 0,0:09:53.96,0:09:56.21,Dialogue,,0000,0000,0000,,The time was 10:03!
 Dialogue: 0,0:09:56.21,0:09:59.97,Dialogue,,0000,0000,0000,,They're sure of it, because they\Neven checked their own watches!
 Dialogue: 0,0:09:59.97,0:10:02.93,Dialogue,,0000,0000,0000,,Shouldn't you bring them here, then?
 Dialogue: 0,0:10:02.93,0:10:05.89,Dialogue,,0000,0000,0000,,Right! I'll go get them!
-Dialogue: 0,0:10:05.89,0:10:09.93,Thoughts,,0000,0000,0000,,{\be10}Ah! So Maeda{\rHonorifics - Thoughts}-san{\r} {\i1}wasn't the killer!
+Dialogue: 0,0:10:05.89,0:10:09.93,Thoughts,,0000,0000,0000,,{\be10}Ah! So Maeda{\rHonorifics - Thoughts\be10}-san{\r\be10} {\i1}wasn't the killer!
 Dialogue: 0,0:10:09.93,0:10:10.81,Thoughts,,0000,0000,0000,,{\be10}Wait a minute!
-Dialogue: 0,0:10:11.27,0:10:14.73,Thoughts,,0000,0000,0000,,{\be10}Then why didn't he mention\Nit when he was questioned?!
+Dialogue: 0,0:10:11.27,0:10:14.73,Thoughts,,0000,0000,0000,,{\be10\fad(200,0)}Then why didn't he mention\Nit when he was questioned?!
 Dialogue: 0,0:10:14.73,0:10:16.65,Thoughts,,0000,0000,0000,,{\be10}It's an airtight alibi!
 Dialogue: 0,0:10:16.65,0:10:19.15,Thoughts,,0000,0000,0000,,{\be10}Maybe he couldn't mention it?
-Dialogue: 0,0:10:19.15,0:10:20.45,Thoughts,,0000,0000,0000,,{\be10}But why?
-Dialogue: 0,0:10:21.78,0:10:26.28,Thoughts,,0000,0000,0000,,{\be10}It's the pen I dropped.\NIt's leaking ink from the shock...
-Dialogue: 0,0:10:26.28,0:10:30.71,Thoughts,,0000,0000,0000,,{\be10}{be6}Not surprising... it {\i1}did{\i0} fall from\NEbara{\rHonorifics - Thoughts}-san{\r}'s room on the 21st floor...
+Dialogue: 0,0:10:19.15,0:10:20.45,Thoughts,,0000,0000,0000,,{\be10\fad(0,200)}But why?
+Dialogue: 0,0:10:21.78,0:10:26.28,Thoughts,,0000,0000,0000,,{\be10\fad(200,0)}It's the pen I dropped.\NIt's leaking ink from the shock...
+Dialogue: 0,0:10:26.28,0:10:30.71,Thoughts,,0000,0000,0000,,{\be10be6}Not surprising... it {\i1}did{\i0} fall from\NEbara{\rHonorifics - Thoughts\be10}-san{\r\be10}'s room on the 21st floor...
 Dialogue: 0,0:10:30.71,0:10:31.66,Thoughts,,0000,0000,0000,,{\be10}Huh?
 Dialogue: 0,0:10:32.25,0:10:37.09,Thoughts,,0000,0000,0000,,{\be10}That's odd. He fell off the\Nsame veranda but hit the statue...
 Dialogue: 0,0:10:37.09,0:10:40.01,Thoughts,,0000,0000,0000,,{\be10}Oh, right. The wind blew it over...
@@ -237,7 +219,7 @@ Dialogue: 0,0:10:58.07,0:11:01.32,Dialogue,,0000,0000,0000,,It's our famous "Pri
 Dialogue: 0,0:11:01.32,0:11:03.99,Dialogue,,0000,0000,0000,,It's a lot stronger higher up, though!
 Dialogue: 0,0:11:03.99,0:11:05.37,Thoughts,,0000,0000,0000,,{\be10}Hold on...
 Dialogue: 0,0:11:05.37,0:11:08.33,Thoughts,,0000,0000,0000,,{\be10}There's one place where the wind...
-Dialogue: 0,0:11:12.54,0:11:16.33,Thoughts,,0000,0000,0000,,{\be10}I can't believe I didn't realise something this simple...
+Dialogue: 0,0:11:12.54,0:11:16.33,Thoughts,,0000,0000,0000,,{\be10\fad(200,0)}I can't believe I didn't realise something this simple...
 Dialogue: 0,0:11:16.33,0:11:19.50,Thoughts,,0000,0000,0000,,{\be10}Now I'm sure! That's the killer!
 Dialogue: 0,0:11:19.50,0:11:24.30,Dialogue,,0000,0000,0000,,What?! The knocked-out\Nofficer was a karate expert?!
 Dialogue: 0,0:11:24.30,0:11:26.84,Dialogue,,0000,0000,0000,,Okay! Now I know who did it!
@@ -271,7 +253,7 @@ Dialogue: 0,0:12:56.52,0:12:57.77,Dialogue,,0000,0000,0000,,It's true!
 Dialogue: 0,0:12:57.77,0:12:59.44,Dialogue,,0000,0000,0000,,No way!
 Dialogue: 0,0:12:59.44,0:13:02.07,Dialogue,,0000,0000,0000,,Then who did it?
 Dialogue: 0,0:13:02.07,0:13:04.23,Dialogue,,0000,0000,0000,,Will you get serious?!
-Dialogue: 0,0:13:05.28,0:13:06.90,Thoughts,,0000,0000,0000,,{\be10}Of course!
+Dialogue: 0,0:13:05.28,0:13:06.90,Thoughts,,0000,0000,0000,,{\be10\fad(200,0)}Of course!
 Dialogue: 0,0:13:06.90,0:13:11.49,Dialogue,,0000,0000,0000,,The killer is the\Nalibi-less Shirō Kon'no!
 Dialogue: 0,0:13:11.49,0:13:14.83,Dialogue,,0000,0000,0000,,Don't be fooled by\Nhis looks, people!
 Dialogue: 0,0:13:14.83,0:13:19.33,Dialogue,,0000,0000,0000,,Hide it as he may, this man\Nis actually a karate expert!
@@ -397,8 +379,8 @@ Dialogue: 0,0:20:22.84,0:20:25.13,Dialogue,,0000,0000,0000,,So forget about me a
 Dialogue: 0,0:20:36.64,0:20:38.35,Dialogue,,0000,0000,0000,,I'll be waiting.
 Dialogue: 0,0:20:38.35,0:20:41.36,Dialogue,,0000,0000,0000,,I'll be waiting until you get out!
 Dialogue: 0,0:20:42.27,0:20:43.82,Dialogue,,0000,0000,0000,,You moron...
-Dialogue: 0,0:20:45.11,0:20:51.07,Thoughts,,0000,0000,0000,,{\be10}After that, Akiko{\rHonorifics - Thoughts}-san{\r} {\i0}slightly nodded and got into the police car.
-Dialogue: 0,0:20:51.07,0:20:56.54,Thoughts,,0000,0000,0000,,{\be10}Maeda{\rHonorifics - Thoughts}-san{\r} {\i0}was taken into another\Ncar for police obstruction,
+Dialogue: 0,0:20:45.11,0:20:51.07,Thoughts,,0000,0000,0000,,{\be10\fad(300,0)}After that, Akiko{\rHonorifics - Thoughts\be10}-san{\r\be10} {\i0}slightly nodded and got into the police car.
+Dialogue: 0,0:20:51.07,0:20:56.54,Thoughts,,0000,0000,0000,,{\be10}Maeda{\rHonorifics - Thoughts\be10}-san{\r\be10} {\i0}was taken into another\Ncar for police obstruction,
 Dialogue: 0,0:20:56.54,0:21:01.50,Thoughts,,0000,0000,0000,,{\be10}but Detective Yokomizo says he may get off on mitigating circumstances.
 Dialogue: 0,0:21:01.50,0:21:05.26,Thoughts,,0000,0000,0000,,{\be10}As we watched the cars leave,
 Dialogue: 0,0:21:05.26,0:21:10.47,Thoughts,,0000,0000,0000,,{\be10}the Princess Wind\Ncried sadly around us.
@@ -429,4 +411,3 @@ Dialogue: 0,0:23:46.57,0:23:48.59,Dialogue,,0000,0000,0000,,No, that's no it!
 Dialogue: 0,0:23:48.59,0:23:50.31,Dialogue,,0000,0000,0000,,Who's this "he?"
 Dialogue: 0,0:23:50.31,0:23:52.55,Dialogue,,0000,0000,0000,,Not you too, Conan{\rHonorifics - Dialogue}-kun{\r}!
 Dialogue: 0,0:23:52.55,0:23:56.89,Dialogue,,0000,0000,0000,,You know who I mean! That wandering mystery geek!
-Dialogue: 0,0:00:16.74,0:00:18.70,Narration Off,,0000,0000,0000,,{\be10}

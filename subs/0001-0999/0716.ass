@@ -61,9 +61,9 @@ Style: Poodles,MV Boli M,70,&H400102B5,&H000809FC,&H00CFF2F3,&H80000000,0,0,0,0,
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:02.76,0:00:05.48,Dialogue,,0,0,0,,{\a6}The plan takes all contingencies into account.
-Dialogue: 0,0:00:06.19,0:00:09.98,Dialogue,,0,0,0,,{\a6}Everything is set to make it look like an accident.
-Dialogue: 0,0:00:10.81,0:00:14.49,Dialogue,,0,0,0,,{\a6}I've already prepared the poison.
+Dialogue: 0,0:00:02.76,0:00:05.48,Dialogue Top,,0,0,0,,The plan takes all contingencies into account.
+Dialogue: 0,0:00:06.19,0:00:09.98,Dialogue Top,,0,0,0,,Everything is set to make it look like an accident.
+Dialogue: 0,0:00:10.81,0:00:14.49,Dialogue Top,,0,0,0,,I've already prepared the poison.
 Dialogue: 0,0:00:15.23,0:00:19.29,Dialogue,,0,0,0,,Soon we'll find out whether his blood is as red as ours.
 Dialogue: 0,0:00:20.46,0:00:23.68,Dialogue,,0,0,0,,Fortunately for us, the museum will be closed next Sunday.
 Dialogue: 0,0:00:23.68,0:00:27.71,Dialogue,,0,0,0,,No staff members beside us will be there.
@@ -90,12 +90,12 @@ Dialogue: 0,0:01:46.65,0:01:51.67,Dialogue,,0,0,0,,Somehow it seems that I'm the
 Dialogue: 0,0:01:52.41,0:01:57.00,Dialogue,,0,0,0,,If I try it on my own and end up being exposed, I'll lose everything.
 Dialogue: 0,0:01:57.65,0:02:01.55,Dialogue,,0,0,0,,And if we work together, we'll have a better{\rHonorifics - Dialogue} chan{\r}ce for success.
 Dialogue: 0,0:02:02.36,0:02:07.19,Dialogue,,0,0,0,,Very well. Then we'll carry out the plan next Sunday.
-Dialogue: 0,0:02:20.81,0:02:24.94,Narration Off,,0,0,0,,{\be10}Seeking comprehensive answers, he clears all mysteries and codes!
-Dialogue: 0,0:02:24.94,0:02:26.99,Narration Off,,0,0,0,,{\be10}A dangerous conversation in the Noh mask museum.
-Dialogue: 0,0:02:26.99,0:02:29.20,Narration Off,,0,0,0,,{\be10}What secrets do their three masks hide?
-Dialogue: 0,0:02:29.20,0:02:30.95,Narration Off,,0,0,0,,{\be10}He sees the single truth for what it is,
-Dialogue: 0,0:02:30.95,0:02:32.65,Narration Off,,0,0,0,,{\be10}and looks like a kid but has the mind of an adult!
-Dialogue: 0,0:02:32.65,0:02:35.54,Narration Off,,0,0,0,,{\be10}His name? Detective Conan!
+Dialogue: 0,0:02:20.81,0:02:24.94,Narration Off,,0,0,0,,{\be10\c&HAAAA00\t(0,4130,\c)}Seeking comprehensive answers, he clears all mysteries and codes!
+Dialogue: 0,0:02:24.94,0:02:26.99,Narration Off,,0,0,0,,{\be10\t(0,2050,\c&H88AA00)}A dangerous conversation in the Noh mask museum.
+Dialogue: 0,0:02:26.99,0:02:29.20,Narration Off,,0,0,0,,{\be10\c&H88AA00}What secrets do their three masks hide?
+Dialogue: 0,0:02:29.20,0:02:30.95,Narration Off,,0,0,0,,{\be10\c&H88AA00)\t(0,1750,\c)}He sees the single truth for what it is,
+Dialogue: 0,0:02:30.95,0:02:32.65,Narration Off,,0,0,0,,{\be10\t(0,1700,\c&HAA00AA)}and looks like a kid but has the mind of an adult!
+Dialogue: 0,0:02:32.65,0:02:35.54,Narration Off,,0,0,0,,{\be10\c&HAA00AA\t(0,1600,\c&H0000FF)}His name? Detective Conan!
 Dialogue: 0,0:04:29.10,0:04:31.74,Dialogue,,0,0,0,,What's this? Looks like they're closed.
 Dialogue: 0,0:04:32.17,0:04:33.74,Dialogue,,0,0,0,,You're right.
 Dialogue: 0,0:04:34.43,0:04:36.99,Dialogue,,0,0,0,,It doesn't matter. We have urgent business after all.
@@ -106,7 +106,7 @@ Dialogue: 0,0:04:44.15,0:04:49.00,Dialogue,,0,0,0,,The museum is closed today, s
 Dialogue: 0,0:04:49.00,0:04:52.53,Dialogue,,0,0,0,,Excuse me! I'm Naruya Akaza.
 Dialogue: 0,0:04:52.53,0:04:55.38,Dialogue,,0,0,0,,I have an appointment with Izumi{\rHonorifics - Dialogue}-san{\r}.
 Dialogue: 0,0:05:00.22,0:05:04.81,Dialogue,,0,0,0,,Oh, Moyono Mibu{\rHonorifics - Dialogue}-san{\r}, right? Long time no see.
-Dialogue: 0,0:05:07.45,0:05:09.82,Dialogue,,0,0,0,,{\a6}Let me open the front door.
+Dialogue: 0,0:05:07.45,0:05:09.82,Dialogue Top,,0,0,0,,Let me open the front door.
 Dialogue: 0,0:05:06.44,0:05:09.82,Signs,,0,0,0,,Moyono Mibu (38)\NNoh Mask Museum Accountant and Receptionist
 Dialogue: 0,0:05:18.88,0:05:21.66,Dialogue,,0,0,0,,Excuse me, Sir, you can't just walk in!
 Dialogue: 0,0:05:21.74,0:05:25.58,Dialogue,,0,0,0,,As I just informed you, we're closed today.
@@ -132,7 +132,7 @@ Dialogue: 0,0:06:35.64,0:06:39.68,Dialogue,,0,0,0,,I probably should have said e
 Dialogue: 0,0:06:40.91,0:06:45.91,Dialogue,,0,0,0,,You're the great detective, Sleeping Kogorō?!
 Dialogue: 0,0:06:45.91,0:06:49.28,Dialogue,,0,0,0,,Well, people call me that, yes.
 Dialogue: 0,0:06:55.46,0:06:59.34,Dialogue,,0,0,0,,I'm an old acquaintance of Izumi's.{uso: removed {\rHonorifics - Dialogue}-san{\r}, actually is the word "curator" earlier}
-Dialogue: 0,0:06:59.34,0:07:03.59,Dialogue,,0,0,0,,{\a6}But I'm surprised that you'd bring a kid along when investigating a murder threat.
+Dialogue: 0,0:06:59.34,0:07:03.59,Dialogue Top,,0,0,0,,But I'm surprised that you'd bring a kid along when investigating a murder threat.
 Dialogue: 0,0:06:59.59,0:07:03.59,Signs,,0,0,0,,Naruya Akaza (40)\NAcquaintance of Jisaburō's / Promoter
 Dialogue: 0,0:07:03.59,0:07:07.49,Dialogue,,0,0,0,,Well, the kid really wanted to see the Noh masks.
 Dialogue: 0,0:07:07.49,0:07:08.62,Dialogue,,0,0,0,,I see.\N
@@ -141,9 +141,9 @@ Dialogue: 0,0:07:12.86,0:07:13.86,Dialogue,,0,0,0,,Thank you.
 Dialogue: 0,0:07:16.39,0:07:18.86,Dialogue,,0,0,0,,How on earth did that leak out?
 Dialogue: 0,0:07:19.11,0:07:27.29,Signs,,0,0,0,,Seinosuke Nagata (60)\NNoh Mask Museum Manager
 Dialogue: 0,0:07:19.11,0:07:27.29,Signs,,0,0,0,,Tatsurō Seikanji (45)\NNoh Mask Museum Executive
-Dialogue: 0,0:07:19.77,0:07:22.67,Dialogue,,0,0,0,,{\a6}Who'd have thought a great detective like him would come here?
-Dialogue: 0,0:07:22.67,0:07:25.30,Dialogue,,0,0,0,,{\a6}It might be better to put our plan on hold.
-Dialogue: 0,0:07:26.11,0:07:27.66,Dialogue,,0,0,0,,{\a6}Where is the curator?{uso: "curator" was "Izumi{\rHonorifics - Dialogue}-san{\r}"}
+Dialogue: 0,0:07:19.77,0:07:22.67,Dialogue Top,,0,0,0,,Who'd have thought a great detective like him would come here?
+Dialogue: 0,0:07:22.67,0:07:25.30,Dialogue Top,,0,0,0,,It might be better to put our plan on hold.
+Dialogue: 0,0:07:26.11,0:07:27.66,Dialogue Top,,0,0,0,,Where is the curator?{uso: "curator" was "Izumi{\rHonorifics - Dialogue}-san{\r}"}
 Dialogue: 0,0:07:28.64,0:07:31.92,Dialogue,,0,0,0,,It's just about time for his visit to the mansion god.
 Dialogue: 0,0:07:31.92,0:07:34.50,Dialogue,,0,0,0,,That's why Akaza's leading them there.
 Dialogue: 0,0:07:36.93,0:07:39.55,Dialogue,,0,0,0,,I-It's too late to stop!
@@ -156,7 +156,7 @@ Dialogue: 0,0:08:03.11,0:08:09.35,Dialogue,,0,0,0,,Well, a lot of people resent 
 Dialogue: 0,0:08:10.92,0:08:12.87,Dialogue,,0,0,0,,Ah, there he is!
 Dialogue: 0,0:08:12.87,0:08:16.21,Dialogue,,0,0,0,,Good morning, Curator Izumi{uso: {\rHonorifics - Dialogue}-san{\r} mistake for -kanchou AGAIN}.
 Dialogue: 0,0:08:16.46,0:08:20.92,Signs,,0,0,0,,Jisaburō Izumi (65)\NNoh Mask Museum Owner
-Dialogue: 0,0:08:16.57,0:08:20.28,Dialogue,,0,0,0,,{\a6}Akaza{\rHonorifics - Dialogue}-kun{\r}. Right on time, it seems.
+Dialogue: 0,0:08:16.57,0:08:20.28,Dialogue Top,,0,0,0,,Akaza{\rHonorifics - Dialogue}-kun{\r}. Right on time, it seems.
 Dialogue: 0,0:08:25.14,0:08:28.10,Signs,,0,0,0,,Hatsuho Toba (28)\NJisaburō's Assigned Nurse
 Dialogue: 0,0:08:28.10,0:08:32.02,Dialogue,,0,0,0,,And? Who would you be?
 Dialogue: 0,0:08:40.83,0:08:45.70,Dialogue,,0,0,0,,I'm used to threatening letters, you know. No need to fuss about it.
@@ -181,7 +181,7 @@ Dialogue: 0,0:10:43.09,0:10:45.36,Dialogue,,0,0,0,,But what kind of precautions?
 Dialogue: 0,0:10:45.36,0:10:48.95,Dialogue,,0,0,0,,For example, what's exhibited over there?
 Dialogue: 0,0:10:52.26,0:10:55.10,Dialogue,,0,0,0,,Medals and {\i1}odoshi{\i0}.\N
 Dialogue: 0,0:10:55.10,0:10:58.58,Dialogue,,0,0,0,,They're plaited cords, arranged in belt form and used as decoration.
-Dialogue: 0,0:10:58.58,0:11:00.96,Dialogue,,0,0,0,,Odoshi{\i0} are a part of traditional armour.
+Dialogue: 0,0:10:58.58,0:11:00.96,Dialogue,,0,0,0,,{\i1}Odoshi{\i0} are a part of traditional armour.
 Dialogue: 0,0:11:00.96,0:11:03.34,Dialogue,,0,0,0,,Then they're probably very sturdy, right?
 Dialogue: 0,0:11:04.75,0:11:06.14,Dialogue,,0,0,0,,What about it?\N
 Dialogue: 0,0:11:07.35,0:11:09.25,Dialogue,,0,0,0,,Is that a wasp? It's rather big!
@@ -213,10 +213,10 @@ Dialogue: 0,0:13:09.90,0:13:11.88,Dialogue,,0,0,0,,Did you know that, kid?
 Dialogue: 0,0:13:11.88,0:13:13.65,Dialogue,,0,0,0,,Huh? Know what?
 Dialogue: 0,0:13:15.00,0:13:15.68,Thoughts,,0,0,0,,{\be10}It's still raw!
 Dialogue: 0,0:13:15.98,0:13:20.42,Dialogue,,0,0,0,,Under the glow of the fire, the whole family would amuse themselves with stories.
-Dialogue: 0,0:13:20.42,0:13:23.93,Signs,,0,0,0,,面
-Dialogue: 0,0:13:20.42,0:13:23.93,Signs,,0,0,0,,白い
+Dialogue: 0,0:13:20.42,0:13:23.93,Thoughts,,0,0,0,,{\be10}面
+Dialogue: 0,0:13:20.42,0:13:23.93,Thoughts,,0,0,0,,{\be10}白い
 Dialogue: 0,0:13:20.42,0:13:23.93,Dialogue,,0,0,0,,And look! In the light of the fire the mask looks white, right?
-Dialogue: 0,0:13:24.33,0:13:28.36,Signs,,0,0,0,,面白い
+Dialogue: 0,0:13:24.33,0:13:28.36,Thoughts,,0,0,0,,{\be10}面白い
 Dialogue: 0,0:13:24.33,0:13:28.36,Dialogue,,0,0,0,,The word 'omoshiroi', meaning 'interesting', evolved from that.
 Dialogue: 0,0:13:28.36,0:13:30.86,Dialogue,,0,0,0,,Oh, that's {\i1}interesting.{\i0}
 Dialogue: 0,0:13:32.75,0:13:39.20,Dialogue,,0,0,0,,There used to be a lattice up there known as a fire rack, to which the pot-hook was fastened.
@@ -282,9 +282,9 @@ Dialogue: 0,0:18:08.77,0:18:10.46,Thoughts,,0,0,0,,{\be10}Moyono Mibu...
 Dialogue: 0,0:18:10.46,0:18:13.14,Thoughts,,0,0,0,,{\be10}She couldn't have put in the poison.
 Dialogue: 0,0:18:13.57,0:18:16.65,Thoughts,,0,0,0,,{\be10}Executive Seikanji and Manager Nagata...
 Dialogue: 0,0:18:16.65,0:18:19.40,Thoughts,,0,0,0,,{\be10}Those two didn't get close to the cheese either.
-Dialogue: 0,0:18:19.83,0:18:26.14,Thoughts,,0,0,0,,{\be10}And either way, Toba{\rHonorifics - Thoughts}-san{\r} tried the cheese first, so there was no poison in it at that point.
+Dialogue: 0,0:18:19.83,0:18:26.14,Thoughts,,0,0,0,,{\be10}And either way, Toba{\rHonorifics - Thoughts\be10}-san{\r\be10} tried the cheese first, so there was no poison in it at that point.
 Dialogue: 0,0:18:26.14,0:18:27.89,Thoughts,,0,0,0,,{\be10}Was it put in afterwards?
-Dialogue: 0,0:18:27.89,0:18:31.08,Thoughts,,0,0,0,,{\be10}No, no one had the{\rHonorifics - Thoughts} chan{\r}ce to do that.
+Dialogue: 0,0:18:27.89,0:18:31.08,Thoughts,,0,0,0,,{\be10}No, no one had the{\rHonorifics - Thoughts\be10} chan{\r\be10}ce to do that.
 Dialogue: 0,0:18:31.08,0:18:38.42,Thoughts,,0,0,0,,{\be10}Which means that maybe the poison wasn't in the cheese, but on the butter knife.
 Dialogue: 0,0:18:38.94,0:18:42.58,Dialogue,,0,0,0,,Say, where did you get this butter knife from?
 Dialogue: 0,0:18:43.58,0:18:45.93,Dialogue,,0,0,0,,\NThere was one on everyone's bread plate.
@@ -312,7 +312,7 @@ Dialogue: 0,0:20:17.01,0:20:20.35,Dialogue,,0,0,0,,Excuse me, the curator's wond
 Dialogue: 0,0:20:20.35,0:20:22.15,Dialogue,,0,0,0,,Right away!\N
 Dialogue: 0,0:20:22.15,0:20:23.77,Dialogue,,0,0,0,,I'll help!
 Dialogue: 0,0:20:23.77,0:20:25.48,Dialogue,,0,0,0,,No thanks!
-Dialogue: 0,0:20:28.40,0:20:31.91,Thoughts,,0,0,0,,{\be10}This time she didn't have a{\rHonorifics - Thoughts} chan{\r}ce to slip any poison in.
+Dialogue: 0,0:20:28.40,0:20:31.91,Thoughts,,0,0,0,,{\be10}This time she didn't have a{\rHonorifics - Thoughts\be10} chan{\r\be10}ce to slip any poison in.
 Dialogue: 0,0:20:33.91,0:20:39.16,Dialogue,,0,0,0,,So there was a motive for killing Akaza{\rHonorifics - Dialogue}-san{\r}?
 Dialogue: 0,0:20:39.55,0:20:45.04,Dialogue,,0,0,0,,He flattered me a lot, but apparently he was a vicious businessman.
 Dialogue: 0,0:20:45.04,0:20:46.80,Dialogue,,0,0,0,,Excuse my tardiness.
@@ -339,42 +339,18 @@ Dialogue: 0,0:22:14.75,0:22:15.82,Thoughts,,0,0,0,,{\be10}Damn!
 Dialogue: 0,0:22:17.59,0:22:19.70,Thoughts,,0,0,0,,{\be10}Curator Izumi's in danger!
 Dialogue: 0,0:23:44.00,0:23:45.15,Dialogue,,0,0,0,,Oh, it's you.
 Dialogue: 0,0:23:45.15,0:23:47.23,Dialogue,,0,0,0,,Too bad, you were so close.
-Dialogue: 0,0:23:55.66,0:23:58.45,Signs,,0,0,0,,(PART II)
-Dialogue: 0,0:23:55.66,0:23:58.45,Signs,,0,0,0,,DEMONS DANCE AT NOH MASK MANSION
 Dialogue: 0,0:23:53.45,0:23:58.00,Dialogue,,0,0,0,,On the next Conan: 'Demons Dance at Noh Mask Mansion (Part II)'!
 Dialogue: 0,0:23:58.45,0:24:03.46,Dialogue,,0,0,0,,Next Conan's Hint: Chisel!
-Dialogue: 0,0:24:03.46,0:24:05.21,Dialogue,,0,0,0,,{\a6}I heard there'll be some info about the movie today.
-Dialogue: 0,0:24:05.21,0:24:06.69,Dialogue,,0,0,0,,{\a6}What? Lupin vs. Kogorō, is it?
-Dialogue: 0,0:24:06.69,0:24:08.00,Dialogue,,0,0,0,,{\a6}It's Lupin vs. Conan.
-Dialogue: 0,0:24:08.00,0:24:10.00,Dialogue,,0,0,0,,
-Dialogue: 0,0:04:15.22,0:04:15.26,Signs,,0,0,0,,DEMONS DANCE AT NOH MASK MANSION
-Dialogue: 0,0:04:15.26,0:04:15.30,Signs,,0,0,0,,DEMONS DANCE AT NOH MASK MANSION
-Dialogue: 0,0:04:15.30,0:04:15.34,Signs,,0,0,0,,DEMONS DANCE AT NOH MASK MANSION
-Dialogue: 0,0:04:15.34,0:04:15.39,Signs,,0,0,0,,DEMONS DANCE AT NOH MASK MANSION
-Dialogue: 0,0:04:15.39,0:04:15.43,Signs,,0,0,0,,DEMONS DANCE AT NOH MASK MANSION
-Dialogue: 0,0:04:15.43,0:04:15.47,Signs,,0,0,0,,DEMONS DANCE AT NOH MASK MANSION
-Dialogue: 0,0:04:15.47,0:04:15.51,Signs,,0,0,0,,DEMONS DANCE AT NOH MASK MANSION
-Dialogue: 0,0:04:15.51,0:04:15.55,Signs,,0,0,0,,DEMONS DANCE AT NOH MASK MANSION
-Dialogue: 0,0:04:15.55,0:04:15.59,Signs,,0,0,0,,DEMONS DANCE AT NOH MASK MANSION
-Dialogue: 0,0:04:15.59,0:04:21.23,Signs,,0,0,0,,DEMONS DANCE AT NOH MASK MANSION
-Dialogue: 0,0:04:15.22,0:04:15.26,Signs,,0,0,0,,(PART I)
-Dialogue: 0,0:04:15.26,0:04:15.30,Signs,,0,0,0,,(PART I)
-Dialogue: 0,0:04:15.30,0:04:15.34,Signs,,0,0,0,,(PART I)
-Dialogue: 0,0:04:15.34,0:04:15.39,Signs,,0,0,0,,(PART I)
-Dialogue: 0,0:04:15.39,0:04:15.43,Signs,,0,0,0,,(PART I)
-Dialogue: 0,0:04:15.43,0:04:15.47,Signs,,0,0,0,,(PART I)
-Dialogue: 0,0:04:15.47,0:04:15.51,Signs,,0,0,0,,(PART I)
-Dialogue: 0,0:04:15.51,0:04:15.55,Signs,,0,0,0,,(PART I)
-Dialogue: 0,0:04:15.55,0:04:15.59,Signs,,0,0,0,,(PART I)
-Dialogue: 0,0:04:15.59,0:04:21.23,Signs,,0,0,0,,(PART I)
-Dialogue: 0,0:22:24.06,0:22:29.32,Signs,,0,0,0,,Kimi no Egao ga Nani yori mo Suki Datta\N(I loved your smile more than anything else)
+Dialogue: 0,0:24:03.46,0:24:05.21,Dialogue Top,,0,0,0,,I heard there'll be some info about the movie today.
+Dialogue: 0,0:24:05.21,0:24:06.69,Dialogue Top,,0,0,0,,What? Lupin vs. Kogorō, is it?
+Dialogue: 0,0:24:06.69,0:24:08.00,Dialogue Top,,0,0,0,,It's Lupin vs. Conan.
 Dialogue: 0,0:22:24.31,0:22:29.48,Poodles,,0,0,0,,{\fax0.25\blur2.5\3c&HFFFFFF}kimi no egao ga nani yori mo suki datta
 Dialogue: 0,0:22:29.82,0:22:32.86,Poodles,,0,0,0,,{\fax0.25\blur2.5\3c&HFFFFFF}onaji koto de waraiatta ne
 Dialogue: 0,0:22:33.20,0:22:41.29,Poodles,,0,0,0,,{\fax0.25\blur2.5\3c&HFFFFFF}futoshita shunkan ni iron'na kimi o omoidasu
 Dialogue: 0,0:22:43.12,0:22:49.34,Poodles,,0,0,0,,{\fax0.25\blur2.5\3c&HF2F2F3&\c&H880088}'boku ga genjitsuteki sugita' to ima ni natte kuyande'ru
 Dialogue: 0,0:22:50.84,0:22:57.47,Poodles,,0,0,0,,{\fax0.25\blur2.5\3c&HF2F2F3&\c&H880088}'kimi to no yume no tame ni' motto ikiru beki datta
 Dialogue: 0,0:22:58.47,0:23:01.72,Poodles,,0,0,0,,{\fax0.25\blur2.5\c&H008800\3c&HF2F2F3}kimi no inai akimatsuri
-Dialogue: 0,0:23:01.89,0:23:07.19,Poodles,,0,0,0,,{\fax0.25\blur2.5}{\3c&HF2F2F3&\c&H880000\t(4470,5220,\c&H0\3c&H0\4c&H0)}ima no boku wa younger than yesterday
+Dialogue: 0,0:23:01.89,0:23:07.19,Poodles,,0,0,0,,{\fax0.25\blur2.5\3c&HF2F2F3&\c&H880000\t(4470,5220,\c&H0\3c&H0\4c&H0)}ima no boku wa younger than yesterday
 Dialogue: 0,0:23:07.94,0:23:13.03,Poodles,,0,0,0,,{\fax0.25\blur2.5\3c&HF2F2F3&}hanabira ga mau yō ni kimi wa waratta ne
 Dialogue: 0,0:23:13.36,0:23:15.99,Poodles,,0,0,0,,{\fax0.25\blur2.5\3c&HF2F2F3&\c&H008800}motto warawasetakatta
 Dialogue: 0,0:23:16.32,0:23:23.04,Poodles,,0,0,0,,{\fax0.25\blur2.5\3c&HF2F2F3&\c&H008800}hareteiru no ni tsumetai ame ga futteiru
@@ -382,4 +358,3 @@ Dialogue: 0,0:23:23.20,0:23:28.75,Poodles,,0,0,0,,{\fax0.25\blur2.5\3c&HF2F2F3&\
 Dialogue: 0,0:23:29.08,0:23:32.05,Poodles,,0,0,0,,{\fax0.25\blur2.5\3c&HF2F2F3&\c&H008800}min'na hitori ja ikirenai
 Dialogue: 0,0:23:32.21,0:23:35.84,Poodles,,0,0,0,,{\fax0.25\blur2.5\3c&HF2F2F3&\c&H008800}kimi no kaeru basho de
 Dialogue: 0,0:23:36.18,0:23:41.01,Poodles,,0,0,0,,{\fax0.25\blur2.5\3c&HF2F2F3&\c&H008800}boku wa zutto aritsuzuketai
-Dialogue: 0,0:24:10.00,0:24:12.00,Dialogue,,0,0,0,,

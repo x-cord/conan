@@ -46,10 +46,10 @@ Style: RainMan,FOT-Seurat Pro,35,&HC0FAE4D0,&H000000FF,&H00FFFFFF,&H80000000,-1,
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:02.95,0:00:07.19,Thoughts,,0,0,0,,{\be10}{\a6}If that couple really {\i1}were{\i0} Bourbon and Vermouth...
-Dialogue: 0,0:00:07.70,0:00:10.93,Thoughts,,0,0,0,,{\be10}{\a6}If they overheard me talking with Jodie{\rHonorifics - Thoughts}-sensei{\r}, that means...
-Dialogue: 0,0:00:12.07,0:00:16.28,Thoughts,,0,0,0,,{\be10}{\a6}E-Either way, I have to meet up with Haibara and check with her!
-Dialogue: 0,0:00:16.28,0:00:19.33,Thoughts,,0,0,0,,{\be10}{\a6}Damn! Why didn't I realise any sooner?!
+Dialogue: 0,0:00:02.95,0:00:07.19,Thoughts,,0,0,0,,{\be10\an8}If that couple really {\i1}were{\i0} Bourbon and Vermouth...
+Dialogue: 0,0:00:07.70,0:00:10.93,Thoughts,,0,0,0,,{\be10\an8}If they overheard me talking with Jodie{\rHonorifics - Thoughts\be10}-sensei{\r\be10}, that means...
+Dialogue: 0,0:00:12.07,0:00:16.28,Thoughts,,0,0,0,,{\be10\an8}E-Either way, I have to meet up with Haibara and check with her!
+Dialogue: 0,0:00:16.28,0:00:19.33,Thoughts,,0,0,0,,{\be10\an8}Damn! Why didn't I realise any sooner?!
 Dialogue: 0,0:00:20.68,0:00:27.84,Flashback,,0,0,0,,{\be10}Since they said that the husband had been a hostage too, that doesn't fit.
 Dialogue: 0,0:00:28.52,0:00:32.01,Thoughts,,0,0,0,,{\be10}They even made such an obvious blunder!
 Dialogue: 0,0:00:33.35,0:00:34.22,Thoughts,,0,0,0,,{\be10}An obvious blunder?
@@ -65,7 +65,7 @@ Dialogue: 0,0:01:01.74,0:01:05.00,Phone,,0,0,0,,{\blur3}What is it? Don't tell m
 Dialogue: 0,0:01:05.44,0:01:08.36,Dialogue,,0,0,0,,I-I was just checking! That's all!
 Dialogue: 0,0:01:08.36,0:01:10.29,Dialogue,,0,0,0,,Sorry for calling so late.
 Dialogue: 0,0:01:12.68,0:01:15.68,Thoughts,,0,0,0,,{\be10}I've got to stay calm, stop panicking...
-Dialogue: 0,0:01:19.21,0:01:24.38,ButterflyCore,,0,0,0,,{\be10}kage o mau chō no kodō ga seijaku no umi o saite
+Dialogue: 0,0:01:19.21,0:01:24.38,ButterflyCore,,0,0,0,,{\blur4\fad(200,0)}kage o mau chō no kodō ga seijaku no umi o saite
 Dialogue: 0,0:01:24.38,0:01:31.55,ButterflyCore,,0,0,0,,{\blur4\fad(0,300)}kasanariau koe ga ima yami o furiharatta
 Dialogue: 0,0:01:19.21,0:01:24.38,ButterflyCore2,,0,0,0,,{\fad(200,0)}kage o mau chō no kodō ga seijaku no umi o saite
 Dialogue: 0,0:01:24.38,0:01:31.55,ButterflyCore2,,0,0,0,,{\fad(0,300)}kasanariau koe ga ima yami o furiharatta
@@ -84,7 +84,7 @@ Dialogue: 0,0:02:19.66,0:02:24.83,ButterflyCore,,0,0,0,,{\blur4\c&HAA0000}kage o
 Dialogue: 0,0:02:24.83,0:02:30.33,ButterflyCore,,0,0,0,,{\blur4\c&H000077}kimi ni miseru itsuwari no subete ga uso ja nai daro
 Dialogue: 0,0:02:30.33,0:02:35.96,ButterflyCore,,0,0,0,,{\blur4\c&HAA0000}mayo'u tabi suteta kotae mo kitto erabu hi wa mata kuru kara
 Dialogue: 0,0:02:35.96,0:02:44.89,ButterflyCore,,0,0,0,,{\blur4\c&H006600}kono kokoro wa dare yori mo atsuku moyashi tsuzukeyō kienai yō ni
-Dialogue: 0,0:02:54.82,0:03:00.41,ButterflyCore,,0,0,0,,{\blur4\c&H006600}{\fad(0,1000)}kienai yō ni
+Dialogue: 0,0:02:54.82,0:03:00.41,ButterflyCore,,0,0,0,,{\blur4\c&H006600\fad(0,1000)}kienai yō ni
 Dialogue: 0,0:01:46.19,0:01:51.96,ButterflyCore2,,0,0,0,,haritsuita ase o nugutte nigemawaru light o ketta
 Dialogue: 0,0:01:51.96,0:01:57.43,ButterflyCore2,,0,0,0,,kanashimi ni utareta kyō no kizuato kabau yō ni
 Dialogue: 0,0:01:57.43,0:02:02.89,ButterflyCore2,,0,0,0,,aseru hodo ni tōku natte wake mo naku imi o sagashite
@@ -96,26 +96,6 @@ Dialogue: 0,0:02:24.83,0:02:30.33,ButterflyCore2,,0,0,0,,kimi ni miseru itsuwari
 Dialogue: 0,0:02:30.33,0:02:35.96,ButterflyCore2,,0,0,0,,mayo'u tabi suteta kotae mo kitto erabu hi wa mata kuru kara
 Dialogue: 0,0:02:35.96,0:02:44.89,ButterflyCore2,,0,0,0,,{\3c&H006600}kono kokoro wa dare yori mo atsuku moyashi tsuzukeyō kienai yō ni
 Dialogue: 0,0:02:54.82,0:03:00.41,ButterflyCore2,,0,0,0,,{\fad(0,1000)\3c&H006600}kienai yō ni
-Dialogue: 0,0:03:04.62,0:03:04.66,Signs,,0,0,0,,THE BATHROOM WHERE RAN BLACKS OUT
-Dialogue: 0,0:03:04.66,0:03:04.70,Signs,,0,0,0,,THE BATHROOM WHERE RAN BLACKS OUT
-Dialogue: 0,0:03:04.70,0:03:04.74,Signs,,0,0,0,,THE BATHROOM WHERE RAN BLACKS OUT
-Dialogue: 0,0:03:04.74,0:03:04.78,Signs,,0,0,0,,THE BATHROOM WHERE RAN BLACKS OUT
-Dialogue: 0,0:03:04.78,0:03:04.83,Signs,,0,0,0,,THE BATHROOM WHERE RAN BLACKS OUT
-Dialogue: 0,0:03:04.83,0:03:04.87,Signs,,0,0,0,,THE BATHROOM WHERE RAN BLACKS OUT
-Dialogue: 0,0:03:04.87,0:03:04.91,Signs,,0,0,0,,THE BATHROOM WHERE RAN BLACKS OUT
-Dialogue: 0,0:03:04.91,0:03:04.95,Signs,,0,0,0,,THE BATHROOM WHERE RAN BLACKS OUT
-Dialogue: 0,0:03:04.95,0:03:05.03,Signs,,0,0,0,,THE BATHROOM WHERE RAN BLACKS OUT
-Dialogue: 0,0:03:05.03,0:03:10.58,Signs,,0,0,0,,THE BATHROOM WHERE RAN BLACKS OUT
-Dialogue: 0,0:03:04.62,0:03:04.66,Signs,,0,0,0,,(PART I)
-Dialogue: 0,0:03:04.66,0:03:04.70,Signs,,0,0,0,,(PART I)
-Dialogue: 0,0:03:04.70,0:03:04.74,Signs,,0,0,0,,(PART I)
-Dialogue: 0,0:03:04.74,0:03:04.78,Signs,,0,0,0,,(PART I)
-Dialogue: 0,0:03:04.78,0:03:04.83,Signs,,0,0,0,,(PART I)
-Dialogue: 0,0:03:04.83,0:03:04.87,Signs,,0,0,0,,(PART I)
-Dialogue: 0,0:03:04.87,0:03:04.91,Signs,,0,0,0,,(PART I)
-Dialogue: 0,0:03:04.91,0:03:04.95,Signs,,0,0,0,,(PART I)
-Dialogue: 0,0:03:04.95,0:03:05.03,Signs,,0,0,0,,(PART I)
-Dialogue: 0,0:03:05.03,0:03:10.58,Signs,,0,0,0,,(PART I)
 Dialogue: 0,0:03:11.92,0:03:13.63,Dialogue,,0,0,0,,Hey, Conan{\rHonorifics - Dialogue}-kun{\r}?
 Dialogue: 0,0:03:16.98,0:03:18.40,Dialogue,,0,0,0,,Conan{\rHonorifics - Dialogue}-kun{\r}!
 Dialogue: 0,0:03:19.79,0:03:20.75,Dialogue,,0,0,0,,What?
@@ -127,8 +107,8 @@ Dialogue: 0,0:03:28.72,0:03:30.32,Dialogue,,0,0,0,,It's nothing like that.
 Dialogue: 0,0:03:30.32,0:03:31.77,Dialogue,,0,0,0,,Really?
 Dialogue: 0,0:03:32.68,0:03:34.50,Thoughts,,0,0,0,,{\be10}This is a problem.
 Dialogue: 0,0:03:34.50,0:03:37.53,Thoughts,,0,0,0,,{\be10}Ever since that happened, I feel like I'm being watched.
-Dialogue: 0,0:03:38.69,0:03:44.69,Thoughts,,0,0,0,,{\be10}I've told Jodie{\rHonorifics - Thoughts}-sensei{\r} that that couple may have been from the Black Organisation just in case...
-Dialogue: 0,0:03:46.32,0:03:50.25,Thoughts,,0,0,0,,{\be10}But if they, by any{\rHonorifics - Thoughts} chan{\r}ce, noticed {\i1}that{\i0}...
+Dialogue: 0,0:03:38.69,0:03:44.69,Thoughts,,0,0,0,,{\be10}I've told Jodie{\rHonorifics - Thoughts\be10}-sensei{\r\be10} that that couple may have been from the Black Organisation just in case...
+Dialogue: 0,0:03:46.32,0:03:50.25,Thoughts,,0,0,0,,{\be10}But if they, by any{\rHonorifics - Thoughts\be10} chan{\r\be10}ce, noticed {\i1}that{\i0}...
 Dialogue: 0,0:03:51.05,0:03:54.46,Thoughts,,0,0,0,,{\be10}Gotta calm down. It'll be fine. I'm fine!
 Dialogue: 0,0:03:58.40,0:04:02.64,Dialogue,,0,0,0,,Aren't you feeling well, Conan{\rHonorifics - Dialogue}-kun{\r}? You're drenched with sweat!
 Dialogue: 0,0:04:04.35,0:04:10.76,Dialogue,,0,0,0,,I know we were going to have lunch at a Chinese restaurant with my mum after this, but would you rather go home?
@@ -148,8 +128,8 @@ Dialogue: 0,0:04:58.32,0:05:02.59,Dialogue,,0,0,0,,You know how there's a girl c
 Dialogue: 0,0:05:02.59,0:05:04.20,Dialogue,,0,0,0,,Oh, Kei{\rHonorifics - Dialogue}-chan{\r}?
 Dialogue: 0,0:05:04.55,0:05:08.64,Dialogue,,0,0,0,,Her older sister hired me for a job.
 Dialogue: 0,0:05:08.64,0:05:12.33,Dialogue,,0,0,0,,See that girl sitting over there?
-Dialogue: 0,0:05:13.02,0:05:16.22,Dialogue,,0,0,0,,{\a6}That's Rumi Kitao{\rHonorifics - Dialogue}-san{\r}, a third-year university student.
-Dialogue: 0,0:05:16.22,0:05:21.77,Dialogue,,0,0,0,,{\a6}And the guy sitting next to her is Ken'ya Settsu{\rHonorifics - Dialogue}-san{\r}, a fourth-year university student.
+Dialogue: 0,0:05:13.02,0:05:16.22,Dialogue Top,,0,0,0,,That's Rumi Kitao{\rHonorifics - Dialogue}-san{\r}, a third-year university student.
+Dialogue: 0,0:05:16.22,0:05:21.77,Dialogue Top,,0,0,0,,And the guy sitting next to her is Ken'ya Settsu{\rHonorifics - Dialogue}-san{\r}, a fourth-year university student.
 Dialogue: 0,0:05:12.56,0:05:16.60,Signs,,0,0,0,,Rumi Kitao (21)\NUniversity Student
 Dialogue: 0,0:05:19.23,0:05:22.86,Signs,,0,0,0,,Ken'ya Settsu (22)\NUniversity Student
 Dialogue: 0,0:05:23.14,0:05:26.65,Dialogue,,0,0,0,,Those two have been dating for half a year now.
@@ -195,7 +175,7 @@ Dialogue: 0,0:07:52.03,0:07:57.14,Dialogue,,0,0,0,,I'm Ran Mouri. I was in her c
 Dialogue: 0,0:07:57.14,0:08:02.93,Dialogue,,0,0,0,,She showed me your picture a few times, so I figured you might be her sister.
 Dialogue: 0,0:08:02.93,0:08:03.79,Dialogue,,0,0,0,,Oh, I see.
 Dialogue: 0,0:08:03.79,0:08:06.06,Dialogue,,0,0,0,,What a coincidence.
-Dialogue: 0,0:08:08.11,0:08:14.23,Flashback,,0,0,0,,{\be10}Actually, the plan was that I'd join them for lunch in Keiko{\rHonorifics - Flashback}-kun{\r}'s place.
+Dialogue: 0,0:08:08.11,0:08:14.23,Flashback,,0,0,0,,{\be10}Actually, the plan was that I'd join them for lunch in Keiko{\rHonorifics - Flashback\be10}-kun{\r\be10}'s place.
 Dialogue: 0,0:08:14.23,0:08:21.61,Flashback,,0,0,0,,{\be10}If that man really {\i1}is{\i0} a playboy like the rumours suggest, he'd probably make eyes at me when she isn't looking.
 Dialogue: 0,0:08:21.61,0:08:27.65,Flashback,,0,0,0,,{\be10}But since you're cuter and more stylish than me, how about you take my place?
 Dialogue: 0,0:08:28.67,0:08:34.55,Flashback,,0,0,0,,{\be10}If he's really that kind of guy, I think he'll definitely bite if we toss him some bait.
@@ -212,7 +192,7 @@ Dialogue: 0,0:09:08.76,0:09:10.27,Thoughts,,0,0,0,,{\be10}Perfect.
 Dialogue: 0,0:09:12.91,0:09:16.40,Dialogue,,0,0,0,,Waka sure is late.
 Dialogue: 0,0:09:16.40,0:09:18.30,Dialogue,,0,0,0,,It's already past noon.
 Dialogue: 0,0:09:18.30,0:09:19.87,Dialogue,,0,0,0,,It's inevitable.
-Dialogue: 0,0:09:20.32,0:09:24.87,Dialogue,,0,0,0,,She was out drinking until 5 this morning, so she's probably still fast asleep.
+Dialogue: 0,0:09:20.32,0:09:24.87,Dialogue Top,,0,0,0,,She was out drinking until 5 this morning, so she's probably still fast asleep.
 Dialogue: 0,0:09:21.49,0:09:24.87,Signs,,0,0,0,,Mitsuaki Kaga (22)\NUniversity Student
 Dialogue: 0,0:09:26.00,0:09:27.29,Dialogue,,0,0,0,,There you are, Kaga!
 Dialogue: 0,0:09:27.29,0:09:30.10,Dialogue,,0,0,0,,Is there a toilet in this lobby?
@@ -224,7 +204,7 @@ Dialogue: 0,0:09:46.53,0:09:49.23,Dialogue,,0,0,0,,I don't need it anymore.
 Dialogue: 0,0:09:49.23,0:09:50.44,Dialogue,,0,0,0,,Ken'ya...
 Dialogue: 0,0:09:54.14,0:09:56.20,Dialogue,,0,0,0,,Hey, don't drop it!
 Dialogue: 0,0:09:56.20,0:09:57.31,Dialogue,,0,0,0,,Sorry!
-Dialogue: 0,0:09:58.28,0:10:01.17,Thoughts,,0,0,0,,{\be10}Now he'll be alone with Ran{\rHonorifics - Thoughts}-kun{\r}.
+Dialogue: 0,0:09:58.28,0:10:01.17,Thoughts,,0,0,0,,{\be10}Now he'll be alone with Ran{\rHonorifics - Thoughts\be10}-kun{\r\be10}.
 Dialogue: 0,0:10:01.17,0:10:04.16,Thoughts,,0,0,0,,{\be10}If he's going to give himself away, it'll be now.
 Dialogue: 0,0:10:04.16,0:10:08.30,Dialogue,,0,0,0,,I'm sorry, but would you guys mind going with her?
 Dialogue: 0,0:10:10.32,0:10:15.34,Dialogue,,0,0,0,,If Waka hasn't sobered up yet, she might lay into her.
@@ -319,7 +299,7 @@ Dialogue: 0,0:15:38.17,0:15:41.00,Dialogue,,0,0,0,,Hey! Don't come in here.
 Dialogue: 0,0:15:42.20,0:15:45.79,Dialogue,,0,0,0,,Still, this is a strange corpse. She's winking.
 Dialogue: 0,0:15:46.22,0:15:50.10,Thoughts,,0,0,0,,{\be10}And something's trickling out of the corner of her eye.
 Dialogue: 0,0:15:52.40,0:15:53.80,Thoughts,,0,0,0,,{\be10}Mascara?
-Dialogue: 0,0:15:56.76,0:16:02.64,Thoughts,,0,0,0,,{\be10}At first glance, it seems that Waka{\rHonorifics - Thoughts}-san{\r} was about to take a bath, when she was hit from behind and killed.
+Dialogue: 0,0:15:56.76,0:16:02.64,Thoughts,,0,0,0,,{\be10}At first glance, it seems that Waka{\rHonorifics - Thoughts\be10}-san{\r\be10} was about to take a bath, when she was hit from behind and killed.
 Dialogue: 0,0:16:03.84,0:16:05.62,Thoughts,,0,0,0,,{\be10}But could this be something else...?
 Dialogue: 0,0:16:09.21,0:16:16.29,Dialogue,,0,0,0,,Well then, according to your collective statements, the four of you had planned to have lunch together today,
 Dialogue: 0,0:16:16.29,0:16:21.16,Dialogue,,0,0,0,,and had agreed to meet here, in the lobby of the block of flats where the victim lives, shortly after noon.
@@ -364,7 +344,7 @@ Dialogue: 0,0:19:10.24,0:19:15.35,Dialogue,,0,0,0,,When I got the call I went ou
 Dialogue: 0,0:19:15.35,0:19:20.69,Dialogue,,0,0,0,,This is a tower block, so the reception is pretty bad everywhere else.
 Dialogue: 0,0:19:20.69,0:19:23.96,Dialogue,,0,0,0,,That's why I asked you to search for Waka, right?
 Dialogue: 0,0:19:23.96,0:19:25.31,Dialogue,,0,0,0,,Y-Yes.
-Dialogue: 0,0:19:25.31,0:19:32.66,Thoughts,,0,0,0,,{\be10}Which means Rumi{\rHonorifics - Thoughts}-san{\r} went left from the entrance into the living room.
+Dialogue: 0,0:19:25.31,0:19:32.66,Thoughts,,0,0,0,,{\be10}Which means Rumi{\rHonorifics - Thoughts\be10}-san{\r\be10} went left from the entrance into the living room.
 Dialogue: 0,0:19:32.66,0:19:36.02,Thoughts,,0,0,0,,{\be10}And Ran searched the right side where the bedroom is located.
 Dialogue: 0,0:19:36.70,0:19:43.01,Dialogue,,0,0,0,,Speaking of the balcony, Waka fell asleep there once when she came home drunk, didn't she?
 Dialogue: 0,0:19:43.01,0:19:45.83,Dialogue,,0,0,0,,Yeah, I heard about that.
@@ -420,10 +400,8 @@ Dialogue: 0,0:23:45.40,0:23:46.48,Dialogue,,0,0,0,,Here you go.
 Dialogue: 0,0:23:46.48,0:23:48.28,Dialogue,,0,0,0,,Be careful not to drop them again.
 Dialogue: 0,0:23:49.65,0:23:55.08,Dialogue,,0,0,0,,But if that corpse wasn't Waka{\rHonorifics - Dialogue}-san{\r}, then it's a different story.
 Dialogue: 0,0:23:56.69,0:23:58.16,Dialogue,,0,0,0,,What?!
-Dialogue: 0,0:23:58.16,0:24:04.17,Signs,,0,0,0,,(PART II)
-Dialogue: 0,0:23:58.16,0:24:04.17,Signs,,0,0,0,,THE BATHROOM WHERE RAN BLACKS OUT
 Dialogue: 0,0:23:58.16,0:24:04.17,Dialogue,,0,0,0,,On the next Conan: ‘The Bathroom Where Ran Blacks Out (Part II)'!
 Dialogue: 0,0:24:04.17,0:24:09.13,Dialogue,,0,0,0,,Next Conan's Hint: Wink!
-Dialogue: 0,0:24:09.13,0:24:10.39,Dialogue,,0,0,0,,It's nearly June!
-Dialogue: 0,0:24:10.39,0:24:11.30,Dialogue,,0,0,0,,May streams by in the blink of an eye!
-Dialogue: 0,0:24:11.30,0:24:14.12,Dialogue,,0,0,0,,Mascara's streaming out of your eye!
+Dialogue: 0,0:24:09.13,0:24:10.39,Dialogue Top,,0,0,0,,It's nearly June!
+Dialogue: 0,0:24:10.39,0:24:11.30,Dialogue Top,,0,0,0,,May streams by in the blink of an eye!
+Dialogue: 0,0:24:11.30,0:24:14.12,Dialogue Top,,0,0,0,,Mascara's streaming out of your eye!

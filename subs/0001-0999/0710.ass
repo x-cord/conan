@@ -63,13 +63,13 @@ Style: Poodles,MV Boli M,70,&H400102B5,&H000809FC,&H00CFF2F3,&H80000000,0,0,0,0,
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:01.77,0:00:03.06,Dialogue,,0,0,0,,{\a6}We got a case, Kudō!
-Dialogue: 0,0:00:08.48,0:00:10.78,Dialogue,,0,0,0,,{\a6}Hattori{\rHonorifics - Dialogue}-kun{\r} and Kazuha{\rHonorifics - Dialogue}-chan{\r}!
-Dialogue: 0,0:00:10.78,0:00:12.86,Dialogue,,0,0,0,,{\a6}What do you mean by 'Kudō'?
+Dialogue: 0,0:00:01.77,0:00:03.06,Dialogue Top,,0,0,0,,We got a case, Kudō!
+Dialogue: 0,0:00:08.48,0:00:10.78,Dialogue Top,,0,0,0,,Hattori{\rHonorifics - Dialogue}-kun{\r} and Kazuha{\rHonorifics - Dialogue}-chan{\r}!
+Dialogue: 0,0:00:10.78,0:00:12.86,Dialogue Top,,0,0,0,,What do you mean by 'Kudō'?
 Dialogue: 0,0:00:14.82,0:00:17.62,Dialogue,,0,0,0,,Didn't you just say 'We got a case, Kudō'?
 Dialogue: 0,0:00:18.24,0:00:20.08,Dialogue,,0,0,0,,Oh, yeah, that...
 Dialogue: 0,0:00:20.08,0:00:21.62,Dialogue,,0,0,0,,I meant, since we got a case,
-Dialogue: 0,0:00:21.62,0:00:24.75,Signs,,0,0,0,,yakudō
+Dialogue: 0,0:00:21.62,0:00:24.75,Thoughts,,0,0,0,,{\be10}yakudō
 Dialogue: 0,0:00:21.62,0:00:24.75,Dialogue,,0,0,0,,things are going to get lively around here.
 Dialogue: 0,0:00:24.75,0:00:27.13,Dialogue,,0,0,0,,For a murder case, that's just plain inconsiderate.
 Dialogue: 0,0:00:27.75,0:00:32.67,Dialogue,,0,0,0,,A murder case? You didn't come all the way here to ask me about a case in Ōsaka, did you?
@@ -79,11 +79,11 @@ Dialogue: 0,0:00:42.64,0:00:45.23,Dialogue,,0,0,0,,Hello. It's been a while.
 Dialogue: 0,0:00:45.23,0:00:50.28,Dialogue,,0,0,0,,We called it 'the closed-off murder scene where the victim was short on both legs and help', right?
 Dialogue: 0,0:00:50.82,0:00:52.28,Dialogue,,0,0,0,,Yeah, more or less.
 Dialogue: 0,0:00:55.32,0:00:57.16,Thoughts,,0,0,0,,{\be10}What's with that?
-Dialogue: 0,0:00:58.66,0:01:02.95,Narration Off,,0,0,0,,{\be10}Seeking comprehensive answers,\Nhe solves every mystery and code!
-Dialogue: 0,0:01:02.95,0:01:07.21,Narration Off,,0,0,0,,{\be10}A deduction showdown between me and Hattori revolving around a puzzling sealed lift!
-Dialogue: 0,0:01:07.21,0:01:08.79,Narration Off,,0,0,0,,{\be10}He sees the single truth for what it is,
-Dialogue: 0,0:01:08.79,0:01:10.80,Narration Off,,0,0,0,,{\be10}and looks like a kid but has the mind of an adult!
-Dialogue: 0,0:01:10.80,0:01:13.09,Narration Off,,0,0,0,,{\be10}His name? Detective Conan!
+Dialogue: 0,0:00:58.66,0:01:02.95,Narration Off,,0,0,0,,{\be10\c&HAAAA00\t(0,3610,\c)}Seeking comprehensive answers,\Nhe solves every mystery and code!
+Dialogue: 0,0:01:02.95,0:01:07.21,Narration Off,,0,0,0,,{\be10\t(0,1510,\c&H88AA00)}A deduction showdown between me and Hattori revolving around a puzzling sealed lift!
+Dialogue: 0,0:01:07.21,0:01:08.79,Narration Off,,0,0,0,,{\be10\c&H88AA00)\t(0,1590,\c)}He sees the single truth for what it is,
+Dialogue: 0,0:01:08.79,0:01:10.80,Narration Off,,0,0,0,,{\be10\t(0,2000,\c&HAA00AA)}and looks like a kid but has the mind of an adult!
+Dialogue: 0,0:01:10.80,0:01:13.09,Narration Off,,0,0,0,,{\be10\c&HAA00AA\t(0,1600,\c&H0000FF)}His name? Detective Conan!
 Dialogue: 0,0:02:59.15,0:03:04.45,Dialogue,,0,0,0,,What?! A man was killed under police surveillance?
 Dialogue: 0,0:03:04.83,0:03:05.87,Dialogue,,0,0,0,,Yeah.
 Dialogue: 0,0:03:05.87,0:03:11.58,Dialogue,,0,0,0,,Last month, a man in his seventies passed away in a flat in Haido Town.
@@ -212,7 +212,7 @@ Dialogue: 0,0:11:57.06,0:12:06.40,Dialogue,,0,0,0,,And just when I thought I'd g
 Dialogue: 0,0:12:06.40,0:12:07.90,Dialogue,,0,0,0,,I-I see.
 Dialogue: 0,0:12:08.66,0:12:13.79,Dialogue,,0,0,0,,The deceased is Kaizō Fuura{\rHonorifics - Dialogue}-san{\r}, who lived on the second floor.
 Dialogue: 0,0:12:13.83,0:12:17.04,Signs,,0,0,0,,Kaizō Fuura (52)\NStockbroker
-Dialogue: 0,0:12:14.20,0:12:17.04,Dialogue,,0,0,0,,{\a6}It seems that he was a stockbroker.
+Dialogue: 0,0:12:14.20,0:12:17.04,Dialogue Top,,0,0,0,,It seems that he was a stockbroker.
 Dialogue: 0,0:12:17.04,0:12:19.12,Dialogue,,0,0,0,,Right?
 Dialogue: 0,0:12:19.12,0:12:20.75,Dialogue,,0,0,0,,Y-Yeah!
 Dialogue: 0,0:12:20.75,0:12:22.54,Dialogue,,0,0,0,,And who's she?
@@ -288,8 +288,8 @@ Dialogue: 0,0:17:01.57,0:17:04.45,Dialogue,,0,0,0,,Fuura{\rHonorifics - Dialogue
 Dialogue: 0,0:17:04.45,0:17:07.87,Dialogue,,0,0,0,,Well, the possibility came up that it was a murder.
 Dialogue: 0,0:17:08.50,0:17:11.75,Dialogue,,0,0,0,,But how would you know something like that?
 Dialogue: 0,0:17:12.29,0:17:18.67,Signs,,0,0,0,,Isao Mutsu (45)\NBlock resident
-Dialogue: 0,0:17:13.29,0:17:16.38,Dialogue,,0,0,0,,{\a6}Nanami{\rHonorifics - Dialogue}-san{\r} was tweeting about it online.
-Dialogue: 0,0:17:16.38,0:17:19.97,Dialogue,,0,0,0,,{\a6}'The grim reaper shot himself in our lift.'
+Dialogue: 0,0:17:13.29,0:17:16.38,Dialogue Top,,0,0,0,,Nanami{\rHonorifics - Dialogue}-san{\r} was tweeting about it online.
+Dialogue: 0,0:17:16.38,0:17:19.97,Dialogue Top,,0,0,0,,'The grim reaper shot himself in our lift.'
 Dialogue: 0,0:17:19.97,0:17:25.35,Dialogue,,0,0,0,,Oh, 'grim reaper' is the nickname Nanami{\rHonorifics - Dialogue}-san{\r} came up with for him.
 Dialogue: 0,0:17:26.35,0:17:31.69,Thoughts,,0,0,0,,{\be10}I thought she was just playin' around with her phone, but she was tweetin'!
 Dialogue: 0,0:17:33.31,0:17:36.19,Dialogue,,0,0,0,,Would you mind if we came inside?
@@ -341,7 +341,7 @@ Dialogue: 0,0:20:13.26,0:20:14.52,Dialogue,,0,0,0,,Sure, but...
 Dialogue: 0,0:20:14.52,0:20:18.19,Dialogue,,0,0,0,,I was painting, so they look like this.
 Dialogue: 0,0:20:20.27,0:20:24.65,Dialogue,,0,0,0,,Yeah, I got a watch like that from Fuura{\rHonorifics - Dialogue}-san{\r} too.
 Dialogue: 0,0:20:24.69,0:20:27.82,Signs,,0,0,0,,Naoko Izutsu (32)\NBlock resident
-Dialogue: 0,0:20:25.15,0:20:27.82,Dialogue,,0,0,0,,{\a6}To celebrate turning a profit on my shares.
+Dialogue: 0,0:20:25.15,0:20:27.82,Dialogue Top,,0,0,0,,To celebrate turning a profit on my shares.
 Dialogue: 0,0:20:28.15,0:20:31.70,Dialogue,,0,0,0,,Though I only wore mine once, then tucked it away at the back of a drawer.
 Dialogue: 0,0:20:31.70,0:20:36.41,Dialogue,,0,0,0,,Umm... What's your occupation, Izutsu{\rHonorifics - Dialogue}-san{\r}?
 Dialogue: 0,0:20:37.50,0:20:39.12,Dialogue,,0,0,0,,Can't you see for yourself?
@@ -369,28 +369,25 @@ Dialogue: 0,0:22:04.21,0:22:06.21,Dialogue,,0,0,0,,No, I'm clueless...
 Dialogue: 0,0:22:06.21,0:22:10.01,Dialogue,,0,0,0,,All three are a bit suspicious and a bit not...
 Dialogue: 0,0:22:10.01,0:22:15.60,Thoughts,,0,0,0,,{\be10}No. The killer is probably the one who hid those things...
 Dialogue: 0,0:22:15.60,0:22:17.39,Thoughts,,0,0,0,,{\be10}The problem is the trick...
-Dialogue: 0,0:22:19.64,0:22:22.73,Thoughts,,0,0,0,,{\be10}How did they kill Fuura{\rHonorifics - Thoughts}-san{\r}?
+Dialogue: 0,0:22:19.64,0:22:22.73,Thoughts,,0,0,0,,{\be10}How did they kill Fuura{\rHonorifics - Thoughts\be10}-san{\r\be10}?
 Dialogue: 0,0:23:45.23,0:23:49.11,Thoughts,,0,0,0,,{\be10}It wasn't just a message disguised as his final words...
 Dialogue: 0,0:23:49.11,0:23:50.86,Dialogue,,0,0,0,,Look! It's Detective Takagi!
 Dialogue: 0,0:23:50.86,0:23:51.86,Dialogue,,0,0,0,,Bang!
-Dialogue: 0,0:23:55.24,0:24:00.32,Signs,,0,0,0,,(Part II)
-Dialogue: 0,0:23:55.24,0:24:00.32,Signs,,0,0,0,,EVERYBODY WITNESSED IT
 Dialogue: 0,0:23:55.24,0:24:00.32,Dialogue,,0,0,0,,On the next Conan: 'Everybody Witnessed It (Part II)'!
 Dialogue: 0,0:24:00.32,0:24:05.29,Dialogue,,0,0,0,,Next Conan's Hint: The sprayed characters!
-Dialogue: 0,0:24:05.29,0:24:07.04,Signs,,0,0,0,,sokudo
-Dialogue: 0,0:24:05.29,0:24:07.04,Signs,,0,0,0,,kokudō
-Dialogue: 0,0:24:05.29,0:24:07.04,Signs,,0,0,0,,kakudo
-Dialogue: 0,0:24:05.29,0:24:07.04,Dialogue,,0,0,0,,{\a6}Angle, motorway, speed...
-Dialogue: 0,0:24:07.04,0:24:07.87,Dialogue,,0,0,0,,{\a6}What're those?
-Dialogue: 0,0:24:07.87,0:24:10.29,Dialogue,,0,0,0,,{\a6}Excuses for the next time I blurt out 'Kudō'.
-Dialogue: 0,0:22:25.86,0:22:31.11,Signs,,0,0,0,,Kimi no Egao ga Nani Yori mo Suki Datta\N(I loved your smile more than anything else)
+Dialogue: 0,0:24:05.29,0:24:07.04,Thoughts,,0,0,0,,{\be10\an8}sokudo
+Dialogue: 0,0:24:05.29,0:24:07.04,Thoughts,,0,0,0,,{\be10\an8}kokudō
+Dialogue: 0,0:24:05.29,0:24:07.04,Thoughts,,0,0,0,,{\be10\an8}kakudo
+Dialogue: 0,0:24:05.29,0:24:07.04,Dialogue Top,,0,0,0,,Angle, motorway, speed...
+Dialogue: 0,0:24:07.04,0:24:07.87,Dialogue Top,,0,0,0,,What're those?
+Dialogue: 0,0:24:07.87,0:24:10.29,Dialogue Top,,0,0,0,,Excuses for the next time I blurt out 'Kudō'.
 Dialogue: 0,0:22:26.06,0:22:31.24,Poodles,,0,0,0,,{\fax0.25\blur2.5\3c&HFFFFFF}kimi no egao ga nani yori mo suki datta
 Dialogue: 0,0:22:31.57,0:22:34.66,Poodles,,0,0,0,,{\fax0.25\blur2.5\3c&HFFFFFF}onaji koto de waraiatta ne
 Dialogue: 0,0:22:34.99,0:22:43.08,Poodles,,0,0,0,,{\fax0.25\blur2.5\3c&HFFFFFF}futoshita shunkan ni iron'na kimi o omoidasu
 Dialogue: 0,0:22:44.87,0:22:51.09,Poodles,,0,0,0,,{\fax0.25\blur2.5\3c&HF2F2F3&\c&H880088}'boku ga genjitsuteki sugita' to ima ni natte kuyande'ru
 Dialogue: 0,0:22:52.63,0:22:59.22,Poodles,,0,0,0,,{\fax0.25\blur2.5\3c&HF2F2F3&\c&H880088}'kimi to no yume no tame ni' motto ikiru beki datta
 Dialogue: 0,0:23:00.26,0:23:03.52,Poodles,,0,0,0,,{\fax0.25\blur2.5\c&H008800\3c&HF2F2F3}kimi no inai akimatsuri
-Dialogue: 0,0:23:03.68,0:23:08.94,Poodles,,0,0,0,,{\fax0.25\blur2.5}{\3c&HF2F2F3&\c&H880000\t(4470,5220,\c&H0\3c&H0\4c&H0)}ima no boku wa younger than yesterday
+Dialogue: 0,0:23:03.68,0:23:08.94,Poodles,,0,0,0,,{\fax0.25\blur2.5\3c&HF2F2F3&\c&H880000\t(4470,5220,\c&H0\3c&H0\4c&H0)}ima no boku wa younger than yesterday
 Dialogue: 0,0:23:09.73,0:23:14.82,Poodles,,0,0,0,,{\fax0.25\blur2.5\3c&HF2F2F3&}hanabira ga mau yō ni kimi wa waratta ne
 Dialogue: 0,0:23:15.15,0:23:17.78,Poodles,,0,0,0,,{\fax0.25\blur2.5\3c&HF2F2F3&\c&H008800}motto warawasetakatta
 Dialogue: 0,0:23:18.12,0:23:24.83,Poodles,,0,0,0,,{\fax0.25\blur2.5\3c&HF2F2F3&\c&H008800}hareteiru no ni tsumetai ame ga futteiru
@@ -398,23 +395,3 @@ Dialogue: 0,0:23:25.00,0:23:30.54,Poodles,,0,0,0,,{\fax0.25\blur2.5\3c&HF2F2F3&\
 Dialogue: 0,0:23:30.84,0:23:33.84,Poodles,,0,0,0,,{\fax0.25\blur2.5\3c&HF2F2F3&\c&H008800}min'na hitori ja ikirenai
 Dialogue: 0,0:23:34.01,0:23:37.64,Poodles,,0,0,0,,{\fax0.25\blur2.5\3c&HF2F2F3&\c&H008800}kimi no kaeru basho de
 Dialogue: 0,0:23:37.97,0:23:42.77,Poodles,,0,0,0,,{\fax0.25\blur2.5\3c&HF2F2F3&\c&H008800}boku wa zutto aritsuzuketai
-Dialogue: 0,0:02:53.15,0:02:53.19,Signs,,0,0,0,,EVERYBODY WITNESSED IT
-Dialogue: 0,0:02:53.19,0:02:53.23,Signs,,0,0,0,,EVERYBODY WITNESSED IT
-Dialogue: 0,0:02:53.23,0:02:53.27,Signs,,0,0,0,,EVERYBODY WITNESSED IT
-Dialogue: 0,0:02:53.27,0:02:53.31,Signs,,0,0,0,,EVERYBODY WITNESSED IT
-Dialogue: 0,0:02:53.31,0:02:53.36,Signs,,0,0,0,,EVERYBODY WITNESSED IT
-Dialogue: 0,0:02:53.36,0:02:53.40,Signs,,0,0,0,,EVERYBODY WITNESSED IT
-Dialogue: 0,0:02:53.40,0:02:53.44,Signs,,0,0,0,,EVERYBODY WITNESSED IT
-Dialogue: 0,0:02:53.44,0:02:53.48,Signs,,0,0,0,,EVERYBODY WITNESSED IT
-Dialogue: 0,0:02:53.48,0:02:53.52,Signs,,0,0,0,,EVERYBODY WITNESSED IT
-Dialogue: 0,0:02:53.52,0:02:59.15,Signs,,0,0,0,,EVERYBODY WITNESSED IT
-Dialogue: 0,0:02:53.15,0:02:53.19,Signs,,0,0,0,,(PART I)
-Dialogue: 0,0:02:53.19,0:02:53.23,Signs,,0,0,0,,(PART I)
-Dialogue: 0,0:02:53.23,0:02:53.27,Signs,,0,0,0,,(PART I)
-Dialogue: 0,0:02:53.27,0:02:53.31,Signs,,0,0,0,,(PART I)
-Dialogue: 0,0:02:53.31,0:02:53.36,Signs,,0,0,0,,(PART I)
-Dialogue: 0,0:02:53.36,0:02:53.40,Signs,,0,0,0,,(PART I)
-Dialogue: 0,0:02:53.40,0:02:53.44,Signs,,0,0,0,,(PART I)
-Dialogue: 0,0:02:53.44,0:02:53.48,Signs,,0,0,0,,(PART I)
-Dialogue: 0,0:02:53.48,0:02:53.52,Signs,,0,0,0,,(PART I)
-Dialogue: 0,0:02:53.52,0:02:59.15,Signs,,0,0,0,,(PART I)

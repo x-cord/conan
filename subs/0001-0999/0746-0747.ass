@@ -36,9 +36,9 @@ Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:02.36,0:00:03.94,Dialogue,,0000,0000,0000,,{\a6}Undefeated in 400 matches?
-Dialogue: 0,0:00:05.82,0:00:08.11,Dialogue,,0000,0000,0000,,{\a6}In karate tournaments all over the world?
-Dialogue: 0,0:00:08.11,0:00:12.70,Dialogue,,0000,0000,0000,,{\a6}I'll look forward to seeing how much further you can take that record, then!
+Dialogue: 0,0:00:02.36,0:00:03.94,Dialogue Top,,0000,0000,0000,,Undefeated in 400 matches?
+Dialogue: 0,0:00:05.82,0:00:08.11,Dialogue Top,,0000,0000,0000,,In karate tournaments all over the world?
+Dialogue: 0,0:00:08.11,0:00:12.70,Dialogue Top,,0000,0000,0000,,I'll look forward to seeing how much further you can take that record, then!
 Dialogue: 0,0:00:12.70,0:00:13.73,Dialogue,,0000,0000,0000,,Ah, well...
 Dialogue: 0,0:00:13.73,0:00:17.63,Dialogue,,0000,0000,0000,,Unfortunately, I was unable to participate in the most recent tournament,
 Dialogue: 0,0:00:17.63,0:00:19.45,Dialogue,,0000,0000,0000,,and lost by default...
@@ -52,8 +52,8 @@ Dialogue: 0,0:00:44.22,0:00:48.90,Dialogue,,0000,0000,0000,,Don't you think it's
 Dialogue: 0,0:00:49.96,0:00:50.56,Dialogue,,0000,0000,0000,,Not at all.
 Dialogue: 0,0:00:52.17,0:00:57.47,Signs,,0000,0000,0000,,Shiro Suzuki (51)\NSonoko's Father\N(Chairman, Suzuki Financial Group)
 Dialogue: 0,0:00:52.17,0:00:57.47,Signs,,0000,0000,0000,,Tomoko Suzuki (43)\NSonoko's Mother
-Dialogue: 0,0:00:52.39,0:00:56.32,Dialogue,,0000,0000,0000,,{\a6}Given the fact that our eldest daughter Ayako married into the Tomizawa family,
-Dialogue: 0,0:00:56.32,0:00:57.46,Dialogue,,0000,0000,0000,,{\a6}we are left with no choice
+Dialogue: 0,0:00:52.39,0:00:56.32,Dialogue Top,,0000,0000,0000,,Given the fact that our eldest daughter Ayako married into the Tomizawa family,
+Dialogue: 0,0:00:56.32,0:00:57.46,Dialogue Top,,0000,0000,0000,,we are left with no choice
 Dialogue: 0,0:00:57.46,0:01:02.59,Dialogue,,0000,0000,0000,,but to make Sonoko's future husband a part of our family and have him succeed you!
 Dialogue: 0,0:01:02.98,0:01:10.57,Dialogue,,0000,0000,0000,,I had thought that we would choose someone adequate to take over the Suzuki family...
 Dialogue: 0,0:01:12.00,0:01:15.32,Dialogue,,0000,0000,0000,,And now you tell me you've been dating some hobo who travels abroad while still in high school
@@ -73,7 +73,7 @@ Dialogue: 0,0:01:56.15,0:01:58.01,Dialogue,,0000,0000,0000,,A call from Ran...
 Dialogue: 0,0:01:58.01,0:02:00.64,Dialogue,,0000,0000,0000,,Excuse me! I'm still talking...
 Dialogue: 0,0:02:00.64,0:02:02.42,Dialogue,,0000,0000,0000,,Hello?
 Dialogue: 0,0:02:03.34,0:02:06.25,Dialogue,,0000,0000,0000,,Eh? Kaitō Kid?!
-Dialogue: 0,0:02:06.25,0:02:13.04,Radio,,0000,0000,0000,,{\be10}{\a6}Early this morning, under the supervision of Suzuki Financial Group's advisor Jirokichi Suzuki...{uso}
+Dialogue: 0,0:02:06.25,0:02:13.04,Radio,,0000,0000,0000,,{\be10\an8}Early this morning, under the supervision of Suzuki Financial Group's advisor Jirokichi Suzuki...{uso}
 Dialogue: 0,0:02:07.43,0:02:08.73,Dialogue,,0000,0000,0000,,Yes, that's right!
 Dialogue: 0,0:02:09.38,0:02:13.04,Dialogue,,0000,0000,0000,,Kid has once more announced that he'll steal one of Jirokichi Suzuki's jewels...
 Dialogue: 0,0:02:13.71,0:02:17.63,Dialogue,,0000,0000,0000,,They're bringing the advance notice on the news right now!
@@ -84,7 +84,7 @@ Dialogue: 0,0:02:26.78,0:02:33.03,Dialogue,,0000,0000,0000,,Really! Even though 
 Dialogue: 0,0:02:33.45,0:02:35.31,Thoughts,,0000,0000,0000,,{\be10}That seems to have backfired.
 Dialogue: 0,0:02:36.83,0:02:39.04,Dialogue,,0000,0000,0000,,Hello? Uncle?
 Dialogue: 0,0:02:39.04,0:02:42.98,Dialogue,,0000,0000,0000,,I've already heard! Kid{\rHonorifics - Dialogue}-sama{\r} is coming again, isn't he?
-Dialogue: 0,0:02:43.63,0:02:45.32,Thoughts,,0000,0000,0000,,{\be10}"Kid{\rHonorifics - Thoughts}-sama{\r}"?
+Dialogue: 0,0:02:43.63,0:02:45.32,Thoughts,,0000,0000,0000,,{\be10}"Kid{\rHonorifics - Thoughts\be10}-sama{\r\be10}"?
 Dialogue: 0,0:02:48.11,0:02:49.89,Narration Off,,0000,0000,0000,,{\be10}We won't give in to the hot blazing sun!
 Dialogue: 0,0:02:49.89,0:02:51.60,Narration Off,,0000,0000,0000,,{\be10}A gallant and dashing deduction show!
 Dialogue: 0,0:02:51.60,0:02:53.46,Narration Off,,0000,0000,0000,,{\be10}A fight between the two people Sonoko loves?!
@@ -92,27 +92,6 @@ Dialogue: 0,0:02:53.46,0:02:55.46,Narration Off,,0000,0000,0000,,{\be10}The fina
 Dialogue: 0,0:02:55.46,0:02:56.97,Narration Off,,0000,0000,0000,,{\be10}He sees the single truth for what it is,
 Dialogue: 0,0:02:56.97,0:02:58.73,Narration Off,,0000,0000,0000,,{\be10}and looks like a kid but has the mind of an adult!
 Dialogue: 0,0:02:58.73,0:03:01.47,Narration Off,,0000,0000,0000,,{\be10}His name? Detective Conan!
-Dialogue: 0,0:03:07.29,0:03:09.54,Signs,,0000,0000,0000,,Created by\NGosho Aoyama
-Dialogue: 0,0:03:07.29,0:03:09.54,Signs,,0000,0000,0000,,"Detective Conan"\NSerialized in Shogakukan's\N‘Weekly Shonen Sunday'
-Dialogue: 0,0:03:32.90,0:03:35.40,Signs,,0000,0000,0000,,Character Design\NMasatomo Sudo
-Dialogue: 0,0:03:32.90,0:03:35.40,Signs,,0000,0000,0000,,Art Director\NJun'ichi Higashi
-Dialogue: 0,0:03:37.02,0:03:39.44,Signs,,0000,0000,0000,,Director of Photography\NTakahisa Ogawa
-Dialogue: 0,0:03:37.02,0:03:39.44,Signs,,0000,0000,0000,,Sound Directors\NYasuo Urakami\NKeiko Urakami
-Dialogue: 0,0:03:39.78,0:03:42.28,Signs,,0000,0000,0000,,Music\NKatsuo Ono
-Dialogue: 0,0:03:42.57,0:03:45.91,Signs,,0000,0000,0000,,Opening Theme
-Dialogue: 0,0:03:42.57,0:03:45.91,Signs,,0000,0000,0000,,Performed by
-Dialogue: 0,0:03:42.57,0:03:45.91,Signs,,0000,0000,0000,,Lyrics
-Dialogue: 0,0:03:42.57,0:03:45.91,Signs,,0000,0000,0000,,Music
-Dialogue: 0,0:03:52.37,0:03:55.08,Signs,,0000,0000,0000,,Editor\NTerumitsu Okada
-Dialogue: 0,0:03:52.37,0:03:55.08,Signs,,0000,0000,0000,,Story Editor\NJun'ichi Iioka
-Dialogue: 0,0:03:52.37,0:03:55.08,Signs,,0000,0000,0000,,Color Key\NShigenobu Kaihoko
-Dialogue: 0,0:03:52.37,0:03:55.08,Signs,,0000,0000,0000,,Executive Producer\NSeiko Terajima
-Dialogue: 0,0:03:58.42,0:04:00.92,Signs,,0000,0000,0000,,Planning Support\NHiroshi Torimitsu
-Dialogue: 0,0:03:58.42,0:04:00.92,Signs,,0000,0000,0000,,Kazumasa Ogura\NMasakazu Hakuya
-Dialogue: 0,0:04:03.76,0:04:06.14,Signs,,0000,0000,0000,,Associate Producer\NMitome Asai
-Dialogue: 0,0:04:14.10,0:04:16.85,Signs,,0000,0000,0000,,Director
-Dialogue: 0,0:04:14.10,0:04:16.85,Signs,,0000,0000,0000,,Yasuichiro Yamamoto
-Dialogue: 0,0:04:19.90,0:04:24.40,Signs,,0000,0000,0000,,Presented by
 Dialogue: 0,0:04:49.52,0:04:52.14,Dialogue,,0000,0000,0000,,O-One hundred losses in a row?!
 Dialogue: 0,0:04:52.14,0:04:55.31,Dialogue,,0000,0000,0000,,Are you saying that it was completely beaten?!
 Dialogue: 0,0:04:55.31,0:05:00.42,Dialogue,,0000,0000,0000,,The state-of-the-art security system\Nthat was only finished a few days ago?!
@@ -186,7 +165,7 @@ Dialogue: 0,0:10:04.07,0:10:09.16,Dialogue,,0000,0000,0000,,O-One man is... Surr
 Dialogue: 0,0:10:09.16,0:10:14.86,Dialogue,,0000,0000,0000,,Of course, the bullets are BBs, but with this\Nnumber of people at point-blank range...
 Dialogue: 0,0:10:14.86,0:10:21.56,Dialogue,,0000,0000,0000,,And taking into account that the field of vision of the man in the middle is obstructed by the gas mask,
 Dialogue: 0,0:10:22.02,0:10:24.63,Dialogue,,0000,0000,0000,,you'd think he had no{\rHonorifics - Dialogue} chan{\r}ce of\Navoiding the bullets, wouldn't you?
-Dialogue: 0,0:10:31.64,0:10:35.00,Dialogue,,0000,0000,0000,,Please allow me to defeat you all at once.{???}{uso}
+Dialogue: 0,0:10:31.64,0:10:35.00,Dialogue,,0000,0000,0000,,Please allow me to defeat you all at once.{???uso}
 Dialogue: 0,0:10:56.81,0:11:05.84,Dialogue,,0000,0000,0000,,His name is Makoto Kyogoku. According to the advisor,\Nit seems like he's the world's strongest security system.
 Dialogue: 0,0:11:05.84,0:11:08.52,Dialogue,,0000,0000,0000,,T-The world's strongest?!
 Dialogue: 0,0:11:08.52,0:11:11.94,Dialogue,,0000,0000,0000,,You know her as well right?
@@ -215,7 +194,7 @@ Dialogue: 0,0:12:38.50,0:12:43.91,Dialogue,,0000,0000,0000,,And? Who would you l
 Dialogue: 0,0:12:43.91,0:12:48.98,Dialogue,,0000,0000,0000,,Well, of course I want Makoto{\rHonorifics - Dialogue}-san{\r} to win.
 Dialogue: 0,0:12:48.98,0:12:52.19,Dialogue,,0000,0000,0000,,But you could say I don't want Kid{\rHonorifics - Dialogue}-sama{\r} to lose either...
 Dialogue: 0,0:12:52.19,0:12:55.96,Dialogue,,0000,0000,0000,,What's that supposed to be? At least have an opinion!
-Dialogue: 0,0:12:56.29,0:13:00.77,Radio,,0000,0000,0000,,{\be10}Because Makoto{\rHonorifics - Radio}-san{\r} is...my...important...darling...{XXX}{uso}
+Dialogue: 0,0:12:56.29,0:13:00.77,Radio,,0000,0000,0000,,{\be10}Because Makoto{\rHonorifics - Radio\be10}-san{\r\be10} is...my...important...darling...{XXXuso}
 Dialogue: 0,0:13:01.93,0:13:04.38,Dialogue,,0000,0000,0000,,Hello? Sonoko? The connection seems...
 Dialogue: 0,0:13:04.38,0:13:07.50,Dialogue,,0000,0000,0000,,Hello? Ran? Ran!
 Dialogue: 0,0:13:10.92,0:13:13.36,Dialogue,,0000,0000,0000,,No way?! No signal...
@@ -265,7 +244,7 @@ Dialogue: 0,0:16:03.84,0:16:07.86,Dialogue,,0000,0000,0000,,That jewel is on pub
 Dialogue: 0,0:16:07.86,0:16:11.63,Dialogue,,0000,0000,0000,,Yes, at the Grand Suzuki Museum\Nwhere we're headed right now!
 Dialogue: 0,0:16:12.56,0:16:17.03,Dialogue,,0000,0000,0000,,Don't tell me he's standing beside the display case\Nwith a stern expression or something like that?
 Dialogue: 0,0:16:17.03,0:16:20.03,Dialogue,,0000,0000,0000,,Well, you'll see when we get there!
-Dialogue: 0,0:16:32.63,0:16:38.76,Dialogue,,0000,0000,0000,,Huh? Why's the jewel hanging from such a boring place?{uso}{???}
+Dialogue: 0,0:16:32.63,0:16:38.76,Dialogue,,0000,0000,0000,,Huh? Why's the jewel hanging from such a boring place?{uso???}
 Dialogue: 0,0:16:38.76,0:16:40.31,Dialogue,,0000,0000,0000,,Isn't that weird?{uso}
 Dialogue: 0,0:16:40.31,0:16:41.78,Dialogue,,0000,0000,0000,,It's fine, it's fine.{uso}
 Dialogue: 0,0:16:43.40,0:16:44.10,Dialogue,,0000,0000,0000,,See?
@@ -390,17 +369,17 @@ Dialogue: 0,0:25:05.31,0:25:10.11,Dialogue,,0000,0000,0000,,The opponent is the 
 Dialogue: 0,0:25:10.11,0:25:15.45,Dialogue,,0000,0000,0000,,They're all completely pointless!
 Dialogue: 0,0:25:17.62,0:25:21.99,Dialogue,,0000,0000,0000,,Move away, move away! Move a bit further away please!
 Dialogue: 0,0:25:21.99,0:25:22.87,Dialogue,,0000,0000,0000,,What the hey?{uso}
-Dialogue: 0,0:25:22.87,0:25:25.25,Dialogue,,0000,0000,0000,,We can't have you coming near it anymore!{uso}{???}
+Dialogue: 0,0:25:22.87,0:25:25.25,Dialogue,,0000,0000,0000,,We can't have you coming near it anymore!{uso???}
 Dialogue: 0,0:25:26.92,0:25:29.54,Thoughts,,0000,0000,0000,,{\be10}You can't really call that a public display anymore...
 Dialogue: 0,0:25:31.88,0:25:35.88,Thoughts,,0000,0000,0000,,{\be10}But what is it? This huge number of letters...
-Dialogue: 0,0:25:37.34,0:25:41.39,Thoughts,,0000,0000,0000,,{\be10}Is it meant to unsettle Kyogoku{\rHonorifics - Thoughts}-san{\r}...
+Dialogue: 0,0:25:37.34,0:25:41.39,Thoughts,,0000,0000,0000,,{\be10}Is it meant to unsettle Kyogoku{\rHonorifics - Thoughts\be10}-san{\r\be10}...
 Dialogue: 0,0:25:41.39,0:25:43.10,Thoughts,,0000,0000,0000,,{\be10}Or...?
-Dialogue: 0,0:25:43.10,0:25:45.39,Dialogue,,0000,0000,0000,,{\a6}Kid! Kid! Kid!
+Dialogue: 0,0:25:43.10,0:25:45.39,Dialogue Top,,0000,0000,0000,,Kid! Kid! Kid!
 Dialogue: 0,0:25:43.64,0:25:47.77,Radio,,0000,0000,0000,,{\be10}The museum is now closing.
 Dialogue: 0,0:25:47.77,0:25:52.65,Radio,,0000,0000,0000,,{\be10}Visitors are asked to leave the premises in a timely fashion.
-Dialogue: 0,0:25:52.65,0:25:58.91,Radio,,0000,0000,0000,,{\be10}Thank you for visiting today.{uso}{???}
+Dialogue: 0,0:25:52.65,0:25:58.91,Radio,,0000,0000,0000,,{\be10}Thank you for visiting today.{uso???}
 Dialogue: 0,0:25:58.91,0:26:02.08,Dialogue,,0000,0000,0000,,Kid! Kid! Kid!
-Dialogue: 0,0:26:04.58,0:26:08.21,Dialogue,,0000,0000,0000,,Now, fall as always, Kaitō Kid!{uso}{???}
+Dialogue: 0,0:26:04.58,0:26:08.21,Dialogue,,0000,0000,0000,,Now, fall as always, Kaitō Kid!{uso???}
 Dialogue: 0,0:26:08.21,0:26:11.75,Dialogue,,0000,0000,0000,,Today I'll show you something you won't forget so easily!
 Dialogue: 0,0:26:13.38,0:26:14.84,Dialogue,,0000,0000,0000,,You, that is!
 Dialogue: 0,0:26:17.38,0:26:18.97,Thoughts,,0000,0000,0000,,{\be10}I have a bad feeling...
@@ -443,7 +422,7 @@ Dialogue: 0,0:28:42.78,0:28:43.74,Dialogue,,0000,0000,0000,,H-Hey!
 Dialogue: 0,0:28:45.24,0:28:48.91,Thoughts,,0000,0000,0000,,{\be10}As I thought, it doesn't react to black light!
 Dialogue: 0,0:28:50.99,0:28:54.00,Thoughts,,0000,0000,0000,,{\be10}Which means... Could it be that Sonoko...
 Dialogue: 0,0:28:55.87,0:28:56.96,Dialogue,,0000,0000,0000,,B-Blackout?!
-Dialogue: 0,0:29:06.97,0:29:10.43,Thoughts,,0000,0000,0000,,{\be10}I'm sorry... Makoto{\rHonorifics - Thoughts}-san{\r}...
+Dialogue: 0,0:29:06.97,0:29:10.43,Thoughts,,0000,0000,0000,,{\be10}I'm sorry... Makoto{\rHonorifics - Thoughts\be10}-san{\r\be10}...
 Dialogue: 0,0:29:17.98,0:29:22.07,Dialogue,,0000,0000,0000,,Kid! Kid! Kid!
 Dialogue: 0,0:29:24.70,0:29:26.57,Dialogue,,0000,0000,0000,,B-Blackout?!
 Dialogue: 0,0:29:28.28,0:29:30.08,Thoughts,,0000,0000,0000,,{\be10}There's something glowing up there...
@@ -534,7 +513,7 @@ Dialogue: 0,0:36:39.75,0:36:44.13,Dialogue,,0000,0000,0000,,You say return, but 
 Dialogue: 0,0:36:47.85,0:36:50.52,Dialogue,,0000,0000,0000,,Not at the point when I offered the terms of this bet...
 Dialogue: 0,0:36:52.52,0:36:56.31,Flashback,,0000,0000,0000,,{\be10}O-Okay! I'll take that bet, but...
 Dialogue: 0,0:36:57.48,0:36:59.90,Flashback,,0000,0000,0000,,{\be10}Don't hurt him, alright?
-Dialogue: 0,0:36:59.90,0:37:04.03,Flashback,,0000,0000,0000,,{\be10}Makoto{\rHonorifics - Flashback}-san{\r}'s got... a really big\Ntournament coming up next week...
+Dialogue: 0,0:36:59.90,0:37:04.03,Flashback,,0000,0000,0000,,{\be10}Makoto{\rHonorifics - Flashback\be10}-san{\r\be10}'s got... a really big\Ntournament coming up next week...
 Dialogue: 0,0:37:05.32,0:37:06.41,Flashback,,0000,0000,0000,,{\be10}Who's there?!
 Dialogue: 0,0:37:07.70,0:37:10.16,Flashback,,0000,0000,0000,,{\be10}K-Kaitō Kid!
 Dialogue: 0,0:37:10.99,0:37:12.70,Flashback,,0000,0000,0000,,{\be10}Oh, geez...
@@ -562,8 +541,8 @@ Dialogue: 0,0:40:04.50,0:40:05.63,Dialogue,,0000,0000,0000,,Please forgive me...
 Dialogue: 0,0:40:06.09,0:40:08.34,Dialogue,,0000,0000,0000,,Eh, don't worry about it.{uso}
 Dialogue: 0,0:40:08.34,0:40:12.05,Dialogue,,0000,0000,0000,,Next time, our battle will continue{???}, and then...{uso}
 Dialogue: 0,0:40:12.43,0:40:14.93,Dialogue,,0000,0000,0000,,Yes. Then, without fail...{uso}
-Dialogue: 0,0:40:15.30,0:40:16.97,Dialogue,,0000,0000,0000,,You've spoken well.{???}{uso}
-Dialogue: 0,0:40:16.97,0:40:20.18,Dialogue,,0000,0000,0000,,Now, you're the world's strongest security system!{???}{uso}
+Dialogue: 0,0:40:15.30,0:40:16.97,Dialogue,,0000,0000,0000,,You've spoken well.{???uso}
+Dialogue: 0,0:40:16.97,0:40:20.18,Dialogue,,0000,0000,0000,,Now, you're the world's strongest security system!{???uso}
 Dialogue: 0,0:40:22.94,0:40:26.31,Dialogue,,0000,0000,0000,,He's quite the strapping young man!
 Dialogue: 0,0:40:26.31,0:40:27.44,Dialogue,,0000,0000,0000,,Indeed...
 Dialogue: 0,0:40:27.94,0:40:33.41,Dialogue,,0000,0000,0000,,he's a focused, simple, well-mannered, and very strong...
@@ -584,10 +563,10 @@ Dialogue: 0,0:41:23.58,0:41:25.83,Dialogue,,0000,0000,0000,,Was there really not
 Dialogue: 0,0:41:25.83,0:41:28.96,Dialogue,,0000,0000,0000,,Like the real me seems more pure or something...
 Dialogue: 0,0:41:28.96,0:41:31.13,Dialogue,,0000,0000,0000,,P-Pure?
 Dialogue: 0,0:41:31.13,0:41:35.43,Dialogue,,0000,0000,0000,,You know, pure, innocent...
-Dialogue: 0,0:41:36.76,0:41:37.76,Dialogue,,0000,0000,0000,,Oh, forget it!{XXX}{uso}
+Dialogue: 0,0:41:36.76,0:41:37.76,Dialogue,,0000,0000,0000,,Oh, forget it!{XXXuso}
 Dialogue: 0,0:41:37.76,0:41:39.97,Dialogue,,0000,0000,0000,,S-Sorry...
 Dialogue: 0,0:41:39.97,0:41:40.76,Dialogue,,0000,0000,0000,,Geez!
 Dialogue: 0,0:41:41.22,0:41:46.52,Thoughts,,0000,0000,0000,,{\be10}Well, they say that girls usually have\Nlonger index fingers than ring fingers
 Dialogue: 0,0:41:46.52,0:41:50.27,Thoughts,,0000,0000,0000,,{\be10}and guys vice versa because of the\Nrelationship between fingers and hormones.
-Dialogue: 0,0:41:50.27,0:41:52.98,Thoughts,,0000,0000,0000,,{\be10}Although there are plenty of exceptions to that...
+Dialogue: 0,0:41:50.27,0:41:52.98,Thoughts,,0000,0000,0000,,{\be10\fad(0,500)}Although there are plenty of exceptions to that...
 Dialogue: 0,0:41:53.78,0:41:56.11,Dialogue,,0000,0000,0000,,Hey, my ring finger's really long!

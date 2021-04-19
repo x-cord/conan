@@ -33,7 +33,6 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: TL Note,Segoe,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,95,1,0,1,1.5,0,2,20,20,20,0
 Style: PC,Segoe,20,&H00000000,&H000000FF,&H00FFFFFF,&H00000000,-1,0,0,0,100,100,0,-1,1,0,0,2,10,10,10,1
 Style: Names,Calibri,32,&H00FFFFFF,&H000000FF,&H008B0708,&H00D3090B,-1,0,0,0,100,100,0,0,1,0,2,2,15,30,248,1
 Style: DoitoKid,Cooper Black,16,&H00FFFFFF,&H000000FF,&H00000000,&H00FFFFFF,0,0,0,0,100,100,0,0,1,0,0,2,5,5,40,1
@@ -43,12 +42,6 @@ Style: IRC2,Fixedsys Excelsior 3.01,24,&H00A89843,&H00613401,&H00613401,&H000000
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Comment: 0,0:18:12.16,0:18:26.80,Signs,,0000,0000,0000,,* ShadowPriest (sp@127.154.235.34) has joined #Magic
-Comment: 0,0:18:12.16,0:18:13.47,Thoughts,,0000,0000,0000,,{\be10}The Illusion: "It's too bad what happened to Hūden Harui{\rHonorifics - Thoughts}-san{\r}..."
-Comment: 0,0:18:13.47,0:18:14.61,Thoughts,,0000,0000,0000,,{\be10}The Red Herring: "It really is... @Illusion"
-Comment: 0,0:18:14.61,0:18:17.89,Thoughts,,0000,0000,0000,,{\be10}The Silent Ventriloquist: "I read it in the paper too, what a surprise."
-Comment: 0,0:18:17.89,0:18:22.56,Thoughts,,0000,0000,0000,,{\be10}The Escape King: "Nah, he's probably happy he died on-stage! lol"
-Comment: 0,0:18:22.56,0:18:27.12,Thoughts,,0000,0000,0000,,{\be10}The Disappearing Bunny: "This is what they call 'an old man's indiscretion,' eh? (^^;)" {this is what they call toshiyori-no-hiyamizu, eh?}
 Dialogue: 0,0:00:00.81,0:00:03.69,Narration Off,,0000,0000,0000,,{\be10}Alibis, codes, cases, deals.
 Dialogue: 0,0:00:03.69,0:00:06.40,Narration Off,,0000,0000,0000,,{\be10}The mysterious Black Organisation.
 Dialogue: 0,0:00:06.40,0:00:07.15,Narration Off,,0000,0000,0000,,{\be10}Today's the conclusion!
@@ -56,7 +49,7 @@ Dialogue: 0,0:00:07.15,0:00:09.86,Narration Off,,0000,0000,0000,,{\be10}The crim
 Dialogue: 0,0:00:09.86,0:00:11.36,Narration Off,,0000,0000,0000,,{\be10}He sees the single truth for what it is,
 Dialogue: 0,0:00:11.36,0:00:13.36,Narration Off,,0000,0000,0000,,{\be10}and looks like a kid but has the mind of an adult!
 Dialogue: 0,0:00:13.36,0:00:16.12,Narration Off,,0000,0000,0000,,{\be10}His name? Detective Conan!
-Dialogue: 0,0:19:38.44,0:19:40.57,DoitoKid,,0000,0000,0000,,{\be10}do
+Dialogue: 0,0:19:38.44,0:19:40.57,Signs,,0000,0000,0000,,do
 Dialogue: 0,0:19:38.44,0:19:40.57,Signs,,0000,0000,0000,,i
 Dialogue: 0,0:19:38.44,0:19:40.57,Signs,,0000,0000,0000,,to
 Dialogue: 0,0:19:38.44,0:19:40.57,Signs,,0000,0000,0000,,u
@@ -140,9 +133,9 @@ Dialogue: 0,0:19:42.61,0:19:44.12,Signs,,0000,0000,0000,,u
 Dialogue: 0,0:19:42.61,0:19:44.12,Signs,,0000,0000,0000,,ka
 Dialogue: 0,0:19:42.61,0:19:44.12,Signs,,0000,0000,0000,,d
 Dialogue: 0,0:19:42.61,0:19:44.12,Signs,,0000,0000,0000,,ki
-Dialogue: 0,0:19:38.44,0:19:44.12,Dialogue,,0000,0000,0000,,{\a6}Note: つ (tsu) can also double the next consonant when smaller.
+Dialogue: 0,0:19:38.44,0:19:44.12,Dialogue Top,,0000,0000,0000,,Note: つ (tsu) can also double the next consonant when smaller.
 Dialogue: 0,0:01:50.50,0:01:58.72,Thoughts,,0000,0000,0000,,{\be10}Ran and Sonoko went to a mountain lodge on a meeting of magic fans that met via the Internet.
-Dialogue: 0,0:01:58.72,0:02:03.76,Thoughts,,0000,0000,0000,,{\be10}However, their board leader, Tsutomu Nishiyama{\rHonorifics - Thoughts}-san{\r}, was killed in his apartment,
+Dialogue: 0,0:01:58.72,0:02:03.76,Thoughts,,0000,0000,0000,,{\be10}However, their board leader, Tsutomu Nishiyama{\rHonorifics - Thoughts\be10}-san{\r\be10}, was killed in his apartment,
 Dialogue: 0,0:02:03.76,0:02:08.98,Thoughts,,0000,0000,0000,,{\be10}and futhermore, a creepy message was left at the scene pointing at it being a serial murder.
 Dialogue: 0,0:02:08.98,0:02:12.31,Thoughts,,0000,0000,0000,,{\be10}The bridge, which was the only link to the outside world, had been set on fire,
 Dialogue: 0,0:02:12.31,0:02:14.57,Thoughts,,0000,0000,0000,,{\be10}the mountain lodge was isolated,
@@ -273,7 +266,7 @@ Dialogue: 0,0:10:28.35,0:10:33.69,Dialogue,,0000,0000,0000,,That's why the kille
 Dialogue: 0,0:10:33.69,0:10:37.40,Dialogue,,0000,0000,0000,,To retrieve the arrows before the police came.
 Dialogue: 0,0:10:37.40,0:10:38.86,Dialogue,,0000,0000,0000,,Isn't that right?
 Dialogue: 0,0:10:38.86,0:10:41.20,Dialogue,,0000,0000,0000,,Kikue Tanaka{\rHonorifics - Dialogue}-san{\r}, the killer!?
-Dialogue: 0,0:10:46.04,0:10:48.54,Dialogue,,0000,0020,0000,,{\bord0\shad0\a7\fad(0,0)}Detective Conan Episode 134\NThe Amateur Magician Murder Case (Case Closed)\NSubtitled by Puto\Nhttp://pu7o.wordpress.com\NQC by RattleMan and Conan_Kudo\NTLC by bluesun
+Dialogue: 0,0:10:46.04,0:10:48.54,Dialogue,,0000,0020,0000,,{\a7\fad(0,0)}Detective Conan Episode 134\NThe Amateur Magician Murder Case (Case Closed)\NSubtitled by Puto\Nhttp://pu7o.wordpress.com\NQC by RattleMan and Conan_Kudo\NTLC by bluesun
 Dialogue: 0,0:10:51.25,0:10:53.63,Dialogue,,0000,0000,0000,,Tanaka{\rHonorifics - Dialogue}-san{\r}'s the killer, you say?!
 Dialogue: 0,0:10:53.63,0:10:55.75,Dialogue,,0000,0000,0000,,No way...
 Dialogue: 0,0:10:57.30,0:10:59.30,Dialogue,,0000,0000,0000,,Wait, Sonoko{\rHonorifics - Dialogue}-chan{\r}!
@@ -386,8 +379,6 @@ Dialogue: 0,0:17:54.01,0:17:59.51,Dialogue,,0000,0000,0000,,Yeah. Grandfather ch
 Dialogue: 0,0:17:59.51,0:18:03.18,Dialogue,,0000,0000,0000,,I don't blame you guys for his death.
 Dialogue: 0,0:18:03.18,0:18:06.77,Dialogue,,0000,0000,0000,,But... what I couldn't forgive was...
 Dialogue: 0,0:18:06.77,0:18:12.27,Dialogue,,0000,0000,0000,,The comments Nishiyama{\rHonorifics - Dialogue}-san{\r} and Hamano{\rHonorifics - Dialogue}-san{\r} made about Grandfather...
-Dialogue: 0,0:18:12.27,0:18:27.58,Signs,,0000,0000,0000,,.
-Dialogue: 0,0:18:12.27,0:18:13.07,Signs,,0000,0000,0000,,.
 Dialogue: 0,0:18:12.27,0:18:26.91,Signs,,0000,0000,0000,,<Illusion> It's too bad what happened\Nto Hūden Harui{\rHonorifics - Signs}-san{\r}...
 Dialogue: 0,0:18:12.27,0:18:26.91,Signs,,0000,0000,0000,,<RedHerring> Illusion: It really is...
 Dialogue: 0,0:18:14.28,0:18:26.91,Signs,,0000,0000,0000,,<SilentVentriloquist> I read it in the paper too, what a surprise...
@@ -433,7 +424,7 @@ Dialogue: 0,0:21:05.36,0:21:07.95,Dialogue,,0000,0000,0000,,Until we meet again,
 Dialogue: 0,0:21:07.95,0:21:12.70,Dialogue,,0000,0000,0000,,While the bell announcing the end of the century has yet to ring... {lol drop-in promotion for movie 3}
 Dialogue: 0,0:21:30.43,0:21:33.85,Thoughts,,0000,0000,0000,,{\be10}Still as flashy as always, that guy...
 Dialogue: 0,0:23:04.48,0:23:09.53,Thoughts,,0000,0000,0000,,{\be10}Afterwards, the old man and Inspector Megure arrived in the police helicopter,
-Dialogue: 0,0:23:09.53,0:23:15.20,Thoughts,,0000,0000,0000,,{\be10}and Tanaka{\rHonorifics - Thoughts}-san{\r} willingly gave herself up, peacefully closing this case.
+Dialogue: 0,0:23:09.53,0:23:15.20,Thoughts,,0000,0000,0000,,{\be10}and Tanaka{\rHonorifics - Thoughts\be10}-san{\r\be10} willingly gave herself up, peacefully closing this case.
 Dialogue: 0,0:23:15.20,0:23:17.79,Thoughts,,0000,0000,0000,,{\be10}Sonoko, on the other hand, was far less peaceful.
 Dialogue: 0,0:23:17.79,0:23:23.13,Thoughts,,0000,0000,0000,,{\be10}Immediately after the case ended, she dragged Ran and I to a karaoke box,
 Dialogue: 0,0:23:23.13,0:23:28.80,Thoughts,,0000,0000,0000,,{\be10}and we had to listen to her unbearable stage singing for 4 long hours.

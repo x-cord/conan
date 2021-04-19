@@ -44,14 +44,6 @@ Style: MKED,MV Boli M,50,&H00D6EEF3,&H000000FF,&H003C5B6F,&H00000000,-1,0,0,0,10
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Comment: 0,0:00:54.36,0:00:55.45,Dialogue,,0,0,0,,（３人）えぇ？
-Comment: 0,0:04:40.80,0:04:41.31,Dialogue,,0,0,0,,（千葉）あっ！？\N[ん？]
-Comment: 0,0:04:42.38,0:04:43.20,Dialogue,,0,0,0,,あぁ...！！\N
-Comment: 0,0:15:51.47,0:15:52.22,Dialogue,,0,0,0,,（笛本）うぉ！？
-Comment: 0,0:16:21.41,0:16:23.37,Dialogue,,0,0,0,,ああっ　うぅぅ...！
-Comment: 0,0:16:36.39,0:16:38.02,Dialogue,,0,0,0,,K... K... Ko... {komamae}
-Comment: 0,0:20:26.72,0:20:27.51,Dialogue,,0,0,0,,Yeah!{uso heard: もう！}{because uso mistimed it -_, it's Ayumi's line 2s earlier}
-Dialogue: 0,0:00:04.23,0:00:05.48,Signs,,0,0,0,,.
 Dialogue: 0,0:00:01.85,0:00:06.46,Thoughts,,0,0,0,,{\be10}Detective Takagi went somewhere, without telling anyone where he was headed.
 Dialogue: 0,0:00:07.48,0:00:15.75,Thoughts,,0,0,0,,{\be10}The next day, the Detective Boys were waiting outside Police HQ for Detective Takagi, but he wasn't showing up.
 Dialogue: 0,0:00:16.49,0:00:17.99,Thoughts,,0,0,0,,{\be10}And then...
@@ -175,7 +167,7 @@ Dialogue: 0,0:09:06.20,0:09:08.38,Dialogue,,0,0,0,,I-It's up to you now...
 Dialogue: 0,0:09:10.75,0:09:13.13,Thoughts,,0,0,0,,{\be10}No! Come on...
 Dialogue: 0,0:09:13.13,0:09:14.74,Thoughts,,0,0,0,,{\be10}I've got to get out of this somehow...
 Dialogue: 0,0:09:14.74,0:09:16.86,Thoughts,,0,0,0,,{\be10}...and tell that person!
-Dialogue: 0,0:09:21.88,0:09:25.21,Thoughts,,0,0,0,,{\be10}Tell them the truth for Date{\rHonorifics - Thoughts}-san{\r}...
+Dialogue: 0,0:09:21.88,0:09:25.21,Thoughts,,0,0,0,,{\be10}Tell them the truth for Date{\rHonorifics - Thoughts\be10}-san{\r\be10}...
 Dialogue: 0,0:09:32.22,0:09:33.88,Dialogue,,0,0,0,,I-It's no use, Superintendent!
 Dialogue: 0,0:09:33.88,0:09:39.49,Dialogue,,0,0,0,,We contacted the network provider, but it seems that an overseas server {\i1}is{\i0} being used.
 Dialogue: 0,0:09:39.49,0:09:42.72,Dialogue,,0,0,0,,We've requested the co-operation of the local investigation authority, but...
@@ -206,8 +198,8 @@ Dialogue: 0,0:11:13.97,0:11:16.51,Dialogue,,0,0,0,,The English conversation teac
 Dialogue: 0,0:11:16.51,0:11:18.36,Dialogue,,0,0,0,,was born in Hokkaidō.
 Dialogue: 0,0:11:18.83,0:11:24.63,Dialogue,,0,0,0,,Then someone connected with her may well be Detective Takagi's kidnapper.
 Dialogue: 0,0:11:24.63,0:11:26.46,Dialogue,,0,0,0,,Why's that?
-Dialogue: 0,0:11:26.46,0:11:30.83,Signs,,0,0,0,,asatte
-Dialogue: 0,0:11:26.46,0:11:30.83,Signs,,0,0,0,,ashita-asatte
+Dialogue: 0,0:11:26.46,0:11:30.83,Thoughts,,0,0,0,,{\be10}asatte
+Dialogue: 0,0:11:26.46,0:11:30.83,Thoughts,,0,0,0,,{\be10}ashita-asatte
 Dialogue: 0,0:11:26.46,0:11:30.83,Dialogue,,0,0,40,,In the Hokkaidō dialect, 'the day after tomorrow'{asatte} is said as 'tomorrow and the next day'{ashita-asatte}.
 Dialogue: 0,0:11:32.43,0:11:34.11,Dialogue,,0,0,0,,But why?
 Dialogue: 0,0:11:34.11,0:11:37.46,Dialogue,,0,0,0,,She was probably Detective Date's girlfriend.
@@ -254,9 +246,7 @@ Dialogue: 0,0:14:30.18,0:14:32.92,Dialogue,,0,0,0,,there's a{\rHonorifics - Dial
 Dialogue: 0,0:14:32.92,0:14:36.10,Dialogue,,0,0,0,,Hurry there and capture him as soon as you find him!
 Dialogue: 0,0:14:36.10,0:14:38.56,Dialogue,,0,0,0,,Make him spit out Takagi's location!
 Dialogue: 0,0:14:38.56,0:14:39.52,Dialogue,,0,0,0,,Yes, sir!
-Dialogue: 0,0:14:55.49,0:14:57.50,Signs,,0,0,0,,.
 Dialogue: 0,0:14:55.49,0:14:57.50,Signs,,0,0,0,,Fuemoto
-Dialogue: 0,0:14:55.49,0:14:57.50,Dialogue,,0,0,0,,.
 Dialogue: 0,0:14:59.74,0:15:02.80,Dialogue,,0,0,0,,{sign: Fuemoto}Go ahead, the door's open.
 Dialogue: 0,0:15:09.16,0:15:13.85,Dialogue,,0,0,0,,So you've finally, {\i1}finally{\i0} managed to find me.
 Dialogue: 0,0:15:15.18,0:15:20.69,Dialogue,,0,0,0,,I thought I might end up dozing off and pushing the bomb's trigger while I was waiting.
@@ -380,50 +370,30 @@ Dialogue: 0,0:23:38.64,0:23:39.39,Dialogue,,0,0,0,,What?!
 Dialogue: 0,0:24:00.13,0:24:03.88,Dialogue,,0,0,0,,And if it's set on a timer to explode at that time...?
 Dialogue: 0,0:24:04.60,0:24:06.71,Dialogue,,0,0,0,,Have you checked the blurred footage, I wonder?
 Dialogue: 0,0:24:07.66,0:24:08.84,Dialogue,,0,0,0,,The Sun Pillar phenomenon.
-Dialogue: 0,0:24:09.43,0:24:10.84,Thoughts,,0,0,0,,{\be10}Where are you, Takagi{\rHonorifics - Thoughts}-kun{\r}...
+Dialogue: 0,0:24:09.43,0:24:10.84,Thoughts,,0,0,0,,{\be10}Where are you, Takagi{\rHonorifics - Thoughts\be10}-kun{\r\be10}...
 Dialogue: 0,0:24:10.84,0:24:12.05,Thoughts,,0,0,0,,{\be10}It couldn't be...?!
-Dialogue: 0,0:24:12.92,0:24:13.76,Thoughts,,0,0,0,,{\be10}Date{\rHonorifics - Thoughts}-san{\r}...
+Dialogue: 0,0:24:12.92,0:24:13.76,Thoughts,,0,0,0,,{\be10}Date{\rHonorifics - Thoughts\be10}-san{\r\be10}...
 Dialogue: 0,0:24:15.20,0:24:16.22,Dialogue,,0,0,0,,Satō!
 Dialogue: 0,0:24:16.22,0:24:18.31,Dialogue,,0,0,0,,Takagi!
 Dialogue: 0,0:24:18.31,0:24:24.31,Dialogue,,0,0,0,,On the next Conan: 'The Life-Threatening Broadcast of Love (Rush to the Scene)'!
 Dialogue: 0,0:24:24.31,0:24:29.32,Dialogue,,0,0,0,,Next Conan's Hint: 'Meteorological Phenomena'!
 Dialogue: 0,0:24:29.32,0:24:30.86,Dialogue,,0,0,0,,I'm at my limit too.
 Dialogue: 0,0:24:30.86,0:24:31.74,Dialogue,,0,0,0,,What're you saying?
-Dialogue: 0,0:24:31.74,0:24:33.22,Dialogue,,0,0,0,,No wonder people just walk over you...{That's why you're called a herbivore!}{soushoku-kei are known for being weak, easy to give up}
+Dialogue: 0,0:24:31.74,0:24:33.22,Dialogue,,0,0,0,,No wonder people just walk over you...{That's why you're called a herbivore!soushoku-kei are known for being weak, easy to give up}
 Dialogue: 0,0:24:33.22,0:24:34.10,Dialogue,,0,0,0,,Scary...
-Dialogue: 0,0:03:01.11,0:03:08.37,Thoughts,,0,0,0,,{\be10}{\fad(500,500)}Detective Conan is brought to you by these sponsors.
-Dialogue: 0,0:22:12.97,0:22:17.64,MKED,,0,0,0,,{\fax0.25}{\be8}kimi ni zenzen kyōmi nai uso you are my perfect guy
-Dialogue: 0,0:22:18.15,0:22:22.65,MKED,,0,0,0,,{\fax0.25}{\be8}tokimeki wa kakusenai honto wa ki ni natte shikatanai
-Dialogue: 0,0:22:23.19,0:22:27.65,MKED,,0,0,0,,{\fax0.25}{\be8}koi ni bukiyō son'na style kimi no mae da to betsujin mitai
-Dialogue: 0,0:22:28.20,0:22:32.08,MKED,,0,0,0,,{\fax0.25}{\be8}dare ni mo ienai himitsu no mama
-Dialogue: 0,0:22:33.24,0:22:37.21,MKED,,0,0,0,,{\fax0.25}{\be8}soredemo I'm alright koi no yukue nante
-Dialogue: 0,0:22:37.50,0:22:41.50,MKED,,0,0,0,,{\fax0.25}{\be8}mada it isn't the last{\rHonorifics - MKED} chan{\r}ce for me
-Dialogue: 0,0:22:42.09,0:22:47.09,MKED,,0,0,0,,{\fax0.25}{\be8}iron'na love story o egaite'ru mune no naka
-Dialogue: 0,0:22:47.26,0:22:52.39,MKED,,0,0,0,,{\fax0.25}{\be8}demo risō ni wa hodo tōi
-Dialogue: 0,0:22:52.89,0:22:57.77,MKED,,0,0,0,,{\fax0.25}{\be8}watashi-tte wagamama sore kurai no koto wakatte'ru
-Dialogue: 0,0:22:57.98,0:23:03.94,MKED,,0,0,0,,{\fax0.25}{\be8}dakedo nani ka ikenai no?
-Dialogue: 0,0:23:04.61,0:23:14.28,MKED,,0,0,0,,{\fax0.25}{\be8}kimi to no koi ni koi o shite'ru dake de tsutaetakute mo mada
-Dialogue: 0,0:23:14.58,0:23:27.09,MKED,,0,0,0,,{\fax0.25}{\be8}{\fad(0,800)}himitsu ni shite'ru hō ga shiawase dakara ima wa watashi dake no secret love
-Dialogue: 0,0:22:08.47,0:22:11.97,Signs,,0,0,0,,Koi ni Koishite\N(Falling in love)
-Dialogue: 0,0:22:08.47,0:22:11.97,Signs,,0,0,0,,(Mai Kuraki)
-Dialogue: 0,0:22:07.55,0:22:08.64,Signs,,0,0,0,,.
-Dialogue: 0,0:22:08.64,0:22:08.72,Signs,,0,0,0,,.
-Dialogue: 0,0:22:08.72,0:22:08.80,Signs,,0,0,0,,.
-Dialogue: 0,0:22:08.80,0:22:08.89,Signs,,0,0,0,,.
-Dialogue: 0,0:22:08.89,0:22:08.97,Signs,,0,0,0,,.
-Dialogue: 0,0:22:08.97,0:22:09.05,Signs,,0,0,0,,.
-Dialogue: 0,0:22:09.05,0:22:09.14,Signs,,0,0,0,,.
-Dialogue: 0,0:22:09.14,0:22:09.22,Signs,,0,0,0,,.
-Dialogue: 0,0:22:09.22,0:22:09.30,Signs,,0,0,0,,.
-Dialogue: 0,0:22:09.22,0:22:09.30,Signs,,0,0,0,,.
-Dialogue: 0,0:22:11.97,0:22:12.06,Signs,,0,0,0,,.
-Dialogue: 0,0:22:11.97,0:22:12.06,Signs,,0,0,0,,.
-Dialogue: 0,0:22:12.06,0:22:12.14,Signs,,0,0,0,,.
-Dialogue: 0,0:22:12.14,0:22:12.22,Signs,,0,0,0,,.
-Dialogue: 0,0:22:12.22,0:22:12.31,Signs,,0,0,0,,.
-Dialogue: 0,0:22:12.31,0:22:12.39,Signs,,0,0,0,,.
-Dialogue: 0,0:22:12.39,0:22:12.47,Signs,,0,0,0,,.
-Dialogue: 0,0:22:12.47,0:22:12.97,Signs,,0,0,0,,.
+Dialogue: 0,0:03:01.11,0:03:08.37,Thoughts,,0,0,0,,{\be10\fad(500,500)}Detective Conan is brought to you by these sponsors.
+Dialogue: 0,0:22:12.97,0:22:17.64,MKED,,0,0,0,,{\fax0.25\be8}kimi ni zenzen kyōmi nai uso you are my perfect guy
+Dialogue: 0,0:22:18.15,0:22:22.65,MKED,,0,0,0,,{\fax0.25\be8}tokimeki wa kakusenai honto wa ki ni natte shikatanai
+Dialogue: 0,0:22:23.19,0:22:27.65,MKED,,0,0,0,,{\fax0.25\be8}koi ni bukiyō son'na style kimi no mae da to betsujin mitai
+Dialogue: 0,0:22:28.20,0:22:32.08,MKED,,0,0,0,,{\fax0.25\be8}dare ni mo ienai himitsu no mama
+Dialogue: 0,0:22:33.24,0:22:37.21,MKED,,0,0,0,,{\fax0.25\be8}soredemo I'm alright koi no yukue nante
+Dialogue: 0,0:22:37.50,0:22:41.50,MKED,,0,0,0,,{\fax0.25\be8}mada it isn't the last{\rHonorifics - MKED} chan{\r}ce for me
+Dialogue: 0,0:22:42.09,0:22:47.09,MKED,,0,0,0,,{\fax0.25\be8}iron'na love story o egaite'ru mune no naka
+Dialogue: 0,0:22:47.26,0:22:52.39,MKED,,0,0,0,,{\fax0.25\be8}demo risō ni wa hodo tōi
+Dialogue: 0,0:22:52.89,0:22:57.77,MKED,,0,0,0,,{\fax0.25\be8}watashi-tte wagamama sore kurai no koto wakatte'ru
+Dialogue: 0,0:22:57.98,0:23:03.94,MKED,,0,0,0,,{\fax0.25\be8}dakedo nani ka ikenai no?
+Dialogue: 0,0:23:04.61,0:23:14.28,MKED,,0,0,0,,{\fax0.25\be8}kimi to no koi ni koi o shite'ru dake de tsutaetakute mo mada
+Dialogue: 0,0:23:14.58,0:23:27.09,MKED,,0,0,0,,{\fax0.25\be8\fad(0,800)}himitsu ni shite'ru hō ga shiawase dakara ima wa watashi dake no secret love
 Dialogue: 0,0:22:07.55,0:22:08.64,Signs,,0,0,0,,Shin'ichi Kudō
 Dialogue: 0,0:22:08.64,0:22:08.72,Signs,,0,0,0,,Shin'ichi Kudō
 Dialogue: 0,0:22:08.72,0:22:08.80,Signs,,0,0,0,,Shin'ichi Kudō
@@ -459,25 +429,3 @@ Dialogue: 0,0:22:12.22,0:22:12.31,Signs,,0,0,0,,Shin'ich
 Dialogue: 0,0:22:12.31,0:22:12.39,Signs,,0,0,0,,Shin'ichi Kudō
 Dialogue: 0,0:22:12.39,0:22:12.47,Signs,,0,0,0,,Shin'ichi Kudō
 Dialogue: 0,0:22:12.47,0:22:12.97,Signs,,0,0,0,,Shin'ichi Kudō
-Dialogue: 0,0:03:14.88,0:03:14.92,Signs,,0,0,0,,The Life-Threatening Broadcast of Love
-Dialogue: 0,0:03:14.92,0:03:14.96,Signs,,0,0,0,,The Life-Threatening Broadcast of Love
-Dialogue: 0,0:03:14.96,0:03:15.00,Signs,,0,0,0,,The Life-Threatening Broadcast of Love
-Dialogue: 0,0:03:15.00,0:03:15.04,Signs,,0,0,0,,The Life-Threatening Broadcast of Love
-Dialogue: 0,0:03:15.04,0:03:15.09,Signs,,0,0,0,,The Life-Threatening Broadcast of Love
-Dialogue: 0,0:03:15.09,0:03:15.13,Signs,,0,0,0,,The Life-Threatening Broadcast of Love
-Dialogue: 0,0:03:15.13,0:03:15.17,Signs,,0,0,0,,The Life-Threatening Broadcast of Love
-Dialogue: 0,0:03:15.17,0:03:15.21,Signs,,0,0,0,,The Life-Threatening Broadcast of Love
-Dialogue: 0,0:03:15.21,0:03:15.25,Signs,,0,0,0,,The Life-Threatening Broadcast of Love
-Dialogue: 0,0:03:15.25,0:03:20.88,Signs,,0,0,0,,The Life-Threatening Broadcast of Love
-Dialogue: 0,0:03:14.88,0:03:14.92,Signs,,0,0,0,,(Crisis State)
-Dialogue: 0,0:03:14.92,0:03:14.96,Signs,,0,0,0,,(Crisis State)
-Dialogue: 0,0:03:14.96,0:03:15.00,Signs,,0,0,0,,(Crisis State)
-Dialogue: 0,0:03:15.00,0:03:15.04,Signs,,0,0,0,,(Crisis State)
-Dialogue: 0,0:03:15.04,0:03:15.09,Signs,,0,0,0,,(Crisis State)
-Dialogue: 0,0:03:15.09,0:03:15.13,Signs,,0,0,0,,(Crisis State)
-Dialogue: 0,0:03:15.13,0:03:15.17,Signs,,0,0,0,,(Crisis State)
-Dialogue: 0,0:03:15.17,0:03:15.21,Signs,,0,0,0,,(Crisis State)
-Dialogue: 0,0:03:15.21,0:03:15.25,Signs,,0,0,0,,(Crisis State)
-Dialogue: 0,0:03:15.25,0:03:20.88,Signs,,0,0,0,,(Crisis State)
-Dialogue: 0,0:24:18.31,0:24:24.31,Signs,,0,0,0,,The Life-Threatening Broadcast of Love
-Dialogue: 0,0:24:18.31,0:24:24.31,Signs,,0,0,0,,(Rush to the Scene)

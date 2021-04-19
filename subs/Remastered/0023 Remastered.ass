@@ -36,13 +36,13 @@ Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:01.07,0:00:02.63,Dialogue,,0000,0000,0100,,{\bord5}"Closed Circle."
-Dialogue: 0,0:00:04.52,0:00:08.70,Dialogue,,0000,0000,0100,,{\bord5}Being isolated from the outside world,
-Dialogue: 0,0:00:08.70,0:00:12.30,Dialogue,,0000,0000,0100,,{\bord5}the culprit is trapped among people in the same location and situation,
-Dialogue: 0,0:00:13.19,0:00:16.67,Dialogue,,0000,0000,0100,,{\bord5}intervention by police and scientific investigation are impossible,
-Dialogue: 0,0:00:17.24,0:00:21.99,Dialogue,,0000,0000,0100,,{\bord5}and the answer must be reached purely by logical methods of thought.
-Dialogue: 0,0:00:22.64,0:00:28.35,Dialogue,,0000,0000,0100,,{\bord5}In other words, the detectives in attendance are on the same standing as you who are viewing.
-Dialogue: 0,0:00:29.39,0:00:32.44,Dialogue,,0000,0000,0100,,{\bord5}Everyone, can you unmask the culprit?
+Dialogue: 0,0:00:01.07,0:00:02.63,Dialogue,,0000,0000,0100,,{\c&HFFFF&}"Closed Circle."
+Dialogue: 0,0:00:04.52,0:00:08.70,Dialogue,,0000,0000,0100,,{\c&HFFFF&}Being isolated from the outside world,
+Dialogue: 0,0:00:08.70,0:00:12.30,Dialogue,,0000,0000,0100,,{\c&HFFFF&}the culprit is trapped among people in the same location and situation,
+Dialogue: 0,0:00:13.19,0:00:16.67,Dialogue,,0000,0000,0100,,{\c&HFFFF&}intervention by police and scientific investigation are impossible,
+Dialogue: 0,0:00:17.24,0:00:21.99,Dialogue,,0000,0000,0100,,{\c&HFFFF&}and the answer must be reached purely by logical methods of thought.
+Dialogue: 0,0:00:22.64,0:00:28.35,Dialogue,,0000,0000,0100,,{\c&HFFFF&}In other words, the detectives in attendance are on the same standing as you who are viewing.
+Dialogue: 0,0:00:29.39,0:00:32.44,Dialogue,,0000,0000,0100,,{\c&HFFFF&}Everyone, can you unmask the culprit?
 Dialogue: 0,0:00:33.95,0:00:35.72,Thoughts,,0000,0000,0100,,{\be10}It doesn't matter how many times you try,
 Dialogue: 0,0:00:35.72,0:00:37.84,Thoughts,,0000,0000,0100,,{\be10}whether it's in love, deductions, today, or tomorrow!
 Dialogue: 0,0:00:37.84,0:00:39.60,Thoughts,,0000,0000,0100,,{\be10}The true killer lurking in the shadows...
@@ -50,7 +50,7 @@ Dialogue: 0,0:00:39.60,0:00:41.56,Thoughts,,0000,0000,0100,,{\be10}The Hatamoto 
 Dialogue: 0,0:00:41.56,0:00:43.18,Thoughts,,0000,0000,0100,,{\be10}He sees the single truth for what it is,
 Dialogue: 0,0:00:43.18,0:00:44.97,Thoughts,,0000,0000,0100,,{\be10}and looks like a kid but has the mind of an adult.
 Dialogue: 0,0:00:44.97,0:00:47.34,Thoughts,,0000,0000,0100,,{\be10}His name? Detective Conan!
-Dialogue: 0,0:02:14.92,0:02:22.94,Dialogue,,0000,0000,0100,,{\fad(400,400)}"Detective Conan" is brought to you by these sponsors.
+Dialogue: 0,0:02:14.92,0:02:22.94,Dialogue,,0000,0000,0100,,{\fad(400,400)\c&HCFCFCF}"Detective Conan" is brought to you by these sponsors.
 Dialogue: 0,0:02:29.35,0:02:31.12,Thoughts,,0000,0000,0000,,{\be10}We were nearly stranded on an island
 Dialogue: 0,0:02:31.12,0:02:34.92,Thoughts,,0000,0000,0000,,{\be10}before we were picked up by a ship that the Hatamoto family had reserved.
 Dialogue: 0,0:02:34.92,0:02:39.36,Thoughts,,0000,0000,0000,,{\be10}Including the three of us and the butler, there were only ten people onboard.
@@ -227,10 +227,10 @@ Dialogue: 0,0:11:34.32,0:11:39.46,Dialogue,,0000,0000,0000,,How did you find out
 Dialogue: 0,0:11:39.46,0:11:41.93,Thoughts,,0000,0000,0000,,{\be10}So I'm right!
 Dialogue: 0,0:11:41.93,0:11:44.66,Thoughts,,0000,0000,0000,,{\be10}The first incident, in which Mr. Gozo was killed...
 Dialogue: 0,0:11:44.66,0:11:49.37,Thoughts,,0000,0000,0000,,{\be10}The bread found near the body,\Nand the location of the murder weapon...
-Dialogue: 0,0:11:49.37,0:11:51.94,Thoughts,,0000,0000,0000,,{\be10}The second incident, in which Tatsuo{\rHonorifics - Thoughts}-san{\r} was killed...
+Dialogue: 0,0:11:49.37,0:11:51.94,Thoughts,,0000,0000,0000,,{\be10}The second incident, in which Tatsuo{\rHonorifics - Thoughts\be10}-san{\r\be10} was killed...
 Dialogue: 0,0:11:51.94,0:11:55.74,Thoughts,,0000,0000,0000,,{\be10}The splash and thud sounds\NI heard at the time of the murder...
 Dialogue: 0,0:11:55.74,0:11:58.94,Thoughts,,0000,0000,0000,,{\be10}The person who unlocked the storeroom door...
-Dialogue: 0,0:11:58.94,0:12:03.92,Thoughts,,0000,0000,0000,,{\be10}And then the third incident, in which Ichiro{\rHonorifics - Thoughts}-san{\r} was stabbed in the dark...
+Dialogue: 0,0:11:58.94,0:12:03.92,Thoughts,,0000,0000,0000,,{\be10}And then the third incident, in which Ichiro{\rHonorifics - Thoughts\be10}-san{\r\be10} was stabbed in the dark...
 Dialogue: 0,0:12:03.92,0:12:06.98,Thoughts,,0000,0000,0000,,{\be10}Each of these mysteries is connected by a single thread!
 Dialogue: 0,0:12:15.08,0:12:17.67,Dialogue,,0000,0000,0000,,Hey, come here a sec!
 Dialogue: 0,0:12:18.48,0:12:20.88,Dialogue,,0000,0000,0000,,What is it?
@@ -411,5 +411,5 @@ Dialogue: 0,0:23:21.30,0:23:23.97,Thoughts,,0000,0000,0000,,{\be10}The tragedy w
 Dialogue: 0,0:23:23.97,0:23:27.77,Thoughts,,0000,0000,0000,,{\be10}who was unable to put his secret thoughts into words...
 Dialogue: 0,0:23:29.07,0:23:32.24,Thoughts,,0000,0000,0000,,{\be10}The ship is nearing Tokyo...
 Dialogue: 0,0:23:32.24,0:23:36.42,Thoughts,,0000,0000,0000,,{\be10}while being bathed by the red sunset that is the sadness and despair
-Dialogue: 0,0:23:36.42,0:23:38.24,Thoughts,,0000,0000,0000,,{\be10}of Ichiro{\rHonorifics - Thoughts}-san{\r} and the entire Hatamoto family.
-Dialogue: 0,0:22:08.24,0:22:24.76,Dialogue,,0000,0000,0000,,{\a6}NEXT TIME... "THE MISSING SWEETS AT THE OLD SHOP"
+Dialogue: 0,0:23:36.42,0:23:38.24,Thoughts,,0000,0000,0000,,{\be10}of Ichiro{\rHonorifics - Thoughts\be10}-san{\r\be10} and the entire Hatamoto family.
+Dialogue: 0,0:22:08.24,0:22:24.76,Signs,,0000,0000,0000,,NEXT TIME... "THE MISSING SWEETS AT THE OLD SHOP"

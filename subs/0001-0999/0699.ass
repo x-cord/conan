@@ -55,10 +55,7 @@ Style: SNAKES,Berlin Sans FB Macron,20,&H00FFFFFF,&H000000FF,&H00000000,&H000000
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Comment: 0,0:20:41.03,0:20:43.90,Signs,,0,0,0,,night mouse
-Comment: 0,0:20:51.72,0:20:55.57,Signs,,0,0,0,,rabbit
-Comment: 0,0:21:10.59,0:21:14.72,Signs,,0,0,0,,bear
-Dialogue: 0,0:00:06.46,0:00:09.78,Dialogue,,0,0,0,,{\a6}Here. This one's yours, Conan{\rHonorifics - Dialogue}-kun{\r}.
+Dialogue: 0,0:00:06.46,0:00:09.78,Dialogue Top,,0,0,0,,Here. This one's yours, Conan{\rHonorifics - Dialogue}-kun{\r}.
 Dialogue: 0,0:00:10.75,0:00:13.74,Dialogue,,0,0,0,,'Mystery Train Pass Ring'?
 Dialogue: 0,0:00:14.28,0:00:19.27,Dialogue,,0,0,0,,You know, it's your pass to the Bell Tree Express that we're riding on next week!
 Dialogue: 0,0:00:19.27,0:00:21.94,Dialogue,,0,0,0,,It arrived at the doctor's this morning.
@@ -304,8 +301,8 @@ Dialogue: 0,0:16:46.63,0:16:47.80,Dialogue,,0,0,0,,Who knows...
 Dialogue: 0,0:16:48.40,0:16:50.32,Dialogue,,10,10,0,,Judging from the bloodstains,
 Dialogue: 0,0:16:50.33,0:16:55.50,Dialogue,,10,10,0,,she was desperately trying to form this shape with her fingers while on the brink of death, inside the sleeping bag...
 Dialogue: 0,0:16:56.25,0:16:58.00,Dialogue,,0,0,0,,'O' and 'K'...
-Dialogue: 0,0:16:58.00,0:17:00.72,Signs,,0,0,0,,san
-Dialogue: 0,0:16:58.00,0:17:00.72,Signs,,0,0,0,,ni
+Dialogue: 0,0:16:58.00,0:17:00.72,Thoughts,,0,0,0,,{\be10}san
+Dialogue: 0,0:16:58.00,0:17:00.72,Thoughts,,0,0,0,,{\be10}ni
 Dialogue: 0,0:16:58.00,0:17:00.72,Dialogue,,0,0,0,,No... 2 and 3...
 Dialogue: 0,0:17:00.72,0:17:03.44,Dialogue,,0,0,0,,'ni' and 'san'... {\i1}Niisan{\i0}?
 Dialogue: 0,0:17:03.85,0:17:06.62,Dialogue,,0,0,0,,I see! It's 'niisan'!
@@ -356,7 +353,7 @@ Dialogue: 0,0:19:29.20,0:19:32.20,Dialogue,,0,0,0,,Damn it! This door won't budg
 Dialogue: 0,0:19:32.20,0:19:36.15,Dialogue,,0,0,0,,What do we do?! It's too strong for us to break...
 Dialogue: 0,0:19:37.67,0:19:39.36,Dialogue,,0,0,0,,It's okay. Calm down.
 Dialogue: 0,0:19:40.26,0:19:43.71,Dialogue,,0,0,0,,Somebody's sure to notice the smoke and come help us...
-Dialogue: 0,0:19:44.60,0:19:47.40,Thoughts,,0,0,0,,{\be10}Right, Kudō{\rHonorifics - Thoughts}-kun{\r}?
+Dialogue: 0,0:19:44.60,0:19:47.40,Thoughts,,0,0,0,,{\be10}Right, Kudō{\rHonorifics - Thoughts\be10}-kun{\r\be10}?
 Dialogue: 0,0:19:54.30,0:19:55.51,Dialogue,,0,0,0,,Smoke?
 Dialogue: 0,0:19:57.85,0:20:01.81,Dialogue,,0,0,0,,Hey, it's pretty far, but there's smoke rising up over there!
 Dialogue: 0,0:20:03.30,0:20:06.53,Dialogue,,0,0,0,,That's probably just smoke from a campfire!
@@ -367,16 +364,16 @@ Dialogue: 0,0:20:20.13,0:20:21.00,Dialogue,,0,0,0,,Inspector Yamamura!
 Dialogue: 0,0:20:22.62,0:20:26.38,Dialogue,,0,0,0,,Here are the three men mentioned in the report.
 Dialogue: 0,0:20:27.48,0:20:30.01,Dialogue,,0,0,0,,I see, I see. Good work.
 Dialogue: 0,0:20:33.93,0:20:40.43,Dialogue,,0,0,0,,Well then, one by one, please tell me your name, occupation, and the reason why you came here.
-Dialogue: 0,0:20:41.03,0:20:43.90,Dialogue,,0,0,0,,{\a6}I'm Hayamichi Yonezumi, a part-time worker.
+Dialogue: 0,0:20:41.03,0:20:43.90,Dialogue Top,,0,0,0,,I'm Hayamichi Yonezumi, a part-time worker.
 Dialogue: 0,0:20:40.93,0:20:48.06,Signs,,0,0,0,,Hayamichi Yonezumi (31)\NPart-Time Worker
-Dialogue: 0,0:20:44.81,0:20:50.94,Dialogue,,0,0,0,,{\a6}I don't know what's going on, {\a6}but I came to check out the area, since I'm gonna be camping here with my buddies next week.
+Dialogue: 0,0:20:44.81,0:20:50.94,Dialogue Top,,0,0,0,,I don't know what's going on, but I came to check out the area, since I'm gonna be camping here with my buddies next week.
 Dialogue: 0,0:20:51.19,0:20:58.58,Signs,,0,0,0,,Chōzō Usagi (42)\NPhotographer
-Dialogue: 0,0:20:51.72,0:20:55.57,Dialogue,,0,0,0,,{\a6}My name's Chōzō Usagi, I'm a photographer.
-Dialogue: 0,0:20:56.25,0:20:59.70,Dialogue,,0,0,0,,{\a6}I'm going around taking photos of the scenery of campsites all around Japan.
+Dialogue: 0,0:20:51.72,0:20:55.57,Dialogue Top,,0,0,0,,My name's Chōzō Usagi, I'm a photographer.
+Dialogue: 0,0:20:56.25,0:20:59.70,Dialogue Top,,0,0,0,,I'm going around taking photos of the scenery of campsites all around Japan.
 Dialogue: 0,0:20:59.95,0:21:07.33,Signs,,0,0,0,,Takeya Iwakuma (23)\NUniversity Student
-Dialogue: 0,0:21:00.27,0:21:02.60,Dialogue,,0,0,0,,{\a6}I came to take photos too.
-Dialogue: 0,0:21:03.22,0:21:06.49,Dialogue,,0,0,0,,{\a6}Photos of Japanese azalea with my mobile phone camera, to post on my blog...
-Dialogue: 0,0:21:07.10,0:21:09.87,Dialogue,,0,0,0,,{\a6}Orange flowers bloom on them at this time of the year.
+Dialogue: 0,0:21:00.27,0:21:02.60,Dialogue Top,,0,0,0,,I came to take photos too.
+Dialogue: 0,0:21:03.22,0:21:06.49,Dialogue Top,,0,0,0,,Photos of Japanese azalea with my mobile phone camera, to post on my blog...
+Dialogue: 0,0:21:07.10,0:21:09.87,Dialogue Top,,0,0,0,,Orange flowers bloom on them at this time of the year.
 Dialogue: 0,0:21:10.59,0:21:14.72,Dialogue,,0,0,0,,M-My name's Takeya Iwakuma. I'm a fourth-year student at Beika University.
 Dialogue: 0,0:21:14.72,0:21:18.51,Dialogue,,0,0,0,,You three are pretty lightly equipped, though...
 Dialogue: 0,0:21:18.51,0:21:21.25,Dialogue,,0,0,0,,I was just scouting the area...
@@ -398,38 +395,25 @@ Dialogue: 0,0:24:05.14,0:24:06.23,Thoughts,NEP,0,0,0,,{\be10}I see!
 Dialogue: 0,0:24:06.23,0:24:08.24,Thoughts,NEP,0,0,0,,{\be10}So that's how it was!
 Dialogue: 0,0:24:08.24,0:24:14.24,Dialogue,NEP,0,0,0,,On the next Conan: 'The Shadow Approaching Haibara's Secret (Part II)'!
 Dialogue: 0,0:24:14.24,0:24:19.16,Dialogue,NEP,0,0,0,,Next Conan's Hint: Pass Ring!
-Dialogue: 0,0:24:19.16,0:24:20.90,Dialogue,CONTE,0,0,0,,We're all in danger!
-Dialogue: 0,0:24:20.90,0:24:22.04,Dialogue,CONTE,0,0,0,,A true crisis.
-Dialogue: 0,0:24:22.04,0:24:23.57,Dialogue,CONTE,0,0,0,,Don't worry. That person will save you.
+Dialogue: 0,0:24:19.16,0:24:20.90,Dialogue Top,CONTE,0,0,0,,We're all in danger!
+Dialogue: 0,0:24:20.90,0:24:22.04,Dialogue Top,CONTE,0,0,0,,A true crisis.
+Dialogue: 0,0:24:22.04,0:24:23.57,Dialogue Top,CONTE,0,0,0,,Don't worry. That person will save you.
 Dialogue: 0,0:07:09.64,0:07:12.10,SNAKES,,0,0,0,,{\1a10\a3\3c&H0F7DFF&\fs50\bord2\shad1\blur5\c&H53F5FE&\move(1130,177,1042,193)\fscx235\fscy235\t(0,2260,\fscx190\fscy190)}DANGER — SNAKES!!
 Dialogue: 0,0:07:12.10,0:07:18.06,Signs,,0,0,0,,DANGER — SNAKES!!
 Dialogue: 0,0:09:44.82,0:09:47.28,SNAKES,,0,0,0,,{\1a10\a3\3c&H0F7DFF&\fs55\fad(200,0)\bord2\shad1\blur5\c&H53F5FE&\t(0,2260,\fscx77\fscy77)\move(874,293,830,322)}DANGER — SNAKES!!
 Dialogue: 0,0:09:47.28,0:09:50.41,Signs,,0,0,0,,DANGER — SNAKES!!
 Dialogue: 0,0:12:56.30,0:12:59.30,SNAKES,,0,0,0,,{\fax0.3\1a10\a1\3c&H0F7DFF&\fs55\fad(0,0)\bord2\shad1\blur5\c&H53F5FE&\fscy60\fscx80\frz334.3\move(206,730,206,180)}DANGER — SNAKES!!
-Dialogue: 0,0:04:12.29,0:04:12.33,Signs,,0,0,0,,(Part I)
-Dialogue: 0,0:04:12.33,0:04:12.38,Signs,,0,0,0,,(Part I)
-Dialogue: 0,0:04:12.38,0:04:12.42,Signs,,0,0,0,,(Part I)
-Dialogue: 0,0:04:12.42,0:04:12.46,Signs,,0,0,0,,(Part I)
-Dialogue: 0,0:04:12.46,0:04:12.50,Signs,,0,0,0,,(Part I)
-Dialogue: 0,0:04:12.50,0:04:12.54,Signs,,0,0,0,,(Part I)
-Dialogue: 0,0:04:12.54,0:04:12.59,Signs,,0,0,0,,(Part I)
-Dialogue: 0,0:04:12.59,0:04:12.63,Signs,,0,0,0,,(Part I)
-Dialogue: 0,0:04:12.63,0:04:12.67,Signs,,0,0,0,,(Part I)
-Dialogue: 0,0:04:12.67,0:04:18.30,Signs,,0,0,0,,(Part I)
-Dialogue: 0,0:24:08.24,0:24:14.24,Signs,,0,0,0,,(Part II)
-Dialogue: 0,0:22:04.98,0:22:12.78,HitomiRomaji,,0,0,0,,{\3c&HFFD4D4&}{\blur4}miagetara haru no ame machi ni oritekita
-Dialogue: 0,0:22:12.99,0:22:20.75,HitomiRomaji,,0,0,0,,{\3c&HFFD4D4&}{\blur4}kimi no aruku michi nurashite yuku
-Dialogue: 0,0:22:21.58,0:22:29.55,HitomiRomaji,,0,0,0,,{\3c&HFFD4D4&}{\blur4}kinō sasatta toge no yō na kimi no kotoba hitotsu
-Dialogue: 0,0:22:29.71,0:22:37.22,HitomiRomaji,,0,0,0,,{\3c&HFFD4D4&}{\blur4}mada honto wa nani mo shiranai yo
+Dialogue: 0,0:22:04.98,0:22:12.78,HitomiRomaji,,0,0,0,,{\3c&HFFD4D4&\blur4}miagetara haru no ame machi ni oritekita
+Dialogue: 0,0:22:12.99,0:22:20.75,HitomiRomaji,,0,0,0,,{\3c&HFFD4D4&\blur4}kimi no aruku michi nurashite yuku
+Dialogue: 0,0:22:21.58,0:22:29.55,HitomiRomaji,,0,0,0,,{\3c&HFFD4D4&\blur4}kinō sasatta toge no yō na kimi no kotoba hitotsu
+Dialogue: 0,0:22:29.71,0:22:37.22,HitomiRomaji,,0,0,0,,{\3c&HFFD4D4&\blur4}mada honto wa nani mo shiranai yo
 Dialogue: 0,0:22:39.14,0:22:55.20,HitomiRomaji,,0,0,0,,{\blur4}sunao ni nareba kodoku nante nai yo hitori de wa nai kara
 Dialogue: 0,0:22:56.07,0:23:03.91,HitomiRomaji,,0,0,0,,{\blur4\3c&HEFF9FD&}don'na mirai kimi to mirai
 Dialogue: 0,0:23:04.12,0:23:13.38,HitomiRomaji,,0,0,0,,{\blur4\3c&HEFF9FD&}sono hitomi no shita e to tashikame ni yuku yo
-Dialogue: 0,0:23:13.71,0:23:21.31,HitomiRomaji,,0,0,0,,{\blur4\3c&HEFF9FD&}{\fad(0,750)}yukkuri to orite yuku kara
-Dialogue: 0,0:22:04.98,0:22:08.86,Signs,,0,0,0,,Hitomi no Melody (The melody in your eyes)
-Dialogue: 0,0:02:18.32,0:02:22.44,Narration Off,,0,0,0,,{\be10}Seeking comprehensive answers, he solves every mystery and code!
-Dialogue: 0,0:02:22.44,0:02:24.38,Narration Off,,0,0,0,,{\be10}Bourbon finally makes his move?!
-Dialogue: 0,0:02:24.38,0:02:26.36,Narration Off,,0,0,0,,{\be10}Three shadows approach Haibara and me.
-Dialogue: 0,0:02:26.36,0:02:28.02,Narration Off,,0,0,0,,{\be10}He sees the single truth for what it is,
-Dialogue: 0,0:02:28.02,0:02:30.56,Narration Off,,0,0,0,,{\be10}and looks like a kid but has the mind of an adult!
-Dialogue: 0,0:02:30.56,0:02:32.56,Narration Off,,0,0,0,,{\be10}His name? Detective Conan!
-Dialogue: 0,0:24:23.57,0:24:25.57,Dialogue,,0,0,0,,
+Dialogue: 0,0:23:13.71,0:23:21.31,HitomiRomaji,,0,0,0,,{\blur4\3c&HEFF9FD&\fad(0,750)}yukkuri to orite yuku kara
+Dialogue: 0,0:02:18.32,0:02:22.44,Narration Off,,0,0,0,,{\be10\c&HAAAA00\t(0,4109,\c)}Seeking comprehensive answers, he solves every mystery and code!
+Dialogue: 0,0:02:22.44,0:02:24.38,Narration Off,,0,0,0,,{\be10\t(0,1940,\c&H88AA00)}Bourbon finally makes his move?!
+Dialogue: 0,0:02:24.38,0:02:26.36,Narration Off,,0,0,0,,{\be10\c&H88AA00)}Three shadows approach Haibara and me.
+Dialogue: 0,0:02:26.36,0:02:28.02,Narration Off,,0,0,0,,{\be10\c&H88AA00)\t(0,1660,\c)}He sees the single truth for what it is,
+Dialogue: 0,0:02:28.02,0:02:30.56,Narration Off,,0,0,0,,{\be10\t(0,2511,\c&HAA00AA)}and looks like a kid but has the mind of an adult!
+Dialogue: 0,0:02:30.56,0:02:32.56,Narration Off,,0,0,0,,{\be10\c&HAA00AA\t(0,1968,\c&H0000FF)}His name? Detective Conan!

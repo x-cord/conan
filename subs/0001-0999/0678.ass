@@ -43,16 +43,10 @@ Style: topbox,Arial,20,&HFFFFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Comment: 0,0:12:58.81,0:13:00.81,Signs,,0,0,0,,In 1582, the Tenshō embassy to Europe left Nagasaki.
-Comment: 0,0:12:58.81,0:13:00.81,Signs,,0,0,0,,In 1582, the Tenshō embassy to Europe left Nagasaki.
-Comment: 0,0:13:58.31,0:13:58.85,Dialogue,,0,0,0,,{somewhat of a No! -uso}
-Comment: 0,0:01:02.12,0:01:06.33,Signs,,0,0,0,,© Gōshō Aoyama / Shōgakukan · Yomiuri TV · TMS 1996
-Comment: 0,0:00:45.02,0:00:49.44,Signs,,0,0,0,,Kimi no namida ni kon'na ni koishite'ru\N(I love your tears so much)
-Comment: 0,0:00:45.02,0:00:49.44,Signs,,0,0,0,,(Natsu-Iro)
 Dialogue: 0,0:00:05.82,0:00:07.75,Dialogue,,0,0,0,,Murderer!
-Dialogue: 0,0:00:13.40,0:00:15.37,Dialogue,,0,0,0,,{\a6}To think something like this would happen...
-Dialogue: 0,0:00:15.37,0:00:18.23,Dialogue,,0,0,0,,{\a6}It's no use, Mr. Glover.
-Dialogue: 0,0:00:18.23,0:00:20.37,Dialogue,,0,0,0,,{\a6}I have one of these too.
+Dialogue: 0,0:00:13.40,0:00:15.37,Dialogue Top,,0,0,0,,To think something like this would happen...
+Dialogue: 0,0:00:15.37,0:00:18.23,Dialogue Top,,0,0,0,,It's no use, Mr. Glover.
+Dialogue: 0,0:00:18.23,0:00:20.37,Dialogue Top,,0,0,0,,I have one of these too.
 Dialogue: 0,0:00:22.25,0:00:27.00,Dialogue,,0,0,0,,With that, the magistrate's office'll happily arrest you for it.
 Dialogue: 0,0:00:27.00,0:00:30.95,Dialogue,,0,0,0,,If that happens, the business and the Satchō Alliance'll be over.
 Dialogue: 0,0:00:30.95,0:00:38.56,Dialogue,,0,0,0,,Don't worry! I, Sakamoto Ryōma, shall clear any doubts on me!
@@ -64,7 +58,7 @@ Dialogue: 0,0:00:50.68,0:00:52.92,Thoughts,,0,0,0,,{\be10}and looks like a kid b
 Dialogue: 0,0:00:52.92,0:00:54.87,Thoughts,,0,0,0,,{\be10}His name? Detective Conan!
 Dialogue: 0,0:02:48.09,0:02:51.50,Thoughts,,0,0,0,,{\be10}Did we travel back in time?
 Dialogue: 0,0:02:52.65,0:02:53.54,Thoughts,,0,0,0,,{\be10}Nah.
-Dialogue: 0,0:03:01.37,0:03:03.91,PlaceCard,,0,0,0,,{\be10}Nagasaki Station
+Dialogue: 0,0:03:01.37,0:03:03.91,Signs,,0,0,0,,Nagasaki Station
 Dialogue: 0,0:00:00.00,0:00:00.00,Dialogue,,0,0,0,,Nagasaki Station
 Dialogue: 0,0:03:04.25,0:03:06.92,Signs,,0,0,0,,Nagasaki Confucius Shrine · Historical Museum of China
 Dialogue: 0,0:03:07.29,0:03:10.13,Signs,,0,0,0,,Ōura Church
@@ -115,12 +109,12 @@ Dialogue: 0,0:05:29.43,0:05:32.69,Signs,,0,0,0,,Futaba Nanao (23)\NAs Karasuma I
 Dialogue: 0,0:05:32.69,0:05:35.56,Dialogue,,0,0,0,,Cut! Okay!
 Dialogue: 0,0:05:36.09,0:05:38.40,Dialogue,,0,0,0,,Hey, was that really okay?
 Dialogue: 0,0:05:38.40,0:05:42.07,Dialogue,,0,0,0,,A temporary doctor shouldn't show that much emotion.
-Dialogue: 0,0:05:42.07,0:05:44.12,Dialogue,,0,0,0,,{\a6}It's fine.
+Dialogue: 0,0:05:42.07,0:05:44.12,Dialogue Top,,0,0,0,,It's fine.
 Dialogue: 0,0:05:42.40,0:05:47.12,Signs,,0,0,0,,Keisuke Sakakibara (45)\NTV Drama director
-Dialogue: 0,0:05:44.12,0:05:47.12,Dialogue,,0,0,0,,{\a6}Ine's a novice doctor, so it makes sense for her to be emotional.
-Dialogue: 0,0:05:47.12,0:05:50.45,Dialogue,,0,0,0,,{\a6}O-Chiyo{\rHonorifics - Dialogue}-san{\r}'s acting was great as always too.
+Dialogue: 0,0:05:44.12,0:05:47.12,Dialogue Top,,0,0,0,,Ine's a novice doctor, so it makes sense for her to be emotional.
+Dialogue: 0,0:05:47.12,0:05:50.45,Dialogue Top,,0,0,0,,O-Chiyo{\rHonorifics - Dialogue}-san{\r}'s acting was great as always too.
 Dialogue: 0,0:05:47.41,0:05:50.45,Signs,,0,0,0,,Akikazu Nakane (48)\NCameraman
-Dialogue: 0,0:05:50.45,0:05:53.54,Dialogue,,0,0,0,,{\a6}T-That's right, Benichiyo{\rHonorifics - Dialogue}-san{\r}.
+Dialogue: 0,0:05:50.45,0:05:53.54,Dialogue Top,,0,0,0,,T-That's right, Benichiyo{\rHonorifics - Dialogue}-san{\r}.
 Dialogue: 0,0:05:50.70,0:05:53.75,Signs,,0,0,0,,Ryūhei Kishimura (30)\NAssistant Director
 Dialogue: 0,0:05:54.41,0:05:56.84,Dialogue,,0,0,0,,Is that right? Then it'll do.
 Dialogue: 0,0:05:58.59,0:06:04.59,Dialogue,,0,0,0,,Umm... next up is the scene where the victim's\Nmerchant friend, Soneya Chūbee, first appears.
@@ -131,7 +125,7 @@ Dialogue: 0,0:06:11.14,0:06:14.23,Signs,,0,0,0,,Chōjirō Sazanami (45)\NAs Sone
 Dialogue: 0,0:06:14.23,0:06:17.27,Dialogue,,0,0,0,,Sure. I'm counting on you, Chō{\rHonorifics - Dialogue}-san{\r}!
 Dialogue: 0,0:06:17.27,0:06:18.44,Dialogue,,0,0,0,,Where are Soneya's props?
 Dialogue: 0,0:06:18.44,0:06:19.77,Dialogue,,0,0,0,,Here.
-Dialogue: 0,0:06:20.73,0:06:22.82,Dialogue,,0,0,0,,{\a6}They're all here.
+Dialogue: 0,0:06:20.73,0:06:22.82,Dialogue Top,,0,0,0,,They're all here.
 Dialogue: 0,0:06:20.02,0:06:22.82,Signs,,0,0,0,,Kazuomi Sakota (35)\NProp Master
 Dialogue: 0,0:06:27.42,0:06:29.24,Dialogue,,0,0,0,,Isn't this a bit over-the-top?
 Dialogue: 0,0:06:29.24,0:06:30.04,Dialogue,,0,0,0,,No...
@@ -148,12 +142,12 @@ Dialogue: 0,0:07:04.05,0:07:07.19,Dialogue,,0,0,0,,Don't give me that! I can't j
 Dialogue: 0,0:07:09.98,0:07:13.24,Dialogue,,0,0,0,,Like I said, it'll be really bad, so make sure you cover it up...
 Dialogue: 0,0:07:13.24,0:07:20.66,Dialogue,,0,0,0,,I heard from Sonoko that Sasahara{\rHonorifics - Dialogue}-san{\r}'s a handsome bachelor who's a regular among most-wanted boyfriend rankings.
 Dialogue: 0,0:07:20.66,0:07:22.17,Dialogue,,0,0,0,,I wonder what's happened.
-Dialogue: 0,0:07:23.98,0:07:25.76,Thoughts,,0,0,0,,{\be10}{\a6}(Gesture referring to love in Japan)
+Dialogue: 0,0:07:23.98,0:07:25.76,Thoughts,,0,0,0,,{\be10\an8}(Gesture referring to love in Japan)
 Dialogue: 0,0:07:23.98,0:07:25.76,Dialogue,,0,0,0,,Hmph. Maybe it's trouble related to {\i1}this{\i0}?
 Dialogue: 0,0:07:26.27,0:07:27.44,Dialogue,,0,0,0,,No way!
 Dialogue: 0,0:07:27.44,0:07:29.51,Dialogue,,0,0,0,,We're in trouble!!
 Dialogue: 0,0:07:29.89,0:07:32.76,Signs,,0,0,0,,Taizō Ōki (52)\NDrama Production Company Producer
-Dialogue: 0,0:07:30.00,0:07:32.76,Dialogue,,0,0,0,,{\a6}T-T-Tatsumi's run off on us!
+Dialogue: 0,0:07:30.00,0:07:32.76,Dialogue Top,,0,0,0,,T-T-Tatsumi's run off on us!
 Dialogue: 0,0:07:39.90,0:07:42.69,Dialogue,,0,0,0,,Well, I knew he'd been stuck lately, but still...
 Dialogue: 0,0:07:42.69,0:07:46.74,Dialogue,,0,0,0,,Even though his old friends are all here for the first time in ages...
 Dialogue: 0,0:07:46.74,0:07:48.60,Dialogue,,0,0,0,,Wait a bit longer and see.
@@ -169,11 +163,11 @@ Dialogue: 0,0:08:06.10,0:08:07.13,Dialogue,,0,0,0,,I beg you!
 Dialogue: 0,0:08:07.56,0:08:13.43,Dialogue,,0,0,0,,Great detective Sleeping Kogorō, please deduce who the culprit is in this mystery drama!
 Dialogue: 0,0:08:13.43,0:08:14.37,Dialogue,,0,0,0,,Sure...
 Dialogue: 0,0:08:15.42,0:08:16.60,Thoughts,,0,0,0,,{\be10}Hey, hey...
-Dialogue: 0,0:08:17.02,0:08:23.31,CharCards,,0,0,0,,{\be10}Kōsaku Tatsumi (45)\NScriptwriter
-Dialogue: 0,0:08:17.40,0:08:24.36,Thoughts,,10,10,0,,{\be10}{\a6}This mystery drama's scriptwriter, Kōsaku Tatsumi{\rHonorifics - Thoughts}-san{\r}, is a veteran whose scripts have won various prizes.
-Dialogue: 0,0:08:25.13,0:08:28.86,Thoughts,,0,0,0,,{\be10}This drama isn't an adaptation, but an original work by Tatsumi{\rHonorifics - Thoughts}-san{\r},
+Dialogue: 0,0:08:17.02,0:08:23.31,Signs,,0,0,0,,Kōsaku Tatsumi (45)\NScriptwriter
+Dialogue: 0,0:08:17.40,0:08:24.36,Thoughts,,10,10,0,,{\be10\an8}This mystery drama's scriptwriter, Kōsaku Tatsumi{\rHonorifics - Thoughts\be10}-san{\r\be10}, is a veteran whose scripts have won various prizes.
+Dialogue: 0,0:08:25.13,0:08:28.86,Thoughts,,0,0,0,,{\be10}This drama isn't an adaptation, but an original work by Tatsumi{\rHonorifics - Thoughts\be10}-san{\r\be10},
 Dialogue: 0,0:08:28.86,0:08:32.41,Thoughts,,0,0,0,,{\be10}and the writing's taking too long, causing the filming to begin with an unfinished script.
-Dialogue: 0,0:08:32.41,0:08:38.80,Thoughts,,0,0,0,,{\be10}So the upcoming developments, not to mention the culprit of the case in the drama, are unknown to all but Tatsumi{\rHonorifics - Thoughts}-san{\r}.
+Dialogue: 0,0:08:32.41,0:08:38.80,Thoughts,,0,0,0,,{\be10}So the upcoming developments, not to mention the culprit of the case in the drama, are unknown to all but Tatsumi{\rHonorifics - Thoughts\be10}-san{\r\be10}.
 Dialogue: 0,0:08:40.87,0:08:45.80,Dialogue,,0,0,0,,If this drama goes belly up, it'll wreck our company!
 Dialogue: 0,0:08:45.80,0:08:51.68,Dialogue,,0,0,0,,If you can at least spot the culprit, Mouri{\rHonorifics - Dialogue}-san{\r}, I'll manage the rest somehow.
 Dialogue: 0,0:08:52.23,0:08:53.43,Dialogue,,0,0,0,,We're counting on you!
@@ -186,7 +180,6 @@ Dialogue: 0,0:09:16.45,0:09:19.03,Thoughts,,0,0,0,,{\be10}True, there aren't eno
 Dialogue: 0,0:09:22.95,0:09:23.58,Dialogue,,0,0,0,,Hmm?
 Dialogue: 0,0:09:26.79,0:09:27.67,Dialogue,,0,0,0,,These are?!
 Dialogue: 0,0:09:27.67,0:09:28.92,Signs,,0,0,0,,Serial Art Theft Case
-Dialogue: 0,0:09:28.92,0:09:30.17,Signs,,0,0,0,,.
 Dialogue: 0,0:09:31.85,0:09:33.45,Dialogue,,0,0,0,,What're these?
 Dialogue: 0,0:09:33.45,0:09:35.20,Dialogue,,0,0,0,,Why are they here?
 Dialogue: 0,0:09:35.20,0:09:37.14,Dialogue,,0,0,0,,A group of art thieves.
@@ -244,9 +237,9 @@ Dialogue: 0,0:13:08.03,0:13:11.70,Dialogue,,0,0,0,,I thought I could help you by
 Dialogue: 0,0:13:11.70,0:13:14.85,Dialogue,,0,0,0,,Oh, that's a big help.
 Dialogue: 0,0:13:14.85,0:13:17.58,Dialogue,,0,0,0,,Visiting famous places with a beautiful actress tour guide!
 Dialogue: 0,0:13:17.58,0:13:19.95,Thoughts,,0,0,0,,{\be10}Running your mouth off again, I see.
-Dialogue: 0,0:13:20.16,0:13:23.46,PlaceCard,,0,0,0,,{\be10}Site of Kameyama Shachū
+Dialogue: 0,0:13:20.16,0:13:23.46,Signs,,0,0,0,,Site of Kameyama Shachū
 Dialogue: 0,0:13:19.95,0:13:23.95,Thoughts,,0,0,17,,{\be10}We visited the places related to the notes and photos
-Dialogue: 0,0:13:23.95,0:13:26.66,Thoughts,,0,0,0,,{\be10}that Tatsumi{\rHonorifics - Thoughts}-san{\r} made when creating this drama.
+Dialogue: 0,0:13:23.95,0:13:26.66,Thoughts,,0,0,0,,{\be10}that Tatsumi{\rHonorifics - Thoughts\be10}-san{\r\be10} made when creating this drama.
 Dialogue: 0,0:13:27.96,0:13:30.96,Dialogue,,0,0,0,,This pistol's the one Kid...
 Dialogue: 0,0:13:30.96,0:13:31.97,Dialogue,,0,0,0,,Yeah.
 Dialogue: 0,0:13:32.26,0:13:36.55,Signs,,0,0,0,,Kazagashira Park - Statue of Sakamoto Ryōma
@@ -360,15 +353,15 @@ Dialogue: 0,0:20:03.23,0:20:05.66,Dialogue,,0,0,0,,What a weird line.
 Dialogue: 0,0:20:05.66,0:20:08.19,Dialogue,,0,0,0,,'Numbers will solve everything.'
 Dialogue: 0,0:20:08.19,0:20:13.87,Dialogue,,0,0,0,,That reminds me, a lot of the actors in the production have numbers in their names.
 Dialogue: 0,0:20:14.39,0:20:17.25,Dialogue,,0,0,0,,Andrew {\c&H00FFFF&}Ha{\c}tta{\rHonorifics - Dialogue}-san{\r} who plays Glover has one, right?
-Dialogue: 0,0:20:14.39,0:20:17.25,Signs,,0,0,0,,8
-Dialogue: 0,0:20:17.62,0:20:21.58,Signs,,0,0,0,,1000
+Dialogue: 0,0:20:14.39,0:20:17.25,Thoughts,,0,0,0,,{\be10}8
+Dialogue: 0,0:20:17.62,0:20:21.58,Thoughts,,0,0,0,,{\be10}1000
 Dialogue: 0,0:20:17.62,0:20:21.58,Dialogue,,0,0,0,,Playing his wife, Tsuru, is Beni{\c&H00FFFF&}chi{\c}yo Yamashita{\rHonorifics - Dialogue}-san{\r}.
-Dialogue: 0,0:20:21.58,0:20:26.25,Signs,,0,0,0,,7
+Dialogue: 0,0:20:21.58,0:20:26.25,Thoughts,,0,0,0,,{\be10}7
 Dialogue: 0,0:20:21.58,0:20:26.25,Dialogue,,0,0,0,,Right. Futaba{\rHonorifics - Dialogue}-san{\r}'s surname is {\c&H00FFFF&}Nana{\c}o too.
 Dialogue: 0,0:20:26.25,0:20:28.17,Dialogue,,0,0,0,,There's some in the staff too.
-Dialogue: 0,0:20:29.30,0:20:33.06,Signs,,0,0,0,,3
+Dialogue: 0,0:20:29.30,0:20:33.06,Thoughts,,0,0,0,,{\be10}3
 Dialogue: 0,0:20:29.30,0:20:33.06,Dialogue,,0,0,0,,Ōki{\rHonorifics - Dialogue}-san{\r}'s name is Tai{\c&H00FFFF&}zō{\c}.
-Dialogue: 0,0:20:33.06,0:20:35.18,Signs,,0,0,0,,1
+Dialogue: 0,0:20:33.06,0:20:35.18,Thoughts,,0,0,0,,{\be10}1
 Dialogue: 0,0:20:33.06,0:20:35.18,Dialogue,,0,0,0,,Sakota{\rHonorifics - Dialogue}-san{\r}'s is {\c&H00FFFF&}Kazu{\c}omi.
 Dialogue: 0,0:20:39.35,0:20:41.30,Dialogue,,0,0,0,,Sakamoto{\rHonorifics - Dialogue}-sama{\r}, did you know?
 Dialogue: 0,0:20:42.31,0:20:45.19,Dialogue,,0,0,0,,There's a demon living here in Nakashima River.
@@ -379,14 +372,13 @@ Dialogue: 0,0:20:54.07,0:20:56.49,Dialogue,,0,0,0,,Cut! Okay!
 Dialogue: 0,0:20:56.49,0:20:59.10,Thoughts,,0,0,0,,{\be10}The demon's weak point...
 Dialogue: 0,0:20:59.10,0:21:00.93,Thoughts,,0,0,0,,{\be10}Yet another puzzling line.
 Dialogue: 0,0:21:02.25,0:21:03.14,Thoughts,,0,0,0,,{\be10}What's this?
-Dialogue: 0,0:21:04.60,0:21:06.29,Thoughts,,0,0,0,,{\be10}The font{\rHonorifics - Thoughts} chan{\r}ges just for this line.
+Dialogue: 0,0:21:04.60,0:21:06.29,Thoughts,,0,0,0,,{\be10}The font{\rHonorifics - Thoughts\be10} chan{\r\be10}ges just for this line.
 Dialogue: 0,0:21:06.29,0:21:07.28,Thoughts,,0,0,0,,{\be10}Could this mean...?!
-Dialogue: 0,0:21:14.64,0:21:18.52,Thoughts,,0,0,0,,{\be10}Could these lines be a message from Tatsumi{\rHonorifics - Thoughts}-san{\r}?
+Dialogue: 0,0:21:14.64,0:21:18.52,Thoughts,,0,0,0,,{\be10}Could these lines be a message from Tatsumi{\rHonorifics - Thoughts\be10}-san{\r\be10}?
 Dialogue: 0,0:21:19.10,0:21:24.35,Thoughts,,0,0,0,,{\be10}And if O-Tei of the Miura family is a character created to convey that message...
 Dialogue: 0,0:21:25.18,0:21:28.39,Thoughts,,0,0,0,,{\be10}Then it must be about the reason for his disappearance!
 Dialogue: 0,0:21:28.39,0:21:29.86,Thoughts,,0,0,0,,{\be10}Then that means...
-Dialogue: 0,0:21:29.86,0:21:30.86,Signs,,0,0,0,,{\be10}Serial Art Theft Case
-Dialogue: 0,0:21:30.86,0:21:31.86,Signs,,0,0,0,,.
+Dialogue: 0,0:21:29.86,0:21:30.86,Signs,,0,0,0,,Serial Art Theft Case
 Dialogue: 0,0:21:38.37,0:21:42.49,Dialogue,,0,0,0,,That is all that I know.
 Dialogue: 0,0:21:42.49,0:21:46.38,Dialogue,,0,0,0,,Now, next I'll guide you to the first ever Western-style restaurant.
 Dialogue: 0,0:21:47.72,0:21:49.90,Dialogue,,0,0,0,,I've had enough! Let me out of this!
@@ -416,42 +408,6 @@ Dialogue: 0,0:24:30.42,0:25:00.22,Signs,,0,0,0,,Look forward to the next episode
 Dialogue: 0,0:24:30.42,0:24:32.20,Dialogue,,0,0,0,,{\a1}Dad, when did I—?!
 Dialogue: 0,0:24:32.20,0:24:33.34,Dialogue,,0,0,0,,{\a1}Sleeping Ran, huh?
 Dialogue: 0,0:24:33.34,0:24:35.58,Dialogue,,0,0,0,,{\a1}I'll save you for sure.
-Dialogue: 0,0:01:02.12,0:01:06.37,Signs,,0,0,0,,© Gōshō Aoyama / Shōgakukan · Yomiuri TV · TMS 1996
-Dialogue: 0,0:00:55.20,0:00:59.46,Signs,,0,0,0,,'Detective Conan'\NSerialised in Shōgakukan's 'Weekly Shōnen Sunday'
-Dialogue: 0,0:00:55.20,0:00:59.46,Signs,,0,0,0,,Original Comics by\NGōshō Aoyama\N
-Dialogue: 0,0:01:06.88,0:01:11.47,Signs,,0,0,0,,Planning\NMichihiko Suwa
-Dialogue: 0,0:01:06.88,0:01:11.47,Signs,,0,0,0,,( )
-Dialogue: 0,0:01:24.86,0:01:28.99,Signs,,0,0,0,,Opening Theme\N'Kimi no namida ni kon'na ni Koishite'ru'
-Dialogue: 0,0:01:24.86,0:01:28.99,Signs,,0,0,0,,Performed by:\NLyrics:\NMusic:\NArrangement:
-Dialogue: 0,0:01:24.86,0:01:28.99,Signs,,0,0,0,,Natsu-Iro\NNayu Okuno\NAika Ōno\NTakeshi Hayama
-Dialogue: 0,0:01:24.86,0:01:28.99,Signs,,0,0,0,,(D-GO)
-Dialogue: 0,0:01:39.08,0:01:43.71,Signs,,0,0,0,,Planning Assistance\NHiroshi Torimitsu\NKazumasa Ogura\NMasakazu Hakuya
-Dialogue: 0,0:01:45.00,0:01:49.43,Signs,,0,0,0,,Producers\NShūichi Kitada\N\NTakeshi Yamakawa\N\NAssociate Producer\NMitomu Asai
-Dialogue: 0,0:01:45.00,0:01:49.43,Signs,,0,0,0,,( )
-Dialogue: 0,0:01:45.00,0:01:49.43,Signs,,0,0,0,,(TMS/V1 Studio)
-Dialogue: 0,0:02:01.98,0:02:04.69,Signs,,0,0,0,,Chief Producers\NMichihiko Suwa\N\NKei'ichi Ishiyama
-Dialogue: 0,0:02:01.98,0:02:04.69,Signs,,0,0,0,,( )
-Dialogue: 0,0:02:01.98,0:02:04.69,Signs,,0,0,0,,(TMS/V1 Studio)
-Dialogue: 0,0:22:41.41,0:22:44.93,Signs,,0,0,0,,Koi ni Koishite\N(Falling in love)
-Dialogue: 0,0:22:41.41,0:22:44.93,Signs,,0,0,0,,(Mai Kuraki)
-Dialogue: 0,0:22:40.49,0:22:41.58,Signs,,0,0,0,,.
-Dialogue: 0,0:22:41.58,0:22:41.66,Signs,,0,0,0,,.
-Dialogue: 0,0:22:41.66,0:22:41.73,Signs,,0,0,0,,.
-Dialogue: 0,0:22:41.73,0:22:41.83,Signs,,0,0,0,,.
-Dialogue: 0,0:22:41.83,0:22:41.91,Signs,,0,0,0,,.
-Dialogue: 0,0:22:41.91,0:22:41.98,Signs,,0,0,0,,.
-Dialogue: 0,0:22:41.98,0:22:42.08,Signs,,0,0,0,,.
-Dialogue: 0,0:22:42.08,0:22:42.16,Signs,,0,0,0,,.
-Dialogue: 0,0:22:42.16,0:22:42.23,Signs,,0,0,0,,.
-Dialogue: 0,0:22:42.16,0:22:42.23,Signs,,0,0,0,,.
-Dialogue: 0,0:22:44.90,0:22:45.00,Signs,,0,0,0,,.
-Dialogue: 0,0:22:44.90,0:22:45.00,Signs,,0,0,0,,.
-Dialogue: 0,0:22:45.00,0:22:45.08,Signs,,0,0,0,,.
-Dialogue: 0,0:22:45.08,0:22:45.15,Signs,,0,0,0,,.
-Dialogue: 0,0:22:45.15,0:22:45.25,Signs,,0,0,0,,.
-Dialogue: 0,0:22:45.25,0:22:45.33,Signs,,0,0,0,,.
-Dialogue: 0,0:22:45.33,0:22:45.40,Signs,,0,0,0,,.
-Dialogue: 0,0:22:45.40,0:22:45.90,Signs,,0,0,0,,.
 Dialogue: 0,0:22:40.49,0:22:41.58,Signs,,0,0,0,,Shin'ichi Kudō
 Dialogue: 0,0:22:41.58,0:22:41.66,Signs,,0,0,0,,Shin'ichi Kudō
 Dialogue: 0,0:22:41.66,0:22:41.73,Signs,,0,0,0,,Shin'ichi Kudō
@@ -487,25 +443,3 @@ Dialogue: 0,0:22:45.15,0:22:45.25,Signs,,0,0,0,,Shin'ich
 Dialogue: 0,0:22:45.25,0:22:45.33,Signs,,0,0,0,,Shin'ichi Kudō
 Dialogue: 0,0:22:45.33,0:22:45.40,Signs,,0,0,0,,Shin'ichi Kudō
 Dialogue: 0,0:22:45.40,0:22:45.90,Signs,,0,0,0,,Shin'ichi Kudō
-Dialogue: 0,0:02:36.13,0:02:36.18,Signs,,0,0,0,,The Nagasaki Mystery Theatre
-Dialogue: 0,0:02:36.18,0:02:36.22,Signs,,0,0,0,,The Nagasaki Mystery Theatre
-Dialogue: 0,0:02:36.22,0:02:36.26,Signs,,0,0,0,,The Nagasaki Mystery Theatre
-Dialogue: 0,0:02:36.26,0:02:36.30,Signs,,0,0,0,,The Nagasaki Mystery Theatre
-Dialogue: 0,0:02:36.30,0:02:36.34,Signs,,0,0,0,,The Nagasaki Mystery Theatre
-Dialogue: 0,0:02:36.34,0:02:36.38,Signs,,0,0,0,,The Nagasaki Mystery Theatre
-Dialogue: 0,0:02:36.38,0:02:36.43,Signs,,0,0,0,,The Nagasaki Mystery Theatre
-Dialogue: 0,0:02:36.43,0:02:36.47,Signs,,0,0,0,,The Nagasaki Mystery Theatre
-Dialogue: 0,0:02:36.47,0:02:36.51,Signs,,0,0,0,,The Nagasaki Mystery Theatre
-Dialogue: 0,0:02:36.51,0:02:42.14,Signs,,0,0,0,,The Nagasaki Mystery Theatre
-Dialogue: 0,0:02:36.13,0:02:36.18,Signs,,0,0,0,,(Bakumatsu Case)
-Dialogue: 0,0:02:36.18,0:02:36.22,Signs,,0,0,0,,(Bakumatsu Case)
-Dialogue: 0,0:02:36.22,0:02:36.26,Signs,,0,0,0,,(Bakumatsu Case)
-Dialogue: 0,0:02:36.26,0:02:36.30,Signs,,0,0,0,,(Bakumatsu Case)
-Dialogue: 0,0:02:36.30,0:02:36.34,Signs,,0,0,0,,(Bakumatsu Case)
-Dialogue: 0,0:02:36.34,0:02:36.38,Signs,,0,0,0,,(Bakumatsu Case)
-Dialogue: 0,0:02:36.38,0:02:36.43,Signs,,0,0,0,,(Bakumatsu Case)
-Dialogue: 0,0:02:36.43,0:02:36.47,Signs,,0,0,0,,(Bakumatsu Case)
-Dialogue: 0,0:02:36.47,0:02:36.51,Signs,,0,0,0,,(Bakumatsu Case)
-Dialogue: 0,0:02:36.51,0:02:42.14,Signs,,0,0,0,,(Bakumatsu Case)
-Dialogue: 0,0:24:19.41,0:24:25.42,Signs,,0,0,0,,The Nagasaki Mystery Theatre
-Dialogue: 0,0:24:19.41,0:24:25.42,Signs,,0,0,0,,(Present Day Case)

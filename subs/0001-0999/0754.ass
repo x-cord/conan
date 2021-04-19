@@ -48,8 +48,6 @@ Style: Police,PT Sans Nonligature,28,&H0018141E,&H000000FF,&H00E4E9F2,&H00000000
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Comment: 0,0:00:00.00,0:00:00.00,Dialogue,,0,0,0,,Detective Conan Episode 754 "The\NTragedy of the Red Woman (Steam)"
-Dialogue: 0,0:00:00.00,0:00:05.00,Dialogue,,0,0,0,,
 Dialogue: 0,0:00:28.25,0:00:30.17,Dialogue,SONOKO,0,0,0,,This feels great!
 Dialogue: 0,0:00:30.55,0:00:32.67,Dialogue,SONOKO,0,0,0,,Nothing beats walking through the forest!
 Dialogue: 0,0:00:33.13,0:00:36.05,Dialogue,RAN,0,0,0,,I know. The air is delicious, too.
@@ -147,7 +145,7 @@ Dialogue: 0,0:07:06.57,0:07:11.03,Guest3,TEXT,0,0,0,,{\blur1.5\fad(250,0)}Masaie
 Dialogue: 0,0:07:06.78,0:07:09.70,Dialogue Top,HAKUYA,0,0,0,,W-We ran into each other in the woods,
 Dialogue: 0,0:07:09.70,0:07:11.16,Dialogue Top,HAKUYA,0,0,0,,so we walked the rest of the way together...
 Dialogue: 0,0:07:11.16,0:07:14.33,Dialogue,JINSUKE,0,0,0,,He said he got stuck in a swamp.
-Dialogue: 0,0:07:15.12,0:07:17.75,Dialogue Top,JINSUKE,0,0,0,,He was{\rHonorifics - Dialogue Top} chan{\r}ging in the middle of the forest.
+Dialogue: 0,0:07:15.12,0:07:17.75,Dialogue Top,JINSUKE,0,0,0,,He was{\rHonorifics - Dialogue} chan{\r}ging in the middle of the forest.
 Dialogue: 0,0:07:16.45,0:07:21.12,Guest4,TEXT,0,0,0,,{\blur1.5\fad(250,0)}Jinsuke Ninda (29)\NRental Villa Guest
 Dialogue: 0,0:07:18.96,0:07:21.50,Dialogue Top,JINSUKE,0,0,0,,Man, you're as clumsy as ever.
 Dialogue: 0,0:07:21.50,0:07:22.96,Dialogue,HAKUYA,0,0,0,,Hey, don't tell them!
@@ -363,12 +361,11 @@ Dialogue: 0,0:20:33.87,0:20:36.92,Dialogue,JINSUKE,0,0,0,,He was cleaning the ba
 Dialogue: 0,0:20:36.92,0:20:39.46,Dialogue,TAMAMI,0,0,0,,Y-Yeah, he should be...
 Dialogue: 0,0:20:40.55,0:20:41.30,Flashback,CONAN,0,0,0,,{\be10}Could it be?
 Dialogue: 0,0:20:41.30,0:20:41.84,Flashback,SERA,0,0,0,,{\be10}Could it be?
-Dialogue: 0,0:21:18.34,0:21:21.55,Signs,,0,0,0,,(Mai Kuraki)
-Dialogue: 0,0:21:26.09,0:21:33.60,Muteki na Heart,,0,0,0,,{\blur1.333}{\c&HCD8B2A&}itsushika jibun miushinatte'ta ‘daijōbu'-tte hontō wa uso
-Dialogue: 0,0:21:33.77,0:21:37.56,Muteki na Heart,,0,0,0,,{\blur1.333}{\c&HC2E6FA&\t(1262,2690,\c&HECC000&)}iiwake nante mō dō ni mo naranai
-Dialogue: 0,0:21:37.73,0:21:41.40,Muteki na Heart,,0,0,0,,{\blur1.333}{\c&HECC000&}kokoro ga odoru yō ja nakya ne
-Dialogue: 0,0:21:41.57,0:21:48.20,Muteki na Heart,,0,0,0,,{\blur1.333}{\c&H880044}kokoro ni hitotsuzutsu hi o tomoshitekita kedo
-Dialogue: 0,0:21:48.37,0:21:55.08,Muteki na Heart,,0,0,0,,{\blur1.333}{\c&H880044}gomen tameiki tsuichatta kono mama ja kiesō
+Dialogue: 0,0:21:26.09,0:21:33.60,Muteki na Heart,,0,0,0,,{\blur1.333\c&HCD8B2A&}itsushika jibun miushinatte'ta ‘daijōbu'-tte hontō wa uso
+Dialogue: 0,0:21:33.77,0:21:37.56,Muteki na Heart,,0,0,0,,{\blur1.333\c&HC2E6FA&\t(1262,2690,\c&HECC000&)}iiwake nante mō dō ni mo naranai
+Dialogue: 0,0:21:37.73,0:21:41.40,Muteki na Heart,,0,0,0,,{\blur1.333\c&HECC000&}kokoro ga odoru yō ja nakya ne
+Dialogue: 0,0:21:41.57,0:21:48.20,Muteki na Heart,,0,0,0,,{\blur1.333\c&H880044}kokoro ni hitotsuzutsu hi o tomoshitekita kedo
+Dialogue: 0,0:21:48.37,0:21:55.08,Muteki na Heart,,0,0,0,,{\blur1.333\c&H880044}gomen tameiki tsuichatta kono mama ja kiesō
 Dialogue: 0,0:21:56.29,0:21:59.92,Muteki na Heart,,0,0,0,,{\blur1.333\c&HDB0000&\t(640,660,\c&H008800)}muteki na heart sawagidashite
 Dialogue: 0,0:22:00.09,0:22:03.92,Muteki na Heart,,0,0,0,,{\c&H008800\blur1.333\t(640,670,\c&HCC7500&)\t(2650,2670,\c&H0000FF)}saa kokoro hodoite respect yourself
 Dialogue: 0,0:22:04.09,0:22:11.76,Muteki na Heart,,0,0,0,,{\blur1.333\c&H0000FF\t(600,610,\c&H008800)}hontō no jibun de ireba muchū de yume mite'ta watashi ni (be back)
@@ -396,8 +393,7 @@ Dialogue: 0,0:24:09.67,0:24:14.47,Dialogue,CONAN,0,0,10,,The next episode of Con
 Dialogue: 0,0:24:29.94,0:24:35.03,Police,TEXT,0,0,0,,{\blur1.5}Nagano Prefectural Police
 Dialogue: 0,0:24:30.57,0:24:32.78,Dialogue,WOMAN,0,0,0,,Next episode's hint!
 Dialogue: 0,0:24:32.78,0:24:35.03,Dialogue,CONAN,0,0,0,,The Nagano Prefectural Police!
-Dialogue: 0,0:24:35.03,0:24:36.28,Dialogue Top,RAN,0,0,0,,Are you okay, Conan{\rHonorifics - Dialogue Top}-kun{\r}?
+Dialogue: 0,0:24:35.03,0:24:36.28,Dialogue Top,RAN,0,0,0,,Are you okay, Conan{\rHonorifics - Dialogue}-kun{\r}?
 Dialogue: 0,0:24:35.03,0:24:40.08,Don'tMiss,TEXT,0,0,0,,{\blur0.4}Don't miss the next episode.
 Dialogue: 0,0:24:36.28,0:24:37.70,Dialogue Top,CONAN,0,0,0,,Of course I'm not okay.
-Dialogue: 0,0:24:37.70,0:24:39.58,Dialogue Top,SERA,0,0,0,,Ran{\rHonorifics - Dialogue Top}-kun{\r}, pick up your towel.
-Dialogue: 0,0:24:39.58,0:24:41.58,Dialogue,,0,0,0,,
+Dialogue: 0,0:24:37.70,0:24:39.58,Dialogue Top,SERA,0,0,0,,Ran{\rHonorifics - Dialogue}-kun{\r}, pick up your towel.

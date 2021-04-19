@@ -36,7 +36,6 @@ Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Comment: 0,0:11:54.54,0:11:57.50,Dialogue,Comment,0000,0000,0000,,{\a10}.
 Dialogue: 0,0:00:01.03,0:00:02.70,Narration Off,Comment,0000,0000,0000,,{\be10}My name's Shin'ichi Kudo.
 Dialogue: 0,0:00:02.70,0:00:05.04,Narration Off,Comment,0000,0000,0000,,{\be10}I was a famous high school detective that solved countless difficult cases!
 Dialogue: 0,0:00:05.04,0:00:08.11,Narration Off,Comment,0000,0000,0000,,{\be10}But one day some organization forced me to take a pill that shrunk me...
@@ -55,7 +54,7 @@ Dialogue: 0,0:02:16.32,0:02:20.39,Dialogue,Comment,0000,0000,0000,,But Naoki hur
 Dialogue: 0,0:02:20.39,0:02:24.12,Dialogue,Comment,0000,0000,0000,,so he won't be able to play today.
 Dialogue: 0,0:02:24.12,0:02:30.56,Dialogue,Comment,0000,0000,0000,,I think the offense and defense of Ramusu's Big Osaka team is better!
 Dialogue: 0,0:02:30.56,0:02:32.27,Thoughts,Comment,0000,0000,0000,,{\be10}Soccer, eh?
-Dialogue: 0,0:02:32.31,0:02:34.73,Dialogue,Comment,0000,0000,0000,,{\a6}"Mouri Detective Agency"
+Dialogue: 0,0:02:32.31,0:02:34.73,Dialogue Top,Comment,0000,0000,0000,,"Mouri Detective Agency"
 Dialogue: 0,0:02:42.61,0:02:45.14,Dialogue,Comment,0000,0000,0000,,Why aren't you going in?
 Dialogue: 0,0:02:45.14,0:02:47.70,Dialogue,Comment,0000,0000,0000,,You need help from the detective agency, right?
 Dialogue: 0,0:02:51.12,0:02:53.75,Dialogue,Comment,0000,0000,0000,,My name is Ryoko Akagi.
@@ -119,10 +118,9 @@ Dialogue: 0,0:05:57.57,0:05:59.77,Dialogue,Comment,0000,0000,0000,,Yes? What did
 Dialogue: 0,0:05:59.77,0:06:01.41,Thoughts,Comment,0000,0000,0000,,{\be10}Who does she think she is, ignoring me like that?!
 Dialogue: 0,0:06:01.41,0:06:04.44,Thoughts,Comment,0000,0000,0000,,{\be10}Doesn't like talking to me, huh?!
 Dialogue: 0,0:06:04.44,0:06:07.88,Thoughts,Comment,0000,0000,0000,,{\be10}Looks like I need to delve a little deeper into this.
-Dialogue: 0,0:06:12.24,0:06:14.08,Dialogue,Comment,0000,0000,0000,,"Mamoru"
+Dialogue: 0,0:06:12.24,0:06:14.08,Signs,Comment,0000,0000,0000,,"Mamoru"
 Dialogue: 0,0:06:14.49,0:06:16.28,Dialogue,Comment,0000,0000,0000,,Mamoru?
 Dialogue: 0,0:06:21.63,0:06:24.29,Dialogue,Comment,0000,0000,0000,,What the heck happened in here?!
-Dialogue: 0,0:06:36.10,0:06:38.14,Signs,Comment,0000,0000,0000,,.
 Dialogue: 0,0:06:36.98,0:06:38.07,Dialogue,Comment,0000,0000,0000,,Mamoru?
 Dialogue: 0,0:06:40.95,0:06:44.62,Dialogue,Comment,0000,0000,0000,,It would seem that this is this boy's room.
 Dialogue: 0,0:06:44.62,0:06:47.89,Dialogue,Comment,0000,0000,0000,,Who's the person with him?
@@ -161,12 +159,12 @@ Dialogue: 0,0:08:38.43,0:08:39.47,Radio,Comment,0000,0000,0000,,{\be10}Hello.
 Dialogue: 0,0:08:39.47,0:08:42.67,Dialogue,Comment,0000,0000,0000,,Shin'ichi{\rHonorifics - Dialogue}-san{\r}? Shin'ichi{\rHonorifics - Dialogue}-san{\r}, right?!
 Dialogue: 0,0:08:42.67,0:08:45.60,Radio,Comment,0000,0000,0000,,{\be10}Um, I—
 Dialogue: 0,0:08:45.60,0:08:48.47,Dialogue,Comment,0000,0000,0000,,It's a kidnapping, isn't it?
-Dialogue: 0,0:08:48.47,0:08:50.51,Radio,Comment,0000,0000,0000,,{\be10}The one kidnapped was Mamoru Akagi{\rHonorifics - Radio}-kun{\r}.
+Dialogue: 0,0:08:48.47,0:08:50.51,Radio,Comment,0000,0000,0000,,{\be10}The one kidnapped was Mamoru Akagi{\rHonorifics - Radio\be10}-kun{\r\be10}.
 Dialogue: 0,0:08:50.51,0:08:54.28,Radio,Comment,0000,0000,0000,,{\be10}He's the younger brother of Hideo Akagi,\Nwho's playing on TV right now.
 Dialogue: 0,0:08:54.28,0:08:58.32,Radio,Comment,0000,0000,0000,,{\be10}The kidnapper's demand was that he lose the game on purpose.
 Dialogue: 0,0:08:58.32,0:09:00.05,Radio,Comment,0000,0000,0000,,{\be10}You said that you were going out with me
 Dialogue: 0,0:09:00.05,0:09:03.49,Radio,Comment,0000,0000,0000,,{\be10}because you wanted to get in contact with me as quickly as possible.
-Dialogue: 0,0:09:03.49,0:09:06.73,Radio,Comment,0000,0000,0000,,{\be10}I assume that the kidnapper threatened to kill Mamoru{\rHonorifics - Radio}-kun{\r}
+Dialogue: 0,0:09:03.49,0:09:06.73,Radio,Comment,0000,0000,0000,,{\be10}I assume that the kidnapper threatened to kill Mamoru{\rHonorifics - Radio\be10}-kun{\r\be10}
 Dialogue: 0,0:09:06.73,0:09:08.96,Radio,Comment,0000,0000,0000,,{\be10}if you got the police or any detectives involved.
 Dialogue: 0,0:09:08.96,0:09:11.46,Dialogue,Comment,0000,0000,0000,,The reason you used the false name of Ryoko Akagi
 Dialogue: 0,0:09:11.46,0:09:14.00,Dialogue,Comment,0000,0000,0000,,was because you didn't want to raise suspicion from the others.
@@ -178,7 +176,7 @@ Dialogue: 0,0:09:20.91,0:09:22.51,Dialogue,Comment,0000,0000,0000,,Yes!
 Dialogue: 0,0:09:22.51,0:09:25.48,Radio,Comment,0000,0000,0000,,{\be10}But how did you know he was kidnapped?
 Dialogue: 0,0:09:25.48,0:09:28.91,Radio,Comment,0000,0000,0000,,{\be10}You haven't even come here yet...
 Dialogue: 0,0:09:28.91,0:09:33.44,Dialogue,Comment,0000,0000,0000,,Oh, uh, that's because I'm a great detective!
-Dialogue: 0,0:09:33.44,0:09:36.72,Radio,Comment,0000,0000,0000,,{\be10}Please write down the details about\NMamoru{\rHonorifics - Radio}-kun{\r}'s kidnapping
+Dialogue: 0,0:09:33.44,0:09:36.72,Radio,Comment,0000,0000,0000,,{\be10}Please write down the details about\NMamoru{\rHonorifics - Radio\be10}-kun{\r\be10}'s kidnapping
 Dialogue: 0,0:09:36.72,0:09:38.36,Radio,Comment,0000,0000,0000,,{\be10}and fax them to me.
 Dialogue: 0,0:09:38.36,0:09:40.39,Radio,Comment,0000,0000,0000,,{\be10}The number is...
 Dialogue: 0,0:09:40.39,0:09:42.23,Dialogue,Comment,0000,0000,0000,,Got it!
@@ -216,13 +214,12 @@ Dialogue: 0,0:11:25.60,0:11:27.83,Radio,Comment,0000,0000,0000,,{\be10}He fakes 
 Dialogue: 0,0:11:27.83,0:11:31.17,Radio,Comment,0000,0000,0000,,{\be10}Goal!
 Dialogue: 0,0:11:31.17,0:11:32.40,Radio,Comment,0000,0000,0000,,{\be10}Now that's the Hide we know!
 Dialogue: 0,0:11:32.40,0:11:36.64,Radio,Comment,0000,0000,0000,,{\be10}A brilliant play that broke through the opponent's defense!
-Dialogue: 0,0:11:54.54,0:11:57.50,Dialogue,Comment,0000,0000,0000,,{\a10}.
 Dialogue: 2,0:11:54.54,0:11:55.90,Dialogue,Comment,0000,0000,0000,,"You broke our agreement.
 Dialogue: 2,0:11:55.90,0:11:57.50,Dialogue,Comment,0000,0000,0000,,Consider your brother as good as gone."
 Dialogue: 0,0:11:58.00,0:11:59.59,Dialogue,Comment,0000,0000,0000,,Oh no!
 Dialogue: 0,0:12:08.14,0:12:11.61,Dialogue,Comment,0000,0000,0000,,It's too late! Mamoru{\rHonorifics - Dialogue}-chan{\r}!
 Dialogue: 0,0:12:11.61,0:12:12.55,Thoughts,Comment,0000,0000,0000,,{\be10}This is bad!
-Dialogue: 0,0:12:12.55,0:12:17.92,Thoughts,Comment,0000,0000,0000,,{\be10}Mamoru{\rHonorifics - Thoughts}-kun{\r} is dead if I don't find the kidnapper soon!
+Dialogue: 0,0:12:12.55,0:12:17.92,Thoughts,Comment,0000,0000,0000,,{\be10}Mamoru{\rHonorifics - Thoughts\be10}-kun{\r\be10} is dead if I don't find the kidnapper soon!
 Dialogue: 0,0:12:17.92,0:12:20.59,Thoughts,Comment,0000,0000,0000,,{\be10}This was a 3rd grader that was kidnapped.
 Dialogue: 0,0:12:20.59,0:12:22.45,Thoughts,Comment,0000,0000,0000,,{\be10}Even if he put up a real struggle,
 Dialogue: 0,0:12:22.45,0:12:25.12,Thoughts,Comment,0000,0000,0000,,{\be10}it's unnatural for his room to be this messed up!
@@ -253,7 +250,7 @@ Dialogue: 0,0:13:54.08,0:13:56.98,Dialogue,Comment,0000,0000,0000,,Really, Shin'
 Dialogue: 0,0:13:56.98,0:13:58.78,Dialogue,Comment,0000,0000,0000,,Where is he?!{timing adjust}
 Dialogue: 0,0:13:58.78,0:14:04.02,Dialogue,Comment,0000,0000,0000,,But first, do you know a person\Nnamed Naoki Uemura?
 Dialogue: 0,0:14:04.02,0:14:07.43,Dialogue,Comment,0000,0000,0000,,Of course! He's Hideo{\rHonorifics - Dialogue}-san{\r}'s best friend; he lives real close by!
-Dialogue: 0,0:14:07.43,0:14:12.83,Radio,Comment,0000,0000,0000,,{\be10}Tell me, does he come by often to play with Mamoru{\rHonorifics - Radio}-kun{\r}?
+Dialogue: 0,0:14:07.43,0:14:12.83,Radio,Comment,0000,0000,0000,,{\be10}Tell me, does he come by often to play with Mamoru{\rHonorifics - Radio\be10}-kun{\r\be10}?
 Dialogue: 0,0:14:12.83,0:14:16.14,Dialogue,Comment,0000,0000,0000,,Yes, Naoki{\rHonorifics - Dialogue}-san{\r} knows a lot about video games...
 Dialogue: 0,0:14:16.14,0:14:18.34,Dialogue,Comment,0000,0000,0000,,But why do you ask?
 Dialogue: 0,0:14:18.34,0:14:21.54,Dialogue,Comment,0000,0000,0000,,Mamoru{\rHonorifics - Dialogue}-kun{\r} wasn't kidnapped!
@@ -261,7 +258,7 @@ Dialogue: 0,0:14:21.54,0:14:26.55,Dialogue,Comment,0000,0000,0000,,The scratches
 Dialogue: 0,0:14:26.55,0:14:28.95,Dialogue,Comment,0000,0000,0000,,The culprit did these intentionally.
 Dialogue: 0,0:14:28.95,0:14:32.48,Dialogue,Comment,0000,0000,0000,,All to make it look like a sinister kidnapping.
 Dialogue: 0,0:14:32.48,0:14:34.35,Dialogue,Comment,0000,0000,0000,,Y-You can't be serious!
-Dialogue: 0,0:14:34.35,0:14:36.59,Radio,Comment,0000,0000,0000,,{\be10}The full message of Mamoru{\rHonorifics - Radio}-kun{\r}'s letter probably went like this:
+Dialogue: 0,0:14:34.35,0:14:36.59,Radio,Comment,0000,0000,0000,,{\be10}The full message of Mamoru{\rHonorifics - Radio\be10}-kun{\r\be10}'s letter probably went like this:
 Dialogue: 0,0:14:36.59,0:14:42.16,Radio,Comment,0000,0000,0000,,{\be10}"I'm going to Naoki-{\i1}niichan{\i0}'s house so he can bring Mamoru back to life."
 Dialogue: 0,0:14:42.16,0:14:45.23,Radio,Comment,0000,0000,0000,,{\be10}The kidnapper tore out and used only that one part of the message!
 Dialogue: 0,0:14:45.23,0:14:49.10,Dialogue,Comment,0000,0000,0000,,T-Then you're saying the one who took him was...
@@ -406,36 +403,15 @@ Dialogue: 0,0:23:32.86,0:23:34.76,Dialogue,Comment,0000,0000,0000,,Truly, honest
 Dialogue: 0,0:23:34.76,0:23:38.50,Dialogue,Comment,0000,0000,0000,,Yes! Truly, honestly!
 Dialogue: 0,0:23:38.50,0:23:39.99,Dialogue,Comment,0000,0000,0000,,I see.
 Dialogue: 0,0:23:43.50,0:23:47.27,Narration Off,Comment,0000,0000,0000,,{\be10}No police were involved in this latest incident.
-Dialogue: 0,0:23:47.27,0:23:50.31,Narration Off,Comment,0000,0000,0000,,{\be10}But Ran made Ryoko{\rHonorifics - Narration Off}-san{\r} explain time after time...
+Dialogue: 0,0:23:47.27,0:23:50.31,Narration Off,Comment,0000,0000,0000,,{\be10}But Ran made Ryoko{\rHonorifics - Narration Off\be10}-san{\r\be10} explain time after time...
 Dialogue: 0,0:23:50.31,0:23:55.71,Narration Off,Comment,0000,0000,0000,,{\be10}...and it took 3 full days for her\Nto finally believe I was innocent.
 Dialogue: 0,0:24:00.60,0:24:04.11,Dialogue,Comment,0000,0000,0000,,All 3 incidents up to now have occured next to the piano.
 Dialogue: 0,0:24:04.11,0:24:05.27,Dialogue,Comment,0000,0000,0000,,Who's there!?
 Dialogue: 0,0:24:06.04,0:24:07.24,Dialogue,Comment,0000,0000,0000,,Wait!
 Dialogue: 0,0:24:08.94,0:24:11.20,Dialogue,Comment,0000,0000,0000,,That's right! The murderer is in here.
-Dialogue: 0,0:24:11.20,0:24:15.16,Dialogue,Comment,0000,0000,0000,,{\a6}Next Conan:
+Dialogue: 0,0:24:11.20,0:24:15.16,Dialogue Top,Comment,0000,0000,0000,,Next Conan:
 Dialogue: 0,0:24:15.16,0:24:19.74,Dialogue,,0000,0000,0000,,Next Conan's Hint: Sheet music
-Dialogue: 0,0:24:21.02,0:24:24.36,Dialogue,,0000,0000,0000,,{\a6}Finally, next time is a 60-minute special!\NBe sure to watch, OK?
-Dialogue: 0,0:00:16.01,0:00:20.98,Signs,,0000,0000,0000,,Created by\NGosho Aoyama\N"Detective Conan"\NSerialized in Shogakukan's\N"Weekly Shonen Sunday"
-Dialogue: 0,0:00:22.10,0:00:26.60,Signs,,0000,0000,0000,,Planning\NMichihiko Suwa\N(Yomiuri TV)
-Dialogue: 0,0:00:33.90,0:00:38.24,Signs,,0000,0000,0000,,Character Design\NMasatomo Sudo
-Dialogue: 0,0:00:33.90,0:00:38.24,Signs,,0000,0000,0000,,Art Director\NYukihiro Shibutani
-Dialogue: 0,0:00:33.90,0:00:38.24,Signs,,0000,0000,0000,,Art Design\NHiroyuki Mitsumoto
-Dialogue: 0,0:00:41.08,0:00:45.50,Signs,,0000,0000,0000,,Directors of Photography\NHironobu Horikoshi\NTakashi Nomura
-Dialogue: 0,0:00:41.08,0:00:45.50,Signs,,0000,0000,0000,,Sound Director\NKatsuyoshi Kobayashi
-Dialogue: 0,0:00:45.87,0:00:50.29,Signs,,0000,0000,0000,,Music Producer\NHiroki Horio\N(PolyGram)
-Dialogue: 0,0:00:45.87,0:00:50.29,Signs,,0000,0000,0000,,Music\NKatsuo Ono
-Dialogue: 0,0:00:52.42,0:00:57.30,Signs,,0000,0000,0000,,Opening Theme\N"Mune ga doki-doki"\N(Kitty Enterprises)
-Dialogue: 0,0:00:52.42,0:00:57.30,Signs,,0000,0000,0000,,Performed by\NLyrics\NMusic\NArrangement
-Dialogue: 0,0:00:52.42,0:00:57.30,Signs,,0000,0000,0000,,THE HIGH-LOWS\NHiroto Komoto/Masatoshi Mashima\NHiroto Komoto/Masatoshi Mashima\NTHE HIGH-LOWS
-Dialogue: 0,0:00:52.42,0:00:57.30,Signs,,0000,0000,0000,,Ending Theme\N"Step by Step"\N(Mercury Music Entertainment)
-Dialogue: 0,0:00:52.42,0:00:57.30,Signs,,0000,0000,0000,,Performed by\NLyrics\NMusic\NArrangement
-Dialogue: 0,0:00:52.42,0:00:57.30,Signs,,0000,0000,0000,,ZIGGY\NJuichi Morishige\NJuichi Morishige\NZIGGY
-Dialogue: 0,0:01:00.22,0:01:04.48,Signs,,0000,0000,0000,,Editor\NTeramitsu Okada\N(JAY FILM)
-Dialogue: 0,0:01:00.22,0:01:04.48,Signs,,0000,0000,0000,,Story Editor\NJun'ichi Iioka
-Dialogue: 0,0:01:00.22,0:01:04.48,Signs,,0000,0000,0000,,Color Key\NReiko Hirayama
-Dialogue: 0,0:01:00.22,0:01:04.48,Signs,,0000,0000,0000,,Associate Producer\NSatoshi Kojima
-Dialogue: 0,0:01:04.73,0:01:08.98,Signs,,0000,0000,0000,,Director\NKenji Kodama
-Dialogue: 0,0:01:11.27,0:01:16.03,Signs,,0000,0000,0000,,Producers\NMichihiko Suwa\N(Yomiuri TV)\NKazuhiko Yagiuchi\N(Tokyo Movie)\NMasahito Yoshioka\N(Tokyo Movie)
+Dialogue: 0,0:24:21.02,0:24:24.36,Dialogue Top,,0000,0000,0000,,Finally, next time is a 60-minute special!\NBe sure to watch, OK?
 Dialogue: 0,0:24:00.14,0:24:11.20,Signs,,0000,0000,0000,,NEXT EPISODE AIRING
 Dialogue: 0,0:24:00.14,0:24:11.20,Signs,,0000,0000,0000,,APRIL 8, 7 PM
 Dialogue: 0,0:24:00.14,0:24:11.20,Signs,,0000,0000,0000,,60 MINUTE SPECIAL
