@@ -33,11 +33,10 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: HappyEnd,Open Sans,22,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,90,100,0,0,1,1.75,0,9,30,30,18,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:01.54,0:00:04.95,Narration Off,,0000,0000,0000,,{\be10}As times{\rHonorifics - Narration Off\be10} chan{\r\be10}ge,\Ndifficult cases increase in number!
+Dialogue: 0,0:00:01.54,0:00:04.95,Narration Off,,0000,0000,0000,,{\be10}As times change,\Ndifficult cases increase in number!
 Dialogue: 0,0:00:04.95,0:00:06.72,Narration Off,,0000,0000,0000,,{\be10}Today's stage is a treasure hunt!
 Dialogue: 0,0:00:06.72,0:00:08.58,Narration Off,,0000,0000,0000,,{\be10}Will we find treasure of the heart?!
 Dialogue: 0,0:00:08.58,0:00:10.29,Narration Off,,0000,0000,0000,,{\be10}He sees the single truth for what it is,
@@ -372,15 +371,3 @@ Dialogue: 0,0:24:09.19,0:24:15.16,Signs,,0000,0000,0000,,Next Conan:
 Dialogue: 0,0:24:15.16,0:24:20.17,Dialogue,,0000,0000,0000,,Next Conan's Hint: Sneak-a-peek
 Dialogue: 0,0:24:20.46,0:24:22.59,Dialogue Top,,0000,0000,0000,,Thanks for waiting!\NNext time is a two-part episode!
 Dialogue: 0,0:24:22.59,0:24:24.56,Dialogue Top,,0000,0000,0000,,I'm guessing the culprit from Part 1.
-Dialogue: 0,0:10:09.76,0:10:15.17,HappyEnd,,0000,0000,0000,,{\blur2\c&H00&\3c&HFFFFFF&}back mirror ni utsutta keshiki-dake\N{\blur0\c\3c}Baby, stick the view from the rear-view in your window{MULTIPLEX}
-Dialogue: 0,0:10:15.17,0:10:20.68,HappyEnd,,0000,0000,0000,,{\blur2\c&H00&\3c&HFFFFFF&}kimi no mado ni kazaritsukete-kure\N{\blur0\c\3c}Baby, stick the view from the rear-view in your window
-Dialogue: 0,0:10:20.68,0:10:26.03,HappyEnd,,0000,0000,0000,,{\blur2\c&H00&\3c&HFFFFFF&}nariyuki-makase no michi mo aru\N{\blur0\c\3c}Some paths everyone can climb easily
-Dialogue: 0,0:10:26.03,0:10:31.54,HappyEnd,,0000,0000,0000,,{\blur2\c&H00&\3c&HFFFFFF&}sanzan dareka ga to'otta michi\N{\blur0\c\3c}Others are a pain for anyone
-Dialogue: 0,0:10:31.54,0:10:34.26,HappyEnd,,0000,0000,0000,,{\blur2\c&H00&\3c&HFFFFFF&}tsumazuite mo korogatte-miro\N{\blur0\c\3c}If you trip up, don't bother trying to pick yourself up
-Dialogue: 0,0:10:34.26,0:10:39.74,HappyEnd,,0000,0000,0000,,{\blur2\c&H00&\3c&HFFFFFF&}oto no niwa de odotte-miru to ii sa\N{\blur0\c\3c}Go ahead and dance in this garden of sound!
-Dialogue: 0,0:10:39.74,0:10:42.50,HappyEnd,,0000,0000,0000,,{\blur2\c&H00&\3c&HFFFFFF&}oite-yuku heishi no\N{\blur0\c\3c}The loneliness of the aging soldiers vanishing pierces through my heart,{MULTIPLEX}
-Dialogue: 0,0:10:42.50,0:10:45.21,HappyEnd,,0000,0000,0000,,{\blur2\c&H00&\3c&HFFFFFF&}kiesaru sono kodoku wa\N{\blur0\c\3c}The loneliness of the aging soldiers vanishing pierces through my heart,
-Dialogue: 0,0:10:45.21,0:10:46.80,HappyEnd,,0000,0000,0000,,{\blur2\c&H00&\3c&HFFFFFF&}mune o utsu keredo\N{\blur0\c\3c}The loneliness of the aging soldiers vanishing pierces through my heart,
-Dialogue: 0,0:10:46.80,0:10:50.69,HappyEnd,,0000,0000,0000,,{\blur2\c&H00&\3c&HFFFFFF&}dou-tte koto wa nai no sa Baby\N{\blur0\c\3c}but what's that matter? Baby, the earth still goes round{MULTIPLEX}
-Dialogue: 0,0:10:50.69,0:10:53.29,HappyEnd,,0000,0000,0000,,{\blur2\c&H00&\3c&HFFFFFF&}chikyuu wa mawaru\N{\blur0\c\3c}but what's that matter? Baby, the earth still goes round
-Dialogue: 0,0:10:53.29,0:10:58.57,HappyEnd,,0000,0000,0000,,{\blur2\c&H00&\3c&HFFFFFF&}Happy End ga matte-iru\N{\blur0\c\3c}There's a happy end waiting for us

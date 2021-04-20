@@ -33,19 +33,7 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: Def_it,trebuchet ms,27,&H00FFFFFF,&H00FF0000,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,0,2,15,15,12,1
-Style: Def_up,trebuchet ms,27,&H00FFFFFF,&H00FF0000,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,15,15,15,1
-Style: Def_up_it,trebuchet ms,27,&HFFFFFFFF,&HFFFF0000,&HFF000000,&HFF000000,0,-1,0,0,100,100,0,0,1,2,0,8,15,15,15,1
-Style: Def_past,trebuchet ms,27,&HFFFFFFFF,&HFFFF0000,&HFF000000,&HFF000000,0,-1,0,0,100,100,0,0,1,2,0,2,15,15,15,1
-Style: Def_gaijin,trebuchet ms,27,&HFFECECEC,&HFFFF0000,&HFF000000,&HFF000000,0,-1,0,0,100,100,0,0,1,2,0,2,10,10,8,1
-Style: Def_kar,betina,38,&HFF000000,&HFFFF0000,&HFF000000,&HFF000000,-1,-1,0,0,100,100,0,0,1,2,0,8,10,10,10,1
-Style: Def_alt,trebuchet ms,27,&HFFFFFFFF,&HFFFF0000,&HFF000000,&HFF000000,0,0,0,0,100,100,0,0,1,2,0,2,15,15,12,1
-Style: name,trebuchet ms,24,&H00FFFFFF,&H00FF0000,&H002F30A7,&H002F30A7,-1,0,0,0,100,100,0,0,1,2.5,0,8,15,15,15,1
-Style: Text,calibri,130,&HFFDEEBEE,&HFFFF0000,&HFF000000,&HFF000000,-1,0,0,0,100,100,0,0,1,4,0,8,10,10,10,1
-Style: spec_text,myriad pro cond,25,&HFFFFFFFF,&HFF802718,&H41000000,&H41000000,-1,0,0,0,100,100,0,0,1,0,0,8,6,10,310,1
-Style: special,myriad pro cond,30,&HFF731900,&HFFFF0000,&HFF000000,&HFF000000,0,-1,0,0,100,100,0,0,1,2,0,2,10,10,80,1
-
-[Events]
+Style: Def_up_it,trebuchet ms,27,&HFFFFFFFF,&HFFFF0000,&HFF000000,&HFF000000,0,-1,0,0,100,100,0,0,1,2,0,8,15,15,15,1Style: Def_gaijin,trebuchet ms,27,&HFFECECEC,&HFFFF0000,&HFF000000,&HFF000000,0,-1,0,0,100,100,0,0,1,2,0,2,10,10,8,1Style: Def_alt,trebuchet ms,27,&HFFFFFFFF,&HFFFF0000,&HFF000000,&HFF000000,0,0,0,0,100,100,0,0,1,2,0,2,15,15,12,1[Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 Dialogue: 0,0:00:03.92,0:00:05.40,Dialogue,NTP,0,0,0,,The rhythm of the wind refreshes the stream of reasoning.
 Dialogue: 0,0:00:05.40,0:00:07.34,Dialogue,NTP,0,0,0,,Tricks and alibis are exposed at once!
@@ -65,15 +53,15 @@ Dialogue: 0,0:02:50.19,0:02:51.73,Dialogue,NTP,0,0,0,,We should just go, right?
 Dialogue: 0,0:02:52.03,0:02:53.57,Dialogue,NTP,0,0,0,,Hold on, Hirai.
 Dialogue: 0,0:02:53.57,0:02:54.53,Dialogue,NTP,0,0,0,,What?
 Dialogue: 0,0:02:55.07,0:02:58.74,Dialogue,NTP,0,0,0,,You remember what this place is. Try to work a little more carefully.
-Dialogue: 0,0:02:59.20,0:03:02.41,Def_up,NTP,0,0,0,,Yeah, it'd be bad if there's anothe there's another accident.
+Dialogue: 0,0:02:59.20,0:03:02.41,Dialogue Top,NTP,0,0,0,,Yeah, it'd be bad if there's anothe there's another accident.
 Dialogue: 0,0:02:58.77,0:03:02.60,Signs,NTP,0,0,0,,Hirai Takaya (age 29)\NPark Service employee
 Dialogue: 0,0:03:03.79,0:03:08.29,Dialogue,NTP,0,0,0,,Well, knowing you, you'd probably be happy if something happened to me.
 Dialogue: 0,0:03:08.33,0:03:09.63,Dialogue,NTP,0,0,0,,Wait, Hirai!
 Dialogue: 0,0:03:10.05,0:03:11.75,Dialogue,NTP,0,0,0,,I'm gone!
 Dialogue: 0,0:03:15.22,0:03:16.22,Dialogue,NTP,0,0,0,,What?
 Dialogue: 0,0:03:17.84,0:03:19.14,Dialogue,NTP,0,0,0,,Ah... good morning.
-Dialogue: 0,0:03:19.93,0:03:22.93,Def_up,NTP,0,0,0,,There's a broken fence at the observation deck,
-Dialogue: 0,0:03:22.93,0:03:24.50,Def_up,NTP,0,0,0,,{\blur2}so please be careful.
+Dialogue: 0,0:03:19.93,0:03:22.93,Dialogue Top,NTP,0,0,0,,There's a broken fence at the observation deck,
+Dialogue: 0,0:03:22.93,0:03:24.50,Dialogue Top,NTP,0,0,0,,so please be careful.
 Dialogue: 0,0:03:19.87,0:03:24.50,Signs,NTP,0,0,0,,Kondo Eyitiro (age 39)\NPark Service employee
 Dialogue: 0,0:03:24.89,0:03:26.14,Dialogue,NTP,0,0,0,,Uh, okay.
 Dialogue: 0,0:03:26.39,0:03:27.06,Signs,NTP,0,0,0,,Thank you.
@@ -127,8 +115,8 @@ Dialogue: 0,0:05:44.28,0:05:45.62,Dialogue,NTP,0,0,0,,I'm the one who asked him,
 Dialogue: 0,0:05:46.37,0:05:50.20,Dialogue,NTP,0,0,0,,I said: "The fence on the playground is broken, go and fix it."
 Dialogue: 0,0:05:50.75,0:05:53.25,Dialogue,NTP,0,0,0,,If I had gone myself,
 Dialogue: 0,0:05:53.79,0:05:56.34,Dialogue,NTP,0,0,0,,it wouldn't have happened.
-Dialogue: 0,0:06:12.85,0:06:14.19,Def_it,NTP,0,0,0,,What's that supposed to mean?
-Dialogue: 0,0:06:14.73,0:06:19.82,Def_it,NTP,0,0,0,,The ends of the ropes look like they've been tied up for a long time.
+Dialogue: 0,0:06:12.85,0:06:14.19,Thoughts,NTP,0,0,0,,{\be10}What's that supposed to mean?
+Dialogue: 0,0:06:14.73,0:06:19.82,Thoughts,NTP,0,0,0,,{\be10}The ends of the ropes look like they've been tied up for a long time.
 Dialogue: 0,0:06:27.37,0:06:28.33,Dialogue,NTP,0,0,0,,Dad!
 Dialogue: 0,0:06:30.70,0:06:32.87,Dialogue,NTP,0,0,0,,The police and ambulance will be here soon.
 Dialogue: 0,0:06:33.21,0:06:33.96,Dialogue,NTP,0,0,0,,I see.
@@ -137,26 +125,26 @@ Dialogue: 0,0:06:37.13,0:06:41.92,Dialogue,NTP,0,0,0,,We'd better leave it at th
 Dialogue: 0,0:06:43.93,0:06:44.22,Dialogue,NTP,0,0,0,,Conan.
 Dialogue: 0,0:06:44.59,0:06:45.97,Dialogue,NTP,0,0,0,,Let's go back to the office.
 Dialogue: 0,0:06:45.97,0:06:46.43,Dialogue,NTP,0,0,0,,Okay.
-Dialogue: 0,0:06:57.23,0:06:58.52,Def_it,NTP,0,0,0,,What's that?
-Dialogue: 0,0:07:02.74,0:07:03.24,Def_it,NTP,0,0,0,,Isn't that...
-Dialogue: 0,0:07:03.86,0:07:04.90,Def_it,NTP,0,0,0,,a spider web?
-Dialogue: 0,0:07:05.95,0:07:07.66,Def_it,NTP,0,0,0,,Why is it in a place like this?
-Dialogue: 0,0:07:09.62,0:07:12.08,Def_it,NTP,0,0,0,,Where'd he pick it up?
-Dialogue: 0,0:07:19.13,0:07:20.21,Def_it,NTP,0,0,0,,That's what I thought.
-Dialogue: 0,0:07:21.17,0:07:23.88,Def_it,NTP,0,0,0,,There's no cobwebs anywhere.
-Dialogue: 0,0:07:23.88,0:07:24.88,Def_it,NTP,0,0,0,,Besides...
-Dialogue: 0,0:07:25.68,0:07:27.26,Def_it,NTP,0,0,0,,Where Hirai{\rHonorifics - Def_it}-san{\r} fell,
-Dialogue: 0,0:07:27.76,0:07:30.14,Def_it,NTP,0,0,0,,there's no sign of him slipping.
-Dialogue: 0,0:07:30.93,0:07:33.06,Def_it,NTP,0,0,0,,It's as if he jumped off on his own.
-Dialogue: 0,0:07:36.19,0:07:37.81,Def_it,NTP,0,0,0,,And there's another thing that's not clear,
-Dialogue: 0,0:07:38.48,0:07:42.98,Def_it,NTP,0,0,0,,the rope that fell near the body was twisted at both ends.
-Dialogue: 0,0:07:43.82,0:07:46.32,Def_it,NTP,0,0,0,,If the rope was tied properly,
-Dialogue: 0,0:07:46.95,0:07:49.03,Def_it,NTP,0,0,0,,why did Hirai{\rHonorifics - Def_it}-san{\r} fall?
-Dialogue: 0,0:07:50.41,0:07:52.58,Def_it,NTP,0,0,0,,And the way it was twisted...
-Dialogue: 0,0:07:53.83,0:07:56.37,Def_it,NTP,0,0,0,,It looks like it's been tied for a decent amount of time.
-Dialogue: 0,0:07:57.79,0:08:01.34,Def_it,NTP,0,0,0,,Why did Hirai{\rHonorifics - Def_it}-san{\r} need that rope anyway?
+Dialogue: 0,0:06:57.23,0:06:58.52,Thoughts,NTP,0,0,0,,{\be10}What's that?
+Dialogue: 0,0:07:02.74,0:07:03.24,Thoughts,NTP,0,0,0,,{\be10}Isn't that...
+Dialogue: 0,0:07:03.86,0:07:04.90,Thoughts,NTP,0,0,0,,{\be10}a spider web?
+Dialogue: 0,0:07:05.95,0:07:07.66,Thoughts,NTP,0,0,0,,{\be10}Why is it in a place like this?
+Dialogue: 0,0:07:09.62,0:07:12.08,Thoughts,NTP,0,0,0,,{\be10}Where'd he pick it up?
+Dialogue: 0,0:07:19.13,0:07:20.21,Thoughts,NTP,0,0,0,,{\be10}That's what I thought.
+Dialogue: 0,0:07:21.17,0:07:23.88,Thoughts,NTP,0,0,0,,{\be10}There's no cobwebs anywhere.
+Dialogue: 0,0:07:23.88,0:07:24.88,Thoughts,NTP,0,0,0,,{\be10}Besides...
+Dialogue: 0,0:07:25.68,0:07:27.26,Thoughts,NTP,0,0,0,,{\be10}Where Hirai{\rHonorifics - Thoughts\be10}-san{\r\be10} fell,
+Dialogue: 0,0:07:27.76,0:07:30.14,Thoughts,NTP,0,0,0,,{\be10}there's no sign of him slipping.
+Dialogue: 0,0:07:30.93,0:07:33.06,Thoughts,NTP,0,0,0,,{\be10}It's as if he jumped off on his own.
+Dialogue: 0,0:07:36.19,0:07:37.81,Thoughts,NTP,0,0,0,,{\be10}And there's another thing that's not clear,
+Dialogue: 0,0:07:38.48,0:07:42.98,Thoughts,NTP,0,0,0,,{\be10}the rope that fell near the body was twisted at both ends.
+Dialogue: 0,0:07:43.82,0:07:46.32,Thoughts,NTP,0,0,0,,{\be10}If the rope was tied properly,
+Dialogue: 0,0:07:46.95,0:07:49.03,Thoughts,NTP,0,0,0,,{\be10}why did Hirai{\rHonorifics - Thoughts\be10}-san{\r\be10} fall?
+Dialogue: 0,0:07:50.41,0:07:52.58,Thoughts,NTP,0,0,0,,{\be10}And the way it was twisted...
+Dialogue: 0,0:07:53.83,0:07:56.37,Thoughts,NTP,0,0,0,,{\be10}It looks like it's been tied for a decent amount of time.
+Dialogue: 0,0:07:57.79,0:08:01.34,Thoughts,NTP,0,0,0,,{\be10}Why did Hirai{\rHonorifics - Thoughts\be10}-san{\r\be10} need that rope anyway?
 Dialogue: 0,0:08:08.30,0:08:09.76,Dialogue,NTP,0,0,0,,Oh, it's just a rabbit.
-Dialogue: 0,0:08:13.18,0:08:14.64,Def_it,NTP,0,0,0,,An animal trail...?
+Dialogue: 0,0:08:13.18,0:08:14.64,Thoughts,NTP,0,0,0,,{\be10}An animal trail...?
 Dialogue: 0,0:08:21.73,0:08:24.61,Dialogue,NTP,0,0,0,,Dad, Conan{\rHonorifics - Dialogue}-kun{\r} still hasn't returned.
 Dialogue: 0,0:08:25.15,0:08:26.74,Dialogue,NTP,0,0,0,,Forget about him.
 Dialogue: 0,0:08:27.24,0:08:29.11,Dialogue,NTP,0,0,0,,He's probably playing somewhere nearby.
@@ -168,20 +156,20 @@ Dialogue: 0,0:08:41.42,0:08:43.50,Dialogue,NTP,0,0,0,,Don't worry, I'll bring hi
 Dialogue: 0,0:08:43.50,0:08:44.34,Dialogue,NTP,0,0,0,,Thank you.
 Dialogue: 0,0:08:47.17,0:08:48.97,Dialogue,NTP,0,0,0,,What a nice man.
 Dialogue: 0,0:08:48.97,0:08:50.05,Dialogue,NTP,0,0,0,,Dad!
-Dialogue: 0,0:09:00.02,0:09:01.56,Def_it,NTP,0,0,0,,That tree...
-Dialogue: 0,0:09:03.11,0:09:05.23,Def_it,NTP,0,0,0,,...growing right under the observation deck.
-Dialogue: 0,0:09:11.03,0:09:12.03,Def_it,NTP,0,0,0,,What's up there?
-Dialogue: 0,0:09:15.79,0:09:17.62,Def_it,NTP,0,0,0,,A piton and a ring?
-Dialogue: 0,0:09:18.46,0:09:20.69,Def_it,NTP,0,0,0,,It's a mountain climber's spike and a snap ring.
-Dialogue: 0,0:09:22.21,0:09:23.88,Def_it,NTP,0,0,0,,Something strange is going on.
-Dialogue: 0,0:09:30.55,0:09:32.13,Def_it,NTP,0,0,0,,Why, they're white-eyes.
-Dialogue: 0,0:09:34.10,0:09:34.97,Def_it,NTP,0,0,0,,What is there?
-Dialogue: 0,0:09:35.97,0:09:37.85,Def_it,NTP,0,0,0,,Damn, it's hard to see.
-Dialogue: 0,0:09:40.31,0:09:41.02,Def_it,NTP,0,0,0,,Those are...
-Dialogue: 0,0:09:41.23,0:09:42.73,Def_it,NTP,0,0,0,,shoe impressions.
-Dialogue: 0,0:09:44.11,0:09:45.61,Def_it,NTP,0,0,0,,And they're still fresh.
-Dialogue: 0,0:09:54.87,0:09:56.83,Def_it,NTP,0,0,0,,They're rope marks.
-Dialogue: 0,0:09:58.75,0:10:00.41,Def_it,NTP,0,0,0,,So that's what it all means.
+Dialogue: 0,0:09:00.02,0:09:01.56,Thoughts,NTP,0,0,0,,{\be10}That tree...
+Dialogue: 0,0:09:03.11,0:09:05.23,Thoughts,NTP,0,0,0,,{\be10}...growing right under the observation deck.
+Dialogue: 0,0:09:11.03,0:09:12.03,Thoughts,NTP,0,0,0,,{\be10}What's up there?
+Dialogue: 0,0:09:15.79,0:09:17.62,Thoughts,NTP,0,0,0,,{\be10}A piton and a ring?
+Dialogue: 0,0:09:18.46,0:09:20.69,Thoughts,NTP,0,0,0,,{\be10}It's a mountain climber's spike and a snap ring.
+Dialogue: 0,0:09:22.21,0:09:23.88,Thoughts,NTP,0,0,0,,{\be10}Something strange is going on.
+Dialogue: 0,0:09:30.55,0:09:32.13,Thoughts,NTP,0,0,0,,{\be10}Why, they're white-eyes.
+Dialogue: 0,0:09:34.10,0:09:34.97,Thoughts,NTP,0,0,0,,{\be10}What is there?
+Dialogue: 0,0:09:35.97,0:09:37.85,Thoughts,NTP,0,0,0,,{\be10}Damn, it's hard to see.
+Dialogue: 0,0:09:40.31,0:09:41.02,Thoughts,NTP,0,0,0,,{\be10}Those are...
+Dialogue: 0,0:09:41.23,0:09:42.73,Thoughts,NTP,0,0,0,,{\be10}shoe impressions.
+Dialogue: 0,0:09:44.11,0:09:45.61,Thoughts,NTP,0,0,0,,{\be10}And they're still fresh.
+Dialogue: 0,0:09:54.87,0:09:56.83,Thoughts,NTP,0,0,0,,{\be10}They're rope marks.
+Dialogue: 0,0:09:58.75,0:10:00.41,Thoughts,NTP,0,0,0,,{\be10}So that's what it all means.
 Dialogue: 0,0:10:00.62,0:10:02.12,Dialogue,NTP,0,0,0,,Hey, Conan{\rHonorifics - Dialogue}-kun{\r}!
 Dialogue: 0,0:10:03.04,0:10:05.00,Dialogue,NTP,0,0,0,,What are you doing over there?
 Dialogue: 0,0:10:05.13,0:10:06.00,Dialogue,NTP,0,0,0,,It's dangerous.
@@ -196,14 +184,14 @@ Dialogue: 0,0:10:23.23,0:10:24.81,Dialogue,NTP,0,0,0,,everyone in the office is 
 Dialogue: 0,0:10:25.15,0:10:30.19,Dialogue,NTP,0,0,0,,Uncle, your shoes look so old... Why?
 Dialogue: 0,0:10:30.69,0:10:31.90,Dialogue,NTP,0,0,0,,Oh, these?
 Dialogue: 0,0:10:32.82,0:10:34.99,Dialogue,NTP,0,0,0,,I bought them when I was a student.
-Dialogue: 0,0:10:35.99,0:10:38.99,Dialogue,NTP,0,0,0,,They're so comfortable I don't want to{\rHonorifics - Dialogue} chan{\r}ge them at all.
+Dialogue: 0,0:10:35.99,0:10:38.99,Dialogue,NTP,0,0,0,,They're so comfortable I don't want to change them at all.
 Dialogue: 0,0:10:39.87,0:10:41.91,Dialogue,NTP,0,0,0,,The only drawback is they're a little heavy.
 Dialogue: 0,0:10:44.75,0:10:46.00,Dialogue,NTP,0,0,0,,Now I understand.
-Dialogue: 0,0:10:46.42,0:10:48.29,Def_it,NTP,0,0,0,,It is, after all, a murder.
-Dialogue: 0,0:10:49.25,0:10:50.80,Def_it,NTP,0,0,0,,And the perpetrator...
-Dialogue: 0,0:10:51.59,0:10:54.68,Def_it,NTP,0,0,0,,Yes. None other than him.
-Dialogue: 0,0:10:55.55,0:10:59.43,Def_it,NTP,0,0,0,,He's the one who pushed Hirai{\rHonorifics - Def_it}-san{\r}, making it look like an accident,
-Dialogue: 0,0:11:00.52,0:11:02.81,Def_it,NTP,0,0,0,,with this trick.
+Dialogue: 0,0:10:46.42,0:10:48.29,Thoughts,NTP,0,0,0,,{\be10}It is, after all, a murder.
+Dialogue: 0,0:10:49.25,0:10:50.80,Thoughts,NTP,0,0,0,,{\be10}And the perpetrator...
+Dialogue: 0,0:10:51.59,0:10:54.68,Thoughts,NTP,0,0,0,,{\be10}Yes. None other than him.
+Dialogue: 0,0:10:55.55,0:10:59.43,Thoughts,NTP,0,0,0,,{\be10}He's the one who pushed Hirai{\rHonorifics - Thoughts\be10}-san{\r\be10}, making it look like an accident,
+Dialogue: 0,0:11:00.52,0:11:02.81,Thoughts,NTP,0,0,0,,{\be10}with this trick.
 Dialogue: 0,0:11:12.82,0:11:14.03,Dialogue,NTP,0,0,0,,I see.
 Dialogue: 0,0:11:14.32,0:11:18.62,Dialogue,NTP,0,0,0,,Since there are so many witnesses... Mori{\rHonorifics - Dialogue}-san{\r}, as you said,
 Dialogue: 0,0:11:18.62,0:11:21.20,Dialogue,NTP,0,0,0,,it was undoubtedly an accident.
@@ -349,4 +337,4 @@ Dialogue: 0,0:23:31.06,0:23:33.14,Dialogue,NTP,0,0,0,,I don't know...
 Dialogue: 0,0:23:33.23,0:23:35.14,Dialogue,NTP,0,0,0,,Well, wait a minute!
 Dialogue: 0,0:23:35.27,0:23:36.27,Dialogue,NTP,0,0,0,,What should I wait for?
 Dialogue: 0,0:23:36.27,0:23:38.27,Dialogue,NTP,0,0,0,,Please, Ran{\rHonorifics - Dialogue}-chan{\r}!
-Dialogue: 0,0:23:41.99,0:23:43.53,Def_it,NTP,0,0,0,,What did you see there, uncle?
+Dialogue: 0,0:23:41.99,0:23:43.53,Thoughts,NTP,0,0,0,,{\be10}What did you see there, uncle?

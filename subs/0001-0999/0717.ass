@@ -33,31 +33,25 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: Narr,Calibri Nonligature,50,&H6E8C6F00,&H000000FF,&H00FFFFFF,&H80000000,-1,0,0,0,100,100,0,0,1,3.7,1.5,2,100,100,30,1
-Style: FlashbackThoughts,Calibri Nonligature,50,&H4B370001,&H000000FF,&H00CCFFFF,&HC0000000,-1,0,0,0,100,100,0,0,1,2.6,2,2,100,100,30,1
-Style: PlaceCard,Corbel,35,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,2,2,100,100,30,1
-Style: Phoneradio,Calibri,50,&H0FFDFFC6,&H000000FF,&H00370001,&HC0000000,-1,0,0,0,100,100,0,0,1,2.5,1.5,2,100,100,30,1
-Style: OPRom2,Berlin Sans FB Macron,40,&H60000000,&H000000FF,&H60000000,&H603E3330,-1,0,0,0,100,100,1,0,1,3.4,0,8,8,8,25,1
-Style: OPRomUnedited,Berlin Sans FB Macron,40,&HC00000FF,&H000000FF,&H00FFFFFF,&H603E3330,-1,0,0,0,100,100,1,0,1,4,1.6875,8,8,8,25,1
-Style: Poodles,MV Boli M,70,&H400102B5,&H000809FC,&H00CFF2F3,&H80000000,0,0,0,0,100,100,0,0,1,4,2,8,10,10,25,1
+Style: PlaceCard,Corbel,35,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,2,2,100,100,30,1Style: OPRom2,Berlin Sans FB Macron,40,&H60000000,&H000000FF,&H60000000,&H603E3330,-1,0,0,0,100,100,1,0,1,3.4,0,8,8,8,25,1Style: Poodles,MV Boli M,70,&H400102B5,&H000809FC,&H00CFF2F3,&H80000000,0,0,0,0,100,100,0,0,1,4,2,8,10,10,25,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:01.75,0:00:07.65,Narr,,0,0,0,,{\blur3}Uncle Kogorō, Ran and I went to a Noh mask museum on the edge of the city,
-Dialogue: 0,0:00:08.22,0:00:16.20,Narr,,0,0,0,,{\blur3}because a letter warning of a plan to murder the owner of the museum had arrived at the Mouri Detective Agency.
-Dialogue: 0,0:00:17.10,0:00:21.45,Narr,,0,0,0,,{\an8\blur3}The museum was closed, and in addition to the owner, Jisaburō Izumi,\N
+Dialogue: 0,0:00:01.75,0:00:07.65,Narration Off,,0,0,0,,{\be10}Uncle Kogorō, Ran and I went to a Noh mask museum on the edge of the city,
+Dialogue: 0,0:00:08.22,0:00:16.20,Narration Off,,0,0,0,,{\be10}because a letter warning of a plan to murder the owner of the museum had arrived at the Mouri Detective Agency.
+Dialogue: 0,0:00:17.10,0:00:21.45,Narration Off,,0,0,0,,{\be10\an8}The museum was closed, and in addition to the owner, Jisaburō Izumi,\N
 Dialogue: 0,0:00:18.33,0:00:21.45,Signs,,0,0,0,,Jisaburō Izumi (65)\NNoh Mask Museum Owner
 Dialogue: 0,0:00:21.62,0:00:24.83,Signs,,0,0,0,,Hatsuho Toba (28)\NJisaburō's Appointed Nurse
 Dialogue: 0,0:00:25.00,0:00:28.34,Signs,,0,0,0,,Tatsurō Seikanji (45)\NNoh Mask Museum Executive
 Dialogue: 0,0:00:28.46,0:00:30.51,Signs,,0,0,0,,Moyono Mibu (38)\NNoh Mask Museum Accountant and Receptionist
 Dialogue: 0,0:00:30.63,0:00:32.92,Signs,,0,0,0,,Seinosuke Nagata (60)\NNoh Mask Museum Manager
 Dialogue: 0,0:00:33.17,0:00:37.18,Signs,,0,0,0,,Naruya Akaza (40)\NAcquaintance of Jisaburō's / Promoter
-Dialogue: 0,0:00:21.98,0:00:24.83,Narr,,0,0,0,,{\blur3\an8}his appointed nurse, Hatsuho Toba{\rHonorifics - Narr}-san{\r},
-Dialogue: 0,0:00:25.31,0:00:32.92,Narr,,0,0,0,,{\blur3\an8}museum staff members Tatsurō Seikanji{\rHonorifics - Narr}-san{\r}, Moyono Mibu{\rHonorifics - Narr}-san{\r} and Seinosuke Nagata{\rHonorifics - Narr}-san{\r}
-Dialogue: 0,0:00:32.92,0:00:37.18,Narr,,0,0,0,,{\blur3\an8}and Naruya Akaza{\rHonorifics - Narr}-san{\r}, who had come to talk to the owner, were also there.
-Dialogue: 0,0:00:38.45,0:00:44.73,Narr,,0,0,0,,{\blur3}While the owner was showing us around the museum, his life was endangered several times,
-Dialogue: 0,0:00:45.14,0:00:48.55,Narr,,0,0,0,,{\blur3}but it was Akaza{\rHonorifics - Narr}-san{\r} who ultimately ended up dead.
-Dialogue: 0,0:00:49.98,0:00:56.30,Narr,,0,0,0,,{\blur3}Ran and I found Moyono{\rHonorifics - Narr}-san{\r} to be suspicious and sneaked into the office to call the police.
+Dialogue: 0,0:00:21.98,0:00:24.83,Narration Off,,0,0,0,,{\be10\an8}his appointed nurse, Hatsuho Toba{\rHonorifics - Narration Off\be10}-san{\r\be10},
+Dialogue: 0,0:00:25.31,0:00:32.92,Narration Off,,0,0,0,,{\be10\an8}museum staff members Tatsurō Seikanji{\rHonorifics - Narration Off\be10}-san{\r\be10}, Moyono Mibu{\rHonorifics - Narration Off\be10}-san{\r\be10} and Seinosuke Nagata{\rHonorifics - Narration Off\be10}-san{\r\be10}
+Dialogue: 0,0:00:32.92,0:00:37.18,Narration Off,,0,0,0,,{\be10\an8}and Naruya Akaza{\rHonorifics - Narration Off\be10}-san{\r\be10}, who had come to talk to the owner, were also there.
+Dialogue: 0,0:00:38.45,0:00:44.73,Narration Off,,0,0,0,,{\be10}While the owner was showing us around the museum, his life was endangered several times,
+Dialogue: 0,0:00:45.14,0:00:48.55,Narration Off,,0,0,0,,{\be10}but it was Akaza{\rHonorifics - Narration Off\be10}-san{\r\be10} who ultimately ended up dead.
+Dialogue: 0,0:00:49.98,0:00:56.30,Narration Off,,0,0,0,,{\be10}Ran and I found Moyono{\rHonorifics - Narration Off\be10}-san{\r\be10} to be suspicious and sneaked into the office to call the police.
 Dialogue: 0,0:00:58.03,0:01:00.80,Dialogue,,0,0,0,,We need to call the police quickly.
 Dialogue: 0,0:01:00.80,0:01:03.40,Dialogue,,0,0,0,,I thought Mibu had already done so.
 Dialogue: 0,0:01:04.40,0:01:07.25,Dialogue,,0,0,0,,She was just pretending.

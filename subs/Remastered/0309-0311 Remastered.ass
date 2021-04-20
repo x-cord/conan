@@ -33,16 +33,13 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: Default - Copy,Arial,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,10,1
-Style: OPRom,Ubuntu,23,&H00FFFFFF,&H000000FF,&H40555555,&HC0000000,-1,0,0,0,100,100,0,0,1,2,1,8,10,10,30,1
 Style: Lights,Nyala,40,&H804B7487,&H000000FF,&H144B4B4B,&HC0000000,-1,0,0,0,100,100,0,0,1,0,0,7,10,10,25,1
-Style: Phone,LCDDotMatrix5x8,12,&H00216B6F,&H000000FF,&H144B4B4B,&HC0000000,-1,0,0,0,100,100,0,0,1,0,0,8,10,10,25,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 Dialogue: 0,0:00:40.50,0:00:40.54,Signs,,0,0,0,,Incoming Call\NNumber withheld
-Dialogue: 0,0:00:40.54,0:00:40.71,Phone,,0,0,0,,{\fscx120\fscy120\t(0,100,\fscx100\fscy100)\t(100,200,\fscx95\fscy95)\frx350\fry4\frz7.465\move(334,104,335,110,23,190)}Incoming Call\NNumber withheld
-Dialogue: 0,0:00:40.71,0:00:42.21,Phone,,0,0,0,,{\t(688,688,\alpha&HFF)\fscx95\fscy95\t(0,1500,\fscx85\fscy85)\frx350\fry4\frz7.465\move(334,109,334,113,30,1448)}Incoming Call\NNumber withheld
+Dialogue: 0,0:00:40.54,0:00:40.71,Radio,,0,0,0,,{\be10\t(0,100,\t(100,200,\frx350\fry4\frz7.465\move(334,104,335,110,23,190)}Incoming Call\NNumber withheld
+Dialogue: 0,0:00:40.71,0:00:42.21,Radio,,0,0,0,,{\be10\t(688,688,\t(0,1500,\frx350\fry4\frz7.465\move(334,109,334,113,30,1448)}Incoming Call\NNumber withheld
 Dialogue: 3,0:00:20.30,0:00:24.78,OPRom,,0,0,0,,{\blur3}Seaside moon Seaside sky
 Dialogue: 3,0:00:25.74,0:00:35.50,OPRom,,0,0,0,,{\blur3}itsumademo kawaranu kokoro o mō ichido kimi ni todoketai
 Dialogue: 3,0:00:35.50,0:00:38.92,OPRom,,0,0,0,,{\blur3}Glorious Mind
@@ -89,8 +86,8 @@ Dialogue: 2,0:03:18.95,0:03:21.55,Thoughts,,0,0,0,,{\be10}Later, on the Doc's PC
 Dialogue: 2,0:03:21.55,0:03:24.25,Thoughts,,0,0,0,,{\be10}I'll go through this disc from one end to the other.
 Dialogue: 2,0:03:24.25,0:03:25.87,Dialogue,,0,0,0,,Hey, Conan{\rHonorifics - Dialogue}-kun{\r}...
 Dialogue: 2,0:03:26.50,0:03:27.00,Dialogue,,0,0,0,,Eh?
-Dialogue: 2,0:03:27.93,0:03:29.91,Dialogue,,0,0,0,,Do you think people{\rHonorifics - Dialogue} chan{\r}ge?
-Dialogue: 2,0:03:32.25,0:03:34.66,Dialogue,,0,0,0,,When you're apart from them, do people's hearts{\rHonorifics - Dialogue} chan{\r}ge?
+Dialogue: 2,0:03:27.93,0:03:29.91,Dialogue,,0,0,0,,Do you think people change?
+Dialogue: 2,0:03:32.25,0:03:34.66,Dialogue,,0,0,0,,When you're apart from them, do people's hearts change?
 Dialogue: 2,0:03:41.07,0:03:43.05,Dialogue,,0,0,0,,It's pretty hard...
 Dialogue: 2,0:03:43.57,0:03:44.99,Dialogue,,0,0,0,,Just waiting like this...
 Dialogue: 2,0:03:47.46,0:03:53.06,Dialogue,,0,0,0,,It's okay. Shin'ichi-{\i1}niichan{\i0}'s probably just like you remember him.
@@ -186,7 +183,7 @@ Dialogue: 2,0:09:51.52,0:09:53.94,Dialogue,,0,0,0,,March 17th.
 Dialogue: 2,0:09:53.94,0:09:57.92,Dialogue,,0,0,0,,'The pen on my desk had moved by 5 cm.'
 Dialogue: 2,0:09:57.92,0:10:01.35,Dialogue,,0,0,0,,'It looks like somebody went through my office.'
 Dialogue: 2,0:10:01.97,0:10:04.56,Dialogue,,0,0,0,,June 11th.
-Dialogue: 2,0:10:04.56,0:10:08.48,Dialogue,,0,0,0,,'I{\rHonorifics - Dialogue} chan{\r}ged my locks and installed hidden cameras, but it's no use.'
+Dialogue: 2,0:10:04.56,0:10:08.48,Dialogue,,0,0,0,,'I changed my locks and installed hidden cameras, but it's no use.'
 Dialogue: 2,0:10:09.58,0:10:12.98,Dialogue,,0,0,0,,July 6th. 'Who are you?! Show yourself!!'
 Dialogue: 2,0:10:13.73,0:10:15.08,Dialogue,,0,0,0,,January 6th.
 Dialogue: 2,0:10:15.08,0:10:20.09,Dialogue,,0,0,0,,'To rid myself of the terror I'm feeling, I left a message to the intruder on the table.'
@@ -201,7 +198,7 @@ Dialogue: 2,0:10:51.29,0:10:54.25,Dialogue,,0,0,0,,'A presumptuous woman who tal
 Dialogue: 2,0:10:54.96,0:11:04.00,Dialogue,,10,10,0,,'She said she wanted to buy the OS I'd been\Ndeveloping for a large sum if I could finish it in a year.'
 Dialogue: 2,0:11:05.04,0:11:08.79,Dialogue,,0,0,0,,'She's likely with the same group as the big man from before.'
 Dialogue: 2,0:11:10.40,0:11:12.25,Dialogue,,0,0,0,,February 13th.
-Dialogue: 2,0:11:12.25,0:11:15.25,Dialogue,,0,0,0,,'They{\rHonorifics - Dialogue} chan{\r}ged the contact method to e-mail.'
+Dialogue: 2,0:11:12.25,0:11:15.25,Dialogue,,0,0,0,,'They changed the contact method to e-mail.'
 Dialogue: 2,0:11:16.23,0:11:20.41,Dialogue,,0,0,0,,'I accepted their request, under the\Ncondition that they pay me in advance'
 Dialogue: 2,0:11:20.41,0:11:25.81,Dialogue,,0,0,0,,'and that they stop lurking around me.'
 Dialogue: 2,0:11:25.81,0:11:28.15,Dialogue,,0,0,0,,December 22nd.
@@ -310,12 +307,12 @@ Dialogue: 2,0:17:24.67,0:17:25.29,Dialogue,,0,0,0,,Damn!
 Dialogue: 2,0:17:25.29,0:17:28.17,Dialogue,,0,0,0,,It's rigged so that if you don't open it immediately, it'll disappear!
 Dialogue: 2,0:17:28.17,0:17:29.37,Dialogue,,0,0,0,,Then...
 Dialogue: 2,0:17:29.37,0:17:32.30,Dialogue,,0,0,0,,Do you think they know the e-mail wasn't opened?
-Dialogue: 0,0:17:32.30,0:17:32.46,Phone,,0,0,0,,{\fscx120\fscy120\t(0,100,\fscx100\fscy100)\t(100,200,\fscx95\fscy95)\frx350\fry4\frz7.465\move(334,104,335,110,23,190)}Incoming Call\NNumber withheld
-Dialogue: 0,0:17:32.46,0:17:33.92,Phone,,0,0,0,,{\fscx95\fscy95\t(0,1500,\fscx85\fscy85)\frx350\fry4\frz7.465\move(334,109,334,113,30,1448)}Incoming Call\NNumber withheld
-Dialogue: 0,0:17:39.85,0:17:42.10,Phone,,0,0,0,,{\fscx66\fscy66\move(350,128,356,115)\t(0,2250,\fscx76\fscy76)}Incoming Call\NNumber withheld
+Dialogue: 0,0:17:32.30,0:17:32.46,Radio,,0,0,0,,{\be10\t(0,100,\t(100,200,\frx350\fry4\frz7.465\move(334,104,335,110,23,190)}Incoming Call\NNumber withheld
+Dialogue: 0,0:17:32.46,0:17:33.92,Radio,,0,0,0,,{\be10\t(0,1500,\frx350\fry4\frz7.465\move(334,109,334,113,30,1448)}Incoming Call\NNumber withheld
+Dialogue: 0,0:17:39.85,0:17:42.10,Radio,,0,0,0,,{\be10\move(350,128,356,115)\t(0,2250,}Incoming Call\NNumber withheld
 Dialogue: 2,0:17:41.64,0:17:47.10,Thoughts,,0,0,0,,{\be10}At this moment, we can't come to the phone.
 Dialogue: 2,0:17:47.10,0:17:51.57,Thoughts,,0,0,0,,{\be10}Please leave a message after the beep.
-Dialogue: 0,0:17:47.10,0:17:52.99,Phone,,0,0,0,,{\fscx82\fscy82\t(0,5800,\fscx100\fscy100)\move(358,119,377,104,30,5869)}Incoming Call\NNumber withheld
+Dialogue: 0,0:17:47.10,0:17:52.99,Radio,,0,0,0,,{\be10\t(0,5800,\move(358,119,377,104,30,5869)}Incoming Call\NNumber withheld
 Dialogue: 0,0:17:52.99,0:17:57.61,Signs,,0,0,0,,Incoming Call\NNumber withheld
 Dialogue: 0,0:18:20.43,0:18:22.26,Signs,,0,0,0,,Incoming Call\NNumber withheld
 Dialogue: 2,0:17:56.23,0:17:57.61,Dialogue,,0,0,0,,Yo, what's up?
@@ -567,7 +564,7 @@ Dialogue: 2,0:32:10.93,0:32:14.30,Dialogue,,0,0,0,,This car isn't his, either.
 Dialogue: 2,0:32:14.84,0:32:19.29,Dialogue,,0,0,0,,Probably, after abandoning their getaway car in the mountains,
 Dialogue: 2,0:32:19.29,0:32:21.69,Dialogue,,0,0,0,,they stole this one from somebody else.
 Dialogue: 2,0:32:22.50,0:32:26.19,Dialogue,,0,0,0,,The real owner is a non-smoker
-Dialogue: 2,0:32:26.19,0:32:31.25,Dialogue,,0,0,0,,who keeps loose{\rHonorifics - Dialogue} chan{\r}ge in the ashtray to pay highway tolls faster.
+Dialogue: 2,0:32:26.19,0:32:31.25,Dialogue,,0,0,0,,who keeps loose change in the ashtray to pay highway tolls faster.
 Dialogue: 2,0:32:32.68,0:32:35.72,Dialogue,,0,0,0,,This guy threw his cigarette butts in the ashtray
 Dialogue: 2,0:32:35.72,0:32:40.17,Dialogue,,0,0,0,,before realising it was full of coins. Even then, he kept doing it...
 Dialogue: 2,0:32:41.21,0:32:43.79,Dialogue,,0,0,0,,...until he picked us up.
@@ -607,7 +604,7 @@ Dialogue: 2,0:34:57.12,0:34:59.12,Dialogue,,0,0,0,,and we'd be late to an import
 Dialogue: 2,0:34:59.85,0:35:02.10,Dialogue,,0,0,0,,We could catch you anytime.
 Dialogue: 2,0:35:03.75,0:35:05.39,Dialogue,,0,0,0,,You're pretty sure of yourself, kid.
 Dialogue: 2,0:35:05.39,0:35:08.27,Dialogue,,0,0,0,,I like people like you.
-Dialogue: 2,0:35:09.40,0:35:12.30,Dialogue,,0,0,0,,Take the{\rHonorifics - Dialogue} chan{\r}ce to be as cheeky as you want,
+Dialogue: 2,0:35:09.40,0:35:12.30,Dialogue,,0,0,0,,Take the chance to be as cheeky as you want,
 Dialogue: 2,0:35:12.30,0:35:16.22,Dialogue,,0,0,0,,because I won't let you go even if you cry 'Help!' or anything.
 Dialogue: 2,0:35:19.95,0:35:21.80,Dialogue,,0,0,0,,Grab on to something!
 Dialogue: 2,0:35:31.57,0:35:33.29,Dialogue,,0,0,0,,What did you just do, brat?!
@@ -646,7 +643,7 @@ Dialogue: 2,0:38:15.05,0:38:16.71,Dialogue,,0,0,0,,What are you doing?
 Dialogue: 2,0:38:16.71,0:38:18.67,Dialogue,,0,0,0,,B-Bro!
 Dialogue: 2,0:38:18.67,0:38:20.21,Thoughts,,0,0,0,,{\be10}Gin!
 Dialogue: 2,0:38:20.21,0:38:23.67,Dialogue,,0,0,0,,The deal was supposed to be at {\i1}midnight tomorrow{\i0}.
-Dialogue: 2,0:38:23.67,0:38:29.26,Dialogue,,0,0,0,,H-He griped that tomorrow was bad, so I{\rHonorifics - Dialogue} chan{\r}ged it to now...
+Dialogue: 2,0:38:23.67,0:38:29.26,Dialogue,,0,0,0,,H-He griped that tomorrow was bad, so I changed it to now...
 Dialogue: 2,0:38:31.93,0:38:34.22,Dialogue,,0,0,0,,I didn't manage to dispose of him,
 Dialogue: 2,0:38:34.22,0:38:36.64,Dialogue,,0,0,0,,but I got the OS we came for.
 Dialogue: 2,0:38:37.28,0:38:39.65,Dialogue,,0,0,0,,He has heart problems, anyway.
@@ -686,11 +683,11 @@ Dialogue: 2,0:41:27.30,0:41:28.66,Dialogue,,0,0,0,,B-Bro...
 Dialogue: 2,0:41:32.53,0:41:34.23,Dialogue,,0,0,0,,B-Bro!
 Dialogue: 2,0:41:44.89,0:41:49.30,Dialogue,,0,0,0,,There's no way an adult would fit in a place like this.
 Dialogue: 2,0:41:51.30,0:41:53.11,Dialogue,,0,0,0,,Oh well.
-Dialogue: 2,0:41:53.11,0:41:55.09,Dialogue,,0,0,0,,Let's{\rHonorifics - Dialogue} chan{\r}ge our appearances and get out of here.
+Dialogue: 2,0:41:53.11,0:41:55.09,Dialogue,,0,0,0,,Let's change our appearances and get out of here.
 Dialogue: 2,0:41:55.09,0:41:57.15,Dialogue,,0,0,0,,He might've called the police.
 Dialogue: 2,0:41:58.96,0:42:01.52,Dialogue,,0,0,0,,You mean the guy Itakura hired?
 Dialogue: 2,0:42:03.13,0:42:04.40,Dialogue,,0,0,0,,Yeah.
-Dialogue: 2,0:42:04.40,0:42:07.27,Dialogue,,0,0,0,,Be careful. You won't get a second{\rHonorifics - Dialogue} chan{\r}ce.
+Dialogue: 2,0:42:04.40,0:42:07.27,Dialogue,,0,0,0,,Be careful. You won't get a second chance.
 Dialogue: 2,0:42:08.06,0:42:12.28,Dialogue,,0,0,0,,There's a rat sniffing around us.
 Dialogue: 2,0:42:13.60,0:42:16.16,Dialogue,,0,0,0,,A detective-like fox...
 Dialogue: 2,0:42:18.99,0:42:20.68,Thoughts,,0,0,0,,{\be10}Now what?
@@ -727,7 +724,7 @@ Dialogue: 2,0:45:22.76,0:45:25.45,Thoughts,,0,0,0,,{\be10}I must've blacked out 
 Dialogue: 2,0:45:26.17,0:45:26.96,Dialogue,,0,0,0,,So?
 Dialogue: 2,0:45:28.20,0:45:30.72,Dialogue,,0,0,0,,What were you doing in a place like this?
 Dialogue: 2,0:45:32.45,0:45:35.55,Dialogue,,0,0,0,,I hadn't had any sleep so I was just taking a little nap...
-Dialogue: 2,0:45:37.41,0:45:40.02,Dialogue,,0,0,0,,You honestly think I'll fall for that?{mb{\rHonorifics - Dialogue} chan{\r}ge "fall for that" to "buy that line" -uso.}
+Dialogue: 2,0:45:37.41,0:45:40.02,Dialogue,,0,0,0,,You honestly think I'll fall for that?{mb change "fall for that" to "buy that line" -uso.}
 Dialogue: 2,0:45:40.02,0:45:43.10,Dialogue,,0,0,0,,Eh, it's fine.
 Dialogue: 2,0:45:43.10,0:45:45.25,Dialogue,,0,0,0,,C'mon, let's go back and have something to eat.
 Dialogue: 2,0:45:45.25,0:45:46.99,Dialogue,,0,0,0,,I'm starving.

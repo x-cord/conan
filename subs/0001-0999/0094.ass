@@ -33,7 +33,6 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: MovieDerpsub,Tele-GroteskFet,28,&H0000FFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1.75,0,2,64,64,48,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -44,10 +43,10 @@ Dialogue: 0,0:00:11.04,0:00:12.65,Narration Off,,0000,0000,0000,,{\be10}He sees 
 Dialogue: 0,0:00:12.65,0:00:14.52,Narration Off,,0000,0000,0000,,{\be10}and looks like a kid but has the mind of an adult.
 Dialogue: 0,0:00:14.52,0:00:16.89,Narration Off,,0000,0000,0000,,{\be10}His name? Detective Conan!
 Dialogue: 0,0:01:44.93,0:01:47.39,Dialogue Top,,0000,0000,0000,,"Genbee Ski Lodge"
-Dialogue: 0,0:01:51.18,0:01:53.22,MovieDerpsub,,0000,0000,0000,,Though my body may die,
-Dialogue: 0,0:01:53.22,0:01:58.55,MovieDerpsub,,0000,0000,0000,,know that my spirit will someday be revived with the snow!
-Dialogue: 0,0:02:03.99,0:02:06.12,MovieDerpsub,,0000,0000,0000,,{\an8}Love of the Snow Woman
-Dialogue: 0,0:02:03.99,0:02:06.12,MovieDerpsub,,0000,0000,0000,,To Be Continued
+Dialogue: 0,0:01:51.18,0:01:53.22,Flashback,,0000,0000,0000,,{\be10}Though my body may die,
+Dialogue: 0,0:01:53.22,0:01:58.55,Flashback,,0000,0000,0000,,{\be10}know that my spirit will someday be revived with the snow!
+Dialogue: 0,0:02:03.99,0:02:06.12,Flashback,,0000,0000,0000,,{\be10\an8}Love of the Snow Woman
+Dialogue: 0,0:02:03.99,0:02:06.12,Flashback,,0000,0000,0000,,{\be10}To Be Continued
 Dialogue: 0,0:02:07.97,0:02:10.96,Dialogue,,0000,0000,0000,,It's always such a powerful show!
 Dialogue: 0,0:02:14.34,0:02:15.81,Dialogue,,0000,0000,0000,,W-What's this?
 Dialogue: 0,0:02:15.81,0:02:18.01,Dialogue,,0000,0000,0000,,It's a mechanical doll.
@@ -119,7 +118,7 @@ Dialogue: 0,0:06:27.66,0:06:30.09,Dialogue,,0000,0000,0000,,Actresses can't affo
 Dialogue: 0,0:06:32.76,0:06:34.70,Dialogue,,0000,0000,0000,,Move! Look out!
 Dialogue: 0,0:06:36.30,0:06:37.56,Dialogue,,0000,0000,0000,,Coming through!
 Dialogue: 0,0:06:45.18,0:06:47.44,Dialogue,,0000,0000,0000,,Oh! There's Yoko{\rHonorifics - Dialogue}-san{\r} and Akiko{\rHonorifics - Dialogue}-san{\r}!
-Dialogue: 0,0:07:00.22,0:07:02.86,Dialogue,,0000,0000,0000,,Mountain weather sure{\rHonorifics - Dialogue} chan{\r}ges fast.
+Dialogue: 0,0:07:00.22,0:07:02.86,Dialogue,,0000,0000,0000,,Mountain weather sure changes fast.
 Dialogue: 0,0:07:02.86,0:07:05.52,Dialogue,,0000,0000,0000,,This snow came out of nowhere.
 Dialogue: 0,0:07:07.77,0:07:10.60,Dialogue,,0000,0000,0000,,Oh, Yoko{\rHonorifics - Dialogue}-san{\r}! Are you by yourself?
 Dialogue: 0,0:07:10.60,0:07:14.44,Dialogue,,0000,0000,0000,,Yes. Akiko{\rHonorifics - Dialogue}-san{\r} wanted to ski for a little bit longer.
@@ -260,7 +259,7 @@ Dialogue: 0,0:15:15.09,0:15:16.59,Dialogue,,0000,0000,0000,,Detective Kawada.
 Dialogue: 0,0:15:16.59,0:15:21.75,Dialogue,,0000,0000,0000,,Look closer at the photographs from when her body was found.
 Dialogue: 0,0:15:23.53,0:15:28.10,Dialogue,,0000,0000,0000,,Akiko{\rHonorifics - Dialogue}-san{\r}'s hair is inside the collar of the kimono.
 Dialogue: 0,0:15:28.10,0:15:33.64,Dialogue,,0000,0000,0000,,A person seeking out death wouldn't wear clothes so brazenly.
-Dialogue: 0,0:15:33.64,0:15:36.07,Dialogue,,0000,0000,0000,,Someone{\rHonorifics - Dialogue} chan{\r}ged her clothes.
+Dialogue: 0,0:15:33.64,0:15:36.07,Dialogue,,0000,0000,0000,,Someone changed her clothes.
 Dialogue: 0,0:15:36.07,0:15:37.44,Dialogue,,0000,0000,0000,,W-Who?!
 Dialogue: 0,0:15:37.44,0:15:40.43,Dialogue,,0000,0000,0000,,It was you, Yoko Asanuma{\rHonorifics - Dialogue}-san{\r}!
 Dialogue: 0,0:15:42.45,0:15:47.25,Dialogue,,0000,0000,0000,,Mouri{\rHonorifics - Dialogue}-san{\r}! You know Akiko{\rHonorifics - Dialogue}-san{\r} wasn't in a normal state of mind!

@@ -33,17 +33,7 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: Half time,Tahoma,30,&H00260CB8,&H00EEEBFC,&H00E3E3E3,&H64000000,0,0,0,0,100,100,0.5,0,1,3,2,2,10,10,10,1
-Style: Wet Paint,Adobe Gothic Std B,45,&H007F9FAD,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,2,10,10,10,1
-Style: Model Club,ITC Avant Garde Gothic Demi,50,&H0A6E6460,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,2,10,10,10,1
-Style: Title V2,Nyala,30,&H00593DDF,&H000000FF,&H00DADAD6,&H00000000,-1,0,0,0,100,100,0,0,1,0,1.5,2,10,10,10,1
-Style: Caution!!,Kalinga,90,&H002593A4,&H000000FF,&H000B1B66,&H00000000,-1,0,0,0,100,100,1,0,1,2.5,0,2,10,10,10,1
-Style: Onigiri,Maiandra GD,38,&H00061019,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,5,0,1,0,0,2,10,10,10,1
-Style: K Ramen,Batang,35,&H004297F3,&H000000FF,&H000F183E,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,10,10,10,1
-Style: Phone,Arial,25,&H00F7F7F5,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,2,10,10,10,1
 Style: Karaoke,Poplar Std,40,&H00E3E1EA,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,4,0,1,0,0,2,10,10,10,1
-Style: Business Card,Arial Black,60,&H005D605F,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,2,10,10,10,1
-
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 Dialogue: 0,0:00:00.96,0:00:03.26,Dialogue Top,,0,0,0,,When we came to tour Aso, Kumamoto,
@@ -187,8 +177,8 @@ Dialogue: 0,0:08:54.65,0:08:56.78,Dialogue,,0,0,0,,So he's still with the culpri
 Dialogue: 0,0:08:58.19,0:09:00.96,Dialogue,,0,0,0,,So, do you know which way they went?
 Dialogue: 0,0:09:01.44,0:09:06.50,Dialogue Top,,0,0,0,,Umm... I think the arcade—\Nthey walked in the direction of the castle.
 Dialogue: 0,0:09:03.29,0:09:07.64,Signs,,0,0,0,,Shimotōri Arcade
-Dialogue: 0,0:09:09.50,0:09:10.68,Phone,,0,0,0,,{\frx8\fry18\frz350.8\move(1340,207.6,938,207.6)}Mouri Ran
-Dialogue: 0,0:09:10.68,0:09:11.10,Phone,,0,0,0,,{\frx8\fry18\frz350.8\move(935,207.6,888,207.6)}Mouri Ran
+Dialogue: 0,0:09:09.50,0:09:10.68,Radio,,0,0,0,,{\be10\frx8\fry18\frz350.8\move(1340,207.6,938,207.6)}Mouri Ran
+Dialogue: 0,0:09:10.68,0:09:11.10,Radio,,0,0,0,,{\be10\frx8\fry18\frz350.8\move(935,207.6,888,207.6)}Mouri Ran
 Dialogue: 0,0:09:11.10,0:09:11.39,Signs,,0,0,0,,Mouri Ran
 Dialogue: 0,0:09:11.39,0:09:11.51,Signs,,0,0,0,,Mouri Ran
 Dialogue: 0,0:09:11.51,0:09:11.64,Signs,,0,0,0,,Mouri Ran
@@ -253,11 +243,11 @@ Dialogue: 0,0:11:48.20,0:11:49.35,Dialogue,,0,0,0,,At Kumamoto Castle...?
 Dialogue: 0,0:11:50.38,0:11:54.30,Dialogue Top,,0,0,0,,He told me to place the bagful of money underneath the large ginkgo tree at Kumamoto Castle.
 Dialogue: 0,0:11:50.38,0:11:54.30,Signs,,0,0,0,,金の入ったバッグを\N熊本城の大銀杏の下に置けと...。
 Dialogue: 0,0:11:54.08,0:11:57.10,Signs,,0,0,0,,Kosugi Keiji (41)\NKumamoto Prefecture Detective
-Dialogue: 0,0:11:54.92,0:11:57.11,Dialogue Top,,0,0,0,,This is probably our last{\rHonorifics - Dialogue} chan{\r}ce.
+Dialogue: 0,0:11:54.92,0:11:57.11,Dialogue Top,,0,0,0,,This is probably our last chance.
 Dialogue: 0,0:11:57.41,0:12:00.18,Dialogue,,0,0,0,,This time, we must\Ncapture the culprit without fail!
 Dialogue: 0,0:12:00.74,0:12:03.86,Dialogue,,0,0,0,,But what if, because of the previous fiasco,
 Dialogue: 0,0:12:04.39,0:12:06.34,Dialogue,,0,0,0,,the culprit was watching us,
-Dialogue: 0,0:12:06.72,0:12:09.85,Dialogue,,0,0,0,,so there's a{\rHonorifics - Dialogue} chan{\r}ce that he saw our faces?
+Dialogue: 0,0:12:06.72,0:12:09.85,Dialogue,,0,0,0,,so there's a chance that he saw our faces?
 Dialogue: 0,0:12:06.72,0:12:09.85,Signs,,0,0,0,,ここにいる全員の顔が\N割れているおそれがあります。
 Dialogue: 0,0:12:10.11,0:12:10.83,Dialogue,,0,0,0,,Yeah...
 Dialogue: 0,0:12:11.26,0:12:14.44,Dialogue,,0,0,0,,If the culprit figures\Nout that we're on the lookout...

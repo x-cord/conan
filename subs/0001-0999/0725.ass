@@ -33,31 +33,19 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: Tsuzukiwa,Nyala,100,&HFE000000,&H000000FF,&H00FFFFFF,&H00000000,-1,0,0,0,100,100,0,0.1,1,6,0,5,10,10,10,1
-Style: Tsuzukiwa2,Nyala,100,&H00000000,&H000000FF,&H00FFFFFF,&H00000000,-1,0,0,0,100,100,0,0.1,1,0,0,5,10,10,10,1
-Style: FlashbackThoughts,Calibri Nonligature,50,&H4B370001,&H000000FF,&H00CCFFFF,&HC0000000,-1,0,0,0,100,100,0,0,1,2.6,2,2,100,100,30,1
-Style: PlaceCard,Corbel,35,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,2,2,100,100,30,1
-Style: topbox,Arial,20,&HFFFFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,3,1,0,8,10,10,10,1
-Style: Narr,Calibri Nonligature,50,&H6E8C6F00,&H000000FF,&H00FFFFFF,&H80000000,-1,0,0,0,100,100,0,0,1,3.7,1.5,2,100,100,30,1
-Style: Signage,Calibri,50,&H00FFFFFF,&H000000FF,&H80000000,&H00000000,-1,0,0,0,100,100,0,0,3,8,0,2,40,40,40,1
-Style: Copy of TitleCard,X-FilesM,40,&H00FFFFFF,&H000000FF,&H00A7A7A7,&HC0000000,-1,0,0,0,100,100,0,0,1,0,0,5,0,0,0,1
-Style: OPRom2,Berlin Sans FB Macron,40,&H60000000,&H000000FF,&H60000000,&H603E3330,-1,0,0,0,100,100,1,0,1,3.4,0,8,8,8,25,1
-Style: OPRomUnedited,Berlin Sans FB Macron,40,&HC00000FF,&H000000FF,&H00FFFFFF,&H603E3330,-1,0,0,0,100,100,1,0,1,4,1.6875,8,8,8,25,1
-Style: Poodles,MV Boli M,70,&H400102B5,&H000809FC,&H00CFF2F3,&H80000000,0,0,0,0,100,100,0,0,1,4,2,8,10,10,25,1
-Style: ButterflyCore,Love Is Complicated Again,45,&H405E0036,&H000000FF,&H00FFFFFF,&H80000000,-1,0,0,0,100,100,1,0,1,3.5,0,8,10,10,30,1
-Style: ButterflyCore2,Love Is Complicated Again,45,&HFF5E0036,&H000000FF,&H80000000,&H80000000,-1,0,0,0,100,100,1,0,1,0.75,0,8,10,10,30,1
+Style: Tsuzukiwa,Nyala,100,&HFE000000,&H000000FF,&H00FFFFFF,&H00000000,-1,0,0,0,100,100,0,0.1,1,6,0,5,10,10,10,1Style: ButterflyCore2,Love Is Complicated Again,45,&HFF5E0036,&H000000FF,&H80000000,&H80000000,-1,0,0,0,100,100,1,0,1,0.75,0,8,10,10,30,1
 Style: BCPrologue,Cocon-Regular,45,&H805E0036,&H000000FF,&H00FFFFFF,&H80000000,-1,0,0,0,100,100,1,0,1,5,2,2,10,10,30,1
 Style: AitakuteRomaji,AlaskanNightsM,52,&H60DB9572,&H000000FF,&H00FFFFFF,&HC02F2F2F,-1,0,0,0,108,100,0,0,1,4,0,8,8,8,30,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:00.83,0:00:06.52,Narr,,0,0,0,,{\blur3}The Blush Mermaid, a jewel targeted by Kid, was intended to be displayed on the Bell Tree Express.
-Dialogue: 0,0:00:07.12,0:00:15.16,Narr,,0,0,0,,{\blur3}But that exhibition was cancelled, so Sonoko, Ran, and Sera and I came to the Great Suzuki Museum{check what skyflying wonder used for 鈴木大博物館} for its new exhibition.{ugh this sentence... it really doesn't translate well, so I split it into two and reworded keeping the same info - ltil: A jewel that Kaito Kid targets, the Blush Mermaid, was to be exhibited on the Bell Tree Express but postponed then exhibited at the Great Suzuki Museum that I, Sonoko, Ran and Sera have arrived at.}
-Dialogue: 0,0:00:18.22,0:00:24.52,Narr,,0,0,0,,{\blur3}As always, Advisor Jirokichi Suzuki and Inspector Nakamori had flawless security measures awaiting Kid.
-Dialogue: 0,0:00:25.33,0:00:31.87,Narr,,0,0,0,,{\blur3}But when the announced time came, the carpet was pulled up, and in the moment it was out of sight,
-Dialogue: 0,0:00:32.88,0:00:37.90,Narr,,0,0,0,,{\blur3}the jewel vanished from the huge{\rHonorifics - Narr} tan{\r}k along with the turtle carrying it!
+Dialogue: 0,0:00:00.83,0:00:06.52,Narration Off,,0,0,0,,{\be10}The Blush Mermaid, a jewel targeted by Kid, was intended to be displayed on the Bell Tree Express.
+Dialogue: 0,0:00:07.12,0:00:15.16,Narration Off,,0,0,0,,{\be10}But that exhibition was cancelled, so Sonoko, Ran, and Sera and I came to the Great Suzuki Museum{check what skyflying wonder used for 鈴木大博物館} for its new exhibition.{ugh this sentence... it really doesn't translate well, so I split it into two and reworded keeping the same info - ltil: A jewel that Kaito Kid targets, the Blush Mermaid, was to be exhibited on the Bell Tree Express but postponed then exhibited at the Great Suzuki Museum that I, Sonoko, Ran and Sera have arrived at.}
+Dialogue: 0,0:00:18.22,0:00:24.52,Narration Off,,0,0,0,,{\be10}As always, Advisor Jirokichi Suzuki and Inspector Nakamori had flawless security measures awaiting Kid.
+Dialogue: 0,0:00:25.33,0:00:31.87,Narration Off,,0,0,0,,{\be10}But when the announced time came, the carpet was pulled up, and in the moment it was out of sight,
+Dialogue: 0,0:00:32.88,0:00:37.90,Narration Off,,0,0,0,,{\be10}the jewel vanished from the huge tank along with the turtle carrying it!
 Dialogue: 0,0:00:39.86,0:00:41.03,Thoughts,,0,0,0,,{\be10}I don't get it.
-Dialogue: 0,0:00:42.44,0:00:45.06,Thoughts,,0,0,0,,{\be10}That was an impregnable{\rHonorifics - Thoughts\be10} tan{\r\be10}k, with its four sides made of reinforced glass,
+Dialogue: 0,0:00:42.44,0:00:45.06,Thoughts,,0,0,0,,{\be10}That was an impregnable tank, with its four sides made of reinforced glass,
 Dialogue: 0,0:00:45.06,0:00:49.75,Thoughts,,0,0,0,,{\be10}and the top and sides covered with a special alloy mesh.
 Dialogue: 0,0:00:49.75,0:00:54.87,Thoughts,,0,0,0,,{\be10}So how could he have stolen it in the instant that our vision was obscured by the carpet?
 Dialogue: 0,0:00:55.56,0:00:59.84,Thoughts,,0,0,0,,{\be10}No. The card is easy to explain.
@@ -66,7 +54,7 @@ Dialogue: 0,0:01:03.84,0:01:09.40,Thoughts,,0,0,0,,{\be10}then tie fishing line 
 Dialogue: 0,0:01:10.05,0:01:14.57,Thoughts,,0,0,0,,{\be10}If you hang that from the light and set it to fall by remote control,
 Dialogue: 0,0:01:15.71,0:01:23.85,Thoughts,,0,0,0,,{\be10}then the card would fall through the steel mesh, the thread would dissolve, and the message would be revealed.
 Dialogue: 0,0:01:24.67,0:01:31.24,Thoughts,,0,0,0,,{\be10}Well, Sera, Sonoko, the old man, or Inspector Nakamori, who were wrapped up in the carpet,
-Dialogue: 0,0:01:31.24,0:01:36.23,Thoughts,,0,0,0,,{\be10}or the guards who were already standing in front of the{\rHonorifics - Thoughts\be10} tan{\r\be10}k
+Dialogue: 0,0:01:31.24,0:01:36.23,Thoughts,,0,0,0,,{\be10}or the guards who were already standing in front of the tank
 Dialogue: 0,0:01:36.23,0:01:38.53,Thoughts,,0,0,0,,{\be10}could've put the card directly in the water as well...
 Dialogue: 0,0:01:39.66,0:01:43.41,Thoughts,,0,0,0,,{\be10}But the most suspicious person at the time was...
 Dialogue: 0,0:01:54.66,0:01:55.88,Thoughts,,0,0,0,,{\be10}...Ran.
@@ -78,7 +66,7 @@ Dialogue: 0,0:02:25.40,0:02:27.52,BCPrologue,,0,0,0,,{\blur3\fad(0,250)＜その
 Dialogue: 0,0:03:54.94,0:03:56.64,Dialogue,,0,0,0,,Inspector Nakamori!
 Dialogue: 0,0:03:56.64,0:03:59.93,Dialogue,,0,0,0,,I found something which looks like a winch on this light.
 Dialogue: 0,0:04:00.42,0:04:05.57,Dialogue,,0,0,0,,There are also traces of thin threads buried in the ceiling and the wall.
-Dialogue: 0,0:04:05.57,0:04:09.34,Dialogue,,0,0,0,,I see. The threads attached to the winch were passed though the{\rHonorifics - Dialogue} chan{\r}delier's brace
+Dialogue: 0,0:04:05.57,0:04:09.34,Dialogue,,0,0,0,,I see. The threads attached to the winch were passed though the chandelier's brace
 Dialogue: 0,0:04:09.34,0:04:14.60,Dialogue,,0,0,0,,in order to run along the walls and ceiling and tied to the carpet.
 Dialogue: 0,0:04:14.60,0:04:19.20,Dialogue,,0,0,0,,When those were pulled, the carpet, which had been cut into shape, came up too.
 Dialogue: 0,0:04:19.54,0:04:22.90,Dialogue,,0,0,0,,I also found this IC recorder next to the winch.
@@ -95,7 +83,7 @@ Dialogue: 0,0:04:49.45,0:04:51.65,Dialogue,,0,0,0,,Hey, take your clothes off!
 Dialogue: 0,0:04:51.65,0:04:53.75,Dialogue,,0,0,0,,I'm going to check you over!
 Dialogue: 0,0:04:53.75,0:04:55.71,Dialogue,,0,0,0,,Oh, come on, have some mercy!
 Dialogue: 0,0:04:55.71,0:04:59.97,Dialogue,,0,0,0,,Inspector Nakamori, maybe we should give up and withdraw?
-Dialogue: 0,0:05:01.11,0:05:06.54,Dialogue,,0,0,0,,Even after draining the water from the{\rHonorifics - Dialogue} tan{\r}k and examining the whole thing, you still haven't found anything.
+Dialogue: 0,0:05:01.11,0:05:06.54,Dialogue,,0,0,0,,Even after draining the water from the tank and examining the whole thing, you still haven't found anything.
 Dialogue: 0,0:05:06.84,0:05:13.81,Dialogue,,0,0,0,,And you finished body-searching everybody here without finding either the turtle or the jewel, right?
 Dialogue: 0,0:05:13.81,0:05:14.55,Dialogue,,0,0,0,,Damn...
 Dialogue: 0,0:05:14.55,0:05:16.97,Dialogue,,0,0,0,,Hey! What about you over there?
@@ -149,7 +137,7 @@ Dialogue: 0,0:08:55.52,0:08:59.41,Dialogue,,0,0,0,,We checked every inch this ti
 Dialogue: 0,0:08:59.41,0:09:03.84,Dialogue,,0,0,0,,Plus, we searched everybody here and nobody had the turtle on them.
 Dialogue: 0,0:09:03.84,0:09:13.70,Dialogue,,0,0,0,,So we can conclude that Kaitō Kid did indeed take the bejewelled turtle away.
 Dialogue: 0,0:09:14.02,0:09:17.90,Dialogue,,0,0,0,,There's no point for the police to stick around any longer!
-Dialogue: 0,0:09:17.90,0:09:24.16,Dialogue,,0,0,0,,But we have to at least figure out how he stole the turtle from the{\rHonorifics - Dialogue} tan{\r}k!
+Dialogue: 0,0:09:17.90,0:09:24.16,Dialogue,,0,0,0,,But we have to at least figure out how he stole the turtle from the tank!
 Dialogue: 0,0:09:24.16,0:09:25.21,Dialogue,,0,0,0,,Now, now...
 Dialogue: 0,0:09:25.80,0:09:31.22,Dialogue,,0,0,0,,It's past 10 PM, so how about we wrap up the investigation for today?
 Dialogue: 0,0:09:31.22,0:09:33.97,Dialogue,,0,0,0,,Yeah. I'm pretty hungry, too.
@@ -171,7 +159,7 @@ Dialogue: 0,0:10:36.20,0:10:40.00,Dialogue,,0,0,0,,If you want proof... Hey, bra
 Dialogue: 0,0:10:40.00,0:10:41.22,Dialogue,,0,0,0,,Got it.
 Dialogue: 0,0:10:41.52,0:10:44.65,Dialogue,,0,0,0,,Do you have a lighter, Uncle Kogorō?
 Dialogue: 0,0:10:45.60,0:10:48.47,Dialogue,,0,0,0,,Yeah, but it's just a cheap ¥100 thing.
-Dialogue: 0,0:10:48.47,0:10:52.48,Dialogue,,0,0,0,,Can you try dropping it into the{\rHonorifics - Dialogue} tan{\r}k from right above here?
+Dialogue: 0,0:10:48.47,0:10:52.48,Dialogue,,0,0,0,,Can you try dropping it into the tank from right above here?
 Dialogue: 0,0:10:53.93,0:10:54.71,Dialogue,,0,0,0,,Geez.
 Dialogue: 0,0:10:55.44,0:10:57.87,Dialogue,,0,0,0,,How's this gonna help us understand anything?
 Dialogue: 0,0:10:59.15,0:11:00.94,Dialogue,,0,0,0,,Huh? It didn't fall.
@@ -193,7 +181,7 @@ Dialogue: 0,0:11:58.09,0:12:02.76,Dialogue,,0,0,0,,If they were synthetic diamon
 Dialogue: 0,0:12:04.08,0:12:12.60,Dialogue,,0,0,0,,When making synthetic diamonds, the iron used as a solvent is sometimes added into the diamond as an inclusion...
 Dialogue: 0,0:12:13.88,0:12:15.11,Dialogue,,0,0,0,,Inclu...?
 Dialogue: 0,0:12:15.11,0:12:17.11,Dialogue,,0,0,0,,Wow, Sonoko!
-Dialogue: 0,0:12:17.65,0:12:22.78,Dialogue,,0,0,0,,Anyway, the turtle was swimming in the{\rHonorifics - Dialogue} tan{\r}k, so there's no way you could hold it in place with just a magnet.
+Dialogue: 0,0:12:17.65,0:12:22.78,Dialogue,,0,0,0,,Anyway, the turtle was swimming in the tank, so there's no way you could hold it in place with just a magnet.
 Dialogue: 0,0:12:22.78,0:12:26.62,Dialogue,,0,0,0,,But I'm sure the plate was strong enough to at least attract it.
 Dialogue: 0,0:12:26.62,0:12:28.67,Dialogue,,0,0,0,,Attract it?
 Dialogue: 0,0:12:28.67,0:12:31.08,Dialogue,,0,0,0,,That was all that was needed.
@@ -210,16 +198,16 @@ Dialogue: 0,0:12:55.96,0:12:56.81,Dialogue,,0,0,0,,Bait?!
 Dialogue: 0,0:12:58.21,0:13:04.91,Dialogue,,0,0,0,,Yes. A little iron dust was mixed in with the turtle's food and spread around so that it stuck to the back of the plaque.
 Dialogue: 0,0:13:04.91,0:13:14.96,Dialogue,,0,0,0,,The turtle has a strong sense of smell, so it would've risen up from the bottom and fallen into Kid's trap.
 Dialogue: 0,0:13:15.62,0:13:19.86,Dialogue,,0,0,0,,The device used to spread the food was probably on the light.
-Dialogue: 0,0:13:19.86,0:13:23.74,Dialogue,,0,0,0,,It was set into motion when the carpet covered up the{\rHonorifics - Dialogue} tan{\r}k.
+Dialogue: 0,0:13:19.86,0:13:23.74,Dialogue,,0,0,0,,It was set into motion when the carpet covered up the tank.
 Dialogue: 0,0:13:24.47,0:13:27.09,Dialogue,,0,0,0,,The turtle's around 10 centimetres long.
 Dialogue: 0,0:13:27.09,0:13:32.56,Dialogue,,0,0,0,,A plaque that size would've easily allowed the turtle to hide behind it without being seen.
-Dialogue: 0,0:13:34.96,0:13:41.23,Dialogue,,0,0,0,,That would mean that Kid's accomplices were mixed in with the workers who made the{\rHonorifics - Dialogue} tan{\r}k.
+Dialogue: 0,0:13:34.96,0:13:41.23,Dialogue,,0,0,0,,That would mean that Kid's accomplices were mixed in with the workers who made the tank.
 Dialogue: 0,0:13:41.55,0:13:44.02,Dialogue,,0,0,0,,That's the Moonlight Magician, all right.
 Dialogue: 0,0:13:44.02,0:13:45.96,Dialogue,,0,0,0,,He's pretty good.
 Dialogue: 0,0:13:45.96,0:13:47.51,Dialogue,,0,0,0,,This isn't the time to be praising him!
 Dialogue: 0,0:13:48.24,0:13:49.72,Dialogue,,0,0,0,,Hold on.
 Dialogue: 0,0:13:49.72,0:13:54.18,Dialogue,,0,0,0,,It the turtle got stuck on the back of the plaque, then why isn't it there {\i1}now{\i0}?
-Dialogue: 0,0:13:54.18,0:13:56.25,Dialogue,,0,0,0,,We drained the water from the{\rHonorifics - Dialogue} tan{\r}k and searched it from top to bottom!
+Dialogue: 0,0:13:54.18,0:13:56.25,Dialogue,,0,0,0,,We drained the water from the tank and searched it from top to bottom!
 Dialogue: 0,0:13:56.25,0:14:00.74,Dialogue,,0,0,0,,{Somebody quietly removed it, and has it on themselves even now.}Somebody removed it quietly, and has it on themselves right now.
 Dialogue: 0,0:14:00.74,0:14:05.26,Dialogue,,0,0,0,,That's impossible! We body-searched everybody in here!
 Dialogue: 0,0:14:05.26,0:14:07.26,Dialogue,,0,0,0,,Except one person, right?
@@ -230,8 +218,8 @@ Dialogue: 0,0:14:17.28,0:14:21.01,Dialogue,,0,0,0,,Ran's boobs are the real deal
 Dialogue: 0,0:14:21.71,0:14:25.93,Dialogue,,0,0,0,,The person hiding the turtle is the man who, before the body searches,
 Dialogue: 0,0:14:25.93,0:14:28.70,Dialogue,,0,0,0,,had his cheek pinched and was thus shown to {\i1}not{\i0} be Kid in disguise.
 Dialogue: 0,0:14:29.35,0:14:30.78,Dialogue,,0,0,0,,You, Uncle Jirokichi.
-Dialogue: 0,0:14:35.48,0:14:41.36,Dialogue,,10,10,0,,In order to see if the turtle was actually gone, he ordered the mesh to be removed and had the{\rHonorifics - Dialogue} tan{\r}k opened.
-Dialogue: 0,0:14:41.36,0:14:45.49,Dialogue,,0,0,0,,And when he got on the stepladder to look in the{\rHonorifics - Dialogue} tan{\r}k,
+Dialogue: 0,0:14:35.48,0:14:41.36,Dialogue,,10,10,0,,In order to see if the turtle was actually gone, he ordered the mesh to be removed and had the tank opened.
+Dialogue: 0,0:14:41.36,0:14:45.49,Dialogue,,0,0,0,,And when he got on the stepladder to look in the tank,
 Dialogue: 0,0:14:45.49,0:14:52.07,Dialogue,,0,0,0,,Uncle could've removed the turtle that was stuck to the glass and hidden it in his jacket's inside pocket.
 Dialogue: 0,0:14:52.07,0:14:56.43,Dialogue,,0,0,0,,Uncle's body would've hidden the turtle from everybody behind him.
 Dialogue: 0,0:14:56.43,0:14:59.27,Dialogue,,0,0,0,,Then let's have a look.
@@ -274,7 +262,7 @@ Dialogue: 0,0:17:14.49,0:17:18.25,Dialogue,,0,0,0,,Kid himself probably had a st
 Dialogue: 0,0:17:19.03,0:17:22.41,Dialogue,,0,0,0,,Maybe he used it to attract the necklace around the edge of the plaque
 Dialogue: 0,0:17:22.41,0:17:29.96,Dialogue,,0,0,0,,and twisted the magnet and necklace upwards so that the necklace was hidden too.
 Dialogue: 0,0:17:30.50,0:17:33.01,Dialogue,,0,0,0,,But when did he do that?
-Dialogue: 0,0:17:33.01,0:17:37.30,Dialogue,,0,0,0,,While the{\rHonorifics - Dialogue} tan{\r}k was covered up by the carpet, obviously.
+Dialogue: 0,0:17:33.01,0:17:37.30,Dialogue,,0,0,0,,While the tank was covered up by the carpet, obviously.
 Dialogue: 0,0:17:37.30,0:17:42.21,Dialogue,,0,0,0,,He probably shot the card at Mr. Jirokichi's feet during that time, too.
 Dialogue: 0,0:17:42.21,0:17:46.29,Dialogue,,0,0,0,,The people wrapped up in the carpet were all mangled up,
 Dialogue: 0,0:17:46.29,0:17:50.77,Dialogue,,0,0,0,,so if Kid was among then, he could've done whatever he wanted without looking suspicious.
@@ -301,7 +289,7 @@ Dialogue: 0,0:19:20.36,0:19:25.31,Dialogue,,0,0,0,,In the end, though, it was th
 Dialogue: 0,0:19:26.52,0:19:28.87,Dialogue,,0,0,0,,I didn't think my figure was that different.
 Dialogue: 0,0:19:29.28,0:19:33.39,Dialogue,,0,0,0,,The reason you were surprised when Ran and Sonoko wanted to group up with you for the body search
 Dialogue: 0,0:19:34.05,0:19:40.51,Dialogue,,0,0,0,,and why you thought 'you' were older than them was because you thought Sera was a boy from the year above, right?
-Dialogue: 0,0:19:41.95,0:19:48.02,Dialogue,,0,0,0,,Since normally they'd call a boy in their own class with the honorific{\rHonorifics - Dialogue} kun{\r}, not 'Sera{\rHonorifics - Dialogue}-san{\r}'.
+Dialogue: 0,0:19:41.95,0:19:48.02,Dialogue,,0,0,0,,Since normally they'd call a boy in their own class with the honorific {\i1}kun{\i0}, not 'Sera{\rHonorifics - Dialogue}-san{\r}'.
 Dialogue: 0,0:19:48.61,0:19:50.01,Dialogue,,0,0,0,,Y-You mean...
 Dialogue: 0,0:19:50.01,0:19:52.76,Dialogue,,0,0,0,,This is a girl?!
 Dialogue: 0,0:19:52.76,0:19:53.88,Dialogue,,0,0,0,,Yep.
@@ -373,7 +361,7 @@ Dialogue: 0,0:03:36.86,0:03:42.49,ButterflyCore2,,0,0,0,,{\fad(0,1000)\3c&H00660
 Dialogue: 0,0:21:17.06,0:21:24.40,AitakuteRomaji,,0,0,0,,{\blur3}denwa ga naru tabi kono mune ga zawameku
 Dialogue: 0,0:21:24.74,0:21:31.75,AitakuteRomaji,,0,0,0,,{\blur3}demo kikoetekuru no wa kimi no koe ja nai
 Dialogue: 0,0:21:33.96,0:21:40.75,AitakuteRomaji,,0,0,0,,{\blur3}ima kimi wa doko ni iru no nani shite'ru no
-Dialogue: 0,0:21:41.46,0:21:50.35,AitakuteRomaji,,0,0,0,,{\blur3}kami{\fsp-2\fs40}-{\rHonorifics - AitakuteRomaji} sama{\r} ni negai todoku nara mō ichido dake
+Dialogue: 0,0:21:41.46,0:21:50.35,AitakuteRomaji,,0,0,0,,{\blur3}kami{\fsp-2\fs40}- {\fsp\fs}sama ni negai todoku nara mō ichido dake
 Dialogue: 0,0:21:50.97,0:21:57.81,AitakuteRomaji,,0,0,0,,{\blur3}aitakute kimi ni aitakute
 Dialogue: 0,0:21:58.31,0:22:06.78,AitakuteRomaji,,0,0,0,,{\blur3}ima mo kono mune wa kimi{\fsp-2\fs40}- {\fsp\fs}iro ni somaru (dakishimetakute)
 Dialogue: 0,0:22:06.95,0:22:13.95,AitakuteRomaji,,0,0,0,,{\blur3}setsunakute nido to aenai nara

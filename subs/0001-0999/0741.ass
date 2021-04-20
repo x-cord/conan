@@ -33,24 +33,17 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: Muteki na Heart,Cocon,40,&HC0000000,&H000000FF,&H00FFFFFF,&HC0000000,-1,0,0,0,100,100,0,0,1,3.5,1,8,10,10,25,1
-Style: Phone,OSPuto,52,&H00BEE1FF,&H000000FF,&H000B2A42,&HC0000000,-1,0,0,0,94,100,0,0,1,2.5,2.5,2,27,27,30,1
-Style: FlashbackThoughts,OSPuto,52,&H4B370001,&H000000FF,&H00CCFFFF,&HC0000000,-1,0,0,0,94,100,0,0,1,2.6,2,2,100,100,30,1
-Style: PlaceCard,Corbel,35,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,2,2,100,100,30,1
-Style: Narr,OSPuto,50,&H6E8C6F00,&H000000FF,&H00FFFFFF,&H80000000,-1,0,0,0,100,100,0,0,1,3.7,1.5,2,100,100,30,1
-Style: Signage,OSPuto,50,&H00FFFFFF,&H000000FF,&H80000000,&H00000000,-1,0,0,0,100,100,0,0,3,8,0,2,40,40,40,1
-Style: BCPrologue,Cocon-Regular,45,&H805E0036,&H000000FF,&H00FFFFFF,&H80000000,-1,0,0,0,100,100,1,0,1,5,2,2,10,10,30,1
 Style: ButterflyCore,Love Is Complicated Again,45,&H405E0036,&H000000FF,&H00FFFFFF,&H80000000,-1,0,0,0,100,100,1,0,1,3.5,0,8,10,10,30,1
 Style: ButterflyCore2,Love Is Complicated Again,45,&HFF5E0036,&H000000FF,&H80000000,&H80000000,-1,0,0,0,100,100,1,0,1,0.75,0,8,10,10,30,1
 Style: RainMan,FOT-Seurat Pro,35,&HC0FAE4D0,&H000000FF,&H00FFFFFF,&H80000000,-1,0,0,0,100,100,0,0,1,3.5,0.5,8,10,10,25,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:01.06,0:00:05.56,Narr,,0000,0000,0000,,{\blur3}Ran and I made plans to have lunch with her mother, Kisaki{\rHonorifics - Narr}-sensei{\r}.
-Dialogue: 0,0:00:05.56,0:00:09.73,Narr,,0000,0000,0000,,{\blur3}We were going to meet her in a block of flats where she had a meeting.
-Dialogue: 0,0:00:10.36,0:00:13.53,Narr,,0000,0000,0000,,{\blur3}There, we happened to meet Masumi Sera,
-Dialogue: 0,0:00:13.95,0:00:17.24,Narr,,0000,0000,0000,,{\blur3}and Ran ended up helping her out in an investigation at her request.
-Dialogue: 0,0:00:20.08,0:00:24.02,Narr,,0000,0000,0000,,{\blur3}During the investigation, she was looking for one of the residents of the block, when...
+Dialogue: 0,0:00:01.06,0:00:05.56,Narration Off,,0000,0000,0000,,{\be10}Ran and I made plans to have lunch with her mother, Kisaki{\rHonorifics - Narration Off\be10}-sensei{\r\be10}.
+Dialogue: 0,0:00:05.56,0:00:09.73,Narration Off,,0000,0000,0000,,{\be10}We were going to meet her in a block of flats where she had a meeting.
+Dialogue: 0,0:00:10.36,0:00:13.53,Narration Off,,0000,0000,0000,,{\be10}There, we happened to meet Masumi Sera,
+Dialogue: 0,0:00:13.95,0:00:17.24,Narration Off,,0000,0000,0000,,{\be10}and Ran ended up helping her out in an investigation at her request.
+Dialogue: 0,0:00:20.08,0:00:24.02,Narration Off,,0000,0000,0000,,{\be10}During the investigation, she was looking for one of the residents of the block, when...
 Dialogue: 0,0:00:26.33,0:00:27.41,Dialogue,,0000,0000,0000,,Waka{\rHonorifics - Dialogue}-san{\r}?!
 Dialogue: 0,0:00:29.21,0:00:33.54,Dialogue,,0000,0000,0000,,Hey, hold on! Waka{\rHonorifics - Dialogue}-san{\r}! Waka{\rHonorifics - Dialogue}-san{\r}!
 Dialogue: 0,0:00:33.54,0:00:36.11,Dialogue,,0000,0000,0000,,Waka...
@@ -110,7 +103,7 @@ Dialogue: 0,0:03:35.45,0:03:41.47,Dialogue,,0000,0000,0000,,We also found a bott
 Dialogue: 0,0:03:41.47,0:03:46.40,Dialogue,,0000,0000,0000,,Furthermore, in the bathroom drain there was a liquid that looked like red paint.
 Dialogue: 0,0:03:46.40,0:03:50.19,Dialogue,,0000,0000,0000,,R-Red paint?! Why would something like that be there?
 Dialogue: 0,0:03:51.15,0:03:55.40,Dialogue,,0000,0000,0000,,The shower head just hanging there spouting water is also pretty strange.
-Dialogue: 0,0:03:55.40,0:03:59.42,Dialogue,,0000,0000,0000,,If you were trying to hide the time of death without{\rHonorifics - Dialogue} chan{\r}ging the core body{lit. rectal} temperature,
+Dialogue: 0,0:03:55.40,0:03:59.42,Dialogue,,0000,0000,0000,,If you were trying to hide the time of death without changing the core body{lit. rectal} temperature,
 Dialogue: 0,0:03:59.42,0:04:02.39,Dialogue,,0000,0000,0000,,you'd normally turn it towards the corpse, right?
 Dialogue: 0,0:04:02.39,0:04:06.26,Dialogue,,0000,0000,0000,,This case doesn't make any sense!
 Dialogue: 0,0:04:06.85,0:04:13.31,Dialogue,,0000,0000,0000,,Ran{\rHonorifics - Dialogue}-neechan{\r}, Rumi{\rHonorifics - Dialogue}-san{\r} was the one who used the spare key to open the door, right?
@@ -195,7 +188,7 @@ Dialogue: 0,0:09:56.14,0:10:04.70,Dialogue,,0000,0000,0000,,and made her go to t
 Dialogue: 0,0:10:05.63,0:10:06.37,Dialogue,,0010,0010,0000,,Right.
 Dialogue: 0,0:10:06.37,0:10:14.12,Dialogue,,0010,0010,0000,,After Ran{\rHonorifics - Dialogue}-kun{\r} blacked out, Rumi{\rHonorifics - Dialogue}-san{\r} left the bathroom, temporarily turned on the ventilating fan to dissipate the chloroform,
 Dialogue: 0,0:10:14.12,0:10:16.67,Dialogue,,0000,0000,0000,,and washed away the red paint.
-Dialogue: 0,0:10:17.36,0:10:21.89,Dialogue,,0000,0000,0000,,Then she{\rHonorifics - Dialogue} chan{\r}ged back into her clothes, and woke up Waka{\rHonorifics - Dialogue}-san{\r} who was asleep in the living room.
+Dialogue: 0,0:10:17.36,0:10:21.89,Dialogue,,0000,0000,0000,,Then she changed back into her clothes, and woke up Waka{\rHonorifics - Dialogue}-san{\r} who was asleep in the living room.
 Dialogue: 0,0:10:22.40,0:10:26.95,Dialogue,,0000,0000,0000,,She made her go to the bathroom by telling her that a girl she didn't know was lying there or something similar.
 Dialogue: 0,0:10:28.45,0:10:35.86,Dialogue,,0000,0000,0000,,And while Waka{\rHonorifics - Dialogue}-san{\r} was taking in the sight of the unconscious Ran{\rHonorifics - Dialogue}-kun{\r}, Rumi{\rHonorifics - Dialogue}-san{\r} beat her to death with the golf club.
 Dialogue: 0,0:10:36.60,0:10:40.65,Dialogue,,0000,0000,0000,,She then dressed her in a towel, applied a facial pack to her face,
@@ -230,59 +223,59 @@ Dialogue: 0,0:12:38.54,0:12:40.88,Dialogue,,0000,0000,0020,,and told me on the p
 Dialogue: 0,0:12:40.88,0:12:42.90,Dialogue,,0000,0000,0020,,I-I'll put him on speaker now!
 Dialogue: 0,0:12:42.90,0:12:44.86,Thoughts,,0000,0000,0020,,{\be10}Shin'ichi Kudō?
 Dialogue: 0,0:12:45.28,0:12:48.50,Dialogue,,0010,0010,0020,,I don't know who the hell you are, but outsiders should stay out of this.
-Dialogue: 0,0:12:48.50,0:12:50.41,Phone,,0000,0000,0000,,{\blur3}The problems are the following three points...
-Dialogue: 0,0:12:52.99,0:12:58.50,Phone,,0010,0010,0000,,{\blur3}You said the victim was made to fall asleep in the living room, like she did once before,
-Dialogue: 0,0:12:58.50,0:13:02.65,Phone,,0010,0010,0000,,{\blur3}but back then, that just happened by{\rHonorifics - Phone} chan{\r}ce.
-Dialogue: 0,0:13:02.65,0:13:05.75,Phone,,0000,0000,0000,,{\blur3}Even if you manage to make the person you're calling go to the living room,
-Dialogue: 0,0:13:05.75,0:13:09.22,Phone,,0000,0000,0000,,{\blur3}I don't think you can make them fall asleep there so easily.
+Dialogue: 0,0:12:48.50,0:12:50.41,Radio,,0000,0000,0000,,{\be10}The problems are the following three points...
+Dialogue: 0,0:12:52.99,0:12:58.50,Radio,,0010,0010,0000,,{\be10}You said the victim was made to fall asleep in the living room, like she did once before,
+Dialogue: 0,0:12:58.50,0:13:02.65,Radio,,0010,0010,0000,,{\be10}but back then, that just happened by chance.
+Dialogue: 0,0:13:02.65,0:13:05.75,Radio,,0000,0000,0000,,{\be10}Even if you manage to make the person you're calling go to the living room,
+Dialogue: 0,0:13:05.75,0:13:09.22,Radio,,0000,0000,0000,,{\be10}I don't think you can make them fall asleep there so easily.
 Dialogue: 0,0:13:09.22,0:13:17.05,Dialogue,,0000,0000,0000,,And even if you're lucky and they happen to fall asleep, you still can't be sure they'll still {\i1}be{\i0} asleep by the time you get there.
 Dialogue: 0,0:13:17.05,0:13:20.07,Dialogue,,0000,0000,0000,,There's also the risk of the doorbell waking them up.
 Dialogue: 0,0:13:20.39,0:13:25.19,Dialogue,,0000,0000,0000,,Then what if Rumi{\rHonorifics - Dialogue}-san{\r} came here a while before she came here with me,
 Dialogue: 0,0:13:25.19,0:13:28.64,Dialogue,,0000,0000,0000,,and put her to sleep in the living room using chloroform?
 Dialogue: 0,0:13:28.64,0:13:31.34,Dialogue,,0000,0000,0000,,In that case, something like the\Ndoorbell wouldn't have woken her.
-Dialogue: 0,0:13:31.34,0:13:33.55,Phone,,0000,0000,0000,,{\blur3}That's the second problem.
+Dialogue: 0,0:13:31.34,0:13:33.55,Radio,,0000,0000,0000,,{\be10}That's the second problem.
 Dialogue: 0,0:13:34.79,0:13:40.09,Dialogue,,0000,0000,0000,,If that was the case, why would she have locked the front door?
-Dialogue: 0,0:13:41.49,0:13:46.10,Phone,,0000,0000,0000,,{\blur3}If Settsu{\rHonorifics - Phone}-san{\r} hadn't, by{\rHonorifics - Phone} chan{\r}ce, given her his spare key,
-Dialogue: 0,0:13:46.10,0:13:49.85,Phone,,0000,0000,0000,,{\blur3}she would have had to use her own key, pretending she intended to return it,
-Dialogue: 0,0:13:49.85,0:13:53.60,Phone,,0000,0000,0000,,{\blur3}and because she had that key, she would have been the main suspect, don't you think?
+Dialogue: 0,0:13:41.49,0:13:46.10,Radio,,0000,0000,0000,,{\be10}If Settsu{\rHonorifics - Radio\be10}-san{\r\be10} hadn't, by chance, given her his spare key,
+Dialogue: 0,0:13:46.10,0:13:49.85,Radio,,0000,0000,0000,,{\be10}she would have had to use her own key, pretending she intended to return it,
+Dialogue: 0,0:13:49.85,0:13:53.60,Radio,,0000,0000,0000,,{\be10}and because she had that key, she would have been the main suspect, don't you think?
 Dialogue: 0,0:13:53.90,0:14:02.89,Dialogue,,0000,0000,0000,,What's more, if she {\i1}had{\i0} put her to sleep beforehand, having the sleeping Waka{\rHonorifics - Dialogue}-san{\r} pose as a corpse would have been safer.
 Dialogue: 0,0:14:02.89,0:14:07.86,Dialogue,,0000,0000,0000,,There would have been no reason for her to go out of her way to hold her breath and pose as a corpse.
 Dialogue: 0,0:14:10.56,0:14:16.96,Dialogue,,0000,0000,0000,,And the third problem is the fact that the body was lying there face-down wearing only a bath towel.
 Dialogue: 0,0:14:16.96,0:14:22.23,Dialogue,,0000,0000,0000,,No-one can know how exactly how they look from behind.
 Dialogue: 0,0:14:22.23,0:14:26.76,Dialogue,,0000,0000,0000,,There's a good possibility of there being a mole or birthmark you don't know about yourself on your back.
-Dialogue: 0,0:14:27.10,0:14:31.22,Phone,,0000,0000,0000,,{\blur3}If Ran saw that and revealed that she'd seen someone else, it'd be all over.
-Dialogue: 0,0:14:31.22,0:14:35.73,Phone,,0000,0000,0000,,{\blur3}It was the worst possible situation, and the worst possible posture to try and impersonate.
+Dialogue: 0,0:14:27.10,0:14:31.22,Radio,,0000,0000,0000,,{\be10}If Ran saw that and revealed that she'd seen someone else, it'd be all over.
+Dialogue: 0,0:14:31.22,0:14:35.73,Radio,,0000,0000,0000,,{\be10}It was the worst possible situation, and the worst possible posture to try and impersonate.
 Dialogue: 0,0:14:35.73,0:14:39.44,Dialogue,,0000,0000,0000,,B-But the body had a facial pack applied!
 Dialogue: 0,0:14:39.44,0:14:42.25,Dialogue,,0000,0000,0000,,Plus, the killer used steam to make it hard to see!
 Dialogue: 0,0:14:42.25,0:14:43.65,Dialogue,,0000,0000,0000,,No matter how you look at it, that's—
-Dialogue: 0,0:14:43.65,0:14:44.23,Phone,,0000,0000,0000,,{\blur3}That's just it.
+Dialogue: 0,0:14:43.65,0:14:44.23,Radio,,0000,0000,0000,,{\be10}That's just it.
 Dialogue: 0,0:14:45.53,0:14:53.35,Dialogue,,0000,0000,0000,,{\i1}Because{\i0} the face was hidden and visibility was limited, people will suspect that it had been someone else.
 Dialogue: 0,0:14:53.35,0:14:56.12,Dialogue,,0000,0000,0000,,As if that was the culprit's aim all along!
-Dialogue: 0,0:14:57.02,0:15:04.26,Phone,,0000,0000,0000,,{\blur3}The reason that the body was dressed in a towel and lying face-down was to make the person who discovered the body
-Dialogue: 0,0:15:04.26,0:15:08.11,Phone,,0000,0000,0000,,{\blur3}quickly see that the face was being hidden and that it was a woman's body.
-Dialogue: 0,0:15:08.63,0:15:12.68,Phone,,0000,0000,0000,,{\blur3}This way the culprit himself would be removed from the list of suspects,
-Dialogue: 0,0:15:12.68,0:15:17.89,Phone,,0000,0000,0000,,{\blur3}because only a woman could have posed as the corpse, and Rumi{\rHonorifics - Phone}-san{\r} would be the scapegoat.
+Dialogue: 0,0:14:57.02,0:15:04.26,Radio,,0000,0000,0000,,{\be10}The reason that the body was dressed in a towel and lying face-down was to make the person who discovered the body
+Dialogue: 0,0:15:04.26,0:15:08.11,Radio,,0000,0000,0000,,{\be10}quickly see that the face was being hidden and that it was a woman's body.
+Dialogue: 0,0:15:08.63,0:15:12.68,Radio,,0000,0000,0000,,{\be10}This way the culprit himself would be removed from the list of suspects,
+Dialogue: 0,0:15:12.68,0:15:17.89,Radio,,0000,0000,0000,,{\be10}because only a woman could have posed as the corpse, and Rumi{\rHonorifics - Radio\be10}-san{\r\be10} would be the scapegoat.
 Dialogue: 0,0:15:18.33,0:15:24.97,Dialogue,,0000,0000,0000,,Isn't that right? You pretended to go to the toilet 30 minutes before the meeting time and came here,
 Dialogue: 0,0:15:24.97,0:15:28.69,Dialogue,,0000,0000,0000,,killed Waka{\rHonorifics - Dialogue}-san{\r} and put into motion the plan I just described.
 Dialogue: 0,0:15:29.01,0:15:31.36,Dialogue,,0000,0000,0000,,Her ex-boyfriend...
-Dialogue: 0,0:15:32.76,0:15:34.38,Phone,,0000,0000,0000,,{\blur3}Ken'ya Settsu{\rHonorifics - Phone}-san{\r}!
+Dialogue: 0,0:15:32.76,0:15:34.38,Radio,,0000,0000,0000,,{\be10}Ken'ya Settsu{\rHonorifics - Radio\be10}-san{\r\be10}!
 Dialogue: 0,0:15:36.59,0:15:38.17,Dialogue,,0000,0000,0000,,W-What?!
 Dialogue: 0,0:15:38.17,0:15:38.75,Dialogue,,0000,0000,0000,,That's right.
-Dialogue: 0,0:15:39.77,0:15:47.02,Dialogue,,0000,0000,0000,,After sneaking in here, you waited for a{\rHonorifics - Dialogue} chan{\r}ce, and put Waka{\rHonorifics - Dialogue}-san{\r} to sleep by making her breathe in chloroform.
+Dialogue: 0,0:15:39.77,0:15:47.02,Dialogue,,0000,0000,0000,,After sneaking in here, you waited for a chance, and put Waka{\rHonorifics - Dialogue}-san{\r} to sleep by making her breathe in chloroform.
 Dialogue: 0,0:15:47.02,0:15:51.76,Dialogue,,0000,0000,0000,,Then you carried her to the bathroom, took off her clothes and wrapped her in a towel.
 Dialogue: 0,0:15:52.22,0:15:58.52,Dialogue,,0000,0000,0000,,And after applying a pack to her face and wrapping a towel around her head, you beat her with the golf club.
 Dialogue: 0,0:15:59.70,0:16:07.28,Dialogue,,0000,0000,0000,,Afterwards all you had to do was pour some red paint down the drain and fill the bathroom with chloroform.
 Dialogue: 0,0:16:07.28,0:16:12.61,Dialogue,,0000,0000,0000,,Later you called Rumi{\rHonorifics - Dialogue}-san{\r}, who had gone to look for her, and made her go to the living room,
 Dialogue: 0,0:16:12.61,0:16:16.59,Dialogue,,0000,0000,0000,,creating the time that makes people wonder whether she might have posed as the corpse.
 Dialogue: 0,0:16:16.59,0:16:22.41,Dialogue,,0000,0000,0000,,And if, after it's all over, Rumi{\rHonorifics - Dialogue}-san{\r}'s fingerprints are found on the chloroform bottle,
-Dialogue: 0,0:16:23.65,0:16:26.88,Phone,,0000,0000,0000,,{\blur3}it's likely the police will believe the corpse was a fake.
+Dialogue: 0,0:16:23.65,0:16:26.88,Radio,,0000,0000,0000,,{\be10}it's likely the police will believe the corpse was a fake.
 Dialogue: 0,0:16:27.49,0:16:34.30,Dialogue,,0000,0000,0000,,By the way, the bottle with Rumi{\rHonorifics - Dialogue}-san{\r}'s prints was probably one that Settsu{\rHonorifics - Dialogue}-san{\r} made her touch before the incident.
 Dialogue: 0,0:16:34.30,0:16:36.13,Dialogue,,0010,0010,0000,,Seeing how the two of them were dating,
 Dialogue: 0,0:16:36.13,0:16:40.62,Dialogue,,0010,0010,0000,,he could have easily made her take it in her hand by putting it in the spice rack, for example.
 Dialogue: 0,0:16:42.39,0:16:48.30,Dialogue,,0000,0000,0000,,H-Hey, I've no idea who you are, but Kaga could have done that trick, too!
-Dialogue: 0,0:16:48.30,0:16:50.58,Phone,,0000,0000,0000,,{\blur3}That's why I had Conan{\rHonorifics - Phone}-kun{\r} test you for me.
+Dialogue: 0,0:16:48.30,0:16:50.58,Radio,,0000,0000,0000,,{\be10}That's why I had Conan{\rHonorifics - Radio\be10}-kun{\r\be10} test you for me.
 Dialogue: 0,0:16:51.62,0:16:53.11,Dialogue,,0000,0000,0000,,T-Test us?
-Dialogue: 0,0:16:54.08,0:16:57.70,Dialogue,,0000,0000,0000,,Remember, I made you pick up some{\rHonorifics - Dialogue} chan{\r}ge for me, didn't I?
+Dialogue: 0,0:16:54.08,0:16:57.70,Dialogue,,0000,0000,0000,,Remember, I made you pick up some change for me, didn't I?
 Dialogue: 0,0:16:57.70,0:17:01.96,Dialogue,,0000,0000,0000,,Back then, I held out my hand and asked you to give it to me, right?
 Dialogue: 0,0:17:02.94,0:17:12.53,Dialogue,,0000,0000,0000,,Kaga{\rHonorifics - Dialogue}-san{\r} put the coins into my hand, but Settsu{\rHonorifics - Dialogue}-san{\r} put the coins into his own palm and held them out for me to take.
 Dialogue: 0,0:17:12.53,0:17:14.44,Dialogue,,0000,0000,0000,,That's how I knew!
@@ -368,7 +361,7 @@ Dialogue: 0,0:23:46.53,0:23:51.32,Thoughts,,0000,0000,0000,,{\be10}Aiming anothe
 Dialogue: 0,0:23:52.39,0:23:54.32,Dialogue,,0000,0000,0000,,Don't worry about it, Sanada{\rHonorifics - Dialogue}-kun{\r}!
 Dialogue: 0,0:23:55.91,0:23:57.15,Dialogue,,0000,0000,0000,,That guy...
 Dialogue: 0,0:23:57.15,0:23:58.66,Dialogue,,0000,0000,0000,,He's suspicious.
-Dialogue: 0,0:23:58.66,0:24:04.67,Dialogue,,0000,0000,0000,,On the next Conan: ‘The J-Leaguer's Promise'!
+Dialogue: 0,0:23:58.66,0:24:04.67,Dialogue,,0000,0000,0000,,On the next Conan: 'The J-Leaguer's Promise'!
 Dialogue: 0,0:24:04.67,0:24:09.67,Dialogue,,0000,0000,0000,,Next Conan's Hint: Takahiro Sanada!
 Dialogue: 0,0:24:09.67,0:24:11.68,Dialogue Top,,0000,0000,0000,,Kudō{\rHonorifics - Dialogue}-kun{\r} sure knows his make-up, huh?
 Dialogue: 0,0:24:11.68,0:24:13.09,Dialogue Top,,0000,0000,0000,,The knowledge is purely theoretical.

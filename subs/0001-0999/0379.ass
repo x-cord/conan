@@ -33,10 +33,6 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: ED Karaoke (English),Formal436 BT,24,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,0.9,2,10,10,20,0
-Style: ED Karaoke (Romaji),Comic Sans MS,27,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1,0.9,8,10,10,10,0
-Style: ED Kara eng,Corbel,23,&H00FFFFFF,&H00FFFFFF,&H73686E6F,&H00000000,-1,0,0,0,100,110,0,0,1,7,0,2,10,10,15,0
-
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 Dialogue: 0,0:00:21.64,0:00:23.33,Dialogue,C,0000,0000,0000,,Today's stage is an inn.
@@ -75,14 +71,14 @@ Dialogue: 0,0:04:13.27,0:04:14.85,Dialogue,M,0000,0000,0000,,Oh, really?
 Dialogue: 0,0:04:14.85,0:04:17.27,Dialogue,B,0000,0000,0000,,It's not very comfortable standing and talking here...
 Dialogue: 0,0:04:21.42,0:04:23.78,Dialogue,M,0000,0000,0000,,Eh... What are you doing all gathered over here?
 Dialogue: 0,0:04:23.78,0:04:27.87,Dialogue Top,B,0000,0000,0000,,Actually, the editor of Daigakukan Publishing and I... {changed: removed "we also invited" to current}
-Dialogue: 0,0:04:27.87,0:04:34.96,Dialogue Top,B,0000,0000,0000,,are discussing scripts Akechi Eri{\rHonorifics - Dialogue Top}-sensei{\r} wrote for a new drama airing next spring.
+Dialogue: 0,0:04:27.87,0:04:34.96,Dialogue Top,B,0000,0000,0000,,are discussing scripts Akechi Eri{\rHonorifics - Dialogue}-sensei{\r} wrote for a new drama airing next spring.
 Dialogue: 0,0:04:35.58,0:04:41.67,Dialogue,Y,0000,0000,0000,,The drama is about three teenage girls trying to achieve their dreams.
 Dialogue: 0,0:04:41.67,0:04:46.22,Dialogue,Y,0000,0000,0000,,Because of that, I'm interviewing young women who are active in each field.
 Dialogue: 0,0:04:47.09,0:04:53.98,Dialogue,B,0000,0000,0000,,Thus, we've invited three girls who graduated from Yoriko{\rHonorifics - Dialogue}-san{\r}'s alma mater, Oodou University.
-Dialogue: 0,0:04:54.48,0:04:58.94,Dialogue Top,B,0000,0000,0000,,A fashion model active in Paris and New York, Shibazaki Asuka{\rHonorifics - Dialogue Top}-san{\r}.
+Dialogue: 0,0:04:54.48,0:04:58.94,Dialogue Top,B,0000,0000,0000,,A fashion model active in Paris and New York, Shibazaki Asuka{\rHonorifics - Dialogue}-san{\r}.
 Dialogue: 0,0:04:58.94,0:04:59.82,Dialogue,A,0000,0000,0000,,Hi there.
 Dialogue: 0,0:04:59.82,0:05:02.11,Dialogue,M,0000,0000,0000,,Whoa... Beautiful!
-Dialogue: 0,0:05:02.40,0:05:08.53,Dialogue Top,B,0000,0000,0000,,Well, the next girl won the "Best Newcomer Award" in the Kyoto Art Show, oil painter Ansai Ema{\rHonorifics - Dialogue Top}-san{\r}.
+Dialogue: 0,0:05:02.40,0:05:08.53,Dialogue Top,B,0000,0000,0000,,Well, the next girl won the "Best Newcomer Award" in the Kyoto Art Show, oil painter Ansai Ema{\rHonorifics - Dialogue}-san{\r}.
 Dialogue: 0,0:05:08.53,0:05:09.74,Dialogue,E,0000,0000,0000,,Nice to meet you.
 Dialogue: 0,0:05:10.65,0:05:11.91,Dialogue,M,0000,0000,0000,,Charming!
 Dialogue: 0,0:05:11.91,0:05:15.04,Dialogue,B,0000,0000,0000,,Last but not least, is the music world's recent-
@@ -134,7 +130,7 @@ Dialogue: 0,0:08:14.07,0:08:18.01,Dialogue,H,0000,0000,0000,,In the spring, the 
 Dialogue: 0,0:08:18.48,0:08:21.52,Dialogue,H,0000,0000,0000,,It'll look just like a beautiful furisode.
 Dialogue: 0,0:08:22.20,0:08:24.68,Dialogue,R,0000,0000,0000,,Harumi{\rHonorifics - Dialogue}-san{\r}, are you familiar with this village as well?
 Dialogue: 0,0:08:24.68,0:08:25.77,Dialogue,H,0000,0000,0000,,Huh? No.
-Dialogue: 0,0:08:26.25,0:08:29.65,Dialogue,H,0000,0000,0000,,It's because my{\rHonorifics - Dialogue} senpai{\r} in the university liked sakura a lot,
+Dialogue: 0,0:08:26.25,0:08:29.65,Dialogue,H,0000,0000,0000,,It's because my senpai in the university liked sakura a lot,
 Dialogue: 0,0:08:29.65,0:08:32.78,Dialogue,H,0000,0000,0000,,and she told me about this sakura tree here. {changed: From "They're the ones who told me the story of this tree" to current}
 Dialogue: 0,0:08:33.28,0:08:36.03,Dialogue,H,0000,0000,0000,,I just remembered that, so I came here to see it for myself.
 Dialogue: 0,0:08:38.57,0:08:40.27,Dialogue,C,0000,0000,0000,,Hey, hey, Ran{\rHonorifics - Dialogue}-neechan{\r}?
@@ -211,8 +207,8 @@ Dialogue: 0,0:12:32.71,0:12:34.77,Dialogue,H,0000,0000,0000,,investigators found
 Dialogue: 0,0:12:35.56,0:12:38.86,Dialogue,H,0000,0000,0000,,She denied it, but drugs were found inside her locker.
 Dialogue: 0,0:12:38.86,0:12:41.52,Dialogue,H,0000,0000,0000,,So, in order to prove her innocence,
 Dialogue: 0,0:12:41.53,0:12:47.28,Dialogue,H,0000,0000,0000,,she jumped from the university's rooftop and died.
-Dialogue: 0,0:12:48.32,0:12:56.96,Dialogue,H,0000,0000,0000,,Her name is Suzuka Sakurako{\rHonorifics - Dialogue}-san{\r}, and she was the{\rHonorifics - Dialogue} senpai{\r} who loved sakura under the Furisode tree.
-Dialogue: 0,0:12:56.96,0:13:02.17,Dialogue,H,0000,0000,0000,,There's no way the{\rHonorifics - Dialogue} senpai{\r} I knew could have secretly been a drug dealer.
+Dialogue: 0,0:12:48.32,0:12:56.96,Dialogue,H,0000,0000,0000,,Her name is Suzuka Sakurako{\rHonorifics - Dialogue}-san{\r}, and she was the senpai who loved sakura under the Furisode tree.
+Dialogue: 0,0:12:56.96,0:13:02.17,Dialogue,H,0000,0000,0000,,There's no way the senpai I knew could have secretly been a drug dealer.
 Dialogue: 0,0:13:02.83,0:13:04.67,Dialogue,H,0000,0000,0000,,Mouri{\rHonorifics - Dialogue}-san{\r}, please.
 Dialogue: 0,0:13:04.67,0:13:08.14,Dialogue,H,0000,0000,0000,,One more time. Investigate this case one more time, please.
 Dialogue: 0,0:13:09.94,0:13:12.47,Dialogue,M,0000,0000,0000,,It's been five years already...
@@ -228,7 +224,7 @@ Dialogue: 0,0:13:45.66,0:13:47.68,Dialogue,H,0000,0000,0000,,Mouri{\rHonorifics 
 Dialogue: 0,0:13:50.02,0:13:51.51,Dialogue,M,0000,0000,0000,,I understand.
 Dialogue: 0,0:13:51.51,0:13:53.68,Dialogue,M,0000,0000,0000,,I'll definitely try my best to help.
 Dialogue: 0,0:13:54.64,0:13:56.35,Dialogue,H,0000,0000,0000,,Thank you very much!
-Dialogue: 0,0:13:56.81,0:13:59.73,Dialogue,R,0000,0000,0000,,You must really like that{\rHonorifics - Dialogue} senpai{\r}, huh?
+Dialogue: 0,0:13:56.81,0:13:59.73,Dialogue,R,0000,0000,0000,,You must really like that senpai, huh?
 Dialogue: 0,0:14:00.28,0:14:03.54,Dialogue,H,0000,0000,0000,,I lost my parents when I was little.
 Dialogue: 0,0:14:03.54,0:14:05.57,Dialogue,H,0000,0000,0000,,My aunt and uncle brought me up.
 Dialogue: 0,0:14:05.99,0:14:10.20,Dialogue,H,0000,0000,0000,,Sakurako{\rHonorifics - Dialogue}-san{\r}'s parents also died, in a fire.
@@ -380,6 +376,6 @@ Dialogue: 0,0:24:20.72,0:24:24.02,Dialogue,C,0000,0000,0000,,Hold on. Ran{\rHono
 Dialogue: 0,0:24:24.60,0:24:29.40,Dialogue,,0000,0000,0000,,Next Conan: Case of the Furisode at the Hidden Hot Spring, Part 2!
 Dialogue: 0,0:24:31.05,0:24:33.52,Dialogue,C,0000,0000,0000,,Next Conan's Hint!
 Dialogue: 0,0:24:33.52,0:24:34.37,Dialogue,C,0000,0000,0000,,Obi.
-Dialogue: 0,0:24:35.32,0:24:36.87,Dialogue Top,C,0000,0000,0000,,Do you have an obi, Ran{\rHonorifics - Dialogue Top}-neechan{\r}?
+Dialogue: 0,0:24:35.32,0:24:36.87,Dialogue Top,C,0000,0000,0000,,Do you have an obi, Ran{\rHonorifics - Dialogue}-neechan{\r}?
 Dialogue: 0,0:24:36.87,0:24:38.32,Dialogue Top,C,0000,0000,0000,,I have a black belt in karate.
 Dialogue: 0,0:24:38.32,0:24:40.04,Dialogue Top,C,0000,0000,0000,,That's not quite the same...

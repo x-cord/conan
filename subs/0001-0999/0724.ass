@@ -33,19 +33,7 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: Tsuzukiwa,Nyala,100,&HFE000000,&H000000FF,&H00FFFFFF,&H00000000,-1,0,0,0,100,100,0,0.1,1,6,0,5,10,10,10,1
-Style: Tsuzukiwa2,Nyala,100,&H00000000,&H000000FF,&H00FFFFFF,&H00000000,-1,0,0,0,100,100,0,0.1,1,0,0,5,10,10,10,1
-Style: FlashbackThoughts,Calibri Nonligature,50,&H4B370001,&H000000FF,&H00CCFFFF,&HC0000000,-1,0,0,0,100,100,0,0,1,2.6,2,2,100,100,30,1
-Style: PlaceCard,Corbel,35,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,2,2,100,100,30,1
-Style: topbox,Arial,20,&HFFFFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,3,1,0,8,10,10,10,1
-Style: Narr,Calibri Nonligature,50,&H6E8C6F00,&H000000FF,&H00FFFFFF,&H80000000,-1,0,0,0,100,100,0,0,1,3.7,1.5,2,100,100,30,1
-Style: Signage,Calibri,50,&H00FFFFFF,&H000000FF,&H80000000,&H00000000,-1,0,0,0,100,100,0,0,3,8,0,2,40,40,40,1
-Style: Copy of TitleCard,X-FilesM,40,&H00FFFFFF,&H000000FF,&H00A7A7A7,&HC0000000,-1,0,0,0,100,100,0,0,1,0,0,5,0,0,0,1
-Style: OPRom2,Berlin Sans FB Macron,40,&H60000000,&H000000FF,&H60000000,&H603E3330,-1,0,0,0,100,100,1,0,1,3.4,0,8,8,8,25,1
-Style: OPRomUnedited,Berlin Sans FB Macron,40,&HC00000FF,&H000000FF,&H00FFFFFF,&H603E3330,-1,0,0,0,100,100,1,0,1,4,1.6875,8,8,8,25,1
-Style: Poodles,MV Boli M,70,&H400102B5,&H000809FC,&H00CFF2F3,&H80000000,0,0,0,0,100,100,0,0,1,4,2,8,10,10,25,1
-Style: ButterflyCore,Love Is Complicated Again,45,&H405E0036,&H000000FF,&H00FFFFFF,&H80000000,-1,0,0,0,100,100,1,0,1,3.5,0,8,10,10,30,1
-Style: ButterflyCore2,Love Is Complicated Again,45,&HFF5E0036,&H000000FF,&H80000000,&H80000000,-1,0,0,0,100,100,1,0,1,0.75,0,8,10,10,30,1
+Style: Tsuzukiwa,Nyala,100,&HFE000000,&H000000FF,&H00FFFFFF,&H00000000,-1,0,0,0,100,100,0,0.1,1,6,0,5,10,10,10,1Style: PlaceCard,Corbel,35,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,2,2,100,100,30,1Style: ButterflyCore2,Love Is Complicated Again,45,&HFF5E0036,&H000000FF,&H80000000,&H80000000,-1,0,0,0,100,100,1,0,1,0.75,0,8,10,10,30,1
 Style: BCPrologue,Cocon-Regular,45,&H805E0036,&H000000FF,&H00FFFFFF,&H80000000,-1,0,0,0,100,100,1,0,1,5,2,2,10,10,30,1
 Style: AitakuteRomaji,AlaskanNightsM,52,&H60DB9572,&H000000FF,&H00FFFFFF,&HC02F2F2F,-1,0,0,0,108,100,0,0,1,4,0,8,8,8,30,1
 
@@ -95,9 +83,9 @@ Dialogue: 0,0:01:55.90,0:01:59.64,BCPrologue,,0,0,0,,{\blur3}Kid's after a crims
 Dialogue: 0,0:01:59.64,0:02:01.24,BCPrologue,,0,0,0,,{\blur3＜たった１つの真実　見抜く\N}He sees the single truth for what it is,
 Dialogue: 0,0:02:01.24,0:02:02.94,BCPrologue,,0,0,0,,{\blur3見た目は子供　頭脳は大人＞\N}and looks like a kid but has the mind of an adult!
 Dialogue: 0,0:02:02.94,0:02:05.24,BCPrologue,,0,0,0,,{\blur3\fad(0,250)＜その名は　名探偵コナン！＞\N}His name? Detective Conan!
-Dialogue: 0,0:03:31.26,0:03:39.81,Narr,,0,0,0,,{\blur3\fad(200,0)}Advisor Jirokichi Suzuki sponsored a special trip for the Bell Tree Express, hoping to capture Kaitō Kid.
-Dialogue: 0,0:03:39.81,0:03:45.84,Narr,,0,0,0,,{\blur3}But the men in black took over the train in their attempts to erase Sherry — a.k.a. Ai Haibara.
-Dialogue: 0,0:03:48.26,0:03:54.61,Narr,,0,0,0,,{\blur3}And even Kaitō Kid, who was on the train to inspect it, ended up caught in the explosion when a carriage blew up.
+Dialogue: 0,0:03:31.26,0:03:39.81,Narration Off,,0,0,0,,{\be10\fad(200,0)}Advisor Jirokichi Suzuki sponsored a special trip for the Bell Tree Express, hoping to capture Kaitō Kid.
+Dialogue: 0,0:03:39.81,0:03:45.84,Narration Off,,0,0,0,,{\be10}But the men in black took over the train in their attempts to erase Sherry — a.k.a. Ai Haibara.
+Dialogue: 0,0:03:48.26,0:03:54.61,Narration Off,,0,0,0,,{\be10}And even Kaitō Kid, who was on the train to inspect it, ended up caught in the explosion when a carriage blew up.
 Dialogue: 0,0:03:55.43,0:03:58.49,Dialogue,,0,0,0,,What's the meaning of this, Superintendent Chaki?!
 Dialogue: 0,0:03:59.06,0:04:03.20,Dialogue,,0,0,0,,After the explosion on the Bell Tree Express the other day,
 Dialogue: 0,0:04:03.20,0:04:07.22,Dialogue,,0,0,0,,the jewel exhibition was supposed to be delayed until we'd closed the case!
@@ -192,11 +180,11 @@ Dialogue: 0,0:10:24.56,0:10:25.98,Dialogue,,0,0,0,,Poseidon?
 Dialogue: 0,0:10:25.98,0:10:27.11,Dialogue,,0,0,0,,Right.
 Dialogue: 0,0:10:27.11,0:10:30.88,Dialogue,,0,0,0,,The owner of the Blush Mermaid was her, after all.
 Dialogue: 0,0:10:31.25,0:10:33.89,Dialogue,,0,0,0,,But why would she put the jewel on her pet?
-Dialogue: 0,0:10:34.28,0:10:37.58,Dialogue,,0,0,0,,The story goes that she desperately stuck the jewels onto the turtle with glue before the ship{\rHonorifics - Dialogue} san{\r}k,
+Dialogue: 0,0:10:34.28,0:10:37.58,Dialogue,,0,0,0,,The story goes that she desperately stuck the jewels onto the turtle with glue before the ship sank,
 Dialogue: 0,0:10:37.58,0:10:43.84,Dialogue,,0,0,0,,hoping that the turtle would be saved and taken in by somebody!
 Dialogue: 0,0:10:43.84,0:10:46.40,Dialogue,,0,0,0,,The jewels were both for breeding expenses and as a sign of her gratitude.
-Dialogue: 0,0:10:47.34,0:10:51.40,Dialogue,,0,0,0,,The local fishermen found it floating in the water along with the{\rHonorifics - Dialogue} tan{\r}k,
-Dialogue: 0,0:10:51.40,0:10:55.82,Dialogue,,0,0,0,,and by happy{\rHonorifics - Dialogue} chan{\r}ce, it found its way into my hands!
+Dialogue: 0,0:10:47.34,0:10:51.40,Dialogue,,0,0,0,,The local fishermen found it floating in the water along with the tank,
+Dialogue: 0,0:10:51.40,0:10:55.82,Dialogue,,0,0,0,,and by happy chance, it found its way into my hands!
 Dialogue: 0,0:10:57.24,0:10:59.87,Dialogue,,0,0,0,,But have you actually had the jewel appraised?
 Dialogue: 0,0:11:01.23,0:11:06.57,Dialogue,,0,0,0,,I tried, but the expert was bitten by the turtle during the appraisal.
 Dialogue: 0,0:11:06.57,0:11:11.96,Dialogue,,0,0,0,,Well, the turtle's supposed to shed its skin at some point between May and November,
@@ -227,7 +215,7 @@ Dialogue: 0,0:12:29.27,0:12:31.13,Thoughts,,0,0,0,,{\be10}That's Jeet Kune Do fo
 Dialogue: 0,0:12:31.13,0:12:35.92,Dialogue,,0,0,0,,Since you're sweating like this, I guess you're not wearing a disguise either, Inspector!
 Dialogue: 0,0:12:37.00,0:12:38.34,Dialogue,,0,0,0,,Yo, Ran!
 Dialogue: 0,0:12:38.34,0:12:41.26,Dialogue,,0,0,0,,Dad! I thought you weren't coming!
-Dialogue: 0,0:12:41.26,0:12:46.28,Dialogue,,0,0,0,,I{\rHonorifics - Dialogue} chan{\r}ged my mind when watching all of this on the news.
+Dialogue: 0,0:12:41.26,0:12:46.28,Dialogue,,0,0,0,,I changed my mind when watching all of this on the news.
 Dialogue: 0,0:12:46.28,0:12:49.04,Dialogue,,0,0,0,,And anyway, I was a bit worried about you for once.
 Dialogue: 0,0:12:49.85,0:12:51.86,Dialogue,,0,0,0,,For once?
 Dialogue: 0,0:12:52.33,0:12:54.47,Thoughts,,0,0,0,,{\be10}And another useless idiot shows up.
@@ -257,8 +245,8 @@ Dialogue: 0,0:14:21.25,0:14:27.29,Dialogue,,0,0,0,,Therefore, Kid won't be able 
 Dialogue: 0,0:14:38.12,0:14:38.42,Dialogue,,0,0,0,,What?!
 Dialogue: 0,0:14:38.42,0:14:39.76,Dialogue,,0,0,0,,What's going on?!
 Dialogue: 0,0:14:40.17,0:14:41.47,Dialogue,,0,0,0,,Out of the way!
-Dialogue: 0,0:14:45.52,0:14:47.81,Thoughts,,0,0,0,,{\be10}He covered the{\rHonorifics - Thoughts\be10} tan{\r\be10}k with the carpet!
-Dialogue: 0,0:14:48.12,0:14:51.18,Dialogue,,0,0,0,,Is he planning to steal the entire{\rHonorifics - Dialogue} tan{\r}k along with the carpet?!
+Dialogue: 0,0:14:45.52,0:14:47.81,Thoughts,,0,0,0,,{\be10}He covered the tank with the carpet!
+Dialogue: 0,0:14:48.12,0:14:51.18,Dialogue,,0,0,0,,Is he planning to steal the entire tank along with the carpet?!
 Dialogue: 0,0:14:51.18,0:14:52.23,Dialogue,,0,0,0,,Damn!
 Dialogue: 0,0:14:52.23,0:14:53.31,Dialogue,,0,0,0,,Three!
 Dialogue: 0,0:14:53.31,0:14:54.52,Dialogue,,0,0,0,,Two!
@@ -275,7 +263,7 @@ Dialogue: 0,0:15:25.10,0:15:26.39,Thoughts,,0,0,0,,{\be10}No way...
 Dialogue: 0,0:15:26.39,0:15:30.38,Thoughts,,0,0,0,,{\be10}How'd he pull it off in a situation like {\i1}this{\i0}?!
 Dialogue: 0,0:15:37.46,0:15:40.60,Dialogue,,0,0,0,,T-The jewel disappeared along with the turtle?!
 Dialogue: 0,0:15:40.60,0:15:42.59,Dialogue,,0,0,0,,T-That's impossible!
-Dialogue: 0,0:15:42.59,0:15:46.18,Dialogue,,0,0,0,,Look for it! It's gotta be here in the{\rHonorifics - Dialogue} tan{\r}k somewhere!
+Dialogue: 0,0:15:42.59,0:15:46.18,Dialogue,,0,0,0,,Look for it! It's gotta be here in the tank somewhere!
 Dialogue: 0,0:15:46.18,0:15:48.64,Dialogue,,0,0,0,,Maybe in the shadow of a rock, or in the gravel!
 Dialogue: 0,0:15:48.64,0:15:49.32,Dialogue,,0,0,0,,Yes, sir!
 Dialogue: 0,0:15:52.31,0:15:53.59,Dialogue,,0,0,0,,T-This is...
@@ -286,7 +274,7 @@ Dialogue: 0,0:16:00.61,0:16:04.04,Dialogue,,0,0,0,,'I have taken the jewel.'
 Dialogue: 0,0:16:04.04,0:16:08.56,Dialogue,,0,0,0,,'If you don't believe me, check!'
 Dialogue: 0,0:16:08.56,0:16:09.91,Dialogue,,0,0,0,,What?!
 Dialogue: 0,0:16:10.33,0:16:14.91,Dialogue,,0,0,0,,Remove the locks on the aquarium mesh and bring me a step-ladder this instant!
-Dialogue: 0,0:16:14.91,0:16:17.42,Dialogue,,0,0,0,,I'll check the{\rHonorifics - Dialogue} tan{\r}k myself!
+Dialogue: 0,0:16:14.91,0:16:17.42,Dialogue,,0,0,0,,I'll check the tank myself!
 Dialogue: 0,0:16:30.66,0:16:32.22,Dialogue,,0,0,0,,How is it, Uncle?
 Dialogue: 0,0:16:32.22,0:16:34.11,Dialogue,,0,0,0,,Uncle!
 Dialogue: 0,0:16:34.11,0:16:35.43,Dialogue,,0,0,0,,Is the turtle there or not?!
@@ -302,21 +290,21 @@ Dialogue: 0,0:17:01.05,0:17:02.34,Dialogue Top,,0,0,0,,'Kaitō Kid got the treas
 Dialogue: 0,0:17:06.07,0:17:07.30,Dialogue,,0,0,0,,Kid! Kid! Kid!
 Dialogue: 0,0:17:07.30,0:17:10.46,Dialogue,,0,0,0,,Damn it. Why are they cheering on the criminal?
 Dialogue: 0,0:17:10.46,0:17:12.44,Dialogue,,0,0,0,,Well, there isn't much we can say.
-Dialogue: 0,0:17:13.66,0:17:16.45,Dialogue,,0,0,0,,The{\rHonorifics - Dialogue} tan{\r}k was made from reinforced glass.
-Dialogue: 0,0:17:16.45,0:17:21.65,Dialogue,,0,0,0,,The sides and ceiling of the{\rHonorifics - Dialogue} tan{\r}k were covered in a steel mesh made from a special alloy.
+Dialogue: 0,0:17:13.66,0:17:16.45,Dialogue,,0,0,0,,The tank was made from reinforced glass.
+Dialogue: 0,0:17:16.45,0:17:21.65,Dialogue,,0,0,0,,The sides and ceiling of the tank were covered in a steel mesh made from a special alloy.
 Dialogue: 0,0:17:22.35,0:17:24.93,Dialogue,,0,0,0,,And while our eyes were covered by the carpet,
 Dialogue: 0,0:17:24.93,0:17:29.44,Dialogue,,0,0,0,,the deluxe turtle with the jewel on its back was stolen in a pretty spectacular way.
-Dialogue: 0,0:17:30.63,0:17:35.04,Dialogue,,0,0,0,,How do you know the{\rHonorifics - Dialogue} tan{\r}k's specs so well?
+Dialogue: 0,0:17:30.63,0:17:35.04,Dialogue,,0,0,0,,How do you know the tank's specs so well?
 Dialogue: 0,0:17:35.04,0:17:37.90,Dialogue,,0,0,0,,Hmph, it was on the news!
 Dialogue: 0,0:17:37.90,0:17:39.98,Dialogue,,0,0,0,,But wasn't this a little {\i1}too{\i0} well done?
-Dialogue: 0,0:17:40.67,0:17:48.43,Dialogue,,0,0,0,,He'd planted all the strings in the carpet and set a winch under the{\rHonorifics - Dialogue} chan{\r}delier to pull them up!
+Dialogue: 0,0:17:40.67,0:17:48.43,Dialogue,,0,0,0,,He'd planted all the strings in the carpet and set a winch under the chandelier to pull them up!
 Dialogue: 0,0:17:50.98,0:17:52.94,Dialogue,,0,0,0,,Didn't you check them?
-Dialogue: 0,0:17:52.94,0:18:00.31,Dialogue,,10,10,0,,Y-Yes, sir, but we'd heard that the carpet and the light had both been{\rHonorifics - Dialogue} chan{\r}ged a few days before the{\rHonorifics - Dialogue} tan{\r}k was to be exhibited here.
+Dialogue: 0,0:17:52.94,0:18:00.31,Dialogue,,10,10,0,,Y-Yes, sir, but we'd heard that the carpet and the light had both been changed a few days before the tank was to be exhibited here.
 Dialogue: 0,0:18:00.31,0:18:02.83,Dialogue,,0,0,0,,What?! A few days before?
 Dialogue: 0,0:18:02.83,0:18:07.68,Dialogue,,0,0,0,,We redid the carpet because a few days ago, a visitor sprayed cola around everywhere.
-Dialogue: 0,0:18:07.68,0:18:14.74,Dialogue,,0,0,0,,And the workers from the interior design company suggested we{\rHonorifics - Dialogue} chan{\r}ge the light to match the colour of the carpet.
+Dialogue: 0,0:18:07.68,0:18:14.74,Dialogue,,0,0,0,,And the workers from the interior design company suggested we change the light to match the colour of the carpet.
 Dialogue: 0,0:18:14.74,0:18:19.11,Dialogue,,0,0,0,,It seemed like a good opportunity for some redecorating,
-Dialogue: 0,0:18:19.11,0:18:28.77,Dialogue,,0,0,0,,since we'd just moved all the artifacts from this room into another to make room for the{\rHonorifics - Dialogue} tan{\r}k, so I took up their offer.
+Dialogue: 0,0:18:19.11,0:18:28.77,Dialogue,,0,0,0,,since we'd just moved all the artifacts from this room into another to make room for the tank, so I took up their offer.
 Dialogue: 0,0:18:28.77,0:18:33.64,Dialogue,,0,0,0,,But now that I think about it, those two workers could've been...
 Dialogue: 0,0:18:33.64,0:18:35.98,Dialogue,,0,0,0,,What do you mean, 'could have been'?!
 Dialogue: 0,0:18:35.98,0:18:38.97,Dialogue,,0,0,0,,Those {\i1}were{\i0} Kid and his accomplice!
@@ -349,7 +337,7 @@ Dialogue: 0,0:20:29.31,0:20:32.30,Thoughts,,0,0,0,,{\be10}She really {\i1}is{\i0
 Dialogue: 0,0:20:38.77,0:20:40.59,Dialogue,,0,0,0,,That spot feels nice...
 Dialogue: 0,0:20:40.59,0:20:42.22,Dialogue,,0,0,0,,Just shut up.
 Dialogue: 0,0:20:43.60,0:20:44.82,Thoughts,,0,0,0,,{\be10}I don't get it.
-Dialogue: 0,0:20:46.03,0:20:48.70,Thoughts,,0,0,0,,{\be10}That was an impregnable{\rHonorifics - Thoughts\be10} tan{\r\be10}k, with its four sides made of reinforced glass,
+Dialogue: 0,0:20:46.03,0:20:48.70,Thoughts,,0,0,0,,{\be10}That was an impregnable tank, with its four sides made of reinforced glass,
 Dialogue: 0,0:20:48.70,0:20:53.35,Thoughts,,0,0,0,,{\be10}and the top and two sides covered with a special alloy mesh.
 Dialogue: 0,0:20:53.35,0:20:58.70,Thoughts,,0,0,0,,{\be10}How did he get it out in that fraction of time in which our vision was obscured by the carpet?
 Dialogue: 0,0:20:58.70,0:21:03.88,Dialogue,,0,0,0,,Put your hearts into the search! Kid's card was in the water!
@@ -359,8 +347,8 @@ Dialogue: 0,0:21:13.31,0:21:16.54,Thoughts,,0,0,0,,{\be10}You roll up the card a
 Dialogue: 0,0:21:16.54,0:21:21.95,Thoughts,,0,0,0,,{\be10}then pass a fishing line through the card and put a small stone at the end of it.
 Dialogue: 0,0:21:22.77,0:21:27.28,Thoughts,,0,0,0,,{\be10}If you hang that from the light and set it to fall from a remote controlled signal,
 Dialogue: 0,0:21:28.44,0:21:36.57,Thoughts,,0,0,0,,{\be10}the card would fall and drop through the steel mesh, the thread would dissolve, and the message would be revealed.
-Dialogue: 0,0:21:37.47,0:21:43.99,Thoughts,,0,0,0,,{\be10}Either way, the ones who got closest to the{\rHonorifics - Thoughts\be10} tan{\r\be10}k were Sera, Sonoko, the old man and Inspector Nakamori.
-Dialogue: 0,0:21:43.99,0:21:48.88,Thoughts,,0,0,0,,{\be10}They got bundled up in the carpet along with the guards who were already standing in front of the{\rHonorifics - Thoughts\be10} tan{\r\be10}k,
+Dialogue: 0,0:21:37.47,0:21:43.99,Thoughts,,0,0,0,,{\be10}Either way, the ones who got closest to the tank were Sera, Sonoko, the old man and Inspector Nakamori.
+Dialogue: 0,0:21:43.99,0:21:48.88,Thoughts,,0,0,0,,{\be10}They got bundled up in the carpet along with the guards who were already standing in front of the tank,
 Dialogue: 0,0:21:48.88,0:21:51.11,Thoughts,,0,0,0,,{\be10}so any of them could've put the card directly in the water.
 Dialogue: 0,0:21:52.36,0:21:55.98,Thoughts,,0,0,0,,{\be10}But the most suspicious person at the time was...
 Dialogue: 0,0:22:06.75,0:22:08.60,Thoughts,,0,0,0,,{\be10}...Ran.
@@ -407,7 +395,7 @@ Dialogue: 0,0:03:14.57,0:03:20.16,ButterflyCore2,,0,0,0,,{\fad(0,1000)\3c&H00660
 Dialogue: 0,0:22:25.96,0:22:33.30,AitakuteRomaji,,0,0,0,,{\blur3}denwa ga naru tabi kono mune ga zawameku
 Dialogue: 0,0:22:33.64,0:22:40.64,AitakuteRomaji,,0,0,0,,{\blur3}demo kikoetekuru no wa kimi no koe ja nai
 Dialogue: 0,0:22:42.81,0:22:49.65,AitakuteRomaji,,0,0,0,,{\blur3}ima kimi wa doko ni iru no nani shite'ru no
-Dialogue: 0,0:22:50.36,0:22:59.20,AitakuteRomaji,,0,0,0,,{\blur3}kami{\fsp-2\fs40}-{\rHonorifics - AitakuteRomaji} sama{\r} ni negai todoku nara mō ichido dake
+Dialogue: 0,0:22:50.36,0:22:59.20,AitakuteRomaji,,0,0,0,,{\blur3}kami{\fsp-2\fs40}- {\fsp\fs}sama ni negai todoku nara mō ichido dake
 Dialogue: 0,0:22:59.87,0:23:06.71,AitakuteRomaji,,0,0,0,,{\blur3}aitakute kimi ni aitakute
 Dialogue: 0,0:23:07.21,0:23:15.68,AitakuteRomaji,,0,0,0,,{\blur3}ima mo kono mune wa kimi{\fsp-2\fs40}- {\fsp\fs}iro ni somaru (dakishimetakute)
 Dialogue: 0,0:23:15.85,0:23:22.85,AitakuteRomaji,,0,0,0,,{\blur3}setsunakute nido to aenai nara

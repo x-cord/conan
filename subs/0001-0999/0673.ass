@@ -33,10 +33,7 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: ConanEdogawaKun,Segoe Print,45,&H00B78800,&H000000FF,&H484B4B4B,&HC0000000,0,0,0,0,100,100,0,20,1,0,0,2,10,10,25,1
-Style: KudoSempai,Segoe Print,45,&H009796B7,&H000000FF,&H484B4B4B,&HC0000000,0,0,0,0,100,100,0,0,1,0,0,7,10,10,25,1
-Style: ConanLocker,ZapfChan MdIt BT,35,&H007E797A,&H000000FF,&H00D7D0D1,&HC0000000,-1,0,0,0,100,100,0,0,3,0,0,7,10,10,25,1
-Style: Blanka30,Arial,20,&HFFFFFFFF,&H000000FF,&H1E000000,&H00000000,0,0,0,0,100,100,0,0,3,1,0,7,10,10,10,1
+Style: KudoSempai,Segoe Print,45,&H009796B7,&H000000FF,&H484B4B4B,&HC0000000,0,0,0,0,100,100,0,0,1,0,0,7,10,10,25,1Style: Blanka30,Arial,20,&HFFFFFFFF,&H000000FF,&H1E000000,&H00000000,0,0,0,0,100,100,0,0,3,1,0,7,10,10,10,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -75,7 +72,7 @@ Dialogue: 0,0:22:18.50,0:22:18.59,Signs,,0,0,0,,Shin'ich
 Dialogue: 0,0:22:18.59,0:22:18.67,Signs,,0,0,0,,Shin'ichi Kudō
 Dialogue: 0,0:22:18.67,0:22:18.75,Signs,,0,0,0,,Shin'ichi Kudō
 Dialogue: 0,0:22:18.75,0:22:19.25,Signs,,0,0,0,,Shin'ichi Kudō
-Dialogue: 0,0:24:14.62,0:24:19.62,Dialogue,,0,0,0,,Next Conan's Hint: ‘Left-handed'!
+Dialogue: 0,0:24:14.62,0:24:19.62,Dialogue,,0,0,0,,Next Conan's Hint: 'Left-handed'!
 Dialogue: 0,0:00:02.16,0:00:08.86,Thoughts,,0,0,0,,{\be10}A mysterious case began following an easy request from the Detective Agency's website.
 Dialogue: 0,0:00:11.40,0:00:12.86,Thoughts,,0,0,0,,{\be10}Don't tell me...?!
 Dialogue: 0,0:00:16.76,0:00:17.41,Dialogue,,0,0,0,,What?!
@@ -113,10 +110,10 @@ Dialogue: 0,0:04:44.12,0:04:47.22,Dialogue,,0,0,0,,The PC was locked.
 Dialogue: 0,0:04:47.22,0:04:49.58,Dialogue,,0,0,0,,You can't unlock it unless you know the password, right?
 Dialogue: 0,0:04:49.58,0:04:51.65,Dialogue,,0,0,0,,Geez...
 Dialogue: 0,0:04:51.71,0:04:53.83,Dialogue,,0,0,0,,Why'd they have to do something so annoying?
-Dialogue: 0,0:04:53.83,0:04:57.96,Dialogue,,0,0,0,,Then let's try playing with the name ‘Kei Kashitsuka'.{Then for now, let's use what we know about Kei Kashitsuka, and think of the possibilities...}
+Dialogue: 0,0:04:53.83,0:04:57.96,Dialogue,,0,0,0,,Then let's try playing with the name 'Kei Kashitsuka'.{Then for now, let's use what we know about Kei Kashitsuka, and think of the possibilities...}
 Dialogue: 0,0:05:01.10,0:05:04.29,Dialogue,,0,0,0,,How do you two usually come up with passwords?
 Dialogue: 0,0:05:04.29,0:05:06.86,Dialogue,,0,0,0,,I use my birth date.
-Dialogue: 0,0:05:06.86,0:05:09.89,Dialogue,,0,0,0,,I'd use 5563 since it can be read ‘Ko-go-rō{\rHonorifics - Dialogue}-san{\r}'.
+Dialogue: 0,0:05:06.86,0:05:09.89,Dialogue,,0,0,0,,I'd use 5563 since it can be read 'Ko-go-rō{\rHonorifics - Dialogue}-san{\r}'.
 Dialogue: 0,0:05:09.89,0:05:11.48,Dialogue,,0,0,0,,N-No, that's not what I meant.
 Dialogue: 0,0:05:11.48,0:05:15.02,Dialogue,,0,0,0,,What if it's a really long password that you can't memorise.
 Dialogue: 0,0:05:17.20,0:05:19.46,Dialogue,,0,0,0,,I'd write it in my mobile phone's memo book.
@@ -147,7 +144,7 @@ Dialogue: 0,0:06:53.49,0:06:56.94,Dialogue,,0,0,0,,there was nothing but that ph
 Dialogue: 0,0:06:56.94,0:07:00.00,Dialogue,,0,0,0,,Your wallet and the case didn't have any scratches on them,
 Dialogue: 0,0:07:00.00,0:07:07.48,Dialogue,,0,0,0,,which means that the mobile phone actually belonged to the guy who died in the toilet,
 Dialogue: 0,0:07:07.48,0:07:11.01,Dialogue,,0,0,0,,and you switched it with the\Nmobile phone you brought, right?
-Dialogue: 0,0:07:11.01,0:07:15.02,Dialogue,,0,0,0,,That guy had a lot of{\rHonorifics - Dialogue} chan{\r}ge in his pockets,
+Dialogue: 0,0:07:11.01,0:07:15.02,Dialogue,,0,0,0,,That guy had a lot of change in his pockets,
 Dialogue: 0,0:07:15.02,0:07:18.25,Dialogue,,0,0,0,,and although the lighter and wallet in the same pocket were covered in scratches,
 Dialogue: 0,0:07:18.25,0:07:20.40,Dialogue,,0,0,0,,there weren't any on the mobile phone.
 Dialogue: 0,0:07:20.40,0:07:27.59,Dialogue,,0,0,0,,There was a stun gun in there as well, but it didn't have any scratches on it, so you must've brought that too, right?
@@ -174,7 +171,7 @@ Dialogue: 0,0:09:01.76,0:09:05.00,Dialogue,,200,200,0,,took them out from under 
 Dialogue: 0,0:09:05.00,0:09:10.61,Dialogue,,0,0,0,,To make sure the gunshot residue didn't get on you, you covered your head with a towel.
 Dialogue: 0,0:09:10.63,0:09:16.90,Dialogue,,0,0,0,,You dampened the end of another towel and spread it beneath the gun's grip, to make sure it didn't slip.
 Dialogue: 0,0:09:16.90,0:09:22.77,Dialogue,,0,0,0,,Then with the laces you dropped from under the toilet seat covered by the towel, you were all set.
-Dialogue: 0,0:09:22.77,0:09:28.96,Dialogue,,0,0,0,,To finish it off, just after sending an e-mail to Detective Mouri as if trying to say ‘Don't come in the toilet',
+Dialogue: 0,0:09:22.77,0:09:28.96,Dialogue,,0,0,0,,To finish it off, just after sending an e-mail to Detective Mouri as if trying to say 'Don't come in the toilet',
 Dialogue: 0,0:09:28.96,0:09:33.27,Dialogue,,0,0,0,,you pulled the lace while holding onto the boots with your knees in order to fire the bullet.
 Dialogue: 0,0:09:33.27,0:09:36.72,Dialogue,,0,0,0,,The guy was thrown back to the wall by the impact,
 Dialogue: 0,0:09:36.72,0:09:43.05,Dialogue,,0,0,0,,and by just pulling the lace and removing the towels before we came in after hearing the gunshot,
@@ -227,8 +224,8 @@ Dialogue: 0,0:13:09.83,0:13:13.04,Dialogue,,0,0,0,,means that you were at the ro
 Dialogue: 0,0:13:13.89,0:13:18.80,Dialogue,,0,0,0,,You probably figured it out by seeing their body types or gestures from close by,
 Dialogue: 0,0:13:18.80,0:13:25.31,Dialogue,,0,0,0,,but the fact that there was a woman amongst the robbers hadn't been announced by the media yet.
 Dialogue: 0,0:13:25.31,0:13:28.26,Dialogue,,0,0,0,,Since you were at the scene, you should have also noticed...
-Dialogue: 0,0:13:28.26,0:13:34.02,Dialogue,,0,0,0,,Those words that Ken'ya{\rHonorifics - Dialogue}-san{\r} said when he approached the robber, ‘OK! Please stop,'
-Dialogue: 0,0:13:34.02,0:13:38.77,Dialogue,,0,0,0,,were actually ‘Oi, Kei! Please stop.'
+Dialogue: 0,0:13:28.26,0:13:34.02,Dialogue,,0,0,0,,Those words that Ken'ya{\rHonorifics - Dialogue}-san{\r} said when he approached the robber, 'OK! Please stop,'
+Dialogue: 0,0:13:34.02,0:13:38.77,Dialogue,,0,0,0,,were actually 'Oi, Kei! Please stop.'
 Dialogue: 0,0:13:40.28,0:13:46.95,Dialogue,,0,0,0,,That's right. Ken'ya{\rHonorifics - Dialogue}-san{\r} noticed that Kei Kashitsuka, a friend, was one of the robbers
 Dialogue: 0,0:13:48.03,0:13:50.08,Dialogue,,0,0,0,,and was silenced when he tried to stop him.
 Dialogue: 0,0:13:50.08,0:13:58.34,Dialogue,,0,0,0,,When I checked that mobile phone, Ken'ya{\rHonorifics - Dialogue}-san{\r}'s home phone number was in it, so those two must've been friends.
@@ -237,7 +234,7 @@ Dialogue: 0,0:14:02.75,0:14:07.08,Dialogue,,0,0,0,,so I'm thinking that when he 
 Dialogue: 0,0:14:07.10,0:14:10.27,Dialogue,,0,0,0,,that on that day, and at that time, 200 million yen would be brought in,
 Dialogue: 0,0:14:10.27,0:14:14.23,Dialogue,,0,0,0,,and that was used in the bank robbery plan.
 Dialogue: 0,0:14:14.23,0:14:18.99,Dialogue,,0,0,0,,And so, I called Ken'ya{\rHonorifics - Dialogue}-san{\r}'s house and asked.
-Dialogue: 0,0:14:18.99,0:14:22.73,Dialogue,,0,0,0,,‘Is Ken'ya{\rHonorifics - Dialogue}-san{\r}'s girlfriend still there by any{\rHonorifics - Dialogue} chan{\r}ce?'
+Dialogue: 0,0:14:18.99,0:14:22.73,Dialogue,,0,0,0,,'Is Ken'ya{\rHonorifics - Dialogue}-san{\r}'s girlfriend still there by any chance?'
 Dialogue: 0,0:14:22.73,0:14:27.14,Dialogue,,0,0,0,,And then Ken'ya{\rHonorifics - Dialogue}-san{\r}'s family told me.
 Dialogue: 0,0:14:27.30,0:14:31.70,Dialogue,,0,0,0,,That Serina Urakawa{\rHonorifics - Dialogue}-san{\r} didn't come to the funeral last night.
 Dialogue: 0,0:14:31.70,0:14:35.47,Dialogue,,0,0,0,,Wait a second! How come you're saying I'm his girlfriend?!
@@ -254,7 +251,7 @@ Dialogue: 0,0:15:20.08,0:15:25.09,Dialogue,,0,0,0,,Oh, no! Isn't the guy in the 
 Dialogue: 0,0:15:25.09,0:15:28.72,Dialogue,,0,0,0,,The guy on the far right is the guy who was in the suitcase!
 Dialogue: 0,0:15:28.72,0:15:34.26,Dialogue,,0,0,0,,Then the lady on the far left must be the other robber.
 Dialogue: 0,0:15:35.24,0:15:38.66,Dialogue,,0,0,0,,Looks like that woman's contacted them.
-Dialogue: 0,0:15:38.66,0:15:44.65,Dialogue,,0,0,0,,Yeah. With an e-mail blatantly titled ‘Is the gun ready?'
+Dialogue: 0,0:15:38.66,0:15:44.65,Dialogue,,0,0,0,,Yeah. With an e-mail blatantly titled 'Is the gun ready?'
 Dialogue: 0,0:15:45.94,0:15:48.36,Dialogue,,0,0,0,,An e-mail from the woman saying she's moving.
 Dialogue: 0,0:15:48.36,0:15:50.35,Dialogue,,0,0,0,,It has an address.
 Dialogue: 0,0:15:50.35,0:15:51.76,Dialogue,,0,0,0,,Let's go and see.
@@ -288,7 +285,7 @@ Dialogue: 0,0:17:41.41,0:17:45.00,Dialogue,,0,0,0,,Since nobody knew the locatio
 Dialogue: 0,0:17:45.00,0:17:52.86,Dialogue,,0,0,0,,So then Kei Kashitsuka decided to have the great detective Kogorō Mouri find the location of the locker.
 Dialogue: 0,0:17:52.86,0:17:56.57,Dialogue,,0,0,0,,Of course, keeping the contents of the locker a secret.
 Dialogue: 0,0:17:56.57,0:18:02.41,Dialogue,,0,0,0,,Overhearing the exchange between the partners on the phone through the wiretap, you panicked.
-Dialogue: 0,0:18:02.41,0:18:11.00,Dialogue,,0,0,0,,If Kogorō Mouri discovered that he was a bank robber and he was arrested, you'd lose your{\rHonorifics - Dialogue} chan{\r}ce at revenge.
+Dialogue: 0,0:18:02.41,0:18:11.00,Dialogue,,0,0,0,,If Kogorō Mouri discovered that he was a bank robber and he was arrested, you'd lose your chance at revenge.
 Dialogue: 0,0:18:11.00,0:18:15.07,Dialogue,,0,0,0,,That's why you ambushed Kei Kashitsuka at the Detective Agency
 Dialogue: 0,0:18:15.07,0:18:18.77,Dialogue,,0,0,0,,and tried to get information about the other partner out of him.
 Dialogue: 0,0:18:18.77,0:18:20.85,Dialogue,,0,0,0,,Is that about right?
@@ -340,7 +337,7 @@ Dialogue: 0,0:20:50.04,0:20:52.82,Dialogue,,0,0,0,,I'll be leaving here tomorrow
 Dialogue: 0,0:20:52.82,0:20:55.04,Dialogue,,0,0,0,,Thanks for your help!
 Dialogue: 0,0:20:56.15,0:20:59.01,Thoughts,,0,0,0,,{\be10}Nothing but leftovers from convenience store box lunches.
 Dialogue: 0,0:20:59.01,0:21:04.05,Dialogue,,0,0,0,,No way! I got an e-mail from Conan{\rHonorifics - Dialogue}-kun{\r}.
-Dialogue: 0,0:21:04.35,0:21:08.43,Dialogue,,0,0,0,,‘I'm all right, so don't worry', he says.
+Dialogue: 0,0:21:04.35,0:21:08.43,Dialogue,,0,0,0,,'I'm all right, so don't worry', he says.
 Dialogue: 0,0:21:08.43,0:21:12.19,Dialogue,,0,0,0,,It looks like he went on his own accord.
 Dialogue: 0,0:21:12.19,0:21:14.39,Dialogue,,0,0,0,,That brat...
 Dialogue: 0,0:21:14.39,0:21:16.19,Dialogue,,0,0,0,,Acting like a detective again.

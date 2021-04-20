@@ -33,12 +33,8 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: Romaji-ED,Hobo,26,&HA0FFFFFF,&HB43D0288,&H5AA7CDD2,&HA506678F,0,0,0,0,99,100,0.2,0,1,1.4,0.1,8,3,3,10,0
-Style: R2-ED,Hobo,26,&HA0050377,&HB43D0288,&H5AA7CDD2,&HA506678F,0,0,0,0,99,100,0.2,0,1,1.4,0.1,8,3,3,10,0
 Style: Detective Conan - end song eng,Ligurino,22,&H00F0F2F4,&H00F6EFE7,&H5AE4D5D1,&H00000000,0,0,0,0,100,100,0,0,1,0.2,1.5,2,0,0,15,0
-Style: Romaji First Line,Hobo,26,&H32E7D9BB,&H87934010,&H5AC26452,&HA506678F,0,0,0,0,99,100,0.4,0,1,2.5,0,8,3,3,4,0
-Style: Romaji Background singing,Hobo,26,&H78FFFFFF,&H87934010,&H5A8C0005,&HA506678F,0,0,0,0,99,100,0.2,0,1,1.4,0,8,3,3,10,0
-Style: JBNotes,Helvetica 95 Black,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,90,100,0,0,1,2.25,0,2,30,30,18,1
+Style: Romaji First Line,Hobo,26,&H32E7D9BB,&H87934010,&H5AC26452,&HA506678F,0,0,0,0,99,100,0.4,0,1,2.5,0,8,3,3,4,0Style: JBNotes,Helvetica 95 Black,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,90,100,0,0,1,2.25,0,2,30,30,18,1
 Style: JBNotes2,Helvetica 95 Black,24,&H00000000,&H000000FF,&H00DDCCAA,&H00000000,-1,0,0,0,90,100,0,0,1,4.25,0,2,30,30,232,1
 
 [Events]
@@ -72,7 +68,7 @@ Dialogue: 0,0:03:02.90,0:03:04.55,Dialogue,,0000,0000,0000,,with a master sleuth
 Dialogue: 0,0:03:05.37,0:03:07.03,Dialogue,,0000,0000,0000,,Good point.
 Dialogue: 0,0:03:08.45,0:03:11.41,Dialogue,,0000,0000,0000,,If you insist on suspecting us, do you have proof?
 Dialogue: 0,0:03:11.41,0:03:13.45,Dialogue,,0000,0000,0000,,Proof that we were here?
-Dialogue: 0,0:03:14.11,0:03:15.13,Thoughts,,0000,0000,0000,,{\be10}Now's my{\rHonorifics - Thoughts\be10} chan{\r\be10}ce!
+Dialogue: 0,0:03:14.11,0:03:15.13,Thoughts,,0000,0000,0000,,{\be10}Now's my chance!
 Dialogue: 0,0:03:16.04,0:03:20.36,Dialogue,,0000,0000,0000,,Hey, why don't you look at the diary in the bag?
 Dialogue: 0,0:03:21.08,0:03:23.66,Dialogue,,0000,0000,0000,,That's his, isn't it?
 Dialogue: 0,0:03:23.66,0:03:28.21,Dialogue,,0000,0000,0000,,Maybe he wrote about the people who visited him!
@@ -89,7 +85,7 @@ Dialogue: 0,0:04:10.08,0:04:13.28,Dialogue,,0000,0000,0000,,Got it! Here's the m
 Dialogue: 0,0:04:14.39,0:04:15.65,Dialogue,,0000,0000,0000,,Three days ago...
 Dialogue: 0,0:04:16.66,0:04:20.38,Dialogue,,0000,0000,0000,,"The hotel staff said something weird to me today.
 Dialogue: 0,0:04:20.38,0:04:25.80,Dialogue,,0000,0000,0000,,"One of those three guys may have figured out where I'm staying.
-Dialogue: 0,0:04:25.80,0:04:30.53,Dialogue,,0000,0000,0000,,"Oh well, guess I'll have to{\rHonorifics - Dialogue} chan{\r}ge hotels."
+Dialogue: 0,0:04:25.80,0:04:30.53,Dialogue,,0000,0000,0000,,"Oh well, guess I'll have to change hotels."
 Dialogue: 0,0:04:32.26,0:04:35.88,Dialogue,,0000,0000,0000,,Looks like he was on to you three.{L: After all you three are suspicious.}
 Dialogue: 0,0:04:38.47,0:04:40.92,Dialogue,,0000,0000,0000,,Is there anything afterward in this diary?
 Dialogue: 0,0:04:40.92,0:04:42.37,Dialogue,,0000,0000,0000,,No.
@@ -311,7 +307,7 @@ Dialogue: 0,0:19:06.53,0:19:09.87,Dialogue,,0000,0000,0000,,After all, I'd been 
 Dialogue: 0,0:19:09.87,0:19:12.44,Dialogue,,0000,0000,0000,,because instead of getting around to making the shogi software.
 Dialogue: 0,0:19:12.44,0:19:15.79,Dialogue,,0000,0000,0000,,he became famous as a CG designer!
 Dialogue: 0,0:19:16.83,0:19:22.06,Dialogue,,0000,0000,0000,,I guess we drifted apart in those twenty years.
-Dialogue: 0,0:19:22.58,0:19:28.20,Dialogue,,0000,0000,0000,,Being apart{\rHonorifics - Dialogue} chan{\r}ges people...\NTheir hearts, their dreams... Everything...
+Dialogue: 0,0:19:22.58,0:19:28.20,Dialogue,,0000,0000,0000,,Being apart changes people...\NTheir hearts, their dreams... Everything...
 Dialogue: 0,0:19:30.62,0:19:33.50,Dialogue,,0000,0000,0000,,If we could have take-back moves in life,
 Dialogue: 0,0:19:33.50,0:19:36.03,Dialogue,,0000,0000,0000,,I'd go back to 20 years ago...
 Dialogue: 0,0:19:37.24,0:19:42.48,Dialogue,,0000,0000,0000,,Back to when we both had the same dreams...
@@ -337,8 +333,8 @@ Dialogue: 0,0:21:56.94,0:22:00.32,Thoughts,,0000,0000,0000,,{\be10}A clue to tho
 Dialogue: 0,0:22:01.43,0:22:03.90,Thoughts,,0000,0000,0000,,{\be10}Later, on the Doc's PC,
 Dialogue: 0,0:22:03.90,0:22:06.67,Thoughts,,0000,0000,0000,,{\be10}I'll go through this disk from one end to the other.
 Dialogue: 0,0:22:06.67,0:22:08.14,Dialogue,,0000,0000,0000,,Hey, Conan{\rHonorifics - Dialogue}-kun{\r}...
-Dialogue: 0,0:22:10.37,0:22:12.76,Dialogue,,0000,0000,0000,,Do you think people{\rHonorifics - Dialogue} chan{\r}ge?
-Dialogue: 0,0:22:14.73,0:22:17.51,Dialogue,,0000,0000,0000,,When you're apart from them, do people's hearts{\rHonorifics - Dialogue} chan{\r}ge?
+Dialogue: 0,0:22:10.37,0:22:12.76,Dialogue,,0000,0000,0000,,Do you think people change?
+Dialogue: 0,0:22:14.73,0:22:17.51,Dialogue,,0000,0000,0000,,When you're apart from them, do people's hearts change?
 Dialogue: 0,0:22:23.43,0:22:25.28,Dialogue,,0000,0000,0000,,It's pretty hard...
 Dialogue: 0,0:22:25.96,0:22:27.60,Dialogue,,0000,0000,0000,,Just waiting like this...
 Dialogue: 0,0:22:29.87,0:22:35.98,Dialogue,,0000,0000,0000,,It's okay. Shin'ichi-niichan's probably just like you remember him.

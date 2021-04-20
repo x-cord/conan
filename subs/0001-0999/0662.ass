@@ -34,10 +34,7 @@ Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
 Style: Otanoshimi,Calibri,45,&H18FFFFFF,&H000000FF,&H003F3F3F,&HC04B0008,-1,0,0,0,100,100,0,0,1,3,0,2,70,0,5,1
-Style: NamaeBG,Calibri,40,&HFFA9000E,&H000000FF,&H00000000,&H80A9000E,-1,0,0,0,100,100,0,0,3,1,0,7,40,40,110,1
-Style: NamaeBG2,Calibri,40,&HFFA9000E,&H000000FF,&H0000C5EF,&H80A9000E,-1,0,0,0,100,100,0,0,3,1,0,7,40,40,110,1
-Style: NCHNamae,Segoe Print,100,&H000000B6,&H000000FF,&H00370001,&H60000000,-1,0,0,0,100,100,0,0,1,0,2,5,40,40,30,1
-Style: SMSBG,Calibri,40,&HFFA9000E,&H000000FF,&H00F7F9FB,&H80A9000E,-1,0,0,0,100,100,0,-12,3,1,0,2,40,40,110,1
+Style: NamaeBG,Calibri,40,&HFFA9000E,&H000000FF,&H00000000,&H80A9000E,-1,0,0,0,100,100,0,0,3,1,0,7,40,40,110,1Style: NCHNamae,Segoe Print,100,&H000000B6,&H000000FF,&H00370001,&H60000000,-1,0,0,0,100,100,0,0,1,0,2,5,40,40,30,1Style: SMSBG,Calibri,40,&HFFA9000E,&H000000FF,&H00F7F9FB,&H80A9000E,-1,0,0,0,100,100,0,-12,3,1,0,2,40,40,110,1
 Style: SMS,Calibri,40,&H00000000,&H000000FF,&H00F7F9FB,&H80A9000E,-1,0,0,0,100,100,0,-12,3,0,0,7,40,40,110,1
 
 [Events]
@@ -75,7 +72,7 @@ Dialogue: 0,0:01:44.91,0:01:46.91,Dialogue,,0000,0000,0000,,His name? Detective 
 Dialogue: 0,0:03:19.94,0:03:24.15,Signs,,0000,0000,0000,,Junji Hyōdō (28)\NApartment Resident
 Dialogue: 0,0:03:20.77,0:03:24.15,Dialogue Top,,0000,0000,0000,,Hey, officers! Can we go yet?
 Dialogue: 0,0:03:24.40,0:03:28.66,Signs,,0000,0000,0000,,Kumi Ban'nai (22)\NApartment Resident
-Dialogue: 0,0:03:24.57,0:03:28.66,Dialogue Top,,0000,0000,0000,,You know that Denkawa{\rHonorifics - Dialogue}-san{\r} had to be alive to{\rHonorifics - Dialogue} chan{\r}ge the{\rHonorifics - Dialogue} chan{\r}nel!
+Dialogue: 0,0:03:24.57,0:03:28.66,Dialogue Top,,0000,0000,0000,,You know that Denkawa{\rHonorifics - Dialogue}-san{\r} had to be alive to change the channel!
 Dialogue: 0,0:03:28.86,0:03:32.03,Signs,,0000,0000,0000,,Ken Ishigame (64)\NApartment Resident
 Dialogue: 0,0:03:29.07,0:03:32.03,Dialogue Top,,0000,0000,0000,,Let us go back to our rooms already.
 Dialogue: 0,0:03:32.03,0:03:34.95,Dialogue,,0000,0000,0000,,Ah, but there's still the matter of the key...
@@ -131,7 +128,7 @@ Dialogue: 0,0:06:00.79,0:06:01.72,Thoughts,,0000,0000,0000,,{\be10}G-Granddaught
 Dialogue: 0,0:06:02.15,0:06:06.35,Dialogue,,0000,0000,0000,,But never mind that, about the zapping last night,
 Dialogue: 0,0:06:06.35,0:06:08.11,Dialogue,,0000,0000,0000,,do you remember around when it happened?
 Dialogue: 0,0:06:08.76,0:06:11.53,Dialogue,,0000,0000,0000,,I'm not sure... sometime around twilight, I think.
-Dialogue: 0,0:06:12.11,0:06:19.16,Dialogue,,0000,0000,0000,,And when it happened, the{\rHonorifics - Dialogue} chan{\r}nel{\rHonorifics - Dialogue} chan{\r}ged several times quickly, stopped for a while, then started{\rHonorifics - Dialogue} chan{\r}ging again?
+Dialogue: 0,0:06:12.11,0:06:19.16,Dialogue,,0000,0000,0000,,And when it happened, the channel changed several times quickly, stopped for a while, then started changing again?
 Dialogue: 0,0:06:19.17,0:06:21.29,Dialogue,,0000,0000,0000,,Yes, it was like that.
 Dialogue: 0,0:06:21.72,0:06:25.92,Dialogue,,0000,0000,0000,,That's why I was sure it was some malicious presence from outside.
 Dialogue: 0,0:06:25.92,0:06:28.76,Dialogue,,0000,0000,0000,,Since it stopped when I shut the curtains.
@@ -151,7 +148,7 @@ Dialogue: 0,0:07:14.82,0:07:16.30,Dialogue,,0000,0000,0000,,Sleeping Kogorō{\rH
 Dialogue: 0,0:07:16.89,0:07:21.23,Dialogue,,0000,0000,0000,,If this was a murder, isn't it odd to claim that the killer is one of us?
 Dialogue: 0,0:07:21.57,0:07:22.31,Dialogue,,0000,0000,0000,,Yes!
 Dialogue: 0,0:07:22.90,0:07:29.74,Dialogue,,0000,0000,0000,,How do you explain the loud noise we heard coming from the TV in this room just before we left for the hot spring?
-Dialogue: 0,0:07:30.21,0:07:33.46,Dialogue,,0000,0000,0000,,It wasn't just noise either, the{\rHonorifics - Dialogue} chan{\r}nel{\rHonorifics - Dialogue} chan{\r}ged too,
+Dialogue: 0,0:07:30.21,0:07:33.46,Dialogue,,0000,0000,0000,,It wasn't just noise either, the channel changed too,
 Dialogue: 0,0:07:33.46,0:07:36.04,Dialogue,,0000,0000,0000,,and he turned off the TV when we told him to.
 Dialogue: 0,0:07:37.18,0:07:41.26,Dialogue,,0000,0000,0000,,Isn't that proof that Denkawa was still alive then?
 Dialogue: 0,0:07:42.29,0:07:45.50,Dialogue,,0000,0000,0000,,Denkawa{\rHonorifics - Dialogue}-san{\r}'s time of death was last night, right?
@@ -235,10 +232,10 @@ Dialogue: 0,0:11:35.35,0:11:36.91,Dialogue Top,,0000,0000,0000,,{\i1}Higo scored
 Dialogue: 0,0:11:37.66,0:11:39.00,Dialogue Top,,0000,0000,0000,,{\i1}This is a homicide.
 Dialogue: 0,0:11:39.41,0:11:42.71,Dialogue,,0000,0000,0000,,There's a TV remote on top of the electric fan?
 Dialogue: 0,0:11:42.71,0:11:44.46,Dialogue,,0000,0000,0000,,I see!
-Dialogue: 0,0:11:44.85,0:11:47.54,Dialogue,,0000,0000,0000,,The{\rHonorifics - Dialogue} chan{\r}nel button was pressed down by a clothes peg,
+Dialogue: 0,0:11:44.85,0:11:47.54,Dialogue,,0000,0000,0000,,The channel button was pressed down by a clothes peg,
 Dialogue: 0,0:11:47.79,0:11:54.10,Dialogue,,0000,0000,0000,,and the TV remote was fixed on top of an electric fan facing downward!
 Dialogue: 0,0:11:54.46,0:11:58.84,Dialogue,,0000,0000,0000,,And as the fan moved and pointed to the TV,
-Dialogue: 0,0:11:59.02,0:12:02.85,Dialogue,,0000,0000,0000,,it caused the{\rHonorifics - Dialogue} chan{\r}nels to{\rHonorifics - Dialogue} chan{\r}ge, making people think it's zapping!
+Dialogue: 0,0:11:59.02,0:12:02.85,Dialogue,,0000,0000,0000,,it caused the channels to change, making people think it's zapping!
 Dialogue: 0,0:12:03.42,0:12:04.69,Dialogue,,0000,0000,0000,,I see.
 Dialogue: 0,0:12:05.08,0:12:08.06,Dialogue,,0000,0000,0000,,The TV was turned on by its programme timer.
 Dialogue: 0,0:12:08.27,0:12:12.03,Dialogue,,0000,0000,0000,,If it was set to the news, it'd be easy to tell it's a live programme.
@@ -345,7 +342,7 @@ Dialogue: 0,0:18:02.44,0:18:05.26,Dialogue,,0000,0000,0000,,In other words, if t
 Dialogue: 0,0:18:05.26,0:18:08.75,Dialogue,,0000,0000,0000,,is from when the remote was attached to the fan,
 Dialogue: 0,0:18:08.75,0:18:13.42,Dialogue,,0000,0000,0000,,the blood spatter from slicing Denkawa{\rHonorifics - Dialogue}-san{\r}'s neck
 Dialogue: 0,0:18:13.42,0:18:17.42,Dialogue,,0000,0000,0000,,should be on your hair tie, right?
-Dialogue: 0,0:18:21.09,0:18:24.43,Dialogue,,0000,0000,0000,,Hearing that, as if the{\rHonorifics - Dialogue} chan{\r}nel had suddenly been{\rHonorifics - Dialogue} chan{\r}ged,
+Dialogue: 0,0:18:21.09,0:18:24.43,Dialogue,,0000,0000,0000,,Hearing that, as if the channel had suddenly been changed,
 Dialogue: 0,0:18:24.43,0:18:29.12,Dialogue,,0000,0000,0000,,Hyōdō{\rHonorifics - Dialogue}-san{\r} confessed to the crime, heartbroken.
 Dialogue: 0,0:18:29.12,0:18:35.08,Dialogue,,0000,0000,0000,,It started when Denkawa{\rHonorifics - Dialogue}-san{\r}, fed up with Hyōdō{\rHonorifics - Dialogue}-san{\r}'s phone constantly ringing,
 Dialogue: 0,0:18:35.09,0:18:40.43,Dialogue,,0000,0000,0000,,broke down his door and went into his room.

@@ -33,7 +33,6 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: MovieDerpsub,Tele-GroteskFet,28,&H0000FFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1.75,0,2,30,30,60,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -43,12 +42,12 @@ Dialogue: 0,0:00:06.60,0:00:10.54,Narration Off,,0000,0000,0000,,{\be10}Today's 
 Dialogue: 0,0:00:10.54,0:00:12.24,Narration Off,,0000,0000,0000,,{\be10}He sees the single truth for what it is,
 Dialogue: 0,0:00:12.24,0:00:14.31,Narration Off,,0000,0000,0000,,{\be10}and looks like a kid\Nbut has the mind of an adult!
 Dialogue: 0,0:00:14.31,0:00:16.89,Narration Off,,0000,0000,0000,,{\be10}His name? Detective Conan!
-Dialogue: 0,0:01:47.64,0:01:50.61,MovieDerpsub,,0000,0000,0000,,"I am coming for the foul Kenzo Kuroda.\N—Shinigami Jin'nai"
-Dialogue: 0,0:02:12.21,0:02:15.15,MovieDerpsub,,0000,0000,0000,,Wicked lawyer Kenzo Kuroda!
-Dialogue: 0,0:02:15.15,0:02:18.05,MovieDerpsub,,0000,0000,0000,,I'm here to send you to Hell!
-Dialogue: 0,0:02:18.05,0:02:20.05,MovieDerpsub,,0000,0000,0000,,Help...!
-Dialogue: 0,0:02:20.05,0:02:21.48,MovieDerpsub,,0000,0000,0000,,It's time!
-Dialogue: 0,0:02:29.19,0:02:32.52,MovieDerpsub,,0000,0000,0000,,"Shinigami Jin'nai—\NA New Challenge"
+Dialogue: 0,0:01:47.64,0:01:50.61,Flashback,,0000,0000,0000,,{\be10}"I am coming for the foul Kenzo Kuroda.\N—Shinigami Jin'nai"
+Dialogue: 0,0:02:12.21,0:02:15.15,Flashback,,0000,0000,0000,,{\be10}Wicked lawyer Kenzo Kuroda!
+Dialogue: 0,0:02:15.15,0:02:18.05,Flashback,,0000,0000,0000,,{\be10}I'm here to send you to Hell!
+Dialogue: 0,0:02:18.05,0:02:20.05,Flashback,,0000,0000,0000,,{\be10}Help...!
+Dialogue: 0,0:02:20.05,0:02:21.48,Flashback,,0000,0000,0000,,{\be10}It's time!
+Dialogue: 0,0:02:29.19,0:02:32.52,Flashback,,0000,0000,0000,,{\be10}"Shinigami Jin'nai—\NA New Challenge"
 Dialogue: 0,0:02:40.72,0:02:44.89,Thoughts,,0000,0000,0000,,{\be10}Does he usually fall asleep\Nin the first five minutes?!
 Dialogue: 0,0:02:44.89,0:02:47.03,Dialogue,,0000,0000,0000,,Really, now!
 Dialogue: 0,0:02:47.03,0:02:50.56,Dialogue,,0000,0000,0000,,We were lucky to see an early\Nscreening and you fall asleep!
@@ -170,7 +169,7 @@ Dialogue: 0,0:09:47.35,0:09:49.88,Dialogue,,0000,0000,0000,,That {\i1}is{\i0} st
 Dialogue: 0,0:09:49.88,0:09:55.16,Thoughts,,0000,0000,0000,,{\be10}Why did the killer turn the lights\Non after murdering Nanjo{\rHonorifics - Thoughts\be10}-san{\r\be10}?
 Dialogue: 0,0:09:55.16,0:09:56.35,Thoughts,,0000,0000,0000,,{\be10}And—
 Dialogue: 0,0:09:59.93,0:10:04.40,Dialogue,,0000,0000,0000,,Why on earth did the killer\Nleave this vinyl tape behind?
-Dialogue: 0,0:10:04.40,0:10:08.57,Dialogue,,0000,0000,0000,,Most likely so we would trip\Nand get{\rHonorifics - Dialogue} tan{\r}gled up in it,
+Dialogue: 0,0:10:04.40,0:10:08.57,Dialogue,,0000,0000,0000,,Most likely so we would trip\Nand get tangled up in it,
 Dialogue: 0,0:10:08.57,0:10:11.40,Dialogue,,0000,0000,0000,,allowing him to make his getaway.
 Dialogue: 0,0:10:11.40,0:10:14.64,Dialogue,,0000,0000,0000,,But you're the only one\Nwho tripped on it!
 Dialogue: 0,0:10:17.65,0:10:21.62,Dialogue Top,,0000,0000,0000,,"Nanjo{\rHonorifics - Dialogue}-sama{\r}, please\Nlook over the article."

@@ -39,7 +39,6 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: Top Italic,LTFinnegan Medium,25,&H00FFFFFF,&H000000FF,&H00000000,&HBE000000,0,-1,0,0,100,100,0,0,1,1.68067,0.672271,8,0,0,23,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -54,28 +53,18 @@ Dialogue: 0,0:00:11.86,0:00:13.74,Dialogue,,0,0,0,,a child with the intellect of
 Dialogue: 0,0:00:13.74,0:00:15.49,Dialogue,,0,0,0,,His name is: Detective Conan!
 Dialogue: 0,0:00:15.95,0:00:17.78,Dialogue Top,OP JP,0,0,0,,Something's just not right
 Dialogue: 0,0:00:19.41,0:00:21.91,Dialogue Top,OP JP,0,0,0,,nani wo motometeru no
-Dialogue: 0,0:00:19.41,0:00:21.91,Dialogue,OP EN,0,0,0,,What is it we're seeking?
 Dialogue: 0,0:00:22.41,0:00:26.63,Dialogue Top,OP JP,0,0,0,,uso ni nareteyuku kyou mo fake your eyes
-Dialogue: 0,0:00:22.41,0:00:26.63,Dialogue,OP EN,0,0,0,,We're sed to lying nowadays, as you fake your eyes.
 Dialogue: 0,0:00:30.38,0:00:32.67,Dialogue Top,OP JP,0,0,0,,The start of a century
 Dialogue: 0,0:00:33.97,0:00:36.14,Dialogue Top,OP JP,0,0,0,,tashika na mono nakute
-Dialogue: 0,0:00:33.97,0:00:36.14,Dialogue,OP EN,0,0,0,,Nothing can be considered certain.
 Dialogue: 0,0:00:37.14,0:00:41.22,Dialogue Top,OP JP,0,0,0,,hitori ja nakenai yowasa hate myself
-Dialogue: 0,0:00:37.14,0:00:41.22,Dialogue,OP EN,0,0,0,,I can't cry over my weaknesses, I can only hate myself.
 Dialogue: 0,0:00:42.48,0:00:50.98,Dialogue Top,OP JP,0,0,0,,shinjiteru itami hikikae ni\Nkono mune umetsukushite
-Dialogue: 0,0:00:42.48,0:00:50.98,Dialogue,OP EN,0,0,0,,Believing in this pain, my chest endures through the exhaustion.
 Dialogue: 0,0:00:51.48,0:00:59.83,Dialogue Top,OP JP,0,0,0,,ima utsutte iru futari ga eranda michi kuru
-Dialogue: 0,0:00:51.48,0:00:59.83,Dialogue,OP EN,0,0,0,,The future that the two of us can be together is coming...
 Dialogue: 0,0:01:00.08,0:01:03.45,Dialogue Top,OP JP,0,0,0,,I think it's only oh my destiny
 Dialogue: 0,0:01:03.70,0:01:06.83,Dialogue Top,OP JP,0,0,0,,hate shinai yami no mukou ni
-Dialogue: 0,0:01:03.70,0:01:06.83,Dialogue,OP EN,0,0,0,,On the other side of this persistent darkness,
 Dialogue: 0,0:01:07.17,0:01:13.17,Dialogue Top,OP JP,0,0,0,,dare mo shiru koto no nai ashita ga aru
-Dialogue: 0,0:01:07.17,0:01:13.17,Dialogue,OP EN,0,0,0,,There's a tomorrow that has no time limit.
 Dialogue: 0,0:01:13.46,0:01:18.18,Dialogue Top,OP JP,0,0,0,,Oh yeah you're going nowhere it's only destiny
 Dialogue: 0,0:01:18.43,0:01:21.47,Dialogue Top,OP JP,0,0,0,,ari no mama ni susunde
-Dialogue: 0,0:01:18.43,0:01:21.47,Dialogue,OP EN,0,0,0,,Looking for that final resolution,
 Dialogue: 0,0:01:21.68,0:01:28.81,Dialogue Top,OP JP,0,0,0,,ima kanjite iru you're in my heart
-Dialogue: 0,0:01:21.68,0:01:28.81,Dialogue,OP EN,0,0,0,,I can feel you now: you're in my heart.
 Dialogue: 0,0:01:30.86,0:01:32.82,Dialogue Top,OP JP,0,0,0,,You're in my heart
 Dialogue: 0,0:01:41.66,0:01:43.58,Dialogue,,0,0,0,,While travelling on the Shinkansen from Osaka,
 Dialogue: 0,0:01:44.04,0:01:48.33,Dialogue,,0,0,0,,We ran into Officers Sato and Takagi,\Nwho were transporting a criminal.
@@ -103,7 +92,7 @@ Dialogue: 0,0:03:16.21,0:03:20.30,Dialogue,,0,0,0,,B-But, the knife looked like 
 Dialogue: 0,0:03:20.30,0:03:25.22,Dialogue,,0,0,0,,I didn't see a knife in here when I first\Nopened the door for him either.
 Dialogue: 0,0:03:25.72,0:03:30.31,Dialogue,,0,0,0,,It must have been a fake knife, with a removable blade.
 Dialogue: 0,0:03:33.69,0:03:35.19,Dialogue,,0,0,0,,It was probably hidden...
-Dialogue: 0,0:03:36.11,0:03:39.03,Dialogue,,0,0,0,,Back here, behind the baby{\rHonorifics - Dialogue} chan{\r}ging board.
+Dialogue: 0,0:03:36.11,0:03:39.03,Dialogue,,0,0,0,,Back here, behind the baby changing board.
 Dialogue: 0,0:03:39.86,0:03:42.66,Dialogue,,0,0,0,,If you put the blood, knife, and a memo here,
 Dialogue: 0,0:03:43.07,0:03:46.37,Dialogue,,0,0,0,,you could hide it back here where no one would look.
 Dialogue: 0,0:03:46.74,0:03:47.91,Dialogue,,0,0,0,,A memo?
@@ -318,8 +307,8 @@ Dialogue: 0,0:17:22.85,0:17:26.10,Dialogue,,0,0,0,,Dad's paper says: "World Cup 
 Dialogue: 0,0:17:26.69,0:17:30.27,Dialogue,,0,0,0,,while the other says: "World Cup Hero Questioned".
 Dialogue: 0,0:17:32.07,0:17:35.45,Dialogue,,0,0,0,,The ones at the station and the stores are different.
 Dialogue: 0,0:17:35.45,0:17:40.49,Dialogue,,0,0,0,,Unlike the newspapers at stores, the ones\Nsold at stations have a later deadline.
-Dialogue: 0,0:17:40.91,0:17:42.83,Dialogue,,0,0,0,,That gives them time to{\rHonorifics - Dialogue} chan{\r}ge them if need be.
-Dialogue: 0,0:17:43.58,0:17:47.96,Dialogue,,0,0,0,,Since his arrest was such big news, they had to{\rHonorifics - Dialogue} chan{\r}ge it.
+Dialogue: 0,0:17:40.91,0:17:42.83,Dialogue,,0,0,0,,That gives them time to change them if need be.
+Dialogue: 0,0:17:43.58,0:17:47.96,Dialogue,,0,0,0,,Since his arrest was such big news, they had to change it.
 Dialogue: 0,0:17:48.33,0:17:51.17,Dialogue,,0,0,0,,Then, Akashi{\rHonorifics - Dialogue}-san{\r} bought this newspaper at...
 Dialogue: 0,0:17:51.67,0:17:53.25,Dialogue,,0,0,0,,This is what probably happened.
 Dialogue: 0,0:17:54.34,0:17:56.38,Dialogue,,0,0,0,,He got this one to lure the victim.
@@ -331,7 +320,7 @@ Dialogue: 0,0:18:22.62,0:18:24.12,Dialogue,,0,0,0,,Then, could you show me?
 Dialogue: 0,0:18:24.83,0:18:27.83,Dialogue,,0,0,0,,The other Nichiuri Sports paper.
 Dialogue: 0,0:18:27.83,0:18:28.83,Dialogue,,0,0,0,,That's...
 Dialogue: 0,0:18:29.67,0:18:34.13,Dialogue,,0,0,0,,You probably ripped it up and\Nflushed it down the toilet, right?
-Dialogue: 0,0:18:35.26,0:18:37.97,Dialogue,,0,0,0,,If we check the toilet's{\rHonorifics - Dialogue} tan{\r}k, we'll find it.
+Dialogue: 0,0:18:35.26,0:18:37.97,Dialogue,,0,0,0,,If we check the toilet's tank, we'll find it.
 Dialogue: 0,0:18:46.10,0:18:47.10,Dialogue,,0,0,0,,Damn it!
 Dialogue: 0,0:18:53.77,0:18:54.36,Dialogue,,0,0,0,,Enough!
 Dialogue: 0,0:19:09.29,0:19:11.00,Dialogue,,0,0,0,,Now, admit it!
@@ -364,7 +353,7 @@ Dialogue: 0,0:20:53.69,0:20:58.02,Dialogue,ED EN,0,0,0,,To say something is impo
 Dialogue: 0,0:20:58.15,0:21:03.44,Dialogue Top,ED JP,0,0,0,,No sore dake ga jibun janai
 Dialogue: 0,0:20:58.15,0:21:03.44,Dialogue,ED EN,0,0,0,,No, that's not like me.
 Dialogue: 0,0:21:03.57,0:21:08.99,Dialogue Top,ED JP,0,0,0,,Yes kazamuki ga kawatta ima tobi datou
-Dialogue: 0,0:21:03.57,0:21:08.99,Dialogue,ED EN,0,0,0,,Yes, the wind has{\rHonorifics - Dialogue} chan{\r}ged: Let's start now.
+Dialogue: 0,0:21:03.57,0:21:08.99,Dialogue,ED EN,0,0,0,,Yes, the wind has changed: Let's start now.
 Dialogue: 0,0:21:09.16,0:21:14.29,Dialogue Top,ED JP,0,0,0,,Always give my love, always give my love to you! Yeah!
 Dialogue: 0,0:21:14.29,0:21:21.21,Dialogue Top,ED JP,0,0,0,,Always give my, give my love...
 Dialogue: 0,0:21:23.72,0:21:24.72,Dialogue,,0,0,0,,And then:

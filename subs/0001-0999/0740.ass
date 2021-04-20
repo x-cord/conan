@@ -33,13 +33,6 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: Muteki na Heart,Cocon,40,&HC0000000,&H000000FF,&H00FFFFFF,&HC0000000,-1,0,0,0,100,100,0,0,1,3.5,1,8,10,10,25,1
-Style: Phone,OSPuto,52,&H00BEE1FF,&H000000FF,&H000B2A42,&HC0000000,-1,0,0,0,94,100,0,0,1,2.5,2.5,2,27,27,30,1
-Style: FlashbackThoughts,OSPuto,52,&H4B370001,&H000000FF,&H00CCFFFF,&HC0000000,-1,0,0,0,94,100,0,0,1,2.6,2,2,100,100,30,1
-Style: PlaceCard,Corbel,35,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,2,2,100,100,30,1
-Style: Narr,OSPuto,50,&H6E8C6F00,&H000000FF,&H00FFFFFF,&H80000000,-1,0,0,0,100,100,0,0,1,3.7,1.5,2,100,100,30,1
-Style: Signage,OSPuto,50,&H00FFFFFF,&H000000FF,&H80000000,&H00000000,-1,0,0,0,100,100,0,0,3,8,0,2,40,40,40,1
-Style: BCPrologue,Cocon-Regular,45,&H805E0036,&H000000FF,&H00FFFFFF,&H80000000,-1,0,0,0,100,100,1,0,1,5,2,2,10,10,30,1
 Style: ButterflyCore,Love Is Complicated Again,45,&H405E0036,&H000000FF,&H00FFFFFF,&H80000000,-1,0,0,0,100,100,1,0,1,3.5,0,8,10,10,30,1
 Style: ButterflyCore2,Love Is Complicated Again,45,&HFF5E0036,&H000000FF,&H80000000,&H80000000,-1,0,0,0,100,100,1,0,1,0.75,0,8,10,10,30,1
 Style: RainMan,FOT-Seurat Pro,35,&HC0FAE4D0,&H000000FF,&H00FFFFFF,&H80000000,-1,0,0,0,100,100,0,0,1,3.5,0.5,8,10,10,25,1
@@ -56,12 +49,12 @@ Dialogue: 0,0:00:33.35,0:00:34.22,Thoughts,,0,0,0,,{\be10}An obvious blunder?
 Dialogue: 0,0:00:36.40,0:00:38.30,Thoughts,,0,0,0,,{\be10}Was that...
 Dialogue: 0,0:00:38.65,0:00:39.85,Thoughts,,0,0,0,,{\be10}A trap?!
 Dialogue: 0,0:00:42.30,0:00:45.55,Dialogue,,0,0,0,,Have I felt {\i1}their{\i0} presence lately?
-Dialogue: 0,0:00:45.55,0:00:46.97,Phone,,0,0,0,,{\blur3}Y-Yeah.
-Dialogue: 0,0:00:46.97,0:00:50.11,Phone,,0,0,0,,{\blur3}You said they had a certain smell or something, didn't you?
+Dialogue: 0,0:00:45.55,0:00:46.97,Radio,,0,0,0,,{\be10}Y-Yeah.
+Dialogue: 0,0:00:46.97,0:00:50.11,Radio,,0,0,0,,{\be10}You said they had a certain smell or something, didn't you?
 Dialogue: 0,0:00:50.51,0:00:54.32,Dialogue,,0,0,0,,I haven't felt anything, though I haven't been watching out for them.
 Dialogue: 0,0:00:54.32,0:00:57.95,Dialogue,,0,0,0,,You {\i1}did{\i0} say that they believe I'm dead.
-Dialogue: 0,0:00:58.60,0:01:00.95,Phone,,0,0,0,,{\blur3}I-Is that so? That's good then.
-Dialogue: 0,0:01:01.74,0:01:05.00,Phone,,0,0,0,,{\blur3}What is it? Don't tell me they found out that I'm still alive!
+Dialogue: 0,0:00:58.60,0:01:00.95,Radio,,0,0,0,,{\be10}I-Is that so? That's good then.
+Dialogue: 0,0:01:01.74,0:01:05.00,Radio,,0,0,0,,{\be10}What is it? Don't tell me they found out that I'm still alive!
 Dialogue: 0,0:01:05.44,0:01:08.36,Dialogue,,0,0,0,,I-I was just checking! That's all!
 Dialogue: 0,0:01:08.36,0:01:10.29,Dialogue,,0,0,0,,Sorry for calling so late.
 Dialogue: 0,0:01:12.68,0:01:15.68,Thoughts,,0,0,0,,{\be10}I've got to stay calm, stop panicking...
@@ -99,7 +92,7 @@ Dialogue: 0,0:02:54.82,0:03:00.41,ButterflyCore2,,0,0,0,,{\fad(0,1000)\3c&H00660
 Dialogue: 0,0:03:11.92,0:03:13.63,Dialogue,,0,0,0,,Hey, Conan{\rHonorifics - Dialogue}-kun{\r}?
 Dialogue: 0,0:03:16.98,0:03:18.40,Dialogue,,0,0,0,,Conan{\rHonorifics - Dialogue}-kun{\r}!
 Dialogue: 0,0:03:19.79,0:03:20.75,Dialogue,,0,0,0,,What?
-Dialogue: 0,0:03:20.75,0:03:22.58,Dialogue,,0,0,0,,Don't ‘what' me!
+Dialogue: 0,0:03:20.75,0:03:22.58,Dialogue,,0,0,0,,Don't 'what' me!
 Dialogue: 0,0:03:22.58,0:03:24.58,Dialogue,,0,0,0,,You haven't stopped glancing around since we got here.
 Dialogue: 0,0:03:24.58,0:03:26.01,Dialogue,,0,0,0,,Is there anyone suspicious here?
 Dialogue: 0,0:03:27.00,0:03:28.72,Dialogue,,0,0,0,,Oh, don't worry about it.
@@ -108,7 +101,7 @@ Dialogue: 0,0:03:30.32,0:03:31.77,Dialogue,,0,0,0,,Really?
 Dialogue: 0,0:03:32.68,0:03:34.50,Thoughts,,0,0,0,,{\be10}This is a problem.
 Dialogue: 0,0:03:34.50,0:03:37.53,Thoughts,,0,0,0,,{\be10}Ever since that happened, I feel like I'm being watched.
 Dialogue: 0,0:03:38.69,0:03:44.69,Thoughts,,0,0,0,,{\be10}I've told Jodie{\rHonorifics - Thoughts\be10}-sensei{\r\be10} that that couple may have been from the Black Organisation just in case...
-Dialogue: 0,0:03:46.32,0:03:50.25,Thoughts,,0,0,0,,{\be10}But if they, by any{\rHonorifics - Thoughts\be10} chan{\r\be10}ce, noticed {\i1}that{\i0}...
+Dialogue: 0,0:03:46.32,0:03:50.25,Thoughts,,0,0,0,,{\be10}But if they, by any chance, noticed {\i1}that{\i0}...
 Dialogue: 0,0:03:51.05,0:03:54.46,Thoughts,,0,0,0,,{\be10}Gotta calm down. It'll be fine. I'm fine!
 Dialogue: 0,0:03:58.40,0:04:02.64,Dialogue,,0,0,0,,Aren't you feeling well, Conan{\rHonorifics - Dialogue}-kun{\r}? You're drenched with sweat!
 Dialogue: 0,0:04:04.35,0:04:10.76,Dialogue,,0,0,0,,I know we were going to have lunch at a Chinese restaurant with my mum after this, but would you rather go home?
@@ -149,9 +142,9 @@ Dialogue: 0,0:06:12.32,0:06:17.44,Dialogue,,0,0,0,,My mum's working for one of t
 Dialogue: 0,0:06:17.44,0:06:20.64,Dialogue,,0,0,0,,We're going to have lunch together after that...
 Dialogue: 0,0:06:22.98,0:06:24.13,Dialogue,,0,0,0,,It's my mum.
 Dialogue: 0,0:06:25.85,0:06:28.99,Dialogue,,0,0,0,,What? You're kidding! You can't leave?!
-Dialogue: 0,0:06:28.99,0:06:31.80,Phone,,0,0,0,,{\blur3}But we're starving!
+Dialogue: 0,0:06:28.99,0:06:31.80,Radio,,0,0,0,,{\be10}But we're starving!
 Dialogue: 0,0:06:31.80,0:06:35.24,Dialogue,,0,0,0,,I'm sorry. This meeting's going to take a while yet.
-Dialogue: 0,0:06:35.55,0:06:41.82,Phone,,0,0,0,,{\blur3}If you're hungry, why don't you have a little snack with Conan{\rHonorifics - Phone}-kun{\r}, and we'll meet in the lobby here tonight?
+Dialogue: 0,0:06:35.55,0:06:41.82,Radio,,0,0,0,,{\be10}If you're hungry, why don't you have a little snack with Conan{\rHonorifics - Radio\be10}-kun{\r\be10}, and we'll meet in the lobby here tonight?
 Dialogue: 0,0:06:41.82,0:06:42.81,Dialogue,,0,0,0,,Okay.
 Dialogue: 0,0:06:44.35,0:06:47.46,Dialogue,,0,0,0,,I guess we better get some rice balls or something nearby...
 Dialogue: 0,0:06:47.46,0:06:50.20,Dialogue,,0,0,0,,In that case, how about having those two treat you to lunch?
@@ -169,7 +162,7 @@ Dialogue: 0,0:07:31.20,0:07:35.44,Dialogue,,0,0,0,,I wanna make peace with Waka 
 Dialogue: 0,0:07:35.44,0:07:38.48,Dialogue,,0,0,0,,We haven't spoken to each other\Nsince we broke up, after all.
 Dialogue: 0,0:07:39.51,0:07:44.18,Dialogue,,0,0,0,,That's true. Well, Kaga{\rHonorifics - Dialogue}-san{\r} will probably liven things up when he arrives!
 Dialogue: 0,0:07:44.18,0:07:45.40,Dialogue,,0,0,0,,E-Excuse me...
-Dialogue: 0,0:07:46.55,0:07:49.79,Dialogue,,0,0,0,,Would you be Kei{\rHonorifics - Dialogue}-chan{\r}'s sister, by any{\rHonorifics - Dialogue} chan{\r}ce?
+Dialogue: 0,0:07:46.55,0:07:49.79,Dialogue,,0,0,0,,Would you be Kei{\rHonorifics - Dialogue}-chan{\r}'s sister, by any chance?
 Dialogue: 0,0:07:49.79,0:07:50.82,Dialogue,,0,0,0,,Y-Yes.
 Dialogue: 0,0:07:52.03,0:07:57.14,Dialogue,,0,0,0,,I'm Ran Mouri. I was in her class last year.
 Dialogue: 0,0:07:57.14,0:08:02.93,Dialogue,,0,0,0,,She showed me your picture a few times, so I figured you might be her sister.
@@ -348,7 +341,7 @@ Dialogue: 0,0:19:25.31,0:19:32.66,Thoughts,,0,0,0,,{\be10}Which means Rumi{\rHon
 Dialogue: 0,0:19:32.66,0:19:36.02,Thoughts,,0,0,0,,{\be10}And Ran searched the right side where the bedroom is located.
 Dialogue: 0,0:19:36.70,0:19:43.01,Dialogue,,0,0,0,,Speaking of the balcony, Waka fell asleep there once when she came home drunk, didn't she?
 Dialogue: 0,0:19:43.01,0:19:45.83,Dialogue,,0,0,0,,Yeah, I heard about that.
-Dialogue: 0,0:19:47.05,0:19:52.44,Dialogue,,0,0,0,,She called me in a drunk daze and said\N‘Feeling the wind sobers me up',
+Dialogue: 0,0:19:47.05,0:19:52.44,Dialogue,,0,0,0,,She called me in a drunk daze and said\N'Feeling the wind sobers me up',
 Dialogue: 0,0:19:52.44,0:19:54.34,Dialogue,,0,0,0,,but ended up falling asleep during the phone call.
 Dialogue: 0,0:19:55.26,0:19:59.77,Dialogue,,0,0,0,,When I came here because I was worried, she was leaning against the balcony, fast asleep.
 Dialogue: 0,0:19:59.77,0:20:02.22,Dialogue,,0,0,0,,She also slept under the bed once.
@@ -400,7 +393,7 @@ Dialogue: 0,0:23:45.40,0:23:46.48,Dialogue,,0,0,0,,Here you go.
 Dialogue: 0,0:23:46.48,0:23:48.28,Dialogue,,0,0,0,,Be careful not to drop them again.
 Dialogue: 0,0:23:49.65,0:23:55.08,Dialogue,,0,0,0,,But if that corpse wasn't Waka{\rHonorifics - Dialogue}-san{\r}, then it's a different story.
 Dialogue: 0,0:23:56.69,0:23:58.16,Dialogue,,0,0,0,,What?!
-Dialogue: 0,0:23:58.16,0:24:04.17,Dialogue,,0,0,0,,On the next Conan: ‘The Bathroom Where Ran Blacks Out (Part II)'!
+Dialogue: 0,0:23:58.16,0:24:04.17,Dialogue,,0,0,0,,On the next Conan: 'The Bathroom Where Ran Blacks Out (Part II)'!
 Dialogue: 0,0:24:04.17,0:24:09.13,Dialogue,,0,0,0,,Next Conan's Hint: Wink!
 Dialogue: 0,0:24:09.13,0:24:10.39,Dialogue Top,,0,0,0,,It's nearly June!
 Dialogue: 0,0:24:10.39,0:24:11.30,Dialogue Top,,0,0,0,,May streams by in the blink of an eye!

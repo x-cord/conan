@@ -33,13 +33,8 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: Hospital,Arial,20,&H009DE2EC,&H000019FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0.1,1.5,2,0,0,0,1
 Style: Map,Candara,32,&H007E8380,&H000019FF,&H00FFFFFF,&H641B1B1B,-1,0,0,0,100,100,0,0,1,1.8,0,2,0,0,0,1
-Style: Background,candara,32,&HFFFFFFFF,&H000019FF,&H00E5E9EB,&H641B1B1B,-1,0,0,0,100,100,0,0,3,2,0,2,0,0,0,1
-Style: NextEpisode Title,DINk,30,&H00FFFFFF,&H000019FF,&H32B45C54,&HC0000000,-1,0,0,0,125,150,0,0,1,4,0,2,0,0,0,1
-Style: NextEpisode,A-OTF Shin Go Pro M,30,&H32FFFFFF,&H000019FF,&H96171717,&H00141414,-1,0,0,0,100,100,0,0,1,0,0,2,0,0,0,1
-Style: LOOK FORWARD,Calibri,32,&H00FFFFFF,&H000019FF,&H00000000,&H00000000,-1,0,0,0,85,100,0,0,1,1.4,2.5,2,0,0,0,1
-
+Style: Background,candara,32,&HFFFFFFFF,&H000019FF,&H00E5E9EB,&H641B1B1B,-1,0,0,0,100,100,0,0,3,2,0,2,0,0,0,1Style: NextEpisode,A-OTF Shin Go Pro M,30,&H32FFFFFF,&H000019FF,&H96171717,&H00141414,-1,0,0,0,100,100,0,0,1,0,0,2,0,0,0,1
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 Dialogue: 0,0:00:01.56,0:00:02.98,Dialogue,,0,0,0,,And so, how'd it go?
@@ -225,7 +220,7 @@ Dialogue: 0,0:10:18.22,0:10:20.43,Dialogue,,0,0,0,,Dad didn't mention that earli
 Dialogue: 0,0:10:20.43,0:10:22.35,Dialogue,,0,0,0,,Why not ask him again?
 Dialogue: 0,0:10:23.14,0:10:25.35,Signs,,0,0,0,,Racetrack Stop
 Dialogue: 0,0:10:30.31,0:10:31.31,Dialogue,,0,0,0,,What?
-Dialogue: 0,0:10:31.31,0:10:33.94,Dialogue,,0,0,0,,Anno's phone number was{\rHonorifics - Dialogue} chan{\r}ged?
+Dialogue: 0,0:10:31.31,0:10:33.94,Dialogue,,0,0,0,,Anno's phone number was changed?
 Dialogue: 0,0:10:33.94,0:10:35.07,Dialogue,,0,0,0,,That shouldn't be!
 Dialogue: 0,0:10:35.07,0:10:37.36,Dialogue,,0,0,0,,He just called me for a mahjong game earlier.
 Dialogue: 0,0:10:37.78,0:10:40.20,Dialogue,,0,0,0,,But when I called, it wasn't him.
@@ -234,12 +229,12 @@ Dialogue: 0,0:10:42.16,0:10:45.08,Dialogue,,0,0,0,,Then why don't you go to his 
 Dialogue: 0,0:10:45.08,0:10:48.33,Dialogue,,0,0,0,,It's right nearby that hospital you said were going to today.
 Dialogue: 0,0:10:48.87,0:10:52.92,Signs,,0,0,0,,{\frx6\fry348\frz15.77\4c&H1B1B1B&\3c&H101010&\c&H000000&\move(644,535,644,210,26,3988)}Anno
 Dialogue: 0,0:10:53.84,0:10:56.01,Dialogue,,0,0,0,,My son's moved?
-Dialogue: 0,0:10:56.46,0:10:59.97,Dialogue,,0,0,0,,Yes, when I tried to call him earlier, it seemed his number had{\rHonorifics - Dialogue} chan{\r}ged.
+Dialogue: 0,0:10:56.46,0:10:59.97,Dialogue,,0,0,0,,Yes, when I tried to call him earlier, it seemed his number had changed.
 Dialogue: 0,0:11:00.26,0:11:04.05,Dialogue,,0,0,0,,Strange, I was just talking to him a bit ago.
 Dialogue: 0,0:11:04.05,0:11:09.43,Dialogue,,0,0,0,,He said he caught a cold yesterday, so his voice is a little rough.
 Dialogue: 0,0:11:09.43,0:11:13.86,Dialogue,,0,0,0,,He even had to cancel his plans for a trip\Nthis Thursday and Friday because of it.
 Dialogue: 0,0:11:15.15,0:11:16.19,Dialogue,,0,0,0,,Oh, right!
-Dialogue: 0,0:11:16.19,0:11:20.45,Dialogue,,0,0,0,,I remember he said his number had{\rHonorifics - Dialogue} chan{\r}ged\Nbecause he broke his cellphone yesterday.
+Dialogue: 0,0:11:16.19,0:11:20.45,Dialogue,,0,0,0,,I remember he said his number had changed\Nbecause he broke his cellphone yesterday.
 Dialogue: 0,0:11:20.57,0:11:22.11,Dialogue,,0,0,0,,That could be it, right?
 Dialogue: 0,0:11:22.11,0:11:25.66,Dialogue,,0,0,0,,No, I called his home number.
 Dialogue: 0,0:11:25.66,0:11:28.79,Dialogue,,0,0,0,,Let's see, you're Mouri{\rHonorifics - Dialogue}-san{\r}'s daughter, right?
@@ -248,7 +243,7 @@ Dialogue: 0,0:11:31.37,0:11:32.96,Dialogue,,0,0,0,,I'm a bit busy now.
 Dialogue: 0,0:11:33.17,0:11:35.46,Dialogue,,0,0,0,,I have to hurry to the bank.
 Dialogue: 0,0:11:37.00,0:11:41.38,Dialogue,,0,0,0,,Could your son be in some kind of trouble?
 Dialogue: 0,0:11:42.55,0:11:43.97,Dialogue,,0,0,0,,Well, yes...
-Dialogue: 0,0:11:44.43,0:11:46.30,Dialogue,,0,0,0,,And did he by any{\rHonorifics - Dialogue} chan{\r}ce say:
+Dialogue: 0,0:11:44.43,0:11:46.30,Dialogue,,0,0,0,,And did he by any chance say:
 Dialogue: 0,0:11:47.01,0:11:50.98,Dialogue,,0,0,0,,''I don't want anyone else to know, so don't discuss it with anybody.''
 Dialogue: 0,0:11:54.27,0:11:59.07,Dialogue,,0,0,0,,The truth is, his partner stole the company's money...
 Dialogue: 0,0:11:59.53,0:12:07.91,Dialogue,,0,0,0,,They were just starting a new project, and if they couldn't transfer\Nmoney to the client by the end of the day they'd go bankrupt.
@@ -286,15 +281,15 @@ Dialogue: 0,0:13:40.08,0:13:44.17,Dialogue,,0,0,0,,That he would take a vacation
 Dialogue: 0,0:13:44.51,0:13:46.63,Dialogue,,0,0,0,,A reception, a reception.
 Dialogue: 0,0:13:46.63,0:13:51.51,Dialogue,,0,0,0,,Basically, this trip is to meet with the people vital to the project.
 Dialogue: 0,0:13:51.72,0:13:52.76,Dialogue,,0,0,0,,But, think...
-Dialogue: 0,0:13:52.76,0:13:57.02,Dialogue,,0,0,0,,He said his number{\rHonorifics - Dialogue} chan{\r}ged after his old cellphone broke, right?
+Dialogue: 0,0:13:52.76,0:13:57.02,Dialogue,,0,0,0,,He said his number changed after his old cellphone broke, right?
 Dialogue: 0,0:13:57.27,0:13:59.69,Dialogue,,0,0,0,,Huh? What does that have to do with it?
-Dialogue: 0,0:13:59.69,0:14:03.77,Dialogue,,0,0,0,,Since he had to{\rHonorifics - Dialogue} chan{\r}ge his cellphone out,\Nhe went ahead and got a new number with it.
+Dialogue: 0,0:13:59.69,0:14:03.77,Dialogue,,0,0,0,,Since he had to change his cellphone out,\Nhe went ahead and got a new number with it.
 Dialogue: 0,0:14:03.77,0:14:06.57,Dialogue,,0,0,0,,He's starting this whole new project, after all.
-Dialogue: 0,0:14:07.07,0:14:11.03,Dialogue,,0,0,0,,But wasn't it just yesterday that he called his mother about the{\rHonorifics - Dialogue} chan{\r}ge?
-Dialogue: 0,0:14:11.62,0:14:17.04,Dialogue,,0,0,0,,If he{\rHonorifics - Dialogue} chan{\r}ged his number at such a busy time,\Nit would probably annoy a lot of people.
+Dialogue: 0,0:14:07.07,0:14:11.03,Dialogue,,0,0,0,,But wasn't it just yesterday that he called his mother about the change?
+Dialogue: 0,0:14:11.62,0:14:17.04,Dialogue,,0,0,0,,If he changed his number at such a busy time,\Nit would probably annoy a lot of people.
 Dialogue: 0,0:14:18.83,0:14:20.50,Dialogue,,0,0,0,,That's probably true.
 Dialogue: 0,0:14:20.50,0:14:26.01,Dialogue,,0,0,0,,Changing it means that he'll have to tell all of his\Nbusiness colleagues about the new number.
-Dialogue: 0,0:14:26.01,0:14:31.63,Dialogue,,0,0,0,,Unless there was some big reason, I don't think it's likely\Nhe would{\rHonorifics - Dialogue} chan{\r}ge his number at a time like this.
+Dialogue: 0,0:14:26.01,0:14:31.63,Dialogue,,0,0,0,,Unless there was some big reason, I don't think it's likely\Nhe would change his number at a time like this.
 Dialogue: 0,0:14:31.84,0:14:33.39,Dialogue,,0,0,0,,Then, why?
 Dialogue: 0,0:14:33.39,0:14:35.64,Dialogue,,0,0,0,,Maybe he was annoyed with prank calls?
 Dialogue: 0,0:14:35.97,0:14:40.94,Dialogue,,0,0,0,,That reminds me, he did mention he\Nwas getting a lot of silent calls recently.
@@ -344,7 +339,7 @@ Dialogue: 0,0:17:41.49,0:17:46.70,Dialogue,,0,0,0,,With this fraud method becomi
 Dialogue: 0,0:17:48.21,0:17:50.17,Dialogue,,0,0,0,,Or at least that's what they said on a lunchtime talk show.
 Dialogue: 0,0:17:51.29,0:17:54.46,Dialogue,,0,0,0,,As usual, you remember everything, Conan{\rHonorifics - Dialogue}-kun{\r}.
 Dialogue: 0,0:17:54.46,0:17:58.05,Dialogue,,0,0,0,,He's like a housewife with plenty of time to watch TV over lunch.
-Dialogue: 0,0:17:58.22,0:18:02.68,Dialogue,,0,0,0,,That means when he said his cellphone broke and\Nhe{\rHonorifics - Dialogue} chan{\r}ged his number he was probably lying.
+Dialogue: 0,0:17:58.22,0:18:02.68,Dialogue,,0,0,0,,That means when he said his cellphone broke and\Nhe changed his number he was probably lying.
 Dialogue: 0,0:18:03.43,0:18:06.68,Dialogue,,0,0,0,,He didn't want her to call her son, who's really on his trip.
 Dialogue: 0,0:18:07.81,0:18:12.98,Dialogue,,0,0,0,,That means, if we call your son's former cellphone number right now...
 Dialogue: 0,0:18:13.40,0:18:14.94,Dialogue,,0,0,0,,We'll know if this is really a fraud or not.

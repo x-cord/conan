@@ -33,19 +33,6 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: Muteki na Heart,Cocon,40,&HC0000000,&H000000FF,&H00FFFFFF,&HC0000000,-1,0,0,0,100,100,0,0,1,3.5,1,8,10,10,25,1
-Style: Phone,OSPuto,52,&H00BEE1FF,&H000000FF,&H000B2A42,&HC0000000,-1,0,0,0,94,100,0,0,1,2.5,2.5,2,27,27,30,1
-Style: FlashbackThoughts,OSPuto,52,&H4B370001,&H000000FF,&H00CCFFFF,&HC0000000,-1,0,0,0,94,100,0,0,1,2.6,2,2,100,100,30,1
-Style: PlaceCard,Corbel,35,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,2,2,100,100,30,1
-Style: Narr,OSPuto,50,&H6E8C6F00,&H000000FF,&H00FFFFFF,&H80000000,-1,0,0,0,100,100,0,0,1,3.7,1.5,2,100,100,30,1
-Style: Signage,OSPuto,50,&H00FFFFFF,&H000000FF,&H80000000,&H00000000,-1,0,0,0,100,100,0,0,3,8,0,2,40,40,40,1
-Style: BCPrologue,Cocon-Regular,45,&H805E0036,&H000000FF,&H00FFFFFF,&H80000000,-1,0,0,0,100,100,1,0,1,5,2,2,10,10,30,1
-Style: ButterflyCore,Love Is Complicated Again,45,&H405E0036,&H000000FF,&H00FFFFFF,&H80000000,-1,0,0,0,100,100,1,0,1,3.5,0,8,10,10,30,1
-Style: ButterflyCore2,Love Is Complicated Again,45,&HFF5E0036,&H000000FF,&H80000000,&H80000000,-1,0,0,0,100,100,1,0,1,0.75,0,8,10,10,30,1
-Style: RainMan,FOT-Seurat Pro,35,&HC0FE4D00,&H000000FF,&H00FFFFFF,&H80000000,-1,0,0,0,100,100,0,0,1,3.5,0.5,8,10,10,25,1
-Style: GreedNarr,Biko,45,&H6E8C4000,&H000000FF,&H00FFFFFF,&H80000000,-1,0,0,0,100,100,0,0,1,3.7,1.5,2,50,50,30,1
-Style: SongTitle,ShinGoPro-Regular,63,&H00FFFFFF,&H000000FF,&H005F5F5F,&H005F5F5F,0,0,0,0,100,100,0,0,1,2,3,2,45,45,41,1
-Style: OPTL_BL,Biko,45,&H00FFFFFF,&H000000FF,&H80000000,&HC0000000,-1,0,0,0,100,100,0,0,1,2,1,2,10,10,25,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -133,7 +120,7 @@ Dialogue: 0,0:05:10.87,0:05:12.62,Dialogue,,0000,0000,0000,,{He \i1so \i0doesn't
 Dialogue: 0,0:05:12.62,0:05:14.54,Dialogue,,0000,0000,0000,,{Well, sorry for not acting cute.}Well, sorry for being annoying.
 Dialogue: 0,0:05:14.96,0:05:16.42,Dialogue,,0000,0000,0000,,Conan{\rHonorifics - Dialogue}-kun{\r}!
 Dialogue: 0,0:05:16.42,0:05:19.92,Dialogue,,0000,0000,0000,,So that cute girl down there is Haibara{\rHonorifics - Dialogue}-san{\r}?
-Dialogue: 0,0:05:19.92,0:05:23.55,Dialogue,,0000,0000,0000,,Yes. Though I apologise for not being a ‘beauty' yet.
+Dialogue: 0,0:05:19.92,0:05:23.55,Dialogue,,0000,0000,0000,,Yes. Though I apologise for not being a 'beauty' yet.
 Dialogue: 0,0:05:25.01,0:05:27.13,Dialogue,,0000,0000,0000,,You're very beautiful, even now.
 Dialogue: 0,0:05:27.13,0:05:29.59,Dialogue,,0000,0000,0000,,For a primary school student, anyway.
 Dialogue: 0,0:05:30.55,0:05:33.35,Dialogue,,0000,0000,0000,,What're you two doing here?
@@ -223,7 +210,7 @@ Dialogue: 0,0:10:05.45,0:10:08.67,Dialogue,,0000,0000,0000,,Oh, then we'll go ge
 Dialogue: 0,0:10:15.21,0:10:19.22,Dialogue,,0000,0000,0000,,I see. So you couldn't ride in the ambulance.
 Dialogue: 0,0:10:21.51,0:10:26.18,Dialogue,,0000,0000,0000,,Should we bring Nao{\rHonorifics - Dialogue}-san{\r} and her husband their clothes and things?
 Dialogue: 0,0:10:26.73,0:10:29.23,Dialogue,,0000,0000,0000,,Ah, yeah.
-Dialogue: 0,0:10:35.73,0:10:38.65,Dialogue Top,,0000,0000,0000,,{\fad(0,300)}‘Emergency Medical Centre'
+Dialogue: 0,0:10:35.73,0:10:38.65,Dialogue Top,,0000,0000,0000,,{\fad(0,300)}'Emergency Medical Centre'
 Dialogue: 0,0:10:33.94,0:10:35.73,Dialogue,,0000,0000,0000,,You're sure this was an accident?!
 Dialogue: 0,0:10:36.61,0:10:39.61,Dialogue,,0000,0000,0000,,There hasn't been a thorough investigation yet.
 Dialogue: 0,0:10:43.87,0:10:48.62,Signs,,0000,0000,0000,,Ryōichi Katagiri (48)\NTakaguchi's Secretary
@@ -253,7 +240,7 @@ Dialogue: 0,0:11:42.88,0:11:46.30,Dialogue,,0000,0000,0000,,No way! To think tha
 Dialogue: 0,0:11:46.30,0:11:48.22,Dialogue,,0000,0000,0000,,I can't believe it.
 Dialogue: 0,0:11:51.10,0:11:52.48,Dialogue,,0000,0000,0000,,For now, Detective...
 Dialogue: 0,0:11:52.48,0:11:55.52,Dialogue,,0000,0000,0000,,Please look into it and find out whether or not this was really an accident.
-Dialogue: 0,0:11:55.52,0:11:58.98,Dialogue,,0000,0000,0000,,‘Even before we got married, I'm certain people were after our fortune.'
+Dialogue: 0,0:11:55.52,0:11:58.98,Dialogue,,0000,0000,0000,,'Even before we got married, I'm certain people were after our fortune.'
 Dialogue: 0,0:11:58.98,0:12:01.28,Dialogue,,0000,0000,0000,,The president told me that more times than I can count!
 Dialogue: 0,0:12:01.28,0:12:05.07,Dialogue,,0000,0000,0000,,Even so, the president was completely deceived by that woman.
 Dialogue: 0,0:12:05.07,0:12:07.28,Dialogue,,0000,0000,0000,,And to think that it would end like this...
@@ -303,8 +290,8 @@ Dialogue: 0,0:14:21.50,0:14:23.63,Signs,,0000,0000,0000,,Keep moving towards me!
 Dialogue: 0,0:14:23.63,0:14:25.09,Signs,,0000,0000,0000,,Great!
 Dialogue: 0,0:14:20.92,0:14:25.09,Dialogue,,0000,0000,0000,,The parts where I'm in the video were filmed by our maid.
 Dialogue: 0,0:14:26.84,0:14:30.55,Dialogue,,0000,0000,0000,,And then this was recorded last week.
-Dialogue: 0,0:14:33.72,0:14:35.81,Phone,,0000,0000,0000,,{\blur3}That's it! Keep it up!
-Dialogue: 0,0:14:35.81,0:14:37.98,Phone,,0000,0000,0000,,{\blur3}Don't stop, try a flip turn!
+Dialogue: 0,0:14:33.72,0:14:35.81,Radio,,0000,0000,0000,,{\be10}That's it! Keep it up!
+Dialogue: 0,0:14:35.81,0:14:37.98,Radio,,0000,0000,0000,,{\be10}Don't stop, try a flip turn!
 Dialogue: 0,0:14:40.73,0:14:41.44,Dialogue,,0000,0000,0000,,I see.
 Dialogue: 0,0:14:41.73,0:14:45.11,Dialogue,,0000,0000,0000,,He really was learning to swim.
 Dialogue: 0,0:14:46.40,0:14:47.36,Dialogue,,0000,0000,0000,,Come with me a second.
@@ -312,20 +299,20 @@ Dialogue: 0,0:14:50.11,0:14:51.61,Dialogue,,0000,0000,0000,,What is it, Conan{\r
 Dialogue: 0,0:14:51.61,0:14:53.58,Dialogue,,0000,0000,0000,,Can I see your video camera?
 Dialogue: 0,0:14:53.58,0:14:55.91,Dialogue,,0000,0000,0000,,Yes, that's fine.
 Dialogue: 0,0:15:02.79,0:15:06.88,Dialogue,,0000,0000,0000,,Is there something important in that video?
-Dialogue: 0,0:15:06.88,0:15:08.59,Phone,,0000,0000,0000,,{\blur3}You're right!
-Dialogue: 0,0:15:08.59,0:15:11.30,Phone,,0000,0000,0000,,{\blur3}Yep! Nao{\rHonorifics - Phone}-san{\r} came out, too.
+Dialogue: 0,0:15:06.88,0:15:08.59,Radio,,0000,0000,0000,,{\be10}You're right!
+Dialogue: 0,0:15:08.59,0:15:11.30,Radio,,0000,0000,0000,,{\be10}Yep! Nao{\rHonorifics - Radio\be10}-san{\r\be10} came out, too.
 Dialogue: 0,0:15:11.89,0:15:14.13,Dialogue,,0000,0000,0000,,Good. It picked up the audio, too.
 Dialogue: 0,0:15:15.26,0:15:17.27,Dialogue,,0000,0000,0000,,The problem is what happens next...
-Dialogue: 0,0:15:18.56,0:15:20.60,Phone,,0000,0000,0000,,{\blur3}Let's go swimming, too!
-Dialogue: 0,0:15:20.60,0:15:21.56,Phone,,0000,0000,0000,,{\blur3}Okay.
-Dialogue: 0,0:15:21.56,0:15:23.19,Phone,,0000,0000,0000,,{\blur3}Then I'll go get a swim ring.
-Dialogue: 0,0:15:23.19,0:15:26.02,Phone,,0000,0000,0000,,{\blur3}What is this?! This isn't right.
-Dialogue: 0,0:15:26.02,0:15:28.94,Phone,,0000,0000,0000,,{\blur3}Someone... Anyone!
+Dialogue: 0,0:15:18.56,0:15:20.60,Radio,,0000,0000,0000,,{\be10}Let's go swimming, too!
+Dialogue: 0,0:15:20.60,0:15:21.56,Radio,,0000,0000,0000,,{\be10}Okay.
+Dialogue: 0,0:15:21.56,0:15:23.19,Radio,,0000,0000,0000,,{\be10}Then I'll go get a swim ring.
+Dialogue: 0,0:15:23.19,0:15:26.02,Radio,,0000,0000,0000,,{\be10}What is this?! This isn't right.
+Dialogue: 0,0:15:26.02,0:15:28.94,Radio,,0000,0000,0000,,{\be10}Someone... Anyone!
 Dialogue: 0,0:15:29.90,0:15:31.65,Dialogue,,0000,0000,0000,,Here, right here!
 Dialogue: 0,0:15:32.57,0:15:34.37,Dialogue,,0000,0000,0000,,Can this zoom in more?
 Dialogue: 0,0:15:34.37,0:15:37.29,Dialogue,,0000,0000,0000,,Yes, though the picture gets blurry.
-Dialogue: 0,0:15:38.49,0:15:41.92,Phone,,0000,0000,0000,,{\blur3}Someone... Anyone!
-Dialogue: 0,0:15:49.88,0:15:51.30,Phone,,0000,0000,0000,,{\blur3}Dear!
+Dialogue: 0,0:15:38.49,0:15:41.92,Radio,,0000,0000,0000,,{\be10}Someone... Anyone!
+Dialogue: 0,0:15:49.88,0:15:51.30,Radio,,0000,0000,0000,,{\be10}Dear!
 Dialogue: 0,0:15:53.26,0:15:55.51,Thoughts,,0000,0000,0000,,{\be10}What does this mean?
 Dialogue: 0,0:15:55.51,0:15:58.89,Thoughts,,0000,0000,0000,,{\be10}There's a brief period between when Nao{\rHonorifics - Thoughts\be10}-san{\r\be10} realised Kōtarō{\rHonorifics - Thoughts\be10}-san{\r\be10} was drowning,
 Dialogue: 0,0:15:58.89,0:16:01.81,Thoughts,,0000,0000,0000,,{\be10}and when she jumped in to rescue him.
@@ -422,17 +409,6 @@ Dialogue: 0,0:21:17.17,0:21:21.30,Dialogue,,0000,0000,0000,,I was at the limits 
 Dialogue: 0,0:21:21.75,0:21:26.05,Dialogue,,0000,0000,0000,,While it may be true that Takiguchi{\rHonorifics - Dialogue}-san{\r} was obsessed with earning money,
 Dialogue: 0,0:21:26.05,0:21:29.30,Dialogue,,0000,0000,0000,,and lacked common decency and refinement,
 Dialogue: 0,0:21:29.30,0:21:36.02,Dialogue,,0000,0000,0000,,don't you think he's still a much better person than you, who killed someone out of revenge?!
-Dialogue: 0,0:21:48.41,0:21:55.87,Muteki na Heart,,0000,0000,0000,,{\blur2\c&HCD8B2A&}itsushika jibun miushinatte'ta ‘daijōbu'-tte hontō wa uso
-Dialogue: 0,0:21:56.08,0:21:59.88,Muteki na Heart,,0000,0000,0000,,{\blur2\c&HC2E6FA&\t(1262,2690,\c&HECC000&)}iiwake nante mō dō ni mo naranai
-Dialogue: 0,0:22:00.04,0:22:03.71,Muteki na Heart,,0000,0000,0000,,{\blur2\c&HECC000&}kokoro ga odoru yō ja nakya ne
-Dialogue: 0,0:22:03.88,0:22:10.47,Muteki na Heart,,0000,0000,0000,,{\blur2\c&H880044}kokoro ni hitotsuzutsu hi o tomoshitekita kedo
-Dialogue: 0,0:22:10.68,0:22:17.39,Muteki na Heart,,0000,0000,0000,,{\blur2\c&H880044}gomen tameiki tsuichatta kono mama ja kiesō
-Dialogue: 0,0:22:18.60,0:22:22.23,Muteki na Heart,,0000,0000,0000,,{\blur2\c&HDB0000&\t(640,660,\c&H008800)}muteki na heart sawagidashite
-Dialogue: 0,0:22:22.40,0:22:26.19,Muteki na Heart,,0000,0000,0000,,{\c&H008800\blur2\t(640,670,\c&HCC7500&)\t(2650,2670,\c&H0000FF)}saa kokoro hodoite respect yourself
-Dialogue: 0,0:22:26.36,0:22:34.08,Muteki na Heart,,0000,0000,0000,,{\blur2\c&H0000FF\t(600,610,\c&H008800)}hontō no jibun de ireba muchū de yume mite'ta watashi ni (be back)
-Dialogue: 0,0:22:34.24,0:22:37.79,Muteki na Heart,,0000,0000,0000,,{\c&H0000FF\t(1600,1680,\c&HD37F00&)\blur2}invincible heart mezamesasete
-Dialogue: 0,0:22:37.96,0:22:41.71,Muteki na Heart,,0000,0000,0000,,{\blur2\c&HD37F00&}osoreru koto nai revives my heart
-Dialogue: 0,0:22:41.88,0:22:50.63,Muteki na Heart,,0000,0000,0000,,{\blur2\c&HD37F00\fad(0,500)\t(640,680,\c&H008800)\t(7700,7800,\c&HFF)}namida o nagashita ato ni wa muteki na watashi to ashita ni cheers!
 Dialogue: 0,0:23:04.86,0:23:07.94,Dialogue,,0000,0000,0000,,I believed that she was a kind person, too...
 Dialogue: 0,0:23:08.40,0:23:12.37,Dialogue,,0000,0000,0000,,I know. I thought she was a good person when she treated us to lunch.
 Dialogue: 0,0:23:12.37,0:23:14.95,Dialogue,,0000,0000,0000,,I'm never trusting a grown-up ever again!
@@ -454,5 +430,5 @@ Dialogue: 0,0:23:55.45,0:23:58.99,Dialogue,,0000,0000,0000,,No, I'm his real own
 Dialogue: 0,0:23:58.99,0:24:01.33,Dialogue,,0000,0000,0000,,You're wrong! I'm telling you, he's mine!
 Dialogue: 0,0:24:01.75,0:24:03.83,Dialogue,,0000,0000,0000,,He's not that ordinary.
 Dialogue: 0,0:24:04.50,0:24:07.17,Dialogue,,0000,0000,0000,,...with a mystery solving specialist at my side.
-Dialogue: 0,0:24:08.80,0:24:14.80,Dialogue,,0000,0000,0000,,On the next Conan: ‘The Case of the Beckoning Calico Cat (Part I)'!
+Dialogue: 0,0:24:08.80,0:24:14.80,Dialogue,,0000,0000,0000,,On the next Conan: 'The Case of the Beckoning Calico Cat (Part I)'!
 Dialogue: 0,0:24:14.80,0:24:21.60,Dialogue,,0000,0000,0000,,Next Conan's Hint: Taii!

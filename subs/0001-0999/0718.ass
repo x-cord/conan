@@ -33,30 +33,18 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: Tsuzukiwa,Nyala,100,&HFE000000,&H000000FF,&H00FFFFFF,&H00000000,-1,0,0,0,100,100,0,0.1,1,6,0,5,10,10,10,1
-Style: Tsuzukiwa2,Nyala,100,&H00000000,&H000000FF,&H00FFFFFF,&H00000000,-1,0,0,0,100,100,0,0.1,1,0,0,5,10,10,10,1
-Style: FlashbackThoughts,OSPuto,50,&H4B370001,&H000000FF,&H00CCFFFF,&HC0000000,-1,0,0,0,94,100,0,0,1,2.6,2,2,100,100,30,1
-Style: PlaceCard,Corbel,35,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,2,2,100,100,30,1
-Style: topbox,Arial,20,&HFFFFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,3,1,0,8,10,10,10,1
-Style: Narr,OSPuto,50,&H6E8C6F00,&H000000FF,&H00FFFFFF,&H80000000,-1,0,0,0,100,100,0,0,1,3.7,1.5,2,100,100,30,1
-Style: Signage,OSPuto,50,&H00FFFFFF,&H000000FF,&H80000000,&H00000000,-1,0,0,0,100,100,0,0,3,8,0,2,40,40,40,1
-Style: Copy of TitleCard,X-FilesM,40,&H00FFFFFF,&H000000FF,&H00A7A7A7,&HC0000000,-1,0,0,0,100,100,0,0,1,0,0,5,0,0,0,1
-Style: OPRom2,Berlin Sans FB Macron,40,&H60000000,&H000000FF,&H60000000,&H603E3330,-1,0,0,0,100,100,1,0,1,3.4,0,8,8,8,25,1
-Style: OPRomUnedited,Berlin Sans FB Macron,40,&HC00000FF,&H000000FF,&H00FFFFFF,&H603E3330,-1,0,0,0,100,100,1,0,1,4,1.6875,8,8,8,25,1
-Style: Poodles,MV Boli M,70,&H400102B5,&H000809FC,&H00CFF2F3,&H80000000,0,0,0,0,100,100,0,0,1,4,2,8,10,10,25,1
+Style: Tsuzukiwa,Nyala,100,&HFE000000,&H000000FF,&H00FFFFFF,&H00000000,-1,0,0,0,100,100,0,0.1,1,6,0,5,10,10,10,1Style: FlashbackThoughts,OSPuto,50,&H4B370001,&H000000FF,&H00CCFFFF,&HC0000000,-1,0,0,0,94,100,0,0,1,2.6,2,2,100,100,30,1
+Style: PlaceCard,Corbel,35,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,2,2,100,100,30,1Style: Poodles,MV Boli M,70,&H400102B5,&H000809FC,&H00CFF2F3,&H80000000,0,0,0,0,100,100,0,0,1,4,2,8,10,10,25,1
 Style: ButterflyCore,Love Is Complicated Again,45,&H405E0036,&H000000FF,&H00FFFFFF,&H80000000,-1,0,0,0,100,100,1,0,1,3.5,0,8,10,10,30,1
 Style: ButterflyCore2,Love Is Complicated Again,45,&HFF5E0036,&H000000FF,&H80000000,&H80000000,-1,0,0,0,100,100,1,0,1,0.75,0,8,10,10,30,1
 Style: BCPrologue,Cocon-Regular,45,&H805E0036,&H000000FF,&H00FFFFFF,&H80000000,-1,0,0,0,100,100,1,0,1,5,2,2,10,10,30,1
-Style: AitakuteRomaji,AlaskanNightsM,52,&H60DB9572,&H000000FF,&H00FFFFFF,&HC02F2F2F,-1,0,0,0,108,100,0,0,1,4,0,8,8,8,30,1
-Style: Phone,OSPuto,50,&H00BEE1FF,&H000000FF,&H000B2A42,&HC0000000,-1,0,0,0,94,100,0,0,1,2.5,2.5,2,27,27,30,1
-
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:02.77,0:00:10.50,Narr,,0,0,0,,{\an8\blur3}The old man was invited to the vacation home of Chika Kaidō{\rHonorifics - Narr}-san{\r}, a mystery novelist from Shizuoka,
+Dialogue: 0,0:00:02.77,0:00:10.50,Narration Off,,0,0,0,,{\be10\an8}The old man was invited to the vacation home of Chika Kaidō{\rHonorifics - Narration Off\be10}-san{\r\be10}, a mystery novelist from Shizuoka,
 Dialogue: 0,0:00:04.48,0:00:07.73,Signs,,0,0,0,,Chika Kaidō (40)\NMystery Novelist
 Dialogue: 0,0:00:07.98,0:00:12.24,Signs,,0,0,0,,Kōko Shimura (29)\NChika's Apprentice
 Dialogue: 0,0:00:07.98,0:00:12.24,Signs,,0,0,0,,Yūichi Kaidō (41)\NChika's Husband
-Dialogue: 0,0:00:10.50,0:00:15.28,Narr,,0,0,0,,{\blur3\an8}who apparently wanted to hear his tales of life as a detective.
+Dialogue: 0,0:00:10.50,0:00:15.28,Narration Off,,0,0,0,,{\be10\an8}who apparently wanted to hear his tales of life as a detective.
 Dialogue: 0,0:00:20.27,0:00:24.71,Dialogue Top,,0,0,0,,You know, Mouri{\rHonorifics - Dialogue}-san{\r}, those two are in a relationship.
 Dialogue: 0,0:00:24.71,0:00:26.13,Dialogue,,0,0,0,,Yes?
 Dialogue: 0,0:00:27.20,0:00:28.92,Dialogue,,0,0,0,,Those two...
@@ -81,8 +69,8 @@ Dialogue: 0,0:01:48.30,0:01:49.63,Dialogue,,0,0,0,,You're right.
 Dialogue: 0,0:01:50.96,0:01:53.61,Dialogue,,0,0,0,,Tonight should be a good night for working on my manuscript.
 Dialogue: 0,0:01:54.28,0:01:57.13,Dialogue,,0,0,0,,The clearer the night sky, the darker it gets...
 Dialogue: 0,0:01:57.76,0:02:00.39,Dialogue,,0,0,0,,A grand backdrop to a farewell...
-Dialogue: 0,0:02:01.65,0:02:04.36,Narr,,0,0,0,,{\blur3}Even I had no idea what they were planning...
-Dialogue: 0,0:02:04.36,0:02:07.62,Narr,,0,0,0,,{\blur3}...until the case occurred.
+Dialogue: 0,0:02:01.65,0:02:04.36,Narration Off,,0,0,0,,{\be10}Even I had no idea what they were planning...
+Dialogue: 0,0:02:04.36,0:02:07.62,Narration Off,,0,0,0,,{\be10}...until the case occurred.
 Dialogue: 0,0:02:22.13,0:02:25.64,BCPrologue,,0,0,0,,{\blur3}Only the light of deductions can tear apart black shadows and deep darkness!
 Dialogue: 0,0:02:26.27,0:02:29.02,BCPrologue,,0,0,0,,{\blur3}A three-way struggle of murderous intent, the outcome of which is unknown until the next day!
 Dialogue: 0,0:02:29.63,0:02:31.10,BCPrologue,,0,0,0,,{\blur3}He sees the single truth for what it is,
@@ -126,9 +114,9 @@ Dialogue: 0,0:05:59.68,0:06:03.31,Dialogue,,0,0,0,,It seems she was still workin
 Dialogue: 0,0:06:03.81,0:06:06.98,Dialogue,,0,0,0,,Then maybe she wrote a dying message?
 Dialogue: 0,0:06:06.98,0:06:08.35,Dialogue,,0,0,0,,No way!
 Dialogue: 0,0:06:11.10,0:06:12.07,Dialogue,,0,0,0,,Something showed up!
-Dialogue: 0,0:06:12.63,0:06:14.58,Dialogue,,0,0,0,,‘An ironic cycle.'
-Dialogue: 0,0:06:14.58,0:06:16.03,Dialogue,,0,0,0,,‘The wrong target.'
-Dialogue: 0,0:06:16.03,0:06:19.96,Dialogue,,0,0,0,,‘And the lone survivor laughs loudly.'
+Dialogue: 0,0:06:12.63,0:06:14.58,Dialogue,,0,0,0,,'An ironic cycle.'
+Dialogue: 0,0:06:14.58,0:06:16.03,Dialogue,,0,0,0,,'The wrong target.'
+Dialogue: 0,0:06:16.03,0:06:19.96,Dialogue,,0,0,0,,'And the lone survivor laughs loudly.'
 Dialogue: 0,0:06:21.87,0:06:25.21,Dialogue,,0,0,0,,It doesn't look like a dying message.
 Dialogue: 0,0:06:25.21,0:06:28.34,Dialogue,,0,0,0,,Is it a list of ideas for her novels?
 Dialogue: 0,0:06:29.02,0:06:31.76,Dialogue,,0,0,0,,Dad, the police are on their way!
@@ -147,8 +135,8 @@ Dialogue: 0,0:07:16.94,0:07:22.97,Dialogue,,0,0,0,,Inspector Yokomizo, why do we
 Dialogue: 0,0:07:22.97,0:07:24.56,Dialogue,,0,0,0,,Don't say that.
 Dialogue: 0,0:07:24.88,0:07:29.07,Thoughts,,0,0,0,,{\be10}There was a box of 20 chocolate bars on her desk.
 Dialogue: 0,0:07:29.42,0:07:36.28,Thoughts,,0,0,0,,{\be10}There were 17 bars still in the box, and the wrapper of an eaten bar next to it.
-Dialogue: 0,0:07:36.72,0:07:42.79,Narr,,0,0,0,,{\blur3}A syringe was also found in the closet in the room of her husband, Yūichi Kaidō.
-Dialogue: 0,0:07:43.42,0:07:50.76,Narr,,10,10,0,,{\blur3}An examination at the scene showed that all three of them died from poisoning, so their bodies were sent for forensic autopsy.
+Dialogue: 0,0:07:36.72,0:07:42.79,Narration Off,,0,0,0,,{\be10}A syringe was also found in the closet in the room of her husband, Yūichi Kaidō.
+Dialogue: 0,0:07:43.42,0:07:50.76,Narration Off,,10,10,0,,{\be10}An examination at the scene showed that all three of them died from poisoning, so their bodies were sent for forensic autopsy.
 Dialogue: 0,0:07:50.76,0:07:55.26,Dialogue,,0,0,0,,Hey, Dad, was this suicide or murder?
 Dialogue: 0,0:07:56.76,0:07:58.47,Dialogue,,0,0,0,,Because I have no idea.
 Dialogue: 0,0:07:58.47,0:08:06.20,Dialogue,,0,0,0,,Hey, apparently Chika{\rHonorifics - Dialogue}-sensei{\r} loved those chocolate bars, and always ate them while working.
@@ -159,8 +147,8 @@ Dialogue: 0,0:08:27.62,0:08:30.37,Dialogue,,0,0,0,,In other words, those were Ch
 Dialogue: 0,0:08:30.37,0:08:32.80,Dialogue,,0,0,0,,But where did you find that?
 Dialogue: 0,0:08:34.00,0:08:36.12,Dialogue,,0,0,0,,It was in the living room.
 Dialogue: 0,0:08:36.12,0:08:37.54,Dialogue,,0,0,0,,Let's see...
-Dialogue: 0,0:08:37.54,0:08:44.55,Dialogue,,0,0,0,,‘I like taking long baths, followed up by drinking a cold beer.'
-Dialogue: 0,0:08:44.55,0:08:47.44,Dialogue,,0,0,0,,‘But my doctor told me to stop...'
+Dialogue: 0,0:08:37.54,0:08:44.55,Dialogue,,0,0,0,,'I like taking long baths, followed up by drinking a cold beer.'
+Dialogue: 0,0:08:44.55,0:08:47.44,Dialogue,,0,0,0,,'But my doctor told me to stop...'
 Dialogue: 0,0:08:47.44,0:08:50.98,Dialogue,,0,0,0,,But there was an empty beer can in her bin, right?
 Dialogue: 0,0:08:50.98,0:08:57.15,Dialogue,,0,0,0,,It also says that she bought that water carafe after she was told to quit drinking beer, so she could drink water after her baths.
 Dialogue: 0,0:08:57.91,0:09:01.70,Dialogue,,0,0,0,,And that the assistant who went to buy it with her liked it a lot!
@@ -173,7 +161,7 @@ Dialogue: 0,0:09:11.00,0:09:12.21,Thoughts,,0,0,0,,{\be10\i1}That's{\i0} what yo
 Dialogue: 0,0:09:13.47,0:09:15.37,Dialogue,,0,0,0,,Chika{\rHonorifics - Dialogue}-sensei{\r} passed away?
 Dialogue: 0,0:09:15.37,0:09:16.55,Dialogue,,0,0,0,,W-When?
 Dialogue: 0,0:09:16.55,0:09:18.55,Dialogue,,0,0,0,,First, who might you be?
-Dialogue: 0,0:09:18.86,0:09:22.84,Dialogue Top,,0,0,0,,I work for the monthly magazine ‘Deduction Paradise' — I'm in charge of Chika{\rHonorifics - Dialogue}-sensei{\r}.{my head exploded trying to parse this. -uso.}
+Dialogue: 0,0:09:18.86,0:09:22.84,Dialogue Top,,0,0,0,,I work for the monthly magazine 'Deduction Paradise' — I'm in charge of Chika{\rHonorifics - Dialogue}-sensei{\r}.{my head exploded trying to parse this. -uso.}
 Dialogue: 0,0:09:18.80,0:09:24.60,Signs,,0,0,0,,Akio Toda (33)\NEditor assigned to Chika
 Dialogue: 0,0:09:22.84,0:09:24.03,Dialogue Top,,0,0,0,,My name is Toda.
 Dialogue: 0,0:09:24.98,0:09:28.06,Dialogue,,0,0,0,,She was so happy when we spoke over the phone yesterday...
@@ -238,7 +226,7 @@ Dialogue: 0,0:13:18.25,0:13:25.96,Dialogue,,0,0,0,,We did find the poison used i
 Dialogue: 0,0:13:26.27,0:13:27.59,Dialogue,,0,0,0,,That settles it.
 Dialogue: 0,0:13:27.59,0:13:34.72,Dialogue,,0,0,0,,And we also discovered his fingerprints on all the chocolate bars in Chika Kaidō{\rHonorifics - Dialogue}-san{\r}'s study.
 Dialogue: 0,0:13:35.61,0:13:37.22,Thoughts,,0,0,0,,{\be10}On {\i1}all{\i0} the chocolate bars?
-Dialogue: 0,0:13:38.09,0:13:44.17,Dialogue,,0,0,0,,Including a third culprit, ‘X', they all planned to murder Chika Kaidō{\rHonorifics - Dialogue}-sensei{\r}.
+Dialogue: 0,0:13:38.09,0:13:44.17,Dialogue,,0,0,0,,Including a third culprit, 'X', they all planned to murder Chika Kaidō{\rHonorifics - Dialogue}-sensei{\r}.
 Dialogue: 0,0:13:45.22,0:13:56.45,Dialogue,,0,0,0,,But in the end, ironically, it wasn't just Chika{\rHonorifics - Dialogue}-sensei{\r} who was poisoned, but also Yūichi Kaidō{\rHonorifics - Dialogue}-san{\r} and Kōko Shimura{\rHonorifics - Dialogue}-san{\r}.
 Dialogue: 0,0:13:56.45,0:14:00.33,Dialogue,,0,0,0,,But just who {\i1}is{\i0} the third culprit X?
 Dialogue: 0,0:14:00.86,0:14:06.61,Dialogue,,0,0,0,,Editors are always driven to tears\Nby their writers' fickle demands...
@@ -282,7 +270,7 @@ Dialogue: 0,0:16:47.94,0:16:48.84,Dialogue,,0,0,0,,Right, Uncle?
 Dialogue: 0,0:16:52.77,0:16:54.06,Dialogue,,0,0,0,,Uh, no...
 Dialogue: 0,0:16:55.44,0:16:59.35,Dialogue,,0,0,0,,So, the third culprit, X, Toda{\rHonorifics - Dialogue}-kun{\r}...
 Dialogue: 0,0:17:02.02,0:17:02.77,Dialogue,,0,0,0,,...it's not you.
-Dialogue: 0,0:17:03.90,0:17:06.40,Dialogue,,0,0,0,,You're{\rHonorifics - Dialogue} chan{\r}ging your mind {\i1}now{\i0}?
+Dialogue: 0,0:17:03.90,0:17:06.40,Dialogue,,0,0,0,,You're changing your mind {\i1}now{\i0}?
 Dialogue: 0,0:17:06.40,0:17:12.49,Dialogue,,0,0,0,,Toda{\rHonorifics - Dialogue}-kun{\r}, I've heard that Chika Kaidō{\rHonorifics - Dialogue}-sensei{\r} had writer's block.
 Dialogue: 0,0:17:12.49,0:17:15.66,Dialogue,,0,0,0,,Yes, it's true. She's had it for a long time now.
 Dialogue: 0,0:17:15.66,0:17:19.91,Dialogue,,0,0,0,,So what if she had a writer's block?! That's irrelevant!
@@ -291,7 +279,7 @@ Dialogue: 0,0:17:24.88,0:17:36.26,Dialogue,,0,0,0,,The third culprit, X, was her
 Dialogue: 0,0:17:36.26,0:17:39.63,Dialogue,,0,0,0,,So Chika Kaidō{\rHonorifics - Dialogue}-san{\r} killed herself.
 Dialogue: 0,0:17:39.63,0:17:41.65,Dialogue,,0,0,0,,No, it wasn't suicide.
 Dialogue: 0,0:17:41.65,0:17:44.40,Dialogue,,0,0,0,,But you just said she—
-Dialogue: 0,0:17:44.40,0:17:50.70,Dialogue,,0,0,0,,Using her own words, it's an ‘ironic cycle'.
+Dialogue: 0,0:17:44.40,0:17:50.70,Dialogue,,0,0,0,,Using her own words, it's an 'ironic cycle'.
 Dialogue: 0,0:17:51.80,0:17:54.34,Dialogue,,0,0,0,,She was a very proud writer.
 Dialogue: 0,0:17:54.34,0:17:58.50,Dialogue,,0,0,0,,She couldn't get over her writer's block, so she wanted to disappear from this world...
 Dialogue: 0,0:17:58.50,0:18:03.94,Dialogue,,0,0,0,,But she couldn't bear the thought of making her husband and pupil happy by committing suicide.
@@ -308,7 +296,7 @@ Dialogue: 0,0:18:59.88,0:19:07.56,Dialogue,,0,0,0,,took Chika{\rHonorifics - Dia
 Dialogue: 0,0:19:07.56,0:19:14.57,Dialogue,,0,0,0,,Then at around midnight, when getting out of her bath, Chika{\rHonorifics - Dialogue}-sensei{\r} got a call from Toda{\rHonorifics - Dialogue}-kun{\r}.
 Dialogue: 0,0:19:14.57,0:19:19.62,Dialogue,,0,0,0,,She probably knocked the water carafe over by accident.
 Dialogue: 0,0:19:19.62,0:19:24.62,Flashback,,0,0,0,,{\be10}It will turn the Japanese mystery world upside-down.{4}
-Dialogue: 0,0:19:24.62,0:19:34.76,Dialogue,,10,10,0,,But she probably didn't want to drink water from the carafe that she knocked over, so she went to the kitchen, and then{\rHonorifics - Dialogue} chan{\r}ged her mind...
+Dialogue: 0,0:19:24.62,0:19:34.76,Dialogue,,10,10,0,,But she probably didn't want to drink water from the carafe that she knocked over, so she went to the kitchen, and then changed her mind...
 Dialogue: 0,0:19:34.76,0:19:43.67,Dialogue,,0,0,0,,Thinking she would die soon anyway, she brought the forbidden beer to her study and drank it.
 Dialogue: 0,0:19:43.67,0:19:53.15,Dialogue,,0,0,0,,Then, a little bit before 1 AM, possibly being unable to fall sleep, Kōko Shimura{\rHonorifics - Dialogue}-san{\r} went to the kitchen and used that glass to drink tea.
 Dialogue: 0,0:19:53.15,0:19:57.16,Dialogue,,0,0,0,,Making her the second victim.
@@ -325,7 +313,7 @@ Dialogue: 0,0:21:14.15,0:21:15.44,Dialogue,,0,0,0,,Eh?
 Dialogue: 0,0:21:15.44,0:21:20.30,Dialogue,,0,0,0,,It was the first phone call Toda{\rHonorifics - Dialogue}-kun{\r} made, at 11:30 PM.
 Dialogue: 0,0:21:20.30,0:21:24.97,Dialogue,,0,0,0,,It probably happened right when\NYūichi{\rHonorifics - Dialogue}-san{\r} was setting up his poison.
 Dialogue: 0,0:21:24.97,0:21:30.63,Dialogue,,0,0,0,,Startled by the ringing phone,\Nhe knocked down the chocolate bars.
-Dialogue: 0,0:21:30.63,0:21:34.90,Dialogue,,0,0,0,,At that time, the position of the poisoned chocolate bars{\rHonorifics - Dialogue} chan{\r}ged.
+Dialogue: 0,0:21:30.63,0:21:34.90,Dialogue,,0,0,0,,At that time, the position of the poisoned chocolate bars changed.
 Dialogue: 0,0:21:34.90,0:21:43.12,Dialogue,,0,0,0,,It's the only way to explain his fingerprints being on all of the chocolate bars.
 Dialogue: 0,0:23:07.65,0:23:09.25,Dialogue,,0,0,0,,So what do you think, Ōkawara?
 Dialogue: 0,0:23:09.25,0:23:13.80,Dialogue,,0,0,0,,Do you understand now why I'm\Nso eager to ask Mouri{\rHonorifics - Dialogue}-san{\r} for help?
@@ -336,7 +324,7 @@ Dialogue: 0,0:23:23.81,0:23:28.94,Dialogue,,0,0,0,,Hey Dad, those words are a li
 Dialogue: 0,0:23:29.76,0:23:33.24,Thoughts,,0,0,0,,{\be10}Fail. I can't imitate his laugh.{Er, what the hell @ the rest of this file, lol}
 Dialogue: 0,0:23:35.17,0:23:39.29,Dialogue,,0,0,0,,A case in a flat starts with a ticket stolen in a café.
 Dialogue: 0,0:23:39.29,0:23:42.00,Dialogue,,0,0,0,,What is the surprising truth hidden in the washing machine?!
-Dialogue: 0,0:23:42.00,0:23:45.34,Dialogue,,0,0,0,,Detective Conan: ‘A Dispute over a Platinum Ticket'!
+Dialogue: 0,0:23:42.00,0:23:45.34,Dialogue,,0,0,0,,Detective Conan: 'A Dispute over a Platinum Ticket'!
 Dialogue: 0,0:23:45.34,0:23:49.35,Dialogue,,0,0,0,,Broadcast on Saturday, 23 November at 6 PM!
 Dialogue: 0,0:23:49.35,0:23:53.44,Dialogue,,0,0,0,,Next Conan's Hint: Washing machine!
 Dialogue: 0,0:23:54.64,0:23:56.18,Dialogue Top,,0,0,0,,Phone-in competitions start today!

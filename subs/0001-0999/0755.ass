@@ -33,37 +33,19 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: DCEpPreview,PT Sans Nonligature,29,&H45F7F8F8,&H000000FF,&H005B7782,&H00D4A947,-1,0,0,0,104,100,0.33,0,1,0,0,7,81,13,10,1
-Style: DCEpPreview1,Open Sans Semibold,29,&H00C6C6BF,&H000000FF,&H005B7782,&H00D4A947,-1,0,0,0,100,100,0,0,1,1,0,7,80,13,13,1
-Style: DCEpTitle1,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00FCFFFF,&H00D4A947,-1,0,0,0,100,100,0,0,1,0,0,8,13,13,80,1
-Style: DCFlashback,PT Sans Nonligature,35,&H00CBF8FF,&H000019FF,&H00373737,&HC0000000,-1,0,0,0,104,100,0.33,0,1,2.5,1.5,2,20,20,20,1
-Style: DCFlashback1,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00801005,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,13,13,20,0
-Style: DCMain1,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
-Style: DCNextEp,DINk,41,&H00FFFFFF,&H000000FF,&H43390300,&H00D4A947,0,0,0,0,98,98,0.5,0,1,2,0,8,13,13,84,1
-Style: DCNextEp1,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H005C685F,&H00D4A947,-1,0,0,0,100,100,0,0,1,2,0,8,13,13,67,1
-Style: DCNote,Open Sans Semibold,33,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,8,20,20,20,0
-Style: Default1,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
-Style: Don'tMiss,PT Sans Nonligature,33,&H00FFFFFF,&H000000FF,&H00000000,&H00FFFFFF,0,0,0,0,104,100,0.33,0,1,2,1,2,13,53,67,0
-Style: Don'tMiss1,Open Sans Semibold,33,&H00FFFFFF,&H000000FF,&H00000000,&H00FFFFFF,0,0,0,0,100,100,0,0,1,2,1,2,13,53,67,0
-Style: Guest,PT Sans Nonligature,24,&H00FFFFFF,&H000000FF,&H009D6F9B,&H00000000,0,0,0,0,104,100,0.33,0,1,1.8,0,2,71,13,94,0
-Style: Guest2,PT Sans Nonligature,24,&H00FFFFFF,&H000000FF,&H009D6F9B,&H00000000,0,0,0,0,104,100,0.33,0,1,1.8,0,2,47,13,94,0
-Style: Guest3,PT Sans Nonligature,24,&H00FFFFFF,&H000000FF,&H009D6F9B,&H00000000,0,0,0,0,104,100,0.33,0,1,1.8,0,2,49,13,94,0
-Style: Muteki na Heart,Cocon,27,&HC0000000,&H000000FF,&H00FFFFFF,&HC0000000,-1,0,0,0,100,100,0,0,1,2.33,0.67,8,7,7,17,1
-Style: Narr,PT Sans Nonligature,34,&H6E8F6600,&H000019FF,&H00FFFFFF,&HC0000000,-1,0,0,0,104,100,0.33,0,1,2.67,1.5,2,10,10,20,1
-Style: Police,Open Sans Semibold,30,&H0018141E,&H000000FF,&H00E4E9F2,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,13,13,160,0
-Style: Woman,PT Sans Nonligature,30,&H0018141E,&H000000FF,&H00E4E9F2,&H00000000,-1,0,0,0,104,100,0.33,0,1,2,0,2,13,13,160,0
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, EncodingStyle: Police,Open Sans Semibold,30,&H0018141E,&H000000FF,&H00E4E9F2,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,13,13,160,0
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:00.77,0:00:01.94,Narr,CONAN,0,0,0,,{\blur2}At Sera's invitation,
-Dialogue: 0,0:00:02.14,0:00:06.98,Narr,CONAN,0,0,0,,{\blur2}Ran, Sonoko, and I came to a rental\Nvilla deep in the mountains.
-Dialogue: 0,0:00:08.73,0:00:10.49,Narr,CONAN,0,0,0,,{\blur2}Fifteen years ago,
-Dialogue: 0,0:00:10.49,0:00:13.95,Narr,CONAN,0,0,0,,{\blur2}a tragic incident occurred near\Nthe cottage at the hands...
-Dialogue: 0,0:00:14.32,0:00:16.28,Narr,CONAN,0,0,0,,{\blur2}...of the murderer known\Nas the "Red Woman."
-Dialogue: 0,0:00:18.49,0:00:20.16,Narr,CONAN,0,0,0,,{\blur2}Sera came in place of her brother,
-Dialogue: 0,0:00:20.16,0:00:26.50,Narr,CONAN,0,0,0,,{\blur2}to solve the mysterious {\c&H1A1ECA&}"red"{\c&H8F6600&}\Noccurrences happening at the rental villa.
-Dialogue: 0,0:00:28.50,0:00:30.05,Narr,CONAN,0,0,0,,{\blur2}And then...
-Dialogue: 0,0:00:31.09,0:00:33.30,DCFlashback,SUMIKA,0,0,0,,{\blur2.6}Wh-What is this?!
+Dialogue: 0,0:00:00.77,0:00:01.94,Narration Off,CONAN,0,0,0,,{\be10}At Sera's invitation,
+Dialogue: 0,0:00:02.14,0:00:06.98,Narration Off,CONAN,0,0,0,,{\be10}Ran, Sonoko, and I came to a rental\Nvilla deep in the mountains.
+Dialogue: 0,0:00:08.73,0:00:10.49,Narration Off,CONAN,0,0,0,,{\be10}Fifteen years ago,
+Dialogue: 0,0:00:10.49,0:00:13.95,Narration Off,CONAN,0,0,0,,{\be10}a tragic incident occurred near\Nthe cottage at the hands...
+Dialogue: 0,0:00:14.32,0:00:16.28,Narration Off,CONAN,0,0,0,,{\be10}...of the murderer known\Nas the "Red Woman."
+Dialogue: 0,0:00:18.49,0:00:20.16,Narration Off,CONAN,0,0,0,,{\be10}Sera came in place of her brother,
+Dialogue: 0,0:00:20.16,0:00:26.50,Narration Off,CONAN,0,0,0,,{\be10}to solve the mysterious {\c&H1A1ECA&}"red"{\c&H8F6600&}\Noccurrences happening at the rental villa.
+Dialogue: 0,0:00:28.50,0:00:30.05,Narration Off,CONAN,0,0,0,,{\be10}And then...
+Dialogue: 0,0:00:31.09,0:00:33.30,Flashback,SUMIKA,0,0,0,,{\be10}Wh-What is this?!
 Dialogue: 0,0:00:36.59,0:00:37.43,Flashback,CONAN,0,0,0,,{\be10}Could it be?!
 Dialogue: 0,0:00:37.43,0:00:38.10,Flashback,SERA,0,0,0,,{\be10}Could it be?!
 Dialogue: 0,0:00:53.24,0:00:55.11,Narration Off,CONAN,0,0,0,,{\be10}A refreshing autumn breeze\Nblows through the gaiety
@@ -98,7 +80,7 @@ Dialogue: 0,0:04:01.22,0:04:03.34,Dialogue,CONAN,0,0,0,,I was tho thocked when I
 Dialogue: 0,0:04:04.34,0:04:08.01,Dialogue,SONOKO,0,0,0,,Are you sure you didn't get\Nexcited when you saw Ran naked?
 Dialogue: 0,0:04:08.01,0:04:09.77,Dialogue,RAN,0,0,0,,Yeah, right.
 Dialogue: 0,0:04:11.14,0:04:13.52,Flashback,CONAN,0,0,0,,{\be10}Frankly, she's right.
-Dialogue: 0,0:04:13.52,0:04:17.77,DCFlashback,RAN,0,0,0,,{\blur2.6}I-Is Hakuya{\rHonorifics - DCFlashback}-san{\r} dead?
+Dialogue: 0,0:04:13.52,0:04:17.77,Flashback,RAN,0,0,0,,{\be10}I-Is Hakuya{\rHonorifics - Flashback\be10}-san{\r\be10} dead?
 Dialogue: 0,0:04:26.57,0:04:28.41,Dialogue,UEHARA,0,0,0,,The victim was most likely...
 Dialogue: 0,0:04:29.04,0:04:33.41,Dialogue,UEHARA,0,0,0,,...drowned in the bathwater after\Nbeing knocked unconscious...
 Dialogue: 0,0:04:33.87,0:04:36.92,Dialogue,UEHARA,0,0,0,,...by a blow from a blunt object\Nto the back of his head.
@@ -410,7 +392,7 @@ Dialogue: 0,0:21:09.16,0:21:11.29,Dialogue,SERA,0,0,0,,Right, Conan{\rHonorifics
 Dialogue: 0,0:21:11.29,0:21:12.66,Dialogue,CONAN,0,0,0,,Yeah.
 Dialogue: 0,0:21:13.16,0:21:15.12,Dialogue,SERA,0,0,0,,So don't worry.
 Dialogue: 0,0:21:15.12,0:21:18.34,Dialogue,SERA,0,0,0,,Even if she is around, she's\Na flesh and blood person.
-Dialogue: 0,0:21:18.34,0:21:23.80,Dialogue,SERA,0,0,0,,We can neutralize her with my\Njeet{\rHonorifics - Dialogue} kun{\r}e do or Ran{\rHonorifics - Dialogue}-kun{\r}'s karate.
+Dialogue: 0,0:21:18.34,0:21:23.80,Dialogue,SERA,0,0,0,,We can neutralize her with my\Njeet kune do or Ran{\rHonorifics - Dialogue}-kun{\r}'s karate.
 Dialogue: 0,0:21:23.80,0:21:25.18,Dialogue,RAN,0,0,0,,O-Okay.
 Dialogue: 0,0:21:25.68,0:21:28.05,Dialogue,UEHARA,0,0,0,,I've been wondering for a while,
 Dialogue: 0,0:21:28.05,0:21:29.72,Dialogue,UEHARA,0,0,0,,but who are you?
@@ -429,18 +411,6 @@ Dialogue: 0,0:22:03.71,0:22:04.63,Dialogue,SERA,0,0,0,,Yeah.
 Dialogue: 0,0:22:04.63,0:22:07.55,Dialogue,SERA,0,0,0,,I'd been living there for about three years,
 Dialogue: 0,0:22:07.55,0:22:10.80,Dialogue,SERA,0,0,0,,but I started to miss Japan, so I came back.
 Dialogue: 0,0:22:13.01,0:22:18.14,Flashback,SERA,0,0,0,,{\be10}To be reunited with a magician...
-Dialogue: 0,0:22:34.24,0:22:41.75,Muteki na Heart,,0,0,0,,{\blur1.333\c&HCD8B2A&}itsushika jibun miushinatte'ta ‘daijōbu'-tte hontō wa uso
-Dialogue: 0,0:22:41.92,0:22:45.71,Muteki na Heart,,0,0,0,,{\blur1.333\c&HC2E6FA&\t(1262,2690,\c&HECC000&)}iiwake nante mō dō ni mo naranai
-Dialogue: 0,0:22:45.88,0:22:49.55,Muteki na Heart,,0,0,0,,{\blur1.333\c&HECC000&}kokoro ga odoru yō ja nakya ne
-Dialogue: 0,0:22:49.72,0:22:56.35,Muteki na Heart,,0,0,0,,{\blur1.333\c&H880044}kokoro ni hitotsuzutsu hi o tomoshitekita kedo
-Dialogue: 0,0:22:56.52,0:23:03.23,Muteki na Heart,,0,0,0,,{\blur1.333\c&H880044}gomen tameiki tsuichatta kono mama ja kiesō
-Dialogue: 0,0:23:04.44,0:23:08.07,Muteki na Heart,,0,0,0,,{\blur1.333\c&HDB0000&\t(640,660,\c&H008800)}muteki na heart sawagidashite
-Dialogue: 0,0:23:08.24,0:23:12.07,Muteki na Heart,,0,0,0,,{\c&H008800\blur1.333\t(640,670,\c&HCC7500&)\t(2650,2670,\c&H0000FF)}saa kokoro hodoite respect yourself
-Dialogue: 0,0:23:12.24,0:23:19.92,Muteki na Heart,,0,0,0,,{\blur1.333\c&H0000FF\t(600,610,\c&H008800)}hontō no jibun de ireba muchū de yume mite'ta watashi ni (be back)
-Dialogue: 0,0:23:20.08,0:23:23.63,Muteki na Heart,,0,0,0,,{\c&H0000FF\t(1600,1680,\c&HD37F00&)\blur1.333}invincible heart mezamesasete
-Dialogue: 0,0:23:23.79,0:23:27.59,Muteki na Heart,,0,0,0,,{\blur1.333\c&HD37F00&}osoreru koto nai revives my heart
-Dialogue: 0,0:23:27.76,0:23:36.47,Muteki na Heart,,0,0,0,,{\blur1.333\c&HD37F00\fad(0,500)\t(640,680,\c&H008800)\t(7700,7800,\c&HFF)}namida o nagashita ato ni wa muteki na watashi to ashita ni cheers!
-Dialogue: 0,0:23:44.98,0:24:09.01,DCEpPreview,TEXT,0,0,0,,{\blur0.2}Episode Preview
 Dialogue: 0,0:23:46.82,0:23:48.74,Dialogue,CONAN,0,0,0,,There really is something...
 Dialogue: 0,0:23:49.07,0:23:50.86,Dialogue,SERA,0,0,0,,...hiding out in the forest.
 Dialogue: 0,0:23:51.15,0:23:54.24,Dialogue,TAMAMI,0,0,0,,Like Satoko and Hakuya{\rHonorifics - Dialogue}-kun{\r}...
@@ -449,13 +419,13 @@ Dialogue: 0,0:23:58.20,0:23:59.50,Dialogue,UEHARA,0,0,0,,What?
 Dialogue: 0,0:24:00.58,0:24:03.63,Dialogue,SERA,0,0,0,,No one's going to be killed.
 Dialogue: 0,0:24:03.63,0:24:06.50,Dialogue,SERA,0,0,0,,The ghost of the Red Woman...
 Dialogue: 0,0:24:07.09,0:24:09.01,Dialogue,SERA,0,0,0,,...you keep mentioning doesn't exist.
-Dialogue: 0,0:24:09.01,0:24:15.01,DCNextEp,TEXT,0,0,0,,{\blur5}Tragedy of the Red Woman
+Dialogue: 0,0:24:09.01,0:24:15.01,Signs,TEXT,0,0,0,,Tragedy of the Red Woman
 Dialogue: 0,0:24:09.01,0:24:15.01,Signs,TEXT,0,0,0,,(Revenge)
 Dialogue: 0,0:24:09.63,0:24:14.55,Dialogue,CONAN,0,0,10,,The next episode of Conan is "Tragedy of the Red Woman (Revenge)!"
-Dialogue: 0,0:24:29.94,0:24:35.03,Woman,TEXT,0,0,0,,{\blur1}Long-haired Woman
+Dialogue: 0,0:24:29.94,0:24:35.03,Signs,TEXT,0,0,0,,Long-haired Woman
 Dialogue: 0,0:24:30.40,0:24:33.11,Dialogue,WOMAN,0,0,0,,Next episode's hint.
 Dialogue: 0,0:24:33.11,0:24:35.03,Dialogue,CONAN,0,0,0,,The long-haired woman!
-Dialogue: 0,0:24:35.03,0:24:40.08,Don'tMiss,TEXT,0,0,0,,{\blur0.6}Don't miss the next episode.
+Dialogue: 0,0:24:35.03,0:24:40.08,Farewell Card,TEXT,0,0,0,,Don't miss the next episode.
 Dialogue: 0,0:24:35.32,0:24:36.28,Dialogue Top,SONOKO,0,0,0,,The long-haired...
 Dialogue: 0,0:24:36.28,0:24:37.16,Dialogue Top,SERA,0,0,0,,...woman?
 Dialogue: 0,0:24:37.16,0:24:38.16,Dialogue Top,RAN,0,0,0,,You mean me?

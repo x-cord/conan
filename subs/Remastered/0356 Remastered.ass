@@ -34,11 +34,7 @@ Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
 Style: Thoughts360,Calibri,33,&H4B370001,&H000000FF,&H00FFFFFF,&HC0000000,-1,0,0,0,100,100,0,0,1,1.73333,1.33333,2,67,67,80,1
-Style: StartROM,Anna Macron,23,&H004C3D41,&H000000FF,&H00FFFFFF,&HC4000000,0,0,0,0,105,100,0,0,1,2.5,1,7,20,20,20,1
-Style: StartTL,Anna Macron,23,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,105,100,0,0,1,1,2,7,20,20,40,1
-Style: NemuruRomaji,Museo Sans 900,20,&H00FCD7C9,&H000000FF,&H80000000,&H80000000,-1,0,0,0,100,100,0,0,1,1.5,1,7,20,20,20,1
-Style: NemuruTL,Museo Sans 900,20,&H00FFFFFF,&H000000FF,&H80FD0027,&H80000000,-1,0,0,0,95,100,0,0,1,1.5,1,7,20,20,40,1
-
+Style: StartROM,Anna Macron,23,&H004C3D41,&H000000FF,&H00FFFFFF,&HC4000000,0,0,0,0,105,100,0,0,1,2.5,1,7,20,20,20,1Style: NemuruRomaji,Museo Sans 900,20,&H00FCD7C9,&H000000FF,&H80000000,&H80000000,-1,0,0,0,100,100,0,0,1,1.5,1,7,20,20,20,1
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 Dialogue: 0,0:01:33.46,0:01:35.21,Thoughts360,,0000,0000,0000,,{\blur2}A mysterious new era now begins...
@@ -493,7 +489,7 @@ Dialogue: 0,0:30:23.67,0:30:26.30,Dialogue,,0000,0000,0000,,Oh no, rain! Cover i
 Dialogue: 0,0:30:26.30,0:30:27.05,Thoughts,,0000,0000,0000,,{\be10}Rain?
 Dialogue: 0,0:30:27.05,0:30:29.34,Dialogue,,0000,0000,0000,,Why'd it have to rain?
 Dialogue: 0,0:30:29.34,0:30:30.72,Dialogue,,0000,0000,0000,,Talk about bad timing!
-Dialogue: 0,0:30:31.31,0:30:34.81,Dialogue,,0000,0000,0000,,Even with this sudden downpour,\Nthe crowd's still{\rHonorifics - Dialogue} chan{\r}ting Kid's name!
+Dialogue: 0,0:30:31.31,0:30:34.81,Dialogue,,0000,0000,0000,,Even with this sudden downpour,\Nthe crowd's still chanting Kid's name!
 Dialogue: 0,0:30:36.31,0:30:39.06,Dialogue,,0000,0000,0000,,Hey, what's wrong, chopper #7? Hey!
 Dialogue: 0,0:30:39.06,0:30:39.94,Dialogue,,0000,0000,0000,,What is it?
 Dialogue: 0,0:30:39.94,0:30:43.65,Dialogue,,0000,0000,0000,,The image from chopper #7 suddenly cut out.
@@ -522,7 +518,7 @@ Dialogue: 0,0:31:53.66,0:31:56.29,Dialogue,,0000,0000,0000,,Okay! Then the next 
 Dialogue: 0,0:31:56.29,0:31:59.12,Dialogue,,0000,0000,0000,,Turn off all the lights in the museum!
 Dialogue: 0,0:32:00.58,0:32:02.04,Dialogue,,0000,0000,0000,,The lights?
 Dialogue: 0,0:32:02.04,0:32:03.21,Dialogue,,0000,0000,0000,,Yeah!
-Dialogue: 0,0:32:03.21,0:32:07.55,Dialogue,,0000,0000,0000,,There's a{\rHonorifics - Dialogue} chan{\r}ce he may be\Nintercepting our camera feeds.
+Dialogue: 0,0:32:03.21,0:32:07.55,Dialogue,,0000,0000,0000,,There's a chance he may be\Nintercepting our camera feeds.
 Dialogue: 0,0:32:07.55,0:32:12.47,Dialogue,,0000,0000,0000,,Hey, wait a minute. Isn't that\Nexactly what Kid would want?
 Dialogue: 0,0:32:12.47,0:32:14.93,Dialogue,,0000,0000,0000,,Got a better idea, Inspector Nakamori?
 Dialogue: 0,0:32:15.35,0:32:23.69,Dialogue,,0000,0000,0000,,Do you have any idea how to stop a master\Nthief who can walk in mid-air like a wizard?!
@@ -582,7 +578,7 @@ Dialogue: 0,0:35:08.19,0:35:12.90,Dialogue,,0000,0000,0000,,Chopper #28 here! Ch
 Dialogue: 0,0:35:12.90,0:35:16.65,Dialogue,,0000,0000,0000,,T-This is chopper #9! I see {\i1}two{\i} choppers\Nnumbered seven in front of Shiodome Park!
 Dialogue: 0,0:35:16.65,0:35:19.32,Dialogue,,0000,0000,0000,,Hey, hey... What's going on?!
 Dialogue: 0,0:35:19.32,0:35:23.79,Dialogue,,0000,0000,0000,,It seems most of our helicopters were painted with the number seven!
-Dialogue: 0,0:35:23.79,0:35:26.46,Dialogue,,0000,0000,0000,,Kid must've{\rHonorifics - Dialogue} chan{\r}ged the numbers!
+Dialogue: 0,0:35:23.79,0:35:26.46,Dialogue,,0000,0000,0000,,Kid must've changed the numbers!
 Dialogue: 0,0:35:26.46,0:35:28.92,Dialogue,,0000,0000,0000,,Don't be stupid, how could that be?
 Dialogue: 0,0:35:28.92,0:35:31.96,Dialogue,,0000,0000,0000,,Didn't you see the number when you boarded the helicopter?
 Dialogue: 0,0:35:33.00,0:35:34.46,Dialogue,,0000,0000,0000,,I-Inspector!
@@ -609,7 +605,7 @@ Dialogue: 0,0:36:48.58,0:36:52.38,Dialogue,,0000,0000,0000,,It's very hard for s
 Dialogue: 0,0:36:52.38,0:36:55.84,Dialogue,,0000,0000,0000,,Even with a windscreen in front of you,
 Dialogue: 0,0:36:55.84,0:36:59.88,Dialogue,,0000,0000,0000,,the pain of the wind hitting your eyes would cause you to tear up.
 Dialogue: 0,0:36:59.88,0:37:06.39,Dialogue,,0000,0000,0000,,The old man's a millionaire, but he rides around on this fancy bike without a single bodyguard.
-Dialogue: 0,0:37:06.39,0:37:10.89,Dialogue,,0000,0000,0000,,It wouldn't be hard for you to get a{\rHonorifics - Dialogue} chan{\r}ce to drug him and take his place.
+Dialogue: 0,0:37:06.39,0:37:10.89,Dialogue,,0000,0000,0000,,It wouldn't be hard for you to get a chance to drug him and take his place.
 Dialogue: 0,0:37:10.89,0:37:17.44,Dialogue,,0010,0010,0000,,By the way, I took the dog you left sleeping in this sidecar, Lupin, and left him in a shady spot in Shiodome Park.
 Dialogue: 0,0:37:17.44,0:37:21.82,Dialogue,,0000,0000,0000,,You probably put him to sleep with a sleeping drug too, didn't you?
 Dialogue: 0,0:37:23.53,0:37:25.83,Dialogue,,0000,0000,0000,,How could I be Kid?

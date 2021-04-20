@@ -40,11 +40,7 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: Text,Arial,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,3,0,2,0,0,0,1
-Style: Adds,Arial,50,&H00FFFFFF,&H000000FF,&H003B5F1B,&H00000000,0,0,0,0,100,100,0,0,1,2,0,7,15,15,15,1
-Style: Name,Calibri,40,&H00CFCFCF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,1,5,15,15,15,204
-
-[Events]
+Style: Text,Arial,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,3,0,2,0,0,0,1[Events]
 Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
 Dialogue: 0,0:00:03.04,0:00:06.00,Dialogue,,0,0,0,,But Ran, you really are unrivaled!
 Dialogue: 0,0:00:06.46,0:00:09.88,Dialogue,,0,0,0,,Having won the Kanto Karate Championship and all!
@@ -85,7 +81,7 @@ Dialogue: 0,0:03:26.16,0:03:28.70,Dialogue,,0,0,0,,"Cry until these tears are us
 Dialogue: 0,0:03:28.75,0:03:31.13,Dialogue,,0,0,0,,He's probably depressed with those thoughts.
 Dialogue: 0,0:03:31.16,0:03:32.71,Dialogue,,0,0,0,,No way...
 Dialogue: 0,0:03:32.74,0:03:35.10,Dialogue,,0,0,0,,C'mon, you think I'm like that?
-Dialogue: 0,0:03:35.14,0:03:38.55,Dialogue,,0,0,0,,If you take it too slow, Shimchi{\rHonorifics - Dialogue}-kun{\r} may have a{\rHonorifics - Dialogue} chan{\r}ge of heart!
+Dialogue: 0,0:03:35.14,0:03:38.55,Dialogue,,0,0,0,,If you take it too slow, Shimchi{\rHonorifics - Dialogue}-kun{\r} may have a change of heart!
 Dialogue: 0,0:03:39.52,0:03:42.88,Dialogue,,0,0,0,,His attitude is kind of uh-uh, but he's surprisingly popular, see?
 Dialogue: 0,0:03:43.71,0:03:44.91,Dialogue,,0,0,0,,"Uh-uh"...?
 Dialogue: 0,0:03:45.68,0:03:49.85,Dialogue,,0,0,0,,One day, a powerful rival may suddenly appear, you know?

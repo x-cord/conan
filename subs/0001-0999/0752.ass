@@ -33,24 +33,11 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: Muteki na Heart,Cocon,40,&HC0000000,&H000000FF,&H00FFFFFF,&HC0000000,-1,0,0,0,100,100,0,0,1,3.5,1,8,10,10,25,1
-Style: Phone,OSPuto,52,&H00BEE1FF,&H000000FF,&H000B2A42,&HC0000000,-1,0,0,0,94,100,0,0,1,2.5,2.5,2,27,27,30,1
-Style: FlashbackThoughts,OSPuto,52,&H4B370001,&H000000FF,&H00CCFFFF,&HC0000000,-1,0,0,0,94,100,0,0,1,2.6,2,2,100,100,30,1
-Style: PlaceCard,Corbel,35,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,2,2,100,100,30,1
-Style: Narr,OSPuto,50,&H6E8C6F00,&H000000FF,&H00FFFFFF,&H80000000,-1,0,0,0,100,100,0,0,1,3.7,1.5,2,100,100,30,1
-Style: Signage,OSPuto,50,&H00FFFFFF,&H000000FF,&H80000000,&H00000000,-1,0,0,0,100,100,0,0,3,8,0,2,40,40,40,1
-Style: BCPrologue,Cocon-Regular,45,&H805E0036,&H000000FF,&H00FFFFFF,&H80000000,-1,0,0,0,100,100,1,0,1,5,2,2,10,10,30,1
-Style: ButterflyCore,Love Is Complicated Again,45,&H405E0036,&H000000FF,&H00FFFFFF,&H80000000,-1,0,0,0,100,100,1,0,1,3.5,0,8,10,10,30,1
-Style: ButterflyCore2,Love Is Complicated Again,45,&HFF5E0036,&H000000FF,&H80000000,&H80000000,-1,0,0,0,100,100,1,0,1,0.75,0,8,10,10,30,1
-Style: RainMan,FOT-Seurat Pro,35,&HC0FE4D00,&H000000FF,&H00FFFFFF,&H80000000,-1,0,0,0,100,100,0,0,1,3.5,0.5,8,10,10,25,1
-Style: GreedNarr,Biko,45,&H6E8C4000,&H000000FF,&H00FFFFFF,&H80000000,-1,0,0,0,100,100,0,0,1,3.7,1.5,2,50,50,30,1
-Style: SongTitle,ShinGoPro-Regular,63,&H00FFFFFF,&H000000FF,&H005F5F5F,&H005F5F5F,0,0,0,0,100,100,0,0,1,2,3,2,45,45,41,1
-Style: OPTL_BL,Biko,45,&H00FFFFFF,&H000000FF,&H80000000,&HC0000000,-1,0,0,0,100,100,0,0,1,2,1,2,10,10,25,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:00.89,0:00:04.94,Narr,,0000,0000,0000,,{\blur3\an8三毛猫　大尉の\N飼い主をめぐる騒動の末}Having solved the question of the owner of Taii, the calico cat,
-Dialogue: 0,0:00:04.94,0:00:10.07,Narr,,0000,0000,0000,,{\blur3\an8本当の飼い主とわかった益子さん\Nのもとに大尉を訪ねていくと...}we went to visit him at the flat of his real owner, Masuko{\rHonorifics - Narr}-san{\r}, when...
+Dialogue: 0,0:00:00.89,0:00:04.94,Narration Off,,0000,0000,0000,,{\be10\an8三毛猫　大尉の\N飼い主をめぐる騒動の末}Having solved the question of the owner of Taii, the calico cat,
+Dialogue: 0,0:00:04.94,0:00:10.07,Narration Off,,0000,0000,0000,,{\be10\an8本当の飼い主とわかった益子さん\Nのもとに大尉を訪ねていくと...}we went to visit him at the flat of his real owner, Masuko{\rHonorifics - Narration Off\be10}-san{\r\be10}, when...
 Dialogue: 0,0:00:15.24,0:00:17.45,Dialogue,,0000,0000,0000,,{（大尉）ニャ～！\N（隣の住人）あれ？なんだ　この猫。\N}Huh? What's with this cat...?
 Dialogue: 0,0:00:17.45,0:00:19.49,Dialogue,,0000,0000,0000,,{おじさん！どうかしたの！？\N}Hey! Has something happened?
 Dialogue: 0,0:00:20.29,0:00:24.96,Dialogue,,0000,0000,0000,,{（隣の住人）あっ　いや→\Nこの猫　ケガしてるわけでも\Nなさそうなのに　足に血が...。\N}Oh, this cat doesn't look injured at all, but there's blood on its paws...
@@ -92,7 +79,7 @@ Dialogue: 0,0:03:56.08,0:03:57.88,Dialogue,,0000,0000,0000,,{お　おいコナ�
 Dialogue: 0,0:03:58.21,0:03:59.34,Thoughts,,0000,0000,0000,,{\be10《奥の部屋か！》\N}Is it the room at the end?
 Dialogue: 0,0:04:04.68,0:04:05.89,Dialogue,,0000,0000,0000,,{（佐藤）事故ね。\N}Looks like an accident...
 Dialogue: 0,0:04:05.89,0:04:06.76,Dialogue,,0000,0000,0000,,{（高木）ええ。\N}Yeah.
-Dialogue: 0,0:04:07.47,0:04:14.52,Dialogue,,0000,0000,0000,,{（佐藤）\Nベッドの上にイスを立てて\N蛍光灯を取り替えようとし→\N}He put the chair on his bed and tried to{\rHonorifics - Dialogue} chan{\r}ge the light,\N{バランスを崩して\Nサイドテーブルにゴツン。→\N}but lost his balance and hit himself on his side table.
+Dialogue: 0,0:04:07.47,0:04:14.52,Dialogue,,0000,0000,0000,,{（佐藤）\Nベッドの上にイスを立てて\N蛍光灯を取り替えようとし→\N}He put the chair on his bed and tried to change the light,\N{バランスを崩して\Nサイドテーブルにゴツン。→\N}but lost his balance and hit himself on his side table.
 Dialogue: 0,0:04:14.98,0:04:20.57,Dialogue,,0000,0000,0000,,{私も　たまにやるけど}I do the same myself sometimes, {ベッドの上って→\N\N安定しなくて危ないのよね。\N}but it's hard to balance on a bed, so it can be dangerous.
 Dialogue: 0,0:04:20.57,0:04:23.74,Dialogue,,0000,0000,0000,,{（高木）\Nそんなこと　やらないで下さいよ！\N}Please don't do that!
 Dialogue: 0,0:04:23.74,0:04:27.99,Dialogue,,0000,0000,0000,,{佐藤さんのベッドのマットレス\N高級品でフカフカなんですから！\N}Your mattress is very expensive, and it's so soft and fluffy!
@@ -113,7 +100,7 @@ Dialogue: 0,0:05:15.33,0:05:19.33,Dialogue,,0000,0000,0000,,{ベッドの上に�
 Dialogue: 0,0:05:20.29,0:05:25.42,Dialogue,,0000,0000,0000,,{それにホラ　益子さん\Nスリッパの片方　履いたままだよ！\N}And look at this, Masuko{\rHonorifics - Dialogue}-san{\r}'s still wearing one of his slippers!
 Dialogue: 0,0:05:25.42,0:05:29.14,Dialogue,,0000,0000,0000,,{ベッドやイスの上に乗るなら\Nスリッパ脱ぐんじゃないかなぁ？\N}If he was going to get on a chair on the bed, don't you think he would have taken off his slippers?
 Dialogue: 0,0:05:29.14,0:05:31.01,Dialogue,,0000,0000,0000,,{そ　そうね...。\N}T-That's true...
-Dialogue: 0,0:05:31.47,0:05:38.10,Dialogue,,0000,0000,0000,,{それにさ～}And, you know, {床で割れてるのが→\N\N取り替えようと外した\N古い蛍光灯だと思うけど→\N}the shattered light on the floor is probably the old light he took out to{\rHonorifics - Dialogue} chan{\r}ge,
+Dialogue: 0,0:05:31.47,0:05:38.10,Dialogue,,0000,0000,0000,,{それにさ～}And, you know, {床で割れてるのが→\N\N取り替えようと外した\N古い蛍光灯だと思うけど→\N}the shattered light on the floor is probably the old light he took out to change,
 Dialogue: 0,0:05:38.73,0:05:41.19,Dialogue,,0000,0000,0000,,{端っこが全然　黒ずんでないよ？\Nまるで新品みたいにね。\N}but none of the edges are blackened, are they?
 Dialogue: 0,0:05:41.19,0:05:43.03,Dialogue,,0000,0000,0000,,{端っこが全然　黒ずんでないよ？\Nまるで新品みたいにね。\N}It looks brand new!
 Dialogue: 0,0:05:43.78,0:05:50.37,Dialogue,,0000,0000,0000,,{ということは}So, in other words, {　益子さんを→\N\Nこの寝室で突き飛ばして}somebody pushed Masuko{\rHonorifics - Dialogue}-san{\r} over here in his bedroom, {重傷を負わせた誰かが→\N}got him seriously injured,
@@ -204,7 +191,7 @@ Dialogue: 0,0:11:14.06,0:11:16.86,Dialogue,,0000,0000,0000,,{（高木）\N益�
 Dialogue: 0,0:11:17.36,0:11:23.41,Dialogue,,0000,0000,0000,,{彼とは\N大学時代からの付き合いだよ。\N}We've known each other since university,\N{同じ年にデビューした作家仲間だし。\N}and even debuted as writers in the same year.
 Dialogue: 0,0:11:23.41,0:11:28.87,Dialogue,,0000,0000,0000,,{まあ　彼の小説はさっぱり売れずに早々に諦めてしまったようだが。\N}Though his novels didn't sell so well, so he gave up very quickly.
 Dialogue: 0,0:11:29.33,0:11:33.04,Dialogue,,0000,0000,0000,,{かく言う私も\N売れたのは最初だけで...。\N}That said, only my first novel sold well.
-Dialogue: 0,0:11:33.04,0:11:37.38,Dialogue,,0000,0000,0000,,{今思えば　鞍替えした彼の方が\N正解だったかもしれんな。\N}Looking back on it, he probably did the right thing,{\rHonorifics - Dialogue} chan{\r}ging jobs.
+Dialogue: 0,0:11:33.04,0:11:37.38,Dialogue,,0000,0000,0000,,{今思えば　鞍替えした彼の方が\N正解だったかもしれんな。\N}Looking back on it, he probably did the right thing, changing jobs.
 Dialogue: 0,0:11:37.75,0:11:39.59,Dialogue,,0000,0000,0000,,{それで　ここへは？\N}And you came here to...?
 Dialogue: 0,0:11:39.59,0:11:42.43,Dialogue,,0000,0000,0000,,{小説のアイディアを２人で練りに。\N}Go over some ideas for novels with him.
 Dialogue: 0,0:11:42.43,0:11:46.39,Dialogue,,0000,0000,0000,,{煮詰まった時には　前からよく付き合ってくれたからな。\N***CHECK}He's always helped me out like that when I had writer's block.
@@ -251,7 +238,7 @@ Dialogue: 0,0:14:32.51,0:14:37.02,Dialogue,,0000,0000,0000,,{ドアロックと�
 Dialogue: 0,0:14:37.35,0:14:40.94,Dialogue,,0000,0000,0000,,{リボンの両端を持ったまま\N外に出てドアを閉める...。\N}then go outside holding onto both ends of the ribbon and close the door,
 Dialogue: 0,0:14:41.98,0:14:45.32,Dialogue,,0000,0000,0000,,{あとは　リボンの両端を\N引っ張るだけ。\N}And finally, we only have to pull tight on both ends.
 Dialogue: 0,0:14:45.32,0:14:46.78,Dialogue,,0000,0000,0000,,{いいぞ光彦！\N}All right, Mitsuhiko!
-Dialogue: 0,0:14:46.78,0:14:47.44,Phone,,0000,0000,0000,,{\blur3（探偵団バッジ：光彦の声）了解！\N}Roger!
+Dialogue: 0,0:14:46.78,0:14:47.44,Radio,,0000,0000,0000,,{\be10（探偵団バッジ：光彦の声）了解！\N}Roger!
 Dialogue: 0,0:14:47.99,0:14:49.36,Dialogue,,0000,0000,0000,,{引っ張ってください！}Start pulling.
 Dialogue: 0,0:14:49.36,0:14:50.28,Dialogue,,0000,0000,0000,,{オウ！\N}All right!
 Dialogue: 0,0:14:54.87,0:14:56.29,Dialogue,,0000,0000,0000,,{（目暮・高木・佐藤）か　掛かった！\N}I-It worked?!
@@ -280,7 +267,7 @@ Dialogue: 0,0:16:13.49,0:16:15.37,Dialogue,,0000,0000,0000,,{今も意識不明�
 Dialogue: 0,0:16:15.37,0:16:17.58,Thoughts,,0000,0000,0000,,{\be10《しゃ～ね～な...》\N}Guess there's no other choice.
 Dialogue: 0,0:16:20.83,0:16:22.41,Dialogue,,0000,0000,0000,,{ほら　あっちよ。\N}Look, over there!
 Dialogue: 0,0:16:22.41,0:16:23.25,Dialogue,,0000,0000,0000,,{がんばって！\N}Good luck!
-Dialogue: 0,0:16:23.92,0:16:25.67,Phone,,0000,0000,0000,,{\blur3そのままリボン動かしててくれ。}Move the ribbon around.
+Dialogue: 0,0:16:23.92,0:16:25.67,Radio,,0000,0000,0000,,{\be10そのままリボン動かしててくれ。}Move the ribbon around.
 Dialogue: 0,0:16:25.67,0:16:26.67,Dialogue,,0000,0000,0000,,{オウ。\N}All right!
 Dialogue: 0,0:16:36.84,0:16:39.76,Dialogue,,0000,0000,0000,,{あっ！ね　猫が...。\Nくわえて持ってった！！\N}T-The cat grabbed the ribbon and took it?!
 Dialogue: 0,0:16:39.76,0:16:40.97,Dialogue,,0000,0000,0000,,{追え！\N}Follow that cat!
@@ -369,7 +356,7 @@ Dialogue: 0,0:23:52.36,0:23:55.87,Dialogue,,0000,0000,0000,,Didn't the landlady 
 Dialogue: 0,0:23:56.37,0:23:58.62,Dialogue,,0000,0000,0000,,Hey, we have a guest, you know.
 Dialogue: 0,0:23:58.62,0:24:00.62,Dialogue,,0000,0000,0000,,That's enough, Katsuko{\rHonorifics - Dialogue}-san{\r}.
 Dialogue: 0,0:24:03.04,0:24:06.46,Dialogue,,0000,0000,0000,,I-In there... K-Katsuko{\rHonorifics - Dialogue}-san{\r}...
-Dialogue: 0,0:24:08.88,0:24:14.84,Dialogue,,0000,0000,0000,,On the next Conan: ‘The Blind Spot in the Shared House'!
+Dialogue: 0,0:24:08.88,0:24:14.84,Dialogue,,0000,0000,0000,,On the next Conan: 'The Blind Spot in the Shared House'!
 Dialogue: 0,0:24:14.84,0:24:19.81,Dialogue,,0000,0000,0000,,Next Conan's Hint: Fridge!
 Dialogue: 0,0:24:19.81,0:24:21.43,Dialogue Top,,0000,0000,0000,,{冷蔵庫なら任せろ}Leave the fridge to me!
 Dialogue: 0,0:24:21.43,0:24:22.85,Dialogue Top,,0000,0000,0000,,{意味わかんない}I don't get it.
@@ -388,14 +375,3 @@ Dialogue: 0,0:01:49.71,0:01:55.88,OPTL_BL,,0000,0000,0000,,{\q2\blur1.5}Hey! I'l
 Dialogue: 0,0:01:55.88,0:02:00.59,OPTL_BL,,0000,0000,0000,,{\q2\blur1.5}You can fall asleep now, I'll solve this — I melt slowly, I melt slowly
 Dialogue: 0,0:02:00.59,0:02:06.85,OPTL_BL,,0000,0000,0000,,{\q2\blur1.5}Hey! Solving mysteries with tricks you won't beat with a novel
 Dialogue: 0,0:02:06.85,0:02:14.48,OPTL_BL,,0000,0000,0000,,{\q2\blur1.5}I get tired of thinking when I overwork my mind in this puzzling town
-Dialogue: 0,0:21:49.70,0:21:57.21,Muteki na Heart,,0000,0000,0000,,{\blur2\c&HCD8B2A&}itsushika jibun miushinatte'ta ‘daijōbu'-tte hontō wa uso
-Dialogue: 0,0:21:57.37,0:22:01.17,Muteki na Heart,,0000,0000,0000,,{\blur2\c&HC2E6FA&\t(1262,2690,\c&HECC000&)}iiwake nante mō dō ni mo naranai
-Dialogue: 0,0:22:01.34,0:22:05.01,Muteki na Heart,,0000,0000,0000,,{\blur2\c&HECC000&}kokoro ga odoru yō ja nakya ne
-Dialogue: 0,0:22:05.17,0:22:11.76,Muteki na Heart,,0000,0000,0000,,{\blur2\c&H880044}kokoro ni hitotsuzutsu hi o tomoshitekita kedo
-Dialogue: 0,0:22:11.97,0:22:18.69,Muteki na Heart,,0000,0000,0000,,{\blur2\c&H880044}gomen tameiki tsuichatta kono mama ja kiesō
-Dialogue: 0,0:22:19.90,0:22:23.52,Muteki na Heart,,0000,0000,0000,,{\blur2\c&HDB0000&\t(640,660,\c&H008800)}muteki na heart sawagidashite
-Dialogue: 0,0:22:23.69,0:22:27.53,Muteki na Heart,,0000,0000,0000,,{\c&H008800\blur2\t(640,670,\c&HCC7500&)\t(2650,2670,\c&H0000FF)}saa kokoro hodoite respect yourself
-Dialogue: 0,0:22:27.70,0:22:35.37,Muteki na Heart,,0000,0000,0000,,{\blur2\c&H0000FF\t(600,610,\c&H008800)}hontō no jibun de ireba muchū de yume mite'ta watashi ni (be back)
-Dialogue: 0,0:22:35.54,0:22:39.08,Muteki na Heart,,0000,0000,0000,,{\c&H0000FF\t(1600,1680,\c&HD37F00&)\blur2}invincible heart mezamesasete
-Dialogue: 0,0:22:39.25,0:22:43.04,Muteki na Heart,,0000,0000,0000,,{\blur2\c&HD37F00&}osoreru koto nai revives my heart
-Dialogue: 0,0:22:43.21,0:22:51.93,Muteki na Heart,,0000,0000,0000,,{\blur2\c&HD37F00\fad(0,500)\t(640,680,\c&H008800)\t(7700,7800,\c&HFF)}namida o nagashita ato ni wa muteki na watashi to ashita ni cheers!

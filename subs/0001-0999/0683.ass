@@ -33,13 +33,7 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: OPTL_old,Nyala,42,&H00FFFFFF,&H000000FF,&H96000000,&H1E3E3330,-1,0,0,0,100,100,0,0,1,0.975,1.6875,2,8,8,35,1
-Style: ConanEdogawaKun,Segoe Print,45,&H00B78800,&H000000FF,&H00B78800,&HC0000000,0,0,0,0,100,100,0,20,1,0,0,2,10,10,25,1
-Style: KudoSempai,Segoe Print,45,&H009796B7,&H000000FF,&H484B4B4B,&HC0000000,0,0,0,0,100,100,0,0,1,0,0,7,10,10,25,1
-Style: ConanLocker,ZapfChan MdIt BT,35,&H007E797A,&H000000FF,&H00D7D0D1,&HC0000000,-1,0,0,0,100,100,0,0,3,0,0,7,10,10,25,1
-Style: Blanka30,Arial,20,&HFFFFFFFF,&H000000FF,&H1E000000,&H00000000,0,0,0,0,100,100,0,0,3,1,0,7,10,10,10,1
-Style: PlaceCard,Corbel,35,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,2,2,100,100,30,1
-Style: topbox,Arial,20,&HFFFFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,3,1,0,8,10,10,10,1
+Style: KudoSempai,Segoe Print,45,&H009796B7,&H000000FF,&H484B4B4B,&HC0000000,0,0,0,0,100,100,0,0,1,0,0,7,10,10,25,1Style: Blanka30,Arial,20,&HFFFFFFFF,&H000000FF,&H1E000000,&H00000000,0,0,0,0,100,100,0,0,3,1,0,7,10,10,10,1Style: topbox,Arial,20,&HFFFFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,3,1,0,8,10,10,10,1
 Style: MKED,MV Boli M,50,&H00D6EEF3,&H000000FF,&H003C5B6F,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,8,10,30,25,1
 
 [Events]
@@ -166,7 +160,7 @@ Dialogue: 0,0:08:54.75,0:08:56.79,Dialogue,,0,0,0,,Demand that they check again!
 Dialogue: 0,0:08:56.79,0:08:57.45,Dialogue,,0,0,0,,Yes, sir!
 Dialogue: 0,0:08:58.30,0:08:59.04,Dialogue,,0,0,0,,Let's go.
 Dialogue: 0,0:08:59.63,0:09:03.04,Dialogue,,0,0,0,,Megure! You fly to Hokkaidō with Satō!
-Dialogue: 0,0:09:03.04,0:09:09.30,Dialogue,,0,0,0,,The suspect mentioned friends in his e-mails, so there's a{\rHonorifics - Dialogue} chan{\r}ce that accomplices may be lurking at the scene.
+Dialogue: 0,0:09:03.04,0:09:09.30,Dialogue,,0,0,0,,The suspect mentioned friends in his e-mails, so there's a chance that accomplices may be lurking at the scene.
 Dialogue: 0,0:09:09.30,0:09:11.26,Dialogue,,0,0,0,,Don't forget to carry your handguns!
 Dialogue: 0,0:09:11.26,0:09:12.51,Dialogue,,0,0,0,,Yes, sir!
 Dialogue: 0,0:09:13.88,0:09:15.51,Thoughts,,0,0,0,,{\be10}Wait for us, Takagi...
@@ -386,7 +380,7 @@ Dialogue: 0,0:20:18.74,0:20:23.24,MKED,,0,0,0,,{\fax0.25\blur4}tokimeki wa kakus
 Dialogue: 0,0:20:23.78,0:20:28.24,MKED,,0,0,0,,{\fax0.25\blur4}koi ni bukiyō son'na style kimi no mae da to betsujin mitai
 Dialogue: 0,0:20:28.79,0:20:32.67,MKED,,0,0,0,,{\fax0.25\blur4}dare ni mo ienai himitsu no mama
 Dialogue: 0,0:20:33.79,0:20:37.75,MKED,,0,0,0,,{\fax0.25\blur4}soredemo I'm alright koi no yukue nante
-Dialogue: 0,0:20:38.09,0:20:42.09,MKED,,0,0,0,,{\fax0.25\blur4}mada it isn't the last{\rHonorifics - MKED} chan{\r}ce for me
+Dialogue: 0,0:20:38.09,0:20:42.09,MKED,,0,0,0,,{\fax0.25\blur4}mada it isn't the last chance for me
 Dialogue: 0,0:20:42.68,0:20:47.68,MKED,,0,0,0,,{\fax0.25\blur4}iron'na love story o egaite'ru mune no naka
 Dialogue: 0,0:20:47.85,0:20:52.98,MKED,,0,0,0,,{\fax0.25\blur4}demo risō ni wa hodo tōi
 Dialogue: 0,0:20:53.48,0:20:58.40,MKED,,0,0,0,,{\fax0.25\blur4}watashi-tte wagamama sore kurai no koto wakatte'ru

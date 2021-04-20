@@ -40,11 +40,7 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: Text,Arial,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,3,0,2,0,0,0,1
-Style: Adds,Arial,50,&H00FFFFFF,&H000000FF,&H003B5F1B,&H00000000,0,0,0,0,100,100,0,0,1,2,0,7,15,15,15,1
-Style: Name,Calibri,40,&H00CFCFCF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,1,5,15,15,15,204
-
-[Events]
+Style: Text,Arial,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,3,0,2,0,0,0,1[Events]
 Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
 Dialogue: 0,0:00:01.71,0:00:06.33,Dialogue,,0000,0000,0000,,At the Mouri Detective Agency, a man who\Ndropped by after following the three ladies...
 Dialogue: 0,0:00:06.33,0:00:10.84,Dialogue,,0000,0000,0000,,Intimidate everyone with his gun and\Nbombs, and besieged the entire place.
@@ -332,7 +328,7 @@ Dialogue: 0,0:19:07.60,0:19:13.37,Dialogue,,0000,0000,0000,,That Miku{\rHonorifi
 Dialogue: 0,0:19:13.40,0:19:17.18,Dialogue,,0000,0000,0000,,Since taking a bath in her room would\Nnot require her to wear slippers.
 Dialogue: 0,0:19:17.97,0:19:25.58,Dialogue,,0000,0000,0000,,Why, then, were the slippers accidentally worn by Mitsui{\rHonorifics - Dialogue}-san{\r}\Nas she was leaving Miku{\rHonorifics - Dialogue}-san{\r}'s room soaking wet and warm...
 Dialogue: 0,0:19:25.58,0:19:30.76,Dialogue,,0000,0000,0000,,Causing Mitsui{\rHonorifics - Dialogue}-san{\r} to mistakenly think that\NMiku{\rHonorifics - Dialogue}-san{\r} had come back from the large baths?
-Dialogue: 0,0:19:31.50,0:19:36.21,Dialogue,,0000,0000,0000,,The deal with the slippers was that Yuchi{\rHonorifics - Dialogue} san{\r}\Ncame there shortly after taking a bath...
+Dialogue: 0,0:19:31.50,0:19:36.21,Dialogue,,0000,0000,0000,,The deal with the slippers was that Yuchi san\Ncame there shortly after taking a bath...
 Dialogue: 0,0:19:36.21,0:19:39.58,Dialogue,,0000,0000,0000,,And inadvertently wore Miku{\rHonorifics - Dialogue}-san{\r}'s slippers on her way out.
 Dialogue: 0,0:19:40.05,0:19:45.72,Dialogue,,0000,0000,0000,,Yuchi{\rHonorifics - Dialogue}-san{\r}'s remaining warm and dampened\Nslippers were then worn by Mitsui{\rHonorifics - Dialogue}-san{\r}.
 Dialogue: 0,0:19:46.10,0:19:48.56,Dialogue,,0000,0000,0000,,In short, Elephant was Nihei{\rHonorifics - Dialogue}-san{\r}.

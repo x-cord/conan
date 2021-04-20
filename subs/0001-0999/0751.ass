@@ -33,17 +33,6 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: Muteki na Heart,Cocon,40,&HC0000000,&H000000FF,&H00FFFFFF,&HC0000000,-1,0,0,0,100,100,0,0,1,3.5,1,8,10,10,25,1
-Style: Phone,OSPuto,52,&H00BEE1FF,&H000000FF,&H000B2A42,&HC0000000,-1,0,0,0,94,100,0,0,1,2.5,2.5,2,27,27,30,1
-Style: FlashbackThoughts,OSPuto,52,&H4B370001,&H000000FF,&H00CCFFFF,&HC0000000,-1,0,0,0,94,100,0,0,1,2.6,2,2,100,100,30,1
-Style: PlaceCard,Corbel,35,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,2,2,100,100,30,1
-Style: Narr,OSPuto,50,&H6E8C6F00,&H000000FF,&H00FFFFFF,&H80000000,-1,0,0,0,100,100,0,0,1,3.7,1.5,2,100,100,30,1
-Style: Signage,OSPuto,50,&H00FFFFFF,&H000000FF,&H80000000,&H00000000,-1,0,0,0,100,100,0,0,3,8,0,2,40,40,40,1
-Style: BCPrologue,Cocon-Regular,45,&H805E0036,&H000000FF,&H00FFFFFF,&H80000000,-1,0,0,0,100,100,1,0,1,5,2,2,10,10,30,1
-Style: ButterflyCore,Love Is Complicated Again,45,&H405E0036,&H000000FF,&H00FFFFFF,&H80000000,-1,0,0,0,100,100,1,0,1,3.5,0,8,10,10,30,1
-Style: ButterflyCore2,Love Is Complicated Again,45,&HFF5E0036,&H000000FF,&H80000000,&H80000000,-1,0,0,0,100,100,1,0,1,0.75,0,8,10,10,30,1
-Style: RainMan,FOT-Seurat Pro,35,&HC0FE4D00,&H000000FF,&H00FFFFFF,&H80000000,-1,0,0,0,100,100,0,0,1,3.5,0.5,8,10,10,25,1
-Style: GreedNarr,Biko,45,&H6E8C4000,&H000000FF,&H00FFFFFF,&H80000000,-1,0,0,0,100,100,0,0,1,3.7,1.5,2,50,50,30,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -53,7 +42,7 @@ Dialogue: 0,0:00:06.36,0:00:10.36,Dialogue Top,,0,0,0,,A reporter came here a wh
 Dialogue: 0,0:00:10.86,0:00:14.70,Dialogue,,0,0,0,,but I never expected that it'd be an article this big!
 Dialogue: 0,0:00:14.70,0:00:16.70,Dialogue,,0,0,0,,You're even in there, Azusa{\rHonorifics - Dialogue}-san{\r}!
 Dialogue: 0,0:00:17.03,0:00:18.16,Dialogue,,0,0,0,,See, over here!
-Dialogue: 0,0:00:18.16,0:00:23.75,Dialogue,,0,0,0,,‘Taii{\rHonorifics - Dialogue}-kun{\r}, a calico cat who frequents the café, and Azusa{\rHonorifics - Dialogue}-san{\r}, a beautiful Poirot employee.'
+Dialogue: 0,0:00:18.16,0:00:23.75,Dialogue,,0,0,0,,'Taii{\rHonorifics - Dialogue}-kun{\r}, a calico cat who frequents the café, and Azusa{\rHonorifics - Dialogue}-san{\r}, a beautiful Poirot employee.'
 Dialogue: 0,0:00:24.25,0:00:26.88,Dialogue,,0,0,0,,Right! She's even holding Tai{\rHonorifics - Dialogue}-chan{\r}!
 Dialogue: 0,0:00:26.88,0:00:30.13,Dialogue,,0,0,0,,Wow! Maybe calling me beautiful is a bit much...
 Dialogue: 0,0:00:30.71,0:00:33.63,Dialogue,,0,0,0,,Newspaper articles usually do exaggerate the facts, after all...
@@ -201,7 +190,7 @@ Dialogue: 0,0:10:17.22,0:10:20.39,Dialogue,,0,0,0,,No way! Goro's usually so war
 Dialogue: 0,0:10:20.89,0:10:24.31,Dialogue,,0,0,0,,I've always got along well with animals.
 Dialogue: 0,0:10:24.31,0:10:28.10,Dialogue,,0,0,0,,Then do you remember whether he had been neutered?
 Dialogue: 0,0:10:28.10,0:10:32.56,Dialogue,,0,0,0,,Who knows... He was fully grown when I got him.
-Dialogue: 0,0:10:33.23,0:10:38.99,Dialogue,,0,0,0,,Oh, and by the way... We've been calling Taii{\rHonorifics - Dialogue}-kun{\r} ‘him', but she's actually a girl, you know?{adapted, original: It said 'Taii{\rHonorifics - Dialogue}-kun{\r}' in the magazine, but he's actually a girl, you know?}
+Dialogue: 0,0:10:33.23,0:10:38.99,Dialogue,,0,0,0,,Oh, and by the way... We've been calling Taii{\rHonorifics - Dialogue}-kun{\r} 'him', but she's actually a girl, you know?{adapted, original: It said 'Taii{\rHonorifics - Dialogue}-kun{\r}' in the magazine, but he's actually a girl, you know?}
 Dialogue: 0,0:10:39.32,0:10:40.16,Dialogue,,0,0,0,,Huh?!
 Dialogue: 0,0:10:40.16,0:10:41.24,Dialogue,,0,0,0,,Oh, well...
 Dialogue: 0,0:10:41.24,0:10:42.99,Dialogue,,0,0,0,,Then maybe she's not my cat after all...
@@ -225,13 +214,13 @@ Dialogue: 0,0:11:32.46,0:11:33.58,Thoughts,,0,0,0,,{\be10}Noise...?
 Dialogue: 0,0:11:34.75,0:11:37.84,Thoughts,,0,0,0,,{\be10}Oh, right. I should tell Ai{\rHonorifics - Thoughts\be10}-chan{\r\be10}.
 Dialogue: 0,0:11:39.76,0:11:41.84,Dialogue,,0,0,0,,Three owners for Tai{\rHonorifics - Dialogue}-chan{\r} turned up?
 Dialogue: 0,0:11:42.18,0:11:44.18,Dialogue,,0,0,0,,So how's it going?
-Dialogue: 0,0:11:44.18,0:11:48.47,Phone,,0,0,0,,{\blur3}Everyone's at their wits' end trying to figure out who's the real owner...
+Dialogue: 0,0:11:44.18,0:11:48.47,Radio,,0,0,0,,{\be10}Everyone's at their wits' end trying to figure out who's the real owner...
 Dialogue: 0,0:11:48.47,0:11:50.52,Dialogue,,0,0,0,,I'm not asking about everyone, just Edogawa{\rHonorifics - Dialogue}-kun{\r}.
 Dialogue: 0,0:11:50.89,0:11:51.69,Dialogue,,0,0,0,,Huh?
-Dialogue: 0,0:11:51.69,0:11:52.73,Phone,,0,0,0,,{\blur3}What expression's on his face?
-Dialogue: 0,0:11:56.19,0:11:59.48,Phone,,0,0,0,,{\blur3}He's got a big, beaming, mischievous smile.
+Dialogue: 0,0:11:51.69,0:11:52.73,Radio,,0,0,0,,{\be10}What expression's on his face?
+Dialogue: 0,0:11:56.19,0:11:59.48,Radio,,0,0,0,,{\be10}He's got a big, beaming, mischievous smile.
 Dialogue: 0,0:12:00.44,0:12:01.90,Dialogue,,0,0,0,,Then everything'll be fine.
-Dialogue: 0,0:12:01.90,0:12:04.41,Phone,,0,0,0,,{\blur3}It seems he's found the owner.
+Dialogue: 0,0:12:01.90,0:12:04.41,Radio,,0,0,0,,{\be10}It seems he's found the owner.
 Dialogue: 0,0:12:11.00,0:12:13.75,Dialogue,,0,0,0,,Hey, what's going on here?
 Dialogue: 0,0:12:13.75,0:12:18.25,Dialogue,,0,0,0,,Didn't you call us all here because you figured out who his owner was?
 Dialogue: 0,0:12:18.25,0:12:24.09,Dialogue,,0,0,0,,Well, as for that, Azusa{\rHonorifics - Dialogue}-chan{\r} from Poirot should be arriving with the cat any moment now...
@@ -251,7 +240,7 @@ Dialogue: 0,0:13:05.26,0:13:07.72,Dialogue,,0,0,0,,Yeah! I saw it on TV.
 Dialogue: 0,0:13:07.72,0:13:09.93,Dialogue,,0,0,0,,That must be it.
 Dialogue: 0,0:13:09.93,0:13:12.72,Dialogue,,0,0,0,,My cat would've never jumped into the arms of someone as shady as him otherwise!
 Dialogue: 0,0:13:13.10,0:13:15.44,Dialogue,,0,0,0,,Then let's try it again, you'll see!
-Dialogue: 0,0:13:15.44,0:13:18.15,Dialogue,,0,0,0,,I can stand on the left or the right, it won't{\rHonorifics - Dialogue} chan{\r}ge a thing.
+Dialogue: 0,0:13:15.44,0:13:18.15,Dialogue,,0,0,0,,I can stand on the left or the right, it won't change a thing.
 Dialogue: 0,0:13:18.48,0:13:21.78,Dialogue,,0,0,0,,There's an even better method we can use.
 Dialogue: 0,0:13:21.78,0:13:24.65,Dialogue,,0,0,0,,It's an experiment that'll let us\Nidentify the owner right away.
 Dialogue: 0,0:13:25.45,0:13:27.61,Dialogue,,0,0,0,,Azusa{\rHonorifics - Dialogue}-san{\r}, are you ready?
@@ -362,7 +351,7 @@ Dialogue: 0,0:20:31.96,0:20:34.00,Dialogue,,0,0,0,,If we can arrange a time, I'd
 Dialogue: 0,0:20:34.42,0:20:36.29,Dialogue,,0,0,0,,Really?! Thank you!
 Dialogue: 0,0:20:40.63,0:20:44.93,Dialogue,,0,0,0,,Still, I never knew cats were drawn to the person standing in the middle of a group...
 Dialogue: 0,0:20:45.59,0:20:47.14,Dialogue,,0,0,0,,That was a lie.
-Dialogue: 0,0:20:48.05,0:20:54.10,Dialogue,,0,0,0,,If he hadn't said that, he wouldn't have had a{\rHonorifics - Dialogue} chan{\r}ce to do the experiment with the footsteps, so he had to tell that little fib.
+Dialogue: 0,0:20:48.05,0:20:54.10,Dialogue,,0,0,0,,If he hadn't said that, he wouldn't have had a chance to do the experiment with the footsteps, so he had to tell that little fib.
 Dialogue: 0,0:20:55.14,0:20:58.11,Dialogue,,0,0,0,,He's got sharp claws hiding under that innocent smile.
 Dialogue: 0,0:20:59.86,0:21:02.19,Dialogue,,0,0,0,,Oh, since we were talking about cats...
 Dialogue: 0,0:21:02.19,0:21:03.32,Dialogue,,0,0,0,,That was a pun, huh...?
@@ -395,22 +384,11 @@ Dialogue: 0,0:23:53.03,0:23:54.03,Thoughts,,0,0,0,,{\be10}Is it the room at the 
 Dialogue: 0,0:23:56.91,0:23:59.95,Dialogue,,0,0,0,,So you two don't have time to be fooling around.
 Dialogue: 0,0:24:01.16,0:24:05.50,Thoughts,,0,0,0,,{\be10}There's tape and scissors here, but the bin is empty.
 Dialogue: 0,0:24:06.42,0:24:08.84,Thoughts,,0,0,0,,{\be10}Why isn't it anywhere here?
-Dialogue: 0,0:24:08.84,0:24:14.84,Dialogue,,0,0,0,,On the next Conan: ‘The Case of the Beckoning Calico Cat (Part II)'!
+Dialogue: 0,0:24:08.84,0:24:14.84,Dialogue,,0,0,0,,On the next Conan: 'The Case of the Beckoning Calico Cat (Part II)'!
 Dialogue: 0,0:24:14.84,0:24:19.85,Dialogue,,0,0,0,,Next Conan's Hint: Wrapping!
 Dialogue: 0,0:24:19.85,0:24:22.31,Dialogue Top,,0,0,0,,Next week, yo, part two, yeah!
 Dialogue: 0,0:24:22.31,0:24:23.23,Dialogue Top,,0,0,0,,That's rapping...
 Dialogue: 0,0:24:23.23,0:24:24.40,Dialogue Top,,0,0,0,,It's {\i1}wrapping{\i0}!
-Dialogue: 0,0:21:16.54,0:21:24.05,Muteki na Heart,,0,0,0,,{\blur2\c&HCD8B2A&}itsushika jibun miushinatte'ta ‘daijōbu'-tte hontō wa uso
-Dialogue: 0,0:21:24.22,0:21:28.01,Muteki na Heart,,0,0,0,,{\blur2\c&HC2E6FA&\t(1262,2690,\c&HECC000&)}iiwake nante mō dō ni mo naranai
-Dialogue: 0,0:21:28.18,0:21:31.85,Muteki na Heart,,0,0,0,,{\blur2\c&HECC000&}kokoro ga odoru yō ja nakya ne
-Dialogue: 0,0:21:32.02,0:21:38.65,Muteki na Heart,,0,0,0,,{\blur2\c&H880044}kokoro ni hitotsuzutsu hi o tomoshitekita kedo
-Dialogue: 0,0:21:38.81,0:21:45.53,Muteki na Heart,,0,0,0,,{\blur2\c&H880044}gomen tameiki tsuichatta kono mama ja kiesō
-Dialogue: 0,0:21:46.74,0:21:50.37,Muteki na Heart,,0,0,0,,{\blur2\c&HDB0000&\t(640,660,\c&H008800)}muteki na heart sawagidashite
-Dialogue: 0,0:21:50.53,0:21:54.37,Muteki na Heart,,0,0,0,,{\c&H008800\blur2\t(640,670,\c&HCC7500&)\t(2650,2670,\c&H0000FF)}saa kokoro hodoite respect yourself
-Dialogue: 0,0:21:54.54,0:22:02.21,Muteki na Heart,,0,0,0,,{\blur2\c&H0000FF\t(600,610,\c&H008800)}hontō no jibun de ireba muchū de yume mite'ta watashi ni (be back)
-Dialogue: 0,0:22:02.38,0:22:05.92,Muteki na Heart,,0,0,0,,{\c&H0000FF\t(1600,1680,\c&HD37F00&)\blur2}invincible heart mezamesasete
-Dialogue: 0,0:22:06.09,0:22:09.93,Muteki na Heart,,0,0,0,,{\blur2\c&HD37F00&}osoreru koto nai revives my heart
-Dialogue: 0,0:22:10.05,0:22:18.77,Muteki na Heart,,0,0,0,,{\blur2\c&HD37F00\fad(0,500)\t(640,680,\c&H008800)\t(7700,7800,\c&HFF)}namida o nagashita ato ni wa muteki na watashi to ashita ni cheers!
 Dialogue: 0,0:02:18.99,0:02:24.45,Signs,,0,0,0,,Shōgo Amesawa (36)\NPart-Time Worker
 Dialogue: 0,0:02:29.08,0:02:34.04,Signs,,0,0,0,,Teishi Masuko (54)\NCompany President
 Dialogue: 0,0:04:56.19,0:05:00.15,Signs,,0,0,0,,Mutsumi Shagawa (61)\NHousewife

@@ -33,14 +33,7 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: Otanoshimi,Calibri,45,&H18FFFFFF,&H000000FF,&H003F3F3F,&HC04B0008,-1,0,0,0,100,100,0,0,1,3,0,2,70,0,5,1
-Style: ConanEdogawaKun,Segoe Print,45,&H00B78800,&H000000FF,&H484B4B4B,&HC0000000,0,0,0,0,100,100,0,20,1,0,0,2,10,10,25,1
-Style: KudoSempai,Segoe Print,45,&H009796B7,&H000000FF,&H484B4B4B,&HC0000000,0,0,0,0,100,100,0,0,1,0,0,7,10,10,25,1
-Style: ConanLocker,ZapfChan MdIt BT,35,&H007E797A,&H000000FF,&H00D7D0D1,&HC0000000,-1,0,0,0,100,100,0,0,1,0,0,7,10,10,25,1
-Style: SMS box,Arial,30,&H00F3F0EF,&H000000FF,&H00F3F0EF,&H00000000,0,0,0,0,100,100,0,0,1,7.5,0,2,20,20,15,1
-Style: SMS text,Eurostile,30,&H0A5D331F,&H000000FF,&H00F3F0EF,&H00000000,-1,0,0,0,100,110,0,0,1,0,0,2,20,20,15,1
-Style: SMSBox2,Arial,20,&HFFFFFFFF,&H000000FF,&H00F3F0EF,&H00000000,0,0,0,0,100,100,0,0,3,1,0,7,0,0,0,1
-Style: SMSText2,Eurostile,28,&H0A5D331F,&H000000FF,&H00F3F0EF,&H00000000,-1,0,0,0,100,110,0,0,1,0,0,7,20,20,15,1
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, EncodingStyle: Otanoshimi,Calibri,45,&H18FFFFFF,&H000000FF,&H003F3F3F,&HC04B0008,-1,0,0,0,100,100,0,0,1,3,0,2,70,0,5,1
 Style: Default2,Calibri,50,&H00FFFFFF,&H000000FF,&H00370001,&HC0000000,-1,0,0,0,100,100,0,0,1,2.5,3,2,40,40,30,1
 
 [Events]
@@ -133,7 +126,7 @@ Dialogue: 0,0:01:31.67,0:01:33.44,Default2,,0000,0000,0000,,{\be2}Sure! I'll go 
 Dialogue: 0,0:01:34.06,0:01:38.91,Default2,,0000,0000,0000,,{\be2}Hey, just because that waiter's hot\Ndoesn't mean you should go ogling him.{irome again xD I can't remember what we used last time}
 Dialogue: 0,0:01:38.91,0:01:40.66,Default2,,0000,0000,0000,,{\be2}Why, are you jealous?
 Dialogue: 0,0:01:40.66,0:01:42.22,Default2,,0000,0000,0000,,{\be2}It's not like that...
-Dialogue: 0,0:01:42.22,0:01:44.00,Default2,,0000,0000,0000,,{\be2}You haven't{\rHonorifics - Default2} chan{\r}ged.
+Dialogue: 0,0:01:42.22,0:01:44.00,Default2,,0000,0000,0000,,{\be2}You haven't changed.
 Dialogue: 0,0:01:44.00,0:01:46.68,Default2,,0000,0000,0000,,{\be2}Still quick to get involved with women,\Nbut jealous when they do the same.
 Dialogue: 0,0:01:46.68,0:01:47.67,Default2,,0000,0000,0000,,{\be2}What're you going on about?
 Dialogue: 0,0:01:47.67,0:01:52.13,Default2,,0000,0000,0000,,{\be2}Mouri, you're the one who used to\Nsend anyone who courted Eri{\rHonorifics - Default2}-chan{\r} flying.
@@ -426,7 +419,7 @@ Dialogue: 0,0:20:01.50,0:20:05.58,Default2,,0000,0000,0000,,{\be2}But aren't DNA
 Dialogue: 0,0:20:05.58,0:20:09.89,Default2,,0000,0000,0000,,{\be2}You used to only be able to tell\Nsomeone's blood type from their saliva,
 Dialogue: 0,0:20:09.89,0:20:12.76,Default2,,0000,0000,0000,,{\be2}but now you can tell for sure if two\Nsamples came from the same person.
 Dialogue: 0,0:20:12.76,0:20:14.25,Default2,,0000,0000,0000,,{\be2}Yeah. You're right.
-Dialogue: 0,0:20:14.25,0:20:18.60,Default2,,0000,0000,0000,,{\be2}Then people who{\rHonorifics - Default2} chan{\r}ge their appearance and deceive everyone can be found out in an instant.
+Dialogue: 0,0:20:14.25,0:20:18.60,Default2,,0000,0000,0000,,{\be2}Then people who change their appearance and deceive everyone can be found out in an instant.
 Dialogue: 0,0:20:19.82,0:20:22.17,Default2,,0000,0000,0000,,{\be2}Y-Yeah... Y-You're right.
 Dialogue: 0,0:20:23.46,0:20:26.09,Thoughts,,0000,0000,0000,,{\be10}If the results of the test come out then it'll be clear, but...
 Dialogue: 0,0:20:27.32,0:20:31.52,Thoughts,,0000,0000,0000,,{\be10}But if that person did do it, why is {\i1}that{\i0} still there?

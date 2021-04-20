@@ -34,14 +34,6 @@ Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
 Style: HitomiRomaji,Ubuntu,40,&HC0FF0000,&H000000FF,&H00FFFFFF,&H00000000,-1,0,0,0,105,100,0,0,1,3.4,1,8,10,10,30,1
-Style: OPTL_old,Nyala,42,&H00FFFFFF,&H000000FF,&H96000000,&H1E3E3330,-1,0,0,0,100,100,0,0,1,0.975,1.6875,2,8,8,35,1
-Style: ConanEdogawaKun,Segoe Print,45,&H00B78800,&H000000FF,&H00B78800,&HC0000000,0,0,0,0,100,100,0,20,1,0,0,2,10,10,25,1
-Style: KudoSempai,Segoe Print,45,&H009796B7,&H000000FF,&H484B4B4B,&HC0000000,0,0,0,0,100,100,0,0,1,0,0,7,10,10,25,1
-Style: ConanLocker,ZapfChan MdIt BT,35,&H007E797A,&H000000FF,&H00D7D0D1,&HC0000000,-1,0,0,0,100,100,0,0,3,0,0,7,10,10,25,1
-Style: Blanka30,Arial,20,&HFFFFFFFF,&H000000FF,&H1E000000,&H00000000,0,0,0,0,100,100,0,0,3,1,0,7,10,10,10,1
-Style: PlaceCard,Corbel,35,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,2,2,100,100,30,1
-Style: topbox,Arial,20,&HFFFFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,3,1,0,8,10,10,10,1
-Style: MKED,MV Boli M,50,&H00D6EEF3,&H000000FF,&H003C5B6F,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,8,10,30,25,1
 Style: OPTLTextless,FuntypeFattened,50,&H00FFFFFF,&H000000FF,&H80AF0068,&H80000000,-1,0,0,0,90,100,0,0,1,3,1,2,10,10,40,1
 
 [Events]
@@ -224,7 +216,7 @@ Dialogue: 0,0:12:41.10,0:12:43.91,Dialogue,,0,0,0,,Hey, Ran{\rHonorifics - Dialo
 Dialogue: 0,0:12:43.91,0:12:45.23,Dialogue,,0,0,0,,Huh? Yeah.{え？ええ。\N}
 Dialogue: 0,0:12:45.23,0:12:49.02,Dialogue,,0,0,0,,H-Hey, you don't want to buy some beer even though you're just a brat, do you?{He-Hey, do you want to buy a beer even though you're [just] a brat?!{ちょっ　ちょっとアンタ\Nガキのくせにビールとか買う気！？\N}
 Dialogue: 0,0:12:49.02,0:12:50.75,Dialogue,,0,0,0,,That's not it!{違うよ...。\N}
-Dialogue: 0,0:12:52.95,0:12:59.38,Dialogue,,0,0,0,,{It's what }Shin'ichi-{\i1}niichan{\i0} wrote in his e-mail{.新一兄ちゃんのメールに書いてあったんだ。\N} that if we line up\Nsome pocket{\rHonorifics - Dialogue} chan{\r}ge with the bloody character...{If we arrange some pocket{\rHonorifics - Dialogue} chan{\r}ge according to the character written in blood like this...{こうやって\N血の文字に小銭を並べると→\N}
+Dialogue: 0,0:12:52.95,0:12:59.38,Dialogue,,0,0,0,,{It's what }Shin'ichi-{\i1}niichan{\i0} wrote in his e-mail{.新一兄ちゃんのメールに書いてあったんだ。\N} that if we line up\Nsome pocket change with the bloody character...{If we arrange some pocket change according to the character written in blood like this...{こうやって\N血の文字に小銭を並べると→\N}
 Dialogue: 0,0:13:00.33,0:13:02.04,Dialogue,,0,0,0,,Look! They fit perfectly.{'re a perfect fit.{ホラ！ぴったり　はまったよ。\N}
 Dialogue: 0,0:13:03.97,0:13:06.09,Dialogue,,0,0,0,,No way! But how?!{No way! How can that be?{ウソ！？どうして！？\N}
 Dialogue: 0,0:13:06.09,0:13:08.96,Dialogue,,0,0,0,,This wasn't a character that someone wrote on purpose,{This character wasn't written by anyone,{これは　人が書いた\N文字じゃなくて→\N}
@@ -234,15 +226,15 @@ Dialogue: 0,0:13:16.30,0:13:19.40,Dialogue,,0,0,0,,What about that long, straigh
 Dialogue: 0,0:13:19.40,0:13:22.02,Dialogue,,0,0,0,,Did the blood just happen to avoid flowing there?{Are you implying the blood merely avoided spilling itself there?{勝手に　血がそこを\N避けたっていうわけ？\N}
 Dialogue: 0,0:13:22.02,0:13:26.45,Dialogue,,0,0,0,,No,{いや} the cigarette was probably lying there.{the cigarette probably had fallen there.{　多分　　そこには\Nタバコが落ちてたんだよ。\N}
 Dialogue: 0,0:13:26.45,0:13:29.02,Dialogue,,0,0,0,,It did have blood on it.{That cigarette was soaked in blood.{あのタバコ\N血まみれだったし。\N}
-Dialogue: 0,0:13:29.02,0:13:36.04,Dialogue,,0,0,0,,And if the wallet that had the{\rHonorifics - Dialogue} chan{\r}ge in{The wallet that had those items inside itそれに\N小銭が入っていた財布が→\N} fell surrounding it,{probably fell in such a way that it was surrounding them,小銭を囲むように落ちたとしたら→\N} then the bloody 'death' character is complete.{which is how this 'death' character written in blood was formed.この「死」の血文字は出来そうだな。\N}
+Dialogue: 0,0:13:29.02,0:13:36.04,Dialogue,,0,0,0,,And if the wallet that had the change in{The wallet that had those items inside itそれに\N小銭が入っていた財布が→\N} fell surrounding it,{probably fell in such a way that it was surrounding them,小銭を囲むように落ちたとしたら→\N} then the bloody 'death' character is complete.{which is how this 'death' character written in blood was formed.この「死」の血文字は出来そうだな。\N}
 Dialogue: 0,0:13:37.39,0:13:43.98,Dialogue,,0,0,0,,Basically,{To sum [it / things] up,つまり} the man whose corpse we found this morning{The man whose body we found today morning　今朝　僕たちが\N遺体で見つけたオジさんは→\N} came here to buy a beer last night,{had come here last night to buy alcoholゆうべ　ここに\N酒を買いに来たけど→\N}
 Dialogue: 0,0:13:43.98,0:13:47.70,Dialogue,,0,0,0,,and crouched down when he started vomiting blood due to variceal ruptures caused by his cirrhosis.{knelled down as he began vomiting blood due to variceal ruptures caused by his cirrhosis肝硬変による静脈瘤破裂で\N吐血して　うずくまり→\N}
-Dialogue: 0,0:13:48.22,0:13:54.06,Dialogue,,0,0,0,,When doing so, he dropped his wallet,{\rHonorifics - Dialogue} chan{\r}ge and a cigarette,{at that time, he had already dropped the wallet containing the coins and the cigaretteその時　落とした財布や\N小銭やタバコの上に→\N} and the blood dripping from his mouth landed on them.{and then blood began to drip down from his mouth.口から垂れた血が落ちた。→\N}
-Dialogue: 0,0:13:54.06,0:14:00.27,Dialogue,,0,0,0,,Then, after the man died,{Therefore, after the man had already passed away,そして　オジさんが\N亡くなった後で→\N} someone who passed by stole the{\rHonorifics - Dialogue} chan{\r}ge and the wallet,{some passerby took the coins and the wallet通りがかった誰かが\N小銭と財布を盗ってったから→\N}
+Dialogue: 0,0:13:48.22,0:13:54.06,Dialogue,,0,0,0,,When doing so, he dropped his wallet, change and a cigarette,{at that time, he had already dropped the wallet containing the coins and the cigaretteその時　落とした財布や\N小銭やタバコの上に→\N} and the blood dripping from his mouth landed on them.{and then blood began to drip down from his mouth.口から垂れた血が落ちた。→\N}
+Dialogue: 0,0:13:54.06,0:14:00.27,Dialogue,,0,0,0,,Then, after the man died,{Therefore, after the man had already passed away,そして　オジさんが\N亡くなった後で→\N} someone who passed by stole the change and the wallet,{some passerby took the coins and the wallet通りがかった誰かが\N小銭と財布を盗ってったから→\N}
 Dialogue: 0,0:14:00.27,0:14:03.95,Dialogue,,0,0,0,,so all that remained was the bloody character...{and all that was left was this character written in blood... that's what happened.{この血文字だけ残った...\Nっていうわけか。\N}
 Dialogue: 0,0:14:04.89,0:14:09.71,Dialogue,,0,0,0,,But if someone took his money, couldn't they have killed him as well?{However, couldn't it be that someone killed him in order to take his money?でも　お金を盗ってった→\N\Nその誰かが\N殺したってことはないの？\N}
 Dialogue: 0,0:14:09.71,0:14:11.06,Dialogue,,0,0,0,,I don't think so.{ないと思うよ。\Nえっ？\N}
-Dialogue: 0,0:14:11.82,0:14:14.77,Dialogue,,0,0,0,,If the blood hadn't dried when\Nthe wallet and{\rHonorifics - Dialogue} chan{\r}ge were taken,{If the wallet and pocket{\rHonorifics - Dialogue} chan{\r}ge were taken before the blood had time to dry,{血が乾いてから\N小銭や財布を取らないと→\N}
+Dialogue: 0,0:14:11.82,0:14:14.77,Dialogue,,0,0,0,,If the blood hadn't dried when\Nthe wallet and change were taken,{If the wallet and pocket change were taken before the blood had time to dry,{血が乾いてから\N小銭や財布を取らないと→\N}
 Dialogue: 0,0:14:15.56,0:14:18.50,Dialogue,,0,0,0,,then this bloody character wouldn't have been so clearly defined.{then this character written in blood wouldn't have been as [sharply] recognizable as it is.{こんなくっきりした血文字は\N残らないからねぇ。\N}
 Dialogue: 0,0:14:18.50,0:14:21.74,Dialogue,,0,0,0,,Then it actually {\i1}was{\i0} a theft case.{Then... that matches up with [this being] a theft case after all.{ゃあ　やっぱり窃盗事件で\N合ってたんだね。\N}
 Dialogue: 0,0:14:21.74,0:14:23.00,Dialogue,,0,0,0,,Yeah.{（世良）ああ！\N}
@@ -250,7 +242,7 @@ Dialogue: 0,0:14:25.71,0:14:28.84,Dialogue,,0,0,0,,Though I'm surprised you figu
 Dialogue: 0,0:14:28.84,0:14:33.12,Dialogue,,0,0,0,,I-It wasn't me who figured it out, but Shin'ichi-{\i1}niichan{\i0}.{I-I didn't realize anything, Shin'ichi-niichan did.き　気づいたのは　僕じゃなくて\N新一兄ちゃんだよ。\N}
 Dialogue: 0,0:14:33.12,0:14:35.89,Dialogue,,0,0,0,,What Subaru{\rHonorifics - Dialogue}-san{\r} said gave him a flash of insight, he said.{He said the thing Subaru{\rHonorifics - Dialogue}-san{\r} told him let him figure it out.昴さんの　一言で\Nピーンと来たんだって。\N}
 Dialogue: 0,0:14:35.89,0:14:45.02,Dialogue,,0,0,0,,Oh, you mean the message he asked me to tell Shin'ichi,\N{Hmm... he said I should tell Shin'ichiああ　新一に\N伝えてくれって言ってた→\N} 'You're just like the shinobi, Kirigakure Saizō'?{"You're a ninja, like Saizōda Kirigakure", those were the words he told me to say. 「君はまるで忍...　霧隠才蔵だ」ってあの言葉ね。\N}
-Dialogue: 0,0:14:45.02,0:14:49.45,Dialogue,,0,0,0,,Then do ninjas use bloody characters like this one a lot?{By any{\rHonorifics - Dialogue} chan{\r}ce, is it that ninjas used to write characters in blood [like this one]?　ひょっとして→\N\Nこれって忍者が\Nよく使ってた血文字とか？\N}
+Dialogue: 0,0:14:45.02,0:14:49.45,Dialogue,,0,0,0,,Then do ninjas use bloody characters like this one a lot?{By any chance, is it that ninjas used to write characters in blood [like this one]?　ひょっとして→\N\Nこれって忍者が\Nよく使ってた血文字とか？\N}
 Dialogue: 0,0:14:49.45,0:14:53.78,Dialogue,,0,0,0,,That's not it. Kirigakure Saizō was one of the Sanada Ten Braves.{That's not it, Kirigakure Saizō was one of the Ten Heroes of Sanada.{違うよ　霧隠才蔵は\N真田十勇士の一人。\N}
 Dialogue: 0,0:14:53.78,0:14:57.69,Dialogue,,0,0,0,,The war banner of the Sanada clan\Nhad six {\i1}mon{\i0} coins on it, right?{Have[n't] you heard about the Sanada House's six-cpin banner?{真田家の旗印って言えば\N六文銭でしょ？\N}
 Dialogue: 0,0:14:57.69,0:14:59.30,Dialogue,,0,0,0,,That's how I figured it out!{That's how I realized it!{だから　わかったんだ！\N}
@@ -272,7 +264,7 @@ Dialogue: 0,0:16:03.80,0:16:06.98,Dialogue,,0,0,0,,and the six {\i1}mon{\i0}-tol
 Dialogue: 0,0:16:06.98,0:16:09.30,Dialogue,,0,0,0,,T-The Sanzu River?{Sanzu River, you say?{さ　三途の川って。\N}
 Dialogue: 0,0:16:09.30,0:16:11.43,Dialogue,,0,0,0,,Wasn't he just five years old and at nursery?{Wasn't he [just] a five-year-old kindergartener?{５歳の幼稚園児だよ？\N}
 Dialogue: 0,0:16:11.43,0:16:14.09,Dialogue,,0,0,0,,But he was a child from a temple, wasn't he?{But he was [a child from a temple], wasn't he?{でも　お寺の子だったんだろ？\N}
-Dialogue: 0,0:16:14.09,0:16:16.77,Dialogue,,0,0,0,,There's a{\rHonorifics - Dialogue} chan{\r}ce that he could've heard about it from his parents, right?{Couldn't it have been that he heard it from his parents?{親に聞かされてたってことも→\N\Nあるんじゃないか？\N}
+Dialogue: 0,0:16:14.09,0:16:16.77,Dialogue,,0,0,0,,There's a chance that he could've heard about it from his parents, right?{Couldn't it have been that he heard it from his parents?{親に聞かされてたってことも→\N\Nあるんじゃないか？\N}
 Dialogue: 0,0:16:16.77,0:16:18.32,Dialogue,,0,0,0,,Yeah...{あぁ...。\N}
 Dialogue: 0,0:16:18.32,0:16:23.92,Dialogue,,0,0,0,,If someone dies without having six {\i1}mon{\i0},{If a deceased person doesn't have the six coins required to pay{亡くなった人に\N六文銭を持たせないと→\N} then at the shore of the Sanzu River,{their toll to Sanzu River's ferrywoman, Tatsueba, {三途の川の畔にいる\N奪衣婆に→\N}
 Dialogue: 0,0:16:23.92,0:16:28.10,Dialogue,,0,0,0,,Datsueba takes their clothes instead,{she'd take all their clothes and finally{衣服を剥ぎ取られて→\N} and they fall into Hell.{they would fall [down] [into / to] Hell.{地獄に\N落ちてしまうってね。\N}

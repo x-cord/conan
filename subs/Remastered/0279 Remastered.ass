@@ -33,12 +33,8 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: Next time,Ubuntu,25,&H000000FF,&H000000FF,&H62E2E2E2,&HC0000000,-1,0,0,0,92,100,1,0,1,3,1,9,10,10,100,1
-Style: EDSCredit,Ubuntu Condensed,25,&H00FFFFFF,&H000000FF,&H624B4B4B,&HC0000000,0,0,0,0,100,100,1,0,1,2.5,1,1,10,10,100,1
-Style: English,Calibri,28,&H00FFFFFF,&H000000FF,&H00000000,&H80000000,0,-1,0,0,105,100,0,0,1,1,0,2,30,30,30,1
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, EncodingStyle: EDSCredit,Ubuntu Condensed,25,&H00FFFFFF,&H000000FF,&H624B4B4B,&HC0000000,0,0,0,0,100,100,1,0,1,2.5,1,1,10,10,100,1
 Style: Otanoshimi,Calibri,50,&H18FFFFFF,&H000000FF,&H00000000,&HC04B0008,-1,0,0,0,100,100,0,0,1,2,0,2,10,10,100,1
-Style: DR,Ubuntu Condensed,35,&H00FFFFFF,&H000000FF,&H00000000,&HC0000000,0,0,0,0,100,100,1,0,1,2.5,1,1,10,10,100,1
-
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 Dialogue: 0,0:22:40.29,0:22:44.09,Signs,,0000,0000,0000,,Kanashii hodo kyō no yūhi kirei da ne\N(Today's sunset is so pretty it's sad)
@@ -118,7 +114,7 @@ Dialogue: 0,0:05:47.35,0:05:48.74,Dialogue,,0000,0000,0000,,What an awful guy...
 Dialogue: 0,0:05:48.74,0:05:51.18,Dialogue,,0000,0000,0000,,Hey, hey, take it easy.
 Dialogue: 0,0:05:51.18,0:05:53.24,Dialogue,,0000,0000,0000,,It's just a rumour.
 Dialogue: 0,0:05:53.24,0:05:57.61,Dialogue,,0000,0000,0000,,But if the rumour is right, then he'll probably be much better off.
-Dialogue: 0,0:05:59.70,0:06:05.92,Dialogue,,0000,0000,0000,,It's his{\rHonorifics - Dialogue} chan{\r}ce to forget everything and escape to a place where the booing won't reach.
+Dialogue: 0,0:05:59.70,0:06:05.92,Dialogue,,0000,0000,0000,,It's his chance to forget everything and escape to a place where the booing won't reach.
 Dialogue: 0,0:06:07.88,0:06:10.85,Dialogue,,0000,0000,0000,,Just kidding.
 Dialogue: 0,0:06:16.16,0:06:17.08,Dialogue,,0000,0000,0000,,Hey.
 Dialogue: 0,0:06:17.08,0:06:19.39,Dialogue,,0000,0000,0000,,I think there's a Big match today, too.
@@ -219,7 +215,7 @@ Dialogue: 0,0:11:48.04,0:11:50.97,Dialogue,,0000,0000,0000,,If something happens
 Dialogue: 0,0:11:50.97,0:11:53.10,Dialogue,,0000,0000,0000,,Yes, of course.
 Dialogue: 0,0:12:03.50,0:12:04.78,Thoughts,,0000,0000,0000,,{\be10}What!?
 Dialogue: 0,0:12:06.27,0:12:09.44,Thoughts,,0000,0000,0000,,{\be10}Haido, Haido...
-Dialogue: 0,0:12:09.44,0:12:12.87,Thoughts,,0001,0001,0000,,{\be10}Passengers transferring to the Haido subway line{\rHonorifics - Thoughts\be10} chan{\r\be10}ge here.
+Dialogue: 0,0:12:09.44,0:12:12.87,Thoughts,,0001,0001,0000,,{\be10}Passengers transferring to the Haido subway line change here.
 Dialogue: 0,0:12:26.93,0:12:29.39,Thoughts,,0000,0000,0000,,{\be10}One stab to the stomach with a knife.
 Dialogue: 0,0:12:29.39,0:12:31.77,Dialogue,,0000,0000,0000,,Hey, what happened, Conan?
 Dialogue: 0,0:12:32.73,0:12:34.82,Dialogue,,0000,0000,0000,,Doc! Get an ambulance and the police!
@@ -267,7 +263,7 @@ Dialogue: 0,0:14:44.78,0:14:46.48,Dialogue,,0000,0000,0000,,Dressed the same?
 Dialogue: 0,0:14:46.48,0:14:49.23,Dialogue,,0000,0000,0000,,A soccer match just ended,
 Dialogue: 0,0:14:49.23,0:14:52.58,Dialogue,,0000,0000,0000,,so the train was full of supporters from the two teams.
 Dialogue: 0,0:14:53.82,0:14:55.20,Dialogue,,0000,0000,0000,,In that case...
-Dialogue: 0,0:14:55.20,0:14:58.66,Dialogue,,0000,0000,0000,,there's a good{\rHonorifics - Dialogue} chan{\r}ce the killer left the station,
+Dialogue: 0,0:14:55.20,0:14:58.66,Dialogue,,0000,0000,0000,,there's a good chance the killer left the station,
 Dialogue: 0,0:14:58.66,0:15:01.25,Dialogue,,0000,0000,0000,,or switched to another train.
 Dialogue: 0,0:15:01.25,0:15:03.59,Dialogue,,0000,0000,0000,,Yeah, but...
 Dialogue: 0,0:15:03.59,0:15:08.80,Dialogue,,0000,0000,0000,,I explained to three passengers what happened, and asked them to stay.
@@ -302,10 +298,10 @@ Dialogue: 0,0:16:45.57,0:16:49.32,Dialogue,,0000,0000,0000,,and if he tried to b
 Dialogue: 0,0:16:49.32,0:16:51.97,Dialogue,,0000,0000,0000,,The match ended at 5 PM.
 Dialogue: 0,0:16:51.97,0:17:01.33,Dialogue,,0000,0000,0000,,Basically, only three people had a ticket marked before 5 PM and tried to leave.
 Dialogue: 0,0:17:01.33,0:17:03.01,Dialogue,,0000,0000,0000,,I see...
-Dialogue: 0,0:17:03.01,0:17:09.07,Dialogue,,0000,0000,0000,,But what if the killer{\rHonorifics - Dialogue} chan{\r}ged clothes before leaving the station?
+Dialogue: 0,0:17:03.01,0:17:09.07,Dialogue,,0000,0000,0000,,But what if the killer changed clothes before leaving the station?
 Dialogue: 0,0:17:09.07,0:17:13.80,Dialogue,,0000,0000,0000,,Or transferred to the train on the opposite platform without trying to leave?
 Dialogue: 0,0:17:13.80,0:17:15.90,Dialogue,,0000,0000,0000,,That's not very likely.
-Dialogue: 0,0:17:15.90,0:17:18.61,Dialogue,,0000,0000,0000,,He'd look pretty suspicious if he{\rHonorifics - Dialogue} chan{\r}ged clothes on the platform.
+Dialogue: 0,0:17:15.90,0:17:18.61,Dialogue,,0000,0000,0000,,He'd look pretty suspicious if he changed clothes on the platform.
 Dialogue: 0,0:17:18.61,0:17:21.14,Dialogue,,0000,0000,0000,,And this station's toilet is outside the ticket control barrier.
 Dialogue: 0,0:17:21.14,0:17:28.41,Dialogue,,0000,0000,0000,,There wouldn't be a lot of supporters on another platform, so someone could remember him.
 Dialogue: 0,0:17:28.41,0:17:33.11,Dialogue,,0000,0000,0000,,While waiting for the train, the police could've caught him.

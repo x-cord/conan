@@ -33,12 +33,9 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: ELz 1,Titan,45,&H00DAB59D,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,10,1
-Style: TLLyrics 2,00472,30,&H00FFFFFF,&H00F6F6F8,&H00B5B5C2,&H00000000,-1,-1,0,0,100,100,0,0,1,0.5,1.2,2,10,10,10,1
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, EncodingStyle: TLLyrics 2,00472,30,&H00FFFFFF,&H00F6F6F8,&H00B5B5C2,&H00000000,-1,-1,0,0,100,100,0,0,1,0.5,1.2,2,10,10,10,1
 Style: ELz 2,Titan,35,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,105,112,0,0,1,2,2,4,10,10,10,1
 Style: Üstyazı,00568,30,&H00FFFFFF,&H0300FFFF,&H00000000,&H02000000,0,0,0,0,100,100,0,0,1,2.70838,0,8,10,10,20,1
-Style: Giris font,00472,20,&H002E2E82,&H00EAEAF4,&H00E7E7F4,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,10,1
-Style: Charcards 2,Arial,22,&H00FFFFFF,&H000000FF,&H00CD7170,&H00000000,0,0,0,0,80,125,1.2,0,1,2,2,2,10,10,135,1
 Style: Default 2,00568,30,&H00222223,&H00494A52,&H00F8F8F9,&H00000000,0,0,0,0,100,100,0,0,1,2.3,5,2,10,10,10,1
 Style: Not,00472,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,8,10,10,10,1
 
@@ -94,7 +91,7 @@ Dialogue: 0,0:03:47.62,0:03:49.79,Dialogue,,0,0,0,,We were right to invite hım,
 Dialogue: 0,0:03:51.13,0:03:53.13,Dialogue,,0,0,0,,He fooled them somehow.
 Dialogue: 0,0:03:54.21,0:03:56.09,Dialogue,,0,0,0,,{\3c&HA86407&}I'II give him credit for that
 Dialogue: 0,0:03:57.01,0:03:59.34,Dialogue,,0,0,0,,When you say 'Takakuma"...
-Dialogue: 0,0:03:59.34,0:04:02.09,Dialogue,,0,0,0,,Are you talking about that rare\Ntype of Shochu, by any{\rHonorifics - Dialogue} chan{\r}ce?
+Dialogue: 0,0:03:59.34,0:04:02.09,Dialogue,,0,0,0,,Are you talking about that rare\Ntype of Shochu, by any chance?
 Dialogue: 0,0:04:02.09,0:04:03.26,Dialogue,,0,0,0,,Yes.
 Dialogue: 0,0:04:03.26,0:04:07.93,Dialogue,,0,0,0,,The product is made in limited\Nquantities, so it's very hard to find.
 Dialogue: 0,0:04:08.06,0:04:10.81,Dialogue,,0,0,0,,D-Do I get to sample it?
@@ -241,7 +238,7 @@ Dialogue: 0,0:11:24.42,0:11:28.46,Dialogue,,0,0,0,,Dad! Why didn't you say no?
 Dialogue: 0,0:11:29.63,0:11:31.68,Dialogue,,0,0,0,,Ah! It's Saigo Takamori!
 Dialogue: 0,0:11:29.63,0:11:34.70,Not,,0,0,0,,Note: Saigo Takamori was one of che most influencial samurai in Japanese history. famously known as "The Last True Samurai."
 Dialogue: 0,0:11:31.68,0:11:33.13,Dialogue,,0,0,0,,Cool!
-Dialogue: 0,0:11:34.01,0:11:36.43,Dialogue,,0,0,0,,Stop{\rHonorifics - Dialogue} chan{\r}ging the subject!
+Dialogue: 0,0:11:34.01,0:11:36.43,Dialogue,,0,0,0,,Stop changing the subject!
 Dialogue: 0,0:11:36.43,0:11:40.89,Dialogue,,0,0,0,,But, I've got a bad feeling about Tatsumura{\rHonorifics - Dialogue}-san{\r}.
 Dialogue: 0,0:11:40.89,0:11:43.35,Dialogue,,0,0,0,,Everyone else seemed to dislike him, too.
 Dialogue: 0,0:11:45.40,0:11:47.69,Dialogue,,0,0,0,,{\3c&HA35C05&}He's not just disliked..
@@ -287,7 +284,7 @@ Dialogue: 0,0:14:12.73,0:14:15.77,Dialogue,,0,0,0,,Everyone lined up to get a ta
 Dialogue: 0,0:14:15.77,0:14:19.98,Dialogue,,0,0,0,,But last year, the former manager became deathly ill.
 Dialogue: 0,0:14:20.19,0:14:24.57,Dialogue,,0,0,0,,Don't forget about the decision we made ten years ago.
 Dialogue: 0,0:14:24.57,0:14:25.53,Dialogue,,0,0,0,,Yes, sir!
-Dialogue: 0,0:14:25.78,0:14:29.53,Dialogue,,0,0,0,,Tatsumura{\rHonorifics - Dialogue}-san{\r} started to{\rHonorifics - Dialogue} chan{\r}ge after that.
+Dialogue: 0,0:14:25.78,0:14:29.53,Dialogue,,0,0,0,,Tatsumura{\rHonorifics - Dialogue}-san{\r} started to change after that.
 Dialogue: 0,0:14:29.66,0:14:31.99,Default 2,,0,0,0,,What Mass production?!
 Dialogue: 0,0:14:31.99,0:14:35.54,Default 2,,0,0,0,,People a re only buying Takakuma for the brand name now.
 Dialogue: 0,0:14:35.54,0:14:38.21,Default 2,,0,0,0,,Even if it loses its taste a little,\Nwho would notice?

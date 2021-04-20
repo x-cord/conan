@@ -34,8 +34,6 @@ Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
 Style: title01,8514oem,20,&H0006866D,&H000000FF,&H00085244,&H005AADA7,-1,0,0,0,120,100,0,-10,1,0.5,1,2,10,0,209,1
-Style: Title02,Arial,18,&H00EEF5F3,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,2,10,80,240,1
-
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 Dialogue: 0,0:00:01.74,0:00:03.60,Dialogue,,0,0,0,,The curtain rises on a mysterious new era...
@@ -81,7 +79,7 @@ Dialogue: 0,0:03:34.39,0:03:36.47,Dialogue,,0,0,0,,Oh, hello? Young mistress!
 Dialogue: 0,0:03:36.81,0:03:38.23,Dialogue,,0,0,0,,Young mistress!
 Dialogue: 0,0:03:41.15,0:03:42.73,Dialogue,,0,0,0,,We should notify the police.
 Dialogue: 0,0:03:43.41,0:03:51.37,CharCard3,,0,0,0,,{\fad(210,210)}Kikkawa Tsuneo (60)\N{\fs11}Kobayaka Family Employee
-Dialogue: 0,0:03:43.08,0:03:46.01,Dialogue,,0,0,0,,We can't! What if we do that,\Nand by some{\rHonorifics - Dialogue} chan{\r}ce...\h\h\h
+Dialogue: 0,0:03:43.08,0:03:46.01,Dialogue,,0,0,0,,We can't! What if we do that,\Nand by some chance...\h\h\h
 Dialogue: 0,0:03:46.48,0:03:50.11,Dialogue,,0,0,0,,{\an3}But even if we obey the culprit, there's\Nno guarantee they'll be rescued.\h\h\h
 Dialogue: 0,0:03:50.95,0:03:52.53,Dialogue,,0,0,0,,I understand.\h\h\h\h\h\h
 Dialogue: 0,0:03:53.41,0:03:54.58,Dialogue,,0,0,0,,Conan{\rHonorifics - Dialogue}-kun{\r}.
@@ -281,7 +279,7 @@ Dialogue: 0,0:13:02.29,0:13:04.33,Dialogue,,0,0,0,,The light wouldn't be reflect
 Dialogue: 0,0:13:04.50,0:13:06.67,Dialogue,,0,0,0,,Let's move this rock and see what's there!
 Dialogue: 0,0:13:10.51,0:13:12.30,Dialogue,,0,0,0,,Is the treasure inside that?
 Dialogue: 0,0:13:12.68,0:13:14.59,Dialogue,,0,0,0,,Yeah, it has to be.
-Dialogue: 0,0:13:19.89,0:13:22.56,Dialogue,,0,0,0,,Genta{\rHonorifics - Dialogue} kun{\r}, Ayumi{\rHonorifics - Dialogue}-chan{\r}, be careful.
+Dialogue: 0,0:13:19.89,0:13:22.56,Dialogue,,0,0,0,,Genta kun, Ayumi{\rHonorifics - Dialogue}-chan{\r}, be careful.
 Dialogue: 0,0:13:22.60,0:13:24.64,Dialogue,,0,0,0,,Don't worry, we're OK.
 Dialogue: 0,0:13:25.19,0:13:27.06,Dialogue,,0,0,0,,The path breaks off in two directions.
 Dialogue: 0,0:13:27.36,0:13:28.77,Dialogue,,0,0,0,,It's the right path.
@@ -323,7 +321,7 @@ Dialogue: 0,0:15:06.21,0:15:09.58,Dialogue,,0,0,0,,Why don't you come out too, S
 Dialogue: 0,0:15:19.47,0:15:21.93,Dialogue,,0,0,0,,You? What are you doing here?
 Dialogue: 0,0:15:22.93,0:15:24.18,Dialogue,,0,0,0,,Shigeru{\rHonorifics - Dialogue}-san{\r}?
 Dialogue: 0,0:15:24.18,0:15:29.52,Dialogue,,0,0,0,,Shigeru{\rHonorifics - Dialogue}-san{\r}, your name isn't really Kawaguchi Shigeru, is it?
-Dialogue: 0,0:15:30.35,0:15:36.19,Dialogue,,0,0,0,,Shigeru{\rHonorifics - Dialogue} san{\r}'s pendant and Kimiko{\rHonorifics - Dialogue}-san{\r}'s cellphone\Nstrap both have the same kind of initials on them.
+Dialogue: 0,0:15:30.35,0:15:36.19,Dialogue,,0,0,0,,Shigeru san's pendant and Kimiko{\rHonorifics - Dialogue}-san{\r}'s cellphone\Nstrap both have the same kind of initials on them.
 Dialogue: 0,0:15:36.36,0:15:38.82,Dialogue,,0,0,0,,Kimiko{\rHonorifics - Dialogue}-san{\r}'s strap says "K.K."
 Dialogue: 0,0:15:39.11,0:15:42.62,Dialogue,,0,0,0,,However, Shigeru{\rHonorifics - Dialogue}-san{\r}'s pendant says "A.T. "
 Dialogue: 0,0:15:42.83,0:15:43.91,Dialogue,,0,0,0,,And in addition...
@@ -397,20 +395,20 @@ Dialogue: 0,0:19:21.13,0:19:22.17,Dialogue,,0,0,0,,This is...
 Dialogue: 0,0:19:22.59,0:19:25.55,Dialogue,,0,0,0,,A letter written by one of the\Nancestors of the Kobayakawa house.
 Dialogue: 0,0:19:26.51,0:19:27.72,Dialogue,,0,0,0,,Please read it.
 Dialogue: 0,0:19:28.34,0:19:32.14,Dialogue,,0,0,0,,"I am studying here under Yoshida Shouin{\rHonorifics - Dialogue}-sensei{\r}.
-Dialogue: 0,0:19:32.14,0:19:37.23,Dialogue,,0,0,0,,"No matter what kind of age may be approaching\Nus, I know a treasure that will never{\rHonorifics - Dialogue} chan{\r}ge."
-Dialogue: 0,0:19:37.85,0:19:43.15,Dialogue,,0,0,0,,"The{\rHonorifics - Dialogue} sensei{\r} says, 'It is the goals we have in\Nlife that are the fountainhead of all things.'
+Dialogue: 0,0:19:32.14,0:19:37.23,Dialogue,,0,0,0,,"No matter what kind of age may be approaching\Nus, I know a treasure that will never change."
+Dialogue: 0,0:19:37.85,0:19:43.15,Dialogue,,0,0,0,,"The sensei says, 'It is the goals we have in\Nlife that are the fountainhead of all things.'
 Dialogue: 0,0:19:43.52,0:19:47.53,Dialogue,,0,0,0,,"It is having a purpose in one's life that gives rise to everything.
 Dialogue: 0,0:19:48.28,0:19:53.20,Dialogue,,0,0,0,,"According to his teachings, we students\Nwith the will to make the country better...
 Dialogue: 0,0:19:53.53,0:19:56.58,Dialogue,,0,0,0,,"Shall come to see how we can make things different in the real world."
 Dialogue: 0,0:19:56.95,0:20:03.33,Dialogue,,0,0,0,,"From here on, no matter how bitter the winds that may\Nsweep over our world, our greatest assets will be our wills.
-Dialogue: 0,0:20:04.00,0:20:08.42,Dialogue,,0,0,0,,"That's what can{\rHonorifics - Dialogue} chan{\r}ge the people, and\Ngive them the power to{\rHonorifics - Dialogue} chan{\r}ge the country."
+Dialogue: 0,0:20:04.00,0:20:08.42,Dialogue,,0,0,0,,"That's what can change the people, and\Ngive them the power to change the country."
 Dialogue: 0,0:20:08.80,0:20:13.18,Dialogue,,0,0,0,,"I must rely on my ability with my writing brush in\Norder to communicate this to the generations to come."
-Dialogue: 0,0:20:14.64,0:20:16.01,Dialogue,,0,0,0,,The power to{\rHonorifics - Dialogue} chan{\r}ge the country.
+Dialogue: 0,0:20:14.64,0:20:16.01,Dialogue,,0,0,0,,The power to change the country.
 Dialogue: 0,0:20:16.52,0:20:17.43,Dialogue,,0,0,0,,That's it.
 Dialogue: 0,0:20:17.65,0:20:23.61,Signs,,0,0,0,,KAERU - BUY
 Dialogue: 0,0:20:19.98,0:20:23.61,Signs,,0,0,0,,CHANCE
 Dialogue: 0,0:20:18.10,0:20:20.10,Dialogue,,0,0,0,,It wasn't a treasure that could buy (kaeru) the country.
-Dialogue: 0,0:20:21.10,0:20:23.52,Dialogue,,0,0,0,,It was a treasure that could{\rHonorifics - Dialogue} chan{\r}ge (kaeru) the country.
+Dialogue: 0,0:20:21.10,0:20:23.52,Dialogue,,0,0,0,,It was a treasure that could change (kaeru) the country.
 Dialogue: 0,0:20:27.65,0:20:30.19,Dialogue,,0,0,0,,Those who are unable to solve my riddle...
 Dialogue: 0,0:20:30.20,0:20:33.49,Dialogue,,0,0,0,,Do not meet the requirements to inherit the words of my ancestor.
 Dialogue: 0,0:20:36.45,0:20:37.66,Dialogue,,0,0,0,,Shut up!

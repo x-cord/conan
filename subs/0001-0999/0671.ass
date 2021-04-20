@@ -33,20 +33,6 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: Otanoshimi,Calibri,45,&H18FFFFFF,&H000000FF,&H003F3F3F,&HC04B0008,-1,0,0,0,100,100,0,0,1,3,0,2,70,0,5,1
-Style: ConanEdogawaKun,Segoe Print,45,&H00B78800,&H000000FF,&H484B4B4B,&HC0000000,0,0,0,0,100,100,0,20,1,0,0,2,10,10,25,1
-Style: noticebg,Arial,20,&HFFFFFFFF,&H000000FF,&H00C5A49C,&H00000000,0,0,0,0,100,100,0,0,3,2,0,7,10,10,10,1
-Style: Notice,Candara,90,&H00000000,&H000000FF,&H00330033,&HC0000000,-1,0,0,0,100,100,0,0,1,0,0,2,40,40,30,1
-Style: NewspaperSigns,Candara,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,2,10,10,120,1
-Style: TV,Candara,90,&H00000000,&H000000FF,&H00330033,&H1CFFFFFF,-1,0,0,0,100,100,0,0,1,3,3,2,40,40,30,1
-Style: KidSpecial,Candara,50,&H00FFFFFF,&H000000FF,&H00FFAB00,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,9,10,10,120,1
-Style: KudoSempai,Segoe Print,45,&H009796B7,&H000000FF,&H484B4B4B,&HC0000000,0,0,0,0,100,100,0,0,1,0,0,7,10,10,25,1
-Style: ConanLocker,ZapfChan MdIt BT,35,&H007E797A,&H000000FF,&H00D7D0D1,&HC0000000,-1,0,0,0,100,100,0,0,3,0,0,7,10,10,25,1
-Style: KAITONOTE-MK8,Candara,45,&H00000000,&H000000FF,&H00F3F3F3,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,7,20,20,15,1
-Style: Copy of Default,Calibri,50,&H00FFFFFF,&H000000FF,&H00330022,&HC0000000,-1,0,0,0,100,100,0,0,1,2.5,3,2,40,40,30,1
-Style: Romaji - Copy,Droid Sans Fallback,47,&H1EFFFFFF,&H000000FF,&H96000000,&H002F2F2F,-1,0,0,0,111,100,-3,0,1,1,3,2,8,8,61,1
-Style: WowThis,Eurostile,36,&H1EFFFFFF,&H000000FF,&H96000000,&H002F2F2F,-1,0,0,0,100,95,0,0,1,1,3,2,8,8,62,1
-
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 Dialogue: 0,0:21:14.80,0:21:15.88,Signs,,0,0,0,,Shin'ichi Kudō
@@ -113,7 +99,7 @@ Dialogue: 0,0:03:33.01,0:03:36.25,Dialogue,,0,0,0,,so their serial numbers were 
 Dialogue: 0,0:03:36.25,0:03:40.22,Dialogue,,0,0,0,,Yeah, they got a bunch of money they can't use.
 Dialogue: 0,0:03:40.22,0:03:44.11,Dialogue,,0,0,0,,So it's just a matter of time until the robbers get caught.
 Dialogue: 0,0:03:44.98,0:03:47.93,Dialogue,,0,0,0,,And what are {\i1}you{\i0} doing here?!
-Dialogue: 0,0:03:47.93,0:03:52.12,Dialogue,,0,0,0,,I brought{\rHonorifics - Dialogue} san{\r}dwiches for your lunch, Mouri{\rHonorifics - Dialogue}-sensei{\r}, as you're taking care of me.
+Dialogue: 0,0:03:47.93,0:03:52.12,Dialogue,,0,0,0,,I brought sandwiches for your lunch, Mouri{\rHonorifics - Dialogue}-sensei{\r}, as you're taking care of me.
 Dialogue: 0,0:03:52.70,0:03:54.50,Dialogue,,0,0,0,,It's my treat, of course.
 Dialogue: 0,0:03:55.76,0:03:58.26,Dialogue,,0,0,0,,Can we have some too?
 Dialogue: 0,0:03:58.26,0:03:59.56,Dialogue,,0,0,0,,Well, of course.
@@ -168,7 +154,7 @@ Dialogue: 0,0:06:54.40,0:06:55.71,Dialogue,,0,0,0,,Maybe I should say no.
 Dialogue: 0,0:06:55.71,0:06:59.39,Dialogue,,0,0,0,,You can't do that, Dad! This is a valuable customer!
 Dialogue: 0,0:06:59.39,0:07:02.46,Dialogue,,0,0,0,,Besides, Conan{\rHonorifics - Dialogue}-kun{\r} and I haven't had lunch yet.
 Dialogue: 0,0:07:02.46,0:07:04.39,Dialogue,,0,0,0,,So we could just eat at Columbo.
-Dialogue: 0,0:07:04.39,0:07:06.77,Dialogue,,0,0,0,,Then what are we going to do about these{\rHonorifics - Dialogue} san{\r}dwiches?
+Dialogue: 0,0:07:04.39,0:07:06.77,Dialogue,,0,0,0,,Then what are we going to do about these sandwiches?
 Dialogue: 0,0:07:06.77,0:07:10.86,Dialogue,,0,0,0,,We can put them in the fridge for dinner.
 Dialogue: 0,0:07:13.12,0:07:16.30,Dialogue,,0,0,0,,Geez. Sandwiches for dinner?
 Dialogue: 0,0:07:16.30,0:07:19.02,Dialogue,,0,0,0,,Dad! Your cigarette ash's about to fall.
@@ -329,11 +315,11 @@ Dialogue: 0,0:17:25.47,0:17:27.44,Dialogue,,0,0,0,,And the contact list is compl
 Dialogue: 0,0:17:27.44,0:17:30.16,Dialogue,,0,0,0,,This doesn't look like that new a model.
 Dialogue: 0,0:17:30.16,0:17:33.99,Dialogue,,0,0,0,,Maybe he bought an old model for a cheap price?
 Dialogue: 0,0:17:33.99,0:17:35.99,Dialogue,,0,0,0,,It's in good condition.
-Dialogue: 0,0:17:35.99,0:17:42.18,Dialogue,,0,0,0,,Also, the{\rHonorifics - Dialogue} chan{\r}ge and wallet in his pocket with the mobile phone bother me.
+Dialogue: 0,0:17:35.99,0:17:42.18,Dialogue,,0,0,0,,Also, the change and wallet in his pocket with the mobile phone bother me.
 Dialogue: 0,0:17:42.59,0:17:43.84,Dialogue,,0,0,0,,Change and a wallet?
 Dialogue: 0,0:17:43.84,0:17:48.31,Dialogue,,0,0,0,,They were with the locker key that he stole from Kashitsuka{\rHonorifics - Dialogue}-san{\r},
 Dialogue: 0,0:17:48.31,0:17:54.05,Dialogue,,0,0,0,,along with the stun gun, cigarettes, and a lighter in his coat pocket,
-Dialogue: 0,0:17:54.05,0:17:56.85,Dialogue,,0,0,0,,but the{\rHonorifics - Dialogue} chan{\r}ge added up to around ¥5,000.
+Dialogue: 0,0:17:54.05,0:17:56.85,Dialogue,,0,0,0,,but the change added up to around ¥5,000.
 Dialogue: 0,0:17:56.85,0:17:58.46,Dialogue,,0,0,0,,¥5,000?!
 Dialogue: 0,0:17:58.87,0:18:01.73,Dialogue,,0,0,0,,If he had that much, wouldn't they be heavy and rattle?
 Dialogue: 0,0:18:01.73,0:18:03.05,Dialogue,,0,0,0,,Right.
@@ -375,7 +361,7 @@ Dialogue: 0,0:20:13.30,0:20:15.79,Dialogue,,0,0,0,,Then please bring that tomorr
 Dialogue: 0,0:20:15.79,0:20:17.28,Dialogue,,0,0,0,,Understood.
 Dialogue: 0,0:20:17.28,0:20:20.92,Dialogue,,0,0,0,,Um... If you're going home, shall I drive you there?
 Dialogue: 0,0:20:21.65,0:20:23.80,Dialogue,,0,0,0,,I parked at a nearby parking lot.
-Dialogue: 0,0:20:24.34,0:20:30.00,Dialogue,,0,0,0,,There's a{\rHonorifics - Dialogue} chan{\r}ce that an accomplice of his might ambush you near your home.
+Dialogue: 0,0:20:24.34,0:20:30.00,Dialogue,,0,0,0,,There's a chance that an accomplice of his might ambush you near your home.
 Dialogue: 0,0:20:30.63,0:20:31.96,Dialogue,,0,0,0,,Sorry to trouble you.
 Dialogue: 0,0:20:32.65,0:20:35.63,Dialogue,,0,0,0,,Oh, please, there's no need to apologise.
 Dialogue: 0,0:20:35.63,0:20:39.78,Dialogue,,0,0,0,,By the way, what is {\i1}he{\i0} doing here?

@@ -33,22 +33,10 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: Tsuzukiwa,Nyala,100,&HFE000000,&H000000FF,&H00FFFFFF,&H00000000,-1,0,0,0,100,100,0,0.1,1,6,0,5,10,10,10,1
-Style: Tsuzukiwa2,Nyala,100,&H00000000,&H000000FF,&H00FFFFFF,&H00000000,-1,0,0,0,100,100,0,0.1,1,0,0,5,10,10,10,1
-Style: FlashbackThoughts,Calibri Nonligature,50,&H4B370001,&H000000FF,&H00CCFFFF,&HC0000000,-1,0,0,0,100,100,0,0,1,2.6,2,2,100,100,30,1
-Style: PlaceCard,Corbel,35,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,2,2,100,100,30,1
-Style: topbox,Arial,20,&HFFFFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,3,1,0,8,10,10,10,1
-Style: Narr,Calibri Nonligature,50,&H6E8C6F00,&H000000FF,&H00FFFFFF,&H80000000,-1,0,0,0,100,100,0,0,1,3.7,1.5,2,100,100,30,1
-Style: Signage,Calibri,50,&H00FFFFFF,&H000000FF,&H80000000,&H00000000,-1,0,0,0,100,100,0,0,3,8,0,2,40,40,40,1
-Style: Copy of TitleCard,X-FilesM,40,&H00FFFFFF,&H000000FF,&H00A7A7A7,&HC0000000,-1,0,0,0,100,100,0,0,1,0,0,5,0,0,0,1
-Style: OPRom2,Berlin Sans FB Macron,40,&H60000000,&H000000FF,&H60000000,&H603E3330,-1,0,0,0,100,100,1,0,1,3.4,0,8,8,8,25,1
-Style: OPRomUnedited,Berlin Sans FB Macron,40,&HC00000FF,&H000000FF,&H00FFFFFF,&H603E3330,-1,0,0,0,100,100,1,0,1,4,1.6875,8,8,8,25,1
-Style: Poodles,MV Boli M,70,&H400102B5,&H000809FC,&H00CFF2F3,&H80000000,0,0,0,0,100,100,0,0,1,4,2,8,10,10,25,1
+Style: Tsuzukiwa,Nyala,100,&HFE000000,&H000000FF,&H00FFFFFF,&H00000000,-1,0,0,0,100,100,0,0.1,1,6,0,5,10,10,10,1Style: PlaceCard,Corbel,35,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,2,2,100,100,30,1Style: Poodles,MV Boli M,70,&H400102B5,&H000809FC,&H00CFF2F3,&H80000000,0,0,0,0,100,100,0,0,1,4,2,8,10,10,25,1
 Style: ButterflyCore,Love Is Complicated Again,45,&H405E0036,&H000000FF,&H00FFFFFF,&H80000000,-1,0,0,0,100,100,1,0,1,3.5,0,8,10,10,30,1
 Style: ButterflyCore2,Love Is Complicated Again,45,&HFF5E0036,&H000000FF,&H80000000,&H80000000,-1,0,0,0,100,100,1,0,1,0.75,0,8,10,10,30,1
 Style: BCPrologue,Cocon-Regular,45,&H805E0036,&H000000FF,&H00FFFFFF,&H80000000,-1,0,0,0,100,100,1,0,1,5,2,2,10,10,30,1
-Style: AitakuteRomaji,AlaskanNightsM,52,&H60DB9572,&H000000FF,&H00FFFFFF,&HC02F2F2F,-1,0,0,0,108,100,0,0,1,4,0,8,8,8,30,1
-
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 Dialogue: 0,0:00:02.69,0:00:04.19,Dialogue Top,,0,0,0,,Please wait a moment.
@@ -143,7 +131,7 @@ Dialogue: 0,0:07:21.17,0:07:22.13,Dialogue,,0,0,0,,I see.
 Dialogue: 0,0:07:22.54,0:07:26.30,Dialogue,,0,0,0,,In that case, can you tell me what Mooka{\rHonorifics - Dialogue}-san{\r} was doing last night?
 Dialogue: 0,0:07:26.30,0:07:27.46,Dialogue,,0,0,0,,Yes.
 Dialogue: 0,0:07:27.46,0:07:32.77,Dialogue,,0,0,0,,Mooka{\rHonorifics - Dialogue}-san{\r} had the late shift together with Kona{\rHonorifics - Dialogue}-san{\r} here and was working until 9 PM.
-Dialogue: 0,0:07:32.77,0:07:37.81,Dialogue,,0,0,0,,Afterwards, we did some light cleaning and got{\rHonorifics - Dialogue} chan{\r}ged.
+Dialogue: 0,0:07:32.77,0:07:37.81,Dialogue,,0,0,0,,Afterwards, we did some light cleaning and got changed.
 Dialogue: 0,0:07:38.11,0:07:40.71,Dialogue,,0,0,0,,We probably left the shop around 9:15 PM.
 Dialogue: 0,0:07:40.71,0:07:48.94,Dialogue,,0,0,0,,It takes about 30 minutes to get here from the shop, so she'd have been home at around 9:45 PM.
 Dialogue: 0,0:07:48.94,0:07:53.63,Dialogue,,0,0,0,,About 30 minutes later, the tickets turned up on that auction site.

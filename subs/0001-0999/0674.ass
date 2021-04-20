@@ -33,15 +33,12 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: ConanEdogawaKun,Segoe Print,45,&H00B78800,&H000000FF,&H484B4B4B,&HC0000000,0,0,0,0,100,100,0,20,1,0,0,2,10,10,25,1
-Style: KudoSempai,Segoe Print,45,&H009796B7,&H000000FF,&H484B4B4B,&HC0000000,0,0,0,0,100,100,0,0,1,0,0,7,10,10,25,1
-Style: ConanLocker,ZapfChan MdIt BT,35,&H007E797A,&H000000FF,&H00D7D0D1,&HC0000000,-1,0,0,0,100,100,0,0,3,0,0,7,10,10,25,1
-Style: Blanka30,Arial,20,&HFFFFFFFF,&H000000FF,&H1E000000,&H00000000,0,0,0,0,100,100,0,0,3,1,0,7,10,10,10,1
+Style: KudoSempai,Segoe Print,45,&H009796B7,&H000000FF,&H484B4B4B,&HC0000000,0,0,0,0,100,100,0,0,1,0,0,7,10,10,25,1Style: Blanka30,Arial,20,&HFFFFFFFF,&H000000FF,&H1E000000,&H00000000,0,0,0,0,100,100,0,0,3,1,0,7,10,10,10,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 Dialogue: 0,0:00:01.48,0:00:07.07,Thoughts,,0,0,0,,{\be10}We got an easy-looking request via the Detective Agency's new website.{672}
-Dialogue: 0,0:00:07.65,0:00:11.65,Thoughts,,0,0,0,,{\be10}But the client sent an e-mail requesting a{\rHonorifics - Thoughts\be10} chan{\r\be10}ge in the meeting venue,{672}
+Dialogue: 0,0:00:07.65,0:00:11.65,Thoughts,,0,0,0,,{\be10}But the client sent an e-mail requesting a change in the meeting venue,{672}
 Dialogue: 0,0:00:11.65,0:00:17.49,Thoughts,,0,0,0,,{\be10}so the old man went there along with me, Ran and his apprentice Amuro{\rHonorifics - Thoughts\be10}-san{\r\be10}.{672}
 Dialogue: 0,0:00:18.17,0:00:19.95,Thoughts,,0,0,0,,{\be10}But the client never showed up.{672}
 Dialogue: 0,0:00:20.82,0:00:25.50,Thoughts,,0,0,0,,{\be10}Afterwards, we returned to the Agency, at which time we got another e-mail from the client.{672}
@@ -65,7 +62,7 @@ Dialogue: 0,0:01:43.95,0:01:47.44,Thoughts,,0,0,0,,{\be10}and went off to see th
 Dialogue: 0,0:01:48.67,0:01:56.51,Thoughts,,0,0,0,,{\be10}Also, having been contacted by Ran, Dr. Agasa and Haibara began pursuing us in Okiya's car.
 Dialogue: 0,0:01:56.51,0:02:00.82,Thoughts,,0,0,0,,{\be10}Sera also hurried to join up with\NRan and the others on her bike.
 Dialogue: 0,0:02:02.32,0:02:05.18,Dialogue,,0,0,0,,This next part is just supposition,{673 block start}
-Dialogue: 0,0:02:05.18,0:02:10.38,Dialogue,,0,0,0,,but first, relying on ‘Kei', the name that Ken'ya{\rHonorifics - Dialogue}-san{\r} murmured, you found the address of Kei,
+Dialogue: 0,0:02:05.18,0:02:10.38,Dialogue,,0,0,0,,but first, relying on 'Kei', the name that Ken'ya{\rHonorifics - Dialogue}-san{\r} murmured, you found the address of Kei,
 Dialogue: 0,0:02:10.38,0:02:16.27,Dialogue,,0,0,0,,a friend of Ken'ya{\rHonorifics - Dialogue}-san{\r}'s, in his address book, and went over to his house, right?
 Dialogue: 0,0:02:16.27,0:02:19.24,Dialogue,,0,0,0,,Saying that you came to pick up something Ken'ya{\rHonorifics - Dialogue}-san{\r} had forgotten, or something like that.
 Dialogue: 0,0:02:19.24,0:02:25.12,Dialogue,,0,0,0,,But Kei Kashitsuka wasn't home, and you were greeted by a short man who had been living with him.
@@ -152,7 +149,7 @@ Dialogue: 0,0:08:57.80,0:09:04.13,Dialogue,,0,0,0,,Who knows? But since it's Con
 Dialogue: 0,0:09:10.54,0:09:11.18,Dialogue,,0,0,0,,Ran{\rHonorifics - Dialogue}-san{\r}.
 Dialogue: 0,0:09:12.40,0:09:15.33,Dialogue,,0,0,0,,It might not give you a much but peace of mind, but...
 Dialogue: 0,0:09:16.05,0:09:20.55,Dialogue,,0,0,0,,I don't believe Conan{\rHonorifics - Dialogue}-kun{\r} will be put in\Nany additional immediate danger.
-Dialogue: 0,0:09:22.22,0:09:29.12,Dialogue,,0,0,0,,There's the{\rHonorifics - Dialogue} chan{\r}ce that we may ignore the warning in the e-mail from earlier and contact the police.
+Dialogue: 0,0:09:22.22,0:09:29.12,Dialogue,,0,0,0,,There's the chance that we may ignore the warning in the e-mail from earlier and contact the police.
 Dialogue: 0,0:09:29.89,0:09:34.78,Dialogue,,0,0,0,,She'll have to keep her hostage alive in case she's stopped at a checkpoint.
 Dialogue: 0,0:09:36.31,0:09:45.00,Dialogue,,0,0,0,,But hey, if her goal is to murder the other robber, then if he ends up being involved...
 Dialogue: 0,0:09:45.00,0:09:45.81,Dialogue,,0,0,0,,Dad!
@@ -243,8 +240,8 @@ Dialogue: 0,0:16:09.86,0:16:16.56,Dialogue,,0,0,0,,and thought that Kei Kashitsu
 Dialogue: 0,0:16:16.56,0:16:25.45,Dialogue,,0,0,0,,Tegawa{\rHonorifics - Dialogue}-san{\r}, fearing that the police would call her, as she was in his phonebook, turned off her mobile.
 Dialogue: 0,0:16:25.45,0:16:27.94,Dialogue,,0,0,0,,Oh, and I forgot to mention,
 Dialogue: 0,0:16:27.94,0:16:34.83,Dialogue,,0,0,0,,the point that made me think Kei Kashitsuka was a bank robber most was the large amount of coins and notes he had.
-Dialogue: 0,0:16:35.73,0:16:41.21,Dialogue,,0,0,0,,Having ¥5,000 in{\rHonorifics - Dialogue} chan{\r}ge and forty-seven ¥10,000 notes is too much however you look at it.
-Dialogue: 0,0:16:41.71,0:16:47.21,Dialogue,,0,0,0,,He had that much{\rHonorifics - Dialogue} chan{\r}ge because the serial numbers of the stolen 200 million yen were known by the police,
+Dialogue: 0,0:16:35.73,0:16:41.21,Dialogue,,0,0,0,,Having ¥5,000 in change and forty-seven ¥10,000 notes is too much however you look at it.
+Dialogue: 0,0:16:41.71,0:16:47.21,Dialogue,,0,0,0,,He had that much change because the serial numbers of the stolen 200 million yen were known by the police,
 Dialogue: 0,0:16:47.21,0:16:52.22,Dialogue,,0,0,0,,so he was breaking up the problem ¥10,000 notes by buying small and compact things with them.
 Dialogue: 0,0:16:53.01,0:16:56.86,Dialogue,,0,0,0,,That's also why she ate lots of beef bowl takeaways.
 Dialogue: 0,0:16:57.48,0:17:01.49,Dialogue,,0,0,0,,Vending machines at beef bowl restaurants accept ¥10,000 notes,
@@ -330,7 +327,7 @@ Dialogue: 0,0:23:52.64,0:23:54.64,Dialogue,,0,0,0,,Bourbon...
 Dialogue: 0,0:23:59.65,0:24:02.37,Dialogue,,0,0,0,,We're the only witnesses?!
 Dialogue: 0,0:24:02.37,0:24:03.95,Dialogue,,0,0,0,,A fierce marital spat at a barbecue!
 Dialogue: 0,0:24:03.95,0:24:06.08,Dialogue,,0,0,0,,From a misunderstanding comes a stabbing!
-Dialogue: 0,0:24:06.08,0:24:09.88,Dialogue,,0,0,0,,Detective Conan: ‘Won't Forgive Even One Millimetre (Part I)'!
+Dialogue: 0,0:24:06.08,0:24:09.88,Dialogue,,0,0,0,,Detective Conan: 'Won't Forgive Even One Millimetre (Part I)'!
 Dialogue: 0,0:24:09.88,0:24:12.68,Dialogue,,0,0,0,,Broadcasts at 6:00 PM on Saturday, November 10!
 Dialogue: 0,0:24:14.76,0:24:19.72,Dialogue,,0,0,0,,Next Conan's Hint: Barbecue!
 Dialogue: 0,0:24:20.08,0:24:21.38,Dialogue,,0,0,0,,Bourbon's one of those three!

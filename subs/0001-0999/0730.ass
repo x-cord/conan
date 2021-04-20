@@ -33,15 +33,8 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: Narr,OSPuto,50,&H6E8C6F00,&H000000FF,&H00FFFFFF,&H80000000,-1,0,0,0,100,100,0,0,1,3.7,1.5,2,100,100,30,1
 Style: BCPrologue,Cocon-Regular,45,&H805E0036,&H000000FF,&H00FFFFFF,&H80000000,-1,0,0,0,100,100,1,0,1,5,2,2,10,10,30,1
-
-Style: Phone,OSPuto,52,&H00BEE1FF,&H000000FF,&H000B2A42,&HC0000000,-1,0,0,0,94,100,0,0,1,2.5,2.5,2,27,27,30,1
-Style: FlashbackThoughts,OSPuto,52,&H4B370001,&H000000FF,&H00CCFFFF,&HC0000000,-1,0,0,0,94,100,0,0,1,2.6,2,2,100,100,30,1
-Style: PlaceCard,Corbel,35,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,2,2,100,100,30,1
-Style: Signage,OSPuto,50,&H00FFFFFF,&H000000FF,&H80000000,&H00000000,-1,0,0,0,100,100,0,0,3,8,0,2,40,40,40,1
-Style: GreedNarr,Biko,45,&H6E8C4000,&H000000FF,&H00FFFFFF,&H80000000,-1,0,0,0,100,100,0,0,1,3.7,1.5,2,50,50,30,1
-Style: SongTitle,ShinGoPro-Regular,63,&H00FFFFFF,&H000000FF,&H005F5F5F,&H005F5F5F,0,0,0,0,100,100,0,0,1,2,3,2,45,45,41,1
+Style: FlashbackThoughts,OSPuto,52,&H4B370001,&H000000FF,&H00CCFFFF,&HC0000000,-1,0,0,0,94,100,0,0,1,2.6,2,2,100,100,30,1Style: Signage,OSPuto,50,&H00FFFFFF,&H000000FF,&H80000000,&H00000000,-1,0,0,0,100,100,0,0,3,8,0,2,40,40,40,1Style: SongTitle,ShinGoPro-Regular,63,&H00FFFFFF,&H000000FF,&H005F5F5F,&H005F5F5F,0,0,0,0,100,100,0,0,1,2,3,2,45,45,41,1
 
 Style: ButterflyCore,Love Is Complicated Again,45,&H405E0036,&H000000FF,&H00FFFFFF,&H80000000,-1,0,0,0,100,100,1,0,1,3.5,0,8,10,10,30,1
 Style: ButterflyCore2,Love Is Complicated Again,45,&HFF5E0036,&H000000FF,&H80000000,&H80000000,-1,0,0,0,100,100,1,0,1,0.75,0,8,10,10,30,1
@@ -90,9 +83,9 @@ Dialogue: 0,0:01:39.12,0:01:41.91,Dialogue Top,,0000,0000,0000,,But these are fr
 Dialogue: 0,0:01:42.36,0:01:43.66,Dialogue,,0000,0000,0000,,Huh?
 Dialogue: 0,0:01:43.66,0:01:47.16,Dialogue,,0000,0000,0000,,I stayed up all night making them! Aren't they great?
 Dialogue: 0,0:01:47.16,0:01:49.02,Dialogue,,0000,0000,0000,,A grown man playing with kid's toys...
-Dialogue: 0,0:01:50.36,0:01:51.25,Narr,,0000,0000,0000,,{\blur3}You guessed it.
-Dialogue: 0,0:01:51.25,0:01:56.85,Narr,,0000,0000,0000,,{\blur3}A ‘figure and model festival' was being held at this convention hall today,
-Dialogue: 0,0:01:56.85,0:02:00.65,Narr,,0000,0000,0000,,{\blur3}and we've all come to see the festival.
+Dialogue: 0,0:01:50.36,0:01:51.25,Narration Off,,0000,0000,0000,,{\be10}You guessed it.
+Dialogue: 0,0:01:51.25,0:01:56.85,Narration Off,,0000,0000,0000,,{\be10}A 'figure and model festival' was being held at this convention hall today,
+Dialogue: 0,0:01:56.85,0:02:00.65,Narration Off,,0000,0000,0000,,{\be10}and we've all come to see the festival.
 Dialogue: 0,0:02:00.91,0:02:05.95,ButterflyCore,,0000,0000,0000,,{\blur4\fad(200,0)}kage o mau chō no kodō ga seijaku no umi o saite
 Dialogue: 0,0:02:06.12,0:02:13.29,ButterflyCore,,0000,0000,0000,,{\blur4}kasanariau koe ga ima yami o furiharatta
 Dialogue: 0,0:02:00.91,0:02:05.95,ButterflyCore2,,0000,0000,0000,,{\fad(200,0)}kage o mau chō no kodō ga seijaku no umi o saite
@@ -230,7 +223,7 @@ Dialogue: 0,0:09:01.74,0:09:02.96,Dialogue,,0000,0000,0000,,Hey, wait! You can't
 Dialogue: 0,0:09:02.96,0:09:04.93,Dialogue,,0000,0000,0000,,Masahiro{\rHonorifics - Dialogue}-san{\r}! Masahiro{\rHonorifics - Dialogue}-san{\r}!
 Dialogue: 0,0:09:04.93,0:09:07.54,Dialogue,,0000,0000,0000,,Masahiro{\rHonorifics - Dialogue}-san{\r}!
 Dialogue: 0,0:09:07.54,0:09:09.29,Dialogue,,0000,0000,0000,,Why did this happen...?
-Dialogue: 0,0:09:09.29,0:09:11.21,Dialogue,,0000,0000,0000,,So ‘little miss favourite' actually showed up...?
+Dialogue: 0,0:09:09.29,0:09:11.21,Dialogue,,0000,0000,0000,,So 'little miss favourite' actually showed up...?
 Dialogue: 0,0:09:13.04,0:09:15.37,Dialogue,,0000,0000,0000,,Oh? It's you, Hiroto{\rHonorifics - Dialogue}-san{\r}?\NI was wondering who that was.
 Dialogue: 0,0:09:15.37,0:09:17.08,Dialogue,,0000,0000,0000,,And you too, Morishita{\rHonorifics - Dialogue}-san{\r}?
 Dialogue: 0,0:09:17.08,0:09:18.96,Dialogue,,0000,0000,0000,,I bet you two are the killers!
@@ -340,7 +333,7 @@ Dialogue: 0,0:15:11.44,0:15:17.42,Dialogue,,0000,0000,0000,,No. For the sake of 
 Dialogue: 0,0:15:17.42,0:15:19.04,Dialogue,,0000,0000,0000,,Okay, fine.
 Dialogue: 0,0:15:19.04,0:15:21.70,Dialogue,,0000,0000,0000,,That guy's dead, anyway.
 Dialogue: 0,0:15:21.70,0:15:22.93,Dialogue,,0000,0000,0000,,The truth is...
-Dialogue: 0,0:15:22.93,0:15:27.41,Dialogue,,0000,0000,0000,,There were rumours flying around that Kitajima had a guy working as his ‘ghost modeller', making his models for him.
+Dialogue: 0,0:15:22.93,0:15:27.41,Dialogue,,0000,0000,0000,,There were rumours flying around that Kitajima had a guy working as his 'ghost modeller', making his models for him.
 Dialogue: 0,0:15:27.41,0:15:28.20,Dialogue,,0000,0000,0000,,What...?
 Dialogue: 0,0:15:28.20,0:15:29.66,Dialogue,,0000,0000,0000,,A ghost modeller?!
 Dialogue: 0,0:15:29.99,0:15:31.16,Dialogue,,0000,0000,0000,,Yeah.
@@ -439,7 +432,7 @@ Dialogue: 0,0:21:28.06,0:21:31.12,Dialogue,,0000,0000,0000,,I'm not the one in t
 Dialogue: 0,0:21:45.93,0:21:53.27,AitakuteRomaji,,0000,0000,0000,,{\blur3}denwa ga naru tabi kono mune ga zawameku
 Dialogue: 0,0:21:53.64,0:22:00.61,AitakuteRomaji,,0000,0000,0000,,{\blur3}demo kikoetekuru no wa kimi no koe ja nai
 Dialogue: 0,0:22:02.82,0:22:09.62,AitakuteRomaji,,0000,0000,0000,,{\blur3}ima kimi wa doko ni iru no nani shite'ru no
-Dialogue: 0,0:22:10.33,0:22:19.25,AitakuteRomaji,,0000,0000,0000,,{\blur3}kami{\fsp-2\fs40}-{\rHonorifics - AitakuteRomaji} sama{\r} ni negai todoku nara mō ichido dake
+Dialogue: 0,0:22:10.33,0:22:19.25,AitakuteRomaji,,0000,0000,0000,,{\blur3}kami{\fsp-2\fs40}- {\fsp\fs}sama ni negai todoku nara mō ichido dake
 Dialogue: 0,0:22:19.84,0:22:26.68,AitakuteRomaji,,0000,0000,0000,,{\blur3}aitakute kimi ni aitakute
 Dialogue: 0,0:22:27.18,0:22:35.68,AitakuteRomaji,,0000,0000,0000,,{\blur3}ima mo kono mune wa kimi{\fsp-2\fs40}- {\fsp\fs}iro ni somaru (dakishimetakute)
 Dialogue: 0,0:22:35.85,0:22:42.82,AitakuteRomaji,,0000,0000,0000,,{\blur3}setsunakute nido to aenai nara

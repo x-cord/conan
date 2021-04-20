@@ -40,11 +40,7 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: Text,Arial,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,3,0,2,0,0,0,1
-Style: Adds,Arial,50,&H00FFFFFF,&H000000FF,&H003B5F1B,&H00000000,0,0,0,0,100,100,0,0,1,2,0,7,15,15,15,1
-Style: Name,Calibri,40,&H00CFCFCF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,1,5,15,15,15,204
-
-[Events]
+Style: Text,Arial,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,3,0,2,0,0,0,1[Events]
 Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
 Dialogue: 0,0:00:03.07,0:00:05.07,Dialogue,,0,0,0,,A female detective, ya say?
 Dialogue: 0,0:00:05.82,0:00:08.64,Dialogue,,0,0,0,,So was she the one who's\Nsniffin' around about ya?
@@ -82,7 +78,7 @@ Dialogue: 0,0:03:16.39,0:03:19.34,Dialogue,,0000,0000,0000,,It's sold exclusivel
 Dialogue: 0,0:03:19.36,0:03:21.70,Dialogue,,0000,0000,0000,,Ya don't hafta look for it right now!
 Dialogue: 0,0:03:21.72,0:03:22.67,Dialogue,,0000,0000,0000,,Why not later?
 Dialogue: 0,0:03:22.91,0:03:27.53,Dialogue,,0000,0000,0000,,Precisely because of that kindaimentality, in the end we\Nforgot to buy Shinshu miso when we were in Nagano!
-Dialogue: 0,0:03:27.54,0:03:29.33,Dialogue,,0000,0000,0000,,Can't afford to miss the{\rHonorifics - Dialogue} chan{\r}ce this time...
+Dialogue: 0,0:03:27.54,0:03:29.33,Dialogue,,0000,0000,0000,,Can't afford to miss the chance this time...
 Dialogue: 0,0:03:32.31,0:03:34.54,Dialogue,,0000,0000,0000,,I'm gettin' off, gettin' off, gettin' off, gettin' off!
 Dialogue: 0,0:03:34.57,0:03:35.75,Dialogue,,0000,0000,0000,,What now?
 Dialogue: 0,0:03:35.77,0:03:37.72,Dialogue,,0000,0000,0000,,I just saw the family restaurant!
@@ -210,7 +206,7 @@ Dialogue: 0,0:09:53.75,0:09:57.97,Dialogue,,0000,0000,0000,,Well, I suppose you 
 Dialogue: 0,0:09:57.97,0:09:59.93,Dialogue,,0000,0000,0000,,Great... you're here too?
 Dialogue: 0,0:10:00.26,0:10:04.31,Dialogue,,0000,0000,0000,,A foreigner with a huge build and speaks fluent Japanese...
 Dialogue: 0,0:10:04.31,0:10:08.89,Dialogue,,0000,0000,0000,,He's familiar with crime scenes like this\Nand is sort of related to the police...
-Dialogue: 0,0:10:10.46,0:10:12.74,Dialogue,,0000,0000,0000,,Could that foreigner by any{\rHonorifics - Dialogue} chan{\r}ce be...
+Dialogue: 0,0:10:10.46,0:10:12.74,Dialogue,,0000,0000,0000,,Could that foreigner by any chance be...
 Dialogue: 0,0:10:12.73,0:10:13.92,Dialogue,,0000,0000,0000,,Yeah.
 Dialogue: 0,0:10:15.00,0:10:17.28,Dialogue,,0,0,0,,I guess it's part of my reflex.
 Dialogue: 0,0:10:17.31,0:10:19.49,Dialogue,,0000,0000,0000,,As I thought, it's Special Agent Camel!
@@ -405,7 +401,7 @@ Dialogue: 0,0:20:04.88,0:20:09.83,Dialogue,,0000,0000,0000,,Since that man who d
 Dialogue: 0,0:20:10.51,0:20:11.62,Dialogue,,0000,0000,0000,,I see.
 Dialogue: 0,0:20:11.71,0:20:15.17,Dialogue,,0000,0000,0000,,So you're saying that he misheard ame{\rHonorifics - Dialogue}-chan{\r} as Abe{\rHonorifics - Dialogue}-chan{\r}?
 Dialogue: 0,0:20:15.17,0:20:17.50,Dialogue,,0000,0000,0000,,Their pronunciations do sound similar.
-Dialogue: 0,0:20:17.88,0:20:20.71,Dialogue,,0000,0000,0000,,But, why would you address a candy with{\rHonorifics - Dialogue} chan{\r}?
+Dialogue: 0,0:20:17.88,0:20:20.71,Dialogue,,0000,0000,0000,,But, why would you address a candy with chan?
 Dialogue: 0,0:20:21.34,0:20:25.05,Dialogue,,0000,0000,0000,,That's because Japanese is a difficult language!
 Dialogue: 0,0:20:25.08,0:20:27.10,Dialogue,,0000,0000,0000,,Ame{\rHonorifics - Dialogue}-chan{\r} is only a Kansai thing, no?
 Dialogue: 0,0:20:27.68,0:20:29.57,Dialogue,,0000,0000,0000,,But in that case...

@@ -33,8 +33,6 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: Phone,OSPuto,33,&H00BEE1FF,&H000000FF,&H000B2A42,&HC0000000,-1,0,0,0,98,100,0,0,1,1.6,2,2,10,10,20,1
-Style: Default Sign,OSPuto,33,&H00FFFFFF,&H000000FF,&H00370001,&HC0000000,-1,0,0,0,98,100,0,0,1,1.66667,2,8,27,27,20,1
 Style: FlashThoughts,OSPuto,33,&H8000001E,&H000000FF,&H00D4FFFA,&HC0000000,-1,0,0,0,98,100,0,0,1,4,2,2,27,27,20,1
 Style: Icant,Kingthings Clarity Macr,30,&H80FE00D7,&H000000FF,&H00FFFFFF,&HC0000000,-1,0,0,0,100,100,0,0,1,3,1,8,10,10,20,1
 Style: Icant - Copy,Kingthings Clarity Macr,26,&H00FFFFFF,&H000000FF,&H003C0029,&HC0000000,-1,0,0,0,100,100,0,0,1,2,1,2,10,10,20,1
@@ -42,9 +40,7 @@ Style: Live,PT Serif,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,
 Style: ED304,Doki is a Simple Kind Of Girl,25,&H80005BFF,&H000000FF,&H00FFFFFF,&HC0000000,-1,0,0,0,100,100,0,0,1,2.5,1,8,10,10,20,1
 Style: ED304-2,Doki is a Simple Kind Of Girl,25,&HFF0000FF,&H000000FF,&H80005BFF,&HC0000000,-1,0,0,0,100,100,0,0,1,0.6,0,8,10,10,20,1
 Style: ED304-3,Doki is a Simple Kind Of Girl,25,&HFF0000FF,&H000000FF,&HC0FF0090,&HC0000000,-1,0,0,0,100,100,0,0,1,3,0,8,10,10,20,1
-Style: ED304-TL,Doki is a Simple Kind Of Girl,23,&H00FFFFFF,&H000000FF,&H00000090,&HC0000000,-1,0,0,0,100,100,0,0,1,1.6,0,2,10,10,20,1
-Style: FAIL,Ashcan BB,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,2,10,10,10,1
-Style: Live2,PT Serif,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,3,0,0,2,10,10,10,1
+Style: ED304-TL,Doki is a Simple Kind Of Girl,23,&H00FFFFFF,&H000000FF,&H00000090,&HC0000000,-1,0,0,0,100,100,0,0,1,1.6,0,2,10,10,20,1Style: Live2,PT Serif,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,3,0,0,2,10,10,10,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -56,9 +52,9 @@ Dialogue: 0,0:00:23.00,0:00:23.92,Dialogue,,0,0,0,,The TV series...
 Dialogue: 0,0:00:23.92,0:00:24.76,Dialogue,,0,0,0,,The movies...
 Dialogue: 0,0:00:24.76,0:00:26.00,Dialogue,,0,0,0,,And Shōnen Sunday...
 Dialogue: 0,0:00:26.81,0:00:28.81,Dialogue,,0,0,0,,Please keep supporting them!
-Dialogue: 0,0:01:03.25,0:01:08.35,Phone,,0,0,0,,{\blur3}Evacuation of residents in a three-block\Nradius has been completed.
-Dialogue: 0,0:01:08.35,0:01:13.19,Phone,,0,0,0,,{\blur3}Defusal at area 1 is now in progress.
-Dialogue: 0,0:01:16.74,0:01:19.26,Phone,,0,0,0,,{\blur3}Defusal at area 1 has been completed.
+Dialogue: 0,0:01:03.25,0:01:08.35,Radio,,0,0,0,,{\be10}Evacuation of residents in a three-block\Nradius has been completed.
+Dialogue: 0,0:01:08.35,0:01:13.19,Radio,,0,0,0,,{\be10}Defusal at area 1 is now in progress.
+Dialogue: 0,0:01:16.74,0:01:19.26,Radio,,0,0,0,,{\be10}Defusal at area 1 has been completed.
 Dialogue: 0,0:01:19.91,0:01:23.99,Thoughts,,0,0,0,,{\be10}A fog proof lens and refrigerated breathing ducts on the helmet.
 Dialogue: 0,0:01:25.08,0:01:28.65,Dialogue,,0,0,0,,I'm riding with Matsuda's\Nteam, leaving for area 2.
 Dialogue: 0,0:01:29.08,0:01:31.81,Thoughts,,0,0,0,,{\be10}Designed to shield a body from a bomb blast.
@@ -68,17 +64,17 @@ Dialogue: 0,0:01:38.80,0:01:42.62,Thoughts,,0,0,0,,{\be10}With such large-scale 
 Dialogue: 0,0:01:43.64,0:01:45.46,Thoughts,,0,0,0,,{\be10}Weight: 40 kg.
 Dialogue: 0,0:01:46.02,0:01:48.81,Thoughts,,0,0,0,,{\be10}The bomb blast suit is hot even in winter.
 Dialogue: 0,0:01:49.90,0:01:56.72,Thoughts,,0,0,0,,{\be10}To put it simply, you can't wear it for more than five minutes—it's outright impossible.
-Dialogue: 0,0:02:03.12,0:02:06.33,Phone,,0,0,0,,{\blur3}All police units, all police units.
-Dialogue: 0,0:02:07.00,0:02:12.40,Phone,,0,0,0,,{\blur3}Disperse from area 1.
-Dialogue: 0,0:02:12.40,0:02:15.80,Phone,,0,0,0,,{\blur3}Proceed to secure area 2...
-Dialogue: 0,0:02:17.72,0:02:23.54,Phone,,0,0,0,,{\blur3}All units in city limits, watch\Nout for suspicious vehicles.
-Dialogue: 0,0:02:23.54,0:02:24.83,Phone,,0,0,0,,{\blur3}That is all.
-Dialogue: 0,0:02:25.38,0:02:26.97,Phone,,0,0,0,,{\blur3}DC unit 80, roger that.
-Dialogue: 0,0:02:27.83,0:02:29.27,Phone,,0,0,0,,{\blur3}AV unit, roger that.
-Dialogue: 0,0:02:30.83,0:02:33.84,Phone,,0,0,0,,{\blur3}Citizens, please do not panic.
-Dialogue: 0,0:02:34.48,0:02:37.34,Phone,,0,0,0,,{\blur3}Please do not take any belongings\Nwith you and evacuate quickly.
-Dialogue: 0,0:02:37.34,0:02:40.78,Phone,,0,0,0,,{\blur3}Please be careful not to push others.
-Dialogue: 0,0:02:40.78,0:02:42.66,Phone,,0,0,0,,{\blur3}There is no need to rush.
+Dialogue: 0,0:02:03.12,0:02:06.33,Radio,,0,0,0,,{\be10}All police units, all police units.
+Dialogue: 0,0:02:07.00,0:02:12.40,Radio,,0,0,0,,{\be10}Disperse from area 1.
+Dialogue: 0,0:02:12.40,0:02:15.80,Radio,,0,0,0,,{\be10}Proceed to secure area 2...
+Dialogue: 0,0:02:17.72,0:02:23.54,Radio,,0,0,0,,{\be10}All units in city limits, watch\Nout for suspicious vehicles.
+Dialogue: 0,0:02:23.54,0:02:24.83,Radio,,0,0,0,,{\be10}That is all.
+Dialogue: 0,0:02:25.38,0:02:26.97,Radio,,0,0,0,,{\be10}DC unit 80, roger that.
+Dialogue: 0,0:02:27.83,0:02:29.27,Radio,,0,0,0,,{\be10}AV unit, roger that.
+Dialogue: 0,0:02:30.83,0:02:33.84,Radio,,0,0,0,,{\be10}Citizens, please do not panic.
+Dialogue: 0,0:02:34.48,0:02:37.34,Radio,,0,0,0,,{\be10}Please do not take any belongings\Nwith you and evacuate quickly.
+Dialogue: 0,0:02:37.34,0:02:40.78,Radio,,0,0,0,,{\be10}Please be careful not to push others.
+Dialogue: 0,0:02:40.78,0:02:42.66,Radio,,0,0,0,,{\be10}There is no need to rush.
 Dialogue: 0,0:03:11.19,0:03:14.09,Dialogue,,0,0,0,,The building residents have all been evacuated.
 Dialogue: 0,0:03:15.07,0:03:16.59,Dialogue,,0,0,0,,Roger.
 Dialogue: 0,0:03:16.59,0:03:19.07,CharCard304,,0,0,0,,Kenji Hagiwara\N{\fs30}MPD Riot Squad — Bomb Disposal Unit
@@ -95,21 +91,21 @@ Dialogue: 0,0:03:54.65,0:03:56.25,Dialogue,,0,0,0,,Hurry up and dismantle it alr
 Dialogue: 0,0:03:56.66,0:03:59.02,Dialogue,,0,0,0,,Hey, hey. Don't get all pissed.
 Dialogue: 0,0:03:59.02,0:04:01.01,Dialogue,,0,0,0,,The timer's been stopped.
 Dialogue: 0,0:04:01.78,0:04:03.44,Dialogue,,0,0,0,,So did you finish?
-Dialogue: 0,0:04:03.44,0:04:10.27,Phone,,0,0,0,,{\blur3}Yeah, once I opened it up, the device was\Nsimple. For something like that...
-Dialogue: 0,0:04:10.27,0:04:13.31,Dialogue,,0,0,0,,‘I can take a toy like this apart in three', right?
+Dialogue: 0,0:04:03.44,0:04:10.27,Radio,,0,0,0,,{\be10}Yeah, once I opened it up, the device was\Nsimple. For something like that...
+Dialogue: 0,0:04:10.27,0:04:13.31,Dialogue,,0,0,0,,'I can take a toy like this apart in three', right?
 Dialogue: 0,0:04:16.50,0:04:17.82,Dialogue,,0,0,0,,So how are you doing?
 Dialogue: 0,0:04:18.13,0:04:22.55,Dialogue,,0,0,0,,Well, this looks like it's going to take\Na bit longer than 3 minutes.
 Dialogue: 0,0:04:23.26,0:04:27.18,Dialogue,,0,0,0,,It's simple in principle, but\Nthere are traps everywhere.
 Dialogue: 0,0:04:28.26,0:04:31.93,Dialogue,,0,0,0,,Looks like this one is the real thing.
-Dialogue: 0,0:04:31.93,0:04:32.96,Phone,,0,0,0,,{\blur3}Yeah.
+Dialogue: 0,0:04:31.93,0:04:32.96,Radio,,0,0,0,,{\be10}Yeah.
 Dialogue: 0,0:04:33.64,0:04:37.29,Dialogue,,0,0,0,,By the way, you're wearing\Nyour blast suit, right?
 Dialogue: 0,0:04:39.11,0:04:41.56,Dialogue,,0,0,0,,I can't move in that thing.\NI couldn't wear that.
-Dialogue: 0,0:04:41.56,0:04:43.30,Phone,,0,0,0,,{\blur3}Moron! You trying to get yourself killed?!
+Dialogue: 0,0:04:41.56,0:04:43.30,Radio,,0,0,0,,{\be10}Moron! You trying to get yourself killed?!
 Dialogue: 0,0:04:45.07,0:04:48.30,Dialogue,,0,0,0,,Well, if that happens,\Nit's up to you to avenge me.
 Dialogue: 0,0:04:48.30,0:04:49.49,Dialogue,,0,0,0,,Are you {\i1}trying{\i0} to piss me off?
-Dialogue: 0,0:04:50.93,0:04:55.54,Phone,,0,0,0,,{\blur3}Just kidding, man. You know\NI'd never screw up that bad.
+Dialogue: 0,0:04:50.93,0:04:55.54,Radio,,0,0,0,,{\be10}Just kidding, man. You know\NI'd never screw up that bad.
 Dialogue: 0,0:04:55.54,0:04:58.86,Dialogue,,0,0,0,,Anyway, finish up and come down.
-Dialogue: 0,0:04:59.46,0:05:01.44,Phone,,0,0,0,,{\blur3}I'll be waiting for you at the usual place.
+Dialogue: 0,0:04:59.46,0:05:01.44,Radio,,0,0,0,,{\be10}I'll be waiting for you at the usual place.
 Dialogue: 0,0:05:01.44,0:05:03.57,Dialogue,,0,0,0,,Hey, sounds good.
 Dialogue: 0,0:05:03.57,0:05:07.22,Dialogue,,0,0,0,,With an invitation like that.\NI'll run all engines at their fullest.
 Dialogue: 0,0:05:08.66,0:05:09.95,Dialogue,,0,0,0,,What the—?
@@ -123,15 +119,15 @@ Dialogue: 0,0:05:22.92,0:05:24.88,Dialogue,,0,0,0,,{\fad(0,900)}Hagiwara!
 Dialogue: 0,0:05:41.67,0:05:42.59,Thoughts,,0,0,0,,{\be10}Hagiwara...
 Dialogue: 0,0:05:51.22,0:05:53.47,Dialogue,,0,0,0,,Hagiwara!
 Dialogue: 0,0:06:02.57,0:06:04.86,Dialogue,,0,0,0,,How? How did you know?
-Dialogue: 0,0:06:04.86,0:06:07.72,Phone,,0,0,0,,{\blur3}I asked the kid with the glasses.
+Dialogue: 0,0:06:04.86,0:06:07.72,Radio,,0,0,0,,{\be10}I asked the kid with the glasses.
 Dialogue: 0,0:06:08.22,0:06:09.95,Dialogue,,0,0,0,,Ah, I see.
 Dialogue: 0,0:06:11.24,0:06:15.51,Dialogue,,0,0,0,,Oh yeah, Shin'ichi. What are doing about\Nthe national mock exams tomorrow?{UTB: the all-country sim-test}
-Dialogue: 0,0:06:15.51,0:06:16.73,Phone,,0,0,0,,{\blur3}The national mock exams?
-Dialogue: 0,0:06:18.75,0:06:20.04,Phone,,0,0,0,,{\blur3}You can't make it, right?
-Dialogue: 0,0:06:21.00,0:06:26.13,Dialogue,,0,0,0,,You'll probably say ‘I've got some case I can't\Nget away from,' or something, right?
+Dialogue: 0,0:06:15.51,0:06:16.73,Radio,,0,0,0,,{\be10}The national mock exams?
+Dialogue: 0,0:06:18.75,0:06:20.04,Radio,,0,0,0,,{\be10}You can't make it, right?
+Dialogue: 0,0:06:21.00,0:06:26.13,Dialogue,,0,0,0,,You'll probably say 'I've got some case I can't\Nget away from,' or something, right?
 Dialogue: 0,0:06:27.30,0:06:28.40,Dialogue,,0,0,0,,Hey, what is this?
 Dialogue: 0,0:06:29.03,0:06:30.51,Dialogue,,0,0,0,,How did you do that?
-Dialogue: 0,0:06:32.18,0:06:33.41,Phone,,0,0,0,,{\blur3}Gotcha!
+Dialogue: 0,0:06:32.18,0:06:33.41,Radio,,0,0,0,,{\be10}Gotcha!
 Dialogue: 0,0:06:33.41,0:06:34.93,Dialogue,,0,0,0,,Geez...
 Dialogue: 0,0:08:32.07,0:08:35.28,Dialogue,,0,0,0,,Dad! Conan{\rHonorifics - Dialogue}-kun{\r}!
 Dialogue: 0,0:08:35.99,0:08:38.74,Dialogue,,0,0,0,,Hurry up, breakfast is ready!
@@ -222,14 +218,14 @@ Dialogue: 0,0:14:18.67,0:14:20.13,Flashback,,0,0,0,,{\be10}Now, hold on.
 Dialogue: 0,0:14:20.13,0:14:25.42,Flashback,,0,0,0,,{\be10}You guys get a message every year on the 6th of January, right?
 Dialogue: 0,0:14:25.72,0:14:30.35,Flashback,,0,0,0,,{\be10}That prank fax the HQ's been getting over the past three years?
 Dialogue: 0,0:14:30.97,0:14:35.39,Flashback,,0,0,0,,{\be10}It's just a big number every year, isn't it?
-Dialogue: 0,0:14:35.81,0:14:40.40,Flashback,,0,0,0,,{\be10}‘3' three years ago,\N‘2' two years ago, ‘1' one year ago.
+Dialogue: 0,0:14:35.81,0:14:40.40,Flashback,,0,0,0,,{\be10}'3' three years ago,\N'2' two years ago, '1' one year ago.
 Dialogue: 0,0:14:41.90,0:14:44.15,Flashback,,0,0,0,,{\be10}It's pretty obvious...
 Dialogue: 0,0:14:44.15,0:14:46.15,Flashback,,0,0,0,,{\be10}It's a countdown for a bomb.
 Dialogue: 0,0:14:46.82,0:14:49.91,Flashback,,0,0,0,,{\be10}If it's gonna happen, it's gonna happen today.
 Dialogue: 0,0:14:50.99,0:14:54.29,Flashback,,0,0,0,,{\be10}Inspector, our annual greeting.
 Dialogue: 0,0:14:54.29,0:15:00.58,Flashback,,0,0,0,,{\be10}A fax with a number on it, right?\NWhat number is it this year?
 Dialogue: 0,0:15:00.88,0:15:04.05,Flashback,,0,0,0,,{\be10}It's not a number this time.
-Dialogue: 0,0:15:05.21,0:15:06.84,Flashback,,0,0,0,,{\be10}‘I am the knight of the round table.
+Dialogue: 0,0:15:05.21,0:15:06.84,Flashback,,0,0,0,,{\be10}'I am the knight of the round table.
 Dialogue: 0,0:15:07.67,0:15:10.05,Flashback,,0,0,0,,{\be10}To the stupid but sly ladies\Nand gentlemen of the police.
 Dialogue: 0,0:15:10.80,0:15:12.80,Flashback,,0,0,0,,{\be10}At noon and at 14:00 hours today...
 Dialogue: 0,0:15:12.80,0:15:16.39,Flashback,,0,0,0,,{\be10}In memory of my comrade's head, I plan to set off some interesting fireworks.
@@ -287,9 +283,9 @@ Dialogue: 0,0:19:17.09,0:19:19.13,Flashback,,0,0,0,,{\be10}If you don't want bit
 Dialogue: 0,0:19:19.13,0:19:22.93,Flashback,,0,0,0,,{\be10}don't start the Ferris wheel till I've disabled this bomb.
 Dialogue: 0,0:19:22.93,0:19:27.10,Flashback,,0,0,0,,{\be10}But you've got less than five minutes before it blows up!
 Dialogue: 0,0:19:29.14,0:19:32.02,Flashback,,0,0,0,,{\be10}I can take a toy like this apart in three—
-Dialogue: 0,0:19:35.90,0:19:41.11,Flashback,,0,0,0,,{\be10}‘Brave police officer, I commend you for your courage and present you with a reward...'
+Dialogue: 0,0:19:35.90,0:19:41.11,Flashback,,0,0,0,,{\be10}'Brave police officer, I commend you for your courage and present you with a reward...'
 Dialogue: 0,0:19:41.11,0:19:43.58,Flashback,,0,0,0,,{\be10}Huh? What are you talking about?!
-Dialogue: 0,0:19:43.91,0:19:48.25,Flashback,,0,0,0,,{\be10}‘A clue to the whereabouts of my second, larger firework
+Dialogue: 0,0:19:43.91,0:19:48.25,Flashback,,0,0,0,,{\be10}'A clue to the whereabouts of my second, larger firework
 Dialogue: 0,0:19:48.25,0:19:52.08,Flashback,,0,0,0,,{\be10}will be displayed three seconds before the explosion.
 Dialogue: 0,0:19:52.46,0:19:53.88,Flashback,,0,0,0,,{\be10}Good luck.'
 Dialogue: 0,0:19:55.00,0:19:58.84,Flashback,,0,0,0,,{\be10}Those words just came up on the LCD.
@@ -299,7 +295,7 @@ Dialogue: 0,0:20:14.02,0:20:19.24,Flashback,,0,0,0,,{\be10}So the explosion earl
 Dialogue: 0,0:20:20.07,0:20:22.49,Flashback,,0,0,0,,{\be10}But that means the bomber's still nearby!
 Dialogue: 0,0:20:23.45,0:20:27.49,Flashback,,0,0,0,,{\be10}I don't know if you can find the jerk in that crowd.
 Dialogue: 0,0:20:28.04,0:20:30.41,Flashback,,0,0,0,,{\be10}But I have a rough idea where the next bomb is.
-Dialogue: 0,0:20:32.37,0:20:35.67,Flashback,,0,0,0,,{\be10}The fax said ‘my comrade's head'.
+Dialogue: 0,0:20:32.37,0:20:35.67,Flashback,,0,0,0,,{\be10}The fax said 'my comrade's head'.
 Dialogue: 0,0:20:36.34,0:20:38.59,Flashback,,0,0,0,,{\be10}The knights of the round table\Nwere from medieval Europe.
 Dialogue: 0,0:20:39.26,0:20:42.88,Flashback,,0,0,0,,{\be10}And knights of that time wore helmets with crosses on 'em.
 Dialogue: 0,0:20:43.80,0:20:44.84,Flashback,,0,0,0,,{\be10}You get the hint?
@@ -333,7 +329,7 @@ Dialogue: 0,0:22:52.81,0:22:57.19,Thoughts,,0,0,0,,{\be10}Leaving nothing but a 
 Dialogue: 0,0:23:00.98,0:23:02.86,Dialogue,,0,0,0,,Detective Satō!
 Dialogue: 0,0:23:02.86,0:23:03.98,Dialogue,,0,0,0,,Oh!
 Dialogue: 0,0:23:05.36,0:23:09.57,Dialogue,,0,0,0,,Eh, so that's what happened three years ago.
-Dialogue: 0,0:23:09.57,0:23:16.37,Dialogue,,0,0,0,,Yeah, if Satō{\rHonorifics - Dialogue}-san{\r}'s still hung up on\Nhim then we don't have a{\rHonorifics - Dialogue} chan{\r}ce.
+Dialogue: 0,0:23:09.57,0:23:16.37,Dialogue,,0,0,0,,Yeah, if Satō{\rHonorifics - Dialogue}-san{\r}'s still hung up on\Nhim then we don't have a chance.
 Dialogue: 0,0:23:16.79,0:23:18.37,Dialogue,,0,0,0,,I know.
 Dialogue: 0,0:23:19.00,0:23:24.30,Dialogue,,0,0,0,,I suppose we could live up to him if we died in the line of duty too.
 Dialogue: 0,0:23:24.30,0:23:28.59,Dialogue,,0,0,0,,H-Hey, don't even joke about that!
@@ -394,12 +390,12 @@ Dialogue: 0,0:26:52.55,0:26:56.93,Dialogue,,0,0,0,,The question is why Inspector
 Dialogue: 0,0:26:58.43,0:27:00.09,Dialogue,,0,0,0,,Here...
 Dialogue: 0,0:27:01.22,0:27:02.26,Dialogue,,0,0,0,,What?
 Dialogue: 0,0:27:02.26,0:27:05.73,Dialogue,,0,0,0,,I had to show you as soon as I could...
-Dialogue: 0,0:27:06.68,0:27:13.69,Dialogue,,0,0,0,,That nightmare you've never been able to forget—this is your{\rHonorifics - Dialogue} chan{\r}ce to get over it.
-Dialogue: 0,0:27:17.44,0:27:22.87,Dialogue,,0,0,0,,‘I'm a fast-pitching, strong-slugging Major Leaguer.\NBatter up—let's start the extra innings.'
-Dialogue: 0,0:27:22.87,0:27:27.25,Dialogue,,0,0,0,,‘The game will start at noon tomorrow and end at 3 in the afternoon.'
-Dialogue: 0,0:27:28.04,0:27:33.50,Dialogue,,0,0,0,,‘Don't bother trying to get a good stopper ready, 'cause at the end I'm going to turn the game around.'
-Dialogue: 0,0:27:34.25,0:27:37.05,Dialogue,,0,0,0,,‘If you want to stop the game, come and see me.'
-Dialogue: 0,0:27:37.92,0:27:45.06,Dialogue,,0,0,0,,‘I'll be waiting for the police to climb onto the bloody mound at the steel batter's box.'
+Dialogue: 0,0:27:06.68,0:27:13.69,Dialogue,,0,0,0,,That nightmare you've never been able to forget—this is your chance to get over it.
+Dialogue: 0,0:27:17.44,0:27:22.87,Dialogue,,0,0,0,,'I'm a fast-pitching, strong-slugging Major Leaguer.\NBatter up—let's start the extra innings.'
+Dialogue: 0,0:27:22.87,0:27:27.25,Dialogue,,0,0,0,,'The game will start at noon tomorrow and end at 3 in the afternoon.'
+Dialogue: 0,0:27:28.04,0:27:33.50,Dialogue,,0,0,0,,'Don't bother trying to get a good stopper ready, 'cause at the end I'm going to turn the game around.'
+Dialogue: 0,0:27:34.25,0:27:37.05,Dialogue,,0,0,0,,'If you want to stop the game, come and see me.'
+Dialogue: 0,0:27:37.92,0:27:45.06,Dialogue,,0,0,0,,'I'll be waiting for the police to climb onto the bloody mound at the steel batter's box.'
 Dialogue: 0,0:27:45.97,0:27:47.10,Dialogue,,0,0,0,,W-What?
 Dialogue: 0,0:27:47.81,0:27:48.81,Dialogue,,0,0,0,,That's...
 Dialogue: 0,0:27:48.81,0:27:50.98,Dialogue,,0,0,0,,H-Hey...
@@ -426,19 +422,19 @@ Dialogue: 0,0:29:17.44,0:29:19.90,Dialogue,,0,0,0,,I'm heading over to investiga
 Dialogue: 0,0:29:20.49,0:29:23.61,Dialogue,,0,0,0,,Hey, Satō{\rHonorifics - Dialogue}-kun{\r}? Satō{\rHonorifics - Dialogue}-kun{\r}!
 Dialogue: 0,0:29:25.20,0:29:27.91,Thoughts,,0,0,0,,{\be10}He's not getting away. Not this time.
 Dialogue: 0,0:29:29.66,0:29:31.70,Thoughts,,0,0,0,,{\be10}I'll take him in myself.
-Dialogue: 0,0:29:37.29,0:29:41.17,Phone,,0,0,0,,{\blur3}This is an urgent order to every officer in the MPD!
-Dialogue: 0,0:29:41.17,0:29:45.34,Phone,,0,0,0,,{\blur3}We've received a bomb warning, but we do not yet know the location!
-Dialogue: 0,0:29:45.34,0:29:51.85,Phone,,0,0,0,,{\blur3}The bomber claims there are two bombs, and they'll go off at noon and 3 PM tomorrow!
-Dialogue: 0,0:29:51.85,0:29:55.60,Phone,,0,0,0,,{\blur3}Judging from past cases, we believe the threat is real!
-Dialogue: 0,0:29:55.60,0:29:59.82,Phone,,0,0,0,,{\blur3}Everybody is to show utmost caution while attempting to apprehend the bomber!
+Dialogue: 0,0:29:37.29,0:29:41.17,Radio,,0,0,0,,{\be10}This is an urgent order to every officer in the MPD!
+Dialogue: 0,0:29:41.17,0:29:45.34,Radio,,0,0,0,,{\be10}We've received a bomb warning, but we do not yet know the location!
+Dialogue: 0,0:29:45.34,0:29:51.85,Radio,,0,0,0,,{\be10}The bomber claims there are two bombs, and they'll go off at noon and 3 PM tomorrow!
+Dialogue: 0,0:29:51.85,0:29:55.60,Radio,,0,0,0,,{\be10}Judging from past cases, we believe the threat is real!
+Dialogue: 0,0:29:55.60,0:29:59.82,Radio,,0,0,0,,{\be10}Everybody is to show utmost caution while attempting to apprehend the bomber!
 Dialogue: 0,0:30:04.32,0:30:07.78,Dialogue,,0,0,0,,Extra innings? He's toying with us.
 Dialogue: 0,0:30:07.78,0:30:08.45,Dialogue,,0,0,0,,Megure!
 Dialogue: 0,0:30:08.45,0:30:09.08,Dialogue,,0,0,0,,Sir.
 Dialogue: 0,0:30:09.87,0:30:11.91,Dialogue,,0,0,0,,We can't allow this game to proceed any further.
 Dialogue: 0,0:30:12.54,0:30:14.96,Dialogue,,0,0,0,,I want you to take care of this. Understood?
 Dialogue: 0,0:30:15.79,0:30:16.92,Dialogue,,0,0,0,,Understood, sir.
-Dialogue: 0,0:30:21.59,0:30:23.21,Flashback,,0,0,0,,{\be10}This is your{\rHonorifics - Flashback\be10} chan{\r\be10}ce...
-Dialogue: 0,0:30:23.67,0:30:29.22,Flashback,,0,0,0,,{\be10}That nightmare you've never been able to forget—this is your{\rHonorifics - Flashback\be10} chan{\r\be10}ce to get over it.
+Dialogue: 0,0:30:21.59,0:30:23.21,Flashback,,0,0,0,,{\be10}This is your chance...
+Dialogue: 0,0:30:23.67,0:30:29.22,Flashback,,0,0,0,,{\be10}That nightmare you've never been able to forget—this is your chance to get over it.
 Dialogue: 0,0:30:29.51,0:30:32.52,Thoughts,,0,0,0,,{\be10}That's right. I have to get over it!
 Dialogue: 0,0:30:32.52,0:30:35.94,Thoughts,,0,0,0,,{\be10}I have to arrest that bomber and put the past behind me!
 Dialogue: 0,0:30:35.94,0:30:37.06,Thoughts,,0,0,0,,{\be10}Forget...?
@@ -463,7 +459,7 @@ Dialogue: 0,0:31:56.14,0:31:58.94,Dialogue,,0,0,0,,They had no choice but to agr
 Dialogue: 0,0:32:00.06,0:32:04.19,Dialogue,,0,0,0,,The bombers stopped the timer remotely.
 Dialogue: 0,0:32:04.82,0:32:08.49,Dialogue,,0,0,0,,We evacuated all the residents, and the case seemed to have come to a close...
 Dialogue: 0,0:32:09.40,0:32:13.74,Dialogue,,0,0,0,,But half an hour later, we suddenly received a call from one of the bombers, saying...
-Dialogue: 0,0:32:14.62,0:32:18.12,Dialogue,,0,0,0,,‘What do you mean "the timer is still running"?!'
+Dialogue: 0,0:32:14.62,0:32:18.12,Dialogue,,0,0,0,,'What do you mean "the timer is still running"?!'
 Dialogue: 0,0:32:18.96,0:32:24.38,Dialogue,,0,0,0,,The bomber must've heard a recorded report on the news
 Dialogue: 0,0:32:24.38,0:32:26.46,Dialogue,,0,0,0,,and thought we were still trying to disarm the bomb.
 Dialogue: 0,0:32:26.80,0:32:30.97,Dialogue,,0,0,0,,We thought it would be the perfect time to catch the bomber.
@@ -511,10 +507,10 @@ Dialogue: 0,0:35:46.12,0:35:48.12,Dialogue,,0,0,0,,Oh, Dr. Agasa.
 Dialogue: 0,0:35:48.12,0:35:54.30,Dialogue,,0,0,0,,Ah, Ran{\rHonorifics - Dialogue}-kun{\r}. Conan{\rHonorifics - Dialogue}-kun{\r}'s saying\Nthat tonight he'll sleep at my place.
 Dialogue: 0,0:35:54.96,0:35:56.34,Dialogue,,0,0,0,,At your house, Doctor?
 Dialogue: 0,0:35:56.63,0:36:02.30,Dialogue,,0,0,0,,Yeah, the kids are all hooked on a new video game I designed.
-Dialogue: 0,0:36:02.30,0:36:04.85,Phone,,0,0,0,,{\blur3}Then Ayumi{\rHonorifics - Phone}-chan{\r} and the boys are staying too?
+Dialogue: 0,0:36:02.30,0:36:04.85,Radio,,0,0,0,,{\be10}Then Ayumi{\rHonorifics - Radio\be10}-chan{\r\be10} and the boys are staying too?
 Dialogue: 0,0:36:04.85,0:36:06.43,Dialogue,,0,0,0,,Yeah, that's right.
 Dialogue: 0,0:36:06.43,0:36:11.23,Dialogue,,0,0,0,,They're saying since it's near the end of winter break and all, they'll return tomorrow evening.
-Dialogue: 0,0:36:11.23,0:36:12.52,Phone,,0,0,0,,{\blur3}Yes, but...
+Dialogue: 0,0:36:11.23,0:36:12.52,Radio,,0,0,0,,{\be10}Yes, but...
 Dialogue: 0,0:36:12.52,0:36:14.40,Dialogue,,0,0,0,,Okay, talk to you later.
 Dialogue: 0,0:36:17.57,0:36:19.61,Dialogue,,0,0,0,,Now to call Ayumi{\rHonorifics - Dialogue}-kun{\r}'s house.
 Dialogue: 0,0:36:21.11,0:36:22.78,Flashback,,0,0,0,,{\be10}Please, Doc!
@@ -532,15 +528,15 @@ Dialogue: 0,0:36:57.07,0:36:58.61,Dialogue,,0,0,0,,Oh, it'll be fine.
 Dialogue: 0,0:37:00.07,0:37:03.57,Thoughts,,0,0,0,,{\be10}Honestly, looking after this drunkard is {\i1}way{\i0} harder.
 Dialogue: 0,0:37:08.16,0:37:10.75,Dialogue,,0,0,0,,I wonder what this code means.
 Dialogue: 0,0:37:11.12,0:37:14.50,Dialogue,,0,0,0,,The only thing that's really clear is the time.
-Dialogue: 0,0:37:14.50,0:37:19.34,Dialogue,,0,0,0,,Anyway, the bomber has to be a foreigner.\NBecause he calls them ‘major leaguers'.
+Dialogue: 0,0:37:14.50,0:37:19.34,Dialogue,,0,0,0,,Anyway, the bomber has to be a foreigner.\NBecause he calls them 'major leaguers'.
 Dialogue: 0,0:37:19.76,0:37:24.89,Dialogue,,0,0,0,,Not necessarily! There are more Japanese major leaguers recently.
 Dialogue: 0,0:37:25.22,0:37:31.43,Dialogue,,0,0,0,,Oh, yeah. But the bomb has\Nto be set in a baseball field!
-Dialogue: 0,0:37:31.81,0:37:36.36,Dialogue,,0,0,0,,Yeah, cause he wrote stuff like\N‘mound' and ‘batter's box'.
+Dialogue: 0,0:37:31.81,0:37:36.36,Dialogue,,0,0,0,,Yeah, cause he wrote stuff like\N'mound' and 'batter's box'.
 Dialogue: 0,0:37:36.77,0:37:38.15,Dialogue,,0,0,0,,It's in South Haido Station.
 Dialogue: 0,0:37:38.44,0:37:42.03,Dialogue,,0,0,0,,South Haido Station? The Tohto Central line?
 Dialogue: 0,0:37:42.03,0:37:42.65,Dialogue,,0,0,0,,That's right.
 Dialogue: 0,0:37:43.11,0:37:48.33,Dialogue,,0,0,0,,What are you talking about? There's no\Nbaseball field near South Haido Station.
-Dialogue: 0,0:37:48.99,0:37:54.96,Dialogue,,0,0,0,,It's a code. ‘Mound' and ‘batter's\Nbox' don't really mean those.
+Dialogue: 0,0:37:48.99,0:37:54.96,Dialogue,,0,0,0,,It's a code. 'Mound' and 'batter's\Nbox' don't really mean those.
 Dialogue: 0,0:37:54.96,0:37:58.17,Dialogue,,0,0,0,,So you broke the code?
 Dialogue: 0,0:37:58.17,0:37:59.00,Dialogue,,0,0,0,,Yeah.
 Dialogue: 0,0:37:59.88,0:38:02.55,Dialogue,,0,0,0,,Three years ago, the places the\Nbombs were planted were...
@@ -553,22 +549,22 @@ Dialogue: 0,0:38:02.55,0:38:16.56,Signs,,0,0,0,,Haido\NShopping\NMall
 Dialogue: 0,0:38:14.14,0:38:16.56,Dialogue,,0,0,0,,...Tohto Line's South Haido Station.
 Dialogue: 0,0:38:19.07,0:38:21.69,Thoughts,,1,1,0,,{\be10\c&HB64000&}Extra Innings
 Dialogue: 0,0:38:18.06,0:38:21.69,Thoughts,,1,1,0,,{\be10\c&HB64000&}Extended Lines
-Dialogue: 0,0:38:16.86,0:38:21.69,Dialogue,,1,1,15,,Punning ‘extended lines' with ‘extra innings'...
-Dialogue: 0,0:38:22.11,0:38:29.78,Dialogue,,0,0,0,,Slow, aren't you? If the roads cross by a train, you'll find the ‘stopper' there.
-Dialogue: 0,0:38:29.78,0:38:30.70,Dialogue,,0,0,0,,‘Stopper'?
+Dialogue: 0,0:38:16.86,0:38:21.69,Dialogue,,1,1,15,,Punning 'extended lines' with 'extra innings'...
+Dialogue: 0,0:38:22.11,0:38:29.78,Dialogue,,0,0,0,,Slow, aren't you? If the roads cross by a train, you'll find the 'stopper' there.
+Dialogue: 0,0:38:29.78,0:38:30.70,Dialogue,,0,0,0,,'Stopper'?
 Dialogue: 0,0:38:31.08,0:38:32.45,Dialogue,,0,0,0,,Stopper?
 Dialogue: 0,0:38:32.45,0:38:33.75,Dialogue,,0,0,0,,What's that?
 Dialogue: 0,0:38:33.75,0:38:36.12,Dialogue,,0,0,0,,Oh, I see! I know what!
 Dialogue: 0,0:38:36.83,0:38:39.13,Dialogue,,0,0,0,,It's the railroad crossing stoplight!
-Dialogue: 0,0:38:39.54,0:38:44.01,Dialogue,,0,0,0,,Then the steel ‘batter's box' is...
+Dialogue: 0,0:38:39.54,0:38:44.01,Dialogue,,0,0,0,,Then the steel 'batter's box' is...
 Dialogue: 0,0:38:44.01,0:38:46.63,Dialogue,,0,0,0,,A steel box—the train.
 Dialogue: 0,0:38:47.30,0:38:52.47,Dialogue,,0,0,0,,We're supposed to climb onto the bloody mound—the red Tohto Line Train.
 Dialogue: 0,0:38:52.77,0:38:56.85,Dialogue,,0,0,0,,Oh no! I've got to tell Satō{\rHonorifics - Dialogue}-san{\r} and the others!
-Dialogue: 0,0:38:56.85,0:39:01.57,Phone,,0,0,0,,{\blur3}It's all right, I heard everything.\NWe came to the same conclusion here.
+Dialogue: 0,0:38:56.85,0:39:01.57,Radio,,0,0,0,,{\be10}It's all right, I heard everything.\NWe came to the same conclusion here.
 Dialogue: 0,0:39:02.11,0:39:06.07,Dialogue,,0,0,0,,The first bomb is probably inside the Tohto Line Train,
 Dialogue: 0,0:39:06.07,0:39:08.78,Dialogue,,0,0,0,,which goes up through Tōkyō from South Haido Station.
 Dialogue: 0,0:39:09.57,0:39:15.50,Dialogue,,0,0,0,,I'll contact the Inspector and have him send a\Nsearch team. You call the bomb squad.
-Dialogue: 0,0:39:15.83,0:39:16.66,Phone,,0,0,0,,{\blur3}And hurry!
+Dialogue: 0,0:39:15.83,0:39:16.66,Radio,,0,0,0,,{\be10}And hurry!
 Dialogue: 0,0:39:16.66,0:39:18.04,Dialogue,,0,0,0,,Yes.
 Dialogue: 0,0:39:18.58,0:39:22.00,Dialogue,,0,0,0,,What? South Haido Station? Are you sure?
 Dialogue: 0,0:39:22.38,0:39:25.76,Dialogue,,0,0,0,,Yes. Yes. And then?
@@ -597,12 +593,12 @@ Dialogue: 0,0:41:20.04,0:41:22.83,Signs,,0,0,0,,FAIL!
 Dialogue: 0,0:41:22.83,0:41:25.34,Dialogue,,0,0,0,,What? Another decoy?!
 Dialogue: 0,0:41:25.79,0:41:27.34,Dialogue,,0,0,0,,What kind of search are you running?!
 Dialogue: 0,0:41:28.13,0:41:30.80,Dialogue,,0,0,0,,You haven't confused them with\Nthe real one, have you?
-Dialogue: 0,0:41:30.80,0:41:31.84,Phone,,0,0,0,,{\blur3}No.
+Dialogue: 0,0:41:30.80,0:41:31.84,Radio,,0,0,0,,{\be10}No.
 Dialogue: 0,0:41:31.84,0:41:36.85,Dialogue,,0,0,0,,We've searched every red line train that runs through the city,
 Dialogue: 0,0:41:37.47,0:41:41.60,Dialogue,,0,0,0,,but all the bombs we've found were fake.
 Dialogue: 0,0:41:41.60,0:41:46.65,Dialogue,,0,0,0,,I see. He's probably trying\Nto throw us off the scent.
 Dialogue: 0,0:41:47.32,0:41:50.07,Dialogue,,0,0,0,,At any rate, don't let your guard\Ndown and keep looking.
-Dialogue: 0,0:41:50.07,0:41:50.94,Phone,,0,0,0,,{\blur3}Understood.
+Dialogue: 0,0:41:50.07,0:41:50.94,Radio,,0,0,0,,{\be10}Understood.
 Dialogue: 0,0:41:51.57,0:41:52.99,Dialogue,,0,0,0,,Superintendent Matsumoto!
 Dialogue: 0,0:41:52.99,0:41:53.66,Dialogue,,0,0,0,,What is it?
 Dialogue: 0,0:41:54.03,0:41:56.99,Dialogue,,0,0,0,,We've heard from Ozaki's team. They're at the baseball fields.
@@ -615,7 +611,7 @@ Dialogue: 0,0:42:21.18,0:42:25.31,Dialogue,,0,0,0,,I want everyone who was searc
 Dialogue: 0,0:42:25.90,0:42:30.19,Dialogue,,0,0,0,,We still have five hours before the noon deadline.
 Dialogue: 0,0:42:30.19,0:42:34.45,Dialogue,,0,0,0,,It's possible the bomber hasn't even planted it yet!
 Dialogue: 0,0:42:34.45,0:42:35.24,Dialogue,,0,0,0,,Yes, sir!
-Dialogue: 0,0:42:41.70,0:42:44.21,Dialogue,,0,0,0,,‘Still have five hours', eh?
+Dialogue: 0,0:42:41.70,0:42:44.21,Dialogue,,0,0,0,,'Still have five hours', eh?
 Dialogue: 0,0:42:44.66,0:42:49.88,Dialogue,,0,0,0,,If anything, I should be saying we {\i1}only{\i0} have five hours.
 Dialogue: 0,0:42:49.88,0:42:50.92,Dialogue,,0,0,0,,Yeah.
 Dialogue: 0,0:43:02.52,0:43:03.98,Dialogue,,0,0,0,,I'm sleepy.
@@ -718,8 +714,8 @@ Dialogue: 0,0:50:05.23,0:50:07.65,Dialogue,,0,0,0,,That lady in the mini-patrol 
 Dialogue: 0,0:50:07.65,0:50:08.69,Dialogue,,0,0,0,,Yumi{\rHonorifics - Dialogue}-san{\r}?
 Dialogue: 0,0:50:08.69,0:50:11.44,Dialogue,,0,0,0,,She acted out the whole story for us.
 Dialogue: 0,0:50:12.90,0:50:19.24,Flashback,,0,0,0,,{\be10}And then Detective Matsuda risked his life to\Nfind out where the next bomb was located!
-Dialogue: 0,0:50:21.54,0:50:26.17,Flashback,,0,0,0,,{\be10}‘Oops, looks like it's about time. See ya.' *click*
-Dialogue: 0,0:50:26.17,0:50:30.88,Flashback,,0,0,0,,{\be10}‘Wait, Matsuda{\rHonorifics - Flashback\be10}-kun{\r\be10}! Matsuda{\rHonorifics - Flashback\be10}-kun{\r\be10}? Matsuda{\rHonorifics - Flashback\be10}-kun{\r\be10}!'
+Dialogue: 0,0:50:21.54,0:50:26.17,Flashback,,0,0,0,,{\be10}'Oops, looks like it's about time. See ya.' *click*
+Dialogue: 0,0:50:26.17,0:50:30.88,Flashback,,0,0,0,,{\be10}'Wait, Matsuda{\rHonorifics - Flashback\be10}-kun{\r\be10}! Matsuda{\rHonorifics - Flashback\be10}-kun{\r\be10}? Matsuda{\rHonorifics - Flashback\be10}-kun{\r\be10}!'
 Dialogue: 0,0:50:34.84,0:50:38.30,Dialogue,,0,0,0,,It was a sad tale to hear and to tell.
 Dialogue: 0,0:50:41.02,0:50:42.60,Dialogue,,0,0,0,,Oh, I see.
 Dialogue: 0,0:50:43.02,0:50:45.56,Dialogue,,0,0,0,,I wouldn't blame you for giving up.
@@ -732,7 +728,7 @@ Dialogue: 0,0:51:14.13,0:51:16.97,Dialogue,,0,0,0,,I feel like I'm dying.
 Dialogue: 0,0:51:17.55,0:51:22.72,Dialogue,,0,0,0,,I wish I had a guardian angel like you to help me out.
 Dialogue: 0,0:51:22.72,0:51:24.23,Dialogue,,0,0,0,,A guardian angel?
 Dialogue: 0,0:51:24.23,0:51:31.32,Dialogue,,0,0,0,,Don't play dumb. I saw you staring at Shin'ichi{\rHonorifics - Dialogue}-kun{\r}'s empty seat throughout the test!
-Dialogue: 0,0:51:31.77,0:51:39.32,Dialogue,,0,0,0,,‘Help me, Shin'ichi! Why can't I integrate this equation?' — like that.
+Dialogue: 0,0:51:31.77,0:51:39.32,Dialogue,,0,0,0,,'Help me, Shin'ichi! Why can't I integrate this equation?' — like that.
 Dialogue: 0,0:51:39.32,0:51:42.37,Dialogue,,0,0,0,,That's not it! I was looking at his seat because...
 Dialogue: 0,0:51:42.37,0:51:43.45,Dialogue,,0,0,0,,Because?
 Dialogue: 0,0:51:43.45,0:51:46.37,Dialogue,,0,0,0,,Because...
@@ -742,7 +738,7 @@ Dialogue: 0,0:52:06.14,0:52:07.77,Dialogue,,0,0,0,,Yeah, now that you mention it
 Dialogue: 0,0:52:07.77,0:52:10.06,Dialogue,,0,0,0,,I wonder what's going on...
 Dialogue: 0,0:52:17.07,0:52:20.03,Dialogue,,0,0,0,,Red, red, red.
 Dialogue: 0,0:52:20.03,0:52:21.74,Dialogue,,0,0,0,,Something wrong with red?
-Dialogue: 0,0:52:21.74,0:52:26.29,Dialogue,,0,0,0,,This line about ‘climbing onto the bloody mound' is bugging me.
+Dialogue: 0,0:52:21.74,0:52:26.29,Dialogue,,0,0,0,,This line about 'climbing onto the bloody mound' is bugging me.
 Dialogue: 0,0:52:26.87,0:52:29.67,Dialogue,,0,0,0,,You didn't think it's the red line trains?
 Dialogue: 0,0:52:29.67,0:52:32.84,Dialogue,,0,0,0,,It just doesn't fit.
 Dialogue: 0,0:52:33.63,0:52:37.63,Thoughts,,0,0,0,,{\be10}But wait, if this is the same\Npattern as three years ago,
@@ -768,14 +764,14 @@ Dialogue: 0,0:54:03.47,0:54:07.47,Dialogue,,0,0,0,,Was there a bomb here after a
 Dialogue: 0,0:54:08.22,0:54:14.10,Dialogue,,0,0,0,,I'll go find out what happened.\NYou guys wait in the car.
 Dialogue: 0,0:54:14.10,0:54:14.94,Dialogue,,0,0,0,,Okay?
 Dialogue: 0,0:54:18.36,0:54:23.78,Dialogue,,0,0,0,,Today was supposed to be the broadcast of\Nthe Tohto Tower Mascot, Tohto{\rHonorifics - Dialogue}-kun{\r}, but...
-Dialogue: 0,0:54:24.16,0:54:28.12,Dialogue,,0,0,0,,We have an unexpected schedule{\rHonorifics - Dialogue} chan{\r}ge due to a sudden accident.
+Dialogue: 0,0:54:24.16,0:54:28.12,Dialogue,,0,0,0,,We have an unexpected schedule change due to a sudden accident.
 Dialogue: 0,0:54:29.24,0:54:32.33,Dialogue,,0,0,0,,Excuse me, what happened here?
 Dialogue: 0,0:54:32.33,0:54:33.79,Dialogue,,0,0,0,,Oh, you see...
 Dialogue: 0,0:54:34.46,0:54:37.34,Dialogue,,0,0,0,,What? The bomb is in Tohto Tower?
-Dialogue: 0,0:54:37.34,0:54:39.84,Phone,,0,0,0,,{\blur3}Yes, I'm sure of it.
+Dialogue: 0,0:54:37.34,0:54:39.84,Radio,,0,0,0,,{\be10}Yes, I'm sure of it.
 Dialogue: 0,0:54:39.84,0:54:42.30,Dialogue,,0,0,0,,Explain what happened.
 Dialogue: 0,0:54:42.30,0:54:50.06,Dialogue,,0,0,0,,Just before I got here, there was a minor explosion and the lift stopped.
-Dialogue: 0,0:54:51.10,0:54:57.56,Phone,,0,0,0,,{\blur3}The bomber must've seen us coming and set it off before we could discover it!
+Dialogue: 0,0:54:51.10,0:54:57.56,Radio,,0,0,0,,{\be10}The bomber must've seen us coming and set it off before we could discover it!
 Dialogue: 0,0:55:00.44,0:55:05.11,Flashback,,0,0,0,,{\be10}The control panel suddenly exploded, and the Ferris wheel went out of control!
 Dialogue: 0,0:55:06.91,0:55:09.53,Thoughts,,0,0,0,,{\be10}It's the same as last time...
 Dialogue: 0,0:55:09.87,0:55:14.96,Dialogue,,0,0,0,,Well, I'm going in to check the situation with the stuck lift.
@@ -795,12 +791,12 @@ Dialogue: 0,0:55:58.88,0:56:03.17,Flashback,,0,0,0,,{\be10}Look, Takagi{\rHonori
 Dialogue: 0,0:56:03.50,0:56:06.17,Dialogue,,0,0,0,,I'll get that kid out of there!
 Dialogue: 0,0:56:06.17,0:56:07.63,Dialogue,,0,0,0,,But...
 Dialogue: 0,0:56:07.63,0:56:09.60,Flashback,,0,0,0,,{\be10}She's going to be out for blood!
-Dialogue: 0,0:56:10.64,0:56:16.10,Phone,,0,0,0,,{\blur1}Do you hear? That's an order! Stay where you are until I arrive!
-Dialogue: 0,0:56:16.10,0:56:17.69,Phone,,0,0,0,,{\blur3}Understood, Takagi{\rHonorifics - Phone}-kun{\r}?
-Dialogue: 0,0:56:19.44,0:56:21.11,Phone,,0,0,0,,{\blur3}Takagi{\rHonorifics - Phone}-kun{\r}! Can you hear me?
-Dialogue: 0,0:56:22.07,0:56:23.94,Phone,,0,0,0,,{\blur3}Respond, Takagi{\rHonorifics - Phone}-kun{\r}!
-Dialogue: 0,0:56:24.90,0:56:25.78,Phone,,0,0,0,,{\blur3}Takagi{\rHonorifics - Phone}-kun{\r}!
-Dialogue: 0,0:56:26.57,0:56:27.36,Phone,,0,0,0,,{\blur3}Takagi{\rHonorifics - Phone}-kun{\r}!
+Dialogue: 0,0:56:10.64,0:56:16.10,Radio,,0,0,0,,{\be10}Do you hear? That's an order! Stay where you are until I arrive!
+Dialogue: 0,0:56:16.10,0:56:17.69,Radio,,0,0,0,,{\be10}Understood, Takagi{\rHonorifics - Radio\be10}-kun{\r\be10}?
+Dialogue: 0,0:56:19.44,0:56:21.11,Radio,,0,0,0,,{\be10}Takagi{\rHonorifics - Radio\be10}-kun{\r\be10}! Can you hear me?
+Dialogue: 0,0:56:22.07,0:56:23.94,Radio,,0,0,0,,{\be10}Respond, Takagi{\rHonorifics - Radio\be10}-kun{\r\be10}!
+Dialogue: 0,0:56:24.90,0:56:25.78,Radio,,0,0,0,,{\be10}Takagi{\rHonorifics - Radio\be10}-kun{\r\be10}!
+Dialogue: 0,0:56:26.57,0:56:27.36,Radio,,0,0,0,,{\be10}Takagi{\rHonorifics - Radio\be10}-kun{\r\be10}!
 Dialogue: 0,0:56:28.61,0:56:31.03,Dialogue,,0,0,0,,Please, Takagi{\rHonorifics - Dialogue}-kun{\r}! Don't go!
 Dialogue: 0,0:56:34.37,0:56:35.54,Dialogue,,0,0,0,,Sorry.
 Dialogue: 0,0:56:39.87,0:56:43.55,Dialogue,,0,0,0,,I'm going to check the situation inside.
@@ -830,13 +826,13 @@ Dialogue: 0,0:58:05.21,0:58:11.47,Dialogue,,0,0,0,,We don't have any confirmatio
 Dialogue: 0,0:58:11.47,0:58:16.64,Dialogue,,0,0,0,,No, it's too similar to what happened three years ago for it to be an accident.
 Dialogue: 0,0:58:16.64,0:58:17.56,Dialogue,,0,0,0,,I agree.
 Dialogue: 0,0:58:18.72,0:58:21.02,Dialogue,,0,0,0,,This is very likely to be the one.
-Dialogue: 0,0:58:22.85,0:58:26.19,Phone,,0,0,0,,{\blur3}Urgent! Urgent! This is an\Nannouncement from Police HQ.
-Dialogue: 0,0:58:26.52,0:58:30.57,Phone,,0,0,0,,{\blur3}There is a high probability of an explosive\Ndevice in Minato Ward's Tohto Tower.
-Dialogue: 0,0:58:30.57,0:58:35.99,Phone,,0,0,0,,{\blur3}All units proceed to Tōkyō Tower and take all measures necessary
-Dialogue: 0,0:58:35.99,0:58:39.41,Phone,,0,0,0,,{\blur3}to seal off the area and evacuate the inhabitants immediately!
+Dialogue: 0,0:58:22.85,0:58:26.19,Radio,,0,0,0,,{\be10}Urgent! Urgent! This is an\Nannouncement from Police HQ.
+Dialogue: 0,0:58:26.52,0:58:30.57,Radio,,0,0,0,,{\be10}There is a high probability of an explosive\Ndevice in Minato Ward's Tohto Tower.
+Dialogue: 0,0:58:30.57,0:58:35.99,Radio,,0,0,0,,{\be10}All units proceed to Tōkyō Tower and take all measures necessary
+Dialogue: 0,0:58:35.99,0:58:39.41,Radio,,0,0,0,,{\be10}to seal off the area and evacuate the inhabitants immediately!
 Dialogue: 0,0:58:40.79,0:58:41.83,Thoughts,,0,0,0,,{\be10}Takagi{\rHonorifics - Thoughts\be10}-kun{\r\be10}.
-Dialogue: 0,0:58:43.21,0:58:49.80,Phone,,0,0,0,,{\blur3}We sincerely apologise to our guests for the\Ninconvenience, but we will be closed for today.
-Dialogue: 0,0:58:50.67,0:58:55.26,Phone,,0,0,0,,{\blur3}Please follow our personnel's directions\Nand exit the hall in an orderly fashion.
+Dialogue: 0,0:58:43.21,0:58:49.80,Radio,,0,0,0,,{\be10}We sincerely apologise to our guests for the\Ninconvenience, but we will be closed for today.
+Dialogue: 0,0:58:50.67,0:58:55.26,Radio,,0,0,0,,{\be10}Please follow our personnel's directions\Nand exit the hall in an orderly fashion.
 Dialogue: 0,0:58:55.26,0:58:59.31,Dialogue,,0,0,0,,There's no need to rush. Please evacuate slowly.
 Dialogue: 0,0:58:59.31,0:59:02.39,Dialogue,,0,0,0,,Excuse me, I'm a police officer. Let me through.
 Dialogue: 0,0:59:02.39,0:59:03.94,Dialogue,,0,0,0,,Please don't panic.
@@ -860,11 +856,11 @@ Dialogue: 0,0:59:42.47,0:59:46.02,Dialogue,,0,0,0,,That gap's too narrow for\Nan
 Dialogue: 0,0:59:46.02,0:59:47.90,Dialogue,,0,0,0,,Then give me a lift.
 Dialogue: 0,0:59:49.11,0:59:51.15,Dialogue,,0,0,0,,I'll fit, right?
 Dialogue: 0,0:59:51.15,0:59:52.73,Dialogue,,0,0,0,,C-Conan{\rHonorifics - Dialogue}-kun{\r}!
-Dialogue: 0,0:59:54.69,0:59:57.66,Phone,,0,0,0,,{\blur4}Reporting live from Tohto Tower.
-Dialogue: 0,0:59:58.07,1:00:04.91,Phone,,0,0,0,,{\blur4}Today at about 9:45 AM there was an explosion\Nof unknown origin within the Tohto Tower.
-Dialogue: 0,1:00:05.37,1:00:12.75,Phone,,0,0,0,,{\blur4}Fortunately, there were no injuries, but a tower lift stopped from the shock of the explosion...
-Dialogue: 0,1:00:12.75,1:00:17.84,Phone,,0,0,0,,{\blur4}...trapping a four-year-old girl who\Nwas the only person aboard.
-Dialogue: 0,1:00:17.84,1:00:21.35,Phone,,0,0,0,,{\blur4}Currently, the cause of explosion is being investigated.
+Dialogue: 0,0:59:54.69,0:59:57.66,Radio,,0,0,0,,{\be10}Reporting live from Tohto Tower.
+Dialogue: 0,0:59:58.07,1:00:04.91,Radio,,0,0,0,,{\be10}Today at about 9:45 AM there was an explosion\Nof unknown origin within the Tohto Tower.
+Dialogue: 0,1:00:05.37,1:00:12.75,Radio,,0,0,0,,{\be10}Fortunately, there were no injuries, but a tower lift stopped from the shock of the explosion...
+Dialogue: 0,1:00:12.75,1:00:17.84,Radio,,0,0,0,,{\be10}...trapping a four-year-old girl who\Nwas the only person aboard.
+Dialogue: 0,1:00:17.84,1:00:21.35,Radio,,0,0,0,,{\be10}Currently, the cause of explosion is being investigated.
 Dialogue: 0,1:00:38.20,1:00:39.91,Dialogue,,0,0,0,,Conan{\rHonorifics - Dialogue}-kun{\r}, are you okay?
 Dialogue: 0,1:00:39.91,1:00:40.87,Dialogue,,0,0,0,,Yeah.
 Dialogue: 0,1:00:41.28,1:00:43.33,Dialogue,,0,0,0,,Hi, Akemi{\rHonorifics - Dialogue}-chan{\r}.
@@ -876,9 +872,9 @@ Dialogue: 0,1:01:06.77,1:01:07.39,Dialogue,,0,0,0,,Yup.
 Dialogue: 0,1:01:08.69,1:01:14.15,Dialogue,,0,0,0,,I'd like to go over and say hello\Nto Jam{\rHonorifics - Dialogue}-chan{\r}. Is that okay?
 Dialogue: 0,1:01:14.15,1:01:15.98,Dialogue,,0,0,0,,Yeah, it's okay.
 Dialogue: 0,1:01:15.98,1:01:17.57,Dialogue,,0,0,0,,Okay, then I'm coming over now.
-Dialogue: 0,1:01:18.65,1:01:21.87,Phone,,0,0,0,,{\blur3}According to information we just received...
-Dialogue: 0,1:01:21.87,1:01:27.91,Phone,,0,0,0,,{\blur3}...a police officer has entered the lift to help the girl.
-Dialogue: 0,1:01:29.25,1:01:33.50,Phone,,0,0,0,,{\blur3}What? They sent {\i1}another child{\i0} in?!
+Dialogue: 0,1:01:18.65,1:01:21.87,Radio,,0,0,0,,{\be10}According to information we just received...
+Dialogue: 0,1:01:21.87,1:01:27.91,Radio,,0,0,0,,{\be10}...a police officer has entered the lift to help the girl.
+Dialogue: 0,1:01:29.25,1:01:33.50,Radio,,0,0,0,,{\be10}What? They sent {\i1}another child{\i0} in?!
 Dialogue: 0,1:01:37.30,1:01:42.30,Dialogue,,0,0,0,,And then, Mum bought me Jam{\rHonorifics - Dialogue}-chan{\r} for my birthday.
 Dialogue: 0,1:01:42.30,1:01:46.35,Dialogue,,0,0,0,,Really? Well, your mum's waiting for\Nyou outside, do you want to go?
 Dialogue: 0,1:01:46.35,1:01:47.10,Dialogue,,0,0,0,,Okay.
@@ -893,14 +889,14 @@ Dialogue: 0,1:02:10.87,1:02:12.21,Dialogue,,0,0,0,,You too, Conan{\rHonorifics -
 Dialogue: 0,1:02:22.76,1:02:23.51,Dialogue,,0,0,0,,Conan{\rHonorifics - Dialogue}-kun{\r}!
 Dialogue: 0,1:02:25.64,1:02:26.97,Dialogue,,0,0,0,,Damn!
 Dialogue: 0,1:02:37.19,1:02:43.86,Dialogue,,0,0,0,,You ignored me and gallantly rode to the rescue, and now you're trapped in a lift with Conan{\rHonorifics - Dialogue}-kun{\r}.
-Dialogue: 0,1:02:43.86,1:02:45.78,Phone,,0,0,0,,{\blur3}I'm sorry.
+Dialogue: 0,1:02:43.86,1:02:45.78,Radio,,0,0,0,,{\be10}I'm sorry.
 Dialogue: 0,1:02:46.20,1:02:51.12,Dialogue,,0,0,0,,Are you absolutely sure there's no bomb in there?
 Dialogue: 0,1:02:51.12,1:02:59.96,Dialogue,,0,0,0,,Well, there's nothing like that inside the lift. We're about to check out the roof.
 Dialogue: 0,1:03:11.68,1:03:14.81,Dialogue,,0,0,0,,Also, do you know exactly where you are?
-Dialogue: 0,1:03:14.81,1:03:16.65,Phone,,0,0,0,,{\blur3}Well, most likely...
+Dialogue: 0,1:03:14.81,1:03:16.65,Radio,,0,0,0,,{\be10}Well, most likely...
 Dialogue: 0,1:03:16.65,1:03:21.53,Dialogue,,0,0,0,,When the cables broke, the emergency brakes stopped us
 Dialogue: 0,1:03:21.53,1:03:26.53,Dialogue,,0,0,0,,somewhere between the Main Observation Deck and the first floor.
-Dialogue: 0,1:03:26.53,1:03:27.53,Phone,,0,0,0,,{\blur3}Is that right?
+Dialogue: 0,1:03:26.53,1:03:27.53,Radio,,0,0,0,,{\be10}Is that right?
 Dialogue: 0,1:03:27.53,1:03:32.41,Dialogue,,0,0,0,,Looks like we'd better climb on top of the lift and wait for the recue team.
 Dialogue: 0,1:03:32.41,1:03:36.25,Dialogue,,0,0,0,,Don't! If you climb up here, you'll activate the mercury tilt switch!
 Dialogue: 0,1:03:37.04,1:03:38.59,Dialogue,,0,0,0,,Mercury tilt switch?
@@ -922,7 +918,7 @@ Dialogue: 0,1:04:44.40,1:04:48.66,Dialogue,,0,0,0,,It must've been triggered whe
 Dialogue: 0,1:04:50.91,1:04:54.87,Dialogue,,0,0,0,,Even the slightest motion will set this thing off.
 Dialogue: 0,1:04:56.00,1:05:07.67,Dialogue,,0,0,0,,So, if you try to climb up here, or if the rescue team tries to climb down, it'll blow us all sky-high!
 Dialogue: 0,1:05:08.76,1:05:11.84,Dialogue,,0,0,0,,It's that sensitive?
-Dialogue: 0,1:05:12.14,1:05:13.89,Phone,,0,0,0,,{\blur3}This mercury tilt switch?
+Dialogue: 0,1:05:12.14,1:05:13.89,Radio,,0,0,0,,{\be10}This mercury tilt switch?
 Dialogue: 0,1:05:16.52,1:05:17.93,Thoughts,,0,0,0,,{\be10}Mercury tilt switch...
 Dialogue: 0,1:05:19.85,1:05:25.19,Thoughts,,0,0,0,,{\be10}I knew it! It's the same bomber from three years ago!
 Dialogue: 0,1:05:28.53,1:05:31.82,Thoughts,,0,0,0,,{\be10}But that means... That means...
@@ -932,11 +928,11 @@ Dialogue: 0,1:05:43.21,1:05:48.05,Dialogue,,0,0,0,,There's a wiretap near this b
 Dialogue: 0,1:05:48.05,1:05:48.72,Dialogue,,0,0,0,,Therefore...
 Dialogue: 0,1:05:49.09,1:05:51.97,Dialogue,,0,0,0,,The bomber's probably listening to every word we say.
 Dialogue: 0,1:05:52.89,1:05:58.89,Dialogue,,0,0,0,,If we leave and he can't hear our voices,\Nhe's going to detonate the bomb.
-Dialogue: 0,1:05:58.89,1:06:03.15,Phone,,0,0,0,,{\blur3}So we're damned if we do,\Nand damned if we don't.
-Dialogue: 0,1:06:03.15,1:06:05.86,Phone,,0,0,0,,{\blur3}No, there's one way out of this.
+Dialogue: 0,1:05:58.89,1:06:03.15,Radio,,0,0,0,,{\be10}So we're damned if we do,\Nand damned if we don't.
+Dialogue: 0,1:06:03.15,1:06:05.86,Radio,,0,0,0,,{\be10}No, there's one way out of this.
 Dialogue: 0,1:06:08.94,1:06:15.53,Dialogue,,0,0,0,,I have to defuse the bomb. That is, if you get them to lower some bomb handling tools from above.
-Dialogue: 0,1:06:18.87,1:06:22.42,Phone,,0,0,0,,{\blur3}I repeat: All residents living near the Tohto Tower...
-Dialogue: 0,1:06:22.42,1:06:26.13,Phone,,0,0,0,,{\blur3}Please follow any instructions from the\Npolice and evacuate without delay.
+Dialogue: 0,1:06:18.87,1:06:22.42,Radio,,0,0,0,,{\be10}I repeat: All residents living near the Tohto Tower...
+Dialogue: 0,1:06:22.42,1:06:26.13,Radio,,0,0,0,,{\be10}Please follow any instructions from the\Npolice and evacuate without delay.
 Dialogue: 0,1:06:28.00,1:06:29.84,Dialogue,,0,0,0,,We're running away?
 Dialogue: 0,1:06:29.84,1:06:33.18,Dialogue,,0,0,0,,Conan{\rHonorifics - Dialogue}-kun{\r} and Detective Takagi are still in there!
 Dialogue: 0,1:06:33.80,1:06:39.64,Dialogue,,0,0,0,,Don't worry, they're okay. Both of them\Nwill be heading back here soon.
@@ -958,18 +954,18 @@ Dialogue: 0,1:07:38.24,1:07:38.91,Dialogue,,0,0,0,,Roger.
 Dialogue: 0,1:07:39.49,1:07:42.58,Dialogue,,0,0,0,,Equipment delivery complete.
 Dialogue: 0,1:07:42.58,1:07:46.46,Dialogue,,0,0,0,,Good. Let's get started, Takagi{\rHonorifics - Dialogue}-kun{\r}.
 Dialogue: 0,1:07:47.75,1:07:49.09,Dialogue,,0,0,0,,O-Okay.
-Dialogue: 0,1:07:49.09,1:07:50.38,Phone,,0,0,0,,{\blur3}You fool!
+Dialogue: 0,1:07:49.09,1:07:50.38,Radio,,0,0,0,,{\be10}You fool!
 Dialogue: 0,1:07:50.84,1:07:57.09,Dialogue,,0,0,0,,Man up and stop panicking! The kid with you is the one who's doing the actual work!
-Dialogue: 0,1:07:57.55,1:08:02.18,Phone,,0,0,0,,{\blur3}If you get flustered, you might make him anxious, which could cause careless mistakes!
+Dialogue: 0,1:07:57.55,1:08:02.18,Radio,,0,0,0,,{\be10}If you get flustered, you might make him anxious, which could cause careless mistakes!
 Dialogue: 0,1:08:02.18,1:08:03.14,Dialogue,,0,0,0,,Yes, sir.
-Dialogue: 0,1:08:03.14,1:08:08.35,Phone,,0,0,0,,{\blur3}If you take it easy and just follow our instructions, this'll be over in no time.
-Dialogue: 0,1:08:08.35,1:08:09.52,Phone,,0,0,0,,{\blur3}Stay calm.
+Dialogue: 0,1:08:03.14,1:08:08.35,Radio,,0,0,0,,{\be10}If you take it easy and just follow our instructions, this'll be over in no time.
+Dialogue: 0,1:08:08.35,1:08:09.52,Radio,,0,0,0,,{\be10}Stay calm.
 Dialogue: 0,1:08:10.23,1:08:11.36,Dialogue,,0,0,0,,Understood.
 Dialogue: 0,1:08:11.69,1:08:16.24,Dialogue,,0,0,0,,Good. First, let's try taking out\Nthe photosensitive trigger.
-Dialogue: 0,1:08:16.24,1:08:16.91,Phone,,0,0,0,,{\blur3}Yes, sir.
-Dialogue: 0,1:08:17.61,1:08:23.87,Phone,,0,0,0,,{\blur3}Exactly one minute from now, we'll shut off the lights in the lift, so put on the infrared scope.
-Dialogue: 0,1:08:26.37,1:08:30.92,Phone,,0,0,0,,{\blur3}When it gets dark, take off the cover\Nto the right of the mercury tilt switch.
-Dialogue: 0,1:08:30.92,1:08:33.59,Phone,,0,0,0,,{\blur3}Be careful not to touch the switch.
+Dialogue: 0,1:08:16.24,1:08:16.91,Radio,,0,0,0,,{\be10}Yes, sir.
+Dialogue: 0,1:08:17.61,1:08:23.87,Radio,,0,0,0,,{\be10}Exactly one minute from now, we'll shut off the lights in the lift, so put on the infrared scope.
+Dialogue: 0,1:08:26.37,1:08:30.92,Radio,,0,0,0,,{\be10}When it gets dark, take off the cover\Nto the right of the mercury tilt switch.
+Dialogue: 0,1:08:30.92,1:08:33.59,Radio,,0,0,0,,{\be10}Be careful not to touch the switch.
 Dialogue: 0,1:08:33.59,1:08:37.09,Dialogue,,0,0,0,,S-So first we take off that cover, right?
 Dialogue: 0,1:08:37.09,1:08:40.60,Dialogue,,0,0,0,,That's right. We're turning off the lights now.
 Dialogue: 0,1:08:41.76,1:08:44.10,Dialogue,,0,0,0,,Did you hear all that, Conan{\rHonorifics - Dialogue}-kun{\r}?
@@ -985,7 +981,7 @@ Dialogue: 0,1:09:22.93,1:09:24.93,Thoughts,,0,0,0,,{\be10}If I short circuit thi
 Dialogue: 0,1:09:27.81,1:09:31.98,Thoughts,,0,0,0,,{\be10}Oops, the electricity's on! That was close!
 Dialogue: 0,1:09:32.40,1:09:36.90,Thoughts,,0,0,0,,{\be10}Well, then, I'll just put a plastic stopper in this gap...
 Dialogue: 0,1:09:37.57,1:09:39.61,Thoughts,,0,0,0,,{\be10}Stopper?
-Dialogue: 0,1:09:39.61,1:09:45.70,Thoughts,,0,0,0,,{\be10}The riddle said, ‘Don't bother trying to get a good stopper ready'.
+Dialogue: 0,1:09:39.61,1:09:45.70,Thoughts,,0,0,0,,{\be10}The riddle said, 'Don't bother trying to get a good stopper ready'.
 Dialogue: 0,1:09:47.00,1:09:50.96,Thoughts,,0,0,0,,{\be10}A good stopper means the pitcher has a good earned-run average.
 Dialogue: 0,1:09:52.92,1:10:00.55,Thoughts,,0,0,0,,{\be10}But why a Major Leaguer? This is Japan—he could just have written pro baseball player.
 Dialogue: 0,1:10:02.97,1:10:12.06,Thoughts,,0,0,0,,{\be10}Wait! Extra innings. Earned-run average.\NTurn the game around. Major Leaguer.
@@ -1000,10 +996,10 @@ Dialogue: 0,1:10:47.85,1:10:50.48,Dialogue,,0,0,0,,Did something happen after al
 Dialogue: 0,1:10:50.48,1:10:51.10,Dialogue,,0,0,0,,Hey!
 Dialogue: 0,1:10:52.31,1:10:53.14,Dialogue,,0,0,0,,Crap!
 Dialogue: 0,1:10:53.14,1:10:56.61,Dialogue,,0,0,0,,No talking during the test!
-Dialogue: 0,1:10:56.61,1:11:03.11,Phone,,0,0,0,,{\blur3}It's now 11:40! Only 20 minutes left to the announced explosion time!
-Dialogue: 0,1:11:03.86,1:11:08.66,Phone,,0,0,0,,{\blur3}The police officer and the little boy who were trapped in the lift have yet to be rescued!
-Dialogue: 0,1:11:09.91,1:11:11.91,Phone,,0,0,0,,{\blur3}Minute by minute, they're running out of time.
-Dialogue: 0,1:11:11.91,1:11:20.88,Phone,,0,0,0,,{\blur3}Will the little boy and the detective be destroyed along with the symbol of Tōkyō?
+Dialogue: 0,1:10:56.61,1:11:03.11,Radio,,0,0,0,,{\be10}It's now 11:40! Only 20 minutes left to the announced explosion time!
+Dialogue: 0,1:11:03.86,1:11:08.66,Radio,,0,0,0,,{\be10}The police officer and the little boy who were trapped in the lift have yet to be rescued!
+Dialogue: 0,1:11:09.91,1:11:11.91,Radio,,0,0,0,,{\be10}Minute by minute, they're running out of time.
+Dialogue: 0,1:11:11.91,1:11:20.88,Radio,,0,0,0,,{\be10}Will the little boy and the detective be destroyed along with the symbol of Tōkyō?
 Dialogue: 0,1:11:23.13,1:11:28.10,Dialogue,,0,0,0,,What do you mean, you can't cut the wires? There's only three left!
 Dialogue: 0,1:11:28.72,1:11:32.77,Dialogue,,0,0,0,,First the yellow cord from the LCD display.
 Dialogue: 0,1:11:32.77,1:11:35.65,Dialogue,,0,0,0,,Next, the white cord from the mercury tilt switch.
@@ -1012,19 +1008,19 @@ Dialogue: 0,1:11:41.99,1:11:44.36,Dialogue,,0,0,0,,After that, the bomb will be 
 Dialogue: 0,1:11:45.57,1:11:48.74,Dialogue,,0,0,0,,You've come this far, why can't you follow these simple instructions?
 Dialogue: 0,1:11:48.74,1:11:49.62,Dialogue,,0,0,0,,Let me have that.
 Dialogue: 0,1:11:49.95,1:11:53.91,Dialogue,,0,0,0,,Takagi{\rHonorifics - Dialogue}-kun{\r}! What are you doing?\NHurry up and cut them!
-Dialogue: 0,1:11:54.25,1:11:56.96,Phone,,0,0,0,,{\blur3}It's no good. We can't.
+Dialogue: 0,1:11:54.25,1:11:56.96,Radio,,0,0,0,,{\be10}It's no good. We can't.
 Dialogue: 0,1:11:56.96,1:12:00.17,Dialogue,,0,0,0,,What are you saying?\NYou've only got ten minutes!
-Dialogue: 0,1:12:00.17,1:12:02.59,Dialogue,,0,0,0,,‘Brave police officer...'
-Dialogue: 0,1:12:04.30,1:12:07.80,Phone,,0,0,0,,{\blur3}‘I commend you for your courage and present you with a reward.'
-Dialogue: 0,1:12:08.47,1:12:11.56,Phone,,0,0,0,,{\blur3}‘The clue to the whereabouts of the large firework that will end this game'
-Dialogue: 0,1:12:12.64,1:12:16.31,Dialogue,,0,0,0,,‘will be displayed three seconds before the explosion.'
-Dialogue: 0,1:12:16.31,1:12:18.10,Dialogue,,0,0,0,,‘Good luck.'
+Dialogue: 0,1:12:00.17,1:12:02.59,Dialogue,,0,0,0,,'Brave police officer...'
+Dialogue: 0,1:12:04.30,1:12:07.80,Radio,,0,0,0,,{\be10}'I commend you for your courage and present you with a reward.'
+Dialogue: 0,1:12:08.47,1:12:11.56,Radio,,0,0,0,,{\be10}'The clue to the whereabouts of the large firework that will end this game'
+Dialogue: 0,1:12:12.64,1:12:16.31,Dialogue,,0,0,0,,'will be displayed three seconds before the explosion.'
+Dialogue: 0,1:12:16.31,1:12:18.10,Dialogue,,0,0,0,,'Good luck.'
 Dialogue: 0,1:12:18.65,1:12:24.15,Dialogue,,0,0,0,,Conan{\rHonorifics - Dialogue}-kun{\r} said those words just came up on the LCD panel.
 Dialogue: 0,1:12:25.07,1:12:28.16,Dialogue,,0,0,0,,I wish I could at least get Conan{\rHonorifics - Dialogue}-kun{\r} out of here.
 Dialogue: 0,1:12:28.16,1:12:30.78,Dialogue,,0,0,0,,But to prevent the greater tragedy...
 Dialogue: 0,1:12:30.78,1:12:34.70,Dialogue,,0,0,0,,Conan{\rHonorifics - Dialogue}-kun{\r} will look at the hint and I will tell you\Nthe location of the other bomb by mobile phone.
-Dialogue: 0,1:12:34.70,1:12:38.29,Phone,,0,0,0,,{\blur3}Conan{\rHonorifics - Phone}-kun{\r} will look at the hint and I will tell you\Nthe location of the other bomb by mobile phone.
-Dialogue: 0,1:12:38.92,1:12:40.75,Phone,,0,0,0,,{\blur3}There's no other way.
+Dialogue: 0,1:12:34.70,1:12:38.29,Radio,,0,0,0,,{\be10}Conan{\rHonorifics - Radio\be10}-kun{\r\be10} will look at the hint and I will tell you\Nthe location of the other bomb by mobile phone.
+Dialogue: 0,1:12:38.92,1:12:40.75,Radio,,0,0,0,,{\be10}There's no other way.
 Dialogue: 0,1:12:43.92,1:12:45.17,Dialogue,,0,0,0,,Sorry about this.
 Dialogue: 0,1:12:46.67,1:12:48.22,Dialogue,,0,0,0,,Takagi{\rHonorifics - Dialogue}-kun{\r}...
 Dialogue: 0,1:12:48.22,1:12:52.51,Dialogue,,0,0,0,,But... l know that you'll understand.
@@ -1072,11 +1068,11 @@ Dialogue: 0,1:16:03.25,1:16:07.63,Dialogue,,0,0,0,,W-Who are you, really?
 Dialogue: 0,1:16:09.09,1:16:11.96,Dialogue,,0,0,0,,If you really want to know...
 Dialogue: 0,1:16:13.80,1:16:15.72,Dialogue,,0,0,0,,Then I'll tell you.
 Dialogue: 0,1:16:22.52,1:16:24.14,Dialogue,,0,0,0,,In the afterlife.
-Dialogue: 0,1:16:24.14,1:16:30.02,Phone,,0,0,0,,{\blur3}Only one minute to go, and the victims are still trapped in the lift!
+Dialogue: 0,1:16:24.14,1:16:30.02,Radio,,0,0,0,,{\be10}Only one minute to go, and the victims are still trapped in the lift!
 Dialogue: 0,1:16:30.02,1:16:30.86,Dialogue,,0,0,0,,Hey!
 Dialogue: 0,1:16:31.23,1:16:36.11,Dialogue,,0,0,0,,What does that mean? Conan{\rHonorifics - Dialogue}-kun{\r} and\NDetective Takagi are still in there!
 Dialogue: 0,1:16:36.11,1:16:37.28,Dialogue,,0,0,0,,Ah, no...
-Dialogue: 0,1:16:37.78,1:16:41.20,Phone,,0,0,0,,{\blur3}The riot police have been ordered to evacuate the area!
+Dialogue: 0,1:16:37.78,1:16:41.20,Radio,,0,0,0,,{\be10}The riot police have been ordered to evacuate the area!
 Dialogue: 0,1:16:41.83,1:16:44.87,Dialogue,,0,0,0,,Take this car back to Tohto Tower!
 Dialogue: 0,1:16:44.87,1:16:46.71,Dialogue,,0,0,0,,I can't do that, it's dangerous!
 Dialogue: 0,1:16:46.71,1:16:50.54,Dialogue,,0,0,0,,Take us back! Hey, Chiba, take us back!
@@ -1106,21 +1102,21 @@ Dialogue: 0,1:18:29.14,1:18:31.06,Dialogue,,0,0,0,,The vibration will make the b
 Dialogue: 0,1:18:31.69,1:18:32.98,Dialogue,,0,0,0,,Huh?
 Dialogue: 0,1:18:32.98,1:18:37.36,Dialogue,,0,0,0,,I was too scared to die, so I cut the final wires and disabled the bomb.
 Dialogue: 0,1:18:39.28,1:18:40.11,Dialogue,,0,0,0,,Sorry.
-Dialogue: 0,1:18:47.24,1:18:49.20,Phone,,0,0,0,,{\blur3}But the clue—
-Dialogue: 0,1:18:49.20,1:18:54.21,Phone,,0,0,0,,{\blur3}All we got is ‘EVIT'. Don't think {\i1}that{\i0}'s enough to lead us to the next bomb.
-Dialogue: 0,1:18:55.75,1:19:00.76,Phone,,0,0,0,,{\blur3}Well, nothing we can do about that now. Let's call the rescue team and get out of here.
+Dialogue: 0,1:18:47.24,1:18:49.20,Radio,,0,0,0,,{\be10}But the clue—
+Dialogue: 0,1:18:49.20,1:18:54.21,Radio,,0,0,0,,{\be10}All we got is 'EVIT'. Don't think {\i1}that{\i0}'s enough to lead us to the next bomb.
+Dialogue: 0,1:18:55.75,1:19:00.76,Radio,,0,0,0,,{\be10}Well, nothing we can do about that now. Let's call the rescue team and get out of here.
 Dialogue: 0,1:19:02.18,1:19:05.14,Thoughts,,0,0,0,,{\be10}I knew they'd get scared.
 Dialogue: 0,1:19:05.18,1:19:11.18,Thoughts,,0,0,0,,{\be10}The public will think the cops made the kid stop the bomb.
 Dialogue: 0,1:19:12.48,1:19:18.11,Thoughts,,0,0,0,,{\be10}They'll believe the police sacrificed hundreds of lives to save their own hides!
-Dialogue: 0,1:19:22.82,1:19:27.95,Phone,,0,0,0,,{\blur3}Listen to these cheers! The bomb has been safely defused!
-Dialogue: 0,1:19:27.95,1:19:34.33,Phone,,0,0,0,,{\blur3}And amazingly, the work was done by the young boy trapped in the lift!
-Dialogue: 0,1:19:34.33,1:19:36.21,Phone,,0,0,0,,{\blur3}Let's get a comment from the boy.
-Dialogue: 0,1:19:37.09,1:19:38.46,Phone,,0,0,0,,{\blur3}Weren't you scared, little boy?
+Dialogue: 0,1:19:22.82,1:19:27.95,Radio,,0,0,0,,{\be10}Listen to these cheers! The bomb has been safely defused!
+Dialogue: 0,1:19:27.95,1:19:34.33,Radio,,0,0,0,,{\be10}And amazingly, the work was done by the young boy trapped in the lift!
+Dialogue: 0,1:19:34.33,1:19:36.21,Radio,,0,0,0,,{\be10}Let's get a comment from the boy.
+Dialogue: 0,1:19:37.09,1:19:38.46,Radio,,0,0,0,,{\be10}Weren't you scared, little boy?
 Dialogue: 0,1:19:40.21,1:19:42.05,Signs,,0,0,0,,Live From\NTohto Tower
 Dialogue: 0,1:19:40.21,1:19:42.05,Signs,,0,0,0,,The Hero!\NA Primary Schooler
-Dialogue: 0,1:19:40.71,1:19:41.55,Phone,,0,0,0,,{\blur3}You bet!
+Dialogue: 0,1:19:40.71,1:19:41.55,Radio,,0,0,0,,{\be10}You bet!
 Dialogue: 0,1:19:42.84,1:19:44.55,Dialogue,,0,0,0,,S-Shin'ichi?!
-Dialogue: 0,1:19:45.13,1:19:51.39,Phone,,0,0,0,,{\blur3}But the policemen told me which wires to cut, so it was easy!
+Dialogue: 0,1:19:45.13,1:19:51.39,Radio,,0,0,0,,{\be10}But the policemen told me which wires to cut, so it was easy!
 Dialogue: 0,1:19:47.51,1:19:52.23,Signs,,0,0,0,,Live From\NTohto Tower
 Dialogue: 0,1:19:47.51,1:19:52.23,Signs,,0,0,0,,The Hero!\NA Primary Schooler
 Dialogue: 0,1:19:52.64,1:19:53.56,Dialogue,,0,0,0,,Takagi{\rHonorifics - Dialogue}-kun{\r}.
@@ -1137,15 +1133,15 @@ Dialogue: 0,1:20:32.72,1:20:34.56,Dialogue,,0,0,0,,Yeah, you're right.
 Dialogue: 0,1:20:36.44,1:20:39.86,Dialogue,,0,0,0,,I bet the bomber thought the same thing.
 Dialogue: 0,1:20:46.36,1:20:49.16,Dialogue,,0,0,0,,Whew! Only one test left!
 Dialogue: 0,1:20:50.83,1:20:53.70,Dialogue,,0,0,0,,What's wrong, Ran? You look depressed.
-Dialogue: 0,1:20:54.29,1:20:56.71,Dialogue,,0,0,0,,The next test's ‘comprehension'. You're good at that.
+Dialogue: 0,1:20:54.29,1:20:56.71,Dialogue,,0,0,0,,The next test's 'comprehension'. You're good at that.
 Dialogue: 0,1:20:56.71,1:21:02.84,Dialogue,,0,0,0,,Yeah, I was just watching those weird trucks that keep coming and going.
 Dialogue: 0,1:21:03.34,1:21:07.26,Dialogue,,0,0,0,,They're probably bringing in\Nping-pong tables to the gymnasium.{UTB: It's probably because they loading the ping-pong table / into the warehouse of the gym in the basement!Viz: They're probably moving all the ping-pong tables from the basement storage room to the gym.}
 Dialogue: 0,1:21:07.26,1:21:11.51,Dialogue,,0,0,0,,The big city ping-pong tournament's gonna be held at our school.
-Dialogue: 0,1:21:12.64,1:21:18.23,Phone,,0,0,0,,{\blur3}I hope they move out all those oil drums while they're at it. I hate those things!
-Dialogue: 0,1:21:18.23,1:21:19.48,Phone,,0,0,0,,{\blur3}What do you mean?
-Dialogue: 0,1:21:20.02,1:21:21.27,Phone,,0,0,0,,{\blur3}You didn't know?
-Dialogue: 0,1:21:21.27,1:21:23.15,Phone,,0,0,0,,{\blur3}There's five of them sitting there.
-Dialogue: 0,1:21:23.15,1:21:27.15,Phone,,0,0,0,,{\blur3}They're such a pain when we get out the tennis nets.
+Dialogue: 0,1:21:12.64,1:21:18.23,Radio,,0,0,0,,{\be10}I hope they move out all those oil drums while they're at it. I hate those things!
+Dialogue: 0,1:21:18.23,1:21:19.48,Radio,,0,0,0,,{\be10}What do you mean?
+Dialogue: 0,1:21:20.02,1:21:21.27,Radio,,0,0,0,,{\be10}You didn't know?
+Dialogue: 0,1:21:21.27,1:21:23.15,Radio,,0,0,0,,{\be10}There's five of them sitting there.
+Dialogue: 0,1:21:23.15,1:21:27.15,Radio,,0,0,0,,{\be10}They're such a pain when we get out the tennis nets.
 Dialogue: 0,1:21:30.03,1:21:32.33,Thoughts,,0,0,0,,{\be10}They won't find them.
 Dialogue: 0,1:21:32.33,1:21:36.16,Thoughts,,0,0,0,,{\be10}Even if they do, it's too late now.
 Dialogue: 0,1:21:38.67,1:21:41.25,Thoughts,,0,0,0,,{\be10}Only five seconds left.
@@ -1160,20 +1156,20 @@ Dialogue: 0,1:21:56.77,1:22:00.27,Thoughts,,0,0,0,,{\be10}Well, never mind. I'll
 Dialogue: 0,1:22:05.57,1:22:09.99,Dialogue,,0,0,0,,Sorry, but that number is no longer in service.
 Dialogue: 0,1:22:10.49,1:22:18.50,Dialogue,,0,0,0,,The bomb squad entered the school quietly so you wouldn't hear them through your wiretap
 Dialogue: 0,1:22:19.12,1:22:24.50,Dialogue,,0,0,0,,and dismantled all five of the bombs hidden in those oil drums.{DCTP: metal drums / Viz: oil drums / UTB: drum cans}
-Dialogue: 0,1:22:25.04,1:22:29.55,Dialogue,,0,0,0,,Hmm? Your face is asking me ‘But how\Ndid you know where they were?'{UTB: Oh, you look as if you're wondering how we located the bombs?Please reword the next line if you'll use UTB's here}
+Dialogue: 0,1:22:25.04,1:22:29.55,Dialogue,,0,0,0,,Hmm? Your face is asking me 'But how\Ndid you know where they were?'{UTB: Oh, you look as if you're wondering how we located the bombs?Please reword the next line if you'll use UTB's here}
 Dialogue: 0,1:22:30.93,1:22:36.97,Dialogue,,0,0,0,,From various sentences in the code and in the hint given by the bomb in Tohto Tower, it goes like this:
-Dialogue: 0,1:22:37.85,1:22:43.27,Dialogue,,0,0,0,,‘I'm a fast-pitching, strong-slugging major leaguer.\NBatter up—let's start the extra innings.'
-Dialogue: 0,1:22:43.98,1:22:47.19,Dialogue,,0,0,0,,‘Don't bother trying to get a good stopper ready,'
-Dialogue: 0,1:22:47.19,1:22:49.28,Dialogue,,0,0,0,,‘'cause at the end I'm going\Nto turn the game around.'
-Dialogue: 0,1:22:49.82,1:22:54.57,Dialogue,,0,0,0,,‘Major Leaguer' means the\Nkeywords are in English.{Viz: You used ‘major leaguer' to make us think in English.}
+Dialogue: 0,1:22:37.85,1:22:43.27,Dialogue,,0,0,0,,'I'm a fast-pitching, strong-slugging major leaguer.\NBatter up—let's start the extra innings.'
+Dialogue: 0,1:22:43.98,1:22:47.19,Dialogue,,0,0,0,,'Don't bother trying to get a good stopper ready,'
+Dialogue: 0,1:22:47.19,1:22:49.28,Dialogue,,0,0,0,,''cause at the end I'm going\Nto turn the game around.'
+Dialogue: 0,1:22:49.82,1:22:54.57,Dialogue,,0,0,0,,'Major Leaguer' means the\Nkeywords are in English.{Viz: You used 'major leaguer' to make us think in English.}
 Dialogue: 0,1:22:54.57,1:22:58.83,Dialogue,,0,0,0,,A good stopper refers to a player with a good earned-runs average.
 Dialogue: 0,1:22:58.83,1:23:02.54,Default Sign,,0,0,0,,{\an8}Extra Innings [enchōsen]
-Dialogue: 0,1:22:59.41,1:23:02.42,Dialogue,,0,0,0,,So the first keyword is ‘Extra Innings'.
-Dialogue: 0,1:23:03.75,1:23:06.54,Dialogue,,0,0,0,,And earned-runs average can be just called ‘ERA'.
-Dialogue: 0,1:23:07.25,1:23:14.80,Dialogue,,0,0,0,,Take away the ‘useless stopper' letters\N‘ERA' from ‘Extra', and it becomes ‘XT'.
-Dialogue: 0,1:23:24.48,1:23:31.36,Dialogue,,0,0,0,,And finally, there's the letters ‘EVIT' that showed up on the first bomb's LCD screen.
-Dialogue: 0,1:23:31.36,1:23:37.53,Dialogue,,0,0,0,,It was going to be the English word ‘detective' written backwards, right?
-Dialogue: 0,1:23:38.74,1:23:42.16,Dialogue,,0,0,0,,‘Detective' is{\rHonorifics - Dialogue} tan{\r}tei{\i0} in Japanese. If you write the kanji backwards, you get {\i1}teitan{\i0}.
+Dialogue: 0,1:22:59.41,1:23:02.42,Dialogue,,0,0,0,,So the first keyword is 'Extra Innings'.
+Dialogue: 0,1:23:03.75,1:23:06.54,Dialogue,,0,0,0,,And earned-runs average can be just called 'ERA'.
+Dialogue: 0,1:23:07.25,1:23:14.80,Dialogue,,0,0,0,,Take away the 'useless stopper' letters\N'ERA' from 'Extra', and it becomes 'XT'.
+Dialogue: 0,1:23:24.48,1:23:31.36,Dialogue,,0,0,0,,And finally, there's the letters 'EVIT' that showed up on the first bomb's LCD screen.
+Dialogue: 0,1:23:31.36,1:23:37.53,Dialogue,,0,0,0,,It was going to be the English word 'detective' written backwards, right?
+Dialogue: 0,1:23:38.74,1:23:42.16,Dialogue,,0,0,0,,'Detective' is {\i1}tantei{\i0} in Japanese. If you write the kanji backwards, you get {\i1}teitan{\i0}.
 Dialogue: 0,1:23:43.54,1:23:48.13,Dialogue,,0,0,0,,Teitan has a primary school, middle school, high school and university,
 Dialogue: 0,1:23:48.13,1:23:51.42,Dialogue,,0,0,0,,but the only one that would have a lot of students during winter vacation would be...
 Dialogue: 0,1:23:52.01,1:23:56.80,Dialogue,,0,0,0,,...Teitan High, because of their mock exams.
@@ -1229,7 +1225,7 @@ Dialogue: 0,1:30:28.82,1:30:32.12,Dialogue,,0,0,0,,But, you know, I'm surprised\
 Dialogue: 0,1:30:33.03,1:30:36.08,Dialogue,,0,0,0,,You had less than three seconds left, didn't you?
 Dialogue: 0,1:30:36.41,1:30:41.71,Dialogue,,0,0,0,,I had the wire cutter in hand in case I figured out the clue midway.
 Dialogue: 0,1:30:42.83,1:30:45.63,Dialogue,,0,0,0,,I couldn't just let Detective Takagi die.
-Dialogue: 0,1:30:46.21,1:30:53.22,Dialogue,,0,0,0,,But I'm surprised you were able to figure out ‘EVIT' was ‘detective' spelt backwards.
+Dialogue: 0,1:30:46.21,1:30:53.22,Dialogue,,0,0,0,,But I'm surprised you were able to figure out 'EVIT' was 'detective' spelt backwards.
 Dialogue: 0,1:30:53.22,1:30:54.30,Dialogue,,0,0,0,,Same here!
 Dialogue: 0,1:30:55.14,1:30:58.06,Thoughts,,0,0,0,,{\be10}Are you kidding? That was\Nthe first thing I thought!
 Dialogue: 0,1:30:59.14,1:31:06.32,Thoughts,,0,0,0,,{\be10}Because in my heart I kept\Nhoping that it wouldn't be {\i1}there{\i0}.

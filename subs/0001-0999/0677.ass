@@ -33,13 +33,7 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: OPTL_old,Nyala,42,&H00FFFFFF,&H000000FF,&H96000000,&H1E3E3330,-1,0,0,0,100,100,0,0,1,0.975,1.6875,2,8,8,35,1
-Style: ConanEdogawaKun,Segoe Print,45,&H00B78800,&H000000FF,&H00B78800,&HC0000000,0,0,0,0,100,100,0,20,1,0,0,2,10,10,25,1
-Style: KudoSempai,Segoe Print,45,&H009796B7,&H000000FF,&H484B4B4B,&HC0000000,0,0,0,0,100,100,0,0,1,0,0,7,10,10,25,1
-Style: ConanLocker,ZapfChan MdIt BT,35,&H007E797A,&H000000FF,&H00D7D0D1,&HC0000000,-1,0,0,0,100,100,0,0,3,0,0,7,10,10,25,1
-Style: Blanka30,Arial,20,&HFFFFFFFF,&H000000FF,&H1E000000,&H00000000,0,0,0,0,100,100,0,0,3,1,0,7,10,10,10,1
-Style: PlaceCard,Corbel,35,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,2,2,100,100,30,1
-Style: topbox,Arial,20,&HFFFFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,3,1,0,8,10,10,10,1
+Style: KudoSempai,Segoe Print,45,&H009796B7,&H000000FF,&H484B4B4B,&HC0000000,0,0,0,0,100,100,0,0,1,0,0,7,10,10,25,1Style: Blanka30,Arial,20,&HFFFFFFFF,&H000000FF,&H1E000000,&H00000000,0,0,0,0,100,100,0,0,3,1,0,7,10,10,10,1Style: topbox,Arial,20,&HFFFFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,3,1,0,8,10,10,10,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -61,7 +55,7 @@ Dialogue: 0,0:01:05.34,0:01:10.39,Dialogue,,0,0,0,,But if a big wave comes and t
 Dialogue: 0,0:01:10.39,0:01:13.09,Dialogue,,0,0,0,,Though that's what's fun about surfing.
 Dialogue: 0,0:01:13.54,0:01:16.59,Dialogue,,0,0,0,,Well then, let's go ride the waves!
 Dialogue: 0,0:01:51.79,0:01:56.01,Thoughts,,10,10,0,,{\be10}Vivid summer memories surpass their season to solve mysteries!
-Dialogue: 0,0:01:56.01,0:02:00.26,Thoughts,,0,0,0,,{\be10}A single figure laying on a{\rHonorifics - Thoughts\be10} san{\r\be10}dy beach with no footprints in sight!
+Dialogue: 0,0:01:56.01,0:02:00.26,Thoughts,,0,0,0,,{\be10}A single figure laying on a sandy beach with no footprints in sight!
 Dialogue: 0,0:02:00.26,0:02:01.92,Thoughts,,0,0,0,,{\be10}He sees the single truth for what it is,
 Dialogue: 0,0:02:01.92,0:02:04.00,Thoughts,,0,0,0,,{\be10}and looks like a kid but has the mind of an adult!
 Dialogue: 0,0:02:04.00,0:02:06.18,Thoughts,,0,0,0,,{\be10\fad(0,200)}His name? Detective Conan!
@@ -128,7 +122,7 @@ Dialogue: 0,0:07:48.02,0:07:51.50,Dialogue,,0,0,0,,Really... Doesn't he have a c
 Dialogue: 0,0:07:52.34,0:07:56.30,Dialogue,,0,0,0,,He's turned into an old geezer who lives for plastic models!
 Dialogue: 0,0:07:56.30,0:07:58.15,Dialogue,,0,0,0,,He's no fun at all!
 Dialogue: 0,0:07:58.15,0:07:59.87,Dialogue,,0,0,0,,I can hear it.
-Dialogue: 0,0:07:59.87,0:08:02.45,Dialogue,,0,0,0,,The sea's calling ‘come and get me'!
+Dialogue: 0,0:07:59.87,0:08:02.45,Dialogue,,0,0,0,,The sea's calling 'come and get me'!
 Dialogue: 0,0:08:02.45,0:08:06.73,Dialogue,,0,0,0,,In here, the restless blood of a surfing maiden is burning!
 Dialogue: 0,0:08:06.73,0:08:07.82,Dialogue,,0,0,0,,You know?!
 Dialogue: 0,0:08:07.82,0:08:08.99,Dialogue,,0,0,0,,Not really...
@@ -157,14 +151,14 @@ Dialogue: 0,0:09:36.15,0:09:38.33,Dialogue,,0,0,0,,Like a shark chasing its prey
 Dialogue: 0,0:09:39.15,0:09:42.50,Dialogue,,0,0,0,,Mister, something's shining in your breast pocket.
 Dialogue: 0,0:09:42.50,0:09:43.85,Dialogue,,0,0,0,,Isn't it the new message light on a mobile?
 Dialogue: 0,0:09:48.14,0:09:49.08,Dialogue,,0,0,0,,It's from Nagisa.
-Dialogue: 0,0:09:50.28,0:09:54.54,Dialogue,,0,0,0,,‘Sorry for not saying anything.\NAt karaoke. Might stay all night.'
+Dialogue: 0,0:09:50.28,0:09:54.54,Dialogue,,0,0,0,,'Sorry for not saying anything.\NAt karaoke. Might stay all night.'
 Dialogue: 0,0:09:55.22,0:09:56.53,Dialogue,,0,0,0,,Ah, I'm relieved.
 Dialogue: 0,0:09:56.53,0:09:59.54,Dialogue,,0,0,0,,Good thing she didn't go to the sea, huh?
 Dialogue: 0,0:09:59.54,0:10:03.09,Dialogue,,0,0,0,,Even if she's a shark, she can't\Ndo any surfing at a karaoke bar.
 Dialogue: 0,0:10:03.09,0:10:06.23,Dialogue,,0,0,0,,Right. But leaving without saying a word...
 Dialogue: 0,0:10:06.23,0:10:09.53,Dialogue,,0,0,0,,I don't get what she's thinking at all.
 Dialogue: 0,0:10:10.29,0:10:12.96,Dialogue,,0,0,0,,The troubles of keeping a younger wife?
-Dialogue: 0,0:10:13.57,0:10:18.68,Dialogue,,0,0,0,,‘This shouldn't have happened' has become a catchphrase between us lately.
+Dialogue: 0,0:10:13.57,0:10:18.68,Dialogue,,0,0,0,,'This shouldn't have happened' has become a catchphrase between us lately.
 Dialogue: 0,0:10:35.54,0:10:40.55,Dialogue,,0,0,0,,The high-pressure front went away at dawn, and the tide's all the way out at sea.
 Dialogue: 0,0:10:40.55,0:10:42.69,Dialogue,,0,0,0,,Isn't the beach nice and clean, Conan{\rHonorifics - Dialogue}-kun{\r}?
 Dialogue: 0,0:10:42.69,0:10:44.72,Dialogue,,0,0,0,,Yeah, you're right...
@@ -305,7 +299,7 @@ Dialogue: 0,0:20:14.41,0:20:17.22,Dialogue,,0,0,0,,and letting go when the react
 Dialogue: 0,0:20:18.00,0:20:18.92,Dialogue,,0,0,0,,Sorry.
 Dialogue: 0,0:20:18.92,0:20:26.91,Dialogue,,10,10,0,,Anyway, the deceased flew through the sky and landed in the sea, leaving no footprints on the beach. How's that, Mouri{\rHonorifics - Dialogue}-san{\r}?
 Dialogue: 0,0:20:26.91,0:20:28.41,Dialogue,,0,0,0,,Wrong!
-Dialogue: 0,0:20:30.12,0:20:35.51,Dialogue,,0,0,0,,Imaoka{\rHonorifics - Dialogue}-san{\r}, after murdering Nagisa{\rHonorifics - Dialogue}-san{\r},\Nyou buried her in the{\rHonorifics - Dialogue} san{\r}d to hide her.
+Dialogue: 0,0:20:30.12,0:20:35.51,Dialogue,,0,0,0,,Imaoka{\rHonorifics - Dialogue}-san{\r}, after murdering Nagisa{\rHonorifics - Dialogue}-san{\r},\Nyou buried her in the sand to hide her.
 Dialogue: 0,0:20:36.74,0:20:38.64,Dialogue,,0,0,0,,The karaoke e-mail was also your doing.
 Dialogue: 0,0:20:39.91,0:20:44.65,Dialogue,,0,0,0,,Then, this morning, you dug up Nagisa{\rHonorifics - Dialogue}-san{\r} and carried her on your back.
 Dialogue: 0,0:20:44.65,0:20:48.52,Dialogue,,0,0,0,,B-But that'd be the weight of two people.
@@ -338,7 +332,7 @@ Dialogue: 0,0:23:59.87,0:24:02.94,Dialogue,,0,0,0,,Did we travel through time?
 Dialogue: 0,0:24:02.94,0:24:05.96,Dialogue,,0,0,0,,Serial murders shake Nagasaki of the Bakumatsu.
 Dialogue: 0,0:24:05.96,0:24:07.42,Dialogue,,0,0,0,,What is the true identity of the girl who holds the key?
 Dialogue: 0,0:24:08.46,0:24:10.63,Dialogue,,0,0,0,,A masterful deduction by Sakamoto Ryōma{name is JP order}!
-Dialogue: 0,0:24:10.63,0:24:14.87,Dialogue,,0,0,0,,On the next Conan: ‘The Nagasaki Mystery Theatre (Bakumatsu Case)'.
+Dialogue: 0,0:24:10.63,0:24:14.87,Dialogue,,0,0,0,,On the next Conan: 'The Nagasaki Mystery Theatre (Bakumatsu Case)'.
 Dialogue: 0,0:24:14.87,0:24:19.89,Dialogue,,0,0,0,,Next Conan's Hint: Font.
 Dialogue: 0,0:24:19.89,0:24:22.30,Dialogue,,0,0,0,,You can't ride money on a winning horse, and can't ride the waves.
 Dialogue: 0,0:24:22.30,0:24:24.29,Thoughts,,0,0,0,,{\be10}bōto

@@ -33,19 +33,9 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: FlashbackThoughts,Calibri,50,&H4B370001,&H000000FF,&H00CCFFFF,&HC0000000,-1,0,0,0,100,100,0,0,1,2.6,2,2,100,100,30,1
-Style: OPTL_old,Nyala,42,&H00FFFFFF,&H000000FF,&H96000000,&H1E3E3330,-1,0,0,0,100,100,0,0,1,0.975,1.6875,2,8,8,35,1
-Style: ConanEdogawaKun,Segoe Print,45,&H00B78800,&H000000FF,&H00B78800,&HC0000000,0,0,0,0,100,100,0,20,1,0,0,2,10,10,25,1
-Style: KudoSempai,Segoe Print,45,&H009796B7,&H000000FF,&H484B4B4B,&HC0000000,0,0,0,0,100,100,0,0,1,0,0,7,10,10,25,1
-Style: ConanLocker,ZapfChan MdIt BT,35,&H007E797A,&H000000FF,&H00D7D0D1,&HC0000000,-1,0,0,0,100,100,0,0,3,0,0,7,10,10,25,1
-Style: Blanka30,Arial,20,&HFFFFFFFF,&H000000FF,&H1E000000,&H00000000,0,0,0,0,100,100,0,0,3,1,0,7,10,10,10,1
-Style: PlaceCard,Corbel,35,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,2,2,100,100,30,1
-Style: topbox,Arial,20,&HFFFFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,3,1,0,8,10,10,10,1
-Style: MKED,MV Boli M,50,&H00D6EEF3,&H000000FF,&H003C5B6F,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,8,10,30,25,1
-Style: OPTLTextless,FuntypeFattened,50,&H00FFFFFF,&H000000FF,&H80AF0068,&H80000000,-1,0,0,0,90,100,0,0,1,3,1,2,10,10,40,1
+Style: KudoSempai,Segoe Print,45,&H009796B7,&H000000FF,&H484B4B4B,&HC0000000,0,0,0,0,100,100,0,0,1,0,0,7,10,10,25,1Style: Blanka30,Arial,20,&HFFFFFFFF,&H000000FF,&H1E000000,&H00000000,0,0,0,0,100,100,0,0,3,1,0,7,10,10,10,1Style: topbox,Arial,20,&HFFFFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,3,1,0,8,10,10,10,1Style: OPTLTextless,FuntypeFattened,50,&H00FFFFFF,&H000000FF,&H80AF0068,&H80000000,-1,0,0,0,90,100,0,0,1,3,1,2,10,10,40,1
 Style: HitomiRomaji,Ubuntu,40,&HC0FF0000,&H000000FF,&H00FFFFFF,&H00000000,-1,0,0,0,105,100,0,0,1,3.4,1,8,10,10,30,1
 Style: SemiTransBox,Arial,20,&HFFFFFFFF,&H000000FF,&H64000000,&H00000000,0,0,0,0,100,100,0,0,3,1,0,8,10,10,10,1
-Style: Narr,Calibri,50,&H6E8C6F00,&H000000FF,&H00FFFFFF,&H80000000,-1,0,0,0,100,100,0,0,1,3.7,1.5,2,100,100,30,1
 Style: 696Workshop,Syntax LT,50,&H004A4842,&H000000FF,&H00370001,&HC0000000,-1,0,0,0,100,100,0,0,1,0,0,2,100,100,30,1
 
 [Events]
@@ -340,8 +330,8 @@ Dialogue: 0,0:19:41.15,0:19:44.45,Dialogue,,0000,0000,0000,,You called Yamazaki{
 Dialogue: 0,0:19:44.95,0:19:47.91,Dialogue,,0000,0000,0000,,took her upstairs, and drugged her to make her fall asleep,
 Dialogue: 0,0:19:47.91,0:19:54.21,Dialogue,,0000,0000,0000,,then you worked at the café's ground floor from 7:00 to 9:30, establishing your alibi.
 Dialogue: 0,0:19:54.21,0:19:59.76,Dialogue,,0000,0000,0000,,While you were working, you left the counter to go to the toilet for about 5 minutes at around 8:00.
-Dialogue: 0,0:19:59.76,0:20:04.26,Dialogue,,0000,0000,0000,,You tied Yamazaki{\rHonorifics - Dialogue}-san{\r}'s shoelace while she was sleeping,{mistimed, should end 1.5s earlier at scene{\rHonorifics - Dialogue} chan{\r}ge}
-Dialogue: 0,0:20:04.26,0:20:08.72,Dialogue,,0000,0000,0000,,and threw her out of the 3rd floor window and onto the bricks placed in the garden to kill her.{mistimed, should start 1.5s earlier at scene{\rHonorifics - Dialogue} chan{\r}ge}
+Dialogue: 0,0:19:59.76,0:20:04.26,Dialogue,,0000,0000,0000,,You tied Yamazaki{\rHonorifics - Dialogue}-san{\r}'s shoelace while she was sleeping,{mistimed, should end 1.5s earlier at scene change}
+Dialogue: 0,0:20:04.26,0:20:08.72,Dialogue,,0000,0000,0000,,and threw her out of the 3rd floor window and onto the bricks placed in the garden to kill her.{mistimed, should start 1.5s earlier at scene change}
 Dialogue: 0,0:20:08.72,0:20:13.52,Dialogue,,0000,0000,0000,,That's when the evening primrose petals got on her clothes.
 Dialogue: 0,0:20:13.52,0:20:22.49,Dialogue,,0000,0000,0000,,Afterwards, you put her corpse in your car boot, and after closing the café, you moved her to the town centre.
 Dialogue: 0,0:20:23.24,0:20:29.53,Dialogue,,0000,0000,0000,,This morning, you heard me and Ayumi{\rHonorifics - Dialogue}-chan{\r} talking, and knew we intended to patrol tonight.
@@ -383,8 +373,8 @@ Dialogue: 0,0:22:29.78,0:22:46.29,HitomiRomaji,,0000,0000,0000,,{\blur4}sunao ni
 Dialogue: 0,0:22:46.96,0:22:54.80,HitomiRomaji,,0000,0000,0000,,{\blur4\3c&HEFF9FD&}don'na mirai kimi to mirai
 Dialogue: 0,0:22:55.05,0:23:04.31,HitomiRomaji,,0000,0000,0000,,{\blur4\3c&HEFF9FD&}sono hitomi no shita e to tashikame ni yuku yo
 Dialogue: 0,0:23:04.69,0:23:12.24,HitomiRomaji,,0000,0000,0000,,{\blur4\3c&HEFF9FD&\fad(0,750)}yukkuri to orite yuku kara
-Dialogue: 0,0:23:45.12,0:23:47.32,Narr,,0000,0000,0000,,{\blur3}A shocking job from a classmate of Ran's!
-Dialogue: 0,0:23:47.32,0:23:50.86,Narr,,0000,0000,0000,,{\blur3}A trap was set for a female student at her school!
-Dialogue: 0,0:23:50.86,0:23:54.02,Narr,,0000,0000,0000,,{\blur3}Detective Conan: 'The Window at the Girls' School'!
-Dialogue: 0,0:23:54.02,0:23:57.07,Narr,,0000,0000,0000,,{\blur3\fad(0,200)}Broadcasts on Saturday, May 11th at 6 PM!
+Dialogue: 0,0:23:45.12,0:23:47.32,Narration Off,,0000,0000,0000,,{\be10}A shocking job from a classmate of Ran's!
+Dialogue: 0,0:23:47.32,0:23:50.86,Narration Off,,0000,0000,0000,,{\be10}A trap was set for a female student at her school!
+Dialogue: 0,0:23:50.86,0:23:54.02,Narration Off,,0000,0000,0000,,{\be10}Detective Conan: 'The Window at the Girls' School'!
+Dialogue: 0,0:23:54.02,0:23:57.07,Narration Off,,0000,0000,0000,,{\be10\fad(0,200)}Broadcasts on Saturday, May 11th at 6 PM!
 Dialogue: 0,0:06:39.70,0:06:41.66,Signs,,0000,0000,0000,,Workshop

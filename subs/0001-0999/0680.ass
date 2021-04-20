@@ -33,13 +33,6 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: PlaceCard,Segoe,35,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,100,100,30,1
-Style: OPTL_old,Nyala,42,&H00FFFFFF,&H000000FF,&H96000000,&H1E3E3330,-1,0,0,0,100,100,0,0,1,0.975,1.6875,2,8,8,35,1
-Style: ConanEdogawaKun,Segoe Print,45,&H00B78800,&H000000FF,&H00B78800,&HC0000000,0,0,0,0,100,100,0,20,1,0,0,2,10,10,25,1
-Style: KudoSempai,Segoe Print,45,&H009796B7,&H000000FF,&H484B4B4B,&HC0000000,0,0,0,0,100,100,0,0,1,0,0,7,10,10,25,1
-Style: ConanLocker,ZapfChan MdIt BT,35,&H007E797A,&H000000FF,&H00D7D0D1,&HC0000000,-1,0,0,0,100,100,0,0,3,0,0,7,10,10,25,1
-Style: Blanka30,Arial,20,&HFFFFFFFF,&H000000FF,&H1E000000,&H00000000,0,0,0,0,100,100,0,0,3,1,0,7,10,10,10,1
-Style: topbox,Arial,20,&HFFFFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,3,1,0,8,10,10,10,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -83,7 +76,7 @@ Dialogue: 0,0:03:48.50,0:03:49.58,Dialogue,,0,0,0,,What is it, you two?
 Dialogue: 0,0:03:49.83,0:03:53.96,Signs,,0,0,0,,Yasuyuki Sunada (36)\NPro Golfer
 Dialogue: 0,0:03:49.83,0:03:53.96,Signs,,0,0,0,,Naoki Sunada (33)\NImport Car Dealer
 Dialogue: 0,0:03:50.08,0:03:51.82,Dialogue Top,,0,0,0,,We heard from the lawyer.
-Dialogue: 0,0:03:51.82,0:03:53.96,Dialogue Top,,0,0,0,,You{\rHonorifics - Dialogue} chan{\r}ged your will?!
+Dialogue: 0,0:03:51.82,0:03:53.96,Dialogue Top,,0,0,0,,You changed your will?!
 Dialogue: 0,0:03:54.35,0:03:56.92,Dialogue,,0,0,0,,Be quiet! There are guests here.
 Dialogue: 0,0:03:56.92,0:03:59.51,Dialogue,,0,0,0,,Shut up! Just answer!
 Dialogue: 0,0:03:59.51,0:04:02.55,Dialogue,,0,0,0,,Don't argue with me! Get out!
@@ -134,8 +127,8 @@ Dialogue: 0,0:06:30.20,0:06:32.40,Dialogue,,0,0,0,,Yeah, I know!
 Dialogue: 0,0:06:32.40,0:06:34.58,Dialogue,,0,0,0,,I think this is the heat contro—
 Dialogue: 0,0:06:34.58,0:06:35.46,Dialogue,,0,0,0,,Hot!
 Dialogue: 0,0:06:36.85,0:06:38.45,Dialogue,,0,0,0,,Hey, Sonoko, are you okay?!
-Dialogue: 0,0:06:40.46,0:06:44.13,Dialogue,,0,0,0,,Then how can I get you to{\rHonorifics - Dialogue} chan{\r}ge your will back?!
-Dialogue: 0,0:06:44.13,0:06:48.50,Dialogue,,0,0,0,,Hmph! As long as you don't intend to inherit my work, I'll never{\rHonorifics - Dialogue} chan{\r}ge it!
+Dialogue: 0,0:06:40.46,0:06:44.13,Dialogue,,0,0,0,,Then how can I get you to change your will back?!
+Dialogue: 0,0:06:44.13,0:06:48.50,Dialogue,,0,0,0,,Hmph! As long as you don't intend to inherit my work, I'll never change it!
 Dialogue: 0,0:06:48.50,0:06:51.00,Dialogue,,0,0,0,,You're telling me to stop golfing?!
 Dialogue: 0,0:06:51.00,0:06:54.10,Dialogue,,0,0,0,,You're a third-rate golfer who'll always get beaten in the preliminaries anyway!
 Dialogue: 0,0:06:54.77,0:06:57.06,Dialogue,,0,0,0,,Now you've gone and said it, that's just what I'm gonna do!{mb misparsed, ask M_L言わせておけば いい気になりやがって！}
@@ -226,7 +219,7 @@ Dialogue: 0,0:11:08.75,0:11:16.12,Dialogue,,0,0,0,,So we ran over along with the
 Dialogue: 0,0:11:16.12,0:11:17.96,Dialogue,,0,0,0,,Yasuyuki{\rHonorifics - Dialogue}-san{\r}?
 Dialogue: 0,0:11:17.96,0:11:23.05,Dialogue,,0,0,0,,Yasuyuki{\rHonorifics - Dialogue}-san{\r} was holding Zenzō{\rHonorifics - Dialogue}-san{\r}'s will!
 Dialogue: 0,0:11:23.05,0:11:24.08,Dialogue,,0,0,0,,His will?
-Dialogue: 0,0:11:24.50,0:11:28.67,Dialogue,,0,0,0,,It seems that Mr. Zenzō{\rHonorifics - Dialogue} chan{\r}ged his will lately.
+Dialogue: 0,0:11:24.50,0:11:28.67,Dialogue,,0,0,0,,It seems that Mr. Zenzō changed his will lately.
 Dialogue: 0,0:11:30.40,0:11:36.62,Dialogue,,0,0,0,,Right after that, Yashiro{\rHonorifics - Dialogue}-san{\r} ran into the greenhouse with us following behind her,
 Dialogue: 0,0:11:36.62,0:11:38.14,Dialogue,,0,0,0,,and Zenzō{\rHonorifics - Dialogue}-san{\r} had been...
 Dialogue: 0,0:11:40.46,0:11:43.07,Dialogue,,0,0,0,,Hey, go hear the others' stories.

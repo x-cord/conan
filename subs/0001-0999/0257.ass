@@ -33,18 +33,8 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: Def_it,Myriad Pro Cond,33,&H00FFFFFF,&H000000FF,&H005E2D0A,&H00000000,-1,-1,0,0,100,100,0,0,1,2,0,2,10,10,8,204
-Style: ScreenText,Century Gothic,22,&H00FFFFFF,&H000000FF,&H2D8F4E51,&H00000000,-1,0,0,0,85,100,0,0,1,3,0,8,10,10,10,204
 Style: Def2,Myriad Pro Cond,33,&H00FFFFFF,&H000000FF,&H00CA732F,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,10,10,8,204
-Style: Def_up,Myriad Pro Cond,33,&H00FFFFFF,&H000000FF,&H005E2D0A,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,10,10,8,204
 Style: Def_tv,Myriad Pro Cond,33,&H00FFFFFF,&H000000FF,&H005E2D0A,&H00000000,-1,-1,0,0,100,100,0,0,1,2,0,8,10,10,8,204
-Style: Def_kar,Betina,38,&H00000000,&H000000FF,&H00FFFFFF,&H00000000,-1,-1,0,0,100,100,0,0,1,2,0,8,10,10,10,204
-Style: Def_past,Myriad Pro Cond,33,&H00A6D6FF,&H000000FF,&H000E266C,&H00000000,-1,-1,0,0,100,100,0,0,1,2,0,2,10,10,8,204
-Style: Def_gaijin,Myriad Pro Cond,33,&H00ECECEC,&H000000FF,&H002B7318,&H00000000,-1,-1,0,0,100,100,0,0,1,2,0,2,10,10,8,204
-Style: Text,Arial Narrow,18,&H00FFFFFF,&H000000FF,&H0058373A,&H00000000,-1,0,0,0,100,120,0,0,1,2,0,8,10,10,10,204
-Style: spec_text,Myriad Pro Cond,25,&H00FFFFFF,&H00182780,&H0094A8C7,&HBE000000,-1,-1,0,0,100,100,0.5,0,1,0,2,8,6,10,310,204
-Style: special,Myriad Pro Cond,30,&H00001973,&H000000FF,&H0099B5CE,&H00000000,0,-1,0,0,100,100,1,0,1,2,0,2,10,10,80,204
-
 [Events]
 Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
 Dialogue: 0,0:00:02.75,0:00:04.48,Dialogue,,0000,0000,0000,,Even fate can be used as a hint for reasoning.
@@ -86,7 +76,7 @@ Dialogue: 0,0:03:44.39,0:03:45.52,Dialogue,,0000,0000,0000,,What's "clang-clang"
 Dialogue: 0,0:03:45.68,0:03:47.23,Dialogue,,0000,0000,0000,,Come on, Conan{\rHonorifics - Dialogue}-kun{\r}.
 Dialogue: 0,0:03:47.23,0:03:49.52,Dialogue,,0000,0000,0000,,The bells at the temples are called that, aren't they?
 Dialogue: 0,0:03:49.52,0:03:52.06,Dialogue,,0000,0000,0000,,Don't you know that?
-Dialogue: 0,0:03:52.48,0:03:54.82,Def_it,,0000,0000,0000,,Yeah, I see.
+Dialogue: 0,0:03:52.48,0:03:54.82,Thoughts,,0000,0000,0000,,{\be10}Yeah, I see.
 Dialogue: 0,0:03:56.15,0:04:00.82,Dialogue,,0000,0000,0000,,This was certainly a divine punishment, humans aren't allowed to do evil deeds, that's all this was.
 Dialogue: 0,0:04:03.33,0:04:06.62,Dialogue,,0000,0000,0000,,But, what a dump robber that was, right?
 Dialogue: 0,0:04:06.62,0:04:09.33,Dialogue,,0000,0000,0000,,Really, what a clumsy fool!
@@ -122,10 +112,10 @@ Dialogue: 0,0:05:36.54,0:05:38.21,Dialogue,,0000,0000,0000,,Takeo{\rHonorifics -
 Dialogue: 0,0:05:38.67,0:05:40.51,Dialogue,,0000,0000,0000,,Stay strong, Takeo{\rHonorifics - Dialogue}-san{\r}!
 Dialogue: 0,0:05:42.05,0:05:43.13,Dialogue,,0000,0000,0000,,I see.
 Dialogue: 0,0:05:43.13,0:05:45.89,Dialogue,,0000,0000,0000,,So the two of you are getting married next month, right?
-Dialogue: 0,0:05:46.55,0:05:52.18,Def_up,,0000,0000,0000,,Yes, we were supposed to meet up at the matchmaker's place today.
+Dialogue: 0,0:05:46.55,0:05:52.18,Dialogue Top,,0000,0000,0000,,Yes, we were supposed to meet up at the matchmaker's place today.
 Dialogue: 0,0:05:46.54,0:05:53.99,Signs,,0000,0000,0000,,Togawa Yuki (25)
 Dialogue: 0,0:05:46.54,0:05:53.99,Signs,,0000,0000,0000,,Takenaka Takeo (33)
-Dialogue: 0,0:05:52.56,0:05:56.52,Def_up,,0000,0000,0000,,But he didn't make it to the appointment, and he wasn't answering his phone.
+Dialogue: 0,0:05:52.56,0:05:56.52,Dialogue Top,,0000,0000,0000,,But he didn't make it to the appointment, and he wasn't answering his phone.
 Dialogue: 0,0:05:56.73,0:06:00.48,Dialogue,,0000,0000,0000,,So you got worried and came here to see if he was all right?
 Dialogue: 0,0:06:00.48,0:06:01.19,Dialogue,,0000,0000,0000,,Yes.
 Dialogue: 0,0:06:01.19,0:06:03.49,Dialogue,,0000,0000,0000,,When I got here, he had already collapsed on the floor.
@@ -139,16 +129,16 @@ Dialogue: 0,0:06:19.46,0:06:20.30,Dialogue,,0000,0000,0000,,Yes.
 Dialogue: 0,0:06:20.34,0:06:22.80,Dialogue,,0000,0000,0000,,Last night I got home late after a meeting.
 Dialogue: 0,0:06:22.92,0:06:25.38,Dialogue,,0000,0000,0000,,I got in after the earthquake at around...
 Dialogue: 0,0:06:26.30,0:06:28.39,Dialogue,,0000,0000,0000,,2:30 AM.
-Dialogue: 0,0:06:33.35,0:06:35.27,Def_past,,0000,0000,0000,,What a mess!
-Dialogue: 0,0:06:35.27,0:06:37.10,Def_past,,0000,0000,0000,,Must be from the earthquake.
-Dialogue: 0,0:06:37.10,0:06:39.15,Def_past,,0000,0000,0000,,Good grief.
-Dialogue: 0,0:06:42.90,0:06:43.65,Def_past,,0000,0000,0000,,Who are you?
-Dialogue: 0,0:06:44.82,0:06:45.49,Def_past,,0000,0000,0000,,Hold on!
-Dialogue: 0,0:06:46.53,0:06:48.20,Def_past,,0000,0000,0000,,You're not getting away!
-Dialogue: 0,0:06:56.17,0:06:57.17,Def_past,,0000,0000,0000,,No way!
-Dialogue: 0,0:06:57.17,0:06:58.88,Def_past,,0000,0000,0000,,He died?
-Dialogue: 0,0:06:58.88,0:07:00.96,Def_past,,0000,0000,0000,,You must be kidding me!
-Dialogue: 0,0:07:02.88,0:07:04.17,Def_past,,0000,0000,0000,,Wait...
+Dialogue: 0,0:06:33.35,0:06:35.27,Flashback,,0000,0000,0000,,{\be10}What a mess!
+Dialogue: 0,0:06:35.27,0:06:37.10,Flashback,,0000,0000,0000,,{\be10}Must be from the earthquake.
+Dialogue: 0,0:06:37.10,0:06:39.15,Flashback,,0000,0000,0000,,{\be10}Good grief.
+Dialogue: 0,0:06:42.90,0:06:43.65,Flashback,,0000,0000,0000,,{\be10}Who are you?
+Dialogue: 0,0:06:44.82,0:06:45.49,Flashback,,0000,0000,0000,,{\be10}Hold on!
+Dialogue: 0,0:06:46.53,0:06:48.20,Flashback,,0000,0000,0000,,{\be10}You're not getting away!
+Dialogue: 0,0:06:56.17,0:06:57.17,Flashback,,0000,0000,0000,,{\be10}No way!
+Dialogue: 0,0:06:57.17,0:06:58.88,Flashback,,0000,0000,0000,,{\be10}He died?
+Dialogue: 0,0:06:58.88,0:07:00.96,Flashback,,0000,0000,0000,,{\be10}You must be kidding me!
+Dialogue: 0,0:07:02.88,0:07:04.17,Flashback,,0000,0000,0000,,{\be10}Wait...
 Dialogue: 0,0:07:07.26,0:07:13.27,Dialogue,,0000,0000,0000,,So the culprit ran off when he thought he had killed you?
 Dialogue: 0,0:07:13.27,0:07:17.31,Dialogue,,0000,0000,0000,,Probably, but actually I was only unconscious.
 Dialogue: 0,0:07:17.77,0:07:20.36,Dialogue,,0000,0000,0000,,The culprit's quite scatterbrain, isn't he?
@@ -158,8 +148,8 @@ Dialogue: 0,0:07:24.49,0:07:26.82,Dialogue,,0000,0000,0000,,Are there any other 
 Dialogue: 0,0:07:26.82,0:07:30.12,Dialogue,,0000,0000,0000,,The 200,000 yen I had in my pants was stolen.
 Dialogue: 0,0:07:30.62,0:07:32.12,Dialogue,,0000,0000,0000,,Was it only cash?
 Dialogue: 0,0:07:32.12,0:07:32.99,Dialogue,,0000,0000,0000,,Yes.
-Dialogue: 0,0:07:34.16,0:07:35.16,Def_it,,0000,0000,0000,,I'm at a loss.
-Dialogue: 0,0:07:35.62,0:07:38.21,Def_it,,0000,0000,0000,,It's hard to track cash!
+Dialogue: 0,0:07:34.16,0:07:35.16,Thoughts,,0000,0000,0000,,{\be10}I'm at a loss.
+Dialogue: 0,0:07:35.62,0:07:38.21,Thoughts,,0000,0000,0000,,{\be10}It's hard to track cash!
 Dialogue: 0,0:07:38.92,0:07:41.46,Dialogue,,0000,0000,0000,,Say, is it impossible to catch him?
 Dialogue: 0,0:07:42.92,0:07:45.59,Dialogue,,0000,0000,0000,,Rest assured, it'll be all right.
 Dialogue: 0,0:07:45.59,0:07:47.84,Dialogue,,0000,0000,0000,,It'll be fine once we get his fingerprints.
@@ -175,7 +165,7 @@ Dialogue: 0,0:08:17.25,0:08:20.04,Dialogue,,0000,0000,0000,,He's that clumsy rob
 Dialogue: 0,0:08:20.04,0:08:22.08,Dialogue,,0000,0000,0000,,He even looks the part.
 Dialogue: 0,0:08:22.13,0:08:24.59,Dialogue,,0000,0000,0000,,That's mean of you two to say such things!
 Dialogue: 0,0:08:24.96,0:08:29.93,Dialogue,,0000,0000,0000,,The criminal, Urasawa said that he lives near here at Block 4.
-Dialogue: 0,0:08:29.97,0:08:31.39,Def_it,,0000,0000,0000,,Block 4!
+Dialogue: 0,0:08:29.97,0:08:31.39,Thoughts,,0000,0000,0000,,{\be10}Block 4!
 Dialogue: 0,0:08:32.01,0:08:34.68,Dialogue,,0000,0000,0000,,He's a wimp, and doesn't learn from experience.
 Dialogue: 0,0:08:35.22,0:08:38.73,Dialogue,,0000,0000,0000,,We've already caught him two times for robbery.
 Dialogue: 0,0:08:38.73,0:08:41.15,Dialogue,,0000,0000,0000,,So, he's just a rotten criminal, huh?
@@ -208,14 +198,14 @@ Dialogue: 0,0:10:07.06,0:10:12.03,Dialogue,,0000,0000,0000,,He received divine p
 Dialogue: 0,0:10:12.03,0:10:13.36,Dialogue,,0000,0000,0000,,Divine punishment?
 Dialogue: 0,0:10:13.36,0:10:15.62,Dialogue,,0000,0000,0000,,The "clang-clangs".
 Dialogue: 0,0:10:15.62,0:10:18.95,Dialogue,,0000,0000,0000,,At other temples, they don't fall off just from an earthquake, right?
-Dialogue: 0,0:10:20.04,0:10:21.37,Def_it,,0000,0000,0000,,Don't tell me...
-Dialogue: 0,0:10:21.50,0:10:26.83,Def_it,,0000,0000,0000,,No, if we think along these lines, then it's clear why it has to be Teitan Temple.
-Dialogue: 0,0:10:27.46,0:10:29.80,Def_it,,0000,0000,0000,,And if that's the case, then...
+Dialogue: 0,0:10:20.04,0:10:21.37,Thoughts,,0000,0000,0000,,{\be10}Don't tell me...
+Dialogue: 0,0:10:21.50,0:10:26.83,Thoughts,,0000,0000,0000,,{\be10}No, if we think along these lines, then it's clear why it has to be Teitan Temple.
+Dialogue: 0,0:10:27.46,0:10:29.80,Thoughts,,0000,0000,0000,,{\be10}And if that's the case, then...
 Dialogue: 0,0:10:30.88,0:10:32.72,Dialogue,,0000,0000,0000,,Hey, Conan!
-Dialogue: 0,0:10:34.47,0:10:36.05,Def_it,,0000,0000,0000,,It should be here.
-Dialogue: 0,0:10:36.55,0:10:39.05,Def_it,,0000,0000,0000,,If my deductions are right...
-Dialogue: 0,0:10:39.57,0:10:41.81,Def_it,,0000,0000,0000,,Then on the way Teitan Temple, there must be...
-Dialogue: 0,0:10:41.98,0:10:43.10,Def_it,,0000,0000,0000,,I'm sure!
+Dialogue: 0,0:10:34.47,0:10:36.05,Thoughts,,0000,0000,0000,,{\be10}It should be here.
+Dialogue: 0,0:10:36.55,0:10:39.05,Thoughts,,0000,0000,0000,,{\be10}If my deductions are right...
+Dialogue: 0,0:10:39.57,0:10:41.81,Thoughts,,0000,0000,0000,,{\be10}Then on the way Teitan Temple, there must be...
+Dialogue: 0,0:10:41.98,0:10:43.10,Thoughts,,0000,0000,0000,,{\be10}I'm sure!
 Dialogue: 0,0:10:50.53,0:10:52.07,Dialogue,,0000,0000,0000,,What's the matter, Conan?
 Dialogue: 0,0:10:52.07,0:10:53.32,Dialogue,,0000,0000,0000,,Why did you take off so suddenly?
 Dialogue: 0,0:10:53.78,0:10:54.70,Dialogue,,0000,0000,0000,,Found it!
@@ -225,10 +215,10 @@ Dialogue: 0,0:11:01.58,0:11:05.67,Dialogue,,0000,0000,0000,,This probably belong
 Dialogue: 0,0:11:05.67,0:11:08.46,Dialogue,,0000,0000,0000,,You did it, Conan! Great job!
 Dialogue: 0,0:11:08.46,0:11:10.84,Dialogue,,0000,0000,0000,,Let's tell Detective Takagi-quickly.
 Dialogue: 0,0:11:10.84,0:11:12.38,Dialogue,,0000,0000,0000,,Let's do that.
-Dialogue: 0,0:11:15.80,0:11:18.43,Def_it,,0000,0000,0000,,But, the essential piece isn't here.
-Dialogue: 0,0:11:18.85,0:11:20.76,Def_it,,0000,0000,0000,,He couldn't have had it on him, either.
-Dialogue: 0,0:11:22.64,0:11:23.64,Def_it,,0000,0000,0000,,I see.
-Dialogue: 0,0:11:24.27,0:11:25.56,Def_it,,0000,0000,0000,,It's in there.
+Dialogue: 0,0:11:15.80,0:11:18.43,Thoughts,,0000,0000,0000,,{\be10}But, the essential piece isn't here.
+Dialogue: 0,0:11:18.85,0:11:20.76,Thoughts,,0000,0000,0000,,{\be10}He couldn't have had it on him, either.
+Dialogue: 0,0:11:22.64,0:11:23.64,Thoughts,,0000,0000,0000,,{\be10}I see.
+Dialogue: 0,0:11:24.27,0:11:25.56,Thoughts,,0000,0000,0000,,{\be10}It's in there.
 Dialogue: 0,0:11:27.02,0:11:30.48,Dialogue,,0000,0000,0000,,Hey, hey, Mr.Priest. Hurry up! Hurry.
 Dialogue: 0,0:11:30.48,0:11:35.40,Dialogue,,0000,0000,0000,,If it was mistaken as an offering, there's no doubt I'll be punished!
 Dialogue: 0,0:11:35.40,0:11:37.24,Dialogue,,0000,0000,0000,,I know, all right.
@@ -260,8 +250,8 @@ Dialogue: 0,0:12:57.28,0:13:02.16,Dialogue,,0000,0000,0000,,He was hit by the "c
 Dialogue: 0,0:13:02.16,0:13:03.07,Dialogue,,0000,0000,0000,,Yes.
 Dialogue: 0,0:13:03.24,0:13:08.08,Dialogue,,0000,0000,0000,,It's impossible for an unconscious man to commit a crime elsewhere.
 Dialogue: 0,0:13:09.04,0:13:11.54,Dialogue,,0000,0000,0000,,What exactly is going on here?
-Dialogue: 0,0:13:24.05,0:13:26.51,Def_it,,0000,0000,0000,,What should I do next?
-Dialogue: 0,0:13:26.51,0:13:29.73,Def_it,,0000,0000,0000,,And here I thought it was just a simple case of robbery.
+Dialogue: 0,0:13:24.05,0:13:26.51,Thoughts,,0000,0000,0000,,{\be10}What should I do next?
+Dialogue: 0,0:13:26.51,0:13:29.73,Thoughts,,0000,0000,0000,,{\be10}And here I thought it was just a simple case of robbery.
 Dialogue: 0,0:13:30.81,0:13:32.48,Dialogue,,0000,0000,0000,,Detective Takagi.
 Dialogue: 0,0:13:33.73,0:13:36.11,Dialogue,,0000,0000,0000,,Hey, Detective Takagi!
 Dialogue: 0,0:13:37.82,0:13:40.45,Dialogue,,0000,0000,0000,,How about asking Inspector Megure for help?
@@ -277,7 +267,7 @@ Dialogue: 0,0:14:02.13,0:14:03.47,Dialogue,,0000,0000,0000,,Inspector Megure!
 Dialogue: 0,0:14:05.26,0:14:08.51,Dialogue,,0000,0000,0000,,Uhm...Inspector Megure, actually...
 Dialogue: 0,0:14:08.51,0:14:10.10,Dialogue,,0000,0000,0000,,Don't sound so pitiful!
 Dialogue: 0,0:14:11.35,0:14:14.85,Dialogue,,0000,0000,0000,,Otani{\rHonorifics - Dialogue}-kun{\r} told me the situation on the phone.
-Dialogue: 0,0:14:14.85,0:14:19.11,Dialogue,,0000,0000,0000,,However Takagi, this is a{\rHonorifics - Dialogue} chan{\r}ce to prove yourself, isn't it?
+Dialogue: 0,0:14:14.85,0:14:19.11,Dialogue,,0000,0000,0000,,However Takagi, this is a chance to prove yourself, isn't it?
 Dialogue: 0,0:14:19.23,0:14:20.78,Dialogue,,0000,0000,0000,,So don't complain!
 Dialogue: 0,0:14:20.82,0:14:23.36,Dialogue,,0000,0000,0000,,But, Inspector Megure...
 Dialogue: 0,0:14:23.57,0:14:25.87,Dialogue,,0000,0000,0000,,You are an excellent officer.
@@ -320,12 +310,12 @@ Dialogue: 0,0:16:13.97,0:16:16.14,Dialogue,,0000,0000,0000,,There are so many ho
 Dialogue: 0,0:16:16.56,0:16:20.73,Dialogue,,0000,0000,0000,,It's probably because this house was unattended, right?
 Dialogue: 0,0:16:20.73,0:16:25.39,Dialogue,,0000,0000,0000,,But a night, you can't tell if it's unattended, or if the residents are just asleep, can you?
 Dialogue: 0,0:16:25.56,0:16:27.16,Dialogue,,0000,0000,0000,,That's...
-Dialogue: 0,0:16:27.93,0:16:30.00,Dialogue,,0000,0000,0000,,He most likely picked it by{\rHonorifics - Dialogue} chan{\r}ce...
+Dialogue: 0,0:16:27.93,0:16:30.00,Dialogue,,0000,0000,0000,,He most likely picked it by chance...
 Dialogue: 0,0:16:30.07,0:16:32.99,Dialogue,,0000,0000,0000,,That's right. His choice doesn't matter, does it?
 Dialogue: 0,0:16:33.58,0:16:36.58,Dialogue,,0000,0000,0000,,No, that's not true.
 Dialogue: 0,0:16:36.58,0:16:40.58,Dialogue,,0000,0000,0000,,There has to be a reason... There's certainly somthing.
-Dialogue: 0,0:16:41.75,0:16:42.71,Def_it,,0000,0000,0000,,Yes.
-Dialogue: 0,0:16:43.17,0:16:45.13,Def_it,,0000,0000,0000,,There is definitely a significant reason.
+Dialogue: 0,0:16:41.75,0:16:42.71,Thoughts,,0000,0000,0000,,{\be10}Yes.
+Dialogue: 0,0:16:43.17,0:16:45.13,Thoughts,,0000,0000,0000,,{\be10}There is definitely a significant reason.
 Dialogue: 0,0:16:45.34,0:16:47.26,Dialogue,,0000,0000,0000,,Why?
 Dialogue: 0,0:16:47.67,0:16:52.18,Dialogue,,0000,0000,0000,,How did Urasawa know that Takenaka{\rHonorifics - Dialogue}-san{\r}'s house was unattended?
 Dialogue: 0,0:16:52.18,0:16:54.68,Dialogue,,0000,0000,0000,,Do your best, Detective Takagi.
@@ -341,15 +331,15 @@ Dialogue: 0,0:17:17.08,0:17:20.79,Dialogue,,0000,0000,0000,,All of the residents
 Dialogue: 0,0:17:22.00,0:17:25.84,Dialogue,,0000,0000,0000,,But, only Takenaka{\rHonorifics - Dialogue}-san{\r}'s house remaind dark.
 Dialogue: 0,0:17:26.13,0:17:30.72,Dialogue,,0000,0000,0000,,That's how Urasawa knew that there wasn't anyone in there, and broke in.
 Dialogue: 0,0:17:32.14,0:17:37.97,Dialogue,,0000,0000,0000,,But while he was looking for precious things, Takenaka{\rHonorifics - Dialogue}-san{\r} returned home.
-Dialogue: 0,0:17:39.60,0:17:41.94,Def_past,,0000,0000,0000,,Man, what a mess!
-Dialogue: 0,0:17:41.94,0:17:43.69,Def_past,,0000,0000,0000,,Must be from the earthquake.
-Dialogue: 0,0:17:43.69,0:17:45.61,Def_past,,0000,0000,0000,,Good grief.
-Dialogue: 0,0:17:47.23,0:17:48.36,Def_past,,0000,0000,0000,,Who are you?
-Dialogue: 0,0:17:48.99,0:17:49.82,Def_past,,0000,0000,0000,,Hold on!
-Dialogue: 0,0:17:50.86,0:17:52.45,Def_past,,0000,0000,0000,,You are not getting away!
-Dialogue: 0,0:18:00.62,0:18:01.50,Def_past,,0000,0000,0000,,No way!
-Dialogue: 0,0:18:01.75,0:18:03.25,Def_past,,0000,0000,0000,,He died?
-Dialogue: 0,0:18:03.42,0:18:05.25,Def_past,,0000,0000,0000,,You must be kidding me!
+Dialogue: 0,0:17:39.60,0:17:41.94,Flashback,,0000,0000,0000,,{\be10}Man, what a mess!
+Dialogue: 0,0:17:41.94,0:17:43.69,Flashback,,0000,0000,0000,,{\be10}Must be from the earthquake.
+Dialogue: 0,0:17:43.69,0:17:45.61,Flashback,,0000,0000,0000,,{\be10}Good grief.
+Dialogue: 0,0:17:47.23,0:17:48.36,Flashback,,0000,0000,0000,,{\be10}Who are you?
+Dialogue: 0,0:17:48.99,0:17:49.82,Flashback,,0000,0000,0000,,{\be10}Hold on!
+Dialogue: 0,0:17:50.86,0:17:52.45,Flashback,,0000,0000,0000,,{\be10}You are not getting away!
+Dialogue: 0,0:18:00.62,0:18:01.50,Flashback,,0000,0000,0000,,{\be10}No way!
+Dialogue: 0,0:18:01.75,0:18:03.25,Flashback,,0000,0000,0000,,{\be10}He died?
+Dialogue: 0,0:18:03.42,0:18:05.25,Flashback,,0000,0000,0000,,{\be10}You must be kidding me!
 Dialogue: 0,0:18:06.00,0:18:11.67,Dialogue,,0000,0000,0000,,Urasawa thought he had killed Takenaka{\rHonorifics - Dialogue}-san{\r}, and ran away in a panic.
 Dialogue: 0,0:18:13.34,0:18:17.68,Dialogue,,0000,0000,0000,,At any rate, he had to dispose of his disguse and gloves somewhere.
 Dialogue: 0,0:18:20.10,0:18:25.10,Dialogue,,0000,0000,0000,,At that time, having found the garbage collection point, Urasawa threw them here.
@@ -380,11 +370,11 @@ Dialogue: 0,0:19:49.02,0:19:51.11,Dialogue,,0000,0000,0000,,He had no choice.
 Dialogue: 0,0:19:51.11,0:19:56.65,Dialogue,,0000,0000,0000,,A box offering robber couldn't possibly have 200,000 yen in cash on him.
 Dialogue: 0,0:19:56.65,0:19:58.53,Dialogue,,0000,0000,0000,,I see.
 Dialogue: 0,0:19:58.95,0:20:01.16,Dialogue,,0000,0000,0000,,Besides, could it possibly be...
-Dialogue: 0,0:20:06.04,0:20:09.04,Def_past,,0000,0000,0000,,I have committed a murder.
-Dialogue: 0,0:20:09.04,0:20:13.21,Def_past,,0000,0000,0000,,But no matter what, I don't want to be in prison for decades.
-Dialogue: 0,0:20:13.42,0:20:14.55,Def_past,,0000,0000,0000,,Somehow...
-Dialogue: 0,0:20:14.55,0:20:17.88,Def_past,,0000,0000,0000,,Please, somehow dear God, save me!
-Dialogue: 0,0:20:18.97,0:20:21.39,Def_past,,0000,0000,0000,,He maybe made a wish.
+Dialogue: 0,0:20:06.04,0:20:09.04,Flashback,,0000,0000,0000,,{\be10}I have committed a murder.
+Dialogue: 0,0:20:09.04,0:20:13.21,Flashback,,0000,0000,0000,,{\be10}But no matter what, I don't want to be in prison for decades.
+Dialogue: 0,0:20:13.42,0:20:14.55,Flashback,,0000,0000,0000,,{\be10}Somehow...
+Dialogue: 0,0:20:14.55,0:20:17.88,Flashback,,0000,0000,0000,,{\be10}Please, somehow dear God, save me!
+Dialogue: 0,0:20:18.97,0:20:21.39,Flashback,,0000,0000,0000,,{\be10}He maybe made a wish.
 Dialogue: 0,0:20:21.39,0:20:23.81,Dialogue,,0000,0000,0000,,Made a wish?
 Dialogue: 0,0:20:23.81,0:20:25.77,Dialogue,,0000,0000,0000,,What!
 Dialogue: 0,0:20:25.77,0:20:28.56,Dialogue,,0000,0000,0000,,Yeah, that might be possible.
@@ -416,4 +406,4 @@ Dialogue: 0,0:23:29.99,0:23:34.37,Dialogue,,0000,0000,0000,,I have no idea what 
 Dialogue: 0,0:23:35.37,0:23:38.29,Dialogue,,0000,0000,0000,,Don't be shy, you caring boss.
 Dialogue: 0,0:23:39.04,0:23:40.17,Dialogue,,0000,0000,0000,,Caring boss!
 Dialogue: 0,0:23:40.17,0:23:41.42,Dialogue,,0000,0000,0000,,You shy person!
-Dialogue: 0,0:23:42.84,0:23:44.59,Def_it,,0000,0000,0000,,Well, at least it all worked out, right?
+Dialogue: 0,0:23:42.84,0:23:44.59,Thoughts,,0000,0000,0000,,{\be10}Well, at least it all worked out, right?
