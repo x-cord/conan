@@ -33,6 +33,7 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
+Style: Title02,Arial,11,&H00FFFFFF,&H000000FF,&H7F000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,2,104,0,264,1
 Style: Title03,Arial,10,&H00BAB0AD,&H000000FF,&H7F000000,&H00000000,0,0,0,0,100,100,0,0,1,1,0,2,0,0,246,1
 Style: Title04,Arial,10,&H004F6CA3,&H000000FF,&H7F000000,&H00000000,0,0,0,0,100,100,0,0,1,1,0,2,0,25,210,1
 Style: Title05,Arial,10,&H00FFFFFF,&H000000FF,&H7F000000,&H00000000,0,0,0,0,100,100,0,0,1,1,0,2,0,29,228,1
@@ -44,7 +45,7 @@ Style: Title09,Arial,10,&H0073924B,&H000000FF,&H7F000000,&H00000000,0,0,0,0,100,
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 Dialogue: 0,0:00:04.71,0:00:06.75,Dialogue,,0,0,0,,Surprise!
-Dialogue: 0,0:00:09.68,0:00:13.81,Dialogue,,0,0,0,,Today we have {\t(1120,1121,}have an early {\t(2520,2521,}Christmas present!
+Dialogue: 0,0:00:09.68,0:00:13.81,Dialogue,,0,0,0,,Today we have have an early Christmas present!
 Dialogue: 0,0:00:14.06,0:00:17.09,Dialogue,,0,0,0,,A tale of summer to send the winter chill away.
 Dialogue: 0,0:00:17.10,0:00:18.55,Dialogue,,0,0,0,,Right, and the stage is...
 Dialogue: 0,0:00:18.72,0:00:19.31,Dialogue,,0,0,0,,Koushien.
@@ -466,7 +467,7 @@ Dialogue: 0,0:31:30.90,0:31:32.82,Dialogue,,0,0,0,,"Oh, no," Hei{\rHonorifics - 
 Dialogue: 0,0:31:32.82,0:31:35.65,Dialogue,,0,0,0,,He's not going to blow himself up until the end, right?
 Dialogue: 0,0:31:35.99,0:31:40.03,Dialogue,,0,0,0,,That guy said he was going to show us he\Nwas serious at the end of the 2nd inning.
 Dialogue: 0,0:31:40.32,0:31:42.03,Dialogue,,0,0,0,,What!?
-Dialogue: 0,0:31:44.65,0:31:46.60,Dialogue Top,,0,0,0,,{\fade(450,0)}Badge: "Police Inspector Ohtaki Gorou - Osaka Police Department"
+Dialogue: 0,0:31:44.65,0:31:46.60,Dialogue Top,,0,0,0,,Badge: "Police Inspector Ohtaki Gorou - Osaka Police Department"
 Dialogue: 0,0:31:48.62,0:31:49.88,Dialogue,,0,0,0,,We'll go on ahead, Ohtaki-han!
 Dialogue: 0,0:31:51.29,0:31:53.42,Dialogue,,0,0,0,,If that cheer we heard was for three outs...
 Dialogue: 0,0:31:54.17,0:31:55.88,Dialogue,,0,0,0,,We could already be too late!

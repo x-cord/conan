@@ -33,10 +33,6 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: Next episode,Futura Bk,50,&H3CFFFFFF,&H000000FF,&H00202020,&H64432227,-1,0,0,0,100,110,0,0,1,0,0,2,20,20,25,1
-Style: Conan Hints,HelveticaNeueLT Std Blk,45,&H00121622,&H000000FF,&H00FFFFFF,&H64432227,-1,0,0,0,130,140,0,0,1,2,0,2,20,20,25,1
-Style: Label,Ruzicka TypeK,40,&H00202323,&H000000FF,&H00202020,&H002E350D,-1,0,0,0,100,110,0,0,1,0,0,2,20,20,25,1
-Style: Places,Century Gothic,21,&H00F5FBFC,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,110,0,0,1,1.2,2,2,20,20,25,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -56,12 +52,12 @@ Dialogue: 0,0:00:53.49,0:00:54.78,Dialogue,,0000,0000,0000,,Yeah.
 Dialogue: 0,0:00:54.78,0:00:56.91,Dialogue,,0000,0000,0000,,But we have no evidence at all.
 Dialogue: 0,0:00:56.91,0:01:00.56,Thoughts,,0000,0000,0000,,{\be10}How in the world did that person slip through the gate...
 Dialogue: 0,0:01:00.56,0:01:02.98,Thoughts,,0000,0000,0000,,{\be10}and kill Kamiyo{\rHonorifics - Thoughts\be10}-san{\r\be10} in the mid of the forest?
-Dialogue: 0,0:01:06.32,0:01:10.17,Narration Off,,0000,0000,0000,,{\be10\fad(100,500)}Seeking comprehensive answers, he clears all mysteries and codes!
-Dialogue: 0,0:01:10.17,0:01:12.22,Narration Off,,0000,0000,0000,,{\be10\fad(100,500)}The keen perceptive reasoning of the two...
-Dialogue: 0,0:01:12.22,0:01:14.22,Narration Off,,0000,0000,0000,,{\be10\fad(100,500)}illuminates the darkness of the Dracula case!
+Dialogue: 0,0:01:06.32,0:01:10.17,Narration Off,,0000,0000,0000,,{\be10}Seeking comprehensive answers, he clears all mysteries and codes!
+Dialogue: 0,0:01:10.17,0:01:12.22,Narration Off,,0000,0000,0000,,{\be10}The keen perceptive reasoning of the two...
+Dialogue: 0,0:01:12.22,0:01:14.22,Narration Off,,0000,0000,0000,,{\be10}illuminates the darkness of the Dracula case!
 Dialogue: 0,0:01:14.22,0:01:15.68,Narration Off,,0000,0000,0000,,{\be10}Perceiving the one and only truth...
 Dialogue: 0,0:01:15.68,0:01:17.62,Narration Off,,0000,0000,0000,,{\be10}Looks like a child but has the intellect of an adult.
-Dialogue: 0,0:01:17.62,0:01:20.46,Narration Off,,0000,0000,0000,,{\be10\t(1200,2400,4,}His name is: {\t(689,1600,4,\c&H2031D3&)}Detective Conan!
+Dialogue: 0,0:01:17.62,0:01:20.46,Narration Off,,0000,0000,0000,,{\be10}His name is: Detective Conan!
 Dialogue: 0,0:03:09.47,0:03:11.00,Dialogue,,0000,0000,0000,,Ah, my bad.
 Dialogue: 0,0:03:11.48,0:03:17.36,Dialogue,,0000,0000,0000,,I thought I'd make Ruri drink sake to calm\Ndown, but seems like she fell asleep.
 Dialogue: 0,0:03:17.36,0:03:18.88,Dialogue,,0000,0000,0000,,So just take it away.
@@ -123,19 +119,19 @@ Dialogue: 0,0:05:40.08,0:05:40.88,Radio,,0000,0000,0000,,{\be10}How about it?{Wh
 Dialogue: 0,0:05:42.68,0:05:48.57,Dialogue,,0000,0000,0000,,Well, couldn't they have killed Kamiyo{\rHonorifics - Dialogue}-san{\r}\Ninside of the fences, tossed her out and run for it?
 Dialogue: 0,0:05:48.57,0:05:49.76,Dialogue,,0000,0000,0000,,Are you an idiot?
 Dialogue: 0,0:05:49.76,0:05:51.74,Dialogue,,0000,0000,0000,,How absurd do you think their strength is?!
-Dialogue: 0,0:05:54.24,0:05:56.12,Thoughts,,0000,0000,0000,,{\be10\fad(100,500)}Something's on my knee.
-Dialogue: 0,0:05:56.79,0:06:00.63,Thoughts,,0000,0000,0000,,{\be10\fad(100,500)}I did go down on one knee while inspecting\NKamiyo{\rHonorifics - Thoughts\be10}-san{\r\be10}'s body in the forest, but...
-Dialogue: 0,0:06:01.09,0:06:02.32,Thoughts,,0000,0000,0000,,{\be10\fad(100,500)}What is it?
-Dialogue: 0,0:06:02.32,0:06:03.88,Thoughts,,0000,0000,0000,,{\be10\fad(100,0)}Those white crystals...
-Dialogue: 0,0:06:04.32,0:06:05.99,Thoughts,,0000,0000,0000,,{\be10\fad(0,500)}which were mixed in with the mud.
-Dialogue: 0,0:06:07.16,0:06:08.78,Thoughts,,0000,0000,0000,,{\be10\fad(100,500)}This texture...
-Dialogue: 0,0:06:08.78,0:06:10.89,Thoughts,,0000,0000,0000,,{\be10\fad(100,500)}Could it be salt?!
-Dialogue: 0,0:06:10.89,0:06:13.45,Thoughts,,0000,0000,0000,,{\be10\fad(100,500)}But why was it in such a place?
+Dialogue: 0,0:05:54.24,0:05:56.12,Thoughts,,0000,0000,0000,,{\be10}Something's on my knee.
+Dialogue: 0,0:05:56.79,0:06:00.63,Thoughts,,0000,0000,0000,,{\be10}I did go down on one knee while inspecting\NKamiyo{\rHonorifics - Thoughts\be10}-san{\r\be10}'s body in the forest, but...
+Dialogue: 0,0:06:01.09,0:06:02.32,Thoughts,,0000,0000,0000,,{\be10}What is it?
+Dialogue: 0,0:06:02.32,0:06:03.88,Thoughts,,0000,0000,0000,,{\be10}Those white crystals...
+Dialogue: 0,0:06:04.32,0:06:05.99,Thoughts,,0000,0000,0000,,{\be10}which were mixed in with the mud.
+Dialogue: 0,0:06:07.16,0:06:08.78,Thoughts,,0000,0000,0000,,{\be10}This texture...
+Dialogue: 0,0:06:08.78,0:06:10.89,Thoughts,,0000,0000,0000,,{\be10}Could it be salt?!
+Dialogue: 0,0:06:10.89,0:06:13.45,Thoughts,,0000,0000,0000,,{\be10}But why was it in such a place?
 Dialogue: 0,0:06:13.85,0:06:18.32,Dialogue,,0000,0000,0000,,Yeah, but no matter how much they trained by lifting\Nbarbells in the gym, it'd still be impossible, wouldn't it?
 Dialogue: 0,0:06:18.32,0:06:20.36,Dialogue,,0000,0000,0000,,Tying a body to a stick and-
 Dialogue: 0,0:06:20.36,0:06:20.90,Dialogue,,0000,0000,0000,,Ah!
 Dialogue: 0,0:06:21.31,0:06:22.42,Thoughts,,0000,0000,0000,,{\be10}Ba...
-Dialogue: 0,0:06:22.42,0:06:23.71,Thoughts,,0000,0000,0000,,{\be10\fad(0,500)}Barbell?!
+Dialogue: 0,0:06:22.42,0:06:23.71,Thoughts,,0000,0000,0000,,{\be10}Barbell?!
 Dialogue: 0,0:06:25.89,0:06:28.47,Dialogue,,0000,0000,0000,,Now, I've clearly figured it out.
 Dialogue: 0,0:06:28.47,0:06:32.95,Dialogue,,0000,0000,0000,,That the opponent isn't a vampire who\Ngrew wings or anything of the sort.
 Dialogue: 0,0:06:33.24,0:06:34.64,Dialogue,,0000,0000,0000,,Yeah.
@@ -172,7 +168,7 @@ Dialogue: 0,0:08:34.02,0:08:35.77,Dialogue,,0000,0000,0000,,Master!
 Dialogue: 0,0:08:35.77,0:08:37.35,Dialogue,,0000,0000,0000,,It's Hikaru.
 Dialogue: 0,0:08:38.08,0:08:40.35,Dialogue,,0000,0000,0000,,I came here upon receiving your text message.
 Dialogue: 0,0:08:40.52,0:08:42.81,Dialogue,,0000,0000,0000,,Master~
-Dialogue: 0,0:08:48.24,0:08:49.41,Thoughts,,0000,0000,0000,,{\be10\fad(100,0)}With this...
+Dialogue: 0,0:08:48.24,0:08:49.41,Thoughts,,0000,0000,0000,,{\be10}With this...
 Dialogue: 0,0:08:49.41,0:08:51.36,Thoughts,,0000,0000,0000,,{\be10}It's the end!
 Dialogue: 0,0:09:06.62,0:09:07.91,Dialogue,,0000,0000,0000,,Umm...
 Dialogue: 0,0:09:07.91,0:09:09.23,Dialogue,,0000,0000,0000,,Are you alright?
@@ -182,7 +178,7 @@ Dialogue: 0,0:09:14.46,0:09:15.84,Dialogue,,0000,0000,0000,,G-Got it.
 Dialogue: 0,0:09:15.84,0:09:17.11,Dialogue,,0000,0000,0000,,Huh?
 Dialogue: 0,0:09:17.46,0:09:19.05,Dialogue,,0000,0000,0000,,They've disappeared!
 Dialogue: 0,0:09:19.05,0:09:20.53,Dialogue,,0000,0000,0000,,T-They've really...
-Dialogue: 0,0:09:20.93,0:09:23.84,Dialogue,,0000,0000,0000,,{\fad(0,500)}disappeared.
+Dialogue: 0,0:09:20.93,0:09:23.84,Dialogue,,0000,0000,0000,,disappeared.
 Dialogue: 0,0:09:48.05,0:09:49.06,Thoughts,,0000,0000,0000,,{\be10}Damn!
 Dialogue: 0,0:09:50.30,0:09:52.42,Thoughts,,0000,0000,0000,,{\be10}M-My body's stuck.
 Dialogue: 0,0:09:52.42,0:09:53.72,Dialogue,,0000,0000,0000,,Of course, it is.
@@ -245,8 +241,8 @@ Dialogue: 0,0:13:39.07,0:13:44.60,Dialogue,,0000,0000,0000,,You'd be able to use
 Dialogue: 0,0:13:44.60,0:13:50.75,Dialogue,,0000,0000,0000,,At that time, if you had the remote for the light used\Nto light up the master's face inside of the closet...
 Dialogue: 0,0:13:50.75,0:13:53.02,Dialogue,,0000,0000,0000,,Then by pressing it at the right time,
 Dialogue: 0,0:13:53.02,0:13:57.78,Dialogue,,0000,0000,0000,,You'd be able to make the master's face emerge inside of the mirror.
-Dialogue: 0,0:13:58.49,0:14:04.81,Dialogue,,0000,0000,0000,,{\fad(0,500)}And then, the last trick was making the master\Nappear upside-down at the dining room's window.
-Dialogue: 0,0:14:05.31,0:14:07.01,Flashback,,0000,0000,0000,,{\be10\fad(100,0)}A strange shadow, you say?
+Dialogue: 0,0:13:58.49,0:14:04.81,Dialogue,,0000,0000,0000,,And then, the last trick was making the master\Nappear upside-down at the dining room's window.
+Dialogue: 0,0:14:05.31,0:14:07.01,Flashback,,0000,0000,0000,,{\be10}A strange shadow, you say?
 Dialogue: 0,0:14:12.00,0:14:15.60,Dialogue,,0000,0000,0000,,You waited at the smoking room for Asanobu{\rHonorifics - Dialogue}-san{\r} to come...
 Dialogue: 0,0:14:16.06,0:14:20.71,Dialogue,,0000,0000,0000,,And after you seized a chance and killed\Nhim by slicing open his carotid artery...
 Dialogue: 0,0:14:21.04,0:14:24.90,Dialogue,,0000,0000,0000,,You passed a fishing line through the hinges\Nof the shutters in the smoking room...
@@ -260,13 +256,13 @@ Dialogue: 0,0:14:47.14,0:14:52.74,Dialogue,,0000,0000,0000,,If that was just the
 Dialogue: 0,0:14:52.74,0:14:53.96,Dialogue,,0000,0000,0000,,A convex lens.
 Dialogue: 0,0:14:55.04,0:15:00.54,Dialogue,,0000,0000,0000,,The upper right pane of that window alone became\Na convex lens just like a magnifying glass.
 Dialogue: 0,0:15:00.54,0:15:04.71,Dialogue,,0000,0000,0000,,Through that lens, things appear inverted at a certain viewpoint.
-Dialogue: 0,0:15:05.42,0:15:09.44,Dialogue,,0000,0000,0000,,{\fad(0,500)}That's why even though it fell downwards, it appeared as if it went upwards.
+Dialogue: 0,0:15:05.42,0:15:09.44,Dialogue,,0000,0000,0000,,That's why even though it fell downwards, it appeared as if it went upwards.
 Dialogue: 0,0:15:10.17,0:15:14.28,Dialogue,,0000,0000,0000,,Moreover, the three panes below the convex lens are ordinary glass.
 Dialogue: 0,0:15:14.28,0:15:18.43,Dialogue,,0000,0000,0000,,Naturally, if the head were to be seen\Nas it fell down, the trick won't work.
 Dialogue: 0,0:15:18.43,0:15:23.18,Dialogue,,0000,0000,0000,,That's why this trick couldn't have\Nbeen done by anyone other than you,
 Dialogue: 0,0:15:23.18,0:15:26.86,Dialogue,,0000,0000,0000,,who blocked the view of the lower three\Npanes with your own body at the time.
 Dialogue: 0,0:15:27.12,0:15:33.37,Dialogue,,0000,0000,0000,,Where the head fell into was an urn left in advance in the\Nveranda outside that window, along with the flowerpots.
-Dialogue: 0,0:15:33.64,0:15:39.91,Dialogue,,0000,0000,0000,,{\fad(0,500)}When we went to check afterwards, only that urn was\Nset aside and the master's head was still inside of it.
+Dialogue: 0,0:15:33.64,0:15:39.91,Dialogue,,0000,0000,0000,,When we went to check afterwards, only that urn was\Nset aside and the master's head was still inside of it.
 Dialogue: 0,0:15:40.43,0:15:48.70,Dialogue,,0000,0000,0000,,Well, had Hikaru{\rHonorifics - Dialogue}-san{\r} not told us "The master's shadow which\Nwas lit up by lightning appeared from below on the curtains,"
 Dialogue: 0,0:15:48.70,0:15:50.38,Dialogue,,0000,0000,0000,,we wouldn't have noticed.
 Dialogue: 0,0:15:50.58,0:15:54.26,Dialogue,,0000,0000,0000,,Right after that, The huge bird we saw was...
@@ -314,9 +310,9 @@ Dialogue: 0,0:19:00.45,0:19:01.92,Dialogue,,0000,0000,0000,,W-Why?
 Dialogue: 0,0:19:01.92,0:19:05.40,Dialogue,,0000,0000,0000,,That was just blood that dripped\Nwhen I put the head inside the coffin.
 Dialogue: 0,0:19:05.40,0:19:09.89,Dialogue,,0000,0000,0000,,That blood was determined as a different blood type\Nfrom the person's blood type itself, you know!
 Dialogue: 0,0:19:09.89,0:19:11.67,Dialogue,,0000,0000,0000,,It was obviously an error made by the police!
-Dialogue: 0,0:19:11.99,0:19:16.51,Flashback,,0000,0000,0000,,{\be10\fad(100,500)}The blood spot we found at the coffin\Nback then, was it really of type AB?
-Dialogue: 0,0:19:17.58,0:19:22.08,Flashback,,0000,0000,0000,,{\be10\fad(100,500)}Actually, shouldn't we have that blood examined more in depth?
-Dialogue: 0,0:19:22.08,0:19:23.47,Flashback,,0000,0000,0000,,{\be10\fad(100,500)}Like checking the DNA.
+Dialogue: 0,0:19:11.99,0:19:16.51,Flashback,,0000,0000,0000,,{\be10}The blood spot we found at the coffin\Nback then, was it really of type AB?
+Dialogue: 0,0:19:17.58,0:19:22.08,Flashback,,0000,0000,0000,,{\be10}Actually, shouldn't we have that blood examined more in depth?
+Dialogue: 0,0:19:22.08,0:19:23.47,Flashback,,0000,0000,0000,,{\be10}Like checking the DNA.
 Dialogue: 0,0:19:23.93,0:19:26.66,Dialogue,,0000,0000,0000,,The master probably had cancer.
 Dialogue: 0,0:19:26.66,0:19:30.58,Dialogue,,0000,0000,0000,,At its terminal stage, it is also possible for the blood type to change.
 Dialogue: 0,0:19:30.58,0:19:33.48,Dialogue,,0000,0000,0000,,If it's type A, it becomes type AB.
@@ -324,7 +320,7 @@ Dialogue: 0,0:19:33.48,0:19:35.62,Dialogue,,0000,0000,0000,,And if it's type O, 
 Dialogue: 0,0:19:35.62,0:19:38.90,Dialogue,,0000,0000,0000,,For one to be able to say it was a lab test error from the very beginning...
 Dialogue: 0,0:19:38.90,0:19:43.41,Dialogue,,0000,0000,0000,,they can only be the culprit, who actually\Nplaced the master's head inside the coffin.
 Dialogue: 0,0:19:43.69,0:19:47.43,Dialogue,,0000,0000,0000,,Well, it seems that your blood, due to following this plan...
-Dialogue: 0,0:19:47.43,0:19:53.38,Dialogue,,0000,0000,0000,,{\fad(0,500)}has pitifully changed into the blood of a brutal bloodthirsty killer.
+Dialogue: 0,0:19:47.43,0:19:53.38,Dialogue,,0000,0000,0000,,has pitifully changed into the blood of a brutal bloodthirsty killer.
 Dialogue: 0,0:21:18.95,0:21:21.13,Dialogue,,0000,0000,0000,,My dear daughter?!
 Dialogue: 0,0:21:21.46,0:21:25.74,Dialogue,,0000,0000,0000,,The beginning of that plan opened with "my dear daughter"?
 Dialogue: 0,0:21:25.74,0:21:26.79,Dialogue,,0000,0000,0000,,Yeah.
@@ -353,10 +349,6 @@ Dialogue: 0,0:22:48.72,0:22:48.76,Signs,,0000,0000,0000,,Torakura Hakuya
 Dialogue: 0,0:22:48.76,0:22:48.80,Signs,,0000,0000,0000,,Torakura Hakuya
 Dialogue: 0,0:22:48.80,0:22:48.84,Signs,,0000,0000,0000,,Torakura Hakuya
 Dialogue: 0,0:22:48.80,0:22:52.39,Dialogue,,0000,0000,0000,,then along with the revenge flames invested in my body,
-Dialogue: 0,0:22:48.84,0:22:49.01,Label,,0000,0000,0000,,{\c&H5D5D5D&\blur0.5\fs58\frz27\t(0,148,3,\c&H818181&)\move(1298,460,1110,459,27,406)}Torakura Hakuya
-Dialogue: 0,0:22:49.01,0:22:49.18,Label,,0000,0000,0000,,{\c&H838888&\blur0.5\fs58\frz27\t(0,108,3,\c&H8A8E90&)\move(1218,459,976,456,24,483)}Torakura Hakuya
-Dialogue: 0,0:22:49.18,0:22:49.51,Label,,0000,0000,0000,,{\c&H838888&\blur0.5\fs58\frz27\t(0,108,3,\c&H8A8E90&)\move(1132,455,984,455,21,313)}Torakura Hakuya
-Dialogue: 0,0:22:49.51,0:22:55.12,Label,,0000,0000,0000,,{\c&H8A8E90&\fad(0,435)\blur0.5\fs58\frz27\move(976,456,966,454,0,108)\t(5197,5500,3,\c&H999D9F&)}Torakura Hakuya
 Dialogue: 0,0:22:52.39,0:22:54.78,Dialogue,,0000,0000,0000,,dispose of this letter."
 Dialogue: 0,0:22:54.78,0:22:58.06,Dialogue,,0000,0000,0000,,I believe Hikaru{\rHonorifics - Dialogue}-san{\r} would've surely chosen the latter.
 Dialogue: 0,0:22:58.51,0:23:00.10,Dialogue,,0000,0000,0000,,I bet.
@@ -369,8 +361,8 @@ Dialogue: 0,0:23:20.80,0:23:23.02,Dialogue,,0000,0000,0000,,Women are scary.
 Dialogue: 0,0:23:23.02,0:23:24.16,Dialogue,,0000,0000,0000,,Huh?!
 Dialogue: 0,0:23:24.16,0:23:25.79,Dialogue,,0000,0000,0000,,What are you saying?
 Dialogue: 0,0:23:31.74,0:23:33.15,Dialogue,,0000,0000,0000,,Ah, w-wait...
-Dialogue: 0,0:23:39.19,0:23:40.96,Thoughts,,0000,0000,0000,,{\be10\fad(100,500)}This smell...
-Dialogue: 0,0:23:40.96,0:23:42.98,Thoughts,,0000,0000,0000,,{\be10\fad(100,500)}Just how many gyoza did you eat?!
+Dialogue: 0,0:23:39.19,0:23:40.96,Thoughts,,0000,0000,0000,,{\be10}This smell...
+Dialogue: 0,0:23:40.96,0:23:42.98,Thoughts,,0000,0000,0000,,{\be10}Just how many gyoza did you eat?!
 Dialogue: 0,0:23:44.94,0:24:08.92,Signs,,0000,0000,0000,,Next Episode
 Dialogue: 0,0:23:45.36,0:23:49.32,Dialogue,,0000,0000,0000,,To tell the truth, this letter was delivered to my place.
 Dialogue: 0,0:23:50.44,0:23:53.53,Dialogue,,0000,0000,0000,,Izumi Jisaborou-shi's life is being targeted.

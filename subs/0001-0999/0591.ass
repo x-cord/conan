@@ -35,9 +35,7 @@ Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
 Style: title001,Arial,14,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,120,0,0,1,0.4,0.8,2,0,0,52,1
 Style: title002,Arial,42,&H005D5D5D,&H000000FF,&H00E4EAE3,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,2,1,0,184,1
-Style: title002 - 2,Arial,42,&H00DCDDDB,&H00DCDDDB,&H00DCDDDB,&H00DCDDDB,-1,0,0,0,100,100,0,0,3,1,0,2,0,0,0,1
 Style: title003,Arial,21,&H00CDC094,&H0042463C,&H0042463C,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,2,0,0,62,1
-Style: title003 - 3,Arial,20,&H00494B47,&H00494B47,&H00494B47,&H00494B47,-1,0,0,0,100,100,0,0,3,0,0,2,0,0,10,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -46,10 +44,10 @@ Dialogue: 0,0:00:03.84,0:00:06.48,Dialogue Top,,0,0,0,,"Constructed an aquarium 
 Dialogue: 0,0:00:02.39,0:00:06.48,title001,,0,0,0,,{\yshad1.1\fad(460,0)}Sunday
 Dialogue: 0,0:00:07.02,0:00:10.81,Dialogue,,0,0,0,,Nishida{\rHonorifics - Dialogue}-kun{\r} is a famous aquarium designer.
 Dialogue: 0,0:00:10.81,0:00:13.98,Dialogue,,0,0,0,,Perhaps he has a huge fish tank in his house.
-Dialogue: 0,0:00:14.31,0:00:16.66,Dialogue,,0,0,0,,{\c&HFDBFD4&}Aku.{\r}... {\c&HFDBFD4&}Akurimu{\r}?
+Dialogue: 0,0:00:14.31,0:00:16.66,Dialogue,,0,0,0,,Aku.... Akurimu?
 Dialogue: 0,0:00:16.75,0:00:19.24,Dialogue,,0,0,0,,Then, does that mean it's a new type of ice cream?
-Dialogue: 0,0:00:19.26,0:00:20.94,Dialogue,,0,0,0,,It's "{\c&HFFEBBE&}a{\r}-{\c&HFFEBBE&}ku{\r}-{\c&HFFEBBE&}a{\r}-{\c&HFFEBBE&}ri{\r}-{\c&HFFEBBE&}u{\r}-{\c&HFFEBBE&}mu{\r}".
-Dialogue: 0,0:00:20.97,0:00:22.54,Dialogue,,0,0,0,,It means {\c&HFFEBBE&}aquarium{\r}.
+Dialogue: 0,0:00:19.26,0:00:20.94,Dialogue,,0,0,0,,It's "a-ku-a-ri-u-mu".
+Dialogue: 0,0:00:20.97,0:00:22.54,Dialogue,,0,0,0,,It means aquarium.
 Dialogue: 0,0:00:23.18,0:00:26.29,Dialogue,,0,0,0,,An architect who designs aquariums.
 Dialogue: 0,0:00:27.79,0:00:30.16,Dialogue,,0,0,0,,The house of a person who makes aquariums?
 Dialogue: 0,0:00:30.91,0:00:32.46,Dialogue,,0,0,0,,I wonder what the house will be like...
@@ -58,9 +56,9 @@ Dialogue: 0,0:00:52.95,0:00:54.75,Dialogue,,0,0,0,,If we continue lamenting the 
 Dialogue: 0,0:00:54.76,0:00:56.42,Dialogue,,0,0,0,,We'll be unable to confront the mysteries of cases!
 Dialogue: 0,0:00:56.64,0:00:58.20,Dialogue,,0,0,5,,In the house with the aquarium...
 Dialogue: 0,0:00:58.21,0:00:59.72,Dialogue,,0,0,5,,Even the fish are involved in the case!
-Dialogue: 0,0:01:00.53,0:01:02.19,Dialogue,,0,0,5,,{\fad(0,0)\xshad1.3\1c&H6AE8FA&\4c&H294A50&\}Perceiving the one and only truth...
-Dialogue: 0,0:01:02.20,0:01:03.99,Dialogue,,0,0,5,,{\fad(0,0)\xshad1.3\1c&H6AE8FA&\4c&H294A50&\}The appearance of a child and the intellect of an adult...
-Dialogue: 0,0:01:03.99,0:01:06.28,Dialogue,,0,0,5,,{\fad(0,50)\xshad1.3\1c&H6AE8FA&\4c&H294A50&\}His name is: Detective {\t(1400,1401,\1c&H4331B1&)}Conan{\1c&H6AE8FA&}!
+Dialogue: 0,0:01:00.53,0:01:02.19,Dialogue,,0,0,5,,Perceiving the one and only truth...
+Dialogue: 0,0:01:02.20,0:01:03.99,Dialogue,,0,0,5,,The appearance of a child and the intellect of an adult...
+Dialogue: 0,0:01:03.99,0:01:06.28,Dialogue,,0,0,5,,His name is: Detective Conan!
 Dialogue: 0,0:02:38.80,0:02:40.80,Signs,,0,0,0,,NISHIDA
 Dialogue: 0,0:02:38.80,0:02:40.80,title002,,0,0,0,,{\blur1}NISHIDA
 Dialogue: 0,0:02:38.80,0:02:40.80,Signs,,0,0,0,,NISHIDA
@@ -72,7 +70,7 @@ Dialogue: 0,0:02:52.35,0:02:53.81,Dialogue,,0,0,0,,Professor Agasa?
 Dialogue: 0,0:02:53.81,0:02:55.39,Dialogue,,0,0,0,,Oh, Imura{\rHonorifics - Dialogue}-kun{\r}!
 Dialogue: 0,0:02:55.84,0:02:57.50,Dialogue Top,,0,0,0,,It's been a while!
 Dialogue: 0,0:02:58.40,0:03:00.03,Dialogue Top,,0,0,0,,Is Nishida not in?
-Dialogue: 0,0:02:55.61,0:03:00.03,Signs,,0,0,0,,Imura Kousuke (32)\NNishida's Assistant
+Dialogue: 0,0:02:55.61,0:03:00.03,Character Card,,0,0,0,,Imura Kousuke (32)\NNishida's Assistant
 Dialogue: 0,0:03:01.44,0:03:05.36,Dialogue,,0,0,0,,He promised to show me the interior of his house today, but...
 Dialogue: 0,0:03:06.61,0:03:09.40,Dialogue,,0,0,0,,So that's why the kids are here too, huh?
 Dialogue: 0,0:03:09.41,0:03:10.41,Dialogue,,0,0,0,,Good afternoon.

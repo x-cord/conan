@@ -33,6 +33,7 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
+Style: Xtitle001,Arial,20,&H007C5A40,&H000000FF,&H32FAF2EF,&H00000000,-1,0,0,0,100,100,0,0,3,0.1,0,2,10,10,10,1
 Style: Xtitle02,Times New Roman,15,&H00FFFFFF,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,0.1,0,2,10,10,59,1
 
 [Events]
@@ -46,7 +47,7 @@ Dialogue: 0,0:02:08.59,0:02:09.67,Dialogue,,0,0,0,,Let's go to the Detective Kou
 Dialogue: 0,0:02:09.93,0:02:11.34,Dialogue,,0,0,0,,Perceiving the one and only truth,
 Dialogue: 0,0:02:11.34,0:02:12.76,Dialogue,,0,0,0,,With the body of a child and the brain of an adult,
 Dialogue: 0,0:02:12.76,0:02:14.30,Dialogue,,0,0,0,,His name is: Detective Conan!
-Dialogue: 0,0:03:44.15,0:03:50.25,Dialogue,,0,0,0,,{\fad(800,250)\an\1c&HFEFFFE&\4c&HB6BCBE&\}Three days with Heiji Hattori
+Dialogue: 0,0:03:44.15,0:03:50.25,Dialogue,,0,0,0,,{\an}Three days with Heiji Hattori
 Dialogue: 0,0:03:55.75,0:03:59.10,Xtitle02,,0,0,0,,{\fad(250,250)\3c&HD0ACDB&\bord2\blur3}Light Pink\N{\xbord3}Cherry Blossom Festival
 Dialogue: 0,0:03:59.96,0:04:02.16,Dialogue Top,,0,0,0,,What pretty cherry tress!
 Dialogue: 0,0:04:02.33,0:04:06.24,Dialogue Top,,0,0,0,,Sure are! This is such a lively Sakura\Nfestival. Aren't you glad we came?
@@ -125,7 +126,7 @@ Dialogue: 0,0:08:18.04,0:08:18.96,Dialogue,,0,0,0,,Y-Yes.
 Dialogue: 0,0:08:19.25,0:08:24.05,Dialogue,,0,0,0,,I'm an apprentice at that temple and my name is Denkyuu.
 Dialogue: 0,0:08:24.84,0:08:28.66,Dialogue Top,,0,0,0,,A few days ago, a guest came and visited the head monk...
 Dialogue: 0,0:08:28.84,0:08:31.56,Dialogue Top,,0,0,0,,And then suddenly disappeared from her room.
-Dialogue: 0,0:08:25.40,0:08:31.82,Character Card,,0,0,0,,{\fad(450,450)}\h\h\hDenkyuu (18)\h\h\h\N{\fs9}\hShougaku Temple Disciple\h
+Dialogue: 0,0:08:25.40,0:08:31.82,Character Card,,0,0,0,,{\fad(450,450)} Denkyuu (18)\N{\fs9} Shougaku Temple Disciple
 Dialogue: 0,0:08:33.31,0:08:34.39,Dialogue,,0,0,0,,Suddenly?
 Dialogue: 0,0:08:35.52,0:08:40.36,Dialogue,,0,0,0,,The guest was a long-haired woman who\Nhad come to stay at the temple for the night.
 Dialogue: 0,0:08:41.19,0:08:44.40,Dialogue,,0,0,0,,When I went to tell her that breakfast was ready...
@@ -154,7 +155,7 @@ Dialogue: 0,0:09:42.88,0:09:48.01,Dialogue,,0,0,0,,If you're so sure, why don't 
 Dialogue: 0,0:09:50.43,0:09:54.47,Dialogue,,0,0,0,,Oh, so you're the famous Mouri Kogorou{\rHonorifics - Dialogue}-san{\r}.
 Dialogue: 0,0:09:54.96,0:09:58.42,Dialogue Top,,0,0,0,,Such a famous detective as yourself, coming to such a small mountain temple...
 Dialogue: 0,0:09:58.46,0:09:59.81,Dialogue Top,,0,0,0,,Why have you come?
-Dialogue: 0,0:09:54.94,0:09:59.75,CharCard02,,0,0,0,,{\fad(500,500)}\hShakuren (57)\h\N{\fs11}\h\hShougaku Temple\h\h\N\h\h\h\h\h\h\hHead Monk\h\h\h\h\h\h\h
+Dialogue: 0,0:09:54.94,0:09:59.75,Character Card,,0,0,0,,{\fad(500,500)} Shakuren (57)\N{\fs11} Shougaku Temple\NHead Monk
 Dialogue: 0,0:10:00.40,0:10:03.73,Dialogue,,0,0,0,,It's because of your Denkyuu{\rHonorifics - Dialogue}-san{\r}.
 Dialogue: 0,0:10:04.44,0:10:09.40,Dialogue,,0,0,0,,Oh, perhaps this is about my guest\Nwho supposedly disappeared like the mist.
 Dialogue: 0,0:10:09.49,0:10:12.74,Dialogue,,0,0,0,,You're interested in his dream story, then?
@@ -622,7 +623,7 @@ Dialogue: 0,0:39:27.90,0:39:31.57,Dialogue,,0,0,0,,Please try to be on time. We'
 Dialogue: 0,0:39:31.91,0:39:35.08,Dialogue,,0,0,0,,Oh, sorry, somebody took the wrong road.
 Dialogue: 0,0:39:35.51,0:39:37.59,Dialogue Top,,0,0,0,,Well, nevermind, let's head to the island.
 Dialogue: 0,0:39:37.91,0:39:39.72,Dialogue Top,,0,0,0,,Everyone else is already aboard the ship.
-Dialogue: 0,0:39:35.30,0:39:39.77,CharCard03,,0,0,0,,{\fad(500,500)}\h\h\h\hTsuchio Hiroo (41)\h\h\h\h\N{\fs13}\h\h\h\h\h\h\hNichiuri TV Director\h\h\h\h\h\h\h
+Dialogue: 0,0:39:35.30,0:39:39.77,Character Card,,0,0,0,,{\fad(500,500)} Tsuchio Hiroo (41)\N{\fs13} Nichiuri TV Director
 Dialogue: 0,0:39:40.79,0:39:42.75,Dialogue,,0,0,0,,Then, that means Shinichi's already here?
 Dialogue: 0,0:39:43.80,0:39:46.76,Dialogue,,0,0,0,,Kudou Shinichi, the high-school detective of the East.
 Dialogue: 0,0:39:47.01,0:39:51.68,Dialogue,,0,0,0,,Ah, I couldn't contact that young\Nman, so I don't know if he's coming or not.
@@ -691,7 +692,7 @@ Dialogue: 0,0:43:12.34,0:43:13.34,Dialogue,,0,0,0,,What's this?
 Dialogue: 0,0:43:13.63,0:43:15.30,Dialogue,,0,0,0,,What's going on?
 Dialogue: 0,0:43:23.62,0:43:29.90,Dialogue Top,,0,0,0,,Welcome. I'm the one appointed to look\Nafter you, Kouya Renzou. Nice to meet you.
 Dialogue: 0,0:43:30.08,0:43:32.21,Dialogue Top,,0,0,0,,Shall we head directly to the lodge?
-Dialogue: 0,0:43:26.71,0:43:32.10,CharCard04,,0,0,0,,{\fad(420,420)}\h\h\hKouya Renzou (58)\h\h\h\N{\fs13}\h\h\h\h\h\h\hOfficial Caretaker\h\h\h\h\h\h\h
+Dialogue: 0,0:43:26.71,0:43:32.10,Character Card,,0,0,0,,{\fad(420,420)} Kouya Renzou (58)\N{\fs13} Official Caretaker
 Dialogue: 0,0:43:32.77,0:43:34.07,Dialogue,,0,0,0,,Hey, Director{\rHonorifics - Dialogue}-san{\r}.
 Dialogue: 0,0:43:34.94,0:43:38.07,Dialogue,,0,0,0,,It looks like the high-school detective of the East hasn't come, huh?
 Dialogue: 0,0:43:38.57,0:43:40.07,Dialogue,,0,0,0,,What shall we do about that?
@@ -701,7 +702,7 @@ Dialogue: 0,0:43:43.99,0:43:48.83,Dialogue,,0,0,0,,As for the boy representing t
 Dialogue: 0,0:43:49.29,0:43:50.29,Dialogue,,0,0,0,,What'd you say?
 Dialogue: 0,0:43:50.38,0:43:51.79,Dialogue,,0,0,0,,Are you sure?
 Dialogue: 0,0:43:52.21,0:43:55.00,Dialogue,,0,0,0,,I think his name was...
-Dialogue: 0,0:44:02.80,0:44:07.28,Xtitle001,,0,0,0,,{\an7\fs14\fad(500,0)}Subject: To my dear housekeeper\Nplease cancel tomorrow's\Ndinner reservations.\NIt seems I won't be back home\Nfor a while.\NI will definitely make up for it\Nsome later day.\N\N-Saguru
+Dialogue: 0,0:44:02.80,0:44:07.28,Xtitle001,,0,0,0,,{\fs14\fad(500,0)}Subject: To my dear housekeeper\Nplease cancel tomorrow's\Ndinner reservations.\NIt seems I won't be back home\Nfor a while.\NI will definitely make up for it\Nsome later day.\N\N-Saguru
 Dialogue: 0,0:44:01.01,0:44:07.27,Dialogue,,0,0,0,,I see. We're completely isolated from\Nthe outside world. Quite the solitary island.
 Dialogue: 0,0:44:07.60,0:44:09.52,Dialogue,,0,0,0,,For this scene of the mystery...
 Dialogue: 0,0:44:09.85,0:44:12.23,Dialogue,,0,0,0,,This is the perfect situation.
@@ -720,12 +721,12 @@ Dialogue: 0,0:44:48.35,0:44:49.31,Dialogue,,0,0,0,,Well, then...
 Dialogue: 0,0:44:49.82,0:44:52.74,Dialogue Top,,0,0,0,,I'm Koshimizu Natsuki, a third year high-school student.
 Dialogue: 0,0:44:52.88,0:44:56.80,Dialogue Top,,0,0,0,,I was born in Fukuoka and for now\NI'm the representative from the South.
 Dialogue: 0,0:44:56.83,0:45:00.81,Dialogue Top,,0,0,0,,I haven't even solved 100 cases yet, so I'm still a novice.
-Dialogue: 0,0:44:49.87,0:44:57.63,CharCard05,,0,0,0,,{\fad(470,470)}Koshimizu Natsuki (18)\N{\fs13}\h\h\hHigh-School Detectives\h\h\h\N\h\h\h\h\h\h\h\h\h\hfrom the South\h\h\h\h\h\h\h\h\h\h
+Dialogue: 0,0:44:49.87,0:44:57.63,CharCard05,,0,0,0,,{\fad(470,470)}Koshimizu Natsuki (18)\N{\fs13} High-School Detectives\Nfrom the South
 Dialogue: 0,0:45:01.24,0:45:02.36,Dialogue,,0,0,0,,Please don't be too rough on me.
 Dialogue: 0,0:45:02.99,0:45:04.71,Dialogue Top,,0,0,0,,This one is Tokitsu Junya.
 Dialogue: 0,0:45:05.37,0:45:10.03,Dialogue Top,,0,0,0,,Though I was born in Tokyo, I grew up in\NHokkaido, so I'm the North's representative.
 Dialogue: 0,0:45:10.63,0:45:16.02,Dialogue Top,,0,0,0,,I've handled approximately 300 cases, where\Nmore than 250 people were arrested and prosecuted.
-Dialogue: 0,0:45:03.34,0:45:10.81,CharCard06,,0,0,0,,{\fad(470,470)}\h\h\hTokitsu Junya (18)\h\h\h\N{\fs13}\h\h\hHigh-School Detectives\h\h\h\N\h\h\h\h\h\h\h\h\h\hfrom the North\h\h\h\h\h\h\h\h\h\h
+Dialogue: 0,0:45:03.34,0:45:10.81,CharCard06,,0,0,0,,{\fad(470,470)} Tokitsu Junya (18)\N{\fs13} High-School Detectives\Nfrom the North
 Dialogue: 0,0:45:16.25,0:45:20.09,Dialogue,,0,0,0,,I've had some cases where they got away or committed suicide.
 Dialogue: 0,0:45:21.01,0:45:25.14,Dialogue,,0,0,0,,I'm Hattori Heiji, a pretty well-known detective from the Kansai region.
 Dialogue: 0,0:45:25.64,0:45:27.26,Dialogue,,0,0,0,,As for how many cases I've solved...
@@ -745,7 +746,7 @@ Dialogue: 0,0:46:00.55,0:46:01.21,Dialogue,,0,0,0,,Like me?
 Dialogue: 0,0:46:01.51,0:46:03.05,Dialogue,,0,0,0,,Isn't that so, Hakuba-niichan?
 Dialogue: 0,0:46:03.50,0:46:06.36,Dialogue Top,,0,0,0,,Yeah, my father is a police commissioner.
 Dialogue: 0,0:46:06.68,0:46:12.44,Dialogue Top,,0,0,0,,Strangely, since your father is the director general of the\NOsaka Prefectural police, our circumstances are very similar.
-Dialogue: 0,0:46:03.78,0:46:11.24,CharCard07,,0,0,0,,{\fad(500,500)}\hHakuba Saguru (18)\h\N{\fs13}\hHigh-School Detectives\h\N\h\h\h\h\h\h\h\h\hfrom the East\h\h\h\h\h\h\h\h\h
+Dialogue: 0,0:46:03.78,0:46:11.24,CharCard07,,0,0,0,,{\fad(500,500)} Hakuba Saguru (18)\N{\fs13} High-School Detectives\Nfrom the East
 Dialogue: 0,0:46:13.60,0:46:16.19,Dialogue,,0,0,0,,By the way, how many cases have you solved?
 Dialogue: 0,0:46:16.65,0:46:19.98,Dialogue,,0,0,0,,Ah, I see. I would say around 500?
 Dialogue: 0,0:46:20.15,0:46:22.03,Dialogue,,0,0,0,,Heh, that's only half as many as me.
@@ -945,7 +946,7 @@ Dialogue: 0,0:56:20.11,0:56:21.74,Dialogue,,0,0,0,,What's wrong, Kazuha{\rHonori
 Dialogue: 0,0:56:22.36,0:56:25.24,Dialogue,,0,0,0,,Well, I've got a kinda bad feeling.
 Dialogue: 0,0:56:25.58,0:56:27.24,Dialogue,,0,0,0,,No luck calling his cellphone?
 Dialogue: 0,0:56:28.04,0:56:32.21,Dialogue,,0,0,0,,No, I just keep getting an out-of-range message.
-Dialogue: 0,0:56:28.04,0:56:34.69,Dialogue Top,,0,0,0,,{\3c&H0E54D2&\}The phone you have called is either in a location beyond\Nsignal range or can not be reached because it is not receiving power.
+Dialogue: 0,0:56:28.04,0:56:34.69,Dialogue Top,,0,0,0,,The phone you have called is either in a location beyond\Nsignal range or can not be reached because it is not receiving power.
 Dialogue: 0,0:56:32.42,0:56:33.21,Dialogue,,0,0,0,,I see.
 Dialogue: 0,0:56:33.67,0:56:36.84,Dialogue,,0,0,0,,Ran{\rHonorifics - Dialogue}-chan{\r}, you don't feel something's wrong?
 Dialogue: 0,0:56:37.80,0:56:43.05,Dialogue,,0,0,0,,I just have this feeling that something\Nhorrible is looming over Heiji and the others.
@@ -959,7 +960,7 @@ Dialogue: 0,0:56:57.82,0:57:00.28,Dialogue,,0,0,0,,Well, what about Conan{\rHono
 Dialogue: 0,0:57:00.86,0:57:01.53,Dialogue,,0,0,0,,Still nothing?
 Dialogue: 0,0:57:02.03,0:57:04.07,Dialogue,,0,0,0,,No, no luck there either.
 Dialogue: 0,0:57:04.57,0:57:09.87,Dialogue,,0,0,0,,I'd feel a lot better if the representative\Nfrom the East, Kudou{\rHonorifics - Dialogue}-kun{\r}, was with Heiji...
-Dialogue: 0,0:57:11.05,0:57:18.71,Dialogue Top,,0,0,0,,{\3c&H0E54D2&\}The phone you have called is either in a location beyond\Nsignal range or can not be reached because it is not receiving power.
+Dialogue: 0,0:57:11.05,0:57:18.71,Dialogue Top,,0,0,0,,The phone you have called is either in a location beyond\Nsignal range or can not be reached because it is not receiving power.
 Dialogue: 0,0:57:14.87,0:57:16.71,Dialogue,,0,0,0,,I can't reach Shinichi's cellphone either.
 Dialogue: 0,0:57:17.63,0:57:19.92,Dialogue,,0,0,0,,Could it be that Shinichi's there too?
 Dialogue: 0,0:57:36.75,0:57:40.05,Xtitle02,,0,0,0,,{\fad(250,250)\3c&HA12E72&\bord1\blur4}Purple\NScent or Lavender

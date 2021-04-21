@@ -33,11 +33,6 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: Signage,OSPuto,50,&H00FFFFFF,&H000000FF,&H80000000,&H00000000,-1,0,0,0,100,100,0,0,3,8,0,2,40,40,40,1
-Style: Copy of TitleCard,X-FilesM,40,&H00FFFFFF,&H000000FF,&H00A7A7A7,&HC0000000,-1,0,0,0,100,100,0,0,1,0,0,5,0,0,0,1Style: OPRomUnedited,Berlin Sans FB Macron,40,&HC00000FF,&H000000FF,&H00FFFFFF,&H603E3330,-1,0,0,0,100,100,1,0,1,4,1.6875,8,8,8,25,1Style: BCPrologue,Cocon-Regular,45,&H805E0036,&H000000FF,&H00FFFFFF,&H80000000,-1,0,0,0,100,100,1,0,1,5,2,2,10,10,30,1Style: Tsuzukiwa2,Nyala,100,&H00000000,&H000000FF,&H00FFFFFF,&H00000000,-1,0,0,0,100,100,0,0.1,1,0,0,5,10,10,10,1
-Style: ButterflyCore,Love Is Complicated Again,45,&H405E0036,&H000000FF,&H00FFFFFF,&H80000000,-1,0,0,0,100,100,1,0,1,3.5,0,8,10,10,30,1
-Style: ButterflyCore2,Love Is Complicated Again,45,&HFF5E0036,&H000000FF,&H80000000,&H80000000,-1,0,0,0,100,100,1,0,1,0.75,0,8,10,10,30,1
-Style: AitakuteRomaji,AlaskanNightsM,52,&H60DB9572,&H000000FF,&H00FFFFFF,&HC02F2F2F,-1,0,0,0,108,100,0,0,1,4,0,8,8,8,30,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -62,37 +57,11 @@ Dialogue: 0,0:01:25.77,0:01:29.19,Dialogue,,0000,0000,0000,,Doesn't that mean th
 Dialogue: 0,0:01:32.65,0:01:35.95,Dialogue,,0000,0000,0000,,Takeki{\rHonorifics - Dialogue}-san{\r} was murdered there...
 Dialogue: 0,0:01:39.41,0:01:41.78,Dialogue,,0000,0000,0000,,...by the person who sneakily opened the chest.
 Dialogue: 0,0:01:45.87,0:01:47.04,Dialogue,,0000,0000,0000,,By the leaker, that is!
-Dialogue: 0,0:02:01.71,0:02:05.25,BCPrologue,,0000,0000,0000,,{\blur4}Only the light of deductions can tear apart\Nblack shadows and deep darkness!
-Dialogue: 0,0:02:05.25,0:02:08.88,BCPrologue,,0000,0000,0000,,{\blur4}What is the trick to the chest,\Nand the key evidence that points out the killer?
-Dialogue: 0,0:02:08.88,0:02:10.38,BCPrologue,,0000,0000,0000,,{\blur4}He sees the single truth for what it is,
-Dialogue: 0,0:02:10.38,0:02:12.25,BCPrologue,,0000,0000,0000,,{\blur4}and looks like a kid but has the mind of an adult!
-Dialogue: 0,0:02:12.25,0:02:15.22,BCPrologue,,0000,0000,0000,,{\blur4}His name? Detective Conan!
-Dialogue: 0,0:01:48.24,0:01:53.28,ButterflyCore,,0000,0000,0000,,{\blur4\fad(200,0)}kage o mau chō no kodō ga seijaku no umi o saite
-Dialogue: 0,0:01:53.45,0:02:00.62,ButterflyCore,,0000,0000,0000,,{\blur4}kasanariau koe ga ima yami o furiharatta
-Dialogue: 0,0:01:48.24,0:01:53.28,ButterflyCore2,,0000,0000,0000,,{\fad(200,0)}kage o mau chō no kodō ga seijaku no umi o saite
-Dialogue: 0,0:01:53.45,0:02:00.62,ButterflyCore2,,0000,0000,0000,,kasanariau koe ga ima yami o furiharatta
-Dialogue: 0,0:02:15.18,0:02:20.60,ButterflyCore,,0000,0000,0000,,{\blur4\c&H005500}haritsuita ase o nugutte nigemawaru light o ketta
-Dialogue: 0,0:02:20.98,0:02:26.27,ButterflyCore,,0000,0000,0000,,{\blur4\c&H005500}kanashimi ni utareta kyō no kizuato kabau yō ni
-Dialogue: 0,0:02:26.44,0:02:31.74,ButterflyCore,,0000,0000,0000,,{\blur4\c&H005500}aseru hodo ni tōku natte wake mo naku imi o sagashite
-Dialogue: 0,0:02:31.90,0:02:37.66,ButterflyCore,,0000,0000,0000,,{\blur4\c&H005500\t(2500,3024,\c&H000055)}osanasa no ura ni kakushita yuzuritakunai omoi ni
-Dialogue: 0,0:02:37.78,0:02:42.46,ButterflyCore,,0000,0000,0000,,{\blur4\c&H000077}kizuita nara miushinawanai yō ni
-Dialogue: 0,0:02:42.62,0:02:48.42,ButterflyCore,,0000,0000,0000,,{\blur4\c&H770000}dareka o mamore'ru to motto ima shinjitai
-Dialogue: 0,0:02:48.63,0:02:53.68,ButterflyCore,,0000,0000,0000,,{\blur4\c&HAA0000}kage o mau chō no kodō ga seijaku no umi o saita
-Dialogue: 0,0:02:53.84,0:02:59.18,ButterflyCore,,0000,0000,0000,,{\blur4\c&H000077}kimi ni miseru itsuwari no subete ga uso ja nai daro
-Dialogue: 0,0:02:59.35,0:03:04.81,ButterflyCore,,0000,0000,0000,,{\blur4\c&HAA0000}mayo'u tabi suteta kotae mo kitto erabu hi wa mata kuru kara
-Dialogue: 0,0:03:04.98,0:03:13.90,ButterflyCore,,0000,0000,0000,,{\blur4\c&H006600}kono kokoro wa dare yori mo atsuku moyashi tsuzukeyō kienai yō ni
-Dialogue: 0,0:03:23.79,0:03:29.46,ButterflyCore,,0000,0000,0000,,{\blur4\c&H006600\fad(0,1000)}kienai yō ni
-Dialogue: 0,0:02:15.18,0:02:20.60,ButterflyCore2,,0000,0000,0000,,haritsuita ase o nugutte nigemawaru light o ketta
-Dialogue: 0,0:02:20.98,0:02:26.27,ButterflyCore2,,0000,0000,0000,,kanashimi ni utareta kyō no kizuato kabau yō ni
-Dialogue: 0,0:02:26.44,0:02:31.74,ButterflyCore2,,0000,0000,0000,,aseru hodo ni tōku natte wake mo naku imi o sagashite
-Dialogue: 0,0:02:31.86,0:02:37.66,ButterflyCore2,,0000,0000,0000,,osanasa no ura ni kakushita yuzuritakunai omoi ni
-Dialogue: 0,0:02:37.78,0:02:42.46,ButterflyCore2,,0000,0000,0000,,kizuita nara miushinawanai yō ni
-Dialogue: 0,0:02:42.62,0:02:48.42,ButterflyCore2,,0000,0000,0000,,dareka o mamore'ru to motto ima shinjitai
-Dialogue: 0,0:02:48.63,0:02:53.68,ButterflyCore2,,0000,0000,0000,,kage o mau chō no kodō ga seijaku no umi o saita
-Dialogue: 0,0:02:53.84,0:02:59.18,ButterflyCore2,,0000,0000,0000,,kimi ni miseru itsuwari no subete ga uso ja nai daro
-Dialogue: 0,0:02:59.35,0:03:04.81,ButterflyCore2,,0000,0000,0000,,mayo'u tabi suteta kotae mo kitto erabu hi wa mata kuru kara
-Dialogue: 0,0:03:04.98,0:03:13.90,ButterflyCore2,,0000,0000,0000,,{\3c&H006600}kono kokoro wa dare yori mo atsuku moyashi tsuzukeyō kienai yō ni
-Dialogue: 0,0:03:23.79,0:03:29.46,ButterflyCore2,,0000,0000,0000,,{\fad(0,1000)\3c&H006600}kienai yō ni
+Dialogue: 0,0:02:01.71,0:02:05.25,Narration Off,,0000,0000,0000,,{\be10}Only the light of deductions can tear apart\Nblack shadows and deep darkness!
+Dialogue: 0,0:02:05.25,0:02:08.88,Narration Off,,0000,0000,0000,,{\be10}What is the trick to the chest,\Nand the key evidence that points out the killer?
+Dialogue: 0,0:02:08.88,0:02:10.38,Narration Off,,0000,0000,0000,,{\be10}He sees the single truth for what it is,
+Dialogue: 0,0:02:10.38,0:02:12.25,Narration Off,,0000,0000,0000,,{\be10}and looks like a kid but has the mind of an adult!
+Dialogue: 0,0:02:12.25,0:02:15.22,Narration Off,,0000,0000,0000,,{\be10}His name? Detective Conan!
 Dialogue: 0,0:03:43.14,0:03:44.31,Dialogue,,0000,0000,0000,,Ah! There he is, there he is!
 Dialogue: 0,0:03:45.81,0:03:47.81,Dialogue,,0000,0000,0000,,Isn't this Takeki{\rHonorifics - Dialogue}-san{\r}?
 Dialogue: 0,0:03:47.81,0:03:51.36,Dialogue,,0000,0000,0000,,Look, he's looking all around before\Nhe goes into the storage room.
@@ -210,7 +179,7 @@ Dialogue: 0,0:10:47.23,0:10:49.70,Dialogue,,0000,0000,0000,,Are you telling me y
 Dialogue: 0,0:10:49.70,0:10:51.82,Dialogue,,0000,0000,0000,,That's not what I mean!
 Dialogue: 0,0:10:52.91,0:10:56.83,Dialogue,,0000,0000,0000,,You only get that feeling because that tomboy's came back from overseas.
 Dialogue: 0,0:10:57.87,0:10:59.79,Dialogue,,0000,0000,0000,,How could that be?
-Dialogue: 0,0:10:59.79,0:11:06.00,Dialogue,,0000,0000,0000,,Well, she's from overseas,\Nso you hear sounds from {\i1}over{\i0} the {\i1}seas{\i0}!{ほら　海外だから　海の外！\Nから　きたわけで！\N}
+Dialogue: 0,0:10:59.79,0:11:06.00,Dialogue,,0000,0000,0000,,Well, she's from overseas,\Nso you hear sounds from {\i1}over{\i0} the {\i1}seas{\i0}!{ほら　海外だから　海の外！\Nから　きたわけで！}
 Dialogue: 0,0:11:07.38,0:11:09.13,Thoughts,,0000,0000,0000,,{\be10}Dad jokes are the worst.
 Dialogue: 0,0:11:09.13,0:11:11.22,Dialogue Top,,0000,0000,0000,,'Storage Room 3'
 Dialogue: 0,0:11:09.38,0:11:11.22,Dialogue,,0000,0000,0000,,Why can't you let us in?!
@@ -244,7 +213,6 @@ Dialogue: 0,0:12:49.48,0:12:52.61,Dialogue,,0000,0000,0000,,I bet you'll be surp
 Dialogue: 0,0:12:53.98,0:12:56.99,Dialogue,,0000,0000,0000,,Hey, I don't see Conan{\rHonorifics - Dialogue}-kun{\r} anywhere.
 Dialogue: 0,0:12:56.99,0:12:59.87,Dialogue,,0000,0000,0000,,Isn't he with Sera{\rHonorifics - Dialogue}-san{\r}?
 Dialogue: 0,0:13:00.24,0:13:01.41,Dialogue,,0000,0000,0000,,This is the room.
-Dialogue: 0,0:12:59.87,0:13:01.87,Signage,,0000,0000,0000,,{\blur0.6\bord0\c0\move(618,510,677,510)}Waiting Room C
 Dialogue: 0,0:13:06.00,0:13:09.50,Dialogue,,0000,0000,0000,,Welcome to Masumi Sera's\NMagical Mansion!
 Dialogue: 0,0:13:10.58,0:13:12.18,Dialogue,,0000,0000,0000,,Hey! Don't tell me...
 Dialogue: 0,0:13:12.18,0:13:16.63,Dialogue,,0000,0000,0000,,Are you sitting on the chest\Nthat the victim was in?
@@ -355,15 +323,7 @@ Dialogue: 0,0:20:37.03,0:20:41.99,Dialogue,,0000,0000,0000,,But since you haven'
 Dialogue: 0,0:20:41.99,0:20:44.41,Dialogue,,0000,0000,0000,,So they're bound to come\Nout pretty soon, right?
 Dialogue: 0,0:20:44.41,0:20:48.42,Dialogue,,0000,0000,0000,,The blender wouldn't have completely crushed those seeds, which are from a rare breed of apple.
 Dialogue: 0,0:20:53.51,0:20:56.93,Dialogue,,0000,0000,0000,,Once those come out,\Nit'll be case closed.
-Dialogue: 0,0:20:56.93,0:21:00.39,Dialogue,,0000,0000,0000,,Dare I say it looks like your\Nluck is getting really crappy?{まさにウンの尽きってわけさ！\N}
-Dialogue: 0,0:21:13.35,0:21:20.69,AitakuteRomaji,,0000,0000,0000,,{\blur3}denwa ga naru tabi kono mune ga zawameku
-Dialogue: 0,0:21:21.02,0:21:28.03,AitakuteRomaji,,0000,0000,0000,,{\blur3}demo kikoetekuru no wa kimi no koe ja nai
-Dialogue: 0,0:21:30.20,0:21:37.04,AitakuteRomaji,,0000,0000,0000,,{\blur3}ima kimi wa doko ni iru no nani shite'ru no
-Dialogue: 0,0:21:37.75,0:21:46.63,AitakuteRomaji,,0000,0000,0000,,{\blur3}kami{\fsp-2\fs40}- {\fsp\fs}sama ni negai todoku nara mō ichido dake
-Dialogue: 0,0:21:47.22,0:21:54.10,AitakuteRomaji,,0000,0000,0000,,{\blur3}aitakute kimi ni aitakute
-Dialogue: 0,0:21:54.60,0:22:03.06,AitakuteRomaji,,0000,0000,0000,,{\blur3}ima mo kono mune wa kimi{\fsp-2\fs40}- {\fsp\fs}iro ni somaru (dakishimetakute)
-Dialogue: 0,0:22:03.23,0:22:10.24,AitakuteRomaji,,0000,0000,0000,,{\blur3}setsunakute nido to aenai nara
-Dialogue: 0,0:22:10.57,0:22:18.54,AitakuteRomaji,,0000,0000,0000,,{\fad(0,1000)\blur3}maichiru yuki shiroku kono kokoro somete
+Dialogue: 0,0:20:56.93,0:21:00.39,Dialogue,,0000,0000,0000,,Dare I say it looks like your\Nluck is getting really crappy?{まさにウンの尽きってわけさ！}
 Dialogue: 0,0:22:22.33,0:22:26.08,Dialogue Top,,0000,0000,0000,,Oh! It's on the online news!
 Dialogue: 0,0:22:26.08,0:22:27.80,Dialogue Top,,0000,0000,0000,,Just like you said, Sera{\rHonorifics - Dialogue}-san{\r}...
 Dialogue: 0,0:22:27.80,0:22:31.96,Dialogue Top,,0000,0000,0000,,the seeds that came out of the assistant director are a match with the mystery fruit in the show!

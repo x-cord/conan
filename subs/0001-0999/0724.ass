@@ -33,9 +33,6 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: Tsuzukiwa,Nyala,100,&HFE000000,&H000000FF,&H00FFFFFF,&H00000000,-1,0,0,0,100,100,0,0.1,1,6,0,5,10,10,10,1Style: PlaceCard,Corbel,35,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,2,2,100,100,30,1Style: ButterflyCore2,Love Is Complicated Again,45,&HFF5E0036,&H000000FF,&H80000000,&H80000000,-1,0,0,0,100,100,1,0,1,0.75,0,8,10,10,30,1
-Style: BCPrologue,Cocon-Regular,45,&H805E0036,&H000000FF,&H00FFFFFF,&H80000000,-1,0,0,0,100,100,1,0,1,5,2,2,10,10,30,1
-Style: AitakuteRomaji,AlaskanNightsM,52,&H60DB9572,&H000000FF,&H00FFFFFF,&HC02F2F2F,-1,0,0,0,108,100,0,0,1,4,0,8,8,8,30,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -78,12 +75,12 @@ Dialogue: 0,0:01:17.38,0:01:20.82,Dialogue,,0,0,0,,It's the 20th anniversary of 
 Dialogue: 0,0:01:22.75,0:01:24.44,Dialogue,,0,0,0,,And so...
 Dialogue: 0,0:01:24.44,0:01:30.48,Dialogue,,0,0,0,,All of us involved with the series will be giving all we can more than ever...
 Dialogue: 0,0:01:31.68,0:01:35.05,Dialogue,,0,0,0,,So please keep watching!
-Dialogue: 0,0:01:51.95,0:01:55.90,BCPrologue,,0,0,0,,{\blur3\fad(100,0)＜影の黒さと闇の濃さ\N切り裂いてくのが推理の光＞\N}Only the light of deductions can tear apart black shadows and deep darkness!
-Dialogue: 0,0:01:55.90,0:01:59.64,BCPrologue,,0,0,0,,{\blur3}Kid's after a crimson diamond.\NTime to unveil his illustrious trick!
-Dialogue: 0,0:01:59.64,0:02:01.24,BCPrologue,,0,0,0,,{\blur3＜たった１つの真実　見抜く\N}He sees the single truth for what it is,
-Dialogue: 0,0:02:01.24,0:02:02.94,BCPrologue,,0,0,0,,{\blur3見た目は子供　頭脳は大人＞\N}and looks like a kid but has the mind of an adult!
-Dialogue: 0,0:02:02.94,0:02:05.24,BCPrologue,,0,0,0,,{\blur3\fad(0,250)＜その名は　名探偵コナン！＞\N}His name? Detective Conan!
-Dialogue: 0,0:03:31.26,0:03:39.81,Narration Off,,0,0,0,,{\be10\fad(200,0)}Advisor Jirokichi Suzuki sponsored a special trip for the Bell Tree Express, hoping to capture Kaitō Kid.
+Dialogue: 0,0:01:51.95,0:01:55.90,Narration Off,,0,0,0,,{\be10＜影の黒さと闇の濃さ\N切り裂いてくのが推理の光＞}Only the light of deductions can tear apart black shadows and deep darkness!
+Dialogue: 0,0:01:55.90,0:01:59.64,Narration Off,,0,0,0,,{\be10}Kid's after a crimson diamond.\NTime to unveil his illustrious trick!
+Dialogue: 0,0:01:59.64,0:02:01.24,Narration Off,,0,0,0,,{\be10＜たった１つの真実　見抜く}He sees the single truth for what it is,
+Dialogue: 0,0:02:01.24,0:02:02.94,Narration Off,,0,0,0,,{\be10見た目は子供　頭脳は大人＞}and looks like a kid but has the mind of an adult!
+Dialogue: 0,0:02:02.94,0:02:05.24,Narration Off,,0,0,0,,{\be10＜その名は　名探偵コナン！＞}His name? Detective Conan!
+Dialogue: 0,0:03:31.26,0:03:39.81,Narration Off,,0,0,0,,{\be10}Advisor Jirokichi Suzuki sponsored a special trip for the Bell Tree Express, hoping to capture Kaitō Kid.
 Dialogue: 0,0:03:39.81,0:03:45.84,Narration Off,,0,0,0,,{\be10}But the men in black took over the train in their attempts to erase Sherry — a.k.a. Ai Haibara.
 Dialogue: 0,0:03:48.26,0:03:54.61,Narration Off,,0,0,0,,{\be10}And even Kaitō Kid, who was on the train to inspect it, ended up caught in the explosion when a carriage blew up.
 Dialogue: 0,0:03:55.43,0:03:58.49,Dialogue,,0,0,0,,What's the meaning of this, Superintendent Chaki?!
@@ -230,7 +227,7 @@ Dialogue: 0,0:13:21.08,0:13:23.88,Dialogue,,0,0,0,,When we were touring the muse
 Dialogue: 0,0:13:23.88,0:13:25.43,Dialogue,,0,0,0,,You didn't notice?
 Dialogue: 0,0:13:28.73,0:13:29.50,Dialogue,,0,0,0,,Kid!
 Dialogue: 0,0:13:29.50,0:13:31.52,Dialogue,,0,0,0,,Kid! Kid! Kid!
-Dialogue: 0,0:13:31.52,0:13:34.73,Dialogue,,0,0,0,,{\fad(0,250)}Kid! Kid! Kid! Kid!
+Dialogue: 0,0:13:31.52,0:13:34.73,Dialogue,,0,0,0,,Kid! Kid! Kid! Kid!
 Dialogue: 0,0:13:45.15,0:13:48.43,Dialogue,,0,0,0,,The cheering for Kid's getting pretty loud.
 Dialogue: 0,0:13:49.58,0:13:52.90,Dialogue,,0,0,0,,How long until Kid{\rHonorifics - Dialogue}-sama{\r} appears?
 Dialogue: 0,0:13:52.90,0:13:54.71,Dialogue,,0,0,0,,Let's see...
@@ -366,37 +363,3 @@ Dialogue: 0,0:24:04.80,0:24:09.84,Dialogue,,0,0,0,,Next Conan's Hint: Magnet!
 Dialogue: 0,0:24:09.84,0:24:11.52,Dialogue Top,,0,0,0,,I was barely {\i1}in{\i0} the episode!
 Dialogue: 0,0:24:11.52,0:24:13.09,Dialogue Top,,0,0,0,,You were there all along in disguise, weren't you?
 Dialogue: 0,0:24:13.09,0:24:14.18,Dialogue Top,,0,0,0,,You never know!
-Dialogue: 0,0:01:38.93,0:01:43.98,ButterflyCore,,0,0,0,,{\blur4\fad(200,0)}kage o mau chō no kodō ga seijaku no umi o saite
-Dialogue: 0,0:01:44.15,0:01:51.28,ButterflyCore,,0,0,0,,{\blur4}kasanariau koe ga ima yami o furiharatta
-Dialogue: 0,0:02:05.92,0:02:11.34,ButterflyCore,,0,0,0,,{\blur4\c&H005500}haritsuita ase o nugutte nigemawaru light o ketta
-Dialogue: 0,0:02:11.68,0:02:17.01,ButterflyCore,,0,0,0,,{\blur4\c&H005500}kanashimi ni utareta kyō no kizuato kabau yō ni
-Dialogue: 0,0:02:17.18,0:02:22.48,ButterflyCore,,0,0,0,,{\blur4\c&H005500}aseru hodo ni tōku natte wake mo naku imi o sagashite
-Dialogue: 0,0:02:22.64,0:02:28.40,ButterflyCore,,0,0,0,,{\blur4\c&H005500\t(2500,3024,\c&H000055)}osanasa no ura ni kakushita yuzuritakunai omoi ni
-Dialogue: 0,0:02:28.53,0:02:33.24,ButterflyCore,,0,0,0,,{\blur4\c&H000077}kizuita nara miushinawanai yō ni
-Dialogue: 0,0:02:33.36,0:02:39.16,ButterflyCore,,0,0,0,,{\blur4\c&H770000}dareka o mamore'ru to motto ima shinjitai
-Dialogue: 0,0:02:39.37,0:02:44.42,ButterflyCore,,0,0,0,,{\blur4\c&HAA0000}kage o mau chō no kodō ga seijaku no umi o saita
-Dialogue: 0,0:02:44.58,0:02:49.92,ButterflyCore,,0,0,0,,{\blur4\c&H000077}kimi ni miseru itsuwari no subete ga uso ja nai daro
-Dialogue: 0,0:02:50.09,0:02:55.55,ButterflyCore,,0,0,0,,{\blur4\c&HAA0000}mayo'u tabi suteta kotae mo kitto erabu hi wa mata kuru kara
-Dialogue: 0,0:02:55.72,0:03:04.64,ButterflyCore,,0,0,0,,{\blur4\c&H006600}kono kokoro wa dare yori mo atsuku moyashi tsuzukeyō kienai yō ni
-Dialogue: 0,0:03:14.57,0:03:20.16,ButterflyCore,,0,0,0,,{\blur4\c&H006600\fad(0,1000)}kienai yō ni
-Dialogue: 0,0:01:38.93,0:01:43.98,ButterflyCore2,,0,0,0,,{\fad(200,0)}kage o mau chō no kodō ga seijaku no umi o saite
-Dialogue: 0,0:01:44.15,0:01:51.28,ButterflyCore2,,0,0,0,,kasanariau koe ga ima yami o furiharatta
-Dialogue: 0,0:02:05.92,0:02:11.34,ButterflyCore2,,0,0,0,,haritsuita ase o nugutte nigemawaru light o ketta
-Dialogue: 0,0:02:11.68,0:02:17.01,ButterflyCore2,,0,0,0,,kanashimi ni utareta kyō no kizuato kabau yō ni
-Dialogue: 0,0:02:17.18,0:02:22.48,ButterflyCore2,,0,0,0,,aseru hodo ni tōku natte wake mo naku imi o sagashite
-Dialogue: 0,0:02:22.64,0:02:28.40,ButterflyCore2,,0,0,0,,osanasa no ura ni kakushita yuzuritakunai omoi ni
-Dialogue: 0,0:02:28.53,0:02:33.24,ButterflyCore2,,0,0,0,,kizuita nara miushinawanai yō ni
-Dialogue: 0,0:02:33.36,0:02:39.16,ButterflyCore2,,0,0,0,,dareka o mamore'ru to motto ima shinjitai
-Dialogue: 0,0:02:39.37,0:02:44.42,ButterflyCore2,,0,0,0,,kage o mau chō no kodō ga seijaku no umi o saita
-Dialogue: 0,0:02:44.58,0:02:49.92,ButterflyCore2,,0,0,0,,kimi ni miseru itsuwari no subete ga uso ja nai daro
-Dialogue: 0,0:02:50.09,0:02:55.55,ButterflyCore2,,0,0,0,,mayo'u tabi suteta kotae mo kitto erabu hi wa mata kuru kara
-Dialogue: 0,0:02:55.72,0:03:04.64,ButterflyCore2,,0,0,0,,{\3c&H006600}kono kokoro wa dare yori mo atsuku moyashi tsuzukeyō kienai yō ni
-Dialogue: 0,0:03:14.57,0:03:20.16,ButterflyCore2,,0,0,0,,{\fad(0,1000)\3c&H006600}kienai yō ni
-Dialogue: 0,0:22:25.96,0:22:33.30,AitakuteRomaji,,0,0,0,,{\blur3}denwa ga naru tabi kono mune ga zawameku
-Dialogue: 0,0:22:33.64,0:22:40.64,AitakuteRomaji,,0,0,0,,{\blur3}demo kikoetekuru no wa kimi no koe ja nai
-Dialogue: 0,0:22:42.81,0:22:49.65,AitakuteRomaji,,0,0,0,,{\blur3}ima kimi wa doko ni iru no nani shite'ru no
-Dialogue: 0,0:22:50.36,0:22:59.20,AitakuteRomaji,,0,0,0,,{\blur3}kami{\fsp-2\fs40}- {\fsp\fs}sama ni negai todoku nara mō ichido dake
-Dialogue: 0,0:22:59.87,0:23:06.71,AitakuteRomaji,,0,0,0,,{\blur3}aitakute kimi ni aitakute
-Dialogue: 0,0:23:07.21,0:23:15.68,AitakuteRomaji,,0,0,0,,{\blur3}ima mo kono mune wa kimi{\fsp-2\fs40}- {\fsp\fs}iro ni somaru (dakishimetakute)
-Dialogue: 0,0:23:15.85,0:23:22.85,AitakuteRomaji,,0,0,0,,{\blur3}setsunakute nido to aenai nara
-Dialogue: 0,0:23:23.19,0:23:31.15,AitakuteRomaji,,0,0,0,,{\fad(0,1000)\blur3}maichiru yuki shiroku kono kokoro somete

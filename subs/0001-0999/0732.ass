@@ -33,10 +33,6 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: Tsuzukiwa,Nyala,100,&HFE000000,&H000000FF,&H00FFFFFF,&H00000000,-1,0,0,0,100,100,0,0.1,1,6,0,5,10,10,10,1Style: FlashbackThoughts,OSPuto,50,&H4B370001,&H000000FF,&H00CCFFFF,&HC0000000,-1,0,0,0,94,100,0,0,1,2.6,2,2,100,100,30,1
-Style: PlaceCard,Corbel,35,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,2,2,100,100,30,1Style: ButterflyCore2,Love Is Complicated Again,45,&HFF5E0036,&H000000FF,&H80000000,&H80000000,-1,0,0,0,100,100,1,0,1,0.75,0,8,10,10,30,1
-Style: BCPrologue,Cocon-Regular,45,&H805E0036,&H000000FF,&H00FFFFFF,&H80000000,-1,0,0,0,100,100,1,0,1,5,2,2,10,10,30,1
-Style: AitakuteRomaji,AlaskanNightsM,52,&H60DB9572,&H000000FF,&H00FFFFFF,&HC02F2F2F,-1,0,0,0,108,100,0,0,1,4,0,8,8,8,30,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -49,12 +45,12 @@ Dialogue: 0,0:00:29.32,0:00:31.63,Dialogue,,0,0,0,,A well-prepared move...
 Dialogue: 0,0:00:31.63,0:00:34.34,Dialogue,,0,0,0,,That's what it was.
 Dialogue: 0,0:00:35.12,0:00:38.05,Thoughts,,0,0,0,,{\be10}A well-prepared move?
 Dialogue: 0,0:00:38.05,0:00:40.00,Thoughts,,0,0,0,,{\be10}Could that mean...
-Dialogue: 0,0:00:53.24,0:00:56.80,BCPrologue,,0,0,0,,{\blur3\fad(200,0)}Only the light of deductions can tear apart black shadows and deep darkness!
-Dialogue: 0,0:00:56.80,0:00:58.99,BCPrologue,,0,0,0,,{\blur3}The suspect is Yumi Miyamoto's ex-boyfriend?!
-Dialogue: 0,0:00:58.99,0:01:01.05,BCPrologue,,0,0,0,,{\blur3}With the case in check, it's time to play your deduction!
-Dialogue: 0,0:01:01.05,0:01:02.62,BCPrologue,,0,0,0,,{\blur3}He sees the single truth for what it is,
-Dialogue: 0,0:01:02.62,0:01:04.60,BCPrologue,,0,0,0,,{\blur3}and looks like a kid but has the mind of an adult!
-Dialogue: 0,0:01:04.60,0:01:07.17,BCPrologue,,0,0,0,,{\blur3}His name? Detective Conan!
+Dialogue: 0,0:00:53.24,0:00:56.80,Narration Off,,0,0,0,,{\be10}Only the light of deductions can tear apart black shadows and deep darkness!
+Dialogue: 0,0:00:56.80,0:00:58.99,Narration Off,,0,0,0,,{\be10}The suspect is Yumi Miyamoto's ex-boyfriend?!
+Dialogue: 0,0:00:58.99,0:01:01.05,Narration Off,,0,0,0,,{\be10}With the case in check, it's time to play your deduction!
+Dialogue: 0,0:01:01.05,0:01:02.62,Narration Off,,0,0,0,,{\be10}He sees the single truth for what it is,
+Dialogue: 0,0:01:02.62,0:01:04.60,Narration Off,,0,0,0,,{\be10}and looks like a kid but has the mind of an adult!
+Dialogue: 0,0:01:04.60,0:01:07.17,Narration Off,,0,0,0,,{\be10}His name? Detective Conan!
 Dialogue: 0,0:02:32.60,0:02:33.39,Dialogue,,0,0,0,,Inspector Megure!
 Dialogue: 0,0:02:34.52,0:02:36.85,Dialogue,,0,0,0,,A suspicious person was spotted here!
 Dialogue: 0,0:02:36.85,0:02:37.59,Dialogue,,0,0,0,,What?!
@@ -342,8 +338,6 @@ Dialogue: 0,0:22:01.10,0:22:03.06,Dialogue,,0,0,0,,But being a {\i1}meijin{\i0}'
 Dialogue: 0,0:22:03.06,0:22:06.46,Dialogue,,0,0,0,,Then what are the seven things he's trying to collect?
 Dialogue: 0,0:22:07.06,0:22:09.72,Dialogue,,0,0,0,,Well, it's shōgi, so the seven things have to be...
 Dialogue: 0,0:22:13.67,0:22:15.72,Signs,,0,0,0,,Many years ago
-Dialogue: 0,0:22:17.31,0:22:19.97,FlashbackThoughts,,0,0,0,,{\blur3\blur3}I did it, Yumi{\rHonorifics - FlashbackThoughts}-tan{\r}!
-Dialogue: 0,0:22:19.97,0:22:22.97,FlashbackThoughts,,0,0,0,,{\blur3\blur3}I finally won the title of '{\i1}meijin{\i0}'!
 Dialogue: 0,0:22:22.97,0:22:24.35,Flashback,,0,0,0,,{\be10}Yumi{\rHonorifics - Flashback\be10}-tan{\r\be10}!
 Dialogue: 0,0:22:25.16,0:22:27.48,Flashback,,0,0,0,,{\be10}Geez. You're late, Shūkissy!
 Dialogue: 0,0:22:28.08,0:22:31.06,Flashback,,0,0,0,,{\be10}Sorry, sorry. I had a pretty long battle.
@@ -363,45 +357,3 @@ Dialogue: 0,0:23:21.99,0:23:25.45,Dialogue,,0,0,0,,That's right! He's actually�
 Dialogue: 0,0:23:25.45,0:23:30.60,Thoughts,,0,0,0,,{\be10}master
 Dialogue: 0,0:23:25.45,0:23:30.60,Thoughts,,0,0,0,,{\be10}master
 Dialogue: 0,0:23:25.45,0:23:30.60,Dialogue,,0,0,0,,It's some silly made-up title like 'fishing {\i1}meijin{\i0}'{furinote: master} or 'game {\i1}meijin{\i0}', right?
-Dialogue: 0,0:23:05.14,0:23:06.67,FlashbackThoughts,,0,0,0,,{\blur3\blur3}Giō.
-Dialogue: 0,0:23:06.67,0:23:07.77,FlashbackThoughts,,0,0,0,,{\blur3\blur3}Ōshō.
-Dialogue: 0,0:23:07.77,0:23:09.05,FlashbackThoughts,,0,0,0,,{\blur3\blur3}Ōza.
-Dialogue: 0,0:23:09.05,0:23:10.17,FlashbackThoughts,,0,0,0,,{\blur3\blur3}Kisei.
-Dialogue: 0,0:23:10.17,0:23:11.32,FlashbackThoughts,,0,0,0,,{\blur3\blur3}Ōi.
-Dialogue: 0,0:23:11.32,0:23:12.35,FlashbackThoughts,,0,0,0,,{\blur3\blur3}Ryū-ō.
-Dialogue: 0,0:23:12.35,0:23:14.35,FlashbackThoughts,,0,0,0,,{\blur3\blur3}Meijin.
-Dialogue: 0,0:23:15.20,0:23:17.65,FlashbackThoughts,,0,0,0,,{\blur3\blur3}The seven shōgi titles!
-Dialogue: 0,0:00:40.27,0:00:45.31,ButterflyCore,,0,0,0,,{\blur4\fad(200,0)}kage o mau chō no kodō ga seijaku no umi o saite
-Dialogue: 0,0:00:45.48,0:00:52.65,ButterflyCore,,0,0,0,,{\blur4}kasanariau koe ga ima yami o furiharatta
-Dialogue: 0,0:01:07.17,0:01:12.59,ButterflyCore,,0,0,0,,{\blur4\c&H005500}haritsuita ase o nugutte nigemawaru light o ketta
-Dialogue: 0,0:01:12.97,0:01:18.26,ButterflyCore,,0,0,0,,{\blur4\c&H005500}kanashimi ni utareta kyō no kizuato kabau yō ni
-Dialogue: 0,0:01:18.43,0:01:23.73,ButterflyCore,,0,0,0,,{\blur4\c&H005500}aseru hodo ni tōku natte wake mo naku imi o sagashite
-Dialogue: 0,0:01:23.89,0:01:29.65,ButterflyCore,,0,0,0,,{\blur4\c&H005500\t(2500,3024,\c&H000055)}osanasa no ura ni kakushita yuzuritakunai omoi ni
-Dialogue: 0,0:01:29.77,0:01:34.45,ButterflyCore,,0,0,0,,{\blur4\c&H000077}kizuita nara miushinawanai yō ni
-Dialogue: 0,0:01:34.61,0:01:40.41,ButterflyCore,,0,0,0,,{\blur4\c&H770000}dareka o mamore'ru to motto ima shinjitai
-Dialogue: 0,0:01:40.62,0:01:45.67,ButterflyCore,,0,0,0,,{\blur4\c&HAA0000}kage o mau chō no kodō ga seijaku no umi o saita
-Dialogue: 0,0:01:45.83,0:01:51.17,ButterflyCore,,0,0,0,,{\blur4\c&H000077}kimi ni miseru itsuwari no subete ga uso ja nai daro
-Dialogue: 0,0:01:51.34,0:01:56.80,ButterflyCore,,0,0,0,,{\blur4\c&HAA0000}mayo'u tabi suteta kotae mo kitto erabu hi wa mata kuru kara
-Dialogue: 0,0:01:56.97,0:02:05.89,ButterflyCore,,0,0,0,,{\blur4\c&H006600}kono kokoro wa dare yori mo atsuku moyashi tsuzukeyō kienai yō ni
-Dialogue: 0,0:02:15.78,0:02:21.37,ButterflyCore,,0,0,0,,{\blur4\c&H006600\fad(0,1000)}kienai yō ni
-Dialogue: 0,0:00:40.27,0:00:45.31,ButterflyCore2,,0,0,0,,{\fad(200,0)}kage o mau chō no kodō ga seijaku no umi o saite
-Dialogue: 0,0:00:45.48,0:00:52.65,ButterflyCore2,,0,0,0,,kasanariau koe ga ima yami o furiharatta
-Dialogue: 0,0:01:07.17,0:01:12.59,ButterflyCore2,,0,0,0,,haritsuita ase o nugutte nigemawaru light o ketta
-Dialogue: 0,0:01:12.97,0:01:18.26,ButterflyCore2,,0,0,0,,kanashimi ni utareta kyō no kizuato kabau yō ni
-Dialogue: 0,0:01:18.43,0:01:23.73,ButterflyCore2,,0,0,0,,aseru hodo ni tōku natte wake mo naku imi o sagashite
-Dialogue: 0,0:01:23.89,0:01:29.65,ButterflyCore2,,0,0,0,,osanasa no ura ni kakushita yuzuritakunai omoi ni
-Dialogue: 0,0:01:29.77,0:01:34.45,ButterflyCore2,,0,0,0,,kizuita nara miushinawanai yō ni
-Dialogue: 0,0:01:34.61,0:01:40.41,ButterflyCore2,,0,0,0,,dareka o mamore'ru to motto ima shinjitai
-Dialogue: 0,0:01:40.62,0:01:45.67,ButterflyCore2,,0,0,0,,kage o mau chō no kodō ga seijaku no umi o saita
-Dialogue: 0,0:01:45.83,0:01:51.17,ButterflyCore2,,0,0,0,,kimi ni miseru itsuwari no subete ga uso ja nai daro
-Dialogue: 0,0:01:51.34,0:01:56.80,ButterflyCore2,,0,0,0,,mayo'u tabi suteta kotae mo kitto erabu hi wa mata kuru kara
-Dialogue: 0,0:01:56.97,0:02:05.89,ButterflyCore2,,0,0,0,,{\3c&H006600}kono kokoro wa dare yori mo atsuku moyashi tsuzukeyō kienai yō ni
-Dialogue: 0,0:02:15.78,0:02:21.37,ButterflyCore2,,0,0,0,,{\fad(0,1000)\3c&H006600}kienai yō ni
-Dialogue: 0,0:19:37.44,0:19:44.78,AitakuteRomaji,,0,0,0,,{\blur3}denwa ga naru tabi kono mune ga zawameku
-Dialogue: 0,0:19:45.11,0:19:52.12,AitakuteRomaji,,0,0,0,,{\blur3}demo kikoetekuru no wa kimi no koe ja nai
-Dialogue: 0,0:19:54.33,0:20:01.13,AitakuteRomaji,,0,0,0,,{\blur3}ima kimi wa doko ni iru no nani shite'ru no
-Dialogue: 0,0:20:01.84,0:20:10.72,AitakuteRomaji,,0,0,0,,{\blur3}kami{\fsp-2\fs40}- {\fsp\fs}sama ni negai todoku nara mō ichido dake
-Dialogue: 0,0:20:11.35,0:20:18.19,AitakuteRomaji,,0,0,0,,{\blur3}aitakute kimi ni aitakute
-Dialogue: 0,0:20:18.69,0:20:27.15,AitakuteRomaji,,0,0,0,,{\blur3}ima mo kono mune wa kimi{\fsp-2\fs40}- {\fsp\fs}iro ni somaru (dakishimetakute)
-Dialogue: 0,0:20:27.32,0:20:34.33,AitakuteRomaji,,0,0,0,,{\blur3}setsunakute nido to aenai nara
-Dialogue: 0,0:20:34.66,0:20:42.63,AitakuteRomaji,,0,0,0,,{\fad(0,1000)\blur3}maichiru yuki shiroku kono kokoro somete

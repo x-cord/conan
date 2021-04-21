@@ -8,13 +8,6 @@ PlayResY: 1080
 ScaledBorderAndShadow: yes
 YCbCr Matrix: TV.601
 
-[WinxBloom1980].mp4
-Video File: Detective Conan Ep.0640 [WinxBloom1980].mp4
-Video AR Mode: 4
-Video AR Value: 1.777778
-Video Zoom Percent: 0.750000
-Video Position: 34526
-
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
 Style: Dialogue,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00401311,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
@@ -42,6 +35,7 @@ Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
 Style: Text,Arial,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,3,0,2,0,0,0,1
 Style: Adds,Arial,50,&H00FFFFFF,&H000000FF,&H003B5F1B,&H00000000,0,0,0,0,100,100,0,0,1,2,0,7,15,15,15,1
+
 [Events]
 Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
 Dialogue: 0,0:00:05.31,0:00:07.66,Dialogue,,0,0,0,,Okayama, Okayama.
@@ -86,11 +80,11 @@ Dialogue: 0,0:04:10.70,0:04:14.71,Signs,,0,0,0,,Okayama Korakuen Garden
 Dialogue: 0,0:04:17.67,0:04:22.59,Signs,,0,0,0,,♪ Waiting for the person who...
 Dialogue: 0,0:04:17.57,0:04:18.74,Dialogue,,0,0,0,,There are turtles.
 Dialogue: 0,0:04:18.74,0:04:19.80,Dialogue,,0,0,0,,Where?
-Dialogue: 0,0:04:23.38,0:04:28.05,Signs,,0,0,0,, ♪ Never came in sight...
+Dialogue: 0,0:04:23.38,0:04:28.05,Signs,,0,0,0,,♪ Never came in sight...
 Dialogue: 0,0:04:29.81,0:04:34.06,Signs,,0,0,0,,♪ Like the evening primrose...
 Dialogue: 0,0:04:34.88,0:04:40.06,Dialogue,,0,0,0,,Okayama is also the birthplace of the famous Takehisa\NYumeji, commonly known for his paintings of beauties.
 Dialogue: 0,0:04:40.60,0:04:42.22,Dialogue,,0,0,0,,I think I've heard that before.
-Dialogue: 0,0:04:42.24,0:04:47.22,Text,,0,0,0,,{\an5}Waiting for the person\NNever came in sight\NLike the evening primrose\NLonely am I quite\Neven the moon seemingly\NHides away tonight
+Dialogue: 0,0:04:42.24,0:04:47.22,Text,,0,0,0,,Waiting for the person\NNever came in sight\NLike the evening primrose\NLonely am I quite\Neven the moon seemingly\NHides away tonight
 Dialogue: 0,0:04:45.06,0:04:47.02,Dialogue,,0,0,0,,There are lyrics written on it.
 Dialogue: 0,0:04:47.48,0:04:48.90,Dialogue,,0,0,0,,That's right.
 Dialogue: 0,0:04:48.11,0:04:53.40,Dialogue,,0,0,0,,♪ Waiting for the person who...
@@ -447,7 +441,7 @@ Dialogue: 0,0:21:30.97,0:21:32.30,Dialogue,,0,0,0,,Mayuko{\rHonorifics - Dialogu
 Dialogue: 0,0:21:33.25,0:21:34.65,Dialogue,,0,0,0,,Dad!
 Dialogue: 0,0:21:36.11,0:21:37.29,Dialogue,,0,0,0,,Conan{\rHonorifics - Dialogue}-kun{\r}?
 Dialogue: 0,0:21:39.73,0:21:40.73,Dialogue,,0,0,0,,This is...
-Dialogue: 0,0:21:42.27,0:21:44.52,Dialogue,,0,0,0,,{\an2}If you want to learn about your past, be alone."
+Dialogue: 0,0:21:42.27,0:21:44.52,Dialogue,,0,0,0,,If you want to learn about your past, be alone."
 Dialogue: 0,0:21:46.58,0:21:47.82,Dialogue,,0,0,0,,Conan{\rHonorifics - Dialogue}-kun{\r}!
 Dialogue: 0,0:21:56.08,0:21:57.12,Dialogue,,0,0,0,,Conan{\rHonorifics - Dialogue}-kun{\r}!
 Dialogue: 0,0:22:07.35,0:22:13.72,Dialogue,,0,0,0,,♪ Waiting for the person who...

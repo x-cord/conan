@@ -33,9 +33,6 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: Tsuzukiwa,Nyala,100,&HFE000000,&H000000FF,&H00FFFFFF,&H00000000,-1,0,0,0,100,100,0,0.1,1,6,0,5,10,10,10,1Style: PlaceCard,Corbel,35,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,2,2,100,100,30,1Style: ButterflyCore2,Love Is Complicated Again,45,&HFF5E0036,&H000000FF,&H80000000,&H80000000,-1,0,0,0,100,100,1,0,1,0.75,0,8,10,10,30,1
-Style: BCPrologue,Cocon-Regular,45,&H805E0036,&H000000FF,&H00FFFFFF,&H80000000,-1,0,0,0,100,100,1,0,1,5,2,2,10,10,30,1
-Style: AitakuteRomaji,AlaskanNightsM,52,&H60DB9572,&H000000FF,&H00FFFFFF,&HC02F2F2F,-1,0,0,0,108,100,0,0,1,4,0,8,8,8,30,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -53,16 +50,16 @@ Dialogue: 0,0:00:33.79,0:00:35.39,Dialogue,,0,0,0,,Uncle, over there!
 Dialogue: 0,0:00:43.12,0:00:44.94,Dialogue,,0,0,0,,No good. She's dead.
 Dialogue: 0,0:00:48.01,0:00:49.02,Dialogue,,0,0,0,,What's this?
 Dialogue: 0,0:00:51.49,0:00:52.96,Dialogue,,0,0,0,,A dying message!
-Dialogue: 0,0:01:07.13,0:01:11.05,BCPrologue,,0,0,0,,{\blur3\fad(200,0)}Only the light of deductions can tear apart black shadows and deep darkness!
-Dialogue: 0,0:01:11.05,0:01:12.28,BCPrologue,,0,0,0,,{\blur3}An e-mail brings about an unexpected reaction.
-Dialogue: 0,0:01:12.28,0:01:14.82,BCPrologue,,0,0,0,,{\blur3}Let's expose the whole truth behind the alibi trick!
-Dialogue: 0,0:01:14.82,0:01:16.16,BCPrologue,,0,0,0,,{\blur3}He sees the single truth for what it is,
-Dialogue: 0,0:01:16.16,0:01:18.33,BCPrologue,,0,0,0,,{\blur3}and looks like a kid but has the mind of an adult!
-Dialogue: 0,0:01:18.33,0:01:20.58,BCPrologue,,0,0,0,,{\blur3\fad(0,200)}His name? Detective Conan!
+Dialogue: 0,0:01:07.13,0:01:11.05,Narration Off,,0,0,0,,{\be10}Only the light of deductions can tear apart black shadows and deep darkness!
+Dialogue: 0,0:01:11.05,0:01:12.28,Narration Off,,0,0,0,,{\be10}An e-mail brings about an unexpected reaction.
+Dialogue: 0,0:01:12.28,0:01:14.82,Narration Off,,0,0,0,,{\be10}Let's expose the whole truth behind the alibi trick!
+Dialogue: 0,0:01:14.82,0:01:16.16,Narration Off,,0,0,0,,{\be10}He sees the single truth for what it is,
+Dialogue: 0,0:01:16.16,0:01:18.33,Narration Off,,0,0,0,,{\be10}and looks like a kid but has the mind of an adult!
+Dialogue: 0,0:01:18.33,0:01:20.58,Narration Off,,0,0,0,,{\be10}His name? Detective Conan!
 Dialogue: 0,0:02:49.88,0:02:53.88,Dialogue,,0,0,0,,Let's see... The victim is Nana Hirose{\rHonorifics - Dialogue}-san{\r}, 27.
 Dialogue: 0,0:02:54.26,0:02:57.17,Dialogue,,0,0,0,,She was a door-to-door insurance saleswoman who lived nearby.
 Dialogue: 0,0:02:57.17,0:03:02.14,Dialogue,,0,0,0,,It looks like she was attacked when passing through this park after work.
-Dialogue: 0,0:03:02.46,0:03:05.51,Dialogue Top,,0,0,0,,{Nana Hirose (27)\NDoor-to-door Insurance Saleswoman\N}She was strangled, and suffocated.
+Dialogue: 0,0:03:02.46,0:03:05.51,Dialogue Top,,0,0,0,,{Nana Hirose (27)\NDoor-to-door Insurance Saleswoman}She was strangled, and suffocated.
 Dialogue: 0,0:03:02.39,0:03:06.94,Signs,,0,0,0,,Nana Hirose (27)\NDoor-to-door Saleswoman
 Dialogue: 0,0:03:05.51,0:03:09.94,Dialogue Top,,0,0,0,,The killer strangled her over and over again to make sure she was dead.
 Dialogue: 0,0:03:10.38,0:03:13.87,Dialogue,,0,0,0,,They left lots of marks on her neck from doing so.
@@ -399,37 +396,3 @@ Dialogue: 0,0:24:04.89,0:24:09.82,Dialogue,,0,0,0,,Next Conan's Hint: Padlock!
 Dialogue: 0,0:24:09.82,0:24:12.06,Dialogue Top,,0,0,0,,Next time, there's a case at a TV station?!
 Dialogue: 0,0:24:12.06,0:24:13.50,Dialogue Top,,0,0,0,,I hope I get to meet Yōko{\rHonorifics - Dialogue}-chan{\r}!
 Dialogue: 0,0:24:13.50,0:24:14.68,Dialogue Top,,0,0,0,,Show some discretion...
-Dialogue: 0,0:00:54.22,0:00:59.22,ButterflyCore,,0,0,0,,{\blur4\fad(200,0)}kage o mau chō no kodō ga seijaku no umi o saite
-Dialogue: 0,0:00:59.39,0:01:06.56,ButterflyCore,,0,0,0,,{\blur4}kasanariau koe ga ima yami o furiharatta
-Dialogue: 0,0:01:21.12,0:01:26.54,ButterflyCore,,0,0,0,,{\blur4\c&H005500}haritsuita ase o nugutte nigemawaru light o ketta
-Dialogue: 0,0:01:26.92,0:01:32.21,ButterflyCore,,0,0,0,,{\blur4\c&H005500}kanashimi ni utareta kyō no kizuato kabau yō ni
-Dialogue: 0,0:01:32.38,0:01:37.68,ButterflyCore,,0,0,0,,{\blur4\c&H005500}aseru hodo ni tōku natte wake mo naku imi o sagashite
-Dialogue: 0,0:01:37.85,0:01:43.60,ButterflyCore,,0,0,0,,{\blur4\c&H005500\t(2500,3024,\c&H000055)}osanasa no ura ni kakushita yuzuritakunai omoi ni
-Dialogue: 0,0:01:43.73,0:01:48.40,ButterflyCore,,0,0,0,,{\blur4\c&H000077}kizuita nara miushinawanai yō ni
-Dialogue: 0,0:01:48.56,0:01:54.36,ButterflyCore,,0,0,0,,{\blur4\c&H770000}dareka o mamore'ru to motto ima shinjitai
-Dialogue: 0,0:01:54.57,0:01:59.62,ButterflyCore,,0,0,0,,{\blur4\c&HAA0000}kage o mau chō no kodō ga seijaku no umi o saita
-Dialogue: 0,0:01:59.78,0:02:05.12,ButterflyCore,,0,0,0,,{\blur4\c&H000077}kimi ni miseru itsuwari no subete ga uso ja nai daro
-Dialogue: 0,0:02:05.29,0:02:10.75,ButterflyCore,,0,0,0,,{\blur4\c&HAA0000}mayo'u tabi suteta kotae mo kitto erabu hi wa mata kuru kara
-Dialogue: 0,0:02:10.92,0:02:19.85,ButterflyCore,,0,0,0,,{\blur4\c&H006600}kono kokoro wa dare yori mo atsuku moyashi tsuzukeyō kienai yō ni
-Dialogue: 0,0:02:29.73,0:02:35.32,ButterflyCore,,0,0,0,,{\blur4\c&H006600\fad(0,1000)}kienai yō ni
-Dialogue: 0,0:00:54.22,0:00:59.22,ButterflyCore2,,0,0,0,,{\fad(200,0)}kage o mau chō no kodō ga seijaku no umi o saite
-Dialogue: 0,0:00:59.39,0:01:06.56,ButterflyCore2,,0,0,0,,kasanariau koe ga ima yami o furiharatta
-Dialogue: 0,0:01:21.12,0:01:26.54,ButterflyCore2,,0,0,0,,haritsuita ase o nugutte nigemawaru light o ketta
-Dialogue: 0,0:01:26.92,0:01:32.21,ButterflyCore2,,0,0,0,,kanashimi ni utareta kyō no kizuato kabau yō ni
-Dialogue: 0,0:01:32.38,0:01:37.68,ButterflyCore2,,0,0,0,,aseru hodo ni tōku natte wake mo naku imi o sagashite
-Dialogue: 0,0:01:37.85,0:01:43.60,ButterflyCore2,,0,0,0,,osanasa no ura ni kakushita yuzuritakunai omoi ni
-Dialogue: 0,0:01:43.73,0:01:48.40,ButterflyCore2,,0,0,0,,kizuita nara miushinawanai yō ni
-Dialogue: 0,0:01:48.56,0:01:54.36,ButterflyCore2,,0,0,0,,dareka o mamore'ru to motto ima shinjitai
-Dialogue: 0,0:01:54.57,0:01:59.62,ButterflyCore2,,0,0,0,,kage o mau chō no kodō ga seijaku no umi o saita
-Dialogue: 0,0:01:59.78,0:02:05.12,ButterflyCore2,,0,0,0,,kimi ni miseru itsuwari no subete ga uso ja nai daro
-Dialogue: 0,0:02:05.29,0:02:10.75,ButterflyCore2,,0,0,0,,mayo'u tabi suteta kotae mo kitto erabu hi wa mata kuru kara
-Dialogue: 0,0:02:10.92,0:02:19.85,ButterflyCore2,,0,0,0,,{\3c&H006600}kono kokoro wa dare yori mo atsuku moyashi tsuzukeyō kienai yō ni
-Dialogue: 0,0:02:29.73,0:02:35.32,ButterflyCore2,,0,0,0,,{\fad(0,1000)\3c&H006600}kienai yō ni
-Dialogue: 0,0:22:03.71,0:22:11.05,AitakuteRomaji,,0,0,0,,{\blur3}denwa ga naru tabi kono mune ga zawameku
-Dialogue: 0,0:22:11.39,0:22:18.39,AitakuteRomaji,,0,0,0,,{\blur3}demo kikoetekuru no wa kimi no koe ja nai
-Dialogue: 0,0:22:20.60,0:22:27.40,AitakuteRomaji,,0,0,0,,{\blur3}ima kimi wa doko ni iru no nani shite'ru no
-Dialogue: 0,0:22:28.07,0:22:37.00,AitakuteRomaji,,0,0,0,,{\blur3}kami{\fsp-2\fs40}- {\fsp\fs}sama ni negai todoku nara mō ichido dake
-Dialogue: 0,0:22:37.58,0:22:44.46,AitakuteRomaji,,0,0,0,,{\blur3}aitakute kimi ni aitakute
-Dialogue: 0,0:22:44.96,0:22:53.43,AitakuteRomaji,,0,0,0,,{\blur3}ima mo kono mune wa kimi{\fsp-2\fs40}- {\fsp\fs}iro ni somaru (dakishimetakute)
-Dialogue: 0,0:22:53.60,0:23:00.60,AitakuteRomaji,,0,0,0,,{\blur3}setsunakute nido to aenai nara
-Dialogue: 0,0:23:00.94,0:23:08.90,AitakuteRomaji,,0,0,0,,{\fad(0,1000)\blur3}maichiru yuki shiroku kono kokoro somete

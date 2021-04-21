@@ -33,6 +33,7 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
+Style: Title002,Segoe Print,20,&H00000000,&H000000FF,&H00D1D4D1,&H00000000,-1,0,0,0,100,100,0,0,3,5.5,0,2,0,16,136,1
 Style: Title003,Segoe Print,20,&H002E0E96,&H000000FF,&H00D1D4D1,&H00000000,-1,0,0,0,100,100,0,0,3,1,0,2,0,180,227,1
 Style: Title004,Segoe Print,20,&H002E0E96,&H000000FF,&H00D1D4D1,&H00000000,-1,0,0,0,100,100,0,0,3,1,0,2,212,0,227,1
 Style: Title005,Segoe Print,20,&H002E0E96,&H000000FF,&H00D1D4D1,&H00000000,-1,0,0,0,100,100,0,0,3,1,0,2,0,200,133,1
@@ -66,7 +67,7 @@ Dialogue: 0,0:01:06.13,0:01:11.88,Dialogue,,0,0,0,,I don't care if this town cha
 Dialogue: 0,0:01:12.10,0:01:17.83,Dialogue,,0,0,0,,The only thing I don't want to change is you.
 Dialogue: 0,0:01:18.20,0:01:23.59,Dialogue,,0,0,0,,Oh, glimmering star, shine over us forever.
 Dialogue: 0,0:01:23.90,0:01:29.47,Dialogue,,0,0,0,,This way, we won't lose the dreams we had when we were young...
-Dialogue: 0,0:01:30.00,0:01:39.19,Dialogue,,0,0,0,,{\fade(0,1350)}The only thing I don't want to change is you.
+Dialogue: 0,0:01:30.00,0:01:39.19,Dialogue,,0,0,0,,The only thing I don't want to change is you.
 Dialogue: 0,0:01:44.22,0:01:46.14,Dialogue,,0,0,0,,What kind of problem could you have to sigh about?
 Dialogue: 0,0:01:46.14,0:01:50.10,Dialogue,,0,0,0,,No, I was just wondering if\NRan{\rHonorifics - Dialogue}-neechan{\r} is doing okay in her karate match.
 Dialogue: 0,0:01:50.69,0:01:53.07,Dialogue,,0,0,0,,Of course she's doing fine!
@@ -87,7 +88,7 @@ Dialogue: 0,0:02:21.95,0:02:24.01,Dialogue,,0,0,0,,W-Wait a second.
 Dialogue: 0,0:02:25.35,0:02:27.02,Dialogue,,0,0,0,,I have a bad feeling about this...
 Dialogue: 0,0:02:29.06,0:02:31.52,Dialogue,,0,0,0,,Spicy, Bitter & Sweet Soup!
 Dialogue: 0,0:02:35.05,0:02:37.99,Dialogue Top,,0,0,0,,In other words, what both of you are trying to say is...
-Dialogue: 0,0:02:37.77,0:02:42.96,CharCards01 shadow,,0,0,0,,{\fade(0,350)}\h\h\hAikawa Etsuko (58)\h\h\h\N{\fs9.5}\h\h"Yuuzuki" Japanese-style Confection Shop Owner\h\h
+Dialogue: 0,0:02:37.77,0:02:42.96,CharCards01 shadow,,0,0,0,,{\fade(0,350)} Aikawa Etsuko (58)\N{\fs9.5} "Yuuzuki" Japanese-style Confection Shop Owner
 Dialogue: 0,0:02:38.43,0:02:43.51,Dialogue Top,,0,0,0,,Is that you, Madam, saw a man run out\Nof the first-floor apartment, number 1055.
 Dialogue: 0,0:02:44.70,0:02:46.99,Dialogue,,0,0,0,,You just said you saw this occur two hours ago...
 Dialogue: 0,0:02:47.00,0:02:48.29,Dialogue,,0,0,0,,That means it was about 9:00 AM.
@@ -177,11 +178,11 @@ Dialogue: 0,0:07:17.22,0:07:19.27,Dialogue,,0,0,0,,It's some white powder or som
 Dialogue: 0,0:07:27.82,0:07:28.65,Dialogue,,0,0,0,,Ouch!
 Dialogue: 0,0:07:41.12,0:07:46.71,Dialogue,,0,0,0,,I think it's a powder that\Ndoesn't smell, feels silky, and is edible.
 Dialogue: 0,0:07:48.09,0:07:50.80,Dialogue,,0,0,0,,This is probably katakuri starch.
-Dialogue: 0,0:07:47.80,0:07:56.10,Dialogue Top,,0,0,0,,{\1c&HFFFFFF&\3c&HC82E24&\fade(700,500)}Note: Katakuri starch is an ingredient made from the stems of katakuri lilies.\NIt's used a thickener, but has the sweetness of powdered/confectioner's sugar.
+Dialogue: 0,0:07:47.80,0:07:56.10,Signs,,0,0,0,,Note: Katakuri starch is an ingredient made from the stems of katakuri lilies.\NIt's used a thickener, but has the sweetness of powdered/confectioner's sugar.
 Dialogue: 0,0:07:51.09,0:07:53.68,Dialogue,,0,0,0,,What else can you do with\Nkatakuri starch besides using it in cooking?
 Dialogue: 0,0:07:53.68,0:07:55.30,Dialogue,,0,0,0,,Let me think...
 Dialogue: 0,0:07:55.30,0:07:56.26,Dialogue,,0,0,0,,You can use it on sweets.
-Dialogue: 0,0:07:56.25,0:08:01.80,Dialogue Top,,0,0,0,,{\1c&HFFFFFF&\3c&HC82E24&\fade(500,500)}Note: A daifuku is a Japanese confection consisting of a\Nsmall, round mochi (rice cake) stuffed with sweet filling.
+Dialogue: 0,0:07:56.25,0:08:01.80,Signs,,0,0,0,,Note: A daifuku is a Japanese confection consisting of a\Nsmall, round mochi (rice cake) stuffed with sweet filling.
 Dialogue: 0,0:07:56.81,0:07:58.68,Dialogue,,0,0,0,,You know the powder that daifuku are coated with?
 Dialogue: 0,0:07:58.68,0:08:00.10,Dialogue,,0,0,0,,That's katakuri starch.
 Dialogue: 0,0:08:02.39,0:08:05.48,Dialogue,,0,0,0,,Inspector, the company that Ozawa{\rHonorifics - Dialogue}-san{\r} was working for...
@@ -209,7 +210,7 @@ Dialogue: 0,0:09:13.34,0:09:14.84,Dialogue,,0,0,0,,We'll get right down to it.
 Dialogue: 0,0:09:14.84,0:09:16.72,Dialogue,,0,0,0,,You knew that one of your subordinates, Ozawa{\rHonorifics - Dialogue}-san{\r}...
 Dialogue: 0,0:09:16.72,0:09:19.35,Dialogue,,0,0,0,,Embezzled 30 million yen out of your company.
 Dialogue: 0,0:09:19.35,0:09:20.64,Dialogue,,0,0,0,,Is that true?
-Dialogue: 0,0:09:20.60,0:09:25.05,CharCards02 shadow,,0,0,0,,\h\h\hShimizu Ryota (30)\h\h\h\N{\fs10}Chief Executive of a Consumer Loan Company
+Dialogue: 0,0:09:20.60,0:09:25.05,CharCards02 shadow,,0,0,0,,Shimizu Ryota (30)\N{\fs10}Chief Executive of a Consumer Loan Company
 Dialogue: 0,0:09:20.64,0:09:24.02,Dialogue,,0,0,0,,No, I only found out from the police officers earlier.
 Dialogue: 0,0:09:24.02,0:09:25.10,Dialogue,,0,0,0,,I was shocked.
 Dialogue: 0,0:09:25.31,0:09:30.11,Dialogue,,0,0,0,,Weren't you Ozawa Fumie{\rHonorifics - Dialogue}-san{\r}'s lover?
@@ -245,7 +246,7 @@ Dialogue: 0,0:10:47.31,0:10:48.23,Dialogue,,0,0,0,,Yes, sir!
 Dialogue: 0,0:10:48.44,0:10:50.81,Dialogue,,0,0,0,,Shimizu{\rHonorifics - Dialogue}-san{\r} has an alibi...
 Dialogue: 0,0:10:50.81,0:10:53.81,Dialogue,,0,0,0,,But the lady said she's sure it was him who ran out.
 Dialogue: 0,0:10:54.36,0:10:55.86,Dialogue,,0,0,0,,If it wasn't suicide...
-Dialogue: 0,0:10:58.77,0:11:00.25,Title002,,0,0,0,,\h\h\h6:00 PM-\h\h\N\h\hDentist\h\h\h\N\hAppointment\h
+Dialogue: 0,0:10:58.77,0:11:00.25,Title002,,0,0,0,,6:00 PM-\NDentist\NAppointment
 Dialogue: 0,0:10:58.77,0:11:00.25,Title003,,0,0,0,,May Day
 Dialogue: 0,0:10:58.77,0:11:00.25,Title004,,0,0,0,,Constitution\NMemorial Day
 Dialogue: 0,0:10:58.77,0:11:00.25,Title005,,0,0,0,,Mother's day
@@ -291,8 +292,8 @@ Dialogue: 0,0:13:08.20,0:13:11.37,Dialogue,,0,0,0,,Excuse me, this might be unne
 Dialogue: 0,0:13:11.37,0:13:14.75,Dialogue,,0,0,0,,But isn't the handwriting on the\Ncalendar different from Ozawa{\rHonorifics - Dialogue}-san{\r}'s?
 Dialogue: 0,0:13:15.33,0:13:19.63,Dialogue,,0,0,0,,As her superior, I see her handwriting often.
 Dialogue: 0,0:13:20.67,0:13:24.47,Dialogue,,0,0,0,,Ah, we're going to need expert to analyze them further...
-Dialogue: 0,0:13:21.75,0:13:24.47,Title006,,0,0,0,,{\be1}Appointment\Nat Yamada\h\N\hInternal\h\N\hMedicine\h\h
-Dialogue: 0,0:13:21.75,0:13:24.47,Title007,,0,0,0,,{\be1}Appointment\N\h\h\hat Izumi\h\h\h\NDermatology
+Dialogue: 0,0:13:21.75,0:13:24.47,Title006,,0,0,0,,{\be1}Appointment\Nat Yamada\NInternal\NMedicine
+Dialogue: 0,0:13:21.75,0:13:24.47,Title007,,0,0,0,,{\be1}Appointment\Nat Izumi\NDermatology
 Dialogue: 0,0:13:24.47,0:13:26.51,Dialogue,,0,0,0,,But the two handwriting styles do appear to be different.
 Dialogue: 0,0:13:26.51,0:13:29.47,Dialogue,,0,0,0,,Whose handwriting is on the calendar, then?
 Dialogue: 0,0:13:31.39,0:13:35.73,Dialogue,,0,0,0,,From what I heard, this woman was\Nthe first to discover the body, right?
@@ -355,7 +356,7 @@ Dialogue: 0,0:16:31.40,0:16:33.86,Dialogue,,0,0,0,,That Shimizu was the one who 
 Dialogue: 0,0:16:33.86,0:16:37.32,Dialogue,,0,0,0,,Because she told me she would tell\Nthe police everything she had done.
 Dialogue: 0,0:16:37.66,0:16:42.50,Dialogue,,0,0,0,,But there wasn't anything in this\Nroom that would get Shimizu{\rHonorifics - Dialogue}-san{\r} arrested.
 Dialogue: 0,0:16:42.92,0:16:45.35,Dialogue,,0,0,0,,So you decided to put his picture in\Nthe entryway, close to the front door...
-Dialogue: 0,0:16:44.86,0:16:47.30,Title009,,0,0,0,,\h\h\h6:00 PM-\h\h\N\h\hDentist\h\h\h\N\hAppointment\h
+Dialogue: 0,0:16:44.86,0:16:47.30,Title009,,0,0,0,,6:00 PM-\NDentist\NAppointment
 Dialogue: 0,0:16:44.86,0:16:47.30,Title010,,0,0,0,,May Day
 Dialogue: 0,0:16:44.86,0:16:47.30,Title011,,0,0,0,,Constitution\NMemorial Day
 Dialogue: 0,0:16:44.86,0:16:47.30,Title012,,0,0,0,,Mother's day
@@ -442,8 +443,8 @@ Dialogue: 0,0:20:59.67,0:21:00.96,Dialogue,,0,0,0,,I'm sorry.
 Dialogue: 0,0:21:01.67,0:21:04.72,Dialogue,,0,0,0,,I couldn't let her waste the rest of her life in jail.
 Dialogue: 0,0:21:04.72,0:21:06.55,Dialogue,,0,0,0,,So, before she could confess to the police...
 Dialogue: 0,0:21:07.21,0:21:07.95,Dialogue,,0,0,0,,I...
-Dialogue: 0,0:21:14.75,0:21:17.85,Dialogue Top,,0,0,0,,{\1c&HFFFFFF&\3c&HC82E24&\fade(500,500)}Note: "Sweet soup" is a Japanese expression\Nmeaning "to make good out what one has."
-Dialogue: 0,0:21:17.85,0:21:22.00,Dialogue Top,,0,0,0,,{\1c&HFFFFFF&\3c&HC82E24&\fade(250,350)}Note: Megure makes it intro a pun by using\N"bitter soup" to represent "having hard times."
+Dialogue: 0,0:21:14.75,0:21:17.85,Signs,,0,0,0,,Note: "Sweet soup" is a Japanese expression\Nmeaning "to make good out what one has."
+Dialogue: 0,0:21:17.85,0:21:22.00,Signs,,0,0,0,,Note: Megure makes it intro a pun by using\N"bitter soup" to represent "having hard times."
 Dialogue: 0,0:21:15.40,0:21:17.48,Dialogue,,0,0,0,,You had your taste of sweet soup...
 Dialogue: 0,0:21:18.15,0:21:21.73,Dialogue,,0,0,0,,And now, you'll be getting the bitter soup you deserve.
 Dialogue: 0,0:21:50.81,0:21:59.44,Dialogue,,0,0,0,,Before I knew it, I had come to the riverside of memories.
@@ -459,10 +460,10 @@ Dialogue: 0,0:23:02.38,0:23:14.68,Dialogue,,0,0,0,,So l can keep the memory of u
 Dialogue: 0,0:23:18.89,0:23:21.56,Dialogue,,0,0,0,,Wow, that really was incredible.
 Dialogue: 0,0:23:21.98,0:23:24.44,Dialogue,,0,0,0,,Mouri{\rHonorifics - Dialogue}-san{\r}, Inspector Megure said\Nthat move was a stroke of genius!
 Dialogue: 0,0:23:24.86,0:23:29.07,Dialogue,,0,0,0,,You pretended you didn't think it was\NShimizu, so he would fall right into your trap.
-Dialogue: 0,0:23:29.77,0:23:34.05,Dialogue Top,,0,0,0,,{\1c&HFFFFFF&\3c&HC82E24&\fade(500,500)}Note: This is an old Japanese expression meaning\N"To trick someone, you first need to pretend to be tricked."
+Dialogue: 0,0:23:29.77,0:23:34.05,Signs,,0,0,0,,Note: This is an old Japanese expression meaning\N"To trick someone, you first need to pretend to be tricked."
 Dialogue: 0,0:23:29.99,0:23:31.49,Dialogue,,0,0,0,,It's often said that, to taste sweetness...
 Dialogue: 0,0:23:31.49,0:23:34.03,Dialogue,,0,0,0,,You first need to taste something salty.
-Dialogue: 0,0:23:34.05,0:23:40.00,Dialogue Top,,0,0,0,,{\1c&HFFFFFF&\3c&HC82E24&\fade(500,500)}Note: Japanese men simply can't tolerate eating sweets,\Nwhich is why Mouri gags when eating one.
+Dialogue: 0,0:23:34.05,0:23:40.00,Signs,,0,0,0,,Note: Japanese men simply can't tolerate eating sweets,\Nwhich is why Mouri gags when eating one.
 Dialogue: 0,0:23:41.62,0:23:44.71,Dialogue,,0,0,0,,Do you need to eat something salty too?
 Dialogue: 0,0:23:50.88,0:23:52.93,Dialogue,,0,0,0,,They sure are ringing a long time...
 Dialogue: 0,0:23:52.93,0:23:55.26,Dialogue,,0,0,0,,It's that case from 12 years ago.

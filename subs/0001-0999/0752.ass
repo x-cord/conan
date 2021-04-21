@@ -33,323 +33,325 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
+Style: GreedNarr,Biko,45,&H6E8C4000,&H000000FF,&H00FFFFFF,&H80000000,-1,0,0,0,100,100,0,0,1,3.7,1.5,2,50,50,30,1
+Style: OPTL_BL,Biko,45,&H00FFFFFF,&H000000FF,&H80000000,&HC0000000,-1,0,0,0,100,100,0,0,1,2,1,2,10,10,25,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 Dialogue: 0,0:00:00.89,0:00:04.94,Narration Off,,0000,0000,0000,,{\be10\an8三毛猫　大尉の\N飼い主をめぐる騒動の末}Having solved the question of the owner of Taii, the calico cat,
 Dialogue: 0,0:00:04.94,0:00:10.07,Narration Off,,0000,0000,0000,,{\be10\an8本当の飼い主とわかった益子さん\Nのもとに大尉を訪ねていくと...}we went to visit him at the flat of his real owner, Masuko{\rHonorifics - Narration Off\be10}-san{\r\be10}, when...
-Dialogue: 0,0:00:15.24,0:00:17.45,Dialogue,,0000,0000,0000,,{（大尉）ニャ～！\N（隣の住人）あれ？なんだ　この猫。\N}Huh? What's with this cat...?
-Dialogue: 0,0:00:17.45,0:00:19.49,Dialogue,,0000,0000,0000,,{おじさん！どうかしたの！？\N}Hey! Has something happened?
-Dialogue: 0,0:00:20.29,0:00:24.96,Dialogue,,0000,0000,0000,,{（隣の住人）あっ　いや→\Nこの猫　ケガしてるわけでも\Nなさそうなのに　足に血が...。\N}Oh, this cat doesn't look injured at all, but there's blood on its paws...
-Dialogue: 0,0:00:25.54,0:00:27.96,Thoughts,,0000,0000,0000,,{\be10《ってことは　まさか益子さん...》\N}But then that must mean that Masuko{\rHonorifics - Thoughts\be10}-san{\r\be10}...!
-Dialogue: 0,0:00:29.67,0:00:30.96,Thoughts,,0000,0000,0000,,{\be10《まさか...》\N}It couldn't be!
-Dialogue: 0,0:00:34.88,0:00:37.09,GreedNarr,,0000,0000,0000,,{\blur2＜秋風さわやか夏バテ飛ばして\N}Let the refreshing autumn breeze blow away your summer fatigue!
-Dialogue: 0,0:00:37.09,0:00:38.80,GreedNarr,,0000,0000,0000,,{\blur2粋でいなせな推理ショウ！＞\N}A gallant and dashing deduction show!
+Dialogue: 0,0:00:15.24,0:00:17.45,Dialogue,,0000,0000,0000,,{（大尉）ニャ～！\N（隣の住人）あれ？なんだ　この猫。}Huh? What's with this cat...?
+Dialogue: 0,0:00:17.45,0:00:19.49,Dialogue,,0000,0000,0000,,{おじさん！どうかしたの！？}Hey! Has something happened?
+Dialogue: 0,0:00:20.29,0:00:24.96,Dialogue,,0000,0000,0000,,{（隣の住人）あっ　いや→\Nこの猫　ケガしてるわけでも\Nなさそうなのに　足に血が...。}Oh, this cat doesn't look injured at all, but there's blood on its paws...
+Dialogue: 0,0:00:25.54,0:00:27.96,Thoughts,,0000,0000,0000,,{\be10《ってことは　まさか益子さん...》}But then that must mean that Masuko{\rHonorifics - Thoughts\be10}-san{\r\be10}...!
+Dialogue: 0,0:00:29.67,0:00:30.96,Thoughts,,0000,0000,0000,,{\be10《まさか...》}It couldn't be!
+Dialogue: 0,0:00:34.88,0:00:37.09,GreedNarr,,0000,0000,0000,,{\blur2＜秋風さわやか夏バテ飛ばして}Let the refreshing autumn breeze blow away your summer fatigue!
+Dialogue: 0,0:00:37.09,0:00:38.80,GreedNarr,,0000,0000,0000,,{\blur2粋でいなせな推理ショウ！＞}A gallant and dashing deduction show!
 Dialogue: 0,0:00:38.80,0:00:40.47,GreedNarr,,0000,0000,0000,,{\blur2＜探偵団と密室トリック!}The Detective Boys and a locked-room trick!
-Dialogue: 0,0:00:40.47,0:00:42.39,GreedNarr,,0000,0000,0000,,{\blur2カワイイ三毛猫の秘密とは！？＞\N}What's the secret behind this cute calico cat?
+Dialogue: 0,0:00:40.47,0:00:42.39,GreedNarr,,0000,0000,0000,,{\blur2カワイイ三毛猫の秘密とは！？＞}What's the secret behind this cute calico cat?
 Dialogue: 0,0:00:42.39,0:00:43.89,GreedNarr,,0000,0000,0000,,{\blur2}He sees the single truth for what it is,
 Dialogue: 0,0:00:43.89,0:00:45.73,GreedNarr,,0000,0000,0000,,{\blur2}and looks like a kid but has the mind of an adult!
 Dialogue: 0,0:00:45.73,0:00:48.40,GreedNarr,,0000,0000,0000,,{\blur2}His name? Detective Conan!
-Dialogue: 0,0:02:35.42,0:02:38.34,Dialogue,,0000,0000,0000,,{益子さ～ん！？\N大丈夫なら返事して！\N}Masuko{\rHonorifics - Dialogue}-san{\r}! If you're okay, please say something!
-Dialogue: 0,0:02:38.84,0:02:40.18,Dialogue,,0000,0000,0000,,{益子さ～ん！！\N}Masuko{\rHonorifics - Dialogue}-san{\r}!
-Dialogue: 0,0:02:40.18,0:02:41.26,Dialogue,,0000,0000,0000,,{（管理人）ボ　ボウヤ→\N}K-Kid...
-Dialogue: 0,0:02:41.64,0:02:46.93,Dialogue,,0000,0000,0000,,{ただ寝てるだけかもしれないよ？\Nドアロックも掛かってるし。\N}He might just be sleeping, you know? The door {\i1}is{\i0} locked.
-Dialogue: 0,0:02:46.93,0:02:50.44,Dialogue,,0000,0000,0000,,{でも　お隣さんは\N変な音　聞いたんだよね？\N}But his neighbour heard a strange noise, right?
-Dialogue: 0,0:02:50.44,0:02:54.52,Dialogue,,0000,0000,0000,,{あ　ああ。何かが　ぶつかるような\N大きな音が...。\N}Y-Yeah. There was this loud thud that sounded like something being hit.
-Dialogue: 0,0:02:56.53,0:03:00.65,Dialogue,,0000,0000,0000,,{それに　益子さんの飼い猫の足に\N血がついてる。\N}And there's blood on the paws of Masuko{\rHonorifics - Dialogue}-san{\r}'s cat...
-Dialogue: 0,0:03:00.65,0:03:02.20,Dialogue,,0000,0000,0000,,{中で何かあったんだよ！\N}Something must have happened inside!
+Dialogue: 0,0:02:35.42,0:02:38.34,Dialogue,,0000,0000,0000,,{益子さ～ん！？\N大丈夫なら返事して！}Masuko{\rHonorifics - Dialogue}-san{\r}! If you're okay, please say something!
+Dialogue: 0,0:02:38.84,0:02:40.18,Dialogue,,0000,0000,0000,,{益子さ～ん！！}Masuko{\rHonorifics - Dialogue}-san{\r}!
+Dialogue: 0,0:02:40.18,0:02:41.26,Dialogue,,0000,0000,0000,,{（管理人）ボ　ボウヤ→}K-Kid...
+Dialogue: 0,0:02:41.64,0:02:46.93,Dialogue,,0000,0000,0000,,{ただ寝てるだけかもしれないよ？\Nドアロックも掛かってるし。}He might just be sleeping, you know? The door {\i1}is{\i0} locked.
+Dialogue: 0,0:02:46.93,0:02:50.44,Dialogue,,0000,0000,0000,,{でも　お隣さんは\N変な音　聞いたんだよね？}But his neighbour heard a strange noise, right?
+Dialogue: 0,0:02:50.44,0:02:54.52,Dialogue,,0000,0000,0000,,{あ　ああ。何かが　ぶつかるような\N大きな音が...。}Y-Yeah. There was this loud thud that sounded like something being hit.
+Dialogue: 0,0:02:56.53,0:03:00.65,Dialogue,,0000,0000,0000,,{それに　益子さんの飼い猫の足に\N血がついてる。}And there's blood on the paws of Masuko{\rHonorifics - Dialogue}-san{\r}'s cat...
+Dialogue: 0,0:03:00.65,0:03:02.20,Dialogue,,0000,0000,0000,,{中で何かあったんだよ！}Something must have happened inside!
 Dialogue: 0,0:03:02.87,0:03:04.58,Dialogue,,0000,0000,0000,,{灰原　救急車呼んでくれ。}Haibara, quickly, call an ambulance!
-Dialogue: 0,0:03:05.24,0:03:05.91,Dialogue,,0000,0000,0000,,{（灰原）わかった！\N}Got it!
+Dialogue: 0,0:03:05.24,0:03:05.91,Dialogue,,0000,0000,0000,,{（灰原）わかった！}Got it!
 Dialogue: 0,0:03:06.41,0:03:08.70,Dialogue,,0000,0000,0000,,Do any of you have a string or something?
-Dialogue: 0,0:03:09.58,0:03:11.92,Dialogue,,0000,0000,0000,,{あと　テープとか針金とか。\N}Also, some sort of tape, and some sort of wire.
-Dialogue: 0,0:03:12.71,0:03:14.21,Dialogue,,0000,0000,0000,,{（歩美）毛糸ならあるよ！\N}I've got some wool!
+Dialogue: 0,0:03:09.58,0:03:11.92,Dialogue,,0000,0000,0000,,{あと　テープとか針金とか。}Also, some sort of tape, and some sort of wire.
+Dialogue: 0,0:03:12.71,0:03:14.21,Dialogue,,0000,0000,0000,,{（歩美）毛糸ならあるよ！}I've got some wool!
 Dialogue: 0,0:03:14.50,0:03:16.75,Dialogue,,0000,0000,0000,,{（元太）俺もバンソウコウなら。\NI don't have tape, but}I've got plasters...
-Dialogue: 0,0:03:17.09,0:03:18.76,Dialogue,,0000,0000,0000,,{（光彦）クリップありました。\N}Here's a paper clip!
-Dialogue: 0,0:03:19.09,0:03:22.47,Dialogue,,0000,0000,0000,,{でも　こんな物で\N何をするんですか？\N}But what are you going to do with these?
-Dialogue: 0,0:03:22.47,0:03:24.26,Dialogue,,0000,0000,0000,,{このドアロックを開けるんだよ！\N}Unlock the door.
-Dialogue: 0,0:03:25.10,0:03:33.65,Dialogue,,0000,0000,0000,,{まずは　ドアロックの\NＵ字型のバーに糸を結んで→\N}First, you tie the string to the U-shaped bar on the lock, {結び目がバーの先端にくるように\Nバンソウコウで固定する。\N}then fix the loop to the bottom of the U with a plaster.
-Dialogue: 0,0:03:34.02,0:03:36.11,Dialogue,,0000,0000,0000,,{その糸をクリップに通して\N}Then, if you thread some wool through the paper clip,
-Dialogue: 0,0:03:36.86,0:03:40.69,Dialogue,,0000,0000,0000,,{クリップを→\N\Nドアの内側に固定すれば...\N準備ＯＫ。\N}and stick it to the inside of the door, you're ready!
-Dialogue: 0,0:03:41.40,0:03:45.07,Dialogue,,0000,0000,0000,,{後はドアを閉めて\N一気に糸を引っ張れば...。\N}You just have to shut the door, and give the string a big tug...
-Dialogue: 0,0:03:46.91,0:03:47.78,Dialogue,,0000,0000,0000,,{あ～　開いた！\N}It opened!
-Dialogue: 0,0:03:48.66,0:03:50.66,Dialogue,,0000,0000,0000,,{お隣さんの部屋って　どこ？\N}Which flat is yours{dctp: room}?{do I see the wrong use of heya? -uso.}
-Dialogue: 0,0:03:50.66,0:03:51.96,Dialogue,,0000,0000,0000,,{そ　そこだけど...。\N}T-That one over there...
-Dialogue: 0,0:03:52.66,0:03:56.08,Thoughts,,0000,0000,0000,,{\be10《じゃあ　隣に一番近い...\N入って左！》\N}So it'll be the closest room to his neighbour... which means on the left!
-Dialogue: 0,0:03:56.08,0:03:57.88,Dialogue,,0000,0000,0000,,{お　おいコナン！？\N}H-Hey, Conan?!
-Dialogue: 0,0:03:58.21,0:03:59.34,Thoughts,,0000,0000,0000,,{\be10《奥の部屋か！》\N}Is it the room at the end?
-Dialogue: 0,0:04:04.68,0:04:05.89,Dialogue,,0000,0000,0000,,{（佐藤）事故ね。\N}Looks like an accident...
-Dialogue: 0,0:04:05.89,0:04:06.76,Dialogue,,0000,0000,0000,,{（高木）ええ。\N}Yeah.
-Dialogue: 0,0:04:07.47,0:04:14.52,Dialogue,,0000,0000,0000,,{（佐藤）\Nベッドの上にイスを立てて\N蛍光灯を取り替えようとし→\N}He put the chair on his bed and tried to change the light,\N{バランスを崩して\Nサイドテーブルにゴツン。→\N}but lost his balance and hit himself on his side table.
-Dialogue: 0,0:04:14.98,0:04:20.57,Dialogue,,0000,0000,0000,,{私も　たまにやるけど}I do the same myself sometimes, {ベッドの上って→\N\N安定しなくて危ないのよね。\N}but it's hard to balance on a bed, so it can be dangerous.
-Dialogue: 0,0:04:20.57,0:04:23.74,Dialogue,,0000,0000,0000,,{（高木）\Nそんなこと　やらないで下さいよ！\N}Please don't do that!
-Dialogue: 0,0:04:23.74,0:04:27.99,Dialogue,,0000,0000,0000,,{佐藤さんのベッドのマットレス\N高級品でフカフカなんですから！\N}Your mattress is very expensive, and it's so soft and fluffy!
-Dialogue: 0,0:04:28.37,0:04:32.25,Dialogue,,0000,0000,0000,,{なんで知ってるんですか？\N佐藤刑事のベッドのこと。\N}How come you know so much about Detective Satō's bed?
-Dialogue: 0,0:04:32.25,0:04:33.75,Dialogue,,0000,0000,0000,,{寝たことあんのかよ？\N}Have you slept in it?
-Dialogue: 0,0:04:34.92,0:04:36.04,Dialogue,,0000,0000,0000,,{あ　いや...。\N}Ah, no—
+Dialogue: 0,0:03:17.09,0:03:18.76,Dialogue,,0000,0000,0000,,{（光彦）クリップありました。}Here's a paper clip!
+Dialogue: 0,0:03:19.09,0:03:22.47,Dialogue,,0000,0000,0000,,{でも　こんな物で\N何をするんですか？}But what are you going to do with these?
+Dialogue: 0,0:03:22.47,0:03:24.26,Dialogue,,0000,0000,0000,,{このドアロックを開けるんだよ！}Unlock the door.
+Dialogue: 0,0:03:25.10,0:03:33.65,Dialogue,,0000,0000,0000,,{まずは　ドアロックの\NＵ字型のバーに糸を結んで→}First, you tie the string to the U-shaped bar on the lock, {結び目がバーの先端にくるように\Nバンソウコウで固定する。}then fix the loop to the bottom of the U with a plaster.
+Dialogue: 0,0:03:34.02,0:03:36.11,Dialogue,,0000,0000,0000,,{その糸をクリップに通して}Then, if you thread some wool through the paper clip,
+Dialogue: 0,0:03:36.86,0:03:40.69,Dialogue,,0000,0000,0000,,{クリップを→\N\Nドアの内側に固定すれば...\N準備ＯＫ。}and stick it to the inside of the door, you're ready!
+Dialogue: 0,0:03:41.40,0:03:45.07,Dialogue,,0000,0000,0000,,{後はドアを閉めて\N一気に糸を引っ張れば...。}You just have to shut the door, and give the string a big tug...
+Dialogue: 0,0:03:46.91,0:03:47.78,Dialogue,,0000,0000,0000,,{あ～　開いた！}It opened!
+Dialogue: 0,0:03:48.66,0:03:50.66,Dialogue,,0000,0000,0000,,{お隣さんの部屋って　どこ？}Which flat is yours{dctp: room}?{do I see the wrong use of heya? -uso.}
+Dialogue: 0,0:03:50.66,0:03:51.96,Dialogue,,0000,0000,0000,,{そ　そこだけど...。}T-That one over there...
+Dialogue: 0,0:03:52.66,0:03:56.08,Thoughts,,0000,0000,0000,,{\be10《じゃあ　隣に一番近い...\N入って左！》}So it'll be the closest room to his neighbour... which means on the left!
+Dialogue: 0,0:03:56.08,0:03:57.88,Dialogue,,0000,0000,0000,,{お　おいコナン！？}H-Hey, Conan?!
+Dialogue: 0,0:03:58.21,0:03:59.34,Thoughts,,0000,0000,0000,,{\be10《奥の部屋か！》}Is it the room at the end?
+Dialogue: 0,0:04:04.68,0:04:05.89,Dialogue,,0000,0000,0000,,{（佐藤）事故ね。}Looks like an accident...
+Dialogue: 0,0:04:05.89,0:04:06.76,Dialogue,,0000,0000,0000,,{（高木）ええ。}Yeah.
+Dialogue: 0,0:04:07.47,0:04:14.52,Dialogue,,0000,0000,0000,,{（佐藤）\Nベッドの上にイスを立てて\N蛍光灯を取り替えようとし→}He put the chair on his bed and tried to change the light,\N{バランスを崩して\Nサイドテーブルにゴツン。→}but lost his balance and hit himself on his side table.
+Dialogue: 0,0:04:14.98,0:04:20.57,Dialogue,,0000,0000,0000,,{私も　たまにやるけど}I do the same myself sometimes, {ベッドの上って→\N\N安定しなくて危ないのよね。}but it's hard to balance on a bed, so it can be dangerous.
+Dialogue: 0,0:04:20.57,0:04:23.74,Dialogue,,0000,0000,0000,,{（高木）\Nそんなこと　やらないで下さいよ！}Please don't do that!
+Dialogue: 0,0:04:23.74,0:04:27.99,Dialogue,,0000,0000,0000,,{佐藤さんのベッドのマットレス\N高級品でフカフカなんですから！}Your mattress is very expensive, and it's so soft and fluffy!
+Dialogue: 0,0:04:28.37,0:04:32.25,Dialogue,,0000,0000,0000,,{なんで知ってるんですか？\N佐藤刑事のベッドのこと。}How come you know so much about Detective Satō's bed?
+Dialogue: 0,0:04:32.25,0:04:33.75,Dialogue,,0000,0000,0000,,{寝たことあんのかよ？}Have you slept in it?
+Dialogue: 0,0:04:34.92,0:04:36.04,Dialogue,,0000,0000,0000,,{あ　いや...。}Ah, no—
 Dialogue: 0,0:04:36.42,0:04:39.67,Dialogue,,0000,0000,0000,,{歩美も佐藤刑事ん家に\Nお泊りした～い！\NYou're so lucky! }I wanna have a sleepover at Detective Satō's house too!
-Dialogue: 0,0:04:40.09,0:04:45.13,Dialogue,,0000,0000,0000,,{そんなヨタバナより　どうなの？\Nこの部屋の家主の容態。\N}Gossiping aside, what's the situation? What's the guy from this flat doing?
-Dialogue: 0,0:04:45.13,0:04:49.97,Dialogue,,0000,0000,0000,,{あ　ああ。手術は済んだんだけど\N意識不明の重体らしいよ。\N}O-O-Oh. He's had surgery, but he's still\Nunconscious and in a critical state.
-Dialogue: 0,0:04:50.26,0:04:53.77,Dialogue,,0000,0000,0000,,{まあ　意識が戻ったら\N感謝してくれるわよ。\N}Anyway, once he's conscious,\NI'm sure he'll be very thankful to you!
-Dialogue: 0,0:04:53.77,0:04:59.19,Dialogue,,0000,0000,0000,,{ドアロックを　すぐに開けてくれたコナン君のお陰で→\N\N助かったんだから！\N}After all, it's thanks to Conan{\rHonorifics - Dialogue}-kun{\r} opening the lock so quickly that he was saved!
-Dialogue: 0,0:04:59.19,0:05:00.44,Dialogue,,0000,0000,0000,,{いや　その前に...。\N}Actually, before that...
-Dialogue: 0,0:05:01.02,0:05:06.86,Dialogue,,0000,0000,0000,,{意識が戻ったら\N教えてくれると思うよ。\N}Once he regains consciousness, I think he'll tell us {誰が自分を襲ったかってことをね。\N}who tried to murder him.
-Dialogue: 0,0:05:06.86,0:05:09.07,Dialogue,,0000,0000,0000,,{お　襲ったって...。\N}M-Murder?
-Dialogue: 0,0:05:09.07,0:05:11.37,Dialogue,,0000,0000,0000,,{こ　これって事故じゃないのかい？\N}So, this isn't an accident?
-Dialogue: 0,0:05:11.79,0:05:15.33,Dialogue,,0000,0000,0000,,{だって　イスが掛け布団の上に\Nのってるよ！\N}Just look, the chair's on top of the bedcover.
-Dialogue: 0,0:05:15.33,0:05:19.33,Dialogue,,0000,0000,0000,,{ベッドの上にイスを立てるなら\N布団ぐらい　めくると思わない？\N}If you were going to stand a chair on a bed, you'd pull back the cover at least, wouldn't you?
-Dialogue: 0,0:05:20.29,0:05:25.42,Dialogue,,0000,0000,0000,,{それにホラ　益子さん\Nスリッパの片方　履いたままだよ！\N}And look at this, Masuko{\rHonorifics - Dialogue}-san{\r}'s still wearing one of his slippers!
-Dialogue: 0,0:05:25.42,0:05:29.14,Dialogue,,0000,0000,0000,,{ベッドやイスの上に乗るなら\Nスリッパ脱ぐんじゃないかなぁ？\N}If he was going to get on a chair on the bed, don't you think he would have taken off his slippers?
-Dialogue: 0,0:05:29.14,0:05:31.01,Dialogue,,0000,0000,0000,,{そ　そうね...。\N}T-That's true...
-Dialogue: 0,0:05:31.47,0:05:38.10,Dialogue,,0000,0000,0000,,{それにさ～}And, you know, {床で割れてるのが→\N\N取り替えようと外した\N古い蛍光灯だと思うけど→\N}the shattered light on the floor is probably the old light he took out to change,
-Dialogue: 0,0:05:38.73,0:05:41.19,Dialogue,,0000,0000,0000,,{端っこが全然　黒ずんでないよ？\Nまるで新品みたいにね。\N}but none of the edges are blackened, are they?
-Dialogue: 0,0:05:41.19,0:05:43.03,Dialogue,,0000,0000,0000,,{端っこが全然　黒ずんでないよ？\Nまるで新品みたいにね。\N}It looks brand new!
-Dialogue: 0,0:05:43.78,0:05:50.37,Dialogue,,0000,0000,0000,,{ということは}So, in other words, {　益子さんを→\N\Nこの寝室で突き飛ばして}somebody pushed Masuko{\rHonorifics - Dialogue}-san{\r} over here in his bedroom, {重傷を負わせた誰かが→\N}got him seriously injured,
-Dialogue: 0,0:05:50.37,0:05:53.04,Dialogue,,0000,0000,0000,,{事故に見せかけるために細工をしたのね。\N}and then set up the room afterwards to make it look like an accident.
-Dialogue: 0,0:05:53.74,0:05:58.71,Dialogue,,0000,0000,0000,,{隣の住人が不審な音を聞いて}And there was about an hour {このマンションの→\N\N管理人が来るまで\N１時間近く　かかったそうだから→\N}between the neighbour hearing the strange noise and the caretaker arriving.
-Dialogue: 0,0:05:58.71,0:06:01.29,Dialogue,,0000,0000,0000,,{このマンションの→\N\N管理人が来るまで\N１時間近く　かかったそうだから→\N}And there was about an hour between the neighbour hearing the strange noise and the caretaker arriving.
-Dialogue: 0,0:06:01.29,0:06:04.76,Dialogue,,0000,0000,0000,,{トリックを仕掛ける時間は\N十分にあったでしょうしね。\N}There would've been plenty of time to set the place up.
-Dialogue: 0,0:06:04.76,0:06:13.43,Dialogue,,0000,0000,0000,,{し　しかし...玄関の鍵は\N合い鍵が１つしかないそうで→\N}B-But there's apparently only one spare key for the front door, {２つともリビングの棚に\N置いてありましたし→\N}and both of the keys were on the living room shelf.
-Dialogue: 0,0:06:13.43,0:06:16.98,Dialogue,,0000,0000,0000,,{それに　玄関のドアロックは\Nどうやって...。\N}And how would they have set the door's safety lock?
+Dialogue: 0,0:04:40.09,0:04:45.13,Dialogue,,0000,0000,0000,,{そんなヨタバナより　どうなの？\Nこの部屋の家主の容態。}Gossiping aside, what's the situation? What's the guy from this flat doing?
+Dialogue: 0,0:04:45.13,0:04:49.97,Dialogue,,0000,0000,0000,,{あ　ああ。手術は済んだんだけど\N意識不明の重体らしいよ。}O-O-Oh. He's had surgery, but he's still\Nunconscious and in a critical state.
+Dialogue: 0,0:04:50.26,0:04:53.77,Dialogue,,0000,0000,0000,,{まあ　意識が戻ったら\N感謝してくれるわよ。}Anyway, once he's conscious,\NI'm sure he'll be very thankful to you!
+Dialogue: 0,0:04:53.77,0:04:59.19,Dialogue,,0000,0000,0000,,{ドアロックを　すぐに開けてくれたコナン君のお陰で→\N\N助かったんだから！}After all, it's thanks to Conan{\rHonorifics - Dialogue}-kun{\r} opening the lock so quickly that he was saved!
+Dialogue: 0,0:04:59.19,0:05:00.44,Dialogue,,0000,0000,0000,,{いや　その前に...。}Actually, before that...
+Dialogue: 0,0:05:01.02,0:05:06.86,Dialogue,,0000,0000,0000,,{意識が戻ったら\N教えてくれると思うよ。}Once he regains consciousness, I think he'll tell us {誰が自分を襲ったかってことをね。}who tried to murder him.
+Dialogue: 0,0:05:06.86,0:05:09.07,Dialogue,,0000,0000,0000,,{お　襲ったって...。}M-Murder?
+Dialogue: 0,0:05:09.07,0:05:11.37,Dialogue,,0000,0000,0000,,{こ　これって事故じゃないのかい？}So, this isn't an accident?
+Dialogue: 0,0:05:11.79,0:05:15.33,Dialogue,,0000,0000,0000,,{だって　イスが掛け布団の上に\Nのってるよ！}Just look, the chair's on top of the bedcover.
+Dialogue: 0,0:05:15.33,0:05:19.33,Dialogue,,0000,0000,0000,,{ベッドの上にイスを立てるなら\N布団ぐらい　めくると思わない？}If you were going to stand a chair on a bed, you'd pull back the cover at least, wouldn't you?
+Dialogue: 0,0:05:20.29,0:05:25.42,Dialogue,,0000,0000,0000,,{それにホラ　益子さん\Nスリッパの片方　履いたままだよ！}And look at this, Masuko{\rHonorifics - Dialogue}-san{\r}'s still wearing one of his slippers!
+Dialogue: 0,0:05:25.42,0:05:29.14,Dialogue,,0000,0000,0000,,{ベッドやイスの上に乗るなら\Nスリッパ脱ぐんじゃないかなぁ？}If he was going to get on a chair on the bed, don't you think he would have taken off his slippers?
+Dialogue: 0,0:05:29.14,0:05:31.01,Dialogue,,0000,0000,0000,,{そ　そうね...。}T-That's true...
+Dialogue: 0,0:05:31.47,0:05:38.10,Dialogue,,0000,0000,0000,,{それにさ～}And, you know, {床で割れてるのが→\N\N取り替えようと外した\N古い蛍光灯だと思うけど→}the shattered light on the floor is probably the old light he took out to change,
+Dialogue: 0,0:05:38.73,0:05:41.19,Dialogue,,0000,0000,0000,,{端っこが全然　黒ずんでないよ？\Nまるで新品みたいにね。}but none of the edges are blackened, are they?
+Dialogue: 0,0:05:41.19,0:05:43.03,Dialogue,,0000,0000,0000,,{端っこが全然　黒ずんでないよ？\Nまるで新品みたいにね。}It looks brand new!
+Dialogue: 0,0:05:43.78,0:05:50.37,Dialogue,,0000,0000,0000,,{ということは}So, in other words, {　益子さんを→\N\Nこの寝室で突き飛ばして}somebody pushed Masuko{\rHonorifics - Dialogue}-san{\r} over here in his bedroom, {重傷を負わせた誰かが→}got him seriously injured,
+Dialogue: 0,0:05:50.37,0:05:53.04,Dialogue,,0000,0000,0000,,{事故に見せかけるために細工をしたのね。}and then set up the room afterwards to make it look like an accident.
+Dialogue: 0,0:05:53.74,0:05:58.71,Dialogue,,0000,0000,0000,,{隣の住人が不審な音を聞いて}And there was about an hour {このマンションの→\N\N管理人が来るまで\N１時間近く　かかったそうだから→}between the neighbour hearing the strange noise and the caretaker arriving.
+Dialogue: 0,0:05:58.71,0:06:01.29,Dialogue,,0000,0000,0000,,{このマンションの→\N\N管理人が来るまで\N１時間近く　かかったそうだから→}And there was about an hour between the neighbour hearing the strange noise and the caretaker arriving.
+Dialogue: 0,0:06:01.29,0:06:04.76,Dialogue,,0000,0000,0000,,{トリックを仕掛ける時間は\N十分にあったでしょうしね。}There would've been plenty of time to set the place up.
+Dialogue: 0,0:06:04.76,0:06:13.43,Dialogue,,0000,0000,0000,,{し　しかし...玄関の鍵は\N合い鍵が１つしかないそうで→}B-But there's apparently only one spare key for the front door, {２つともリビングの棚に\N置いてありましたし→}and both of the keys were on the living room shelf.
+Dialogue: 0,0:06:13.43,0:06:16.98,Dialogue,,0000,0000,0000,,{それに　玄関のドアロックは\Nどうやって...。}And how would they have set the door's safety lock?
 Dialogue: 0,0:06:16.98,0:06:18.98,Dialogue,,0000,0000,0000,,{そんなの　もう解けちゃってるわよ}That's all been figured out already!
-Dialogue: 0,0:06:19.44,0:06:21.31,Dialogue,,0000,0000,0000,,{ね？コナン君！\N}Right, Conan{\rHonorifics - Dialogue}-kun{\r}?
-Dialogue: 0,0:06:21.31,0:06:24.57,Dialogue,,0000,0000,0000,,{ドアロック　外から外せたんだから掛けるぐらい...。\N}If you can open a lock from the outside, then I bet you know how to lock one too...
-Dialogue: 0,0:06:25.44,0:06:27.86,Dialogue,,0000,0000,0000,,{あ　いや　そこまではまだ...。\N}Oh, no, not exactly...
-Dialogue: 0,0:06:27.86,0:06:30.78,Dialogue,,0000,0000,0000,,{（元太）\Nおい　見ろよ！誰か映ってるぞ！\N}Hey, look! There's somebody on the screen!
-Dialogue: 0,0:06:30.78,0:06:31.53,Dialogue,,0000,0000,0000,,{（歩美）ホントだ～！\N}It's true!
-Dialogue: 0,0:06:35.45,0:06:38.25,Dialogue,,0000,0000,0000,,{（高木）\Nちょっと君たち！何を勝手に！\N}Wait, what are you guys doing messing around here?
-Dialogue: 0,0:06:38.25,0:06:39.46,Dialogue,,0000,0000,0000,,{インターホンです！\N}It's the intercom!
-Dialogue: 0,0:06:40.00,0:06:47.55,Dialogue,,0000,0000,0000,,{ここのインターホン→\N}The intercom's set up {１階のエントランスで\N呼び鈴　鳴らした人の映像が→\N\N録画されるようになっていて。\N}to record videos of whoever rings the doorbell at the ground floor entrance.
-Dialogue: 0,0:06:47.55,0:06:52.72,Dialogue,,0000,0000,0000,,{映ってるわよ。私たちが来る前の\N１時間の間に３人も。\N}And here they are. Three people came within the hour before we arrived.
-Dialogue: 0,0:06:53.35,0:06:57.72,Dialogue,,0000,0000,0000,,{音声も録音されてて　ちゃんと\N自分で名前も言ってたから→\N}The audio gets recorded too, and they all introduced themselves,
+Dialogue: 0,0:06:19.44,0:06:21.31,Dialogue,,0000,0000,0000,,{ね？コナン君！}Right, Conan{\rHonorifics - Dialogue}-kun{\r}?
+Dialogue: 0,0:06:21.31,0:06:24.57,Dialogue,,0000,0000,0000,,{ドアロック　外から外せたんだから掛けるぐらい...。}If you can open a lock from the outside, then I bet you know how to lock one too...
+Dialogue: 0,0:06:25.44,0:06:27.86,Dialogue,,0000,0000,0000,,{あ　いや　そこまではまだ...。}Oh, no, not exactly...
+Dialogue: 0,0:06:27.86,0:06:30.78,Dialogue,,0000,0000,0000,,{（元太）\Nおい　見ろよ！誰か映ってるぞ！}Hey, look! There's somebody on the screen!
+Dialogue: 0,0:06:30.78,0:06:31.53,Dialogue,,0000,0000,0000,,{（歩美）ホントだ～！}It's true!
+Dialogue: 0,0:06:35.45,0:06:38.25,Dialogue,,0000,0000,0000,,{（高木）\Nちょっと君たち！何を勝手に！}Wait, what are you guys doing messing around here?
+Dialogue: 0,0:06:38.25,0:06:39.46,Dialogue,,0000,0000,0000,,{インターホンです！}It's the intercom!
+Dialogue: 0,0:06:40.00,0:06:47.55,Dialogue,,0000,0000,0000,,{ここのインターホン→}The intercom's set up {１階のエントランスで\N呼び鈴　鳴らした人の映像が→\N\N録画されるようになっていて。}to record videos of whoever rings the doorbell at the ground floor entrance.
+Dialogue: 0,0:06:47.55,0:06:52.72,Dialogue,,0000,0000,0000,,{映ってるわよ。私たちが来る前の\N１時間の間に３人も。}And here they are. Three people came within the hour before we arrived.
+Dialogue: 0,0:06:53.35,0:06:57.72,Dialogue,,0000,0000,0000,,{音声も録音されてて　ちゃんと\N自分で名前も言ってたから→}The audio gets recorded too, and they all introduced themselves,
 Dialogue: 0,0:06:57.72,0:07:01.48,Dialogue,,0000,0000,0000,,{住所録と照らし合わせれば\Nどこの誰だか　わかるんじゃない？\N***CHECK}so we should be able to identify them using Masuko{\rHonorifics - Dialogue}-san{\r}'s address book.
 Dialogue: 0,0:07:01.94,0:07:05.11,Dialogue,,0000,0000,0000,,So you two don't have time to be fooling around. {NEP line}
-Dialogue: 0,0:07:06.02,0:07:08.69,Dialogue,,0000,0000,0000,,{（佐藤）もぉ！高木君が\N余計なこと言うから。\N}Geez! You just {\i1}had{\i0} to open your big mouth, Takagi{\rHonorifics - Dialogue}-kun{\r}!
-Dialogue: 0,0:07:08.69,0:07:10.11,Dialogue,,0000,0000,0000,,{（高木）す　すいません...。\N}S-Sorry!
-Dialogue: 0,0:07:10.86,0:07:14.37,Thoughts,,0000,0000,0000,,{\be10《テーブルの上に　包装紙と\N古めのキャリーバッグ。→\N}There's an old cat carrier on the table with some wrapping paper.
-Dialogue: 0,0:07:15.03,0:07:19.12,Thoughts,,0000,0000,0000,,{\be10本当に　あの三毛猫を誰かに\Nプレゼントしようとしてたんだ》\N}So he really {\i1}was{\i0} going to give that calico to someone as a gift.
-Dialogue: 0,0:07:19.91,0:07:25.38,Thoughts,,0000,0000,0000,,{\be10《包装紙に\Nテープと折り目がついてて→\N}There's tape and fold marks on the wrapping paper, {所々　破れた跡があるってことは→\N}and some tears here and there,
-Dialogue: 0,0:07:25.38,0:07:28.96,Thoughts,,0000,0000,0000,,{\be10包んであったのを\N誰かが一回　開けたのか？》\N}so did somebody unwrap it after it had already been wrapped?
-Dialogue: 0,0:07:30.30,0:07:32.25,Thoughts,,0000,0000,0000,,{\be10《ん？\Nテープやハサミはあるのに→\N}There's tape and scissors here...
-Dialogue: 0,0:07:33.78,0:07:35.85,Thoughts,,0000,0000,0000,,{\be10そばのゴミ箱も空だし\N} But the bin is empty...
-Dialogue: 0,0:07:36.93,0:07:39.18,Thoughts,,0000,0000,0000,,{\be10なんで　ないんだ？アレが...》\N}Why can't I see it anywhere?
+Dialogue: 0,0:07:06.02,0:07:08.69,Dialogue,,0000,0000,0000,,{（佐藤）もぉ！高木君が\N余計なこと言うから。}Geez! You just {\i1}had{\i0} to open your big mouth, Takagi{\rHonorifics - Dialogue}-kun{\r}!
+Dialogue: 0,0:07:08.69,0:07:10.11,Dialogue,,0000,0000,0000,,{（高木）す　すいません...。}S-Sorry!
+Dialogue: 0,0:07:10.86,0:07:14.37,Thoughts,,0000,0000,0000,,{\be10《テーブルの上に　包装紙と\N古めのキャリーバッグ。→}There's an old cat carrier on the table with some wrapping paper.
+Dialogue: 0,0:07:15.03,0:07:19.12,Thoughts,,0000,0000,0000,,{\be10本当に　あの三毛猫を誰かに\Nプレゼントしようとしてたんだ》}So he really {\i1}was{\i0} going to give that calico to someone as a gift.
+Dialogue: 0,0:07:19.91,0:07:25.38,Thoughts,,0000,0000,0000,,{\be10《包装紙に\Nテープと折り目がついてて→}There's tape and fold marks on the wrapping paper, {所々　破れた跡があるってことは→}and some tears here and there,
+Dialogue: 0,0:07:25.38,0:07:28.96,Thoughts,,0000,0000,0000,,{\be10包んであったのを\N誰かが一回　開けたのか？》}so did somebody unwrap it after it had already been wrapped?
+Dialogue: 0,0:07:30.30,0:07:32.25,Thoughts,,0000,0000,0000,,{\be10《ん？\Nテープやハサミはあるのに→}There's tape and scissors here...
+Dialogue: 0,0:07:33.78,0:07:35.85,Thoughts,,0000,0000,0000,,{\be10そばのゴミ箱も空だし} But the bin is empty...
+Dialogue: 0,0:07:36.93,0:07:39.18,Thoughts,,0000,0000,0000,,{\be10なんで　ないんだ？アレが...》}Why can't I see it anywhere?
 Dialogue: 0,0:07:41.60,0:07:46.31,Dialogue,,0000,0000,0000,,{わりと　すぐに見つかったわね。\Nインターホンに映ってた３人。\N***SPLIT IN MIDDLE OF LINE AT K-FRAMEthat's 7:43.42 - do we really want a split there? -uso.}We managed to find the three people recorded by the intercom pretty quickly.
-Dialogue: 0,0:07:46.31,0:07:52.45,Dialogue,,0000,0000,0000,,{ええ。でも　被害者の部屋に\N招き入れられたのは→\N}Yes, but his first visitor was the only one invited into the flat.
-Dialogue: 0,0:07:52.45,0:07:55.41,Dialogue,,0000,0000,0000,,{最初に来た１人だけで\N２人目は玄関口で対応され→\N}He dealt with his second visitor at the door,
-Dialogue: 0,0:07:55.41,0:08:02.79,Dialogue,,0000,0000,0000,,{３人目は玄関の扉の前で\N呼び鈴を鳴らしても→\N}and the third one rang the doorbell on his door, {返事がなかったから\N帰ったと言ってますから→\N}but didn't get a reply, and went home.
-Dialogue: 0,0:08:02.79,0:08:05.79,Dialogue,,0000,0000,0000,,{３人とも怪しいですよね。\N}All three of them are suspicious.
-Dialogue: 0,0:08:05.79,0:08:07.29,Dialogue,,0000,0000,0000,,{（佐藤）そうね。→\N}You're right.
-Dialogue: 0,0:08:07.29,0:08:11.47,Dialogue,,0000,0000,0000,,{１人目の来客中に\N２人目が来た場合を考えると→\N}If we consider that the first visitor was still there when the second one turned up,
-Dialogue: 0,0:08:11.47,0:08:15.80,Dialogue,,0000,0000,0000,,{２人目の客が帰った後でなら\N１人目にも犯行は可能だから...。\N}then even the first visitor could have tried to kill him after the second left.
-Dialogue: 0,0:08:16.47,0:08:21.73,Dialogue,,0000,0000,0000,,{そういえば\N君たちがエントランスの→\N\Nインターホンを鳴らした時は\N益子さんは？\N}Come to think of it, what did Masuko{\rHonorifics - Dialogue}-san{\r} do when you lot rang the intercom at the entrance?
-Dialogue: 0,0:08:21.73,0:08:23.81,Dialogue,,0000,0000,0000,,{そんなもん鳴らさなかったぞ！\N}We didn't ring it!
-Dialogue: 0,0:08:24.14,0:08:31.07,Dialogue,,0000,0000,0000,,{鳴らそうと思ったけど　ちょうど外出する住人がいたから→\N}We thought about ringing it, but then one of the residents was going out, {扉が開いた隙に入ったのよ。\N}so we went in while the door was open.
-Dialogue: 0,0:08:31.07,0:08:33.78,Dialogue,,0000,0000,0000,,{急に行って驚かそうと思ってさ！\N}We thought we'd rush in and give him a surprise!
-Dialogue: 0,0:08:33.78,0:08:36.20,Dialogue,,0000,0000,0000,,{アポはとってありましたし。\N}We {\i1}had{\i0} arranged to meet him.
-Dialogue: 0,0:08:36.20,0:08:38.33,Dialogue,,0000,0000,0000,,{部屋番号も聞いてたしね。\N}And we knew his flat number.
-Dialogue: 0,0:08:38.33,0:08:40.33,Dialogue,,0000,0000,0000,,{そ　そっか...。\N}I see.
-Dialogue: 0,0:08:42.66,0:08:49.59,Dialogue Top,,0000,0000,0000,,{（露口）ええ...確かに今日\N益子さんとお会いして→\N}Yes. I did indeed meet Masuko{\rHonorifics - Dialogue}-san{\r} today {リビングで紅茶を\Nご馳走になりましたよ。\N}and we had tea in his living room.
+Dialogue: 0,0:07:46.31,0:07:52.45,Dialogue,,0000,0000,0000,,{ええ。でも　被害者の部屋に\N招き入れられたのは→}Yes, but his first visitor was the only one invited into the flat.
+Dialogue: 0,0:07:52.45,0:07:55.41,Dialogue,,0000,0000,0000,,{最初に来た１人だけで\N２人目は玄関口で対応され→}He dealt with his second visitor at the door,
+Dialogue: 0,0:07:55.41,0:08:02.79,Dialogue,,0000,0000,0000,,{３人目は玄関の扉の前で\N呼び鈴を鳴らしても→}and the third one rang the doorbell on his door, {返事がなかったから\N帰ったと言ってますから→}but didn't get a reply, and went home.
+Dialogue: 0,0:08:02.79,0:08:05.79,Dialogue,,0000,0000,0000,,{３人とも怪しいですよね。}All three of them are suspicious.
+Dialogue: 0,0:08:05.79,0:08:07.29,Dialogue,,0000,0000,0000,,{（佐藤）そうね。→}You're right.
+Dialogue: 0,0:08:07.29,0:08:11.47,Dialogue,,0000,0000,0000,,{１人目の来客中に\N２人目が来た場合を考えると→}If we consider that the first visitor was still there when the second one turned up,
+Dialogue: 0,0:08:11.47,0:08:15.80,Dialogue,,0000,0000,0000,,{２人目の客が帰った後でなら\N１人目にも犯行は可能だから...。}then even the first visitor could have tried to kill him after the second left.
+Dialogue: 0,0:08:16.47,0:08:21.73,Dialogue,,0000,0000,0000,,{そういえば\N君たちがエントランスの→\N\Nインターホンを鳴らした時は\N益子さんは？}Come to think of it, what did Masuko{\rHonorifics - Dialogue}-san{\r} do when you lot rang the intercom at the entrance?
+Dialogue: 0,0:08:21.73,0:08:23.81,Dialogue,,0000,0000,0000,,{そんなもん鳴らさなかったぞ！}We didn't ring it!
+Dialogue: 0,0:08:24.14,0:08:31.07,Dialogue,,0000,0000,0000,,{鳴らそうと思ったけど　ちょうど外出する住人がいたから→}We thought about ringing it, but then one of the residents was going out, {扉が開いた隙に入ったのよ。}so we went in while the door was open.
+Dialogue: 0,0:08:31.07,0:08:33.78,Dialogue,,0000,0000,0000,,{急に行って驚かそうと思ってさ！}We thought we'd rush in and give him a surprise!
+Dialogue: 0,0:08:33.78,0:08:36.20,Dialogue,,0000,0000,0000,,{アポはとってありましたし。}We {\i1}had{\i0} arranged to meet him.
+Dialogue: 0,0:08:36.20,0:08:38.33,Dialogue,,0000,0000,0000,,{部屋番号も聞いてたしね。}And we knew his flat number.
+Dialogue: 0,0:08:38.33,0:08:40.33,Dialogue,,0000,0000,0000,,{そ　そっか...。}I see.
+Dialogue: 0,0:08:42.66,0:08:49.59,Dialogue Top,,0000,0000,0000,,{（露口）ええ...確かに今日\N益子さんとお会いして→}Yes. I did indeed meet Masuko{\rHonorifics - Dialogue}-san{\r} today {リビングで紅茶を\Nご馳走になりましたよ。}and we had tea in his living room.
 Dialogue: 0,0:08:42.58,0:08:48.54,Signs,,0000,0000,0000,,Furuyo Tsuyuguchi (41)\NPub Landlord
-Dialogue: 0,0:08:50.13,0:08:54.80,Dialogue,,0000,0000,0000,,{レコードの１曲分だから...\N１０分ぐらい　いたかしら。\N}I stayed for about the length of one track on a record, so it must have been for 10 minutes or so.
-Dialogue: 0,0:08:54.80,0:08:55.72,Dialogue,,0000,0000,0000,,{レコード？\N}A record?
-Dialogue: 0,0:08:56.09,0:09:06.06,Dialogue,,0000,0000,0000,,{ええ...私→\N\Nビンテージもののジャズの\Nレコードをコレクションしてて→\N}Oh yes, I collect vintage jazz records {益子さんが私の探してたレコードを見つけてくれたっていうから→\N}and Masuko{\rHonorifics - Dialogue}-san{\r} said that he'd found a record I'd been searching for,
-Dialogue: 0,0:09:06.65,0:09:10.90,Dialogue,,0000,0000,0000,,{受け取りに来たついでに\N１曲　聴かせてもらったの。\N}so since I was going along to pick it up,\NI asked him to play a track to me.
-Dialogue: 0,0:09:10.90,0:09:14.49,Dialogue,,0000,0000,0000,,{あなたが来てる間に\N呼び鈴は鳴りましたか？\N}Did the bell ring while you were here?
-Dialogue: 0,0:09:14.49,0:09:17.70,Dialogue,,0000,0000,0000,,{さあ...\Nヘッドホンで聴いてましたので。\N}No idea... I was listening to it through headphones.
-Dialogue: 0,0:09:18.07,0:09:21.12,Dialogue,,0000,0000,0000,,{あ　悪いけど　ちょっと\Nトイレ借りていいかしら？\N}Excuse me, but would you mind if I used the toilet?
-Dialogue: 0,0:09:21.54,0:09:23.58,Dialogue,,0000,0000,0000,,{ええ　かまいませんよ。\N}Not at all.
-Dialogue: 0,0:09:23.58,0:09:24.54,Dialogue,,0000,0000,0000,,{それじゃあ...。\N}Then if you don't mind...
-Dialogue: 0,0:09:39.09,0:09:40.47,Dialogue,,0000,0000,0000,,{ちょっとボウヤ！\N}Hey, kid!
+Dialogue: 0,0:08:50.13,0:08:54.80,Dialogue,,0000,0000,0000,,{レコードの１曲分だから...\N１０分ぐらい　いたかしら。}I stayed for about the length of one track on a record, so it must have been for 10 minutes or so.
+Dialogue: 0,0:08:54.80,0:08:55.72,Dialogue,,0000,0000,0000,,{レコード？}A record?
+Dialogue: 0,0:08:56.09,0:09:06.06,Dialogue,,0000,0000,0000,,{ええ...私→\N\Nビンテージもののジャズの\Nレコードをコレクションしてて→}Oh yes, I collect vintage jazz records {益子さんが私の探してたレコードを見つけてくれたっていうから→}and Masuko{\rHonorifics - Dialogue}-san{\r} said that he'd found a record I'd been searching for,
+Dialogue: 0,0:09:06.65,0:09:10.90,Dialogue,,0000,0000,0000,,{受け取りに来たついでに\N１曲　聴かせてもらったの。}so since I was going along to pick it up,\NI asked him to play a track to me.
+Dialogue: 0,0:09:10.90,0:09:14.49,Dialogue,,0000,0000,0000,,{あなたが来てる間に\N呼び鈴は鳴りましたか？}Did the bell ring while you were here?
+Dialogue: 0,0:09:14.49,0:09:17.70,Dialogue,,0000,0000,0000,,{さあ...\Nヘッドホンで聴いてましたので。}No idea... I was listening to it through headphones.
+Dialogue: 0,0:09:18.07,0:09:21.12,Dialogue,,0000,0000,0000,,{あ　悪いけど　ちょっと\Nトイレ借りていいかしら？}Excuse me, but would you mind if I used the toilet?
+Dialogue: 0,0:09:21.54,0:09:23.58,Dialogue,,0000,0000,0000,,{ええ　かまいませんよ。}Not at all.
+Dialogue: 0,0:09:23.58,0:09:24.54,Dialogue,,0000,0000,0000,,{それじゃあ...。}Then if you don't mind...
+Dialogue: 0,0:09:39.09,0:09:40.47,Dialogue,,0000,0000,0000,,{ちょっとボウヤ！}Hey, kid!
 Dialogue: 0,0:09:40.47,0:09:43.31,Dialogue,,0000,0000,0000,,{どうして使い終わったら→\N\N明かりを消さないの？}Why didn't you turn off the light when you were done?!
-Dialogue: 0,0:09:43.31,0:09:45.14,Dialogue,,0000,0000,0000,,{すいません！\N}I'm really sorry!
-Dialogue: 0,0:09:45.43,0:09:49.77,Dialogue,,0000,0000,0000,,{あっ　私　無駄遣いを許せなくてつい...オホホホッ。\N}Oh, er, I just can't stand wasting power like that{, so I couldn't help myself}.
-Dialogue: 0,0:09:51.61,0:09:53.48,Dialogue,,0000,0000,0000,,{（麻生）さっきも言ったように→\N}As I said,
-Dialogue: 0,0:09:53.48,0:09:55.78,Dialogue Top,,0000,0000,0000,,{玄関口で　お話しただけなので→\N}I spoke to him at his door,
-Dialogue: 0,0:09:55.78,0:09:58.45,Dialogue Top,,0000,0000,0000,,{部屋の中には入ってません。\Nアポなしでしたし。\N}but I didn't come into his flat.
-Dialogue: 0,0:09:58.45,0:10:03.29,Dialogue Top,,0000,0000,0000,,{アポなしでしたし。\N}I {\i1}had{\i0} turned up without an appointment,{なんか　お客様が\Nいらっしゃったみたいで。\N} and it seemed like he already had a visitor with him.
+Dialogue: 0,0:09:43.31,0:09:45.14,Dialogue,,0000,0000,0000,,{すいません！}I'm really sorry!
+Dialogue: 0,0:09:45.43,0:09:49.77,Dialogue,,0000,0000,0000,,{あっ　私　無駄遣いを許せなくてつい...オホホホッ。}Oh, er, I just can't stand wasting power like that{, so I couldn't help myself}.
+Dialogue: 0,0:09:51.61,0:09:53.48,Dialogue,,0000,0000,0000,,{（麻生）さっきも言ったように→}As I said,
+Dialogue: 0,0:09:53.48,0:09:55.78,Dialogue Top,,0000,0000,0000,,{玄関口で　お話しただけなので→}I spoke to him at his door,
+Dialogue: 0,0:09:55.78,0:09:58.45,Dialogue Top,,0000,0000,0000,,{部屋の中には入ってません。\Nアポなしでしたし。}but I didn't come into his flat.
+Dialogue: 0,0:09:58.45,0:10:03.29,Dialogue Top,,0000,0000,0000,,{アポなしでしたし。}I {\i1}had{\i0} turned up without an appointment,{なんか　お客様が\Nいらっしゃったみたいで。} and it seemed like he already had a visitor with him.
 Dialogue: 0,0:09:56.03,0:10:01.12,Signs,,0000,0000,0000,,Mari Asō (28)\NFormer Employee of Masuko's Company
-Dialogue: 0,0:10:03.29,0:10:05.50,Dialogue,,0000,0000,0000,,{益子さんには　なんの用で？\N}Why did you come to see Masuko{\rHonorifics - Dialogue}-san{\r}?
-Dialogue: 0,0:10:05.50,0:10:07.11,Dialogue,,0000,0000,0000,,{実は私...\N益子社長の会社をクビになって→\N}Well, you see,
-Dialogue: 0,0:10:07.11,0:10:13.38,Dialogue,,0000,0000,0000,,I was fired by Masuko{\rHonorifics - Dialogue}-san{\r}'s company,\N{それで社長に最後の挨拶をと。\N}so I thought I'd drop by to see him one last time... {TL: "that came out more suspicious in English than the Japanese"}
-Dialogue: 0,0:10:13.38,0:10:15.92,Dialogue,,0000,0000,0000,,{（佐藤）\Nまさか　文句を言いに来たわけ？\N}You weren't coming to complain were you?
-Dialogue: 0,0:10:15.92,0:10:18.09,Dialogue,,0000,0000,0000,,{いえ　その逆です！\N}Oh no, quite the opposite!
-Dialogue: 0,0:10:18.09,0:10:21.14,Dialogue,,0000,0000,0000,,{クビになったのは→\N\N私の大ポカが原因ですし\N}I was fired because of a huge mistake on my part,
-Dialogue: 0,0:10:21.14,0:10:28.06,Dialogue,,0000,0000,0000,,{それに社長には→\N\N新しい仕事先を世話して\N頂いたので}and he really helped me get a new job, {　そのお礼もかねて。\N}so I thought I'd come to thank him.
-Dialogue: 0,0:10:30.10,0:10:33.32,Dialogue,,0000,0000,0000,,{あら　かわいい猫ちゃん。\N抱かせてくれる？\Nうん！\N}Hey, that's a really cute kitty! Can I hold him?
-Dialogue: 0,0:10:36.23,0:10:37.49,Dialogue,,0000,0000,0000,,{かわいい！\N}He's so cute!
-Dialogue: 0,0:10:37.49,0:10:40.20,Dialogue,,0000,0000,0000,,{大ちゃん　シッポ振って喜んでる！\N}Tai{\rHonorifics - Dialogue}-chan{\r}'s really happy, he's wagging his tail!
-Dialogue: 0,0:10:40.20,0:10:41.66,Dialogue,,0000,0000,0000,,{あら　ホント。\Nニャー。\N}You're right.
-Dialogue: 0,0:10:42.12,0:10:44.53,Dialogue,,0000,0000,0000,,{お姉さんは　猫とか飼ってないの？\N}Do you have a cat?
-Dialogue: 0,0:10:44.95,0:10:50.04,Dialogue,,0000,0000,0000,,{ええ　親が動物嫌いだから。\N私は好きなんだけどね...。\N}No. My parents aren't big fans of pets, though I like them...
-Dialogue: 0,0:10:50.50,0:10:52.54,Dialogue,,0000,0000,0000,,{（漆屋）何度も言わせないでくれ。→\N}Don't make me repeat myself.
+Dialogue: 0,0:10:03.29,0:10:05.50,Dialogue,,0000,0000,0000,,{益子さんには　なんの用で？}Why did you come to see Masuko{\rHonorifics - Dialogue}-san{\r}?
+Dialogue: 0,0:10:05.50,0:10:07.11,Dialogue,,0000,0000,0000,,{実は私...\N益子社長の会社をクビになって→}Well, you see,
+Dialogue: 0,0:10:07.11,0:10:13.38,Dialogue,,0000,0000,0000,,I was fired by Masuko{\rHonorifics - Dialogue}-san{\r}'s company,\N{それで社長に最後の挨拶をと。}so I thought I'd drop by to see him one last time... {TL: "that came out more suspicious in English than the Japanese"}
+Dialogue: 0,0:10:13.38,0:10:15.92,Dialogue,,0000,0000,0000,,{（佐藤）\Nまさか　文句を言いに来たわけ？}You weren't coming to complain were you?
+Dialogue: 0,0:10:15.92,0:10:18.09,Dialogue,,0000,0000,0000,,{いえ　その逆です！}Oh no, quite the opposite!
+Dialogue: 0,0:10:18.09,0:10:21.14,Dialogue,,0000,0000,0000,,{クビになったのは→\N\N私の大ポカが原因ですし}I was fired because of a huge mistake on my part,
+Dialogue: 0,0:10:21.14,0:10:28.06,Dialogue,,0000,0000,0000,,{それに社長には→\N\N新しい仕事先を世話して\N頂いたので}and he really helped me get a new job, {　そのお礼もかねて。}so I thought I'd come to thank him.
+Dialogue: 0,0:10:30.10,0:10:33.32,Dialogue,,0000,0000,0000,,{あら　かわいい猫ちゃん。\N抱かせてくれる？\Nうん！}Hey, that's a really cute kitty! Can I hold him?
+Dialogue: 0,0:10:36.23,0:10:37.49,Dialogue,,0000,0000,0000,,{かわいい！}He's so cute!
+Dialogue: 0,0:10:37.49,0:10:40.20,Dialogue,,0000,0000,0000,,{大ちゃん　シッポ振って喜んでる！}Tai{\rHonorifics - Dialogue}-chan{\r}'s really happy, he's wagging his tail!
+Dialogue: 0,0:10:40.20,0:10:41.66,Dialogue,,0000,0000,0000,,{あら　ホント。\Nニャー。}You're right.
+Dialogue: 0,0:10:42.12,0:10:44.53,Dialogue,,0000,0000,0000,,{お姉さんは　猫とか飼ってないの？}Do you have a cat?
+Dialogue: 0,0:10:44.95,0:10:50.04,Dialogue,,0000,0000,0000,,{ええ　親が動物嫌いだから。\N私は好きなんだけどね...。}No. My parents aren't big fans of pets, though I like them...
+Dialogue: 0,0:10:50.50,0:10:52.54,Dialogue,,0000,0000,0000,,{（漆屋）何度も言わせないでくれ。→}Don't make me repeat myself.
 Dialogue: 0,0:10:52.79,0:10:58.05,Signs,,0000,0000,0000,,Rimpei Urushiya (53)\NNovelist
-Dialogue: 0,0:10:52.96,0:10:56.29,Dialogue Top,,0010,0010,0000,,{確かに私は玄関までは来たが\N}Yes, I came up here to the front door,
-Dialogue: 0,0:10:56.29,0:11:02.34,Dialogue Top,,0010,0010,0000,,{この呼び鈴を何度　押しても→\N\N彼が応答しなかったから\N}but no matter how many times I rang the bell, he wouldn't answer, {あきらめて帰ったんだよ！\N}so I gave up and went home!
-Dialogue: 0,0:11:02.64,0:11:05.35,Dialogue,,0000,0000,0000,,{じゃあ　どうやって\Nマンションの中に？\N}So, how did you get inside the building in the first place?
-Dialogue: 0,0:11:05.35,0:11:09.48,Dialogue,,0000,0000,0000,,{１階のエントランスの\Nインターホンを押した時は→\N\N開けてくれたんだよ！\N}He let me in when I pressed the button on the intercom on the ground floor.
-Dialogue: 0,0:11:09.98,0:11:14.06,Dialogue,,0000,0000,0000,,{無言だったから→\N\N開けたのが彼かどうかは\Nわからんがな。\N}Though, he didn't say anything, so I can't say for sure that he was the one who opened the door.
-Dialogue: 0,0:11:14.06,0:11:16.86,Dialogue,,0000,0000,0000,,{（高木）\N益子さんとは　どういうご関係で？\N}What was your relationship with Masuko{\rHonorifics - Dialogue}-san{\r}?
-Dialogue: 0,0:11:17.36,0:11:23.41,Dialogue,,0000,0000,0000,,{彼とは\N大学時代からの付き合いだよ。\N}We've known each other since university,\N{同じ年にデビューした作家仲間だし。\N}and even debuted as writers in the same year.
-Dialogue: 0,0:11:23.41,0:11:28.87,Dialogue,,0000,0000,0000,,{まあ　彼の小説はさっぱり売れずに早々に諦めてしまったようだが。\N}Though his novels didn't sell so well, so he gave up very quickly.
-Dialogue: 0,0:11:29.33,0:11:33.04,Dialogue,,0000,0000,0000,,{かく言う私も\N売れたのは最初だけで...。\N}That said, only my first novel sold well.
-Dialogue: 0,0:11:33.04,0:11:37.38,Dialogue,,0000,0000,0000,,{今思えば　鞍替えした彼の方が\N正解だったかもしれんな。\N}Looking back on it, he probably did the right thing, changing jobs.
-Dialogue: 0,0:11:37.75,0:11:39.59,Dialogue,,0000,0000,0000,,{それで　ここへは？\N}And you came here to...?
-Dialogue: 0,0:11:39.59,0:11:42.43,Dialogue,,0000,0000,0000,,{小説のアイディアを２人で練りに。\N}Go over some ideas for novels with him.
+Dialogue: 0,0:10:52.96,0:10:56.29,Dialogue Top,,0010,0010,0000,,{確かに私は玄関までは来たが}Yes, I came up here to the front door,
+Dialogue: 0,0:10:56.29,0:11:02.34,Dialogue Top,,0010,0010,0000,,{この呼び鈴を何度　押しても→\N\N彼が応答しなかったから}but no matter how many times I rang the bell, he wouldn't answer, {あきらめて帰ったんだよ！}so I gave up and went home!
+Dialogue: 0,0:11:02.64,0:11:05.35,Dialogue,,0000,0000,0000,,{じゃあ　どうやって\Nマンションの中に？}So, how did you get inside the building in the first place?
+Dialogue: 0,0:11:05.35,0:11:09.48,Dialogue,,0000,0000,0000,,{１階のエントランスの\Nインターホンを押した時は→\N\N開けてくれたんだよ！}He let me in when I pressed the button on the intercom on the ground floor.
+Dialogue: 0,0:11:09.98,0:11:14.06,Dialogue,,0000,0000,0000,,{無言だったから→\N\N開けたのが彼かどうかは\Nわからんがな。}Though, he didn't say anything, so I can't say for sure that he was the one who opened the door.
+Dialogue: 0,0:11:14.06,0:11:16.86,Dialogue,,0000,0000,0000,,{（高木）\N益子さんとは　どういうご関係で？}What was your relationship with Masuko{\rHonorifics - Dialogue}-san{\r}?
+Dialogue: 0,0:11:17.36,0:11:23.41,Dialogue,,0000,0000,0000,,{彼とは\N大学時代からの付き合いだよ。}We've known each other since university,\N{同じ年にデビューした作家仲間だし。}and even debuted as writers in the same year.
+Dialogue: 0,0:11:23.41,0:11:28.87,Dialogue,,0000,0000,0000,,{まあ　彼の小説はさっぱり売れずに早々に諦めてしまったようだが。}Though his novels didn't sell so well, so he gave up very quickly.
+Dialogue: 0,0:11:29.33,0:11:33.04,Dialogue,,0000,0000,0000,,{かく言う私も\N売れたのは最初だけで...。}That said, only my first novel sold well.
+Dialogue: 0,0:11:33.04,0:11:37.38,Dialogue,,0000,0000,0000,,{今思えば　鞍替えした彼の方が\N正解だったかもしれんな。}Looking back on it, he probably did the right thing, changing jobs.
+Dialogue: 0,0:11:37.75,0:11:39.59,Dialogue,,0000,0000,0000,,{それで　ここへは？}And you came here to...?
+Dialogue: 0,0:11:39.59,0:11:42.43,Dialogue,,0000,0000,0000,,{小説のアイディアを２人で練りに。}Go over some ideas for novels with him.
 Dialogue: 0,0:11:42.43,0:11:46.39,Dialogue,,0000,0000,0000,,{煮詰まった時には　前からよく付き合ってくれたからな。\N***CHECK}He's always helped me out like that when I had writer's block.
-Dialogue: 0,0:11:49.60,0:11:52.98,Dialogue,,0000,0000,0000,,{その猫を　よそにやってくれ。うっとうしい。\N}Can someone take that cat away? It's so annoying...
-Dialogue: 0,0:11:52.98,0:11:54.81,Dialogue,,0000,0000,0000,,{おじさん　猫嫌いなの？\N}Do you not like cats?
-Dialogue: 0,0:11:55.23,0:11:59.07,Dialogue,,0000,0000,0000,,{ああ。今朝も近所の野良猫に\N引っかかれて。\N}That's right! I got scratched by one of the neighbourhood strays this morning!
-Dialogue: 0,0:11:59.44,0:12:01.70,Dialogue,,0000,0000,0000,,{バンソウコウなら\Nここにあるぞ。あっ...。\N}If you need a plaster, I've got one!
-Dialogue: 0,0:12:05.07,0:12:07.99,Dialogue,,0000,0000,0000,,{心配無用だ！\Nもう手当ては済んでるよ。\N}Don't worry. I've already seen to it myself.
-Dialogue: 0,0:12:08.41,0:12:09.74,Dialogue,,0000,0000,0000,,{（元太）ありがとう。\N}Thanks.
-Dialogue: 0,0:12:09.74,0:12:15.75,Dialogue,,0000,0000,0000,,{（漆屋）\Nまあ　この猫が例の小説よろしく→\N}Though if that cat was a great detective like in those famous novels, {名探偵なら　話は別だがね。\N}I'd be glad to have him around...
-Dialogue: 0,0:12:20.34,0:12:26.64,Dialogue,,0000,0000,0000,,{う～ん　インターホンを\N鳴らしたのは→\N}The order in which they rang the intercom {露口さん　麻生さん　漆屋さんの\N順で合っているんですが→\N}was Tsuyuguchi{\rHonorifics - Dialogue}-san{\r} followed by Asō{\rHonorifics - Dialogue}-san{\r}, then Urushiya{\rHonorifics - Dialogue}-san{\r}, so that fits,
-Dialogue: 0,0:12:27.35,0:12:33.14,Dialogue,,0000,0000,0000,,{隣の住人が不審な音を\N聞いた時間があやふやで→\N}but that neighbour wasn't sure what time exactly he heard the strange noise, {１人に絞れませんねぇ。\N}so we can't narrow down our suspects.
-Dialogue: 0,0:12:33.60,0:12:38.19,Dialogue,,0000,0000,0000,,{やっぱり　益子さんの意識が\N戻るのを待つしかなさそうね。\N}I guess we'll just have to wait for Masuko{\rHonorifics - Dialogue}-san{\r} to wake up.
-Dialogue: 0,0:12:38.19,0:12:41.07,Dialogue,,0000,0000,0000,,{いいえ\Nそれを待つまでもなさそうよ。\N}No, I don't think we'll have to wait.
-Dialogue: 0,0:12:42.86,0:12:43.53,Dialogue,,0000,0000,0000,,{え？\Nほら...。\N}See!
-Dialogue: 0,0:12:47.32,0:12:49.16,Thoughts,,0000,0000,0000,,{\be10（歩美）《イタズラっ子の顔だ！！》\N}It's that mischievous smile!
-Dialogue: 0,0:12:57.29,0:13:05.51,Dialogue,,0000,0000,0000,,{（目暮）それで？隣の住人が\N不審な音を聞いた頃→\N}So those are the three people that came here {被害者の家にやって来たというのはあの３人かね？\N}around the time the neighbour heard the suspicious noise?
-Dialogue: 0,0:13:05.51,0:13:06.72,Dialogue,,0000,0000,0000,,{ええ...。\N}Yeah.
-Dialogue: 0,0:13:06.72,0:13:12.56,Dialogue,,0000,0000,0000,,{しかしなあ...。\N}But {玄関の扉は　鍵もドアロックも\N掛かっていたんだろ？\N}the door was locked and bolted, wasn't it?
-Dialogue: 0,0:13:12.56,0:13:14.52,Dialogue,,0000,0000,0000,,{本当に事件なのかね？\N}Are you sure this was a crime?
-Dialogue: 0,0:13:14.52,0:13:20.57,Dialogue,,0000,0000,0000,,{あ　はい...現場の状況が\N事故じゃないと　コ　コナン君が...。\N}Ah, yes. The crime scene indicated that it wasn't an accident, a-according to Conan{\rHonorifics - Dialogue}-kun{\r}...
-Dialogue: 0,0:13:20.57,0:13:23.36,Dialogue,,0000,0000,0000,,{で　そのコナン君は部屋の中かね？\N}Is Conan{\rHonorifics - Dialogue}-kun{\r} inside the flat?
-Dialogue: 0,0:13:23.69,0:13:26.70,Dialogue,,0000,0000,0000,,{いえ何か買い物があると言って...。\N}No, he said there was something he needed to buy.
-Dialogue: 0,0:13:26.70,0:13:27.66,Dialogue,,0000,0000,0000,,{ただいま～！\N}We're back!
-Dialogue: 0,0:13:28.95,0:13:30.03,Dialogue,,0000,0000,0000,,{（佐藤）コナン君！\N}Conan{\rHonorifics - Dialogue}-kun{\r}!
-Dialogue: 0,0:13:30.78,0:13:32.20,Dialogue,,0000,0000,0000,,{何を買ってきたの？\N}What did you buy?
-Dialogue: 0,0:13:32.20,0:13:35.58,Dialogue,,0000,0000,0000,,{益子さんの部屋から\Nなくなってた物だよ！\N}We bought the thing that disappeared from Masuko{\rHonorifics - Dialogue}-san{\r}'s flat!
-Dialogue: 0,0:13:35.58,0:13:36.92,Dialogue,,0000,0000,0000,,{なくなってた物？\N}The thing that disappeared?
-Dialogue: 0,0:13:37.29,0:13:39.04,Dialogue,,0000,0000,0000,,{それは　これだよ！\N}This.
-Dialogue: 0,0:13:39.04,0:13:40.84,Dialogue,,0000,0000,0000,,{ラッピング用のリボン！\N}A decorative ribbon!
-Dialogue: 0,0:13:40.84,0:13:45.92,Dialogue,,0000,0000,0000,,{リボンを結んだら　余った端を→\N\Nハサミで切って\N長さをそろえるから→\N}You usually cut off the excess ribbon with scissors after tying up a present.
-Dialogue: 0,0:13:45.92,0:13:49.64,Dialogue,,0000,0000,0000,,{ゴミ箱にリボンの切れ端が\Nなかったってことは→\N}So, seeing how there weren't any bits of ribbon in the bin,
-Dialogue: 0,0:13:49.64,0:13:54.22,Dialogue,,0000,0000,0000,,{ハサミは用意してたのに→\N}I guess the ribbon just happened to be the right length, {たまたま長さが\Nピッタリだったんじゃないかな？\N}even though Masuko{\rHonorifics - Dialogue}-san{\r} had scissors ready to cut it.
-Dialogue: 0,0:13:54.85,0:13:58.98,Dialogue,,0000,0000,0000,,{中身は使い古した\Nキャリーバッグだし→\N}The present itself was a used carrier, {テープもあったから\Nお店じゃなく→\N}and he had tape there too,
+Dialogue: 0,0:11:49.60,0:11:52.98,Dialogue,,0000,0000,0000,,{その猫を　よそにやってくれ。うっとうしい。}Can someone take that cat away? It's so annoying...
+Dialogue: 0,0:11:52.98,0:11:54.81,Dialogue,,0000,0000,0000,,{おじさん　猫嫌いなの？}Do you not like cats?
+Dialogue: 0,0:11:55.23,0:11:59.07,Dialogue,,0000,0000,0000,,{ああ。今朝も近所の野良猫に\N引っかかれて。}That's right! I got scratched by one of the neighbourhood strays this morning!
+Dialogue: 0,0:11:59.44,0:12:01.70,Dialogue,,0000,0000,0000,,{バンソウコウなら\Nここにあるぞ。あっ...。}If you need a plaster, I've got one!
+Dialogue: 0,0:12:05.07,0:12:07.99,Dialogue,,0000,0000,0000,,{心配無用だ！\Nもう手当ては済んでるよ。}Don't worry. I've already seen to it myself.
+Dialogue: 0,0:12:08.41,0:12:09.74,Dialogue,,0000,0000,0000,,{（元太）ありがとう。}Thanks.
+Dialogue: 0,0:12:09.74,0:12:15.75,Dialogue,,0000,0000,0000,,{（漆屋）\Nまあ　この猫が例の小説よろしく→}Though if that cat was a great detective like in those famous novels, {名探偵なら　話は別だがね。}I'd be glad to have him around...
+Dialogue: 0,0:12:20.34,0:12:26.64,Dialogue,,0000,0000,0000,,{う～ん　インターホンを\N鳴らしたのは→}The order in which they rang the intercom {露口さん　麻生さん　漆屋さんの\N順で合っているんですが→}was Tsuyuguchi{\rHonorifics - Dialogue}-san{\r} followed by Asō{\rHonorifics - Dialogue}-san{\r}, then Urushiya{\rHonorifics - Dialogue}-san{\r}, so that fits,
+Dialogue: 0,0:12:27.35,0:12:33.14,Dialogue,,0000,0000,0000,,{隣の住人が不審な音を\N聞いた時間があやふやで→}but that neighbour wasn't sure what time exactly he heard the strange noise, {１人に絞れませんねぇ。}so we can't narrow down our suspects.
+Dialogue: 0,0:12:33.60,0:12:38.19,Dialogue,,0000,0000,0000,,{やっぱり　益子さんの意識が\N戻るのを待つしかなさそうね。}I guess we'll just have to wait for Masuko{\rHonorifics - Dialogue}-san{\r} to wake up.
+Dialogue: 0,0:12:38.19,0:12:41.07,Dialogue,,0000,0000,0000,,{いいえ\Nそれを待つまでもなさそうよ。}No, I don't think we'll have to wait.
+Dialogue: 0,0:12:42.86,0:12:43.53,Dialogue,,0000,0000,0000,,{え？\Nほら...。}See!
+Dialogue: 0,0:12:47.32,0:12:49.16,Thoughts,,0000,0000,0000,,{\be10（歩美）《イタズラっ子の顔だ！！》}It's that mischievous smile!
+Dialogue: 0,0:12:57.29,0:13:05.51,Dialogue,,0000,0000,0000,,{（目暮）それで？隣の住人が\N不審な音を聞いた頃→}So those are the three people that came here {被害者の家にやって来たというのはあの３人かね？}around the time the neighbour heard the suspicious noise?
+Dialogue: 0,0:13:05.51,0:13:06.72,Dialogue,,0000,0000,0000,,{ええ...。}Yeah.
+Dialogue: 0,0:13:06.72,0:13:12.56,Dialogue,,0000,0000,0000,,{しかしなあ...。}But {玄関の扉は　鍵もドアロックも\N掛かっていたんだろ？}the door was locked and bolted, wasn't it?
+Dialogue: 0,0:13:12.56,0:13:14.52,Dialogue,,0000,0000,0000,,{本当に事件なのかね？}Are you sure this was a crime?
+Dialogue: 0,0:13:14.52,0:13:20.57,Dialogue,,0000,0000,0000,,{あ　はい...現場の状況が\N事故じゃないと　コ　コナン君が...。}Ah, yes. The crime scene indicated that it wasn't an accident, a-according to Conan{\rHonorifics - Dialogue}-kun{\r}...
+Dialogue: 0,0:13:20.57,0:13:23.36,Dialogue,,0000,0000,0000,,{で　そのコナン君は部屋の中かね？}Is Conan{\rHonorifics - Dialogue}-kun{\r} inside the flat?
+Dialogue: 0,0:13:23.69,0:13:26.70,Dialogue,,0000,0000,0000,,{いえ何か買い物があると言って...。}No, he said there was something he needed to buy.
+Dialogue: 0,0:13:26.70,0:13:27.66,Dialogue,,0000,0000,0000,,{ただいま～！}We're back!
+Dialogue: 0,0:13:28.95,0:13:30.03,Dialogue,,0000,0000,0000,,{（佐藤）コナン君！}Conan{\rHonorifics - Dialogue}-kun{\r}!
+Dialogue: 0,0:13:30.78,0:13:32.20,Dialogue,,0000,0000,0000,,{何を買ってきたの？}What did you buy?
+Dialogue: 0,0:13:32.20,0:13:35.58,Dialogue,,0000,0000,0000,,{益子さんの部屋から\Nなくなってた物だよ！}We bought the thing that disappeared from Masuko{\rHonorifics - Dialogue}-san{\r}'s flat!
+Dialogue: 0,0:13:35.58,0:13:36.92,Dialogue,,0000,0000,0000,,{なくなってた物？}The thing that disappeared?
+Dialogue: 0,0:13:37.29,0:13:39.04,Dialogue,,0000,0000,0000,,{それは　これだよ！}This.
+Dialogue: 0,0:13:39.04,0:13:40.84,Dialogue,,0000,0000,0000,,{ラッピング用のリボン！}A decorative ribbon!
+Dialogue: 0,0:13:40.84,0:13:45.92,Dialogue,,0000,0000,0000,,{リボンを結んだら　余った端を→\N\Nハサミで切って\N長さをそろえるから→}You usually cut off the excess ribbon with scissors after tying up a present.
+Dialogue: 0,0:13:45.92,0:13:49.64,Dialogue,,0000,0000,0000,,{ゴミ箱にリボンの切れ端が\Nなかったってことは→}So, seeing how there weren't any bits of ribbon in the bin,
+Dialogue: 0,0:13:49.64,0:13:54.22,Dialogue,,0000,0000,0000,,{ハサミは用意してたのに→}I guess the ribbon just happened to be the right length, {たまたま長さが\Nピッタリだったんじゃないかな？}even though Masuko{\rHonorifics - Dialogue}-san{\r} had scissors ready to cut it.
+Dialogue: 0,0:13:54.85,0:13:58.98,Dialogue,,0000,0000,0000,,{中身は使い古した\Nキャリーバッグだし→}The present itself was a used carrier, {テープもあったから\Nお店じゃなく→}and he had tape there too,
 Dialogue: 0,0:13:58.98,0:14:03.23,Dialogue,,0000,0000,0000,,so he must've wrapped it himself instead of having it wrapped at a store.
-Dialogue: 0,0:14:03.23,0:14:06.90,Dialogue,,0000,0000,0000,,{し　しかし...一体それが\Nなんだって言うんだね？\N}B-But... What does that tell us?
-Dialogue: 0,0:14:07.36,0:14:08.74,Dialogue,,0000,0000,0000,,{寝ボケてるの？\N}Are you still half asleep?
-Dialogue: 0,0:14:08.74,0:14:13.41,Dialogue,,0000,0000,0000,,{現場から消えたってことは→\N}The fact that it disappeared from the crime scene {犯人が何かに使ったに\N決まってるじゃない！\N}means that the culprit must have used it for something!
-Dialogue: 0,0:14:13.79,0:14:15.41,Dialogue,,0000,0000,0000,,{ね　寝ボケ...？\N}H-Half asleep...?
-Dialogue: 0,0:14:15.79,0:14:20.92,Dialogue,,0000,0000,0000,,{たとえば　部屋を密室にして\N事故に見せかけるため...とかね。\N}For example, to lock the room to make it look like an accident.
-Dialogue: 0,0:14:22.42,0:14:26.59,Dialogue,,0000,0000,0000,,{とにかく実験してみよ！\N本当に出来るかどうか！\N}In any case, let's try it out and see whether or not that's actually possible!
-Dialogue: 0,0:14:29.68,0:14:32.51,Dialogue,,0000,0000,0000,,{まずは　ドアロックを掛ける方法！\N}First up, how the safety lock was latched!
-Dialogue: 0,0:14:32.51,0:14:37.02,Dialogue,,0000,0000,0000,,{ドアロックとドアの隙間にリボンを引っ掛けるように通して→\N}We pass the ribbon between the door and the bolt, so it catches on it,
-Dialogue: 0,0:14:37.35,0:14:40.94,Dialogue,,0000,0000,0000,,{リボンの両端を持ったまま\N外に出てドアを閉める...。\N}then go outside holding onto both ends of the ribbon and close the door,
-Dialogue: 0,0:14:41.98,0:14:45.32,Dialogue,,0000,0000,0000,,{あとは　リボンの両端を\N引っ張るだけ。\N}And finally, we only have to pull tight on both ends.
-Dialogue: 0,0:14:45.32,0:14:46.78,Dialogue,,0000,0000,0000,,{いいぞ光彦！\N}All right, Mitsuhiko!
-Dialogue: 0,0:14:46.78,0:14:47.44,Radio,,0000,0000,0000,,{\be10（探偵団バッジ：光彦の声）了解！\N}Roger!
+Dialogue: 0,0:14:03.23,0:14:06.90,Dialogue,,0000,0000,0000,,{し　しかし...一体それが\Nなんだって言うんだね？}B-But... What does that tell us?
+Dialogue: 0,0:14:07.36,0:14:08.74,Dialogue,,0000,0000,0000,,{寝ボケてるの？}Are you still half asleep?
+Dialogue: 0,0:14:08.74,0:14:13.41,Dialogue,,0000,0000,0000,,{現場から消えたってことは→}The fact that it disappeared from the crime scene {犯人が何かに使ったに\N決まってるじゃない！}means that the culprit must have used it for something!
+Dialogue: 0,0:14:13.79,0:14:15.41,Dialogue,,0000,0000,0000,,{ね　寝ボケ...？}H-Half asleep...?
+Dialogue: 0,0:14:15.79,0:14:20.92,Dialogue,,0000,0000,0000,,{たとえば　部屋を密室にして\N事故に見せかけるため...とかね。}For example, to lock the room to make it look like an accident.
+Dialogue: 0,0:14:22.42,0:14:26.59,Dialogue,,0000,0000,0000,,{とにかく実験してみよ！\N本当に出来るかどうか！}In any case, let's try it out and see whether or not that's actually possible!
+Dialogue: 0,0:14:29.68,0:14:32.51,Dialogue,,0000,0000,0000,,{まずは　ドアロックを掛ける方法！}First up, how the safety lock was latched!
+Dialogue: 0,0:14:32.51,0:14:37.02,Dialogue,,0000,0000,0000,,{ドアロックとドアの隙間にリボンを引っ掛けるように通して→}We pass the ribbon between the door and the bolt, so it catches on it,
+Dialogue: 0,0:14:37.35,0:14:40.94,Dialogue,,0000,0000,0000,,{リボンの両端を持ったまま\N外に出てドアを閉める...。}then go outside holding onto both ends of the ribbon and close the door,
+Dialogue: 0,0:14:41.98,0:14:45.32,Dialogue,,0000,0000,0000,,{あとは　リボンの両端を\N引っ張るだけ。}And finally, we only have to pull tight on both ends.
+Dialogue: 0,0:14:45.32,0:14:46.78,Dialogue,,0000,0000,0000,,{いいぞ光彦！}All right, Mitsuhiko!
+Dialogue: 0,0:14:46.78,0:14:47.44,Radio,,0000,0000,0000,,{\be10（探偵団バッジ：光彦の声）了解！}Roger!
 Dialogue: 0,0:14:47.99,0:14:49.36,Dialogue,,0000,0000,0000,,{引っ張ってください！}Start pulling.
-Dialogue: 0,0:14:49.36,0:14:50.28,Dialogue,,0000,0000,0000,,{オウ！\N}All right!
-Dialogue: 0,0:14:54.87,0:14:56.29,Dialogue,,0000,0000,0000,,{（目暮・高木・佐藤）か　掛かった！\N}I-It worked?!
-Dialogue: 0,0:14:56.83,0:14:59.33,Dialogue,,0000,0000,0000,,{次は　鍵を掛ける方法。\N}Next up, locking the door!
-Dialogue: 0,0:14:59.33,0:15:07.76,Dialogue,,0000,0000,0000,,{ドアを開けて→\N\Nドアロックが掛かっているのを\N確かめた後→\N}After opening the door and checking that it's bolted,\Nwe remove the ribbon, {リボンを引き抜いて\Nリボンの真ん中に結び目を作る！\N}and make a knot in the middle of it.
-Dialogue: 0,0:15:08.42,0:15:10.26,Dialogue,,0000,0000,0000,,{結び目　作りました。\N}I've knotted it!
-Dialogue: 0,0:15:10.59,0:15:15.76,Dialogue,,0000,0000,0000,,{その結び目が引っ掛かるように→\N***DESYNCHo.o? split this line in 2 on a K-frame -uso.}Then we loop the ribbon around the dial to lock the door, {鍵のつまみの隙間に\Nリボンを通して...。\N}so that the knot catches on it,
-Dialogue: 0,0:15:15.76,0:15:18.89,Dialogue,,0000,0000,0000,,{リボンの端を\N外に出してドアを閉め...。\N}then we pull one end of the ribbon out and close the door.
-Dialogue: 0,0:15:19.98,0:15:22.69,Dialogue,,0000,0000,0000,,{外からリボンを\N斜め上に引っ張れば。\N}After that, if we then pull on it from outside at an upward angle...
-Dialogue: 0,0:15:25.19,0:15:26.73,Dialogue,,0000,0000,0000,,{す　すごい...。本当にリボンで鍵が...。\Nん？\N}T-That's great!
-Dialogue: 0,0:15:26.73,0:15:28.53,Dialogue,,0000,0000,0000,,{す　すごい...。本当にリボンで鍵が...。\Nん？\N}The ribbon really locked the door!
-Dialogue: 0,0:15:29.74,0:15:33.49,Dialogue,,0000,0000,0000,,{だが　ドアロックの時と違って\Nリボンが引き抜けないんじゃ？\N}But unlike with the safety lock,\Nyou can't pull the ribbon out this time...
-Dialogue: 0,0:15:33.87,0:15:36.33,Dialogue,,0000,0000,0000,,{おい！\N力いっぱい引っ張れよ！\N}Hey, pull as hard as you can on the ribbon!
-Dialogue: 0,0:15:36.66,0:15:38.08,Dialogue,,0000,0000,0000,,{あ　ああ...。\N}Right.
-Dialogue: 0,0:15:38.08,0:15:41.66,Dialogue,,0000,0000,0000,,{でも　ドアは閉まってますから\N結び目が引っ掛かって...。\N}But since the door is closed, the knot's stuck...
-Dialogue: 0,0:15:42.04,0:15:45.67,Dialogue,,0000,0000,0000,,{おかしいなぁ。\Nうまく行くはずだったのに...。\N}That's weird. It should have worked perfectly.
-Dialogue: 0,0:15:46.54,0:15:48.67,Thoughts,,0000,0000,0000,,{\be10う～ん。\N《しょせん子供の浅知恵か...》\N}Guess that's what happens when we rely on a kid.
-Dialogue: 0,0:15:49.51,0:15:54.14,Dialogue,,0000,0000,0000,,{あなたたちがここに入った時\Nこんなリボンはなかったのよね？\N}When you guys came here, there wasn't a ribbon there, right?
-Dialogue: 0,0:15:54.14,0:15:55.05,Dialogue,,0000,0000,0000,,{ええ...。\N}No.
-Dialogue: 0,0:15:55.05,0:15:56.39,Dialogue,,0000,0000,0000,,{何もなかったよ。\N}There wasn't anything there.
-Dialogue: 0,0:15:56.39,0:16:00.56,Dialogue,,0000,0000,0000,,{じゃあ　このリボンで\N鍵を掛ける方法は無理だね。\N}Well, it seems like locking the door with the ribbon is impossible.
-Dialogue: 0,0:16:00.56,0:16:02.85,Dialogue,,0000,0000,0000,,{うん...リボンが残っちゃうもん。\N}Yeah... The ribbon gets left behind...
-Dialogue: 0,0:16:03.52,0:16:09.32,Dialogue,,0000,0000,0000,,{誰かが部屋の内側から\Nこのリボンを引き抜いて→\N}If only someone could pull out the ribbon from inside {どこかに持ってってくれたら\Nいいのにな～。\N}and take it somewhere else...
-Dialogue: 0,0:16:10.49,0:16:13.49,Dialogue,,0000,0000,0000,,{え？\N誰かがって　中には被害者だけで。\N}Someone, you say? The victim was the only one here.
-Dialogue: 0,0:16:13.49,0:16:15.37,Dialogue,,0000,0000,0000,,{今も意識不明なんだぞ？\N}And he's unconscious even now.
-Dialogue: 0,0:16:15.37,0:16:17.58,Thoughts,,0000,0000,0000,,{\be10《しゃ～ね～な...》\N}Guess there's no other choice.
-Dialogue: 0,0:16:20.83,0:16:22.41,Dialogue,,0000,0000,0000,,{ほら　あっちよ。\N}Look, over there!
-Dialogue: 0,0:16:22.41,0:16:23.25,Dialogue,,0000,0000,0000,,{がんばって！\N}Good luck!
+Dialogue: 0,0:14:49.36,0:14:50.28,Dialogue,,0000,0000,0000,,{オウ！}All right!
+Dialogue: 0,0:14:54.87,0:14:56.29,Dialogue,,0000,0000,0000,,{（目暮・高木・佐藤）か　掛かった！}I-It worked?!
+Dialogue: 0,0:14:56.83,0:14:59.33,Dialogue,,0000,0000,0000,,{次は　鍵を掛ける方法。}Next up, locking the door!
+Dialogue: 0,0:14:59.33,0:15:07.76,Dialogue,,0000,0000,0000,,{ドアを開けて→\N\Nドアロックが掛かっているのを\N確かめた後→}After opening the door and checking that it's bolted,\Nwe remove the ribbon, {リボンを引き抜いて\Nリボンの真ん中に結び目を作る！}and make a knot in the middle of it.
+Dialogue: 0,0:15:08.42,0:15:10.26,Dialogue,,0000,0000,0000,,{結び目　作りました。}I've knotted it!
+Dialogue: 0,0:15:10.59,0:15:15.76,Dialogue,,0000,0000,0000,,{その結び目が引っ掛かるように→\N***DESYNCHo.o? split this line in 2 on a K-frame -uso.}Then we loop the ribbon around the dial to lock the door, {鍵のつまみの隙間に\Nリボンを通して...。}so that the knot catches on it,
+Dialogue: 0,0:15:15.76,0:15:18.89,Dialogue,,0000,0000,0000,,{リボンの端を\N外に出してドアを閉め...。}then we pull one end of the ribbon out and close the door.
+Dialogue: 0,0:15:19.98,0:15:22.69,Dialogue,,0000,0000,0000,,{外からリボンを\N斜め上に引っ張れば。}After that, if we then pull on it from outside at an upward angle...
+Dialogue: 0,0:15:25.19,0:15:26.73,Dialogue,,0000,0000,0000,,{す　すごい...。本当にリボンで鍵が...。\Nん？}T-That's great!
+Dialogue: 0,0:15:26.73,0:15:28.53,Dialogue,,0000,0000,0000,,{す　すごい...。本当にリボンで鍵が...。\Nん？}The ribbon really locked the door!
+Dialogue: 0,0:15:29.74,0:15:33.49,Dialogue,,0000,0000,0000,,{だが　ドアロックの時と違って\Nリボンが引き抜けないんじゃ？}But unlike with the safety lock,\Nyou can't pull the ribbon out this time...
+Dialogue: 0,0:15:33.87,0:15:36.33,Dialogue,,0000,0000,0000,,{おい！\N力いっぱい引っ張れよ！}Hey, pull as hard as you can on the ribbon!
+Dialogue: 0,0:15:36.66,0:15:38.08,Dialogue,,0000,0000,0000,,{あ　ああ...。}Right.
+Dialogue: 0,0:15:38.08,0:15:41.66,Dialogue,,0000,0000,0000,,{でも　ドアは閉まってますから\N結び目が引っ掛かって...。}But since the door is closed, the knot's stuck...
+Dialogue: 0,0:15:42.04,0:15:45.67,Dialogue,,0000,0000,0000,,{おかしいなぁ。\Nうまく行くはずだったのに...。}That's weird. It should have worked perfectly.
+Dialogue: 0,0:15:46.54,0:15:48.67,Thoughts,,0000,0000,0000,,{\be10う～ん。\N《しょせん子供の浅知恵か...》}Guess that's what happens when we rely on a kid.
+Dialogue: 0,0:15:49.51,0:15:54.14,Dialogue,,0000,0000,0000,,{あなたたちがここに入った時\Nこんなリボンはなかったのよね？}When you guys came here, there wasn't a ribbon there, right?
+Dialogue: 0,0:15:54.14,0:15:55.05,Dialogue,,0000,0000,0000,,{ええ...。}No.
+Dialogue: 0,0:15:55.05,0:15:56.39,Dialogue,,0000,0000,0000,,{何もなかったよ。}There wasn't anything there.
+Dialogue: 0,0:15:56.39,0:16:00.56,Dialogue,,0000,0000,0000,,{じゃあ　このリボンで\N鍵を掛ける方法は無理だね。}Well, it seems like locking the door with the ribbon is impossible.
+Dialogue: 0,0:16:00.56,0:16:02.85,Dialogue,,0000,0000,0000,,{うん...リボンが残っちゃうもん。}Yeah... The ribbon gets left behind...
+Dialogue: 0,0:16:03.52,0:16:09.32,Dialogue,,0000,0000,0000,,{誰かが部屋の内側から\Nこのリボンを引き抜いて→}If only someone could pull out the ribbon from inside {どこかに持ってってくれたら\Nいいのにな～。}and take it somewhere else...
+Dialogue: 0,0:16:10.49,0:16:13.49,Dialogue,,0000,0000,0000,,{え？\N誰かがって　中には被害者だけで。}Someone, you say? The victim was the only one here.
+Dialogue: 0,0:16:13.49,0:16:15.37,Dialogue,,0000,0000,0000,,{今も意識不明なんだぞ？}And he's unconscious even now.
+Dialogue: 0,0:16:15.37,0:16:17.58,Thoughts,,0000,0000,0000,,{\be10《しゃ～ね～な...》}Guess there's no other choice.
+Dialogue: 0,0:16:20.83,0:16:22.41,Dialogue,,0000,0000,0000,,{ほら　あっちよ。}Look, over there!
+Dialogue: 0,0:16:22.41,0:16:23.25,Dialogue,,0000,0000,0000,,{がんばって！}Good luck!
 Dialogue: 0,0:16:23.92,0:16:25.67,Radio,,0000,0000,0000,,{\be10そのままリボン動かしててくれ。}Move the ribbon around.
-Dialogue: 0,0:16:25.67,0:16:26.67,Dialogue,,0000,0000,0000,,{オウ。\N}All right!
-Dialogue: 0,0:16:36.84,0:16:39.76,Dialogue,,0000,0000,0000,,{あっ！ね　猫が...。\Nくわえて持ってった！！\N}T-The cat grabbed the ribbon and took it?!
-Dialogue: 0,0:16:39.76,0:16:40.97,Dialogue,,0000,0000,0000,,{追え！\N}Follow that cat!
-Dialogue: 0,0:16:40.97,0:16:41.89,Dialogue,,0000,0000,0000,,{は　はい。\N}S-Sure!
+Dialogue: 0,0:16:25.67,0:16:26.67,Dialogue,,0000,0000,0000,,{オウ。}All right!
+Dialogue: 0,0:16:36.84,0:16:39.76,Dialogue,,0000,0000,0000,,{あっ！ね　猫が...。\Nくわえて持ってった！！}T-The cat grabbed the ribbon and took it?!
+Dialogue: 0,0:16:39.76,0:16:40.97,Dialogue,,0000,0000,0000,,{追え！}Follow that cat!
+Dialogue: 0,0:16:40.97,0:16:41.89,Dialogue,,0000,0000,0000,,{は　はい。}S-Sure!
 Dialogue: 0,0:16:45.14,0:16:46.44,Dialogue,,0000,0000,0000,,{本棚の裏側？\Nニャッ。}\N{CLOSEST MATCH: Behind the books on the book rack in the bedroom...}Behind the bookshelf?
-Dialogue: 0,0:16:47.90,0:16:50.90,Dialogue,,0000,0000,0000,,{ここが　この猫の\N宝の隠し場所か...。\N}That's where the cat hides his treasures, I suppose.
-Dialogue: 0,0:16:53.53,0:16:54.70,Dialogue,,0000,0000,0000,,{ん？あ　ありました！！\N}I found it!
-Dialogue: 0,0:16:54.70,0:16:58.20,Dialogue,,0000,0000,0000,,{さっきのリボンとは別の→\N\Nもう１本のリボンが！！\N}There's a second ribbon that's different from the one we just used!
-Dialogue: 0,0:16:58.53,0:17:02.00,Dialogue,,0000,0000,0000,,{結び目も付いてますし間違いありませんね！うむ...。\N}It has a knot too, so there's no doubt about it!
-Dialogue: 0,0:17:03.16,0:17:07.08,Dialogue,,0000,0000,0000,,{問題は　誰がそのリボンで\Nトリックを仕掛けたのかね。\N}The question is {\i1}who{\i0} used the ribbon for this trick?
-Dialogue: 0,0:17:07.54,0:17:11.21,Dialogue,,0000,0000,0000,,{猫に詳しい人物の犯行だとは\N思いますけど...。\N}I think it'd be someone who knows a lot about cats.
-Dialogue: 0,0:17:11.21,0:17:19.14,Dialogue,,0000,0000,0000,,{（目暮）ああ...その猫がリボンを\N持って行くだけじゃなく→\N}Yeah, they'd have to know that the cat would not only carry the ribbon somewhere, {どこかに隠すことを\N知っているほどにな。\N}but also that it would hide it.
-Dialogue: 0,0:17:19.55,0:17:22.93,Dialogue,,0000,0000,0000,,{じゃあ　もしかして眼鏡をかけた\Nお姉さんかも...。\N}Then could it be the girl with the glasses?
-Dialogue: 0,0:17:23.39,0:17:27.10,Dialogue,,0000,0000,0000,,{大ちゃん　お姉さんにだっこされてシッポ振ってたから！\N}Tai{\rHonorifics - Dialogue}-chan{\r} was wagging his tail when she was holding him!
-Dialogue: 0,0:17:27.10,0:17:31.98,Dialogue,,0000,0000,0000,,{いや　犬と違って猫が\Nシッポを振るのは　嫌がってる時。\N}No, unlike dogs, cats wag their tail when they're agitated.{LOL LEWIS CARROLL}
-Dialogue: 0,0:17:31.98,0:17:35.86,Dialogue,,0000,0000,0000,,{それを知らなかった麻生さんは猫に詳しくないんじゃないか？\N}Asō{\rHonorifics - Dialogue}-san{\r}, who didn't know that, doesn't seem to know a lot about cats.
-Dialogue: 0,0:17:35.86,0:17:40.66,Dialogue,,0000,0000,0000,,{じゃあ大ちゃんは飼い主を傷つけた悪い人間だから　嫌がってた。\N}Well, in that case, maybe he was agitated because she was the one who hurt his owner?
-Dialogue: 0,0:17:41.16,0:17:44.58,Dialogue,,0000,0000,0000,,{だったら　自分から抱かせてなんて言わねぇよ！\N}But in that case, she wouldn't happily ask to hold the cat!
-Dialogue: 0,0:17:44.58,0:17:46.62,Dialogue,,0000,0000,0000,,{ひっかかれるかもって\N思うだろうし...。\N}She'd worry about it scratching her.
-Dialogue: 0,0:17:47.42,0:17:53.09,Dialogue,,0000,0000,0000,,{でも残る２人は　やけに節電を\N気にしていた露口さんと→\N}But the remaining two are Tsuyuguchi{\rHonorifics - Dialogue}-san{\r}, who seemed to be very concerned about conserving electricity,
-Dialogue: 0,0:17:53.09,0:17:58.26,Dialogue,,0000,0000,0000,,{元太君がポケットから落とした物を拾ってくれた漆屋さんだけど。\N}and Urushiya{\rHonorifics - Dialogue}-san{\r}, who picked up the things that fell from Genta{\rHonorifics - Dialogue}-kun{\r}'s pocket.
+Dialogue: 0,0:16:47.90,0:16:50.90,Dialogue,,0000,0000,0000,,{ここが　この猫の\N宝の隠し場所か...。}That's where the cat hides his treasures, I suppose.
+Dialogue: 0,0:16:53.53,0:16:54.70,Dialogue,,0000,0000,0000,,{ん？あ　ありました！！}I found it!
+Dialogue: 0,0:16:54.70,0:16:58.20,Dialogue,,0000,0000,0000,,{さっきのリボンとは別の→\N\Nもう１本のリボンが！！}There's a second ribbon that's different from the one we just used!
+Dialogue: 0,0:16:58.53,0:17:02.00,Dialogue,,0000,0000,0000,,{結び目も付いてますし間違いありませんね！うむ...。}It has a knot too, so there's no doubt about it!
+Dialogue: 0,0:17:03.16,0:17:07.08,Dialogue,,0000,0000,0000,,{問題は　誰がそのリボンで\Nトリックを仕掛けたのかね。}The question is {\i1}who{\i0} used the ribbon for this trick?
+Dialogue: 0,0:17:07.54,0:17:11.21,Dialogue,,0000,0000,0000,,{猫に詳しい人物の犯行だとは\N思いますけど...。}I think it'd be someone who knows a lot about cats.
+Dialogue: 0,0:17:11.21,0:17:19.14,Dialogue,,0000,0000,0000,,{（目暮）ああ...その猫がリボンを\N持って行くだけじゃなく→}Yeah, they'd have to know that the cat would not only carry the ribbon somewhere, {どこかに隠すことを\N知っているほどにな。}but also that it would hide it.
+Dialogue: 0,0:17:19.55,0:17:22.93,Dialogue,,0000,0000,0000,,{じゃあ　もしかして眼鏡をかけた\Nお姉さんかも...。}Then could it be the girl with the glasses?
+Dialogue: 0,0:17:23.39,0:17:27.10,Dialogue,,0000,0000,0000,,{大ちゃん　お姉さんにだっこされてシッポ振ってたから！}Tai{\rHonorifics - Dialogue}-chan{\r} was wagging his tail when she was holding him!
+Dialogue: 0,0:17:27.10,0:17:31.98,Dialogue,,0000,0000,0000,,{いや　犬と違って猫が\Nシッポを振るのは　嫌がってる時。}No, unlike dogs, cats wag their tail when they're agitated.{LOL LEWIS CARROLL}
+Dialogue: 0,0:17:31.98,0:17:35.86,Dialogue,,0000,0000,0000,,{それを知らなかった麻生さんは猫に詳しくないんじゃないか？}Asō{\rHonorifics - Dialogue}-san{\r}, who didn't know that, doesn't seem to know a lot about cats.
+Dialogue: 0,0:17:35.86,0:17:40.66,Dialogue,,0000,0000,0000,,{じゃあ大ちゃんは飼い主を傷つけた悪い人間だから　嫌がってた。}Well, in that case, maybe he was agitated because she was the one who hurt his owner?
+Dialogue: 0,0:17:41.16,0:17:44.58,Dialogue,,0000,0000,0000,,{だったら　自分から抱かせてなんて言わねぇよ！}But in that case, she wouldn't happily ask to hold the cat!
+Dialogue: 0,0:17:44.58,0:17:46.62,Dialogue,,0000,0000,0000,,{ひっかかれるかもって\N思うだろうし...。}She'd worry about it scratching her.
+Dialogue: 0,0:17:47.42,0:17:53.09,Dialogue,,0000,0000,0000,,{でも残る２人は　やけに節電を\N気にしていた露口さんと→}But the remaining two are Tsuyuguchi{\rHonorifics - Dialogue}-san{\r}, who seemed to be very concerned about conserving electricity,
+Dialogue: 0,0:17:53.09,0:17:58.26,Dialogue,,0000,0000,0000,,{元太君がポケットから落とした物を拾ってくれた漆屋さんだけど。}and Urushiya{\rHonorifics - Dialogue}-san{\r}, who picked up the things that fell from Genta{\rHonorifics - Dialogue}-kun{\r}'s pocket.
 Dialogue: 0,0:17:58.68,0:18:02.35,Dialogue,,0000,0000,0000,,{どっちも癖というか\N思わず出ちゃう行動よね？}Both of those actions seemed almost unconscious, like habits they had.
-Dialogue: 0,0:18:02.35,0:18:03.14,Dialogue,,0000,0000,0000,,{ええ...。\N}Yeah.
-Dialogue: 0,0:18:03.56,0:18:14.15,Dialogue,,0000,0000,0000,,{でもさ～　あの時　元太\Nバンソウコウやハンカチや→\N\Nペットボトルのフタを\N落としたのに...。\N}But, you know, when Genta dropped his plasters, tissues and a bottle cap, {拾ってくれたのってペットボトルのフタだけだったよね？\N}he only picked up the bottle cap, right?
-Dialogue: 0,0:18:14.78,0:18:18.11,Dialogue,,0000,0000,0000,,{そういえばそうだけど...でも　なんで？\N}Now that you mention it, that's true. But why would he do that?
-Dialogue: 0,0:18:18.11,0:18:19.45,Dialogue,,0000,0000,0000,,{んじゃ　試してみる？ほらっ。\N}Why don't we try it out?
-Dialogue: 0,0:18:19.45,0:18:20.20,Dialogue,,0000,0000,0000,,{んじゃ　試してみる？ほらっ。\N}See!
-Dialogue: 0,0:18:26.66,0:18:30.50,Dialogue,,0000,0000,0000,,{そっか！このコはペットボトルの\Nフタも大好きなのね！\N}I see! The cat loves bottle caps too!
+Dialogue: 0,0:18:02.35,0:18:03.14,Dialogue,,0000,0000,0000,,{ええ...。}Yeah.
+Dialogue: 0,0:18:03.56,0:18:14.15,Dialogue,,0000,0000,0000,,{でもさ～　あの時　元太\Nバンソウコウやハンカチや→\N\Nペットボトルのフタを\N落としたのに...。}But, you know, when Genta dropped his plasters, tissues and a bottle cap, {拾ってくれたのってペットボトルのフタだけだったよね？}he only picked up the bottle cap, right?
+Dialogue: 0,0:18:14.78,0:18:18.11,Dialogue,,0000,0000,0000,,{そういえばそうだけど...でも　なんで？}Now that you mention it, that's true. But why would he do that?
+Dialogue: 0,0:18:18.11,0:18:19.45,Dialogue,,0000,0000,0000,,{んじゃ　試してみる？ほらっ。}Why don't we try it out?
+Dialogue: 0,0:18:19.45,0:18:20.20,Dialogue,,0000,0000,0000,,{んじゃ　試してみる？ほらっ。}See!
+Dialogue: 0,0:18:26.66,0:18:30.50,Dialogue,,0000,0000,0000,,{そっか！このコはペットボトルの\Nフタも大好きなのね！}I see! The cat loves bottle caps too!
 Dialogue: 0,0:18:31.13,0:18:32.34,Dialogue,,0000,0000,0000,,{なるほど...}I see.
-Dialogue: 0,0:18:32.34,0:18:36.96,Dialogue,,0000,0000,0000,,{猫がそれをくわえて→\N\N宝物の隠し場所に\N持って行ってしまったら...。\N}If the cat had taken the bottle cap and brought it to the rest of its treasures,
-Dialogue: 0,0:18:36.96,0:18:41.01,Dialogue,,0000,0000,0000,,{トリックに使ったリボンが\N見つかってしまうと恐れた訳か...。\N}we might have found the ribbon that was used in the trick.
-Dialogue: 0,0:18:41.34,0:18:45.89,Dialogue,,0000,0000,0000,,{まあ　現場にあった物を使った\N突発的な犯行のようですし...。\N}Well, it seems to have been a non-premediated crime using objects that were lying around.
-Dialogue: 0,0:18:46.52,0:18:50.94,Dialogue,,0000,0000,0000,,{手袋をしてなかったのなら→\N}If he wasn't wearing gloves, {そのリボンから\N指紋が出るでしょうしね。\N}we should be able to get fingerprints from the ribbon.
-Dialogue: 0,0:18:51.27,0:18:55.40,Dialogue,,0000,0000,0000,,{よ～し　漆屋さんに\N再度　事情聴取だ！\N}All right, question Urushiya{\rHonorifics - Dialogue}-san{\r} again!
-Dialogue: 0,0:18:55.82,0:19:00.24,Dialogue,,0000,0000,0000,,{ねえ？どこであの小説家が怪しいと思ったの？\N}Hey, when did you start thinking that author was suspicious?
-Dialogue: 0,0:19:00.24,0:19:04.70,Dialogue,,0000,0000,0000,,{やっぱり　大ちゃんがあの人に\Nシッポを立ててたからかしら？\N}Was it because Tai{\rHonorifics - Dialogue}-chan{\r} raised his tail when he approached him?
-Dialogue: 0,0:19:04.70,0:19:09.91,Dialogue,,0000,0000,0000,,{あれは\Nうれしい時や　甘えてる時の→\N}As cats only do that around people {親しい人にしか\N見せない仕草だから。\N}to whom they are close and when they are very happy.
+Dialogue: 0,0:18:32.34,0:18:36.96,Dialogue,,0000,0000,0000,,{猫がそれをくわえて→\N\N宝物の隠し場所に\N持って行ってしまったら...。}If the cat had taken the bottle cap and brought it to the rest of its treasures,
+Dialogue: 0,0:18:36.96,0:18:41.01,Dialogue,,0000,0000,0000,,{トリックに使ったリボンが\N見つかってしまうと恐れた訳か...。}we might have found the ribbon that was used in the trick.
+Dialogue: 0,0:18:41.34,0:18:45.89,Dialogue,,0000,0000,0000,,{まあ　現場にあった物を使った\N突発的な犯行のようですし...。}Well, it seems to have been a non-premediated crime using objects that were lying around.
+Dialogue: 0,0:18:46.52,0:18:50.94,Dialogue,,0000,0000,0000,,{手袋をしてなかったのなら→}If he wasn't wearing gloves, {そのリボンから\N指紋が出るでしょうしね。}we should be able to get fingerprints from the ribbon.
+Dialogue: 0,0:18:51.27,0:18:55.40,Dialogue,,0000,0000,0000,,{よ～し　漆屋さんに\N再度　事情聴取だ！}All right, question Urushiya{\rHonorifics - Dialogue}-san{\r} again!
+Dialogue: 0,0:18:55.82,0:19:00.24,Dialogue,,0000,0000,0000,,{ねえ？どこであの小説家が怪しいと思ったの？}Hey, when did you start thinking that author was suspicious?
+Dialogue: 0,0:19:00.24,0:19:04.70,Dialogue,,0000,0000,0000,,{やっぱり　大ちゃんがあの人に\Nシッポを立ててたからかしら？}Was it because Tai{\rHonorifics - Dialogue}-chan{\r} raised his tail when he approached him?
+Dialogue: 0,0:19:04.70,0:19:09.91,Dialogue,,0000,0000,0000,,{あれは\Nうれしい時や　甘えてる時の→}As cats only do that around people {親しい人にしか\N見せない仕草だから。}to whom they are close and when they are very happy.
 Dialogue: 0,0:19:10.33,0:19:15.04,Dialogue,,0000,0000,0000,,{まあ　それもあるけど\N１階のインターホンを鳴らしたら→\N***CHECK +2}Well, there was that, but I suspected that he was the culprit
-Dialogue: 0,0:19:15.04,0:19:19.97,Dialogue,,0000,0000,0000,,{誰かが扉を開けてくれたって言った時点で→\N}when he said that someone was kind enough to open the door {犯人だとにらんでたよ。え？\N}when he rang the bell on the intercom for the ground floor.
-Dialogue: 0,0:19:21.26,0:19:26.51,Dialogue,,0000,0000,0000,,{もしも　開けたのが犯人なら\N}If the one who opened had been the culprit,\N{その時は　まだ部屋の中。\N}he would still have been in the flat at that point.
-Dialogue: 0,0:19:26.51,0:19:31.73,Dialogue,,0000,0000,0000,,{これから玄関口でトリックを使って密室を作らなきゃいけないのに→\N}It made no sense that the culprit would invite someone up
-Dialogue: 0,0:19:31.73,0:19:36.23,Dialogue,,0000,0000,0000,,{誰かを部屋の前に呼び寄せる\Nなんて考えられねぇからな。\N}when he still had to use his trick at the door\Nin order to create the locked room.
-Dialogue: 0,0:19:38.61,0:19:43.87,Dialogue,,0000,0000,0000,,{いかにも...彼を突き飛ばして\N大ケガを負わせたのは私です。\N}Indeed. I was the one who attacked and injured him.
-Dialogue: 0,0:19:44.37,0:19:47.62,Dialogue,,0000,0000,0000,,{しかし　あんなトリックをよくとっさに...。\N}Coming up with that trick on the spot is quite something...
-Dialogue: 0,0:19:47.62,0:19:50.87,Dialogue,,0000,0000,0000,,{昔　そういうミステリーを\N書いたことがあったので...。\N}I once wrote a mystery novel with a trick like that.
-Dialogue: 0,0:19:51.33,0:19:54.54,Dialogue,,0000,0000,0000,,{実は今日\N彼に金をせびりに来たんです。\N}Actually, I came today to borrow some money from him.
-Dialogue: 0,0:19:55.25,0:20:02.76,Dialogue,,0000,0000,0000,,{本当は　明日会う\N約束だったんですけど...。\N}We had originally planned to meet up tomorrow, {今朝　彼が電話で\Nいい贈り物を用意したと言うので。\N}but this\Nmorning, he called to tell me he had a great present for me.
-Dialogue: 0,0:20:02.76,0:20:06.89,Dialogue,,0000,0000,0000,,{いてもたってもいられなくて　今日来てしまったというわけですよ。\N}Since I was curious, I couldn't help coming by today.
-Dialogue: 0,0:20:07.22,0:20:15.10,Dialogue,,0000,0000,0000,,{でも　渡されたのは慌てて包んだ\Nような包み紙の中に入った→\N}But the present turned out to be\Na hastily wrapped {使い古した\Nペットのキャリーバッグ！\N}used cat carrier!
-Dialogue: 0,0:20:15.77,0:20:19.19,Dialogue,,0000,0000,0000,,{しかも入っていたのは\Nあの三毛猫ですよ！？\N}And all that was in there was that calico cat!
-Dialogue: 0,0:20:19.19,0:20:24.86,Dialogue,,0000,0000,0000,,{その上　今日はまだ渡せないとか\Nもったいぶってニヤニヤしてるし。\N}On top of that, he told me that he couldn't give it to me yet, with a stupid grin...
-Dialogue: 0,0:20:24.86,0:20:28.99,Dialogue,,0000,0000,0000,,{そもそもあの猫は　私が拾ってきた野良猫だというのに...。\N}That cat was just a stray that I rescued in the past...
-Dialogue: 0,0:20:29.58,0:20:32.00,Dialogue,,0000,0000,0000,,{じゃあ　最初は\Nおじさんが飼ってたの？\N}So you were its owner before?
-Dialogue: 0,0:20:32.46,0:20:36.67,Dialogue,,0000,0000,0000,,{ああ...仔猫の頃　半年ぐらいだけ。\N}Yes. I had it for about half a year, while it was still a kitten.
-Dialogue: 0,0:20:36.67,0:20:40.50,Dialogue,,0000,0000,0000,,{彼の嫁さんが　ペットロスして\Nしょげてたから譲ったんだよ。\N}I gave it to him when his wife was suffering from losing a pet...
-Dialogue: 0,0:20:40.96,0:20:43.59,Dialogue,,0000,0000,0000,,{まあ　譲って正解だったよ。\N}Well, giving it to him turned out to be the right thing to do.
-Dialogue: 0,0:20:43.59,0:20:49.85,Dialogue,,0000,0000,0000,,{その後　小説がぱったり\N売れなくなって→\N}Right after that, my books completely stopped selling {猫の世話をしてる場合じゃ\Nなくなったから...。\N}and I couldn't have cared for a pet cat.
-Dialogue: 0,0:20:49.85,0:20:54.19,Dialogue,,0000,0000,0000,,{代わりに　彼の会社は\N右肩上がりだったようだがな...。\N}But on the other hand, his company started to really take off...
-Dialogue: 0,0:20:54.19,0:20:58.77,Dialogue,,0000,0000,0000,,{なのに彼は　そんな私に→\N\Nあんな野良猫を\N押しつけようとしたんだ。→\N}Despite that, he had the gall to try and push that stray cat onto me!
-Dialogue: 0,0:20:59.40,0:21:06.49,Dialogue,,0000,0000,0000,,{そう...私が解いた\Nリボンをくわえて→\N}That's right. When that cat came into the bedroom holding the ribbon I'd unwrapped, he picked it up and said...
-Dialogue: 0,0:21:07.41,0:21:09.95,Flashback,,0000,0000,0000,,{\be10（益子）\Nこの猫がいれば大丈夫！→\N}You'll be fine if you have this cat!
-Dialogue: 0,0:21:09.95,0:21:12.54,Flashback,,0000,0000,0000,,{\be10元々　君の猫なんだから...。→\N}And it was yours in the first place.
-Dialogue: 0,0:21:12.54,0:21:15.58,Flashback,,0000,0000,0000,,{\be10君の方が飼い主に相応しいよ\N}It's only fitting for you to be its owner.
-Dialogue: 0,0:21:18.08,0:21:20.34,Dialogue,,0000,0000,0000,,{でも大ちゃんは\Nすごい猫なんだよ！\N}But Tai{\rHonorifics - Dialogue}-chan{\r}'s an amazing cat, you know!
-Dialogue: 0,0:21:20.75,0:21:24.01,Dialogue,,0000,0000,0000,,{三毛猫の雄は希少種で\Nめったに生まれなくて...。\N}Male calico cats are a rare breed, and hardly ever found.
-Dialogue: 0,0:21:24.38,0:21:26.30,Dialogue,,0000,0000,0000,,{すっげ～　高ぇんだぞ！！\N}And they're worth loads!
-Dialogue: 0,0:21:28.18,0:21:33.81,Dialogue,,0000,0000,0000,,{でも　益子さんがおじさんに\N猫を返そうとしたのは→\N}But I suppose the reason why Masuko{\rHonorifics - Dialogue}-san{\r} wanted to give the cat back to you wasn't money,
-Dialogue: 0,0:21:34.39,0:21:36.81,Dialogue,,0000,0000,0000,,{お金のためじゃなく\Nあの猫が幸運を呼ぶ→\N}but because it was a lucky,
-Dialogue: 0,0:21:36.81,0:21:38.94,Dialogue,,0000,0000,0000,,{招き猫だったからじゃないかな。\N}Beckoning Cat.
-Dialogue: 0,0:23:01.31,0:23:05.98,Dialogue,,0000,0000,0000,,{（歩美）\Nよかったね！大ちゃんの飼い主の\Nおじさん　退院したんでしょ？\N}Isn't that great news?\NTai{\rHonorifics - Dialogue}-chan{\r}'s owner was released from hospital!
-Dialogue: 0,0:23:05.98,0:23:08.49,Dialogue,,0000,0000,0000,,{（光彦）\Nええ...後遺症もないそうです。\N}Yeah, it seems like there weren't any after-effects, either...
-Dialogue: 0,0:23:08.49,0:23:11.28,Dialogue,,0000,0000,0000,,{んで　あの猫どうなったんだ？\N}So? What happened to the cat?
+Dialogue: 0,0:19:15.04,0:19:19.97,Dialogue,,0000,0000,0000,,{誰かが扉を開けてくれたって言った時点で→}when he said that someone was kind enough to open the door {犯人だとにらんでたよ。え？}when he rang the bell on the intercom for the ground floor.
+Dialogue: 0,0:19:21.26,0:19:26.51,Dialogue,,0000,0000,0000,,{もしも　開けたのが犯人なら}If the one who opened had been the culprit,\N{その時は　まだ部屋の中。}he would still have been in the flat at that point.
+Dialogue: 0,0:19:26.51,0:19:31.73,Dialogue,,0000,0000,0000,,{これから玄関口でトリックを使って密室を作らなきゃいけないのに→}It made no sense that the culprit would invite someone up
+Dialogue: 0,0:19:31.73,0:19:36.23,Dialogue,,0000,0000,0000,,{誰かを部屋の前に呼び寄せる\Nなんて考えられねぇからな。}when he still had to use his trick at the door\Nin order to create the locked room.
+Dialogue: 0,0:19:38.61,0:19:43.87,Dialogue,,0000,0000,0000,,{いかにも...彼を突き飛ばして\N大ケガを負わせたのは私です。}Indeed. I was the one who attacked and injured him.
+Dialogue: 0,0:19:44.37,0:19:47.62,Dialogue,,0000,0000,0000,,{しかし　あんなトリックをよくとっさに...。}Coming up with that trick on the spot is quite something...
+Dialogue: 0,0:19:47.62,0:19:50.87,Dialogue,,0000,0000,0000,,{昔　そういうミステリーを\N書いたことがあったので...。}I once wrote a mystery novel with a trick like that.
+Dialogue: 0,0:19:51.33,0:19:54.54,Dialogue,,0000,0000,0000,,{実は今日\N彼に金をせびりに来たんです。}Actually, I came today to borrow some money from him.
+Dialogue: 0,0:19:55.25,0:20:02.76,Dialogue,,0000,0000,0000,,{本当は　明日会う\N約束だったんですけど...。}We had originally planned to meet up tomorrow, {今朝　彼が電話で\Nいい贈り物を用意したと言うので。}but this\Nmorning, he called to tell me he had a great present for me.
+Dialogue: 0,0:20:02.76,0:20:06.89,Dialogue,,0000,0000,0000,,{いてもたってもいられなくて　今日来てしまったというわけですよ。}Since I was curious, I couldn't help coming by today.
+Dialogue: 0,0:20:07.22,0:20:15.10,Dialogue,,0000,0000,0000,,{でも　渡されたのは慌てて包んだ\Nような包み紙の中に入った→}But the present turned out to be\Na hastily wrapped {使い古した\Nペットのキャリーバッグ！}used cat carrier!
+Dialogue: 0,0:20:15.77,0:20:19.19,Dialogue,,0000,0000,0000,,{しかも入っていたのは\Nあの三毛猫ですよ！？}And all that was in there was that calico cat!
+Dialogue: 0,0:20:19.19,0:20:24.86,Dialogue,,0000,0000,0000,,{その上　今日はまだ渡せないとか\Nもったいぶってニヤニヤしてるし。}On top of that, he told me that he couldn't give it to me yet, with a stupid grin...
+Dialogue: 0,0:20:24.86,0:20:28.99,Dialogue,,0000,0000,0000,,{そもそもあの猫は　私が拾ってきた野良猫だというのに...。}That cat was just a stray that I rescued in the past...
+Dialogue: 0,0:20:29.58,0:20:32.00,Dialogue,,0000,0000,0000,,{じゃあ　最初は\Nおじさんが飼ってたの？}So you were its owner before?
+Dialogue: 0,0:20:32.46,0:20:36.67,Dialogue,,0000,0000,0000,,{ああ...仔猫の頃　半年ぐらいだけ。}Yes. I had it for about half a year, while it was still a kitten.
+Dialogue: 0,0:20:36.67,0:20:40.50,Dialogue,,0000,0000,0000,,{彼の嫁さんが　ペットロスして\Nしょげてたから譲ったんだよ。}I gave it to him when his wife was suffering from losing a pet...
+Dialogue: 0,0:20:40.96,0:20:43.59,Dialogue,,0000,0000,0000,,{まあ　譲って正解だったよ。}Well, giving it to him turned out to be the right thing to do.
+Dialogue: 0,0:20:43.59,0:20:49.85,Dialogue,,0000,0000,0000,,{その後　小説がぱったり\N売れなくなって→}Right after that, my books completely stopped selling {猫の世話をしてる場合じゃ\Nなくなったから...。}and I couldn't have cared for a pet cat.
+Dialogue: 0,0:20:49.85,0:20:54.19,Dialogue,,0000,0000,0000,,{代わりに　彼の会社は\N右肩上がりだったようだがな...。}But on the other hand, his company started to really take off...
+Dialogue: 0,0:20:54.19,0:20:58.77,Dialogue,,0000,0000,0000,,{なのに彼は　そんな私に→\N\Nあんな野良猫を\N押しつけようとしたんだ。→}Despite that, he had the gall to try and push that stray cat onto me!
+Dialogue: 0,0:20:59.40,0:21:06.49,Dialogue,,0000,0000,0000,,{そう...私が解いた\Nリボンをくわえて→}That's right. When that cat came into the bedroom holding the ribbon I'd unwrapped, he picked it up and said...
+Dialogue: 0,0:21:07.41,0:21:09.95,Flashback,,0000,0000,0000,,{\be10（益子）\Nこの猫がいれば大丈夫！→}You'll be fine if you have this cat!
+Dialogue: 0,0:21:09.95,0:21:12.54,Flashback,,0000,0000,0000,,{\be10元々　君の猫なんだから...。→}And it was yours in the first place.
+Dialogue: 0,0:21:12.54,0:21:15.58,Flashback,,0000,0000,0000,,{\be10君の方が飼い主に相応しいよ}It's only fitting for you to be its owner.
+Dialogue: 0,0:21:18.08,0:21:20.34,Dialogue,,0000,0000,0000,,{でも大ちゃんは\Nすごい猫なんだよ！}But Tai{\rHonorifics - Dialogue}-chan{\r}'s an amazing cat, you know!
+Dialogue: 0,0:21:20.75,0:21:24.01,Dialogue,,0000,0000,0000,,{三毛猫の雄は希少種で\Nめったに生まれなくて...。}Male calico cats are a rare breed, and hardly ever found.
+Dialogue: 0,0:21:24.38,0:21:26.30,Dialogue,,0000,0000,0000,,{すっげ～　高ぇんだぞ！！}And they're worth loads!
+Dialogue: 0,0:21:28.18,0:21:33.81,Dialogue,,0000,0000,0000,,{でも　益子さんがおじさんに\N猫を返そうとしたのは→}But I suppose the reason why Masuko{\rHonorifics - Dialogue}-san{\r} wanted to give the cat back to you wasn't money,
+Dialogue: 0,0:21:34.39,0:21:36.81,Dialogue,,0000,0000,0000,,{お金のためじゃなく\Nあの猫が幸運を呼ぶ→}but because it was a lucky,
+Dialogue: 0,0:21:36.81,0:21:38.94,Dialogue,,0000,0000,0000,,{招き猫だったからじゃないかな。}Beckoning Cat.
+Dialogue: 0,0:23:01.31,0:23:05.98,Dialogue,,0000,0000,0000,,{（歩美）\Nよかったね！大ちゃんの飼い主の\Nおじさん　退院したんでしょ？}Isn't that great news?\NTai{\rHonorifics - Dialogue}-chan{\r}'s owner was released from hospital!
+Dialogue: 0,0:23:05.98,0:23:08.49,Dialogue,,0000,0000,0000,,{（光彦）\Nええ...後遺症もないそうです。}Yeah, it seems like there weren't any after-effects, either...
+Dialogue: 0,0:23:08.49,0:23:11.28,Dialogue,,0000,0000,0000,,{んで　あの猫どうなったんだ？}So? What happened to the cat?
 Dialogue: 0,0:23:11.28,0:23:14.37,Dialogue,,0000,0000,0000,,{結局　ポアロの梓さんが\N飼うことになったらしいぜ。}It ended up with Azusa{\rHonorifics - Dialogue}-san{\r} from Poirot, it seems.
-Dialogue: 0,0:23:16.74,0:23:18.25,Dialogue,,0000,0000,0000,,{あれ？大ちゃん？\N}Huh? Tai{\rHonorifics - Dialogue}-chan{\r}?
-Dialogue: 0,0:23:18.54,0:23:22.00,Dialogue,,0000,0000,0000,,{ウソ...また野良猫さんになっちゃったの？\N}No way! You strayed off again?
-Dialogue: 0,0:23:22.00,0:23:24.04,Dialogue,,0000,0000,0000,,{でもなんか　ちっちゃくねぇか？\N}And doesn't he look smaller, too...
-Dialogue: 0,0:23:24.04,0:23:25.92,Dialogue,,0000,0000,0000,,{柄はそっくりですけど。\N}His fur pattern's exactly the same, though...
-Dialogue: 0,0:23:26.55,0:23:28.42,Dialogue,,0000,0000,0000,,{（舎川の孫娘）ほら！帰るよ　ムギ！\N}Come on! Let's go home, Mugi!
-Dialogue: 0,0:23:30.93,0:23:35.64,Dialogue,,0000,0000,0000,,{（舎川の孫娘）\Nもぉ～　おば～ちゃん。→\N}Really, Grandma, {キャリーバッグのフタ\N開けちゃダメじゃない！\N}you can't just open the carrier like that!
-Dialogue: 0,0:23:35.64,0:23:38.64,Dialogue,,0000,0000,0000,,{（舎川）\Nごめんね　窮屈そうだったから...。\N}I'm sorry. But it seemed so tight in there...
-Dialogue: 0,0:23:38.64,0:23:40.85,Dialogue,,0000,0000,0000,,{あのおばあさん　確か...。\N}That old lady...!
-Dialogue: 0,0:23:41.69,0:23:44.15,Thoughts,,0000,0000,0000,,{\be10《めでたし　めでたしってか？》\N}All's well that ends well, I guess?
+Dialogue: 0,0:23:16.74,0:23:18.25,Dialogue,,0000,0000,0000,,{あれ？大ちゃん？}Huh? Tai{\rHonorifics - Dialogue}-chan{\r}?
+Dialogue: 0,0:23:18.54,0:23:22.00,Dialogue,,0000,0000,0000,,{ウソ...また野良猫さんになっちゃったの？}No way! You strayed off again?
+Dialogue: 0,0:23:22.00,0:23:24.04,Dialogue,,0000,0000,0000,,{でもなんか　ちっちゃくねぇか？}And doesn't he look smaller, too...
+Dialogue: 0,0:23:24.04,0:23:25.92,Dialogue,,0000,0000,0000,,{柄はそっくりですけど。}His fur pattern's exactly the same, though...
+Dialogue: 0,0:23:26.55,0:23:28.42,Dialogue,,0000,0000,0000,,{（舎川の孫娘）ほら！帰るよ　ムギ！}Come on! Let's go home, Mugi!
+Dialogue: 0,0:23:30.93,0:23:35.64,Dialogue,,0000,0000,0000,,{（舎川の孫娘）\Nもぉ～　おば～ちゃん。→}Really, Grandma, {キャリーバッグのフタ\N開けちゃダメじゃない！}you can't just open the carrier like that!
+Dialogue: 0,0:23:35.64,0:23:38.64,Dialogue,,0000,0000,0000,,{（舎川）\Nごめんね　窮屈そうだったから...。}I'm sorry. But it seemed so tight in there...
+Dialogue: 0,0:23:38.64,0:23:40.85,Dialogue,,0000,0000,0000,,{あのおばあさん　確か...。}That old lady...!
+Dialogue: 0,0:23:41.69,0:23:44.15,Thoughts,,0000,0000,0000,,{\be10《めでたし　めでたしってか？》}All's well that ends well, I guess?
 Dialogue: 0,0:23:46.19,0:23:48.98,Dialogue,,0000,0000,0000,,Are you sure about that? I'm the 'peeping tom', you know.
 Dialogue: 0,0:23:50.32,0:23:52.36,Dialogue,,0000,0000,0000,,You're still here, Suzuki{\rHonorifics - Dialogue}-san{\r}?
 Dialogue: 0,0:23:52.36,0:23:55.87,Dialogue,,0000,0000,0000,,Didn't the landlady tell you to hurry up and leave?

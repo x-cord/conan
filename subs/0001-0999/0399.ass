@@ -33,6 +33,7 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
+
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 Dialogue: 0,0:00:04.92,0:00:06.42,Dialogue,,0,0,0,,"Star" is a fascinating word.
@@ -55,15 +56,15 @@ Dialogue: 0,0:01:06.13,0:01:11.88,Dialogue,,0,0,0,,I don't care if this town cha
 Dialogue: 0,0:01:12.10,0:01:17.83,Dialogue,,0,0,0,,The only thing I don't want to change is you.
 Dialogue: 0,0:01:18.20,0:01:23.59,Dialogue,,0,0,0,,Oh, glimmering star, shine over us forever.
 Dialogue: 0,0:01:23.90,0:01:29.47,Dialogue,,0,0,0,,This way, we won't lose the dreams we had when we were young...
-Dialogue: 0,0:01:30.00,0:01:39.19,Dialogue,,0,0,0,,{\fade(0,1350)}The only thing I don't want to change is you.
+Dialogue: 0,0:01:30.00,0:01:39.19,Dialogue,,0,0,0,,The only thing I don't want to change is you.
 Dialogue: 0,0:01:42.85,0:01:44.81,Dialogue,,0,0,0,,The Strange Family's Request:
 Dialogue: 0,0:01:44.81,0:01:45.68,Dialogue,,0,0,0,,Part 2!
 Dialogue: 0,0:01:48.48,0:01:50.40,Dialogue,,0,0,0,,So the suspects are...
 Dialogue: 0,0:01:50.50,0:01:53.79,CharCards01 bord,,0,0,0,,{\fade(500,0)}Kariya Daisaku (68)\N{\fs16.5}Master of the Household
 Dialogue: 0,0:01:50.56,0:01:53.86,Dialogue,,0,0,0,,The master of the house, who was confined to his\Nroom while playing a wooden flute: Daisaku{\rHonorifics - Dialogue}-san{\r}...
-Dialogue: 0,0:01:54.10,0:01:56.79,CharCards02 bord,,0,0,0,,{\fade(500,0)}Kariya Tsugutaka (42)\N{\fs11}\h\hEldest Son of the Kariya Household\h\h
+Dialogue: 0,0:01:54.10,0:01:56.79,CharCards02 bord,,0,0,0,,{\fade(500,0)}Kariya Tsugutaka (42)\N{\fs11} Eldest Son of the Kariya Household
 Dialogue: 0,0:01:54.11,0:01:56.86,Dialogue,,0,0,0,,The eldest son who was drawing an\Nillustration in his room: Tsugutaka{\rHonorifics - Dialogue}-san{\r}...
-Dialogue: 0,0:01:57.10,0:01:59.92,CharCards03 bord,,0,0,0,,{\fade(500,300)}Kariya Shigehide (37)\N{\fs11}\hSecond Son of the Kariya Household\h
+Dialogue: 0,0:01:57.10,0:01:59.92,CharCards03 bord,,0,0,0,,{\fade(500,300)}Kariya Shigehide (37)\N{\fs11} Second Son of the Kariya Household
 Dialogue: 0,0:01:56.86,0:02:00.32,Dialogue,,0,0,0,,And the second son, who was\Nwriting a novel: Shigehide{\rHonorifics - Dialogue}-san{\r}...
 Dialogue: 0,0:02:01.41,0:02:02.37,Dialogue,,0,0,0,,Just those three.
 Dialogue: 0,0:02:02.95,0:02:04.08,Dialogue,,0,0,0,,No.
@@ -74,7 +75,7 @@ Dialogue: 0,0:02:13.38,0:02:18.34,Dialogue,,0,0,0,,However, even he would be abl
 Dialogue: 0,0:02:18.34,0:02:23.39,Dialogue,,0,0,0,,But he didn't make any calls when\Nhe came across something just now.
 Dialogue: 0,0:02:23.39,0:02:26.81,Dialogue,,0,0,0,,So, I can only think of one other possible explanation...
 Dialogue: 0,0:02:26.81,0:02:27.31,Dialogue,,0,0,0,,This child is...
-Dialogue: 0,0:02:27.87,0:02:31.45,Dialogue,,0,0,0,,Conan{\rHonorifics - Dialogue}-kun{\r} is actually...{\t(2430,2431,} Shinichi!
+Dialogue: 0,0:02:27.87,0:02:31.45,Dialogue,,0,0,0,,Conan{\rHonorifics - Dialogue}-kun{\r} is actually... Shinichi!
 Dialogue: 0,0:02:33.06,0:02:36.53,Dialogue,,0,0,0,,So that's why the calls I get from Shinichi\Nare always listed as an anonymous number!
 Dialogue: 0,0:02:36.53,0:02:39.03,Dialogue,,0,0,0,,It's so I can't call him!
 Dialogue: 0,0:02:39.03,0:02:42.91,Dialogue,,0,0,0,,But they were both together during the school festival...
@@ -458,7 +459,7 @@ Dialogue: 0,0:22:57.75,0:22:59.22,Dialogue,,0,0,0,,As expected of you, Shinichi.
 Dialogue: 0,0:22:59.25,0:23:01.98,Dialogue,,0,0,0,,You've mastered the skill of acting like an\Nelementary schooler who's slightly smarter than usual.
 Dialogue: 0,0:23:01.92,0:23:06.92,Dialogue,,0,0,0,,It's like a large center forward that's\Nbeing controlled by a small mid-fielder...
 Dialogue: 0,0:23:06.92,0:23:11.59,Dialogue,,0,0,0,,The fantasista who makes the perfect pass leading to a goal.
-Dialogue: 0,0:23:06.92,0:23:11.59,Dialogue Top,,0,0,0,,{\3c&H76271F&}Note: "Fantasista" is the Italian soccer term for "striker".
+Dialogue: 0,0:23:06.92,0:23:11.59,Signs,,0,0,0,,Note: "Fantasista" is the Italian soccer term for "striker".
 Dialogue: 0,0:23:11.59,0:23:13.26,Dialogue,,0,0,0,,But why?
 Dialogue: 0,0:23:13.26,0:23:14.89,Dialogue,,0,0,0,,Why are you doing this?
 Dialogue: 0,0:23:14.89,0:23:16.93,Dialogue,,0,0,0,,Why won't you tell me?
@@ -471,7 +472,7 @@ Dialogue: 0,0:23:32.70,0:23:34.37,Dialogue,,0,0,0,,Ran, you need to hurry, too!
 Dialogue: 0,0:23:35.29,0:23:37.33,Dialogue,,0,0,0,,And make sure to heat up the bath water!
 Dialogue: 0,0:23:47.34,0:23:49.34,Dialogue,,0,0,0,,So he really has realized!
 Dialogue: 0,0:23:49.34,0:23:52.01,Dialogue,,0,0,0,,He's noticed that I have doubts about his true identity.
-Dialogue: 0,0:23:52.01,0:23:53.84,Dialogue,,0,0,0,,ii fuufu\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\N11-22... A "nice couple", huh?
+Dialogue: 0,0:23:52.01,0:23:53.84,Dialogue,,0,0,0,,ii fuufu\N11-22... A "nice couple", huh?
 Dialogue: 0,0:23:53.85,0:23:55.43,Dialogue,,0,0,0,,Hey...
 Dialogue: 0,0:23:55.43,0:23:57.85,Dialogue,,0,0,0,,What number do you think\Nyou'd like if you had one, Shinichi?
 Dialogue: 0,0:23:57.85,0:24:00.48,Dialogue,,0,0,0,,If I remember right, back then...

@@ -33,8 +33,6 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: ButterflyCore,Love Is Complicated Again,45,&H405E0036,&H000000FF,&H00FFFFFF,&H80000000,-1,0,0,0,100,100,1,0,1,3.5,0,8,10,10,30,1
-Style: ButterflyCore2,Love Is Complicated Again,45,&HFF5E0036,&H000000FF,&H80000000,&H80000000,-1,0,0,0,100,100,1,0,1,0.75,0,8,10,10,30,1
 Style: RainMan,FOT-Seurat Pro,35,&HC0FAE4D0,&H000000FF,&H00FFFFFF,&H80000000,-1,0,0,0,100,100,0,0,1,3.5,0.5,8,10,10,25,1
 
 [Events]
@@ -58,37 +56,11 @@ Dialogue: 0,0:01:01.74,0:01:05.00,Radio,,0,0,0,,{\be10}What is it? Don't tell me
 Dialogue: 0,0:01:05.44,0:01:08.36,Dialogue,,0,0,0,,I-I was just checking! That's all!
 Dialogue: 0,0:01:08.36,0:01:10.29,Dialogue,,0,0,0,,Sorry for calling so late.
 Dialogue: 0,0:01:12.68,0:01:15.68,Thoughts,,0,0,0,,{\be10}I've got to stay calm, stop panicking...
-Dialogue: 0,0:01:19.21,0:01:24.38,ButterflyCore,,0,0,0,,{\blur4\fad(200,0)}kage o mau chō no kodō ga seijaku no umi o saite
-Dialogue: 0,0:01:24.38,0:01:31.55,ButterflyCore,,0,0,0,,{\blur4\fad(0,300)}kasanariau koe ga ima yami o furiharatta
-Dialogue: 0,0:01:19.21,0:01:24.38,ButterflyCore2,,0,0,0,,{\fad(200,0)}kage o mau chō no kodō ga seijaku no umi o saite
-Dialogue: 0,0:01:24.38,0:01:31.55,ButterflyCore2,,0,0,0,,{\fad(0,300)}kasanariau koe ga ima yami o furiharatta
-Dialogue: 0,0:01:32.54,0:01:36.30,BCPrologue,,0,0,0,,{\blur3}Only the light of deductions can tear apart\Nthe pitch-black shadows and bottomless darkness!
-Dialogue: 0,0:01:36.30,0:01:39.97,BCPrologue,,0,0,0,,{\blur3}Ran collapses while investigating\Nwith Sera. Just what happened here?!
-Dialogue: 0,0:01:39.97,0:01:41.70,BCPrologue,,0,0,0,,{\blur3}He sees the single truth for what it is,
-Dialogue: 0,0:01:41.70,0:01:43.52,BCPrologue,,0,0,0,,{\blur3}and looks like a kid but has the mind of an adult!
-Dialogue: 0,0:01:43.52,0:01:46.19,BCPrologue,,0,0,0,,{\blur3}His name? Detective Conan!
-Dialogue: 0,0:01:46.19,0:01:51.96,ButterflyCore,,0,0,0,,{\blur4\c&H005500}haritsuita ase o nugutte nigemawaru light o ketta
-Dialogue: 0,0:01:51.96,0:01:57.43,ButterflyCore,,0,0,0,,{\blur4\c&H005500}kanashimi ni utareta kyō no kizuato kabau yō ni
-Dialogue: 0,0:01:57.43,0:02:02.89,ButterflyCore,,0,0,0,,{\blur4\c&H005500}aseru hodo ni tōku natte wake mo naku imi o sagashite
-Dialogue: 0,0:02:02.89,0:02:08.81,ButterflyCore,,0,0,0,,{\blur4\c&H005500\t(2500,3024,\c&H000055)}osanasa no ura ni kakushita yuzuritakunai omoi ni
-Dialogue: 0,0:02:08.81,0:02:13.71,ButterflyCore,,0,0,0,,{\blur4\c&H000077}kizuita nara miushinawanai yō ni
-Dialogue: 0,0:02:13.71,0:02:19.66,ButterflyCore,,0,0,0,,{\blur4\c&H770000}dareka o mamore'ru to motto ima shinjitai
-Dialogue: 0,0:02:19.66,0:02:24.83,ButterflyCore,,0,0,0,,{\blur4\c&HAA0000}kage o mau chō no kodō ga seijaku no umi o saita
-Dialogue: 0,0:02:24.83,0:02:30.33,ButterflyCore,,0,0,0,,{\blur4\c&H000077}kimi ni miseru itsuwari no subete ga uso ja nai daro
-Dialogue: 0,0:02:30.33,0:02:35.96,ButterflyCore,,0,0,0,,{\blur4\c&HAA0000}mayo'u tabi suteta kotae mo kitto erabu hi wa mata kuru kara
-Dialogue: 0,0:02:35.96,0:02:44.89,ButterflyCore,,0,0,0,,{\blur4\c&H006600}kono kokoro wa dare yori mo atsuku moyashi tsuzukeyō kienai yō ni
-Dialogue: 0,0:02:54.82,0:03:00.41,ButterflyCore,,0,0,0,,{\blur4\c&H006600\fad(0,1000)}kienai yō ni
-Dialogue: 0,0:01:46.19,0:01:51.96,ButterflyCore2,,0,0,0,,haritsuita ase o nugutte nigemawaru light o ketta
-Dialogue: 0,0:01:51.96,0:01:57.43,ButterflyCore2,,0,0,0,,kanashimi ni utareta kyō no kizuato kabau yō ni
-Dialogue: 0,0:01:57.43,0:02:02.89,ButterflyCore2,,0,0,0,,aseru hodo ni tōku natte wake mo naku imi o sagashite
-Dialogue: 0,0:02:02.89,0:02:08.81,ButterflyCore2,,0,0,0,,osanasa no ura ni kakushita yuzuritakunai omoi ni
-Dialogue: 0,0:02:08.81,0:02:13.71,ButterflyCore2,,0,0,0,,kizuita nara miushinawanai yō ni
-Dialogue: 0,0:02:13.71,0:02:19.66,ButterflyCore2,,0,0,0,,dareka o mamore'ru to motto ima shinjitai
-Dialogue: 0,0:02:19.66,0:02:24.83,ButterflyCore2,,0,0,0,,kage o mau chō no kodō ga seijaku no umi o saita
-Dialogue: 0,0:02:24.83,0:02:30.33,ButterflyCore2,,0,0,0,,kimi ni miseru itsuwari no subete ga uso ja nai daro
-Dialogue: 0,0:02:30.33,0:02:35.96,ButterflyCore2,,0,0,0,,mayo'u tabi suteta kotae mo kitto erabu hi wa mata kuru kara
-Dialogue: 0,0:02:35.96,0:02:44.89,ButterflyCore2,,0,0,0,,{\3c&H006600}kono kokoro wa dare yori mo atsuku moyashi tsuzukeyō kienai yō ni
-Dialogue: 0,0:02:54.82,0:03:00.41,ButterflyCore2,,0,0,0,,{\fad(0,1000)\3c&H006600}kienai yō ni
+Dialogue: 0,0:01:32.54,0:01:36.30,Narration Off,,0,0,0,,{\be10}Only the light of deductions can tear apart\Nthe pitch-black shadows and bottomless darkness!
+Dialogue: 0,0:01:36.30,0:01:39.97,Narration Off,,0,0,0,,{\be10}Ran collapses while investigating\Nwith Sera. Just what happened here?!
+Dialogue: 0,0:01:39.97,0:01:41.70,Narration Off,,0,0,0,,{\be10}He sees the single truth for what it is,
+Dialogue: 0,0:01:41.70,0:01:43.52,Narration Off,,0,0,0,,{\be10}and looks like a kid but has the mind of an adult!
+Dialogue: 0,0:01:43.52,0:01:46.19,Narration Off,,0,0,0,,{\be10}His name? Detective Conan!
 Dialogue: 0,0:03:11.92,0:03:13.63,Dialogue,,0,0,0,,Hey, Conan{\rHonorifics - Dialogue}-kun{\r}?
 Dialogue: 0,0:03:16.98,0:03:18.40,Dialogue,,0,0,0,,Conan{\rHonorifics - Dialogue}-kun{\r}!
 Dialogue: 0,0:03:19.79,0:03:20.75,Dialogue,,0,0,0,,What?

@@ -33,8 +33,7 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: Map,Candara,32,&H007E8380,&H000019FF,&H00FFFFFF,&H641B1B1B,-1,0,0,0,100,100,0,0,1,1.8,0,2,0,0,0,1
-Style: Background,candara,32,&HFFFFFFFF,&H000019FF,&H00E5E9EB,&H641B1B1B,-1,0,0,0,100,100,0,0,3,2,0,2,0,0,0,1Style: NextEpisode,A-OTF Shin Go Pro M,30,&H32FFFFFF,&H000019FF,&H96171717,&H00141414,-1,0,0,0,100,100,0,0,1,0,0,2,0,0,0,1
+
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 Dialogue: 0,0:00:01.56,0:00:02.98,Dialogue,,0,0,0,,And so, how'd it go?
@@ -78,7 +77,7 @@ Dialogue: 0,0:01:48.87,0:01:51.59,Dialogue,,0,0,0,,If this is what it sounds lik
 Dialogue: 0,0:01:52.13,0:01:55.46,Dialogue,,0,0,0,,You should really lay low for a while and see what happens.
 Dialogue: 0,0:01:55.46,0:01:56.51,Dialogue,,0,0,0,,What would you do?
 Dialogue: 0,0:01:58.18,0:01:59.39,Dialogue,,0,0,0,,If you were in my position?
-Dialogue: 0,0:01:59.59,0:02:02.05,Dialogue,,0,0,0,,{\fad(0,100)}If I were you, I'd charge in without worrying―
+Dialogue: 0,0:01:59.59,0:02:02.05,Dialogue,,0,0,0,,If I were you, I'd charge in without worrying―
 Dialogue: 0,0:02:02.68,0:02:05.18,Dialogue,,0,0,0,,No, no, I mean, I would...
 Dialogue: 0,0:02:05.18,0:02:06.68,Dialogue,,0,0,0,,I'm the same as you.
 Dialogue: 0,0:02:08.19,0:02:10.81,Dialogue,,0,0,0,,I'll dive in as deep as possible...
@@ -100,7 +99,7 @@ Dialogue: 0,0:02:49.02,0:02:50.31,Dialogue,,0,0,0,,Bad timing, Hattori.
 Dialogue: 0,0:02:50.31,0:02:51.44,Dialogue,,0,0,0,,I guess I'll call you back.
 Dialogue: 0,0:02:51.44,0:02:52.19,Dialogue,,0,0,0,,Hey, Kudou!
 Dialogue: 0,0:02:52.19,0:02:53.15,Dialogue,,0,0,0,,W-Wait!
-Dialogue: 0,0:02:57.99,0:03:00.61,Thoughts,,0,0,0,,{\be10\fad(0,300)}Be careful, Kudou.
+Dialogue: 0,0:02:57.99,0:03:00.61,Thoughts,,0,0,0,,{\be10}Be careful, Kudou.
 Dialogue: 0,0:03:14.29,0:03:15.29,Narration Off,,0,0,0,,{\be10}The tingling suspense is building.
 Dialogue: 0,0:03:15.79,0:03:17.50,Narration Off,,0,0,0,,{\be10}Running in the darkness, a red scream and a black shot.
 Dialogue: 0,0:03:18.26,0:03:20.47,Narration Off,,0,0,0,,{\be10}The mystery of Hondou Eisuke and Mizunashi\NRena's involvement with the Organization.
@@ -169,9 +168,9 @@ Dialogue: 0,0:07:58.41,0:07:59.58,Dialogue,,0,0,0,,Jeez, Sonoko.
 Dialogue: 0,0:08:00.20,0:08:02.33,Dialogue,,0,0,0,,I don't know why she left.
 Dialogue: 0,0:08:03.08,0:08:06.00,Dialogue,,0,0,0,,But with all my heart, I want to see her again and thank her.
 Dialogue: 0,0:08:06.67,0:08:09.71,Dialogue,,0,0,0,,She's the reason that I'm still alive.
-Dialogue: 0,0:08:10.34,0:08:13.68,Thoughts,,0,0,0,,{\be10\fad(0,200)}What he just shared with everyone is definitely possible.
-Dialogue: 0,0:08:14.51,0:08:17.80,Thoughts,,0,0,0,,{\be10\fad(0,200)}And the story he told just now didn't seem to be made-up.
-Dialogue: 0,0:08:18.81,0:08:22.94,Thoughts,,0,0,0,,{\be10\fad(0,200)}It definitely looks like he may be searching for his actual sister.
+Dialogue: 0,0:08:10.34,0:08:13.68,Thoughts,,0,0,0,,{\be10}What he just shared with everyone is definitely possible.
+Dialogue: 0,0:08:14.51,0:08:17.80,Thoughts,,0,0,0,,{\be10}And the story he told just now didn't seem to be made-up.
+Dialogue: 0,0:08:18.81,0:08:22.94,Thoughts,,0,0,0,,{\be10}It definitely looks like he may be searching for his actual sister.
 Dialogue: 0,0:08:23.85,0:08:26.56,Dialogue,,0,0,0,,But you know, that's just like us.
 Dialogue: 0,0:08:27.19,0:08:31.36,Dialogue,,0,0,0,,Remember, I gave you a lot of my blood that one time.
 Dialogue: 0,0:08:32.15,0:08:34.36,Dialogue,,0,0,0,,Can you feel my kindness?
@@ -200,7 +199,7 @@ Dialogue: 0,0:09:35.51,0:09:36.30,Dialogue,,0,0,0,,Hello?
 Dialogue: 0,0:09:37.05,0:09:38.26,Dialogue,,0,0,0,,It's been a while.
 Dialogue: 0,0:09:38.26,0:09:39.93,Dialogue,,0,0,0,,This is Mouri Ran.
 Dialogue: 0,0:09:39.93,0:09:41.14,Dialogue,,0,0,0,,Do you remember me?
-Dialogue: 0,0:09:41.43,0:09:42.89,Thoughts,,0,0,0,,{\be10\fad(0,350)}That dog lover guy, huh?
+Dialogue: 0,0:09:41.43,0:09:42.89,Thoughts,,0,0,0,,{\be10}That dog lover guy, huh?
 Dialogue: 0,0:09:43.39,0:09:45.27,Dialogue,,0,0,0,,Um, this is Mouri...
 Dialogue: 0,0:09:45.27,0:09:45.68,Dialogue,,0,0,0,,Huh?
 Dialogue: 0,0:09:46.10,0:09:46.85,Dialogue,,0,0,0,,Excuse me...
@@ -227,7 +226,6 @@ Dialogue: 0,0:10:37.78,0:10:40.20,Dialogue,,0,0,0,,But when I called, it wasn't 
 Dialogue: 0,0:10:40.20,0:10:42.16,Dialogue,,0,0,0,,Did he say he was moving?
 Dialogue: 0,0:10:42.16,0:10:45.08,Dialogue,,0,0,0,,Then why don't you go to his parent's house and ask?
 Dialogue: 0,0:10:45.08,0:10:48.33,Dialogue,,0,0,0,,It's right nearby that hospital you said were going to today.
-Dialogue: 0,0:10:48.87,0:10:52.92,Signs,,0,0,0,,{\frx6\fry348\frz15.77\4c&H1B1B1B&\3c&H101010&\c&H000000&\move(644,535,644,210,26,3988)}Anno
 Dialogue: 0,0:10:53.84,0:10:56.01,Dialogue,,0,0,0,,My son's moved?
 Dialogue: 0,0:10:56.46,0:10:59.97,Dialogue,,0,0,0,,Yes, when I tried to call him earlier, it seemed his number had changed.
 Dialogue: 0,0:11:00.26,0:11:04.05,Dialogue,,0,0,0,,Strange, I was just talking to him a bit ago.
@@ -344,29 +342,25 @@ Dialogue: 0,0:18:03.43,0:18:06.68,Dialogue,,0,0,0,,He didn't want her to call he
 Dialogue: 0,0:18:07.81,0:18:12.98,Dialogue,,0,0,0,,That means, if we call your son's former cellphone number right now...
 Dialogue: 0,0:18:13.40,0:18:14.94,Dialogue,,0,0,0,,We'll know if this is really a fraud or not.
 Dialogue: 0,0:18:15.69,0:18:17.95,Signs,,0,0,0,,Anno
-Dialogue: 0,0:18:18.24,0:18:23.91,Radio,,0,0,0,,{\be10\fad(0,400)}The number you are attempting to reach is either outside\Nthe service area or unreachable because it is powered off.
+Dialogue: 0,0:18:18.24,0:18:23.91,Radio,,0,0,0,,{\be10}The number you are attempting to reach is either outside\Nthe service area or unreachable because it is powered off.
 Dialogue: 0,0:18:25.29,0:18:26.87,Dialogue,,0,0,0,,Oh my, I can't reach him.
 Dialogue: 0,0:18:28.08,0:18:31.42,Dialogue,,0,0,0,,Then, is it true the cellphone was really broken?
 Dialogue: 0,0:18:32.88,0:18:35.00,Dialogue,,0,0,0,,Where was your son traveling to?
 Dialogue: 0,0:18:35.00,0:18:36.63,Dialogue,,0,0,0,,To Sado via Niigata.
-Dialogue: 0,0:18:36.63,0:18:38.59,Map,,0,0,0,,{\move(393,425,393,562,0,1027)}Niigata Prefecture
-Dialogue: 0,0:18:36.63,0:18:39.84,Map,,0,0,0,,{\move(450,78.733,450,572,0,3527)}Sado Channel
-Dialogue: 0,0:18:36.63,0:18:39.51,Map,,0,0,0,,{\move(606,120,606,572,0,3257)}Niigata
-Dialogue: 0,0:18:38.63,0:18:40.14,Map,,0,0,0,,{\move(284,-10,284,440,29,3257)}Sado Island
 Dialogue: 0,0:18:37.17,0:18:40.09,Dialogue,,0,0,0,,I think he was planning to be back by 7:00 tonight.
-Dialogue: 0,0:18:40.39,0:18:41.47,Thoughts,,0,0,0,,{\be10\fad(0,250)}7:00, huh?
-Dialogue: 0,0:18:41.76,0:18:45.77,Thoughts,,0,0,0,,{\be10\fad(0,250)}To get from Sado to Tokyo, you first take an hour trip by jet foil...
-Dialogue: 0,0:18:46.39,0:18:48.64,Thoughts,,0,0,0,,{\be10\fad(0,250)}Then you take the Shinkansen from Niigata for two and a half hours.
-Dialogue: 0,0:18:49.73,0:18:51.06,Thoughts,,0,0,0,,{\be10\fad(0,250)}If we calculate backwards...
-Dialogue: 0,0:18:52.11,0:18:54.23,Thoughts,,0,0,0,,{\be10\fad(0,250)}He would be on the sea aboard the jet foil now.
-Dialogue: 0,0:18:55.40,0:18:58.19,Thoughts,,0,0,0,,{\be10\fad(0,500)}His cellphone would be out of range on the ocean.
-Dialogue: 0,0:18:58.99,0:19:01.49,Thoughts,,0,0,0,,{\be10\fad(0,250)}The criminal must have included this in his scheme.
+Dialogue: 0,0:18:40.39,0:18:41.47,Thoughts,,0,0,0,,{\be10}7:00, huh?
+Dialogue: 0,0:18:41.76,0:18:45.77,Thoughts,,0,0,0,,{\be10}To get from Sado to Tokyo, you first take an hour trip by jet foil...
+Dialogue: 0,0:18:46.39,0:18:48.64,Thoughts,,0,0,0,,{\be10}Then you take the Shinkansen from Niigata for two and a half hours.
+Dialogue: 0,0:18:49.73,0:18:51.06,Thoughts,,0,0,0,,{\be10}If we calculate backwards...
+Dialogue: 0,0:18:52.11,0:18:54.23,Thoughts,,0,0,0,,{\be10}He would be on the sea aboard the jet foil now.
+Dialogue: 0,0:18:55.40,0:18:58.19,Thoughts,,0,0,0,,{\be10}His cellphone would be out of range on the ocean.
+Dialogue: 0,0:18:58.99,0:19:01.49,Thoughts,,0,0,0,,{\be10}The criminal must have included this in his scheme.
 Dialogue: 0,0:19:04.20,0:19:05.70,Dialogue,,0,0,0,,There's less than ten minutes left!
 Dialogue: 0,0:19:05.70,0:19:07.75,Dialogue,,0,0,0,,It's late! I have to get to the bank!
 Dialogue: 0,0:19:08.29,0:19:09.71,Dialogue,,0,0,0,,Lady, you can't go!
 Dialogue: 0,0:19:09.96,0:19:11.04,Dialogue,,0,0,0,,Aren't you something!
 Dialogue: 0,0:19:11.50,0:19:15.71,Dialogue,,0,0,0,,If I can't get my son ten million before the end of the\Nday, he'll said he'd get a loan from the black market.
-Dialogue: 0,0:19:15.71,0:19:18.67,Dialogue,,0,0,0,,{\fad(0,250)}If he did, how could he pay them back...
+Dialogue: 0,0:19:15.71,0:19:18.67,Dialogue,,0,0,0,,If he did, how could he pay them back...
 Dialogue: 0,0:19:24.85,0:19:27.93,Signs,,0,0,0,,BEIKA CENTRAL BANK
 Dialogue: 0,0:19:27.93,0:19:27.97,Signs,,0,0,0,,BEIKA CENTRAL BANK
 Dialogue: 0,0:19:27.97,0:19:28.02,Signs,,0,0,0,,BEIKA CENTRAL BANK
@@ -380,7 +374,7 @@ Dialogue: 0,0:19:44.28,0:19:47.20,Dialogue,,0,0,0,,I told you to go right away w
 Dialogue: 0,0:19:47.70,0:19:51.16,Dialogue,,0,0,0,,Well, you said you could get a loan from the black market.
 Dialogue: 0,0:19:51.16,0:19:54.13,Dialogue,,0,0,0,,You can pay them back if you have the money\Nbefore the end of the day, right?
 Dialogue: 0,0:19:54.58,0:19:56.29,Dialogue,,0,0,0,,Y-Yeah, I guess, but...
-Dialogue: 0,0:19:58.92,0:20:04.55,Signs,,0,0,0,,----------------------------------------\N----------------------------------------\N----------------------------------------\N----------------------------------------\N
+Dialogue: 0,0:19:58.92,0:20:04.55,Signs,,0,0,0,,----------------------------------------\N----------------------------------------\N----------------------------------------\N----------------------------------------
 Dialogue: 0,0:19:58.92,0:20:04.55,Signs,,0,0,0,,Anno
 Dialogue: 0,0:19:59.46,0:20:02.55,Dialogue,,0,0,0,,Then, what about mother's secret savings?
 Dialogue: 0,0:20:02.55,0:20:03.68,Dialogue,,0,0,0,,Secret savings?
@@ -424,7 +418,7 @@ Dialogue: 0,0:24:10.77,0:24:12.35,Thoughts,,0,0,0,,{\be10}Mizunashi Rena's blood
 Dialogue: 0,0:24:12.98,0:24:15.44,Thoughts,,0,0,0,,{\be10}Hondou, who got a blood transfusion from his sister, says he's type 0.
 Dialogue: 0,0:24:17.15,0:24:19.53,Thoughts,,0,0,0,,{\be10}In order to confirm the facts, we head to a mansion.
 Dialogue: 0,0:24:20.28,0:24:22.24,Thoughts,,0,0,0,,{\be10}A new, more mysterious case begins to unfold.
-Dialogue: 0,0:24:24.41,0:24:26.32,Thoughts,,0,0,0,,{\be10\fad(0,500)}Next time, on Detective Conan...
+Dialogue: 0,0:24:24.41,0:24:26.32,Thoughts,,0,0,0,,{\be10}Next time, on Detective Conan...
 Dialogue: 0,0:24:24.27,0:24:29.99,Signs,,0,0,0,,CLASH OF RED AND BLACK
 Dialogue: 0,0:24:24.27,0:24:29.99,Signs,,0,0,0,,BLOOD RELATIVE
 Dialogue: 0,0:24:30.28,0:24:35.03,Signs,,0,0,0,,Blood Transfusion

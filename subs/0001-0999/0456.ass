@@ -33,21 +33,23 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
+Style: EDTop,MV Boli,52,&H00E7E7E7,&H000000FF,&H00909090,&H80000000,-1,0,0,0,100,100,0,0,1,1,2,8,160,160,30,1
+
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 Dialogue: 0,0:00:01.64,0:00:05.15,Narration Off,,0,0,0,,{\be10}From a different point of view, even an imposing\Nwall blocking your path is just a large door.
-Dialogue: 0,0:00:05.15,0:00:08.02,Narration Off,,0,0,0,,{\be10\t(200,300,\c&HB8C1CD&)}A character from a mystery novel\Nthreatens the life of its author.
-Dialogue: 0,0:00:08.02,0:00:09.73,Narration Off,,0,0,0,,{\be10\c&HB8C1CD&}Is this fiction, or non-fiction?
-Dialogue: 0,0:00:09.73,0:00:11.19,Narration Off,,0,0,0,,{\be10\c&HB8C1CD&\t(200,300,\c&HFFAAAA)}He sees the single truth for what it is,
-Dialogue: 0,0:00:11.19,0:00:12.82,Narration Off,,0,0,0,,{\be10\c&HFFAAAA}and looks like a kid but\Nhas the mind of an adult!
-Dialogue: 0,0:00:12.82,0:00:14.66,Narration Off,,0,0,0,,{\be10\c&HFFAAAA}His name? Detective Conan!
+Dialogue: 0,0:00:05.15,0:00:08.02,Narration Off,,0,0,0,,{\be10}A character from a mystery novel\Nthreatens the life of its author.
+Dialogue: 0,0:00:08.02,0:00:09.73,Narration Off,,0,0,0,,{\be10}Is this fiction, or non-fiction?
+Dialogue: 0,0:00:09.73,0:00:11.19,Narration Off,,0,0,0,,{\be10}He sees the single truth for what it is,
+Dialogue: 0,0:00:11.19,0:00:12.82,Narration Off,,0,0,0,,{\be10}and looks like a kid but\Nhas the mind of an adult!
+Dialogue: 0,0:00:12.82,0:00:14.66,Narration Off,,0,0,0,,{\be10}His name? Detective Conan!
 Dialogue: 0,0:02:01.85,0:02:04.06,Dialogue Top,,0,0,0,,How to Win at Horse Racing
 Dialogue: 0,0:01:57.97,0:02:01.85,Dialogue Top,,0,0,0,,Pro Football, 2006
 Dialogue: 0,0:02:10.71,0:02:11.90,Dialogue,,0,0,0,,I'm being called!
 Dialogue: 0,0:02:11.90,0:02:13.27,Dialogue,,0,0,0,,Uncle?
 Dialogue: 0,0:02:13.27,0:02:15.53,Dialogue,,0,0,0,,Excuse me! Coming through!
 Dialogue: 0,0:02:16.57,0:02:17.73,Dialogue,,0,0,0,,Inspector!
-Dialogue: 0,0:02:19.53,0:02:23.46,Dialogue,,0,0,0,,Seems it's my turn. Let's go!\N
+Dialogue: 0,0:02:19.53,0:02:23.46,Dialogue,,0,0,0,,Seems it's my turn. Let's go!
 Dialogue: 0,0:02:23.46,0:02:26.57,Dialogue,,0,0,0,,- Wait! Inspector!\N- Uncle!
 Dialogue: 0,0:02:30.68,0:02:32.93,Dialogue,,0,0,0,,You sure seem to have a lot of free time...
 Dialogue: 0,0:02:32.93,0:02:36.05,Dialogue,,0,0,0,,Well, since we're here anyway, please let us help with the investigation.
@@ -394,7 +396,7 @@ Dialogue: 0,0:23:45.02,0:23:47.53,Dialogue,,0,0,0,,Oh, they changed to a differe
 Dialogue: 0,0:23:47.53,0:23:50.06,Dialogue,,0,0,0,,That's obvious.
 Dialogue: 0,0:23:50.06,0:23:54.62,Dialogue,,0,0,0,,A manager who spends the entire day drinking is in no condition to work properly!
 Dialogue: 0,0:23:55.53,0:23:57.33,Dialogue,,0,0,0,,Down it goes!
-Dialogue: 0,0:23:59.68,0:24:03.50,Thoughts,,0,0,0,,{\be10\t(2302,3804,\c&H000000&\3c&H000000&)}What about a detective?
+Dialogue: 0,0:23:59.68,0:24:03.50,Thoughts,,0,0,0,,{\be10}What about a detective?
 Dialogue: 0,0:24:06.92,0:24:09.54,Dialogue,,0,0,0,,Sonoko{\rHonorifics - Dialogue}-neechan{\r}, if everybody\Nhas a red handkerchief,
 Dialogue: 0,0:24:09.54,0:24:13.64,Dialogue,,0,0,0,,there's no way to tell\Nwhich one's yours, right?
 Dialogue: 0,0:24:13.93,0:24:16.22,Thoughts,,0,0,0,,{\be10}Huh? A notebook?
@@ -426,9 +428,9 @@ Dialogue: 0,0:23:25.96,0:23:29.55,EDTop,,0,0,0,,{\be8\fax0.25}mô kimi dake o ha
 Dialogue: 0,0:23:29.55,0:23:33.09,EDTop,,0,0,0,,{\be8\fax0.25}kanashimi wa yesterday
 Dialogue: 0,0:23:33.09,0:23:36.81,EDTop,,0,0,0,,{\be8\fax0.25}kimi ga kureta kotoba de
 Dialogue: 0,0:23:36.81,0:23:41.69,EDTop,,0,0,0,,{\be8\fax0.25\fad(0,1000)}egao de nemuri ni tsuku made
-Dialogue: 0,0:03:47.33,0:03:52.33,Signs,,0,0,0,,Shun'ichi Tono (26)\NEditor at Labyrinth Publications
-Dialogue: 0,0:03:52.33,0:03:56.34,Signs,,0,0,0,,Keiso Murata (55)\NPearl Block of Flats Manager
-Dialogue: 0,0:11:56.32,0:12:02.15,Signs,,0,0,0,,Yasunobu Shimazaki (50)\NLabyrinth Productions Editor-in-Chief
+Dialogue: 0,0:03:47.33,0:03:52.33,Character Card,,0,0,0,,Shun'ichi Tono (26)\NEditor at Labyrinth Publications
+Dialogue: 0,0:03:52.33,0:03:56.34,Character Card,,0,0,0,,Keiso Murata (55)\NPearl Block of Flats Manager
+Dialogue: 0,0:11:56.32,0:12:02.15,Character Card,,0,0,0,,Yasunobu Shimazaki (50)\NLabyrinth Productions Editor-in-Chief
 Dialogue: 0,0:24:33.74,0:24:33.82,Signs,Typesetting,0,0,0,,Names in Katakana
 Dialogue: 0,0:24:33.82,0:24:33.91,Signs,Typesetting,0,0,0,,Names in Katakana
 Dialogue: 0,0:24:33.91,0:24:33.99,Signs,Typesetting,0,0,0,,Names in Katakana

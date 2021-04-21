@@ -33,9 +33,6 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: ButterflyCore2,Love Is Complicated Again,45,&HFF5E0036,&H000000FF,&H80000000,&H80000000,-1,0,0,0,100,100,1,0,1,0.75,0,8,10,10,30,1
-Style: BCPrologue,Cocon-Regular,45,&H805E0036,&H000000FF,&H00FFFFFF,&H80000000,-1,0,0,0,100,100,1,0,1,5,2,2,10,10,30,1
-Style: AitakuteRomaji,AlaskanNightsM,52,&H60DB9572,&H000000FF,&H00FFFFFF,&HC02F2F2F,-1,0,0,0,108,100,0,0,1,4,0,8,8,8,30,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -59,11 +56,11 @@ Dialogue: 0,0:01:03.33,0:01:03.83,Dialogue,,0,0,0,,Right...
 Dialogue: 0,0:01:05.35,0:01:06.17,Dialogue,,0,0,0,,Here.
 Dialogue: 0,0:01:13.71,0:01:14.67,Dialogue,,0,0,0,,What's this...?!
 Dialogue: 0,0:01:15.01,0:01:18.68,Thoughts,,0,0,0,,{\be10}I see. This doesn't look easy to solve.
-Dialogue: 0,0:01:34.84,0:01:37.91,BCPrologue,,0,0,0,,{\blur3}Only the light of deductions can tear apart black shadows and deep darkness!
-Dialogue: 0,0:01:38.54,0:01:42.04,BCPrologue,,0,0,0,,{\blur3}Solve the riddle of the unusual party near Bell Tree Tower!
-Dialogue: 0,0:01:42.40,0:01:43.95,BCPrologue,,0,0,0,,{\blur3}He sees the single truth for what it is,
-Dialogue: 0,0:01:43.95,0:01:46.12,BCPrologue,,0,0,0,,{\blur3}and looks like a kid but has the mind of an adult!
-Dialogue: 0,0:01:46.12,0:01:48.83,BCPrologue,,0,0,0,,{\blur3}His name? Detective Conan!
+Dialogue: 0,0:01:34.84,0:01:37.91,Narration Off,,0,0,0,,{\be10}Only the light of deductions can tear apart black shadows and deep darkness!
+Dialogue: 0,0:01:38.54,0:01:42.04,Narration Off,,0,0,0,,{\be10}Solve the riddle of the unusual party near Bell Tree Tower!
+Dialogue: 0,0:01:42.40,0:01:43.95,Narration Off,,0,0,0,,{\be10}He sees the single truth for what it is,
+Dialogue: 0,0:01:43.95,0:01:46.12,Narration Off,,0,0,0,,{\be10}and looks like a kid but has the mind of an adult!
+Dialogue: 0,0:01:46.12,0:01:48.83,Narration Off,,0,0,0,,{\be10}His name? Detective Conan!
 Dialogue: 0,0:03:13.96,0:03:22.14,Dialogue,,0,0,0,,I was never too good at deductions and codes, and even when I joined the Society, the Tanuki Code was all I could solve.
 Dialogue: 0,0:03:22.14,0:03:24.25,Dialogue,,0,0,0,,The Tanuki Code?
 Dialogue: 0,0:03:24.25,0:03:28.03,Dialogue,,10,10,0,,It's a simple code where you 'remove the character た (ta)'{'ta o nuki'} to read it.
@@ -100,18 +97,18 @@ Dialogue: 0,0:05:07.65,0:05:10.35,Dialogue,,0,0,0,,And you've got your fingers c
 Dialogue: 0,0:05:10.35,0:05:12.87,Dialogue,,0,0,0,,Hey, don't sweat the small stuff!
 Dialogue: 0,0:05:13.26,0:05:14.67,Thoughts,,0,0,0,,{\be10}Oh, come on...
 Dialogue: 0,0:05:18.29,0:05:21.67,Dialogue,,0,0,0,,So how about it? Does it ring any bells?
-Dialogue: 0,0:05:21.67,0:05:22.43,Dialogue,,0,0,0,,It does.\N
+Dialogue: 0,0:05:21.67,0:05:22.43,Dialogue,,0,0,0,,It does.
 Dialogue: 0,0:05:23.37,0:05:26.93,Dialogue,,0,0,0,,The Jōnan University Lecture Hall is in the second district of Kanda-Ogawamachi!
-Dialogue: 0,0:05:27.40,0:05:28.22,Thoughts,,0,0,0,,{\be10}Really?!\N
+Dialogue: 0,0:05:27.40,0:05:28.22,Thoughts,,0,0,0,,{\be10}Really?!
 Dialogue: 0,0:05:28.54,0:05:29.65,Dialogue,,0,0,0,,I knew it!
 Dialogue: 0,0:05:29.65,0:05:32.77,Dialogue,,0,0,0,,The party must be being held at that hall!
 Dialogue: 0,0:05:32.77,0:05:34.59,Dialogue,,0,0,0,,You're amazing, Dad!
 Dialogue: 0,0:05:36.15,0:05:37.77,Thoughts,,0,0,0,,{\be10}You've gotta be kidding me...
 Dialogue: 0,0:05:38.31,0:05:41.78,Dialogue,,0,0,0,,Thank you so much! Now I'll be able to attend the party.
-Dialogue: 0,0:05:42.23,0:05:43.71,Dialogue,,0,0,0,,So how much would you...?\N
+Dialogue: 0,0:05:42.23,0:05:43.71,Dialogue,,0,0,0,,So how much would you...?
 Dialogue: 0,0:05:43.71,0:05:45.29,Dialogue,,0,0,0,,Oh, no, no, no.
 Dialogue: 0,0:05:45.29,0:05:48.96,Dialogue,,0,0,0,,I can't accept money for such a simple request.
-Dialogue: 0,0:05:48.96,0:05:50.35,Dialogue,,0,0,0,,What? But...\N
+Dialogue: 0,0:05:48.96,0:05:50.35,Dialogue,,0,0,0,,What? But...
 Dialogue: 0,0:05:50.35,0:05:52.70,Dialogue,,0,0,0,,You don't owe me a thing.
 Dialogue: 0,0:05:52.70,0:05:56.25,Dialogue,,0,0,0,,You're so kind. Well then, if you're sure...
 Dialogue: 0,0:05:58.38,0:06:00.72,Dialogue,,0,0,0,,Really, thank you so much!
@@ -121,20 +118,20 @@ Dialogue: 0,0:06:12.90,0:06:18.03,Dialogue,,0,0,0,,But you know, if we're all wo
 Dialogue: 0,0:06:18.03,0:06:23.14,Dialogue,,0,0,0,,How about making an insect forest filled with all sorts of papier-mâché insects?
 Dialogue: 0,0:06:23.14,0:06:25.78,Dialogue,,0,0,0,,Or an aquarium full of fishies{uso suggest "fishies" because of the rather weird way Ayumi says it, lel} swimming around?
 Dialogue: 0,0:06:25.78,0:06:28.24,Dialogue,,0,0,0,,An airport could be fun too!
-Dialogue: 0,0:06:30.87,0:06:34.62,Dialogue,,0,0,0,,You really can't accept Mouri{\rHonorifics - Dialogue}-kun{\r}'s deduction?\N
+Dialogue: 0,0:06:30.87,0:06:34.62,Dialogue,,0,0,0,,You really can't accept Mouri{\rHonorifics - Dialogue}-kun{\r}'s deduction?
 Dialogue: 0,0:06:35.06,0:06:36.10,Dialogue,,0,0,0,,Right...
 Dialogue: 0,0:06:36.10,0:06:41.47,Dialogue,,0,0,0,,Officially, the Chūō Line isn't red, but scarlet...
 Dialogue: 0,0:06:41.47,0:06:50.64,Dialogue,,0,0,0,,I've tried considering other lines coloured red, blue, yellow and green too, but I can't find anywhere that fits...
-Dialogue: 0,0:06:51.10,0:06:53.15,Dialogue,,0,0,0,,How about underground trains?\N
+Dialogue: 0,0:06:51.10,0:06:53.15,Dialogue,,0,0,0,,How about underground trains?
 Dialogue: 0,0:06:53.15,0:06:58.40,Dialogue,,0,0,0,,I considered that too, but there's no yellow line on the underground...
 Dialogue: 0,0:07:01.70,0:07:02.90,Dialogue,,0,0,0,,Bridges?
 Dialogue: 0,0:07:04.12,0:07:05.40,Dialogue,,0,0,0,,That's it!
 Dialogue: 0,0:07:05.40,0:07:07.05,Dialogue,,0,0,0,,That's what that hand meant!
 Dialogue: 0,0:07:08.67,0:07:11.33,Dialogue,,0,0,0,,Oh no! I better tell her quickly!
 Dialogue: 0,0:07:11.33,0:07:13.71,Dialogue,,0,0,0,,Sorry, I'll leave the rest up to you!
-Dialogue: 0,0:07:13.71,0:07:14.66,Dialogue,,0,0,0,,Conan{\rHonorifics - Dialogue}-kun{\r}?\N
+Dialogue: 0,0:07:13.71,0:07:14.66,Dialogue,,0,0,0,,Conan{\rHonorifics - Dialogue}-kun{\r}?
 Dialogue: 0,0:07:14.66,0:07:15.33,Dialogue,,0,0,0,,Conan!
-Dialogue: 0,0:07:15.80,0:07:18.05,Dialogue,,0,0,0,,It looks like he solved it.\N
+Dialogue: 0,0:07:15.80,0:07:18.05,Dialogue,,0,0,0,,It looks like he solved it.
 Dialogue: 0,0:07:18.05,0:07:19.04,Dialogue,,0,0,0,,Sure does.
 Dialogue: 0,0:07:21.39,0:07:24.81,Dialogue,,0,0,0,,What?! It's not Kanda-Ogawamachi?!
 Dialogue: 0,0:07:24.81,0:07:27.05,Dialogue,,0,0,0,,Right. Have a look at this map.
@@ -152,7 +149,7 @@ Dialogue: 0,0:07:50.41,0:07:51.98,Dialogue,,0,0,0,,That's amazing, Conan{\rHonor
 Dialogue: 0,0:07:53.15,0:07:55.58,Dialogue,,0,0,0,,Uncle, you took a copy of that puzzle, right?\N
 Dialogue: 0,0:07:55.58,0:07:56.96,Dialogue,,0,0,0,,Hmm? Yeah...
 Dialogue: 0,0:07:57.49,0:08:04.50,Dialogue,,0,0,0,,If we place the nails on the invitation over each of the bridges, then the thumb is on top of...
-Dialogue: 0,0:08:05.91,0:08:07.52,Dialogue,,0,0,0,,The Bell Tree Tower!\N
+Dialogue: 0,0:08:05.91,0:08:07.52,Dialogue,,0,0,0,,The Bell Tree Tower!
 Dialogue: 0,0:08:07.52,0:08:09.80,Dialogue,,0,0,0,,Then that's the party venue?
 Dialogue: 0,0:08:09.80,0:08:13.71,Dialogue,,0,0,0,,But you know, her university's lecture hall is in Kanda-Ogawamachi...
 Dialogue: 0,0:08:13.71,0:08:15.09,Dialogue,,0,0,0,,I'm sure this is the right answer.
@@ -174,10 +171,10 @@ Dialogue: 0,0:09:00.99,0:09:03.52,Dialogue,,0,0,0,,Then she wrote down a wrong n
 Dialogue: 0,0:09:04.02,0:09:05.82,Dialogue,,0,0,0,,Some people do, you know.
 Dialogue: 0,0:09:05.82,0:09:11.32,Dialogue,,0,0,0,,They don't want their families to find out they've been to a etective agency, so they leave false information.
 Dialogue: 0,0:09:11.75,0:09:16.38,Dialogue,,0,0,0,,But Kaori{\rHonorifics - Dialogue}-san{\r} just wanted to find out where her party was, right?
-Dialogue: 0,0:09:16.38,0:09:18.83,Dialogue,,0,0,0,,It's not something that she'd have to hide...\N
+Dialogue: 0,0:09:16.38,0:09:18.83,Dialogue,,0,0,0,,It's not something that she'd have to hide...
 Dialogue: 0,0:09:18.83,0:09:21.21,Dialogue,,0,0,0,,Then I don't know! Geez!
 Dialogue: 0,0:09:21.21,0:09:22.56,Dialogue,,0,0,0,,Just stop complaining for once!
-Dialogue: 0,0:09:24.08,0:09:25.13,Dialogue,,0,0,0,,Yes?\N
+Dialogue: 0,0:09:24.08,0:09:25.13,Dialogue,,0,0,0,,Yes?
 Dialogue: 0,0:09:25.13,0:09:28.07,Dialogue,,0,0,0,,Oh, hello, is that Kaori{\rHonorifics - Dialogue}-san{\r}?
 Dialogue: 0,0:09:28.07,0:09:30.26,Dialogue,,0,0,0,,It's Mouri. The truth is...
 Dialogue: 0,0:09:31.04,0:09:32.45,Dialogue,,0,0,0,,Is that so.
@@ -196,24 +193,24 @@ Dialogue: 0,0:10:30.70,0:10:34.70,Flashback,,0,0,0,,{\be10}Should I fill in my h
 Dialogue: 0,0:10:34.70,0:10:36.93,Flashback,,0,0,0,,{\be10}If you don't mind...
 Dialogue: 0,0:10:45.93,0:10:49.65,Thoughts,,0,0,0,,{\be10}Then maybe she only wrote the last digit down wrong...
 Dialogue: 0,0:10:57.64,0:10:59.10,Radio,,0,0,0,,{\be10}Hello, this is Kitasaka.
-Dialogue: 0,0:10:59.90,0:11:05.32,Thoughts,,0,0,0,,{\be10}Oh no! I was so focused on checking the phone number that I didn't think of anything to say!\N
+Dialogue: 0,0:10:59.90,0:11:05.32,Thoughts,,0,0,0,,{\be10}Oh no! I was so focused on checking the phone number that I didn't think of anything to say!
 Dialogue: 0,0:11:05.32,0:11:06.38,Dialogue,,0,0,0,,Hello?
 Dialogue: 0,0:11:06.38,0:11:09.76,Dialogue,,0,0,0,,U-Uh, my name's Conan Edogawa.
-Dialogue: 0,0:11:09.76,0:11:11.64,Radio,,0,0,0,,{\be10}Conan Edogawa{\rHonorifics - Radio\be10}-kun{\r\be10}?\N
+Dialogue: 0,0:11:09.76,0:11:11.64,Radio,,0,0,0,,{\be10}Conan Edogawa{\rHonorifics - Radio\be10}-kun{\r\be10}?
 Dialogue: 0,0:11:11.64,0:11:13.40,Radio,,0,0,0,,{\be10}Huh?! Conan{\rHonorifics - Radio\be10}-kun{\r\be10}?!
 Dialogue: 0,0:11:13.40,0:11:14.48,Radio,,0,0,0,,{\be10}Excuse me, may I...\N
 Dialogue: 0,0:11:14.48,0:11:15.50,Radio,,0,0,0,,{\be10}Oh, sure.
 Dialogue: 0,0:11:15.50,0:11:18.24,Radio,,0,0,0,,{\be10}Hello, Conan{\rHonorifics - Radio\be10}-kun{\r\be10}? This is Satō, from the Police HQ...
-Dialogue: 0,0:11:18.24,0:11:19.32,Dialogue,,0,0,0,,Detective Satō?!\N
+Dialogue: 0,0:11:18.24,0:11:19.32,Dialogue,,0,0,0,,Detective Satō?!
 Dialogue: 0,0:11:19.32,0:11:20.48,Dialogue,,0,0,0,,What?!
 Dialogue: 0,0:11:26.13,0:11:29.89,Dialogue,,0,0,0,,I'm at Kitasaka{\rHonorifics - Dialogue}-san{\r}'s house along with Takagi{\rHonorifics - Dialogue}-kun{\r}.
 Dialogue: 0,0:11:30.48,0:11:33.22,Dialogue,,0,0,0,,But Conan{\rHonorifics - Dialogue}-kun{\r}, why are you phoning this house?
 Dialogue: 0,0:11:33.22,0:11:34.27,Radio,,0,0,0,,{\be10}Why are you at that house, Detective Satō?
 Dialogue: 0,0:11:34.27,0:11:36.19,Dialogue,,0,0,0,,Why are you at that house, Detective Satō?
-Dialogue: 0,0:11:36.19,0:11:37.90,Dialogue,,0,0,0,,Has there been some sort of incident?\N
+Dialogue: 0,0:11:36.19,0:11:37.90,Dialogue,,0,0,0,,Has there been some sort of incident?
 Dialogue: 0,0:11:37.90,0:11:40.18,Dialogue,,0,0,0,,Er, well...
 Dialogue: 0,0:11:40.18,0:11:43.15,Dialogue,,0,0,0,,I'll pass you over to Uncle Kogorō.
-Dialogue: 0,0:11:43.91,0:11:46.53,Dialogue,,0,0,0,,Mouri here. Did something happen at the Kitasaka house?\N
+Dialogue: 0,0:11:43.91,0:11:46.53,Dialogue,,0,0,0,,Mouri here. Did something happen at the Kitasaka house?
 Dialogue: 0,0:11:46.95,0:11:48.23,Dialogue,,0,0,0,,Mouri{\rHonorifics - Dialogue}-san{\r}?
 Dialogue: 0,0:11:48.23,0:11:50.80,Radio,,0,0,0,,{\be10}What happened? If you tell me, maybe I can help.
 Dialogue: 0,0:11:52.78,0:11:55.37,Dialogue,,0,0,0,,Actually, a gun's gone missing.
@@ -244,12 +241,12 @@ Dialogue: 0,0:13:25.85,0:13:28.01,Dialogue,,0,0,0,,I know where the party is.
 Dialogue: 0,0:13:28.01,0:13:29.50,Dialogue,,0,0,0,,The Bell Tree Tower!
 Dialogue: 0,0:13:32.61,0:13:37.18,Dialogue,,0,0,0,,But did Kaori{\rHonorifics - Dialogue}-san{\r} really take that gun?
 Dialogue: 0,0:13:37.18,0:13:41.75,Dialogue,,0,0,0,,When she came to the agency, Kaori{\rHonorifics - Dialogue}-san{\r} had a large clutch bag, right?
-Dialogue: 0,0:13:41.75,0:13:43.25,Dialogue,,0,0,0,,Huh? Yeah...\N
+Dialogue: 0,0:13:41.75,0:13:43.25,Dialogue,,0,0,0,,Huh? Yeah...
 Dialogue: 0,0:13:43.25,0:13:45.83,Dialogue,,0,0,0,,And as she was leaving...
 Dialogue: 0,0:13:47.95,0:13:51.66,Dialogue,,0,0,0,,She probably has the gun in that bag.
 Dialogue: 0,0:13:52.59,0:13:57.26,Dialogue,,0,0,0,,Also, did you notice that Kaori{\rHonorifics - Dialogue}-san{\r}\Nwas wearing low-heeled shoes?
 Dialogue: 0,0:13:59.78,0:14:01.57,Dialogue,,0,0,0,,Y-Yeah...
-Dialogue: 0,0:14:01.57,0:14:06.44,Dialogue,,0,0,0,,I figured she should wear higher\Nheels if she was going to a party.\N
+Dialogue: 0,0:14:01.57,0:14:06.44,Dialogue,,0,0,0,,I figured she should wear higher\Nheels if she was going to a party.
 Dialogue: 0,0:14:06.44,0:14:08.88,Dialogue,,0,0,0,,The reason she was wearing those shoes...
 Dialogue: 0,0:14:09.33,0:14:11.58,Dialogue,,0,0,0,,Would be to stabilise herself...
 Dialogue: 0,0:14:12.49,0:14:15.59,Dialogue,,0,0,0,,So she wouldn't miss her target when she fires the gun.
@@ -257,7 +254,7 @@ Dialogue: 0,0:14:16.97,0:14:18.97,Dialogue,,0,0,0,,Then she really did...?
 Dialogue: 0,0:14:19.60,0:14:25.10,Thoughts,,0,0,0,,{\be10}Kaori{\rHonorifics - Thoughts\be10}-san{\r\be10} was bad at deductions and codes,\Nso the reason she joined the Deduction Society
 Dialogue: 0,0:14:25.10,0:14:28.52,Thoughts,,0,0,0,,{\be10}might be because of she was in love with that colleague...
 Dialogue: 0,0:14:28.52,0:14:31.69,Thoughts,,0,0,0,,{\be10}Damn! I won't make it in time!
-Dialogue: 0,0:14:32.54,0:14:33.70,Thoughts,,0,0,0,,{\be10}What can I do?\N
+Dialogue: 0,0:14:32.54,0:14:33.70,Thoughts,,0,0,0,,{\be10}What can I do?
 Dialogue: 0,0:14:34.50,0:14:35.65,Thoughts,,0,0,0,,{\be10}What can I do?
 Dialogue: 0,0:14:42.12,0:14:43.12,Dialogue,,0,0,0,,Conan{\rHonorifics - Dialogue}-kun{\r}?
 Dialogue: 0,0:14:44.50,0:14:48.88,Thoughts,,0,0,0,,{\be10}I hope this can get her to give up on her plan!
@@ -275,7 +272,7 @@ Dialogue: 0,0:17:03.80,0:17:04.81,Dialogue,,0,0,0,,Dad!
 Dialogue: 0,0:17:17.42,0:17:18.11,Dialogue,,0,0,0,,Kaori{\rHonorifics - Dialogue}-san{\r}!
 Dialogue: 0,0:17:32.90,0:17:33.99,Thoughts,,0,0,0,,{\be10}Don't do it!
 Dialogue: 0,0:17:36.80,0:17:38.80,Thoughts,,0,0,0,,{\be10}Don't do it, Kaori{\rHonorifics - Thoughts\be10}-san{\r\be10}!
-Dialogue: 0,0:17:46.18,0:17:48.02,Dialogue,,0,0,0,,How did you propose to her?\N
+Dialogue: 0,0:17:46.18,0:17:48.02,Dialogue,,0,0,0,,How did you propose to her?
 Dialogue: 0,0:17:48.02,0:17:49.10,Dialogue,,0,0,0,,Oh dear...
 Dialogue: 0,0:17:49.60,0:17:51.49,Dialogue,,0,0,0,,You really want me to say that?
 Dialogue: 0,0:17:59.38,0:18:01.15,Dialogue,,0,0,0,,K-Kaori?!
@@ -289,14 +286,14 @@ Dialogue: 0,0:18:47.40,0:18:51.87,Dialogue,,0,0,0,,Uncle Kogorō and the detecti
 Dialogue: 0,0:18:51.87,0:18:54.46,Dialogue,,0,0,0,,I think they mistook someone else for you.
 Dialogue: 0,0:19:02.34,0:19:06.35,Dialogue,,0,0,0,,It was just when I was about to head into the party...
 Dialogue: 0,0:19:26.50,0:19:29.34,Dialogue,,0,0,0,,At first, I didn't know what it meant.
-Dialogue: 0,0:19:30.30,0:19:35.18,Dialogue,,0,0,0,,But if I ignore the character け (ke){ke o mushi} and also the character い (i){i mo mushi}...\N
+Dialogue: 0,0:19:30.30,0:19:35.18,Dialogue,,0,0,0,,But if I ignore the character け (ke){ke o mushi} and also the character い (i){i mo mushi}...
 Dialogue: 0,0:19:30.30,0:19:35.18,Thoughts,,0,0,0,,{\be10}i mo mushi
 Dialogue: 0,0:19:30.30,0:19:35.18,Thoughts,,0,0,0,,{\be10}ke o mushi
 Dialogue: 0,0:19:35.18,0:19:38.45,Dialogue,,0,0,0,,'It's good that you parted ways with him.'
 Dialogue: 0,0:19:43.20,0:19:48.39,Dialogue,,0,0,0,,All my wrought-up emotions vanished\Nas quickly as the receding tide...
 Dialogue: 0,0:19:50.28,0:19:56.10,Dialogue,,0,0,0,,I thought that you'd know what it meant since you could solve the Tanuki Code, Kaori{\rHonorifics - Dialogue}-san{\r}.
 Dialogue: 0,0:19:57.10,0:20:00.69,Dialogue,,0,0,0,,Huh?! Then this didn't come from Mouri{\rHonorifics - Dialogue}-san{\r}, but from...
-Dialogue: 0,0:20:02.79,0:20:03.98,Dialogue,,0,0,0,,Conan{\rHonorifics - Dialogue}-kun{\r}!\N
+Dialogue: 0,0:20:02.79,0:20:03.98,Dialogue,,0,0,0,,Conan{\rHonorifics - Dialogue}-kun{\r}!
 Dialogue: 0,0:20:03.98,0:20:05.45,Dialogue,,0,0,0,,Kaori{\rHonorifics - Dialogue}-san{\r}!
 Dialogue: 0,0:20:07.23,0:20:08.93,Dialogue,,0,0,0,,Say, Kaori{\rHonorifics - Dialogue}-san{\r}...
 Dialogue: 0,0:20:08.93,0:20:12.73,Dialogue,,0,0,0,,You said that you happened to pass by the agency,
@@ -304,7 +301,7 @@ Dialogue: 0,0:20:12.73,0:20:20.28,Dialogue,,0,0,0,,but you really came to the ag
 Dialogue: 0,0:20:21.51,0:20:25.55,Dialogue,,0,0,0,,Yes. I used the Great Detective Mouri{\rHonorifics - Dialogue}-san{\r}...
 Dialogue: 0,0:20:27.96,0:20:29.43,Dialogue,,0,0,0,,I apologise.
 Dialogue: 0,0:20:29.43,0:20:32.30,Dialogue,,0,0,0,,Oh no, don't worry.
-Dialogue: 0,0:20:33.88,0:20:35.55,Dialogue,,0,0,0,,Kaori Kitasaka{\rHonorifics - Dialogue}-san{\r}.\N
+Dialogue: 0,0:20:33.88,0:20:35.55,Dialogue,,0,0,0,,Kaori Kitasaka{\rHonorifics - Dialogue}-san{\r}.
 Dialogue: 0,0:20:35.55,0:20:36.48,Dialogue,,0,0,0,,Yes.
 Dialogue: 0,0:20:37.24,0:20:40.00,Dialogue,,0,0,0,,I'm Satō, from {MPDCID division 1}Division 1 of the Police HQ Criminal Investigation Department.\N
 Dialogue: 0,0:20:40.00,0:20:41.48,Dialogue,,0,0,0,,I'm Takagi, from the same division.
@@ -318,47 +315,13 @@ Dialogue: 0,0:22:51.71,0:22:54.43,Dialogue,,0,0,0,,had their case sent to the pr
 Dialogue: 0,0:22:54.43,0:23:00.41,Dialogue,,0,0,0,,but they decided not to prosecute, and so the case of the shooting that never happened was put to rest.
 Dialogue: 0,0:23:00.87,0:23:05.55,Dialogue,,0,0,0,,Oh yeah, Sonoko{\rHonorifics - Dialogue}-san{\r} invited us to visit the Tohto Bell Tree Tower tomorrow.
 Dialogue: 0,0:23:05.55,0:23:06.79,Dialogue,,0,0,0,,Are you looking forward to it?
-Dialogue: 0,0:23:07.13,0:23:08.59,Dialogue,,0,0,0,,I can't wait!\N
+Dialogue: 0,0:23:07.13,0:23:08.59,Dialogue,,0,0,0,,I can't wait!
 Dialogue: 0,0:23:08.59,0:23:10.14,Dialogue,,0,0,0,,I hope the weather's good.
 Dialogue: 0,0:23:10.14,0:23:12.29,Dialogue,,0,0,0,,I should make a {\i1}teru-teru bōzu{\i0}.
 Dialogue: 0,0:23:12.87,0:23:16.27,Thoughts,,0,0,0,,{\be10}Ugh, I'll have to spend another day with this lot.
 Dialogue: 0,0:23:19.44,0:23:23.71,Dialogue Top,,0,0,0,,There's lots of tasty restaurants near the Bell Tree Tower!
-Dialogue: 0,0:23:23.71,0:23:27.04,Dialogue Top,,0,0,0,,I'll have eel rice for lunch!\N
+Dialogue: 0,0:23:23.71,0:23:27.04,Dialogue Top,,0,0,0,,I'll have eel rice for lunch!
 Dialogue: 0,0:23:22.45,0:23:34.14,Narration Off,,0,0,0,,{\be10}Nobody could have ever suspected that another shooting was waiting for us at the Bell Tree Tower...
-Dialogue: 0,0:01:21.93,0:01:26.94,ButterflyCore,,0,0,0,,{\blur4\fad(200,0)}kage o mau chō no kodō ga seijaku no umi o saite
-Dialogue: 0,0:01:27.10,0:01:34.28,ButterflyCore,,0,0,0,,{\blur4}kasanariau koe ga ima yami o furiharatta
-Dialogue: 0,0:01:48.83,0:01:54.26,ButterflyCore,,0,0,0,,{\blur4\c&H005500}haritsuita ase o nugutte nigemawaru light o ketta
-Dialogue: 0,0:01:54.63,0:01:59.93,ButterflyCore,,0,0,0,,{\blur4\c&H005500}kanashimi ni utareta kyō no kizuato kabau yō ni
-Dialogue: 0,0:02:00.09,0:02:05.39,ButterflyCore,,0,0,0,,{\blur4\c&H005500}aseru hodo ni tōku natte wake mo naku imi o sagashite
-Dialogue: 0,0:02:05.56,0:02:11.31,ButterflyCore,,0,0,0,,{\blur4\c&H005500\t(2500,3024,\c&H000055)}osanasa no ura ni kakushita yuzuritakunai omoi ni
-Dialogue: 0,0:02:11.44,0:02:16.11,ButterflyCore,,0,0,0,,{\blur4\c&H000077}kizuita nara miushinawanai yō ni
-Dialogue: 0,0:02:16.28,0:02:22.08,ButterflyCore,,0,0,0,,{\blur4\c&H770000}dareka o mamore'ru to motto ima shinjitai
-Dialogue: 0,0:02:22.28,0:02:27.33,ButterflyCore,,0,0,0,,{\blur4\c&HAA0000}kage o mau chō no kodō ga seijaku no umi o saita
-Dialogue: 0,0:02:27.50,0:02:32.84,ButterflyCore,,0,0,0,,{\blur4\c&H000077}kimi ni miseru itsuwari no subete ga uso ja nai daro
-Dialogue: 0,0:02:33.00,0:02:38.47,ButterflyCore,,0,0,0,,{\blur4\c&HAA0000}mayo'u tabi suteta kotae mo kitto erabu hi wa mata kuru kara
-Dialogue: 0,0:02:38.63,0:02:47.56,ButterflyCore,,0,0,0,,{\blur4\c&H006600}kono kokoro wa dare yori mo atsuku moyashi tsuzukeyō kienai yō ni
-Dialogue: 0,0:02:57.49,0:03:03.03,ButterflyCore,,0,0,0,,{\blur4\c&H006600\fad(0,1000)}kienai yō ni
-Dialogue: 0,0:01:21.93,0:01:26.94,ButterflyCore2,,0,0,0,,{\fad(200,0)}kage o mau chō no kodō ga seijaku no umi o saite
-Dialogue: 0,0:01:27.10,0:01:34.28,ButterflyCore2,,0,0,0,,kasanariau koe ga ima yami o furiharatta
-Dialogue: 0,0:01:48.83,0:01:54.26,ButterflyCore2,,0,0,0,,haritsuita ase o nugutte nigemawaru light o ketta
-Dialogue: 0,0:01:54.63,0:01:59.93,ButterflyCore2,,0,0,0,,kanashimi ni utareta kyō no kizuato kabau yō ni
-Dialogue: 0,0:02:00.09,0:02:05.39,ButterflyCore2,,0,0,0,,aseru hodo ni tōku natte wake mo naku imi o sagashite
-Dialogue: 0,0:02:05.56,0:02:11.31,ButterflyCore2,,0,0,0,,osanasa no ura ni kakushita yuzuritakunai omoi ni
-Dialogue: 0,0:02:11.44,0:02:16.11,ButterflyCore2,,0,0,0,,kizuita nara miushinawanai yō ni
-Dialogue: 0,0:02:16.28,0:02:22.08,ButterflyCore2,,0,0,0,,dareka o mamore'ru to motto ima shinjitai
-Dialogue: 0,0:02:22.28,0:02:27.33,ButterflyCore2,,0,0,0,,kage o mau chō no kodō ga seijaku no umi o saita
-Dialogue: 0,0:02:27.50,0:02:32.84,ButterflyCore2,,0,0,0,,kimi ni miseru itsuwari no subete ga uso ja nai daro
-Dialogue: 0,0:02:33.00,0:02:38.47,ButterflyCore2,,0,0,0,,mayo'u tabi suteta kotae mo kitto erabu hi wa mata kuru kara
-Dialogue: 0,0:02:38.63,0:02:47.56,ButterflyCore2,,0,0,0,,{\3c&H006600}kono kokoro wa dare yori mo atsuku moyashi tsuzukeyō kienai yō ni
-Dialogue: 0,0:02:57.49,0:03:03.03,ButterflyCore2,,0,0,0,,{\fad(0,1000)\3c&H006600}kienai yō ni
-Dialogue: 0,0:21:35.45,0:21:42.79,AitakuteRomaji,,0,0,0,,{\blur3}denwa ga naru tabi kono mune ga zawameku
-Dialogue: 0,0:21:43.13,0:21:50.13,AitakuteRomaji,,0,0,0,,{\blur3}demo kikoetekuru no wa kimi no koe ja nai
-Dialogue: 0,0:21:52.28,0:21:59.06,AitakuteRomaji,,0,0,0,,{\blur3}ima kimi wa doko ni iru no nani shite'ru no
-Dialogue: 0,0:21:59.77,0:22:08.94,AitakuteRomaji,,0,0,0,,{\blur3}kami{\fsp-2\fs40}- {\fsp\fs}sama ni negai todoku nara mō ichido dake
-Dialogue: 0,0:22:09.34,0:22:16.16,AitakuteRomaji,,0,0,0,,{\blur3}aitakute kimi ni aitakute
-Dialogue: 0,0:22:16.66,0:22:25.13,AitakuteRomaji,,0,0,0,,{\blur3}ima mo kono mune wa kimi{\fsp-2\fs40}- {\fsp\fs}iro ni somaru (dakishimetakute)
-Dialogue: 0,0:22:25.29,0:22:32.30,AitakuteRomaji,,0,0,0,,{\blur3}setsunakute nido to aenai nara
-Dialogue: 0,0:22:32.63,0:22:40.60,AitakuteRomaji,,0,0,0,,{\fad(0,1000)\blur3}maichiru yuki shiroku kono kokoro somete
 Dialogue: 0,0:23:35.82,0:23:37.75,Dialogue,,0,0,0,,A challenge from the mysterious Phantom Thief K!
 Dialogue: 0,0:23:37.75,0:23:40.09,Dialogue,,0,0,0,,Lots of tricks set up over a wide area!
 Dialogue: 0,0:23:40.09,0:23:42.30,Dialogue,,0,0,0,,What's behind the shocking calculated trap?!

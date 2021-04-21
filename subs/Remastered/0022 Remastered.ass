@@ -33,16 +33,17 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
+
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:01.05,0:00:03.15,Dialogue,,0000,0000,0100,,{\c&HFFFF&}"Closed Circle."
-Dialogue: 0,0:00:04.04,0:00:07.17,Dialogue,,0000,0000,0100,,{\c&HFFFF&}In the language of mysteries,
-Dialogue: 0,0:00:07.17,0:00:09.25,Dialogue,,0000,0000,0100,,{\c&HFFFF&}the words "closed circle" refer
-Dialogue: 0,0:00:09.25,0:00:14.45,Dialogue,,0000,0000,0100,,{\c&HFFFF&}to some sort of situation where contact with the outside world has been cut off.
-Dialogue: 0,0:00:15.19,0:00:19.33,Dialogue,,0000,0000,0100,,{\c&HFFFF&}For example, a mountain villa shut in by a blizzard,
-Dialogue: 0,0:00:19.33,0:00:21.26,Dialogue,,0000,0000,0100,,{\c&HFFFF&}or an isolated island attacked by a storm.
-Dialogue: 0,0:00:22.06,0:00:23.25,Dialogue,,0000,0000,0100,,{\c&HFFFF&}Or...
-Dialogue: 0,0:00:25.28,0:00:28.25,Dialogue,,0000,0000,0100,,{\c&HFFFF&}a luxury liner heading through the big ocean.
+Dialogue: 0,0:00:01.05,0:00:03.15,Dialogue,,0000,0000,0100,,"Closed Circle."
+Dialogue: 0,0:00:04.04,0:00:07.17,Dialogue,,0000,0000,0100,,In the language of mysteries,
+Dialogue: 0,0:00:07.17,0:00:09.25,Dialogue,,0000,0000,0100,,the words "closed circle" refer
+Dialogue: 0,0:00:09.25,0:00:14.45,Dialogue,,0000,0000,0100,,to some sort of situation where contact with the outside world has been cut off.
+Dialogue: 0,0:00:15.19,0:00:19.33,Dialogue,,0000,0000,0100,,For example, a mountain villa shut in by a blizzard,
+Dialogue: 0,0:00:19.33,0:00:21.26,Dialogue,,0000,0000,0100,,or an isolated island attacked by a storm.
+Dialogue: 0,0:00:22.06,0:00:23.25,Dialogue,,0000,0000,0100,,Or...
+Dialogue: 0,0:00:25.28,0:00:28.25,Dialogue,,0000,0000,0100,,a luxury liner heading through the big ocean.
 Dialogue: 0,0:00:29.89,0:00:31.63,Thoughts,,0000,0000,0100,,{\be10}It doesn't matter how many times you try,
 Dialogue: 0,0:00:31.63,0:00:33.45,Thoughts,,0000,0000,0100,,{\be10}whether it's in love, deductions, today, or tomorrow!
 Dialogue: 0,0:00:33.79,0:00:35.29,Thoughts,,0000,0000,0100,,{\be10}A chartered luxury liner...
@@ -50,7 +51,7 @@ Dialogue: 0,0:00:35.29,0:00:37.05,Thoughts,,0000,0000,0100,,{\be10}A serial case
 Dialogue: 0,0:00:37.36,0:00:39.04,Thoughts,,0000,0000,0100,,{\be10}He sees the single truth for what it is,
 Dialogue: 0,0:00:39.04,0:00:40.94,Thoughts,,0000,0000,0100,,{\be10}and looks like a kid but has the mind of an adult.
 Dialogue: 0,0:00:40.94,0:00:43.31,Thoughts,,0000,0000,0100,,{\be10}His name? Detective Conan!
-Dialogue: 0,0:02:10.90,0:02:19.11,Dialogue,,0000,0000,0100,,{\fad(400,400)\c&HCFCFCF}"Detective Conan" is brought to you by these sponsors.
+Dialogue: 0,0:02:10.90,0:02:19.11,Dialogue,,0000,0000,0100,,"Detective Conan" is brought to you by these sponsors.
 Dialogue: 0,0:02:38.66,0:02:40.28,Dialogue,Comment,0000,0000,0000,,What a beautiful view!
 Dialogue: 0,0:02:40.84,0:02:44.34,Dialogue,Comment,0000,0000,0000,,We sure were lucky! I was worried for a while there!
 Dialogue: 0,0:02:44.34,0:02:45.42,Dialogue,Comment,0000,0000,0000,,Yeah!
@@ -68,8 +69,8 @@ Dialogue: 0,0:03:28.90,0:03:30.28,Dialogue,Comment,0000,0000,0000,,Is something 
 Dialogue: 0,0:03:30.88,0:03:31.80,Dialogue,Comment,0000,0000,0000,,Takeshi{\rHonorifics - Dialogue}-san{\r}!
 Dialogue: 0,0:03:32.65,0:03:35.21,Dialogue,Comment,0000,0000,0000,,The two of us were married today!
 Dialogue: 0,0:03:35.90,0:03:37.29,Dialogue,Comment,0000,0000,0000,,Married?!
-Dialogue: 0,0:03:37.21,0:03:42.97,Signs,Comment,0000,0000,0000,,Shoichi's 2nd daughter\NNatsue Hatamoto (22)
-Dialogue: 0,0:03:37.21,0:03:42.97,Signs,Comment,0000,0000,0000,,Natsue's Husband\NTakeshi Hatamoto (24)
+Dialogue: 0,0:03:37.21,0:03:42.97,Character Card,Comment,0000,0000,0000,,Shoichi's 2nd daughter\NNatsue Hatamoto (22)
+Dialogue: 0,0:03:37.21,0:03:42.97,Character Card,Comment,0000,0000,0000,,Natsue's Husband\NTakeshi Hatamoto (24)
 Dialogue: 0,0:03:37.29,0:03:40.43,Dialogue,Comment,0000,0000,0000,,We had our ceremony this morning on Hatamoto Island,
 Dialogue: 0,0:03:40.43,0:03:42.97,Dialogue,Comment,0000,0000,0000,,the same island you were on!
 Dialogue: 0,0:03:44.24,0:03:45.53,Dialogue,Comment,0000,0000,0000,,Congratulations!
@@ -83,16 +84,16 @@ Dialogue: 0,0:04:09.92,0:04:11.88,Dialogue,Comment,0000,0000,0000,,I'm sorry, Fa
 Dialogue: 0,0:04:11.88,0:04:14.73,Dialogue,Comment,0000,0000,0000,,They appeared to be stranded, so...
 Dialogue: 0,0:04:15.90,0:04:17.68,Dialogue,Comment,0000,0000,0000,,How dare you go over my head!
 Dialogue: 0,0:04:18.92,0:04:23.81,Dialogue,Comment,0000,0000,0000,,You must think pretty highly of yourself if you're making decisions without approval.
-Dialogue: 0,0:04:18.84,0:04:25.18,Signs,Comment,0000,0000,0000,,Mariko's husband\NKitaro Hatamoto (47)
-Dialogue: 0,0:04:18.84,0:04:25.18,Signs,Comment,0000,0000,0000,,Head of the Hatamoto family\NGo Hatamoto (72)
+Dialogue: 0,0:04:18.84,0:04:25.18,Character Card,Comment,0000,0000,0000,,Mariko's husband\NKitaro Hatamoto (47)
+Dialogue: 0,0:04:18.84,0:04:25.18,Character Card,Comment,0000,0000,0000,,Head of the Hatamoto family\NGo Hatamoto (72)
 Dialogue: 0,0:04:23.81,0:04:25.60,Dialogue,Comment,0000,0000,0000,,No, of course I don't!
 Dialogue: 0,0:04:26.11,0:04:27.60,Dialogue,Comment,0000,0000,0000,,Don't worry about it.
 Dialogue: 0,0:04:27.60,0:04:31.45,Dialogue,Comment,0000,0000,0000,,He's been in a bad mood since the ceremony today.
 Dialogue: 0,0:04:31.45,0:04:34.45,Dialogue,Comment,0000,0000,0000,,Yes, after he ate my food...
 Dialogue: 0,0:04:34.45,0:04:35.65,Dialogue,Comment,0000,0000,0000,,Uncle Joji{\rHonorifics - Dialogue}-sama{\r}!
 Dialogue: 0,0:04:35.65,0:04:40.45,Dialogue,Comment,0000,0000,0000,,I knew he hated Western-style food,\Nbut I had no idea he'd get that angry.
-Dialogue: 0,0:04:40.45,0:04:42.75,Dialogue,Comment,0000,0000,0000,,{\c&H000000&\3c&HFFFFFF&}You call this food?!
-Dialogue: 0,0:04:43.24,0:04:49.24,Signs,Comment,0000,0000,0000,,Second son of the\NHatamoto family\NJoji Hatamoto (41)
+Dialogue: 0,0:04:40.45,0:04:42.75,Dialogue,Comment,0000,0000,0000,,You call this food?!
+Dialogue: 0,0:04:43.24,0:04:49.24,Character Card,Comment,0000,0000,0000,,Second son of the\NHatamoto family\NJoji Hatamoto (41)
 Dialogue: 0,0:04:43.39,0:04:46.45,Dialogue,Comment,0000,0000,0000,,It seems my skills still aren't up to par.
 Dialogue: 0,0:04:46.45,0:04:48.12,Dialogue,Comment,0000,0000,0000,,Don't say that!
 Dialogue: 0,0:04:48.12,0:04:49.87,Dialogue,Comment,0000,0000,0000,,It was really delicious!
@@ -100,7 +101,7 @@ Dialogue: 0,0:04:49.87,0:04:53.67,Dialogue,Comment,0000,0000,0000,,Say, lady-kil
 Dialogue: 0,0:04:53.67,0:04:58.02,Dialogue,Comment,0000,0000,0000,,Oh, Natsue put it there on the way back from the ceremony.
 Dialogue: 0,0:04:58.02,0:05:01.33,Dialogue,Comment,0000,0000,0000,,It's always been my dream since I was a little girl
 Dialogue: 0,0:05:01.33,0:05:05.75,Dialogue,Comment,0000,0000,0000,,to give my beloved this flower that only grows on that island.
-Dialogue: 0,0:05:05.84,0:05:10.26,Signs,Comment,0000,0000,0000,,Kitaro's only son\NIchiro Hatamoto (21)
+Dialogue: 0,0:05:05.84,0:05:10.26,Character Card,Comment,0000,0000,0000,,Kitaro's only son\NIchiro Hatamoto (21)
 Dialogue: 0,0:05:06.10,0:05:07.75,Dialogue,Comment,0000,0000,0000,,Too bad it wasn't me...
 Dialogue: 0,0:05:11.12,0:05:13.70,Dialogue,Comment,0000,0000,0000,,Like father, like son!
 Dialogue: 0,0:05:13.70,0:05:16.96,Dialogue,Comment,0000,0000,0000,,How long are you going to let him to pretend to be an artist?!
@@ -113,18 +114,18 @@ Dialogue: 0,0:05:26.56,0:05:29.99,Dialogue,Comment,0000,0000,0000,,I need a word
 Dialogue: 0,0:05:29.99,0:05:31.18,Dialogue,Comment,0000,0000,0000,,Yes, sir...
 Dialogue: 0,0:05:34.02,0:05:36.26,Dialogue,Comment,0000,0000,0000,,Just have patience, dear.
 Dialogue: 0,0:05:36.93,0:05:41.16,Dialogue,Comment,0020,0020,0000,,He isn't long for this world—he'll be gone soon enough.
-Dialogue: 0,0:05:41.59,0:05:48.34,Signs,Comment,0000,0000,0000,,Eldest Hatamoto daughter, Kitaro's wife\NMariko Hatamoto (43)
+Dialogue: 0,0:05:41.59,0:05:48.34,Character Card,Comment,0000,0000,0000,,Eldest Hatamoto daughter, Kitaro's wife\NMariko Hatamoto (43)
 Dialogue: 0,0:05:42.09,0:05:48.50,Dialogue,Comment,0000,0000,0000,,And when he is, nearly all of the Hatamoto fortune will be yours!
 Dialogue: 0,0:05:48.50,0:05:52.21,Dialogue,Comment,0000,0000,0000,,I wouldn't be so sure about that, Aunt.
 Dialogue: 0,0:05:53.08,0:05:54.30,Dialogue,Comment,0000,0000,0000,,What's that supposed to mean?!
 Dialogue: 0,0:05:54.79,0:05:57.46,Dialogue,Comment,0000,0000,0000,,Akie{\rHonorifics - Dialogue}-san{\r}! Do you know something I don't?!
-Dialogue: 0,0:05:56.98,0:06:00.36,Signs,Comment,0000,0000,0000,,Shoichi's daughter &\NNatsue's sister\NAkie Hatamoto (26)
+Dialogue: 0,0:05:56.98,0:06:00.36,Character Card,Comment,0000,0000,0000,,Shoichi's daughter &\NNatsue's sister\NAkie Hatamoto (26)
 Dialogue: 0,0:05:58.99,0:06:00.65,Dialogue,Comment,0000,0000,0000,,Don't be {\i1}too{\i0} shocked when you hear.
 Dialogue: 0,0:06:04.89,0:06:07.99,Dialogue,Comment,0000,0000,0000,,I-Impossible! That can't be true!
 Dialogue: 0,0:06:07.99,0:06:10.77,Dialogue,Comment,0000,0000,0000,,It sounds like Grandfather's going to make the announcement
 Dialogue: 0,0:06:10.77,0:06:12.21,Dialogue,Comment,0000,0000,0000,,when we get back to Tokyo.
 Dialogue: 0,0:06:13.19,0:06:15.30,Dialogue,Comment,0000,0000,0000,,Gimme a break.
-Dialogue: 0,0:06:12.95,0:06:17.96,Signs,Comment,0000,0000,0000,,Akie's husband\NTatsuo Hatamoto (26)
+Dialogue: 0,0:06:12.95,0:06:17.96,Character Card,Comment,0000,0000,0000,,Akie's husband\NTatsuo Hatamoto (26)
 Dialogue: 0,0:06:15.30,0:06:18.65,Dialogue,Comment,0000,0000,0000,,Does he even know we're up to our necks in debt over here?!
 Dialogue: 0,0:06:19.94,0:06:23.35,Dialogue,Comment,0000,0000,0000,,We have 24 hours until the ship arrives in Tokyo.
 Dialogue: 0,0:06:23.35,0:06:26.90,Dialogue,Comment,0000,0000,0000,,We simply {\i1}have{\i0} to do something before then...
@@ -157,7 +158,7 @@ Dialogue: 0,0:07:53.39,0:07:54.60,Dialogue,Comment,0000,0000,0000,,Sister!
 Dialogue: 0,0:07:59.96,0:08:01.80,Dialogue,Comment,0000,0000,0000,,You're late.
 Dialogue: 0,0:08:01.80,0:08:03.06,Dialogue,Comment,0000,0000,0000,,Sorry.
 Dialogue: 0,0:08:04.66,0:08:06.14,Dialogue,Comment,0000,0000,0000,,Dad not here yet?
-Dialogue: 0,0:08:06.44,0:08:09.94,Signs,Comment,0000,0000,0000,,Hatamoto family butler\NKenji Suzuki (64)
+Dialogue: 0,0:08:06.44,0:08:09.94,Character Card,Comment,0000,0000,0000,,Hatamoto family butler\NKenji Suzuki (64)
 Dialogue: 0,0:08:06.77,0:08:10.02,Dialogue,Comment,0000,0000,0000,,No, though I am certain he will be here shortly.
 Dialogue: 0,0:08:10.50,0:08:12.41,Dialogue,Comment,0000,0000,0000,,You're late, Ichiro{\rHonorifics - Dialogue}-san{\r}!
 Dialogue: 0,0:08:12.41,0:08:13.83,Dialogue,Comment,0000,0000,0000,,Did you make sure to wash your hands?!

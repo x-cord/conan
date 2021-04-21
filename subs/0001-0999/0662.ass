@@ -34,8 +34,6 @@ Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
 Style: Otanoshimi,Calibri,45,&H18FFFFFF,&H000000FF,&H003F3F3F,&HC04B0008,-1,0,0,0,100,100,0,0,1,3,0,2,70,0,5,1
-Style: NamaeBG,Calibri,40,&HFFA9000E,&H000000FF,&H00000000,&H80A9000E,-1,0,0,0,100,100,0,0,3,1,0,7,40,40,110,1Style: NCHNamae,Segoe Print,100,&H000000B6,&H000000FF,&H00370001,&H60000000,-1,0,0,0,100,100,0,0,1,0,2,5,40,40,30,1Style: SMSBG,Calibri,40,&HFFA9000E,&H000000FF,&H00F7F9FB,&H80A9000E,-1,0,0,0,100,100,0,-12,3,1,0,2,40,40,110,1
-Style: SMS,Calibri,40,&H00000000,&H000000FF,&H00F7F9FB,&H80A9000E,-1,0,0,0,100,100,0,-12,3,0,0,7,40,40,110,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -113,7 +111,6 @@ Dialogue: 0,0:05:19.69,0:05:22.14,Dialogue,,0000,0000,0000,,but can't remember w
 Dialogue: 0,0:05:23.12,0:05:25.05,Dialogue,,0000,0000,0000,,If you were younger,
 Dialogue: 0,0:05:25.05,0:05:27.77,Dialogue,,0000,0000,0000,,you could've learnt to use it like you did a piano keyboard.
 Dialogue: 0,0:05:28.32,0:05:29.61,Dialogue,,0000,0000,0000,,I guess...
-Dialogue: 0,0:05:37.24,0:05:45.50,SMS,,0000,0000,0000,,{\move(484,182,484,-180)}It's been a while, grandma!\NIt's been 3 months since we last met\Nwhen I went to Tōkyō for\Nmy high school reunion. But thanks\Nto my husband's schedule,\Nwe'll be back in Tōkyō next month.\NWe'll bring our son\Nand look forward to seeing you {\c&HFF64F7&}♥{\c&H000000&}\N\NYour granddaughter in Kyūshū {\c&H00AEFF&}(^^)/
 Dialogue: 0,0:05:30.22,0:05:31.24,Thoughts,,0000,0000,0000,,{\be10}Piano?
 Dialogue: 0,0:05:32.20,0:05:34.29,Thoughts,,0000,0000,0000,,{\be10}An e-mail from her granddaughter, huh?
 Dialogue: 0,0:05:36.32,0:05:37.24,Thoughts,,0000,0000,0000,,{\be10}No way! {"uso!" -uso.}

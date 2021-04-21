@@ -34,6 +34,7 @@ Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
 Style: title001,Alegreya,19,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,120,0,0,1,0.6,0.8,2,0,0,6,1
+
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 Dialogue: 0,0:00:02.43,0:00:05.48,Dialogue,,0,0,0,,Now, on top of me is a flood,\Nand below me is a big fire.
@@ -61,9 +62,9 @@ Dialogue: 0,0:01:26.90,0:01:28.67,Dialogue,,0,0,0,,If we continue lamenting the 
 Dialogue: 0,0:01:28.69,0:01:30.36,Dialogue,,0,0,0,,We'll be unable to confront the mysteries of cases!
 Dialogue: 0,0:01:30.84,0:01:32.48,Dialogue,,0,0,5,,An open-air bath atop a lake...
 Dialogue: 0,0:01:32.49,0:01:34.39,Dialogue,,0,0,5,,And a sealed-room mystery before dawn.
-Dialogue: 0,0:01:34.52,0:01:36.19,Dialogue,,0,0,5,,{\fad(0,0)\xshad1.3\1c&H6AE8FA&\4c&H294A50&\}Perceiving the one and only truth...
-Dialogue: 0,0:01:36.19,0:01:37.98,Dialogue,,0,0,5,,{\fad(0,0)\xshad1.3\1c&H6AE8FA&\4c&H294A50&\}The appearance of a child and the intellect of an adult...
-Dialogue: 0,0:01:37.99,0:01:40.30,Dialogue,,0,0,5,,{\fad(0,50)\xshad1.3\1c&H6AE8FA&\4c&H294A50&\}His name is: Detective {\t(1450,1451,\1c&H4331B1&)}Conan{\1c&H6AE8FA&}!
+Dialogue: 0,0:01:34.52,0:01:36.19,Dialogue,,0,0,5,,Perceiving the one and only truth...
+Dialogue: 0,0:01:36.19,0:01:37.98,Dialogue,,0,0,5,,The appearance of a child and the intellect of an adult...
+Dialogue: 0,0:01:37.99,0:01:40.30,Dialogue,,0,0,5,,His name is: Detective Conan!
 Dialogue: 0,0:03:12.88,0:03:16.41,title001,,0,0,0,,{\fad(460,0)}Hakone Hot Springs Kobou Inn
 Dialogue: 0,0:03:28.00,0:03:32.15,Dialogue,,0,0,0,,The current water temperature is 42.3°C.
 Dialogue: 0,0:03:32.17,0:03:38.11,Dialogue,,0,0,0,,The total sulfur content per kilogram of water is 25.7 milligrams.
@@ -101,7 +102,7 @@ Dialogue: 0,0:04:56.81,0:04:58.01,Dialogue,,0,0,0,,I knew it!
 Dialogue: 0,0:04:58.01,0:05:01.52,Dialogue,,0,0,0,,You played the role of the first generation\NKamen Yaiba's love interest, right?
 Dialogue: 0,0:05:02.10,0:05:04.27,Dialogue,,0,0,0,,You were very cute!
 Dialogue: 0,0:05:04.27,0:05:05.90,Dialogue,,0,0,0,,And so nice to everyone!
-Dialogue: 0,0:05:06.20,0:05:11.16,Signs,,0,0,0,,Natori Mishio (28)\NActress
+Dialogue: 0,0:05:06.20,0:05:11.16,Character Card,,0,0,0,,Natori Mishio (28)\NActress
 Dialogue: 0,0:05:08.31,0:05:11.16,Dialogue Top,,0,0,0,,Seems I did play such a ridiculous role once, didn't I?
 Dialogue: 0,0:05:13.36,0:05:15.78,Dialogue,,0,0,0,,But that was a long time ago.
 Dialogue: 0,0:05:15.78,0:05:17.53,Dialogue,,0,0,0,,Would you please not remind me of it?
@@ -111,7 +112,7 @@ Dialogue: 0,0:05:22.41,0:05:23.46,Dialogue,,0,0,0,,Is she tsundere?
 Dialogue: 0,0:05:24.17,0:05:26.04,Dialogue,,0,0,0,,Sorry, kids.
 Dialogue: 0,0:05:26.75,0:05:30.55,Dialogue,,0,0,0,,She's just irritated right now because she's focused on her role.
 Dialogue: 0,0:05:31.34,0:05:35.39,Dialogue Top,,0,0,0,,Even I, as a manager, find it hard to talk to her.
-Dialogue: 0,0:05:30.85,0:05:35.39,Signs,,0,0,0,,Tanzawa Junsaku (34)\NMishio's Manager
+Dialogue: 0,0:05:30.85,0:05:35.39,Character Card,,0,0,0,,Tanzawa Junsaku (34)\NMishio's Manager
 Dialogue: 0,0:05:35.68,0:05:38.76,Dialogue,,0,0,0,,By "her role", do you mean you're filming a drama or something?
 Dialogue: 0,0:05:38.76,0:05:41.64,Dialogue,,0,0,0,,She did say something about filming a while ago.
 Dialogue: 0,0:05:42.06,0:05:43.52,Dialogue,,0,0,0,,Oh, actually...
@@ -140,7 +141,7 @@ Dialogue: 0,0:06:58.51,0:07:02.51,Dialogue,,0,0,0,,They haven't been able to rem
 Dialogue: 0,0:07:03.35,0:07:09.31,Dialogue,,0,0,0,,Despite the fact that the Youth and Old-Age parts have\Nbeen remade many times using various actors and directors.
 Dialogue: 0,0:07:11.15,0:07:11.81,Dialogue,,0,0,0,,And as such...
 Dialogue: 0,0:07:13.53,0:07:18.25,Dialogue Top,,0,0,0,,Yours truly, the ideal embodiment of\Nthe middle-aged hitman, has appeared!
-Dialogue: 0,0:07:13.03,0:07:18.25,Signs,,0,0,0,,Teradou Unpei (33)\NActor
+Dialogue: 0,0:07:13.03,0:07:18.25,Character Card,,0,0,0,,Teradou Unpei (33)\NActor
 Dialogue: 0,0:07:19.66,0:07:21.66,Dialogue,,0,0,0,,Teradou{\rHonorifics - Dialogue}-kun{\r}, you've come too!
 Dialogue: 0,0:07:21.66,0:07:22.62,Dialogue,,0,0,0,,Yeah.
 Dialogue: 0,0:07:22.62,0:07:25.49,Dialogue,,0,0,0,,I'd heard the heroine hostess had already arrived...

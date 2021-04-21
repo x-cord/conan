@@ -33,6 +33,7 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
+Style: T.N,Arial,10,&H00000000,&H000000FF,&H00FFFFFF,&H00000000,-1,0,0,0,100,100,0,0,1,0.5,0,2,60,0,56,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -56,7 +57,7 @@ Dialogue: 0,0:01:06.13,0:01:11.88,Dialogue,,0,0,0,,I don't care if this town cha
 Dialogue: 0,0:01:12.10,0:01:17.83,Dialogue,,0,0,0,,The only thing I don't want to change is you.
 Dialogue: 0,0:01:18.20,0:01:23.59,Dialogue,,0,0,0,,Oh, glimmering star, shine over us forever.
 Dialogue: 0,0:01:23.90,0:01:29.47,Dialogue,,0,0,0,,This way, we won't lose the dreams we had when we were young...
-Dialogue: 0,0:01:30.00,0:01:39.19,Dialogue,,0,0,0,,{\fade(0,1350)}The only thing I don't want to change is you.
+Dialogue: 0,0:01:30.00,0:01:39.19,Dialogue,,0,0,0,,The only thing I don't want to change is you.
 Dialogue: 0,0:01:42.49,0:01:48.04,Dialogue,,0,0,0,,From the melody of "Seven Children", I figured out the\Ne-mail address belonging to the boss of the men in black.
 Dialogue: 0,0:01:48.37,0:01:52.49,Dialogue,,0,0,0,,But according to Haibara,\Nwe mustn't proceed any further with it.
 Dialogue: 0,0:01:54.19,0:01:58.95,Dialogue,,0,0,0,,Meanwhile, Genta and the others who\Ncame to camp with us discovered a strange stone.
@@ -181,7 +182,7 @@ Dialogue: 0,0:09:07.02,0:09:07.81,Dialogue,,0,0,0,,Genta!
 Dialogue: 0,0:09:15.45,0:09:16.15,Dialogue,,0,0,0,,Genta!
 Dialogue: 0,0:09:27.00,0:09:29.67,Dialogue,,0,0,0,,What are you doing here, brats?
 Dialogue: 0,0:09:31.25,0:09:33.13,Dialogue,,0,0,0,,Genta{\rHonorifics - Dialogue}-kun{\r}, are you all right?
-Dialogue: 0,0:09:33.00,0:09:36.21,CharCards02 shadow,,0,0,0,,Satou Unzou (40)\N{\fs16}\h\h\h\hTreasure Hunter\h\h\h\h
+Dialogue: 0,0:09:33.00,0:09:36.21,CharCards02 shadow,,0,0,0,,Satou Unzou (40)\N{\fs16} Treasure Hunter
 Dialogue: 0,0:09:33.55,0:09:36.34,Dialogue,,0,0,0,,Are you guys also looking for Kichiemon's treasure?
 Dialogue: 0,0:09:36.34,0:09:38.13,Dialogue,,0,0,0,,Ah, no...
 Dialogue: 0,0:09:39.18,0:09:40.47,Dialogue,,0,0,0,,Well, that's okay.
@@ -239,7 +240,7 @@ Dialogue: 0,0:12:55.25,0:12:56.92,Dialogue,,0,0,0,,Looks like we arrived.
 Dialogue: 0,0:12:58.46,0:13:00.13,Dialogue,,0,0,0,,That was so easy!
 Dialogue: 0,0:13:04.68,0:13:06.05,Dialogue,,0,0,0,,Fools...
 Dialogue: 0,0:13:06.05,0:13:09.10,Dialogue,,0,0,0,,If things were that simple, we wouldn't\Neven have to bother looking for the treasure.
-Dialogue: 0,0:13:09.00,0:13:13.51,CharCards03 shadow,,0,0,0,,Akutsu Sarina (29)\N{\fs17}\h\h\hTreasure Hunter\h\h\h
+Dialogue: 0,0:13:09.00,0:13:13.51,CharCards03 shadow,,0,0,0,,Akutsu Sarina (29)\N{\fs17} Treasure Hunter
 Dialogue: 0,0:13:09.93,0:13:13.60,Dialogue,,0,0,0,,Isn't that right, Kid-Taking-Treasure-Hunter{\rHonorifics - Dialogue}-san{\r}?
 Dialogue: 0,0:13:17.44,0:13:19.86,Dialogue,,0,0,0,,I didn't take these brats with me.
 Dialogue: 0,0:13:19.86,0:13:23.15,Dialogue,,0,0,0,,Anyway, even if they are brats...\NWhat were you thinking, throwing a knife at them?
@@ -300,7 +301,7 @@ Dialogue: 0,0:16:51.23,0:16:52.07,Dialogue,,0,0,0,,Over there, over there...
 Dialogue: 0,0:16:56.62,0:16:59.91,Dialogue,,0,0,0,,Based on how they look, I'd say they were treasure hunters.
 Dialogue: 0,0:16:59.91,0:17:00.87,Dialogue,,0,0,0,,No!
 Dialogue: 0,0:17:03.83,0:17:06.04,Dialogue,,0,0,0,,And then there's this old man...
-Dialogue: 0,0:17:09.56,0:17:12.62,CharCards04 shadow,,0,0,0,,\h\h\hSenju Eri (72)\h\h\h\N{\fs18}\h\hTreasure Hunter\h\h
+Dialogue: 0,0:17:09.56,0:17:12.62,CharCards04 shadow,,0,0,0,,Senju Eri (72)\N{\fs18} Treasure Hunter
 Dialogue: 0,0:17:09.96,0:17:11.71,Dialogue,,0,0,0,,I'm not an old man...
 Dialogue: 0,0:17:11.71,0:17:12.76,Dialogue,,0,0,0,,I'm an old woman!
 Dialogue: 0,0:17:19.89,0:17:21.06,Dialogue,,0,0,0,,I slept well.
@@ -347,11 +348,11 @@ Dialogue: 0,0:19:14.21,0:19:15.75,Dialogue,,0,0,0,,That's right.
 Dialogue: 0,0:19:15.75,0:19:20.42,Dialogue,,0,0,0,,If you don't want to be excluded from our\Ngroup, hurry and show us what you found.
 Dialogue: 0,0:19:21.89,0:19:23.39,Dialogue,,0,0,0,,Understood.
 Dialogue: 0,0:19:29.98,0:19:34.23,Dialogue,,0,0,0,,I found this stone that looks like a mirror.
-Dialogue: 0,0:19:34.56,0:19:38.15,Dialogue,,0,0,0,,\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\hEternity\NIt's engraved with the character "ei" from "eien", isn't it?
+Dialogue: 0,0:19:34.56,0:19:38.15,Dialogue,,0,0,0,,Eternity\NIt's engraved with the character "ei" from "eien", isn't it?
 Dialogue: 0,0:19:38.15,0:19:41.82,Dialogue,,0,0,0,,So, it is really linked to the sun!
 Dialogue: 0,0:19:41.82,0:19:43.82,Dialogue,,0,0,0,,Because it's always burning.
 Dialogue: 0,0:19:45.20,0:19:48.08,Dialogue,,0,0,0,,So, the comma-shaped magatama you guys found...
-Dialogue: 0,0:19:48.08,0:19:50.83,Dialogue,,0,0,0,,\h\h\h\h\h\h\h\h\h\h\h\h\h\h{\1c&H0000FF&}Flame\N{\1c&HFFFFFF&}Was engraved with "honoo"\Nor something like that, wasn't it?
+Dialogue: 0,0:19:48.08,0:19:50.83,Dialogue,,0,0,0,,Flame\NWas engraved with "honoo"\Nor something like that, wasn't it?
 Dialogue: 0,0:19:50.83,0:19:52.62,Dialogue,,0,0,0,,Yeah...
 Dialogue: 0,0:19:52.62,0:19:54.58,Dialogue,,0,0,0,,That's a great guess, Miss.
 Dialogue: 0,0:19:54.96,0:19:59.09,Dialogue,,0,0,0,,But I don't understand the\Nmeaning behind "ei" and "honoo".
@@ -391,15 +392,15 @@ Dialogue: 0,0:21:34.39,0:21:37.90,Dialogue,,0,0,0,,We already found the mirror\N
 Dialogue: 0,0:21:37.90,0:21:39.98,Dialogue,,0,0,0,,So there has to be one more somewhere around here.
 Dialogue: 0,0:21:39.98,0:21:41.57,Dialogue,,0,0,0,,The Three Imperial Regalia?
 Dialogue: 0,0:21:42.19,0:21:43.07,Dialogue,,0,0,0,,Yes.
-Dialogue: 0,0:21:43.07,0:21:44.94,Dialogue,,0,0,0,,\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\hEight Hand Mirror\NThe mirror is known as the "Yata no Kagami"...
-Dialogue: 0,0:21:44.95,0:21:47.49,Dialogue,,0,0,0,,\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\hTear of Benevolence\NThe magatama is known as the "Yasakani no Magatama"...
+Dialogue: 0,0:21:43.07,0:21:44.94,Dialogue,,0,0,0,,Eight Hand Mirror\NThe mirror is known as the "Yata no Kagami"...
+Dialogue: 0,0:21:44.95,0:21:47.49,Dialogue,,0,0,0,,Tear of Benevolence\NThe magatama is known as the "Yasakani no Magatama"...
 Dialogue: 0,0:21:47.49,0:21:49.66,Dialogue,,0,0,0,,And the last one remaining...
 Dialogue: 0,0:21:49.66,0:21:52.95,Dialogue,,0,0,0,,Long ago, when a treacherous\Nwarlord set a grassy plain on fire...
 Dialogue: 0,0:21:52.95,0:21:56.21,Dialogue,,0,0,0,,In order to send Yamato-dake Mikoto to his\Ndemise by trapping him in the ensuing blaze...
 Dialogue: 0,0:21:56.21,0:21:57.92,Dialogue,,0,0,0,,He used a sword to mow the grass...
 Dialogue: 0,0:21:57.92,0:21:59.42,Dialogue,,0,0,0,,Ultimately saving himself.
 Dialogue: 0,0:22:00.29,0:22:01.50,Dialogue,,0,0,0,,It was the divine sword:
-Dialogue: 0,0:22:01.50,0:22:03.00,Dialogue,,0,0,0,,\h\h\hGrass-Mowing Sword\NThe "Kusanagi no Tsurugi".
+Dialogue: 0,0:22:01.50,0:22:03.00,Dialogue,,0,0,0,,Grass-Mowing Sword\NThe "Kusanagi no Tsurugi".
 Dialogue: 0,0:22:07.47,0:22:09.09,Dialogue,,0,0,0,,The "Kusanagi no Tsurugi"?
 Dialogue: 0,0:22:22.23,0:22:30.87,Dialogue,,0,0,0,,Before I knew it, I had come to the riverside of memories.
 Dialogue: 0,0:22:32.74,0:22:40.75,Dialogue,,0,0,0,,Imagining a continuation of yesterday's dream...
@@ -417,7 +418,7 @@ Dialogue: 0,0:24:06.42,0:24:10.13,Dialogue,,0,0,0,,Otherwise this water is going
 Dialogue: 0,0:24:10.60,0:24:11.95,Dialogue,,0,0,0,,Next Conan:
 Dialogue: 0,0:24:11.97,0:24:15.01,Dialogue,,0,0,0,,Big Adventure at the Unconventional Mansion, Solution Part.
 Dialogue: 0,0:24:16.86,0:24:18.20,Dialogue,,0,0,0,,Next Conan's Hint!
-Dialogue: 0,0:24:17.50,0:24:20.90,Dialogue Top,,0,0,0,,{\fade(500,0)}Note: Kekanbi is the name of a Frankenstein-like\Nmonster dog in a Japanese horror movie.
+Dialogue: 0,0:24:17.50,0:24:20.90,Signs,,0,0,0,,Note: Kekanbi is the name of a Frankenstein-like\Nmonster dog in a Japanese horror movie.
 Dialogue: 0,0:24:18.24,0:24:19.28,Dialogue,,0,0,0,,It's Kekanbi!
 Dialogue: 0,0:24:19.32,0:24:20.99,Dialogue,,0,0,0,,Samizu Kichiemon.
 Dialogue: 0,0:24:21.04,0:24:25.47,T.N,,0,0,0,,By itself, "mon" means gate, while "emon" used\Nto be common ending for a male's name.

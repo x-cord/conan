@@ -33,6 +33,7 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
+
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 Dialogue: 0,0:00:21.35,0:00:23.35,Dialogue,,0,0,0,,A kidnapping case with a ransom note...
@@ -99,7 +100,7 @@ Dialogue: 0,0:05:14.64,0:05:15.85,Dialogue,,0,0,0,,My father.
 Dialogue: 0,0:05:16.31,0:05:19.98,Dialogue,,0,0,0,,We questioned every hospital in the area...
 Dialogue: 0,0:05:19.98,0:05:22.57,Dialogue,,0,0,0,,About a "Doumoto{\rHonorifics - Dialogue}-san{\r}" who has a kidney disease.
 Dialogue: 0,0:05:22.57,0:05:28.51,Dialogue,,0,0,0,,We were able to identify the hostage as\NDoumoto Shouzaburo{\rHonorifics - Dialogue}-san{\r}, a patient of Beika City Hospital.
-Dialogue: 0,0:05:28.56,0:05:32.50,CharCards03,,0,0,0,,Doumoto Akanari (32)\N\h\hMitsuko's Husband\h\h
+Dialogue: 0,0:05:28.56,0:05:32.50,CharCards03,,0,0,0,,Doumoto Akanari (32)\NMitsuko's Husband
 Dialogue: 0,0:05:28.56,0:05:32.50,CharCards04,,0,0,0,,Doumoto Mitsuko (30)\N{\fs13}Shouzaburo's Daughter
 Dialogue: 0,0:05:29.10,0:05:29.99,Dialogue Top,,0,0,0,,But, why?
 Dialogue: 0,0:05:30.46,0:05:32.81,Dialogue Top,,0,0,0,,We were told that if we reported this\Nto the police, our father would be killed.
@@ -127,7 +128,7 @@ Dialogue: 0,0:06:29.38,0:06:31.26,Dialogue,,0,0,0,,There's only an hour and a ha
 Dialogue: 0,0:06:32.93,0:06:38.43,Dialogue,,0,0,0,,Please explain, in detail, how and\Nwhen your father was kidnapped...
 Dialogue: 0,0:06:38.44,0:06:40.44,Dialogue,,0,0,0,,As well as the terms you were given.
 Dialogue: 0,0:06:41.01,0:06:42.90,Dialogue Top,,0,0,0,,We have four people in our household.
-Dialogue: 0,0:06:41.50,0:06:44.44,CharCards02,,0,0,0,,{\fade(350,0)}Doumoto Shouzaburo (64)\N{\fs9}\h\hDoumoto Metal Company President\h\h
+Dialogue: 0,0:06:41.50,0:06:44.44,CharCards02,,0,0,0,,{\fade(350,0)}Doumoto Shouzaburo (64)\N{\fs9} Doumoto Metal Company President
 Dialogue: 0,0:06:43.25,0:06:46.47,Dialogue Top,,0,0,0,,My father, Shouzaburo, who is the owner\Nand company president of a metal factory.
 Dialogue: 0,0:06:46.82,0:06:48.24,Dialogue,,0,0,0,,His only daughter, myself...
 Dialogue: 0,0:06:48.74,0:06:50.86,Dialogue,,0,0,0,,My husband, Akinari{\rHonorifics - Dialogue}-san{\r}...

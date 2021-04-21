@@ -34,7 +34,7 @@ Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
 Style: OPTLTextless,FuntypeFattened,50,&H00FFFFFF,&H000000FF,&H80AF0068,&H80000000,-1,0,0,0,90,100,0,0,1,3,1,2,10,10,40,1
-Style: HitomiRomaji,Ubuntu,40,&HC0FF0000,&H000000FF,&H00FFFFFF,&H00000000,-1,0,0,0,105,100,0,0,1,3.4,1,8,10,10,30,1Style: 689Signs,Helvetica Narrow,50,&H00FFFFFF,&H000000FF,&H005A69CC,&HC0000000,-1,0,0,0,100,100,0,0,1,2.5,0,2,100,100,30,1
+Style: HitomiRomaji,Ubuntu,40,&HC0FF0000,&H000000FF,&H00FFFFFF,&H00000000,-1,0,0,0,105,100,0,0,1,3.4,1,8,10,10,30,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -53,7 +53,7 @@ Dialogue: 0,0:00:24.21,0:00:28.80,Signs,,0,0,0,,Hikari Tsuge (33)\NKaoru's Ex-bo
 Dialogue: 0,0:00:27.67,0:00:28.80,Flashback,,0,0,0,,{\be10\an8}Talk about nonsense.
 Dialogue: 0,0:00:29.59,0:00:30.92,Flashback,,0,0,0,,{\be10}I saw it!
 Dialogue: 0,0:00:30.92,0:00:34.22,Flashback,,0,0,0,,{\be10}You were at the top of the staircase Kaoru fell from!
-Dialogue: 0,0:00:34.22,0:00:35.93,Flashback,,0,0,0,,{\be10\fad(0,250)}P-Please, stop!
+Dialogue: 0,0:00:34.22,0:00:35.93,Flashback,,0,0,0,,{\be10}P-Please, stop!
 Dialogue: 0,0:00:35.93,0:00:40.27,Signs,,0,0,0,,Mariko Noguchi (30)\NTsuge's Manager
 Dialogue: 0,0:00:36.34,0:00:40.27,Flashback,,0,0,0,,{\be10\an8}The police investigation already determined that to be a simple misunderstanding!
 Dialogue: 0,0:00:40.77,0:00:41.85,Flashback,,0,0,0,,{\be10}Shut up!
@@ -318,8 +318,6 @@ Dialogue: 0,0:18:23.68,0:18:27.39,Dialogue,,0,0,0,,As you say, that shadow alone
 Dialogue: 0,0:18:27.93,0:18:33.52,Dialogue,,0,0,0,,However, the lamp was removed from the scene\Nout of fear that the shadow would be seen.
 Dialogue: 0,0:18:34.15,0:18:38.90,Dialogue,,0,0,0,,And that action itself is irrefutable\Nevidence pointing towards the killer.
 Dialogue: 0,0:18:39.53,0:18:40.82,Dialogue,,0,0,0,,{RED: workbench, GREEN: tool rack}Think back.
-Dialogue: 0,0:18:38.36,0:18:53.13,689Signs,,0,0,0,,{\fs30\blur1\move(568,161,566,451,23,14746)}WORKBENCH
-Dialogue: 0,0:18:38.78,0:18:53.13,689Signs,,0,0,0,,{\fs30\blur1\3c&H629952&\move(664,6,661,288,30,14336)}TOOL RACK
 Dialogue: 0,0:18:40.82,0:18:45.91,Dialogue,,0,0,0,,To reach the lamp's position you would have to step over Tsuge{\rHonorifics - Dialogue}-san{\r}'s body.
 Dialogue: 0,0:18:45.91,0:18:48.54,Dialogue,,0,0,0,,However, there was a pool of blood on the other side,
 Dialogue: 0,0:18:48.54,0:18:53.13,Dialogue,,0,0,0,,so the killer couldn't step over it,\Nas footprints would be left behind.

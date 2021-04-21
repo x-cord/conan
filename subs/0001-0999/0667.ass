@@ -33,7 +33,7 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, EncodingStyle: Otanoshimi,Calibri,45,&H18FFFFFF,&H000000FF,&H003F3F3F,&HC04B0008,-1,0,0,0,100,100,0,0,1,3,0,2,70,0,5,1
+Style: Otanoshimi,Calibri,45,&H18FFFFFF,&H000000FF,&H003F3F3F,&HC04B0008,-1,0,0,0,100,100,0,0,1,3,0,2,70,0,5,1
 Style: Default2,Calibri,50,&H00FFFFFF,&H000000FF,&H00370001,&HC0000000,-1,0,0,0,100,100,0,0,1,2.5,3,2,40,40,30,1
 
 [Events]
@@ -84,13 +84,9 @@ Dialogue: 0,0:00:11.19,0:00:18.20,Signs,,0000,0000,0000,,Hatsune Kamon (37)\NBri
 Dialogue: 0,0:00:11.19,0:00:18.20,Signs,,0000,0000,0000,,Raita Bamba (37)\NGroom
 Dialogue: 0,0:12:37.21,0:12:40.00,Signs,,0000,0000,0000,,Tōru Amuro (29)\NDetective
 Dialogue: 0,0:06:17.41,0:06:20.20,Signs,,0000,0000,0000,,Sanji Haruoka (48)\NCustomer
-Dialogue: 0,0:00:03.48,0:00:05.19,Signs,,0000,0000,0000,,{\c&H1F374C&\frz2.291\t(0,5190,\t(0,5190,\move(537,232,532,227)}Reserved for Today
-Dialogue: 0,0:17:37.51,0:17:45.27,SMSText2,,0000,0000,0000,,{\fscx105.5\fscy115.5\fs35\frz347.581\t(0,7760,\fscx125.25)\t(0,7760,\fscy132.5)\move(401,461,273,436)\be1}You won't pick up, so here's an\NMMS with my nails. In 30 mins\Nyou can see them for yourself.
-Dialogue: 0,0:05:33.16,0:05:36.24,SMSText2,,0000,0000,0000,,{\blur0.8\frz9.783\move(463,-59,463,647)}You won't pick up, so here's an\NMMS with my nails. In 30 mins\Nyou can see them for yourself.
 Dialogue: 0,0:05:36.24,0:05:36.29,Signs,,0000,0000,0000,,You won't pick up, so here's an\NMMS with my nails. In 30 mins\Nyou can see them for yourself.
 Dialogue: 0,0:05:36.29,0:05:36.33,Signs,,0000,0000,0000,,You won't pick up, so here's an\NMMS with my nails. In 30 mins\Nyou can see them for yourself.
 Dialogue: 0,0:05:36.33,0:05:36.37,Signs,,0000,0000,0000,,You won't pick up, so here's an\NMMS with my nails. In 30 mins\Nyou can see them for yourself.
-Dialogue: 0,0:05:36.37,0:05:36.54,SMSText2,,0000,0000,0000,,{\blur0.8\frz9.783\move(463,668,463,685)}You won't pick up, so here's an\NMMS with my nails. In 30 mins\Nyou can see them for yourself.
 Dialogue: 0,0:05:36.54,0:05:36.58,Signs,,0000,0000,0000,,You won't pick up, so here's an\NMMS with my nails. In 30 mins\Nyou can see them for yourself.
 Dialogue: 0,0:05:36.58,0:05:36.62,Signs,,0000,0000,0000,,You won't pick up, so here's an\NMMS with my nails. In 30 mins\Nyou can see them for yourself.
 Dialogue: 0,0:05:36.62,0:05:39.12,Signs,,0000,0000,0000,,You won't pick up, so here's an\NMMS with my nails. In 30 mins\Nyou can see them for yourself.
@@ -192,7 +188,7 @@ Dialogue: 0,0:06:43.05,0:06:44.75,Default2,,0000,0000,0000,,{\be2}Hey, waiter!
 Dialogue: 0,0:06:44.75,0:06:45.52,Default2,,0000,0000,0000,,{\be2}Yes?
 Dialogue: 0,0:06:45.52,0:06:47.98,Default2,,0000,0000,0000,,{\be2}Do you remember my order?
 Dialogue: 0,0:06:47.98,0:06:50.50,Default2,,0000,0000,0000,,{\be2}Yes, bourbon, on the rocks, wasn't it?
-Dialogue: 0,0:06:50.50,0:06:52.71,Default2,,0000,0000,0000,,{\be2}Okay, there's no mistake.{would've deliteralised, but I'm taking this line as a command to Tooru and to Bamba, which needs it to be this way :\}
+Dialogue: 0,0:06:50.50,0:06:52.71,Default2,,0000,0000,0000,,{\be2}Okay, there's no mistake.{would've deliteralised, but I'm taking this line as a command to Tooru and to Bamba, which needs it to be this way :}
 Dialogue: 0,0:06:52.71,0:06:53.37,Default2,,0000,0000,0000,,{\be2}Well then.
 Dialogue: 0,0:06:55.20,0:06:58.75,Default2,,0000,0000,0000,,{\be2}Hey, Bamba{\rHonorifics - Default2}-kun{\r}, what're you scowling at?
 Dialogue: 0,0:06:58.75,0:07:00.55,Default2,,0000,0000,0000,,{\be2}Huh? Nothing.

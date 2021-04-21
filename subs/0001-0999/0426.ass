@@ -33,11 +33,6 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: FlashbackThoughts,Calibri Nonligature,50,&H4B370001,&H000000FF,&H00CCFFFF,&HC0000000,-1,0,0,0,100,100,0,0,1,2.6,2,2,100,100,30,1
-Style: ShoudouRomaji,MV Boli M,40,&H80FF1433,&H000000FF,&H00FFFFFF,&HC0000000,-1,0,0,0,100,100,0,0,1,2.3,2,8,10,20,20,1
-Style: ShoudouTL,MV Boli M,40,&H00FFFFFF,&H000000FF,&H408A1000,&HC0000000,-1,0,0,0,100,100,0,0,1,2.3,2,2,10,20,20,1
-Style: EDTLKanashii,Dosis,28,&H00FFFFFF,&H000000FF,&H640000D3,&H80000000,-1,0,0,0,105,100,0,0,1,2,1,2,25,35,20,1
-Style: EDRomaji - Copy,Dosis,28,&H00FFFFFF,&H000000FF,&H640000D3,&H80000000,-1,0,0,0,105,100,0,0,1,2,1,8,25,35,20,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -391,49 +386,3 @@ Dialogue: 0,0:23:53.01,0:23:54.00,Dialogue,,0,0,0,,Isn't it great?
 Dialogue: 0,0:24:02.17,0:24:04.29,Dialogue,,0,0,0,,A girl who looks like Haibara?
 Dialogue: 0,0:24:04.96,0:24:06.65,Dialogue,,0,0,0,,Did she get involved in some sort of case?
 Dialogue: 0,0:24:10.13,0:24:16.60,Dialogue,,0,0,0,,On the next Conan:\N'The Super-Secret Path to School (Part I)'!
-Dialogue: 0,0:00:14.54,0:00:24.00,ShoudouRomaji,,0,0,0,,{\fax0.25\blur2\fad(150,200)}shinjitsu bakari oikakete yureugoku every day
-Dialogue: 0,0:00:25.71,0:00:31.46,ShoudouRomaji,,0,0,0,,{\fax0.25\blur2\fad(149,0)}tsuyogaru jibun no nakami mo
-Dialogue: 0,0:00:31.46,0:00:34.30,ShoudouRomaji,,0,0,0,,{\fax0.25\blur2}marukkiri nazo darake
-Dialogue: 0,0:00:34.30,0:00:36.93,ShoudouRomaji,,0,0,0,,{\fax0.25\blur2}(moeagaru freedom)
-Dialogue: 0,0:00:36.93,0:00:42.27,ShoudouRomaji,,0,0,0,,{\fax0.25\blur2}hagane no yō na kizuna dake ga
-Dialogue: 0,0:00:42.27,0:00:48.02,ShoudouRomaji,,0,0,0,,{\fax0.25\blur2}hekonde'ku kokoro o fumbaraseru
-Dialogue: 0,0:00:48.02,0:00:53.69,ShoudouRomaji,,0,0,0,,{\fax0.25\blur2}boku ni mo nanika o kaerareru
-Dialogue: 0,0:00:53.69,0:00:59.20,ShoudouRomaji,,0,0,0,,{\fax0.25\blur2}sarigenai kotoba de sasayaite
-Dialogue: 0,0:00:59.20,0:01:04.96,ShoudouRomaji,,0,0,0,,{\fax0.25\blur2}anata no koe ga ashita e no shōdō
-Dialogue: 0,0:01:04.96,0:01:10.60,ShoudouRomaji,,0,0,0,,{\fax0.25\blur2}boku ni mo dareka o aiseru to
-Dialogue: 0,0:01:10.60,0:01:16.13,ShoudouRomaji,,0,0,0,,{\fax0.25\blur2}sono te o kasanete shirasete
-Dialogue: 0,0:01:16.13,0:01:21.76,ShoudouRomaji,,0,0,0,,{\fax0.25\blur2}kibō to wa me no mae ni aru michi
-Dialogue: 0,0:01:21.76,0:01:27.40,ShoudouRomaji,,0,0,0,,{\fax0.25\blur2}dokoka ni ikeru to shinjiyō
-Dialogue: 0,0:01:27.40,0:01:33.40,ShoudouRomaji,,0,0,0,,{\fax0.25\blur2}anata no subete ga boku no shōdō
-Dialogue: 0,0:01:33.40,0:01:36.18,ShoudouRomaji,,0,0,0,,{\fax0.25\blur2}go for it go for it
-Dialogue: 0,0:01:36.18,0:01:38.99,ShoudouRomaji,,0,0,0,,{\fax0.25\blur2}aijō koso ga shōdō
-Dialogue: 0,0:01:38.99,0:01:41.82,ShoudouRomaji,,0,0,0,,{\fax0.25\blur2}go for it go for it
-Dialogue: 0,0:01:41.82,0:01:45.32,ShoudouRomaji,,0,0,0,,{\fax0.25\blur2\fad(0,500)}aijō koso ga shōdō
-Dialogue: 0,0:00:14.54,0:00:24.00,ShoudouTL,,0,0,0,,{\fax0.25\blur2\fad(150,200)}Looking only for the truth, I tremble every day
-Dialogue: 0,0:00:25.71,0:00:31.46,ShoudouTL,,1,11,0,,{\fax0.25\blur2\fad(149,0)}Though what's inside my tough façade
-Dialogue: 0,0:00:31.46,0:00:34.30,ShoudouTL,,1,11,0,,{\fax0.25\blur2}is a mystery even to me
-Dialogue: 0,0:00:34.30,0:00:36.93,ShoudouTL,,0,0,0,,{\fax0.25\blur2}(the blazes of freedom)
-Dialogue: 0,0:00:36.93,0:00:42.27,ShoudouTL,,0,0,0,,{\fax0.25\blur2}Only through forging steel-like bonds with others
-Dialogue: 0,0:00:42.27,0:00:48.02,ShoudouTL,,0,0,0,,{\fax0.25\blur2}can I repair my own dented heart
-Dialogue: 0,0:00:48.02,0:00:53.69,ShoudouTL,,0,0,0,,{\fax0.25\blur2}'You do know that even you can change things?'
-Dialogue: 0,0:00:53.69,0:00:59.20,ShoudouTL,,0,0,0,,{\fax0.25\blur2}Please, casually whisper that in my ear
-Dialogue: 0,0:00:59.20,0:01:04.96,ShoudouTL,,0,0,0,,{\fax0.25\blur2}As it's your voice that drives me to see tomorrow
-Dialogue: 0,0:01:04.96,0:01:10.60,ShoudouTL,,0,0,0,,{\fax0.25\blur2\fsp-0.5}'You do know that even you can give someone love?'
-Dialogue: 0,0:01:10.60,0:01:16.13,ShoudouTL,,0,0,0,,{\fax0.25\blur2}I want you to take my hands and tell me so
-Dialogue: 0,0:01:16.13,0:01:21.76,ShoudouTL,,0,0,0,,{\fax0.25\blur2}Hope is the road leading forward in front of me
-Dialogue: 0,0:01:21.76,0:01:27.40,ShoudouTL,,0,0,0,,{\fax0.25\blur2}so let's believe that it must lead somewhere
-Dialogue: 0,0:01:27.40,0:01:33.40,ShoudouTL,,0,0,0,,{\fax0.25\blur2}Everything about you drives me on!
-Dialogue: 0,0:01:33.40,0:01:36.18,ShoudouTL,,0,0,0,,{\fax0.25\blur2}Go for it! Go for it!
-Dialogue: 0,0:01:36.18,0:01:38.99,ShoudouTL,,0,0,0,,{\fax0.25\blur2}Love itself is impulsive
-Dialogue: 0,0:01:38.99,0:01:41.82,ShoudouTL,,0,0,0,,{\fax0.25\blur2}Go for it! Go for it!
-Dialogue: 0,0:01:41.82,0:01:45.32,ShoudouTL,,0,0,0,,{\fax0.25\blur2\fad(0,500)}Love itself is impulsive
-Dialogue: 0,0:21:23.39,0:21:31.40,EDTLKanashii,,0,0,0,,{\blur2}I never realised before, but I miss you so...
-Dialogue: 0,0:21:31.40,0:21:39.82,EDTLKanashii,,0,0,0,,{\blur2}There's so much sad news in this city
-Dialogue: 0,0:21:39.82,0:21:46.22,EDTLKanashii,,0,0,0,,{\blur2}On days when I don't hear from you
-Dialogue: 0,0:21:46.22,0:21:55.55,EDTLKanashii,,0,0,0,,{\blur1}everything about me stands still
-Dialogue: 0,0:21:55.55,0:22:01.44,EDTLKanashii,,0,0,0,,{\blur2}I love you so much that it brings me to tears
-Dialogue: 0,0:22:01.44,0:22:11.52,EDTLKanashii,,0,0,0,,{\blur2}I wonder why I yearn for you so much? Why is it so painful...
-Dialogue: 0,0:22:11.52,0:22:20.36,EDTLKanashii,,10,10,0,,{\blur2\fsp-0.4}I have to take my courage and throw open the door to a new world
-Dialogue: 0,0:22:20.36,0:22:25.66,EDTLKanashii,,0,0,0,,{\blur2}as you filled my heart
-Dialogue: 0,0:22:25.66,0:22:30.02,EDTLKanashii,,0,0,0,,{\blur2}with all the colours of the sunrise...
-Dialogue: 0,0:22:30.02,0:22:35.68,EDTLKanashii,,0,0,0,,{\blur2\fad(0,200)}So I will make it with you

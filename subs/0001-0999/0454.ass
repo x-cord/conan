@@ -33,23 +33,23 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: Furigana,Open Sans,54,&H00000000,&H000000FF,&H00FFFFFF,&H00000000,-1,0,0,0,90,100,0,0,1,2.625,0,2,45,45,30,1
+Style: EDTop,MV Boli,52,&H00E7E7E7,&H000000FF,&H00909090,&H80000000,-1,0,0,0,100,100,0,0,1,1,2,8,160,160,30,1
 Style: FlashThoughts,nintendoP_Humming-E_003,54,&H0028292C,&H000000FF,&H42B8C1CD,&H98000000,-1,0,0,0,100,100,0,0,1,5,2,2,45,45,30,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 Dialogue: 0,0:00:01.64,0:00:05.15,Narration Off,,0,0,0,,{\be10}From a different point of view, even an imposing\Nwall blocking your path is just a large door.
-Dialogue: 0,0:00:05.15,0:00:08.02,Narration Off,,0,0,0,,{\be10\t(200,300,\c&HB8C1CD&)}A baseball came flying in, and a house\Nbecomes a case flipped on its head!
-Dialogue: 0,0:00:08.02,0:00:09.73,Narration Off,,0,0,0,,{\be10\c&HB8C1CD&}Something's not right about this room!
-Dialogue: 0,0:00:09.73,0:00:11.19,Narration Off,,0,0,0,,{\be10\c&HB8C1CD&\t(200,300,\c&HFFAAAA)}He sees the single truth for what it is,
-Dialogue: 0,0:00:11.19,0:00:12.82,Narration Off,,0,0,0,,{\be10\c&HFFAAAA}and looks like a kid but\Nhas the mind of an adult!
-Dialogue: 0,0:00:12.82,0:00:14.70,Narration Off,,0,0,0,,{\be10\c&HFFAAAA}His name? Detective Conan!
+Dialogue: 0,0:00:05.15,0:00:08.02,Narration Off,,0,0,0,,{\be10}A baseball came flying in, and a house\Nbecomes a case flipped on its head!
+Dialogue: 0,0:00:08.02,0:00:09.73,Narration Off,,0,0,0,,{\be10}Something's not right about this room!
+Dialogue: 0,0:00:09.73,0:00:11.19,Narration Off,,0,0,0,,{\be10}He sees the single truth for what it is,
+Dialogue: 0,0:00:11.19,0:00:12.82,Narration Off,,0,0,0,,{\be10}and looks like a kid but\Nhas the mind of an adult!
+Dialogue: 0,0:00:12.82,0:00:14.70,Narration Off,,0,0,0,,{\be10}His name? Detective Conan!
 Dialogue: 0,0:02:11.81,0:02:12.61,Dialogue,,0,0,0,,{\i1}Sensei{\i0}!
 Dialogue: 0,0:02:14.28,0:02:16.74,Dialogue,,0,0,0,,Well, if it isn't the editor, Shimaki{\rHonorifics - Dialogue}-kun{\r}.
 Dialogue: 0,0:02:16.74,0:02:20.78,Dialogue,,0,0,0,,Geez, don't Well, if it isn't Shimaki{\rHonorifics - Dialogue}-kun{\r} me!
 Dialogue: 0,0:02:21.16,0:02:22.28,Dialogue,,0,0,0,,So, what are you here about?
 Dialogue: 0,0:02:22.28,0:02:25.54,Dialogue,,0,0,0,,W-What are you saying, {\i1}Sensei{\i0}?!
-Dialogue: 0,0:02:25.54,0:02:31.42,Signs,,0,0,0,,Toshihisa Manda (53)\NNovelist
+Dialogue: 0,0:02:25.54,0:02:31.42,Character Card,,0,0,0,,Toshihisa Manda (53)\NNovelist
 Dialogue: 0,0:02:25.54,0:02:27.87,Dialogue,,0,0,0,,I'm just joking, don't worry.
 Dialogue: 0,0:02:27.87,0:02:29.62,Dialogue,,0,0,0,,Don't scare me like that...
 Dialogue: 0,0:02:29.62,0:02:31.00,Dialogue,,0,0,0,,It's about the manuscript, right?
@@ -104,7 +104,7 @@ Dialogue: 0,0:06:53.93,0:06:54.85,Dialogue,,0,0,0,,I've been waiting for you...
 Dialogue: 0,0:06:55.35,0:06:57.89,Dialogue,,0,0,0,,They got my neck on the line now...
 Dialogue: 0,0:06:57.89,0:07:00.14,Dialogue,,0,0,0,,Manda{\rHonorifics - Dialogue}-sensei{\r}...
 Dialogue: 0,0:07:00.14,0:07:02.23,Dialogue,,0,0,0,,Those clothes...
-Dialogue: 0,0:07:02.23,0:07:06.14,Signs,,0,0,0,,Kohei Haramoto (28)\NManda's protegé
+Dialogue: 0,0:07:02.23,0:07:06.14,Character Card,,0,0,0,,Kohei Haramoto (28)\NManda's protegé
 Dialogue: 0,0:07:02.23,0:07:05.40,Dialogue,,0,0,0,,Did you sneak out of a hotel again...
 Dialogue: 0,0:07:05.40,0:07:07.73,Dialogue,,0,0,0,,...disguised as a valet?
 Dialogue: 0,0:07:07.73,0:07:08.99,Dialogue,,0,0,0,,You really like doing that, don't you?
@@ -315,7 +315,7 @@ Dialogue: 0,0:20:09.85,0:20:14.94,Dialogue,,0,0,0,,Looks like your ball hit that
 Dialogue: 0,0:20:14.94,0:20:17.15,Dialogue,,0,0,0,,That's good, right, Genta?
 Dialogue: 0,0:20:18.44,0:20:19.98,Dialogue,,0,0,0,,What a relief...
 Dialogue: 0,0:20:19.98,0:20:24.32,Dialogue,,0,0,0,,Then this means someone struck him from behind...
-Dialogue: 0,0:20:24.32,0:20:27.66,Dialogue,,0,0,0,,Yeah. He was hit with this vase\N
+Dialogue: 0,0:20:24.32,0:20:27.66,Dialogue,,0,0,0,,Yeah. He was hit with this vase
 Dialogue: 0,0:20:27.66,0:20:30.62,Dialogue,,0,0,0,,while he was looking through this drawer.
 Dialogue: 0,0:20:31.66,0:20:35.17,Dialogue,,0,0,0,,How do you know that he\Nwas looking through that drawer?
 Dialogue: 0,0:20:35.17,0:20:40.59,Dialogue,,0,0,0,,Look at the edge of the drawer. It's dented!

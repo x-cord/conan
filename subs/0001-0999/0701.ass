@@ -33,12 +33,9 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: FlashbackThoughts,Calibri,50,&H4B370001,&H000000FF,&H00CCFFFF,&HC0000000,-1,0,0,0,100,100,0,0,1,2.6,2,2,100,100,30,1Style: ConanEdogawaKun,Segoe Print,45,&H00B78800,&H000000FF,&H00B78800,&HC0000000,0,0,0,0,100,100,0,20,1,0,0,2,10,10,25,1
-Style: KudoSempai,Segoe Print,45,&H009796B7,&H000000FF,&H484B4B4B,&HC0000000,0,0,0,0,100,100,0,0,1,0,0,7,10,10,25,1Style: Blanka30,Arial,20,&HFFFFFFFF,&H000000FF,&H1E000000,&H00000000,0,0,0,0,100,100,0,0,3,1,0,7,10,10,10,1
 Style: PlaceCard,Corbel,35,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,2,2,100,100,30,1
-Style: topbox,Arial,20,&HFFFFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,3,1,0,8,10,10,10,1Style: OPTLTextless,FuntypeFattened,50,&H00FFFFFF,&H000000FF,&H80AF0068,&H80000000,-1,0,0,0,90,100,0,0,1,3,1,2,10,10,40,1
 Style: HitomiRomaji,Ubuntu,40,&HC0FF0000,&H000000FF,&H00FFFFFF,&H00000000,-1,0,0,0,105,100,0,0,1,3.4,1,8,10,10,30,1
-Style: SemiTransBox,Arial,20,&HFFFFFFFF,&H000000FF,&H64000000,&H00000000,0,0,0,0,100,100,0,0,3,1,0,8,10,10,10,1Style: Massugu Yuku TL,Hey Gorgeous M,40,&H00FFFFFF,&H000000FF,&H404A4200,&HC0000000,0,0,0,0,85,100,2,0,1,3,1.5,2,100,100,30,1Style: TV,Segoe,70,&H00E0D4CB,&HFF0000FF,&H00370001,&HC0000000,-1,0,0,0,100,100,0,0,1,0,0,2,100,100,30,1Style: Phoneradio,Calibri,50,&H0FFDFFC6,&H000000FF,&H00370001,&HC0000000,-1,0,0,0,100,100,0,0,1,2.5,1.5,2,100,100,30,1
+
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 Dialogue: 0,0:00:07.98,0:00:09.57,Dialogue Top,,0,0,0,,'Mystery Train'?
@@ -73,11 +70,11 @@ Dialogue: 0,0:01:52.50,0:01:56.01,Thoughts,,0,0,0,,{\be10}It won't be me who fin
 Dialogue: 0,0:01:58.84,0:02:02.47,Thoughts,,0,0,0,,{\be10}She mustn't be allowed to remain in this world...
 Dialogue: 0,0:02:03.60,0:02:05.14,Thoughts,,0,0,0,,{\be10}Forgive me...
 Dialogue: 0,0:02:05.14,0:02:08.44,Thoughts,,0,0,0,,{\be10}Silver Bullet.
-Dialogue: 0,0:02:11.48,0:02:16.00,Narration Off,,0,0,0,,{\be10\c&HAAAA00\t(0,4520,\c)}Seeking comprehensive answers, he solves every mystery and code!
-Dialogue: 0,0:02:16.00,0:02:19.87,Narration Off,,0,0,0,,{\be10\t(0,1510,\c&H88AA00)}As the departure bell rings out, the shadows of the Organisation approach Haibara!
-Dialogue: 0,0:02:19.87,0:02:21.45,Narration Off,,0,0,0,,{\be10\c&H88AA00)\t(0,1580,\c)}He sees the single truth for what it is,
-Dialogue: 0,0:02:21.45,0:02:23.33,Narration Off,,0,0,0,,{\be10\t(0,1880,\c&HAA00AA)}and looks like a kid but has the mind of an adult!
-Dialogue: 0,0:02:23.33,0:02:25.66,Narration Off,,0,0,0,,{\be10\c&HAA00AA\t(0,1870,\c&H0000FF)}His name? Detective Conan!
+Dialogue: 0,0:02:11.48,0:02:16.00,Narration Off,,0,0,0,,{\be10}Seeking comprehensive answers, he solves every mystery and code!
+Dialogue: 0,0:02:16.00,0:02:19.87,Narration Off,,0,0,0,,{\be10}As the departure bell rings out, the shadows of the Organisation approach Haibara!
+Dialogue: 0,0:02:19.87,0:02:21.45,Narration Off,,0,0,0,,{\be10}He sees the single truth for what it is,
+Dialogue: 0,0:02:21.45,0:02:23.33,Narration Off,,0,0,0,,{\be10}and looks like a kid but has the mind of an adult!
+Dialogue: 0,0:02:23.33,0:02:25.66,Narration Off,,0,0,0,,{\be10}His name? Detective Conan!
 Dialogue: 0,0:04:16.27,0:04:18.31,Dialogue,,0,0,0,,Wow, it's awesome!
 Dialogue: 0,0:04:18.31,0:04:20.57,Dialogue,,0,0,0,,It's the first time I've seen a steam locomotive!
 Dialogue: 0,0:04:20.57,0:04:21.61,Dialogue,,0,0,0,,Me too!
@@ -177,7 +174,7 @@ Dialogue: 0,0:10:07.25,0:10:10.25,Thoughts,,0,0,0,,{\be10}Weren't all the passen
 Dialogue: 0,0:10:10.25,0:10:14.21,Dialogue,,0,0,0,,Carriage 7, Room B... Carriage 7, Room B...{bluesun: Carriageriage 7 Room B, Carriageriage 7 Room B...}
 Dialogue: 0,0:10:14.63,0:10:16.51,Dialogue,,0,0,0,,Here! It's this room, right?
 Dialogue: 0,0:10:17.76,0:10:18.63,Dialogue,,0,0,0,,Umm...
-Dialogue: 0,0:10:19.63,0:10:20.84,Dialogue,,0,0,0,,Excuse me...\N
+Dialogue: 0,0:10:19.63,0:10:20.84,Dialogue,,0,0,0,,Excuse me...
 Dialogue: 0,0:10:20.84,0:10:22.60,Dialogue,,0,0,0,,Don't come in, moron!
 Dialogue: 0,0:10:25.39,0:10:29.14,Dialogue,,0,0,0,,Whoa, awesome! It's just like the real thing!
 Dialogue: 0,0:10:29.14,0:10:30.23,Dialogue,,0,0,0,,Let's go after them!
@@ -295,7 +292,7 @@ Dialogue: 0,0:17:10.42,0:17:15.43,Dialogue,,0,0,0,,So the person who played the 
 Dialogue: 0,0:17:15.80,0:17:17.64,Dialogue,,0,0,0,,Then where's Uncle Kogorō?
 Dialogue: 0,0:17:17.64,0:17:22.02,Dialogue,,0,0,0,,The victim guy told him to go to the dining car!
 Dialogue: 0,0:17:22.02,0:17:23.44,Dialogue,,0,0,0,,To the dining car?
-Dialogue: 0,0:17:23.94,0:17:28.36,Dialogue,,0,0,0,,He wanted Dad to play the role of the detective who explained the answer to the deduction quiz at the end...\N
+Dialogue: 0,0:17:23.94,0:17:28.36,Dialogue,,0,0,0,,He wanted Dad to play the role of the detective who explained the answer to the deduction quiz at the end...
 Dialogue: 0,0:17:28.78,0:17:30.86,Dialogue,,0,0,0,,So he asked Dad to stand by in the dining car...
 Dialogue: 0,0:17:32.40,0:17:35.45,Dialogue,,0,0,0,,Anyway, it's nice to meet you finally.
 Dialogue: 0,0:17:36.82,0:17:38.95,Dialogue,,0,0,0,,You're that girl named 'Haibara', right?
@@ -339,7 +336,7 @@ Dialogue: 0,0:20:00.97,0:20:05.43,Dialogue,,0,0,0,,There was some kind of troubl
 Dialogue: 0,0:20:08.64,0:20:10.02,Dialogue,,0,0,0,,Ah! Coming!
 Dialogue: 0,0:20:16.69,0:20:17.78,Dialogue,,0,0,0,,Idenami{\rHonorifics - Dialogue}-sama{\r}!
 Dialogue: 0,0:20:18.40,0:20:20.91,Dialogue,,0,0,0,,Hey, can't you do something about this?!
-Dialogue: 0,0:20:20.91,0:20:22.37,Dialogue,,0,0,0,,Something about...?\N
+Dialogue: 0,0:20:20.91,0:20:22.37,Dialogue,,0,0,0,,Something about...?
 Dialogue: 0,0:20:22.87,0:20:24.28,Dialogue,,0,0,0,,The sound!
 Dialogue: 0,0:20:24.28,0:20:26.66,Dialogue,,0,0,0,,There's a strange sound in my room!
 Dialogue: 0,0:20:29.37,0:20:31.42,Dialogue,,0,0,0,,I don't hear anything.

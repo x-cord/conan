@@ -33,134 +33,133 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: FlashbackThoughts,Calibri Nonligature,50,&H4B370001,&H000000FF,&H00CCFFFF,&HC0000000,-1,0,0,0,100,100,0,0,1,2.6,2,2,100,100,30,1Style: ConanEdogawaKun,Segoe Print,45,&H00B78800,&H000000FF,&H00B78800,&HC0000000,0,0,0,0,100,100,0,20,1,0,0,2,10,10,25,1
-Style: KudoSempai,Segoe Print,45,&H009796B7,&H000000FF,&H484B4B4B,&HC0000000,0,0,0,0,100,100,0,0,1,0,0,7,10,10,25,1Style: Blanka30,Arial,20,&HFFFFFFFF,&H000000FF,&H1E000000,&H00000000,0,0,0,0,100,100,0,0,3,1,0,7,10,10,10,1Style: topbox,Arial,20,&HFFFFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,3,1,0,8,10,10,10,1Style: OPTLTextless,FuntypeFattened,50,&H00FFFFFF,&H000000FF,&H80AF0068,&H80000000,-1,0,0,0,90,100,0,0,1,3,1,2,10,10,40,1Style: SemiTransBox,Arial,20,&HFFFFFFFF,&H000000FF,&H64000000,&H00000000,0,0,0,0,100,100,0,0,3,1,0,8,10,10,10,1Style: Massugu Yuku TL,Hey Gorgeous M,40,&H00FFFFFF,&H000000FF,&H404A4200,&HC0000000,0,0,0,0,85,100,2,0,1,3,1.5,2,100,100,30,1Style: TV,Segoe,70,&H00E0D4CB,&HFF0000FF,&H00370001,&HC0000000,-1,0,0,0,100,100,0,0,1,0,0,2,100,100,30,1Style: Phoneradio,Calibri,50,&H0FFDFFC6,&H000000FF,&H00370001,&HC0000000,-1,0,0,0,100,100,0,0,1,2.5,1.5,2,100,100,30,1Style: Poodles,MV Boli M,70,&H400102B5,&H000809FC,&H00CFF2F3,&H80000000,0,0,0,0,100,100,0,0,1,4,2,8,10,10,25,1
+Style: Poodles,MV Boli M,70,&H400102B5,&H000809FC,&H00CFF2F3,&H80000000,0,0,0,0,100,100,0,0,1,4,2,8,10,10,25,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:03.34,0:00:07.69,Dialogue Top,,0,0,0,,{（大滝）いやあ　えらい\Nお世話かけてしもて→\N\Nすいませんでした。\N}So sorry for having imposed on you like this...
-Dialogue: 0,0:00:08.11,0:00:10.69,Dialogue Top,,0,0,0,,{朝飯までごちそうになってもうて。\N}And even having breakfast at your place...
-Dialogue: 0,0:00:10.69,0:00:11.57,Dialogue Top,,0,0,0,,{（毛利小五郎）いえいえ。\N}It's nothing, really...
-Dialogue: 0,0:00:11.57,0:00:15.53,Dialogue,,0,0,0,,{（服部平次）まあ　予想外の→\N\Nハプニングっちゅうことで\N堪忍したってや。\N}Well, it was due to an unexpected turn of events, after all!
-Dialogue: 0,0:00:15.53,0:00:19.37,Thoughts,,0,0,0,,{\be10（コナン）\N《ウソつけ...最初から泊まる気\Nマンマンじゃねえか。→\N}Liar. You planned on staying over from the start.
-Dialogue: 0,0:00:19.37,0:00:22.03,Thoughts,,0,0,0,,{\be10着替え用意してんだから》\N}You even had a change of clothes ready.
+Dialogue: 0,0:00:03.34,0:00:07.69,Dialogue Top,,0,0,0,,{（大滝）いやあ　えらい\Nお世話かけてしもて→\N\Nすいませんでした。}So sorry for having imposed on you like this...
+Dialogue: 0,0:00:08.11,0:00:10.69,Dialogue Top,,0,0,0,,{朝飯までごちそうになってもうて。}And even having breakfast at your place...
+Dialogue: 0,0:00:10.69,0:00:11.57,Dialogue Top,,0,0,0,,{（毛利小五郎）いえいえ。}It's nothing, really...
+Dialogue: 0,0:00:11.57,0:00:15.53,Dialogue,,0,0,0,,{（服部平次）まあ　予想外の→\N\Nハプニングっちゅうことで\N堪忍したってや。}Well, it was due to an unexpected turn of events, after all!
+Dialogue: 0,0:00:15.53,0:00:19.37,Thoughts,,0,0,0,,{\be10（コナン）\N《ウソつけ...最初から泊まる気\Nマンマンじゃねえか。→}Liar. You planned on staying over from the start.
+Dialogue: 0,0:00:19.37,0:00:22.03,Thoughts,,0,0,0,,{\be10着替え用意してんだから》}You even had a change of clothes ready.
 Dialogue: 0,0:00:22.03,0:00:24.42,Dialogue,,0,0,0,,{（和葉）ほな　蘭ちゃん　またな。}All right, Ran{\rHonorifics - Dialogue}-chan{\r}, see you later!
-Dialogue: 0,0:00:24.42,0:00:25.38,Dialogue,,0,0,0,,{（毛利　蘭）またね～。\N}Later!
+Dialogue: 0,0:00:24.42,0:00:25.38,Dialogue,,0,0,0,,{（毛利　蘭）またね～。}Later!
 Dialogue: 0,0:00:25.38,0:00:27.81,Dialogue,,0,0,0,,Well then, I'll get going as well.{ほな　ワシもこれで...。AO}
 Dialogue: 0,0:00:27.81,0:00:30.98,Dialogue,,0,0,0,,Please stop by again the next time you're free.{次は仕事ぬきで遊びに来て下さい。\NAO}
 Dialogue: 0,0:00:30.98,0:00:33.03,Dialogue,,0,0,0,,Will do! Now, please excuse me.{はい　失礼します。へへっ。AO}
 Dialogue: 0,0:00:33.88,0:00:34.75,Dialogue,,0,0,0,,Oh?{あれ？\NAO}
-Dialogue: 0,0:00:34.75,0:00:36.39,Dialogue,,0,0,0,,{ん？大滝はん　どこ行くんや？\N}Ōtaki-{\i1}han{\i0}, where are you goin'?
+Dialogue: 0,0:00:34.75,0:00:36.39,Dialogue,,0,0,0,,{ん？大滝はん　どこ行くんや？}Ōtaki-{\i1}han{\i0}, where are you goin'?
 Dialogue: 0,0:00:37.11,0:00:38.89,Dialogue,,0,0,0,,{東京駅はこっちやで。}Tōkyō Station's this way, y'know?
-Dialogue: 0,0:00:38.89,0:00:43.85,Dialogue,,0,0,0,,{ああ　先に帰ってええで。ワシは\Nちょっと野暮用があるさかい。\N}Ah, you kids can go on home without me. I've got some minor business to take care of over here still.
+Dialogue: 0,0:00:38.89,0:00:43.85,Dialogue,,0,0,0,,{ああ　先に帰ってええで。ワシは\Nちょっと野暮用があるさかい。}Ah, you kids can go on home without me. I've got some minor business to take care of over here still.
 Dialogue: 0,0:00:45.30,0:00:46.19,Dialogue,,0,0,0,,{ふ～ん...あ　そう。\NAO}I see...
-Dialogue: 0,0:00:48.76,0:00:51.99,Flashback,,0,0,0,,{\be10（服部平蔵）場所は\N群馬と埼玉の県境。→\N}The location is on the boundary between Gunma and Saitama prefectures,
-Dialogue: 0,0:00:51.99,0:00:54.43,Flashback,,0,0,0,,{\be10山奥に建つ洋館や。→\N}a western-style mansion built in the mountain recesses.
-Dialogue: 0,0:00:54.43,0:00:59.35,Flashback,,0,0,0,,{\be10そこで明日の夜\N遺産相続の会議があるんやが...→\N}There, tomorrow night, a meeting will be held to discuss an inheritance.
-Dialogue: 0,0:00:59.35,0:01:02.37,Flashback,,0,0,0,,{\be10お前　それに\N出席してくれへんか？\N}Can you attend that meeting for me?
-Dialogue: 0,0:01:02.70,0:01:08.33,Flashback,,0,0,0,,{\be10\an8依頼主の話やと　被相続人の\Nその館の主人の様子が→\N}According to the client's story, the person whose will is being discussed, the master of the mansion,
+Dialogue: 0,0:00:48.76,0:00:51.99,Flashback,,0,0,0,,{\be10（服部平蔵）場所は\N群馬と埼玉の県境。→}The location is on the boundary between Gunma and Saitama prefectures,
+Dialogue: 0,0:00:51.99,0:00:54.43,Flashback,,0,0,0,,{\be10山奥に建つ洋館や。→}a western-style mansion built in the mountain recesses.
+Dialogue: 0,0:00:54.43,0:00:59.35,Flashback,,0,0,0,,{\be10そこで明日の夜\N遺産相続の会議があるんやが...→}There, tomorrow night, a meeting will be held to discuss an inheritance.
+Dialogue: 0,0:00:59.35,0:01:02.37,Flashback,,0,0,0,,{\be10お前　それに\N出席してくれへんか？}Can you attend that meeting for me?
+Dialogue: 0,0:01:02.70,0:01:08.33,Flashback,,0,0,0,,{\be10\an8依頼主の話やと　被相続人の\Nその館の主人の様子が→}According to the client's story, the person whose will is being discussed, the master of the mansion,
 Dialogue: 0,0:01:02.62,0:01:09.59,Signs,,0,0,0,,Heizō Hattori\NŌsaka Police Superintendent · Heiji's Father
-Dialogue: 0,0:01:08.33,0:01:10.71,Flashback,,0,0,0,,{\be10\an8えらい異様らしくてのぉ...→\N}has been exhibiting truly strange behaviour.
-Dialogue: 0,0:01:10.71,0:01:16.24,Flashback,,0,0,0,,{\be10せやから　警察関係者に\Nその話し合いに→\N}That's why he wants someone from the police {同席して欲しい言うてきてん\N}to also attend the discussion.
+Dialogue: 0,0:01:08.33,0:01:10.71,Flashback,,0,0,0,,{\be10\an8えらい異様らしくてのぉ...→}has been exhibiting truly strange behaviour.
+Dialogue: 0,0:01:10.71,0:01:16.24,Flashback,,0,0,0,,{\be10せやから　警察関係者に\Nその話し合いに→}That's why he wants someone from the police {同席して欲しい言うてきてん}to also attend the discussion.
 Dialogue: 0,0:01:16.24,0:01:19.47,Flashback,,0,0,0,,{\be10}Well, I don't have a problem with that.{はぁ...そらまあ\Nかまいまへんが\NAO}
-Dialogue: 0,0:01:20.02,0:01:24.24,Flashback,,0,0,0,,{\be10半年前に　その館の近くの森で\N殺しがあって→\N}Now there was a killing in the forest near that mansion a half-year ago
-Dialogue: 0,0:01:24.24,0:01:32.75,Flashback,,0,0,0,,{\be10妙な噂も立ってるらしいから\N無理にとは言わんけど...\N}and some odd rumours surfaced, so I can't say this is without cause, {出てくれるんやったら\N気ぃつけよ...→\N}but if you go there for me, do take care...
-Dialogue: 0,0:01:33.65,0:01:35.77,Flashback,,0,0,0,,{\be10血ぃ吸われんようにな\N}...that you don't get your blood sucked out.
-Dialogue: 0,0:01:35.77,0:01:37.75,Dialogue,,0,0,0,,{（平次）何を吸われるっちゅうねん。\N}What are you sayin' about bein' sucked?
-Dialogue: 0,0:01:39.16,0:01:43.83,Dialogue,,0,0,0,,{さっきから　吸われん吸われんってボソボソ言うてるけど。\N}You've been muttering 'Don't be sucked, don't be sucked' to yourself for a while now.
-Dialogue: 0,0:01:43.83,0:01:45.83,Dialogue,,0,0,0,,{（大滝）へ　平ちゃん！？\N}H-Hei{\rHonorifics - Dialogue}-chan{\r}?!
-Dialogue: 0,0:01:46.73,0:01:50.09,Dialogue,,0,0,0,,{まさか　女の唇のことと\Nちゃうやろな？\N}Don't tell me, you're thinking about a woman's lips, right?
-Dialogue: 0,0:01:50.09,0:01:52.37,Dialogue,,0,0,0,,{いつの間に車に？\N}W-When did you get in here?!
-Dialogue: 0,0:01:52.37,0:01:57.09,Dialogue,,0,0,0,,{大滝警部が　さっきガソリンスタンドで\Nトイレに行ったスキにこっそりね。\N}We snuck in when you went to the toilet at the petrol station earlier, Inspector Ōtaki.
-Dialogue: 0,0:01:57.09,0:01:58.87,Dialogue,,0,0,0,,{気づいてなかった？\N}Didn't you notice?
-Dialogue: 0,0:01:58.87,0:02:01.43,Dialogue,,0,0,0,,{小五郎のおじさんたちも→\N\Nついて来てるんだよ。\N（大滝）ええっ！？\N}That Uncle Kogorō and the others are following you.{altered line}
-Dialogue: 0,0:02:04.35,0:02:06.56,Dialogue,,0,0,0,,{け　けど...何で？\N}B-But why...?
-Dialogue: 0,0:02:06.56,0:02:11.80,Dialogue,,0,0,0,,{そら　大滝はんがコソコソ\N会いに行く女の顔を拝みにや。\N}They want to gaze upon the face of the woman you're secretly meeting with, Ōtaki-{\i1}han{\i0}!
-Dialogue: 0,0:02:11.80,0:02:16.65,Dialogue,,0,0,0,,{けど　まさかこっちに女がおるとは思わへんかったな～。\N}Though I never thought you'd have a woman over on this side.
-Dialogue: 0,0:02:16.65,0:02:19.74,Dialogue,,0,0,0,,{蘭ねえちゃんたちも　ちゃんと\N紹介してほしいって言ってたよ。\N}Ran{\rHonorifics - Dialogue}-neechan{\r} and the others said they wanted to be introduced to her.
-Dialogue: 0,0:02:19.74,0:02:23.74,Dialogue,,0,0,0,,{いやぁ～　見せられるような\Nええ女やないんで。\N}Ah, well, she's not so good-looking as to be shown off to others.
-Dialogue: 0,0:02:25.15,0:02:27.40,Dialogue,,0,0,0,,{ふ～ん。だったら教えてくれる？\N}Then will you tell us?{ja -> dattara}
-Dialogue: 0,0:02:27.40,0:02:28.71,Dialogue,,0,0,0,,{どんな事件なの？\N}What kind of case is it?
-Dialogue: 0,0:02:30.47,0:02:35.47,Dialogue,,0,0,0,,{事件なんやろ？俺に内緒っちゅうことは　親父がらみとちゃうか？\N}It is a case, right? And since you kept it from me, that means it has somethin' to do with ol' Dad, doesn't it?
-Dialogue: 0,0:02:39.54,0:02:46.31,Dialogue,,0,0,0,,{いやぁ　実は半年前\Nこれから行く館の近くの森で→\N\N女性の遺体が見つかったんや。\N}Well, actually, at the mansion I am headed to, half a year ago, a woman's corpse was found in the surrounding woods.{rewritten}
-Dialogue: 0,0:02:46.80,0:02:52.44,Dialogue,,0,0,0,,{立てた杭に体を逆さにして\N縛りつけられた無残な格好でな。\N}She was tied upside-down to a stake that was driven into the ground, in a cruel pose.
-Dialogue: 0,0:02:53.06,0:02:55.44,Dialogue,,0,0,0,,{そらまた　エグイのぉ...。\N}That's harsh. {Added "mata"; not reflected in translation}
-Dialogue: 0,0:02:55.85,0:02:59.25,Dialogue,,0,0,0,,{（大滝）\Nその女性は\N館のメイドやったんやけど...→\N}That lady was employed as the mansion's maid, but...
-Dialogue: 0,0:02:59.25,0:03:02.07,Dialogue,,0,0,0,,{遺体の様子が\Nなんや　けったいで...。\N}Since the appearance of the corpse was really odd...{sono removed; shitai "corpse" replaced with itai}
-Dialogue: 0,0:03:03.10,0:03:04.87,Dialogue,,0,0,0,,{けったいって　何がや？\N}What do you mean by odd?
-Dialogue: 0,0:03:05.44,0:03:07.95,Dialogue,,0,0,0,,{その遺体見つけた老夫婦が\N}The corpse was found by an old couple.{Same shitai/itai change}
-Dialogue: 0,0:03:07.95,0:03:14.25,Dialogue,,0,0,0,,{肌の色があんまり白ぉて→\N}But since her skin was unnaturally white, {最初は　逆さに立てた熊よけの\Nカカシと間違えたみたいで。\N}at first they mistook her for an upside-down scarecrow intended to ward off bears.
-Dialogue: 0,0:03:14.71,0:03:20.25,Dialogue,,0,0,0,,{そんなん　動脈切って\N失血死させて→\N\Nそこに縛ったに\N決まってるやないか。\N}Wouldn't that just be because she died from blood loss due to a sliced artery, and was tied there?
-Dialogue: 0,0:03:20.25,0:03:24.26,Dialogue,,0,0,0,,{けど　そない大きな傷は\Nどこにもなかったらしいんや。\N}But there weren't any big wounds like that.{Slight change of wording}
-Dialogue: 0,0:03:24.83,0:03:29.27,Dialogue,,0,0,0,,{あったんは　首筋にあいてた\N２つの穴だけで...。\N}The only things were two holes punctured in the nape of her neck.
-Dialogue: 0,0:03:30.16,0:03:32.65,Dialogue,,0,0,0,,{首筋に２つの穴で失血死？\N}Death by blood loss with two holes in the nape of her neck?
-Dialogue: 0,0:03:32.65,0:03:35.57,Dialogue,,0,0,0,,{お　おい　それって　まさか...。\N}H-Hey, that wouldn't be...
+Dialogue: 0,0:01:20.02,0:01:24.24,Flashback,,0,0,0,,{\be10半年前に　その館の近くの森で\N殺しがあって→}Now there was a killing in the forest near that mansion a half-year ago
+Dialogue: 0,0:01:24.24,0:01:32.75,Flashback,,0,0,0,,{\be10妙な噂も立ってるらしいから\N無理にとは言わんけど...}and some odd rumours surfaced, so I can't say this is without cause, {出てくれるんやったら\N気ぃつけよ...→}but if you go there for me, do take care...
+Dialogue: 0,0:01:33.65,0:01:35.77,Flashback,,0,0,0,,{\be10血ぃ吸われんようにな}...that you don't get your blood sucked out.
+Dialogue: 0,0:01:35.77,0:01:37.75,Dialogue,,0,0,0,,{（平次）何を吸われるっちゅうねん。}What are you sayin' about bein' sucked?
+Dialogue: 0,0:01:39.16,0:01:43.83,Dialogue,,0,0,0,,{さっきから　吸われん吸われんってボソボソ言うてるけど。}You've been muttering 'Don't be sucked, don't be sucked' to yourself for a while now.
+Dialogue: 0,0:01:43.83,0:01:45.83,Dialogue,,0,0,0,,{（大滝）へ　平ちゃん！？}H-Hei{\rHonorifics - Dialogue}-chan{\r}?!
+Dialogue: 0,0:01:46.73,0:01:50.09,Dialogue,,0,0,0,,{まさか　女の唇のことと\Nちゃうやろな？}Don't tell me, you're thinking about a woman's lips, right?
+Dialogue: 0,0:01:50.09,0:01:52.37,Dialogue,,0,0,0,,{いつの間に車に？}W-When did you get in here?!
+Dialogue: 0,0:01:52.37,0:01:57.09,Dialogue,,0,0,0,,{大滝警部が　さっきガソリンスタンドで\Nトイレに行ったスキにこっそりね。}We snuck in when you went to the toilet at the petrol station earlier, Inspector Ōtaki.
+Dialogue: 0,0:01:57.09,0:01:58.87,Dialogue,,0,0,0,,{気づいてなかった？}Didn't you notice?
+Dialogue: 0,0:01:58.87,0:02:01.43,Dialogue,,0,0,0,,{小五郎のおじさんたちも→\N\Nついて来てるんだよ。\N（大滝）ええっ！？}That Uncle Kogorō and the others are following you.{altered line}
+Dialogue: 0,0:02:04.35,0:02:06.56,Dialogue,,0,0,0,,{け　けど...何で？}B-But why...?
+Dialogue: 0,0:02:06.56,0:02:11.80,Dialogue,,0,0,0,,{そら　大滝はんがコソコソ\N会いに行く女の顔を拝みにや。}They want to gaze upon the face of the woman you're secretly meeting with, Ōtaki-{\i1}han{\i0}!
+Dialogue: 0,0:02:11.80,0:02:16.65,Dialogue,,0,0,0,,{けど　まさかこっちに女がおるとは思わへんかったな～。}Though I never thought you'd have a woman over on this side.
+Dialogue: 0,0:02:16.65,0:02:19.74,Dialogue,,0,0,0,,{蘭ねえちゃんたちも　ちゃんと\N紹介してほしいって言ってたよ。}Ran{\rHonorifics - Dialogue}-neechan{\r} and the others said they wanted to be introduced to her.
+Dialogue: 0,0:02:19.74,0:02:23.74,Dialogue,,0,0,0,,{いやぁ～　見せられるような\Nええ女やないんで。}Ah, well, she's not so good-looking as to be shown off to others.
+Dialogue: 0,0:02:25.15,0:02:27.40,Dialogue,,0,0,0,,{ふ～ん。だったら教えてくれる？}Then will you tell us?{ja -> dattara}
+Dialogue: 0,0:02:27.40,0:02:28.71,Dialogue,,0,0,0,,{どんな事件なの？}What kind of case is it?
+Dialogue: 0,0:02:30.47,0:02:35.47,Dialogue,,0,0,0,,{事件なんやろ？俺に内緒っちゅうことは　親父がらみとちゃうか？}It is a case, right? And since you kept it from me, that means it has somethin' to do with ol' Dad, doesn't it?
+Dialogue: 0,0:02:39.54,0:02:46.31,Dialogue,,0,0,0,,{いやぁ　実は半年前\Nこれから行く館の近くの森で→\N\N女性の遺体が見つかったんや。}Well, actually, at the mansion I am headed to, half a year ago, a woman's corpse was found in the surrounding woods.{rewritten}
+Dialogue: 0,0:02:46.80,0:02:52.44,Dialogue,,0,0,0,,{立てた杭に体を逆さにして\N縛りつけられた無残な格好でな。}She was tied upside-down to a stake that was driven into the ground, in a cruel pose.
+Dialogue: 0,0:02:53.06,0:02:55.44,Dialogue,,0,0,0,,{そらまた　エグイのぉ...。}That's harsh. {Added "mata"; not reflected in translation}
+Dialogue: 0,0:02:55.85,0:02:59.25,Dialogue,,0,0,0,,{（大滝）\Nその女性は\N館のメイドやったんやけど...→}That lady was employed as the mansion's maid, but...
+Dialogue: 0,0:02:59.25,0:03:02.07,Dialogue,,0,0,0,,{遺体の様子が\Nなんや　けったいで...。}Since the appearance of the corpse was really odd...{sono removed; shitai "corpse" replaced with itai}
+Dialogue: 0,0:03:03.10,0:03:04.87,Dialogue,,0,0,0,,{けったいって　何がや？}What do you mean by odd?
+Dialogue: 0,0:03:05.44,0:03:07.95,Dialogue,,0,0,0,,{その遺体見つけた老夫婦が}The corpse was found by an old couple.{Same shitai/itai change}
+Dialogue: 0,0:03:07.95,0:03:14.25,Dialogue,,0,0,0,,{肌の色があんまり白ぉて→}But since her skin was unnaturally white, {最初は　逆さに立てた熊よけの\Nカカシと間違えたみたいで。}at first they mistook her for an upside-down scarecrow intended to ward off bears.
+Dialogue: 0,0:03:14.71,0:03:20.25,Dialogue,,0,0,0,,{そんなん　動脈切って\N失血死させて→\N\Nそこに縛ったに\N決まってるやないか。}Wouldn't that just be because she died from blood loss due to a sliced artery, and was tied there?
+Dialogue: 0,0:03:20.25,0:03:24.26,Dialogue,,0,0,0,,{けど　そない大きな傷は\Nどこにもなかったらしいんや。}But there weren't any big wounds like that.{Slight change of wording}
+Dialogue: 0,0:03:24.83,0:03:29.27,Dialogue,,0,0,0,,{あったんは　首筋にあいてた\N２つの穴だけで...。}The only things were two holes punctured in the nape of her neck.
+Dialogue: 0,0:03:30.16,0:03:32.65,Dialogue,,0,0,0,,{首筋に２つの穴で失血死？}Death by blood loss with two holes in the nape of her neck?
+Dialogue: 0,0:03:32.65,0:03:35.57,Dialogue,,0,0,0,,{お　おい　それって　まさか...。}H-Hey, that wouldn't be...
 Dialogue: 0,0:03:35.57,0:03:36.59,Dialogue,,0,0,0,,Yeah.
 Dialogue: 0,0:03:36.59,0:03:42.75,Flashback,,0,0,0,,{\be10（平蔵の声）\N大滝...お前　この世に\Nおると思うか？吸血鬼...。\NAO}Ōtaki, do you think vampires exist in this world?
-Dialogue: 0,0:03:46.49,0:03:50.70,Narration Off,,0,0,0,,{\be10\c&HAAAA00\t(0,4210,\c)}Seeking comprehensive answers, he clears all mysteries and codes!
-Dialogue: 0,0:03:50.70,0:03:52.58,Narration Off,,0,0,0,,{\be10\t(0,1880,\c&H88AA00)}Dracula's real?!
-Dialogue: 0,0:03:52.58,0:03:54.83,Narration Off,,0,0,0,,{\be10\c&H88AA00}The curtains open to a shocking case!{＜ドラキュラが実在するって？\N衝撃事件の幕が開く＞\N}
-Dialogue: 0,0:03:54.83,0:03:56.27,Narration Off,,0,0,0,,{\be10\c&H88AA00)\t(0,1440,\c)}He sees the single truth for what it is,
-Dialogue: 0,0:03:56.27,0:03:58.02,Narration Off,,0,0,0,,{\be10\t(0,1750,\c&HAA00AA)}and looks like a kid but has the mind of an adult!
-Dialogue: 0,0:03:58.02,0:04:00.88,Narration Off,,0,0,0,,{\be10\c&HAA00AA\t(0,1600,\c&H0000FF)\fad(0,500)}His name? Detective Conan!
-Dialogue: 0,0:05:48.33,0:05:50.11,Dialogue,,0,0,0,,{きゅ　吸血鬼！？\N}A-A vampire?!
-Dialogue: 0,0:05:50.49,0:05:53.45,Dialogue,,0,0,0,,{その殺し　吸血鬼の仕業だって\N言うんスか！？\N}Do you mean to say that killing was the work of a vampire?!
-Dialogue: 0,0:05:53.45,0:05:56.50,Dialogue,,0,0,0,,{いや～\Nただのしょうもない噂です。\N}It's just a baseless rumour.
-Dialogue: 0,0:05:56.50,0:06:00.12,Dialogue,,0,0,0,,{昔　この辺を　そないな大名が\N治めてはったらしいし。\N}Since this area used to be governed by a daimyō who was sorta vampire-like.{it's not like daimyō isn't known in English, do we want to leave that translated or detranslate it? "Feudal lord" here}
-Dialogue: 0,0:06:00.75,0:06:01.87,Dialogue,,0,0,0,,{ん？大名？\N}Daimyō?
-Dialogue: 0,0:06:02.53,0:06:06.29,Dialogue,,0,0,0,,{ほんで　その殺人犯\Nまだ捕まってないんか？\N}And? That murderer hasn't been arrested yet?
-Dialogue: 0,0:06:06.29,0:06:06.84,Dialogue,,0,0,0,,{ああ...。\N}Yeah...
-Dialogue: 0,0:06:07.25,0:06:09.63,Dialogue,,0,0,0,,{しかし　容疑者ぐらいは\Nいたんじゃ...。\N}But wasn't there at least a suspect?
-Dialogue: 0,0:06:09.63,0:06:15.90,Dialogue Top,,0,0,0,,{ええ　真っ先に疑われたんが\Nこの館の主の寅倉迫弥さんです。\N}Yeah. The first one to be suspected was the master of the mansion, Hakuya Torakura{\rHonorifics - Dialogue}-san{\r}.
+Dialogue: 0,0:03:46.49,0:03:50.70,Narration Off,,0,0,0,,{\be10}Seeking comprehensive answers, he clears all mysteries and codes!
+Dialogue: 0,0:03:50.70,0:03:52.58,Narration Off,,0,0,0,,{\be10}Dracula's real?!
+Dialogue: 0,0:03:52.58,0:03:54.83,Narration Off,,0,0,0,,{\be10}The curtains open to a shocking case!{＜ドラキュラが実在するって？\N衝撃事件の幕が開く＞}
+Dialogue: 0,0:03:54.83,0:03:56.27,Narration Off,,0,0,0,,{\be10}He sees the single truth for what it is,
+Dialogue: 0,0:03:56.27,0:03:58.02,Narration Off,,0,0,0,,{\be10}and looks like a kid but has the mind of an adult!
+Dialogue: 0,0:03:58.02,0:04:00.88,Narration Off,,0,0,0,,{\be10}His name? Detective Conan!
+Dialogue: 0,0:05:48.33,0:05:50.11,Dialogue,,0,0,0,,{きゅ　吸血鬼！？}A-A vampire?!
+Dialogue: 0,0:05:50.49,0:05:53.45,Dialogue,,0,0,0,,{その殺し　吸血鬼の仕業だって\N言うんスか！？}Do you mean to say that killing was the work of a vampire?!
+Dialogue: 0,0:05:53.45,0:05:56.50,Dialogue,,0,0,0,,{いや～\Nただのしょうもない噂です。}It's just a baseless rumour.
+Dialogue: 0,0:05:56.50,0:06:00.12,Dialogue,,0,0,0,,{昔　この辺を　そないな大名が\N治めてはったらしいし。}Since this area used to be governed by a daimyō who was sorta vampire-like.{it's not like daimyō isn't known in English, do we want to leave that translated or detranslate it? "Feudal lord" here}
+Dialogue: 0,0:06:00.75,0:06:01.87,Dialogue,,0,0,0,,{ん？大名？}Daimyō?
+Dialogue: 0,0:06:02.53,0:06:06.29,Dialogue,,0,0,0,,{ほんで　その殺人犯\Nまだ捕まってないんか？}And? That murderer hasn't been arrested yet?
+Dialogue: 0,0:06:06.29,0:06:06.84,Dialogue,,0,0,0,,{ああ...。}Yeah...
+Dialogue: 0,0:06:07.25,0:06:09.63,Dialogue,,0,0,0,,{しかし　容疑者ぐらいは\Nいたんじゃ...。}But wasn't there at least a suspect?
+Dialogue: 0,0:06:09.63,0:06:15.90,Dialogue Top,,0,0,0,,{ええ　真っ先に疑われたんが\Nこの館の主の寅倉迫弥さんです。}Yeah. The first one to be suspected was the master of the mansion, Hakuya Torakura{\rHonorifics - Dialogue}-san{\r}.
 Dialogue: 0,0:06:09.88,0:06:14.97,Signs,,0,0,0,,Hakuya Torakura (57)\NTorakura Family Head
-Dialogue: 0,0:06:15.90,0:06:20.26,Dialogue,,0,0,0,,{殺されたメイドが　館のシェフに\Nもらしてたらしいんですわ。\N}It seems the murdered maid had confided in the mansion's chef...
-Dialogue: 0,0:06:20.26,0:06:22.25,Dialogue,,0,0,0,,{「旦那様が　最近不気味で→\N}'The master has been acting really weird lately,'
-Dialogue: 0,0:06:22.25,0:06:25.56,Dialogue,,0,0,0,,{身の危険を感じるから\Nメイド辞めたい」って。\N}'and I feel like I'm in danger, so I want to quit being a maid.'
-Dialogue: 0,0:06:25.56,0:06:27.48,Dialogue,,0,0,0,,{じゃあ　やっぱり主が？\N}Then as expected, that master...?
-Dialogue: 0,0:06:27.86,0:06:29.45,Dialogue,,0,0,0,,{ああ　いや...。\N}Ah, no...
-Dialogue: 0,0:06:29.45,0:06:31.49,Dialogue,,0,0,0,,{（古賀）アリバイがあったんですよ。\N}He had an alibi.
-Dialogue: 0,0:06:32.13,0:06:36.18,Dialogue,,0,0,0,,{メイドの清水さんが亡くなった\N死亡推定時刻に→\N}At the approximate time that the maid, Shimizu{\rHonorifics - Dialogue}-san{\r}, died,
-Dialogue: 0,0:06:36.18,0:06:40.24,Dialogue,,0,0,0,,{旦那様は　ずっと部屋にこもって\N寝てらしたというアリバイが...→\N}the master had been cooped up in his room sleeping the entire time.
-Dialogue: 0,0:06:40.97,0:06:48.25,Dialogue,,0,0,0,,{皮肉にも　それを証言したのは\N清水さんに相談を受けていた→\N\Nそのシェフなんですけどね。\N}Ironically, the one who testified to that effect was the same chef whom Shimizu{\rHonorifics - Dialogue}-san{\r} had confided in.
-Dialogue: 0,0:06:48.92,0:06:53.88,Dialogue,,0,0,0,,{ようこそ　おいで下さいました。大阪府警の大滝警部ですね？\N}I extend a warm welcome. Inspector Ōtaki from the Ōsaka police, I presume?
-Dialogue: 0,0:06:54.25,0:06:55.65,Dialogue,,0,0,0,,{あ　はい...\N}Ah, yes.
-Dialogue: 0,0:06:55.65,0:06:57.22,Dialogue,,0,0,0,,{ほんなら　あんたが依頼主の...。\N}So you must be the client?
-Dialogue: 0,0:06:57.66,0:07:03.25,Dialogue Top,,0,0,0,,{執事の古賀です。服部本部長の\N父上とは　同期の桜でして。\N}I am Koga, the butler. I was a classmate of Superintendent Hattori's father.{null: Fixed "in the same year year as" -> "a classmate of", }
+Dialogue: 0,0:06:15.90,0:06:20.26,Dialogue,,0,0,0,,{殺されたメイドが　館のシェフに\Nもらしてたらしいんですわ。}It seems the murdered maid had confided in the mansion's chef...
+Dialogue: 0,0:06:20.26,0:06:22.25,Dialogue,,0,0,0,,{「旦那様が　最近不気味で→}'The master has been acting really weird lately,'
+Dialogue: 0,0:06:22.25,0:06:25.56,Dialogue,,0,0,0,,{身の危険を感じるから\Nメイド辞めたい」って。}'and I feel like I'm in danger, so I want to quit being a maid.'
+Dialogue: 0,0:06:25.56,0:06:27.48,Dialogue,,0,0,0,,{じゃあ　やっぱり主が？}Then as expected, that master...?
+Dialogue: 0,0:06:27.86,0:06:29.45,Dialogue,,0,0,0,,{ああ　いや...。}Ah, no...
+Dialogue: 0,0:06:29.45,0:06:31.49,Dialogue,,0,0,0,,{（古賀）アリバイがあったんですよ。}He had an alibi.
+Dialogue: 0,0:06:32.13,0:06:36.18,Dialogue,,0,0,0,,{メイドの清水さんが亡くなった\N死亡推定時刻に→}At the approximate time that the maid, Shimizu{\rHonorifics - Dialogue}-san{\r}, died,
+Dialogue: 0,0:06:36.18,0:06:40.24,Dialogue,,0,0,0,,{旦那様は　ずっと部屋にこもって\N寝てらしたというアリバイが...→}the master had been cooped up in his room sleeping the entire time.
+Dialogue: 0,0:06:40.97,0:06:48.25,Dialogue,,0,0,0,,{皮肉にも　それを証言したのは\N清水さんに相談を受けていた→\N\Nそのシェフなんですけどね。}Ironically, the one who testified to that effect was the same chef whom Shimizu{\rHonorifics - Dialogue}-san{\r} had confided in.
+Dialogue: 0,0:06:48.92,0:06:53.88,Dialogue,,0,0,0,,{ようこそ　おいで下さいました。大阪府警の大滝警部ですね？}I extend a warm welcome. Inspector Ōtaki from the Ōsaka police, I presume?
+Dialogue: 0,0:06:54.25,0:06:55.65,Dialogue,,0,0,0,,{あ　はい...}Ah, yes.
+Dialogue: 0,0:06:55.65,0:06:57.22,Dialogue,,0,0,0,,{ほんなら　あんたが依頼主の...。}So you must be the client?
+Dialogue: 0,0:06:57.66,0:07:03.25,Dialogue Top,,0,0,0,,{執事の古賀です。服部本部長の\N父上とは　同期の桜でして。}I am Koga, the butler. I was a classmate of Superintendent Hattori's father.{null: Fixed "in the same year year as" -> "a classmate of", }
 Dialogue: 0,0:06:57.51,0:07:03.23,Signs,,0,0,0,,Rikushige Koga (71)\NTorakura Family Butler
-Dialogue: 0,0:07:03.60,0:07:08.19,Dialogue,,0,0,0,,{ねえ　なんなの？最近の旦那様の\N様子が不気味だったって。\N}Say, what was it? The 'strange behaviour' the master has supposedly been showing lately?
-Dialogue: 0,0:07:08.91,0:07:16.04,Dialogue,,10,10,0,,{ああ...近頃の旦那様は→\N}Oh, recently the master has started {陽を避けるように　昼間はずっと\N部屋で寝てらしたり→\N}doing things such as sleeping in his room all through the day to try and avoid the sunlight,
-Dialogue: 0,0:07:16.04,0:07:23.41,Dialogue,,0,0,0,,{愛用なさっていた食器類も\N自分は銀アレルギーだと→\N}suddenly throwing out all of his beloved silver tableware, {急に言い出されて\N全てお捨てになったり。\N}saying that he was allergic to silver...
-Dialogue: 0,0:07:23.88,0:07:28.36,Dialogue,,0,0,0,,{先日は　好物のニンニクの入った\Nスープの皿を叩き割られて→\N}And the other day, he smashed the bowl of his favourite soup with garlic in it into pieces...
-Dialogue: 0,0:07:28.36,0:07:32.21,Dialogue,,0,0,0,,{「血が腐るから二度と入れるな」と大層ご立腹で。\N}He said, 'It makes my blood rot, so never use garlic again!', in an extreme rage.
-Dialogue: 0,0:07:32.55,0:07:34.72,Dialogue,,0,0,0,,{お　おい　それって　まるで...。\N}H-Hey, that's almost as if...
+Dialogue: 0,0:07:03.60,0:07:08.19,Dialogue,,0,0,0,,{ねえ　なんなの？最近の旦那様の\N様子が不気味だったって。}Say, what was it? The 'strange behaviour' the master has supposedly been showing lately?
+Dialogue: 0,0:07:08.91,0:07:16.04,Dialogue,,10,10,0,,{ああ...近頃の旦那様は→}Oh, recently the master has started {陽を避けるように　昼間はずっと\N部屋で寝てらしたり→}doing things such as sleeping in his room all through the day to try and avoid the sunlight,
+Dialogue: 0,0:07:16.04,0:07:23.41,Dialogue,,0,0,0,,{愛用なさっていた食器類も\N自分は銀アレルギーだと→}suddenly throwing out all of his beloved silver tableware, {急に言い出されて\N全てお捨てになったり。}saying that he was allergic to silver...
+Dialogue: 0,0:07:23.88,0:07:28.36,Dialogue,,0,0,0,,{先日は　好物のニンニクの入った\Nスープの皿を叩き割られて→}And the other day, he smashed the bowl of his favourite soup with garlic in it into pieces...
+Dialogue: 0,0:07:28.36,0:07:32.21,Dialogue,,0,0,0,,{「血が腐るから二度と入れるな」と大層ご立腹で。}He said, 'It makes my blood rot, so never use garlic again!', in an extreme rage.
+Dialogue: 0,0:07:32.55,0:07:34.72,Dialogue,,0,0,0,,{お　おい　それって　まるで...。}H-Hey, that's almost as if...
 Dialogue: 0,0:07:35.09,0:07:36.02,Dialogue,,0,0,0,,{ええ。}Yes.
-Dialogue: 0,0:07:36.02,0:07:39.22,Dialogue,,0,0,0,,{メイドの清水さんには\Nそう映ったんでしょう。→\N}I'm sure to the maid Shimizu{\rHonorifics - Dialogue}-san{\r} it appeared that way.
-Dialogue: 0,0:07:39.94,0:07:43.52,Dialogue,,0,0,0,,{まるで吸血鬼...\Nバンパイアのようだと。\N}As if he had become a vampire.{both manga and anime use "kyuuketsuki, vampire"}
-Dialogue: 0,0:07:44.02,0:07:45.39,Dialogue,,0,0,0,,{（和葉・蘭）バ　バンパイア！？\N}V-Vampire?!
+Dialogue: 0,0:07:36.02,0:07:39.22,Dialogue,,0,0,0,,{メイドの清水さんには\Nそう映ったんでしょう。→}I'm sure to the maid Shimizu{\rHonorifics - Dialogue}-san{\r} it appeared that way.
+Dialogue: 0,0:07:39.94,0:07:43.52,Dialogue,,0,0,0,,{まるで吸血鬼...\Nバンパイアのようだと。}As if he had become a vampire.{both manga and anime use "kyuuketsuki, vampire"}
+Dialogue: 0,0:07:44.02,0:07:45.39,Dialogue,,0,0,0,,{（和葉・蘭）バ　バンパイア！？}V-Vampire?!
 Dialogue: 0,0:07:45.90,0:07:48.61,Dialogue,,0,0,0,,{今　バンパイア言うてへんかった？}Just now, did you just say 'vampire'?
-Dialogue: 0,0:07:48.61,0:07:50.65,Dialogue,,0,0,0,,{吸血鬼がどうかしたの？\N}What do vampires have to do with this?
-Dialogue: 0,0:07:50.65,0:07:51.27,Dialogue,,0,0,0,,{ああ　いや...。\N}Ah, that is...
-Dialogue: 0,0:07:51.82,0:07:53.23,Dialogue,,0,0,0,,{あ～　あれや！\Nバンパーや　バンパー。\N}Ah, that's it! He said bumper, bumper!{partial rewrite. pun: bampaia/bampaa}
+Dialogue: 0,0:07:48.61,0:07:50.65,Dialogue,,0,0,0,,{吸血鬼がどうかしたの？}What do vampires have to do with this?
+Dialogue: 0,0:07:50.65,0:07:51.27,Dialogue,,0,0,0,,{ああ　いや...。}Ah, that is...
+Dialogue: 0,0:07:51.82,0:07:53.23,Dialogue,,0,0,0,,{あ～　あれや！\Nバンパーや　バンパー。}Ah, that's it! He said bumper, bumper!{partial rewrite. pun: bampaia/bampaa}
 Dialogue: 0,0:07:53.96,0:07:58.24,Dialogue,,0,0,0,,{レンタカーのバンパーに\N傷つけてしもて→\N\Nどないしょ～言うてたんや。}We're just discussing what to do since the bumper of the rental car got dented!
-Dialogue: 0,0:07:58.24,0:08:01.04,Dialogue,,0,0,0,,{な～んだ　バンパーか～。\N}Oh, so it was 'bumper'?
+Dialogue: 0,0:07:58.24,0:08:01.04,Dialogue,,0,0,0,,{な～んだ　バンパーか～。}Oh, so it was 'bumper'?
 Dialogue: 0,0:08:01.04,0:08:03.86,Dialogue,,0,0,0,,{なあ！平次らも早よ中　入り！}Hey, Heiji{plural not reflected in mangalation}, let's all hurry and go inside!
-Dialogue: 0,0:08:03.86,0:08:05.62,Dialogue,,0,0,0,,{お城みたいで　すごいよ。\N}It's amazing, just like a castle!
-Dialogue: 0,0:08:05.62,0:08:07.41,Dialogue,,0,0,0,,{へえ...。\N}Oh?
-Dialogue: 0,0:08:07.93,0:08:13.14,Dialogue,,0,0,0,,{では　そろそろ陽も傾いて\N旦那様が　お目覚めになる頃合い。\N}Well then, as the sun wanes and the time for the master to rise draws near,{manga o-oki -> anime o-mezame; no difference in translation here}
+Dialogue: 0,0:08:03.86,0:08:05.62,Dialogue,,0,0,0,,{お城みたいで　すごいよ。}It's amazing, just like a castle!
+Dialogue: 0,0:08:05.62,0:08:07.41,Dialogue,,0,0,0,,{へえ...。}Oh?
+Dialogue: 0,0:08:07.93,0:08:13.14,Dialogue,,0,0,0,,{では　そろそろ陽も傾いて\N旦那様が　お目覚めになる頃合い。}Well then, as the sun wanes and the time for the master to rise draws near,{manga o-oki -> anime o-mezame; no difference in translation here}
 Dialogue: 0,0:08:13.14,0:08:17.80,Dialogue,,0,0,0,,{夕食の支度がととのうまで\N館内でくつろいでいて下さい。}please relax inside the mansion until the preparations for dinner are complete.
-Dialogue: 0,0:08:17.80,0:08:19.09,Dialogue,,0,0,0,,{あ　はい。\N}Ah, yes, sir.
-Dialogue: 0,0:08:20.36,0:08:25.60,Dialogue,,0,0,0,,{問題の遺産相続の話し合いは\N夕食後とのことですので。\N}For the inheritance discussion in question will take place after dinner...
-Dialogue: 0,0:08:26.13,0:08:31.27,Dialogue,,0,0,0,,Hey, I wonder if Inspector Ōtaki's darling really is inside this mansion.{ねえ　ホントに　この館の中に→\N\N大滝警部の愛しい人いるのかなあ？\N}
-Dialogue: 0,0:08:31.94,0:08:34.82,Thoughts,,0,0,0,,{\be10}She {\i1}still{\i0} believes that?{《そのネタ　まだ信じてんのかよ》\N}
-Dialogue: 0,0:08:36.49,0:08:38.11,Dialogue,,0,0,0,,{すごいねえ...→\N}This is amazing!
-Dialogue: 0,0:08:38.56,0:08:43.55,Dialogue,,0,0,0,,{こういうのって映画やドラマで\Nよくあるけど→\N}I've only ever seen something like this in movies or dramas. To think I'm actually experiencing it!
-Dialogue: 0,0:08:43.55,0:08:44.53,Dialogue,,0,0,0,,{（和葉）ホンマ！\N}You said it.
-Dialogue: 0,0:08:45.10,0:08:47.80,Dialogue,,0,0,0,,{アタシらも\N貴族になった気分やわぁ！\N}It feels like we've also become aristocrats!
-Dialogue: 0,0:08:47.80,0:08:48.83,Dialogue,,0,0,0,,{（寅倉瑠莉）誰よ？あんたら。→\N}Who are you lot?
-Dialogue: 0,0:08:51.10,0:08:54.98,Dialogue Top,,0,0,0,,{まさかアンタたち　お義兄様の\N隠し子とかじゃないでしょうね？\N}Don't tell me you lot are our brother's illegitimate children, now!
+Dialogue: 0,0:08:17.80,0:08:19.09,Dialogue,,0,0,0,,{あ　はい。}Ah, yes, sir.
+Dialogue: 0,0:08:20.36,0:08:25.60,Dialogue,,0,0,0,,{問題の遺産相続の話し合いは\N夕食後とのことですので。}For the inheritance discussion in question will take place after dinner...
+Dialogue: 0,0:08:26.13,0:08:31.27,Dialogue,,0,0,0,,Hey, I wonder if Inspector Ōtaki's darling really is inside this mansion.{ねえ　ホントに　この館の中に→\N\N大滝警部の愛しい人いるのかなあ？}
+Dialogue: 0,0:08:31.94,0:08:34.82,Thoughts,,0,0,0,,{\be10}She {\i1}still{\i0} believes that?{《そのネタ　まだ信じてんのかよ》}
+Dialogue: 0,0:08:36.49,0:08:38.11,Dialogue,,0,0,0,,{すごいねえ...→}This is amazing!
+Dialogue: 0,0:08:38.56,0:08:43.55,Dialogue,,0,0,0,,{こういうのって映画やドラマで\Nよくあるけど→}I've only ever seen something like this in movies or dramas. To think I'm actually experiencing it!
+Dialogue: 0,0:08:43.55,0:08:44.53,Dialogue,,0,0,0,,{（和葉）ホンマ！}You said it.
+Dialogue: 0,0:08:45.10,0:08:47.80,Dialogue,,0,0,0,,{アタシらも\N貴族になった気分やわぁ！}It feels like we've also become aristocrats!
+Dialogue: 0,0:08:47.80,0:08:48.83,Dialogue,,0,0,0,,{（寅倉瑠莉）誰よ？あんたら。→}Who are you lot?
+Dialogue: 0,0:08:51.10,0:08:54.98,Dialogue Top,,0,0,0,,{まさかアンタたち　お義兄様の\N隠し子とかじゃないでしょうね？}Don't tell me you lot are our brother's illegitimate children, now!
 Dialogue: 0,0:08:50.50,0:08:56.42,Signs,,0,0,0,,Ruri Torakura (38)\NAsanobu's Wife
-Dialogue: 0,0:08:54.98,0:08:56.68,Dialogue Top,,0,0,0,,{（寅倉麻信）そんなわけないだろ！\N}There's no way that could be, is there?
-Dialogue: 0,0:08:58.19,0:09:01.89,Dialogue Top,,0,0,0,,{もしそうなら→\N\N兄さんが僕たちを\Nここへ呼ぶわけないし。\N}If that had been the case, there would have been no reason for Brother to have called us here.
+Dialogue: 0,0:08:54.98,0:08:56.68,Dialogue Top,,0,0,0,,{（寅倉麻信）そんなわけないだろ！}There's no way that could be, is there?
+Dialogue: 0,0:08:58.19,0:09:01.89,Dialogue Top,,0,0,0,,{もしそうなら→\N\N兄さんが僕たちを\Nここへ呼ぶわけないし。}If that had been the case, there would have been no reason for Brother to have called us here.
 Dialogue: 0,0:08:57.71,0:09:01.89,Signs,,0,0,0,,Asanobu Torakura (52)\NSecond son of the Torakura family
 Dialogue: 0,0:09:02.60,0:09:08.06,Dialogue Top,,0,0,0,,That's right. If they really were illegitimate children, Hakuya's inheritance wouldn't go to us, his siblings.
 Dialogue: 0,0:09:03.18,0:09:08.06,Signs,,0,0,0,,Kamiyo Torakura (60)\NFirst-born daughter of the Torakura family

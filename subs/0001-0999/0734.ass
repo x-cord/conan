@@ -33,9 +33,6 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: ButterflyCore2,Love Is Complicated Again,45,&HFF5E0036,&H000000FF,&H80000000,&H80000000,-1,0,0,0,100,100,1,0,1,0.75,0,8,10,10,30,1
-Style: BCPrologue,Cocon-Regular,45,&H805E0036,&H000000FF,&H00FFFFFF,&H80000000,-1,0,0,0,100,100,1,0,1,5,2,2,10,10,30,1
-Style: AitakuteRomaji,AlaskanNightsM,52,&H60DB9572,&H000000FF,&H00FFFFFF,&HC02F2F2F,-1,0,0,0,108,100,0,0,1,4,0,8,8,8,30,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -55,12 +52,12 @@ Dialogue: 0,0:00:50.23,0:00:51.15,Dialogue,,0,0,0,,Sure...
 Dialogue: 0,0:00:52.19,0:00:52.99,Dialogue,,0,0,0,,What is it?
 Dialogue: 0,0:00:54.03,0:00:55.57,Dialogue,,0,0,0,,Weren't you looking for someone?
 Dialogue: 0,0:00:55.57,0:00:58.41,Dialogue,,0,0,0,,Oh, not really.
-Dialogue: 0,0:01:15.08,0:01:19.01,BCPrologue,,0,0,0,,{\blur3\fad(200,0)}Only the light of deductions can tear apart the pitch-black shadows and bottomless darkness!
-Dialogue: 0,0:01:19.01,0:01:20.84,BCPrologue,,0,0,0,,{\blur3}Conflicting info under the cherry blossoms!
-Dialogue: 0,0:01:20.84,0:01:22.76,BCPrologue,,0,0,0,,{\blur3}A mysterious case and the FBI!
-Dialogue: 0,0:01:22.76,0:01:24.22,BCPrologue,,0,0,0,,{\blur3}He sees the single truth for what it is,
-Dialogue: 0,0:01:24.22,0:01:26.18,BCPrologue,,0,0,0,,{\blur3}and looks like a kid but has the mind of an adult!
-Dialogue: 0,0:01:26.18,0:01:29.06,BCPrologue,,0,0,0,,{\blur3}His name? Detective Conan!
+Dialogue: 0,0:01:15.08,0:01:19.01,Narration Off,,0,0,0,,{\be10}Only the light of deductions can tear apart the pitch-black shadows and bottomless darkness!
+Dialogue: 0,0:01:19.01,0:01:20.84,Narration Off,,0,0,0,,{\be10}Conflicting info under the cherry blossoms!
+Dialogue: 0,0:01:20.84,0:01:22.76,Narration Off,,0,0,0,,{\be10}A mysterious case and the FBI!
+Dialogue: 0,0:01:22.76,0:01:24.22,Narration Off,,0,0,0,,{\be10}He sees the single truth for what it is,
+Dialogue: 0,0:01:24.22,0:01:26.18,Narration Off,,0,0,0,,{\be10}and looks like a kid but has the mind of an adult!
+Dialogue: 0,0:01:26.18,0:01:29.06,Narration Off,,0,0,0,,{\be10}His name? Detective Conan!
 Dialogue: 0,0:03:01.43,0:03:03.15,Thoughts,,0,0,0,,{\be10}I just {\i1}had{\i0} to get 'bad luck', didn't I?
 Dialogue: 0,0:03:03.85,0:03:05.88,Dialogue,,0,0,0,,I got 'fairly good luck'!
 Dialogue: 0,0:03:05.88,0:03:07.50,Dialogue,,0,0,0,,I got 'good luck'!
@@ -428,19 +425,19 @@ Dialogue: 0,0:25:50.43,0:25:53.42,Dialogue,,0,0,0,,you deliberately dropped a ph
 Dialogue: 0,0:25:53.42,0:25:58.58,Dialogue,,0,0,0,,The fat man who picked it up first had greasy skin.
 Dialogue: 0,0:25:58.58,0:26:05.34,Dialogue,,0,0,0,,But in the end, the next man to pick it up was the spy, and the last old man had a pacemaker...
 Dialogue: 0,0:26:06.13,0:26:09.09,Dialogue,,0,0,0,,And that's the phone that Shū...
-Dialogue: 0,0:26:10.79,0:26:11.38,DCTP,,0,0,0,,{\be2　回想　\Nねえ　僕の知り合いのおじさんの→\N\Nビートルに乗せて運ばない？\N}Hey!{flashback to Clash, so let's use dctp's style here}
-Dialogue: 0,0:26:11.38,0:26:14.89,DCTP,,0,0,0,,{\be2　回想　\Nねえ　僕の知り合いのおじさんの→\N\Nビートルに乗せて運ばない？\N}Why don't we put her in a Beetle an old friend of mine drives?
-Dialogue: 0,0:26:16.12,0:26:18.10,DCTP,,0,0,0,,{\be2（ジョディ・ジェイムズ）え？\N後部座席なら寝かせられるし→\N}We can lay her down on the back seat.
-Dialogue: 0,0:26:18.10,0:26:24.60,DCTP,,0,0,0,,{\be2その悪い人たちは　きっと\Nストレッチャーが乗せられる→\N\N大きい車で運ぶって\N思ってるだろうから→\N}Those bad guys probably think you'll carry her in a bigger vehicle on a stretcher.
-Dialogue: 0,0:26:24.60,0:26:26.80,DCTP,,0,0,0,,{\be2絶対にバレないと思うよ。\N}They would never guess this.
-Dialogue: 0,0:26:26.80,0:26:29.11,DCTP,,0,0,0,,{\be2（ジョディ）\Nそ　そうかもしれないけど...。\N}T-That's probably true, but...
-Dialogue: 0,0:26:29.11,0:26:32.57,DCTP,,0,0,0,,{\be2じゃあ僕　外に出て電話で呼ぶね。\N}Then I'll give him a call.
-Dialogue: 0,0:26:32.57,0:26:34.53,DCTP,,0,0,0,,{\be2すぐ来てくれると思うから。\Nあっ　ああ...。\N}He'll probably come right away!
-Dialogue: 0,0:26:36.60,0:26:40.45,DCTP,,0,0,0,,{\be2いくらボウヤでも\Nそいつは出来ない相談だ。\N}No matter how smart you are, this isn't an option.
-Dialogue: 0,0:26:41.26,0:26:43.75,DCTP,,0,0,0,,{\be2これは我々　ＦＢＩの仕事。\N}This is a job for the FBI.
-Dialogue: 0,0:26:45.36,0:26:49.73,DCTP,,0,0,0,,{\be2（赤井）これ以上　一般市民を\N巻き込むわけにはいかん。\N}We can't let any more civilians get involved.
-Dialogue: 0,0:26:50.59,0:26:52.01,DCTP,,0,0,0,,{\be2ああ　で　でも...。\N}But...
-Dialogue: 0,0:26:52.01,0:26:54.22,DCTP,,0,0,0,,{\fad(0,700)\be2後は我々に任せるんだ。\N}Just leave the rest to us.
+Dialogue: 0,0:26:10.79,0:26:11.38,DCTP,,0,0,0,,{\be2　回想　\Nねえ　僕の知り合いのおじさんの→\N\Nビートルに乗せて運ばない？}Hey!{flashback to Clash, so let's use dctp's style here}
+Dialogue: 0,0:26:11.38,0:26:14.89,DCTP,,0,0,0,,{\be2　回想　\Nねえ　僕の知り合いのおじさんの→\N\Nビートルに乗せて運ばない？}Why don't we put her in a Beetle an old friend of mine drives?
+Dialogue: 0,0:26:16.12,0:26:18.10,DCTP,,0,0,0,,{\be2（ジョディ・ジェイムズ）え？\N後部座席なら寝かせられるし→}We can lay her down on the back seat.
+Dialogue: 0,0:26:18.10,0:26:24.60,DCTP,,0,0,0,,{\be2その悪い人たちは　きっと\Nストレッチャーが乗せられる→\N\N大きい車で運ぶって\N思ってるだろうから→}Those bad guys probably think you'll carry her in a bigger vehicle on a stretcher.
+Dialogue: 0,0:26:24.60,0:26:26.80,DCTP,,0,0,0,,{\be2絶対にバレないと思うよ。}They would never guess this.
+Dialogue: 0,0:26:26.80,0:26:29.11,DCTP,,0,0,0,,{\be2（ジョディ）\Nそ　そうかもしれないけど...。}T-That's probably true, but...
+Dialogue: 0,0:26:29.11,0:26:32.57,DCTP,,0,0,0,,{\be2じゃあ僕　外に出て電話で呼ぶね。}Then I'll give him a call.
+Dialogue: 0,0:26:32.57,0:26:34.53,DCTP,,0,0,0,,{\be2すぐ来てくれると思うから。\Nあっ　ああ...。}He'll probably come right away!
+Dialogue: 0,0:26:36.60,0:26:40.45,DCTP,,0,0,0,,{\be2いくらボウヤでも\Nそいつは出来ない相談だ。}No matter how smart you are, this isn't an option.
+Dialogue: 0,0:26:41.26,0:26:43.75,DCTP,,0,0,0,,{\be2これは我々　ＦＢＩの仕事。}This is a job for the FBI.
+Dialogue: 0,0:26:45.36,0:26:49.73,DCTP,,0,0,0,,{\be2（赤井）これ以上　一般市民を\N巻き込むわけにはいかん。}We can't let any more civilians get involved.
+Dialogue: 0,0:26:50.59,0:26:52.01,DCTP,,0,0,0,,{\be2ああ　で　でも...。}But...
+Dialogue: 0,0:26:52.01,0:26:54.22,DCTP,,0,0,0,,{\fad(0,700)\be2後は我々に任せるんだ。}Just leave the rest to us.
 Dialogue: 0,0:26:55.27,0:26:57.30,Dialogue,,0,0,0,,H-Hey, Jodie{\rHonorifics - Dialogue}-sensei{\r}?
 Dialogue: 0,0:26:58.99,0:27:01.56,Dialogue,,0,0,0,,T-That doesn't matter at all right now, does it?!
 Dialogue: 0,0:27:01.97,0:27:03.77,Dialogue,,0,0,0,,R-Right...
@@ -707,37 +704,3 @@ Dialogue: 0,0:46:53.81,0:46:57.35,Dialogue,,0,0,0,,Leading near the Bell Tree To
 Dialogue: 0,0:46:57.70,0:46:59.82,Dialogue,,0,0,0,,Solve the riddle of the unusual party!
 Dialogue: 0,0:46:59.82,0:47:03.32,Dialogue,,0,0,0,,Detective Conan: 'The Coded Invitation'!
 Dialogue: 0,0:47:03.32,0:47:07.28,Dialogue,,0,0,0,,Airs at 6 PM on Saturday 19th April!
-Dialogue: 0,0:01:02.15,0:01:07.16,ButterflyCore,,0,0,0,,{\blur4\fad(200,0)}kage o mau chō no kodō ga seijaku no umi o saite
-Dialogue: 0,0:01:07.33,0:01:14.50,ButterflyCore,,0,0,0,,{\blur4}kasanariau koe ga ima yami o furiharatta
-Dialogue: 0,0:01:29.06,0:01:34.48,ButterflyCore,,0,0,0,,{\blur4\c&H005500}haritsuita ase o nugutte nigemawaru light o ketta
-Dialogue: 0,0:01:34.85,0:01:40.15,ButterflyCore,,0,0,0,,{\blur4\c&H005500}kanashimi ni utareta kyō no kizuato kabau yō ni
-Dialogue: 0,0:01:40.32,0:01:45.61,ButterflyCore,,0,0,0,,{\blur4\c&H005500}aseru hodo ni tōku natte wake mo naku imi o sagashite
-Dialogue: 0,0:01:45.78,0:01:51.54,ButterflyCore,,0,0,0,,{\blur4\c&H005500\t(2500,3024,\c&H000055)}osanasa no ura ni kakushita yuzuritakunai omoi ni
-Dialogue: 0,0:01:51.66,0:01:56.33,ButterflyCore,,0,0,0,,{\blur4\c&H000077}kizuita nara miushinawanai yō ni
-Dialogue: 0,0:01:56.50,0:02:02.30,ButterflyCore,,0,0,0,,{\blur4\c&H770000}dareka o mamore'ru to motto ima shinjitai
-Dialogue: 0,0:02:02.51,0:02:07.55,ButterflyCore,,0,0,0,,{\blur4\c&HAA0000}kage o mau chō no kodō ga seijaku no umi o saita
-Dialogue: 0,0:02:07.72,0:02:13.06,ButterflyCore,,0,0,0,,{\blur4\c&H000077}kimi ni miseru itsuwari no subete ga uso ja nai daro
-Dialogue: 0,0:02:13.23,0:02:18.69,ButterflyCore,,0,0,0,,{\blur4\c&HAA0000}mayo'u tabi suteta kotae mo kitto erabu hi wa mata kuru kara
-Dialogue: 0,0:02:18.86,0:02:27.78,ButterflyCore,,0,0,0,,{\blur4\c&H006600}kono kokoro wa dare yori mo atsuku moyashi tsuzukeyō kienai yō ni
-Dialogue: 0,0:02:37.67,0:02:43.26,ButterflyCore,,0,0,0,,{\blur4\c&H006600\fad(0,1000)}kienai yō ni
-Dialogue: 0,0:01:02.15,0:01:07.16,ButterflyCore2,,0,0,0,,{\fad(200,0)}kage o mau chō no kodō ga seijaku no umi o saite
-Dialogue: 0,0:01:07.33,0:01:14.50,ButterflyCore2,,0,0,0,,kasanariau koe ga ima yami o furiharatta
-Dialogue: 0,0:01:29.06,0:01:34.48,ButterflyCore2,,0,0,0,,haritsuita ase o nugutte nigemawaru light o ketta
-Dialogue: 0,0:01:34.85,0:01:40.15,ButterflyCore2,,0,0,0,,kanashimi ni utareta kyō no kizuato kabau yō ni
-Dialogue: 0,0:01:40.32,0:01:45.61,ButterflyCore2,,0,0,0,,aseru hodo ni tōku natte wake mo naku imi o sagashite
-Dialogue: 0,0:01:45.78,0:01:51.54,ButterflyCore2,,0,0,0,,osanasa no ura ni kakushita yuzuritakunai omoi ni
-Dialogue: 0,0:01:51.66,0:01:56.33,ButterflyCore2,,0,0,0,,kizuita nara miushinawanai yō ni
-Dialogue: 0,0:01:56.50,0:02:02.30,ButterflyCore2,,0,0,0,,dareka o mamore'ru to motto ima shinjitai
-Dialogue: 0,0:02:02.51,0:02:07.55,ButterflyCore2,,0,0,0,,kage o mau chō no kodō ga seijaku no umi o saita
-Dialogue: 0,0:02:07.72,0:02:13.06,ButterflyCore2,,0,0,0,,kimi ni miseru itsuwari no subete ga uso ja nai daro
-Dialogue: 0,0:02:13.23,0:02:18.69,ButterflyCore2,,0,0,0,,mayo'u tabi suteta kotae mo kitto erabu hi wa mata kuru kara
-Dialogue: 0,0:02:18.86,0:02:27.78,ButterflyCore2,,0,0,0,,{\3c&H006600}kono kokoro wa dare yori mo atsuku moyashi tsuzukeyō kienai yō ni
-Dialogue: 0,0:02:37.67,0:02:43.26,ButterflyCore2,,0,0,0,,{\fad(0,1000)\3c&H006600}kienai yō ni
-Dialogue: 0,0:43:48.38,0:43:55.72,AitakuteRomaji,,0,0,0,,{\blur3}denwa ga naru tabi kono mune ga zawameku
-Dialogue: 0,0:43:56.05,0:44:03.06,AitakuteRomaji,,0,0,0,,{\blur3}demo kikoetekuru no wa kimi no koe ja nai
-Dialogue: 0,0:44:05.23,0:44:12.07,AitakuteRomaji,,0,0,0,,{\blur3}ima kimi wa doko ni iru no nani shite'ru no
-Dialogue: 0,0:44:12.78,0:44:21.62,AitakuteRomaji,,0,0,0,,{\blur3}kami{\fsp-2\fs40}- {\fsp\fs}sama ni negai todoku nara mō ichido dake
-Dialogue: 0,0:44:22.29,0:44:29.13,AitakuteRomaji,,0,0,0,,{\blur3}aitakute kimi ni aitakute
-Dialogue: 0,0:44:29.63,0:44:38.10,AitakuteRomaji,,0,0,0,,{\blur3}ima mo kono mune wa kimi{\fsp-2\fs40}- {\fsp\fs}iro ni somaru (dakishimetakute)
-Dialogue: 0,0:44:38.26,0:44:45.27,AitakuteRomaji,,0,0,0,,{\blur3}setsunakute nido to aenai nara
-Dialogue: 0,0:44:45.60,0:44:53.57,AitakuteRomaji,,0,0,0,,{\fad(0,1000)\blur3}maichiru yuki shiroku kono kokoro somete

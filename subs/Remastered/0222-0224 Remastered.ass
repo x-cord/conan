@@ -33,6 +33,7 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
+Style: RMLyrics3,BethHand,26,&H00FF9F00,&H000000FF,&H00FF9F00,&H00000000,0,0,0,0,90,100,0,0,1,3.25,0,8,20,20,68,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -43,23 +44,20 @@ Dialogue: 0,0:00:07.98,0:00:10.19,Narration Off,,0000,0000,0000,,{\be10}On the n
 Dialogue: 0,0:00:10.19,0:00:11.60,Narration Off,,0000,0000,0000,,{\be10}He sees the single truth for what it is,
 Dialogue: 0,0:00:11.60,0:00:13.05,Narration Off,,0000,0000,0000,,{\be10}and looks like a kid but has the mind of an adult!
 Dialogue: 0,0:00:13.05,0:00:15.10,Narration Off,,0000,0000,0000,,{\be10}His name? Detective Conan!
-Dialogue: 0,0:02:31.85,0:02:35.35,Signs,,0000,0000,0000,,Bikuni Island
-Dialogue: 0,0:04:16.20,0:04:20.71,Signs,,0000,0000,0000,,Naoko Kuroe (28)\NSaori's Childhood Friend\NSouvenir Shop Clerk
-Dialogue: 0,0:04:21.54,0:04:25.42,Dialogue,,0000,0000,0000,,{\fad(425,0)\move(603,316,402,316)\c&H111C20&}Arrow of Dugong
+Dialogue: 0,0:02:31.85,0:02:35.35,Character Card,,0000,0000,0000,,Bikuni Island
+Dialogue: 0,0:04:16.20,0:04:20.71,Character Card,,0000,0000,0000,,Naoko Kuroe (28)\NSaori's Childhood Friend\NSouvenir Shop Clerk
 Dialogue: 0,0:04:25.42,0:04:29.22,Signs,,0000,0000,0000,,Arrow of Dugong
-Dialogue: 0,0:04:59.04,0:05:02.50,Signs,,0000,0000,0000,,Bikuni Shrine
-Dialogue: 0,0:05:02.50,0:05:07.21,Signs,,0000,0000,0000,,Kimie Shimabukuro (27)\NSaori's Childhood Friend\NBikuni Shrine Maiden
-Dialogue: 0,0:05:35.53,0:05:38.45,Dialogue Top,,0000,0000,0000,,{\fad(900,0)\move(-62,162,200,162)\c&H111C20&}Anti-Evil Arrow
-Dialogue: 0,0:05:35.53,0:05:38.45,Dialogue Top,,0000,0000,0000,,{\fad(900,0)\move(-102,192,160,192)\c&H111C20&}jugon
+Dialogue: 0,0:04:59.04,0:05:02.50,Character Card,,0000,0000,0000,,Bikuni Shrine
+Dialogue: 0,0:05:02.50,0:05:07.21,Character Card,,0000,0000,0000,,Kimie Shimabukuro (27)\NSaori's Childhood Friend\NBikuni Shrine Maiden
 Dialogue: 0,0:05:38.45,0:05:46.50,Signs,,0000,0000,0000,,Anti-Evil Arrow
 Dialogue: 0,0:05:38.45,0:05:46.50,Signs,,0000,0000,0000,,jugon
 Dialogue: 0,0:05:42.00,0:05:46.50,Signs,,0000,0000,0000,,Arrow of Dugong
 Dialogue: 0,0:05:42.00,0:05:46.50,Signs,,0000,0000,0000,,jugon
-Dialogue: 0,0:06:39.68,0:06:44.14,Signs,,0000,0000,0000,,Toshimi Ebihara (27)\NSaori's Childhood Friend\NDaughter of the Head of the Fishermen's Union
-Dialogue: 0,0:06:57.41,0:07:01.91,Signs,,0000,0000,0000,,Rokuro Fukuyama (28)\NSaori's Childhood Friend\NFisherman
-Dialogue: 0,0:08:06.68,0:08:09.31,Signs,,0000,0000,0000,,Mikoto Shimabukuro (130)\NLady Mikoto
-Dialogue: 0,0:09:31.64,0:09:36.15,Signs,,0000,0000,0000,,Benzo Kadowaki (52)\NSaori's Father\NFisherman
-Dialogue: 0,0:15:58.70,0:16:01.16,Signs,,0000,0000,0000,,The Next Day\NEbihara House
+Dialogue: 0,0:06:39.68,0:06:44.14,Character Card,,0000,0000,0000,,Toshimi Ebihara (27)\NSaori's Childhood Friend\NDaughter of the Head of the Fishermen's Union
+Dialogue: 0,0:06:57.41,0:07:01.91,Character Card,,0000,0000,0000,,Rokuro Fukuyama (28)\NSaori's Childhood Friend\NFisherman
+Dialogue: 0,0:08:06.68,0:08:09.31,Character Card,,0000,0000,0000,,Mikoto Shimabukuro (130)\NLady Mikoto
+Dialogue: 0,0:09:31.64,0:09:36.15,Character Card,,0000,0000,0000,,Benzo Kadowaki (52)\NSaori's Father\NFisherman
+Dialogue: 0,0:15:58.70,0:16:01.16,Character Card,,0000,0000,0000,,The Next Day\NEbihara House
 Dialogue: 0,0:44:57.73,0:45:10.37,RMLyrics3,,0000,0000,0000,,nagai yoru ga asa ga hiru ga subete norari-kurari nagare-yuku yo
 Dialogue: 0,0:45:10.79,0:45:22.55,RMLyrics3,,0000,0000,0000,,hibi o tsunaide-yuku ni mo sou ne ishi to iu-mono ga hitsuyou?
 Dialogue: 0,0:45:23.88,0:45:30.18,RMLyrics3,,0000,0000,0000,,kizutsuite-naite-ita hi mo atta ki ga suru
@@ -431,7 +429,7 @@ Dialogue: 0,0:22:00.16,0:22:01.77,Narration Off,,0000,0000,0000,,{\be10}The ware
 Dialogue: 0,0:22:02.48,0:22:05.16,Narration Off,,0000,0000,0000,,{\be10}It burned to the ground, just like it did three years ago.
 Dialogue: 0,0:22:07.53,0:22:11.45,Narration Off,,0000,0000,0000,,{\be10}Yes, just like three years ago,
 Dialogue: 0,0:22:11.45,0:22:13.45,Narration Off,,0000,0000,0000,,{\be10}there was a body inside.
-Dialogue: 0,0:22:14.58,0:22:18.33,Signs,,0000,0000,0000,,Half a Day Later
+Dialogue: 0,0:22:14.58,0:22:18.33,Character Card,,0000,0000,0000,,Half a Day Later
 Dialogue: 0,0:22:14.76,0:22:17.77,Dialogue,,0000,0000,0000,,I-I see... Thank you very much.
 Dialogue: 0,0:22:20.02,0:22:22.04,Dialogue,,0000,0000,0000,,Well? How'd it go?
 Dialogue: 0,0:22:22.04,0:22:27.68,Dialogue,,0000,0000,0000,,They compared the teeth of the burnt body with Kimie{\rHonorifics - Dialogue}-san{\r}'s dental records.
@@ -674,7 +672,7 @@ Dialogue: 0,0:36:10.95,0:36:12.67,Dialogue,,0000,0000,0000,,Y-You don't mean...
 Dialogue: 0,0:36:12.67,0:36:15.43,Dialogue,,0000,0000,0000,,Someone who knew beforehand
 Dialogue: 0,0:36:15.43,0:36:19.13,Dialogue,,0000,0000,0000,,that Toshimi{\rHonorifics - Dialogue}-san{\r} and Naoko{\rHonorifics - Dialogue}-san{\r} were going to win arrows.
 Dialogue: 0,0:36:19.13,0:36:19.95,Dialogue,,0000,0000,0000,,That's right.
-Dialogue: 0,0:36:20.70,0:36:23.09,Dialogue,,0000,0000,0000,,{\t(2090,2390,}The killer is you!
+Dialogue: 0,0:36:20.70,0:36:23.09,Dialogue,,0000,0000,0000,,The killer is you!
 Dialogue: 0,0:36:27.48,0:36:28.95,Dialogue,,0000,0000,0000,,That's right.
 Dialogue: 0,0:36:28.95,0:36:33.36,Dialogue,,0000,0000,0000,,The killer is you, Lady Mikoto!
 Dialogue: 0,0:36:38.65,0:36:40.60,Dialogue,,0000,0000,0000,,You've gotta be kidding!

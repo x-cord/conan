@@ -33,8 +33,7 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: FlashbackThoughts,Calibri Nonligature,50,&H4B370001,&H000000FF,&H00CCFFFF,&HC0000000,-1,0,0,0,100,100,0,0,1,2.6,2,2,100,100,30,1Style: ConanEdogawaKun,Segoe Print,45,&H00B78800,&H000000FF,&H00B78800,&HC0000000,0,0,0,0,100,100,0,20,1,0,0,2,10,10,25,1
-Style: KudoSempai,Segoe Print,45,&H009796B7,&H000000FF,&H484B4B4B,&HC0000000,0,0,0,0,100,100,0,0,1,0,0,7,10,10,25,1Style: Blanka30,Arial,20,&HFFFFFFFF,&H000000FF,&H1E000000,&H00000000,0,0,0,0,100,100,0,0,3,1,0,7,10,10,10,1Style: topbox,Arial,20,&HFFFFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,3,1,0,8,10,10,10,1Style: OPTLTextless,FuntypeFattened,50,&H00FFFFFF,&H000000FF,&H80AF0068,&H80000000,-1,0,0,0,90,100,0,0,1,3,1,2,10,10,40,1Style: SemiTransBox,Arial,20,&HFFFFFFFF,&H000000FF,&H64000000,&H00000000,0,0,0,0,100,100,0,0,3,1,0,8,10,10,10,1Style: Massugu Yuku TL,Hey Gorgeous M,40,&H00FFFFFF,&H000000FF,&H404A4200,&HC0000000,0,0,0,0,85,100,2,0,1,3,1.5,2,100,100,30,1Style: TV,Segoe,70,&H00E0D4CB,&HFF0000FF,&H00370001,&HC0000000,-1,0,0,0,100,100,0,0,1,0,0,2,100,100,30,1Style: Phoneradio,Calibri,50,&H0FFDFFC6,&H000000FF,&H00370001,&HC0000000,-1,0,0,0,100,100,0,0,1,2.5,1.5,2,100,100,30,1Style: Poodles,MV Boli M,70,&H400102B5,&H000809FC,&H00CFF2F3,&H80000000,0,0,0,0,100,100,0,0,1,4,2,8,10,10,25,1
+Style: Poodles,MV Boli M,70,&H400102B5,&H000809FC,&H00CFF2F3,&H80000000,0,0,0,0,100,100,0,0,1,4,2,8,10,10,25,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -67,12 +66,12 @@ Dialogue: 0,0:01:46.65,0:01:51.67,Dialogue,,0,0,0,,Somehow it seems that I'm the
 Dialogue: 0,0:01:52.41,0:01:57.00,Dialogue,,0,0,0,,If I try it on my own and end up being exposed, I'll lose everything.
 Dialogue: 0,0:01:57.65,0:02:01.55,Dialogue,,0,0,0,,And if we work together, we'll have a better chance for success.
 Dialogue: 0,0:02:02.36,0:02:07.19,Dialogue,,0,0,0,,Very well. Then we'll carry out the plan next Sunday.
-Dialogue: 0,0:02:20.81,0:02:24.94,Narration Off,,0,0,0,,{\be10\c&HAAAA00\t(0,4130,\c)}Seeking comprehensive answers, he clears all mysteries and codes!
-Dialogue: 0,0:02:24.94,0:02:26.99,Narration Off,,0,0,0,,{\be10\t(0,2050,\c&H88AA00)}A dangerous conversation in the Noh mask museum.
-Dialogue: 0,0:02:26.99,0:02:29.20,Narration Off,,0,0,0,,{\be10\c&H88AA00}What secrets do their three masks hide?
-Dialogue: 0,0:02:29.20,0:02:30.95,Narration Off,,0,0,0,,{\be10\c&H88AA00)\t(0,1750,\c)}He sees the single truth for what it is,
-Dialogue: 0,0:02:30.95,0:02:32.65,Narration Off,,0,0,0,,{\be10\t(0,1700,\c&HAA00AA)}and looks like a kid but has the mind of an adult!
-Dialogue: 0,0:02:32.65,0:02:35.54,Narration Off,,0,0,0,,{\be10\c&HAA00AA\t(0,1600,\c&H0000FF)}His name? Detective Conan!
+Dialogue: 0,0:02:20.81,0:02:24.94,Narration Off,,0,0,0,,{\be10}Seeking comprehensive answers, he clears all mysteries and codes!
+Dialogue: 0,0:02:24.94,0:02:26.99,Narration Off,,0,0,0,,{\be10}A dangerous conversation in the Noh mask museum.
+Dialogue: 0,0:02:26.99,0:02:29.20,Narration Off,,0,0,0,,{\be10}What secrets do their three masks hide?
+Dialogue: 0,0:02:29.20,0:02:30.95,Narration Off,,0,0,0,,{\be10}He sees the single truth for what it is,
+Dialogue: 0,0:02:30.95,0:02:32.65,Narration Off,,0,0,0,,{\be10}and looks like a kid but has the mind of an adult!
+Dialogue: 0,0:02:32.65,0:02:35.54,Narration Off,,0,0,0,,{\be10}His name? Detective Conan!
 Dialogue: 0,0:04:29.10,0:04:31.74,Dialogue,,0,0,0,,What's this? Looks like they're closed.
 Dialogue: 0,0:04:32.17,0:04:33.74,Dialogue,,0,0,0,,You're right.
 Dialogue: 0,0:04:34.43,0:04:36.99,Dialogue,,0,0,0,,It doesn't matter. We have urgent business after all.
@@ -104,7 +103,7 @@ Dialogue: 0,0:06:15.18,0:06:19.59,Flashback,,0,0,0,,{\be10}If I ignored a letter
 Dialogue: 0,0:06:20.05,0:06:23.99,Flashback,,0,0,0,,{\be10}Geez, we don't even know whether the letter's for real or not...
 Dialogue: 0,0:06:24.98,0:06:27.74,Flashback,,0,0,0,,{\be10}Actually, I just wanted to go see the Noh masks.
 Dialogue: 0,0:06:29.44,0:06:33.40,Dialogue,,0,0,0,,And so I decided to come and investigate.
-Dialogue: 0,0:06:33.40,0:06:35.64,Dialogue,,0,0,0,,And who are you?\N
+Dialogue: 0,0:06:33.40,0:06:35.64,Dialogue,,0,0,0,,And who are you?
 Dialogue: 0,0:06:35.64,0:06:39.68,Dialogue,,0,0,0,,I probably should have said earlier. Here's my card.
 Dialogue: 0,0:06:40.91,0:06:45.91,Dialogue,,0,0,0,,You're the great detective, Sleeping Kogorō?!
 Dialogue: 0,0:06:45.91,0:06:49.28,Dialogue,,0,0,0,,Well, people call me that, yes.
@@ -112,7 +111,7 @@ Dialogue: 0,0:06:55.46,0:06:59.34,Dialogue,,0,0,0,,I'm an old acquaintance of Iz
 Dialogue: 0,0:06:59.34,0:07:03.59,Dialogue Top,,0,0,0,,But I'm surprised that you'd bring a kid along when investigating a murder threat.
 Dialogue: 0,0:06:59.59,0:07:03.59,Signs,,0,0,0,,Naruya Akaza (40)\NAcquaintance of Jisaburō's / Promoter
 Dialogue: 0,0:07:03.59,0:07:07.49,Dialogue,,0,0,0,,Well, the kid really wanted to see the Noh masks.
-Dialogue: 0,0:07:07.49,0:07:08.62,Dialogue,,0,0,0,,I see.\N
+Dialogue: 0,0:07:07.49,0:07:08.62,Dialogue,,0,0,0,,I see.
 Dialogue: 0,0:07:08.62,0:07:11.10,Dialogue,,0,0,0,,Your daughter has very refined tastes, it seems.\N
 Dialogue: 0,0:07:12.86,0:07:13.86,Dialogue,,0,0,0,,Thank you.
 Dialogue: 0,0:07:16.39,0:07:18.86,Dialogue,,0,0,0,,How on earth did that leak out?
@@ -124,7 +123,7 @@ Dialogue: 0,0:07:26.11,0:07:27.66,Dialogue Top,,0,0,0,,Where is the curator?{uso
 Dialogue: 0,0:07:28.64,0:07:31.92,Dialogue,,0,0,0,,It's just about time for his visit to the mansion god.
 Dialogue: 0,0:07:31.92,0:07:34.50,Dialogue,,0,0,0,,That's why Akaza's leading them there.
 Dialogue: 0,0:07:36.93,0:07:39.55,Dialogue,,0,0,0,,I-It's too late to stop!
-Dialogue: 0,0:07:41.20,0:07:43.18,Dialogue,,0,0,0,,Don't tell me you put a trap there?\N
+Dialogue: 0,0:07:41.20,0:07:43.18,Dialogue,,0,0,0,,Don't tell me you put a trap there?
 Dialogue: 0,0:07:43.80,0:07:45.60,Dialogue,,0,0,0,,This is bad.
 Dialogue: 0,0:07:49.07,0:07:52.19,Dialogue,,0,0,0,,What's the mansion god?
 Dialogue: 0,0:07:52.67,0:07:58.69,Dialogue,,0,0,0,,There has been a shrine to his ancestors in the northwest of the grounds since ancient times.
@@ -142,7 +141,7 @@ Dialogue: 0,0:08:49.53,0:08:52.12,Dialogue,,0,0,0,,I don't think it's just an em
 Dialogue: 0,0:09:06.97,0:09:08.01,Dialogue,,0,0,0,,Run!
 Dialogue: 0,0:09:12.02,0:09:12.93,Dialogue,,0,0,0,,Over there!
 Dialogue: 0,0:09:45.10,0:09:50.89,Dialogue,,0,0,0,,If it hadn't been for these kids, I would have been crushed by that lumber.
-Dialogue: 0,0:09:50.89,0:09:53.89,Dialogue,,0,0,0,,Go get me another wheelchair!\N
+Dialogue: 0,0:09:50.89,0:09:53.89,Dialogue,,0,0,0,,Go get me another wheelchair!
 Dialogue: 0,0:09:54.70,0:09:56.39,Dialogue,,0,0,0,,Y-Yes! I'll do it now.
 Dialogue: 0,0:09:56.91,0:09:59.01,Dialogue,,0,0,0,,Not you.
 Dialogue: 0,0:09:59.01,0:10:00.31,Dialogue,,0,0,0,,What are you waiting for?!
@@ -153,18 +152,18 @@ Dialogue: 0,0:10:23.70,0:10:28.30,Dialogue,,0,0,0,,But I think I can trust the b
 Dialogue: 0,0:10:29.92,0:10:31.93,Dialogue,,0,0,0,,And the young lady as well.
 Dialogue: 0,0:10:33.93,0:10:38.50,Dialogue,,0,0,0,,Mister, you never know what may happen.
 Dialogue: 0,0:10:38.50,0:10:40.45,Dialogue,,0,0,0,,So you should take precautions, don't you think?
-Dialogue: 0,0:10:41.55,0:10:43.09,Dialogue,,0,0,0,,That's true.\N
+Dialogue: 0,0:10:41.55,0:10:43.09,Dialogue,,0,0,0,,That's true.
 Dialogue: 0,0:10:43.09,0:10:45.36,Dialogue,,0,0,0,,But what kind of precautions?
 Dialogue: 0,0:10:45.36,0:10:48.95,Dialogue,,0,0,0,,For example, what's exhibited over there?
-Dialogue: 0,0:10:52.26,0:10:55.10,Dialogue,,0,0,0,,Medals and {\i1}odoshi{\i0}.\N
+Dialogue: 0,0:10:52.26,0:10:55.10,Dialogue,,0,0,0,,Medals and {\i1}odoshi{\i0}.
 Dialogue: 0,0:10:55.10,0:10:58.58,Dialogue,,0,0,0,,They're plaited cords, arranged in belt form and used as decoration.
 Dialogue: 0,0:10:58.58,0:11:00.96,Dialogue,,0,0,0,,{\i1}Odoshi{\i0} are a part of traditional armour.
 Dialogue: 0,0:11:00.96,0:11:03.34,Dialogue,,0,0,0,,Then they're probably very sturdy, right?
-Dialogue: 0,0:11:04.75,0:11:06.14,Dialogue,,0,0,0,,What about it?\N
+Dialogue: 0,0:11:04.75,0:11:06.14,Dialogue,,0,0,0,,What about it?
 Dialogue: 0,0:11:07.35,0:11:09.25,Dialogue,,0,0,0,,Is that a wasp? It's rather big!
 Dialogue: 0,0:11:10.51,0:11:11.84,Dialogue,,0,0,0,,It's going to kill me!
-Dialogue: 0,0:11:11.84,0:11:13.43,Dialogue,,0,0,0,,Don't exaggerate.\N
-Dialogue: 0,0:11:13.80,0:11:15.91,Dialogue,,0,0,0,,That's not it — it's a hornet.\N
+Dialogue: 0,0:11:11.84,0:11:13.43,Dialogue,,0,0,0,,Don't exaggerate.
+Dialogue: 0,0:11:13.80,0:11:15.91,Dialogue,,0,0,0,,That's not it — it's a hornet.
 Dialogue: 0,0:11:15.91,0:11:18.55,Dialogue,,0,0,0,,Curator Izumi's already been stung once.
 Dialogue: 0,0:11:18.55,0:11:22.19,Thoughts,,0,0,0,,{\be10}Oh, no! He could die from anaphylactic shock!
 Dialogue: 0,0:11:25.23,0:11:26.15,Dialogue,,0,0,0,,There's another one!
@@ -212,13 +211,13 @@ Dialogue: 0,0:15:00.19,0:15:03.11,Dialogue,,0,0,0,,Washed-rind cheese from Burgu
 Dialogue: 0,0:15:03.75,0:15:06.33,Dialogue,,0,0,0,,You just returned from France, didn't you?\N
 Dialogue: 0,0:15:06.33,0:15:08.63,Dialogue,,0,0,0,,Then should I open some wine as well?
 Dialogue: 0,0:15:13.94,0:15:15.04,Dialogue,,0,0,0,,Looks delicious!
-Dialogue: 0,0:15:17.52,0:15:22.22,Dialogue,,0,0,0,,{It smells so strongly that they call it\Nthe smell of god's feet.\N}The smell's so strong that some people call it 'the smell of God's feet'.
+Dialogue: 0,0:15:17.52,0:15:22.22,Dialogue,,0,0,0,,{It smells so strongly that they call it\Nthe smell of god's feet.}The smell's so strong that some people call it 'the smell of God's feet'.
 Dialogue: 0,0:15:22.22,0:15:25.94,Dialogue,,0,0,0,,But if you give it a try, it has a rich, milky flavour.\N
 Dialogue: 0,0:15:26.38,0:15:29.94,Dialogue,,0,0,0,,You usually just scoop some up with\Na spoon and eat it as-is.
 Dialogue: 0,0:15:30.35,0:15:34.68,Dialogue,,0,0,0,,Executive and manager, come and join us.\N
 Dialogue: 0,0:15:34.68,0:15:36.20,Dialogue,,0,0,0,,No, we couldn't.
 Dialogue: 0,0:15:36.58,0:15:42.20,Dialogue,,0,0,0,,Or are you confessing to being the culprit behind those three pranks?
-Dialogue: 0,0:15:43.07,0:15:44.38,Dialogue,,0,0,0,,D-Don't be silly.\N
+Dialogue: 0,0:15:43.07,0:15:44.38,Dialogue,,0,0,0,,D-Don't be silly.
 Dialogue: 0,0:15:44.38,0:15:46.46,Dialogue,,0,0,0,,Well, if you insist.
 Dialogue: 0,0:15:46.46,0:15:50.93,Dialogue,,0,0,0,,Yes, come, come. Sit wherever you wish.
 Dialogue: 0,0:15:50.93,0:15:54.38,Dialogue,,0,0,0,,Since if we all eat together, I'll know it's not poisoned.
@@ -252,7 +251,7 @@ Dialogue: 0,0:17:51.95,0:17:56.04,Dialogue,,0,0,0,,Do I have to stay covered in 
 Dialogue: 0,0:17:56.04,0:17:58.69,Dialogue,,0,0,0,,No, that won't do.\N
 Dialogue: 0,0:17:58.69,0:17:59.88,Dialogue,,0,0,0,,Toba{\rHonorifics - Dialogue}-san{\r}, was it?\N
 Dialogue: 0,0:17:59.88,0:18:01.45,Dialogue,,0,0,0,,Ah, yes.
-Dialogue: 0,0:18:01.45,0:18:04.90,Dialogue,,0,0,0,,Please clean just his immediate surroundings and leave the rest as it is.\N
+Dialogue: 0,0:18:01.45,0:18:04.90,Dialogue,,0,0,0,,Please clean just his immediate surroundings and leave the rest as it is.
 Dialogue: 0,0:18:04.90,0:18:06.14,Dialogue,,0,0,0,,Understood.
 Dialogue: 0,0:18:06.14,0:18:08.77,Dialogue,,0,0,0,,They'll be here soon.
 Dialogue: 0,0:18:08.77,0:18:10.46,Thoughts,,0,0,0,,{\be10}Moyono Mibu...
@@ -264,10 +263,10 @@ Dialogue: 0,0:18:26.14,0:18:27.89,Thoughts,,0,0,0,,{\be10}Was it put in afterwar
 Dialogue: 0,0:18:27.89,0:18:31.08,Thoughts,,0,0,0,,{\be10}No, no one had the chance to do that.
 Dialogue: 0,0:18:31.08,0:18:38.42,Thoughts,,0,0,0,,{\be10}Which means that maybe the poison wasn't in the cheese, but on the butter knife.
 Dialogue: 0,0:18:38.94,0:18:42.58,Dialogue,,0,0,0,,Say, where did you get this butter knife from?
-Dialogue: 0,0:18:43.58,0:18:45.93,Dialogue,,0,0,0,,\NThere was one on everyone's bread plate.
+Dialogue: 0,0:18:43.58,0:18:45.93,Dialogue,,0,0,0,,There was one on everyone's bread plate.
 Dialogue: 0,0:18:46.70,0:18:52.36,Thoughts,,0,0,0,,{\be10}And without knowing who would sit where, it would be impossible to target someone specifically.
 Dialogue: 0,0:18:57.54,0:19:00.06,Dialogue,,0,0,0,,{Hey, kid, we're moving somewhere else!}Hey, kid, we're leaving!
-Dialogue: 0,0:19:04.77,0:19:06.89,Dialogue,,0,0,0,,This is much better.\N
+Dialogue: 0,0:19:04.77,0:19:06.89,Dialogue,,0,0,0,,This is much better.
 Dialogue: 0,0:19:07.64,0:19:09.41,Dialogue,,0,0,0,,Don't you think so, Mouri{\rHonorifics - Dialogue}-san{\r}?
 Dialogue: 0,0:19:11.25,0:19:12.77,Dialogue,,0,0,0,,Absolutely!
 Dialogue: 0,0:19:12.77,0:19:16.17,Dialogue,,0,0,0,,Please be patient until the police arrive, everyone.
@@ -283,17 +282,17 @@ Dialogue: 0,0:19:49.31,0:19:50.31,Dialogue,,0,0,0,,Kid?
 Dialogue: 0,0:19:52.68,0:19:54.33,Thoughts,,0,0,0,,{\be10}That woman...
 Dialogue: 0,0:19:59.55,0:20:00.83,Thoughts,,0,0,0,,{\be10}That's...!
 Dialogue: 0,0:20:07.70,0:20:08.99,Dialogue,,0,0,0,,Mouse! There's a mouse!
-Dialogue: 0,0:20:11.85,0:20:14.00,Dialogue,,0,0,0,,Did the coffee spill?\N
+Dialogue: 0,0:20:11.85,0:20:14.00,Dialogue,,0,0,0,,Did the coffee spill?
 Dialogue: 0,0:20:14.00,0:20:15.18,Dialogue,,0,0,0,,I'm sorry.
 Dialogue: 0,0:20:17.01,0:20:20.35,Dialogue,,0,0,0,,Excuse me, the curator's wondering when the coffee will be ready.{well, there IS a {\rHonorifics - Dialogue}-san{\r} this time, but no Izumi =p -uso.}
-Dialogue: 0,0:20:20.35,0:20:22.15,Dialogue,,0,0,0,,Right away!\N
+Dialogue: 0,0:20:20.35,0:20:22.15,Dialogue,,0,0,0,,Right away!
 Dialogue: 0,0:20:22.15,0:20:23.77,Dialogue,,0,0,0,,I'll help!
 Dialogue: 0,0:20:23.77,0:20:25.48,Dialogue,,0,0,0,,No thanks!
 Dialogue: 0,0:20:28.40,0:20:31.91,Thoughts,,0,0,0,,{\be10}This time she didn't have a chance to slip any poison in.
 Dialogue: 0,0:20:33.91,0:20:39.16,Dialogue,,0,0,0,,So there was a motive for killing Akaza{\rHonorifics - Dialogue}-san{\r}?
 Dialogue: 0,0:20:39.55,0:20:45.04,Dialogue,,0,0,0,,He flattered me a lot, but apparently he was a vicious businessman.
 Dialogue: 0,0:20:45.04,0:20:46.80,Dialogue,,0,0,0,,Excuse my tardiness.
-Dialogue: 0,0:20:47.44,0:20:51.18,Dialogue,,0,0,0,,I don't want to die like Akaza.\N
+Dialogue: 0,0:20:47.44,0:20:51.18,Dialogue,,0,0,0,,I don't want to die like Akaza.
 Dialogue: 0,0:20:51.18,0:20:53.30,Dialogue,,0,0,0,,Please stop joking.
 Dialogue: 0,0:20:53.72,0:20:55.32,Dialogue,,0,0,0,,Please don't worry.
 Dialogue: 0,0:20:55.32,0:21:00.31,Dialogue,,0,0,0,,No one would be foolish enough to try to poison you when the police are on their way here.

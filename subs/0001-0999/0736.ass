@@ -33,10 +33,6 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: FlashbackThoughts,OSPuto,52,&H4B370001,&H000000FF,&H00CCFFFF,&HC0000000,-1,0,0,0,94,100,0,0,1,2.6,2,2,100,100,30,1Style: BCPrologue,Cocon-Regular,45,&H805E0036,&H000000FF,&H00FFFFFF,&H80000000,-1,0,0,0,100,100,1,0,1,5,2,2,10,10,30,1
-Style: ButterflyCore,Love Is Complicated Again,45,&H405E0036,&H000000FF,&H00FFFFFF,&H80000000,-1,0,0,0,100,100,1,0,1,3.5,0,8,10,10,30,1
-Style: ButterflyCore2,Love Is Complicated Again,45,&HFF5E0036,&H000000FF,&H80000000,&H80000000,-1,0,0,0,100,100,1,0,1,0.75,0,8,10,10,30,1
-Style: AitakuteRomaji,AlaskanNightsM,52,&H60DB9572,&H000000FF,&H00FFFFFF,&HC02F2F2F,-1,0,0,0,108,100,0,0,1,4,0,8,8,8,30,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -67,38 +63,12 @@ Dialogue: 0,0:01:03.37,0:01:06.46,Dialogue Top,,0,0,0,,Men are fools, through an
 Dialogue: 0,0:01:07.54,0:01:13.17,Dialogue,,0,0,0,,I'll give you thirty minutes! Just try and catch me!
 Dialogue: 0,0:01:13.17,0:01:20.18,Dialogue,,0,0,0,,If you somehow manage to catch me before that big clock strikes six, you will receive a wonderful prize!
 Dialogue: 0,0:01:20.18,0:01:22.35,Dialogue,,0,0,0,,I bid you good luck!
-Dialogue: 0,0:01:24.93,0:01:29.94,ButterflyCore,,0,0,0,,{\blur4\fad(200,0)}kage o mau chō no kodō ga seijaku no umi o saite
-Dialogue: 0,0:01:30.11,0:01:37.28,ButterflyCore,,0,0,0,,{\blur4}kasanariau koe ga ima yami o furiharatta
-Dialogue: 0,0:01:24.93,0:01:29.94,ButterflyCore2,,0,0,0,,{\fad(200,0)}kage o mau chō no kodō ga seijaku no umi o saite
-Dialogue: 0,0:01:30.11,0:01:37.28,ButterflyCore2,,0,0,0,,kasanariau koe ga ima yami o furiharatta
-Dialogue: 0,0:01:38.07,0:01:41.78,BCPrologue,,0,0,0,,{\blur3}Only the light of deductions can tear apart\Nblack shadows and deep darkness!
-Dialogue: 0,0:01:41.78,0:01:43.74,BCPrologue,,0,0,0,,{\blur3}The vast mansion grounds hold tons of tricks!
-Dialogue: 0,0:01:43.74,0:01:45.87,BCPrologue,,0,0,0,,{\blur3}What's the shocking reason for targeting Kogorō?!
-Dialogue: 0,0:01:45.87,0:01:47.50,BCPrologue,,0,0,0,,{\blur3}He sees the single truth for what it is,
-Dialogue: 0,0:01:47.50,0:01:49.33,BCPrologue,,0,0,0,,{\blur3}and looks like a kid but has the mind of an adult!
-Dialogue: 0,0:01:49.33,0:01:51.63,BCPrologue,,0,0,0,,{\blur3}His name? Detective Conan!
-Dialogue: 0,0:01:51.84,0:01:57.26,ButterflyCore,,0,0,0,,{\blur4\c&H005500}haritsuita ase o nugutte nigemawaru light o ketta
-Dialogue: 0,0:01:57.67,0:02:02.93,ButterflyCore,,0,0,0,,{\blur4\c&H005500}kanashimi ni utareta kyō no kizuato kabau yō ni
-Dialogue: 0,0:02:03.10,0:02:08.44,ButterflyCore,,0,0,0,,{\blur4\c&H005500}aseru hodo ni tōku natte wake mo naku imi o sagashite
-Dialogue: 0,0:02:08.56,0:02:14.32,ButterflyCore,,0,0,0,,{\blur4\c&H005500\t(2500,3024,\c&H000055)}osanasa no ura ni kakushita yuzuritakunai omoi ni
-Dialogue: 0,0:02:14.44,0:02:19.15,ButterflyCore,,0,0,0,,{\blur4\c&H000077}kizuita nara miushinawanai yō ni
-Dialogue: 0,0:02:19.28,0:02:25.08,ButterflyCore,,0,0,0,,{\blur4\c&H770000}dareka o mamore'ru to motto ima shinjitai
-Dialogue: 0,0:02:25.29,0:02:30.37,ButterflyCore,,0,0,0,,{\blur4\c&HAA0000}kage o mau chō no kodō ga seijaku no umi o saita
-Dialogue: 0,0:02:30.50,0:02:35.84,ButterflyCore,,0,0,0,,{\blur4\c&H000077}kimi ni miseru itsuwari no subete ga uso ja nai daro
-Dialogue: 0,0:02:36.00,0:02:41.47,ButterflyCore,,0,0,0,,{\blur4\c&HAA0000}mayo'u tabi suteta kotae mo kitto erabu hi wa mata kuru kara
-Dialogue: 0,0:02:41.64,0:02:50.56,ButterflyCore,,0,0,0,,{\blur4\c&H006600}kono kokoro wa dare yori mo atsuku moyashi tsuzukeyō kienai yō ni
-Dialogue: 0,0:03:00.49,0:03:06.12,ButterflyCore,,0,0,0,,{\blur4\c&H006600\fad(0,1000)}kienai yō ni
-Dialogue: 0,0:01:51.84,0:01:57.26,ButterflyCore2,,0,0,0,,haritsuita ase o nugutte nigemawaru light o ketta
-Dialogue: 0,0:01:57.67,0:02:02.93,ButterflyCore2,,0,0,0,,kanashimi ni utareta kyō no kizuato kabau yō ni
-Dialogue: 0,0:02:03.10,0:02:08.44,ButterflyCore2,,0,0,0,,aseru hodo ni tōku natte wake mo naku imi o sagashite
-Dialogue: 0,0:02:08.52,0:02:14.32,ButterflyCore2,,0,0,0,,osanasa no ura ni kakushita yuzuritakunai omoi ni
-Dialogue: 0,0:02:14.44,0:02:19.15,ButterflyCore2,,0,0,0,,kizuita nara miushinawanai yō ni
-Dialogue: 0,0:02:19.28,0:02:25.08,ButterflyCore2,,0,0,0,,dareka o mamore'ru to motto ima shinjitai
-Dialogue: 0,0:02:25.29,0:02:30.37,ButterflyCore2,,0,0,0,,kage o mau chō no kodō ga seijaku no umi o saita
-Dialogue: 0,0:02:30.50,0:02:35.84,ButterflyCore2,,0,0,0,,kimi ni miseru itsuwari no subete ga uso ja nai daro
-Dialogue: 0,0:02:36.00,0:02:41.47,ButterflyCore2,,0,0,0,,mayo'u tabi suteta kotae mo kitto erabu hi wa mata kuru kara
-Dialogue: 0,0:02:41.64,0:02:50.56,ButterflyCore2,,0,0,0,,{\3c&H006600}kono kokoro wa dare yori mo atsuku moyashi tsuzukeyō kienai yō ni
-Dialogue: 0,0:03:00.49,0:03:06.12,ButterflyCore2,,0,0,0,,{\fad(0,1000)\3c&H006600}kienai yō ni
+Dialogue: 0,0:01:38.07,0:01:41.78,Narration Off,,0,0,0,,{\be10}Only the light of deductions can tear apart\Nblack shadows and deep darkness!
+Dialogue: 0,0:01:41.78,0:01:43.74,Narration Off,,0,0,0,,{\be10}The vast mansion grounds hold tons of tricks!
+Dialogue: 0,0:01:43.74,0:01:45.87,Narration Off,,0,0,0,,{\be10}What's the shocking reason for targeting Kogorō?!
+Dialogue: 0,0:01:45.87,0:01:47.50,Narration Off,,0,0,0,,{\be10}He sees the single truth for what it is,
+Dialogue: 0,0:01:47.50,0:01:49.33,Narration Off,,0,0,0,,{\be10}and looks like a kid but has the mind of an adult!
+Dialogue: 0,0:01:49.33,0:01:51.63,Narration Off,,0,0,0,,{\be10}His name? Detective Conan!
 Dialogue: 0,0:03:20.38,0:03:23.30,Dialogue Top,,0,0,0,,Every time I'm here, I'm impressed by this huge garden.
 Dialogue: 0,0:03:23.30,0:03:26.05,Dialogue Top,,0,0,0,,Yeah, it's like he's got a town in his garden.
 Dialogue: 0,0:03:26.35,0:03:29.35,Dialogue Top,,0,0,0,,Actually, we {\i1}do{\i0} call it a 'town' instead of a garden.
@@ -377,14 +347,6 @@ Dialogue: 0,0:21:28.47,0:21:31.26,Dialogue,,0,0,0,,And that's why you took off y
 Dialogue: 0,0:21:32.52,0:21:35.23,Dialogue,,0,0,0,,I just intended it as a silent protest.
 Dialogue: 0,0:21:35.23,0:21:38.52,Dialogue,,0,0,0,,But he never even noticed!
 Dialogue: 0,0:21:40.23,0:21:45.24,Dialogue,,0,0,0,,Really? Then the master's feelings for her never faded...
-Dialogue: 0,0:21:59.42,0:22:06.76,AitakuteRomaji,,0,0,0,,{\blur3}denwa ga naru tabi kono mune ga zawameku
-Dialogue: 0,0:22:07.09,0:22:14.10,AitakuteRomaji,,0,0,0,,{\blur3}demo kikoetekuru no wa kimi no koe ja nai
-Dialogue: 0,0:22:16.23,0:22:23.02,AitakuteRomaji,,0,0,0,,{\blur3}ima kimi wa doko ni iru no nani shite'ru no
-Dialogue: 0,0:22:23.77,0:22:32.91,AitakuteRomaji,,0,0,0,,{\blur3}kami{\fsp-2\fs40}- {\fsp\fs}sama ni negai todoku nara mō ichido dake
-Dialogue: 0,0:22:33.28,0:22:40.12,AitakuteRomaji,,0,0,0,,{\blur3}aitakute kimi ni aitakute
-Dialogue: 0,0:22:40.62,0:22:49.09,AitakuteRomaji,,0,0,0,,{\blur3}ima mo kono mune wa kimi{\fsp-2\fs40}- {\fsp\fs}iro ni somaru (dakishimetakute)
-Dialogue: 0,0:22:49.26,0:22:56.27,AitakuteRomaji,,0,0,0,,{\blur3}setsunakute nido to aenai nara
-Dialogue: 0,0:22:56.60,0:23:04.61,AitakuteRomaji,,0,0,0,,{\fad(0,1000)\blur3}maichiru yuki shiroku kono kokoro somete
 Dialogue: 0,0:23:09.49,0:23:13.74,Dialogue,,0,0,0,,So this is the prize that Kataoka{\rHonorifics - Dialogue}-san{\r} planned to give you?
 Dialogue: 0,0:23:15.12,0:23:19.25,Dialogue,,0,0,0,,I guess he truly was a fool to make me something like this!
 Dialogue: 0,0:23:20.41,0:23:24.75,Dialogue,,0,0,0,,I just enjoyed our games together...

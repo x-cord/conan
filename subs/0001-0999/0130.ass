@@ -33,6 +33,7 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
+
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 Dialogue: 0,0:00:01.50,0:00:04.25,Narration Off,,0000,0000,0000,,{\be10}Alibis, codes, tricks, deals.
@@ -91,8 +92,8 @@ Dialogue: 0,0:03:59.46,0:04:00.80,Dialogue,,0000,0000,0000,,What?!
 Dialogue: 0,0:04:00.80,0:04:02.88,Dialogue,,0000,0000,0000,,Not until the afternoon?
 Dialogue: 0,0:04:02.88,0:04:04.64,Dialogue,,0000,0000,0000,,That sucks.
 Dialogue: 0,0:04:04.64,0:04:07.72,Dialogue,,0000,0000,0000,,I'll take a nap. Wake me up when it starts.
-Dialogue: 0,0:04:07.72,0:04:10.81,Dialogue,,0000,0000,0000,,{\fad(0,500)}Wait, Dad! You'll catch a cold!
-Dialogue: 0,0:04:12.93,0:04:17.89,Signs,,0000,0000,0000,,January 1st\NNational Stadium\NEmperor's Cup Finals
+Dialogue: 0,0:04:07.72,0:04:10.81,Dialogue,,0000,0000,0000,,Wait, Dad! You'll catch a cold!
+Dialogue: 0,0:04:12.93,0:04:17.89,Character Card,,0000,0000,0000,,January 1st\NNational Stadium\NEmperor's Cup Finals
 Dialogue: 0,0:04:30.86,0:04:32.07,Signs,,0000,0000,0000,,Big Osaka
 Dialogue: 0,0:04:30.86,0:04:32.07,Signs,,0000,0000,0000,,Tokyo Spirits
 Dialogue: 0,0:04:32.07,0:04:37.70,Radio,,0000,0000,0000,,{\be10\an8}Goal from the Tokyo Spirits, four minutes into the first half! Scored by Hideo Akagi!
@@ -141,10 +142,10 @@ Dialogue: 0,0:06:40.32,0:06:42.49,Dialogue,,0000,0000,0000,,Forget about them fo
 Dialogue: 0,0:06:42.49,0:06:43.41,Dialogue,,0000,0000,0000,,The match, the match!
 Dialogue: 0,0:06:43.41,0:06:46.87,Dialogue,,0000,0000,0000,,Soccer matches are the best live!
 Dialogue: 0,0:06:53.05,0:06:55.76,Dialogue,,0000,0000,0000,,All right! Go!
-Dialogue: 0,0:06:56.47,0:06:58.09,Thoughts,,0000,0000,0000,,{\be10\fad(200,0)}Kudo{\rHonorifics - Thoughts\be10}-kun{\r\be10}...
-Dialogue: 0,0:06:58.09,0:07:00.30,Thoughts,,0000,0000,0000,,{\be10\fad(0,200)}You can't even imagine in your dreams...
+Dialogue: 0,0:06:56.47,0:06:58.09,Thoughts,,0000,0000,0000,,{\be10}Kudo{\rHonorifics - Thoughts\be10}-kun{\r\be10}...
+Dialogue: 0,0:06:58.09,0:07:00.30,Thoughts,,0000,0000,0000,,{\be10}You can't even imagine in your dreams...
 Dialogue: 0,0:07:01.51,0:07:07.14,Thoughts,,0000,0000,0000,,{\be10}You're already deeply connected to the secret project our Organization's been working on
-Dialogue: 0,0:07:07.14,0:07:10.35,Thoughts,,0000,0000,0000,,{\be10\fad(0,200)}for half a century.
+Dialogue: 0,0:07:07.14,0:07:10.35,Thoughts,,0000,0000,0000,,{\be10}for half a century.
 Dialogue: 0,0:07:10.35,0:07:13.40,Dialogue,,0000,0000,0000,,All right, now go from camera two to camera three.
 Dialogue: 0,0:07:13.40,0:07:16.15,Dialogue,,0000,0000,0000,,Don't miss the goal play on camera one!
 Dialogue: 0,0:07:16.15,0:07:18.32,Dialogue,,0000,0000,0000,,Camera four, what are you doing?
@@ -289,7 +290,7 @@ Dialogue: 0,0:14:49.98,0:14:52.69,Dialogue,,0000,0000,0000,,Until I give the sig
 Dialogue: 0,0:14:52.69,0:14:54.02,Dialogue,,0000,0000,0000,,Y-Yes, sir!
 Dialogue: 0,0:14:54.02,0:14:55.90,Thoughts,,0000,0000,0000,,{\be10}But what can we do?
 Dialogue: 0,0:14:55.90,0:14:59.36,Thoughts,,0000,0000,0000,,{\be10}How can we find the blackmailers with so few clues?
-Dialogue: 0,0:14:59.36,0:15:05.41,Thoughts,,0000,0000,0000,,{\be10\fad(0,250)}How do we find him in this stadium packed with 56,000 people?
+Dialogue: 0,0:14:59.36,0:15:05.41,Thoughts,,0000,0000,0000,,{\be10}How do we find him in this stadium packed with 56,000 people?
 Dialogue: 0,0:15:15.37,0:15:17.83,Radio,,0000,0000,0000,,{\be10}To all personnel spread through the stands...
 Dialogue: 0,0:15:17.83,0:15:20.13,Radio,,0000,0000,0000,,{\be10}There are two or more blackmailers.
 Dialogue: 0,0:15:20.13,0:15:23.76,Radio,,0000,0000,0000,,{\be10}We have reasons to believe one of them has a Tokarev.

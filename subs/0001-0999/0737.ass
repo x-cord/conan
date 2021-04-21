@@ -33,8 +33,7 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: ButterflyCore2,Love Is Complicated Again,45,&HFF5E0036,&H000000FF,&H80000000,&H80000000,-1,0,0,0,100,100,1,0,1,0.75,0,8,10,10,30,1
-Style: BCPrologue,Cocon-Regular,45,&H805E0036,&H000000FF,&H00FFFFFF,&H80000000,-1,0,0,0,100,100,1,0,1,5,2,2,10,10,30,1Style: RainMan,FOT-Seurat Pro,35,&HC0FE4D00,&H000000FF,&H00FFFFFF,&H80000000,-1,0,0,0,100,100,0,0,1,3.5,0.5,8,10,10,25,1
+Style: RainMan,FOT-Seurat Pro,35,&HC0FE4D00,&H000000FF,&H00FFFFFF,&H80000000,-1,0,0,0,100,100,0,0,1,3.5,0.5,8,10,10,25,1
 Style: EDTLBox1,FOT-NewRodin Pro B,33,&H00F7F7F7,&H000000FF,&H784B4B4B,&HC0000000,0,0,0,0,105,100,0,0,1,0,0,2,10,10,7,1
 Style: EDTLBox2,FOT-NewRodin Pro B,33,&HFFFFFFFF,&H000000FF,&H3C4B4B4B,&HC0000000,0,0,0,0,105,100,0,0,1,2.25,0,2,10,10,7,1
 
@@ -70,12 +69,12 @@ Dialogue: 0,0:01:27.88,0:01:31.40,Dialogue,,0,0,0,,I wouldn't want your parents 
 Dialogue: 0,0:01:31.84,0:01:36.03,Dialogue,,0,0,0,,Grandma, you're about to have breakfast, right? Make some for me too.
 Dialogue: 0,0:01:37.06,0:01:41.03,Dialogue,,0,0,0,,Only once you find yourself a job and pay me back the money I lent you.
 Dialogue: 0,0:01:41.39,0:01:43.06,Dialogue,,0,0,0,,R-Right...
-Dialogue: 0,0:02:04.09,0:02:07.82,BCPrologue,,0,0,0,,{\blur3\fad(200,0)}Only the light of deductions can tear apart the pitch-black shadows and bottomless darkness!
-Dialogue: 0,0:02:07.82,0:02:10.10,BCPrologue,,0,0,0,,{\blur3}Walking a dog along the same path every day...{The same dog promenade every day...}
-Dialogue: 0,0:02:10.10,0:02:12.14,BCPrologue,,0,0,0,,{\blur3}The smallest difference is the start of a case!
-Dialogue: 0,0:02:12.14,0:02:13.78,BCPrologue,,0,0,0,,{\blur3}He sees the single truth for what it is,
-Dialogue: 0,0:02:13.78,0:02:15.56,BCPrologue,,0,0,0,,{\blur3}and looks like a kid but has the mind of an adult.
-Dialogue: 0,0:02:15.56,0:02:18.08,BCPrologue,,0,0,0,,{\blur3}His name? Detective Conan!
+Dialogue: 0,0:02:04.09,0:02:07.82,Narration Off,,0,0,0,,{\be10}Only the light of deductions can tear apart the pitch-black shadows and bottomless darkness!
+Dialogue: 0,0:02:07.82,0:02:10.10,Narration Off,,0,0,0,,{\be10}Walking a dog along the same path every day...{The same dog promenade every day...}
+Dialogue: 0,0:02:10.10,0:02:12.14,Narration Off,,0,0,0,,{\be10}The smallest difference is the start of a case!
+Dialogue: 0,0:02:12.14,0:02:13.78,Narration Off,,0,0,0,,{\be10}He sees the single truth for what it is,
+Dialogue: 0,0:02:13.78,0:02:15.56,Narration Off,,0,0,0,,{\be10}and looks like a kid but has the mind of an adult.
+Dialogue: 0,0:02:15.56,0:02:18.08,Narration Off,,0,0,0,,{\be10}His name? Detective Conan!
 Dialogue: 0,0:03:50.09,0:03:52.96,Dialogue,,0,0,0,,Are you there, ma'am?
 Dialogue: 0,0:03:52.96,0:03:55.35,Dialogue,,0,0,0,,We're here to get Conan's jacket!
 Dialogue: 0,0:03:55.35,0:03:57.30,Dialogue,,0,0,0,,She's probably not home.
@@ -413,29 +412,3 @@ Dialogue: 0,0:22:37.89,0:22:43.39,EDTLBox2,,0,0,0,,{\blur1.5}I want to be with y
 Dialogue: 0,0:22:43.56,0:22:48.94,EDTLBox2,,0,0,0,,{\blur1.5}I want to go back, but I can't go back to the memory of that day so long ago
 Dialogue: 0,0:22:49.07,0:22:55.03,EDTLBox2,,0,0,0,,{\blur1.5}As I stand here drenched on the same street corner
 Dialogue: 0,0:22:55.53,0:23:00.20,EDTLBox2,,0,0,0,,{\blur1.5\fad(0,750)}My heart's still looking for you...
-Dialogue: 0,0:01:51.18,0:01:56.18,ButterflyCore,,0,0,0,,{\blur4\fad(200,0)}kage o mau chō no kodō ga seijaku no umi o saite
-Dialogue: 0,0:01:56.35,0:02:03.52,ButterflyCore,,0,0,0,,{\blur4}kasanariau koe ga ima yami o furiharatta
-Dialogue: 0,0:02:18.08,0:02:23.50,ButterflyCore,,0,0,0,,{\blur4\c&H005500}haritsuita ase o nugutte nigemawaru light o ketta
-Dialogue: 0,0:02:23.88,0:02:29.17,ButterflyCore,,0,0,0,,{\blur4\c&H005500}kanashimi ni utareta kyō no kizuato kabau yō ni
-Dialogue: 0,0:02:29.34,0:02:34.64,ButterflyCore,,0,0,0,,{\blur4\c&H005500}aseru hodo ni tōku natte wake mo naku imi o sagashite
-Dialogue: 0,0:02:34.81,0:02:40.56,ButterflyCore,,0,0,0,,{\blur4\c&H005500\t(2500,3024,\c&H000055)}osanasa no ura ni kakushita yuzuritakunai omoi ni
-Dialogue: 0,0:02:40.69,0:02:45.36,ButterflyCore,,0,0,0,,{\blur4\c&H000077}kizuita nara miushinawanai yō ni
-Dialogue: 0,0:02:45.52,0:02:51.32,ButterflyCore,,0,0,0,,{\blur4\c&H770000}dareka o mamore'ru to motto ima shinjitai
-Dialogue: 0,0:02:51.53,0:02:56.58,ButterflyCore,,0,0,0,,{\blur4\c&HAA0000}kage o mau chō no kodō ga seijaku no umi o saita
-Dialogue: 0,0:02:56.74,0:03:02.08,ButterflyCore,,0,0,0,,{\blur4\c&H000077}kimi ni miseru itsuwari no subete ga uso ja nai daro
-Dialogue: 0,0:03:02.25,0:03:07.71,ButterflyCore,,0,0,0,,{\blur4\c&HAA0000}mayo'u tabi suteta kotae mo kitto erabu hi wa mata kuru kara
-Dialogue: 0,0:03:07.88,0:03:16.81,ButterflyCore,,0,0,0,,{\blur4\c&H006600}kono kokoro wa dare yori mo atsuku moyashi tsuzukeyō kienai yō ni
-Dialogue: 0,0:03:26.73,0:03:32.36,ButterflyCore,,0,0,0,,{\blur4\c&H006600\fad(0,1000)}kienai yō ni
-Dialogue: 0,0:01:51.18,0:01:56.18,ButterflyCore2,,0,0,0,,{\fad(200,0)}kage o mau chō no kodō ga seijaku no umi o saite
-Dialogue: 0,0:01:56.35,0:02:03.52,ButterflyCore2,,0,0,0,,kasanariau koe ga ima yami o furiharatta
-Dialogue: 0,0:02:18.08,0:02:23.50,ButterflyCore2,,0,0,0,,haritsuita ase o nugutte nigemawaru light o ketta
-Dialogue: 0,0:02:23.88,0:02:29.17,ButterflyCore2,,0,0,0,,kanashimi ni utareta kyō no kizuato kabau yō ni
-Dialogue: 0,0:02:29.34,0:02:34.64,ButterflyCore2,,0,0,0,,aseru hodo ni tōku natte wake mo naku imi o sagashite
-Dialogue: 0,0:02:34.81,0:02:40.56,ButterflyCore2,,0,0,0,,osanasa no ura ni kakushita yuzuritakunai omoi ni
-Dialogue: 0,0:02:40.69,0:02:45.36,ButterflyCore2,,0,0,0,,kizuita nara miushinawanai yō ni
-Dialogue: 0,0:02:45.52,0:02:51.32,ButterflyCore2,,0,0,0,,dareka o mamore'ru to motto ima shinjitai
-Dialogue: 0,0:02:51.53,0:02:56.58,ButterflyCore2,,0,0,0,,kage o mau chō no kodō ga seijaku no umi o saita
-Dialogue: 0,0:02:56.74,0:03:02.08,ButterflyCore2,,0,0,0,,kimi ni miseru itsuwari no subete ga uso ja nai daro
-Dialogue: 0,0:03:02.25,0:03:07.71,ButterflyCore2,,0,0,0,,mayo'u tabi suteta kotae mo kitto erabu hi wa mata kuru kara
-Dialogue: 0,0:03:07.88,0:03:16.81,ButterflyCore2,,0,0,0,,{\3c&H006600}kono kokoro wa dare yori mo atsuku moyashi tsuzukeyō kienai yō ni
-Dialogue: 0,0:03:26.73,0:03:32.36,ButterflyCore2,,0,0,0,,{\fad(0,1000)\3c&H006600}kienai yō ni

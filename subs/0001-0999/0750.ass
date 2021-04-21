@@ -33,6 +33,8 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
+Style: GreedNarr,Biko,45,&H6E8C4000,&H000000FF,&H00FFFFFF,&H80000000,-1,0,0,0,100,100,0,0,1,3.7,1.5,2,50,50,30,1
+Style: OPTL_BL,Biko,45,&H00FFFFFF,&H000000FF,&H80000000,&HC0000000,-1,0,0,0,100,100,0,0,1,2,1,2,10,10,25,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -210,7 +212,7 @@ Dialogue: 0,0:10:05.45,0:10:08.67,Dialogue,,0000,0000,0000,,Oh, then we'll go ge
 Dialogue: 0,0:10:15.21,0:10:19.22,Dialogue,,0000,0000,0000,,I see. So you couldn't ride in the ambulance.
 Dialogue: 0,0:10:21.51,0:10:26.18,Dialogue,,0000,0000,0000,,Should we bring Nao{\rHonorifics - Dialogue}-san{\r} and her husband their clothes and things?
 Dialogue: 0,0:10:26.73,0:10:29.23,Dialogue,,0000,0000,0000,,Ah, yeah.
-Dialogue: 0,0:10:35.73,0:10:38.65,Dialogue Top,,0000,0000,0000,,{\fad(0,300)}'Emergency Medical Centre'
+Dialogue: 0,0:10:35.73,0:10:38.65,Dialogue Top,,0000,0000,0000,,'Emergency Medical Centre'
 Dialogue: 0,0:10:33.94,0:10:35.73,Dialogue,,0000,0000,0000,,You're sure this was an accident?!
 Dialogue: 0,0:10:36.61,0:10:39.61,Dialogue,,0000,0000,0000,,There hasn't been a thorough investigation yet.
 Dialogue: 0,0:10:43.87,0:10:48.62,Signs,,0000,0000,0000,,Ryōichi Katagiri (48)\NTakaguchi's Secretary
@@ -285,9 +287,9 @@ Dialogue: 0,0:14:04.61,0:14:08.78,Dialogue,,0000,0000,0000,,So did he really lea
 Dialogue: 0,0:14:08.78,0:14:13.66,Dialogue,,0000,0000,0000,,Hey! Why not show him that practice video?
 Dialogue: 0,0:14:13.66,0:14:14.58,Dialogue,,0000,0000,0000,,Oh, you're right.
 Dialogue: 0,0:14:15.62,0:14:19.62,Dialogue,,0000,0000,0000,,I recorded this when he first started practising in the pool.
-Dialogue: 0,0:14:20.29,0:14:21.50,Signs,,0000,0000,0000,,That's it! That's it!
-Dialogue: 0,0:14:21.50,0:14:23.63,Signs,,0000,0000,0000,,Keep moving towards me!
-Dialogue: 0,0:14:23.63,0:14:25.09,Signs,,0000,0000,0000,,Great!
+Dialogue: 0,0:14:20.29,0:14:21.50,Radio,,0000,0000,0000,,{\be10}That's it! That's it!
+Dialogue: 0,0:14:21.50,0:14:23.63,Radio,,0000,0000,0000,,{\be10}Keep moving towards me!
+Dialogue: 0,0:14:23.63,0:14:25.09,Radio,,0000,0000,0000,,{\be10}Great!
 Dialogue: 0,0:14:20.92,0:14:25.09,Dialogue,,0000,0000,0000,,The parts where I'm in the video were filmed by our maid.
 Dialogue: 0,0:14:26.84,0:14:30.55,Dialogue,,0000,0000,0000,,And then this was recorded last week.
 Dialogue: 0,0:14:33.72,0:14:35.81,Radio,,0000,0000,0000,,{\be10}That's it! Keep it up!
@@ -325,7 +327,7 @@ Dialogue: 0,0:16:20.45,0:16:23.00,Dialogue,,0000,0000,0000,,What are you two whi
 Dialogue: 0,0:16:23.00,0:16:24.96,Dialogue,,0000,0000,0000,,Ah, coming.
 Dialogue: 0,0:16:26.50,0:16:27.63,Flashback,,0000,0000,0000,,{\be10}Huh?
 Dialogue: 0,0:16:27.63,0:16:29.50,Flashback,,0000,0000,0000,,{\be10}The buckle on his collar is rusty.
-Dialogue: 0,0:16:29.92,0:16:33.49,Flashback,,0000,0000,0000,,{\be10\fad(0,375)}Oh. Maybe that's because we take him on walks, even on rainy days.
+Dialogue: 0,0:16:29.92,0:16:33.49,Flashback,,0000,0000,0000,,{\be10}Oh. Maybe that's because we take him on walks, even on rainy days.
 Dialogue: 0,0:16:34.26,0:16:36.39,Thoughts,,0000,0000,0000,,{\be10}So that's it!
 Dialogue: 0,0:16:40.72,0:16:42.06,Dialogue,,0000,0000,0000,,Well then, everyone...
 Dialogue: 0,0:16:42.06,0:16:46.19,Dialogue,,0000,0000,0000,,I'm sorry for having inconvenienced you,\Nbut you're all free to leave now.

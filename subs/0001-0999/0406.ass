@@ -33,6 +33,7 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
+Style: title01,Arial,14,&H00000000,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,2,0,0,70,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -53,7 +54,7 @@ Dialogue: 0,0:01:06.13,0:01:11.88,Dialogue,,0,0,0,,I don't care if this town cha
 Dialogue: 0,0:01:12.10,0:01:17.83,Dialogue,,0,0,0,,The only thing I don't want to change is you.
 Dialogue: 0,0:01:18.20,0:01:23.59,Dialogue,,0,0,0,,Oh, glimmering star, shine over us forever.
 Dialogue: 0,0:01:23.90,0:01:29.47,Dialogue,,0,0,0,,This way, we won't lose the dreams we had when we were young...
-Dialogue: 0,0:01:30.00,0:01:39.19,Dialogue,,0,0,0,,{\fade(0,1350)}The only thing I don't want to change is you.
+Dialogue: 0,0:01:30.00,0:01:39.19,Dialogue,,0,0,0,,The only thing I don't want to change is you.
 Dialogue: 0,0:01:44.10,0:01:46.56,Dialogue,,0,0,0,,We are going to see the show with those two.
 Dialogue: 0,0:01:46.93,0:01:52.73,Dialogue,,0,0,0,,That's good. The directions to the hall\Nis by going straight this street and...
 Dialogue: 0,0:01:54.19,0:02:00.49,Dialogue,,0,0,0,,Why... why am I irritated this much?
@@ -115,7 +116,7 @@ Dialogue: 0,0:11:08.04,0:11:08.66,Dialogue,,0,0,0,,yes...
 Dialogue: 0,0:11:09.91,0:11:10.75,Dialogue,,0,0,0,,Close the curtain!
 Dialogue: 0,0:11:11.04,0:11:12.96,Dialogue,,0,0,0,,Hey someone take the axe and come here!
 Dialogue: 0,0:11:13.96,0:11:17.34,Dialogue,,0,0,0,,Uh...something happened...wait a minute!
-Dialogue: 0,0:11:18.13,0:11:22.84,Dialogue Top,,0,0,0,,{\3c&HC68B41&}Note: Harry Houdini, a legendary magician
+Dialogue: 0,0:11:18.13,0:11:22.84,Signs,,0,0,0,,Note: Harry Houdini, a legendary magician
 Dialogue: 0,0:11:18.13,0:11:22.84,Dialogue,,0,0,0,,That's a parody of the legendary magician Houdini.
 Dialogue: 0,0:11:22.97,0:11:26.64,Dialogue,,0,0,0,,Yes. This is standard way for escaping magic tricks.
 Dialogue: 0,0:11:26.68,0:11:27.68,Dialogue,,0,0,0,,Let's go, Ran!
@@ -139,7 +140,7 @@ Dialogue: 0,0:13:05.65,0:13:09.16,Dialogue,,0,0,0,,I think it's dangerous, so.. 
 Dialogue: 0,0:13:09.28,0:13:11.28,Dialogue,,0,0,0,,Yes. I'm sorry.
 Dialogue: 0,0:13:12.41,0:13:18.62,Dialogue,,0,0,0,,It's OK. I got out from there because of you guys.
 Dialogue: 0,0:13:18.79,0:13:19.67,Dialogue,,0,0,0,,Huh?
-Dialogue: 0,0:13:21.18,0:13:25.55,CharCards01 shadow,,0,0,0,,{\fade(400,400)}Dogo Hoshikawa (27)\N\h\h\h\h\h\h\h\h\h\hMagician\h\h\h\h\h\h\h\h\h\h
+Dialogue: 0,0:13:21.18,0:13:25.55,CharCards01 shadow,,0,0,0,,{\fade(400,400)}Dogo Hoshikawa (27)\NMagician
 Dialogue: 0,0:13:21.29,0:13:28.42,Dialogue,,0,0,0,,I could hear your voices when I was losing consciousness.
 Dialogue: 0,0:13:29.72,0:13:30.97,Dialogue,,0,0,0,,Really?
 Dialogue: 0,0:13:31.14,0:13:32.39,Dialogue,,0,0,0,,He's telling a lie.
@@ -150,13 +151,13 @@ Dialogue: 0,0:13:48.40,0:13:53.58,Dialogue,,0,0,0,,Maybe a part of the cover can
 Dialogue: 0,0:13:54.08,0:14:01.71,Dialogue,,0,0,0,,He waits until the audience starts worrying and finally,\Nhe appears from behind the tank full of water.
 Dialogue: 0,0:14:02.17,0:14:05.75,Dialogue,,0,0,0,,It's an exciting escape!
 Dialogue: 0,0:14:09.38,0:14:11.84,Dialogue,,0,0,0,,You are a great magician, Hoshikawa!
-Dialogue: 0,0:14:12.10,0:14:16.65,CharCards02 shadow,,0,0,0,,Handa Riki (41)\N{\fs16}\h\h\h\h\h\h\hMagician\h\h\h\h\h\h\h
+Dialogue: 0,0:14:12.10,0:14:16.65,CharCards02 shadow,,0,0,0,,Handa Riki (41)\N{\fs16} Magician
 Dialogue: 0,0:14:12.55,0:14:16.35,Dialogue,,0,0,0,,How about we perform one time together.
 Dialogue: 0,0:14:16.81,0:14:18.85,Dialogue,,0,0,0,,Yes, I'm OK with it.
 Dialogue: 0,0:14:19.48,0:14:23.35,Dialogue,,0,0,0,,That's great. You are a star magician.
 Dialogue: 0,0:14:24.27,0:14:28.07,Dialogue,,0,0,0,,Ah then can I join to?
 Dialogue: 0,0:14:30.70,0:14:39.79,Dialogue,,0,0,0,,And find out who of us three is the true successor\Nof Mr. Masakage, our master.
-Dialogue: 0,0:14:33.62,0:14:39.88,CharCards03 shadow,,0,0,0,,{\fade(400,0)}Himemiya Tenko (32)\N\h\h\h\h\h\h\h\h\h\hMagician\h\h\h\h\h\h\h\h\h\h
+Dialogue: 0,0:14:33.62,0:14:39.88,CharCards03 shadow,,0,0,0,,{\fade(400,0)}Himemiya Tenko (32)\NMagician
 Dialogue: 0,0:14:42.25,0:14:43.63,Dialogue,,0,0,0,,Mr. Masakage?
 Dialogue: 0,0:14:44.38,0:14:54.09,Dialogue,,0,0,0,,A mysterious magician, he suddenly disappeared\N10 years ago. Some people say he is still alive.
 Dialogue: 0,0:14:54.80,0:14:56.26,Dialogue,,0,0,0,,Mr. Masakage...
@@ -179,9 +180,9 @@ Dialogue: 0,0:16:12.34,0:16:13.38,Dialogue,,0,0,0,,You sure?
 Dialogue: 0,0:16:15.22,0:16:17.18,Dialogue,,0,0,0,,Why Mr. Masakage's house?
 Dialogue: 0,0:16:18.10,0:16:22.72,Dialogue,,0,0,0,,Did you forget? Today is the day Mr. Masakage\Ndisappeared 10 years ago.
 Dialogue: 0,0:16:24.35,0:16:27.81,Dialogue,,0,0,0,,There's a possibility he came back.
-Dialogue: 0,0:16:32.90,0:16:37.00,Dialogue Top,,0,0,0,,{\3c&HC68B41&\fade(300,300)}Note: sign says: Masakage's house
+Dialogue: 0,0:16:32.90,0:16:37.00,Signs,,0,0,0,,Note: sign says: Masakage's house
 Dialogue: 0,0:16:35.61,0:16:37.03,Dialogue,,0,0,0,,Welcome.
-Dialogue: 0,0:16:37.84,0:16:42.13,CharCards04 shadow,,0,0,0,,{\fade(350,0)}Masakage Mari (54)\N{\fs15.5}\hWife of Mr. Masakage\h
+Dialogue: 0,0:16:37.84,0:16:42.13,CharCards04 shadow,,0,0,0,,{\fade(350,0)}Masakage Mari (54)\N{\fs15.5} Wife of Mr. Masakage
 Dialogue: 0,0:16:38.41,0:16:42.33,Dialogue,,0,0,0,,Ah are you guys Tenko and Hoshikawa?
 Dialogue: 0,0:16:42.41,0:16:43.20,Dialogue,,0,0,0,,Hello.
 Dialogue: 0,0:16:43.54,0:16:44.70,Dialogue,,0,0,0,,Long time no see.

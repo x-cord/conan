@@ -36,10 +36,10 @@ Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:02.72,0:00:04.75,Dialogue,,0000,0000,0000,,{\a5\c&HFFFF&}Face packs...
-Dialogue: 0,0:00:04.75,0:00:08.70,Dialogue,,0000,0000,0000,,{\a5\c&HFFFF&}A beauty treatment used by women\Nto stimulate their skin's metabolism,
-Dialogue: 0,0:00:08.70,0:00:12.77,Dialogue,,0000,0000,0000,,{\a5\c&HFFFF&}so their faces stay moist and supple.
-Dialogue: 0,0:00:13.29,0:00:16.98,Dialogue,,0000,0000,0000,,{\a5\c&HFFFF&}But they can also be used in unexpected ways...
+Dialogue: 0,0:00:02.72,0:00:04.75,Dialogue,,0000,0000,0000,,{\a5}Face packs...
+Dialogue: 0,0:00:04.75,0:00:08.70,Dialogue,,0000,0000,0000,,{\a5}A beauty treatment used by women\Nto stimulate their skin's metabolism,
+Dialogue: 0,0:00:08.70,0:00:12.77,Dialogue,,0000,0000,0000,,{\a5}so their faces stay moist and supple.
+Dialogue: 0,0:00:13.29,0:00:16.98,Dialogue,,0000,0000,0000,,{\a5}But they can also be used in unexpected ways...
 Dialogue: 0,0:00:19.29,0:00:22.99,Narration Off,,0000,0000,0000,,{\be10}Trace the lines of your hand and you'll find a fuse—\Nthe heart line—to set your deductions alight!
 Dialogue: 0,0:00:22.99,0:00:24.54,Narration Off,,0000,0000,0000,,{\be10}Every woman knows face packs freshen your skin.
 Dialogue: 0,0:00:24.54,0:00:26.74,Narration Off,,0000,0000,0000,,{\be10}But can they transform your mind and body too?
@@ -77,7 +77,7 @@ Dialogue: 0,0:03:57.41,0:03:58.59,Dialogue,,0000,0000,0000,,Wait, Dad!
 Dialogue: 0,0:04:03.18,0:04:04.63,Dialogue,,0000,0000,0000,,Dad!
 Dialogue: 0,0:04:05.31,0:04:06.67,Dialogue,,0000,0000,0000,,A-Are you all right?!
 Dialogue: 0,0:04:06.67,0:04:08.42,Dialogue,,0000,0000,0000,,Idiot! Watch where you're going!
-Dialogue: 0,0:04:08.62,0:04:11.29,Signs,,0000,0000,0000,,TM Securities Employee\NTakeo Izumi (25)
+Dialogue: 0,0:04:08.62,0:04:11.29,Character Card,,0000,0000,0000,,TM Securities Employee\NTakeo Izumi (25)
 Dialogue: 0,0:04:08.42,0:04:11.26,Dialogue,,0000,0000,0000,,S-Sorry! I, uh...
 Dialogue: 0,0:04:11.85,0:04:14.75,Dialogue,,0000,0000,0000,,Watch where you're driving, will you?!
 Dialogue: 0,0:04:14.75,0:04:17.68,Dialogue,,0000,0000,0000,,Isn't it {\i1}your{\i0} fault for crossing the street without paying attention?
@@ -126,13 +126,13 @@ Dialogue: 0,0:06:42.40,0:06:47.13,Dialogue,,0000,0000,0000,,I contacted Izumi{\r
 Dialogue: 0,0:06:47.13,0:06:47.95,Dialogue,,0000,0000,0000,,Oh, I see.
 Dialogue: 0,0:06:49.99,0:06:52.41,Dialogue,,0000,0000,0000,,Who is the victim, anyway?
 Dialogue: 0,0:06:53.19,0:06:58.99,Dialogue,,0000,0000,0000,,Ikuko Kojima. She managed a chain of discount electronics stores.
-Dialogue: 0,0:06:56.45,0:07:00.17,Signs,,0000,0000,0000,,Businesswoman\NIkuko Kojima (50)
+Dialogue: 0,0:06:56.45,0:07:00.17,Character Card,,0000,0000,0000,,Businesswoman\NIkuko Kojima (50)
 Dialogue: 0,0:06:58.99,0:07:00.15,Dialogue,,0000,0000,0000,,She was strangled to death.
 Dialogue: 0,0:07:03.05,0:07:06.93,Dialogue,,0000,0000,0000,,Well, now that everyone is here, let us begin.
 Dialogue: 0,0:07:06.93,0:07:07.74,Dialogue,,0000,0000,0000,,Mouri{\rHonorifics - Dialogue}-kun{\r}.
-Dialogue: 0,0:07:08.30,0:07:11.26,Signs,,0000,0000,0000,,Victim's Daughter\NChihiro Kojima (28)
+Dialogue: 0,0:07:08.30,0:07:11.26,Character Card,,0000,0000,0000,,Victim's Daughter\NChihiro Kojima (28)
 Dialogue: 0,0:07:08.30,0:07:11.26,Dialogue,,0000,0000,0000,,This is the victim's daughter, Chihiro{\rHonorifics - Dialogue}-san{\r}.
-Dialogue: 0,0:07:11.72,0:07:14.93,Signs,,0000,0000,0000,,First to Find Victim\NJuro Yoshioka (48)
+Dialogue: 0,0:07:11.72,0:07:14.93,Character Card,,0000,0000,0000,,First to Find Victim\NJuro Yoshioka (48)
 Dialogue: 0,0:07:11.72,0:07:14.93,Dialogue,,0000,0000,0000,,And the one who found her, Yoshioka{\rHonorifics - Dialogue}-san{\r}.
 Dialogue: 0,0:07:15.34,0:07:18.34,Dialogue,,0000,0000,0000,,Now, then. According to the security video...
 Dialogue: 0,0:07:18.95,0:07:24.73,Dialogue,,0000,0000,0000,,Izumi{\rHonorifics - Dialogue}-san{\r} arrived at 8:00, and left at 8:40.
@@ -217,7 +217,7 @@ Dialogue: 0,0:12:14.50,0:12:16.16,Dialogue,,0000,0000,0000,,he did spend 10 minu
 Dialogue: 0,0:12:18.11,0:12:19.80,Dialogue,,0000,0000,0000,,That's definitely strange.
 Dialogue: 0,0:12:19.80,0:12:22.09,Dialogue,,0000,0000,0000,,What did you do for those 10 minutes?
 Dialogue: 0,0:12:24.71,0:12:28.43,Dialogue,,0000,0000,0000,,And look, he's holding something here.
-Dialogue: 0,0:12:32.37,0:12:36.33,Dialogue Top,,0000,0000,0000,,{\fad(1000,0)}"Report — Ozawa Detective Agency"
+Dialogue: 0,0:12:32.37,0:12:36.33,Dialogue Top,,0000,0000,0000,,"Report — Ozawa Detective Agency"
 Dialogue: 0,0:12:36.87,0:12:43.49,Dialogue,,0000,0000,0000,,I see. So this shows that you embezzled money from the company.
 Dialogue: 0,0:12:43.49,0:12:47.13,Dialogue,,0000,0000,0000,,I'd be ruined if that were made public!
 Dialogue: 0,0:12:47.13,0:12:48.94,Dialogue,,0000,0000,0000,,So I came to talk with her...

@@ -36,8 +36,6 @@ Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0
 Style: FlashThoughts,Calibri,33,&H0000001E,&H000000FF,&H00C7D5DC,&HC0000000,-1,0,0,0,100,100,0,0,1,2,2,2,27,27,20,1
 Style: OPTop,ChunkyNessM,23,&H80440000,&H000000FF,&H00FFFFFF,&H80000000,-1,0,0,0,100,100,1,0,1,2.3,1.5,8,27,27,25,1
 Style: OPBottom,A-OTF Shin Go Pro M,25,&H00FFFFFF,&H000000FF,&H64FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,0.1,2,2,1,1,20,1
-Style: JuneBrideCred,A-OTF Shin Go Pro M,23,&H00616161,&H000000FF,&HB4616161,&HC0444444,-1,0,0,0,101,85,0,0,1,0,1,2,10,10,20,1
-Style: PhoneText,A-OTF Shin Go Pro R,40,&H00221100,&H000000FF,&H144B4B4B,&HC0000000,-1,0,0,0,100,100,0,0,1,0,0,7,10,10,25,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -117,8 +115,6 @@ Dialogue: 0,0:04:52.66,0:04:55.06,Thoughts,,0,0,0,,{\be10}And I really shouldn't
 Dialogue: 0,0:04:55.90,0:05:00.14,Thoughts,,0,0,0,,{\be10}But if all I'm doing is seeing if my e-mail's there or not...
 Dialogue: 0,0:05:01.25,0:05:04.02,Thoughts,,0,0,0,,{\be10}If that's all I do, then it's fine, right?{If it's only that, there shouldn't be any problems.}
 Dialogue: 0,0:05:04.02,0:05:05.22,Thoughts,,0,0,0,,{\be10}Sorry, Shin'ichi!
-Dialogue: 0,0:05:08.03,0:05:10.79,PhoneText,,0,0,0,,{\fs27\frz11.57\move(162.603,-30,228.285,235.2)}ENTER PIN CODE
-Dialogue: 0,0:05:08.03,0:05:10.79,PhoneText,,0,0,0,,{\c&HFFFFFF\fs30\frz11\move(172.603,-130,238.285,138.2)}DIAL LOCK
 Dialogue: 0,0:05:08.89,0:05:13.42,Thoughts,,0,0,0,,{\be10}Eh, really? Should've figured.{Is that so. I should have expected that.}
 Dialogue: 0,0:05:14.89,0:05:18.04,Thoughts,,0,0,0,,{\be10}Well, for something like this,\Nmost people use their birthday.
 Dialogue: 0,0:05:19.80,0:05:21.55,Signs,,0,0,0,,DIAL LOCK
@@ -266,12 +262,12 @@ Dialogue: 0,0:10:23.95,0:10:25.86,Flashback,,0,0,0,,{\be10}1122?
 Dialogue: 0,0:10:25.86,0:10:27.44,Signs,,0,0,0,,ii fūfu
 Dialogue: 0,0:10:25.86,0:10:27.44,Flashback,,0,0,0,,{\be10}'Happy couple'.
 Dialogue: 0,0:10:27.44,0:10:28.94,Flashback,,0,0,0,,{\be10}Look, there's one there.
-Dialogue: 0,0:10:35.95,0:10:42.58,Flashback,,0,0,0,,{\be10\c&HBACCD5&}A happy couple? If Dad gets a car I'd like him to get that number.
+Dialogue: 0,0:10:35.95,0:10:42.58,Flashback,,0,0,0,,{\be10}A happy couple? If Dad gets a car I'd like him to get that number.
 Dialogue: 0,0:10:46.93,0:10:50.00,Dialogue,,0,0,0,,No, the most appropriate numbers for your dad would be 1107 or 8109.
 Dialogue: 0,0:10:50.00,0:10:53.93,Flashback,,0,0,0,,{\be10}No, the most appropriate numbers for your dad would be 1107 or 8109.
 Dialogue: 0,0:10:53.93,0:10:57.13,Signs,,0,0,0,,i-i-o-na
 Dialogue: 0,0:10:53.93,0:10:57.13,Signs,,0,0,0,,ha-i-re-gu
-Dialogue: 0,0:10:53.93,0:10:57.13,Dialogue,,0,0,0,,{\c&HBACCD5&}1107? 8109?
+Dialogue: 0,0:10:53.93,0:10:57.13,Dialogue,,0,0,0,,1107? 8109?
 Dialogue: 0,0:10:57.13,0:10:59.76,Thoughts,,0,0,0,,{\be10}hai reggu
 Dialogue: 0,0:10:57.13,0:10:59.76,Thoughts,,0,0,0,,{\be10}ii on'na
 Dialogue: 0,0:10:57.13,0:10:59.76,Dialogue,,0,0,0,,'Hot girls', 'high-legs'.
@@ -404,7 +400,6 @@ Dialogue: 0,0:16:57.30,0:17:00.91,Dialogue,,0,0,0,,No way, I actually unlocked i
 Dialogue: 0,0:17:08.99,0:17:10.00,Thoughts,,0,0,0,,{\be10}I have to be sure...
 Dialogue: 0,0:17:11.21,0:17:13.90,Thoughts,,0,0,0,,{\be10}Is my e-mail here or not?
 Dialogue: 0,0:17:13.90,0:17:15.09,Thoughts,,0,0,0,,{\be10}I have to be sure...
-Dialogue: 0,0:17:16.26,0:17:16.80,PhoneText,,0,0,0,,{\fs20\frz11.71\move(173,-150,173,-13)}OUTBOX\N\NINBOX\N\NDRAFTS\N\NNEW MAIL\N\NGET MAIL\N\NOTHERS
 Dialogue: 0,0:17:16.80,0:17:16.85,Signs,,0,0,0,,OUTBOX\N\NINBOX\N\NDRAFTS\N\NNEW MAIL\N\NGET MAIL\N\NOTHERS
 Dialogue: 0,0:17:16.85,0:17:16.89,Signs,,0,0,0,,OUTBOX\N\NINBOX\N\NDRAFTS\N\NNEW MAIL\N\NGET MAIL\N\NOTHERS
 Dialogue: 0,0:17:16.89,0:17:16.93,Signs,,0,0,0,,OUTBOX\N\NINBOX\N\NDRAFTS\N\NNEW MAIL\N\NGET MAIL\N\NOTHERS

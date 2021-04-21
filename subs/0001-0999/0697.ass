@@ -33,10 +33,9 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: FlashbackThoughts,Calibri,50,&H4B370001,&H000000FF,&H00CCFFFF,&HC0000000,-1,0,0,0,100,100,0,0,1,2.6,2,2,100,100,30,1Style: ConanEdogawaKun,Segoe Print,45,&H00B78800,&H000000FF,&H00B78800,&HC0000000,0,0,0,0,100,100,0,20,1,0,0,2,10,10,25,1
-Style: KudoSempai,Segoe Print,45,&H009796B7,&H000000FF,&H484B4B4B,&HC0000000,0,0,0,0,100,100,0,0,1,0,0,7,10,10,25,1Style: Blanka30,Arial,20,&HFFFFFFFF,&H000000FF,&H1E000000,&H00000000,0,0,0,0,100,100,0,0,3,1,0,7,10,10,10,1Style: topbox,Arial,20,&HFFFFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,3,1,0,8,10,10,10,1Style: OPTLTextless,FuntypeFattened,50,&H00FFFFFF,&H000000FF,&H80AF0068,&H80000000,-1,0,0,0,90,100,0,0,1,3,1,2,10,10,40,1
 Style: HitomiRomaji,Ubuntu,40,&HC0FF0000,&H000000FF,&H00FFFFFF,&H00000000,-1,0,0,0,105,100,0,0,1,3.4,1,8,10,10,30,1
-Style: SemiTransBox,Arial,20,&HFFFFFFFF,&H000000FF,&H64000000,&H00000000,0,0,0,0,100,100,0,0,3,1,0,8,10,10,10,1Style: Massugu Yuku TL,Hey Gorgeous M,40,&H00FFFFFF,&H000000FF,&H404A4200,&HC0000000,0,0,0,0,85,100,2,0,1,3,1.5,2,100,100,30,1Style: TV,Segoe,70,&H00E0D4CB,&HFF0000FF,&H00370001,&HC0000000,-1,0,0,0,100,100,0,0,1,0,0,2,100,100,30,1Style: Phoneradio,Calibri,50,&H0FFDFFC6,&H000000FF,&H00370001,&HC0000000,-1,0,0,0,100,100,0,0,1,2.5,1.5,2,100,100,30,1[Events]
+
+[Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 Dialogue: 0,0:00:01.27,0:00:05.65,Dialogue,,0,0,0,,I'm begging you! Please reinvestigate my sister's suicide!
 Dialogue: 0,0:00:05.65,0:00:08.02,Dialogue,,0,0,0,,Now, now, don't get so agitated.
@@ -62,11 +61,11 @@ Dialogue: 0,0:00:56.41,0:00:57.78,Dialogue,,0,0,0,,No, no, no...
 Dialogue: 0,0:00:57.78,0:00:59.33,Dialogue,,0,0,0,,I beg you!
 Dialogue: 0,0:00:59.33,0:01:02.25,Dialogue,,0,0,0,,Please, prove that my sister didn't commit suicide!
 Dialogue: 0,0:01:02.25,0:01:05.25,Dialogue,,0,0,0,,That isn't going to be easy, you know...
-Dialogue: 0,0:01:08.77,0:01:13.15,Narration Off,,0,0,0,,{\be10\c&HAAAA00\t(0,4370,\c)}Seeking comprehensive answers,\Nhe solves every mystery and code!
-Dialogue: 0,0:01:13.15,0:01:17.70,Narration Off,,0,0,0,,{\be10\t(0,1750,\c&H88AA00)}The client's a female student, the stage is a school campus, and the truth is astonishing!
-Dialogue: 0,0:01:17.70,0:01:19.37,Narration Off,,0,0,0,,{\be10\c&H88AA00)\t(0,1670,\c)}He sees the single truth for what it is,
-Dialogue: 0,0:01:19.37,0:01:21.45,Narration Off,,0,0,0,,{\be10\t(0,2070,\c&HAA00AA)}and looks like a kid but has the mind of an adult!
-Dialogue: 0,0:01:21.45,0:01:23.62,Narration Off,,0,0,0,,{\be10\c&HAA00AA\t(0,1870,\c&H0000FF)}His name? Detective Conan!
+Dialogue: 0,0:01:08.77,0:01:13.15,Narration Off,,0,0,0,,{\be10}Seeking comprehensive answers,\Nhe solves every mystery and code!
+Dialogue: 0,0:01:13.15,0:01:17.70,Narration Off,,0,0,0,,{\be10}The client's a female student, the stage is a school campus, and the truth is astonishing!
+Dialogue: 0,0:01:17.70,0:01:19.37,Narration Off,,0,0,0,,{\be10}He sees the single truth for what it is,
+Dialogue: 0,0:01:19.37,0:01:21.45,Narration Off,,0,0,0,,{\be10}and looks like a kid but has the mind of an adult!
+Dialogue: 0,0:01:21.45,0:01:23.62,Narration Off,,0,0,0,,{\be10}His name? Detective Conan!
 Dialogue: 0,0:03:09.47,0:03:13.48,Dialogue,,0,0,0,,Yeah, even the forensics confirmed it.
 Dialogue: 0,0:03:13.48,0:03:17.02,Dialogue,,0,0,0,,There's no doubt, Nagisa Yanai{\rHonorifics - Dialogue}-san{\r} committed suicide.
 Dialogue: 0,0:03:17.02,0:03:20.99,Dialogue,,0,0,0,,As I thought. Thank you, Inspector.

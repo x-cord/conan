@@ -33,6 +33,8 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
+Style: GreedNarr,Biko,45,&H6E8C4000,&H000000FF,&H00FFFFFF,&H80000000,-1,0,0,0,100,100,0,0,1,3.7,1.5,2,50,50,30,1
+Style: OPTL_BL,Biko,45,&H00FFFFFF,&H000000FF,&H80000000,&HC0000000,-1,0,0,0,100,100,0,0,1,2,1,2,10,10,25,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -411,7 +413,7 @@ Dialogue: 0,0:23:32.51,0:23:33.85,Dialogue Top,,0000,0000,0000,,Give me that!
 Dialogue: 0,0:23:32.51,0:23:33.85,Dialogue,,0000,0000,0000,,Hello? Mum?
 Dialogue: 0,0:23:35.25,0:23:36.55,Dialogue,,0000,0000,0000,,Hey, wait...
 Dialogue: 0,0:23:36.55,0:23:38.19,Dialogue,,0000,0000,0000,,That means we'd have to eat Kisaki{\rHonorifics - Dialogue}-sensei{\r}'s cooking...
-Dialogue: 0,0:23:40.94,0:23:44.29,Dialogue,,0000,0000,0000,,{\fad(0,1000)}Hey, wait! Wait, Ran{\rHonorifics - Dialogue}-neechan{\r}! Please wait!
+Dialogue: 0,0:23:40.94,0:23:44.29,Dialogue,,0000,0000,0000,,Hey, wait! Wait, Ran{\rHonorifics - Dialogue}-neechan{\r}! Please wait!
 Dialogue: 0,0:23:47.71,0:23:50.29,Dialogue,,0000,0000,0000,,{The tl for this next ep preview was taken straight from CR's 754}These are the printed photos.
 Dialogue: 0,0:23:50.29,0:23:50.99,Dialogue,,0000,0000,0000,,Do your best.
 Dialogue: 0,0:23:51.50,0:23:53.70,Dialogue,,0000,0000,0000,,It happened fifteen years ago.
@@ -423,7 +425,7 @@ Dialogue: 0,0:24:04.88,0:24:05.88,Dialogue,,0000,0000,0000,,Red.
 Dialogue: 0,0:24:06.52,0:24:07.84,Thoughts,,0000,0000,0000,,{\be10}...in the bathtub...
 Dialogue: 0,0:24:08.84,0:24:14.84,Dialogue,,0000,0000,0000,,On the next Conan:\N'Tragedy of the Red Woman (Steam)'!
 Dialogue: 0,0:24:14.84,0:24:19.81,Dialogue,,0000,0000,0000,,Next Conan's Hint: Tomatoes!
-Dialogue: 0,0:24:20.16,0:24:20.87,Dialogue Top,,0000,0000,0000,,Greengrocer!\N{\rThoughts}ya-o-ya
-Dialogue: 0,0:24:20.87,0:24:21.49,Dialogue Top,,0000,0000,0000,,Woodpecker!\N{\rThoughts}ki-tsu-tsu-ki
-Dialogue: 0,0:24:21.49,0:24:22.21,Dialogue Top,,0000,0000,0000,,Newspaper!\N{\rThoughts}shi-n-bu-n-shi
-Dialogue: 0,0:24:22.21,0:24:23.17,Dialogue Top,,0000,0000,0000,,Conan's a weird kid!\N{\rThoughts}ko-na-n he-n na ko
+Dialogue: 0,0:24:20.16,0:24:20.87,Dialogue Top,,0000,0000,0000,,Greengrocer!\Nya-o-ya
+Dialogue: 0,0:24:20.87,0:24:21.49,Dialogue Top,,0000,0000,0000,,Woodpecker!\Nki-tsu-tsu-ki
+Dialogue: 0,0:24:21.49,0:24:22.21,Dialogue Top,,0000,0000,0000,,Newspaper!\Nshi-n-bu-n-shi
+Dialogue: 0,0:24:22.21,0:24:23.17,Dialogue Top,,0000,0000,0000,,Conan's a weird kid!\Nko-na-n he-n na ko

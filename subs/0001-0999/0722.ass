@@ -33,19 +33,15 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: ButterflyCore,Love Is Complicated Again,45,&H405E0036,&H000000FF,&H00FFFFFF,&H80000000,-1,0,0,0,100,100,1,0,1,3.5,0,8,10,10,30,1
-Style: ButterflyCore2,Love Is Complicated Again,45,&HFF5E0036,&H000000FF,&H80000000,&H80000000,-1,0,0,0,100,100,1,0,1,0.75,0,8,10,10,30,1
-Style: BCPrologue,Cocon-Regular,45,&H805E0036,&H000000FF,&H00FFFFFF,&H80000000,-1,0,0,0,100,100,1,0,1,5,2,2,10,10,30,1
-Style: AitakuteRomaji,AlaskanNightsM,52,&H60DB9572,&H000000FF,&H00FFFFFF,&HC02F2F2F,-1,0,0,0,108,100,0,0,1,4,0,8,8,8,30,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:05.43,0:00:07.27,Dialogue Top,,0,0,0,,{（灰原）ここは通さないわよ！\N（コナン）フッと...。\N}I'm not letting it through!
-Dialogue: 0,0:00:09.78,0:00:11.03,Dialogue Top,,0,0,0,,{（光彦）ヌカせません！\N}It won't get past me!
-Dialogue: 0,0:00:13.24,0:00:14.69,Dialogue,,0,0,0,,{ウッと！\N（光彦）あっ...そんなぁ。\N}Oh, no...
-Dialogue: 0,0:00:14.69,0:00:15.32,Dialogue,,0,0,0,,{追って！\N}Go after it!
-Dialogue: 0,0:00:17.14,0:00:17.91,Dialogue,,0,0,0,,{（元太）よし来い！\N}Bring it on!
-Dialogue: 0,0:00:18.77,0:00:19.37,Dialogue,,0,0,0,,{ソレッ！\N（元太）うわっ！\N}There!
+Dialogue: 0,0:00:05.43,0:00:07.27,Dialogue Top,,0,0,0,,{（灰原）ここは通さないわよ！\N（コナン）フッと...。}I'm not letting it through!
+Dialogue: 0,0:00:09.78,0:00:11.03,Dialogue Top,,0,0,0,,{（光彦）ヌカせません！}It won't get past me!
+Dialogue: 0,0:00:13.24,0:00:14.69,Dialogue,,0,0,0,,{ウッと！\N（光彦）あっ...そんなぁ。}Oh, no...
+Dialogue: 0,0:00:14.69,0:00:15.32,Dialogue,,0,0,0,,{追って！}Go after it!
+Dialogue: 0,0:00:17.14,0:00:17.91,Dialogue,,0,0,0,,{（元太）よし来い！}Bring it on!
+Dialogue: 0,0:00:18.77,0:00:19.37,Dialogue,,0,0,0,,{ソレッ！\N（元太）うわっ！}There!
 Dialogue: 0,0:00:21.66,0:00:23.87,Dialogue,,0,0,0,,All right! Our fourth goal!
 Dialogue: 0,0:00:24.38,0:00:26.16,Dialogue,,0,0,0,,Conan{\rHonorifics - Dialogue}-kun{\r}'s so cool!
 Dialogue: 0,0:00:26.16,0:00:26.75,Dialogue,,0,0,0,,Yeah!
@@ -93,20 +89,20 @@ Dialogue: 0,0:02:31.57,0:02:33.60,Dialogue,,0,0,0,,Well, it {\i1}is{\i0} hand-kn
 Dialogue: 0,0:02:33.60,0:02:37.13,Dialogue,,0,0,0,,But where's it going?
 Dialogue: 0,0:02:37.13,0:02:41.22,Dialogue,,0,0,0,,It'd be horrible if it jumped into the road and got run over by a car!
 Dialogue: 0,0:02:41.22,0:02:42.68,Dialogue,,0,0,0,,Let's chase it!
-Dialogue: 0,0:02:42.68,0:02:44.01,Dialogue,,0,0,0,,{急がないと...。\N}We've gotta hurry...
-Dialogue: 0,0:03:00.34,0:03:04.16,BCPrologue,,0,0,0,,{\blur3＜影の黒さと闇の濃さ\N切り裂いてくのが推理の光＞\N}Only the light of deductions can tear apart black shadows and deep darkness!
-Dialogue: 0,0:03:04.16,0:03:07.87,BCPrologue,,0,0,0,,{\blur3＜閉じ込められた探偵団。\N冷蔵車両で　びっくり事件＞\N}The Detective Boys shut away! A surprising case in a refrigerated truck!
-Dialogue: 0,0:03:07.87,0:03:09.54,BCPrologue,,0,0,0,,{\blur3＜たった１つの真実　見抜く\N見た目は子供　頭脳は大人＞\N}He sees the single truth for what it is,
-Dialogue: 0,0:03:09.54,0:03:11.36,BCPrologue,,0,0,0,,{\blur3}and looks like a kid but has the mind of an adult!
-Dialogue: 0,0:03:11.36,0:03:13.92,BCPrologue,,0,0,0,,{\blur3＜その名は　名探偵コナン！＞\N}His name? Detective Conan!
+Dialogue: 0,0:02:42.68,0:02:44.01,Dialogue,,0,0,0,,{急がないと...。}We've gotta hurry...
+Dialogue: 0,0:03:00.34,0:03:04.16,Narration Off,,0,0,0,,{\be10＜影の黒さと闇の濃さ\N切り裂いてくのが推理の光＞}Only the light of deductions can tear apart black shadows and deep darkness!
+Dialogue: 0,0:03:04.16,0:03:07.87,Narration Off,,0,0,0,,{\be10＜閉じ込められた探偵団。\N冷蔵車両で　びっくり事件＞}The Detective Boys shut away! A surprising case in a refrigerated truck!
+Dialogue: 0,0:03:07.87,0:03:09.54,Narration Off,,0,0,0,,{\be10＜たった１つの真実　見抜く\N見た目は子供　頭脳は大人＞}He sees the single truth for what it is,
+Dialogue: 0,0:03:09.54,0:03:11.36,Narration Off,,0,0,0,,{\be10}and looks like a kid but has the mind of an adult!
+Dialogue: 0,0:03:11.36,0:03:13.92,Narration Off,,0,0,0,,{\be10＜その名は　名探偵コナン！＞}His name? Detective Conan!
 Dialogue: 0,0:04:38.90,0:04:41.96,Dialogue,,0,0,0,,Huh? Where'd it go?
 Dialogue: 0,0:04:41.96,0:04:43.39,Dialogue,,0,0,0,,I don't see it anywhere.
 Dialogue: 0,0:04:44.72,0:04:45.97,Dialogue,,0,0,0,,Ah, there it is!
 Dialogue: 0,0:04:46.61,0:04:48.07,Dialogue,,0,0,0,,Behind that truck!
 Dialogue: 0,0:04:49.06,0:04:50.60,Dialogue,,0,0,0,,Oh, you're right.
-Dialogue: 0,0:04:50.60,0:04:52.61,Dialogue,,0,0,0,,{あんな所に　いたんですね。\N}It came all the way out here.
+Dialogue: 0,0:04:50.60,0:04:52.61,Dialogue,,0,0,0,,{あんな所に　いたんですね。}It came all the way out here.
 Dialogue: 0,0:04:56.62,0:04:58.10,Dialogue,,0,0,0,,It went inside.
-Dialogue: 0,0:04:58.10,0:04:59.27,Dialogue,,0,0,0,,{（歩美）大変だ！\N}Oh no!
+Dialogue: 0,0:04:58.10,0:04:59.27,Dialogue,,0,0,0,,{（歩美）大変だ！}Oh no!
 Dialogue: 0,0:04:59.99,0:05:04.12,Dialogue,,0,0,0,,Maybe it was drawn in by the smell of fish or something in the cargo area?
 Dialogue: 0,0:05:04.58,0:05:06.57,Dialogue,,0,0,0,,Either way, if we don't get it back soon...
 Dialogue: 0,0:05:10.42,0:05:12.63,Dialogue,,0,0,0,,The driver went somewhere and isn't here.
@@ -117,8 +113,8 @@ Dialogue: 0,0:05:22.71,0:05:24.72,Dialogue,,0,0,0,,Tai{\rHonorifics - Dialogue}-
 Dialogue: 0,0:05:24.72,0:05:26.42,Dialogue,,0,0,0,,Tai{\rHonorifics - Dialogue}-chan{\r}!
 Dialogue: 0,0:05:32.07,0:05:33.17,Dialogue,,0,0,0,,There you are!
 Dialogue: 0,0:05:33.17,0:05:34.15,Dialogue,,0,0,0,,Tai{\rHonorifics - Dialogue}-chan{\r}.
-Dialogue: 0,0:05:36.65,0:05:39.40,Dialogue,,0,0,0,,{まったく\N人騒がせな猫だぜ！\N}Geez, that cat really gets in trouble.
-Dialogue: 0,0:05:39.40,0:05:40.76,Dialogue,,0,0,0,,{本当ですね。\N}You said it.
+Dialogue: 0,0:05:36.65,0:05:39.40,Dialogue,,0,0,0,,{まったく\N人騒がせな猫だぜ！}Geez, that cat really gets in trouble.
+Dialogue: 0,0:05:39.40,0:05:40.76,Dialogue,,0,0,0,,{本当ですね。}You said it.
 Dialogue: 0,0:05:40.76,0:05:42.57,Dialogue,,0,0,0,,Well, come on, Taii.
 Dialogue: 0,0:05:42.57,0:05:45.55,Dialogue,,0,0,0,,Geez, you left the door wide open!
 Dialogue: 0,0:05:46.57,0:05:47.84,Dialogue,,0,0,0,,Ah, sorry.
@@ -170,7 +166,7 @@ Dialogue: 0,0:08:31.68,0:08:35.66,Dialogue,,0,0,0,,Hey, just to be safe, shouldn
 Dialogue: 0,0:08:35.98,0:08:38.67,Dialogue,,0,0,0,,I'm intrigued by that voice.
 Dialogue: 0,0:08:38.67,0:08:41.26,Dialogue,,0,0,0,,Don't bother doing useless crap like that.
 Dialogue: 0,0:08:41.26,0:08:42.67,Dialogue,,0,0,0,,B-But...
-Dialogue: 0,0:08:42.67,0:08:45.05,Dialogue,,0,0,0,,{ビビッてんじゃねぇよ！→\N}Don't get cold feet{don't get nervous}.
+Dialogue: 0,0:08:42.67,0:08:45.05,Dialogue,,0,0,0,,{ビビッてんじゃねぇよ！→}Don't get cold feet{don't get nervous}.
 Dialogue: 0,0:08:45.05,0:08:47.34,Dialogue,,0,0,0,,He can't possibly make any voices, you know.
 Dialogue: 0,0:08:49.85,0:08:52.85,Thoughts,,0,0,0,,{\be10}Can't possibly make any voices?
 Dialogue: 0,0:08:54.82,0:08:56.56,Dialogue,,0,0,0,,Hurry! Just go now!
@@ -249,7 +245,7 @@ Dialogue: 0,0:13:44.98,0:13:46.26,Dialogue,,0,0,0,,The sound of the brakes!
 Dialogue: 0,0:13:46.26,0:13:47.97,Dialogue,,0,0,0,,Those guys are coming!
 Dialogue: 0,0:13:48.66,0:13:49.31,Dialogue,,0,0,0,,Let's hide!
 Dialogue: 0,0:13:49.31,0:13:49.68,Dialogue,,0,0,0,,Yeah.
-Dialogue: 0,0:13:51.21,0:13:53.48,Dialogue,,0,0,0,,{おっと...ヤベェ　ヤベェ。\N}That was dangerous.
+Dialogue: 0,0:13:51.21,0:13:53.48,Dialogue,,0,0,0,,{おっと...ヤベェ　ヤベェ。}That was dangerous.
 Dialogue: 0,0:14:04.98,0:14:10.59,Dialogue,,0,0,0,,Let's see, the only deliveries for the fourth district are Yamada{\rHonorifics - Dialogue}-san{\r} and Nishino{\rHonorifics - Dialogue}-san{\r}, right?
 Dialogue: 0,0:14:10.59,0:14:11.45,Dialogue,,0,0,0,,Yeah.
 Dialogue: 0,0:14:14.33,0:14:18.21,Dialogue,,0,0,0,,But before that, it's about time to change the body's position.
@@ -353,8 +349,8 @@ Dialogue: 0,0:20:31.07,0:20:32.84,Dialogue,,0,0,0,,You don't know?
 Dialogue: 0,0:20:35.34,0:20:38.70,Thoughts,,0,0,0,,{\be10}Well, {\i1}you're{\i0} taking this pretty well.
 Dialogue: 0,0:20:38.70,0:20:43.05,Thoughts,,0,0,0,,{\be10}You're the one who got us into this mess in the first place, jumping into the cargo area.
 Dialogue: 0,0:20:47.30,0:20:48.98,Thoughts,,0,0,0,,{\be10}Come to think of it, this cat...
-Dialogue: 0,0:20:50.84,0:20:52.98,Thoughts,,0,0,0,,{\be10《あっ　そうか！その手が！！》\N}Aha! That paw...
-Dialogue: 0,0:20:54.09,0:20:57.20,Thoughts,,0,0,0,,{\be10《いや～　でもさすがにそれは...》\N}No, but as I expected, that...
+Dialogue: 0,0:20:50.84,0:20:52.98,Thoughts,,0,0,0,,{\be10《あっ　そうか！その手が！！》}Aha! That paw...
+Dialogue: 0,0:20:54.09,0:20:57.20,Thoughts,,0,0,0,,{\be10《いや～　でもさすがにそれは...》}No, but as I expected, that...
 Dialogue: 0,0:20:57.92,0:21:01.12,Dialogue,,0,0,0,,What? If you have something in your mind, spit it out!
 Dialogue: 0,0:21:02.48,0:21:03.47,Dialogue,,0,0,0,,Yeah.
 Dialogue: 0,0:21:04.19,0:21:07.37,Dialogue,,0,0,0,,The stop before the last one this home delivery truck made
@@ -380,37 +376,3 @@ Dialogue: 0,0:23:49.96,0:23:54.98,Dialogue,,0,0,0,,Next Conan's Hint: Christmas 
 Dialogue: 0,0:23:54.98,0:23:56.92,Dialogue Top,,0,0,0,,I'd be fine with some chocolates.
 Dialogue: 0,0:23:56.92,0:23:58.20,Dialogue Top,,0,0,0,,You and cake don't go together, huh?
 Dialogue: 0,0:23:58.20,0:24:00.20,Dialogue Top,,0,0,0,,Is that so surprising?
-Dialogue: 0,0:22:26.12,0:22:33.46,AitakuteRomaji,,0,0,0,,{\blur3}denwa ga naru tabi kono mune ga zawameku
-Dialogue: 0,0:22:33.79,0:22:40.80,AitakuteRomaji,,0,0,0,,{\blur3}demo kikoetekuru no wa kimi no koe ja nai
-Dialogue: 0,0:22:43.01,0:22:49.81,AitakuteRomaji,,0,0,0,,{\blur3}ima kimi wa doko ni iru no nani shite'ru no
-Dialogue: 0,0:22:50.52,0:22:59.69,AitakuteRomaji,,0,0,0,,{\blur3}kami{\fsp-2\fs40}- {\fsp\fs}sama ni negai todoku nara mō ichido dake
-Dialogue: 0,0:23:00.03,0:23:06.87,AitakuteRomaji,,0,0,0,,{\blur3}aitakute kimi ni aitakute
-Dialogue: 0,0:23:07.37,0:23:15.83,AitakuteRomaji,,0,0,0,,{\blur3}ima mo kono mune wa kimi{\fsp-2\fs40}- {\fsp\fs}iro ni somaru (dakishimetakute)
-Dialogue: 0,0:23:16.00,0:23:23.01,AitakuteRomaji,,0,0,0,,{\blur3}setsunakute nido to aenai nara
-Dialogue: 0,0:23:23.34,0:23:31.31,AitakuteRomaji,,0,0,0,,{\fad(0,1000)\blur3}maichiru yuki shiroku kono kokoro somete
-Dialogue: 0,0:02:46.98,0:02:52.02,ButterflyCore,,0,0,0,,{\blur4\fad(200,0)}kage o mau chō no kodō ga seijaku no umi o saite
-Dialogue: 0,0:02:52.19,0:02:59.32,ButterflyCore,,0,0,0,,{\blur4}kasanariau koe ga ima yami o furiharatta
-Dialogue: 0,0:03:13.92,0:03:19.34,ButterflyCore,,0,0,0,,{\blur4\c&H005500}haritsuita ase o nugutte nigemawaru light o ketta
-Dialogue: 0,0:03:19.67,0:03:25.01,ButterflyCore,,0,0,0,,{\blur4\c&H005500}kanashimi ni utareta kyō no kizuato kabau yō ni
-Dialogue: 0,0:03:25.18,0:03:30.48,ButterflyCore,,0,0,0,,{\blur4\c&H005500}aseru hodo ni tōku natte wake mo naku imi o sagashite
-Dialogue: 0,0:03:30.64,0:03:36.40,ButterflyCore,,0,0,0,,{\blur4\c&H005500\t(2500,3024,\c&H000055)}osanasa no ura ni kakushita yuzuritakunai omoi ni
-Dialogue: 0,0:03:36.52,0:03:41.24,ButterflyCore,,0,0,0,,{\blur4\c&H000077}kizuita nara miushinawanai yō ni
-Dialogue: 0,0:03:41.36,0:03:47.16,ButterflyCore,,0,0,0,,{\blur4\c&H770000}dareka o mamore'ru to motto ima shinjitai
-Dialogue: 0,0:03:47.37,0:03:52.42,ButterflyCore,,0,0,0,,{\blur4\c&HAA0000}kage o mau chō no kodō ga seijaku no umi o saita
-Dialogue: 0,0:03:52.58,0:03:57.92,ButterflyCore,,0,0,0,,{\blur4\c&H000077}kimi ni miseru itsuwari no subete ga uso ja nai daro
-Dialogue: 0,0:03:58.09,0:04:03.55,ButterflyCore,,0,0,0,,{\blur4\c&HAA0000}mayo'u tabi suteta kotae mo kitto erabu hi wa mata kuru kara
-Dialogue: 0,0:04:03.72,0:04:12.64,ButterflyCore,,0,0,0,,{\blur4\c&H006600}kono kokoro wa dare yori mo atsuku moyashi tsuzukeyō kienai yō ni
-Dialogue: 0,0:04:22.57,0:04:28.16,ButterflyCore,,0,0,0,,{\blur4\c&H006600\fad(0,1000)}kienai yō ni
-Dialogue: 0,0:02:46.98,0:02:52.02,ButterflyCore2,,0,0,0,,{\fad(200,0)}kage o mau chō no kodō ga seijaku no umi o saite
-Dialogue: 0,0:02:52.19,0:02:59.32,ButterflyCore2,,0,0,0,,kasanariau koe ga ima yami o furiharatta
-Dialogue: 0,0:03:13.92,0:03:19.34,ButterflyCore2,,0,0,0,,haritsuita ase o nugutte nigemawaru light o ketta
-Dialogue: 0,0:03:19.67,0:03:25.01,ButterflyCore2,,0,0,0,,kanashimi ni utareta kyō no kizuato kabau yō ni
-Dialogue: 0,0:03:25.18,0:03:30.48,ButterflyCore2,,0,0,0,,aseru hodo ni tōku natte wake mo naku imi o sagashite
-Dialogue: 0,0:03:30.64,0:03:36.40,ButterflyCore2,,0,0,0,,osanasa no ura ni kakushita yuzuritakunai omoi ni
-Dialogue: 0,0:03:36.52,0:03:41.24,ButterflyCore2,,0,0,0,,kizuita nara miushinawanai yō ni
-Dialogue: 0,0:03:41.36,0:03:47.16,ButterflyCore2,,0,0,0,,dareka o mamore'ru to motto ima shinjitai
-Dialogue: 0,0:03:47.37,0:03:52.42,ButterflyCore2,,0,0,0,,kage o mau chō no kodō ga seijaku no umi o saita
-Dialogue: 0,0:03:52.58,0:03:57.92,ButterflyCore2,,0,0,0,,kimi ni miseru itsuwari no subete ga uso ja nai daro
-Dialogue: 0,0:03:58.09,0:04:03.55,ButterflyCore2,,0,0,0,,mayo'u tabi suteta kotae mo kitto erabu hi wa mata kuru kara
-Dialogue: 0,0:04:03.72,0:04:12.64,ButterflyCore2,,0,0,0,,{\3c&H006600}kono kokoro wa dare yori mo atsuku moyashi tsuzukeyō kienai yō ni
-Dialogue: 0,0:04:22.57,0:04:28.16,ButterflyCore2,,0,0,0,,{\fad(0,1000)\3c&H006600}kienai yō ni

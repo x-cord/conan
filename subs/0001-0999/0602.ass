@@ -33,7 +33,6 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: Default2,Arial,30,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,10,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -80,8 +79,8 @@ Dialogue: 0,0:03:04.55,0:03:06.05,Dialogue,,0,0,0,,It's all right!
 Dialogue: 0,0:03:06.06,0:03:11.06,Dialogue,,0,0,0,,They're only doing a practice match for the competition\Ntoday, so we'll be fine if we finish before that.
 Dialogue: 0,0:03:11.06,0:03:11.81,Dialogue,,0,0,0,,Here goes!
 Dialogue: 0,0:03:20.15,0:03:20.69,Dialogue,,0,0,0,,What was that?
-Dialogue: 0,0:03:26.30,0:03:31.10,Signs,,0,0,0,,Gotou Takao (21)\NTennis Club Vice-Captain
-Dialogue: 0,0:03:26.30,0:03:31.10,Signs,,0,0,0,,Tsuchida Yuha (19)\NTennis Club Member
+Dialogue: 0,0:03:26.30,0:03:31.10,Character Card,,0,0,0,,Gotou Takao (21)\NTennis Club Vice-Captain
+Dialogue: 0,0:03:26.30,0:03:31.10,Character Card,,0,0,0,,Tsuchida Yuha (19)\NTennis Club Member
 Dialogue: 0,0:03:26.41,0:03:29.33,Dialogue Top,,0,0,0,,To think you'd bring that snotty lady\Nfrom the Suzuki Financial Group...
 Dialogue: 0,0:03:29.33,0:03:30.66,Dialogue Top,,0,0,0,,What the hell are you up tol?
 Dialogue: 0,0:03:31.92,0:03:34.12,Dialogue,,0,0,0,,She's only here to cheer me on.
@@ -98,7 +97,7 @@ Dialogue: 0,0:04:16.00,0:04:18.79,Dialogue,,0,0,0,,I wonder where Conan{\rHonori
 Dialogue: 0,0:04:18.80,0:04:21.96,Dialogue,,0,0,0,,Oh, aren't you the girl who was with Sonoko{\rHonorifics - Dialogue}-chan{\r} earlier?
 Dialogue: 0,0:04:22.72,0:04:23.67,Dialogue,,0,0,0,,Yes!
 Dialogue: 0,0:04:23.68,0:04:24.72,Dialogue,,0,0,0,,My name is Mouri Ran.
-Dialogue: 0,0:04:25.09,0:04:29.35,Signs,,0,0,0,,Azuma Fumihiro (22)\NTennis Club Captain
+Dialogue: 0,0:04:25.09,0:04:29.35,Character Card,,0,0,0,,Azuma Fumihiro (22)\NTennis Club Captain
 Dialogue: 0,0:04:25.22,0:04:28.55,Dialogue Top,,0,0,0,,If it's about that boy, he went to the restroom a while ago.
 Dialogue: 0,0:04:28.55,0:04:29.35,Dialogue Top,,0,0,0,,Want me to check on him?
 Dialogue: 0,0:04:29.64,0:04:31.64,Dialogue,,0,0,0,,No, I should go myself then...
@@ -112,7 +111,7 @@ Dialogue: 0,0:04:55.79,0:04:58.13,Dialogue,,0,0,0,,About the money I lent you ba
 Dialogue: 0,0:04:59.67,0:05:00.84,Dialogue,,0,0,0,,About that...
 Dialogue: 0,0:05:00.84,0:05:02.17,Dialogue,,0,0,0,,Can you wait a little longer?
 Dialogue: 0,0:05:02.88,0:05:04.26,Dialogue Top,,0,0,0,,If you can't return it to me...
-Dialogue: 0,0:05:02.51,0:05:06.80,Signs,,0,0,0,,Ootake Chie (19)\NTennis Club Member
+Dialogue: 0,0:05:02.51,0:05:06.80,Character Card,,0,0,0,,Ootake Chie (19)\NTennis Club Member
 Dialogue: 0,0:05:04.76,0:05:07.38,Dialogue Top,,0,0,0,,I'll be in deep trouble...
 Dialogue: 0,0:05:08.93,0:05:13.27,Dialogue,,0,0,0,,It's thanks to your support that l'm able\Nto participate in the competition, Chie.
 Dialogue: 0,0:05:13.27,0:05:15.73,Dialogue,,0,0,0,,But, I...

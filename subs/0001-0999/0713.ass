@@ -33,14 +33,14 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: KudoSempai,Segoe Print,45,&H009796B7,&H000000FF,&H484B4B4B,&HC0000000,0,0,0,0,100,100,0,0,1,0,0,7,10,10,25,1Style: Blanka30,Arial,20,&HFFFFFFFF,&H000000FF,&H1E000000,&H00000000,0,0,0,0,100,100,0,0,3,1,0,7,10,10,10,1Style: topbox,Arial,20,&HFFFFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,3,1,0,8,10,10,10,1Style: OPTLTextless,FuntypeFattened,50,&H00FFFFFF,&H000000FF,&H80AF0068,&H80000000,-1,0,0,0,90,100,0,0,1,3,1,2,10,10,40,1Style: SemiTransBox,Arial,20,&HFFFFFFFF,&H000000FF,&H64000000,&H00000000,0,0,0,0,100,100,0,0,3,1,0,8,10,10,10,1Style: Massugu Yuku TL,Hey Gorgeous M,40,&H00FFFFFF,&H000000FF,&H404A4200,&HC0000000,0,0,0,0,85,100,2,0,1,3,1.5,2,100,100,30,1Style: TV,Segoe,70,&H00E0D4CB,&HFF0000FF,&H00370001,&HC0000000,-1,0,0,0,100,100,0,0,1,0,0,2,100,100,30,1Style: Phoneradio,Calibri,50,&H0FFDFFC6,&H000000FF,&H00370001,&HC0000000,-1,0,0,0,100,100,0,0,1,2.5,1.5,2,100,100,30,1Style: Poodles,MV Boli M,70,&H400102B5,&H000809FC,&H00CFF2F3,&H80000000,0,0,0,0,100,100,0,0,1,4,2,8,10,10,25,1
+Style: Poodles,MV Boli M,70,&H400102B5,&H000809FC,&H00CFF2F3,&H80000000,0,0,0,0,100,100,0,0,1,4,2,8,10,10,25,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 Dialogue: 0,0:02:31.71,0:02:35.38,Signs,,0,0,0,,Ruri Torakura (38)\NAsanobu's Wife
 Dialogue: 0,0:02:35.71,0:02:39.13,Signs,,0,0,0,,Kishiharu Torakura (45)\NThird Son of the Torakura Family
 Dialogue: 0,0:02:39.38,0:02:43.18,Signs,,0,0,0,,Jōhei Hagawa (29)\NKamiyo's Boyfriend
-Dialogue: 0,0:02:48.43,0:02:52.98,Signs,,0,0,0,,Asanobu Torakura (52)\NSecond son of the Torakura family\N
+Dialogue: 0,0:02:48.43,0:02:52.98,Signs,,0,0,0,,Asanobu Torakura (52)\NSecond son of the Torakura family
 Dialogue: 0,0:02:54.11,0:02:58.11,Signs,,0,0,0,,Mina Torakura (26)\NSecond daughter of the Torakura family
 Dialogue: 0,0:03:17.92,0:03:25.18,Signs,,10,10,0,,Rikushige Koga (71)\NTorakura Family Butler
 Dialogue: 0,0:03:50.70,0:03:57.92,Signs,,0,0,0,,Hikaru Hinohara (24)\NTorakura Family Maid
@@ -48,11 +48,11 @@ Dialogue: 0,0:00:01.50,0:00:07.44,Narration Off,,10,10,0,,{\be10}We got suspicio
 Dialogue: 0,0:00:08.99,0:00:13.70,Narration Off,,0,0,0,,{\be10}There, a group of siblings in a rather uneasy mood gathered together to discuss their inheritance.
 Dialogue: 0,0:00:15.84,0:00:20.33,Narration Off,,0,0,0,,{\be10}While the master of the mansion was missing, they tried to take a family photo,
 Dialogue: 0,0:00:20.69,0:00:24.98,Narration Off,,0,0,0,,{\be10}but the master, who wasn't supposed to be there, was captured on it in an ominous state.
-Dialogue: 0,0:00:26.49,0:00:30.76,Narration Off,,0,0,0,,{\be10\c&HAAAA00\t(0,4210,\c)}Seeking comprehensive answers, he clears all mysteries and codes!
-Dialogue: 0,0:00:30.76,0:00:34.47,Narration Off,,0,0,0,,{\be10\t(0,1880,\c&H88AA00)}The mystery grows ever deeper.\NWill the Dracula case ever be solved?!
-Dialogue: 0,0:00:34.47,0:00:36.05,Narration Off,,0,0,0,,{\be10\c&H88AA00)\t(0,1440,\c)}He sees the single truth for what it is,
-Dialogue: 0,0:00:36.05,0:00:38.18,Narration Off,,0,0,0,,{\be10\t(0,1750,\c&HAA00AA)}and looks like a kid but has the mind of an adult!
-Dialogue: 0,0:00:38.18,0:00:40.27,Narration Off,,0,0,0,,{\be10\c&HAA00AA\t(0,1600,\c&H0000FF)\fad(0,500)}His name? Detective Conan!
+Dialogue: 0,0:00:26.49,0:00:30.76,Narration Off,,0,0,0,,{\be10}Seeking comprehensive answers, he clears all mysteries and codes!
+Dialogue: 0,0:00:30.76,0:00:34.47,Narration Off,,0,0,0,,{\be10}The mystery grows ever deeper.\NWill the Dracula case ever be solved?!
+Dialogue: 0,0:00:34.47,0:00:36.05,Narration Off,,0,0,0,,{\be10}He sees the single truth for what it is,
+Dialogue: 0,0:00:36.05,0:00:38.18,Narration Off,,0,0,0,,{\be10}and looks like a kid but has the mind of an adult!
+Dialogue: 0,0:00:38.18,0:00:40.27,Narration Off,,0,0,0,,{\be10}His name? Detective Conan!
 Dialogue: 0,0:02:27.23,0:02:31.50,Dialogue,,0,0,0,,Wait, what is this?! It's almost like ghost photography!
 Dialogue: 0,0:02:31.89,0:02:35.38,Dialogue Top,,0,0,0,,Why's brother-in-law in this photo? He wasn't there at the time!
 Dialogue: 0,0:02:35.38,0:02:39.13,Dialogue Top,,0,0,0,,I have no idea.

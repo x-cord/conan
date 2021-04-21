@@ -33,7 +33,6 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: title01,Comic Sans MS,20,&H00543B28,&H000000FF,&H00F9F8F4,&H00000000,-1,0,0,0,100,100,0,0,3,2,0,2,10,10,10,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -49,7 +48,7 @@ Dialogue: 0,0:00:29.91,0:00:34.67,Dialogue,,0,0,0,,In his final hours, Akashi{\r
 Dialogue: 0,0:00:35.71,0:00:37.67,Dialogue,,0,0,0,,What was he trying to say?
 Dialogue: 0,0:00:39.01,0:00:43.63,Dialogue,,0,0,0,,We deduced that our suspect is among the\Nremaining four who also resided in the mansion.
 Dialogue: 0,0:00:44.14,0:00:50.10,Dialogue Top,,0,0,0,,The rival of Inspector Yamato from Nagano Police,\NMorofushi Takaaki, took us with him on his investigation.
-Dialogue: 0,0:00:46.14,0:00:48.14,Character Card,,0,0,0,,{\blur1\be5\fad(0,0)\}Morofushi Takaaki (35)\NNagano Prefecture Arano Station Inspector
+Dialogue: 0,0:00:46.14,0:00:48.14,Character Card,,0,0,0,,{\blur1\be5\fad(0,0)}Morofushi Takaaki (35)\NNagano Prefecture Arano Station Inspector
 Dialogue: 0,0:00:50.93,0:00:54.65,Dialogue,,0,0,0,,We felt suspicious towards one Naoki Shirou{\rHonorifics - Dialogue}-san{\r}'s reactions.
 Dialogue: 0,0:00:55.15,0:01:00.82,Dialogue,,0,0,0,,And so we revisited his apartment the next\Nday, only to find Naoki{\rHonorifics - Dialogue}-san{\r} murdered.
 Dialogue: 0,0:01:01.74,0:01:06.82,Dialogue,,0,0,0,,Similar to Akashi{\rHonorifics - Dialogue}-san{\r}, he was seated\Non a chair, facing a wall painted red.
@@ -79,7 +78,7 @@ Dialogue: 0,0:04:12.47,0:04:15.35,Dialogue,,0,0,0,,Yeah, that Morofushi Takaaki.
 Dialogue: 0,0:04:16.97,0:04:18.98,Dialogue,,0,0,0,,He's also one of the suspects!
 Dialogue: 0,0:04:29.25,0:04:30.44,Dialogue Top,,0,0,0,,Shiro{\rHonorifics - Dialogue}-kun{\r} is...
 Dialogue: 0,0:04:30.45,0:04:32.53,Dialogue Top,,0,0,0,,Is that true!?
-Dialogue: 0,0:04:28.82,0:04:32.53,Character Card,,0,0,0,,{\blur1\be5\fad(0,0)\}Midorikawa Naoki (38)\NActor
+Dialogue: 0,0:04:28.82,0:04:32.53,Character Card,,0,0,0,,{\blur1\be5\fad(0,0)}Midorikawa Naoki (38)\NActor
 Dialogue: 0,0:04:34.07,0:04:39.95,Dialogue,,0,0,0,,That's why we wanted to ask, last night between\N10:00 and 11:00, what were you doing?
 Dialogue: 0,0:04:40.58,0:04:45.00,Dialogue,,0,0,0,,During that time, I was in my room\Nreading my script for a TV drama.
 Dialogue: 0,0:04:45.71,0:04:50.46,Dialogue,,0,0,0,,When I was done and went to sleep, it\Nwas about 2:00 in the morning I guess.
@@ -97,7 +96,7 @@ Dialogue: 0,0:05:34.68,0:05:38.60,Dialogue,,0,0,0,,Oh please, don't tell me you,
 Dialogue: 0,0:05:39.18,0:05:40.56,Dialogue,,0,0,0,,By "you too," you mean...
 Dialogue: 0,0:05:40.87,0:05:46.84,Dialogue Top,,0,0,0,,The officer from last night with slanted eyes and a small\Nmustache asked me the same thing, so I told him:
 Dialogue: 0,0:05:46.90,0:05:50.58,Dialogue Top,,0,0,0,,"I was in here alone working on my design. Is that problem?"
-Dialogue: 0,0:05:40.86,0:05:46.16,Character Card,,0,0,0,,{\blur1\be5\fad(250,250)\}Yamabuki Shouji (39)\NFashion Designer
+Dialogue: 0,0:05:40.86,0:05:46.16,Character Card,,0,0,0,,{\blur1\be5\fad(250,250)}Yamabuki Shouji (39)\NFashion Designer
 Dialogue: 0,0:05:51.32,0:05:54.24,Dialogue,,0,0,0,,So that bastard Koumei has been here already, huh?
 Dialogue: 0,0:05:54.65,0:05:56.53,Dialogue,,0,0,0,,"Koumei"?
 Dialogue: 0,0:05:56.53,0:05:59.16,Dialogue,,0,0,0,,Was that officer's name Koumei?
@@ -112,7 +111,7 @@ Dialogue: 0,0:06:31.23,0:06:36.99,Dialogue,,0,0,0,,I've said this before, during
 Dialogue: 0,0:06:37.53,0:06:39.80,Dialogue,,0,0,0,,So Koumei's been here, too.
 Dialogue: 0,0:06:40.53,0:06:42.66,Dialogue,,0,0,0,,And, do you have someone to verify that?
 Dialogue: 0,0:06:43.49,0:06:47.50,Dialogue Top,,0,0,0,,Go ask my partner who tried to wake me\Nup every hour starting from 11:00!
-Dialogue: 0,0:06:43.30,0:06:47.50,Character Card,,0,0,0,,{\blur1\be5\fad(250,0)\}Momose Takuto (37)\NCG Creator
+Dialogue: 0,0:06:43.30,0:06:47.50,Character Card,,0,0,0,,{\blur1\be5\fad(250,0)}Momose Takuto (37)\NCG Creator
 Dialogue: 0,0:06:48.75,0:06:54.00,Dialogue,,0,0,0,,Oh, but I covered myself with a blanket to sleep, so\Nthey likely couldn't tell if it was really me or not.
 Dialogue: 0,0:06:55.42,0:07:00.85,Dialogue,,0,0,0,,Then, about the murdered Naoki Shirou{\rHonorifics - Dialogue}-san{\r},\Nhad anything suspicious happened to him?
 Dialogue: 0,0:07:01.14,0:07:05.64,Dialogue,,0,0,0,,Who knows... a while back he came\Nto me specifically asking for money.

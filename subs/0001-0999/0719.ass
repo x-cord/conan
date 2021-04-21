@@ -33,10 +33,8 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: Tsuzukiwa,Nyala,100,&HFE000000,&H000000FF,&H00FFFFFF,&H00000000,-1,0,0,0,100,100,0,0.1,1,6,0,5,10,10,10,1Style: PlaceCard,Corbel,35,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,2,2,100,100,30,1Style: Poodles,MV Boli M,70,&H400102B5,&H000809FC,&H00CFF2F3,&H80000000,0,0,0,0,100,100,0,0,1,4,2,8,10,10,25,1
-Style: ButterflyCore,Love Is Complicated Again,45,&H405E0036,&H000000FF,&H00FFFFFF,&H80000000,-1,0,0,0,100,100,1,0,1,3.5,0,8,10,10,30,1
-Style: ButterflyCore2,Love Is Complicated Again,45,&HFF5E0036,&H000000FF,&H80000000,&H80000000,-1,0,0,0,100,100,1,0,1,0.75,0,8,10,10,30,1
-Style: BCPrologue,Cocon-Regular,45,&H805E0036,&H000000FF,&H00FFFFFF,&H80000000,-1,0,0,0,100,100,1,0,1,5,2,2,10,10,30,1
+Style: Poodles,MV Boli M,70,&H400102B5,&H000809FC,&H00CFF2F3,&H80000000,0,0,0,0,100,100,0,0,1,4,2,8,10,10,25,1
+
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 Dialogue: 0,0:00:02.69,0:00:04.19,Dialogue Top,,0,0,0,,Please wait a moment.
@@ -60,12 +58,12 @@ Dialogue: 0,0:00:57.00,0:00:58.49,Dialogue,,0,0,0,,I'm sure I put them here.
 Dialogue: 0,0:00:58.49,0:01:01.29,Dialogue,,0,0,0,,Who was it?! Who stole my tickets?!
 Dialogue: 0,0:01:06.83,0:01:09.21,Dialogue,,0,0,0,,No, no. This is mine.
 Dialogue: 0,0:01:09.21,0:01:10.88,Dialogue,,0,0,0,,Thief!
-Dialogue: 0,0:01:27.04,0:01:30.94,BCPrologue,,0,0,0,,{\blur3\fad(200,0)}Only the light of deductions can tear apart black shadows and deep darkness!
-Dialogue: 0,0:01:30.94,0:01:32.15,BCPrologue,,0,0,0,,{\blur3}An incident takes place in a coffee shop.
-Dialogue: 0,0:01:32.15,0:01:33.53,BCPrologue,,0,0,0,,{\blur3}Take good care of your rare tickets!
-Dialogue: 0,0:01:33.53,0:01:35.70,BCPrologue,,0,0,0,,{\blur3}He sees the single truth for what it is,
-Dialogue: 0,0:01:35.70,0:01:37.91,BCPrologue,,0,0,0,,{\blur3}and looks like a kid but has the mind of an adult!
-Dialogue: 0,0:01:37.91,0:01:40.14,BCPrologue,,0,0,0,,{\blur3\fad(0,200)}His name? Detective Conan!
+Dialogue: 0,0:01:27.04,0:01:30.94,Narration Off,,0,0,0,,{\be10}Only the light of deductions can tear apart black shadows and deep darkness!
+Dialogue: 0,0:01:30.94,0:01:32.15,Narration Off,,0,0,0,,{\be10}An incident takes place in a coffee shop.
+Dialogue: 0,0:01:32.15,0:01:33.53,Narration Off,,0,0,0,,{\be10}Take good care of your rare tickets!
+Dialogue: 0,0:01:33.53,0:01:35.70,Narration Off,,0,0,0,,{\be10}He sees the single truth for what it is,
+Dialogue: 0,0:01:35.70,0:01:37.91,Narration Off,,0,0,0,,{\be10}and looks like a kid but has the mind of an adult!
+Dialogue: 0,0:01:37.91,0:01:40.14,Narration Off,,0,0,0,,{\be10}His name? Detective Conan!
 Dialogue: 0,0:03:05.50,0:03:08.75,Signs,,0,0,0,,The next day
 Dialogue: 0,0:03:06.97,0:03:12.75,Dialogue Top,,0,0,0,,And then she dragged me to the nearest police station, and it took three hours until I was acquitted. Three hours!
 Dialogue: 0,0:03:14.97,0:03:19.51,Dialogue,,0,0,0,,But why didn't she write down her seat numbers or something?
@@ -211,7 +209,7 @@ Dialogue: 0,0:13:09.20,0:13:12.97,Dialogue,,0,0,0,,Honestly! I only take my eyes
 Dialogue: 0,0:13:13.62,0:13:15.06,Dialogue,,0,0,0,,Sonoko{\rHonorifics - Dialogue}-neechan{\r}...
 Dialogue: 0,0:13:15.06,0:13:17.65,Dialogue,,0,0,0,,You're still 10 years too young to be interested in women's underwear.
 Dialogue: 0,0:13:19.07,0:13:22.35,Dialogue,,0,0,0,,I really need to tell Ran to raise you properly.
-Dialogue: 0,0:13:28.94,0:13:29.89,Dialogue,,0,0,0,,Sonoko?\N
+Dialogue: 0,0:13:28.94,0:13:29.89,Dialogue,,0,0,0,,Sonoko?
 Dialogue: 0,0:13:29.89,0:13:31.39,Dialogue,,0,0,0,,Sonoko{\rHonorifics - Dialogue}-kun{\r}?
 Dialogue: 0,0:13:31.39,0:13:33.00,Dialogue,,0,0,0,,I'm getting impatient.
 Dialogue: 0,0:13:33.00,0:13:36.64,Dialogue,,0,0,0,,I know who the killer is, so let's put an end to this!
@@ -248,7 +246,7 @@ Dialogue: 0,0:16:02.99,0:16:06.20,Dialogue,,0,0,0,,That's all just guesswork.
 Dialogue: 0,0:16:06.20,0:16:08.00,Dialogue,,0,0,0,,Where's your proof?
 Dialogue: 0,0:16:08.35,0:16:09.43,Dialogue,,0,0,0,,I have proof.
 Dialogue: 0,0:16:10.24,0:16:12.26,Dialogue,,0,0,0,,The apron you're carrying is the proof!
-Dialogue: 0,0:16:12.81,0:16:13.76,Dialogue,,0,0,0,,The apron?\N
+Dialogue: 0,0:16:12.81,0:16:13.76,Dialogue,,0,0,0,,The apron?
 Dialogue: 0,0:16:14.09,0:16:15.20,Dialogue,,0,0,0,,I see!
 Dialogue: 0,0:16:15.20,0:16:20.40,Dialogue,,0,0,0,,If Masako{\rHonorifics - Dialogue}-san{\r} took Kaori{\rHonorifics - Dialogue}-san{\r}'s apron home last night like Sonoko says,
 Dialogue: 0,0:16:20.40,0:16:25.77,Dialogue,,0,0,0,,then the apron Kaori{\rHonorifics - Dialogue}-san{\r} is carrying right now is really Masako{\rHonorifics - Dialogue}-san{\r}'s apron.
@@ -309,7 +307,7 @@ Dialogue: 0,0:20:25.22,0:20:30.89,Dialogue,,0,0,0,,When Masako headed out, I cam
 Dialogue: 0,0:20:31.27,0:20:34.39,Dialogue,,0,0,0,,But Masako caught me red-handed...
 Dialogue: 0,0:20:36.44,0:20:38.45,Flashback,,0,0,0,,{\be10}I was really surprised, you know.
 Dialogue: 0,0:20:38.45,0:20:41.28,Flashback,,0,0,0,,{\be10}I never thought a quiet girl like you would steal something from a customer.
-Dialogue: 0,0:20:41.64,0:20:43.32,Flashback,,0,0,0,,{\be10}Don't you think it's time you accepted the truth?\N
+Dialogue: 0,0:20:41.64,0:20:43.32,Flashback,,0,0,0,,{\be10}Don't you think it's time you accepted the truth?
 Dialogue: 0,0:20:43.80,0:20:47.53,Flashback,,0,0,0,,{\be10}He only used you because it was convenient for him!
 Dialogue: 0,0:20:47.53,0:20:48.32,Flashback,,0,0,0,,{\be10}You're wrong!
 Dialogue: 0,0:20:48.32,0:20:52.45,Flashback,,0,0,0,,{\be10}He didn't even come close to loving you!
@@ -337,32 +335,6 @@ Dialogue: 0,0:23:48.98,0:23:53.58,Dialogue,,0,0,0,,Next Conan's Hint: Stuffed An
 Dialogue: 0,0:23:53.58,0:23:54.75,Dialogue Top,,0,0,0,,Next time's in Kumamoto!
 Dialogue: 0,0:23:54.75,0:23:56.35,Dialogue Top,,0,0,0,,That means horsemeat and {\i1}garashi renkon{\i0}!
 Dialogue: 0,0:23:56.35,0:23:58.54,Dialogue Top,,0,0,0,,No, it means a Mystery Tour.
-Dialogue: 0,0:01:13.88,0:01:18.89,ButterflyCore,,0,0,0,,{\blur4\fad(200,0)}kage o mau chō no kodō ga seijaku no umi o saite
-Dialogue: 0,0:01:19.05,0:01:26.23,ButterflyCore,,0,0,0,,{\blur4}kasanariau koe ga ima yami o furiharatta
-Dialogue: 0,0:01:40.78,0:01:46.21,ButterflyCore,,0,0,0,,{\blur4\c&H005500}haritsuita ase o nugutte nigemawaru light o ketta
-Dialogue: 0,0:01:46.54,0:01:51.88,ButterflyCore,,0,0,0,,{\blur4\c&H005500}kanashimi ni utareta kyō no kizuato kabau yō ni
-Dialogue: 0,0:01:52.05,0:01:57.34,ButterflyCore,,0,0,0,,{\blur4\c&H005500}aseru hodo ni tōku natte wake mo naku imi o sagashite
-Dialogue: 0,0:01:57.51,0:02:03.27,ButterflyCore,,0,0,0,,{\blur4\c&H005500\t(2500,3024,\c&H000055)}osanasa no ura ni kakushita yuzuritakunai omoi ni
-Dialogue: 0,0:02:03.39,0:02:08.10,ButterflyCore,,0,0,0,,{\blur4\c&H000077}kizuita nara miushinawanai yō ni
-Dialogue: 0,0:02:08.23,0:02:14.03,ButterflyCore,,0,0,0,,{\blur4\c&H770000}dareka o mamore'ru to motto ima shinjitai
-Dialogue: 0,0:02:14.23,0:02:19.28,ButterflyCore,,0,0,0,,{\blur4\c&HAA0000}kage o mau chō no kodō ga seijaku no umi o saita
-Dialogue: 0,0:02:19.45,0:02:24.79,ButterflyCore,,0,0,0,,{\blur4\c&H000077}kimi ni miseru itsuwari no subete ga uso ja nai daro
-Dialogue: 0,0:02:24.95,0:02:30.42,ButterflyCore,,0,0,0,,{\blur4\c&HAA0000}mayo'u tabi suteta kotae mo kitto erabu hi wa mata kuru kara
-Dialogue: 0,0:02:30.58,0:02:39.51,ButterflyCore,,0,0,0,,{\blur4\c&H006600}kono kokoro wa dare yori mo atsuku moyashi tsuzukeyō kienai yō ni
-Dialogue: 0,0:02:49.44,0:02:55.03,ButterflyCore,,0,0,0,,{\blur4\c&H006600\fad(0,1000)}kienai yō ni
-Dialogue: 0,0:01:13.88,0:01:18.89,ButterflyCore2,,0,0,0,,{\fad(200,0)}kage o mau chō no kodō ga seijaku no umi o saite
-Dialogue: 0,0:01:19.05,0:01:26.23,ButterflyCore2,,0,0,0,,kasanariau koe ga ima yami o furiharatta
-Dialogue: 0,0:01:40.78,0:01:46.21,ButterflyCore2,,0,0,0,,haritsuita ase o nugutte nigemawaru light o ketta
-Dialogue: 0,0:01:46.54,0:01:51.88,ButterflyCore2,,0,0,0,,kanashimi ni utareta kyō no kizuato kabau yō ni
-Dialogue: 0,0:01:52.05,0:01:57.34,ButterflyCore2,,0,0,0,,aseru hodo ni tōku natte wake mo naku imi o sagashite
-Dialogue: 0,0:01:57.51,0:02:03.27,ButterflyCore2,,0,0,0,,osanasa no ura ni kakushita yuzuritakunai omoi ni
-Dialogue: 0,0:02:03.39,0:02:08.10,ButterflyCore2,,0,0,0,,kizuita nara miushinawanai yō ni
-Dialogue: 0,0:02:08.23,0:02:14.03,ButterflyCore2,,0,0,0,,dareka o mamore'ru to motto ima shinjitai
-Dialogue: 0,0:02:14.23,0:02:19.28,ButterflyCore2,,0,0,0,,kage o mau chō no kodō ga seijaku no umi o saita
-Dialogue: 0,0:02:19.45,0:02:24.79,ButterflyCore2,,0,0,0,,kimi ni miseru itsuwari no subete ga uso ja nai daro
-Dialogue: 0,0:02:24.95,0:02:30.42,ButterflyCore2,,0,0,0,,mayo'u tabi suteta kotae mo kitto erabu hi wa mata kuru kara
-Dialogue: 0,0:02:30.58,0:02:39.51,ButterflyCore2,,0,0,0,,{\3c&H006600}kono kokoro wa dare yori mo atsuku moyashi tsuzukeyō kienai yō ni
-Dialogue: 0,0:02:49.44,0:02:55.03,ButterflyCore2,,0,0,0,,{\fad(0,1000)\3c&H006600}kienai yō ni
 Dialogue: 0,0:21:40.38,0:21:45.55,Poodles,,0,0,0,,{\fax0.25\blur2.5\3c&HFFFFFF}kimi no egao ga nani yori mo suki datta
 Dialogue: 0,0:21:45.89,0:21:49.02,Poodles,,0,0,0,,{\fax0.25\blur2.5\3c&HFFFFFF}onaji koto de waraiatta ne
 Dialogue: 0,0:21:49.35,0:21:57.44,Poodles,,0,0,0,,{\fax0.25\blur2.5\3c&HFFFFFF}futoshita shunkan ni iron'na kimi o omoidasu

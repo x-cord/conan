@@ -33,7 +33,8 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: title001,Arial,14,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,120,120,0,0,1,0.6,0.8,2,0,0,6,1Style: title003,Arial Black,15,&H00C7C9CB,&H000000FF,&H004D4D4D,&H00000000,-1,0,0,0,110,150,0,0,1,0,0,2,10,10,10,1Style: title005,Arial,18,&H002F2D2D,&H000000FF,&H640A0502,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,2,10,10,10,1Style: title006 - 6,Arial,18,&HFF0A0502,&HFF0000FF,&H64000000,&HFF000000,-1,0,0,0,100,100,0,0,3,1,0,2,10,10,10,1Style: title08,Arial,20,&HFFFFFFFF,&HFF0000FF,&H7D000000,&HFF000000,0,0,0,0,100,100,0,0,3,2,0,2,10,10,10,1
+Style: title001,Arial,14,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,120,120,0,0,1,0.6,0.8,2,0,0,6,1
+
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 Dialogue: 0,0:00:01.85,0:00:04.72,title001,,0,0,0,,{\fad(300,0)}Line Natsuhabara Station
@@ -64,9 +65,9 @@ Dialogue: 0,0:01:38.82,0:01:44.90,Dialogue,,0,0,0,,Three stations ahead is Sugam
 Dialogue: 0,0:02:04.30,0:02:06.21,Dialogue,,0,0,0,,If we continue lamenting the passing seasons...
 Dialogue: 0,0:02:06.24,0:02:07.93,Dialogue,,0,0,0,,We'll be unable to confront the mysteries of cases!
 Dialogue: 0,0:02:08.12,0:02:11.44,Dialogue,,0,0,5,,The identity of the Friend of Justice\Nis actually a picture-story showman?
-Dialogue: 0,0:02:11.81,0:02:13.47,Dialogue,,0,0,5,,{\fad(0,0)\xshad1.3\1c&H6AE8FA&\4c&H294A50&\}Perceiving the one and only truth...
-Dialogue: 0,0:02:13.48,0:02:15.27,Dialogue,,0,0,5,,{\fad(0,0)\xshad1.3\1c&H6AE8FA&\4c&H294A50&\}The appearance of a child and the intellect of an adult...
-Dialogue: 0,0:02:15.27,0:02:17.39,Dialogue,,0,0,5,,{\fad(0,50)\xshad1.3\1c&H6AE8FA&\4c&H294A50&\}His name is: Detective {\t(1450,1451,\1c&H4331B1&)}Conan{\1c&H6AE8FA&}!
+Dialogue: 0,0:02:11.81,0:02:13.47,Dialogue,,0,0,5,,Perceiving the one and only truth...
+Dialogue: 0,0:02:13.48,0:02:15.27,Dialogue,,0,0,5,,The appearance of a child and the intellect of an adult...
+Dialogue: 0,0:02:15.27,0:02:17.39,Dialogue,,0,0,5,,His name is: Detective Conan!
 Dialogue: 0,0:03:51.75,0:03:54.46,Dialogue,,0,0,0,,This guy is Kanemura, a wanted criminal.
 Dialogue: 0,0:03:55.05,0:03:57.26,Dialogue,,0,0,0,,He's a member of that fraud group, right?
 Dialogue: 0,0:03:57.34,0:03:58.28,Dialogue,,0,0,0,,Yes.
@@ -85,7 +86,7 @@ Dialogue: 0,0:04:30.65,0:04:32.74,Dialogue,,0,0,0,,Hey, Conan{\rHonorifics - Dia
 Dialogue: 0,0:04:32.74,0:04:34.03,Dialogue,,0,0,0,,Let's go...
 Dialogue: 0,0:04:34.80,0:04:36.02,Dialogue,,0,0,0,,You are...
 Dialogue: 0,0:04:37.67,0:04:39.92,Dialogue Top,,0,0,0,,You guys are from earlier!
-Dialogue: 0,0:04:36.71,0:04:39.91,Signs,,0,0,0,,Norizuki Tokuma (75)
+Dialogue: 0,0:04:36.71,0:04:39.91,Character Card,,0,0,0,,Norizuki Tokuma (75)
 Dialogue: 0,0:04:41.79,0:04:43.50,Dialogue,,0,0,0,,Are you acquaintances?
 Dialogue: 0,0:04:43.50,0:04:45.17,Dialogue,,0,0,0,,Yeah, kind of...
 Dialogue: 0,0:04:45.17,0:04:47.42,Dialogue,,0,0,0,,But why are you here, mister?
@@ -94,7 +95,7 @@ Dialogue: 0,0:04:52.55,0:05:00.52,Dialogue,,0,0,0,,After I parted ways with you 
 Dialogue: 0,0:05:00.52,0:05:03.19,Dialogue,,0,0,0,,That's why I deboarded at Beika Station and went to the police.
 Dialogue: 0,0:05:03.56,0:05:07.23,Dialogue,,0,0,0,,So he's the leader of the fraud group, Kiriya Teruhiko?
 Dialogue: 0,0:05:07.23,0:05:08.65,Dialogue,,0,0,0,,Was there a falling out?
-Dialogue: 0,0:05:09.03,0:05:13.16,Signs,,0,0,0,,Kiriya Teruhiko (35)
+Dialogue: 0,0:05:09.03,0:05:13.16,Character Card,,0,0,0,,Kiriya Teruhiko (35)
 Dialogue: 0,0:05:09.08,0:05:11.23,Dialogue Top,,0,0,0,,I have nothing to do with it!
 Dialogue: 0,0:05:11.28,0:05:13.16,Dialogue Top,,0,0,0,,I was only taking a walk around here!
 Dialogue: 0,0:05:13.82,0:05:16.07,Dialogue,,0,0,0,,He witnessed the scene from the train?
@@ -264,7 +265,7 @@ Dialogue: 0,0:13:12.22,0:13:15.51,Dialogue,,0,0,0,,We're trying to locate his re
 Dialogue: 0,0:13:16.14,0:13:17.43,Dialogue,,0,0,0,,Detective Takagi.
 Dialogue: 0,0:13:17.43,0:13:19.02,Dialogue,,0,0,0,,Please tell me the old man's address.
 Dialogue: 0,0:13:27.73,0:13:28.27,Dialogue,,0,0,0,,Ran?
-Dialogue: 0,0:13:41.38,0:13:44.38,Signs,,0,0,0,,Motegi Takashi (25)
+Dialogue: 0,0:13:41.38,0:13:44.38,Character Card,,0,0,0,,Motegi Takashi (25)
 Dialogue: 0,0:13:59.72,0:14:00.26,Dialogue,,0,0,0,,Stop it!
 Dialogue: 0,0:14:01.73,0:14:02.85,Dialogue,,0,0,0,,That's enough!
 Dialogue: 0,0:14:04.06,0:14:04.94,Dialogue,,0,0,0,,Mister!

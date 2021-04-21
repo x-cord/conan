@@ -33,6 +33,7 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
+
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 Dialogue: 0,0:00:04.46,0:00:06.04,Dialogue,,0,0,0,,"Star" is a fascinating word.
@@ -55,7 +56,7 @@ Dialogue: 0,0:01:06.13,0:01:11.88,Dialogue,,0,0,0,,I don't care if this town cha
 Dialogue: 0,0:01:12.10,0:01:17.83,Dialogue,,0,0,0,,The only thing I don't want to change is you.
 Dialogue: 0,0:01:18.20,0:01:23.59,Dialogue,,0,0,0,,Oh, glimmering star, shine over us forever.
 Dialogue: 0,0:01:23.90,0:01:29.47,Dialogue,,0,0,0,,This way, we won't lose the dreams we had when we were young...
-Dialogue: 0,0:01:30.00,0:01:39.19,Dialogue,,0,0,0,,{\fade(0,1350)}The only thing I don't want to change is you.
+Dialogue: 0,0:01:30.00,0:01:39.19,Dialogue,,0,0,0,,The only thing I don't want to change is you.
 Dialogue: 0,0:01:42.51,0:01:47.98,Dialogue,,0,0,0,,Itou Tamanosuke's popular traveling\Ntheater troupe came to our town to perform a play.
 Dialogue: 0,0:01:48.35,0:01:50.98,Dialogue,,0,0,0,,This time, they'd be performing an\Nadaptation of "The Legend of the Bamboo Cutter."
 Dialogue: 0,0:01:50.98,0:01:57.40,Dialogue,,0,0,0,,However, Kataoka Renge{\rHonorifics - Dialogue}-san{\r}, who was supposed to\Nplay Princess Kaguya, the main character, was kidnapped.
@@ -76,22 +77,22 @@ Dialogue: 0,0:02:59.88,0:03:01.47,Dialogue,,0,0,0,,Leader could it be that...
 Dialogue: 0,0:03:01.47,0:03:02.97,Dialogue,,0,0,0,,You really...
 Dialogue: 0,0:03:02.97,0:03:04.85,Dialogue,,0,0,0,,You really intend to let her be in the actual play?
 Dialogue: 0,0:03:04.85,0:03:07.47,Dialogue,,0,0,0,,She's the main character, she's Kaguya!
-Dialogue: 0,0:03:08.38,0:03:12.05,CharCards01 shadow,,0,0,0,,\h\h\h\hAzuma Yoichi (28)\h\h\h\h\N{\fs8}\h\hTamanosuke Theater Troupe Member\h\h
-Dialogue: 0,0:03:08.38,0:03:12.05,CharCards02 shadow,,0,0,0,,Sawamura Kantarou (23)\N{\fs8}\hTamanosuke Theater Troupe Member\h
+Dialogue: 0,0:03:08.38,0:03:12.05,CharCards01 shadow,,0,0,0,,Azuma Yoichi (28)\N{\fs8} Tamanosuke Theater Troupe Member
+Dialogue: 0,0:03:08.38,0:03:12.05,CharCards02 shadow,,0,0,0,,Sawamura Kantarou (23)\N{\fs8} Tamanosuke Theater Troupe Member
 Dialogue: 0,0:03:08.88,0:03:11.00,Dialogue Top,,0,0,0,,Her lines aren't easy either.
 Dialogue: 0,0:03:11.21,0:03:12.08,Dialogue Top,,0,0,0,,That's true...
 Dialogue: 0,0:03:12.27,0:03:13.41,Dialogue Top,,0,0,0,,No worries.
 Dialogue: 0,0:03:13.62,0:03:14.77,Dialogue Top,,0,0,0,,I've changed the script.
 Dialogue: 0,0:03:14.93,0:03:17.19,Dialogue Top,,0,0,0,,Everyone, please memorize this quickly.
-Dialogue: 0,0:03:16.14,0:03:19.88,CharCards03 shadow,,0,0,0,,\h\h\h\hOnoe Mataroku (35)\h\h\h\h\N{\fs8}\h\h\h\h\hTamanosuke Theater Troupe Member\h\h\h\h\h
+Dialogue: 0,0:03:16.14,0:03:19.88,CharCards03 shadow,,0,0,0,,Onoe Mataroku (35)\N{\fs8} Tamanosuke Theater Troupe Member
 Dialogue: 0,0:03:19.90,0:03:26.66,Dialogue,,0,0,0,,I added more scenes from Kaguya's childhood\Nand removed the scenes that show her later years.
 Dialogue: 0,0:03:26.66,0:03:31.75,Dialogue,,0,0,0,,Later on, I'll redirect Kaguya's stage direction as\Nwell as the lighting so that her face is mostly hidden.
-Dialogue: 0,0:03:32.40,0:03:35.73,CharCards04 shadow,,0,0,0,,{\fade(300,0)}Itou Tamanosuke (17)\N{\fs9}\h\hTamanosuke Theater Troupe Leader\h\h
+Dialogue: 0,0:03:32.40,0:03:35.73,CharCards04 shadow,,0,0,0,,{\fade(300,0)}Itou Tamanosuke (17)\N{\fs9} Tamanosuke Theater Troupe Leader
 Dialogue: 0,0:03:32.39,0:03:38.32,Dialogue Top,,0,0,0,,However, she has to show her face during\Nthe climax scene where she goes to the moon.
 Dialogue: 0,0:03:38.38,0:03:40.38,Dialogue,,0,0,0,,I'm telling you, this isn't going to work...
 Dialogue: 0,0:03:40.38,0:03:42.76,Dialogue,,0,0,0,,"Traveling and performing this is our life."
-Dialogue: 0,0:03:42.82,0:03:45.11,CharCards07 shadow,,0,0,0,,{\fade(300,0)}Ichimura Kikuno (40)\N{\fs8}\hTamanosuke Theater Troupe Member\h
-Dialogue: 0,0:03:46.88,0:03:52.61,CharCards05 shadow,,0,0,0,,{\fade(300,0)}Bandouhiko Emon (50)\N{\fs9}\hTamanosuke Theater Troupe Member\h
+Dialogue: 0,0:03:42.82,0:03:45.11,CharCards07 shadow,,0,0,0,,{\fade(300,0)}Ichimura Kikuno (40)\N{\fs8} Tamanosuke Theater Troupe Member
+Dialogue: 0,0:03:46.88,0:03:52.61,CharCards05 shadow,,0,0,0,,{\fade(300,0)}Bandouhiko Emon (50)\N{\fs9} Tamanosuke Theater Troupe Member
 Dialogue: 0,0:03:43.12,0:03:45.07,Dialogue Top,,0,0,0,,"When it rains, it pours."
 Dialogue: 0,0:03:47.21,0:03:50.34,Dialogue Top,,0,0,0,,"If we combine our efforts in times like these,\Nwe can create an outstanding performance."
 Dialogue: 0,0:03:51.16,0:03:52.63,Dialogue Top,,0,0,0,,That was a famous line.
@@ -133,7 +134,7 @@ Dialogue: 0,0:05:07.76,0:05:11.43,Dialogue,,0,0,0,,My part isn't until the secon
 Dialogue: 0,0:05:11.43,0:05:14.10,Dialogue,,0,0,0,,Until then, I'll help look for Renge.
 Dialogue: 0,0:05:14.10,0:05:15.39,Dialogue,,0,0,0,,Leader...
 Dialogue: 0,0:05:16.44,0:05:18.02,Dialogue,,0,0,0,,The case was progressing.
-Dialogue: 0,0:05:21.35,0:05:25.35,CharCards06 shadow,,0,0,0,,Oonuki Souichi (38)\N{\fs11}\h\h\hKataoka's Private Secretary\h\h\h
+Dialogue: 0,0:05:21.35,0:05:25.35,CharCards06 shadow,,0,0,0,,Oonuki Souichi (38)\N{\fs11} Kataoka's Private Secretary
 Dialogue: 0,0:05:23.44,0:05:25.50,Dialogue Top,,0,0,0,,Can you hear me, officer?
 Dialogue: 0,0:05:27.91,0:05:31.41,Dialogue,,0,0,0,,We are approaching the parking lot.
 Dialogue: 0,0:05:45.97,0:05:49.22,Dialogue,,0,0,0,,Oh? He seems to have received\Nan envelope with something in it.

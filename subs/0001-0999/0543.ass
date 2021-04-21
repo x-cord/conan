@@ -33,11 +33,10 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: title001,Risque,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1,0,2,10,10,25,1Style: title003,Risque,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1,0,2,10,10,25,1
+Style: title003,Risque,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1,0,2,10,10,25,1
 Style: title004,Risque,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1,0,2,10,285,70,1
 Style: title005,Risque,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1,0,2,10,255,115,1
 Style: title006,Risque,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1,0,2,10,265,160,1
-Style: title007,Risque,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1,0,2,10,10,25,1
 Style: title008,Risque,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1,0,2,315,0,40,1
 Style: title009,Risque,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1,0,2,0,25,235,1
 Style: title010,Risque,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1,0,2,280,0,50,1
@@ -144,10 +143,10 @@ Dialogue: 0,0:06:05.62,0:06:06.54,Dialogue,,0,0,0,,Hey!
 Dialogue: 0,0:06:06.54,0:06:08.25,Dialogue,,0,0,0,,What're you guys doing!?
 Dialogue: 0,0:06:08.25,0:06:10.13,Dialogue,,0,0,0,,Asking this strange stuff out of nowhere...
 Dialogue: 0,0:06:10.38,0:06:12.05,Dialogue,,0,0,0,,It isn't strange!
-Dialogue: 0,0:06:13.45,0:06:16.10,title003,,0,0,0,,{\fad(350,0)\an7\blur3\be10\1c&HD0CBF9&}saba {\c&H9395E4&}mackarel
-Dialogue: 0,0:06:13.45,0:06:16.10,title004,,0,0,0,,{\fad(350,0)\an7\blur3\be10\c&HFFE1D5&}koi {\c&HD2B292&}carp
-Dialogue: 0,0:06:13.45,0:06:16.10,title005,,0,0,0,,{\fad(350,0)\an7\blur3\be10\}tai {\c&HBBE2CC&}sea {\c&H88C7A6&}bream
-Dialogue: 0,0:06:13.45,0:06:16.10,title006,,0,0,0,,{\an7\blur3\be10\c&HBAE0E3&\fad(350,0)}hirame {\c&H8EBECD&}flounder
+Dialogue: 0,0:06:13.45,0:06:16.10,title003,,0,0,0,,{\fad(350,0)\blur3\be10\1c&HD0CBF9&}saba {\c&H9395E4&}mackarel
+Dialogue: 0,0:06:13.45,0:06:16.10,title004,,0,0,0,,{\fad(350,0)\blur3\be10\c&HFFE1D5&}koi {\c&HD2B292&}carp
+Dialogue: 0,0:06:13.45,0:06:16.10,title005,,0,0,0,,{\fad(350,0)\blur3\be10}tai {\c&HBBE2CC&}sea {\c&H88C7A6&}bream
+Dialogue: 0,0:06:13.45,0:06:16.10,title006,,0,0,0,,{\blur3\be10\c&HBAE0E3&\fad(350,0)}hirame {\c&H8EBECD&}flounder
 Dialogue: 0,0:06:12.34,0:06:16.09,Dialogue,,0,0,0,,Because that dying message mentioned sea bream and flounder...
 Dialogue: 0,0:06:16.47,0:06:21.10,Dialogue,,0,0,0,,Those might actually be the favorite fish of the culprit!
 Dialogue: 0,0:06:22.02,0:06:22.85,Dialogue,,0,0,0,,How absurd...
@@ -188,10 +187,10 @@ Dialogue: 0,0:07:44.30,0:07:45.66,Dialogue,,0,0,0,,There is a culprit...
 Dialogue: 0,0:07:46.00,0:07:48.28,Dialogue,,0,0,0,,And most likely, he's among these three.
 Dialogue: 0,0:07:49.80,0:07:51.04,Dialogue,,0,0,0,,But, what was with that?
 Dialogue: 0,0:07:51.47,0:07:52.99,Dialogue,,0,0,0,,The fish message...
-Dialogue: 0,0:07:53.28,0:07:58.74,title003,,0,0,0,,{\fad(350,350)\an7\blur3\be10\1c&HD0CBF9&}saba {\c&H9395E4&}mackarel
-Dialogue: 0,0:07:54.28,0:07:58.74,title004,,0,0,0,,{\fad(350,350)\an7\blur3\be10\c&HFFE1D5&}koi {\c&HD2B292&}carp
-Dialogue: 0,0:07:55.32,0:07:58.74,title005,,0,0,0,,{\fad(350,350)\an7\blur3\be10\}tai {\c&HBBE2CC&}sea {\c&H88C7A6&}bream
-Dialogue: 0,0:07:55.70,0:07:58.74,title006,,0,0,0,,{\an7\blur3\be10\c&HBAE0E3&\fad(350,350)}hirame {\c&H8EBECD&}flounder
+Dialogue: 0,0:07:53.28,0:07:58.74,title003,,0,0,0,,{\fad(350,350)\blur3\be10\1c&HD0CBF9&}saba {\c&H9395E4&}mackarel
+Dialogue: 0,0:07:54.28,0:07:58.74,title004,,0,0,0,,{\fad(350,350)\blur3\be10\c&HFFE1D5&}koi {\c&HD2B292&}carp
+Dialogue: 0,0:07:55.32,0:07:58.74,title005,,0,0,0,,{\fad(350,350)\blur3\be10}tai {\c&HBBE2CC&}sea {\c&H88C7A6&}bream
+Dialogue: 0,0:07:55.70,0:07:58.74,title006,,0,0,0,,{\blur3\be10\c&HBAE0E3&\fad(350,350)}hirame {\c&H8EBECD&}flounder
 Dialogue: 0,0:07:53.27,0:07:56.82,Dialogue,,0,0,0,,Mackerel, carp, sea bream, and flounder...
 Dialogue: 0,0:07:56.97,0:07:58.74,Dialogue,,0,0,0,,Just what is it supposed to mean?
 Dialogue: 0,0:07:59.10,0:08:00.21,Dialogue,,0,0,0,,And then...
@@ -203,19 +202,19 @@ Dialogue: 0,0:08:09.33,0:08:11.83,Dialogue,,0,0,0,,If you add a character and th
 Dialogue: 0,0:08:11.83,0:08:13.67,Dialogue,,0,0,0,,It becomes a sentence!
 Dialogue: 0,0:08:13.68,0:08:14.57,Dialogue,,0,0,0,,"Add"?
 Dialogue: 0,0:08:14.80,0:08:17.60,title008 - 1,,0,0,0,,{\fad(350,350)\blur3\be10\1c&HD0CBF9&}saba\N{\c&H9395E4&}mackarel
-Dialogue: 0,0:08:17.60,0:08:20.18,title008,,0,0,0,,{\fad(350,0)\blur3\be10\}tai\N{\c&HBBE2CC&}sea {\c&H88C7A6&}bream
-Dialogue: 0,0:08:15.26,0:08:20.18,Dialogue,,0,0,0,,{\fad(350,0)\an7\1c&HD0CBF9&}sabaku {\c&H9395E4&}desert
-Dialogue: 0,0:08:17.60,0:08:20.18,title009,,0,0,0,,{\fad(350,0)\blur3\be10\\c&HD4FFDD&}aitai\h\h\h\h\h{\c&H80C79C&}want to\N\h\h\h\h\h\h\h\h\h\h\h\hmeet
-Dialogue: 0,0:08:14.79,0:08:17.59,Dialogue,,0,0,0,,If [{\c&H9396E8&}ku{\1c}] is added to [{\c&HD0D0FF&}saba{\1c}], it becomes [{\c&HD0D0FF&}saba{\c&H9396E8&}ku{\1c}].
-Dialogue: 0,0:08:17.59,0:08:20.17,Dialogue,,0,0,0,,If we add [{\c&HA2DFB3&}ai{\1c}] before [{\c&HD6FCDB&}tai{\1c}], we get [{\c&HA2DFB3&}ai{\c&HD6FCDB&}tai{\1c}]
+Dialogue: 0,0:08:17.60,0:08:20.18,title008,,0,0,0,,{\fad(350,0)\blur3\be10}tai\N{\c&HBBE2CC&}sea {\c&H88C7A6&}bream
+Dialogue: 0,0:08:15.26,0:08:20.18,Dialogue,,0,0,0,,sabaku desert
+Dialogue: 0,0:08:17.60,0:08:20.18,title009,,0,0,0,,{\fad(350,0)\blur3\be10\\c&HD4FFDD&}aitai {\c&H80C79C&}want to\Nmeet
+Dialogue: 0,0:08:14.79,0:08:17.59,Dialogue,,0,0,0,,If [ku] is added to [saba], it becomes [sabaku].
+Dialogue: 0,0:08:17.59,0:08:20.17,Dialogue,,0,0,0,,If we add [ai] before [tai], we get [aitai]
 Dialogue: 0,0:08:20.55,0:08:21.47,Dialogue,,0,0,0,,As such...
-Dialogue: 0,0:08:21.47,0:08:26.56,Dialogue Top,,0,0,0,,{\xbord4\ybord4\c&HC1BCBF&}Mitsuhiko inserts the word [{\c&HCBAA80&}koi{\c&HC1BCBF&}]\N(originally written for {\c&HCBAA80&}carp{\c&HC1BCBF&}) as [{\c&HCBAA80&}come{\c&HC1BCBF&}]\Nin order to better fit his deduction.
-Dialogue: 0,0:08:21.47,0:08:23.72,Dialogue,,0,0,0,,"{\c&HC1BCBF&}I{\1c} {\c&H94DFAE&}want to meet{\c&HC1BCBF&}, {\c&HE5BA90&}come {\c&HC1BCBF&}to the {\c&H9695E3&}desert{\c&HC1BCBF&}.{\1c}"
+Dialogue: 0,0:08:21.47,0:08:26.56,Dialogue Top,,0,0,0,,{\xbord4\ybord4}Mitsuhiko inserts the word [koi]\N(originally written for carp) as [come]\Nin order to better fit his deduction.
+Dialogue: 0,0:08:21.47,0:08:23.72,Dialogue,,0,0,0,,"I want to meet, come to the desert."
 Dialogue: 0,0:08:23.72,0:08:26.56,Dialogue,,0,0,0,,That's the message that was left behind.
-Dialogue: 0,0:08:26.97,0:08:28.93,Dialogue,,0,0,0,,{\c&H9FD1DF&}\h\h\h\h\hflounder\N{\r\1c}And, {\c&HA2FAFF&}hirame{\1c}?
+Dialogue: 0,0:08:26.97,0:08:28.93,Dialogue,,0,0,0,,flounder\NAnd, hirame?
 Dialogue: 0,0:08:29.35,0:08:30.98,Dialogue,,0,0,0,,With the name of that fish...
 Dialogue: 0,0:08:30.98,0:08:34.66,title010,,0,0,0,,{\fs15\fad(350,0)\blur3\be10\c&H94F8F9&}hirame → hirame-ke\Nflounder → flash
-Dialogue: 0,0:08:30.98,0:08:33.31,Dialogue,,0,0,0,,We're meant to know it will serve as a {\c&H8EF4FF&}flash {\1c}of inspiration.
+Dialogue: 0,0:08:30.98,0:08:33.31,Dialogue,,0,0,0,,We're meant to know it will serve as a flash of inspiration.
 Dialogue: 0,0:08:33.31,0:08:34.65,Dialogue,,0,0,0,,That's its meaning.
 Dialogue: 0,0:08:34.94,0:08:36.90,Dialogue,,0,0,0,,But, wait...
 Dialogue: 0,0:08:36.90,0:08:39.44,Dialogue,,0,0,0,,Who's waiting on who in the desert?
@@ -286,7 +285,7 @@ Dialogue: 0,0:11:13.47,0:11:16.47,Dialogue,,0,0,0,,Sent that mail himself, to en
 Dialogue: 0,0:11:17.27,0:11:18.35,Dialogue,,0,0,0,,To manage that...
 Dialogue: 0,0:11:18.35,0:11:21.73,Dialogue,,0,0,0,,He had to abort his dive and hurry\Nback to the boat before anyone else.
 Dialogue: 0,0:11:21.73,0:11:23.86,Dialogue,,0,0,0,,After locating the lady's phone...
-Dialogue: 0,0:11:25.16,0:11:26.12,title00x1,,0,0,0,,{\xbord15\ybord9}Please handle the rest\h\h\N\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\hAkamine
+Dialogue: 0,0:11:25.16,0:11:26.12,title00x1,,0,0,0,,{\xbord15\ybord9}Please handle the rest\NAkamine
 Dialogue: 0,0:11:23.86,0:11:25.94,Dialogue,,0,0,0,,He hurriedly typed and sent the message.
 Dialogue: 0,0:11:29.57,0:11:32.32,Dialogue,,0,0,0,,Unlike with telephones, e-mails have solid addresses attached.
 Dialogue: 0,0:11:32.99,0:11:35.91,Dialogue,,0,0,0,,If it had not been directly from her phone...
@@ -320,10 +319,10 @@ Dialogue: 0,0:12:49.69,0:12:51.36,Dialogue,,0,0,0,,Was Aosato Shuuhei.
 Dialogue: 0,0:12:52.78,0:12:54.20,Dialogue,,0,0,0,,Where was that done?
 Dialogue: 0,0:12:54.62,0:12:56.53,Dialogue,,0,0,0,,"Carved" it?
 Dialogue: 0,0:12:56.53,0:12:58.62,Dialogue,,0,0,0,,Do you mean the names of the fish?
-Dialogue: 0,0:13:01.05,0:13:02.97,title003,,0,0,0,,{\fad(350,0)\an7\blur3\be10\1c&HD0CBF9&}saba {\c&H9395E4&}mackarel
-Dialogue: 0,0:13:01.59,0:13:02.97,title004,,0,0,0,,{\fad(350,0)\an7\blur3\be10\c&HFFE1D5&}koi {\c&HD2B292&}carp
-Dialogue: 0,0:13:02.01,0:13:02.97,title005,,0,0,0,,{\fad(350,0)\an7\blur3\be10\}tai {\c&HBBE2CC&}sea {\c&H88C7A6&}bream
-Dialogue: 0,0:13:02.37,0:13:02.97,title006,,0,0,0,,{\an7\blur3\be10\c&HBAE0E3&\fad(350,0)}hirame {\c&H8EBECD&}flounder
+Dialogue: 0,0:13:01.05,0:13:02.97,title003,,0,0,0,,{\fad(350,0)\blur3\be10\1c&HD0CBF9&}saba {\c&H9395E4&}mackarel
+Dialogue: 0,0:13:01.59,0:13:02.97,title004,,0,0,0,,{\fad(350,0)\blur3\be10\c&HFFE1D5&}koi {\c&HD2B292&}carp
+Dialogue: 0,0:13:02.01,0:13:02.97,title005,,0,0,0,,{\fad(350,0)\blur3\be10}tai {\c&HBBE2CC&}sea {\c&H88C7A6&}bream
+Dialogue: 0,0:13:02.37,0:13:02.97,title006,,0,0,0,,{\blur3\be10\c&HBAE0E3&\fad(350,0)}hirame {\c&H8EBECD&}flounder
 Dialogue: 0,0:12:59.08,0:13:02.96,Dialogue,,0,0,0,,But, that was just mackerel, carp, sea bream, and flounder.
 Dialogue: 0,0:13:03.33,0:13:06.71,Dialogue,,0,0,0,,While it's true they just appear to be the names of fish...
 Dialogue: 0,0:13:07.67,0:13:09.88,Dialogue,,0,0,0,,When she used it to carve in those words...
@@ -332,16 +331,16 @@ Dialogue: 0,0:13:12.30,0:13:14.93,Dialogue,,0,0,0,,One word ended up being level
 Dialogue: 0,0:13:14.93,0:13:16.14,Dialogue,,0,0,0,,Do you see it now?
 Dialogue: 0,0:13:16.68,0:13:18.35,Dialogue,,0,0,0,,Leveled down?
 Dialogue: 0,0:13:18.64,0:13:19.72,Dialogue,,0,0,0,,Yeah.
-Dialogue: 0,0:13:19.72,0:13:23.81,Dialogue,,0,0,0,,The word between "{\c&HACA9A5&}AKAMINE ANGEL{\1c}" and "{\c&HACA9A5&}CLUB{\1c}."
-Dialogue: 0,0:13:24.31,0:13:26.56,Dialogue,,0,0,0,,"{\c&HACA9A5&}AKAMINE ANGEL FISH CLUB{\1c}."
+Dialogue: 0,0:13:19.72,0:13:23.81,Dialogue,,0,0,0,,The word between "AKAMINE ANGEL" and "CLUB."
+Dialogue: 0,0:13:24.31,0:13:26.56,Dialogue,,0,0,0,,"AKAMINE ANGEL FISH CLUB."
 Dialogue: 0,0:13:27.15,0:13:28.40,Dialogue,,0,0,0,,The word that was marked off...
-Dialogue: 0,0:13:29.65,0:13:30.53,Dialogue,,0,0,0,,"{\c&HACA9A5&}FISH{\1c}."
+Dialogue: 0,0:13:29.65,0:13:30.53,Dialogue,,0,0,0,,"FISH."
 Dialogue: 0,0:13:31.03,0:13:32.11,Dialogue,,0,0,0,,In other words...
-Dialogue: 0,0:13:32.11,0:13:34.03,Dialogue,,0,0,0,,Cancel out the "{\c&HACA9A5&}FISH{\1c}," right?
+Dialogue: 0,0:13:32.11,0:13:34.03,Dialogue,,0,0,0,,Cancel out the "FISH," right?
 Dialogue: 0,0:13:34.03,0:13:34.65,Dialogue,,0,0,0,,Yeah.
 Dialogue: 0,0:13:35.53,0:13:36.99,Dialogue,,0,0,0,,Please hold on a minute!
-Dialogue: 0,0:13:37.41,0:13:44.59,title006,,0,0,0,,{\an7\blur3\be10\fad(0,0)\c&HABB1B0&}sakana {\c&HABB1B0&}fish
-Dialogue: 0,0:13:37.41,0:13:39.99,Dialogue,,0,0,0,,"{\c&HACA9A5&}FISH{\1c}" is written as {\c&HACA9A5&}sakana{\1c}, right?
+Dialogue: 0,0:13:37.41,0:13:44.59,title006,,0,0,0,,{\blur3\be10\fad(0,0)\c&HABB1B0&}sakana {\c&HABB1B0&}fish
+Dialogue: 0,0:13:37.41,0:13:39.99,Dialogue,,0,0,0,,"FISH" is written as sakana, right?
 Dialogue: 0,0:13:39.99,0:13:42.91,Dialogue,,0,0,0,,Mackerel, carp, sea bream, and flounder...
 Dialogue: 0,0:13:42.91,0:13:44.58,Dialogue,,0,0,0,,Those are all fish, aren't they?
 Dialogue: 0,0:13:45.04,0:13:46.83,Dialogue,,0,0,0,,If you canceled out the fish...
@@ -354,14 +353,14 @@ Dialogue: 0,0:13:59.76,0:14:01.18,Dialogue,,0,0,0,,Kanji?
 Dialogue: 0,0:14:01.18,0:14:02.81,Dialogue,,0,0,0,,But, mackerel...
 Dialogue: 0,0:14:02.81,0:14:04.23,Dialogue,,0,0,0,,Is there even a kanji for it?
 Dialogue: 0,0:14:04.64,0:14:05.73,Dialogue,,0,0,0,,Yeah.
-Dialogue: 0,0:14:05.73,0:14:10.11,Dialogue,,0,0,0,,The kanji for {\c&HC1BBFF&}mackerel {\1c}is the kanji for {\c&HA8A8A8&}fish {\1c}and {\c&HD479D0&}AO {\1c}written together.
-Dialogue: 0,0:14:10.69,0:14:13.61,Dialogue,,0,0,0,,The kanji for {\c&HFED0AF&}carp {\1c}is the kanji for {\c&HAAA6A7&}fish{\1c} and {\c&HD279CD&}SATO {\1c}written together.
-Dialogue: 0,0:14:14.15,0:14:19.37,Dialogue,,0,0,0,,The kanji for {\c&H9DE6AE&}sea bream {\1c}is the kanji for {\c&HA9A3AD&}fish {\1c}and {\c&HDD74D0&}SHUU {\1c}written together.
+Dialogue: 0,0:14:05.73,0:14:10.11,Dialogue,,0,0,0,,The kanji for mackerel is the kanji for fish and AO written together.
+Dialogue: 0,0:14:10.69,0:14:13.61,Dialogue,,0,0,0,,The kanji for carp is the kanji for fish and SATO written together.
+Dialogue: 0,0:14:14.15,0:14:19.37,Dialogue,,0,0,0,,The kanji for sea bream is the kanji for fish and SHUU written together.
 Dialogue: 0,0:14:19.70,0:14:20.70,Dialogue,,0,0,0,,And...
-Dialogue: 0,0:14:20.70,0:14:25.04,Dialogue,,0,0,0,,The kanji for {\c&H8AEEFB&}flounder {\1c}is the kanji for {\c&HA7A9A9&}fish {\1c}and {\c&HD17DCB&}HEI {\1c}written together.
-Dialogue: 0,0:14:25.41,0:14:28.37,Dialogue,,0,0,0,,And now, what do we get when we\Nread it with the {\c&HBEBCBD&}fish {\1c}kanji removed?
-Dialogue: 0,0:14:29.80,0:14:36.89,Dialogue,,0,0,0,,{\c&HBDBEFF&}AO {\t(1790,1791,\c&HFDD4AD&}SATO {\t(3900,3901,\c&H93E1AF&}SHUU {\t(6160,6161,\c&H8FEDFB&}HEI
-Dialogue: 0,0:14:37.05,0:14:39.51,Dialogue,,0,0,0,,{\fad(100,0)\c&HD179C9&\}aosato shuuhei
+Dialogue: 0,0:14:20.70,0:14:25.04,Dialogue,,0,0,0,,The kanji for flounder is the kanji for fish and HEI written together.
+Dialogue: 0,0:14:25.41,0:14:28.37,Dialogue,,0,0,0,,And now, what do we get when we\Nread it with the fish kanji removed?
+Dialogue: 0,0:14:29.80,0:14:36.89,Dialogue,,0,0,0,,AO SATO SHUU HEI
+Dialogue: 0,0:14:37.05,0:14:39.51,Dialogue,,0,0,0,,aosato shuuhei
 Dialogue: 0,0:14:39.85,0:14:42.51,Dialogue,,0,0,0,,It's Aosato Shuuhei!
 Dialogue: 0,0:14:42.81,0:14:43.26,Dialogue,,0,0,0,,Hey!
 Dialogue: 0,0:14:43.64,0:14:44.46,Dialogue,,0,0,0,,You...

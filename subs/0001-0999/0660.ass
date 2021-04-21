@@ -34,7 +34,7 @@ Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
 Style: Next time,Ubuntu,25,&H000000FF,&H000000FF,&H62E2E2E2,&HC0000000,-1,0,0,0,92,100,1,0,1,3,1,9,10,10,100,1
-Style: Otanoshimi,Calibri,45,&H18FFFFFF,&H000000FF,&H003F3F3F,&HC04B0008,-1,0,0,0,100,100,0,0,1,3,0,2,70,0,5,1Style: JSub,Ubuntu,40,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2.5,3,2,40,40,25,1Style: TestStyle,Droid Sans,50,&H00FFFFFF,&H000000FF,&H40370001,&HC0000000,-1,0,0,0,100,100,0,0,1,2.5,3,2,40,40,40,1
+Style: Otanoshimi,Calibri,45,&H18FFFFFF,&H000000FF,&H003F3F3F,&HC04B0008,-1,0,0,0,100,100,0,0,1,3,0,2,70,0,5,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -57,7 +57,7 @@ Dialogue: 0,0:24:03.26,0:24:05.30,Dialogue,,0000,0000,0000,,Coming!
 Dialogue: 0,0:24:07.39,0:24:09.22,Dialogue,,0000,0000,0000,,Who are you?
 Dialogue: 0,0:24:10.43,0:24:11.56,Dialogue,,0000,0000,0000,,Don't worry.
 Dialogue: 0,0:24:11.56,0:24:15.81,Dialogue,,0000,0000,0000,,Because the great detective Kogorō Mouri{\rHonorifics - Dialogue}-san{\r} is right here!
-Dialogue: 0,0:24:17.69,0:24:19.15,Thoughts,,0000,0000,0000,,{\be10\fad(300,0)}Hey, hey...
+Dialogue: 0,0:24:17.69,0:24:19.15,Thoughts,,0000,0000,0000,,{\be10}Hey, hey...
 Dialogue: 0,0:04:07.16,0:04:12.37,Signs,,0000,0000,0000,,Aketoshi Fukuchi (41)\NCompany Employee
 Dialogue: 0,0:04:12.62,0:04:16.21,Signs,,0000,0000,0000,,Tokuko Shigei (36)\NHousewife
 Dialogue: 0,0:04:16.50,0:04:19.97,Signs,,0000,0000,0000,,Takerō Meiwa (22)\NPart-time Worker
@@ -68,7 +68,7 @@ Dialogue: 0,0:00:11.07,0:00:13.57,Thoughts,,0000,0000,0000,,{\be10}this vandal s
 Dialogue: 0,0:00:13.57,0:00:15.78,Thoughts,,0000,0000,0000,,{\be10}It was a vicious case.
 Dialogue: 0,0:00:15.78,0:00:18.37,Thoughts,,0000,0000,0000,,{\be10}Officer Chiba's car was also attacked.
 Dialogue: 0,0:00:18.37,0:00:22.79,Thoughts,,0000,0000,0000,,{\be10}So he called Yumi{\rHonorifics - Thoughts\be10}-san{\r\be10}, who came by along with a rookie policewoman
-Dialogue: 0,0:00:22.79,0:00:26.38,Thoughts,,0000,0000,0000,,{\be10\fad(0,300)}who turned out to be Naeko Mi'ike{\rHonorifics - Thoughts\be10}-san{\r\be10}, Officer Chiba's first love.
+Dialogue: 0,0:00:22.79,0:00:26.38,Thoughts,,0000,0000,0000,,{\be10}who turned out to be Naeko Mi'ike{\rHonorifics - Thoughts\be10}-san{\r\be10}, Officer Chiba's first love.
 Dialogue: 0,0:00:28.54,0:00:35.97,Thoughts,,0000,0000,0000,,{\be10}We had at one point searched with Officer Chiba for the video letter she left at Teitan Primary School.
 Dialogue: 0,0:00:35.97,0:00:42.35,Thoughts,,0000,0000,0000,,{\be10}Officer Chiba apparently didn't notice that the policewoman before him was his first love,
 Dialogue: 0,0:00:42.35,0:00:50.15,Thoughts,,0000,0000,0000,,{\be10}so we came up with a plan that involved pairing them together to investigate the break-ins.
@@ -358,7 +358,7 @@ Dialogue: 0,0:23:21.34,0:23:22.26,Dialogue,,0000,0000,0000,,Geez...
 Dialogue: 0,0:23:22.26,0:23:24.72,Dialogue,,0000,0000,0000,,Should've known. 'Pearls before swine' and all. {this is actually LTIL}
 Dialogue: 0,0:23:24.72,0:23:26.52,Dialogue,,0000,0000,0000,,Hey, hey...
 Dialogue: 0,0:23:26.52,0:23:28.89,Dialogue,,0000,0000,0000,,More like 'coins before cats.' {this is the correct japanese equivalent to pearls before swine}
-Dialogue: 0,0:23:46.08,0:23:49.00,Thoughts,,0000,0000,0000,,{\be10\fad(0,500)}Nah... couldn't be.
+Dialogue: 0,0:23:46.08,0:23:49.00,Thoughts,,0000,0000,0000,,{\be10}Nah... couldn't be.
 Dialogue: 0,0:23:51.87,0:23:53.12,Dialogue,,0000,0000,0000,,Hey!!!
 Dialogue: 0,0:23:54.10,0:23:55.86,Dialogue,,0000,0000,0000,,What's with {\i1}this{\i0}?!
-Dialogue: 0,0:23:55.86,0:23:58.84,Dialogue,,0000,0000,0000,,{\fad(0,300)}Please don't get angry...
+Dialogue: 0,0:23:55.86,0:23:58.84,Dialogue,,0000,0000,0000,,Please don't get angry...

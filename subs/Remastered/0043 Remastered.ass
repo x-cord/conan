@@ -33,7 +33,7 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: Next time,Ubuntu,25,&H000000FF,&H000000FF,&H62E2E2E2,&HC0000000,-1,0,0,0,92,100,1,0,1,3,1,9,10,10,100,1Style: JSub,Ubuntu,40,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2.5,3,2,40,40,25,1
+
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 Dialogue: 0,0:00:00.52,0:00:02.60,Narration Off,,0000,0000,0000,,{\be10}Conan Edogawa.
@@ -47,7 +47,7 @@ Dialogue: 0,0:00:23.81,0:00:25.82,Narration Off,,0000,0000,0000,,{\be10}Who the 
 Dialogue: 0,0:00:25.82,0:00:27.28,Narration Off,,0000,0000,0000,,{\be10}He sees the single truth for what it is,
 Dialogue: 0,0:00:27.28,0:00:29.15,Narration Off,,0000,0000,0000,,{\be10}and looks like a kid but has the mind of an adult!
 Dialogue: 0,0:00:29.15,0:00:31.66,Narration Off,,0000,0000,0000,,{\be10}His name? Detective Conan!
-Dialogue: 0,0:00:00.56,0:00:15.67,Thoughts,,0000,0000,0000,,{\be10\fad(400,0)}Conan Edogawa
+Dialogue: 0,0:00:00.56,0:00:15.67,Thoughts,,0000,0000,0000,,{\be10}Conan Edogawa
 Dialogue: 0,0:02:19.64,0:02:21.93,Dialogue,,0000,0000,0000,,Conan{\rHonorifics - Dialogue}-kun{\r}! Are you listening to me?!
 Dialogue: 0,0:02:21.93,0:02:23.10,Dialogue,,0000,0000,0000,,Eh?
 Dialogue: 0,0:02:23.10,0:02:24.81,Dialogue,,0000,0000,0000,,Don't "ehh" me!
@@ -63,7 +63,7 @@ Dialogue: 0,0:02:54.75,0:03:00.09,Dialogue,,0000,0000,0000,,Then shouldn't we at
 Dialogue: 0,0:03:00.09,0:03:02.30,Dialogue,,0000,0000,0000,,Y-you can't do that!
 Dialogue: 0,0:03:02.30,0:03:04.26,Dialogue,,0000,0000,0000,,Coming!
 Dialogue: 0,0:03:04.26,0:03:07.60,Dialogue,,0000,0000,0000,,Why not? Is there something wrong with contacting them?
-Dialogue: 0,0:03:07.60,0:03:13.65,Thoughts,,0000,0000,0000,,{\be10\fad(0,200)}Oh, man! I gotta act quick or my identity as Shin'ichi Kudō will be out of the bag!{\i}
+Dialogue: 0,0:03:07.60,0:03:13.65,Thoughts,,0000,0000,0000,,{\be10}Oh, man! I gotta act quick or my identity as Shin'ichi Kudō will be out of the bag!{\i}
 Dialogue: 0,0:03:15.08,0:03:16.99,Dialogue,,0000,0000,0000,,She's here, Conan{\rHonorifics - Dialogue}-kun{\r}!
 Dialogue: 0,0:03:18.45,0:03:20.62,Dialogue,,0000,0000,0000,,Your mum!
 Dialogue: 0,0:03:20.62,0:03:21.41,Dialogue,,0000,0000,0000,,Eh?
@@ -99,12 +99,12 @@ Dialogue: 0,0:05:13.94,0:05:20.61,Dialogue,,0000,0000,0000,,Stay still, and I'll
 Dialogue: 0,0:05:23.57,0:05:26.49,Dialogue,,0000,0000,0000,,You moron, what're you doing?! Move!
 Dialogue: 0,0:05:26.49,0:05:28.24,Dialogue,,0000,0000,0000,,What do you think you're...
 Dialogue: 0,0:05:28.24,0:05:30.45,Dialogue,,0000,0000,0000,,Someone catch that kid!
-Dialogue: 0,0:05:39.80,0:05:43.76,Thoughts,,0000,0000,0000,,{\be10\fad(0,200)}How? How did they find out who I am?!{\i}
-Dialogue: 0,0:05:44.89,0:05:47.47,Thoughts,,0000,0000,0000,,{\be10\fad(0,200)}Was it because I used\Nthe name "Shin'ichi Kudō"
+Dialogue: 0,0:05:39.80,0:05:43.76,Thoughts,,0000,0000,0000,,{\be10}How? How did they find out who I am?!{\i}
+Dialogue: 0,0:05:44.89,0:05:47.47,Thoughts,,0000,0000,0000,,{\be10}Was it because I used\Nthe name "Shin'ichi Kudō"
 Dialogue: 0,0:05:47.46,0:05:50.22,Thoughts,,0000,0000,0000,,{\be10}during the karaoke murder case?!{\i}
 Dialogue: 0,0:05:50.22,0:05:55.65,Thoughts,,0000,0000,0000,,{\be10}And then they heard from somewhere\Nthat I'd survived the drug...{\i}
-Dialogue: 0,0:05:55.65,0:05:59.82,Thoughts,,0000,0000,0000,,{\be10\fad(0,200)}Damn it! I told the inspector\Nnot to mention my name!{\i}
-Dialogue: 0,0:06:02.49,0:06:06.66,Thoughts,,0000,0000,0000,,{\be10\fad(200,0)}I'm so stupid! It's all my fault!{\i}
+Dialogue: 0,0:05:55.65,0:05:59.82,Thoughts,,0000,0000,0000,,{\be10}Damn it! I told the inspector\Nnot to mention my name!{\i}
+Dialogue: 0,0:06:02.49,0:06:06.66,Thoughts,,0000,0000,0000,,{\be10}I'm so stupid! It's all my fault!{\i}
 Dialogue: 0,0:06:06.66,0:06:12.20,Thoughts,,0000,0000,0000,,{\be10}What now, Shin'ichi Kudō? Should\NI go back and tell Ran everything?{\i}
 Dialogue: 0,0:06:12.19,0:06:17.13,Thoughts,,0000,0000,0000,,{\be10}No, they'd be in danger\Nif I go back now...{\i}
 Dialogue: 0,0:06:17.13,0:06:22.22,Thoughts,,0000,0000,0000,,{\be10}Dammit! What do I do?!{\i}
@@ -121,18 +121,18 @@ Dialogue: 0,0:06:53.95,0:07:00.25,Thoughts,,0000,0000,0000,,{\be10}But what's ta
 Dialogue: 0,0:07:00.25,0:07:02.20,Thoughts,,0000,0000,0000,,{\be10}He's back!{\i}
 Dialogue: 0,0:07:02.21,0:07:03.42,Dialogue,,0000,0000,0000,,Doc!
 Dialogue: 0,0:07:09.22,0:07:12.22,Dialogue,,0000,0000,0000,,Sweet dreams, kid.
-Dialogue: 0,0:07:17.81,0:07:21.27,Thoughts,,0000,0000,0000,,{\be10\fad(200,200)}Where am I?! Seems to be a kitchen, but...{\i}
-Dialogue: 0,0:07:22.40,0:07:25.49,Thoughts,,0000,0000,0000,,{\be10\fad(200,200)}Damn it, my head's still dizzy...{\i}
-Dialogue: 0,0:07:27.07,0:07:28.45,Thoughts,,0000,0000,0000,,{\be10\fad(200,0)}I'm on the first floor!?{\i}
+Dialogue: 0,0:07:17.81,0:07:21.27,Thoughts,,0000,0000,0000,,{\be10}Where am I?! Seems to be a kitchen, but...{\i}
+Dialogue: 0,0:07:22.40,0:07:25.49,Thoughts,,0000,0000,0000,,{\be10}Damn it, my head's still dizzy...{\i}
+Dialogue: 0,0:07:27.07,0:07:28.45,Thoughts,,0000,0000,0000,,{\be10}I'm on the first floor!?{\i}
 Dialogue: 0,0:07:28.45,0:07:34.16,Thoughts,,0000,0000,0000,,{\be10}I see. I was carried into this\Nold house while I was unconscious.{\i}
 Dialogue: 0,0:07:34.16,0:07:36.75,Dialogue,,0000,0000,0000,,What? You {\i1}still{\i} haven't killed him?!
 Dialogue: 0,0:07:36.75,0:07:38.62,Dialogue,,0000,0000,0000,,Don't yell at me!
 Dialogue: 0,0:07:38.62,0:07:40.67,Dialogue,,0000,0000,0000,,Those were the orders from above...
-Dialogue: 0,0:07:41.42,0:07:46.63,Thoughts,,0000,0000,0000,,{\be10\fad(200,0)}It's that woman. And is\Nthat a man in front of her?{\i}
+Dialogue: 0,0:07:41.42,0:07:46.63,Thoughts,,0000,0000,0000,,{\be10}It's that woman. And is\Nthat a man in front of her?{\i}
 Dialogue: 0,0:07:46.63,0:07:52.89,Dialogue,,0000,0000,0000,,The organisation wants him,\Nas an example of the drug's side-effects!
 Dialogue: 0,0:07:52.89,0:07:56.35,Thoughts,,0000,0000,0000,,{\be10}Ah! So that's why she didn't kill me!{\i}
 Dialogue: 0,0:07:56.35,0:07:58.27,Thoughts,,0000,0000,0000,,{\be10}Still, that man...
-Dialogue: 0,0:07:58.27,0:07:59.94,Thoughts,,0000,0000,0000,,{\be10\fad(0,200)}W-what?!{\i}
+Dialogue: 0,0:07:58.27,0:07:59.94,Thoughts,,0000,0000,0000,,{\be10}W-what?!{\i}
 Dialogue: 0,0:08:01.94,0:08:05.73,Thoughts,,0000,0000,0000,,{\be10}Who is that masked man?!\NOh, crap! He's coming!
 Dialogue: 0,0:08:08.40,0:08:09.70,Dialogue,,0000,0000,0000,,Is he awake?!
 Dialogue: 0,0:08:09.70,0:08:13.12,Dialogue,,0000,0000,0000,,No, he's still drugged.

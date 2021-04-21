@@ -33,7 +33,6 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: title01,Arial,25,&H00FFFFFF,&H000000FF,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,3,1,0,2,10,10,10,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -52,14 +51,14 @@ Dialogue: 0,0:01:16.51,0:01:18.47,Dialogue,,0,0,0,,If we continue lamenting the 
 Dialogue: 0,0:01:18.49,0:01:20.06,Dialogue,,0,0,0,,We'll be unable to confront the mysteries of cases!
 Dialogue: 0,0:01:20.35,0:01:22.22,Dialogue,,0,0,5,,Inspector Shiratori and Kobayasi{\rHonorifics - Dialogue}-sensei{\r}.
 Dialogue: 0,0:01:22.22,0:01:24.02,Dialogue,,0,0,5,,What will the outcome be of the case and their love?
-Dialogue: 0,0:01:24.34,0:01:26.09,Dialogue,,0,0,5,,{\fad(100,0)\xshad1.3\1c&H6AE8FA&\4c&H294A50&\}Perceiving the one and only truth...
-Dialogue: 0,0:01:26.10,0:01:28.14,Dialogue,,0,0,5,,{\fad(0,0)\xshad1.3\1c&H6AE8FA&\4c&H294A50&\}The appearance of a child and the intellect of an adult...
-Dialogue: 0,0:01:28.14,0:01:29.97,Dialogue,,0,0,5,,{\fad(0,50)\xshad1.3\1c&H6AE8FA&\4c&H294A50&\}His name is: Detective {\t(1350,1351,\1c&H4331B1&)}Conan{\1c&H6AE8FA&}!
+Dialogue: 0,0:01:24.34,0:01:26.09,Dialogue,,0,0,5,,Perceiving the one and only truth...
+Dialogue: 0,0:01:26.10,0:01:28.14,Dialogue,,0,0,5,,The appearance of a child and the intellect of an adult...
+Dialogue: 0,0:01:28.14,0:01:29.97,Dialogue,,0,0,5,,His name is: Detective Conan!
 Dialogue: 0,0:03:00.27,0:03:01.98,Dialogue,,0,0,0,,As—I—said!
 Dialogue: 0,0:03:02.52,0:03:06.03,Dialogue,,0,0,0,,I was watching TV at home alone!
 Dialogue: 0,0:03:06.03,0:03:08.36,Dialogue,,0,0,0,,There was a soccer match I couldn't miss.
 Dialogue: 0,0:03:08.78,0:03:12.88,Dialogue Top,,0,0,0,,If it hadn't been for that, I would've gone to\Nthe culprit's place and killed her myself!
-Dialogue: 0,0:03:08.62,0:03:12.88,Signs,,0,0,0,,Kagitani Kikuna (25)
+Dialogue: 0,0:03:08.62,0:03:12.88,Character Card,,0,0,0,,Kagitani Kikuna (25)
 Dialogue: 0,0:03:13.24,0:03:15.99,Dialogue,,0,0,0,,You really hated her that much?
 Dialogue: 0,0:03:16.00,0:03:17.04,Dialogue,,0,0,0,,Yeah.
 Dialogue: 0,0:03:17.04,0:03:21.33,Dialogue,,0,0,0,,I needed money real bad, so I had to temporarily\Npawn my late mother's ring out of desperation.
@@ -73,7 +72,7 @@ Dialogue: 0,0:03:41.60,0:03:43.02,Dialogue,,0,0,0,,How could I not want to kill 
 Dialogue: 0,0:03:44.02,0:03:45.02,Dialogue,,0,0,0,,Well...
 Dialogue: 0,0:03:45.49,0:03:47.04,Dialogue,,0,0,0,,Uhm, Inspector?
 Dialogue: 0,0:03:47.80,0:03:51.50,Dialogue Top,,0,0,0,,Are you thinking I was the one who killed her?
-Dialogue: 0,0:03:47.29,0:03:51.50,Signs,,0,0,0,,Takimoto Ryouko (31)
+Dialogue: 0,0:03:47.29,0:03:51.50,Character Card,,0,0,0,,Takimoto Ryouko (31)
 Dialogue: 0,0:03:51.91,0:03:53.03,Dialogue,,0,0,0,,Oh, no...
 Dialogue: 0,0:03:53.03,0:04:00.54,Dialogue,,0,0,0,,But, on the day she was killed, I heard you took a day off from\Nthe restaurant you work at and slept alone at home, so...
 Dialogue: 0,0:04:00.54,0:04:02.25,Dialogue,,0,0,0,,But it couldn't be helped.
@@ -93,7 +92,7 @@ Dialogue: 0,0:04:44.04,0:04:46.79,Dialogue,,0,0,0,,About five million yen from t
 Dialogue: 0,0:04:46.79,0:04:52.63,Dialogue,,0,0,0,,I finally secured a way to return it and we set up an agreement,\Nbut now that she's dead, I guess I can't repay her, huh?
 Dialogue: 0,0:04:53.28,0:04:56.93,Dialogue Top,,0,0,0,,As proof, at the time that woman was killed...
 Dialogue: 0,0:04:56.96,0:05:00.86,Dialogue Top,,0,0,0,,I had just polished off a bottle of premier\Nchampagne at home and got really drunk!
-Dialogue: 0,0:04:52.89,0:04:58.15,Signs,,0,0,0,,Kodama Ryuusuke (27)
+Dialogue: 0,0:04:52.89,0:04:58.15,Character Card,,0,0,0,,Kodama Ryuusuke (27)
 Dialogue: 0,0:05:01.18,0:05:04.77,Dialogue,,0,0,0,,But even the day before the murder...
 Dialogue: 0,0:05:04.77,0:05:09.78,Dialogue,,0,0,0,,The victim was heard storming into your\Napartment and demanding her money back.
 Dialogue: 0,0:05:09.78,0:05:11.57,Dialogue,,0,0,0,,That was just for show, for show.
@@ -167,7 +166,7 @@ Dialogue: 0,0:09:06.14,0:09:08.64,Dialogue,,0,0,0,,So, you need to either find a
 Dialogue: 0,0:09:09.35,0:09:16.77,Dialogue,,0,0,0,,Or locate and interview the passengers of the vehicle\Nresembling a moving truck that drove past me at the scene.
 Dialogue: 0,0:09:16.77,0:09:18.82,Dialogue,,0,0,0,,About that truck...
 Dialogue: 0,0:09:20.07,0:09:21.82,Dialogue,,0,0,0,,We couldn't locate it.
-Dialogue: 0,0:09:21.82,0:09:25.57,Dialogue,,0,0,0,,We couldn't find any trucks with a big "{\c&HC8C8FF&}09{\r}" printed on the side.
+Dialogue: 0,0:09:21.82,0:09:25.57,Dialogue,,0,0,0,,We couldn't find any trucks with a big "09" printed on the side.
 Dialogue: 0,0:09:26.53,0:09:27.57,Dialogue,,0,0,0,,No way...
 Dialogue: 0,0:09:28.95,0:09:31.95,Dialogue,,0,0,0,,Is it possible that you misread the numbers?
 Dialogue: 0,0:09:32.50,0:09:37.17,Dialogue,,0,0,0,,If they were partially blocked by the wall,\Nthen a 5 could be mistaken for a 9.
@@ -303,13 +302,13 @@ Dialogue: 0,0:16:39.97,0:16:42.97,Dialogue,,0,0,0,,But the victim, Sumida Akira{
 Dialogue: 0,0:16:43.55,0:16:49.02,Dialogue,,0,0,0,,Perhaps the "I'll kill you-wayo" was said by Sumida{\rHonorifics - Dialogue}-san{\r}.
 Dialogue: 0,0:16:49.03,0:16:50.22,Dialogue,,0,0,0,,That's true...
 Dialogue: 0,0:16:50.23,0:16:54.19,Dialogue,,0,0,0,,Threatening to kill someone could cause\Nthe opponent to retaliate out of fear.
-Dialogue: 0,0:16:54.19,0:17:00.23,Dialogue,,0,0,0,,Beyond that, with regards to the truck with the\N"{\c&HC8C8FF&}09{\r}" that Sensei saw leaving the scene...
+Dialogue: 0,0:16:54.19,0:17:00.23,Dialogue,,0,0,0,,Beyond that, with regards to the truck with the\N"09" that Sensei saw leaving the scene...
 Dialogue: 0,0:17:00.82,0:17:02.57,Dialogue,,0,0,0,,Why can't we find it?
 Dialogue: 0,0:17:04.20,0:17:09.16,Dialogue,,0,0,0,,The truck the Professor called when he helped his\Nfriend move the other day didn't have numbers on it.
 Dialogue: 0,0:17:10.45,0:17:12.16,Dialogue,,0,0,0,,Did you see the truck?
 Dialogue: 0,0:17:12.16,0:17:14.96,Dialogue,,0,0,0,,No, but I asked him...
 Dialogue: 0,0:17:14.96,0:17:17.54,Dialogue,,0,0,0,,Whether it had numbers on the side or not.
-Dialogue: 0,0:17:18.09,0:17:22.47,Dialogue,,0,0,0,,But the truck belonged to a company called\N"{\c&HE4FFCB&}OSAKA NICO-NICO TRANSPORTATION{\r}."
+Dialogue: 0,0:17:18.09,0:17:22.47,Dialogue,,0,0,0,,But the truck belonged to a company called\N"OSAKA NICO-NICO TRANSPORTATION."
 Dialogue: 0,0:17:22.47,0:17:25.64,Dialogue,,0,0,0,,It was the company's name, not numbers,\Nthat was printed largely on the side.
 Dialogue: 0,0:17:26.64,0:17:28.82,Dialogue,,0,0,0,,Company's name?
 Dialogue: 0,0:17:29.35,0:17:31.27,Dialogue,,0,0,0,,Professor also said...
@@ -375,7 +374,7 @@ Dialogue: 0,0:21:01.94,0:21:03.69,Dialogue,,0,0,0,,Sorry for the late call.
 Dialogue: 0,0:21:03.69,0:21:07.40,Dialogue,,0,0,0,,I'm with the police, is Kobayashi{\rHonorifics - Dialogue}-sensei{\r} there?
 Dialogue: 0,0:21:07.86,0:21:09.73,Dialogue,,0,0,0,,This is Kobayashi.
 Dialogue: 0,0:21:10.44,0:21:12.95,Dialogue,,0,0,0,,But I have nothing else to say to the police.
-Dialogue: 0,0:21:12.95,0:21:18.95,Dialogue,,0,0,0,,No, the truck you saw with the {\c&HC8C8FF&}0{\r} and {\c&HC8C8FF&}9{\r} on the side has been found.
+Dialogue: 0,0:21:12.95,0:21:18.95,Dialogue,,0,0,0,,No, the truck you saw with the 0 and 9 on the side has been found.
 Dialogue: 0,0:21:18.95,0:21:22.08,Dialogue,,0,0,0,,We took some photos and were hoping you could identify them.
 Dialogue: 0,0:21:22.96,0:21:23.87,Dialogue,,0,0,0,,All right.
 Dialogue: 0,0:21:23.87,0:21:27.13,Dialogue,,0,0,0,,If you would please send them to me at a later date...

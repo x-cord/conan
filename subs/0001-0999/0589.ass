@@ -33,7 +33,8 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: title01,@HGPSoeiKakupoptai-CP,20,&H006B5FE0,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0.5,0,2,0,150,95,1Style: title04,Calibri Light,18,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0.4,0.5,2,0,0,7,1
+Style: title01,@HGPSoeiKakupoptai-CP,20,&H006B5FE0,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0.5,0,2,0,150,95,1
+Style: title04,Calibri Light,18,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0.4,0.5,2,0,0,7,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -56,9 +57,9 @@ Dialogue: 0,0:01:00.67,0:01:02.37,Dialogue,,0,0,5,,The difficult Auintie's birth
 Dialogue: 0,0:01:01.24,0:01:01.95,title01,,0,0,0,,{\be0.1\fad(0,370)}October 10th
 Dialogue: 0,0:01:02.08,0:01:02.37,title01,,0,0,0,,{\be0.1\fad(0,0)}October 10th
 Dialogue: 0,0:01:02.37,0:01:04.33,Dialogue,,0,0,5,,Kogorou cooks up the Perfect Present Plan!
-Dialogue: 0,0:01:04.49,0:01:06.16,Dialogue,,0,0,5,,{\fad(0,0)\xshad1.3\1c&H6AE8FA&\4c&H294A50&\}Perceiving the one and only truth...
-Dialogue: 0,0:01:06.16,0:01:07.95,Dialogue,,0,0,5,,{\fad(0,0)\xshad1.3\1c&H6AE8FA&\4c&H294A50&\}The appearance of a child and the intellect of an adult...
-Dialogue: 0,0:01:07.95,0:01:10.29,Dialogue,,0,0,5,,{\fad(0,50)\xshad1.3\1c&H6AE8FA&\4c&H294A50&\}His name is: Detective {\t(1300,1301,\1c&H4331B1&)}Conan{\1c&H6AE8FA&}!
+Dialogue: 0,0:01:04.49,0:01:06.16,Dialogue,,0,0,5,,Perceiving the one and only truth...
+Dialogue: 0,0:01:06.16,0:01:07.95,Dialogue,,0,0,5,,The appearance of a child and the intellect of an adult...
+Dialogue: 0,0:01:07.95,0:01:10.29,Dialogue,,0,0,5,,His name is: Detective Conan!
 Dialogue: 0,0:02:41.13,0:02:42.21,Dialogue,,0,0,0,,It's true.
 Dialogue: 0,0:02:42.80,0:02:45.13,Dialogue,,0,0,0,,There are almost twenty raffle tickets in here!
 Dialogue: 0,0:02:45.88,0:02:47.26,Dialogue,,0,0,0,,I wonder what he bought...
@@ -98,7 +99,7 @@ Dialogue: 0,0:04:06.59,0:04:08.17,Dialogue,,0,0,0,,It's gotta be special!
 Dialogue: 0,0:04:08.17,0:04:09.30,Dialogue,,0,0,0,,Then, how about...
 Dialogue: 0,0:04:09.30,0:04:10.17,Dialogue,,0,0,0,,Something like that?
 Dialogue: 0,0:04:10.18,0:04:12.64,Signs,,0,0,0,,*****************************
-Dialogue: 0,0:04:10.18,0:04:12.64,Character Card,,0,0,0,,{\blur5\an7\c&HC8ECFB&)}Grand Prize: {\1c&HFFFFFF&}ONLY Brand Large Screen TV\N{\c&HC8ECFB&}1st Prize: {\1c&HFFFFFF&}Shizuoka Sea Side Hotel Stay for Two\N{\c&HC8ECFB&}2nd Prize: {\1c&HFFFFFF&}Beginner's Golf Set
+Dialogue: 0,0:04:10.18,0:04:12.64,Character Card,,0,0,0,,{\blur5\c&HC8ECFB&)}Grand Prize: {\1c&HFFFFFF&}ONLY Brand Large Screen TV\N{\c&HC8ECFB&}1st Prize: {\1c&HFFFFFF&}Shizuoka Sea Side Hotel Stay for Two\N{\c&HC8ECFB&}2nd Prize: {\1c&HFFFFFF&}Beginner's Golf Set
 Dialogue: 0,0:04:13.09,0:04:14.89,Dialogue,,0,0,0,,A hotel stay for two...
 Dialogue: 0,0:04:15.51,0:04:16.81,Dialogue,,0,0,0,,All right!
 Dialogue: 0,0:04:18.93,0:04:20.89,Dialogue,,0,0,0,,What!?
@@ -165,12 +166,12 @@ Dialogue: 0,0:07:24.83,0:07:30.37,Dialogue,,0,0,0,,Your wife came to my room, nu
 Dialogue: 0,0:07:30.92,0:07:35.09,Dialogue,,0,0,0,,I'll be going out and won't return until 11:00 PM.
 Dialogue: 0,0:07:35.09,0:07:38.59,Dialogue,,0,0,0,,Would you mind coming by to get her at some point?
 Dialogue: 0,0:07:39.26,0:07:42.74,Dialogue Top,,0,0,0,,I think she'll cool off after she's slept off her drunkenness.
-Dialogue: 0,0:07:38.93,0:07:43.48,Signs,,0,0,0,,Kobuku Takehito (30)\NAkiho's Husband
+Dialogue: 0,0:07:38.93,0:07:43.48,Character Card,,0,0,0,,Kobuku Takehito (30)\NAkiho's Husband
 Dialogue: 0,0:07:43.60,0:07:45.14,Dialogue,,0,0,0,,Yes, I understand.
 Dialogue: 0,0:07:48.56,0:07:50.10,Dialogue,,0,0,0,,My, Miss Attorney.
 Dialogue: 0,0:07:51.85,0:07:55.11,Dialogue,,0,0,0,,During tomorrow's negotiations, I trust you will take good care of us.
 Dialogue: 0,0:07:56.39,0:08:02.74,Dialogue Top,,0,0,0,,Since it appears to be true that my son has been following\Nthis woman, we'll pay the extent of the settlement fee.
-Dialogue: 0,0:07:55.95,0:08:00.79,Signs,,0,0,0,,Hino Midori (51)\NOpposing Party in the Negotiations
+Dialogue: 0,0:07:55.95,0:08:00.79,Character Card,,0,0,0,,Hino Midori (51)\NOpposing Party in the Negotiations
 Dialogue: 0,0:08:03.66,0:08:09.66,Dialogue,,0,0,0,,But this all started because that former race queen\Ntricked and toyed with my son's feelings...
 Dialogue: 0,0:08:09.66,0:08:12.71,Dialogue,,0,0,0,,And I have a few words to share with her about that.
 Dialogue: 0,0:08:12.71,0:08:15.25,Dialogue,,0,0,0,,Well, that's for tomorrow.

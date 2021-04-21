@@ -33,7 +33,6 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: default01,Batang,15,&H00FDFEFE,&H000000FF,&H00080A08,&H00000000,-1,0,0,0,100,100,0,0,1,0.8,0,2,10,10,3,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -89,7 +88,7 @@ Dialogue: 0,0:03:55.66,0:03:56.62,Dialogue,,0,0,0,,Ah, sorry.
 Dialogue: 0,0:03:57.12,0:03:58.45,Dialogue,,0,0,0,,So, let me introduce you.
 Dialogue: 0,0:03:58.78,0:04:03.33,Dialogue Top,,0,0,0,,This is my friend from my middle school days\Nand the ringleader of our singles party, Emoto.
 Dialogue: 0,0:04:03.49,0:04:04.51,Dialogue Top,,0,0,0,,Nice to meet you.
-Dialogue: 0,0:04:01.01,0:04:04.51,Signs,,0,0,0,,Emoto Masashi (26)\NSports Gym Trainer
+Dialogue: 0,0:04:01.01,0:04:04.51,Character Card,,0,0,0,,Emoto Masashi (26)\NSports Gym Trainer
 Dialogue: 0,0:04:04.84,0:04:06.09,Dialogue,,0,0,0,,So, who's this?
 Dialogue: 0,0:04:06.63,0:04:09.80,Dialogue,,0,0,0,,This is Detective Mouri. We just bumped into him.
 Dialogue: 0,0:04:09.80,0:04:13.72,Dialogue,,0,0,0,,Oh, I know you! You're Sleeping Kogorou, right?
@@ -108,8 +107,8 @@ Dialogue: 0,0:04:53.59,0:04:54.93,Dialogue,,0,0,0,,I didn't mean her.
 Dialogue: 0,0:04:55.30,0:04:58.10,Dialogue,,0,0,0,,One of them is one of my sister's old friends.
 Dialogue: 0,0:04:58.22,0:05:00.60,Dialogue,,0,0,0,,And the other is that girl's good friend or something.
 Dialogue: 0,0:05:01.02,0:05:03.23,Dialogue,,0,0,0,,Both of them do some kind of police related work.
-Dialogue: 0,0:05:03.43,0:05:05.53,Dialogue,,0,0,0,,{\an1}\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\hPolice related?
-Dialogue: 0,0:05:03.43,0:05:05.53,Dialogue,,0,0,0,,{\an3}Police related?\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h
+Dialogue: 0,0:05:03.43,0:05:05.53,Dialogue,,0,0,0,,Police related?
+Dialogue: 0,0:05:03.43,0:05:05.53,Dialogue,,0,0,0,,Police related?
 Dialogue: 0,0:05:06.11,0:05:09.73,Dialogue,,0,0,0,,Oh yeah, Chiba, in the past you used to say\Nyou wanted to become a policeman or something.
 Dialogue: 0,0:05:09.94,0:05:11.53,Dialogue,,0,0,0,,So what are you doing now?
 Dialogue: 0,0:05:11.74,0:05:14.40,Dialogue,,0,0,0,,I told you, I'm a police detective. A detective.
@@ -150,7 +149,7 @@ Dialogue: 0,0:06:55.01,0:06:57.26,Dialogue,,0,0,0,,I should be going soon I gues
 Dialogue: 0,0:06:57.51,0:06:59.76,Dialogue,,0,0,0,,Hey hey, what are you saying, Sis?
 Dialogue: 0,0:06:59.97,0:07:01.93,Dialogue,,0,0,0,,Don't be silly, you're supposed to be relaxing.
 Dialogue: 0,0:07:02.22,0:07:06.02,Dialogue Top,,0,0,0,,But I'm worried about Kouta\Nwatching the house all by himself.
-Dialogue: 0,0:07:01.93,0:07:06.02,Signs,,0,0,0,,Emoto Aya(28)\NIllustrator
+Dialogue: 0,0:07:01.93,0:07:06.02,Character Card,,0,0,0,,Emoto Aya(28)\NIllustrator
 Dialogue: 0,0:07:06.23,0:07:08.56,Dialogue,,0,0,0,,Uhm, is he your little brother?
 Dialogue: 0,0:07:08.73,0:07:11.40,Dialogue,,0,0,0,,No, he's my cousin who's just turning five.
 Dialogue: 0,0:07:11.90,0:07:14.90,Dialogue,,0,0,0,,His parents are both overseas on business.
@@ -326,7 +325,7 @@ Dialogue: 0,0:16:53.10,0:16:56.23,Dialogue,,0,0,0,,I'm on my way home from the\N
 Dialogue: 0,0:16:58.44,0:17:00.36,Dialogue,,0,0,0,,What is it that brings you here so late?
 Dialogue: 0,0:17:00.49,0:17:04.82,Dialogue,,0,0,0,,Sorry, I was talking about you at the\Nsingles party with these two people.
 Dialogue: 0,0:17:05.20,0:17:07.75,Dialogue Top,,0,0,0,,Talking about me? What about?
-Dialogue: 0,0:17:04.82,0:17:07.74,Signs,,0,0,0,,Rokuda Takuji (26)\NMusician
+Dialogue: 0,0:17:04.82,0:17:07.74,Character Card,,0,0,0,,Rokuda Takuji (26)\NMusician
 Dialogue: 0,0:17:07.74,0:17:10.75,Dialogue,,0,0,0,,Ah, you see, the two of us are in a band too.
 Dialogue: 0,0:17:11.71,0:17:15.79,Dialogue,,0,0,0,,But his lyrics and my melodies\Nhaven't been meshing well recently.
 Dialogue: 0,0:17:17.25,0:17:19.80,Dialogue,,0,0,0,,Say, could you let me hear your songs?
@@ -346,7 +345,7 @@ Dialogue: 0,0:18:11.47,0:18:13.81,Dialogue,,0,0,0,,Oh! Amazing, amazing!
 Dialogue: 0,0:18:17.48,0:18:19.31,Dialogue,,0,0,0,,It's just like Chiba's apartment...
 Dialogue: 0,0:18:19.57,0:18:23.90,Dialogue,,0,0,0,,Wow! Since I admire models so\Nmuch, this is super inspirational!
 Dialogue: 0,0:18:25.36,0:18:28.75,Dialogue Top,,0,0,0,,Being admired by a beautifully\Ndesigned character like you is a real thrill.
-Dialogue: 0,0:18:23.90,0:18:28.74,Signs,,0,0,0,,Hikika Kadonari (25)\NModeler
+Dialogue: 0,0:18:23.90,0:18:28.74,Character Card,,0,0,0,,Hikika Kadonari (25)\NModeler
 Dialogue: 0,0:18:28.91,0:18:29.91,Dialogue,,0,0,0,,Character, eh?
 Dialogue: 0,0:18:29.99,0:18:32.12,Dialogue,,0,0,0,,I should have gone to the singles party too.
 Dialogue: 0,0:18:32.45,0:18:34.75,Dialogue,,0,0,0,,That's why I keep inviting you.
@@ -368,7 +367,7 @@ Dialogue: 0,0:19:25.26,0:19:29.59,Dialogue,,0,0,0,,Since I admire old-time money
 Dialogue: 0,0:19:29.93,0:19:31.34,Dialogue,,0,0,0,,That's overdoing it a little.
 Dialogue: 0,0:19:32.63,0:19:36.53,Dialogue Top,,0,0,0,,Oh? Then do you have some too? Like these?
 Dialogue: 0,0:19:36.72,0:19:39.23,Dialogue Top,,0,0,0,,Ah, no. Nothing special...
-Dialogue: 0,0:19:31.35,0:19:37.78,Signs,,0,0,0,,Satsuka Yoshikane (31)\NPaper Money Collector
+Dialogue: 0,0:19:31.35,0:19:37.78,Character Card,,0,0,0,,Satsuka Yoshikane (31)\NPaper Money Collector
 Dialogue: 0,0:19:39.23,0:19:44.94,Dialogue Top,,0,0,0,,Translator's note: In Japanese, many syllables\Ncan matched to numbers based on similar sounds.
 Dialogue: 0,0:19:39.23,0:19:44.94,Dialogue,,0,0,0,,Just stuff like a 10,000 yen Taishi bill with a\Nnumber that ends with my name "Miwako" (385).
 Dialogue: 0,0:19:44.94,0:19:51.71,Dialogue Top,,0,0,0,,Translator note: Taishi (prince) in the previous sub refers to Prince\NShotoku (573-621) imperial regent and one of the early supporters of\NBuddhism in Japan. His portrait graced the 10.000 yen bill from 1958-1986.

@@ -33,13 +33,13 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: Lights,Nyala,40,&H804B7487,&H000000FF,&H144B4B4B,&HC0000000,-1,0,0,0,100,100,0,0,1,0,0,7,10,10,25,1
+Style: OPRom,Ubuntu,23,&H00FFFFFF,&H000000FF,&H40555555,&HC0000000,-1,0,0,0,100,100,0,0,1,2,1,8,10,10,30,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:40.50,0:00:40.54,Signs,,0,0,0,,Incoming Call\NNumber withheld
-Dialogue: 0,0:00:40.54,0:00:40.71,Radio,,0,0,0,,{\be10\t(0,100,\t(100,200,\frx350\fry4\frz7.465\move(334,104,335,110,23,190)}Incoming Call\NNumber withheld
-Dialogue: 0,0:00:40.71,0:00:42.21,Radio,,0,0,0,,{\be10\t(688,688,\t(0,1500,\frx350\fry4\frz7.465\move(334,109,334,113,30,1448)}Incoming Call\NNumber withheld
+Dialogue: 0,0:00:40.50,0:00:40.54,Radio,,0,0,0,,{\be10}Incoming Call\NNumber withheld
+Dialogue: 0,0:00:40.54,0:00:40.71,Radio,,0,0,0,,{\be10}Incoming Call\NNumber withheld
+Dialogue: 0,0:00:40.71,0:00:42.21,Radio,,0,0,0,,{\be10}Incoming Call\NNumber withheld
 Dialogue: 3,0:00:20.30,0:00:24.78,OPRom,,0,0,0,,{\blur3}Seaside moon Seaside sky
 Dialogue: 3,0:00:25.74,0:00:35.50,OPRom,,0,0,0,,{\blur3}itsumademo kawaranu kokoro o mō ichido kimi ni todoketai
 Dialogue: 3,0:00:35.50,0:00:38.92,OPRom,,0,0,0,,{\blur3}Glorious Mind
@@ -69,7 +69,7 @@ Dialogue: 2,0:02:08.88,0:02:12.00,Thoughts,,0,0,0,,{\be10}they had people such a
 Dialogue: 2,0:02:12.00,0:02:16.17,Thoughts,,0,0,0,,{\be10}and they're gathering talented computer programmers.
 Dialogue: 2,0:02:16.17,0:02:19.40,Thoughts,,0,0,0,,{\be10}It seems that Suguru Itakura{\rHonorifics - Thoughts\be10}-san{\r\be10}, a systems engineer
 Dialogue: 2,0:02:19.40,0:02:21.72,Thoughts,,0,0,0,,{\be10}who the Mouri Detective Agency was requested to find,
-Dialogue: 2,0:02:21.72,0:02:25.00,Thoughts,,0,0,0,,{\be10\fad(0,200)}is connected to a member of the Organisation, Tequila.
+Dialogue: 2,0:02:21.72,0:02:25.00,Thoughts,,0,0,0,,{\be10}is connected to a member of the Organisation, Tequila.
 Dialogue: 2,0:02:26.10,0:02:28.65,Thoughts,,0,0,0,,{\be10}We finally found his location,
 Dialogue: 2,0:02:28.65,0:02:32.11,Thoughts,,0,0,0,,{\be10}but Itakura{\rHonorifics - Thoughts\be10}-san{\r\be10} was now a corpse.
 Dialogue: 2,0:02:33.15,0:02:36.02,Thoughts,,0,0,0,,{\be10}Have I lost another clue to finding them?!
@@ -307,14 +307,14 @@ Dialogue: 2,0:17:24.67,0:17:25.29,Dialogue,,0,0,0,,Damn!
 Dialogue: 2,0:17:25.29,0:17:28.17,Dialogue,,0,0,0,,It's rigged so that if you don't open it immediately, it'll disappear!
 Dialogue: 2,0:17:28.17,0:17:29.37,Dialogue,,0,0,0,,Then...
 Dialogue: 2,0:17:29.37,0:17:32.30,Dialogue,,0,0,0,,Do you think they know the e-mail wasn't opened?
-Dialogue: 0,0:17:32.30,0:17:32.46,Radio,,0,0,0,,{\be10\t(0,100,\t(100,200,\frx350\fry4\frz7.465\move(334,104,335,110,23,190)}Incoming Call\NNumber withheld
-Dialogue: 0,0:17:32.46,0:17:33.92,Radio,,0,0,0,,{\be10\t(0,1500,\frx350\fry4\frz7.465\move(334,109,334,113,30,1448)}Incoming Call\NNumber withheld
-Dialogue: 0,0:17:39.85,0:17:42.10,Radio,,0,0,0,,{\be10\move(350,128,356,115)\t(0,2250,}Incoming Call\NNumber withheld
+Dialogue: 0,0:17:32.30,0:17:32.46,Radio,,0,0,0,,{\be10}Incoming Call\NNumber withheld
+Dialogue: 0,0:17:32.46,0:17:33.92,Radio,,0,0,0,,{\be10}Incoming Call\NNumber withheld
+Dialogue: 0,0:17:39.85,0:17:42.10,Radio,,0,0,0,,{\be10}Incoming Call\NNumber withheld
 Dialogue: 2,0:17:41.64,0:17:47.10,Thoughts,,0,0,0,,{\be10}At this moment, we can't come to the phone.
 Dialogue: 2,0:17:47.10,0:17:51.57,Thoughts,,0,0,0,,{\be10}Please leave a message after the beep.
-Dialogue: 0,0:17:47.10,0:17:52.99,Radio,,0,0,0,,{\be10\t(0,5800,\move(358,119,377,104,30,5869)}Incoming Call\NNumber withheld
-Dialogue: 0,0:17:52.99,0:17:57.61,Signs,,0,0,0,,Incoming Call\NNumber withheld
-Dialogue: 0,0:18:20.43,0:18:22.26,Signs,,0,0,0,,Incoming Call\NNumber withheld
+Dialogue: 0,0:17:47.10,0:17:52.99,Radio,,0,0,0,,{\be10}Incoming Call\NNumber withheld
+Dialogue: 0,0:17:52.99,0:17:57.61,Radio,,0,0,0,,{\be10}Incoming Call\NNumber withheld
+Dialogue: 0,0:18:20.43,0:18:22.26,Radio,,0,0,0,,{\be10}Incoming Call\NNumber withheld
 Dialogue: 2,0:17:56.23,0:17:57.61,Dialogue,,0,0,0,,Yo, what's up?
 Dialogue: 2,0:17:59.69,0:18:01.08,Thoughts,,0,0,0,,{\be10}Vodka!
 Dialogue: 2,0:18:01.89,0:18:03.58,Dialogue,,0,0,0,,You're there, aren't you?
@@ -326,15 +326,15 @@ Dialogue: 2,0:18:16.76,0:18:17.90,Dialogue,,0,0,0,,Hey, hey...
 Dialogue: 2,0:18:17.90,0:18:20.43,Dialogue,,0,0,0,,If that's the case, how are we going to escape?!
 Dialogue: 2,0:18:20.43,0:18:22.26,Dialogue,,0,0,0,,Hey, answer!
 Dialogue: 2,0:18:24.00,0:18:26.73,Dialogue,,0,0,0,,I know you're in that cottage!
-Dialogue: 0,0:18:29.69,0:18:31.11,Signs,,0,0,0,,Incoming Call\NNumber withheld
+Dialogue: 0,0:18:29.69,0:18:31.11,Radio,,0,0,0,,{\be10}Incoming Call\NNumber withheld
 Dialogue: 2,0:18:29.69,0:18:32.61,Dialogue,,0,0,0,,You hear me?! Hey!
 Dialogue: 2,0:18:41.06,0:18:42.53,Dialogue,,0,0,0,,Hey, answer!
-Dialogue: 0,0:18:42.53,0:18:46.04,Signs,,0,0,0,,Incoming Call\NNumber withheld
+Dialogue: 0,0:18:42.53,0:18:46.04,Radio,,0,0,0,,{\be10}Incoming Call\NNumber withheld
 Dialogue: 2,0:18:43.22,0:18:46.04,Dialogue,,0,0,0,,I know you're in that cottage!
 Dialogue: 2,0:18:46.65,0:18:49.68,Dialogue,,0,0,0,,Answer me already, Itakura{\rHonorifics - Dialogue}-san{\r}!
-Dialogue: 0,0:18:50.92,0:18:51.88,Signs,,0,0,0,,Incoming Call\NNumber withheld
-Dialogue: 0,0:18:51.88,0:18:52.00,Signs,,0,0,0,,Incoming Call\NNumber withheld
-Dialogue: 0,0:18:52.00,0:18:52.13,Signs,,0,0,0,,Incoming Call\NNumber withheld
+Dialogue: 0,0:18:50.92,0:18:51.88,Radio,,0,0,0,,{\be10\fax0.7}Incoming Call\NNumber withheld
+Dialogue: 0,0:18:51.88,0:18:52.00,Radio,,0,0,0,,{\be10\fax0.7\clip(m 234 176 l 217 176 205 157 272 114 333 146)}Incoming Call\NNumber withheld
+Dialogue: 0,0:18:52.00,0:18:52.13,Radio,,0,0,0,,{\be10\fax0.7\clip(m 253 160 l 234 164 205 157 272 114 333 146)}Incoming Call\NNumber withheld
 Dialogue: 2,0:18:53.30,0:18:55.30,Dialogue,,0,0,0,,Oh, sorry.
 Dialogue: 2,0:18:55.30,0:18:57.76,Dialogue,,0,0,0,,It's pretty dark in here, so I had trouble finding the phone.
 Dialogue: 2,0:18:57.76,0:18:59.43,Thoughts,,0,0,0,,{\be10}H-Hey, hey, hey...

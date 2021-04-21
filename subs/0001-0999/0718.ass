@@ -33,11 +33,8 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: Tsuzukiwa,Nyala,100,&HFE000000,&H000000FF,&H00FFFFFF,&H00000000,-1,0,0,0,100,100,0,0.1,1,6,0,5,10,10,10,1Style: FlashbackThoughts,OSPuto,50,&H4B370001,&H000000FF,&H00CCFFFF,&HC0000000,-1,0,0,0,94,100,0,0,1,2.6,2,2,100,100,30,1
-Style: PlaceCard,Corbel,35,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,2,2,100,100,30,1Style: Poodles,MV Boli M,70,&H400102B5,&H000809FC,&H00CFF2F3,&H80000000,0,0,0,0,100,100,0,0,1,4,2,8,10,10,25,1
-Style: ButterflyCore,Love Is Complicated Again,45,&H405E0036,&H000000FF,&H00FFFFFF,&H80000000,-1,0,0,0,100,100,1,0,1,3.5,0,8,10,10,30,1
-Style: ButterflyCore2,Love Is Complicated Again,45,&HFF5E0036,&H000000FF,&H80000000,&H80000000,-1,0,0,0,100,100,1,0,1,0.75,0,8,10,10,30,1
-Style: BCPrologue,Cocon-Regular,45,&H805E0036,&H000000FF,&H00FFFFFF,&H80000000,-1,0,0,0,100,100,1,0,1,5,2,2,10,10,30,1
+Style: Poodles,MV Boli M,70,&H400102B5,&H000809FC,&H00CFF2F3,&H80000000,0,0,0,0,100,100,0,0,1,4,2,8,10,10,25,1
+
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 Dialogue: 0,0:00:02.77,0:00:10.50,Narration Off,,0,0,0,,{\be10\an8}The old man was invited to the vacation home of Chika Kaidō{\rHonorifics - Narration Off\be10}-san{\r\be10}, a mystery novelist from Shizuoka,
@@ -71,11 +68,11 @@ Dialogue: 0,0:01:54.28,0:01:57.13,Dialogue,,0,0,0,,The clearer the night sky, th
 Dialogue: 0,0:01:57.76,0:02:00.39,Dialogue,,0,0,0,,A grand backdrop to a farewell...
 Dialogue: 0,0:02:01.65,0:02:04.36,Narration Off,,0,0,0,,{\be10}Even I had no idea what they were planning...
 Dialogue: 0,0:02:04.36,0:02:07.62,Narration Off,,0,0,0,,{\be10}...until the case occurred.
-Dialogue: 0,0:02:22.13,0:02:25.64,BCPrologue,,0,0,0,,{\blur3}Only the light of deductions can tear apart black shadows and deep darkness!
-Dialogue: 0,0:02:26.27,0:02:29.02,BCPrologue,,0,0,0,,{\blur3}A three-way struggle of murderous intent, the outcome of which is unknown until the next day!
-Dialogue: 0,0:02:29.63,0:02:31.10,BCPrologue,,0,0,0,,{\blur3}He sees the single truth for what it is,
-Dialogue: 0,0:02:31.10,0:02:33.56,BCPrologue,,0,0,0,,{\blur3}and looks like a kid but has the mind of an adult!
-Dialogue: 0,0:02:33.56,0:02:36.15,BCPrologue,,0,0,0,,{\blur3}His name? Detective Conan!
+Dialogue: 0,0:02:22.13,0:02:25.64,Narration Off,,0,0,0,,{\be10}Only the light of deductions can tear apart black shadows and deep darkness!
+Dialogue: 0,0:02:26.27,0:02:29.02,Narration Off,,0,0,0,,{\be10}A three-way struggle of murderous intent, the outcome of which is unknown until the next day!
+Dialogue: 0,0:02:29.63,0:02:31.10,Narration Off,,0,0,0,,{\be10}He sees the single truth for what it is,
+Dialogue: 0,0:02:31.10,0:02:33.56,Narration Off,,0,0,0,,{\be10}and looks like a kid but has the mind of an adult!
+Dialogue: 0,0:02:33.56,0:02:36.15,Narration Off,,0,0,0,,{\be10}His name? Detective Conan!
 Dialogue: 0,0:04:03.32,0:04:07.32,Dialogue,,0,0,0,,Oh? Kaidō{\rHonorifics - Dialogue}-sensei{\r} was laughing last night?
 Dialogue: 0,0:04:07.32,0:04:11.83,Dialogue,,0,0,0,,Yeah. It was around 2 AM, when I woke up to go to the toilet...
 Dialogue: 0,0:04:13.63,0:04:15.74,Dialogue,,0,0,0,,What was so funny?
@@ -305,7 +302,6 @@ Dialogue: 0,0:20:07.17,0:20:10.92,Dialogue,,0,0,0,,She concluded that her husban
 Dialogue: 0,0:20:15.77,0:20:18.18,Dialogue,,0,0,0,,And understood everything.
 Dialogue: 0,0:20:18.18,0:20:23.68,Dialogue,,0,0,0,,They both tried to kill her, but ended up killing each other by accident.
 Dialogue: 0,0:20:25.79,0:20:31.28,Dialogue,,0,0,0,,No longer in the mood for committing suicide, she threw away the poisoned chocolate bars.
-Dialogue: 0,0:20:31.28,0:20:40.67,FlashbackThoughts,,0,0,0,,{\blur3}I'm alive! I'm going to live and make a novel about their foolish acts!
 Dialogue: 0,0:20:53.74,0:20:57.51,Dialogue,,0,0,0,,And that's how the third victim, Chika Kaidō{\rHonorifics - Dialogue}-sensei{\r}, died.
 Dialogue: 0,0:20:59.51,0:21:10.44,Dialogue,,0,0,0,,Hold on, Mouri{\rHonorifics - Dialogue}-san{\r}. Do you really think that she ate one of the chocolate bars she had prepared for her suicide by mistake?
 Dialogue: 0,0:21:10.44,0:21:14.15,Dialogue,,0,0,0,,She found herself part of another ironic cycle.
@@ -330,32 +326,6 @@ Dialogue: 0,0:23:49.35,0:23:53.44,Dialogue,,0,0,0,,Next Conan's Hint: Washing ma
 Dialogue: 0,0:23:54.64,0:23:56.18,Dialogue Top,,0,0,0,,Phone-in competitions start today!
 Dialogue: 0,0:23:56.18,0:23:58.07,Dialogue Top,,0,0,0,,A mini-drama with Conan{\rHonorifics - Dialogue}-kun{\r} and that guy!
 Dialogue: 0,0:23:58.07,0:23:58.93,Dialogue Top,,0,0,0,,Daddy!
-Dialogue: 0,0:02:09.16,0:02:14.17,ButterflyCore,,0,0,0,,{\blur4\fad(200,0)}kage o mau chō no kodō ga seijaku no umi o saite
-Dialogue: 0,0:02:14.33,0:02:21.47,ButterflyCore,,0,0,0,,{\blur4}kasanariau koe ga ima yami o furiharatta
-Dialogue: 0,0:02:36.15,0:02:41.57,ButterflyCore,,0,0,0,,{\blur4\c&H005500}haritsuita ase o nugutte nigemawaru light o ketta
-Dialogue: 0,0:02:41.90,0:02:47.24,ButterflyCore,,0,0,0,,{\blur4\c&H005500}kanashimi ni utareta kyō no kizuato kabau yō ni
-Dialogue: 0,0:02:47.41,0:02:52.71,ButterflyCore,,0,0,0,,{\blur4\c&H005500}aseru hodo ni tōku natte wake mo naku imi o sagashite
-Dialogue: 0,0:02:52.87,0:02:58.63,ButterflyCore,,0,0,0,,{\blur4\c&H005500\t(2500,3024,\c&H000055)}osanasa no ura ni kakushita yuzuritakunai omoi ni
-Dialogue: 0,0:02:58.75,0:03:03.47,ButterflyCore,,0,0,0,,{\blur4\c&H000077}kizuita nara miushinawanai yō ni
-Dialogue: 0,0:03:03.59,0:03:09.39,ButterflyCore,,0,0,0,,{\blur4\c&H770000}dareka o mamore'ru to motto ima shinjitai
-Dialogue: 0,0:03:09.60,0:03:14.64,ButterflyCore,,0,0,0,,{\blur4\c&HAA0000}kage o mau chō no kodō ga seijaku no umi o saita
-Dialogue: 0,0:03:14.81,0:03:20.15,ButterflyCore,,0,0,0,,{\blur4\c&H000077}kimi ni miseru itsuwari no subete ga uso ja nai daro
-Dialogue: 0,0:03:20.32,0:03:25.78,ButterflyCore,,0,0,0,,{\blur4\c&HAA0000}mayo'u tabi suteta kotae mo kitto erabu hi wa mata kuru kara
-Dialogue: 0,0:03:25.95,0:03:34.87,ButterflyCore,,0,0,0,,{\blur4\c&H006600}kono kokoro wa dare yori mo atsuku moyashi tsuzukeyō kienai yō ni
-Dialogue: 0,0:03:44.80,0:03:50.39,ButterflyCore,,0,0,0,,{\blur4\c&H006600\fad(0,1000)}kienai yō ni
-Dialogue: 0,0:02:09.16,0:02:14.17,ButterflyCore2,,0,0,0,,{\fad(200,0)}kage o mau chō no kodō ga seijaku no umi o saite
-Dialogue: 0,0:02:14.33,0:02:21.47,ButterflyCore2,,0,0,0,,kasanariau koe ga ima yami o furiharatta
-Dialogue: 0,0:02:36.15,0:02:41.57,ButterflyCore2,,0,0,0,,haritsuita ase o nugutte nigemawaru light o ketta
-Dialogue: 0,0:02:41.90,0:02:47.24,ButterflyCore2,,0,0,0,,kanashimi ni utareta kyō no kizuato kabau yō ni
-Dialogue: 0,0:02:47.41,0:02:52.71,ButterflyCore2,,0,0,0,,aseru hodo ni tōku natte wake mo naku imi o sagashite
-Dialogue: 0,0:02:52.87,0:02:58.63,ButterflyCore2,,0,0,0,,osanasa no ura ni kakushita yuzuritakunai omoi ni
-Dialogue: 0,0:02:58.75,0:03:03.47,ButterflyCore2,,0,0,0,,kizuita nara miushinawanai yō ni
-Dialogue: 0,0:03:03.59,0:03:09.39,ButterflyCore2,,0,0,0,,dareka o mamore'ru to motto ima shinjitai
-Dialogue: 0,0:03:09.60,0:03:14.64,ButterflyCore2,,0,0,0,,kage o mau chō no kodō ga seijaku no umi o saita
-Dialogue: 0,0:03:14.81,0:03:20.15,ButterflyCore2,,0,0,0,,kimi ni miseru itsuwari no subete ga uso ja nai daro
-Dialogue: 0,0:03:20.32,0:03:25.78,ButterflyCore2,,0,0,0,,mayo'u tabi suteta kotae mo kitto erabu hi wa mata kuru kara
-Dialogue: 0,0:03:25.95,0:03:34.87,ButterflyCore2,,0,0,0,,{\3c&H006600}kono kokoro wa dare yori mo atsuku moyashi tsuzukeyō kienai yō ni
-Dialogue: 0,0:03:44.80,0:03:50.39,ButterflyCore2,,0,0,0,,{\fad(0,1000)\3c&H006600}kienai yō ni
 Dialogue: 0,0:21:46.21,0:21:51.38,Poodles,,0,0,0,,{\fax0.25\blur2.5\3c&HFFFFFF}kimi no egao ga nani yori mo suki datta
 Dialogue: 0,0:21:51.72,0:21:54.85,Poodles,,0,0,0,,{\fax0.25\blur2.5\3c&HFFFFFF}onaji koto de waraiatta ne
 Dialogue: 0,0:21:55.18,0:22:03.27,Poodles,,0,0,0,,{\fax0.25\blur2.5\3c&HFFFFFF}futoshita shunkan ni iron'na kimi o omoidasu

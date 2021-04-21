@@ -33,10 +33,7 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: ButterflyCore,Love Is Complicated Again,45,&H405E0036,&H000000FF,&H00FFFFFF,&H80000000,-1,0,0,0,100,100,1,0,1,3.5,0,8,10,10,30,1
-Style: ButterflyCore2,Love Is Complicated Again,45,&HFF5E0036,&H000000FF,&H80000000,&H80000000,-1,0,0,0,100,100,1,0,1,0.75,0,8,10,10,30,1
 Style: RainMan,FOT-Seurat Pro,35,&HC0FAE4D0,&H000000FF,&H00FFFFFF,&H80000000,-1,0,0,0,100,100,0,0,1,3.5,0.5,8,10,10,25,1
-Style: GreedNarr,Biko,45,&H6E8C4000,&H000000FF,&H00FFFFFF,&H80000000,-1,0,0,0,100,100,0,0,1,3.7,1.5,2,50,50,30,1Style: OPTL_BL,Biko,45,&H00FFFFFF,&H000000FF,&H80000000,&HC0000000,-1,0,0,0,100,100,0,0,1,2,1,2,10,10,25,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -44,37 +41,11 @@ Dialogue: 0,0:00:17.91,0:00:18.70,Dialogue,,0000,0000,0000,,Wow!
 Dialogue: 0,0:00:26.71,0:00:27.21,Dialogue,,0000,0000,0000,,What?!
 Dialogue: 0,0:00:27.21,0:00:28.04,Dialogue,,0000,0000,0000,,Great!
 Dialogue: 0,0:00:40.89,0:00:41.97,Dialogue,,0000,0000,0000,,Damn!
-Dialogue: 0,0:00:42.27,0:00:47.44,ButterflyCore,,0000,0000,0000,,{\fad(200,0)\blur4}kage o mau chō no kodō ga seijaku no umi o saite
-Dialogue: 0,0:00:47.44,0:00:54.61,ButterflyCore,,0000,0000,0000,,{\blur4}kasanariau koe ga ima yami o furiharatta
-Dialogue: 0,0:00:42.27,0:00:47.44,ButterflyCore2,,0000,0000,0000,,{\fad(200,0)}kage o mau chō no kodō ga seijaku no umi o saite
-Dialogue: 0,0:00:47.44,0:00:54.61,ButterflyCore2,,0000,0000,0000,,kasanariau koe ga ima yami o furiharatta
-Dialogue: 0,0:00:55.24,0:00:59.03,BCPrologue,,0000,0000,0000,,{\blur3}Only the light of deductions can tear apart\Nthe pitch-black shadows and bottomless darkness!
-Dialogue: 0,0:00:59.03,0:01:02.87,BCPrologue,,0000,0000,0000,,{\blur3}An impassioned shot by the mischievous Sanada unfolds into an unforeseen case!
-Dialogue: 0,0:01:02.87,0:01:04.46,BCPrologue,,0000,0000,0000,,{\blur3}He sees the single truth for what it is,
-Dialogue: 0,0:01:04.46,0:01:06.42,BCPrologue,,0000,0000,0000,,{\blur3}and looks like a kid but has the mind of an adult!
-Dialogue: 0,0:01:06.42,0:01:09.25,BCPrologue,,0000,0000,0000,,{\blur3}His name? Detective Conan!
-Dialogue: 0,0:01:09.25,0:01:15.01,ButterflyCore,,0000,0000,0000,,{\blur4\c&H005500}haritsuita ase o nugutte nigemawaru light o ketta
-Dialogue: 0,0:01:15.01,0:01:20.47,ButterflyCore,,0000,0000,0000,,{\blur4\c&H005500}kanashimi ni utareta kyō no kizuato kabau yō ni
-Dialogue: 0,0:01:20.47,0:01:25.93,ButterflyCore,,0000,0000,0000,,{\blur4\c&H005500}aseru hodo ni tōku natte wake mo naku imi o sagashite
-Dialogue: 0,0:01:25.93,0:01:31.86,ButterflyCore,,0000,0000,0000,,{\blur4\c&H005500\t(2500,3024,\c&H000055)}osanasa no ura ni kakushita yuzuritakunai omoi ni
-Dialogue: 0,0:01:31.86,0:01:36.74,ButterflyCore,,0000,0000,0000,,{\blur4\c&H000077}kizuita nara miushinawanai yō ni
-Dialogue: 0,0:01:36.74,0:01:42.70,ButterflyCore,,0000,0000,0000,,{\blur4\c&H770000}dareka o mamore'ru to motto ima shinjitai
-Dialogue: 0,0:01:42.70,0:01:47.87,ButterflyCore,,0000,0000,0000,,{\blur4\c&HAA0000}kage o mau chō no kodō ga seijaku no umi o saita
-Dialogue: 0,0:01:47.87,0:01:53.38,ButterflyCore,,0000,0000,0000,,{\blur4\c&H000077}kimi ni miseru itsuwari no subete ga uso ja nai daro
-Dialogue: 0,0:01:53.38,0:01:59.01,ButterflyCore,,0000,0000,0000,,{\blur4\c&HAA0000}mayo'u tabi suteta kotae mo kitto erabu hi wa mata kuru kara
-Dialogue: 0,0:01:59.01,0:02:07.94,ButterflyCore,,0000,0000,0000,,{\blur4\c&H006600}kono kokoro wa dare yori mo atsuku moyashi tsuzukeyō kienai yō ni
-Dialogue: 0,0:02:17.86,0:02:23.45,ButterflyCore,,0000,0000,0000,,{\fad(0,1000)\blur4\c&H006600}kienai yō ni
-Dialogue: 0,0:01:09.25,0:01:15.01,ButterflyCore2,,0000,0000,0000,,haritsuita ase o nugutte nigemawaru light o ketta
-Dialogue: 0,0:01:15.01,0:01:20.47,ButterflyCore2,,0000,0000,0000,,kanashimi ni utareta kyō no kizuato kabau yō ni
-Dialogue: 0,0:01:20.47,0:01:25.93,ButterflyCore2,,0000,0000,0000,,aseru hodo ni tōku natte wake mo naku imi o sagashite
-Dialogue: 0,0:01:25.93,0:01:31.86,ButterflyCore2,,0000,0000,0000,,osanasa no ura ni kakushita yuzuritakunai omoi ni
-Dialogue: 0,0:01:31.86,0:01:36.74,ButterflyCore2,,0000,0000,0000,,kizuita nara miushinawanai yō ni
-Dialogue: 0,0:01:36.74,0:01:42.70,ButterflyCore2,,0000,0000,0000,,dareka o mamore'ru to motto ima shinjitai
-Dialogue: 0,0:01:42.70,0:01:47.87,ButterflyCore2,,0000,0000,0000,,kage o mau chō no kodō ga seijaku no umi o saita
-Dialogue: 0,0:01:47.87,0:01:53.38,ButterflyCore2,,0000,0000,0000,,kimi ni miseru itsuwari no subete ga uso ja nai daro
-Dialogue: 0,0:01:53.38,0:01:59.01,ButterflyCore2,,0000,0000,0000,,mayo'u tabi suteta kotae mo kitto erabu hi wa mata kuru kara
-Dialogue: 0,0:01:59.01,0:02:07.94,ButterflyCore2,,0000,0000,0000,,{\3c&H006600}kono kokoro wa dare yori mo atsuku moyashi tsuzukeyō kienai yō ni
-Dialogue: 0,0:02:17.86,0:02:23.45,ButterflyCore2,,0000,0000,0000,,{\fad(0,1000)\3c&H006600}kienai yō ni
+Dialogue: 0,0:00:55.24,0:00:59.03,Narration Off,,0000,0000,0000,,{\be10}Only the light of deductions can tear apart\Nthe pitch-black shadows and bottomless darkness!
+Dialogue: 0,0:00:59.03,0:01:02.87,Narration Off,,0000,0000,0000,,{\be10}An impassioned shot by the mischievous Sanada unfolds into an unforeseen case!
+Dialogue: 0,0:01:02.87,0:01:04.46,Narration Off,,0000,0000,0000,,{\be10}He sees the single truth for what it is,
+Dialogue: 0,0:01:04.46,0:01:06.42,Narration Off,,0000,0000,0000,,{\be10}and looks like a kid but has the mind of an adult!
+Dialogue: 0,0:01:06.42,0:01:09.25,Narration Off,,0000,0000,0000,,{\be10}His name? Detective Conan!
 Dialogue: 0,0:02:35.80,0:02:38.59,Dialogue,,0000,0000,0000,,So Big Ōsaka didn't score...
 Dialogue: 0,0:02:39.42,0:02:43.10,Dialogue,,0000,0000,0000,,Huh? I thought you weren't Big supporters?
 Dialogue: 0,0:02:43.10,0:02:47.64,Dialogue,,0000,0000,0000,,Well, you know... We {\i1}are{\i0} Spirits fans,

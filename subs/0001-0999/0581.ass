@@ -33,7 +33,6 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: title01,Arial,40,&H0016FFFB,&H000000FF,&H0016FFFB,&H00000000,0,0,0,0,100,100,0,0,1,6,0,2,10,10,10,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -46,13 +45,13 @@ Dialogue: 0,0:00:43.55,0:00:46.22,Dialogue,,0,0,0,,I hardly feel like drinking a
 Dialogue: 0,0:00:48.39,0:00:49.64,Dialogue,,0,0,0,,However...
 Dialogue: 0,0:00:50.14,0:00:55.52,Dialogue,,0,0,0,,For those holding their breath, waiting\Nimpatiently for their prey in this heat...
 Dialogue: 0,0:00:56.94,0:01:00.48,Dialogue,,0,0,0,,I'd like to treat them to some hot, bitter coffee.
-Dialogue: 0,0:01:02.77,0:01:04.62,Dialogue,,0,0,0,,{\fad(100,100)\1c&HFFFFFF&\3c&HA22628&\}Flowers dance to the piano's rhythm.
-Dialogue: 0,0:01:04.74,0:01:06.45,Dialogue,,0,0,0,,{\fad(100,0)\1c&HFFFFFF&\3c&HA22628&\}Two people face-to-face is a mystery!
-Dialogue: 0,0:01:06.74,0:01:07.70,Dialogue,,0,0,0,,{\fad(100,0)\1c&HFFFFFF&\3c&HA22628&\}It's revealed!
-Dialogue: 0,0:01:07.70,0:01:10.92,Dialogue,,0,0,0,,{\fad(0,100)\1c&HFFFFFF&\3c&HA22628&\}The truth of the bombing case and the fate of Akai's ghost!
-Dialogue: 0,0:01:11.50,0:01:13.00,Dialogue,,0,0,0,,{\fad(100,0)\xshad1.3\1c&H6AE8FA&\4c&H294A50&\}Perceiving the one and only truth...
-Dialogue: 0,0:01:13.00,0:01:14.96,Dialogue,,0,0,0,,{\fad(0,0)\xshad1.3\1c&H6AE8FA&\4c&H294A50&\}The appearance of a child and the intellect of an adult...
-Dialogue: 0,0:01:14.96,0:01:16.83,Dialogue,,0,0,0,,{\fad(0,50)\xshad1.3\1c&H6AE8FA&\4c&H294A50&\}His name is: Detective {\t(1400,1401,\1c&H4331B1&)}Conan{\1c&H6AE8FA&}!
+Dialogue: 0,0:01:02.77,0:01:04.62,Dialogue,,0,0,0,,Flowers dance to the piano's rhythm.
+Dialogue: 0,0:01:04.74,0:01:06.45,Dialogue,,0,0,0,,Two people face-to-face is a mystery!
+Dialogue: 0,0:01:06.74,0:01:07.70,Dialogue,,0,0,0,,It's revealed!
+Dialogue: 0,0:01:07.70,0:01:10.92,Dialogue,,0,0,0,,The truth of the bombing case and the fate of Akai's ghost!
+Dialogue: 0,0:01:11.50,0:01:13.00,Dialogue,,0,0,0,,Perceiving the one and only truth...
+Dialogue: 0,0:01:13.00,0:01:14.96,Dialogue,,0,0,0,,The appearance of a child and the intellect of an adult...
+Dialogue: 0,0:01:14.96,0:01:16.83,Dialogue,,0,0,0,,His name is: Detective Conan!
 Dialogue: 0,0:02:57.89,0:03:01.81,Dialogue,,0,0,0,,In order to solve the mystery\Nof the weekly red T-shirts...
 Dialogue: 0,0:03:01.82,0:03:05.11,Dialogue,,0,0,0,,We went to Beika Department Store,\Nonly to end up encountering a man...
 Dialogue: 0,0:03:05.11,0:03:07.49,Dialogue,,0,0,0,,Whose body was strapped with bombs.
@@ -159,19 +158,19 @@ Dialogue: 0,0:09:07.39,0:09:09.14,Dialogue,,0,0,0,,Flag signals...
 Dialogue: 0,0:09:09.14,0:09:13.31,Dialogue,,0,0,0,,You mean the method of waving red and white\Nflags with both hands to communicate?
 Dialogue: 0,0:09:13.77,0:09:17.52,Dialogue,,0,0,0,,Yes, and by reading them in the order they were sent you get...
 Dialogue: 0,0:09:19.45,0:09:19.70,Signs,,0,0,0,,U
-Dialogue: 0,0:09:19.62,0:09:19.95,Signs,,0,0,0,,U
+Dialogue: 0,0:09:19.62,0:09:19.95,Character Card,,0,0,0,,U
 Dialogue: 0,0:09:21.33,0:09:21.58,Signs,,0,0,0,,ME
-Dialogue: 0,0:09:21.49,0:09:21.83,Signs,,0,0,0,,ME
+Dialogue: 0,0:09:21.49,0:09:21.83,Character Card,,0,0,0,,ME
 Dialogue: 0,0:09:23.96,0:09:24.21,Signs,,0,0,0,,TA
-Dialogue: 0,0:09:24.12,0:09:24.46,Signs,,0,0,0,,TA
+Dialogue: 0,0:09:24.12,0:09:24.46,Character Card,,0,0,0,,TA
 Dialogue: 0,0:09:25.37,0:09:25.67,Signs,,0,0,0,,NO
-Dialogue: 0,0:09:25.54,0:09:25.83,Signs,,0,0,0,,NO
+Dialogue: 0,0:09:25.54,0:09:25.83,Character Card,,0,0,0,,NO
 Dialogue: 0,0:09:27.63,0:09:27.88,Signs,,0,0,0,,MI
-Dialogue: 0,0:09:27.75,0:09:28.08,Signs,,0,0,0,,MI
+Dialogue: 0,0:09:27.75,0:09:28.08,Character Card,,0,0,0,,MI
 Dialogue: 0,0:09:30.09,0:09:30.34,Signs,,0,0,0,,TA
-Dialogue: 0,0:09:30.25,0:09:30.59,Signs,,0,0,0,,TA
+Dialogue: 0,0:09:30.25,0:09:30.59,Character Card,,0,0,0,,TA
 Dialogue: 0,0:09:31.88,0:09:32.13,Signs,,0,0,0,,YO
-Dialogue: 0,0:09:32.00,0:09:32.42,Signs,,0,0,0,,YO
+Dialogue: 0,0:09:32.00,0:09:32.42,Character Card,,0,0,0,,YO
 Dialogue: 0,0:09:32.50,0:09:34.00,Dialogue,,0,0,0,,"I saw you burying it..."
 Dialogue: 0,0:09:34.00,0:09:37.42,Dialogue,,0,0,0,,Is it about the dead body's burial place?
 Dialogue: 0,0:09:39.75,0:09:41.71,Dialogue,,0,0,0,,So it was a bluff!

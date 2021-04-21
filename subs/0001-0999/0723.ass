@@ -33,9 +33,6 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: ButterflyCore2,Love Is Complicated Again,45,&HFF5E0036,&H000000FF,&H80000000,&H80000000,-1,0,0,0,100,100,1,0,1,0.75,0,8,10,10,30,1
-Style: BCPrologue,Cocon-Regular,45,&H805E0036,&H000000FF,&H00FFFFFF,&H80000000,-1,0,0,0,100,100,1,0,1,5,2,2,10,10,30,1
-Style: AitakuteRomaji,AlaskanNightsM,52,&H60DB9572,&H000000FF,&H00FFFFFF,&HC02F2F2F,-1,0,0,0,108,100,0,0,1,4,0,8,8,8,30,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -46,34 +43,34 @@ Dialogue: 0,0:00:22.04,0:00:26.83,Narration Off,,0,0,0,,{\be10}and with her in n
 Dialogue: 0,0:00:28.43,0:00:32.88,Narration Off,,0,0,0,,{\be10}Then, we found a man's corpse among the items in the van.
 Dialogue: 0,0:00:33.38,0:00:38.64,Narration Off,,0,0,0,,{\be10}We attempted to tell the police using Mitsuhiko's phone, but the battery ran out.
 Dialogue: 0,0:00:39.32,0:00:44.81,Narration Off,,0,0,0,,{\be10}We then decided to think of some way to get a message outside using what we had at hand.
-Dialogue: 0,0:00:45.70,0:00:50.82,Dialogue,,0,0,0,,{（歩美）歩美が持ってたのは→\N\Nハンカチとポケットティッシュと\Nキャンディーと綿棒。\N}I've got a handkerchief, pocket tissues, a piece of candy, and a cotton bud.
-Dialogue: 0,0:00:52.60,0:00:53.34,Dialogue,,0,0,0,,{フム...元太は？\N}And you, Genta?
-Dialogue: 0,0:00:53.34,0:01:00.03,Dialogue,,0,0,0,,{（元太）\Nえ～っと　俺は}Let's see. {バンソウコウと→\N\Nチョコバーと\Nしもやけのかゆみ止め。\N}I've got a plaster, a chocolate bar, and an anti-itch cream for frostnips!
+Dialogue: 0,0:00:45.70,0:00:50.82,Dialogue,,0,0,0,,{（歩美）歩美が持ってたのは→\N\Nハンカチとポケットティッシュと\Nキャンディーと綿棒。}I've got a handkerchief, pocket tissues, a piece of candy, and a cotton bud.
+Dialogue: 0,0:00:52.60,0:00:53.34,Dialogue,,0,0,0,,{フム...元太は？}And you, Genta?
+Dialogue: 0,0:00:53.34,0:01:00.03,Dialogue,,0,0,0,,{（元太）\Nえ～っと　俺は}Let's see. {バンソウコウと→\N\Nチョコバーと\Nしもやけのかゆみ止め。}I've got a plaster, a chocolate bar, and an anti-itch cream for frostnips!
 Dialogue: 0,0:01:00.38,0:01:02.17,Dialogue,,0,0,0,,{で　光彦は？}And you, Mitsuhiko?
-Dialogue: 0,0:01:02.17,0:01:10.67,Dialogue,,0,0,0,,{（光彦）僕はですね→\N手帳と　それに付けてる\Nボールペンと→\N}I have a notebook with a ball point pen, {ハンカチと　お財布と\Nタクシーのレシートです。\N}a handkerchief, a wallet, and a taxi receipt.
-Dialogue: 0,0:01:13.98,0:01:15.68,Thoughts,,0,0,0,,{\be10《ん？確かこの猫...》\N}Come to think of it, this cat...
-Dialogue: 0,0:01:17.59,0:01:19.18,Thoughts,,0,0,0,,{\be10《あっ　そうか！その手が！！》\N}Aha! I know what to do!
-Dialogue: 0,0:01:19.89,0:01:23.10,Dialogue,,0,0,0,,{（灰原）何？何か思いついたんなら\N言いなさいよ！\N}What? If you thought of something, spit it out!
+Dialogue: 0,0:01:02.17,0:01:10.67,Dialogue,,0,0,0,,{（光彦）僕はですね→\N手帳と　それに付けてる\Nボールペンと→}I have a notebook with a ball point pen, {ハンカチと　お財布と\Nタクシーのレシートです。}a handkerchief, a wallet, and a taxi receipt.
+Dialogue: 0,0:01:13.98,0:01:15.68,Thoughts,,0,0,0,,{\be10《ん？確かこの猫...》}Come to think of it, this cat...
+Dialogue: 0,0:01:17.59,0:01:19.18,Thoughts,,0,0,0,,{\be10《あっ　そうか！その手が！！》}Aha! I know what to do!
+Dialogue: 0,0:01:19.89,0:01:23.10,Dialogue,,0,0,0,,{（灰原）何？何か思いついたんなら\N言いなさいよ！}What? If you thought of something, spit it out!
 Dialogue: 0,0:01:23.73,0:01:25.28,Dialogue,,0,0,0,,{えっ？ああ...}Right.
-Dialogue: 0,0:01:26.35,0:01:33.61,Dialogue,,0,0,0,,{１つ前に\Nこの宅配便の車が止まったのは→\N}The last stops made by this delivery van {３丁目の米花マンションでさっきは４丁目の家２軒。\N}were to Beika House{condominium is a form of parliament in British English} in the third district, then to two houses in the fourth district.
-Dialogue: 0,0:01:34.63,0:01:35.61,Dialogue,,0,0,0,,{んじゃ　次は？\N}So what's next?
-Dialogue: 0,0:01:36.08,0:01:38.97,Dialogue,,0,0,0,,{ご　５丁目じゃないでしょうか？\N}W-Wouldn't it be the fifth district, I guess?
+Dialogue: 0,0:01:26.35,0:01:33.61,Dialogue,,0,0,0,,{１つ前に\Nこの宅配便の車が止まったのは→}The last stops made by this delivery van {３丁目の米花マンションでさっきは４丁目の家２軒。}were to Beika House{condominium is a form of parliament in British English} in the third district, then to two houses in the fourth district.
+Dialogue: 0,0:01:34.63,0:01:35.61,Dialogue,,0,0,0,,{んじゃ　次は？}So what's next?
+Dialogue: 0,0:01:36.08,0:01:38.97,Dialogue,,0,0,0,,{ご　５丁目じゃないでしょうか？}W-Wouldn't it be the fifth district, I guess?
 Dialogue: 0,0:01:38.97,0:01:40.59,Dialogue,,0,0,0,,{そう！}Yeah!
-Dialogue: 0,0:01:40.59,0:01:42.24,Dialogue,,0,0,0,,{この猫の大尉の根城。\N}The home of this cat, Taii.
-Dialogue: 0,0:01:43.58,0:01:48.29,Dialogue,,0,0,0,,{夕方になると　餌をねだりに行く喫茶ポアロがある５丁目だ！\N}The fifth district, home to Café Poirot, where it goes to beg for food in the evenings!
-Dialogue: 0,0:01:48.62,0:01:53.33,Dialogue,,0,0,0,,{そっか！大ちゃんに助けてって\N手紙を届けてもらうんだね！\N}I see! We'll let Tai{\rHonorifics - Dialogue}-chan{\r} deliver a piece of paper saying 'Help'!
-Dialogue: 0,0:01:53.33,0:01:57.58,Dialogue,,0,0,0,,{首輪に挟んでおけば　きっと梓さん気づいてくれますよ！！\N}If we stick it in its collar, I bet Azusa{\rHonorifics - Dialogue}-san{\r} will notice it!
+Dialogue: 0,0:01:40.59,0:01:42.24,Dialogue,,0,0,0,,{この猫の大尉の根城。}The home of this cat, Taii.
+Dialogue: 0,0:01:43.58,0:01:48.29,Dialogue,,0,0,0,,{夕方になると　餌をねだりに行く喫茶ポアロがある５丁目だ！}The fifth district, home to Café Poirot, where it goes to beg for food in the evenings!
+Dialogue: 0,0:01:48.62,0:01:53.33,Dialogue,,0,0,0,,{そっか！大ちゃんに助けてって\N手紙を届けてもらうんだね！}I see! We'll let Tai{\rHonorifics - Dialogue}-chan{\r} deliver a piece of paper saying 'Help'!
+Dialogue: 0,0:01:53.33,0:01:57.58,Dialogue,,0,0,0,,{首輪に挟んでおけば　きっと梓さん気づいてくれますよ！！}If we stick it in its collar, I bet Azusa{\rHonorifics - Dialogue}-san{\r} will notice it!
 Dialogue: 0,0:01:57.58,0:01:58.97,Dialogue,,0,0,0,,{それで行こうぜ！}Let's do it!
-Dialogue: 0,0:01:59.45,0:02:00.72,Dialogue,,0,0,0,,{ああ！\N}Yeah!
-Dialogue: 0,0:02:00.72,0:02:01.48,Dialogue,,0,0,0,,{（灰原）でも...。\Nあ！？\N}But...
-Dialogue: 0,0:02:02.52,0:02:08.43,Dialogue,,0,0,0,,{もしも　このコが\Nここから出る時に→\N}If those two catch this kitty sneaking out {あの２人に捕まって\N紙に気づかれたら...。\N}and notice the piece of paper...
-Dialogue: 0,0:02:08.43,0:02:10.52,Dialogue,,0,0,0,,{そこんとこは　抜かりね～よ。えっ？\N}We won't have to worry about that.
-Dialogue: 0,0:02:12.55,0:02:16.96,Dialogue,,0,0,0,,{あいつらに見られても\N気づかれねぇ→\N\N暗号を作ってやっから。\N}I'll make a code that they won't figure out, even if they {\i1}do{\i0} see it.
-Dialogue: 0,0:02:30.22,0:02:34.13,BCPrologue,,0,0,0,,{\blur3＜影の黒さと闇の濃さ\N切り裂いてくのが推理の光＞\N}Only the light of deductions can tear apart black shadows and deep darkness!
-Dialogue: 0,0:02:34.13,0:02:38.00,BCPrologue,,0,0,0,,{\blur3}Where will the code deciding the fate of the Detective Boys end up?!
-Dialogue: 0,0:02:38.00,0:02:39.47,BCPrologue,,0,0,0,,{\blur3＜たった１つの真実　見抜く\N}He sees the single truth for what it is,
-Dialogue: 0,0:02:39.47,0:02:41.44,BCPrologue,,0,0,0,,{\blur3見た目は子供　頭脳は大人＞\N}and looks like a kid but has the mind of an adult!
-Dialogue: 0,0:02:41.44,0:02:43.36,BCPrologue,,0,0,0,,{\blur3\fad(0,250)＜その名は　名探偵コナン！＞\N}His name? Detective Conan!
+Dialogue: 0,0:01:59.45,0:02:00.72,Dialogue,,0,0,0,,{ああ！}Yeah!
+Dialogue: 0,0:02:00.72,0:02:01.48,Dialogue,,0,0,0,,{（灰原）でも...。\Nあ！？}But...
+Dialogue: 0,0:02:02.52,0:02:08.43,Dialogue,,0,0,0,,{もしも　このコが\Nここから出る時に→}If those two catch this kitty sneaking out {あの２人に捕まって\N紙に気づかれたら...。}and notice the piece of paper...
+Dialogue: 0,0:02:08.43,0:02:10.52,Dialogue,,0,0,0,,{そこんとこは　抜かりね～よ。えっ？}We won't have to worry about that.
+Dialogue: 0,0:02:12.55,0:02:16.96,Dialogue,,0,0,0,,{あいつらに見られても\N気づかれねぇ→\N\N暗号を作ってやっから。}I'll make a code that they won't figure out, even if they {\i1}do{\i0} see it.
+Dialogue: 0,0:02:30.22,0:02:34.13,Narration Off,,0,0,0,,{\be10＜影の黒さと闇の濃さ\N切り裂いてくのが推理の光＞}Only the light of deductions can tear apart black shadows and deep darkness!
+Dialogue: 0,0:02:34.13,0:02:38.00,Narration Off,,0,0,0,,{\be10}Where will the code deciding the fate of the Detective Boys end up?!
+Dialogue: 0,0:02:38.00,0:02:39.47,Narration Off,,0,0,0,,{\be10＜たった１つの真実　見抜く}He sees the single truth for what it is,
+Dialogue: 0,0:02:39.47,0:02:41.44,Narration Off,,0,0,0,,{\be10見た目は子供　頭脳は大人＞}and looks like a kid but has the mind of an adult!
+Dialogue: 0,0:02:41.44,0:02:43.36,Narration Off,,0,0,0,,{\be10＜その名は　名探偵コナン！＞}His name? Detective Conan!
 Dialogue: 0,0:04:11.75,0:04:13.43,Dialogue,,0,0,0,,A code?
 Dialogue: 0,0:04:13.73,0:04:18.90,Dialogue,,0,0,0,,The taxi receipt Mitsuhiko had was printed on thermal paper.
 Dialogue: 0,0:04:18.90,0:04:23.64,Dialogue,,0,0,0,,Rather than using ink, it turns black when heated to form words.
@@ -365,37 +362,3 @@ Dialogue: 0,0:24:04.96,0:24:09.96,Dialogue,,0,0,0,,Next Conan's Hint: The huge w
 Dialogue: 0,0:24:09.96,0:24:12.22,Dialogue Top,,0,0,0,,Amuro{\rHonorifics - Dialogue}-san{\r}'s a really nice person!
 Dialogue: 0,0:24:12.22,0:24:13.24,Dialogue Top,,0,0,0,,Edogawa{\rHonorifics - Dialogue}-kun{\r}...
 Dialogue: 0,0:24:13.24,0:24:15.24,Dialogue Top,,0,0,0,,Don't ask me.
-Dialogue: 0,0:02:17.23,0:02:22.27,ButterflyCore,,0,0,0,,{\blur4\fad(200,0)}kage o mau chō no kodō ga seijaku no umi o saite
-Dialogue: 0,0:02:22.44,0:02:29.57,ButterflyCore,,0,0,0,,{\blur4}kasanariau koe ga ima yami o furiharatta
-Dialogue: 0,0:02:44.16,0:02:49.55,ButterflyCore,,0,0,0,,{\blur4\c&H005500}haritsuita ase o nugutte nigemawaru light o ketta
-Dialogue: 0,0:02:49.89,0:02:55.22,ButterflyCore,,0,0,0,,{\blur4\c&H005500}kanashimi ni utareta kyō no kizuato kabau yō ni
-Dialogue: 0,0:02:55.39,0:03:00.69,ButterflyCore,,0,0,0,,{\blur4\c&H005500}aseru hodo ni tōku natte wake mo naku imi o sagashite
-Dialogue: 0,0:03:00.85,0:03:06.61,ButterflyCore,,0,0,0,,{\blur4\c&H005500\t(2500,3024,\c&H000055)}osanasa no ura ni kakushita yuzuritakunai omoi ni
-Dialogue: 0,0:03:06.74,0:03:11.45,ButterflyCore,,0,0,0,,{\blur4\c&H000077}kizuita nara miushinawanai yō ni
-Dialogue: 0,0:03:11.57,0:03:17.37,ButterflyCore,,0,0,0,,{\blur4\c&H770000}dareka o mamore'ru to motto ima shinjitai
-Dialogue: 0,0:03:17.58,0:03:22.63,ButterflyCore,,0,0,0,,{\blur4\c&HAA0000}kage o mau chō no kodō ga seijaku no umi o saita
-Dialogue: 0,0:03:22.79,0:03:28.13,ButterflyCore,,0,0,0,,{\blur4\c&H000077}kimi ni miseru itsuwari no subete ga uso ja nai daro
-Dialogue: 0,0:03:28.30,0:03:33.76,ButterflyCore,,0,0,0,,{\blur4\c&HAA0000}mayo'u tabi suteta kotae mo kitto erabu hi wa mata kuru kara
-Dialogue: 0,0:03:33.93,0:03:42.86,ButterflyCore,,0,0,0,,{\blur4\c&H006600}kono kokoro wa dare yori mo atsuku moyashi tsuzukeyō kienai yō ni
-Dialogue: 0,0:03:52.78,0:03:58.37,ButterflyCore,,0,0,0,,{\blur4\c&H006600\fad(0,1000)}kienai yō ni
-Dialogue: 0,0:02:17.23,0:02:22.27,ButterflyCore2,,0,0,0,,{\fad(200,0)}kage o mau chō no kodō ga seijaku no umi o saite
-Dialogue: 0,0:02:22.44,0:02:29.57,ButterflyCore2,,0,0,0,,kasanariau koe ga ima yami o furiharatta
-Dialogue: 0,0:02:44.16,0:02:49.55,ButterflyCore2,,0,0,0,,haritsuita ase o nugutte nigemawaru light o ketta
-Dialogue: 0,0:02:49.89,0:02:55.22,ButterflyCore2,,0,0,0,,kanashimi ni utareta kyō no kizuato kabau yō ni
-Dialogue: 0,0:02:55.39,0:03:00.69,ButterflyCore2,,0,0,0,,aseru hodo ni tōku natte wake mo naku imi o sagashite
-Dialogue: 0,0:03:00.85,0:03:06.61,ButterflyCore2,,0,0,0,,osanasa no ura ni kakushita yuzuritakunai omoi ni
-Dialogue: 0,0:03:06.74,0:03:11.45,ButterflyCore2,,0,0,0,,kizuita nara miushinawanai yō ni
-Dialogue: 0,0:03:11.57,0:03:17.37,ButterflyCore2,,0,0,0,,dareka o mamore'ru to motto ima shinjitai
-Dialogue: 0,0:03:17.58,0:03:22.63,ButterflyCore2,,0,0,0,,kage o mau chō no kodō ga seijaku no umi o saita
-Dialogue: 0,0:03:22.79,0:03:28.13,ButterflyCore2,,0,0,0,,kimi ni miseru itsuwari no subete ga uso ja nai daro
-Dialogue: 0,0:03:28.30,0:03:33.76,ButterflyCore2,,0,0,0,,mayo'u tabi suteta kotae mo kitto erabu hi wa mata kuru kara
-Dialogue: 0,0:03:33.93,0:03:42.86,ButterflyCore2,,0,0,0,,{\3c&H006600}kono kokoro wa dare yori mo atsuku moyashi tsuzukeyō kienai yō ni
-Dialogue: 0,0:03:52.78,0:03:58.37,ButterflyCore2,,0,0,0,,{\fad(0,1000)\3c&H006600}kienai yō ni
-Dialogue: 0,0:20:59.11,0:21:06.46,AitakuteRomaji,,0,0,0,,{\blur3}denwa ga naru tabi kono mune ga zawameku
-Dialogue: 0,0:21:06.79,0:21:13.80,AitakuteRomaji,,0,0,0,,{\blur3}demo kikoetekuru no wa kimi no koe ja nai
-Dialogue: 0,0:21:16.01,0:21:22.81,AitakuteRomaji,,0,0,0,,{\blur3}ima kimi wa doko ni iru no nani shite'ru no
-Dialogue: 0,0:21:23.51,0:21:33.02,AitakuteRomaji,,0,0,0,,{\blur3}kami{\fsp-2\fs40}- {\fsp\fs}sama ni negai todoku nara mō ichido dake
-Dialogue: 0,0:21:33.02,0:21:39.86,AitakuteRomaji,,0,0,0,,{\blur3}aitakute kimi ni aitakute
-Dialogue: 0,0:21:40.36,0:21:48.83,AitakuteRomaji,,0,0,0,,{\blur3}ima mo kono mune wa kimi{\fsp-2\fs40}- {\fsp\fs}iro ni somaru (dakishimetakute)
-Dialogue: 0,0:21:49.00,0:21:56.01,AitakuteRomaji,,0,0,0,,{\blur3}setsunakute nido to aenai nara
-Dialogue: 0,0:21:56.34,0:22:04.31,AitakuteRomaji,,0,0,0,,{\fad(0,1000)\blur3}maichiru yuki shiroku kono kokoro somete

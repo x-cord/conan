@@ -33,7 +33,7 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: FlashbackThoughts,Calibri Nonligature,50,&H4B370001,&H000000FF,&H00CCFFFF,&HC0000000,-1,0,0,0,100,100,0,0,1,2.6,2,2,100,100,30,1Style: ConanEdogawaKun,Segoe Print,45,&H00B78800,&H000000FF,&H00B78800,&HC0000000,0,0,0,0,100,100,0,20,1,0,0,2,10,10,25,1Style: KudoSempai,Segoe Print,45,&H009796B7,&H000000FF,&H484B4B4B,&HC0000000,0,0,0,0,100,100,0,0,1,0,0,7,10,10,25,1Style: Blanka30,Arial,20,&HFFFFFFFF,&H000000FF,&H1E000000,&H00000000,0,0,0,0,100,100,0,0,3,1,0,7,10,10,10,1Style: topbox,Arial,20,&HFFFFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,3,1,0,8,10,10,10,1Style: OPTLTextless,FuntypeFattened,50,&H00FFFFFF,&H000000FF,&H80AF0068,&H80000000,-1,0,0,0,90,100,0,0,1,3,1,2,10,10,40,1Style: SemiTransBox,Arial,20,&HFFFFFFFF,&H000000FF,&H64000000,&H00000000,0,0,0,0,100,100,0,0,3,1,0,8,10,10,10,1Style: Massugu Yuku TL,Hey Gorgeous M,40,&H00FFFFFF,&H000000FF,&H404A4200,&HC0000000,0,0,0,0,85,100,2,0,1,3,1.5,2,100,100,30,1Style: TV,Segoe,70,&H00E0D4CB,&HFF0000FF,&H00370001,&HC0000000,-1,0,0,0,100,100,0,0,1,0,0,2,100,100,30,1Style: Phoneradio,Calibri,50,&H0FFDFFC6,&H000000FF,&H00370001,&HC0000000,-1,0,0,0,100,100,0,0,1,2.5,1.5,2,100,100,30,1Style: Poodles,MV Boli M,70,&H400102B5,&H000809FC,&H00CFF2F3,&H80000000,0,0,0,0,100,100,0,0,1,4,2,8,10,10,25,1
+Style: Poodles,MV Boli M,70,&H400102B5,&H000809FC,&H00CFF2F3,&H80000000,0,0,0,0,100,100,0,0,1,4,2,8,10,10,25,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -48,11 +48,11 @@ Dialogue: 0,0:00:30.71,0:00:32.72,Dialogue,,0,0,0,,What is it now?
 Dialogue: 0,0:00:34.76,0:00:36.09,Dialogue,,0,0,0,,A fight?
 Dialogue: 0,0:00:37.26,0:00:39.51,Dialogue,,0,0,0,,Fighting up there's dangerous!
 Dialogue: 0,0:00:42.02,0:00:43.06,Dialogue,,0,0,0,,He was pushed off!
-Dialogue: 0,0:01:04.12,0:01:08.92,Narration Off,,0,0,0,,{\be10\c&HAAAA00\t(0,4030,\c)}Seeking comprehensive answers,\Nhe solves every mystery and code!
-Dialogue: 0,0:01:08.92,0:01:13.05,Narration Off,,0,0,0,,{\be10\t(0,1510,\c&H88AA00)}A mysterious slow-motion descent, and the surprising mystery of the time lag!
-Dialogue: 0,0:01:13.05,0:01:14.63,Narration Off,,0,0,0,,{\be10\c&H88AA00)\t(0,1600,\c)}He sees the single truth for what it is,
-Dialogue: 0,0:01:14.63,0:01:16.59,Narration Off,,0,0,0,,{\be10\t(0,1960,\c&HAA00AA)}and looks like a kid but has the mind of an adult!
-Dialogue: 0,0:01:16.59,0:01:18.97,Narration Off,,0,0,0,,{\be10\c&HAA00AA\t(0,1600,\c&H0000FF)}His name? Detective Conan!
+Dialogue: 0,0:01:04.12,0:01:08.92,Narration Off,,0,0,0,,{\be10}Seeking comprehensive answers,\Nhe solves every mystery and code!
+Dialogue: 0,0:01:08.92,0:01:13.05,Narration Off,,0,0,0,,{\be10}A mysterious slow-motion descent, and the surprising mystery of the time lag!
+Dialogue: 0,0:01:13.05,0:01:14.63,Narration Off,,0,0,0,,{\be10}He sees the single truth for what it is,
+Dialogue: 0,0:01:14.63,0:01:16.59,Narration Off,,0,0,0,,{\be10}and looks like a kid but has the mind of an adult!
+Dialogue: 0,0:01:16.59,0:01:18.97,Narration Off,,0,0,0,,{\be10}His name? Detective Conan!
 Dialogue: 0,0:03:14.08,0:03:18.59,Dialogue,,0,0,0,,Excuse me, is the person who made the report here?
 Dialogue: 0,0:03:18.59,0:03:20.22,Dialogue,,0,0,0,,Yes, it was me.
 Dialogue: 0,0:03:20.76,0:03:24.01,Dialogue,,0,0,0,,I was shopping, and I passed by here when...{lightning flashed and he fell.}
@@ -230,8 +230,8 @@ Dialogue: 0,0:13:00.50,0:13:02.92,Dialogue,,0,0,0,,It's too early to say for sur
 Dialogue: 0,0:13:05.68,0:13:06.76,Dialogue,,0,0,0,,Takagi speaking.
 Dialogue: 0,0:13:07.30,0:13:08.93,Dialogue,,0,0,0,,Oh, it's you, Chiba.
 Dialogue: 0,0:13:08.93,0:13:12.10,Dialogue,,0,0,0,,Huh? Caught? Who was caught?
-Dialogue: 0,0:13:12.64,0:13:14.48,Dialogue,,0,0,0,,I got caught... by the culprit...{（千葉）俺がです　犯人に。\N}
-Dialogue: 0,0:13:14.48,0:13:16.06,Dialogue,,0,0,0,,What?! By the culprit?!{何！　犯人！？\N}
+Dialogue: 0,0:13:12.64,0:13:14.48,Dialogue,,0,0,0,,I got caught... by the culprit...{（千葉）俺がです　犯人に。}
+Dialogue: 0,0:13:14.48,0:13:16.06,Dialogue,,0,0,0,,What?! By the culprit?!{何！　犯人！？}
 Dialogue: 0,0:13:24.53,0:13:26.28,Dialogue,,0,0,0,,I told you, don't come any closer!
 Dialogue: 0,0:13:26.28,0:13:28.83,Dialogue,,0,0,0,,I said I wanted a getaway car!
 Dialogue: 0,0:13:28.83,0:13:32.33,Dialogue,,0,0,0,,So it really was you, Honda.
@@ -297,7 +297,7 @@ Dialogue: 0,0:17:15.47,0:17:18.56,Dialogue,,0,0,0,,The man with the hoarse voice
 Dialogue: 0,0:17:19.06,0:17:24.19,Dialogue,,0,0,0,,The man with the hoarse voice I met at a bar...
 Dialogue: 0,0:17:25.35,0:17:26.19,Dialogue,,0,0,0,,It was him!
 Dialogue: 0,0:17:26.81,0:17:29.15,Dialogue,,0,0,0,,He'd completely changed his appearance.
-Dialogue: 0,0:17:29.15,0:17:31.44,Dialogue,,0,0,0,,{\t(2060,2273,\3c&HFFFFFF\4c&HFFFFFF)}But... that voice...
+Dialogue: 0,0:17:29.15,0:17:31.44,Dialogue,,0,0,0,,But... that voice...
 Dialogue: 0,0:17:32.53,0:17:35.41,Flashback,,0,0,0,,{\be10}I'll follow you to hell to make you pay if I have to!
 Dialogue: 0,0:17:36.91,0:17:38.45,Flashback,,0,0,0,,{\be10}Do you get it?!
 Dialogue: 0,0:17:39.95,0:17:40.87,Flashback,,0,0,0,,{\be10}What's with you?

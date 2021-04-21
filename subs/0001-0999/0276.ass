@@ -34,8 +34,6 @@ Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
 
-Style: romaji red version,Aldine721 BT,29,&H0068B8DF,&H01FFFFFF,&H0026439C,&H005BB9FF,-1,-1,0,0,100,100,1,0,1,1.5,0,8,10,10,5,0
-Style: romaji pink version,Aldine721 BT,26,&H00E0D6F3,&H00FFFFFF,&H008C6F9F,&H00DBE1FE,-1,-1,0,0,100,100,1,0,1,1.5,0,8,10,10,5,0
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -143,7 +141,7 @@ Dialogue: 0,0:07:15.64,0:07:18.88,Dialogue,,0000,0000,0000,,We couldn't find him
 Dialogue: 0,0:07:18.88,0:07:20.98,Dialogue,,0000,0000,0000,,We couldn't find it either.
 Dialogue: 0,0:07:20.98,0:07:22.82,Dialogue,,0000,0000,0000,,Oh? Mr. Officer!
 Dialogue: 0,0:07:23.79,0:07:26.82,Dialogue,,0000,0000,0000,,What're you doing in a place like this?
-Dialogue: 0,0:07:23.44,0:07:26.82,Signs,,0000,0000,0000,,Jiro Hanzaki (30)\NEnka Singer
+Dialogue: 0,0:07:23.44,0:07:26.82,Character Card,,0000,0000,0000,,Jiro Hanzaki (30)\NEnka Singer
 Dialogue: 0,0:07:28.25,0:07:29.72,Dialogue,,0000,0000,0000,,I-I-It's you!
 Dialogue: 0,0:07:29.72,0:07:31.52,Dialogue,,0000,0000,0000,,Y-You... Yesterday...
 Dialogue: 0,0:07:31.52,0:07:34.68,Dialogue,,0000,0000,0000,,Sorry for the trouble last night.
@@ -282,7 +280,7 @@ Dialogue: 0,0:14:23.97,0:14:25.07,Dialogue,,0000,0000,0000,,How strange...
 Dialogue: 0,0:14:25.65,0:14:27.66,Dialogue,,0000,0000,0000,,He hasn't eaten anything yet.
 Dialogue: 0,0:14:27.66,0:14:29.00,Dialogue,,0000,0000,0000,,You're right...
 Dialogue: 0,0:14:29.00,0:14:30.55,Thoughts,,0000,0000,0000,,{\be10}Why?
-Dialogue: 0,0:14:31.27,0:14:36.00,Thoughts,,0000,0000,0000,,{\be10\fad(0,250)}Is that man up to something?
+Dialogue: 0,0:14:31.27,0:14:36.00,Thoughts,,0000,0000,0000,,{\be10}Is that man up to something?
 Dialogue: 0,0:14:42.13,0:14:43.84,Dialogue,,0000,0000,0000,,He isn't eating anything, after all...
 Dialogue: 0,0:14:43.84,0:14:45.01,Dialogue,,0000,0000,0000,,What a waste.
 Dialogue: 0,0:14:45.01,0:14:47.71,Dialogue,,0000,0000,0000,,But all he cares about is the time.
@@ -380,7 +378,7 @@ Dialogue: 0,0:20:04.35,0:20:06.31,Dialogue,,0000,0000,0000,,Yay!
 Dialogue: 0,0:20:09.97,0:20:11.02,Dialogue,,0000,0000,0000,,I'll untie you right now.
 Dialogue: 0,0:20:14.07,0:20:15.31,Dialogue,,0000,0000,0000,,Thanks for saving me...
 Dialogue: 0,0:20:15.31,0:20:16.94,Dialogue,,0000,0000,0000,,You're that guy from yesterday...
-Dialogue: 0,0:20:17.00,0:20:21.22,Signs,,0000,0000,0000,,Sei'ichi Sugiyama (52)\NHanzaki's Manager
+Dialogue: 0,0:20:17.00,0:20:21.22,Character Card,,0000,0000,0000,,Sei'ichi Sugiyama (52)\NHanzaki's Manager
 Dialogue: 0,0:20:17.43,0:20:19.31,Dialogue,,0000,0000,0000,,Yes. I'm Sugiyama.
 Dialogue: 0,0:20:19.31,0:20:23.40,Dialogue,,0000,0000,0000,,You saved me both yesterday and today, Takagi{\rHonorifics - Dialogue}-san{\r}!
 Dialogue: 0,0:20:24.35,0:20:28.16,Dialogue,,0000,0000,0000,,How do you know my name?\NI don't think I told you yesterday...
@@ -431,509 +429,303 @@ Dialogue: 0,0:24:36.14,0:24:37.54,Dialogue Top,,0000,0000,0000,,Next time, it's 
 Dialogue: 0,0:24:37.54,0:24:41.14,Dialogue Top,,0000,0000,0000,,I'm Jodie, who's this "Great Detective of the West"?
 Dialogue: 0,0:21:59.54,0:22:00.08,Signs,,0000,0000,0000,fx,n
 Dialogue: 0,0:21:59.54,0:22:00.08,Signs,,0000,0000,0000,fx,o
-Dialogue: 2,0:22:00.08,0:22:00.13,romaji red version,,0000,0000,0000,fx,{\an5\be1\move(126,20,126,20)\1c&H01FFFFFF&\t(\bord2\1c&H005BB9FF&\3c&H01FFFFFF&)}no
-Dialogue: 2,0:22:00.13,0:22:00.67,romaji red version,,0000,0000,0000,fx,{\an5\be1\bord2\move(126,20,126,20)\1c&H005BB9FF&\3a&H70&\fscx140\fscy140\t(\bord1.5\1c&H0068B8DF&\fscx100\fscy100\alpha&H70&\bord8\be25\3a&HC1&)}no
 Dialogue: 0,0:22:00.67,0:22:11.10,Signs,,0000,0000,0000,fx,no
 Dialogue: 0,0:21:59.58,0:22:00.67,Signs,,0000,0000,0000,fx,z
 Dialogue: 0,0:21:59.58,0:22:00.67,Signs,,0000,0000,0000,fx,o
-Dialogue: 2,0:22:00.67,0:22:00.71,romaji red version,,0000,0000,0000,fx,{\an5\be1\move(152,20,152,20)\1c&H01FFFFFF&\t(\bord2\1c&H005BB9FF&\3c&H01FFFFFF&)}zo
-Dialogue: 2,0:22:00.71,0:22:01.21,romaji red version,,0000,0000,0000,fx,{\an5\be1\bord2\move(152,20,152,20)\1c&H005BB9FF&\3a&H70&\fscx140\fscy140\t(\bord1.5\1c&H0068B8DF&\fscx100\fscy100\alpha&H70&\bord8\be25\3a&HC1&)}zo
 Dialogue: 0,0:22:01.21,0:22:11.10,Signs,,0000,0000,0000,fx,zo
 Dialogue: 0,0:21:59.63,0:22:01.21,Signs,,0000,0000,0000,fx,m
 Dialogue: 0,0:21:59.63,0:22:01.21,Signs,,0000,0000,0000,fx,a
-Dialogue: 2,0:22:01.21,0:22:01.25,romaji red version,,0000,0000,0000,fx,{\an5\be1\move(183,20,183,20)\1c&H01FFFFFF&\t(\bord2\1c&H005BB9FF&\3c&H01FFFFFF&)}ma
-Dialogue: 2,0:22:01.25,0:22:01.71,romaji red version,,0000,0000,0000,fx,{\an5\be1\bord2\move(183,20,183,20)\1c&H005BB9FF&\3a&H70&\fscx140\fscy140\t(\bord1.5\1c&H0068B8DF&\fscx100\fscy100\alpha&H70&\bord8\be25\3a&HC1&)}ma
 Dialogue: 0,0:22:01.71,0:22:11.10,Signs,,0000,0000,0000,fx,ma
 Dialogue: 0,0:21:59.67,0:22:01.71,Signs,,0000,0000,0000,fx,n
 Dialogue: 0,0:21:59.67,0:22:01.71,Signs,,0000,0000,0000,fx,a
-Dialogue: 2,0:22:01.71,0:22:01.71,romaji red version,,0000,0000,0000,fx,{\an5\be1\move(214,20,214,20)\1c&H01FFFFFF&\t(\bord2\1c&H005BB9FF&\3c&H01FFFFFF&)}na
-Dialogue: 2,0:22:01.71,0:22:01.88,romaji red version,,0000,0000,0000,fx,{\an5\be1\bord2\move(214,20,214,20)\1c&H005BB9FF&\3a&H70&\fscx140\fscy140\t(\bord1.5\1c&H0068B8DF&\fscx100\fscy100\alpha&H70&\bord8\be25\3a&HC1&)}na
 Dialogue: 0,0:22:01.88,0:22:11.10,Signs,,0000,0000,0000,fx,na
 Dialogue: 0,0:21:59.71,0:22:01.88,Signs,,0000,0000,0000,fx,k
 Dialogue: 0,0:21:59.71,0:22:01.88,Signs,,0000,0000,0000,fx,e
-Dialogue: 2,0:22:01.88,0:22:01.92,romaji red version,,0000,0000,0000,fx,{\an5\be1\move(248,20,248,20)\1c&H01FFFFFF&\t(\bord2\1c&H005BB9FF&\3c&H01FFFFFF&)}ke
-Dialogue: 2,0:22:01.92,0:22:02.34,romaji red version,,0000,0000,0000,fx,{\an5\be1\bord2\move(248,20,248,20)\1c&H005BB9FF&\3a&H70&\fscx140\fscy140\t(\bord1.5\1c&H0068B8DF&\fscx100\fscy100\alpha&H70&\bord8\be25\3a&HC1&)}ke
 Dialogue: 0,0:22:02.34,0:22:11.10,Signs,,0000,0000,0000,fx,ke
 Dialogue: 0,0:21:59.75,0:22:02.34,Signs,,0000,0000,0000,fx,r
 Dialogue: 0,0:21:59.75,0:22:02.34,Signs,,0000,0000,0000,fx,e
-Dialogue: 2,0:22:02.34,0:22:02.34,romaji red version,,0000,0000,0000,fx,{\an5\be1\move(272,20,272,20)\1c&H01FFFFFF&\t(\bord2\1c&H005BB9FF&\3c&H01FFFFFF&)}re
-Dialogue: 2,0:22:02.34,0:22:02.67,romaji red version,,0000,0000,0000,fx,{\an5\be1\bord2\move(272,20,272,20)\1c&H005BB9FF&\3a&H70&\fscx140\fscy140\t(\bord1.5\1c&H0068B8DF&\fscx100\fscy100\alpha&H70&\bord8\be25\3a&HC1&)}re
 Dialogue: 0,0:22:02.67,0:22:11.10,Signs,,0000,0000,0000,fx,re
 Dialogue: 0,0:21:59.79,0:22:02.67,Signs,,0000,0000,0000,fx,b
 Dialogue: 0,0:21:59.79,0:22:02.67,Signs,,0000,0000,0000,fx,a
-Dialogue: 2,0:22:02.67,0:22:02.92,romaji red version,,0000,0000,0000,fx,{\an5\be1\move(296,20,296,20)\1c&H01FFFFFF&\t(\bord2\1c&H005BB9FF&\3c&H01FFFFFF&)}ba
-Dialogue: 2,0:22:02.92,0:22:04.96,romaji red version,,0000,0000,0000,fx,{\an5\be1\bord2\move(296,20,296,20)\1c&H005BB9FF&\3a&H70&\fscx140\fscy140\t(\bord1.5\1c&H0068B8DF&\fscx100\fscy100\alpha&H70&\bord8\be25\3a&HC1&)}ba
 Dialogue: 0,0:22:04.96,0:22:11.10,Signs,,0000,0000,0000,fx,ba
 Dialogue: 0,0:21:59.83,0:22:06.47,Signs,,0000,0000,0000,fx,u
-Dialogue: 2,0:22:06.47,0:22:06.51,romaji red version,,0000,0000,0000,fx,{\an5\be1\move(324,20,324,20)\1c&H01FFFFFF&\t(\bord2\1c&H005BB9FF&\3c&H01FFFFFF&)}u
-Dialogue: 2,0:22:06.51,0:22:06.97,romaji red version,,0000,0000,0000,fx,{\an5\be1\bord2\move(324,20,324,20)\1c&H005BB9FF&\3a&H70&\fscx140\fscy140\t(\bord1.5\1c&H0068B8DF&\fscx100\fscy100\alpha&H70&\bord8\be25\3a&HC1&)}u
 Dialogue: 0,0:22:06.97,0:22:11.10,Signs,,0000,0000,0000,fx,u
 Dialogue: 0,0:21:59.83,0:22:06.97,Signs,,0000,0000,0000,fx,s
 Dialogue: 0,0:21:59.88,0:22:06.97,Signs,,0000,0000,0000,fx,h
 Dialogue: 0,0:21:59.88,0:22:06.97,Signs,,0000,0000,0000,fx,i
-Dialogue: 2,0:22:06.97,0:22:07.05,romaji red version,,0000,0000,0000,fx,{\an5\be1\move(348,20,348,20)\1c&H01FFFFFF&\t(\bord2\1c&H005BB9FF&\3c&H01FFFFFF&)}shi
-Dialogue: 2,0:22:07.05,0:22:07.63,romaji red version,,0000,0000,0000,fx,{\an5\be1\bord2\move(348,20,348,20)\1c&H005BB9FF&\3a&H70&\fscx140\fscy140\t(\bord1.5\1c&H0068B8DF&\fscx100\fscy100\alpha&H70&\bord8\be25\3a&HC1&)}shi
 Dialogue: 0,0:22:07.63,0:22:11.10,Signs,,0000,0000,0000,fx,shi
 Dialogue: 0,0:21:59.88,0:22:07.63,Signs,,0000,0000,0000,fx,n
 Dialogue: 0,0:21:59.92,0:22:07.63,Signs,,0000,0000,0000,fx,a
-Dialogue: 2,0:22:07.63,0:22:07.68,romaji red version,,0000,0000,0000,fx,{\an5\be1\move(378,20,378,20)\1c&H01FFFFFF&\t(\bord2\1c&H005BB9FF&\3c&H01FFFFFF&)}na
-Dialogue: 2,0:22:07.68,0:22:07.93,romaji red version,,0000,0000,0000,fx,{\an5\be1\bord2\move(378,20,378,20)\1c&H005BB9FF&\3a&H70&\fscx140\fscy140\t(\bord1.5\1c&H0068B8DF&\fscx100\fscy100\alpha&H70&\bord8\be25\3a&HC1&)}na
 Dialogue: 0,0:22:07.93,0:22:11.10,Signs,,0000,0000,0000,fx,na
 Dialogue: 0,0:21:59.92,0:22:07.93,Signs,,0000,0000,0000,fx,w
 Dialogue: 0,0:21:59.96,0:22:07.93,Signs,,0000,0000,0000,fx,a
-Dialogue: 2,0:22:07.93,0:22:07.93,romaji red version,,0000,0000,0000,fx,{\an5\be1\move(410,20,410,20)\1c&H01FFFFFF&\t(\bord2\1c&H005BB9FF&\3c&H01FFFFFF&)}wa
-Dialogue: 2,0:22:07.93,0:22:08.05,romaji red version,,0000,0000,0000,fx,{\an5\be1\bord2\move(410,20,410,20)\1c&H005BB9FF&\3a&H70&\fscx140\fscy140\t(\bord1.5\1c&H0068B8DF&\fscx100\fscy100\alpha&H70&\bord8\be25\3a&HC1&)}wa
 Dialogue: 0,0:22:08.05,0:22:11.10,Signs,,0000,0000,0000,fx,wa
 Dialogue: 0,0:21:59.96,0:22:08.05,Signs,,0000,0000,0000,fx,n
 Dialogue: 0,0:22:00.00,0:22:08.05,Signs,,0000,0000,0000,fx,a
-Dialogue: 2,0:22:08.05,0:22:08.09,romaji red version,,0000,0000,0000,fx,{\an5\be1\move(441,20,441,20)\1c&H01FFFFFF&\t(\bord2\1c&H005BB9FF&\3c&H01FFFFFF&)}na
-Dialogue: 2,0:22:08.09,0:22:08.34,romaji red version,,0000,0000,0000,fx,{\an5\be1\bord2\move(441,20,441,20)\1c&H005BB9FF&\3a&H70&\fscx140\fscy140\t(\bord1.5\1c&H0068B8DF&\fscx100\fscy100\alpha&H70&\bord8\be25\3a&HC1&)}na
 Dialogue: 0,0:22:08.34,0:22:11.10,Signs,,0000,0000,0000,fx,na
 Dialogue: 0,0:22:00.00,0:22:08.34,Signs,,0000,0000,0000,fx,i
-Dialogue: 2,0:22:08.34,0:22:08.38,romaji red version,,0000,0000,0000,fx,{\an5\be1\move(459,20,459,20)\1c&H01FFFFFF&\t(\bord2\1c&H005BB9FF&\3c&H01FFFFFF&)}i
-Dialogue: 2,0:22:08.38,0:22:08.63,romaji red version,,0000,0000,0000,fx,{\an5\be1\bord2\move(459,20,459,20)\1c&H005BB9FF&\3a&H70&\fscx140\fscy140\t(\bord1.5\1c&H0068B8DF&\fscx100\fscy100\alpha&H70&\bord8\be25\3a&HC1&)}i
 Dialogue: 0,0:22:08.63,0:22:11.10,Signs,,0000,0000,0000,fx,i
 Dialogue: 0,0:22:00.04,0:22:08.63,Signs,,0000,0000,0000,fx,n
 Dialogue: 0,0:22:00.04,0:22:08.63,Signs,,0000,0000,0000,fx,o
-Dialogue: 2,0:22:08.63,0:22:08.68,romaji red version,,0000,0000,0000,fx,{\an5\be1\move(484,20,484,20)\1c&H01FFFFFF&\t(\bord2\1c&H005BB9FF&\3c&H01FFFFFF&)}no
-Dialogue: 2,0:22:08.68,0:22:09.09,romaji red version,,0000,0000,0000,fx,{\an5\be1\bord2\move(484,20,484,20)\1c&H005BB9FF&\3a&H70&\fscx140\fscy140\t(\bord1.5\1c&H0068B8DF&\fscx100\fscy100\alpha&H70&\bord8\be25\3a&HC1&)}no
 Dialogue: 0,0:22:09.09,0:22:11.10,Signs,,0000,0000,0000,fx,no
 Dialogue: 0,0:22:00.08,0:22:09.09,Signs,,0000,0000,0000,fx,n
 Dialogue: 0,0:22:00.08,0:22:09.09,Signs,,0000,0000,0000,fx,i
-Dialogue: 2,0:22:09.09,0:22:09.26,romaji red version,,0000,0000,0000,fx,{\an5\be1\move(517,20,517,20)\1c&H01FFFFFF&\t(\bord2\1c&H005BB9FF&\3c&H01FFFFFF&)}ni
-Dialogue: 2,0:22:09.26,0:22:10.89,romaji red version,,0000,0000,0000,fx,{\an5\be1\bord2\move(517,20,517,20)\1c&H005BB9FF&\3a&H70&\fscx140\fscy140\t(\bord1.5\1c&H0068B8DF&\fscx100\fscy100\alpha&H70&\bord8\be25\3a&HC1&)}ni
 Dialogue: 0,0:22:10.89,0:22:11.10,Signs,,0000,0000,0000,fx,ni
 Dialogue: 0,0:22:12.31,0:22:12.85,Signs,,0000,0000,0000,fx,m
 Dialogue: 0,0:22:12.31,0:22:12.85,Signs,,0000,0000,0000,fx,o
-Dialogue: 2,0:22:12.85,0:22:12.89,romaji red version,,0000,0000,0000,fx,{\an5\be1\move(178,20,178,20)\1c&H01FFFFFF&\t(\bord2\1c&H005BB9FF&\3c&H01FFFFFF&)}mo
-Dialogue: 2,0:22:12.89,0:22:13.43,romaji red version,,0000,0000,0000,fx,{\an5\be1\bord2\move(178,20,178,20)\1c&H005BB9FF&\3a&H70&\fscx140\fscy140\t(\bord1.5\1c&H0068B8DF&\fscx100\fscy100\alpha&H70&\bord8\be25\3a&HC1&)}mo
 Dialogue: 0,0:22:13.43,0:22:17.89,Signs,,0000,0000,0000,fx,mo
 Dialogue: 0,0:22:12.35,0:22:13.43,Signs,,0000,0000,0000,fx,t
 Dialogue: 0,0:22:12.35,0:22:13.43,Signs,,0000,0000,0000,fx,o
-Dialogue: 2,0:22:13.43,0:22:13.51,romaji red version,,0000,0000,0000,fx,{\an5\be1\move(206,20,206,20)\1c&H01FFFFFF&\t(\bord2\1c&H005BB9FF&\3c&H01FFFFFF&)}to
-Dialogue: 2,0:22:13.51,0:22:14.02,romaji red version,,0000,0000,0000,fx,{\an5\be1\bord2\move(206,20,206,20)\1c&H005BB9FF&\3a&H70&\fscx140\fscy140\t(\bord1.5\1c&H0068B8DF&\fscx100\fscy100\alpha&H70&\bord8\be25\3a&HC1&)}to
 Dialogue: 0,0:22:14.02,0:22:17.89,Signs,,0000,0000,0000,fx,to
 Dialogue: 0,0:22:12.39,0:22:14.02,Signs,,0000,0000,0000,fx,m
 Dialogue: 0,0:22:12.39,0:22:14.02,Signs,,0000,0000,0000,fx,e
-Dialogue: 2,0:22:14.02,0:22:14.06,romaji red version,,0000,0000,0000,fx,{\an5\be1\move(232,20,232,20)\1c&H01FFFFFF&\t(\bord2\1c&H005BB9FF&\3c&H01FFFFFF&)}me
-Dialogue: 2,0:22:14.06,0:22:14.31,romaji red version,,0000,0000,0000,fx,{\an5\be1\bord2\move(232,20,232,20)\1c&H005BB9FF&\3a&H70&\fscx140\fscy140\t(\bord1.5\1c&H0068B8DF&\fscx100\fscy100\alpha&H70&\bord8\be25\3a&HC1&)}me
 Dialogue: 0,0:22:14.31,0:22:17.89,Signs,,0000,0000,0000,fx,me
 Dialogue: 0,0:22:12.43,0:22:14.31,Signs,,0000,0000,0000,fx,z
 Dialogue: 0,0:22:12.43,0:22:14.31,Signs,,0000,0000,0000,fx,u
-Dialogue: 2,0:22:14.31,0:22:14.31,romaji red version,,0000,0000,0000,fx,{\an5\be1\move(262,20,262,20)\1c&H01FFFFFF&\t(\bord2\1c&H005BB9FF&\3c&H01FFFFFF&)}zu
-Dialogue: 2,0:22:14.31,0:22:14.47,romaji red version,,0000,0000,0000,fx,{\an5\be1\bord2\move(262,20,262,20)\1c&H005BB9FF&\3a&H70&\fscx140\fscy140\t(\bord1.5\1c&H0068B8DF&\fscx100\fscy100\alpha&H70&\bord8\be25\3a&HC1&)}zu
 Dialogue: 0,0:22:14.47,0:22:17.89,Signs,,0000,0000,0000,fx,zu
 Dialogue: 0,0:22:12.47,0:22:14.47,Signs,,0000,0000,0000,fx,n
 Dialogue: 0,0:22:12.47,0:22:14.47,Signs,,0000,0000,0000,fx,i
-Dialogue: 2,0:22:14.47,0:22:14.52,romaji red version,,0000,0000,0000,fx,{\an5\be1\move(294,20,294,20)\1c&H01FFFFFF&\t(\bord2\1c&H005BB9FF&\3c&H01FFFFFF&)}ni
-Dialogue: 2,0:22:14.52,0:22:14.72,romaji red version,,0000,0000,0000,fx,{\an5\be1\bord2\move(294,20,294,20)\1c&H005BB9FF&\3a&H70&\fscx140\fscy140\t(\bord1.5\1c&H0068B8DF&\fscx100\fscy100\alpha&H70&\bord8\be25\3a&HC1&)}ni
 Dialogue: 0,0:22:14.72,0:22:17.89,Signs,,0000,0000,0000,fx,ni
 Dialogue: 0,0:22:12.51,0:22:14.72,Signs,,0000,0000,0000,fx,w
 Dialogue: 0,0:22:12.51,0:22:14.72,Signs,,0000,0000,0000,fx,a
-Dialogue: 2,0:22:14.72,0:22:14.77,romaji red version,,0000,0000,0000,fx,{\an5\be1\move(330,20,330,20)\1c&H01FFFFFF&\t(\bord2\1c&H005BB9FF&\3c&H01FFFFFF&)}wa
-Dialogue: 2,0:22:14.77,0:22:15.10,romaji red version,,0000,0000,0000,fx,{\an5\be1\bord2\move(330,20,330,20)\1c&H005BB9FF&\3a&H70&\fscx140\fscy140\t(\bord1.5\1c&H0068B8DF&\fscx100\fscy100\alpha&H70&\bord8\be25\3a&HC1&)}wa
 Dialogue: 0,0:22:15.10,0:22:17.89,Signs,,0000,0000,0000,fx,wa
 Dialogue: 0,0:22:12.56,0:22:15.10,Signs,,0000,0000,0000,fx,i
-Dialogue: 2,0:22:15.10,0:22:15.14,romaji red version,,0000,0000,0000,fx,{\an5\be1\move(358,20,358,20)\1c&H01FFFFFF&\t(\bord2\1c&H005BB9FF&\3c&H01FFFFFF&)}i
-Dialogue: 2,0:22:15.14,0:22:15.47,romaji red version,,0000,0000,0000,fx,{\an5\be1\bord2\move(358,20,358,20)\1c&H005BB9FF&\3a&H70&\fscx140\fscy140\t(\bord1.5\1c&H0068B8DF&\fscx100\fscy100\alpha&H70&\bord8\be25\3a&HC1&)}i
 Dialogue: 0,0:22:15.47,0:22:17.89,Signs,,0000,0000,0000,fx,i
 Dialogue: 0,0:22:12.56,0:22:15.47,Signs,,0000,0000,0000,fx,r
 Dialogue: 0,0:22:12.56,0:22:15.47,Signs,,0000,0000,0000,fx,a
-Dialogue: 2,0:22:15.47,0:22:15.52,romaji red version,,0000,0000,0000,fx,{\an5\be1\move(374,20,374,20)\1c&H01FFFFFF&\t(\bord2\1c&H005BB9FF&\3c&H01FFFFFF&)}ra
-Dialogue: 2,0:22:15.52,0:22:16.10,romaji red version,,0000,0000,0000,fx,{\an5\be1\bord2\move(374,20,374,20)\1c&H005BB9FF&\3a&H70&\fscx140\fscy140\t(\bord1.5\1c&H0068B8DF&\fscx100\fscy100\alpha&H70&\bord8\be25\3a&HC1&)}ra
 Dialogue: 0,0:22:16.10,0:22:17.89,Signs,,0000,0000,0000,fx,ra
 Dialogue: 0,0:22:12.60,0:22:16.10,Signs,,0000,0000,0000,fx,r
 Dialogue: 0,0:22:12.60,0:22:16.10,Signs,,0000,0000,0000,fx,e
-Dialogue: 2,0:22:16.10,0:22:16.14,romaji red version,,0000,0000,0000,fx,{\an5\be1\move(397,20,397,20)\1c&H01FFFFFF&\t(\bord2\1c&H005BB9FF&\3c&H01FFFFFF&)}re
-Dialogue: 2,0:22:16.14,0:22:16.31,romaji red version,,0000,0000,0000,fx,{\an5\be1\bord2\move(397,20,397,20)\1c&H005BB9FF&\3a&H70&\fscx140\fscy140\t(\bord1.5\1c&H0068B8DF&\fscx100\fscy100\alpha&H70&\bord8\be25\3a&HC1&)}re
 Dialogue: 0,0:22:16.31,0:22:17.89,Signs,,0000,0000,0000,fx,re
 Dialogue: 0,0:22:12.64,0:22:16.31,Signs,,0000,0000,0000,fx,n
 Dialogue: 0,0:22:12.64,0:22:16.31,Signs,,0000,0000,0000,fx,a
-Dialogue: 2,0:22:16.31,0:22:16.39,romaji red version,,0000,0000,0000,fx,{\an5\be1\move(422,20,422,20)\1c&H01FFFFFF&\t(\bord2\1c&H005BB9FF&\3c&H01FFFFFF&)}na
-Dialogue: 2,0:22:16.39,0:22:16.85,romaji red version,,0000,0000,0000,fx,{\an5\be1\bord2\move(422,20,422,20)\1c&H005BB9FF&\3a&H70&\fscx140\fscy140\t(\bord1.5\1c&H0068B8DF&\fscx100\fscy100\alpha&H70&\bord8\be25\3a&HC1&)}na
 Dialogue: 0,0:22:16.85,0:22:17.89,Signs,,0000,0000,0000,fx,na
 Dialogue: 0,0:22:12.68,0:22:16.85,Signs,,0000,0000,0000,fx,i
-Dialogue: 2,0:22:16.85,0:22:16.89,romaji red version,,0000,0000,0000,fx,{\an5\be1\move(441,20,441,20)\1c&H01FFFFFF&\t(\bord2\1c&H005BB9FF&\3c&H01FFFFFF&)}i
-Dialogue: 2,0:22:16.89,0:22:17.10,romaji red version,,0000,0000,0000,fx,{\an5\be1\bord2\move(441,20,441,20)\1c&H005BB9FF&\3a&H70&\fscx140\fscy140\t(\bord1.5\1c&H0068B8DF&\fscx100\fscy100\alpha&H70&\bord8\be25\3a&HC1&)}i
 Dialogue: 0,0:22:17.10,0:22:17.89,Signs,,0000,0000,0000,fx,i
 Dialogue: 0,0:22:12.68,0:22:17.10,Signs,,0000,0000,0000,fx,y
 Dialogue: 0,0:22:12.72,0:22:17.10,Signs,,0000,0000,0000,fx,o
-Dialogue: 2,0:22:17.10,0:22:17.14,romaji red version,,0000,0000,0000,fx,{\an5\be1\move(465,20,465,20)\1c&H01FFFFFF&\t(\bord2\1c&H005BB9FF&\3c&H01FFFFFF&)}yo
-Dialogue: 2,0:22:17.14,0:22:17.69,romaji red version,,0000,0000,0000,fx,{\an5\be1\bord2\move(465,20,465,20)\1c&H005BB9FF&\3a&H70&\fscx140\fscy140\t(\bord1.5\1c&H0068B8DF&\fscx100\fscy100\alpha&H70&\bord8\be25\3a&HC1&)}yo
 Dialogue: 0,0:22:17.69,0:22:17.89,Signs,,0000,0000,0000,fx,yo
 Dialogue: 0,0:22:17.52,0:22:18.10,Signs,,0000,0000,0000,fx,d
 Dialogue: 0,0:22:17.52,0:22:18.10,Signs,,0000,0000,0000,fx,o
-Dialogue: 2,0:22:18.10,0:22:18.10,romaji red version,,0000,0000,0000,fx,{\an5\be1\move(133,20,133,20)\1c&H01FFFFFF&\t(\bord2\1c&H005BB9FF&\3c&H01FFFFFF&)}do
-Dialogue: 2,0:22:18.10,0:22:18.44,romaji red version,,0000,0000,0000,fx,{\an5\be1\bord2\move(133,20,133,20)\1c&H005BB9FF&\3a&H70&\fscx140\fscy140\t(\bord1.5\1c&H0068B8DF&\fscx100\fscy100\alpha&H70&\bord8\be25\3a&HC1&)}do
 Dialogue: 0,0:22:18.44,0:22:25.28,Signs,,0000,0000,0000,fx,do
 Dialogue: 0,0:22:17.56,0:22:18.44,Signs,,0000,0000,0000,fx,n
-Dialogue: 2,0:22:18.44,0:22:18.48,romaji red version,,0000,0000,0000,fx,{\an5\be1\move(154,20,154,20)\1c&H01FFFFFF&\t(\bord2\1c&H005BB9FF&\3c&H01FFFFFF&)}n
-Dialogue: 2,0:22:18.48,0:22:18.89,romaji red version,,0000,0000,0000,fx,{\an5\be1\bord2\move(154,20,154,20)\1c&H005BB9FF&\3a&H70&\fscx140\fscy140\t(\bord1.5\1c&H0068B8DF&\fscx100\fscy100\alpha&H70&\bord8\be25\3a&HC1&)}n
 Dialogue: 0,0:22:18.89,0:22:25.28,Signs,,0000,0000,0000,fx,n
 Dialogue: 0,0:22:17.56,0:22:18.89,Signs,,0000,0000,0000,fx,n
 Dialogue: 0,0:22:17.60,0:22:18.89,Signs,,0000,0000,0000,fx,a
-Dialogue: 2,0:22:18.89,0:22:18.94,romaji red version,,0000,0000,0000,fx,{\an5\be1\move(175,20,175,20)\1c&H01FFFFFF&\t(\bord2\1c&H005BB9FF&\3c&H01FFFFFF&)}na
-Dialogue: 2,0:22:18.94,0:22:19.31,romaji red version,,0000,0000,0000,fx,{\an5\be1\bord2\move(175,20,175,20)\1c&H005BB9FF&\3a&H70&\fscx140\fscy140\t(\bord1.5\1c&H0068B8DF&\fscx100\fscy100\alpha&H70&\bord8\be25\3a&HC1&)}na
 Dialogue: 0,0:22:19.31,0:22:25.28,Signs,,0000,0000,0000,fx,na
 Dialogue: 0,0:22:17.60,0:22:19.31,Signs,,0000,0000,0000,fx,m
 Dialogue: 0,0:22:17.64,0:22:19.31,Signs,,0000,0000,0000,fx,i
-Dialogue: 2,0:22:19.31,0:22:19.31,romaji red version,,0000,0000,0000,fx,{\an5\be1\move(211,20,211,20)\1c&H01FFFFFF&\t(\bord2\1c&H005BB9FF&\3c&H01FFFFFF&)}mi
-Dialogue: 2,0:22:19.31,0:22:19.52,romaji red version,,0000,0000,0000,fx,{\an5\be1\bord2\move(211,20,211,20)\1c&H005BB9FF&\3a&H70&\fscx140\fscy140\t(\bord1.5\1c&H0068B8DF&\fscx100\fscy100\alpha&H70&\bord8\be25\3a&HC1&)}mi
 Dialogue: 0,0:22:19.52,0:22:25.28,Signs,,0000,0000,0000,fx,mi
 Dialogue: 0,0:22:17.64,0:22:19.52,Signs,,0000,0000,0000,fx,r
 Dialogue: 0,0:22:17.69,0:22:19.52,Signs,,0000,0000,0000,fx,a
-Dialogue: 2,0:22:19.52,0:22:19.52,romaji red version,,0000,0000,0000,fx,{\an5\be1\move(237,20,237,20)\1c&H01FFFFFF&\t(\bord2\1c&H005BB9FF&\3c&H01FFFFFF&)}ra
-Dialogue: 2,0:22:19.52,0:22:19.90,romaji red version,,0000,0000,0000,fx,{\an5\be1\bord2\move(237,20,237,20)\1c&H005BB9FF&\3a&H70&\fscx140\fscy140\t(\bord1.5\1c&H0068B8DF&\fscx100\fscy100\alpha&H70&\bord8\be25\3a&HC1&)}ra
 Dialogue: 0,0:22:19.90,0:22:25.28,Signs,,0000,0000,0000,fx,ra
 Dialogue: 0,0:22:17.69,0:22:19.90,Signs,,0000,0000,0000,fx,i
-Dialogue: 2,0:22:19.90,0:22:19.90,romaji red version,,0000,0000,0000,fx,{\an5\be1\move(254,20,254,20)\1c&H01FFFFFF&\t(\bord2\1c&H005BB9FF&\3c&H01FFFFFF&)}i
-Dialogue: 2,0:22:19.90,0:22:20.27,romaji red version,,0000,0000,0000,fx,{\an5\be1\bord2\move(254,20,254,20)\1c&H005BB9FF&\3a&H70&\fscx140\fscy140\t(\bord1.5\1c&H0068B8DF&\fscx100\fscy100\alpha&H70&\bord8\be25\3a&HC1&)}i
 Dialogue: 0,0:22:20.27,0:22:25.28,Signs,,0000,0000,0000,fx,i
 Dialogue: 0,0:22:17.69,0:22:20.27,Signs,,0000,0000,0000,fx,g
 Dialogue: 0,0:22:17.73,0:22:20.27,Signs,,0000,0000,0000,fx,a
-Dialogue: 2,0:22:20.27,0:22:20.35,romaji red version,,0000,0000,0000,fx,{\an5\be1\move(279,20,279,20)\1c&H01FFFFFF&\t(\bord2\1c&H005BB9FF&\3c&H01FFFFFF&)}ga
-Dialogue: 2,0:22:20.35,0:22:21.02,romaji red version,,0000,0000,0000,fx,{\an5\be1\bord2\move(279,20,279,20)\1c&H005BB9FF&\3a&H70&\fscx140\fscy140\t(\bord1.5\1c&H0068B8DF&\fscx100\fscy100\alpha&H70&\bord8\be25\3a&HC1&)}ga
 Dialogue: 0,0:22:21.02,0:22:25.28,Signs,,0000,0000,0000,fx,ga
 Dialogue: 0,0:22:17.73,0:22:21.27,Signs,,0000,0000,0000,fx,k
 Dialogue: 0,0:22:17.77,0:22:21.27,Signs,,0000,0000,0000,fx,o
-Dialogue: 2,0:22:21.27,0:22:21.31,romaji red version,,0000,0000,0000,fx,{\an5\be1\move(313,20,313,20)\1c&H01FFFFFF&\t(\bord2\1c&H005BB9FF&\3c&H01FFFFFF&)}ko
-Dialogue: 2,0:22:21.31,0:22:21.69,romaji red version,,0000,0000,0000,fx,{\an5\be1\bord2\move(313,20,313,20)\1c&H005BB9FF&\3a&H70&\fscx140\fscy140\t(\bord1.5\1c&H0068B8DF&\fscx100\fscy100\alpha&H70&\bord8\be25\3a&HC1&)}ko
 Dialogue: 0,0:22:21.69,0:22:25.28,Signs,,0000,0000,0000,fx,ko
 Dialogue: 0,0:22:17.77,0:22:21.69,Signs,,0000,0000,0000,fx,n
 Dialogue: 0,0:22:17.81,0:22:21.69,Signs,,0000,0000,0000,fx,o
-Dialogue: 2,0:22:21.69,0:22:21.73,romaji red version,,0000,0000,0000,fx,{\an5\be1\move(340,20,340,20)\1c&H01FFFFFF&\t(\bord2\1c&H005BB9FF&\3c&H01FFFFFF&)}no
-Dialogue: 2,0:22:21.73,0:22:22.06,romaji red version,,0000,0000,0000,fx,{\an5\be1\bord2\move(340,20,340,20)\1c&H005BB9FF&\3a&H70&\fscx140\fscy140\t(\bord1.5\1c&H0068B8DF&\fscx100\fscy100\alpha&H70&\bord8\be25\3a&HC1&)}no
 Dialogue: 0,0:22:22.06,0:22:25.28,Signs,,0000,0000,0000,fx,no
 Dialogue: 0,0:22:17.81,0:22:22.06,Signs,,0000,0000,0000,fx,s
 Dialogue: 0,0:22:17.85,0:22:22.06,Signs,,0000,0000,0000,fx,a
-Dialogue: 2,0:22:22.06,0:22:22.11,romaji red version,,0000,0000,0000,fx,{\an5\be1\move(373,20,373,20)\1c&H01FFFFFF&\t(\bord2\1c&H005BB9FF&\3c&H01FFFFFF&)}sa
-Dialogue: 2,0:22:22.11,0:22:22.36,romaji red version,,0000,0000,0000,fx,{\an5\be1\bord2\move(373,20,373,20)\1c&H005BB9FF&\3a&H70&\fscx140\fscy140\t(\bord1.5\1c&H0068B8DF&\fscx100\fscy100\alpha&H70&\bord8\be25\3a&HC1&)}sa
 Dialogue: 0,0:22:22.36,0:22:25.28,Signs,,0000,0000,0000,fx,sa
 Dialogue: 0,0:22:17.85,0:22:22.36,Signs,,0000,0000,0000,fx,k
 Dialogue: 0,0:22:17.89,0:22:22.36,Signs,,0000,0000,0000,fx,i
-Dialogue: 2,0:22:22.36,0:22:22.36,romaji red version,,0000,0000,0000,fx,{\an5\be1\move(396,20,396,20)\1c&H01FFFFFF&\t(\bord2\1c&H005BB9FF&\3c&H01FFFFFF&)}ki
-Dialogue: 2,0:22:22.36,0:22:22.52,romaji red version,,0000,0000,0000,fx,{\an5\be1\bord2\move(396,20,396,20)\1c&H005BB9FF&\3a&H70&\fscx140\fscy140\t(\bord1.5\1c&H0068B8DF&\fscx100\fscy100\alpha&H70&\bord8\be25\3a&HC1&)}ki
 Dialogue: 0,0:22:22.52,0:22:25.28,Signs,,0000,0000,0000,fx,ki
 Dialogue: 0,0:22:17.89,0:22:22.52,Signs,,0000,0000,0000,fx,n
 Dialogue: 0,0:22:17.94,0:22:22.52,Signs,,0000,0000,0000,fx,i
-Dialogue: 2,0:22:22.52,0:22:22.52,romaji red version,,0000,0000,0000,fx,{\an5\be1\move(426,20,426,20)\1c&H01FFFFFF&\t(\bord2\1c&H005BB9FF&\3c&H01FFFFFF&)}ni
-Dialogue: 2,0:22:22.52,0:22:22.77,romaji red version,,0000,0000,0000,fx,{\an5\be1\bord2\move(426,20,426,20)\1c&H005BB9FF&\3a&H70&\fscx140\fscy140\t(\bord1.5\1c&H0068B8DF&\fscx100\fscy100\alpha&H70&\bord8\be25\3a&HC1&)}ni
 Dialogue: 0,0:22:22.77,0:22:25.28,Signs,,0000,0000,0000,fx,ni
 Dialogue: 0,0:22:17.94,0:22:22.77,Signs,,0000,0000,0000,fx,a
 Dialogue: 0,0:22:17.98,0:22:22.77,Signs,,0000,0000,0000,fx,t
-Dialogue: 2,0:22:22.77,0:22:22.82,romaji red version,,0000,0000,0000,fx,{\an5\be1\move(456,20,456,20)\1c&H01FFFFFF&\t(\bord2\1c&H005BB9FF&\3c&H01FFFFFF&)}at
-Dialogue: 2,0:22:22.82,0:22:23.07,romaji red version,,0000,0000,0000,fx,{\an5\be1\bord2\move(456,20,456,20)\1c&H005BB9FF&\3a&H70&\fscx140\fscy140\t(\bord1.5\1c&H0068B8DF&\fscx100\fscy100\alpha&H70&\bord8\be25\3a&HC1&)}at
 Dialogue: 0,0:22:23.07,0:22:25.28,Signs,,0000,0000,0000,fx,at
 Dialogue: 0,0:22:17.98,0:22:23.07,Signs,,0000,0000,0000,fx,t
 Dialogue: 0,0:22:18.02,0:22:23.07,Signs,,0000,0000,0000,fx,e
-Dialogue: 2,0:22:23.07,0:22:23.11,romaji red version,,0000,0000,0000,fx,{\an5\be1\move(478,20,478,20)\1c&H01FFFFFF&\t(\bord2\1c&H005BB9FF&\3c&H01FFFFFF&)}te
-Dialogue: 2,0:22:23.11,0:22:23.48,romaji red version,,0000,0000,0000,fx,{\an5\be1\bord2\move(478,20,478,20)\1c&H005BB9FF&\3a&H70&\fscx140\fscy140\t(\bord1.5\1c&H0068B8DF&\fscx100\fscy100\alpha&H70&\bord8\be25\3a&HC1&)}te
 Dialogue: 0,0:22:23.48,0:22:25.28,Signs,,0000,0000,0000,fx,te
 Dialogue: 0,0:22:18.02,0:22:23.48,Signs,,0000,0000,0000,fx,m
 Dialogue: 0,0:22:18.06,0:22:23.48,Signs,,0000,0000,0000,fx,o
-Dialogue: 2,0:22:23.48,0:22:23.65,romaji red version,,0000,0000,0000,fx,{\an5\be1\move(504,20,504,20)\1c&H01FFFFFF&\t(\bord2\1c&H005BB9FF&\3c&H01FFFFFF&)}mo
-Dialogue: 2,0:22:23.65,0:22:25.07,romaji red version,,0000,0000,0000,fx,{\an5\be1\bord2\move(504,20,504,20)\1c&H005BB9FF&\3a&H70&\fscx140\fscy140\t(\bord1.5\1c&H0068B8DF&\fscx100\fscy100\alpha&H70&\bord8\be25\3a&HC1&)}mo
 Dialogue: 0,0:22:25.07,0:22:25.28,Signs,,0000,0000,0000,fx,mo
 Dialogue: 0,0:22:25.48,0:22:26.07,Signs,,0000,0000,0000,fx,y
 Dialogue: 0,0:22:25.48,0:22:26.07,Signs,,0000,0000,0000,fx,u
-Dialogue: 2,0:22:26.07,0:22:26.11,romaji red version,,0000,0000,0000,fx,{\an5\be1\move(88,20,88,20)\1c&H01FFFFFF&\t(\bord2\1c&H005BB9FF&\3c&H01FFFFFF&)}yu
-Dialogue: 2,0:22:26.11,0:22:26.32,romaji red version,,0000,0000,0000,fx,{\an5\be1\bord2\move(88,20,88,20)\1c&H005BB9FF&\3a&H70&\fscx140\fscy140\t(\bord1.5\1c&H0068B8DF&\fscx100\fscy100\alpha&H70&\bord8\be25\3a&HC1&)}yu
 Dialogue: 0,0:22:26.32,0:22:32.33,Signs,,0000,0000,0000,fx,yu
 Dialogue: 0,0:22:25.53,0:22:26.32,Signs,,0000,0000,0000,fx,m
 Dialogue: 0,0:22:25.53,0:22:26.32,Signs,,0000,0000,0000,fx,e
-Dialogue: 2,0:22:26.32,0:22:26.32,romaji red version,,0000,0000,0000,fx,{\an5\be1\move(117,20,117,20)\1c&H01FFFFFF&\t(\bord2\1c&H005BB9FF&\3c&H01FFFFFF&)}me
-Dialogue: 2,0:22:26.32,0:22:26.49,romaji red version,,0000,0000,0000,fx,{\an5\be1\bord2\move(117,20,117,20)\1c&H005BB9FF&\3a&H70&\fscx140\fscy140\t(\bord1.5\1c&H0068B8DF&\fscx100\fscy100\alpha&H70&\bord8\be25\3a&HC1&)}me
 Dialogue: 0,0:22:26.49,0:22:32.33,Signs,,0000,0000,0000,fx,me
 Dialogue: 0,0:22:25.57,0:22:26.49,Signs,,0000,0000,0000,fx,w
 Dialogue: 0,0:22:25.57,0:22:26.49,Signs,,0000,0000,0000,fx,o
-Dialogue: 2,0:22:26.49,0:22:26.49,romaji red version,,0000,0000,0000,fx,{\an5\be1\move(156,20,156,20)\1c&H01FFFFFF&\t(\bord2\1c&H005BB9FF&\3c&H01FFFFFF&)}wo
-Dialogue: 2,0:22:26.49,0:22:26.69,romaji red version,,0000,0000,0000,fx,{\an5\be1\bord2\move(156,20,156,20)\1c&H005BB9FF&\3a&H70&\fscx140\fscy140\t(\bord1.5\1c&H0068B8DF&\fscx100\fscy100\alpha&H70&\bord8\be25\3a&HC1&)}wo
 Dialogue: 0,0:22:26.69,0:22:32.33,Signs,,0000,0000,0000,fx,wo
 Dialogue: 0,0:22:25.61,0:22:26.69,Signs,,0000,0000,0000,fx,m
 Dialogue: 0,0:22:25.61,0:22:26.69,Signs,,0000,0000,0000,fx,i
-Dialogue: 2,0:22:26.69,0:22:26.69,romaji red version,,0000,0000,0000,fx,{\an5\be1\move(194,20,194,20)\1c&H01FFFFFF&\t(\bord2\1c&H005BB9FF&\3c&H01FFFFFF&)}mi
-Dialogue: 2,0:22:26.69,0:22:26.90,romaji red version,,0000,0000,0000,fx,{\an5\be1\bord2\move(194,20,194,20)\1c&H005BB9FF&\3a&H70&\fscx140\fscy140\t(\bord1.5\1c&H0068B8DF&\fscx100\fscy100\alpha&H70&\bord8\be25\3a&HC1&)}mi
 Dialogue: 0,0:22:26.90,0:22:32.33,Signs,,0000,0000,0000,fx,mi
 Dialogue: 0,0:22:25.65,0:22:26.90,Signs,,0000,0000,0000,fx,t
 Dialogue: 0,0:22:25.65,0:22:26.90,Signs,,0000,0000,0000,fx,a
-Dialogue: 2,0:22:26.90,0:22:26.99,romaji red version,,0000,0000,0000,fx,{\an5\be1\move(220,20,220,20)\1c&H01FFFFFF&\t(\bord2\1c&H005BB9FF&\3c&H01FFFFFF&)}ta
-Dialogue: 2,0:22:26.99,0:22:27.86,romaji red version,,0000,0000,0000,fx,{\an5\be1\bord2\move(220,20,220,20)\1c&H005BB9FF&\3a&H70&\fscx140\fscy140\t(\bord1.5\1c&H0068B8DF&\fscx100\fscy100\alpha&H70&\bord8\be25\3a&HC1&)}ta
 Dialogue: 0,0:22:27.86,0:22:32.33,Signs,,0000,0000,0000,fx,ta
 Dialogue: 0,0:22:25.69,0:22:27.86,Signs,,0000,0000,0000,fx,a
-Dialogue: 2,0:22:27.86,0:22:27.90,romaji red version,,0000,0000,0000,fx,{\an5\be1\move(245,20,245,20)\1c&H01FFFFFF&\t(\bord2\1c&H005BB9FF&\3c&H01FFFFFF&)}a
-Dialogue: 2,0:22:27.90,0:22:28.07,romaji red version,,0000,0000,0000,fx,{\an5\be1\bord2\move(245,20,245,20)\1c&H005BB9FF&\3a&H70&\fscx140\fscy140\t(\bord1.5\1c&H0068B8DF&\fscx100\fscy100\alpha&H70&\bord8\be25\3a&HC1&)}a
 Dialogue: 0,0:22:28.07,0:22:32.33,Signs,,0000,0000,0000,fx,a
 Dialogue: 0,0:22:25.69,0:22:28.07,Signs,,0000,0000,0000,fx,t
 Dialogue: 0,0:22:25.74,0:22:28.07,Signs,,0000,0000,0000,fx,o
-Dialogue: 2,0:22:28.07,0:22:28.07,romaji red version,,0000,0000,0000,fx,{\an5\be1\move(263,20,263,20)\1c&H01FFFFFF&\t(\bord2\1c&H005BB9FF&\3c&H01FFFFFF&)}to
-Dialogue: 2,0:22:28.07,0:22:28.32,romaji red version,,0000,0000,0000,fx,{\an5\be1\bord2\move(263,20,263,20)\1c&H005BB9FF&\3a&H70&\fscx140\fscy140\t(\bord1.5\1c&H0068B8DF&\fscx100\fscy100\alpha&H70&\bord8\be25\3a&HC1&)}to
 Dialogue: 0,0:22:28.32,0:22:32.33,Signs,,0000,0000,0000,fx,to
 Dialogue: 0,0:22:25.74,0:22:28.32,Signs,,0000,0000,0000,fx,d
 Dialogue: 0,0:22:25.78,0:22:28.32,Signs,,0000,0000,0000,fx,e
-Dialogue: 2,0:22:28.32,0:22:28.40,romaji red version,,0000,0000,0000,fx,{\an5\be1\move(294,20,294,20)\1c&H01FFFFFF&\t(\bord2\1c&H005BB9FF&\3c&H01FFFFFF&)}de
-Dialogue: 2,0:22:28.40,0:22:29.03,romaji red version,,0000,0000,0000,fx,{\an5\be1\bord2\move(294,20,294,20)\1c&H005BB9FF&\3a&H70&\fscx140\fscy140\t(\bord1.5\1c&H0068B8DF&\fscx100\fscy100\alpha&H70&\bord8\be25\3a&HC1&)}de
 Dialogue: 0,0:22:29.03,0:22:32.33,Signs,,0000,0000,0000,fx,de
 Dialogue: 0,0:22:25.78,0:22:29.28,Signs,,0000,0000,0000,fx,k
 Dialogue: 0,0:22:25.78,0:22:29.28,Signs,,0000,0000,0000,fx,i
-Dialogue: 2,0:22:29.28,0:22:29.28,romaji red version,,0000,0000,0000,fx,{\an5\be1\move(325,20,325,20)\1c&H01FFFFFF&\t(\bord2\1c&H005BB9FF&\3c&H01FFFFFF&)}ki
-Dialogue: 2,0:22:29.28,0:22:29.53,romaji red version,,0000,0000,0000,fx,{\an5\be1\bord2\move(325,20,325,20)\1c&H005BB9FF&\3a&H70&\fscx140\fscy140\t(\bord1.5\1c&H0068B8DF&\fscx100\fscy100\alpha&H70&\bord8\be25\3a&HC1&)}ki
 Dialogue: 0,0:22:29.53,0:22:32.33,Signs,,0000,0000,0000,fx,ki
 Dialogue: 0,0:22:25.82,0:22:29.53,Signs,,0000,0000,0000,fx,m
 Dialogue: 0,0:22:25.82,0:22:29.53,Signs,,0000,0000,0000,fx,i
-Dialogue: 2,0:22:29.53,0:22:29.57,romaji red version,,0000,0000,0000,fx,{\an5\be1\move(351,20,351,20)\1c&H01FFFFFF&\t(\bord2\1c&H005BB9FF&\3c&H01FFFFFF&)}mi
-Dialogue: 2,0:22:29.57,0:22:29.70,romaji red version,,0000,0000,0000,fx,{\an5\be1\bord2\move(351,20,351,20)\1c&H005BB9FF&\3a&H70&\fscx140\fscy140\t(\bord1.5\1c&H0068B8DF&\fscx100\fscy100\alpha&H70&\bord8\be25\3a&HC1&)}mi
 Dialogue: 0,0:22:29.70,0:22:32.33,Signs,,0000,0000,0000,fx,mi
 Dialogue: 0,0:22:25.86,0:22:29.70,Signs,,0000,0000,0000,fx,w
 Dialogue: 0,0:22:25.86,0:22:29.70,Signs,,0000,0000,0000,fx,a
-Dialogue: 2,0:22:29.70,0:22:29.74,romaji red version,,0000,0000,0000,fx,{\an5\be1\move(389,20,389,20)\1c&H01FFFFFF&\t(\bord2\1c&H005BB9FF&\3c&H01FFFFFF&)}wa
-Dialogue: 2,0:22:29.74,0:22:29.91,romaji red version,,0000,0000,0000,fx,{\an5\be1\bord2\move(389,20,389,20)\1c&H005BB9FF&\3a&H70&\fscx140\fscy140\t(\bord1.5\1c&H0068B8DF&\fscx100\fscy100\alpha&H70&\bord8\be25\3a&HC1&)}wa
 Dialogue: 0,0:22:29.91,0:22:32.33,Signs,,0000,0000,0000,fx,wa
 Dialogue: 0,0:22:25.90,0:22:29.91,Signs,,0000,0000,0000,fx,m
 Dialogue: 0,0:22:25.90,0:22:29.91,Signs,,0000,0000,0000,fx,a
-Dialogue: 2,0:22:29.91,0:22:29.91,romaji red version,,0000,0000,0000,fx,{\an5\be1\move(430,20,430,20)\1c&H01FFFFFF&\t(\bord2\1c&H005BB9FF&\3c&H01FFFFFF&)}ma
-Dialogue: 2,0:22:29.91,0:22:30.11,romaji red version,,0000,0000,0000,fx,{\an5\be1\bord2\move(430,20,430,20)\1c&H005BB9FF&\3a&H70&\fscx140\fscy140\t(\bord1.5\1c&H0068B8DF&\fscx100\fscy100\alpha&H70&\bord8\be25\3a&HC1&)}ma
 Dialogue: 0,0:22:30.11,0:22:32.33,Signs,,0000,0000,0000,fx,ma
 Dialogue: 0,0:22:25.94,0:22:30.11,Signs,,0000,0000,0000,fx,d
 Dialogue: 0,0:22:25.94,0:22:30.11,Signs,,0000,0000,0000,fx,a
-Dialogue: 2,0:22:30.11,0:22:30.11,romaji red version,,0000,0000,0000,fx,{\an5\be1\move(462,20,462,20)\1c&H01FFFFFF&\t(\bord2\1c&H005BB9FF&\3c&H01FFFFFF&)}da
-Dialogue: 2,0:22:30.11,0:22:30.49,romaji red version,,0000,0000,0000,fx,{\an5\be1\bord2\move(462,20,462,20)\1c&H005BB9FF&\3a&H70&\fscx140\fscy140\t(\bord1.5\1c&H0068B8DF&\fscx100\fscy100\alpha&H70&\bord8\be25\3a&HC1&)}da
 Dialogue: 0,0:22:30.49,0:22:32.33,Signs,,0000,0000,0000,fx,da
 Dialogue: 0,0:22:25.99,0:22:30.49,Signs,,0000,0000,0000,fx,t
 Dialogue: 0,0:22:25.99,0:22:30.49,Signs,,0000,0000,0000,fx,o
-Dialogue: 2,0:22:30.49,0:22:30.49,romaji red version,,0000,0000,0000,fx,{\an5\be1\move(494,20,494,20)\1c&H01FFFFFF&\t(\bord2\1c&H005BB9FF&\3c&H01FFFFFF&)}to
-Dialogue: 2,0:22:30.49,0:22:30.74,romaji red version,,0000,0000,0000,fx,{\an5\be1\bord2\move(494,20,494,20)\1c&H005BB9FF&\3a&H70&\fscx140\fscy140\t(\bord1.5\1c&H0068B8DF&\fscx100\fscy100\alpha&H70&\bord8\be25\3a&HC1&)}to
 Dialogue: 0,0:22:30.74,0:22:32.33,Signs,,0000,0000,0000,fx,to
 Dialogue: 0,0:22:26.03,0:22:30.74,Signs,,0000,0000,0000,fx,o
-Dialogue: 2,0:22:30.74,0:22:30.78,romaji red version,,0000,0000,0000,fx,{\an5\be1\move(511,20,511,20)\1c&H01FFFFFF&\t(\bord2\1c&H005BB9FF&\3c&H01FFFFFF&)}o
-Dialogue: 2,0:22:30.78,0:22:31.07,romaji red version,,0000,0000,0000,fx,{\an5\be1\bord2\move(511,20,511,20)\1c&H005BB9FF&\3a&H70&\fscx140\fscy140\t(\bord1.5\1c&H0068B8DF&\fscx100\fscy100\alpha&H70&\bord8\be25\3a&HC1&)}o
 Dialogue: 0,0:22:31.07,0:22:32.33,Signs,,0000,0000,0000,fx,o
 Dialogue: 0,0:22:26.03,0:22:31.07,Signs,,0000,0000,0000,fx,k
 Dialogue: 0,0:22:26.07,0:22:31.07,Signs,,0000,0000,0000,fx,u
-Dialogue: 2,0:22:31.07,0:22:31.12,romaji red version,,0000,0000,0000,fx,{\an5\be1\move(532,20,532,20)\1c&H01FFFFFF&\t(\bord2\1c&H005BB9FF&\3c&H01FFFFFF&)}ku
-Dialogue: 2,0:22:31.12,0:22:31.45,romaji red version,,0000,0000,0000,fx,{\an5\be1\bord2\move(532,20,532,20)\1c&H005BB9FF&\3a&H70&\fscx140\fscy140\t(\bord1.5\1c&H0068B8DF&\fscx100\fscy100\alpha&H70&\bord8\be25\3a&HC1&)}ku
 Dialogue: 0,0:22:31.45,0:22:32.33,Signs,,0000,0000,0000,fx,ku
 Dialogue: 0,0:22:26.07,0:22:31.45,Signs,,0000,0000,0000,fx,t
 Dialogue: 0,0:22:26.11,0:22:31.45,Signs,,0000,0000,0000,fx,e
-Dialogue: 2,0:22:31.45,0:22:31.53,romaji red version,,0000,0000,0000,fx,{\an5\be1\move(556,20,556,20)\1c&H01FFFFFF&\t(\bord2\1c&H005BB9FF&\3c&H01FFFFFF&)}te
-Dialogue: 2,0:22:31.53,0:22:32.12,romaji red version,,0000,0000,0000,fx,{\an5\be1\bord2\move(556,20,556,20)\1c&H005BB9FF&\3a&H70&\fscx140\fscy140\t(\bord1.5\1c&H0068B8DF&\fscx100\fscy100\alpha&H70&\bord8\be25\3a&HC1&)}te
 Dialogue: 0,0:22:32.12,0:22:32.33,Signs,,0000,0000,0000,fx,te
 Dialogue: 0,0:22:31.95,0:22:32.45,Signs,,0000,0000,0000,fx,k
 Dialogue: 0,0:22:31.95,0:22:32.45,Signs,,0000,0000,0000,fx,i
-Dialogue: 2,0:22:32.45,0:22:32.49,romaji red version,,0000,0000,0000,fx,{\an5\be1\move(111,20,111,20)\1c&H01FFFFFF&\t(\bord2\1c&H005BB9FF&\3c&H01FFFFFF&)}ki
-Dialogue: 2,0:22:32.49,0:22:32.70,romaji red version,,0000,0000,0000,fx,{\an5\be1\bord2\move(111,20,111,20)\1c&H005BB9FF&\3a&H70&\fscx140\fscy140\t(\bord1.5\1c&H0068B8DF&\fscx100\fscy100\alpha&H70&\bord8\be25\3a&HC1&)}ki
 Dialogue: 0,0:22:32.70,0:22:37.87,Signs,,0000,0000,0000,fx,ki
 Dialogue: 0,0:22:31.99,0:22:32.70,Signs,,0000,0000,0000,fx,m
 Dialogue: 0,0:22:31.99,0:22:32.70,Signs,,0000,0000,0000,fx,o
-Dialogue: 2,0:22:32.70,0:22:32.74,romaji red version,,0000,0000,0000,fx,{\an5\be1\move(139,20,139,20)\1c&H01FFFFFF&\t(\bord2\1c&H005BB9FF&\3c&H01FFFFFF&)}mo
-Dialogue: 2,0:22:32.74,0:22:32.91,romaji red version,,0000,0000,0000,fx,{\an5\be1\bord2\move(139,20,139,20)\1c&H005BB9FF&\3a&H70&\fscx140\fscy140\t(\bord1.5\1c&H0068B8DF&\fscx100\fscy100\alpha&H70&\bord8\be25\3a&HC1&)}mo
 Dialogue: 0,0:22:32.91,0:22:37.87,Signs,,0000,0000,0000,fx,mo
 Dialogue: 0,0:22:32.03,0:22:32.91,Signs,,0000,0000,0000,fx,c
 Dialogue: 0,0:22:32.03,0:22:32.91,Signs,,0000,0000,0000,fx,h
 Dialogue: 0,0:22:32.07,0:22:32.91,Signs,,0000,0000,0000,fx,i
-Dialogue: 2,0:22:32.91,0:22:32.91,romaji red version,,0000,0000,0000,fx,{\an5\be1\move(173,20,173,20)\1c&H01FFFFFF&\t(\bord2\1c&H005BB9FF&\3c&H01FFFFFF&)}chi
-Dialogue: 2,0:22:32.91,0:22:33.16,romaji red version,,0000,0000,0000,fx,{\an5\be1\bord2\move(173,20,173,20)\1c&H005BB9FF&\3a&H70&\fscx140\fscy140\t(\bord1.5\1c&H0068B8DF&\fscx100\fscy100\alpha&H70&\bord8\be25\3a&HC1&)}chi
 Dialogue: 0,0:22:33.16,0:22:37.87,Signs,,0000,0000,0000,fx,chi
 Dialogue: 0,0:22:32.07,0:22:33.16,Signs,,0000,0000,0000,fx,d
 Dialogue: 0,0:22:32.12,0:22:33.16,Signs,,0000,0000,0000,fx,a
-Dialogue: 2,0:22:33.16,0:22:33.20,romaji red version,,0000,0000,0000,fx,{\an5\be1\move(211,20,211,20)\1c&H01FFFFFF&\t(\bord2\1c&H005BB9FF&\3c&H01FFFFFF&)}da
-Dialogue: 2,0:22:33.20,0:22:33.53,romaji red version,,0000,0000,0000,fx,{\an5\be1\bord2\move(211,20,211,20)\1c&H005BB9FF&\3a&H70&\fscx140\fscy140\t(\bord1.5\1c&H0068B8DF&\fscx100\fscy100\alpha&H70&\bord8\be25\3a&HC1&)}da
 Dialogue: 0,0:22:33.53,0:22:37.87,Signs,,0000,0000,0000,fx,da
 Dialogue: 0,0:22:32.12,0:22:33.53,Signs,,0000,0000,0000,fx,k
 Dialogue: 0,0:22:32.16,0:22:33.53,Signs,,0000,0000,0000,fx,e
-Dialogue: 2,0:22:33.53,0:22:33.58,romaji red version,,0000,0000,0000,fx,{\an5\be1\move(238,20,238,20)\1c&H01FFFFFF&\t(\bord2\1c&H005BB9FF&\3c&H01FFFFFF&)}ke
-Dialogue: 2,0:22:33.58,0:22:34.08,romaji red version,,0000,0000,0000,fx,{\an5\be1\bord2\move(238,20,238,20)\1c&H005BB9FF&\3a&H70&\fscx140\fscy140\t(\bord1.5\1c&H0068B8DF&\fscx100\fscy100\alpha&H70&\bord8\be25\3a&HC1&)}ke
 Dialogue: 0,0:22:34.08,0:22:37.87,Signs,,0000,0000,0000,fx,ke
 Dialogue: 0,0:22:32.16,0:22:34.08,Signs,,0000,0000,0000,fx,s
 Dialogue: 0,0:22:32.20,0:22:34.08,Signs,,0000,0000,0000,fx,a
-Dialogue: 2,0:22:34.08,0:22:34.12,romaji red version,,0000,0000,0000,fx,{\an5\be1\move(270,20,270,20)\1c&H01FFFFFF&\t(\bord2\1c&H005BB9FF&\3c&H01FFFFFF&)}sa
-Dialogue: 2,0:22:34.12,0:22:34.37,romaji red version,,0000,0000,0000,fx,{\an5\be1\bord2\move(270,20,270,20)\1c&H005BB9FF&\3a&H70&\fscx140\fscy140\t(\bord1.5\1c&H0068B8DF&\fscx100\fscy100\alpha&H70&\bord8\be25\3a&HC1&)}sa
 Dialogue: 0,0:22:34.37,0:22:37.87,Signs,,0000,0000,0000,fx,sa
 Dialogue: 0,0:22:32.20,0:22:34.37,Signs,,0000,0000,0000,fx,k
 Dialogue: 0,0:22:32.24,0:22:34.37,Signs,,0000,0000,0000,fx,i
-Dialogue: 2,0:22:34.37,0:22:34.37,romaji red version,,0000,0000,0000,fx,{\an5\be1\move(294,20,294,20)\1c&H01FFFFFF&\t(\bord2\1c&H005BB9FF&\3c&H01FFFFFF&)}ki
-Dialogue: 2,0:22:34.37,0:22:34.49,romaji red version,,0000,0000,0000,fx,{\an5\be1\bord2\move(294,20,294,20)\1c&H005BB9FF&\3a&H70&\fscx140\fscy140\t(\bord1.5\1c&H0068B8DF&\fscx100\fscy100\alpha&H70&\bord8\be25\3a&HC1&)}ki
 Dialogue: 0,0:22:34.49,0:22:37.87,Signs,,0000,0000,0000,fx,ki
 Dialogue: 0,0:22:32.24,0:22:34.49,Signs,,0000,0000,0000,fx,b
 Dialogue: 0,0:22:32.28,0:22:34.49,Signs,,0000,0000,0000,fx,a
-Dialogue: 2,0:22:34.49,0:22:34.54,romaji red version,,0000,0000,0000,fx,{\an5\be1\move(319,20,319,20)\1c&H01FFFFFF&\t(\bord2\1c&H005BB9FF&\3c&H01FFFFFF&)}ba
-Dialogue: 2,0:22:34.54,0:22:34.70,romaji red version,,0000,0000,0000,fx,{\an5\be1\bord2\move(319,20,319,20)\1c&H005BB9FF&\3a&H70&\fscx140\fscy140\t(\bord1.5\1c&H0068B8DF&\fscx100\fscy100\alpha&H70&\bord8\be25\3a&HC1&)}ba
 Dialogue: 0,0:22:34.70,0:22:37.87,Signs,,0000,0000,0000,fx,ba
 Dialogue: 0,0:22:32.28,0:22:34.70,Signs,,0000,0000,0000,fx,s
 Dialogue: 0,0:22:32.33,0:22:34.70,Signs,,0000,0000,0000,fx,h
 Dialogue: 0,0:22:32.33,0:22:34.70,Signs,,0000,0000,0000,fx,i
-Dialogue: 2,0:22:34.70,0:22:34.74,romaji red version,,0000,0000,0000,fx,{\an5\be1\move(349,20,349,20)\1c&H01FFFFFF&\t(\bord2\1c&H005BB9FF&\3c&H01FFFFFF&)}shi
-Dialogue: 2,0:22:34.74,0:22:35.12,romaji red version,,0000,0000,0000,fx,{\an5\be1\bord2\move(349,20,349,20)\1c&H005BB9FF&\3a&H70&\fscx140\fscy140\t(\bord1.5\1c&H0068B8DF&\fscx100\fscy100\alpha&H70&\bord8\be25\3a&HC1&)}shi
 Dialogue: 0,0:22:35.12,0:22:37.87,Signs,,0000,0000,0000,fx,shi
 Dialogue: 0,0:22:32.37,0:22:35.12,Signs,,0000,0000,0000,fx,t
 Dialogue: 0,0:22:32.37,0:22:35.12,Signs,,0000,0000,0000,fx,t
 Dialogue: 0,0:22:32.37,0:22:35.12,Signs,,0000,0000,0000,fx,e
-Dialogue: 2,0:22:35.12,0:22:35.20,romaji red version,,0000,0000,0000,fx,{\an5\be1\move(379,20,379,20)\1c&H01FFFFFF&\t(\bord2\1c&H005BB9FF&\3c&H01FFFFFF&)}tte
-Dialogue: 2,0:22:35.20,0:22:35.70,romaji red version,,0000,0000,0000,fx,{\an5\be1\bord2\move(379,20,379,20)\1c&H005BB9FF&\3a&H70&\fscx140\fscy140\t(\bord1.5\1c&H0068B8DF&\fscx100\fscy100\alpha&H70&\bord8\be25\3a&HC1&)}tte
 Dialogue: 0,0:22:35.70,0:22:37.87,Signs,,0000,0000,0000,fx,tte
 Dialogue: 0,0:22:32.41,0:22:35.70,Signs,,0000,0000,0000,fx,k
 Dialogue: 0,0:22:32.41,0:22:35.70,Signs,,0000,0000,0000,fx,a
-Dialogue: 2,0:22:35.70,0:22:35.75,romaji red version,,0000,0000,0000,fx,{\an5\be1\move(415,20,415,20)\1c&H01FFFFFF&\t(\bord2\1c&H005BB9FF&\3c&H01FFFFFF&)}ka
-Dialogue: 2,0:22:35.75,0:22:36.08,romaji red version,,0000,0000,0000,fx,{\an5\be1\bord2\move(415,20,415,20)\1c&H005BB9FF&\3a&H70&\fscx140\fscy140\t(\bord1.5\1c&H0068B8DF&\fscx100\fscy100\alpha&H70&\bord8\be25\3a&HC1&)}ka
 Dialogue: 0,0:22:36.08,0:22:37.87,Signs,,0000,0000,0000,fx,ka
 Dialogue: 0,0:22:32.45,0:22:36.08,Signs,,0000,0000,0000,fx,r
 Dialogue: 0,0:22:32.45,0:22:36.08,Signs,,0000,0000,0000,fx,a
-Dialogue: 2,0:22:36.08,0:22:36.12,romaji red version,,0000,0000,0000,fx,{\an5\be1\move(441,20,441,20)\1c&H01FFFFFF&\t(\bord2\1c&H005BB9FF&\3c&H01FFFFFF&)}ra
-Dialogue: 2,0:22:36.12,0:22:36.29,romaji red version,,0000,0000,0000,fx,{\an5\be1\bord2\move(441,20,441,20)\1c&H005BB9FF&\3a&H70&\fscx140\fscy140\t(\bord1.5\1c&H0068B8DF&\fscx100\fscy100\alpha&H70&\bord8\be25\3a&HC1&)}ra
 Dialogue: 0,0:22:36.29,0:22:37.87,Signs,,0000,0000,0000,fx,ra
 Dialogue: 0,0:22:32.49,0:22:36.29,Signs,,0000,0000,0000,fx,m
 Dialogue: 0,0:22:32.49,0:22:36.29,Signs,,0000,0000,0000,fx,a
-Dialogue: 2,0:22:36.29,0:22:36.33,romaji red version,,0000,0000,0000,fx,{\an5\be1\move(470,20,470,20)\1c&H01FFFFFF&\t(\bord2\1c&H005BB9FF&\3c&H01FFFFFF&)}ma
-Dialogue: 2,0:22:36.33,0:22:36.66,romaji red version,,0000,0000,0000,fx,{\an5\be1\bord2\move(470,20,470,20)\1c&H005BB9FF&\3a&H70&\fscx140\fscy140\t(\bord1.5\1c&H0068B8DF&\fscx100\fscy100\alpha&H70&\bord8\be25\3a&HC1&)}ma
 Dialogue: 0,0:22:36.66,0:22:37.87,Signs,,0000,0000,0000,fx,ma
 Dialogue: 0,0:22:32.53,0:22:36.66,Signs,,0000,0000,0000,fx,w
 Dialogue: 0,0:22:32.53,0:22:36.66,Signs,,0000,0000,0000,fx,a
-Dialogue: 2,0:22:36.66,0:22:36.70,romaji red version,,0000,0000,0000,fx,{\an5\be1\move(504,20,504,20)\1c&H01FFFFFF&\t(\bord2\1c&H005BB9FF&\3c&H01FFFFFF&)}wa
-Dialogue: 2,0:22:36.70,0:22:36.95,romaji red version,,0000,0000,0000,fx,{\an5\be1\bord2\move(504,20,504,20)\1c&H005BB9FF&\3a&H70&\fscx140\fscy140\t(\bord1.5\1c&H0068B8DF&\fscx100\fscy100\alpha&H70&\bord8\be25\3a&HC1&)}wa
 Dialogue: 0,0:22:36.95,0:22:37.87,Signs,,0000,0000,0000,fx,wa
 Dialogue: 0,0:22:32.58,0:22:36.95,Signs,,0000,0000,0000,fx,r
 Dialogue: 0,0:22:32.58,0:22:36.95,Signs,,0000,0000,0000,fx,i
-Dialogue: 2,0:22:36.95,0:22:37.00,romaji red version,,0000,0000,0000,fx,{\an5\be1\move(531,20,531,20)\1c&H01FFFFFF&\t(\bord2\1c&H005BB9FF&\3c&H01FFFFFF&)}ri
-Dialogue: 2,0:22:37.00,0:22:37.66,romaji red version,,0000,0000,0000,fx,{\an5\be1\bord2\move(531,20,531,20)\1c&H005BB9FF&\3a&H70&\fscx140\fscy140\t(\bord1.5\1c&H0068B8DF&\fscx100\fscy100\alpha&H70&\bord8\be25\3a&HC1&)}ri
 Dialogue: 0,0:22:37.66,0:22:37.87,Signs,,0000,0000,0000,fx,ri
 Dialogue: 0,0:22:37.50,0:22:38.08,Signs,,0000,0000,0000,fx,h
 Dialogue: 0,0:22:37.50,0:22:38.08,Signs,,0000,0000,0000,fx,a
-Dialogue: 2,0:22:38.08,0:22:38.12,romaji red version,,0000,0000,0000,fx,{\an5\be1\move(71,20,71,20)\1c&H01FFFFFF&\t(\bord2\1c&H005BB9FF&\3c&H01FFFFFF&)}ha
-Dialogue: 2,0:22:38.12,0:22:38.50,romaji red version,,0000,0000,0000,fx,{\an5\be1\bord2\move(71,20,71,20)\1c&H005BB9FF&\3a&H70&\fscx140\fscy140\t(\bord1.5\1c&H0068B8DF&\fscx100\fscy100\alpha&H70&\bord8\be25\3a&HC1&)}ha
 Dialogue: 0,0:22:38.50,0:22:45.46,Signs,,0000,0000,0000,fx,ha
 Dialogue: 0,0:22:37.54,0:22:38.50,Signs,,0000,0000,0000,fx,n
 Dialogue: 0,0:22:37.54,0:22:38.50,Signs,,0000,0000,0000,fx,a
-Dialogue: 2,0:22:38.50,0:22:38.54,romaji red version,,0000,0000,0000,fx,{\an5\be1\move(99,20,99,20)\1c&H01FFFFFF&\t(\bord2\1c&H005BB9FF&\3c&H01FFFFFF&)}na
-Dialogue: 2,0:22:38.54,0:22:38.75,romaji red version,,0000,0000,0000,fx,{\an5\be1\bord2\move(99,20,99,20)\1c&H005BB9FF&\3a&H70&\fscx140\fscy140\t(\bord1.5\1c&H0068B8DF&\fscx100\fscy100\alpha&H70&\bord8\be25\3a&HC1&)}na
 Dialogue: 0,0:22:38.75,0:22:45.46,Signs,,0000,0000,0000,fx,na
 Dialogue: 0,0:22:37.58,0:22:38.75,Signs,,0000,0000,0000,fx,n
 Dialogue: 0,0:22:37.58,0:22:38.75,Signs,,0000,0000,0000,fx,o
-Dialogue: 2,0:22:38.75,0:22:38.79,romaji red version,,0000,0000,0000,fx,{\an5\be1\move(135,20,135,20)\1c&H01FFFFFF&\t(\bord2\1c&H005BB9FF&\3c&H01FFFFFF&)}no
-Dialogue: 2,0:22:38.79,0:22:39.12,romaji red version,,0000,0000,0000,fx,{\an5\be1\bord2\move(135,20,135,20)\1c&H005BB9FF&\3a&H70&\fscx140\fscy140\t(\bord1.5\1c&H0068B8DF&\fscx100\fscy100\alpha&H70&\bord8\be25\3a&HC1&)}no
 Dialogue: 0,0:22:39.12,0:22:45.46,Signs,,0000,0000,0000,fx,no
 Dialogue: 0,0:22:37.62,0:22:39.12,Signs,,0000,0000,0000,fx,a
-Dialogue: 2,0:22:39.12,0:22:39.17,romaji red version,,0000,0000,0000,fx,{\an5\be1\move(162,20,162,20)\1c&H01FFFFFF&\t(\bord2\1c&H005BB9FF&\3c&H01FFFFFF&)}a
-Dialogue: 2,0:22:39.17,0:22:39.50,romaji red version,,0000,0000,0000,fx,{\an5\be1\bord2\move(162,20,162,20)\1c&H005BB9FF&\3a&H70&\fscx140\fscy140\t(\bord1.5\1c&H0068B8DF&\fscx100\fscy100\alpha&H70&\bord8\be25\3a&HC1&)}a
 Dialogue: 0,0:22:39.50,0:22:45.46,Signs,,0000,0000,0000,fx,a
 Dialogue: 0,0:22:37.62,0:22:39.50,Signs,,0000,0000,0000,fx,m
 Dialogue: 0,0:22:37.66,0:22:39.50,Signs,,0000,0000,0000,fx,e
-Dialogue: 2,0:22:39.50,0:22:39.62,romaji red version,,0000,0000,0000,fx,{\an5\be1\move(185,20,185,20)\1c&H01FFFFFF&\t(\bord2\1c&H005BB9FF&\3c&H01FFFFFF&)}me
-Dialogue: 2,0:22:39.62,0:22:40.71,romaji red version,,0000,0000,0000,fx,{\an5\be1\bord2\move(185,20,185,20)\1c&H005BB9FF&\3a&H70&\fscx140\fscy140\t(\bord1.5\1c&H0068B8DF&\fscx100\fscy100\alpha&H70&\bord8\be25\3a&HC1&)}me
 Dialogue: 0,0:22:40.71,0:22:45.46,Signs,,0000,0000,0000,fx,me
 Dialogue: 0,0:22:37.66,0:22:40.71,Signs,,0000,0000,0000,fx,g
 Dialogue: 0,0:22:37.71,0:22:40.71,Signs,,0000,0000,0000,fx,a
-Dialogue: 2,0:22:40.71,0:22:40.71,romaji red version,,0000,0000,0000,fx,{\an5\be1\move(222,20,222,20)\1c&H01FFFFFF&\t(\bord2\1c&H005BB9FF&\3c&H01FFFFFF&)}ga
-Dialogue: 2,0:22:40.71,0:22:40.92,romaji red version,,0000,0000,0000,fx,{\an5\be1\bord2\move(222,20,222,20)\1c&H005BB9FF&\3a&H70&\fscx140\fscy140\t(\bord1.5\1c&H0068B8DF&\fscx100\fscy100\alpha&H70&\bord8\be25\3a&HC1&)}ga
 Dialogue: 0,0:22:40.92,0:22:45.46,Signs,,0000,0000,0000,fx,ga
 Dialogue: 0,0:22:37.71,0:22:40.92,Signs,,0000,0000,0000,fx,f
 Dialogue: 0,0:22:37.71,0:22:40.92,Signs,,0000,0000,0000,fx,u
-Dialogue: 2,0:22:40.92,0:22:40.92,romaji red version,,0000,0000,0000,fx,{\an5\be1\move(254,20,254,20)\1c&H01FFFFFF&\t(\bord2\1c&H005BB9FF&\3c&H01FFFFFF&)}fu
-Dialogue: 2,0:22:40.92,0:22:41.13,romaji red version,,0000,0000,0000,fx,{\an5\be1\bord2\move(254,20,254,20)\1c&H005BB9FF&\3a&H70&\fscx140\fscy140\t(\bord1.5\1c&H0068B8DF&\fscx100\fscy100\alpha&H70&\bord8\be25\3a&HC1&)}fu
 Dialogue: 0,0:22:41.13,0:22:45.46,Signs,,0000,0000,0000,fx,fu
 Dialogue: 0,0:22:37.75,0:22:41.13,Signs,,0000,0000,0000,fx,r
 Dialogue: 0,0:22:37.75,0:22:41.13,Signs,,0000,0000,0000,fx,u
-Dialogue: 2,0:22:41.13,0:22:41.21,romaji red version,,0000,0000,0000,fx,{\an5\be1\move(278,20,278,20)\1c&H01FFFFFF&\t(\bord2\1c&H005BB9FF&\3c&H01FFFFFF&)}ru
-Dialogue: 2,0:22:41.21,0:22:42.04,romaji red version,,0000,0000,0000,fx,{\an5\be1\bord2\move(278,20,278,20)\1c&H005BB9FF&\3a&H70&\fscx140\fscy140\t(\bord1.5\1c&H0068B8DF&\fscx100\fscy100\alpha&H70&\bord8\be25\3a&HC1&)}ru
 Dialogue: 0,0:22:42.04,0:22:45.46,Signs,,0000,0000,0000,fx,ru
 Dialogue: 0,0:22:37.79,0:22:42.04,Signs,,0000,0000,0000,fx,k
 Dialogue: 0,0:22:37.79,0:22:42.04,Signs,,0000,0000,0000,fx,o
-Dialogue: 2,0:22:42.04,0:22:42.08,romaji red version,,0000,0000,0000,fx,{\an5\be1\move(311,20,311,20)\1c&H01FFFFFF&\t(\bord2\1c&H005BB9FF&\3c&H01FFFFFF&)}ko
-Dialogue: 2,0:22:42.08,0:22:42.29,romaji red version,,0000,0000,0000,fx,{\an5\be1\bord2\move(311,20,311,20)\1c&H005BB9FF&\3a&H70&\fscx140\fscy140\t(\bord1.5\1c&H0068B8DF&\fscx100\fscy100\alpha&H70&\bord8\be25\3a&HC1&)}ko
 Dialogue: 0,0:22:42.29,0:22:45.46,Signs,,0000,0000,0000,fx,ko
 Dialogue: 0,0:22:37.83,0:22:42.29,Signs,,0000,0000,0000,fx,n
 Dialogue: 0,0:22:37.83,0:22:42.29,Signs,,0000,0000,0000,fx,o
-Dialogue: 2,0:22:42.29,0:22:42.34,romaji red version,,0000,0000,0000,fx,{\an5\be1\move(338,20,338,20)\1c&H01FFFFFF&\t(\bord2\1c&H005BB9FF&\3c&H01FFFFFF&)}no
-Dialogue: 2,0:22:42.34,0:22:42.50,romaji red version,,0000,0000,0000,fx,{\an5\be1\bord2\move(338,20,338,20)\1c&H005BB9FF&\3a&H70&\fscx140\fscy140\t(\bord1.5\1c&H0068B8DF&\fscx100\fscy100\alpha&H70&\bord8\be25\3a&HC1&)}no
 Dialogue: 0,0:22:42.50,0:22:45.46,Signs,,0000,0000,0000,fx,no
 Dialogue: 0,0:22:37.87,0:22:42.50,Signs,,0000,0000,0000,fx,m
 Dialogue: 0,0:22:37.87,0:22:42.50,Signs,,0000,0000,0000,fx,i
-Dialogue: 2,0:22:42.50,0:22:42.54,romaji red version,,0000,0000,0000,fx,{\an5\be1\move(373,20,373,20)\1c&H01FFFFFF&\t(\bord2\1c&H005BB9FF&\3c&H01FFFFFF&)}mi
-Dialogue: 2,0:22:42.54,0:22:42.67,romaji red version,,0000,0000,0000,fx,{\an5\be1\bord2\move(373,20,373,20)\1c&H005BB9FF&\3a&H70&\fscx140\fscy140\t(\bord1.5\1c&H0068B8DF&\fscx100\fscy100\alpha&H70&\bord8\be25\3a&HC1&)}mi
 Dialogue: 0,0:22:42.67,0:22:45.46,Signs,,0000,0000,0000,fx,mi
 Dialogue: 0,0:22:37.91,0:22:42.67,Signs,,0000,0000,0000,fx,c
 Dialogue: 0,0:22:37.91,0:22:42.67,Signs,,0000,0000,0000,fx,h
 Dialogue: 0,0:22:37.96,0:22:42.67,Signs,,0000,0000,0000,fx,i
-Dialogue: 2,0:22:42.67,0:22:42.71,romaji red version,,0000,0000,0000,fx,{\an5\be1\move(405,20,405,20)\1c&H01FFFFFF&\t(\bord2\1c&H005BB9FF&\3c&H01FFFFFF&)}chi
-Dialogue: 2,0:22:42.71,0:22:42.88,romaji red version,,0000,0000,0000,fx,{\an5\be1\bord2\move(405,20,405,20)\1c&H005BB9FF&\3a&H70&\fscx140\fscy140\t(\bord1.5\1c&H0068B8DF&\fscx100\fscy100\alpha&H70&\bord8\be25\3a&HC1&)}chi
 Dialogue: 0,0:22:42.88,0:22:45.46,Signs,,0000,0000,0000,fx,chi
 Dialogue: 0,0:22:37.96,0:22:42.88,Signs,,0000,0000,0000,fx,w
 Dialogue: 0,0:22:38.00,0:22:42.88,Signs,,0000,0000,0000,fx,a
-Dialogue: 2,0:22:42.88,0:22:42.92,romaji red version,,0000,0000,0000,fx,{\an5\be1\move(446,20,446,20)\1c&H01FFFFFF&\t(\bord2\1c&H005BB9FF&\3c&H01FFFFFF&)}wa
-Dialogue: 2,0:22:42.92,0:22:43.29,romaji red version,,0000,0000,0000,fx,{\an5\be1\bord2\move(446,20,446,20)\1c&H005BB9FF&\3a&H70&\fscx140\fscy140\t(\bord1.5\1c&H0068B8DF&\fscx100\fscy100\alpha&H70&\bord8\be25\3a&HC1&)}wa
 Dialogue: 0,0:22:43.29,0:22:45.46,Signs,,0000,0000,0000,fx,wa
 Dialogue: 0,0:22:38.00,0:22:43.29,Signs,,0000,0000,0000,fx,k
 Dialogue: 0,0:22:38.04,0:22:43.29,Signs,,0000,0000,0000,fx,a
-Dialogue: 2,0:22:43.29,0:22:43.34,romaji red version,,0000,0000,0000,fx,{\an5\be1\move(484,20,484,20)\1c&H01FFFFFF&\t(\bord2\1c&H005BB9FF&\3c&H01FFFFFF&)}ka
-Dialogue: 2,0:22:43.34,0:22:43.59,romaji red version,,0000,0000,0000,fx,{\an5\be1\bord2\move(484,20,484,20)\1c&H005BB9FF&\3a&H70&\fscx140\fscy140\t(\bord1.5\1c&H0068B8DF&\fscx100\fscy100\alpha&H70&\bord8\be25\3a&HC1&)}ka
 Dialogue: 0,0:22:43.59,0:22:45.46,Signs,,0000,0000,0000,fx,ka
 Dialogue: 0,0:22:38.04,0:22:43.59,Signs,,0000,0000,0000,fx,w
 Dialogue: 0,0:22:38.08,0:22:43.59,Signs,,0000,0000,0000,fx,a
-Dialogue: 2,0:22:43.59,0:22:43.63,romaji red version,,0000,0000,0000,fx,{\an5\be1\move(514,20,514,20)\1c&H01FFFFFF&\t(\bord2\1c&H005BB9FF&\3c&H01FFFFFF&)}wa
-Dialogue: 2,0:22:43.63,0:22:43.96,romaji red version,,0000,0000,0000,fx,{\an5\be1\bord2\move(514,20,514,20)\1c&H005BB9FF&\3a&H70&\fscx140\fscy140\t(\bord1.5\1c&H0068B8DF&\fscx100\fscy100\alpha&H70&\bord8\be25\3a&HC1&)}wa
 Dialogue: 0,0:22:43.96,0:22:45.46,Signs,,0000,0000,0000,fx,wa
 Dialogue: 0,0:22:38.08,0:22:43.96,Signs,,0000,0000,0000,fx,r
 Dialogue: 0,0:22:38.12,0:22:43.96,Signs,,0000,0000,0000,fx,a
-Dialogue: 2,0:22:43.96,0:22:44.00,romaji red version,,0000,0000,0000,fx,{\an5\be1\move(543,20,543,20)\1c&H01FFFFFF&\t(\bord2\1c&H005BB9FF&\3c&H01FFFFFF&)}ra
-Dialogue: 2,0:22:44.00,0:22:44.30,romaji red version,,0000,0000,0000,fx,{\an5\be1\bord2\move(543,20,543,20)\1c&H005BB9FF&\3a&H70&\fscx140\fscy140\t(\bord1.5\1c&H0068B8DF&\fscx100\fscy100\alpha&H70&\bord8\be25\3a&HC1&)}ra
 Dialogue: 0,0:22:44.30,0:22:45.46,Signs,,0000,0000,0000,fx,ra
 Dialogue: 0,0:22:38.12,0:22:44.30,Signs,,0000,0000,0000,fx,z
 Dialogue: 0,0:22:38.16,0:22:44.30,Signs,,0000,0000,0000,fx,u
-Dialogue: 2,0:22:44.30,0:22:44.38,romaji red version,,0000,0000,0000,fx,{\an5\be1\move(569,20,569,20)\1c&H01FFFFFF&\t(\bord2\1c&H005BB9FF&\3c&H01FFFFFF&)}zu
-Dialogue: 2,0:22:44.38,0:22:45.25,romaji red version,,0000,0000,0000,fx,{\an5\be1\bord2\move(569,20,569,20)\1c&H005BB9FF&\3a&H70&\fscx140\fscy140\t(\bord1.5\1c&H0068B8DF&\fscx100\fscy100\alpha&H70&\bord8\be25\3a&HC1&)}zu
 Dialogue: 0,0:22:45.25,0:22:45.46,Signs,,0000,0000,0000,fx,zu
 Dialogue: 0,0:22:45.09,0:22:45.71,Signs,,0000,0000,0000,fx,u
-Dialogue: 2,0:22:45.71,0:22:45.76,romaji pink version,,0000,0000,0000,fx,{\an5\be1\move(188,18,188,18)\1c&H00FFFFFF&\t(\bord2\1c&H00DBE1FE&\3c&H00FFFFFF&)}u
-Dialogue: 2,0:22:45.76,0:22:46.09,romaji pink version,,0000,0000,0000,fx,{\an5\be1\bord2\move(188,18,188,18)\1c&H00DBE1FE&\3a&H70&\fscx140\fscy140\t(\bord1.5\1c&H00E0D6F3&\fscx100\fscy100\alpha&H70&\bord8\be25\3a&HC1&)}u
 Dialogue: 0,0:22:46.09,0:22:51.39,Signs,,0000,0000,0000,fx,u
 Dialogue: 0,0:22:45.09,0:22:46.09,Signs,,0000,0000,0000,fx,d
 Dialogue: 0,0:22:45.13,0:22:46.09,Signs,,0000,0000,0000,fx,e
-Dialogue: 2,0:22:46.09,0:22:46.13,romaji pink version,,0000,0000,0000,fx,{\an5\be1\move(206,18,206,18)\1c&H00FFFFFF&\t(\bord2\1c&H00DBE1FE&\3c&H00FFFFFF&)}de
-Dialogue: 2,0:22:46.13,0:22:46.38,romaji pink version,,0000,0000,0000,fx,{\an5\be1\bord2\move(206,18,206,18)\1c&H00DBE1FE&\3a&H70&\fscx140\fscy140\t(\bord1.5\1c&H00E0D6F3&\fscx100\fscy100\alpha&H70&\bord8\be25\3a&HC1&)}de
 Dialogue: 0,0:22:46.38,0:22:51.39,Signs,,0000,0000,0000,fx,de
 Dialogue: 0,0:22:45.13,0:22:46.38,Signs,,0000,0000,0000,fx,w
 Dialogue: 0,0:22:45.17,0:22:46.38,Signs,,0000,0000,0000,fx,o
-Dialogue: 2,0:22:46.38,0:22:46.38,romaji pink version,,0000,0000,0000,fx,{\an5\be1\move(239,18,239,18)\1c&H00FFFFFF&\t(\bord2\1c&H00DBE1FE&\3c&H00FFFFFF&)}wo
-Dialogue: 2,0:22:46.38,0:22:46.51,romaji pink version,,0000,0000,0000,fx,{\an5\be1\bord2\move(239,18,239,18)\1c&H00DBE1FE&\3a&H70&\fscx140\fscy140\t(\bord1.5\1c&H00E0D6F3&\fscx100\fscy100\alpha&H70&\bord8\be25\3a&HC1&)}wo
 Dialogue: 0,0:22:46.51,0:22:51.39,Signs,,0000,0000,0000,fx,wo
 Dialogue: 0,0:22:45.17,0:22:46.51,Signs,,0000,0000,0000,fx,k
 Dialogue: 0,0:22:45.21,0:22:46.51,Signs,,0000,0000,0000,fx,a
-Dialogue: 2,0:22:46.51,0:22:46.51,romaji pink version,,0000,0000,0000,fx,{\an5\be1\move(273,18,273,18)\1c&H00FFFFFF&\t(\bord2\1c&H00DBE1FE&\3c&H00FFFFFF&)}ka
-Dialogue: 2,0:22:46.51,0:22:46.80,romaji pink version,,0000,0000,0000,fx,{\an5\be1\bord2\move(273,18,273,18)\1c&H00DBE1FE&\3a&H70&\fscx140\fscy140\t(\bord1.5\1c&H00E0D6F3&\fscx100\fscy100\alpha&H70&\bord8\be25\3a&HC1&)}ka
 Dialogue: 0,0:22:46.80,0:22:51.39,Signs,,0000,0000,0000,fx,ka
 Dialogue: 0,0:22:45.21,0:22:46.80,Signs,,0000,0000,0000,fx,r
 Dialogue: 0,0:22:45.25,0:22:46.80,Signs,,0000,0000,0000,fx,a
-Dialogue: 2,0:22:46.80,0:22:46.80,romaji pink version,,0000,0000,0000,fx,{\an5\be1\move(296,18,296,18)\1c&H00FFFFFF&\t(\bord2\1c&H00DBE1FE&\3c&H00FFFFFF&)}ra
-Dialogue: 2,0:22:46.80,0:22:47.13,romaji pink version,,0000,0000,0000,fx,{\an5\be1\bord2\move(296,18,296,18)\1c&H00DBE1FE&\3a&H70&\fscx140\fscy140\t(\bord1.5\1c&H00E0D6F3&\fscx100\fscy100\alpha&H70&\bord8\be25\3a&HC1&)}ra
 Dialogue: 0,0:22:47.13,0:22:51.39,Signs,,0000,0000,0000,fx,ra
 Dialogue: 0,0:22:45.25,0:22:47.13,Signs,,0000,0000,0000,fx,m
 Dialogue: 0,0:22:45.30,0:22:47.13,Signs,,0000,0000,0000,fx,e
-Dialogue: 2,0:22:47.13,0:22:47.17,romaji pink version,,0000,0000,0000,fx,{\an5\be1\move(322,18,322,18)\1c&H00FFFFFF&\t(\bord2\1c&H00DBE1FE&\3c&H00FFFFFF&)}me
-Dialogue: 2,0:22:47.17,0:22:47.51,romaji pink version,,0000,0000,0000,fx,{\an5\be1\bord2\move(322,18,322,18)\1c&H00DBE1FE&\3a&H70&\fscx140\fscy140\t(\bord1.5\1c&H00E0D6F3&\fscx100\fscy100\alpha&H70&\bord8\be25\3a&HC1&)}me
 Dialogue: 0,0:22:47.51,0:22:51.39,Signs,,0000,0000,0000,fx,me
 Dialogue: 0,0:22:45.30,0:22:47.51,Signs,,0000,0000,0000,fx,a
-Dialogue: 2,0:22:47.51,0:22:47.51,romaji pink version,,0000,0000,0000,fx,{\an5\be1\move(349,18,349,18)\1c&H00FFFFFF&\t(\bord2\1c&H00DBE1FE&\3c&H00FFFFFF&)}a
-Dialogue: 2,0:22:47.51,0:22:47.72,romaji pink version,,0000,0000,0000,fx,{\an5\be1\bord2\move(349,18,349,18)\1c&H00DBE1FE&\3a&H70&\fscx140\fscy140\t(\bord1.5\1c&H00E0D6F3&\fscx100\fscy100\alpha&H70&\bord8\be25\3a&HC1&)}a
 Dialogue: 0,0:22:47.72,0:22:51.39,Signs,,0000,0000,0000,fx,a
 Dialogue: 0,0:22:45.30,0:22:47.72,Signs,,0000,0000,0000,fx,r
 Dialogue: 0,0:22:45.34,0:22:47.72,Signs,,0000,0000,0000,fx,u
-Dialogue: 2,0:22:47.72,0:22:47.72,romaji pink version,,0000,0000,0000,fx,{\an5\be1\move(366,18,366,18)\1c&H00FFFFFF&\t(\bord2\1c&H00DBE1FE&\3c&H00FFFFFF&)}ru
-Dialogue: 2,0:22:47.72,0:22:48.09,romaji pink version,,0000,0000,0000,fx,{\an5\be1\bord2\move(366,18,366,18)\1c&H00DBE1FE&\3a&H70&\fscx140\fscy140\t(\bord1.5\1c&H00E0D6F3&\fscx100\fscy100\alpha&H70&\bord8\be25\3a&HC1&)}ru
 Dialogue: 0,0:22:48.09,0:22:51.39,Signs,,0000,0000,0000,fx,ru
 Dialogue: 0,0:22:45.34,0:22:48.09,Signs,,0000,0000,0000,fx,k
 Dialogue: 0,0:22:45.38,0:22:48.09,Signs,,0000,0000,0000,fx,i
-Dialogue: 2,0:22:48.09,0:22:48.09,romaji pink version,,0000,0000,0000,fx,{\an5\be1\move(388,18,388,18)\1c&H00FFFFFF&\t(\bord2\1c&H00DBE1FE&\3c&H00FFFFFF&)}ki
-Dialogue: 2,0:22:48.09,0:22:48.34,romaji pink version,,0000,0000,0000,fx,{\an5\be1\bord2\move(388,18,388,18)\1c&H00DBE1FE&\3a&H70&\fscx140\fscy140\t(\bord1.5\1c&H00E0D6F3&\fscx100\fscy100\alpha&H70&\bord8\be25\3a&HC1&)}ki
 Dialogue: 0,0:22:48.34,0:22:51.39,Signs,,0000,0000,0000,fx,ki
 Dialogue: 0,0:22:45.38,0:22:48.34,Signs,,0000,0000,0000,fx,t
 Dialogue: 0,0:22:45.42,0:22:48.34,Signs,,0000,0000,0000,fx,a
-Dialogue: 2,0:22:48.34,0:22:48.38,romaji pink version,,0000,0000,0000,fx,{\an5\be1\move(408,18,408,18)\1c&H00FFFFFF&\t(\bord2\1c&H00DBE1FE&\3c&H00FFFFFF&)}ta
-Dialogue: 2,0:22:48.38,0:22:48.72,romaji pink version,,0000,0000,0000,fx,{\an5\be1\bord2\move(408,18,408,18)\1c&H00DBE1FE&\3a&H70&\fscx140\fscy140\t(\bord1.5\1c&H00E0D6F3&\fscx100\fscy100\alpha&H70&\bord8\be25\3a&HC1&)}ta
 Dialogue: 0,0:22:48.72,0:22:51.39,Signs,,0000,0000,0000,fx,ta
 Dialogue: 0,0:22:45.42,0:22:48.72,Signs,,0000,0000,0000,fx,i
-Dialogue: 2,0:22:48.72,0:22:48.72,romaji pink version,,0000,0000,0000,fx,{\an5\be1\move(422,18,422,18)\1c&H00FFFFFF&\t(\bord2\1c&H00DBE1FE&\3c&H00FFFFFF&)}i
-Dialogue: 2,0:22:48.72,0:22:48.92,romaji pink version,,0000,0000,0000,fx,{\an5\be1\bord2\move(422,18,422,18)\1c&H00DBE1FE&\3a&H70&\fscx140\fscy140\t(\bord1.5\1c&H00E0D6F3&\fscx100\fscy100\alpha&H70&\bord8\be25\3a&HC1&)}i
 Dialogue: 0,0:22:48.92,0:22:51.39,Signs,,0000,0000,0000,fx,i
 Dialogue: 0,0:22:45.46,0:22:48.92,Signs,,0000,0000,0000,fx,n
 Dialogue: 0,0:22:45.46,0:22:48.92,Signs,,0000,0000,0000,fx,a
-Dialogue: 2,0:22:48.92,0:22:49.18,romaji pink version,,0000,0000,0000,fx,{\an5\be1\move(446,18,446,18)\1c&H00FFFFFF&\t(\bord2\1c&H00DBE1FE&\3c&H00FFFFFF&)}na
-Dialogue: 2,0:22:49.18,0:22:51.18,romaji pink version,,0000,0000,0000,fx,{\an5\be1\bord2\move(446,18,446,18)\1c&H00DBE1FE&\3a&H70&\fscx140\fscy140\t(\bord1.5\1c&H00E0D6F3&\fscx100\fscy100\alpha&H70&\bord8\be25\3a&HC1&)}na
 Dialogue: 0,0:22:51.18,0:22:51.39,Signs,,0000,0000,0000,fx,na

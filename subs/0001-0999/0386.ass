@@ -33,7 +33,7 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: ELz 1,Titan,32,&H00DAB59D,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,10,1Style: TLLyrics 2,00472,23,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2.9,2,2,10,10,10,1Style: Üstyazı,00568,25,&H00FFFFFF,&H0300FFFF,&H00000000,&H02000000,0,0,0,0,100,100,0,0,1,2.70838,0,8,10,10,29,1Style: Title003,calibri,22,&H00A97DEF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.50838,0,2,5,0,70,1Style: Title005,Gabriola,45,&H002EC6FF,&H000000FF,&H00504D20,&H00000000,-1,0,0,0,65,110,0,0,1,1.10559,1.5,2,75,0,0,1Style: ÖzelYazı001,Duvall TR,20,&H00FFFFFF,&H0300FFFF,&H00000000,&H02000000,0,0,0,0,100,113,0,0,1,1.50838,0,2,0,0,7,1Style: ÖzelYazı003,Duvall TR,16,&H00FFFFFF,&H0300FFFF,&H00000000,&H02000000,0,0,0,0,100,100,0,0,1,1.50838,0,2,123,0,8,1Style: ÖzelYazı005,Duvall TR,20,&H00FFFFFF,&H0300FFFF,&H00000000,&H02000000,0,0,0,0,110,106,0,0,1,2.20838,0,2,0,125,45,1Style: ÖzelYazı007,Duvall TR,16,&H00FFFFFF,&H0300FFFF,&H00000000,&H02000000,0,0,0,0,100,100,0,0,1,1.50838,0,2,0,0,8,1Style: ÖzelYazı009,Duvall TR,16,&H00FFFFFF,&H0300FFFF,&H00000000,&H02000000,0,0,0,0,100,100,0,0,1,1.50838,0,2,0,85,8,1
+Style: Üstyazı,00568,25,&H00FFFFFF,&H0300FFFF,&H00000000,&H02000000,0,0,0,0,100,100,0,0,1,2.70838,0,8,10,10,29,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -170,15 +170,15 @@ Dialogue: 0,0:11:02.20,0:11:04.12,Dialogue,,0,0,0,,Just now, could that have bee
 Dialogue: 0,0:11:22.64,0:11:24.30,Dialogue,,0,0,0,,G-Grandmother!
 Dialogue: 0,0:11:28.06,0:11:29.52,Dialogue,,0,0,0,,Quick! Cali an ambulance!
 Dialogue: 0,0:11:29.60,0:11:30.31,Dialogue,,0,0,0,,Ah, yes!
-Dialogue: 0,0:11:41.20,0:11:43.86,Dialogue,,0,0,0,,{\3c&H5D5748&}The grandmother's name was Ayane; her initial was A'
-Dialogue: 0,0:11:44.37,0:11:45.37,Dialogue,,0,0,0,,{\3c&H5D5748&}What's going on?
+Dialogue: 0,0:11:41.20,0:11:43.86,Dialogue,,0,0,0,,The grandmother's name was Ayane; her initial was A'
+Dialogue: 0,0:11:44.37,0:11:45.37,Dialogue,,0,0,0,,What's going on?
 Dialogue: 0,0:11:49.12,0:11:52.79,Dialogue,,0,0,0,,Nobody can try to take it. What's mine is mine.
 Dialogue: 0,0:11:55.67,0:11:56.79,Dialogue,,0,0,0,,Which one is the storage room?
 Dialogue: 0,0:11:57.13,0:11:58.50,Dialogue,,0,0,0,,The last one on the right.
 Dialogue: 0,0:12:01.59,0:12:02.47,Dialogue,,0,0,0,,Hey!
 Dialogue: 0,0:12:03.51,0:12:05.30,Dialogue,,0,0,0,,It's locked from the inside.
 Dialogue: 0,0:12:06.05,0:12:08.05,Dialogue,,0,0,0,,And there's a chair beside the window.
-Dialogue: 0,0:12:08.26,0:12:09.43,Dialogue,,0,0,0,,{\3c&H594E37&}Was it really suicide?
+Dialogue: 0,0:12:08.26,0:12:09.43,Dialogue,,0,0,0,,Was it really suicide?
 Dialogue: 0,0:12:18.98,0:12:22.90,Dialogue,,0,0,0,,My, my. You're a harbinger\Nof death as always, Mouri{\rHonorifics - Dialogue}-kun{\r}.
 Dialogue: 0,0:12:23.11,0:12:26.03,Dialogue,,0,0,0,,Oh come on, Inspector, it's just a coincidence!
 Dialogue: 0,0:12:26.20,0:12:31.54,Dialogue,,0,0,0,,Besides, it's inevitable for us great detectives\Ncases always seems to occur when we're around.
@@ -337,7 +337,7 @@ Dialogue: 0,0:22:08.74,0:22:10.78,Dialogue,,0,0,0,,Ali that remains is the myste
 Dialogue: 0,0:22:18.46,0:22:21.46,Dialogue,,0,0,0,,That's ît! So this is how it was done!
 Dialogue: 0,0:22:22.79,0:22:24.84,Dialogue,,0,0,0,,But there's still one thing I don't understand.
 Dialogue: 0,0:22:25.46,0:22:27.80,Dialogue,,0,0,0,,Why would they insist on doing such a thing?
-Dialogue: 0,0:22:28.72,0:22:29.93,Dialogue,,0,0,0,,{\3c&H484637&}That person...
+Dialogue: 0,0:22:28.72,0:22:29.93,Dialogue,,0,0,0,,That person...
 Dialogue: 0,0:24:00.31,0:24:01.93,Dialogue,,0,0,0,,You know who the culprit is?
 Dialogue: 0,0:24:02.27,0:24:07.06,Dialogue,,0,0,0,,Two years ago; the real series\Nof murders began in this mansion.
 Dialogue: 0,0:24:07.32,0:24:11.07,Dialogue,,0,0,0,,But why do you need this\N^Stradivarius to solve the mystery?

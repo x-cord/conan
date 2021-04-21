@@ -33,9 +33,7 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: title01,Arial,15,&H008F9190,&H000000FF,&H00F5F2F9,&H00000000,-1,0,0,0,120,100,0,-10,1,0,0,2,10,10,10,1
 Style: title03,Times New Roman,25,&H00343532,&H000000FF,&H00ECEFE8,&H00000000,-1,0,0,0,100,100,0,0,3,2,0,2,230,0,240,1
-Style: title01 - 1,Arial Narrow,15,&H008F9190,&H000000FF,&H00F5F2F9,&H00000000,-1,0,0,0,100,100,0,-10,3,1,0,2,10,10,10,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -45,13 +43,13 @@ Dialogue: 0,0:00:07.48,0:00:12.11,Dialogue,,0,0,0,,We Detective Boys then discov
 Dialogue: 0,0:00:12.85,0:00:15.56,Dialogue,,0,0,0,,As for the suspiciously clever deductions\Nmade by Mitsuhiko and the others...
 Dialogue: 0,0:00:16.07,0:00:20.95,Dialogue,,0,0,0,,Those were actually supplied by Hattori Heiji,\Nwho'd just visited the detective agency.
 Dialogue: 0,0:00:21.82,0:00:25.05,Dialogue,,0,0,0,,What the hell is Hattori even doing here?
-Dialogue: 0,0:00:27.66,0:00:29.20,Dialogue,,0,0,0,,{\fad(100,100)\1c&HFFFFFF&\3c&HA22628&\}Flowers dance to the piano's rhythm.
-Dialogue: 0,0:00:29.45,0:00:31.05,Dialogue,,0,0,0,,{\fad(100,0)\1c&HFFFFFF&\3c&HA22628&\}Two people face-to-face is a mystery!
-Dialogue: 0,0:00:31.62,0:00:33.63,Dialogue,,0,0,0,,{\fad(100,0)\1c&HFFFFFF&\3c&HA22628&\}With a secret inside that she doesn't want Heiji to know...
-Dialogue: 0,0:00:33.63,0:00:35.44,Dialogue,,0,0,0,,{\fad(0,100)\1c&HFFFFFF&\3c&HA22628&\}Kazuha's charm has disappeared?
-Dialogue: 0,0:00:35.74,0:00:37.59,Dialogue,,0,0,0,,{\fad(100,0)\xshad1.3\1c&H6AE8FA&\4c&H294A50&\}Perceiving the one and only truth...
-Dialogue: 0,0:00:37.59,0:00:39.55,Dialogue,,0,0,0,,{\fad(0,0)\xshad1.3\1c&H6AE8FA&\4c&H294A50&\}The appearance of a child and the intellect of an adult...
-Dialogue: 0,0:00:39.55,0:00:41.39,Dialogue,,0,0,0,,{\fad(0,50)\xshad1.3\1c&H6AE8FA&\4c&H294A50&\}His name is: Detective {\t(1270,1271,\1c&H4331B1&)}Conan!
+Dialogue: 0,0:00:27.66,0:00:29.20,Dialogue,,0,0,0,,Flowers dance to the piano's rhythm.
+Dialogue: 0,0:00:29.45,0:00:31.05,Dialogue,,0,0,0,,Two people face-to-face is a mystery!
+Dialogue: 0,0:00:31.62,0:00:33.63,Dialogue,,0,0,0,,With a secret inside that she doesn't want Heiji to know...
+Dialogue: 0,0:00:33.63,0:00:35.44,Dialogue,,0,0,0,,Kazuha's charm has disappeared?
+Dialogue: 0,0:00:35.74,0:00:37.59,Dialogue,,0,0,0,,Perceiving the one and only truth...
+Dialogue: 0,0:00:37.59,0:00:39.55,Dialogue,,0,0,0,,The appearance of a child and the intellect of an adult...
+Dialogue: 0,0:00:39.55,0:00:41.39,Dialogue,,0,0,0,,His name is: Detective Conan!
 Dialogue: 0,0:02:29.37,0:02:30.95,Dialogue,,0,0,0,,Looking for someone?
 Dialogue: 0,0:02:31.58,0:02:34.66,Dialogue,,0,0,0,,You came all the way to Tokyo just to look for somebody?
 Dialogue: 0,0:02:35.16,0:02:35.91,Dialogue,,0,0,0,,That's right.
@@ -69,7 +67,7 @@ Dialogue: 0,0:03:07.90,0:03:10.95,Dialogue,,0,0,0,,Can't you just ask your mom t
 Dialogue: 0,0:03:11.54,0:03:13.79,Dialogue Top,,0,0,0,,I want Kazuha{\rHonorifics - Dialogue}-chan{\r}'s handmade charm.
 Dialogue: 0,0:03:13.80,0:03:17.53,Dialogue Top,,0,0,0,,They say your charms are very effective, right?
 Dialogue: 0,0:03:17.59,0:03:19.80,Dialogue Top,,0,0,0,,Besides, I don't want to lose this tournament!
-Dialogue: 0,0:03:11.21,0:03:17.34,Signs,,0,0,0,,Kunisue Teruaki (20)\NTeitan University Second Student
+Dialogue: 0,0:03:11.21,0:03:17.34,Character Card,,0,0,0,,Kunisue Teruaki (20)\NTeitan University Second Student
 Dialogue: 0,0:03:20.46,0:03:21.33,Dialogue,,0,0,0,,Well?
 Dialogue: 0,0:03:21.33,0:03:22.33,Dialogue,,0,0,0,,Please?
 Dialogue: 0,0:03:22.34,0:03:23.65,Dialogue,,0,0,0,,I'm begging you.
@@ -96,7 +94,6 @@ Dialogue: 0,0:04:24.90,0:04:28.28,Dialogue,,0,0,0,,I'm about to leave on the bul
 Dialogue: 0,0:04:28.82,0:04:30.82,Dialogue,,0,0,0,,In that case, I'll get it for you.
 Dialogue: 0,0:04:31.74,0:04:34.70,Dialogue,,0,0,0,,If she said she'd give it to you, it must be in her bag, right?
 Dialogue: 0,0:04:37.29,0:04:38.24,Dialogue,,0,0,0,,Found it, found it.
-Dialogue: 0,0:04:35.79,0:04:38.29,Signs,,0,0,0,,\h\h\h\h\h\h\h
 Dialogue: 0,0:04:35.79,0:04:38.29,Signs,,0,0,0,,Dressing\NRoom
 Dialogue: 0,0:04:39.20,0:04:40.25,Dialogue,,0,0,0,,Here it is.
 Dialogue: 0,0:04:40.79,0:04:43.15,Dialogue,,0,0,0,,Wait, that charm...
@@ -367,7 +364,7 @@ Dialogue: 0,0:18:47.18,0:18:48.89,Dialogue,,0,0,0,,You in the glasses.
 Dialogue: 0,0:18:50.17,0:18:50.89,Dialogue Top,,0,0,0,,Yes.
 Dialogue: 0,0:18:50.89,0:18:53.07,Dialogue Top,,0,0,0,,My name is Satsuma Kazuo.
 Dialogue: 0,0:18:53.21,0:19:00.16,Dialogue Top,,0,0,0,,I came to this place a little after eight, and didn't\Nknow anything about the anniversary thing.
-Dialogue: 0,0:18:52.94,0:18:57.74,Signs,,0,0,0,,Satsuma Kazuo (51)
+Dialogue: 0,0:18:52.94,0:18:57.74,Character Card,,0,0,0,,Satsuma Kazuo (51)
 Dialogue: 0,0:19:00.61,0:19:01.77,Dialogue,,0,0,0,,Is that so?
 Dialogue: 0,0:19:01.77,0:19:03.35,Dialogue,,0,0,0,,I'm not lying!
 Dialogue: 0,0:19:04.40,0:19:10.46,Dialogue,,0,0,0,,When I came in, the customers were clapping and getting\Nroused up, so I thought something might have happened.
@@ -388,7 +385,7 @@ Dialogue: 0,0:19:44.48,0:19:47.32,Dialogue,,0,0,0,,He watched sumo broadcasts be
 Dialogue: 0,0:19:48.20,0:19:50.48,Dialogue Top,,0,0,0,,The name's Harufuji Kengo.
 Dialogue: 0,0:19:50.66,0:19:53.58,Dialogue Top,,0,0,0,,Someone called me just before eight.
 Dialogue: 0,0:19:53.59,0:19:59.04,Dialogue Top,,0,0,0,,I thought it'd be too noisy when they set off\Ntheir crackers, so I left the cafe for a bit.
-Dialogue: 0,0:19:50.25,0:19:56.50,Signs,,0,0,0,,Harufuji Kengo (44)
+Dialogue: 0,0:19:50.25,0:19:56.50,Character Card,,0,0,0,,Harufuji Kengo (44)
 Dialogue: 0,0:19:59.29,0:20:01.87,Dialogue,,0,0,0,,About that call, who was it?
 Dialogue: 0,0:20:01.88,0:20:02.96,Dialogue,,0,0,0,,I dunno!
 Dialogue: 0,0:20:03.63,0:20:09.36,Dialogue,,0,0,0,,Some kinda solicitor with a damn long\Nspeech, so I yelled at him and hung up.
@@ -409,7 +406,7 @@ Dialogue: 0,0:20:52.80,0:20:54.93,Dialogue,,0,0,0,,Well, he seemed to like it.
 Dialogue: 0,0:20:55.76,0:20:58.01,Dialogue,,0,0,0,,Well then, it's your turn...
 Dialogue: 0,0:20:58.89,0:21:01.46,Dialogue Top,,0,0,0,,My name's Kyuuma Takuya.
 Dialogue: 0,0:21:01.92,0:21:05.10,Dialogue Top,,0,0,0,,The reason I wasn't here at 8:00 was\NBecause I ran out of cigarettes...
-Dialogue: 0,0:21:01.44,0:21:05.10,Signs,,0,0,0,,Kyuuma Takuya (26)
+Dialogue: 0,0:21:01.44,0:21:05.10,Character Card,,0,0,0,,Kyuuma Takuya (26)
 Dialogue: 0,0:21:05.98,0:21:11.99,Dialogue,,0,0,0,,And the cafe's vending machine didn't carry my\Nfavorite brand, so I went out to buy some.
 Dialogue: 0,0:21:12.57,0:21:17.74,Dialogue,,0,0,0,,And when you returned with your cigarettes, there\Nwas an uproar and the police had arrived?
 Dialogue: 0,0:21:17.74,0:21:19.16,Dialogue,,0,0,0,,Yes.

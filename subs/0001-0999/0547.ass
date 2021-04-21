@@ -33,9 +33,10 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: title001,Comic Sans MS,18.5,&H00FFFFFF,&H00FFFFFF,&H64000000,&H00000000,-1,0,0,0,100,100,0,0,1,6,0,2,20,0,25,0Style: title001 - 3,Comic Sans MS,15,&H005D3921,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,2,75,0,135,0Style: title001 - 5,Comic Sans MS,18.5,&H00F7F5EF,&H00F7F5EF,&H00F7F5EF,&H00F7F5EF,-1,0,0,0,100,100,0,0,3,6,0,2,0,83,185,0
+Style: title001,Comic Sans MS,18.5,&H00FFFFFF,&H00FFFFFF,&H64000000,&H00000000,-1,0,0,0,100,100,0,0,1,6,0,2,20,0,25,0
+Style: title001 - 3,Comic Sans MS,15,&H005D3921,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,2,75,0,135,0
 Style: title002 - 1,Comic Sans MS,15,&H005D3921,&H00F7F5EF,&H00F7F5EF,&H00F7F5EF,-1,0,0,0,100,100,0,0,1,0,0,2,240,0,180,0
-Style: title002 - 2,Comic Sans MS,25,&H005D3921,&H00F7F5EF,&H00F8CFB1,&H00F7F5EF,-1,0,0,0,120,120,0,0,1,1,0,2,0,83,185,0Style: title003,Comic Sans MS,15,&H00FFFFFF,&H00FFFFFF,&H64000000,&H00000000,-1,0,0,0,100,100,0,0,1,6,0,2,20,0,25,0
+Style: title003,Comic Sans MS,15,&H00FFFFFF,&H00FFFFFF,&H64000000,&H00000000,-1,0,0,0,100,100,0,0,1,6,0,2,20,0,25,0
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -76,7 +77,7 @@ Dialogue: 0,0:04:06.55,0:04:08.01,Dialogue,,0,0,0,,So lucky!
 Dialogue: 0,0:04:08.01,0:04:09.30,Dialogue,,0,0,0,,Thanks for coming with us!
 Dialogue: 0,0:04:09.88,0:04:11.13,Dialogue,,0,0,0,,That's right!
 Dialogue: 0,0:04:11.13,0:04:12.47,Dialogue,,0,0,0,,It's all thanks to Conan{\rHonorifics - Dialogue}-kun{\r}.
-Dialogue: 0,0:04:15.23,0:04:19.36,title001,,0,0,0,,{\fad(100,0)\an7\be10\blur5\c&H92D4D5&}Kid's Service\N{\1c}Bring An elementary\Nschool student along\Nand save!!
+Dialogue: 0,0:04:15.23,0:04:19.36,title001,,0,0,0,,{\fad(100,0)\be10\blur5\c&H92D4D5&}Kid's Service\N{\1c}Bring An elementary\Nschool student along\Nand save!!
 Dialogue: 0,0:04:15.23,0:04:19.36,Signs,,0,0,0,,20% off
 Dialogue: 0,0:04:12.97,0:04:17.85,Dialogue,,0,0,0,,To think Creamy Heaven's Dragon Mountain Parfait is 20% off!
 Dialogue: 0,0:04:17.85,0:04:19.39,Dialogue,,0,0,0,,We're really lucky!
@@ -167,10 +168,10 @@ Dialogue: 0,0:09:36.75,0:09:38.92,Dialogue,,0,0,0,,I've already known that for a
 Dialogue: 0,0:09:39.80,0:09:42.47,Dialogue,,0,0,0,,And all of you, get over here as quickly as you can!
 Dialogue: 0,0:09:43.97,0:09:45.59,Dialogue,,0,0,0,,They lost him, huh?
 Dialogue: 0,0:09:45.59,0:09:46.43,Dialogue,,0,0,0,,Seems so.
-Dialogue: 0,0:09:49.88,0:09:54.84,Dialogue Top,,0,0,0,,{\c&HA3E0FD&}Last night, at a park near Shibuya-ku, company\Npresident Onda Kazuyoshi{\rHonorifics - Dialogue}-san{\r} was found shot dead.
-Dialogue: 0,0:09:54.89,0:10:00.37,Dialogue Top,,0,0,0,,{\c&HA3E0FD&}The primary suspect believed to be responsible for the slaying,\NOomine Ryousuke, age 25, is wanted for questioning.
-Dialogue: 0,0:10:01.16,0:10:06.99,Dialogue Top,,0,0,0,,{\c&HA3E0FD&}The suspect appears to have kidnapped a young boy\Nat Haido's shopping mall and is now fleeing by car.
-Dialogue: 0,0:10:07.43,0:10:11.50,Dialogue Top,,0,0,0,,{\c&HA3E0FD&}It is highly probable that suspect Oomine is armed, and the police...
+Dialogue: 0,0:09:49.88,0:09:54.84,Dialogue Top,,0,0,0,,Last night, at a park near Shibuya-ku, company\Npresident Onda Kazuyoshi{\rHonorifics - Dialogue}-san{\r} was found shot dead.
+Dialogue: 0,0:09:54.89,0:10:00.37,Dialogue Top,,0,0,0,,The primary suspect believed to be responsible for the slaying,\NOomine Ryousuke, age 25, is wanted for questioning.
+Dialogue: 0,0:10:01.16,0:10:06.99,Dialogue Top,,0,0,0,,The suspect appears to have kidnapped a young boy\Nat Haido's shopping mall and is now fleeing by car.
+Dialogue: 0,0:10:07.43,0:10:11.50,Dialogue Top,,0,0,0,,It is highly probable that suspect Oomine is armed, and the police...
 Dialogue: 0,0:09:59.02,0:10:00.40,Dialogue,,0,0,0,,Damn idiots!
 Dialogue: 0,0:10:00.40,0:10:01.98,Dialogue,,0,0,0,,I'm only 24!
 Dialogue: 0,0:10:12.66,0:10:14.62,Dialogue,,0,0,0,,Are you a killer?
@@ -234,14 +235,14 @@ Dialogue: 0,0:13:26.61,0:13:28.32,Dialogue,,0,0,0,,Wow, this is convenient!
 Dialogue: 0,0:13:28.65,0:13:31.24,Dialogue,,0,0,0,,I just upgraded to wireless LAN last month, did you forget?
 Dialogue: 0,0:13:31.99,0:13:33.61,Dialogue,,0,0,0,,Wireless "RAN"?
 Dialogue: 0,0:13:33.61,0:13:35.57,Dialogue,,0,0,0,,But you're Mouri Ran!
-Dialogue: 0,0:13:38.12,0:13:40.29,Signs,,0,0,0,,Game Programmer\h\h\h\h\h\h\h\h\h
+Dialogue: 0,0:13:38.12,0:13:40.29,Signs,,0,0,0,,Game Programmer
 Dialogue: 0,0:13:38.12,0:13:40.29,Signs,,0,0,0,,aaaaaaaaaa
-Dialogue: 0,0:13:38.12,0:13:40.29,title001 - 3,,0,0,0,,{\fad(420,0)\an7}32nd Games Awards winner.\NHired during our company's own\NOriginal Games Convention.\N\NYoungest programmer\Nin ONDACK Co.
+Dialogue: 0,0:13:38.12,0:13:40.29,title001 - 3,,0,0,0,,{\fad(420,0)}32nd Games Awards winner.\NHired during our company's own\NOriginal Games Convention.\N\NYoungest programmer\Nin ONDACK Co.
 Dialogue: 0,0:13:38.12,0:13:40.29,Signs,,0,0,0,,aaaaaaaaaa
-Dialogue: 0,0:13:38.12,0:13:40.29,title002 - 1,,0,0,0,,{\fad(420,0)\an7}Born in:\NIwate Prefecture\N\NBlood Type: B\N\NHOBBY:\NNone
+Dialogue: 0,0:13:38.12,0:13:40.29,title002 - 1,,0,0,0,,{\fad(420,0)}Born in:\NIwate Prefecture\N\NBlood Type: B\N\NHOBBY:\NNone
 Dialogue: 0,0:13:38.12,0:13:40.29,Signs,,0,0,0,,aaaaaaa
 Dialogue: 0,0:13:38.12,0:13:40.29,Signs,,0,0,0,,Kanayama Seiichi
-Dialogue: 0,0:13:41.88,0:13:45.30,title003,,0,0,0,,{\an7\blur6\c&HA8DCF0&\fad(100,0)}Under ONDACK Brand\N{\1c} - Sasuke VS Monster\N- Trio the Brothers\N- Detective R. Second\N- Zekakakaka\N- Drift Drift
+Dialogue: 0,0:13:41.88,0:13:45.30,title003,,0,0,0,,{\blur6\c&HA8DCF0&\fad(100,0)}Under ONDACK Brand\N{\1c} - Sasuke VS Monster\N- Trio the Brothers\N- Detective R. Second\N- Zekakakaka\N- Drift Drift
 Dialogue: 0,0:13:42.16,0:13:45.29,Dialogue,,0,0,0,,Looks like he's developed a lot of games...
 Dialogue: 0,0:13:46.08,0:13:48.84,Dialogue,,0,0,0,,He's a genius with games, this guy.
 Dialogue: 0,0:13:48.84,0:13:49.92,Dialogue,,0,0,0,,Dad...
@@ -315,7 +316,6 @@ Dialogue: 0,0:18:03.93,0:18:05.68,Dialogue,,0,0,0,,Why don't we go inside?
 Dialogue: 0,0:18:06.43,0:18:09.31,Dialogue,,0,0,0,,You must have so much to ask me, mustn't you?
 Dialogue: 0,0:18:10.64,0:18:11.64,Dialogue,,0,0,0,,Sure.
 Dialogue: 0,0:18:11.64,0:18:13.43,Dialogue,,0,0,0,,As you wish.
-Dialogue: 0,0:18:13.44,0:18:16.95,Dialogue,,0,0,0,,{\c&H353D3E&\move(212.727,124.364,178.909,124.364,10000,0)}Kanayama Seiichi
 Dialogue: 0,0:18:15.77,0:18:20.44,Dialogue,,0,0,0,,So, the kid Oomine kidnapped was living at Mouri{\rHonorifics - Dialogue}-san{\r}'s, huh?
 Dialogue: 0,0:18:20.44,0:18:22.44,Dialogue,,0,0,0,,And Oomine hasn't been captured yet.
 Dialogue: 0,0:18:23.65,0:18:29.70,Dialogue,,0,0,0,,One would assume a detective like the great Mouri\NKogorou would be out searching for him right now.
@@ -336,7 +336,7 @@ Dialogue: 0,0:19:12.49,0:19:14.91,Dialogue,,0,0,0,,Very stingy, that president.
 Dialogue: 0,0:19:14.91,0:19:16.50,Dialogue,,0,0,0,,He took the back-margin money himself...
 Dialogue: 0,0:19:17.08,0:19:21.17,Dialogue,,0,0,0,,And only left me, the game creator,\Na mere three million yen salary!
 Dialogue: 0,0:19:25.67,0:19:26.97,Dialogue,,0,0,0,,Excuse me.
-Dialogue: 0,0:19:28.47,0:19:33.48,title003,,0,0,0,,{\bord5\an7\blur5\c&HB8B7BA&\fad(100,0)\fad(100,0)\fs16}Received Log / Sent Log\N\N{\fs15\1c&HC8CCBA&}01 {\1c}Oomine [{\c&HC1B8B1&}Missed{\1c}]\N{\1c&HC8CCBA&}02 {\1c}Oomine [{\c&HC1B8B1&}Missed{\1c}]\N{\1c&HC8CCBA&}03 {\1c}Oomine [{\c&HC1B8B1&}Missed{\1c}]\N{\1c&HC8CCBA&}04 {\1c}Momoko\N{\1c&HC8CCBA&}05 {\1c}Kanda\N{\1c&HC8CCBA&}06 {\1c}Oomine [{\c&HC1B8B1&}Missed{\1c}]
+Dialogue: 0,0:19:28.47,0:19:33.48,title003,,0,0,0,,{\bord5\blur5\c&HB8B7BA&\fad(100,0)\fad(100,0)\fs16}Received Log / Sent Log\N\N{\fs15\1c&HC8CCBA&}01 {\1c}Oomine [{\c&HC1B8B1&}Missed{\1c}]\N{\1c&HC8CCBA&}02 {\1c}Oomine [{\c&HC1B8B1&}Missed{\1c}]\N{\1c&HC8CCBA&}03 {\1c}Oomine [{\c&HC1B8B1&}Missed{\1c}]\N{\1c&HC8CCBA&}04 {\1c}Momoko\N{\1c&HC8CCBA&}05 {\1c}Kanda\N{\1c&HC8CCBA&}06 {\1c}Oomine [{\c&HC1B8B1&}Missed{\1c}]
 Dialogue: 0,0:19:29.30,0:19:31.22,Dialogue,,0,0,0,,I haven't taken his calls.
 Dialogue: 0,0:19:31.22,0:19:32.56,Dialogue,,0,0,0,,You know it, right?
 Dialogue: 0,0:19:32.56,0:19:33.47,Dialogue,,0,0,0,,That mark.
@@ -410,5 +410,5 @@ Dialogue: 0,0:24:47.97,0:24:49.79,Dialogue,,0,0,0,,Window Wiping
 Dialogue: 0,0:24:50.04,0:24:52.22,Dialogue Top,,0,0,0,,Five, six, seven, eight, kyu-kyu-kyu.
 Dialogue: 0,0:24:52.24,0:24:53.08,Dialogue Top,,0,0,0,,What're you doing?
 Dialogue: 0,0:24:53.09,0:24:53.97,Dialogue Top,,0,0,0,,Wiping the windows.
-Dialogue: 0,0:24:50.04,0:24:53.97,Dialogue,,0,0,0,,{\an4}(Note: "kyu" is both the\Nnumber nine and the\Nsound of window wiping)
+Dialogue: 0,0:24:50.04,0:24:53.97,Dialogue,,0,0,0,,(Note: "kyu" is both the\Nnumber nine and the\Nsound of window wiping)
 Dialogue: 0,0:24:49.79,0:24:55.27,Signs,,0,0,0,,Look forward to the next episode

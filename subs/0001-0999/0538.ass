@@ -33,6 +33,7 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
+Style: title001,@Gungsuh,12,&H00FFFFFF,&H000000FF,&H64000000,&H00000000,-1,0,0,0,100,100,0,0,3,0.1,0,8,10,10,10,1
 Style: title002,Arial Black,15,&H002F2485,&H000000FF,&H003DBCE7,&H00000000,-1,0,0,0,100,100,0,0,3,1,0,2,300,0,100,1
 
 [Events]
@@ -116,7 +117,7 @@ Dialogue: 0,0:05:28.25,0:05:30.63,Dialogue,,0,0,0,,My apologies for getting you 
 Dialogue: 0,0:05:30.63,0:05:31.55,Dialogue,,0,0,0,,No, no.
 Dialogue: 0,0:05:33.01,0:05:37.34,Dialogue,,0,0,0,,Whether it's the maid or the assistant, both have proven worthless.
 Dialogue: 0,0:05:39.01,0:05:39.76,Dialogue,,0,0,0,,Thank you.
-Dialogue: 0,0:05:41.05,0:05:44.92,Dialogue,,0,0,0,,{\an1}The only one of any worth\N\his this bodyguard here.
+Dialogue: 0,0:05:41.05,0:05:44.92,Dialogue,,0,0,0,,The only one of any worth\Nis this bodyguard here.
 Dialogue: 0,0:05:41.23,0:05:45.86,CharCard - 3,,0,0,0,,{\fad(250,250)}Gotou Zengo (38)\NBodyguard
 Dialogue: 0,0:05:45.77,0:05:46.81,Dialogue,,0,0,0,,Uhm...
 Dialogue: 0,0:05:46.81,0:05:48.77,Dialogue,,0,0,0,,What was it you wanted earlier?
@@ -180,9 +181,9 @@ Dialogue: 0,0:08:49.33,0:08:50.50,Dialogue,,0,0,0,,Absolutely, sir.
 Dialogue: 0,0:08:51.50,0:08:55.46,Dialogue,,0,0,0,,Well, I'm sure everything will be fine here.
 Dialogue: 0,0:08:55.46,0:09:00.05,Dialogue,,0,0,0,,After all, that guy's natural enemy is here, in this boy.
 Dialogue: 0,0:09:00.76,0:09:03.80,Dialogue,,0,0,0,,The rest is on you, little guy.
-Dialogue: 0,0:09:06.72,0:09:09.81,Dialogue,,0,0,0,,{\1c&HB9C9FD&}This is an announcement to all those guarding the Suzuki residence!
-Dialogue: 0,0:09:10.18,0:09:13.56,Dialogue,,0,0,0,,{\1c&HB9C9FD&}The time of Kaitou Kid's arrival could be any moment now!
-Dialogue: 0,0:09:13.56,0:09:15.31,Dialogue,,0,0,0,,{\1c&HB9C9FD&}As a precaution, neglect nothing!
+Dialogue: 0,0:09:06.72,0:09:09.81,Dialogue,,0,0,0,,This is an announcement to all those guarding the Suzuki residence!
+Dialogue: 0,0:09:10.18,0:09:13.56,Dialogue,,0,0,0,,The time of Kaitou Kid's arrival could be any moment now!
+Dialogue: 0,0:09:13.56,0:09:15.31,Dialogue,,0,0,0,,As a precaution, neglect nothing!
 Dialogue: 0,0:09:15.81,0:09:18.69,Dialogue,,0,0,0,,Don't think knowing someone's face is enough!
 Dialogue: 0,0:09:18.69,0:09:20.82,Dialogue,,0,0,0,,The officer next to you could be Kid!
 Dialogue: 0,0:09:21.24,0:09:23.78,Dialogue,,0,0,0,,This guy is a master of disguise!
