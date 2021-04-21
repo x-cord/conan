@@ -33,7 +33,6 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: title001,@GungsuhChe,15,&H009B8B7C,&H000000FF,&H0ADDD3CB,&H00000000,-1,0,0,0,100,100,0,0,3,0.1,0,2,10,10,10,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -436,7 +435,7 @@ Dialogue: 0,0:21:15.57,0:21:17.78,Dialogue,,0,0,0,,You discovered the message on
 Dialogue: 0,0:21:17.78,0:21:19.20,Dialogue,,0,0,0,,Is that it?
 Dialogue: 0,0:21:19.20,0:21:21.41,Dialogue,,0,0,0,,I got an e-mail from a certain someone.
 Dialogue: 0,0:21:21.41,0:21:23.37,Dialogue,,0,0,0,,It said the true culprit would be coming here.
-Dialogue: 0,0:21:23.50,0:21:30.89,title001,,0,0,0,,{\fad(500,0)}MAIL: I know the true culprit!\N\NSo please hurry and go there!\NAh, keep it a secret from every-\None that I happened to figure\Nout the location by coincidence!\NIf Uncle Kogorou knew, he'd\Nburn up with jealousy!
+Dialogue: 0,0:21:23.50,0:21:30.89,Signs,,0,0,0,,MAIL: I know the true culprit!\N\NSo please hurry and go there!\NAh, keep it a secret from every-\None that I happened to figure\Nout the location by coincidence!\NIf Uncle Kogorou knew, he'd\Nburn up with jealousy!
 Dialogue: 0,0:21:23.71,0:21:25.67,Dialogue,,0,0,0,,Well, as for who that certain person is...
 Dialogue: 0,0:21:25.67,0:21:29.17,Dialogue,,0,0,0,,As per their request, I won't be telling you that.
 Dialogue: 0,0:23:03.22,0:23:05.93,Dialogue,,0,0,0,,Please forgive me for all the trouble I've put you through!

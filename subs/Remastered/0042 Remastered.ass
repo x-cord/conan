@@ -33,20 +33,15 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: ProlTrans,TwCenMT,38,&H28FFFFFF,&H000000FF,&H96000000,&H1E3E3330,-1,0,0,0,100,100,0,0,1,1.5,2.25,2,8,8,135,1
-Style: Romaji_Insert,Candara,35,&H00000000,&H000000FF,&H00FFFFFF,&H00000000,-1,0,0,0,100,95,1.5,0,1,2.25,0,7,30,30,30,0
-Style: TL_Insert,Candara,35,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,95,1.5,0,1,2.25,0,7,30,30,60,0
-Style: Mic,Segoe UI,44,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,-1,0,0,100,95,1.5,0,1,2.25,0,2,30,30,60,0
-Style: Romaji-ED,Consolas,30,&H00FFFFFF,&H000000FF,&H3C424242,&H1E3E3330,-1,0,0,0,100,100,-1.5,0,1,1.5,0,2,8,8,108,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 Dialogue: 0,0:02:01.14,0:02:09.06,Signs,,0000,0000,0000,,Subtitles by Puto
 Dialogue: 0,0:02:01.14,0:02:09.06,Signs,,0000,0000,0000,,Extra translations by bluesun
 Dialogue: 0,0:02:09.06,0:02:15.94,Signs,,0000,0000,0000,,http://pu7o.wordpress.com
-Dialogue: 0,0:00:22.12,0:00:24.12,ProlTrans,,0000,0000,0000,,{\fad(100,0)\c&H44FFEEDD}As quick as a veil of mist clears...
-Dialogue: 0,0:00:24.12,0:00:25.88,ProlTrans,,0000,0000,0000,,{\c&H44FFEEDD}...we see through both love and cases!
-Dialogue: 0,0:00:25.87,0:00:30.25,ProlTrans,,0000,0000,0000,,{\c&HDDEEFF}A mysterious trick targeting a singer at his live performance finishing party!
+Dialogue: 0,0:00:22.12,0:00:24.12,Narration Off,,0000,0000,0000,,{\be10}As quick as a veil of mist clears...
+Dialogue: 0,0:00:24.12,0:00:25.88,Narration Off,,0000,0000,0000,,{\be10}...we see through both love and cases!
+Dialogue: 0,0:00:25.87,0:00:30.25,Narration Off,,0000,0000,0000,,{\be10}A mysterious trick targeting a singer at his live performance finishing party!
 Dialogue: 0,0:00:30.25,0:00:31.88,Narration Off,,0000,0000,0000,,{\be10}He sees the single truth for what it is,
 Dialogue: 0,0:00:31.88,0:00:33.72,Narration Off,,0000,0000,0000,,{\be10}and looks like a kid but has the mind of an adult!
 Dialogue: 0,0:00:33.72,0:00:36.18,Narration Off,,0000,0000,0000,,{\be10}His name? Detective Conan!
@@ -57,33 +52,21 @@ Dialogue: 0,0:00:06.52,0:00:09.48,Narration Off,,0000,0000,0110,,{\be10\an8}wher
 Dialogue: 0,0:00:09.48,0:00:11.74,Narration Off,,0000,0000,0110,,{\be10\an8}When hidden in food or in a drink,
 Dialogue: 0,0:00:11.74,0:00:15.49,Narration Off,,0000,0000,0110,,{\be10\an8}it's almost impossible to escape from it.
 Dialogue: 0,0:00:15.49,0:00:21.04,Narration Off,,0000,0000,0000,,{\be10}So today, let's play back the case where I exposed a skillful poisoning trick!
-Dialogue: 0,0:24:00.04,0:24:03.04,ProlTrans,,0000,0000,0000,,A mysterious man delivered a sudden threat...
-Dialogue: 0,0:24:03.04,0:24:05.17,ProlTrans,,0000,0000,0000,,"Leave the jewels alone?"
-Dialogue: 0,0:24:05.17,0:24:06.25,ProlTrans,,0000,0000,0000,,What the heck?
-Dialogue: 0,0:24:06.25,0:24:10.21,ProlTrans,,0000,0000,0000,,Sorry, but you ain't stopping the one and only Kid so easily!
-Dialogue: 0,0:24:10.21,0:24:14.59,ProlTrans,,0000,0000,0000,,The next target's the largest Indian Sapphire, the "Blue Birthday."
-Dialogue: 0,0:24:14.59,0:24:16.22,ProlTrans,,0000,0000,0000,,The night I announced the heist for is on Aoko's birthday,
-Dialogue: 0,0:24:16.22,0:24:19.06,ProlTrans,,0000,0000,0000,,so I swore to myself I'd come back quickly,
-Dialogue: 0,0:24:19.06,0:24:21.47,ProlTrans,,0000,0000,0000,,but then some weird guys attacked me!
-Dialogue: 0,0:24:21.47,0:24:24.06,ProlTrans,,0000,0000,0000,,What are these guys!?
-Dialogue: 0,0:24:24.06,0:24:33.49,ProlTrans,,0000,0000,0000,,{\fad(1000,1000)\fs34}Detective Conan was brought to you by the following sponsors.
-Dialogue: 0,0:24:40.08,0:24:44.04,ProlTrans,,0000,0000,0000,,Next Kid's Magic: Moonlight
+Dialogue: 0,0:24:00.04,0:24:03.04,Narration Off,,0000,0000,0000,,{\be10}A mysterious man delivered a sudden threat...
+Dialogue: 0,0:24:03.04,0:24:05.17,Narration Off,,0000,0000,0000,,{\be10}"Leave the jewels alone?"
+Dialogue: 0,0:24:05.17,0:24:06.25,Narration Off,,0000,0000,0000,,{\be10}What the heck?
+Dialogue: 0,0:24:06.25,0:24:10.21,Narration Off,,0000,0000,0000,,{\be10}Sorry, but you ain't stopping the one and only Kid so easily!
+Dialogue: 0,0:24:10.21,0:24:14.59,Narration Off,,0000,0000,0000,,{\be10}The next target's the largest Indian Sapphire, the "Blue Birthday."
+Dialogue: 0,0:24:14.59,0:24:16.22,Narration Off,,0000,0000,0000,,{\be10}The night I announced the heist for is on Aoko's birthday,
+Dialogue: 0,0:24:16.22,0:24:19.06,Narration Off,,0000,0000,0000,,{\be10}so I swore to myself I'd come back quickly,
+Dialogue: 0,0:24:19.06,0:24:21.47,Narration Off,,0000,0000,0000,,{\be10}but then some weird guys attacked me!
+Dialogue: 0,0:24:21.47,0:24:24.06,Narration Off,,0000,0000,0000,,{\be10}What are these guys!?
+Dialogue: 0,0:24:24.06,0:24:33.49,Narration Off,,0000,0000,0000,,{\be10}Detective Conan was brought to you by the following sponsors.
+Dialogue: 0,0:24:40.08,0:24:44.04,Narration Off,,0000,0000,0000,,{\be10}Next Kid's Magic: Moonlight
 Dialogue: 0,0:24:44.04,0:24:49.54,Signs,,0000,0000,0100,,Look forward to the next episode!
 Dialogue: 0,0:24:44.04,0:24:45.83,Dialogue,,0000,0000,0100,,Next time, my beloved Kid...
 Dialogue: 0,0:24:45.83,0:24:47.33,Dialogue,,0000,0000,0100,,Sonoko, what about Kyōgoku{\rHonorifics - Dialogue}-san{\r}?
 Dialogue: 0,0:24:47.33,0:24:49.54,Dialogue,,0000,0000,0100,,That's totally different.
-Dialogue: 0,0:20:39.09,0:20:48.14,Romaji-ED,,0000,0000,0000,,{\be2}but I know namida o koraete iru ne zutto
-Dialogue: 0,0:20:49.26,0:20:58.06,Romaji-ED,,0000,0000,0000,,{\be2}sono mune ga kowaresō na kurai
-Dialogue: 0,0:20:58.65,0:21:07.95,Romaji-ED,,0000,0000,0000,,{\be2}tsuyogatte ite mo kimi no hitomi o mireba
-Dialogue: 0,0:21:08.41,0:21:13.62,Romaji-ED,,0000,0000,0000,,{\be2}wakaru yo sugu ni ne You're my boyfriend
-Dialogue: 0,0:21:18.21,0:21:22.50,Romaji-ED,,0000,0000,0000,,{\be2}sono omoi wa todoiteru yo
-Dialogue: 0,0:21:23.00,0:21:27.34,Romaji-ED,,0000,0000,0000,,{\be2}mune no oku ni hibi'iteru yo
-Dialogue: 0,0:21:28.01,0:21:32.72,Romaji-ED,,0000,0000,0000,,{\be2}kotoba ni dasanakutatte
-Dialogue: 0,0:21:32.89,0:21:37.39,Romaji-ED,,0000,0000,0000,,{\be2}I know your heart soba ni iru yo
-Dialogue: 0,0:21:37.89,0:21:42.27,Romaji-ED,,0000,0000,0000,,{\be2}ima wa to'oku hanareteite mo
-Dialogue: 0,0:21:42.77,0:21:47.20,Romaji-ED,,0000,0000,0000,,{\be2}mune no koe wa kikoeteru yo
-Dialogue: 0,0:21:47.70,0:21:52.49,Romaji-ED,,0000,0000,0000,,{\be2\fad(0,40)}kotoba ni dasanakutemo wakaru yo
-Dialogue: 0,0:21:52.78,0:21:57.29,Romaji-ED,,0000,0000,0000,,{\be2\fad(40,500)}zutto You're my best friend
 Dialogue: 0,0:02:24.08,0:02:29.08,Dialogue,,0000,0000,0000,,Why am I stuck with you guys\Nduring Christmas?
 Dialogue: 0,0:02:29.08,0:02:31.63,Thoughts,,0000,0000,0000,,{\be10}That's my line.
 Dialogue: 0,0:02:31.63,0:02:33.88,Dialogue,,0000,0000,0000,,Say, what's up with Shin'ichi{\rHonorifics - Dialogue}-kun{\r}?
@@ -106,8 +89,6 @@ Dialogue: 0,0:03:20.84,0:03:23.30,Thoughts,,0000,0000,0000,,{\be10}That's the Su
 Dialogue: 0,0:03:23.84,0:03:25.51,Dialogue,,0000,0000,0000,,When is it?!
 Dialogue: 0,0:03:25.51,0:03:27.18,Dialogue,,0000,0000,0000,,Next Sunday!
 Dialogue: 0,0:03:27.18,0:03:29.31,Dialogue,,0000,0000,0000,,I'm going, I'm totally going!
-Dialogue: 0,0:03:29.31,0:03:34.98,Romaji_Insert,,0000,0000,0000,,chissaku kanjiru don'na toki demo
-Dialogue: 0,0:03:29.31,0:03:34.98,TL_Insert,,0000,0000,0000,,...feel like they're so small, any time
 Dialogue: 0,0:03:37.65,0:03:40.53,Dialogue,,0000,0000,0000,,You're pretty good!
 Dialogue: 0,0:03:41.40,0:03:45.03,Signs,,0000,0000,0000,,Tatsuya Kimura (21)\NVocals
 Dialogue: 0,0:03:42.24,0:03:43.95,Dialogue,,0000,0000,0000,,That's for sure.
@@ -145,23 +126,9 @@ Dialogue: 0,0:05:04.57,0:05:06.03,Thoughts,,0000,0000,0000,,{\be10}You jerk...
 Dialogue: 0,0:05:06.03,0:05:09.99,Dialogue,,0000,0000,0000,,Fine. I'll sing your song.
 Dialogue: 0,0:05:10.78,0:05:12.12,Dialogue,,0000,0000,0000,,Later, Tatsuya!
 Dialogue: 0,0:05:12.12,0:05:12.87,Dialogue,,0000,0000,0000,,See ya!
-Dialogue: 0,0:05:12.99,0:05:17.00,Romaji_Insert,,0000,0000,0000,,kurai yomichi wa
-Dialogue: 0,0:05:17.00,0:05:21.13,Romaji_Insert,,0000,0000,0000,,pika-pika no...
-Dialogue: 0,0:05:21.13,0:05:24.84,Romaji_Insert,,0000,0000,0000,,omae no hana ga
-Dialogue: 0,0:05:24.84,0:05:27.34,Romaji_Insert,,0000,0000,0000,,yaku ni tatsu no sa...
-Dialogue: 0,0:05:12.99,0:05:17.00,TL_Insert,,0000,0000,0000,,Then one foggy Christmas Eve,
-Dialogue: 0,0:05:17.00,0:05:21.13,TL_Insert,,0000,0000,0000,,Santa came to say...
-Dialogue: 0,0:05:21.13,0:05:24.84,TL_Insert,,0000,0000,0000,,Rudolph, with your nose so bright,
-Dialogue: 0,0:05:24.84,0:05:27.34,TL_Insert,,0000,0000,0000,,won't you guide my sleigh tonight?
 Dialogue: 0,0:05:19.42,0:05:21.13,Dialogue,,0000,0000,0000,,Wow, she's good!
 Dialogue: 0,0:05:21.13,0:05:24.84,Thoughts,,0000,0000,0000,,{\be10}Damn it! What's he up to?!
 Dialogue: 0,0:05:27.34,0:05:30.85,Thoughts,,0000,0000,0000,,{\be10}What's with that sad look?
-Dialogue: 0,0:05:30.85,0:05:38.85,Romaji_Insert,,0000,0000,0000,,hoshi no kazu kazoete
-Dialogue: 0,0:05:38.85,0:05:47.86,Romaji_Insert,,0000,0000,0000,,wakatta koto sore wa
-Dialogue: 0,0:05:47.86,0:06:03.84,Romaji_Insert,,0000,0000,0000,,yasashii hito ni wa hoshi no ai
-Dialogue: 0,0:05:30.85,0:05:38.85,TL_Insert,,0000,0000,0000,,When I count the stars in the sky
-Dialogue: 0,0:05:38.85,0:05:47.86,TL_Insert,,0000,0000,0000,,I realised that
-Dialogue: 0,0:05:47.86,0:06:03.84,TL_Insert,,0000,0000,0000,,kind people get help from the stars...
 Dialogue: 0,0:05:36.23,0:05:40.40,Dialogue,,0000,0000,0000,,Hey, why's that lady crying?
 Dialogue: 0,0:05:40.40,0:05:42.69,Dialogue,,0000,0000,0000,,Because I'm saying goodbye.
 Dialogue: 0,0:05:43.57,0:05:46.49,Dialogue,,0000,0000,0000,,To both Mieko and the band.
@@ -178,14 +145,6 @@ Dialogue: 0,0:06:21.48,0:06:25.59,Dialogue,,0000,0000,0000,,Shut up! I'll sing w
 Dialogue: 0,0:06:25.57,0:06:26.82,Dialogue,,0000,0000,0000,,Fine, then.
 Dialogue: 0,0:06:27.94,0:06:30.66,Dialogue,,0000,0000,0000,,I'll call the studio to tell them we'll be late.
 Dialogue: 0,0:06:31.78,0:06:35.12,Dialogue,,0000,0000,0000,,Here we go! Bloody Venus!
-Dialogue: 0,0:06:35.12,0:06:39.29,Romaji_Insert,,0000,0000,0000,,ikashita yatsu da ze
-Dialogue: 0,0:06:39.29,0:06:42.21,Romaji_Insert,,0000,0000,0000,,omae no koto sa
-Dialogue: 0,0:06:42.21,0:06:50.05,Romaji_Insert,,0000,0000,0000,,Ah, soba ni ite okure Oh Bloody Venus
-Dialogue: 0,0:06:50.05,0:06:59.14,Romaji_Insert,,0000,0000,0000,,ushinaitakunai no sa omae e no ai
-Dialogue: 0,0:06:35.12,0:06:39.29,TL_Insert,,0000,0000,0000,,She's one hot babe!
-Dialogue: 0,0:06:39.29,0:06:42.21,TL_Insert,,0000,0000,0000,,I'm talkin' about you!
-Dialogue: 0,0:06:42.21,0:06:50.05,TL_Insert,,0000,0000,0000,,Ah, stay by me, oh bloody venus!
-Dialogue: 0,0:06:50.05,0:06:59.14,TL_Insert,,0000,0000,0000,,I don't wanna lose the love I have for you
 Dialogue: 0,0:06:37.75,0:06:40.79,Thoughts,,0000,0000,0000,,{\be10}Tatsuya Kimura passionately sang
 Dialogue: 0,0:06:40.79,0:06:43.08,Thoughts,,0000,0000,0000,,{\be10}his hit song, "Bloody Venus."
 Dialogue: 0,0:06:44.67,0:06:47.01,Thoughts,,0000,0000,0000,,{\be10}Nobody knew his voice
@@ -293,7 +252,7 @@ Dialogue: 0,0:12:50.33,0:12:53.04,Dialogue,,0000,0000,0000,,A great detective yo
 Dialogue: 0,0:12:54.87,0:12:56.25,Dialogue,,0000,0000,0000,,Shin'ichi Kudō.
 Dialogue: 0,0:13:00.30,0:13:04.76,Thoughts,,0000,0000,0000,,{\be10}Shin'ichi came back. He finally came back!
 Dialogue: 0,0:13:04.80,0:13:06.26,Dialogue,,0000,0000,0000,,Shin'ichi!
-Dialogue: 0,0:13:11.01,0:13:15.10,Mic,,0000,0000,0000,,{\be8}Welcome! Thank you all for coming!
+Dialogue: 0,0:13:11.01,0:13:15.10,Radio,,0000,0000,0000,,{\be10}Welcome! Thank you all for coming!
 Dialogue: 0,0:13:15.10,0:13:17.52,Dialogue,,0000,0000,0000,,Shin'ichi?
 Dialogue: 0,0:13:17.52,0:13:21.44,Dialogue,,0000,0000,0000,,Shin'ichi Kudō must be watching with this camera!
 Dialogue: 0,0:13:21.44,0:13:23.36,Dialogue,,0000,0000,0000,,Move, Sonoko!
@@ -301,12 +260,12 @@ Dialogue: 0,0:13:23.36,0:13:24.94,Dialogue,,0000,0000,0000,,Where are you, Shin'
 Dialogue: 0,0:13:25.28,0:13:28.91,Dialogue,,0000,0000,0000,,Let's begin unraveling this case.
 Dialogue: 0,0:13:28.91,0:13:29.87,Dialogue,,0000,0000,0000,,Shin'ichi!
 Dialogue: 0,0:13:29.87,0:13:33.58,Dialogue,,0000,0000,0000,,Though, what's with this song?
-Dialogue: 0,0:13:33.58,0:13:36.37,Mic,,0000,0000,0000,,{\be8}It's Rudolph the Red-Nosed Reindeer, Inspector Megure.
-Dialogue: 0,0:13:36.37,0:13:39.29,Mic,,0000,0000,0000,,{\be8}It's a Christmas song, it's played everywhere during Christmas.
-Dialogue: 0,0:13:39.29,0:13:44.67,Mic,,0000,0000,0000,,{\be8}It also stirred up the\Nkiller's hatred for the victim.
+Dialogue: 0,0:13:33.58,0:13:36.37,Radio,,0000,0000,0000,,{\be10}It's Rudolph the Red-Nosed Reindeer, Inspector Megure.
+Dialogue: 0,0:13:36.37,0:13:39.29,Radio,,0000,0000,0000,,{\be10}It's a Christmas song, it's played everywhere during Christmas.
+Dialogue: 0,0:13:39.29,0:13:44.67,Radio,,0000,0000,0000,,{\be10}It also stirred up the\Nkiller's hatred for the victim.
 Dialogue: 0,0:13:44.67,0:13:49.14,Dialogue,,0000,0000,0000,,In other words, the killer is the one who Tatsuya{\rHonorifics - Dialogue}-san{\r} requested this song for.
-Dialogue: 0,0:13:49.51,0:13:52.22,Mic,,0000,0000,0000,,{\be8}Yes. Tatsuya{\rHonorifics - Mic}-san{\r}'s killer
-Dialogue: 0,0:13:52.22,0:13:55.52,Mic,,0000,0000,0000,,{\be8}was his manager,\NMari Terahara{\rHonorifics - Mic}-san{\r}! It was you!
+Dialogue: 0,0:13:49.51,0:13:52.22,Radio,,0000,0000,0000,,{\be10}Yes. Tatsuya{\rHonorifics - Radio\be10}-san{\r\be10}'s killer
+Dialogue: 0,0:13:52.22,0:13:55.52,Radio,,0000,0000,0000,,{\be10}was his manager,\NMari Terahara{\rHonorifics - Radio\be10}-san{\r\be10}! It was you!
 Dialogue: 0,0:13:57.44,0:13:58.90,Dialogue,,0000,0000,0000,,The {\i1}manager{\i0} killed him?!
 Dialogue: 0,0:13:58.90,0:14:01.06,Dialogue,,0000,0000,0000,,No way...
 Dialogue: 0,0:14:02.77,0:14:04.44,Dialogue,,0000,0000,0000,,Stop kidding around!
@@ -314,38 +273,27 @@ Dialogue: 0,0:14:04.44,0:14:08.53,Dialogue,,0000,0000,0000,,I wasn't even in\Nth
 Dialogue: 0,0:14:09.03,0:14:13.20,Dialogue,,0000,0000,0000,,You could've poisoned him\Ndespite your distance,
 Dialogue: 0,0:14:13.20,0:14:15.95,Dialogue,,0000,0000,0000,,simply by having him\Nsing this song.
 Dialogue: 0,0:14:17.83,0:14:21.63,Dialogue,,0000,0000,0000,,This was his hit song,\N"Bloody Venus!"
-Dialogue: 0,0:14:23.88,0:14:28.72,Mic,,0000,0000,0000,,{\be8}Well, could you sing for us,\Nusing the mic I've prepared?
-Dialogue: 0,0:14:28.72,0:14:31.26,Mic,,0000,0000,0000,,{\be8}There's no poison on it, of course.
+Dialogue: 0,0:14:23.88,0:14:28.72,Radio,,0000,0000,0000,,{\be10}Well, could you sing for us,\Nusing the mic I've prepared?
+Dialogue: 0,0:14:28.72,0:14:31.26,Radio,,0000,0000,0000,,{\be10}There's no poison on it, of course.
 Dialogue: 0,0:14:33.39,0:14:37.73,Dialogue,,0000,0000,0000,,Fine. I'll sing, if that'll make you happy.
-Dialogue: 0,0:14:39.85,0:14:44.57,Mic,,0000,0000,0000,,{\be8}Please wait! Why aren't you\Nremoving your jacket?
-Dialogue: 0,0:14:44.57,0:14:49.78,Mic,,0000,0000,0000,,{\be8}Tatsuya{\rHonorifics - Mic}-san{\r} always took his jacket off when he sang this song.
-Dialogue: 0,0:14:49.78,0:14:51.57,Mic,,0000,0000,0000,,{\be8}Isn't that right, people?
+Dialogue: 0,0:14:39.85,0:14:44.57,Radio,,0000,0000,0000,,{\be10}Please wait! Why aren't you\Nremoving your jacket?
+Dialogue: 0,0:14:44.57,0:14:49.78,Radio,,0000,0000,0000,,{\be10}Tatsuya{\rHonorifics - Radio\be10}-san{\r\be10} always took his jacket off when he sang this song.
+Dialogue: 0,0:14:49.78,0:14:51.57,Radio,,0000,0000,0000,,{\be10}Isn't that right, people?
 Dialogue: 0,0:14:51.57,0:14:52.37,Dialogue,,0000,0000,0000,,Y-Yes.
 Dialogue: 0,0:14:53.03,0:14:54.45,Dialogue,,0000,0000,0000,,Well then, let's start over.
 Dialogue: 0,0:14:59.33,0:15:00.62,Dialogue,,0000,0000,0000,,Oh, yes.
-Dialogue: 0,0:15:00.62,0:15:02.71,Mic,,0000,0000,0000,,{\be8}Don't forget the dance.
-Dialogue: 0,0:15:06.50,0:15:10.38,Romaji_Insert,,0000,0000,0000,,ikashita yatsu da ze
-Dialogue: 0,0:15:10.38,0:15:13.30,Romaji_Insert,,0000,0000,0000,,omae no koto sa
-Dialogue: 0,0:15:13.30,0:15:21.31,Romaji_Insert,,0000,0000,0000,,Ah, soba ni ite okure Oh Bloody Venus
-Dialogue: 0,0:15:21.31,0:15:28.78,Romaji_Insert,,0000,0000,0000,,ushinaitakunai no sa omae e no ai
-Dialogue: 0,0:15:28.78,0:15:31.82,Romaji_Insert,,0000,0000,0000,,Ah, kanjite okure
-Dialogue: 0,0:15:31.82,0:15:34.20,Romaji_Insert,,0000,0000,0000,,I love ya!
-Dialogue: 0,0:15:06.50,0:15:10.38,TL_Insert,,0000,0000,0000,,She's one hot babe!
-Dialogue: 0,0:15:10.38,0:15:13.30,TL_Insert,,0000,0000,0000,,I'm talkin' about you!
-Dialogue: 0,0:15:13.30,0:15:21.31,TL_Insert,,0000,0000,0000,,Ah, stay by me, oh bloody venus!
-Dialogue: 0,0:15:21.31,0:15:28.78,TL_Insert,,0000,0000,0000,,I don't wanna lose the love I have for you
-Dialogue: 0,0:15:28.78,0:15:31.82,TL_Insert,,0000,0000,0000,,Ah, feel it with me
+Dialogue: 0,0:15:00.62,0:15:02.71,Radio,,0000,0000,0000,,{\be10}Don't forget the dance.
 Dialogue: 0,0:15:15.01,0:15:16.60,Dialogue,,0000,0000,0000,,Wow! She's good!
 Dialogue: 0,0:15:16.60,0:15:18.35,Dialogue,,0000,0000,0000,,Of course she is.
 Dialogue: 0,0:15:19.06,0:15:24.56,Dialogue,,0000,0000,0000,,She used to sing with\NTatsuya in my band.
 Dialogue: 0,0:15:29.36,0:15:30.82,Dialogue,,0000,0000,0000,,The manager...?
 Dialogue: 0,0:15:38.16,0:15:39.83,Dialogue,,0000,0000,0000,,Well, are you satisfied?
-Dialogue: 0,0:15:39.87,0:15:42.00,Mic,,0000,0000,0000,,{\be8}Yes.
-Dialogue: 0,0:15:42.00,0:15:45.96,Mic,,0000,0000,0000,,{\be8}Now try eating\Nthe food I've prepared.
+Dialogue: 0,0:15:39.87,0:15:42.00,Radio,,0000,0000,0000,,{\be10}Yes.
+Dialogue: 0,0:15:42.00,0:15:45.96,Radio,,0000,0000,0000,,{\be10}Now try eating\Nthe food I've prepared.
 Dialogue: 0,0:15:45.96,0:15:46.84,Dialogue,,0000,0000,0000,,You mean this?
-Dialogue: 0,0:15:47.84,0:15:50.34,Mic,,0000,0000,0000,,{\be8}Just as Tatsuya{\rHonorifics - Mic}-san{\r} did.
-Dialogue: 0,0:15:50.34,0:15:51.76,Mic,,0000,0000,0000,,{\be8}Pick whatever you'd like.
-Dialogue: 0,0:15:52.47,0:15:55.35,Mic,,0000,0000,0000,,{\be8}Assuming you can, that is.
+Dialogue: 0,0:15:47.84,0:15:50.34,Radio,,0000,0000,0000,,{\be10}Just as Tatsuya{\rHonorifics - Radio\be10}-san{\r\be10} did.
+Dialogue: 0,0:15:50.34,0:15:51.76,Radio,,0000,0000,0000,,{\be10}Pick whatever you'd like.
+Dialogue: 0,0:15:52.47,0:15:55.35,Radio,,0000,0000,0000,,{\be10}Assuming you can, that is.
 Dialogue: 0,0:15:56.05,0:16:02.73,Dialogue,,0000,0000,0000,,I'd rather not. I touched him\Nafter he collapsed!
 Dialogue: 0,0:16:03.81,0:16:06.23,Dialogue,,0000,0000,0000,,His hands and clothes\Nhad poison on them!
 Dialogue: 0,0:16:06.69,0:16:09.69,Dialogue,,0000,0000,0000,,I could've gotten\Nsome on my hands then, too!
@@ -353,29 +301,29 @@ Dialogue: 0,0:16:09.69,0:16:14.28,Dialogue,,0000,0000,0000,,Then please check\Nh
 Dialogue: 0,0:16:15.32,0:16:16.49,Dialogue,,0000,0000,0000,,Her jacket?
 Dialogue: 0,0:16:18.03,0:16:22.21,Dialogue,,0000,0000,0000,,Same goes for the jacket!\NI put it on after touching Tatsuya!
 Dialogue: 0,0:16:22.21,0:16:25.75,Dialogue,,0000,0000,0000,,If there {\i1}is{\i0} poison on it,\Nthat doesn't mean...
-Dialogue: 0,0:16:25.75,0:16:30.00,Mic,,0000,0000,0000,,{\be8}No. It's not poison\NI'm looking for.
+Dialogue: 0,0:16:25.75,0:16:30.00,Radio,,0000,0000,0000,,{\be10}No. It's not poison\NI'm looking for.
 Dialogue: 0,0:16:33.72,0:16:35.30,Dialogue,,0000,0000,0000,,A lighter!
-Dialogue: 0,0:16:35.30,0:16:35.76,Mic,,0000,0000,0000,,{\be8}Yes.
+Dialogue: 0,0:16:35.30,0:16:35.76,Radio,,0000,0000,0000,,{\be10}Yes.
 Dialogue: 0,0:16:38.35,0:16:41.27,Dialogue,,0000,0000,0000,,That's Tatsuya{\rHonorifics - Dialogue}-san{\r}'s missing lighter.
-Dialogue: 0,0:16:41.27,0:16:44.48,Mic,,0000,0000,0000,,{\be8}In other words,\Nthat's not her jacket:
-Dialogue: 0,0:16:44.48,0:16:49.11,Mic,,0000,0000,0000,,{\be8}she switched hers with Tatsuya{\rHonorifics - Mic}-san{\r}'s\Nto dispose of the evidence!
+Dialogue: 0,0:16:41.27,0:16:44.48,Radio,,0000,0000,0000,,{\be10}In other words,\Nthat's not her jacket:
+Dialogue: 0,0:16:44.48,0:16:49.11,Radio,,0000,0000,0000,,{\be10}she switched hers with Tatsuya{\rHonorifics - Radio\be10}-san{\r\be10}'s\Nto dispose of the evidence!
 Dialogue: 0,0:16:50.61,0:16:54.45,Dialogue,,0000,0000,0000,,She wiped poison on the\Ninside of the left elbow
 Dialogue: 0,0:16:54.45,0:17:00.66,Dialogue,,0000,0000,0000,,so that some of it would\Nget on his shirt underneath
 Dialogue: 0,0:17:00.66,0:17:03.96,Dialogue,,0000,0000,0000,,when he put the jacket on.
 Dialogue: 0,0:17:03.96,0:17:07.75,Dialogue,,0000,0000,0000,,All that remained was\Nto have him sing Bloody Venus.
-Dialogue: 0,0:17:07.75,0:17:12.30,Mic,,0000,0000,0000,,{\be8}During his dance,\Nhe threw the jacket off
-Dialogue: 0,0:17:12.30,0:17:16.26,Mic,,0000,0000,0000,,{\be8}and touched his left elbow with his right hand.
-Dialogue: 0,0:17:16.26,0:17:22.18,Mic,,0000,0000,0000,,{\be8}Afterward, he died of poisoning\Nwhen he ate.
+Dialogue: 0,0:17:07.75,0:17:12.30,Radio,,0000,0000,0000,,{\be10}During his dance,\Nhe threw the jacket off
+Dialogue: 0,0:17:12.30,0:17:16.26,Radio,,0000,0000,0000,,{\be10}and touched his left elbow with his right hand.
+Dialogue: 0,0:17:16.26,0:17:22.18,Radio,,0000,0000,0000,,{\be10}Afterward, he died of poisoning\Nwhen he ate.
 Dialogue: 0,0:17:22.52,0:17:24.98,Dialogue,,0000,0000,0000,,But why would she do that?
-Dialogue: 0,0:17:24.98,0:17:28.02,Mic,,0000,0000,0000,,{\be8}Her motive is in the\Nphotograph on the table.
-Dialogue: 0,0:17:28.90,0:17:32.98,Mic,,0000,0000,0000,,{\be8}It's from when Tatsuya{\rHonorifics - Mic}-san{\r} was\Nin Sumii{\rHonorifics - Mic}-san{\r}'s band.
+Dialogue: 0,0:17:24.98,0:17:28.02,Radio,,0000,0000,0000,,{\be10}Her motive is in the\Nphotograph on the table.
+Dialogue: 0,0:17:28.90,0:17:32.98,Radio,,0000,0000,0000,,{\be10}It's from when Tatsuya{\rHonorifics - Radio\be10}-san{\r\be10} was\Nin Sumii{\rHonorifics - Radio\be10}-san{\r\be10}'s band.
 Dialogue: 0,0:17:35.07,0:17:36.95,Dialogue,,0000,0000,0000,,What about it?
 Dialogue: 0,0:17:37.36,0:17:39.87,Dialogue,,0000,0000,0000,,There's no one else in the picture...
-Dialogue: 0,0:17:39.87,0:17:43.41,Mic,,0000,0000,0000,,{\be8}She {\i0}is{\i1} there, Inspector.
-Dialogue: 0,0:17:43.41,0:17:47.37,Mic,,0000,0000,0000,,{\be8}In the center of the picture,\Nwith Tatsuya{\rHonorifics - Mic}-san{\r}.
+Dialogue: 0,0:17:39.87,0:17:43.41,Radio,,0000,0000,0000,,{\be10}She {\i0}is{\i1} there, Inspector.
+Dialogue: 0,0:17:43.41,0:17:47.37,Radio,,0000,0000,0000,,{\be10}In the center of the picture,\Nwith Tatsuya{\rHonorifics - Radio\be10}-san{\r\be10}.
 Dialogue: 0,0:17:47.71,0:17:49.33,Dialogue,,0000,0000,0000,,Can this be?!
-Dialogue: 0,0:17:49.33,0:17:51.96,Mic,,0000,0000,0000,,{\be8}That's right. That picture\Nof her is the very motive
-Dialogue: 0,0:17:51.96,0:17:53.80,Mic,,0000,0000,0000,,{\be8}behind this murder!
+Dialogue: 0,0:17:49.33,0:17:51.96,Radio,,0000,0000,0000,,{\be10}That's right. That picture\Nof her is the very motive
+Dialogue: 0,0:17:51.96,0:17:53.80,Radio,,0000,0000,0000,,{\be10}behind this murder!
 Dialogue: 0,0:17:54.59,0:17:56.88,Dialogue,,0000,0000,0000,,Don't tell me you...
 Dialogue: 0,0:17:56.88,0:17:58.93,Dialogue,,0000,0000,0000,,That's right! I had plastic surgery!
 Dialogue: 0,0:17:58.93,0:17:59.72,Dialogue,,0000,0000,0000,,For Tatsuya!
@@ -393,8 +341,8 @@ Dialogue: 0,0:18:39.30,0:18:42.80,Dialogue,,0000,0000,0000,,He made me his manag
 Dialogue: 0,0:18:42.80,0:18:45.01,Dialogue,,0000,0000,0000,,And I couldn't forgive him.
 Dialogue: 0,0:18:45.01,0:18:46.56,Dialogue,,0000,0000,0000,,I couldn't forgive him...
 Dialogue: 0,0:18:47.93,0:18:50.06,Dialogue,,0000,0000,0000,,...because I loved him!
-Dialogue: 0,0:18:50.06,0:18:51.40,Mic,,0000,0000,0000,,{\be8}You're wrong, Mari{\rHonorifics - Mic}-san{\r}.
-Dialogue: 0,0:18:52.73,0:18:56.90,Mic,,0000,0000,0000,,{\be8}Tatsuya{\rHonorifics - Mic}-san{\r} had been in love\Nwith you for quite some time.
+Dialogue: 0,0:18:50.06,0:18:51.40,Radio,,0000,0000,0000,,{\be10}You're wrong, Mari{\rHonorifics - Radio\be10}-san{\r\be10}.
+Dialogue: 0,0:18:52.73,0:18:56.90,Radio,,0000,0000,0000,,{\be10}Tatsuya{\rHonorifics - Radio\be10}-san{\r\be10} had been in love\Nwith you for quite some time.
 Dialogue: 0,0:18:56.90,0:18:59.15,Dialogue,,0000,0000,0000,,Nonsense! What would you know about...
 Dialogue: 0,0:18:59.15,0:19:03.03,Dialogue,,0000,0000,0000,,Mari! He's telling the truth.
 Dialogue: 0,0:19:03.03,0:19:05.08,Dialogue,,0000,0000,0000,,Inspector. Can I have that photo?

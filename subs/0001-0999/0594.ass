@@ -33,7 +33,6 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: title001,Arial,14,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,120,0,0,1,0.6,0.8,2,0,0,6,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -112,7 +111,7 @@ Dialogue: 0,0:05:11.32,0:05:12.74,Dialogue,,0,0,0,,Hey, what happened, Ran?
 Dialogue: 0,0:05:13.91,0:05:17.12,Dialogue,,0,0,0,,Looks like it's time for our departure, so I'm hanging up.
 Dialogue: 0,0:05:17.12,0:05:18.62,Dialogue,,0,0,0,,Hurry up and get here!
 Dialogue: 0,0:05:19.87,0:05:20.49,Dialogue,,0,0,0,,I'll be there soon!
-Dialogue: 0,0:05:20.50,0:05:23.50,title001,,0,0,0,,Sanyou Main Line
+Dialogue: 0,0:05:20.50,0:05:23.50,Signs,,0,0,0,,Sanyou Main Line
 Dialogue: 0,0:05:24.37,0:05:28.63,Dialogue,,0,0,0,,But, it must be tough for you to work as a producer...
 Dialogue: 0,0:05:28.63,0:05:30.46,Dialogue,,0,0,0,,Having to come along for all these filming sessions.
 Dialogue: 0,0:05:31.13,0:05:33.76,Dialogue,,0,0,0,,No, no, I don't usually come along.
@@ -125,15 +124,15 @@ Dialogue: 0,0:05:53.70,0:05:57.80,Dialogue,,0,0,0,,To arrive at Miyajimaguchi St
 Dialogue: 0,0:05:58.74,0:06:04.55,Dialogue,,0,0,0,,After walking from the station for a few minutes, passing\Nthe conger eel rice and red leaf buns specialty stores...
 Dialogue: 0,0:06:05.08,0:06:07.93,Dialogue,,0,0,0,,One arrives at Miyajimaguchi Pier, where the ferry terminal is.
 Dialogue: 0,0:06:09.78,0:06:15.85,Dialogue Top,,0,0,0,,It takes only ten minutes by ferry to reach the\NItsukushima Shrine, a world heritage site, in Miyajima.
-Dialogue: 0,0:06:09.67,0:06:14.52,title001,,0,0,0,,{\fad(0,300)}Miyajima
+Dialogue: 0,0:06:09.67,0:06:14.52,Signs,,0,0,0,,Miyajima
 Dialogue: 0,0:06:16.93,0:06:17.59,Dialogue,,0,0,0,,I can see it!
-Dialogue: 0,0:06:17.89,0:06:21.10,title001,,0,0,0,,{\fad(300,0)} World Heritage Itsukushima Shrine
+Dialogue: 0,0:06:17.89,0:06:21.10,Signs,,0,0,0,,World Heritage Itsukushima Shrine
 Dialogue: 0,0:06:22.68,0:06:27.52,Dialogue,,0,0,0,,Miyajima is said to be a deity in the\Nform of island and is awed by many.
 Dialogue: 0,0:06:27.52,0:06:30.31,Dialogue,,0,0,0,,That's why they build toriis and\NShinto shrines in the sea instead.
 Dialogue: 0,0:06:30.98,0:06:35.03,Dialogue,,0,0,0,,During low tide, people can even walk straight to the Big Torii.
 Dialogue: 0,0:06:36.57,0:06:38.95,Dialogue,,0,0,0,,They perform court dances to worship the deity there, don't they?
 Dialogue: 0,0:06:39.60,0:06:41.08,Dialogue Top,,0,0,0,,I wanna see them!
-Dialogue: 0,0:06:39.25,0:06:43.92,title001,,0,0,0,,{\fad(300,300)}National Treasure High Stage
+Dialogue: 0,0:06:39.25,0:06:43.92,Signs,,0,0,0,,National Treasure High Stage
 Dialogue: 0,0:06:57.01,0:06:58.01,Dialogue,,0,0,0,,Delicious!
 Dialogue: 0,0:06:58.01,0:06:59.55,Dialogue,,0,0,0,,Fried oysters are the best!
 Dialogue: 0,0:07:03.72,0:07:05.68,Dialogue,,0,0,0,,Conger eel rice, scrumptious!
@@ -142,10 +141,10 @@ Dialogue: 0,0:07:13.90,0:07:14.52,Dialogue,,0,0,0,,Delicious!
 Dialogue: 0,0:07:13.90,0:07:14.52,Dialogue,,0,0,0,,{\an9\xbord10\ybord10\b0}Oyster Rice Ball
 Dialogue: 0,0:07:15.49,0:07:16.15,Dialogue,,0,0,0,,Awesome!
 Dialogue: 0,0:07:15.49,0:07:16.15,Dialogue,,0,0,0,,{\xbord10\ybord10\b0} Conger Eel Bun
-Dialogue: 0,0:07:16.45,0:07:19.61,title001,,0,0,0,,{\fad(300,0)}Miyajima Traditional Crafts Center
+Dialogue: 0,0:07:16.45,0:07:19.61,Signs,,0,0,0,,Miyajima Traditional Crafts Center
 Dialogue: 0,0:07:40.01,0:07:40.63,Dialogue,,0,0,0,,Delicious!
-Dialogue: 0,0:07:42.02,0:07:47.15,title001,,0,0,0,,{\fad(330,330)}Daigan Temple
-Dialogue: 0,0:07:51.74,0:07:55.48,title001,,0,0,0,,{\fad(300,0)}Itsukushima Shrine Museum
+Dialogue: 0,0:07:42.02,0:07:47.15,Signs,,0,0,0,,Daigan Temple
+Dialogue: 0,0:07:51.74,0:07:55.48,Signs,,0,0,0,,Itsukushima Shrine Museum
 Dialogue: 0,0:07:56.19,0:07:57.98,Dialogue,,0,0,0,,The red leaf buns were delicious!
 Dialogue: 0,0:08:00.78,0:08:01.49,Dialogue,,0,0,0,,What's wrong?
 Dialogue: 0,0:08:02.16,0:08:05.16,Dialogue,,0,0,0,,Geez, who the hell put salt in my drink!?
@@ -196,7 +195,7 @@ Dialogue: 0,0:10:03.08,0:10:07.79,Character Card,,0,0,0,,Ayase Yayoi (22)\N"Mise
 Dialogue: 0,0:10:09.91,0:10:11.45,Dialogue,,0,0,0,,"Seven wonders" flavor, huh?
 Dialogue: 0,0:10:11.77,0:10:15.39,Dialogue Top,,0,0,0,,Say, say, what are Misen's seven wonders?
 Dialogue: 0,0:10:15.41,0:10:20.11,Dialogue Top,,0,0,0,,They're legends about Misen, a mountain\Nthat stands tall in the center of Miyajima.
-Dialogue: 0,0:10:18.51,0:10:21.22,title001,,0,0,0,,{\fad(300,300)}Misen
+Dialogue: 0,0:10:18.51,0:10:21.22,Signs,,0,0,0,,Misen
 Dialogue: 0,0:10:21.98,0:10:26.57,Dialogue Top,,0,0,0,,Ever since Master Koubou's training, the fire he\Nignited has kept on burning for a thousand years...
 Dialogue: 0,0:10:26.59,0:10:27.68,Dialogue Top,,0,0,0,,The "Eternal Fire".
 Dialogue: 0,0:10:28.84,0:10:32.18,Dialogue,,0,0,0,,When the Master left his tin staff\Nstanding, it grew roots and became...
@@ -344,14 +343,14 @@ Dialogue: 0,0:17:52.20,0:17:54.79,Dialogue,,0,0,0,,My apologies, Mouri{\rHonorif
 Dialogue: 0,0:17:55.62,0:17:56.54,Dialogue,,0,0,0,,Understood.
 Dialogue: 0,0:17:57.29,0:17:58.92,Dialogue,,0,0,0,,Then, let's head over there.
 Dialogue: 0,0:17:58.92,0:17:59.42,Dialogue,,0,0,0,,Yes!
-Dialogue: 0,0:17:59.80,0:18:02.80,title001,,0,0,0,,Daishou Temple
+Dialogue: 0,0:17:59.80,0:18:02.80,Signs,,0,0,0,,Daishou Temple
 Dialogue: 0,0:18:15.10,0:18:15.98,Dialogue,,0,0,0,,Cut!
 Dialogue: 0,0:18:16.48,0:18:17.98,Dialogue,,0,0,0,,Good, OK!
 Dialogue: 0,0:18:20.44,0:18:21.65,Dialogue,,0,0,0,,Great job, guys!
 Dialogue: 0,0:18:21.65,0:18:23.44,Dialogue,,0,0,0,,One more scene and we're done.
 Dialogue: 0,0:18:26.74,0:18:29.03,Dialogue,,0,0,0,,Those two look like they're hiding something.
 Dialogue: 0,0:18:29.03,0:18:31.05,Dialogue,,0,0,0,,I better not take my eyes off them.
-Dialogue: 0,0:18:31.20,0:18:34.20,title001,,0,0,0,,Kannon Hall
+Dialogue: 0,0:18:31.20,0:18:34.20,Signs,,0,0,0,,Kannon Hall
 Dialogue: 0,0:18:33.78,0:18:37.75,Dialogue Top,,0,0,0,,Next, spiritual training where you shed your\Npresent life's impurities in the dark...
 Dialogue: 0,0:18:37.76,0:18:39.22,Dialogue Top,,0,0,0,,A tour around the Ordination Platform!
 Dialogue: 0,0:18:39.79,0:18:42.17,Dialogue,,0,0,0,,Ran{\rHonorifics - Dialogue}-san{\r}, Conan{\rHonorifics - Dialogue}-kun{\r}, if you'd please!

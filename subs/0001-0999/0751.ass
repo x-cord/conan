@@ -33,7 +33,6 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: GreedNarr,Biko,45,&H6E8C4000,&H000000FF,&H00FFFFFF,&H80000000,-1,0,0,0,100,100,0,0,1,3.7,1.5,2,50,50,30,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -85,12 +84,12 @@ Dialogue: 0,0:02:35.63,0:02:39.59,Dialogue,,0,0,0,,Wow! The owners really did tu
 Dialogue: 0,0:02:39.59,0:02:41.72,Dialogue,,0,0,0,,And not just one, but two!
 Dialogue: 0,0:02:42.09,0:02:44.56,Dialogue,,0,0,0,,T-They're not the only two.
 Dialogue: 0,0:02:44.56,0:02:47.73,Dialogue,,0,0,0,,There's another one waiting inside...
-Dialogue: 0,0:02:52.15,0:02:53.98,GreedNarr,,0,0,0,,{\blur3}Let the refreshing autumn breeze blow away your summer fatigue!
-Dialogue: 0,0:02:53.98,0:02:55.73,GreedNarr,,0,0,0,,{\blur3}A gallant and dashing deduction show!
-Dialogue: 0,0:02:55.73,0:02:59.28,GreedNarr,,0,0,0,,{\blur3}Three people claiming to be his owner?!\NTime for a Kogorō and Bourbon deduction tag-team!
-Dialogue: 0,0:02:59.28,0:03:00.82,GreedNarr,,0,0,0,,{\blur3}He sees the single truth for what it is,
-Dialogue: 0,0:03:00.82,0:03:02.28,GreedNarr,,0,0,0,,{\blur3}and looks like a kid but has the mind of an adult!
-Dialogue: 0,0:03:02.28,0:03:05.41,GreedNarr,,0,0,0,,{\blur3}His name? Detective Conan!
+Dialogue: 0,0:02:52.15,0:02:53.98,Narration Off,,0,0,0,,{\be10}Let the refreshing autumn breeze blow away your summer fatigue!
+Dialogue: 0,0:02:53.98,0:02:55.73,Narration Off,,0,0,0,,{\be10}A gallant and dashing deduction show!
+Dialogue: 0,0:02:55.73,0:02:59.28,Narration Off,,0,0,0,,{\be10}Three people claiming to be his owner?!\NTime for a Kogorō and Bourbon deduction tag-team!
+Dialogue: 0,0:02:59.28,0:03:00.82,Narration Off,,0,0,0,,{\be10}He sees the single truth for what it is,
+Dialogue: 0,0:03:00.82,0:03:02.28,Narration Off,,0,0,0,,{\be10}and looks like a kid but has the mind of an adult!
+Dialogue: 0,0:03:02.28,0:03:05.41,Narration Off,,0,0,0,,{\be10}His name? Detective Conan!
 Dialogue: 0,0:04:53.23,0:04:55.64,Dialogue,,0,0,0,,Hey! How many times do I have to tell you?!
 Dialogue: 0,0:04:56.02,0:05:00.15,Dialogue Top,,0,0,0,,This cat is my granddaughter's cat, Mugi{\rHonorifics - Dialogue}-chan{\r}!
 Dialogue: 0,0:05:00.77,0:05:02.53,Dialogue,,0,0,0,,Where's my Mugi{\rHonorifics - Dialogue}-chan{\r}?
@@ -390,6 +389,6 @@ Dialogue: 0,0:24:14.84,0:24:19.85,Dialogue,,0,0,0,,Next Conan's Hint: Wrapping!
 Dialogue: 0,0:24:19.85,0:24:22.31,Dialogue Top,,0,0,0,,Next week, yo, part two, yeah!
 Dialogue: 0,0:24:22.31,0:24:23.23,Dialogue Top,,0,0,0,,That's rapping...
 Dialogue: 0,0:24:23.23,0:24:24.40,Dialogue Top,,0,0,0,,It's {\i1}wrapping{\i0}!
-Dialogue: 0,0:02:18.99,0:02:24.45,Signs,,0,0,0,,Shōgo Amesawa (36)\NPart-Time Worker
-Dialogue: 0,0:02:29.08,0:02:34.04,Signs,,0,0,0,,Teishi Masuko (54)\NCompany President
-Dialogue: 0,0:04:56.19,0:05:00.15,Signs,,0,0,0,,Mutsumi Shagawa (61)\NHousewife
+Dialogue: 0,0:02:18.99,0:02:24.45,Character Card,,0,0,0,,Shōgo Amesawa (36)\NPart-Time Worker
+Dialogue: 0,0:02:29.08,0:02:34.04,Character Card,,0,0,0,,Teishi Masuko (54)\NCompany President
+Dialogue: 0,0:04:56.19,0:05:00.15,Character Card,,0,0,0,,Mutsumi Shagawa (61)\NHousewife

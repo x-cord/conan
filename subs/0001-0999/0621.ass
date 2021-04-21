@@ -33,7 +33,6 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: default01,Batang,15,&H00FDFEFE,&H000000FF,&H00080A08,&H00000000,-1,0,0,0,100,100,0,0,1,0.8,0,2,10,10,3,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -48,13 +47,13 @@ Dialogue: 0,0:00:27.20,0:00:30.72,Dialogue,,0,0,0,,In order to prolong the time 
 Dialogue: 0,0:00:36.54,0:00:38.56,Dialogue,,0,0,0,,If I lose this tie-break...
 Dialogue: 0,0:00:39.05,0:00:39.98,Dialogue,,0,0,0,,Mother will...
 Dialogue: 0,0:00:40.63,0:00:41.77,Dialogue,,0,0,0,,Mother will...
-Dialogue: 0,0:00:42.76,0:00:44.64,default01,,0,0,0,,Come on, Minerva!
-Dialogue: 0,0:00:46.97,0:00:48.76,default01,,0,0,0,,Don't give up the fight...
-Dialogue: 0,0:00:48.77,0:00:52.02,default01,,0,0,0,,Even though she has a championship point!
-Dialogue: 0,0:00:52.27,0:00:54.56,default01,,0,0,0,,Hang in there, win the match!
-Dialogue: 0,0:00:55.11,0:00:56.81,default01,,0,0,0,,Hang in...?
-Dialogue: 0,0:00:58.15,0:00:59.78,default01,,0,0,0,,Grass Court Queen...
-Dialogue: 0,0:01:00.28,0:01:01.57,default01,,0,0,0,,Can you do it?
+Dialogue: 0,0:00:42.76,0:00:44.64,Dialogue,,0,0,0,,Come on, Minerva!
+Dialogue: 0,0:00:46.97,0:00:48.76,Dialogue,,0,0,0,,Don't give up the fight...
+Dialogue: 0,0:00:48.77,0:00:52.02,Dialogue,,0,0,0,,Even though she has a championship point!
+Dialogue: 0,0:00:52.27,0:00:54.56,Dialogue,,0,0,0,,Hang in there, win the match!
+Dialogue: 0,0:00:55.11,0:00:56.81,Dialogue,,0,0,0,,Hang in...?
+Dialogue: 0,0:00:58.15,0:00:59.78,Dialogue,,0,0,0,,Grass Court Queen...
+Dialogue: 0,0:01:00.28,0:01:01.57,Dialogue,,0,0,0,,Can you do it?
 Dialogue: 0,0:01:04.20,0:01:05.57,Dialogue,,0,0,0,,OK!
 Dialogue: 0,0:01:06.89,0:01:08.57,Dialogue,,0,0,0,,In the deciding moment that determines your future.
 Dialogue: 0,0:01:08.63,0:01:10.30,Dialogue,,0,0,0,,You cannot lie to yourself!
@@ -71,7 +70,7 @@ Dialogue: 0,0:03:24.50,0:03:29.97,Dialogue,,0,0,0,,However, according to the Bra
 Dialogue: 0,0:03:29.97,0:03:37.14,Dialogue,,0,0,0,,Hades's true target was not Minerva herself, but her mother,\NJuno, who was sitting in the stands rooting for her.
 Dialogue: 0,0:03:40.10,0:03:43.77,Dialogue,,0,0,0,,In sync with the end of the match,\NHades will press the detonator switch.
 Dialogue: 0,0:03:44.77,0:03:46.48,Dialogue,,0,0,0,,If we can't locate him before then...
-Dialogue: 0,0:03:58.00,0:03:59.12,default01,,0,0,0,,Play!
+Dialogue: 0,0:03:58.00,0:03:59.12,Dialogue,,0,0,0,,Play!
 Dialogue: 0,0:04:03.42,0:04:05.10,Dialogue,,0,0,0,,As expected of Holmes's Apprentice...
 Dialogue: 0,0:04:05.67,0:04:06.50,Dialogue,,0,0,0,,A great idea.
 Dialogue: 0,0:04:07.80,0:04:10.52,Dialogue,,0,0,0,,However, it's a fairly risky request.
@@ -79,13 +78,13 @@ Dialogue: 0,0:04:13.76,0:04:17.03,Dialogue,,0,0,0,,Since my opponent is ranked n
 Dialogue: 0,0:04:17.56,0:04:19.99,Dialogue,,0,0,0,,Who possesses a serve exceeding 120 mph...
 Dialogue: 0,0:04:20.52,0:04:21.79,Dialogue,,0,0,0,,Demeter Bauer!
 Dialogue: 0,0:04:28.07,0:04:28.69,Dialogue,,0,0,0,,Yes!
-Dialogue: 0,0:04:32.20,0:04:34.45,default01,,0,0,0,,1-0, Miss Bauer.
+Dialogue: 0,0:04:32.20,0:04:34.45,Dialogue,,0,0,0,,1-0, Miss Bauer.
 Dialogue: 0,0:04:35.91,0:04:39.22,Dialogue,,0,0,0,,But if this method allows us to capture the culprit...
 Dialogue: 0,0:04:39.95,0:04:42.06,Dialogue,,0,0,0,,If I can save my mother this way...
 Dialogue: 0,0:04:42.77,0:04:43.91,Dialogue,,0,0,0,,I'll show you...
-Dialogue: 0,0:04:44.58,0:04:47.89,default01,,0,0,0,,This Grass Court Queen, Minerva Glass's...
+Dialogue: 0,0:04:44.58,0:04:47.89,Dialogue,,0,0,0,,This Grass Court Queen, Minerva Glass's...
 Dialogue: 0,0:04:48.80,0:04:49.92,Dialogue,,0,0,0,,True form!
-Dialogue: 0,0:04:53.51,0:04:54.76,default01,,0,0,0,,1-all!
+Dialogue: 0,0:04:53.51,0:04:54.76,Dialogue,,0,0,0,,1-all!
 Dialogue: 0,0:04:55.47,0:04:56.60,Dialogue,,0,0,0,,Amazing!
 Dialogue: 0,0:04:56.60,0:04:58.26,Dialogue,,0,0,0,,A service ace right back!
 Dialogue: 0,0:04:58.64,0:05:02.52,Dialogue,,0,0,0,,But how do they determine the winner from a tie-break?
@@ -96,7 +95,7 @@ Dialogue: 0,0:05:17.28,0:05:21.20,Dialogue,,0,0,0,,My sister who lost the first 
 Dialogue: 0,0:05:21.79,0:05:25.54,Dialogue,,0,0,0,,And when that happens, the bomb that my mum's holding...
 Dialogue: 0,0:05:25.54,0:05:29.63,Dialogue,,0,0,0,,Will be detonated by that Hades guy, right?
 Dialogue: 0,0:05:36.18,0:05:37.09,Dialogue,,0,0,0,,Out!
-Dialogue: 0,0:05:37.47,0:05:39.76,default01,,0,0,0,,7-6, Miss Bauer.
+Dialogue: 0,0:05:37.47,0:05:39.76,Dialogue,,0,0,0,,7-6, Miss Bauer.
 Dialogue: 0,0:05:40.18,0:05:43.56,Dialogue,,0,0,0,,Hey, if she's trailing 7-6, that means...
 Dialogue: 0,0:05:43.56,0:05:45.73,Dialogue,,0,0,0,,Her opponent has the championship point!
 Dialogue: 0,0:05:46.27,0:05:49.23,Dialogue,,0,0,0,,If she loses the next point, Minerva{\rHonorifics - Dialogue}-san{\r} will lose the match!
@@ -129,7 +128,7 @@ Dialogue: 0,0:07:40.34,0:07:42.61,Dialogue,,0,0,0,,In that case, I'll return it 
 Dialogue: 0,0:07:44.97,0:07:46.16,Dialogue,,0,0,0,,Oh no, too shallow!
 Dialogue: 0,0:07:46.35,0:07:47.82,Dialogue,,0,0,0,,She's coming up to the net!
 Dialogue: 0,0:07:53.86,0:07:55.57,Dialogue,,0,0,0,,It's a chance ball for her opponent!
-Dialogue: 0,0:07:55.73,0:07:57.11,default01,,0,0,0,,Finish!
+Dialogue: 0,0:07:55.73,0:07:57.11,Dialogue,,0,0,0,,Finish!
 Dialogue: 0,0:08:00.74,0:08:02.07,Dialogue,,0,0,0,,Backcourt, left side...
 Dialogue: 0,0:08:02.45,0:08:03.34,Dialogue,,0,0,0,,Just on the line!
 Dialogue: 0,0:08:05.87,0:08:06.70,Dialogue,,0,0,0,,It's in!
@@ -152,9 +151,9 @@ Dialogue: 0,0:09:08.26,0:09:09.68,Dialogue,,0,0,0,,She didn't reach it!
 Dialogue: 0,0:09:10.14,0:09:12.15,Dialogue,,0,0,0,,Then, could it be!?
 Dialogue: 0,0:09:12.64,0:09:13.83,Dialogue,,0,0,0,,My sister...
 Dialogue: 0,0:09:14.19,0:09:14.95,Dialogue,,0,0,0,,Lost!?
-Dialogue: 0,0:09:17.77,0:09:19.27,default01,,0,0,0,,Same, set, and...
-Dialogue: 0,0:09:19.44,0:09:20.28,default01,,0,0,0,,Match won by...
-Dialogue: 0,0:09:20.69,0:09:21.49,default01,,0,0,0,,Challenge!
+Dialogue: 0,0:09:17.77,0:09:19.27,Dialogue,,0,0,0,,Same, set, and...
+Dialogue: 0,0:09:19.44,0:09:20.28,Dialogue,,0,0,0,,Match won by...
+Dialogue: 0,0:09:20.69,0:09:21.49,Dialogue,,0,0,0,,Challenge!
 Dialogue: 0,0:09:24.99,0:09:25.82,Dialogue,,0,0,0,,What's that?
 Dialogue: 0,0:09:25.82,0:09:26.62,Dialogue,,0,0,0,,A challenge?
 Dialogue: 0,0:09:27.12,0:09:28.99,Dialogue,,0,0,0,,It's called the challenge system.
@@ -181,15 +180,15 @@ Dialogue: 0,0:11:01.96,0:11:05.46,Dialogue,,0,0,0,,No matter who wins, Hades wil
 Dialogue: 0,0:11:05.88,0:11:07.34,Dialogue,,0,0,0,,It'll be OK.
 Dialogue: 0,0:11:07.34,0:11:11.34,Dialogue,,0,0,0,,Holmes's Apprentice sent me an email saying he found the culprit.
 Dialogue: 0,0:11:11.35,0:11:13.39,Dialogue,,0,0,0,,He's probably on his way to catch him now.
-Dialogue: 0,0:11:15.31,0:11:17.56,default01,,0,0,0,,Please! Let me in!
-Dialogue: 0,0:11:17.73,0:11:20.02,default01,,0,0,0,,Like I've been telling you...
-Dialogue: 0,0:11:20.02,0:11:22.61,default01,,0,0,0,,This is the wrong place for your ticket!
-Dialogue: 0,0:11:22.82,0:11:25.73,default01,,0,0,0,,I must see someone before the game is over!
-Dialogue: 0,0:11:25.94,0:11:28.95,default01,,0,0,0,,I will come back right away, please!
-Dialogue: 0,0:11:29.07,0:11:30.61,default01,,0,0,0,,You might need this?
-Dialogue: 0,0:11:31.32,0:11:34.41,default01,,0,0,0,,When this boy ran into me...
-Dialogue: 0,0:11:34.41,0:11:37.62,default01,,0,0,0,,We happened to exchange our tickets.
-Dialogue: 0,0:11:37.83,0:11:40.58,default01,,0,0,0,,Well, you can enter here then!
+Dialogue: 0,0:11:15.31,0:11:17.56,Dialogue,,0,0,0,,Please! Let me in!
+Dialogue: 0,0:11:17.73,0:11:20.02,Dialogue,,0,0,0,,Like I've been telling you...
+Dialogue: 0,0:11:20.02,0:11:22.61,Dialogue,,0,0,0,,This is the wrong place for your ticket!
+Dialogue: 0,0:11:22.82,0:11:25.73,Dialogue,,0,0,0,,I must see someone before the game is over!
+Dialogue: 0,0:11:25.94,0:11:28.95,Dialogue,,0,0,0,,I will come back right away, please!
+Dialogue: 0,0:11:29.07,0:11:30.61,Dialogue,,0,0,0,,You might need this?
+Dialogue: 0,0:11:31.32,0:11:34.41,Dialogue,,0,0,0,,When this boy ran into me...
+Dialogue: 0,0:11:34.41,0:11:37.62,Dialogue,,0,0,0,,We happened to exchange our tickets.
+Dialogue: 0,0:11:37.83,0:11:40.58,Dialogue,,0,0,0,,Well, you can enter here then!
 Dialogue: 0,0:11:42.75,0:11:44.13,Dialogue,,0,0,0,,There you go, boy.
 Dialogue: 0,0:11:45.96,0:11:47.42,Dialogue,,0,0,0,,Now, youse!
 Dialogue: 0,0:11:47.42,0:11:48.88,Dialogue,,0,0,0,,Whatcha still lingering round here for?
@@ -230,11 +229,11 @@ Dialogue: 0,0:13:48.34,0:13:50.71,Dialogue,,0,0,0,,He'll stealthily creep up beh
 Dialogue: 0,0:13:51.46,0:13:54.67,Dialogue,,0,0,0,,And just shoot him with that tranquilizer watch of his.
 Dialogue: 0,0:13:55.72,0:13:57.15,Dialogue,,0,0,0,,All right, perfect!
 Dialogue: 0,0:13:57.30,0:13:58.05,Dialogue,,0,0,0,,Oh!
-Dialogue: 0,0:13:58.05,0:14:00.14,default01,,0,0,0,,You're Holmes's Apprentice!
-Dialogue: 0,0:14:00.43,0:14:02.52,default01,,0,0,0,,You made Minerva rise!
+Dialogue: 0,0:13:58.05,0:14:00.14,Dialogue,,0,0,0,,You're Holmes's Apprentice!
+Dialogue: 0,0:14:00.43,0:14:02.52,Dialogue,,0,0,0,,You made Minerva rise!
 Dialogue: 0,0:14:02.93,0:14:03.87,Dialogue,,0,0,0,,What!?
-Dialogue: 0,0:14:03.98,0:14:07.19,default01,,0,0,0,,But you know, that was against the manner...
-Dialogue: 0,0:14:07.35,0:14:08.52,default01,,0,0,0,,Never do it!
+Dialogue: 0,0:14:03.98,0:14:07.19,Dialogue,,0,0,0,,But you know, that was against the manner...
+Dialogue: 0,0:14:07.35,0:14:08.52,Dialogue,,0,0,0,,Never do it!
 Dialogue: 0,0:14:08.90,0:14:11.58,Dialogue,,0,0,0,,Could he have sniffed me out?
 Dialogue: 0,0:14:14.70,0:14:16.85,Dialogue,,0,0,0,,That's Holmes's Apprentice...
 Dialogue: 0,0:14:17.91,0:14:20.70,Dialogue,,0,0,0,,Then, the man getting flustered really is...
@@ -246,8 +245,8 @@ Dialogue: 0,0:14:38.55,0:14:39.61,Dialogue,,0,0,0,,From that distance!?
 Dialogue: 0,0:14:39.97,0:14:41.97,Dialogue,,0,0,0,,As expected of the Grass Court Queen...
 Dialogue: 0,0:14:43.43,0:14:45.99,Dialogue,,0,0,0,,Setting up a nice shot in front of the goal!
 Dialogue: 0,0:14:56.49,0:14:57.13,Dialogue,,0,0,0,,Security!?
-Dialogue: 0,0:14:57.20,0:15:00.28,default01,,0,0,0,,Ah, the ball just happened to come...
-Dialogue: 0,0:15:09.29,0:15:10.63,default01,,0,0,0,,Thank you...
+Dialogue: 0,0:14:57.20,0:15:00.28,Dialogue,,0,0,0,,Ah, the ball just happened to come...
+Dialogue: 0,0:15:09.29,0:15:10.63,Dialogue,,0,0,0,,Thank you...
 Dialogue: 0,0:15:18.30,0:15:19.43,Dialogue,,0,0,0,,I see...
 Dialogue: 0,0:15:19.93,0:15:23.39,Dialogue,,0,0,0,,So Dad had already called the police and had them standing by...
 Dialogue: 0,0:15:23.64,0:15:24.68,Dialogue,,0,0,0,,Yeah...
@@ -273,10 +272,10 @@ Dialogue: 0,0:16:28.33,0:16:30.91,Dialogue,,0,0,0,,If you came to pursue this ca
 Dialogue: 0,0:16:31.23,0:16:32.25,Dialogue,,0,0,0,,No...
 Dialogue: 0,0:16:32.67,0:16:35.34,Dialogue,,0,0,0,,We actually came to London because that child asked us to.
 Dialogue: 0,0:16:37.21,0:16:38.09,Dialogue,,0,0,0,,That child?
-Dialogue: 0,0:16:39.34,0:16:41.17,default01,,0,0,0,,Game, set, and...
-Dialogue: 0,0:16:41.34,0:16:42.76,default01,,0,0,0,,Match won by...
-Dialogue: 0,0:16:42.93,0:16:44.30,default01,,0,0,0,,Miss Glass!
-Dialogue: 0,0:16:46.52,0:16:47.41,default01,,0,0,0,,Splendid!
+Dialogue: 0,0:16:39.34,0:16:41.17,Dialogue,,0,0,0,,Game, set, and...
+Dialogue: 0,0:16:41.34,0:16:42.76,Dialogue,,0,0,0,,Match won by...
+Dialogue: 0,0:16:42.93,0:16:44.30,Dialogue,,0,0,0,,Miss Glass!
+Dialogue: 0,0:16:46.52,0:16:47.41,Dialogue,,0,0,0,,Splendid!
 Dialogue: 0,0:16:48.39,0:16:50.02,Dialogue,,0,0,0,,How does it feel?
 Dialogue: 0,0:16:50.85,0:16:52.48,Dialogue,,0,0,0,,Has this feeling made you feel nostalgic?
 Dialogue: 0,0:16:52.81,0:16:56.94,Dialogue,,0,0,0,,The reason Minerva asked you to stop being her coach...
@@ -311,9 +310,9 @@ Dialogue: 0,0:18:06.68,0:18:08.55,Dialogue,,0,0,0,,Might be a prince from somewh
 Dialogue: 0,0:18:10.68,0:18:11.93,Dialogue,,0,0,0,,Should I call and ask?
 Dialogue: 0,0:18:12.52,0:18:14.14,Dialogue,,0,0,0,,No, don't...
 Dialogue: 0,0:18:14.14,0:18:15.73,Dialogue,,0,0,0,,I don't want to know...
-Dialogue: 0,0:18:18.06,0:18:19.98,default01,,0,0,0,,What was the key to your victory?
-Dialogue: 0,0:18:20.15,0:18:22.44,default01,,0,0,0,,What led to my victory?
-Dialogue: 0,0:18:22.82,0:18:26.82,default01,,0,0,0,,Well, I suppose I owe it to Holmes's Apprentice?
+Dialogue: 0,0:18:18.06,0:18:19.98,Dialogue,,0,0,0,,What was the key to your victory?
+Dialogue: 0,0:18:20.15,0:18:22.44,Dialogue,,0,0,0,,What led to my victory?
+Dialogue: 0,0:18:22.82,0:18:26.82,Dialogue,,0,0,0,,Well, I suppose I owe it to Holmes's Apprentice?
 Dialogue: 0,0:18:28.53,0:18:31.68,Dialogue,,0,0,0,,But the reason I'm smiling so much is...
 Dialogue: 0,0:18:32.12,0:18:36.08,Dialogue,,0,0,0,,Because of a Japanese girl whose email I just received.
 Dialogue: 0,0:18:44.63,0:18:46.17,Dialogue,,0,0,0,,What a surprise!

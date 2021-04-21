@@ -33,7 +33,6 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: Thinking,00390,18,&H00FFFFFF,&H000000FF,&H00432017,&H00000000,0,0,0,0,100,100,0,0,1,2.5,0,2,10,10,10,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -85,7 +84,7 @@ Dialogue: 0,0:03:17.44,0:03:20.15,Dialogue,,0,0,0,,That aired at least two years
 Dialogue: 0,0:03:20.15,0:03:21.95,Dialogue,,0,0,0,,Conan{\rHonorifics - Dialogue}-kun{\r}, how old are you now?
 Dialogue: 0,0:03:24.95,0:03:27.08,Dialogue,,0,0,0,,I watched it on video a while ago!
 Dialogue: 0,0:03:28.20,0:03:29.75,Dialogue,,0,0,0,,Oh, so that's how it is!
-Dialogue: 0,0:03:32.42,0:03:33.62,Thinking,,0,0,0,,{\be2}That was close...
+Dialogue: 0,0:03:32.42,0:03:33.62,Thoughts,,0,0,0,,{\be10}That was close...
 Dialogue: 0,0:03:34.17,0:03:35.50,Dialogue,,0,0,0,,Understood.
 Dialogue: 0,0:03:35.50,0:03:40.88,Dialogue,,0,0,0,,Allow me to tell your drama script\Nwriters about every case I've solved.
 Dialogue: 0,0:03:40.88,0:03:42.59,Dialogue,,0,0,0,,Say, can I go too?
@@ -145,8 +144,8 @@ Dialogue: 0,0:06:56.70,0:06:58.16,Dialogue,,0,0,0,,The address is...
 Dialogue: 0,0:07:06.42,0:07:07.88,Dialogue,,0,0,0,,Mouri{\rHonorifics - Dialogue}-san{\r}...
 Dialogue: 0,0:07:07.88,0:07:09.51,Dialogue,,0,0,0,,The smell of almonds.
 Dialogue: 0,0:07:09.51,0:07:12.43,Dialogue,,0,0,0,,The cause of death is potassium cyanide poisoning.
-Dialogue: 0,0:07:21.39,0:07:23.27,Thinking,,0,0,0,,{\be2}Four people...
-Dialogue: 0,0:07:23.27,0:07:25.15,Thinking,,0,0,0,,{\be2}And four drinks, huh...
+Dialogue: 0,0:07:21.39,0:07:23.27,Thoughts,,0,0,0,,{\be10}Four people...
+Dialogue: 0,0:07:23.27,0:07:25.15,Thoughts,,0,0,0,,{\be10}And four drinks, huh...
 Dialogue: 0,0:07:35.99,0:07:40.00,Dialogue,,0,0,0,,The cup on the floor is poisoned, as expected.
 Dialogue: 0,0:07:40.00,0:07:43.62,Dialogue,,0,0,0,,But none of the other three cups are\Nshowing traces of the substance.
 Dialogue: 0,0:07:43.88,0:07:47.71,Dialogue,,0,0,0,,Which means that the culprit only\Npoisoned Yagami{\rHonorifics - Dialogue}-san{\r}'s coffee.
@@ -203,15 +202,15 @@ Dialogue: 0,0:10:27.79,0:10:32.25,Dialogue,,0,0,0,,Kouda{\rHonorifics - Dialogue
 Dialogue: 0,0:10:32.92,0:10:37.21,Dialogue,,0,0,0,,Yet Yagami{\rHonorifics - Dialogue}-san{\r} did everything he could to get him fired.
 Dialogue: 0,0:10:37.72,0:10:39.30,Dialogue,,0,0,0,,It's obvious, Inspector.
 Dialogue: 0,0:10:39.30,0:10:40.47,Dialogue,,0,0,0,,It has to be him.
-Dialogue: 0,0:10:43.05,0:10:45.43,Thinking,,0,0,0,,{\be2}We have the motive now.
-Dialogue: 0,0:10:58.90,0:11:01.91,Thinking,,0,0,0,,{\be2}But... if he's the one that did it...
+Dialogue: 0,0:10:43.05,0:10:45.43,Thoughts,,0,0,0,,{\be10}We have the motive now.
+Dialogue: 0,0:10:58.90,0:11:01.91,Thoughts,,0,0,0,,{\be10}But... if he's the one that did it...
 Dialogue: 0,0:11:06.08,0:11:08.20,Dialogue,,0,0,0,,Hey, Mouri{\rHonorifics - Dialogue}-kun{\r}! Wait up!
 Dialogue: 0,0:11:08.70,0:11:11.00,Dialogue,,0,0,0,,I already know who the culprit is!
 Dialogue: 0,0:11:11.00,0:11:13.75,Dialogue,,0,0,0,,But you don't have any evidence.
 Dialogue: 0,0:11:14.00,0:11:16.29,Dialogue,,0,0,0,,And there are still things that haven't been cleared up.
 Dialogue: 0,0:11:16.71,0:11:19.17,Dialogue,,0,0,0,,Shut up and leave it to me!
 Dialogue: 0,0:11:19.17,0:11:21.13,Dialogue,,0,0,0,,I'm the famous detective Mouri Kogorou!
-Dialogue: 0,0:11:22.22,0:11:23.59,Thinking,,0,0,0,,{\be2}Is that really all right?
+Dialogue: 0,0:11:22.22,0:11:23.59,Thoughts,,0,0,0,,{\be10}Is that really all right?
 Dialogue: 0,0:11:25.55,0:11:28.93,Dialogue,,0,0,0,,You think that... I killed Yagami{\rHonorifics - Dialogue}-san{\r}?
 Dialogue: 0,0:11:29.56,0:11:30.39,Dialogue,,0,0,0,,No way...
 Dialogue: 0,0:11:30.89,0:11:34.56,Dialogue,,0,0,0,,It may be true that I didn't get along with him...
@@ -222,9 +221,9 @@ Dialogue: 0,0:11:45.91,0:11:49.49,Dialogue,,0,0,0,,Moreover, when I was getting 
 Dialogue: 0,0:11:50.75,0:11:54.29,Dialogue,,0,0,0,,Which means that I didn't give him\Nthe cup; he took it himself.
 Dialogue: 0,0:11:55.00,0:12:00.09,Dialogue,,0,0,0,,I couldn't have predicted which cup he would take.
 Dialogue: 0,0:12:00.38,0:12:01.42,Dialogue,,0,0,0,,Isn't that right?
-Dialogue: 0,0:12:03.72,0:12:04.80,Thinking,,0,0,0,,{\be2}That's exactly the problem.
-Dialogue: 0,0:12:05.59,0:12:07.39,Thinking,,0,0,0,,{\be2}If this person is the culprit...
-Dialogue: 0,0:12:07.60,0:12:11.02,Thinking,,0,0,0,,{\be2}How did he get Yagami{\rHonorifics - Thinking}-san{\r} to choose\Nthe cup with the poison in it?
+Dialogue: 0,0:12:03.72,0:12:04.80,Thoughts,,0,0,0,,{\be10}That's exactly the problem.
+Dialogue: 0,0:12:05.59,0:12:07.39,Thoughts,,0,0,0,,{\be10}If this person is the culprit...
+Dialogue: 0,0:12:07.60,0:12:11.02,Thoughts,,0,0,0,,{\be10}How did he get Yagami{\rHonorifics - Thoughts\be10}-san{\r\be10} to choose\Nthe cup with the poison in it?
 Dialogue: 0,0:12:14.48,0:12:15.35,Dialogue,,0,0,0,,I see!
 Dialogue: 0,0:12:16.98,0:12:17.86,Dialogue,,0,0,0,,Mouri{\rHonorifics - Dialogue}-kun{\r}?
 Dialogue: 0,0:12:19.36,0:12:20.90,Dialogue,,0,0,0,,You brought in the cups.
@@ -237,19 +236,19 @@ Dialogue: 0,0:12:35.50,0:12:40.50,Dialogue,,0,0,0,,At the time, in that room, Ya
 Dialogue: 0,0:12:40.50,0:12:42.59,Dialogue,,0,0,0,,Of course he would take the cup closest to him.
 Dialogue: 0,0:12:43.01,0:12:47.80,Dialogue,,0,0,0,,Furthermore, Saguma{\rHonorifics - Dialogue}-san{\r} is Yagami{\rHonorifics - Dialogue}-san{\r}'s junior,\Nso it's not like he would just reach for a cup.
 Dialogue: 0,0:12:48.18,0:12:49.39,Dialogue,,0,0,0,,I see.
-Dialogue: 0,0:12:49.81,0:12:51.60,Thinking,,0,0,0,,{\be2}Is that really what he did?
+Dialogue: 0,0:12:49.81,0:12:51.60,Thoughts,,0,0,0,,{\be10}Is that really what he did?
 Dialogue: 0,0:12:52.06,0:12:56.81,Dialogue,,0,0,0,,No, even though we're each other's senior and\Njunior, we're already familiar with each other.
 Dialogue: 0,0:12:56.81,0:13:01.90,Dialogue,,0,0,0,,At that time, I was definitely the first one to take\Na cup, and passed the last one to Yagami{\rHonorifics - Dialogue}-san{\r}.
 Dialogue: 0,0:13:02.57,0:13:05.99,Dialogue,,0,0,0,,In that case, wouldn't I be suspicious?
 Dialogue: 0,0:13:08.49,0:13:12.08,Dialogue,,0,0,0,,Mouri{\rHonorifics - Dialogue}-san{\r}, you really are quite suspicious of me.
 Dialogue: 0,0:13:12.08,0:13:17.12,Dialogue,,0,0,0,,Please tell me the trick that I used to get\NYagami{\rHonorifics - Dialogue}-san{\r} to drink the poisoned coffee.
 Dialogue: 0,0:13:17.71,0:13:19.88,Dialogue,,0,0,0,,Solve that mystery first.
-Dialogue: 0,0:13:20.50,0:13:22.42,Thinking,,0,0,0,,{\be2}Such an aggressive look in his eyes...
-Dialogue: 0,0:13:23.30,0:13:25.13,Thinking,,0,0,0,,{\be2}He's definitely the culprit.
-Dialogue: 0,0:13:25.84,0:13:29.30,Thinking,,0,0,0,,{\be2}Yet he has so much confidence in his trick.
-Dialogue: 0,0:13:30.39,0:13:32.76,Thinking,,0,0,0,,{\be2}Two people and two drinks.
-Dialogue: 0,0:13:33.31,0:13:35.85,Thinking,,0,0,0,,{\be2}There's a 50% chance for someone to choose either cup.
-Dialogue: 0,0:13:37.19,0:13:40.69,Thinking,,0,0,0,,{\be2}What exactly did he do to get a probability of 100%?
+Dialogue: 0,0:13:20.50,0:13:22.42,Thoughts,,0,0,0,,{\be10}Such an aggressive look in his eyes...
+Dialogue: 0,0:13:23.30,0:13:25.13,Thoughts,,0,0,0,,{\be10}He's definitely the culprit.
+Dialogue: 0,0:13:25.84,0:13:29.30,Thoughts,,0,0,0,,{\be10}Yet he has so much confidence in his trick.
+Dialogue: 0,0:13:30.39,0:13:32.76,Thoughts,,0,0,0,,{\be10}Two people and two drinks.
+Dialogue: 0,0:13:33.31,0:13:35.85,Thoughts,,0,0,0,,{\be10}There's a 50% chance for someone to choose either cup.
+Dialogue: 0,0:13:37.19,0:13:40.69,Thoughts,,0,0,0,,{\be10}What exactly did he do to get a probability of 100%?
 Dialogue: 0,0:13:48.36,0:13:49.24,Dialogue,,0,0,0,,Mouri{\rHonorifics - Dialogue}-kun{\r}...
 Dialogue: 0,0:13:49.24,0:13:52.78,Dialogue,,0,0,0,,To be honest, my suspicions of Kouda{\rHonorifics - Dialogue}-san{\r} are a bit shaky.
 Dialogue: 0,0:13:53.24,0:13:56.75,Dialogue,,0,0,0,,Because if the person he wanted\Nto kill was really Yagami{\rHonorifics - Dialogue}-san{\r}...
@@ -257,7 +256,7 @@ Dialogue: 0,0:13:56.75,0:13:59.79,Dialogue,,0,0,0,,But then Saguma{\rHonorifics 
 Dialogue: 0,0:13:59.79,0:14:02.92,Dialogue,,0,0,0,,He would have stopped him no matter what.
 Dialogue: 0,0:14:03.05,0:14:06.21,Dialogue,,0,0,0,,But he said he forgot to bring the milk.
 Dialogue: 0,0:14:06.59,0:14:09.47,Dialogue,,0,0,0,,If he were the culprit, would he have\Nleft the scene of the crime?
-Dialogue: 0,0:14:10.01,0:14:10.89,Thinking,,0,0,0,,{\be2}That's true.
+Dialogue: 0,0:14:10.01,0:14:10.89,Thoughts,,0,0,0,,{\be10}That's true.
 Dialogue: 0,0:14:11.43,0:14:14.10,Dialogue,,0,0,0,,Didn't he think it through that\Nsomething like this could happen?
 Dialogue: 0,0:14:15.43,0:14:15.89,Dialogue,,0,0,0,,Hey.
 Dialogue: 0,0:14:16.43,0:14:18.10,Dialogue,,0,0,0,,Are you listening, Mouri{\rHonorifics - Dialogue}-kun{\r}?
@@ -279,17 +278,17 @@ Dialogue: 0,0:15:09.45,0:15:12.28,Dialogue,,0,0,0,,For a newcomer that skilled t
 Dialogue: 0,0:15:12.28,0:15:13.45,Dialogue,,0,0,0,,Even I was amazed.
 Dialogue: 0,0:15:16.41,0:15:18.45,Dialogue,,0,0,0,,[The Club of Supporting Actors]\Nwas also written by Kouda{\rHonorifics - Dialogue}-san{\r}?
 Dialogue: 0,0:15:18.79,0:15:20.87,Dialogue,,0,0,0,,Yes, what about it?
-Dialogue: 0,0:15:22.21,0:15:23.29,Thinking,,0,0,0,,{\be2}Does this mean...
+Dialogue: 0,0:15:22.21,0:15:23.29,Thoughts,,0,0,0,,{\be10}Does this mean...
 Dialogue: 0,0:15:23.83,0:15:26.79,Dialogue,,0,0,0,,Most of the scripts were written by\NYagami{\rHonorifics - Dialogue}-san{\r} and Saguma{\rHonorifics - Dialogue}-san{\r}, huh?
 Dialogue: 0,0:15:26.80,0:15:29.96,Dialogue,,0,0,0,,That's because the two of\Nthem were the main writers.
-Dialogue: 0,0:15:30.30,0:15:34.09,Thinking,,0,0,0,,{\be2}Which means that anyone else who was\Ntalented wouldn't have the chance to shine.
+Dialogue: 0,0:15:30.30,0:15:34.09,Thoughts,,0,0,0,,{\be10}Which means that anyone else who was\Ntalented wouldn't have the chance to shine.
 Dialogue: 0,0:15:34.60,0:15:36.76,Dialogue,,0,0,0,,So that's how the motive for this murder came about.
-Dialogue: 0,0:15:37.39,0:15:39.85,Thinking,,0,0,0,,{\be2}With that, every riddle is now solved.
+Dialogue: 0,0:15:37.39,0:15:39.85,Thoughts,,0,0,0,,{\be10}With that, every riddle is now solved.
 Dialogue: 0,0:15:40.39,0:15:42.10,Dialogue,,0,0,0,,What is it, Conan{\rHonorifics - Dialogue}-kun{\r}?
 Dialogue: 0,0:15:42.10,0:15:43.39,Dialogue,,0,0,0,,Inoue{\rHonorifics - Dialogue}-san{\r}!
 Dialogue: 0,0:15:44.19,0:15:46.98,Dialogue,,0,0,0,,We've finally solved this case!
 Dialogue: 0,0:15:46.98,0:15:49.03,Dialogue,,0,0,0,,We finally saw through the culprit's trick.
-Dialogue: 0,0:15:50.69,0:15:51.99,Thinking,,0,0,0,,{\be2}Are you serious?
+Dialogue: 0,0:15:50.69,0:15:51.99,Thoughts,,0,0,0,,{\be10}Are you serious?
 Dialogue: 0,0:15:53.20,0:15:56.62,Dialogue,,0,0,0,,At the time, there were two people and two cups.
 Dialogue: 0,0:15:56.62,0:16:02.00,Dialogue,,0,0,0,,After thinking about it, getting the\Nvictim to choose the right cup...
 Dialogue: 0,0:16:02.00,0:16:04.96,Dialogue,,0,0,0,,Could be accomplished using only one method.
@@ -379,13 +378,13 @@ Dialogue: 0,0:21:02.71,0:21:04.80,Dialogue,,0,0,0,,So that's how it is.
 Dialogue: 0,0:21:10.68,0:21:13.43,Dialogue,,0,0,0,,I'm already 29...
 Dialogue: 0,0:21:14.69,0:21:20.48,Dialogue,,0,0,0,,Become a prominent drama scriptwriter.\NBefore turning 30, I wanted to...
 Dialogue: 0,0:21:21.11,0:21:23.19,Dialogue,,0,0,0,,That was my goal.
-Dialogue: 0,0:21:31.41,0:21:33.74,Thinking,,0,0,0,,{\be2}What does it matter if you're prominent...
-Dialogue: 0,0:21:34.16,0:21:36.87,Thinking,,0,0,0,,{\be2}Or if you're only writing one out of every ten episodes?
-Dialogue: 0,0:21:36.87,0:21:38.54,Thinking,,0,0,0,,{\be2}Those who love your work will watch it.
-Dialogue: 0,0:21:39.38,0:21:41.34,Thinking,,0,0,0,,{\be2}Inoue{\rHonorifics - Thinking}-san{\r} is also a fan of your work.
-Dialogue: 0,0:21:42.00,0:21:44.26,Thinking,,0,0,0,,{\be2}I remember what you've done. Everyone does.
-Dialogue: 0,0:21:45.18,0:21:47.63,Thinking,,0,0,0,,{\be2}Every one of your episodes blew me away.
-Dialogue: 0,0:21:49.64,0:21:51.18,Thinking,,0,0,0,,{\be2}You were really foolish...
+Dialogue: 0,0:21:31.41,0:21:33.74,Thoughts,,0,0,0,,{\be10}What does it matter if you're prominent...
+Dialogue: 0,0:21:34.16,0:21:36.87,Thoughts,,0,0,0,,{\be10}Or if you're only writing one out of every ten episodes?
+Dialogue: 0,0:21:36.87,0:21:38.54,Thoughts,,0,0,0,,{\be10}Those who love your work will watch it.
+Dialogue: 0,0:21:39.38,0:21:41.34,Thoughts,,0,0,0,,{\be10}Inoue{\rHonorifics - Thoughts\be10}-san{\r\be10} is also a fan of your work.
+Dialogue: 0,0:21:42.00,0:21:44.26,Thoughts,,0,0,0,,{\be10}I remember what you've done. Everyone does.
+Dialogue: 0,0:21:45.18,0:21:47.63,Thoughts,,0,0,0,,{\be10}Every one of your episodes blew me away.
+Dialogue: 0,0:21:49.64,0:21:51.18,Thoughts,,0,0,0,,{\be10}You were really foolish...
 Dialogue: 0,0:21:55.18,0:22:00.23,Dialogue,,0,0,0,,Stop the world and smile gently...
 Dialogue: 0,0:22:00.36,0:22:05.03,Dialogue,,0,0,0,,I want to be closer to you.
 Dialogue: 0,0:22:05.24,0:22:10.41,Dialogue,,0,0,0,,I've fallen for you time and time again.
@@ -404,7 +403,7 @@ Dialogue: 0,0:23:30.90,0:23:33.53,Dialogue,,0,0,0,,I hear the main character und
 Dialogue: 0,0:23:33.53,0:23:36.03,Dialogue,,0,0,0,,Magure Rintarou became Magure Kogorou.
 Dialogue: 0,0:23:36.58,0:23:38.24,Dialogue,,0,0,0,,Magure Kogo...
 Dialogue: 0,0:23:38.25,0:23:41.04,Dialogue,,0,0,0,,Somehow, it sounds a lot like Fluky Kogorou."
-Dialogue: 0,0:23:41.79,0:23:43.33,Thinking,,0,0,0,,{\be2}Isn't that you exactly?
+Dialogue: 0,0:23:41.79,0:23:43.33,Thoughts,,0,0,0,,{\be10}Isn't that you exactly?
 Dialogue: 0,0:23:50.05,0:23:54.38,Dialogue,,0,0,0,,Looking at you, one would think you just\NDeducted something unthinkable.
 Dialogue: 0,0:23:54.42,0:23:57.20,Dialogue,,0,0,0,,Tsuburaya Mitsuhiko. This is a failure of a lifetime!
 Dialogue: 0,0:23:57.24,0:24:01.71,Dialogue,,0,0,0,,We should tell Conan{\rHonorifics - Dialogue}-kun{\r} about something like this.\NIf we don't make it... What will we do?

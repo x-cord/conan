@@ -33,12 +33,6 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: CharCar02,Arial,20,&H00FFFFFF,&H000000FF,&H3EC82E24,&H00000000,0,0,0,0,100,100,0,0,3,0.2,0,2,5,0,81,1
-Style: title002,Calibri,22,&H0022FFFE,&H000000FF,&H00000000,&H00000000,-1,0,0,0,120,120,0,0,1,0,3,2,0,550,290,1
-Style: title003,Calibri,22,&H003798FD,&H000000FF,&H00000000,&H00000000,-1,0,0,0,120,120,0,0,1,0,3,2,0,480,215,1
-Style: title004,Calibri,22,&H003D25F3,&H000000FF,&H00000000,&H00000000,-1,0,0,0,120,120,0,0,1,0,3,2,0,440,105,1
-Style: title005,Calibri,30,&H0017FFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,120,120,0,0,1,0,3,2,0,225,160,1
-Style: title006,Calibri,30,&H005D25F2,&H000000FF,&H00FFEDDB,&H00000000,-1,0,0,0,120,120,0,0,1,2,3,2,220,0,160,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -139,7 +133,7 @@ Dialogue: 0,0:07:30.84,0:07:33.46,Character Card,,0,0,0,,Ohkuma Isamu (25)\NGues
 Dialogue: 0,0:07:33.77,0:07:36.10,Dialogue Top,,0,0,0,,The police here this late? Something wrong?
 Dialogue: 0,0:07:33.79,0:07:36.42,Character Card,,0,0,0,,Watanuki Tatsuzou (63)\NGuest
 Dialogue: 0,0:07:37.15,0:07:38.86,Dialogue Top,,0,0,0,,Do you all have business here?
-Dialogue: 0,0:07:36.92,0:07:39.48,CharCar02,,0,0,0,,Hans Burkly (41)\NGuest
+Dialogue: 0,0:07:36.92,0:07:39.48,Character Card,,0,0,0,,Hans Burkly (41)\NGuest
 Dialogue: 0,0:07:39.73,0:07:46.82,Dialogue,,0,0,0,,Ah, no, I was just wondering where you\Nthree where at 5:00 this afternoon.
 Dialogue: 0,0:07:47.20,0:07:48.45,Dialogue,,0,0,0,,I was asleep in my room.
 Dialogue: 0,0:07:48.45,0:07:50.20,Dialogue,,0,0,0,,I was in the bath.
@@ -291,20 +285,20 @@ Dialogue: 0,0:16:17.37,0:16:20.79,Dialogue,,0,0,0,,After all, it's already state
 Dialogue: 0,0:16:21.92,0:16:26.88,Dialogue,,0,0,0,,That's foolish, it's just April 1st marked with blood in there.
 Dialogue: 0,0:16:26.88,0:16:28.63,Dialogue,,0,0,0,,Right, April 1st.
 Dialogue: 0,0:16:29.05,0:16:33.59,Dialogue,,0,0,0,,In the old days, people used to remove\Ncotton from their kimono's on that day.
-Dialogue: 0,0:16:33.22,0:16:39.72,title002,,0,0,0,,April 1st
+Dialogue: 0,0:16:33.22,0:16:39.72,Signs,,0,0,0,,April 1st
 Dialogue: 0,0:16:33.81,0:16:39.15,Dialogue,,0,0,0,,This is how the kanji for April 1 st is read as an\Nunusual surname in katakana: "Watanuki."
-Dialogue: 0,0:16:34.72,0:16:39.72,title003,,0,0,0,,Watanuki (kanji)
-Dialogue: 0,0:16:36.21,0:16:39.72,title004,,0,0,0,,Watanuki (katanaka)
+Dialogue: 0,0:16:34.72,0:16:39.72,Signs,,0,0,0,,Watanuki (kanji)
+Dialogue: 0,0:16:36.21,0:16:39.72,Signs,,0,0,0,,Watanuki (katanaka)
 Dialogue: 0,0:16:40.40,0:16:42.90,Dialogue,,0,0,0,,You see, April 1st is "Watanuki{\rHonorifics - Dialogue}-san{\r}".
 Dialogue: 0,0:16:43.15,0:16:43.86,Dialogue,,0,0,0,,That means...
 Dialogue: 0,0:16:44.57,0:16:46.49,Dialogue,,0,0,0,,He was referring to you.
 Dialogue: 0,0:16:47.40,0:16:50.78,Dialogue,,0,0,0,,Furthermore, the reason Hozumi{\rHonorifics - Dialogue}-san{\r}\Nwrote his name in katakana:
 Dialogue: 0,0:16:50.78,0:16:53.08,Dialogue,,0,0,0,,In kanji it's "August 1st," which is Hozumi in katakana.
 Dialogue: 0,0:16:54.24,0:16:59.75,Dialogue,,0,0,0,,The name comes from when farmers used to pick\Nears of rice on August 1st and offer it to God.
-Dialogue: 0,0:16:59.57,0:17:04.58,title005,,0,0,0,,August 1st
+Dialogue: 0,0:16:59.57,0:17:04.58,Signs,,0,0,0,,August 1st
 Dialogue: 0,0:17:00.51,0:17:03.36,Dialogue Top,,0,0,0,,We usually don't read the kanji for "August 1st" as Hozumi,
-Dialogue: 0,0:17:01.08,0:17:04.58,title006,,0,0,0,,Hozumi
-Dialogue: 0,0:17:03.40,0:17:05.46,Dialogue Top,,0,0,0,,So he was likely used tı using katakana.
+Dialogue: 0,0:17:01.08,0:17:04.58,Signs,,0,0,0,,Hozumi
+Dialogue: 0,0:17:03.40,0:17:05.46,Dialogue Top,,0,0,0,,So he was likely used ti using katakana.
 Dialogue: 0,0:17:06.47,0:17:12.39,Dialogue,,0,0,0,,Beyond that, Hozumi{\rHonorifics - Dialogue}-san{\r}'s planner\Nwas found far away from the body.
 Dialogue: 0,0:17:13.14,0:17:17.27,Dialogue,,0,0,0,,You thought Hozumi{\rHonorifics - Dialogue}-san{\r} died from his abdomen wound,
 Dialogue: 0,0:17:17.27,0:17:19.39,Dialogue,,0,0,0,,but then you saw him doing something with his planner.

@@ -33,7 +33,6 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: RainMan,FOT-Seurat Pro,35,&HC0FE4D00,&H000000FF,&H00FFFFFF,&H80000000,-1,0,0,0,100,100,0,0,1,3.5,0.5,8,10,10,25,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -97,7 +96,7 @@ Dialogue: 0,0:05:08.37,0:05:09.70,Dialogue,,0000,0000,0000,,She'll be fine.
 Dialogue: 0,0:05:09.70,0:05:14.41,Dialogue,,0000,0000,0000,,Her CT scan and brainwaves show nothing wrong. The doctor said she could go home.
 Dialogue: 0,0:05:14.41,0:05:15.29,Dialogue,,0000,0000,0000,,That's great.
 Dialogue: 0,0:05:15.96,0:05:18.04,Dialogue Top,,0000,0000,0000,,Thank you so much.
-Dialogue: 0,0:05:15.50,0:05:21.55,Signs,,0000,0000,0000,,Mizuki Tachibana (25)\NVictim of the hoodman
+Dialogue: 0,0:05:15.50,0:05:21.55,Character Card,,0000,0000,0000,,Mizuki Tachibana (25)\NVictim of the hoodman
 Dialogue: 0,0:05:18.04,0:05:19.96,Dialogue Top,,0000,0000,0000,,It's all because of you.
 Dialogue: 0,0:05:19.96,0:05:23.05,Dialogue Top,,0000,0000,0000,,Oh, right. I should call my roommate...
 Dialogue: 0,0:05:23.05,0:05:24.92,Dialogue,,0000,0000,0000,,She must be worried about me.
@@ -120,7 +119,7 @@ Dialogue: 0,0:06:10.14,0:06:12.93,Dialogue,,0000,0000,0000,,H-Hey, don't tell me
 Dialogue: 0,0:06:13.81,0:06:14.97,Dialogue,,0000,0000,0000,,No way...!
 Dialogue: 0,0:06:16.39,0:06:17.94,Thoughts,,0000,0000,0000,,{\be10}How could this happen?!
 Dialogue: 0,0:06:28.90,0:06:32.28,Dialogue,,0000,0000,0000,,There's no mistake! That's Yōko!
-Dialogue: 0,0:06:24.11,0:06:27.44,Signs,,0000,0000,0000,,Yōko Katsuragi (25)\NMizuki's roommate
+Dialogue: 0,0:06:24.11,0:06:27.44,Character Card,,0000,0000,0000,,Yōko Katsuragi (25)\NMizuki's roommate
 Dialogue: 0,0:06:34.70,0:06:38.91,Dialogue,,0000,0000,0000,,She was so happy when we said goodbye this morning...
 Dialogue: 0,0:06:38.91,0:06:43.21,Dialogue,,0000,0000,0000,,I never thought that would be the last time I'd see her alive!
 Dialogue: 0,0:06:43.21,0:06:45.42,Dialogue,,0000,0000,0000,,Yōko...!
@@ -343,16 +342,6 @@ Dialogue: 0,0:21:22.96,0:21:26.63,Flashback,,0000,0000,0000,,{\be10}Oh, sorry, M
 Dialogue: 0,0:21:26.63,0:21:31.31,Flashback,,0000,0000,0000,,{\be10}Oh, I wish the hoodman would just do her in.
 Dialogue: 0,0:21:31.31,0:21:32.60,Flashback,,0000,0000,0000,,{\be10}She's such a nuisance.
 Dialogue: 0,0:21:35.14,0:21:40.40,Dialogue,,0000,0000,0000,,That's why I attacked her instead and made it look like it was the hoodman!
-Dialogue: 0,0:21:45.82,0:21:55.71,RainMan,,0000,0000,0000,,{\blur2\fad(500,0)}fui ni furidasu haru no owaritsugeru ame
-Dialogue: 0,0:21:57.12,0:22:07.09,RainMan,,0000,0000,0000,,{\blur2}isogu machikado de kimi o mitsuketan da
-Dialogue: 0,0:22:08.43,0:22:18.27,RainMan,,0000,0000,0000,,{\blur2}ame ga suki na no hitotsu kasa ni kakurete
-Dialogue: 0,0:22:19.73,0:22:29.74,RainMan,,0000,0000,0000,,{\blur2}daremo ki ni sezu zutto yorisoeru kara...
-Dialogue: 0,0:22:30.99,0:22:36.50,RainMan,,0000,0000,0000,,{\blur2}amefuru machi de kimi to deatte
-Dialogue: 0,0:22:36.66,0:22:41.83,RainMan,,0000,0000,0000,,{\blur2}amefuru machi de kimi o ushinatta
-Dialogue: 0,0:22:42.00,0:22:47.47,RainMan,,0000,0000,0000,,{\blur2}aitakute aenakute afuredasu namida no ame
-Dialogue: 0,0:22:47.63,0:22:53.01,RainMan,,0000,0000,0000,,{\blur2}kaeritai modorenai tōi hi no omoide
-Dialogue: 0,0:22:53.18,0:22:59.10,RainMan,,0000,0000,0000,,{\blur2}nureru mama tachitsukusu machikado de kono kokoro wa
-Dialogue: 0,0:22:59.60,0:23:04.32,RainMan,,0000,0000,0000,,{\blur2\fad(0,750)}mada kimi no koto sagashite'ru
 Dialogue: 0,0:23:05.86,0:23:07.24,Dialogue,,0000,0000,0000,,Hey, Dad!
 Dialogue: 0,0:23:07.24,0:23:10.28,Dialogue,,0000,0000,0000,,You ate my cake as a snack again, didn't you!
 Dialogue: 0,0:23:10.28,0:23:16.95,Dialogue,,0000,0000,0000,,I-It wasn't me! I may have eaten your cakes before, but this time it was really that darn cat!

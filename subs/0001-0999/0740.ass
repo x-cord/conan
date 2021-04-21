@@ -33,7 +33,6 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: RainMan,FOT-Seurat Pro,35,&HC0FAE4D0,&H000000FF,&H00FFFFFF,&H80000000,-1,0,0,0,100,100,0,0,1,3.5,0.5,8,10,10,25,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -95,8 +94,8 @@ Dialogue: 0,0:05:04.55,0:05:08.64,Dialogue,,0,0,0,,Her older sister hired me for
 Dialogue: 0,0:05:08.64,0:05:12.33,Dialogue,,0,0,0,,See that girl sitting over there?
 Dialogue: 0,0:05:13.02,0:05:16.22,Dialogue Top,,0,0,0,,That's Rumi Kitao{\rHonorifics - Dialogue}-san{\r}, a third-year university student.
 Dialogue: 0,0:05:16.22,0:05:21.77,Dialogue Top,,0,0,0,,And the guy sitting next to her is Ken'ya Settsu{\rHonorifics - Dialogue}-san{\r}, a fourth-year university student.
-Dialogue: 0,0:05:12.56,0:05:16.60,Signs,,0,0,0,,Rumi Kitao (21)\NUniversity Student
-Dialogue: 0,0:05:19.23,0:05:22.86,Signs,,0,0,0,,Ken'ya Settsu (22)\NUniversity Student
+Dialogue: 0,0:05:12.56,0:05:16.60,Character Card,,0,0,0,,Rumi Kitao (21)\NUniversity Student
+Dialogue: 0,0:05:19.23,0:05:22.86,Character Card,,0,0,0,,Ken'ya Settsu (22)\NUniversity Student
 Dialogue: 0,0:05:23.14,0:05:26.65,Dialogue,,0,0,0,,Those two have been dating for half a year now.
 Dialogue: 0,0:05:26.65,0:05:33.12,Dialogue,,0,0,0,,She wants to introduce him to her parents as a possible husband, but rumour has it that he's a playboy.
 Dialogue: 0,0:05:33.12,0:05:36.99,Dialogue,,0,0,0,,And what's more, she suspects that he hasn't cut ties with his ex-girlfriend yet.
@@ -158,7 +157,7 @@ Dialogue: 0,0:09:12.91,0:09:16.40,Dialogue,,0,0,0,,Waka sure is late.
 Dialogue: 0,0:09:16.40,0:09:18.30,Dialogue,,0,0,0,,It's already past noon.
 Dialogue: 0,0:09:18.30,0:09:19.87,Dialogue,,0,0,0,,It's inevitable.
 Dialogue: 0,0:09:20.32,0:09:24.87,Dialogue Top,,0,0,0,,She was out drinking until 5 this morning, so she's probably still fast asleep.
-Dialogue: 0,0:09:21.49,0:09:24.87,Signs,,0,0,0,,Mitsuaki Kaga (22)\NUniversity Student
+Dialogue: 0,0:09:21.49,0:09:24.87,Character Card,,0,0,0,,Mitsuaki Kaga (22)\NUniversity Student
 Dialogue: 0,0:09:26.00,0:09:27.29,Dialogue,,0,0,0,,There you are, Kaga!
 Dialogue: 0,0:09:27.29,0:09:30.10,Dialogue,,0,0,0,,Is there a toilet in this lobby?
 Dialogue: 0,0:09:30.10,0:09:32.21,Dialogue,,0,0,0,,Yeah, just past the lift.
@@ -348,16 +347,6 @@ Dialogue: 0,0:21:57.45,0:21:59.25,Dialogue,,0,0,0,,You were with Rumi{\rHonorifi
 Dialogue: 0,0:21:59.25,0:22:01.32,Dialogue,,0,0,0,,Or rather — who the heck are you?
 Dialogue: 0,0:22:01.32,0:22:02.17,Dialogue,,0,0,0,,I'm a detective.
 Dialogue: 0,0:22:06.02,0:22:07.80,Dialogue,,0,0,0,,I was hired by Rumi{\rHonorifics - Dialogue}-san{\r}.
-Dialogue: 0,0:22:14.59,0:22:24.51,RainMan,,0,0,0,,{\blur2\fad(500,0)}fui ni furidasu haru no owaritsugeru ame
-Dialogue: 0,0:22:25.89,0:22:35.86,RainMan,,0,0,0,,{\blur2}isogu machikado de kimi o mitsuketan da
-Dialogue: 0,0:22:37.23,0:22:47.00,RainMan,,0,0,0,,{\blur2}ame ga suki na no hitotsu kasa ni kakurete
-Dialogue: 0,0:22:48.50,0:22:58.51,RainMan,,0,0,0,,{\blur2}daremo ki ni sezu zutto yorisoeru kara...
-Dialogue: 0,0:22:59.76,0:23:05.43,RainMan,,0,0,0,,{\blur2}amefuru machi de kimi to deatte
-Dialogue: 0,0:23:05.43,0:23:10.60,RainMan,,0,0,0,,{\blur2}amefuru machi de kimi o ushinatta
-Dialogue: 0,0:23:10.73,0:23:16.40,RainMan,,0,0,0,,{\blur2}aitakute aenakute afuredasu namida no ame
-Dialogue: 0,0:23:16.40,0:23:21.95,RainMan,,0,0,0,,{\blur2}kaeritai modorenai tōi hi no omoide
-Dialogue: 0,0:23:21.95,0:23:28.37,RainMan,,0,0,0,,{\blur2}nureru mama tachitsukusu machikado de kono kokoro wa
-Dialogue: 0,0:23:28.37,0:23:33.08,RainMan,,0,0,0,,{\blur2\fad(0,750)}mada kimi no koto sagashite'ru
 Dialogue: 0,0:23:34.60,0:23:36.00,Dialogue,,0,0,0,,In any case...
 Dialogue: 0,0:23:40.84,0:23:42.14,Dialogue,,0,0,0,,Sorry...
 Dialogue: 0,0:23:42.97,0:23:44.90,Dialogue,,0,0,0,,Thanks for picking them up!

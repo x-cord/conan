@@ -33,15 +33,12 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: title001,Arial,14,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,120,0,0,1,0.4,0.8,2,0,0,52,1
-Style: title002,Arial,42,&H005D5D5D,&H000000FF,&H00E4EAE3,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,2,1,0,184,1
-Style: title003,Arial,21,&H00CDC094,&H0042463C,&H0042463C,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,2,0,0,62,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 Dialogue: 0,0:00:01.61,0:00:03.79,Dialogue Top,,0,0,0,,What exactly does that mean?
 Dialogue: 0,0:00:03.84,0:00:06.48,Dialogue Top,,0,0,0,,"Constructed an aquarium in the house."
-Dialogue: 0,0:00:02.39,0:00:06.48,title001,,0,0,0,,{\yshad1.1\fad(460,0)}Sunday
+Dialogue: 0,0:00:02.39,0:00:06.48,Signs,,0,0,0,,{\yshad1.1}Sunday
 Dialogue: 0,0:00:07.02,0:00:10.81,Dialogue,,0,0,0,,Nishida{\rHonorifics - Dialogue}-kun{\r} is a famous aquarium designer.
 Dialogue: 0,0:00:10.81,0:00:13.98,Dialogue,,0,0,0,,Perhaps he has a huge fish tank in his house.
 Dialogue: 0,0:00:14.31,0:00:16.66,Dialogue,,0,0,0,,Aku.... Akurimu?
@@ -60,9 +57,9 @@ Dialogue: 0,0:01:00.53,0:01:02.19,Dialogue,,0,0,5,,Perceiving the one and only t
 Dialogue: 0,0:01:02.20,0:01:03.99,Dialogue,,0,0,5,,The appearance of a child and the intellect of an adult...
 Dialogue: 0,0:01:03.99,0:01:06.28,Dialogue,,0,0,5,,His name is: Detective Conan!
 Dialogue: 0,0:02:38.80,0:02:40.80,Signs,,0,0,0,,NISHIDA
-Dialogue: 0,0:02:38.80,0:02:40.80,title002,,0,0,0,,{\blur1}NISHIDA
 Dialogue: 0,0:02:38.80,0:02:40.80,Signs,,0,0,0,,NISHIDA
-Dialogue: 0,0:02:38.80,0:02:40.80,title003,,0,0,0,,{\blur1}NISHIDA\N\NDESIGN OFFICE
+Dialogue: 0,0:02:38.80,0:02:40.80,Signs,,0,0,0,,NISHIDA
+Dialogue: 0,0:02:38.80,0:02:40.80,Signs,,0,0,0,,NISHIDA\N\NDESIGN OFFICE
 Dialogue: 0,0:02:41.38,0:02:42.63,Dialogue,,0,0,0,,Maybe he isn't home?
 Dialogue: 0,0:02:43.00,0:02:44.63,Dialogue,,0,0,0,,That's strange.
 Dialogue: 0,0:02:44.63,0:02:48.13,Dialogue,,0,0,0,,We definitely agreed on 12:00...
@@ -396,7 +393,7 @@ Dialogue: 0,0:21:39.35,0:21:43.56,Dialogue,,0,0,0,,I had dedicated so much to hi
 Dialogue: 0,0:21:44.23,0:21:46.65,Dialogue,,0,0,0,,If he was going to abandon me...
 Dialogue: 0,0:21:47.06,0:21:50.19,Dialogue,,0,0,0,,Then I decided to abandon him instead!
 Dialogue: 0,0:21:51.07,0:21:52.65,Dialogue,,0,0,0,,Or so I thought...
-Dialogue: 0,0:23:19.29,0:23:22.46,title001,,0,0,0,,{\yshad1.1\fad(250,0)}One Week Later
+Dialogue: 0,0:23:19.29,0:23:22.46,Signs,,0,0,0,,{\yshad1.1}One Week Later
 Dialogue: 0,0:23:20.17,0:23:22.46,Dialogue Top,,0,0,0,,The fish were so cute!
 Dialogue: 0,0:23:22.91,0:23:24.87,Dialogue,,0,0,0,,They were so pretty...
 Dialogue: 0,0:23:24.87,0:23:27.62,Dialogue,,0,0,0,,The big shark was really cool!

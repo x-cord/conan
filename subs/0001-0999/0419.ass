@@ -33,10 +33,6 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: Thinking,00390,18,&H00FFFFFF,&H000000FF,&H00432017,&H00000000,0,0,0,0,100,100,0,0,1,2.5,0,2,10,10,10,1
-Style: Case history,00390,18,&H00C1F5FC,&H03FFFFFF,&H00000000,&H02000000,0,0,0,0,100,100,0,0,1,2,0,2,0,0,10,1
-Style: TST,Calibri,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,90,100,0,0,1,1.5,0,2,0,0,5,1
-Style: Title02,Calibri,15,&H00D8D0C4,&H000000FF,&H00000000,&H00000000,-1,0,0,0,200,150,0,0,1,0,0,2,0,0,95,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -51,18 +47,18 @@ Dialogue: 0,0:00:13.27,0:00:15.30,Dialogue,,0,0,0,,My name is Detective Conan!
 Dialogue: 0,0:01:56.07,0:01:56.90,Dialogue,,0,0,0,,Well, then...
 Dialogue: 0,0:01:56.90,0:01:58.86,Dialogue,,0,0,0,,We'll do a little sightseeing...
 Dialogue: 0,0:01:58.86,0:02:01.28,Dialogue,,0,0,0,,And then eat and drink a lot!
-Dialogue: 0,0:02:04.08,0:02:06.16,Thinking,,0,0,0,,{\be2}You sure are acting differently\Nthan you were on the plane.
-Dialogue: 0,0:02:06.83,0:02:08.91,Thinking,,0,0,0,,{\be2}Scary, scary scary...
+Dialogue: 0,0:02:04.08,0:02:06.16,Thoughts,,0,0,0,,{\be10}You sure are acting differently\Nthan you were on the plane.
+Dialogue: 0,0:02:06.83,0:02:08.91,Thoughts,,0,0,0,,{\be10}Scary, scary scary...
 Dialogue: 0,0:02:10.25,0:02:11.67,Dialogue,,0,0,0,,The place we travelled to this time...
 Dialogue: 0,0:02:11.15,0:02:16.25,Character Card,,0,0,0,,{\fade(1100,1000)\be1}Izumo Grand Shrine
 Dialogue: 0,0:02:12.79,0:02:14.29,Dialogue,,0,0,0,,ls the old, mythical village of...
 Dialogue: 0,0:02:14.92,0:02:15.75,Dialogue,,0,0,0,,Izumo.
 Dialogue: 0,0:02:18.10,0:02:19.93,Dialogue,,0,0,0,,Sword of the Eight-Headed Serpent:
 Dialogue: 0,0:02:19.96,0:02:20.93,Dialogue,,0,0,0,,Part 1!
-Dialogue: 0,0:02:24.35,0:02:27.43,Thinking,,0,0,0,,{\be2}We came all the way to the Grand\NShrine of Izumo, the God of marriage.
-Dialogue: 0,0:02:27.43,0:02:30.73,Thinking,,0,0,0,,{\be2}I understand why Ran absolutely had to see it, but...
+Dialogue: 0,0:02:24.35,0:02:27.43,Thoughts,,0,0,0,,{\be10}We came all the way to the Grand\NShrine of Izumo, the God of marriage.
+Dialogue: 0,0:02:27.43,0:02:30.73,Thoughts,,0,0,0,,{\be10}I understand why Ran absolutely had to see it, but...
 Dialogue: 0,0:02:30.73,0:02:33.77,Dialogue,,0,0,0,,Please find me a good match.
-Dialogue: 0,0:02:34.07,0:02:36.78,Thinking,,0,0,0,,{\be2}Jeez, what kind of lover's hopes are those?
+Dialogue: 0,0:02:34.07,0:02:36.78,Thoughts,,0,0,0,,{\be10}Jeez, what kind of lover's hopes are those?
 Dialogue: 0,0:02:37.90,0:02:39.15,Dialogue,,0,0,0,,Let's do this here!
 Dialogue: 0,0:02:39.70,0:02:41.61,Dialogue,,0,0,0,,Wow, quite an impressive number here.
 Dialogue: 0,0:02:40.00,0:02:46.25,Signs,,0,0,0,,Note: The "knot of love" or "en-musubi" is a Japanese amulet which is said to\Nbring love and marriage to its owner when tied to the tree Izumo blessed.
@@ -95,7 +91,7 @@ Dialogue: 0,0:03:43.01,0:03:43.97,Dialogue,,0,0,0,,Here goes!
 Dialogue: 0,0:03:48.72,0:03:49.52,Dialogue,,0,0,0,,Damn!
 Dialogue: 0,0:03:52.06,0:03:52.94,Dialogue,,0,0,0,,It doesn't stick.
 Dialogue: 0,0:03:56.69,0:03:57.61,Dialogue,,0,0,0,,Damn it!
-Dialogue: 0,0:03:58.98,0:04:01.11,Thinking,,0,0,0,,{\be2}It looks like your wish will never come true.
+Dialogue: 0,0:03:58.98,0:04:01.11,Thoughts,,0,0,0,,{\be10}It looks like your wish will never come true.
 Dialogue: 0,0:04:01.82,0:04:03.36,Dialogue,,0,0,0,,But I'm jealous.
 Dialogue: 0,0:04:03.82,0:04:06.37,Dialogue,,0,0,0,,You live in a town that's so well-known for marriage.
 Dialogue: 0,0:04:06.37,0:04:10.58,Dialogue,,0,0,0,,Yes, but I just wish I could get a real marriage proposal...
@@ -145,9 +141,9 @@ Dialogue: 0,0:06:11.74,0:06:13.45,Dialogue,,0,0,0,,I'm really sorry.
 Dialogue: 0,0:06:14.24,0:06:15.74,Dialogue,,0,0,0,,No, that's okay.
 Dialogue: 0,0:06:16.45,0:06:19.12,Dialogue,,0,0,0,,Thank you for today, Mouri{\rHonorifics - Dialogue}-san{\r}!
 Dialogue: 0,0:06:19.12,0:06:21.75,Dialogue,,0,0,0,,No problem. Best of luck to\Nyou in getting out of that proposal.
-Dialogue: 0,0:06:22.25,0:06:25.96,Thinking,,0,0,0,,{\be2}You're talking so seriously again,\Nbut what are you really thinking about?
-Dialogue: 0,0:06:26.72,0:06:28.47,Thinking,,0,0,0,,{\be2}And then, the next day...
-Dialogue: 0,0:06:28.47,0:06:29.76,Thinking,,0,0,0,,{\be2}A case occurred.
+Dialogue: 0,0:06:22.25,0:06:25.96,Thoughts,,0,0,0,,{\be10}You're talking so seriously again,\Nbut what are you really thinking about?
+Dialogue: 0,0:06:26.72,0:06:28.47,Thoughts,,0,0,0,,{\be10}And then, the next day...
+Dialogue: 0,0:06:28.47,0:06:29.76,Thoughts,,0,0,0,,{\be10}A case occurred.
 Dialogue: 0,0:06:43.19,0:06:44.44,Dialogue,,0,0,0,,Worth 10 million yen?
 Dialogue: 0,0:06:43.38,0:06:47.09,Character Card,,0,0,0,,{\fade(350,0)}Inome Cave
 Dialogue: 0,0:06:45.28,0:06:46.86,Dialogue,,0,0,0,,That settles it.
@@ -168,7 +164,7 @@ Dialogue: 0,0:07:23.65,0:07:25.77,Dialogue,,0,0,0,,Founder and president of Wani
 Dialogue: 0,0:07:25.77,0:07:27.78,Dialogue,,0,0,0,,Wanibuchi Kouji-San, 35 years old.
 Dialogue: 0,0:07:28.07,0:07:29.65,Dialogue,,0,0,0,,Wanibuchi Kouji?
 Dialogue: 0,0:07:30.95,0:07:33.28,Dialogue,,0,0,0,,The man Eiko{\rHonorifics - Dialogue}-san{\r} told us she was engaged to!
-Dialogue: 0,0:07:33.70,0:07:35.74,Thinking,,0,0,0,,{\be2}That guy sure was killed at a convenient time.
+Dialogue: 0,0:07:33.70,0:07:35.74,Thoughts,,0,0,0,,{\be10}That guy sure was killed at a convenient time.
 Dialogue: 0,0:07:36.24,0:07:37.83,Dialogue,,0,0,0,,Do you know him?
 Dialogue: 0,0:07:37.83,0:07:41.71,Dialogue,,0,0,0,,He was famous in this area for\Nbeing a powerful businessman.
 Dialogue: 0,0:07:41.71,0:07:44.17,Dialogue,,0,0,0,,The first to discover the body was this couple.
@@ -194,10 +190,10 @@ Dialogue: 0,0:09:10.46,0:09:12.42,Dialogue,,0,0,0,,And followed him here.
 Dialogue: 0,0:09:12.42,0:09:15.55,Dialogue,,0,0,0,,Therefore, this murder was carried\Nout simply to steal the priceless treasure.
 Dialogue: 0,0:09:15.84,0:09:18.89,Dialogue,,0,0,0,,So, there's no need for a detective.
 Dialogue: 0,0:09:18.89,0:09:21.10,Dialogue,,0,0,0,,I see where you're coming from now!
-Dialogue: 0,0:09:22.77,0:09:23.39,Thinking,,0,0,0,,{\be2}Come on...
-Dialogue: 0,0:09:23.39,0:09:27.02,Thinking,,0,0,0,,{\be2}Is this a really such an open and shut case?
-Dialogue: 0,0:09:27.02,0:09:29.15,Thinking,,0,0,0,,{\be2}Why would the culprit have\Nwaited until he got to this specific place?
-Dialogue: 0,0:09:29.15,0:09:32.15,Thinking,,0,0,0,,{\be2}Moreover, walking around with\Na katana worth 10 million yen...
+Dialogue: 0,0:09:22.77,0:09:23.39,Thoughts,,0,0,0,,{\be10}Come on...
+Dialogue: 0,0:09:23.39,0:09:27.02,Thoughts,,0,0,0,,{\be10}Is this a really such an open and shut case?
+Dialogue: 0,0:09:27.02,0:09:29.15,Thoughts,,0,0,0,,{\be10}Why would the culprit have\Nwaited until he got to this specific place?
+Dialogue: 0,0:09:29.15,0:09:32.15,Thoughts,,0,0,0,,{\be10}Moreover, walking around with\Na katana worth 10 million yen...
 Dialogue: 0,0:09:33.40,0:09:35.36,Dialogue,,0,0,0,,What are you snooping around for?
 Dialogue: 0,0:09:35.36,0:09:37.24,Dialogue,,0,0,0,,I wasn't doing anything!
 Dialogue: 0,0:09:38.32,0:09:41.24,Dialogue,,0,0,0,,I feel bad that we can't do\Nanything about Wanibuchi{\rHonorifics - Dialogue}-san{\r}'s death...
@@ -222,8 +218,8 @@ Dialogue: 0,0:10:35.05,0:10:37.63,Dialogue,,0,0,0,,But he's no more than a robbe
 Dialogue: 0,0:10:37.97,0:10:40.30,Dialogue,,0,0,0,,I already know that much.
 Dialogue: 0,0:10:40.30,0:10:44.18,Dialogue,,0,0,0,,I was just saying this is almost like\Nthe extermination of that serpent.
 Dialogue: 0,0:10:44.18,0:10:45.64,Dialogue,,0,0,0,,Right, Conan{\rHonorifics - Dialogue}-kun{\r}?
-Dialogue: 0,0:10:48.14,0:10:49.69,Thinking,,0,0,0,,{\be2}But, just as I suspected...
-Dialogue: 0,0:10:49.69,0:10:52.56,Thinking,,0,0,0,,{\be2}This case wasn't a simple robbery-murder.
+Dialogue: 0,0:10:48.14,0:10:49.69,Thoughts,,0,0,0,,{\be10}But, just as I suspected...
+Dialogue: 0,0:10:49.69,0:10:52.56,Thoughts,,0,0,0,,{\be10}This case wasn't a simple robbery-murder.
 Dialogue: 0,0:10:58.25,0:11:03.39,Character Card,,0,0,0,,{\fade(350,350)}Inasa Beach
 Dialogue: 0,0:10:58.52,0:11:03.88,Dialogue Top,,0,0,0,,"Once a year, all the gods in Japan gather\Ntogether in Izumo to discuss Everyone's issues..."
 Dialogue: 0,0:11:04.19,0:11:06.66,Dialogue Top,,0,0,0,,"Here on Isana beach."
@@ -240,9 +236,9 @@ Dialogue: 0,0:11:32.19,0:11:35.98,Dialogue,,0,0,0,,Why did they take the time to
 Dialogue: 0,0:11:36.48,0:11:40.24,Dialogue,,0,0,0,,They didn't hide it, they threw it\Naway because it was worthless for them.
 Dialogue: 0,0:11:41.15,0:11:45.57,Dialogue,,0,0,0,,They took it from the crime scene as camouflage.
 Dialogue: 0,0:11:45.58,0:11:48.45,Dialogue,,0,0,0,,They wanted to lead us to believe that their goal was theft.
-Dialogue: 0,0:11:48.45,0:11:50.25,Thinking,,0,0,0,,{\be2}That's the most likely scenario.
-Dialogue: 0,0:11:50.25,0:11:52.41,Thinking,,0,0,0,,{\be2}And that means that the culprit's true intention was...
-Dialogue: 0,0:11:52.42,0:11:54.50,Thinking,,0,0,0,,{\be2}To kill Wanibuchi{\rHonorifics - Thinking}-san{\r}.
+Dialogue: 0,0:11:48.45,0:11:50.25,Thoughts,,0,0,0,,{\be10}That's the most likely scenario.
+Dialogue: 0,0:11:50.25,0:11:52.41,Thoughts,,0,0,0,,{\be10}And that means that the culprit's true intention was...
+Dialogue: 0,0:11:52.42,0:11:54.50,Thoughts,,0,0,0,,{\be10}To kill Wanibuchi{\rHonorifics - Thoughts\be10}-san{\r\be10}.
 Dialogue: 0,0:11:54.96,0:11:58.30,Dialogue,,0,0,0,,I'm guessing that their motive was\Nthat they held a grudge against him.
 Dialogue: 0,0:11:58.30,0:12:00.46,Dialogue,,0,0,0,,Hurry up and get me a list of those people!
 Dialogue: 0,0:12:00.47,0:12:02.38,Dialogue,,0,0,0,,Include his business rivals, of course...
@@ -251,9 +247,9 @@ Dialogue: 0,0:12:06.35,0:12:07.01,Dialogue,,0,0,0,,Yes, sir!
 Dialogue: 0,0:12:08.39,0:12:09.47,Dialogue,,0,0,0,,Something wrong?
 Dialogue: 0,0:12:09.47,0:12:10.93,Dialogue,,0,0,0,,Oh... Uh, no...
 Dialogue: 0,0:12:14.32,0:12:17.54,Character Card,,0,0,0,,{\fade(350,0)}Shimane Prefecture: Izumo Police Station
-Dialogue: 0,0:12:14.90,0:12:16.48,Thinking,,0,0,0,,{\an8\be2}The list was completed the next day...
-Dialogue: 0,0:12:16.48,0:12:19.19,Thinking,,0,0,0,,{\an8\be2}And four people were called to the police station.
-Dialogue: 0,0:12:21.36,0:12:25.53,Thinking,,0,0,0,,{\be2}Two of those people were... Eiko{\rHonorifics - Thinking}-san{\r} and Fukuma{\rHonorifics - Thinking}-san{\r}.
+Dialogue: 0,0:12:14.90,0:12:16.48,Thoughts,,0,0,0,,{\be10\an8}The list was completed the next day...
+Dialogue: 0,0:12:16.48,0:12:19.19,Thoughts,,0,0,0,,{\be10\an8}And four people were called to the police station.
+Dialogue: 0,0:12:21.36,0:12:25.53,Thoughts,,0,0,0,,{\be10}Two of those people were... Eiko{\rHonorifics - Thoughts\be10}-san{\r\be10} and Fukuma{\rHonorifics - Thoughts\be10}-san{\r\be10}.
 Dialogue: 0,0:12:30.41,0:12:33.12,Dialogue,,0,0,0,,So, we're ready to begin the questioning.
 Dialogue: 0,0:12:33.12,0:12:38.25,Dialogue,,0,0,0,,But before that, I'd like to introduce you to\Nsomeone who will be helping us in our investigation...
 Dialogue: 0,0:12:38.25,0:12:40.59,Dialogue,,0,0,0,,The detective, Mouri Kogoro{\rHonorifics - Dialogue}-san{\r}.
@@ -268,22 +264,22 @@ Dialogue: 0,0:12:59.13,0:13:04.50,CharCards04 bord,,0,0,0,,{\fade(350,350)}Ishit
 Dialogue: 0,0:12:59.73,0:13:03.65,Dialogue Top,,0,0,0,,Wanibuchi{\rHonorifics - Dialogue}-san{\r} offered you a joint management deal...
 Dialogue: 0,0:13:03.65,0:13:06.95,Dialogue,,0,0,0,,To help revive your dying lzumo Soba restaurant.
 Dialogue: 0,0:13:07.41,0:13:09.41,Dialogue,,0,0,0,,What "joint management?"
-Dialogue: 0,0:13:10.16,0:13:14.12,Case history,,0,0,0,,{\be1}Wanibuchi Enterprises will take\Ncare of all the restaurant's capital.
-Dialogue: 0,0:13:14.58,0:13:18.67,Case history,,0,0,0,,{\be1}But in return, I'll get the rights to use the Ishitobi name\Nand to mass-market your soba throughout Japan.
-Dialogue: 0,0:13:18.67,0:13:20.42,Case history,,0,0,0,,{\be1}Quite a delicious proposition.
-Dialogue: 0,0:13:21.34,0:13:22.46,Case history,,0,0,0,,{\be1}No way...
-Dialogue: 0,0:13:22.84,0:13:25.34,Case history,,0,0,0,,{\be1}You're not in a position to decline the offer, are you?
+Dialogue: 0,0:13:10.16,0:13:14.12,Flashback,,0,0,0,,{\be10}Wanibuchi Enterprises will take\Ncare of all the restaurant's capital.
+Dialogue: 0,0:13:14.58,0:13:18.67,Flashback,,0,0,0,,{\be10}But in return, I'll get the rights to use the Ishitobi name\Nand to mass-market your soba throughout Japan.
+Dialogue: 0,0:13:18.67,0:13:20.42,Flashback,,0,0,0,,{\be10}Quite a delicious proposition.
+Dialogue: 0,0:13:21.34,0:13:22.46,Flashback,,0,0,0,,{\be10}No way...
+Dialogue: 0,0:13:22.84,0:13:25.34,Flashback,,0,0,0,,{\be10}You're not in a position to decline the offer, are you?
 Dialogue: 0,0:13:26.68,0:13:31.39,Dialogue,,0,0,0,,That guy was using financial threats to take over the\Nrestaurant that's been in my family for over 200 years!
 Dialogue: 0,0:13:31.77,0:13:33.18,Dialogue,,0,0,0,,I see.
 Dialogue: 0,0:13:33.18,0:13:34.43,Dialogue,,0,0,0,,Moving on, the next suspect is...
 Dialogue: 0,0:13:34.43,0:13:39.40,Dialogue,,0,0,0,,Fujie Takehiko{\rHonorifics - Dialogue}-san{\r}, who manages the\NRyouunkaku Marriage Ceremony Hall.
 Dialogue: 0,0:13:39.69,0:13:42.52,Dialogue,,0,0,0,,I'm in the same situation as lshitobi{\rHonorifics - Dialogue}-san{\r}.
-Dialogue: 0,0:13:43.11,0:13:47.78,Case history,,0,0,0,,{\be1}Wanibuchi Enterprises was planning\Non opening a marriage ceremony hall.
-Dialogue: 0,0:13:48.95,0:13:53.16,Case history,,0,0,0,,{\be1}But it would be hard to draw customers away from\Nan old, well-known establishment like Ryouunkaku.
-Dialogue: 0,0:13:53.79,0:13:55.50,Case history,,0,0,0,,{\be1}That's why I want to make a deal with you.
-Dialogue: 0,0:13:55.50,0:14:01.09,Case history,,0,0,0,,{\be1}I'll teach you our methods,\Nthen we'll both manage this place my way.
-Dialogue: 0,0:14:01.09,0:14:02.21,Case history,,0,0,0,,{\be1}What do you think?
-Dialogue: 0,0:14:06.22,0:14:07.88,Case history,,0,0,0,,{\be1}Fujie{\rHonorifics - Case history}-senpai{\r}?
+Dialogue: 0,0:13:43.11,0:13:47.78,Flashback,,0,0,0,,{\be10}Wanibuchi Enterprises was planning\Non opening a marriage ceremony hall.
+Dialogue: 0,0:13:48.95,0:13:53.16,Flashback,,0,0,0,,{\be10}But it would be hard to draw customers away from\Nan old, well-known establishment like Ryouunkaku.
+Dialogue: 0,0:13:53.79,0:13:55.50,Flashback,,0,0,0,,{\be10}That's why I want to make a deal with you.
+Dialogue: 0,0:13:55.50,0:14:01.09,Flashback,,0,0,0,,{\be10}I'll teach you our methods,\Nthen we'll both manage this place my way.
+Dialogue: 0,0:14:01.09,0:14:02.21,Flashback,,0,0,0,,{\be10}What do you think?
+Dialogue: 0,0:14:06.22,0:14:07.88,Flashback,,0,0,0,,{\be10}Fujie{\rHonorifics - Flashback\be10}-senpai{\r\be10}?
 Dialogue: 0,0:14:08.93,0:14:10.47,Dialogue,,0,0,0,,That's what happened.
 Dialogue: 0,0:14:10.60,0:14:12.51,Dialogue,,0,0,0,,Why did he address you as "Senpai?"
 Dialogue: 0,0:14:12.51,0:14:17.48,Dialogue,,0,0,0,,Wanibuchi was my kouhai at the\NTeito University of Business in Tokyo.
@@ -299,18 +295,18 @@ Dialogue: 0,0:14:44.17,0:14:46.42,Dialogue,,0,0,0,,It wasn't in need of repairs 
 Dialogue: 0,0:14:46.42,0:14:51.09,Dialogue,,0,0,0,,At that time, a Tokyo-based firm\Nwanted to remodel it into a modern hotel...
 Dialogue: 0,0:14:51.09,0:14:53.64,Dialogue,,0,0,0,,So they came and talked to us about selling it to them.
 Dialogue: 0,0:14:53.97,0:14:57.64,Dialogue,,0,0,0,,And just when my parents started to lose hope\Nbecause they might need to part with their inn...
-Dialogue: 0,0:14:58.81,0:15:01.65,Case history,,0,0,0,,{\be1} I can't believe that you would let a\Nhistorical site like Hinode Inn be destroyed.
-Dialogue: 0,0:15:01.65,0:15:05.15,Case history,,0,0,0,,{\be1}Please let me help you with the reconstruction fees.
-Dialogue: 0,0:15:05.57,0:15:07.03,Case history,,0,0,0,,{\be1}For all of lzumo!
+Dialogue: 0,0:14:58.81,0:15:01.65,Flashback,,0,0,0,,{\be10} I can't believe that you would let a\Nhistorical site like Hinode Inn be destroyed.
+Dialogue: 0,0:15:01.65,0:15:05.15,Flashback,,0,0,0,,{\be10}Please let me help you with the reconstruction fees.
+Dialogue: 0,0:15:05.57,0:15:07.03,Flashback,,0,0,0,,{\be10}For all of lzumo!
 Dialogue: 0,0:15:07.69,0:15:08.61,Dialogue,,0,0,0,,It was surprising...
 Dialogue: 0,0:15:09.28,0:15:12.49,Dialogue,,0,0,0,,Because we heard he was\Nsomeone that acted only on his self interest.
 Dialogue: 0,0:15:12.49,0:15:17.37,Dialogue,,0,0,0,,So my parents accepted his offer and renovated the inn.
 Dialogue: 0,0:15:17.37,0:15:18.25,Dialogue,,0,0,0,,But...
-Dialogue: 0,0:15:18.25,0:15:20.29,Case history,,0,0,0,,{\be1}You want to marry my daughter?
-Dialogue: 0,0:15:21.12,0:15:22.50,Case history,,0,0,0,,{\be1}What are you saying all of a sudden?
-Dialogue: 0,0:15:22.88,0:15:25.21,Case history,,0,0,0,,{\be1}It's not sudden.
-Dialogue: 0,0:15:25.21,0:15:29.47,Case history,,0,0,0,,{\be1}If she becomes my wife, I'll be compensated\Nfor all the money I lent you for this renovation.
-Dialogue: 0,0:15:29.47,0:15:31.13,Case history,,0,0,0,,{\be1}After all, who do you think I am?
+Dialogue: 0,0:15:18.25,0:15:20.29,Flashback,,0,0,0,,{\be10}You want to marry my daughter?
+Dialogue: 0,0:15:21.12,0:15:22.50,Flashback,,0,0,0,,{\be10}What are you saying all of a sudden?
+Dialogue: 0,0:15:22.88,0:15:25.21,Flashback,,0,0,0,,{\be10}It's not sudden.
+Dialogue: 0,0:15:25.21,0:15:29.47,Flashback,,0,0,0,,{\be10}If she becomes my wife, I'll be compensated\Nfor all the money I lent you for this renovation.
+Dialogue: 0,0:15:29.47,0:15:31.13,Flashback,,0,0,0,,{\be10}After all, who do you think I am?
 Dialogue: 0,0:15:31.76,0:15:34.05,Dialogue,,0,0,0,,He had this planned from the very beginning.
 Dialogue: 0,0:15:34.93,0:15:39.02,Dialogue,,0,0,0,,If I declined his marriage proposal,\Nwe would have to repay all the money he lent us.
 Dialogue: 0,0:15:39.35,0:15:40.56,Dialogue,,0,0,0,,No way.
@@ -352,13 +348,13 @@ Dialogue: 0,0:17:24.08,0:17:24.83,Dialogue,,0,0,0,,Yes, sir!
 Dialogue: 0,0:17:28.67,0:17:30.38,Dialogue,,0,0,0,,Everyone went to famous tourist spots...
 Dialogue: 0,0:17:30.38,0:17:32.38,Dialogue,,0,0,0,,So wouldn't a lot of people have seen them?
 Dialogue: 0,0:17:32.84,0:17:35.63,Dialogue,,0,0,0,,If they really did what they said, then yes.
-Dialogue: 0,0:17:35.97,0:17:37.26,Thinking,,0,0,0,,{\be2}Exactly...
+Dialogue: 0,0:17:35.97,0:17:37.26,Thoughts,,0,0,0,,{\be10}Exactly...
 Dialogue: 0,0:17:41.26,0:17:42.26,Dialogue,,0,0,0,,How'd it go?
 Dialogue: 0,0:17:43.56,0:17:45.73,Dialogue,,0,0,0,,I got confirmation for Fujie{\rHonorifics - Dialogue}-san{\r}'s story.
 Dialogue: 0,0:17:46.35,0:17:47.73,Dialogue,,0,0,0,,It's his handwriting.
 Dialogue: 0,0:17:47.73,0:17:53.44,Dialogue,,0,0,0,,And based on the times of those before and after him,\Nit's also true that he was at Matsue Castle at 1:05 PM.
-Dialogue: 0,0:17:53.78,0:17:55.28,Thinking,,0,0,0,,{\be2}1:05 PM.
-Dialogue: 0,0:17:55.28,0:18:00.95,Thinking,,0,0,0,,{\be2}He signed the register at the exact same time as the murder.
+Dialogue: 0,0:17:53.78,0:17:55.28,Thoughts,,0,0,0,,{\be10}1:05 PM.
+Dialogue: 0,0:17:55.28,0:18:00.95,Thoughts,,0,0,0,,{\be10}He signed the register at the exact same time as the murder.
 Dialogue: 0,0:18:00.95,0:18:05.20,Dialogue,,0,0,0,,Travelling from Matsue Castle to the crime scene in lnome...
 Dialogue: 0,0:18:05.83,0:18:07.71,Dialogue,,0,0,0,,Would take between 40 minutes to an hour by car.
 Dialogue: 0,0:18:07.71,0:18:08.96,Dialogue,,0,0,0,,I see.
@@ -374,8 +370,8 @@ Dialogue: 0,0:18:31.40,0:18:33.98,Dialogue,,0,0,0,,In a private, one-on-one disc
 Dialogue: 0,0:18:33.98,0:18:35.61,Dialogue,,0,0,0,,Thank you for your cooperation.
 Dialogue: 0,0:18:38.91,0:18:42.66,Dialogue,,0,0,0,,Eiko{\rHonorifics - Dialogue}-san{\r} and Fukuma{\rHonorifics - Dialogue}-san{\r} aren't the culprits right?
 Dialogue: 0,0:18:42.66,0:18:43.58,Dialogue,,0,0,0,,Yep.
-Dialogue: 0,0:18:44.16,0:18:47.25,Thinking,,0,0,0,,{\be2}But no matter how we look at it, no one had a witness.
-Dialogue: 0,0:18:47.25,0:18:49.42,Thinking,,0,0,0,,{\be2}That means someone is probably lying.
+Dialogue: 0,0:18:44.16,0:18:47.25,Thoughts,,0,0,0,,{\be10}But no matter how we look at it, no one had a witness.
+Dialogue: 0,0:18:47.25,0:18:49.42,Thoughts,,0,0,0,,{\be10}That means someone is probably lying.
 Dialogue: 0,0:18:53.71,0:18:54.59,Dialogue,,0,0,0,,Yes, Yamane.
 Dialogue: 0,0:18:57.92,0:18:58.76,Dialogue,,0,0,0,,What?
 Dialogue: 0,0:18:59.55,0:19:00.72,Dialogue,,0,0,0,,I see, understood.
@@ -394,20 +390,20 @@ Dialogue: 0,0:19:42.59,0:19:48.39,Dialogue,,0,0,0,,After he murdered Wanibuchi{\
 Dialogue: 0,0:19:48.81,0:19:51.77,Dialogue,,0,0,0,,Then, that settles it. It had to have been Fukuma Ryousuke.
 Dialogue: 0,0:19:52.02,0:19:53.15,Dialogue,,0,0,0,,No way!
 Dialogue: 0,0:19:53.48,0:19:57.69,Dialogue,,0,0,0,,While it's true that there's a witness\Nand that forensics found sand on his shoes...
-Dialogue: 0,0:19:58.44,0:20:02.91,Thinking,,0,0,0,,{\be2}That only proves he removed the katana\Nfrom the crime scene and buried it at the beach.
-Dialogue: 0,0:20:03.53,0:20:04.37,Thinking,,0,0,0,,{\be2}But...
-Dialogue: 0,0:20:05.33,0:20:08.54,Thinking,,0,0,0,,{\be2}It doesn't prove that he's the murderer...
-Dialogue: 0,0:20:09.37,0:20:12.12,Case history,,0,0,0,,{\be1}I went to Hinomisaki...
-Dialogue: 0,0:20:12.44,0:20:16.00,Thinking,,0,0,0,,{\be2}That reaction... Fukuma{\rHonorifics - Thinking}-san{\r} knew!
-Dialogue: 0,0:20:16.00,0:20:18.92,Thinking,,0,0,0,,{\be2}He knew where Eiko{\rHonorifics - Thinking}-san{\r} really went!
-Dialogue: 0,0:20:18.92,0:20:20.34,Thinking,,0,0,0,,{\be2}So that means...
+Dialogue: 0,0:19:58.44,0:20:02.91,Thoughts,,0,0,0,,{\be10}That only proves he removed the katana\Nfrom the crime scene and buried it at the beach.
+Dialogue: 0,0:20:03.53,0:20:04.37,Thoughts,,0,0,0,,{\be10}But...
+Dialogue: 0,0:20:05.33,0:20:08.54,Thoughts,,0,0,0,,{\be10}It doesn't prove that he's the murderer...
+Dialogue: 0,0:20:09.37,0:20:12.12,Flashback,,0,0,0,,{\be10}I went to Hinomisaki...
+Dialogue: 0,0:20:12.44,0:20:16.00,Thoughts,,0,0,0,,{\be10}That reaction... Fukuma{\rHonorifics - Thoughts\be10}-san{\r\be10} knew!
+Dialogue: 0,0:20:16.00,0:20:18.92,Thoughts,,0,0,0,,{\be10}He knew where Eiko{\rHonorifics - Thoughts\be10}-san{\r\be10} really went!
+Dialogue: 0,0:20:18.92,0:20:20.34,Thoughts,,0,0,0,,{\be10}So that means...
 Dialogue: 0,0:20:22.47,0:20:24.18,Dialogue,,0,0,0,,H-Hey, where are you going?
-Dialogue: 0,0:20:24.10,0:20:25.82,Title02,,0,0,0,,{\be0.1}Interrogation Room 1
+Dialogue: 0,0:20:24.10,0:20:25.82,Signs,,0,0,0,,Interrogation Room 1
 Dialogue: 0,0:20:29.27,0:20:30.60,Dialogue,,0,0,0,,You brat!
 Dialogue: 0,0:20:30.60,0:20:32.89,Dialogue,,0,0,0,,Walking into the interrogation room without permission!
 Dialogue: 0,0:20:32.89,0:20:34.31,Dialogue,,0,0,0,,You can't do that, Conan{\rHonorifics - Dialogue}-kun{\r}.
 Dialogue: 0,0:20:35.48,0:20:41.53,Dialogue,,0,0,0,,But since Fukuma{\rHonorifics - Dialogue}-san{\r} won't talk,\NI thought he was covering up for the real culprit...
-Dialogue: 0,0:20:43.70,0:20:44.66,Thinking,,0,0,0,,{\be2}Just as I thought.
+Dialogue: 0,0:20:43.70,0:20:44.66,Thoughts,,0,0,0,,{\be10}Just as I thought.
 Dialogue: 0,0:20:45.74,0:20:47.32,Dialogue,,0,0,0,,Told you so!
 Dialogue: 0,0:20:47.33,0:20:50.08,Dialogue,,0,0,0,,He must have seen something at the lnome cave...
 Dialogue: 0,0:20:50.08,0:20:52.75,Dialogue,,0,0,0,,Where the real culprit attacked Wanibuchi{\rHonorifics - Dialogue}-san{\r}!
@@ -418,17 +414,17 @@ Dialogue: 0,0:21:04.01,0:21:07.55,Dialogue,,0,0,0,,That's why you took the katan
 Dialogue: 0,0:21:07.85,0:21:09.14,Dialogue,,0,0,0,,Isn't that right?
 Dialogue: 0,0:21:09.60,0:21:10.60,Dialogue,,0,0,0,,It was me!
 Dialogue: 0,0:21:10.60,0:21:12.31,Dialogue,,0,0,0,,I was the one who killed Wanibuchi!
-Dialogue: 0,0:21:12.60,0:21:15.48,Thinking,,0,0,0,,{\be2}Say whatever you want, but it's already too late.
+Dialogue: 0,0:21:12.60,0:21:15.48,Thoughts,,0,0,0,,{\be10}Say whatever you want, but it's already too late.
 Dialogue: 0,0:21:15.94,0:21:18.56,Dialogue,,0,0,0,,Me? I didn't do it!
 Dialogue: 0,0:21:18.82,0:21:24.28,Dialogue,,0,0,0,,Then, where did you actually\Ngo during the time of the murder?
 Dialogue: 0,0:21:24.86,0:21:28.99,Dialogue,,0,0,0,,You said you went to Hinomisaki,\Nbut no one saw you there...
 Dialogue: 0,0:21:28.99,0:21:32.30,Dialogue,,0,0,0,,Neither the lighthouse nor the souvenir shop employees.
 Dialogue: 0,0:21:32.37,0:21:33.46,Dialogue,,0,0,0,,That's because...
-Dialogue: 0,0:21:33.87,0:21:36.33,Thinking,,0,0,0,,{\be2}This woman's doing the same thing as Fukuma{\rHonorifics - Thinking}-san{\r}...
-Dialogue: 0,0:21:36.33,0:21:38.54,Thinking,,0,0,0,,{\be2}She's covering up for someone.
-Dialogue: 0,0:21:38.84,0:21:41.16,Case history,,0,0,0,,{\be1}I had the day of yesterday...
-Dialogue: 0,0:21:41.91,0:21:43.65,Case history,,0,0,0,,{\be1}So I went to the former Grand Shrine station.
-Dialogue: 0,0:21:44.28,0:21:45.48,Thinking,,0,0,0,,{\be2}Could it be that...
+Dialogue: 0,0:21:33.87,0:21:36.33,Thoughts,,0,0,0,,{\be10}This woman's doing the same thing as Fukuma{\rHonorifics - Thoughts\be10}-san{\r\be10}...
+Dialogue: 0,0:21:36.33,0:21:38.54,Thoughts,,0,0,0,,{\be10}She's covering up for someone.
+Dialogue: 0,0:21:38.84,0:21:41.16,Flashback,,0,0,0,,{\be10}I had the day of yesterday...
+Dialogue: 0,0:21:41.91,0:21:43.65,Flashback,,0,0,0,,{\be10}So I went to the former Grand Shrine station.
+Dialogue: 0,0:21:44.28,0:21:45.48,Thoughts,,0,0,0,,{\be10}Could it be that...
 Dialogue: 0,0:21:47.26,0:21:47.95,Dialogue,,0,0,0,,Say...
 Dialogue: 0,0:21:47.97,0:21:51.89,Dialogue,,0,0,0,,You know that Fukuma{\rHonorifics - Dialogue}-san{\r} is the culprit,\Nso you're covering up for him, aren't you?
 Dialogue: 0,0:21:56.45,0:21:58.00,Dialogue,,0,0,0,,I thought so.
@@ -440,11 +436,11 @@ Dialogue: 0,0:22:14.27,0:22:17.25,Dialogue,,0,0,0,,So, who is the real culprit?
 Dialogue: 0,0:22:17.73,0:22:20.27,Dialogue,,0,0,0,,You're saying that neither of them are the true culprit?
 Dialogue: 0,0:22:20.52,0:22:22.00,Dialogue,,0,0,0,,That's what I wanna check.
 Dialogue: 0,0:22:22.99,0:22:24.21,Dialogue,,0,0,0,,Where are you going?
-Dialogue: 0,0:22:26.35,0:22:28.76,Thinking,,0,0,0,,{\be2\fade(0,400)}To the former Grand Shrine station.
+Dialogue: 0,0:22:26.35,0:22:28.76,Thoughts,,0,0,0,,{\be10}To the former Grand Shrine station.
 Dialogue: 0,0:23:57.60,0:24:00.39,Dialogue,,0,0,0,,So, all of the suspects are innocent?
 Dialogue: 0,0:24:00.39,0:24:01.52,Dialogue,,0,0,0,,Exactly.
-Dialogue: 0,0:24:02.40,0:24:04.02,Thinking,,0,0,0,,{\be2}What's this?
-Dialogue: 0,0:24:04.56,0:24:07.48,Thinking,,0,0,0,,{\be2}There's an extra row that's not on yesterday's page.
+Dialogue: 0,0:24:02.40,0:24:04.02,Thoughts,,0,0,0,,{\be10}What's this?
+Dialogue: 0,0:24:04.56,0:24:07.48,Thoughts,,0,0,0,,{\be10}There's an extra row that's not on yesterday's page.
 Dialogue: 0,0:24:07.94,0:24:09.44,Dialogue,,0,0,0,,I don't think that's right.
 Dialogue: 0,0:24:10.03,0:24:11.86,Dialogue,,0,0,0,,A mutual misunderstanding?
 Dialogue: 0,0:24:12.20,0:24:14.57,Dialogue,,0,0,0,,It's Mouri. I need to meet with you as soon as possible.
@@ -452,7 +448,6 @@ Dialogue: 0,0:24:14.57,0:24:17.66,Dialogue,,0,0,0,,I'll let you know why when yo
 Dialogue: 0,0:24:19.62,0:24:23.50,Dialogue,,0,0,0,,Next Conan: Sword of the Eight-Headed Serpent, Part 2.
 Dialogue: 0,0:24:25.88,0:24:28.17,Dialogue,,0,0,0,,Next Conan's Hint!
 Dialogue: 0,0:24:28.17,0:24:29.63,Dialogue,,0,0,0,,A false testimony.
-Dialogue: 0,0:24:30.04,0:24:35.02,TST,,0,0,0,,Please look forward to the next episode!
 Dialogue: 0,0:24:30.28,0:24:31.96,Dialogue Top,,0,0,0,,You tied your knot of love\Nthinking of Shinichi-niichan, didn't you?
 Dialogue: 0,0:24:31.98,0:24:32.74,Dialogue Top,,0,0,0,,Nope!
 Dialogue: 0,0:24:32.74,0:24:33.23,Dialogue Top,,0,0,0,,T-Then, who?

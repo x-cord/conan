@@ -33,60 +33,9 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: OPTop,NanumGothic,26,&H00FFFFFF,&H000000FF,&H00737373,&H80000000,-1,0,0,0,108,100,0,0,1,3,1,8,160,160,30,1
-Style: OPBottom,NanumGothic,28,&H00FFFFFF,&H000000FF,&H00474747,&H80000000,-1,0,0,0,108,100,0,0,1,3,1,2,160,160,30,1
-Style: EDBottom,AG Foreigner-Roman,25,&H00E2DDE3,&H000000FF,&H00474747,&H80000000,-1,0,0,0,108,100,0,0,1,0,2,2,160,160,30,1
-Style: EDTop,MV Boli,45,&H00E7E7E7,&H000000FF,&H00909090,&H80000000,-1,0,0,0,100,100,0,0,1,1,2,8,160,160,30,1
-Style: Movie,cinecaption,35,&H00FFFFFF,&H000000FF,&H00909090,&H80000000,-1,-1,0,0,100,100,0,0,1,0,0,2,160,160,20,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:14.91,0:00:26.32,OPTop,,0,0,0,,{\be4}atarashii sekai no makuake wa itsumo yake ni okubyō de
-Dialogue: 0,0:00:26.32,0:00:36.14,OPTop,,0,0,0,,{\be4}saisho no ippo ga fumidasenai
-Dialogue: 0,0:00:36.14,0:00:43.84,OPTop,,0,0,0,,{\be4}saa, te o nobasō - me no mae ni hirogaru no wa kabe ja naku
-Dialogue: 0,0:00:43.84,0:00:48.61,OPTop,,0,0,0,,{\be4}hyaku-mono tobira
-Dialogue: 0,0:00:48.61,0:00:54.12,OPTop,,0,0,0,,{\be4}yūki to kibō to kimi no ai o mune ni
-Dialogue: 0,0:00:54.12,0:01:00.26,OPTop,,0,0,0,,{\be4}kirameku mirai zūtto yume-mite
-Dialogue: 0,0:01:00.26,0:01:05.71,OPTop,,0,0,0,,{\be4}don'na toki mo egao tayasazu-iyō
-Dialogue: 0,0:01:05.71,0:01:11.22,OPTop,,0,0,0,,{\be4}osorezu tsugi no tobira o hirakeba
-Dialogue: 0,0:01:11.22,0:01:17.08,OPTop,,0,0,0,,{\be4}fuan ni yoku nita shinjitsu no hikari ga
-Dialogue: 0,0:01:17.08,0:01:22.74,OPTop,,0,0,0,,{\be4}kokoro ni afureru hyaku-mono tobira
-Dialogue: 0,0:01:22.74,0:01:28.36,OPTop,,0,0,0,,{\be4}chikara o awasete hiraku tobira!
-Dialogue: 0,0:01:28.36,0:01:34.30,OPTop,,0,0,0,,{\be4}atsumeta hikari o mayowazu tadotte!
-Dialogue: 0,0:01:34.30,0:01:39.83,OPTop,,0,0,0,,{\be4}yume e to mukau hyaku-mono tobira
-Dialogue: 0,0:00:14.91,0:00:26.32,OPBottom,,0,0,0,,{\be4}The start of a new world is always scary
-Dialogue: 0,0:00:26.32,0:00:36.14,OPBottom,,0,0,0,,{\be4}You can't even take the first step
-Dialogue: 0,0:00:36.14,0:00:43.84,OPBottom,,0,0,0,,{\be4}So reach out your hands, the expanse ahead of you isn't a wall
-Dialogue: 0,0:00:43.84,0:00:48.61,OPBottom,,0,0,0,,{\be4}but a hundred doors!
-Dialogue: 0,0:00:48.61,0:00:54.12,OPBottom,,0,0,0,,{\be4}With courage, hope, and your love in my heart,
-Dialogue: 0,0:00:54.12,0:01:00.26,OPBottom,,0,0,0,,{\be4}I've always dreamt of a sparkling future
-Dialogue: 0,0:01:00.26,0:01:05.71,OPBottom,,0,0,0,,{\be4}so we'll never have to lose our smiles
-Dialogue: 0,0:01:05.71,0:01:11.22,OPBottom,,0,0,0,,{\be4}If you fearlessly open the next door,
-Dialogue: 0,0:01:11.22,0:01:17.08,OPBottom,,0,0,0,,{\be4}the light of truth that looked just like anxiety
-Dialogue: 0,0:01:17.08,0:01:22.74,OPBottom,,0,0,0,,{\be4}is a hundred doors overflowing in your heart
-Dialogue: 0,0:01:22.74,0:01:28.36,OPBottom,,0,0,0,,{\be4}Let's join forces to open the door!
-Dialogue: 0,0:01:28.36,0:01:34.30,OPBottom,,0,0,0,,{\be4}Follow the gathered light without losing your way!
-Dialogue: 0,0:01:34.30,0:01:39.83,OPBottom,,0,0,0,,{\be4}To the one hundred doors that lead to your dreams
-Dialogue: 0,0:21:56.89,0:22:10.41,EDBottom,,0,0,0,,The day my longing became an encounter, our dreams connected
-Dialogue: 0,0:22:12.16,0:22:19.16,EDBottom,,0,0,0,,The day I walked with my head down, scared,
-Dialogue: 0,0:22:19.41,0:22:25.42,EDBottom,,0,0,0,,I turned around, and you were there
-Dialogue: 0,0:22:26.13,0:22:33.39,EDBottom,,0,0,0,,I saw a single shooting star...
-Dialogue: 0,0:22:33.51,0:22:44.02,EDBottom,,0,0,0,,and when I stopped, I wanted to hold it more than anything...
-Dialogue: 0,0:22:44.19,0:22:45.69,EDBottom,,0,0,0,,In the starry sky
-Dialogue: 0,0:22:45.69,0:22:52.74,EDBottom,,0,0,0,,I don't want to be away from you - my tears were yesterday
-Dialogue: 0,0:22:52.99,0:23:00.41,EDBottom,,0,0,0,,Until the words you told me come to rest on my smiling face
-Dialogue: 0,0:23:00.71,0:23:07.88,EDBottom,,0,0,0,,I don't want to be away from you - my sadness was yesterday
-Dialogue: 0,0:23:08.09,0:23:16.47,EDBottom,,0,0,0,,{\fad(0,1000)}Until the words you told me come to rest on my smiling face
-Dialogue: 0,0:21:56.89,0:22:10.41,EDTop,,0,0,0,,{\be8\fax0.25}akogare ga deai ni kawatta hi yume to yume ga tsunagatta
-Dialogue: 0,0:22:12.16,0:22:19.16,EDTop,,0,0,0,,{\be8\fax0.25}obienagara utsumuki aruita hi
-Dialogue: 0,0:22:19.41,0:22:25.42,EDTop,,0,0,0,,{\be8\fax0.25}furimukeba kimi ga ita
-Dialogue: 0,0:22:26.13,0:22:33.39,EDTop,,0,0,0,,{\be8\fax0.25}nagareboshi hitotsu mitsuketa yo
-Dialogue: 0,0:22:33.51,0:22:44.02,EDTop,,0,0,0,,{\be8\fax0.25}tachidomatta toki ni wa ichi-ban ni dakishimete hoshii
-Dialogue: 0,0:22:44.19,0:22:45.69,EDTop,,0,0,0,,{\be8\fax0.25}hoshizora ni
-Dialogue: 0,0:22:45.69,0:22:52.74,EDTop,,0,0,0,,{\be8\fax0.25}mō kimi dake o hanashitari wa shinai - namida wa Yesterday
-Dialogue: 0,0:22:52.99,0:23:00.41,EDTop,,0,0,0,,{\be8\fax0.25}kimi ga kureta kotoba de - egao de nemuri ni tsuku made
-Dialogue: 0,0:23:00.71,0:23:07.88,EDTop,,0,0,0,,{\be8\fax0.25}mō kimi dake o hanashitari wa shinai - kanashimi wa Yesterday
-Dialogue: 0,0:23:08.09,0:23:16.47,EDTop,,0,0,0,,{\be8\fax0.25\fad(0,1000)}kimi ga kureta kotoba de - egao de nemuri ni tsuku made
 Dialogue: 0,0:24:25.50,0:24:31.55,Signs,,0,0,0,,The Upside-Down Conclusion
 Dialogue: 0,0:24:25.50,0:24:31.55,Signs,,0,0,0,,(Part I)
 Dialogue: 0,0:00:01.92,0:00:05.02,Dialogue,,0,0,0,,From a different point of view, even an enormous\Nwall obstructing you can become a large door.
@@ -95,13 +44,13 @@ Dialogue: 0,0:00:08.07,0:00:09.70,Dialogue,,0,0,0,,A false start to a case thank
 Dialogue: 0,0:00:09.70,0:00:11.22,Dialogue,,0,0,0,,He sees the single truth for what it is,
 Dialogue: 0,0:00:11.22,0:00:12.76,Dialogue,,0,0,0,,and looks like a kid but has the mind of an adult!
 Dialogue: 0,0:00:12.76,0:00:14.91,Dialogue,,0,0,0,,His name? Detective Conan!
-Dialogue: 0,0:02:15.15,0:02:18.66,Movie,,0,0,0,,{\be1}The game is over - You have no way out!
-Dialogue: 0,0:02:19.16,0:02:21.62,Movie,,0,0,0,,{\be1}You are out, Dark Sasim!
-Dialogue: 0,0:02:21.70,0:02:23.24,Movie,,0,0,0,,{\be1\fad(40,40)}What are you saying...
-Dialogue: 0,0:02:23.41,0:02:26.12,Movie,,0,0,0,,{\be1}Can you catch a bigshot...
-Dialogue: 0,0:02:27.00,0:02:28.83,Movie,,0,0,0,,{\be1}...like me?!
-Dialogue: 0,0:02:39.09,0:02:40.93,Movie,,0,0,0,,{\be1}Don't think...
-Dialogue: 0,0:02:42.85,0:02:45.81,Movie,,0,0,0,,{\be1\fad(40,0)}Feel, like water...
+Dialogue: 0,0:02:15.15,0:02:18.66,Radio,,0,0,0,,{\be10}The game is over - You have no way out!
+Dialogue: 0,0:02:19.16,0:02:21.62,Radio,,0,0,0,,{\be10}You are out, Dark Sasim!
+Dialogue: 0,0:02:21.70,0:02:23.24,Radio,,0,0,0,,{\be10}What are you saying...
+Dialogue: 0,0:02:23.41,0:02:26.12,Radio,,0,0,0,,{\be10}Can you catch a bigshot...
+Dialogue: 0,0:02:27.00,0:02:28.83,Radio,,0,0,0,,{\be10}...like me?!
+Dialogue: 0,0:02:39.09,0:02:40.93,Radio,,0,0,0,,{\be10}Don't think...
+Dialogue: 0,0:02:42.85,0:02:45.81,Radio,,0,0,0,,{\be10}Feel, like water...
 Dialogue: 0,0:02:50.73,0:02:53.69,Dialogue,,0,0,0,,{\i1}Simultaneous worldwide release on October 30th!
 Dialogue: 0,0:02:54.78,0:02:59.98,Dialogue Top,,0,0,0,,{\i1}Witness the conclusion of the legend!!
 Dialogue: 0,0:02:54.78,0:02:59.98,Dialogue,,0,0,0,,{\i1}Witness this event of the century!!
@@ -128,7 +77,7 @@ Dialogue: 0,0:04:17.40,0:04:22.22,Dialogue,,0,0,0,,Even so, when we think about 
 Dialogue: 0,0:04:22.22,0:04:23.92,Dialogue,,0,0,0,,We get excited!
 Dialogue: 0,0:04:23.92,0:04:25.97,Dialogue,,0,0,0,,We can't sit still!!
 Dialogue: 0,0:04:25.97,0:04:29.04,Dialogue,,0,0,0,,Then you've gotta get into the parts well.
-Dialogue: 0,0:04:29.04,0:04:32.04,Signs,,0,0,0,,Bungo Tatei
+Dialogue: 0,0:04:29.04,0:04:32.04,Character Card,,0,0,0,,Bungo Tatei
 Dialogue: 0,0:00:00.00,0:00:00.00,Dialogue,,0,0,0,,*charcard* Bungo Tatei
 Dialogue: 0,0:04:30.32,0:04:32.04,Dialogue,,0,0,15,,Dark Sasim's two-sword style is wielded
 Dialogue: 0,0:04:32.04,0:04:37.42,Dialogue,,0,0,0,,with the large sword in the right hand, and the short sword in the left.
@@ -213,7 +162,7 @@ Dialogue: 0,0:07:51.29,0:07:53.53,Dialogue,,0,0,0,,We thought he must've been so
 Dialogue: 0,0:07:53.53,0:07:55.70,Dialogue,,0,0,0,,I guess we were wrong...
 Dialogue: 0,0:00:00.00,0:00:00.00,Dialogue,,0,0,0,,--
 Dialogue: 0,0:00:00.00,0:00:00.00,Dialogue,,0,0,0,,Charcard: Jōji Narukawa
-Dialogue: 0,0:08:00.21,0:08:03.71,Signs,,0,0,15,,Jōji Narukawa
+Dialogue: 0,0:08:00.21,0:08:03.71,Character Card,,0,0,15,,Jōji Narukawa
 Dialogue: 0,0:08:00.78,0:08:02.64,Dialogue,,0,0,15,,Hey, Narukawa!
 Dialogue: 0,0:08:02.64,0:08:03.71,Dialogue,,0,0,15,,Sorry I'm late!
 Dialogue: 0,0:08:03.71,0:08:07.07,Dialogue,,0,0,0,,Geez. What was that call before about?
@@ -454,7 +403,6 @@ Dialogue: 0,0:24:15.25,0:24:18.76,Dialogue,,0,0,0,,...they're almost all upside 
 Dialogue: 0,0:24:18.78,0:24:20.64,Dialogue,,0,0,0,,Why?
 Dialogue: 0,0:24:25.50,0:24:30.59,Dialogue,,0,0,0,,On the next Conan: 'The Upside-Down Conclusion (Part I)'
 Dialogue: 0,0:24:31.55,0:24:36.51,Dialogue,,0,0,0,,Next Conan's Hint: Collection!
-Dialogue: 0,0:24:36.51,0:24:44.12,Signs,,0,0,15,,Look forward to the next episode!
 Dialogue: 0,0:24:36.51,0:24:38.29,Dialogue,,0,0,15,,Next time, a strange collector shows up!
 Dialogue: 0,0:24:38.29,0:24:40.05,Dialogue,,0,0,15,,Hey, Haibara, what do you collect?
 Dialogue: 0,0:24:40.05,0:24:44.10,Dialogue,,0,0,15,,That's a secret.

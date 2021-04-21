@@ -33,10 +33,6 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: Thinking,00390,17,&H00FFFFFF,&H000000FF,&H00432017,&H00000000,0,0,0,0,100,100,0,0,1,2.5,0,2,10,10,10,1
-Style: Case history,00390,17,&H00C1F5FC,&H03FFFFFF,&H00000000,&H02000000,0,0,0,0,100,100,0,0,1,2,0,2,10,10,10,1
-Style: Title02,Times New Roman,15,&H001A211B,&H000000FF,&H00F9F9F9,&H00000000,0,0,0,0,100,100,0,0,3,10,0,2,195,0,255,1
-Style: Title03,Times New Roman,20,&H00000000,&H000000FF,&H00FFFFFF,&H00000000,0,0,0,0,100,110,0,0,3,60,0,2,50,0,105,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -48,15 +44,15 @@ Dialogue: 0,0:00:08.17,0:00:09.83,Dialogue,,0,0,0,,To find the true culprit of t
 Dialogue: 0,0:00:09.97,0:00:11.52,Dialogue,,0,0,0,,Seeing through to the one and only truth...
 Dialogue: 0,0:00:11.56,0:00:13.26,Dialogue,,0,0,0,,I look like a child, but have the intellect of an adult.
 Dialogue: 0,0:00:13.40,0:00:15.43,Dialogue,,0,0,0,,My name is Detective Conan!
-Dialogue: 0,0:01:51.63,0:01:54.99,Thinking,,0,0,0,,{\be2\an8}We traveled the old, mythical village of Izumo...
-Dialogue: 0,0:01:55.74,0:01:59.59,Thinking,,0,0,0,,{\be2\an8}Where we met Ezumi Eiko{\rHonorifics - Thinking}-san{\r},\Na young woman working at the Grand Shrine.
+Dialogue: 0,0:01:51.63,0:01:54.99,Thoughts,,0,0,0,,{\be10\an8}We traveled the old, mythical village of Izumo...
+Dialogue: 0,0:01:55.74,0:01:59.59,Thoughts,,0,0,0,,{\be10\an8}Where we met Ezumi Eiko{\rHonorifics - Thoughts\be10}-san{\r\be10},\Na young woman working at the Grand Shrine.
 Dialogue: 0,0:01:58.04,0:01:59.85,CharCards01 bord,,0,0,0,,Ezumi Eiko (25)\N{\fs12} Sunrise Shop - Eldest Daughterd
 Dialogue: 0,0:02:00.13,0:02:04.27,Character Card,,0,0,0,,{\fade(300,300)}Inome Cave
-Dialogue: 0,0:02:00.41,0:02:01.41,Thinking,,0,0,0,,{\be2}The following day...
-Dialogue: 0,0:02:01.99,0:02:04.12,Thinking,,0,0,0,,{\be2}Eiko{\rHonorifics - Thinking}-san{\r}'s fiancé was found dead...
-Dialogue: 0,0:02:04.91,0:02:08.08,Thinking,,0,0,0,,{\be2}And a katana worth 10 million yen was stolen.
-Dialogue: 0,0:02:09.92,0:02:13.67,Thinking,,0,0,0,,{\be2}Later, the police called four suspects to the police station...
-Dialogue: 0,0:02:13.67,0:02:16.26,Thinking,,0,0,0,,{\be2}And Eiko{\rHonorifics - Thinking}-san{\r} and her childhood friend were among them.
+Dialogue: 0,0:02:00.41,0:02:01.41,Thoughts,,0,0,0,,{\be10}The following day...
+Dialogue: 0,0:02:01.99,0:02:04.12,Thoughts,,0,0,0,,{\be10}Eiko{\rHonorifics - Thoughts\be10}-san{\r\be10}'s fiancé was found dead...
+Dialogue: 0,0:02:04.91,0:02:08.08,Thoughts,,0,0,0,,{\be10}And a katana worth 10 million yen was stolen.
+Dialogue: 0,0:02:09.92,0:02:13.67,Thoughts,,0,0,0,,{\be10}Later, the police called four suspects to the police station...
+Dialogue: 0,0:02:13.67,0:02:16.26,Thoughts,,0,0,0,,{\be10}And Eiko{\rHonorifics - Thoughts\be10}-san{\r\be10} and her childhood friend were among them.
 Dialogue: 0,0:02:17.67,0:02:22.75,Dialogue,,0,0,0,,Please tell me where you were and\Nwhat you were doing yesterday at 1:00 PM.
 Dialogue: 0,0:02:22.79,0:02:27.25,CharCards02 bord,,0,0,0,,{\fade(0,350)}Fukuma Ryousuke (25)\N{\fs12} Museum Curator
 Dialogue: 0,0:02:23.26,0:02:25.89,Dialogue,,0,0,0,,I had the day off yesterday...
@@ -65,8 +61,8 @@ Dialogue: 0,0:02:29.77,0:02:30.94,Dialogue,,0,0,0,,What about you, Ezumi{\rHonor
 Dialogue: 0,0:02:31.27,0:02:33.77,Dialogue,,0,0,0,,I went to Hinomisaki.
 Dialogue: 0,0:02:34.19,0:02:37.90,Dialogue,,0,0,0,,Eiko{\rHonorifics - Dialogue}-san{\r} and Fukuma{\rHonorifics - Dialogue}-san{\r} aren't the culprits, right?
 Dialogue: 0,0:02:37.90,0:02:39.07,Dialogue,,0,0,0,,Yep.
-Dialogue: 0,0:02:39.07,0:02:42.28,Thinking,,0,0,0,,{\be2}But no how we look at it, no one had a witness.
-Dialogue: 0,0:02:42.28,0:02:44.58,Thinking,,0,0,0,,{\be2}That means someone is probably lying.
+Dialogue: 0,0:02:39.07,0:02:42.28,Thoughts,,0,0,0,,{\be10}But no how we look at it, no one had a witness.
+Dialogue: 0,0:02:42.28,0:02:44.58,Thoughts,,0,0,0,,{\be10}That means someone is probably lying.
 Dialogue: 0,0:02:46.45,0:02:48.16,Dialogue,,0,0,0,,Sword of the Eight-Headed Serpent.
 Dialogue: 0,0:02:48.16,0:02:48.95,Dialogue,,0,0,0,,Part 2!
 Dialogue: 0,0:02:51.85,0:02:57.03,Character Card,,0,0,0,,{\fade(300,300}Former Grand Shrine Station
@@ -80,7 +76,7 @@ Dialogue: 0,0:03:06.68,0:03:09.60,Dialogue,,0,0,0,,And she was sitting in that s
 Dialogue: 0,0:03:11.06,0:03:15.02,Dialogue,,0,0,0,,That means Eiko{\rHonorifics - Dialogue}-san{\r} was here\Nat the time of Wanibuchi{\rHonorifics - Dialogue}-san{\r}'s murder!
 Dialogue: 0,0:03:16.44,0:03:17.90,Dialogue,,0,0,0,,Because we found a witness...
 Dialogue: 0,0:03:17.90,0:03:20.19,Dialogue,,0,0,0,,Eiko{\rHonorifics - Dialogue}-san{\r} has the perfect alibi.
-Dialogue: 0,0:03:20.18,0:03:22.35,Title02,,0,0,0,,{\fade(450,0)\be0.1}Ezumi= Hinomisaki
+Dialogue: 0,0:03:20.18,0:03:22.35,Signs,,0,0,0,,Ezumi= Hinomisaki
 Dialogue: 0,0:03:20.36,0:03:22.40,Dialogue,,0,0,0,,But I wonder why she said she went to Hinomisaki?
 Dialogue: 0,0:03:23.11,0:03:25.32,Dialogue,,0,0,0,,Let's just inform Uncle and the others for now.
 Dialogue: 0,0:03:25.34,0:03:28.89,Character Card,,0,0,0,,Shimane Prefecture: Izumo Police Station
@@ -102,14 +98,14 @@ Dialogue: 0,0:04:16.50,0:04:21.92,Dialogue,,0,0,0,,You should've told us that yo
 Dialogue: 0,0:04:21.92,0:04:23.63,Dialogue,,0,0,0,,Why did you lie about that?
 Dialogue: 0,0:04:24.13,0:04:25.38,Dialogue,,0,0,0,,That's because...
 Dialogue: 0,0:04:25.89,0:04:28.35,Dialogue,,0,0,0,,It was because Fukuma{\rHonorifics - Dialogue}-san{\r} said that earlier, wasn't it?
-Dialogue: 0,0:04:29.43,0:04:32.27,Case history,,0,0,0,,{\be1}I had the day off yesterday...
-Dialogue: 0,0:04:32.27,0:04:34.06,Case history,,0,0,0,,{\be1}So I went to the former Grand Shrine station.
+Dialogue: 0,0:04:29.43,0:04:32.27,Flashback,,0,0,0,,{\be10}I had the day off yesterday...
+Dialogue: 0,0:04:32.27,0:04:34.06,Flashback,,0,0,0,,{\be10}So I went to the former Grand Shrine station.
 Dialogue: 0,0:04:34.73,0:04:37.81,Dialogue,,0,0,0,,At the time, didn't Eiko{\rHonorifics - Dialogue}-san{\r}\Nseem very surprised by his statement?
 Dialogue: 0,0:04:38.36,0:04:42.78,Dialogue,,0,0,0,,That's because Eiko{\rHonorifics - Dialogue}-san{\r} didn't\Nsee Fukuma{\rHonorifics - Dialogue}-san{\r} while she was there.
 Dialogue: 0,0:04:43.49,0:04:48.78,Dialogue,,0,0,0,,I couldn't believe he killed Wanibuchi{\rHonorifics - Dialogue}-san{\r} for my sake.
 Dialogue: 0,0:04:48.78,0:04:51.58,Dialogue,,0,0,0,,So that's why I hid the truth.
 Dialogue: 0,0:04:51.58,0:04:56.25,Dialogue,,0,0,0,,If I said that I was also at the former Grand\NShrine station, it would've contradicted his testimony.
-Dialogue: 0,0:04:56.25,0:05:00.25,Case history,,0,0,0,,{\be1}But since I went there alone, no one can vouch for me.
+Dialogue: 0,0:04:56.25,0:05:00.25,Flashback,,0,0,0,,{\be10}But since I went there alone, no one can vouch for me.
 Dialogue: 0,0:05:01.00,0:05:04.72,Dialogue,,0,0,0,,There's no way we wouldn't have seen\Neach other if we were at the same place.
 Dialogue: 0,0:05:05.47,0:05:10.51,Dialogue,,0,0,0,,So, Fukuma{\rHonorifics - Dialogue}-san{\r} lied first, giving\NEiko{\rHonorifics - Dialogue}-san{\r} no choice but to lie to cover it up.
 Dialogue: 0,0:05:11.14,0:05:14.43,Dialogue,,0,0,0,,Hinomisaki was the first place I could think of.
@@ -123,7 +119,7 @@ Dialogue: 0,0:05:37.87,0:05:42.13,Dialogue,,0,0,0,,I think Eiko{\rHonorifics - D
 Dialogue: 0,0:05:42.59,0:05:44.55,Dialogue,,0,0,0,,A mutual misunderstanding?
 Dialogue: 0,0:05:44.55,0:05:50.64,Dialogue,,0,0,0,,If we tell him we stopped suspecting Eiko{\rHonorifics - Dialogue}-san{\r},\NFukuma{\rHonorifics - Dialogue}-san{\r} will probably tell us the whole story.
 Dialogue: 0,0:05:50.64,0:05:52.88,Dialogue,,0,0,0,,Bring Fukuma{\rHonorifics - Dialogue}-san{\r} here immediately!
-Dialogue: 0,0:05:52.91,0:05:55.38,Title03,,0,0,0,,{\be1} Fujie-shi = Matsue Castle\NFukuma-shi = Former\NGrand Shrine Station\NIshitobi-shi = Izumo Traditional\NCultural Museum\NEzumi{\rHonorifics - Title03}-san{\r} = Hinomisa
+Dialogue: 0,0:05:52.91,0:05:55.38,Signs,,0,0,0,,Fujie-shi = Matsue Castle\NFukuma-shi = Former\NGrand Shrine Station\NIshitobi-shi = Izumo Traditional\NCultural Museum\NEzumi{\rHonorifics - Signs}-san{\r} = Hinomisa
 Dialogue: 0,0:05:55.64,0:05:57.94,Dialogue,,0,0,0,,Eiko, it wasn't you?
 Dialogue: 0,0:05:58.35,0:06:01.94,Dialogue,,0,0,0,,No, because I was at the former\NGrand Shrine station the entire time.
 Dialogue: 0,0:06:01.94,0:06:04.44,Dialogue,,0,0,0,,But then, why?
@@ -136,22 +132,22 @@ Dialogue: 0,0:06:19.21,0:06:21.63,Dialogue,,0,0,0,,Y-Yes sir.
 Dialogue: 0,0:06:21.79,0:06:26.34,Dialogue,,0,0,0,,Yesterday afternoon, I actually went to Inome Cave...
 Dialogue: 0,0:06:26.80,0:06:30.59,Dialogue,,0,0,0,,But it wasn't to kill Wanibuchi{\rHonorifics - Dialogue}-san{\r}.
 Dialogue: 0,0:06:30.89,0:06:33.26,Dialogue,,0,0,0,,I spoke with Eiko two days ago...
-Dialogue: 0,0:06:34.51,0:06:36.60,Case history,,0,0,0,,{\be1}You got a call from Wanibuchi?
-Dialogue: 0,0:06:36.60,0:06:41.27,Case history,,0,0,0,,{\be1}He told me to be at Inome Cave at 1:30 PM tomorrow.
-Dialogue: 0,0:06:41.27,0:06:43.19,Case history,,0,0,0,,{\be1}Why would he tell you to go to such a deserted place?
-Dialogue: 0,0:06:43.19,0:06:46.94,Case history,,0,0,0,,{\be1}Whatever he's scheming can't be anything good.
-Dialogue: 0,0:06:46.94,0:06:49.74,Case history,,0,0,0,,{\be1}I'll go in your place...
-Dialogue: 0,0:06:49.74,0:06:51.57,Case history,,0,0,0,,{\be1}Talk to him...
-Dialogue: 0,0:06:51.57,0:06:54.16,Case history,,0,0,0,,{\be1}And get him to give up on you, Eiko.
-Dialogue: 0,0:06:54.16,0:06:55.20,Case history,,0,0,0,,{\be1}Ryo{\rHonorifics - Case history}-chan{\r}...
-Dialogue: 0,0:06:55.20,0:06:58.20,Case history,,0,0,0,,{\be1}Tomorrow afternoon, at 1:30 PM.
+Dialogue: 0,0:06:34.51,0:06:36.60,Flashback,,0,0,0,,{\be10}You got a call from Wanibuchi?
+Dialogue: 0,0:06:36.60,0:06:41.27,Flashback,,0,0,0,,{\be10}He told me to be at Inome Cave at 1:30 PM tomorrow.
+Dialogue: 0,0:06:41.27,0:06:43.19,Flashback,,0,0,0,,{\be10}Why would he tell you to go to such a deserted place?
+Dialogue: 0,0:06:43.19,0:06:46.94,Flashback,,0,0,0,,{\be10}Whatever he's scheming can't be anything good.
+Dialogue: 0,0:06:46.94,0:06:49.74,Flashback,,0,0,0,,{\be10}I'll go in your place...
+Dialogue: 0,0:06:49.74,0:06:51.57,Flashback,,0,0,0,,{\be10}Talk to him...
+Dialogue: 0,0:06:51.57,0:06:54.16,Flashback,,0,0,0,,{\be10}And get him to give up on you, Eiko.
+Dialogue: 0,0:06:54.16,0:06:55.20,Flashback,,0,0,0,,{\be10}Ryo{\rHonorifics - Flashback\be10}-chan{\r\be10}...
+Dialogue: 0,0:06:55.20,0:06:58.20,Flashback,,0,0,0,,{\be10}Tomorrow afternoon, at 1:30 PM.
 Dialogue: 0,0:06:59.29,0:07:02.50,Dialogue,,0,0,0,,So yesterday, in order to have a discussion with him...
-Dialogue: 0,0:07:03.29,0:07:04.50,Case history,,0,0,0,,{\be1}Wanibuchi?
-Dialogue: 0,0:07:13.01,0:07:13.89,Case history,,0,0,0,,{\be1}Eiko?
+Dialogue: 0,0:07:03.29,0:07:04.50,Flashback,,0,0,0,,{\be10}Wanibuchi?
+Dialogue: 0,0:07:13.01,0:07:13.89,Flashback,,0,0,0,,{\be10}Eiko?
 Dialogue: 0,0:07:15.72,0:07:17.22,Dialogue,,0,0,0,,It was there?
 Dialogue: 0,0:07:17.22,0:07:20.98,Dialogue,,0,0,0,,I noticed it right away, since I'm the one who gave it to Eiko.
 Dialogue: 0,0:07:21.35,0:07:23.48,Dialogue,,0,0,0,,L-Let me hold on to it.
-Dialogue: 0,0:07:23.98,0:07:26.48,Thinking,,0,0,0,,{\be2}Is this pendant the key?
+Dialogue: 0,0:07:23.98,0:07:26.48,Thoughts,,0,0,0,,{\be10}Is this pendant the key?
 Dialogue: 0,0:07:26.78,0:07:30.74,Dialogue,,0,0,0,,So I thought she had went there,\Neven though I told her I would.
 Dialogue: 0,0:07:30.74,0:07:37.70,Dialogue,,0,0,0,,Thinking it was Eiko{\rHonorifics - Dialogue}-san{\r}'s doing, you decided to\Nhide the katana, masking it as a robbery-murder?
 Dialogue: 0,0:07:38.04,0:07:39.70,Dialogue,,0,0,0,,Y-Yes.
@@ -185,18 +181,18 @@ Dialogue: 0,0:09:03.16,0:09:05.08,Dialogue,,0,0,0,,It was placed near the corpse
 Dialogue: 0,0:09:06.58,0:09:09.59,Dialogue,,0,0,0,,You said you lost it a few days ago, right?
 Dialogue: 0,0:09:09.59,0:09:13.42,Dialogue,,0,0,0,,Did you happen to meet with\NIshitobi{\rHonorifics - Dialogue}-san{\r} or Fujie{\rHonorifics - Dialogue}-san{\r} around that time?
 Dialogue: 0,0:09:14.09,0:09:14.97,Dialogue,,0,0,0,,Now that you mention it...
-Dialogue: 0,0:09:15.13,0:09:17.30,Case history,,0,0,0,,{\be1}I'm begging you, Eiko{\rHonorifics - Case history}-san{\r}!
-Dialogue: 0,0:09:17.30,0:09:20.73,Case history,,0,0,0,,{\be1}Wanibuchi will understand my situation\Nif you're the one speaking to him.
+Dialogue: 0,0:09:15.13,0:09:17.30,Flashback,,0,0,0,,{\be10}I'm begging you, Eiko{\rHonorifics - Flashback\be10}-san{\r\be10}!
+Dialogue: 0,0:09:17.30,0:09:20.73,Flashback,,0,0,0,,{\be10}Wanibuchi will understand my situation\Nif you're the one speaking to him.
 Dialogue: 0,0:09:20.74,0:09:25.22,CharCards04 bord,,0,0,0,,{\fade(0,350)}Fujie Takehiko (40)\N{\fs10} Manager of a Marriage Ceremony Hall
-Dialogue: 0,0:09:21.30,0:09:25.96,Case history,,0,0,0,,{\be1}Marry him and talk him out of taking my company.
-Dialogue: 0,0:09:26.48,0:09:27.52,Case history,,0,0,0,,{\be1}I beg of you!
-Dialogue: 0,0:09:27.93,0:09:29.98,Case history,,0,0,0,,{\be1}What are you saying, Fujie{\rHonorifics - Case history}-san{\r}?
-Dialogue: 0,0:09:30.61,0:09:36.45,Case history,,0,0,0,,{\be1}You want my daughter to sacrifice herself\Njust to protect your marriage ceremony hall?!
-Dialogue: 0,0:09:36.91,0:09:39.24,Case history,,0,0,0,,{\be1}I'm asking you to not be selfish!
-Dialogue: 0,0:09:39.74,0:09:42.28,Case history,,0,0,0,,{\be1}I'm begging you, Eiko{\rHonorifics - Case history}-san{\r}... Please!
-Dialogue: 0,0:09:42.91,0:09:44.41,Case history,,0,0,0,,{\be1}Let me think about it for a while.
-Dialogue: 0,0:09:44.41,0:09:47.71,Case history,,0,0,0,,{\be1}Eiko, you don't have even have to think about it!
-Dialogue: 0,0:09:47.71,0:09:49.96,Case history,,0,0,0,,{\be1}Go away, Fujie{\rHonorifics - Case history}-san{\r}.
+Dialogue: 0,0:09:21.30,0:09:25.96,Flashback,,0,0,0,,{\be10}Marry him and talk him out of taking my company.
+Dialogue: 0,0:09:26.48,0:09:27.52,Flashback,,0,0,0,,{\be10}I beg of you!
+Dialogue: 0,0:09:27.93,0:09:29.98,Flashback,,0,0,0,,{\be10}What are you saying, Fujie{\rHonorifics - Flashback\be10}-san{\r\be10}?
+Dialogue: 0,0:09:30.61,0:09:36.45,Flashback,,0,0,0,,{\be10}You want my daughter to sacrifice herself\Njust to protect your marriage ceremony hall?!
+Dialogue: 0,0:09:36.91,0:09:39.24,Flashback,,0,0,0,,{\be10}I'm asking you to not be selfish!
+Dialogue: 0,0:09:39.74,0:09:42.28,Flashback,,0,0,0,,{\be10}I'm begging you, Eiko{\rHonorifics - Flashback\be10}-san{\r\be10}... Please!
+Dialogue: 0,0:09:42.91,0:09:44.41,Flashback,,0,0,0,,{\be10}Let me think about it for a while.
+Dialogue: 0,0:09:44.41,0:09:47.71,Flashback,,0,0,0,,{\be10}Eiko, you don't have even have to think about it!
+Dialogue: 0,0:09:47.71,0:09:49.96,Flashback,,0,0,0,,{\be10}Go away, Fujie{\rHonorifics - Flashback\be10}-san{\r\be10}.
 Dialogue: 0,0:09:50.50,0:09:54.17,Dialogue,,0,0,0,,That's horrible, asking you to\Nsacrifice yourself for his own personal gain.
 Dialogue: 0,0:09:54.17,0:09:55.42,Dialogue,,0,0,0,,Eiko...
 Dialogue: 0,0:09:55.42,0:10:00.18,Dialogue,,0,0,0,,Thinking back now, I noticed I lost my pendant that night.
@@ -217,15 +213,15 @@ Dialogue: 0,0:10:46.18,0:10:47.56,Dialogue,,0,0,0,,Let's hurry and get back to t
 Dialogue: 0,0:10:50.35,0:10:51.44,Dialogue,,0,0,0,,Conan{\rHonorifics - Dialogue}-kun{\r}?
 Dialogue: 0,0:10:52.44,0:10:54.69,Dialogue,,0,0,0,,I'll catch up with you soon, so you can go on ahead.
 Dialogue: 0,0:10:54.94,0:10:56.90,Dialogue,,0,0,0,,All right, but make it quick!
-Dialogue: 0,0:10:58.57,0:11:00.70,Thinking,,0,0,0,,{\be2}Something about this is bothering me.
-Dialogue: 0,0:11:01.21,0:11:02.87,Thinking,,0,0,0,,{\be2}These times are too good to be true.
-Dialogue: 0,0:11:07.00,0:11:08.70,Thinking,,0,0,0,,{\be2}What's this?
-Dialogue: 0,0:11:09.12,0:11:12.04,Thinking,,0,0,0,,{\be2}There's an extra row that's not on yesterday's page.
+Dialogue: 0,0:10:58.57,0:11:00.70,Thoughts,,0,0,0,,{\be10}Something about this is bothering me.
+Dialogue: 0,0:11:01.21,0:11:02.87,Thoughts,,0,0,0,,{\be10}These times are too good to be true.
+Dialogue: 0,0:11:07.00,0:11:08.70,Thoughts,,0,0,0,,{\be10}What's this?
+Dialogue: 0,0:11:09.12,0:11:12.04,Thoughts,,0,0,0,,{\be10}There's an extra row that's not on yesterday's page.
 Dialogue: 0,0:11:12.04,0:11:13.58,Dialogue,,0,0,0,,Hey, could I borrow your eraser for a second?
 Dialogue: 0,0:11:15.17,0:11:16.71,Dialogue,,0,0,0,,I have to write this perfectly.
-Dialogue: 0,0:11:17.59,0:11:20.17,Thinking,,0,0,0,,{\be2}That might have been possible with a pencil but...
-Dialogue: 0,0:11:20.80,0:11:22.05,Thinking,,0,0,0,,{\be2}This is...
-Dialogue: 0,0:11:23.14,0:11:24.93,Thinking,,0,0,0,,{\be2}No, could it be that...
+Dialogue: 0,0:11:17.59,0:11:20.17,Thoughts,,0,0,0,,{\be10}That might have been possible with a pencil but...
+Dialogue: 0,0:11:20.80,0:11:22.05,Thoughts,,0,0,0,,{\be10}This is...
+Dialogue: 0,0:11:23.14,0:11:24.93,Thoughts,,0,0,0,,{\be10}No, could it be that...
 Dialogue: 0,0:11:26.68,0:11:29.48,Dialogue,,0,0,0,,Hey, could I also borrow your eraser for a second?
 Dialogue: 0,0:11:31.31,0:11:33.31,Dialogue,,0,0,0,,Hey, Ran... Hurry up!
 Dialogue: 0,0:11:33.98,0:11:36.52,Dialogue,,0,0,0,,Just a minute, Conan{\rHonorifics - Dialogue}-kun{\r} is still in there!
@@ -287,9 +283,9 @@ Dialogue: 0,0:14:28.11,0:14:29.91,Dialogue,,0,0,0,,He's here! The Sleeping Kogor
 Dialogue: 0,0:14:30.45,0:14:31.78,Dialogue,,0,0,0,,The Sleeping Kogoro?
 Dialogue: 0,0:14:32.20,0:14:33.83,Dialogue,,0,0,0,,This is just like the rumors said.
 Dialogue: 0,0:14:38.62,0:14:43.17,Dialogue,,0,0,0,,Fujie{\rHonorifics - Dialogue}-san{\r}, I recall you describing\NWanibuchi{\rHonorifics - Dialogue}-san{\r} as a serpent earlier...
-Dialogue: 0,0:14:43.96,0:14:47.09,Case history,,0,0,0,,{\be1\alpha&H40&\1c&HB7BCC0&}Crocodile Snake\N{\1c&HC1F5FC&\alpha&H00&}His name is "Wani", but he seems more like a "hebi".
-Dialogue: 0,0:14:47.09,0:14:50.22,Case history,,0,0,0,,{\be1}He's a monster that's always meddling in other\Npeople's business and appropriating whatever he wants.
-Dialogue: 0,0:14:50.22,0:14:52.72,Case history,,0,0,0,,{\be1}Indeed, he's just like an evil serpent!
+Dialogue: 0,0:14:43.96,0:14:47.09,Flashback,,0,0,0,,{\be10}Crocodile Snake\NHis name is "Wani", but he seems more like a "hebi".
+Dialogue: 0,0:14:47.09,0:14:50.22,Flashback,,0,0,0,,{\be10}He's a monster that's always meddling in other\Npeople's business and appropriating whatever he wants.
+Dialogue: 0,0:14:50.22,0:14:52.72,Flashback,,0,0,0,,{\be10}Indeed, he's just like an evil serpent!
 Dialogue: 0,0:14:53.01,0:14:58.68,Signs,,0,0,0,,Note: According to legend, the serpent demanded that the people of\NIzumo sacrifice one of their daughters to it every year for seven years.
 Dialogue: 0,0:14:53.01,0:14:58.68,Dialogue,,0,0,0,,While it may be true that Wanibuchi{\rHonorifics - Dialogue}-san{\r} forced others to\Ngive him what he wanted, like the Eight-Headed Serpent...
 Dialogue: 0,0:14:59.27,0:15:03.90,Dialogue,,0,0,0,,That's no reason to kill him, Fujie{\rHonorifics - Dialogue}-san{\r}.
@@ -309,11 +305,11 @@ Dialogue: 0,0:15:57.58,0:15:59.16,Dialogue,,0,0,0,,And that's when you got an id
 Dialogue: 0,0:15:59.75,0:16:04.63,Dialogue,,0,0,0,,Two days ago, you made a couple phone calls.
 Dialogue: 0,0:16:04.63,0:16:06.38,Dialogue,,0,0,0,,One was to Wanibuchi{\rHonorifics - Dialogue}-san{\r}.
 Dialogue: 0,0:16:06.96,0:16:08.30,Dialogue,,0,0,0,,It was something along the lines of...
-Dialogue: 0,0:16:09.01,0:16:12.42,Case history,,0,0,0,,{\be1}I'll show you the best way to win Mezumi Eiko{\rHonorifics - Case history}-san{\r} over!
-Dialogue: 0,0:16:12.43,0:16:15.26,Case history,,0,0,0,,{\be1}It would be best to talk in a place away from the crowds...
-Dialogue: 0,0:16:15.26,0:16:18.72,Case history,,0,0,0,,{\be1}So, let's meet in Inome at 1:00 PM tomorrow.
+Dialogue: 0,0:16:09.01,0:16:12.42,Flashback,,0,0,0,,{\be10}I'll show you the best way to win Mezumi Eiko{\rHonorifics - Flashback\be10}-san{\r\be10} over!
+Dialogue: 0,0:16:12.43,0:16:15.26,Flashback,,0,0,0,,{\be10}It would be best to talk in a place away from the crowds...
+Dialogue: 0,0:16:15.26,0:16:18.72,Flashback,,0,0,0,,{\be10}So, let's meet in Inome at 1:00 PM tomorrow.
 Dialogue: 0,0:16:18.72,0:16:22.85,Dialogue,,0,0,0,,The second call was to Eiko{\rHonorifics - Dialogue}-san{\r}, imitating Wanibuchi{\rHonorifics - Dialogue}-san{\r}.
-Dialogue: 0,0:16:23.69,0:16:27.27,Case history,,0,0,0,,{\be1}I won't to meet you tomorrow.\NPlease come to Hinomi at 1:30 PM.
+Dialogue: 0,0:16:23.69,0:16:27.27,Flashback,,0,0,0,,{\be10}I won't to meet you tomorrow.\NPlease come to Hinomi at 1:30 PM.
 Dialogue: 0,0:16:27.82,0:16:30.48,Dialogue,,0,0,0,,Wanibuchi{\rHonorifics - Dialogue}-san{\r} wasn't the one who called?
 Dialogue: 0,0:16:30.49,0:16:32.65,Dialogue,,0,0,0,,He imitated his voice.
 Dialogue: 0,0:16:32.65,0:16:36.52,Dialogue,,0,0,0,,Now that you mention it, he said he caught a cold\Nwhich made his voice sound different than usual...
@@ -359,7 +355,7 @@ Dialogue: 0,0:19:36.92,0:19:38.05,Dialogue,,0,0,0,,That's ridiculous!
 Dialogue: 0,0:19:38.05,0:19:40.34,Dialogue,,0,0,0,,How does that prove I'm the one who wrote that?!
 Dialogue: 0,0:19:40.84,0:19:43.05,Dialogue,,0,0,0,,Why is Narisei City a problem, you ask?
 Dialogue: 0,0:19:43.05,0:19:47.85,Dialogue,,0,0,0,,Fujie{\rHonorifics - Dialogue}-san{\r}, you lived in Tokyo\Nwhen you were a student, right?
-Dialogue: 0,0:19:48.48,0:19:53.40,Case history,,0,0,0,,{\be1}Wanibuchi was my kouhai at the\NTeito University of Business in Tokyo.
+Dialogue: 0,0:19:48.48,0:19:53.40,Flashback,,0,0,0,,{\be10}Wanibuchi was my kouhai at the\NTeito University of Business in Tokyo.
 Dialogue: 0,0:19:53.40,0:19:56.02,Dialogue,,0,0,0,,That statement settles it.
 Dialogue: 0,0:19:56.02,0:20:00.90,Dialogue,,0,0,0,,You lived in a dormitory in Narisei\NCity during your four years as a student.
 Dialogue: 0,0:20:01.32,0:20:04.70,Dialogue,,0,0,0,,That's right, but it doesn't answer my question.
@@ -373,8 +369,8 @@ Dialogue: 0,0:20:24.05,0:20:27.76,Dialogue,,0,0,0,,This is the first you've hear
 Dialogue: 0,0:20:30.43,0:20:31.81,Dialogue,,0,0,0,,I see.
 Dialogue: 0,0:20:31.81,0:20:35.23,Dialogue,,0,0,0,,So Narisei City no longer exists...
 Dialogue: 0,0:20:35.23,0:20:39.48,Dialogue,,0,0,0,,Mouri{\rHonorifics - Dialogue}-san{\r}, the truth is that I knew I was\Ndone for from the the first moment I saw you.
-Dialogue: 0,0:20:39.87,0:20:41.13,Case history,,0,0,0,,{\be1}I'm Mouri.
-Dialogue: 0,0:20:41.74,0:20:43.86,Case history,,0,0,0,,{\be1}T-The famous detective?
+Dialogue: 0,0:20:39.87,0:20:41.13,Flashback,,0,0,0,,{\be10}I'm Mouri.
+Dialogue: 0,0:20:41.74,0:20:43.86,Flashback,,0,0,0,,{\be10}T-The famous detective?
 Dialogue: 0,0:20:43.86,0:20:48.83,Dialogue,,0,0,0,,I thought it was only a matter of\Ntime until the truth was revealed...
 Dialogue: 0,0:20:48.83,0:20:50.37,Dialogue,,0,0,0,,And I was right.
 Dialogue: 0,0:21:00.96,0:21:02.72,Dialogue,,0,0,0,,Beautiful!
@@ -402,6 +398,6 @@ Dialogue: 0,0:23:40.75,0:23:41.75,Dialogue,,0,0,0,,I did it!
 Dialogue: 0,0:23:41.75,0:23:42.25,Dialogue,,0,0,0,,No way!
 Dialogue: 0,0:23:42.25,0:23:42.79,Dialogue,,0,0,0,,Huh?
 Dialogue: 0,0:23:46.84,0:23:47.67,Dialogue,,0,0,0,,Crap!
-Dialogue: 0,0:23:48.04,0:23:49.44,Case history,,0,0,0,,{\be2\1c&H8467D7&\bord2\b1}Dad...
-Dialogue: 0,0:23:49.49,0:23:50.59,Thinking,,0,0,0,,{\be2}Hey, hey...
-Dialogue: 0,0:23:50.59,0:23:53.68,Thinking,,0,0,0,,{\be2}Isn't it wrong to mess up other people's love lives?
+Dialogue: 0,0:23:48.04,0:23:49.44,Flashback,,0,0,0,,{\be10\b1}Dad...
+Dialogue: 0,0:23:49.49,0:23:50.59,Thoughts,,0,0,0,,{\be10}Hey, hey...
+Dialogue: 0,0:23:50.59,0:23:53.68,Thoughts,,0,0,0,,{\be10}Isn't it wrong to mess up other people's love lives?

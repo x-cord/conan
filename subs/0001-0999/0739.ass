@@ -33,7 +33,6 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: RainMan,FOT-Seurat Pro,35,&HC0FE4D00,&H000000FF,&H00FFFFFF,&H80000000,-1,0,0,0,100,100,0,0,1,3.5,0.5,8,10,10,25,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -276,16 +275,6 @@ Dialogue: 0,0:19:17.67,0:19:18.67,Dialogue,,0000,0000,0000,,Why?
 Dialogue: 0,0:19:19.63,0:19:22.39,Dialogue,,0000,0000,0000,,Because it's a pretty {\i1}t-heft{\i0}y thriller!
 Dialogue: 0,0:19:22.89,0:19:24.39,Dialogue,,0000,0000,0000,,Just kidding!
 Dialogue: 0,0:19:26.14,0:19:28.39,Dialogue,,0000,0000,0000,,Damn, I've outdone myself again!
-Dialogue: 0,0:19:28.81,0:19:38.69,RainMan,,0000,0000,0000,,{\blur2\fad(500,0)}fui ni furidasu haru no owaritsugeru ame
-Dialogue: 0,0:19:40.11,0:19:50.08,RainMan,,0000,0000,0000,,{\blur2}isogu machikado de kimi o mitsuketan da
-Dialogue: 0,0:19:51.41,0:20:01.22,RainMan,,0000,0000,0000,,{\blur2}ame ga suki na no hitotsu kasa ni kakurete
-Dialogue: 0,0:20:02.72,0:20:12.73,RainMan,,0000,0000,0000,,{\blur2}daremo ki ni sezu zutto yorisoeru kara...
-Dialogue: 0,0:20:13.98,0:20:19.48,RainMan,,0000,0000,0000,,{\blur2}amefuru machi de kimi to deatte
-Dialogue: 0,0:20:19.65,0:20:24.82,RainMan,,0000,0000,0000,,{\blur2}amefuru machi de kimi o ushinatta
-Dialogue: 0,0:20:24.99,0:20:30.45,RainMan,,0000,0000,0000,,{\blur2}aitakute aenakute afuredasu namida no ame
-Dialogue: 0,0:20:30.62,0:20:36.00,RainMan,,0000,0000,0000,,{\blur2}kaeritai modorenai tōi hi no omoide
-Dialogue: 0,0:20:36.17,0:20:42.09,RainMan,,0000,0000,0000,,{\blur2}nureru mama tachitsukusu machikado de kono kokoro wa
-Dialogue: 0,0:20:42.59,0:20:47.30,RainMan,,0000,0000,0000,,{\blur2\fad(0,750)}mada kimi no koto sagashite'ru
 Dialogue: 0,0:20:52.14,0:20:54.14,Dialogue,,0000,0000,0000,,There was something peculiar about one of the victims?
 Dialogue: 0,0:20:54.14,0:20:56.73,Dialogue,,0000,0000,0000,,Yeah. Do you remember that man?
 Dialogue: 0,0:20:56.73,0:21:00.82,Dialogue,,0000,0000,0000,,Tōhei Benzaki, a victim of theft by that pickpocket.
@@ -318,11 +307,11 @@ Dialogue: 0,0:23:07.86,0:23:13.78,Flashback,,0000,0000,0000,,{\be10}Then was tha
 Dialogue: 0,0:23:14.08,0:23:16.62,Flashback,,0000,0000,0000,,{\be10}I saw him two or three days ago, that's all.
 Dialogue: 0,0:23:17.20,0:23:18.29,Thoughts,,0000,0000,0000,,{\be10}Could it be?!
 Dialogue: 0,0:23:26.75,0:23:27.80,Thoughts,,0000,0000,0000,,{\be10}Could it be?!
-Dialogue: 0,0:00:38.72,0:00:41.56,Signs,,0000,0000,0000,,Yuzuki Fukui (26)\NBartender
-Dialogue: 0,0:00:53.65,0:00:59.16,Signs,,0000,0000,0000,,Chikafumi Usuda (51)\NDepartment Head
-Dialogue: 0,0:01:20.89,0:01:25.23,Signs,,0000,0000,0000,,Kensaku Hatsumura (31)\NEmployee
-Dialogue: 0,0:01:25.43,0:01:29.94,Signs,,0000,0000,0000,,Mompei Kogure (28)\NEmployee
-Dialogue: 0,0:01:36.70,0:01:39.99,Signs,,0000,0000,0000,,Mika Kishiura (30)\NEmployee
+Dialogue: 0,0:00:38.72,0:00:41.56,Character Card,,0000,0000,0000,,Yuzuki Fukui (26)\NBartender
+Dialogue: 0,0:00:53.65,0:00:59.16,Character Card,,0000,0000,0000,,Chikafumi Usuda (51)\NDepartment Head
+Dialogue: 0,0:01:20.89,0:01:25.23,Character Card,,0000,0000,0000,,Kensaku Hatsumura (31)\NEmployee
+Dialogue: 0,0:01:25.43,0:01:29.94,Character Card,,0000,0000,0000,,Mompei Kogure (28)\NEmployee
+Dialogue: 0,0:01:36.70,0:01:39.99,Character Card,,0000,0000,0000,,Mika Kishiura (30)\NEmployee
 Dialogue: 0,0:23:34.45,0:23:38.04,Thoughts,,0000,0000,0000,,{\be10}I've gotta calm down. I'm fine. I'm still safe!
 Dialogue: 0,0:23:40.50,0:23:43.11,Thoughts,,0000,0000,0000,,{\be10}Now he'll be alone with Ran{\rHonorifics - Thoughts\be10}-kun{\r\be10}.
 Dialogue: 0,0:23:43.11,0:23:46.08,Thoughts,,0000,0000,0000,,{\be10}If he's going to give himself away, it'll be now.

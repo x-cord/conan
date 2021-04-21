@@ -33,7 +33,6 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: Adds,Arial,50,&H00FFFFFF,&H000000FF,&H003B5F1B,&H00000000,0,0,0,0,100,100,0,0,1,2,0,7,15,15,15,1
 
 [Events]
 Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
@@ -56,7 +55,7 @@ Dialogue: 0,0:03:01.05,0:03:03.76,Dialogue,,0,0,0,,Wow, somehow I feel bad for t
 Dialogue: 0,0:03:04.30,0:03:08.06,Dialogue,,0,0,0,,To think you'd invite us to your house despite us not doing much.
 Dialogue: 0,0:03:08.43,0:03:12.64,Dialogue,,0,0,0,,Since we were saved by the renowned\Ngreat detective Mouri Kogorou{\rHonorifics - Dialogue}-sama{\r}...
 Dialogue: 0,0:03:13.10,0:03:17.36,Dialogue,,0,0,0,,Our master insisted upon meeting\Nwith you to express his gratitude.
-Dialogue: 0,0:03:13.10,0:03:17.36,Signs,,0,0,0,,Suzaka Eiko (48)\NKatayose Family Chauffeur
+Dialogue: 0,0:03:13.10,0:03:17.36,Character Card,,0,0,0,,Suzaka Eiko (48)\NKatayose Family Chauffeur
 Dialogue: 0,0:03:21.09,0:03:23.07,Dialogue,,0,0,0,,Doesn't this road...
 Dialogue: 0,0:03:23.07,0:03:25.45,Dialogue,,0,0,0,,Lead to the Red Leaf Palace?
 Dialogue: 0,0:03:26.03,0:03:27.68,Dialogue,,0,0,0,,That's my grandpa's house.
@@ -66,7 +65,7 @@ Dialogue: 0,0:03:35.17,0:03:37.84,Dialogue,,0,0,0,,No, they are not blood-relate
 Dialogue: 0,0:03:38.76,0:03:41.30,Dialogue,,0,0,0,,Her parents died in a traffic accident...
 Dialogue: 0,0:03:42.05,0:03:46.01,Dialogue,,0,0,0,,And he recently adopted her from her relatives living in Hokkaido.
 Dialogue: 0,0:03:46.35,0:03:49.52,Dialogue,,0,0,0,,My name is Nakakita Kaede, eight years old.
-Dialogue: 0,0:03:46.35,0:03:51.43,Signs,,0,0,0,,Nakakita Kaede (8)\NAdopted Child of Katayose
+Dialogue: 0,0:03:46.35,0:03:51.43,Character Card,,0,0,0,,Nakakita Kaede (8)\NAdopted Child of Katayose
 Dialogue: 0,0:03:49.52,0:03:50.23,Dialogue,,0,0,0,,Nice to meet you!
 Dialogue: 0,0:03:50.85,0:03:51.43,Dialogue,,0,0,0,,And you are?
 Dialogue: 0,0:03:53.02,0:03:54.44,Dialogue,,0,0,0,,Edogawa Conan.
@@ -78,14 +77,14 @@ Dialogue: 0,0:04:34.69,0:04:36.31,Dialogue,,0,0,0,,Milady Nobue.
 Dialogue: 0,0:04:36.31,0:04:39.06,Dialogue,,0,0,0,,The truth is that they saved us from harm's way.
 Dialogue: 0,0:04:41.73,0:04:44.11,Dialogue,,0,0,0,,We were almost hit by a freak car.
 Dialogue: 0,0:04:44.86,0:04:47.53,Dialogue,,0,0,0,,Thanks to this fine lad who called out to us.
-Dialogue: 0,0:04:49.63,0:04:54.46,Signs,,0,0,0,,Katayose Nobue (32)\NEldest Daughter of Katayose
+Dialogue: 0,0:04:49.63,0:04:54.46,Character Card,,0,0,0,,Katayose Nobue (32)\NEldest Daughter of Katayose
 Dialogue: 0,0:04:51.24,0:04:53.00,Dialogue,,0,0,0,,A freak car, huh?
 Dialogue: 0,0:04:54.04,0:04:54.46,Dialogue,,0,0,0,,I see.
 Dialogue: 0,0:04:58.58,0:04:59.75,Dialogue,,0,0,0,,Did someone drop by?
 Dialogue: 0,0:05:00.21,0:05:01.71,Dialogue,,0,0,0,,Big brother...
 Dialogue: 0,0:05:01.71,0:05:04.76,Dialogue,,0,0,0,,They say Kaede almost got into an accident with a freak car.
 Dialogue: 0,0:05:05.13,0:05:06.47,Dialogue,,0,0,0,,Accident?
-Dialogue: 0,0:05:05.13,0:05:08.30,Signs,,0,0,0,,Katayose Ogito (35)\NEldest Son of Katayose
+Dialogue: 0,0:05:05.13,0:05:08.30,Character Card,,0,0,0,,Katayose Ogito (35)\NEldest Son of Katayose
 Dialogue: 0,0:05:06.47,0:05:08.30,Dialogue,,0,0,0,,Bet it's because you were walking carelessly.
 Dialogue: 0,0:05:08.80,0:05:09.55,Dialogue,,0,0,0,,And?
 Dialogue: 0,0:05:09.55,0:05:10.68,Dialogue,,0,0,0,,Who're you guys?
@@ -156,7 +155,7 @@ Dialogue: 0,0:08:42.52,0:08:44.06,Dialogue,,0,0,0,,I've been waiting, Conan{\rHo
 Dialogue: 0,0:08:44.44,0:08:44.94,Dialogue,,0,0,0,,Huh?
 Dialogue: 0,0:08:46.06,0:08:46.98,Dialogue,,0,0,0,,Where's Mr. Katayose?
 Dialogue: 0,0:08:55.70,0:08:58.28,Dialogue,,0,0,0,,Sorry to have kept you waiting.
-Dialogue: 0,0:08:58.66,0:09:04.00,Signs,,0,0,0,,Katayose Ouzaburou (68)\NHead of the Katayose Household
+Dialogue: 0,0:08:58.66,0:09:04.00,Character Card,,0,0,0,,Katayose Ouzaburou (68)\NHead of the Katayose Household
 Dialogue: 0,0:08:59.12,0:09:00.95,Dialogue,,0,0,0,,Please have a seat.
 Dialogue: 0,0:09:00.95,0:09:04.00,Dialogue,,0,0,0,,I am indeed Katayose Ouzaburou.
 Dialogue: 0,0:09:04.37,0:09:05.83,Dialogue,,0,0,0,,Wow...
@@ -410,7 +409,6 @@ Dialogue: 0,0:23:42.86,0:23:44.57,Dialogue,,0,0,0,,That was scary.
 Dialogue: 0,0:23:45.32,0:23:47.91,Dialogue,,0,0,0,,But it looks like that guy figured something out.
 Dialogue: 0,0:23:49.24,0:23:53.04,Dialogue,,0,0,0,,That's it—I'll just wait for Ogito to solve the code.
 Dialogue: 0,0:23:53.04,0:23:56.29,Dialogue,,0,0,0,,I'll simply take everything away afterwards.
-Dialogue: 0,0:24:00.06,0:24:24.05,Signs,,0,0,0,,Next Episode
 Dialogue: 0,0:24:00.35,0:24:04.51,Dialogue,,0,0,0,,Putting the puzzle-solving aside, we've got to protect Kaede{\rHonorifics - Dialogue}-chan{\r}.
 Dialogue: 0,0:24:05.85,0:24:08.77,Dialogue,,0,0,0,,That's the east bridge to our premises.
 Dialogue: 0,0:24:09.23,0:24:10.60,Dialogue,,0,0,0,,Something's glowing...
@@ -423,7 +421,6 @@ Dialogue: 0,0:24:22.72,0:24:23.55,Dialogue,,0,0,0,,Is you!
 Dialogue: 0,0:24:24.26,0:24:29.80,Dialogue,,0,0,0,,SOLVING MYSTERIES AT THE RED LEAF PALACE\N(PART TWO)
 Dialogue: 0,0:24:45.79,0:24:48.06,Dialogue,,0,0,0,,Next Conan's Hint
 Dialogue: 0,0:24:48.08,0:24:50.07,Dialogue,,0,0,0,,Electric Current
-Dialogue: 0,0:24:50.10,0:24:54.75,Adds,,0,0,0,,Look Forward to the Next Episode
 Dialogue: 0,0:24:50.26,0:24:52.19,Dialogue,,0,0,0,,I'll solve the code and get the inheritance!
 Dialogue: 0,0:24:52.19,0:24:52.85,Dialogue,,0,0,0,,Uncle!
 Dialogue: 0,0:24:52.85,0:24:53.55,Dialogue,,0,0,0,,Just joking...

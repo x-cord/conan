@@ -33,7 +33,6 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: StpTitle01,Arial,15,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,90,100,0,0,1,1.3,0,2,10,10,55,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -244,7 +243,7 @@ Dialogue: 0,0:12:15.24,0:12:16.29,Dialogue,,0,0,0,,Hey, we're leaving.
 Dialogue: 0,0:12:16.62,0:12:19.75,Dialogue,,0,0,0,,We know who the culprit is, so the rest is just police work.
 Dialogue: 0,0:12:22.63,0:12:23.58,Dialogue,,0,0,0,,Something...
 Dialogue: 0,0:12:23.96,0:12:25.86,Dialogue,,0,0,0,,Something just isn't right.
-Dialogue: 0,0:12:27.34,0:12:31.40,StpTitle01,,0,0,0,,{\fade(0,400)}The Next Morning
+Dialogue: 0,0:12:27.34,0:12:31.40,Signs,,0,0,0,,The Next Morning
 Dialogue: 0,0:12:29.98,0:12:32.53,Dialogue Top,,0,0,0,,What concerns me the most is the\Ntiming of when the car sped forward.
 Dialogue: 0,0:12:33.06,0:12:38.16,Dialogue Top,,0,0,0,,If it was an attempt on Tatematsu{\rHonorifics - Dialogue}-san{\r}'s life, he\Nwould've been targeted when he was alone.
 Dialogue: 0,0:12:38.35,0:12:39.79,Dialogue,,0,0,0,,Why did it have to be then?

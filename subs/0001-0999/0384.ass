@@ -33,15 +33,6 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: Title03,Times New Roman,30,&H00000000,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,14,1,1.5,0,2,0,10,205,1
-Style: Title04,Times New Roman,12,&H00000000,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,90,0,-8,1,0,0,2,0,74,172,1
-Style: Title05,Times New Roman,12,&H00000000,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,-6,1,0,0,2,185,10,135,1
-Style: Title06,Arial,7,&H00654D3F,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,7,1,0,0,2,0,25,145,1
-Style: Title07,Times New Roman,15,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,-16,3,2,0,2,250,0,263,1
-Style: Title08,Times New Roman,15,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,22,3,2,0,2,150,1,110,1
-Style: Title09,Times New Roman,8,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,-9,3,1,0,2,330,0,175,1
-Style: Title012,Arial,14,&H64000000,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,7,1,0,0,2,0,225,141,1
-Style: Title013,Arial,7,&H00000000,&H000000FF,&H00E8EBEA,&H00000000,-1,0,0,0,100,100,0,6,3,2,0,2,0,220,100,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -90,7 +81,7 @@ Dialogue: 0,0:04:29.76,0:04:31.31,Dialogue,,0,0,0,,You're right!
 Dialogue: 0,0:04:31.31,0:04:32.72,Dialogue,,0,0,0,,Wait!
 Dialogue: 0,0:04:32.73,0:04:35.23,Dialogue,,0,0,0,,This coat doesn't belong to you either!
 Dialogue: 0,0:04:36.52,0:04:38.06,Dialogue,,0,0,0,,There's a name on it.
-Dialogue: 0,0:04:38.00,0:04:39.49,Title03,,0,0,0,,Kimura.
+Dialogue: 0,0:04:38.00,0:04:39.49,Signs,,0,0,0,,Kimura.
 Dialogue: 0,0:04:38.52,0:04:39.56,Dialogue,,0,0,0,,Kimura.
 Dialogue: 0,0:04:40.07,0:04:43.15,Dialogue,,0,0,0,,So, this coat and cell phone aren't yours.
 Dialogue: 0,0:04:43.15,0:04:45.07,Dialogue,,0,0,0,,They belong to someone named Kimura{\rHonorifics - Dialogue}-san{\r}.
@@ -115,8 +106,8 @@ Dialogue: 0,0:05:46.30,0:05:48.13,Dialogue,,0,0,0,,He stayed for about an hour.
 Dialogue: 0,0:05:48.47,0:05:51.76,Dialogue,,0,0,0,,So, then? Where does Kimura{\rHonorifics - Dialogue}-san{\r} live?
 Dialogue: 0,0:05:52.68,0:05:53.47,Dialogue,,0,0,0,,I don't know.
 Dialogue: 0,0:05:53.47,0:05:56.77,Dialogue,,0,0,0,,He's a new customer.
-Dialogue: 0,0:05:56.67,0:05:58.61,Title04,,0,0,0,,Danaka
-Dialogue: 0,0:05:56.67,0:05:57.72,Title05,,0,0,0,,Kimura
+Dialogue: 0,0:05:56.67,0:05:58.61,Signs,,0,0,0,,Danaka
+Dialogue: 0,0:05:56.67,0:05:57.72,Signs,,0,0,0,,Kimura
 Dialogue: 0,0:05:57.94,0:06:01.98,Dialogue,,0,0,0,,I only remembered his name because\Nof the sign on this bottle.
 Dialogue: 0,0:06:01.98,0:06:04.07,Dialogue,,0,0,0,,I see...
 Dialogue: 0,0:06:04.07,0:06:07.49,Dialogue,,0,0,0,,Well, he'll probably come again someday.
@@ -176,9 +167,9 @@ Dialogue: 0,0:09:09.38,0:09:10.17,Dialogue,,0,0,0,,You won't get away!
 Dialogue: 0,0:09:17.47,0:09:19.14,Dialogue,,0,0,0,,A scar on the right arm!
 Dialogue: 0,0:09:34.49,0:09:37.03,Dialogue,,0,0,0,,Just as I thought, it was a stolen truck.
 Dialogue: 0,0:09:37.66,0:09:40.99,Dialogue,,0,0,0,,In other words, it's an intentional crime.
-Dialogue: 0,0:09:40.99,0:09:42.53,Title06,,0,0,0,,I agree.
+Dialogue: 0,0:09:40.99,0:09:42.53,Signs,,0,0,0,,I agree.
 Dialogue: 0,0:09:49.00,0:09:51.04,Dialogue,,0,0,0,,What's happening, Mouri{\rHonorifics - Dialogue}-kun{\r}?
-Dialogue: 0,0:09:51.82,0:09:53.77,Title06,,0,0,0,,Kimura\NNext time,\NI will kill you sure.
+Dialogue: 0,0:09:51.82,0:09:53.77,Signs,,0,0,0,,Kimura\NNext time,\NI will kill you sure.
 Dialogue: 0,0:09:57.80,0:10:00.93,Dialogue,,0,0,0,,Inspector, the shopkeeper's treatment is done.
 Dialogue: 0,0:10:00.93,0:10:02.80,Dialogue,,0,0,0,,He'll be out of the hospital in two or three days.
 Dialogue: 0,0:10:03.22,0:10:05.35,Dialogue,,0,0,0,,How dare he involve other people!
@@ -196,9 +187,9 @@ Dialogue: 0,0:10:25.83,0:10:28.79,Dialogue,,0,0,0,,That's right! They're trying 
 Dialogue: 0,0:10:28.79,0:10:29.87,Dialogue,,0,0,0,,I can't do that.
 Dialogue: 0,0:10:30.83,0:10:32.63,Dialogue,,0,0,0,,The world famous Mouri Kogoro...
 Dialogue: 0,0:10:32.63,0:10:36.88,Dialogue,,0,0,0,,hiding because he's scared of having his life taken away.
-Dialogue: 0,0:10:32.59,0:10:36.81,Title07,,0,0,0,,Amazing Work!
-Dialogue: 0,0:10:32.89,0:10:36.81,Title08,,0,0,0,,Great Det
-Dialogue: 0,0:10:32.72,0:10:36.81,Title09,,0,0,0,,Sleeping Kogoro
+Dialogue: 0,0:10:32.59,0:10:36.81,Signs,,0,0,0,,Amazing Work!
+Dialogue: 0,0:10:32.89,0:10:36.81,Signs,,0,0,0,,Great Det
+Dialogue: 0,0:10:32.72,0:10:36.81,Signs,,0,0,0,,Sleeping Kogoro
 Dialogue: 0,0:10:37.26,0:10:39.59,Dialogue,,0,0,0,,It'd ruin my reputation.
 Dialogue: 0,0:10:39.59,0:10:42.43,Dialogue,,0,0,0,,So what?! It's time to put away that pride!
 Dialogue: 0,0:10:42.43,0:10:43.93,Dialogue,,0,0,0,,Right, Conan{\rHonorifics - Dialogue}-kun{\r}?
@@ -271,8 +262,8 @@ Dialogue: 0,0:14:12.93,0:14:15.60,Dialogue,,0,0,0,,A case that happened unintent
 Dialogue: 0,0:14:16.02,0:14:18.06,Dialogue,,0,0,0,,Take a little rest, Conan{\rHonorifics - Dialogue}-kun{\r}.
 Dialogue: 0,0:14:18.44,0:14:23.56,Dialogue,,0,0,0,,Even though we've never seen Kimura{\rHonorifics - Dialogue}-san{\r}.\Nbefore could he have looked like Dad?
 Dialogue: 0,0:14:23.94,0:14:28.07,Dialogue,,0,0,0,,Because some say that there are three people\Nin the world who look exactly like you.
-Dialogue: 0,0:14:28.97,0:14:31.33,Title012,,0,0,0,,Mouri Detective Agency
-Dialogue: 0,0:14:28.97,0:14:31.33,Title013,,0,0,0,,Case File
+Dialogue: 0,0:14:28.97,0:14:31.33,Signs,,0,0,0,,Mouri Detective Agency
+Dialogue: 0,0:14:28.97,0:14:31.33,Signs,,0,0,0,,Case File
 Dialogue: 0,0:14:30.03,0:14:31.41,Dialogue,,0,0,0,,Three people with that face?
 Dialogue: 0,0:14:32.99,0:14:33.91,Dialogue,,0,0,0,,A Look-alike?
 Dialogue: 0,0:14:38.04,0:14:40.12,Dialogue,,0,0,0,,Yes. Kimura{\rHonorifics - Dialogue}-san{\r}'s wife is calling.
@@ -296,8 +287,8 @@ Dialogue: 0,0:15:29.34,0:15:32.43,Dialogue,,0,0,0,,Okay. I'll move my car and lo
 Dialogue: 0,0:15:32.43,0:15:33.97,Dialogue,,0,0,0,,Really? That's good.
 Dialogue: 0,0:15:33.97,0:15:34.68,Dialogue,,0,0,0,,Thank you!
 Dialogue: 0,0:15:38.77,0:15:40.64,Dialogue,,0,0,0,,Just like I thought...
-Dialogue: 0,0:15:40.59,0:15:42.45,Title04,,0,0,0,,Danaka
-Dialogue: 0,0:15:40.59,0:15:41.23,Title05,,0,0,0,,Kimura
+Dialogue: 0,0:15:40.59,0:15:42.45,Signs,,0,0,0,,Danaka
+Dialogue: 0,0:15:40.59,0:15:41.23,Signs,,0,0,0,,Kimura
 Dialogue: 0,0:15:48.94,0:15:50.28,Dialogue,,0,0,0,,Manicure?
 Dialogue: 0,0:15:51.57,0:15:53.03,Dialogue,,0,0,0,,Here you go.
 Dialogue: 0,0:15:53.03,0:15:55.28,Dialogue,,0,0,0,,Uncle, thank you.
@@ -432,7 +423,7 @@ Dialogue: 0,0:22:40.85,0:22:44.19,Dialogue,,0,0,0,,all those times, and don't fo
 Dialogue: 0,0:22:44.36,0:22:54.03,Dialogue,,0,0,0,,My love and affection are things that will never change.
 Dialogue: 0,0:22:54.62,0:23:05.04,Dialogue,,0,0,0,,You are my one and only love, and that's how it will always be.
 Dialogue: 0,0:23:05.46,0:23:14.97,Dialogue,,0,0,0,,Like many people, I reminisce while holding on to my feelings
-Dialogue: 0,0:23:15.18,0:23:27.48,Dialogue,,0,0,0,,So ı can keep the memory of us meeting from fading away...
+Dialogue: 0,0:23:15.18,0:23:27.48,Dialogue,,0,0,0,,So i can keep the memory of us meeting from fading away...
 Dialogue: 0,0:23:27.90,0:23:33.24,Dialogue,,0,0,0,,Being such a famous detective, I won't\Nknow when I'll' be targeted next time.
 Dialogue: 0,0:23:33.24,0:23:37.99,Dialogue,,0,0,0,,I really don't know. There's this guy named\NKitada{\rHonorifics - Dialogue}-kun{\r} in the class next to mine...
 Dialogue: 0,0:23:38.66,0:23:38.99,Dialogue,,0,0,0,,Thief!

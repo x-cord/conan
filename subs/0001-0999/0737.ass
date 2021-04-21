@@ -33,16 +33,13 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: RainMan,FOT-Seurat Pro,35,&HC0FE4D00,&H000000FF,&H00FFFFFF,&H80000000,-1,0,0,0,100,100,0,0,1,3.5,0.5,8,10,10,25,1
-Style: EDTLBox1,FOT-NewRodin Pro B,33,&H00F7F7F7,&H000000FF,&H784B4B4B,&HC0000000,0,0,0,0,105,100,0,0,1,0,0,2,10,10,7,1
-Style: EDTLBox2,FOT-NewRodin Pro B,33,&HFFFFFFFF,&H000000FF,&H3C4B4B4B,&HC0000000,0,0,0,0,105,100,0,0,1,2.25,0,2,10,10,7,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 Dialogue: 0,0:00:00.33,0:00:01.42,Dialogue,,0,0,0,,Here!
 Dialogue: 0,0:00:05.21,0:00:06.92,Dialogue,,0,0,0,,Nice catch!
 Dialogue: 0,0:00:06.92,0:00:08.90,Dialogue,,0,0,0,,That was great, Shimpei{\rHonorifics - Dialogue}-san{\r}!
-Dialogue: 0,0:00:09.40,0:00:12.70,Signs,,0,0,0,,Shimpei Asakawa (21)
+Dialogue: 0,0:00:09.40,0:00:12.70,Character Card,,0,0,0,,Shimpei Asakawa (21)
 Dialogue: 0,0:00:09.55,0:00:12.15,Dialogue,,0,0,0,,Okay, you're up next, Conan{\rHonorifics - Dialogue}-kun{\r}.
 Dialogue: 0,0:00:12.70,0:00:14.20,Dialogue,,0,0,0,,Here it comes! Here!
 Dialogue: 0,0:00:26.57,0:00:29.38,Dialogue Top,,0,0,0,,H-Hey, come on, stop that...
@@ -51,7 +48,7 @@ Dialogue: 0,0:00:32.12,0:00:34.03,Dialogue,,0,0,0,,Matsunosuke?!
 Dialogue: 0,0:00:34.03,0:00:35.59,Dialogue,,0,0,0,,That's enough, Matsunosuke...
 Dialogue: 0,0:00:40.85,0:00:43.13,Dialogue,,0,0,0,,Morning, Grandma.
 Dialogue: 0,0:00:43.13,0:00:44.10,Dialogue,,0,0,0,,Grandma?
-Dialogue: 0,0:00:44.73,0:00:48.94,Signs,,0,0,0,,Kanae Asakawa (65)\NMatsunosuke's Owner
+Dialogue: 0,0:00:44.73,0:00:48.94,Character Card,,0,0,0,,Kanae Asakawa (65)\NMatsunosuke's Owner
 Dialogue: 0,0:00:44.73,0:00:48.94,Dialogue Top,,0,0,0,,Shimpei! You're still playing games this early in the morning instead of getting a job?
 Dialogue: 0,0:00:49.97,0:00:52.30,Dialogue,,0,0,0,,No, I wasn't playing anything...
 Dialogue: 0,0:00:52.30,0:00:54.55,Dialogue,,0,0,0,,He wasn't playing!
@@ -87,7 +84,7 @@ Dialogue: 0,0:04:10.31,0:04:12.23,Dialogue,,0,0,0,,He's not moving at all.
 Dialogue: 0,0:04:12.23,0:04:14.95,Dialogue,,0,0,0,,Oh, is Matsunosuke asleep?
 Dialogue: 0,0:04:15.61,0:04:18.33,Dialogue,,0,0,0,,I was going to give him some treats...
 Dialogue: 0,0:04:18.33,0:04:20.29,Dialogue,,0,0,0,,Oh, who are you, ma'am?
-Dialogue: 0,0:04:20.54,0:04:25.17,Signs,,0,0,0,,Tomoko Hirota (52)\NFriend of Kanae and Fellow Dog Owner
+Dialogue: 0,0:04:20.54,0:04:25.17,Character Card,,0,0,0,,Tomoko Hirota (52)\NFriend of Kanae and Fellow Dog Owner
 Dialogue: 0,0:04:20.54,0:04:25.17,Dialogue Top,,0,0,0,,A friend of Kanae{\rHonorifics - Dialogue}-san{\r}'s and fellow dog owner. I own Matsunosuke's brother.
 Dialogue: 0,0:04:25.17,0:04:29.58,Dialogue,,0,0,0,,Oh? Matsunosuke has a brother? Do they look alike?
 Dialogue: 0,0:04:29.58,0:04:31.63,Dialogue,,0,0,0,,Of course! They're identical.
@@ -108,7 +105,7 @@ Dialogue: 0,0:05:32.77,0:05:33.86,Dialogue,,0,0,0,,Yes.
 Dialogue: 0,0:05:33.86,0:05:36.82,Dialogue,,0,0,0,,I came here to share my dog treats with Matsunosuke.
 Dialogue: 0,0:05:36.82,0:05:38.24,Dialogue,,0,0,0,,But then...
 Dialogue: 0,0:05:39.65,0:05:42.75,Dialogue,,0,0,0,,And you're her neighbour, Kitazawa{\rHonorifics - Dialogue}-san{\r}.
-Dialogue: 0,0:05:43.00,0:05:48.75,Signs,,0,0,0,,Sōkichi Kitazawa (52)\NKanae's Neighbour
+Dialogue: 0,0:05:43.00,0:05:48.75,Character Card,,0,0,0,,Sōkichi Kitazawa (52)\NKanae's Neighbour
 Dialogue: 0,0:05:43.16,0:05:48.75,Dialogue Top,,0,0,0,,Yes. I heard her doorbell being rung again and again, so I came over to check and saw this.
 Dialogue: 0,0:05:48.75,0:05:51.67,Dialogue,,0,0,0,,Did you already know each other before this case?
 Dialogue: 0,0:05:52.83,0:05:53.97,Dialogue,,0,0,0,,We did.
@@ -382,33 +379,3 @@ Dialogue: 0,0:23:40.81,0:23:42.81,Thoughts,,0,0,0,,{\be10\an8}sham
 Dialogue: 0,0:23:40.81,0:23:42.81,Thoughts,,0,0,0,,{\be10\an8}sham
 Dialogue: 0,0:23:40.81,0:23:42.81,Dialogue Top,,0,0,0,,It goes 'shake{shan}-shake{sham}-pop{pan}!' at celebrations.
 Dialogue: 0,0:23:42.81,0:23:44.29,Dialogue Top,,0,0,0,,It's wasted on the old man...
-Dialogue: 0,0:21:41.71,0:21:51.63,RainMan,,0,0,0,,{\blur2\fad(500,0)}fui ni furidasu haru no owaritsugeru ame
-Dialogue: 0,0:21:53.01,0:22:02.98,RainMan,,0,0,0,,{\blur2}isogu machikado de kimi o mitsuketan da
-Dialogue: 0,0:22:04.35,0:22:14.16,RainMan,,0,0,0,,{\blur2}ame ga suki na no hitotsu kasa ni kakurete
-Dialogue: 0,0:22:15.66,0:22:25.67,RainMan,,0,0,0,,{\blur2}daremo ki ni sezu zutto yorisoeru kara...
-Dialogue: 0,0:22:26.92,0:22:32.38,RainMan,,0,0,0,,{\blur2}amefuru machi de kimi to deatte
-Dialogue: 0,0:22:32.55,0:22:37.76,RainMan,,0,0,0,,{\blur2}amefuru machi de kimi o ushinatta
-Dialogue: 0,0:22:37.89,0:22:43.39,RainMan,,0,0,0,,{\blur2}aitakute aenakute afuredasu namida no ame
-Dialogue: 0,0:22:43.56,0:22:48.94,RainMan,,0,0,0,,{\blur2}kaeritai modorenai tōi hi no omoide
-Dialogue: 0,0:22:49.07,0:22:55.03,RainMan,,0,0,0,,{\blur2}nureru mama tachitsukusu machikado de kono kokoro wa
-Dialogue: 0,0:22:55.53,0:23:00.20,RainMan,,0,0,0,,{\blur2\fad(0,750)}mada kimi no koto sagashite'ru
-Dialogue: 2,0:21:41.71,0:21:51.63,EDTLBox1,,0,0,0,,{\fad(500,0)\bord0\blur0.7}As the sudden rain marking the end of spring poured down
-Dialogue: 2,0:21:53.01,0:22:02.98,EDTLBox1,,0,0,0,,{\blur0.7}I found you on a hurried street corner
-Dialogue: 2,0:22:04.35,0:22:14.16,EDTLBox1,,0,0,0,,{\blur0.7}'You know, I like the rain. Hidden by the shade of an umbrella,
-Dialogue: 2,0:22:15.66,0:22:25.67,EDTLBox1,,0,0,0,,{\blur0.7}we can be close, and stay close, and no-one will ever mind...'
-Dialogue: 2,0:22:26.92,0:22:32.38,EDTLBox1,,0,0,0,,{\blur0.7}This rainy town is where I met you
-Dialogue: 2,0:22:32.55,0:22:37.76,EDTLBox1,,0,0,0,,{\blur0.7}This rainy town is where I lost you
-Dialogue: 2,0:22:37.89,0:22:43.39,EDTLBox1,,0,0,0,,{\blur0.7}I want to be with you, but I can't be with you, now the rain that pours down is my tears
-Dialogue: 2,0:22:43.56,0:22:48.94,EDTLBox1,,0,0,0,,{\blur0.7}I want to go back, but I can't go back to the memory of that day so long ago
-Dialogue: 2,0:22:49.07,0:22:55.03,EDTLBox1,,0,0,0,,{\blur0.7}As I stand here drenched on the same street corner
-Dialogue: 2,0:22:55.53,0:23:00.20,EDTLBox1,,0,0,0,,{\blur0.7\fad(0,750)}My heart's still looking for you...
-Dialogue: 0,0:21:41.71,0:21:51.63,EDTLBox2,,0,0,0,,{\fad(500,0)\blur1.5}As the sudden rain marking the end of spring poured down
-Dialogue: 0,0:21:53.01,0:22:02.98,EDTLBox2,,0,0,0,,{\blur1.5}I found you on a hurried street corner
-Dialogue: 0,0:22:04.35,0:22:14.16,EDTLBox2,,0,0,0,,{\blur1.5}'You know, I like the rain. Hidden by the shade of an umbrella,
-Dialogue: 0,0:22:15.66,0:22:25.67,EDTLBox2,,0,0,0,,{\blur1.5}we can be close, and stay close, and no-one will ever mind...'
-Dialogue: 0,0:22:26.92,0:22:32.38,EDTLBox2,,0,0,0,,{\blur1.5}This rainy town is where I met you
-Dialogue: 0,0:22:32.55,0:22:37.76,EDTLBox2,,0,0,0,,{\blur1.5}This rainy town is where I lost you
-Dialogue: 0,0:22:37.89,0:22:43.39,EDTLBox2,,0,0,0,,{\blur1.5}I want to be with you, but I can't be with you, now the rain that pours down is my tears
-Dialogue: 0,0:22:43.56,0:22:48.94,EDTLBox2,,0,0,0,,{\blur1.5}I want to go back, but I can't go back to the memory of that day so long ago
-Dialogue: 0,0:22:49.07,0:22:55.03,EDTLBox2,,0,0,0,,{\blur1.5}As I stand here drenched on the same street corner
-Dialogue: 0,0:22:55.53,0:23:00.20,EDTLBox2,,0,0,0,,{\blur1.5\fad(0,750)}My heart's still looking for you...

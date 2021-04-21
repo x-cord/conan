@@ -33,8 +33,6 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: OPTLTextless,FuntypeFattened,50,&H00FFFFFF,&H000000FF,&H80AF0068,&H80000000,-1,0,0,0,90,100,0,0,1,3,1,2,10,10,40,1
-Style: HitomiRomaji,Ubuntu,40,&HC0FF0000,&H000000FF,&H00FFFFFF,&H00000000,-1,0,0,0,105,100,0,0,1,3.4,1,8,10,10,30,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -64,27 +62,6 @@ Dialogue: 0,0:01:01.08,0:01:05.37,Thoughts,,0000,0000,0000,,{\be10}A shocking ca
 Dialogue: 0,0:01:05.37,0:01:06.92,Thoughts,,0000,0000,0000,,{\be10}He sees the single truth for what it is,
 Dialogue: 0,0:01:06.92,0:01:09.09,Thoughts,,0000,0000,0000,,{\be10}and looks like a kid but has the mind of an adult!
 Dialogue: 0,0:01:09.09,0:01:11.10,Thoughts,,0000,0000,0000,,{\be10}His name? Detective Conan!
-Dialogue: 0,0:01:11.10,0:01:14.47,OPTLTextless,,0000,0000,0000,,{\blur2}Take me to the high, we never cry on
-Dialogue: 0,0:01:14.47,0:01:18.10,OPTLTextless,,0000,0000,0000,,{\blur2}To a tomorrow we've never seen
-Dialogue: 0,0:01:18.14,0:01:21.82,OPTLTextless,,0000,0000,0000,,{\blur2}Try again Try again Try again Always
-Dialogue: 0,0:01:21.82,0:01:25.15,OPTLTextless,,0000,0000,0000,,{\blur2}Try again Try again Try again
-Dialogue: 0,0:01:25.15,0:01:28.20,OPTLTextless,,0000,0000,0000,,{\blur2\fad(0,300)}Speak out the truth!
-Dialogue: 0,0:01:34.24,0:01:37.91,OPTLTextless,,0000,0000,0000,,{\blur2}Not knowing exactly what you're searching for
-Dialogue: 0,0:01:37.91,0:01:41.38,OPTLTextless,,0000,0000,0000,,{\blur2}living in the moment in your reckless way
-Dialogue: 0,0:01:41.38,0:01:45.21,OPTLTextless,,0000,0000,0000,,{\blur2}If you don't brighten up a bit soon
-Dialogue: 0,0:01:45.21,0:01:48.51,OPTLTextless,,0000,0000,0000,,{\blur2}you'll get crushed by your own anxiety
-Dialogue: 0,0:01:48.51,0:01:52.05,OPTLTextless,,0000,0000,0000,,{\blur2}Surely you have dreams too?
-Dialogue: 0,0:01:52.05,0:01:55.72,OPTLTextless,,0000,0000,0000,,{\blur2}I want to fulfill them, I want to cry... but I'll still chase them
-Dialogue: 0,0:01:55.72,0:01:59.23,OPTLTextless,,0000,0000,0000,,{\blur2}Aren't you just quietly giving up?
-Dialogue: 0,0:01:59.23,0:02:03.36,OPTLTextless,,0000,0000,0000,,{\blur2}Can't you see now the reality you've distanced yourself from?
-Dialogue: 0,0:02:04.82,0:02:08.24,OPTLTextless,,0000,0000,0000,,{\blur2}Take me to the high, we never cry on
-Dialogue: 0,0:02:08.24,0:02:11.66,OPTLTextless,,0000,0000,0000,,{\blur2}To a tomorrow we've never seen
-Dialogue: 0,0:02:11.66,0:02:15.24,OPTLTextless,,0000,0000,0000,,{\blur2}Try again Try again Try again Always
-Dialogue: 0,0:02:15.24,0:02:18.96,OPTLTextless,,0000,0000,0000,,{\blur2}Try again Try again Try again
-Dialogue: 0,0:02:18.96,0:02:26.00,OPTLTextless,,0000,0000,0000,,{\blur2}Not everything is bad, we're dreamers after all
-Dialogue: 0,0:02:26.00,0:02:29.59,OPTLTextless,,0000,0000,0000,,{\blur2}Try again Try again Try again Always
-Dialogue: 0,0:02:29.59,0:02:33.30,OPTLTextless,,0000,0000,0000,,{\blur2}Try again Try again Try again
-Dialogue: 0,0:02:33.30,0:02:36.72,OPTLTextless,,0000,0000,0000,,{\blur2\fad(0,500)}Speak out the truth!
 Dialogue: 0,0:02:59.35,0:03:03.56,Dialogue,,0000,0000,0000,,Our special dough glazed with rice bran oil, a release agent,
 Dialogue: 0,0:03:03.56,0:03:05.82,Dialogue,,0000,0000,0000,,is poured into the Kyō no Tori moulds, and...
 Dialogue: 0,0:03:06.36,0:03:08.78,Dialogue,,0000,0000,0000,,Those look really tasty!
@@ -102,7 +79,7 @@ Dialogue: 0,0:03:42.65,0:03:49.28,Dialogue,,0000,0000,0000,,Yes. They're also so
 Dialogue: 0,0:03:49.28,0:03:53.78,Dialogue,,0000,0000,0000,,Hey, is it true? I heard all the chocolate ones vanished!
 Dialogue: 0,0:03:53.78,0:03:55.62,Dialogue,,0000,0000,0000,,The chocolate ones vanished?
 Dialogue: 0,0:03:55.62,0:03:57.24,Dialogue,,0000,0000,0000,,What does he mean by 'vanished'?
-Dialogue: 0,0:03:57.45,0:04:00.87,Signs,,0000,0000,0000,,Kōzō Umehara (63)\NUmehara President
+Dialogue: 0,0:03:57.45,0:04:00.87,Character Card,,0000,0000,0000,,Kōzō Umehara (63)\NUmehara President
 Dialogue: 0,0:03:57.79,0:04:00.87,Dialogue Top,,0000,0000,0000,,Yeah! How did this happen?!
 Dialogue: 0,0:04:01.96,0:04:04.25,Dialogue,,0000,0000,0000,,We don't quite know how.
 Dialogue: 0,0:04:04.25,0:04:04.92,Dialogue,,0000,0000,0000,,You don't know?
@@ -169,7 +146,7 @@ Dialogue: 0,0:07:33.17,0:07:39.05,Dialogue,,0000,0000,0000,,Why, this is a surpr
 Dialogue: 0,0:07:41.43,0:07:42.09,Dialogue,,0000,0000,0000,,And you are?
 Dialogue: 0,0:07:42.80,0:07:45.43,Dialogue,,0000,0000,0000,,Inspector{keibu} Ayanokōji from the Kyōto Police, right?
 Dialogue: 0,0:07:46.56,0:07:48.93,Dialogue,,0000,0000,0000,,And just what is such an inspector doing here?
-Dialogue: 0,0:07:49.22,0:07:54.31,Signs,,0000,0000,0000,,Fumimaro Ayanokōji\NKyōto Prefectural Police — Division 1 Inspector
+Dialogue: 0,0:07:49.22,0:07:54.31,Character Card,,0000,0000,0000,,Fumimaro Ayanokōji\NKyōto Prefectural Police — Division 1 Inspector
 Dialogue: 0,0:07:49.27,0:07:54.31,Dialogue Top,,0000,0000,0000,,Well, I'm off duty for today, so I was taking this little guy for a walk.
 Dialogue: 0,0:07:55.44,0:07:56.02,Dialogue,,0000,0000,0000,,I see...
 Dialogue: 0,0:07:56.57,0:07:59.40,Dialogue,,0000,0000,0000,,Do you even need to walk chipmunks?
@@ -288,7 +265,7 @@ Dialogue: 0,0:14:10.16,0:14:11.16,Dialogue,,0000,0000,0000,,Sorry...
 Dialogue: 0,0:14:17.71,0:14:19.17,Dialogue,,0000,0000,0000,,Inspector Ayanokōji!
 Dialogue: 0,0:14:20.29,0:14:22.84,Dialogue,,0000,0000,0000,,Detective Kurumazaki, thank you.
 Dialogue: 0,0:14:22.84,0:14:29.43,Dialogue Top,,0000,0000,0000,,The suspect's car was spotted by the N System camera here, on Marutamachidōri{丸太町通り}, ten minutes ago.
-Dialogue: 0,0:14:23.13,0:14:25.84,CharCards,,0000,0000,0160,,{\fad(250,0)}Detective Kurumazaki\NKyōtō Prefectural Police — Division 1 Detective
+Dialogue: 0,0:14:23.13,0:14:25.84,Character Card,,0000,0000,0160,,{\fad(250,0)}Detective Kurumazaki\NKyōtō Prefectural Police — Division 1 Detective
 Dialogue: 0,0:14:30.01,0:14:32.43,Dialogue,,0000,0000,0000,,That's close to the Shirakawa store.
 Dialogue: 0,0:14:32.43,0:14:35.93,Dialogue,,0000,0000,0000,,Yes. And this is the picture it took.
 Dialogue: 0,0:14:39.10,0:14:40.40,Dialogue,,0000,0000,0000,,That's...
@@ -391,14 +368,6 @@ Dialogue: 0,0:20:44.47,0:20:46.30,Dialogue,,0000,0000,0000,,It's not like that!
 Dialogue: 0,0:20:47.18,0:20:49.47,Dialogue,,0000,0000,0000,,It's not like that at all...
 Dialogue: 0,0:20:49.47,0:20:55.73,Dialogue,,0000,0000,0000,,That's why we didn't want to start selling chocolate ones on the day of his death no matter what.
 Dialogue: 0,0:20:55.73,0:21:02.44,Dialogue,,0000,0000,0000,,But we're sorry — we never thought it would end up like this...
-Dialogue: 0,0:21:24.96,0:21:32.76,HitomiRomaji,,0000,0000,0000,,{\3c&HFFD4D4&\blur4}miagetara haru no ame machi ni oritekita
-Dialogue: 0,0:21:32.97,0:21:40.68,HitomiRomaji,,0000,0000,0000,,{\3c&HFFD4D4&\blur4}kimi no aruku michi nurashite yuku
-Dialogue: 0,0:21:41.56,0:21:49.52,HitomiRomaji,,0000,0000,0000,,{\3c&HFFD4D4&\blur4}kinō sasatta toge no yō na kimi no kotoba hitotsu
-Dialogue: 0,0:21:49.73,0:21:57.20,HitomiRomaji,,0000,0000,0000,,{\3c&HFFD4D4&\blur4}mada honto wa nani mo shiranai yo
-Dialogue: 0,0:21:58.82,0:22:15.34,HitomiRomaji,,0000,0000,0000,,{\blur4}sunao ni nareba kodoku nante nai yo hitori de wa nai kara
-Dialogue: 0,0:22:16.01,0:22:23.85,HitomiRomaji,,0000,0000,0000,,{\blur4\3c&HEFF9FD&}don'na mirai kimi to mirai
-Dialogue: 0,0:22:24.10,0:22:33.36,HitomiRomaji,,0000,0000,0000,,{\blur4\3c&HEFF9FD&}sono hitomi no shita e to tashikame ni yuku yo
-Dialogue: 0,0:22:33.73,0:22:41.41,HitomiRomaji,,0000,0000,0000,,{\blur4\3c&HEFF9FD&\fad(0,750)}yukkuri to orite yuku kara
 Dialogue: 0,0:22:48.52,0:22:51.78,Dialogue,,0000,0000,0000,,Are you sure you don't want to file for damages?
 Dialogue: 0,0:22:51.78,0:22:56.49,Dialogue,,0000,0000,0000,,I am. Their skills come from the late president, after all.
 Dialogue: 0,0:22:56.49,0:22:57.58,Dialogue,,0000,0000,0000,,I see.

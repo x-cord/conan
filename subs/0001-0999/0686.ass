@@ -33,13 +33,11 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: MKED,MV Boli M,50,&H00D6EEF3,&H000000FF,&H003C5B6F,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,8,10,30,25,1
-Style: OPTLTextless,FuntypeFattened,50,&H00FFFFFF,&H000000FF,&H80AF0068,&H80000000,-1,0,0,0,90,100,0,0,1,3,1,2,10,10,40,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 Dialogue: 0,0:00:34.93,0:00:37.16,Dialogue,,0,0,0,,Wait, Candy!
-Dialogue: 0,0:00:35.91,0:00:39.16,Signs,,0,0,0,,Mao Misawa (5)
+Dialogue: 0,0:00:35.91,0:00:39.16,Character Card,,0,0,0,,Mao Misawa (5)
 Dialogue: 0,0:00:37.40,0:00:40.00,Dialogue,,0,0,0,,Wait, Candy!
 Dialogue: 0,0:00:49.65,0:00:50.86,Dialogue,,0,0,0,,Wait!
 Dialogue: 0,0:00:54.32,0:00:55.60,Dialogue,,0,0,0,,Candy...
@@ -130,10 +128,10 @@ Dialogue: 0,0:06:19.75,0:06:22.55,Dialogue,,0,0,0,,If I can help, leave it to me
 Dialogue: 0,0:06:24.56,0:06:25.66,Dialogue,,0,0,0,,Inspector!
 Dialogue: 0,0:06:27.04,0:06:33.29,Dialogue,,0,0,0,,Truth be told, Mouri{\rHonorifics - Dialogue}-kun{\r}, there have been two successive bombings earlier this afternoon.
 Dialogue: 0,0:06:33.29,0:06:34.75,Dialogue,,0,0,0,,What?!
-Dialogue: 0,0:06:35.13,0:06:39.46,Signs,,0,0,0,,Kōzō Tonomura (58)\NDistrict Court Judge
-Dialogue: 0,0:06:39.71,0:06:43.43,Signs,,0,0,0,,Kazuhiko Saeki (45)\NDistrict Prosecutor
-Dialogue: 0,0:06:59.15,0:07:05.41,Signs,,0,0,0,,Masato Utsugi (35)
-Dialogue: 0,0:07:17.25,0:07:21.71,Signs,,0,0,0,,Shigekichi Kaneko (65)\NFormer Police Detective
+Dialogue: 0,0:06:35.13,0:06:39.46,Character Card,,0,0,0,,Kōzō Tonomura (58)\NDistrict Court Judge
+Dialogue: 0,0:06:39.71,0:06:43.43,Character Card,,0,0,0,,Kazuhiko Saeki (45)\NDistrict Prosecutor
+Dialogue: 0,0:06:59.15,0:07:05.41,Character Card,,0,0,0,,Masato Utsugi (35)
+Dialogue: 0,0:07:17.25,0:07:21.71,Character Card,,0,0,0,,Shigekichi Kaneko (65)\NFormer Police Detective
 Dialogue: 0,0:06:35.95,0:06:39.46,Dialogue Top,,0,0,0,,The first victim was Kōzō Tonomura, a district court judge.
 Dialogue: 0,0:06:40.15,0:06:43.43,Dialogue Top,,0,0,0,,The second was Kazuhiko Saeki, a district prosecutor.
 Dialogue: 0,0:06:43.97,0:06:49.21,Dialogue,,0,0,0,,Though their injuries were severe, they were fortunately not life-threatening.
@@ -429,39 +427,6 @@ Dialogue: 0,0:24:09.96,0:24:14.88,Dialogue,,0,0,0,,Next Conan's Hint: Will-o'-th
 Dialogue: 0,0:24:14.88,0:24:17.24,Dialogue,,0,0,0,,A great success for the Detective Boys!
 Dialogue: 0,0:24:17.24,0:24:18.69,Dialogue,,0,0,0,,Here's some candy for a reward!
 Dialogue: 0,0:24:18.69,0:24:19.89,Dialogue,,0,0,0,,No, you're Candy...
-Dialogue: 0,0:01:15.55,0:01:18.89,OPTLTextless,,0,0,0,,{\blur2}Take me to the high, we never cry on
-Dialogue: 0,0:01:18.93,0:01:22.52,OPTLTextless,,0,0,0,,{\blur2}To a tomorrow we've never seen
-Dialogue: 0,0:01:22.56,0:01:26.27,OPTLTextless,,0,0,0,,{\blur2}Try again Try again Try again Always
-Dialogue: 0,0:01:26.27,0:01:29.56,OPTLTextless,,0,0,0,,{\blur2}Try again Try again Try again
-Dialogue: 0,0:01:29.61,0:01:32.65,OPTLTextless,,0,0,0,,{\blur2\fad(0,300)}Speak out the truth!
-Dialogue: 0,0:01:38.70,0:01:42.37,OPTLTextless,,0,0,0,,{\blur2}Not knowing exactly what you're searching for
-Dialogue: 0,0:01:42.37,0:01:45.83,OPTLTextless,,0,0,0,,{\blur2}living in the moment in your reckless way
-Dialogue: 0,0:01:45.83,0:01:49.67,OPTLTextless,,0,0,0,,{\blur2}If you don't brighten up a bit soon
-Dialogue: 0,0:01:49.67,0:01:52.96,OPTLTextless,,0,0,0,,{\blur2}you'll get crushed by your own anxiety
-Dialogue: 0,0:01:52.96,0:01:56.47,OPTLTextless,,0,0,0,,{\blur2}Surely you have dreams too?
-Dialogue: 0,0:01:56.47,0:02:00.14,OPTLTextless,,0,0,0,,{\blur2}I want to fulfill them, I want to cry... but I'll still chase them
-Dialogue: 0,0:02:00.14,0:02:03.72,OPTLTextless,,0,0,0,,{\blur2}Aren't you just quietly giving up?
-Dialogue: 0,0:02:03.72,0:02:07.81,OPTLTextless,,0,0,0,,{\blur2}Can't you see now the reality you've distanced yourself from?
-Dialogue: 0,0:02:09.27,0:02:12.69,OPTLTextless,,0,0,0,,{\blur2}Take me to the high, we never cry on
-Dialogue: 0,0:02:12.69,0:02:16.11,OPTLTextless,,0,0,0,,{\blur2}To a tomorrow we've never seen
-Dialogue: 0,0:02:16.11,0:02:19.70,OPTLTextless,,0,0,0,,{\blur2}Try again Try again Try again Always
-Dialogue: 0,0:02:19.70,0:02:23.41,OPTLTextless,,0,0,0,,{\blur2}Try again Try again Try again
-Dialogue: 0,0:02:23.41,0:02:30.46,OPTLTextless,,0,0,0,,{\blur2}Not everything is bad, we're dreamers after all
-Dialogue: 0,0:02:30.46,0:02:34.00,OPTLTextless,,0,0,0,,{\blur2}Try again Try again Try again Always
-Dialogue: 0,0:02:34.00,0:02:37.76,OPTLTextless,,0,0,0,,{\blur2}Try again Try again Try again
-Dialogue: 0,0:02:37.76,0:02:41.18,OPTLTextless,,0,0,0,,{\blur2\fad(0,500)}Speak out the truth!
-Dialogue: 0,0:22:25.32,0:22:29.99,MKED,,0,0,0,,{\fax0.25\blur4}kimi ni zenzen kyōmi nai uso you are my perfect guy
-Dialogue: 0,0:22:30.49,0:22:34.99,MKED,,0,0,0,,{\fax0.25\blur4}tokimeki wa kakusenai honto wa ki ni natte shikatanai
-Dialogue: 0,0:22:35.49,0:22:40.00,MKED,,0,0,0,,{\fax0.25\blur4}koi ni bukiyō son'na style kimi no mae da to betsujin mitai
-Dialogue: 0,0:22:40.58,0:22:44.42,MKED,,0,0,0,,{\fax0.25\blur4}dare ni mo ienai himitsu no mama
-Dialogue: 0,0:22:45.59,0:22:49.55,MKED,,0,0,0,,{\fax0.25\blur4}soredemo I'm alright koi no yukue nante
-Dialogue: 0,0:22:49.88,0:22:53.85,MKED,,0,0,0,,{\fax0.25\blur4}mada it isn't the last chance for me
-Dialogue: 0,0:22:54.43,0:22:59.43,MKED,,0,0,0,,{\fax0.25\blur4}iron'na love story o egaite'ru mune no naka
-Dialogue: 0,0:22:59.60,0:23:04.73,MKED,,0,0,0,,{\fax0.25\blur4}demo risō ni wa hodo tōi
-Dialogue: 0,0:23:05.23,0:23:10.15,MKED,,0,0,0,,{\fax0.25\blur4}watashi-tte wagamama sore kurai no koto wakatte'ru
-Dialogue: 0,0:23:10.32,0:23:16.28,MKED,,0,0,0,,{\fax0.25\blur4}dakedo nani ka ikenai no?
-Dialogue: 0,0:23:16.99,0:23:26.63,MKED,,0,0,0,,{\fax0.25\blur4}kimi to no koi ni koi o shite'ru dake de tsutaetakute mo mada
-Dialogue: 0,0:23:26.96,0:23:39.43,MKED,,0,0,0,,{\fax0.25\blur4\fad(0,800)}himitsu ni shite'ru hō ga shiawase dakara ima wa watashi dake no secret love
 Dialogue: 0,0:22:19.90,0:22:20.98,Signs,,0,0,0,,Shin'ichi Kudō
 Dialogue: 0,0:22:20.98,0:22:21.06,Signs,,0,0,0,,Shin'ichi Kudō
 Dialogue: 0,0:22:21.06,0:22:21.15,Signs,,0,0,0,,Shin'ichi Kudō

@@ -33,7 +33,6 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: Otanoshimi,Calibri,45,&H18FFFFFF,&H000000FF,&H003F3F3F,&HC04B0008,-1,0,0,0,100,100,0,0,1,3,0,2,70,0,5,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -44,7 +43,6 @@ Dialogue: 0,0:01:05.29,0:01:07.21,Dialogue,,0000,0000,0000,,A peculiar incident 
 Dialogue: 0,0:01:07.21,0:01:08.92,Dialogue,,0000,0000,0000,,He sees the single truth for what it is,
 Dialogue: 0,0:01:08.92,0:01:10.84,Dialogue,,0000,0000,0000,,and looks like a kid but has the mind of an adult!
 Dialogue: 0,0:01:10.84,0:01:12.88,Dialogue,,0000,0000,0000,,His name? Detective Conan!
-Dialogue: 0,0:24:30.08,0:24:39.48,Otanoshimi,,0000,0000,0000,,{\a1}Look forward to the next episode!
 Dialogue: 0,0:00:00.00,0:00:00.00,Dialogue,,0000,0000,0000,,Detective Conan ep 666
 Dialogue: 0,0:00:00.00,0:00:00.00,Dialogue,,0000,0000,0000,,Translated by 1412
 Dialogue: 0,0:00:00.00,0:00:00.00,Dialogue,,0000,0000,0000,,First Draft
@@ -67,7 +65,7 @@ Dialogue: 0,0:02:51.87,0:02:53.69,Dialogue,,0000,0000,0000,,That she felt her li
 Dialogue: 0,0:02:54.78,0:02:57.57,Dialogue,,0000,0000,0000,,'Once I get out of jail, first thing I'm gonna do is find you.'
 Dialogue: 0,0:02:58.32,0:03:01.20,Dialogue,,0000,0000,0000,,He's been sending letters like this for the past year?
 Dialogue: 0,0:03:01.20,0:03:07.62,Dialogue,,0000,0000,0000,,Yes... I was scared so I quit my job and moved.
-Dialogue: 0,0:03:07.83,0:03:11.83,Signs,,0000,0000,0000,,Mio Ashida (23)\NOffice Worker
+Dialogue: 0,0:03:07.83,0:03:11.83,Character Card,,0000,0000,0000,,Mio Ashida (23)\NOffice Worker
 Dialogue: 0,0:00:00.00,0:00:00.00,Dialogue,,0000,0000,0000,,Mio Ashida (23) Office Worker) (flip the name orders, please)
 Dialogue: 0,0:03:08.29,0:03:11.83,Dialogue Top,,0000,0000,0000,,But even here, I feel like I'm being watched.
 Dialogue: 0,0:03:12.46,0:03:14.67,Dialogue,,0000,0000,0000,,It might be just my imagination.
@@ -97,7 +95,7 @@ Dialogue: 0,0:04:55.38,0:04:57.61,Dialogue,,0000,0000,0000,,I'm going, I'm going
 Dialogue: 0,0:00:00.00,0:00:00.00,Dialogue,,0000,0000,0000,,MONTAGE
 Dialogue: 0,0:05:12.00,0:05:14.50,Dialogue,,0000,0000,0000,,{\i1}This is one smart criminal...
 Dialogue: 0,0:00:00.00,0:00:00.00,Dialogue,,0000,0000,0000,,(Murakami Takuya (20) College Applicant) (Rouninsei is a student who failed the entrance exam and is without a school, hence Ronin)
-Dialogue: 0,0:05:15.21,0:05:20.67,Signs,,0000,0000,0000,,Takuya Murakami (20)\NFailed College Applicant
+Dialogue: 0,0:05:15.21,0:05:20.67,Character Card,,0000,0000,0000,,Takuya Murakami (20)\NFailed College Applicant
 Dialogue: 0,0:05:15.50,0:05:18.84,Dialogue Top,,0000,0000,0000,,I wish that jerk upstairs would keep it down.
 Dialogue: 0,0:05:20.95,0:05:24.51,Dialogue,,0000,0000,0000,,Aah, stop! Somebody, help me!
 Dialogue: 0,0:05:27.05,0:05:29.06,Dialogue,,0000,0000,0000,,Is there a crime in progress?
@@ -136,7 +134,7 @@ Dialogue: 0,0:07:06.53,0:07:10.86,Dialogue,,0000,0000,0000,,He found the body an
 Dialogue: 0,0:07:10.87,0:07:13.45,Dialogue,,0000,0000,0000,,He used his cell phone to contact the police.
 Dialogue: 0,0:07:13.97,0:07:17.96,Dialogue,,0000,0000,0000,,At the time of the incident, the front door appears to have been unlocked.
 Dialogue: 0,0:07:18.75,0:07:21.79,Dialogue Top,,0000,0000,0000,,The victim is Yoshizumi Karashima{\rHonorifics - Dialogue}-san{\r}, age 28.
-Dialogue: 0,0:07:19.21,0:07:25.96,Signs,,0000,0000,0000,,Yoshizumi Karashima (28)\NUnemployed
+Dialogue: 0,0:07:19.21,0:07:25.96,Character Card,,0000,0000,0000,,Yoshizumi Karashima (28)\NUnemployed
 Dialogue: 0,0:00:00.00,0:00:00.00,Dialogue,,0000,0000,0000,,(Yoshizumi Karashima (28) Unemployed)
 Dialogue: 0,0:07:21.79,0:07:25.96,Dialogue Top,,0000,0000,0000,,We've confirmed that he was just released three days ago from traffic jail.
 Dialogue: 0,0:07:26.49,0:07:30.77,Dialogue,,0000,0000,0000,,Traffic jail? Was he incarcerated for traffic violations?

@@ -33,7 +33,6 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: Def_alt,trebuchet ms,27,&HFFFFFFFF,&HFFFF0000,&HFF000000,&HFF000000,0,0,0,0,100,100,0,0,1,2,0,2,15,15,12,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -334,7 +333,7 @@ Dialogue: 0,0:23:20.92,0:23:22.72,Dialogue,NTP,0,0,0,,Accidentally! I'm telling 
 Dialogue: 0,0:23:23.09,0:23:24.26,Dialogue,NTP,0,0,0,,You old pervert!
 Dialogue: 0,0:23:24.30,0:23:25.72,Dialogue,NTP,0,0,0,,Hey! All kidding aside!
 Dialogue: 0,0:23:25.72,0:23:28.43,Dialogue,NTP,0,0,0,,What would mom say about this?
-Dialogue: 0,0:23:28.18,0:23:31.06,Def_alt,NTP,0,0,0,,Hey... Don't tell Eri...
+Dialogue: 0,0:23:28.18,0:23:31.06,Dialogue Top,NTP,0,0,0,,Hey... Don't tell Eri...
 Dialogue: 0,0:23:31.06,0:23:33.14,Dialogue,NTP,0,0,0,,I don't know...
 Dialogue: 0,0:23:33.23,0:23:35.14,Dialogue,NTP,0,0,0,,Well, wait a minute!
 Dialogue: 0,0:23:35.27,0:23:36.27,Dialogue,NTP,0,0,0,,What should I wait for?

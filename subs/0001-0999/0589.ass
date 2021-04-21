@@ -33,8 +33,6 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: title01,@HGPSoeiKakupoptai-CP,20,&H006B5FE0,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0.5,0,2,0,150,95,1
-Style: title04,Calibri Light,18,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0.4,0.5,2,0,0,7,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -54,8 +52,8 @@ Dialogue: 0,0:00:36.00,0:00:37.04,Dialogue,,0,0,0,,Got it.
 Dialogue: 0,0:00:56.94,0:00:58.81,Dialogue,,0,0,0,,If we continue lamenting the passing seasons...
 Dialogue: 0,0:00:58.84,0:01:00.48,Dialogue,,0,0,0,,We'll be unable to confront the mysteries of cases!
 Dialogue: 0,0:01:00.67,0:01:02.37,Dialogue,,0,0,5,,The difficult Auintie's birthday is coming up.
-Dialogue: 0,0:01:01.24,0:01:01.95,title01,,0,0,0,,{\be0.1\fad(0,370)}October 10th
-Dialogue: 0,0:01:02.08,0:01:02.37,title01,,0,0,0,,{\be0.1\fad(0,0)}October 10th
+Dialogue: 0,0:01:01.24,0:01:01.95,Signs,,0,0,0,,October 10th
+Dialogue: 0,0:01:02.08,0:01:02.37,Signs,,0,0,0,,October 10th
 Dialogue: 0,0:01:02.37,0:01:04.33,Dialogue,,0,0,5,,Kogorou cooks up the Perfect Present Plan!
 Dialogue: 0,0:01:04.49,0:01:06.16,Dialogue,,0,0,5,,Perceiving the one and only truth...
 Dialogue: 0,0:01:06.16,0:01:07.95,Dialogue,,0,0,5,,The appearance of a child and the intellect of an adult...
@@ -77,9 +75,9 @@ Dialogue: 0,0:03:11.91,0:03:13.58,Dialogue,,0,0,0,,Birthday?
 Dialogue: 0,0:03:13.58,0:03:15.45,Dialogue,,0,0,0,,Mine's still a ways off...
 Dialogue: 0,0:03:15.91,0:03:18.79,Dialogue,,0,0,0,,If it's not for Ran{\rHonorifics - Dialogue}-neechan{\r}, that leaves...
 Dialogue: 0,0:03:19.37,0:03:20.62,Dialogue,,0,0,0,,That's it!
-Dialogue: 0,0:03:21.43,0:03:22.18,title01,,0,0,0,,{\be0.5\fad(0,370)}October 10th
-Dialogue: 0,0:03:22.30,0:03:23.05,title01,,0,0,0,,{\be0.5\fad(0,370)}October 10th
-Dialogue: 0,0:03:23.18,0:03:23.51,title01,,0,0,0,,{\be0.5\fad(0,0)}October 10th
+Dialogue: 0,0:03:21.43,0:03:22.18,Signs,,0,0,0,,October 10th
+Dialogue: 0,0:03:22.30,0:03:23.05,Signs,,0,0,0,,October 10th
+Dialogue: 0,0:03:23.18,0:03:23.51,Signs,,0,0,0,,October 10th
 Dialogue: 0,0:03:20.63,0:03:23.50,Dialogue,,0,0,0,,October 10th is Mom's birthday!
 Dialogue: 0,0:03:24.13,0:03:25.55,Dialogue,,0,0,0,,That's it for sure.
 Dialogue: 0,0:03:25.55,0:03:27.26,Dialogue,,0,0,0,,He was checking the date a while ago.
@@ -128,7 +126,7 @@ Dialogue: 0,0:05:28.84,0:05:32.38,Dialogue,,0,0,0,,Then, we'll meet you next Sun
 Dialogue: 0,0:05:36.84,0:05:40.89,Dialogue,,0,0,0,,Sensei, you're supposed to meet your client right here...
 Dialogue: 0,0:05:41.47,0:05:42.85,Dialogue,,0,0,0,,Isn't it fine?
 Dialogue: 0,0:05:42.85,0:05:45.19,Dialogue,,0,0,0,,Since I'm taking the trouble to go and meet her personally.
-Dialogue: 0,0:05:46.24,0:05:48.45,title04,,0,0,0,,{\fad(500,0)}October 10th
+Dialogue: 0,0:05:46.24,0:05:48.45,Signs,,0,0,0,,October 10th
 Dialogue: 0,0:05:49.48,0:05:50.32,Dialogue,,0,0,0,,Well?
 Dialogue: 0,0:05:50.32,0:05:51.44,Dialogue,,0,0,0,,I'm here at the hotel.
 Dialogue: 0,0:05:52.19,0:05:54.40,Dialogue,,0,0,0,,What should I do now?

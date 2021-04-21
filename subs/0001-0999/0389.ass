@@ -33,8 +33,6 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: Giris,00568,22,&H00FFFFFF,&H000000FF,&H00958174,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,10,1
-Style: Üstyazı,00568,21,&H00FFFFFF,&H0300FFFF,&H00000000,&H02000000,0,0,0,0,100,100,0,0,1,2.70838,0,8,10,10,15,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -44,13 +42,13 @@ Dialogue: 0,0:00:24.98,0:00:26.85,Dialogue,,0,0,0,,Uncle will solve this case ev
 Dialogue: 0,0:00:27.14,0:00:28.60,Dialogue,,0,0,0,,Seeing through to the one and only truth...
 Dialogue: 0,0:00:28.60,0:00:30.40,Dialogue,,0,0,0,,I look tike a child, but have the intellect of an adult.
 Dialogue: 0,0:00:30.40,0:00:32.11,Dialogue,,0,0,0,,My name is Detective Conan!
-Dialogue: 0,0:01:56.63,0:02:00.80,Giris,,0,0,0,,We traveled to Kagoshîma with Uncle Kogoro...
-Dialogue: 0,0:02:00.80,0:02:04.18,Giris,,0,0,0,,There we visited the Takakuma Brewery,\Nhome of the famous, but rare, Shochu.
-Dialogue: 0,0:02:07.35,0:02:11.94,Giris,,0,0,0,,While the company presidents wife,\NShiraishi Fumiko{\rHonorifics - Giris}-san{\r}, took us on an enjoyable tour...
-Dialogue: 0,0:02:11.94,0:02:13.36,Giris,,0,0,0,,An incident occurred.
-Dialogue: 0,0:02:15.15,0:02:19.69,Giris,,0,0,0,,Someone attacked and kidnapped the\Nmanaging director, Tatsumura Shinsukesan.
-Dialogue: 0,0:02:20.07,0:02:21.45,Giris,,0,0,0,,And then...
-Dialogue: 0,0:02:22.16,0:02:24.16,Giris,,0,0,0,,His body was discovered.
+Dialogue: 0,0:01:56.63,0:02:00.80,Thoughts,,0,0,0,,{\be10}We traveled to Kagoshîma with Uncle Kogoro...
+Dialogue: 0,0:02:00.80,0:02:04.18,Thoughts,,0,0,0,,{\be10}There we visited the Takakuma Brewery,\Nhome of the famous, but rare, Shochu.
+Dialogue: 0,0:02:07.35,0:02:11.94,Thoughts,,0,0,0,,{\be10}While the company presidents wife,\NShiraishi Fumiko{\rHonorifics - Thoughts\be10}-san{\r\be10}, took us on an enjoyable tour...
+Dialogue: 0,0:02:11.94,0:02:13.36,Thoughts,,0,0,0,,{\be10}An incident occurred.
+Dialogue: 0,0:02:15.15,0:02:19.69,Thoughts,,0,0,0,,{\be10}Someone attacked and kidnapped the\Nmanaging director, Tatsumura Shinsukesan.
+Dialogue: 0,0:02:20.07,0:02:21.45,Thoughts,,0,0,0,,{\be10}And then...
+Dialogue: 0,0:02:22.16,0:02:24.16,Thoughts,,0,0,0,,{\be10}His body was discovered.
 Dialogue: 0,0:02:24.16,0:02:27.16,Dialogue,,0,0,0,,What? The murderer is one of us?
 Dialogue: 0,0:02:29.16,0:02:30.87,Dialogue,,0,0,0,,There's no doubt about it.
 Dialogue: 0,0:02:30.87,0:02:35.92,Dialogue,,0,0,0,,The only ones who knew Tatsumura{\rHonorifics - Dialogue}-san{\r}\Nwell are those involved with this brewery.
@@ -71,39 +69,39 @@ Dialogue: 0,0:03:22.16,0:03:26.17,Dialogue,,0,0,0,,And why did they call two day
 Dialogue: 0,0:03:26.42,0:03:28.21,Dialogue,,0,0,0,,If we figure out these two mysteries
 Dialogue: 0,0:03:28.96,0:03:30.46,Dialogue,,0,0,0,,Dad!
 Dialogue: 0,0:03:30.46,0:03:33.09,Dialogue,,0,0,0,,That's what he gets for pointing out such obvious things.
-Dialogue: 0,0:03:33.09,0:03:35.63,Dialogue,,0,0,0,,If it s so obvıous then hurry up and figure it out.
-Dialogue: 0,0:03:37.43,0:03:42.30,Signs,,0,0,0,,Shirashi Satoshi (30)\NTakakuma Brewery Owner
+Dialogue: 0,0:03:33.09,0:03:35.63,Dialogue,,0,0,0,,If it s so obvious then hurry up and figure it out.
+Dialogue: 0,0:03:37.43,0:03:42.30,Character Card,,0,0,0,,Shirashi Satoshi (30)\NTakakuma Brewery Owner
 Dialogue: 0,0:03:36.93,0:03:40.39,Dialogue,,0,0,0,,Mouri{\rHonorifics - Dialogue}-san{\r}, will you be questioning us again tomorrow?
 Dialogue: 0,0:03:40.39,0:03:42.18,Dialogue,,0,0,0,,Yes, tomorrow morning.
 Dialogue: 0,0:03:42.18,0:03:44.10,Dialogue,,0,0,0,,You're welcome to spend the night at our place.
 Dialogue: 0,0:03:44.10,0:03:48.23,Dialogue,,0,0,0,,Maezono{\rHonorifics - Dialogue}-san{\r} will be staying as well.
-Dialogue: 0,0:03:48.23,0:03:50.44,Dialogue,,0,0,0,,Oh, that would be a bıg help! Thank you!
+Dialogue: 0,0:03:48.23,0:03:50.44,Dialogue,,0,0,0,,Oh, that would be a big help! Thank you!
 Dialogue: 0,0:03:50.44,0:03:51.27,Dialogue,,0,0,0,,Well, then...
 Dialogue: 0,0:03:51.81,0:03:53.94,Dialogue,,0,0,0,,I don't think he's the«murderer.
 Dialogue: 0,0:03:53.94,0:03:57.15,Dialogue,,0,0,0,,Would a murderer invite a detective to stay at his house?
 Dialogue: 0,0:03:57.15,0:04:00.49,Dialogue,,0,0,0,,The most suspicious ones are usually\Nthe most unnaturally innocent-looking.
 Dialogue: 0,0:04:00.49,0:04:02.95,Dialogue,,0,0,0,,Jeez, you're so untrusting.
 Dialogue: 0,0:04:04.57,0:04:08.45,Dialogue,,0,0,0,,No, I shouldn't be laughing
-Dialogue: 0,0:04:15.92,0:04:17.42,Giris,,0,0,0,,The two mysteries...
-Dialogue: 0,0:04:17.67,0:04:21.88,Giris,,0,0,0,,There must be something that can piece them together
-Dialogue: 0,0:04:21.88,0:04:22.96,Giris,,0,0,0,,There has îo be...
+Dialogue: 0,0:04:15.92,0:04:17.42,Thoughts,,0,0,0,,{\be10}The two mysteries...
+Dialogue: 0,0:04:17.67,0:04:21.88,Thoughts,,0,0,0,,{\be10}There must be something that can piece them together
+Dialogue: 0,0:04:21.88,0:04:22.96,Thoughts,,0,0,0,,{\be10}There has îo be...
 Dialogue: 0,0:04:25.68,0:04:26.80,Dialogue,,0,0,0,,Good morning!
 Dialogue: 0,0:04:26.80,0:04:27.76,Dialogue,,0,0,0,,Ah, good morning.
-Dialogue: 0,0:04:28.34,0:04:31.26,Dialogue,,0,0,0,,it looks like everyone's already busy workıng.
+Dialogue: 0,0:04:28.34,0:04:31.26,Dialogue,,0,0,0,,it looks like everyone's already busy working.
 Dialogue: 0,0:04:31.43,0:04:32.97,Dialogue,,0,0,0,,Oh, they are.
 Dialogue: 0,0:04:32.97,0:04:35.35,Dialogue,,0,0,0,,The brewing process sure start s early, doesn't it?
 Dialogue: 0,0:04:35.98,0:04:39.48,Dialogue,,0,0,0,,Our staff wakes up at 4:30 AM and starts working at 5:00.
 Dialogue: 0,0:04:39.94,0:04:42.02,Dialogue,,0,0,0,,İt sounds like really hard work.
-Dialogue: 0,0:04:42.52,0:04:45.19,Dialogue,,0,0,0,,Sake is fılled with living organisms.
+Dialogue: 0,0:04:42.52,0:04:45.19,Dialogue,,0,0,0,,Sake is filled with living organisms.
 Dialogue: 0,0:04:45.19,0:04:49.74,Dialogue,,0,0,0,,Once you start making it, you can't\Ntake your eyes off of it for a second.
-Dialogue: 0,0:04:49.74,0:04:53.49,Signs,,0,0,0,,Shiraishi Fumiko (27)\NSatoshi Wife
+Dialogue: 0,0:04:49.74,0:04:53.49,Character Card,,0,0,0,,Shiraishi Fumiko (27)\NSatoshi Wife
 Dialogue: 0,0:04:49.74,0:04:53.49,Dialogue,,0,0,0,,That's why none of us could have left during that time.
 Dialogue: 0,0:04:54.12,0:04:55.99,Dialogue,,0,0,0,,I guess that's true?
 Dialogue: 0,0:04:56.16,0:04:58.70,Dialogue,,0,0,0,,Ah! I came to call you for breakfast.
 Dialogue: 0,0:04:58.70,0:04:59.49,Dialogue,,0,0,0,,Özür dileriz.
 Dialogue: 0,0:05:00.37,0:05:01.83,Dialogue,,0,0,0,,Come in whenever you re ready.
-Dialogue: 0,0:05:02.33,0:05:06.75,Giris,,0,0,0,,They loved their sake so much that\Nthey wouldn't have left the brewery.
-Dialogue: 0,0:05:06.75,0:05:08.54,Giris,,0,0,0,,If that's true..
+Dialogue: 0,0:05:02.33,0:05:06.75,Thoughts,,0,0,0,,{\be10}They loved their sake so much that\Nthey wouldn't have left the brewery.
+Dialogue: 0,0:05:06.75,0:05:08.54,Thoughts,,0,0,0,,{\be10}If that's true..
 Dialogue: 0,0:05:11.84,0:05:13.26,Dialogue,,0,0,0,,Dad?
 Dialogue: 0,0:05:13.26,0:05:18.05,Dialogue,,0,0,0,,What's with the creepy laugh?
 Dialogue: 0,0:05:18.05,0:05:19.05,Dialogue,,0,0,0,,Realty?
@@ -131,10 +129,10 @@ Dialogue: 0,0:06:19.15,0:06:21.19,Dialogue,,0,0,0,,It's impossible for a woman t
 Dialogue: 0,0:06:21.19,0:06:23.44,Dialogue,,0,0,0,,How was Maezono{\rHonorifics - Dialogue}-san{\r} able to do it?
 Dialogue: 0,0:06:24.77,0:06:27.15,Dialogue,,0,0,0,,If it's impossible, then I guess it's impossible.
 Dialogue: 0,0:06:27.49,0:06:28.90,Dialogue,,0,0,0,,Well.
-Dialogue: 0,0:06:28.90,0:06:33.41,Dialogue,,0,0,0,,Maezono Hitomi ıs secretly a\Nheavyweight-class body builder
+Dialogue: 0,0:06:28.90,0:06:33.41,Dialogue,,0,0,0,,Maezono Hitomi is secretly a\Nheavyweight-class body builder
 Dialogue: 0,0:06:33.53,0:06:35.78,Dialogue,,0,0,0,,She probably lifts weights or something like that.
 Dialogue: 0,0:06:35.78,0:06:36.37,Dialogue,,0,0,0,,Yeah!
-Dialogue: 0,0:06:36.37,0:06:37.62,Giris,,0,0,0,,Hey, hey..
+Dialogue: 0,0:06:36.37,0:06:37.62,Thoughts,,0,0,0,,{\be10}Hey, hey..
 Dialogue: 0,0:06:38.79,0:06:41.66,Dialogue,,0,0,0,,Hey, go take a quick peek inside her room.
 Dialogue: 0,0:06:41.66,0:06:42.29,Dialogue,,0,0,0,,Eh?
 Dialogue: 0,0:06:42.66,0:06:46.29,Dialogue,,0,0,0,,She probably has a very muscular body.
@@ -144,16 +142,16 @@ Dialogue: 0,0:06:52.26,0:06:55.13,Dialogue,,0,0,0,,Hey! Help me out for once!
 Dialogue: 0,0:06:55.13,0:06:57.68,Dialogue,,0,0,0,,Why are you asking a child to spy on a naked woman?!
 Dialogue: 0,0:06:57.68,0:07:00.97,Dialogue,,0,0,0,,No, this is purely for investigative purposes.
 Dialogue: 0,0:07:02.31,0:07:03.97,Dialogue,,0,0,0,,Give me a break
-Dialogue: 0,0:07:04.81,0:07:10.10,Signs,,0,0,0,,Orita Seiichi (60)\NTakakuma Brewery Employee
-Dialogue: 0,0:07:04.81,0:07:08.94,Üstyazı,,0,0,0,,Just so you know, I'm not skıpping work or anything.
-Dialogue: 0,0:07:08.94,0:07:12.73,Üstyazı,,0,0,0,,It's just that I'm old now,\Nand my back and neck are always aching.
+Dialogue: 0,0:07:04.81,0:07:10.10,Character Card,,0,0,0,,Orita Seiichi (60)\NTakakuma Brewery Employee
+Dialogue: 0,0:07:04.81,0:07:08.94,Dialogue Top,,0,0,0,,Just so you know, I'm not skipping work or anything.
+Dialogue: 0,0:07:08.94,0:07:12.73,Dialogue Top,,0,0,0,,It's just that I'm old now,\Nand my back and neck are always aching.
 Dialogue: 0,0:07:14.40,0:07:16.53,Dialogue,,0,0,0,,I remember back in my day...
 Dialogue: 0,0:07:19.40,0:07:21.45,Dialogue,,0,0,0,,Ah! Is that you?
 Dialogue: 0,0:07:21.45,0:07:23.03,Dialogue,,0,0,0,,That was taken 20 years ago.
-Dialogue: 0,0:07:23.03,0:07:28.04,Dialogue,,0,0,0,,That's Tatsumura{\rHonorifics - Dialogue}-san{\r}, and the one in the center\Nıs the former president who passed away last year.
+Dialogue: 0,0:07:23.03,0:07:28.04,Dialogue,,0,0,0,,That's Tatsumura{\rHonorifics - Dialogue}-san{\r}, and the one in the center\Nis the former president who passed away last year.
 Dialogue: 0,0:07:28.04,0:07:30.29,Dialogue,,0,0,0,,Eh? Who are these kids?
 Dialogue: 0,0:07:30.29,0:07:34.00,Dialogue,,0,0,0,,The current president.
-Dialogue: 0,0:07:34.88,0:07:36.88,Dialogue,,0,0,0,,Not his little sıster. That's Fumi{\rHonorifics - Dialogue}-chan{\r}.
+Dialogue: 0,0:07:34.88,0:07:36.88,Dialogue,,0,0,0,,Not his little sister. That's Fumi{\rHonorifics - Dialogue}-chan{\r}.
 Dialogue: 0,0:07:36.88,0:07:38.71,Dialogue,,0,0,0,,She s the president s wife.
 Dialogue: 0,0:07:38.71,0:07:40.55,Dialogue,,0,0,0,,Oh, they're childhood friends?
 Dialogue: 0,0:07:40.84,0:07:44.05,Dialogue,,0,0,0,,And that's her father, standing beside me.
@@ -161,7 +159,7 @@ Dialogue: 0,0:07:44.30,0:07:47.55,Dialogue,,0,0,0,,used to work here with us.
 Dialogue: 0,0:07:53.22,0:07:56.56,Dialogue,,0,0,0,,The predecessor only had one son.
 Dialogue: 0,0:07:56.56,0:08:00.81,Dialogue,,0,0,0,,So he treated Fumi{\rHonorifics - Dialogue}-chan{\r} like she\Nwas his own cute little daughter.
 Dialogue: 0,0:08:02.36,0:08:05.48,Dialogue,,0,0,0,,Fumi{\rHonorifics - Dialogue}-chan{\r}'s father was also an excellent sake brewer.
-Dialogue: 0,0:08:05.48,0:08:10.28,Dialogue,,0,0,0,,But tragedy struck when he fell ili and\Npassed away while she was ın middle school.
+Dialogue: 0,0:08:05.48,0:08:10.28,Dialogue,,0,0,0,,But tragedy struck when he fell ili and\Npassed away while she was in middle school.
 Dialogue: 0,0:08:12.28,0:08:16.24,Dialogue,,0,0,0,,However, the predecessor\Ndidn't ignore his remaining family.
 Dialogue: 0,0:08:16.24,0:08:19.29,Dialogue,,0,0,0,,He gave her encouragement and supported her financially...
 Dialogue: 0,0:08:19.29,0:08:21.79,Dialogue,,0,0,0,,Even paying for her high school tuition.
@@ -172,7 +170,7 @@ Dialogue: 0,0:08:30.96,0:08:32.59,Dialogue,,0,0,0,,Excuse me, ma'am.
 Dialogue: 0,0:08:32.59,0:08:36.09,Dialogue,,0,0,0,,re you the nurse who used to work at the Chuo Hospital?
 Dialogue: 0,0:08:37.01,0:08:39.93,Dialogue,,0,0,0,,Yes. That was five years ago, before I got married.
 Dialogue: 0,0:08:40.14,0:08:42.43,Dialogue,,0,0,0,,She was a nurse, right?
-Dialogue: 0,0:08:42.43,0:08:47.98,Dialogue,,0,0,0,,Yes, that's why she scheduled an appoıntment\Nfor the managing director to visit the hospital.
+Dialogue: 0,0:08:42.43,0:08:47.98,Dialogue,,0,0,0,,Yes, that's why she scheduled an appointment\Nfor the managing director to visit the hospital.
 Dialogue: 0,0:08:47.98,0:08:50.81,Dialogue,,0,0,0,,A physical checkup.
 Dialogue: 0,0:08:50.81,0:08:53.81,Dialogue,,0,0,0,,Oh, yeah... I remember him saying something about that.
 Dialogue: 0,0:08:53.82,0:08:56.48,Dialogue,,0,0,0,,Sorry, sorry. I'm late for your interview.
@@ -181,21 +179,21 @@ Dialogue: 0,0:09:02.28,0:09:07.53,Dialogue,,0,0,0,,If she had known he would hav
 Dialogue: 0,0:09:07.54,0:09:11.33,Dialogue,,0,0,0,,Eh? The mistress recommended that\NTatsumura{\rHonorifics - Dialogue}-san{\r} get the physical checkup?
 Dialogue: 0,0:09:11.41,0:09:17.33,Dialogue,,0,0,0,,He used to have a physical checkup done annually,\Nbut he's been busy as the managing director as of late.
 Dialogue: 0,0:09:17.34,0:09:20.05,Dialogue,,0,0,0,,However, the mistress was really\Npushing him to get one this year.
-Dialogue: 0,0:09:20.38,0:09:23.38,Giris,,0,0,0,,And he was murderered the next day.
-Dialogue: 0,0:09:23.38,0:09:25.55,Dialogue,,0,0,0,,Physıcal checkup?
-Dialogue: 0,0:09:26.01,0:09:26.93,Giris,,0,0,0,,C-Could that....?
-Dialogue: 0,0:09:27.30,0:09:28.64,Dialogue,,0,0,0,,Is somethıng wrong?
-Dialogue: 0,0:09:28.64,0:09:30.26,Dialogue,,0,0,0,,No, it's nothıng.
+Dialogue: 0,0:09:20.38,0:09:23.38,Thoughts,,0,0,0,,{\be10}And he was murderered the next day.
+Dialogue: 0,0:09:23.38,0:09:25.55,Dialogue,,0,0,0,,Physical checkup?
+Dialogue: 0,0:09:26.01,0:09:26.93,Thoughts,,0,0,0,,{\be10}C-Could that....?
+Dialogue: 0,0:09:27.30,0:09:28.64,Dialogue,,0,0,0,,Is something wrong?
+Dialogue: 0,0:09:28.64,0:09:30.26,Dialogue,,0,0,0,,No, it's nothing.
 Dialogue: 0,0:09:30.26,0:09:32.76,Dialogue,,0,0,0,,Well, I guess I better get back to work.
-Dialogue: 0,0:09:32.76,0:09:36.68,Dialogue,,0,0,0,,I have to get things done before\Nthe police start questıoning me agaın.
+Dialogue: 0,0:09:32.76,0:09:36.68,Dialogue,,0,0,0,,I have to get things done before\Nthe police start questioning me again.
 Dialogue: 0,0:09:36.68,0:09:37.93,Dialogue,,0,0,0,,See you later, young man.
-Dialogue: 0,0:09:40.40,0:09:41.90,Giris,,0,0,0,,Things a re almost wrapped up.
-Dialogue: 0,0:09:41.90,0:09:42.81,Giris,,0,0,0,,No...
-Dialogue: 0,0:09:42.82,0:09:46.65,Giris,,0,0,0,,if they used that trick, then the\Ntwo mysteries are already resolved.
-Dialogue: 0,0:09:47.36,0:09:48.99,Giris,,0,0,0,,But there's no evidence..
-Dialogue: 0,0:09:50.57,0:09:51.99,Giris,,0,0,0,,Sakurajima?
-Dialogue: 0,0:09:52.36,0:09:53.91,Giris,,0,0,0,,Waıt a mınute back then...
-Dialogue: 0,0:09:53.91,0:09:54.99,Giris,,0,0,0,,That s it!
+Dialogue: 0,0:09:40.40,0:09:41.90,Thoughts,,0,0,0,,{\be10}Things a re almost wrapped up.
+Dialogue: 0,0:09:41.90,0:09:42.81,Thoughts,,0,0,0,,{\be10}No...
+Dialogue: 0,0:09:42.82,0:09:46.65,Thoughts,,0,0,0,,{\be10}if they used that trick, then the\Ntwo mysteries are already resolved.
+Dialogue: 0,0:09:47.36,0:09:48.99,Thoughts,,0,0,0,,{\be10}But there's no evidence..
+Dialogue: 0,0:09:50.57,0:09:51.99,Thoughts,,0,0,0,,{\be10}Sakurajima?
+Dialogue: 0,0:09:52.36,0:09:53.91,Thoughts,,0,0,0,,{\be10}Wait a minute back then...
+Dialogue: 0,0:09:53.91,0:09:54.99,Thoughts,,0,0,0,,{\be10}That s it!
 Dialogue: 0,0:09:55.62,0:09:57.20,Dialogue,,0,0,0,,Oh, Mourisan.
 Dialogue: 0,0:09:57.20,0:10:00.16,Dialogue,,0,0,0,,I was just about to head there...
 Dialogue: 0,0:10:00.58,0:10:01.20,Dialogue,,0,0,0,,Huh?
@@ -215,20 +213,20 @@ Dialogue: 0,0:10:36.23,0:10:38.69,Dialogue,,0,0,0,,But you just called and asked
 Dialogue: 0,0:10:38.69,0:10:41.61,Dialogue,,0,0,0,,Oh my, Dad... You asked for something and forgot about it?
 Dialogue: 0,0:10:42.16,0:10:44.41,Dialogue,,0,0,0,,Oh! That thing, that thing!
 Dialogue: 0,0:10:44.41,0:10:47.41,Dialogue,,0,0,0,,I see. There wasn't any on him, huh?
-Dialogue: 0,0:10:47.79,0:10:49.74,Giris,,0,0,0,,You're pretty good at fooling people.
+Dialogue: 0,0:10:47.79,0:10:49.74,Thoughts,,0,0,0,,{\be10}You're pretty good at fooling people.
 Dialogue: 0,0:10:49.75,0:10:51.58,Dialogue,,0,0,0,,So, who is it?
 Dialogue: 0,0:10:51.58,0:10:52.83,Dialogue,,0,0,0,,Who?
 Dialogue: 0,0:10:52.83,0:10:54.87,Dialogue,,0,0,0,,Didn't you say that you knew on the phone?
 Dialogue: 0,0:10:54.88,0:10:57.92,Dialogue,,0,0,0,,And you said you'd reveal who\Nthe culprit was when we got here.
-Dialogue: 0,0:10:57.92,0:11:00.92,Dialogue,,0,0,0,,So, who ıs the culprit?
-Dialogue: 0,0:11:01.80,0:11:03.13,Giris,,0,0,0,,I might have saıd that..
+Dialogue: 0,0:10:57.92,0:11:00.92,Dialogue,,0,0,0,,So, who is the culprit?
+Dialogue: 0,0:11:01.80,0:11:03.13,Thoughts,,0,0,0,,{\be10}I might have said that..
 Dialogue: 0,0:11:06.38,0:11:07.38,Dialogue,,0,0,0,,Well, the culprit is... a woman.
 Dialogue: 0,0:11:07.51,0:11:08.89,Dialogue,,0,0,0,,Maezono Hitomi!
 Dialogue: 0,0:11:08.89,0:11:10.22,Dialogue,,0,0,0,,Dad!
 Dialogue: 0,0:11:10.22,0:11:11.97,Dialogue,,0,0,0,,And that is based on the fact that...
 Dialogue: 0,0:11:12.18,0:11:12.89,Dialogue,,0,0,0,,Uncle!
-Dialogue: 0,0:11:12.89,0:11:15.22,Dialogue,,0,0,0,,If you know who dıd it go and\N\in front of everyone and tell them.
-Dialogue: 0,0:11:15.23,0:11:16.35,Dialogue,,0,0,0,,Rıght.
+Dialogue: 0,0:11:12.89,0:11:15.22,Dialogue,,0,0,0,,If you know who did it go and\N\in front of everyone and tell them.
+Dialogue: 0,0:11:15.23,0:11:16.35,Dialogue,,0,0,0,,Right.
 Dialogue: 0,0:11:26.82,0:11:30.20,Dialogue,,0,0,0,,We know that Tatsumura{\rHonorifics - Dialogue}-san{\r}'s death was a murder.
 Dialogue: 0,0:11:30.20,0:11:32.41,Dialogue,,0,0,0,,But who is the murderer?
 Dialogue: 0,0:11:33.91,0:11:35.20,Dialogue,,0,0,0,,The murderer is...
@@ -281,12 +279,12 @@ Dialogue: 0,0:14:36.18,0:14:37.43,Dialogue,,0,0,0,,Wasn't it?
 Dialogue: 0,0:14:37.73,0:14:40.69,Dialogue,,0,0,0,,We were just there to set up her alibi.
 Dialogue: 0,0:14:40.69,0:14:44.23,Dialogue,,0,0,0,,İt was a setup to throw the investigation off...
 Dialogue: 0,0:14:44.23,0:14:50.15,Dialogue,,0,0,0,,By making us believe that one of your\Nco workers had killed Tatsumura san just before we arrived.
-Dialogue: 0,0:14:50.57,0:14:53.20,Dialogue,,0,0,0,,Isn't that rıght, Madam?
+Dialogue: 0,0:14:50.57,0:14:53.20,Dialogue,,0,0,0,,Isn't that right, Madam?
 Dialogue: 0,0:14:54.37,0:14:55.95,Dialogue,,0,0,0,,T-That can't be...
 Dialogue: 0,0:14:57.74,0:14:59.12,Dialogue,,0,0,0,,M Mouri{\rHonorifics - Dialogue}-san{\r}.
 Dialogue: 0,0:14:59.12,0:15:02.29,Dialogue,,0,0,0,,I told you the culprit was a woman.
 Dialogue: 0,0:15:02.29,0:15:05.04,Dialogue,,0,0,0,,So the woman was t
-Dialogue: 0,0:15:06.92,0:15:09.63,Dialogue,,0,0,0,,İt was Shıraısh Fumıkosan.
+Dialogue: 0,0:15:06.92,0:15:09.63,Dialogue,,0,0,0,,İt was Shiraish Fumikosan.
 Dialogue: 0,0:15:12.51,0:15:21.64,Dialogue,,0,0,0,,That morning, after offering to give us a tour...
 Dialogue: 0,0:15:25.31,0:15:26.52,Dialogue,,0,0,0,,Madam?
 Dialogue: 0,0:15:28.39,0:15:29.81,Dialogue,,0,0,0,,Oh, Madam.
@@ -308,7 +306,7 @@ Dialogue: 0,0:16:28.49,0:16:29.74,Dialogue,,0,0,0,,What's wrong?
 Dialogue: 0,0:16:30.15,0:16:32.61,Dialogue,,0,0,0,,The first of the two mysteries was...
 Dialogue: 0,0:16:32.61,0:16:35.53,Dialogue,,0,0,0,,Why did the culprit carry the body out of the house?
 Dialogue: 0,0:16:35.53,0:16:38.04,Dialogue,,0,0,0,,The answer to that is actually quite simple.
-Dialogue: 0,0:16:38.04,0:16:41.66,Dialogue,,0,0,0,,The body was never ın the house from the start.
+Dialogue: 0,0:16:38.04,0:16:41.66,Dialogue,,0,0,0,,The body was never in the house from the start.
 Dialogue: 0,0:16:42.16,0:16:44.62,Dialogue,,0,0,0,,But why were the lights on?
 Dialogue: 0,0:16:47.21,0:16:53.01,Dialogue,,0,0,0,,Before she picked us up, she used Tatsumura{\rHonorifics - Dialogue}-san{\r}'s\Nhouse key, which she stole after she put him to sleep...
 Dialogue: 0,0:16:53.01,0:16:59.80,Dialogue,,0,0,0,,To enter his house, turn on the lights,\Nand then leave with the front door remaining unlocked.
@@ -330,8 +328,8 @@ Dialogue: 0,0:18:22.08,0:18:28.09,Dialogue,,0,0,0,,İn short, this murder case o
 Dialogue: 0,0:18:30.80,0:18:32.09,Dialogue,,0,0,0,,That was our blind spot.
 Dialogue: 0,0:18:32.09,0:18:33.46,Dialogue,,0,0,0,,I don't blame you.
 Dialogue: 0,0:18:33.47,0:18:37.09,Dialogue,,0,0,0,,No one would think to check alibis for\Nwhere someone was during the investigation
-Dialogue: 0,0:18:37.76,0:18:45.10,Dialogue,,0,0,0,,You made us thınk Tatsumura san was\Nmurdered just before we arrived at his house.
-Dialogue: 0,0:18:45.43,0:18:49.19,Dialogue,,0,0,0,,Because of that, you were able\Nto create a seemingly airtight alibı.
+Dialogue: 0,0:18:37.76,0:18:45.10,Dialogue,,0,0,0,,You made us think Tatsumura san was\Nmurdered just before we arrived at his house.
+Dialogue: 0,0:18:45.43,0:18:49.19,Dialogue,,0,0,0,,Because of that, you were able\Nto create a seemingly airtight alibi.
 Dialogue: 0,0:18:49.19,0:18:53.15,Dialogue,,0,0,0,,After all, you were with us the entire day.
 Dialogue: 0,0:18:53.44,0:18:55.15,Dialogue,,0,0,0,,As or the second mystery...
 Dialogue: 0,0:18:55.15,0:18:59.86,Dialogue,,0,0,0,,Why did the culprit tell us\Nwhere the body was two days later?
@@ -347,7 +345,7 @@ Dialogue: 0,0:19:36.18,0:19:37.43,Dialogue,,0,0,0,,What does that have to do wit
 Dialogue: 0,0:19:37.64,0:19:41.65,Dialogue,,0,0,0,,Having an injection from a syringe\Nmakes a small prick mark<appear on your arm.
 Dialogue: 0,0:19:41.65,0:19:44.82,Dialogue,,0,0,0,,The same mark would be there after having blood drawn.
 Dialogue: 0,0:19:44.82,0:19:51.86,Dialogue,,0,0,0,,She knew no one would question the prick mark's presence\Nif he had had a physical checkup done the day before.
-Dialogue: 0,0:19:51.86,0:19:56.12,Dialogue,,0,0,0,,Basıcally, you carefully injected the syringe in\Nthe same spot he already had his blood drawn from.
+Dialogue: 0,0:19:51.86,0:19:56.12,Dialogue,,0,0,0,,Basically, you carefully injected the syringe in\Nthe same spot he already had his blood drawn from.
 Dialogue: 0,0:19:57.66,0:19:58.70,Dialogue,,0,0,0,,I see.
 Dialogue: 0,0:19:58.91,0:20:00.79,Dialogue,,0,0,0,,But why?
 Dialogue: 0,0:20:00.79,0:20:02.71,Dialogue,,0,0,0,,Why did you kill Tatsumura{\rHonorifics - Dialogue}-san{\r}?
@@ -383,20 +381,20 @@ Dialogue: 0,0:21:46.33,0:21:50.38,Dialogue,,0,0,0,,There a re people all over Ja
 Dialogue: 0,0:21:51.51,0:21:52.67,Dialogue,,0,0,0,,And I II be waiting for you...
 Dialogue: 0,0:21:52.67,0:21:56.26,Dialogue,,0,0,0,,Because just like our sake\Nmy feelings for you a re the real thing.
 Dialogue: 0,0:21:57.47,0:22:02.22,Dialogue,,0,0,0,,And so, yet another case was solved.
-Dialogue: 0,0:22:05.39,0:22:14.02,Dialogue,,0,0,0,,Bunu fark ettiğimde, nostaljik\Nbiri olmak zorunda kaldım.
-Dialogue: 0,0:22:15.90,0:22:23.91,Dialogue,,0,0,0,,Rüyanın devamı öngören dünlerimiz vardı.
+Dialogue: 0,0:22:05.39,0:22:14.02,Dialogue,,0,0,0,,Bunu fark ettiğimde, nostaljik\Nbiri olmak zorunda kaldim.
+Dialogue: 0,0:22:15.90,0:22:23.91,Dialogue,,0,0,0,,Rüyanin devami öngören dünlerimiz vardi.
 Dialogue: 0,0:22:25.12,0:22:30.50,Dialogue,,0,0,0,,O gün çok büyümüş gibiydi...
-Dialogue: 0,0:22:30.75,0:22:36.50,Dialogue,,0,0,0,,Veda bile edemeden, şemsiyemin altına sakladım.
-Dialogue: 0,0:22:36.92,0:22:42.30,Dialogue,,0,0,0,,Eğer yolları tekrar geçersek... Lütfen...
+Dialogue: 0,0:22:30.75,0:22:36.50,Dialogue,,0,0,0,,Veda bile edemeden, şemsiyemin altina sakladim.
+Dialogue: 0,0:22:36.92,0:22:42.30,Dialogue,,0,0,0,,Eğer yollari tekrar geçersek... Lütfen...
 Dialogue: 0,0:22:42.63,0:22:45.97,Dialogue,,0,0,0,,O zaman, unutma beni.
 Dialogue: 0,0:22:46.13,0:22:55.81,Dialogue,,0,0,0,,Değişmeyecek aşk gibi değil sevgi gibi değil...
-Dialogue: 0,0:22:56.39,0:23:06.86,Dialogue,,0,0,0,,Her zaman olacağını düşünüyorum,\Nsadece seni seviyorum ve bu...
-Dialogue: 0,0:23:07.24,0:23:16.62,Dialogue,,0,0,0,,Amaçsız duygularımı tutarak, insanların\Nsık sık yaptığı gibi geriye bakıyorum.
-Dialogue: 0,0:23:16.99,0:23:29.29,Dialogue,,0,0,0,,Sahneyi durdur, yavaşça\Nkaybolmadan buluşmak bizim tek şansımız.
+Dialogue: 0,0:22:56.39,0:23:06.86,Dialogue,,0,0,0,,Her zaman olacağini düşünüyorum,\Nsadece seni seviyorum ve bu...
+Dialogue: 0,0:23:07.24,0:23:16.62,Dialogue,,0,0,0,,Amaçsiz duygularimi tutarak, insanlarin\Nsik sik yaptiği gibi geriye bakiyorum.
+Dialogue: 0,0:23:16.99,0:23:29.29,Dialogue,,0,0,0,,Sahneyi durdur, yavaşça\Nkaybolmadan buluşmak bizim tek şansimiz.
 Dialogue: 0,0:23:35.51,0:23:39.09,Dialogue,,0,0,0,,Off, Takakuma isn't here after all...
 Dialogue: 0,0:23:39.10,0:23:39.89,Dialogue,,0,0,0,,Takakuma, Takakuma...
 Dialogue: 0,0:23:40.39,0:23:42.89,Dialogue,,0,0,0,,Ah, screw this! I don t care what I get!
 Dialogue: 0,0:23:45.31,0:23:47.18,Dialogue,,0,0,0,,You're still going to buy more?
-Dialogue: 0,0:23:47.64,0:23:50.98,Giris,,0,0,0,,So you re goıng with quantıty over quality, huh?
+Dialogue: 0,0:23:47.64,0:23:50.98,Thoughts,,0,0,0,,{\be10}So you re going with quantity over quality, huh?
 Dialogue: 0,0:23:51.98,0:23:54.36,Dialogue,,0,0,0,,Black vinegar is really good for you!
-Dialogue: 0,0:23:55.94,0:23:58.03,Giris,,0,0,0,,Like father, like daughter
+Dialogue: 0,0:23:55.94,0:23:58.03,Thoughts,,0,0,0,,{\be10}Like father, like daughter

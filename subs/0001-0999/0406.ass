@@ -33,7 +33,6 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: title01,Arial,14,&H00000000,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,2,0,0,70,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -134,7 +133,7 @@ Dialogue: 0,0:12:45.93,0:12:47.63,Dialogue,,0,0,0,,Hey Hattori.
 Dialogue: 0,0:12:48.39,0:12:49.76,Dialogue,,0,0,0,,W-What?
 Dialogue: 0,0:12:51.26,0:12:53.64,Dialogue,,0,0,0,,Today we came here to watch, didn't we?
 Dialogue: 0,0:12:53.72,0:12:54.81,Dialogue,,0,0,0,,Maybe...
-Dialogue: 0,0:13:01.55,0:13:04.86,title01,,0,0,0,,{\fade(200,0)\b1}Hoshikawa\NWaiting Room
+Dialogue: 0,0:13:01.55,0:13:04.86,Signs,,0,0,0,,{\b1}Hoshikawa\NWaiting Room
 Dialogue: 0,0:13:02.49,0:13:04.76,Dialogue,,0,0,0,,I'm truly sorry!
 Dialogue: 0,0:13:05.65,0:13:09.16,Dialogue,,0,0,0,,I think it's dangerous, so.. right, Ran?
 Dialogue: 0,0:13:09.28,0:13:11.28,Dialogue,,0,0,0,,Yes. I'm sorry.

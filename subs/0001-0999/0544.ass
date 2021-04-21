@@ -33,9 +33,6 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: title001,@GungsuhChe,15,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1,0.5,2,10,10,60,1
-Style: title002,Comic Sans MS,17,&H00FFFFFF,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,0.1,0,2,10,10,60,1
-Style: title003,Comic Sans MS,17,&H00FFFFFF,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,0.1,0,2,0,260,230,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -79,7 +76,7 @@ Dialogue: 0,0:03:59.21,0:04:00.54,Dialogue,,0,0,0,,Stop it, Dad!
 Dialogue: 0,0:04:00.54,0:04:01.67,Dialogue,,0,0,0,,Going to the bathroom.
 Dialogue: 0,0:04:02.21,0:04:05.84,Dialogue,,0,0,0,,All right, please welcome S&G's most famous song.
 Dialogue: 0,0:04:06.55,0:04:08.88,Dialogue,,0,0,0,,They aren't gonna play Youko{\rHonorifics - Dialogue}-chan{\r}'s?
-Dialogue: 0,0:04:09.18,0:04:12.89,title001,,0,0,0,,{\fad(850,0)}8th Floor
+Dialogue: 0,0:04:09.18,0:04:12.89,Signs,,0,0,0,,8th Floor
 Dialogue: 0,0:04:13.68,0:04:15.26,Dialogue,,0,0,0,,Drawings...
 Dialogue: 0,0:04:15.26,0:04:17.47,Dialogue,,0,0,0,,Reminds me of having to draw pictures at school.
 Dialogue: 0,0:04:18.39,0:04:21.31,Dialogue,,0,0,0,,To think I have to pretend to draw like a kid...
@@ -106,13 +103,13 @@ Dialogue: 0,0:05:20.04,0:05:20.91,Dialogue,,0,0,0,,Huh?
 Dialogue: 0,0:05:20.91,0:05:21.87,Dialogue,,0,0,0,,Where's Ran{\rHonorifics - Dialogue}-neechan{\r}?
 Dialogue: 0,0:05:22.54,0:05:26.13,Dialogue,,0,0,0,,That guy said he had a CD that Ran wanted pretty bad...
 Dialogue: 0,0:05:26.59,0:05:28.34,Dialogue,,0,0,0,,So they went to the green room to grab it.
-Dialogue: 0,0:05:26.59,0:05:31.68,title002,,0,0,0,,{\fad(100,100)\an9\xbord8\ybord10\b0\be40\blur5}A {\b1}green room {\b0}is an area in entertainment venues\Ndesignated as a resting lounge for performers.
+Dialogue: 0,0:05:26.59,0:05:31.68,Signs,,0,0,0,,{\an9\xbord8\ybord10\b0}A {\b1}green room {\b0}is an area in entertainment venues\Ndesignated as a resting lounge for performers.
 Dialogue: 0,0:05:28.34,0:05:29.42,Dialogue,,0,0,0,,I see.
-Dialogue: 0,0:05:29.42,0:05:31.92,title001,,0,0,0,,Basement 1st Floor
+Dialogue: 0,0:05:29.42,0:05:31.92,Signs,,0,0,0,,Basement 1st Floor
 Dialogue: 0,0:05:33.09,0:05:34.97,Dialogue,,0,0,0,,Is the green room still open?
 Dialogue: 0,0:05:34.97,0:05:37.18,Dialogue,,0,0,0,,No, the key's been returned.
 Dialogue: 0,0:05:37.97,0:05:38.51,Dialogue,,0,0,0,,Here.
-Dialogue: 0,0:05:43.69,0:05:51.70,title003,,0,0,0,,{\fad(0,0)\xbord8\ybord8\b0\be40\blur5}Green Room\NAuthorized Personnel Only
+Dialogue: 0,0:05:43.69,0:05:51.70,Signs,,0,0,0,,{\xbord8\ybord8\b0}Green Room\NAuthorized Personnel Only
 Dialogue: 0,0:05:46.65,0:05:49.15,Dialogue,,0,0,0,,Sorry, but please wait here for a moment.
 Dialogue: 0,0:05:49.15,0:05:49.86,Dialogue,,0,0,0,,All right.
 Dialogue: 0,0:05:54.36,0:05:56.70,Dialogue,,0,0,0,,So this is how they store their instruments, huh?

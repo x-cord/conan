@@ -33,7 +33,6 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: Poodles,MV Boli M,70,&H400102B5,&H000809FC,&H00CFF2F3,&H80000000,0,0,0,0,100,100,0,0,1,4,2,8,10,10,25,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -71,7 +70,7 @@ Dialogue: 0,0:03:33.78,0:03:35.32,Dialogue,,0,0,0,,Are you okay, Ran{\rHonorific
 Dialogue: 0,0:03:35.73,0:03:37.07,Dialogue,,0,0,0,,H-Hikaru{\rHonorifics - Dialogue}-san{\r}...{ひ　ひかるさんが...。}
 Dialogue: 0,0:03:37.07,0:03:38.90,Dialogue,,0,0,0,,Hey, you!{おい　あんた！（ひかる）ん？}
 Dialogue: 0,0:03:45.24,0:03:46.33,Dialogue,,0,0,0,,Gyōza?{（平次・コナン）餃子？}
-Dialogue: 0,0:03:47.00,0:03:51.67,Signs,,0,0,0,,Hikaru Hinohara (24)\NTorakura Family Maid
+Dialogue: 0,0:03:47.00,0:03:51.67,Character Card,,0,0,0,,Hikaru Hinohara (24)\NTorakura Family Maid
 Dialogue: 0,0:03:48.14,0:03:50.33,Dialogue Top,,0,0,0,,Ah, I was so hungry...{んっ。私　お腹がすいてて→}
 Dialogue: 0,0:03:50.33,0:03:53.67,Dialogue Top,,0,0,0,,And when I smelled the gyōza, I just couldn't resist...{餃子の匂い嗅いだら\N我慢できなくなっちゃって...。}
 Dialogue: 0,0:03:54.15,0:03:56.30,Dialogue,,0,0,0,,I sincerely apologise for gorging on them without asking!{ごめんなさい！\N勝手に食べちゃって。}
@@ -110,15 +109,15 @@ Dialogue: 0,0:05:34.13,0:05:37.90,Dialogue,,0,0,0,,'Cause almost half of the biz
 Dialogue: 0,0:05:38.20,0:05:42.28,Dialogue,,0,0,0,,And if everyone hears the explanation, maybe their appetite will come back, right?{\N}
 Dialogue: 0,0:05:48.29,0:05:52.28,Dialogue,,0,0,0,,Hey, are you for real? You actually solved the mystery?{\N}
 Dialogue: 0,0:05:52.28,0:05:54.54,Dialogue,,0,0,0,,Yeah, pretty much.{}
-Dialogue: 0,0:05:54.79,0:06:01.46,Signs,,0,0,0,,Kishiharu Torakura (45)\N3rd Son of the Torakura Family
-Dialogue: 0,0:05:54.79,0:06:01.46,Signs,,0,0,0,,Ruri Torakura (38)\NAsanobu's Wife
+Dialogue: 0,0:05:54.79,0:06:01.46,Character Card,,0,0,0,,Kishiharu Torakura (45)\N3rd Son of the Torakura Family
+Dialogue: 0,0:05:54.79,0:06:01.46,Character Card,,0,0,0,,Ruri Torakura (38)\NAsanobu's Wife
 Dialogue: 0,0:05:54.54,0:05:58.24,Dialogue Top,,0,0,0,,What mystery? Don't we know exactly who the culprit is?{\N}
 Dialogue: 0,0:05:58.24,0:06:01.67,Dialogue Top,,0,0,0,,Hakuya-{\i1}oniisama{\i0} was the one who killed my husband, right?{}
-Dialogue: 0,0:06:01.92,0:06:08.89,Signs,,0,0,0,,Mina Torakura (26)\N2nd Daughter of the Torakura Family
-Dialogue: 0,0:06:01.92,0:06:08.89,Signs,,0,0,0,,Jhei Hagawa (29)\NKamiyo's Lover
+Dialogue: 0,0:06:01.92,0:06:08.89,Character Card,,0,0,0,,Mina Torakura (26)\N2nd Daughter of the Torakura Family
+Dialogue: 0,0:06:01.92,0:06:08.89,Character Card,,0,0,0,,Jhei Hagawa (29)\NKamiyo's Lover
 Dialogue: 0,0:06:01.67,0:06:06.64,Dialogue Top,,0,0,0,,So did you figure out the reason why our brother turned into a vampire?{\N}
 Dialogue: 0,0:06:06.64,0:06:11.06,Dialogue Top,,0,0,0,,Well, I understand it's tempting to think of it that way since too much bizarre stuff has happened.{\N\N\N\N\N}
-Dialogue: 0,0:06:11.22,0:06:14.68,Signs,,0,0,0,,Rikushige Koga (71)\NTorakura Family Butler
+Dialogue: 0,0:06:11.22,0:06:14.68,Character Card,,0,0,0,,Rikushige Koga (71)\NTorakura Family Butler
 Dialogue: 0,0:06:11.76,0:06:14.68,Dialogue Top,,0,0,0,,But come on, do vampires really exist?{\N}
 Dialogue: 0,0:06:14.99,0:06:18.67,Dialogue,,0,0,0,,You can judge it yourself after you see the trick!{\N\N\N}
 Dialogue: 0,0:06:19.58,0:06:20.57,Dialogue,,0,0,0,,Here?
@@ -382,17 +381,3 @@ Dialogue: 0,0:24:13.74,0:24:18.75,Dialogue,,0,0,0,,Next Conan's Hint: Secret Pas
 Dialogue: 0,0:24:18.75,0:24:20.19,Dialogue Top,,0,0,0,,Hattori, something doesn't smell right...
 Dialogue: 0,0:24:20.19,0:24:21.89,Dialogue Top,,0,0,0,,Sorry, was eating gyōza.
 Dialogue: 0,0:24:21.89,0:24:22.98,Dialogue Top,,0,0,0,,I meant about the case.
-Dialogue: 0,0:22:24.71,0:22:29.88,Poodles,,0,0,0,,{\fax0.25\blur2.5\3c&HFFFFFF}kimi no egao ga nani yori mo suki datta
-Dialogue: 0,0:22:30.22,0:22:33.26,Poodles,,0,0,0,,{\fax0.25\blur2.5\3c&HFFFFFF}onaji koto de waraiatta ne
-Dialogue: 0,0:22:33.59,0:22:41.68,Poodles,,0,0,0,,{\fax0.25\blur2.5\3c&HFFFFFF}futoshita shunkan ni iron'na kimi o omoidasu
-Dialogue: 0,0:22:43.52,0:22:49.73,Poodles,,0,0,0,,{\fax0.25\blur2.5\3c&HF2F2F3&\c&H880088}'boku ga genjitsuteki sugita' to ima ni natte kuyande'ru
-Dialogue: 0,0:22:51.24,0:22:57.83,Poodles,,0,0,0,,{\fax0.25\blur2.5\3c&HF2F2F3&\c&H880088}'kimi to no yume no tame ni' motto ikiru beki datta
-Dialogue: 0,0:22:58.87,0:23:02.12,Poodles,,0,0,0,,{\fax0.25\blur2.5\c&H008800\3c&HF2F2F3}kimi no inai akimatsuri
-Dialogue: 0,0:23:02.29,0:23:07.59,Poodles,,0,0,0,,{\fax0.25\blur2.5\3c&HF2F2F3&\c&H880000\t(4470,5220,\c&H0\3c&H0\4c&H0)}ima no boku wa younger than yesterday
-Dialogue: 0,0:23:08.34,0:23:13.42,Poodles,,0,0,0,,{\fax0.25\blur2.5\3c&HF2F2F3&}hanabira ga mau yō ni kimi wa waratta ne
-Dialogue: 0,0:23:13.76,0:23:16.39,Poodles,,0,0,0,,{\fax0.25\blur2.5\3c&HF2F2F3&\c&H008800}motto warawasetakatta
-Dialogue: 0,0:23:16.72,0:23:23.43,Poodles,,0,0,0,,{\fax0.25\blur2.5\3c&HF2F2F3&\c&H008800}hareteiru no ni tsumetai ame ga futteiru
-Dialogue: 0,0:23:23.60,0:23:29.15,Poodles,,0,0,0,,{\fax0.25\blur2.5\3c&HF2F2F3&\c&H008800}kimi no egao ga nani yori mo suki datta
-Dialogue: 0,0:23:29.48,0:23:32.44,Poodles,,0,0,0,,{\fax0.25\blur2.5\3c&HF2F2F3&\c&H008800}min'na hitori ja ikirenai
-Dialogue: 0,0:23:32.61,0:23:36.24,Poodles,,0,0,0,,{\fax0.25\blur2.5\3c&HF2F2F3&\c&H008800}kimi no kaeru basho de
-Dialogue: 0,0:23:36.57,0:23:41.41,Poodles,,0,0,0,,{\fax0.25\blur2.5\3c&HF2F2F3&\c&H008800}boku wa zutto aritsuzuketai

@@ -33,7 +33,6 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: title001,Century Gothic,15,&H00FFFFFF,&H000000FF,&H64000000,&H00000000,-1,0,0,0,100,100,0,0,3,0.1,0,2,10,10,10,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -258,7 +257,7 @@ Dialogue: 0,0:11:52.35,0:11:55.55,Dialogue,,0,0,0,,I believe it will be complete
 Dialogue: 0,0:11:55.59,0:11:58.18,Dialogue,,0,0,0,,Please be sure to bring Auntie here to see it.
 Dialogue: 0,0:11:58.19,0:11:59.10,Dialogue,,0,0,0,,-Rokurou.
 Dialogue: 0,0:12:00.02,0:12:01.15,Dialogue,,0,0,0,,There's no doubt...
-Dialogue: 0,0:12:02.10,0:12:03.82,title001,,0,0,0,,{\an9\fad(100,0)}Addressed To\NTohto Beika City, Beika Town\N15-7 {\1c&HB8F2EE&}Kafuuen
+Dialogue: 0,0:12:02.10,0:12:03.82,Signs,,0,0,0,,{\an9}Addressed To\NTohto Beika City, Beika Town\N15-7 Kafuuen
 Dialogue: 0,0:12:01.15,0:12:02.10,Dialogue,,0,0,0,,This is Sensei's handwriting!
 Dialogue: 0,0:12:04.57,0:12:05.82,Dialogue,,0,0,0,,"Eguchi{\rHonorifics - Dialogue}-san{\r}."
 Dialogue: 0,0:12:05.82,0:12:07.28,Dialogue,,0,0,0,,That's your name, isn't it, Miss?
@@ -381,7 +380,7 @@ Dialogue: 0,0:17:16.38,0:17:19.09,Dialogue,,0,0,0,,We should go check if there's
 Dialogue: 0,0:17:20.67,0:17:22.43,Dialogue,,0,0,0,,Not in this room, it looks like.
 Dialogue: 0,0:17:22.43,0:17:23.68,Dialogue,,0,0,0,,Let's try elsewhere!
 Dialogue: 0,0:17:24.68,0:17:27.06,Dialogue,,0,0,0,,Boy, they sure are noisy...
-Dialogue: 0,0:17:27.52,0:17:31.01,title001,,0,0,0,,{\an8\1c&HBAD8DE&\xbord5\ybord5\fad(0,0)\b1}At Aunt Saeko's House
+Dialogue: 0,0:17:27.52,0:17:31.01,Signs,,0,0,0,,{\an8\xbord5\ybord5\b1}At Aunt Saeko's House
 Dialogue: 0,0:17:28.02,0:17:29.47,Dialogue,,0,0,0,,And stop making messes...
 Dialogue: 0,0:17:30.39,0:17:31.02,Dialogue,,0,0,0,,Huh?
 Dialogue: 0,0:17:32.10,0:17:33.60,Dialogue,,0,0,0,,"At Aunt Saeko's House"?

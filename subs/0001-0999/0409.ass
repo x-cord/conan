@@ -33,7 +33,6 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: title01,Times New Roman,16,&H00FFFFFF,&H000000FF,&H0089481C,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,0,0,235,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -231,7 +230,7 @@ Dialogue: 0,0:10:09.35,0:10:10.48,Dialogue,,0,0,0,,He's right here.
 Dialogue: 0,0:10:10.48,0:10:14.53,Dialogue,,0,0,0,,Anyways... why didn't I get to play the princess?!
 Dialogue: 0,0:10:16.03,0:10:19.07,Dialogue,,0,0,0,,But Renge{\rHonorifics - Dialogue}-san{\r} never came back.
 Dialogue: 0,0:10:24.29,0:10:26.83,Dialogue,,0,0,0,,The morning of the opening day of the show came.
-Dialogue: 0,0:10:27.45,0:10:30.95,title01,,0,0,0,,{\fs10}A Theatrical Production Performed by the Renowned Tamanosuke Theater Troupe\N{\fs16}The Legend of the\NBamboo Cutter
+Dialogue: 0,0:10:27.45,0:10:30.95,Signs,,0,0,0,,A Theatrical Production Performed by the Renowned Tamanosuke Theater Troupe\NThe Legend of the\NBamboo Cutter
 Dialogue: 0,0:10:36.55,0:10:38.38,Dialogue,,0,0,0,,Only three more hours, huh?
 Dialogue: 0,0:10:39.47,0:10:43.01,Dialogue,,0,0,0,,We can't just cancel the show at this point.
 Dialogue: 0,0:10:43.01,0:10:45.47,Dialogue,,0,0,0,,We're going to perform without a protagonist?

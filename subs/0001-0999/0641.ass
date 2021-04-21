@@ -33,7 +33,6 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: Adds,Arial,50,&H00FFFFFF,&H000000FF,&H003B5F1B,&H00000000,0,0,0,0,100,100,0,0,1,2,0,7,15,15,15,1
 
 [Events]
 Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
@@ -42,9 +41,9 @@ Dialogue: 0,0:00:04.06,0:00:08.15,Dialogue,,0,0,0,,We took on the quest of inves
 Dialogue: 0,0:00:09.67,0:00:13.08,Dialogue,,0,0,0,,The clues provided to us were her eight sketches.
 Dialogue: 0,0:00:16.34,0:00:22.14,Dialogue,,0,0,0,,Amid our investigation, maybe unsurprisingly, we came across\Nher friend Nonomiya Kanae{\rHonorifics - Dialogue}-san{\r} who had been looking for her.
 Dialogue: 0,0:00:23.10,0:00:27.15,Dialogue Top,,0,0,0,,Based on Kanae{\rHonorifics - Dialogue}-san{\r}'s Intel, we learned\Nthat her name is Kichise Mayuko.
-Dialogue: 0,0:00:23.98,0:00:25.85,Signs,,0,0,0,,Kichise Mayuko (25)
+Dialogue: 0,0:00:23.98,0:00:25.85,Character Card,,0,0,0,,Kichise Mayuko (25)
 Dialogue: 0,0:00:27.61,0:00:33.65,Dialogue Top,,0,0,0,,And Mayuko{\rHonorifics - Dialogue}-san{\r} happened to be the witness who could prove the\Ninnocence of Kanae{\rHonorifics - Dialogue}-san{\r}'s brother, currently arrested for robbery.
-Dialogue: 0,0:00:32.49,0:00:34.57,Signs,,0,0,0,,Nonomiya Keigo (28)\NKanae's Elder Brother
+Dialogue: 0,0:00:32.49,0:00:34.57,Character Card,,0,0,0,,Nonomiya Keigo (28)\NKanae's Elder Brother
 Dialogue: 0,0:00:34.57,0:00:38.03,Dialogue,,0,0,0,,If Mayuko{\rHonorifics - Dialogue}-san{\r} cannot retrieve her\Nmemory, his name will not be cleared.
 Dialogue: 0,0:00:39.87,0:00:41.95,Dialogue,,0,0,0,,As we continued on our search...
 Dialogue: 0,0:00:41.95,0:00:47.13,Dialogue,,0,0,0,,The fact that Mayuko{\rHonorifics - Dialogue}-san{\r}'s room was disarranged\Nand a suspicious shadow was following us...
@@ -58,7 +57,7 @@ Dialogue: 0,0:01:04.58,0:01:06.53,Dialogue,,0,0,0,,At the conclusion of the Okay
 Dialogue: 0,0:01:06.56,0:01:08.15,Dialogue,,0,0,0,,Perceiving the one and only truth...
 Dialogue: 0,0:01:08.15,0:01:09.90,Dialogue,,0,0,0,,The appearance of a child and the intellect of an adult...
 Dialogue: 0,0:01:09.92,0:01:11.97,Dialogue,,0,0,0,,His name is: Detective Conan!
-Dialogue: 0,0:02:59.26,0:03:02.59,Signs,,0,0,0,,Washuzan Observation Deck
+Dialogue: 0,0:02:59.26,0:03:02.59,Character Card,,0,0,0,,Washuzan Observation Deck
 Dialogue: 0,0:03:09.41,0:03:10.50,Dialogue,,0,0,0,,Help me!
 Dialogue: 0,0:03:10.52,0:03:11.27,Dialogue,,0,0,0,,Somebody!
 Dialogue: 0,0:03:11.44,0:03:12.73,Dialogue,,0,0,0,,Take this!
@@ -87,7 +86,7 @@ Dialogue: 0,0:04:20.28,0:04:23.62,Dialogue,,0,0,0,,I have a feeling that she's a
 Dialogue: 0,0:04:26.82,0:04:28.70,Dialogue,,0,0,0,,So you came to visit a friend?
 Dialogue: 0,0:04:29.08,0:04:30.71,Dialogue,,0,0,0,,A coincidence again.
 Dialogue: 0,0:04:30.71,0:04:31.99,Dialogue,,0,0,0,,Fate is a curious thing!
-Dialogue: 0,0:04:32.21,0:04:38.34,Signs,,0,0,0,,Taira Kenzou (40)\NPatissier
+Dialogue: 0,0:04:32.21,0:04:38.34,Character Card,,0,0,0,,Taira Kenzou (40)\NPatissier
 Dialogue: 0,0:04:32.59,0:04:34.80,Dialogue Top,,0,0,0,,However, I am shocked.
 Dialogue: 0,0:04:34.80,0:04:36.33,Dialogue Top,,0,0,0,,To the she'd lost her memory.
 Dialogue: 0,0:04:37.12,0:04:39.48,Dialogue Top,,0,0,0,,If there's anything I can do to help, ask away.
@@ -103,7 +102,7 @@ Dialogue: 0,0:04:57.90,0:05:01.82,Dialogue,,0,0,0,,It's because that man is like
 Dialogue: 0,0:05:01.82,0:05:03.07,Dialogue,,0,0,0,,We've also done a report on him.
 Dialogue: 0,0:05:06.05,0:05:06.66,Dialogue,,0,0,0,,See?
 Dialogue: 0,0:05:07.33,0:05:09.45,Dialogue,,0,0,0,,Is this person Taira{\rHonorifics - Dialogue}-san{\r}?
-Dialogue: 0,0:05:08.16,0:05:12.11,Signs,,0,0,0,,Nashida Teruyuki (35)\NTown Magazine Reporter\NFormer Sommelier
+Dialogue: 0,0:05:08.16,0:05:12.11,Character Card,,0,0,0,,Nashida Teruyuki (35)\NTown Magazine Reporter\NFormer Sommelier
 Dialogue: 0,0:05:09.45,0:05:10.41,Dialogue,,0,0,0,,Yeah
 Dialogue: 0,0:05:10.41,0:05:13.25,Dialogue,,0,0,0,,He looks completely different now, so I was surprised.
 Dialogue: 0,0:05:15.92,0:05:18.25,Dialogue,,0,0,0,,We only have five more sketches to check out.
@@ -115,7 +114,7 @@ Dialogue: 0,0:05:31.06,0:05:32.89,Dialogue,,0,0,0,,Referring to the boiling pot 
 Dialogue: 0,0:05:33.64,0:05:35.60,Dialogue,,0,0,0,,Boiling... pot?
 Dialogue: 0,0:05:36.67,0:05:38.86,Dialogue,,0,0,0,,A boiling pot reading is...
 Dialogue: 0,0:05:38.86,0:05:42.74,Dialogue Top,,0,0,0,,A ritual in this Kibitsu Shrine that's been\Npassed down from ancient times.
-Dialogue: 0,0:05:40.28,0:05:43.65,Signs,,0,0,0,,Kibitsu Shrine
+Dialogue: 0,0:05:40.28,0:05:43.65,Character Card,,0,0,0,,Kibitsu Shrine
 Dialogue: 0,0:05:42.74,0:05:46.53,Dialogue Top,,0,0,0,,By drawing upon the loudness and length\Nof the sound of rice boiling in a pot...
 Dialogue: 0,0:05:46.53,0:05:48.37,Dialogue,,0,0,0,,Good or bad omens are predicted.
 Dialogue: 0,0:05:55.28,0:05:56.42,Dialogue,,0,0,0,,Mayuko{\rHonorifics - Dialogue}-san{\r}.
@@ -142,7 +141,7 @@ Dialogue: 0,0:06:39.29,0:06:42.84,Dialogue,,0,0,0,,We just found out the reason 
 Dialogue: 0,0:06:42.84,0:06:45.63,Dialogue,,0,0,0,,More comments are posted on our website!
 Dialogue: 0,0:06:45.63,0:06:47.68,Dialogue,,0,0,0,,People witnessed her in Kurashiki.
 Dialogue: 0,0:06:50.81,0:06:53.07,Dialogue,,0,0,0,,We immediately journeyed to Kurashiki.
-Dialogue: 0,0:06:53.14,0:06:56.39,Signs,,0,0,0,,The Ohashi House
+Dialogue: 0,0:06:53.14,0:06:56.39,Character Card,,0,0,0,,The Ohashi House
 Dialogue: 0,0:06:57.42,0:06:58.29,Dialogue,,0,0,0,,This picture...
 Dialogue: 0,0:06:58.81,0:07:01.27,Dialogue,,0,0,0,,Isn't it a match to that window grill?
 Dialogue: 0,0:07:01.69,0:07:02.98,Dialogue,,0,0,0,,I see.
@@ -152,27 +151,27 @@ Dialogue: 0,0:07:07.36,0:07:09.74,Dialogue,,0,0,0,,It's a characteristic design 
 Dialogue: 0,0:07:09.75,0:07:11.87,Dialogue,,0,0,0,,You'll see a lot of it once we go to the Bikan historical area.
 Dialogue: 0,0:07:09.75,0:07:11.87,Signs,,0,0,0,,aesthetic
 Dialogue: 0,0:07:12.49,0:07:13.79,Dialogue,,0,0,0,,Bikan historical area?
-Dialogue: 0,0:07:14.29,0:07:17.83,Signs,,0,0,0,,Kurashiki Bikan Historical Area
+Dialogue: 0,0:07:14.29,0:07:17.83,Character Card,,0,0,0,,Kurashiki Bikan Historical Area
 Dialogue: 0,0:07:21.25,0:07:24.17,Dialogue,,0,0,0,,Sure seems to me that Mayuko{\rHonorifics - Dialogue}-san{\r} had been here.
 Dialogue: 0,0:07:35.85,0:07:37.18,Dialogue,,0,0,0,,What's wrong?
 Dialogue: 0,0:07:37.81,0:07:40.02,Dialogue,,0,0,0,,Just someone asking for directions.
 Dialogue: 0,0:07:43.07,0:07:45.07,Dialogue,,0,0,0,,Young boy, give this a try!
-Dialogue: 0,0:07:50.57,0:07:54.33,Signs,,0,0,0,,Handmade Sparrow-Shaped Pancake Workshop
+Dialogue: 0,0:07:50.57,0:07:54.33,Character Card,,0,0,0,,Handmade Sparrow-Shaped Pancake Workshop
 Dialogue: 0,0:07:58.00,0:07:59.21,Dialogue,,0,0,0,,Why do I have to...
 Dialogue: 0,0:08:00.21,0:08:01.75,Dialogue,,0,0,0,,Conan{\rHonorifics - Dialogue}-kun{\r}, smile at the camera!
-Dialogue: 0,0:08:04.21,0:08:08.21,Signs,,0,0,0,,Kurashiki Ivy Square
+Dialogue: 0,0:08:04.21,0:08:08.21,Character Card,,0,0,0,,Kurashiki Ivy Square
 Dialogue: 0,0:08:05.92,0:08:09.97,Dialogue Top,,0,0,0,,Thereafter, we discovered subsequent locations\Ncorresponding with the sketches.
-Dialogue: 0,0:08:08.63,0:08:11.43,Signs,,0,0,0,,Kurabo Memorial Hall
+Dialogue: 0,0:08:08.63,0:08:11.43,Character Card,,0,0,0,,Kurabo Memorial Hall
 Dialogue: 0,0:08:16.64,0:08:20.19,Dialogue,,0,0,0,,Mayuko{\rHonorifics - Dialogue}-san{\r}'s memory was also recovering little by little.
 Dialogue: 0,0:08:24.27,0:08:24.77,Dialogue,,0,0,0,,I...
 Dialogue: 0,0:08:26.69,0:08:28.32,Dialogue,,0,0,0,,Came here before!
-Dialogue: 0,0:08:28.53,0:08:31.70,Signs,,0,0,0,,Ohara Museum of Art
-Dialogue: 0,0:08:31.99,0:08:35.70,Signs,,0,0,0,,Yurinso Villa
+Dialogue: 0,0:08:28.53,0:08:31.70,Character Card,,0,0,0,,Ohara Museum of Art
+Dialogue: 0,0:08:31.99,0:08:35.70,Character Card,,0,0,0,,Yurinso Villa
 Dialogue: 0,0:08:34.87,0:08:35.70,Dialogue,,0,0,0,,I remember!
 Dialogue: 0,0:08:36.66,0:08:39.25,Dialogue,,0,0,0,,And thus we were down to two sketches.
 Dialogue: 0,0:08:40.57,0:08:41.25,Dialogue,,0,0,0,,That...
 Dialogue: 0,0:08:41.96,0:08:43.21,Dialogue,,0,0,0,,Could it be...
-Dialogue: 0,0:08:45.59,0:08:48.30,Signs,,0,0,0,,Momotaro Museum of Illusions
+Dialogue: 0,0:08:45.59,0:08:48.30,Character Card,,0,0,0,,Momotaro Museum of Illusions
 Dialogue: 0,0:08:45.92,0:08:48.30,Dialogue,,0,0,0,,A hint to this place?
 Dialogue: 0,0:08:52.01,0:08:55.80,Dialogue,,0,0,0,,Spinning this disk will change the number of demons?
 Dialogue: 0,0:09:01.64,0:09:04.97,Dialogue,,0,0,0,,The grapes vanished and the bananas become two bundles!
@@ -262,7 +261,7 @@ Dialogue: 0,0:13:50.96,0:13:54.54,Dialogue,,0,0,0,,However, just as I found Mayu
 Dialogue: 0,0:13:55.46,0:13:58.80,Dialogue,,0,0,0,,I suddenly didn't know what to do at all.
 Dialogue: 0,0:13:59.51,0:14:04.26,Dialogue,,0,0,0,,Afterwards, President Osanai from\Nthe loan company came to collect.
 Dialogue: 0,0:14:04.26,0:14:07.79,Dialogue Top,,0,0,0,,And I inadvertently told him about the stolen jewelry.
-Dialogue: 0,0:14:04.60,0:14:08.62,Signs,,0,0,0,,Osanai Norio (38)\NPresident of Osanai Finance
+Dialogue: 0,0:14:04.60,0:14:08.62,Character Card,,0,0,0,,Osanai Norio (38)\NPresident of Osanai Finance
 Dialogue: 0,0:14:07.79,0:14:09.09,Dialogue Top,,0,0,0,,And then...
 Dialogue: 0,0:14:09.74,0:14:14.95,Dialogue,,0,0,0,,He coerced you into posing as Nonomiya{\rHonorifics - Dialogue}-san{\r}'s\Nsister and getting in contract with us.
 Dialogue: 0,0:14:15.94,0:14:19.78,Dialogue,,0,0,0,,All for the purpose of drawing out the whereabouts of\Nthe jewelry once Mayuko{\rHonorifics - Dialogue}-san{\r} regained her memory...
@@ -402,7 +401,6 @@ Dialogue: 0,0:23:49.45,0:23:51.66,Dialogue,,0,0,0,,We're going to be late for th
 Dialogue: 0,0:23:52.83,0:23:53.95,Dialogue,,0,0,0,,Not fair!
 Dialogue: 0,0:23:55.37,0:23:55.96,Dialogue,,0,0,0,,Just come!
 Dialogue: 0,0:23:55.96,0:23:59.21,Dialogue,,0,0,0,,My octopus rice and beeeeer!
-Dialogue: 0,0:24:00.08,0:24:00.32,Signs,,0,0,0,,Next Episode
 Dialogue: 0,0:24:00.36,0:24:02.99,Dialogue,,0,0,0,,What's wrong, Conan{\rHonorifics - Dialogue}-kun{\r}?
 Dialogue: 0,0:24:03.02,0:24:04.52,Dialogue,,0,0,0,,A cold, I have a cold.
 Dialogue: 0,0:24:04.55,0:24:08.09,Dialogue,,0,0,0,,Guys I don't know suddenly came to my home!
@@ -414,7 +412,6 @@ Dialogue: 0,0:24:20.49,0:24:24.08,Dialogue,,0,0,0,,He was eaten by the wolf beca
 Dialogue: 0,0:24:24.37,0:24:29.77,Dialogue,,0,0,0,,GRABBING KARUTA CARDS IN DIRE STRAITS\N(PART ONE)
 Dialogue: 0,0:24:45.77,0:24:47.90,Dialogue,,0,0,0,,Next Conan's Hint
 Dialogue: 0,0:24:47.92,0:24:50.09,Dialogue,,0,0,0,,Video Call
-Dialogue: 0,0:24:50.11,0:24:54.72,Adds,,0,0,0,,Look Forward the Next Episode
 Dialogue: 0,0:24:50.20,0:24:51.48,Dialogue,,0,0,0,,That's all for this year!
 Dialogue: 0,0:24:51.50,0:24:53.50,Dialogue,,0,0,0,,Be sure to root for that puny detective brat next year!
 Dialogue: 0,0:24:53.53,0:24:54.73,Dialogue,,0,0,0,,A Happy New Year!

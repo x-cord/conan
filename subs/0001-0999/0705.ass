@@ -33,24 +33,9 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: Poodles,MV Boli M,70,&H180102B5,&H000809FC,&H00CFF2F3,&H80000000,0,0,0,0,100,100,0,0,1,4,2,8,10,10,25,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:22:25.58,0:22:30.75,Poodles,,0,0,0,,{\fax0.25\blur2.5}kimi no egao ga nani yori mo suki datta
-Dialogue: 0,0:22:31.09,0:22:34.17,Poodles,,0,0,0,,{\fax0.25\blur2.5}onaji koto de waraiatta ne
-Dialogue: 0,0:22:34.51,0:22:42.60,Poodles,,0,0,0,,{\fax0.25\blur2.5}futoshita shunkan ni iron'na kimi o omoidasu
-Dialogue: 0,0:22:44.43,0:22:50.65,Poodles,,0,0,0,,{\fax0.25\blur2.5\3c&HF2F2F3&\c&H880088}'boku ga genjitsuteki sugita' to ima ni natte kuyande'ru
-Dialogue: 0,0:22:52.15,0:22:58.74,Poodles,,0,0,0,,{\fax0.25\blur2.5\3c&HF2F2F3&\c&H880088}'kimi to no yume no tame ni' motto ikiru beki datta
-Dialogue: 0,0:22:59.78,0:23:03.04,Poodles,,0,0,0,,{\fax0.25\blur2.5\c&H008800\3c&HF2F2F3}kimi no inai akimatsuri
-Dialogue: 0,0:23:03.24,0:23:08.46,Poodles,,0,0,0,,{\fax0.25\blur2.5\3c&HF2F2F3&\c&H880000\t(4470,5220,\c&H0\3c&H0\4c&H0)}ima no boku wa younger than yesterday
-Dialogue: 0,0:23:09.25,0:23:14.34,Poodles,,0,0,0,,{\fax0.25\blur2.5\3c&HF2F2F3&}hanabira ga mau yō ni kimi wa waratta ne
-Dialogue: 0,0:23:14.67,0:23:17.30,Poodles,,0,0,0,,{\fax0.25\blur2.5\3c&HF2F2F3&\c&H008800}motto warawasetakatta
-Dialogue: 0,0:23:17.63,0:23:24.35,Poodles,,0,0,0,,{\fax0.25\blur2.5\3c&HF2F2F3&\c&H008800}hareteiru no ni tsumetai ame ga futteiru
-Dialogue: 0,0:23:24.52,0:23:30.06,Poodles,,0,0,0,,{\fax0.25\blur2.5\3c&HF2F2F3&\c&H008800}kimi no egao ga nani yori mo suki datta
-Dialogue: 0,0:23:30.40,0:23:33.36,Poodles,,0,0,0,,{\fax0.25\blur2.5\3c&HF2F2F3&\c&H008800}min'na hitori ja ikirenai
-Dialogue: 0,0:23:33.57,0:23:37.15,Poodles,,0,0,0,,{\fax0.25\blur2.5\3c&HF2F2F3&\c&H008800}kimi no kaeru basho de
-Dialogue: 0,0:23:37.49,0:23:42.32,Poodles,,0,0,0,,{\fax0.25\blur2.5\3c&HF2F2F3&\c&H008800}boku wa zutto aritsuzuketai
 Dialogue: 0,0:00:01.14,0:00:09.03,Narration Off,,0,0,0,,{\be10}We became involved with a murder aboard the Bell Tree Express, but managed to solve it.
 Dialogue: 0,0:00:10.40,0:00:16.78,Narration Off,,0,0,0,,{\be10}Also, the man with a burn wandering around the train was discovered to be Vermouth in disguise.
 Dialogue: 0,0:00:17.66,0:00:22.33,Narration Off,,0,0,0,,{\be10}Meanwhile, the shadow that was closing in on Haibara, who had taken the antidote and returned to her adult form...
@@ -164,19 +149,19 @@ Dialogue: 0,0:09:23.12,0:09:26.12,Dialogue,,0,0,0,,Good thing it was nothing ser
 Dialogue: 0,0:09:26.12,0:09:28.17,Dialogue,,0,0,0,,Where am I?
 Dialogue: 0,0:09:28.17,0:09:31.13,Dialogue,,0,0,0,,This isn't Sonoko{\rHonorifics - Dialogue}-neechan{\r}'s house, is it?
 Dialogue: 0,0:09:31.13,0:09:33.46,Dialogue,,0,0,0,,It's the house of the lady who hit you with the racket.
-Dialogue: 0,0:09:34.09,0:09:40.26,Signs,,0,0,0,,Kotone Momozono (21)\NUniversity Student
+Dialogue: 0,0:09:34.09,0:09:40.26,Character Card,,0,0,0,,Kotone Momozono (21)\NUniversity Student
 Dialogue: 0,0:09:33.46,0:09:35.17,Dialogue Top,,0,0,0,,It's my house.
 Dialogue: 0,0:09:35.17,0:09:38.72,Dialogue Top,,0,0,0,,I'm so sorry, little boy. My hands were sweaty and the racket just slipped!
 Dialogue: 0,0:09:38.72,0:09:40.26,Dialogue Top,,0,0,0,,I told you!
-Dialogue: 0,0:09:40.51,0:09:46.98,Signs,,0,0,0,,Machi Umejima (22)\NUniversity Student
+Dialogue: 0,0:09:40.51,0:09:46.98,Character Card,,0,0,0,,Machi Umejima (22)\NUniversity Student
 Dialogue: 0,0:09:40.26,0:09:45.02,Dialogue Top,,0,0,0,,You should make sure to wrap the handle in grip tape, since your hands get clammy so easily.
 Dialogue: 0,0:09:45.02,0:09:47.02,Dialogue Top,,0,0,0,,But what a shame.
 Dialogue: 0,0:09:47.77,0:09:56.40,Dialogue,,10,10,0,,If the battery on my mobile phone hadn't been flat, I could've recorded the 'impact scene' and put it on the Internet.
-Dialogue: 0,0:09:56.70,0:10:01.20,Signs,,0,0,0,,Saburō Ishiguri (21)\NUniversity Student
+Dialogue: 0,0:09:56.70,0:10:01.20,Character Card,,0,0,0,,Saburō Ishiguri (21)\NUniversity Student
 Dialogue: 0,0:09:56.40,0:10:01.28,Dialogue Top,,0,0,0,,'Killer racket assaults little boy in a failed attempt at a killer serve'!
 Dialogue: 0,0:10:01.28,0:10:04.70,Dialogue,,0,0,0,,How can you say that when a kid's been hurt!
 Dialogue: 0,0:10:04.70,0:10:08.75,Dialogue,,0,0,0,,It was just a joke, I was trying to lighten the mood a bit.
-Dialogue: 0,0:10:08.96,0:10:12.92,Signs,,0,0,0,,Noboru Takanashi (22)\NUniversity Student
+Dialogue: 0,0:10:08.96,0:10:12.92,Character Card,,0,0,0,,Noboru Takanashi (22)\NUniversity Student
 Dialogue: 0,0:10:08.75,0:10:12.92,Dialogue Top,,0,0,0,,Uriu might've died because of that sense of humour of yours!
 Dialogue: 0,0:10:12.92,0:10:14.50,Dialogue,,0,0,0,,Hey, calm down.
 Dialogue: 0,0:10:14.50,0:10:20.84,Dialogue,,0,0,0,,Didn't we gather all the members of the circle here to celebrate Uriu's birthday?

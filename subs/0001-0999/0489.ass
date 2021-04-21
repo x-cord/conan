@@ -33,8 +33,6 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: title01,Arial Narrow,20,&H00000000,&H000000FF,&H00FFFFFF,&H00000000,-1,0,0,0,100,100,0,0,3,1,0,2,10,10,10,1
-Style: title04,Century Gothic,25,&H00F4FAF6,&H00FFFFFF,&H371E1A18,&H00000000,-1,0,0,0,100,100,0,0,3,1,0,8,10,10,15,0
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -248,7 +246,7 @@ Dialogue: 0,0:14:12.61,0:14:13.40,Dialogue,,0,0,0,,I'll take it.
 Dialogue: 0,0:14:13.40,0:14:14.11,Dialogue,,0,0,0,,Line three.
 Dialogue: 0,0:14:16.37,0:14:17.03,Dialogue,,0,0,0,,Hello.
 Dialogue: 0,0:14:17.37,0:14:18.12,Dialogue,,0,0,0,,Kujou speaking.
-Dialogue: 0,0:14:31.68,0:14:34.18,title01,,0,0,0,,A COMPANY-WIDE CRIME?
+Dialogue: 0,0:14:31.68,0:14:34.18,Signs,,0,0,0,,A COMPANY-WIDE CRIME?
 Dialogue: 0,0:14:31.68,0:14:34.18,Character Card,,0,0,0,,{\an9}Takeuchi Construction Company\NSubject of Construction Scandal
 Dialogue: 0,0:14:32.46,0:14:33.05,Dialogue,,0,0,0,,Found it!
 Dialogue: 0,0:14:33.05,0:14:33.77,Dialogue,,0,0,0,,Here it is!
@@ -310,9 +308,9 @@ Dialogue: 0,0:17:23.72,0:17:24.39,Dialogue,,0,0,0,,No.
 Dialogue: 0,0:17:24.76,0:17:26.14,Dialogue,,0,0,0,,I'll call for a taxi.
 Dialogue: 0,0:17:31.81,0:17:32.64,Dialogue,,0,0,0,,Kujou{\rHonorifics - Dialogue}-san{\r}...
 Dialogue: 0,0:17:34.44,0:17:36.15,Dialogue,,0,0,0,,Are you all right?
-Dialogue: 0,0:17:47.87,0:17:51.00,title04,,0,0,0,,Hit-And-Run Suspect Committed Suicide
-Dialogue: 0,0:17:51.01,0:17:54.51,title04,,0,0,0,,Pressure From the Prosecutor's Investigation!?
-Dialogue: 0,0:17:54.52,0:17:58.51,title04,,0,0,0,,A Protesting Dive for the Cruel Prosecutor
+Dialogue: 0,0:17:47.87,0:17:51.00,Signs,,0,0,0,,Hit-And-Run Suspect Committed Suicide
+Dialogue: 0,0:17:51.01,0:17:54.51,Signs,,0,0,0,,Pressure From the Prosecutor's Investigation!?
+Dialogue: 0,0:17:54.52,0:17:58.51,Signs,,0,0,0,,A Protesting Dive for the Cruel Prosecutor
 Dialogue: 0,0:18:06.26,0:18:07.26,Dialogue,,0,0,0,,You there, wait!
 Dialogue: 0,0:18:08.22,0:18:09.93,Dialogue,,0,0,0,,What do you think you're doing here!?
 Dialogue: 0,0:18:10.31,0:18:11.18,Dialogue,,0,0,0,,Leave at once!

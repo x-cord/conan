@@ -33,8 +33,6 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: OPTLTextless,FuntypeFattened,50,&H00FFFFFF,&H000000FF,&H80AF0068,&H80000000,-1,0,0,0,90,100,0,0,1,3,1,2,10,10,40,1
-Style: HitomiRomaji,Ubuntu,40,&HC0FF0000,&H000000FF,&H00FFFFFF,&H00000000,-1,0,0,0,105,100,0,0,1,3.4,1,8,10,10,30,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -48,7 +46,7 @@ Dialogue: 0,0:00:14.24,0:00:15.37,Dialogue,,0,0,0,,It's beautiful!
 Dialogue: 0,0:00:15.37,0:00:16.87,Dialogue,,0,0,0,,Pretty stunning, isn't it?
 Dialogue: 0,0:00:16.87,0:00:20.66,Dialogue,,0,0,0,,Yeah, they're really pulling out all the stops.
 Dialogue: 0,0:00:20.66,0:00:21.87,Dialogue,,0,0,0,,But of course!
-Dialogue: 0,0:00:23.00,0:00:26.71,Signs,,0,0,0,,Mika Itakura (27)\NIce Festival Executive Committee Chairman
+Dialogue: 0,0:00:23.00,0:00:26.71,Character Card,,0,0,0,,Mika Itakura (27)\NIce Festival Executive Committee Chairman
 Dialogue: 0,0:00:22.71,0:00:25.54,Dialogue Top,,0,0,0,,It's been a while, Agasa{\rHonorifics - Dialogue}-san{\r}!
 Dialogue: 0,0:00:25.54,0:00:26.71,Dialogue Top,,0,0,0,,Mika{\rHonorifics - Dialogue}-kun{\r}!
 Dialogue: 0,0:00:27.42,0:00:32.67,Dialogue,,0,0,0,,This is the woman who invited you guys, Mika Itakura{\rHonorifics - Dialogue}-kun{\r}.
@@ -81,7 +79,7 @@ Dialogue: 0,0:03:33.09,0:03:35.22,Dialogue,,0,0,0,,Ah, it's Shiota{\rHonorifics 
 Dialogue: 0,0:03:43.48,0:03:46.31,Dialogue,,0,0,0,,Wow, so cool!
 Dialogue: 0,0:03:46.73,0:03:51.44,Dialogue,,0,0,0,,Shiota{\rHonorifics - Dialogue}-san{\r}'s so skilled at making ice sculptures that he could even win the world championship!
 Dialogue: 0,0:03:58.24,0:03:59.74,Dialogue,,0,0,0,,Incredible!
-Dialogue: 0,0:04:00.58,0:04:04.71,Signs,,0,0,0,,Tetsuya Shiota (43)\NIce Sculptor
+Dialogue: 0,0:04:00.58,0:04:04.71,Character Card,,0,0,0,,Tetsuya Shiota (43)\NIce Sculptor
 Dialogue: 0,0:04:00.91,0:04:04.71,Dialogue Top,,0,0,0,,Thank you — I really appreciate such honest words of encouragement.
 Dialogue: 0,0:04:05.67,0:04:10.09,Dialogue,,0,0,0,,Most of the statues you see here were made by Shiota{\rHonorifics - Dialogue}-san{\r}.
 Dialogue: 0,0:04:11.55,0:04:17.34,Dialogue,,0,0,0,,I could only become a sculptor due to Mika{\rHonorifics - Dialogue}-chan{\r}'s father supporting me.
@@ -93,11 +91,11 @@ Dialogue: 0,0:04:31.11,0:04:34.19,Dialogue,,0,0,0,,Yeah, we all love this festiv
 Dialogue: 0,0:04:34.19,0:04:37.41,Dialogue,,0,0,0,,This is the last year they'll get to enjoy it, though.
 Dialogue: 0,0:04:38.07,0:04:39.20,Dialogue,,0,0,0,,Mayor Yamaguchi!
 Dialogue: 0,0:04:39.20,0:04:42.16,Dialogue,,0,0,0,,What do you mean 'this is the last year'?
-Dialogue: 0,0:04:42.54,0:04:47.08,Signs,,0,0,0,,Tarō Yamaguchi (61)\NMayor
+Dialogue: 0,0:04:42.54,0:04:47.08,Character Card,,0,0,0,,Tarō Yamaguchi (61)\NMayor
 Dialogue: 0,0:04:43.20,0:04:47.08,Dialogue Top,,0,0,0,,I mean that this year I'll be putting an end to this foolish festival.
 Dialogue: 0,0:04:48.21,0:04:50.42,Dialogue,,0,0,0,,Did you decide that on your own?!
 Dialogue: 0,0:04:50.42,0:04:53.25,Dialogue,,0,0,0,,Please don't tarnish the mayor's reputation.
-Dialogue: 0,0:04:53.51,0:04:57.26,Signs,,0,0,0,,Kazuyuki Ogi (34)\NSecretary
+Dialogue: 0,0:04:53.51,0:04:57.26,Character Card,,0,0,0,,Kazuyuki Ogi (34)\NSecretary
 Dialogue: 0,0:04:54.13,0:04:57.26,Dialogue Top,,0,0,0,,This course of action was properly\Ndetermined by a communal meeting.
 Dialogue: 0,0:04:57.26,0:05:05.10,Dialogue,,0,0,0,,Do you know how much debt the village got into from holding this festival each year?
 Dialogue: 0,0:05:05.85,0:05:12.65,Dialogue,,0,0,0,,For this village to survive, we were left with no choice but to have Tohto Resort set up a hotel here.
@@ -195,7 +193,7 @@ Dialogue: 0,0:10:47.15,0:10:50.36,Thoughts,,0,0,0,,{\be10}But there's something 
 Dialogue: 0,0:10:51.32,0:10:52.07,Dialogue,,0,0,0,,Edogawa{\rHonorifics - Dialogue}-kun{\r}?
 Dialogue: 0,0:10:53.32,0:10:54.57,Dialogue,,0,0,0,,Call the police!
 Dialogue: 0,0:10:55.28,0:10:56.58,Dialogue,,0,0,0,,The mayor has passed away.
-Dialogue: 0,0:11:10.98,0:11:15.65,Signs,,0,0,0,,Akira Haraguchi (31)\NNiigata Prefectural Police Inspector
+Dialogue: 0,0:11:10.98,0:11:15.65,Character Card,,0,0,0,,Akira Haraguchi (31)\NNiigata Prefectural Police Inspector
 Dialogue: 0,0:11:05.68,0:11:13.69,Dialogue Top,,0,0,0,,The cause of death was strangulation, and the estimated time of death is around 2 AM.
 Dialogue: 0,0:11:13.69,0:11:16.65,Dialogue Top,,0,0,0,,Because there are no marks of strangulation on the back of the victim's neck,
 Dialogue: 0,0:11:16.65,0:11:19.07,Dialogue,,0,0,0,,it seems the killer approached him in his sleep
@@ -407,32 +405,3 @@ Dialogue: 0,0:24:05.23,0:24:09.48,Dialogue,,0,0,0,,On the next Conan: 'Detective
 Dialogue: 0,0:24:09.48,0:24:14.40,Dialogue,,0,0,0,,Next Conan's Hint: Plaster cast!
 Dialogue: 0,0:24:14.40,0:24:16.95,Dialogue,,0,0,0,,Genta{\rHonorifics - Dialogue}-kun{\r}, did you even put any eel in it?
 Dialogue: 0,0:24:16.95,0:24:18.78,Dialogue,,0,0,0,,Of course, it'll make a great souvenir!
-Dialogue: 0,0:01:16.13,0:01:19.51,OPTLTextless,,0,0,0,,{\blur2}Take me to the high, we never cry on
-Dialogue: 0,0:01:19.51,0:01:23.14,OPTLTextless,,0,0,0,,{\blur2}To a tomorrow we've never seen
-Dialogue: 0,0:01:23.18,0:01:26.85,OPTLTextless,,0,0,0,,{\blur2}Try again Try again Try again Always
-Dialogue: 0,0:01:26.85,0:01:30.19,OPTLTextless,,0,0,0,,{\blur2}Try again Try again Try again
-Dialogue: 0,0:01:30.19,0:01:33.23,OPTLTextless,,0,0,0,,{\blur2\fad(0,300)}Speak out the truth!
-Dialogue: 0,0:01:39.28,0:01:42.95,OPTLTextless,,0,0,0,,{\blur2}Not knowing exactly what you're searching for
-Dialogue: 0,0:01:42.95,0:01:46.41,OPTLTextless,,0,0,0,,{\blur2}living in the moment in your reckless way
-Dialogue: 0,0:01:46.41,0:01:50.25,OPTLTextless,,0,0,0,,{\blur2}If you don't brighten up a bit soon
-Dialogue: 0,0:01:50.25,0:01:53.54,OPTLTextless,,0,0,0,,{\blur2}you'll get crushed by your own anxiety
-Dialogue: 0,0:01:53.54,0:01:57.09,OPTLTextless,,0,0,0,,{\blur2}Surely you have dreams too?
-Dialogue: 0,0:01:57.09,0:02:00.76,OPTLTextless,,0,0,0,,{\blur2}I want to fulfill them, I want to cry... but I'll still chase them
-Dialogue: 0,0:02:00.76,0:02:04.30,OPTLTextless,,0,0,0,,{\blur2}Aren't you just quietly giving up?
-Dialogue: 0,0:02:04.30,0:02:08.39,OPTLTextless,,0,0,0,,{\blur2}Can't you see now the reality you've distanced yourself from?
-Dialogue: 0,0:02:09.85,0:02:13.27,OPTLTextless,,0,0,0,,{\blur2}Take me to the high, we never cry on
-Dialogue: 0,0:02:13.27,0:02:16.69,OPTLTextless,,0,0,0,,{\blur2}To a tomorrow we've never seen
-Dialogue: 0,0:02:16.69,0:02:20.28,OPTLTextless,,0,0,0,,{\blur2}Try again Try again Try again Always
-Dialogue: 0,0:02:20.28,0:02:23.99,OPTLTextless,,0,0,0,,{\blur2}Try again Try again Try again
-Dialogue: 0,0:02:23.99,0:02:31.04,OPTLTextless,,0,0,0,,{\blur2}Not everything is bad, we're dreamers after all
-Dialogue: 0,0:02:31.04,0:02:34.63,OPTLTextless,,0,0,0,,{\blur2}Try again Try again Try again Always
-Dialogue: 0,0:02:34.63,0:02:38.34,OPTLTextless,,0,0,0,,{\blur2}Try again Try again Try again
-Dialogue: 0,0:02:38.34,0:02:41.76,OPTLTextless,,0,0,0,,{\blur2\fad(0,500)}Speak out the truth!
-Dialogue: 0,0:21:59.52,0:22:07.32,HitomiRomaji,,0,0,0,,{\3c&HFFD4D4&\blur4}miagetara haru no ame machi ni oritekita
-Dialogue: 0,0:22:07.53,0:22:15.24,HitomiRomaji,,0,0,0,,{\3c&HFFD4D4&\blur4}kimi no aruku michi nurashite yuku
-Dialogue: 0,0:22:16.12,0:22:24.09,HitomiRomaji,,0,0,0,,{\3c&HFFD4D4&\blur4}kinō sasatta toge no yō na kimi no kotoba hitotsu
-Dialogue: 0,0:22:24.25,0:22:31.76,HitomiRomaji,,0,0,0,,{\3c&HFFD4D4&\blur4}mada honto wa nani mo shiranai yo
-Dialogue: 0,0:22:33.68,0:22:49.74,HitomiRomaji,,0,0,0,,{\blur4}sunao ni nareba kodoku nante nai yo hitori de wa nai kara
-Dialogue: 0,0:22:50.57,0:22:58.41,HitomiRomaji,,0,0,0,,{\blur4\3c&HEFF9FD&}don'na mirai kimi to mirai
-Dialogue: 0,0:22:58.66,0:23:07.92,HitomiRomaji,,0,0,0,,{\blur4\3c&HEFF9FD&}sono hitomi no shita e to tashikame ni yuku yo
-Dialogue: 0,0:23:08.30,0:23:15.97,HitomiRomaji,,0,0,0,,{\blur4\3c&HEFF9FD&\fad(0,750)}yukkuri to orite yuku kara

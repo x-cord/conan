@@ -33,8 +33,6 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: title001,@Gungsuh,12,&H00FFFFFF,&H000000FF,&H64000000,&H00000000,-1,0,0,0,100,100,0,0,3,0.1,0,8,10,10,10,1
-Style: title002,Arial Black,15,&H002F2485,&H000000FF,&H003DBCE7,&H00000000,-1,0,0,0,100,100,0,0,3,1,0,2,300,0,100,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -280,7 +278,7 @@ Dialogue: 0,0:14:02.39,0:14:04.64,Dialogue,,0,0,0,,Forget it and just lose them.
 Dialogue: 0,0:14:05.52,0:14:06.81,Dialogue,,0,0,0,,The fact that it's like this...
 Dialogue: 0,0:14:07.48,0:14:09.19,Dialogue,,0,0,0,,Means it's all going as expected.
 Dialogue: 0,0:14:16.82,0:14:20.03,Dialogue,,0,0,0,,Just a minute ago, there were so many riot squad members here...
-Dialogue: 0,0:14:20.03,0:14:24.50,title001,,0,0,0,,{\fad(100,100)\an8\xbord5\ybord3}Quote from {\c&H5CDCFB&}Oku no Hosomichi{\1c}, a {\c&HF2C5AE&}haibun {\1c}work by {\c&H60BE70&}Matsuo Bashou
+Dialogue: 0,0:14:20.03,0:14:24.50,Signs,,0,0,0,,{\an8\xbord5\ybord3}Quote from Oku no Hosomichi, a haibun work by Matsuo Bashou
 Dialogue: 0,0:14:20.03,0:14:23.04,Dialogue,,0,0,0,,"All that remains of brave soldiers' dreams," I'd imagine.
 Dialogue: 0,0:14:23.04,0:14:27.37,Dialogue,,0,0,0,,Well, it seems they're still trying to rescue Uncle in his room, but...
 Dialogue: 0,0:14:29.88,0:14:32.38,Dialogue,,0,0,0,,To think Kid{\rHonorifics - Dialogue}-sama{\r} was actually Uncle...
@@ -352,7 +350,7 @@ Dialogue: 0,0:18:25.49,0:18:26.95,Dialogue,,0,0,0,,Isn't it oddly new?
 Dialogue: 0,0:18:27.53,0:18:29.03,Dialogue,,0,0,0,,Look, that one.
 Dialogue: 0,0:18:40.34,0:18:41.79,Dialogue,,0,0,0,,As expected...
 Dialogue: 0,0:18:41.80,0:18:44.27,Dialogue,,0,0,0,,A truly great safe by the master of traps, Kichiemon...
-Dialogue: 0,0:18:50.94,0:18:54.52,title002,,0,0,0,,{\xbord3\ybord3\fscx10\t(710,400,\fscx100)}You Lose
+Dialogue: 0,0:18:50.94,0:18:54.52,Signs,,0,0,0,,{\xbord3\ybord3}You Lose
 Dialogue: 0,0:18:52.72,0:18:54.52,Dialogue,,0,0,0,,This guy's really too much...
 Dialogue: 0,0:18:58.65,0:18:59.65,Dialogue,,0,0,0,,Then...
 Dialogue: 0,0:18:59.65,0:19:02.52,Dialogue,,0,0,0,,I guess you already know why I was called here, right?

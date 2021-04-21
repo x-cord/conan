@@ -33,8 +33,6 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: Text,Arial,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,3,0,2,0,0,0,1
-Style: Adds,Arial,50,&H00FFFFFF,&H000000FF,&H003B5F1B,&H00000000,0,0,0,0,100,100,0,0,1,2,0,7,15,15,15,1
 
 [Events]
 Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
@@ -59,15 +57,15 @@ Dialogue: 0,0:02:56.73,0:03:01.26,Dialogue,,0,0,0,,Since the beginning of the re
 Dialogue: 0,0:03:01.90,0:03:04.17,Dialogue,,0,0,0,,Well, not just Principal Sakai.
 Dialogue: 0,0:03:04.69,0:03:08.67,Dialogue,,0,0,0,,During the rehearsal, no one carried any personal belongings...
 Dialogue: 0,0:03:08.70,0:03:11.58,Dialogue,,0,0,0,,Large enough to tuck a vase in, out the studio if I'm right.
-Dialogue: 0,0:03:12.70,0:03:17.29,Signs,,0,0,0,,Kamisuwa Mikihiko (52)\NNichiuri TV Producer
+Dialogue: 0,0:03:12.70,0:03:17.29,Character Card,,0,0,0,,Kamisuwa Mikihiko (52)\NNichiuri TV Producer
 Dialogue: 0,0:03:13.08,0:03:17.29,Dialogue,,0,0,0,,Anyway, let's split up and search\Ncarefully in the studio one more time.
 Dialogue: 0,0:03:33.60,0:03:36.10,Dialogue,,0,0,0,,It's still nowhere to be seen.
-Dialogue: 0,0:03:33.60,0:03:36.10,Signs,,0,0,0,,Tsuchiya Daisuke (45)\NDirector
+Dialogue: 0,0:03:33.60,0:03:36.10,Character Card,,0,0,0,,Tsuchiya Daisuke (45)\NDirector
 Dialogue: 0,0:03:36.77,0:03:38.98,Dialogue,,0,0,0,,So it really just vanished like that...
 Dialogue: 0,0:03:38.98,0:03:39.73,Dialogue,,0,0,0,,Vanished?
 Dialogue: 0,0:03:40.52,0:03:41.98,Dialogue,,0,0,0,,It's not like it's a magic vase.
 Dialogue: 0,0:03:42.50,0:03:44.61,Dialogue,,0,0,0,,There's no way it could have vanished on its own!
-Dialogue: 0,0:03:44.82,0:03:48.61,Signs,,0,0,0,,Kimijima Noburou (67)\NLeading Figure in Enka
+Dialogue: 0,0:03:44.82,0:03:48.61,Character Card,,0,0,0,,Kimijima Noburou (67)\NLeading Figure in Enka
 Dialogue: 0,0:03:45.44,0:03:48.61,Dialogue,,0,0,0,,That's a vase from the Qing Dynasty with\Nan estimated value of 100 million yen!
 Dialogue: 0,0:03:49.16,0:03:54.16,Dialogue,,0,0,0,,Someone got dazzled by its worth and hid it\Naway with the intent to steal it, no doubt!
 Dialogue: 0,0:03:54.41,0:03:57.54,Dialogue,,0,0,0,,Now, now, we can't be sure about that at this point.
@@ -95,7 +93,7 @@ Dialogue: 0,0:05:04.19,0:05:05.52,Dialogue,,0,0,0,,Leave everything to me!
 Dialogue: 0,0:05:07.61,0:05:11.07,Dialogue,,0,0,0,,Will Dad be all right after blowing up a huge balloon of confidence?
 Dialogue: 0,0:05:11.82,0:05:13.53,Dialogue,,0,0,0,,Well, guess the show's on the road.
 Dialogue: 0,0:05:14.32,0:05:18.08,Dialogue,,0,0,0,,Now, according to the testimony of the\Nassistant director Hashimoto{\rHonorifics - Dialogue}-san{\r}...
-Dialogue: 0,0:05:18.49,0:05:23.83,Signs,,0,0,0,,Hashimoto Yoshinari (22)\NAssistant Director
+Dialogue: 0,0:05:18.49,0:05:23.83,Character Card,,0,0,0,,Hashimoto Yoshinari (22)\NAssistant Director
 Dialogue: 0,0:05:18.62,0:05:21.50,Dialogue,,0,0,0,,Up until the rehearsal for first period was concluded...
 Dialogue: 0,0:05:21.50,0:05:24.21,Dialogue,,0,0,0,,The vase was definitely still there.
 Dialogue: 0,0:05:24.21,0:05:24.71,Dialogue,,0,0,0,,Yeah.
@@ -110,7 +108,7 @@ Dialogue: 0,0:05:54.53,0:05:55.16,Dialogue,,0,0,0,,Wrong.
 Dialogue: 0,0:05:55.45,0:05:57.78,Dialogue,,0,0,0,,There is still a place we haven't searched yet.
 Dialogue: 0,0:05:59.41,0:06:00.41,Dialogue,,0,0,0,,Yamazaki{\rHonorifics - Dialogue}-san{\r}...
 Dialogue: 0,0:06:00.43,0:06:01.79,Dialogue,,0,0,0,,Let me ask you one thing.
-Dialogue: 0,0:06:02.12,0:06:05.46,Signs,,0,0,0,,Yamazaki Tetsushi (32)\NPuffed Rice Maker Company President
+Dialogue: 0,0:06:02.12,0:06:05.46,Character Card,,0,0,0,,Yamazaki Tetsushi (32)\NPuffed Rice Maker Company President
 Dialogue: 0,0:06:02.91,0:06:04.00,Dialogue,,0,0,0,,What is it?
 Dialogue: 0,0:06:04.00,0:06:05.83,Dialogue,,0,0,0,,Regarding that puffed rice maker case...
 Dialogue: 0,0:06:06.25,0:06:09.09,Dialogue,,0,0,0,,You were the one who checked its content, weren't you?
@@ -189,7 +187,7 @@ Dialogue: 0,0:10:00.26,0:10:03.74,Dialogue,,0,0,0,,This is a problem too, but fo
 Dialogue: 0,0:10:05.04,0:10:07.00,Dialogue,,0,0,0,,Where on earth did it vanish to?
 Dialogue: 0,0:10:09.83,0:10:10.29,Dialogue,,0,0,0,,Ah-le?
 Dialogue: 0,0:10:10.60,0:10:12.45,Dialogue,,0,0,0,,Honma{\rHonorifics - Dialogue}-sensei{\r}, where are you going?
-Dialogue: 0,0:10:12.71,0:10:18.87,Signs,,0,0,0,,Honma Kentarou (70)\NAntique Appraiser
+Dialogue: 0,0:10:12.71,0:10:18.87,Character Card,,0,0,0,,Honma Kentarou (70)\NAntique Appraiser
 Dialogue: 0,0:10:13.08,0:10:14.67,Dialogue,,0,0,0,,What's the matter, Honma{\rHonorifics - Dialogue}-sensei{\r}?
 Dialogue: 0,0:10:15.09,0:10:17.00,Dialogue,,0,0,0,,Nothing's the matter, but...
 Dialogue: 0,0:10:17.00,0:10:21.39,Dialogue,,0,0,0,,If problems keep surfacing like that, I'm sure\Nthe filming for today is called off, right?
@@ -412,7 +410,7 @@ Dialogue: 0,0:21:40.78,0:21:42.41,Dialogue,,0,0,0,,Thank you very much...
 Dialogue: 0,0:21:42.44,0:21:44.11,Dialogue,,0,0,0,,Thank you very much!
 Dialogue: 0,0:21:44.29,0:21:45.83,Dialogue,,0,0,0,,Congratulations, Shinobu{\rHonorifics - Dialogue}-san{\r}!
 Dialogue: 0,0:21:46.40,0:21:47.65,Dialogue,,0,0,0,,Congratulations!
-Dialogue: 0,0:21:54.07,0:21:55.74,Text,,0,0,0,,THE MOST USEFUL SCHOOL IN THE WORLD
+Dialogue: 0,0:21:54.07,0:21:55.74,Signs,,0,0,0,,THE MOST USEFUL SCHOOL IN THE WORLD
 Dialogue: 0,0:23:20.13,0:23:23.79,Dialogue,,0,0,0,,Looks like I've somehow solved another case, but...
 Dialogue: 0,0:23:23.81,0:23:26.23,Dialogue,,0,0,0,,It's no good, I can't remember anything.
 Dialogue: 0,0:23:26.58,0:23:27.74,Dialogue,,0,0,0,,Mouri{\rHonorifics - Dialogue}-san{\r}!
@@ -424,7 +422,6 @@ Dialogue: 0,0:23:43.91,0:23:45.49,Dialogue,,0,0,0,,Have a nice day!
 Dialogue: 0,0:23:50.50,0:23:52.72,Dialogue,,0,0,0,,I'm gravely in shock...
 Dialogue: 0,0:23:53.24,0:23:55.11,Dialogue,,0,0,0,,Even a necktie can't save...
 Dialogue: 0,0:23:55.33,0:23:56.96,Dialogue,,0,0,0,,His neck from embarrassment.
-Dialogue: 0,0:24:00.06,0:24:24.01,Signs,,0,0,0,,Next Episode
 Dialogue: 0,0:24:01.57,0:24:02.24,Dialogue,,0,0,0,,Look out!
 Dialogue: 0,0:24:03.74,0:24:08.02,Dialogue,,0,0,0,,In that case is she really that real estate king...
 Dialogue: 0,0:24:08.04,0:24:10.50,Dialogue,,0,0,0,,Mr. Katayose Ouzaburou's granddaughter?
@@ -436,6 +433,5 @@ Dialogue: 0,0:24:21.68,0:24:23.63,Dialogue,,0,0,0,,Where did the culprit disappe
 Dialogue: 0,0:24:24.32,0:24:29.80,Dialogue,,0,0,0,,SOLVING MYSTERIES AT THE RED LEAF PALACE\N(PART ONE)
 Dialogue: 0,0:24:41.51,0:24:46.10,Dialogue,,0,0,0,,Next Conan's Hint
 Dialogue: 0,0:24:46.13,0:24:48.17,Dialogue,,0,0,0,,Milk Tea
-Dialogue: 0,0:24:50.09,0:24:54.68,Adds,,0,0,0,,Look Forward to the Next Episode
 Dialogue: 0,0:24:50.71,0:24:53.50,Dialogue,,0,0,0,,Next Friday (Nov. 25) is a broadcast of the movie "The Raven Chaser"!
 Dialogue: 0,0:24:53.52,0:24:54.69,Dialogue,,0,0,0,,Watch it at home!

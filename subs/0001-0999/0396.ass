@@ -33,17 +33,6 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: Ei,Times New Roman,13,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,2,215,0,241,1
-Style: Eternity,Times New Roman,13,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,2,217,0,183,1
-Style: Honoo,Times New Roman,13,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,2,0,12,241,1
-Style: Flame,Times New Roman,13,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,2,0,12,183,1
-Style: Ryuu,Times New Roman,13,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,2,0,232,241,1
-Style: Dragon,Times New Roman,13,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,2,0,232,183,1
-Style: Flame 2,Times New Roman,13,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,2,249,0,185,1
-Style: Awa,Times New Roman,13,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,2,249,0,185,1
-Style: Eternity 2,Times New Roman,12,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,2,245,0,117,1
-Style: Swimming,Times New Roman,12,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,2,245,0,117,1
-Style: Dragon 2,Times New Roman,12,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,2,230,0,30,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -211,12 +200,12 @@ Dialogue: 0,0:09:28.94,0:09:30.40,Dialogue,,0,0,0,,What's with her?
 Dialogue: 0,0:09:30.40,0:09:33.44,Dialogue,,0,0,0,,Her eyes were gleaming over\Nthe treasure a few minutes ago.
 Dialogue: 0,0:09:34.53,0:09:38.24,Dialogue,,0,0,0,,"Wandering person, offer me the Three Imperial Regalia."
 Dialogue: 0,0:09:39.58,0:09:43.43,Dialogue,,0,0,0,,Ei... Honoo.. Ryuu.
-Dialogue: 0,0:09:39.92,0:09:43.88,Ei,,0,0,0,,{\fade(480,0)}Ei
-Dialogue: 0,0:09:39.92,0:09:43.88,Eternity,,0,0,0,,{\fade(480,0)}Eternity
-Dialogue: 0,0:09:41.20,0:09:43.88,Honoo,,0,0,0,,{\fade(480,0)}Honoo
-Dialogue: 0,0:09:41.20,0:09:43.88,Flame,,0,0,0,,{\fade(480,0)}Flame
-Dialogue: 0,0:09:42.44,0:09:43.88,Ryuu,,0,0,0,,{\fade(480,0)}Ryuu
-Dialogue: 0,0:09:42.44,0:09:43.88,Dragon,,0,0,0,,{\fade(480,0)}Dragon
+Dialogue: 0,0:09:39.92,0:09:43.88,Signs,,0,0,0,,Ei
+Dialogue: 0,0:09:39.92,0:09:43.88,Signs,,0,0,0,,Eternity
+Dialogue: 0,0:09:41.20,0:09:43.88,Signs,,0,0,0,,Honoo
+Dialogue: 0,0:09:41.20,0:09:43.88,Signs,,0,0,0,,Flame
+Dialogue: 0,0:09:42.44,0:09:43.88,Signs,,0,0,0,,Ryuu
+Dialogue: 0,0:09:42.44,0:09:43.88,Signs,,0,0,0,,Dragon
 Dialogue: 0,0:09:44.37,0:09:46.12,Dialogue,,0,0,0,,Offer me?
 Dialogue: 0,0:09:48.12,0:09:48.92,Dialogue,,0,0,0,,"Me!"
 Dialogue: 0,0:09:49.46,0:09:51.67,Dialogue,,0,0,0,,Hey, Conan!
@@ -260,25 +249,25 @@ Dialogue: 0,0:12:11.27,0:12:12.57,Dialogue,,0,0,0,,Eternity\N"Ei" from "eien"!
 Dialogue: 0,0:12:12.82,0:12:14.56,Dialogue,,0,0,0,,Dragon\NAnd "ryuu", right?!
 Dialogue: 0,0:12:14.90,0:12:17.15,Dialogue,,0,0,0,,So if you attach the sanzui, or water radical...
 Dialogue: 0,0:12:19.48,0:12:22.40,Dialogue,,0,0,0,,"Honoo" becomes the "awa" from Awajishima Island!
-Dialogue: 0,0:12:19.90,0:12:21.60,Flame 2,,0,0,0,,{\fade(170,150)}Flame
-Dialogue: 0,0:12:21.60,0:12:22.46,Awa,,0,0,0,,{\fade(170,0)}Awa
-Dialogue: 0,0:12:22.73,0:12:23.21,Awa,,0,0,0,,Awa
-Dialogue: 0,0:12:23.48,0:12:23.96,Awa,,0,0,0,,Awa
-Dialogue: 0,0:12:24.23,0:12:24.42,Awa,,0,0,0,,Awa
-Dialogue: 0,0:12:24.43,0:12:25.78,Eternity 2,,0,0,0,,{\fade(180,150)}Eternity
-Dialogue: 0,0:12:25.79,0:12:26.63,Swimming,,0,0,0,,{\fade(150,0)}Swimming
-Dialogue: 0,0:12:26.90,0:12:27.38,Swimming,,0,0,0,,Swimming
-Dialogue: 0,0:12:27.63,0:12:28.13,Swimming,,0,0,0,,Swimming
-Dialogue: 0,0:12:28.40,0:12:28.63,Swimming,,0,0,0,,Swimming
+Dialogue: 0,0:12:19.90,0:12:21.60,Signs,,0,0,0,,Flame
+Dialogue: 0,0:12:21.60,0:12:22.46,Signs,,0,0,0,,Awa
+Dialogue: 0,0:12:22.73,0:12:23.21,Signs,,0,0,0,,Awa
+Dialogue: 0,0:12:23.48,0:12:23.96,Signs,,0,0,0,,Awa
+Dialogue: 0,0:12:24.23,0:12:24.42,Signs,,0,0,0,,Awa
+Dialogue: 0,0:12:24.43,0:12:25.78,Signs,,0,0,0,,Eternity
+Dialogue: 0,0:12:25.79,0:12:26.63,Signs,,0,0,0,,Swimming
+Dialogue: 0,0:12:26.90,0:12:27.38,Signs,,0,0,0,,Swimming
+Dialogue: 0,0:12:27.63,0:12:28.13,Signs,,0,0,0,,Swimming
+Dialogue: 0,0:12:28.40,0:12:28.63,Signs,,0,0,0,,Swimming
 Dialogue: 0,0:12:24.49,0:12:26.62,Dialogue,,0,0,0,,Swimming\N"Ei" is the "ei" in "suiei"!
 Dialogue: 0,0:12:30.29,0:12:31.87,Dialogue,,0,0,0,,Waterfall\N"Ryuu" is "taki", isn't it?
-Dialogue: 0,0:12:30.40,0:12:31.05,Dragon 2,,0,0,0,,{\fade(180,100)}Dragon
-Dialogue: 0,0:12:31.06,0:12:31.88,Dragon 2,,0,0,0,,{\fade(100,0)}Waterfall
-Dialogue: 0,0:12:32.15,0:12:32.63,Dragon 2,,0,0,0,,Waterfall
-Dialogue: 0,0:12:32.90,0:12:33.38,Dragon 2,,0,0,0,,Waterfall
+Dialogue: 0,0:12:30.40,0:12:31.05,Signs,,0,0,0,,Dragon
+Dialogue: 0,0:12:31.06,0:12:31.88,Signs,,0,0,0,,Waterfall
+Dialogue: 0,0:12:32.15,0:12:32.63,Signs,,0,0,0,,Waterfall
+Dialogue: 0,0:12:32.90,0:12:33.38,Signs,,0,0,0,,Waterfall
 Dialogue: 0,0:12:31.87,0:12:33.41,Dialogue,,0,0,0,,Huh?
 Dialogue: 0,0:12:33.42,0:12:36.21,Dialogue,,0,0,0,,Does that mean we can swim\Nat Aojishima Island's waterfall?
-Dialogue: 0,0:12:33.66,0:12:34.59,Dragon 2,,0,0,0,,{\fade(0,350)}Waterfall
+Dialogue: 0,0:12:33.66,0:12:34.59,Signs,,0,0,0,,Waterfall
 Dialogue: 0,0:12:36.21,0:12:39.96,Dialogue,,0,0,0,,The gravestone had "Wandering person" on it, right?
 Dialogue: 0,0:12:39.96,0:12:43.63,Dialogue,,0,0,0,,That was a hint to help those who couldn't\Nfigure out the code on the Japanese stone lantern.
 Dialogue: 0,0:12:44.38,0:12:49.89,Dialogue,,0,0,0,,The Japanese stone lantern basically said it's at "the place\Nclosest to the sun, a bustling place where elders gather."

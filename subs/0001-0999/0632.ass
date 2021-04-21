@@ -33,7 +33,6 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: Adds,Arial,50,&H00FFFFFF,&H000000FF,&H003B5F1B,&H00000000,0,0,0,0,100,100,0,0,1,2,0,7,15,15,15,1
 
 [Events]
 Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
@@ -46,7 +45,7 @@ Dialogue: 0,0:00:19.09,0:00:20.09,Dialogue,,0,0,0,,Wait, say...
 Dialogue: 0,0:00:20.09,0:00:22.63,Dialogue,,0,0,0,,Isn't this letter threatening a murder!?
 Dialogue: 0,0:00:23.48,0:00:24.26,Dialogue,,0,0,0,,Yes...
 Dialogue: 0,0:00:24.76,0:00:30.01,Dialogue,,0,0,0,,Starting two years ago, we've been receiving this\Nletter every year as the mistress's birthday nears.
-Dialogue: 0,0:00:24.76,0:00:31.59,Signs,,0,0,0,,Oume Gakumichi (42)\NHoshina Family Butler
+Dialogue: 0,0:00:24.76,0:00:31.59,Character Card,,0,0,0,,Oume Gakumichi (42)\NHoshina Family Butler
 Dialogue: 0,0:00:30.01,0:00:32.35,Dialogue,,0,0,0,,Always from an unidentified sender.
 Dialogue: 0,0:00:32.77,0:00:35.43,Dialogue,,0,0,0,,But since it started two years ago...
 Dialogue: 0,0:00:35.43,0:00:38.44,Dialogue,,0,0,0,,Does that mean nothing happened to the\Nmistress last year or the year before?
@@ -84,7 +83,7 @@ Dialogue: 0,0:04:04.31,0:04:05.14,Dialogue,,0,0,0,,Well...
 Dialogue: 0,0:04:05.64,0:04:08.35,Dialogue,,0,0,0,,It's quite a long way here from the garage...
 Dialogue: 0,0:04:08.90,0:04:10.36,Dialogue,,0,0,0,,And it was raining.
 Dialogue: 0,0:04:11.15,0:04:12.82,Dialogue,,0,0,0,,Human life has a limit.
-Dialogue: 0,0:04:11.02,0:04:16.03,Signs,,0,0,0,,Hoshina Rukako (50)\NHead the Hoshina Family
+Dialogue: 0,0:04:11.02,0:04:16.03,Character Card,,0,0,0,,Hoshina Rukako (50)\NHead the Hoshina Family
 Dialogue: 0,0:04:12.82,0:04:16.03,Dialogue,,0,0,0,,I make it a point to not waste even one second!
 Dialogue: 0,0:04:16.82,0:04:18.57,Dialogue,,0,0,0,,Also, Oume{\rHonorifics - Dialogue}-san{\r}.
 Dialogue: 0,0:04:18.57,0:04:21.70,Dialogue,,0,0,0,,The clock in the study is slow by nearly one second.
@@ -94,16 +93,16 @@ Dialogue: 0,0:04:26.51,0:04:27.71,Dialogue,,0,0,0,,I see.
 Dialogue: 0,0:04:27.71,0:04:31.13,Dialogue,,0,0,0,,She rules overtime as if she were the "Goddess of Time" herself.
 Dialogue: 0,0:04:31.13,0:04:32.88,Dialogue,,0,0,0,,Come now, Mistress.
 Dialogue: 0,0:04:34.55,0:04:36.86,Dialogue,,0,0,0,,Just as people need their days off...
-Dialogue: 0,0:04:37.07,0:04:43.60,Signs,,0,0,0,,Karube Teigo (45)\NArchitect
+Dialogue: 0,0:04:37.07,0:04:43.60,Character Card,,0,0,0,,Karube Teigo (45)\NArchitect
 Dialogue: 0,0:04:37.30,0:04:43.68,Dialogue,,0,0,0,,Wouldn't it be better to relax and allow your\Nclocks some time to catch their breath?
 Dialogue: 0,0:04:44.06,0:04:47.48,Dialogue,,0,0,0,,Well, clocks have no blood coursing through them...
-Dialogue: 0,0:04:44.06,0:04:50.69,Signs,,0,0,0,,Suou Chiaki (39)\NInterior Designer
+Dialogue: 0,0:04:44.06,0:04:50.69,Character Card,,0,0,0,,Suou Chiaki (39)\NInterior Designer
 Dialogue: 0,0:04:47.48,0:04:50.89,Dialogue,,0,0,0,,So they have no need for rest as we humans do, do they?
 Dialogue: 0,0:04:51.11,0:04:52.90,Dialogue,,0,0,0,,Wrong—they're the same as humans.
 Dialogue: 0,0:04:53.63,0:04:58.15,Dialogue,,0,0,0,,Just as humans need checkups, if we neglect\Nto occasionally inspect and oil our clocks...
 Dialogue: 0,0:04:58.15,0:05:00.32,Dialogue,,0,0,0,,They'll soon rust and find it hard to move.
 Dialogue: 0,0:05:00.82,0:05:05.16,Dialogue,,0,0,0,,Clocks continue working even as we humans sleep.
-Dialogue: 0,0:05:01.95,0:05:08.46,Signs,,0,0,0,,Furagaki Rinsaku (64)\NClock Technician
+Dialogue: 0,0:05:01.95,0:05:08.46,Character Card,,0,0,0,,Furagaki Rinsaku (64)\NClock Technician
 Dialogue: 0,0:05:05.16,0:05:11.42,Dialogue,,0,0,0,,They wear down their gears as they indicate the time\Nand even their springs gradually weaken, you know.
 Dialogue: 0,0:05:11.92,0:05:14.50,Dialogue,,0,0,0,,Uhm, these people must be...
 Dialogue: 0,0:05:14.50,0:05:17.46,Dialogue,,0,0,0,,Karube{\rHonorifics - Dialogue}-san{\r}, who planned this mansion...
@@ -402,7 +401,6 @@ Dialogue: 0,0:22:19.39,0:22:23.56,Dialogue,,0,0,0,,I was pushed right before tha
 Dialogue: 0,0:22:23.56,0:22:26.19,Dialogue,,0,0,0,,By a soft, springy body.
 Dialogue: 0,0:22:29.11,0:22:32.94,Dialogue,,0,0,0,,The culprit should be among the people in the grand hall back then.
 Dialogue: 0,0:22:34.11,0:22:38.86,Dialogue,,0,0,0,,Who in the world is this culprit that considers\Nthemselves the "Guardian of Time"?
-Dialogue: 0,0:24:00.19,0:24:02.08,Signs,,0,0,0,,Next Episode
 Dialogue: 0,0:24:02.61,0:24:04.41,Dialogue,,0,0,0,,I see, I've got it!
 Dialogue: 0,0:24:05.02,0:24:07.10,Dialogue,,0,0,0,,That "Guardian of Time" really passed through here...
 Dialogue: 0,0:24:07.58,0:24:09.00,Dialogue,,0,0,0,,At the time of the crime!
@@ -414,7 +412,6 @@ Dialogue: 0,0:24:19.67,0:24:21.72,Dialogue,,0,0,0,,Set up by the culprit snicker
 Dialogue: 0,0:24:24.33,0:24:30.04,Dialogue,,0,0,0,,THE GUARDIAN OF TIME'S SWORD\N(PART TWO)
 Dialogue: 0,0:24:45.92,0:24:48.31,Dialogue,,0,0,0,,Next Conan's Hint
 Dialogue: 0,0:24:48.34,0:24:50.07,Dialogue,,0,0,0,,Clock Hand
-Dialogue: 0,0:24:50.18,0:24:54.81,Adds,,0,0,0,,Look Forward to the Next Episode
 Dialogue: 0,0:24:50.44,0:24:51.26,Dialogue,,0,0,0,,Ran, I've got it!
 Dialogue: 0,0:24:51.29,0:24:52.90,Dialogue,,0,0,0,,The culprit is the Time Stopper!
 Dialogue: 0,0:24:52.92,0:24:54.77,Dialogue,,0,0,0,,Stop that hack deduction!

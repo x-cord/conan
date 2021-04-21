@@ -33,7 +33,6 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: HitomiRomaji,Ubuntu,40,&HC0FF0000,&H000000FF,&H00FFFFFF,&H00000000,-1,0,0,0,105,100,0,0,1,3.4,1,8,10,10,30,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -54,13 +53,13 @@ Dialogue: 0,0:02:37.59,0:02:41.97,Dialogue,,1,1,20,,But Detective, some of your 
 Dialogue: 0,0:02:42.47,0:02:46.14,Dialogue,,1,1,20,,It's not easy to add links to a chain lock.
 Dialogue: 0,0:02:46.77,0:02:49.56,Dialogue Top,,0,0,0,,And if the lamp above my room had been working,
 Dialogue: 0,0:02:49.56,0:02:51.81,Dialogue Top,,10,10,0,,the conductor wouldn't have come to my room in the first place!
-Dialogue: 0,0:02:52.06,0:02:58.61,Signs,,0,0,0,,Mari Idenami (33)\NPassenger in Carriage 8, Room E
+Dialogue: 0,0:02:52.06,0:02:58.61,Character Card,,0,0,0,,Mari Idenami (33)\NPassenger in Carriage 8, Room E
 Dialogue: 0,0:02:51.81,0:02:58.61,Dialogue Top,,0,0,0,,And I only called the conductor because the alarm rang on a watch that just happened to be left in my room!
 Dialogue: 0,0:02:58.61,0:03:02.32,Dialogue,,0,0,0,,{Conductor.} Mr. Conductor, you said it yourself, earlier, right?
 Dialogue: 0,0:03:02.32,0:03:05.08,Dialogue,,0,0,0,,That one of the conductors' uniforms was missing.
 Dialogue: 0,0:03:05.95,0:03:07.16,Dialogue,,0,0,0,,Yes.
 Dialogue: 0,0:03:07.16,0:03:10.46,Dialogue,,0,0,0,,That was probably Andō{\rHonorifics - Dialogue}-san{\r}'s doing.
-Dialogue: 0,0:03:10.66,0:03:14.96,Signs,,0,0,0,,Satoru Andō (41)\NPassenger in Carriage 8, Room C
+Dialogue: 0,0:03:10.66,0:03:14.96,Character Card,,0,0,0,,Satoru Andō (41)\NPassenger in Carriage 8, Room C
 Dialogue: 0,0:03:11.62,0:03:14.96,Dialogue Top,,0,0,0,,If he wore that uniform and snuck aboard the train amidst the pre-boarding checks...
 Dialogue: 0,0:03:15.50,0:03:21.76,Dialogue,,0,0,0,,Then he could add a link to the chain lock of the crime scene,\Nreplace the bulb for Noto{\rHonorifics - Dialogue}-san{\r}'s room with a broken one
 Dialogue: 0,0:03:21.76,0:03:25.64,Dialogue,,0,0,0,,and hide the watch in Idenami{\rHonorifics - Dialogue}-san{\r}'s room.
@@ -361,12 +360,4 @@ Dialogue: 0,0:24:14.54,0:24:19.46,Dialogue,,0,0,0,,Next Conan's Hint: Special Co
 Dialogue: 0,0:24:19.46,0:24:20.50,Dialogue Top,,0,0,0,,Sonoko, why tennis training?
 Dialogue: 0,0:24:20.50,0:24:22.38,Dialogue Top,,0,0,0,,Gotta train myself in tennis and in love!
 Dialogue: 0,0:24:22.38,0:24:24.00,Dialogue Top,,0,0,0,,Wait... Love?
-Dialogue: 0,0:19:24.83,0:19:32.63,HitomiRomaji,,0,0,0,,{\3c&HFFD4D4&\blur4}miagetara haru no ame machi ni oritekita
-Dialogue: 0,0:19:32.84,0:19:40.60,HitomiRomaji,,0,0,0,,{\3c&HFFD4D4&\blur4}kimi no aruku michi nurashite yuku
-Dialogue: 0,0:19:41.43,0:19:49.40,HitomiRomaji,,0,0,0,,{\3c&HFFD4D4&\blur4}kinō sasatta toge no yō na kimi no kotoba hitotsu
-Dialogue: 0,0:19:49.56,0:19:57.07,HitomiRomaji,,0,0,0,,{\3c&HFFD4D4&\blur4}mada honto wa nani mo shiranai yo
-Dialogue: 0,0:19:58.99,0:20:15.05,HitomiRomaji,,0,0,0,,{\blur4}sunao ni nareba kodoku nante nai yo hitori de wa nai kara
-Dialogue: 0,0:20:15.92,0:20:23.76,HitomiRomaji,,0,0,0,,{\blur4\3c&HEFF9FD&}don'na mirai kimi to mirai
-Dialogue: 0,0:20:23.97,0:20:33.23,HitomiRomaji,,0,0,0,,{\blur4\3c&HEFF9FD&}sono hitomi no shita e to tashikame ni yuku yo
-Dialogue: 0,0:20:33.61,0:20:41.16,HitomiRomaji,,0,0,0,,{\blur4\3c&HEFF9FD&\fad(0,750)}yukkuri to orite yuku kara
-Dialogue: 0,0:02:46.39,0:02:51.81,Signs,,0,0,0,,Taisaku Noto (52)\NPassenger in Carriage 8, Room A
+Dialogue: 0,0:02:46.39,0:02:51.81,Character Card,,0,0,0,,Taisaku Noto (52)\NPassenger in Carriage 8, Room A

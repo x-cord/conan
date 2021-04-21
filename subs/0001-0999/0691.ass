@@ -33,8 +33,6 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: HitomiRomaji,Ubuntu,40,&HC0FF0000,&H000000FF,&H00FFFFFF,&H00000000,-1,0,0,0,105,100,0,0,1,3.4,1,8,10,10,30,1
-Style: OPTLTextless,FuntypeFattened,50,&H00FFFFFF,&H000000FF,&H80AF0068,&H80000000,-1,0,0,0,90,100,0,0,1,3,1,2,10,10,40,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -352,32 +350,3 @@ Dialogue: 0,0:24:09.50,0:24:14.51,Dialogue,,0,0,0,,Next Conan's Hint: Surveillan
 Dialogue: 0,0:24:14.51,0:24:15.84,Dialogue,,0,0,0,,You might beat me, Sera{\rHonorifics - Dialogue}-san{\r}!{I lose out to Sera{\rHonorifics - Dialogue}-san{\r}.{null.AR: 世良さんに負けるかも}
 Dialogue: 0,0:24:15.84,0:24:17.09,Dialogue,,0,0,0,,You're stronger than me!{[No], you're even stronger [than me]!{null.AR: 君のが強いよ}
 Dialogue: 0,0:24:17.09,0:24:18.76,Dialogue,,0,0,0,,...I really don't wanna fight either of you.{How I'd like to be in these two's [position / place].{この２人にあった立たっけ叩け欲しくね}
-Dialogue: 0,0:21:38.14,0:21:45.94,HitomiRomaji,,0,0,0,,{\3c&HFFD4D4&\blur4}miagetara haru no ame machi ni oritekita
-Dialogue: 0,0:21:46.15,0:21:53.87,HitomiRomaji,,0,0,0,,{\3c&HFFD4D4&\blur4}kimi no aruku michi nurashite yuku
-Dialogue: 0,0:21:54.74,0:22:02.71,HitomiRomaji,,0,0,0,,{\3c&HFFD4D4&\blur4}kinō sasatta toge no yō na kimi no kotoba hitotsu
-Dialogue: 0,0:22:02.88,0:22:10.38,HitomiRomaji,,0,0,0,,{\3c&HFFD4D4&\blur4}mada honto wa nani mo shiranai yo
-Dialogue: 0,0:22:12.30,0:22:28.36,HitomiRomaji,,0,0,0,,{\blur4}sunao ni nareba kodoku nante nai yo hitori de wa nai kara
-Dialogue: 0,0:22:29.24,0:22:37.04,HitomiRomaji,,0,0,0,,{\blur4\3c&HEFF9FD&}don'na mirai kimi to mirai
-Dialogue: 0,0:22:37.29,0:22:46.54,HitomiRomaji,,0,0,0,,{\blur4\3c&HEFF9FD&}sono hitomi no shita e to tashikame ni yuku yo
-Dialogue: 0,0:22:46.92,0:22:54.59,HitomiRomaji,,0,0,0,,{\blur4\3c&HEFF9FD&\fad(0,750)}yukkuri to orite yuku kara
-Dialogue: 0,0:03:22.27,0:03:25.65,OPTLTextless,,0,0,0,,{\blur2}Take me to the high, we never cry on
-Dialogue: 0,0:03:25.65,0:03:29.24,OPTLTextless,,0,0,0,,{\blur2}To a tomorrow we've never seen
-Dialogue: 0,0:03:29.28,0:03:32.99,OPTLTextless,,0,0,0,,{\blur2}Try again Try again Try again Always
-Dialogue: 0,0:03:32.99,0:03:36.29,OPTLTextless,,0,0,0,,{\blur2}Try again Try again Try again
-Dialogue: 0,0:03:36.29,0:03:39.37,OPTLTextless,,0,0,0,,{\blur2\fad(0,300)}Speak out the truth!
-Dialogue: 0,0:03:45.42,0:03:49.09,OPTLTextless,,0,0,0,,{\blur2}Not knowing exactly what you're searching for
-Dialogue: 0,0:03:49.09,0:03:52.55,OPTLTextless,,0,0,0,,{\blur2}living in the moment in your reckless way
-Dialogue: 0,0:03:52.55,0:03:56.39,OPTLTextless,,0,0,0,,{\blur2}If you don't brighten up a bit soon
-Dialogue: 0,0:03:56.39,0:03:59.68,OPTLTextless,,0,0,0,,{\blur2}you'll get crushed by your own anxiety
-Dialogue: 0,0:03:59.68,0:04:03.19,OPTLTextless,,0,0,0,,{\blur2}Surely you have dreams too?
-Dialogue: 0,0:04:03.19,0:04:06.86,OPTLTextless,,0,0,0,,{\blur2}I want to fulfill them, I want to cry... but I'll still chase them
-Dialogue: 0,0:04:06.86,0:04:10.44,OPTLTextless,,0,0,0,,{\blur2}Aren't you just quietly giving up?
-Dialogue: 0,0:04:10.44,0:04:14.53,OPTLTextless,,0,0,0,,{\blur2}Can't you see now the reality you've distanced yourself from?
-Dialogue: 0,0:04:15.99,0:04:19.41,OPTLTextless,,0,0,0,,{\blur2}Take me to the high, we never cry on
-Dialogue: 0,0:04:19.41,0:04:22.83,OPTLTextless,,0,0,0,,{\blur2}To a tomorrow we've never seen
-Dialogue: 0,0:04:22.83,0:04:26.42,OPTLTextless,,0,0,0,,{\blur2}Try again Try again Try again Always
-Dialogue: 0,0:04:26.42,0:04:30.13,OPTLTextless,,0,0,0,,{\blur2}Try again Try again Try again
-Dialogue: 0,0:04:30.13,0:04:37.18,OPTLTextless,,0,0,0,,{\blur2}Not everything is bad, we're dreamers after all
-Dialogue: 0,0:04:37.18,0:04:40.73,OPTLTextless,,0,0,0,,{\blur2}Try again Try again Try again Always
-Dialogue: 0,0:04:40.73,0:04:44.48,OPTLTextless,,0,0,0,,{\blur2}Try again Try again Try again
-Dialogue: 0,0:04:44.48,0:04:47.86,OPTLTextless,,0,0,0,,{\blur2\fad(0,500)}Speak out the truth!

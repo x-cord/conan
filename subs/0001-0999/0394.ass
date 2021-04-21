@@ -33,7 +33,6 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: Phone01,Arial,15,&H00F3F3F1,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,-17,1,0,0,2,0,45,145,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -265,7 +264,7 @@ Dialogue: 0,0:14:30.57,0:14:32.74,Dialogue,,0,0,0,,Stop thinking only about the 
 Dialogue: 0,0:14:33.41,0:14:37.04,Dialogue,,0,0,0,,Professor, can you call the police immediately?
 Dialogue: 0,0:14:37.04,0:14:39.04,Dialogue,,0,0,0,,Yes, understood.
 Dialogue: 0,0:14:50.14,0:14:52.18,Dialogue,,0,0,0,,As I thought, it's impossible from here.
-Dialogue: 0,0:14:52.13,0:14:54.11,Phone01,,0,0,0,,Outside of\NService Area
+Dialogue: 0,0:14:52.13,0:14:54.11,Signs,,0,0,0,,Outside of\NService Area
 Dialogue: 0,0:14:54.18,0:14:59.02,Dialogue,,0,0,0,,Since my cell phone can't connect from here,\NI'm going back to the tent to try again from there.
 Dialogue: 0,0:14:59.02,0:15:01.27,Dialogue,,0,0,0,,Yes, that sounds good.
 Dialogue: 0,0:15:01.27,0:15:02.10,Dialogue,,0,0,0,,Be careful!

@@ -33,7 +33,6 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: Poodles,MV Boli M,70,&H400102B5,&H000809FC,&H00CFF2F3,&H80000000,0,0,0,0,100,100,0,0,1,4,2,8,10,10,25,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -73,7 +72,7 @@ Dialogue: 0,0:04:04.31,0:04:05.39,Dialogue,,0000,0000,0000,,I'm sorry!
 Dialogue: 0,0:04:05.77,0:04:07.60,Dialogue,,0000,0000,0000,,Are you okay, little boy?
 Dialogue: 0,0:04:07.60,0:04:09.31,Dialogue,,0000,0000,0000,,Yeah, I'm fine.
 Dialogue: 0,0:04:09.31,0:04:11.23,Dialogue,,0000,0000,0000,,But don't call me a little boy.
-Dialogue: 0,0:04:11.48,0:04:15.61,Signs,,0000,0000,0000,,Justin Takamori (7)\NTourist
+Dialogue: 0,0:04:11.48,0:04:15.61,Character Card,,0000,0000,0000,,Justin Takamori (7)\NTourist
 Dialogue: 0,0:04:12.15,0:04:13.56,Dialogue Top,,0000,0000,0000,,I'm Justin!
 Dialogue: 0,0:04:13.56,0:04:15.61,Dialogue Top,,0000,0000,0000,,My name is Justin Takamori.
 Dialogue: 0,0:04:15.91,0:04:16.88,Thoughts,,0000,0000,0000,,{\be10}Justin?
@@ -88,7 +87,7 @@ Dialogue: 0,0:04:41.38,0:04:43.30,Dialogue,,0000,0000,0000,,Then who's number on
 Dialogue: 0,0:04:43.31,0:04:45.60,Dialogue,,0000,0000,0000,,My mummy, of course!
 Dialogue: 0,0:04:45.60,0:04:46.68,Dialogue,,0000,0000,0000,,Justin!
 Dialogue: 0,0:04:46.68,0:04:49.81,Dialogue Top,,0000,0000,0000,,I thought I told you not to walk off by yourself.
-Dialogue: 0,0:04:47.68,0:04:50.69,Signs,,0000,0000,0000,,Jessica Takamori (30)\NJustin's Mother
+Dialogue: 0,0:04:47.68,0:04:50.69,Character Card,,0000,0000,0000,,Jessica Takamori (30)\NJustin's Mother
 Dialogue: 0,0:04:53.65,0:04:55.23,Dialogue,,0000,0000,0000,,Sorry, Mummy.
 Dialogue: 0,0:04:55.23,0:04:56.23,Dialogue,,0000,0000,0000,,That's right!
 Dialogue: 0,0:04:56.23,0:04:58.90,Dialogue,,0000,0000,0000,,I've got something good to show you!
@@ -141,13 +140,13 @@ Dialogue: 0,0:07:36.11,0:07:37.77,Dialogue,,0000,0000,0000,,Go! Hurry up!
 Dialogue: 0,0:08:20.35,0:08:22.31,Dialogue,,0000,0000,0000,,Ahh, I'm stuffed!
 Dialogue: 0,0:08:22.31,0:08:25.32,Dialogue,,0000,0000,0000,,I see you've still got that good appetite.
 Dialogue: 0,0:08:26.57,0:08:27.07,Dialogue,,0000,0000,0000,,Huh?
-Dialogue: 0,0:08:32.62,0:08:36.74,Signs,,0000,0000,0000,,Jun Kouda (26)\NKumamoto Police Detective
+Dialogue: 0,0:08:32.62,0:08:36.74,Character Card,,0000,0000,0000,,Jun Kouda (26)\NKumamoto Police Detective
 Dialogue: 0,0:08:32.91,0:08:36.74,Dialogue Top,,0000,0000,0000,,A man just took the bag and left behind a Kumamon.
 Dialogue: 0,0:08:36.95,0:08:41.00,Dialogue Top,,0000,0000,0000,,Roger. We'll arrest him when he's somewhere more isolated.
-Dialogue: 0,0:08:36.99,0:08:43.13,Signs,,0000,0000,0000,,Keiji Kosugi (41)\NKumamoto Police Detective
+Dialogue: 0,0:08:36.99,0:08:43.13,Character Card,,0000,0000,0000,,Keiji Kosugi (41)\NKumamoto Police Detective
 Dialogue: 0,0:08:41.00,0:08:41.71,Dialogue,,0000,0000,0000,,Ensure that you—
 Dialogue: 0,0:08:41.73,0:08:42.62,Dialogue,,0000,0000,0000,,Hold on!
-Dialogue: 0,0:08:43.17,0:08:44.92,Signs,,0000,0000,0000,,Namie Kajiyama (28)\NKumamoto Police Detective
+Dialogue: 0,0:08:43.17,0:08:44.92,Character Card,,0000,0000,0000,,Namie Kajiyama (28)\NKumamoto Police Detective
 Dialogue: 0,0:08:43.48,0:08:44.27,Dialogue,,0000,0000,0000,,A girl just...
 Dialogue: 0,0:08:44.27,0:08:44.92,Dialogue,,0000,0000,0000,,What?!
 Dialogue: 0,0:08:44.92,0:08:46.46,Dialogue,,0000,0000,0000,,Mister!
@@ -197,7 +196,7 @@ Dialogue: 0,0:11:20.60,0:11:23.01,Dialogue,,0000,0000,0000,,But why are the poli
 Dialogue: 0,0:11:23.49,0:11:24.85,Dialogue,,0000,0000,0000,,I called them here!
 Dialogue: 0,0:11:24.85,0:11:30.14,Dialogue,,0000,0000,0000,,But never mind that, you tell this man about the break-in.
 Dialogue: 0,0:11:30.14,0:11:31.36,Dialogue,,0000,0000,0000,,S-Sure.
-Dialogue: 0,0:11:31.87,0:11:38.83,Signs,,0000,0000,0000,,Mitsuo Inoue (32)\NKumamon Foods Employee
+Dialogue: 0,0:11:31.87,0:11:38.83,Character Card,,0000,0000,0000,,Mitsuo Inoue (32)\NKumamon Foods Employee
 Dialogue: 0,0:11:31.91,0:11:35.91,Dialogue Top,,0000,0000,0000,,When I arrived at work that morning,\Nthe lock on the door had been broken.
 Dialogue: 0,0:11:35.91,0:11:38.83,Dialogue Top,,0000,0000,0000,,So I rushed inside to check on things,
 Dialogue: 0,0:11:38.82,0:11:42.57,Dialogue,,0000,0000,0000,,but nothing seemed to be damaged, so I let out a sigh of relief...
@@ -383,17 +382,3 @@ Dialogue: 0,0:23:42.89,0:23:45.08,Dialogue Top,,0000,0000,0000,,The Detective Bo
 Dialogue: 0,0:23:45.08,0:23:45.88,Dialogue Top,,0000,0000,0000,,Th{\i1}a' so{\i0}?
 Dialogue: 0,0:23:45.88,0:23:47.29,Thoughts,,0000,0000,0000,,{\be10\an8\i1}kuma mo to{\i0}rokeru
 Dialogue: 0,0:23:45.88,0:23:47.29,Dialogue Top,,0000,0000,0000,,They're also being charmed by the bears.
-Dialogue: 0,0:22:18.76,0:22:23.94,Poodles,,0000,0000,0000,,{\fax0.25\blur2.5\3c&HFFFFFF}kimi no egao ga nani yori mo suki datta
-Dialogue: 0,0:22:24.27,0:22:27.40,Poodles,,0000,0000,0000,,{\fax0.25\blur2.5\3c&HFFFFFF}onaji koto de waraiatta ne
-Dialogue: 0,0:22:27.73,0:22:35.82,Poodles,,0000,0000,0000,,{\fax0.25\blur2.5\3c&HFFFFFF}futoshita shunkan ni iron'na kimi o omoidasu
-Dialogue: 0,0:22:37.66,0:22:43.87,Poodles,,0000,0000,0000,,{\fax0.25\blur2.5\3c&HF2F2F3&\c&H880088}'boku ga genjitsuteki sugita' to ima ni natte kuyande'ru
-Dialogue: 0,0:22:45.37,0:22:51.96,Poodles,,0000,0000,0000,,{\fax0.25\blur2.5\3c&HF2F2F3&\c&H880088}'kimi to no yume no tame ni' motto ikiru beki datta
-Dialogue: 0,0:22:53.01,0:22:56.26,Poodles,,0000,0000,0000,,{\fax0.25\blur2.5\c&H008800\3c&HF2F2F3}kimi no inai akimatsuri
-Dialogue: 0,0:22:56.43,0:23:01.72,Poodles,,0000,0000,0000,,{\fax0.25\blur2.5\3c&HF2F2F3&\c&H880000\t(4470,5220,\c&H0\3c&H0\4c&H0)}ima no boku wa younger than yesterday
-Dialogue: 0,0:23:02.47,0:23:07.56,Poodles,,0000,0000,0000,,{\fax0.25\blur2.5\3c&HF2F2F3&}hanabira ga mau yō ni kimi wa waratta ne
-Dialogue: 0,0:23:07.90,0:23:10.52,Poodles,,0000,0000,0000,,{\fax0.25\blur2.5\3c&HF2F2F3&\c&H008800}motto warawasetakatta
-Dialogue: 0,0:23:10.86,0:23:17.57,Poodles,,0000,0000,0000,,{\fax0.25\blur2.5\3c&HF2F2F3&\c&H008800}hareteiru no ni tsumetai ame ga futteiru
-Dialogue: 0,0:23:17.74,0:23:23.29,Poodles,,0000,0000,0000,,{\fax0.25\blur2.5\3c&HF2F2F3&\c&H008800}kimi no egao ga nani yori mo suki datta
-Dialogue: 0,0:23:23.62,0:23:26.58,Poodles,,0000,0000,0000,,{\fax0.25\blur2.5\3c&HF2F2F3&\c&H008800}min'na hitori ja ikirenai
-Dialogue: 0,0:23:26.75,0:23:30.38,Poodles,,0000,0000,0000,,{\fax0.25\blur2.5\3c&HF2F2F3&\c&H008800}kimi no kaeru basho de
-Dialogue: 0,0:23:30.71,0:23:35.55,Poodles,,0000,0000,0000,,{\fax0.25\blur2.5\3c&HF2F2F3&\c&H008800}boku wa zutto aritsuzuketai

@@ -33,7 +33,6 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: Adds,Arial,50,&H00FFFFFF,&H000000FF,&H003B5F1B,&H00000000,0,0,0,0,100,100,0,0,1,2,0,7,15,15,15,1
 
 [Events]
 Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
@@ -42,15 +41,15 @@ Dialogue: 0,0:00:04.78,0:00:09.24,Dialogue,,0,0,0,,Was Nakakita Kaede{\rHonorifi
 Dialogue: 0,0:00:10.28,0:00:15.39,Dialogue,,0,0,0,,In response to her invitation, we visited Mr. Ouzaburou's\Nmansion that bore the name "Red Leaf Palace"...
 Dialogue: 0,0:00:15.41,0:00:18.73,Dialogue,,0,0,0,,And were surprised by the numerous\Ntrick art employed here and there.
 Dialogue: 0,0:00:21.04,0:00:27.68,Dialogue,,0,0,0,,Mr. Ouzaburou's two kids, son Ogito{\rHonorifics - Dialogue}-san{\r} and daughter\NNobue{\rHonorifics - Dialogue}-san{\r}, had been feuding with each other...
-Dialogue: 0,0:00:22.96,0:00:24.63,Signs,,0,0,0,,Katayose Ogito (35)\NEldest Son of Katayose
-Dialogue: 0,0:00:24.63,0:00:26.51,Signs,,0,0,0,,Katayose Nobue (32)\NEldest Daughter of Katayose
+Dialogue: 0,0:00:22.96,0:00:24.63,Character Card,,0,0,0,,Katayose Ogito (35)\NEldest Son of Katayose
+Dialogue: 0,0:00:24.63,0:00:26.51,Character Card,,0,0,0,,Katayose Nobue (32)\NEldest Daughter of Katayose
 Dialogue: 0,0:00:27.68,0:00:31.64,Dialogue,,0,0,0,,And Mr. Ouzaburou had become saddened by the two children.
-Dialogue: 0,0:00:29.39,0:00:31.05,Signs,,0,0,0,,Katayose Ouzaburou (68)\NHead of the Katayose Household
+Dialogue: 0,0:00:29.39,0:00:31.05,Character Card,,0,0,0,,Katayose Ouzaburou (68)\NHead of the Katayose Household
 Dialogue: 0,0:00:34.47,0:00:36.43,Dialogue,,0,0,0,,That Mr. Ouzaburou then died by poison.
 Dialogue: 0,0:00:37.27,0:00:41.15,Dialogue,,0,0,0,,But, neither Ran nor I witnessed any suspects fleeing the scene.
 Dialogue: 0,0:00:41.92,0:00:43.61,Dialogue,,0,0,0,,Was this a sealed room murder?
 Dialogue: 0,0:00:45.11,0:00:49.66,Dialogue,,0,0,0,,Amidst the escalating altercation between\NOgito{\rHonorifics - Dialogue}-san{\r} and Nobue{\rHonorifics - Dialogue}-san{\r} over the inheritance...
-Dialogue: 0,0:00:48.95,0:00:50.74,Signs,,0,0,0,,Suzaka Eiko (48)\NKatayose Family Chauffeur
+Dialogue: 0,0:00:48.95,0:00:50.74,Character Card,,0,0,0,,Suzaka Eiko (48)\NKatayose Family Chauffeur
 Dialogue: 0,0:00:49.66,0:00:54.45,Dialogue,,0,0,0,,Mr. Ouzaburou's letter consigned to the\Nchauffeur, Suzaka Eiko{\rHonorifics - Dialogue}-san{\r}, was discovered.
 Dialogue: 0,0:00:56.79,0:00:58.71,Dialogue,,0,0,0,,"Now, close the umbrella.
 Dialogue: 0,0:00:59.33,0:01:01.46,Dialogue,,0,0,0,,"Gaze at the evening sun setting in the east.
@@ -78,7 +77,7 @@ Dialogue: 0,0:03:48.52,0:03:49.47,Dialogue,,0,0,0,,Pardon me.
 Dialogue: 0,0:03:50.12,0:03:50.71,Dialogue,,0,0,0,,Yes?
 Dialogue: 0,0:03:53.56,0:03:56.86,Dialogue,,0,0,0,,Since it seems it will take quite a while until meal time...
 Dialogue: 0,0:03:56.86,0:03:57.40,Dialogue,,0,0,0,,Feel free.
-Dialogue: 0,0:03:57.40,0:04:00.90,Signs,,0,0,0,,Nakakita Kaede (8)\NAdopted Child of Katayose
+Dialogue: 0,0:03:57.40,0:04:00.90,Character Card,,0,0,0,,Nakakita Kaede (8)\NAdopted Child of Katayose
 Dialogue: 0,0:04:03.70,0:04:05.37,Dialogue,,0,0,0,,Smells good.
 Dialogue: 0,0:04:06.08,0:04:07.49,Dialogue,,0,0,0,,Black tea, right?
 Dialogue: 0,0:04:07.49,0:04:08.70,Dialogue,,0,0,0,,I'll go fetch Grandpa.
@@ -430,7 +429,6 @@ Dialogue: 0,0:23:50.72,0:23:52.61,Dialogue,,0,0,0,,"Conan{\rHonorifics - Dialogu
 Dialogue: 0,0:23:52.63,0:23:54.55,Dialogue,,0,0,0,,"I shall make you my hubby!"
 Dialogue: 0,0:23:56.01,0:23:57.90,Dialogue,,0,0,0,,Your "hubby"...
 Dialogue: 0,0:23:57.93,0:23:59.37,Dialogue,,0,0,0,,You wish...
-Dialogue: 0,0:24:00.08,0:24:24.09,Signs,,0,0,0,,Next Episode
 Dialogue: 0,0:24:00.32,0:24:01.19,Dialogue,,0,0,0,,Wow!
 Dialogue: 0,0:24:01.22,0:24:03.97,Dialogue,,0,0,0,,As expected of Okayama—famous for its peaches!
 Dialogue: 0,0:24:03.99,0:24:06.29,Dialogue,,0,0,0,,Even the ladies are peachy-peachy!
@@ -445,6 +443,5 @@ Dialogue: 0,0:24:24.40,0:24:29.83,Dialogue,,0,0,0,,THE MEMORY TRIP OF THE EIGHT 
 Dialogue: 0,0:24:45.81,0:24:48.07,Dialogue,,0,0,0,,ext Conan's Hint
 Dialogue: 0,0:24:48.10,0:24:50.07,Dialogue,,0,0,0,,water zither cave
 Dialogue: 0,0:24:48.10,0:24:50.07,Signs,,0,0,0,,Suikinkutsu
-Dialogue: 0,0:24:50.07,0:24:54.72,Adds,,0,0,0,,Look Forward to the Next Episode
 Dialogue: 0,0:24:50.35,0:24:52.27,Dialogue,,0,0,0,,The next story is the Okayama and Kurashiki Mystery Tour!
 Dialogue: 0,0:24:52.29,0:24:54.73,Dialogue,,0,0,0,,Even if you didn't go, you can still enjoy a real deduction experience!

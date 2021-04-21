@@ -33,8 +33,6 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: ED_53_Romaji,@A-OTF Shin Go Pro M,55,&H00F4AAFD,&H00EFF5FB,&H004E5151,&HC0000000,-1,0,0,0,100,100,0,0,1,4,0,8,0,0,20,1
-Style: OP_44_Romaji,@A-OTF Shin Go Pro M,55,&H00BA96E3,&H00EFF5FB,&H00252525,&HC0000000,-1,0,0,0,100,100,0,0,1,4,0,8,0,0,20,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -46,9 +44,6 @@ Dialogue: 0,0:00:14.54,0:00:18.35,Dialogue,Conan Edogawa,0,0,2,,And if he wished
 Dialogue: 0,0:00:18.35,0:00:21.50,Dialogue,Conan Edogawa,0,0,2,,And if a man had to hide a dead body,
 Dialogue: 0,0:00:21.50,0:00:23.98,Dialogue,Conan Edogawa,0,0,2,,he would make a field of dead bodies to hide in it."
 Dialogue: 0,0:00:23.98,0:00:28.81,Dialogue,Conan Edogawa,0,0,2,,So what if you want to hide your dying message?
-Dialogue: 0,0:00:29.48,0:00:34.90,OP_44_Romaji,,0,0,0,,{\kf68}Iku{\kf35}sen {\kf22}no {\kf28}mei{\kf19}ky{\kf15}uu {\kf117}de {\kf20}iku{\kf35}sen {\kf23}no {\kf17}na{\kf29}zo {\kf22}wo {\kf47}toi{\kf45}te
-Dialogue: 0,0:00:35.40,0:00:38.03,OP_44_Romaji,,0,0,0,,{\kf49}Hon{\kf22}tou {\kf20}no {\kf27}bo{\kf35}ku {\kf19}mo{\kf14}do{\kf15}re{\kf19}ta {\kf19}na{\kf24}ra
-Dialogue: 0,0:00:38.24,0:00:40.98,OP_44_Romaji,,0,0,0,,{\kf33}Ko{\kf28}no {\kf20}hi{\kf13}mi{\kf11}tsu {\kf20}su{\kf19}be{\kf16}te {\kf16}wo {\kf20}tsu{\kf31}tae{\kf32}tai {\kf15}nda
 Dialogue: 0,0:00:40.98,0:00:42.88,Dialogue,Conan Edogawa,0,0,0,,Does even heaven look at the maze of this world?
 Dialogue: 0,0:00:42.88,0:00:45.40,Dialogue,Conan Edogawa,0,0,0,,Deduction will go through everything with full force!
 Dialogue: 0,0:00:45.40,0:00:47.17,Dialogue,Conan Edogawa,0,0,0,,Antiques that blind a person.
@@ -56,18 +51,6 @@ Dialogue: 0,0:00:47.17,0:00:49.70,Dialogue,Conan Edogawa,0,0,0,,The secret that 
 Dialogue: 0,0:00:49.70,0:00:51.47,Dialogue,Conan Edogawa,0,0,0,,Comprehends one single truth...
 Dialogue: 0,0:00:51.47,0:00:54.14,Dialogue,Conan Edogawa,0,0,0,,With the body of a child, with the mind of an adult...
 Dialogue: 0,0:00:54.14,0:00:55.51,Dialogue,Conan Edogawa,0,0,0,,His name is: "Detective Conan!"
-Dialogue: 0,0:00:56.67,0:01:05.48,OP_44_Romaji,,0,0,0,,{\kf70}So{\kf50}ra {\kf149}wo {\kf18}sa{\kf22}bi{\kf32}shi{\kf44}ge {\kf113}ni {\kf38}mia{\kf17}ge{\kf111}ru {\kf11}ki{\kf24}mi {\kf26}wo {\kf42}mi{\kf32}te{\kf84}ru
-Dialogue: 0,0:01:07.27,0:01:15.53,OP_44_Romaji,,0,0,0,,{\kf55}Bo{\kf38}ku {\kf148}wa {\kf29}ma{\kf32}ba{\kf62}ta{\kf36}ki {\kf98}mo {\kf16}wa{\kf20}ka{\kf20}ru\N{\kf31}ho{\kf37}do {\kf24}so{\kf17}ba {\kf51}ni {\kf41}iru {\kf36}no {\kf36}ni
-Dialogue: 0,0:01:17.09,0:01:22.12,OP_44_Romaji,,0,0,0,,{\kf50}Su{\kf13}gu {\kf29}so{\kf11}ko {\kf19}ma{\kf38}de {\kf25}se{\kf20}ma{\kf15}ru {\kf31}kyo{\kf40}ui {\kf25}fu{\kf15}ka{\kf37}ku {\kf33}na{\kf25}ru {\kf28}ya{\kf50}mi
-Dialogue: 0,0:01:22.51,0:01:27.29,OP_44_Romaji,,0,0,0,,{\kf39}Me{\kf25}biu{\kf21}su {\kf17}no {\kf45}wa {\kf21}ma{\kf16}wa{\kf10}ri {\kf20}tsu{\kf13}dzu{\kf51}ke {\kf20}nu{\kf15}ke{\kf25}da{\kf41}se{\kf23}na{\kf33}ku{\kf44}te
-Dialogue: 0,0:01:27.64,0:01:30.04,OP_44_Romaji,,0,0,0,,{\kf39}Ko{\kf52}tae {\kf34}wa {\kf13}do{\kf35}ko {\kf68}ni?
-Dialogue: 0,0:01:31.10,0:01:36.22,OP_44_Romaji,,0,0,0,,{\kf31}Iku{\kf29}sen {\kf28}no {\kf27}mei{\kf15}ky{\kf26}uu {\kf112}de {\kf21}iku{\kf40}sen {\kf18}no {\kf13}na{\kf29}zo {\kf20}wo {\kf58}toi{\kf45}te
-Dialogue: 0,0:01:36.80,0:01:41.18,OP_44_Romaji,,0,0,0,,{\kf24}Chi{\kf18}ka{\kf19}ku {\kf25}ni {\kf49}ite {\kf13}de{\kf19}mo {\kf37}too{\kf26}ku{\kf54}te {\kf16}ki{\kf32}mi {\kf16}to {\kf21}ma{\kf15}ji{\kf15}wa{\kf15}ra{\kf24}nai
-Dialogue: 0,0:01:41.36,0:01:46.64,OP_44_Romaji,,0,0,0,,{\kf38}It{\kf16}su {\kf19}ma{\kf16}de {\kf11}mo {\kf30}tsu{\kf38}dzu{\kf111}ku {\kf20}fu{\kf12}ta{\kf23}shi{\kf18}ka {\kf12}na {\kf34}mi{\kf68}rai {\kf16}de{\kf46}mo
-Dialogue: 0,0:01:47.21,0:01:51.77,OP_44_Romaji,,0,0,0,,{\kf27}Ma{\kf16}da {\kf38}mie{\kf59}nai {\kf17}de{\kf16}gu{\kf14}chi {\kf17}mo{\kf34}to{\kf40}me {\kf17}ha{\kf40}shi{\kf12}ri {\kf24}tsu{\kf12}dzu{\kf21}ke{\kf11}ru {\kf20}ka{\kf21}ra
-Dialogue: 0,0:01:51.96,0:01:57.23,OP_44_Romaji,,0,0,0,,{\kf35}Don{\kf25}na {\kf16}ni {\kf16}ma{\kf26}yo{\kf35}tte {\kf113}mo {\kf12}ki{\kf14}mi {\kf28}wo {\kf22}mi{\kf27}tsu{\kf13}ke{\kf62}ru {\kf24}ka{\kf59}ra
-Dialogue: 0,0:01:57.47,0:02:00.07,OP_44_Romaji,,0,0,0,,{\kf53}Hon{\kf21}tou {\kf21}no {\kf24}bo{\kf30}ku {\kf23}mo{\kf19}do{\kf15}re{\kf21}ta {\kf24}na{\kf9}ra
-Dialogue: 0,0:02:00.23,0:02:03.48,OP_44_Romaji,,0,0,0,,{\kf40}Ko{\kf27}no {\kf26}o{\kf24}moi {\kf24}su{\kf18}be{\kf12}te {\kf16}wo {\kf21}tsu{\kf30}tae{\kf35}tai {\kf52}nda
 Dialogue: 0,0:02:31.79,0:02:33.96,Dialogue,,0,0,0,,There's no doubt about it.
 Dialogue: 0,0:02:34.80,0:02:38.13,Dialogue,,0,0,0,,- Your wife is cheating on you.\N- I knew it!
 Dialogue: 0,0:02:38.13,0:02:40.47,Dialogue,,0,0,0,,Have a look at the mole under her eye.
@@ -419,19 +402,6 @@ Dialogue: 0,0:21:38.31,0:21:42.23,Dialogue,,0,0,0,,Even so, the fact that you di
 Dialogue: 0,0:21:42.23,0:21:45.19,Dialogue,,0,0,0,,You are indeed an extraordinary detective,\NMori Kogoro-dono.
 Dialogue: 0,0:21:45.19,0:21:48.57,Dialogue,,0,0,0,,It would seem that my greatest mistake
 Dialogue: 0,0:21:48.57,0:21:52.29,Dialogue,,0,0,0,,was not realizing that you were here.
-Dialogue: 0,0:22:11.30,0:22:15.73,ED_53_Romaji,,0,0,0,,{\kf30}Ku{\kf9}ya{\kf43}shii {\kf15}ke{\kf17}do {\kf21}so{\kf41}re{\kf14}de{\kf24}mo {\kf13}o{\kf22}moi {\kf14}tsu{\kf14}zu{\kf22}ke{\kf8}te {\kf40}iku {\kf22}no {\kf18}de{\kf54}shou
-Dialogue: 0,0:22:16.21,0:22:24.00,ED_53_Romaji,,0,0,0,,{\kf55}Kon{\kf25}na {\kf18}ni {\kf13}su{\kf23}ki {\kf16}na {\kf28}ha{\kf50}zu {\kf27}na{\kf25}no{\kf170}ni {\kf29}na{\kf25}ke{\kf40}nai {\kf30}"ji{\kf44}bun" {\kf23}ga {\kf70}iru {\kf30}na{\kf38}ze?
-Dialogue: 0,0:22:24.22,0:22:27.76,ED_53_Romaji,,0,0,0,,{\kf51}It{\kf22}tai {\kf22}"wa{\kf15}ta{\kf14}shi" {\kf18}wa {\kf28}"da{\kf17}re" {\kf26}de {\kf50}"nan" {\kf28}na {\kf23}no {\kf40}ka?
-Dialogue: 0,0:22:27.98,0:22:31.18,ED_53_Romaji,,0,0,0,,{\kf45}"Hon{\kf23}tou {\kf11}no {\kf11}ji{\kf20}bun" {\kf16}sa{\kf25}ga{\kf28}shi {\kf27}ni {\kf43}iki{\kf71}tai
-Dialogue: 0,0:22:31.56,0:22:38.23,ED_53_Romaji,,0,0,0,,{\kf71}"Koi" {\kf28}wa {\kf21}it{\kf19}su {\kf74}no {\kf36}hi {\kf106}mo {\kf45}ao{\kf22}ku {\kf30}se{\kf26}tsu{\kf39}nai {\kf59}mi{\kf19}su{\kf25}te{\kf47}rii
-Dialogue: 0,0:22:39.15,0:22:42.56,ED_53_Romaji,,0,0,0,,{\kf55}YES{\kf24}TER{\kf19}DAY {\kf18}LO{\kf101}VE {\kf23}good{\kf20}-bye {\kf20}my {\kf23}LO{\kf38}VE
-Dialogue: 0,0:22:42.74,0:22:46.40,ED_53_Romaji,,0,0,0,,{\kf33}"Ji{\kf32}bun" {\kf26}no {\kf18}yo{\kf47}wa{\kf25}sa {\kf23}to {\kf25}sa{\kf31}mi{\kf22}shi{\kf17}sa {\kf67}ni
-Dialogue: 0,0:22:46.83,0:22:50.35,ED_53_Romaji,,0,0,0,,{\kf52}Ima {\kf18}wo {\kf26}ni{\kf23}ge{\kf20}te {\kf7}i{\kf15}kun {\kf15}ja {\kf35}nai {\kf45}ha{\kf25}ba{\kf17}ta{\kf18}ite {\kf10}i{\kf19}kun {\kf7}da
-Dialogue: 0,0:22:50.50,0:22:53.78,ED_53_Romaji,,0,0,0,,{\kf51}Ko{\kf24}ko {\kf15}ka{\kf73}ra {\kf20}sou {\kf29}to{\kf17}bi{\kf24}ta{\kf51}tsun {\kf24}da
-Dialogue: 0,0:22:53.92,0:22:57.26,ED_53_Romaji,,0,0,0,,{\kf55}YES{\kf24}TER{\kf18}DAY {\kf19}LO{\kf90}VE {\kf37}good{\kf16}-bye {\kf27}my {\kf25}TE{\kf21}ARS
-Dialogue: 0,0:22:57.42,0:23:06.38,ED_53_Romaji,,0,0,0,,{\kf53}Ich{\kf20}ido {\kf22}shi{\kf26}ka {\kf90}nai {\kf61}jin{\kf171}sei {\kf14}ka{\kf12}ko {\kf19}no {\kf24}ji{\kf46}bun {\kf24}ka{\kf47}ra {\kf36}"ano {\kf58}so{\kf26}ra" {\kf16}e {\kf50}ton{\kf20}de {\kf24}i{\kf37}kou
-Dialogue: 0,0:23:06.52,0:23:08.63,ED_53_Romaji,,0,0,0,,{\kf50}<<So{\kf16}shi{\kf25}te {\kf39}to{\kf56}oku {\kf18}ka{\kf8}ra>>
-Dialogue: 0,0:23:08.78,0:23:12.74,ED_53_Romaji,,0,0,0,,{\fad(0,750)\k50}"Ki{\kf22}mi {\kf23}ga {\kf62}su{\kf239}ki!"
 Dialogue: 0,0:23:15.70,0:23:17.54,Dialogue,,0,0,0,,That was amazing, Dad!
 Dialogue: 0,0:23:17.54,0:23:19.75,Dialogue,,0,0,0,,I've changed my opinion of you again!
 Dialogue: 0,0:23:22.67,0:23:26.00,Dialogue,,0,0,0,,Oh? There's something on your head...

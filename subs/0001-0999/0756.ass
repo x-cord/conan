@@ -33,8 +33,6 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: Pachinko,PT Sans Nonligature,34,&H00211238,&H000000FF,&H00A874FA,&H00865E9F,-1,0,0,0,104,100,0.33,0,1,2,2,8,20,20,20,0
-Style: Press,PT Sans Nonligature,30,&H0018141E,&H000000FF,&H00E4E9F2,&H00000000,-1,0,0,0,104,100,0.33,0,1,2,0,2,13,13,160,0
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -129,7 +127,7 @@ Dialogue: 0,0:06:48.59,0:06:51.39,Dialogue,UEHARA,0,0,0,,I-I call him that becau
 Dialogue: 0,0:06:51.72,0:06:57.48,Dialogue,UEHARA,0,0,0,,Apparently, he went to talk\Nto the now retired policeman,
 Dialogue: 0,0:06:57.48,0:07:02.48,Dialogue,UEHARA,0,0,0,,currently working at a\Npachinko parlor, who showed up
 Dialogue: 0,0:07:02.48,0:07:05.27,Dialogue,UEHARA,0,0,0,,at the crime scene fifteen years ago.
-Dialogue: 0,0:07:05.27,0:07:07.78,Pachinko,TEXT,0,0,0,,{\blur5}Pachinko
+Dialogue: 0,0:07:05.27,0:07:07.78,Signs,TEXT,0,0,0,,Pachinko
 Dialogue: 0,0:07:05.98,0:07:08.03,Dialogue,YAMATO,0,0,0,,It doesn't make sense!
 Dialogue: 0,0:07:08.86,0:07:13.53,Dialogue,YAMATO,0,0,0,,After the incident, you thoroughly searched\Nthe forest for the Red Woman, right?
 Dialogue: 0,0:07:13.82,0:07:16.99,Dialogue,YAMATO,0,0,0,,If you couldn't find the weapon then,
@@ -403,7 +401,7 @@ Dialogue: 0,0:24:06.96,0:24:08.96,Dialogue,CONAN,0,0,0,,Who released that inform
 Dialogue: 0,0:24:08.96,0:24:14.97,Signs,TEXT,0,0,0,,The Comedian Who Turned Himself In
 Dialogue: 0,0:24:08.96,0:24:14.97,Signs,TEXT,0,0,0,,(Part 1)
 Dialogue: 0,0:24:09.63,0:24:14.22,Dialogue,CONAN,0,0,0,,The next episode of Conan is The Comedian\NWho Turned Himself In (Part 1)!"
-Dialogue: 0,0:24:29.90,0:24:34.99,Press,TEXT,0,0,0,,{\blur1.5}Press Conference
+Dialogue: 0,0:24:29.90,0:24:34.99,Signs,TEXT,0,0,0,,Press Conference
 Dialogue: 0,0:24:30.32,0:24:32.57,Dialogue,RAN,0,0,0,,Next episode's hint!
 Dialogue: 0,0:24:32.57,0:24:34.99,Dialogue,CONAN,0,0,0,,Press conference!
 Dialogue: 0,0:24:34.99,0:24:36.41,Dialogue Top,SONOKO,0,0,0,,The festival is coming up!

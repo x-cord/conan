@@ -33,7 +33,6 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: title01,Batang,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,8,0,0,10,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -161,7 +160,7 @@ Dialogue: 0,0:08:09.08,0:08:11.50,Dialogue,,0,0,0,,During the approximately one 
 Dialogue: 0,0:08:11.50,0:08:14.59,Dialogue,,0,0,0,,He, or his accomplice, ran around in the dark...
 Dialogue: 0,0:08:15.13,0:08:19.38,Dialogue,,0,0,0,,And got to the four pedestals with the keyholes, that much is certain.
 Dialogue: 0,0:08:22.01,0:08:23.59,Dialogue,,0,0,0,,This is...
-Dialogue: 0,0:08:22.35,0:08:24.81,title01,,0,0,0,,{\t(0,2460,\fs22)\xbord10\ybord5\be50\blur5}I have obtained the Kirin's horn\NKaitou Kid
+Dialogue: 0,0:08:22.35,0:08:24.81,Signs,,0,0,0,,{\xbord10\ybord5}I have obtained the Kirin's horn\NKaitou Kid
 Dialogue: 0,0:08:23.60,0:08:24.76,Dialogue,,0,0,0,,Kid's card!
 Dialogue: 0,0:08:26.01,0:08:27.31,Dialogue,,0,0,0,,When did he!?
 Dialogue: 0,0:08:27.31,0:08:28.47,Dialogue,,0,0,0,,Inspector!

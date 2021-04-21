@@ -33,8 +33,6 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: title01,Century Gothic,20,&H00FFFFFF,&H000000FF,&H64000000,&H00000000,-1,0,0,0,100,100,0,0,3,0.09,0,2,10,10,25,1
-Style: title03,Century Gothic,18,&H00FFFFFF,&H000000FF,&H64000000,&H00000000,-1,0,0,0,100,100,0,0,3,0.09,0,2,10,10,10,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -262,9 +260,9 @@ Dialogue: 0,0:13:17.85,0:13:18.56,Dialogue,,0,0,0,,Mouri{\rHonorifics - Dialogue
 Dialogue: 0,0:13:19.47,0:13:21.98,Dialogue,,0,0,0,,Gamou-shi did not commit suicide!
 Dialogue: 0,0:13:21.98,0:13:23.23,Dialogue,,0,0,0,,This is a homicide!
 Dialogue: 0,0:13:23.23,0:13:25.31,Dialogue,,0,0,0,,I will absolutely seek out the perpetrator!
-Dialogue: 0,0:13:27.12,0:13:29.70,title01,,0,0,0,,{\fad(100,250)\xbord5\1c&HF2A682&}Detective Mouri Kogorou\N{\1c&H777CD2&}"I will absolutely seek out the perpetrator!"
+Dialogue: 0,0:13:27.12,0:13:29.70,Signs,,0,0,0,,{\xbord5}Detective Mouri Kogorou\N"I will absolutely seek out the perpetrator!"
 Dialogue: 0,0:13:29.30,0:13:30.83,Character Card,,0,0,0,,{\fad(250,0)\xbord5\1c&H64D8D7&}Fabulous Job!!\N{\1c&HD4C06B&}Mouri Kogorou does it again!\N{\1c&H6670C5&}"Leave it to me!"
-Dialogue: 0,0:13:37.29,0:13:39.34,title03,,0,0,0,,{\fad(100,0)\1c&HBC91AD&}Pathetic!! Running Away\Nfrom Responsibility\N{\1c&H3FCABB&}Mouri Kogorou Leads His Client to Death\N{\1c&H531ECC&}The "Famous Detective," just a glory of the past···?!
+Dialogue: 0,0:13:37.29,0:13:39.34,Signs,,0,0,0,,Pathetic!! Running Away\Nfrom Responsibility\NMouri Kogorou Leads His Client to Death\NThe "Famous Detective," just a glory of the past···?!
 Dialogue: 0,0:13:45.42,0:13:46.29,Dialogue,,0,0,0,,Mom?
 Dialogue: 0,0:13:46.75,0:13:47.63,Dialogue,,0,0,0,,I've seen them.
 Dialogue: 0,0:13:48.50,0:13:49.29,Dialogue,,0,0,0,,So what?

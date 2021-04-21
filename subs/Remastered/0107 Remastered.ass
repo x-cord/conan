@@ -33,7 +33,6 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: def_it,Myriad Pro Cond,50,&H00FFFFFF,&H000000FF,&H00944216,&H00000000,-1,-1,0,0,100,100,0,0,1,3,0,2,160,160,20,204
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -123,7 +122,7 @@ Dialogue: 0,0:06:28.15,0:06:30.99,Dialogue,,0,0,0,,Whoa! He's scary!
 Dialogue: 0,0:06:30.99,0:06:33.08,Dialogue,,0,0,0,,H-He's all yours, Conan!
 Dialogue: 0,0:06:33.08,0:06:37.29,Dialogue,,0,0,0,,Geez. You got a big body, but no guts at all.
 Dialogue: 0,0:06:37.29,0:06:41.79,Dialogue,,0,0,0,,Excuse me! Our ball landed in your yard! Could we get it?
-Dialogue: 0,0:06:43.09,0:06:47.05,Signs,,0,0,0,,Yoshikazu Watanuki (63)
+Dialogue: 0,0:06:43.09,0:06:47.05,Character Card,,0,0,0,,Yoshikazu Watanuki (63)
 Dialogue: 0,0:06:43.54,0:06:47.30,Dialogue,,0,0,0,,Are you students at Teitan Elementary?
 Dialogue: 0,0:06:47.30,0:06:48.42,Dialogue,,0,0,0,,Yes!
 Dialogue: 0,0:06:48.42,0:06:51.43,Dialogue,,0,0,0,,You're not allowed in my yard!
@@ -180,14 +179,14 @@ Dialogue: 0,0:09:32.09,0:09:33.42,Dialogue,,0,0,0,,Here you are!
 Dialogue: 0,0:09:35.72,0:09:39.64,Dialogue,,0,0,0,,I've seen him somewhere before!
 Dialogue: 0,0:09:39.64,0:09:43.06,Dialogue,,0,0,0,,But I can't remember where from...
 Dialogue: 0,0:09:43.06,0:09:46.23,Dialogue,,0,0,0,,My name is Masao Koda.
-Dialogue: 0,0:09:43.81,0:09:50.77,Signs,,0,0,0,,Masao Koda (29)
+Dialogue: 0,0:09:43.81,0:09:50.77,Character Card,,0,0,0,,Masao Koda (29)
 Dialogue: 0,0:09:46.23,0:09:50.77,Dialogue,,0,0,6,,I have just the one sister, and I was born in Saku, Nagano Prefecture.
 Dialogue: 0,0:09:50.77,0:09:55.78,Dialogue,,0,0,0,,Oh, I know Saku! It has the Cosmos Road, right?
 Dialogue: 0,0:09:55.78,0:09:59.45,Dialogue,,0,0,0,,Yes. My sister loved cosmos flowers, too.
 Dialogue: 0,0:09:59.45,0:10:02.24,Dialogue,,0,0,0,,This is my sister, Sanae.
 Dialogue: 0,0:10:02.24,0:10:05.54,Dialogue,,0,0,0,,Oh! She's very pretty!
 Dialogue: 0,0:10:05.54,0:10:09.71,Dialogue,,0,0,0,,She really is! She looks nothing like her brother!
-Dialogue: 0,0:10:05.83,0:10:10.79,Signs,,0,0,0,,Sanae Koda (26)
+Dialogue: 0,0:10:05.83,0:10:10.79,Character Card,,0,0,0,,Sanae Koda (26)
 Dialogue: 0,0:10:09.71,0:10:11.92,Dialogue,,0,0,0,,She has white skin, too!
 Dialogue: 0,0:10:11.92,0:10:14.00,Dialogue,,0,0,0,,You kids!
 Dialogue: 0,0:10:14.00,0:10:19.34,Dialogue,,0,0,0,,My sister moved here six years ago\Nto work for Tohto Securities.
@@ -280,7 +279,7 @@ Dialogue: 0,0:15:33.45,0:15:38.29,Dialogue,,0,0,0,,Of course not! We don't even 
 Dialogue: 0,0:15:38.29,0:15:43.04,Dialogue,,0,0,0,,Then let's start digging up the place! I'll go find a shovel!
 Dialogue: 0,0:15:43.04,0:15:44.13,Dialogue,,0,0,0,,Wait! Genta!
 Dialogue: 0,0:15:44.13,0:15:45.84,Dialogue,,0,0,0,,Hey, you!
-Dialogue: 0,0:15:52.43,0:15:54.84,Signs,,0,0,0,,Beika Police Department
+Dialogue: 0,0:15:52.43,0:15:54.84,Character Card,,0,0,0,,Beika Police Department
 Dialogue: 0,0:15:55.10,0:15:59.60,Dialogue,,0,0,0,,Yes, that Koda fellow gave us a bit of trouble, too.
 Dialogue: 0,0:15:59.60,0:16:01.98,Dialogue,,0,0,0,,How so?
 Dialogue: 0,0:16:01.98,0:16:06.02,Dialogue,,0,0,0,,Watanuki{\rHonorifics - Dialogue}-san{\r} lost about 1.5 million yen in the stock market.
@@ -300,9 +299,9 @@ Dialogue: 0,0:16:54.36,0:16:56.74,Dialogue,,0,0,0,,Yes! We promise!
 Dialogue: 0,0:16:56.74,0:16:58.95,Dialogue,,0,0,0,,Just a minute.
 Dialogue: 0,0:16:58.95,0:16:59.91,Dialogue,,0,0,0,,This is great!
 Dialogue: 0,0:16:59.91,0:17:00.49,Dialogue,,0,0,0,,Yes!
-Dialogue: 0,0:17:03.36,0:17:04.91,def_it,,0,0,0,,{\blur2.6}One message.
-Dialogue: 0,0:17:07.54,0:17:10.50,def_it,,0,0,0,,{\blur2.6}This is Beika Central Hospital.
-Dialogue: 0,0:17:10.50,0:17:14.97,def_it,,0,0,0,,{\blur2.6}You have a checkup scheduled for tomorrow, so be sure to come.
+Dialogue: 0,0:17:03.36,0:17:04.91,Radio,,0,0,0,,{\be10}One message.
+Dialogue: 0,0:17:07.54,0:17:10.50,Radio,,0,0,0,,{\be10}This is Beika Central Hospital.
+Dialogue: 0,0:17:10.50,0:17:14.97,Radio,,0,0,0,,{\be10}You have a checkup scheduled for tomorrow, so be sure to come.
 Dialogue: 0,0:17:15.68,0:17:18.51,Dialogue,,0,0,0,,Hey, that sounded like...!
 Dialogue: 0,0:17:18.51,0:17:23.56,Dialogue,,0,0,0,,What nonsense! I know that!\NI don't need to be told!
 Dialogue: 0,0:17:23.56,0:17:24.93,Dialogue,,0,0,0,,Here!
@@ -320,7 +319,7 @@ Dialogue: 0,0:17:52.80,0:17:56.47,Dialogue,,0,0,0,,while Watanuki{\rHonorifics -
 Dialogue: 0,0:17:58.43,0:18:03.18,Thoughts,,0,0,0,,{\be10}But, is there really a body buried in this yard?
 Dialogue: 0,0:18:03.18,0:18:09.98,Thoughts,,0,0,0,,{\be10}Even if there is, it'd be impossible to tell where it is in just two hours.
 Dialogue: 0,0:18:09.98,0:18:14.32,Thoughts,,0,0,0,,{\be10}What exactly does Koda{\rHonorifics - Thoughts\be10}-san{\r\be10} plan to do?!
-Dialogue: 0,0:18:18.03,0:18:20.87,Signs,,0,0,0,,The next day (Saturday)
+Dialogue: 0,0:18:18.03,0:18:20.87,Character Card,,0,0,0,,The next day (Saturday)
 Dialogue: 0,0:18:24.33,0:18:27.29,Dialogue,,0,0,0,,Hey! Conan! What time is it?
 Dialogue: 0,0:18:28.41,0:18:30.46,Dialogue,,0,0,0,,Seven minutes to 10:00.
 Dialogue: 0,0:18:30.46,0:18:33.09,Thoughts,,0,0,0,,{\be10}Even after I told them {\i1}not{\i0} to come...

@@ -33,28 +33,12 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: OPRom,Ubuntu,23,&H00FFFFFF,&H000000FF,&H40555555,&HC0000000,-1,0,0,0,100,100,0,0,1,2,1,8,10,10,30,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 Dialogue: 0,0:00:40.50,0:00:40.54,Radio,,0,0,0,,{\be10}Incoming Call\NNumber withheld
 Dialogue: 0,0:00:40.54,0:00:40.71,Radio,,0,0,0,,{\be10}Incoming Call\NNumber withheld
 Dialogue: 0,0:00:40.71,0:00:42.21,Radio,,0,0,0,,{\be10}Incoming Call\NNumber withheld
-Dialogue: 3,0:00:20.30,0:00:24.78,OPRom,,0,0,0,,{\blur3}Seaside moon Seaside sky
-Dialogue: 3,0:00:25.74,0:00:35.50,OPRom,,0,0,0,,{\blur3}itsumademo kawaranu kokoro o mō ichido kimi ni todoketai
-Dialogue: 3,0:00:35.50,0:00:38.92,OPRom,,0,0,0,,{\blur3}Glorious Mind
-Dialogue: 3,0:00:40.50,0:00:45.88,OPRom,,0,0,0,,{\blur3}So, give me the reason why
-Dialogue: 3,0:00:45.88,0:00:49.09,OPRom,,0,0,0,,{\blur3}Leave me here alone
-Dialogue: 3,0:00:49.09,0:00:55.56,OPRom,,0,0,0,,{\blur3}The reason why I don't know how I feel
-Dialogue: 3,0:00:55.56,0:00:59.39,OPRom,,0,0,0,,{\blur3}So must be the true baby
-Dialogue: 3,0:00:59.39,0:01:03.23,OPRom,,0,0,0,,{\blur3}Shall we end it then it's up to me
-Dialogue: 3,0:01:03.23,0:01:06.82,OPRom,,0,0,0,,{\blur3}Tomorrow is a different day, yeah
-Dialogue: 3,0:01:06.82,0:01:11.16,OPRom,,0,0,0,,{\blur3}And I know when I'm ready
-Dialogue: 3,0:01:11.16,0:01:15.66,OPRom,,0,0,0,,{\blur3}Glorious Mind Glorious Sky
-Dialogue: 3,0:01:16.50,0:01:26.63,OPRom,,0,0,0,,{\blur3}omoikiri naitara kinō made no koto wa zembu wasureyō
-Dialogue: 3,0:01:26.63,0:01:32.18,OPRom,,0,0,0,,{\blur3}Seaside moon Seaside sky
-Dialogue: 3,0:01:32.18,0:01:42.10,OPRom,,0,0,0,,{\blur3}itsumademo kawaranu kokoro o mō ichido kimi ni todoketai
-Dialogue: 3,0:01:42.10,0:01:46.61,OPRom,,0,0,0,,{\blur3}Glorious Mind
 Dialogue: 3,0:00:06.10,0:00:07.84,Thoughts,,0,0,0,,{\be10}A shining step toward a glorious future.
 Dialogue: 3,0:00:07.84,0:00:10.06,Thoughts,,0,0,0,,{\be10}Of course, my heart's ready!
 Dialogue: 3,0:00:10.06,0:00:13.39,Thoughts,,0,0,0,,{\be10}The secrets of the organisation hidden in many veils are revealed one by one!

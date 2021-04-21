@@ -33,7 +33,6 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: Adds,Arial,50,&H00FFFFFF,&H000000FF,&H003B5F1B,&H00000000,0,0,0,0,100,100,0,0,1,2,0,7,15,15,15,1
 
 [Events]
 Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
@@ -82,7 +81,7 @@ Dialogue: 0,0:04:25.76,0:04:28.99,Dialogue,,0,0,0,,Then it means the mistress ha
 Dialogue: 0,0:04:29.62,0:04:31.20,Dialogue,,0,0,0,,Say, little boy.
 Dialogue: 0,0:04:31.20,0:04:33.95,Dialogue,,0,0,0,,Isn't your manner of speaking different from before?
 Dialogue: 0,0:04:33.95,0:04:38.04,Dialogue,,0,0,0,,Because when you were with everyone\Nyou spoke normally like a kid...
-Dialogue: 0,0:04:34.45,0:04:38.04,Signs,,0,0,0,,Vonehara Sakurako (23)\NHouskeeper
+Dialogue: 0,0:04:34.45,0:04:38.04,Character Card,,0,0,0,,Vonehara Sakurako (23)\NHouskeeper
 Dialogue: 0,0:04:38.55,0:04:40.84,Dialogue,,0,0,0,,But now it's almost as if you're a detective.
 Dialogue: 0,0:04:40.87,0:04:42.87,Dialogue,,0,0,0,,No, that's...
 Dialogue: 0,0:04:42.90,0:04:44.33,Dialogue,,0,0,0,,He s just playing pretend!
@@ -176,14 +175,14 @@ Dialogue: 0,0:09:06.04,0:09:07.17,Dialogue,,0,0,0,,That girl...
 Dialogue: 0,0:09:07.17,0:09:09.07,Dialogue,,0,0,0,,What's she glarin' at me for?
 Dialogue: 0,0:09:09.41,0:09:10.29,Dialogue,,0,0,0,,Inspector.
 Dialogue: 0,0:09:11.23,0:09:14.21,Dialogue,,0,0,0,,There is no point in doing this any further, is there?
-Dialogue: 0,0:09:11.55,0:09:15.18,Signs,,0,0,0,,Shiina Masashige (56)\NSenior Managing Director
+Dialogue: 0,0:09:11.55,0:09:15.18,Character Card,,0,0,0,,Shiina Masashige (56)\NSenior Managing Director
 Dialogue: 0,0:09:14.22,0:09:15.38,Dialogue,,0,0,0,,That's right.
 Dialogue: 0,0:09:15.42,0:09:19.34,Dialogue,,0,0,0,,The question isn't where everyone was\Nstanding at the time of the incident...
-Dialogue: 0,0:09:15.84,0:09:19.14,Signs,,0,0,0,,Fujinami Sumio (30)\NChief Designer
+Dialogue: 0,0:09:15.84,0:09:19.14,Character Card,,0,0,0,,Fujinami Sumio (30)\NChief Designer
 Dialogue: 0,0:09:19.76,0:09:25.18,Dialogue,,0,0,0,,It's how that idiot son was made to take the poisoned\Nbaumkuchen piece between the two, right?
 Dialogue: 0,0:09:25.18,0:09:30.27,Dialogue,,0,0,0,,If that mystery isn't solved, no matter how much\Nyou conduct this on-the-site inspection...
 Dialogue: 0,0:09:30.67,0:09:31.30,Dialogue,,0,0,0,,No.
-Dialogue: 0,0:09:30.77,0:09:36.28,Signs,,0,0,0,,Satake Yoshimi (32)\NSecretary
+Dialogue: 0,0:09:30.77,0:09:36.28,Character Card,,0,0,0,,Satake Yoshimi (32)\NSecretary
 Dialogue: 0,0:09:31.98,0:09:36.28,Dialogue,,0,0,0,,This isn't an on-the-site inspection, but a\Nvoluntarily conducted on-the-spot investigation.
 Dialogue: 0,0:09:37.79,0:09:42.03,Dialogue,,0,0,0,,For an on-the-site inspection, you would need\Nto have a court-issued warrant in hand...
 Dialogue: 0,0:09:42.06,0:09:44.62,Dialogue,,0,0,0,,And present it to us before commencing.
@@ -386,7 +385,6 @@ Dialogue: 0,0:22:24.18,0:22:27.32,Dialogue,,0,0,0,,I must return home and discus
 Dialogue: 0,0:22:27.32,0:22:30.49,Dialogue,,0,0,0,,I'll stick with the investigation as long as it takes!
 Dialogue: 0,0:22:30.81,0:22:35.66,Dialogue,,0,0,0,,Well, we do wish to hear from you all regarding\Nthe mistress's state of mind before she died.
 Dialogue: 0,0:22:35.66,0:22:39.38,Dialogue,,0,0,0,,Please bear with the investigation for just a short while longer.
-Dialogue: 0,0:24:00.17,0:24:24.12,Signs,,0,0,0,,Next Episode
 Dialogue: 0,0:24:00.14,0:24:03.86,Dialogue,,0,0,0,,This talk about baumkuchen makes me\Nwant to eat some half-moon fish cake.
 Dialogue: 0,0:24:05.21,0:24:06.36,Dialogue,,0,0,0,,I see!
 Dialogue: 0,0:24:06.38,0:24:08.19,Dialogue,,0,0,0,,So it was "an eye for an eye"!
@@ -398,7 +396,6 @@ Dialogue: 0,0:24:22.36,0:24:24.11,Dialogue,,0,0,0,,This is!?
 Dialogue: 0,0:24:24.40,0:24:30.00,Dialogue,,0,0,0,,THE DESIGN OF POISON AND MIRAGE\N(ILLUSION)
 Dialogue: 0,0:24:45.69,0:24:47.94,Dialogue,,0,0,0,,Next Conan's Hint
 Dialogue: 0,0:24:47.97,0:24:49.97,Dialogue,,0,0,0,,Wristwatch
-Dialogue: 0,0:24:50.19,0:24:54.69,Adds,,0,0,0,,Look Forward to the Next Episode
 Dialogue: 0,0:24:50.39,0:24:51.42,Dialogue,,0,0,0,,Today (5\5) is Boys' Day!
 Dialogue: 0,0:24:51.44,0:24:53.58,Dialogue,,0,0,0,,Conan{\rHonorifics - Dialogue}-kun{\r}, how old are you now after yesterday?
 Dialogue: 0,0:24:53.60,0:24:54.68,Dialogue,,0,0,0,,A secret...

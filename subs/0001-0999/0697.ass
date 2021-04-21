@@ -33,7 +33,6 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: HitomiRomaji,Ubuntu,40,&HC0FF0000,&H000000FF,&H00FFFFFF,&H00000000,-1,0,0,0,105,100,0,0,1,3.4,1,8,10,10,30,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -42,9 +41,9 @@ Dialogue: 0,0:00:05.65,0:00:08.02,Dialogue,,0,0,0,,Now, now, don't get so agitat
 Dialogue: 0,0:00:08.02,0:00:10.36,Dialogue,,0,0,0,,First, would you tell us your name?
 Dialogue: 0,0:00:10.36,0:00:11.69,Dialogue,,0,0,0,,Oh, right.
 Dialogue: 0,0:00:11.69,0:00:15.03,Dialogue Top,,0,0,0,,My name's Misaki Yanai.
-Dialogue: 0,0:05:17.39,0:05:20.60,Signs,,0,0,0,,Nagisa Yanai (22)\NMisaki's Sister
-Dialogue: 0,0:04:19.50,0:04:24.38,Signs,,0,0,0,,Harue Kodama (25)\NTheatre Club Advisor
-Dialogue: 0,0:00:12.03,0:00:18.58,Signs,,0,0,0,,Misaki Yanai (17)\NYanai Seibi Educational Institute, 2nd Year Student
+Dialogue: 0,0:05:17.39,0:05:20.60,Character Card,,0,0,0,,Nagisa Yanai (22)\NMisaki's Sister
+Dialogue: 0,0:04:19.50,0:04:24.38,Character Card,,0,0,0,,Harue Kodama (25)\NTheatre Club Advisor
+Dialogue: 0,0:00:12.03,0:00:18.58,Character Card,,0,0,0,,Misaki Yanai (17)\NYanai Seibi Educational Institute, 2nd Year Student
 Dialogue: 0,0:00:15.03,0:00:19.33,Dialogue Top,,0,0,0,,I went to the same school as Ran{\rHonorifics - Dialogue}-san{\r} and Sonoko{\rHonorifics - Dialogue}-san{\r} until the end of middle school.
 Dialogue: 0,0:00:19.33,0:00:25.50,Dialogue,,0,0,0,,At the start of high school, she transferred to the Yanai Seibi Educational Institute, where her mum's the director.
 Dialogue: 0,0:00:25.50,0:00:28.92,Dialogue,,0,0,0,,Oh, the famous Yanai Seibi Educational Institute?
@@ -128,7 +127,7 @@ Dialogue: 0,0:06:28.84,0:06:31.18,Flashback,,0,0,0,,{\be10}How could you do this
 Dialogue: 0,0:06:31.84,0:06:35.51,Dialogue,,0,0,0,,Was that Shibagaki teacher your sister's boyfriend?
 Dialogue: 0,0:06:35.51,0:06:37.72,Dialogue,,0,0,0,,He was in charge of the institute's finances,
 Dialogue: 0,0:06:37.72,0:06:41.23,Dialogue,,0,0,0,,and they were planning to get married once she graduated...
-Dialogue: 0,0:06:41.48,0:06:45.31,Signs,,0,0,0,,Tōichirō Shibagaki (26)\NNagisa's Fiancé
+Dialogue: 0,0:06:41.48,0:06:45.31,Character Card,,0,0,0,,Tōichirō Shibagaki (26)\NNagisa's Fiancé
 Dialogue: 0,0:06:41.23,0:06:43.31,Flashback,,0,0,0,,{\be10\an8}How could you leave me behind like this?!
 Dialogue: 0,0:06:43.31,0:06:46.61,Flashback,,0,0,0,,{\be10\an8}It can't be! I can't believe this!
 Dialogue: 0,0:06:51.36,0:06:53.07,Dialogue,,0,0,0,,Hey, Misaki{\rHonorifics - Dialogue}-san{\r}.
@@ -373,11 +372,3 @@ Dialogue: 0,0:23:22.01,0:23:26.60,Dialogue,,0,0,0,,If the school closed down, th
 Dialogue: 0,0:23:26.60,0:23:30.52,Dialogue,,0,0,0,,So the killer really would've benefited from the murder.
 Dialogue: 0,0:23:32.94,0:23:36.90,Dialogue,,0,0,0,,But Misaki{\rHonorifics - Dialogue}-san{\r}'s mother seems to have recovered thanks to her support.
 Dialogue: 0,0:23:36.90,0:23:39.65,Dialogue,,0,0,0,,And now the institute can keep going too.
-Dialogue: 0,0:21:48.77,0:21:56.56,HitomiRomaji,,0,0,0,,{\3c&HFFD4D4&\blur4}miagetara haru no ame machi ni oritekita
-Dialogue: 0,0:21:56.77,0:22:04.49,HitomiRomaji,,0,0,0,,{\3c&HFFD4D4&\blur4}kimi no aruku michi nurashite yuku
-Dialogue: 0,0:22:05.36,0:22:13.33,HitomiRomaji,,0,0,0,,{\3c&HFFD4D4&\blur4}kinō sasatta toge no yō na kimi no kotoba hitotsu
-Dialogue: 0,0:22:13.54,0:22:21.01,HitomiRomaji,,0,0,0,,{\3c&HFFD4D4&\blur4}mada honto wa nani mo shiranai yo
-Dialogue: 0,0:22:22.63,0:22:39.15,HitomiRomaji,,0,0,0,,{\blur4}sunao ni nareba kodoku nante nai yo hitori de wa nai kara
-Dialogue: 0,0:22:39.82,0:22:47.66,HitomiRomaji,,0,0,0,,{\blur4\3c&HEFF9FD&}don'na mirai kimi to mirai
-Dialogue: 0,0:22:47.91,0:22:57.17,HitomiRomaji,,0,0,0,,{\blur4\3c&HEFF9FD&}sono hitomi no shita e to tashikame ni yuku yo
-Dialogue: 0,0:22:57.54,0:23:05.22,HitomiRomaji,,0,0,0,,{\blur4\3c&HEFF9FD&\fad(0,750)}yukkuri to orite yuku kara

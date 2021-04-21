@@ -33,7 +33,6 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: HitomiRomaji,Ubuntu,40,&HC0FF0000,&H000000FF,&H00FFFFFF,&H00000000,-1,0,0,0,105,100,0,0,1,3.4,1,8,10,10,30,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -89,13 +88,13 @@ Dialogue: 0,0:03:21.44,0:03:23.30,Narration Off,,0,0,0,,{\be10}He sees the singl
 Dialogue: 0,0:03:23.30,0:03:25.08,Narration Off,,0,0,0,,{\be10}and looks like a kid but has the mind of an adult!
 Dialogue: 0,0:03:25.08,0:03:27.45,Narration Off,,0,0,0,,{\be10}His name? Detective Conan!
 Dialogue: 0,0:05:13.57,0:05:20.08,Dialogue,,0,0,0,,Well then, one by one, please tell me your name, occupation, and the reason why you came here.
-Dialogue: 0,0:05:20.33,0:05:27.30,Signs,,0,0,0,,Hayamichi Yonezumi (31)\NPart-Time Worker
+Dialogue: 0,0:05:20.33,0:05:27.30,Character Card,,0,0,0,,Hayamichi Yonezumi (31)\NPart-Time Worker
 Dialogue: 0,0:05:20.08,0:05:23.26,Dialogue Top,,0,0,0,,I'm Hayamichi Yonezumi, a part-time worker.
 Dialogue: 0,0:05:24.22,0:05:30.59,Dialogue Top,,0,0,0,,I don't know what's going on, but I came to check out the area, since I'm gonna be camping here with my buddies next week.
-Dialogue: 0,0:05:30.80,0:05:38.22,Signs,,0,0,0,,Chōzō Usagi (42)\NPhotographer
+Dialogue: 0,0:05:30.80,0:05:38.22,Character Card,,0,0,0,,Chōzō Usagi (42)\NPhotographer
 Dialogue: 0,0:05:31.18,0:05:34.98,Dialogue Top,,0,0,0,,My name's Chōzō Usagi, I'm a photographer.
 Dialogue: 0,0:05:35.68,0:05:39.31,Dialogue Top,,0,0,0,,I'm going around taking photos of the scenery of campsites all around Japan.
-Dialogue: 0,0:05:39.65,0:05:47.02,Signs,,0,0,0,,Takeya Iwakuma (23)\NUniversity Student
+Dialogue: 0,0:05:39.65,0:05:47.02,Character Card,,0,0,0,,Takeya Iwakuma (23)\NUniversity Student
 Dialogue: 0,0:05:39.65,0:05:42.61,Dialogue Top,,0,0,0,,I came to take photos too.
 Dialogue: 0,0:05:42.61,0:05:45.87,Dialogue Top,,0,0,0,,Photos of Japanese azalea with my mobile phone camera, to post on my blog...
 Dialogue: 0,0:05:46.58,0:05:49.98,Dialogue Top,,0,0,0,,Orange flowers bloom on them at this time of the year.
@@ -338,11 +337,3 @@ Dialogue: 0,0:23:08.64,0:23:10.47,Thoughts,,0,0,0,,{\be10}A Mystery Train Pass R
 Dialogue: 0,0:23:12.44,0:23:13.85,Thoughts,,0,0,0,,{\be10}The Bell Tree Express, huh?
 Dialogue: 0,0:23:17.51,0:23:18.93,Thoughts,,0,0,0,,{\be10}It's being hacked?!
 Dialogue: 0,0:23:20.02,0:23:21.26,Thoughts,,0,0,0,,{\be10}Who is it?!
-Dialogue: 0,0:20:35.83,0:20:43.63,HitomiRomaji,,0,0,0,,{\3c&HFFD4D4&\blur4}miagetara haru no ame machi ni oritekita
-Dialogue: 0,0:20:43.84,0:20:51.59,HitomiRomaji,,0,0,0,,{\3c&HFFD4D4&\blur4}kimi no aruku michi nurashite yuku
-Dialogue: 0,0:20:52.43,0:21:00.39,HitomiRomaji,,0,0,0,,{\3c&HFFD4D4&\blur4}kinō sasatta toge no yō na kimi no kotoba hitotsu
-Dialogue: 0,0:21:00.56,0:21:08.07,HitomiRomaji,,0,0,0,,{\3c&HFFD4D4&\blur4}mada honto wa nani mo shiranai yo
-Dialogue: 0,0:21:09.99,0:21:26.04,HitomiRomaji,,0,0,0,,{\blur4}sunao ni nareba kodoku nante nai yo hitori de wa nai kara
-Dialogue: 0,0:21:26.92,0:21:34.76,HitomiRomaji,,0,0,0,,{\blur4\3c&HEFF9FD&}don'na mirai kimi to mirai
-Dialogue: 0,0:21:34.97,0:21:44.19,HitomiRomaji,,0,0,0,,{\blur4\3c&HEFF9FD&}sono hitomi no shita e to tashikame ni yuku yo
-Dialogue: 0,0:21:44.56,0:21:52.15,HitomiRomaji,,0,0,0,,{\blur4\3c&HEFF9FD&\fad(0,750)}yukkuri to orite yuku kara

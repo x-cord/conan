@@ -33,14 +33,13 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: Poodles,MV Boli M,70,&H400102B5,&H000809FC,&H00CFF2F3,&H80000000,0,0,0,0,100,100,0,0,1,4,2,8,10,10,25,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 Dialogue: 0,0:00:02.77,0:00:10.50,Narration Off,,0,0,0,,{\be10\an8}The old man was invited to the vacation home of Chika Kaidō{\rHonorifics - Narration Off\be10}-san{\r\be10}, a mystery novelist from Shizuoka,
-Dialogue: 0,0:00:04.48,0:00:07.73,Signs,,0,0,0,,Chika Kaidō (40)\NMystery Novelist
-Dialogue: 0,0:00:07.98,0:00:12.24,Signs,,0,0,0,,Kōko Shimura (29)\NChika's Apprentice
-Dialogue: 0,0:00:07.98,0:00:12.24,Signs,,0,0,0,,Yūichi Kaidō (41)\NChika's Husband
+Dialogue: 0,0:00:04.48,0:00:07.73,Character Card,,0,0,0,,Chika Kaidō (40)\NMystery Novelist
+Dialogue: 0,0:00:07.98,0:00:12.24,Character Card,,0,0,0,,Kōko Shimura (29)\NChika's Apprentice
+Dialogue: 0,0:00:07.98,0:00:12.24,Character Card,,0,0,0,,Yūichi Kaidō (41)\NChika's Husband
 Dialogue: 0,0:00:10.50,0:00:15.28,Narration Off,,0,0,0,,{\be10\an8}who apparently wanted to hear his tales of life as a detective.
 Dialogue: 0,0:00:20.27,0:00:24.71,Dialogue Top,,0,0,0,,You know, Mouri{\rHonorifics - Dialogue}-san{\r}, those two are in a relationship.
 Dialogue: 0,0:00:24.71,0:00:26.13,Dialogue,,0,0,0,,Yes?
@@ -122,7 +121,7 @@ Dialogue: 0,0:06:38.18,0:06:40.58,Dialogue,,0,0,0,,Long time no see, Yokomizo!
 Dialogue: 0,0:06:40.58,0:06:41.40,Dialogue,,0,0,0,,Yes!
 Dialogue: 0,0:06:42.25,0:06:46.23,Dialogue,,0,0,0,,Ōkawara, this is the great detective, Kogorō Mouri{\rHonorifics - Dialogue}-san{\r}.
 Dialogue: 0,0:06:46.65,0:06:48.76,Dialogue Top,,0,0,0,,I'm Tomonori Ōkawara.
-Dialogue: 0,0:06:46.48,0:06:52.07,Signs,,0,0,0,,Detective Ōkawara (25)\NShizuoka Police Detective
+Dialogue: 0,0:06:46.48,0:06:52.07,Character Card,,0,0,0,,Detective Ōkawara (25)\NShizuoka Police Detective
 Dialogue: 0,0:06:48.76,0:06:52.07,Dialogue Top,,0,0,0,,I hear you've helped Inspector Yokomizo a lot.
 Dialogue: 0,0:06:52.49,0:06:54.77,Dialogue,,0,0,0,,No, not that much.
 Dialogue: 0,0:06:54.77,0:07:04.11,Dialogue,,0,0,0,,But we, the police, are working hard every day, to grow into a better organisation that won't need to rely on people like you anymore.
@@ -159,7 +158,7 @@ Dialogue: 0,0:09:13.47,0:09:15.37,Dialogue,,0,0,0,,Chika{\rHonorifics - Dialogue
 Dialogue: 0,0:09:15.37,0:09:16.55,Dialogue,,0,0,0,,W-When?
 Dialogue: 0,0:09:16.55,0:09:18.55,Dialogue,,0,0,0,,First, who might you be?
 Dialogue: 0,0:09:18.86,0:09:22.84,Dialogue Top,,0,0,0,,I work for the monthly magazine 'Deduction Paradise' — I'm in charge of Chika{\rHonorifics - Dialogue}-sensei{\r}.{my head exploded trying to parse this. -uso.}
-Dialogue: 0,0:09:18.80,0:09:24.60,Signs,,0,0,0,,Akio Toda (33)\NEditor assigned to Chika
+Dialogue: 0,0:09:18.80,0:09:24.60,Character Card,,0,0,0,,Akio Toda (33)\NEditor assigned to Chika
 Dialogue: 0,0:09:22.84,0:09:24.03,Dialogue Top,,0,0,0,,My name is Toda.
 Dialogue: 0,0:09:24.98,0:09:28.06,Dialogue,,0,0,0,,She was so happy when we spoke over the phone yesterday...
 Dialogue: 0,0:09:31.00,0:09:33.35,Dialogue,,0,0,0,,Sorry for questioning you here.
@@ -302,6 +301,7 @@ Dialogue: 0,0:20:07.17,0:20:10.92,Dialogue,,0,0,0,,She concluded that her husban
 Dialogue: 0,0:20:15.77,0:20:18.18,Dialogue,,0,0,0,,And understood everything.
 Dialogue: 0,0:20:18.18,0:20:23.68,Dialogue,,0,0,0,,They both tried to kill her, but ended up killing each other by accident.
 Dialogue: 0,0:20:25.79,0:20:31.28,Dialogue,,0,0,0,,No longer in the mood for committing suicide, she threw away the poisoned chocolate bars.
+Dialogue: 0,0:20:31.28,0:20:40.67,Flashback Thoughts,,0,0,0,,{\be10}I'm alive! I'm going to live and make a novel about their foolish acts!
 Dialogue: 0,0:20:53.74,0:20:57.51,Dialogue,,0,0,0,,And that's how the third victim, Chika Kaidō{\rHonorifics - Dialogue}-sensei{\r}, died.
 Dialogue: 0,0:20:59.51,0:21:10.44,Dialogue,,0,0,0,,Hold on, Mouri{\rHonorifics - Dialogue}-san{\r}. Do you really think that she ate one of the chocolate bars she had prepared for her suicide by mistake?
 Dialogue: 0,0:21:10.44,0:21:14.15,Dialogue,,0,0,0,,She found herself part of another ironic cycle.
@@ -326,17 +326,3 @@ Dialogue: 0,0:23:49.35,0:23:53.44,Dialogue,,0,0,0,,Next Conan's Hint: Washing ma
 Dialogue: 0,0:23:54.64,0:23:56.18,Dialogue Top,,0,0,0,,Phone-in competitions start today!
 Dialogue: 0,0:23:56.18,0:23:58.07,Dialogue Top,,0,0,0,,A mini-drama with Conan{\rHonorifics - Dialogue}-kun{\r} and that guy!
 Dialogue: 0,0:23:58.07,0:23:58.93,Dialogue Top,,0,0,0,,Daddy!
-Dialogue: 0,0:21:46.21,0:21:51.38,Poodles,,0,0,0,,{\fax0.25\blur2.5\3c&HFFFFFF}kimi no egao ga nani yori mo suki datta
-Dialogue: 0,0:21:51.72,0:21:54.85,Poodles,,0,0,0,,{\fax0.25\blur2.5\3c&HFFFFFF}onaji koto de waraiatta ne
-Dialogue: 0,0:21:55.18,0:22:03.27,Poodles,,0,0,0,,{\fax0.25\blur2.5\3c&HFFFFFF}futoshita shunkan ni iron'na kimi o omoidasu
-Dialogue: 0,0:22:05.11,0:22:11.32,Poodles,,0,0,0,,{\fax0.25\blur2.5\3c&HF2F2F3&\c&H880088}'boku ga genjitsuteki sugita' to ima ni natte kuyande'ru
-Dialogue: 0,0:22:12.82,0:22:19.41,Poodles,,0,0,0,,{\fax0.25\blur2.5\3c&HF2F2F3&\c&H880088}'kimi to no yume no tame ni' motto ikiru beki datta
-Dialogue: 0,0:22:20.45,0:22:23.71,Poodles,,0,0,0,,{\fax0.25\blur2.5\c&H008800\3c&HF2F2F3}kimi no inai akimatsuri
-Dialogue: 0,0:22:23.87,0:22:29.21,Poodles,,0,0,0,,{\fax0.25\blur2.5\3c&HF2F2F3&\c&H880000\t(4470,5220,\c&H0\3c&H0\4c&H0)}ima no boku wa younger than yesterday
-Dialogue: 0,0:22:29.92,0:22:35.01,Poodles,,0,0,0,,{\fax0.25\blur2.5\3c&HF2F2F3&}hanabira ga mau yō ni kimi wa waratta ne
-Dialogue: 0,0:22:35.34,0:22:37.97,Poodles,,0,0,0,,{\fax0.25\blur2.5\3c&HF2F2F3&\c&H008800}motto warawasetakatta
-Dialogue: 0,0:22:38.31,0:22:45.02,Poodles,,0,0,0,,{\fax0.25\blur2.5\3c&HF2F2F3&\c&H008800}hareteiru no ni tsumetai ame ga futteiru
-Dialogue: 0,0:22:45.19,0:22:50.73,Poodles,,0,0,0,,{\fax0.25\blur2.5\3c&HF2F2F3&\c&H008800}kimi no egao ga nani yori mo suki datta
-Dialogue: 0,0:22:51.07,0:22:54.03,Poodles,,0,0,0,,{\fax0.25\blur2.5\3c&HF2F2F3&\c&H008800}min'na hitori ja ikirenai
-Dialogue: 0,0:22:54.20,0:22:57.83,Poodles,,0,0,0,,{\fax0.25\blur2.5\3c&HF2F2F3&\c&H008800}kimi no kaeru basho de
-Dialogue: 0,0:22:58.16,0:23:03.00,Poodles,,0,0,0,,{\fax0.25\blur2.5\3c&HF2F2F3&\c&H008800}boku wa zutto aritsuzuketai

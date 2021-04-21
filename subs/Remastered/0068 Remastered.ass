@@ -33,7 +33,6 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: ED-TL,Segoe Print,50,&H18FFFFFF,&H000000FF,&H40C85308,&H804B0008,-1,0,0,0,100,100,0,0,1,2,2,2,10,10,110,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -51,17 +50,17 @@ Dialogue: 0,0:00:08.35,0:00:10.88,Narration Off,,0000,0000,0000,,{\be10}A phanto
 Dialogue: 0,0:00:10.88,0:00:14.08,Narration Off,,0000,0000,0000,,{\be10}and a ruthless killer.
 Dialogue: 0,0:00:14.08,0:00:17.48,Narration Off,,0000,0000,0000,,{\be10}Today, let's play back the case where this mysterious person
 Dialogue: 0,0:00:17.48,0:00:22.00,Narration Off,,0000,0000,0000,,{\be10}broke free from the novel and appeared in the real world!
-Dialogue: 0,0:02:28.60,0:02:31.67,Signs,,0000,0000,0000,,Izu Princess Hotel - Private Beach
-Dialogue: 0,0:05:33.53,0:05:37.47,Signs,,0000,0000,0000,,Shirō Kon'no (28)\NBank Employee
-Dialogue: 0,0:05:48.03,0:05:51.82,Signs,,0000,0000,0000,,Tokio Ebara (32)\NComputer Programmer
-Dialogue: 0,0:05:54.17,0:05:59.25,Signs,,0000,0000,0000,,Gen'ichirō Kaneshiro (74)\NComputer Company Owner
-Dialogue: 0,0:06:01.21,0:06:04.17,Signs,,0000,0000,0000,,Shizue Hayashi (56)\NKaneshiro's Butler
-Dialogue: 0,0:08:00.10,0:08:03.16,Signs,,0000,0000,0000,,Satoru Maeda (30)\NJōnan University Electrical Engineering Assistant
-Dialogue: 0,0:06:29.57,0:06:31.83,Signs,,0000,0000,0000,,Hideko Kamijō (29)\NSoftware Company CEO
-Dialogue: 0,0:08:36.76,0:08:39.71,Signs,,0000,0000,0000,,Akiko Sayama (24) -\NHigh School Math Teacher
-Dialogue: 0,0:13:16.78,0:13:19.41,Signs,,0000,0000,0000,,Agasa Residence
-Dialogue: 0,0:19:54.18,0:19:56.84,Signs,,0000,0000,0000,,Observation Lounge
-Dialogue: 0,0:20:51.28,0:20:54.97,Signs,,0000,0000,0000,,Princess Hotel 2F Pub Emerald
+Dialogue: 0,0:02:28.60,0:02:31.67,Character Card,,0000,0000,0000,,Izu Princess Hotel - Private Beach
+Dialogue: 0,0:05:33.53,0:05:37.47,Character Card,,0000,0000,0000,,Shirō Kon'no (28)\NBank Employee
+Dialogue: 0,0:05:48.03,0:05:51.82,Character Card,,0000,0000,0000,,Tokio Ebara (32)\NComputer Programmer
+Dialogue: 0,0:05:54.17,0:05:59.25,Character Card,,0000,0000,0000,,Gen'ichirō Kaneshiro (74)\NComputer Company Owner
+Dialogue: 0,0:06:01.21,0:06:04.17,Character Card,,0000,0000,0000,,Shizue Hayashi (56)\NKaneshiro's Butler
+Dialogue: 0,0:08:00.10,0:08:03.16,Character Card,,0000,0000,0000,,Satoru Maeda (30)\NJōnan University Electrical Engineering Assistant
+Dialogue: 0,0:06:29.57,0:06:31.83,Character Card,,0000,0000,0000,,Hideko Kamijō (29)\NSoftware Company CEO
+Dialogue: 0,0:08:36.76,0:08:39.71,Character Card,,0000,0000,0000,,Akiko Sayama (24) -\NHigh School Math Teacher
+Dialogue: 0,0:13:16.78,0:13:19.41,Character Card,,0000,0000,0000,,Agasa Residence
+Dialogue: 0,0:19:54.18,0:19:56.84,Character Card,,0000,0000,0000,,Observation Lounge
+Dialogue: 0,0:20:51.28,0:20:54.97,Character Card,,0000,0000,0000,,Princess Hotel 2F Pub Emerald
 Dialogue: 0,0:02:25.83,0:02:28.24,Thoughts,,0000,0000,0000,,{\be10}I hate this...
 Dialogue: 0,0:02:29.08,0:02:31.58,Thoughts,,0000,0000,0000,,{\be10}Why am I in such a hot place
 Dialogue: 0,0:02:31.58,0:02:34.43,Thoughts,,0000,0000,0000,,{\be10}at such a hot time of the year?
@@ -411,14 +410,3 @@ Dialogue: 0,0:24:32.39,0:24:37.38,Narration Off,,0000,0000,0000,,{\be10}Next Con
 Dialogue: 0,0:24:37.38,0:24:39.41,Narration Off,,0000,0000,0000,,{\be10\an8}Oh, that's a drama series that's getting popular!
 Dialogue: 0,0:24:39.41,0:24:42.76,Narration Off,,0000,0000,0000,,{\be10\an8}No, that's "bolt lock."
 Dialogue: 0,0:24:37.38,0:24:42.76,o{\rHonorifics - o-tanoshimi}-tan{\r}oshimi,,0000,0000,0000,,Look forward to the next episode!
-Dialogue: 0,0:22:42.43,0:22:49.09,ED-TL,,0000,0000,0000,,{\fad(200,0)}I'll shine on you the light you once shone upon me
-Dialogue: 0,0:22:49.09,0:22:58.39,ED-TL,,0000,0000,0000,,as I offer my endless love to you
-Dialogue: 0,0:23:05.39,0:23:10.27,ED-TL,,0000,0000,0000,,Even if those times seem to have shattered,
-Dialogue: 0,0:23:10.27,0:23:16.32,ED-TL,,0000,0000,0000,,you were right there next to me
-Dialogue: 0,0:23:16.32,0:23:23.41,ED-TL,,0000,0000,0000,,All you had to say was "It'll be okay"
-Dialogue: 0,0:23:23.41,0:23:31.73,ED-TL,,0000,0000,0000,,and I'd be back on my feet, time after time
-Dialogue: 0,0:23:31.73,0:23:38.57,ED-TL,,0000,0000,0000,,I'll shine on you the light you once shone upon me
-Dialogue: 0,0:23:38.57,0:23:43.08,ED-TL,,0000,0000,0000,,In your voice and eyes
-Dialogue: 0,0:23:43.08,0:23:46.78,ED-TL,,0000,0000,0000,,I can feel a gentle warmth, like a burning lamp
-Dialogue: 0,0:23:46.78,0:23:53.29,ED-TL,,0000,0000,0000,,and I'll never let it burn out again...
-Dialogue: 0,0:23:53.29,0:24:01.28,ED-TL,,0000,0000,0000,,{\fad(0,300)}So I dedicate to you this eternal vow

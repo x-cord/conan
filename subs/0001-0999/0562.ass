@@ -33,11 +33,6 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: title001,Comic Sans MS,21,&H00FFFEFC,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1,1,2,0,0,159,1
-Style: title002,Comic Sans MS,21,&H00FFFEFC,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1,1,2,0,0,17,1
-Style: title001 - 1,Comic Sans MS,21,&H00FFFEFC,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1,1,2,0,0,150,1
-Style: title06,Comic Sans MS,25,&H00FEFEF7,&H000000FF,&H0040332E,&H00000000,0,0,0,0,100,100,0,0,1,0.8,0,2,0,225,215,1
-Style: title008,Comic Sans MS,21,&H00FFFEFC,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1,1,2,0,0,99,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -84,7 +79,7 @@ Dialogue: 0,0:04:04.59,0:04:10.30,Dialogue,,0,0,0,,We had roadblocks set up five
 Dialogue: 0,0:04:10.30,0:04:11.93,Dialogue,,0,0,0,,Perhaps you misread the plate number?
 Dialogue: 0,0:04:12.39,0:04:14.14,Dialogue,,0,0,0,,That's impossible.
 Dialogue: 0,0:04:14.14,0:04:15.14,Dialogue,,0,0,0,,By the way, you are
-Dialogue: 0,0:04:15.47,0:04:20.49,Dialogue Top,,0,0,0,,I'm Inspector Katsuragi from SID, Detectıve Mouri Kogorou{\rHonorifics - Dialogue}-san{\r}.
+Dialogue: 0,0:04:15.47,0:04:20.49,Dialogue Top,,0,0,0,,I'm Inspector Katsuragi from SID, Detective Mouri Kogorou{\rHonorifics - Dialogue}-san{\r}.
 Dialogue: 0,0:04:15.52,0:04:20.49,Character Card,,0,0,0,,Katsuragi Kenzou (45)\NPolice HQ First Division Special Investigation Dept. Inspector
 Dialogue: 0,0:04:21.44,0:04:22.65,Dialogue,,0,0,0,,SID?
 Dialogue: 0,0:04:23.02,0:04:26.23,Dialogue,,0,0,0,,First division of the police headquarters,\Nthe Special Investigation Department.
@@ -127,8 +122,8 @@ Dialogue: 0,0:06:37.20,0:06:41.91,Dialogue,,0,0,0,,I'm also afraid to carry that
 Dialogue: 0,0:06:42.58,0:06:43.70,Dialogue,,0,0,0,,Just count on me!
 Dialogue: 0,0:06:50.67,0:06:51.92,Dialogue,,0,0,0,,Allow me to carry it outside.
 Dialogue: 0,0:06:51.92,0:06:53.84,Dialogue,,0,0,0,,No thanks, I'll be fine.
-Dialogue: 0,0:07:05.94,0:07:09.86,title001,,0,0,0,,{\be2\fad(0,200)}Tou{\alpha&HFF&\t(130,131,\alpha&H00&)}to {\alpha&HFF&\t(250,251,\alpha&H00&)}Ike{\alpha&HFF&\t(380,381,\alpha&H00&)}bukuro {\alpha&HFF&\t(500,501,\alpha&H00&)}Station {\alpha&HFF&\t(630,631,\alpha&H00&)}Inbound
-Dialogue: 0,0:07:07.61,0:07:09.86,title002,,0,0,0,,{\be2\fad(0,200)}Express {\alpha&HFF&\t(130,131,\alpha&H00&)}Train {\alpha&HFF&\t(250,251,\alpha&H00&)}B{\alpha&HFF&\t(380,381,\alpha&H00&)}lu{\alpha&HFF&\t(500,501,\alpha&H00&)}e {\alpha&HFF&\t(630,631,\alpha&H00&)}S{\alpha&HFF&\t(750,751,\alpha&H00&)}k{\alpha&HFF&\t(880,881,\alpha&H00&)}y
+Dialogue: 0,0:07:05.94,0:07:09.86,Signs,,0,0,0,,Touto Ikebukuro Station Inbound
+Dialogue: 0,0:07:07.61,0:07:09.86,Signs,,0,0,0,,Express Train Blue Sky
 Dialogue: 0,0:07:13.36,0:07:15.99,Dialogue,,0,0,0,,Hey now, why do you guys have to come?
 Dialogue: 0,0:07:16.45,0:07:19.53,Dialogue,,0,0,0,,As camouflage, didn't you say so yourself, Dad?
 Dialogue: 0,0:07:19.82,0:07:21.99,Dialogue,,0,0,0,,Yeah! Hiking, hiking!

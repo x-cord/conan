@@ -33,7 +33,6 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: Otanoshimi,Calibri,45,&H18FFFFFF,&H000000FF,&H00333333,&HC04B0008,-1,0,0,0,100,100,0,0,1,3,0,2,70,0,5,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -44,7 +43,6 @@ Dialogue: 0,0:01:40.45,0:01:42.12,Dialogue,,0000,0000,0000,,The Detective Boys' 
 Dialogue: 0,0:01:42.12,0:01:43.70,Dialogue,,0000,0000,0000,,He sees the single truth for what it is,
 Dialogue: 0,0:01:43.70,0:01:45.54,Dialogue,,0000,0000,0000,,and looks like a kid but has the mind of an adult!
 Dialogue: 0,0:01:45.54,0:01:48.04,Dialogue,,0000,0000,0000,,His name? Detective Conan!
-Dialogue: 0,0:24:29.89,0:24:39.49,Otanoshimi,,0000,0000,0000,,{\a1}Look forward to the next episode!
 Dialogue: 0,0:00:05.35,0:00:06.11,Dialogue Top,,0000,0000,0000,,Cool!
 Dialogue: 0,0:00:06.11,0:00:07.98,Dialogue Top,,0000,0000,0000,,Come on, let me touch it too.
 Dialogue: 0,0:00:08.40,0:00:10.36,Dialogue Top,,0000,0000,0000,,It's all prickly. It looks painful.
@@ -76,7 +74,7 @@ Dialogue: 0,0:03:36.10,0:03:38.52,Dialogue,,0000,0000,0000,,Ryūtarō, long time
 Dialogue: 0,0:03:38.52,0:03:40.57,Dialogue,,0000,0000,0000,,Have you been well?
 Dialogue: 0,0:03:40.57,0:03:43.09,Dialogue,,0000,0000,0000,,Yeah, naturally.
 Dialogue: 0,0:03:43.09,0:03:44.37,Dialogue,,0000,0000,0000,,Let me introduce you to him.
-Dialogue: 0,0:03:47.03,0:03:50.66,Signs,,0000,0000,0000,,Ryūtarō Namatame (52)
+Dialogue: 0,0:03:47.03,0:03:50.66,Character Card,,0000,0000,0000,,Ryūtarō Namatame (52)
 Dialogue: 0,0:03:44.36,0:03:46.78,Dialogue,,0000,0000,0000,,This is my friend, Ryūtarō Namatame.
 Dialogue: 0,0:00:00.00,0:00:00.00,Dialogue,,0000,0000,0000,,[SIGN: Namatame Ryūtarō (52)]
 Dialogue: 0,0:03:47.32,0:03:49.62,Dialogue Top,,0000,0000,0000,,Nice of you to come, kids.
@@ -97,7 +95,7 @@ Dialogue: 0,0:04:28.29,0:04:29.62,Dialogue,,0000,0000,0000,,Hey, Kei!
 Dialogue: 0,0:04:31.58,0:04:35.75,Dialogue,,0000,0000,0000,,If you're eating lunch here, that means you've been playing pachinko again, haven't you?!
 Dialogue: 0,0:04:35.76,0:04:37.40,Dialogue,,0000,0000,0000,,N-No, I haven't!
 Dialogue: 0,0:04:37.41,0:04:39.83,Dialogue Top,,0000,0000,0000,,Geez, how rude!
-Dialogue: 0,0:04:37.87,0:04:43.38,Signs,,0000,0000,0000,,Kei Yabe (27)
+Dialogue: 0,0:04:37.87,0:04:43.38,Character Card,,0000,0000,0000,,Kei Yabe (27)
 Dialogue: 0,0:00:00.00,0:00:00.00,Dialogue,,0000,0000,0000,,[SIGN: Yabe Kei (27)]
 Dialogue: 0,0:04:39.83,0:04:43.38,Dialogue Top,,0000,0000,0000,,I just brought some watermelon I grew to this market!
 Dialogue: 0,0:04:44.26,0:04:45.90,Dialogue,,0000,0000,0000,,I doubt that.
@@ -108,7 +106,7 @@ Dialogue: 0,0:04:54.97,0:04:58.22,Dialogue,,0000,0000,0000,,There's a Miyama Sta
 Dialogue: 0,0:04:58.22,0:04:59.09,Dialogue,,0000,0000,0000,,Hey!
 Dialogue: 0,0:05:00.10,0:05:02.56,Dialogue,,0000,0000,0000,,Those aren't toys! Don't touch them!
 Dialogue: 0,0:00:00.00,0:00:00.00,Dialogue,,0000,0000,0000,,[SIGN: Ikeda Shūhei (50)]
-Dialogue: 0,0:05:03.32,0:05:08.95,Signs,,0000,0000,0000,,Shūhei Ikeda (50)
+Dialogue: 0,0:05:03.32,0:05:08.95,Character Card,,0000,0000,0000,,Shūhei Ikeda (50)
 Dialogue: 0,0:05:03.61,0:05:06.86,Dialogue Top,,0000,0000,0000,,Someone from a department store\Nin Tōkyō's coming to buy them.
 Dialogue: 0,0:05:06.86,0:05:08.99,Dialogue Top,,0000,0000,0000,,If they're weakened then they can't be sold!
 Dialogue: 0,0:05:09.35,0:05:12.97,Dialogue,,0000,0000,0000,,Shūhei, the children were just looking.
@@ -226,13 +224,13 @@ Dialogue: 0,0:11:03.22,0:11:06.47,Thoughts,,0000,0000,0000,,{\be10}Either way, w
 Dialogue: 0,0:11:12.26,0:11:15.85,Thoughts,,0000,0000,0000,,{\be10}Namatame{\rHonorifics - Thoughts\be10}-san{\r\be10} was transported to the hospital while unconscious.
 Dialogue: 0,0:11:16.48,0:11:19.15,Thoughts,,0000,0000,0000,,{\be10}And then, the police investigation began.
 Dialogue: 0,0:00:00.00,0:00:00.00,Dialogue,,0000,0000,0000,,[SIGN: Detective Motohashi (45)]
-Dialogue: 0,0:11:19.44,0:11:23.48,Signs,,0000,0000,0000,,Detective Motohashi (45)
+Dialogue: 0,0:11:19.44,0:11:23.48,Character Card,,0000,0000,0000,,Detective Motohashi (45)
 Dialogue: 0,0:11:19.52,0:11:22.02,Dialogue Top,,0000,0000,0000,,'Miyama Stag Beetle?'
 Dialogue: 0,0:11:22.02,0:11:23.48,Dialogue Top,,0000,0000,0000,,Did he really say that?
 Dialogue: 0,0:11:23.48,0:11:24.80,Dialogue,,0000,0000,0000,,Yeah.
 Dialogue: 0,0:11:24.78,0:11:27.03,Dialogue,,0000,0000,0000,,We heard it too.
 Dialogue: 0,0:11:27.04,0:11:27.86,Dialogue,,0000,0000,0000,,Yeah.
-Dialogue: 0,0:11:28.11,0:11:31.87,Signs,,0000,0000,0000,,Detective Fuji'i (27)
+Dialogue: 0,0:11:28.11,0:11:31.87,Character Card,,0000,0000,0000,,Detective Fuji'i (27)
 Dialogue: 0,0:11:28.65,0:11:31.87,Dialogue Top,,0000,0000,0000,,It's not something you'd think someone would say before losing consciousness.
 Dialogue: 0,0:11:32.54,0:11:34.21,Dialogue,,0000,0000,0000,,What do you think it means?
 Dialogue: 0,0:11:34.21,0:11:35.31,Dialogue,,0000,0000,0000,,Who knows?
@@ -256,7 +254,7 @@ Dialogue: 0,0:12:23.21,0:12:26.63,Dialogue,,0000,0000,0000,,You can never let yo
 Dialogue: 0,0:12:27.21,0:12:31.26,Dialogue,,0000,0000,0000,,That guy had a Miyama Stag Beetle at the Roadside Station!
 Dialogue: 0,0:12:31.76,0:12:33.85,Dialogue,,0000,0000,0000,,Do you know his name?
 Dialogue: 0,0:12:33.85,0:12:36.22,Dialogue,,0000,0000,0000,,Namatame{\rHonorifics - Dialogue}-san{\r} called him Shūhei.
-Dialogue: 0,0:12:38.43,0:12:41.89,Signs,,0000,0000,0000,,Officer Iwanaga (55)
+Dialogue: 0,0:12:38.43,0:12:41.89,Character Card,,0000,0000,0000,,Officer Iwanaga (55)
 Dialogue: 0,0:12:36.85,0:12:40.89,Dialogue Top,,0000,0000,0000,,I think that's Shūhei Ikeda{\rHonorifics - Dialogue}-san{\r}, who lives in this village.
 Dialogue: 0,0:00:00.00,0:00:00.00,Dialogue,,0000,0000,0000,,[SIGN: Officer Iwanaga (55)]
 Dialogue: 0,0:12:43.35,0:12:45.64,Dialogue,,0000,0000,0000,,L-Let me go! Geez...

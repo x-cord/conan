@@ -33,8 +33,6 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: English,Calibri,28,&H00FFFFFF,&H000000FF,&H00000000,&H80000000,0,-1,0,0,105,100,0,0,1,1,0,2,30,30,30,1
-Style: NightBaronessTypeset,Eurostile,25,&H00FFFFFF,&H000000FF,&H4B000000,&H00000000,-1,0,0,0,100,100,0.5,0,1,1,2,2,40,40,100,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -128,17 +126,17 @@ Dialogue: 0,0:07:25.72,0:07:28.72,Dialogue,,0000,0000,0000,,How is this {\i1}not
 Dialogue: 0,0:07:36.71,0:07:38.23,Dialogue,,0000,0000,0000,,Exactly an hour left.
 Dialogue: 0,0:07:38.89,0:07:42.73,Dialogue,,0000,0000,0000,,See? We're right on time, no sweat.
 Dialogue: 0,0:07:49.92,0:07:52.45,Dialogue,,0000,0000,0000,,I hope this isn't over me...
-Dialogue: 0,0:07:56.77,0:07:59.43,English,,0000,0000,0000,,Your license and registration, please!
+Dialogue: 0,0:07:56.77,0:07:59.43,Dialogue,,0000,0000,0000,,Your license and registration, please!
 Dialogue: 0,0:07:59.43,0:08:01.04,Dialogue,,0000,0000,0000,,OK, OK!
-Dialogue: 0,0:08:01.56,0:08:05.82,English,,0000,0000,0000,,40 miles over the speed limit! Are you playing Dirty Harry?
-Dialogue: 0,0:08:06.26,0:08:08.55,English,,0000,0000,0000,,Oh, we were in a hurry...
-Dialogue: 0,0:08:10.36,0:08:11.89,English,,0000,0000,0000,,You look familiar.
-Dialogue: 0,0:08:12.45,0:08:14.39,English,,0000,0000,0000,,Well, you might...
-Dialogue: 0,0:08:14.39,0:08:17.77,English,,0000,0000,0000,,You might have met her in some case.
-Dialogue: 0,0:08:17.91,0:08:20.28,English,,0000,0000,0000,,Because she works with us.
-Dialogue: 0,0:08:20.40,0:08:21.28,English,,0000,0000,0000,,Captain!?
-Dialogue: 0,0:08:21.92,0:08:24.65,English,,0000,0000,0000,,She's an undercover agent.
-Dialogue: 0,0:08:24.75,0:08:28.36,English,,0000,0000,0000,,She seems to have missed the criminal...
+Dialogue: 0,0:08:01.56,0:08:05.82,Dialogue,,0000,0000,0000,,40 miles over the speed limit! Are you playing Dirty Harry?
+Dialogue: 0,0:08:06.26,0:08:08.55,Dialogue,,0000,0000,0000,,Oh, we were in a hurry...
+Dialogue: 0,0:08:10.36,0:08:11.89,Dialogue,,0000,0000,0000,,You look familiar.
+Dialogue: 0,0:08:12.45,0:08:14.39,Dialogue,,0000,0000,0000,,Well, you might...
+Dialogue: 0,0:08:14.39,0:08:17.77,Dialogue,,0000,0000,0000,,You might have met her in some case.
+Dialogue: 0,0:08:17.91,0:08:20.28,Dialogue,,0000,0000,0000,,Because she works with us.
+Dialogue: 0,0:08:20.40,0:08:21.28,Dialogue,,0000,0000,0000,,Captain!?
+Dialogue: 0,0:08:21.92,0:08:24.65,Dialogue,,0000,0000,0000,,She's an undercover agent.
+Dialogue: 0,0:08:24.75,0:08:28.36,Dialogue,,0000,0000,0000,,She seems to have missed the criminal...
 Dialogue: 0,0:08:30.20,0:08:32.07,Dialogue,,0000,0000,0000,,Who is this man?
 Dialogue: 0,0:08:32.71,0:08:34.08,Dialogue,,0000,0000,0000,,Radish.
 Dialogue: 0,0:08:34.08,0:08:38.37,Dialogue,,0000,0000,0000,,Yūsaku met him at the end of a case.
@@ -181,10 +179,10 @@ Dialogue: 0,0:11:12.36,0:11:17.53,Dialogue,,0000,0000,0000,,...then people who w
 Dialogue: 0,0:11:18.08,0:11:19.76,Dialogue,,0000,0000,0000,,Right...
 Dialogue: 0,0:11:19.76,0:11:24.75,Dialogue,,0000,0000,0000,,At least, no angel ever smiled on me.
 Dialogue: 0,0:11:25.76,0:11:26.89,Dialogue,,0000,0000,0000,,Not even once...
-Dialogue: 0,0:11:33.73,0:11:37.51,CharCards,,0000,0000,0000,,{\fad(250,0)}Lila Sanchez (32)\NStage Actress
-Dialogue: 0,0:11:37.61,0:11:40.76,CharCards,,0000,0000,0000,,{\fad(250,0)}Akane Nilsen (27)\NStage Actress
-Dialogue: 0,0:11:40.95,0:11:44.31,CharCards,,0000,0000,0000,,{\fad(250,0)}Rose Hewitt (28)\NStage Actress
-Dialogue: 0,0:12:04.18,0:12:10.25,NightBaronessTypeset,,0000,0000,0000,,{\fad(180,0)}Night Baroness
+Dialogue: 0,0:11:33.73,0:11:37.51,Character Card,,0000,0000,0000,,{\fad(250,0)}Lila Sanchez (32)\NStage Actress
+Dialogue: 0,0:11:37.61,0:11:40.76,Character Card,,0000,0000,0000,,{\fad(250,0)}Akane Nilsen (27)\NStage Actress
+Dialogue: 0,0:11:40.95,0:11:44.31,Character Card,,0000,0000,0000,,{\fad(250,0)}Rose Hewitt (28)\NStage Actress
+Dialogue: 0,0:12:04.18,0:12:10.25,Signs,,0000,0000,0000,,Night Baroness
 Dialogue: 0,0:11:33.73,0:11:37.51,Dialogue,,0000,0000,0005,,If it isn't Sharon! You really made it!
 Dialogue: 0,0:11:37.61,0:11:40.76,Dialogue,,0001,0001,0005,,I guess our director {\i1}does{\i0} say the truth sometimes...
 Dialogue: 0,0:11:40.95,0:11:44.31,Dialogue,,0000,0000,0005,,How exciting, I feel like I'm dreaming!
@@ -213,17 +211,17 @@ Dialogue: 0,0:12:59.44,0:13:01.22,Dialogue,,0000,0000,0000,,My, my.
 Dialogue: 0,0:13:01.22,0:13:04.98,Dialogue,,0000,0000,0000,,And here I thought the Night Baroness'd come to solve
 Dialogue: 0,0:13:04.98,0:13:08.10,Dialogue,,0000,0000,0000,,the mystery of the strange present.
 Dialogue: 0,0:13:08.10,0:13:10.79,Dialogue,,0000,0000,0000,,But I see she's only here to greet us.
-Dialogue: 0,0:13:10.79,0:13:14.15,CharCards,,0000,0000,0000,,{\fad(250,0)}Everith Hamilton (30)\NStage Actress
+Dialogue: 0,0:13:10.79,0:13:14.15,Character Card,,0000,0000,0000,,{\fad(250,0)}Everith Hamilton (30)\NStage Actress
 Dialogue: 0,0:13:12.52,0:13:14.15,Dialogue,,0000,0000,0005,,What a disappointment.
 Dialogue: 0,0:13:15.13,0:13:16.65,Dialogue,,0000,0000,0000,,Strange present?
 Dialogue: 0,0:13:18.52,0:13:22.39,Dialogue,,0000,0000,0000,,Three days ago, a packet was delivered to the company.
 Dialogue: 0,0:13:22.39,0:13:28.12,Dialogue,,0000,0000,0000,,An apple covered in gold spray. A Golden Apple.
-Dialogue: 0,0:13:29.18,0:13:34.38,NightBaronessTypeset,,0000,0000,0080,,{\fad(220,0)}«For the Fairest»
+Dialogue: 0,0:13:29.18,0:13:34.38,Signs,,0000,0000,0080,,«For the Fairest»
 Dialogue: 0,0:13:28.12,0:13:34.38,Dialogue,,0000,0001,0005,,With a message in animal blood: "For the Fairest."
 Dialogue: 0,0:13:34.38,0:13:36.55,Dialogue,,0000,0000,0000,,I see.
 Dialogue: 0,0:13:36.55,0:13:43.22,Dialogue,,0000,0000,0000,,That explains why I felt so much tension when I entered this room.
 Dialogue: 0,0:13:43.22,0:13:47.22,Dialogue,,0000,0000,0005,,Now, now, calm down, my goddesses.
-Dialogue: 0,0:13:43.41,0:13:46.93,CharCards,,0000,0000,0000,,{\fad(250,150)}Heath Flockhart (33)\NStage Actor
+Dialogue: 0,0:13:43.41,0:13:46.93,Character Card,,0000,0000,0000,,{\fad(250,150)}Heath Flockhart (33)\NStage Actor
 Dialogue: 0,0:13:47.71,0:13:50.14,Dialogue,,0000,0000,0000,,It's probably just a prank.
 Dialogue: 0,0:13:50.14,0:13:51.73,Dialogue,,0000,0000,0000,,But Heath...
 Dialogue: 0,0:13:51.73,0:13:53.41,Dialogue,,0000,0000,0000,,Who's he?
@@ -558,8 +556,8 @@ Dialogue: 0,0:37:32.11,0:37:35.11,Dialogue,,0000,0000,0000,,He killed Michael.
 Dialogue: 0,0:37:35.11,0:37:41.12,Dialogue,,0000,0000,0000,,When I told him I loved the angel he was playing!
 Dialogue: 0,0:37:42.94,0:37:47.62,Dialogue,,0000,0000,0000,,But I was blessed by God, anyway.
 Dialogue: 0,0:37:48.43,0:37:54.63,Dialogue,,0000,0000,0000,,Since He saved me when my dress got caught on a nail and the armor fell.
-Dialogue: 0,0:37:56.01,0:37:58.63,English,,0000,0000,0000,,Thank you, sweet angel...
-Dialogue: 0,0:37:59.15,0:38:01.79,English,,0000,0000,0000,,You helped me do it...
+Dialogue: 0,0:37:56.01,0:37:58.63,Dialogue,,0000,0000,0000,,Thank you, sweet angel...
+Dialogue: 0,0:37:59.15,0:38:01.79,Dialogue,,0000,0000,0000,,You helped me do it...
 Dialogue: 0,0:38:20.12,0:38:21.87,Dialogue,,0000,0000,0000,,What's wrong, Ran?
 Dialogue: 0,0:38:21.87,0:38:25.37,Dialogue,,0000,0000,0000,,Don't tell me you're like that over what Rose said.
 Dialogue: 0,0:38:27.05,0:38:28.91,Dialogue,,0000,0000,0000,,You understood what she said?
@@ -588,8 +586,8 @@ Dialogue: 0,0:39:35.64,0:39:38.11,Dialogue,,0000,0000,0000,,Seems to be an aband
 Dialogue: 0,0:39:38.89,0:39:40.23,Dialogue,,0000,0000,0000,,I'll be right back.
 Dialogue: 0,0:39:40.23,0:39:41.78,Dialogue,,0000,0000,0000,,Wait for me in the taxi, Ran.
 Dialogue: 0,0:39:43.74,0:39:47.66,Dialogue,,0000,0000,0000,,If God existed, this wouldn't have happened.
-Dialogue: 0,0:39:47.66,0:39:50.44,English,,0000,0000,0000,,Thank you, sweet angel...
-Dialogue: 0,0:39:50.58,0:39:53.12,English,,0000,0000,0000,,You helped me do it...
+Dialogue: 0,0:39:47.66,0:39:50.44,Dialogue,,0000,0000,0000,,Thank you, sweet angel...
+Dialogue: 0,0:39:50.58,0:39:53.12,Dialogue,,0000,0000,0000,,You helped me do it...
 Dialogue: 0,0:39:53.92,0:39:57.13,Thoughts,,0000,0000,0000,,{\be10}Could Sharon have known...?
 Dialogue: 0,0:39:58.14,0:40:04.09,Thoughts,,0000,0000,0000,,{\be10}That Rose was going to commit murder, and that I'd saved a murderer...?
 Dialogue: 0,0:40:05.42,0:40:06.75,Thoughts,,0000,0000,0000,,{\be10}What now?
@@ -600,9 +598,9 @@ Dialogue: 0,0:40:17.10,0:40:18.20,Thoughts,,0000,0000,0000,,{\be10}It's all my..
 Dialogue: 0,0:40:37.98,0:40:38.75,Thoughts,,0000,0000,0000,,{\be10}A gun...
 Dialogue: 0,0:40:39.72,0:40:40.75,Thoughts,,0000,0000,0000,,{\be10}No...
 Dialogue: 0,0:40:41.44,0:40:44.26,Thoughts,,0000,0000,0000,,{\be10}My body won't move...
-Dialogue: 0,0:40:44.34,0:40:46.51,English,,0000,0000,0000,,Hey! Hurry up. Jump in!!
-Dialogue: 0,0:40:46.64,0:40:48.76,English,,0000,0000,0000,,He must be the serial killer, come on!!
-Dialogue: 0,0:40:52.10,0:40:53.16,English,,0000,0000,0000,,{\fad(40,0)}Shit!
+Dialogue: 0,0:40:44.34,0:40:46.51,Dialogue,,0000,0000,0000,,Hey! Hurry up. Jump in!!
+Dialogue: 0,0:40:46.64,0:40:48.76,Dialogue,,0000,0000,0000,,He must be the serial killer, come on!!
+Dialogue: 0,0:40:52.10,0:40:53.16,Dialogue,,0000,0000,0000,,Shit!
 Dialogue: 0,0:40:54.68,0:40:55.48,Dialogue,,0000,0000,0000,,Wait!
 Dialogue: 0,0:40:55.48,0:40:56.90,Dialogue,,0000,0000,0000,,Are you Japanese?
 Dialogue: 0,0:41:00.48,0:41:02.73,Dialogue,,0000,0000,0000,,I asked, "Are you Japanese?"
@@ -611,8 +609,8 @@ Dialogue: 0,0:41:04.69,0:41:06.82,Dialogue,,0000,0000,0000,,Have you seen a susp
 Dialogue: 0,0:41:08.73,0:41:12.28,Dialogue,,0000,0000,0000,,A Japanese man with long silvery hair and a beard.
 Dialogue: 0,0:41:13.04,0:41:14.28,Dialogue,,0000,0000,0000,,No...
 Dialogue: 0,0:41:14.28,0:41:16.29,Dialogue,,0000,0000,0000,,I haven't seen anyone.
-Dialogue: 0,0:41:20.27,0:41:22.06,English,,0000,0000,0000,,Did you find him, sir?
-Dialogue: 0,0:41:22.23,0:41:25.97,English,,0000,0000,0000,,No... I found only a tourist.
+Dialogue: 0,0:41:20.27,0:41:22.06,Dialogue,,0000,0000,0000,,Did you find him, sir?
+Dialogue: 0,0:41:22.23,0:41:25.97,Dialogue,,0000,0000,0000,,No... I found only a tourist.
 Dialogue: 0,0:41:26.55,0:41:28.38,Dialogue,,0000,0000,0000,,Anyway, this place is dangerous.
 Dialogue: 0,0:41:28.38,0:41:31.41,Dialogue,,0000,0000,0000,,Take a right in this corner and you should get to the main street.
 Dialogue: 0,0:41:31.41,0:41:33.76,Dialogue,,0000,0000,0000,,You can take a taxi from there.
@@ -622,9 +620,9 @@ Dialogue: 0,0:41:38.18,0:41:40.69,Dialogue,,0000,0000,0000,,He's a boy my age.{l
 Dialogue: 0,0:41:40.69,0:41:44.71,Dialogue,,0000,0000,0000,,Then I'll tell you and your friend this yet again.
 Dialogue: 0,0:41:44.71,0:41:46.17,Dialogue,,0000,0000,0000,,Get out of here!
 Dialogue: 0,0:41:46.17,0:41:48.03,Dialogue,,0000,0000,0000,,Get out of this area, right now!
-Dialogue: 0,0:41:48.03,0:41:50.49,English,,0000,0000,0000,,Can we leave her alone?
-Dialogue: 0,0:41:50.62,0:41:52.22,English,,0000,0000,0000,,No problem.
-Dialogue: 0,0:41:52.33,0:41:56.00,English,,0000,0000,0000,,Every crossing to this street is already secured.
+Dialogue: 0,0:41:48.03,0:41:50.49,Dialogue,,0000,0000,0000,,Can we leave her alone?
+Dialogue: 0,0:41:50.62,0:41:52.22,Dialogue,,0000,0000,0000,,No problem.
+Dialogue: 0,0:41:52.33,0:41:56.00,Dialogue,,0000,0000,0000,,Every crossing to this street is already secured.
 Dialogue: 0,0:41:56.83,0:41:58.46,Thoughts,,0000,0000,0000,,{\be10}Then it's true.
 Dialogue: 0,0:41:58.46,0:42:00.33,Thoughts,,0000,0000,0000,,{\be10}The serial killer's here.
 Dialogue: 0,0:42:01.30,0:42:03.34,Thoughts,,0000,0000,0000,,{\be10}Hurry, Shin'ichi, we have to run!

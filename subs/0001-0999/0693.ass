@@ -33,8 +33,6 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: OPTLTextless,FuntypeFattened,50,&H00FFFFFF,&H000000FF,&H80AF0068,&H80000000,-1,0,0,0,90,100,0,0,1,3,1,2,10,10,40,1
-Style: HitomiRomaji,Ubuntu,40,&HC0FF0000,&H000000FF,&H00FFFFFF,&H00000000,-1,0,0,0,105,100,0,0,1,3.4,1,8,10,10,30,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -137,7 +135,7 @@ Dialogue: 0,0:08:27.42,0:08:30.17,Dialogue,,0,0,0,,I don't know anything about w
 Dialogue: 0,0:08:30.17,0:08:32.72,Dialogue,,0,0,0,,I heard you were on good terms with him.
 Dialogue: 0,0:08:34.22,0:08:36.30,Dialogue,,0,0,0,,Just tell me what you know.
 Dialogue: 0,0:08:38.39,0:08:41.56,Dialogue Top,,0,0,0,,Even if it's something you may rather not know?
-Dialogue: 0,0:08:38.51,0:08:41.56,Signs,,0,0,0,,Atsushi Tanaka (28)\NNew Image Engineer
+Dialogue: 0,0:08:38.51,0:08:41.56,Character Card,,0,0,0,,Atsushi Tanaka (28)\NNew Image Engineer
 Dialogue: 0,0:08:42.31,0:08:45.02,Dialogue,,0,0,0,,I don't mind! Lemme hear it!
 Dialogue: 0,0:08:45.02,0:08:48.15,Dialogue,,0,0,0,,Nishizawa{\rHonorifics - Dialogue}-san{\r} held a grudge against you.
 Dialogue: 0,0:08:48.15,0:08:49.82,Dialogue,,0,0,0,,Yeah, seems like it.
@@ -170,7 +168,7 @@ Dialogue: 0,0:10:08.98,0:10:12.98,Dialogue,,0,0,0,,If you doubt me, go check the
 Dialogue: 0,0:10:13.65,0:10:15.49,Dialogue,,0,0,0,,There's no need to investigate, is there?
 Dialogue: 0,0:10:15.49,0:10:17.36,Dialogue,,0,0,0,,Wasn't it a suicide?
 Dialogue: 0,0:10:17.36,0:10:20.49,Dialogue,,0,0,0,,Don't you want to get the 24 million yen back?
-Dialogue: 0,0:10:21.91,0:10:25.50,Signs,,0,0,0,,Gen Ishida (42)\NNew Image President
+Dialogue: 0,0:10:21.91,0:10:25.50,Character Card,,0,0,0,,Gen Ishida (42)\NNew Image President
 Dialogue: 0,0:10:21.33,0:10:23.45,Dialogue Top,,0,0,0,,I don't care about such paltry sums.
 Dialogue: 0,0:10:23.45,0:10:25.50,Dialogue Top,,0,0,0,,I can get it back just by selling a few cars.
 Dialogue: 0,0:10:26.50,0:10:29.21,Dialogue,,0,0,0,,Thanks for your work. Now, please forget about it.
@@ -325,6 +323,7 @@ Dialogue: 0,0:20:56.26,0:21:04.52,Dialogue,,0,0,0,,you were forced to throw the 
 Dialogue: 0,0:21:04.52,0:21:06.27,Dialogue,,0,0,0,,Is that so, Tanaka{\rHonorifics - Dialogue}-san{\r}?
 Dialogue: 0,0:21:06.27,0:21:09.85,Dialogue,,0,0,0,,I-It's all a fabrication! A hoax!
 Dialogue: 0,0:21:09.85,0:21:13.65,Dialogue,,0,0,0,,I saw this mister riding a bike over Ōyoko River.
+Dialogue: 0,0:21:17.82,0:21:18.86,Flashback Thoughts,,0,0,0,,{\be10}That was close!
 Dialogue: 0,0:21:18.86,0:21:21.32,Dialogue,,0,0,0,,A bike passed by me before the money was stolen,
 Dialogue: 0,0:21:21.70,0:21:24.83,Dialogue,,0,0,0,,and then again after the theft had been carried out.
 Dialogue: 0,0:21:28.75,0:21:31.13,Dialogue,,0,0,0,,It had the same number plate as this one.
@@ -343,32 +342,3 @@ Dialogue: 0,0:23:38.02,0:23:40.65,Dialogue,,0,0,0,,Well, that's Mouri{\rHonorifi
 Dialogue: 0,0:23:40.65,0:23:45.66,Dialogue,,0,0,0,,Please let him know that he did a great\Njob even though he was sick, Conan{\rHonorifics - Dialogue}-kun{\r}.
 Dialogue: 0,0:23:45.66,0:23:46.66,Dialogue,,0,0,0,,Sure!
 Dialogue: 0,0:23:47.91,0:23:51.99,Thoughts,,0,0,0,,{\be10}Even though I had to re-edit the whole thing...
-Dialogue: 0,0:03:15.93,0:03:19.31,OPTLTextless,,0,0,0,,{\blur2}Take me to the high, we never cry on
-Dialogue: 0,0:03:19.31,0:03:22.90,OPTLTextless,,0,0,0,,{\blur2}To a tomorrow we've never seen
-Dialogue: 0,0:03:22.94,0:03:26.65,OPTLTextless,,0,0,0,,{\blur2}Try again Try again Try again Always
-Dialogue: 0,0:03:26.65,0:03:29.95,OPTLTextless,,0,0,0,,{\blur2}Try again Try again Try again
-Dialogue: 0,0:03:29.95,0:03:33.03,OPTLTextless,,0,0,0,,{\blur2\fad(0,300)}Speak out the truth!
-Dialogue: 0,0:03:39.08,0:03:42.75,OPTLTextless,,0,0,0,,{\blur2}Not knowing exactly what you're searching for
-Dialogue: 0,0:03:42.75,0:03:46.21,OPTLTextless,,0,0,0,,{\blur2}living in the moment in your reckless way
-Dialogue: 0,0:03:46.21,0:03:50.05,OPTLTextless,,0,0,0,,{\blur2}If you don't brighten up a bit soon
-Dialogue: 0,0:03:50.05,0:03:53.35,OPTLTextless,,0,0,0,,{\blur2}you'll get crushed by your own anxiety
-Dialogue: 0,0:03:53.35,0:03:56.85,OPTLTextless,,0,0,0,,{\blur2}Surely you have dreams too?
-Dialogue: 0,0:03:56.85,0:04:00.52,OPTLTextless,,0,0,0,,{\blur2}I want to fulfill them, I want to cry... but I'll still chase them
-Dialogue: 0,0:04:00.52,0:04:04.11,OPTLTextless,,0,0,0,,{\blur2}Aren't you just quietly giving up?
-Dialogue: 0,0:04:04.11,0:04:08.19,OPTLTextless,,0,0,0,,{\blur2}Can't you see now the reality you've distanced yourself from?
-Dialogue: 0,0:04:09.65,0:04:13.07,OPTLTextless,,0,0,0,,{\blur2}Take me to the high, we never cry on
-Dialogue: 0,0:04:13.07,0:04:16.49,OPTLTextless,,0,0,0,,{\blur2}To a tomorrow we've never seen
-Dialogue: 0,0:04:16.49,0:04:20.08,OPTLTextless,,0,0,0,,{\blur2}Try again Try again Try again Always
-Dialogue: 0,0:04:20.08,0:04:23.79,OPTLTextless,,0,0,0,,{\blur2}Try again Try again Try again
-Dialogue: 0,0:04:23.79,0:04:30.84,OPTLTextless,,0,0,0,,{\blur2}Not everything is bad, we're dreamers after all
-Dialogue: 0,0:04:30.84,0:04:34.39,OPTLTextless,,0,0,0,,{\blur2}Try again Try again Try again Always
-Dialogue: 0,0:04:34.39,0:04:38.14,OPTLTextless,,0,0,0,,{\blur2}Try again Try again Try again
-Dialogue: 0,0:04:38.14,0:04:41.52,OPTLTextless,,0,0,0,,{\blur2\fad(0,500)}Speak out the truth!
-Dialogue: 0,0:22:16.59,0:22:24.39,HitomiRomaji,,0,0,0,,{\3c&HFFD4D4&\blur4}miagetara haru no ame machi ni oritekita
-Dialogue: 0,0:22:24.59,0:22:32.31,HitomiRomaji,,0,0,0,,{\3c&HFFD4D4&\blur4}kimi no aruku michi nurashite yuku
-Dialogue: 0,0:22:33.19,0:22:41.15,HitomiRomaji,,0,0,0,,{\3c&HFFD4D4&\blur4}kinō sasatta toge no yō na kimi no kotoba hitotsu
-Dialogue: 0,0:22:41.36,0:22:48.83,HitomiRomaji,,0,0,0,,{\3c&HFFD4D4&\blur4}mada honto wa nani mo shiranai yo
-Dialogue: 0,0:22:50.75,0:23:06.80,HitomiRomaji,,0,0,0,,{\blur4}sunao ni nareba kodoku nante nai yo hitori de wa nai kara
-Dialogue: 0,0:23:07.64,0:23:15.48,HitomiRomaji,,0,0,0,,{\blur4\3c&HEFF9FD&}don'na mirai kimi to mirai
-Dialogue: 0,0:23:15.73,0:23:24.99,HitomiRomaji,,0,0,0,,{\blur4\3c&HEFF9FD&}sono hitomi no shita e to tashikame ni yuku yo
-Dialogue: 0,0:23:25.36,0:23:33.04,HitomiRomaji,,0,0,0,,{\blur4\3c&HEFF9FD&\fad(0,750)}yukkuri to orite yuku kara

@@ -33,11 +33,6 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: title001,Risque,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1,0,2,10,10,25,1
-Style: title003,Risque,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1,0,2,10,10,25,1
-Style: title004,Risque,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1,0,2,10,285,70,1
-Style: title005,Risque,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1,0,2,10,255,115,1
-Style: title006,Risque,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1,0,2,10,265,160,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -200,7 +195,7 @@ Dialogue: 0,0:10:22.23,0:10:23.00,Dialogue,,0,0,0,,Yes!
 Dialogue: 0,0:10:23.38,0:10:25.55,Dialogue,,0,0,0,,Everybody in a row, in a row!
 Dialogue: 0,0:10:37.48,0:10:38.81,Dialogue,,0,0,0,,That rock behind you...
 Dialogue: 0,0:10:39.52,0:10:40.44,Dialogue,,0,0,0,,Something's written on it.
-Dialogue: 0,0:10:40.50,0:10:46.50,title001,,0,0,0,,{\blur3\be10\fad(300,300)\1c&HD0CBF9&}saba {\c&HD4BBB0&}koi {\c&HD9FBDA&}tai {\c&HC8FAF7&}hirame
+Dialogue: 0,0:10:40.50,0:10:46.50,Signs,,0,0,0,,saba koi tai hirame
 Dialogue: 0,0:10:43.32,0:10:46.11,Dialogue,,0,0,0,,Mackerel, carp, sea bream, flounder?
 Dialogue: 0,0:10:47.36,0:10:51.16,Dialogue,,0,0,0,,Did someone carve the names of fish they\Ncaught here to commemorate the occasion?
 Dialogue: 0,0:10:51.16,0:10:53.99,Dialogue,,0,0,0,,It's bad, to do something like that...
@@ -314,19 +309,19 @@ Dialogue: 0,0:16:14.11,0:16:15.57,Dialogue,,0,0,0,,Did you say fish names?
 Dialogue: 0,0:16:16.44,0:16:17.19,Dialogue,,0,0,0,,Yes, sir.
 Dialogue: 0,0:16:17.19,0:16:17.98,Dialogue,,0,0,0,,They were...
 Dialogue: 0,0:16:18.53,0:16:19.24,Dialogue,,0,0,0,,Mackerel...
-Dialogue: 0,0:16:19.25,0:16:20.58,title003,,0,0,0,,{\fad(350,0)\blur3\be10\fad(0,0)\1c&HD0CBF9&}saba {\c&H9395E4&}mackarel
+Dialogue: 0,0:16:19.25,0:16:20.58,Signs,,0,0,0,,saba mackarel
 Dialogue: 0,0:16:21.03,0:16:21.82,Dialogue,,0,0,0,,Carp...
-Dialogue: 0,0:16:21.83,0:16:23.17,title003,,0,0,0,,{\fad(0,0)\blur3\be10\fad(0,0)\1c&HD0CBF9&}saba {\c&H9395E4&}mackarel
-Dialogue: 0,0:16:21.83,0:16:23.17,title004,,0,0,0,,{\blur3\be10\c&HFFE1D5&\fad(350,0)}koi {\c&HD2B292&}carp
+Dialogue: 0,0:16:21.83,0:16:23.17,Signs,,0,0,0,,saba mackarel
+Dialogue: 0,0:16:21.83,0:16:23.17,Signs,,0,0,0,,koi carp
 Dialogue: 0,0:16:23.41,0:16:24.37,Dialogue,,0,0,0,,Sea bream...
-Dialogue: 0,0:16:24.38,0:16:25.71,title003,,0,0,0,,{\fad(0,0)\blur3\be10\fad(0,0)\1c&HD0CBF9&}saba {\c&H9395E4&}mackarel
-Dialogue: 0,0:16:24.38,0:16:25.71,title004,,0,0,0,,{\blur3\be10\c&HFFE1D5&}koi {\c&HD2B292&}carp
-Dialogue: 0,0:16:24.38,0:16:25.71,title005,,0,0,0,,{\blur3\be10\alpha&HFF&\t(1,350,\alpha&H00&)}tai {\c&HBBE2CC&}sea {\c&H88C7A6&}bream
+Dialogue: 0,0:16:24.38,0:16:25.71,Signs,,0,0,0,,saba mackarel
+Dialogue: 0,0:16:24.38,0:16:25.71,Signs,,0,0,0,,koi carp
+Dialogue: 0,0:16:24.38,0:16:25.71,Signs,,0,0,0,,tai sea bream
 Dialogue: 0,0:16:25.99,0:16:27.95,Dialogue,,0,0,0,,And flounder, right?
-Dialogue: 0,0:16:27.95,0:16:31.97,title003,,0,0,0,,{\fad(0,0)\blur3\be10\fad(0,0)\1c&HD0CBF9&}saba {\c&H9395E4&}mackarel
-Dialogue: 0,0:16:27.95,0:16:31.97,title004,,0,0,0,,{\blur3\be10\c&HFFE1D5&}koi {\c&HD2B292&}carp
-Dialogue: 0,0:16:27.95,0:16:31.97,title005,,0,0,0,,{\blur3\be10}tai {\c&HBBE2CC&}sea {\c&H88C7A6&}bream
-Dialogue: 0,0:16:27.95,0:16:31.97,title006,,0,0,0,,{\blur3\be10\c&HBAE0E3&\alpha&HFF&\t(1,350,\alpha&H00&)}hirame {\c&H8EBECD&}flounder
+Dialogue: 0,0:16:27.95,0:16:31.97,Signs,,0,0,0,,saba mackarel
+Dialogue: 0,0:16:27.95,0:16:31.97,Signs,,0,0,0,,koi carp
+Dialogue: 0,0:16:27.95,0:16:31.97,Signs,,0,0,0,,tai sea bream
+Dialogue: 0,0:16:27.95,0:16:31.97,Signs,,0,0,0,,hirame flounder
 Dialogue: 0,0:16:32.88,0:16:34.21,Dialogue,,0,0,0,,What's that about?
 Dialogue: 0,0:16:34.92,0:16:39.30,Dialogue,,0,0,0,,Couldn't those just be the names of\Nsome fish someone had caught here?
 Dialogue: 0,0:16:39.30,0:16:41.30,Dialogue,,0,0,0,,That's not it, Juugo{\rHonorifics - Dialogue}-chan{\r}.
@@ -442,10 +437,10 @@ Dialogue: 0,0:22:14.51,0:22:16.80,Dialogue,,0,0,0,,She was left deserted here on
 Dialogue: 0,0:22:18.45,0:22:20.11,Dialogue,,0,0,0,,A planned death by dehydration.
 Dialogue: 0,0:22:21.41,0:22:23.62,Dialogue,,0,0,0,,Who on earth could have done this?
 Dialogue: 0,0:22:24.37,0:22:25.33,Dialogue,,0,0,0,,And...
-Dialogue: 0,0:22:25.53,0:22:30.40,title003,,0,0,0,,{\fad(350,350)\blur3\be10\1c&HD0CBF9&}saba {\c&H9395E4&}mackarel
-Dialogue: 0,0:22:26.40,0:22:30.40,title004,,0,0,0,,{\fad(350,350)\blur3\be10\c&HFFE1D5&}koi {\c&HD2B292&}carp
-Dialogue: 0,0:22:27.15,0:22:30.40,title005,,0,0,0,,{\fad(350,350)\blur3\be10}tai {\c&HBBE2CC&}sea {\c&H88C7A6&}bream
-Dialogue: 0,0:22:27.82,0:22:30.40,title006,,0,0,0,,{\blur3\be10\c&HBAE0E3&\fad(350,350)}hirame {\c&H8EBECD&}flounder
+Dialogue: 0,0:22:25.53,0:22:30.40,Signs,,0,0,0,,saba mackarel
+Dialogue: 0,0:22:26.40,0:22:30.40,Signs,,0,0,0,,koi carp
+Dialogue: 0,0:22:27.15,0:22:30.40,Signs,,0,0,0,,tai sea bream
+Dialogue: 0,0:22:27.82,0:22:30.40,Signs,,0,0,0,,hirame flounder
 Dialogue: 0,0:22:25.54,0:22:27.31,Dialogue,,0,0,0,,The words she carved into that rock...
 Dialogue: 0,0:22:27.94,0:22:31.50,Dialogue,,0,0,0,,Mackerel, carp, sea bream, and flounder.
 Dialogue: 0,0:22:32.23,0:22:34.67,Dialogue,,0,0,0,,Just what is it they mean?

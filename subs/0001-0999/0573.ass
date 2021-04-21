@@ -33,7 +33,6 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: title03,Times New Roman,25,&H00343532,&H000000FF,&H00ECEFE8,&H00000000,-1,0,0,0,100,100,0,0,3,2,0,2,230,0,240,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -132,7 +131,7 @@ Dialogue: 0,0:06:15.80,0:06:18.05,Dialogue,,0,0,0,,So you think he's missing?
 Dialogue: 0,0:06:18.55,0:06:21.01,Dialogue,,0,0,0,,I hope he isn't gotten into any trouble...
 Dialogue: 0,0:06:21.56,0:06:26.52,Dialogue,,0,0,0,,Well, you guys should check out his university tomorrow.
 Dialogue: 0,0:06:30.02,0:06:32.36,Character Card,,0,0,0,,{\be1}Teitan University
-Dialogue: 0,0:06:35.04,0:06:37.66,title03,,0,0,0,,{\xbord15}Tennis Club
+Dialogue: 0,0:06:35.04,0:06:37.66,Signs,,0,0,0,,{\xbord15}Tennis Club
 Dialogue: 0,0:06:35.45,0:06:37.65,Dialogue,,0,0,0,,Ah, Kunisue huh?
 Dialogue: 0,0:06:38.20,0:06:41.07,Dialogue,,0,0,0,,Well, I haven't seen him recently.
 Dialogue: 0,0:06:41.53,0:06:44.16,Dialogue,,0,0,0,,Do you happen to know of a reason for that?

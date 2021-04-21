@@ -33,7 +33,6 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: Poodles,MV Boli M,70,&H400102B5,&H000809FC,&H00CFF2F3,&H80000000,0,0,0,0,100,100,0,0,1,4,2,8,10,10,25,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -65,7 +64,7 @@ Dialogue: 0,0:03:22.55,0:03:23.72,Dialogue,,0,0,25,,Uncle! Over there!
 Dialogue: 0,0:03:23.72,0:03:26.14,Dialogue,,0,0,25,,Damn! Don't move, Himuro!
 Dialogue: 0,0:03:27.06,0:03:27.89,Dialogue,,0,0,0,,Dad!
 Dialogue: 0,0:03:27.89,0:03:29.77,Dialogue,,0,0,0,,Miss, your bill!
-Dialogue: 0,0:03:41.74,0:03:48.24,Signs,,0,0,0,,Reiji Himuro (40)\NEx-Bank Robber
+Dialogue: 0,0:03:41.74,0:03:48.24,Character Card,,0,0,0,,Reiji Himuro (40)\NEx-Bank Robber
 Dialogue: 0,0:03:41.49,0:03:48.87,Dialogue Top,,0,0,0,,Hey! I happened to see you when I was looking out the window, so I thought I'd give you a ring for nostalgia's sake.
 Dialogue: 0,0:03:48.87,0:03:52.46,Dialogue,,0,0,0,,Don't give me that! What was that call about?!
 Dialogue: 0,0:03:52.46,0:03:54.12,Dialogue,,0,0,0,,Who exactly is going to die and where?!
@@ -83,7 +82,7 @@ Dialogue: 0,0:04:32.62,0:04:36.08,Dialogue,,0,0,0,,There's no mistake, this is w
 Dialogue: 0,0:04:36.58,0:04:39.09,Dialogue,,0,0,0,,The handrail is corroded, with a section missing.
 Dialogue: 0,0:04:39.09,0:04:42.17,Dialogue,,0,0,0,,But we can't find anything suggesting there was any struggle.
 Dialogue: 0,0:04:42.17,0:04:43.26,Dialogue,,0,0,0,,I see.
-Dialogue: 0,0:04:46.93,0:04:48.93,Signs,,0,0,0,,Shingo Numao (35)\NEx-Bank Robber
+Dialogue: 0,0:04:46.93,0:04:48.93,Character Card,,0,0,0,,Shingo Numao (35)\NEx-Bank Robber
 Dialogue: 0,0:04:47.68,0:04:50.97,Dialogue Top,,0,0,0,,So it was you, Numao.
 Dialogue: 0,0:04:51.60,0:04:54.02,Dialogue,,0,0,0,,You know him, Dad?
 Dialogue: 0,0:04:54.02,0:04:55.27,Dialogue,,0,0,0,,Yeah.
@@ -364,17 +363,3 @@ Dialogue: 0,0:24:14.70,0:24:19.62,Dialogue,,0,0,0,,Next Conan's Hint: Balcony!
 Dialogue: 0,0:24:19.62,0:24:21.17,Dialogue Top,,0,0,0,,There's no case I can't solve!
 Dialogue: 0,0:24:21.17,0:24:22.33,Dialogue Top,,0,0,0,,It's midnight!
 Dialogue: 0,0:24:22.33,0:24:24.09,Dialogue Top,,0,0,0,,He's so loud, I can't sleep...
-Dialogue: 0,0:21:48.27,0:21:53.44,Poodles,,0,0,0,,{\fax0.25\blur2.5\3c&HFFFFFF}kimi no egao ga nani yori mo suki datta
-Dialogue: 0,0:21:53.77,0:21:56.86,Poodles,,0,0,0,,{\fax0.25\blur2.5\3c&HFFFFFF}onaji koto de waraiatta ne
-Dialogue: 0,0:21:57.19,0:22:05.28,Poodles,,0,0,0,,{\fax0.25\blur2.5\3c&HFFFFFF}futoshita shunkan ni iron'na kimi o omoidasu
-Dialogue: 0,0:22:07.12,0:22:13.33,Poodles,,0,0,0,,{\fax0.25\blur2.5\3c&HF2F2F3&\c&H880088}'boku ga genjitsuteki sugita' to ima ni natte kuyande'ru
-Dialogue: 0,0:22:14.83,0:22:21.42,Poodles,,0,0,0,,{\fax0.25\blur2.5\3c&HF2F2F3&\c&H880088}'kimi to no yume no tame ni' motto ikiru beki datta
-Dialogue: 0,0:22:22.47,0:22:25.72,Poodles,,0,0,0,,{\fax0.25\blur2.5\c&H008800\3c&HF2F2F3}kimi no inai akimatsuri
-Dialogue: 0,0:22:25.89,0:22:31.23,Poodles,,0,0,0,,{\fax0.25\blur2.5\3c&HF2F2F3&\c&H880000\t(4470,5220,\c&H0\3c&H0\4c&H0)}ima no boku wa younger than yesterday
-Dialogue: 0,0:22:31.89,0:22:37.02,Poodles,,0,0,0,,{\fax0.25\blur2.5\3c&HF2F2F3&}hanabira ga mau yō ni kimi wa waratta ne
-Dialogue: 0,0:22:37.36,0:22:39.98,Poodles,,0,0,0,,{\fax0.25\blur2.5\3c&HF2F2F3&\c&H008800}motto warawasetakatta
-Dialogue: 0,0:22:40.32,0:22:47.03,Poodles,,0,0,0,,{\fax0.25\blur2.5\3c&HF2F2F3&\c&H008800}hareteiru no ni tsumetai ame ga futteiru
-Dialogue: 0,0:22:47.20,0:22:52.75,Poodles,,0,0,0,,{\fax0.25\blur2.5\3c&HF2F2F3&\c&H008800}kimi no egao ga nani yori mo suki datta
-Dialogue: 0,0:22:53.04,0:22:56.04,Poodles,,0,0,0,,{\fax0.25\blur2.5\3c&HF2F2F3&\c&H008800}min'na hitori ja ikirenai
-Dialogue: 0,0:22:56.21,0:22:59.84,Poodles,,0,0,0,,{\fax0.25\blur2.5\3c&HF2F2F3&\c&H008800}kimi no kaeru basho de
-Dialogue: 0,0:23:00.17,0:23:05.01,Poodles,,0,0,0,,{\fax0.25\blur2.5\3c&HF2F2F3&\c&H008800}boku wa zutto aritsuzuketai

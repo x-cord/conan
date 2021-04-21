@@ -33,7 +33,6 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: Default 2,00568,22,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,8,10,10,10,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -77,9 +76,9 @@ Dialogue: 0,0:03:18.75,0:03:21.10,Signs,,0,0,0,,Health Suite
 Dialogue: 0,0:03:19.18,0:03:19.75,Dialogue,,0,0,0,,Nope.
 Dialogue: 0,0:03:19.75,0:03:19.95,Dialogue,,0,0,0,,health suite.
 Dialogue: 0,0:03:19.95,0:03:21.25,Dialogue,,0,0,0,,I didn't see anything.
-Dialogue: 0,0:03:21.42,0:03:25.46,Signs,,0,0,0,,Seko Kunishige.\NTable Tennis Team
-Dialogue: 0,0:03:21.42,0:03:23.00,Default 2,,0,0,0,,After leaving you guys
-Dialogue: 0,0:03:23.36,0:03:25.46,Default 2,,0,0,0,,I've been on this bed until now.
+Dialogue: 0,0:03:21.42,0:03:25.46,Character Card,,0,0,0,,Seko Kunishige.\NTable Tennis Team
+Dialogue: 0,0:03:21.42,0:03:23.00,Dialogue,,0,0,0,,After leaving you guys
+Dialogue: 0,0:03:23.36,0:03:25.46,Dialogue,,0,0,0,,I've been on this bed until now.
 Dialogue: 0,0:03:25.82,0:03:26.22,Dialogue,,0,0,0,,Plus,
 Dialogue: 0,0:03:26.96,0:03:27.96,Dialogue,,0,0,0,,See for yourself!
 Dialogue: 0,0:03:29.23,0:03:30.89,Dialogue,,0,0,0,,Even if I had left the bed,
@@ -187,7 +186,7 @@ Dialogue: 0,0:08:06.20,0:08:08.37,Dialogue,,0,0,0,,S-seiko? What are you doing h
 Dialogue: 0,0:08:11.91,0:08:16.18,Dialogue,,0,0,0,,That boy said that if I came, I'd know who the culprit is,
 Dialogue: 0,0:08:16.21,0:08:17.01,Dialogue,,0,0,0,,So I did.
 Dialogue: 0,0:08:17.72,0:08:19.62,Dialogue,,0,0,0,,He also said that this might take awhile,
-Dialogue: 0,0:08:18.56,0:08:19.95,Signs,,0,0,0,,Tsukamoto Kazumi\NKarate Team
+Dialogue: 0,0:08:18.56,0:08:19.95,Character Card,,0,0,0,,Tsukamoto Kazumi\NKarate Team
 Dialogue: 0,0:08:20.08,0:08:22.69,Dialogue,,0,0,0,,So I gathered my stuff before coming.
 Dialogue: 0,0:08:23.22,0:08:25.69,Dialogue,,0,0,0,,Hey, same here.
 Dialogue: 0,0:08:25.96,0:08:27.12,Dialogue,,0,0,0,,Kazumi{\rHonorifics - Dialogue}-senpai{\r}!

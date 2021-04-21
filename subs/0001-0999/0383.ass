@@ -33,14 +33,6 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: Title02,Arial,11,&H00FFFFFF,&H000000FF,&H7F000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,2,104,0,264,1
-Style: Title03,Arial,10,&H00BAB0AD,&H000000FF,&H7F000000,&H00000000,0,0,0,0,100,100,0,0,1,1,0,2,0,0,246,1
-Style: Title04,Arial,10,&H004F6CA3,&H000000FF,&H7F000000,&H00000000,0,0,0,0,100,100,0,0,1,1,0,2,0,25,210,1
-Style: Title05,Arial,10,&H00FFFFFF,&H000000FF,&H7F000000,&H00000000,0,0,0,0,100,100,0,0,1,1,0,2,0,29,228,1
-Style: Title06,Arial,10,&H00BAB0AD,&H000000FF,&H7F000000,&H00000000,0,0,0,0,100,100,0,0,1,1,0,2,215,0,245,1
-Style: Title07,Arial,10,&H00FFFFFF,&H000000FF,&H7F000000,&H00000000,0,0,0,0,100,100,0,0,1,1,0,2,235,0,227,1
-Style: Title08,Arial,10,&H0070A8A1,&H000000FF,&H7F000000,&H00000000,0,0,0,0,100,100,0,0,1,1,0,2,234,0,210,1
-Style: Title09,Arial,10,&H0073924B,&H000000FF,&H7F000000,&H00000000,0,0,0,0,100,100,0,0,1,1,0,2,105,0,180,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -603,14 +595,14 @@ Dialogue: 0,0:40:47.83,0:40:48.75,Dialogue,,0,0,0,,Safe!
 Dialogue: 0,0:40:49.29,0:40:52.88,Dialogue,,0,0,0,,From that fly ball right field, one\Nout, and a runner on first and third.
 Dialogue: 0,0:40:53.59,0:40:59.55,Dialogue,,0,0,0,,It went against the wind and still flew the whole\N96 meter wingspan of Koushien stadium.
 Dialogue: 0,0:41:05.14,0:41:07.10,Dialogue,,0,0,0,,96 meter wingspan?
-Dialogue: 0,0:41:07.60,0:41:16.78,Title02,,0,0,0,,Scoreboard
-Dialogue: 0,0:41:07.60,0:41:16.78,Title03,,0,0,0,,Left Outfield Seating
-Dialogue: 0,0:41:07.60,0:41:16.78,Title05,,0,0,0,,3rd Base Alps Open Seating
-Dialogue: 0,0:41:07.60,0:41:16.78,Title04,,0,0,0,,3rd Base Reserved Seating
-Dialogue: 0,0:41:07.60,0:41:16.78,Title06,,0,0,0,,Right Outfield Seating
-Dialogue: 0,0:41:07.60,0:41:16.78,Title07,,0,0,0,,1st Base Alps Open Seating
-Dialogue: 0,0:41:07.60,0:41:16.78,Title08,,0,0,0,,1st Base Reserved Seating
-Dialogue: 0,0:41:07.60,0:41:16.78,Title09,,0,0,0,,Center Open Seating\NREPORTER SEATING
+Dialogue: 0,0:41:07.60,0:41:16.78,Signs,,0,0,0,,Scoreboard
+Dialogue: 0,0:41:07.60,0:41:16.78,Signs,,0,0,0,,Left Outfield Seating
+Dialogue: 0,0:41:07.60,0:41:16.78,Signs,,0,0,0,,3rd Base Alps Open Seating
+Dialogue: 0,0:41:07.60,0:41:16.78,Signs,,0,0,0,,3rd Base Reserved Seating
+Dialogue: 0,0:41:07.60,0:41:16.78,Signs,,0,0,0,,Right Outfield Seating
+Dialogue: 0,0:41:07.60,0:41:16.78,Signs,,0,0,0,,1st Base Alps Open Seating
+Dialogue: 0,0:41:07.60,0:41:16.78,Signs,,0,0,0,,1st Base Reserved Seating
+Dialogue: 0,0:41:07.60,0:41:16.78,Signs,,0,0,0,,Center Open Seating\NREPORTER SEATING
 Dialogue: 0,0:41:08.02,0:41:10.69,Dialogue,,0,0,0,,96, 7, 13...
 Dialogue: 0,0:41:12.04,0:41:14.17,Dialogue,,0,0,0,,96, 7, 13...
 Dialogue: 0,0:41:14.40,0:41:15.61,Dialogue,,0,0,0,,Where is it?

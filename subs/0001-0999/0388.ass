@@ -33,11 +33,6 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: TLLyrics 2,00472,30,&H00FFFFFF,&H00F6F6F8,&H00B5B5C2,&H00000000,-1,-1,0,0,100,100,0,0,1,0.5,1.2,2,10,10,10,1
-Style: Üstyazı,00568,30,&H00FFFFFF,&H0300FFFF,&H00000000,&H02000000,0,0,0,0,100,100,0,0,1,2.70838,0,8,10,10,20,1
-Style: Charcards 2,Arial,22,&H00FFFFFF,&H000000FF,&H00CD7170,&H00000000,0,0,0,0,80,125,1.2,0,1,2,2,2,10,10,135,1
-Style: Default 2,00568,30,&H00222223,&H00494A52,&H00F8F8F9,&H00000000,0,0,0,0,100,100,0,0,1,2.3,5,2,10,10,10,1
-Style: Not,00472,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,8,10,10,10,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -53,26 +48,26 @@ Dialogue: 0,0:01:59.24,0:02:02.58,Dialogue,,0,0,0,,Refrigerate it, put it in a m
 Dialogue: 0,0:02:05.91,0:02:08.83,Dialogue,,0,0,0,,There^s nothing that can beat that.
 Dialogue: 0,0:02:08.83,0:02:11.71,Dialogue,,0,0,0,,İt s deliciousness comes from its bitterness and.
 Dialogue: 0,0:02:11.71,0:02:12.29,Dialogue,,0,0,0,,No...
-Dialogue: 0,0:02:12.29,0:02:14.84,Dialogue,,0,0,0,,Um, our topic is on alcohol, but beer ıs the wrong kind...
-Dialogue: 0,0:02:14.84,0:02:15.63,Dialogue,,0,0,0,,Huh?\NUm, our topic is on alcohol, but beer ıs the wrong kind...
+Dialogue: 0,0:02:12.29,0:02:14.84,Dialogue,,0,0,0,,Um, our topic is on alcohol, but beer is the wrong kind...
+Dialogue: 0,0:02:14.84,0:02:15.63,Dialogue,,0,0,0,,Huh?\NUm, our topic is on alcohol, but beer is the wrong kind...
 Dialogue: 0,0:02:15.63,0:02:19.63,Dialogue,,0,0,0,,Wasn't I supposed to speak passionately about alcohol?
-Dialogue: 0,0:02:19.63,0:02:24.84,Charcards 2,,0,0,0,,Tokuzumi Yuka\NKagoshima Nichiuri TV Announcer
-Dialogue: 0,0:02:19.84,0:02:24.84,Üstyazı,,0,0,0,,Yes, we're talking about the alcohol that's\Nboomıng in popularity these days.
+Dialogue: 0,0:02:19.63,0:02:24.84,Character Card,,0,0,0,,Tokuzumi Yuka\NKagoshima Nichiuri TV Announcer
+Dialogue: 0,0:02:19.84,0:02:24.84,Dialogue Top,,0,0,0,,Yes, we're talking about the alcohol that's\Nbooming in popularity these days.
 Dialogue: 0,0:02:25.51,0:02:27.14,Dialogue,,0,0,0,,O-Ohl
 Dialogue: 0,0:02:27.76,0:02:30.81,Dialogue,,0,0,0,,1 see... Well, wine is just splendid!
 Dialogue: 0,0:02:30.81,0:02:31.64,Dialogue,,0,0,0,,Even I know the benefits of the polyphenol...
 Dialogue: 0,0:02:31.64,0:02:33.77,Dialogue,,0,0,0,,Err, not wine...\NEven I know the benefits of the polyphenol...
-Dialogue: 0,0:02:33.81,0:02:36.77,Üstyazı,,0,0,0,,This is a special program celebrating\Nthe station's anniversary.
-Dialogue: 0,0:02:33.87,0:02:38.93,Signs,,0,0,0,,Kondo Yousuke\NKagashima Nichuri TV Director
-Dialogue: 0,0:02:33.87,0:02:38.93,Signs,,0,0,0,,Yoshidemo Shougo\NKagashima Nichuri TV Productor
-Dialogue: 0,0:02:36.77,0:02:38.81,Üstyazı,,0,0,0,,Why did we invite such a stupid guy?!
+Dialogue: 0,0:02:33.81,0:02:36.77,Dialogue Top,,0,0,0,,This is a special program celebrating\Nthe station's anniversary.
+Dialogue: 0,0:02:33.87,0:02:38.93,Character Card,,0,0,0,,Kondo Yousuke\NKagashima Nichuri TV Director
+Dialogue: 0,0:02:33.87,0:02:38.93,Character Card,,0,0,0,,Yoshidemo Shougo\NKagashima Nichuri TV Productor
+Dialogue: 0,0:02:36.77,0:02:38.81,Dialogue Top,,0,0,0,,Why did we invite such a stupid guy?!
 Dialogue: 0,0:02:40.02,0:02:42.73,Dialogue,,0,0,0,,I heard he's famous and likes to drink sake.
 Dialogue: 0,0:02:42.74,0:02:46.61,Dialogue,,0,0,0,,You'd think that this guy would get a clue\Nfrom hearing the word "sake" in Kagoshima.
 Dialogue: 0,0:02:46.74,0:02:49.61,Dialogue,,0,0,0,,The announcer lady is crying, isn't she?
 Dialogue: 0,0:02:49.62,0:02:51.16,Dialogue,,0,0,0,,Come on, Dad...
 Dialogue: 0,0:02:52.16,0:02:54.49,Dialogue,,0,0,0,,Whats with These murderous star es?
 Dialogue: 0,0:02:54.50,0:02:56.62,Dialogue,,0,0,0,,I came to Kagoshima and .
-Dialogue: 0,0:02:56.62,0:02:58.71,Dialogue,,0,0,0,,Waıt, Kagoshima?
+Dialogue: 0,0:02:56.62,0:02:58.71,Dialogue,,0,0,0,,Wait, Kagoshima?
 Dialogue: 0,0:02:58.71,0:03:01.88,Dialogue,,0,0,0,,Kagoshima a ft sake...
 Dialogue: 0,0:03:03.29,0:03:04.88,Dialogue,,0,0,0,,Shoot!
 Dialogue: 0,0:03:06.21,0:03:08.09,Dialogue,,0,0,0,,Well, I mean...
@@ -81,13 +76,13 @@ Dialogue: 0,0:03:11.13,0:03:15.30,Dialogue,,0,0,0,,But my absolute favorite is S
 Dialogue: 0,0:03:15.30,0:03:16.14,Dialogue,,0,0,0,,What?
 Dialogue: 0,0:03:16.14,0:03:22.60,Dialogue,,0,0,0,,The truth is, I wanted to give a comparison so\Npeople can understand the greatness of Shochu.
 Dialogue: 0,0:03:22.60,0:03:25.48,Dialogue,,0,0,0,,So that's why you talked about\Nother alcoholic beverages first?
-Dialogue: 0,0:03:25.73,0:03:27.90,Dialogue,,0,0,0,,Oh! So t/ıat's why!
+Dialogue: 0,0:03:25.73,0:03:27.90,Dialogue,,0,0,0,,Oh! So t/iat's why!
 Dialogue: 0,0:03:28.15,0:03:32.36,Dialogue,,0,0,0,,But I, Mouri Kogoro, cannot hide it anymore.
 Dialogue: 0,0:03:32.36,0:03:37.40,Dialogue,,0,0,0,,I especially have to say that the Shochu\Nthat's brewed right here in Kagoshima...
 Dialogue: 0,0:03:37.41,0:03:39.70,Dialogue,,0,0,0,,Is the absolute best!
 Dialogue: 0,0:03:39.70,0:03:42.33,Dialogue,,0,0,0,,Banzai for Kagoshima!
 Dialogue: 0,0:03:43.83,0:03:47.62,Dialogue,,0,0,0,,Ali right! Mouri{\rHonorifics - Dialogue}-san{\r} saved the show
-Dialogue: 0,0:03:47.62,0:03:49.79,Dialogue,,0,0,0,,We were right to invite hım, weren't we?
+Dialogue: 0,0:03:47.62,0:03:49.79,Dialogue,,0,0,0,,We were right to invite him, weren't we?
 Dialogue: 0,0:03:51.13,0:03:53.13,Dialogue,,0,0,0,,He fooled them somehow.
 Dialogue: 0,0:03:54.21,0:03:56.09,Dialogue,,0,0,0,,I'II give him credit for that
 Dialogue: 0,0:03:57.01,0:03:59.34,Dialogue,,0,0,0,,When you say 'Takakuma"...
@@ -109,10 +104,10 @@ Dialogue: 0,0:04:51.34,0:04:52.47,Dialogue,,0,0,0,,Yes, but it's nice.
 Dialogue: 0,0:04:53.22,0:04:55.05,Dialogue,,0,0,0,,There's a clear view of the ocean, too.
 Dialogue: 0,0:04:55.26,0:04:57.68,Dialogue,,0,0,0,,Mouri{\rHonorifics - Dialogue}-san{\r}, this is the owner.
 Dialogue: 0,0:04:57.85,0:05:00.93,Dialogue,,0,0,0,,Hello, sorry to bother you.
-Dialogue: 0,0:05:02.60,0:05:05.60,Signs,,0,0,0,,Shiraishi Satoshi(30)\NTakakuma Brewery Owner
-Dialogue: 0,0:05:02.94,0:05:05.60,Dialogue,,0,0,0,,Welcome. I'm Shiraishı.
+Dialogue: 0,0:05:02.60,0:05:05.60,Character Card,,0,0,0,,Shiraishi Satoshi(30)\NTakakuma Brewery Owner
+Dialogue: 0,0:05:02.94,0:05:05.60,Dialogue,,0,0,0,,Welcome. I'm Shiraishi.
 Dialogue: 0,0:05:05.65,0:05:07.73,Dialogue,,0,0,0,,I've heard your name mentioned quite frequently.
-Dialogue: 0,0:05:06.83,0:05:09.15,Signs,,0,0,0,,Shiraishi Fumiko (27)\NSatoshi'nin Karısı
+Dialogue: 0,0:05:06.83,0:05:09.15,Character Card,,0,0,0,,Shiraishi Fumiko (27)\NSatoshi'nin Karisi
 Dialogue: 0,0:05:07.73,0:05:09.15,Dialogue,,0,0,0,,I'm his wife, Fumiko.
 Dialogue: 0,0:05:09.48,0:05:11.27,Dialogue,,0,0,0,,My daughter, Ran.
 Dialogue: 0,0:05:11.48,0:05:13.07,Dialogue,,0,0,0,,And this freeloader...
@@ -133,12 +128,12 @@ Dialogue: 0,0:05:49.27,0:05:51.93,Dialogue,,0,0,0,,What do you think of the Taka
 Dialogue: 0,0:05:54.31,0:05:57.86,Dialogue,,0,0,0,,Amazing. Ali I can say.
 Dialogue: 0,0:05:58.61,0:05:59.86,Dialogue,,0,0,0,,It's just sake.
 Dialogue: 0,0:05:59.86,0:06:02.40,Dialogue,,0,0,0,,No, this is the best I've ever tasted
-Dialogue: 0,0:06:02.40,0:06:03.57,Dialogue,,0,0,0,,Simply exquısite
+Dialogue: 0,0:06:02.40,0:06:03.57,Dialogue,,0,0,0,,Simply exquisite
 Dialogue: 0,0:06:03.74,0:06:04.74,Dialogue,,0,0,0,,Well...
 Dialogue: 0,0:06:04.74,0:06:08.99,Dialogue,,0,0,0,,We all take allot of pride in brewing this sake.
 Dialogue: 0,0:06:11.70,0:06:16.20,Dialogue,,0,0,0,,The sake-brewing process\Nbegins by washing and steaming rice.
 Dialogue: 0,0:06:16.46,0:06:18.83,Dialogue,,0,0,0,,Then we add koji mold.
-Dialogue: 0,0:06:17.37,0:06:21.04,Base02,,0,0,0,,Note: Koji is a specıal type of, mold which releases\Nenzymes thathelp break rica down into carbon dioxide and alchol.
+Dialogue: 0,0:06:17.37,0:06:21.04,Base02,,0,0,0,,Note: Koji is a special type of, mold which releases\Nenzymes thathelp break rica down into carbon dioxide and alchol.
 Dialogue: 0,0:06:20.08,0:06:22.96,Dialogue,,0,0,0,,When the koji is ready, we\Ntransfer it into an earthenware pot...
 Dialogue: 0,0:06:22.96,0:06:25.63,Dialogue,,0,0,0,,Add water and yeast,to ferment it.
 Dialogue: 0,0:06:26.84,0:06:31.01,Dialogue,,0,0,0,,Then we add steamed sweet potatoes to ferment it further.
@@ -158,18 +153,18 @@ Dialogue: 0,0:07:10.67,0:07:12.75,Dialogue,,0,0,0,,Last week, I requested permis
 Dialogue: 0,0:07:12.75,0:07:14.67,Dialogue,,0,0,0,,My name is Maezono, from the Weekly Etta.
 Dialogue: 0,0:07:15.17,0:07:16.30,Dialogue,,0,0,0,,Report?
 Dialogue: 0,0:07:17.42,0:07:18.46,Dialogue,,0,0,0,,I haven't heard about it.
-Dialogue: 0,0:07:18.47,0:07:22.09,Dialogue,,0,0,0,,Ee... May I see the managing director, Tatsumura-sarı?
-Dialogue: 0,0:07:18.47,0:07:22.09,CharCards,,0,0,0,,Maezono Hitomi (25)\NMagazine Journalist.
+Dialogue: 0,0:07:18.47,0:07:22.09,Dialogue,,0,0,0,,Ee... May I see the managing director, Tatsumura-sari?
+Dialogue: 0,0:07:18.47,0:07:22.09,Character Card,,0,0,0,,Maezono Hitomi (25)\NMagazine Journalist.
 Dialogue: 0,0:07:26.10,0:07:29.60,Dialogue,,0,0,0,,Why did everyone react to the name Tatsumura?
 Dialogue: 0,0:07:30.77,0:07:34.35,Dialogue,,0,0,0,,I was supposed to film the brewing process.
 Dialogue: 0,0:07:34.35,0:07:35.56,Dialogue,,0,0,0,,The brevving process?
 Dialogue: 0,0:07:35.56,0:07:37.81,Dialogue,,0,0,0,,Tatsumura{\rHonorifics - Dialogue}-san{\r} agreed to that?
-Dialogue: 0,0:07:38.36,0:07:40.73,Üstyazı,,0,0,0,,What the hell was he thinking?
-Dialogue: 0,0:07:40.90,0:07:42.82,Üstyazı,,0,0,0,,He selfishly made a stupid promise.
+Dialogue: 0,0:07:38.36,0:07:40.73,Dialogue Top,,0,0,0,,What the hell was he thinking?
+Dialogue: 0,0:07:40.90,0:07:42.82,Dialogue Top,,0,0,0,,He selfishly made a stupid promise.
 Dialogue: 0,0:07:43.28,0:07:47.15,Dialogue,,0,0,0,,Unfortunately, we cannot show\Nthe brewing process to anyone.
 Dialogue: 0,0:07:47.16,0:07:49.28,Dialogue,,0,0,0,,You can't? But...
-Dialogue: 0,0:07:49.62,0:07:53.83,Dialogue,,0,0,0,,It's very important that we keep\Nthe area free of any outside bacterıa.
-Dialogue: 0,0:07:54.50,0:07:58.41,Dialogue,,0,0,0,,That's why we cannot let non-employees ın.
+Dialogue: 0,0:07:49.62,0:07:53.83,Dialogue,,0,0,0,,It's very important that we keep\Nthe area free of any outside bacteria.
+Dialogue: 0,0:07:54.50,0:07:58.41,Dialogue,,0,0,0,,That's why we cannot let non-employees in.
 Dialogue: 0,0:07:59.54,0:08:03.54,Dialogue,,0,0,0,,That's true. There are many germs on the human body.
 Dialogue: 0,0:08:03.54,0:08:05.42,Dialogue,,0,0,0,,That's common sense, girl!
 Dialogue: 0,0:08:05.63,0:08:07.30,Dialogue,,0,0,0,,I apologize.
@@ -179,12 +174,12 @@ Dialogue: 0,0:08:13.59,0:08:15.47,Dialogue,,0,0,0,,We're not mad at you.
 Dialogue: 0,0:08:15.47,0:08:17.93,Dialogue,,0,0,0,,We re just pissed off at that Tatsumura!
 Dialogue: 0,0:08:18.35,0:08:21.35,Dialogue,,0,0,0,,Hey, what a re you yelling for Kosugi?
 Dialogue: 0,0:08:21.89,0:08:23.14,Dialogue,,0,0,0,,Tatsumura{\rHonorifics - Dialogue}-san{\r}!
-Dialogue: 0,0:08:23.14,0:08:26.85,Signs,,0,0,0,,Tatsumura Shinsuke (45)\NTakakuma Brewery Managing Director
+Dialogue: 0,0:08:23.14,0:08:26.85,Character Card,,0,0,0,,Tatsumura Shinsuke (45)\NTakakuma Brewery Managing Director
 Dialogue: 0,0:08:23.39,0:08:26.85,Dialogue,,0,0,0,,My, my... Looks like I'm not welcome here
 Dialogue: 0,0:08:27.27,0:08:29.02,Dialogue,,0,0,0,,Are you Maezono{\rHonorifics - Dialogue}-san{\r}?
 Dialogue: 0,0:08:29.36,0:08:30.27,Dialogue,,0,0,0,,Evet.
 Dialogue: 0,0:08:30.27,0:08:32.94,Dialogue,,0,0,0,,Sorry, sorry. I'm late for your interview.
-Dialogue: 0,0:08:32.94,0:08:38.28,Dialogue,,0,0,0,,My physical checkup took longer than I\Nexpected, thanks to a certaın someone...
+Dialogue: 0,0:08:32.94,0:08:38.28,Dialogue,,0,0,0,,My physical checkup took longer than I\Nexpected, thanks to a certain someone...
 Dialogue: 0,0:08:38.82,0:08:41.62,Dialogue,,0,0,0,,Doesn't the small size of this place surprise you?
 Dialogue: 0,0:08:41.62,0:08:43.41,Dialogue,,0,0,0,,Y-Yeah.
 Dialogue: 0,0:08:43.41,0:08:46.29,Dialogue,,0,0,0,,However, we re thinking of<remodeling this place...
@@ -207,7 +202,7 @@ Dialogue: 0,0:09:38.25,0:09:40.71,Dialogue,,0,0,0,,Well then, let!s get back to 
 Dialogue: 0,0:09:40.71,0:09:45.46,Dialogue,,0,0,0,,Even if bacteria didn't go near the sake,\Nthere's already enough scum here to ruin it.
 Dialogue: 0,0:09:45.67,0:09:48.34,Dialogue,,0,0,0,,Scum? Are you talking about me?
 Dialogue: 0,0:09:48.34,0:09:50.34,Dialogue,,0,0,0,,Geez, what's wrong with everyone...
-Dialogue: 0,0:09:50.34,0:09:54.59,Dialogue,,0,0,0,,I'm also against stoppıng the handmade process.
+Dialogue: 0,0:09:50.34,0:09:54.59,Dialogue,,0,0,0,,I'm also against stopping the handmade process.
 Dialogue: 0,0:09:54.60,0:09:56.05,Dialogue,,0,0,0,,Who are you?
 Dialogue: 0,0:09:56.05,0:09:58.93,Dialogue,,0,0,0,,Oh, and thank you very much for the drink.
 Dialogue: 0,0:10:03.81,0:10:05.27,Dialogue,,0,0,0,,Wait, isn't that...
@@ -231,12 +226,12 @@ Dialogue: 0,0:10:51.56,0:10:54.02,Dialogue,,0,0,0,,Mouri{\rHonorifics - Dialogue
 Dialogue: 0,0:10:54.35,0:10:55.77,Dialogue,,0,0,0,,Madam?
 Dialogue: 0,0:10:55.77,0:10:59.02,Dialogue,,0,0,0,,Take it as my thanks for enjoying our sake.
 Dialogue: 0,0:10:59.02,0:11:01.69,Dialogue,,0,0,0,,Please let me have the honor of being your tour guide.
-Dialogue: 0,0:11:01.94,0:11:05.49,Dialogue,,0,0,0,,Hım, I guess a woman would make it more fun.
+Dialogue: 0,0:11:01.94,0:11:05.49,Dialogue,,0,0,0,,Him, I guess a woman would make it more fun.
 Dialogue: 0,0:11:05.90,0:11:10.57,Dialogue,,0,0,0,,I II let the mistress be the tour\Nguide and l'll just relax tomorrow.
 Dialogue: 0,0:11:11.70,0:11:14.49,Dialogue,,0,0,0,,Mouri{\rHonorifics - Dialogue}-san{\r}, III be expecting an answer from you.
 Dialogue: 0,0:11:24.42,0:11:28.46,Dialogue,,0,0,0,,Dad! Why didn't you say no?
 Dialogue: 0,0:11:29.63,0:11:31.68,Dialogue,,0,0,0,,Ah! It's Saigo Takamori!
-Dialogue: 0,0:11:29.63,0:11:34.70,Not,,0,0,0,,Note: Saigo Takamori was one of che most influencial samurai in Japanese history. famously known as "The Last True Samurai."
+Dialogue: 0,0:11:29.63,0:11:34.70,Signs,,0,0,0,,Note: Saigo Takamori was one of che most influencial samurai in Japanese history. famously known as "The Last True Samurai."
 Dialogue: 0,0:11:31.68,0:11:33.13,Dialogue,,0,0,0,,Cool!
 Dialogue: 0,0:11:34.01,0:11:36.43,Dialogue,,0,0,0,,Stop changing the subject!
 Dialogue: 0,0:11:36.43,0:11:40.89,Dialogue,,0,0,0,,But, I've got a bad feeling about Tatsumura{\rHonorifics - Dialogue}-san{\r}.
@@ -251,8 +246,8 @@ Dialogue: 0,0:12:10.08,0:12:11.75,Dialogue,,0,0,0,,Oh, you're right.
 Dialogue: 0,0:12:12.42,0:12:14.46,Dialogue,,0,0,0,,But I wonder why?
 Dialogue: 0,0:12:14.46,0:12:16.09,Dialogue,,0,0,0,,Because of the ashes.
 Dialogue: 0,0:12:16.42,0:12:20.26,Dialogue,,0,0,0,,Good morning
-Dialogue: 0,0:12:21.47,0:12:24.22,Dialogue,,0,0,0,,The wınd often blows ash\Nhere all the way from Sakurajima...
-Dialogue: 0,0:12:24.22,0:12:27.35,Dialogue,,0,0,0,,Don't you think it'd be a paın if ashes blew\Nonto your laundry while it was hanging outside?
+Dialogue: 0,0:12:21.47,0:12:24.22,Dialogue,,0,0,0,,The wind often blows ash\Nhere all the way from Sakurajima...
+Dialogue: 0,0:12:24.22,0:12:27.35,Dialogue,,0,0,0,,Don't you think it'd be a pain if ashes blew\Nonto your laundry while it was hanging outside?
 Dialogue: 0,0:12:27.35,0:12:31.22,Dialogue,,0,0,0,,Oh! So that's why people are so\Nworried about the direction of the wind.
 Dialogue: 0,0:12:31.23,0:12:32.89,Dialogue,,0,0,0,,Will there be ashes coming today, too?
 Dialogue: 0,0:12:34.02,0:12:35.73,Dialogue,,0,0,0,,Nobody knows.
@@ -272,10 +267,10 @@ Dialogue: 0,0:13:07.71,0:13:10.67,Dialogue,,0,0,0,,Our sake plant has*a history 
 Dialogue: 0,0:13:10.68,0:13:16.80,Dialogue,,0,0,0,,But it wasn't very big or well-known back\Nthen, so we couldn't sell as much as we had hoped.
 Dialogue: 0,0:13:16.81,0:13:20.14,Dialogue,,0,0,0,,We would have shut down a long time ago.
 Dialogue: 0,0:13:21.27,0:13:27.81,Dialogue,,0,0,0,,Luckily for us, Tatsumura{\rHonorifics - Dialogue}-san{\r}, a salesman at\Nthe time, worked very hard to help sell our sake.
-Dialogue: 0,0:13:32.28,0:13:38.07,Dialogue,,0,0,0,,However, we still couldn't produce as\Nmuch as the other big sake companıes.
+Dialogue: 0,0:13:32.28,0:13:38.07,Dialogue,,0,0,0,,However, we still couldn't produce as\Nmuch as the other big sake companies.
 Dialogue: 0,0:13:38.45,0:13:41.24,Dialogue,,0,0,0,,And we were about to be shut down.
 Dialogue: 0,0:13:41.24,0:13:45.75,Dialogue,,0,0,0,,This was ten years ago, five years before İ got hired there.
-Dialogue: 0,0:13:46.20,0:13:53.88,Dialogue,,0,0,0,,At that time, the former managers father spoke with\Nthe workers who were still in training and made a decısıon
+Dialogue: 0,0:13:46.20,0:13:53.88,Dialogue,,0,0,0,,At that time, the former managers father spoke with\Nthe workers who were still in training and made a decision
 Dialogue: 0,0:13:55.00,0:14:02.51,Dialogue,,0,0,0,,He said, "If this is the last batch of sake we'll make,\Nwhy not get the finest ingredients and make it perfect?"
 Dialogue: 0,0:14:02.51,0:14:06.51,Dialogue,,0,0,0,,That way, the best, most ideal sake would be\Ntheir final memory of the Takakuma Brewery.
 Dialogue: 0,0:14:06.97,0:14:09.06,Dialogue,,0,0,0,,And that became Takakuma.
@@ -285,18 +280,18 @@ Dialogue: 0,0:14:15.77,0:14:19.98,Dialogue,,0,0,0,,But last year, the former man
 Dialogue: 0,0:14:20.19,0:14:24.57,Dialogue,,0,0,0,,Don't forget about the decision we made ten years ago.
 Dialogue: 0,0:14:24.57,0:14:25.53,Dialogue,,0,0,0,,Yes, sir!
 Dialogue: 0,0:14:25.78,0:14:29.53,Dialogue,,0,0,0,,Tatsumura{\rHonorifics - Dialogue}-san{\r} started to change after that.
-Dialogue: 0,0:14:29.66,0:14:31.99,Default 2,,0,0,0,,What Mass production?!
-Dialogue: 0,0:14:31.99,0:14:35.54,Default 2,,0,0,0,,People a re only buying Takakuma for the brand name now.
-Dialogue: 0,0:14:35.54,0:14:38.21,Default 2,,0,0,0,,Even if it loses its taste a little,\Nwho would notice?
-Dialogue: 0,0:14:38.46,0:14:40.37,Default 2,,0,0,0,,Business, business.
-Dialogue: 0,0:14:40.71,0:14:42.29,Default 2,,0,0,0,,What the hell?
-Dialogue: 0,0:14:42.29,0:14:44.96,Default 2,,0,0,0,,Are you going to let him get away with that, President?
-Dialogue: 0,0:14:44.96,0:14:47.96,Default 2,,0,0,0,,Instead of letting him ruin the sake,\Nwe should kick him out!
-Dialogue: 0,0:14:47.96,0:14:49.42,Default 2,,0,0,0,,Dear...
-Dialogue: 0,0:14:49.42,0:14:51.17,Default 2,,0,0,0,,I can't...
-Dialogue: 0,0:14:51.18,0:14:54.01,Default 2,,0,0,0,,If it weren't for him, we wouldn't be here.
-Dialogue: 0,0:14:54.76,0:14:56.22,Default 2,,0,0,0,,We're in his debt...
-Dialogue: 0,0:14:56.22,0:14:57.47,Default 2,,0,0,0,,And I can never forget that!
+Dialogue: 0,0:14:29.66,0:14:31.99,Dialogue,,0,0,0,,What Mass production?!
+Dialogue: 0,0:14:31.99,0:14:35.54,Dialogue,,0,0,0,,People a re only buying Takakuma for the brand name now.
+Dialogue: 0,0:14:35.54,0:14:38.21,Dialogue,,0,0,0,,Even if it loses its taste a little,\Nwho would notice?
+Dialogue: 0,0:14:38.46,0:14:40.37,Dialogue,,0,0,0,,Business, business.
+Dialogue: 0,0:14:40.71,0:14:42.29,Dialogue,,0,0,0,,What the hell?
+Dialogue: 0,0:14:42.29,0:14:44.96,Dialogue,,0,0,0,,Are you going to let him get away with that, President?
+Dialogue: 0,0:14:44.96,0:14:47.96,Dialogue,,0,0,0,,Instead of letting him ruin the sake,\Nwe should kick him out!
+Dialogue: 0,0:14:47.96,0:14:49.42,Dialogue,,0,0,0,,Dear...
+Dialogue: 0,0:14:49.42,0:14:51.17,Dialogue,,0,0,0,,I can't...
+Dialogue: 0,0:14:51.18,0:14:54.01,Dialogue,,0,0,0,,If it weren't for him, we wouldn't be here.
+Dialogue: 0,0:14:54.76,0:14:56.22,Dialogue,,0,0,0,,We're in his debt...
+Dialogue: 0,0:14:56.22,0:14:57.47,Dialogue,,0,0,0,,And I can never forget that!
 Dialogue: 0,0:14:59.10,0:15:01.56,Dialogue,,0,0,0,,He's a very stubborn person.
 Dialogue: 0,0:15:01.56,0:15:03.35,Dialogue,,0,0,0,,Or maybe "loyal" is a better word?
 Dialogue: 0,0:15:03.64,0:15:05.48,Dialogue,,0,0,0,,Never forgetting a favor...
@@ -350,7 +345,7 @@ Dialogue: 0,0:17:59.00,0:18:00.33,Dialogue,,0,0,0,,Is that right?
 Dialogue: 0,0:18:00.33,0:18:01.71,Dialogue,,0,0,0,,I thought you looked familiar!
 Dialogue: 0,0:18:01.71,0:18:03.13,Dialogue,,0,0,0,,Hurry up and go!
 Dialogue: 0,0:18:03.13,0:18:04.00,Dialogue,,0,0,0,,Yes, sir!
-Dialogue: 0,0:18:08.26,0:18:12.26,Dialogue,,0,0,0,,I apologize for ınvolving you in such trouble.
+Dialogue: 0,0:18:08.26,0:18:12.26,Dialogue,,0,0,0,,I apologize for involving you in such trouble.
 Dialogue: 0,0:18:14.68,0:18:16.64,Dialogue,,0,0,0,,She's still worried about him, huh?
 Dialogue: 0,0:18:16.64,0:18:21.27,Dialogue,,0,0,0,,1 guess it's because even though Takamura{\rHonorifics - Dialogue}-san{\r}\Nis ill-natured, he's the savior of the brewery.
 Dialogue: 0,0:18:21.27,0:18:25.27,Dialogue,,0,0,0,,If the motive was money, the\Nculprit will contact us with their demands.
@@ -423,17 +418,7 @@ Dialogue: 0,0:22:16.13,0:22:18.17,Dialogue,,0,0,0,,I feel sorry for the wife.
 Dialogue: 0,0:22:18.17,0:22:21.47,Dialogue,,0,0,0,,Everyone close to her is under suspicion.
 Dialogue: 0,0:22:24.68,0:22:26.60,Dialogue,,0,0,0,,That may be true, but...
 Dialogue: 0,0:22:26.60,0:22:28.31,Dialogue,,0,0,0,,They're here!
-Dialogue: 0,0:22:28.31,0:22:31.14,Dialogue,,0,0,0,,The culprit is most likely still here ın this room!
-Dialogue: 0,0:22:36.31,0:22:44.90,TLLyrics 2,,0,0,0,,Bunu fark ettiğimde, nostaljik\Nbiri olmak zorunda kaldım.
-Dialogue: 0,0:22:46.86,0:22:54.87,TLLyrics 2,,0,0,0,,Rüyanın devamı öngören dünlerimiz vardı.
-Dialogue: 0,0:22:56.04,0:23:01.46,TLLyrics 2,,0,0,0,,O gün çok büyümüş gibiydi...
-Dialogue: 0,0:23:01.67,0:23:07.50,TLLyrics 2,,0,0,0,,Veda bile edemeden, şemsiyemin altına sakladım.
-Dialogue: 0,0:23:07.96,0:23:13.30,TLLyrics 2,,0,0,0,,Eğer yolları tekrar geçersek... Lütfen...
-Dialogue: 0,0:23:13.64,0:23:16.97,TLLyrics 2,,0,0,0,,O zaman, unutma beni.
-Dialogue: 0,0:23:17.10,0:23:26.77,TLLyrics 2,,0,0,0,,Değişmeyecek aşk gibi değil sevgi gibi değil...
-Dialogue: 0,0:23:27.36,0:23:37.82,TLLyrics 2,,0,0,0,,Her zaman olacağını düşünüyorum, sadece seni seviyorum ve bu...
-Dialogue: 0,0:23:38.24,0:23:47.50,TLLyrics 2,,0,0,0,,Amaçsız duygularımı tutarak, insanların\Nsık sık yaptığı gibi geriye bakıyorum.
-Dialogue: 0,0:23:47.96,0:24:00.22,TLLyrics 2,,0,0,0,,Sahneyi durdur, yavaşça\Nkaybolmadan buluşmak bizim tek şansımız.
+Dialogue: 0,0:22:28.31,0:22:31.14,Dialogue,,0,0,0,,The culprit is most likely still here in this room!
 Dialogue: 0,0:24:00.22,0:24:02.22,Dialogue,,0,0,0,,Sake is filled with living organisms.
 Dialogue: 0,0:24:02.22,0:24:05.43,Dialogue,,0,0,0,,Once you start making it, you can't\Ntake your eyes off of it for a second.
 Dialogue: 0,0:24:06.10,0:24:09.43,Dialogue,,0,0,0,,That's why none of us could have left during that time.
@@ -448,7 +433,7 @@ Dialogue: 0,0:24:24.22,0:24:30.20,Signs,,0,0,0,,Kogoro Gets Drunk in Satsuma
 Dialogue: 0,0:24:24.22,0:24:30.20,Signs,,0,0,0,,(Part 2)
 Dialogue: 0,0:24:31.20,0:24:33.16,Dialogue,,0,0,0,,Next Gonan's Hint!
 Dialogue: 0,0:24:33.16,0:24:34.87,Dialogue,,0,0,0,,Physical Checkup
-Dialogue: 0,0:24:35.50,0:24:37.08,Üstyazı,,0,0,0,,Next time, well have a really wild conclusion!
-Dialogue: 0,0:24:37.75,0:24:38.62,Üstyazı,,0,0,0,,Just one more...
-Dialogue: 0,0:24:38.62,0:24:39.75,Üstyazı,,0,0,0,,Dad!
+Dialogue: 0,0:24:35.50,0:24:37.08,Dialogue Top,,0,0,0,,Next time, well have a really wild conclusion!
+Dialogue: 0,0:24:37.75,0:24:38.62,Dialogue Top,,0,0,0,,Just one more...
+Dialogue: 0,0:24:38.62,0:24:39.75,Dialogue Top,,0,0,0,,Dad!
 Dialogue: 0,0:24:35.29,0:24:40.29,Dialogue,,0,0,0,,Gelecek Bölümde Göürüşürüz!

@@ -33,10 +33,6 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: OPTLTextless,FuntypeFattened,50,&H00FFFFFF,&H000000FF,&H80AF0068,&H80000000,-1,0,0,0,90,100,0,0,1,3,1,2,10,10,40,1
-Style: HitomiRomaji,Ubuntu,40,&HC0FF0000,&H000000FF,&H00FFFFFF,&H00000000,-1,0,0,0,105,100,0,0,1,3.4,1,8,10,10,30,1
-Style: Massugu Yuku TL,Hey Gorgeous M,40,&H00FFFFFF,&H000000FF,&H404A4200,&HC0000000,0,0,0,0,85,100,2,0,1,3,1.5,2,100,100,30,1
-Style: Massugu Yuku Romaji,Hey Gorgeous M,40,&H878C7D00,&H877D4400,&H00FFFFFF,&HC0000000,0,0,0,0,85,100,2,0,1,4.5,1.5,8,0,0,30,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -281,36 +277,6 @@ Dialogue: 0,0:19:04.51,0:19:07.39,Dialogue,,0,0,0,,Then we'll solve the case tog
 Dialogue: 0,0:19:07.39,0:19:08.39,Dialogue,,0,0,0,,Yeah!
 Dialogue: 0,0:19:09.93,0:19:12.43,Dialogue,,0,0,0,,The key is New Image, right?
 Dialogue: 0,0:19:12.43,0:19:16.35,Dialogue,,0,0,0,,There must be some connection between Uncle and New Image.
-Dialogue: 0,0:19:17.44,0:19:21.65,Massugu Yuku Romaji,insert,0,0,0,,{\blur4}asahi ga noboru ryōsen
-Dialogue: 0,0:19:21.65,0:19:24.99,Massugu Yuku Romaji,insert,0,0,0,,{\blur4}ikusuji mono hikari no hashira
-Dialogue: 0,0:19:24.99,0:19:31.54,Massugu Yuku Romaji,insert,0,0,0,,{\blur4}doremo ga kimi no kokoro e
-Dialogue: 0,0:19:32.12,0:19:36.25,Massugu Yuku Romaji,insert,0,0,0,,{\blur4}jū-nen ga ni-jū-nen ni natte
-Dialogue: 0,0:19:36.25,0:19:39.79,Massugu Yuku Romaji,insert,0,0,0,,{\blur4}ima no sekai kawaranakutemo
-Dialogue: 0,0:19:39.79,0:19:46.68,Massugu Yuku Romaji,insert,0,0,0,,{\blur4}futari wa ayumi tomenai
-Dialogue: 0,0:19:46.68,0:19:53.77,Massugu Yuku Romaji,insert,0,0,0,,{\blur4}kagayaku tobira akete massugu yuku
-Dialogue: 0,0:19:53.77,0:20:01.40,Massugu Yuku Romaji,insert,0,0,0,,{\blur4}me no mae ni wa michi no mystery...
-Dialogue: 0,0:20:01.40,0:20:12.70,Massugu Yuku Romaji,insert,0,0,0,,{\fad(0,500)\blur4}futari no shisen awasete mezasu wa ginga no mystery...
-Dialogue: 0,0:20:15.95,0:20:27.72,Massugu Yuku Romaji,insert,0,0,0,,{\fad(0,500)\blur4}futari no shisen awasete tsutamu wa uchū no mystery...
-Dialogue: 0,0:19:17.44,0:19:21.65,Massugu Yuku Romaji,insert,0,0,0,,{\bord2\1a&FF\blur1\3a40\4a&FF}asahi ga noboru ryōsen
-Dialogue: 0,0:19:21.65,0:19:24.99,Massugu Yuku Romaji,insert,0,0,0,,{\bord2\1a&FF\blur1\3a40\4a&FF}ikusuji mono hikari no hashira
-Dialogue: 0,0:19:24.99,0:19:31.54,Massugu Yuku Romaji,insert,0,0,0,,{\bord2\1a&FF\blur1\3a40\4a&FF}doremo ga kimi no kokoro e
-Dialogue: 0,0:19:32.12,0:19:36.25,Massugu Yuku Romaji,insert,0,0,0,,{\bord2\1a&FF\blur1\3a40\4a&FF}jū-nen ga ni-jū-nen ni natte
-Dialogue: 0,0:19:36.25,0:19:39.79,Massugu Yuku Romaji,insert,0,0,0,,{\bord2\1a&FF\blur1\3a40\4a&FF}ima no sekai kawaranakutemo
-Dialogue: 0,0:19:39.79,0:19:46.68,Massugu Yuku Romaji,insert,0,0,0,,{\bord2\1a&FF\blur1\3a40\4a&FF}futari wa ayumi tomenai
-Dialogue: 0,0:19:46.68,0:19:53.77,Massugu Yuku Romaji,insert,0,0,0,,{\bord2\1a&FF\blur1\3a40\4a&FF}kagayaku tobira akete massugu yuku
-Dialogue: 0,0:19:53.77,0:20:01.40,Massugu Yuku Romaji,insert,0,0,0,,{\bord2\1a&FF\blur1\3a40\4a&FF}me no mae ni wa michi no mystery...
-Dialogue: 0,0:20:01.40,0:20:12.70,Massugu Yuku Romaji,insert,0,0,0,,{\bord2\1a&FF\blur1\3a40\4a&FF\fad(0,500)}futari no shisen awasete mezasu wa ginga no mystery...
-Dialogue: 0,0:20:15.95,0:20:27.72,Massugu Yuku Romaji,insert,0,0,0,,{\bord2\1a&FF\blur1\3a40\4a&FF\fad(0,500)}futari no shisen awasete tsutamu wa uchū no mystery...
-Dialogue: 0,0:19:17.44,0:19:21.65,Massugu Yuku TL,insert,0,0,0,,{\blur4}The morning sun rises on the mountains
-Dialogue: 0,0:19:21.65,0:19:24.99,Massugu Yuku TL,insert,0,0,0,,{\blur4}Casting uncountable pillars of light
-Dialogue: 0,0:19:24.99,0:19:31.54,Massugu Yuku TL,insert,0,0,0,,{\blur4}Each one leading to your heart
-Dialogue: 0,0:19:32.12,0:19:36.25,Massugu Yuku TL,insert,0,0,0,,{\blur4}Even if ten years turns into twenty
-Dialogue: 0,0:19:36.25,0:19:39.79,Massugu Yuku TL,insert,0,0,0,,{\blur4}and the world still hasn't changed
-Dialogue: 0,0:19:39.79,0:19:46.68,Massugu Yuku TL,insert,0,0,0,,{\blur4}We will never stop walking
-Dialogue: 0,0:19:46.68,0:19:53.77,Massugu Yuku TL,insert,0,0,0,,{\blur4}Open the shining door and go straight through
-Dialogue: 0,0:19:53.77,0:20:01.40,Massugu Yuku TL,insert,0,0,0,,{\blur4}In front of you lay yet unknown mysteries...
-Dialogue: 0,0:20:01.40,0:20:12.70,Massugu Yuku TL,insert,0,0,0,,{\fad(0,500)\blur4}When our eyes meet, we seek the galaxy's mystery...
-Dialogue: 0,0:20:15.95,0:20:27.72,Massugu Yuku TL,insert,0,0,0,,{\fad(0,500)\blur4}When our eyes meet, we grasp the universe's mystery...
 Dialogue: 0,0:20:37.68,0:20:38.81,Dialogue,,0,0,0,,I've got it!
 Dialogue: 0,0:20:38.81,0:20:40.44,Dialogue,,0,0,0,,Couldn't this be it?
 Dialogue: 0,0:20:41.35,0:20:42.69,Dialogue,,0,0,0,,Look at this!
@@ -343,32 +309,3 @@ Dialogue: 0,0:24:14.19,0:24:15.69,Dialogue,Conte,0,0,0,,Dad, are you okay?
 Dialogue: 0,0:24:16.49,0:24:19.15,Thoughts,Conte,0,0,0,,{\be10}hana
 Dialogue: 0,0:24:16.49,0:24:19.15,Thoughts,Conte,0,0,0,,{\be10}hana
 Dialogue: 0,0:24:16.49,0:24:19.15,Dialogue,Conte,0,0,0,,He ran to look at flowers{hana}, and caught a runny nose{hana}.{adapted because I can't make much sensible out of the literal 'hana wa mirarezu hana ga deru'}
-Dialogue: 0,0:01:18.85,0:01:22.22,OPTLTextless,,0,0,0,,{\blur2}Take me to the high, we never cry on
-Dialogue: 0,0:01:22.22,0:01:25.81,OPTLTextless,,0,0,0,,{\blur2}To a tomorrow we've never seen
-Dialogue: 0,0:01:25.85,0:01:29.57,OPTLTextless,,0,0,0,,{\blur2}Try again Try again Try again Always
-Dialogue: 0,0:01:29.57,0:01:32.86,OPTLTextless,,0,0,0,,{\blur2}Try again Try again Try again
-Dialogue: 0,0:01:32.86,0:01:35.95,OPTLTextless,,0,0,0,,{\blur2\fad(0,300)}Speak out the truth!
-Dialogue: 0,0:01:41.99,0:01:45.66,OPTLTextless,,0,0,0,,{\blur2}Not knowing exactly what you're searching for
-Dialogue: 0,0:01:45.66,0:01:49.13,OPTLTextless,,0,0,0,,{\blur2}living in the moment in your reckless way
-Dialogue: 0,0:01:49.13,0:01:52.96,OPTLTextless,,0,0,0,,{\blur2}If you don't brighten up a bit soon
-Dialogue: 0,0:01:52.96,0:01:56.26,OPTLTextless,,0,0,0,,{\blur2}you'll get crushed by your own anxiety
-Dialogue: 0,0:01:56.26,0:01:59.76,OPTLTextless,,0,0,0,,{\blur2}Surely you have dreams too?
-Dialogue: 0,0:01:59.76,0:02:03.43,OPTLTextless,,0,0,0,,{\blur2}I want to fulfill them, I want to cry... but I'll still chase them
-Dialogue: 0,0:02:03.43,0:02:07.02,OPTLTextless,,0,0,0,,{\blur2}Aren't you just quietly giving up?
-Dialogue: 0,0:02:07.02,0:02:11.11,OPTLTextless,,0,0,0,,{\blur2}Can't you see now the reality you've distanced yourself from?
-Dialogue: 0,0:02:12.57,0:02:15.99,OPTLTextless,,0,0,0,,{\blur2}Take me to the high, we never cry on
-Dialogue: 0,0:02:15.99,0:02:19.41,OPTLTextless,,0,0,0,,{\blur2}To a tomorrow we've never seen
-Dialogue: 0,0:02:19.41,0:02:22.99,OPTLTextless,,0,0,0,,{\blur2}Try again Try again Try again Always
-Dialogue: 0,0:02:22.99,0:02:26.71,OPTLTextless,,0,0,0,,{\blur2}Try again Try again Try again
-Dialogue: 0,0:02:26.71,0:02:33.75,OPTLTextless,,0,0,0,,{\blur2}Not everything is bad, we're dreamers after all
-Dialogue: 0,0:02:33.75,0:02:37.30,OPTLTextless,,0,0,0,,{\blur2}Try again Try again Try again Always
-Dialogue: 0,0:02:37.30,0:02:41.05,OPTLTextless,,0,0,0,,{\blur2}Try again Try again Try again
-Dialogue: 0,0:02:41.05,0:02:44.43,OPTLTextless,,0,0,0,,{\blur2\fad(0,500)}Speak out the truth!
-Dialogue: 0,0:21:21.77,0:21:29.57,HitomiRomaji,,0,0,0,,{\3c&HFFD4D4&\blur4}miagetara haru no ame machi ni oritekita
-Dialogue: 0,0:21:29.78,0:21:37.49,HitomiRomaji,,0,0,0,,{\3c&HFFD4D4&\blur4}kimi no aruku michi nurashite yuku
-Dialogue: 0,0:21:38.37,0:21:46.34,HitomiRomaji,,0,0,0,,{\3c&HFFD4D4&\blur4}kinō sasatta toge no yō na kimi no kotoba hitotsu
-Dialogue: 0,0:21:46.50,0:21:54.01,HitomiRomaji,,0,0,0,,{\3c&HFFD4D4&\blur4}mada honto wa nani mo shiranai yo
-Dialogue: 0,0:21:55.93,0:22:11.99,HitomiRomaji,,0,0,0,,{\blur4}sunao ni nareba kodoku nante nai yo hitori de wa nai kara
-Dialogue: 0,0:22:12.82,0:22:20.66,HitomiRomaji,,0,0,0,,{\blur4\3c&HEFF9FD&}don'na mirai kimi to mirai
-Dialogue: 0,0:22:20.91,0:22:30.17,HitomiRomaji,,0,0,0,,{\blur4\3c&HEFF9FD&}sono hitomi no shita e to tashikame ni yuku yo
-Dialogue: 0,0:22:30.55,0:22:38.22,HitomiRomaji,,0,0,0,,{\blur4\3c&HEFF9FD&\fad(0,750)}yukkuri to orite yuku kara

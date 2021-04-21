@@ -33,7 +33,6 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: Transmitter,Calibri,45,&H05ACACAC,&H0000FFFF,&H19000000,&HAF242424,-1,0,0,0,100,100,0.6,0,1,3,3,2,41,41,60,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -134,17 +133,17 @@ Dialogue: 0,0:09:01.21,0:09:04.05,Dialogue,,0000,0000,0000,,How are things on yo
 Dialogue: 0,0:09:04.05,0:09:07.26,Dialogue,,0000,0000,0000,,What? He still hasn't shown up?
 Dialogue: 0,0:09:07.26,0:09:09.14,Dialogue,,0000,0000,0000,,Don't worry.
 Dialogue: 0,0:09:09.14,0:09:13.02,Dialogue,,0000,0000,0000,,The target's sure to show his face at the Haido City Hotel, at 6 PM.
-Dialogue: 0,0:09:13.52,0:09:17.14,Transmitter,,0000,0000,0000,,He has no idea it'll be his own farewell party.
+Dialogue: 0,0:09:13.52,0:09:17.14,Radio,,0000,0000,0000,,{\be10}He has no idea it'll be his own farewell party.
 Dialogue: 0,0:09:17.14,0:09:20.02,Thoughts,,0000,0000,0000,,{\be10}Target? Farewell party?
 Dialogue: 0,0:09:20.40,0:09:25.44,Dialogue,,0000,0000,0000,,Either way, our superior ordered us to kill him before he rats us out.
 Dialogue: 0,0:09:25.44,0:09:28.45,Dialogue,,0000,0000,0000,,Feel free to use that drug if you want.
 Dialogue: 0,0:09:29.07,0:09:30.41,Thoughts,,0000,0000,0000,,{\be10}Drug?
-Dialogue: 0,0:09:30.41,0:09:32.62,Transmitter,,0000,0000,0000,,Don't mess it up, Pisco.
+Dialogue: 0,0:09:30.41,0:09:32.62,Radio,,0000,0000,0000,,{\be10}Don't mess it up, Pisco.
 Dialogue: 0,0:09:32.62,0:09:33.66,Dialogue,,0000,0000,0000,,Pisco?
 Dialogue: 0,0:09:42.71,0:09:45.30,Thoughts,,0000,0000,0000,,{\be10}A reddish brown hair?
 Dialogue: 0,0:09:47.13,0:09:49.05,Dialogue,,0000,0000,0000,,Bro, what's wrong?
 Dialogue: 0,0:09:55.47,0:09:56.77,Dialogue,,0000,0000,0000,,What's that?
-Dialogue: 0,0:09:57.39,0:09:59.98,Transmitter,,0000,0000,0000,,It's probably a transmitter and receiver.
+Dialogue: 0,0:09:57.39,0:09:59.98,Radio,,0000,0000,0000,,{\be10}It's probably a transmitter and receiver.
 Dialogue: 0,0:09:59.98,0:10:00.98,Dialogue,,0000,0000,0000,,Oh no, they found it!
 Dialogue: 0,0:10:00.98,0:10:02.61,Dialogue,,0000,0000,0000,,What?
 Dialogue: 0,0:10:08.49,0:10:13.24,Thoughts,,0000,0000,0000,,{\be10}I never thought you'd be the one to approach me first.
@@ -331,20 +330,20 @@ Dialogue: 0,0:20:45.25,0:20:47.33,Dialogue,,0000,0000,0000,,Hey, where are you?
 Dialogue: 0,0:20:47.92,0:20:49.04,Dialogue,,0000,0000,0000,,Answer me!
 Dialogue: 0,0:20:50.92,0:20:53.30,Dialogue,,0000,0000,0000,,Haibara!!!
 Dialogue: 0,0:20:58.47,0:20:59.64,Dialogue,,0000,0000,0000,,Kudō{\rHonorifics - Dialogue}-kun{\r}...?
-Dialogue: 0,0:20:59.64,0:21:01.77,Transmitter,,0000,0000,0000,,Haibara? Is that you, Haibara?
+Dialogue: 0,0:20:59.64,0:21:01.77,Radio,,0000,0000,0000,,{\be10}Haibara? Is that you, Haibara?
 Dialogue: 0,0:21:01.77,0:21:02.68,Dialogue,,0000,0000,0000,,Where...?
-Dialogue: 0,0:21:02.68,0:21:05.06,Transmitter,,0000,0000,0000,,I'm in the doc's car in front of the hotel.
+Dialogue: 0,0:21:02.68,0:21:05.06,Radio,,0000,0000,0000,,{\be10}I'm in the doc's car in front of the hotel.
 Dialogue: 0,0:21:05.44,0:21:09.02,Dialogue,,0000,0000,0000,,I'm speaking to you through the microphone and speaker in the glasses.
-Dialogue: 0,0:21:09.40,0:21:11.57,Transmitter,,0000,0000,0000,,What happened to me?
+Dialogue: 0,0:21:09.40,0:21:11.57,Radio,,0000,0000,0000,,{\be10}What happened to me?
 Dialogue: 0,0:21:11.57,0:21:15.53,Dialogue,,0000,0000,0000,,That's what I want to know! What happened in the hallway, in front of the party room?
 Dialogue: 0,0:21:16.53,0:21:17.57,Dialogue,,0000,0000,0000,,In front of the party room?
 Dialogue: 0,0:21:19.20,0:21:24.58,Dialogue,,0000,0000,0000,,Oh, back then I got engulfed by a wave of people,
 Dialogue: 0,0:21:24.58,0:21:26.29,Dialogue,,0000,0000,0000,,and got separated from you.
 Dialogue: 0,0:21:26.83,0:21:29.17,Flashback,,0000,0000,0000,,{\be10}Then someone came from behind me and...
-Dialogue: 0,0:21:32.67,0:21:34.84,Transmitter,,0000,0000,0000,,Someone came from behind you and...?
+Dialogue: 0,0:21:32.67,0:21:34.84,Radio,,0000,0000,0000,,{\be10}Someone came from behind you and...?
 Dialogue: 0,0:21:34.84,0:21:37.38,Dialogue,,0000,0000,0000,,Somebody made me sniff some drug,
 Dialogue: 0,0:21:37.38,0:21:40.14,Dialogue,,0000,0000,0000,,and now I'm being confined in some wine storage room.
-Dialogue: 0,0:21:40.14,0:21:42.43,Transmitter,,0000,0000,0000,,Hey... By "somebody," you mean...?
+Dialogue: 0,0:21:40.14,0:21:42.43,Radio,,0000,0000,0000,,{\be10}Hey... By "somebody," you mean...?
 Dialogue: 0,0:21:43.14,0:21:50.15,Dialogue,,0000,0000,0000,,Yeah. Likely the Organisation member who managed to commit murder in front of the police.
 Dialogue: 0,0:21:51.15,0:21:51.90,Dialogue,,0000,0000,0000,,Pisco.
 Dialogue: 0,0:21:52.23,0:21:53.23,Dialogue,,0000,0000,0000,,What?!
@@ -353,13 +352,13 @@ Dialogue: 0,0:21:56.99,0:22:01.78,Dialogue,,0000,0000,0000,,No. Whoever he is, h
 Dialogue: 0,0:22:01.78,0:22:05.62,Dialogue,,0000,0000,0000,,But the door is locked tightly.
 Dialogue: 0,0:22:06.08,0:22:09.50,Dialogue,,0000,0000,0000,,The only thing around is a large cardboard box and cart for carrying goods
 Dialogue: 0,0:22:09.49,0:22:11.59,Dialogue,,0000,0000,0000,,and some employee overalls.
-Dialogue: 0,0:22:11.59,0:22:13.00,Transmitter,,0000,0000,0000,,Overalls?
+Dialogue: 0,0:22:11.59,0:22:13.00,Radio,,0000,0000,0000,,{\be10}Overalls?
 Dialogue: 0,0:22:13.00,0:22:14.09,Dialogue,,0000,0000,0000,,Yeah.
 Dialogue: 0,0:22:14.09,0:22:17.81,Dialogue,,0000,0000,0000,,Yeah. Likely, after making me sniff the drug, he must have taken me to the toilet or something,
 Dialogue: 0,0:22:17.81,0:22:24.26,Dialogue,,0000,0000,0000,,changed into these previously prepared overalls, then stuffed me in the box and brought me here.
 Dialogue: 0,0:22:24.26,0:22:28.10,Dialogue,,0000,0000,0000,,It was probably ready in case the attempt on that lawyer's life failed.
 Dialogue: 0,0:22:28.10,0:22:32.02,Dialogue,,0000,0000,0000,,He'd have lured the lawyer to the toilet and killed him, then brought him here.
-Dialogue: 0,0:22:32.02,0:22:37.53,Transmitter,,0000,0000,0000,,Whatever. Just hurry and find a way out of there, and find our next move.
+Dialogue: 0,0:22:32.02,0:22:37.53,Radio,,0000,0000,0000,,{\be10}Whatever. Just hurry and find a way out of there, and find our next move.
 Dialogue: 0,0:22:39.11,0:22:41.78,Dialogue,,0000,0000,0000,,Are you ready, Kudō{\rHonorifics - Dialogue}-kun{\r}? Listen carefully.
 Dialogue: 0,0:22:42.32,0:22:48.96,Dialogue,,0000,0000,0000,,The Apoptoxin 4869 that shrunk our body's {\i1}apopto{\i0} uses {\i1}apoptosis{\i0}.
 Dialogue: 0,0:22:48.96,0:22:51.46,Dialogue,,0000,0000,0000,,In other words, programmed cell destruction.
@@ -370,11 +369,11 @@ Dialogue: 0,0:23:03.35,0:23:08.35,Dialogue,,0000,0000,0000,,Stop it, Haibara! I'
 Dialogue: 0,0:23:08.68,0:23:11.73,Dialogue,,0000,0000,0000,,Shut up and listen!
 Dialogue: 0,0:23:11.73,0:23:17.07,Dialogue,,0000,0000,0000,,I'll never... never be able to exchange words with you ever again.
 Dialogue: 0,0:23:17.44,0:23:18.32,Dialogue,,0000,0000,0000,,What?
-Dialogue: 0,0:23:18.32,0:23:19.44,Transmitter,,0000,0000,0000,,Don't you get it?
+Dialogue: 0,0:23:18.32,0:23:19.44,Radio,,0000,0000,0000,,{\be10}Don't you get it?
 Dialogue: 0,0:23:19.44,0:23:26.39,Dialogue,,0000,0000,0000,,They held me here despite being in my shrunken figure.
 Dialogue: 0,0:23:26.39,0:23:32.17,Dialogue,,0000,0000,0000,,Even if I were to escape from here, they'd find me in no more than two days.
-Dialogue: 0,0:23:32.92,0:23:39.05,Transmitter,,0000,0000,0000,,If that happens, the doctor who protected me, and all others who were involved with me
-Dialogue: 0,0:23:39.05,0:23:42.63,Transmitter,,0000,0000,0000,,would be killed to preserve their secrecy.
+Dialogue: 0,0:23:32.92,0:23:39.05,Radio,,0000,0000,0000,,{\be10}If that happens, the doctor who protected me, and all others who were involved with me
+Dialogue: 0,0:23:39.05,0:23:42.63,Radio,,0000,0000,0000,,{\be10}would be killed to preserve their secrecy.
 Dialogue: 0,0:23:43.39,0:23:44.89,Dialogue,,0000,0000,0000,,You get it?
 Dialogue: 0,0:23:44.89,0:23:49.10,Dialogue,,0000,0000,0000,,No matter if I die here or if I escape,
 Dialogue: 0,0:23:49.10,0:23:54.40,Dialogue,,0000,0000,0000,,I've already been forced into a state where I can no longer come into contact with any of you.
@@ -387,17 +386,17 @@ Dialogue: 0,0:24:16.46,0:24:20.71,Dialogue,,0000,0000,0000,,They were probably c
 Dialogue: 0,0:24:21.38,0:24:24.26,Dialogue,,0000,0000,0000,,There's a cell phone attached to the laptop, which means...
 Dialogue: 0,0:24:26.60,0:24:27.51,Dialogue,,0000,0000,0000,,I knew it.
 Dialogue: 0,0:24:28.26,0:24:30.72,Dialogue,,0000,0000,0000,,They were analyzing my face.
-Dialogue: 0,0:24:30.72,0:24:33.27,Transmitter,,0000,0000,0000,,Hey, you aren't tied down?
+Dialogue: 0,0:24:30.72,0:24:33.27,Radio,,0000,0000,0000,,{\be10}Hey, you aren't tied down?
 Dialogue: 0,0:24:33.89,0:24:35.73,Dialogue,,0000,0000,0000,,That's why I'm in such a hurry.
-Dialogue: 0,0:24:36.23,0:24:40.82,Transmitter,,0000,0000,0000,,They won't leave me for long without tying me down.
+Dialogue: 0,0:24:36.23,0:24:40.82,Radio,,0000,0000,0000,,{\be10}They won't leave me for long without tying me down.
 Dialogue: 0,0:24:40.82,0:24:44.03,Dialogue,,0000,0000,0000,,No, he won't be able to come back for a while.
 Dialogue: 0,0:24:45.03,0:24:48.74,Dialogue,,0000,0000,0000,,After you disappeared, I called the inspector right away
 Dialogue: 0,0:24:49.24,0:24:55.50,Dialogue,,0000,0000,0000,,and told him to not let the guests with purple handkerchiefs leave the Haido City Hotel
 Dialogue: 0,0:24:55.50,0:24:57.17,Dialogue,,0000,0000,0000,,with Shin'ichi Kudō's voice.
 Dialogue: 0,0:24:57.71,0:25:01.96,Dialogue,,0000,0000,0000,,Then this place is still somewhere in the Haido City Hotel?
-Dialogue: 0,0:25:01.96,0:25:03.76,Transmitter,,0000,0000,0000,,Yeah, probably.
-Dialogue: 0,0:25:03.76,0:25:09.68,Transmitter,,0000,0000,0000,,If I can prove the murder before he contacts his companions, and bring him to the police,
-Dialogue: 0,0:25:09.68,0:25:13.22,Transmitter,,0000,0000,0000,,then your secret will remain intact.
+Dialogue: 0,0:25:01.96,0:25:03.76,Radio,,0000,0000,0000,,{\be10}Yeah, probably.
+Dialogue: 0,0:25:03.76,0:25:09.68,Radio,,0000,0000,0000,,{\be10}If I can prove the murder before he contacts his companions, and bring him to the police,
+Dialogue: 0,0:25:09.68,0:25:13.22,Radio,,0000,0000,0000,,{\be10}then your secret will remain intact.
 Dialogue: 0,0:25:13.73,0:25:18.52,Dialogue,,0000,0000,0000,,At best, the inspector can hold those seven for another hour or so.
 Dialogue: 0,0:25:18.52,0:25:21.15,Dialogue,,0000,0000,0000,,Anyway, I'm going to the hotel's front desk
 Dialogue: 0,0:25:21.15,0:25:23.23,Dialogue,,0000,0000,0000,,to ask them if there's any unfrequently used wine storage room in the hotel,
@@ -409,44 +408,44 @@ Dialogue: 0,0:25:37.67,0:25:41.13,Dialogue,,0000,0000,0000,,Then find some way t
 Dialogue: 0,0:25:41.42,0:25:44.84,Dialogue,,0000,0000,0000,,That's really easy to say and all,
 Dialogue: 0,0:25:44.84,0:25:47.26,Dialogue,,0000,0000,0000,,but there's no escape route in this room!
 Dialogue: 0,0:25:47.26,0:25:49.97,Dialogue,,0000,0000,0000,,The only thing here is an old chimney.
-Dialogue: 0,0:25:49.97,0:25:51.72,Transmitter,,0000,0000,0000,,Can you climb up that chimney?
+Dialogue: 0,0:25:49.97,0:25:51.72,Radio,,0000,0000,0000,,{\be10}Can you climb up that chimney?
 Dialogue: 0,0:25:55.31,0:25:58.56,Dialogue,,0000,0000,0000,,No, it's too big to climb up.
 Dialogue: 0,0:25:58.56,0:26:03.48,Dialogue,,0000,0000,0000,,If I wasn't in this body, it looks like I could barely manage it by stretching my arms and legs.
-Dialogue: 0,0:26:03.48,0:26:04.40,Transmitter,,0000,0000,0000,,Isn't there some sort of rope?
+Dialogue: 0,0:26:03.48,0:26:04.40,Radio,,0000,0000,0000,,{\be10}Isn't there some sort of rope?
 Dialogue: 0,0:26:05.49,0:26:08.32,Dialogue,,0000,0000,0000,,Not sure. Do they keep ropes in a wine storage room?
 Dialogue: 0,0:26:09.49,0:26:12.20,Dialogue,,0000,0000,0000,,If it's a wine storage room, does it mean it has a wide variety of alcoholic drinks?
 Dialogue: 0,0:26:12.58,0:26:14.66,Dialogue,,0000,0000,0000,,Is there baigar there?
 Dialogue: 0,0:26:14.66,0:26:15.62,Dialogue,,0000,0000,0000,,Baigar?
-Dialogue: 0,0:26:15.62,0:26:18.37,Transmitter,,0000,0000,0000,,Yeah. It's a strong liquor from China.
+Dialogue: 0,0:26:15.62,0:26:18.37,Radio,,0000,0000,0000,,{\be10}Yeah. It's a strong liquor from China.
 Dialogue: 0,0:26:18.37,0:26:19.92,Dialogue,,0000,0000,0000,,I know that, but...
-Dialogue: 0,0:26:19.92,0:26:21.38,Transmitter,,0000,0000,0000,,Just look around for it.
+Dialogue: 0,0:26:19.92,0:26:21.38,Radio,,0000,0000,0000,,{\be10}Just look around for it.
 Dialogue: 0,0:26:21.38,0:26:23.88,Dialogue,,0000,0000,0000,,Let's see if there's some.
 Dialogue: 0,0:26:23.88,0:26:26.05,Dialogue,,0000,0000,0000,,But what do you want that for?
-Dialogue: 0,0:26:26.05,0:26:28.17,Transmitter,,0000,0000,0000,,How's your cold?
-Dialogue: 0,0:26:28.17,0:26:30.64,Transmitter,,0000,0000,0000,,You said you had a cold in the morning, right?
+Dialogue: 0,0:26:26.05,0:26:28.17,Radio,,0000,0000,0000,,{\be10}How's your cold?
+Dialogue: 0,0:26:28.17,0:26:30.64,Radio,,0000,0000,0000,,{\be10}You said you had a cold in the morning, right?
 Dialogue: 0,0:26:30.64,0:26:32.85,Dialogue,,0000,0000,0000,,Your topic seems to jump all over the place.
 Dialogue: 0,0:26:33.39,0:26:35.47,Dialogue,,0000,0000,0000,,Whatever, just tell me how you're doing.
-Dialogue: 0,0:26:35.47,0:26:40.10,Transmitter,,0000,0000,0000,,After my sleeping on the floor, I think my fever went up.
+Dialogue: 0,0:26:35.47,0:26:40.10,Radio,,0000,0000,0000,,{\be10}After my sleeping on the floor, I think my fever went up.
 Dialogue: 0,0:26:40.10,0:26:41.31,Dialogue,,0000,0000,0000,,I see.
-Dialogue: 0,0:26:41.31,0:26:42.15,Transmitter,,0000,0000,0000,,Oh?
+Dialogue: 0,0:26:41.31,0:26:42.15,Radio,,0000,0000,0000,,{\be10}Oh?
 Dialogue: 0,0:26:42.15,0:26:44.40,Dialogue,,0000,0000,0000,,You sound quite happy about it.
-Dialogue: 0,0:26:44.40,0:26:46.19,Transmitter,,0000,0000,0000,,Yeah.
+Dialogue: 0,0:26:44.40,0:26:46.19,Radio,,0000,0000,0000,,{\be10}Yeah.
 Dialogue: 0,0:26:47.32,0:26:49.11,Dialogue,,0000,0000,0000,,I found the baigar.
 Dialogue: 0,0:26:49.86,0:26:52.91,Dialogue,,0000,0000,0000,,But what am I supposed to do with this liquor?
-Dialogue: 0,0:26:52.91,0:26:55.58,Transmitter,,0000,0000,0000,,I'm going to get you out of that room.
+Dialogue: 0,0:26:52.91,0:26:55.58,Radio,,0000,0000,0000,,{\be10}I'm going to get you out of that room.
 Dialogue: 0,0:26:56.08,0:26:58.62,Dialogue,,0000,0000,0000,,By casting the ultimate magic spell on you.
 Dialogue: 0,0:27:02.25,0:27:03.75,Dialogue,,0000,0000,0010,,Lupin III vs...
 Dialogue: 0,0:27:03.75,0:27:05.00,Dialogue,,0000,0000,0010,,...Detective Conan!
 Dialogue: 0,0:27:05.00,0:27:06.84,Dialogue,,0000,0000,0010,,On March 27th at 9 PM.
 Dialogue: 0,0:27:07.76,0:27:15.68,Narration Off,,0000,0000,0000,,{\be10}This part was brought to you by these sponsors.
-Dialogue: 0,0:27:20.64,0:27:23.46,Transmitter,,0000,0000,0000,,{\an8}This was the scene inside the hotel, right after the accident.
-Dialogue: 0,0:27:23.46,0:27:29.44,Transmitter,,0000,0000,0000,,{\an8}Even now, many people are still being questioned in a nearby room.
-Dialogue: 0,0:27:29.44,0:27:32.91,Transmitter,,0000,0000,0000,,However, those individuals' names have yet to be released.
-Dialogue: 0,0:27:32.91,0:27:35.24,Transmitter,,0000,0000,0000,,That is all. This is being broadcast live from the scene.
+Dialogue: 0,0:27:20.64,0:27:23.46,Radio,,0000,0000,0000,,{\be10\an8}This was the scene inside the hotel, right after the accident.
+Dialogue: 0,0:27:23.46,0:27:29.44,Radio,,0000,0000,0000,,{\be10\an8}Even now, many people are still being questioned in a nearby room.
+Dialogue: 0,0:27:29.44,0:27:32.91,Radio,,0000,0000,0000,,{\be10}However, those individuals' names have yet to be released.
+Dialogue: 0,0:27:32.91,0:27:35.24,Radio,,0000,0000,0000,,{\be10}That is all. This is being broadcast live from the scene.
 Dialogue: 0,0:27:35.99,0:27:41.21,Dialogue,,0000,0000,0000,,From that news report, I figured out the rough location of the seven right after the murder.
 Dialogue: 0,0:27:41.62,0:27:43.42,Dialogue,,0000,0000,0000,,But this alone...
 Dialogue: 0,0:27:43.42,0:27:46.67,Dialogue,,0000,0000,0000,,Hey, how do you spell "Hercule Poirot?"
-Dialogue: 0,0:27:47.92,0:27:51.26,Transmitter,,0000,0000,0000,,What the heck are you doing? Did you drink the baigar already?
+Dialogue: 0,0:27:47.92,0:27:51.26,Radio,,0000,0000,0000,,{\be10}What the heck are you doing? Did you drink the baigar already?
 Dialogue: 0,0:27:51.26,0:27:52.88,Dialogue,,0000,0000,0000,,Yeah, I did.
 Dialogue: 0,0:27:53.72,0:27:58.10,Dialogue,,0000,0000,0000,,I don't know what you're planning, but I feel even worse now.
 Dialogue: 0,0:27:58.89,0:28:01.43,Dialogue,,0000,0000,0000,,Either way, tell me how to spell Poirot's name.
@@ -461,13 +460,13 @@ Dialogue: 0,0:28:31.92,0:28:36.22,Dialogue,,0000,0000,0000,,They gave it the ser
 Dialogue: 0,0:28:36.64,0:28:38.97,Dialogue,,0000,0000,0000,,They called it "the incomplete Great Detective."
 Dialogue: 0,0:28:39.72,0:28:43.94,Dialogue,,0000,0000,0000,,So I've been trying the names of Great Detectives as they popped into my head.
 Dialogue: 0,0:28:44.77,0:28:47.19,Dialogue,,0000,0000,0000,,But I guess it's not going to be that easy.
-Dialogue: 0,0:28:47.19,0:28:48.65,Transmitter,,0000,0000,0000,,"Shelling Ford."
+Dialogue: 0,0:28:47.19,0:28:48.65,Radio,,0000,0000,0000,,{\be10}"Shelling Ford."
 Dialogue: 0,0:28:49.11,0:28:53.99,Dialogue,,0000,0000,0020,,The spelling is "S-H-E-L-L-I-N-G F-O-R-D."
 Dialogue: 0,0:28:54.90,0:28:56.57,Dialogue,,0000,0000,0000,,Does such a detective even exist?
-Dialogue: 0,0:28:56.57,0:28:57.70,Transmitter,,0000,0000,0000,,Just try it and see.
+Dialogue: 0,0:28:56.57,0:28:57.70,Radio,,0000,0000,0000,,{\be10}Just try it and see.
 Dialogue: 0,0:28:57.70,0:29:03.00,Dialogue,,0000,0000,0000,,S-H-E-L-L-I-N-G F-O-R-D.
 Dialogue: 0,0:29:06.79,0:29:09.13,Dialogue,,0000,0000,0000,,It opened! How come?
-Dialogue: 0,0:29:09.13,0:29:10.80,Transmitter,,0000,0000,0000,,"Shelling Ford" was...
+Dialogue: 0,0:29:09.13,0:29:10.80,Radio,,0000,0000,0000,,{\be10}"Shelling Ford" was...
 Dialogue: 0,0:29:11.17,0:29:17.93,Dialogue,,0000,0000,0000,,...a temporary name that Conan Doyle gave to his detective before naming him Sherlock.
 Dialogue: 0,0:29:17.93,0:29:21.01,Dialogue,,0000,0000,0000,,In other words, it's the prototype of the Great Detective.
 Dialogue: 0,0:29:22.64,0:29:24.93,Dialogue,,0000,0000,0000,,That's kind of clever for the Organisation.
@@ -484,7 +483,7 @@ Dialogue: 0,0:30:06.02,0:30:07.02,Dialogue,,0000,0000,0000,,No way!
 Dialogue: 0,0:30:07.02,0:30:10.48,Dialogue,,0000,0000,0000,,Could there be a tracer in the PC Haibara's using?
 Dialogue: 0,0:30:10.98,0:30:15.94,Dialogue,,0000,0000,0000,,I get it. They called him and there was no answer, so they used the tracer to get here!
 Dialogue: 0,0:30:16.65,0:30:17.65,Dialogue,,0000,0000,0000,,Haibara, this is bad!
-Dialogue: 0,0:30:18.07,0:30:22.37,Transmitter,,0000,0000,0000,,They're coming! For now, go hide in the chimney or something!
+Dialogue: 0,0:30:18.07,0:30:22.37,Radio,,0000,0000,0000,,{\be10}They're coming! For now, go hide in the chimney or something!
 Dialogue: 0,0:30:22.99,0:30:24.08,Dialogue,,0000,0000,0000,,Hey, what's wrong?
 Dialogue: 0,0:30:24.99,0:30:25.95,Dialogue,,0000,0000,0000,,Hey!
 Dialogue: 0,0:30:55.61,0:30:57.82,Dialogue,,0000,0000,0000,,Pisco's not here.
@@ -496,18 +495,18 @@ Dialogue: 0,0:31:15.80,0:31:19.42,Dialogue,,0000,0000,0000,,Pisco probably prepa
 Dialogue: 0,0:31:20.43,0:31:27.77,Dialogue,,0000,0000,0000,,If he'd failed in the party room, he'd probably kill him elsewhere, and bring him here afterwards.
 Dialogue: 0,0:31:28.14,0:31:31.69,Dialogue,,0000,0000,0000,,Either way, we shouldn't stick around too long, Bro.
 Dialogue: 0,0:31:33.69,0:31:34.86,Dialogue,,0000,0000,0000,,I suppose.
-Dialogue: 0,0:31:46.28,0:31:49.29,Transmitter,,0000,0000,0000,,Hey, did they leave?
+Dialogue: 0,0:31:46.28,0:31:49.29,Radio,,0000,0000,0000,,{\be10}Hey, did they leave?
 Dialogue: 0,0:31:49.29,0:31:50.20,Dialogue,,0000,0000,0000,,Yeah.
 Dialogue: 0,0:31:50.62,0:31:52.83,Dialogue,,0000,0000,0000,,And uh... your clothes?
-Dialogue: 0,0:31:52.83,0:31:53.67,Transmitter,,0000,0000,0000,,Pervert.
+Dialogue: 0,0:31:52.83,0:31:53.67,Radio,,0000,0000,0000,,{\be10}Pervert.
 Dialogue: 0,0:31:54.29,0:31:58.30,Dialogue,,0000,0000,0000,,I'm wearing the overalls that were left in the room.
 Dialogue: 0,0:31:58.30,0:32:02.34,Dialogue,,0000,0000,0000,,Of course, I have the M.O. with the copy of the drug's data, too.
 Dialogue: 0,0:32:02.34,0:32:06.18,Dialogue,,0000,0000,0000,,But I'm surprised. That baigar liquor...
 Dialogue: 0,0:32:06.18,0:32:11.14,Dialogue,,0000,0000,0000,,I wonder if it has some enzyme that speeds up cellular metabolism or something.
 Dialogue: 0,0:32:11.39,0:32:14.48,Dialogue,,0000,0000,0000,,Don't get too relieved, it's only temporary.
-Dialogue: 0,0:32:14.90,0:32:19.23,Transmitter,,0000,0000,0000,,Get out of that chimney before you turn back into a child.
+Dialogue: 0,0:32:14.90,0:32:19.23,Radio,,0000,0000,0000,,{\be10}Get out of that chimney before you turn back into a child.
 Dialogue: 0,0:32:19.23,0:32:20.32,Dialogue,,0000,0000,0000,,Got it.
-Dialogue: 0,0:32:20.74,0:32:25.62,Transmitter,,0000,0000,0000,,By the way, have you figured out who Pisco is?
+Dialogue: 0,0:32:20.74,0:32:25.62,Radio,,0000,0000,0000,,{\be10}By the way, have you figured out who Pisco is?
 Dialogue: 0,0:32:25.62,0:32:26.74,Dialogue,,0000,0000,0000,,No, not yet.
 Dialogue: 0,0:32:27.37,0:32:29.74,Dialogue,,0000,0000,0000,,There isn't enough information.
 Dialogue: 0,0:32:29.74,0:32:33.79,Dialogue,,0000,0000,0000,,Look at this, Shin'ichi. Tomorrow's news photo is on the Internet.
@@ -536,7 +535,7 @@ Dialogue: 0,0:34:22.69,0:34:23.86,Dialogue,,0000,0000,0000,,Old building?
 Dialogue: 0,0:34:23.86,0:34:28.24,Dialogue,,0000,0000,0000,,Yeah. I heard they were using a room somewhere as a temporary storage room.
 Dialogue: 0,0:34:28.99,0:34:30.74,Thoughts,,0000,0000,0000,,{\be10}Storage... that's it!
 Dialogue: 0,0:34:35.20,0:34:37.25,Dialogue,,0000,0000,0000,,What?! Haibara was shot?!
-Dialogue: 0,0:34:37.25,0:34:41.17,Transmitter,,0000,0000,0000,,Yeah, on a roof somewhere. Hurry and g--
+Dialogue: 0,0:34:37.25,0:34:41.17,Radio,,0000,0000,0000,,{\be10}Yeah, on a roof somewhere. Hurry and g--
 Dialogue: 0,0:34:41.50,0:34:43.21,Dialogue,,0000,0000,0000,,Hey, doc! Doc!
 Dialogue: 0,0:34:44.17,0:34:45.84,Dialogue,,0000,0000,0000,,Damn, the battery must've died.
 Dialogue: 0,0:34:46.38,0:34:48.38,Dialogue,,0000,0000,0000,,Haibara!!!
@@ -564,31 +563,31 @@ Dialogue: 0,0:37:30.50,0:37:31.84,Dialogue,,0000,0000,0000,,Hold it right there!
 Dialogue: 0,0:37:32.21,0:37:34.51,Dialogue,,0000,0000,0000,,Masuyama{\rHonorifics - Dialogue}-san{\r}.
 Dialogue: 0,0:37:37.51,0:37:40.43,Dialogue,,0000,0000,0000,,Or should I call you Pisco?
 Dialogue: 0,0:37:40.43,0:37:41.76,Dialogue,,0000,0000,0000,,Who... Who are you?!
-Dialogue: 0,0:37:43.52,0:37:49.06,Transmitter,,0000,0000,0000,,You might think you skillfully dropped the chandelier on Mr. Nomiguchi's head to make it look accidental,
-Dialogue: 0,0:37:49.44,0:37:51.44,Transmitter,,0000,0000,0000,,but things never go that smoothly.
-Dialogue: 0,0:37:51.44,0:37:53.57,Transmitter,,0000,0000,0000,,You dropped it, right?
+Dialogue: 0,0:37:43.52,0:37:49.06,Radio,,0000,0000,0000,,{\be10}You might think you skillfully dropped the chandelier on Mr. Nomiguchi's head to make it look accidental,
+Dialogue: 0,0:37:49.44,0:37:51.44,Radio,,0000,0000,0000,,{\be10}but things never go that smoothly.
+Dialogue: 0,0:37:51.44,0:37:53.57,Radio,,0000,0000,0000,,{\be10}You dropped it, right?
 Dialogue: 0,0:37:54.03,0:37:56.65,Dialogue,,0000,0000,0000,,With a silencer-equipped handgun.
-Dialogue: 0,0:37:57.61,0:38:02.37,Transmitter,,0000,0000,0000,,Your target was the fluorescent substance you painted on beforehand.
+Dialogue: 0,0:37:57.61,0:38:02.37,Radio,,0000,0000,0000,,{\be10}Your target was the fluorescent substance you painted on beforehand.
 Dialogue: 0,0:38:03.24,0:38:08.67,Flashback,,0000,0000,0000,,{\be10}Once the lights go out in the room from the slideshow, that light will shine through.
 Dialogue: 0,0:38:09.17,0:38:13.30,Dialogue,,0000,0000,0000,,Of course, if you'd fired at it directly, there'd be a spark from your gun,
 Dialogue: 0,0:38:13.30,0:38:15.51,Dialogue,,0000,0000,0000,,which would be noticed by the people around you.
 Dialogue: 0,0:38:15.51,0:38:18.26,Flashback,,0000,0000,0000,,{\be10}But if you cover the silencer with a handkerchief,
 Dialogue: 0,0:38:18.26,0:38:24.47,Flashback,,0000,0000,0000,,{\be10}the handkerchief will fly off with the bullet and hide the spark.
-Dialogue: 0,0:38:24.47,0:38:28.06,Transmitter,,0000,0000,0000,,The reason you used the handkerchief from Director Sakamaki's mourning party
-Dialogue: 0,0:38:28.06,0:38:32.36,Transmitter,,0000,0000,0000,,was because it'd be hard to trace even if it was found later on.
-Dialogue: 0,0:38:32.36,0:38:38.36,Transmitter,,0000,0000,0000,,But of the guests who received that purple handkerchief, most went home already.
-Dialogue: 0,0:38:38.36,0:38:40.45,Transmitter,,0000,0000,0000,,And so the suspects became just those seven.
+Dialogue: 0,0:38:24.47,0:38:28.06,Radio,,0000,0000,0000,,{\be10}The reason you used the handkerchief from Director Sakamaki's mourning party
+Dialogue: 0,0:38:28.06,0:38:32.36,Radio,,0000,0000,0000,,{\be10}was because it'd be hard to trace even if it was found later on.
+Dialogue: 0,0:38:32.36,0:38:38.36,Radio,,0000,0000,0000,,{\be10}But of the guests who received that purple handkerchief, most went home already.
+Dialogue: 0,0:38:38.36,0:38:40.45,Radio,,0000,0000,0000,,{\be10}And so the suspects became just those seven.
 Dialogue: 0,0:38:41.99,0:38:47.41,Flashback,,0000,0000,0000,,{\be10}Tawara{\rHonorifics - Flashback\be10}-san{\r\be10} and Chris{\rHonorifics - Flashback\be10}-san{\r\be10}, being directly under the chandelier with no way to aim, are clear.
 Dialogue: 0,0:38:47.41,0:38:50.67,Flashback,,0000,0000,0000,,{\be10}Mihei{\rHonorifics - Flashback\be10}-san{\r\be10}, who spat out the chain piece that became evidence from his mouth,
 Dialogue: 0,0:38:50.67,0:38:53.92,Flashback,,0000,0000,0000,,{\be10}and Mugikura{\rHonorifics - Flashback\be10}-san{\r\be10}, who'd been watched by the guests on-stage, didn't do it either.
 Dialogue: 0,0:38:54.75,0:38:59.38,Flashback,,0000,0000,0000,,{\be10}Tarumi{\rHonorifics - Flashback\be10}-san{\r\be10} and Nanjō{\rHonorifics - Flashback\be10}-san{\r\be10}, who were embracing each other right before the incident, are also clear.
 Dialogue: 0,0:38:59.38,0:39:07.10,Dialogue,,0000,0000,0000,,In other words, the only one that could have committed this crime was you, Masuyama{\rHonorifics - Dialogue}-san{\r}!
 Dialogue: 0,0:39:07.64,0:39:08.52,Dialogue,,0000,0000,0000,,Over there!
-Dialogue: 0,0:39:12.31,0:39:15.69,Transmitter,,0000,0000,0000,,And the reason Mr. Nomiguchi went under the chandelier
-Dialogue: 0,0:39:15.69,0:39:19.95,Transmitter,,0000,0000,0000,,was because you put fluorescent material on the floor there, too.
-Dialogue: 0,0:39:20.36,0:39:23.53,Transmitter,,0000,0000,0000,,You probably told him you could give him a chance to avoid being arrested,
-Dialogue: 0,0:39:23.53,0:39:28.62,Transmitter,,0000,0000,0000,,and to wait for you at the glowing place once the light faded.
-Dialogue: 0,0:39:28.62,0:39:30.79,Transmitter,,0000,0000,0000,,Isn't that right, Pisco{\rHonorifics - Transmitter}-san{\r}?
+Dialogue: 0,0:39:12.31,0:39:15.69,Radio,,0000,0000,0000,,{\be10}And the reason Mr. Nomiguchi went under the chandelier
+Dialogue: 0,0:39:15.69,0:39:19.95,Radio,,0000,0000,0000,,{\be10}was because you put fluorescent material on the floor there, too.
+Dialogue: 0,0:39:20.36,0:39:23.53,Radio,,0000,0000,0000,,{\be10}You probably told him you could give him a chance to avoid being arrested,
+Dialogue: 0,0:39:23.53,0:39:28.62,Radio,,0000,0000,0000,,{\be10}and to wait for you at the glowing place once the light faded.
+Dialogue: 0,0:39:28.62,0:39:30.79,Radio,,0000,0000,0000,,{\be10}Isn't that right, Pisco{\rHonorifics - Radio\be10}-san{\r\be10}?
 Dialogue: 0,0:39:31.37,0:39:32.33,Dialogue,,0000,0000,0000,,A speaker?
 Dialogue: 0,0:39:33.00,0:39:34.25,Dialogue,,0000,0000,0000,,Who... Who are you?!
 Dialogue: 0,0:39:34.79,0:39:36.42,Dialogue,,0000,0000,0000,,Just what are you?!

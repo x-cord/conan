@@ -33,7 +33,6 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: Adds,Arial,50,&H00FFFFFF,&H000000FF,&H003B5F1B,&H00000000,0,0,0,0,100,100,0,0,1,2,0,7,15,15,15,1
 
 [Events]
 Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
@@ -59,7 +58,7 @@ Dialogue: 0,0:01:32.73,0:01:34.66,Dialogue,,0,0,0,,The appearance of a child and
 Dialogue: 0,0:01:34.68,0:01:36.50,Dialogue,,0,0,0,,His name is: Detective Conan!
 Dialogue: 0,0:03:07.46,0:03:12.26,Dialogue,,0,0,0,,Last month when the president was murdered\Nin the bathroom at the villa in Karuizawa...
 Dialogue: 0,0:03:12.26,0:03:15.26,Dialogue,,0,0,0,,Weren't you the one who first found him, Ms. Housekeeper?
-Dialogue: 0,0:03:13.06,0:03:16.59,Signs,,0,0,0,,Vonehara Sakurako (23)\NHousekeeper
+Dialogue: 0,0:03:13.06,0:03:16.59,Character Card,,0,0,0,,Vonehara Sakurako (23)\NHousekeeper
 Dialogue: 0,0:03:15.80,0:03:16.39,Dialogue,,0,0,0,,Yeah...
 Dialogue: 0,0:03:17.00,0:03:22.53,Dialogue,,0,0,0,,At that time, even though there was supposed to be a\Ndying message the president wrote with his blood...
 Dialogue: 0,0:03:22.53,0:03:25.39,Dialogue,,0,0,0,,When the police came, it had vanished, right?
@@ -80,20 +79,20 @@ Dialogue: 0,0:04:04.53,0:04:08.39,Dialogue,,0,0,0,,And it seemed it was followed
 Dialogue: 0,0:04:08.60,0:04:10.35,Dialogue,,0,0,0,,"S", was it!?
 Dialogue: 0,0:04:10.83,0:04:12.28,Dialogue,,0,0,0,,Hey, hold on here!
 Dialogue: 0,0:04:12.66,0:04:14.39,Dialogue,,0,0,0,,The Director, Shiina Masashige{\rHonorifics - Dialogue}-san{\r}...
-Dialogue: 0,0:04:12.66,0:04:14.00,Signs,,0,0,0,,Shiina Masashige (56)\NSenior Managing Director
+Dialogue: 0,0:04:12.66,0:04:14.00,Character Card,,0,0,0,,Shiina Masashige (56)\NSenior Managing Director
 Dialogue: 0,0:04:15.06,0:04:17.43,Dialogue,,0,0,0,,The thief Designer, Fujinami Sumio{\rHonorifics - Dialogue}-san{\r}...
-Dialogue: 0,0:04:15.06,0:04:17.33,Signs,,0,0,0,,Fujinami Sumio (30)\NChief Designer
+Dialogue: 0,0:04:15.06,0:04:17.33,Character Card,,0,0,0,,Fujinami Sumio (30)\NChief Designer
 Dialogue: 0,0:04:18.06,0:04:19.76,Dialogue,,0,0,0,,The secretary, Satake Yoshimi{\rHonorifics - Dialogue}-san{\r}...
-Dialogue: 0,0:04:17.80,0:04:19.66,Signs,,0,0,0,,Satace Yoshimi (32)\NSecretary
+Dialogue: 0,0:04:17.80,0:04:19.66,Character Card,,0,0,0,,Satace Yoshimi (32)\NSecretary
 Dialogue: 0,0:04:20.40,0:04:22.79,Dialogue,,0,0,0,,And the president's wife, Wakamatsu Serika{\rHonorifics - Dialogue}-san{\r}...
-Dialogue: 0,0:04:20.13,0:04:22.80,Signs,,0,0,0,,Wakamatsu Serika (43)\NVictim Kouhei's Wife
+Dialogue: 0,0:04:20.13,0:04:22.80,Character Card,,0,0,0,,Wakamatsu Serika (43)\NVictim Kouhei's Wife
 Dialogue: 0,0:04:23.32,0:04:25.79,Dialogue,,0,0,0,,The initial of either your first or last name...
 Dialogue: 0,0:04:26.59,0:04:28.01,Dialogue,,0,0,0,,Would be an "S", all of you!
 Dialogue: 0,0:04:29.62,0:04:35.00,Dialogue,,0,0,0,,Uhm, my first name is Sakurako, so it's also an "S".
 Dialogue: 0,0:04:35.40,0:04:36.30,Dialogue,,0,0,0,,What'd you say!?
 Dialogue: 0,0:04:36.52,0:04:40.06,Dialogue,,0,0,0,,In other words, the only one whose initials don't have an "S"...
 Dialogue: 0,0:04:40.06,0:04:42.79,Dialogue,,0,0,0,,Is Ikurou{\rHonorifics - Dialogue}-san{\r}, who was murdered this time?
-Dialogue: 0,0:04:40.03,0:04:42.03,Signs,,0,0,0,,Wakamatsu Ikurou
+Dialogue: 0,0:04:40.03,0:04:42.03,Character Card,,0,0,0,,Wakamatsu Ikurou
 Dialogue: 0,0:04:43.40,0:04:44.38,Dialogue,,0,0,0,,And so?
 Dialogue: 0,0:04:44.40,0:04:47.39,Dialogue,,0,0,0,,After you found the body, what did you do?
 Dialogue: 0,0:04:47.51,0:04:51.39,Dialogue,,0,0,0,,For the time being, I went to fetch the\Nmistress, who was in the villa's living room.
@@ -400,6 +399,5 @@ Dialogue: 0,0:24:00.15,0:24:24.23,Signs,,0,0,0,,Next Episode
 Dialogue: 0,0:24:24.28,0:24:30.13,Dialogue,,0,0,0,,THE DESIGN OF POISON AND MIRAGE\N(POISON)
 Dialogue: 0,0:24:45.94,0:24:47.96,Dialogue,,0,0,0,,Next Conan's Hint
 Dialogue: 0,0:24:47.98,0:24:49.98,Dialogue,,0,0,0,,Slippers
-Dialogue: 0,0:24:50.21,0:24:54.96,Adds,,0,0,0,,Look Forward to the Next Episode
 Dialogue: 0,0:24:50.18,0:24:54.20,Dialogue,,0,0,0,,During Golden Week, go watch the movie "The Eleventh Striker" and drink beer at a soccer stadium!
 Dialogue: 0,0:24:54.22,0:24:54.92,Dialogue,,0,0,0,,Sure you'll drink...

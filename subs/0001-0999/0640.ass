@@ -33,17 +33,15 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: Text,Arial,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,3,0,2,0,0,0,1
-Style: Adds,Arial,50,&H00FFFFFF,&H000000FF,&H003B5F1B,&H00000000,0,0,0,0,100,100,0,0,1,2,0,7,15,15,15,1
 
 [Events]
 Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
 Dialogue: 0,0:00:05.31,0:00:07.66,Dialogue,,0,0,0,,Okayama, Okayama.
-Dialogue: 0,0:00:08.11,0:00:13.07,Signs,,0,0,0,,Okayama Station
-Dialogue: 0,0:00:17.16,0:00:21.29,Signs,,0,0,0,,Okayama Castle
+Dialogue: 0,0:00:08.11,0:00:13.07,Character Card,,0,0,0,,Okayama Station
+Dialogue: 0,0:00:17.16,0:00:21.29,Character Card,,0,0,0,,Okayama Castle
 Dialogue: 0,0:00:18.55,0:00:21.39,Dialogue,,0,0,0,,We have just arrived in Okayama.
 Dialogue: 0,0:00:22.85,0:00:24.05,Dialogue,,0,0,0,,How high!
-Dialogue: 0,0:00:34.09,0:00:37.55,Signs,,0,0,0,,Nashida Teruyuki (35)\NTown Magazine Reporter
+Dialogue: 0,0:00:34.09,0:00:37.55,Character Card,,0,0,0,,Nashida Teruyuki (35)\NTown Magazine Reporter
 Dialogue: 0,0:00:34.72,0:00:37.55,Dialogue,,0,0,0,,Now, shall we move on the parfait?
 Dialogue: 0,0:00:38.43,0:00:39.05,Dialogue,,0,0,0,,Yes!
 Dialogue: 0,0:00:39.52,0:00:43.56,Dialogue,,0,0,0,,In Okayama, where fruits like peaches and muscat\Ngrapes are considered local specialties...
@@ -76,7 +74,7 @@ Dialogue: 0,0:03:59.07,0:04:04.02,Dialogue,,0,0,0,,Could it be that he chose me 
 Dialogue: 0,0:04:04.04,0:04:05.16,Dialogue,,0,0,0,,Looks so.
 Dialogue: 0,0:04:05.78,0:04:09.08,Dialogue,,0,0,0,,If I turn this gourmet special report into a smash hit...
 Dialogue: 0,0:04:09.08,0:04:10.24,Dialogue,,0,0,0,,My future will indeed...
-Dialogue: 0,0:04:10.70,0:04:14.71,Signs,,0,0,0,,Okayama Korakuen Garden
+Dialogue: 0,0:04:10.70,0:04:14.71,Character Card,,0,0,0,,Okayama Korakuen Garden
 Dialogue: 0,0:04:17.67,0:04:22.59,Signs,,0,0,0,,♪ Waiting for the person who...
 Dialogue: 0,0:04:17.57,0:04:18.74,Dialogue,,0,0,0,,There are turtles.
 Dialogue: 0,0:04:18.74,0:04:19.80,Dialogue,,0,0,0,,Where?
@@ -84,13 +82,13 @@ Dialogue: 0,0:04:23.38,0:04:28.05,Signs,,0,0,0,,♪ Never came in sight...
 Dialogue: 0,0:04:29.81,0:04:34.06,Signs,,0,0,0,,♪ Like the evening primrose...
 Dialogue: 0,0:04:34.88,0:04:40.06,Dialogue,,0,0,0,,Okayama is also the birthplace of the famous Takehisa\NYumeji, commonly known for his paintings of beauties.
 Dialogue: 0,0:04:40.60,0:04:42.22,Dialogue,,0,0,0,,I think I've heard that before.
-Dialogue: 0,0:04:42.24,0:04:47.22,Text,,0,0,0,,Waiting for the person\NNever came in sight\NLike the evening primrose\NLonely am I quite\Neven the moon seemingly\NHides away tonight
+Dialogue: 0,0:04:42.24,0:04:47.22,Signs,,0,0,0,,Waiting for the person\NNever came in sight\NLike the evening primrose\NLonely am I quite\Neven the moon seemingly\NHides away tonight
 Dialogue: 0,0:04:45.06,0:04:47.02,Dialogue,,0,0,0,,There are lyrics written on it.
 Dialogue: 0,0:04:47.48,0:04:48.90,Dialogue,,0,0,0,,That's right.
 Dialogue: 0,0:04:48.11,0:04:53.40,Dialogue,,0,0,0,,♪ Waiting for the person who...
 Dialogue: 0,0:04:50.32,0:04:52.90,Dialogue,,0,0,0,,Right, right that song.
 Dialogue: 0,0:04:54.24,0:04:58.62,Dialogue,,0,0,0,,♪ Never came in sight...
-Dialogue: 0,0:05:05.21,0:05:08.21,Signs,,0,0,0,,Yumeji Art Museum
+Dialogue: 0,0:05:05.21,0:05:08.21,Character Card,,0,0,0,,Yumeji Art Museum
 Dialogue: 0,0:05:16.09,0:05:16.97,Dialogue,,0,0,0,,Fabulous.
 Dialogue: 0,0:05:16.97,0:05:18.91,Dialogue,,0,0,0,,Knock it off!
 Dialogue: 0,0:05:19.60,0:05:20.85,Dialogue,,0,0,0,,Conan{\rHonorifics - Dialogue}-kun{\r}!
@@ -219,7 +217,7 @@ Dialogue: 0,0:10:32.22,0:10:34.72,Dialogue,,0,0,0,,What about your all-important
 Dialogue: 0,0:10:34.72,0:10:36.56,Dialogue,,0,0,0,,"Sweets" and "Mystery"...
 Dialogue: 0,0:10:36.56,0:10:38.73,Dialogue,,0,0,0,,We're doing these two topics now.
 Dialogue: 0,0:10:39.14,0:10:42.56,Dialogue,,0,0,0,,Although personally I only want to do that one report on sweets.
-Dialogue: 0,0:10:46.03,0:10:51.03,Signs,,0,0,0,,Okayama Electric Tramway
+Dialogue: 0,0:10:46.03,0:10:51.03,Character Card,,0,0,0,,Okayama Electric Tramway
 Dialogue: 0,0:10:46.57,0:10:52.28,Dialogue,,0,0,0,,Without further ado, we attempted to retrace her\Nmemories with the help of her sketches, but...
 Dialogue: 0,0:10:53.08,0:10:57.37,Dialogue,,0,0,0,,Aside from the red-crowned crane and the black cat, we\Nfailed to find places matching her other sketches...
 Dialogue: 0,0:10:58.00,0:10:59.92,Dialogue,,0,0,0,,And her memory still wasn't coming back.
@@ -249,10 +247,10 @@ Dialogue: 0,0:12:18.99,0:12:20.25,Dialogue,,0,0,0,,If you say so...
 Dialogue: 0,0:12:20.49,0:12:21.43,Dialogue,,0,0,0,,Ma'am!
 Dialogue: 0,0:12:22.87,0:12:25.11,Dialogue,,0,0,0,,Where was that recorded?
 Dialogue: 0,0:12:26.80,0:12:28.29,Dialogue,,0,0,0,,It was from...
-Dialogue: 0,0:12:28.75,0:12:32.80,Signs,,0,0,0,,Former Residence of Nozaki Family
+Dialogue: 0,0:12:28.75,0:12:32.80,Character Card,,0,0,0,,Former Residence of Nozaki Family
 Dialogue: 0,0:12:29.17,0:12:33.09,Dialogue,,0,0,0,,It was from the residence of Nozaki who made\Na fortune through his saltern business...
 Dialogue: 0,0:12:33.09,0:12:35.89,Dialogue,,0,0,0,,And whose house is known as the "Salt Palace".
-Dialogue: 0,0:12:46.90,0:12:50.53,Signs,,0,0,0,,(Water Zither Cave)\NSuikinkutsu
+Dialogue: 0,0:12:46.90,0:12:50.53,Character Card,,0,0,0,,(Water Zither Cave)\NSuikinkutsu
 Dialogue: 0,0:12:48.61,0:12:50.53,Dialogue,,0,0,0,,"A suikinkutsu is"...
 Dialogue: 0,0:12:50.82,0:12:54.10,Dialogue,,0,0,0,,"Composed of an urn buried underground with an open hole atop"...
 Dialogue: 0,0:12:54.61,0:12:58.07,Dialogue,,0,0,0,,"Allowing droplets from the water basin\Nto drip through and echo inside.
@@ -274,10 +272,10 @@ Dialogue: 0,0:13:31.57,0:13:33.14,Dialogue,,0,0,0,,That's right, Mayuko!
 Dialogue: 0,0:13:33.56,0:13:34.61,Dialogue,,0,0,0,,Mayuko...?
 Dialogue: 0,0:13:37.53,0:13:39.99,Dialogue,,0,0,0,,Detective Conan Episode 640\NFansub Release by DCTP\NRipped by DJ VK & Innushka
 Dialogue: 0,0:13:43.76,0:13:46.10,Dialogue,,0,0,0,,Kichise Mayuko...
-Dialogue: 0,0:13:43.66,0:13:47.37,Signs,,0,0,0,,Kichise Mayuko (25)
+Dialogue: 0,0:13:43.66,0:13:47.37,Character Card,,0,0,0,,Kichise Mayuko (25)
 Dialogue: 0,0:13:46.10,0:13:47.47,Dialogue,,0,0,0,,That's my name...
 Dialogue: 0,0:13:47.83,0:13:48.79,Dialogue,,0,0,0,,Right.
-Dialogue: 0,0:13:47.83,0:13:51.38,Signs,,0,0,0,,Nonomiya Kanae (25)\NMayuko's Friend
+Dialogue: 0,0:13:47.83,0:13:51.38,Character Card,,0,0,0,,Nonomiya Kanae (25)\NMayuko's Friend
 Dialogue: 0,0:13:48.79,0:13:51.38,Dialogue,,0,0,0,,I'm Nonomiya Kanae, and you're my friend.
 Dialogue: 0,0:13:52.09,0:13:53.43,Dialogue,,0,0,0,,Kanae{\rHonorifics - Dialogue}-san{\r}...
 Dialogue: 0,0:13:53.43,0:13:54.82,Dialogue,,0,0,0,,You're my friend...
@@ -309,7 +307,7 @@ Dialogue: 0,0:14:58.12,0:15:02.33,Dialogue,,0,0,0,,The night before yesterday, f
 Dialogue: 0,0:15:02.33,0:15:04.71,Dialogue,,0,0,0,,Three hundred million yen worth of valuables were stolen.
 Dialogue: 0,0:15:05.96,0:15:08.42,Dialogue,,0,0,0,,And the man arrested as a suspect was...
 Dialogue: 0,0:15:08.42,0:15:11.55,Dialogue,,0,0,0,,Nonomiya Keigo{\rHonorifics - Dialogue}-san{\r}, elder brother of Kanae{\rHonorifics - Dialogue}-san{\r}.
-Dialogue: 0,0:15:08.80,0:15:12.72,Signs,,0,0,0,,Nonomiya Keigo (28)\NKanae's Elder Brother
+Dialogue: 0,0:15:08.80,0:15:12.72,Character Card,,0,0,0,,Nonomiya Keigo (28)\NKanae's Elder Brother
 Dialogue: 0,0:15:13.26,0:15:14.68,Dialogue,,0,0,0,,According to the news...
 Dialogue: 0,0:15:14.68,0:15:19.72,Dialogue,,0,0,0,,He was falling unconscious in front of the emergency\Nexit next to the store where the police found him.
 Dialogue: 0,0:15:20.77,0:15:24.35,Dialogue,,0,0,0,,They discovered a portion of the stolen\Njewelry was on him at the time.
@@ -376,7 +374,7 @@ Dialogue: 0,0:18:17.15,0:18:18.67,Dialogue,,0,0,0,,The day before the robbery?
 Dialogue: 0,0:18:21.44,0:18:23.36,Dialogue,,0,0,0,,That shop is quite famous.
 Dialogue: 0,0:18:24.82,0:18:29.45,Dialogue,,0,0,0,,We then headed to the famous place\Nwhere jeans in Japan were popularized...
 Dialogue: 0,0:18:29.45,0:18:31.91,Dialogue,,0,0,0,,The "Betty Smith Jeans Museum" in Kojima.
-Dialogue: 0,0:18:31.49,0:18:34.37,Signs,,0,0,0,,Betty Smith Jeans Museum
+Dialogue: 0,0:18:31.49,0:18:34.37,Character Card,,0,0,0,,Betty Smith Jeans Museum
 Dialogue: 0,0:18:35.09,0:18:36.83,Dialogue,,0,0,0,,Yes, I remember her.
 Dialogue: 0,0:18:36.85,0:18:40.20,Dialogue,,0,0,0,,She indeed placed an order for a pair of original jeans with us.
 Dialogue: 0,0:18:41.21,0:18:43.80,Dialogue,,0,0,0,,Like this one-of-a-kind pair of jeans...
@@ -384,7 +382,7 @@ Dialogue: 0,0:18:43.80,0:18:45.74,Dialogue,,0,0,0,,I shall live a life of my ver
 Dialogue: 0,0:18:46.84,0:18:48.80,Dialogue,,0,0,0,,My very own life...
 Dialogue: 0,0:18:50.35,0:18:52.56,Dialogue,,0,0,0,,I've also heard you say that.
 Dialogue: 0,0:18:53.35,0:18:58.19,Dialogue,,0,0,0,,Even though you're mischievous by nature, you've been\Nquick to believe in people but are always lied to.
-Dialogue: 0,0:18:57.35,0:19:00.79,Signs,,0,0,0,,Old Shimotsui Shipping Agent Museum
+Dialogue: 0,0:18:57.35,0:19:00.79,Character Card,,0,0,0,,Old Shimotsui Shipping Agent Museum
 Dialogue: 0,0:18:58.19,0:19:01.07,Dialogue,,0,0,0,,Just as you were recuperating, people betrayed you again.
 Dialogue: 0,0:19:01.07,0:19:02.36,Dialogue,,0,0,0,,The cycle kept repeating.
 Dialogue: 0,0:19:03.19,0:19:06.07,Dialogue,,0,0,0,,That's why you vowed to toughen yourself up this time.
@@ -402,7 +400,7 @@ Dialogue: 0,0:19:45.73,0:19:48.11,Dialogue,,0,0,0,,Hold it, Dad!
 Dialogue: 0,0:19:48.77,0:19:49.91,Dialogue,,0,0,0,,Nashida{\rHonorifics - Dialogue}-san{\r}!
 Dialogue: 0,0:19:51.83,0:19:53.70,Dialogue,,0,0,0,,Taira... san?
 Dialogue: 0,0:19:54.02,0:19:55.67,Dialogue,,0,0,0,,Yeah, Taira's right.
-Dialogue: 0,0:19:54.29,0:19:58.71,Signs,,0,0,0,,Taira Kenzou (40)\NPatissier
+Dialogue: 0,0:19:54.29,0:19:58.71,Character Card,,0,0,0,,Taira Kenzou (40)\NPatissier
 Dialogue: 0,0:19:56.37,0:19:58.71,Dialogue,,0,0,0,,It's been a longtime, Nashida{\rHonorifics - Dialogue}-san{\r}.
 Dialogue: 0,0:19:58.91,0:20:00.03,Dialogue,,0,0,0,,My!
 Dialogue: 0,0:20:00.13,0:20:01.38,Dialogue,,0,0,0,,I can't even recognize you!
@@ -445,14 +443,13 @@ Dialogue: 0,0:21:42.27,0:21:44.52,Dialogue,,0,0,0,,If you want to learn about yo
 Dialogue: 0,0:21:46.58,0:21:47.82,Dialogue,,0,0,0,,Conan{\rHonorifics - Dialogue}-kun{\r}!
 Dialogue: 0,0:21:56.08,0:21:57.12,Dialogue,,0,0,0,,Conan{\rHonorifics - Dialogue}-kun{\r}!
 Dialogue: 0,0:22:07.35,0:22:13.72,Dialogue,,0,0,0,,♪ Waiting for the person who...
-Dialogue: 0,0:22:10.96,0:22:13.72,Signs,,0,0,0,,Washuzan Observation Deck
+Dialogue: 0,0:22:10.96,0:22:13.72,Character Card,,0,0,0,,Washuzan Observation Deck
 Dialogue: 0,0:22:14.40,0:22:18.31,Dialogue,,0,0,0,,♪ Never came m sight...
 Dialogue: 0,0:22:19.96,0:22:24.85,Dialogue,,0,0,0,,♪ Like the evening primrose...
 Dialogue: 0,0:22:26.47,0:22:30.40,Dialogue,,0,0,0,,♪ Lonely am I quite...
 Dialogue: 0,0:22:35.78,0:22:36.71,Dialogue,,0,0,0,,Mayuko{\rHonorifics - Dialogue}-san{\r}!?
 Dialogue: 0,0:22:36.99,0:22:38.24,Dialogue,,0,0,0,,Damn...
 Dialogue: 0,0:22:38.37,0:22:39.70,Dialogue,,0,0,0,,Are we too late!?
-Dialogue: 0,0:23:59.88,0:24:10.75,Signs,,0,0,0,,Next Episode
 Dialogue: 0,0:24:00.32,0:24:01.61,Dialogue,,0,0,0,,I...
 Dialogue: 0,0:24:01.62,0:24:03.82,Dialogue,,0,0,0,,Definitely want to recall my true self!
 Dialogue: 0,0:24:04.35,0:24:07.58,Dialogue,,0,0,0,,The grapes vanished and the bananas become two bundles!
@@ -464,7 +461,6 @@ Dialogue: 0,0:24:19.41,0:24:23.89,Dialogue,,0,0,0,,The hint toour culprit was po
 Dialogue: 0,0:24:24.21,0:24:29.87,Dialogue,,0,0,0,,THE MEMORY TRIP OF THE EIGHT SKETCHES\N(KURASHIKI PART)
 Dialogue: 0,0:24:45.29,0:24:47.89,Dialogue,,0,0,0,,Next Conan's Hint
 Dialogue: 0,0:24:47.91,0:24:49.82,Dialogue,,0,0,0,,Grapes
-Dialogue: 0,0:24:49.85,0:24:54.55,Adds,,0,0,0,,Look Forward to the Next Episode
 Dialogue: 0,0:24:49.85,0:24:52.04,Dialogue,,0,0,0,,Don't we have any way to get her memory back?
 Dialogue: 0,0:24:52.07,0:24:53.77,Dialogue,,0,0,0,,My own memory sometimes blacks itself out!
 Dialogue: 0,0:24:53.80,0:24:54.50,Dialogue,,0,0,0,,Right?

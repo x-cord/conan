@@ -33,7 +33,6 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: title001,Times New Roman,20,&H001908BA,&H000000FF,&H001908BA,&H00000000,-1,0,0,0,120,120,0,0,1,0.4,0,2,10,0,97,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -207,7 +206,7 @@ Dialogue: 0,0:11:14.39,0:11:19.95,Dialogue,,0,0,0,,As well as the owner of the h
 Dialogue: 0,0:11:22.86,0:11:23.86,Dialogue,,0,0,0,,Say...
 Dialogue: 0,0:11:23.86,0:11:25.32,Dialogue,,0,0,0,,Do you know what "indirect intent" means?
 Dialogue: 0,0:11:26.65,0:11:27.78,Dialogue,,0,0,0,,Indirect intent?
-Dialogue: 0,0:11:27.83,0:11:32.46,title001,,0,0,0,,{\blur25\be5\fad(1380,880)}INDIRECT INTENT
+Dialogue: 0,0:11:27.83,0:11:32.46,Signs,,0,0,0,,INDIRECT INTENT
 Dialogue: 0,0:11:29.16,0:11:30.41,Dialogue,,0,0,0,,Indirect intent refers to...
 Dialogue: 0,0:11:31.16,0:11:34.83,Dialogue,,0,0,0,,A person foreseeing that an action will\Nlikely result in a harmful outcome...
 Dialogue: 0,0:11:35.29,0:11:37.16,Dialogue,,0,0,0,,But disregards whether it's ensured or not...

@@ -33,8 +33,6 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: GreedNarr,Biko,45,&H6E8C4000,&H000000FF,&H00FFFFFF,&H80000000,-1,0,0,0,100,100,0,0,1,3.7,1.5,2,50,50,30,1
-Style: OPTL_BL,Biko,45,&H00FFFFFF,&H000000FF,&H80000000,&HC0000000,-1,0,0,0,100,100,0,0,1,2,1,2,10,10,25,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -58,7 +56,7 @@ Dialogue: 0,0:00:58.41,0:00:59.74,Dialogue,,0000,0000,0000,,He said he's from a 
 Dialogue: 0,0:00:59.74,0:01:02.70,Dialogue,,0000,0000,0000,,So of course it would look delicious, right?
 Dialogue: 0,0:01:02.70,0:01:07.17,Dialogue,,0000,0000,0000,,Hey! I'm not going to give you some just for looking. Go away.
 Dialogue: 0,0:01:07.17,0:01:10.13,Dialogue,,0000,0000,0000,,You shouldn't say something so unkind.
-Dialogue: 0,0:01:11.63,0:01:16.05,Signs,,0000,0000,0000,,Nao Takiguchi (34)\NWife of the Company President
+Dialogue: 0,0:01:11.63,0:01:16.05,Character Card,,0000,0000,0000,,Nao Takiguchi (34)\NWife of the Company President
 Dialogue: 0,0:01:11.88,0:01:15.01,Dialogue Top,,0000,0000,0000,,Thank you for all your effort. That was quite fast.
 Dialogue: 0,0:01:16.05,0:01:18.55,Dialogue,,0000,0000,0000,,Oh, what a cute doggie!
 Dialogue: 0,0:01:18.55,0:01:20.51,Dialogue,,0000,0000,0000,,His name is Coro.
@@ -73,7 +71,7 @@ Dialogue: 0,0:01:38.03,0:01:40.16,Dialogue,,0000,0000,0000,,We shouldn't go with
 Dialogue: 0,0:01:40.16,0:01:44.29,Dialogue,,0000,0000,0000,,The food from this hotel is very delicious. Don't you want some?
 Dialogue: 0,0:01:44.62,0:01:48.79,Dialogue,,0000,0000,0000,,But if we eat some, you won't have enough.
 Dialogue: 0,0:01:49.12,0:01:50.79,Dialogue,,0000,0000,0000,,You children don't need to be so hesitant.
-Dialogue: 0,0:01:51.54,0:01:55.30,Signs,,0000,0000,0000,,Kōtarō Takiguchi (55)\NCompany President
+Dialogue: 0,0:01:51.54,0:01:55.30,Character Card,,0000,0000,0000,,Kōtarō Takiguchi (55)\NCompany President
 Dialogue: 0,0:01:51.42,0:01:55.30,Dialogue Top,,0000,0000,0000,,You could probably even have dinner too with all the food we ordered!
 Dialogue: 0,0:01:55.59,0:01:56.72,Dialogue,,0000,0000,0000,,Wow!
 Dialogue: 0,0:01:56.72,0:01:58.80,Dialogue,,0000,0000,0000,,Then we can really eat with you?!
@@ -81,27 +79,13 @@ Dialogue: 0,0:01:58.80,0:02:02.60,Dialogue,,0000,0000,0000,,Yes. We were thinkin
 Dialogue: 0,0:02:02.60,0:02:04.68,Dialogue,,0000,0000,0000,,So it's our pleasure to invite you.
 Dialogue: 0,0:02:04.68,0:02:07.10,Dialogue,,0000,0000,0000,,In that case, we'll gladly...
 Dialogue: 0,0:02:07.10,0:02:08.89,Dialogue,,0000,0000,0000,,Accept your treat!
-Dialogue: 0,0:02:13.86,0:02:15.82,GreedNarr,,0000,0000,0000,,{\blur3}We won't give in to the hot blazing sun!
-Dialogue: 0,0:02:15.82,0:02:17.61,GreedNarr,,0000,0000,0000,,{\blur3}A gallant and dashing deduction show!
-Dialogue: 0,0:02:17.61,0:02:19.45,GreedNarr,,0000,0000,0000,,{\blur3}All of us become eyewitnesses...
-Dialogue: 0,0:02:19.45,0:02:20.99,GreedNarr,,0000,0000,0000,,{\blur3}...to the rich man who dove straight into the sea!
-Dialogue: 0,0:02:20.99,0:02:22.62,GreedNarr,,0000,0000,0000,,{\blur3}He sees the single truth for what it is
-Dialogue: 0,0:02:22.62,0:02:24.24,GreedNarr,,0000,0000,0000,,{\blur3}and looks like a kid, but has the mind of an adult!
-Dialogue: 0,0:02:24.24,0:02:27.33,GreedNarr,,0000,0000,0000,,{\blur3}His name? Detective Conan!
-Dialogue: 0,0:02:27.33,0:02:32.33,OPTL_BL,,0000,0000,0000,,{\q2\blur1.5}Oh! Again?! Elaborate gimmicks and intrigue on a Saturday night
-Dialogue: 0,0:02:32.33,0:02:37.76,OPTL_BL,,0000,0000,0000,,{\q2\blur1.5}But, oh! The summer's gettin' to me, the heat and this situation
-Dialogue: 0,0:02:37.76,0:02:43.60,OPTL_BL,,0000,0000,0000,,{\q2\blur1.5}Even so—Oh oh oh—Here's a case again—Oh oh oh—Get a new viewpoint?
-Dialogue: 0,0:02:43.93,0:02:49.06,OPTL_BL,,0000,0000,0000,,{\fad(0,1000)\q2\blur1.5}Oh! No! I'm no Holmes, so why oh why oh why oh God why...
-Dialogue: 0,0:02:50.39,0:02:56.53,OPTL_BL,,0000,0000,0000,,{\q2\blur1.5}Hey! I'll burst out like a summer sweat, today it's time to take another ride
-Dialogue: 0,0:02:56.53,0:03:01.28,OPTL_BL,,0000,0000,0000,,{\q2\blur1.5}You can fall asleep now, I'll solve this — I melt slowly, I melt slowly
-Dialogue: 0,0:03:01.28,0:03:07.58,OPTL_BL,,0000,0000,0000,,{\q2\blur1.5}Hey! Solving mysteries with tricks you won't beat with a novel
-Dialogue: 0,0:03:07.58,0:03:15.59,OPTL_BL,,0000,0000,0000,,{\fad(0,500)\q2\blur1.5}I get tired of thinking when I overwork my mind in this puzzling town
-Dialogue: 0,0:03:17.67,0:03:23.93,OPTL_BL,,0000,0000,0000,,{\q2\blur1.5}Ah, when things don't go well, I stand by the wharf a while
-Dialogue: 0,0:03:23.93,0:03:27.43,OPTL_BL,,0000,0000,0000,,{\q2\blur1.5}Yearning for my passion, I'll solve this — I melt slowly
-Dialogue: 0,0:03:28.64,0:03:34.81,OPTL_BL,,0000,0000,0000,,{\q2\blur1.5}Hey! I'll burst out like a summer sweat, today it's time to take another ride
-Dialogue: 0,0:03:34.81,0:03:39.53,OPTL_BL,,0000,0000,0000,,{\q2\blur1.5}You can fall asleep now, I'll solve this — I melt slowly, I melt slowly
-Dialogue: 0,0:03:39.53,0:03:45.78,OPTL_BL,,0000,0000,0000,,{\q2\blur1.5}Hey! Solving mysteries with tricks you won't beat with a novel
-Dialogue: 0,0:03:45.78,0:03:53.42,OPTL_BL,,0000,0000,0000,,{\q2\blur1.5}I get tired of thinking when I overwork my mind in this puzzling town
+Dialogue: 0,0:02:13.86,0:02:15.82,Narration Off,,0000,0000,0000,,{\be10}We won't give in to the hot blazing sun!
+Dialogue: 0,0:02:15.82,0:02:17.61,Narration Off,,0000,0000,0000,,{\be10}A gallant and dashing deduction show!
+Dialogue: 0,0:02:17.61,0:02:19.45,Narration Off,,0000,0000,0000,,{\be10}All of us become eyewitnesses...
+Dialogue: 0,0:02:19.45,0:02:20.99,Narration Off,,0000,0000,0000,,{\be10}...to the rich man who dove straight into the sea!
+Dialogue: 0,0:02:20.99,0:02:22.62,Narration Off,,0000,0000,0000,,{\be10}He sees the single truth for what it is
+Dialogue: 0,0:02:22.62,0:02:24.24,Narration Off,,0000,0000,0000,,{\be10}and looks like a kid, but has the mind of an adult!
+Dialogue: 0,0:02:24.24,0:02:27.33,Narration Off,,0000,0000,0000,,{\be10}His name? Detective Conan!
 Dialogue: 0,0:04:14.65,0:04:17.56,Dialogue,,0000,0000,0000,,Oh, geez. Where did those guys run off to?
 Dialogue: 0,0:04:17.98,0:04:21.69,Dialogue,,0000,0000,0000,,Your fault for sleeping ever since we got here.
 Dialogue: 0,0:04:21.69,0:04:26.91,Dialogue,,0000,0000,0000,,If we still can't find them after looking a little longer, I'm eating their lunches.
@@ -215,10 +199,10 @@ Dialogue: 0,0:10:26.73,0:10:29.23,Dialogue,,0000,0000,0000,,Ah, yeah.
 Dialogue: 0,0:10:35.73,0:10:38.65,Dialogue Top,,0000,0000,0000,,'Emergency Medical Centre'
 Dialogue: 0,0:10:33.94,0:10:35.73,Dialogue,,0000,0000,0000,,You're sure this was an accident?!
 Dialogue: 0,0:10:36.61,0:10:39.61,Dialogue,,0000,0000,0000,,There hasn't been a thorough investigation yet.
-Dialogue: 0,0:10:43.87,0:10:48.62,Signs,,0000,0000,0000,,Ryōichi Katagiri (48)\NTakaguchi's Secretary
+Dialogue: 0,0:10:43.87,0:10:48.62,Character Card,,0000,0000,0000,,Ryōichi Katagiri (48)\NTakaguchi's Secretary
 Dialogue: 0,0:10:39.61,0:10:43.62,Dialogue,,0000,0000,0000,,But according to the witnesses' statements, there appears to be no doubt that he dove into the water on his own.
 Dialogue: 0,0:10:43.99,0:10:45.62,Dialogue Top,,0000,0000,0000,,I can't believe it.
-Dialogue: 0,0:10:48.96,0:10:54.54,Signs,,0000,0000,0000,,Detective Nagai (38)
+Dialogue: 0,0:10:48.96,0:10:54.54,Character Card,,0000,0000,0000,,Detective Nagai (38)
 Dialogue: 0,0:10:45.62,0:10:48.62,Dialogue Top,,0000,0000,0000,,Couldn't someone have pushed him off or something?
 Dialogue: 0,0:10:49.08,0:10:52.83,Dialogue Top,,0000,0000,0000,,He and his wife were the only ones on board the ship at the time.
 Dialogue: 0,0:10:52.83,0:10:55.13,Dialogue Top,,0000,0000,0000,,Are you saying his wife pushed him overboard?

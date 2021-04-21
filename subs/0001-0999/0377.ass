@@ -33,23 +33,6 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: Title10,Arial,10,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0.1,1,2,0,155,263,1
-Style: Title10 - 1,Arial,10,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0.1,1,2,0,155,253,1
-Style: Title11,Arial,10,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0.1,1,2,0,155,216,1
-Style: Title11 - 1,Arial,10,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0.1,1,2,0,155,206,1
-Style: Title12,Arial,10,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0.1,1,2,0,155,167,1
-Style: Title12 - 1,Arial,10,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0.1,1,2,0,110,156,1
-Style: Title13,Arial,10,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0.1,1,2,0,155,118,1
-Style: Title13 - 1,Arial,10,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0.1,1,2,0,180,106,1
-Style: Title14,Arial,10,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0.1,1,2,0,155,69,1
-Style: Title14 - 1,Arial,10,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0.1,1,2,0,116,57,1
-Style: Title15,Arial,12,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,1,2,0,330,230,1
-Style: Title16,Arial,12,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,1,2,0,330,180,1
-Style: Title17,Arial,12,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,1,2,0,330,130,1
-Style: Title18,Arial,12,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,1,2,0,330,80,1
-Style: Title19,Arial,12,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,1,2,0,330,31,1
-Style: Title20,Arial,15,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,0,0,60,1
-Style: Title21,Wide Latin,6,&H00F3F3F3,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,200,0,11,1,0,0,2,90,0,138,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -104,7 +87,7 @@ Dialogue: 0,0:04:05.90,0:04:07.54,Dialogue,,0,0,0,,Hurry! Hurry!
 Dialogue: 0,0:04:07.67,0:04:08.79,Dialogue,,0,0,0,,Hey, hey...
 Dialogue: 0,0:04:09.33,0:04:10.92,Dialogue,,0,0,0,,We don't need to hurry this much.
 Dialogue: 0,0:04:15.34,0:04:17.38,Dialogue,,0,0,0,,Look, the train's leaving!
-Dialogue: 0,0:04:33.15,0:04:37.00,Title20,,0,0,0,,{\fade(300,300)}Kurashiki Station North Exit
+Dialogue: 0,0:04:33.15,0:04:37.00,Signs,,0,0,0,,Kurashiki Station North Exit
 Dialogue: 0,0:04:33.24,0:04:37.94,Dialogue Top,,0,0,0,,Kurashiki is definitely famous for its\NBikan area and its white plaster walled streets.
 Dialogue: 0,0:04:38.28,0:04:41.07,Dialogue,,0,0,0,,Yeah, it's every traveling girl's dream.
 Dialogue: 0,0:04:44.29,0:04:46.14,Dialogue,,0,0,0,,But even more than that,
@@ -112,7 +95,7 @@ Dialogue: 0,0:04:46.20,0:04:47.75,Dialogue,,0,0,0,,I really wanted to come here.
 Dialogue: 0,0:04:50.71,0:04:51.33,Dialogue,,0,0,0,,Good afternoon.
 Dialogue: 0,0:04:51.54,0:04:52.13,Dialogue,,0,0,0,,Good afternoon.
 Dialogue: 0,0:04:53.30,0:04:57.53,Dialogue Top,,0,0,0,,Translator's Note: Chibari (Tivoli) park was\Nmodeled after the famous Tivoli Park in Copenhagen
-Dialogue: 0,0:04:53.30,0:04:57.53,Title20,,0,0,0,,{\fade(350,300)}Kurashiki Chibori Park
+Dialogue: 0,0:04:53.30,0:04:57.53,Signs,,0,0,0,,Kurashiki Chibori Park
 Dialogue: 0,0:05:08.85,0:05:10.52,Dialogue,,0,0,0,,If we're talking about Chibori Park...
 Dialogue: 0,0:05:12.11,0:05:13.57,Dialogue,,0,0,0,,Quit it already, Seiko!
 Dialogue: 0,0:05:14.11,0:05:14.98,Dialogue,,0,0,0,,Eh?
@@ -183,21 +166,16 @@ Dialogue: 0,0:07:33.48,0:07:35.84,Dialogue,,0,0,0,,You guys are like Momotaro.
 Dialogue: 0,0:07:37.13,0:07:38.46,Dialogue,,0,0,0,,What do you mean?
 Dialogue: 0,0:07:39.05,0:07:39.80,Dialogue,,0,0,0,,Their names, isn't it'?
 Dialogue: 0,0:07:42.34,0:07:45.51,Dialogue,,0,0,0,,It's because your last names ideograms\Nare the names of the Momotaro characters.
-Dialogue: 0,0:07:42.85,0:07:45.84,Title10,,0,0,0,,{\fade(200,0)}Momoi Naoto
-Dialogue: 0,0:07:45.85,0:07:49.50,Title10 - 1,,0,0,0,,{\fscx100\fscy100\t(0,750,\fscx220\fscy220)\t(1500,0,\1c&HD3D7FF&\3&\4c&H3439EF&\shad1)}Momo{\1c&HFFFFFF&\4c&H000000&\bord0\shad1}i Naoto
-Dialogue: 0,0:07:43.35,0:07:45.84,Title11,,0,0,0,,{\fade(200,0)}Kijima Yayoi
-Dialogue: 0,0:07:45.85,0:07:49.50,Title11 - 1,,0,0,0,,{\fscx100\fscy100\t(0,750,\fscx220\fscy220)\t(1500,0,\1c&HD3D7FF&\3&\4c&H3439EF&\shad1)}Kiji{\1c&HFFFFFF&\4c&H000000&\bord0\shad1}ma Yayoi
-Dialogue: 0,0:07:43.85,0:07:45.84,Title12,,0,0,0,,{\fade(200,0)}Saruwatari Kango
-Dialogue: 0,0:07:45.85,0:07:49.50,Title12 - 1,,0,0,0,,{\fscx100\fscy100\t(0,750,\fscx220\fscy220)\t(1500,0,\1c&HD3D7FF&\3&\4c&H3439EF&\shad1)}Saru{\1c&HFFFFFF&\4c&H000000&\bord0\shad1}watari Kengo
-Dialogue: 0,0:07:44.35,0:07:45.84,Title13,,0,0,0,,{\fade(200,0)}Inui Saiko
-Dialogue: 0,0:07:45.85,0:07:49.50,Title13 - 1,,0,0,0,,{\fscx100\fscy100\t(0,750,\fscx220\fscy220)\t(1500,0,\1c&HD3D7FF&\3&\4c&H3439EF&\shad1)}Inu{\1c&HFFFFFF&\4c&H000000&\bord0\shad1}i Seiko
-Dialogue: 0,0:07:44.85,0:07:45.84,Title14,,0,0,0,,{\fade(200,0)}Onitsura Mamoru
-Dialogue: 0,0:07:45.85,0:07:49.50,Title14 - 1,,0,0,0,,{\fscx100\fscy100\t(0,750,\fscx220\fscy220)\t(1500,0,\1c&HD3D7FF&\3&\4c&H3439EF&\shad1)}Oni{\1c&HFFFFFF&\4c&H000000&\bord0\shad1}tsura Mamoru
-Dialogue: 0,0:07:46.60,0:07:49.50,Title15,,0,0,0,,momo\Npeach
-Dialogue: 0,0:07:46.60,0:07:49.50,Title16,,0,0,0,,kiji\Npheasant
-Dialogue: 0,0:07:46.60,0:07:49.50,Title17,,0,0,0,,saru\Nmonkey
-Dialogue: 0,0:07:46.60,0:07:49.50,Title18,,0,0,0,,inu\Ndog
-Dialogue: 0,0:07:46.60,0:07:49.50,Title19,,0,0,0,,oni\NDemon
+Dialogue: 0,0:07:42.85,0:07:45.84,Signs,,0,0,0,,Momoi Naoto
+Dialogue: 0,0:07:43.35,0:07:45.84,Signs,,0,0,0,,Kijima Yayoi
+Dialogue: 0,0:07:43.85,0:07:45.84,Signs,,0,0,0,,Saruwatari Kango
+Dialogue: 0,0:07:44.35,0:07:45.84,Signs,,0,0,0,,Inui Saiko
+Dialogue: 0,0:07:44.85,0:07:45.84,Signs,,0,0,0,,Onitsura Mamoru
+Dialogue: 0,0:07:46.60,0:07:49.50,Signs,,0,0,0,,momo\Npeach
+Dialogue: 0,0:07:46.60,0:07:49.50,Signs,,0,0,0,,kiji\Npheasant
+Dialogue: 0,0:07:46.60,0:07:49.50,Signs,,0,0,0,,saru\Nmonkey
+Dialogue: 0,0:07:46.60,0:07:49.50,Signs,,0,0,0,,inu\Ndog
+Dialogue: 0,0:07:46.60,0:07:49.50,Signs,,0,0,0,,oni\NDemon
 Dialogue: 0,0:07:46.52,0:07:49.52,Dialogue,,0,0,0,,Momo, Kiji, Saru, Inu, Oni.
 Dialogue: 0,0:07:51.27,0:07:52.85,Dialogue,,0,0,0,,You're truly detective boys.
 Dialogue: 0,0:07:53.27,0:07:54.86,Dialogue,,0,0,0,,You're right. That's why...
@@ -219,7 +197,7 @@ Dialogue: 0,0:08:31.19,0:08:33.40,Dialogue,,0,0,0,,Well until then, we'll have s
 Dialogue: 0,0:08:34.36,0:08:35.73,Dialogue,,0,0,0,,Okay, that's fine.
 Dialogue: 0,0:08:36.15,0:08:37.15,Dialogue,,0,0,0,,Bye, little missy.
 Dialogue: 0,0:08:38.74,0:08:40.57,Dialogue,,0,0,0,,We should get moving too.
-Dialogue: 0,0:08:41.30,0:08:44.15,Title20,,0,0,0,,{\fade(350,0)}Kurashiki Bikan (Scenic) District
+Dialogue: 0,0:08:41.30,0:08:44.15,Signs,,0,0,0,,Kurashiki Bikan (Scenic) District
 Dialogue: 0,0:08:44.70,0:08:46.70,Dialogue,,0,0,0,,This is the real Kurashiki.
 Dialogue: 0,0:08:47.12,0:08:48.33,Dialogue,,0,0,0,,How beautiful!
 Dialogue: 0,0:08:50.87,0:08:54.21,Dialogue,,0,0,0,,The view has been kept\Nas it was in the Edo period,
@@ -228,7 +206,7 @@ Dialogue: 0,0:08:56.00,0:09:00.05,Dialogue,,0,0,0,,Yeah, almost all of this was 
 Dialogue: 0,0:09:00.72,0:09:05.43,Dialogue,,0,0,0,,They'd row their boats down the Kurashiki\Nriver here to transport their various goods.
 Dialogue: 0,0:09:06.58,0:09:09.92,Dialogue Top,,0,0,0,,The east wall of the\NKurashiki Archeology Museum here is
 Dialogue: 0,0:09:09.92,0:09:13.40,Dialogue Top,,0,0,0,,One of the Bikan district's most beautiful things.
-Dialogue: 0,0:09:07.32,0:09:11.05,Title20,,0,0,0,,{\fade(350,0)}Kurashiki Archeology Museum
+Dialogue: 0,0:09:07.32,0:09:11.05,Signs,,0,0,0,,Kurashiki Archeology Museum
 Dialogue: 0,0:09:14.02,0:09:17.02,Dialogue,,0,0,0,,Here, at first from Kurashiki,\Nand then from the Kibi area
 Dialogue: 0,0:09:17.36,0:09:22.11,Dialogue,,0,0,0,,All kinds of antique porcelain\Nare being displayed and collected.
 Dialogue: 0,0:09:23.45,0:09:24.91,Dialogue,,0,0,0,,This really is studying something...
@@ -281,7 +259,7 @@ Dialogue: 0,0:11:25.37,0:11:27.32,Dialogue,,0,0,0,,And if you put hi (fire) and 
 Dialogue: 0,0:11:27.50,0:11:30.49,Dialogue,,0,0,0,,Fire... Eye's Fire eyes...
 Dialogue: 0,0:11:30.66,0:11:32.58,Dialogue,,0,0,0,,Ah! Fire eyes!
 Dialogue: 0,0:11:33.04,0:11:34.75,Dialogue,,0,0,0,,It's the fire lookout!
-Dialogue: 0,0:11:38.25,0:11:41.26,Title20,,0,0,0,,Fire Lookout
+Dialogue: 0,0:11:38.25,0:11:41.26,Signs,,0,0,0,,Fire Lookout
 Dialogue: 0,0:11:39.89,0:11:41.36,Dialogue Top,,0,0,0,,Do you see anything?
 Dialogue: 0,0:11:43.80,0:11:44.72,Dialogue,,0,0,0,,Did you find something?
 Dialogue: 0,0:11:45.39,0:11:46.18,Dialogue,,0,0,0,,What's this?
@@ -383,7 +361,7 @@ Dialogue: 0,0:16:14.62,0:16:16.50,Dialogue,,0,0,0,,Tsuta, the plant?
 Dialogue: 0,0:16:16.75,0:16:18.29,Dialogue,,0,0,0,,Tsuta is "ivy" in English.
 Dialogue: 0,0:16:19.17,0:16:20.71,Dialogue,,0,0,0,,And if you add "square" this means...
 Dialogue: 0,0:16:21.21,0:16:24.05,Dialogue,,0,0,0,,I know! There, it's there!
-Dialogue: 0,0:16:24.45,0:16:28.45,Title20,,0,0,0,,{\fade(350,0)}Kurashiki Ivy Square
+Dialogue: 0,0:16:24.45,0:16:28.45,Signs,,0,0,0,,Kurashiki Ivy Square
 Dialogue: 0,0:16:24.65,0:16:27.85,Dialogue Top,,0,0,0,,Kurashiki Ivy Square. This is it.
 Dialogue: 0,0:16:28.72,0:16:29.64,Dialogue,,0,0,0,,There's a a lot of ivy here!
 Dialogue: 0,0:16:29.64,0:16:29.97,Dialogue,,0,0,0,,See?
@@ -470,7 +448,7 @@ Dialogue: 0,0:20:53.78,0:20:57.87,Dialogue,,0,0,0,,Seiko went to report on the\N
 Dialogue: 0,0:20:58.33,0:20:58.91,Dialogue,,0,0,0,,No...
 Dialogue: 0,0:20:59.00,0:21:00.91,Dialogue,,0,0,0,,No, we don't think so.
 Dialogue: 0,0:21:01.52,0:21:05.42,Dialogue,,0,0,0,,We think differently, Onitsura{\rHonorifics - Dialogue}-san{\r}.
-Dialogue: 0,0:21:06.50,0:21:09.53,Title21,,0,0,0,,Examination Room
+Dialogue: 0,0:21:06.50,0:21:09.53,Signs,,0,0,0,,Examination Room
 Dialogue: 0,0:21:07.13,0:21:08.67,Dialogue,,0,0,0,,No! I didn't do it!
 Dialogue: 0,0:21:08.77,0:21:09.57,Dialogue,,0,0,0,,I'm innocent.
 Dialogue: 0,0:21:09.80,0:21:11.01,Dialogue,,0,0,0,,Don't get me wrong.
@@ -484,7 +462,7 @@ Dialogue: 0,0:21:33.20,0:21:34.07,Dialogue,,0,0,0,,It might be true.
 Dialogue: 0,0:21:34.62,0:21:35.95,Dialogue,,0,0,0,,You too, Momoi{\rHonorifics - Dialogue}-kun{\r}?
 Dialogue: 0,0:21:36.16,0:21:39.83,Dialogue,,0,0,0,,In this world, who knows who might kill whom.
 Dialogue: 0,0:21:42.71,0:21:45.04,Dialogue,,0,0,0,,This is no time for a treasure hunt.
-Dialogue: 0,0:21:50.05,0:21:52.57,Title20,,0,0,0,,Hotel Kurashiki
+Dialogue: 0,0:21:50.05,0:21:52.57,Signs,,0,0,0,,Hotel Kurashiki
 Dialogue: 0,0:21:50.36,0:21:52.74,Dialogue Top,,0,0,0,,So it was an demon (Oni) after all.
 Dialogue: 0,0:21:53.22,0:21:55.51,Dialogue,,0,0,0,,We should have caught him.
 Dialogue: 0,0:21:57.33,0:21:59.96,Dialogue,,0,0,0,,Really, Genta{\rHonorifics - Dialogue}-kun{\r}! You're\Nusing them the wrong way.

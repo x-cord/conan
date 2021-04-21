@@ -33,15 +33,14 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: Üstyazı,00568,25,&H00FFFFFF,&H0300FFFF,&H00000000,&H02000000,0,0,0,0,100,100,0,0,1,2.70838,0,8,10,10,29,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 Dialogue: 0,0:00:22.27,0:00:23.93,Dialogue,,0,0,0,,A legendary instrument creates an incident.
 Dialogue: 0,0:00:24.06,0:00:27.06,Dialogue,,0,0,0,,The mifortunes happening to a\Nmusician family are spreading at a rapid rate!
 Dialogue: 0,0:00:27.27,0:00:28.65,Dialogue,,0,0,0,,Tek gerçeğin peşinde koşarken...
-Dialogue: 0,0:00:28.73,0:00:30.23,Dialogue,,0,0,0,,Bedenim küçük ama hala aynı zeka!
-Dialogue: 0,0:00:30.40,0:00:32.23,Dialogue,,0,0,0,,Adım: Dedektif Conan!
+Dialogue: 0,0:00:28.73,0:00:30.23,Dialogue,,0,0,0,,Bedenim küçük ama hala ayni zeka!
+Dialogue: 0,0:00:30.40,0:00:32.23,Dialogue,,0,0,0,,Adim: Dedektif Conan!
 Dialogue: 0,0:01:56.11,0:02:00.99,Dialogue,,0,0,0,,By Shitara Hasuki{\rHonorifics - Dialogue}-san{\r}'s invitation, we\Ncame to Shitara Chouichirou{\rHonorifics - Dialogue}-san{\r}'s mansion.
 Dialogue: 0,0:02:02.20,0:02:06.54,Dialogue,,0,0,0,,Hasuki{\rHonorifics - Dialogue}-san{\r}'s reguest was for usto investigate the\Nmysteries surrounding the legendary Stradivarius violin.
 Dialogue: 0,0:02:06.70,0:02:10.79,Dialogue,,0,0,0,,And the series of mysterious\Nevents that began the year before last.
@@ -72,7 +71,7 @@ Dialogue: 0,0:03:29.33,0:03:31.12,Dialogue,,0,0,0,,Uncle Kogorou also has this h
 Dialogue: 0,0:03:31.46,0:03:37.25,Dialogue,,0,0,0,,When he's smoking while he's working or\Nneeds to speak, he bites down on the filter.
 Dialogue: 0,0:03:37.59,0:03:40.13,Dialogue,,0,0,0,,However, these cigarettes don't have any bite marks.
 Dialogue: 0,0:03:40.47,0:03:41.80,Dialogue,,0,0,0,,Don't you find that strange?
-Dialogue: 0,0:03:42.30,0:03:43.59,Dialogue,,0,0,0,,Anladım.
+Dialogue: 0,0:03:42.30,0:03:43.59,Dialogue,,0,0,0,,Anladim.
 Dialogue: 0,0:03:43.97,0:03:47.64,Dialogue,,0,0,0,,İn order to make the fire look as if it\Nwere accidentally caused by smoking in bed,
 Dialogue: 0,0:03:47.81,0:03:50.60,Dialogue,,0,0,0,,Somebody smoked some cigarettes and started the fire.
 Dialogue: 0,0:03:54.60,0:03:56.19,Dialogue,,0,0,0,,That's what you're trying to say, isn't it?
@@ -84,9 +83,9 @@ Dialogue: 0,0:04:10.37,0:04:12.00,Dialogue,,0,0,0,,Still a little brat, aren't y
 Dialogue: 0,0:04:12.00,0:04:17.00,Dialogue,,0,0,0,,He could just have happened to bite\Nthat one cigarette in the main building.
 Dialogue: 0,0:04:17.50,0:04:22.46,Dialogue,,0,0,0,,What's more, Genzaburou{\rHonorifics - Dialogue}-san{\r}\Nhated having people tidy his room.
 Dialogue: 0,0:04:22.80,0:04:28.47,Dialogue,,0,0,0,,And yet, isn't it strange that we can't find any\Nother cigarettes in here that have bite marks on them?
-Dialogue: 0,0:04:28.93,0:04:35.85,CharCards,,0,0,0,,Tsumagari Benio\NShitara Family Butler
-Dialogue: 0,0:04:28.93,0:04:30.06,Üstyazı,,0,0,0,,That is not strange at all.
-Dialogue: 0,0:04:30.39,0:04:35.85,Üstyazı,,0,0,0,,Whenever Genzaburou{\rHonorifics - Üstyazı}-san{\r} left his roon\Nhe woııld always bring his trash out with him.
+Dialogue: 0,0:04:28.93,0:04:35.85,Character Card,,0,0,0,,Tsumagari Benio\NShitara Family Butler
+Dialogue: 0,0:04:28.93,0:04:30.06,Dialogue Top,,0,0,0,,That is not strange at all.
+Dialogue: 0,0:04:30.39,0:04:35.85,Dialogue Top,,0,0,0,,Whenever Genzaburou{\rHonorifics - Dialogue}-san{\r} left his roon\Nhe woiild always bring his trash out with him.
 Dialogue: 0,0:04:36.27,0:04:39.11,Dialogue,,0,0,0,,And, by the way, why did you all\Nsuddenly rush out of the room just now?
 Dialogue: 0,0:04:39.19,0:04:41.07,Dialogue,,0,0,0,,Er, actually this kid here...
 Dialogue: 0,0:04:41.40,0:04:46.66,Dialogue,,0,0,0,,But even if he took out his trash, I still find it strange\Nthat he'd smoke several cigarettes before going to sleep.
@@ -102,7 +101,7 @@ Dialogue: 0,0:05:15.10,0:05:19.27,Dialogue,,0,0,0,,Emi{\rHonorifics - Dialogue}-
 Dialogue: 0,0:05:19.77,0:05:23.53,Dialogue,,0,0,0,,Furuto{\rHonorifics - Dialogue}-san{\r}, who fell from the\Nveranda and died one year ago, had "F".
 Dialogue: 0,0:05:23.90,0:05:27.20,Dialogue,,0,0,0,,And then, Genzaburou{\rHonorifics - Dialogue}-san{\r}, who died tonight had 'G'
 Dialogue: 0,0:05:28.53,0:05:33.33,Dialogue,,0,0,0,,"D, E, F, G". They're in alphabetical order, aren't they?
-Dialogue: 0,0:05:33.37,0:05:41.04,Dialogue,,0,0,0,,Hmm, what connects all these people is that they\Nwere in this house for Shitara Choııichirou's birthday.
+Dialogue: 0,0:05:33.37,0:05:41.04,Dialogue,,0,0,0,,Hmm, what connects all these people is that they\Nwere in this house for Shitara Choiiichirou's birthday.
 Dialogue: 0,0:05:41.92,0:05:44.92,Dialogue,,0,0,0,,What the brat said makes sense; there's something here.
 Dialogue: 0,0:05:45.67,0:05:48.59,Dialogue,,0,0,0,,Wait a moment if it goes 'D-E-F-G"...
 Dialogue: 0,0:05:48.93,0:05:52.93,Dialogue,,0,0,0,,Then the next target will have the initial 'H'-Hasuki{\rHonorifics - Dialogue}-san{\r}!
@@ -110,11 +109,11 @@ Dialogue: 0,0:05:56.06,0:05:58.52,Dialogue,,0,0,0,,Oh no! It's dangerous for her
 Dialogue: 0,0:05:59.73,0:06:02.40,Dialogue,,0,0,0,,What? I'm the next target?
 Dialogue: 0,0:06:03.23,0:06:04.57,Dialogue,,0,0,0,,How could that be?
 Dialogue: 0,0:06:04.86,0:06:06.86,Dialogue,,0,0,0,,You see, if we follow the order of the initials...
-Dialogue: 0,0:06:06.86,0:06:09.65,Signs,,0,0,0,,Hage Kyousuke\NChouichirou's Nephew
-Dialogue: 0,0:06:07.53,0:06:10.45,Üstyazı,,0,0,0,,Now that you mention it, if we start.\Nalphabetically from my father Danjirou,
-Dialogue: 0,0:06:10.66,0:06:13.24,Üstyazı,,0,0,0,,It would be "D, E, F, G."
-Dialogue: 0,0:06:12.87,0:06:16.37,Signs,,0,0,0,,Shitara Hasuki\NChouichirou's Granddaughter
-Dialogue: 0,0:06:13.79,0:06:15.66,Üstyazı,,0,0,0,,Oh, come on! That's just a coincidence!
+Dialogue: 0,0:06:06.86,0:06:09.65,Character Card,,0,0,0,,Hage Kyousuke\NChouichirou's Nephew
+Dialogue: 0,0:06:07.53,0:06:10.45,Dialogue Top,,0,0,0,,Now that you mention it, if we start.\Nalphabetically from my father Danjirou,
+Dialogue: 0,0:06:10.66,0:06:13.24,Dialogue Top,,0,0,0,,It would be "D, E, F, G."
+Dialogue: 0,0:06:12.87,0:06:16.37,Character Card,,0,0,0,,Shitara Hasuki\NChouichirou's Granddaughter
+Dialogue: 0,0:06:13.79,0:06:15.66,Dialogue Top,,0,0,0,,Oh, come on! That's just a coincidence!
 Dialogue: 0,0:06:16.66,0:06:18.54,Dialogue,,0,0,0,,O-Of course.
 Dialogue: 0,0:06:19.50,0:06:22.58,Dialogue,,0,0,0,,Nevertheless; that's a problem for tonight's requiem.
 Dialogue: 0,0:06:22.59,0:06:23.79,Dialogue,,0,0,0,,Requiem?
@@ -133,15 +132,15 @@ Dialogue: 0,0:07:00.46,0:07:01.50,Dialogue,,0,0,0,,My hands would start shaking.
 Dialogue: 0,0:07:01.92,0:07:03.67,Dialogue,,0,0,0,,Then, how about my violin?
 Dialogue: 0,0:07:04.00,0:07:07.46,Dialogue,,0,0,0,,It's OK. I II go down to my\Ncar and get the one I always use.
 Dialogue: 0,0:07:08.13,0:07:11.30,Dialogue,,0,0,0,,Although it doesn't compare with a\Nlegendary instrument made 300 years ago,
-Dialogue: 0,0:07:11.93,0:07:16.81,Dialogue,,0,0,0,,İt was the one gıft bequeathed to me\Nby my father. For me, it s just as goo
+Dialogue: 0,0:07:11.93,0:07:16.81,Dialogue,,0,0,0,,İt was the one gift bequeathed to me\Nby my father. For me, it s just as goo
 Dialogue: 0,0:07:17.18,0:07:20.60,Dialogue,,0,0,0,,Plus I don't want to have something\Nhappen to me for using that antique.
 Dialogue: 0,0:07:21.27,0:07:24.73,Dialogue,,0,0,0,,Aunt Ayane would be upset if we\Nbrought it out without permission.
 Dialogue: 0,0:07:27.07,0:07:28.19,Dialogue,,0,0,0,,Upset?
 Dialogue: 0,0:07:28.40,0:07:34.07,Dialogue,,0,0,0,,The mistress has come to think\Nthat the Stradivarius is her son Furuto.
 Dialogue: 0,0:07:34.53,0:07:39.45,Dialogue,,0,0,0,,Master Furuto performed for the\Nmaster on that instrument, just before he died
 Dialogue: 0,0:07:41.25,0:07:44.92,Dialogue,,0,0,0,,Ever since that day, when the clock strikes midnight..
-Dialogue: 0,0:07:49.51,0:07:53.47,CharCards,,0,0,0,,Shitara Ayane\NChouichirou's Wife
-Dialogue: 0,0:07:58.93,0:08:01.73,Signs,,0,0,0,,Shitara Chouichirou\NHead of the Shitara family
+Dialogue: 0,0:07:49.51,0:07:53.47,Character Card,,0,0,0,,Shitara Ayane\NChouichirou's Wife
+Dialogue: 0,0:07:58.93,0:08:01.73,Character Card,,0,0,0,,Shitara Chouichirou\NHead of the Shitara family
 Dialogue: 0,0:08:01.98,0:08:05.40,Dialogue,,0,0,0,,Does Mr. Chouichirou know about this?
 Dialogue: 0,0:08:05.73,0:08:06.77,Dialogue,,0,0,0,,Yes, probably.
 Dialogue: 0,0:08:07.27,0:08:12.11,Dialogue,,0,0,0,,The room where the Stradivarius is kept is\Nbetween my grandfather's and my grandmothers rooms.
@@ -204,13 +203,13 @@ Dialogue: 0,0:13:37.52,0:13:39.73,Dialogue,,0,0,0,,And there doesn't appear to b
 Dialogue: 0,0:13:40.31,0:13:42.65,Dialogue,,0,0,0,,And no signs of any people entering or leaving.
 Dialogue: 0,0:13:42.90,0:13:48.66,Dialogue,,0,0,0,,Somebody must have broken it before the\Nmistress even opened the case. What a shock.
 Dialogue: 0,0:13:48.78,0:13:51.66,Dialogue,,0,0,0,,Bu-But, it's just a broken instrument..
-Dialogue: 0,0:13:51.66,0:13:56.45,Dialogue,,0,0,0,,Don't you realize? This is a legendary\Nviolin worth hundreds of mıllions of yen!
+Dialogue: 0,0:13:51.66,0:13:56.45,Dialogue,,0,0,0,,Don't you realize? This is a legendary\Nviolin worth hundreds of millions of yen!
 Dialogue: 0,0:13:57.00,0:14:02.38,Dialogue,,0,0,0,,And in Ayane{\rHonorifics - Dialogue}-san{\r}'s heart it was almost\Nlike a replacement for her late son Furuto{\rHonorifics - Dialogue}-san{\r}.
 Dialogue: 0,0:14:02.92,0:14:06.63,Dialogue,,0,0,0,,She must have decided to jump\Nwhen she found it had been destroyed.
 Dialogue: 0,0:14:06.80,0:14:07.59,Dialogue,,0,0,0,,That's not right.
 Dialogue: 0,0:14:08.18,0:14:11.93,Dialogue,,0,0,0,,I think that lady broke it herself.
 Dialogue: 0,0:14:12.14,0:14:13.47,Dialogue,,0,0,0,,This brat again...
-Dialogue: 0,0:14:13.72,0:14:16.10,Dialogue,,0,0,0,,She' broke it herself? Why do you thınk that?
+Dialogue: 0,0:14:13.72,0:14:16.10,Dialogue,,0,0,0,,She' broke it herself? Why do you think that?
 Dialogue: 0,0:14:16.52,0:14:19.44,Dialogue,,0,0,0,,Look, seethe new scratches on this table?
 Dialogue: 0,0:14:19.77,0:14:22.77,Dialogue,,0,0,0,,They must have been from\Nwhen the old lady smashed the violin.
 Dialogue: 0,0:14:23.65,0:14:27.53,Dialogue,,0,0,0,,You idiot, she wasn't clueless like the inspector.
@@ -220,7 +219,7 @@ Dialogue: 0,0:14:34.54,0:14:36.33,Dialogue,,0,0,0,,If this was real, that is.
 Dialogue: 0,0:14:36.58,0:14:38.12,Dialogue,,0,0,0,,Wh-What?
 Dialogue: 0,0:14:42.50,0:14:46.17,Dialogue,,0,0,0,,See, look at the label inside the violin.
 Dialogue: 0,0:14:46.92,0:14:48.92,Dialogue,,0,0,0,,The mark says GA
-Dialogue: 0,0:14:49.84,0:14:54.72,Dialogue,,0,0,0,,If it was really made by Antonıo\NStradivari, wouldn't it be marked with A.S.?
+Dialogue: 0,0:14:49.84,0:14:54.72,Dialogue,,0,0,0,,If it was really made by Antonio\NStradivari, wouldn't it be marked with A.S.?
 Dialogue: 0,0:14:57.73,0:15:01.06,Dialogue,,0,0,0,,Eh? How do you know so much about this?
 Dialogue: 0,0:15:01.52,0:15:05.23,Dialogue,,0,0,0,,Uh, it's because\NShinichi-niichan taught me about it before.
 Dialogue: 0,0:15:06.23,0:15:08.23,Dialogue,,0,0,0,,That detective boy?
@@ -234,8 +233,8 @@ Dialogue: 0,0:15:30.47,0:15:34.93,Dialogue,,0,0,0,,Look, at the bottom of the\Nl
 Dialogue: 0,0:15:35.72,0:15:37.39,Dialogue,,0,0,0,,It's 100% sure this is a replica.
 Dialogue: 0,0:15:37.60,0:15:38.39,Dialogue,,0,0,0,,Who's he.
 Dialogue: 0,0:15:38.72,0:15:41.39,Dialogue,,0,0,0,,t r The Kyousuke{\rHonorifics - Dialogue}-san{\r} I was talking about earlier
-Dialogue: 0,0:15:41.85,0:15:45.73,Dialogue,,0,0,0,,Corne to think of it, who was ın the room\Ndownstairs listening to him play the requiem?
-Dialogue: 0,0:15:45.98,0:15:51.57,Dialogue,,0,0,0,,Me, Ran, the little brat there,\NHasuki{\rHonorifics - Dialogue}-san{\r} and the butler, Tsıımagari{\rHonorifics - Dialogue}-san{\r}
+Dialogue: 0,0:15:41.85,0:15:45.73,Dialogue,,0,0,0,,Corne to think of it, who was in the room\Ndownstairs listening to him play the requiem?
+Dialogue: 0,0:15:45.98,0:15:51.57,Dialogue,,0,0,0,,Me, Ran, the little brat there,\NHasuki{\rHonorifics - Dialogue}-san{\r} and the butler, Tsiimagari{\rHonorifics - Dialogue}-san{\r}
 Dialogue: 0,0:15:51.65,0:15:52.65,Dialogue,,0,0,0,,A total of 5 people.
 Dialogue: 0,0:15:53.32,0:15:56.12,Dialogue,,0,0,0,,And during the performance, Ayane{\rHonorifics - Dialogue}-san{\r}...
 Dialogue: 0,0:15:59.12,0:16:01.20,Dialogue,,0,0,0,,But why would Grandmother do that?
@@ -253,7 +252,7 @@ Dialogue: 0,0:16:41.20,0:16:42.66,Dialogue,,0,0,0,,Are you looking for this?
 Dialogue: 0,0:16:43.21,0:16:44.12,Dialogue,,0,0,0,,Grandfather.
 Dialogue: 0,0:16:44.21,0:16:46.33,Dialogue,,0,0,0,,She hid it behind the bed
 Dialogue: 0,0:16:46.50,0:16:49.13,Dialogue,,0,0,0,,That Ayane treating it like this.
-Dialogue: 0,0:16:49.67,0:16:52.63,Dialogue,,0,0,0,,İt does have the mark of Antonıo Stradivarı.
+Dialogue: 0,0:16:49.67,0:16:52.63,Dialogue,,0,0,0,,İt does have the mark of Antonio Stradivari.
 Dialogue: 0,0:16:53.13,0:16:54.59,Dialogue,,0,0,0,,This must be the real thing.
 Dialogue: 0,0:16:55.30,0:16:57.14,Dialogue,,0,0,0,,I think so myself
 Dialogue: 0,0:16:57.64,0:16:59.14,Dialogue,,0,0,0,,Is it OK if I play a bit to check?
@@ -281,7 +280,7 @@ Dialogue: 0,0:18:12.25,0:18:15.80,Dialogue,,0,0,0,,And Grandmother was in the\Ng
 Dialogue: 0,0:18:16.26,0:18:22.80,Dialogue,,0,0,0,,After that, Mouri{\rHonorifics - Dialogue}-san{\r} arrived and while I was\Nshowing them the Stradivarius the annex caught on fire
 Dialogue: 0,0:18:23.72,0:18:29.73,Dialogue,,0,0,0,,And I took the Stradivarius that had\Nbeen left on the table to the storage room.
 Dialogue: 0,0:18:31.86,0:18:37.57,Dialogue,,0,0,0,,This means that every one of you\Nhad a chance to switch the violin.
-Dialogue: 0,0:18:38.07,0:18:41.53,Dialogue,,0,0,0,,But Inspector, what does ıt\Nmatter considering the circumstances?
+Dialogue: 0,0:18:38.07,0:18:41.53,Dialogue,,0,0,0,,But Inspector, what does it\Nmatter considering the circumstances?
 Dialogue: 0,0:18:41.99,0:18:43.57,Dialogue,,0,0,0,,We've got the real thing back, don't we?
 Dialogue: 0,0:18:43.99,0:18:47.20,Dialogue,,0,0,0,,May be the brat is just making things up.
 Dialogue: 0,0:18:48.04,0:18:50.16,Dialogue,,0,0,0,,But there's something really weird about this case!
@@ -291,14 +290,14 @@ Dialogue: 0,0:18:57.80,0:18:59.97,Dialogue,,0,0,0,,No matter how you look at it,
 Dialogue: 0,0:19:00.30,0:19:01.93,Dialogue,,0,0,0,,Does this room have a spare key?
 Dialogue: 0,0:19:02.59,0:19:07.06,Dialogue,,0,0,0,,Apart from the mistress' own key,\Nthere is only the master key that I carry
 Dialogue: 0,0:19:07.60,0:19:10.52,Dialogue,,0,0,0,,Inspector, the key has already been found on the body.
-Dialogue: 0,0:19:12.06,0:19:12.94,Dialogue,,0,0,0,,Anladım.
+Dialogue: 0,0:19:12.06,0:19:12.94,Dialogue,,0,0,0,,Anladim.
 Dialogue: 0,0:19:13.06,0:19:16.23,Dialogue,,0,0,0,,You see, this isn't a series of murders at all!
 Dialogue: 0,0:19:16.73,0:19:18.40,Dialogue,,0,0,0,,Series of murders?
 Dialogue: 0,0:19:18.74,0:19:26.70,Dialogue,,0,0,0,,Well, this kid put the initials of the people who\Ndied starting 30 years ago in order to get "D, E, F, G.'
 Dialogue: 0,0:19:26.99,0:19:32.79,Dialogue,,0,0,0,,But, if Genzaburou{\rHonorifics - Dialogue}-san{\r} who died in the fire is G\\Nthen Ayane{\rHonorifics - Dialogue}-san{\r} who jumped out the window is A'.
 Dialogue: 0,0:19:33.00,0:19:36.25,Dialogue,,0,0,0,,İn other words, there's no connection whatsoever!
-Dialogue: 0,0:19:36.46,0:19:39.46,Dialogue,,0,0,0,,Hey! Could it be a musıcal scale?
-Dialogue: 0,0:19:40.51,0:19:45.05,Dialogue,,0,0,0,,D, E, F, G, A. İn Italian it's Do, Re, Mı..
+Dialogue: 0,0:19:36.46,0:19:39.46,Dialogue,,0,0,0,,Hey! Could it be a musical scale?
+Dialogue: 0,0:19:40.51,0:19:45.05,Dialogue,,0,0,0,,D, E, F, G, A. İn Italian it's Do, Re, Mi..
 Dialogue: 0,0:19:45.60,0:19:49.72,Dialogue,,0,0,0,,But in English isn't it represented as C, D, E, F, G, A, B?
 Dialogue: 0,0:19:50.06,0:19:52.27,Dialogue,,0,0,0,,Isn't there some C-Major scale or something?
 Dialogue: 0,0:19:52.27,0:20:00.07,Signs,,0,0,0,,CDEFGAB
@@ -316,8 +315,8 @@ Dialogue: 0,0:20:37.19,0:20:40.40,Dialogue,,0,0,0,,ft seems she jumped on her ow
 Dialogue: 0,0:20:40.53,0:20:42.86,Dialogue,,0,0,0,,Hmmm, she didn't even hesitate...
 Dialogue: 0,0:20:43.07,0:20:47.53,Dialogue,,0,0,0,,Inspector, of course it's a suicide,\Nthis room was locked from the inside.
 Dialogue: 0,0:20:48.03,0:20:49.37,Dialogue,,0,0,0,,Locked from the inside?
-Dialogue: 0,0:20:49.66,0:20:53.37,Dialogue,,0,0,0,,Come to thınk of it, the room where Genzaburou{\rHonorifics - Dialogue}-san{\r}\Nburned to death was also locked from the inside
-Dialogue: 0,0:20:53.87,0:20:56.46,Dialogue,,0,0,0,,Before the fire started everyone was ın the annex.
+Dialogue: 0,0:20:49.66,0:20:53.37,Dialogue,,0,0,0,,Come to think of it, the room where Genzaburou{\rHonorifics - Dialogue}-san{\r}\Nburned to death was also locked from the inside
+Dialogue: 0,0:20:53.87,0:20:56.46,Dialogue,,0,0,0,,Before the fire started everyone was in the annex.
 Dialogue: 0,0:20:56.67,0:20:59.71,Dialogue,,0,0,0,,Ali four of these people could\Nhave had the chance to start the fire.
 Dialogue: 0,0:21:01.67,0:21:03.59,Dialogue,,0,0,0,,And this room was also locked from the inside.
 Dialogue: 0,0:21:04.51,0:21:06.84,Dialogue,,0,0,0,,But, there must have been some way..
@@ -325,7 +324,7 @@ Dialogue: 0,0:21:08.30,0:21:09.72,Dialogue,,0,0,0,,Hey! What's that?
 Dialogue: 0,0:21:10.60,0:21:14.93,Dialogue,,0,0,0,,There, that transparent square\Nthing at the top of the window glass.
 Dialogue: 0,0:21:17.52,0:21:19.52,Dialogue,,0,0,0,,Say, is that cellophane tape?
 Dialogue: 0,0:21:19.90,0:21:21.52,Dialogue,,0,0,0,,here s one on the right side too.
-Dialogue: 0,0:21:28.53,0:21:34.54,Dialogue,,0,0,0,,Say, Uncle Kogorou wanted me to ask if\Nanythıng strange fell down along with the body.
+Dialogue: 0,0:21:28.53,0:21:34.54,Dialogue,,0,0,0,,Say, Uncle Kogorou wanted me to ask if\Nanything strange fell down along with the body.
 Dialogue: 0,0:21:36.00,0:21:36.91,Dialogue,,0,0,0,,Oh, yeah.
 Dialogue: 0,0:21:41.13,0:21:43.59,Dialogue,,0,0,0,,Ah, and one more thing.
 Dialogue: 0,0:21:43.80,0:21:46.47,Dialogue,,0,0,0,,This piece looks like the sharp end of a chopstick.
@@ -349,8 +348,8 @@ Dialogue: 0,0:24:22.83,0:24:24.12,Dialogue,,0,0,0,,Conan{\rHonorifics - Dialogue
 Dialogue: 0,0:24:24.12,0:24:30.13,Dialogue,,0,0,0,,POSTLUDE
 Dialogue: 0,0:24:30.51,0:24:35.13,Signs,,0,0,0,,Perfect Pitch
 Dialogue: 0,0:24:30.96,0:24:32.63,Dialogue,,0,0,0,,Gelecek Conan İpucu:
-Dialogue: 0,0:24:34.80,0:24:35.38,Üstyazı,,0,0,0,,What's next time?
-Dialogue: 0,0:24:35.47,0:24:37.64,Üstyazı,,0,0,0,,Evenyone absolutely can't miss it.\Nminna to zettal akan yo
-Dialogue: 0,0:24:37.64,0:24:38.80,Üstyazı,,0,0,0,,Is that a pun?
-Dialogue: 0,0:24:38.81,0:24:39.60,Üstyazı,,0,0,0,,Yeah, well.
+Dialogue: 0,0:24:34.80,0:24:35.38,Dialogue Top,,0,0,0,,What's next time?
+Dialogue: 0,0:24:35.47,0:24:37.64,Dialogue Top,,0,0,0,,Evenyone absolutely can't miss it.\Nminna to zettal akan yo
+Dialogue: 0,0:24:37.64,0:24:38.80,Dialogue Top,,0,0,0,,Is that a pun?
+Dialogue: 0,0:24:38.81,0:24:39.60,Dialogue Top,,0,0,0,,Yeah, well.
 Dialogue: 0,0:24:35.14,0:24:40.10,Signs,,0,0,0,,Gelecek Bölümde Görüşürüz

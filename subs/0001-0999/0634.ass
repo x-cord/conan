@@ -33,7 +33,6 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: Adds,Arial,50,&H00FFFFFF,&H000000FF,&H003B5F1B,&H00000000,0,0,0,0,100,100,0,0,1,2,0,7,15,15,15,1
 
 [Events]
 Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
@@ -48,10 +47,10 @@ Dialogue: 0,0:02:07.14,0:02:08.22,Dialogue,,0,0,0,,Come in!
 Dialogue: 0,0:02:08.22,0:02:09.81,Dialogue,,0,0,0,,We have special discounts!
 Dialogue: 0,0:02:10.03,0:02:11.06,Dialogue,,0,0,0,,Come in!
 Dialogue: 0,0:02:13.15,0:02:14.27,Dialogue,,0,0,0,,Geez...
-Dialogue: 0,0:02:12.39,0:02:17.02,Signs,,0,0,0,,Nakamura Susumu (64)\NCompany Employee and Horse-Racing Fan
+Dialogue: 0,0:02:12.39,0:02:17.02,Character Card,,0,0,0,,Nakamura Susumu (64)\NCompany Employee and Horse-Racing Fan
 Dialogue: 0,0:02:14.65,0:02:17.65,Dialogue,,0,0,0,,The main race was an outrageous upset!
 Dialogue: 0,0:02:18.15,0:02:20.23,Dialogue,,0,0,0,,Aww, out-of-the-money!
-Dialogue: 0,0:02:20.40,0:02:23.70,Signs,,0,0,0,,Ougi Chihiro(35)\NJapanese Dance Instructor
+Dialogue: 0,0:02:20.40,0:02:23.70,Character Card,,0,0,0,,Ougi Chihiro(35)\NJapanese Dance Instructor
 Dialogue: 0,0:02:21.03,0:02:23.70,Dialogue,,0,0,0,,I can't possibly win thanks to that giant-killin' underdog!
 Dialogue: 0,0:02:26.08,0:02:28.83,Dialogue,,0,0,0,,Any chance you guys bet on the Touto Derby?
 Dialogue: 0,0:02:29.20,0:02:32.79,Dialogue,,0,0,0,,Loyal customers who love horse\Nbetting often come here on Saturdays.
@@ -63,7 +62,7 @@ Dialogue: 0,0:02:42.72,0:02:45.76,Dialogue,,0,0,0,,To tell the truth, I'm also a
 Dialogue: 0,0:02:46.02,0:02:46.91,Dialogue,,0,0,0,,Huh?
 Dialogue: 0,0:02:46.93,0:02:48.56,Dialogue,,0,0,0,,Please let me take a look.
 Dialogue: 0,0:02:48.89,0:02:49.60,Dialogue,,0,0,0,,Here you go.
-Dialogue: 0,0:02:50.56,0:02:56.06,Signs,,0,0,0,,Shinohara Masao (25)\NFreeter
+Dialogue: 0,0:02:50.56,0:02:56.06,Character Card,,0,0,0,,Shinohara Masao (25)\NFreeter
 Dialogue: 0,0:02:51.48,0:02:53.65,Dialogue,,0,0,0,,Trifecta on numbers 1,2, and 3?
 Dialogue: 0,0:02:54.02,0:02:56.36,Dialogue,,0,0,0,,Aren't these today's winning tickets at 100-1 odds!?
 Dialogue: 0,0:02:56.67,0:02:57.98,Dialogue,,0,0,0,,What was that!?
@@ -74,7 +73,7 @@ Dialogue: 0,0:03:10.90,0:03:12.41,Dialogue,,0,0,0,,But, these tickets...
 Dialogue: 0,0:03:12.83,0:03:13.79,Dialogue,,0,0,0,,Hostess!
 Dialogue: 0,0:03:13.79,0:03:16.62,Dialogue,,0,0,0,,Please bring each of us some drinks for starters!
 Dialogue: 0,0:03:17.04,0:03:18.09,Dialogue,,0,0,0,,My, my.
-Dialogue: 0,0:03:17.04,0:03:20.25,Signs,,0,0,0,,Mishima Satsuki (50)\NHostess
+Dialogue: 0,0:03:17.04,0:03:20.25,Character Card,,0,0,0,,Mishima Satsuki (50)\NHostess
 Dialogue: 0,0:03:18.09,0:03:20.55,Dialogue,,0,0,0,,Sir, aren't you a generous one!
 Dialogue: 0,0:03:20.80,0:03:23.17,Dialogue,,0,0,0,,Nah, you're flattering me.
 Dialogue: 0,0:03:27.22,0:03:29.68,Dialogue,,0,0,0,,Uhm, what was that just now?
@@ -424,7 +423,6 @@ Dialogue: 0,0:23:51.62,0:23:52.78,Dialogue,,0,0,0,,I won't forgive you!
 Dialogue: 0,0:23:52.81,0:23:53.70,Dialogue,,0,0,0,,Pretty please!
 Dialogue: 0,0:23:53.72,0:23:54.78,Dialogue,,0,0,0,,Wait up!
 Dialogue: 0,0:23:56.27,0:23:58.81,Dialogue,,0,0,0,,Will he be able to gallop away from this?
-Dialogue: 0,0:23:59.98,0:24:00.64,Signs,,0,0,0,,Next Episode
 Dialogue: 0,0:24:00.66,0:24:04.52,Dialogue,,0,0,0,,{text from 635} Let your body soak in its energy to the fullest.
 Dialogue: 0,0:24:05.07,0:24:06.90,Dialogue,,0,0,0,,Why do I have to go on a yoga diet too?
 Dialogue: 0,0:24:07.55,0:24:09.64,Dialogue,,0,0,0,,The lawsuit was against me...
@@ -436,7 +434,6 @@ Dialogue: 0,0:24:21.91,0:24:24.00,Dialogue,,0,0,0,,I'm going to solve it right h
 Dialogue: 0,0:24:24.40,0:24:29.83,Dialogue,,0,0,0,,BEWARE OF DIETING
 Dialogue: 0,0:24:45.59,0:24:47.74,Dialogue,,0,0,0,,Next Conan's Hint
 Dialogue: 0,0:24:47.76,0:24:50.03,Dialogue,,0,0,0,,Microwave
-Dialogue: 0,0:24:50.06,0:24:54.79,Adds,,0,0,0,,Look Forward to the Next Episode
 Dialogue: 0,0:24:50.41,0:24:51.50,Dialogue,,0,0,0,,Merry Christmas!
 Dialogue: 0,0:24:51.53,0:24:52.86,Dialogue,,0,0,0,,Whay the haste? Still too early for that!
 Dialogue: 0,0:24:52.89,0:24:54.79,Dialogue,,0,0,0,,Viewers, let's meet again around then.

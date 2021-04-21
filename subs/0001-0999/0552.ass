@@ -33,8 +33,6 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: title001,Comic Sans MS,15,&H00504543,&H000000FF,&H00DEDBDD,&H00000000,-1,0,0,0,100,100,0,0,3,1,0,2,0,37,190,1
-Style: title002,Comic Sans MS,22,&H0047413E,&H000000FF,&H00DBD7D6,&H00000000,-1,0,0,0,100,100,0,0,3,1,0,2,0,0,250,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -64,7 +62,7 @@ Dialogue: 0,0:01:23.41,0:01:25.02,Dialogue,,0,0,0,,Will both be revealed at last
 Dialogue: 0,0:01:25.27,0:01:26.89,Dialogue,,0,0,0,,Perceiving the one and only truth...
 Dialogue: 0,0:01:26.89,0:01:28.76,Dialogue,,0,0,0,,The appearance of a child and the intellect of an adult...
 Dialogue: 0,0:01:28.76,0:01:30.64,Dialogue,,0,0,0,,His name is: Detective Conan!
-Dialogue: 0,0:03:17.75,0:03:21.01,title001,,0,0,0,,{\t(0,3260,\fs17\fad(0,50)}Waiting Room A
+Dialogue: 0,0:03:17.75,0:03:21.01,Signs,,0,0,0,,Waiting Room A
 Dialogue: 0,0:03:18.37,0:03:21.00,Dialogue,,0,0,0,,waiting room\NWhile I was waiting in this hikaeshitsu...
 Dialogue: 0,0:03:21.96,0:03:24.88,Dialogue,,0,0,0,,I heard a door being knocked on elsewhere.
 Dialogue: 0,0:03:24.88,0:03:28.59,Dialogue,,0,0,0,,Then, I heard a scream and a loud noise so I went out to look.
@@ -78,7 +76,7 @@ Dialogue: 0,0:03:51.82,0:03:53.95,Dialogue,,0,0,0,,Yeah, that was it.
 Dialogue: 0,0:03:54.49,0:03:59.46,Dialogue,,0,0,0,,By the way, how many push-ups did you complete in three minutes?
 Dialogue: 0,0:04:03.38,0:04:04.63,Dialogue,,0,0,0,,About a hundred.
 Dialogue: 0,0:04:04.88,0:04:06.80,Dialogue,,0,0,0,,I see.
-Dialogue: 0,0:04:06.80,0:04:09.81,title002,,0,0,0,,Waiting Room B
+Dialogue: 0,0:04:06.80,0:04:09.81,Signs,,0,0,0,,Waiting Room B
 Dialogue: 0,0:04:07.26,0:04:09.80,Dialogue,,0,0,0,,Oh, that means...
 Dialogue: 0,0:04:10.22,0:04:13.22,Dialogue,,0,0,0,,You also heard someone knocking on the door of another room...
 Dialogue: 0,0:04:13.22,0:04:16.72,Dialogue,,0,0,0,,And after hearing the scream and loud noise...
@@ -96,7 +94,7 @@ Dialogue: 0,0:04:44.29,0:04:45.25,Dialogue,,0,0,0,,Kuroda Bushi.
 Dialogue: 0,0:04:45.75,0:04:47.13,Dialogue,,0,0,0,,Do you want me to sing it?
 Dialogue: 0,0:04:47.34,0:04:48.80,Dialogue,,0,0,0,,There's no need...
 Dialogue: 0,0:04:49.05,0:04:49.84,Dialogue,,0,0,0,,If you would, please!
-Dialogue: 0,0:04:51.81,0:04:54.81,title002,,0,0,0,,Waiting Room C
+Dialogue: 0,0:04:51.81,0:04:54.81,Signs,,0,0,0,,Waiting Room C
 Dialogue: 0,0:04:53.30,0:04:54.80,Dialogue,,0,0,0,,Yeah; it's the same as those other two.
 Dialogue: 0,0:04:55.55,0:04:58.56,Dialogue,,0,0,0,,I heard a loud scream and noise so I rushed out.
 Dialogue: 0,0:04:59.10,0:05:03.95,Dialogue Top,,0,0,0,,That's when I saw the old man lying all\Nby himself on the floor downstairs.
@@ -281,7 +279,7 @@ Dialogue: 0,0:15:06.75,0:15:09.38,Dialogue,,0,0,0,,Sounds like a typical Tokyoit
 Dialogue: 0,0:15:09.92,0:15:12.30,Dialogue,,0,0,0,,I guess I have to go take a look!
 Dialogue: 0,0:15:13.13,0:15:14.34,Dialogue,,0,0,0,,Genta{\rHonorifics - Dialogue}-kun{\r}!
 Dialogue: 0,0:15:14.34,0:15:14.96,Dialogue,,0,0,0,,Excuse me.
-Dialogue: 0,0:15:19.31,0:15:21.77,title002,,0,0,0,,{\fad(100,0)}Waiting Room
+Dialogue: 0,0:15:19.31,0:15:21.77,Signs,,0,0,0,,Waiting Room
 Dialogue: 0,0:15:19.97,0:15:21.76,Dialogue,,0,0,0,,What is this about?
 Dialogue: 0,0:15:22.18,0:15:24.52,Dialogue,,0,0,0,,Gathering us in such a room...
 Dialogue: 0,0:15:24.52,0:15:27.10,Dialogue,,0,0,0,,Didn't you finish your interrogation?

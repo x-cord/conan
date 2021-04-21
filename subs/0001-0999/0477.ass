@@ -33,9 +33,6 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: gtitle,@HGPSoeiKakupoptai-CP,25,&H00000000,&H000000FF,&H00000000,&H00000000,-1,0,0,0,150,100,0,0,1,0,0,8,10,10,20,1
-Style: gtitle02,Comic Sans MS,35,&H00151724,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,2,270,0,175,1
-Style: gtitle03,Comic Sans MS,35,&H00151724,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,2,270,0,85,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -128,8 +125,8 @@ Dialogue: 0,0:06:37.82,0:06:39.70,Dialogue,,0,0,0,,I'm just a fan.
 Dialogue: 0,0:06:40.57,0:06:42.24,Dialogue,,0,0,0,,Hold on a second.
 Dialogue: 0,0:06:42.24,0:06:46.70,Dialogue,,0,0,0,,On his driver's license, the kanji he uses for\N"Hiromasa" can also be used for "Taishou", right?
 Dialogue: 0,0:06:46.70,0:06:47.79,Dialogue,,0,0,0,,I guess it is.
-Dialogue: 0,0:06:48.08,0:06:52.04,gtitle,,0,0,0,,{\fad(0,200)\blur50\t(0,240,\blur0)\1c&H000000&\t(1100,1481,\1c&HFFAA69&)\bord0\shad0\t(2550,2900,\blur5\bord10\1c&HFFFFFF&\3c&HFFFFFF&}INA{\bord0\1c\blur50\t(0,240,\blur0)}GAKI
-Dialogue: 0,0:06:52.04,0:06:55.13,gtitle,,0,0,0,,{\fad(250,0}GAKIDAISHO
+Dialogue: 0,0:06:48.08,0:06:52.04,Signs,,0,0,0,,INAGAKI
+Dialogue: 0,0:06:52.04,0:06:55.13,Signs,,0,0,0,,GAKIDAISHO
 Dialogue: 0,0:06:48.37,0:06:51.54,Dialogue,,0,0,0,,So, if you took out the "Ina" kanji from your name...
 Dialogue: 0,0:06:53.79,0:06:55.13,Dialogue,,0,0,0,,"Neighborhood Kids Leader"!
 Dialogue: 0,0:06:55.71,0:06:57.50,Dialogue,,0,0,0,,That's Genta{\rHonorifics - Dialogue}-kun{\r}!
@@ -146,10 +143,10 @@ Dialogue: 0,0:07:27.83,0:07:31.21,Dialogue,,0,0,0,,But, with him being German, m
 Dialogue: 0,0:07:31.71,0:07:32.50,Dialogue,,0,0,0,,Did you forget?
 Dialogue: 0,0:07:33.04,0:07:37.59,Dialogue,,0,0,0,,His previous wife was British, meaning he can speak English.
 Dialogue: 0,0:07:38.00,0:07:40.84,Dialogue,,0,0,0,,He would have definitely read L-O-V-E as "love".
-Dialogue: 0,0:07:41.30,0:07:44.09,gtitle02,,0,0,0,,KARAI\N{\fs18\alpha&FF&\t(1690,1790,\alpha&H00&}SPICEY
-Dialogue: 0,0:07:41.30,0:07:44.09,gtitle03,,0,0,0,,TSURAI\N{\fs18\alpha&FF&\t(2300,2400,\alpha&H00&}TRING
-Dialogue: 0,0:07:44.10,0:07:48.32,gtitle02,,0,0,0,,OSATSU\N{\fs18\alpha&FF&\t(750,850,\alpha&H00&}BILL
-Dialogue: 0,0:07:44.10,0:07:48.32,gtitle03,,0,0,0,,OFUDA\N{\fs18\alpha&FF&\t(1380,1480,\alpha&H00&}LABEL
+Dialogue: 0,0:07:41.30,0:07:44.09,Signs,,0,0,0,,KARAI\NSPICEY
+Dialogue: 0,0:07:41.30,0:07:44.09,Signs,,0,0,0,,TSURAI\NTRING
+Dialogue: 0,0:07:44.10,0:07:48.32,Signs,,0,0,0,,OSATSU\NBILL
+Dialogue: 0,0:07:44.10,0:07:48.32,Signs,,0,0,0,,OFUDA\NLABEL
 Dialogue: 0,0:07:41.76,0:07:47.76,Dialogue,,0,0,0,,It isn't like Japanese where "karai" can be "tsurai" and\N"osatsu" can be "ofuda". (Spicy -> Tiring, Bill -> Label)
 Dialogue: 0,0:07:50.52,0:07:51.77,Dialogue,,0,0,0,,I see...
 Dialogue: 0,0:07:51.77,0:07:52.85,Dialogue,,0,0,0,,That's how it is.

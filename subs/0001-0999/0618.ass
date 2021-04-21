@@ -33,7 +33,6 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: default01,Batang,15,&H00FDFEFE,&H000000FF,&H00080A08,&H00000000,-1,0,0,0,100,100,0,0,1,0.8,0,2,10,10,3,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -109,30 +108,30 @@ Dialogue: 0,0:05:38.43,0:05:41.60,Dialogue,,0,0,0,,That means he's doing this kn
 Dialogue: 0,0:05:44.02,0:05:47.19,Dialogue,,0,0,0,,Having been told that the "loud sound of a rolling bell" is Big Ben...
 Dialogue: 0,0:05:47.19,0:05:49.19,Dialogue,,0,0,0,,You'd think that does make sense, but...
 Dialogue: 0,0:05:49.65,0:05:54.99,Dialogue,,0,0,0,,It's not like there are buildings shaped like\Nan egg or pickles scattering around here!
-Dialogue: 0,0:05:54.99,0:05:56.32,default01,,0,0,0,,Excuse me!
+Dialogue: 0,0:05:54.99,0:05:56.32,Dialogue,,0,0,0,,Excuse me!
 Dialogue: 0,0:05:56.32,0:05:56.74,Dialogue,,0,0,0,,Yes?
-Dialogue: 0,0:05:56.82,0:06:02.20,default01,,0,0,0,,Is there an egg-shaped building here in London?
-Dialogue: 0,0:06:02.37,0:06:05.66,default01,,0,0,0,,Ah yes, there's a City Hall near the Tower Bridge!
-Dialogue: 0,0:06:05.75,0:06:07.54,default01,,0,0,0,,Is there!?
+Dialogue: 0,0:05:56.82,0:06:02.20,Dialogue,,0,0,0,,Is there an egg-shaped building here in London?
+Dialogue: 0,0:06:02.37,0:06:05.66,Dialogue,,0,0,0,,Ah yes, there's a City Hall near the Tower Bridge!
+Dialogue: 0,0:06:05.75,0:06:07.54,Dialogue,,0,0,0,,Is there!?
 Dialogue: 0,0:06:13.01,0:06:16.55,Dialogue,,0,0,0,,Who would've thought there'd really be a building shaped like this...
 Dialogue: 0,0:06:16.59,0:06:17.10,Dialogue,,0,0,0,,Then...
 Dialogue: 0,0:06:17.68,0:06:18.80,Dialogue,,0,0,0,,The third line...
 Dialogue: 0,0:06:18.80,0:06:22.60,Dialogue,,0,0,0,,"My morsel is a boiled egg that's gone\Nas cold as a corpse" refers to...
 Dialogue: 0,0:06:23.43,0:06:24.98,Dialogue,,0,0,0,,This City Hall, doesn't it?
-Dialogue: 0,0:06:24.98,0:06:28.19,default01,,0,0,0,,What are these words... a code?
-Dialogue: 0,0:06:29.40,0:06:31.23,default01,,0,0,0,,Do they mean a name?
-Dialogue: 0,0:06:32.07,0:06:34.74,default01,,0,0,0,,The doll's name is Mazarin Stone!
+Dialogue: 0,0:06:24.98,0:06:28.19,Dialogue,,0,0,0,,What are these words... a code?
+Dialogue: 0,0:06:29.40,0:06:31.23,Dialogue,,0,0,0,,Do they mean a name?
+Dialogue: 0,0:06:32.07,0:06:34.74,Dialogue,,0,0,0,,The doll's name is Mazarin Stone!
 Dialogue: 0,0:06:35.32,0:06:36.45,Dialogue,,0,0,0,,Mazarin Stone...
 Dialogue: 0,0:06:37.32,0:06:38.74,Dialogue,,0,0,0,,"Mazarin no Houseki"...
 Dialogue: 0,0:06:39.07,0:06:39.57,Dialogue,,0,0,0,,Hi!
-Dialogue: 0,0:06:40.91,0:06:43.08,default01,,0,0,0,,How did you get the doll?
-Dialogue: 0,0:06:43.16,0:06:43.99,default01,,0,0,0,,The doll?
-Dialogue: 0,0:06:44.16,0:06:45.50,default01,,0,0,0,,I found it there!
-Dialogue: 0,0:06:45.79,0:06:46.83,default01,,0,0,0,,Beside the bench.
-Dialogue: 0,0:06:47.37,0:06:48.87,default01,,0,0,0,,Under the shrubs.
-Dialogue: 0,0:06:49.04,0:06:50.58,default01,,0,0,0,,Can I see that?
-Dialogue: 0,0:06:51.13,0:06:52.71,default01,,0,0,0,,You can keep it!
-Dialogue: 0,0:06:53.25,0:06:55.55,default01,,0,0,0,,I've got plenty already!
+Dialogue: 0,0:06:40.91,0:06:43.08,Dialogue,,0,0,0,,How did you get the doll?
+Dialogue: 0,0:06:43.16,0:06:43.99,Dialogue,,0,0,0,,The doll?
+Dialogue: 0,0:06:44.16,0:06:45.50,Dialogue,,0,0,0,,I found it there!
+Dialogue: 0,0:06:45.79,0:06:46.83,Dialogue,,0,0,0,,Beside the bench.
+Dialogue: 0,0:06:47.37,0:06:48.87,Dialogue,,0,0,0,,Under the shrubs.
+Dialogue: 0,0:06:49.04,0:06:50.58,Dialogue,,0,0,0,,Can I see that?
+Dialogue: 0,0:06:51.13,0:06:52.71,Dialogue,,0,0,0,,You can keep it!
+Dialogue: 0,0:06:53.25,0:06:55.55,Dialogue,,0,0,0,,I've got plenty already!
 Dialogue: 0,0:06:56.26,0:06:57.51,Dialogue,,0,0,0,,Goodbye!
 Dialogue: 0,0:06:59.22,0:07:00.18,Dialogue,,0,0,0,,What's that?
 Dialogue: 0,0:07:01.01,0:07:03.81,Dialogue,,0,0,0,,This might have something to do with that code.

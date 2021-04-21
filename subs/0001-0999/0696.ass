@@ -33,7 +33,6 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: HitomiRomaji,Ubuntu,40,&HC0FF0000,&H000000FF,&H00FFFFFF,&H00000000,-1,0,0,0,105,100,0,0,1,3.4,1,8,10,10,30,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -83,10 +82,10 @@ Dialogue: 0,0:04:06.47,0:04:08.34,Dialogue,,0000,0000,0000,,Babysitting a bunch 
 Dialogue: 0,0:04:08.34,0:04:10.94,Dialogue,,0000,0000,0000,,Oh, you all came?
 Dialogue: 0,0:04:15.85,0:04:17.56,Dialogue,,0000,0000,0000,,She's so beautiful!
 Dialogue: 0,0:04:17.56,0:04:21.32,Dialogue,,0000,0000,0000,,Good morning, Yamazaki{\rHonorifics - Dialogue}-san{\r}, Saki{\rHonorifics - Dialogue}-san{\r}!
-Dialogue: 0,0:04:21.52,0:04:25.94,Signs,,0000,0000,0000,,Toshiko Yamazaki (43)\NTown Centre Staff Member
+Dialogue: 0,0:04:21.52,0:04:25.94,Character Card,,0000,0000,0000,,Toshiko Yamazaki (43)\NTown Centre Staff Member
 Dialogue: 0,0:04:22.69,0:04:25.94,Dialogue Top,,0000,0000,0000,,It's annoying how this gets vandalised every morning.
 Dialogue: 0,0:04:25.94,0:04:29.37,Dialogue,,0000,0000,0000,,Miss, do you work at this centre?
-Dialogue: 0,0:04:29.62,0:04:33.04,Signs,,0000,0000,0000,,Saki Okamura (24)\NTown Centre Staff Member
+Dialogue: 0,0:04:29.62,0:04:33.04,Character Card,,0000,0000,0000,,Saki Okamura (24)\NTown Centre Staff Member
 Dialogue: 0,0:04:29.37,0:04:33.04,Dialogue Top,,0000,0000,0000,,Y-Yes, that's right. And you are?
 Dialogue: 0,0:04:33.04,0:04:36.66,Dialogue,,0000,0000,0000,,I accepted a request to investigate the flowerbed vandal,
 Dialogue: 0,0:04:36.66,0:04:39.79,Dialogue,,0000,0000,0000,,I'm the Great Detective Kogorō Mouri!
@@ -96,7 +95,7 @@ Dialogue: 0,0:04:46.05,0:04:49.02,Dialogue,,0000,0000,0000,,S-Sure! Excuse me.
 Dialogue: 0,0:04:54.18,0:04:55.44,Dialogue,,0000,0000,0000,,Nice to see you.
 Dialogue: 0,0:04:56.06,0:04:58.89,Dialogue,,0000,0000,0000,,Ah, that's not how you use splints.
 Dialogue: 0,0:04:58.89,0:05:02.73,Dialogue Top,,0000,0000,0000,,If you amateurs try and fix it,\Nyou'll just make the flowerbed even worse.
-Dialogue: 0,0:04:59.14,0:05:02.73,CharCards,,0000,0050,0160,,{\fad(250,0)}Ryūnosuke Okuda (57)\NFlower Shop Owner
+Dialogue: 0,0:04:59.14,0:05:02.73,Character Card,,0000,0050,0160,,{\fad(250,0)}Ryūnosuke Okuda (57)\NFlower Shop Owner
 Dialogue: 0,0:05:02.73,0:05:06.99,Dialogue,,0000,0000,0000,,I asked you for a delivery, not your idle comments!
 Dialogue: 0,0:05:06.99,0:05:10.49,Dialogue,,0000,0000,0000,,How about you leave the repairs to a professional?
 Dialogue: 0,0:05:10.49,0:05:11.62,Dialogue,,0000,0000,0000,,I'll give you a good price.
@@ -362,14 +361,6 @@ Dialogue: 0,0:23:59.66,0:24:04.71,Dialogue,NCH,0000,0000,0000,,Next Conan's Hint
 Dialogue: 0,0:24:04.71,0:24:05.54,Dialogue Top,,0000,0000,0000,,Hold on!
 Dialogue: 0,0:24:05.54,0:24:07.12,Dialogue Top,,0000,0000,0000,,I'm gonna solve the next case!
 Dialogue: 0,0:24:07.12,0:24:09.83,Dialogue Top,,0000,0000,0000,,The old man got hooked by the title...
-Dialogue: 0,0:21:55.91,0:22:03.71,HitomiRomaji,,0000,0000,0000,,{\3c&HFFD4D4&\blur4}miagetara haru no ame machi ni oritekita
-Dialogue: 0,0:22:03.92,0:22:11.63,HitomiRomaji,,0000,0000,0000,,{\3c&HFFD4D4&\blur4}kimi no aruku michi nurashite yuku
-Dialogue: 0,0:22:12.51,0:22:20.48,HitomiRomaji,,0000,0000,0000,,{\3c&HFFD4D4&\blur4}kinō sasatta toge no yō na kimi no kotoba hitotsu
-Dialogue: 0,0:22:20.68,0:22:28.15,HitomiRomaji,,0000,0000,0000,,{\3c&HFFD4D4&\blur4}mada honto wa nani mo shiranai yo
-Dialogue: 0,0:22:29.78,0:22:46.29,HitomiRomaji,,0000,0000,0000,,{\blur4}sunao ni nareba kodoku nante nai yo hitori de wa nai kara
-Dialogue: 0,0:22:46.96,0:22:54.80,HitomiRomaji,,0000,0000,0000,,{\blur4\3c&HEFF9FD&}don'na mirai kimi to mirai
-Dialogue: 0,0:22:55.05,0:23:04.31,HitomiRomaji,,0000,0000,0000,,{\blur4\3c&HEFF9FD&}sono hitomi no shita e to tashikame ni yuku yo
-Dialogue: 0,0:23:04.69,0:23:12.24,HitomiRomaji,,0000,0000,0000,,{\blur4\3c&HEFF9FD&\fad(0,750)}yukkuri to orite yuku kara
 Dialogue: 0,0:23:45.12,0:23:47.32,Narration Off,,0000,0000,0000,,{\be10}A shocking job from a classmate of Ran's!
 Dialogue: 0,0:23:47.32,0:23:50.86,Narration Off,,0000,0000,0000,,{\be10}A trap was set for a female student at her school!
 Dialogue: 0,0:23:50.86,0:23:54.02,Narration Off,,0000,0000,0000,,{\be10}Detective Conan: 'The Window at the Girls' School'!
