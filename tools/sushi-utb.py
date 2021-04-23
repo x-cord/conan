@@ -1,4 +1,3 @@
-import os
 import re
 import glob
 import subprocess
