@@ -451,6 +451,7 @@ for folder in next(os.walk("../og"))[1]:
                     if r"\fn" in line:
                         continue
                     line = line.replace(r"\h", " ")
+                    line = line.replace("-nee-chan", "-neechan")
                     line = line.strip()
                     line = line.replace("ı", "i")
                     line = line.replace(r"\a6", r"\an8")

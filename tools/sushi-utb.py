@@ -68,7 +68,9 @@ for file in files:
     mkv = glob.glob(glob.escape("[UTB] Detective Conan 128-131,150-156,158-420 [English SUB]/")+f"*{ep}*.mkv")
     if not mkv:
         print("missing src mkv", ep)
+        continue
     dst = glob.glob(glob.escape("[RAW Reghost-Fabre] Detective Conan [001-520][DVDR2J][480p][Hi10][AC3]/")+f"**/*Conan {ep}*.mkv")
     if not dst:
         print("missing dst mkv", ep)
+        continue
     subprocess.run(["sushi", "--src", mkv[0], "--dst", dst[0], "--script", "subs/0001-0999/"+file])
