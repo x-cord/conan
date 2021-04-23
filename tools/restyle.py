@@ -48,6 +48,7 @@ honorifics = [
     "neesan",
     "aneki",
     "aniki",
+    "zeki",
 ]
 
 shown = set()
@@ -467,9 +468,11 @@ for folder in next(os.walk("../og"))[1]:
                     if ",Thoughts,Comment," in line and r"\fs" in line:
                         parts[3] = "Signs"
                         line = ",".join(parts)
-                    if parts[9].startswith("Note:"):
+                    if parts[9].startswith("Note:") or r"{\an8\fad(200,200)}" in line:
                         parts[3] = "Signs"
                         line = ",".join(parts)
+                        line = line.replace(r"{\an8\fad(200,200)}", "")
+                        parts = line.split(",")
                     style = parts[3]
                     if style == "ScreenText" and (r"\fs" in line or ",OP JP," in line):
                         continue
