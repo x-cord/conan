@@ -463,6 +463,9 @@ for folder in next(os.walk("../og"))[1]:
                     line = line.replace("{}", "")
                     line = line.replace("Dialogue: 1,", "Dialogue: 0,")
                     parts = line.split(",")
+                    parts[5] = "0"
+                    parts[6] = "0"
+                    parts[7] = "0"
                     parts[9] = parts[9].strip()
                     line = ",".join(parts)
                     if ",Thoughts,Comment," in line and r"\fs" in line:
@@ -764,7 +767,6 @@ for folder in next(os.walk("../og"))[1]:
                     if line.startswith("Comment: "):
                         continue
                     elif re.sub(r"Base\d+", "", style) == "":
-
                         style = "Dialogue"
                         parts[3] = style
                         line = ",".join(parts)
