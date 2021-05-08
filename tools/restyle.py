@@ -49,6 +49,15 @@ honorifics = [
     "aneki",
     "aniki",
     "zeki",
+    "han",
+    "niichan",
+    "dono",
+    "ojosama",
+    "niisan",
+    "oniisama",
+    "ojisan",
+    "nee",
+    "nii",
 ]
 
 shown = set()
@@ -438,7 +447,7 @@ for folder in next(os.walk("../og"))[1]:
                     skip_empty = True
                 if line.startswith("Video File: ") or line.startswith("Audio File: "):
                     continue
-                parts = line.split(",")
+                parts = line.split(",", 9)
                 if line.startswith("Dialogue: ") or line.startswith("Comment: "):
                     if r"\p1" in line:
                         continue
@@ -451,6 +460,11 @@ for folder in next(os.walk("../og"))[1]:
                     if r"\fn" in line:
                         continue
                     line = line.replace(r"\h", " ")
+                    line = line.replace("sempai", "senpai")
+                    line = line.replace("ojōsama", "ojosama")
+                    line = line.replace("ojousama", "ojosama")
+                    line = line.replace("nêchan", "neechan")
+                    line = line.replace("néechan", "neechan")
                     line = line.replace("-nee-chan", "-neechan")
                     line = line.strip()
                     line = line.replace("ı", "i")
@@ -463,7 +477,7 @@ for folder in next(os.walk("../og"))[1]:
                     line = re.sub(r"\\r[^\\}]*", "", line)
                     line = line.replace("{}", "")
                     line = line.replace("Dialogue: 1,", "Dialogue: 0,")
-                    parts = line.split(",")
+                    parts = line.split(",", 9)
                     parts[5] = "0"
                     parts[6] = "0"
                     parts[7] = "0"
@@ -476,7 +490,7 @@ for folder in next(os.walk("../og"))[1]:
                         parts[3] = "Signs"
                         line = ",".join(parts)
                         line = line.replace(r"{\an8\fad(200,200)}", "")
-                        parts = line.split(",")
+                        parts = line.split(",", 9)
                     style = parts[3]
                     if style == "ScreenText" and (r"\fs" in line or ",OP JP," in line):
                         continue
@@ -525,10 +539,10 @@ for folder in next(os.walk("../og"))[1]:
                         line = line.replace(r"\}", "}")
                         line = line.replace("{}", "")
                         line = line.replace(r"\c)", "")
-                        parts = line.split(",")
+                        parts = line.split(",", 9)
                         parts[9] = r"{\be10}" + parts[9]
                         line = ",".join(parts)
-                        parts = line.split(",")
+                        parts = line.split(",", 9)
                     style = parts[3]
                     if (r"\pos" in line or r"\move" in line) and style not in remove:
                         if style != "Character Card":
@@ -537,14 +551,14 @@ for folder in next(os.walk("../og"))[1]:
                                 continue
                         line = ",".join(parts)
                         line = re.sub(r"{[^}]*}", "", line)
-                        parts = line.split(",")
+                        parts = line.split(",", 9)
                     style = parts[3]
                     if r"\an8" in line and style == "Dialogue":
                         parts[3] = "Dialogue Top"
                         line = ",".join(parts)
                         line = line.replace(r"\an8", "")
                         line = line.replace("{}", "")
-                        parts = line.split(",")
+                        parts = line.split(",", 9)
                     style = parts[3]
                     if parts[9].startswith("Note:"):
                         parts[3] = "Signs"
@@ -554,7 +568,7 @@ for folder in next(os.walk("../og"))[1]:
                         parts[3] = "Character Card"
                         line = ",".join(parts)
                         line = line.replace("Comment: ", "Dialogue: ")
-                        parts = line.split(",")
+                        parts = line.split(",", 9)
                     elif "YZS" in line:
                         continue
                     elif style in remove:
@@ -614,10 +628,10 @@ for folder in next(os.walk("../og"))[1]:
                         line = line.replace(r"\}", "}")
                         line = line.replace("{}", "")
                         line = line.replace(r"\c)", "")
-                        parts = line.split(",")
+                        parts = line.split(",", 9)
                         parts[9] = r"{\be10}" + parts[9]
                         line = ",".join(parts)
-                        parts = line.split(",")
+                        parts = line.split(",", 9)
                     if (
                         style == "Dialogue"
                         or style == "Dialogue Top"
@@ -644,16 +658,16 @@ for folder in next(os.walk("../og"))[1]:
                         line = line.replace(r"\}", "}")
                         line = line.replace("{}", "")
                         line = line.replace(r"\c)", "")
-                        parts = line.split(",")
+                        parts = line.split(",", 9)
                     if r"\an8" in line and style == "Dialogue":
                         parts[3] = "Dialogue Top"
                         line = ",".join(parts)
                         line = line.replace(r"\an8", "")
                         line = line.replace("{}", "")
-                        parts = line.split(",")
+                        parts = line.split(",", 9)
                     else:
                         line = re.sub(r"\\an[0-7]+", "", line)
-                        parts = line.split(",")
+                        parts = line.split(",", 9)
                     if parts[9].startswith("Note:"):
                         parts[3] = "Signs"
                         line = ",".join(parts)
@@ -670,7 +684,7 @@ for folder in next(os.walk("../og"))[1]:
                         .replace("﻿", ""),
                     )
                     line = line.replace("…", "...")
-                    parts = line.split(",")
+                    parts = line.split(",", 9)
                     for honorific in honorifics:
                         if honorific in line:
                             if r"\be10" in line:
@@ -702,7 +716,52 @@ for folder in next(os.walk("../og"))[1]:
                                 r"\1\2\3",
                                 line,
                             )
-                            parts = line.split(",")
+                            parts = line.split(",", 9)
+                    if r"\be10" in line:
+                        line = re.sub(
+                            r"-{\\i1}([^{ ]*){\\i0}|{\\i1}-([^{ ])*{\\i0}",
+                            r"{\\rHonorifics - "
+                            + (style.replace(" Top", ""))
+                            + r"\\be10}-\1\2"
+                            + r"{\\r\\be10}",
+                            line,
+                        )
+                    else:
+                        line = re.sub(
+                            r"-{\\i1}([^{ ]*){\\i0}|{\\i1}-([^{ ])*{\\i0}",
+                            r"{\\rHonorifics - "
+                            + (style.replace(" Top", ""))
+                            + r"}-\1\2"
+                            + r"{\\r}",
+                            line,
+                        )
+                    for honorific in honorifics:
+                        if honorific in line:
+                            if r"\be10" in line:
+                                line = re.sub(
+                                    r"{\\i1}"
+                                    + honorific
+                                    + r"{\\i0}",
+                                    r"{\\rHonorifics - "
+                                    + (style.replace(" Top", ""))
+                                    + r"\\be10}"
+                                    + honorific
+                                    + r"{\\r\\be10}",
+                                    line,
+                                )
+                            else:
+                                line = re.sub(
+                                    r"{\\i1}"
+                                    + honorific
+                                    + r"{\\i0}",
+                                    r"{\\rHonorifics - "
+                                    + (style.replace(" Top", ""))
+                                    + r"}"
+                                    + honorific
+                                    + r"{\\r}",
+                                    line,
+                                )
+                    parts = line.split(",", 9)
                     parts[9] = parts[9].strip()
                     parts[9] = re.sub(r"^\.([^\.])", r"\1", parts[9])
                     parts[9] = parts[9].strip()
@@ -734,7 +793,7 @@ for folder in next(os.walk("../og"))[1]:
                     line = line.replace(r" \N", r"\N")
                     line = line.replace(r"\N ", r"\N")
                     line = line.replace(r"\N ", r"\N")
-                    parts = line.split(",")
+                    parts = line.split(",", 9)
                     parts[9] = (
                         parts[9].replace(r"\N", "\n").strip().replace("\n", r"\N")
                     )
@@ -751,7 +810,20 @@ for folder in next(os.walk("../og"))[1]:
                     line = line.replace("— ", r"—\h")
                     line = re.sub(r"—\\h$", "—", line)
                     line = line.strip()
-                    parts = line.split(",")
+                    parts = line.split(",", 9)
+                    if group == "UTB":
+                        parts[9] = re.sub(r"^,+", "", parts[9])
+                        parts[9] = re.sub(r"\s*\\N\s*([a-z])", r" \1", parts[9])
+                        parts[9] = re.sub(r"\s*,", ",", parts[9])
+                        parts[9] = re.sub(r",,+", ",", parts[9])
+                        parts[9] = re.sub(r",([a-z])", r", \1", parts[9])
+                    parts[9] = re.sub(r"[,.]{3}", "...", parts[9])
+                    parts[9] = parts[9].replace(" ,", ",")
+                    parts[9] = parts[9].replace(r"{}", "")
+                    parts[9] = parts[9].replace(r"{\N}", "")
+                    parts[9] = re.sub(r"\.{3,}$", "...", parts[9])
+                    parts[9] = parts[9].strip()
+                    line = ",".join(parts)
                     if (
                         not re.sub(r"{[^}]*}", "", ",".join(parts[9:]))
                         .strip()
@@ -777,7 +849,7 @@ for folder in next(os.walk("../og"))[1]:
                             line = ",".join(parts)
                             line = line.replace(r"\an8", "")
                             line = line.replace("{}", "")
-                            parts = line.split(",")
+                            parts = line.split(",", 9)
                 elif line.startswith("Style: "):
                     style = parts[0].split(": ")[1]
                     if style in remove:
@@ -850,7 +922,7 @@ for folder in next(os.walk("../og"))[1]:
                 for line in lines:
                     line = line.rstrip()
                     if line.startswith("Style: "):
-                        parts = line.split(",")
+                        parts = line.split(",", 9)
                         style = parts[0].replace("Style: ", "")
                         if "," + style + "," not in out:
                             continue
