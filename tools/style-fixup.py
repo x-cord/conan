@@ -79,6 +79,7 @@ for folder in next(os.walk("../subs"))[1]:
                     line = ",".join(parts)
                 out += line + "\n"
             out = re.sub(r"\[Aegisub Project Garbage\].*?^\[", "[", out, flags=re.MULTILINE | re.DOTALL)
+            out = re.sub(r"\n+^\[Events\]", "\n\n[Events]", out, flags=re.MULTILINE)
             out = out.replace("﻿", "").replace("‘", "'")
             with open("../subs/" + folder + "/" + ep + ".ass", "w") as fw:
                 fw.write(out)
