@@ -82,5 +82,6 @@ for folder in next(os.walk("../subs"))[1]:
             out = re.sub(r"\n+^\[Events\]", "\n\n[Events]", out, flags=re.MULTILINE)
             out = out.replace("﻿", "").replace("‘", "'")
             out = re.sub(r"([a-zA-Z])\.\.\.([a-zA-Z])", r"\1... \2", out)
+            out = re.sub(r",,\.\.\. ([a-zA-Z])", r",,...\1", out)
             with open("../subs/" + folder + "/" + ep + ".ass", "w") as fw:
                 fw.write(out)
