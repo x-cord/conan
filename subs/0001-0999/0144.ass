@@ -36,13 +36,13 @@ Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:01.29,0:00:02.92,Dialogue,,0,0,0,,Perceiving in a flash,
-Dialogue: 0,0:00:03.21,0:00:04.62,Dialogue,,0,0,0,,Once starts moving, it won't stop!
-Dialogue: 0,0:00:05.00,0:00:06.71,Dialogue,,0,0,0,,An ill-omened case and a night train.
-Dialogue: 0,0:00:06.97,0:00:08.80,Dialogue,,0,0,0,,The bell signifying the train start-off chills your spine.
-Dialogue: 0,0:00:09.05,0:00:10.43,Dialogue,,0,0,0,,Seeing the one and only truth,
-Dialogue: 0,0:00:10.68,0:00:12.22,Dialogue,,0,0,0,,A child with an adult's intelligence...
-Dialogue: 0,0:00:12.68,0:00:14.72,Dialogue,,0,0,0,,His name: Detective Conan!
+Dialogue: 0,0:00:01.29,0:00:02.92,Narration Off,,0,0,0,,{\be10}Perceiving in a flash,
+Dialogue: 0,0:00:03.21,0:00:04.62,Narration Off,,0,0,0,,{\be10}Once starts moving, it won't stop!
+Dialogue: 0,0:00:05.00,0:00:06.71,Narration Off,,0,0,0,,{\be10}An ill-omened case and a night train.
+Dialogue: 0,0:00:06.97,0:00:08.80,Narration Off,,0,0,0,,{\be10}The bell signifying the train start-off chills your spine.
+Dialogue: 0,0:00:09.05,0:00:10.43,Narration Off,,0,0,0,,{\be10}Seeing the one and only truth,
+Dialogue: 0,0:00:10.68,0:00:12.22,Narration Off,,0,0,0,,{\be10}A child with an adult's intelligence...
+Dialogue: 0,0:00:12.68,0:00:14.72,Narration Off,,0,0,0,,{\be10}His name: Detective Conan!
 Dialogue: 0,0:01:36.39,0:01:39.77,Dialogue,,0,0,0,,The North Star #3 Express Leaving Ueno, Part One!
 Dialogue: 0,0:01:47.94,0:01:49.90,Dialogue,,0,0,0,,Dear Mouri Kogorou{\rHonorifics - Dialogue}-sama{\r},
 Dialogue: 0,0:01:50.69,0:01:52.23,Dialogue,,0,0,0,,And Ran{\rHonorifics - Dialogue}-san{\r}, Conan{\rHonorifics - Dialogue}-kun{\r},
@@ -62,7 +62,7 @@ Dialogue: 0,0:02:33.95,0:02:37.16,Dialogue,,0,0,0,,But the reason that we can en
 Dialogue: 0,0:02:37.49,0:02:43.08,Dialogue,,0,0,0,,All thanks to me, sleeping Kogorou, who solved all the cases.
 Dialogue: 0,0:02:43.71,0:02:45.50,Dialogue,,0,0,0,,Yes, yes. Thanks a lot.
 Dialogue: 0,0:02:45.71,0:02:48.21,Dialogue,,0,0,0,,As long as you know.
-Dialogue: 0,0:02:48.84,0:02:51.01,Dialogue,,0,0,0,,That's the seventh time you've said\Nthat ever since we got on this train.
+Dialogue: 0,0:02:48.84,0:02:51.01,Thoughts,,0,0,0,,{\be10}That's the seventh time you've said\Nthat ever since we got on this train.
 Dialogue: 0,0:02:51.67,0:02:54.26,Dialogue,,0,0,0,,But first of all, I'm hungry now...
 Dialogue: 0,0:02:54.88,0:02:56.05,Dialogue,,0,0,0,,That's right,
 Dialogue: 0,0:02:56.68,0:02:59.85,Dialogue,,0,0,0,,Natsue{\rHonorifics - Dialogue}-san{\r} even reserved and paid in advance for dinner.
@@ -80,6 +80,7 @@ Dialogue: 0,0:03:34.80,0:03:35.26,Dialogue,,0,0,0,,Great!
 Dialogue: 0,0:03:35.47,0:03:38.47,Dialogue,,0,0,0,,Enjoying French dishes on a train, it's like a dream.
 Dialogue: 0,0:03:38.72,0:03:39.97,Dialogue,,0,0,0,,Right.
 Dialogue: 0,0:03:41.64,0:03:43.56,Dialogue,,0,0,0,,Damn, it's Mouri Kogorou.
+Dialogue: 0,0:03:41.87,0:03:46.47,Character Card,,0,0,0,,Asama Yasuji (39)\NPassenger
 Dialogue: 0,0:03:44.22,0:03:45.60,Dialogue,,0,0,0,,No one said he would be here.
 Dialogue: 0,0:03:49.81,0:03:51.77,Dialogue,,0,0,0,,That was great.
 Dialogue: 0,0:03:52.44,0:03:53.23,Dialogue,,0,0,0,,It was delicious.
@@ -89,8 +90,10 @@ Dialogue: 0,0:03:57.66,0:03:58.99,Dialogue,,0,0,0,,There's nothing else to menti
 Dialogue: 0,0:03:59.32,0:04:00.99,Dialogue,,0,0,0,,What do you mean by that small room?!
 Dialogue: 0,0:04:01.70,0:04:03.79,Dialogue,,0,0,0,,Didn't I tell you to book a royal room?
 Dialogue: 0,0:04:04.54,0:04:05.25,Dialogue,,0,0,0,,I'm sorry.
+Dialogue: 0,0:04:05.52,0:04:16.04,Character Card,,0,0,0,,Kaetsu Toshinori (38)\NJewelry Store Manager
 Dialogue: 0,0:04:06.01,0:04:10.26,Dialogue Top,,0,0,0,,But owner, you only decided to take the Northern star a week ago.
 Dialogue: 0,0:04:10.43,0:04:15.77,Dialogue Top,,0,0,0,,Since this is a famous train, we're lucky\Nto have gotten a room for everyone at all.
+Dialogue: 0,0:04:16.07,0:04:25.89,Character Card,,0,0,0,,Izumo Keitarou (56)\NJewelry Store Owner
 Dialogue: 0,0:04:16.90,0:04:20.03,Dialogue Top,,0,0,0,,To think I'm in the same type of room as you are.
 Dialogue: 0,0:04:20.32,0:04:24.22,Dialogue Top,,0,0,0,,Not to mention, my wife considers it a disgrace.
 Dialogue: 0,0:04:24.66,0:04:25.91,Dialogue Top,,0,0,0,,She won't even come out of her room.
@@ -112,6 +115,7 @@ Dialogue: 0,0:05:00.34,0:05:04.64,Dialogue,,0,0,0,,When I pressed the alarm bell
 Dialogue: 0,0:05:05.31,0:05:09.02,Dialogue,,0,0,0,,But, the nearby neighbors are impressed with owner's bravery.
 Dialogue: 0,0:05:10.06,0:05:11.27,Dialogue,,0,0,0,,It was only a small affair.
 Dialogue: 0,0:05:11.69,0:05:14.36,Dialogue,,0,0,0,,But it was surely a nice advertisement in the neighborhood,
+Dialogue: 0,0:05:14.38,0:05:18.02,Character Card,,0,0,0,,Ishizuchi Akishige (67)\NFuruito City Mayor
 Dialogue: 0,0:05:15.23,0:05:17.57,Dialogue,,0,0,0,,For your election campaign.
 Dialogue: 0,0:05:18.11,0:05:20.24,Dialogue,,0,0,0,,Such a clever scheme.
 Dialogue: 0,0:05:20.95,0:05:23.49,Dialogue,,0,0,0,,Mayor Ishizuchi, what are you doing here?
@@ -136,7 +140,7 @@ Dialogue: 0,0:06:17.75,0:06:19.17,Dialogue,,0,0,0,,Something weird?
 Dialogue: 0,0:06:19.71,0:06:24.34,Dialogue,,0,0,0,,While the criminal was making his escape, he said;
 Dialogue: 0,0:06:25.09,0:06:26.64,Dialogue,,0,0,0,,"It's different from what we agreed on!"
 Dialogue: 0,0:06:29.31,0:06:30.73,Dialogue,,0,0,0,,Is that true?
-Dialogue: 0,0:06:31.18,0:06:32.06,Dialogue,,0,0,0,,Y-yeah...
+Dialogue: 0,0:06:31.18,0:06:32.06,Dialogue,,0,0,0,,Y-Yeah...
 Dialogue: 0,0:06:32.56,0:06:36.27,Dialogue,,0,0,0,,I heard him say this myself.
 Dialogue: 0,0:06:36.79,0:06:39.92,Dialogue Top,,0,0,0,,That's definitely suspicious.
 Dialogue: 0,0:06:37.73,0:06:41.19,Dialogue,,0,0,0,,Something like this has happened before, right?
@@ -146,6 +150,7 @@ Dialogue: 0,0:06:45.57,0:06:46.82,Dialogue,,0,0,0,,You don't recognize me?
 Dialogue: 0,0:06:48.20,0:06:50.66,Dialogue,,0,0,0,,To be honest, I didn't mean to hide.
 Dialogue: 0,0:06:50.74,0:06:54.24,Dialogue,,0,0,0,,Mouri Kogorou{\rHonorifics - Dialogue}-san{\r}... am I right?
 Dialogue: 0,0:06:54.75,0:06:55.08,Dialogue,,0,0,0,,Yes.
+Dialogue: 0,0:06:55.52,0:07:01.50,Character Card,,0,0,0,,Aoba Tooru (32)\NPassenger
 Dialogue: 0,0:06:56.63,0:06:57.51,Dialogue,,0,0,0,,I can't believe it!
 Dialogue: 0,0:06:58.00,0:07:01.42,Dialogue,,0,0,0,,I didn't expect to see the renowned\Ndetective Mouri Kogorou{\rHonorifics - Dialogue}-san{\r} here!
 Dialogue: 0,0:07:02.05,0:07:04.01,Dialogue,,0,0,0,,Would you mind taking a picture together later?
@@ -158,24 +163,25 @@ Dialogue: 0,0:07:17.61,0:07:20.11,Dialogue,,0,0,0,,Your reserved table is ready,
 Dialogue: 0,0:07:20.48,0:07:21.52,Dialogue,,0,0,0,,Please follow me.
 Dialogue: 0,0:07:21.90,0:07:24.61,Dialogue,,0,0,0,,Sorry, I want to cancel dinner.
 Dialogue: 0,0:07:26.91,0:07:28.04,Dialogue,,0,0,0,,Um... Akechi{\rHonorifics - Dialogue}-sama{\r}...
+Dialogue: 0,0:07:28.43,0:07:32.36,Character Card,,0,0,0,,Akechi Fumiyo (37)\NPassenger
 Dialogue: 0,0:07:29.95,0:07:31.58,Dialogue,,0,0,0,,This trip will be interesting.
 Dialogue: 0,0:07:35.41,0:07:38.25,Dialogue,,0,0,0,,Hey hey, I'm pretty sure I remember a case,
 Dialogue: 0,0:07:38.54,0:07:41.08,Dialogue,,0,0,0,,Where a burglar ran without taking anything before.
 Dialogue: 0,0:07:41.25,0:07:42.38,Dialogue,,0,0,0,,I don't remember,
 Dialogue: 0,0:07:42.71,0:07:46.31,Dialogue,,0,0,0,,Maybe you were watching some suspense\Nmovies that were similar.
-Dialogue: 0,0:07:46.97,0:07:48.72,Dialogue,,0,0,0,,No, it wasn't recent...
-Dialogue: 0,0:07:49.55,0:07:50.34,Dialogue,,0,0,0,,More like... a long time ago.
-Dialogue: 0,0:07:51.31,0:07:53.15,Dialogue,,0,0,0,,When I was a child...
+Dialogue: 0,0:07:46.97,0:07:48.72,Thoughts,,0,0,0,,{\be10}No, it wasn't recent...
+Dialogue: 0,0:07:49.55,0:07:50.34,Thoughts,,0,0,0,,{\be10}More like... a long time ago.
+Dialogue: 0,0:07:51.31,0:07:53.15,Thoughts,,0,0,0,,{\be10}When I was a child...
 Dialogue: 0,0:07:57.94,0:08:00.48,Dialogue,,0,0,0,,Look look, we're passing through Seikan Tunnel!
 Dialogue: 0,0:08:02.40,0:08:05.24,Dialogue,,0,0,0,,Why aren't you two in bed?
 Dialogue: 0,0:08:06.61,0:08:08.20,Dialogue,,0,0,0,,Hey, it's 4 A.M.
 Dialogue: 0,0:08:08.74,0:08:10.28,Dialogue,,0,0,0,,Get some sleep.
-Dialogue: 0,0:08:11.53,0:08:13.57,Dialogue,,0,0,0,,Damn, I can't remember...
+Dialogue: 0,0:08:11.53,0:08:13.57,Thoughts,,0,0,0,,{\be10}Damn, I can't remember...
 Dialogue: 0,0:08:14.37,0:08:16.33,Dialogue,,0,0,0,,Where am I remembering this from?
 Dialogue: 0,0:08:17.46,0:08:18.59,Dialogue,,0,0,0,,That same incident...
 Dialogue: 0,0:08:19.79,0:08:20.25,Dialogue,,0,0,0,,Where?
-Dialogue: 0,0:08:21.92,0:08:25.30,Dialogue,,0,0,0,,The gunshot and scream merged inside of a tunnel...
-Dialogue: 0,0:08:27.38,0:08:28.01,Dialogue,,0,0,0,,What was that?
+Dialogue: 0,0:08:21.92,0:08:25.30,Flashback,,0,0,0,,{\be10}The gunshot and scream merged inside of a tunnel...
+Dialogue: 0,0:08:27.38,0:08:28.01,Thoughts,,0,0,0,,{\be10}What was that?
 Dialogue: 0,0:09:01.83,0:09:03.30,Dialogue,,0,0,0,,What was that scream just now?!
 Dialogue: 0,0:09:04.63,0:09:07.38,Dialogue,,0,0,0,,There was an odd sound before the scream.
 Dialogue: 0,0:09:08.01,0:09:09.01,Dialogue,,0,0,0,,It was gunfire.
@@ -183,25 +189,25 @@ Dialogue: 0,0:09:09.93,0:09:11.97,Dialogue,,0,0,0,,Someone has been shot!
 Dialogue: 0,0:09:12.68,0:09:13.31,Dialogue,,0,0,0,,Moron.
 Dialogue: 0,0:09:13.85,0:09:15.89,Dialogue,,0,0,0,,How would you know without looking?
 Dialogue: 0,0:09:17.60,0:09:18.14,Dialogue,,0,0,0,,That's right.
-Dialogue: 0,0:09:19.85,0:09:23.69,Dialogue,,0,0,0,,As if he were an animal, he scoured the dark hallway...
-Dialogue: 0,0:09:25.36,0:09:26.15,Dialogue,,0,0,0,,Again.
-Dialogue: 0,0:09:27.03,0:09:29.28,Dialogue,,0,0,0,,Damn, what is that?!
+Dialogue: 0,0:09:19.85,0:09:23.69,Flashback,,0,0,0,,{\be10}As if he were an animal, he scoured the dark hallway...
+Dialogue: 0,0:09:25.36,0:09:26.15,Thoughts,,0,0,0,,{\be10}Again.
+Dialogue: 0,0:09:27.03,0:09:29.28,Thoughts,,0,0,0,,{\be10}Damn, what is that?!
 Dialogue: 0,0:09:31.07,0:09:32.20,Dialogue,,0,0,0,,Hey, you!
 Dialogue: 0,0:09:33.16,0:09:33.91,Dialogue,,0,0,0,,It's a murder!
 Dialogue: 0,0:09:34.66,0:09:36.20,Dialogue,,0,0,0,,That man, he just shot someone!
 Dialogue: 0,0:09:36.79,0:09:37.75,Dialogue,,0,0,0,,What did you say?!
 Dialogue: 0,0:09:43.38,0:09:43.84,Dialogue,,0,0,0,,What?
-Dialogue: 0,0:09:47.50,0:09:50.46,Dialogue,,0,0,0,,But he was not there anymore...
+Dialogue: 0,0:09:47.50,0:09:50.46,Flashback,,0,0,0,,{\be10}But he was not there anymore...
 Dialogue: 0,0:09:51.05,0:09:52.30,Dialogue,,0,0,0,,Stop, I won't let you go!
 Dialogue: 0,0:09:57.26,0:09:58.85,Dialogue,,0,0,0,,Damn, we're late.
-Dialogue: 0,0:09:59.89,0:10:04.60,Dialogue,,0,0,0,,The gunshot and train running sound were\Nmaking a melody by themselves...
+Dialogue: 0,0:09:59.89,0:10:04.60,Thoughts,,0,0,0,,{\be10}The gunshot and train running sound were\Nmaking a melody by themselves...
 Dialogue: 0,0:10:06.27,0:10:09.06,Dialogue Top,,0,0,0,,Hey! Call the police immediately!
-Dialogue: 0,0:10:06.69,0:10:07.61,Dialogue,,0,0,0,,I see...
-Dialogue: 0,0:10:08.65,0:10:09.48,Dialogue,,0,0,0,,It's the story...
-Dialogue: 0,0:10:10.95,0:10:11.33,Dialogue,,0,0,0,,This...
-Dialogue: 0,0:10:12.28,0:10:14.20,Dialogue,,0,0,0,,Is like that story!
-Dialogue: 0,0:10:16.74,0:10:18.08,Dialogue,,0,0,0,,Written by my father...
-Dialogue: 0,0:10:19.83,0:10:21.42,Dialogue,,0,0,0,,That fictional story!
+Dialogue: 0,0:10:06.69,0:10:07.61,Thoughts,,0,0,0,,{\be10}I see...
+Dialogue: 0,0:10:08.65,0:10:09.48,Thoughts,,0,0,0,,{\be10}It's the story...
+Dialogue: 0,0:10:10.95,0:10:11.33,Thoughts,,0,0,0,,{\be10}This...
+Dialogue: 0,0:10:12.28,0:10:14.20,Thoughts,,0,0,0,,{\be10}Is like that story!
+Dialogue: 0,0:10:16.74,0:10:18.08,Thoughts,,0,0,0,,{\be10}Written by my father...
+Dialogue: 0,0:10:19.83,0:10:21.42,Thoughts,,0,0,0,,{\be10}That fictional story!
 Dialogue: 0,0:10:27.67,0:10:29.96,Dialogue,,0,0,0,,Well, according to the persona ID,
 Dialogue: 0,0:10:30.38,0:10:32.30,Dialogue,,0,0,0,,And driver's license found on the body...
 Dialogue: 0,0:10:32.97,0:10:36.18,Dialogue,,0,0,0,,The victim is an active resident of Tokyo,
@@ -236,17 +242,17 @@ Dialogue: 0,0:11:46.87,0:11:47.75,Dialogue,,0,0,0,,That kid's gone.
 Dialogue: 0,0:11:48.63,0:11:50.01,Dialogue,,0,0,0,,He was just here.
 Dialogue: 0,0:11:50.29,0:11:52.13,Dialogue,,0,0,0,,Jeez, where is he now?
 Dialogue: 0,0:11:51.59,0:11:52.92,Dialogue,,0,0,0,,Conan{\rHonorifics - Dialogue}-kun{\r}?
-Dialogue: 0,0:11:56.88,0:11:58.17,Dialogue,,0,0,0,,It's exactly the same.
-Dialogue: 0,0:11:59.60,0:12:01.35,Dialogue,,0,0,0,,The robber's strange message...
-Dialogue: 0,0:12:02.06,0:12:05.19,Dialogue,,0,0,0,,And, the murder case on the train...
-Dialogue: 0,0:12:06.89,0:12:07.56,Dialogue,,0,0,0,,Whatever it is,
-Dialogue: 0,0:12:08.56,0:12:10.40,Dialogue,,0,0,0,,It's exactly like that story.
-Dialogue: 0,0:12:11.69,0:12:13.36,Dialogue,,0,0,0,,Just like the one I read when I was a kid,
-Dialogue: 0,0:12:13.98,0:12:17.11,Dialogue,,0,0,0,,He never published it, only finished the draft.
+Dialogue: 0,0:11:56.88,0:11:58.17,Thoughts,,0,0,0,,{\be10}It's exactly the same.
+Dialogue: 0,0:11:59.60,0:12:01.35,Thoughts,,0,0,0,,{\be10}The robber's strange message...
+Dialogue: 0,0:12:02.06,0:12:05.19,Thoughts,,0,0,0,,{\be10}And, the murder case on the train...
+Dialogue: 0,0:12:06.89,0:12:07.56,Thoughts,,0,0,0,,{\be10}Whatever it is,
+Dialogue: 0,0:12:08.56,0:12:10.40,Thoughts,,0,0,0,,{\be10}It's exactly like that story.
+Dialogue: 0,0:12:11.69,0:12:13.36,Thoughts,,0,0,0,,{\be10}Just like the one I read when I was a kid,
+Dialogue: 0,0:12:13.98,0:12:17.11,Thoughts,,0,0,0,,{\be10}He never published it, only finished the draft.
 Dialogue: 0,0:12:18.82,0:12:19.53,Dialogue,,0,0,0,,Damn,
-Dialogue: 0,0:12:20.28,0:12:22.24,Dialogue,,0,0,0,,I can't remember exactly since I was only a child.
-Dialogue: 0,0:12:23.04,0:12:24.83,Dialogue,,0,0,0,,I thought maybe father should know something.
-Dialogue: 0,0:12:25.79,0:12:27.25,Dialogue,,0,0,0,,Where did he go?!
+Dialogue: 0,0:12:20.28,0:12:22.24,Thoughts,,0,0,0,,{\be10}I can't remember exactly since I was only a child.
+Dialogue: 0,0:12:23.04,0:12:24.83,Thoughts,,0,0,0,,{\be10}I thought maybe father should know something.
+Dialogue: 0,0:12:25.79,0:12:27.25,Thoughts,,0,0,0,,{\be10}Where did he go?!
 Dialogue: 0,0:12:35.92,0:12:37.67,Dialogue,,0,0,0,,Conan{\rHonorifics - Dialogue}-kun{\r}, there you are.
 Dialogue: 0,0:12:38.22,0:12:40.09,Dialogue,,0,0,0,,Why do you always run off?
 Dialogue: 0,0:12:40.84,0:12:41.47,Dialogue,,0,0,0,,Excuse us.
@@ -271,19 +277,19 @@ Dialogue: 0,0:13:38.11,0:13:40.12,Dialogue,,0,0,0,,What if it just looked like t
 Dialogue: 0,0:13:41.95,0:13:44.33,Dialogue,,0,0,0,,The hallway's light was off,
 Dialogue: 0,0:13:44.87,0:13:47.50,Dialogue,,0,0,0,,You were blinded by the gunfire.
 Dialogue: 0,0:13:48.45,0:13:50.04,Dialogue,,0,0,0,,Hey hey, Officer{\rHonorifics - Dialogue}-san{\r}...
-Dialogue: 0,0:13:50.75,0:13:51.13,Dialogue,,0,0,0,,Right,
-Dialogue: 0,0:13:52.21,0:13:54.13,Dialogue,,0,0,0,,The door closed then.
-Dialogue: 0,0:13:55.00,0:13:57.46,Dialogue,,0,0,0,,But the Inspector is right.
-Dialogue: 0,0:13:58.88,0:14:02.76,Dialogue,,0,0,0,,After all, we never saw him escaping from the window.
-Dialogue: 0,0:14:03.84,0:14:08.43,Dialogue,,0,0,0,,Not to mention the culprit left his loaded gun behind.
-Dialogue: 0,0:14:09.89,0:14:10.27,Dialogue,,0,0,0,,Also,
-Dialogue: 0,0:14:11.31,0:14:12.35,Dialogue,,0,0,0,,With the door closed...
-Dialogue: 0,0:14:13.06,0:14:15.40,Dialogue,,0,0,0,,Why didn't he lock it?
-Dialogue: 0,0:14:16.11,0:14:18.57,Dialogue,,0,0,0,,Locking the door would give him more time to escape.
-Dialogue: 0,0:14:19.61,0:14:19.99,Dialogue,,0,0,0,,And,
-Dialogue: 0,0:14:20.74,0:14:22.08,Dialogue,,0,0,0,,The biggest mystery...
-Dialogue: 0,0:14:22.95,0:14:23.91,Dialogue,,0,0,0,,This case, why...
-Dialogue: 0,0:14:24.49,0:14:27.08,Dialogue,,0,0,0,,Why does it resemble the story my father wrote?
+Dialogue: 0,0:13:50.75,0:13:51.13,Thoughts,,0,0,0,,{\be10}Right,
+Dialogue: 0,0:13:52.21,0:13:54.13,Thoughts,,0,0,0,,{\be10}The door closed then.
+Dialogue: 0,0:13:55.00,0:13:57.46,Thoughts,,0,0,0,,{\be10}But the Inspector is right.
+Dialogue: 0,0:13:58.88,0:14:02.76,Thoughts,,0,0,0,,{\be10}After all, we never saw him escaping from the window.
+Dialogue: 0,0:14:03.84,0:14:08.43,Thoughts,,0,0,0,,{\be10}Not to mention the culprit left his loaded gun behind.
+Dialogue: 0,0:14:09.89,0:14:10.27,Thoughts,,0,0,0,,{\be10}Also,
+Dialogue: 0,0:14:11.31,0:14:12.35,Thoughts,,0,0,0,,{\be10}With the door closed...
+Dialogue: 0,0:14:13.06,0:14:15.40,Thoughts,,0,0,0,,{\be10}Why didn't he lock it?
+Dialogue: 0,0:14:16.11,0:14:18.57,Thoughts,,0,0,0,,{\be10}Locking the door would give him more time to escape.
+Dialogue: 0,0:14:19.61,0:14:19.99,Thoughts,,0,0,0,,{\be10}And,
+Dialogue: 0,0:14:20.74,0:14:22.08,Thoughts,,0,0,0,,{\be10}The biggest mystery...
+Dialogue: 0,0:14:22.95,0:14:23.91,Thoughts,,0,0,0,,{\be10}This case, why...
+Dialogue: 0,0:14:24.49,0:14:27.08,Thoughts,,0,0,0,,{\be10}Why does it resemble the story my father wrote?
 Dialogue: 0,0:14:29.83,0:14:32.29,Dialogue,,0,0,0,,Still, he could have ran into another room.
 Dialogue: 0,0:14:33.08,0:14:35.75,Dialogue,,0,0,0,,Should we search every room from here?
 Dialogue: 0,0:14:36.96,0:14:39.38,Dialogue,,0,0,0,,Starting from these rooms around it.
@@ -297,6 +303,7 @@ Dialogue: 0,0:14:54.65,0:14:57.49,Dialogue,,0,0,0,,An incident has occurred on t
 Dialogue: 0,0:14:58.19,0:14:58.65,Dialogue,,0,0,0,,An incident?
 Dialogue: 0,0:14:58.98,0:15:01.02,Dialogue,,0,0,0,,How could you not notice all of this?
 Dialogue: 0,0:15:01.65,0:15:03.86,Dialogue,,0,0,0,,There was a loud noise from next door.
+Dialogue: 0,0:15:04.17,0:15:09.86,Character Card,,0,0,0,,Izumo Azusa (49)\NWife of Izumo Keitaro
 Dialogue: 0,0:15:04.57,0:15:06.66,Dialogue,,0,0,0,,I wouldn't know since I was deeply asleep.
 Dialogue: 0,0:15:07.78,0:15:09.32,Dialogue,,0,0,0,,So what kind of incident occurred?
 Dialogue: 0,0:15:10.16,0:15:11.04,Dialogue,,0,0,0,,Uh, well...
@@ -364,7 +371,7 @@ Dialogue: 0,0:17:52.66,0:17:54.66,Dialogue,,0,0,0,,I remember, just before the i
 Dialogue: 0,0:17:54.95,0:17:57.24,Dialogue,,0,0,0,,There was a suspicious woman in the lobby car.
 Dialogue: 0,0:17:57.79,0:17:58.08,Dialogue,,0,0,0,,Woman?
 Dialogue: 0,0:17:58.79,0:18:03.50,Dialogue,,0,0,0,,Yes, she wore sunglasses and watched the victim the entire time.
-Dialogue: 0,0:18:04.04,0:18:05.54,Dialogue,,0,0,0,,Would you be ta king about me?
+Dialogue: 0,0:18:04.04,0:18:05.54,Dialogue,,0,0,0,,Would you be talking about me?
 Dialogue: 0,0:18:07.30,0:18:07.93,Dialogue,,0,0,0,,That's her!
 Dialogue: 0,0:18:08.42,0:18:08.67,Dialogue,,0,0,0,,What?
 Dialogue: 0,0:18:09.26,0:18:12.22,Dialogue,,0,0,0,,When I left the lobby, I was going to the toilet.
@@ -374,7 +381,7 @@ Dialogue: 0,0:18:21.31,0:18:21.89,Dialogue,,0,0,0,,Right here.
 Dialogue: 0,0:18:24.73,0:18:27.65,Dialogue,,0,0,0,,Hey, your only luggage is that shoulder bag?
 Dialogue: 0,0:18:28.28,0:18:28.45,Dialogue,,0,0,0,,Yes,
 Dialogue: 0,0:18:29.07,0:18:31.57,Dialogue,,0,0,0,,I'm only going to Hokkaido to ride horses.
-Dialogue: 0,0:18:32.24,0:18:32.66,Dialogue,,0,0,0,,Horses?
+Dialogue: 0,0:18:32.24,0:18:32.66,Thoughts,,0,0,0,,{\be10}Horses?
 Dialogue: 0,0:18:33.91,0:18:35.83,Dialogue,,0,0,0,,Ah, I've seen it before.
 Dialogue: 0,0:18:36.28,0:18:41.41,Dialogue,,0,0,0,,Isn't that the one you wear a helmet and\Ndifferent pants when riding a horse?
 Dialogue: 0,0:18:42.25,0:18:43.04,Dialogue,,0,0,0,,You mean my colette?
@@ -439,13 +446,13 @@ Dialogue: 0,0:22:06.29,0:22:07.00,Dialogue,,0,0,0,,Lady.
 Dialogue: 0,0:23:45.47,0:23:46.93,Dialogue,,0,0,0,,You saw something odd?
 Dialogue: 0,0:23:49.10,0:23:51.39,Dialogue,,0,0,0,,I remember, just before the crime occurred...
 Dialogue: 0,0:23:52.73,0:23:54.36,Dialogue,,0,0,0,,Well, whose was it, I wonder.
-Dialogue: 0,0:23:55.44,0:23:56.19,Dialogue,,0,0,0,,Wait...
-Dialogue: 0,0:23:57.15,0:23:59.32,Dialogue,,0,0,0,,If that gunshot.... if it's still there...
-Dialogue: 0,0:24:02.53,0:24:04.07,Dialogue,,0,0,0,,If it's still there...
-Dialogue: 0,0:24:06.95,0:24:08.91,Dialogue,,0,0,0,,There, that's it!
+Dialogue: 0,0:23:55.44,0:23:56.19,Thoughts,,0,0,0,,{\be10}Wait...
+Dialogue: 0,0:23:57.15,0:23:59.32,Thoughts,,0,0,0,,{\be10}If that gunshot.... if it's still there...
+Dialogue: 0,0:24:02.53,0:24:04.07,Thoughts,,0,0,0,,{\be10}If it's still there...
+Dialogue: 0,0:24:06.95,0:24:08.91,Thoughts,,0,0,0,,{\be10}There, that's it!
 Dialogue: 0,0:24:10.08,0:24:11.00,Dialogue,,0,0,0,,Next Conan:
 Dialogue: 0,0:24:11.58,0:24:14.54,Dialogue,,0,0,0,,The North Star #3 Express Leaving Ueno, Part Two!
 Dialogue: 0,0:24:16.28,0:24:18.20,Dialogue,,0,0,0,,Next Conan's Hint:
 Dialogue: 0,0:24:18.58,0:24:19.85,Dialogue,,0,0,0,,Disguise
-Dialogue: 0,0:24:20.54,0:24:22.13,Dialogue Top,,0,0,0,,Next, the trip and the case both come to close.
-Dialogue: 0,0:24:22.34,0:24:24.05,Dialogue Top,,0,0,0,,These two are coming, Conan{\rHonorifics - Dialogue}-kun{\r}.
+Dialogue: 0,0:24:20.54,0:24:22.13,Dialogue Top,,0,0,0,,Next, the trip and the case both come to a close.
+Dialogue: 0,0:24:22.34,0:24:24.05,Dialogue Top,,0,0,0,,Those two are coming, Conan{\rHonorifics - Dialogue}-kun{\r}.
