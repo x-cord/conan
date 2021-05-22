@@ -36,13 +36,14 @@ Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:01.31,0:00:03.69,Dialogue,,0,0,0,,Alibi, Deceit, Deception.
-Dialogue: 0,0:00:04.07,0:00:05.36,Dialogue,,0,0,0,,A Mysterious Dark Organization.
-Dialogue: 0,0:00:06.03,0:00:07.49,Dialogue,,0,0,0,,Today Ayumi is in peril!
-Dialogue: 0,0:00:07.95,0:00:09.57,Dialogue,,0,0,0,,True reasoning lies in silence!
-Dialogue: 0,0:00:09.95,0:00:11.28,Dialogue,,0,0,0,,Seeing the one and only truth,
-Dialogue: 0,0:00:11.57,0:00:13.08,Dialogue,,0,0,0,,A child with the intelligence of an adult...
-Dialogue: 0,0:00:13.49,0:00:15.62,Dialogue,,0,0,0,,His name is: Detective Conan!
+Dialogue: 0,0:00:01.31,0:00:03.69,Narration Off,,0,0,0,,{\be10}Alibi, Deceit, Deception.
+Dialogue: 0,0:00:04.07,0:00:05.36,Narration Off,,0,0,0,,{\be10}A Mysterious Dark Organization.
+Dialogue: 0,0:00:06.03,0:00:07.49,Narration Off,,0,0,0,,{\be10}Today Ayumi is in peril!
+Dialogue: 0,0:00:07.95,0:00:09.57,Narration Off,,0,0,0,,{\be10}True reasoning lies in silence!
+Dialogue: 0,0:00:09.95,0:00:11.28,Narration Off,,0,0,0,,{\be10}Seeing the one and only truth,
+Dialogue: 0,0:00:11.57,0:00:13.08,Narration Off,,0,0,0,,{\be10}A child with the intelligence of an adult...
+Dialogue: 0,0:00:13.49,0:00:15.62,Narration Off,,0,0,0,,{\be10}His name is: Detective Conan!
+Dialogue: 0,0:01:36.22,0:01:41.93,Title,,0,0,0,,SOS! Messages from Ayumi
 Dialogue: 0,0:01:36.78,0:01:39.41,Dialogue,,0,0,0,,SOS! Messages from Ayumi
 Dialogue: 0,0:01:42.41,0:01:44.83,Dialogue,,0,0,0,,Let's see, let's see... yes, this one!
 Dialogue: 0,0:01:45.00,0:01:47.55,Dialogue,,0,0,0,,Hm, what should I do next...
@@ -106,6 +107,7 @@ Dialogue: 0,0:05:01.61,0:05:02.62,Dialogue,,0,0,0,,We'll all go home together.
 Dialogue: 0,0:05:02.99,0:05:05.78,Dialogue,,0,0,0,,That's right, get some rest at home.
 Dialogue: 0,0:05:05.87,0:05:06.70,Dialogue,,0,0,0,,That's good.
 Dialogue: 0,0:05:08.00,0:05:11.33,Dialogue,,0,0,0,,Good idea. Wait here while I get the car.
+Dialogue: 0,0:05:16.25,0:05:21.07,Character Card,,0,0,0,,Teitan Elementary School
 Dialogue: 0,0:05:17.30,0:05:17.96,Dialogue,,0,0,0,,Stand!
 Dialogue: 0,0:05:18.96,0:05:21.01,Dialogue,,0,0,0,,Good morning.
 Dialogue: 0,0:05:21.51,0:05:22.64,Dialogue,,0,0,0,,Yes, welcome back to class.
@@ -119,17 +121,18 @@ Dialogue: 0,0:05:45.66,0:05:46.83,Dialogue,,0,0,0,,Hey, worried?
 Dialogue: 0,0:05:47.54,0:05:48.29,Dialogue,,0,0,0,,Of course.
 Dialogue: 0,0:05:48.99,0:05:51.29,Dialogue,,0,0,0,,Hard to believe your compassion.
 Dialogue: 0,0:05:52.62,0:05:53.12,Dialogue,,0,0,0,,Shut up.
+Dialogue: 0,0:05:53.25,0:05:57.73,Character Card,,0,0,0,,Location of Yoshida Family's Apartment\NResident Tower
 Dialogue: 0,0:05:54.92,0:05:58.09,Dialogue,,0,0,0,,Well Ayumi{\rHonorifics - Dialogue}-chan{\r}, mom is going out for a while.
 Dialogue: 0,0:05:59.09,0:06:02.09,Dialogue,,0,0,0,,I'll finish my errands quickly and be back by noon.
 Dialogue: 0,0:06:02.47,0:06:03.51,Dialogue,,0,0,0,,You need to rest, alright?
 Dialogue: 0,0:06:05.05,0:06:05.55,Dialogue,,0,0,0,,Be safe...
 Dialogue: 0,0:06:07.68,0:06:11.81,Dialogue,,0,0,0,,Don't worry. When your throat clears\Nup you'll be able to talk again.
 Dialogue: 0,0:06:12.81,0:06:13.19,Dialogue,,0,0,0,,Goodbye.
-Dialogue: 0,0:06:40.46,0:06:43.30,Dialogue,,0,0,0,,This is Yoshida, I'm not available right now.
-Dialogue: 0,0:06:44.34,0:06:47.80,Dialogue,,0,0,0,,Please leave a message after the beep.
-Dialogue: 0,0:07:14.37,0:07:14.62,Dialogue,,0,0,0,,Yes?
+Dialogue: 0,0:06:40.46,0:06:43.30,Radio,,0,0,0,,{\be10}This is Yoshida, I'm not available right now.
+Dialogue: 0,0:06:44.34,0:06:47.80,Radio,,0,0,0,,{\be10}Please leave a message after the beep.
+Dialogue: 0,0:07:14.37,0:07:14.62,Radio,,0,0,0,,{\be10}Yes?
 Dialogue: 0,0:07:15.58,0:07:17.50,Dialogue,,0,0,0,,Yaiga{\rHonorifics - Dialogue}-san{\r}? I have your package.
-Dialogue: 0,0:07:17.96,0:07:18.88,Dialogue,,0,0,0,,Yes, come in.
+Dialogue: 0,0:07:17.96,0:07:18.88,Radio,,0,0,0,,{\be10}Yes, come in.
 Dialogue: 0,0:07:45.24,0:07:45.99,Dialogue,,0,0,0,,It's mom!
 Dialogue: 0,0:08:02.13,0:08:03.75,Dialogue,,0,0,0,,No, it's not mom.
 Dialogue: 0,0:08:04.17,0:08:06.59,Dialogue,,0,0,0,,Mom wouldn't chime the bell.
@@ -138,24 +141,24 @@ Dialogue: 0,0:08:18.89,0:08:22.44,Dialogue,,0,0,0,,I have to... call the police!
 Dialogue: 0,0:09:17.29,0:09:18.33,Dialogue,,0,0,0,,This is a kid's bedroom.
 Dialogue: 0,0:09:29.80,0:09:31.97,Dialogue,,0,0,0,,Come on out my sweet child.
 Dialogue: 0,0:09:33.55,0:09:34.68,Dialogue,,0,0,0,,I won't hurt you.
-Dialogue: 0,0:09:51.45,0:09:52.20,Dialogue,,0,0,0,,What to do?
-Dialogue: 0,0:09:52.61,0:09:55.03,Dialogue,,0,0,0,,He must be the burglar Conan{\rHonorifics - Dialogue}-kun{\r} mentioned.
-Dialogue: 0,0:09:56.20,0:09:57.08,Dialogue,,0,0,0,,If I'm discovered...
-Dialogue: 0,0:09:57.45,0:09:59.70,Dialogue,,0,0,0,,I'll be treated like that owner.
+Dialogue: 0,0:09:51.45,0:09:52.20,Thoughts,,0,0,0,,{\be10}What to do?
+Dialogue: 0,0:09:52.61,0:09:55.03,Thoughts,,0,0,0,,{\be10}He must be the burglar Conan{\rHonorifics - Thoughts\be10}-kun{\r\be10} mentioned.
+Dialogue: 0,0:09:56.20,0:09:57.08,Thoughts,,0,0,0,,{\be10}If I'm discovered...
+Dialogue: 0,0:09:57.45,0:09:59.70,Thoughts,,0,0,0,,{\be10}I'll be treated like that owner.
 Dialogue: 0,0:10:01.66,0:10:06.38,Dialogue,,0,0,0,,Hey, let's all visit Ayumi at her\Nhouse today when school ends.
 Dialogue: 0,0:10:06.67,0:10:08.80,Dialogue,,0,0,0,,Yes! She would be very happy.
 Dialogue: 0,0:10:09.63,0:10:10.67,Dialogue,,0,0,0,,Will she really?
 Dialogue: 0,0:10:12.13,0:10:16.35,Dialogue,,0,0,0,,Girls hate to be seen when they don't look their cutest.
 Dialogue: 0,0:10:17.43,0:10:19.68,Dialogue,,0,0,0,,Especially by boys they like.
-Dialogue: 0,0:10:20.52,0:10:21.39,Dialogue,,0,0,0,,Hey, hey...
+Dialogue: 0,0:10:20.52,0:10:21.39,Thoughts,,0,0,0,,{\be10}Hey, hey...
 Dialogue: 0,0:10:22.98,0:10:25.77,Dialogue,,0,0,0,,I'm joking. Primary School girls probably wouldn't care.
 Dialogue: 0,0:10:30.07,0:10:31.65,Dialogue,,0,0,0,,What do you mean?
-Dialogue: 0,0:10:32.32,0:10:34.61,Dialogue,,0,0,0,,She IS a Primary School girl.
+Dialogue: 0,0:10:32.32,0:10:34.61,Dialogue,,0,0,0,,She {\i1}is{\i0} a Primary School girl.
 Dialogue: 0,0:10:47.50,0:10:48.59,Dialogue,,0,0,0,,It must be Ayumi{\rHonorifics - Dialogue}-chan{\r}!
 Dialogue: 0,0:10:48.96,0:10:50.75,Dialogue,,0,0,0,,She's playing that keyboard.
 Dialogue: 0,0:10:51.38,0:10:52.13,Dialogue,,0,0,0,,Ayumi{\rHonorifics - Dialogue}-chan{\r}?
-Dialogue: 0,0:10:53.22,0:10:55.55,Dialogue,,0,0,0,,Today is the 5th, 10:30AM.
-Dialogue: 0,0:11:01.18,0:11:03.56,Dialogue,,0,0,0,,Today is the 5th, 10:30AM.
+Dialogue: 0,0:10:53.22,0:10:55.55,Radio,,0,0,0,,{\be10}Today is the 5th, 10:30AM.
+Dialogue: 0,0:11:01.18,0:11:03.56,Radio,,0,0,0,,{\be10}Today is the 5th, 10:30AM.
 Dialogue: 0,0:11:04.27,0:11:05.56,Dialogue,,0,0,0,,It's the Yaiba clock.
 Dialogue: 0,0:11:06.35,0:11:08.69,Dialogue,,0,0,0,,That's right. It's a Masked Yaiba Clock.
 Dialogue: 0,0:11:09.23,0:11:11.94,Dialogue,,0,0,0,,Professor Agasa bought them for everyone.
@@ -163,9 +166,9 @@ Dialogue: 0,0:11:12.49,0:11:15.74,Dialogue,,0,0,0,,Just push the button on the h
 Dialogue: 0,0:11:16.66,0:11:19.95,Dialogue,,0,0,0,,Then why is Ayumi{\rHonorifics - Dialogue}-chan{\r} not talking us?
 Dialogue: 0,0:11:21.16,0:11:23.16,Dialogue,,0,0,0,,Maybe she can't speak?
 Dialogue: 0,0:11:24.29,0:11:25.62,Dialogue,,0,0,0,,Hello, Ayumi{\rHonorifics - Dialogue}-chan{\r}?
-Dialogue: 0,0:11:26.67,0:11:29.04,Dialogue,,0,0,0,,Ayumi{\rHonorifics - Dialogue}-chan{\r}, can you not speak right now?
-Dialogue: 0,0:11:30.38,0:11:31.21,Dialogue,,0,0,0,,Tap once for yes.
-Dialogue: 0,0:11:31.71,0:11:33.30,Dialogue,,0,0,0,,Tap twice on the badge for no.
+Dialogue: 0,0:11:26.67,0:11:29.04,Radio,,0,0,0,,{\be10}Ayumi{\rHonorifics - Radio\be10}-chan{\r\be10}, can you not speak right now?
+Dialogue: 0,0:11:30.38,0:11:31.21,Radio,,0,0,0,,{\be10}Tap once for yes.
+Dialogue: 0,0:11:31.71,0:11:33.30,Radio,,0,0,0,,{\be10}Tap twice on the badge for no.
 Dialogue: 0,0:11:38.76,0:11:40.60,Dialogue,,0,0,0,,Great, she means "yes".
 Dialogue: 0,0:11:41.22,0:11:42.93,Dialogue,,0,0,0,,I guess she can't talk.
 Dialogue: 0,0:11:43.52,0:11:46.64,Dialogue,,0,0,0,,I think she's bored right now\Nand just wanted to hear us.
@@ -200,10 +203,10 @@ Dialogue: 0,0:13:28.45,0:13:30.46,Dialogue,,0,0,0,,It seemed rather familiar.
 Dialogue: 0,0:13:31.37,0:13:32.67,Dialogue,,0,0,0,,Do you have any clues?
 Dialogue: 0,0:13:34.34,0:13:35.79,Dialogue,,0,0,0,,Not really.
 Dialogue: 0,0:13:36.09,0:13:39.42,Dialogue,,0,0,0,,I think it was, Mi-Mi-Re-Do-Re.
-Dialogue: 0,0:13:40.51,0:13:41.55,Dialogue,,0,0,0,,Besides that...
-Dialogue: 0,0:13:42.34,0:13:44.39,Dialogue,,0,0,0,,Why were the date and time wrong?
-Dialogue: 0,0:13:45.93,0:13:48.60,Dialogue,,0,0,0,,Today is the 5th, 10:30AM.
-Dialogue: 0,0:13:49.64,0:13:51.52,Dialogue,,0,0,0,,The 5th... 10:30...
+Dialogue: 0,0:13:40.51,0:13:41.55,Thoughts,,0,0,0,,{\be10}Besides that...
+Dialogue: 0,0:13:42.34,0:13:44.39,Thoughts,,0,0,0,,{\be10}Why were the date and time wrong?
+Dialogue: 0,0:13:45.93,0:13:48.60,Flashback,,0,0,0,,{\be10}Today is the 5th, 10:30AM.
+Dialogue: 0,0:13:49.64,0:13:51.52,Thoughts,,0,0,0,,{\be10}The 5th... 10:30...
 Dialogue: 0,0:13:52.90,0:13:54.98,Dialogue,,0,0,0,,The song's been chosen now.
 Dialogue: 0,0:13:55.73,0:13:57.78,Dialogue,,0,0,0,,Let's all sing together first.
 Dialogue: 0,0:13:58.19,0:13:59.28,Dialogue,,0,0,0,,Yes!
@@ -218,57 +221,51 @@ Dialogue: 0,0:14:15.88,0:14:16.50,Dialogue,,0,0,0,,I see!
 Dialogue: 0,0:14:17.13,0:14:19.00,Dialogue,,0,0,0,,Teacher, please call the police!
 Dialogue: 0,0:14:19.88,0:14:21.67,Dialogue,,0,0,0,,Ayumi{\rHonorifics - Dialogue}-chan{\r} is in immediate danger!
 Dialogue: 0,0:14:22.72,0:14:23.84,Dialogue,,0,0,0,,Wait, Edogawa{\rHonorifics - Dialogue}-kun{\r}!
-Dialogue: 0,0:14:26.22,0:14:29.14,Dialogue,,0,0,0,,Damn, why didn't I see it earlier?
-Dialogue: 0,0:14:29.49,0:14:33.55,Signs,,0,0,0,,3
-Dialogue: 0,0:14:29.49,0:14:33.55,Signs,,0,0,0,,3
-Dialogue: 0,0:14:29.49,0:14:33.55,Signs,,0,0,0,,2
-Dialogue: 0,0:14:29.49,0:14:33.55,Signs,,0,0,0,,1
-Dialogue: 0,0:14:29.49,0:14:33.55,Signs,,0,0,0,,2
+Dialogue: 0,0:14:26.22,0:14:29.14,Thoughts,,0,0,0,,{\be10}Damn, why didn't I see it earlier?
+Dialogue: 0,0:14:29.49,0:14:33.55,Signs,,0,0,0,,3 3 2 1 2
 Dialogue: 0,0:14:30.55,0:14:33.55,Signs,,0,0,0,,Snail
 Dialogue: 0,0:14:32.10,0:14:33.55,Signs,,0,0,0,,Lu Escargot
-Dialogue: 0,0:14:29.97,0:14:31.35,Dialogue,,0,0,0,,That melody details a snail.
-Dialogue: 0,0:14:31.68,0:14:32.98,Dialogue,,0,0,0,,Which refers to Lu Escargot!
+Dialogue: 0,0:14:29.97,0:14:31.35,Thoughts,,0,0,0,,{\be10}That melody details a snail.
+Dialogue: 0,0:14:31.68,0:14:32.98,Thoughts,,0,0,0,,{\be10}Which refers to Lu Escargot!
 Dialogue: 0,0:14:33.89,0:14:38.00,Signs,,0,0,0,,Fifth Day of the Month, 1:30
-Dialogue: 0,0:14:34.23,0:14:36.36,Dialogue,,0,0,0,,From the date and time to "Goutouhan",
-Dialogue: 0,0:14:35.31,0:14:38.00,Signs,,0,0,0,,Go
-Dialogue: 0,0:14:35.31,0:14:38.00,Signs,,0,0,0,,Tou
-Dialogue: 0,0:14:35.31,0:14:38.00,Signs,,0,0,0,,Han
-Dialogue: 0,0:14:36.61,0:14:37.77,Dialogue,,0,0,0,,She means the event from the other day!
-Dialogue: 0,0:14:36.68,0:14:38.00,Signs,,0,0,0,,burglar at the Tower
-Dialogue: 0,0:14:38.73,0:14:41.44,Dialogue,,0,0,0,,At that time, the burglar must've\Nanswered as Ayumi{\rHonorifics - Dialogue}-chan{\r}!
-Dialogue: 0,0:14:43.20,0:14:46.20,Dialogue,,0,0,0,,Ayumi{\rHonorifics - Dialogue}-chan{\r}, is something wrong there?
-Dialogue: 0,0:14:48.58,0:14:52.75,Dialogue,,0,0,0,,Ayumi{\rHonorifics - Dialogue}-chan{\r}, tap once for yes, and\Ntwice on the badge for no.
-Dialogue: 0,0:14:57.25,0:14:59.17,Dialogue,,0,0,0,,Just be alright... Ayumi!
+Dialogue: 0,0:14:34.23,0:14:36.36,Thoughts,,0,0,0,,{\be10}From the date and time to "Goutouhan",
+Dialogue: 0,0:14:35.31,0:14:38.00,Signs,,0,0,0,,Go Tou Han
+Dialogue: 0,0:14:36.61,0:14:37.77,Thoughts,,0,0,0,,{\be10}She means the event from the other day!
+Dialogue: 0,0:14:36.68,0:14:38.00,Signs,,0,0,0,,Burglar at the tower
+Dialogue: 0,0:14:38.73,0:14:41.44,Thoughts,,0,0,0,,{\be10}At that time, the burglar must've\Nanswered as Ayumi{\rHonorifics - Thoughts\be10}-chan{\r\be10}!
+Dialogue: 0,0:14:43.20,0:14:46.20,Flashback,,0,0,0,,{\be10}Ayumi{\rHonorifics - Flashback\be10}-chan{\r\be10}, is something wrong there?
+Dialogue: 0,0:14:48.58,0:14:52.75,Flashback,,0,0,0,,{\be10}Ayumi{\rHonorifics - Flashback\be10}-chan{\r\be10}, tap once for yes, and\Ntwice on the badge for no.
+Dialogue: 0,0:14:57.25,0:14:59.17,Thoughts,,0,0,0,,{\be10}Just be alright... Ayumi!
 Dialogue: 0,0:15:04.43,0:15:06.09,Dialogue,,0,0,0,,I understand now, Haibara{\rHonorifics - Dialogue}-san{\r}.
 Dialogue: 0,0:15:06.80,0:15:09.72,Dialogue,,0,0,0,,Everyone, Teacher is going to call the police.
 Dialogue: 0,0:15:10.14,0:15:11.68,Dialogue,,0,0,0,,Be quiet and study!
 Dialogue: 0,0:15:17.40,0:15:17.90,Dialogue,,0,0,0,,Genta{\rHonorifics - Dialogue}-kun{\r}.
 Dialogue: 0,0:15:18.15,0:15:19.73,Dialogue,,0,0,0,,Yeah, let's go Mitsuhiko.
-Dialogue: 0,0:15:32.62,0:15:35.21,Dialogue,,0,0,0,,Damn, I'm running out of time.
-Dialogue: 0,0:15:36.21,0:15:39.75,Dialogue,,0,0,0,,Wait, when the burglar killed the owner...
-Dialogue: 0,0:15:40.46,0:15:43.34,Dialogue,,0,0,0,,He only killed him right before he was leaving.
+Dialogue: 0,0:15:32.62,0:15:35.21,Thoughts,,0,0,0,,{\be10}Damn, I'm running out of time.
+Dialogue: 0,0:15:36.21,0:15:39.75,Thoughts,,0,0,0,,{\be10}Wait, when the burglar killed the owner...
+Dialogue: 0,0:15:40.46,0:15:43.34,Thoughts,,0,0,0,,{\be10}He only killed him right before he was leaving.
 Dialogue: 0,0:15:52.22,0:15:54.18,Dialogue,,0,0,0,,It's only ¥75,000.
 Dialogue: 0,0:15:55.23,0:15:58.15,Dialogue,,0,0,0,,I can't believe there's nothing valuable\Nin this expensive apartment.
 Dialogue: 0,0:16:00.98,0:16:04.15,Dialogue,,0,0,0,,Now... it's time to leave.
-Dialogue: 0,0:16:23.63,0:16:26.72,Dialogue,,0,0,0,,This is Yoshida, I'm not available right now.
-Dialogue: 0,0:16:27.51,0:16:31.01,Dialogue,,0,0,0,,Please leave a message after the beep.
-Dialogue: 0,0:16:34.31,0:16:35.56,Dialogue,,0,0,0,,Hey, it's me.
-Dialogue: 0,0:16:36.52,0:16:37.48,Dialogue,,0,0,0,,Professor Agasa!
-Dialogue: 0,0:16:38.23,0:16:40.52,Dialogue,,0,0,0,,I'm right by your home now.
-Dialogue: 0,0:16:41.02,0:16:44.82,Dialogue,,0,0,0,,You know, that ¥5,000,000 yen I borrowed\Nthe other day, I want to pay it back.
-Dialogue: 0,0:16:45.07,0:16:47.24,Dialogue,,0,0,0,,I'm on my way from the bank.
+Dialogue: 0,0:16:23.63,0:16:26.72,Radio,,0,0,0,,{\be10}This is Yoshida, I'm not available right now.
+Dialogue: 0,0:16:27.51,0:16:31.01,Radio,,0,0,0,,{\be10}Please leave a message after the beep.
+Dialogue: 0,0:16:34.31,0:16:35.56,Radio,,0,0,0,,{\be10}Hey, it's me.
+Dialogue: 0,0:16:36.52,0:16:37.48,Thoughts,,0,0,0,,{\be10}Professor Agasa!
+Dialogue: 0,0:16:38.23,0:16:40.52,Radio,,0,0,0,,{\be10}I'm right by your home now.
+Dialogue: 0,0:16:41.02,0:16:44.82,Radio,,0,0,0,,{\be10}You know, that ¥5,000,000 yen I borrowed\Nthe other day, I want to pay it back.
+Dialogue: 0,0:16:45.07,0:16:47.24,Radio,,0,0,0,,{\be10}I'm on my way from the bank.
 Dialogue: 0,0:16:47.49,0:16:48.65,Dialogue,,0,0,0,,¥5,000,000!
 Dialogue: 0,0:16:49.57,0:16:52.28,Dialogue,,0,0,0,,I collected the money for my invention.
 Dialogue: 0,0:16:53.70,0:16:56.79,Dialogue,,0,0,0,,I guess you're probably shopping\Nat the market nearby.
-Dialogue: 0,0:16:57.83,0:16:59.08,Dialogue,,0,0,0,,I'll go by now.
-Dialogue: 0,0:17:04.63,0:17:08.88,Dialogue,,0,0,0,,That's right... Professor Agasa\Nwas notified by Conan{\rHonorifics - Dialogue}-kun{\r}.
+Dialogue: 0,0:16:57.83,0:16:59.08,Radio,,0,0,0,,{\be10}I'll go by now.
+Dialogue: 0,0:17:04.63,0:17:08.88,Thoughts,,0,0,0,,{\be10}That's right... Professor Agasa\Nwas notified by Conan{\rHonorifics - Thoughts\be10}-kun{\r\be10}.
 Dialogue: 0,0:17:09.43,0:17:13.60,Dialogue,,0,0,0,,Hey. That person who called, is he your grandfather?
 Dialogue: 0,0:17:18.77,0:17:19.98,Dialogue,,0,0,0,,¥5,000,000...
 Dialogue: 0,0:17:20.73,0:17:22.27,Dialogue,,0,0,0,,I can't miss that.
-Dialogue: 0,0:17:34.28,0:17:35.53,Dialogue,,0,0,0,,It's me. Open the door.
-Dialogue: 0,0:17:42.08,0:17:42.37,Dialogue,,0,0,0,,Yes!
-Dialogue: 0,0:17:52.76,0:17:56.06,Dialogue,,0,0,0,,This is bad! Professor Agasa will be captured...
-Dialogue: 0,0:17:56.68,0:17:57.47,Dialogue,,0,0,0,,What should I do?
+Dialogue: 0,0:17:34.28,0:17:35.53,Radio,,0,0,0,,{\be10}It's me. Open the door.
+Dialogue: 0,0:17:42.08,0:17:42.37,Thoughts,,0,0,0,,{\be10}Yes!
+Dialogue: 0,0:17:52.76,0:17:56.06,Thoughts,,0,0,0,,{\be10}This is bad! Professor Agasa will be captured...
+Dialogue: 0,0:17:56.68,0:17:57.47,Thoughts,,0,0,0,,{\be10}What should I do?
 Dialogue: 0,0:18:05.15,0:18:05.94,Dialogue,,0,0,0,,Here, here.
 Dialogue: 0,0:18:09.49,0:18:12.15,Dialogue,,0,0,0,,Who are you? Where's the old man?
 Dialogue: 0,0:18:12.66,0:18:14.53,Dialogue,,0,0,0,,It's only been me from the beginning.
@@ -338,3 +335,5 @@ Dialogue: 0,0:24:10.23,0:24:11.27,Dialogue,,0,0,0,,Next Conan:
 Dialogue: 0,0:24:11.61,0:24:14.66,Dialogue,,0,0,0,,The Night Before the Wedding Locked Room Case\N(Part 1)
 Dialogue: 0,0:24:16.63,0:24:17.55,Dialogue,,0,0,0,,Next Conan's Hint:
 Dialogue: 0,0:24:18.83,0:24:19.75,Dialogue,,0,0,0,,Pendant
+Dialogue: 0,0:24:20.83,0:24:22.13,Dialogue Top,,0,0,0,,Soon will come the holidays.
+Dialogue: 0,0:24:22.13,0:24:25.60,Dialogue Top,,0,0,0,,Congratulations to those who have passed and those who haven't, too!
