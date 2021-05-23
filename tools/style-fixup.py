@@ -61,6 +61,7 @@ for folder in next(os.walk("../subs"))[1]:
                     parts[9] = re.sub(r"\\N+$", "", parts[9])
                     parts[9] = re.sub(r"({[^}{]*?)\s*{\s*", r"\1 / ", parts[9])
                     parts[9] = parts[9].replace("{ / ", "{")
+                    parts[9] = parts[9].replace('""', '"')
                     line = ",".join(parts)
                     while r",,\N" in line:
                         line = line.replace(r",,\N", ",,")
