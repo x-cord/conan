@@ -36,13 +36,13 @@ Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:01.57,0:00:03.26,Dialogue,,0,0,0,,Perceiving in a flash,
-Dialogue: 0,0:00:03.40,0:00:04.63,Dialogue,,0,0,0,,Once it starts rolling, it won't stop!
-Dialogue: 0,0:00:05.11,0:00:06.84,Dialogue,,0,0,0,,Today, we meet a strange bus passenger.
-Dialogue: 0,0:00:07.12,0:00:08.64,Dialogue,,0,0,0,,The case that unfolds is beyond imagination.
-Dialogue: 0,0:00:09.08,0:00:10.52,Dialogue,,0,0,0,,Seeing the one and only truth,
-Dialogue: 0,0:00:10.66,0:00:12.30,Dialogue,,0,0,0,,A child with the intelligence of an adult.
-Dialogue: 0,0:00:12.62,0:00:14.89,Dialogue,,0,0,0,,His name is: Detective Conan!
+Dialogue: 0,0:00:01.57,0:00:03.26,Narration Off,,0,0,0,,{\be10}Perceiving in a flash,
+Dialogue: 0,0:00:03.40,0:00:04.63,Narration Off,,0,0,0,,{\be10}Once it starts rolling, it won't stop!
+Dialogue: 0,0:00:05.11,0:00:06.84,Narration Off,,0,0,0,,{\be10}Today, we meet a strange bus passenger.
+Dialogue: 0,0:00:07.12,0:00:08.64,Narration Off,,0,0,0,,{\be10}The case that unfolds is beyond imagination.
+Dialogue: 0,0:00:09.08,0:00:10.52,Narration Off,,0,0,0,,{\be10}Seeing the one and only truth,
+Dialogue: 0,0:00:10.66,0:00:12.30,Narration Off,,0,0,0,,{\be10}A child with the intelligence of an adult.
+Dialogue: 0,0:00:12.62,0:00:14.89,Narration Off,,0,0,0,,{\be10}His name is: Detective Conan!
 Dialogue: 0,0:01:53.72,0:01:53.95,Dialogue,,0,0,0,,Oh!
 Dialogue: 0,0:01:57.81,0:01:58.33,Dialogue,,0,0,0,,Come on!
 Dialogue: 0,0:01:58.52,0:01:59.29,Dialogue,,0,0,0,,W-Wait.
@@ -69,13 +69,16 @@ Dialogue: 0,0:03:47.92,0:03:48.98,Dialogue,,0,0,0,,I'm sorry!
 Dialogue: 0,0:03:50.26,0:03:54.11,Dialogue,,0,0,0,,Oh? Aren't you Mouri{\rHonorifics - Dialogue}-san{\r}'s daughter?
 Dialogue: 0,0:03:55.47,0:03:58.49,Dialogue,,0,0,0,,Yes. And you are...?
 Dialogue: 0,0:03:59.56,0:04:02.71,Dialogue,,0,0,0,,My name is Shitara. Shitara Juukichi.
+Dialogue: 0,0:04:00.01,0:04:05.45,Character Card,,0,0,0,,Shitara Juukichi (70)
 Dialogue: 0,0:04:03.31,0:04:05.45,Dialogue,,0,0,0,,Well, it's no surprise that you don't remember.
 Dialogue: 0,0:04:08.11,0:04:09.25,Dialogue,,0,0,0,,Shitara{\rHonorifics - Dialogue}-san{\r}...?
 Dialogue: 0,0:04:09.90,0:04:10.63,Dialogue,,0,0,0,,It's written like this.
+Dialogue: 0,0:04:13.15,0:04:15.88,Signs,,0,0,0,,Shitara
 Dialogue: 0,0:04:17.74,0:04:19.05,Dialogue,,0,0,0,,What a nice name!
 Dialogue: 0,0:04:19.33,0:04:20.81,Dialogue,,0,0,0,,I'm Mouri Ran.
 Dialogue: 0,0:04:23.37,0:04:25.01,Dialogue,,0,0,0,,It's really hot and stuffy today.
 Dialogue: 0,0:04:26.33,0:04:28.98,Dialogue,,0,0,0,,Yes. It's the rainy season, after all.
+Dialogue: 0,0:04:29.42,0:04:31.39,Signs,,0,0,0,,Mouri Ran
 Dialogue: 0,0:04:30.17,0:04:31.52,Dialogue,,0,0,0,,It's written like this.
 Dialogue: 0,0:04:32.55,0:04:34.65,Dialogue,,0,0,0,,Oh. Thank you for writing it out for me.
 Dialogue: 0,0:04:35.18,0:04:35.95,Dialogue,,0,0,0,,You're welcome.
@@ -109,7 +112,7 @@ Dialogue: 0,0:05:58.72,0:06:00.50,Dialogue,,0,0,0,,That's because you were aslee
 Dialogue: 0,0:06:00.50,0:06:01.57,Dialogue,,0,0,0,,Then, don't ask me about it.
 Dialogue: 0,0:06:03.10,0:06:05.04,Dialogue,,0,0,0,,Maybe you just dreamed it.
 Dialogue: 0,0:06:05.35,0:06:05.95,Dialogue,,0,0,0,,Dreamed it?
-Dialogue: 0,0:06:07.14,0:06:08.41,Dialogue,,0,0,0,,Was I dreaming?
+Dialogue: 0,0:06:07.14,0:06:08.41,Thoughts,,0,0,0,,{\be10}Was I dreaming?
 Dialogue: 0,0:06:19.45,0:06:20.01,Dialogue,,0,0,0,,Ran?
 Dialogue: 0,0:06:20.45,0:06:23.76,Dialogue,,0,0,0,,Excuse me. Did an older man get off at the stop\Nat Muromachi Hospital's front entrance?
 Dialogue: 0,0:06:24.20,0:06:26.01,Dialogue,,0,0,0,,He was wearing a hat and holding an umbrella.
@@ -131,11 +134,13 @@ Dialogue: 0,0:07:00.28,0:07:02.22,Dialogue,,0,0,0,,Why does that guy bother you 
 Dialogue: 0,0:07:02.36,0:07:03.67,Dialogue,,0,0,0,,I'm just really worried.
 Dialogue: 0,0:07:04.32,0:07:08.80,Dialogue,,0,0,0,,I feel like I've met that man somewhere\Nbefore, but I can't remember.
 Dialogue: 0,0:07:09.62,0:07:10.35,Dialogue,,0,0,0,,Besides...
-Dialogue: 0,0:07:11.17,0:07:15.23,Dialogue,,0,0,0,,Actually, I was wondering if should\Ngo and see your father just now.
+Dialogue: 0,0:07:11.17,0:07:15.23,Flashback,,0,0,0,,{\be10}Actually, I was wondering if should\Ngo and see your father just now.
 Dialogue: 0,0:07:16.67,0:07:18.98,Dialogue,,0,0,0,,He seemed to have something important to see Dad about.
 Dialogue: 0,0:07:21.05,0:07:22.07,Dialogue,,0,0,0,,In that case, you should go there.
-Dialogue: 0,0:07:23.68,0:07:24.99,Dialogue,,0,0,0,,Beika News Agency?
+Dialogue: 0,0:07:23.01,0:07:24.98,Signs,,0,0,0,,Beika Newspaper
+Dialogue: 0,0:07:23.68,0:07:24.98,Dialogue,,0,0,0,,Beika News Agency?
 Dialogue: 0,0:07:26.05,0:07:26.94,Dialogue,,0,0,0,,The place opposite that.
+Dialogue: 0,0:07:29.93,0:07:33.37,Signs,,0,0,0,,Muromachi Hospital
 Dialogue: 0,0:07:30.68,0:07:32.32,Dialogue,,0,0,0,,Shitara Juukichi{\rHonorifics - Dialogue}-san{\r}...
 Dialogue: 0,0:07:34.02,0:07:35.16,Dialogue,,0,0,0,,No such person.
 Dialogue: 0,0:07:35.65,0:07:36.25,Dialogue,,0,0,0,,No?
@@ -164,18 +169,20 @@ Dialogue: 0,0:08:30.87,0:08:31.97,Dialogue,,0,0,0,,Impossible, right?
 Dialogue: 0,0:08:32.33,0:08:33.26,Dialogue,,0,0,0,,Naturally.
 Dialogue: 0,0:08:33.79,0:08:36.06,Dialogue,,0,0,0,,You must be over-thinking things, or just had a dream.
 Dialogue: 0,0:08:39.71,0:08:41.52,Dialogue,,0,0,0,,Maybe I really was dreaming.
-Dialogue: 0,0:08:44.34,0:08:53.79,Signs,,0,0,0,,Note: An MO disk drive is a magnetic storage device which\Nutilizes an optical laser. This recording technology has\Nhigh reliability and low cost per megabyte of storage.
+Dialogue: 0,0:08:44.34,0:08:53.79,Signs,,0,0,0,,Note: An MO disk drive is a magnetic storage device which utilizes an optical laser. This recording technology has high reliability and low cost per megabyte of storage.
 Dialogue: 0,0:08:44.34,0:08:45.32,Dialogue,,0,0,0,,An MO disk.
 Dialogue: 0,0:08:47.68,0:08:48.70,Dialogue,,0,0,0,,What's this all about?
 Dialogue: 0,0:08:50.35,0:08:53.79,Dialogue,,0,0,0,,What is it? I don't remember buying this.
 Dialogue: 0,0:08:54.07,0:08:56.16,Dialogue,,0,0,0,,Maybe it belongs to the old man.
 Dialogue: 0,0:08:57.94,0:08:59.42,Dialogue,,0,0,0,,But... Why?
+Dialogue: 0,0:09:00.23,0:09:02.46,Character Card,,0,0,0,,Agasa Residence
 Dialogue: 0,0:09:06.82,0:09:08.17,Dialogue,,0,0,0,,No good.
+Dialogue: 0,0:09:08.49,0:09:11.67,Signs,,0,0,0,,Enter password
 Dialogue: 0,0:09:09.28,0:09:11.80,Dialogue,,0,0,0,,I can't access it without the password.
 Dialogue: 0,0:09:12.24,0:09:13.42,Dialogue,,0,0,0,,Is that so?
 Dialogue: 0,0:09:14.00,0:09:14.48,Dialogue,,0,0,0,,Here.
-Dialogue: 0,0:09:17.04,0:09:19.31,Dialogue,,0,0,0,,Top secret. Strictly not to be removed.
-Dialogue: 0,0:09:19.84,0:09:21.32,Dialogue,,0,0,0,,That's natural...
+Dialogue: 0,0:09:17.04,0:09:19.31,Thoughts,,0,0,0,,{\be10}Top secret. Strictly not to be removed.
+Dialogue: 0,0:09:19.84,0:09:21.32,Thoughts,,0,0,0,,{\be10}That's natural...
 Dialogue: 0,0:09:22.17,0:09:24.65,Dialogue,,0,0,0,,Doctor, is it possible to crack the password,
 Dialogue: 0,0:09:24.76,0:09:26.11,Dialogue,,0,0,0,,And see what's on this?
 Dialogue: 0,0:09:27.93,0:09:29.66,Dialogue,,0,0,0,,That would take a bit of time,
@@ -198,10 +205,10 @@ Dialogue: 0,0:10:11.47,0:10:14.32,Dialogue,,0,0,0,,It might help me remember som
 Dialogue: 0,0:10:14.60,0:10:16.16,Dialogue,,0,0,0,,I should have known it was you.
 Dialogue: 0,0:10:16.85,0:10:19.24,Dialogue,,0,0,0,,Please. Please help, Sonoko.
 Dialogue: 0,0:10:20.02,0:10:23.62,Dialogue,,0,0,0,,Aw, man... I just finished my shower and I'm all ready for bed...
-Dialogue: 0,0:10:34.87,0:10:36.26,Dialogue,,0,0,0,,What's up with that car?
+Dialogue: 0,0:10:34.87,0:10:36.26,Thoughts,,0,0,0,,{\be10}What's up with that car?
 Dialogue: 0,0:10:37.29,0:10:40.27,Dialogue,,0,0,0,,Conan. Face forward. It's dangerous.
 Dialogue: 0,0:10:40.37,0:10:41.97,Dialogue,,0,0,0,,Ran{\rHonorifics - Dialogue}-neechan{\r}, that car...
-Dialogue: 0,0:10:42.95,0:10:43.22,Dialogue,,0,0,0,,Eh?
+Dialogue: 0,0:10:42.95,0:10:43.22,Thoughts,,0,0,0,,{\be10}Eh?
 Dialogue: 0,0:10:46.26,0:10:48.57,Dialogue,,0,0,0,,There's nothing there. Now, turn around.
 Dialogue: 0,0:10:58.73,0:11:01.17,Dialogue,,0,0,0,,Just like I said this afternoon,
 Dialogue: 0,0:11:01.48,0:11:04.42,Dialogue,,0,0,0,,I simply don't remember anything about that old man.
@@ -260,8 +267,8 @@ Dialogue: 0,0:14:00.84,0:14:03.13,Dialogue,,0,0,0,,Along with behind-the-scene d
 Dialogue: 0,0:14:04.75,0:14:05.64,Dialogue,,0,0,0,,So that's it.
 Dialogue: 0,0:14:06.25,0:14:08.81,Dialogue,,0,0,0,,Because he had that double entry accounting record,
 Dialogue: 0,0:14:08.87,0:14:09.76,Dialogue,,0,0,0,,He was being followed.
-Dialogue: 0,0:14:12.75,0:14:14.27,Dialogue,,0,0,0,,Oh, I thought I was finally done for.
-Dialogue: 0,0:14:14.55,0:14:14.86,Dialogue,,0,0,0,,Oh?
+Dialogue: 0,0:14:12.75,0:14:14.27,Flashback,,0,0,0,,{\be10}Oh, I thought I was finally done for.
+Dialogue: 0,0:14:14.55,0:14:14.86,Flashback,,0,0,0,,{\be10}Oh?
 Dialogue: 0,0:14:17.80,0:14:18.86,Dialogue,,0,0,0,,So that man wearing sunglasses,
 Dialogue: 0,0:14:19.51,0:14:22.53,Dialogue,,0,0,0,,The target was not me, but the old uncle.
 Dialogue: 0,0:14:23.14,0:14:26.33,Dialogue,,0,0,0,,Yeah, and the old uncle realized he was being followed,
@@ -308,35 +315,35 @@ Dialogue: 0,0:16:50.16,0:16:51.64,Dialogue,,0,0,0,,No... Oh, no!
 Dialogue: 0,0:16:53.62,0:16:57.18,Dialogue,,0,0,0,,Yes. I'm now at the bus company, at their parking station.
 Dialogue: 0,0:16:57.71,0:16:58.69,Dialogue,,0,0,0,,Trouble...!
 Dialogue: 0,0:16:59.67,0:17:01.40,Dialogue,,0,0,0,,The other girl just got kidnapped!
-Dialogue: 0,0:17:05.26,0:17:06.40,Dialogue,,0,0,0,,Shinichi, it's me.
+Dialogue: 0,0:17:05.26,0:17:06.40,Radio,,0,0,0,,{\be10}Shinichi, it's me.
 Dialogue: 0,0:17:06.72,0:17:07.86,Dialogue,,0,0,0,,What's up, professor?
 Dialogue: 0,0:17:08.80,0:17:10.57,Dialogue,,0,0,0,,I just got a phone call from Ran.
 Dialogue: 0,0:17:10.72,0:17:12.36,Dialogue,,0,0,0,,She said Sonoko was kidnapped.
 Dialogue: 0,0:17:12.93,0:17:13.45,Dialogue,,0,0,0,,What?
-Dialogue: 0,0:17:13.98,0:17:16.92,Dialogue,,0,0,0,,The criminal's car came out of the bus\Ncompany gate and turned left.
-Dialogue: 0,0:17:18.15,0:17:19.58,Dialogue,,0,0,0,,The left is... This side.
+Dialogue: 0,0:17:13.98,0:17:16.92,Radio,,0,0,0,,{\be10}The criminal's car came out of the bus\Ncompany gate and turned left.
+Dialogue: 0,0:17:18.15,0:17:19.58,Thoughts,,0,0,0,,{\be10}The left is... This side.
 Dialogue: 0,0:17:20.40,0:17:21.88,Dialogue,,0,0,0,,Driver, please turn back.
 Dialogue: 0,0:17:22.15,0:17:22.63,Dialogue,,0,0,0,,Oh?
 Dialogue: 0,0:17:26.86,0:17:29.00,Dialogue,,0,0,0,,What took you so long?
 Dialogue: 0,0:17:29.32,0:17:32.01,Dialogue,,0,0,0,,I'm sorry. I couldn't get a clear opportunity.
-Dialogue: 0,0:17:37.50,0:17:38.14,Dialogue,,0,0,0,,That's weird.
-Dialogue: 0,0:17:38.75,0:17:41.23,Dialogue,,0,0,0,,We should be coming across the culprit's car right about now.
-Dialogue: 0,0:17:42.80,0:17:45.03,Dialogue,,0,0,0,,There's only one factory in this direction.
-Dialogue: 0,0:17:45.67,0:17:47.94,Dialogue,,0,0,0,,That means... He must have taken a turn somewhere.
+Dialogue: 0,0:17:37.50,0:17:38.14,Thoughts,,0,0,0,,{\be10}That's weird.
+Dialogue: 0,0:17:38.75,0:17:41.23,Thoughts,,0,0,0,,{\be10}We should be coming across the culprit's car right about now.
+Dialogue: 0,0:17:42.80,0:17:45.03,Thoughts,,0,0,0,,{\be10}There's only one factory in this direction.
+Dialogue: 0,0:17:45.67,0:17:47.94,Thoughts,,0,0,0,,{\be10}That means... He must have taken a turn somewhere.
 Dialogue: 0,0:17:48.39,0:17:50.28,Dialogue,,0,0,0,,Driver, turn right over there.
 Dialogue: 0,0:17:55.98,0:17:58.17,Dialogue,,0,0,0,,Where does this road lead to?
 Dialogue: 0,0:17:58.69,0:18:01.79,Dialogue,,0,0,0,,Nowhere. This is the road to the warehouse.
 Dialogue: 0,0:18:02.36,0:18:06.26,Dialogue,,0,0,0,,If you're trying to get somewhere, this is a much longer route.
-Dialogue: 0,0:18:07.11,0:18:10.17,Dialogue,,0,0,0,,That means Sonoko is somewhere nearby.
-Dialogue: 0,0:18:21.84,0:18:23.57,Dialogue,,0,0,0,,I remember the name was Beika Construction.
-Dialogue: 0,0:18:33.10,0:18:37.87,Dialogue,,0,0,0,,Wait, wait. If the double entry account records are made public,
-Dialogue: 0,0:18:38.35,0:18:40.60,Dialogue,,0,0,0,,Beika Construction won't be the only\Nplace to receive that bad publicity.
-Dialogue: 0,0:18:40.60,0:18:42.74,Dialogue,,0,0,0,,Any company with inside dealings with them will also be affected.
-Dialogue: 0,0:18:45.57,0:18:47.67,Dialogue,,0,0,0,,Professor, on the MO disk,
-Dialogue: 0,0:18:47.99,0:18:50.26,Dialogue,,0,0,0,,Was there a Yujin Economic Research Institute?
+Dialogue: 0,0:18:07.11,0:18:10.17,Thoughts,,0,0,0,,{\be10}That means Sonoko is somewhere nearby.
+Dialogue: 0,0:18:21.84,0:18:23.57,Thoughts,,0,0,0,,{\be10}I remember the name was Beika Construction.
+Dialogue: 0,0:18:33.10,0:18:37.87,Thoughts,,0,0,0,,{\be10}Wait, wait. If the double entry account records are made public,
+Dialogue: 0,0:18:38.35,0:18:40.60,Thoughts,,0,0,0,,{\be10}Beika Construction won't be the only\Nplace to receive that bad publicity.
+Dialogue: 0,0:18:40.60,0:18:42.74,Thoughts,,0,0,0,,{\be10}Any company with inside dealings with them will also be affected.
+Dialogue: 0,0:18:45.57,0:18:47.67,Radio,,0,0,0,,{\be10}Professor, on the MO disk,
+Dialogue: 0,0:18:47.99,0:18:50.26,Radio,,0,0,0,,{\be10}Was there a Yujin Economic Research Institute?
 Dialogue: 0,0:18:51.37,0:18:52.72,Dialogue,,0,0,0,,Just a minute.
 Dialogue: 0,0:18:54.20,0:18:55.51,Dialogue,,0,0,0,,Yes, Shinichi.
-Dialogue: 0,0:18:56.16,0:18:58.85,Dialogue,,0,0,0,,And the amounts involved were pretty large.
+Dialogue: 0,0:18:56.16,0:18:58.85,Radio,,0,0,0,,{\be10}And the amounts involved were pretty large.
 Dialogue: 0,0:18:59.33,0:19:00.56,Dialogue,,0,0,0,,Thanks, professor.
 Dialogue: 0,0:19:01.25,0:19:03.44,Dialogue,,0,0,0,,Stupid. She's not the one!
 Dialogue: 0,0:19:03.67,0:19:06.02,Dialogue,,0,0,0,,Eh? Then it must be the other girl.
@@ -355,19 +362,19 @@ Dialogue: 0,0:19:58.77,0:20:00.93,Dialogue,,0,0,0,,Who the hell are you, you bra
 Dialogue: 0,0:20:03.31,0:20:05.54,Dialogue,,0,0,0,,Edogawa Conan, a detective.
 Dialogue: 0,0:20:06.36,0:20:08.21,Dialogue,,0,0,0,,Quit screwing around...!
 Dialogue: 0,0:20:13.49,0:20:14.09,Dialogue,,0,0,0,,Shoot!
-Dialogue: 0,0:20:26.63,0:20:28.73,Dialogue,,0,0,0,,So the men wearing sunglasses,
-Dialogue: 0,0:20:29.13,0:20:31.44,Dialogue,,0,0,0,,Were associated with insider dealings with Beika Construction,
-Dialogue: 0,0:20:31.44,0:20:33.57,Dialogue,,0,0,0,,And were from the underworld, hired by the companies involved.
-Dialogue: 0,0:20:35.47,0:20:37.70,Dialogue,,0,0,0,,And Shitara Juukichi{\rHonorifics - Dialogue}-san{\r},
-Dialogue: 0,0:20:38.01,0:20:40.32,Dialogue,,0,0,0,,Was a long-term employee of Beika Construction.
-Dialogue: 0,0:20:40.93,0:20:41.91,Dialogue,,0,0,0,,He didn't know what to do,
-Dialogue: 0,0:20:42.06,0:20:44.00,Dialogue,,0,0,0,,So he took out the double entry accounting records.
+Dialogue: 0,0:20:26.63,0:20:28.73,Narration Off,,0,0,0,,{\be10}So the men wearing sunglasses,
+Dialogue: 0,0:20:29.13,0:20:31.44,Narration Off,,0,0,0,,{\be10}Were associated with insider dealings with Beika Construction,
+Dialogue: 0,0:20:31.44,0:20:33.57,Narration Off,,0,0,0,,{\be10}And were from the underworld, hired by the companies involved.
+Dialogue: 0,0:20:35.47,0:20:37.70,Narration Off,,0,0,0,,{\be10}And Shitara Juukichi{\rHonorifics - Narration Off\be10}-san{\r\be10},
+Dialogue: 0,0:20:38.01,0:20:40.32,Narration Off,,0,0,0,,{\be10}Was a long-term employee of Beika Construction.
+Dialogue: 0,0:20:40.93,0:20:41.91,Narration Off,,0,0,0,,{\be10}He didn't know what to do,
+Dialogue: 0,0:20:42.06,0:20:44.00,Narration Off,,0,0,0,,{\be10}So he took out the double entry accounting records.
 Dialogue: 0,0:20:49.23,0:20:50.04,Dialogue,,0,0,0,,Sonoko!
 Dialogue: 0,0:20:51.15,0:20:53.88,Dialogue,,0,0,0,,Ran... Ran!
 Dialogue: 0,0:20:58.74,0:21:00.43,Dialogue,,0,0,0,,I was so scared!
 Dialogue: 0,0:21:00.95,0:21:04.22,Dialogue,,0,0,0,,Thank goodness you're all right. I'm so glad, Sonoko!
-Dialogue: 0,0:21:08.25,0:21:12.10,Dialogue,,0,0,0,,The day after, Beika Construction received\Na letter from the Anti-Corruption Office.
-Dialogue: 0,0:21:13.51,0:21:16.74,Dialogue,,0,0,0,,Delivered by an old, loyal employee.
+Dialogue: 0,0:21:08.25,0:21:12.10,Thoughts,,0,0,0,,{\be10}The day after, Beika Construction received\Na letter from the Anti-Corruption Office.
+Dialogue: 0,0:21:13.51,0:21:16.74,Thoughts,,0,0,0,,{\be10}Delivered by an old, loyal employee.
 Dialogue: 0,0:22:52.02,0:22:53.96,Dialogue,,0,0,0,,But that old uncle,
 Dialogue: 0,0:22:54.82,0:22:57.05,Dialogue,,0,0,0,,I feel like I've seen him somewhere before...
 Dialogue: 0,0:22:57.53,0:23:00.05,Dialogue,,0,0,0,,Still can't remember, Ran{\rHonorifics - Dialogue}-neechan{\r}?
@@ -384,16 +391,17 @@ Dialogue: 0,0:23:22.89,0:23:24.66,Dialogue,,0,0,0,,Was it my imagination?
 Dialogue: 0,0:23:24.97,0:23:28.32,Dialogue,,0,0,0,,No, it wasn't.
 Dialogue: 0,0:23:31.19,0:23:31.83,Dialogue,,0,0,0,,Oh!
 Dialogue: 0,0:23:31.98,0:23:33.00,Dialogue,,0,0,0,,Ojii{\rHonorifics - Dialogue}-san{\r}!
-Dialogue: 0,0:23:34.40,0:23:36.84,Dialogue,,0,0,0,,So, Shitara Juukichi{\rHonorifics - Dialogue}-san{\r} is.
-Dialogue: 0,0:23:37.15,0:23:41.63,Dialogue,,0,0,0,,A regular customer at the coffee shop\Nbelow Mouri Detective Agency.
+Dialogue: 0,0:23:34.40,0:23:36.84,Narration Off,,0,0,0,,{\be10}So, Shitara Juukichi{\rHonorifics - Narration Off\be10}-san{\r\be10} is...
+Dialogue: 0,0:23:37.15,0:23:41.63,Narration Off,,0,0,0,,{\be10}A regular customer at the coffee shop\Nbelow Mouri Detective Agency.
 Dialogue: 0,0:23:49.02,0:23:50.71,Dialogue,,0,0,0,,What's wrong, Ran{\rHonorifics - Dialogue}-neechan{\r}?
 Dialogue: 0,0:23:51.61,0:23:54.30,Dialogue,,0,0,0,,I know I've seen that guy with glasses before...
 Dialogue: 0,0:23:54.82,0:23:56.17,Dialogue,,0,0,0,,But where did see him at?
 Dialogue: 0,0:24:02.24,0:24:05.26,Dialogue,,0,0,0,,Where is it? Where did you see it, Ran{\rHonorifics - Dialogue}-neechan{\r}?
 Dialogue: 0,0:24:06.21,0:24:07.31,Dialogue,,0,0,0,,Ran{\rHonorifics - Dialogue}-neechan{\r}!
-Dialogue: 0,0:24:09.79,0:24:10.81,Dialogue,,0,0,0,,Next Conan.
+Dialogue: 0,0:24:09.79,0:24:10.81,Dialogue,,0,0,0,,Next Conan:
 Dialogue: 0,0:24:11.29,0:24:14.23,Dialogue,,0,0,0,,Sonoko's Dangerous Summer Story, Part 1.
 Dialogue: 0,0:24:16.42,0:24:18.23,Dialogue,,0,0,0,,Next Conan's Hint:
 Dialogue: 0,0:24:18.63,0:24:19.87,Dialogue,,0,0,0,,Sonoko's camera
-Dialogue: 0,0:24:20.23,0:24:22.67,Dialogue Top,,0,0,0,,Next, Ran, that swim suit is pretty bold.
-Dialogue: 0,0:24:22.67,0:24:23.75,Dialogue Top,,0,0,0,,Sonoko yours is too!
+Dialogue: 0,0:24:20.23,0:24:21.00,Dialogue Top,,0,0,0,,Next!
+Dialogue: 0,0:24:21.00,0:24:22.67,Dialogue Top,,0,0,0,,Ran, that swim suit is pretty bold.
+Dialogue: 0,0:24:22.67,0:24:23.75,Dialogue Top,,0,0,0,,Sonoko, yours is too!
