@@ -36,13 +36,13 @@ Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:01.37,0:00:03.13,Dialogue,,0,0,0,,Perceiving in a flash.
-Dialogue: 0,0:00:03.33,0:00:04.73,Dialogue,,0,0,0,,Once it starts moving, it never stops.
-Dialogue: 0,0:00:04.73,0:00:06.48,Dialogue,,0,0,0,,Today we tackle the truth behind a mysterious key.
-Dialogue: 0,0:00:06.87,0:00:08.46,Dialogue,,0,0,0,,A shocking trick in a locked room!
-Dialogue: 0,0:00:08.88,0:00:10.26,Dialogue,,0,0,0,,Seeing the one and only truth.
-Dialogue: 0,0:00:10.50,0:00:12.50,Dialogue,,0,0,0,,He has the appearance of a child, and the brain of an adult...
-Dialogue: 0,0:00:12.50,0:00:14.84,Dialogue,,0,0,0,,His name is: Detective Conan!
+Dialogue: 0,0:00:01.37,0:00:03.13,Narration Off,,0,0,0,,{\be10}Perceiving in a flash.
+Dialogue: 0,0:00:03.33,0:00:04.73,Narration Off,,0,0,0,,{\be10}Once it starts moving, it never stops.
+Dialogue: 0,0:00:04.73,0:00:06.48,Narration Off,,0,0,0,,{\be10}Today we tackle the truth behind a mysterious key.
+Dialogue: 0,0:00:06.87,0:00:08.46,Narration Off,,0,0,0,,{\be10}A shocking trick in a locked room!
+Dialogue: 0,0:00:08.88,0:00:10.26,Narration Off,,0,0,0,,{\be10}Seeing the one and only truth.
+Dialogue: 0,0:00:10.50,0:00:12.50,Narration Off,,0,0,0,,{\be10}He has the appearance of a child, and the brain of an adult...
+Dialogue: 0,0:00:12.50,0:00:14.84,Narration Off,,0,0,0,,{\be10}His name is: Detective Conan!
 Dialogue: 0,0:01:37.46,0:01:40.07,Dialogue,,0,0,0,,It should be around here somewhere.
 Dialogue: 0,0:01:41.09,0:01:42.52,Dialogue,,0,0,0,,You mean the Hikari Maison apartments?
 Dialogue: 0,0:01:43.22,0:01:47.02,Dialogue,,0,0,0,,Well... It's probably been condemned by now.
@@ -50,6 +50,7 @@ Dialogue: 0,0:01:49.64,0:01:52.33,Dialogue,,0,0,0,,Hey, could it be this place?
 Dialogue: 0,0:01:53.61,0:01:54.83,Dialogue,,0,0,0,,Light Maison.
 Dialogue: 0,0:01:57.65,0:01:59.72,Dialogue,,0,0,0,,No... No way.
 Dialogue: 0,0:02:01.57,0:02:04.04,Dialogue,,0,0,0,,The Underwater Key in the Locked Room Case.
+Dialogue: 0,0:02:07.82,0:02:12.25,Character Card,,0,0,0,,Souda Mitsue (73)\NHikari Maison landlady
 Dialogue: 0,0:02:08.00,0:02:09.17,Dialogue Top,,0,0,0,,Oh, I'm sorry.
 Dialogue: 0,0:02:09.54,0:02:12.38,Dialogue Top,,0,0,0,,I remodeled the apartments earlier this spring.
 Dialogue: 0,0:02:12.83,0:02:16.55,Dialogue,,0,0,0,,I had no idea. It really surprised me.
@@ -99,12 +100,12 @@ Dialogue: 0,0:05:02.54,0:05:03.09,Dialogue,,0,0,0,,Makoto!
 Dialogue: 0,0:05:04.46,0:05:05.22,Dialogue,,0,0,0,,Makoto!
 Dialogue: 0,0:05:07.30,0:05:08.10,Dialogue,,0,0,0,,Makoto!
 Dialogue: 0,0:05:11.55,0:05:12.27,Dialogue,,0,0,0,,Makoto!
-Dialogue: 0,0:05:13.85,0:05:14.82,Dialogue,,0,0,0,,Makoto!!
+Dialogue: 0,0:05:13.85,0:05:14.82,Dialogue,,0,0,0,,Makoto!
 Dialogue: 0,0:05:15.31,0:05:16.28,Dialogue,,0,0,0,,What is it?
 Dialogue: 0,0:05:21.10,0:05:23.99,Dialogue,,0,0,0,,Makoto! Hang on, Makoto!
 Dialogue: 0,0:05:25.23,0:05:28.25,Dialogue,,0,0,0,,Makoto! Makoto!
 Dialogue: 0,0:05:32.28,0:05:34.88,Dialogue,,0,0,0,,The vein in his left arm's been slit open.
-Dialogue: 0,0:05:35.83,0:05:37.01,Dialogue,,0,0,0,,No other knife marks in sight.
+Dialogue: 0,0:05:35.83,0:05:37.01,Thoughts,,0,0,0,,{\be10}No other knife marks in sight.
 Dialogue: 0,0:05:37.96,0:05:39.39,Dialogue,,0,0,0,,Quick! Call an ambulance!
 Dialogue: 0,0:05:39.67,0:05:41.51,Dialogue,,0,0,0,,No. It's too late.
 Dialogue: 0,0:05:41.54,0:05:42.47,Dialogue,,0,0,0,,It can't be!
@@ -119,13 +120,13 @@ Dialogue: 0,0:06:00.89,0:06:03.11,Dialogue,,0,0,0,,Kido{\rHonorifics - Dialogue}
 Dialogue: 0,0:06:07.28,0:06:08.04,Dialogue,,0,0,0,,Kido{\rHonorifics - Dialogue}-san{\r}?
 Dialogue: 0,0:06:10.20,0:06:10.67,Dialogue,,0,0,0,,Kido{\rHonorifics - Dialogue}-san{\r}?
 Dialogue: 0,0:06:13.66,0:06:15.00,Dialogue,,0,0,0,,Kido{\rHonorifics - Dialogue}-san{\r}... Something smells!
-Dialogue: 0,0:06:16.37,0:06:18.76,Dialogue,,0,0,0,,Great. He must have gotten drunk and fell asleep.
-Dialogue: 0,0:06:19.91,0:06:21.13,Dialogue,,0,0,0,,What's with this room?
+Dialogue: 0,0:06:16.37,0:06:18.76,Thoughts,,0,0,0,,{\be10}Great. He must have gotten drunk and fell asleep.
+Dialogue: 0,0:06:19.91,0:06:21.13,Thoughts,,0,0,0,,{\be10}What's with this room?
 Dialogue: 0,0:06:29.59,0:06:30.47,Dialogue,,0,0,0,,Who are you?
 Dialogue: 0,0:06:31.18,0:06:33.23,Dialogue,,0,0,0,,Kido{\rHonorifics - Dialogue}-san{\r}, Makoto{\rHonorifics - Dialogue}-san{\r} had an accident!
 Dialogue: 0,0:06:33.23,0:06:34.02,Dialogue,,0,0,0,,Hurry. Come with me.
 Dialogue: 0,0:06:34.47,0:06:35.98,Dialogue,,0,0,0,,Wha... Uh?
-Dialogue: 0,0:06:58.91,0:07:00.63,Dialogue,,0,0,0,,Makoto~!
+Dialogue: 0,0:06:58.91,0:07:00.63,Dialogue,,0,0,0,,Makoto!
 Dialogue: 0,0:07:06.34,0:07:09.35,Dialogue,,0,0,0,,The deceased is Souda Makoto{\rHonorifics - Dialogue}-san{\r}, age 22.
 Dialogue: 0,0:07:10.09,0:07:13.52,Dialogue,,0,0,0,,He was a senior architecture student at Jounan University.
 Dialogue: 0,0:07:14.43,0:07:18.07,Dialogue,,0,0,0,,The cause of death was a severed vein\Nin the left arm and excessive blood loss.
@@ -162,6 +163,7 @@ Dialogue: 0,0:08:46.44,0:08:49.95,Dialogue,,0,0,0,,Anyway, there were never any 
 Dialogue: 0,0:08:50.40,0:08:53.25,Dialogue,,0,0,0,,That Makoto had suicidal tendencies.
 Dialogue: 0,0:08:53.36,0:08:55.20,Dialogue,,0,0,0,,Makoto was really stressed out.
 Dialogue: 0,0:08:57.45,0:08:58.50,Dialogue,,0,0,0,,What do you mean?
+Dialogue: 0,0:08:58.89,0:09:02.83,Character Card,,0,0,0,,Kido Yoshihiko (22)\NJounan University Medical Student 4th Year
 Dialogue: 0,0:08:59.68,0:09:04.06,Dialogue Top,,0,0,0,,He said the model he was making\Nfor his graduation wasn't going well.
 Dialogue: 0,0:09:04.58,0:09:05.30,Dialogue,,0,0,0,,I knew it.
 Dialogue: 0,0:09:06.79,0:09:09.18,Dialogue,,0,0,0,,That's why he was depressed.
@@ -209,14 +211,14 @@ Dialogue: 0,0:11:05.41,0:11:06.92,Dialogue,,0,0,0,,So if it was a murder,
 Dialogue: 0,0:11:07.08,0:11:09.84,Dialogue,,0,0,0,,The criminal probably did those crayon drawings, too.
 Dialogue: 0,0:11:10.91,0:11:12.46,Dialogue,,0,0,0,,And then there's the key.
 Dialogue: 0,0:11:12.92,0:11:17.77,Dialogue,,0,0,0,,How did the criminal put the key in the water?
-Dialogue: 0,0:11:18.55,0:11:20.23,Dialogue,,0,0,0,,We still have two other questions to answer.
-Dialogue: 0,0:11:21.47,0:11:23.65,Dialogue,,0,0,0,,Instead of the same random drawings he did on the walls,
-Dialogue: 0,0:11:24.38,0:11:29.31,Dialogue,,0,0,0,,Why did the criminal carefully\Ncolor in that line on the door post?
-Dialogue: 0,0:11:30.85,0:11:34.13,Dialogue,,0,0,0,,And... That window.
-Dialogue: 0,0:11:35.10,0:11:36.24,Dialogue,,0,0,0,,Even if it were darker outside,
-Dialogue: 0,0:11:36.65,0:11:39.49,Dialogue,,0,0,0,,It's hard to imagine that the criminal didn't notice it.
-Dialogue: 0,0:11:40.98,0:11:42.28,Dialogue,,0,0,0,,Wait a minute.
-Dialogue: 0,0:11:42.28,0:11:44.21,Dialogue,,0,0,0,,The window wasn't the only thing that was open!
+Dialogue: 0,0:11:18.55,0:11:20.23,Thoughts,,0,0,0,,{\be10}We still have two other questions to answer.
+Dialogue: 0,0:11:21.47,0:11:23.65,Thoughts,,0,0,0,,{\be10}Instead of the same random drawings he did on the walls,
+Dialogue: 0,0:11:24.38,0:11:29.31,Thoughts,,0,0,0,,{\be10}Why did the criminal carefully\Ncolor in that line on the door post?
+Dialogue: 0,0:11:30.85,0:11:34.13,Thoughts,,0,0,0,,{\be10}And... That window.
+Dialogue: 0,0:11:35.10,0:11:36.24,Thoughts,,0,0,0,,{\be10}Even if it were darker outside,
+Dialogue: 0,0:11:36.65,0:11:39.49,Thoughts,,0,0,0,,{\be10}It's hard to imagine that the criminal didn't notice it.
+Dialogue: 0,0:11:40.98,0:11:42.28,Thoughts,,0,0,0,,{\be10}Wait a minute.
+Dialogue: 0,0:11:42.28,0:11:44.21,Thoughts,,0,0,0,,{\be10}The window wasn't the only thing that was open!
 Dialogue: 0,0:11:44.66,0:11:45.63,Dialogue,,0,0,0,,Now I see!
 Dialogue: 0,0:11:46.20,0:11:48.17,Dialogue,,0,0,0,,Inspector, I've got it!
 Dialogue: 0,0:11:49.74,0:11:53.26,Dialogue,,0,0,0,,I take back what I said. This was a murder!
@@ -236,16 +238,16 @@ Dialogue: 0,0:12:26.78,0:12:30.37,Dialogue,,0,0,0,,The wet toilet tissue broke, 
 Dialogue: 0,0:12:33.08,0:12:34.01,Dialogue,,0,0,0,,How's that?
 Dialogue: 0,0:12:35.58,0:12:37.63,Dialogue,,0,0,0,,I think the mystery's been solved now.
 Dialogue: 0,0:12:38.33,0:12:40.93,Dialogue,,0,0,0,,I see now. I should have known you'd figure it out.
-Dialogue: 0,0:12:43.80,0:12:45.31,Dialogue,,0,0,0,,I see! That's why...
+Dialogue: 0,0:12:43.80,0:12:45.31,Thoughts,,0,0,0,,{\be10}I see! That's why...
 Dialogue: 0,0:12:46.13,0:12:48.77,Dialogue,,0,0,0,,Uncle, there's something I don't get.
 Dialogue: 0,0:12:49.39,0:12:53.03,Dialogue,,0,0,0,,You have to turn left from the\Nentrance to get to the living room, right?
 Dialogue: 0,0:12:54.02,0:12:54.99,Dialogue,,0,0,0,,Yeah. What about it?
 Dialogue: 0,0:12:55.77,0:12:58.11,Dialogue,,0,0,0,,If you drew a string from here to that room,
 Dialogue: 0,0:12:58.69,0:13:02.20,Dialogue,,0,0,0,,Wouldn't it pass over the doorjamb and leave a mark?
 Dialogue: 0,0:13:06.65,0:13:09.37,Dialogue,,0,0,0,,It's not there.
-Dialogue: 0,0:13:10.24,0:13:13.09,Dialogue,,0,0,0,,That's why the criminal used crayon to mark the doorjamb.
-Dialogue: 0,0:13:13.74,0:13:17.54,Dialogue,,0,0,0,,He wanted to make sure that people\Nknew he didn't use string to commit the murder.
-Dialogue: 0,0:13:18.42,0:13:19.14,Dialogue,,0,0,0,,And here, he...
+Dialogue: 0,0:13:10.24,0:13:13.09,Thoughts,,0,0,0,,{\be10}That's why the criminal used crayon to mark the doorjamb.
+Dialogue: 0,0:13:13.74,0:13:17.54,Thoughts,,0,0,0,,{\be10}He wanted to make sure that people\Nknew he didn't use string to commit the murder.
+Dialogue: 0,0:13:18.42,0:13:19.14,Thoughts,,0,0,0,,{\be10}And here, he...
 Dialogue: 0,0:13:19.92,0:13:21.72,Dialogue,,0,0,0,,Oh. Right. Now I get it.
 Dialogue: 0,0:13:22.29,0:13:26.27,Dialogue,,0,0,0,,The criminal put the key straight into the mail slot and...
 Dialogue: 0,0:13:27.22,0:13:29.36,Dialogue,,0,0,0,,No trace there, either.
@@ -262,34 +264,34 @@ Dialogue: 0,0:14:03.34,0:14:05.93,Dialogue,,0,0,0,,It's wide open in that yard.
 Dialogue: 0,0:14:06.34,0:14:11.81,Dialogue,,0,0,0,,If someone was acting weird out there, he'd bark even louder.
 Dialogue: 0,0:14:12.68,0:14:14.61,Dialogue,,0,0,0,,So it wasn't the air vent.
 Dialogue: 0,0:14:15.89,0:14:18.69,Dialogue,,0,0,0,,I guess it really was suicide, Inspector.
-Dialogue: 0,0:14:20.60,0:14:22.61,Dialogue,,0,0,0,,No. This was a murder.
-Dialogue: 0,0:14:23.61,0:14:24.66,Dialogue,,0,0,0,,And the criminal...
-Dialogue: 0,0:14:28.19,0:14:29.70,Dialogue,,0,0,0,,The victim only had one wound.
-Dialogue: 0,0:14:30.45,0:14:31.99,Dialogue,,0,0,0,,There are no other signs of injury.
-Dialogue: 0,0:14:31.99,0:14:33.58,Dialogue,,0,0,0,,Just one very accurate and deep incision.
-Dialogue: 0,0:14:34.78,0:14:36.08,Dialogue,,0,0,0,,The only person who could do that...
-Dialogue: 0,0:14:36.54,0:14:38.30,Dialogue,,0,0,0,,Is someone who has medical knowledge.
-Dialogue: 0,0:14:39.62,0:14:42.42,Dialogue,,0,0,0,,But what trick did he use?
-Dialogue: 0,0:14:46.50,0:14:47.26,Dialogue,,0,0,0,,Bug trap?
-Dialogue: 0,0:14:48.71,0:14:51.10,Dialogue,,0,0,0,,Hold on. That sweater by the door...
-Dialogue: 0,0:14:52.13,0:14:53.47,Dialogue,,0,0,0,,The crayon all over the walls.
-Dialogue: 0,0:14:54.09,0:14:55.98,Dialogue,,0,0,0,,And... That's it!
-Dialogue: 0,0:14:56.68,0:14:58.40,Dialogue,,0,0,0,,That's why that window's slightly open.
-Dialogue: 0,0:14:58.97,0:15:00.81,Dialogue,,0,0,0,,It's just a halfway locked room!
-Dialogue: 0,0:15:07.61,0:15:08.74,Dialogue,,0,0,0,,Now for the evidence.
-Dialogue: 0,0:15:09.49,0:15:13.14,Dialogue,,0,0,0,,There's gotta be something. There's gotta be!
-Dialogue: 0,0:15:14.53,0:15:14.87,Dialogue,,0,0,0,,What?
-Dialogue: 0,0:15:16.16,0:15:16.96,Dialogue,,0,0,0,,This smell...
-Dialogue: 0,0:15:21.21,0:15:22.26,Dialogue,,0,0,0,,It's coming from here!
-Dialogue: 0,0:15:23.42,0:15:23.97,Dialogue,,0,0,0,,Could it be...
-Dialogue: 0,0:15:29.00,0:15:30.07,Dialogue,,0,0,0,,Found it!
+Dialogue: 0,0:14:20.60,0:14:22.61,Thoughts,,0,0,0,,{\be10}No. This was a murder.
+Dialogue: 0,0:14:23.61,0:14:24.66,Thoughts,,0,0,0,,{\be10}And the criminal...
+Dialogue: 0,0:14:28.19,0:14:29.70,Thoughts,,0,0,0,,{\be10}The victim only had one wound.
+Dialogue: 0,0:14:30.45,0:14:31.99,Thoughts,,0,0,0,,{\be10}There are no other signs of injury.
+Dialogue: 0,0:14:31.99,0:14:33.58,Thoughts,,0,0,0,,{\be10}Just one very accurate and deep incision.
+Dialogue: 0,0:14:34.78,0:14:36.08,Thoughts,,0,0,0,,{\be10}The only person who could do that...
+Dialogue: 0,0:14:36.54,0:14:38.30,Thoughts,,0,0,0,,{\be10}Is someone who has medical knowledge.
+Dialogue: 0,0:14:39.62,0:14:42.42,Thoughts,,0,0,0,,{\be10}But what trick did he use?
+Dialogue: 0,0:14:46.50,0:14:47.26,Thoughts,,0,0,0,,{\be10}Bug trap?
+Dialogue: 0,0:14:48.71,0:14:51.10,Thoughts,,0,0,0,,{\be10}Hold on. That sweater by the door...
+Dialogue: 0,0:14:52.13,0:14:53.47,Thoughts,,0,0,0,,{\be10}The crayon all over the walls.
+Dialogue: 0,0:14:54.09,0:14:55.98,Thoughts,,0,0,0,,{\be10}And... That's it!
+Dialogue: 0,0:14:56.68,0:14:58.40,Thoughts,,0,0,0,,{\be10}That's why that window's slightly open.
+Dialogue: 0,0:14:58.97,0:15:00.81,Thoughts,,0,0,0,,{\be10}It's just a halfway locked room!
+Dialogue: 0,0:15:07.61,0:15:08.74,Thoughts,,0,0,0,,{\be10}Now for the evidence.
+Dialogue: 0,0:15:09.49,0:15:13.14,Thoughts,,0,0,0,,{\be10}There's gotta be something. There's gotta be!
+Dialogue: 0,0:15:14.53,0:15:14.87,Thoughts,,0,0,0,,{\be10}What?
+Dialogue: 0,0:15:16.16,0:15:16.96,Thoughts,,0,0,0,,{\be10}This smell...
+Dialogue: 0,0:15:21.21,0:15:22.26,Thoughts,,0,0,0,,{\be10}It's coming from here!
+Dialogue: 0,0:15:23.42,0:15:23.97,Thoughts,,0,0,0,,{\be10}Could it be...
+Dialogue: 0,0:15:29.00,0:15:30.07,Thoughts,,0,0,0,,{\be10}Found it!
 Dialogue: 0,0:15:31.09,0:15:32.27,Dialogue,,0,0,0,,Hey, Grandma...
 Dialogue: 0,0:15:32.59,0:15:32.93,Dialogue,,0,0,0,,Yes?
 Dialogue: 0,0:15:33.63,0:15:36.77,Dialogue,,0,0,0,,Is this cup the one you used for the juice?
 Dialogue: 0,0:15:38.10,0:15:39.03,Dialogue,,0,0,0,,Yes, that's right.
 Dialogue: 0,0:15:39.43,0:15:41.86,Dialogue,,0,0,0,,I can't believe Makoto actually washed the cup.
-Dialogue: 0,0:15:43.14,0:15:43.90,Dialogue,,0,0,0,,I knew it!
-Dialogue: 0,0:15:44.56,0:15:45.99,Dialogue,,0,0,0,,I've found the proof.
+Dialogue: 0,0:15:43.14,0:15:43.90,Thoughts,,0,0,0,,{\be10}I knew it!
+Dialogue: 0,0:15:44.56,0:15:45.99,Thoughts,,0,0,0,,{\be10}I've found the proof.
 Dialogue: 0,0:15:47.19,0:15:49.20,Dialogue,,0,0,0,,Thank you for your help.
 Dialogue: 0,0:15:49.69,0:15:50.78,Dialogue,,0,0,0,,This is it for today...
 Dialogue: 0,0:15:51.19,0:15:52.45,Dialogue,,0,0,0,,I got it!
@@ -376,7 +378,7 @@ Dialogue: 0,0:23:21.73,0:23:23.41,Dialogue,,0,0,0,,You really surprised me.
 Dialogue: 0,0:23:23.48,0:23:27.62,Dialogue,,0,0,0,,It was nothing. I'm always\Nhearing Uncles deductions, that's all.
 Dialogue: 0,0:23:28.48,0:23:31.45,Dialogue,,0,0,0,,Now that's something to be proud of.
 Dialogue: 0,0:23:32.07,0:23:37.18,Dialogue,,0,0,0,,Thanks to me, you're learning\Ndetective skills without even trying.
-Dialogue: 0,0:23:39.33,0:23:43.13,Dialogue,,0,0,0,,Uncle, you're the one who needs to\Nlearn more about solving mysteries.
+Dialogue: 0,0:23:39.33,0:23:43.13,Thoughts,,0,0,0,,{\be10}Uncle, you're the one who needs to\Nlearn more about solving mysteries.
 Dialogue: 0,0:23:49.55,0:23:51.31,Dialogue,,0,0,0,,Arrest the suspect?
 Dialogue: 0,0:23:51.63,0:23:54.60,Dialogue,,0,0,0,,Find them! Find Sato and Takagi!
 Dialogue: 0,0:23:57.01,0:23:59.65,Dialogue,,0,0,0,,First, if we're gonna find any witnesses,
