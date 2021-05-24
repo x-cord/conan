@@ -1,6 +1,7 @@
 import os
 import re
 from natsort import natsorted
+from ocrfixr import spellcheck
 
 for folder in next(os.walk("../subs"))[1]:
     for file in natsorted(os.listdir("../subs/" + folder)):
@@ -8,6 +9,7 @@ for folder in next(os.walk("../subs"))[1]:
             continue
         out = ""
         ep, ext = file.split(".")
+        ep = int(ep.split(" ")[0].split("-")[0])
         with open("../subs/" + folder + "/" + file, encoding="utf8") as f:
             content = f.read()
             lines = content.splitlines()
@@ -78,6 +80,13 @@ for folder in next(os.walk("../subs"))[1]:
                     line = re.sub(r"—\\h$", "—", line)
                     line = line.strip()
                     parts = line.split(",", 9)
+                    parts[9] = parts[9].replace(r"\\N", r" \\N ")
+                    parts[9] = parts[9].replace("}", "} ")
+                    parts[9] = parts[9].replace("{", " {")
+                    parts[9] = spellcheck(parts[9]).fix()
+                    parts[9] = parts[9].replace(r" \\N ", r"\\N")
+                    parts[9] = parts[9].replace("} ", "}")
+                    parts[9] = parts[9].replace(" {", "{")
                     parts[9] = parts[9].strip()
                     line = ",".join(parts)
                 out += line + "\n"
@@ -169,5 +178,5 @@ for folder in next(os.walk("../subs"))[1]:
             out = re.sub(r"(,,|\\N)Y[,.]y", r"\1Y-Y", out)
             out = re.sub(r"(,,|\\N)Z[,.]z", r"\1Z-Z", out)
             """
-            with open("../subs/" + folder + "/" + ep + ".ass", "w") as fw:
+            with open("../subs/" + folder + "/" + file, "w") as fw:
                 fw.write(out)
