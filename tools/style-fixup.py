@@ -87,6 +87,8 @@ for folder in next(os.walk("../subs"))[1]:
             out = re.sub(r"([a-zA-Z])\.\.\.([a-zA-Z])", r"\1... \2", out)
             out = re.sub(r",,\.\.\. ([a-zA-Z])", r",,...\1", out)
             out = re.sub("!!+", "!", out)
+            out = re.sub(r"([a-zA-Z0-9!])\?\?+", r"\1?", out)
+            out = re.sub(r"\.{4,}", "...", out)
             """
             out = re.sub(r"(,,|\\N)A-a", r"\1A-A", out)
             out = re.sub(r"(,,|\\N)B-b", r"\1B-B", out)
