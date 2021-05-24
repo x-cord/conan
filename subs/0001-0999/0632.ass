@@ -35,7 +35,7 @@ Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
 
 [Events]
-Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 Dialogue: 0,0:00:02.23,0:00:04.53,Dialogue,,0,0,0,,"I am the Guardian of Time".
 Dialogue: 0,0:00:04.53,0:00:07.53,Dialogue,,0,0,0,,"And to the foolish woman who commits\Nblasphemy against time's flow...
 Dialogue: 0,0:00:07.99,0:00:12.70,Dialogue,,0,0,0,,"As punishment, in the instant you were born into this world...
@@ -82,8 +82,8 @@ Dialogue: 0,0:04:00.35,0:04:04.31,Dialogue,,0,0,0,,Did we not agree to meet at p
 Dialogue: 0,0:04:04.31,0:04:05.14,Dialogue,,0,0,0,,Well...
 Dialogue: 0,0:04:05.64,0:04:08.35,Dialogue,,0,0,0,,It's quite a long way here from the garage...
 Dialogue: 0,0:04:08.90,0:04:10.36,Dialogue,,0,0,0,,And it was raining.
-Dialogue: 0,0:04:11.15,0:04:12.82,Dialogue,,0,0,0,,Human life has a limit.
 Dialogue: 0,0:04:11.02,0:04:16.03,Character Card,,0,0,0,,Hoshina Rukako (50)\NHead the Hoshina Family
+Dialogue: 0,0:04:11.15,0:04:12.82,Dialogue,,0,0,0,,Human life has a limit.
 Dialogue: 0,0:04:12.82,0:04:16.03,Dialogue,,0,0,0,,I make it a point to not waste even one second!
 Dialogue: 0,0:04:16.82,0:04:18.57,Dialogue,,0,0,0,,Also, Oume{\rHonorifics - Dialogue}-san{\r}.
 Dialogue: 0,0:04:18.57,0:04:21.70,Dialogue,,0,0,0,,The clock in the study is slow by nearly one second.

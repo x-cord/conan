@@ -35,7 +35,7 @@ Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
 
 [Events]
-Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 Dialogue: 0,0:00:00.31,0:00:06.02,Signs,,0,0,0,,Destiny
 Dialogue: 0,0:00:00.31,0:00:06.02,Signs,,0,0,0,,Song by Matsuhashi Miki
 Dialogue: 0,0:00:01.83,0:00:03.50,Dialogue,,0,0,0,,Destiny could be a hint for our deductions.
@@ -55,17 +55,17 @@ Dialogue: 0,0:02:02.16,0:02:03.83,Dialogue,,0,0,0,,a mysterious message was left
 Dialogue: 0,0:02:06.83,0:02:10.54,Dialogue,,0,0,0,,The culprit is probably among the remaining four members.
 Dialogue: 0,0:02:11.17,0:02:13.13,Dialogue,,0,0,0,,Linked verse contest, it's a showdown!
 Dialogue: 0,0:02:20.11,0:02:24.11,Signs,,0,0,0,,Tamatsukuri Hot Springs
-Dialogue: 0,0:02:24.12,0:02:27.25,Signs,,0,0,0,,Tamatsukuri Shirasuna Inn
 Dialogue: 0,0:02:20.93,0:02:24.05,Dialogue,,0,0,0,,And we shall now commence with our gathering.
+Dialogue: 0,0:02:24.12,0:02:27.25,Signs,,0,0,0,,Tamatsukuri Shirasuna Inn
 Dialogue: 0,0:02:25.10,0:02:29.39,Dialogue,,0,0,0,,This time we will be reciting a total of 14 linked verses.
 Dialogue: 0,0:02:30.44,0:02:33.86,Dialogue,,0,0,0,,And to make it easy for our guest, Mouri{\rHonorifics - Dialogue}-san{\r}.
 Dialogue: 0,0:02:33.86,0:02:35.86,Dialogue,,0,0,0,,We shall recite in a Shiritori manner.
 Dialogue: 0,0:02:36.23,0:02:38.24,Dialogue,,0,0,0,,Shiritori is it?
 Dialogue: 0,0:02:38.24,0:02:41.45,Dialogue,,0,0,0,,Yes, you only have to follow a few rules,
 Dialogue: 0,0:02:41.45,0:02:42.91,Dialogue,,0,0,0,,but besides that, you can do anything you want.
+Dialogue: 0,0:02:42.97,0:02:51.29,Signs,,0,0,0,,Andou Reiko (43)\NJunior College Assistant Professor\NDeprtment of Japanese Literature
 Dialogue: 0,0:02:43.53,0:02:47.07,Dialogue Top,,0,0,0,,First, we shall begin with an opening verse with 5, 7 and 5 syllables,
 Dialogue: 0,0:02:47.07,0:02:52.29,Dialogue Top,,0,0,0,,And then with two lines of 7 and 7 syllables, then one of 5, 7 and 5, and keep repeating the pattern.
-Dialogue: 0,0:02:42.97,0:02:51.29,Signs,,0,0,0,,Andou Reiko (43)\NJunior College Assistant Professor\NDeprtment of Japanese Literature
 Dialogue: 0,0:02:52.46,0:02:56.46,Dialogue,,0,0,0,,But please, be careful to not link your verse to the second one before, called Uchikoshi.
 Dialogue: 0,0:02:56.54,0:03:01.22,Signs,,0,0,0,,Shiina Ryousuke (38)\NDentist
 Dialogue: 0,0:02:56.92,0:03:01.22,Dialogue Top,,0,0,0,,Also please try to include the four seasons in the 14 verses.
@@ -110,8 +110,8 @@ Dialogue: 0,0:05:03.17,0:05:05.42,Dialogue,,0,0,0,,Imagination soar!?
 Dialogue: 0,0:05:06.80,0:05:08.80,Dialogue,,0,0,0,,So, it's Mizuki{\rHonorifics - Dialogue}-san{\r}'s turn right?
 Dialogue: 0,0:05:09.05,0:05:10.18,Dialogue,,0,0,0,,Yes.
 Dialogue: 0,0:05:10.18,0:05:12.77,Dialogue,,0,0,0,,"Texts are made in Japan".
-Dialogue: 0,0:05:16.21,0:05:18.31,Signs,,0,0,0,,"Textbooks are made in Japan".
 Dialogue: 0,0:05:14.02,0:05:18.31,Dialogue,,0,0,0,,For that, instead of "texts", it would be better to use "textbooks", wouldn't it?
+Dialogue: 0,0:05:16.21,0:05:18.31,Signs,,0,0,0,,"Textbooks are made in Japan".
 Dialogue: 0,0:05:18.69,0:05:20.77,Dialogue,,0,0,0,,It would have more words, but that doesn't matter.
 Dialogue: 0,0:05:20.77,0:05:21.52,Dialogue,,0,0,0,,Yes.
 Dialogue: 0,0:05:23.03,0:05:23.98,Dialogue,,0,0,0,,Mouri{\rHonorifics - Dialogue}-san{\r}.

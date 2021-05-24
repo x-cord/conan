@@ -35,7 +35,7 @@ Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
 
 [Events]
-Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 Dialogue: 0,0:00:01.73,0:00:04.66,Dialogue,,0,0,0,,A peculiar letter was delivered to Hattori Heiji
 Dialogue: 0,0:00:04.93,0:00:14.12,Dialogue,,0,0,0,,It was from the culprit who had murdered Wakamatsu Kouhei{\rHonorifics - Dialogue}-san{\r},\Npresident of a design company, a month ago at a Karuizawa villa.
 Dialogue: 0,0:00:14.60,0:00:20.86,Dialogue,,0,0,0,,Due to Hattori's cold, Kazuha went to visit Wakamatsu{\rHonorifics - Dialogue}-san{\r}'s\Nhome in Osaka per the letter's instructions in his stead...
@@ -82,17 +82,17 @@ Dialogue: 0,0:04:12.66,0:04:14.39,Dialogue,,0,0,0,,The Director, Shiina Masashig
 Dialogue: 0,0:04:12.66,0:04:14.00,Character Card,,0,0,0,,Shiina Masashige (56)\NSenior Managing Director
 Dialogue: 0,0:04:15.06,0:04:17.43,Dialogue,,0,0,0,,The thief Designer, Fujinami Sumio{\rHonorifics - Dialogue}-san{\r}...
 Dialogue: 0,0:04:15.06,0:04:17.33,Character Card,,0,0,0,,Fujinami Sumio (30)\NChief Designer
-Dialogue: 0,0:04:18.06,0:04:19.76,Dialogue,,0,0,0,,The secretary, Satake Yoshimi{\rHonorifics - Dialogue}-san{\r}...
 Dialogue: 0,0:04:17.80,0:04:19.66,Character Card,,0,0,0,,Satace Yoshimi (32)\NSecretary
-Dialogue: 0,0:04:20.40,0:04:22.79,Dialogue,,0,0,0,,And the president's wife, Wakamatsu Serika{\rHonorifics - Dialogue}-san{\r}...
+Dialogue: 0,0:04:18.06,0:04:19.76,Dialogue,,0,0,0,,The secretary, Satake Yoshimi{\rHonorifics - Dialogue}-san{\r}...
 Dialogue: 0,0:04:20.13,0:04:22.80,Character Card,,0,0,0,,Wakamatsu Serika (43)\NVictim Kouhei's Wife
+Dialogue: 0,0:04:20.40,0:04:22.79,Dialogue,,0,0,0,,And the president's wife, Wakamatsu Serika{\rHonorifics - Dialogue}-san{\r}...
 Dialogue: 0,0:04:23.32,0:04:25.79,Dialogue,,0,0,0,,The initial of either your first or last name...
 Dialogue: 0,0:04:26.59,0:04:28.01,Dialogue,,0,0,0,,Would be an "S", all of you!
 Dialogue: 0,0:04:29.62,0:04:35.00,Dialogue,,0,0,0,,Uhm, my first name is Sakurako, so it's also an "S".
 Dialogue: 0,0:04:35.40,0:04:36.30,Dialogue,,0,0,0,,What'd you say!?
 Dialogue: 0,0:04:36.52,0:04:40.06,Dialogue,,0,0,0,,In other words, the only one whose initials don't have an "S"...
-Dialogue: 0,0:04:40.06,0:04:42.79,Dialogue,,0,0,0,,Is Ikurou{\rHonorifics - Dialogue}-san{\r}, who was murdered this time?
 Dialogue: 0,0:04:40.03,0:04:42.03,Character Card,,0,0,0,,Wakamatsu Ikurou
+Dialogue: 0,0:04:40.06,0:04:42.79,Dialogue,,0,0,0,,Is Ikurou{\rHonorifics - Dialogue}-san{\r}, who was murdered this time?
 Dialogue: 0,0:04:43.40,0:04:44.38,Dialogue,,0,0,0,,And so?
 Dialogue: 0,0:04:44.40,0:04:47.39,Dialogue,,0,0,0,,After you found the body, what did you do?
 Dialogue: 0,0:04:47.51,0:04:51.39,Dialogue,,0,0,0,,For the time being, I went to fetch the\Nmistress, who was in the villa's living room.

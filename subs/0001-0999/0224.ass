@@ -35,7 +35,7 @@ Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
 
 [Events]
-Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 Dialogue: 0,0:03:06.10,0:03:06.84,Thoughts,,0,0,0,,{\be10}H...
 Dialogue: 0,0:03:06.84,0:03:08.23,Thoughts,,0,0,0,,{\be10}Heiji...
 Dialogue: 0,0:03:13.41,0:03:15.46,Dialogue,,0,0,0,,H-Hold on, Kazuha...
@@ -53,8 +53,8 @@ Dialogue: 0,0:03:40.71,0:03:41.66,Dialogue,,0,0,0,,You fool!
 Dialogue: 0,0:03:48.15,0:03:50.95,Character Card,,0,0,0,,Naoko Kuroe (28)\Na Fisherman
 Dialogue: 0,0:03:58.03,0:04:00.48,Dialogue,,0,0,0,,Hey, Detective!
 Dialogue: 0,0:04:02.17,0:04:04.21,Dialogue,,0,0,0,,I brought you the guy you were asking for.
-Dialogue: 0,0:04:04.73,0:04:06.99,Signs,,0,0,0,,this guy's been running all over the forest...
 Dialogue: 0,0:04:04.50,0:04:07.69,Character Card,,0,0,0,,Benzo Kadowaki (52)\NSaori's father
+Dialogue: 0,0:04:04.73,0:04:06.99,Signs,,0,0,0,,this guy's been running all over the forest...
 Dialogue: 0,0:04:08.51,0:04:12.26,Dialogue,,0,0,0,,First, where's the kid from Osaka?
 Dialogue: 0,0:04:13.22,0:04:15.83,Dialogue,,0,0,0,,We lost track of him on the mountain.
 Dialogue: 0,0:04:19.96,0:04:23.90,Thoughts,,0,0,0,,{\be10}H-Heiji, why?
