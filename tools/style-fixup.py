@@ -55,6 +55,8 @@ for folder in next(os.walk("../subs"))[1]:
                         parts[9] = r"{\be10}" + parts[9]
                         line = ",".join(parts)
                         parts = line.split(",", 9)
+                    if parts[1] == parts[2]:
+                        parts[3] = "Signs"
                     style = parts[3]
                     parts[9] = re.sub(r"Honorifics - [^}\\]+", "Honorifics - "+style.replace(" Top", ""), parts[9])
                     if r"\be10" in parts[9]:
