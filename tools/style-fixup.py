@@ -1,7 +1,8 @@
 import os
 import re
 from natsort import natsorted
-from ocrfixr import spellcheck
+#from unidecode import unidecode
+#from ocrfixr import spellcheck
 
 for folder in next(os.walk("../subs"))[1]:
     for file in natsorted(os.listdir("../subs/" + folder)):
@@ -9,7 +10,7 @@ for folder in next(os.walk("../subs"))[1]:
             continue
         out = ""
         ep, ext = file.split(".")
-        ep = int(ep.split(" ")[0].split("-")[0])
+        ep = int(re.sub("[a-z]", "", ep.split(" ")[0].split("-")[0]))
         with open("../subs/" + folder + "/" + file, encoding="utf8") as f:
             content = f.read()
             lines = content.splitlines()
@@ -61,9 +62,29 @@ for folder in next(os.walk("../subs"))[1]:
                         parts[9] = parts[9].replace(r"{\r}", r"{\r\be10}")
                         parts[9] = parts[9].replace(r"\be10\be10", r"\be10")
                     parts[9] = re.sub(r"\\N+$", "", parts[9])
-                    parts[9] = re.sub(r"({[^}{]*?)\s*{\s*", r"\1 / ", parts[9])
-                    parts[9] = parts[9].replace("{ / ", "{")
-                    parts[9] = parts[9].replace('""', '"')
+                    #parts[9] = re.sub(r"({[^}{]*?)\s*{\s*", r"\1 / ", parts[9])
+                    parts[9] = re.sub("^SO([ ,.])", r"So\1", parts[9])
+                    parts[9] = re.sub("^sO([ ,.])", r"So\1", parts[9])
+                    parts[9] = re.sub("([^A-Z]{2})SO([ ,.])", r"\1so\2", parts[9])
+                    parts[9] = parts[9].replace("sO", "so")
+                    parts[9] = parts[9].replace("tO", "to")
+                    parts[9] = parts[9].replace("Iike", "like")
+                    parts[9] = parts[9].replace("Iook", "look")
+                    #parts[9] = parts[9].rstrip(r"_-\/=°#«»~^ ")
+                    parts[9] = parts[9].rstrip("+")
+                    parts[9] = re.sub(r'Mr\.([^ ,.\\])', r"Mr. \1", parts[9])
+                    parts[9] = re.sub(r'([^\.])\s*=*-+=*$', r"\1—", parts[9])
+                    parts[9] = re.sub(r'Mourn([^a-z]|$)', r"Mouri\1", parts[9])
+                    #parts[9] = parts[9].replace("Mr ", "Mr. ")
+                    #parts[9] = parts[9].replace("Hey. ", "Hey, ")
+                    #parts[9] = parts[9].replace("Huh. ", "Huh, ")
+                    parts[9] = parts[9].replace("Mouril", "Mouri!")
+                    parts[9] = parts[9].replace("Oh. ", "Oh, ")
+                    parts[9] = parts[9].replace("'?", "?")
+                    parts[9] = parts[9].replace("1.Q", "I.Q")
+                    parts[9] = parts[9].replace(r"{\i}", r"{\i0}")
+                    if not parts[9]:
+                        continue
                     line = ",".join(parts)
                     while r",,\N" in line:
                         line = line.replace(r",,\N", ",,")
@@ -75,11 +96,13 @@ for folder in next(os.walk("../subs"))[1]:
                     line = line.replace(r"\c)", "")
                     line = line.replace(r"\an8\an8", r"\an8")
                     line = line.replace(",, ", ",,")
+                    line = line.replace("l-I", "I-I")
                     line = line.strip()
                     line = line.replace("— ", r"—\h")
                     line = re.sub(r"—\\h$", "—", line)
                     line = line.strip()
                     parts = line.split(",", 9)
+                    """
                     parts[9] = parts[9].replace(r"\\N", r" \\N ")
                     parts[9] = parts[9].replace("}", "} ")
                     parts[9] = parts[9].replace("{", " {")
@@ -87,6 +110,8 @@ for folder in next(os.walk("../subs"))[1]:
                     parts[9] = parts[9].replace(r" \\N ", r"\\N")
                     parts[9] = parts[9].replace("} ", "}")
                     parts[9] = parts[9].replace(" {", "{")
+                    """
+                    #parts[9] = unidecode(parts[9], errors="preserve")
                     parts[9] = parts[9].strip()
                     line = ",".join(parts)
                 out += line + "\n"
@@ -95,9 +120,37 @@ for folder in next(os.walk("../subs"))[1]:
             out = out.replace("﻿", "").replace("‘", "'")
             out = re.sub(r"([a-zA-Z])\.\.\.([a-zA-Z])", r"\1... \2", out)
             out = re.sub(r",,\.\.\. ([a-zA-Z])", r",,...\1", out)
-            out = re.sub("!!+", "!", out)
+            #out = re.sub("!!+", "!", out)
             out = re.sub(r"([a-zA-Z0-9!])\?\?+", r"\1?", out)
             out = re.sub(r"\.{4,}", "...", out)
+            """
+            out = re.sub(r"(,,|\\N|\. )A[,.!-] ?[aA]", r"\1A-A", out)
+            out = re.sub(r"(,,|\\N|\. )B[,.!-] ?[bB]", r"\1B-B", out)
+            out = re.sub(r"(,,|\\N|\. )C[,.!-] ?[cC]", r"\1C-C", out)
+            out = re.sub(r"(,,|\\N|\. )D[,.!-] ?[dD]", r"\1D-D", out)
+            out = re.sub(r"(,,|\\N|\. )E[,.!-] ?[eE]", r"\1E-E", out)
+            out = re.sub(r"(,,|\\N|\. )F[,.!-] ?[fF]", r"\1F-F", out)
+            out = re.sub(r"(,,|\\N|\. )G[,.!-] ?[gG]", r"\1G-G", out)
+            out = re.sub(r"(,,|\\N|\. )H[,.!-] ?[hH]", r"\1H-H", out)
+            out = re.sub(r"(,,|\\N|\. )I[,.!-] ?[iI]", r"\1I-I", out)
+            out = re.sub(r"(,,|\\N|\. )J[,.!-] ?[jJ]", r"\1J-J", out)
+            out = re.sub(r"(,,|\\N|\. )K[,.!-] ?[kK]", r"\1K-K", out)
+            out = re.sub(r"(,,|\\N|\. )L[,.!-] ?[lL]", r"\1L-L", out)
+            out = re.sub(r"(,,|\\N|\. )M[,.!-] ?[mM]", r"\1M-M", out)
+            out = re.sub(r"(,,|\\N|\. )N[,.!-] ?[nN]", r"\1N-N", out)
+            out = re.sub(r"(,,|\\N|\. )O[,.!-] ?[oO]", r"\1O-O", out)
+            out = re.sub(r"(,,|\\N|\. )P[,.!-] ?[pP]", r"\1P-P", out)
+            out = re.sub(r"(,,|\\N|\. )Q[,.!-] ?[qQ]", r"\1Q-Q", out)
+            out = re.sub(r"(,,|\\N|\. )R[,.!-] ?[rR]", r"\1R-R", out)
+            out = re.sub(r"(,,|\\N|\. )S[,.!-] ?[sS]", r"\1S-S", out)
+            out = re.sub(r"(,,|\\N|\. )T[,.!-] ?[tT]", r"\1T-T", out)
+            out = re.sub(r"(,,|\\N|\. )U[,.!-] ?[uU]", r"\1U-U", out)
+            out = re.sub(r"(,,|\\N|\. )V[,.!-] ?[vV]", r"\1V-V", out)
+            out = re.sub(r"(,,|\\N|\. )W[,.!-] ?[wW]", r"\1W-W", out)
+            out = re.sub(r"(,,|\\N|\. )X[,.!-] ?[xX]", r"\1X-X", out)
+            out = re.sub(r"(,,|\\N|\. )Y[,.!-] ?[yY]", r"\1Y-Y", out)
+            out = re.sub(r"(,,|\\N|\. )Z[,.!-] ?[zZ]", r"\1Z-Z", out)
+            """
             """
             out = re.sub(r"(,,|\\N)A-a", r"\1A-A", out)
             out = re.sub(r"(,,|\\N)B-b", r"\1B-B", out)
