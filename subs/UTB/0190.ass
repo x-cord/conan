@@ -1,0 +1,468 @@
+[Script Info]
+Title: Detective Conan - 0190
+TL Source: UTB
+ScriptType: v4.00+
+WrapStyle: 3
+PlayResX: 1440
+PlayResY: 1080
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Dialogue,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00401311,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Dialogue Top,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00401311,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,8,30,30,55,1
+Style: Signs,FrancophilSans,74,&H14FFFFFF,&H00FFFFFF,&H46101010,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,8,30,30,55,1
+Style: Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,0,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Radio,FrancophilSans,74,&H00BEE1FF,&H00FFFFFF,&H000B2A42,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Narration,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00BF6F00,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Narration Off,FrancophilSans,74,&H6E8C6F00,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,0,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Flashback,FrancophilSans,74,&H00CDFAFF,&H00FFFFFF,&H00373737,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Flashback Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00CCFFFF,&HC0313134,-1,0,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Honorifics - Dialogue,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00401311,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Signs,FrancophilSans,74,&H14FFFFFF,&H00FFFFFF,&H46101010,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,-1,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Honorifics - Radio,FrancophilSans,74,&H00BEE1FF,&H00FFFFFF,&H000B2A42,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Narration,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00BF6F00,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Narration Off,FrancophilSans,74,&H6E8C6F00,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,-1,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Honorifics - Flashback,FrancophilSans,74,&H00CDFAFF,&H00FFFFFF,&H00373737,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Flashback Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00CCFFFF,&HC0313134,-1,-1,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Masks,FrancophilSans,74,&H00000000,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,2,0,0,0,1
+Style: Title,Conan Episode Title,74,&H00E1E4E3,&H000000FF,&HC8DBDAE1,&HC0000000,-1,0,0,0,100,100,0,0,1,1,0,5,0,0,0,1
+Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-1,0,0,0,100,100,0,0,1,0,0,2,0,0,65,1
+Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
+Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
+Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:02.28,0:00:05.39,Dialogue,,0,0,0,,Just as flowing water has no form, and the breeze is invisible
+Dialogue: 0,0:00:05.39,0:00:07.29,Dialogue,,0,0,0,,Deductions take all shapes and styles in each and every case to be solved
+Dialogue: 0,0:00:07.29,0:00:09.29,Dialogue,,0,0,0,,A gun is between Conan and Ai
+Dialogue: 0,0:00:09.29,0:00:11.09,Dialogue,,0,0,0,,While Ran is putting on quite a performance with a certain someone
+Dialogue: 0,0:00:11.09,0:00:12.59,Dialogue,,0,0,0,,He sees through the one and only truth
+Dialogue: 0,0:00:12.59,0:00:14.46,Dialogue,,0,0,0,,A child in appearance with the I.Q. of an adult
+Dialogue: 0,0:00:14.46,0:00:17.93,Dialogue,,0,0,0,,No case is left unsolved with Detective Conan
+Dialogue: 0,0:01:41.33,0:01:44.70,Dialogue,,0,0,0,,We, the Youth Detective Squad, go on a camping trip with Doctor Agasa
+Dialogue: 0,0:01:44.70,0:01:47.03,Dialogue,,0,0,0,,And find a limestone cave in the forest
+Dialogue: 0,0:01:47.03,0:01:49.57,Dialogue,,0,0,0,,We immediately decide to go in and explore it
+Dialogue: 0,0:01:50.47,0:01:53.54,Dialogue,,0,0,0,,But inside the cave, we come across a gang of bank robbers
+Dialogue: 0,0:01:53.54,0:01:56.38,Dialogue,,0,0,0,,who are trying to hide the body of one of their partners
+Dialogue: 0,0:01:56.61,0:02:00.98,Dialogue,,0,0,0,,And of all the bad luck,\NI am shot and seriously injured
+Dialogue: 0,0:02:02.35,0:02:05.05,Dialogue,,0,0,0,,But thanks to the good work of the Youth Detective Squad,
+Dialogue: 0,0:02:05.05,0:02:08.05,Dialogue,,0,0,0,,We escaped and the robbers were arrested
+Dialogue: 0,0:02:08.35,0:02:12.39,Dialogue,,0,0,0,,I was quickly taken to the hospital and thanks to Ran, whose blood they used
+Dialogue: 0,0:02:12.39,0:02:17.20,Dialogue,,0,0,0,,For my transfusion, I pulled through.\NBut how did she know my blood type?
+Dialogue: 0,0:02:19.43,0:02:22.20,Dialogue,,0,0,0,,He and I have the same blood type!
+Dialogue: 0,0:02:22.97,0:02:25.31,Dialogue,,0,0,0,,Ran was very certain...
+Dialogue: 0,0:02:25.31,0:02:26.87,Dialogue,,0,0,0,,She knew what blood type I had...
+Dialogue: 0,0:02:27.77,0:02:29.88,Dialogue,,0,0,0,,She knows who I am...
+Dialogue: 0,0:02:30.44,0:02:35.01,Dialogue,,0,0,0,,And just when I figured the only option\NI had was to tell Ran the whole truth...
+Dialogue: 0,0:02:37.38,0:02:41.42,Dialogue,,0,0,0,,Ai comes along and points a gun at me!
+Dialogue: 0,0:02:42.59,0:02:48.49,Signs,Sign,0,0,0,,PERILOUS RETURN-\NTHE THIRD CHOICE
+Dialogue: 0,0:02:52.50,0:02:53.87,Dialogue,,0,0,0,,Ha...
+Dialogue: 0,0:02:53.87,0:02:54.93,Dialogue,,0,0,0,,Haibara...?!
+Dialogue: 0,0:02:55.44,0:02:57.20,Dialogue,,0,0,0,,Sorry about this...
+Dialogue: 0,0:02:57.20,0:03:01.71,Dialogue,,0,0,0,,I guess there was still some bad blood flowing through me
+Dialogue: 0,0:03:01.71,0:03:02.34,Dialogue,,0,0,0,,What?!
+Dialogue: 0,0:03:02.78,0:03:05.35,Dialogue,,0,0,0,,Oh... didn't you know?
+Dialogue: 0,0:03:05.35,0:03:07.41,Dialogue,,0,0,0,,My cover's been blown...
+Dialogue: 0,0:03:08.25,0:03:12.09,Dialogue,,0,0,0,,By those men in black, as you call them...
+Dialogue: 0,0:03:12.09,0:03:14.15,Dialogue,,0,0,0,,Want to know how?
+Dialogue: 0,0:03:14.15,0:03:17.82,Dialogue,,0,0,0,,It was that incident at the Haido City Hotel
+Dialogue: 0,0:03:17.82,0:03:19.96,Dialogue,,0,0,0,,I never dreamed it would happen...
+Dialogue: 0,0:03:19.96,0:03:25.57,Dialogue,,0,0,0,,Who would have thought there was another man there besides Pisco...
+Dialogue: 0,0:03:26.20,0:03:32.91,Dialogue,,0,0,0,,What he told them made the organization suspect the potion turned me into a child
+Dialogue: 0,0:03:32.91,0:03:37.24,Dialogue,,0,0,0,,And they found out where I was and contacted me this morning...
+Dialogue: 0,0:03:37.24,0:03:39.58,Dialogue,,0,0,0,,I thought they'd kill me off right there
+Dialogue: 0,0:03:39.58,0:03:42.32,Dialogue,,0,0,0,,But they said that if I returned to the organization,
+Dialogue: 0,0:03:42.32,0:03:44.65,Dialogue,,0,0,0,,They'd overlook the fact I betrayed them...
+Dialogue: 0,0:03:44.95,0:03:53.46,Dialogue,,0,0,0,,They want me to get back to developing the Apotoxin 4869, that's their objective!
+Dialogue: 0,0:03:53.89,0:03:55.86,Dialogue,,0,0,0,,So that's it...
+Dialogue: 0,0:03:55.86,0:03:59.27,Dialogue,,0,0,0,,That's why you're here to kill me, because I know about your organization...
+Dialogue: 0,0:03:59.43,0:04:00.73,Dialogue,,0,0,0,,That's right...
+Dialogue: 0,0:04:00.73,0:04:04.74,Dialogue,,0,0,0,,That's what they told me I had to do if I want to go back!
+Dialogue: 0,0:04:04.74,0:04:08.78,Dialogue,,0,0,0,,Of course, your parents and your detective friend in Osaka
+Dialogue: 0,0:04:08.78,0:04:11.18,Dialogue,,0,0,0,,Will also be killed tomorrow!
+Dialogue: 0,0:04:11.18,0:04:12.98,Dialogue,,0,0,0,,I'm sorry about this...
+Dialogue: 0,0:04:12.98,0:04:15.58,Dialogue,,0,0,0,,But Doctor Agasa's been taken hostage...
+Dialogue: 0,0:04:15.58,0:04:19.12,Dialogue,,0,0,0,,This is the only thing I can do to save him!
+Dialogue: 0,0:04:19.55,0:04:21.39,Dialogue,,0,0,0,,But you can also thank me...
+Dialogue: 0,0:04:21.39,0:04:25.33,Dialogue,,0,0,0,,You won't have to see your parents or your friend get killed...
+Dialogue: 0,0:04:25.33,0:04:28.06,Dialogue,,0,0,0,,Because I'm going to kill you first...
+Dialogue: 0,0:04:37.97,0:04:39.67,Dialogue,,0,0,0,,What'd you think?
+Dialogue: 0,0:04:39.67,0:04:40.54,Dialogue,,0,0,0,,What the...?
+Dialogue: 0,0:04:40.54,0:04:44.01,Dialogue,,0,0,0,,What if there really was someone like that at the hotel...
+Dialogue: 0,0:04:44.38,0:04:50.12,Dialogue,,0,0,0,,And what if they did find me and take the doctor hostage?
+Dialogue: 0,0:04:50.12,0:04:53.75,Dialogue,,0,0,0,,I'd do just what I just did, you know...
+Dialogue: 0,0:04:54.69,0:04:59.99,Dialogue,,0,0,0,,But then it's a sure bet they'll kill anyone and everyone I came in contact with,
+Dialogue: 0,0:04:59.99,0:05:02.46,Dialogue,,0,0,0,,No doubt about that...
+Dialogue: 0,0:05:02.46,0:05:03.40,Dialogue,,0,0,0,,Hey...
+Dialogue: 0,0:05:03.40,0:05:06.00,Dialogue,,0,0,0,,What are you trying to get at...
+Dialogue: 0,0:05:06.00,0:05:08.47,Dialogue,,0,0,0,,I came here to make things clear to you...
+Dialogue: 0,0:05:08.47,0:05:10.20,Dialogue,,0,0,0,,Make what clear?
+Dialogue: 0,0:05:10.20,0:05:14.27,Dialogue,,0,0,0,,If you let your feelings get the best of you\NAnd you tell her about the organization...
+Dialogue: 0,0:05:15.04,0:05:20.21,Dialogue,,0,0,0,,I want you to know that she'll certainly be one of those the organization gets rid of!
+Dialogue: 0,0:05:20.51,0:05:22.15,Dialogue,,0,0,0,,By "her"...
+Dialogue: 0,0:05:22.88,0:05:24.08,Dialogue,,0,0,0,,Do you mean Ran?
+Dialogue: 0,0:05:24.38,0:05:25.42,Dialogue,,0,0,0,,That's right...
+Dialogue: 0,0:05:25.42,0:05:29.29,Dialogue,,0,0,0,,I'm almost positive she knows who you are...
+Dialogue: 0,0:05:30.06,0:05:33.89,Dialogue,,0,0,0,,And you're thinking you can't fool her this time...
+Dialogue: 0,0:05:34.63,0:05:38.46,Dialogue,,0,0,0,,So you're thinking of telling her all about the potion and the organization
+Dialogue: 0,0:05:38.46,0:05:40.27,Dialogue,,0,0,0,,And get everything off of your chest...!
+Dialogue: 0,0:05:42.10,0:05:44.20,Dialogue,,0,0,0,,Why are you so surprised?
+Dialogue: 0,0:05:44.20,0:05:48.74,Dialogue,,0,0,0,,Anyone could tell by looking at you now!
+Dialogue: 0,0:05:49.04,0:05:50.88,Dialogue,,0,0,0,,If I can see through you, she probably can too...
+Dialogue: 0,0:05:50.88,0:05:53.28,Dialogue,,0,0,0,,She might just be thinking,
+Dialogue: 0,0:05:53.65,0:05:58.55,Dialogue,,0,0,0,,"He's going to tell me any day now...
+Dialogue: 0,0:05:58.55,0:05:59.89,Dialogue,,0,0,0,,Oh come on...
+Dialogue: 0,0:06:00.59,0:06:03.02,Dialogue,,0,0,0,,You have 3 choices!
+Dialogue: 0,0:06:03.02,0:06:03.96,Dialogue,,0,0,0,,3?
+Dialogue: 0,0:06:04.39,0:06:10.13,Dialogue,,0,0,0,,The first is, leave things as is, don't tell her anything and keep your distance
+Dialogue: 0,0:06:10.13,0:06:16.50,Dialogue,,0,0,0,,Second, you cast your fates to the wind and tell her everything...
+Dialogue: 0,0:06:16.94,0:06:24.04,Dialogue,,0,0,0,,Or your third choice which is...
+Dialogue: 0,0:06:34.55,0:06:37.92,Dialogue,Sign,0,0,0,,Shuffle Romance
+Dialogue: 0,0:06:41.96,0:06:43.86,Dialogue,,0,0,0,,Good grief, I don't believe this...
+Dialogue: 0,0:06:43.86,0:06:47.87,Dialogue,,0,0,0,,Why are there so many people out there? And we're up next too!
+Dialogue: 0,0:06:48.17,0:06:50.74,Dialogue,,0,0,0,,That's because they've heard good things about it!
+Dialogue: 0,0:06:50.74,0:06:53.51,Dialogue,,0,0,0,,After all, it's being billed as the best love romance
+Dialogue: 0,0:06:53.51,0:06:55.88,Dialogue,,0,0,0,,Surpassing even Romeo and Juliet!
+Dialogue: 0,0:06:55.88,0:06:57.14,Dialogue,,0,0,0,,Raaan!
+Dialogue: 0,0:06:57.98,0:06:59.21,Dialogue,,0,0,0,,Kazuha!
+Dialogue: 0,0:06:59.58,0:07:01.88,Dialogue,,0,0,0,,I decided to come after all!
+Dialogue: 0,0:07:01.88,0:07:04.95,Dialogue,,0,0,0,,Heiji said I shouldn't since\NI'd only be imposing, though...
+Dialogue: 0,0:07:05.59,0:07:07.75,Dialogue,,0,0,0,,You mean Heiji didn't come with you?
+Dialogue: 0,0:07:07.75,0:07:10.49,Dialogue,,0,0,0,,Oh shucks and I have a secret crush on him too...
+Dialogue: 0,0:07:10.49,0:07:11.36,Dialogue,,0,0,0,,Eh?!
+Dialogue: 0,0:07:11.72,0:07:13.63,Dialogue,,0,0,0,,She's just joking!
+Dialogue: 0,0:07:13.63,0:07:17.90,Dialogue,,0,0,0,,Sonoko's crazy about another tall, dark boy...! Aren't you!
+Dialogue: 0,0:07:18.40,0:07:21.03,Dialogue,,0,0,0,,Well excuse me for liking them tall and dark...
+Dialogue: 0,0:07:21.47,0:07:25.84,Dialogue,,0,0,0,,And where's Shinichi?
+Dialogue: 0,0:07:25.84,0:07:27.57,Dialogue,,0,0,0,,I didn't invite him...
+Dialogue: 0,0:07:27.67,0:07:29.11,Dialogue,,0,0,0,,For the love of...
+Dialogue: 0,0:07:29.11,0:07:32.51,Dialogue,,0,0,0,,You invite old friends and people from your neighborhood
+Dialogue: 0,0:07:32.51,0:07:34.71,Dialogue,,0,0,0,,But you don't invite your\N"honey, I don't understand you
+Dialogue: 0,0:07:34.88,0:07:36.05,Dialogue,,0,0,0,,Oh I get it...
+Dialogue: 0,0:07:36.05,0:07:39.65,Dialogue,,0,0,0,,I'm not the only one you invited today...
+Dialogue: 0,0:07:39.89,0:07:42.86,Dialogue,,0,0,0,,Why Conan, I'm glad you could make it!
+Dialogue: 0,0:07:42.86,0:07:47.06,Dialogue,,0,0,0,,He's still got a cold so I told to him stay at home and rest but he refused to listen
+Dialogue: 0,0:07:47.06,0:07:50.53,Dialogue,,0,0,0,,He said he promised to come so nothing could stop him
+Dialogue: 0,0:07:50.96,0:07:52.13,Dialogue,,0,0,0,,How are you?
+Dialogue: 0,0:07:52.13,0:07:53.40,Dialogue,,0,0,0,,Do you feel OK?
+Dialogue: 0,0:07:53.40,0:07:54.47,Dialogue,,0,0,0,,I'm fine
+Dialogue: 0,0:07:54.63,0:07:56.80,Dialogue,,0,0,0,,Don't push yourself just for me
+Dialogue: 0,0:07:56.80,0:07:58.64,Dialogue,,0,0,0,,Ran, may I speak to you?
+Dialogue: 0,0:07:58.64,0:08:00.81,Dialogue,,0,0,0,,It's about the cue to the last dialogue...
+Dialogue: 0,0:08:00.81,0:08:02.41,Dialogue,,0,0,0,,Be right there...
+Dialogue: 0,0:08:03.11,0:08:05.01,Dialogue,,0,0,0,,He's nice looking...
+Dialogue: 0,0:08:05.01,0:08:07.01,Dialogue,,0,0,0,,Is he by chance her partner in the play?
+Dialogue: 0,0:08:07.01,0:08:10.95,Dialogue,,0,0,0,,That's right! Don't you think they make a nice couple?
+Dialogue: 0,0:08:10.95,0:08:12.82,Dialogue,,0,0,0,,Well I'll be going to my seat now...
+Dialogue: 0,0:08:12.82,0:08:13.62,Dialogue,,0,0,0,,OK...
+Dialogue: 0,0:08:14.12,0:08:15.82,Dialogue,,0,0,0,,Don't get nervous!
+Dialogue: 0,0:08:15.82,0:08:16.76,Dialogue,,0,0,0,,Good luck!
+Dialogue: 0,0:08:19.79,0:08:23.03,Dialogue,,0,0,0,,Oh no, it's 15 minutes before stage time!
+Dialogue: 0,0:08:23.03,0:08:25.20,Dialogue,,0,0,0,,We've got to change into our costumes!
+Dialogue: 0,0:08:25.20,0:08:25.90,Dialogue,,0,0,0,,Uh huh...
+Dialogue: 0,0:08:32.64,0:08:34.34,Dialogue,,0,0,0,,Sorry it took so long...
+Dialogue: 0,0:08:34.71,0:08:38.08,Dialogue Top,,0,0,0,,What took you so long, I'm dying of thirst
+Dialogue: 0,0:08:35.01,0:08:38.21,Signs,Sign,0,0,0,,Youta Mitani\NSecurity
+Dialogue: 0,0:08:38.51,0:08:41.68,Dialogue Top,,0,0,0,,Sorry about that but the concession was pretty crowded...
+Dialogue: 0,0:08:38.98,0:08:41.65,Signs,Sign,0,0,0,,Mai Kougami
+Dialogue: 0,0:08:42.15,0:08:44.82,Dialogue,,0,0,0,,I have to go to the restroom, could you take these?
+Dialogue: 0,0:08:44.82,0:08:46.29,Dialogue,,0,0,0,,Are you going from now?
+Dialogue: 0,0:08:46.85,0:08:49.02,Dialogue Top,,0,0,0,,Then you'd better hurry Mai!
+Dialogue: 0,0:08:47.25,0:08:50.36,Signs,Sign,0,0,0,,Yumemi Noda\NTravel Agent
+Dialogue: 0,0:08:49.02,0:08:50.49,Dialogue Top,,0,0,0,,I think it's about to start...
+Dialogue: 0,0:08:50.66,0:08:51.89,Dialogue,,0,0,0,,Really?
+Dialogue: 0,0:08:51.89,0:08:53.99,Dialogue,,0,0,0,,I have less than a minute left, I better hurry!
+Dialogue: 0,0:08:53.99,0:08:54.99,Dialogue,,0,0,0,,Hurry back!
+Dialogue: 0,0:08:55.90,0:08:58.20,Dialogue,,0,0,0,,Let's see, Mai has an iced coffee and...
+Dialogue: 0,0:08:58.20,0:08:59.47,Dialogue,,0,0,0,,Mine's orange juice
+Dialogue: 0,0:08:59.47,0:09:00.77,Dialogue,,0,0,0,,Orange juice, and...
+Dialogue: 0,0:09:00.77,0:09:01.63,Dialogue,,0,0,0,,Here
+Dialogue: 0,0:09:01.63,0:09:02.47,Dialogue,,0,0,0,,Thank you
+Dialogue: 0,0:09:03.50,0:09:05.34,Dialogue,,0,0,0,,Kohei, you're having iced coffee, aren't you?
+Dialogue: 0,0:09:05.34,0:09:06.17,Dialogue,,0,0,0,,Yeah...
+Dialogue: 0,0:09:07.07,0:09:08.77,Dialogue,,0,0,0,,Mine's the oolong tea!
+Dialogue: 0,0:09:09.31,0:09:13.15,Signs,Sign,0,0,0,,Kouhei Kamata
+Dialogue: 0,0:09:09.74,0:09:10.51,Dialogue Top,,0,0,0,,Huh?
+Dialogue: 0,0:09:11.34,0:09:13.25,Dialogue Top,,0,0,0,,I-I don't believe it!
+Dialogue: 0,0:09:15.82,0:09:17.52,Dialogue Top,,0,0,0,,It's her...!
+Dialogue: 0,0:09:16.02,0:09:19.19,Signs,Sign,0,0,0,,Ayako Ninakawa
+Dialogue: 0,0:09:19.22,0:09:20.19,Dialogue,,0,0,0,,Huh?!
+Dialogue: 0,0:09:20.19,0:09:21.79,Dialogue,,0,0,0,,What's wrong?
+Dialogue: 0,0:09:21.79,0:09:24.12,Dialogue,,0,0,0,,Nothing... don't worry about it...
+Dialogue: 0,0:09:25.02,0:09:30.00,Dialogue,,0,0,0,,The B group of the junior class will now perform Shuffle Romance"...
+Dialogue: 0,0:09:30.43,0:09:32.87,Dialogue,,0,0,0,,I hope you all enjoy the play...
+Dialogue: 0,0:09:35.84,0:09:37.07,Dialogue,,0,0,0,,Ah...
+Dialogue: 0,0:09:37.07,0:09:39.41,Dialogue,,0,0,0,,Omniscient and omnipotent God Zeus!
+Dialogue: 0,0:09:39.41,0:09:43.48,Dialogue,,0,0,0,,Why do you subject me to such cruelty...?
+Dialogue: 0,0:09:43.48,0:09:48.75,Dialogue,,0,0,0,,Or are you telling me to resign myself to this marriage that I do not wish?!
+Dialogue: 0,0:09:48.98,0:09:51.82,Dialogue,,0,0,0,,That's the way, show us your stuff!
+Dialogue: 0,0:09:51.82,0:09:55.89,Dialogue,,0,0,0,,Eh heh, that's my daughter up there
+Dialogue: 0,0:09:56.26,0:10:00.23,Dialogue,,0,0,0,,Oh how embarrassing,\NI want to change my seat...
+Dialogue: 0,0:10:03.10,0:10:05.87,Dialogue,,0,0,0,,Sir! It's the first climatic scene!
+Dialogue: 0,0:10:05.87,0:10:08.07,Dialogue,,0,0,0,,Hurry and get up there, stand by... for...
+Dialogue: 0,0:10:11.30,0:10:12.00,Dialogue,,0,0,0,,Uh...
+Dialogue: 0,0:10:12.00,0:10:13.64,Dialogue,,0,0,0,,Wh... who are you ruffians?
+Dialogue: 0,0:10:13.64,0:10:15.41,Dialogue,,0,0,0,,Do you realize this is\NPrincess Heart's carriage?
+Dialogue: 0,0:10:15.41,0:10:17.48,Dialogue,,0,0,0,,Her father is the Duke Bridge!
+Dialogue: 0,0:10:18.11,0:10:19.91,Dialogue,,0,0,0,,Of course we know that!
+Dialogue: 0,0:10:19.91,0:10:23.82,Dialogue,,0,0,0,,Our orders are to kill the princess so the wedding doesn't take place!
+Dialogue: 0,0:10:24.05,0:10:29.29,Dialogue,,0,0,0,,To our empire, it is more convenient for the Duke and the King to remain at odds
+Dialogue: 0,0:10:29.29,0:10:31.89,Dialogue,,0,0,0,,It is to our benefit...
+Dialogue: 0,0:10:32.06,0:10:32.96,Dialogue,,0,0,0,,Get out of the way!
+Dialogue: 0,0:10:36.80,0:10:37.63,Dialogue,,0,0,0,,Come!
+Dialogue: 0,0:10:38.60,0:10:41.10,Dialogue,,0,0,0,,Ran, give him a karate chop!
+Dialogue: 0,0:10:41.10,0:10:43.30,Dialogue,,0,0,0,,Take those guys out!
+Dialogue: 0,0:10:46.01,0:10:47.17,Dialogue,,0,0,0,,Huh?
+Dialogue: 0,0:10:47.17,0:10:48.77,Dialogue,,0,0,0,,Raven feathers...?
+Dialogue: 0,0:10:49.51,0:10:50.54,Dialogue,,0,0,0,,It can't be...!
+Dialogue: 0,0:10:51.91,0:10:52.68,Dialogue,,0,0,0,,Ugh!
+Dialogue: 0,0:10:56.38,0:10:58.02,Dialogue,,0,0,0,,A black knight...?!
+Dialogue: 0,0:10:58.02,0:11:00.32,Dialogue,,0,0,0,,Ooo he's so handsome
+Dialogue: 0,0:11:00.75,0:11:02.39,Dialogue,,0,0,0,,Damn! Let's get out of here!
+Dialogue: 0,0:11:02.56,0:11:04.46,Dialogue,,0,0,0,,You've saved me not once but twice...
+Dialogue: 0,0:11:04.46,0:11:08.06,Dialogue,,0,0,0,,Who and what might you be...?
+Dialogue: 0,0:11:09.83,0:11:12.20,Dialogue,,0,0,0,,I am but a lowly knight dressed in black, my lady...
+Dialogue: 0,0:11:12.83,0:11:16.04,Dialogue,,0,0,0,,If you would grant me my wish...
+Dialogue: 0,0:11:16.04,0:11:19.00,Dialogue,,0,0,0,,Please remove that dark mask that you're wearing
+Dialogue: 0,0:11:19.31,0:11:21.01,Dialogue,,0,0,0,,And show me your face...!
+Dialogue: 0,0:11:25.64,0:11:26.61,Dialogue,,0,0,0,,Eh...?!
+Dialogue: 0,0:11:32.28,0:11:33.05,Dialogue,,0,0,0,,What...?!
+Dialogue: 0,0:11:33.49,0:11:35.45,Dialogue,,0,0,0,,Oh Ran, you're so lucky...
+Dialogue: 0,0:11:40.43,0:11:41.53,Dialogue,,0,0,0,,Mr. Arade...
+Dialogue: 0,0:11:41.53,0:11:43.16,Dialogue,,0,0,0,,This wasn't in the script...
+Dialogue: 0,0:11:46.20,0:11:48.23,Dialogue,,0,0,0,,Why that animal
+Dialogue: 0,0:11:48.23,0:11:51.17,Dialogue,,0,0,0,,What's he doing to my young daughter, she's still a child!
+Dialogue: 0,0:11:51.17,0:11:52.17,Dialogue,,0,0,0,,I'll teach you!
+Dialogue: 0,0:11:52.64,0:11:54.97,Dialogue,,0,0,0,,Don't go up there sir! Don't interupt them!
+Dialogue: 0,0:11:54.97,0:11:56.04,Dialogue,,0,0,0,,This is the best part!
+Dialogue: 0,0:11:58.14,0:11:58.58,Dialogue,,0,0,0,,Eh...?
+Dialogue: 0,0:12:05.75,0:12:07.25,Dialogue,,0,0,0,,Psst, Sonoko...
+Dialogue: 0,0:12:07.25,0:12:09.19,Dialogue,,0,0,0,,What am I supposed to do?
+Dialogue: 0,0:12:09.19,0:12:09.72,Dialogue,,0,0,0,,What...?!
+Dialogue: 0,0:12:13.09,0:12:15.13,Dialogue,,0,0,0,,What do you mean keep going...
+Dialogue: 0,0:12:15.13,0:12:16.26,Dialogue,,0,0,0,,Are you sure about this?
+Dialogue: 0,0:12:18.76,0:12:22.07,Dialogue,,0,0,0,,Oh, could you by chance, be Spade...
+Dialogue: 0,0:12:22.07,0:12:26.94,Dialogue,,0,0,0,,The man my father slashed between the eyes then threw out of our courtyard...
+Dialogue: 0,0:12:26.94,0:12:29.41,Dialogue,,0,0,0,,No one dreamt you were the prince of Trump empire...
+Dialogue: 0,0:12:30.68,0:12:34.11,Dialogue,,0,0,0,,If you haven't forgotten the promise we made when we were but children...
+Dialogue: 0,0:12:34.11,0:12:35.85,Dialogue,,0,0,0,,Please...
+Dialogue: 0,0:12:35.85,0:12:38.78,Dialogue,,0,0,0,,Plant a kiss upon my lips in proof...
+Dialogue: 0,0:12:38.78,0:12:41.85,Dialogue,,0,0,0,,Why you idiot!\NWhat are you saying! Ran!
+Dialogue: 0,0:13:10.98,0:13:15.02,Dialogue,,0,0,0,,The deceased is\NKohei Kamata, 27 years old...
+Dialogue: 0,0:13:15.65,0:13:18.49,Dialogue,,0,0,0,,He's a doctor at the Beika General Hospital?
+Dialogue: 0,0:13:18.49,0:13:19.02,Dialogue,,0,0,0,,Yes...
+Dialogue: 0,0:13:19.39,0:13:22.96,Dialogue,,0,0,0,,You say he collapsed while watching the play, is that right?
+Dialogue: 0,0:13:23.26,0:13:26.03,Dialogue,,0,0,0,,It seemed as if he was suddenly overcome with pain
+Dialogue: 0,0:13:26.03,0:13:28.43,Dialogue,,0,0,0,,Then he just collapsed
+Dialogue: 0,0:13:29.33,0:13:33.57,Dialogue,,0,0,0,,Could he have collapsed after drinking the contents of this cup?
+Dialogue: 0,0:13:34.34,0:13:35.31,Dialogue,,0,0,0,,I don't know
+Dialogue: 0,0:13:35.31,0:13:37.58,Dialogue,,0,0,0,,I was concentrating on the play...
+Dialogue: 0,0:13:37.94,0:13:40.51,Dialogue,,0,0,0,,There isn't much left inside...
+Dialogue: 0,0:13:41.15,0:13:45.25,Dialogue,,0,0,0,,At approximately what time did Mr. Kamata collapse?
+Dialogue: 0,0:13:45.48,0:13:46.39,Dialogue,,0,0,0,,Let's see...
+Dialogue: 0,0:13:46.39,0:13:49.05,Dialogue,,0,0,0,,The play started a little after 2, so...
+Dialogue: 0,0:13:49.35,0:13:52.46,Dialogue,,0,0,0,,I believe it was about 2:40...
+Dialogue: 0,0:13:52.79,0:13:54.69,Dialogue,,0,0,0,,Ra, Ran?!
+Dialogue: 0,0:13:54.69,0:13:55.59,Dialogue,,0,0,0,,You see
+Dialogue: 0,0:13:55.59,0:13:59.20,Dialogue,,0,0,0,,We heard the scream during the climatic scene in the first half of the play...
+Dialogue: 0,0:14:00.10,0:14:02.13,Dialogue,,0,0,0,,Isn't that right, Mr. Arade!
+Dialogue: 0,0:14:03.44,0:14:04.60,Dialogue,,0,0,0,,Mr. Arade...?
+Dialogue: 0,0:14:05.04,0:14:06.27,Dialogue,,0,0,0,,Oh I get it!
+Dialogue: 0,0:14:06.27,0:14:08.94,Dialogue,,0,0,0,,This is Ran's high school and it's their school festival!
+Dialogue: 0,0:14:09.11,0:14:10.64,Dialogue,,0,0,0,,Which means, hey!
+Dialogue: 0,0:14:10.64,0:14:11.74,Dialogue,,0,0,0,,That fellow must also be here
+Dialogue: 0,0:14:12.44,0:14:13.48,Dialogue,,0,0,0,,Huh...?
+Dialogue: 0,0:14:13.48,0:14:15.75,Dialogue,,0,0,0,,Are you looking for somebody? Inspector?
+Dialogue: 0,0:14:16.12,0:14:17.68,Dialogue,,0,0,0,,I certainly am, you!
+Dialogue: 0,0:14:18.12,0:14:19.69,Dialogue,,0,0,0,,You jinx, you!
+Dialogue: 0,0:14:19.69,0:14:23.62,Dialogue,,0,0,0,,So you've finally gone and brought bad luck onto your own daughter's school!
+Dialogue: 0,0:14:24.19,0:14:25.09,Dialogue,,0,0,0,,And?
+Dialogue: 0,0:14:25.09,0:14:28.36,Dialogue,,0,0,0,,You did make sure no one got close to the corpse, didn't you?
+Dialogue: 0,0:14:28.53,0:14:30.63,Dialogue,,0,0,0,,Of course, Inspector!
+Dialogue: 0,0:14:30.63,0:14:33.57,Dialogue,,0,0,0,,Preserving the scene of the crime is one of the most basic steps in crime solving!
+Dialogue: 0,0:14:34.07,0:14:38.40,Dialogue,,0,0,0,,This coroner was the first one to touch the body!
+Dialogue: 0,0:14:38.40,0:14:40.04,Dialogue,,0,0,0,,Have you determined the cause of death?
+Dialogue: 0,0:14:40.41,0:14:41.27,Dialogue,,0,0,0,,Yes...
+Dialogue: 0,0:14:41.27,0:14:42.44,Dialogue,,0,0,0,,I'm certain this was...
+Dialogue: 0,0:14:42.61,0:14:43.91,Dialogue,,0,0,0,,It was potassium cyanide
+Dialogue: 0,0:14:44.01,0:14:44.64,Dialogue,,0,0,0,,Eh...?!
+Dialogue: 0,0:14:44.68,0:14:45.44,Dialogue,,0,0,0,,What?!
+Dialogue: 0,0:14:45.94,0:14:49.72,Dialogue,,0,0,0,,I'm sure this guy died after drinking potassium cyanide!
+Dialogue: 0,0:14:50.02,0:14:50.98,Dialogue,,0,0,0,,Hey!
+Dialogue: 0,0:14:50.98,0:14:54.19,Dialogue,,0,0,0,,I thought you said no one touched the body!
+Dialogue: 0,0:14:54.19,0:14:55.42,Dialogue,,0,0,0,,Well, er...
+Dialogue: 0,0:14:55.42,0:14:56.66,Dialogue,,0,0,0,,I didn't see anybody...
+Dialogue: 0,0:14:56.96,0:14:58.12,Dialogue,,0,0,0,,You fool!
+Dialogue: 0,0:14:58.12,0:15:01.33,Dialogue,,0,0,0,,You don't have to touch the body to figure out how he died!
+Dialogue: 0,0:15:01.33,0:15:04.26,Dialogue,,0,0,0,,When somebody dies, it's normal for them to take on death's colors...
+Dialogue: 0,0:15:04.26,0:15:10.57,Dialogue,,0,0,0,,But this guy's lips and even his nails aren't purple, they're pink!
+Dialogue: 0,0:15:10.80,0:15:13.44,Dialogue,,0,0,0,,That's proof he died of potassium cyanide poisoning!
+Dialogue: 0,0:15:14.14,0:15:16.51,Dialogue,,0,0,0,,Potassium cyanide is different from other poisons in that,
+Dialogue: 0,0:15:17.01,0:15:20.91,Dialogue,,0,0,0,,When you drink it, it destroys the electron transmission in the cells
+Dialogue: 0,0:15:20.91,0:15:24.98,Dialogue,,0,0,0,,And the oxygen in the blood gets circulated without being used
+Dialogue: 0,0:15:24.98,0:15:27.72,Dialogue,,0,0,0,,That's why the complexion takes on a healthy color...
+Dialogue: 0,0:15:28.29,0:15:31.66,Dialogue,,0,0,0,,Also there's the smell of almonds coming out his mouth,
+Dialogue: 0,0:15:31.66,0:15:33.59,Dialogue,,0,0,0,,Pointing at potassium cyanide poisoning!
+Dialogue: 0,0:15:33.89,0:15:36.20,Dialogue,,0,0,0,,Coroner, is what he said true?
+Dialogue: 0,0:15:36.30,0:15:37.93,Dialogue,,0,0,0,,Uh, yes
+Dialogue: 0,0:15:37.93,0:15:39.70,Dialogue,,0,0,0,,And there is an almond smell
+Dialogue: 0,0:15:39.70,0:15:44.27,Dialogue,,0,0,0,,This boy's right, it's almost certain he died of potassium cyanide poison
+Dialogue: 0,0:15:44.97,0:15:46.41,Dialogue,,0,0,0,,Hey, you...
+Dialogue: 0,0:15:46.41,0:15:48.81,Dialogue,,0,0,0,,You seem to know a lot about this case...
+Dialogue: 0,0:15:48.81,0:15:53.08,Dialogue,,0,0,0,,You weren't anywhere near the victim's chair when it happened, were you?
+Dialogue: 0,0:15:53.38,0:15:54.28,Dialogue,,0,0,0,,No way!
+Dialogue: 0,0:15:54.28,0:15:59.48,Dialogue Top,,0,0,0,,I was sitting in the very front row of the block across the aisle from him!
+Dialogue: 0,0:15:57.15,0:15:59.45,Signs,Sign,0,0,0,,Kamata
+Dialogue: 0,0:15:57.15,0:15:59.45,Signs,Sign,0,0,0,,Concession Stand
+Dialogue: 0,0:15:59.65,0:16:00.69,Dialogue,,0,0,0,,Hmm
+Dialogue: 0,0:16:00.69,0:16:03.16,Dialogue,,0,0,0,,The first row of the next block eh...
+Dialogue: 0,0:16:03.32,0:16:04.16,Dialogue,,0,0,0,,That's right!
+Dialogue: 0,0:16:04.16,0:16:06.26,Dialogue,,0,0,0,,I was sitting 3 seats away from you!
+Dialogue: 0,0:16:06.43,0:16:08.33,Dialogue,,0,0,0,,Well, Mouri, is that true?
+Dialogue: 0,0:16:08.33,0:16:09.53,Dialogue,,0,0,0,,Uh, you see
+Dialogue: 0,0:16:09.53,0:16:13.87,Dialogue,,0,0,0,,I was concentrating on the play so I didn't notice who was sitting in the other seats
+Dialogue: 0,0:16:14.30,0:16:17.97,Dialogue,,0,0,0,,Is there anybody else who can prove you were there?
+Dialogue: 0,0:16:17.97,0:16:19.20,Dialogue,,0,0,0,,Let's see now...
+Dialogue: 0,0:16:19.20,0:16:20.14,Dialogue,,0,0,0,,Uhmm
+Dialogue: 0,0:16:21.11,0:16:22.37,Dialogue,,0,0,0,,Just ask him!
+Dialogue: 0,0:16:22.37,0:16:25.68,Dialogue,,0,0,0,,I was sitting right next to that kid with the glasses!
+Dialogue: 0,0:16:26.58,0:16:28.21,Dialogue,,0,0,0,,Is that right, Conan?
+Dialogue: 0,0:16:28.21,0:16:30.55,Dialogue,,0,0,0,,Yeah, I think so...
+Dialogue: 0,0:16:30.75,0:16:32.42,Dialogue,,0,0,0,,But still...
+Dialogue: 0,0:16:32.42,0:16:35.35,Dialogue,,0,0,0,,I got this funny feeling\NI know you from someplace...
+Dialogue: 0,0:16:35.35,0:16:36.99,Dialogue,,0,0,0,,Who are you anyway?
+Dialogue: 0,0:16:37.49,0:16:41.16,Dialogue,,0,0,0,,Don't tell me you've already forgotten about me?
+Dialogue: 0,0:16:41.16,0:16:45.26,Dialogue,,0,0,0,,I'm so disappointed, after all the trouble\NI went through to get back here
+Dialogue: 0,0:16:46.70,0:16:48.13,Dialogue,,0,0,0,,It's me, Shinichi Kudo!
+Dialogue: 0,0:16:55.31,0:16:57.94,Dialogue,,0,0,0,,The kid with the eye glasses called me
+Dialogue: 0,0:16:57.94,0:17:00.28,Dialogue,,0,0,0,,That's why I came to see your play, sweetie!
+Dialogue: 0,0:17:00.28,0:17:01.95,Dialogue,,0,0,0,,Yes sir! Isn't that right, kid?
+Dialogue: 0,0:17:02.11,0:17:02.88,Dialogue,,0,0,0,,Uh...
+Dialogue: 0,0:17:02.88,0:17:04.02,Dialogue,,0,0,0,,Aren't you...
+Dialogue: 0,0:17:04.02,0:17:04.82,Dialogue,,0,0,0,,Really...
+Dialogue: 0,0:17:04.82,0:17:05.48,Dialogue,,0,0,0,,Huh?
+Dialogue: 0,0:17:06.45,0:17:07.95,Dialogue,,0,0,0,,Heiji, what're you doing?
+Dialogue: 0,0:17:08.79,0:17:10.16,Dialogue,,0,0,0,,Yikes! Kazuha!
+Dialogue: 0,0:17:10.16,0:17:12.09,Dialogue,,0,0,0,,I told you not to come here!
+Dialogue: 0,0:17:12.09,0:17:15.49,Dialogue,,0,0,0,,You put powder on your face and changed your hair style...
+Dialogue: 0,0:17:15.49,0:17:17.43,Dialogue,,0,0,0,,Are you going to put on a kabuki show for us here?
+Dialogue: 0,0:17:18.06,0:17:19.56,Dialogue,,0,0,0,,No, you've got everything wrong.
+Dialogue: 0,0:17:19.56,0:17:20.70,Dialogue,,0,0,0,,Take a good look!
+Dialogue: 0,0:17:20.70,0:17:23.50,Dialogue,,0,0,0,,I'm not Heiji, I'm Shinichi Kudo!
+Dialogue: 0,0:17:23.54,0:17:26.31,Dialogue,,0,0,0,,What kind of joke is this anyway!
+Dialogue: 0,0:17:26.54,0:17:29.44,Dialogue,,0,0,0,,Aw, I give up!
+Dialogue: 0,0:17:29.61,0:17:31.51,Dialogue,,0,0,0,,You're right, it's just a joke!
+Dialogue: 0,0:17:31.51,0:17:34.78,Dialogue,,0,0,0,,I thought I'd dress up like Shinichi and surprise everybody
+Dialogue: 0,0:17:34.78,0:17:36.72,Dialogue,,0,0,0,,But I guess it didn't work!
+Dialogue: 0,0:17:37.15,0:17:38.18,Dialogue,,0,0,0,,Good grief...
+Dialogue: 0,0:17:38.18,0:17:40.05,Dialogue,,0,0,0,,Who the heck are you anyway?
+Dialogue: 0,0:17:40.05,0:17:43.39,Dialogue,,0,0,0,,One fool's enough and that's Mouri...!
+Dialogue: 0,0:17:44.39,0:17:45.19,Dialogue,,0,0,0,,What...?
+Dialogue: 0,0:17:45.19,0:17:47.59,Dialogue,,0,0,0,,Oh, uh... it's just a joke...
+Dialogue: 0,0:17:47.83,0:17:49.39,Dialogue,,0,0,0,,Rats...
+Dialogue: 0,0:17:49.39,0:17:50.83,Dialogue,,0,0,0,,All I wanted to do was pretend to be Shinichi
+Dialogue: 0,0:17:50.83,0:17:52.66,Dialogue,,0,0,0,,And sit next to the real mini Shinichi
+Dialogue: 0,0:17:52.66,0:17:53.80,Dialogue,,0,0,0,,So that Ran would see us
+Dialogue: 0,0:17:53.80,0:17:55.57,Dialogue,,0,0,0,,And maybe she wouldn't be suspicious anymore
+Dialogue: 0,0:17:55.57,0:17:59.74,Dialogue,,0,0,0,,My plan was perfect and that darn Kazuha spoiled everything!
+Dialogue: 0,0:18:00.24,0:18:01.61,Dialogue,,0,0,0,,Ahem!
+Dialogue: 0,0:18:01.61,0:18:03.84,Dialogue,,0,0,0,,At any rate, let's continue the investigation!
+Dialogue: 0,0:18:03.84,0:18:08.45,Dialogue,,0,0,0,,And did the deceased\NMr. Kamata buy his own drink?
+Dialogue: 0,0:18:08.45,0:18:10.08,Dialogue,,0,0,0,,No, he didn't
+Dialogue: 0,0:18:10.08,0:18:11.72,Dialogue,,0,0,0,,I bought the drinks
+Dialogue: 0,0:18:12.62,0:18:14.49,Dialogue,,0,0,0,,From that concession...
+Dialogue: 0,0:18:14.49,0:18:19.06,Dialogue,,0,0,0,,I bought 4 drinks and took them to my friends who were waiting at their seats...
+Dialogue: 0,0:18:19.76,0:18:20.66,Dialogue,,0,0,0,,After that,
+Dialogue: 0,0:18:20.66,0:18:24.60,Dialogue,,0,0,0,,I handed the drinks to Mr. Mitani and\NI went to the restroom, isn't that right?
+Dialogue: 0,0:18:24.60,0:18:25.26,Dialogue,,0,0,0,,Yeah...
+Dialogue: 0,0:18:25.83,0:18:30.74,Dialogue,,0,0,0,,So Mr. Mitani, did you give the victim his drink?
+Dialogue: 0,0:18:31.10,0:18:32.00,Dialogue,,0,0,0,,No...
+Dialogue: 0,0:18:32.00,0:18:34.61,Dialogue,,0,0,0,,Mai asked me to pass out the drinks and...
+Dialogue: 0,0:18:35.64,0:18:38.21,Dialogue,,0,0,0,,I'm going to the restroom, could you take these?
+Dialogue: 0,0:18:38.21,0:18:39.68,Dialogue,,0,0,0,,Are you going from now?
+Dialogue: 0,0:18:40.05,0:18:42.01,Dialogue,,0,0,0,,Then you'd better hurry Mai!
+Dialogue: 0,0:18:42.01,0:18:43.75,Dialogue,,0,0,0,,I think it's about to start...
+Dialogue: 0,0:18:43.92,0:18:45.25,Dialogue,,0,0,0,,Really?
+Dialogue: 0,0:18:45.25,0:18:47.39,Dialogue,,0,0,0,,I have less than a minute left, I'd better hurry!
+Dialogue: 0,0:18:47.39,0:18:48.59,Dialogue,,0,0,0,,Hurry back!
+Dialogue: 0,0:18:49.89,0:18:51.49,Dialogue,,0,0,0,,Let's see... Mai has an iced coffee and
+Dialogue: 0,0:18:51.49,0:18:52.79,Dialogue,,0,0,0,,Mine's orange juice
+Dialogue: 0,0:18:52.79,0:18:54.03,Dialogue,,0,0,0,,Orange juice and...
+Dialogue: 0,0:18:54.03,0:18:55.03,Dialogue,,0,0,0,,Here
+Dialogue: 0,0:18:55.03,0:18:55.99,Dialogue,,0,0,0,,Thank you
+Dialogue: 0,0:18:56.83,0:18:58.86,Dialogue,,0,0,0,,Kohei, you're having iced coffee, aren't you?
+Dialogue: 0,0:18:58.86,0:18:59.60,Dialogue,,0,0,0,,Yeah
+Dialogue: 0,0:19:00.23,0:19:04.00,Dialogue,,0,0,0,,So she was the one who handed him his drink
+Dialogue: 0,0:19:04.70,0:19:05.87,Dialogue,,0,0,0,,What's that supposed to mean!
+Dialogue: 0,0:19:05.87,0:19:09.47,Dialogue,,0,0,0,,You're the one who picked out which cup was his!
+Dialogue: 0,0:19:10.44,0:19:15.88,Dialogue,,0,0,0,,Excuse me but could you tell me what\NMr. Kamata's relationship to you 3 were?
+Dialogue: 0,0:19:16.58,0:19:21.49,Dialogue,,0,0,0,,We all graduated from this high school and we were in the same drama club...
+Dialogue: 0,0:19:22.09,0:19:24.46,Dialogue,,0,0,0,,And we all coincidentally got jobs in the same company
+Dialogue: 0,0:19:24.46,0:19:28.99,Dialogue,,0,0,0,,And it's become a tradition for us to come see the play at the school festival
+Dialogue: 0,0:19:28.99,0:19:33.40,Dialogue,,0,0,0,,I can't believe something like this would happen to Kamata...
+Dialogue: 0,0:19:34.03,0:19:38.94,Dialogue,,0,0,0,,And he was so excited that his doctrine might finally be recognized...
+Dialogue: 0,0:19:39.50,0:19:41.24,Dialogue,,0,0,0,,Yes, that's right...
+Dialogue: 0,0:19:41.24,0:19:46.75,Dialogue,,0,0,0,,But Mai, I don't understand why you went to buy 4 drinks all by yourself...
+Dialogue: 0,0:19:46.75,0:19:49.78,Dialogue,,0,0,0,,Isn't it pretty hard to carry 4 drinks by yourself?
+Dialogue: 0,0:19:50.42,0:19:55.69,Dialogue,,0,0,0,,Well it was crowded so I told the others to go and get the seats...
+Dialogue: 0,0:19:55.69,0:19:57.29,Dialogue,,0,0,0,,Kohei came back later and...
+Dialogue: 0,0:19:58.09,0:20:00.69,Dialogue,,0,0,0,,Mai, can you manage all those drinks alone?
+Dialogue: 0,0:20:00.69,0:20:01.93,Dialogue,,0,0,0,,I'll help you
+Dialogue: 0,0:20:01.93,0:20:02.86,Dialogue,,0,0,0,,Oh, thank you
+Dialogue: 0,0:20:03.10,0:20:03.73,Dialogue,,0,0,0,,Eh...?
+Dialogue: 0,0:20:03.73,0:20:04.56,Dialogue,,0,0,0,,Oh no...?!
+Dialogue: 0,0:20:05.00,0:20:06.53,Dialogue,,0,0,0,,Oh, sorry...
+Dialogue: 0,0:20:06.53,0:20:08.00,Dialogue,,0,0,0,,I'll wait back at my seat after all
+Dialogue: 0,0:20:08.33,0:20:09.30,Dialogue,,0,0,0,,Huh?!
+Dialogue: 0,0:20:11.67,0:20:15.57,Dialogue,,0,0,0,,Kohei suddenly got pale and went back to his seat
+Dialogue: 0,0:20:15.74,0:20:17.31,Dialogue,,0,0,0,,He got pale?
+Dialogue: 0,0:20:17.31,0:20:18.91,Dialogue,,0,0,0,,I wonder what happened?
+Dialogue: 0,0:20:18.91,0:20:22.98,Dialogue,,0,0,0,,Maybe it was because he saw me working at the concession...
+Dialogue: 0,0:20:23.42,0:20:25.38,Dialogue,,0,0,0,,Ayako, is that you?
+Dialogue: 0,0:20:25.38,0:20:27.82,Dialogue,,0,0,0,,Did you graduate from here too?
+Dialogue: 0,0:20:27.82,0:20:28.82,Dialogue,,0,0,0,,I knew it!
+Dialogue: 0,0:20:28.82,0:20:30.66,Dialogue,,0,0,0,,I knew I recognized you from somewhere...
+Dialogue: 0,0:20:31.16,0:20:32.66,Dialogue,,0,0,0,,Do you know her?
+Dialogue: 0,0:20:32.89,0:20:34.06,Dialogue,,0,0,0,,Yes...
+Dialogue: 0,0:20:34.06,0:20:36.73,Dialogue,,0,0,0,,Her father's the director of the hospital we work in!
+Dialogue: 0,0:20:36.93,0:20:41.37,Dialogue,,0,0,0,,Then the person who put the drinks in this group's cups was...
+Dialogue: 0,0:20:41.93,0:20:43.10,Dialogue,,0,0,0,,It was me...
+Dialogue: 0,0:20:43.30,0:20:44.97,Dialogue,,0,0,0,,I see...
+Dialogue: 0,0:20:44.97,0:20:47.97,Dialogue,,0,0,0,,Now we have all the suspects!
+Dialogue: 0,0:20:48.47,0:20:49.94,Dialogue,,0,0,0,,Just hold on a minute!
+Dialogue: 0,0:20:49.94,0:20:53.01,Dialogue,,0,0,0,,Kohei and I both drank iced coffee!
+Dialogue: 0,0:20:53.31,0:20:55.68,Dialogue,,0,0,0,,If I put the poison in his drink,
+Dialogue: 0,0:20:55.68,0:20:59.28,Dialogue,,0,0,0,,I'd give him his drink personally so that I wouldn't drink it by mistake!
+Dialogue: 0,0:20:59.62,0:21:03.46,Dialogue,,0,0,0,,But if you poisoned both and then just didn't drink your own...
+Dialogue: 0,0:21:03.82,0:21:05.46,Dialogue,,0,0,0,,I drank every drop!
+Dialogue: 0,0:21:05.76,0:21:08.66,Dialogue,,0,0,0,,Maybe you poured yours down the toilet?
+Dialogue: 0,0:21:08.96,0:21:14.40,Dialogue,,0,0,0,,Didn't I tell you I left all the drinks and then went to the restroom?
+Dialogue: 0,0:21:14.40,0:21:17.74,Dialogue,,0,0,0,,When I got back, the play had already started and I never left my seat after that!
+Dialogue: 0,0:21:18.04,0:21:23.68,Dialogue,,0,0,0,,All I did was pass out the drinks, I didn't have time to put any poison in it!
+Dialogue: 0,0:21:23.98,0:21:25.34,Dialogue,,0,0,0,,Neither did I!
+Dialogue: 0,0:21:25.78,0:21:29.35,Dialogue,,0,0,0,,But you did have time to open the lid and look inside, didn't you?
+Dialogue: 0,0:21:29.78,0:21:32.18,Dialogue,,0,0,0,,We didn't have to open them up!
+Dialogue: 0,0:21:32.18,0:21:34.49,Dialogue,,0,0,0,,The contents of each cup was written on the lid...
+Dialogue: 0,0:21:34.59,0:21:39.49,Dialogue,,0,0,0,,Besides, the iced coffee had tubs of gum syrup and milk on them...
+Dialogue: 0,0:21:39.86,0:21:44.36,Dialogue,,0,0,0,,Then someone could have brought poisoned gum syrup or milk
+Dialogue: 0,0:21:44.36,0:21:47.10,Dialogue,,0,0,0,,Then switched them later...
+Dialogue: 0,0:21:47.53,0:21:50.37,Dialogue,,0,0,0,,Then he would have died as soon as he drank it!
+Dialogue: 0,0:21:50.37,0:21:52.77,Dialogue,,0,0,0,,Potassium cyanide causes instant death!
+Dialogue: 0,0:21:52.77,0:21:55.44,Dialogue,,0,0,0,,But Kohei's cup was almost completely empty!
+Dialogue: 0,0:21:55.47,0:21:56.44,Dialogue,,0,0,0,,Uh...
+Dialogue: 0,0:21:56.68,0:22:01.05,Dialogue,,0,0,0,,It's still not clear what trick the killer used to poison Mr. Kamata's drink, but...
+Dialogue: 0,0:22:01.05,0:22:03.18,Dialogue,,0,0,0,,Nonetheless,
+Dialogue: 0,0:22:03.18,0:22:11.32,Dialogue,,0,0,0,,It's clear one of you is the killer!
+Dialogue: 0,0:23:46.08,0:23:48.39,Dialogue,,0,0,0,,You probably figured it out too, didn't you?
+Dialogue: 0,0:23:48.39,0:23:51.86,Dialogue,,0,0,0,,The person who poisoned the drink is more than likely, that person...
+Dialogue: 0,0:23:54.03,0:23:54.73,Dialogue,,0,0,0,,No...!
+Dialogue: 0,0:23:54.73,0:23:56.06,Dialogue,,0,0,0,,Don't do it!
+Dialogue: 0,0:23:56.06,0:23:57.20,Dialogue,,0,0,0,,You're not supposed to be out front
+Dialogue: 0,0:23:57.20,0:23:59.33,Dialogue,,0,0,0,,And in the spotlight
+Dialogue: 0,0:23:59.33,0:24:02.33,Dialogue,,0,0,0,,That's not allowed...
+Dialogue: 0,0:24:02.63,0:24:04.20,Dialogue,,0,0,0,,Don't you understand that...?
+Dialogue: 0,0:24:09.91,0:24:15.55,Signs,Sign,0,0,0,,PERILOUS RETURN-THE BLACK KNIGHT

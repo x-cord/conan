@@ -1,0 +1,470 @@
+[Script Info]
+Title: Detective Conan - 0261
+TL Source: UTB
+ScriptType: v4.00+
+WrapStyle: 3
+PlayResX: 1440
+PlayResY: 1080
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Dialogue,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00401311,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Dialogue Top,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00401311,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,8,30,30,55,1
+Style: Signs,FrancophilSans,74,&H14FFFFFF,&H00FFFFFF,&H46101010,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,8,30,30,55,1
+Style: Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,0,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Radio,FrancophilSans,74,&H00BEE1FF,&H00FFFFFF,&H000B2A42,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Narration,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00BF6F00,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Narration Off,FrancophilSans,74,&H6E8C6F00,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,0,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Flashback,FrancophilSans,74,&H00CDFAFF,&H00FFFFFF,&H00373737,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Flashback Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00CCFFFF,&HC0313134,-1,0,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Honorifics - Dialogue,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00401311,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Signs,FrancophilSans,74,&H14FFFFFF,&H00FFFFFF,&H46101010,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,-1,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Honorifics - Radio,FrancophilSans,74,&H00BEE1FF,&H00FFFFFF,&H000B2A42,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Narration,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00BF6F00,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Narration Off,FrancophilSans,74,&H6E8C6F00,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,-1,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Honorifics - Flashback,FrancophilSans,74,&H00CDFAFF,&H00FFFFFF,&H00373737,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Flashback Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00CCFFFF,&HC0313134,-1,-1,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Masks,FrancophilSans,74,&H00000000,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,2,0,0,0,1
+Style: Title,Conan Episode Title,74,&H00E1E4E3,&H000000FF,&HC8DBDAE1,&HC0000000,-1,0,0,0,100,100,0,0,1,1,0,5,0,0,0,1
+Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-1,0,0,0,100,100,0,0,1,0,0,2,0,0,65,1
+Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
+Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
+Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:02.35,0:00:05.59,Dialogue,,0,0,0,,Heart contains mysteries stars and snow sparkle for the two.
+Dialogue: 0,0:00:05.59,0:00:06.95,Dialogue,,0,0,0,,Snow falls silently at night.
+Dialogue: 0,0:00:06.99,0:00:08.89,Dialogue,,0,0,0,,A frightening suit of armor\NIooms up from the darkness.
+Dialogue: 0,0:00:08.89,0:00:10.29,Dialogue,,0,0,0,,He sees through the one and only truth,
+Dialogue: 0,0:00:10.29,0:00:12.66,Dialogue,,0,0,0,,a child in appearance with the I.Q. of an adult,
+Dialogue: 0,0:00:12.66,0:00:13.23,Dialogue,,0,0,0,,no case is left unsolved with Detective Conan.
+Dialogue: 0,0:00:13.26,0:00:15.00,Dialogue,,0,0,0,,No case is leftunsolved with Detective Conan.
+Dialogue: 0,0:00:15.00,0:00:17.93,Dialogue,,0,0,0,,Gosho Aoyama / Shogakukan * YTV » TMS\NAll Rights Reserved
+Dialogue: 0,0:01:43.54,0:01:45.44,Dialogue,,0,0,0,,In the warring era,
+Dialogue: 0,0:01:45.44,0:01:48.54,Dialogue,,0,0,0,,military commander\NHidetomo Okikatsu advised
+Dialogue: 0,0:01:48.54,0:01:51.88,Dialogue,,0,0,0,,his lord Genbu Ohara, who was a tyrant,
+Dialogue: 0,0:01:51.88,0:01:55.31,Dialogue,,0,0,0,,to stop oppressing the people.
+Dialogue: 0,0:01:56.58,0:01:59.02,Dialogue,,0,0,0,,But this angered Genbu
+Dialogue: 0,0:01:59.02,0:02:02.26,Dialogue,,0,0,0,,and he ordered the Okikatsu clan to be disbanded.
+Dialogue: 0,0:02:03.16,0:02:04.69,Dialogue,,0,0,0,,Filled with despair.
+Dialogue: 0,0:02:04.69,0:02:06.89,Dialogue,,0,0,0,,Hidetomo put on his suit of armor
+Dialogue: 0,0:02:06.89,0:02:08.90,Dialogue,,0,0,0,,and killed Genbu,
+Dialogue: 0,0:02:09.73,0:02:13.07,Dialogue,,0,0,0,,then he committed suicide by stabbing himself in the throat...
+Dialogue: 0,0:02:19.34,0:02:22.61,Dialogue,,0,0,0,,Hidetomo's ghost still wanders about
+Dialogue: 0,0:02:22.61,0:02:27.01,Dialogue,,0,0,0,,and it is said that whoever sees it will die an untimely death
+Dialogue: 0,0:02:28.22,0:02:30.15,Dialogue,,0,0,0,,This Okikatsu Festival is held
+Dialogue: 0,0:02:30.15,0:02:32.82,Dialogue,,0,0,0,,to appease the spirit of\NHidetomo Okikatsu
+Dialogue: 0,0:02:33.79,0:02:37.42,Dialogue,,0,0,0,,For your information, the rainwear of straw worn in the dance
+Dialogue: 0,0:02:37.42,0:02:41.49,Dialogue,,0,0,0,,symbolizes the suit of armor worn by Hidetomo when he killed himself
+Dialogue: 0,0:02:45.60,0:02:48.00,Dialogue,,0,0,0,,Good:grief, the hot springs just ever that mountain,
+Dialogue: 0,0:02:48.00,0:02:50.44,Dialogue,,0,0,0,,why do we have to sit through this boring festival...
+Dialogue: 0,0:02:50.77,0:02:53.17,Dialogue,,0,0,0,,Oh but this is so surreal...
+Dialogue: 0,0:02:54.34,0:02:55.57,Dialogue,,0,0,0,,Good grief...
+Dialogue: 0,0:02:56.34,0:03:01.01,Dialogue,,0,0,0,,This is the 500th anniversary of Hidetomo's death...
+Dialogue: 0,0:03:01.38,0:03:04.95,Dialogue,,0,0,0,,Please relax and enjoy the evening...
+Dialogue: 0,0:03:04.99,0:03:07.15,Dialogue,,0,0,0,,Gee, thanks...
+Dialogue: 0,0:03:07.55,0:03:09.72,Dialogue,,0,0,0,,Are you satisfied now-Ran?
+Dialogue: 0,0:03:09.72,0:03:11.59,Dialogue,,0,0,0,,We'd better start heading for the hot spring already...
+Dialogue: 0,0:03:11.59,0:03:12.43,Dialogue,,0,0,0,,YN XCcuse me...
+Dialogue: 0,0:03:12.63,0:03:14.26,Dialogue,,0,0,0,,hjust heard that
+Dialogue: 0,0:03:14.26,0:03:15.90,Dialogue,,0,0,0,,the road 10 the-hot springs have been closed
+Dialogue: 0,0:03:15.90,0:03:17.60,Dialogue,,0,0,0,,due to heavy snow
+Dialogue: 0,0:03:18.23,0:03:19.60,Dialogue,,0,0,0,,Are you sure?
+Dialogue: 0,0:03:20.07,0:03:21.97,Dialogue,,0,0,0,,What're we going to do. dad?
+Dialogue: 0,0:03:22.14,0:03:23.04,Dialogue,,0,0,0,,Don't ask me
+Dialogue: 0,0:03:23.04,0:03:24.54,Dialogue,,0,0,0,,I guess we'll just have to find some place
+Dialogue: 0,0:03:24.54,0:03:25.67,Dialogue,,0,0,0,,around here to spend the night
+Dialogue: 0,0:03:25.67,0:03:28.47,Dialogue,,0,0,0,,But I didn't see any inns around here
+Dialogue: 0,0:03:28.61,0:03:29.41,Dialogue,,0,0,0,,xXcuse me.
+Dialogue: 0,0:03:29.41,0:03:30.71,Dialogue,,0,0,0,,Maybe I can help,
+Dialogue: 0,0:03:30.71,0:03:33.65,Dialogue,,0,0,0,,there:s a house up ahead owned by the Daimon family.
+Dialogue: 0,0:03:33.65,0:03:37.12,Dialogue,,0,0,0,,I'm heading there now, you can come with me if you want
+Dialogue: 0,0:03:37.42,0:03:39.29,Dialogue,,0,0,0,,Uh, thanks...
+Dialogue: 0,0:03:41.72,0:03:46.36,Dialogue,,0,0,0,,FRIGHTENING LEGEND\NON A SNOWY NIGHT-PART I
+Dialogue: 0,0:03:47.83,0:03:50.13,Dialogue,,0,0,0,,Are you sure it'll be all right for us to go along?
+Dialogue: 0,0:03:50.26,0:03:52.73,Dialogue,,0,0,0,,Yes, in fact,\NI'd prefer you come with me...
+Dialogue: 0,0:03:53.07,0:03:53.73,Dialogue,,0,0,0,,uh...
+Dialogue: 0,0:03:55.27,0:03:59.17,Dialogue,,0,0,0,,The head of the Damon family is the president of Daimon Industries
+Dialogue: 0,0:03:59.54,0:04:02.11,Dialogue,,0,0,0,,Wow, that company's well known...
+Dialogue: 0,0:04:02.58,0:04:05.08,Dialogue,,0,0,0,,The president is a man who'd do anything for money.
+Dialogue: 0,0:04:05.08,0:04:07.45,Dialogue,,0,0,0,,He's even a tyrant in his own home, he and his oldest son,
+Dialogue: 0,0:04:07.45,0:04:09.72,Dialogue,,0,0,0,,who is next in line to be president, are always arguing.
+Dialogue: 0,0:04:10.35,0:04:13.39,Dialogue,,0,0,0,,And that son's wife prefers partying to helping in the home.
+Dialogue: 0,0:04:13.39,0:04:15.49,Dialogue,,0,0,0,,I've heard rumors that a divorce is imminent...
+Dialogue: 0,0:04:15.69,0:04:17.89,Dialogue,,0,0,0,,You sure know a lot
+Dialogue: 0,0:04:17.96,0:04:18.49,Dialogue,,0,0,0,,second son.\NMy name's Yoshiro Daimon.
+Dialogue: 0,0:04:18.49,0:04:22.33,Dialogue,,0,0,0,,Econd son.\NMy name's Yoshiro Daimon.\NYoshiro Damon\N-- - oo\N\N11 KX JI \C
+Dialogue: 0,0:04:22.36,0:04:24.60,Dialogue,,0,0,0,,I haven't been home for quite awhile now.
+Dialogue: 0,0:04:31.14,0:04:32.87,Dialogue,,0,0,0,,This is quite a mansion...
+Dialogue: 0,0:04:33.27,0:04:35.34,Dialogue,,0,0,0,,They must get a lot taken...
+Dialogue: 0,0:04:35.98,0:04:37.01,Dialogue,,0,0,0,,Huh?
+Dialogue: 0,0:04:37.01,0:04:37.88,Dialogue,,0,0,0,,In taxes...
+Dialogue: 0,0:04:41.75,0:04:43.68,Dialogue,,0,0,0,,Kazuki, I'm home...
+Dialogue: 0,0:04:45.49,0:04:46.85,Dialogue,,0,0,0,,Yousre looking goodn...
+Dialogue: 0,0:04:47.49,0:04:47.82,Dialogue,,0,0,0,,Yoshiro. .why'd you come back er all this time
+Dialogue: 0,0:04:47.82,0:04:50.42,Dialogue,,0,0,0,,Yoshiro... why'd you come back er all this time...\NKazuki Daimon
+Dialogue: 0,0:04:51.12,0:04:52.79,Dialogue,,0,0,0,,Is that any way to greet your younger brother,"
+Dialogue: 0,0:04:52.79,0:04:54.29,Dialogue,,0,0,0,,we haven't seen each other for five years...
+Dialogue: 0,0:04:55.90,0:04:59.23,Dialogue,,0,0,0,,h. young master, please come inside...
+Dialogue: 0,0:04:59.50,0:04:59.90,Dialogue,,0,0,0,,Hatsuho, you keep out of this!
+Dialogue: 0,0:05:00.03,0:05:02.00,Dialogue,,0,0,0,,Hatsuho, you keep out of this!\NKayoko Damon
+Dialogue: 0,0:05:04.44,0:05:07.17,Dialogue,,0,0,0,,Yoshiro. who are these people?
+Dialogue: 0,0:05:07.47,0:05:09.28,Dialogue,,0,0,0,,I met them at the Hidetomo Festival.
+Dialogue: 0,0:05:09.54,0:05:12.58,Dialogue,,0,0,0,,It was snowing heavily and they didn't have a place to stay...
+Dialogue: 0,0:05:12.71,0:05:14.51,Dialogue,,0,0,0,,You comeback out of the blue
+Dialogue: 0,0:05:14.51,0:05:16.68,Dialogue,,0,0,0,,and you bring strangers with you on top of that!
+Dialogue: 0,0:05:17.05,0:05:17.98,Dialogue,,0,0,0,,Forgive me
+Dialogue: 0,0:05:18.19,0:05:21.75,Dialogue,,0,0,0,,I forgot to introduce myself.\NI'm from Tokyo and I...
+Dialogue: 0,0:05:21.82,0:05:23.22,Dialogue,,0,0,0,,what's all the commotion!
+Dialogue: 0,0:05:26.43,0:05:28.89,Dialogue,,0,0,0,,OS IFO. YOU V6 ma YCOITIS 0M8.\NI'mrso happy
+Dialogue: 0,0:05:29.50,0:05:31.26,Dialogue,,0,0,0,,Good evening. father...
+Dialogue: 0,0:05:31.63,0:05:31.83,Dialogue,,0,0,0,,You over there,
+Dialogue: 0,0:05:31.83,0:05:32.87,Dialogue,,0,0,0,,You over there,\NGenichiro Damon\NWPA LYS BS\NXr -es (70)
+Dialogue: 0,0:05:32.93,0:05:35.17,Dialogue,,0,0,0,,aren't you the famous private detective Kogoro Mouri...\NGenichiro Damon\N1.151085 LIB 5'5\NKrPIim-es (70)
+Dialogue: 0,0:05:35.20,0:05:35.47,Dialogue,,0,0,0,,ufihfilu MB B5\NXrlR-BB (70)
+Dialogue: 0,0:05:35.97,0:05:37.54,Dialogue,,0,0,0,,That's right. but...
+Dialogue: 0,0:05:37.67,0:05:38.94,Dialogue,,0,0,0,,Private detective...
+Dialogue: 0,0:05:39.84,0:05:41.04,Dialogue,,0,0,0,,Kogoro Maura...
+Dialogue: 0,0:05:41.68,0:05:43.84,Dialogue,,0,0,0,,I'm one of your greatest fans...
+Dialogue: 0,0:05:43.84,0:05:47.38,Dialogue,,0,0,0,,This must be destiny, please do spend the night.
+Dialogue: 0,0:05:47.95,0:05:48.91,Dialogue,,0,0,0,,Hatsuho...
+Dialogue: 0,0:05:48.92,0:05:52.59,Dialogue,,0,0,0,,prepare the guest rooms for Mr. Mouri's party and Yoshiro
+Dialogue: 0,0:05:52.92,0:05:53.82,Dialogue,,0,0,0,,Yes, sir
+Dialogue: 0,0:05:54.15,0:05:55.39,Dialogue,,0,0,0,,* 0 OS
+Dialogue: 0,0:05:55.62,0:05:58.12,Dialogue,,0,0,0,,?!...
+Dialogue: 0,0:05:59.19,0:06:00.63,Dialogue,,0,0,0,,Please, follow me
+Dialogue: 0,0:06:05.90,0:06:09.14,Dialogue,,0,0,0,,Mr. Mouri. you and your party can stay in this room.
+Dialogue: 0,0:06:09.34,0:06:11.57,Dialogue,,0,0,0,,Master Yoshiro, your room wi »2e (own 1e 1a
+Dialogue: 0,0:06:12.37,0:06:14.91,Dialogue,,0,0,0,,You can enter the garden through this-back door.
+Dialogue: 0,0:06:15.34,0:06:17.84,Dialogue,,0,0,0,,It is very pretty, everything is white with snow.
+Dialogue: 0,0:06:17.84,0:06:19.38,Dialogue,,0,0,0,,Please walk through it
+Dialogue: 0,0:06:19.38,0:06:21.38,Dialogue,,0,0,0,,Thank you--we will
+Dialogue: 0,0:06:21.82,0:06:24.15,Dialogue,,0,0,0,,Please forgive my brother and his wife,
+Dialogue: 0,0:06:24.15,0:06:27.22,Dialogue,,0,0,0,,they behaved terribly back there...
+Dialogue: 0,0:06:27.59,0:06:29.26,Dialogue,,0,0,0,,You don't have to apologize,
+Dialogue: 0,0:06:29.26,0:06:31.92,Dialogue,,0,0,0,,we're the ones who barged in unexpectedly
+Dialogue: 0,0:06:32.03,0:06:33.56,Dialogue,,0,0,0,,Excuse me ma'am,
+Dialogue: 0,0:06:33.63,0:06:35.29,Dialogue,,0,0,0,,where's the toilet?
+Dialogue: 0,0:06:36.23,0:06:38.86,Dialogue,,0,0,0,,Jad,\NOh, it's right down the hall. there...
+Dialogue: 0,0:06:38.87,0:06:40.03,Dialogue,,0,0,0,,at the far end
+Dialogue: 0,0:06:40.43,0:06:43.40,Dialogue,,0,0,0,,the light switch is hard to find ¢ so I'll go with you
+Dialogue: 0,0:06:44.07,0:06:45.40,Dialogue,,0,0,0,,Thank you, I'd appreciate that
+Dialogue: 0,0:06:46.14,0:06:49.38,Dialogue,,0,0,0,,I'll prepare some tea so please relax
+Dialogue: 0,0:06:49.68,0:06:51.38,Dialogue,,0,0,0,,You needn't bother...
+Dialogue: 0,0:06:53.51,0:06:56.08,Dialogue,,0,0,0,,but I'd sure appreciate some...
+Dialogue: 0,0:06:56.08,0:06:57.28,Dialogue,,0,0,0,,I'll join you later
+Dialogue: 0,0:06:57.28,0:06:58.05,Dialogue,,0,0,0,,Eh?!
+Dialogue: 0,0:06:58.22,0:06:59.75,Dialogue,,0,0,0,,Here .
+Dialogue: 0,0:07:00.09,0:07:03.06,Dialogue,,0,0,0,,Aha. haha... gee. thanks...
+Dialogue: 0,0:07:03.06,0:07:04.82,Dialogue,,0,0,0,,For goodness sakes, dad
+Dialogue: 0,0:07:05.76,0:07:07.33,Dialogue,,0,0,0,,Here it is. the toilet
+Dialogue: 0,0:07:07.33,0:07:08.33,Dialogue,,0,0,0,,Thank you.
+Dialogue: 0,0:07:08.33,0:07:09.90,Dialogue,,0,0,0,,This sure is a huge house
+Dialogue: 0,0:07:09.90,0:07:10.66,Dialogue,,0,0,0,,It certainly is...
+Dialogue: 0,0:07:11.20,0:07:13.53,Dialogue,,0,0,0,,What's down that way?
+Dialogue: 0,0:07:13.67,0:07:15.87,Dialogue,,0,0,0,,Everyone else's rooms.
+Dialogue: 0,0:07:17.67,0:07:19.31,Dialogue,,0,0,0,,Master Kazuki's audio room is down the hall and the kitchen is in front of it.
+Dialogue: 0,0:07:20.47,0:07:22.38,Dialogue,,0,0,0,,Next to the kitchen,
+Dialogue: 0,0:07:22.38,0:07:25.71,Dialogue,,0,0,0,,we have a door that\NIeads into the garden...
+Dialogue: 0,0:07:27.61,0:07:28.95,Dialogue,,0,0,0,,You can go in now.
+Dialogue: 0,0:07:28.95,0:07:31.25,Dialogue,,0,0,0,,we wouldn't want you to have an accident
+Dialogue: 0,0:07:31.25,0:07:32.49,Dialogue,,0,0,0,,Right!
+Dialogue: 0,0:07:36.96,0:07:39.86,Dialogue,,0,0,0,,This is a very impressive home you have.
+Dialogue: 0,0:07:39.86,0:07:43.36,Dialogue,,0,0,0,,I am honored to be staying in a place like this
+Dialogue: 0,0:07:43.86,0:07:46.30,Dialogue,,0,0,0,,o. this is just an old place...
+Dialogue: 0,0:07:46.30,0:07:48.50,Dialogue,,0,0,0,,We're always having to repair things
+Dialogue: 0,0:07:50.87,0:07:52.94,Dialogue,,0,0,0,,madam says she isnst feeling well
+Dialogue: 0,0:07:53.01,0:07:54.67,Dialogue,,0,0,0,,she s resting
+Dialogue: 0,0:07:55.11,0:07:56.48,Dialogue,,0,0,0,,What, again!
+Dialogue: 0,0:07:56.48,0:07:59.25,Dialogue,,0,0,0,,And just-when Mr. Mouri is visiting
+Dialogue: 0,0:07:59.25,0:08:00.78,Dialogue,,0,0,0,,Please don't get upset on my account
+Dialogue: 0,0:08:01.18,0:08:04.32,Dialogue,,0,0,0,,I don't think mother can be bothered with dinner either tonight
+Dialogue: 0,0:08:05.35,0:08:06.22,Dialogue,,0,0,0,,Kayoko!
+Dialogue: 0,0:08:07.25,0:08:09.29,Dialogue,,0,0,0,,Don't be like that.\NI think it'd be better if they knew...
+Dialogue: 0,0:08:09.76,0:08:12.93,Dialogue,,0,0,0,,of Hidetomosrstdeathmat 12mdnight.
+Dialogue: 0,0:08:12.93,0:08:16.03,Dialogue,,0,0,0,,My mothernzin=law sits\N=in front of the altar ingher room praying
+Dialogue: 0,0:08:16.03,0:08:17.70,Dialogue,,0,0,0,,SupposediyBthat's the time hewkilled himself
+Dialogue: 0,0:08:18.00,0:08:18.76,Dialogue,,0,0,0,,Supposedly that's the time he killed. himself.
+Dialogue: 0,0:08:18.77,0:08:22.13,Dialogue,,0,0,0,,I heard her once and it sounded so eerie...
+Dialogue: 0,0:08:22.67,0:08:24.77,Dialogue,,0,0,0,,Ever since then, whenever (his day comes,
+Dialogue: 0,0:08:24.77,0:08:26.51,Dialogue,,0,0,0,,I climb 'into bed and cov "my head with the blanket
+Dialogue: 0,0:08:26.51,0:08:27.97,Dialogue,,0,0,0,,Mother really is quite frail,
+Dialogue: 0,0:08:27.97,0:08:30.44,Dialogue,,0,0,0,,I wish you'd be more considerate...
+Dialogue: 0,0:08:30.44,0:08:31.08,Dialogue,,0,0,0,,Kazuki!
+Dialogue: 0,0:08:32.21,0:08:33.95,Dialogue,,0,0,0,,You needn't worry about your mother!
+Dialogue: 0,0:08:34.58,0:08:36.38,Dialogue,,0,0,0,,Rather than spending your time worrying about her,
+Dialogue: 0,0:08:36.38,0:08:37.95,Dialogue,,0,0,0,,you should worry about your job!
+Dialogue: 0,0:08:38.32,0:08:39.22,Dialogue,,0,0,0,,Eo 60
+Dialogue: 0,0:08:39.32,0:08:40.65,Dialogue,,0,0,0,,117?
+Dialogue: 0,0:08:42.16,0:08:44.79,Dialogue,,0,0,0,,Uh. Is the feed to your liking?
+Dialogue: 0,0:08:44.86,0:08:45.99,Dialogue,,0,0,0,,It's delicious.
+Dialogue: 0,0:08:45.99,0:08:47.76,Dialogue,,0,0,0,,The rice is good too
+Dialogue: 0,0:08:48.26,0:08:51.96,Dialogue,,0,0,0,,"UT stomary in this household to cook the rice over a "'kamado
+Dialogue: 0,0:08:52.40,0:08:53.13,Dialogue,,0,0,0,,Really,
+Dialogue: 0,0:08:53.13,0:08:55.43,Dialogue,,0,0,0,,I've never had kamado cooked rice before...
+Dialogue: 0,0:08:55.84,0:08:57.47,Dialogue,,0,0,0,,The burnt part was delicious!
+Dialogue: 0,0:08:58.47,0:09:00.04,Dialogue,,0,0,0,,By the way father,
+Dialogue: 0,0:09:00.04,0:09:01.94,Dialogue,,0,0,0,,about the appointment of the next president...
+Dialogue: 0,0:09:02.54,0:09:03.94,Dialogue,,0,0,0,,We're in the middle of dinner!
+Dialogue: 0,0:09:03.94,0:09:05.48,Dialogue,,0,0,0,,We'll discuss that later!
+Dialogue: 0,0:09:06.05,0:09:08.78,Dialogue,,0,0,0,,Yoshiro, what are you doing now?
+Dialogue: 0,0:09:09.45,0:09:10.68,Dialogue,,0,0,0,,I'm a guitarist.
+Dialogue: 0,0:09:10.92,0:09:11.82,Dialogue,,0,0,0,,What's!?
+Dialogue: 0,0:09:11.82,0:09:14.75,Dialogue,,0,0,0,,Such foolishness. quit that immediately and come back home.
+Dialogue: 0,0:09:14.75,0:09:18.02,Dialogue,,0,0,0,,I think it's about time you started considering helping my business.
+Dialogue: 0,0:09:23.86,0:09:25.46,Dialogue,,0,0,0,,Yoshiro.
+Dialogue: 0,0:09:25.47,0:09:27.43,Dialogue,,0,0,0,,What kind of music do you play?
+Dialogue: 0,0:09:27.73,0:09:29.67,Dialogue,,0,0,0,,Flamenco.
+Dialogue: 0,0:09:29.67,0:09:32.37,Dialogue,,0,0,0,,Really, I'd like to hear you play.
+Dialogue: 0,0:09:32.54,0:09:34.31,Dialogue,,0,0,0,,Mr. Mouri! Excuse me,
+Dialogue: 0,0:09:34.61,0:09:36.24,Dialogue,,0,0,0,,May I have your autograph?
+Dialogue: 0,0:09:36.24,0:09:38.68,Dialogue,,0,0,0,,The truth is, I'm a big fan of-yours too.
+Dialogue: 0,0:09:38.68,0:09:41.85,Dialogue,,0,0,0,,You are, arejyou, it'd be my pleasure then!
+Dialogue: 0,0:09:41.85,0:09:43.28,Dialogue,,0,0,0,,Eeek. I'm so thrilled!
+Dialogue: 0,0:09:43.28,0:09:44.82,Dialogue,,0,0,0,,Yippee!
+Dialogue: 0,0:09:45.12,0:09:47.22,Dialogue,,0,0,0,,What a happy go lucky pair.
+Dialogue: 0,0:09:47.22,0:09:49.32,Dialogue,,0,0,0,,It seems the atmosphere in this house has
+Dialogue: 0,0:09:49.32,0:09:51.56,Dialogue,,0,0,0,,also brightened up thanks to Hatsuho
+Dialogue: 0,0:09:51.76,0:09:53.43,Dialogue,,0,0,0,,Oh it's just-that I don't let things upset me
+Dialogue: 0,0:09:53.73,0:09:55.86,Dialogue,,0,0,0,,Hatsuho, how long have you been wanking here?
+Dialogue: 0,0:09:56.36,0:09:57.93,Dialogue,,0,0,0,,Just over a year.
+Dialogue: 0,0:09:57.93,0:10:00.40,Dialogue,,0,0,0,,Your family sta> very old family and there's so much to remember,
+Dialogue: 0,0:10:00.40,0:10:01.77,Dialogue,,0,0,0,,I'm having a hard time...
+Dialogue: 0,0:10:02.04,0:10:03.74,Dialogue,,0,0,0,,Oh, I see you have another one...
+Dialogue: 0,0:10:03.77,0:10:06.24,Dialogue,,0,0,0,,es... this is for Master Yoshi
+Dialogue: 0,0:10:06.84,0:10:08.14,Dialogue,,0,0,0,,You want my autograph too?
+Dialogue: 0,0:10:08.68,0:10:12.21,Dialogue,,0,0,0,,Of course after all, you're going to be a very famous guitarist someday
+Dialogue: 0,0:10:12.65,0:10:14.25,Dialogue,,0,0,0,,I hope so...
+Dialogue: 0,0:10:14.81,0:10:15.81,Dialogue,,0,0,0,,If you become famous.
+Dialogue: 0,0:10:15.82,0:10:17.72,Dialogue,,0,0,0,,Signing autographs will be the least of your worries,
+Dialogue: 0,0:10:17.72,0:10:19.99,Dialogue,,0,0,0,,look at me... hahaha
+Dialogue: 0,0:10:19.99,0:10:21.39,Dialogue,,0,0,0,,Haha I'll remember that
+Dialogue: 0,0:10:21.39,0:10:23.52,Dialogue,,0,0,0,,Hey? You're left handed
+Dialogue: 0,0:10:23.52,0:10:24.19,Dialogue,,0,0,0,,Uh huh
+Dialogue: 0,0:10:24.19,0:10:25.82,Dialogue,,0,0,0,,What are these figures!
+Dialogue: 0,0:10:27.06,0:10:29.30,Dialogue,,0,0,0,,I gave you the benefit of the doubt and waited until the very last minute
+Dialogue: 0,0:10:29.30,0:10:31.16,Dialogue,,0,0,0,,but I guess it was a waste of time
+Dialogue: 0,0:10:31.73,0:10:35.13,Dialogue,,0,0,0,,I can't relinquish my position to you at this rate!
+Dialogue: 0,0:10:35.34,0:10:38.10,Dialogue,,0,0,0,,Well dad, your methods are rather high handed themselves
+Dialogue: 0,0:10:38.47,0:10:40.37,Dialogue,,0,0,0,,I didn't ask you for your opinion!
+Dialogue: 0,0:10:40.91,0:10:41.77,Dialogue,,0,0,0,,All right then
+Dialogue: 0,0:10:41.78,0:10:44.21,Dialogue,,0,0,0,,who are you going to name as president instead of me!
+Dialogue: 0,0:10:44.71,0:10:47.45,Dialogue,,0,0,0,,You're both two of a kind!
+Dialogue: 0,0:10:51.02,0:10:53.15,Dialogue,,0,0,0,,I came back (here'today
+Dialogue: 0,0:10:53.15,0:10:56.32,Dialogue,,0,0,0,,because I wanted to settle things with my dad once and for all
+Dialogue: 0,0:10:56.72,0:10:59.02,Dialogue,,0,0,0,,Settle things...?
+Dialogue: 0,0:10:59.36,0:11:03.56,Dialogue,,0,0,0,,Dad wants me to become one of the company's executives.
+Dialogue: 0,0:11:03.56,0:11:05.60,Dialogue,,0,0,0,,But everything is money, money, money.
+Dialogue: 0,0:11:05.60,0:11:08.13,Dialogue,,0,0,0,,He doesn't even try to understand how other people feel.
+Dialogue: 0,0:11:08.50,0:11:12.40,Dialogue,,0,0,0,,I left five years ago because I hated how pushy he was...
+Dialogue: 0,0:11:12.41,0:11:15.54,Dialogue,,0,0,0,,Well, he does look very overbearing
+Dialogue: 0,0:11:15.81,0:11:18.28,Dialogue,,0,0,0,,The truth is,\NI'm going to Spain next month...
+Dialogue: 0,0:11:18.28,0:11:22.21,Dialogue,,0,0,0,,I don't intend on coming back to Japan until I've become a first rate guitarist
+Dialogue: 0,0:11:22.22,0:11:24.82,Dialogue,,0,0,0,,I may never see my father again...
+Dialogue: 0,0:11:25.29,0:11:27.92,Dialogue,,0,0,0,,That's Why thought Ixd better come back
+Dialogue: 0,0:11:27.92,0:11:30.69,Dialogue,,0,0,0,,andrtry-to-make-him-accept the way I choose to live my life...
+Dialogue: 0,0:11:31.96,0:11:34.93,Dialogue,,0,0,0,,That's what you'd like us to believe.\NIsnAtéit: Yoshiro
+Dialogue: 0,0:11:34.93,0:11:38.40,Dialogue,,0,0,0,,but the truth is you came back to seize control of the company, didn't you
+Dialogue: 0,0:11:38.67,0:11:40.37,Dialogue,,0,0,0,,You're out of your mind!
+Dialogue: 0,0:11:40.37,0:11:42.90,Dialogue,,0,0,0,,I'd never have left in the first place if I intended to do that!
+Dialogue: 0,0:11:43.47,0:11:44.64,Dialogue,,0,0,0,,Oh really!
+Dialogue: 0,0:11:44.64,0:11:45.30,Dialogue,,0,0,0,,Ma-am...
+Dialogue: 0,0:11:46.61,0:11:47.37,Dialogue,,0,0,0,,oe a &o8sd
+Dialogue: 0,0:11:47.37,0:11:48.44,Dialogue,,0,0,0,,What's all the fuss!
+Dialogue: 0,0:11:49.68,0:11:52.08,Dialogue,,0,0,0,,Oh for goodness sakes, everybody makes me so mad!
+Dialogue: 0,0:11:52.08,0:11:53.55,Dialogue,,0,0,0,,I'm going back to my place!
+Dialogue: 0,0:11:55.08,0:11:56.18,Dialogue,,0,0,0,,I almost forgot, Mr. Mouri
+Dialogue: 0,0:11:56.18,0:11:59.45,Dialogue,,0,0,0,,I'd like to show you something interesting. it'll lift your spirits
+Dialogue: 0,0:12:05.96,0:12:08.06,Dialogue,,0,0,0,,That's where I live
+Dialogue: 0,0:12:08.29,0:12:09.23,Dialogue,,0,0,0,,LE A) 3\NDee...
+Dialogue: 0,0:12:09.56,0:12:11.86,Dialogue,,0,0,0,,this is very nice...
+Dialogue: 0,0:12:18.24,0:12:20.24,Dialogue,,0,0,0,,It's always so noisy at the main house
+Dialogue: 0,0:12:20.24,0:12:23.24,Dialogue,,0,0,0,,so I spend most of my time here relaxing
+Dialogue: 0,0:12:24.74,0:12:26.31,Dialogue,,0,0,0,,Wow! Look at that...
+Dialogue: 0,0:12:26.31,0:12:30.02,Dialogue,,0,0,0,,That suit of armor looks so imposing...
+Dialogue: 0,0:12:30.02,0:12:31.42,Dialogue,,0,0,0,,You re right...
+Dialogue: 0,0:12:32.12,0:12:33.29,Dialogue,,0,0,0,,What do you think.
+Dialogue: 0,0:12:33.29,0:12:34.25,Dialogue,,0,0,0,,Impressive, isn't it.
+Dialogue: 0,0:12:34.25,0:12:35.75,Dialogue,,0,0,0,,That's my pride and joy.
+Dialogue: 0,0:12:35.76,0:12:37.56,Dialogue,,0,0,0,,It's Hidetomo Okikatsu's suit of armor
+Dialogue: 0,0:12:41.49,0:12:44.00,Dialogue,,0,0,0,,So this belongs to the festival's hero...
+Dialogue: 0,0:12:44.00,0:12:46.43,Dialogue,,0,0,0,,So it's'in your possession...
+Dialogue: 0,0:12:46.73,0:12:48.87,Dialogue,,0,0,0,,That suit of armor is cursed!
+Dialogue: 0,0:12:50.47,0:12:51.44,Dialogue,,0,0,0,,Tatsuko!
+Dialogue: 0,0:12:51.44,0:12:54.31,Dialogue,,0,0,0,,What are you doing here!
+Dialogue: 0,0:12:54.57,0:12:54.77,Dialogue,,0,0,0,,Hidetomo's spirit still roams-this ear
+Dialogue: 0,0:12:54.77,0:12:58.24,Dialogue,,0,0,0,,Hidetomo's spirit still roams-this ear\NTatsuko Damon
+Dialogue: 0,0:12:58.24,0:12:58.64,Dialogue,,0,0,0,,Hidetomo's spirit still roams-this ear ms n? (so)
+Dialogue: 0,0:12:59.28,0:13:02.85,Dialogue,,0,0,0,,Those who see it are said to die untimely deaths!
+Dialogue: 0,0:13:03.65,0:13:06.42,Dialogue,,0,0,0,,1€8Se are so I] € OMoO SS ee don't get cold...
+Dialogue: 0,0:13:06.95,0:13:09.25,Dialogue,,0,0,0,,Please use these socks...
+Dialogue: 0,0:13:10.46,0:13:11.62,Dialogue,,0,0,0,,Stop that!
+Dialogue: 0,0:13:11.62,0:13:12.86,Dialogue,,0,0,0,,I don't approve!
+Dialogue: 0,0:13:13.06,0:13:14.69,Dialogue,,0,0,0,,How dare you say that to me!
+Dialogue: 0,0:13:15.30,0:13:18.16,Dialogue,,0,0,0,,I pray to Hidetomo on the anniversary of his death every year
+Dialogue: 0,0:13:18.16,0:13:21.40,Dialogue,,0,0,0,,and give offerings in penance of the horrible way you do business!
+Dialogue: 0,0:13:21.40,0:13:24.10,Dialogue,,0,0,0,,So don't you ever say anything\Nlike that to me again!
+Dialogue: 0,0:13:24.77,0:13:28.17,Dialogue,,0,0,0,,Tonight is the 500th anniversary f Hidetomo's death...
+Dialogue: 0,0:13:28.17,0:13:31.04,Dialogue,,0,0,0,,something might happen tonight...
+Dialogue: 0,0:13:45.35,0:13:46.88,Dialogue,,0,0,0,,Mr. Mouri.
+Dialogue: 0,0:13:46.98,0:13:50.48,Dialogue,,0,0,0,,I've decided to postpone talking to my father until tomorrow
+Dialogue: 0,0:13:52.19,0:13:56.12,Dialogue,,0,0,0,,Why don't we drink more of that locallsake. since we have thé time
+Dialogue: 0,0:13:56.36,0:13:57.86,Dialogue,,0,0,0,,Sounds good to me!
+Dialogue: 0,0:13:58.59,0:14:00.03,Dialogue,,0,0,0,,Yoshiro!
+Dialogue: 0,0:14:01.63,0:14:03.56,Dialogue,,0,0,0,,Mother. I thought you were asleep...
+Dialogue: 0,0:14:03.70,0:14:07.57,Dialogue,,0,0,0,,Yoshiro, Hidetomo must have brought you here tonight
+Dialogue: 0,0:14:07.90,0:14:10.81,Dialogue,,0,0,0,,you're the only one who can protect this family...
+Dialogue: 0,0:14:12.04,0:14:13.01,Dialogue,,0,0,0,,take this...
+Dialogue: 0,0:14:20.38,0:14:23.65,Dialogue,,0,0,0,,Mother, she was keeping articles like these
+Dialogue: 0,0:14:23.89,0:14:25.22,Dialogue,,0,0,0,,Allow me
+Dialogue: 0,0:14:27.19,0:14:30.22,Dialogue,,0,0,0,,December 10th 1996, Kenichi Saegusa
+Dialogue: 0,0:14:30.23,0:14:34.40,Dialogue,,0,0,0,,president of Saequsa Industries commits suicide
+Dialogue: 0,0:14:34.90,0:14:37.20,Dialogue,,0,0,0,,Damon Industries used dirty methods
+Dialogue: 0,0:14:37.20,0:14:39.73,Dialogue,,0,0,0,,to deliberately drive ee company in O° »an «rup Cy...
+Dialogue: 0,0:14:39.74,0:14:41.84,Dialogue,,0,0,0,,this was behind the suicide...!
+Dialogue: 0,0:14:42.17,0:14:45.51,Dialogue,,0,0,0,,That's the way father always does business...
+Dialogue: 0,0:14:45.51,0:14:48.38,Dialogue,,0,0,0,,But you don't know for sure that this article was completely right...
+Dialogue: 0,0:14:50.55,0:14:53.58,Dialogue,,0,0,0,,I understand you saw the suit of armor in father's room...
+Dialogue: 0,0:14:55.45,0:14:57.52,Dialogue,,0,0,0,,The man who committed suicide...
+Dialogue: 0,0:14:57.62,0:15:00.52,Dialogue,,0,0,0,,he was the original owner...
+Dialogue: 0,0:15:00.52,0:15:01.66,Dialogue,,0,0,0,,What?!
+Dialogue: 0,0:15:05.09,0:15:08.83,Dialogue,,0,0,0,,The day that man committed suicide,\NDecember 10th, that's today
+Dialogue: 0,0:15:09.46,0:15:10.16,Dialogue,,0,0,0,,\ Nw, 5800
+Dialogue: 0,0:15:10.17,0:15:13.50,Dialogue,,0,0,0,,His factory was left untouched, it's falling apart
+Dialogue: 0,0:15:13.50,0:15:16.07,Dialogue,,0,0,0,,Some people have seen his ghost there...
+Dialogue: 0,0:15:16.07,0:15:17.71,Dialogue,,0,0,0,,Spooky »isn't it!
+Dialogue: 0,0:15:17.71,0:15:18.87,Dialogue,,0,0,0,,Uh uh
+Dialogue: 0,0:15:18.94,0:15:21.28,Dialogue,,0,0,0,,Hidetomo Okikatsu and the: owner of his suit of armor,
+Dialogue: 0,0:15:21.28,0:15:24.45,Dialogue,,0,0,0,,ge] } . v!\N1e: anniversary o 201» weir cea 181S\NDecember 10th, unbelievable...
+Dialogue: 0,0:15:24.81,0:15:27.68,Dialogue,,0,0,0,,Could it be... the curse of the suit of armor...
+Dialogue: 0,0:15:29.92,0:15:32.19,Dialogue,,0,0,0,,It's mere coincidence. that's all!
+Dialogue: 0,0:15:32.19,0:15:33.95,Dialogue,,0,0,0,,Besides, time's a wasting.
+Dialogue: 0,0:15:33.96,0:15:36.92,Dialogue,,0,0,0,,Vil. Let's enjoy our drinks and take:inithe:beautiful snowy:scenery!
+Dialogue: 0,0:15:37.06,0:15:39.13,Dialogue,,0,0,0,,Oh... it'g stopped snowing...
+Dialogue: 0,0:15:48.94,0:15:50.17,Dialogue,,0,0,0,,It's so beautiful...
+Dialogue: 0,0:15:50.24,0:15:52.71,Dialogue,,0,0,0,,If only the snow could fall in our hearts
+Dialogue: 0,0:15:52.71,0:15:55.48,Dialogue,,0,0,0,,and cover everything up like this,\NIt would be so nice...
+Dialogue: 0,0:15:58.51,0:15:59.58,Dialogue,,0,0,0,,Oh, I nearly forgot.
+Dialogue: 0,0:15:59.58,0:16:02.12,Dialogue,,0,0,0,,Your beddings been laid out\NSO you can turn in
+Dialogue: 0,0:16:02.32,0:16:04.12,Dialogue,,0,0,0,,Thank:you Hatsiho.
+Dialogue: 0,0:16:04.29,0:16:05.09,Dialogue,,0,0,0,,Come on dad,
+Dialogue: 0,0:16:05.09,0:16:07.59,Dialogue,,0,0,0,,you must be tired after all that driving.\NYou'd better get some rest
+Dialogue: 0,0:16:07.59,0:16:08.59,Dialogue,,0,0,0,,Yeah, hey
+Dialogue: 0,0:16:09.12,0:16:10.66,Dialogue,,0,0,0,,I'm going to go get a drink
+Dialogue: 0,0:16:12.73,0:16:14.53,Dialogue,,0,0,0,,I meant water!
+Dialogue: 0,0:16:16.47,0:16:19.67,Dialogue,,0,0,0,,You'll get the inheritance money\NIf your father dies. won't you!
+Dialogue: 0,0:16:21.17,0:16:23.67,Dialogue,,0,0,0,,But I don't think he's going to die very soon
+Dialogue: 0,0:16:23.67,0:16:25.07,Dialogue,,0,0,0,,You're right...
+Dialogue: 0,0:16:25.41,0:16:27.98,Dialogue,,0,0,0,,What I don't understand is
+Dialogue: 0,0:16:27.98,0:16:30.54,Dialogue,,0,0,0,,why did that Yoshiro come back so suddenly!
+Dialogue: 0,0:16:30.75,0:16:33.21,Dialogue,,0,0,0,,He's not leaving Japan, that's a lie!
+Dialogue: 0,0:16:33.22,0:16:36.12,Dialogue,,0,0,0,,I'll bet he's going to tr and make good with your ather!
+Dialogue: 0,0:16:36.12,0:16:37.89,Dialogue,,0,0,0,,There wouldn't be any trouble
+Dialogue: 0,0:16:37.89,0:16:40.89,Dialogue,,0,0,0,,if only you could automatically become president...
+Dialogue: 0,0:16:41.09,0:16:44.49,Dialogue,,0,0,0,,And what about you, you married me for the money. didn't you
+Dialogue: 0,0:16:44.49,0:16:46.06,Dialogue,,0,0,0,,How dare you!
+Dialogue: 0,0:16:46.23,0:16:49.70,Dialogue,,0,0,0,,Because if you get a hangover and we have to spend another night here,
+Dialogue: 0,0:16:49.70,0:16:50.70,Dialogue,,0,0,0,,I'll be very angry
+Dialogue: 0,0:16:50.70,0:16:51.60,Dialogue,,0,0,0,,Hey Conan.
+Dialogue: 0,0:16:51.60,0:16:54.37,Dialogue,,0,0,0,,Ran here's in a real bad mood, we'd better get to bed and fast
+Dialogue: 0,0:16:54.77,0:16:55.84,Dialogue,,0,0,0,,Dad. you're talking too loud!
+Dialogue: 0,0:16:55.84,0:16:57.51,Dialogue,,0,0,0,,Come on sir, let's go to bed come on...
+Dialogue: 0,0:16:58.21,0:17:00.21,Dialogue,,0,0,0,,Are you sleeping in the audio room again tonight?!
+Dialogue: 0,0:17:00.21,0:17:03.11,Dialogue,,0,0,0,,You love music more than me
+Dialogue: 0,0:17:07.22,0:17:07.98,Dialogue,,0,0,0,,Hatsuho.
+Dialogue: 0,0:17:08.52,0:17:10.65,Dialogue,,0,0,0,,I'd like a cup of my usual coffee
+Dialogue: 0,0:17:10.65,0:17:12.35,Dialogue,,0,0,0,,Could you bring it to the audio room
+Dialogue: 0,0:17:12.35,0:17:13.25,Dialogue,,0,0,0,,Yes sir
+Dialogue: 0,0:18:01.44,0:18:04.91,Dialogue,,0,0,0,,Nanmandabu. nanmandabu
+Dialogue: 0,0:18:07.81,0:18:09.38,Dialogue,,0,0,0,,Eeeek!
+Dialogue: 0,0:18:11.81,0:18:14.05,Dialogue,,0,0,0,,As er amon iis. as er amon is.
+Dialogue: 0,0:18:14.05,0:18:15.25,Dialogue,,0,0,0,,What on earth's the matter?
+Dialogue: 0,0:18:15.25,0:18:17.69,Dialogue,,0,0,0,,Master Daimon is dead in his room
+Dialogue: 0,0:18:17.69,0:18:18.52,Dialogue,,0,0,0,,Are you sure?!
+Dialogue: 0,0:18:22.32,0:18:23.79,Dialogue,,0,0,0,,1! You Kids stay here
+Dialogue: 0,0:18:24.39,0:18:25.26,Dialogue,,0,0,0,,Conan!
+Dialogue: 0,0:18:26.39,0:18:27.66,Dialogue,,0,0,0,,Is something wrong?
+Dialogue: 0,0:18:27.93,0:18:29.00,Dialogue,,0,0,0,,Aster Yoshiro...
+Dialogue: 0,0:18:29.00,0:18:31.17,Dialogue,,0,0,0,,Your father, in his room...
+Dialogue: 0,0:18:31.43,0:18:32.80,Dialogue,,0,0,0,,Father?!
+Dialogue: 0,0:18:39.21,0:18:40.07,Dialogue,,0,0,0,,Father!
+Dialogue: 0,0:18:40.38,0:18:41.74,Dialogue,,0,0,0,,Don't go inside!
+Dialogue: 0,0:18:45.35,0:18:49.22,Dialogue,,0,0,0,,It looks like he was stabbed once in the chest with a sharp object...
+Dialogue: 0,0:18:49.82,0:18:51.62,Dialogue,,0,0,0,,e-died instantaneously...
+Dialogue: 0,0:18:52.39,0:18:53.72,Dialogue,,0,0,0,,Sir. look
+Dialogue: 0,0:18:54.79,0:18:55.19,Dialogue,,0,0,0,,Huh
+Dialogue: 0,0:18:55.46,0:18:58.63,Dialogue,,0,0,0,,he suit of armor is gone...
+Dialogue: 0,0:19:00.36,0:19:01.63,Dialogue,,0,0,0,,Nd so is the sword...
+Dialogue: 0,0:19:07.04,0:19:13.11,Dialogue,,0,0,0,,It appears Mr. Daimon was killed while he was having a glass of brandy...
+Dialogue: 0,0:19:15.28,0:19:16.34,Dialogue,,0,0,0,,Oh...
+Dialogue: 0,0:19:16.41,0:19:17.75,Dialogue,,0,0,0,,ho did this...
+Dialogue: 0,0:19:22.78,0:19:24.39,Dialogue,,0,0,0,,Even the socks...
+Dialogue: 0,0:19:25.92,0:19:28.22,Dialogue,,0,0,0,,This is the only entrance to this place
+Dialogue: 0,0:19:28.89,0:19:32.53,Dialogue,,0,0,0,,and on top of that, there were no footprints leYding here
+Dialogue: 0,0:19:38.23,0:19:39.03,Dialogue,,0,0,0,,What's that?!
+Dialogue: 0,0:19:41.90,0:19:43.20,Dialogue,,0,0,0,,I get it...
+Dialogue: 0,0:19:43.97,0:19:45.81,Dialogue,,0,0,0,,that door hid the footprints
+Dialogue: 0,0:19:47.24,0:19:48.91,Dialogue,,0,0,0,,and on the way here,
+Dialogue: 0,0:19:48.91,0:19:52.05,Dialogue,,0,0,0,,the man-made hill and hedges cast a shadow over the footprints,
+Dialogue: 0,0:19:52.05,0:19:53.55,Dialogue,,0,0,0,,that's why we didn't see them...
+Dialogue: 0,0:19:59.55,0:20:01.52,Dialogue,,0,0,0,,sheet?
+Dialogue: 0,0:20:02.46,0:20:03.76,Dialogue,,0,0,0,,For goodness sakes,
+Dialogue: 0,0:20:03.76,0:20:06.73,Dialogue,,0,0,0,,why are you always; wandering around like this...
+Dialogue: 0,0:20:06.86,0:20:09.06,Dialogue,,0,0,0,,There's a huge footprint over there!
+Dialogue: 0,0:20:09.06,0:20:10.70,Dialogue,,0,0,0,,It doesn't look like Va human one
+Dialogue: 0,0:20:11.80,0:20:13.17,Dialogue,,0,0,0,,What in the world is this?
+Dialogue: 0,0:20:13.17,0:20:14.03,Dialogue,,0,0,0,,I told you
+Dialogue: 0,0:20:14.60,0:20:16.60,Dialogue,,0,0,0,,What huge footprints...
+Dialogue: 0,0:20:17.21,0:20:18.54,Dialogue,,0,0,0,,Hidetomo...
+Dialogue: 0,0:20:19.84,0:20:22.64,Dialogue,,0,0,0,,It's Hidetomo! I saw him!
+Dialogue: 0,0:20:23.24,0:20:25.75,Dialogue,,0,0,0,,I saw him walking around in his suit of armor last night...
+Dialogue: 0,0:20:26.25,0:20:28.15,Dialogue,,0,0,0,,But the curse didn't fall on me although I saw him,
+Dialogue: 0,0:20:28.15,0:20:30.32,Dialogue,,0,0,0,,I € on cenicuro Ins eac...
+Dialogue: 0,0:20:31.99,0:20:33.02,Dialogue,,0,0,0,,At any rate,
+Dialogue: 0,0:20:33.02,0:20:36.46,Dialogue,,0,0,0,,these footprints seem to lead to the back door of the main house
+Dialogue: 0,0:20:36.76,0:20:39.09,Dialogue,,0,0,0,,We'll go back to the main house the way we came
+Dialogue: 0,0:20:39.09,0:20:41.76,Dialogue,,0,0,0,,but make sure you don't erase any of those footprints,
+Dialogue: 0,0:20:41.76,0:20:44.10,Dialogue,,0,0,0,,Iet's see where those footprints lead
+Dialogue: 0,0:21:08.12,0:21:09.82,Dialogue,,0,0,0,,The killer came this way...?
+Dialogue: 0,0:21:09.82,0:21:10.89,Dialogue,,0,0,0,,Kazuki?!
+Dialogue: 0,0:21:11.53,0:21:14.73,Dialogue,,0,0,0,,He said he was coming here to listen to music but he never returned
+Dialogue: 0,0:21:14.73,0:21:15.26,Dialogue,,0,0,0,,What!
+Dialogue: 0,0:21:20.40,0:21:22.47,Dialogue,,0,0,0,,Kazuki!\NKazuki!
+Dialogue: 0,0:21:22.50,0:21:24.77,Dialogue,,0,0,0,,There another way in?!
+Dialogue: 0,0:21:24.81,0:21:26.47,Dialogue,,0,0,0,,No. there isn't!
+Dialogue: 0,0:21:27.01,0:21:30.18,Dialogue,,0,0,0,,Damn!\NI guess we'll have to break it down...!
+Dialogue: 0,0:21:46.06,0:21:46.89,Dialogue,,0,0,0,,Mr. Mouri!
+Dialogue: 0,0:21:50.33,0:21:51.90,Dialogue,,0,0,0,,Kazuki... Kazuki!
+Dialogue: 0,0:21:52.13,0:21:53.13,Dialogue,,0,0,0,,Don't go in there...
+Dialogue: 0,0:21:53.40,0:21:56.94,Dialogue,,0,0,0,,Hidetomo was angry after all!
+Dialogue: 0,0:22:03.28,0:22:04.55,Dialogue,,0,0,0,,I don't believe it!
+Dialogue: 0,0:22:04.55,0:22:05.61,Dialogue,,0,0,0,,Azuki...
+Dialogue: 0,0:22:07.72,0:22:11.52,Dialogue,,0,0,0,,It's HidetomoO's curse: the curse!
+Dialogue: 0,0:22:13.15,0:22:14.72,Dialogue,,0,0,0,,0. this is NO curse...
+Dialogue: 0,0:22:15.72,0:22:19.73,Dialogue,,0,0,0,,But who in the world did this and how?!
+Dialogue: 0,0:22:22.59,0:22:26.36,Dialogue,,0,0,0,,ORIGIN 1 COMIC BOOKS BY.\NGoshp Aoyama
+Dialogue: 0,0:22:28.59,0:22:32.36,Dialogue,,0,0,0,,PRODUCERS.\NMichihiko Suwa\NMasahito Yoshioka
+Dialogue: 0,0:22:34.60,0:22:38.34,Dialogue,,0,0,0,,BACKGROUND MUSIC.\NKatsuo Ono
+Dialogue: 0,0:22:40.60,0:22:44.41,Dialogue,,0,0,0,,CHARACTER D SIGNS BY\NMasatomo Sudd
+Dialogue: 0,0:22:46.61,0:22:47.95,Dialogue,,0,0,0,,STORY EDITOR.\NJunichr -hoka
+Dialogue: 0,0:22:47.98,0:22:50.38,Dialogue,,0,0,0,,Junichi lioka
+Dialogue: 0,0:22:52.62,0:22:56.39,Dialogue,,0,0,0,,SCRIPTS BY.\NKanji Kashiwabara\NKazunari Kouct?\NJunichi Miyashita\NYuichi Higure\NToshiki Inoue
+Dialogue: 0,0:22:58.62,0:23:02.39,Dialogue,,0,0,0,,ANIMATION DIRECTORS\NMasatomo Sudo\NHirotoshi1 Takatani\NHaruo Oogawara\NAtsushi Aono\NAkio Kawamura fakashi1 Hyodo
+Dialogue: 0,0:23:04.60,0:23:08.43,Dialogue,,0,0,0,,ART DIRECTOR.\NYukihiro Shibiatan
+Dialogue: 0,0:23:10.64,0:23:14.40,Dialogue,,0,0,0,,DIRECTORS OF PHOTOGRAPHY.\NTakishi Nomuri\NHironobu Horikoshi\NTakahisa Ogawa
+Dialogue: 0,0:23:16.61,0:23:20.41,Dialogue,,0,0,0,,RECORDING DIRECTOR\NKatsuyoshi Kobayashi
+Dialogue: 0,0:23:22.65,0:23:26.42,Dialogue,,0,0,0,,JIT?\NErumitsu Okada
+Dialogue: 0,0:23:28.65,0:23:32.42,Dialogue,,0,0,0,,CHIEF DIRECTOR.\NKenn Kodamay
+Dialogue: 0,0:23:34.66,0:23:38.43,Dialogue,,0,0,0,,PRODUC D BY\NTMS EMe tiinment, Lid.\NIn associfion bath\NYomiuri Télecastino. Corporation
+Dialogue: 0,0:23:41.67,0:23:47.94,Dialogue,,0,0,0,,J=I2C11/2 Ce) by]\NGoSho Aoyama +Shogakukan * YAN * TMS\NAll Rights Reserved
+Dialogue: 0,0:23:48.08,0:23:50.28,Dialogue,,0,0,0,,This room was completely locked,
+Dialogue: 0,0:23:50.29,0:23:51.92,Dialogue,,0,0,0,,so how was this possible?!
+Dialogue: 0,0:23:52.09,0:23:55.86,Dialogue,,0,0,0,,It's true. it's Hidetomo's curse after alll
+Dialogue: 0,0:23:58.19,0:24:01.23,Dialogue,,0,0,0,,That suit of aromor summoned\NHidetomo's spirit...
+Dialogue: 0,0:24:01.23,0:24:05.23,Dialogue,,0,0,0,,to punish my husband, for all his dishonest dealings...
+Dialogue: 0,0:24:05.23,0:24:08.40,Dialogue,,0,0,0,,and Kazuki in the main house too...
+Dialogue: 0,0:24:08.70,0:24:11.97,Dialogue,,0,0,0,,So that's what it is, I've got it now!

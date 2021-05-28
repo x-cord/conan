@@ -1,0 +1,460 @@
+[Script Info]
+Title: Detective Conan - 0275
+TL Source: UTB
+ScriptType: v4.00+
+WrapStyle: 3
+PlayResX: 1440
+PlayResY: 1080
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Dialogue,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00401311,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Dialogue Top,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00401311,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,8,30,30,55,1
+Style: Signs,FrancophilSans,74,&H14FFFFFF,&H00FFFFFF,&H46101010,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,8,30,30,55,1
+Style: Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,0,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Radio,FrancophilSans,74,&H00BEE1FF,&H00FFFFFF,&H000B2A42,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Narration,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00BF6F00,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Narration Off,FrancophilSans,74,&H6E8C6F00,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,0,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Flashback,FrancophilSans,74,&H00CDFAFF,&H00FFFFFF,&H00373737,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Flashback Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00CCFFFF,&HC0313134,-1,0,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Honorifics - Dialogue,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00401311,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Signs,FrancophilSans,74,&H14FFFFFF,&H00FFFFFF,&H46101010,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,-1,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Honorifics - Radio,FrancophilSans,74,&H00BEE1FF,&H00FFFFFF,&H000B2A42,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Narration,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00BF6F00,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Narration Off,FrancophilSans,74,&H6E8C6F00,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,-1,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Honorifics - Flashback,FrancophilSans,74,&H00CDFAFF,&H00FFFFFF,&H00373737,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Flashback Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00CCFFFF,&HC0313134,-1,-1,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Masks,FrancophilSans,74,&H00000000,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,2,0,0,0,1
+Style: Title,Conan Episode Title,74,&H00E1E4E3,&H000000FF,&HC8DBDAE1,&HC0000000,-1,0,0,0,100,100,0,0,1,1,0,5,0,0,0,1
+Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-1,0,0,0,100,100,0,0,1,0,0,2,0,0,65,1
+Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
+Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
+Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.76,0:00:02.80,Dialogue,,0,0,0,,The distance between two people's love and hate
+Dialogue: 0,0:00:02.80,0:00:04.47,Dialogue,,0,0,0,,Two people's deduction and suspense
+Dialogue: 0,0:00:04.47,0:00:08.17,Dialogue,,0,0,0,,A surprise trick in a questionable apartment
+Dialogue: 0,0:00:08.17,0:00:09.87,Dialogue,,0,0,0,,He sees through the one and only truth,
+Dialogue: 0,0:00:09.87,0:00:11.94,Dialogue,,0,0,0,,a child in appearance with the I.Q. of an adult
+Dialogue: 0,0:00:11.94,0:00:14.11,Dialogue,,0,0,0,,No case is left unsolved with Detective Conan.
+Dialogue: 0,0:01:45.14,0:01:47.90,Dialogue,,0,0,0,,We met a grandpa at Araide Clinic and
+Dialogue: 0,0:01:47.90,0:01:50.71,Dialogue,,0,0,0,,heard a bizarre ghost story from him.
+Dialogue: 0,0:01:51.01,0:01:53.74,Dialogue,,0,0,0,,Then we came to his small old apartment house which
+Dialogue: 0,0:01:53.74,0:01:55.98,Dialogue,,0,0,0,,he said was haunted.
+Dialogue: 0,0:01:58.75,0:02:01.35,Dialogue,,0,0,0,,Incidentally, there is a building next to his apartment house
+Dialogue: 0,0:02:01.35,0:02:03.89,Dialogue,,0,0,0,,The builder had committed suicide after the bursting of the financial bubble.
+Dialogue: 0,0:02:05.72,0:02:08.66,Dialogue,,0,0,0,,There is a park in front of his apartment house too,
+Dialogue: 0,0:02:08.66,0:02:12.50,Dialogue,,0,0,0,,where the burned body of a young woman was previously found.
+Dialogue: 0,0:02:13.86,0:02:15.76,Dialogue,,0,0,0,,This place has many eerie stories surrounding it,
+Dialogue: 0,0:02:15.76,0:02:17.70,Dialogue,,0,0,0,,and we fell asleep while waiting in grandfather's room
+Dialogue: 0,0:02:17.70,0:02:18.83,Dialogue,,0,0,0,,for the ghost to appear.
+Dialogue: 0,0:02:23.01,0:02:28.04,Dialogue,,0,0,0,,Get out of here... Get out of here...
+Dialogue: 0,0:02:29.21,0:02:33.48,Dialogue,,0,0,0,,Get out of here
+Dialogue: 0,0:02:33.48,0:02:35.65,Dialogue,,0,0,0,,immediately
+Dialogue: 0,0:02:36.72,0:02:40.42,Dialogue,,0,0,0,,The toilet water turned red
+Dialogue: 0,0:02:41.09,0:02:41.82,Dialogue,,0,0,0,,A spooky figure looks in through the window from outside
+Dialogue: 0,0:02:41.83,0:02:43.49,Dialogue,,0,0,0,,A sped \« figure looks in through the window from outside
+Dialogue: 0,0:02:44.43,0:02:45.39,Dialogue,,0,0,0,,Besides,
+Dialogue: 0,0:02:45.63,0:02:47.73,Dialogue,,0,0,0,,a supernatural fiery ball
+Dialogue: 0,0:02:47.73,0:02:49.53,Dialogue,,0,0,0,,IS said to appear in the building next door.
+Dialogue: 0,0:02:53.67,0:02:55.44,Dialogue,,0,0,0,,What does this mean anyhow?
+Dialogue: 0,0:02:57.47,0:02:59.04,Dialogue,,0,0,0,,The ghost appearing on the TV screen
+Dialogue: 0,0:02:59.04,0:03:00.98,Dialogue,,0,0,0,,after suddenly fainting.
+Dialogue: 0,0:03:01.61,0:03:03.91,Dialogue,,0,0,0,,The toilet water suddenly turning red.
+Dialogue: 0,0:03:04.81,0:03:07.85,Dialogue,,0,0,0,,Both can be explained scientifically
+Dialogue: 0,0:03:08.72,0:03:11.09,Dialogue,,0,0,0,,but what about the other two phenomenon
+Dialogue: 0,0:03:12.06,0:03:14.62,Dialogue,,0,0,0,,the death candle and the figure in the window?
+Dialogue: 0,0:03:14.62,0:03:16.09,Dialogue,,0,0,0,,I just can't seem to figure them out.
+Dialogue: 0,0:03:16.99,0:03:20.30,Dialogue,,0,0,0,,How did the culprit do them
+Dialogue: 0,0:03:20.86,0:03:23.63,Dialogue,,0,0,0,,Was there a culprit in the! first places
+Dialogue: 0,0:03:24.27,0:03:25.77,Dialogue,,0,0,0,,If one did exist
+Dialogue: 0,0:03:26.07,0:03:27.44,Dialogue,,0,0,0,,who could it be?
+Dialogue: 0,0:03:27.60,0:03:29.71,Dialogue,,0,0,0,,And for what purpose\NIS the culprit doing all this for?
+Dialogue: 0,0:03:36.44,0:03:41.88,Dialogue,,0,0,0,,Truth of the Haunted House (Part II)
+Dialogue: 0,0:03:44.92,0:03:46.89,Dialogue,,0,0,0,,Hey, Conan.
+Dialogue: 0,0:03:47.12,0:03:49.36,Dialogue,,0,0,0,,What're you looking at with the window open?
+Dialogue: 0,0:03:49.59,0:03:51.56,Dialogue,,0,0,0,,The bugs will come flying in again.
+Dialogue: 0,0:03:51.86,0:03:54.33,Dialogue,,0,0,0,,Well, I'm wondering just about where that
+Dialogue: 0,0:03:54.33,0:03:57.83,Dialogue,,0,0,0,,gramps saw the death candle in that building.
+Dialogue: 0,0:03:59.30,0:04:02.64,Dialogue,,0,0,0,,The spot where I saw it is in the darkness
+Dialogue: 0,0:04:02.67,0:04:03.90,Dialogue,,0,0,0,,around the center of that building.
+Dialogue: 0,0:04:04.27,0:04:07.91,Dialogue,,0,0,0,,The red light alone was looming and moving about in the air.
+Dialogue: 0,0:04:08.28,0:04:11.98,Dialogue,,0,0,0,,At times it turned a bluish white light.
+Dialogue: 0,0:04:12.41,0:04:16.02,Dialogue,,0,0,0,,If you don't believe me, go ask\NHouichi Otonashi\NI ll') u\N6 META
+Dialogue: 0,0:04:16.02,0:04:18.98,Dialogue,,0,0,0,,Mr. Yotsuya of Room #2 and\NMr. Bancho of Room #4.\NHouichi Otonashi\N5 WMMmMEA
+Dialogue: 0,0:04:19.49,0:04:22.92,Dialogue,,0,0,0,,Each of them said that they once also saw the death candle.
+Dialogue: 0,0:04:23.56,0:04:25.19,Dialogue,,0,0,0,,Oh, yeah, I saw.
+Dialogue: 0,0:04:25.63,0:04:28.19,Dialogue,,0,0,0,,A red one and blue death candle as w\NIwahisa Yotsuya\NNe B22)\N2 LoASM¢N AN\NQQIEA
+Dialogue: 0,0:04:28.19,0:04:30.73,Dialogue,,0,0,0,,when I visited the room where my senior at school was livin\NIwahisa Yotsuya ma AM (22)\NCILIA\NSCHEME A
+Dialogue: 0,0:04:31.03,0:04:32.13,Dialogue,,0,0,0,,Your senior?
+Dialogue: 0,0:04:32.13,0:04:33.13,Dialogue,,0,0,0,,Yeah.
+Dialogue: 0,0:04:34.10,0:04:35.40,Dialogue,,0,0,0,,Just up there.
+Dialogue: 0,0:04:35.77,0:04:37.34,Dialogue,,0,0,0,,It's the room right above this one.
+Dialogue: 0,0:04:37.70,0:04:40.61,Dialogue,,0,0,0,,Room #6 is where my senior was living.
+Dialogue: 0,0:04:43.58,0:04:46.01,Dialogue,,0,0,0,,But since then, he was unable to sleep properly
+Dialogue: 0,0:04:46.05,0:04:48.75,Dialogue,,0,0,0,,because he was seized with fear of the death candles.
+Dialogue: 0,0:04:48.75,0:04:51.28,Dialogue,,0,0,0,,He finally moved out.
+Dialogue: 0,0:04:51.72,0:04:53.42,Dialogue,,0,0,0,,I was unable to sleep either, not because of fright,
+Dialogue: 0,0:04:53.42,0:04:54.95,Dialogue,,0,0,0,,but rather. because of being overexcited.
+Dialogue: 0,0:04:55.72,0:04:56.96,Dialogue,,0,0,0,,Oh, yeah.
+Dialogue: 0,0:04:58.06,0:05:00.86,Dialogue,,0,0,0,,Hey, this is a 8mm movie projector. right?
+Dialogue: 0,0:05:02.16,0:05:05.93,Dialogue,,0,0,0,,I'm now using it to edit a movie filmed by our film club in college.
+Dialogue: 0,0:05:06.70,0:05:11.60,Dialogue,,0,0,0,,But this room is bloody awful, full of sick horror magazines and posters.
+Dialogue: 0,0:05:11.60,0:05:12.87,Dialogue,,0,0,0,,It's really scary.
+Dialogue: 0,0:05:12.87,0:05:14.74,Dialogue,,0,0,0,,I feel I'm going to have nightmares just being here.
+Dialogue: 0,0:05:15.11,0:05:17.28,Dialogue,,0,0,0,,Still. all this is nothing
+Dialogue: 0,0:05:17.44,0:05:20.41,Dialogue,,0,0,0,,compared to\NRoom #4 where Mr. Bancho lives.
+Dialogue: 0,0:05:20.71,0:05:22.21,Dialogue,,0,0,0,,What?
+Dialogue: 0,0:05:24.65,0:05:26.99,Dialogue,,0,0,0,,Yeah, this room is really something.
+Dialogue: 0,0:05:27.29,0:05:29.79,Dialogue,,0,0,0,,There're tons of the ghost and monster figures here.
+Dialogue: 0,0:05:29.92,0:05:30.19,Dialogue,,0,0,0,,Kikuji Banhou\N&% BY 3% Xx (34)\N4§I&A
+Dialogue: 0,0:05:30.19,0:05:32.93,Dialogue,,0,0,0,,You haven't seen anything yet.\NKikuji Banhou\NFE BI BT Xx (34)\NCS LQUOQL.\NAB EEA
+Dialogue: 0,0:05:32.93,0:05:33.43,Dialogue,,0,0,0,,Kikuji Banhou\NFE BY 5 Xx (34) aiiéA
+Dialogue: 0,0:05:33.43,0:05:34.53,Dialogue,,0,0,0,,I turn the light off like so\NKikuji Banhou\NZE BY [ ox (34)\NAMET A
+Dialogue: 0,0:05:34.63,0:05:35.19,Dialogue,,0,0,0,,I turn the light off like so
+Dialogue: 0,0:05:35.76,0:05:36.93,Dialogue,,0,0,0,,Yipes!
+Dialogue: 0,0:05:38.37,0:05:41.40,Dialogue,,0,0,0,,1. The figures... are glowing various colors in the dark.
+Dialogue: 0,0:05:42.43,0:05:44.20,Dialogue,,0,0,0,,It's because of this black light.
+Dialogue: 0,0:05:44.57,0:05:47.31,Dialogue,,0,0,0,,The special kind of fluorescent coating painted on the figures
+Dialogue: 0,0:05:47.31,0:05:50.74,Dialogue,,0,0,0,,reacts to black light making them glow like a neon tube.
+Dialogue: 0,0:05:51.44,0:05:53.34,Dialogue,,0,0,0,,Hmm... You know a lot, sonny.
+Dialogue: 0,0:05:53.81,0:05:55.85,Dialogue,,0,0,0,,A toy store owner told me about it.
+Dialogue: 0,0:05:56.35,0:05:58.98,Dialogue,,0,0,0,,By the way, you also saw the death candle, right?
+Dialogue: 0,0:05:59.29,0:06:01.39,Dialogue,,0,0,0,,Yeah, I did
+Dialogue: 0,0:06:01.42,0:06:02.52,Dialogue,,0,0,0,,but'l saw it through that window
+Dialogue: 0,0:06:02.52,0:06:04.12,Dialogue,,0,0,0,,not the window facing that building.
+Dialogue: 0,0:06:05.76,0:06:07.53,Dialogue,,0,0,0,,This window is located diagonally
+Dialogue: 0,0:06:07.96,0:06:11.60,Dialogue,,0,0,0,,below the window where the figure appeared.
+Dialogue: 0,0:06:12.30,0:06:13.53,Dialogue,,0,0,0,,Hey, kid.
+Dialogue: 0,0:06:13.63,0:06:15.60,Dialogue,,0,0,0,,I think you better close the window now.
+Dialogue: 0,0:06:15.77,0:06:17.60,Dialogue,,0,0,0,,Do it for our sister's sake.
+Dialogue: 0,0:06:18.24,0:06:21.34,Dialogue,,0,0,0,,But, in fact, a couple of moths have already entered.
+Dialogue: 0,0:06:22.71,0:06:26.75,Dialogue,,0,0,0,,If you don't believe the ghost story I told you,
+Dialogue: 0,0:06:26.91,0:06:30.02,Dialogue,,0,0,0,,you better go talk with Botan of Room #1.
+Dialogue: 0,0:06:30.02,0:06:32.55,Dialogue,,0,0,0,,That-square grad student with a square head.
+Dialogue: 0,0:06:32.65,0:06:33.69,Dialogue,,0,0,0,,Yeah.
+Dialogue: 0,0:06:33.92,0:06:35.95,Dialogue,,0,0,0,,I've never seen it before.
+Dialogue: 0,0:06:36.56,0:06:40.19,Dialogue,,0,0,0,,I believe nothing but what I can comprehend scientifically.
+Dialogue: 0,0:06:40.43,0:06:40.66,Dialogue,,0,0,0,,Tsuyuhiko Botan
+Dialogue: 0,0:06:40.66,0:06:40.93,Dialogue,,0,0,0,,Tsuyuhiko Botan\NHR RE QR)
+Dialogue: 0,0:06:40.93,0:06:42.49,Dialogue,,0,0,0,,But you know what I hate more than that now?\NTsuyuhiko Botan\NHF mE (27)\N<LI.\NTS EREA
+Dialogue: 0,0:06:42.49,0:06:42.80,Dialogue,,0,0,0,,Tsuyuhiko Botan\NHA BE (27) kL} {IN
+Dialogue: 0,0:06:42.80,0:06:46.67,Dialogue,,0,0,0,,That building opposite here that is still half done.\NTsuyuhiko Botan\NHER REED
+Dialogue: 0,0:06:46.67,0:06:47.03,Dialogue,,0,0,0,,That building opposite here that is still half done.
+Dialogue: 0,0:06:47.20,0:06:48.77,Dialogue,,0,0,0,,Which means?
+Dialogue: 0,0:06:49.67,0:06:51.24,Dialogue,,0,0,0,,All right, so. get a load of this.
+Dialogue: 0,0:06:52.14,0:06:53.97,Dialogue,,0,0,0,,That goddamn building shuts out the sunlight,
+Dialogue: 0,0:06:53.97,0:06:56.51,Dialogue,,0,0,0,,so the sun rarely shines into the room.
+Dialogue: 0,0:06:57.41,0:06:59.18,Dialogue,,0,0,0,,That's certainly true.
+Dialogue: 0,0:06:59.55,0:07:01.85,Dialogue,,0,0,0,,Mr. Otonashi's room diagonally above is much better than mine.
+Dialogue: 0,0:07:02.02,0:07:04.78,Dialogue,,0,0,0,,Because it has a window facing the street side.
+Dialogue: 0,0:07:05.45,0:07:08.19,Dialogue,,0,0,0,,So. why don't you move out?
+Dialogue: 0,0:07:08.22,0:07:09.79,Dialogue,,0,0,0,,Because the rent is so cheap and
+Dialogue: 0,0:07:09.82,0:07:12.99,Dialogue,,0,0,0,,my grandma told me that this place had good feng shun.
+Dialogue: 0,0:07:13.56,0:07:17.86,Dialogue,,0,0,0,,Did you say you believe only what you can comprehend scientifically, huh?
+Dialogue: 0,0:07:17.86,0:07:21.30,Dialogue,,0,0,0,,Excuse me. May I.
+Dialogue: 0,0:07:21.30,0:07:22.84,Dialogue,,0,0,0,,Smoke here?
+Dialogue: 0,0:07:23.14,0:07:24.54,Dialogue,,0,0,0,,Oh, sure, please.
+Dialogue: 0,0:07:24.94,0:07:27.84,Dialogue,,0,0,0,,But please leave after you finish smoking the cigarette.
+Dialogue: 0,0:07:28.07,0:07:28.91,Dialogue,,0,0,0,,Sure.
+Dialogue: 0,0:07:28.94,0:07:29.98,Dialogue,,0,0,0,,Cigarette?
+Dialogue: 0,0:07:30.34,0:07:32.44,Dialogue,,0,0,0,,Ah".<... Ahh
+Dialogue: 0,0:07:33.21,0:07:35.85,Dialogue,,0,0,0,,D... Dad... your arm!
+Dialogue: 0,0:07:36.15,0:07:37.38,Dialogue,,0,0,0,,A moth again.
+Dialogue: 0,0:07:38.35,0:07:41.05,Dialogue,,0,0,0,,Darn! Why always me?
+Dialogue: 0,0:07:41.29,0:07:43.06,Dialogue,,0,0,0,,Get them out of the room quickly! Now.
+Dialogue: 0,0:07:43.06,0:07:44.72,Dialogue,,0,0,0,,That's what I'm trying to do now.
+Dialogue: 0,0:07:56.40,0:07:58.04,Dialogue,,0,0,0,,I see.
+Dialogue: 0,0:07:58.87,0:08:02.11,Dialogue,,0,0,0,,The culprits were afraid that the murder they committed would be revealed.
+Dialogue: 0,0:08:03.48,0:08:06.45,Dialogue,,0,0,0,,So they tried to destroy the decisive evidence
+Dialogue: 0,0:08:06.45,0:08:09.58,Dialogue,,0,0,0,,of the woman that they burned to death 4 years ago.
+Dialogue: 0,0:08:09.58,0:08:12.92,Dialogue,,0,0,0,,They used ghosts to cover up the evildoing.
+Dialogue: 0,0:08:14.82,0:08:17.86,Dialogue,,0,0,0,,What?Are you leaving already?
+Dialogue: 0,0:08:17.89,0:08:19.99,Dialogue,,0,0,0,,The night's still young
+Dialogue: 0,0:08:20.49,0:08:22.46,Dialogue,,0,0,0,,You may be missing out on seeing one of the eeriest ghosts
+Dialogue: 0,0:08:22.46,0:08:23.73,Dialogue,,0,0,0,,you've ever seen before.
+Dialogue: 0,0:08:23.83,0:08:25.73,Dialogue,,0,0,0,,Too bad you're leaving.
+Dialogue: 0,0:08:26.03,0:08:28.07,Dialogue,,0,0,0,,Well, it'spperfectly all right with me\NIf you leave now.
+Dialogue: 0,0:08:28.07,0:08:30.54,Dialogue,,0,0,0,,That way I can get on with my paper.
+Dialogue: 0,0:08:32.44,0:08:34.74,Dialogue,,0,0,0,,buddy, take it easy. say hello to the ghost for me.
+Dialogue: 0,0:08:34.91,0:08:36.01,Dialogue,,0,0,0,,Heigh-ho.
+Dialogue: 0,0:08:36.31,0:08:38.14,Dialogue,,0,0,0,,How unsociable they are.
+Dialogue: 0,0:08:38.58,0:08:39.61,Dialogue,,0,0,0,,Faugh.
+Dialogue: 0,0:08:40.25,0:08:41.41,Dialogue,,0,0,0,,Haunted by the ghost. my eye?
+Dialogue: 0,0:08:41.41,0:08:43.81,Dialogue,,0,0,0,,Making such a big fuss over illusion.
+Dialogue: 0,0:08:43.82,0:08:45.48,Dialogue,,0,0,0,,Hmm.? Where is Conan?
+Dialogue: 0,0:08:45.99,0:08:47.22,Dialogue,,0,0,0,,Oh, there he is.
+Dialogue: 0,0:08:47.79,0:08:49.22,Dialogue,,0,0,0,,Hey! We're going home now.
+Dialogue: 0,0:08:49.52,0:08:52.09,Dialogue,,0,0,0,,I've got to go pee. but
+Dialogue: 0,0:08:52.46,0:08:54.16,Dialogue,,0,0,0,,I'm a bit scared to go alone...
+Dialogue: 0,0:08:54.96,0:08:57.33,Dialogue,,0,0,0,,Hey, pops. please go with me?
+Dialogue: 0,0:08:57.36,0:08:58.10,Dialogue,,0,0,0,,Oh, man.
+Dialogue: 0,0:08:58.13,0:08:59.06,Dialogue,,0,0,0,,Oh, man.
+Dialogue: 0,0:08:59.07,0:09:00.53,Dialogue,,0,0,0,,Come on, why should I?\NAll right, all right.
+Dialogue: 0,0:09:01.10,0:09:03.87,Dialogue,,0,0,0,,I'll be waiting outside then.
+Dialogue: 0,0:09:09.24,0:09:10.28,Dialogue,,0,0,0,,Phew.
+Dialogue: 0,0:09:10.51,0:09:14.55,Dialogue,,0,0,0,,I think I've seen him somewhere before.
+Dialogue: 0,0:09:19.32,0:09:20.95,Dialogue,,0,0,0,,Who's there?
+Dialogue: 0,0:09:22.66,0:09:23.96,Dialogue,,0,0,0,,Oh! Sonny!
+Dialogue: 0,0:09:24.49,0:09:26.12,Dialogue,,0,0,0,,I thought you went home.
+Dialogue: 0,0:09:26.49,0:09:27.93,Dialogue,,0,0,0,,We've got trouble.
+Dialogue: 0,0:09:28.16,0:09:29.06,Dialogue,,0,0,0,,Trouble?
+Dialogue: 0,0:09:29.50,0:09:32.40,Dialogue,,0,0,0,,Ook. That restroom is cursed\NNo doubt about it.
+Dialogue: 0,0:09:34.57,0:09:37.27,Dialogue,,0,0,0,,It's so stinky and I can't flush the toilet.
+Dialogue: 0,0:09:37.30,0:09:38.50,Dialogue,,0,0,0,,Huh
+Dialogue: 0,0:09:40.84,0:09:43.14,Dialogue,,0,0,0,,Oh, it sure smells. but
+Dialogue: 0,0:09:45.91,0:09:47.95,Dialogue,,0,0,0,,There seems no problem with flushing...
+Dialogue: 0,0:09:51.55,0:09:54.65,Dialogue,,0,0,0,,Wa-Water is... Water is turning red
+Dialogue: 0,0:09:54.95,0:09:55.92,Dialogue,,0,0,0,,Tha-that...
+Dialogue: 0,0:09:55.92,0:09:57.46,Dialogue,,0,0,0,,That can't be true!
+Dialogue: 0,0:09:57.76,0:09:59.06,Dialogue,,0,0,0,,Oh, boy
+Dialogue: 0,0:09:59.06,0:10:01.93,Dialogue,,0,0,0,,Now, the TV in your room is cursed.
+Dialogue: 0,0:10:02.90,0:10:03.73,Dialogue,,0,0,0,,What!
+Dialogue: 0,0:10:03.73,0:10:05.13,Dialogue,,0,0,0,,Look. over there.
+Dialogue: 0,0:10:06.30,0:10:07.27,Dialogue,,0,0,0,,Get out of here...
+Dialogue: 0,0:10:07.77,0:10:09.60,Dialogue,,0,0,0,,The ghost! That's the ghost!\NWhat should we do?
+Dialogue: 0,0:10:12.24,0:10:16.01,Dialogue,,0,0,0,,This can't be happening
+Dialogue: 0,0:10:17.38,0:10:20.48,Dialogue,,0,0,0,,What're you doing?\NThere is no tape inside
+Dialogue: 0,0:10:21.35,0:10:22.78,Dialogue,,0,0,0,,Who is it?
+Dialogue: 0,0:10:23.28,0:10:25.92,Dialogue,,0,0,0,,Who is doing this?
+Dialogue: 0,0:10:44.32,0:10:45.49,Dialogue,,0,0,0,,WwW. What?
+Dialogue: 0,0:10:46.89,0:10:49.89,Dialogue,,0,0,0,,Oh! So it appeared again! The ghost.
+Dialogue: 0,0:10:50.86,0:10:52.06,Dialogue,,0,0,0,,No. no way!
+Dialogue: 0,0:10:52.06,0:10:53.43,Dialogue,,0,0,0,,There must be something wrong here!
+Dialogue: 0,0:10:53.43,0:10:55.70,Dialogue,,0,0,0,,Because everything was...
+Dialogue: 0,0:10:56.06,0:10:57.50,Dialogue,,0,0,0,,Yeah...
+Dialogue: 0,0:10:57.50,0:11:02.04,Dialogue,,0,0,0,,They were all tricks to make it look like the works of the ghost.
+Dialogue: 0,0:11:02.97,0:11:06.37,Dialogue,,0,0,0,,You're saying that nobody but you could have set the tricks up
+Dialogue: 0,0:11:06.37,0:11:10.78,Dialogue,,0,0,0,,because you created them. isn't that right.
+Dialogue: 0,0:11:10.78,0:11:12.01,Dialogue,,0,0,0,,Mr. Bancho?
+Dialogue: 0,0:11:14.45,0:11:16.42,Dialogue,,0,0,0,,Tricks.\NHow can you say that?
+Dialogue: 0,0:11:16.92,0:11:19.02,Dialogue,,0,0,0,,Man. you're acting like a detective or something.
+Dialogue: 0,0:11:19.52,0:11:21.02,Dialogue,,0,0,0,,De-Detective?
+Dialogue: 0,0:11:21.32,0:11:23.22,Dialogue,,0,0,0,,Don't tell me you are the renowned detective
+Dialogue: 0,0:11:23.22,0:11:24.49,Dialogue,,0,0,0,,Sleeping Kogoro.
+Dialogue: 0,0:11:24.79,0:11:26.43,Dialogue,,0,0,0,,Yeah, that's right.
+Dialogue: 0,0:11:26.73,0:11:29.03,Dialogue,,0,0,0,,Now I'm gonna unlock
+Dialogue: 0,0:11:29.93,0:11:34.03,Dialogue,,0,0,0,,the mysteries of a lot of psychic phenomena.
+Dialogue: 0,0:11:34.40,0:11:37.64,Dialogue,,0,0,0,,First of all, about the toilet water turning red.
+Dialogue: 0,0:11:38.27,0:11:41.58,Dialogue,,0,0,0,,What I noticed about it was that, when I entered the restroom,
+Dialogue: 0,0:11:41.74,0:11:44.45,Dialogue,,0,0,0,,it smelled awfully of ammonia, and
+Dialogue: 0,0:11:44.48,0:11:48.92,Dialogue,,0,0,0,,that the toilet tank smelled faintly of alcohol.
+Dialogue: 0,0:11:49.15,0:11:51.12,Dialogue,,0,0,0,,Ammonia and alcohol?
+Dialogue: 0,0:11:51.22,0:11:52.92,Dialogue,,0,0,0,,You know.
+Dialogue: 0,0:11:52.92,0:11:54.76,Dialogue,,0,0,0,,Perhaps you did an experiment in
+Dialogue: 0,0:11:54.76,0:11:56.76,Dialogue,,0,0,0,,science in your elementary school days, didn't you?
+Dialogue: 0,0:11:57.19,0:12:00.89,Dialogue,,0,0,0,,When you add one drop of alkaline ammonia water to the
+Dialogue: 0,0:12:00.90,0:12:05.23,Dialogue,,0,0,0,,colorless phenolphthalein solution dissolved in alcohol,
+Dialogue: 0,0:12:05.80,0:12:07.90,Dialogue,,0,0,0,,the red color will appear like magic.
+Dialogue: 0,0:12:07.90,0:12:09.37,Dialogue,,0,0,0,,Do you remember the experiment?
+Dialogue: 0,0:12:09.37,0:12:12.17,Dialogue,,0,0,0,,Yeah, but,\NI wonder if it would work out that well?
+Dialogue: 0,0:12:12.34,0:12:15.51,Dialogue,,0,0,0,,The color in the experiment isn't bright red but pinkish red.
+Dialogue: 0,0:12:15.81,0:12:17.44,Dialogue,,0,0,0,,The color could never be mistaken.
+Dialogue: 0,0:12:17.81,0:12:18.85,Dialogue,,0,0,0,,Yeah, true.
+Dialogue: 0,0:12:19.08,0:12:23.58,Dialogue,,0,0,0,,But it would look like blood in a dimly-lit restroom like here.
+Dialogue: 0,0:12:23.95,0:12:25.85,Dialogue,,0,0,0,,Well. even so
+Dialogue: 0,0:12:26.22,0:12:28.12,Dialogue,,0,0,0,,there is no chemical reaction with urine.
+Dialogue: 0,0:12:28.69,0:12:34.46,Dialogue,,0,0,0,,Because ammonia in our urine Is acid or neutral.
+Dialogue: 0,0:12:34.86,0:12:37.23,Dialogue,,0,0,0,,Not alkaline.
+Dialogue: 0,0:12:37.60,0:12:41.17,Dialogue,,0,0,0,,Yes. that's why he needed
+Dialogue: 0,0:12:41.27,0:12:43.04,Dialogue,,0,0,0,,this ammonia liquid.
+Dialogue: 0,0:12:45.24,0:12:48.34,Dialogue,,0,0,0,,1S IS pourec IN 0 e wa er in the toilet bowl
+Dialogue: 0,0:12:48.51,0:12:50.98,Dialogue,,0,0,0,,then phenolphthalein is poured into the water in the toilet tank.
+Dialogue: 0,0:12:50.98,0:12:53.41,Dialogue,,0,0,0,,Then chemical reaction will occur.
+Dialogue: 0,0:12:53.65,0:12:56.52,Dialogue,,0,0,0,,And nobody would suspect the strong smell of ammonia
+Dialogue: 0,0:12:56.52,0:12:58.35,Dialogue,,0,0,0,,seeing this dirty restroom.
+Dialogue: 0,0:12:58.65,0:13:00.15,Dialogue,,0,0,0,,Exactly
+Dialogue: 0,0:13:00.32,0:13:03.02,Dialogue,,0,0,0,,But.\NWhere did you get that chemical, sonny?
+Dialogue: 0,0:13:03.53,0:13:05.96,Dialogue,,0,0,0,,Pops asked me to look for it.
+Dialogue: 0,0:13:05.99,0:13:08.63,Dialogue,,0,0,0,,So when you were saying goodbye at the entrance,
+Dialogue: 0,0:13:08.63,0:13:11.13,Dialogue,,0,0,0,,I slipped into the room and found it
+Dialogue: 0,0:13:11.57,0:13:13.67,Dialogue,,0,0,0,,in this room. Mr. Bancho.
+Dialogue: 0,0:13:14.43,0:13:16.74,Dialogue,,0,0,0,,I also found other interesting things
+Dialogue: 0,0:13:17.14,0:13:20.38,Dialogue,,0,0,0,,like phenolphthalein and chloroform.
+Dialogue: 0,0:13:20.81,0:13:23.51,Dialogue,,0,0,0,,And even a video tape of a Cary movie.
+Dialogue: 0,0:13:24.08,0:13:25.92,Dialogue,,0,0,0,,A scary movie video tape?
+Dialogue: 0,0:13:26.42,0:13:29.19,Dialogue,,0,0,0,,Yeah! The tape with a ghost woman
+Dialogue: 0,0:13:29.19,0:13:32.72,Dialogue,,0,0,0,,saying. Go home, go home!
+Dialogue: 0,0:13:32.76,0:13:34.39,Dialogue,,0,0,0,,He-Hey
+Dialogue: 0,0:13:34.49,0:13:35.99,Dialogue,,0,0,0,,D-Don't tell me that
+Dialogue: 0,0:13:36.29,0:13:37.79,Dialogue,,0,0,0,,CC <oo
+Dialogue: 0,0:13:38.33,0:13:41.00,Dialogue,,0,0,0,,The real identity of the ghost my daughter
+Dialogue: 0,0:13:41.00,0:13:42.97,Dialogue,,0,0,0,,Ran saw on the TV screen are the
+Dialogue: 0,0:13:44.20,0:13:48.71,Dialogue,,0,0,0,,pictures Mr. Bancho transmitted from the VCR in his room.
+Dialogue: 0,0:13:49.14,0:13:51.91,Dialogue,,0,0,0,,He-He sent the pictures! How?
+Dialogue: 0,0:13:52.21,0:13:54.11,Dialogue,,0,0,0,,It's simple and easy
+Dialogue: 0,0:13:54.41,0:13:57.31,Dialogue,,0,0,0,,If you use the public antenna of this building.
+Dialogue: 0,0:13:58.95,0:14:03.85,Dialogue,,0,0,0,,Plug the antenna cord into the output terminal of the VCR in his room
+Dialogue: 0,0:14:03.86,0:14:06.89,Dialogue,,0,0,0,,and transmit video pictures to the antenna
+Dialogue: 0,0:14:07.46,0:14:11.23,Dialogue,,0,0,0,,Then the antenna sends the pictures
+Dialogue: 0,0:14:11.23,0:14:14.30,Dialogue,,0,0,0,,to the TV in Mr. Otonashfs room.
+Dialogue: 0,0:14:14.87,0:14:15.70,Dialogue,,0,0,0,,But.
+Dialogue: 0,0:14:16.27,0:14:19.10,Dialogue,,0,0,0,,In order to do that, you have to be able to set the TV channel
+Dialogue: 0,0:14:19.14,0:14:21.77,Dialogue,,0,0,0,,to the appropriate channel to receive the pictures
+Dialogue: 0,0:14:22.14,0:14:25.18,Dialogue,,0,0,0,,And you must turn on the TV first, how do you think
+Dialogue: 0,0:14:25.18,0:14:27.04,Dialogue,,0,0,0,,It's a multi channel remote control
+Dialogue: 0,0:14:27.55,0:14:28.85,Dialogue,,0,0,0,,Mr. Otonashi
+Dialogue: 0,0:14:29.61,0:14:31.18,Dialogue,,0,0,0,,Once you enter the name of the manufacturer of
+Dialogue: 0,0:14:31.18,0:14:32.65,Dialogue,,0,0,0,,your TV or VCR into the device
+Dialogue: 0,0:14:32.92,0:14:35.09,Dialogue,,0,0,0,,you can operate any TV or VCR made by the manufacturer.
+Dialogue: 0,0:14:35.09,0:14:36.29,Dialogue,,0,0,0,,So with the multi channel remote control,
+Dialogue: 0,0:14:36.29,0:14:38.36,Dialogue,,0,0,0,,you can operate the TV in someone else's room on
+Dialogue: 0,0:14:38.36,0:14:39.36,Dialogue,,0,0,0,,without the owner realizing a thing
+Dialogue: 0,0:14:39.52,0:14:40.36,Dialogue,,0,0,0,,Well
+Dialogue: 0,0:14:40.36,0:14:42.36,Dialogue,,0,0,0,,after finding out how the trick worked
+Dialogue: 0,0:14:42.36,0:14:43.76,Dialogue,,0,0,0,,it was a piece of cake even for me.
+Dialogue: 0,0:14:44.00,0:14:45.23,Dialogue,,0,0,0,,Don't tell me.
+Dialogue: 0,0:14:45.80,0:14:49.37,Dialogue,,0,0,0,,This old man was the one who sent the images to my TV screen a while ago.
+Dialogue: 0,0:14:49.43,0:14:53.74,Dialogue,,0,0,0,,Yeah, I got him to help me.
+Dialogue: 0,0:14:54.97,0:14:58.14,Dialogue,,0,0,0,,send the video I just borrowed from you.
+Dialogue: 0,0:14:58.31,0:15:01.01,Dialogue,,0,0,0,,You used the remote control
+Dialogue: 0,0:15:01.05,0:15:03.45,Dialogue,,0,0,0,,from outside the window of Mr. Othonashi's room.
+Dialogue: 0,0:15:03.45,0:15:05.35,Dialogue,,0,0,0,,Facing the building under construction.
+Dialogue: 0,0:15:05.98,0:15:07.72,Dialogue,,0,0,0,,Using the wall as a foothold,
+Dialogue: 0,0:15:07.72,0:15:10.22,Dialogue,,0,0,0,,you could easily send the signals to his TV set from there.
+Dialogue: 0,0:15:10.52,0:15:12.56,Dialogue,,0,0,0,,You didn't even need to watch the TV screen since
+Dialogue: 0,0:15:12.56,0:15:14.02,Dialogue,,0,0,0,,the video was played repeatedly
+Dialogue: 0,0:15:14.19,0:15:18.63,Dialogue,,0,0,0,,All you had to do was listen to the sound from the TV and set the channel.
+Dialogue: 0,0:15:19.13,0:15:21.90,Dialogue,,0,0,0,,And while the sun was still up.
+Dialogue: 0,0:15:22.20,0:15:25.24,Dialogue,,0,0,0,,You poured the chloroform onto the windowsill
+Dialogue: 0,0:15:25.54,0:15:28.64,Dialogue,,0,0,0,,so that all of us who were in the room would fall asleep
+Dialogue: 0,0:15:28.74,0:15:31.68,Dialogue,,0,0,0,,You thought you could make
+Dialogue: 0,0:15:31.68,0:15:36.51,Dialogue,,0,0,0,,one of us who suddenly fainted and got up in the dark room, still
+Dialogue: 0,0:15:36.51,0:15:39.15,Dialogue,,0,0,0,,hazy in the head see an eerie illusion.
+Dialogue: 0,0:15:39.15,0:15:40.95,Dialogue,,0,0,0,,Isn't that right?
+Dialogue: 0,0:15:41.85,0:15:43.82,Dialogue,,0,0,0,,I see.
+Dialogue: 0,0:15:44.06,0:15:46.69,Dialogue,,0,0,0,,B-But, that was for real. wasn't it?
+Dialogue: 0,0:15:46.92,0:15:50.49,Dialogue,,0,0,0,,I mean the figure of a person that has been looking this way!
+Dialogue: 0,0:15:50.93,0:15:54.43,Dialogue,,0,0,0,,Oh, that's not a figure of a person at all.
+Dialogue: 0,0:15:54.53,0:15:55.17,Dialogue,,0,0,0,,What?
+Dialogue: 0,0:15:55.17,0:15:57.43,Dialogue,,0,0,0,,Go over and look closer, you'll see what it is.
+Dialogue: 0,0:16:01.47,0:16:02.91,Dialogue,,0,0,0,,This... this is
+Dialogue: 0,0:16:06.18,0:16:08.01,Dialogue,,0,0,0,,Moths gathered in large numbers.
+Dialogue: 0,0:16:08.18,0:16:09.61,Dialogue,,0,0,0,,Or, to put it more precisely
+Dialogue: 0,0:16:09.61,0:16:11.68,Dialogue,,0,0,0,,it's an aggregate of male moths.
+Dialogue: 0,0:16:11.72,0:16:16.52,Dialogue,,0,0,0,,He coated the screen in a human shape with female moth pheromone,
+Dialogue: 0,0:16:16.52,0:16:19.62,Dialogue,,0,0,0,,that is also used as an insecticide, and stuck eyes and a mouth
+Dialogue: 0,0:16:19.62,0:16:21.96,Dialogue,,0,0,0,,made from black paper on it.
+Dialogue: 0,0:16:21.99,0:16:24.36,Dialogue,,0,0,0,,The male moths that were attracted to the scent of the pheromone,
+Dialogue: 0,0:16:24.36,0:16:26.90,Dialogue,,0,0,0,,clustered on it to make it\Nlook like a human shadow was
+Dialogue: 0,0:16:26.90,0:16:28.37,Dialogue,,0,0,0,,looking inside through the window.
+Dialogue: 0,0:16:29.20,0:16:33.64,Dialogue,,0,0,0,,In fact, moths kept approaching my arm several times.
+Dialogue: 0,0:16:35.51,0:16:40.74,Dialogue,,0,0,0,,When I almost fell from the window where I saw the figure for the first time,
+Dialogue: 0,0:16:42.11,0:16:45.48,Dialogue,,0,0,0,,I found myself grabbing the screen,
+Dialogue: 0,0:16:46.25,0:16:48.69,Dialogue,,0,0,0,,and got the pheromone on my arm, which attracted moths to me
+Dialogue: 0,0:16:48.85,0:16:50.35,Dialogue,,0,0,0,,So. that is
+Dialogue: 0,0:16:50.36,0:16:52.69,Dialogue,,0,0,0,,I simply removed the screen on the second floor and
+Dialogue: 0,0:16:52.69,0:16:55.46,Dialogue,,0,0,0,,placed it by window on the first floor.
+Dialogue: 0,0:16:55.46,0:16:56.43,Dialogue,,0,0,0,,That's all.
+Dialogue: 0,0:16:56.86,0:16:57.89,Dialogue,,0,0,0,,Incidentally.
+Dialogue: 0,0:16:57.90,0:17:00.70,Dialogue,,0,0,0,,The reason why the figure started on its own is disappearing
+Dialogue: 0,0:17:00.70,0:17:04.63,Dialogue,,0,0,0,,because Mr. Bansho's black light that was activated by a timer
+Dialogue: 0,0:17:05.70,0:17:09.54,Dialogue,,0,0,0,,was emitted from the window of his room diagonally below.
+Dialogue: 0,0:17:11.11,0:17:13.58,Dialogue,,0,0,0,,Moths are more prone to be attracted by
+Dialogue: 0,0:17:13.58,0:17:17.08,Dialogue,,0,0,0,,ultraviolet light emitted by the black lights, than the pheromone
+Dialogue: 0,0:17:18.25,0:17:21.89,Dialogue,,0,0,0,,But the trick would be disclosed if even one moth remains.
+Dialogue: 0,0:17:22.79,0:17:25.79,Dialogue,,0,0,0,,That's why Mr. Bancho hurried across to the window,
+Dialogue: 0,0:17:25.79,0:17:28.56,Dialogue,,0,0,0,,as soon as the moths began to fly out. then
+Dialogue: 0,0:17:28.99,0:17:30.76,Dialogue,,0,0,0,,opened the window and screen together.
+Dialogue: 0,0:17:30.76,0:17:34.97,Dialogue,,0,0,0,,The force of the impact knocked the moths off the screen completely.
+Dialogue: 0,0:17:36.20,0:17:39.14,Dialogue,,0,0,0,,Mr. Bancho, you pretended not to notice the moths even
+Dialogue: 0,0:17:39.14,0:17:43.51,Dialogue,,0,0,0,,when you got close to the window. right?
+Dialogue: 0,0:17:43.81,0:17:48.71,Dialogue,,0,0,0,,That's because you intentionally caused this uproar over the ghost
+Dialogue: 0,0:17:49.71,0:17:52.48,Dialogue,,0,0,0,,But. I still don't understand
+Dialogue: 0,0:17:52.85,0:17:58.29,Dialogue,,0,0,0,,All the chemicals besides the chloroform can be gotten easily. but why
+Dialogue: 0,0:17:58.32,0:17:59.56,Dialogue,,0,0,0,,Right.
+Dialogue: 0,0:18:00.06,0:18:02.63,Dialogue,,0,0,0,,Mr. Bancho could've easily made the video himself,
+Dialogue: 0,0:18:02.63,0:18:05.96,Dialogue,,0,0,0,,by using his scary figures and his falsetto
+Dialogue: 0,0:18:06.03,0:18:09.63,Dialogue,,0,0,0,,Why'd he go through the trouble of making up a ghost story?
+Dialogue: 0,0:18:10.60,0:18:13.80,Dialogue,,0,0,0,,He attempted to scare us,\NMr. Otonashi's guests.
+Dialogue: 0,0:18:13.81,0:18:18.88,Dialogue,,0,0,0,,To get Mr. Otonashi who refused to move to decide to do after all this ghost scare.
+Dialogue: 0,0:18:19.58,0:18:23.88,Dialogue,,0,0,0,,Perhaps. in order to cover up the crime four years ago
+Dialogue: 0,0:18:26.45,0:18:27.88,Dialogue,,0,0,0,,The crime four years ago?
+Dialogue: 0,0:18:27.89,0:18:31.86,Dialogue,,0,0,0,,You mean the murder of the the woman burned to death in the park?
+Dialogue: 0,0:18:32.22,0:18:37.16,Dialogue,,0,0,0,,You say you saw the death candle in that building under construction?
+Dialogue: 0,0:18:37.33,0:18:39.10,Dialogue,,0,0,0,,Yeah, that's right.
+Dialogue: 0,0:18:39.53,0:18:44.37,Dialogue,,0,0,0,,What was drifting in the air wasn't the death candle, but a lit cigarette.
+Dialogue: 0,0:18:45.50,0:18:48.21,Dialogue,,0,0,0,,What was glowing bluish white
+Dialogue: 0,0:18:48.21,0:18:52.28,Dialogue,,0,0,0,,was the light of portable TV that was secretly being watched.
+Dialogue: 0,0:18:53.74,0:18:57.28,Dialogue,,0,0,0,,What!? Don't tell me there's someone in that building?
+Dialogue: 0,0:18:57.35,0:19:02.22,Dialogue,,0,0,0,,Yeah, taking advantage of the fact the building is still under construction,
+Dialogue: 0,0:19:02.22,0:19:04.52,Dialogue,,0,0,0,,he's been living in hiding there.
+Dialogue: 0,0:19:05.12,0:19:07.32,Dialogue,,0,0,0,,He is one of the two murderers who was
+Dialogue: 0,0:19:07.39,0:19:13.26,Dialogue,,0,0,0,,witnessed four years ago.\NThat has a scar across his cheek!
+Dialogue: 0,0:19:14.77,0:19:17.97,Dialogue,,0,0,0,,Perhaps,\NMr. Bancho is one of the two murderers,
+Dialogue: 0,0:19:17.97,0:19:20.17,Dialogue,,0,0,0,,whose face wasn't witnessed.
+Dialogue: 0,0:19:22.27,0:19:24.71,Dialogue,,0,0,0,,As the light of the cigarette was witnessed
+Dialogue: 0,0:19:24.71,0:19:27.58,Dialogue,,0,0,0,,and the fact that somebody\NIived here was about to be disclosed,
+Dialogue: 0,0:19:27.58,0:19:29.55,Dialogue,,0,0,0,,you fabricated and accelerated the plot about the ghost girl,
+Dialogue: 0,0:19:29.58,0:19:32.82,Dialogue,,0,0,0,,you-chased the residents of the condo outione after the other.
+Dialogue: 0,0:19:32.82,0:19:36.15,Dialogue,,0,0,0,,Because they could look inside the building from their room!
+Dialogue: 0,0:19:37.39,0:19:42.09,Dialogue,,0,0,0,,You did this all to keep your accomplice rom going out into the world,
+Dialogue: 0,0:19:42.09,0:19:45.20,Dialogue,,0,0,0,,because if so, that accomplice would turn out to be decisive evidence.
+Dialogue: 0,0:19:45.30,0:19:48.06,Dialogue,,0,0,0,,The reason that you're living here
+Dialogue: 0,0:19:48.07,0:19:51.80,Dialogue,,0,0,0,,IS to bring the guy with the scar across his cheek, his food and drinks,
+Dialogue: 0,0:19:51.80,0:19:55.04,Dialogue,,0,0,0,,because his scar will give him away.
+Dialogue: 0,0:19:56.01,0:19:58.54,Dialogue,,0,0,0,,I guess you were planning to sneak out
+Dialogue: 0,0:19:58.54,0:20:01.14,Dialogue,,0,0,0,,after things settled down a bit, but too late now.
+Dialogue: 0,0:20:01.91,0:20:04.41,Dialogue,,0,0,0,,See, you can hear it, can't you?
+Dialogue: 0,0:20:04.62,0:20:06.88,Dialogue,,0,0,0,,The footsteps of doom.
+Dialogue: 0,0:20:07.58,0:20:10.85,Dialogue,,0,0,0,,The siren of the police car that I called.
+Dialogue: 0,0:20:16.23,0:20:17.49,Dialogue,,0,0,0,,Damn it.
+Dialogue: 0,0:20:17.50,0:20:17.69,Dialogue,,0,0,0,,Darn it.
+Dialogue: 0,0:20:17.70,0:20:18.26,Dialogue,,0,0,0,,Out of the way, move!
+Dialogue: 0,0:20:18.26,0:20:18.90,Dialogue,,0,0,0,,Out of the way, move!
+Dialogue: 0,0:20:18.90,0:20:19.20,Dialogue,,0,0,0,,Out of the way, move!
+Dialogue: 0,0:20:21.20,0:20:23.30,Dialogue,,0,0,0,,Ran! Don't get pass you!
+Dialogue: 0,0:20:24.20,0:20:25.80,Dialogue,,0,0,0,,Out of my way. lady
+Dialogue: 0,0:20:25.90,0:20:27.50,Dialogue,,0,0,0,,or I'll curse you to death!
+Dialogue: 0,0:20:28.84,0:20:29.77,Dialogue,,0,0,0,,Ust what did you say...
+Dialogue: 0,0:20:43.85,0:20:46.62,Dialogue,,0,0,0,,If you're not a ghost, you don't scare me at all.
+Dialogue: 0,0:20:49.46,0:20:51.63,Dialogue,,0,0,0,,Ac IS .
+Dialogue: 0,0:20:54.50,0:20:56.77,Dialogue,,0,0,0,,The police arrived there soon after.
+Dialogue: 0,0:20:57.57,0:20:59.67,Dialogue,,0,0,0,,The host of this haunted house
+Dialogue: 0,0:21:00.14,0:21:03.34,Dialogue,,0,0,0,,and the "death candle man\N- ad - ncing in ye ul cing were arres e
+Dialogue: 0,0:21:04.28,0:21:06.81,Dialogue,,0,0,0,,The case of the haunted house scare together with the murder case
+Dialogue: 0,0:21:06.81,0:21:08.65,Dialogue,,0,0,0,,that occurred four years ago, came to a close.
+Dialogue: 0,0:21:11.05,0:21:12.42,Dialogue,,0,0,0,,Incidentally, the murder four yeas ago
+Dialogue: 0,0:21:12.42,0:21:14.85,Dialogue,,0,0,0,,was committed because of money trouble.
+Dialogue: 0,0:21:15.59,0:21:17.82,Dialogue,,0,0,0,,What a worldly case over money
+Dialogue: 0,0:21:17.82,0:21:19.96,Dialogue,,0,0,0,,behind an unworldly ghost case.
+Dialogue: 0,0:21:24.43,0:21:24.87,Dialogue,,0,0,0,,Original Comic Books By\NGOSHO_AOYAMA
+Dialogue: 0,0:21:24.87,0:21:28.03,Dialogue,,0,0,0,,Original Comic Books By.\NGCOSHOGDO AYANA
+Dialogue: 0,0:21:30.44,0:21:34.07,Dialogue,,0,0,0,,Pr 0 ( luc r S\NMICHIHIKO SUWA
+Dialogue: 0,0:21:36.48,0:21:40.08,Dialogue,,0,0,0,,Background Music\NKATSUO ONO
+Dialogue: 0,0:21:42.45,0:21:46.09,Dialogue,,0,0,0,,Character Designs By.\NMASATOMQ sum
+Dialogue: 0,0:21:48.46,0:21:52.09,Dialogue,,0,0,0,,Story Editor.\NJUNICHI 11OKA
+Dialogue: 0,0:21:54.46,0:21:58.10,Dialogue,,0,0,0,,Scripts By.\NKANJI KASHIWABARA\NKAZUNA RI KDUCYHI ">\NJUNICHI MIYASHITA\NYUICHI HIGURE\NTOSHIKI INO E
+Dialogue: 0,0:22:00.47,0:22:04.10,Dialogue,,0,0,0,,Animation Directors.\NMASATOMO, SUD\NHIROTOSHI TAKATANI\NHARUO OOGAWARA\NATSUSHI AONO\NAKIO KAWAMURA ea bd
+Dialogue: 0,0:22:06.47,0:22:10.11,Dialogue,,0,0,0,,Art Director.\NYUKIHIRO SHIBUTANI
+Dialogue: 0,0:22:12.51,0:22:16.12,Dialogue,,0,0,0,,Directors Of Photography.\NTAKASHI NOMURA\NHIRONOBU HORIKOSHI\NTAKAHISA OWAGA
+Dialogue: 0,0:22:18.49,0:22:22.12,Dialogue,,0,0,0,,Recording Director.\NKATSUYOSHI KOBAYASHI
+Dialogue: 0,0:22:24.49,0:22:28.09,Dialogue,,0,0,0,,Editor\NTERUMITSU OKADA
+Dialogue: 0,0:22:30.50,0:22:34.17,Dialogue,,0,0,0,,Chief Director.\NKEN]! KODAMA
+Dialogue: 0,0:22:36.50,0:22:40.17,Dialogue,,0,0,0,,Produced By.\NMS ENTERTAINMENT, LII\NIn assocration with\NYOMIURI TEDECASTING\NCORPORATION
+Dialogue: 0,0:22:42.51,0:22:48.78,Dialogue,,0,0,0,,DETECIINVE CONANT\NCOSHO AY INTE SHOCARUK ANY TV TALS\NPURITHISIROSCTITT
+Dialogue: 0,0:22:52.21,0:22:55.15,Dialogue,,0,0,0,,So. all those ghosts were tricks after all. }
+Dialogue: 0,0:22:55.38,0:22:56.12,Dialogue,,0,0,0,,Yeah
+Dialogue: 0,0:22:56.32,0:22:58.15,Dialogue,,0,0,0,,I don't give a hoot about them anymore
+Dialogue: 0,0:22:58.39,0:23:00.09,Dialogue,,0,0,0,,They Mm exist.
+Dialogue: 0,0:23:00.49,0:23:01.89,Dialogue,,0,0,0,,Bu no
+Dialogue: 0,0:23:02.86,0:23:04.42,Dialogue,,0,0,0,,What's wrong. Sonokor
+Dialogue: 0,0:23:08.46,0:23:10.00,Dialogue,,0,0,0,,He-Hey. Sonoko.
+Dialogue: 0,0:23:10.77,0:23:11.83,Dialogue,,0,0,0,,Are you crying? Why?
+Dialogue: 0,0:23:12.03,0:23:13.23,Dialogue,,0,0,0,,Be-Because
+Dialogue: 0,0:23:13.23,0:23:15.83,Dialogue,,0,0,0,,Because with you talking like that
+Dialogue: 0,0:23:16.37,0:23:18.81,Dialogue,,0,0,0,,I can't show my true self, can I?
+Dialogue: 0,0:23:25.85,0:23:28.58,Dialogue,,0,0,0,,I give myself credit for this perfect makeup.
+Dialogue: 0,0:23:29.15,0:23:32.22,Dialogue,,0,0,0,,Ram's boogey phobia is one of her charm points
+Dialogue: 0,0:23:32.22,0:23:34.12,Dialogue,,0,0,0,,So it's A waste to cure it
+Dialogue: 0,0:23:34.56,0:23:35.36,Dialogue,,0,0,0,,Don't you think so?
+Dialogue: 0,0:23:35.76,0:23:36.76,Dialogue,,0,0,0,,Ye-Yeah.
+Dialogue: 0,0:23:37.32,0:23:40.29,Dialogue,,0,0,0,,I think you should do something about your personality first
+Dialogue: 0,0:23:59.22,0:24:00.58,Dialogue,,0,0,0,,Officer Takagi?
+Dialogue: 0,0:24:01.12,0:24:03.72,Dialogue,,0,0,0,,What is he looking for?
+Dialogue: 0,0:24:07.42,0:24:10.63,Dialogue,,0,0,0,,Hey, hey, thatish t good
