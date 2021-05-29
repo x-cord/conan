@@ -36,11 +36,13 @@ Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:07.74,0:00:09.24,Dialogue,,0,0,0,,The ultimate series starts today!
-Dialogue: 0,0:00:09.50,0:00:10.95,Dialogue,,0,0,0,,We'll start by beating these guys.
-Dialogue: 0,0:00:11.29,0:00:12.62,Dialogue,,0,0,0,,Seeing through to the one and only truth,
-Dialogue: 0,0:00:12.79,0:00:14.29,Dialogue,,0,0,0,,He looks like a child but has the mind of an adult.
-Dialogue: 0,0:00:14.54,0:00:16.42,Dialogue,,0,0,0,,His name is: Detective Conan!
+Dialogue: 0,0:00:02.48,0:00:05.62,Narration Off,,0,0,0,,{\be10}Just as flowing water has no form, and the breeze is invisible,
+Dialogue: 0,0:00:05.62,0:00:07.66,Narration Off,,0,0,0,,{\be10}deductions take all shapes and styles in each and every case to be solved
+Dialogue: 0,0:00:07.66,0:00:09.26,Narration Off,,0,0,0,,{\be10}Today's episode is the first in a series of mind boggling mysteries
+Dialogue: 0,0:00:09.26,0:00:10.79,Narration Off,,0,0,0,,{\be10}We'll start with the adventures of these guys.
+Dialogue: 0,0:00:11.03,0:00:12.63,Narration Off,,0,0,0,,{\be10}He sees through the one and only truth.
+Dialogue: 0,0:00:12.63,0:00:14.40,Narration Off,,0,0,0,,{\be10}He looks like a child but has the mind of an adult.
+Dialogue: 0,0:00:14.40,0:00:17.10,Narration Off,,0,0,0,,{\be10}His name is: Detective Conan!
 Dialogue: 0,0:01:40.67,0:01:45.42,Dialogue,,0,0,0,,Not just once, but twice! Who was it that saved my life again?
 Dialogue: 0,0:01:45.97,0:01:51.81,Dialogue,,0,0,0,,Oh, unnamed knight with your black cloak, if you will grant me my wish...
 Dialogue: 0,0:01:53.39,0:01:57.44,Dialogue,,0,0,0,,Please take off that dark mask and show me your true face!
@@ -51,10 +53,10 @@ Dialogue: 0,0:02:14.75,0:02:19.83,Dialogue,,0,0,0,,Dummy, how can I do this prop
 Dialogue: 0,0:02:20.08,0:02:23.30,Dialogue,,0,0,0,,Who in the world would write such a melodramatic script?
 Dialogue: 0,0:02:23.30,0:02:24.59,Dialogue,,0,0,0,,Sonoko, it was Sonoko!
 Dialogue: 0,0:02:25.21,0:02:27.92,Dialogue,,0,0,0,,She said the "Black Cloaked Knight" was made in Shinichi's image.
-Dialogue: 0,0:02:28.26,0:02:29.89,Dialogue,,0,0,0,,That woman.
+Dialogue: 0,0:02:28.26,0:02:29.89,Thoughts,,0,0,0,,{\be10}That woman.
 Dialogue: 0,0:02:30.22,0:02:31.26,Dialogue,,0,0,0,,Hey, wait a minute!
 Dialogue: 0,0:02:31.85,0:02:35.52,Dialogue,,0,0,0,,It says here that the knight and princess will exchange a warm kiss!
-Dialogue: 0,0:02:35.73,0:02:36.68,Dialogue,,0,0,0,,W-What?!
+Dialogue: 0,0:02:35.73,0:02:36.68,Thoughts,,0,0,0,,{\be10}W-What?!
 Dialogue: 0,0:02:37.77,0:02:40.52,Dialogue,,0,0,0,,It's just pretend, don't worry.
 Dialogue: 0,0:02:41.11,0:02:44.40,Dialogue,,0,0,0,,Hey Ran{\rHonorifics - Dialogue}-neechan{\r}, who's going to play the part of the knight?
 Dialogue: 0,0:02:44.78,0:02:46.74,Dialogue,,0,0,0,,Ah, so you want to know, Conan{\rHonorifics - Dialogue}-kun{\r}?
@@ -70,7 +72,7 @@ Dialogue: 0,0:03:15.01,0:03:16.68,Dialogue,,0,0,0,,Don't do it, Ran{\rHonorifics
 Dialogue: 0,0:03:17.14,0:03:21.23,Dialogue,,0,0,0,,Just kidding. The only thing we asked Or. Araide to do was direct.
 Dialogue: 0,0:03:21.73,0:03:24.90,Dialogue,,0,0,0,,Sonoko says she'll dress up as a wan and do what she can!
 Dialogue: 0,0:03:25.19,0:03:26.57,Dialogue,,0,0,0,,What?
-Dialogue: 0,0:03:27.07,0:03:28.44,Dialogue,,0,0,0,,Mow stupid.
+Dialogue: 0,0:03:27.07,0:03:28.44,Thoughts,,0,0,0,,{\be10}How stupid.
 Dialogue: 0,0:03:29.90,0:03:33.11,Dialogue,,0,0,0,,Look at the time! I have practice, I heed to take a quick shower and get to bed.
 Dialogue: 0,0:03:33.57,0:03:35.08,Dialogue,,0,0,0,,Our shower is broken.
 Dialogue: 0,0:03:35.49,0:03:37.83,Dialogue,,0,0,0,,I wanted to take one too!
@@ -104,17 +106,16 @@ Dialogue: 0,0:05:16.09,0:05:17.59,Dialogue,,0,0,0,,Someone like Ran would...
 Dialogue: 0,0:05:17.76,0:05:20.10,Dialogue,,0,0,0,,What, something about me?
 Dialogue: 0,0:05:20.35,0:05:21.22,Dialogue,,0,0,0,,Oh, it's nothing!
 Dialogue: 0,0:05:21.56,0:05:23.48,Dialogue,,0,0,0,,Where's Ai{\rHonorifics - Dialogue}-chan{\r}?
-Dialogue: 0,0:05:24.10,0:05:26.31,Dialogue,,0,0,0,,Ai{\rHonorifics - Dialogue}-kun{\r} is in the basement * *
+Dialogue: 0,0:05:24.10,0:05:26.31,Dialogue,,0,0,0,,Ai{\rHonorifics - Dialogue}-kun{\r} is in the basement
 Dialogue: 0,0:05:27.31,0:05:28.52,Dialogue,,0,0,0,,I'll go greet her!
 Dialogue: 0,0:05:29.82,0:05:30.77,Dialogue,,0,0,0,,Ran{\rHonorifics - Dialogue}-neechan{\r}!
 Dialogue: 0,0:05:31.82,0:05:32.48,Dialogue,,0,0,0,,Wait!
-Dialogue: 0,0:05:33.90,0:05:35.32,Dialogue,,0,0,0,,Hello, Ar{\rHonorifics - Dialogue}-chan{\r}...
-Dialogue: 0,0:05:35.32,0:05:36.91,Dialogue,,0,0,0,,Hello, Ai{\rHonorifics - Dialogue}-chan{\r}...
+Dialogue: 0,0:05:33.90,0:05:36.91,Dialogue,,0,0,0,,Hello, Ai{\rHonorifics - Dialogue}-chan{\r}...
 Dialogue: 0,0:05:39.37,0:05:41.49,Dialogue,,0,0,0,,Hey, why don't you at least answer?
 Dialogue: 0,0:05:41.99,0:05:44.16,Dialogue,,0,0,0,,It's alright, Professor. I wouldn't want to be a bother.
 Dialogue: 0,0:05:45.04,0:05:46.25,Dialogue,,0,0,0,,See you later, Ai{\rHonorifics - Dialogue}-chan{\r}!
-Dialogue: 0,0:05:51.05,0:05:54.05,Dialogue,,0,0,0,,Maybe I'm... running away?
-Dialogue: 0,0:05:56.38,0:05:57.26,Dialogue,,0,0,0,,That's outrageous.
+Dialogue: 0,0:05:51.05,0:05:54.05,Thoughts,,0,0,0,,{\be10}Maybe I'm... running away?
+Dialogue: 0,0:05:56.38,0:05:57.26,Thoughts,,0,0,0,,{\be10}That's outrageous.
 Dialogue: 0,0:06:04.10,0:06:07.52,Dialogue,,0,0,0,,"In this world...", shall we go again?
 Dialogue: 0,0:06:07.81,0:06:08.85,Dialogue,,0,0,0,,Ready and...
 Dialogue: 0,0:06:08.94,0:06:11.98,Dialogue,,0,0,0,,Hey Professor, about the talk we had earlier...
@@ -144,7 +145,7 @@ Dialogue: 0,0:07:23.47,0:07:24.68,Dialogue,,0,0,0,,Light of happiness?
 Dialogue: 0,0:07:25.39,0:07:27.64,Dialogue,,0,0,0,,It means a light full of joy!
 Dialogue: 0,0:07:27.89,0:07:29.18,Dialogue,,0,0,0,,Could that mean...
 Dialogue: 0,0:07:29.39,0:07:30.69,Dialogue,,0,0,0,,A treasure!
-Dialogue: 0,0:07:31.02,0:07:32.44,Dialogue,,0,0,0,,This again?
+Dialogue: 0,0:07:31.02,0:07:32.44,Thoughts,,0,0,0,,{\be10}This again?
 Dialogue: 0,0:07:33.56,0:07:37.40,Dialogue,,0,0,0,,The curious thing here is the giant hiragana "To" engraved on the rock.
 Dialogue: 0,0:07:37.69,0:07:39.65,Dialogue,,0,0,0,,To... Tokujyou unagi rice...?
 Dialogue: 0,0:07:39.65,0:07:40.36,Dialogue,,0,0,0,,Topaz?
@@ -157,9 +158,9 @@ Dialogue: 0,0:07:55.21,0:07:56.13,Dialogue,,0,0,0,,Geez...
 Dialogue: 0,0:07:57.05,0:07:59.05,Dialogue,,0,0,0,,Geez, this is a huge cave!
 Dialogue: 0,0:07:59.05,0:08:00.55,Dialogue,,0,0,0,,It's a limestone cavern.
 Dialogue: 0,0:08:01.09,0:08:02.93,Dialogue,,0,0,0,,It's so big inside.
-Dialogue: 0,0:08:04.47,0:08:06.26,Dialogue,,0,0,0,,Wm, cigarette?
-Dialogue: 0,0:08:08.31,0:08:09.60,Dialogue,,0,0,0,,The filter is still moist.
-Dialogue: 0,0:08:11.60,0:08:13.14,Dialogue,,0,0,0,,Is there someone else here?
+Dialogue: 0,0:08:04.47,0:08:06.26,Thoughts,,0,0,0,,{\be10}Hm, cigarette?
+Dialogue: 0,0:08:08.31,0:08:09.60,Thoughts,,0,0,0,,{\be10}The filter is still moist.
+Dialogue: 0,0:08:11.60,0:08:13.14,Thoughts,,0,0,0,,{\be10}Is there someone else here?
 Dialogue: 0,0:08:15.06,0:08:18.69,Dialogue,,0,0,0,,They're slow. I wonder how far they went?
 Dialogue: 0,0:08:19.36,0:08:21.57,Dialogue,,0,0,0,,Maybe they went exploring in the woods.
 Dialogue: 0,0:08:22.11,0:08:24.99,Dialogue,,0,0,0,,Especially since they're all just a bunch of curious detectives.
@@ -319,7 +320,9 @@ Dialogue: 0,0:17:30.87,0:17:33.12,Dialogue,,0,0,0,,There are a lot of things sca
 Dialogue: 0,0:17:39.17,0:17:41.00,Dialogue,,0,0,0,,This is my button-sized locator!
 Dialogue: 0,0:17:41.34,0:17:44.01,Dialogue,,0,0,0,,Don't touch it. It's in some sort of shape.
 Dialogue: 0,0:17:44.43,0:17:45.43,Dialogue,,0,0,0,,Some shape?
-Dialogue: 0,0:17:46.30,0:17:50.01,Dialogue,,0,0,0,,If I increase the search area... this is!
+Dialogue: 0,0:17:46.30,0:17:49.35,Thoughts,,0,0,0,,{\be10}If I increase the search area...
+Dialogue: 0,0:17:49.35,0:17:50.29,Thoughts,,0,0,0,,{\be10}...this is!
+Dialogue: 0,0:17:52.05,0:17:53.28,Thoughts,,0,0,0,,{\be10}110, emergency!?
 Dialogue: 0,0:17:55.98,0:17:59.19,Dialogue,,0,0,0,,Hey, what's going on, it's a dead end?
 Dialogue: 0,0:18:00.02,0:18:01.23,Dialogue,,0,0,0,,Dawn, it's those brats!
 Dialogue: 0,0:18:01.78,0:18:03.82,Dialogue,,0,0,0,,They pulled a fast one on us.
@@ -363,13 +366,13 @@ Dialogue: 0,0:20:25.42,0:20:26.59,Dialogue,,0,0,0,,No, it was a big help.
 Dialogue: 0,0:20:27.92,0:20:33.26,Dialogue,,0,0,0,,Cave bats only live within a 300 meter radius of a cave entrance.
 Dialogue: 0,0:20:34.51,0:20:40.39,Dialogue,,0,0,0,,The exit we're looking for is right in front of our noses.
 Dialogue: 0,0:20:41.85,0:20:42.60,Dialogue,,0,0,0,,Really?!
-Dialogue: 0,0:20:43.86,0:20:49.65,Dialogue,,0,0,0,,But the problem is, which one of these 5 paths lead to the exit?
-Dialogue: 0,0:20:50.70,0:20:53.82,Dialogue,,0,0,0,,From my deduction, the "path of the dragon" is that, but.
-Dialogue: 0,0:20:55.74,0:20:57.95,Dialogue,,0,0,0,,Dammit, my eyes are losing focus.
-Dialogue: 0,0:21:04.29,0:21:05.71,Dialogue,,0,0,0,,The important keywords are:
-Dialogue: 0,0:21:06.63,0:21:10.71,Dialogue,,0,0,0,,The large "To" engraved on the rock at the front of the cave, the "path of the dragon",
-Dialogue: 0,0:21:11.42,0:21:13.97,Dialogue,,0,0,0,,And the egg-shaped rock placed on top of the boulder.
-Dialogue: 0,0:21:14.97,0:21:18.43,Dialogue,,0,0,0,,To, path of the dragon, egg...
+Dialogue: 0,0:20:43.86,0:20:49.65,Thoughts,,0,0,0,,{\be10}But the problem is, which one of these 5 paths lead to the exit?
+Dialogue: 0,0:20:50.70,0:20:53.82,Thoughts,,0,0,0,,{\be10}From my deduction, the "path of the dragon" is that, but.
+Dialogue: 0,0:20:55.74,0:20:57.95,Thoughts,,0,0,0,,{\be10}Dammit, my eyes are losing focus.
+Dialogue: 0,0:21:04.29,0:21:05.71,Thoughts,,0,0,0,,{\be10}The important keywords are:
+Dialogue: 0,0:21:06.63,0:21:10.71,Thoughts,,0,0,0,,{\be10}The large "To" engraved on the rock at the front of the cave, the "path of the dragon",
+Dialogue: 0,0:21:11.42,0:21:13.97,Thoughts,,0,0,0,,{\be10}And the egg-shaped rock placed on top of the boulder.
+Dialogue: 0,0:21:14.97,0:21:18.43,Thoughts,,0,0,0,,{\be10}To, path of the dragon, egg...
 Dialogue: 0,0:21:21.06,0:21:23.81,Dialogue,,0,0,0,,Then let's try each of the 5 paths, in order.
 Dialogue: 0,0:21:24.81,0:21:26.61,Dialogue,,0,0,0,,No, you only need to enter one.
 Dialogue: 0,0:21:29.23,0:21:33.86,Dialogue,,0,0,0,,The engraved words, "those who are lost in the dark", means people who are lost in this cave.
@@ -381,23 +384,25 @@ Dialogue: 0,0:21:56.09,0:21:56.72,Dialogue,,0,0,0,,Conan{\rHonorifics - Dialogue
 Dialogue: 0,0:21:59.76,0:22:00.43,Dialogue,,0,0,0,,Conan{\rHonorifics - Dialogue}-kun{\r}!
 Dialogue: 0,0:22:00.52,0:22:02.56,Dialogue,,0,0,0,,Oh no, there's so much blood coming out!
 Dialogue: 0,0:22:05.69,0:22:06.31,Dialogue,,0,0,0,,Footsteps!
-Dialogue: 0,0:22:06.69,0:22:08.36,Dialogue,,0,0,0,,Crap, they're cowing!
+Dialogue: 0,0:22:06.69,0:22:08.36,Dialogue,,0,0,0,,Crap, they're coming!
 Dialogue: 0,0:22:08.77,0:22:09.56,Dialogue,,0,0,0,,What should we do?!
 Dialogue: 0,0:23:45.79,0:23:48.04,Dialogue,,0,0,0,,Crap, he's coming this way!
 Dialogue: 0,0:23:52.17,0:23:55.50,Dialogue,,0,0,0,,You fool, it's already checkmate for you.
 Dialogue: 0,0:23:56.34,0:23:57.13,Dialogue,,0,0,0,,What?!
 Dialogue: 0,0:23:57.55,0:24:01.26,Dialogue,,0,0,0,,Excuse hie, I have the same blood type as this boy here!
 Dialogue: 0,0:24:05.01,0:24:08.85,Dialogue,,0,0,0,,Ran... so you... you really already...
+Dialogue: 0,0:24:09.46,0:24:15.53,Signs,Sign,0,0,0,,Desperate Revival\NThe Wounded Famous Detective!
 Dialogue: 0,0:24:10.31,0:24:11.44,Dialogue,,0,0,0,,Next Conan:
 Dialogue: 0,0:24:11.69,0:24:14.52,Dialogue,,0,0,0,,Desperate Revival: The Wounded Famous Detective!
-Dialogue: 0,0:24:16.23,0:24:19.90,Dialogue,,0,0,0,,Next Conan's Mint: Shogi (Japanese Chess)
-Dialogue: 0,0:06:09.19,0:06:12.61,Dialogue Top,,0,0,0,,If I could, in this world,
-Dialogue: 0,0:06:13.11,0:06:16.36,Dialogue Top,,0,0,0,,Grasp your love.
-Dialogue: 0,0:06:17.07,0:06:22.41,Dialogue Top,,0,0,0,,Watching the dancing lights, I shall not forget.
-Dialogue: 0,0:06:23.29,0:06:28.08,Dialogue Top,,0,0,0,,Ah, the mystery is getting solved.
+Dialogue: 0,0:24:15.73,0:24:18.66,Dialogue,,0,0,0,,Next Conan's Hint
+Dialogue: 0,0:24:18.66,0:24:20.58,Dialogue,,0,0,0,,Shogi
+Dialogue: 0,0:06:09.19,0:06:12.61,Signs,,0,0,0,,If I could, in this world,
+Dialogue: 0,0:06:13.11,0:06:16.36,Signs,,0,0,0,,Grasp your love.
+Dialogue: 0,0:06:17.07,0:06:22.41,Signs,,0,0,0,,Watching the dancing lights, I shall not forget.
+Dialogue: 0,0:06:23.29,0:06:28.08,Signs,,0,0,0,,Ah, the mystery is getting solved.
 Dialogue: 0,0:06:53.98,0:06:58.07,Dialogue Top,,0,0,0,,Barbi-six, Barbi-seven, Barbi-eight, Barbi-nine!
-Dialogue: 0,0:07:17.26,0:07:23.01,Dialogue Top,,0,0,0,,(Japanese character "To")
-Dialogue: 0,0:07:40.61,0:07:43.45,Dialogue Top,,0,0,0,,(Japanese: "Toneru")
-Dialogue: 0,0:17:52.06,0:17:54.81,Dialogue Top,,0,0,0,,(Note: 110 is the emergency phone number in Japan, just like 911 is for the USA and Canada.)
+Dialogue: 0,0:07:17.26,0:07:23.01,Signs,,0,0,0,,(Japanese character "To")
+Dialogue: 0,0:07:40.61,0:07:43.45,Signs,,0,0,0,,(Japanese: "Toneru")
+Dialogue: 0,0:17:52.06,0:17:54.81,Signs,,0,0,0,,(Note: 110 is the emergency phone number in Japan, just like 911 is for the USA and Canada.)
 Dialogue: 0,0:24:20.86,0:24:22.32,Dialogue Top,,0,0,0,,Next time that person will do something crazy!
-Dialogue: 0,0:24:22.49,0:24:24.16,Dialogue Top,,0,0,0,,I think it's time to wake up from your dream.
+Dialogue: 0,0:24:22.49,0:24:24.38,Dialogue Top,,0,0,0,,I think it's time to wake up from your dream.
