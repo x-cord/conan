@@ -109,6 +109,10 @@ for folder in next(os.walk("../subs"))[1]:
                     line = re.sub(r"—\\h$", "—", line)
                     line = line.strip()
                     parts = line.split(",", 9)
+                    #parts[9] = parts[9].replace(" s ", "'s ")
+                    parts[9] = parts[9].replace(" . ", ". ")
+                    parts[9] = parts[9].replace("..,", "...")
+                    parts[9] = re.sub(r"([^\.A-Z])\. ([a-z])", r"\1, \2", parts[9])
                     """
                     parts[9] = parts[9].replace(r"\\N", r" \\N ")
                     parts[9] = parts[9].replace("}", "} ")
@@ -129,7 +133,9 @@ for folder in next(os.walk("../subs"))[1]:
             out = re.sub(r",,\.\.\. ([a-zA-Z])", r",,...\1", out)
             #out = re.sub("!!+", "!", out)
             out = re.sub(r"([a-zA-Z0-9!])\?\?+", r"\1?", out)
+            out = re.sub(r"\.{2}", "...", out)
             out = re.sub(r"\.{4,}", "...", out)
+            """
             out = re.sub(r"(,,|\\N|\. )A([a-z])[-] ?[aA]\2", r"\1A\2-A\2", out)
             out = re.sub(r"(,,|\\N|\. )B([a-z])[-] ?[bB]\2", r"\1B\2-B\2", out)
             out = re.sub(r"(,,|\\N|\. )C([a-z])[-] ?[cC]\2", r"\1C\2-C\2", out)
@@ -156,6 +162,7 @@ for folder in next(os.walk("../subs"))[1]:
             out = re.sub(r"(,,|\\N|\. )X([a-z])[-] ?[xX]\2", r"\1X\2-X\2", out)
             out = re.sub(r"(,,|\\N|\. )Y([a-z])[-] ?[yY]\2", r"\1Y\2-Y\2", out)
             out = re.sub(r"(,,|\\N|\. )Z([a-z])[-] ?[zZ]\2", r"\1Z\2-Z\2", out)
+            """
             """
             out = re.sub(r"(,,|\\N|\. )A[,.!-] ?[aA]", r"\1A-A", out)
             out = re.sub(r"(,,|\\N|\. )B[,.!-] ?[bB]", r"\1B-B", out)
