@@ -1,0 +1,437 @@
+[Script Info]
+Title: Detective Conan - 0348
+TL Source: DCTP
+ScriptType: v4.00+
+WrapStyle: 3
+PlayResX: 1440
+PlayResY: 1080
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Dialogue,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00401311,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Dialogue Top,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00401311,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,8,30,30,55,1
+Style: Signs,FrancophilSans,74,&H14FFFFFF,&H00FFFFFF,&H46101010,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,8,30,30,55,1
+Style: Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,0,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Radio,FrancophilSans,74,&H00BEE1FF,&H00FFFFFF,&H000B2A42,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Narration,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00BF6F00,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Narration Off,FrancophilSans,74,&H6E8C6F00,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,0,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Flashback,FrancophilSans,74,&H00CDFAFF,&H00FFFFFF,&H00373737,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Flashback Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00CCFFFF,&HC0313134,-1,0,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Honorifics - Dialogue,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00401311,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Signs,FrancophilSans,74,&H14FFFFFF,&H00FFFFFF,&H46101010,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,-1,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Honorifics - Radio,FrancophilSans,74,&H00BEE1FF,&H00FFFFFF,&H000B2A42,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Narration,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00BF6F00,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Narration Off,FrancophilSans,74,&H6E8C6F00,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,-1,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Honorifics - Flashback,FrancophilSans,74,&H00CDFAFF,&H00FFFFFF,&H00373737,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Flashback Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00CCFFFF,&HC0313134,-1,-1,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Masks,FrancophilSans,74,&H00000000,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,2,0,0,0,1
+Style: Title,Conan Episode Title,74,&H00E1E4E3,&H000000FF,&HC8DBDAE1,&HC0000000,-1,0,0,0,100,100,0,0,1,1,0,5,0,0,0,1
+Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-1,0,0,0,100,100,0,0,1,0,0,2,0,0,65,1
+Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
+Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
+Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:02:05.19,0:02:07.31,Dialogue,,0,0,0,,This place sure has character!
+Dialogue: 0,0:02:07.86,0:02:10.44,Dialogue,,0,0,0,,It feels like it's from a long time ago!
+Dialogue: 0,0:02:10.48,0:02:12.99,Dialogue,,0,0,0,,That "nostalajiji" thing, right?
+Dialogue: 0,0:02:16.07,0:02:17.70,Dialogue,,0,0,0,,Come on, Genta{\rHonorifics - Dialogue}-kun{\r}.
+Dialogue: 0,0:02:17.70,0:02:20.37,Dialogue,,0,0,0,,It's called "nostalgia.
+Dialogue: 0,0:02:20.37,0:02:21.45,Dialogue,,0,0,0,,When did that change?
+Dialogue: 0,0:02:22.04,0:02:24.29,Dialogue,,0,0,0,,How old are you guys again?
+Dialogue: 0,0:02:25.96,0:02:32.09,Dialogue,,0,0,0,,At the very least, it's a village that fits the image of one that's soon to be registered as a World Heritage site.
+Dialogue: 0,0:02:32.51,0:02:37.59,Dialogue,,0,0,0,,Yeah, but it seems it's become popular and gotten more tourism recently for a differentreason. >
+Dialogue: 0,0:02:38.34,0:02:40.01,Dialogue,,0,0,0,,What's that, Conan{\rHonorifics - Dialogue}-kun{\r}?
+Dialogue: 0,0:02:40.01,0:02:41.26,Dialogue,,0,0,0,,A different reason?
+Dialogue: 0,0:02:43.31,0:02:44.14,Dialogue,,0,0,0,,That would be...
+Dialogue: 0,0:02:44.23,0:02:46.02,Dialogue,,0,0,0,,Thiiiiiiiiiiiiiiiiiiissssssssss!
+Dialogue: 0,0:02:49.23,0:02:51.27,Dialogue,,0,0,0,,Geez, everyone's making fun of me...
+Dialogue: 0,0:02:53.82,0:02:56.11,Dialogue,,0,0,0,,So the other reason is because of ghosts?
+Dialogue: 0,0:02:56.65,0:02:58.16,Dialogue,,0,0,0,,About half a year ago...
+Dialogue: 0,0:02:58.16,0:03:03.24,Dialogue,,0,0,0,,A number of people came out and said they saw the ghost of a child, leading to the spread of the rumor.
+Dialogue: 0,0:03:06.25,0:03:10.79,Dialogue,,0,0,0,,As a token of appreciation for solving a case, we got the rare opportunity to go on this tour...
+Dialogue: 0,0:03:11.38,0:03:14.34,Dialogue,,0,0,0,,Try to taste the ancientness of Japan!
+Dialogue: 0,0:03:14.34,0:03:16.63,Dialogue,,0,0,0,,I guess there's no helping it...
+Dialogue: 0,0:03:16.63,0:03:18.13,Dialogue,,0,0,0,,I'm gonna go taste the beer!
+Dialogue: 0,0:03:20.10,0:03:21.26,Dialogue,,0,0,0,,Welcome!
+Dialogue: 0,0:03:23.06,0:03:24.22,Dialogue,,0,0,0,,This again.
+Dialogue: 0,0:03:25.52,0:03:31.23,Dialogue,,0,0,0,,LOVE, GHOSTS, AND WORLD HERITAGE\N(TPJ li)\N(PART ONE)
+Dialogue: 0,0:03:33.02,0:03:34.57,Dialogue,,0,0,0,,It gets more and more amazing!
+Dialogue: 0,0:03:34.57,0:03:36.49,Dialogue,,0,0,0,,It's almost as if we've gone back in time!
+Dialogue: 0,0:03:37.70,0:03:39.82,Dialogue,,0,0,0,,We're staying here tonight?
+Dialogue: 0,0:03:40.74,0:03:43.24,Dialogue,,0,0,0,,Minshuku are old-style Japanese lodgings, similar to bed-and-breakfasts.\NIt's a World Heritage site and minshuku at the same time!
+Dialogue: 0,0:03:43.87,0:03:46.16,Dialogue,,0,0,0,,It's really just like Old Japan!
+Dialogue: 0,0:03:47.66,0:03:49.83,Dialogue,,0,0,0,,It's divided into three levels, isn't it?
+Dialogue: 0,0:03:49.83,0:03:52.13,Dialogue,,0,0,0,,It looks like there are more rooms than you'd think from outside.
+Dialogue: 0,0:03:52.84,0:03:55.80,Dialogue,,0,0,0,,I wonder if that means it belonged to a large family long ago...
+Dialogue: 0,0:03:56.76,0:03:57.38,Dialogue,,0,0,0,,This is...
+Dialogue: 0,0:03:58.22,0:03:59.51,Dialogue,,0,0,0,,What's wrong, Conan{\rHonorifics - Dialogue}-kun{\r}?
+Dialogue: 0,0:04:00.84,0:04:03.68,Dialogue,,0,0,0,,This foundation stone and the soil around it are new...
+Dialogue: 0,0:04:04.81,0:04:07.27,Dialogue,,0,0,0,,Considering that this sort of house must have been built a hundred years ago...
+Dialogue: 0,0:04:07.93,0:04:09.52,Dialogue,,0,0,0,,Oh, is this the place?
+Dialogue: 0,0:04:10.06,0:04:12.48,Dialogue,,0,0,0,,I guess these people are staying here together with us.
+Dialogue: 0,0:04:12.48,0:04:13.23,Dialogue,,0,0,0,,Good day!
+Dialogue: 0,0:04:14.36,0:04:14.94,Dialogue,,0,0,0,,Good day!
+Dialogue: 0,0:04:14.94,0:04:15.90,Dialogue,,0,0,0,,Nice to meet you!
+Dialogue: 0,0:04:16.69,0:04:18.40,Dialogue,,0,0,0,,A minshuku with a steeply sloped roof!
+Dialogue: 0,0:04:18.40,0:04:19.82,Dialogue,,0,0,0,,Fumiko's so excited!
+Dialogue: 0,0:04:19.82,0:04:21.32,Dialogue,,0,0,0,,Yeah, Kanako too!
+Dialogue: 0,0:04:21.32,0:04:23.70,Dialogue,,0,0,0,,What a dirty old place.
+Dialogue: 0,0:04:24.16,0:04:29.79,Dialogue Top,,0,0,0,,Kawaji Kensaku (37)\NTourist.
+Dialogue: 0,0:04:24.16,0:04:25.74,Dialogue,,0,0,0,,I sure hope there's a bath.
+Dialogue: 0,0:04:25.74,0:04:26.45,Dialogue,,0,0,0,,I sure hope there's a bath.
+Dialogue: 0,0:04:26.45,0:04:27.70,Dialogue,,0,0,0,,But as far as air conditioning...
+Dialogue: 0,0:04:28.37,0:04:29.79,Dialogue,,0,0,0,,I guess that's too much to ask for!
+Dialogue: 0,0:04:31.42,0:04:32.37,Dialogue,,0,0,0,,What a creep!
+Dialogue: 0,0:04:32.92,0:04:34.71,Dialogue,,0,0,0,,Fumiko, he'll hear you!
+Dialogue: 0,0:04:35.21,0:04:37.75,Dialogue,,0,0,0,,Did you say ladies say something?
+Dialogue: 0,0:04:38.88,0:04:40.17,Dialogue,,0,0,0,,Will you stop it?
+Dialogue: 0,0:04:40.22,0:04:41.72,Dialogue,,0,0,0,,Grow up!
+Dialogue: 0,0:04:41.72,0:04:43.26,Dialogue,,0,0,0,,You're being a bother to others!
+Dialogue: 0,0:04:44.60,0:04:45.64,Dialogue,,0,0,0,,What'd you say?
+Dialogue: 0,0:04:46.18,0:04:47.47,Dialogue,,0,0,0,,I'm being a bother?
+Dialogue: 0,0:04:47.85,0:04:49.47,Dialogue,,0,0,0,,Don't leave anything out, you bastards...
+Dialogue: 0,0:04:49.68,0:04:51.06,Dialogue,,0,0,0,,You're the one being shameful.
+Dialogue: 0,0:04:52.69,0:04:53.98,Dialogue,,0,0,0,,Shameful, you say?
+Dialogue: 0,0:04:55.36,0:04:56.48,Dialogue,,0,0,0,,Bastard, who the hell're you?
+Dialogue: 0,0:04:56.86,0:04:58.32,Dialogue,,0,0,0,,Not "bastard."
+Dialogue: 0,0:04:58.44,0:05:01.65,Dialogue,,0,0,0,,My name is Mouri Kogorou.
+Dialogue: 0,0:05:01.65,0:05:02.40,Dialogue,,0,0,0,,Mouri?
+Dialogue: 0,0:05:03.11,0:05:04.87,Dialogue,,0,0,0,,Is that the...
+Dialogue: 0,0:05:04.87,0:05:07.20,Dialogue,,0,0,0,,Great Detective, Sleeping Kogorou...
+Dialogue: 0,0:05:07.62,0:05:09.49,Dialogue,,0,0,0,,I am called that...
+Dialogue: 0,0:05:09.50,0:05:10.79,Dialogue,,0,0,0,,Well, not by choice.
+Dialogue: 0,0:05:11.16,0:05:12.29,Dialogue,,0,0,0,,Did you hearthat?
+Dialogue: 0,0:05:12.29,0:05:14.17,Dialogue,,0,0,0,,Not by choice," he said.
+Dialogue: 0,0:05:14.17,0:05:15.29,Dialogue,,0,0,0,,I heard nothing.
+Dialogue: 0,0:05:15.63,0:05:17.25,Dialogue,,0,0,0,,ioiuosa/v\v.
+Dialogue: 0,0:05:17.25,0:05:18.42,Dialogue,,0,0,0,,Fumiko's so excited!
+Dialogue: 0,0:05:18.42,0:05:19.63,Dialogue,,0,0,0,,You're a celebrity, Mouri{\rHonorifics - Dialogue}-san{\r}!
+Dialogue: 0,0:05:20.05,0:05:21.76,Dialogue,,0,0,0,,Now, now, that's enough!
+Dialogue: 0,0:05:21.80,0:05:24.43,Dialogue,,0,0,0,,With you young ladies shaking me about, my beer's going to spill!
+Dialogue: 0,0:05:26.26,0:05:29.22,Dialogue,,0,0,0,,My name is Sakaki Shoukichi.
+Dialogue: 0,0:05:29.22,0:05:31.77,Dialogue,,0,0,0,,It's an honor to meet you, Mouri{\rHonorifics - Dialogue}-san{\r}.
+Dialogue: 0,0:05:31.81,0:05:34.23,Dialogue,,0,0,0,,I am Kuwashima Kazuaki.
+Dialogue: 0,0:05:34.23,0:05:34.98,Dialogue,,0,0,0,,Nice to meet you!
+Dialogue: 0,0:05:35.94,0:05:38.40,Dialogue,,0,0,0,,Pleasure to meet all of you!
+Dialogue: 0,0:05:38.94,0:05:40.53,Dialogue,,0,0,0,,That's not interesting at all.
+Dialogue: 0,0:05:40.90,0:05:42.86,Dialogue,,0,0,0,,Uhm, sir...
+Dialogue: 0,0:05:44.45,0:05:45.11,Dialogue,,0,0,0,,What is it?
+Dialogue: 0,0:05:45.11,0:05:45.99,Dialogue,,0,0,0,,Nagakura Iwao (50) Master of the Minshuku.
+Dialogue: 0,0:05:45.99,0:05:50.29,Dialogue,,0,0,0,,Sir, your lodging is at Ishioka{\rHonorifics - Dialogue}-san{\r}'s place, one house down.
+Dialogue: 0,0:05:50.66,0:05:52.70,Dialogue,,0,0,0,,Should've said that in the first place!
+Dialogue: 0,0:06:03.55,0:06:05.55,Dialogue,,0,0,0,,This pork nabe is delicious!
+Dialogue: 0,0:06:06.43,0:06:07.93,Dialogue,,0,0,0,,The iwana is also yummy!
+Dialogue: 0,0:06:07.93,0:06:08.89,Dialogue,,0,0,0,,Yum, yum!
+Dialogue: 0,0:06:09.97,0:06:11.93,Dialogue,,0,0,0,,The miso soup smells wonderful!
+Dialogue: 0,0:06:11.93,0:06:14.02,Dialogue,,0,0,0,,It warms the soul, doesn't it?
+Dialogue: 0,0:06:14.60,0:06:15.31,Dialogue,,0,0,0,,All righ't!
+Dialogue: 0,0:06:15.31,0:06:18.69,Dialogue,,0,0,0,,In the wintertime, it's got to be hot sake!
+Dialogue: 0,0:06:18.69,0:06:19.90,Dialogue,,0,0,0,,Here you go.
+Dialogue: 0,0:06:19.94,0:06:21.11,Dialogue,,0,0,0,,Sorry to trouble you.
+Dialogue: 0,0:06:22.53,0:06:23.40,Dialogue,,0,0,0,,Don't mess with me!
+Dialogue: 0,0:06:25.53,0:06:27.86,Dialogue,,0,0,0,,Publishing this kind of thing...
+Dialogue: 0,0:06:27.87,0:06:29.57,Dialogue,,0,0,0,,We don't need that here!
+Dialogue: 0,0:06:32.50,0:06:33.33,Dialogue,,0,0,0,,Dear!
+Dialogue: 0,0:06:34.00,0:06:35.29,Dialogue,,0,0,0,,You're being rude to our guests!
+Dialogue: 0,0:06:36.25,0:06:37.71,Dialogue,,0,0,0,,I apologize.
+Dialogue: 0,0:06:37.71,0:06:39.33,Dialogue,,0,0,0,,We've been having a few problems lately...
+Dialogue: 0,0:06:40.67,0:06:42.05,Dialogue,,0,0,0,,I wonder what's wrong.
+Dialogue: 0,0:06:43.72,0:06:44.97,Dialogue,,0,0,0,,It's this, Ran{\rHonorifics - Dialogue}-neechan{\r}.
+Dialogue: 0,0:06:44.97,0:06:45.67,Dialogue,,0,0,0,,This article.
+Dialogue: 0,0:06:46.68,0:06:48.59,Dialogue,,0,0,0,,What does this magazine have to do with it?
+Dialogue: 0,0:06:49.64,0:06:52.10,Dialogue,,0,0,0,,"World Heritage, and Ghost Infestation"?
+Dialogue: 0,0:06:52.10,0:06:54.52,Dialogue,,0,0,0,,"Local Residents Disturbed by Preposterous Goings-On"...
+Dialogue: 0,0:06:57.65,0:06:59.69,Dialogue,,0,0,0,,Ghosts, how outrageous!
+Dialogue: 0,0:06:59.69,0:07:01.86,Dialogue,,0,0,0,,It's a bother to us!
+Dialogue: 0,0:07:01.86,0:07:02.69,Dialogue,,0,0,0,,Yes, sir...
+Dialogue: 0,0:07:02.69,0:07:04.19,Dialogue,,0,0,0,,Isn't that right?
+Dialogue: 0,0:07:04.28,0:07:10.37,Dialogue,,0,0,0,,If you're going to talk about World Heritage, it should be about the assets of humanity that the world is proud of!
+Dialogue: 0,0:07:10.41,0:07:12.83,Dialogue,,0,0,0,,It must be a real headache for you!
+Dialogue: 0,0:07:15.08,0:07:19.17,Dialogue,,0,0,0,,People who come to see that sort of frivolous thing are just far too rude!
+Dialogue: 0,0:07:19.54,0:07:20.17,Dialogue,,0,0,0,,Here.
+Dialogue: 0,0:07:20.92,0:07:23.63,Dialogue,,0,0,0,,It must be tough—here, drink up!
+Dialogue: 0,0:07:23.63,0:07:26.92,Dialogue,,0,0,0,,No, as the master of this minshuku, I should be the one serving you all...
+Dialogue: 0,0:07:27.13,0:07:29.34,Dialogue,,0,0,0,,As expected of Mouri{\rHonorifics - Dialogue}-san{\r}!
+Dialogue: 0,0:07:29.34,0:07:30.59,Dialogue,,0,0,0,,You're absolutely right!
+Dialogue: 0,0:07:31.30,0:07:32.01,Dialogue,,0,0,0,,Here, a refill.
+Dialogue: 0,0:07:32.39,0:07:33.76,Dialogue,,0,0,0,,Oh, thanks.
+Dialogue: 0,0:07:35.02,0:07:36.77,Dialogue,,0,0,0,,Drown your sorrows!
+Dialogue: 0,0:07:36.89,0:07:38.52,Dialogue,,0,0,0,,Drink up!
+Dialogue: 0,0:07:40.19,0:07:42.36,Dialogue,,0,0,0,,Hey, hey... It's started.
+Dialogue: 0,0:07:43.23,0:07:45.28,Dialogue,,0,0,0,,Well, we'll be going then.
+Dialogue: 0,0:07:45.28,0:07:46.23,Dialogue,,0,0,0,,Excuse us.
+Dialogue: 0,0:07:47.15,0:07:48.90,Dialogue,,0,0,0,,Goodnight!
+Dialogue: 0,0:07:48.91,0:07:50.99,Dialogue,,0,0,0,,Nice meeting you!
+Dialogue: 0,0:07:50.99,0:07:52.87,Dialogue,,0,0,0,,All right, let's drink, let's drink!
+Dialogue: 0,0:07:53.66,0:07:54.87,Dialogue,,0,0,0,,It was delicious!
+Dialogue: 0,0:07:55.54,0:07:57.70,Dialogue,,0,0,0,,Conan{\rHonorifics - Dialogue}-kun{\r}, we should turn in as well.
+Dialogue: 0,0:07:57.96,0:07:58.50,Dialogue,,0,0,0,,Yeah.
+Dialogue: 0,0:07:58.50,0:07:59.29,Dialogue,,0,0,0,,What should we do?
+Dialogue: 0,0:07:59.29,0:08:00.33,Dialogue,,0,0,0,,You think we'll be able to?
+Dialogue: 0,0:08:00.33,0:08:01.46,Dialogue,,0,0,0,,Probably!
+Dialogue: 0,0:08:01.88,0:08:05.80,Dialogue,,0,0,0,,We have to determine whether or not the ghosts are real!
+Dialogue: 0,0:08:06.38,0:08:06.92,Dialogue,,0,0,0,,All right!
+Dialogue: 0,0:08:07.22,0:08:08.42,Dialogue,,0,0,0,,Of course!
+Dialogue: 0,0:08:08.47,0:08:11.76,Dialogue,,0,0,0,,That's why we came, after all!
+Dialogue: 0,0:08:11.76,0:08:12.93,Dialogue,,0,0,0,,Right, Conan{\rHonorifics - Dialogue}-kun{\r}?
+Dialogue: 0,0:08:14.89,0:08:15.64,Dialogue,,0,0,0,,Sounds like fun!
+Dialogue: 0,0:08:15.93,0:08:17.27,Dialogue,,0,0,0,,Have a good time.
+Dialogue: 0,0:08:17.27,0:08:20.64,Dialogue,,0,0,0,,I'll pass, and be reading in the room.
+Dialogue: 0,0:08:20.69,0:08:22.27,Dialogue,,0,0,0,,Haibara!
+Dialogue: 0,0:08:29.24,0:08:30.82,Dialogue,,0,0,0,,What's wrong, Conan{\rHonorifics - Dialogue}-kun{\r}?
+Dialogue: 0,0:08:31.78,0:08:32.86,Dialogue,,0,0,0,,Nothing in particular.
+Dialogue: 0,0:08:32.87,0:08:35.74,Dialogue,,0,0,0,,Oh yeah, we're going to go out and stroll around for a bit!
+Dialogue: 0,0:08:35.74,0:08:36.99,Dialogue,,0,0,0,,At this time?
+Dialogue: 0,0:08:37.54,0:08:39.83,Dialogue,,0,0,0,,It's not that late yet.
+Dialogue: 0,0:08:39.83,0:08:43.38,Dialogue,,0,0,0,,And plus, it's also one of the specialties of this place!
+Dialogue: 0,0:08:48.46,0:08:51.05,Dialogue,,0,0,0,,Beware of fire!
+Dialogue: 0,0:08:53.43,0:08:56.10,Dialogue,,0,0,0,,Beware of fire!
+Dialogue: 0,0:08:57.27,0:08:59.64,Dialogue,,0,0,0,,Scary, but pretty!
+Dialogue: 0,0:08:59.64,0:09:01.85,Dialogue,,0,0,0,,It wouldn't be strange even if that did show up!
+Dialogue: 0,0:09:02.35,0:09:04.94,Dialogue,,0,0,0,,They do this every night, huh?
+Dialogue: 0,0:09:04.94,0:09:07.98,Dialogue,,0,0,0,,Everyone takes shifts and they go around like this...
+Dialogue: 0,0:09:08.48,0:09:09.32,Dialogue,,0,0,0,,Yeah.
+Dialogue: 0,0:09:09.32,0:09:12.11,Dialogue,,0,0,0,,Fire is the main enemy of these sort of houses with thatched roofs.
+Dialogue: 0,0:09:12.11,0:09:15.03,Dialogue,,0,0,0,,There's no choice but to have everyone look out after each other.
+Dialogue: 0,0:09:15.03,0:09:17.24,Dialogue,,0,0,0,,Having everyone in the village take responsibility and cooperate...
+Dialogue: 0,0:09:17.83,0:09:19.95,Dialogue,,0,0,0,,It's better than just hoping for the best, right?
+Dialogue: 0,0:09:19.95,0:09:21.08,Dialogue,,0,0,0,,Nothing out of the ordinary!
+Dialogue: 0,0:09:21.29,0:09:22.25,Dialogue,,0,0,0,,Thank you very much.
+Dialogue: 0,0:09:23.92,0:09:26.25,Dialogue,,0,0,0,,Beware of fire!
+Dialogue: 0,0:09:31.59,0:09:33.84,Dialogue,,0,0,0,,Who's there?
+Dialogue: 0,0:09:38.10,0:09:39.85,Dialogue,,0,0,0,,Hey, who are you?
+Dialogue: 0,0:09:45.52,0:09:48.36,Dialogue,,0,0,0,,Beware of fire...
+Dialogue: 0,0:09:48.36,0:09:49.61,Dialogue,,0,0,0,,Huh, where'd Ayumi go?
+Dialogue: 0,0:09:50.19,0:09:52.15,Dialogue,,0,0,0,,She was just with us...
+Dialogue: 0,0:09:52.15,0:09:53.24,Dialogue,,0,0,0,,Ayumi{\rHonorifics - Dialogue}-chan{\r}!
+Dialogue: 0,0:09:53.24,0:09:56.16,Dialogue,,0,0,0,,Geez, I guess we gotta... Ayumi{\rHonorifics - Dialogue}-chan{\r}!
+Dialogue: 0,0:09:56.57,0:09:59.16,Dialogue,,0,0,0,,Ayumi! Ayumi{\rHonorifics - Dialogue}-chan{\r}!
+Dialogue: 0,0:09:59.95,0:10:02.66,Dialogue,,0,0,0,,She was with us until around here, right?
+Dialogue: 0,0:10:03.25,0:10:06.46,Dialogue,,0,0,0,,I wonder if she just got hungry and went back alone...
+Dialogue: 0,0:10:06.46,0:10:09.04,Dialogue,,0,0,0,,Geez, she's not you, Genta{\rHonorifics - Dialogue}-kun{\r}!
+Dialogue: 0,0:10:09.05,0:10:10.09,Dialogue,,0,0,0,,You think so?
+Dialogue: 0,0:10:10.67,0:10:11.59,Dialogue,,0,0,0,,Over there...
+Dialogue: 0,0:10:12.38,0:10:13.13,Dialogue,,0,0,0,,Is she there?
+Dialogue: 0,0:10:18.97,0:10:20.89,Dialogue,,0,0,0,,It's Ayumi{\rHonorifics - Dialogue}-chan{\r}'s scarf!
+Dialogue: 0,0:10:20.89,0:10:21.72,Dialogue,,0,0,0,,There's no doubt about it!
+Dialogue: 0,0:10:36.45,0:10:37.57,Dialogue,,0,0,0,,What's your name?
+Dialogue: 0,0:10:37.57,0:10:38.28,Dialogue,,0,0,0,,Who are you?
+Dialogue: 0,0:10:39.49,0:10:41.54,Dialogue,,0,0,0,,Wait, don't leave me behind...
+Dialogue: 0,0:10:42.79,0:10:43.91,Dialogue,,0,0,0,,Wait!
+Dialogue: 0,0:10:45.41,0:10:46.29,Dialogue,,0,0,0,,Ayumi{\rHonorifics - Dialogue}-chan{\r}?
+Dialogue: 0,0:10:46.83,0:10:49.42,Dialogue,,0,0,0,,Sorry, even though we were with her...
+Dialogue: 0,0:10:49.42,0:10:53.05,Dialogue,,0,0,0,,Anyway, we came back because we thought it'd be better if we got a large group to search for her...
+Dialogue: 0,0:10:54.05,0:10:54.59,Dialogue,,0,0,0,,I understand.
+Dialogue: 0,0:10:54.59,0:10:56.88,Dialogue,,0,0,0,,Let's all split up and search for her!
+Dialogue: 0,0:10:57.72,0:10:58.64,Dialogue,,0,0,0,,Dad!
+Dialogue: 0,0:11:03.56,0:11:05.85,Dialogue,,0,0,0,,Geez... Come on, Dad...
+Dialogue: 0,0:11:08.60,0:11:11.52,Dialogue,,0,0,0,,Excuse my husband for not being able to stop when he's had enough alcohol...
+Dialogue: 0,0:11:12.23,0:11:15.03,Dialogue,,0,0,0,,I'll let the people of the village know, and have them help search!
+Dialogue: 0,0:11:15.03,0:11:17.82,Dialogue,,0,0,0,,Sorry for the trouble, thank you!
+Dialogue: 0,0:11:17.82,0:11:18.95,Dialogue,,0,0,0,,I'll help as well.
+Dialogue: 0,0:11:21.08,0:11:22.78,Dialogue,,0,0,0,,What's wrong?
+Dialogue: 0,0:11:22.79,0:11:23.91,Dialogue,,0,0,0,,Something happen?
+Dialogue: 0,0:11:24.33,0:11:25.70,Dialogue,,0,0,0,,I can help, you know.
+Dialogue: 0,0:11:25.71,0:11:27.29,Dialogue,,0,0,0,,No thanks, it's fine!
+Dialogue: 0,0:11:28.21,0:11:29.67,Dialogue,,0,0,0,,I don't stink, you know!
+Dialogue: 0,0:11:34.30,0:11:37.51,Dialogue,,0,0,0,,Ayumi{\rHonorifics - Dialogue}-chan{\r}!
+Dialogue: 0,0:11:37.51,0:11:38.51,Dialogue,,0,0,0,,Ayumi!
+Dialogue: 0,0:11:48.19,0:11:49.64,Dialogue,,0,0,0,,Found her!
+Dialogue: 0,0:11:50.02,0:11:52.56,Dialogue,,0,0,0,,At the roots of the Japanese cedar tree at the Water God shrine!
+Dialogue: 0,0:11:57.70,0:11:58.19,Dialogue,,0,0,0,,Ayumi{\rHonorifics - Dialogue}-chan{\r}!
+Dialogue: 0,0:11:59.66,0:12:01.07,Dialogue,,0,0,0,,Hang in there, Ayumi{\rHonorifics - Dialogue}-chan{\r}!
+Dialogue: 0,0:12:01.91,0:12:02.45,Dialogue,,0,0,0,,Ayumi{\rHonorifics - Dialogue}-chan{\r}!
+Dialogue: 0,0:12:22.89,0:12:25.06,Dialogue,,0,0,0,,Huh, Conan{\rHonorifics - Dialogue}-kun{\r}...
+Dialogue: 0,0:12:25.47,0:12:26.47,Dialogue,,0,0,0,,Ayumi!
+Dialogue: 0,0:12:26.47,0:12:27.27,Dialogue,,0,0,0,,Are you all right?
+Dialogue: 0,0:12:28.43,0:12:30.48,Dialogue,,0,0,0,,Huh, everyone...
+Dialogue: 0,0:12:30.52,0:12:32.31,Dialogue,,0,0,0,,Does it hurt anywhere?
+Dialogue: 0,0:12:32.90,0:12:34.73,Dialogue,,0,0,0,,It doesn't look like you're injured, but...
+Dialogue: 0,0:12:35.48,0:12:37.36,Dialogue,,0,0,0,,I'm completely all right...
+Dialogue: 0,0:12:37.99,0:12:39.28,Dialogue,,0,0,0,,Can you talk for a bit?
+Dialogue: 0,0:12:41.16,0:12:43.45,Dialogue,,0,0,0,,Just what happened?
+Dialogue: 0,0:12:43.53,0:12:44.99,Dialogue,,0,0,0,,Well...
+Dialogue: 0,0:12:45.87,0:12:47.79,Dialogue,,0,0,0,,You met a girl?
+Dialogue: 0,0:12:47.79,0:12:48.50,Dialogue,,0,0,0,,Yeah...
+Dialogue: 0,0:12:49.04,0:12:52.12,Dialogue,,0,0,0,,About ten years old, with bobbed hair...
+Dialogue: 0,0:12:52.12,0:12:53.42,Dialogue,,0,0,0,,And a red skirt.
+Dialogue: 0,0:12:54.29,0:12:54.92,Dialogue,,0,0,0,,That's ridiculous.
+Dialogue: 0,0:12:59.34,0:13:02.30,Dialogue,,0,0,0,,That can't be...
+Dialogue: 0,0:13:02.80,0:13:03.80,Dialogue,,0,0,0,,Nagakura{\rHonorifics - Dialogue}-san{\r}...
+Dialogue: 0,0:13:04.55,0:13:06.55,Dialogue,,0,0,0,,She must have come to visit with Eiji...
+Dialogue: 0,0:13:06.56,0:13:07.51,Dialogue,,0,0,0,,Mami{\rHonorifics - Dialogue}-chan{\r}, that is.
+Dialogue: 0,0:13:08.02,0:13:09.10,Dialogue,,0,0,0,,Mami{\rHonorifics - Dialogue}-chan{\r}?
+Dialogue: 0,0:13:09.43,0:13:10.81,Dialogue,,0,0,0,,Is that child called Mami{\rHonorifics - Dialogue}-chan{\r}?
+Dialogue: 0,0:13:11.35,0:13:12.39,Dialogue,,0,0,0,,That's right.
+Dialogue: 0,0:13:12.40,0:13:15.65,Dialogue,,0,0,0,,Mami{\rHonorifics - Dialogue}-chan{\r} was a childhood friend of the late Eiji...
+Dialogue: 0,0:13:16.36,0:13:20.15,Dialogue,,0,0,0,,They were only a year apart, and very close...
+Dialogue: 0,0:13:28.08,0:13:29.16,Dialogue,,0,0,0,,IM Dt00
+Dialogue: 0,0:13:30.20,0:13:33.16,Dialogue,,0,0,0,,She believed in Eiji's innocence, and came to visit!
+Dialogue: 0,0:13:33.42,0:13:34.25,Dialogue,,0,0,0,,Mami{\rHonorifics - Dialogue}-chan{\r} did...
+Dialogue: 0,0:13:34.96,0:13:35.58,Dialogue,,0,0,0,,Innocence?
+Dialogue: 0,0:13:36.29,0:13:37.17,Dialogue,,0,0,0,,Geta hold of yourself!
+Dialogue: 0,0:13:38.34,0:13:41.88,Dialogue,,0,0,0,,Little Miss, you were mistaken.
+Dialogue: 0,0:13:41.88,0:13:43.05,Dialogue,,0,0,0,,That is definite!
+Dialogue: 0,0:13:45.05,0:13:46.80,Dialogue,,0,0,0,,Why is that?
+Dialogue: 0,0:13:46.80,0:13:48.26,Dialogue,,0,0,0,,I'm sure I saw her!
+Dialogue: 0,0:13:48.89,0:13:50.14,Dialogue,,0,0,0,,Do you not trust her, Mister?
+Dialogue: 0,0:13:50.81,0:13:53.60,Dialogue,,0,0,0,,Ayumi{\rHonorifics - Dialogue}-chan{\r} isn't a child that tells lies!
+Dialogue: 0,0:13:53.98,0:13:55.60,Dialogue,,0,0,0,,Everybody, calm down...
+Dialogue: 0,0:13:56.52,0:13:58.36,Dialogue,,0,0,0,,Why are you so convinced that she's mistaken...
+Dialogue: 0,0:13:59.40,0:13:59.94,Dialogue,,0,0,0,,Mister?
+Dialogue: 0,0:14:00.61,0:14:01.74,Dialogue,,0,0,0,,It's obvious.
+Dialogue: 0,0:14:01.74,0:14:03.11,Dialogue,,0,0,0,,Both of them...
+Dialogue: 0,0:14:03.11,0:14:04.40,Dialogue,,0,0,0,,Eiji last month...
+Dialogue: 0,0:14:04.41,0:14:06.66,Dialogue,,0,0,0,,And that child has been dead for ten years already!
+Dialogue: 0,0:14:09.54,0:14:11.29,Dialogue,,0,0,0,,She passed away ten years ago?
+Dialogue: 0,0:14:11.58,0:14:12.79,Dialogue,,0,0,0,,It's as we thought...
+Dialogue: 0,0:14:12.79,0:14:13.79,Dialogue,,0,0,0,,Ghost!
+Dialogue: 0,0:14:15.79,0:14:16.42,Dialogue,,0,0,0,,Geez...
+Dialogue: 0,0:14:17.29,0:14:20.80,Dialogue,,0,0,0,,Sorry, I just thought I'd join in on the story...
+Dialogue: 0,0:14:21.55,0:14:22.55,Dialogue,,0,0,0,,As we thought...
+Dialogue: 0,0:14:23.55,0:14:25.26,Dialogue,,0,0,0,,Scary...
+Dialogue: 0,0:14:25.84,0:14:26.43,Dialogue,,0,0,0,,It's all right, Keiko.
+Dialogue: 0,0:14:28.89,0:14:30.89,Dialogue,,0,0,0,,What's all this uproar about?
+Dialogue: 0,0:14:30.89,0:14:33.43,Dialogue,,0,0,0,,Geez, Dad, what are you doing at a time like this?
+Dialogue: 0,0:14:35.10,0:14:36.27,Dialogue,,0,0,0,,You all...
+Dialogue: 0,0:14:36.27,0:14:38.02,Dialogue,,0,0,0,,Did someone put you up to this?
+Dialogue: 0,0:14:38.02,0:14:38.81,Dialogue,,0,0,0,,Dear!
+Dialogue: 0,0:14:39.86,0:14:40.98,Dialogue,,0,0,0,,I see!
+Dialogue: 0,0:14:40.98,0:14:41.82,Dialogue,,0,0,0,,Must have been that lot...
+Dialogue: 0,0:14:42.32,0:14:43.53,Dialogue,,0,0,0,,"That lot"?
+Dialogue: 0,0:14:43.94,0:14:45.82,Dialogue,,0,0,0,,I'm not being taken in by that!
+Dialogue: 0,0:14:45.82,0:14:47.86,Dialogue,,0,0,0,,I won't do as you wish!
+Dialogue: 0,0:14:47.87,0:14:48.62,Dialogue,,0,0,0,,Never!
+Dialogue: 0,0:14:50.37,0:14:51.70,Dialogue,,0,0,0,,Moreover, Eiji...
+Dialogue: 0,0:14:51.70,0:14:53.12,Dialogue,,0,0,0,,That person is no son of mine!
+Dialogue: 0,0:14:53.62,0:14:54.12,Dialogue,,0,0,0,,I'll have you remember that!
+Dialogue: 0,0:14:55.41,0:14:57.75,Dialogue,,0,0,0,,You... Eiji would be so sad—
+Dialogue: 0,0:14:57.96,0:14:59.88,Dialogue,,0,0,0,,You, shut up!
+Dialogue: 0,0:14:59.88,0:15:02.09,Dialogue,,0,0,0,,Please calm down, sir...
+Dialogue: 0,0:15:02.09,0:15:03.17,Dialogue,,0,0,0,,You can just let it go...
+Dialogue: 0,0:15:03.88,0:15:08.55,Dialogue,,0,0,0,,That's right, don't be so angry—let's all just have a drink...
+Dialogue: 0,0:15:08.93,0:15:10.43,Dialogue,,0,0,0,,Just leave me alone!
+Dialogue: 0,0:15:20.02,0:15:22.32,Dialogue,,0,0,0,,It certainly seems that there's something here, in this village.
+Dialogue: 0,0:15:22.32,0:15:24.07,Dialogue,,0,0,0,,And not just a ghost.
+Dialogue: 0,0:15:24.11,0:15:24.61,Dialogue,,0,0,0,,Yeah.
+Dialogue: 0,0:15:25.03,0:15:27.03,Dialogue,,0,0,0,,It seems like it's worth investigating, doesn't it?
+Dialogue: 0,0:15:27.53,0:15:28.03,Dialogue,,0,0,0,,Right?
+Dialogue: 0,0:15:29.45,0:15:31.91,Dialogue,,0,0,0,,You were a ghost?
+Dialogue: 0,0:15:31.91,0:15:33.03,Dialogue,,0,0,0,,Mami{\rHonorifics - Dialogue}-chan{\r}...
+Dialogue: 0,0:15:53.43,0:15:55.52,Dialogue,,0,0,0,,Otozawa{\rHonorifics - Dialogue}-san{\r}, is it...
+Dialogue: 0,0:15:56.48,0:16:00.35,Dialogue,,0,0,0,,This is the house where Mami{\rHonorifics - Dialogue}-chan{\r}'s family lived until ten years ago.
+Dialogue: 0,0:16:00.35,0:16:02.44,Dialogue,,0,0,0,,I hear she was an only child.
+Dialogue: 0,0:16:03.15,0:16:04.65,Dialogue,,0,0,0,,Hey, Ayumi{\rHonorifics - Dialogue}-chan{\r}!
+Dialogue: 0,0:16:13.87,0:16:16.83,Dialogue,,0,0,0,,It seems that Mami{\rHonorifics - Dialogue}-chan{\r} died of illness...
+Dialogue: 0,0:16:17.62,0:16:22.13,Dialogue,,0,0,0,,And right after that, they say her mom and dad moved somewhere.
+Dialogue: 0,0:16:22.88,0:16:25.00,Dialogue,,0,0,0,,There aren't any photographs or anything left here...
+Dialogue: 0,0:16:25.42,0:16:27.26,Dialogue,,0,0,0,,I guess since it was ten years ago, there wouldn't be.
+Dialogue: 0,0:16:27.92,0:16:32.18,Dialogue,,0,0,0,,If there were some photographs, you could determine whether what Yoshida{\rHonorifics - Dialogue}-san{\r} saw was real or not, right?
+Dialogue: 0,0:16:32.85,0:16:34.85,Dialogue,,0,0,0,,That's exactly it!
+Dialogue: 0,0:16:34.85,0:16:36.43,Dialogue,,0,0,0,,As expected of Haibara{\rHonorifics - Dialogue}-san{\r}!
+Dialogue: 0,0:16:37.35,0:16:38.77,Dialogue,,0,0,0,,"Real or not"?
+Dialogue: 0,0:16:38.77,0:16:39.93,Dialogue,,0,0,0,,Are you talking about the ghost?
+Dialogue: 0,0:16:40.73,0:16:43.73,Dialogue,,0,0,0,,Hey, hey, don't tell me even you're...
+Dialogue: 0,0:16:43.73,0:16:45.40,Dialogue,,0,0,0,,You don't believe it, Conan{\rHonorifics - Dialogue}-kun{\r}?
+Dialogue: 0,0:16:46.94,0:16:48.28,Dialogue,,0,0,0,,Look here!
+Dialogue: 0,0:16:48.28,0:16:51.82,Dialogue,,0,0,0,,As a detective, I use logic and reasoning to determine things!
+Dialogue: 0,0:16:51.82,0:16:53.28,Dialogue,,0,0,0,,As far as ghosts...
+Dialogue: 0,0:16:53.28,0:16:54.74,Dialogue,,0,0,0,,I never said anything like that!
+Dialogue: 0,0:16:56.24,0:16:58.83,Dialogue,,0,0,0,,You don't believe Yoshida{\rHonorifics - Dialogue}-san{\r}...
+Dialogue: 0,0:16:58.83,0:17:00.66,Dialogue,,0,0,0,,That's what we're hearing from the two of you.
+Dialogue: 0,0:17:01.50,0:17:02.42,Dialogue,,0,0,0,,No, I...
+Dialogue: 0,0:17:07.80,0:17:08.34,Dialogue,,0,0,0,,Ayumi{\rHonorifics - Dialogue}-chan{\r}!
+Dialogue: 0,0:17:09.05,0:17:10.38,Dialogue,,0,0,0,,I'll remember this, Conan!
+Dialogue: 0,0:17:11.84,0:17:12.93,Dialogue,,0,0,0,,Geez...
+Dialogue: 0,0:17:14.09,0:17:15.43,Dialogue,,0,0,0,,What's left is the person named "Eiji".
+Dialogue: 0,0:17:16.56,0:17:17.51,Dialogue,,0,0,0,,Yeah.
+Dialogue: 0,0:17:28.98,0:17:30.53,Dialogue,,0,0,0,,He committed suicide?
+Dialogue: 0,0:17:30.53,0:17:31.65,Dialogue,,0,0,0,,Nagakura Eiji?
+Dialogue: 0,0:17:32.32,0:17:34.03,Dialogue,,0,0,0,,Yeah, no doubt about it.
+Dialogue: 0,0:17:34.28,0:17:35.62,Dialogue,,0,0,0,,Like you asked...
+Dialogue: 0,0:17:35.62,0:17:40.20,Dialogue,,0,0,0,,I researched whether or not the name "Nagakura Eiji" appeared in the newspapers with connection to any crime...
+Dialogue: 0,0:17:35.62,0:17:40.20,Dialogue,,0,0,0,,Jewel Thief Suicide —\hNagakura Eiji (20)
+Dialogue: 0,0:17:40.20,0:17:41.04,Dialogue,,0,0,0,,And there it was.
+Dialogue: 0,0:17:41.41,0:17:45.12,Dialogue,,0,0,0,,Homicide in Shoujin-Town\NDue to death of suspect, half year case concluded
+Dialogue: 0,0:17:41.41,0:17:43.00,Dialogue,,0,0,0,,Let me see...
+Dialogue: 0,0:17:43.00,0:17:45.12,Dialogue,,0,0,0,,The incident occurred exactly half a year ago...
+Dialogue: 0,0:17:45.92,0:17:51.05,Dialogue,,0,0,0,,The town of Shoujin is right next to the Onizawa area, where you all are now.
+Dialogue: 0,0:17:51.88,0:17:54.88,Dialogue,,0,0,0,,He probably felt he'd be found out by the police from the fingerprints left at the scene...
+Dialogue: 0,0:17:54.89,0:17:56.80,Dialogue,,0,0,0,,And had no other means of escape.
+Dialogue: 0,0:17:58.31,0:18:02.14,Dialogue,,0,0,0,,Nagakura Eiji was a jewel thief who committed suicide.
+Dialogue: 0,0:18:02.14,0:18:05.19,Dialogue,,0,0,0,,However, his mother believes in her son's innocence.
+Dialogue: 0,0:18:06.23,0:18:09.52,Dialogue,,0,0,0,,We can understand why the people of the village weren't forthcoming about it.
+Dialogue: 0,0:18:10.53,0:18:11.36,Dialogue,,0,0,0,,Conan{\rHonorifics - Dialogue}-kun{\r}...
+Dialogue: 0,0:18:13.15,0:18:15.24,Dialogue,,0,0,0,,I'm not lying, so...
+Dialogue: 0,0:18:16.12,0:18:18.20,Dialogue,,0,0,0,,Since I really saw her...
+Dialogue: 0,0:18:20.54,0:18:23.37,Dialogue,,0,0,0,,And I really want you, Conan{\rHonorifics - Dialogue}-kun{\r},to believe me...
+Dialogue: 0,0:18:25.71,0:18:26.37,Dialogue,,0,0,0,,That is...
+Dialogue: 0,0:18:27.17,0:18:28.50,Dialogue,,0,0,0,,You want us to investigate it, right?
+Dialogue: 0,0:18:28.88,0:18:29.88,Dialogue,,0,0,0,,Yeah!
+Dialogue: 0,0:18:30.38,0:18:31.59,Dialogue,,0,0,0,,Let's do it then!
+Dialogue: 0,0:18:31.71,0:18:33.21,Dialogue,,0,0,0,,If doing so will satisfy you.
+Dialogue: 0,0:18:34.88,0:18:36.55,Dialogue,,0,0,0,,Haibara, you...
+Dialogue: 0,0:18:37.55,0:18:38.22,Dialogue,,0,0,0,,Edogawa{\rHonorifics - Dialogue}-kun{\r}.
+Dialogue: 0,0:18:39.81,0:18:40.51,Dialogue,,0,0,0,,Yes, ma'am.
+Dialogue: 0,0:18:41.77,0:18:44.68,Dialogue,,0,0,0,,Even so, this is really a creepy place, isn't it?
+Dialogue: 0,0:18:44.69,0:18:50.27,Dialogue,,0,0,0,,I met Mami{\rHonorifics - Dialogue}-chan{\r} at the place I pointed out earlier, and as if she were inviting me, we came to this Water God shrine.
+Dialogue: 0,0:18:54.11,0:18:55.95,Dialogue,,0,0,0,,0\NAnd then, what happened?
+Dialogue: 0,0:18:55.95,0:18:56.99,Dialogue,,0,0,0,,Ayumi?
+Dialogue: 0,0:18:57.95,0:18:59.45,Dialogue,,0,0,0,,She disappeared.
+Dialogue: 0,0:18:59.45,0:19:00.49,Dialogue,,0,0,0,,Disappeared?
+Dialogue: 0,0:19:01.79,0:19:03.49,Dialogue,,0,0,0,,Just like that, she disappeared.
+Dialogue: 0,0:19:03.91,0:19:07.12,Dialogue,,0,0,0,,After that, I never met her again.
+Dialogue: 0,0:19:07.12,0:19:10.50,Dialogue,,0,0,0,,Sometime while I was calling for Mami{\rHonorifics - Dialogue}-chan{\r}...
+Dialogue: 0,0:19:11.05,0:19:13.46,Dialogue,,0,0,0,,I guess I got tired and fell asleep at the root of this Japanese cedar tree.
+Dialogue: 0,0:19:15.59,0:19:18.13,Dialogue,,0,0,0,,Where did she disappear, exactly?
+Dialogue: 0,0:19:19.97,0:19:21.35,Dialogue,,0,0,0,,The fog was thick...
+Dialogue: 0,0:19:22.39,0:19:25.06,Dialogue,,0,0,0,,It was around the side of that Water God shrine.
+Dialogue: 0,0:19:35.32,0:19:36.86,Dialogue,,0,0,0,,It's still new, isn't it?
+Dialogue: 0,0:19:37.57,0:19:40.11,Dialogue,,0,0,0,,If I remember correctly, Tamai is one of the minshuku on the main street.
+Dialogue: 0,0:19:41.74,0:19:42.95,Dialogue,,0,0,0,,So that's what it was!
+Dialogue: 0,0:19:43.66,0:19:46.45,Dialogue,,0,0,0,,This yukata rode, fluttering, on the wind...
+Dialogue: 0,0:19:46.54,0:19:48.21,Dialogue,,0,0,0,,And that's what Ayumi mistook for...
+Dialogue: 0,0:19:48.79,0:19:51.25,Dialogue,,0,0,0,,What are you saying, Genta{\rHonorifics - Dialogue}-kun{\r}?
+Dialogue: 0,0:19:51.25,0:19:54.50,Dialogue,,0,0,0,,There's no way laundry could have flown all the way here!
+Dialogue: 0,0:19:55.09,0:19:56.71,Dialogue,,0,0,0,,I didn't mistake it!
+Dialogue: 0,0:19:57.30,0:19:59.47,Dialogue,,0,0,0,,I definitely saw Mami{\rHonorifics - Dialogue}-chan{\r}!
+Dialogue: 0,0:20:00.26,0:20:02.85,Dialogue,,0,0,0,,I believe you, Ayumi{\rHonorifics - Dialogue}-chan{\r}.
+Dialogue: 0,0:20:02.85,0:20:04.47,Dialogue,,0,0,0,,It was just a coincidence!
+Dialogue: 0,0:20:04.47,0:20:05.97,Dialogue,,0,0,0,,A coincidence!
+Dialogue: 0,0:20:06.52,0:20:09.10,Dialogue,,0,0,0,,Hey, hey—it was you guys in the first place that...
+Dialogue: 0,0:20:10.94,0:20:11.98,Dialogue,,0,0,0,,That person, from yesterday...
+Dialogue: 0,0:20:13.07,0:20:14.11,Dialogue,,0,0,0,,Just what is he doing?
+Dialogue: 0,0:20:21.49,0:20:24.28,Dialogue,,0,0,0,,Beware of fire!
+Dialogue: 0,0:20:25.91,0:20:28.25,Dialogue,,0,0,0,,Beware of fire!
+Dialogue: 0,0:20:35.00,0:20:36.09,Dialogue,,0,0,0,,A person's footsteps...
+Dialogue: 0,0:20:36.84,0:20:38.30,Dialogue,,0,0,0,,It came!
+Dialogue: 0,0:20:38.67,0:20:40.17,Dialogue,,0,0,0,,They really do exist...
+Dialogue: 0,0:20:40.38,0:20:44.68,Dialogue Top,,0,0,0,,Ghosts lacking feet is a common Asian belief.
+Dialogue: 0,0:20:40.38,0:20:43.01,Dialogue,,0,0,0,,But ghosts don't have feet, Genta{\rHonorifics - Dialogue}-kun{\r}!
+Dialogue: 0,0:20:43.43,0:20:45.26,Dialogue,,0,0,0,,Oh, that's right.
+Dialogue: 0,0:20:45.26,0:20:45.76,Dialogue,,0,0,0,,Then...
+Dialogue: 0,0:20:46.60,0:20:48.06,Dialogue,,0,0,0,,You guys, stay here.
+Dialogue: 0,0:20:51.65,0:20:53.35,Dialogue,,0,0,0,,We're coming too!
+Dialogue: 0,0:20:53.36,0:20:54.90,Dialogue,,0,0,0,,Then be quiet!
+Dialogue: 0,0:20:57.73,0:20:58.53,Dialogue,,0,0,0,,You...
+Dialogue: 0,0:21:00.32,0:21:01.40,Dialogue,,0,0,0,,There's nothing out of the ordinary here.
+Dialogue: 0,0:21:02.49,0:21:03.53,Dialogue,,0,0,0,,It must be the topmost floor.
+Dialogue: 0,0:21:21.63,0:21:22.47,Dialogue,,0,0,0,,Bastard!
+Dialogue: 0,0:21:23.26,0:21:24.84,Dialogue,,0,0,0,,What were you\Ndoing?
+Dialogue: 0,0:21:32.64,0:21:33.31,Dialogue,,0,0,0,,Nagakura{\rHonorifics - Dialogue}-san{\r}!
+Dialogue: 0,0:21:35.94,0:21:37.32,Dialogue,,0,0,0,,Call an ambulance!
+Dialogue: 0,0:21:37.32,0:21:38.32,Dialogue,,0,0,0,,The police too!
+Dialogue: 0,0:21:38.32,0:21:38.98,Dialogue,,0,0,0,,Got it!
+Dialogue: 0,0:21:38.98,0:21:39.53,Dialogue,,0,0,0,,We understand!
+Dialogue: 0,0:21:46.33,0:21:47.33,Dialogue,,0,0,0,,Ran{\rHonorifics - Dialogue}-neechan{\r}!
+Dialogue: 0,0:21:48.79,0:21:49.45,Dialogue,,0,0,0,,Over there...
+Dialogue: 0,0:21:50.29,0:21:51.41,Dialogue,,0,0,0,,Mami{\rHonorifics - Dialogue}-chan{\r}...
+Dialogue: 0,0:21:51.41,0:21:53.00,Dialogue,,0,0,0,,You really existed...
+Dialogue: 0,0:21:53.00,0:21:54.04,Dialogue,,0,0,0,,Where are you going!?
+Dialogue: 0,0:22:15.23,0:22:15.81,Dialogue,,0,0,0,,Gould it be...
+Dialogue: 0,0:22:16.56,0:22:18.73,Dialogue,,0,0,0,,The ghost attacked Nagakura-san>?

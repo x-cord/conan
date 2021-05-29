@@ -1,0 +1,427 @@
+[Script Info]
+Title: Detective Conan - 0351
+TL Source: DCTP
+ScriptType: v4.00+
+WrapStyle: 3
+PlayResX: 1440
+PlayResY: 1080
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Dialogue,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00401311,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Dialogue Top,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00401311,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,8,30,30,55,1
+Style: Signs,FrancophilSans,74,&H14FFFFFF,&H00FFFFFF,&H46101010,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,8,30,30,55,1
+Style: Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,0,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Radio,FrancophilSans,74,&H00BEE1FF,&H00FFFFFF,&H000B2A42,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Narration,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00BF6F00,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Narration Off,FrancophilSans,74,&H6E8C6F00,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,0,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Flashback,FrancophilSans,74,&H00CDFAFF,&H00FFFFFF,&H00373737,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Flashback Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00CCFFFF,&HC0313134,-1,0,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Honorifics - Dialogue,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00401311,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Signs,FrancophilSans,74,&H14FFFFFF,&H00FFFFFF,&H46101010,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,-1,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Honorifics - Radio,FrancophilSans,74,&H00BEE1FF,&H00FFFFFF,&H000B2A42,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Narration,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00BF6F00,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Narration Off,FrancophilSans,74,&H6E8C6F00,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,-1,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Honorifics - Flashback,FrancophilSans,74,&H00CDFAFF,&H00FFFFFF,&H00373737,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Flashback Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00CCFFFF,&HC0313134,-1,-1,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Masks,FrancophilSans,74,&H00000000,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,2,0,0,0,1
+Style: Title,Conan Episode Title,74,&H00E1E4E3,&H000000FF,&HC8DBDAE1,&HC0000000,-1,0,0,0,100,100,0,0,1,1,0,5,0,0,0,1
+Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-1,0,0,0,100,100,0,0,1,0,0,2,0,0,65,1
+Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
+Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
+Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:01:43.28,0:01:48.99,Dialogue,,0,0,0,,THE FORGOTTEN CELL PHONE\N(PART TWO)
+Dialogue: 0,0:01:51.41,0:01:52.54,Dialogue,,0,0,0,,Thank you for coming!
+Dialogue: 0,0:01:54.79,0:01:56.00,Dialogue,,0,0,0,,Is that so?
+Dialogue: 0,0:01:56.92,0:01:57.96,Dialogue,,0,0,0,,I understand.
+Dialogue: 0,0:01:57.96,0:01:59.84,Dialogue,,0,0,0,,Yes, thank you very much.
+Dialogue: 0,0:02:00.34,0:02:00.84,Dialogue,,0,0,0,,Well?
+Dialogue: 0,0:02:01.63,0:02:05.01,Dialogue,,0,0,0,,From the day before yesterday to yesterday, there were three calls in total.
+Dialogue: 0,0:02:05.18,0:02:06.84,Dialogue,,0,0,0,,Three calls?
+Dialogue: 0,0:02:07.68,0:02:08.72,Dialogue,,0,0,0,,What did they say?
+Dialogue: 0,0:02:09.68,0:02:12.81,Dialogue,,0,0,0,,The first person was on his way to a job interview, but...
+Dialogue: 0,0:02:13.64,0:02:16.73,Dialogue,,0,0,0,,He left the paper with the address at home.
+Dialogue: 0,0:02:16.73,0:02:20.48,Dialogue,,0,0,0,,He wanted to get the address by any means necessary...
+Dialogue: 0,0:02:20.98,0:02:23.69,Dialogue,,0,0,0,,Since he probably wouldn't get the job if the interviewer found this out.
+Dialogue: 0,0:02:24.15,0:02:28.20,Dialogue,,0,0,0,,The second person got a phone call from their daughter, who had run away from home.
+Dialogue: 0,0:02:28.99,0:02:33.04,Dialogue,,0,0,0,,They wanted to know where the call had been made from.
+Dialogue: 0,0:02:34.08,0:02:38.54,Dialogue,,0,0,0,,The third person said he met a friendly person while traveling...
+Dialogue: 0,0:02:38.54,0:02:41.96,Dialogue,,0,0,0,,Who accidentally left his cell phone in the caller's bag.
+Dialogue: 0,0:02:41.96,0:02:48.38,Dialogue,,0,0,0,,He wanted to know-this person's name and address so he could return it to him.
+Dialogue: 0,0:02:49.22,0:02:50.47,Dialogue,,0,0,0,,That's the one!
+Dialogue: 0,0:02:50.51,0:02:52.64,Dialogue,,0,0,0,,That's the only one where a cell phone is mentioned.
+Dialogue: 0,0:02:53.10,0:02:54.39,Dialogue,,0,0,0,,I agree.
+Dialogue: 0,0:02:54.39,0:02:58.35,Dialogue,,0,0,0,,And also, that last person is the only one who also wanted to get the person's home phone number.
+Dialogue: 0,0:02:58.77,0:03:00.56,Dialogue,,0,0,0,,And, what was the number?
+Dialogue: 0,0:03:01.06,0:03:04.90,Dialogue,,0,0,0,,They refused to help him, so there wasn't any record.
+Dialogue: 0,0:03:06.45,0:03:09.32,Dialogue,,0,0,0,,Furthermore, none of those three made the calls from their houses.
+Dialogue: 0,0:03:09.32,0:03:11.74,Dialogue,,0,0,0,,They made them outside, so we have no way to tell who or where they are.
+Dialogue: 0,0:03:12.83,0:03:13.53,Dialogue,,0,0,0,,Outside?
+Dialogue: 0,0:03:15.04,0:03:18.08,Dialogue,,0,0,0,,One person called from a train platform at Beika Station in the evening two nights ago.
+Dialogue: 0,0:03:18.75,0:03:21.92,Dialogue,,0,0,0,,One person called from a sports shop called "Apollo yesterday at noon.
+Dialogue: 0,0:03:21.92,0:03:24.96,Dialogue,,0,0,0,,The other person called from a restaurant named "Colombo" last evening.
+Dialogue: 0,0:03:25.01,0:03:34.31,Dialogue,,0,0,0,,But, they forgot which of these was which, so we don't know when or where the one we need was.
+Dialogue: 0,0:03:36.31,0:03:36.93,Dialogue,,0,0,0,,That's right.
+Dialogue: 0,0:03:37.98,0:03:42.61,Dialogue,,0,0,0,,They also said the person who asked for the phone number suddenly hung up on them.
+Dialogue: 0,0:03:43.23,0:03:44.02,Dialogue,,0,0,0,,Suddenly?
+Dialogue: 0,0:03:44.52,0:03:48.03,Dialogue,,0,0,0,,Yeah, there was some noise over the phone at that time.
+Dialogue: 0,0:03:48.61,0:03:50.11,Dialogue,,0,0,0,,A noise that almost blocked out the conversation.
+Dialogue: 0,0:03:50.61,0:03:51.61,Dialogue,,0,0,0,,A really loud noise.
+Dialogue: 0,0:03:52.78,0:03:58.75,Dialogue,,0,0,0,,But it was only for a short moment so they couldn't really discern what kind of noise it was.
+Dialogue: 0,0:04:00.42,0:04:02.79,Dialogue,,0,0,0,,It looks like we have no choice but to call those places and ask...
+Dialogue: 0,0:04:03.38,0:04:06.46,Dialogue,,0,0,0,,We'll have to get in contact with the places those three people called from.
+Dialogue: 0,0:04:07.55,0:04:09.22,Dialogue,,0,0,0,,I passed the exams!
+Dialogue: 0,0:04:09.72,0:04:11.38,Dialogue,,0,0,0,,That's great!
+Dialogue: 0,0:04:11.68,0:04:12.84,Dialogue,,0,0,0,,It was all thanks to you.
+Dialogue: 0,0:04:12.84,0:04:14.55,Dialogue,,0,0,0,,Now we can all relax.
+Dialogue: 0,0:04:14.55,0:04:15.68,Dialogue,,0,0,0,,Here's your'change.
+Dialogue: 0,0:04:17.77,0:04:19.06,Dialogue,,0,0,0,,Here goes the first call.
+Dialogue: 0,0:04:23.73,0:04:26.11,Dialogue,,0,0,0,,The Touto Loop Line train will be arriving shortly.
+Dialogue: 0,0:04:26.11,0:04:27.48,Dialogue,,0,0,0,,The Touto Loop Line train will be arriving shortly.\NThe public phone on the platform?
+Dialogue: 0,0:04:27.48,0:04:28.23,Dialogue,,0,0,0,,The Touto Loop Line train will be arriving shortly.
+Dialogue: 0,0:04:28.24,0:04:30.44,Dialogue,,0,0,0,,The Touto Loop Line train will be arriving shortly.\NIf you want to ask about the night before yesterday...
+Dialogue: 0,0:04:30.90,0:04:33.57,Dialogue,,0,0,0,,There were many people using the phone.
+Dialogue: 0,0:04:34.62,0:04:37.08,Dialogue,,0,0,0,,I see, guess it can't be helped...
+Dialogue: 0,0:04:37.91,0:04:40.12,Dialogue,,0,0,0,,Hey, could it be that person?
+Dialogue: 0,0:04:41.16,0:04:45.13,Dialogue,,0,0,0,,The person who was hesitating about whether or not to make a phone call.
+Dialogue: 0,0:04:46.34,0:04:48.59,Dialogue,,0,0,0,,Now that you mention it, there was a person like that.
+Dialogue: 0,0:04:48.96,0:04:53.43,Dialogue,,0,0,0,,He was wearing a long coat and had a face like that of a dangerous person.
+Dialogue: 0,0:04:53.43,0:04:55.34,Dialogue,,0,0,0,,He's been coming to the station quite frequently lately.
+Dialogue: 0,0:04:56.51,0:05:00.27,Dialogue,,0,0,0,,When that person was on the phone, was there a loud noise nearby?
+Dialogue: 0,0:05:00.27,0:05:00.85,Dialogue,,0,0,0,,A loud noise?
+Dialogue: 0,0:05:01.31,0:05:01.98,Dialogue,,0,0,0,,Yeah.
+Dialogue: 0,0:05:02.35,0:05:04.10,Dialogue,,0,0,0,,That happens all the time!
+Dialogue: 0,0:05:05.65,0:05:07.73,Dialogue,,0,0,0,,This is a train station after all.
+Dialogue: 0,0:05:07.98,0:05:08.48,Dialogue,,0,0,0,,Listen...
+Dialogue: 0,0:05:08.90,0:05:12.53,Dialogue,,0,0,0,,The train headed toward Ken as will arrive at Platform Number.
+Dialogue: 0,0:05:12.53,0:05:13.28,Dialogue,,0,0,0,,Boarding passengers should stand behind the white line.
+Dialogue: 0,0:05:13.86,0:05:14.82,Dialogue,,0,0,0,,I see.
+Dialogue: 0,0:05:14.99,0:05:16.41,Dialogue,,0,0,0,,The announcements at the station.
+Dialogue: 0,0:05:17.58,0:05:18.62,Dialogue,,0,0,0,,Hello?
+Dialogue: 0,0:05:18.62,0:05:20.41,Dialogue,,0,0,0,,Seems like it's hard to communicate.
+Dialogue: 0,0:05:21.04,0:05:22.16,Dialogue,,0,0,0,,Hello?
+Dialogue: 0,0:05:23.75,0:05:24.79,Dialogue,,0,0,0,,So you heard that?
+Dialogue: 0,0:05:24.79,0:05:26.58,Dialogue,,0,0,0,,This is the loud noise.
+Dialogue: 0,0:05:27.59,0:05:28.96,Dialogue,,0,0,0,,We understand now.
+Dialogue: 0,0:05:29.59,0:05:33.09,Dialogue,,0,0,0,,Besides that, do you have any other clues about the dangerous man wearing a long coat?
+Dialogue: 0,0:05:34.72,0:05:37.26,Dialogue,,0,0,0,,That person will probably appear again tonight.
+Dialogue: 0,0:05:37.26,0:05:39.10,Dialogue,,0,0,0,,I've been seeing him at the station a lot lately.
+Dialogue: 0,0:05:40.31,0:05:43.27,Dialogue,,0,0,0,,Please give us a call if you see him.
+Dialogue: 0,0:05:43.27,0:05:44.73,Dialogue,,0,0,0,,Sure, I'll do that.
+Dialogue: 0,0:05:45.52,0:05:47.65,Dialogue,,0,0,0,,Thank you for your cooperation.
+Dialogue: 0,0:05:49.82,0:05:50.65,Dialogue,,0,0,0,,There was, there was.
+Dialogue: 0,0:05:52.32,0:05:56.49,Dialogue,,0,0,0,,A man with a crew-cut came here yesterday around noon asking to borrow the phone.
+Dialogue: 0,0:05:57.03,0:06:01.29,Dialogue,,0,0,0,,Apparently, his cell phone's battery died and he didn't have any change on him.
+Dialogue: 0,0:06:01.29,0:06:03.45,Dialogue,,0,0,0,,So he came here to borrow the phone.
+Dialogue: 0,0:06:04.12,0:06:05.87,Dialogue,,0,0,0,,What, a loud noise?
+Dialogue: 0,0:06:05.87,0:06:06.42,Dialogue,,0,0,0,,That's right.
+Dialogue: 0,0:06:06.88,0:06:09.54,Dialogue,,0,0,0,,A noise so loud that he was forced to hang up the phone.
+Dialogue: 0,0:06:09.54,0:06:11.13,Dialogue,,0,0,0,,Was there a noise like that?
+Dialogue: 0,0:06:11.13,0:06:14.59,Dialogue,,0,0,0,,Oh, that noise must be the nearby construction work.
+Dialogue: 0,0:06:15.05,0:06:17.89,Dialogue,,0,0,0,,Construction work started about a week ago in front of the bank across the street.
+Dialogue: 0,0:06:19.26,0:06:21.06,Dialogue,,0,0,0,,See, here's that noise again.
+Dialogue: 0,0:06:23.52,0:06:26.10,Dialogue,,0,0,0,,The noise is constantly off and on from noon onwards.
+Dialogue: 0,0:06:26.48,0:06:27.90,Dialogue,,0,0,0,,Construction noise, huh?
+Dialogue: 0,0:06:30.07,0:06:32.11,Dialogue,,0,0,0,,Yesterday evening...
+Dialogue: 0,0:06:33.28,0:06:35.61,Dialogue,,0,0,0,,That's probably one of our reg lar customers.
+Dialogue: 0,0:06:36.57,0:06:40.12,Dialogue,,0,0,0,,A male customer who's always wearing sunglasses and doesn't talk much.
+Dialogue: 0,0:06:40.58,0:06:44.75,Dialogue,,0,0,0,,He happened to forget his cell phone, and needed to use the pay phone in our restaurant.
+Dialogue: 0,0:06:45.00,0:06:48.08,Dialogue,,0,0,0,,I had to make change for him, so I remember it well.
+Dialogue: 0,0:06:49.38,0:06:50.58,Dialogue,,0,0,0,,A loud noise?
+Dialogue: 0,0:06:50.92,0:06:52.09,Dialogue,,0,0,0,,Yes.
+Dialogue: 0,0:06:52.09,0:06:55.80,Dialogue,,0,0,0,,Did you hear a noise that was so loud it could've prevented the conversation from continuing?
+Dialogue: 0,0:06:56.17,0:07:00.47,Dialogue,,0,0,0,,Not sure, this street is famous for its serenity.
+Dialogue: 0,0:07:00.47,0:07:02.56,Dialogue,,0,0,0,,Good afternoon, residents.
+Dialogue: 0,0:07:03.97,0:07:10.06,Dialogue,,0,0,0,,I am Baishou Shuhei please give me your support and you vote.
+Dialogue: 0,0:07:10.11,0:07:12.36,Dialogue,,0,0,0,,Together, let's transform this city into a quiet neighborhood.
+Dialogue: 0,0:07:13.02,0:07:14.36,Dialogue,,0,0,0,,Did you hear that?
+Dialogue: 0,0:07:14.36,0:07:16.90,Dialogue,,0,0,0,,That loud noise persists throughout the day.
+Dialogue: 0,0:07:17.32,0:07:20.16,Dialogue,,0,0,0,,It seems we're right on that campaign car's course.
+Dialogue: 0,0:07:20.16,0:07:21.74,Dialogue,,0,0,0,,A campaign car, huh...
+Dialogue: 0,0:07:22.12,0:07:24.83,Dialogue,,0,0,0,,When will that regular customer come again?
+Dialogue: 0,0:07:25.04,0:07:27.00,Dialogue,,0,0,0,,He comes every day.
+Dialogue: 0,0:07:27.00,0:07:29.12,Dialogue,,0,0,0,,When he shows up again, I'll give you guys a call.
+Dialogue: 0,0:07:29.12,0:07:29.87,Dialogue,,0,0,0,,Thank you.
+Dialogue: 0,0:07:30.25,0:07:31.54,Dialogue,,0,0,0,,I will await your,call.
+Dialogue: 0,0:07:31.96,0:07:35.55,Dialogue,,0,0,0,,Each of those three are suspicious, aren't they?
+Dialogue: 0,0:07:35.55,0:07:38.26,Dialogue,,0,0,0,,All three phone calls meet all the requirements, huh?
+Dialogue: 0,0:07:41.30,0:07:42.47,Dialogue,,0,0,0,,A-le-le!
+Dialogue: 0,0:07:42.85,0:07:44.22,Dialogue,,0,0,0,,What's this?
+Dialogue: 0,0:07:44.60,0:07:47.22,Dialogue,,0,0,0,,This cell phone is so strange.
+Dialogue: 0,0:07:47.35,0:07:49.02,Dialogue,,0,0,0,,Uncle, look at this.
+Dialogue: 0,0:07:49.56,0:07:50.52,Dialogue,,0,0,0,,Brat...
+Dialogue: 0,0:07:50.52,0:07:52.90,Dialogue,,0,0,0,,Don't tell me you broke that cell phone or something.
+Dialogue: 0,0:07:53.27,0:07:54.61,Dialogue,,0,0,0,,It's not that.
+Dialogue: 0,0:07:54.61,0:08:00.78,Dialogue,,0,0,0,,Most of the four numbers in the beginning of these phone numbers are similar.
+Dialogue: 0,0:08:04.33,0:08:06.04,Dialogue,,0,0,0,,10287...
+Dialogue: 0,0:08:07.25,0:08:08.66,Dialogue,,0,0,0,,10257...
+Dialogue: 0,0:08:08.87,0:08:12.17,Dialogue,,0,0,0,,These numbers are indeed near each other.
+Dialogue: 0,0:08:12.46,0:08:15.54,Dialogue,,0,0,0,,They're probably neighbors.
+Dialogue: 0,0:08:15.59,0:08:16.59,Dialogue,,0,0,0,,You idiot!
+Dialogue: 0,0:08:16.59,0:08:20.80,Dialogue,,0,0,0,,Didn't I tell you before that 10-digit phone numbers beginning with the number 1 don't exist?
+Dialogue: 0,0:08:22.09,0:08:25.51,Dialogue,,0,0,0,,This has got to be because the chubby owner of this cell phone...
+Dialogue: 0,0:08:25.51,0:08:30.93,Dialogue,,0,0,0,,Assigned ascending numbers to each person he met during'his work.
+Dialogue: 0,0:08:31.14,0:08:35.02,Dialogue,,0,0,0,,Hey, which one is the smallest number?
+Dialogue: 0,0:08:37.98,0:08:39.03,Dialogue,,0,0,0,,It should be this one.
+Dialogue: 0,0:08:41.15,0:08:43.78,Dialogue,,0,0,0,,It's over 1000, so he must've known a lot of people.
+Dialogue: 0,0:08:43.99,0:08:44.99,Dialogue,,0,0,0,,Yeah.
+Dialogue: 0,0:08:44.99,0:08:51.04,Dialogue,,0,0,0,,He might be a door-to-door salesman, and probably just assigned all of these numbers to his clients.
+Dialogue: 0,0:08:51.04,0:08:53.50,Dialogue,,0,0,0,,Then, what's the meaning behind these four numbers?
+Dialogue: 0,0:08:53.96,0:08:56.25,Dialogue,,0,0,0,,And this, what does this black dot represent?
+Dialogue: 0,0:08:56.96,0:08:59.63,Dialogue,,0,0,0,,Some have black dots and some don't.
+Dialogue: 0,0:09:01.38,0:09:06.76,Dialogue,,0,0,0,,He probably marked-potential customers when he went-to visit them.
+Dialogue: 0,0:09:07.60,0:09:14.44,Dialogue,,0,0,0,,The numbers at the end like 150 and 600 most likely represent the quantity of goods he sold...
+Dialogue: 0,0:09:15.02,0:09:16.69,Dialogue,,0,0,0,,But isn't this too strange?
+Dialogue: 0,0:09:17.65,0:09:22.19,Dialogue,,0,0,0,,See, the first four numbers at the beginning are never less than 1022.
+Dialogue: 0,0:09:22.82,0:09:27.20,Dialogue,,0,0,0,,If you look closely, two people have the numbers 1031.
+Dialogue: 0,0:09:28.37,0:09:29.03,Dialogue,,0,0,0,,One...
+Dialogue: 0,0:09:29.04,0:09:30.83,Dialogue,,0,0,0,,Two...
+Dialogue: 0,0:09:31.37,0:09:32.04,Dialogue,,0,0,0,,It's true.
+Dialogue: 0,0:09:32.91,0:09:34.08,Dialogue,,0,0,0,,And this...
+Dialogue: 0,0:09:34.08,0:09:39.80,Dialogue,,0,0,0,,If there's 1101, then why isn't there any number from 1032 to 1100?
+Dialogue: 0,0:09:41.17,0:09:43.63,Dialogue,,0,0,0,,If it's in numerical order...
+Dialogue: 0,0:09:43.63,0:09:47.01,Dialogue,,0,0,0,,Then why does it jump from 1031 to 1101?
+Dialogue: 0,0:09:47.35,0:09:49.72,Dialogue,,0,0,0,,Uhm, could it be this?
+Dialogue: 0,0:09:50.77,0:09:52.77,Dialogue,,0,0,0,,It'd be a calendar, wouldn't it?
+Dialogue: 0,0:09:53.35,0:09:54.27,Dialogue,,0,0,0,,Calendar?
+Dialogue: 0,0:09:55.06,0:09:57.90,Dialogue,,0,0,0,,1031 is October 31st.
+Dialogue: 0,0:09:57.90,0:10:01.07,Dialogue,,0,0,0,,1101 is November 1st or something like that.
+Dialogue: 0,0:10:01.44,0:10:02.48,Dialogue,,0,0,0,,I see.
+Dialogue: 0,0:10:03.07,0:10:04.95,Dialogue,,0,0,0,,Thinking about it that way makes sense.
+Dialogue: 0,0:10:05.03,0:10:05.70,Dialogue,,0,0,0,,Hold on...
+Dialogue: 0,0:10:06.45,0:10:12.66,Dialogue,,0,0,0,,If these numbers represent the end of October to the beginning of November of last year...
+Dialogue: 0,0:10:12.66,0:10:14.41,Dialogue,,0,0,0,,That period of time was during the Touto Diet elections!
+Dialogue: 0,0:10:15.67,0:10:16.33,Dialogue,,0,0,0,,Furthermore...
+Dialogue: 0,0:10:16.71,0:10:19.75,Dialogue,,0,0,0,,The neighborhood association's baseball tournament...
+Dialogue: 0,0:10:19.75,0:10:22.34,Dialogue,,0,0,0,,And preparations for the Autumn Festival were also during that time, so it was a busy time.
+Dialogue: 0,0:10:23.09,0:10:26.84,Dialogue,,0,0,0,,Well, we can be sure that this man wasn't a resident of this neighborhood, at least.
+Dialogue: 0,0:10:27.30,0:10:29.09,Dialogue,,0,0,0,,Hey, what's with that tangent?
+Dialogue: 0,0:10:30.26,0:10:31.26,Dialogue,,0,0,0,,Sorry.
+Dialogue: 0,0:10:33.02,0:10:34.98,Dialogue,,0,0,0,,If the four numbers at the beginning represent dates...
+Dialogue: 0,0:10:35.85,0:10:39.23,Dialogue,,0,0,0,,Then the numbers behind them might be the time he went to visit his clients.
+Dialogue: 0,0:10:40.19,0:10:44.36,Dialogue,,0,0,0,,150 is 1:50, and 600 is exactly 6:00.
+Dialogue: 0,0:10:44.36,0:10:47.82,Dialogue,,0,0,0,,Then why are the surnames in kanji and the given names in katakana?
+Dialogue: 0,0:10:48.36,0:10:51.74,Dialogue,,0,0,0,,It's because the surname can be found on the home's nameplate...
+Dialogue: 0,0:10:52.04,0:10:56.29,Dialogue,,0,0,0,,Whereas the given names can only be discovered while talking.
+Dialogue: 0,0:10:56.96,0:11:02.80,Dialogue,,0,0,0,,That person is probably one of the clients who was angered by the products this cell phone owner sold.
+Dialogue: 0,0:11:05.01,0:11:09.18,Dialogue,,0,0,0,,The person who called from a blocked number and yelled, "Give that guy the phone."
+Dialogue: 0,0:11:09.43,0:11:13.85,Dialogue,,0,0,0,,That same one that also called the phone company and asked for this person's name and address.
+Dialogue: 0,0:11:13.85,0:11:15.72,Dialogue,,0,0,0,,That dangerous person.
+Dialogue: 0,0:11:16.64,0:11:22.82,Dialogue,,0,0,0,,Once we know who that person is and where they are, we can ask them for the number to this cell phone...
+Dialogue: 0,0:11:22.86,0:11:25.69,Dialogue,,0,0,0,,And learn the chubby man's identity.
+Dialogue: 0,0:11:27.03,0:11:33.03,Dialogue,,0,0,0,,Damn it, if only that guy were still alive, this wouldn't have been so much of a headache.
+Dialogue: 0,0:11:33.03,0:11:33.58,Dialogue,,0,0,0,,Hey...
+Dialogue: 0,0:11:33.95,0:11:35.20,Dialogue,,0,0,0,,Is that how it really is?
+Dialogue: 0,0:11:36.66,0:11:38.71,Dialogue,,0,0,0,,It's suspicious, after all.
+Dialogue: 0,0:11:38.71,0:11:41.46,Dialogue,,0,0,0,,The place where the cell phone was dropped.
+Dialogue: 0,0:11:41.46,0:11:45.80,Dialogue,,0,0,0,,he antenna of the cell phone was sticking out while the cell phone was nicely folded and placed under the sofa.
+Dialogue: 0,0:11:46.26,0:11:48.17,Dialogue,,0,0,0,,You're right, that is strange.
+Dialogue: 0,0:11:48.17,0:11:51.39,Dialogue,,0,0,0,,It's as if they wanted someone to find it when they heard the cell phone ringing.
+Dialogue: 0,0:11:51.68,0:11:55.72,Dialogue,,0,0,0,,Regarding the ring tone, the second phone call from that dangerous person said...
+Dialogue: 0,0:11:56.22,0:11:57.68,Dialogue,,0,0,0,,"Did you hear anything ring just now?"
+Dialogue: 0,0:11:59.60,0:12:03.69,Dialogue,,0,0,0,,Could it be that that chubby man specifically asked the dangerous man to call the phone...
+Dialogue: 0,0:12:04.11,0:12:08.40,Dialogue,,0,0,0,,In order to secretly give the cell phone over to him?
+Dialogue: 0,0:12:08.40,0:12:09.07,Dialogue,,0,0,0,,Nonsense.
+Dialogue: 0,0:12:09.65,0:12:13.03,Dialogue,,0,0,0,,If that were the case, why didn't he just meet up with the dangerous man here?
+Dialogue: 0,0:12:13.95,0:12:20.00,Dialogue,,0,0,0,,If dropped, it would be discovered by an employee, and then he'd have no way of secretly giving it to him.
+Dialogue: 0,0:12:20.50,0:12:23.25,Dialogue,,0,0,0,,Uncle is right.
+Dialogue: 0,0:12:23.25,0:12:23.88,Dialogue,,0,0,0,,Of course.
+Dialogue: 0,0:12:24.13,0:12:27.71,Dialogue,,0,0,0,,If he had wanted to give the phone to someone in secret, he wouldn't have deliberately made an effort to retrieve it.
+Dialogue: 0,0:12:28.59,0:12:30.97,Dialogue,,0,0,0,,It's not like he mixed up the location or anything, after all.
+Dialogue: 0,0:12:32.43,0:12:33.14,Dialogue,,0,0,0,,Mixed up!
+Dialogue: 0,0:12:34.18,0:12:36.14,Dialogue,,0,0,0,,I mix things up all the time, so...
+Dialogue: 0,0:12:36.64,0:12:40.89,Dialogue,,0,0,0,,Now that you mention it, at the convenience store, that chubby man...
+Dialogue: 0,0:12:40.89,0:12:42.19,Dialogue,,0,0,0,,I see.
+Dialogue: 0,0:12:42.19,0:12:44.19,Dialogue,,0,0,0,,He was asking for directions.
+Dialogue: 0,0:12:44.19,0:12:48.07,Dialogue,,0,0,0,,If he's not familiar with this area, he could easily mistake one place for another.
+Dialogue: 0,0:12:48.65,0:12:50.74,Dialogue,,0,0,0,,So the suspicious place is...
+Dialogue: 0,0:12:51.86,0:12:52.95,Dialogue,,0,0,0,,Apollo!
+Dialogue: 0,0:12:53.07,0:12:58.33,Dialogue,,0,0,0,,Is it the sports shop that has a name similar to our Poirot restaurant?
+Dialogue: 0,0:12:58.33,0:12:59.33,Dialogue,,0,0,0,,I see.
+Dialogue: 0,0:12:59.70,0:13:01.50,Dialogue,,0,0,0,,But, Azusa{\rHonorifics - Dialogue}-chan{\r}...
+Dialogue: 0,0:13:01.50,0:13:05.58,Dialogue,,0,0,0,,No matter how similar the names are, it's hard to mistake a sports shop for a restaurant.
+Dialogue: 0,0:13:06.13,0:13:08.13,Dialogue,,0,0,0,,You're right.
+Dialogue: 0,0:13:08.13,0:13:09.84,Dialogue,,0,0,0,,Hey, Azusa{\rHonorifics - Dialogue}-neechan{\r}...
+Dialogue: 0,0:13:10.67,0:13:13.26,Dialogue,,0,0,0,,Why is this shop called Poirot?
+Dialogue: 0,0:13:14.76,0:13:18.64,Dialogue,,0,0,0,,You've heard of Hercule Poirot from the detective stories, right?
+Dialogue: 0,0:13:18.64,0:13:21.73,Dialogue,,0,0,0,,Our shop owner loves mystery novels, so he got it from that.
+Dialogue: 0,0:13:22.31,0:13:24.60,Dialogue,,0,0,0,,Conan{\rHonorifics - Dialogue}-kun{\r}, you know Poirot, right?
+Dialogue: 0,0:13:24.60,0:13:26.10,Dialogue,,0,0,0,,He's that slightly plump man...
+Dialogue: 0,0:13:26.73,0:13:28.32,Dialogue,,0,0,0,,I've seen him on TV.
+Dialogue: 0,0:13:28.82,0:13:31.40,Dialogue,,0,0,0,,He often remarks, "You know, my wife says..."
+Dialogue: 0,0:13:31.40,0:13:33.28,Dialogue,,0,0,0,,The police detective who wears a wrinkled coat, right?
+Dialogue: 0,0:13:33.95,0:13:35.66,Dialogue,,0,0,0,,No, no.
+Dialogue: 0,0:13:35.66,0:13:38.83,Dialogue,,0,0,0,,That guy isn't Poirot, he's Columbo.
+Dialogue: 0,0:13:39.54,0:13:44.46,Dialogue,,0,0,0,,Could he have mistaken the mystery novels' protagonists?
+Dialogue: 0,0:13:44.87,0:13:48.38,Dialogue,,0,0,0,,Furthermore, that Columbo restaurant and ours are both in the 5th district.
+Dialogue: 0,0:13:48.38,0:13:54.09,Dialogue,,0,0,0,,If that chubby customer only remembered it was a shop in Beika's 5th District named after a detective series...
+Dialogue: 0,0:13:54.09,0:13:55.88,Dialogue,,0,0,0,,It'd be an easy mistake to make.
+Dialogue: 0,0:13:56.59,0:13:57.39,Dialogue,,0,0,0,,Let's go.
+Dialogue: 0,0:13:58.64,0:13:59.26,Dialogue,,0,0,0,,Where to?
+Dialogue: 0,0:13:59.68,0:14:00.47,Dialogue,,0,0,0,,Isn't it obvious?
+Dialogue: 0,0:14:01.14,0:14:02.93,Dialogue,,0,0,0,,The other famous detective's shop...
+Dialogue: 0,0:14:03.73,0:14:04.27,Dialogue,,0,0,0,,Wait up!
+Dialogue: 0,0:14:04.64,0:14:06.35,Dialogue,,0,0,0,,Hey, I'm going too!
+Dialogue: 0,0:14:06.77,0:14:07.81,Dialogue,,0,0,0,,Me too.
+Dialogue: 0,0:14:08.06,0:14:09.73,Dialogue,,0,0,0,,The	identity of that chubby man...
+Dialogue: 0,0:14:10.27,0:14:11.07,Dialogue,,0,0,0,,Will soon be revealed!
+Dialogue: 0,0:14:19.83,0:14:22.74,Dialogue,,0,0,0,,The customer that often wears sunglasses that I mentioned earlier hasn't arrived yet.
+Dialogue: 0,0:14:23.58,0:14:24.75,Dialogue,,0,0,0,,Really?
+Dialogue: 0,0:14:24.75,0:14:27.33,Dialogue,,0,0,0,,Then, do you mind if we wait here?
+Dialogue: 0,0:14:27.33,0:14:27.83,Dialogue,,0,0,0,,No problem.
+Dialogue: 0,0:14:28.42,0:14:30.46,Dialogue,,0,0,0,,Are you going to be all right, Azusa{\rHonorifics - Dialogue}-chan{\r}?
+Dialogue: 0,0:14:30.46,0:14:31.96,Dialogue,,0,0,0,,You just rushed out of the shop.
+Dialogue: 0,0:14:31.96,0:14:34.13,Dialogue,,0,0,0,,Yes, since the shop owner is there.
+Dialogue: 0,0:14:34.13,0:14:35.88,Dialogue,,0,0,0,,I just need to return by evening when it gets busy.
+Dialogue: 0,0:14:36.26,0:14:38.26,Dialogue,,0,0,0,,I wouldn't be able to concentrate while thinking about this anyway.
+Dialogue: 0,0:14:38.26,0:14:39.09,Dialogue,,0,0,0,,Say, Mister...
+Dialogue: 0,0:14:40.30,0:14:42.31,Dialogue,,0,0,0,,Did that customer ever ask you anything?
+Dialogue: 0,0:14:44.73,0:14:46.69,Dialogue,,0,0,0,,Whenever he comes, he always asks...
+Dialogue: 0,0:14:47.31,0:14:49.52,Dialogue,,0,0,0,,If I've come across a lost cell phone.
+Dialogue: 0,0:14:50.98,0:14:51.98,Dialogue,,0,0,0,,It's as I thought.
+Dialogue: 0,0:14:53.03,0:14:55.19,Dialogue,,0,0,0,,Looks like this is the right place.
+Dialogue: 0,0:14:55.19,0:14:55.69,Dialogue,,0,0,0,,Yeah.
+Dialogue: 0,0:14:58.20,0:14:59.41,Dialogue,,0,0,0,,Oh, he's here.
+Dialogue: 0,0:14:59.87,0:15:01.49,Dialogue,,0,0,0,,Welcome!
+Dialogue: 0,0:15:01.74,0:15:02.87,Dialogue,,0,0,0,,That's him.
+Dialogue: 0,0:15:03.33,0:15:06.62,Dialogue,,0,0,0,,But is something that matter with that customer?
+Dialogue: 0,0:15:09.50,0:15:11.71,Dialogue,,0,0,0,,I'm going to talk to him.
+Dialogue: 0,0:15:11.71,0:15:16.09,Dialogue,,0,0,0,,I'll know if he's the person who called after hearing his voice.
+Dialogue: 0,0:15:16.09,0:15:18.34,Dialogue,,0,0,0,,No, I should go.
+Dialogue: 0,0:15:19.09,0:15:21.22,Dialogue,,0,0,0,,This is when you let a man handle things.
+Dialogue: 0,0:15:26.68,0:15:27.43,Dialogue,,0,0,0,,Huh?
+Dialogue: 0,0:15:27.44,0:15:29.06,Dialogue,,0,0,0,,What's wrong, Detective?
+Dialogue: 0,0:15:29.06,0:15:31.06,Dialogue,,0,0,0,,Aren't you going to talk to him?
+Dialogue: 0,0:15:31.44,0:15:33.19,Dialogue,,0,0,0,,Before we talk to him...
+Dialogue: 0,0:15:33.90,0:15:35.78,Dialogue,,0,0,0,,You should hear my deductions.
+Dialogue: 0,0:15:36.74,0:15:41.62,Dialogue,,0,0,0,,First, the strange names written in katakana in this cell phone's contact list.
+Dialogue: 0,0:15:41.62,0:15:47.04,Dialogue,,0,0,0,,Although they look like names of people, they're actually abbreviated names of certain organizations.
+Dialogue: 0,0:15:47.62,0:15:48.41,Dialogue,,0,0,0,,Certain organizations?
+Dialogue: 0,0:15:49.17,0:15:50.67,Dialogue,,0,0,0,,Please let me see that for a second.
+Dialogue: 0,0:15:51.08,0:15:52.25,Dialogue,,0,0,0,,What's the meaning of this?
+Dialogue: 0,0:15:52.71,0:15:57.96,Dialogue,,0,0,0,,In this cell phone's contact list, there are many strange names that don't seem like family names, right?
+Dialogue: 0,0:15:59.18,0:16:02.76,Dialogue,,0,0,0,,Do you mean "Kenbashi Shou"{\rHonorifics - Dialogue}-san{\r} and "Daitoma Cho"{\rHonorifics - Dialogue}-san{\r}?
+Dialogue: 0,0:16:04.47,0:16:06.97,Dialogue,,0,0,0,,If they're the names of places, I've heard of them, but...
+Dialogue: 0,0:16:06.97,0:16:10.27,Dialogue,,0,0,0,,I've never heard of anyone with surnames like those.
+Dialogue: 0,0:16:10.60,0:16:14.56,Dialogue,,0,0,0,,Those names likely belong to organizations based in those areas.
+Dialogue: 0,0:16:14.57,0:16:17.19,Dialogue,,0,0,0,,For example, "Kenbashi Shou" represents the Kenbashi Shopping District...
+Dialogue: 0,0:16:17.19,0:16:19.15,Dialogue,,0,0,0,,And "Daitoma Cho" represents the Daitoma Neighborhood Association.
+Dialogue: 0,0:16:19.49,0:16:23.03,Dialogue,,0,0,0,,If we read it that way, it all makes sense.
+Dialogue: 0,0:16:23.03,0:16:24.87,Dialogue,,0,0,0,,"Aida Ken" is Aida Construction.
+Dialogue: 0,0:16:25.45,0:16:28.25,Dialogue,,0,0,0,,Ishizawa Seisaku" is Ishizawa Manufacturing.
+Dialogue: 0,0:16:28.66,0:16:33.25,Dialogue,,0,0,0,,Furthermore, there are 10-digit numbers recorded along with each of those names.
+Dialogue: 0,0:16:34.17,0:16:36.04,Dialogue,,0,0,0,,The first four digits represent dates.
+Dialogue: 0,0:16:36.05,0:16:37.96,Dialogue,,0,0,0,,The numbers after represent the amount of money.
+Dialogue: 0,0:16:37.96,0:16:40.26,Dialogue,,0,0,0,,The black dots beside the names represent "black figures".
+Dialogue: 0,0:16:41.01,0:16:42.68,Dialogue,,0,0,0,,In short, revenue.
+Dialogue: 0,0:16:43.30,0:16:46.76,Dialogue,,0,0,0,,Those without black dots are the opposite: expenses.
+Dialogue: 0,0:16:46.76,0:16:51.56,Dialogue,,0,0,0,,Taking into account the dates were concentrated around the time of last year's election...
+Dialogue: 0,0:16:51.56,0:16:52.85,Dialogue,,0,0,0,,There's only one conclusion that can be drawn!
+Dialogue: 0,0:16:52.85,0:16:53.69,Dialogue,,0,0,0,,Don't tell me...
+Dialogue: 0,0:16:54.40,0:16:56.73,Dialogue,,0,0,0,,They're secret campaign financing records?
+Dialogue: 0,0:16:56.73,0:16:58.07,Dialogue,,0,0,0,,Exactly.
+Dialogue: 0,0:16:58.07,0:17:03.11,Dialogue,,0,0,0,,Even though we don't know how that chubby man came into the possession of these records...
+Dialogue: 0,0:17:03.28,0:17:08.29,Dialogue,,0,0,0,,The fact remains that he had intended to use this to blackmail someone.
+Dialogue: 0,0:17:09.04,0:17:12.21,Dialogue,,0,0,0,,The reason he entered the records into the cell phone...
+Dialogue: 0,0:17:12.46,0:17:16.96,Dialogue,,0,0,0,,Was in order to show the other party proof that he indeed possessed them.
+Dialogue: 0,0:17:16.96,0:17:19.13,Dialogue,,0,0,0,,Then, that person is...
+Dialogue: 0,0:17:19.13,0:17:23.26,Dialogue,,0,0,0,,He's probably someone hired by the one whose campaign car is making the rounds on the streets in this area...
+Dialogue: 0,0:17:23.26,0:17:25.30,Dialogue,,0,0,0,,Diet Member Baishou.
+Dialogue: 0,0:17:26.89,0:17:29.10,Dialogue,,0,0,0,,All for the purpose of getting the secret records back.
+Dialogue: 0,0:17:29.93,0:17:33.73,Dialogue,,0,0,0,,The reason he suddenly hung up while on the phone with the telephone company...
+Dialogue: 0,0:17:34.27,0:17:37.86,Dialogue,,0,0,0,,Was because he heard the sounds from Diet Member Baishou's campaign van.
+Dialogue: 0,0:17:38.48,0:17:41.65,Dialogue,,0,0,0,,While searching for the guy with the secret records...
+Dialogue: 0,0:17:41.65,0:17:44.86,Dialogue,,0,0,0,,He thought it would have been bad if it was found out that he was connected with Diet Member Baishou.
+Dialogue: 0,0:17:44.86,0:17:46.20,Dialogue,,0,0,0,,And so he instantly hung up.
+Dialogue: 0,0:17:46.70,0:17:50.33,Dialogue,,0,0,0,,Also, the man with the sunglasses was the one who chose this restaurant as the location for the transaction...
+Dialogue: 0,0:17:50.33,0:17:52.70,Dialogue,,0,0,0,,Because he was a regular customer here.
+Dialogue: 0,0:17:53.75,0:17:58.50,Dialogue,,0,0,0,,He had originally planned to call the cell phone from here and take it without anyone noticing...
+Dialogue: 0,0:17:58.50,0:18:01.34,Dialogue,,0,0,0,,But the chubby man mixed up the location.
+Dialogue: 0,0:18:01.96,0:18:08.64,Dialogue,,0,0,0,,But why didn't that chubby man contact us once he realized that he was at the wrong restaurant?
+Dialogue: 0,0:18:08.64,0:18:11.39,Dialogue,,0,0,0,,It's probably because, by the time he realized that...
+Dialogue: 0,0:18:11.39,0:18:15.23,Dialogue,,0,0,0,,It was already past the time they'd arranged to do the exchange.
+Dialogue: 0,0:18:15.94,0:18:19.65,Dialogue,,0,0,0,,The original plan was to have the shop owner find the phone after it started ringing...
+Dialogue: 0,0:18:19.65,0:18:24.15,Dialogue,,0,0,0,,And then have the man in sunglasses claim it was his.
+Dialogue: 0,0:18:24.15,0:18:29.53,Dialogue,,0,0,0,,Even though he mistook the place, he could easily get it back at Poirot by calling his cell phone.
+Dialogue: 0,0:18:29.53,0:18:34.41,Dialogue,,0,0,0,,However, if he did that, there was a chance the man in sunglasses could've picked up and ascertained his voice.
+Dialogue: 0,0:18:35.79,0:18:40.92,Dialogue,,0,0,0,,That chubby man had probably used fax and text messages to communicate regarding the transaction...
+Dialogue: 0,0:18:41.67,0:18:46.80,Dialogue,,0,0,0,,In order to prevent his face or voice from being noticed and exposing his identity.
+Dialogue: 0,0:18:47.72,0:18:52.81,Dialogue,,0,0,0,,That's also why he had the line killed and removed the production sticker from the cell phone.
+Dialogue: 0,0:18:53.31,0:18:57.89,Dialogue,,0,0,0,,So the reason that chubby man rushed back to Poirot was...
+Dialogue: 0,0:18:57.90,0:19:02.82,Dialogue,,0,0,0,,Was to make sure whether or not the man in sunglasses had taken the phone or not.
+Dialogue: 0,0:19:03.28,0:19:08.53,Dialogue,,0,0,0,,If it had been handed over to the police as a lost item, his plan to get money would have been destroyed.
+Dialogue: 0,0:19:09.07,0:19:10.20,Dialogue,,0,0,0,,But if that's the case...
+Dialogue: 0,0:19:10.91,0:19:15.62,Dialogue,,0,0,0,,Then no matter how much we question that man in sunglasses, he won't say anything.
+Dialogue: 0,0:19:15.62,0:19:17.54,Dialogue,,0,0,0,,Don't worry, there's still a way.
+Dialogue: 0,0:19:18.37,0:19:19.50,Dialogue,,0,0,0,,Right, Conan?
+Dialogue: 0,0:19:21.46,0:19:23.04,Dialogue,,0,0,0,,Let's go, Azusa{\rHonorifics - Dialogue}-neechan{\r}.
+Dialogue: 0,0:19:23.67,0:19:24.59,Dialogue,,0,0,0,,Hurry up!
+Dialogue: 0,0:19:25.55,0:19:26.17,Dialogue,,0,0,0,,Conan{\rHonorifics - Dialogue}-kun{\r}?
+Dialogue: 0,0:19:27.80,0:19:32.18,Dialogue,,0,0,0,,Say, Miss, I wonder who lost that cell phone?
+Dialogue: 0,0:19:32.18,0:19:34.47,Dialogue,,0,0,0,,If no one wants it, can you give it to me?
+Dialogue: 0,0:19:35.02,0:19:38.64,Dialogue,,0,0,0,,This is my first time seeing a cell phone with such a strange case.
+Dialogue: 0,0:19:38.64,0:19:39.77,Dialogue,,0,0,0,,Ah-le-le!
+Dialogue: 0,0:19:39.77,0:19:42.36,Dialogue,,0,0,0,,There are so many strange names and numbers.
+Dialogue: 0,0:19:42.36,0:19:43.57,Dialogue,,0,0,0,,Conan{\rHonorifics - Dialogue}-kun{\r}...
+Dialogue: 0,0:19:43.57,0:19:44.52,Dialogue,,0,0,0,,Hey, brat!
+Dialogue: 0,0:19:46.24,0:19:46.94,Dialogue,,0,0,0,,I mean, little boy...
+Dialogue: 0,0:19:48.36,0:19:50.95,Dialogue,,0,0,0,,That's actually my cell phone.
+Dialogue: 0,0:19:50.95,0:19:53.20,Dialogue,,0,0,0,,Oh, really?
+Dialogue: 0,0:19:53.20,0:19:54.62,Dialogue,,0,0,0,,Show me some proof, then.
+Dialogue: 0,0:19:54.99,0:19:56.33,Dialogue,,0,0,0,,Proof?
+Dialogue: 0,0:19:57.08,0:20:00.62,Dialogue,,0,0,0,,If this really does belong to you, you should know the number of this cell phone, right?
+Dialogue: 0,0:20:01.13,0:20:04.09,Dialogue,,0,0,0,,I can test to see if the number goes through...
+Dialogue: 0,0:20:04.55,0:20:06.21,Dialogue,,0,0,0,,So tell me the number.
+Dialogue: 0,0:20:06.46,0:20:08.01,Dialogue,,0,0,0,,Just hurry up and give me the phone.
+Dialogue: 0,0:20:08.72,0:20:10.30,Dialogue,,0,0,0,,It's a police woman.
+Dialogue: 0,0:20:11.64,0:20:14.18,Dialogue,,0,0,0,,Maybe I should give it to her...
+Dialogue: 0,0:20:15.01,0:20:15.64,Dialogue,,0,0,0,,Wait...
+Dialogue: 0,0:20:15.64,0:20:17.10,Dialogue,,0,0,0,,I understand.
+Dialogue: 0,0:20:17.10,0:20:19.31,Dialogue,,0,0,0,,I'll tell you the number.
+Dialogue: 0,0:20:20.98,0:20:24.27,Dialogue,,0,0,0,,And so, we finally obtained the chubby man's phone number.
+Dialogue: 0,0:20:25.07,0:20:28.53,Dialogue,,0,0,0,,Using that number, the police managed to locate his apartment.
+Dialogue: 0,0:20:29.78,0:20:32.53,Dialogue,,0,0,0,,It seems that man was likely an investigative reporter.
+Dialogue: 0,0:20:33.62,0:20:37.58,Dialogue,,0,0,0,,Buried under heaps of receipts, a copy of the secret records was fourid.
+Dialogue: 0,0:20:39.00,0:20:42.25,Dialogue,,0,0,0,,And on it, the names, dates, and the\Namounts of money were clearly written.
+Dialogue: 0,0:20:42.83,0:20:44.96,Dialogue,,0,0,0,,It was more than enough evidence.
+Dialogue: 0,0:20:46.09,0:20:48.96,Dialogue,,0,0,0,,As such, in the middle of his campaign, Diet Member Baishou...
+Dialogue: 0,0:20:49.26,0:20:53.18,Dialogue,,0,0,0,,And those who received money from him, were all arrested one after another.
+Dialogue: 0,0:22:21.68,0:22:22.72,Dialogue,,0,0,0,,Welcome!
+Dialogue: 0,0:22:23.35,0:22:24.98,Dialogue,,0,0,0,,I am Mouri Kogorou.
+Dialogue: 0,0:22:25.39,0:22:27.19,Dialogue,,0,0,0,,A cup of hot coffee.
+Dialogue: 0,0:22:27.40,0:22:31.27,Dialogue,,0,0,0,,I am but a humble detective engaged in the battle against the shadow of society known as crime.
+Dialogue: 0,0:22:32.03,0:22:33.90,Dialogue,,0,0,0,,No, allow me to correct that...
+Dialogue: 0,0:22:33.94,0:22:35.99,Dialogue,,0,0,0,,I am Mouri Kogorou...
+Dialogue: 0,0:22:36.61,0:22:37.99,Dialogue,,0,0,0,,A famous detective.
+Dialogue: 0,0:22:38.49,0:22:39.49,Dialogue,,0,0,0,,Welcome!
+Dialogue: 0,0:22:40.33,0:22:42.37,Dialogue,,0,0,0,,Thank you so much for yesterday.
+Dialogue: 0,0:22:43.25,0:22:46.37,Dialogue,,0,0,0,,If anything else comes up, feel free to come to me.
+Dialogue: 0,0:22:47.58,0:22:48.58,Dialogue,,0,0,0,,Right.
+Dialogue: 0,0:22:48.63,0:22:50.34,Dialogue,,0,0,0,,There's no case I cannot solve.
+Dialogue: 0,0:22:52.46,0:22:57.88,Dialogue,,0,0,0,,After successfully getting into college, he has no need to come here to study anymore, yet he still comes.
+Dialogue: 0,0:22:58.59,0:23:00.93,Dialogue,,0,0,0,,There's no doubt that he has a crush...
+Dialogue: 0,0:23:02.68,0:23:03.35,Dialogue,,0,0,0,,A case.
+Dialogue: 0,0:23:05.52,0:23:07.14,Dialogue,,0,0,0,,Yes, this is famous detective.
+Dialogue: 0,0:23:07.69,0:23:09.10,Dialogue,,0,0,0,,Hello, Dad?
+Dialogue: 0,0:23:09.15,0:23:09.73,Dialogue,,0,0,0,,It's me.
+Dialogue: 0,0:23:10.94,0:23:11.52,Dialogue,,0,0,0,,What is it?
+Dialogue: 0,0:23:11.98,0:23:15.78,Dialogue,,0,0,0,,It looks like today's club activities are going to run a bit late, so could you do some shopping for me?
+Dialogue: 0,0:23:15.95,0:23:18.15,Dialogue,,0,0,0,,Yeah, I don't mind.
+Dialogue: 0,0:23:18.57,0:23:22.03,Dialogue,,0,0,0,,Let's see... potatoes...
+Dialogue: 0,0:23:22.03,0:23:25.25,Dialogue,,0,0,0,,Carrots... onions... pork... and apples.
+Dialogue: 0,0:23:27.79,0:23:29.83,Dialogue,,0,0,0,,Could it be that we're eating curry tonight?
+Dialogue: 0,0:23:30.25,0:23:31.33,Dialogue,,0,0,0,,That's correct!
+Dialogue: 0,0:23:31.34,0:23:32.29,Dialogue,,0,0,0,,As expected of a famous detective!
+Dialogue: 0,0:23:33.05,0:23:34.42,Dialogue,,0,0,0,,All right, got it!
+Dialogue: 0,0:23:34.42,0:23:35.51,Dialogue,,0,0,0,,This is a big case.
+Dialogue: 0,0:23:35.51,0:23:37.22,Dialogue,,0,0,0,,I'll get to the scene right away!
+Dialogue: 0,0:23:37.63,0:23:38.13,Dialogue,,0,0,0,,HOT!
+Dialogue: 0,0:23:38.43,0:23:39.51,Dialogue,,0,0,0,,Dad, what's wrong?
+Dialogue: 0,0:23:40.34,0:23:42.72,Dialogue,,0,0,0,,Coffee... coffee... hot!
+Dialogue: 0,0:23:42.72,0:23:45.31,Dialogue,,0,0,0,,Nothing to do as usual, right, Uncle?

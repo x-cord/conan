@@ -1,0 +1,419 @@
+[Script Info]
+Title: Detective Conan - 0347
+TL Source: DCTP
+ScriptType: v4.00+
+WrapStyle: 3
+PlayResX: 1440
+PlayResY: 1080
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Dialogue,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00401311,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Dialogue Top,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00401311,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,8,30,30,55,1
+Style: Signs,FrancophilSans,74,&H14FFFFFF,&H00FFFFFF,&H46101010,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,8,30,30,55,1
+Style: Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,0,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Radio,FrancophilSans,74,&H00BEE1FF,&H00FFFFFF,&H000B2A42,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Narration,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00BF6F00,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Narration Off,FrancophilSans,74,&H6E8C6F00,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,0,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Flashback,FrancophilSans,74,&H00CDFAFF,&H00FFFFFF,&H00373737,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Flashback Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00CCFFFF,&HC0313134,-1,0,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Honorifics - Dialogue,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00401311,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Signs,FrancophilSans,74,&H14FFFFFF,&H00FFFFFF,&H46101010,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,-1,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Honorifics - Radio,FrancophilSans,74,&H00BEE1FF,&H00FFFFFF,&H000B2A42,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Narration,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00BF6F00,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Narration Off,FrancophilSans,74,&H6E8C6F00,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,-1,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Honorifics - Flashback,FrancophilSans,74,&H00CDFAFF,&H00FFFFFF,&H00373737,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Flashback Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00CCFFFF,&HC0313134,-1,-1,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Masks,FrancophilSans,74,&H00000000,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,2,0,0,0,1
+Style: Title,Conan Episode Title,74,&H00E1E4E3,&H000000FF,&HC8DBDAE1,&HC0000000,-1,0,0,0,100,100,0,0,1,1,0,5,0,0,0,1
+Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-1,0,0,0,100,100,0,0,1,0,0,2,0,0,65,1
+Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
+Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
+Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:01:43.19,0:01:44.40,Dialogue,,0,0,0,,One rainy day, on the way home from school...
+Dialogue: 0,0:01:44.99,0:01:47.61,Dialogue,,0,0,0,,Ayumi{\rHonorifics - Dialogue}-chan{\r} collided with an escaping phantom killer.
+Dialogue: 0,0:01:49.87,0:01:51.87,Dialogue,,0,0,0,,Even though she couldn't see his face...
+Dialogue: 0,0:01:51.87,0:01:57.08,Dialogue,,0,0,0,,She had a mark on her hand that resembled the number 5 from something the culprit owned.
+Dialogue: 0,0:01:57.71,0:01:58.50,Dialogue,,0,0,0,,And then...
+Dialogue: 0,0:01:58.75,0:02:01.00,Dialogue,,0,0,0,,We found the same mark on Genta's butt.
+Dialogue: 0,0:02:04.17,0:02:05.09,Dialogue,,0,0,0,,Could it be...
+Dialogue: 0,0:02:06.47,0:02:07.38,Dialogue,,0,0,0,,This is it!
+Dialogue: 0,0:02:07.39,0:02:08.30,Dialogue,,0,0,0,,This is the mark!
+Dialogue: 0,0:02:08.80,0:02:12.97,Dialogue,,0,0,0,,The key-shaped blood stain on Ayumi{\rHonorifics - Dialogue}-chan{\r}'s sleeve...
+Dialogue: 0,0:02:13.68,0:02:19.40,Dialogue,,0,0,0,,That's the evidence the culprit held the key in his bloodstained hands while escaping.
+Dialogue: 0,0:02:19.94,0:02:20.98,Dialogue,,0,0,0,,In other words...
+Dialogue: 0,0:02:20.98,0:02:23.69,Dialogue,,0,0,0,,The key that will respond to a blood test...
+Dialogue: 0,0:02:23.69,0:02:26.61,Dialogue,,0,0,0,,Will never be shown to the police.
+Dialogue: 0,0:02:30.70,0:02:36.41,Dialogue,,0,0,0,,FIND THE BUTTOCK'S MARK\N(PART TWO)
+Dialogue: 0,0:02:38.25,0:02:39.42,Dialogue,,0,0,0,,Only three?
+Dialogue: 0,0:02:40.29,0:02:42.71,Dialogue,,0,0,0,,Really, Inspector Megure?
+Dialogue: 0,0:02:43.84,0:02:49.30,Dialogue,,0,0,0,,Apparently, one was detained at a checkpoint and the other two were found cruising nearby.
+Dialogue: 0,0:02:49.93,0:02:52.51,Dialogue,,0,0,0,,The car owners are all residents of the area without alibis...
+Dialogue: 0,0:02:52.51,0:02:54.77,Dialogue,,0,0,0,,And they all claim to have lost their master keys.
+Dialogue: 0,0:02:55.81,0:02:56.52,Dialogue,,0,0,0,,At any rate...
+Dialogue: 0,0:02:57.02,0:03:00.73,Dialogue,,0,0,0,,I've had the three of them drive their cars over to your location.
+Dialogue: 0,0:03:01.23,0:03:03.90,Dialogue,,0,0,0,,You've gotten a look at this phantom killer before, haven't you?
+Dialogue: 0,0:03:03.90,0:03:05.19,Dialogue,,0,0,0,,I'll leave the identification to you.
+Dialogue: 0,0:03:05.78,0:03:06.49,Dialogue,,0,0,0,,Understood.
+Dialogue: 0,0:03:08.15,0:03:10.82,Dialogue,,0,0,0,,The three suspects are on their way here now.
+Dialogue: 0,0:03:12.03,0:03:14.62,Dialogue,,0,0,0,,That's as good as knowing who the culprit is!
+Dialogue: 0,0:03:15.54,0:03:18.16,Dialogue,,0,0,0,,Ayumi{\rHonorifics - Dialogue}-chan{\r} heard the culprit yelling before.
+Dialogue: 0,0:03:18.58,0:03:22.38,Dialogue,,0,0,0,,When that guy sees Ayumi, he might just turn pale from fright!
+Dialogue: 0,0:03:23.34,0:03:23.96,Dialogue,,0,0,0,,That's right!
+Dialogue: 0,0:03:24.38,0:03:25.80,Dialogue,,0,0,0,,Ayumi will do her IJest!
+Dialogue: 0,0:03:25.80,0:03:27.17,Dialogue,,0,0,0,,I object.
+Dialogue: 0,0:03:29.76,0:03:32.80,Dialogue,,0,0,0,,If the culprit truly is among those three...
+Dialogue: 0,0:03:32.80,0:03:34.39,Dialogue,,0,0,0,,And you do meet him directly...
+Dialogue: 0,0:03:34.39,0:03:36.35,Dialogue,,0,0,0,,If that results in his arrest, it'll be fine, but...
+Dialogue: 0,0:03:36.89,0:03:40.02,Dialogue,,0,0,0,,If he is acquitted due to a lack of evidence, what will your plan be then?
+Dialogue: 0,0:03:41.73,0:03:44.61,Dialogue,,0,0,0,,The culprit will bear a grudge for placing him in this predicament...
+Dialogue: 0,0:03:44.73,0:03:45.57,Dialogue,,0,0,0,,And target you.
+Dialogue: 0,0:03:45.69,0:03:47.73,Dialogue,,0,0,0,,It's possible he'll exact his revenge on you someday.
+Dialogue: 0,0:03:49.28,0:03:52.41,Dialogue,,0,0,0,,All the more so with an indiscriminate phantom killer, don't you think?
+Dialogue: 0,0:03:53.49,0:03:55.53,Dialogue,,0,0,0,,You're thinking too much, Haibara{\rHonorifics - Dialogue}-san{\r}.
+Dialogue: 0,0:03:56.08,0:04:01.42,Dialogue,,0,0,0,,That's why I say you shouldn't get involved so recklessly without substantial evidence.
+Dialogue: 0,0:04:02.17,0:04:06.30,Dialogue,,0,0,0,,But, I was the nearest and the only person to see the culprit...
+Dialogue: 0,0:04:06.30,0:04:08.26,Dialogue,,0,0,0,,If you have the three of them wear raincoats...
+Dialogue: 0,0:04:08.26,0:04:10.30,Dialogue,,0,0,0,,I may be able to identify the culprit.
+Dialogue: 0,0:04:11.26,0:04:13.55,Dialogue,,0,0,0,,In that case, you can also identify him from photographs, right?
+Dialogue: 0,0:04:14.14,0:04:16.56,Dialogue,,0,0,0,,For his voice, listening to a tape recording will do.
+Dialogue: 0,0:04:17.18,0:04:17.97,Dialogue,,0,0,0,,In any case...
+Dialogue: 0,0:04:17.97,0:04:22.19,Dialogue,,0,0,0,,Don't come into direct contact with the culprit so he doesn't get a stronger impression of you.
+Dialogue: 0,0:04:23.48,0:04:27.73,Dialogue,,0,0,0,,Indeed, as Haibara said, it is too risky to confront the culprit directly.
+Dialogue: 0,0:04:28.48,0:04:34.36,Dialogue,,0,0,0,,Even so, it wasn't easy to narrow it down to just three, so it'd be bad to release them with few questions.
+Dialogue: 0,0:04:34.37,0:04:36.24,Dialogue,,0,0,0,,Moreover, there may be more victims.
+Dialogue: 0,0:04:37.24,0:04:39.66,Dialogue,,0,0,0,,Shall we take the middle road and try looking at them secretly?
+Dialogue: 0,0:04:41.00,0:04:41.96,Dialogue,,0,0,0,,All right.
+Dialogue: 0,0:04:41.96,0:04:43.00,Dialogue,,0,0,0,,Over here.
+Dialogue: 0,0:04:45.59,0:04:46.17,Dialogue,,0,0,0,,Stop!
+Dialogue: 0,0:04:49.42,0:04:51.63,Dialogue,,0,0,0,,Now, step out of your cars one at a time...
+Dialogue: 0,0:04:51.63,0:04:53.13,Dialogue,,0,0,0,,State your name and occupation...
+Dialogue: 0,0:04:53.13,0:04:54.93,Dialogue,,0,0,0,,And tell me, from the time of the crime, around 2:00 PM...
+Dialogue: 0,0:04:55.76,0:04:56.64,Dialogue,,0,0,0,,Just what you were doing.
+Dialogue: 0,0:04:58.10,0:04:59.68,Dialogue,,0,0,0,,Starting from you, on the furthest left.
+Dialogue: 0,0:04:59.68,0:05:01.02,Dialogue,,0,0,0,,Jeez...
+Dialogue: 0,0:05:01.02,0:05:02.64,Dialogue,,0,0,0,,They said it was to help with an investigation...
+Dialogue: 0,0:05:02.64,0:05:04.27,Dialogue,,0,0,0,,Yet we're being treated like criminals.
+Dialogue: 0,0:05:05.19,0:05:10.03,Dialogue Top,,0,0,0,,Enomoto Hiroshi (21)\NPart-Time Sushi Shop Employee.
+Dialogue: 0,0:05:05.19,0:05:07.23,Dialogue,,0,0,0,,I'm Enomoto Hiroshi...
+Dialogue: 0,0:05:07.23,0:05:10.03,Dialogue,,0,0,0,,A university student working part-time at a sushi shop in the 3rd District.
+Dialogue: 0,0:05:10.49,0:05:11.36,Dialogue,,0,0,0,,You bought this working part-time?
+Dialogue: 0,0:05:11.90,0:05:12.78,Dialogue,,0,0,0,,This car?
+Dialogue: 0,0:05:13.07,0:05:15.82,Dialogue,,0,0,0,,No, this was bought with my parents money.
+Dialogue: 0,0:05:15.82,0:05:16.91,Dialogue,,0,0,0,,There a problem with that?
+Dialogue: 0,0:05:17.87,0:05:18.78,Dialogue,,0,0,0,,I see now.
+Dialogue: 0,0:05:19.37,0:05:23.50,Dialogue,,0,0,0,,It isn't possible for them to see us through the smoked glass.
+Dialogue: 0,0:05:23.50,0:05:24.50,Dialogue,,0,0,0,,And?
+Dialogue: 0,0:05:24.50,0:05:27.67,Dialogue,,0,0,0,,Do you remember hearing that man's voice?
+Dialogue: 0,0:05:29.80,0:05:32.17,Dialogue,,0,0,0,,It seems familiar, and yet doesn't...
+Dialogue: 0,0:05:32.76,0:05:34.34,Dialogue,,0,0,0,,I'm off duty today.
+Dialogue: 0,0:05:34.34,0:05:37.51,Dialogue,,0,0,0,,After getting scolded by my parents last night, I was feeling annoyed.
+Dialogue: 0,0:05:37.97,0:05:40.68,Dialogue,,0,0,0,,Just when I decided to go to the mountains to relax...
+Dialogue: 0,0:05:40.68,0:05:43.14,Dialogue,,0,0,0,,I was held up by your investigation.
+Dialogue: 0,0:05:43.73,0:05:44.98,Dialogue,,0,0,0,,"Relax in the mountains?
+Dialogue: 0,0:05:45.52,0:05:46.65,Dialogue,,0,0,0,,Well...
+Dialogue: 0,0:05:46.65,0:05:49.15,Dialogue,,0,0,0,,That place's nice scenery makes it great for relaxing.
+Dialogue: 0,0:05:49.69,0:05:52.69,Dialogue,,0,0,0,,That explains the dents and mud on the body of your car.
+Dialogue: 0,0:05:53.70,0:05:55.78,Dialogue,,0,0,0,,Then, next is you in the middle.
+Dialogue: 0,0:05:56.66,0:05:57.41,Dialogue,,0,0,0,,Yes!
+Dialogue: 0,0:05:59.45,0:06:00.83,Dialogue,,0,0,0,,Don't dent my car!
+Dialogue: 0,0:06:01.33,0:06:03.08,Dialogue,,0,0,0,,I'm sorry...
+Dialogue: 0,0:06:04.79,0:06:07.04,Dialogue,,0,0,0,,I'm not very good at driving...
+Dialogue: 0,0:06:07.58,0:06:09.58,Dialogue,,0,0,0,,But I'm good at repairs.
+Dialogue: 0,0:06:09.59,0:06:11.46,Dialogue,,0,0,0,,Then, your occupation is...
+Dialogue: 0,0:06:12.42,0:06:16.97,Dialogue Top,,0,0,0,,Fukuchi Naokazu (36)\NCar Mechanic.
+Dialogue: 0,0:06:12.42,0:06:13.01,Dialogue,,0,0,0,,Yes...
+Dialogue: 0,0:06:13.01,0:06:16.97,Dialogue,,0,0,0,,I'm a mechanic at a car repair shop, Fukuchi Naokazu.
+Dialogue: 0,0:06:17.59,0:06:20.30,Dialogue,,0,0,0,,The shop is closed today, but...
+Dialogue: 0,0:06:20.31,0:06:24.39,Dialogue,,0,0,0,,Something's wrong with my beloved car, so I've been trying to repair it at work since morning.
+Dialogue: 0,0:06:24.81,0:06:29.02,Dialogue,,0,0,0,,But, according to the report, you cruised around downtown for quite some time...
+Dialogue: 0,0:06:29.48,0:06:32.07,Dialogue,,0,0,0,,In order to check whether the car had been fully repaired...
+Dialogue: 0,0:06:32.07,0:06:34.57,Dialogue,,0,0,0,,I was just taking a few turns around the shopping district.
+Dialogue: 0,0:06:34.57,0:06:35.82,Dialogue,,0,0,0,,Something wrong with that?
+Dialogue: 0,0:06:35.90,0:06:37.03,Dialogue,,0,0,0,,Oh, no...
+Dialogue: 0,0:06:39.41,0:06:40.28,Dialogue,,0,0,0,,Next.
+Dialogue: 0,0:06:43.58,0:06:46.37,Dialogue,,0,0,0,,My name is Degawa Toshiaki.
+Dialogue: 0,0:06:43.58,0:06:49.33,Dialogue Top,,0,0,0,,Degawa Toshiaki (43)\NLock Shop Owner.
+Dialogue: 0,0:06:46.37,0:06:49.33,Dialogue,,0,0,0,,I own a lock shop in the 1st District.
+Dialogue: 0,0:06:50.00,0:06:53.50,Dialogue,,0,0,0,,And still, I lost the master key to my car.
+Dialogue: 0,0:06:53.50,0:06:55.34,Dialogue,,0,0,0,,The blunder of my life, indeed.
+Dialogue: 0,0:06:56.34,0:07:00.55,Dialogue,,0,0,0,,But your car, unlike the other two, is clean and sparkling.
+Dialogue: 0,0:07:00.93,0:07:04.14,Dialogue,,0,0,0,,Oh, I wash it every time I go out.
+Dialogue: 0,0:07:04.14,0:07:06.93,Dialogue,,0,0,0,,This car is the only thing I live for, after all.
+Dialogue: 0,0:07:07.31,0:07:09.52,Dialogue,,0,0,0,,And, where did you go this afternoon?
+Dialogue: 0,0:07:09.85,0:07:13.40,Dialogue,,0,0,0,,There was a call out for helping open the door for someone who'd lost her house keys.
+Dialogue: 0,0:07:14.07,0:07:19.65,Dialogue,,0,0,0,,The woman was really bad at giving directions, so I circled around for ages looking for the address.
+Dialogue: 0,0:07:19.99,0:07:22.87,Dialogue,,0,0,0,,But, in the end, I didn't manage to meet up her.
+Dialogue: 0,0:07:22.87,0:07:26.79,Dialogue,,0,0,0,,She called again to say her boyfriend had brought the spare, so she was fine now.
+Dialogue: 0,0:07:28.33,0:07:30.12,Dialogue,,0,0,0,,Hey, did you notice anything?
+Dialogue: 0,0:07:30.67,0:07:32.21,Dialogue,,0,0,0,,Nothing at all.
+Dialogue: 0,0:07:32.88,0:07:34.50,Dialogue,,0,0,0,,And none of them yelled either.
+Dialogue: 0,0:07:34.80,0:07:38.09,Dialogue,,0,0,0,,The three of them are of similar height and build.
+Dialogue: 0,0:07:38.09,0:07:39.01,Dialogue,,0,0,0,,Hey, you over there!
+Dialogue: 0,0:07:39.47,0:07:40.68,Dialogue,,0,0,0,,Why are you sneaking about?
+Dialogue: 0,0:07:40.68,0:07:42.01,Dialogue,,0,0,0,,Ah, well...
+Dialogue: 0,0:07:43.18,0:07:44.26,Dialogue,,0,0,0,,Detective Takagi!
+Dialogue: 0,0:07:44.72,0:07:46.60,Dialogue,,0,0,0,,I have a favor to ask...
+Dialogue: 0,0:07:49.10,0:07:49.98,Dialogue,,0,0,0,,What is it?
+Dialogue: 0,0:07:51.40,0:07:53.73,Dialogue,,0,0,0,,About that, a little...
+Dialogue: 0,0:07:54.27,0:07:56.19,Dialogue,,0,0,0,,As I thought, I should go over to take a look.
+Dialogue: 0,0:07:57.57,0:08:00.40,Dialogue,,0,0,0,,If I'm right beside them, I may be able to recognize the culprit.
+Dialogue: 0,0:08:00.74,0:08:01.70,Dialogue,,0,0,0,,Don't.
+Dialogue: 0,0:08:01.70,0:08:03.28,Dialogue,,0,0,0,,Didn't I already say?
+Dialogue: 0,0:08:03.28,0:08:05.28,Dialogue,,0,0,0,,If the culprit isn't convicted...
+Dialogue: 0,0:08:05.28,0:08:07.66,Dialogue,,0,0,0,,There's the possibility that it could become dangerous.
+Dialogue: 0,0:08:08.20,0:08:09.29,Dialogue,,0,0,0,,But...
+Dialogue: 0,0:08:10.25,0:08:12.17,Dialogue,,0,0,0,,It's not only you.
+Dialogue: 0,0:08:12.17,0:08:16.67,Dialogue,,0,0,0,,Everyone connected to you may fall victim to the culprit's vengeance.
+Dialogue: 0,0:08:18.88,0:08:22.97,Dialogue,,0,0,0,,I understand your feelings of wanting to bring the bad guy to justice, but do bear with it.
+Dialogue: 0,0:08:23.59,0:08:26.43,Dialogue,,0,0,0,,It also requires courage to hide oneself.
+Dialogue: 0,0:08:27.52,0:08:28.52,Dialogue,,0,0,0,,Right...
+Dialogue: 0,0:08:28.52,0:08:29.60,Dialogue,,0,0,0,,This is the correct choice.
+Dialogue: 0,0:08:30.23,0:08:31.44,Dialogue,,0,0,0,,For your own sake...
+Dialogue: 0,0:08:32.10,0:08:33.27,Dialogue,,0,0,0,,And for others.
+Dialogue: 0,0:08:34.36,0:08:35.19,Dialogue,,0,0,0,,Just like that, all right?
+Dialogue: 0,0:08:36.36,0:08:39.65,Dialogue,,0,0,0,,Ask the forensics team to bring a flathead screwdriver?
+Dialogue: 0,0:08:40.90,0:08:42.86,Dialogue,,0,0,0,,That should make it clear.
+Dialogue: 0,0:08:43.49,0:08:47.41,Dialogue,,0,0,0,,Clear that the one who tried to cover his crime with petty tricks...
+Dialogue: 0,0:08:47.79,0:08:50.91,Dialogue,,0,0,0,,Is not only a liar, but also the phantom killer.
+Dialogue: 0,0:08:51.54,0:08:52.29,Dialogue,,0,0,0,,Right...
+Dialogue: 0,0:08:53.08,0:08:54.08,Dialogue,,0,0,0,,It's that one.
+Dialogue: 0,0:08:54.88,0:08:56.38,Dialogue,,0,0,0,,Well, for the time being...
+Dialogue: 0,0:08:56.38,0:08:59.42,Dialogue,,0,0,0,,The three of you will have to leave your cars in police custody.
+Dialogue: 0,0:09:00.09,0:09:01.88,Dialogue,,0,0,0,,There are more investigations to carry out.
+Dialogue: 0,0:09:02.13,0:09:03.13,Dialogue,,0,0,0,,Hey, hey!
+Dialogue: 0,0:09:03.13,0:09:04.09,Dialogue,,0,0,0,,You must be kidding!
+Dialogue: 0,0:09:04.59,0:09:08.10,Dialogue,,0,0,0,,We're here to assist the Beika police with an investigation!
+Dialogue: 0,0:09:08.68,0:09:11.56,Dialogue,,0,0,0,,Why do we gotta turn over our cars?
+Dialogue: 0,0:09:12.64,0:09:15.27,Dialogue,,0,0,0,,And, I hope you can give us an explanation as to...
+Dialogue: 0,0:09:15.27,0:09:19.07,Dialogue,,0,0,0,,Why we got called all the way out here to be treated as suspects in the phantom killer case...
+Dialogue: 0,0:09:19.94,0:09:23.07,Dialogue,,0,0,0,,If it's solely because we lack alibis for the time of the crime...
+Dialogue: 0,0:09:23.07,0:09:25.82,Dialogue,,0,0,0,,There should be a ton of other suspects apart from us three.
+Dialogue: 0,0:09:26.41,0:09:28.07,Dialogue,,0,0,0,,First of all, it's your cars.
+Dialogue: 0,0:09:28.78,0:09:30.87,Dialogue,,0,0,0,,All of them are of the same make, no?
+Dialogue: 0,0:09:31.45,0:09:32.08,Dialogue,,0,0,0,,Yeah.
+Dialogue: 0,0:09:32.41,0:09:36.17,Dialogue,,0,0,0,,Moreover, all three of you stated that you had lost your master keys.
+Dialogue: 0,0:09:36.50,0:09:41.67,Dialogue,,0,0,0,,While escaping, the culprit dropped the master key with the unique emblem of this make of car on it.
+Dialogue: 0,0:09:42.26,0:09:43.09,Dialogue,,0,0,0,,In addition...
+Dialogue: 0,0:09:43.09,0:09:47.05,Dialogue,,0,0,0,,We were tipped off that the culprit took the key into his then bloodstained hands.
+Dialogue: 0,0:09:48.14,0:09:52.68,Dialogue,,0,0,0,,We also learned that the culprit returned to the scene to check if his identity had been exposed.
+Dialogue: 0,0:09:53.23,0:09:56.77,Dialogue,,0,0,0,,Once we pieced this together and began investigating, we assumed he'd be aware of the suspicion...
+Dialogue: 0,0:09:56.77,0:10:00.69,Dialogue,,0,0,0,,And we also determined that it's highly likely that the culprit is a resident of this neighborhood.
+Dialogue: 0,0:10:01.15,0:10:03.69,Dialogue,,0,0,0,,This is all according to information obtained from an eyewitness.
+Dialogue: 0,0:10:05.36,0:10:06.24,Dialogue,,0,0,0,,In other words...
+Dialogue: 0,0:10:06.24,0:10:08.20,Dialogue,,0,0,0,,The one with this make of car...
+Dialogue: 0,0:10:08.20,0:10:09.57,Dialogue,,0,0,0,,With no alibi...
+Dialogue: 0,0:10:09.58,0:10:11.37,Dialogue,,0,0,0,,And is a resident of this neighborhood...
+Dialogue: 0,0:10:11.37,0:10:15.04,Dialogue,,0,0,0,,Who cannot produce their bloodstained master key to the police...
+Dialogue: 0,0:10:15.04,0:10:17.12,Dialogue,,0,0,0,,Among you three, that one is the culprit.
+Dialogue: 0,0:10:17.63,0:10:21.13,Dialogue,,0,0,0,,But, I really lost my key...
+Dialogue: 0,0:10:21.59,0:10:25.72,Dialogue,,0,0,0,,Well, regarding that, the truth will be revealed with only a simple check...
+Dialogue: 0,0:10:26.18,0:10:27.97,Dialogue,,0,0,0,,By the forensics team.
+Dialogue: 0,0:10:28.68,0:10:29.80,Dialogue,,0,0,0,,A "check"?
+Dialogue: 0,0:10:29.80,0:10:30.51,Dialogue,,0,0,0,,What the-
+Dialogue: 0,0:10:30.72,0:10:33.52,Dialogue,,0,0,0,,It's only a Luminol reaction test.
+Dialogue: 0,0:10:34.23,0:10:35.73,Dialogue,,0,0,0,,Now, Detective Takagi...
+Dialogue: 0,0:10:35.73,0:10:36.81,Dialogue,,0,0,0,,Please start.
+Dialogue: 0,0:10:37.31,0:10:37.94,Dialogue,,0,0,0,,Yeah.
+Dialogue: 0,0:10:38.56,0:10:39.40,Dialogue,,0,0,0,,Well then...
+Dialogue: 0,0:10:39.40,0:10:41.52,Dialogue,,0,0,0,,Please proceed as we discussed on the phone.
+Dialogue: 0,0:10:41.52,0:10:42.27,Dialogue,,0,0,0,,Understood.
+Dialogue: 0,0:10:44.03,0:10:46.95,Dialogue,,0,0,0,,Let's start from Enomoto{\rHonorifics - Dialogue}-san{\r} on the furthest left.
+Dialogue: 0,0:10:46.95,0:10:47.65,Dialogue,,0,0,0,,Hey, hey!
+Dialogue: 0,0:10:47.91,0:10:51.70,Dialogue,,0,0,0,,You're not thinking of looking for the master key by rummaging around my car, are you?
+Dialogue: 0,0:10:52.16,0:10:54.37,Dialogue,,0,0,0,,That's too much, even for the police...
+Dialogue: 0,0:10:55.20,0:10:56.58,Dialogue,,0,0,0,,We won't be inspecting the interior of the car.
+Dialogue: 0,0:10:58.00,0:10:59.21,Dialogue,,0,0,0,,Say, Conan{\rHonorifics - Dialogue}-kun{\r}...
+Dialogue: 0,0:10:59.42,0:11:01.29,Dialogue,,0,0,0,,Exactly what are you investigating?
+Dialogue: 0,0:11:01.79,0:11:03.71,Dialogue,,0,0,0,,If I were the culprit...
+Dialogue: 0,0:11:03.71,0:11:07.09,Dialogue,,0,0,0,,I would have thrown away the bloodstained key.
+Dialogue: 0,0:11:07.47,0:11:08.47,Dialogue,,0,0,0,,Idiot...
+Dialogue: 0,0:11:08.47,0:11:10.14,Dialogue,,0,0,0,,We're not investigating the key.
+Dialogue: 0,0:11:11.47,0:11:14.26,Dialogue,,0,0,0,,We're looking to see if, when the culprit escaped from the scene via their car...
+Dialogue: 0,0:11:14.27,0:11:18.44,Dialogue,,0,0,0,,They inserted the key itself into the driver's side door.
+Dialogue: 0,0:11:18.89,0:11:19.94,Dialogue,,0,0,0,,I see!
+Dialogue: 0,0:11:19.94,0:11:22.40,Dialogue,,0,0,0,,It should have been stained with blood as well, right?
+Dialogue: 0,0:11:22.40,0:11:23.48,Dialogue,,0,0,0,,But...
+Dialogue: 0,0:11:23.48,0:11:25.86,Dialogue,,0,0,0,,If there was only a little stain...
+Dialogue: 0,0:11:25.86,0:11:27.15,Dialogue,,0,0,0,,Will it really still show up.
+Dialogue: 0,0:11:27.78,0:11:29.03,Dialogue,,0,0,0,,Absolutely.
+Dialogue: 0,0:11:29.03,0:11:33.41,Dialogue,,0,0,0,,Luminol is very sensitive to it and will react to even the slightest presence of blood.
+Dialogue: 0,0:11:33.99,0:11:36.95,Dialogue,,0,0,0,,Right, the culprit may try to hide this...
+Dialogue: 0,0:11:36.95,0:11:38.96,Dialogue,,0,0,0,,And might have lied or done something on the sly.
+Dialogue: 0,0:11:39.25,0:11:40.67,Dialogue,,0,0,0,,Lied? On the sly?
+Dialogue: 0,0:11:41.33,0:11:43.08,Dialogue,,0,0,0,,Try and reca.
+Dialogue: 0,0:11:43.09,0:11:46.59,Dialogue,,0,0,0,,What did the three of them each say they were doing during the time of the crime?
+Dialogue: 0,0:11:46.88,0:11:47.92,Dialogue,,0,0,0,,Let me see...
+Dialogue: 0,0:11:48.30,0:11:53.39,Dialogue,,0,0,0,,Enomoto{\rHonorifics - Dialogue}-san{\r} said he was going to the mountains for a drive...
+Dialogue: 0,0:11:54.18,0:11:59.31,Dialogue,,0,0,0,,Fukuchi{\rHonorifics - Dialogue}-san{\r} said he wanted to test his car repairs and cruised around the shopping area...
+Dialogue: 0,0:12:00.02,0:12:03.65,Dialogue,,0,0,0,,Degawa{\rHonorifics - Dialogue}-san{\r} said he was looking for the house of a client who'd lost her keys...
+Dialogue: 0,0:12:03.65,0:12:05.77,Dialogue,,0,0,0,,And ended up going around in circles downtown.
+Dialogue: 0,0:12:05.78,0:12:07.69,Dialogue,,0,0,0,,How did these people lie?
+Dialogue: 0,0:12:08.32,0:12:09.61,Dialogue,,0,0,0,,Well, take a look.
+Dialogue: 0,0:12:10.11,0:12:13.53,Dialogue,,0,0,0,,Degawa{\rHonorifics - Dialogue}-san{\r}, who treats his car as though it were his life, has his clean and sparkling...
+Dialogue: 0,0:12:13.53,0:12:17.24,Dialogue,,0,0,0,,Fukuchi{\rHonorifics - Dialogue}-san{\r}, who is bad at driving, parked his car extremely close to the one next to his...
+Dialogue: 0,0:12:17.24,0:12:21.62,Dialogue,,0,0,0,,And Enomoto{\rHonorifics - Dialogue}-san{\r}, who likes driving, has a car covered with numerous dents and a lot of mud.
+Dialogue: 0,0:12:22.25,0:12:23.33,Dialogue,,0,0,0,,Get it yet?
+Dialogue: 0,0:12:25.04,0:12:26.84,Dialogue,,0,0,0,,Not at all.
+Dialogue: 0,0:12:27.09,0:12:30.34,Dialogue,,0,0,0,,Well, if Genta wanted to practice biking, what would you do?
+Dialogue: 0,0:12:30.34,0:12:33.18,Dialogue,,0,0,0,,Of course I would practice it when Mom's around.
+Dialogue: 0,0:12:33.18,0:12:35.35,Dialogue,,0,0,0,,Probably on a road people hardly use.
+Dialogue: 0,0:12:35.81,0:12:37.72,Dialogue,,0,0,0,,It'd be dangerous to run into someone.
+Dialogue: 0,0:12:38.10,0:12:39.10,Dialogue,,0,0,0,,Ah, I see!
+Dialogue: 0,0:12:39.77,0:12:41.43,Dialogue,,0,0,0,,Fukuchi{\rHonorifics - Dialogue}-san{\r} is lying!
+Dialogue: 0,0:12:41.44,0:12:43.27,Dialogue,,0,0,0,,If he's bad at driving...
+Dialogue: 0,0:12:43.27,0:12:46.48,Dialogue,,0,0,0,,He wouldn't have driven downtown where there are lots of people!
+Dialogue: 0,0:12:47.02,0:12:50.69,Dialogue,,0,0,0,,Moreover, at the time of the crime, it was raining and visibility was poor.
+Dialogue: 0,0:12:51.24,0:12:55.20,Dialogue,,0,0,0,,Test driving the car repairs under those conditions would be the worst course of action.
+Dialogue: 0,0:12:55.87,0:12:59.66,Dialogue,,0,0,0,,Furthermore, Fukuchi{\rHonorifics - Dialogue}-san{\r} managed to align his car neatly with the one opposite his.
+Dialogue: 0,0:13:00.08,0:13:02.21,Dialogue,,0,0,0,,This is proof of his superb driving skills.
+Dialogue: 0,0:13:02.79,0:13:06.08,Dialogue,,0,0,0,,If he were so poor at driving, it'd have been at least slightly slanted.
+Dialogue: 0,0:13:06.50,0:13:10.42,Dialogue,,0,0,0,,In that case, could it be that the culprit is the lying Fukuchi{\rHonorifics - Dialogue}-san{\r}?
+Dialogue: 0,0:13:10.72,0:13:11.30,Dialogue,,0,0,0,,Yeah.
+Dialogue: 0,0:13:11.67,0:13:15.34,Dialogue,,0,0,0,,He parked exceptionally close in order to make it difficult to investigate the keyhole.
+Dialogue: 0,0:13:15.80,0:13:18.05,Dialogue,,0,0,0,,But this will be his last-ditch struggle.
+Dialogue: 0,0:13:18.06,0:13:18.93,Dialogue,,0,0,0,,Look.
+Dialogue: 0,0:13:18.93,0:13:21.02,Dialogue,,0,0,0,,If you move the adjacent car slightly...
+Dialogue: 0,0:13:21.02,0:13:24.10,Dialogue,,0,0,0,,The keyhole on the driver's side door is accessible.
+Dialogue: 0,0:13:24.27,0:13:26.94,Dialogue,,0,0,0,,And when you conduct a Luminol test on the keyhole, you'll find...
+Dialogue: 0,0:13:27.65,0:13:31.86,Dialogue,,0,0,0,,The bluish-purple fluorescent reaction that occurs from the interaction of Luminol and blood.
+Dialogue: 0,0:13:35.11,0:13:36.16,Dialogue,,0,0,0,,That's odd...
+Dialogue: 0,0:13:36.16,0:13:37.12,Dialogue,,0,0,0,,There's no reaction.
+Dialogue: 0,0:13:39.24,0:13:40.03,Dialogue,,0,0,0,,No way!
+Dialogue: 0,0:13:56.39,0:13:57.51,Dialogue,,0,0,0,,Really?
+Dialogue: 0,0:13:57.80,0:13:59.10,Dialogue,,0,0,0,,Wait...
+Dialogue: 0,0:13:59.10,0:14:00.51,Dialogue,,0,0,0,,What's going on, Takagi{\rHonorifics - Dialogue}-kun{\r}?
+Dialogue: 0,0:14:01.35,0:14:04.43,Dialogue,,0,0,0,,Weren't you full of confidence that this method would uncover the culprit?
+Dialogue: 0,0:14:04.77,0:14:08.40,Dialogue,,0,0,0,,Well, it should have worked, but...
+Dialogue: 0,0:14:28.21,0:14:29.54,Dialogue,,0,0,0,,Hey, Mister...
+Dialogue: 0,0:14:29.54,0:14:31.71,Dialogue,,0,0,0,,May I borrow a flathead screwdriver?
+Dialogue: 0,0:14:32.55,0:14:33.80,Dialogue,,0,0,0,,A flathead screwdriver?
+Dialogue: 0,0:14:34.76,0:14:35.30,Dialogue,,0,0,0,,Here.
+Dialogue: 0,0:14:36.68,0:14:37.59,Dialogue,,0,0,0,,Thank you.
+Dialogue: 0,0:14:38.64,0:14:39.59,Dialogue,,0,0,0,,Well?
+Dialogue: 0,0:14:39.60,0:14:41.05,Dialogue,,0,0,0,,Are you satisfied now?
+Dialogue: 0,0:14:41.39,0:14:43.93,Dialogue,,0,0,0,,Since there weren't positive reactions from any of our cars...
+Dialogue: 0,0:14:43.93,0:14:45.60,Dialogue,,0,0,0,,Can you let us go now?
+Dialogue: 0,0:14:46.06,0:14:48.56,Dialogue,,0,0,0,,It's obvious none of us is the phantom killer.
+Dialogue: 0,0:14:48.90,0:14:50.81,Dialogue,,0,0,0,,Now, now - please calm down.
+Dialogue: 0,0:14:54.40,0:14:56.24,Dialogue,,0,0,0,,What happened, Conan{\rHonorifics - Dialogue}-kun{\r}?
+Dialogue: 0,0:14:56.78,0:14:58.45,Dialogue,,0,0,0,,It's different from what you-
+Dialogue: 0,0:14:59.66,0:15:00.78,Dialogue,,0,0,0,,Where's Conan{\rHonorifics - Dialogue}-kun{\r}?
+Dialogue: 0,0:15:01.37,0:15:03.54,Dialogue,,0,0,0,,He just went over to where you were.
+Dialogue: 0,0:15:03.54,0:15:06.25,Dialogue,,0,0,0,,In order to borrow a flathead screwdriver from one of the forensics people.
+Dialogue: 0,0:15:14.96,0:15:18.01,Dialogue,,0,0,0,,When you press down on this keyhole, it moves...
+Dialogue: 0,0:15:20.89,0:15:22.10,Dialogue,,0,0,0,,Why is that so?
+Dialogue: 0,0:15:32.48,0:15:34.27,Dialogue,,0,0,0,,Hey, little boy!
+Dialogue: 0,0:15:41.91,0:15:44.66,Dialogue,,0,0,0,,The key cylinder was lined with vinyl tape!
+Dialogue: 0,0:15:46.04,0:15:47.16,Dialogue,,0,0,0,,I see now.
+Dialogue: 0,0:15:47.62,0:15:50.12,Dialogue,,0,0,0,,He predicted it would be investigated by the police...
+Dialogue: 0,0:15:50.12,0:15:53.25,Dialogue,,0,0,0,,So he installed another car's key cylinder temporarily.
+Dialogue: 0,0:15:53.59,0:15:54.29,Dialogue,,0,0,0,,Then...
+Dialogue: 0,0:15:54.38,0:15:56.75,Dialogue,,0,0,0,,The real reason he parked so close to the car beside his...
+Dialogue: 0,0:15:57.26,0:15:58.67,Dialogue,,0,0,0,,He wanted to hide this.
+Dialogue: 0,0:15:59.17,0:16:01.68,Dialogue,,0,0,0,,If you don't open the door and remove the outer cover like this...
+Dialogue: 0,0:16:02.39,0:16:05.76,Dialogue,,0,0,0,,It's impossible to evaluate the internal part of the key cylinder.
+Dialogue: 0,0:16:06.39,0:16:07.52,Dialogue,,0,0,0,,Then, could it be...
+Dialogue: 0,0:16:09.31,0:16:12.56,Dialogue,,0,0,0,,Conan{\rHonorifics - Dialogue}-kun{\r} predicted this at the start...
+Dialogue: 0,0:16:14.98,0:16:16.23,Dialogue,,0,0,0,,Ah, no...
+Dialogue: 0,0:16:16.23,0:16:19.11,Dialogue,,0,0,0,,This really is this car's key cylinder!
+Dialogue: 0,0:16:19.74,0:16:22.61,Dialogue,,0,0,0,,Because I carelessly broke it while installing it...
+Dialogue: 0,0:16:22.62,0:16:25.62,Dialogue,,0,0,0,,I decided to just secure it like this before buying a new one!
+Dialogue: 0,0:16:26.41,0:16:28.29,Dialogue,,0,0,0,,Then, can we have a look?
+Dialogue: 0,0:16:28.29,0:16:29.91,Dialogue,,0,0,0,,At the car keys.
+Dialogue: 0,0:16:29.91,0:16:32.21,Dialogue,,0,0,0,,And also the key number engraved on the key.
+Dialogue: 0,0:16:33.17,0:16:35.96,Dialogue,,0,0,0,,As a car mechanic, you should know about it.
+Dialogue: 0,0:16:35.96,0:16:39.46,Dialogue,,0,0,0,,There's a number engraved on the key cylinder on the driver's side.
+Dialogue: 0,0:16:40.22,0:16:43.47,Dialogue,,0,0,0,,Once we compare that with what's on the key, we can tell if it's the original set or not.
+Dialogue: 0,0:16:44.09,0:16:45.14,Dialogue,,0,0,0,,Additionally...
+Dialogue: 0,0:16:45.14,0:16:50.60,Dialogue,,0,0,0,,We could also use some Luminol reagent on the ignition keyhole near the steering wheel.
+Dialogue: 0,0:16:51.23,0:16:53.48,Dialogue,,0,0,0,,It will definitely react positively for blood.
+Dialogue: 0,0:16:54.02,0:16:57.19,Dialogue,,0,0,0,,The lock for the engine is very secure...
+Dialogue: 0,0:16:57.19,0:16:59.61,Dialogue,,0,0,0,,And isn't something that can be changed in such a short timeframe.
+Dialogue: 0,0:17:02.70,0:17:03.70,Dialogue,,0,0,0,,I understand.
+Dialogue: 0,0:17:04.28,0:17:06.32,Dialogue,,0,0,0,,I will have to show you the key number...
+Dialogue: 0,0:17:13.37,0:17:16.75,Dialogue,,0,0,0,,About that, I remember the key was in the glove box...
+Dialogue: 0,0:17:22.97,0:17:24.47,Dialogue,,0,0,0,,Hey, open up!
+Dialogue: 0,0:17:45.99,0:17:49.03,Dialogue,,0,0,0,,When asked about his motive later, the guy said...
+Dialogue: 0,0:17:49.03,0:17:51.74,Dialogue,,0,0,0,,He wanted to commit a noteworthy crime to garner the world's attention.
+Dialogue: 0,0:17:52.29,0:17:55.50,Dialogue,,0,0,0,,As well as to spice up the mundanity of everyday life.
+Dialogue: 0,0:17:56.29,0:18:01.09,Dialogue,,0,0,0,,However, since in this series of phantom killer cases, there were no fatalities...
+Dialogue: 0,0:18:02.80,0:18:04.59,Dialogue,,0,0,0,,That doesn't redeem him at all.
+Dialogue: 0,0:18:05.63,0:18:06.55,Dialogue,,0,0,0,,At any rate...
+Dialogue: 0,0:18:06.55,0:18:09.05,Dialogue,,0,0,0,,The crimes committed by this dumb, attention-seeking criminal...
+Dialogue: 0,0:18:09.05,0:18:12.35,Dialogue,,0,0,0,,Generated only a small disturbance for the police around Beika...
+Dialogue: 0,0:18:12.35,0:18:13.89,Dialogue,,0,0,0,,And ended on a quiet note.
+Dialogue: 0,0:18:17.90,0:18:19.65,Dialogue,,0,0,0,,But, thank goodness!
+Dialogue: 0,0:18:19.65,0:18:21.11,Dialogue,,0,0,0,,The culprit was captured!
+Dialogue: 0,0:18:21.36,0:18:24.19,Dialogue,,0,0,0,,Now Ayumi{\rHonorifics - Dialogue}-chan{\r} doesn't have to worry about being targeted.
+Dialogue: 0,0:18:24.99,0:18:27.16,Dialogue,,0,0,0,,It'd be OK, even if I was targeted.
+Dialogue: 0,0:18:30.83,0:18:32.79,Dialogue,,0,0,0,,Because Conan{\rHonorifics - Dialogue}-kun{\r} would protect me.
+Dialogue: 0,0:18:33.20,0:18:34.41,Dialogue,,0,0,0,,Hey, hey...
+Dialogue: 0,0:18:37.83,0:18:38.88,Dialogue,,0,0,0,,Of course...
+Dialogue: 0,0:18:38.88,0:18:41.92,Dialogue,,0,0,0,,I can depend on Mitsuhiko{\rHonorifics - Dialogue}-kun{\r}, Genta{\rHonorifics - Dialogue}-kun{\r}, and Ai{\rHonorifics - Dialogue}-chan{\r} too.
+Dialogue: 0,0:18:42.63,0:18:44.01,Dialogue,,0,0,0,,I'd be fine!
+Dialogue: 0,0:18:45.80,0:18:46.67,Dialogue,,0,0,0,,Yeah...
+Dialogue: 0,0:18:53.31,0:18:53.89,Dialogue,,0,0,0,,Sorry.
+Dialogue: 0,0:18:55.60,0:18:58.23,Dialogue,,0,0,0,,I need to attend to something.
+Dialogue: 0,0:19:00.36,0:19:01.19,Dialogue,,0,0,0,,Bye-bye.
+Dialogue: 0,0:19:07.61,0:19:08.78,Dialogue,,0,0,0,,Bye-bye!
+Dialogue: 0,0:19:08.78,0:19:09.95,Dialogue,,0,0,0,,See you later!
+Dialogue: 0,0:20:45.17,0:20:46.79,Dialogue,,0,0,0,,Oh, I'm so glad...
+Dialogue: 0,0:20:47.67,0:20:49.51,Dialogue,,0,0,0,,That you've come to visit me.
+Dialogue: 0,0:20:51.76,0:20:52.88,Dialogue,,0,0,0,,If I give it any more time...
+Dialogue: 0,0:20:54.09,0:20:56.60,Dialogue,,0,0,0,,I might change my mind again.
+Dialogue: 0,0:20:57.26,0:21:02.56,Dialogue,,0,0,0,,Then, you've already decided whether you want to accept the Witness Protection Program offer?
+Dialogue: 0,0:21:03.35,0:21:03.90,Dialogue,,0,0,0,,Yes.
+Dialogue: 0,0:21:05.11,0:21:06.23,Dialogue,,0,0,0,,Of course.
+Dialogue: 0,0:21:11.65,0:21:12.57,Dialogue,,0,0,0,,Of course...
+Dialogue: 0,0:21:13.66,0:21:14.70,Dialogue,,0,0,0,,I refuse.
+Dialogue: 0,0:21:18.58,0:21:23.58,Dialogue,,0,0,0,,Indeed, it may be safer to become someone else by changing my name and address, but...
+Dialogue: 0,0:21:24.33,0:21:26.75,Dialogue,,0,0,0,,In the end, it will all repeat again.
+Dialogue: 0,0:21:27.38,0:21:29.75,Dialogue,,0,0,0,,To stay in hiding and to live in fear...
+Dialogue: 0,0:21:29.76,0:21:32.09,Dialogue,,0,0,0,,If my identity seems exposed, I have to become someone else yet again.
+Dialogue: 0,0:21:32.88,0:21:34.01,Dialogue,,0,0,0,,There's no end in sight.
+Dialogue: 0,0:21:34.47,0:21:35.59,Dialogue,,0,0,0,,Moreover...
+Dialogue: 0,0:21:35.59,0:21:39.39,Dialogue,,0,0,0,,There's no proof that I should completely trust in the FBI.
+Dialogue: 0,0:21:40.60,0:21:41.39,Dialogue,,0,0,0,,And...
+Dialogue: 0,0:21:41.85,0:21:42.77,Dialogue,,0,0,0,,And...
+Dialogue: 0,0:21:44.81,0:21:47.94,Dialogue,,0,0,0,,I understand your feelings of wanting to bring the bad guy to justice, but...
+Dialogue: 0,0:21:47.94,0:21:50.61,Dialogue,,0,0,0,,It also requires courage to hide oneself.
+Dialogue: 0,0:21:51.15,0:21:52.40,Dialogue,,0,0,0,,But...
+Dialogue: 0,0:21:53.03,0:21:54.07,Dialogue,,0,0,0,,But I...
+Dialogue: 0,0:21:54.70,0:21:55.70,Dialogue,,0,0,0,,I don't want to run away!
+Dialogue: 0,0:21:57.66,0:21:59.49,Dialogue,,0,0,0,,If I keep on running away, I can't win!
+Dialogue: 0,0:22:05.83,0:22:07.00,Dialogue,,0,0,0,,It's because I don't want to run away...
+Dialogue: 0,0:22:11.51,0:22:13.01,Dialogue,,0,0,0,,As I expected...
+Dialogue: 0,0:22:14.09,0:22:15.84,Dialogue,,0,0,0,,You're not going to object?
+Dialogue: 0,0:22:15.84,0:22:16.59,Dialogue,,0,0,0,,Yeah.
+Dialogue: 0,0:22:17.22,0:22:20.89,Dialogue,,0,0,0,,As an FBI agent, I'm entirely against it, of course.
+Dialogue: 0,0:22:23.02,0:22:24.35,Dialogue,,0,0,0,,But...
+Dialogue: 0,0:22:24.35,0:22:27.44,Dialogue,,0,0,0,,As a girl who was once on the run for her life...
+Dialogue: 0,0:22:29.44,0:22:32.57,Dialogue,,0,0,0,,I hope that you can treasure those feelings right now.
+Dialogue: 0,0:22:34.99,0:22:35.78,Dialogue,,0,0,0,,Do your best.
+Dialogue: 0,0:22:40.99,0:22:41.58,Dialogue,,0,0,0,,See you.
+Dialogue: 0,0:22:56.13,0:22:57.47,Dialogue,,0,0,0,,Geez...
+Dialogue: 0,0:22:57.47,0:23:00.34,Dialogue,,0,0,0,,Itis as though I was looking at the younger you.
+Dialogue: 0,0:23:00.93,0:23:04.18,Dialogue,,0,0,0,,The you who kept refusing to join the Witness Protection Program...
+Dialogue: 0,0:23:04.18,0:23:08.56,Dialogue,,0,0,0,,And instead insisted on joining the FBI as a condition for accepting.
+Dialogue: 0,0:23:09.35,0:23:11.27,Dialogue,,0,0,0,,That's different, James.
+Dialogue: 0,0:23:12.11,0:23:14.90,Dialogue,,0,0,0,,That which I lacked at that time...
+Dialogue: 0,0:23:15.32,0:23:17.19,Dialogue,,0,0,0,,It seems she already has it.
+Dialogue: 0,0:23:20.37,0:23:21.07,Dialogue,,0,0,0,,Right...
+Dialogue: 0,0:23:21.62,0:23:25.83,Dialogue,,0,0,0,,While it's extremely hazardous and is something that could become a disaster...
+Dialogue: 0,0:23:27.08,0:23:29.92,Dialogue,,0,0,0,,It's stil really heartwarming and conceals great courage.
+Dialogue: 0,0:23:47.81,0:23:50.56,Dialogue,,0,0,0,,There's this feeling of nostalgia...
+Dialogue: 0,0:23:51.56,0:23:53.40,Dialogue,,0,0,0,,This is what they call "Nosutara Jiji, huh?
+Dialogue: 0,0:23:57.19,0:23:59.74,Dialogue,,0,0,0,,Beware of fire hazards!
+Dialogue: 0,0:23:59.74,0:24:00.70,Dialogue,,0,0,0,,Huh?
+Dialogue: 0,0:24:00.70,0:24:01.36,Dialogue,,0,0,0,,Where's Ayumi?
+Dialogue: 0,0:24:02.16,0:24:03.78,Dialogue,,0,0,0,,Wait, don't leave me behind!
+Dialogue: 0,0:24:10.08,0:24:10.87,Dialogue,,0,0,0,,Could it be...
+Dialogue: 0,0:24:11.08,0:24:17.09,Dialogue,,0,0,0,,A WORLDLY INHERITANCE\N(PART ONE)
+Dialogue: 0,0:24:17.09,0:24:22.09,Dialogue,,0,0,0,,NEXT CONAN\NS HINT
