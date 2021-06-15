@@ -1,0 +1,437 @@
+[Script Info]
+Title: Detective Conan - 0204
+TL Source: DCTP
+ScriptType: v4.00+
+WrapStyle: 3
+PlayResX: 1440
+PlayResY: 1080
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Dialogue,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00401311,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Dialogue Top,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00401311,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,8,30,30,55,1
+Style: Signs,FrancophilSans,74,&H14FFFFFF,&H00FFFFFF,&H46101010,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,8,30,30,55,1
+Style: Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,0,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Radio,FrancophilSans,74,&H00BEE1FF,&H00FFFFFF,&H000B2A42,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Narration,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00BF6F00,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Narration Off,FrancophilSans,74,&H6E8C6F00,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,0,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Flashback,FrancophilSans,74,&H00CDFAFF,&H00FFFFFF,&H00373737,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Flashback Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00CCFFFF,&HC0313134,-1,0,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Honorifics - Dialogue,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00401311,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Signs,FrancophilSans,74,&H14FFFFFF,&H00FFFFFF,&H46101010,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,-1,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Honorifics - Radio,FrancophilSans,74,&H00BEE1FF,&H00FFFFFF,&H000B2A42,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Narration,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00BF6F00,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Narration Off,FrancophilSans,74,&H6E8C6F00,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,-1,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Honorifics - Flashback,FrancophilSans,74,&H00CDFAFF,&H00FFFFFF,&H00373737,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Flashback Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00CCFFFF,&HC0313134,-1,-1,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Masks,FrancophilSans,74,&H00000000,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,2,0,0,0,1
+Style: Title,Conan Episode Title,74,&H00E1E4E3,&H000000FF,&HC8DBDAE1,&HC0000000,-1,0,0,0,100,100,0,0,1,1,0,5,0,0,0,1
+Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-1,0,0,0,100,100,0,0,1,0,0,2,0,0,65,1
+Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
+Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
+Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:02.22,0:00:03.68,Dialogue,,0,0,0,,There is no shape to flowing water.
+Dialogue: 0,0:00:03.68,0:00:05.25,Dialogue,,0,0,0,,There is no figure to flowing wind.
+Dialogue: 0,0:00:05.25,0:00:07.02,Dialogue,,0,0,0,,No matter the case, the deduction is free.
+Dialogue: 0,0:00:07.02,0:00:08.77,Dialogue,,0,0,0,,Today, the case is solved.
+Dialogue: 0,0:00:08.77,0:00:10.60,Dialogue,,0,0,0,,A most unexpected killer, unexpected motive and unexpected trick.
+Dialogue: 0,0:00:10.60,0:00:12.42,Dialogue,,0,0,0,,Perceiving the one and only truth,
+Dialogue: 0,0:00:12.42,0:00:14.17,Dialogue,,0,0,0,,A child with the intellect of an adult...
+Dialogue: 0,0:00:14.17,0:00:16.32,Dialogue,,0,0,0,,His name is: Detective Conan.
+Dialogue: 0,0:01:41.40,0:01:44.97,Dialogue,,0,0,0,,We took a summer trip and arrived at Hotel Arimori,
+Dialogue: 0,0:01:44.97,0:01:46.48,Dialogue,,0,0,0,,located in the mountains of Nagano.
+Dialogue: 0,0:01:48.34,0:01:52.54,Dialogue,,0,0,0,,We ran into business man Mr. Hidehiko Shiromoto and
+Dialogue: 0,0:01:52.82,0:01:55.77,Dialogue,,0,0,0,,his wife, actress Chizuru Bizen there.
+Dialogue: 0,0:01:56.97,0:02:01.11,Dialogue,,0,0,0,,The following day, Ran, Mr. Arimori and Shinobu went to the highlands,
+Dialogue: 0,0:02:02.20,0:02:04.91,Dialogue,,0,0,0,,while Mr. Shiromoto and Mr. Miyabe went out fishing on the lake.
+Dialogue: 0,0:02:06.40,0:02:10.00,Dialogue,,0,0,0,,Night falls, and since Chizuru had not come out of her room at all,
+Dialogue: 0,0:02:10.00,0:02:11.40,Dialogue,,0,0,0,,we went to her room to check on her...
+Dialogue: 0,0:02:16.71,0:02:18.40,Dialogue,,0,0,0,,Chizuru didn't commit suicide...
+Dialogue: 0,0:02:20.17,0:02:22.02,Dialogue,,0,0,0,,She was killed by someone!
+Dialogue: 0,0:02:23.83,0:02:29.92,Signs,Sign,0,0,0,,THE BLACK WINGS OF ICARUS\N(PART TWO)
+Dialogue: 0,0:02:30.21,0:02:33.38,Signs,Sign,0,0,0,,Plateau
+Dialogue: 0,0:02:30.21,0:02:33.38,Signs,Sign,0,0,0,,8:00 P.M.
+Dialogue: 0,0:02:35.42,0:02:36.38,Dialogue,,0,0,0,,Arimori{\rHonorifics - Dialogue}-san{\r}?
+Dialogue: 0,0:02:36.67,0:02:38.05,Dialogue,,0,0,0,,Arimori{\rHonorifics - Dialogue}-san{\r}!
+Dialogue: 0,0:02:38.80,0:02:39.55,Dialogue,,0,0,0,,Where is he?
+Dialogue: 0,0:02:39.55,0:02:40.43,Dialogue,,0,0,0,,Arimori{\rHonorifics - Dialogue}-san{\r}?
+Dialogue: 0,0:02:40.59,0:02:41.22,Dialogue,,0,0,0,,I'm over here!
+Dialogue: 0,0:02:43.30,0:02:46.22,Character Card,Sign,0,0,0,,Hotel Manager
+Dialogue: 0,0:02:43.30,0:02:46.22,Character Card,Sign,0,0,0,,Arimori Mitsuyuki (32)
+Dialogue: 0,0:02:43.81,0:02:46.22,Dialogue Top,,0,0,0,,The stars were so beautiful that I got lost in them.
+Dialogue: 0,0:02:46.64,0:02:48.52,Dialogue,,0,0,0,,Jeez, Arimori{\rHonorifics - Dialogue}-san{\r}...
+Dialogue: 0,0:02:52.48,0:02:53.56,Dialogue,,0,0,0,,Hello?
+Dialogue: 0,0:02:53.56,0:02:54.73,Dialogue,,0,0,0,,Oh, Minaho{\rHonorifics - Dialogue}-kun{\r}?
+Dialogue: 0,0:02:56.32,0:02:56.73,Dialogue,,0,0,0,,What'd you say!?
+Dialogue: 0,0:02:58.36,0:02:59.03,Dialogue,,0,0,0,,Got it!
+Dialogue: 0,0:02:59.03,0:02:59.65,Dialogue,,0,0,0,,I'll be there right away!
+Dialogue: 0,0:03:00.20,0:03:02.07,Character Card,Sign,0,0,0,,Simon Shinobu (27)\NHotel Arimori Chef
+Dialogue: 0,0:03:00.91,0:03:01.70,Dialogue Top,,0,0,0,,Did something happen?
+Dialogue: 0,0:03:02.82,0:03:04.24,Dialogue,,0,0,0,,It looks like Chizuru{\rHonorifics - Dialogue}-san{\r} passed away...
+Dialogue: 0,0:03:05.62,0:03:08.04,Dialogue,,0,0,0,,Let's leave the bus here and get back to the hotel.
+Dialogue: 0,0:03:09.12,0:03:09.50,Dialogue,,0,0,0,,Right!
+Dialogue: 0,0:03:10.29,0:03:13.08,Signs,Sign,0,0,0,,Hotel
+Dialogue: 0,0:03:10.29,0:03:13.08,Signs,Sign,0,0,0,,8:20 P.M.
+Dialogue: 0,0:03:11.83,0:03:13.08,Dialogue Top,,0,0,0,,The deceased is...
+Dialogue: 0,0:03:13.08,0:03:15.55,Dialogue Top,,0,0,0,,The actress, Bizen Chizuru{\rHonorifics - Dialogue}-san{\r}, age thirty.
+Dialogue: 0,0:03:16.09,0:03:20.51,Dialogue,,0,0,0,,She was lodging at this hotel with her\Nhusband, Shiromoto Hidehiko{\rHonorifics - Dialogue}-san{\r}.
+Dialogue: 0,0:03:21.97,0:03:23.26,Dialogue,,0,0,0,,What's the estimated time of death?
+Dialogue: 0,0:03:24.39,0:03:28.56,Dialogue,,0,0,0,,The estimated time of death is between 1:30 P.M. and 2:30 P.M.
+Dialogue: 0,0:03:29.23,0:03:32.48,Dialogue,,0,0,0,,The cause of death is likely to be\Nsuffocation from a blocked airway.
+Dialogue: 0,0:03:32.81,0:03:38.19,Character Card,Sign,0,0,0,,Mito Kouichi (33)\NNagano Province Detective
+Dialogue: 0,0:03:33.06,0:03:38.15,Dialogue Top,,0,0,0,,At the time that you discovered the body,\Nis it true that the door guard was active?
+Dialogue: 0,0:03:38.78,0:03:43.20,Dialogue,,0,0,0,,Yes, that's why I had no choice but to\Nbreak the door open with a tackle.
+Dialogue: 0,0:03:43.87,0:03:46.87,Dialogue,,0,0,0,,The windows were locked from the inside as well.
+Dialogue: 0,0:03:46.87,0:03:48.49,Dialogue,,0,0,0,,There's no mistake in saying it was a suicide.
+Dialogue: 0,0:03:48.91,0:03:52.29,Dialogue,,0,0,0,,But Bizen Chizuru was a famous actress...
+Dialogue: 0,0:03:53.33,0:03:55.50,Dialogue,,0,0,0,,Was there any reason for her to commit suicide?
+Dialogue: 0,0:03:56.38,0:03:59.63,Dialogue,,0,0,0,,Well, last night there was some trouble.
+Dialogue: 0,0:03:59.63,0:04:00.26,Dialogue,,0,0,0,,Trouble?
+Dialogue: 0,0:04:01.01,0:04:04.80,Dialogue,,0,0,0,,She was forced to give up a part in\Na movie that was promised to her.
+Dialogue: 0,0:04:05.14,0:04:07.68,Dialogue,,0,0,0,,It seemed to come as a great shock to her.
+Dialogue: 0,0:04:09.10,0:04:09.89,Dialogue,,0,0,0,,I see...
+Dialogue: 0,0:04:10.73,0:04:11.48,Dialogue,,0,0,0,,Hey!
+Dialogue: 0,0:04:12.64,0:04:14.19,Dialogue,,0,0,0,,Boy, you can't go in!
+Dialogue: 0,0:04:14.81,0:04:15.61,Dialogue,,0,0,0,,But...
+Dialogue: 0,0:04:16.44,0:04:18.32,Dialogue,,0,0,0,,That brat again...
+Dialogue: 0,0:04:19.82,0:04:21.90,Dialogue,,0,0,0,,Why are you running around again?
+Dialogue: 0,0:04:21.90,0:04:24.53,Dialogue,,0,0,0,,Because there are some strange marks over here...
+Dialogue: 0,0:04:25.20,0:04:26.03,Dialogue,,0,0,0,,Marks?
+Dialogue: 0,0:04:26.45,0:04:28.99,Dialogue,,0,0,0,,This is where the door guard's lock was.
+Dialogue: 0,0:04:29.37,0:04:31.66,Dialogue,,0,0,0,,There are strange marks on the lock as well.
+Dialogue: 0,0:04:32.12,0:04:37.67,Dialogue,,0,0,0,,These could be made after someone from the\Noutside created this locked room scenario.
+Dialogue: 0,0:04:39.09,0:04:39.92,Dialogue,,0,0,0,,What do you mean?
+Dialogue: 0,0:04:40.51,0:04:43.51,Dialogue,,0,0,0,,Meaning, after the culprit locked the windows...
+Dialogue: 0,0:04:44.34,0:04:48.30,Dialogue,,0,0,0,,They used a screwdriver and removed\Nthe door guard from the wall.
+Dialogue: 0,0:04:49.06,0:04:53.31,Dialogue,,0,0,0,,Then, they placed the door guard back\Non as they stepped into the hall...
+Dialogue: 0,0:04:53.77,0:04:56.52,Dialogue,,0,0,0,,And, from the opening in the door, rescrewed the lock in.
+Dialogue: 0,0:04:56.94,0:05:02.86,Dialogue,,0,0,0,,But, it's difficult to do such a demanding task in a\Nsmall area, so it's no surprise that the marks are there.
+Dialogue: 0,0:05:03.61,0:05:07.74,Dialogue,,0,0,0,,The reason it was displaced with just one tackle...
+Dialogue: 0,0:05:07.74,0:05:09.95,Dialogue,,0,0,0,,Must be because the screws weren't completely in.
+Dialogue: 0,0:05:11.24,0:05:16.42,Dialogue,,0,0,0,,Hey, Chizuru{\rHonorifics - Dialogue}-san{\r} moved this table from\Nthe window and used it as a stool, right?
+Dialogue: 0,0:05:16.42,0:05:17.54,Dialogue,,0,0,0,,Yeah, that's right.
+Dialogue: 0,0:05:18.21,0:05:18.79,Dialogue,,0,0,0,,Then...
+Dialogue: 0,0:05:20.09,0:05:22.76,Dialogue,,0,0,0,,Stop bothering the crime scene people!
+Dialogue: 0,0:05:22.76,0:05:25.22,Dialogue,,0,0,0,,Hey, are there prints on toes?
+Dialogue: 0,0:05:26.97,0:05:27.64,Dialogue,,0,0,0,,Of course there is!
+Dialogue: 0,0:05:28.05,0:05:28.93,Dialogue,,0,0,0,,Look at your own foot...
+Dialogue: 0,0:05:29.39,0:05:30.47,Dialogue,,0,0,0,,Oh, wait a second!
+Dialogue: 0,0:05:30.85,0:05:33.14,Dialogue,,0,0,0,,Chizuru{\rHonorifics - Dialogue}-san{\r}'s feet were bear!
+Dialogue: 0,0:05:34.64,0:05:37.73,Dialogue,,0,0,0,,Were there any such prints on the table?
+Dialogue: 0,0:05:38.90,0:05:39.73,Dialogue,,0,0,0,,There weren't!
+Dialogue: 0,0:05:40.31,0:05:41.90,Dialogue,,0,0,0,,What now?
+Dialogue: 0,0:05:41.90,0:05:42.90,Dialogue,,0,0,0,,T-That means...
+Dialogue: 0,0:05:43.36,0:05:46.20,Dialogue,,0,0,0,,Someone carried Chizuru{\rHonorifics - Dialogue}-san{\r} here and hung her.
+Dialogue: 0,0:05:46.78,0:05:49.16,Dialogue,,0,0,0,,That means it wasn't suicide, but murder.
+Dialogue: 0,0:05:49.87,0:05:53.29,Dialogue,,0,0,0,,Last night, Chizuru{\rHonorifics - Dialogue}-san{\r} had a conflict\Nwith someone in the restaurant...
+Dialogue: 0,0:05:54.20,0:05:57.08,Dialogue,,0,0,0,,Damn, if only I had saw who it was then...
+Dialogue: 0,0:05:58.92,0:06:00.59,Dialogue,,0,0,0,,Are there any other clues?
+Dialogue: 0,0:06:03.25,0:06:03.84,Dialogue,,0,0,0,,What's this?
+Dialogue: 0,0:06:04.46,0:06:06.51,Dialogue,,0,0,0,,It's like a white powder...
+Dialogue: 0,0:06:08.38,0:06:10.22,Dialogue,,0,0,0,,This room is so warm...
+Dialogue: 0,0:06:12.18,0:06:12.97,Dialogue,,0,0,0,,Air conditioning!?
+Dialogue: 0,0:06:13.43,0:06:15.60,Dialogue,,0,0,0,,Now that I think about it, it was off when we found the body!
+Dialogue: 0,0:06:16.93,0:06:18.60,Dialogue,,0,0,0,,Did the culprit go to the trouble of turning it off?
+Dialogue: 0,0:06:19.35,0:06:19.98,Dialogue,,0,0,0,,Or maybe...
+Dialogue: 0,0:06:26.03,0:06:28.82,Dialogue,,0,0,0,,Regarding the death of Bizen Chizuru{\rHonorifics - Dialogue}-san{\r}...
+Dialogue: 0,0:06:29.41,0:06:31.28,Dialogue,,0,0,0,,I would like to ask all of you some questions.
+Dialogue: 0,0:06:31.95,0:06:33.49,Dialogue,,0,0,0,,You first, Shiromoto{\rHonorifics - Dialogue}-san{\r}.
+Dialogue: 0,0:06:35.33,0:06:38.50,Dialogue,,0,0,0,,I'm told you were arguing with Chizuru{\rHonorifics - Dialogue}-san{\r} over divorce issues?
+Dialogue: 0,0:06:38.83,0:06:43.46,Character Card,Sign,0,0,0,,Businessman
+Dialogue: 0,0:06:38.83,0:06:43.46,Character Card,Sign,0,0,0,,Shiromoto Hidehiko (46)
+Dialogue: 0,0:06:39.12,0:06:43.46,Dialogue Top,,0,0,0,,Yes, her company loans were huge, and...
+Dialogue: 0,0:06:45.30,0:06:46.76,Dialogue,,0,0,0,,You're next, Miyabe{\rHonorifics - Dialogue}-san{\r}.
+Dialogue: 0,0:06:46.76,0:06:50.43,Dialogue,,0,0,0,,I'm told you dropped her as the lead in a movie recently?
+Dialogue: 0,0:06:50.64,0:06:54.97,Character Card,Sign,0,0,0,,Drama Production Company President
+Dialogue: 0,0:06:50.64,0:06:54.97,Character Card,Sign,0,0,0,,Miyabe Kouta (35)
+Dialogue: 0,0:06:50.93,0:06:53.05,Dialogue Top,,0,0,0,,It wasn't my call at all.
+Dialogue: 0,0:06:53.05,0:06:54.97,Dialogue Top,,0,0,0,,The sponsors were the ones who wanted her gone.
+Dialogue: 0,0:06:55.43,0:06:56.27,Dialogue,,0,0,0,,I see.
+Dialogue: 0,0:06:57.14,0:06:59.19,Dialogue,,0,0,0,,I would like all of you to answer this.
+Dialogue: 0,0:06:59.89,0:07:04.65,Dialogue,,0,0,0,,The estimated time of death is between 1:30 P.M. and 2:30 P.M.
+Dialogue: 0,0:07:05.15,0:07:08.11,Dialogue,,0,0,0,,Please tell me what you all were doing at that time.
+Dialogue: 0,0:07:08.61,0:07:10.28,Dialogue,,0,0,0,,What do you mean by that?
+Dialogue: 0,0:07:10.28,0:07:12.32,Dialogue,,0,0,0,,It sounds like you're looking for alibis...
+Dialogue: 0,0:07:12.32,0:07:14.03,Dialogue,,0,0,0,,W-Was Chizuru{\rHonorifics - Dialogue}-chan{\r}...
+Dialogue: 0,0:07:14.58,0:07:16.45,Dialogue,,0,0,0,,From what we found at the scene...
+Dialogue: 0,0:07:16.45,0:07:18.91,Dialogue,,0,0,0,,It's very likely that it was a murder.
+Dialogue: 0,0:07:19.46,0:07:20.54,Dialogue,,0,0,0,,N-No way...
+Dialogue: 0,0:07:21.04,0:07:25.75,Dialogue,,0,0,0,,Shiromoto{\rHonorifics - Dialogue}-san{\r} and Miyabe{\rHonorifics - Dialogue}-san{\r}, you two\Nwent to a local lake to fish, did you not?
+Dialogue: 0,0:07:26.46,0:07:28.80,Dialogue,,0,0,0,,Yeah, right —\hThat's right.
+Dialogue: 0,0:07:28.80,0:07:33.43,Dialogue,,0,0,0,,From when we left at 10:00 AM and returned\Nto the hotel at 7:00 PM, I was at the lake.
+Dialogue: 0,0:07:33.43,0:07:34.10,Dialogue,,0,0,0,,And you, too, Shiromoto{\rHonorifics - Dialogue}-san{\r}?
+Dialogue: 0,0:07:34.60,0:07:37.14,Dialogue,,0,0,0,,No, I forgot my bento.
+Dialogue: 0,0:07:38.06,0:07:40.23,Dialogue,,0,0,0,,I came back to the hotel at 12:30 P.M.
+Dialogue: 0,0:07:40.85,0:07:44.77,Dialogue,,0,0,0,,I ate lunch in the lobby with Mouri{\rHonorifics - Dialogue}-san{\r} and left at 1:30 P.M.
+Dialogue: 0,0:07:45.65,0:07:47.86,Dialogue,,0,0,0,,And, did you see Chizuru{\rHonorifics - Dialogue}-san{\r} at that time?
+Dialogue: 0,0:07:48.65,0:07:52.61,Dialogue,,0,0,0,,I went to her room to check on her...
+Dialogue: 0,0:07:52.61,0:07:56.08,Dialogue,,0,0,0,,But when she didn't answer my knocking, I returned to the lobby.
+Dialogue: 0,0:07:57.12,0:07:59.75,Dialogue,,0,0,0,,When Shiromoto{\rHonorifics - Dialogue}-san{\r} went back to the hotel...
+Dialogue: 0,0:07:59.75,0:08:01.91,Dialogue,,0,0,0,,Weren't you completely alone, Miyabe{\rHonorifics - Dialogue}-san{\r}?
+Dialogue: 0,0:08:02.79,0:08:04.38,Dialogue,,0,0,0,,T-That's true, but...
+Dialogue: 0,0:08:04.83,0:08:07.59,Dialogue,,0,0,0,,I was eating my bento on the lakeside the whole time.
+Dialogue: 0,0:08:08.71,0:08:10.72,Dialogue,,0,0,0,,And you two, Arimori{\rHonorifics - Dialogue}-san{\r} and Shinobu{\rHonorifics - Dialogue}-san{\r}?
+Dialogue: 0,0:08:10.72,0:08:15.43,Dialogue,,0,0,0,,We went to the plateau on top of the\Nmountain with Ran{\rHonorifics - Dialogue}-san{\r} and Conan{\rHonorifics - Dialogue}-kun{\r}.
+Dialogue: 0,0:08:15.43,0:08:18.47,Dialogue,,0,0,0,,We left immediately after Shiromoto{\rHonorifics - Dialogue}-san{\r} did...
+Dialogue: 0,0:08:19.52,0:08:21.56,Dialogue,,0,0,0,,And arrived there at around 11:00 A.M.
+Dialogue: 0,0:08:22.14,0:08:26.15,Dialogue,,0,0,0,,We were there the entire time and\Ncame down the mountain at 6:00 P.M.
+Dialogue: 0,0:08:27.36,0:08:29.78,Dialogue,,0,0,0,,It was around 7:00 P.M. when we made it back to the hotel.
+Dialogue: 0,0:08:30.07,0:08:32.49,Dialogue,,0,0,0,,And I'm told that Arimori{\rHonorifics - Dialogue}-san{\r} remained alone at the plateau?
+Dialogue: 0,0:08:33.07,0:08:35.99,Dialogue,,0,0,0,,The micro-bus's engine wasn't doing well, so...
+Dialogue: 0,0:08:36.74,0:08:40.04,Dialogue,,0,0,0,,And Arimori{\rHonorifics - Dialogue}-san{\r} was at the field when you went to pick him up?
+Dialogue: 0,0:08:40.04,0:08:41.00,Dialogue,,0,0,0,,Of course!
+Dialogue: 0,0:08:41.54,0:08:44.25,Dialogue,,0,0,0,,There's no mistake, as I was with her.
+Dialogue: 0,0:08:45.21,0:08:46.71,Dialogue,,0,0,0,,And Minaho{\rHonorifics - Dialogue}-san{\r} and Honami{\rHonorifics - Dialogue}-san{\r}?
+Dialogue: 0,0:08:47.42,0:08:50.21,Dialogue,,0,0,0,,During the morning, we were cleaning the hotel.
+Dialogue: 0,0:08:50.76,0:08:52.21,Dialogue,,0,0,0,,After Shiromoto{\rHonorifics - Dialogue}-sama{\r} came back...
+Dialogue: 0,0:08:53.01,0:08:56.80,Dialogue,,0,0,0,,We brought out tea to him and Mouri{\rHonorifics - Dialogue}-sama{\r} for their lunch.
+Dialogue: 0,0:08:56.80,0:08:59.56,Dialogue,,0,0,0,,Afterwards, we had lunch in the office.
+Dialogue: 0,0:08:59.76,0:09:02.73,Dialogue,,0,0,0,,At 1:30 P.M., after walking Shiromoto{\rHonorifics - Dialogue}-sama{\r} to the door...
+Dialogue: 0,0:09:03.27,0:09:06.19,Dialogue,,0,0,0,,We watched television with Mouri{\rHonorifics - Dialogue}-sama{\r} until 4:00 P.M.
+Dialogue: 0,0:09:06.69,0:09:11.65,Dialogue,,0,0,0,,Afterwards, until everyone returned, we were preparing dinner.
+Dialogue: 0,0:09:12.94,0:09:15.11,Dialogue,,0,0,0,,How was Chizuru{\rHonorifics - Dialogue}-san{\r}'s room when you were cleaning?
+Dialogue: 0,0:09:15.70,0:09:19.24,Dialogue,,0,0,0,,We were told by the manager to leave it alone...
+Dialogue: 0,0:09:19.24,0:09:20.83,Dialogue,,0,0,0,,So we never went near it.
+Dialogue: 0,0:09:21.62,0:09:23.41,Dialogue,,0,0,0,,Mouri{\rHonorifics - Dialogue}-san{\r}, you were always here?
+Dialogue: 0,0:09:23.87,0:09:26.75,Dialogue,,0,0,0,,Yeah, I was watching TV in the lobby all day.
+Dialogue: 0,0:09:27.46,0:09:30.88,Dialogue,,0,0,0,,Excluding when Shiromoto{\rHonorifics - Dialogue}-san{\r}\Nwent to check on her at 12:30 P.M...
+Dialogue: 0,0:09:31.67,0:09:34.05,Dialogue,,0,0,0,,No one used the staircase in the lobby.
+Dialogue: 0,0:09:34.47,0:09:39.18,Dialogue,,0,0,0,,That means the culprit must have entered the\Nhotel through one of the emergency exits.
+Dialogue: 0,0:09:39.18,0:09:40.97,Dialogue,,0,0,0,,What are the emergency exits like?
+Dialogue: 0,0:09:41.76,0:09:43.93,Dialogue,,0,0,0,,There's one at the end of every floor's hall.
+Dialogue: 0,0:09:44.89,0:09:48.40,Dialogue,,0,0,0,,The doors auto-lock, but can be opened freely from inside.
+Dialogue: 0,0:09:49.31,0:09:52.61,Dialogue,,0,0,0,,You can't open it from outside without the master key.
+Dialogue: 0,0:09:52.98,0:09:56.86,Dialogue,,0,0,0,,T-That means the culprit is someone from the hotel!
+Dialogue: 0,0:09:56.86,0:10:00.16,Dialogue,,0,0,0,,No, I had the master key all day.
+Dialogue: 0,0:10:01.03,0:10:03.58,Dialogue,,0,0,0,,The person must have made a spare beforehand.
+Dialogue: 0,0:10:03.58,0:10:06.37,Dialogue,,0,0,0,,If that's so, the culprits must be those two!
+Dialogue: 0,0:10:07.04,0:10:09.12,Dialogue,,0,0,0,,We didn't do anything!
+Dialogue: 0,0:10:09.67,0:10:14.59,Dialogue,,0,0,0,,From 1:30 P.M. until 4:00 P.M., they were watching TV with me.
+Dialogue: 0,0:10:14.59,0:10:16.97,Dialogue,,0,0,0,,T-Then, you three must have worked in a group!
+Dialogue: 0,0:10:17.13,0:10:18.51,Dialogue,,0,0,0,,What!? That's stupid!
+Dialogue: 0,0:10:19.18,0:10:20.76,Dialogue,,0,0,0,,E-Either way...
+Dialogue: 0,0:10:20.76,0:10:23.72,Dialogue,,0,0,0,,Since I didn't have the master key, I can't be the culprit.
+Dialogue: 0,0:10:24.18,0:10:26.23,Dialogue,,0,0,0,,No, even without the master key...
+Dialogue: 0,0:10:26.23,0:10:28.14,Dialogue,,0,0,0,,There's still a way to get in from the emergency exit.
+Dialogue: 0,0:10:28.89,0:10:31.15,Dialogue,,0,0,0,,No, even without the master key...
+Dialogue: 0,0:10:31.15,0:10:33.23,Dialogue,,0,0,0,,There's still a way to get in from the emergency exit.
+Dialogue: 0,0:10:36.32,0:10:37.61,Dialogue,,0,0,0,,For example, Shiromoto{\rHonorifics - Dialogue}-san{\r}...
+Dialogue: 0,0:10:38.32,0:10:40.95,Dialogue,,0,0,0,,At 12:30 P.M., when you went to check on Chizuru{\rHonorifics - Dialogue}-san{\r}...
+Dialogue: 0,0:10:41.70,0:10:44.03,Dialogue,,0,0,0,,You could have opened the emergency exit from inside...
+Dialogue: 0,0:10:44.58,0:10:48.00,Dialogue,,0,0,0,,And then placed a small rock to ensure\Nthe door wouldn't completely close.
+Dialogue: 0,0:10:48.46,0:10:52.29,Dialogue,,0,0,0,,Then, at 1:30 P.M., you could have\Npretended to be going back to the lake...
+Dialogue: 0,0:10:52.29,0:10:55.75,Dialogue,,0,0,0,,When you were really going back to the hotel\Nthrough the emergency exit to murder Chizuru{\rHonorifics - Dialogue}-san{\r}.
+Dialogue: 0,0:10:56.34,0:10:57.84,Dialogue,,0,0,0,,N-No way...
+Dialogue: 0,0:10:58.42,0:10:59.88,Dialogue,,0,0,0,,This guy's pretty good.
+Dialogue: 0,0:11:00.72,0:11:04.56,Dialogue,,0,0,0,,Miyabe{\rHonorifics - Dialogue}-san{\r}, if he were working with you, it's\Npossible for you to have committed the crime.
+Dialogue: 0,0:11:05.01,0:11:06.77,Dialogue,,0,0,0,,What are you saying, Detective?
+Dialogue: 0,0:11:07.47,0:11:10.60,Dialogue,,0,0,0,,By hiding in Shiromoto{\rHonorifics - Dialogue}-san{\r}'s car, you\Ncould have returned to the hotel.
+Dialogue: 0,0:11:10.60,0:11:13.73,Dialogue,,0,0,0,,Then, you could enter from the emergency\Nexit that Shiromoto{\rHonorifics - Dialogue}-san{\r} opened and...
+Dialogue: 0,0:11:14.52,0:11:15.69,Dialogue,,0,0,0,,That's enough already!
+Dialogue: 0,0:11:16.23,0:11:18.74,Dialogue,,0,0,0,,You're talking to them like they're the culprits!
+Dialogue: 0,0:11:19.86,0:11:21.24,Dialogue,,0,0,0,,Oh, I'm just saying...
+Dialogue: 0,0:11:21.99,0:11:23.70,Dialogue,,0,0,0,,What about you all?
+Dialogue: 0,0:11:24.33,0:11:25.41,Dialogue,,0,0,0,,What are you saying?
+Dialogue: 0,0:11:25.95,0:11:29.46,Dialogue,,0,0,0,,You guys could have had a spare of the master key.
+Dialogue: 0,0:11:30.04,0:11:31.33,Dialogue,,0,0,0,,You could secretly come down...
+Dialogue: 0,0:11:31.83,0:11:33.46,Dialogue,,0,0,0,,Stop saying such stupid things!
+Dialogue: 0,0:11:34.25,0:11:37.21,Dialogue,,0,0,0,,In order to return to the hotel from the plateau or the lake...
+Dialogue: 0,0:11:38.30,0:11:41.80,Dialogue,,0,0,0,,You would have to cross the bridge that's under construction.
+Dialogue: 0,0:11:42.34,0:11:44.51,Dialogue,,0,0,0,,Earlier, when we checked with the workers...
+Dialogue: 0,0:11:45.18,0:11:50.10,Dialogue,,0,0,0,,They said the only car that went back to the\Nhotel around noon was Shiromoto{\rHonorifics - Dialogue}-san{\r}'s car.
+Dialogue: 0,0:11:50.73,0:11:53.06,Dialogue,,0,0,0,,That means the only ones who could have done it are...
+Dialogue: 0,0:11:53.48,0:11:54.15,Dialogue,,0,0,0,,Shiromoto{\rHonorifics - Dialogue}-san{\r}...
+Dialogue: 0,0:11:55.15,0:11:55.73,Dialogue,,0,0,0,,Miyabe{\rHonorifics - Dialogue}-san{\r}...
+Dialogue: 0,0:11:56.77,0:11:58.03,Dialogue,,0,0,0,,Minaho{\rHonorifics - Dialogue}-san{\r}, Honami{\rHonorifics - Dialogue}-san{\r}...
+Dialogue: 0,0:11:59.57,0:12:00.61,Dialogue,,0,0,0,,And, Mouri{\rHonorifics - Dialogue}-san{\r}.
+Dialogue: 0,0:12:01.53,0:12:02.82,Dialogue,,0,0,0,,Me too!?
+Dialogue: 0,0:12:03.57,0:12:05.28,Dialogue,,0,0,0,,It's exactly as Detective Mito says...
+Dialogue: 0,0:12:05.99,0:12:07.95,Dialogue,,0,0,0,,But something doesn't seem right.
+Dialogue: 0,0:12:08.54,0:12:09.41,Dialogue,,0,0,0,,Specifically...
+Dialogue: 0,0:12:10.75,0:12:12.21,Dialogue,,0,0,0,,The air conditioning that had stopped...
+Dialogue: 0,0:12:13.25,0:12:15.79,Dialogue,,0,0,0,,And that white powder on Chizuru{\rHonorifics - Dialogue}-san{\r}'s skirt...
+Dialogue: 0,0:12:17.25,0:12:18.34,Dialogue,,0,0,0,,What was that?
+Dialogue: 0,0:12:20.17,0:12:21.22,Dialogue,,0,0,0,,I see!
+Dialogue: 0,0:12:21.22,0:12:22.13,Dialogue,,0,0,0,,Could it be...
+Dialogue: 0,0:12:28.47,0:12:30.47,Dialogue,,0,0,0,,This is almost like a runway...
+Dialogue: 0,0:12:36.90,0:12:37.36,Dialogue,,0,0,0,,That's...
+Dialogue: 0,0:12:38.36,0:12:40.15,Dialogue,,0,0,0,,A rope mark, isn't it?
+Dialogue: 0,0:12:55.75,0:12:56.63,Dialogue,,0,0,0,,Officer!
+Dialogue: 0,0:12:58.13,0:13:00.38,Dialogue,,0,0,0,,Uncle Mouri told me to ask...
+Dialogue: 0,0:13:02.21,0:13:02.76,Dialogue,,0,0,0,,At any rate...
+Dialogue: 0,0:13:03.13,0:13:03.76,Dialogue,,0,0,0,,Shiromoto{\rHonorifics - Dialogue}-san{\r}...
+Dialogue: 0,0:13:04.22,0:13:04.76,Dialogue,,0,0,0,,Miyabe{\rHonorifics - Dialogue}-san{\r}...
+Dialogue: 0,0:13:05.26,0:13:05.80,Dialogue,,0,0,0,,Minaho{\rHonorifics - Dialogue}-san{\r}...
+Dialogue: 0,0:13:06.14,0:13:06.76,Dialogue,,0,0,0,,Honami{\rHonorifics - Dialogue}-san{\r}...
+Dialogue: 0,0:13:07.26,0:13:08.14,Dialogue,,0,0,0,,And Mouri{\rHonorifics - Dialogue}-san{\r}...
+Dialogue: 0,0:13:08.14,0:13:09.81,Dialogue,,0,0,0,,I would like to ask you more intimate questions at the station.
+Dialogue: 0,0:13:09.81,0:13:13.14,Dialogue,,0,0,0,,Hey you, do you know who I am?
+Dialogue: 0,0:13:17.77,0:13:19.02,Dialogue,,0,0,0,,Mouri{\rHonorifics - Dialogue}-san{\r}, what's wrong?
+Dialogue: 0,0:13:20.52,0:13:21.48,Dialogue,,0,0,0,,Please wait.
+Dialogue: 0,0:13:21.48,0:13:24.03,Dialogue,,0,0,0,,That's the beginning of "Sleeping Kogorou."
+Dialogue: 0,0:13:26.11,0:13:26.78,Dialogue,,0,0,0,,What?
+Dialogue: 0,0:13:27.70,0:13:28.91,Dialogue,,0,0,0,,This is the rumored...
+Dialogue: 0,0:13:28.91,0:13:31.45,Dialogue,,0,0,0,,Please leave the rest to me.
+Dialogue: 0,0:13:31.45,0:13:33.50,Dialogue,,0,0,0,,That means, you know who the culprit is?
+Dialogue: 0,0:13:33.87,0:13:35.04,Dialogue,,0,0,0,,That's right.
+Dialogue: 0,0:13:35.04,0:13:38.17,Dialogue,,0,0,0,,I know who the culprit is and the trick they used.
+Dialogue: 0,0:13:38.67,0:13:39.50,Dialogue,,0,0,0,,Trick?
+Dialogue: 0,0:13:39.88,0:13:42.21,Dialogue,,0,0,0,,The culprit has wings.
+Dialogue: 0,0:13:42.80,0:13:46.26,Dialogue,,0,0,0,,They are what make this seemingly impossible crime possible...
+Dialogue: 0,0:13:47.05,0:13:48.59,Dialogue,,0,0,0,,Those magical wings.
+Dialogue: 0,0:13:49.34,0:13:49.72,Dialogue,,0,0,0,,Right...
+Dialogue: 0,0:13:50.18,0:13:50.93,Dialogue,,0,0,0,,The culprit...
+Dialogue: 0,0:13:51.68,0:13:52.77,Dialogue,,0,0,0,,Is you!
+Dialogue: 0,0:13:56.98,0:13:57.48,Dialogue,,0,0,0,,Right...
+Dialogue: 0,0:13:57.90,0:13:59.10,Dialogue,,0,0,0,,The culprit is you...
+Dialogue: 0,0:13:59.61,0:14:01.11,Dialogue,,0,0,0,,Arimori Mitsuyuki{\rHonorifics - Dialogue}-san{\r}!
+Dialogue: 0,0:14:06.11,0:14:07.40,Dialogue,,0,0,0,,W-What are you saying?
+Dialogue: 0,0:14:08.70,0:14:12.20,Dialogue,,0,0,0,,I was at the plateau with Ran{\rHonorifics - Dialogue}-san{\r} the entire time.
+Dialogue: 0,0:14:12.20,0:14:13.24,Dialogue,,0,0,0,,That's right!
+Dialogue: 0,0:14:13.24,0:14:16.00,Dialogue,,0,0,0,,Arimori{\rHonorifics - Dialogue}-san{\r} cannot be the culprit.
+Dialogue: 0,0:14:16.46,0:14:18.37,Dialogue,,0,0,0,,Didn't I just tell you?
+Dialogue: 0,0:14:18.37,0:14:21.00,Dialogue,,0,0,0,,Arimori{\rHonorifics - Dialogue}-san{\r} had a pair of magical wings.
+Dialogue: 0,0:14:21.46,0:14:23.38,Dialogue,,0,0,0,,These "magical wings," what are they?
+Dialogue: 0,0:14:30.30,0:14:31.43,Dialogue,,0,0,0,,What is that?
+Dialogue: 0,0:14:31.80,0:14:34.52,Dialogue,,0,0,0,,Those are the magical wings.
+Dialogue: 0,0:14:36.85,0:14:39.06,Dialogue,,0,0,0,,We found it in the storage room on the roof.
+Dialogue: 0,0:14:41.27,0:14:42.56,Dialogue,,0,0,0,,It's a hang glider.
+Dialogue: 0,0:14:42.56,0:14:43.32,Dialogue,,0,0,0,,What?
+Dialogue: 0,0:14:43.57,0:14:50.78,Dialogue,,0,0,0,,Aside from this, there was a rope mark up\Nthere left just above the victim's room.
+Dialogue: 0,0:14:51.49,0:14:52.41,Dialogue,,0,0,0,,I see!
+Dialogue: 0,0:14:52.91,0:14:54.87,Dialogue,,0,0,0,,Arimori{\rHonorifics - Dialogue}-san{\r} used that hang glider...
+Dialogue: 0,0:14:55.70,0:14:58.75,Dialogue,,0,0,0,,To fly from the plateau and land on the roof.
+Dialogue: 0,0:14:59.87,0:15:02.67,Dialogue,,0,0,0,,He used a rope to descend to the veranda outside her room.
+Dialogue: 0,0:15:02.67,0:15:03.96,Dialogue,,0,0,0,,And after he was done...
+Dialogue: 0,0:15:04.09,0:15:07.21,Dialogue,,0,0,0,,He flew right back using the hang glider.
+Dialogue: 0,0:15:08.76,0:15:10.51,Dialogue,,0,0,0,,What you've said is impossible.
+Dialogue: 0,0:15:11.30,0:15:15.85,Dialogue,,0,0,0,,The only time I wasn't with the others was when I got the\Nbentos from the car, which only took four or five minutes.
+Dialogue: 0,0:15:16.31,0:15:19.69,Dialogue,,0,0,0,,It takes at least fifteen minutes to even set up a hang glider.
+Dialogue: 0,0:15:20.27,0:15:22.90,Dialogue,,0,0,0,,And about him returning to the hotel...
+Dialogue: 0,0:15:22.90,0:15:25.65,Dialogue,,0,0,0,,Judging from the wind direction and\Nthe incline, it's likely not possible.
+Dialogue: 0,0:15:26.65,0:15:27.57,Dialogue,,0,0,0,,Mouri{\rHonorifics - Dialogue}-san{\r}...
+Dialogue: 0,0:15:27.57,0:15:29.86,Dialogue,,0,0,0,,It's exactly as you all have said.
+Dialogue: 0,0:15:30.32,0:15:31.32,Dialogue,,0,0,0,,But...
+Dialogue: 0,0:15:31.32,0:15:35.33,Dialogue,,0,0,0,,If it was only to strangle Chizuru{\rHonorifics - Dialogue}-san{\r},\Nit can be done in four or five minutes...
+Dialogue: 0,0:15:35.74,0:15:37.74,Dialogue,,0,0,0,,If she was nearby.
+Dialogue: 0,0:15:38.95,0:15:40.25,Dialogue,,0,0,0,,What are you talking about?
+Dialogue: 0,0:15:40.25,0:15:41.29,Dialogue,,0,0,0,,Chizuru was at the hotel...
+Dialogue: 0,0:15:41.87,0:15:42.62,Dialogue,,0,0,0,,I see!
+Dialogue: 0,0:15:43.13,0:15:44.46,Dialogue,,0,0,0,,It's the micro-bus, isn't it?
+Dialogue: 0,0:15:44.46,0:15:45.42,Dialogue,,0,0,0,,That's right.
+Dialogue: 0,0:15:46.21,0:15:52.47,Dialogue,,0,0,0,,First, he separated from Shinobu{\rHonorifics - Dialogue}-san{\r} and the others during\Nthe departure by saying he was going to check the locks.
+Dialogue: 0,0:15:52.84,0:15:54.93,Dialogue,,0,0,0,,He then went to Chizuru{\rHonorifics - Dialogue}-san{\r}'s room...
+Dialogue: 0,0:15:55.10,0:15:57.22,Dialogue,,0,0,0,,And knocked her out with a stun-gun or something similar.
+Dialogue: 0,0:15:57.64,0:16:02.23,Dialogue,,0,0,0,,After putting her and the hang glider in\Nthe micro-bus, he went on to the plateau.
+Dialogue: 0,0:16:03.06,0:16:04.10,Dialogue,,0,0,0,,Detective Mito...
+Dialogue: 0,0:16:04.10,0:16:08.57,Dialogue,,0,0,0,,When you analyzed the scene, did you\Nrealize that the air conditioning was off?
+Dialogue: 0,0:16:08.94,0:16:09.32,Dialogue,,0,0,0,,Yeah.
+Dialogue: 0,0:16:10.03,0:16:14.78,Dialogue,,0,0,0,,That means Chizuru{\rHonorifics - Dialogue}-san{\r} wasn't in the room after noon, right?
+Dialogue: 0,0:16:14.99,0:16:16.33,Dialogue,,0,0,0,,That's exactly it.
+Dialogue: 0,0:16:16.70,0:16:17.87,Dialogue,,0,0,0,,And, around 2:00 PM...
+Dialogue: 0,0:16:18.83,0:16:22.79,Dialogue,,0,0,0,,Arimori{\rHonorifics - Dialogue}-san{\r} seperated from the others to get the bentos.
+Dialogue: 0,0:16:23.83,0:16:27.00,Dialogue,,0,0,0,,He returned to the micro-bus and the unconscious Chizuru{\rHonorifics - Dialogue}-san{\r}...
+Dialogue: 0,0:16:27.54,0:16:29.55,Dialogue,,0,0,0,,And hung her with the rope.
+Dialogue: 0,0:16:30.38,0:16:34.89,Dialogue,,0,0,0,,Later, he claimed something was wrong with\Nthe engine so he could stay at the plateau.
+Dialogue: 0,0:16:35.64,0:16:42.02,Dialogue,,0,0,0,,Then, he set up the hang glider and flew\Nfrom the plateau with Chizuru{\rHonorifics - Dialogue}-san{\r} in tow.
+Dialogue: 0,0:16:43.81,0:16:50.57,Dialogue,,0,0,0,,Since the roof of the hotel was lit up fairly\Nwell, I doubt he could have lost his way.
+Dialogue: 0,0:16:50.82,0:17:00.20,Dialogue,,0,0,0,,After landing on the roof, he descended via rope to the\Nveranda outside her room, and then hung the body inside.
+Dialogue: 0,0:17:00.79,0:17:06.25,Dialogue,,0,0,0,,Afterwards, you set up the door guard\Nand left the hotel via the emergency exit.
+Dialogue: 0,0:17:07.33,0:17:08.63,Dialogue,,0,0,0,,That's foolish.
+Dialogue: 0,0:17:08.63,0:17:11.34,Dialogue,,0,0,0,,How did I return to the plateau from there?
+Dialogue: 0,0:17:11.59,0:17:12.34,Dialogue,,0,0,0,,That's right.
+Dialogue: 0,0:17:12.55,0:17:16.01,Dialogue,,0,0,0,,When Ran{\rHonorifics - Dialogue}-san{\r} and I went back, Arimori{\rHonorifics - Dialogue}-san{\r} was there!
+Dialogue: 0,0:17:16.89,0:17:18.26,Dialogue,,0,0,0,,Could he have used a bike?
+Dialogue: 0,0:17:18.85,0:17:21.10,Dialogue,,0,0,0,,The workers on the bridge would have seen him then.
+Dialogue: 0,0:17:21.47,0:17:27.56,Dialogue,,0,0,0,,It's impossible to fly back with a hang glider at such\Na low angle as this to the top of the mountain.
+Dialogue: 0,0:17:27.94,0:17:31.28,Dialogue,,0,0,0,,That's why I said Arimori{\rHonorifics - Dialogue}-san{\r} used magic.
+Dialogue: 0,0:17:31.86,0:17:35.24,Dialogue,,0,0,0,,Magic that let him get back to the\Nplateau without anyone seeing him.
+Dialogue: 0,0:17:35.74,0:17:38.12,Dialogue,,0,0,0,,Again with things no one can understand...
+Dialogue: 0,0:17:38.12,0:17:41.70,Dialogue,,0,0,0,,The seed of his magic is Shinobu{\rHonorifics - Dialogue}-san{\r}'s car.
+Dialogue: 0,0:17:42.08,0:17:46.92,Dialogue,,0,0,0,,By the time Arimori{\rHonorifics - Dialogue}-san{\r} called you on his cell phone...
+Dialogue: 0,0:17:47.83,0:17:50.67,Dialogue,,0,0,0,,He was already in your car's trunk.
+Dialogue: 0,0:17:51.17,0:17:52.17,Dialogue,,0,0,0,,No way...
+Dialogue: 0,0:17:52.42,0:17:57.18,Dialogue,,0,0,0,,Arimori{\rHonorifics - Dialogue}-san{\r} used Shinobu{\rHonorifics - Dialogue}-san{\r} as\Nhis transport without her knowing.
+Dialogue: 0,0:17:57.59,0:17:59.18,Dialogue,,0,0,0,,Once the car reached the plateau...
+Dialogue: 0,0:18:00.14,0:18:03.02,Dialogue,,0,0,0,,He waited for Ran and Shinobu{\rHonorifics - Dialogue}-san{\r} to move away from the car...
+Dialogue: 0,0:18:03.56,0:18:05.02,Dialogue,,0,0,0,,And then left the trunk.
+Dialogue: 0,0:18:05.02,0:18:09.15,Dialogue,,0,0,0,,Then, acting as if he'd been there all\Nalong, he appeared in front of them.
+Dialogue: 0,0:18:10.69,0:18:12.19,Dialogue,,0,0,0,,A-Arimori{\rHonorifics - Dialogue}-san{\r}...
+Dialogue: 0,0:18:12.19,0:18:15.07,Dialogue,,0,0,0,,T-Those are all just theories!
+Dialogue: 0,0:18:15.07,0:18:16.70,Dialogue,,0,0,0,,Don't you have some real proof?
+Dialogue: 0,0:18:18.66,0:18:19.11,Dialogue,,0,0,0,,Yes.
+Dialogue: 0,0:18:20.32,0:18:21.07,Dialogue,,0,0,0,,Yes, that's right.
+Dialogue: 0,0:18:22.66,0:18:23.37,Dialogue,,0,0,0,,Understood.
+Dialogue: 0,0:18:24.20,0:18:26.29,Dialogue,,0,0,0,,Mouri{\rHonorifics - Dialogue}-san{\r}, we've heard from the autopsy unit.
+Dialogue: 0,0:18:26.91,0:18:30.88,Dialogue,,0,0,0,,The white powder on the victim's skirt is\Nthe scale of a Miyama white butterfly.
+Dialogue: 0,0:18:32.46,0:18:33.92,Dialogue,,0,0,0,,And now you see...
+Dialogue: 0,0:18:34.55,0:18:37.38,Dialogue,,0,0,0,,On the skirt of Chizuru{\rHonorifics - Dialogue}-san{\r}, who was\Nsupposedly always at the hotel...
+Dialogue: 0,0:18:37.88,0:18:44.10,Dialogue,,0,0,0,,Were traces of a Miyama white butterfly\Nthat only exists on top of the mountain.
+Dialogue: 0,0:18:44.64,0:18:45.60,Dialogue,,0,0,0,,As Ran told me...
+Dialogue: 0,0:18:46.52,0:18:51.10,Dialogue,,0,0,0,,A butterfly landed on Arimori{\rHonorifics - Dialogue}-san{\r}'s shoulder and died, didn't it?
+Dialogue: 0,0:18:51.61,0:18:53.86,Dialogue,,0,0,0,,That must be when its scale got on his shirt.
+Dialogue: 0,0:18:54.48,0:18:57.19,Dialogue,,0,0,0,,And when he put Chizuru{\rHonorifics - Dialogue}-san{\r} over\Nhis shoulder without noticing it...
+Dialogue: 0,0:18:57.19,0:18:59.49,Dialogue,,0,0,0,,The scale got on her skirt as well.
+Dialogue: 0,0:19:00.61,0:19:02.28,Dialogue,,0,0,0,,Why, to Chizuru{\rHonorifics - Dialogue}-san{\r}...
+Dialogue: 0,0:19:04.70,0:19:05.45,Dialogue,,0,0,0,,Revenge...
+Dialogue: 0,0:19:06.45,0:19:07.37,Dialogue,,0,0,0,,For my young brother.
+Dialogue: 0,0:19:08.79,0:19:09.29,Dialogue,,0,0,0,,Revenge?
+Dialogue: 0,0:19:09.92,0:19:16.59,Dialogue,,0,0,0,,Teruhiko was still at Tokyo University when he met\Nher, who was just beginning as an actress then.
+Dialogue: 0,0:19:18.30,0:19:22.05,Dialogue,,0,0,0,,To my younger brother, she became more and more to him.
+Dialogue: 0,0:19:23.01,0:19:24.47,Dialogue,,0,0,0,,But to Chizuru{\rHonorifics - Dialogue}-san{\r}...
+Dialogue: 0,0:19:24.47,0:19:25.51,Dialogue,,0,0,0,,It was just fun love.
+Dialogue: 0,0:19:26.01,0:19:26.43,Dialogue,,0,0,0,,No...
+Dialogue: 0,0:19:27.18,0:19:29.06,Dialogue,,0,0,0,,From the start, she only wanted him for his money.
+Dialogue: 0,0:19:30.31,0:19:32.06,Dialogue,,0,0,0,,It cost him a lot to keep her around.
+Dialogue: 0,0:19:33.56,0:19:37.03,Dialogue,,0,0,0,,Then, as she became wealthier and\Nwealthier from her drama appearance...
+Dialogue: 0,0:19:37.82,0:19:39.49,Dialogue,,0,0,0,,She began to move away from Teruhiko.
+Dialogue: 0,0:19:42.61,0:19:48.04,Dialogue,,0,0,0,,To keep Chizuru{\rHonorifics - Dialogue}-san{\r}'s heart, Teruhiko began\Nto spend more and more money.
+Dialogue: 0,0:19:49.08,0:19:53.50,Dialogue,,0,0,0,,He even sold the hotel, which was obtained\Nfrom our father's will, without telling me...
+Dialogue: 0,0:19:54.92,0:19:57.25,Dialogue,,0,0,0,,Then, right now, this hotel...
+Dialogue: 0,0:19:57.25,0:19:59.38,Dialogue,,0,0,0,,Belongs to someone else.
+Dialogue: 0,0:19:59.38,0:20:02.47,Dialogue,,0,0,0,,The reason I remained as manager\Nwas the kindness of the owner.
+Dialogue: 0,0:20:03.05,0:20:04.59,Dialogue,,0,0,0,,And what happened to your brother?
+Dialogue: 0,0:20:05.43,0:20:07.06,Dialogue,,0,0,0,,After falling into a deep depression, Teruhiko...
+Dialogue: 0,0:20:07.64,0:20:11.02,Dialogue,,0,0,0,,Ended up miscalculating on his hang glider, and...
+Dialogue: 0,0:20:15.02,0:20:18.36,Dialogue,,0,0,0,,My brother got too close to a sun called Chizuru{\rHonorifics - Dialogue}-san{\r}...
+Dialogue: 0,0:20:19.23,0:20:22.70,Dialogue,,0,0,0,,Which caused his wings to burn and throw him to the ground.
+Dialogue: 0,0:20:23.24,0:20:25.41,Dialogue,,0,0,0,,And then, you held a grudge against Chizuru{\rHonorifics - Dialogue}-san{\r}.
+Dialogue: 0,0:20:26.24,0:20:29.62,Dialogue,,0,0,0,,Last night, I called Chizuru{\rHonorifics - Dialogue}-san{\r} to the restaurant.
+Dialogue: 0,0:20:30.70,0:20:34.04,Dialogue,,0,0,0,,Even if it was only one word, I wanted\Nher to say something to my brother...
+Dialogue: 0,0:20:34.79,0:20:36.25,Dialogue,,0,0,0,,But...
+Dialogue: 0,0:20:36.92,0:20:39.46,Dialogue,,0,0,0,,Nothing comes to mind when that picture.
+Dialogue: 0,0:20:40.21,0:20:41.76,Dialogue,,0,0,0,,How should I know who it is?
+Dialogue: 0,0:20:42.26,0:20:46.18,Dialogue,,0,0,0,,I'm the older brother of Arimori Teruhiko\Nwho dated you a long time ago.
+Dialogue: 0,0:20:47.35,0:20:49.93,Dialogue,,0,0,0,,My brother died after falling to the ground.
+Dialogue: 0,0:20:51.52,0:20:52.81,Dialogue,,0,0,0,,W-What are you trying to say?
+Dialogue: 0,0:20:53.10,0:20:55.77,Dialogue,,0,0,0,,I only went out with him because\Nhe wouldn't stop bothering me.
+Dialogue: 0,0:20:56.48,0:20:58.73,Dialogue,,0,0,0,,That person liked me on his own...
+Dialogue: 0,0:20:58.73,0:21:00.15,Dialogue,,0,0,0,,And he died on his own.
+Dialogue: 0,0:21:00.57,0:21:02.49,Dialogue,,0,0,0,,I'm not trying to blame you after this long!
+Dialogue: 0,0:21:02.90,0:21:07.20,Dialogue,,0,0,0,,I just want you to visit his grave and say one word to him.
+Dialogue: 0,0:21:07.49,0:21:08.87,Dialogue,,0,0,0,,Enough already!
+Dialogue: 0,0:21:09.12,0:21:10.66,Dialogue,,0,0,0,,What did I do?
+Dialogue: 0,0:21:10.83,0:21:11.54,Dialogue,,0,0,0,,That doesn't concern me.
+Dialogue: 0,0:21:14.96,0:21:15.96,Dialogue,,0,0,0,,It was then...
+Dialogue: 0,0:21:17.58,0:21:20.09,Dialogue,,0,0,0,,That I decided to Chizuru{\rHonorifics - Dialogue}-san{\r} was to be killed.
+Dialogue: 0,0:21:20.75,0:21:23.55,Dialogue,,0,0,0,,Do you think your brother is happy now?
+Dialogue: 0,0:21:24.88,0:21:27.89,Dialogue,,0,0,0,,Butterflies are said to be the spirits\Nof those that have passed away.
+Dialogue: 0,0:21:28.35,0:21:29.35,Dialogue,,0,0,0,,To me...
+Dialogue: 0,0:21:29.93,0:21:34.56,Dialogue,,0,0,0,,It seems it was almost as if your younger brother, in spirit...
+Dialogue: 0,0:21:35.48,0:21:39.31,Dialogue,,0,0,0,,Tried to stop you from committing the crime\Nand rested his wings on your shoulder...
+Dialogue: 0,0:23:11.41,0:23:13.20,Dialogue,,0,0,0,,What's taking Dad so long?
+Dialogue: 0,0:23:13.87,0:23:15.91,Dialogue,,0,0,0,,Where did he go to buy his takoyaki?
+Dialogue: 0,0:23:17.16,0:23:18.20,Dialogue,,0,0,0,,Over there...
+Dialogue: 0,0:23:18.83,0:23:20.42,Dialogue,,0,0,0,,Let's have tea sometime!
+Dialogue: 0,0:23:21.04,0:23:22.71,Dialogue,,0,0,0,,Let's have tea!
+Dialogue: 0,0:23:22.71,0:23:23.75,Dialogue,,0,0,0,,We should have tea!
+Dialogue: 0,0:23:26.38,0:23:29.13,Dialogue,,0,0,0,,Come on, with Mouri Kogorou{\rHonorifics - Dialogue}-san{\r}!
+Dialogue: 0,0:23:30.30,0:23:31.13,Dialogue,,0,0,0,,Dad!
+Dialogue: 0,0:23:40.81,0:23:42.48,Dialogue,,0,0,0,,This Icarus...
+Dialogue: 0,0:23:42.48,0:23:43.56,Dialogue,,0,0,0,,Is completely hopeless...

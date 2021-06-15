@@ -1,0 +1,387 @@
+[Script Info]
+Title: Detective Conan - 0247
+TL Source: DCTP
+ScriptType: v4.00+
+WrapStyle: 3
+PlayResX: 1440
+PlayResY: 1080
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Dialogue,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00401311,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Dialogue Top,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00401311,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,8,30,30,55,1
+Style: Signs,FrancophilSans,74,&H14FFFFFF,&H00FFFFFF,&H46101010,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,8,30,30,55,1
+Style: Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,0,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Radio,FrancophilSans,74,&H00BEE1FF,&H00FFFFFF,&H000B2A42,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Narration,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00BF6F00,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Narration Off,FrancophilSans,74,&H6E8C6F00,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,0,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Flashback,FrancophilSans,74,&H00CDFAFF,&H00FFFFFF,&H00373737,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Flashback Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00CCFFFF,&HC0313134,-1,0,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Honorifics - Dialogue,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00401311,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Signs,FrancophilSans,74,&H14FFFFFF,&H00FFFFFF,&H46101010,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,-1,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Honorifics - Radio,FrancophilSans,74,&H00BEE1FF,&H00FFFFFF,&H000B2A42,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Narration,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00BF6F00,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Narration Off,FrancophilSans,74,&H6E8C6F00,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,-1,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Honorifics - Flashback,FrancophilSans,74,&H00CDFAFF,&H00FFFFFF,&H00373737,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Flashback Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00CCFFFF,&HC0313134,-1,-1,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Masks,FrancophilSans,74,&H00000000,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,2,0,0,0,1
+Style: Title,Conan Episode Title,74,&H00E1E4E3,&H000000FF,&HC8DBDAE1,&HC0000000,-1,0,0,0,100,100,0,0,1,1,0,5,0,0,0,1
+Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-1,0,0,0,100,100,0,0,1,0,0,2,0,0,65,1
+Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
+Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
+Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:01.82,0:00:03.73,Dialogue,,0,0,0,,Reasoning over hints surpasses even fate...
+Dialogue: 0,0:00:03.74,0:00:06.06,Dialogue,,0,0,0,,Allowing us to clearly see through the most mysterious cases.
+Dialogue: 0,0:00:06.06,0:00:07.77,Dialogue,,0,0,0,,A tangled net murder case on the beach.
+Dialogue: 0,0:00:08.02,0:00:09.78,Dialogue,,0,0,0,,The two girls also come to terms with each other.
+Dialogue: 0,0:00:09.98,0:00:11.65,Dialogue,,0,0,0,,Perceiving the one and only truth...
+Dialogue: 0,0:00:11.65,0:00:13.49,Dialogue,,0,0,0,,The appearance of a child and the intellect of an adult...
+Dialogue: 0,0:00:13.49,0:00:15.80,Dialogue,,0,0,0,,His name is: Detective Conan!
+Dialogue: 0,0:01:42.14,0:01:45.08,Dialogue,,0,0,0,,We came to visit the ocean of Izu once again.
+Dialogue: 0,0:01:46.37,0:01:47.56,Dialogue,,0,0,0,,Ran and the others got acquainted with
+Dialogue: 0,0:01:47.56,0:01:49.14,Dialogue,,0,0,0,,Yuuta Yoshizawa,
+Dialogue: 0,0:01:49.48,0:01:50.74,Dialogue,,0,0,0,,Noboru Shimojo,
+Dialogue: 0,0:01:51.45,0:01:53.82,Dialogue,,0,0,0,,and Hiichi Yoshizawa at the beach.
+Dialogue: 0,0:01:54.62,0:01:57.37,Dialogue,,0,0,0,,But there was a somewhat dark atmosphere.
+Dialogue: 0,0:02:00.54,0:02:02.97,Dialogue,,0,0,0,,That night, we coincidentally ran into
+Dialogue: 0,0:02:02.97,0:02:08.17,Dialogue,,0,0,0,,Mr. Shimojo, Mr. Yoshizawa and their friend, Nobutsugu Nezu.
+Dialogue: 0,0:02:10.25,0:02:13.28,Dialogue,,0,0,0,,The three seem to have been waiting for Mr. Aramaki.
+Dialogue: 0,0:02:15.71,0:02:16.77,Dialogue,,0,0,0,,Yet, at that time...
+Dialogue: 0,0:02:17.37,0:02:23.17,Dialogue,,0,0,0,,Mr. Aramaki was ruthlessly being washed up to the shore, a sorry sight and dead.
+Dialogue: 0,0:02:27.58,0:02:33.29,Signs,Sign,0,0,0,,THE MYSTERY IN THE NET\N(PART TWO)
+Dialogue: 0,0:02:45.22,0:02:46.93,Dialogue,,0,0,0,,Everyone's so late.
+Dialogue: 0,0:02:55.86,0:02:57.15,Dialogue,,0,0,0,,Right, understood.
+Dialogue: 0,0:02:57.15,0:02:58.65,Dialogue,,0,0,0,,Keep up the good work.
+Dialogue: 0,0:02:58.65,0:02:59.24,Dialogue,,0,0,0,,Right!
+Dialogue: 0,0:02:59.24,0:03:00.24,Dialogue,,0,0,0,,Detective Yokomizo!
+Dialogue: 0,0:03:01.82,0:03:03.70,Dialogue,,0,0,0,,I've figured it out.
+Dialogue: 0,0:03:04.99,0:03:05.91,Dialogue,,0,0,0,,Uhm...
+Dialogue: 0,0:03:05.91,0:03:08.04,Dialogue,,0,0,0,,What is it you figured out?
+Dialogue: 0,0:03:08.83,0:03:12.00,Dialogue,,0,0,0,,The trick the culprit used to drown that man.
+Dialogue: 0,0:03:13.33,0:03:13.96,Dialogue,,0,0,0,,What?
+Dialogue: 0,0:03:18.30,0:03:20.01,Dialogue,,0,0,0,,What's with that reaction?
+Dialogue: 0,0:03:21.80,0:03:24.26,Dialogue,,0,0,0,,How did the culprit do it?
+Dialogue: 0,0:03:24.80,0:03:27.72,Dialogue,,0,0,0,,The drifting boat was a fake.
+Dialogue: 0,0:03:27.72,0:03:30.39,Dialogue,,0,0,0,,The real trick was actually very simple.
+Dialogue: 0,0:03:32.31,0:03:35.52,Dialogue,,0,0,0,,The culprit got that guy dead drunk...
+Dialogue: 0,0:03:35.52,0:03:38.65,Dialogue,,0,0,0,,And then wrapped him in the\Nnet and left him on the beach.
+Dialogue: 0,0:03:40.19,0:03:45.74,Dialogue,,0,0,0,,The tide will continue to rise but the\Nman, unable to move, will drown.
+Dialogue: 0,0:03:45.74,0:03:48.49,Dialogue,,0,0,0,,This way, the crime is possible even\Nwithout the culprit being present.
+Dialogue: 0,0:03:48.49,0:03:49.75,Dialogue,,0,0,0,,Amazing!
+Dialogue: 0,0:03:50.12,0:03:51.83,Dialogue,,0,0,0,,Sonoko's so smart!
+Dialogue: 0,0:03:51.83,0:03:52.92,Dialogue,,0,0,0,,Aren't I, aren't I?
+Dialogue: 0,0:03:53.71,0:03:57.59,Dialogue,,0,0,0,,Uhm, sorry to throw cold water\Non you, but that's impossible.
+Dialogue: 0,0:03:59.21,0:04:04.76,Dialogue,,0,0,0,,Even if the tide is rising, that doesn't mean the\Nlevel of water will instantly get that high.
+Dialogue: 0,0:04:05.72,0:04:10.31,Dialogue,,0,0,0,,With the waves hitting him, and the water level\Nrising to the point of almost drowning him...
+Dialogue: 0,0:04:10.31,0:04:12.10,Dialogue,,0,0,0,,He'd definitely wake up.
+Dialogue: 0,0:04:12.39,0:04:15.56,Dialogue,,0,0,0,,Besides, the victim was only in the net.
+Dialogue: 0,0:04:15.56,0:04:17.61,Dialogue,,0,0,0,,He wasn't tied up with it.
+Dialogue: 0,0:04:19.07,0:04:21.86,Dialogue,,0,0,0,,He could've survived by merely sitting up.
+Dialogue: 0,0:04:22.49,0:04:26.78,Dialogue,,0,0,0,,And still, he would've been able to just crawl to a\Nsafe place where the waves wouldn't reach him.
+Dialogue: 0,0:04:27.49,0:04:32.83,Dialogue,,0,0,0,,That may have worked if he had been given\Nsleeping pills or something along those lines, but...
+Dialogue: 0,0:04:32.83,0:04:36.58,Dialogue,,0,0,0,,The autopsy report didn't mention\Nanything about drugs in his system.
+Dialogue: 0,0:04:37.04,0:04:38.88,Dialogue,,0,0,0,,Then, then how about this?
+Dialogue: 0,0:04:39.50,0:04:44.43,Dialogue,,0,0,0,,The culprit sat on that guy until he drowned!
+Dialogue: 0,0:04:45.13,0:04:45.68,Dialogue,,0,0,0,,Right?
+Dialogue: 0,0:04:45.68,0:04:46.72,Dialogue,,0,0,0,,That could work.
+Dialogue: 0,0:04:46.72,0:04:48.85,Dialogue,,0,0,0,,Who would call that a trick?
+Dialogue: 0,0:04:50.22,0:04:51.22,Dialogue,,0,0,0,,I was so close.
+Dialogue: 0,0:04:51.22,0:04:52.52,Dialogue,,0,0,0,,Sonoko...
+Dialogue: 0,0:04:54.02,0:04:55.10,Dialogue,,0,0,0,,I see...
+Dialogue: 0,0:04:55.10,0:04:56.31,Dialogue,,0,0,0,,So that's how it happened.
+Dialogue: 0,0:04:58.81,0:05:01.61,Dialogue,,0,0,0,,That's why that person said that strange thing.
+Dialogue: 0,0:05:03.44,0:05:04.70,Dialogue,,0,0,0,,There's no doubt.
+Dialogue: 0,0:05:04.70,0:05:06.28,Dialogue,,0,0,0,,The culprit is that person!
+Dialogue: 0,0:05:06.78,0:05:10.20,Character Card,Sign,0,0,0,,Shimojou Noboru (34)\NFisherman
+Dialogue: 0,0:05:07.16,0:05:09.16,Dialogue Top,,0,0,0,,But that guy still hasn't noticed...
+Dialogue: 0,0:05:10.74,0:05:14.16,Character Card,Sign,0,0,0,,Nezu Nobutsugu (35)\NFisherman
+Dialogue: 0,0:05:10.83,0:05:14.29,Dialogue Top,,0,0,0,,That the trick he set up to escape from his crime...
+Dialogue: 0,0:05:14.71,0:05:18.13,Character Card,Sign,0,0,0,,Yoshizawa Yuuta (34)\NFisherman
+Dialogue: 0,0:05:14.91,0:05:17.63,Dialogue Top,,0,0,0,,Would be the very one that ultimately wrings his neck.
+Dialogue: 0,0:05:21.13,0:05:23.51,Dialogue,,0,0,0,,Hey, hey, can you hurry up?
+Dialogue: 0,0:05:23.51,0:05:26.26,Dialogue,,0,0,0,,It's almost midnight already!
+Dialogue: 0,0:05:26.51,0:05:30.60,Dialogue,,0,0,0,,We've already told you everything\Nwe know, so just let us go home.
+Dialogue: 0,0:05:30.60,0:05:32.47,Dialogue,,0,0,0,,Please wait a moment!
+Dialogue: 0,0:05:32.47,0:05:33.31,Dialogue,,0,0,0,,Just a little longer.
+Dialogue: 0,0:05:33.31,0:05:33.81,Dialogue,,0,0,0,,What is it?
+Dialogue: 0,0:05:33.81,0:05:36.44,Dialogue,,0,0,0,,We need you to stay here, just a bit longer.
+Dialogue: 0,0:05:36.85,0:05:38.73,Dialogue,,0,0,0,,Say, Sonoko...
+Dialogue: 0,0:05:38.73,0:05:41.40,Dialogue,,0,0,0,,You can't think of any other\Npossibilities for this case, right?
+Dialogue: 0,0:05:41.40,0:05:43.40,Dialogue,,0,0,0,,Let's go back to the hotel then.
+Dialogue: 0,0:05:43.69,0:05:44.82,Dialogue,,0,0,0,,I suppose not.
+Dialogue: 0,0:05:47.53,0:05:48.41,Dialogue,,0,0,0,,Could it be...
+Dialogue: 0,0:05:48.41,0:05:49.03,Dialogue,,0,0,0,,It came?
+Dialogue: 0,0:05:49.82,0:05:51.70,Dialogue,,0,0,0,,The thing that always happens came, didn't it?
+Dialogue: 0,0:05:51.70,0:05:53.41,Dialogue,,0,0,0,,It's only a mosquito bite.
+Dialogue: 0,0:05:57.21,0:05:58.50,Dialogue,,0,0,0,,Hey, Shinichi.
+Dialogue: 0,0:05:58.50,0:06:02.42,Dialogue,,0,0,0,,It looks like the investigation won't\Nbe ending soon, so let's go back.
+Dialogue: 0,0:06:02.42,0:06:04.51,Dialogue,,0,0,0,,Stupid, why would we head back now?
+Dialogue: 0,0:06:05.13,0:06:07.97,Dialogue,,0,0,0,,Right when the truth behind this\Ncase is about to be revealed...
+Dialogue: 0,0:06:07.97,0:06:09.34,Dialogue,,0,0,0,,By Detective Agasa.
+Dialogue: 0,0:06:09.76,0:06:11.47,Dialogue,,0,0,0,,Then, does that mean...
+Dialogue: 0,0:06:11.80,0:06:14.02,Dialogue,,0,0,0,,Yes, I understand it now.
+Dialogue: 0,0:06:14.02,0:06:18.19,Dialogue,,0,0,0,,The one who drowned Aramaki{\rHonorifics - Dialogue}-san{\r},\Nand the trick the culprit used.
+Dialogue: 0,0:06:19.02,0:06:23.40,Dialogue,,0,0,0,,Right now, Mitsuhiko and the others are\Ngathering the materials we'll be needing.
+Dialogue: 0,0:06:23.40,0:06:28.40,Dialogue,,0,0,0,,When they get back, I'll just use your\Nvoice and you follow along as usual...
+Dialogue: 0,0:06:31.12,0:06:32.24,Dialogue,,0,0,0,,What the...
+Dialogue: 0,0:06:33.03,0:06:33.62,Dialogue,,0,0,0,,Oh no!
+Dialogue: 0,0:06:33.62,0:06:35.91,Dialogue,,0,0,0,,I left my voice changing bowtie back in the hotel room!
+Dialogue: 0,0:06:36.50,0:06:37.71,Dialogue,,0,0,0,,Hey, hey...
+Dialogue: 0,0:06:38.50,0:06:39.42,Dialogue,,0,0,0,,Here you are.
+Dialogue: 0,0:06:41.58,0:06:42.79,Dialogue,,0,0,0,,Haibara...
+Dialogue: 0,0:06:42.79,0:06:44.88,Dialogue,,0,0,0,,You're here, just as I thought.
+Dialogue: 0,0:06:44.88,0:06:45.80,Dialogue,,0,0,0,,Thank you.
+Dialogue: 0,0:06:45.80,0:06:48.67,Dialogue,,0,0,0,,But how did you know that we were here?
+Dialogue: 0,0:06:49.01,0:06:52.09,Dialogue,,0,0,0,,I waited a long while for you all,\Nand when no one showed up...
+Dialogue: 0,0:06:52.09,0:06:54.22,Dialogue,,0,0,0,,I asked the people at the hotel...
+Dialogue: 0,0:06:54.22,0:06:57.60,Dialogue,,0,0,0,,"Is there a murder case being\Ninvestigated around here?"
+Dialogue: 0,0:06:57.81,0:07:01.40,Dialogue,,0,0,0,,Sorry Ai{\rHonorifics - Dialogue}-kun{\r}, I completely forgot about you.
+Dialogue: 0,0:07:01.40,0:07:04.61,Dialogue,,0,0,0,,By the way, where's everyone else?
+Dialogue: 0,0:07:04.61,0:07:06.11,Dialogue,,0,0,0,,Ah, they're around.
+Dialogue: 0,0:07:06.11,0:07:07.40,Dialogue,,0,0,0,,Heeyyyy!
+Dialogue: 0,0:07:08.78,0:07:10.20,Dialogue,,0,0,0,,Conan{\rHonorifics - Dialogue}-kun{\r}!
+Dialogue: 0,0:07:10.20,0:07:11.49,Dialogue,,0,0,0,,We found all of it.
+Dialogue: 0,0:07:11.82,0:07:13.82,Dialogue,,0,0,0,,Here, a big sea shell!
+Dialogue: 0,0:07:14.41,0:07:16.12,Dialogue,,0,0,0,,One dead starfish.
+Dialogue: 0,0:07:16.70,0:07:17.50,Dialogue,,0,0,0,,Here it is.
+Dialogue: 0,0:07:17.50,0:07:21.08,Dialogue,,0,0,0,,I asked the townspeople for a bucket and a basin.
+Dialogue: 0,0:07:21.50,0:07:24.29,Dialogue,,0,0,0,,But what are you going to do with these?
+Dialogue: 0,0:07:24.29,0:07:26.21,Dialogue,,0,0,0,,Just wait and see.
+Dialogue: 0,0:07:27.71,0:07:30.51,Dialogue,,0,0,0,,Come on, can't you leave us alone, Detective?
+Dialogue: 0,0:07:31.22,0:07:34.22,Dialogue,,0,0,0,,Why won't you just let us go home already?
+Dialogue: 0,0:07:34.60,0:07:40.10,Dialogue,,0,0,0,,Because we need to wait until we\Nknow Aramaki{\rHonorifics - Dialogue}-san{\r}'s time of death.
+Dialogue: 0,0:07:40.60,0:07:41.48,Dialogue,,0,0,0,,Geez...
+Dialogue: 0,0:07:41.48,0:07:43.27,Dialogue,,0,0,0,,How long is this going to take?
+Dialogue: 0,0:07:43.27,0:07:46.44,Dialogue,,0,0,0,,The detectives in dramas figure it out in mere seconds!
+Dialogue: 0,0:07:47.02,0:07:51.45,Dialogue,,0,0,0,,Besides, we couldn't have killed him, remember?
+Dialogue: 0,0:07:51.90,0:07:55.20,Dialogue,,0,0,0,,When we tried calling him at 8:40...
+Dialogue: 0,0:07:55.20,0:07:58.37,Dialogue,,0,0,0,,The phone was answered but\Nthen was hung up right away.
+Dialogue: 0,0:07:59.41,0:08:05.92,Dialogue,,0,0,0,,All calls were recorded in the phone log, and all three\Nof us were in the Chinese restaurant the entire time.
+Dialogue: 0,0:08:07.29,0:08:10.76,Dialogue,,0,0,0,,If you're going to suspect us, explain that first!
+Dialogue: 0,0:08:11.01,0:08:17.30,Dialogue,,0,0,0,,How we could've answered the phone while\Nit was with Aramaki's body in the net!
+Dialogue: 0,0:08:17.30,0:08:19.01,Dialogue,,0,0,0,,That is...
+Dialogue: 0,0:08:19.01,0:08:20.43,Dialogue,,0,0,0,,It's because of the waves.
+Dialogue: 0,0:08:22.10,0:08:24.06,Dialogue,,0,0,0,,Look over there.
+Dialogue: 0,0:08:24.31,0:08:29.82,Dialogue,,0,0,0,,It's as if that empty can is Aramaki{\rHonorifics - Dialogue}-san{\r}, washed ashore.
+Dialogue: 0,0:08:30.82,0:08:33.32,Dialogue,,0,0,0,,Like Aramaki{\rHonorifics - Dialogue}-san{\r}, washed ashore...
+Dialogue: 0,0:08:35.11,0:08:36.32,Dialogue,,0,0,0,,That's it!
+Dialogue: 0,0:08:36.32,0:08:37.74,Dialogue,,0,0,0,,Aramaki{\rHonorifics - Dialogue}-san{\r}'s body rolled over!
+Dialogue: 0,0:08:40.04,0:08:44.83,Dialogue,,0,0,0,,The body was rolled over by the\Npower of waves on the beach.
+Dialogue: 0,0:08:45.21,0:08:47.63,Dialogue,,0,0,0,,You can tell that just by looking.
+Dialogue: 0,0:08:47.63,0:08:49.00,Dialogue,,0,0,0,,What does that mean?
+Dialogue: 0,0:08:49.46,0:08:51.63,Dialogue,,0,0,0,,As Aramaki{\rHonorifics - Dialogue}-san{\r} was rolling...
+Dialogue: 0,0:08:51.63,0:08:57.93,Dialogue,,0,0,0,,There was a chance that the buttons might be\Npressed by a sea shell as the phone rang.
+Dialogue: 0,0:09:00.01,0:09:05.60,Dialogue,,0,0,0,,When the body rolled over again, the\Nbuttons got pressed so the call was cut.
+Dialogue: 0,0:09:06.73,0:09:11.53,Dialogue,,0,0,0,,The proof in this is that the cell\Nphone is covered in scratches.
+Dialogue: 0,0:09:12.03,0:09:17.03,Dialogue,,0,0,0,,Not only that, but Aramaki{\rHonorifics - Dialogue}-san{\r}\Nhimself was also covered in scratches.
+Dialogue: 0,0:09:17.53,0:09:18.91,Dialogue,,0,0,0,,There's no doubt about it!
+Dialogue: 0,0:09:18.91,0:09:24.66,Dialogue,,0,0,0,,The phone being picked up when Nezu{\rHonorifics - Dialogue}-san{\r} called\Nwasn't because it was answered by anyone...
+Dialogue: 0,0:09:24.66,0:09:29.08,Dialogue,,0,0,0,,But only because Aramaki{\rHonorifics - Dialogue}-san{\r}'s body rolled,\Ncausing the "Call" button to be pushed.
+Dialogue: 0,0:09:30.00,0:09:34.63,Dialogue,,0,0,0,,As such, the culprit was expecting\Nthe body to be rolled over...
+Dialogue: 0,0:09:34.63,0:09:40.51,Dialogue,,0,0,0,,Allowing him to answer and cut the\Ncall without even being there!
+Dialogue: 0,0:09:40.51,0:09:42.52,Dialogue,,0,0,0,,But isn't that just a coincidence?
+Dialogue: 0,0:09:44.02,0:09:47.19,Dialogue,,0,0,0,,Even with the knowledge he would roll over...
+Dialogue: 0,0:09:47.19,0:09:53.44,Dialogue,,0,0,0,,It'd be impossible to time it so that the body rolled onto\Nsomething and answered the call when you needed.
+Dialogue: 0,0:09:55.11,0:09:56.11,Dialogue,,0,0,0,,That's true...
+Dialogue: 0,0:09:57.07,0:10:02.20,Dialogue,,0,0,0,,But, with this, your alibis of having been on the\Nphone with him when he died have disappeared.
+Dialogue: 0,0:10:02.74,0:10:05.33,Dialogue,,0,0,0,,Then, tell them to hurry the hell up!
+Dialogue: 0,0:10:05.33,0:10:07.33,Dialogue,,0,0,0,,We need to know the time of death!
+Dialogue: 0,0:10:09.29,0:10:09.92,Dialogue,,0,0,0,,Hello?
+Dialogue: 0,0:10:11.79,0:10:12.59,Dialogue,,0,0,0,,What?
+Dialogue: 0,0:10:12.59,0:10:14.63,Dialogue,,0,0,0,,The time of death has been determined?
+Dialogue: 0,0:10:17.01,0:10:17.93,Dialogue,,0,0,0,,Right, understood.
+Dialogue: 0,0:10:18.51,0:10:19.01,Dialogue,,0,0,0,,Well?
+Dialogue: 0,0:10:19.72,0:10:20.72,Dialogue,,0,0,0,,It's like this...
+Dialogue: 0,0:10:23.22,0:10:26.56,Dialogue,,0,0,0,,Hey, stop whispering and tell us already.
+Dialogue: 0,0:10:27.23,0:10:28.31,Dialogue,,0,0,0,,You found out, right?
+Dialogue: 0,0:10:28.31,0:10:30.90,Dialogue,,0,0,0,,Aramaki{\rHonorifics - Dialogue}-san{\r}'s time of death?
+Dialogue: 0,0:10:31.90,0:10:33.73,Dialogue,,0,0,0,,Yes, we know it.
+Dialogue: 0,0:10:34.73,0:10:37.40,Dialogue,,0,0,0,,According to Aramaki{\rHonorifics - Dialogue}-san{\r}'s time of death...
+Dialogue: 0,0:10:38.40,0:10:44.08,Dialogue,,0,0,0,,All of you have lost your alibis, and remain suspects!
+Dialogue: 0,0:10:44.99,0:10:45.91,Dialogue,,0,0,0,,What was that?
+Dialogue: 0,0:10:46.41,0:10:48.91,Dialogue,,0,0,0,,Then, when are you saying he died?
+Dialogue: 0,0:10:48.91,0:10:51.88,Dialogue,,0,0,0,,How are we supposed to understand if you don't tell us?
+Dialogue: 0,0:10:52.42,0:10:55.21,Dialogue,,0,0,0,,I got to the restaurant a little after 7:00.
+Dialogue: 0,0:10:55.80,0:10:57.63,Dialogue,,0,0,0,,Yuuta got there at exactly 8:00.
+Dialogue: 0,0:10:57.63,0:11:00.38,Dialogue,,0,0,0,,And Nobutsugu showed up around 8:40.
+Dialogue: 0,0:11:00.93,0:11:03.80,Dialogue,,0,0,0,,It takes at least ten minutes to\Nget from here to the restaurant.
+Dialogue: 0,0:11:04.43,0:11:10.27,Dialogue,,0,0,0,,Nobutsugu visited his father's grave before going to the\Nrestaurant, so someone at the temple must've seen him.
+Dialogue: 0,0:11:10.81,0:11:14.82,Dialogue,,0,0,0,,So, tell us what time he died!
+Dialogue: 0,0:11:14.82,0:11:18.86,Dialogue,,0,0,0,,If we weren't here at the time, we couldn't have...
+Dialogue: 0,0:11:18.86,0:11:20.91,Dialogue,,0,0,0,,You wouldn't have to be here.
+Dialogue: 0,0:11:22.53,0:11:25.12,Dialogue,,0,0,0,,Being here when it happened isn't necessary...
+Dialogue: 0,0:11:26.70,0:11:28.83,Dialogue,,0,0,0,,If you use the following trick!
+Dialogue: 0,0:11:36.25,0:11:37.21,Dialogue,,0,0,0,,Trick?
+Dialogue: 0,0:11:37.21,0:11:40.38,Dialogue,,0,0,0,,Agasa{\rHonorifics - Dialogue}-san{\r}, what have you been doing?
+Dialogue: 0,0:11:40.80,0:11:43.43,Dialogue,,0,0,0,,Getting ready to explain this trick.
+Dialogue: 0,0:11:43.43,0:11:45.72,Dialogue,,0,0,0,,You'll soon understand everything.
+Dialogue: 0,0:11:45.72,0:11:49.85,Dialogue,,0,0,0,,The sand in this basin will, naturally, represent the beach.
+Dialogue: 0,0:11:50.52,0:11:53.27,Dialogue,,0,0,0,,This starfish will represent Aramaki{\rHonorifics - Dialogue}-san{\r}.
+Dialogue: 0,0:11:54.40,0:11:58.11,Dialogue,,0,0,0,,And the water in this bucket represents the sea water.
+Dialogue: 0,0:12:00.40,0:12:03.20,Dialogue,,0,0,0,,All right, everyone move away, please.
+Dialogue: 0,0:12:03.20,0:12:04.03,Dialogue,,0,0,0,,Yes!
+Dialogue: 0,0:12:05.53,0:12:11.91,Dialogue,,0,0,0,,First, dig a hole in the sand big enough for a man to fit in.
+Dialogue: 0,0:12:11.91,0:12:18.34,Dialogue,,0,0,0,,Then, place the drunk Aramaki{\rHonorifics - Dialogue}-san{\r}, who's\Nnow tangled in the fishing net, into the hole.
+Dialogue: 0,0:12:19.42,0:12:21.51,Dialogue,,0,0,0,,Uhm, Professor Agasa?
+Dialogue: 0,0:12:21.51,0:12:23.63,Dialogue,,0,0,0,,I'm sorry, but that won't work.
+Dialogue: 0,0:12:23.93,0:12:30.22,Dialogue,,0,0,0,,If the trick you're thinking of is immobilizing him\Nwith the net and having the tide kill him...
+Dialogue: 0,0:12:30.22,0:12:31.23,Dialogue,,0,0,0,,It won't work.
+Dialogue: 0,0:12:31.93,0:12:36.90,Dialogue,,0,0,0,,Even though the tide is rising, the water\Nlevel doesn't get that high instantly.
+Dialogue: 0,0:12:36.90,0:12:40.03,Dialogue,,0,0,0,,So if he were about to drown, he'd\Nwake up and would be able to escape...
+Dialogue: 0,0:12:40.03,0:12:41.44,Dialogue,,0,0,0,,According to Detective Yokomizo.
+Dialogue: 0,0:12:42.03,0:12:45.53,Dialogue,,0,0,0,,Then, how about if we use this?
+Dialogue: 0,0:12:46.32,0:12:47.53,Dialogue,,0,0,0,,A sea shell?
+Dialogue: 0,0:12:48.20,0:12:52.41,Dialogue,,0,0,0,,Use it as a weight on top of the victim,\Nand he won't be able to move.
+Dialogue: 0,0:12:53.83,0:12:55.62,Dialogue,,0,0,0,,That's true.
+Dialogue: 0,0:12:55.62,0:12:59.63,Dialogue,,0,0,0,,If the victim was not only tangled in\Nthe net, but had a weight on him...
+Dialogue: 0,0:13:00.13,0:13:03.55,Dialogue,,0,0,0,,He wouldn't be able to get away even if he did wake up.
+Dialogue: 0,0:13:04.43,0:13:09.89,Dialogue,,0,0,0,,If that's the case, the weight should've still been\Non Aramaki{\rHonorifics - Dialogue}-san{\r} when his body was found.
+Dialogue: 0,0:13:11.31,0:13:13.23,Dialogue,,0,0,0,,So, was it there?
+Dialogue: 0,0:13:13.23,0:13:14.98,Dialogue,,0,0,0,,No, it wasn't.
+Dialogue: 0,0:13:15.39,0:13:16.60,Dialogue,,0,0,0,,That's true.
+Dialogue: 0,0:13:16.60,0:13:19.86,Dialogue,,0,0,0,,If it were an ordinary weight, it'd still be there, but...
+Dialogue: 0,0:13:20.11,0:13:23.69,Dialogue,,0,0,0,,If the weight had a shape similar to this sea shell...
+Dialogue: 0,0:13:25.90,0:13:28.16,Dialogue,,0,0,0,,This is what you'll get.
+Dialogue: 0,0:13:29.41,0:13:30.45,Dialogue,,0,0,0,,It floated!
+Dialogue: 0,0:13:30.99,0:13:33.70,Dialogue,,0,0,0,,But, hold on a second...
+Dialogue: 0,0:13:33.70,0:13:36.96,Dialogue,,0,0,0,,What kind of weight has a\Nshape similar to this sea shell?
+Dialogue: 0,0:13:37.83,0:13:38.71,Dialogue,,0,0,0,,Could it be!?
+Dialogue: 0,0:13:40.00,0:13:40.92,Dialogue,,0,0,0,,That boat!?
+Dialogue: 0,0:13:41.92,0:13:43.05,Dialogue,,0,0,0,,That's right.
+Dialogue: 0,0:13:43.05,0:13:45.59,Dialogue,,0,0,0,,The culprit first got Aramaki{\rHonorifics - Dialogue}-san{\r}\Ndrunk and entangled him in the net...
+Dialogue: 0,0:13:46.22,0:13:50.01,Dialogue,,0,0,0,,Before digging a hole and putting him inside.
+Dialogue: 0,0:13:50.01,0:13:53.56,Dialogue,,0,0,0,,Then, he just had to place a boat on top of the victim.
+Dialogue: 0,0:13:54.22,0:14:00.31,Dialogue,,0,0,0,,This way, even if the victim did come to, he\Nwould be trapped and would ultimately drown.
+Dialogue: 0,0:14:00.31,0:14:06.24,Dialogue,,0,0,0,,Then, once the tide came further in, the boat\Nwould merely drift away from the victim.
+Dialogue: 0,0:14:06.82,0:14:10.12,Dialogue,,0,0,0,,All as the person waiting at the\NChinese restaurant wanted...
+Dialogue: 0,0:14:10.12,0:14:11.53,Dialogue,,0,0,0,,Shimojou Noburu{\rHonorifics - Dialogue}-san{\r}.
+Dialogue: 0,0:14:11.91,0:14:13.91,Dialogue,,0,0,0,,Everything went exactly according to your plan!
+Dialogue: 0,0:14:19.42,0:14:21.00,Dialogue,,0,0,0,,Hey, Noboru...
+Dialogue: 0,0:14:21.00,0:14:22.71,Dialogue,,0,0,0,,Don't tell me you...
+Dialogue: 0,0:14:23.42,0:14:25.42,Dialogue,,0,0,0,,Shimojou{\rHonorifics - Dialogue}-san{\r}, you...
+Dialogue: 0,0:14:26.72,0:14:28.30,Dialogue,,0,0,0,,How did I do?
+Dialogue: 0,0:14:28.30,0:14:30.22,Dialogue,,0,0,0,,You were perfect.
+Dialogue: 0,0:14:30.22,0:14:31.89,Dialogue,,0,0,0,,For this next part, just go along with my voice.
+Dialogue: 0,0:14:33.51,0:14:33.76,Dialogue,,0,0,0,,Oh!
+Dialogue: 0,0:14:34.77,0:14:39.60,Dialogue,,0,0,0,,What about the bottle, sandal, and\Nshirt button found in the boat?
+Dialogue: 0,0:14:39.73,0:14:44.40,Dialogue,,0,0,0,,Their purpose was not only to make you\Nthink Aramaki{\rHonorifics - Dialogue}-san{\r} was on the boat...
+Dialogue: 0,0:14:44.40,0:14:48.28,Dialogue,,0,0,0,,But also make you not consider that\Nthe boat was used as a weight.
+Dialogue: 0,0:14:48.82,0:14:53.45,Dialogue,,0,0,0,,Also, the sea water in the boat would make it heavier.
+Dialogue: 0,0:14:53.45,0:14:56.45,Dialogue,,0,0,0,,This would make it harder for Aramaki{\rHonorifics - Dialogue}-san{\r} to escape.
+Dialogue: 0,0:14:56.75,0:15:02.13,Dialogue,,0,0,0,,It's true that there's no need to be here\Nto kill the victim with this method, but...
+Dialogue: 0,0:15:02.13,0:15:04.42,Dialogue,,0,0,0,,Why do you think I'm the culprit?
+Dialogue: 0,0:15:04.71,0:15:09.80,Dialogue,,0,0,0,,You knew the order of the phone calls in\NAramaki{\rHonorifics - Dialogue}-san{\r}'s phone log, didn't you?
+Dialogue: 0,0:15:09.80,0:15:12.59,Dialogue,,0,0,0,,You said your call was after Yoshizawa{\rHonorifics - Dialogue}-san{\r}'s.
+Dialogue: 0,0:15:13.10,0:15:14.72,Dialogue,,0,0,0,,That's...
+Dialogue: 0,0:15:14.72,0:15:18.56,Dialogue,,0,0,0,,Because he said that he had called before\Nhe came to the Chinese restaurant.
+Dialogue: 0,0:15:18.81,0:15:21.90,Dialogue,,0,0,0,,Yoshizawa{\rHonorifics - Dialogue}-san{\r} arrived at 8:00 PM.
+Dialogue: 0,0:15:21.90,0:15:25.23,Dialogue,,0,0,0,,You first called at 7:47.
+Dialogue: 0,0:15:25.73,0:15:29.53,Dialogue,,0,0,0,,How did you know he called before you did?
+Dialogue: 0,0:15:29.90,0:15:31.74,Dialogue,,0,0,0,,No, see, that's because...
+Dialogue: 0,0:15:32.03,0:15:37.62,Dialogue,,0,0,0,,You knew when Yoshizawa{\rHonorifics - Dialogue}-san{\r}\Ncalled Aramaki{\rHonorifics - Dialogue}-san{\r}'s phone...
+Dialogue: 0,0:15:37.62,0:15:44.92,Dialogue,,0,0,0,,Because the phone rang while you were setting\Nup the boat for the trick I just explained.
+Dialogue: 0,0:15:45.21,0:15:46.21,Dialogue,,0,0,0,,I see!
+Dialogue: 0,0:15:48.42,0:15:49.72,Dialogue,,0,0,0,,What are you saying?
+Dialogue: 0,0:15:49.72,0:15:51.76,Dialogue,,0,0,0,,You just made all of that up.
+Dialogue: 0,0:15:52.30,0:15:56.97,Dialogue,,0,0,0,,You can't say I'm the culprit just\Nbecause I guessed the order of calls.
+Dialogue: 0,0:15:57.47,0:16:02.39,Dialogue,,0,0,0,,And, you don't even have any evidence\Nthat I used that trick you just went over!
+Dialogue: 0,0:16:02.39,0:16:07.90,Dialogue,,0,0,0,,Anyone could've gotten him drunk, tangled him\Nin the net, and dropped him into the ocean.
+Dialogue: 0,0:16:08.90,0:16:11.20,Dialogue,,0,0,0,,That's true, Agasa{\rHonorifics - Dialogue}-san{\r}.
+Dialogue: 0,0:16:11.20,0:16:14.32,Dialogue,,0,0,0,,Do you have any evidence proving Shimojou{\rHonorifics - Dialogue}-san{\r} did it?
+Dialogue: 0,0:16:14.62,0:16:17.12,Dialogue,,0,0,0,,There isn't any.
+Dialogue: 0,0:16:17.12,0:16:19.91,Dialogue,,0,0,0,,I have no proof that it was you.
+Dialogue: 0,0:16:22.33,0:16:23.37,Dialogue,,0,0,0,,As I said!
+Dialogue: 0,0:16:24.00,0:16:30.63,Dialogue,,0,0,0,,All you know is that, at that guy's time of\Ndeath, I was at the Chinese restaurant!
+Dialogue: 0,0:16:30.63,0:16:32.34,Dialogue,,0,0,0,,Only that truth!
+Dialogue: 0,0:16:32.80,0:16:34.59,Dialogue,,0,0,0,,Do you have a witness?
+Dialogue: 0,0:16:36.09,0:16:38.51,Dialogue,,0,0,0,,You're one of the witnesses!
+Dialogue: 0,0:16:38.64,0:16:41.39,Dialogue,,0,0,0,,Really, what time was that?
+Dialogue: 0,0:16:41.39,0:16:43.73,Dialogue,,0,0,0,,I'm so forgetful these days...
+Dialogue: 0,0:16:44.10,0:16:45.94,Dialogue,,0,0,0,,You...
+Dialogue: 0,0:16:46.52,0:16:48.90,Dialogue,,0,0,0,,Are you senile, Gramps?
+Dialogue: 0,0:16:48.90,0:16:50.61,Dialogue,,0,0,0,,I was at the restaurant at the table next to yours.
+Dialogue: 0,0:16:51.11,0:16:53.07,Dialogue,,0,0,0,,Right when he died around 8:00!
+Dialogue: 0,0:16:54.53,0:16:56.41,Dialogue,,0,0,0,,Please wait a moment, Shimojou{\rHonorifics - Dialogue}-san{\r}.
+Dialogue: 0,0:16:57.70,0:16:59.62,Dialogue,,0,0,0,,How did you know?
+Dialogue: 0,0:16:59.62,0:17:02.50,Dialogue,,0,0,0,,That Aramaki{\rHonorifics - Dialogue}-san{\r} died around 8:00.
+Dialogue: 0,0:17:03.12,0:17:07.29,Dialogue,,0,0,0,,No, I just heard it when you were whispering about it.
+Dialogue: 0,0:17:07.63,0:17:09.71,Dialogue,,0,0,0,,That's rather odd.
+Dialogue: 0,0:17:09.71,0:17:17.59,Dialogue,,0,0,0,,The time of death reported to me was between\N6:00 and when Aramaki{\rHonorifics - Dialogue}-san{\r} was found at 9:30.
+Dialogue: 0,0:17:17.59,0:17:20.01,Dialogue,,0,0,0,,That's not funny.
+Dialogue: 0,0:17:20.01,0:17:21.97,Dialogue,,0,0,0,,You should be able to narrow it down a bit more, right?
+Dialogue: 0,0:17:21.97,0:17:24.73,Dialogue,,0,0,0,,Using things like rigor mortis and postmortem lividity?
+Dialogue: 0,0:17:25.10,0:17:26.77,Dialogue,,0,0,0,,That's correct.
+Dialogue: 0,0:17:26.77,0:17:29.48,Dialogue,,0,0,0,,Normally the time of death is determined\Nfrom things like postmortem lividity...
+Dialogue: 0,0:17:29.48,0:17:32.94,Dialogue,,0,0,0,,Rigor mortis, and rectal temperature, but...
+Dialogue: 0,0:17:33.07,0:17:38.20,Dialogue,,0,0,0,,That's only in cases where the body remains\Nin a fixed place at a fixed temperature.
+Dialogue: 0,0:17:38.91,0:17:42.91,Dialogue,,0,0,0,,In this case, the waves were repeatedly\Nturning Aramaki{\rHonorifics - Dialogue}-san{\r}'s body over.
+Dialogue: 0,0:17:43.41,0:17:44.91,Dialogue,,0,0,0,,Because of that...
+Dialogue: 0,0:17:44.12,0:17:51.17,Signs,Sign,0,0,0,,GRAVITY
+Dialogue: 0,0:17:44.91,0:17:48.21,Dialogue,,0,0,0,,the postmortem lividity is unknown since it's\Ndetermined from the condition of blood
+Dialogue: 0,0:17:48.21,0:17:51.13,Dialogue,,0,0,0,,that pools at the bottom of the body due to gravity.
+Dialogue: 0,0:17:51.13,0:17:54.21,Dialogue,,0,0,0,,Thus, it becomes difficult to hold\Nthe stiffened muscles in place.
+Dialogue: 0,0:17:54.92,0:18:02.01,Dialogue,,0,0,0,,Also, being constantly hit by the waves caused\Nthe body temperature to change rapidly.
+Dialogue: 0,0:18:02.01,0:18:05.02,Dialogue,,0,0,0,,This makes it hard to determine the time of death\Nfrom the temperature of the body as well.
+Dialogue: 0,0:18:05.73,0:18:11.02,Dialogue,,0,0,0,,In other words, not even the police know\NAramaki{\rHonorifics - Dialogue}-san{\r}'s exact time of death.
+Dialogue: 0,0:18:11.90,0:18:17.11,Dialogue,,0,0,0,,The only one who does is the culprit, which is only you!
+Dialogue: 0,0:18:29.17,0:18:30.29,Dialogue,,0,0,0,,Noboru...
+Dialogue: 0,0:18:30.29,0:18:32.42,Dialogue,,0,0,0,,Don't tell me... it was for our fathers?
+Dialogue: 0,0:18:33.50,0:18:34.13,Dialogue,,0,0,0,,Yeah.
+Dialogue: 0,0:18:34.92,0:18:35.84,Dialogue,,0,0,0,,You should thank me.
+Dialogue: 0,0:18:36.67,0:18:41.30,Dialogue,,0,0,0,,Eight years ago, Aramaki killed our fathers while at sea.
+Dialogue: 0,0:18:41.30,0:18:43.60,Dialogue,,0,0,0,,It took all of my courage to kill him.
+Dialogue: 0,0:18:44.31,0:18:45.81,Dialogue,,0,0,0,,Eight years ago?
+Dialogue: 0,0:18:45.81,0:18:51.15,Dialogue,,0,0,0,,You mean the accident that happened when\Nthey sailed into an incoming storm?
+Dialogue: 0,0:18:52.40,0:18:55.90,Dialogue,,0,0,0,,The truth is, our fathers didn't\Nwant to challenge that storm.
+Dialogue: 0,0:18:57.19,0:19:02.41,Dialogue,,0,0,0,,They went out to bring back Aramaki who\Nwent fishing without paying attention to it...
+Dialogue: 0,0:19:04.41,0:19:05.74,Dialogue,,0,0,0,,But that bastard...
+Dialogue: 0,0:19:05.74,0:19:10.62,Dialogue,,0,0,0,,He lost control of his own boat due to the\Nwaves and ended up hitting our fathers'!
+Dialogue: 0,0:19:11.00,0:19:16.59,Dialogue,,0,0,0,,Then, after they had fallen into the ocean,\Nhe just left them all there to die!
+Dialogue: 0,0:19:18.42,0:19:23.51,Dialogue,,0,0,0,,A sailor who was on the boat with\NAramaki confirmed it for me.
+Dialogue: 0,0:19:24.01,0:19:24.97,Dialogue,,0,0,0,,Then, why...
+Dialogue: 0,0:19:24.97,0:19:27.47,Dialogue,,0,0,0,,Why didn't you take him to the police as a witness?
+Dialogue: 0,0:19:28.81,0:19:30.89,Dialogue,,0,0,0,,He suddenly disappeared.
+Dialogue: 0,0:19:31.60,0:19:32.44,Dialogue,,0,0,0,,What?
+Dialogue: 0,0:19:33.31,0:19:37.90,Dialogue,,0,0,0,,When I asked Aramaki about him, he just calmly said...
+Dialogue: 0,0:19:39.40,0:19:42.11,Dialogue,,0,0,0,,Do you want to know how to commit the perfect crime?
+Dialogue: 0,0:19:43.03,0:19:47.62,Dialogue,,0,0,0,,Two people go sailing, and one\Npushes the other into the ocean.
+Dialogue: 0,0:19:48.62,0:19:51.71,Dialogue,,0,0,0,,The body's gone and there\Naren't any witnesses around.
+Dialogue: 0,0:19:52.42,0:19:54.21,Dialogue,,0,0,0,,How's that, easy right?
+Dialogue: 0,0:19:56.17,0:19:58.63,Dialogue,,0,0,0,,Then, Aramaki killed him too?
+Dialogue: 0,0:20:00.13,0:20:03.93,Dialogue,,0,0,0,,Even so, you still shouldn't have killed him.
+Dialogue: 0,0:20:03.93,0:20:05.55,Dialogue,,0,0,0,,Now, you're no different than him.
+Dialogue: 0,0:20:07.93,0:20:08.93,Dialogue,,0,0,0,,The hell are you saying?
+Dialogue: 0,0:20:09.89,0:20:13.02,Dialogue,,0,0,0,,I took down our enemy for your sake as well!
+Dialogue: 0,0:20:13.85,0:20:15.61,Dialogue,,0,0,0,,Even after I took it upon\Nmyself to be the sacrifice...
+Dialogue: 0,0:20:15.61,0:20:19.11,Dialogue,,0,0,0,,And summoned all my courage to carry\Nout divine punishment on that bastard...
+Dialogue: 0,0:20:19.11,0:20:19.90,Dialogue,,0,0,0,,How...
+Dialogue: 0,0:20:21.07,0:20:22.86,Dialogue,,0,0,0,,How could you say that!?
+Dialogue: 0,0:20:23.74,0:20:24.70,Dialogue,,0,0,0,,You can't do that.
+Dialogue: 0,0:20:25.78,0:20:26.53,Dialogue,,0,0,0,,Ran...
+Dialogue: 0,0:20:31.12,0:20:32.00,Dialogue,,0,0,0,,You can't.
+Dialogue: 0,0:20:33.75,0:20:37.25,Dialogue,,0,0,0,,Courage is a word that gives you\Nthe strength to do what's right.
+Dialogue: 0,0:20:39.80,0:20:43.22,Dialogue,,0,0,0,,You can't use it as a reason to take a person's life.
+Dialogue: 0,0:20:54.60,0:20:58.19,Dialogue,,0,0,0,,Ran's speech had the murderer at a loss for words.
+Dialogue: 0,0:20:59.23,0:21:02.28,Dialogue,,0,0,0,,In silence, he was taken to the\NShizuoka prefecture police station.
+Dialogue: 0,0:21:04.15,0:21:06.20,Dialogue,,0,0,0,,Like a calm that no waves could break...
+Dialogue: 0,0:21:06.91,0:21:10.62,Dialogue,,0,0,0,,Quietly, with a sad smile...
+Dialogue: 0,0:22:47.01,0:22:49.30,Dialogue,,0,0,0,,Can't believe I said that...
+Dialogue: 0,0:22:50.59,0:22:51.89,Dialogue,,0,0,0,,It was really wise.
+Dialogue: 0,0:22:52.30,0:22:53.51,Dialogue,,0,0,0,,You surprised me.
+Dialogue: 0,0:22:54.31,0:22:58.44,Dialogue,,0,0,0,,I just figured Shinichi would've said the same thing.
+Dialogue: 0,0:22:59.27,0:23:00.40,Dialogue,,0,0,0,,What's this?
+Dialogue: 0,0:23:00.40,0:23:01.23,Dialogue,,0,0,0,,Speaking fondly of your husband?
+Dialogue: 0,0:23:01.23,0:23:02.06,Dialogue,,0,0,0,,That's not it!
+Dialogue: 0,0:23:12.49,0:23:13.41,Dialogue,,0,0,0,,Courage...
+Dialogue: 0,0:23:14.70,0:23:16.24,Dialogue,,0,0,0,,Gives you the strength...
+Dialogue: 0,0:23:17.91,0:23:19.00,Dialogue,,0,0,0,,To do what's right.
+Dialogue: 0,0:23:24.54,0:23:26.76,Dialogue,,0,0,0,,I am Haibara Ai...
+Dialogue: 0,0:23:30.09,0:23:31.01,Dialogue,,0,0,0,,Nice to meet you.
+Dialogue: 0,0:23:35.01,0:23:36.01,Dialogue,,0,0,0,,The pleasure is mine.
+Dialogue: 0,0:23:36.93,0:23:37.89,Dialogue,,0,0,0,,Nice to meet you too.

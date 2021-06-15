@@ -1,0 +1,415 @@
+[Script Info]
+Title: Detective Conan - 0203
+TL Source: DCTP
+ScriptType: v4.00+
+WrapStyle: 3
+PlayResX: 1440
+PlayResY: 1080
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Dialogue,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00401311,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Dialogue Top,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00401311,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,8,30,30,55,1
+Style: Signs,FrancophilSans,74,&H14FFFFFF,&H00FFFFFF,&H46101010,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,8,30,30,55,1
+Style: Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,0,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Radio,FrancophilSans,74,&H00BEE1FF,&H00FFFFFF,&H000B2A42,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Narration,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00BF6F00,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Narration Off,FrancophilSans,74,&H6E8C6F00,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,0,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Flashback,FrancophilSans,74,&H00CDFAFF,&H00FFFFFF,&H00373737,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Flashback Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00CCFFFF,&HC0313134,-1,0,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Honorifics - Dialogue,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00401311,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Signs,FrancophilSans,74,&H14FFFFFF,&H00FFFFFF,&H46101010,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,-1,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Honorifics - Radio,FrancophilSans,74,&H00BEE1FF,&H00FFFFFF,&H000B2A42,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Narration,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00BF6F00,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Narration Off,FrancophilSans,74,&H6E8C6F00,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,-1,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Honorifics - Flashback,FrancophilSans,74,&H00CDFAFF,&H00FFFFFF,&H00373737,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Flashback Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00CCFFFF,&HC0313134,-1,-1,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Masks,FrancophilSans,74,&H00000000,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,2,0,0,0,1
+Style: Title,Conan Episode Title,74,&H00E1E4E3,&H000000FF,&HC8DBDAE1,&HC0000000,-1,0,0,0,100,100,0,0,1,1,0,5,0,0,0,1
+Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-1,0,0,0,100,100,0,0,1,0,0,2,0,0,65,1
+Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
+Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
+Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:02.44,0:00:04.06,Dialogue,,0,0,0,,There is no shape to flowing water.
+Dialogue: 0,0:00:04.06,0:00:05.65,Dialogue,,0,0,0,,There is no figure to flowing wind.
+Dialogue: 0,0:00:05.65,0:00:07.19,Dialogue,,0,0,0,,No matter the case, the deduction is free.
+Dialogue: 0,0:00:07.69,0:00:09.40,Dialogue,,0,0,0,,Today's stage is a plateau hotel.
+Dialogue: 0,0:00:09.40,0:00:10.99,Dialogue,,0,0,0,,The unwanted guest calls for a case.
+Dialogue: 0,0:00:11.15,0:00:12.70,Dialogue,,0,0,0,,Perceiving the one and only truth,
+Dialogue: 0,0:00:12.70,0:00:14.45,Dialogue,,0,0,0,,A child with the intellect of an adult...
+Dialogue: 0,0:00:14.45,0:00:16.32,Dialogue,,0,0,0,,His name is: Detective Conan.
+Dialogue: 0,0:01:42.24,0:01:45.66,Dialogue,,0,0,0,,Excuse me, we would like to get to Hotel Arimori.
+Dialogue: 0,0:01:46.12,0:01:48.71,Dialogue,,0,0,0,,Yeah, just go across, and head straight on the road.
+Dialogue: 0,0:01:49.58,0:01:50.58,Dialogue,,0,0,0,,Thank you very much.
+Dialogue: 0,0:01:55.80,0:01:59.34,Dialogue,,0,0,0,,Dad, I'm surprised you knew about a hotel all the way out here.
+Dialogue: 0,0:01:59.34,0:02:03.06,Dialogue,,0,0,0,,It's because this place is known for its great local beer.
+Dialogue: 0,0:02:03.85,0:02:05.56,Dialogue,,0,0,0,,Alcohol was his goal again?
+Dialogue: 0,0:02:05.56,0:02:06.35,Dialogue,,0,0,0,,Uncle...
+Dialogue: 0,0:02:09.65,0:02:10.56,Dialogue,,0,0,0,,That's the place.
+Dialogue: 0,0:02:10.56,0:02:11.69,Dialogue,,0,0,0,,We're finally here.
+Dialogue: 0,0:02:15.69,0:02:21.70,Signs,Sign,0,0,0,,THE BLACK WINGS OF ICARUS\N(PART ONE)
+Dialogue: 0,0:02:26.66,0:02:27.20,Dialogue,,0,0,0,,Welcome.
+Dialogue: 0,0:02:27.66,0:02:29.75,Dialogue,,0,0,0,,I made a reservation, under Mouri.
+Dialogue: 0,0:02:29.75,0:02:35.88,Character Card,Sign,0,0,0,,Hotel Manager
+Dialogue: 0,0:02:29.75,0:02:35.88,Character Card,Sign,0,0,0,,Arimori Mitsuyuki (32)
+Dialogue: 0,0:02:30.67,0:02:32.75,Dialogue Top,,0,0,0,,Mouri Kogorou{\rHonorifics - Dialogue}-sama{\r}, I believe?
+Dialogue: 0,0:02:32.75,0:02:33.79,Dialogue Top,,0,0,0,,We've been expecting you.
+Dialogue: 0,0:02:34.50,0:02:35.88,Dialogue Top,,0,0,0,,I am the manager, Arimori.
+Dialogue: 0,0:02:36.42,0:02:38.05,Dialogue,,0,0,0,,We're looking forward to our stay.
+Dialogue: 0,0:02:38.30,0:02:40.63,Dialogue,,0,0,0,,Please check-in on this card.
+Dialogue: 0,0:02:43.76,0:02:44.76,Dialogue,,0,0,0,,Welcome.
+Dialogue: 0,0:02:45.85,0:02:47.02,Dialogue,,0,0,0,,Didn't I meet you two...
+Dialogue: 0,0:02:47.10,0:02:52.23,Character Card,Sign,0,0,0,,Shimokasa Minaho (21)\NEmployee
+Dialogue: 0,0:02:47.10,0:02:52.23,Character Card,Sign,0,0,0,,Shimokasa Honami (21)\NEmployee
+Dialogue: 0,0:02:47.60,0:02:49.56,Dialogue Top,,0,0,0,,On that cursed mask case?
+Dialogue: 0,0:02:49.77,0:02:52.23,Dialogue Top,,0,0,0,,Thank you very much for your help then.
+Dialogue: 0,0:02:53.06,0:02:54.57,Dialogue,,0,0,0,,What are you two doing here?
+Dialogue: 0,0:02:55.23,0:02:56.57,Dialogue,,0,0,0,,It was a request from a friend of mine.
+Dialogue: 0,0:02:57.07,0:03:00.40,Dialogue,,0,0,0,,They've been excited about your arrival as well.
+Dialogue: 0,0:03:01.16,0:03:05.03,Dialogue,,0,0,0,,I just hope there aren't any cursed objects here as well...
+Dialogue: 0,0:03:07.95,0:03:09.75,Dialogue,,0,0,0,,I made a reservation, under Shiromoto.
+Dialogue: 0,0:03:10.46,0:03:11.08,Dialogue,,0,0,0,,Welcome.
+Dialogue: 0,0:03:13.50,0:03:14.59,Dialogue,,0,0,0,,Shiromoto{\rHonorifics - Dialogue}-sama{\r}...
+Dialogue: 0,0:03:15.84,0:03:17.30,Dialogue,,0,0,0,,You must be Shiromoto Hidehiko{\rHonorifics - Dialogue}-sama{\r}, correct?
+Dialogue: 0,0:03:18.05,0:03:19.92,Dialogue,,0,0,0,,Wasn't the reservation for two?
+Dialogue: 0,0:03:20.13,0:03:20.42,Dialogue,,0,0,0,,Yes.
+Dialogue: 0,0:03:20.47,0:03:24.89,Character Card,Sign,0,0,0,,Businessman
+Dialogue: 0,0:03:20.47,0:03:24.89,Character Card,Sign,0,0,0,,Shiromoto Hidehiko (46)
+Dialogue: 0,0:03:20.97,0:03:22.26,Dialogue Top,,0,0,0,,My wife and I.
+Dialogue: 0,0:03:22.89,0:03:24.85,Dialogue Top,,0,0,0,,I'm sure she'll be here soon.
+Dialogue: 0,0:03:25.18,0:03:27.93,Dialogue,,0,0,0,,I don't care what the producer's excuse is.
+Dialogue: 0,0:03:27.93,0:03:30.10,Dialogue,,0,0,0,,What's this about me having to give up my part all of a sudden?
+Dialogue: 0,0:03:31.39,0:03:32.39,Dialogue,,0,0,0,,You're headed this way?
+Dialogue: 0,0:03:32.98,0:03:34.15,Dialogue,,0,0,0,,You don't have to come anymore!
+Dialogue: 0,0:03:38.48,0:03:39.53,Dialogue,,0,0,0,,Isn't she...
+Dialogue: 0,0:03:39.53,0:03:41.11,Dialogue,,0,0,0,,That actress, Bizen Chizuru{\rHonorifics - Dialogue}-san{\r}?
+Dialogue: 0,0:03:42.11,0:03:42.95,Dialogue,,0,0,0,,Yeah...
+Dialogue: 0,0:03:43.49,0:03:45.78,Dialogue,,0,0,0,,Dear, what's the meaning of this?
+Dialogue: 0,0:03:46.58,0:03:50.87,Character Card,Sign,0,0,0,,Actress · Shiromoto's Wife
+Dialogue: 0,0:03:46.58,0:03:50.87,Character Card,Sign,0,0,0,,Bizen Chizuru (30)
+Dialogue: 0,0:03:46.99,0:03:49.16,Dialogue Top,,0,0,0,,I came because I was told this was a beautiful place.
+Dialogue: 0,0:03:49.16,0:03:50.87,Dialogue Top,,0,0,0,,It turns out, you've brought me to the mountains.
+Dialogue: 0,0:03:51.71,0:03:53.58,Dialogue,,0,0,0,,I think it's a nice and quiet place.
+Dialogue: 0,0:03:53.58,0:03:58.00,Dialogue,,0,0,0,,To think I'll have to see your face and stay here for\Nthe next few days, it's getting on my nerves...
+Dialogue: 0,0:03:58.00,0:04:00.97,Dialogue,,0,0,0,,Front Manager, give me a different room from this person.
+Dialogue: 0,0:04:02.05,0:04:03.55,Dialogue,,0,0,0,,But, Miss...
+Dialogue: 0,0:04:05.14,0:04:08.47,Dialogue,,0,0,0,,Please give the reserved suite to my wife.
+Dialogue: 0,0:04:08.47,0:04:09.97,Dialogue,,0,0,0,,I'll take a different room.
+Dialogue: 0,0:04:10.43,0:04:11.48,Dialogue,,0,0,0,,Understood.
+Dialogue: 0,0:04:12.10,0:04:14.02,Dialogue,,0,0,0,,Well, take care of my things.
+Dialogue: 0,0:04:16.02,0:04:17.90,Dialogue,,0,0,0,,Jeez, not even an elevator?
+Dialogue: 0,0:04:20.07,0:04:22.90,Dialogue,,0,0,0,,Her image is different from TV and the movies.
+Dialogue: 0,0:04:25.03,0:04:26.49,Dialogue,,0,0,0,,Minaho{\rHonorifics - Dialogue}-kun{\r}, Honami{\rHonorifics - Dialogue}-kun{\r}...
+Dialogue: 0,0:04:26.49,0:04:27.12,Dialogue,,0,0,0,,Show them around.
+Dialogue: 0,0:04:27.70,0:04:28.41,Dialogue,,0,0,0,,Yes.
+Dialogue: 0,0:04:31.87,0:04:33.29,Dialogue,,0,0,0,,Please, this way.
+Dialogue: 0,0:04:40.34,0:04:44.30,Dialogue,,0,0,0,,Mouri{\rHonorifics - Dialogue}-sama{\r}, would you like to rest at the restaurant?
+Dialogue: 0,0:04:44.30,0:04:45.51,Dialogue,,0,0,0,,Restaurant?
+Dialogue: 0,0:04:45.51,0:04:48.93,Dialogue,,0,0,0,,At this time, we can offer you cold herbal tea.
+Dialogue: 0,0:04:50.10,0:04:51.27,Dialogue,,0,0,0,,How great.
+Dialogue: 0,0:04:51.27,0:04:53.48,Dialogue,,0,0,0,,Hey Dad, let's go there.
+Dialogue: 0,0:04:53.48,0:04:54.73,Dialogue,,0,0,0,,Yeah, I guess.
+Dialogue: 0,0:04:55.19,0:04:57.48,Dialogue,,0,0,0,,Instead of herbal tea, I prefer...
+Dialogue: 0,0:05:00.57,0:05:01.90,Dialogue,,0,0,0,,It's such a nice restaurant.
+Dialogue: 0,0:05:02.74,0:05:03.74,Dialogue,,0,0,0,,Welcome.
+Dialogue: 0,0:05:05.32,0:05:06.57,Dialogue,,0,0,0,,She is our chef.
+Dialogue: 0,0:05:08.12,0:05:12.41,Character Card,Sign,0,0,0,,Hotel Arimori Chef
+Dialogue: 0,0:05:08.12,0:05:12.41,Character Card,Sign,0,0,0,,Simon Shinobu (27)
+Dialogue: 0,0:05:08.70,0:05:09.87,Dialogue Top,,0,0,0,,I'm Shimon Shinobu.
+Dialogue: 0,0:05:10.58,0:05:12.12,Dialogue Top,,0,0,0,,Welcome to our restaurant.
+Dialogue: 0,0:05:12.75,0:05:17.79,Dialogue,,0,0,0,,This restaurant's layout and decorations\Nwere designed entirely by her.
+Dialogue: 0,0:05:18.33,0:05:19.17,Dialogue,,0,0,0,,Amazing.
+Dialogue: 0,0:05:20.38,0:05:28.34,Dialogue,,0,0,0,,I hope you will enjoy the delicious food made\Nfrom local ingredients in this relaxing environment.
+Dialogue: 0,0:05:29.01,0:05:30.64,Dialogue,,0,0,0,,I can't wait until dinner.
+Dialogue: 0,0:05:30.64,0:05:33.93,Dialogue,,0,0,0,,I heard something about a tasty local beer.
+Dialogue: 0,0:05:34.48,0:05:36.19,Dialogue,,0,0,0,,We've prepared it, of course.
+Dialogue: 0,0:05:36.85,0:05:40.48,Dialogue,,0,0,0,,Shinobu{\rHonorifics - Dialogue}-kun{\r}, bring out some herbal tea for the guests.
+Dialogue: 0,0:05:40.48,0:05:40.81,Dialogue,,0,0,0,,Okay.
+Dialogue: 0,0:05:41.40,0:05:43.73,Dialogue,,0,0,0,,Oh, I'll take the local beer.
+Dialogue: 0,0:05:44.23,0:05:45.90,Dialogue,,0,0,0,,Wait until dinner!
+Dialogue: 0,0:05:54.62,0:05:55.50,Dialogue,,0,0,0,,So great!
+Dialogue: 0,0:05:56.29,0:05:59.63,Dialogue,,0,0,0,,Dad, why don't you stop drinking\Nso much beer and eat some food?
+Dialogue: 0,0:06:00.04,0:06:02.00,Dialogue,,0,0,0,,The soup is really tasty.
+Dialogue: 0,0:06:02.00,0:06:04.09,Dialogue,,0,0,0,,I've never had soup as bad as this.
+Dialogue: 0,0:06:05.26,0:06:07.26,Dialogue,,0,0,0,,Are you really a chef?
+Dialogue: 0,0:06:07.80,0:06:09.39,Dialogue,,0,0,0,,Chizuru, stop it.
+Dialogue: 0,0:06:09.39,0:06:10.30,Dialogue,,0,0,0,,You shut up.
+Dialogue: 0,0:06:10.84,0:06:15.52,Dialogue,,0,0,0,,Excuse me, but could you tell me how it does not suit your taste?
+Dialogue: 0,0:06:16.18,0:06:18.19,Dialogue,,0,0,0,,"How"?
+Dialogue: 0,0:06:18.19,0:06:21.48,Dialogue,,0,0,0,,Your customer is saying it's horrible, so\Nyou should at least lower your head!
+Dialogue: 0,0:06:22.77,0:06:23.98,Dialogue,,0,0,0,,I apologize.
+Dialogue: 0,0:06:23.98,0:06:25.98,Dialogue,,0,0,0,,I'll bring out another soup immediately.
+Dialogue: 0,0:06:27.53,0:06:28.70,Dialogue,,0,0,0,,Shinobu{\rHonorifics - Dialogue}-kun{\r}...
+Dialogue: 0,0:06:28.70,0:06:29.57,Dialogue,,0,0,0,,Manager!
+Dialogue: 0,0:06:31.57,0:06:32.66,Dialogue,,0,0,0,,Understood...
+Dialogue: 0,0:06:34.74,0:06:36.83,Dialogue,,0,0,0,,That's what she should have done from the start.
+Dialogue: 0,0:06:51.76,0:06:53.72,Dialogue,,0,0,0,,I heard of you from my husband.
+Dialogue: 0,0:06:53.72,0:06:55.93,Dialogue,,0,0,0,,You're that renowned detective...
+Dialogue: 0,0:06:55.93,0:06:57.77,Dialogue,,0,0,0,,Mouri Kogorou{\rHonorifics - Dialogue}-san{\r}, I believe?
+Dialogue: 0,0:06:58.39,0:07:00.02,Dialogue,,0,0,0,,I'm glad we have met.
+Dialogue: 0,0:07:01.10,0:07:02.48,Dialogue,,0,0,0,,I'm glad as well!
+Dialogue: 0,0:07:05.27,0:07:08.69,Dialogue,,0,0,0,,I always look forward to hearing stories of your latest exploits.
+Dialogue: 0,0:07:14.53,0:07:16.41,Dialogue,,0,0,0,,I'm Chizuru's husband, Shiromoto.
+Dialogue: 0,0:07:17.66,0:07:22.21,Dialogue,,0,0,0,,I've come here on vacation after finalizing\Nthe development plan for Vager Land.
+Dialogue: 0,0:07:23.79,0:07:25.75,Dialogue,,0,0,0,,Y-You're a businessman, huh?
+Dialogue: 0,0:07:27.00,0:07:29.21,Dialogue,,0,0,0,,So the rumors about the development were really true?
+Dialogue: 0,0:07:30.67,0:07:35.18,Dialogue,,0,0,0,,At the plateau near by, there are\Nmany rare butterflies and plants.
+Dialogue: 0,0:07:35.72,0:07:38.31,Dialogue,,0,0,0,,How do you plan to ensure their safety?
+Dialogue: 0,0:07:38.85,0:07:43.27,Dialogue,,0,0,0,,Oh, I'm planning to meet with the locals\Nat the bottom of the mountain about it.
+Dialogue: 0,0:07:43.73,0:07:45.27,Dialogue,,0,0,0,,The locals? So what?
+Dialogue: 0,0:07:45.27,0:07:48.69,Dialogue,,0,0,0,,There are always those people who talk\Nabout preserving nature everywhere.
+Dialogue: 0,0:07:48.69,0:07:50.24,Dialogue,,0,0,0,,It's all money, all money.
+Dialogue: 0,0:07:50.90,0:07:52.70,Dialogue,,0,0,0,,Chizuru, how could you say that?
+Dialogue: 0,0:07:53.28,0:07:55.45,Dialogue,,0,0,0,,Oh, did I strike a nerve?
+Dialogue: 0,0:07:55.91,0:07:58.87,Dialogue,,0,0,0,,If you want a divorce, I can separate from you.
+Dialogue: 0,0:07:58.87,0:07:59.45,Dialogue,,0,0,0,,But...
+Dialogue: 0,0:07:59.62,0:08:02.25,Dialogue,,0,0,0,,I wonder if you could afford my compensation?
+Dialogue: 0,0:08:04.58,0:08:05.79,Dialogue,,0,0,0,,Chizuru{\rHonorifics - Dialogue}-chan{\r}!
+Dialogue: 0,0:08:09.76,0:08:13.51,Dialogue,,0,0,0,,Chizuru{\rHonorifics - Dialogue}-chan{\r}, please just give up your part this once!
+Dialogue: 0,0:08:13.84,0:08:17.10,Dialogue,,0,0,0,,Manager, are you still talking about stupid things like that?
+Dialogue: 0,0:08:17.51,0:08:19.01,Dialogue,,0,0,0,,First of all, what's the reason?
+Dialogue: 0,0:08:19.52,0:08:22.73,Character Card,Sign,0,0,0,,Drama Production Company President
+Dialogue: 0,0:08:19.52,0:08:22.73,Character Card,Sign,0,0,0,,Miyabe Kouta (35)
+Dialogue: 0,0:08:19.97,0:08:22.73,Dialogue Top,,0,0,0,,Chizuru{\rHonorifics - Dialogue}-chan{\r}, I really can't say here...
+Dialogue: 0,0:08:23.31,0:08:24.69,Dialogue,,0,0,0,,Hurry, just say it!
+Dialogue: 0,0:08:25.10,0:08:29.65,Dialogue,,0,0,0,,W-Well, actually, the sponsors don't agree with\NChizuru{\rHonorifics - Dialogue}-chan{\r} being... Maybe a younger actress...
+Dialogue: 0,0:08:29.65,0:08:30.48,Dialogue,,0,0,0,,No, no, no, no!
+Dialogue: 0,0:08:30.48,0:08:35.86,Dialogue,,0,0,0,,They won't agree to funding us unless we use Reika{\rHonorifics - Dialogue}-chan{\r},\Nwho's at the top of her career from last year's performance.
+Dialogue: 0,0:08:36.24,0:08:37.82,Dialogue,,0,0,0,,Reika{\rHonorifics - Dialogue}-chan{\r} is one of our actresses as well...
+Dialogue: 0,0:08:37.82,0:08:40.83,Dialogue,,0,0,0,,And, if we don't do this movie, it'll\Nbe devastating to our company.
+Dialogue: 0,0:08:41.12,0:08:43.96,Dialogue,,0,0,0,,Please understand, Chizuru{\rHonorifics - Dialogue}-chan{\r}!
+Dialogue: 0,0:08:45.25,0:08:46.12,Dialogue,,0,0,0,,What's...
+Dialogue: 0,0:08:46.12,0:08:47.71,Dialogue,,0,0,0,,What's with all your eyes!?
+Dialogue: 0,0:08:48.21,0:08:50.80,Dialogue,,0,0,0,,You're all probably thinking that everything would\Nbe better if I disappeared, aren't you!?
+Dialogue: 0,0:08:51.76,0:08:53.47,Dialogue,,0,0,0,,Fine, I'll die!
+Dialogue: 0,0:08:53.92,0:08:55.13,Dialogue,,0,0,0,,Chizuru{\rHonorifics - Dialogue}-chan{\r}!
+Dialogue: 0,0:08:58.30,0:08:59.47,Dialogue,,0,0,0,,She's troublesome...
+Dialogue: 0,0:09:00.01,0:09:02.14,Dialogue,,0,0,0,,Well, please don't let it bother you.
+Dialogue: 0,0:09:03.89,0:09:05.98,Dialogue,,0,0,0,,Hey, is this you, Arimori{\rHonorifics - Dialogue}-san{\r}?
+Dialogue: 0,0:09:07.23,0:09:09.44,Dialogue,,0,0,0,,Here, in this photo.
+Dialogue: 0,0:09:10.15,0:09:11.78,Dialogue,,0,0,0,,That's you in the middle, Arimori{\rHonorifics - Dialogue}-san{\r}, and...
+Dialogue: 0,0:09:11.78,0:09:13.65,Dialogue,,0,0,0,,Shinobu{\rHonorifics - Dialogue}-san{\r} is the one on the right, isn't she?
+Dialogue: 0,0:09:14.19,0:09:15.49,Dialogue,,0,0,0,,Yes, that's right.
+Dialogue: 0,0:09:16.15,0:09:19.45,Dialogue,,0,0,0,,She and I are old hang gliding friends.
+Dialogue: 0,0:09:20.16,0:09:21.16,Dialogue,,0,0,0,,Hang gliding?
+Dialogue: 0,0:09:22.20,0:09:26.37,Dialogue,,0,0,0,,A long time ago, we were able to hang glide from a nearby cliff.
+Dialogue: 0,0:09:27.04,0:09:30.09,Dialogue,,0,0,0,,Now, it's impossible due to the land development.
+Dialogue: 0,0:09:30.09,0:09:32.17,Dialogue,,0,0,0,,That's too bad.
+Dialogue: 0,0:09:32.17,0:09:34.05,Dialogue,,0,0,0,,I did it too when I was young.
+Dialogue: 0,0:09:34.59,0:09:37.80,Dialogue,,0,0,0,,Who's the man standing next to Arimori{\rHonorifics - Dialogue}-san{\r}?
+Dialogue: 0,0:09:39.05,0:09:41.01,Dialogue,,0,0,0,,Oh, that's my younger brother.
+Dialogue: 0,0:09:41.76,0:09:44.60,Dialogue,,0,0,0,,We flew together often back then.
+Dialogue: 0,0:09:44.89,0:09:47.27,Dialogue,,0,0,0,,It's been five years since we've flown, hasn't it?
+Dialogue: 0,0:09:47.89,0:09:51.06,Dialogue,,0,0,0,,The hang gliders are just stuffed\Nin the storage room on the roof.
+Dialogue: 0,0:09:53.07,0:09:56.15,Dialogue,,0,0,0,,Conan{\rHonorifics - Dialogue}-kun{\r}, let's go to the plateau tomorrow.
+Dialogue: 0,0:09:56.15,0:09:58.03,Dialogue,,0,0,0,,It's perfect for the photos you need for your homework.
+Dialogue: 0,0:10:10.67,0:10:13.75,Dialogue,,0,0,0,,Uncle is snoring too loud for me to get any sleep...
+Dialogue: 0,0:10:16.05,0:10:17.26,Dialogue,,0,0,0,,I think I'll go buy some juice.
+Dialogue: 0,0:10:24.93,0:10:26.06,Dialogue,,0,0,0,,I can't reach it!
+Dialogue: 0,0:10:26.06,0:10:27.06,Dialogue,,0,0,0,,Enough already!
+Dialogue: 0,0:10:28.06,0:10:29.77,Dialogue,,0,0,0,,What did I do?
+Dialogue: 0,0:10:29.77,0:10:30.98,Dialogue,,0,0,0,,That doesn't concern me.
+Dialogue: 0,0:10:46.87,0:10:47.70,Dialogue,,0,0,0,,Chizuru{\rHonorifics - Dialogue}-san{\r}?
+Dialogue: 0,0:10:48.46,0:10:49.71,Dialogue,,0,0,0,,Just what's with her?
+Dialogue: 0,0:10:55.63,0:10:58.01,Signs,Sign,0,0,0,,9:00 A.M.
+Dialogue: 0,0:10:55.63,0:10:58.01,Signs,Sign,0,0,0,,The Next Morning
+Dialogue: 0,0:11:05.26,0:11:06.72,Dialogue,,0,0,0,,Shiromoto{\rHonorifics - Dialogue}-san{\r}...
+Dialogue: 0,0:11:06.72,0:11:08.18,Dialogue,,0,0,0,,How is Chizuru{\rHonorifics - Dialogue}-san{\r} doing?
+Dialogue: 0,0:11:08.85,0:11:11.06,Dialogue,,0,0,0,,Sorry about last night.
+Dialogue: 0,0:11:11.06,0:11:13.94,Dialogue,,0,0,0,,That's usually what happens, so don't worry about it.
+Dialogue: 0,0:11:14.61,0:11:15.52,Dialogue,,0,0,0,,She'll probably...
+Dialogue: 0,0:11:22.74,0:11:24.03,Dialogue,,0,0,0,,Um, Chizuru{\rHonorifics - Dialogue}-chan{\r}...
+Dialogue: 0,0:11:25.24,0:11:27.49,Dialogue,,0,0,0,,N-No, it's nothing at all...
+Dialogue: 0,0:11:27.95,0:11:29.79,Dialogue,,0,0,0,,Hey old lady, last night...
+Dialogue: 0,0:11:30.54,0:11:33.08,Dialogue,,0,0,0,,What do you mean by "old lady"!?
+Dialogue: 0,0:11:33.63,0:11:35.34,Dialogue,,0,0,0,,Please don't let that bother you...
+Dialogue: 0,0:11:40.88,0:11:43.47,Dialogue,,0,0,0,,Just what are we gonna do!?
+Dialogue: 0,0:11:44.05,0:11:46.39,Dialogue,,0,0,0,,Right now, it's impossible to persuade her.
+Dialogue: 0,0:11:46.39,0:11:50.02,Dialogue,,0,0,0,,What do you say we go fish until she cools down?
+Dialogue: 0,0:11:50.81,0:11:55.27,Dialogue,,0,0,0,,I start working tomorrow, so I've\Nbeen planning to fish all day today.
+Dialogue: 0,0:11:56.02,0:11:58.23,Dialogue,,0,0,0,,If you wish, I'll lend you my rod as well.
+Dialogue: 0,0:11:58.61,0:12:01.19,Dialogue,,0,0,0,,Well, in that case, I'd be glad to join you.
+Dialogue: 0,0:12:02.07,0:12:05.70,Dialogue,,0,0,0,,Dad, let's go to the plateau.
+Dialogue: 0,0:12:05.70,0:12:07.78,Dialogue,,0,0,0,,You all can go.
+Dialogue: 0,0:12:07.78,0:12:10.08,Dialogue,,0,0,0,,I still have an important mission.
+Dialogue: 0,0:12:10.08,0:12:10.66,Dialogue,,0,0,0,,Mission?
+Dialogue: 0,0:12:10.95,0:12:15.13,Dialogue,,0,0,0,,First, I watch Okino Youko{\rHonorifics - Dialogue}-chan{\r}'s new promotional video.
+Dialogue: 0,0:12:15.58,0:12:19.55,Dialogue,,0,0,0,,Then, I watch the broadcast of her concert from last month.
+Dialogue: 0,0:12:20.09,0:12:25.34,Dialogue,,0,0,0,,Lastly, I will watch a re-run of her drama special!
+Dialogue: 0,0:12:25.34,0:12:27.64,Dialogue,,0,0,0,,Dad, what did you come all the way here for?
+Dialogue: 0,0:12:28.05,0:12:31.39,Dialogue,,0,0,0,,The re-run of her drama is only playing in this area...
+Dialogue: 0,0:12:32.18,0:12:34.35,Dialogue,,0,0,0,,You came all the way out here to watch that?
+Dialogue: 0,0:12:34.90,0:12:38.32,Dialogue,,0,0,0,,If you don't mind, I'd like to take you to the top.
+Dialogue: 0,0:12:39.61,0:12:41.78,Dialogue,,0,0,0,,That would be great!
+Dialogue: 0,0:12:41.78,0:12:42.82,Dialogue,,0,0,0,,Right!
+Dialogue: 0,0:12:42.82,0:12:45.16,Dialogue,,0,0,0,,Would you like to go with them, Shinobu{\rHonorifics - Dialogue}-san{\r}?
+Dialogue: 0,0:12:46.32,0:12:48.33,Dialogue,,0,0,0,,I'll watch the hotel.
+Dialogue: 0,0:12:49.24,0:12:52.08,Dialogue,,0,0,0,,But, I still have to prepare everyone's meals...
+Dialogue: 0,0:12:52.50,0:12:56.33,Dialogue,,0,0,0,,Oh, just make us bentos for lunch.
+Dialogue: 0,0:12:57.04,0:13:00.63,Dialogue,,0,0,0,,We will be leaving as well, so we don't mind bentos.
+Dialogue: 0,0:13:00.63,0:13:03.30,Dialogue,,0,0,0,,But I still have to prepare dinner...
+Dialogue: 0,0:13:03.76,0:13:07.18,Dialogue,,0,0,0,,Then, how about we barbecue in the yard for dinner?
+Dialogue: 0,0:13:07.72,0:13:09.43,Dialogue,,0,0,0,,That will be easy to prepare, right?
+Dialogue: 0,0:13:10.18,0:13:12.60,Dialogue,,0,0,0,,My wife was so rude to you last night.
+Dialogue: 0,0:13:12.60,0:13:15.23,Dialogue,,0,0,0,,To make up for it, please go stretch your wings today.
+Dialogue: 0,0:13:15.94,0:13:19.19,Dialogue,,0,0,0,,If it's only setting it up, we'll do it.
+Dialogue: 0,0:13:20.11,0:13:22.57,Dialogue,,0,0,0,,There aren't any new guests arriving today.
+Dialogue: 0,0:13:22.57,0:13:25.15,Dialogue,,0,0,0,,Why don't you go along with their suggestion?
+Dialogue: 0,0:13:25.70,0:13:27.16,Dialogue,,0,0,0,,Go ahead, go ahead.
+Dialogue: 0,0:13:28.41,0:13:30.62,Dialogue,,0,0,0,,In that case, I'll do as you've suggested.
+Dialogue: 0,0:13:32.33,0:13:34.54,Dialogue Top,,0,0,0,,It should be only about 15 minutes to the lake by car.
+Dialogue: 0,0:13:34.16,0:13:37.58,Signs,Sign,0,0,0,,The Departure
+Dialogue: 0,0:13:34.16,0:13:37.58,Signs,Sign,0,0,0,,10:00 A.M.
+Dialogue: 0,0:13:34.96,0:13:35.87,Dialogue Top,,0,0,0,,Do you know the way?
+Dialogue: 0,0:13:36.33,0:13:37.58,Dialogue Top,,0,0,0,,Yeah, we'll be fine.
+Dialogue: 0,0:13:38.33,0:13:41.17,Dialogue,,0,0,0,,That spot is best right after the sun sets.
+Dialogue: 0,0:13:41.17,0:13:43.46,Dialogue,,0,0,0,,Then, I guess we'll be fishing through nightfall.
+Dialogue: 0,0:13:46.38,0:13:47.13,Dialogue,,0,0,0,,Have a safe trip.
+Dialogue: 0,0:13:52.10,0:13:55.14,Dialogue,,0,0,0,,I'll go check the locks and come in the micro-bus.
+Dialogue: 0,0:13:55.73,0:13:57.10,Dialogue,,0,0,0,,I'll catch up, so go ahead without me.
+Dialogue: 0,0:13:57.94,0:13:59.44,Dialogue,,0,0,0,,Please hurry.
+Dialogue: 0,0:13:59.44,0:13:59.77,Dialogue,,0,0,0,,Yeah.
+Dialogue: 0,0:14:05.65,0:14:10.57,Dialogue,,0,0,0,,Chizuru{\rHonorifics - Dialogue}-san{\r} would feel better if she came\Noutside instead of staying in her room.
+Dialogue: 0,0:14:13.37,0:14:14.87,Dialogue,,0,0,0,,Mission #1!
+Dialogue: 0,0:14:15.37,0:14:20.13,Dialogue,,0,0,0,,Time to watch Youko{\rHonorifics - Dialogue}-chan{\r}'s new PV and master the lyrics!
+Dialogue: 0,0:14:20.88,0:14:23.25,Dialogue,,0,0,0,,Youko{\rHonorifics - Dialogue}-chan{\r}!
+Dialogue: 0,0:14:23.25,0:14:23.84,Dialogue,,0,0,0,,Mouri{\rHonorifics - Dialogue}-san{\r}!
+Dialogue: 0,0:14:24.71,0:14:25.71,Dialogue,,0,0,0,,Y-Yes?
+Dialogue: 0,0:14:26.55,0:14:28.76,Dialogue,,0,0,0,,I'll leave the master key here with you.
+Dialogue: 0,0:14:28.76,0:14:29.80,Dialogue,,0,0,0,,Please take good care of it.
+Dialogue: 0,0:14:30.30,0:14:31.68,Dialogue,,0,0,0,,Understood!
+Dialogue: 0,0:14:38.44,0:14:41.02,Dialogue,,0,0,0,,Jeez, Dad is hopeless.
+Dialogue: 0,0:14:41.61,0:14:42.94,Dialogue,,0,0,0,,Arimori{\rHonorifics - Dialogue}-san{\r} still hasn't come?
+Dialogue: 0,0:14:45.15,0:14:46.40,Dialogue,,0,0,0,,Oh, there he is.
+Dialogue: 0,0:14:52.70,0:14:56.83,Signs,Sign,0,0,0,,Arrival at the Plateau
+Dialogue: 0,0:14:52.70,0:14:56.83,Signs,Sign,0,0,0,,10:50 A.M.
+Dialogue: 0,0:14:59.58,0:15:01.79,Dialogue,,0,0,0,,This cool wind feels great.
+Dialogue: 0,0:15:17.89,0:15:19.27,Dialogue,,0,0,0,,It's beautiful!
+Dialogue: 0,0:15:19.60,0:15:20.73,Dialogue,,0,0,0,,Amazing!
+Dialogue: 0,0:15:40.00,0:15:42.83,Dialogue,,0,0,0,,So the sky really is this blue...
+Dialogue: 0,0:15:42.83,0:15:44.08,Dialogue,,0,0,0,,I never noticed.
+Dialogue: 0,0:15:46.00,0:15:47.42,Dialogue,,0,0,0,,It feels like if I had wings...
+Dialogue: 0,0:15:47.42,0:15:49.17,Dialogue,,0,0,0,,I could fly to the sun.
+Dialogue: 0,0:15:49.84,0:15:52.13,Dialogue,,0,0,0,,That sounds like something Icarus would say.
+Dialogue: 0,0:15:53.09,0:15:54.09,Dialogue,,0,0,0,,Icarus?
+Dialogue: 0,0:15:55.05,0:15:55.97,Dialogue,,0,0,0,,It's Greek Mythology.
+Dialogue: 0,0:15:56.89,0:15:58.60,Dialogue,,0,0,0,,Icarus, who received wings...
+Dialogue: 0,0:15:59.02,0:16:02.52,Dialogue,,0,0,0,,Forgot his father's warning that he shouldn't fly too high...
+Dialogue: 0,0:16:03.02,0:16:04.90,Dialogue,,0,0,0,,And flew higher and higher.
+Dialogue: 0,0:16:05.61,0:16:07.57,Dialogue,,0,0,0,,He believed he could fly to the sun.
+Dialogue: 0,0:16:08.82,0:16:09.57,Dialogue,,0,0,0,,But...
+Dialogue: 0,0:16:09.57,0:16:13.91,Dialogue,,0,0,0,,Icarus' wings couldn't bear the heat\Nwhen he got too close to the sun.
+Dialogue: 0,0:16:15.12,0:16:19.95,Dialogue,,0,0,0,,After his wings burned, Icarus fell\Nfrom the sky right to the ground.
+Dialogue: 0,0:16:22.29,0:16:24.33,Dialogue,,0,0,0,,It's a sad story.
+Dialogue: 0,0:16:28.55,0:16:29.75,Dialogue,,0,0,0,,What a cute butterfly!
+Dialogue: 0,0:16:30.05,0:16:33.97,Dialogue,,0,0,0,,Oh, it's a Miyama white butterfly that only exists around here.
+Dialogue: 0,0:16:42.56,0:16:43.10,Dialogue,,0,0,0,,The butterfly...
+Dialogue: 0,0:16:46.06,0:16:50.48,Dialogue,,0,0,0,,This butterfly can't survive unless the water is clean.
+Dialogue: 0,0:16:57.07,0:16:58.28,Dialogue,,0,0,0,,Youko{\rHonorifics - Dialogue}-chan{\r}!
+Dialogue: 0,0:16:58.45,0:16:59.45,Dialogue,,0,0,0,,Youko{\rHonorifics - Dialogue}-chan{\r}!
+Dialogue: 0,0:16:59.83,0:17:02.66,Dialogue,,0,0,0,,Youko{\rHonorifics - Dialogue}-chan{\r}!
+Dialogue: 0,0:17:02.87,0:17:07.67,Signs,Sign,0,0,0,,Hotel Lobby
+Dialogue: 0,0:17:02.87,0:17:07.67,Signs,Sign,0,0,0,,12:30 P.M.
+Dialogue: 0,0:17:08.38,0:17:10.63,Dialogue,,0,0,0,,Sorry, I forgot my bento.
+Dialogue: 0,0:17:12.76,0:17:14.38,Dialogue,,0,0,0,,Is Chizuru still in her room?
+Dialogue: 0,0:17:14.92,0:17:15.76,Dialogue,,0,0,0,,Yes.
+Dialogue: 0,0:17:15.76,0:17:17.59,Dialogue,,0,0,0,,She has not come down.
+Dialogue: 0,0:17:18.09,0:17:20.01,Dialogue,,0,0,0,,I guess I'll go see her.
+Dialogue: 0,0:17:25.39,0:17:29.90,Signs,Sign,0,0,0,,Lakeside
+Dialogue: 0,0:17:25.39,0:17:29.90,Signs,Sign,0,0,0,,1:00 P.M.
+Dialogue: 0,0:17:36.36,0:17:39.41,Dialogue,,0,0,0,,I wonder if Chizuru{\rHonorifics - Dialogue}-chan{\r}'s in a better mood yet...
+Dialogue: 0,0:17:43.12,0:17:48.37,Signs,Sign,0,0,0,,Hotel Lobby
+Dialogue: 0,0:17:43.12,0:17:48.37,Signs,Sign,0,0,0,,1:30 P.M.
+Dialogue: 0,0:17:45.83,0:17:48.63,Dialogue Top,,0,0,0,,How was your wife?
+Dialogue: 0,0:17:48.63,0:17:49.21,Dialogue Top,,0,0,0,,Well...
+Dialogue: 0,0:17:49.96,0:17:52.50,Dialogue,,0,0,0,,It seems as if she's still asleep.
+Dialogue: 0,0:17:52.50,0:17:54.67,Dialogue,,0,0,0,,I knocked, but there was no answer.
+Dialogue: 0,0:17:55.38,0:17:58.84,Dialogue,,0,0,0,,As someone who also has a tough wife, I know how difficult it is.
+Dialogue: 0,0:17:59.43,0:18:00.43,Dialogue,,0,0,0,,Indeed.
+Dialogue: 0,0:18:02.06,0:18:03.97,Dialogue,,0,0,0,,Well, I'll be going back to my fishing.
+Dialogue: 0,0:18:04.64,0:18:05.35,Dialogue,,0,0,0,,Have a good trip.
+Dialogue: 0,0:18:10.02,0:18:12.98,Signs,Sign,0,0,0,,Plateau
+Dialogue: 0,0:18:10.02,0:18:12.98,Signs,Sign,0,0,0,,1:50 P.M.
+Dialogue: 0,0:18:16.24,0:18:18.03,Dialogue,,0,0,0,,Out of bounds.
+Dialogue: 0,0:18:18.03,0:18:19.61,Dialogue,,0,0,0,,Conan{\rHonorifics - Dialogue}-kun{\r} wins.
+Dialogue: 0,0:18:19.61,0:18:21.24,Dialogue,,0,0,0,,Let's have lunch.
+Dialogue: 0,0:18:21.24,0:18:23.12,Dialogue,,0,0,0,,Oh, it's already this late?
+Dialogue: 0,0:18:23.12,0:18:24.04,Dialogue,,0,0,0,,I'll go get the bentos.
+Dialogue: 0,0:18:32.21,0:18:35.34,Signs,Sign,0,0,0,,Lake
+Dialogue: 0,0:18:32.21,0:18:35.34,Signs,Sign,0,0,0,,2:15 P.M.
+Dialogue: 0,0:18:33.29,0:18:34.59,Dialogue Top,,0,0,0,,This is a big one!
+Dialogue: 0,0:18:37.42,0:18:38.80,Dialogue,,0,0,0,,We've got tons today!
+Dialogue: 0,0:18:38.80,0:18:39.55,Dialogue,,0,0,0,,Yes!
+Dialogue: 0,0:18:44.76,0:18:49.89,Signs,Sign,0,0,0,,Hotel Lobby
+Dialogue: 0,0:18:44.76,0:18:49.89,Signs,Sign,0,0,0,,2:25 P.M.
+Dialogue: 0,0:18:46.10,0:18:49.89,Dialogue Top,,0,0,0,,Youko{\rHonorifics - Dialogue}-chan{\r}, you can't go that way!
+Dialogue: 0,0:18:53.90,0:18:55.36,Dialogue,,0,0,0,,So beautiful...
+Dialogue: 0,0:18:56.03,0:18:57.57,Dialogue,,0,0,0,,It really is...
+Dialogue: 0,0:18:57.82,0:19:00.70,Dialogue,,0,0,0,,The sunset from here is always wonderful.
+Dialogue: 0,0:19:01.41,0:19:05.29,Dialogue,,0,0,0,,See, the bright area at the bottom there is Hotel Arimori.
+Dialogue: 0,0:19:06.83,0:19:08.04,Dialogue,,0,0,0,,It's that far?
+Dialogue: 0,0:19:10.04,0:19:11.46,Dialogue,,0,0,0,,Let's go back now.
+Dialogue: 0,0:19:11.83,0:19:12.21,Dialogue,,0,0,0,,All right.
+Dialogue: 0,0:19:12.96,0:19:16.75,Signs,Sign,0,0,0,,Starting Down the Mountain
+Dialogue: 0,0:19:12.96,0:19:16.75,Signs,Sign,0,0,0,,6:05 P.M.
+Dialogue: 0,0:19:23.14,0:19:23.89,Dialogue,,0,0,0,,What's wrong?
+Dialogue: 0,0:19:25.26,0:19:26.81,Dialogue,,0,0,0,,The engine doesn't seem so good.
+Dialogue: 0,0:19:27.47,0:19:28.60,Dialogue,,0,0,0,,Go back ahead of me.
+Dialogue: 0,0:19:29.52,0:19:30.94,Dialogue,,0,0,0,,All right.
+Dialogue: 0,0:19:37.86,0:19:40.57,Signs,Sign,0,0,0,,Hotel
+Dialogue: 0,0:19:37.86,0:19:40.57,Signs,Sign,0,0,0,,7:00 P.M.
+Dialogue: 0,0:19:38.94,0:19:40.11,Dialogue Top,,0,0,0,,We're back.
+Dialogue: 0,0:19:40.95,0:19:43.74,Dialogue,,0,0,0,,Jeez, you should have come with us, Dad.
+Dialogue: 0,0:19:44.03,0:19:45.78,Dialogue,,0,0,0,,The sunset was wonderful!
+Dialogue: 0,0:19:46.24,0:19:47.87,Dialogue,,0,0,0,,Oh, and there was this rare butterfly.
+Dialogue: 0,0:19:48.37,0:19:51.12,Dialogue,,0,0,0,,It's said that it doesn't get close to humans, but...
+Dialogue: 0,0:19:51.12,0:19:53.67,Dialogue,,0,0,0,,It landed right on Arimori{\rHonorifics - Dialogue}-san{\r}'s shoulder!
+Dialogue: 0,0:19:53.96,0:19:55.08,Dialogue,,0,0,0,,I get it, I get it.
+Dialogue: 0,0:19:56.38,0:19:57.38,Dialogue,,0,0,0,,We're back.
+Dialogue: 0,0:19:58.38,0:19:59.84,Dialogue,,0,0,0,,We've got tons!
+Dialogue: 0,0:20:00.42,0:20:01.42,Dialogue,,0,0,0,,Welcome back.
+Dialogue: 0,0:20:02.30,0:20:03.97,Dialogue,,0,0,0,,What's Chizuru up to?
+Dialogue: 0,0:20:03.97,0:20:06.47,Dialogue,,0,0,0,,Come to think of it, she never came down.
+Dialogue: 0,0:20:07.26,0:20:07.85,Dialogue,,0,0,0,,Never?
+Dialogue: 0,0:20:08.64,0:20:10.81,Dialogue,,0,0,0,,Jeez, that troublesome woman.
+Dialogue: 0,0:20:11.64,0:20:14.35,Dialogue,,0,0,0,,Mouri{\rHonorifics - Dialogue}-san{\r}, may I borrow the master key?
+Dialogue: 0,0:20:14.77,0:20:16.19,Dialogue,,0,0,0,,Yeah, sure, sure.
+Dialogue: 0,0:20:17.69,0:20:18.19,Dialogue,,0,0,0,,Thank you.
+Dialogue: 0,0:20:22.45,0:20:23.74,Dialogue,,0,0,0,,Here, today's catch.
+Dialogue: 0,0:20:23.74,0:20:24.86,Dialogue,,0,0,0,,I'll leave the rest to you.
+Dialogue: 0,0:20:24.45,0:20:26.16,Dialogue Top,,0,0,0,,Hello? This is Hotel Arimori.
+Dialogue: 0,0:20:26.70,0:20:28.12,Dialogue,,0,0,0,,Oh, Arimori{\rHonorifics - Dialogue}-san{\r}?
+Dialogue: 0,0:20:28.49,0:20:30.12,Dialogue,,0,0,0,,The car won't start.
+Dialogue: 0,0:20:30.12,0:20:32.41,Dialogue,,0,0,0,,Sorry to ask, but could you come here?
+Dialogue: 0,0:20:32.41,0:20:33.37,Dialogue,,0,0,0,,All right.
+Dialogue: 0,0:20:37.67,0:20:40.34,Dialogue,,0,0,0,,You might need some help, so I'll come too.
+Dialogue: 0,0:20:41.17,0:20:42.76,Dialogue,,0,0,0,,Sorry to trouble you, Ran{\rHonorifics - Dialogue}-san{\r}.
+Dialogue: 0,0:20:54.27,0:20:56.77,Dialogue,,0,0,0,,Mouri{\rHonorifics - Dialogue}-san{\r}, there's something wrong with Chizuru{\rHonorifics - Dialogue}-san{\r}.
+Dialogue: 0,0:20:58.23,0:21:01.53,Dialogue,,0,0,0,,I opened the door with the key, but the door guard is on.
+Dialogue: 0,0:21:01.53,0:21:03.65,Dialogue,,0,0,0,,No matter how much I call, there's no answer.
+Dialogue: 0,0:21:04.95,0:21:05.66,Dialogue,,0,0,0,,Could it be...
+Dialogue: 0,0:21:11.24,0:21:13.08,Dialogue,,0,0,0,,Chizuru{\rHonorifics - Dialogue}-san{\r}! Chizuru{\rHonorifics - Dialogue}-san{\r}!
+Dialogue: 0,0:21:13.91,0:21:15.37,Dialogue,,0,0,0,,Let's break the door down.
+Dialogue: 0,0:21:15.37,0:21:16.12,Dialogue,,0,0,0,,Y-Yes!
+Dialogue: 0,0:21:25.17,0:21:27.76,Signs,Sign,0,0,0,,Body Discovered
+Dialogue: 0,0:21:25.17,0:21:27.76,Signs,Sign,0,0,0,,7:20 P.M.
+Dialogue: 0,0:21:29.47,0:21:30.31,Dialogue,,0,0,0,,Chizuru!
+Dialogue: 0,0:21:30.31,0:21:31.22,Dialogue,,0,0,0,,Chizuru{\rHonorifics - Dialogue}-chan{\r}!
+Dialogue: 0,0:21:38.35,0:21:39.19,Dialogue,,0,0,0,,Mouri{\rHonorifics - Dialogue}-san{\r}!
+Dialogue: 0,0:21:39.19,0:21:39.86,Dialogue,,0,0,0,,How's Chizuru?
+Dialogue: 0,0:21:40.90,0:21:42.28,Dialogue,,0,0,0,,I'm sorry to say, but...
+Dialogue: 0,0:21:42.28,0:21:45.82,Dialogue,,0,0,0,,It appears it's been some time since she passed away.
+Dialogue: 0,0:21:50.74,0:21:52.24,Dialogue,,0,0,0,,It can't be...
+Dialogue: 0,0:21:57.37,0:21:58.46,Dialogue,,0,0,0,,The door guard lock...
+Dialogue: 0,0:22:00.08,0:22:00.88,Dialogue,,0,0,0,,These marks are...
+Dialogue: 0,0:22:02.17,0:22:03.00,Dialogue,,0,0,0,,Could it be...
+Dialogue: 0,0:22:06.63,0:22:07.55,Dialogue,,0,0,0,,As I thought!
+Dialogue: 0,0:22:09.22,0:22:10.18,Dialogue,,0,0,0,,Chizuru{\rHonorifics - Dialogue}-san{\r}...
+Dialogue: 0,0:22:10.80,0:22:12.76,Dialogue,,0,0,0,,Chizuru{\rHonorifics - Dialogue}-san{\r} didn't commit suicide!
+Dialogue: 0,0:22:14.68,0:22:16.56,Dialogue,,0,0,0,,She was murdered!

@@ -1,0 +1,342 @@
+[Script Info]
+Title: Detective Conan - 0244
+TL Source: DCTP
+ScriptType: v4.00+
+WrapStyle: 3
+PlayResX: 1440
+PlayResY: 1080
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Dialogue,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00401311,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Dialogue Top,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00401311,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,8,30,30,55,1
+Style: Signs,FrancophilSans,74,&H14FFFFFF,&H00FFFFFF,&H46101010,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,8,30,30,55,1
+Style: Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,0,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Radio,FrancophilSans,74,&H00BEE1FF,&H00FFFFFF,&H000B2A42,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Narration,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00BF6F00,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Narration Off,FrancophilSans,74,&H6E8C6F00,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,0,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Flashback,FrancophilSans,74,&H00CDFAFF,&H00FFFFFF,&H00373737,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Flashback Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00CCFFFF,&HC0313134,-1,0,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Honorifics - Dialogue,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00401311,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Signs,FrancophilSans,74,&H14FFFFFF,&H00FFFFFF,&H46101010,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,-1,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Honorifics - Radio,FrancophilSans,74,&H00BEE1FF,&H00FFFFFF,&H000B2A42,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Narration,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00BF6F00,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Narration Off,FrancophilSans,74,&H6E8C6F00,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,-1,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Honorifics - Flashback,FrancophilSans,74,&H00CDFAFF,&H00FFFFFF,&H00373737,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Flashback Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00CCFFFF,&HC0313134,-1,-1,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Masks,FrancophilSans,74,&H00000000,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,2,0,0,0,1
+Style: Title,Conan Episode Title,74,&H00E1E4E3,&H000000FF,&HC8DBDAE1,&HC0000000,-1,0,0,0,100,100,0,0,1,1,0,5,0,0,0,1
+Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-1,0,0,0,100,100,0,0,1,0,0,2,0,0,65,1
+Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
+Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
+Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:02.56,0:00:04.27,Dialogue,,0,0,0,,Even fate serves as a hint to deductions...
+Dialogue: 0,0:00:04.27,0:00:06.23,Dialogue,,0,0,0,,Allowing us to clearly see through the most mysterious cases.
+Dialogue: 0,0:00:06.23,0:00:07.90,Dialogue,,0,0,0,,Conan, Kogoro and Officer Yamamura.
+Dialogue: 0,0:00:08.22,0:00:10.22,Dialogue,,0,0,0,,The briefcase is the link over time and space.
+Dialogue: 0,0:00:10.22,0:00:11.60,Dialogue,,0,0,0,,Perceiving the one and only truth...
+Dialogue: 0,0:00:11.62,0:00:13.78,Dialogue,,0,0,0,,The appearance of a child and the intellect of an adult...
+Dialogue: 0,0:00:13.80,0:00:15.77,Dialogue,,0,0,0,,His name is: Detective Conan!
+Dialogue: 0,0:01:41.65,0:01:44.31,Dialogue,,0,0,0,,To answer a client's call to solve the mystery of the briefcase,
+Dialogue: 0,0:01:44.31,0:01:48.45,Dialogue,,0,0,0,,we headed to the Aoiya Ryokan inn with Detective Yamamura.
+Dialogue: 0,0:01:49.85,0:01:51.85,Dialogue,,0,0,0,,A man wearing a red jacket was found dead in the Toshin Forest.
+Dialogue: 0,0:01:51.85,0:01:53.62,Dialogue,,0,0,0,,Strangely, the man was wearing a sweater in the middle of summer.
+Dialogue: 0,0:01:54.08,0:01:57.91,Dialogue,,0,0,0,,Car keys and cigarettes were found on him,
+Dialogue: 0,0:01:57.91,0:02:00.91,Dialogue,,0,0,0,,but without his driver's license or matches.
+Dialogue: 0,0:02:02.40,0:02:06.57,Dialogue,,0,0,0,,The briefcase in question was entrusted to the innkeeper five years ago
+Dialogue: 0,0:02:06.82,0:02:09.29,Dialogue,,0,0,0,,by a long-haired man wearing a red jacket.
+Dialogue: 0,0:02:09.29,0:02:10.02,Dialogue,,0,0,0,,And...
+Dialogue: 0,0:02:11.31,0:02:15.80,Dialogue,,0,0,0,,the man who is posing to be Kogoro finally came to get it...
+Dialogue: 0,0:02:16.97,0:02:22.42,Dialogue,,0,0,0,,The case contained five-year-old sports newspaper and a bundle of long hair!
+Dialogue: 0,0:02:24.79,0:02:30.46,Signs,Sign,0,0,0,,MOURI KOGOROU'S IMPOSTER\N(PART TWO)
+Dialogue: 0,0:02:30.83,0:02:32.92,Dialogue,,0,0,0,,Then, don't tell me this is...
+Dialogue: 0,0:02:33.46,0:02:35.13,Dialogue,,0,0,0,,Probably a murder case.
+Dialogue: 0,0:02:35.42,0:02:44.56,Dialogue,,0,0,0,,Moreover, our culprit who knew where the "cleaning" sign\Nwas stored is likely to be among the inn employees!
+Dialogue: 0,0:02:48.39,0:02:53.56,Dialogue,,0,0,0,,The culprit is likely someone linked to the long-\Nhaired man who committed suicide four years ago.
+Dialogue: 0,0:02:53.86,0:02:58.32,Dialogue,,0,0,0,,Perhaps, this long-haired man didn't commit\Nsuicide either, but was also murdered.
+Dialogue: 0,0:02:58.86,0:03:01.57,Dialogue,,0,0,0,,Somebody did something to this\Nbody to achieve their goal.
+Dialogue: 0,0:03:02.24,0:03:04.74,Dialogue,,0,0,0,,Who did it, and what for?
+Dialogue: 0,0:03:08.54,0:03:11.58,Dialogue,,0,0,0,,Yamamura{\rHonorifics - Dialogue}-san{\r}, I found a cell phone.
+Dialogue: 0,0:03:12.83,0:03:15.50,Dialogue,,0,0,0,,It was in this coat that belonged to the victim.
+Dialogue: 0,0:03:16.21,0:03:18.97,Dialogue,,0,0,0,,There's one number in its memory.
+Dialogue: 0,0:03:18.97,0:03:19.92,Dialogue,,0,0,0,,Should we try to call it?
+Dialogue: 0,0:03:20.34,0:03:22.14,Dialogue,,0,0,0,,Yes, of course.
+Dialogue: 0,0:03:32.60,0:03:34.44,Dialogue,,0,0,0,,Oh, Tatsuo?
+Dialogue: 0,0:03:34.44,0:03:36.11,Dialogue,,0,0,0,,What happened with that get rich\Nquick scheme you told me about?
+Dialogue: 0,0:03:36.77,0:03:38.40,Dialogue,,0,0,0,,Let me know if it went well.
+Dialogue: 0,0:03:38.40,0:03:39.36,Dialogue,,0,0,0,,Oh, and...
+Dialogue: 0,0:03:39.78,0:03:42.36,Dialogue,,0,0,0,,There was a call from your apartment's landlord.
+Dialogue: 0,0:03:42.36,0:03:46.58,Dialogue,,0,0,0,,Said something like, "If you don't pay your rent,\NI won't renew your contract and will kick you out."
+Dialogue: 0,0:03:46.99,0:03:49.04,Dialogue,,0,0,0,,Hey, are you listening, Tatsuo?
+Dialogue: 0,0:03:49.45,0:03:50.71,Dialogue,,0,0,0,,Uhm, well...
+Dialogue: 0,0:03:50.71,0:03:52.04,Dialogue,,0,0,0,,Sorry, I have a customer.
+Dialogue: 0,0:03:52.04,0:03:53.33,Dialogue,,0,0,0,,Call me back later.
+Dialogue: 0,0:03:54.96,0:03:56.25,Dialogue,,0,0,0,,He hung up.
+Dialogue: 0,0:03:56.25,0:03:59.01,Dialogue,,0,0,0,,He mentioned a "get rich quick" scheme.
+Dialogue: 0,0:03:59.42,0:04:03.76,Dialogue,,0,0,0,,And also that if he doesn't pay his\Nrent, his contract won't be renewed.
+Dialogue: 0,0:04:03.97,0:04:04.72,Dialogue,,0,0,0,,Renew?
+Dialogue: 0,0:04:05.72,0:04:11.10,Dialogue,,0,0,0,,But now that we know that the victim's name\Nis Mori Tatsuo, we're making progress.
+Dialogue: 0,0:04:11.98,0:04:14.23,Dialogue,,0,0,0,,How do you know his surname is "Mori"?
+Dialogue: 0,0:04:14.23,0:04:15.69,Dialogue,,0,0,0,,He only mentioned "Tatsuo".
+Dialogue: 0,0:04:15.90,0:04:18.40,Dialogue,,0,0,0,,Look, there is a sticker with his name on the phone.
+Dialogue: 0,0:04:20.82,0:04:24.20,Dialogue,,0,0,0,,He's not a kid, why would he need a sticker?
+Dialogue: 0,0:04:24.45,0:04:27.62,Dialogue,,0,0,0,,Sorry to be a kid, but I also have a sticker on my phone.
+Dialogue: 0,0:04:28.78,0:04:31.20,Dialogue,,0,0,0,,You're still a kid, so that's understandable.
+Dialogue: 0,0:04:31.58,0:04:32.96,Dialogue,,0,0,0,,What's that?
+Dialogue: 0,0:04:33.08,0:04:35.54,Dialogue,,0,0,0,,Hold on, is the culprit...
+Dialogue: 0,0:04:36.25,0:04:37.42,Dialogue,,0,0,0,,Say, Mr. Officer...
+Dialogue: 0,0:04:38.04,0:04:41.88,Dialogue,,0,0,0,,Can you give me more details on the\Nlong-haired man's belongings?
+Dialogue: 0,0:04:43.13,0:04:44.97,Dialogue,,0,0,0,,Haven't you heard?
+Dialogue: 0,0:04:45.13,0:04:48.30,Dialogue,,0,0,0,,He had milk, red bean bread, and\Na receipt on him four years ago!
+Dialogue: 0,0:04:48.76,0:04:50.01,Dialogue,,0,0,0,,I mean...
+Dialogue: 0,0:04:50.26,0:04:52.39,Dialogue,,0,0,0,,How about you take a look at the pictures if you want?
+Dialogue: 0,0:04:52.39,0:04:53.14,Dialogue,,0,0,0,,Pictures?
+Dialogue: 0,0:04:53.48,0:04:57.02,Dialogue,,0,0,0,,Since I came to this inn to ask questions\Nabout that, I brought them with me.
+Dialogue: 0,0:04:58.06,0:05:00.61,Dialogue,,0,0,0,,This is the crushed carton of milk, the front and the back.
+Dialogue: 0,0:05:01.90,0:05:04.90,Dialogue,,0,0,0,,These are the crushed red bean\Nbread and a pack of cigarettes.
+Dialogue: 0,0:05:05.24,0:05:08.37,Dialogue,,0,0,0,,And finally, the convenience store's\Nreceipt that was in the wallet.
+Dialogue: 0,0:05:08.99,0:05:13.91,Dialogue,,0,0,0,,The receipt is from July 10th, which is when\Nyou were on your company trip, right?
+Dialogue: 0,0:05:14.62,0:05:15.37,Dialogue,,0,0,0,,Yes...
+Dialogue: 0,0:05:16.50,0:05:18.88,Dialogue,,0,0,0,,I see, so that's how it was.
+Dialogue: 0,0:05:19.63,0:05:22.05,Dialogue,,0,0,0,,I finally understand the culprit's objective.
+Dialogue: 0,0:05:22.96,0:05:24.67,Dialogue,,0,0,0,,Say, Mr. Officer...
+Dialogue: 0,0:05:24.76,0:05:25.55,Dialogue,,0,0,0,,What?
+Dialogue: 0,0:05:26.01,0:05:32.52,Dialogue,,0,0,0,,Was there another body found in Kashiragami Forest\Nat the end of the company's trip four years ago?
+Dialogue: 0,0:05:32.97,0:05:35.06,Dialogue,,0,0,0,,Yeah, one was found.
+Dialogue: 0,0:05:35.06,0:05:36.98,Dialogue,,0,0,0,,It was near the Maedaore Jizo.
+Dialogue: 0,0:05:37.56,0:05:39.65,Dialogue,,0,0,0,,Was the person who discovered it...
+Dialogue: 0,0:05:41.98,0:05:43.40,Dialogue,,0,0,0,,How do you know that!?
+Dialogue: 0,0:05:44.11,0:05:47.36,Dialogue,,0,0,0,,As I thought, that person is the culprit.
+Dialogue: 0,0:05:48.11,0:05:53.49,Dialogue,,0,0,0,,And this sports newspaper is likely\Na map pointing to a hidden place.
+Dialogue: 0,0:05:53.95,0:05:55.91,Dialogue,,0,0,0,,All I need now is the evidence.
+Dialogue: 0,0:05:56.25,0:05:59.83,Dialogue,,0,0,0,,If my deductions are correct, it may still be there.
+Dialogue: 0,0:06:00.17,0:06:06.01,Dialogue,,0,0,0,,On that shogi board and this desk,\Nthere should be the culprit's prints...
+Dialogue: 0,0:06:12.26,0:06:12.93,Dialogue,,0,0,0,,There it is!
+Dialogue: 0,0:06:13.31,0:06:14.22,Dialogue,,0,0,0,,This is it!
+Dialogue: 0,0:06:15.22,0:06:16.98,Dialogue,,0,0,0,,You can't just come in as you like!
+Dialogue: 0,0:06:17.44,0:06:22.90,Dialogue,,0,0,0,,I was asked by Uncle Kogorou to take a\Ngood look at this shogi board and desk.
+Dialogue: 0,0:06:24.61,0:06:25.65,Dialogue,,0,0,0,,By Detective Mouri?
+Dialogue: 0,0:06:28.40,0:06:32.20,Dialogue,,0,0,0,,He also asked me to look at the light.
+Dialogue: 0,0:06:32.20,0:06:33.12,Dialogue,,0,0,0,,Light?
+Dialogue: 0,0:06:33.45,0:06:36.91,Dialogue,,0,0,0,,He said it might be the clinching\Nmove to corner the culprit.
+Dialogue: 0,0:06:40.33,0:06:46.96,Dialogue,,0,0,0,,Anyway, according to the estimated time of death, the\Ncrime happened today between 4:00 and 5:00 PM.
+Dialogue: 0,0:06:47.42,0:06:51.01,Dialogue,,0,0,0,,At that time, the culprit put up the "cleaning" sign...
+Dialogue: 0,0:06:51.01,0:06:54.68,Dialogue,,0,0,0,,Gathered long hair from the bath, and\Nbrought it back to the crime scene.
+Dialogue: 0,0:06:55.43,0:06:59.56,Dialogue,,0,0,0,,They tried to interfere with the investigation by\Nmaking it look like the long-haired man's curse.
+Dialogue: 0,0:07:01.10,0:07:07.40,Dialogue,,0,0,0,,If we suppose that only the employees of this inn\Nknow where the "cleaning" sign is stored...
+Dialogue: 0,0:07:07.40,0:07:09.36,Dialogue,,0,0,0,,We can narrow down our list of suspects!
+Dialogue: 0,0:07:10.07,0:07:12.87,Dialogue,,0,0,0,,Please gather all the employees as soon as possible.
+Dialogue: 0,0:07:12.87,0:07:15.83,Dialogue,,0,0,0,,I need to inquire as to their where-\Nabouts this evening one by one.
+Dialogue: 0,0:07:16.29,0:07:18.54,Dialogue,,0,0,0,,Hold on a second, officer.
+Dialogue: 0,0:07:19.46,0:07:27.00,Dialogue,,0,0,0,,Shouldn't the employees who never heard about or\Nnever saw the man who died four years ago be cleared?
+Dialogue: 0,0:07:28.67,0:07:34.93,Dialogue,,0,0,0,,But you were all here when this man gave the attaché\Ncase to Onda{\rHonorifics - Dialogue}-san{\r} five years ago, weren't you?
+Dialogue: 0,0:07:35.39,0:07:40.43,Dialogue,,0,0,0,,No, he handed it to me in the\Nroom he was staying in, and...
+Dialogue: 0,0:07:40.43,0:07:43.27,Dialogue,,0,0,0,,I hired this guy here four years ago in the spring.
+Dialogue: 0,0:07:43.27,0:07:51.49,Dialogue,,0,0,0,,Also, I only told my employees I called Detective Mouri\Nto investigate the attaché case we'd kept for five years.
+Dialogue: 0,0:07:51.49,0:07:54.87,Dialogue,,0,0,0,,I never told them it belonged to that long-haired man.
+Dialogue: 0,0:07:55.20,0:07:56.49,Dialogue,,0,0,0,,I see.
+Dialogue: 0,0:07:56.95,0:08:01.83,Dialogue,,0,0,0,,So the only one who knew about both the\Nattaché case and the long-haired man...
+Dialogue: 0,0:08:01.83,0:08:05.04,Dialogue,,0,0,0,,Is you, the owner, and no one else, no?
+Dialogue: 0,0:08:05.96,0:08:08.09,Dialogue,,0,0,0,,I'm not the culprit!
+Dialogue: 0,0:08:08.75,0:08:13.09,Dialogue,,0,0,0,,If I were the culprit, I would've opened\Nit without safekeeping it for five years!
+Dialogue: 0,0:08:13.51,0:08:15.97,Dialogue,,0,0,0,,And don't you find it strange?
+Dialogue: 0,0:08:15.97,0:08:20.52,Dialogue,,0,0,0,,That such an important case would only\Ncontain an old sports newspaper.
+Dialogue: 0,0:08:20.89,0:08:27.69,Dialogue,,0,0,0,,I bet the culprit already stole something wrapped\Nin the newspaper and fled somewhere far away.
+Dialogue: 0,0:08:28.65,0:08:33.24,Dialogue,,0,0,0,,It would've changed the circumstances if the\Nnewspaper contained a special meaning.
+Dialogue: 0,0:08:33.24,0:08:34.99,Dialogue,,0,0,0,,You're right about that.
+Dialogue: 0,0:08:34.99,0:08:35.61,Dialogue,,0,0,0,,Say...
+Dialogue: 0,0:08:36.45,0:08:38.37,Dialogue,,0,0,0,,What is this "Mae 5"?
+Dialogue: 0,0:08:40.66,0:08:43.16,Dialogue,,0,0,0,,See, next to the winner Akagimaru's name...
+Dialogue: 0,0:08:43.16,0:08:45.08,Dialogue,,0,0,0,,"Mae 5" is written on it.
+Dialogue: 0,0:08:45.42,0:08:47.75,Dialogue,,0,0,0,,It means number five in the Maegashira rank.
+Dialogue: 0,0:08:47.75,0:08:52.05,Dialogue,,0,0,0,,At the time, Akagimaru was in the East corner,\Nmeaning he was an East Maegashira Number 5.
+Dialogue: 0,0:08:52.51,0:08:53.72,Dialogue,,0,0,0,,Maegashira?
+Dialogue: 0,0:08:54.13,0:08:57.22,Dialogue,,0,0,0,,Is it somehow related to Kashiragami Forest?
+Dialogue: 0,0:08:57.22,0:08:59.60,Dialogue,,0,0,0,,Idiot, no way they're related.
+Dialogue: 0,0:08:59.60,0:09:01.60,Dialogue,,0,0,0,,Then, what about Maedaore Jizo?
+Dialogue: 0,0:09:01.60,0:09:03.68,Dialogue,,0,0,0,,No, no, not at all!
+Dialogue: 0,0:09:04.02,0:09:11.44,Dialogue,,0,0,0,,Maegashira is the rank below Yokozuna, Oozeki,\NSekiwake and Komusubi in the top sumo divisions...
+Dialogue: 0,0:09:12.15,0:09:16.82,Dialogue,,0,0,0,,And "number five" means he placed fifth in that rank.
+Dialogue: 0,0:09:18.45,0:09:22.33,Dialogue,,0,0,0,,Then, Akagimaru wasn't that strong\Nbut still won the tournament...
+Dialogue: 0,0:09:22.33,0:09:24.08,Dialogue,,0,0,0,,He must've been very careful.
+Dialogue: 0,0:09:24.54,0:09:26.04,Dialogue,,0,0,0,,Careful?
+Dialogue: 0,0:09:26.37,0:09:30.67,Dialogue,,0,0,0,,Because look here, Akagimaru only fell into a hole once!
+Dialogue: 0,0:09:32.96,0:09:36.88,Dialogue,,0,0,0,,Doesn't this black circle mean that a\Nsumo wrestler fell into a trap hole?
+Dialogue: 0,0:09:37.22,0:09:40.64,Dialogue,,0,0,0,,And there's "thrust down" written under the black circle.
+Dialogue: 0,0:09:41.93,0:09:44.60,Dialogue,,0,0,0,,That's not a hole, but a symbol for "black star".
+Dialogue: 0,0:09:45.02,0:09:48.02,Dialogue,,0,0,0,,It means Akagimaru lost the bout\Non the eighth day by that move.
+Dialogue: 0,0:09:48.02,0:09:52.11,Dialogue,,0,0,0,,Oh, so it wasn't that he walked\Neight steps and fell in a hole?
+Dialogue: 0,0:09:52.27,0:09:57.07,Dialogue,,0,0,0,,At any rate, gather your employees and\Ncooperate as I carry out the questioning.
+Dialogue: 0,0:09:57.57,0:10:00.03,Dialogue,,0,0,0,,Of course, everyone will be\Nquestioned without exception!
+Dialogue: 0,0:10:04.66,0:10:09.46,Dialogue,,0,0,0,,So there was nobody that can confirm\Nyour actions this evening, right?
+Dialogue: 0,0:10:09.46,0:10:10.25,Dialogue,,0,0,0,,Right.
+Dialogue: 0,0:10:10.79,0:10:11.79,Dialogue,,0,0,0,,Understood.
+Dialogue: 0,0:10:12.09,0:10:13.09,Dialogue,,0,0,0,,Next person!
+Dialogue: 0,0:10:13.09,0:10:16.84,Dialogue,,0,0,0,,Hold on a minute, is this going to take long?
+Dialogue: 0,0:10:17.30,0:10:20.14,Dialogue,,0,0,0,,I have to clean the cafeteria...
+Dialogue: 0,0:10:20.14,0:10:22.56,Dialogue,,0,0,0,,And I have to prepare tomorrow's breakfast.
+Dialogue: 0,0:10:22.56,0:10:24.72,Dialogue,,0,0,0,,Can't you let us leave earlier?
+Dialogue: 0,0:10:26.27,0:10:27.85,Dialogue,,0,0,0,,No, not possible!
+Dialogue: 0,0:10:29.52,0:10:31.81,Dialogue,,0,0,0,,Looks like I've got everyone down for now...
+Dialogue: 0,0:10:32.19,0:10:38.15,Dialogue,,0,0,0,,But there are almost none of you with\Na solid alibi between 4:00 to 5:00 PM.
+Dialogue: 0,0:10:38.57,0:10:40.11,Dialogue,,0,0,0,,That much is obvious.
+Dialogue: 0,0:10:40.11,0:10:42.70,Dialogue,,0,0,0,,My employees are constantly on the move.
+Dialogue: 0,0:10:42.70,0:10:47.37,Dialogue,,0,0,0,,And I haven't hired any strange person that'd\Nobserve everyone while looking at the time.
+Dialogue: 0,0:10:47.83,0:10:49.58,Dialogue,,0,0,0,,I guess so...
+Dialogue: 0,0:10:49.58,0:10:51.04,Dialogue,,0,0,0,,Detective Yamamura!
+Dialogue: 0,0:10:52.67,0:10:55.17,Dialogue,,0,0,0,,Have you seen Conan{\rHonorifics - Dialogue}-kun{\r} and my dad?
+Dialogue: 0,0:10:55.34,0:10:56.59,Dialogue,,0,0,0,,I haven't.
+Dialogue: 0,0:10:59.80,0:11:01.55,Dialogue,,0,0,0,,Yes, Yamamura speaking.
+Dialogue: 0,0:11:02.89,0:11:03.60,Dialogue,,0,0,0,,Mouri{\rHonorifics - Dialogue}-san{\r}?
+Dialogue: 0,0:11:04.43,0:11:04.89,Dialogue,,0,0,0,,Yes...
+Dialogue: 0,0:11:05.68,0:11:06.14,Dialogue,,0,0,0,,Yes.
+Dialogue: 0,0:11:07.02,0:11:08.14,Dialogue,,0,0,0,,Roger that.
+Dialogue: 0,0:11:09.23,0:11:11.15,Dialogue,,0,0,0,,Uhm, what did my father say?
+Dialogue: 0,0:11:12.31,0:11:13.52,Dialogue,,0,0,0,,Well, he...
+Dialogue: 0,0:11:14.32,0:11:17.61,Dialogue,,0,0,0,,As he was gathering information from\Nthe people living around here...
+Dialogue: 0,0:11:17.61,0:11:21.24,Dialogue,,0,0,0,,He was mistaken for a suspicious person by\Nan officer and is now at the police station.
+Dialogue: 0,0:11:23.41,0:11:25.28,Dialogue,,0,0,0,,He said Conan{\rHonorifics - Dialogue}-kun{\r} was with him.
+Dialogue: 0,0:11:25.87,0:11:29.54,Dialogue,,0,0,0,,At any rate, I'm going to that station to free them.
+Dialogue: 0,0:11:29.54,0:11:31.79,Dialogue,,0,0,0,,Please wait in your room.
+Dialogue: 0,0:11:33.33,0:11:35.75,Dialogue,,0,0,0,,Excuse me, what about us?
+Dialogue: 0,0:11:36.09,0:11:39.80,Dialogue,,0,0,0,,You and your employees can take a rest.
+Dialogue: 0,0:11:39.80,0:11:43.68,Dialogue,,0,0,0,,I'll be conducting a thorough\Nquestioning at a later time.
+Dialogue: 0,0:11:44.89,0:11:45.55,Dialogue,,0,0,0,,Bye.
+Dialogue: 0,0:12:58.50,0:12:59.17,Dialogue,,0,0,0,,Stones?
+Dialogue: 0,0:12:59.84,0:13:01.09,Dialogue,,0,0,0,,No way!
+Dialogue: 0,0:13:05.26,0:13:06.34,Dialogue,,0,0,0,,Who...
+Dialogue: 0,0:13:06.84,0:13:08.93,Dialogue,,0,0,0,,Are you looking for this?
+Dialogue: 0,0:13:08.93,0:13:10.01,Dialogue,,0,0,0,,Jinbo{\rHonorifics - Dialogue}-san{\r}...
+Dialogue: 0,0:13:11.06,0:13:12.10,Dialogue,,0,0,0,,Or would you prefer...
+Dialogue: 0,0:13:12.93,0:13:17.52,Dialogue,,0,0,0,,I called you what you really are: the culprit behind\Nthe 100 million yen blackmail case?
+Dialogue: 0,0:13:17.86,0:13:18.48,Dialogue,,0,0,0,,What?
+Dialogue: 0,0:13:19.23,0:13:24.19,Dialogue,,0,0,0,,I found out everything when I checked the\Nserial numbers on this 100 million yen.
+Dialogue: 0,0:13:24.90,0:13:30.70,Dialogue,,0,0,0,,Five years ago, two men threatened a\Nconfectionery company and stole 100 million yen.
+Dialogue: 0,0:13:31.66,0:13:34.16,Dialogue,,0,0,0,,You are one of those two men.
+Dialogue: 0,0:13:34.16,0:13:40.13,Dialogue,,0,0,0,,And the other one is the long-haired man who\Nentrusted the attaché case to the inn's owner.
+Dialogue: 0,0:13:40.84,0:13:45.67,Dialogue,,0,0,0,,The sports newspaper inside indicates the\Nplace where the stolen money was hidden.
+Dialogue: 0,0:13:46.43,0:13:51.06,Dialogue,,0,0,0,,Akagimaru, who is shown in the newspaper\Nheading, was an East Maegashira-5 at that time.
+Dialogue: 0,0:13:51.47,0:13:57.35,Dialogue,,0,0,0,,Maegashira is a keyword pointing to the\NMaedaore Jizo here in Kashiragami Forest.
+Dialogue: 0,0:13:57.35,0:14:02.48,Dialogue,,0,0,0,,It means that, starting from the fallen\Nstatue, you walk five steps east.
+Dialogue: 0,0:14:02.48,0:14:08.45,Dialogue,,0,0,0,,Then, in accordance with Akagimaru's record chart,\Nyou turn right and advance another eight steps.
+Dialogue: 0,0:14:08.99,0:14:15.04,Dialogue,,0,0,0,,And if you dig a hole on that point, you\Nwill find the urn with all the money.
+Dialogue: 0,0:14:15.91,0:14:17.54,Dialogue,,0,0,0,,Isn't that right, Mouri{\rHonorifics - Dialogue}-san{\r}?
+Dialogue: 0,0:14:18.71,0:14:25.38,Dialogue,,0,0,0,,The reason why the long-haired man entrusted the\Nattaché case with the newspaper to the inn's owner...
+Dialogue: 0,0:14:25.38,0:14:27.93,Dialogue,,0,0,0,,Was because he sensed something was wrong.
+Dialogue: 0,0:14:27.93,0:14:33.97,Dialogue,,0,0,0,,He sensed that you wanted to kill him\Nin order to keep all the money yourself.
+Dialogue: 0,0:14:33.97,0:14:38.27,Dialogue,,0,0,0,,Well, the long-haired man could've\Neasily guessed your intent.
+Dialogue: 0,0:14:38.27,0:14:41.69,Dialogue,,0,0,0,,Given that the long-haired man was\Nlikely the one who carried the money...
+Dialogue: 0,0:14:42.31,0:14:48.65,Dialogue,,0,0,0,,And yet you decided that he should meet\Nyou in this forest that's famous for suicides.
+Dialogue: 0,0:14:48.86,0:14:54.37,Dialogue,,0,0,0,,As proof, the long-haired man also\Nentrusted the memo with the attaché case.
+Dialogue: 0,0:14:54.37,0:15:00.62,Dialogue,,0,0,0,,In case you killed him and came alone to\Nretrieve it, he could deliver the vile message.
+Dialogue: 0,0:15:01.00,0:15:07.05,Dialogue,,0,0,0,,As expected, you killed him in this\Nforest and made it look like a suicide.
+Dialogue: 0,0:15:07.21,0:15:09.97,Dialogue,,0,0,0,,Then you rushed all exultant to the inn...
+Dialogue: 0,0:15:09.97,0:15:13.01,Dialogue,,0,0,0,,With your face hidden with a hat,\Na pair of glasses, and a beard.
+Dialogue: 0,0:15:13.18,0:15:18.48,Dialogue,,0,0,0,,However, the only thing you found was the\Nmemo with "I shall kill you with my curse".
+Dialogue: 0,0:15:19.10,0:15:25.90,Dialogue,,0,0,0,,But because you couldn't give up on the money, you\Ndecided to get employed and search the inn's vicinity.
+Dialogue: 0,0:15:26.07,0:15:30.57,Dialogue,,0,0,0,,Days and months passed, and the\Nlong-haired man's corpse was discovered.
+Dialogue: 0,0:15:30.57,0:15:38.54,Dialogue,,0,0,0,,After you heard the inn's owner decided to call me in to\Ninvestigate the attaché case he was given five years ago...
+Dialogue: 0,0:15:38.54,0:15:41.25,Dialogue,,0,0,0,,You quickly hired someone to impersonate me...
+Dialogue: 0,0:15:41.79,0:15:46.59,Dialogue,,0,0,0,,And had him retrieve the attaché case before\NI came in order to obtain the contents.
+Dialogue: 0,0:15:47.84,0:15:52.84,Dialogue,,0,0,0,,But there was no money inside,\Nonly an old sports newspaper.
+Dialogue: 0,0:15:52.84,0:15:57.64,Dialogue,,0,0,0,,The imposter who was promised a\Nbig compensation became upset.
+Dialogue: 0,0:15:58.18,0:16:04.23,Dialogue,,0,0,0,,He probably said, "If I don't get the money, I'll tell\Neverything to the real Mouri Kogorou that's on his way."
+Dialogue: 0,0:16:04.77,0:16:10.78,Dialogue,,0,0,0,,With no other choice, you killed the man\Nand decided to let me handle the mystery.
+Dialogue: 0,0:16:11.49,0:16:16.91,Dialogue,,0,0,0,,Regardless, the fact you came here to search\Nfor the money is the definitive proof.
+Dialogue: 0,0:16:17.37,0:16:18.49,Dialogue,,0,0,0,,Now, come to the station.
+Dialogue: 0,0:16:20.04,0:16:21.87,Dialogue,,0,0,0,,What are you saying?
+Dialogue: 0,0:16:21.87,0:16:25.46,Dialogue,,0,0,0,,I came here merely because an inspiration\Nhit me when I saw the newspaper.
+Dialogue: 0,0:16:26.29,0:16:29.30,Dialogue,,0,0,0,,I thought I could help with\Nthe investigation by searching.
+Dialogue: 0,0:16:29.88,0:16:31.26,Dialogue,,0,0,0,,Why, you...
+Dialogue: 0,0:16:31.80,0:16:36.97,Dialogue,,0,0,0,,And also, the long-haired man\Ndied four years ago on July 10.
+Dialogue: 0,0:16:36.97,0:16:39.18,Dialogue,,0,0,0,,I was on the company retreat that day.
+Dialogue: 0,0:16:39.51,0:16:44.14,Dialogue,,0,0,0,,No, the long-haired man wasn't killed\Nduring the summer four years ago.
+Dialogue: 0,0:16:45.48,0:16:47.40,Dialogue,,0,0,0,,It was five years ago in autumn.
+Dialogue: 0,0:16:47.40,0:16:50.28,Dialogue,,0,0,0,,Just after he entrusted the attaché case to the owner.
+Dialogue: 0,0:16:50.44,0:16:57.74,Dialogue,,0,0,0,,You put the milk, bread, cigarettes, and convenience\Nstore receipt inside his backpack afterwards.
+Dialogue: 0,0:16:58.28,0:17:03.21,Dialogue,,0,0,0,,You did it to manipulate the estimated\Ntime of death and create your alibi.
+Dialogue: 0,0:17:03.75,0:17:11.71,Dialogue,,0,0,0,,Items like the milk and receipt belonged to another suicide\Nbody you'd found after the company trip four years ago.
+Dialogue: 0,0:17:11.71,0:17:18.39,Dialogue,,0,0,0,,That's why the long-haired man was wearing a sweater, and\Nhad cigarettes on him despite lacking a lighter or matches.
+Dialogue: 0,0:17:18.72,0:17:23.35,Dialogue,,0,0,0,,You took away the long-haired man's\Ndriver's license because his was expiring.
+Dialogue: 0,0:17:23.81,0:17:27.15,Dialogue,,0,0,0,,If he had been carrying a driver's license\Nthat hadn't been renewed for a year...
+Dialogue: 0,0:17:27.15,0:17:29.27,Dialogue,,0,0,0,,The alibi trick would have been exposed.
+Dialogue: 0,0:17:30.02,0:17:33.74,Dialogue,,0,0,0,,In addition, the reason you inserted\Nstrains of long hair in the newspaper...
+Dialogue: 0,0:17:34.53,0:17:39.70,Dialogue,,0,0,0,,Was to lead us to believe that someone related to\Nthe long-haired man killed the fake Mouri{\rHonorifics - Dialogue}-san{\r}.
+Dialogue: 0,0:17:40.08,0:17:44.20,Dialogue,,0,0,0,,As such, with the alibi provided by the receipt, you would\Nallow yourself to be removed from the suspect list.
+Dialogue: 0,0:17:44.50,0:17:46.58,Dialogue,,0,0,0,,But no one fell for your trick!
+Dialogue: 0,0:17:47.42,0:17:51.84,Dialogue,,0,0,0,,Then, why not tell me how can you be so sure\Nthat I planted the milk and receipt afterward?
+Dialogue: 0,0:17:53.38,0:17:57.47,Dialogue,,0,0,0,,Couldn't it be that the long-haired man\Nbrought those in the first place?
+Dialogue: 0,0:17:58.39,0:17:59.72,Dialogue,,0,0,0,,No...
+Dialogue: 0,0:17:59.72,0:18:00.39,Dialogue,,0,0,0,,That's because of...
+Dialogue: 0,0:18:00.39,0:18:01.85,Dialogue,,0,0,0,,The straw.
+Dialogue: 0,0:18:02.31,0:18:05.60,Dialogue,,0,0,0,,There was no straw on the pack of milk.
+Dialogue: 0,0:18:07.02,0:18:11.15,Dialogue,,0,0,0,,This is proof that someone refilled a\Ndiscarded milk carton with milk...
+Dialogue: 0,0:18:11.15,0:18:15.36,Dialogue,,0,0,0,,Sealed the opening with glue and\Nput it inside the man's backpack.
+Dialogue: 0,0:18:16.36,0:18:21.37,Dialogue,,0,0,0,,No one in their right mind would put an\Nopened milk carton in their backpack.
+Dialogue: 0,0:18:21.37,0:18:23.95,Dialogue,,0,0,0,,That's it, that's it, exactly!
+Dialogue: 0,0:18:25.12,0:18:27.16,Dialogue,,0,0,0,,And did you guys see it?
+Dialogue: 0,0:18:27.16,0:18:30.50,Dialogue,,0,0,0,,Did you see me murdering this long-haired man?
+Dialogue: 0,0:18:31.00,0:18:36.97,Dialogue,,0,0,0,,Indeed, we were too late to establish that\Nyou were the murderer for that case.
+Dialogue: 0,0:18:37.42,0:18:42.26,Dialogue,,0,0,0,,But we do possess proof that you\Nkilled the man who impersonated me.
+Dialogue: 0,0:18:42.26,0:18:42.89,Dialogue,,0,0,0,,What?
+Dialogue: 0,0:18:43.31,0:18:47.35,Dialogue,,0,0,0,,To take someone on your shoulder\Nand hang them from a high place...
+Dialogue: 0,0:18:47.35,0:18:50.85,Dialogue,,0,0,0,,You have to get them near the ceiling.
+Dialogue: 0,0:18:51.15,0:18:55.82,Dialogue,,0,0,0,,To accomplish that, you climbed atop the\Nshogi board and the desk in the room.
+Dialogue: 0,0:18:56.49,0:19:00.28,Dialogue,,0,0,0,,Of course, you likely removed\Nyour socks in order to not slip.
+Dialogue: 0,0:19:00.70,0:19:05.74,Dialogue,,0,0,0,,The forensics officer reported having\Nfound someone's footprints on them.
+Dialogue: 0,0:19:06.12,0:19:10.37,Dialogue,,0,0,0,,As such, what will happen should we\Ncompare those prints with your own feet?
+Dialogue: 0,0:19:13.17,0:19:15.75,Dialogue,,0,0,0,,You're right, I did climb on it.
+Dialogue: 0,0:19:15.75,0:19:18.13,Dialogue,,0,0,0,,But it was to change the light bulb in the room.
+Dialogue: 0,0:19:18.76,0:19:20.76,Dialogue,,0,0,0,,I'm not lying...
+Dialogue: 0,0:19:20.76,0:19:23.35,Dialogue,,0,0,0,,If you check the light, you should find my fingerprints.
+Dialogue: 0,0:19:23.35,0:19:27.77,Dialogue,,0,0,0,,Yes, I was quite surprised that there\Nwere a lot of your fingerprints...
+Dialogue: 0,0:19:28.39,0:19:31.35,Dialogue,,0,0,0,,And all under a thick layer of dust.
+Dialogue: 0,0:19:31.35,0:19:35.57,Dialogue,,0,0,0,,You likely left those fingerprints quite some time ago.
+Dialogue: 0,0:19:37.28,0:19:40.65,Dialogue,,0,0,0,,Despite that, your footprints were still on the desk.
+Dialogue: 0,0:19:40.65,0:19:43.24,Dialogue,,0,0,0,,It could only mean you are the culprit.
+Dialogue: 0,0:19:44.03,0:19:50.37,Dialogue,,0,0,0,,After all, no inn would leave their desks unwiped long\Nenough to have thick dust collected on the light.
+Dialogue: 0,0:19:50.83,0:19:53.83,Dialogue,,0,0,0,,Jinbo{\rHonorifics - Dialogue}-san{\r}, knock it off already.
+Dialogue: 0,0:19:54.42,0:19:56.42,Dialogue,,0,0,0,,There's no use trying to cheat time.
+Dialogue: 0,0:19:59.26,0:20:00.67,Dialogue,,0,0,0,,How...
+Dialogue: 0,0:20:00.67,0:20:02.72,Dialogue,,0,0,0,,How did you find out I was the culprit?
+Dialogue: 0,0:20:03.47,0:20:05.35,Dialogue,,0,0,0,,Your actions gave it away.
+Dialogue: 0,0:20:06.56,0:20:10.56,Dialogue,,0,0,0,,It was when you came to give back my\Ndaughter's cell phone in the lobby.
+Dialogue: 0,0:20:11.44,0:20:16.73,Dialogue,,0,0,0,,Even though you'd never seen Detective\NYamamura who was next to me...
+Dialogue: 0,0:20:16.73,0:20:18.90,Dialogue,,0,0,0,,You gave it to me without hesitation.
+Dialogue: 0,0:20:19.69,0:20:21.70,Dialogue,,0,0,0,,Saying, "It's your daughter's, right?"
+Dialogue: 0,0:20:22.74,0:20:24.32,Dialogue,,0,0,0,,What about it?
+Dialogue: 0,0:20:24.32,0:20:29.24,Dialogue,,0,0,0,,When I saw the sticker saying "Ran\NMouri" on the cell phone, I knew...
+Dialogue: 0,0:20:30.83,0:20:35.63,Dialogue,,0,0,0,,Yes, you already knew the minute you saw me...
+Dialogue: 0,0:20:36.08,0:20:39.63,Dialogue,,0,0,0,,That I was the genuine Mouri Kogorou.
+Dialogue: 0,0:22:17.77,0:22:19.85,Dialogue,,0,0,0,,I was very impressed, Mouri{\rHonorifics - Dialogue}-san{\r}!
+Dialogue: 0,0:22:20.27,0:22:22.52,Dialogue,,0,0,0,,The Sleeping Kogorou's great deduction!
+Dialogue: 0,0:22:23.69,0:22:28.11,Dialogue,,0,0,0,,All I remember was that brat Conan\Npestering me to go in the forest...
+Dialogue: 0,0:22:28.91,0:22:31.20,Dialogue,,0,0,0,,But I was surprised!
+Dialogue: 0,0:22:31.20,0:22:35.45,Dialogue,,0,0,0,,Since you suddenly called me and said, "I'm starting\Nmy deduction show, so hurry to the forest!"
+Dialogue: 0,0:22:36.00,0:22:40.75,Dialogue,,0,0,0,,Say, I just remembered an employee\Nat the inn called me "Echigo{\rHonorifics - Dialogue}-san{\r}".
+Dialogue: 0,0:22:40.75,0:22:42.09,Dialogue,,0,0,0,,I wonder...
+Dialogue: 0,0:22:42.09,0:22:43.92,Dialogue,,0,0,0,,Don't worry about that.
+Dialogue: 0,0:22:45.34,0:22:46.84,Dialogue,,0,0,0,,Excuse us!
+Dialogue: 0,0:22:48.01,0:22:49.18,Dialogue,,0,0,0,,Excuse us!
+Dialogue: 0,0:22:50.18,0:22:53.14,Dialogue,,0,0,0,,Is Aoiya Inn this way?
+Dialogue: 0,0:22:53.64,0:22:57.56,Dialogue,,0,0,0,,We rushed here as soon as we heard\NMouri Kogorou{\rHonorifics - Dialogue}-san{\r} was coming.
+Dialogue: 0,0:22:57.89,0:22:58.85,Dialogue,,0,0,0,,Riiiight?
+Dialogue: 0,0:22:59.02,0:23:02.27,Dialogue,,0,0,0,,We got off the bus but lost our way...
+Dialogue: 0,0:23:02.27,0:23:02.65,Dialogue,,0,0,0,,Right?
+Dialogue: 0,0:23:03.69,0:23:06.65,Dialogue,,0,0,0,,You don't have to go to the inn because he's already...
+Dialogue: 0,0:23:06.65,0:23:08.90,Dialogue,,0,0,0,,Oh, that's perfect timing!
+Dialogue: 0,0:23:08.90,0:23:12.87,Dialogue,,0,0,0,,We were just thinking about heading back to the inn.
+Dialogue: 0,0:23:12.87,0:23:13.70,Dialogue,,0,0,0,,Hop in.
+Dialogue: 0,0:23:14.83,0:23:16.33,Dialogue,,0,0,0,,Really?
+Dialogue: 0,0:23:16.62,0:23:18.79,Dialogue,,0,0,0,,Don't worry, come in, come in.
+Dialogue: 0,0:23:24.21,0:23:25.88,Dialogue,,0,0,0,,Thank you!
+Dialogue: 0,0:23:25.88,0:23:27.09,Dialogue,,0,0,0,,Uncle, what's your name?
+Dialogue: 0,0:23:28.17,0:23:29.05,Dialogue,,0,0,0,,My name?
+Dialogue: 0,0:23:30.47,0:23:33.68,Dialogue,,0,0,0,,Tooyama Kingorou, a mere adventurer.
+Dialogue: 0,0:23:40.60,0:23:42.60,Dialogue,,0,0,0,,You'll never learn, old man.

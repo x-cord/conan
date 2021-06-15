@@ -1,0 +1,378 @@
+[Script Info]
+Title: Detective Conan - 0221
+TL Source: DCTP
+ScriptType: v4.00+
+WrapStyle: 3
+PlayResX: 1440
+PlayResY: 1080
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Dialogue,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00401311,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Dialogue Top,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00401311,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,8,30,30,55,1
+Style: Signs,FrancophilSans,74,&H14FFFFFF,&H00FFFFFF,&H46101010,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,8,30,30,55,1
+Style: Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,0,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Radio,FrancophilSans,74,&H00BEE1FF,&H00FFFFFF,&H000B2A42,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Narration,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00BF6F00,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Narration Off,FrancophilSans,74,&H6E8C6F00,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,0,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Flashback,FrancophilSans,74,&H00CDFAFF,&H00FFFFFF,&H00373737,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Flashback Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00CCFFFF,&HC0313134,-1,0,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Honorifics - Dialogue,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00401311,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Signs,FrancophilSans,74,&H14FFFFFF,&H00FFFFFF,&H46101010,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,-1,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Honorifics - Radio,FrancophilSans,74,&H00BEE1FF,&H00FFFFFF,&H000B2A42,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Narration,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00BF6F00,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Narration Off,FrancophilSans,74,&H6E8C6F00,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,-1,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Honorifics - Flashback,FrancophilSans,74,&H00CDFAFF,&H00FFFFFF,&H00373737,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Flashback Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00CCFFFF,&HC0313134,-1,-1,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Masks,FrancophilSans,74,&H00000000,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,2,0,0,0,1
+Style: Title,Conan Episode Title,74,&H00E1E4E3,&H000000FF,&HC8DBDAE1,&HC0000000,-1,0,0,0,100,100,0,0,1,1,0,5,0,0,0,1
+Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-1,0,0,0,100,100,0,0,1,0,0,2,0,0,65,1
+Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
+Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
+Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:19.31,0:00:21.14,Dialogue,,0,0,0,,A strong heart reinforces reasoning power.
+Dialogue: 0,0:00:21.14,0:00:22.83,Dialogue,,0,0,0,,The steady rhythm reveals the truth.
+Dialogue: 0,0:00:23.00,0:00:24.79,Dialogue,,0,0,0,,Today the case as well as the lies will be figured out...
+Dialogue: 0,0:00:25.17,0:00:26.92,Dialogue,,0,0,0,,the identity of the beautiful client sure is a surprise.
+Dialogue: 0,0:00:27.31,0:00:28.92,Dialogue,,0,0,0,,Perceiving the one and only truth,
+Dialogue: 0,0:00:28.92,0:00:30.80,Dialogue,,0,0,0,,A child with the intellect of an adult...
+Dialogue: 0,0:00:30.80,0:00:33.00,Dialogue,,0,0,0,,His name is: Detective Conan.
+Dialogue: 0,0:01:42.74,0:01:45.85,Dialogue,,0,0,0,,A beautiful client appears at the detective office.
+Dialogue: 0,0:01:45.85,0:01:47.17,Dialogue,,0,0,0,,Her name is Shizuka Ikenami.
+Dialogue: 0,0:01:48.25,0:01:50.14,Dialogue,,0,0,0,,She comes to ask Pops to look for
+Dialogue: 0,0:01:50.48,0:01:52.32,Dialogue,,0,0,0,,her classmate from her middle school days,
+Dialogue: 0,0:01:52.32,0:01:53.73,Dialogue,,0,0,0,,who belonged to the same Kendo club
+Dialogue: 0,0:01:53.73,0:01:56.42,Dialogue,,0,0,0,,and whose name is Shiro Shibata.
+Dialogue: 0,0:01:57.40,0:01:59.77,Dialogue,,0,0,0,,He was located immediately.
+Dialogue: 0,0:02:00.37,0:02:02.62,Dialogue,,0,0,0,,He seemed to be working as a P.E. teacher in Shizuoka.
+Dialogue: 0,0:02:05.08,0:02:08.28,Dialogue,,0,0,0,,We set off immediately to his place, but...
+Dialogue: 0,0:02:09.11,0:02:10.82,Dialogue,,0,0,0,,what awaited us there was...
+Dialogue: 0,0:02:11.40,0:02:13.71,Dialogue,,0,0,0,,the dead body of Mr. Shiro Shibata, who had been killed.
+Dialogue: 0,0:02:15.31,0:02:19.40,Dialogue,,0,0,0,,He had the picture of Shizuka Ikenami gripped firmly in his hands.
+Dialogue: 0,0:02:20.80,0:02:23.85,Dialogue,,0,0,0,,What bothers me is why the client is so full of lies...
+Dialogue: 0,0:02:24.71,0:02:27.20,Dialogue,,0,0,0,,Almost everything that she says is a lie...
+Dialogue: 0,0:02:28.00,0:02:31.71,Dialogue,,0,0,0,,What on earth is she hiding?
+Dialogue: 0,0:02:35.92,0:02:41.72,Signs,Sign,0,0,0,,THE CLIENT FULL OF LIES\N(PART TWO)
+Dialogue: 0,0:02:42.76,0:02:43.55,Dialogue,,0,0,0,,Detective Yokomizo!
+Dialogue: 0,0:02:44.06,0:02:46.77,Dialogue,,0,0,0,,We found a bloody bokken!
+Dialogue: 0,0:02:47.35,0:02:47.89,Dialogue,,0,0,0,,Really!?
+Dialogue: 0,0:02:48.27,0:02:48.73,Dialogue,,0,0,0,,Yes!
+Dialogue: 0,0:02:49.81,0:02:53.36,Dialogue,,0,0,0,,It was behind the stairs near the door.
+Dialogue: 0,0:02:53.94,0:02:56.78,Dialogue,,0,0,0,,Miss, did your husband keep a bokken here?
+Dialogue: 0,0:02:57.15,0:02:58.53,Dialogue Top,,0,0,0,,Y-Yes...
+Dialogue: 0,0:02:57.61,0:03:01.70,Character Card,Sign,0,0,0,,Shibata Kyouko (38)\NWife of Shibata Shirou
+Dialogue: 0,0:02:59.20,0:03:01.45,Dialogue Top,,0,0,0,,It's kept on that counter.
+Dialogue: 0,0:03:01.45,0:03:04.78,Dialogue Top,,0,0,0,,My husband used it to chase away salesmen.
+Dialogue: 0,0:03:05.16,0:03:06.70,Dialogue,,0,0,0,,It's not there now.
+Dialogue: 0,0:03:07.29,0:03:10.50,Dialogue,,0,0,0,,And how many phones do you have?
+Dialogue: 0,0:03:11.17,0:03:13.92,Dialogue,,0,0,0,,There's one in the bedroom and one in the living room.
+Dialogue: 0,0:03:14.79,0:03:16.88,Dialogue,,0,0,0,,We used to have one near the door.
+Dialogue: 0,0:03:19.38,0:03:20.01,Dialogue,,0,0,0,,I see.
+Dialogue: 0,0:03:20.43,0:03:21.30,Dialogue,,0,0,0,,I've got it now.
+Dialogue: 0,0:03:21.88,0:03:23.80,Dialogue,,0,0,0,,The criminal is Ikenami{\rHonorifics - Dialogue}-san{\r}.
+Dialogue: 0,0:03:23.80,0:03:26.76,Character Card,Sign,0,0,0,,Ikenami Shizuka (42)\NClient
+Dialogue: 0,0:03:24.51,0:03:26.76,Dialogue Top,,0,0,0,,You are the one responsible for this.
+Dialogue: 0,0:03:27.18,0:03:28.98,Dialogue,,0,0,0,,Hey, hey, Detective Yokomizo...
+Dialogue: 0,0:03:29.43,0:03:33.48,Dialogue,,0,0,0,,You first called to confirm that the\Nphotograph was indeed still around.
+Dialogue: 0,0:03:33.48,0:03:34.61,Dialogue,,0,0,0,,Then, this morning...
+Dialogue: 0,0:03:35.11,0:03:37.36,Dialogue,,0,0,0,,You came yourself to pick it up.
+Dialogue: 0,0:03:38.94,0:03:42.16,Dialogue,,0,0,0,,You then had an argument with him\Nover the photograph near the door...
+Dialogue: 0,0:03:42.61,0:03:46.33,Dialogue,,0,0,0,,Which ended with you taking the\Nbokken in hand and attacking him.
+Dialogue: 0,0:03:47.79,0:03:51.83,Dialogue,,0,0,0,,You escaped via the rear stairs after\Nyou thought you had killed him.
+Dialogue: 0,0:03:53.12,0:03:54.13,Dialogue,,0,0,0,,But...
+Dialogue: 0,0:03:54.13,0:03:56.75,Dialogue,,0,0,0,,Shirou{\rHonorifics - Dialogue}-san{\r} was still holding on.
+Dialogue: 0,0:03:58.09,0:04:03.68,Dialogue,,0,0,0,,He fought his way to the living room to get to the phone.
+Dialogue: 0,0:04:05.22,0:04:09.52,Dialogue,,0,0,0,,But then, just before him, was the photo\Nof you inside of {\i1}The Thunder God's Door{\i0}.
+Dialogue: 0,0:04:09.93,0:04:14.60,Dialogue,,0,0,0,,With his last bit of life, Shirou{\rHonorifics - Dialogue}-san{\r} reached for the book.
+Dialogue: 0,0:04:16.23,0:04:19.82,Dialogue,,0,0,0,,He then had a photograph of his killer in hand.
+Dialogue: 0,0:04:20.49,0:04:23.07,Dialogue,,0,0,0,,But, that photo...
+Dialogue: 0,0:04:23.49,0:04:26.45,Dialogue,,0,0,0,,There must be something secret in the photograph.
+Dialogue: 0,0:04:27.20,0:04:32.50,Dialogue,,0,0,0,,That's why she asked you to help her find the photograph!
+Dialogue: 0,0:04:33.54,0:04:35.08,Dialogue,,0,0,0,,Now, Ikenami{\rHonorifics - Dialogue}-san{\r}...
+Dialogue: 0,0:04:35.92,0:04:38.25,Dialogue,,0,0,0,,Will you come with us to the station?
+Dialogue: 0,0:04:39.71,0:04:41.21,Dialogue,,0,0,0,,I won't be coming with you.
+Dialogue: 0,0:04:43.30,0:04:50.43,Dialogue,,0,0,0,,If you want a statement from me, won't you need\Nto get an arrest warrant from the courts first?
+Dialogue: 0,0:04:50.81,0:04:57.94,Dialogue,,0,0,0,,Well, based on so little evidence, you\Nwon't be able to prove I'm involved at all.
+Dialogue: 0,0:04:58.44,0:05:03.28,Dialogue,,0,0,0,,As such, you will have some difficulty\Narresting me without a warrant.
+Dialogue: 0,0:05:04.24,0:05:11.58,Dialogue,,0,0,0,,Of course, the wife could decide to\Npress charges against us for trespassing.
+Dialogue: 0,0:05:15.58,0:05:16.79,Dialogue,,0,0,0,,What's going on?
+Dialogue: 0,0:05:17.71,0:05:19.96,Dialogue,,0,0,0,,What kind of person is this woman?
+Dialogue: 0,0:05:21.00,0:05:23.09,Dialogue,,0,0,0,,Hey, look at his left hand.
+Dialogue: 0,0:05:23.42,0:05:24.22,Dialogue,,0,0,0,,There's blood here.
+Dialogue: 0,0:05:24.80,0:05:27.09,Dialogue,,0,0,0,,He could have just reached for his injury.
+Dialogue: 0,0:05:27.47,0:05:28.84,Dialogue,,0,0,0,,But, it's strange...
+Dialogue: 0,0:05:29.39,0:05:32.47,Dialogue,,0,0,0,,The bandages on his fingers have no blood on them.
+Dialogue: 0,0:05:33.64,0:05:34.31,Dialogue,,0,0,0,,That's right!
+Dialogue: 0,0:05:34.60,0:05:35.89,Dialogue,,0,0,0,,That woman's left hand!
+Dialogue: 0,0:05:39.27,0:05:39.77,Dialogue,,0,0,0,,Wait a second!
+Dialogue: 0,0:05:40.23,0:05:41.27,Dialogue,,0,0,0,,His right hand...
+Dialogue: 0,0:05:41.52,0:05:42.78,Dialogue,,0,0,0,,H-Hey!
+Dialogue: 0,0:05:47.91,0:05:48.74,Dialogue,,0,0,0,,I see!
+Dialogue: 0,0:05:49.16,0:05:50.41,Dialogue,,0,0,0,,That's how it was!
+Dialogue: 0,0:05:50.87,0:05:51.62,Dialogue,,0,0,0,,Hey...
+Dialogue: 0,0:05:51.91,0:05:53.41,Dialogue,,0,0,0,,You can't do that.
+Dialogue: 0,0:05:54.91,0:05:56.46,Dialogue,,0,0,0,,As I thought, the criminal...
+Dialogue: 0,0:05:57.29,0:05:58.62,Dialogue,,0,0,0,,That person came...
+Dialogue: 0,0:05:59.08,0:06:00.88,Dialogue,,0,0,0,,Before we did...
+Dialogue: 0,0:06:02.25,0:06:04.34,Dialogue,,0,0,0,,To this blood-stained murder scene...
+Dialogue: 0,0:06:05.92,0:06:07.88,Dialogue,,0,0,0,,Now, come on, Ikenami{\rHonorifics - Dialogue}-san{\r}.
+Dialogue: 0,0:06:08.68,0:06:14.02,Dialogue,,0,0,0,,The victim, Shibata Shirou{\rHonorifics - Dialogue}-san{\r}, was holding\Na photograph of you, was he not?
+Dialogue: 0,0:06:14.72,0:06:22.98,Dialogue,,0,0,0,,What kind of relationship would you have with him\Nthat had him holding a photograph of you as he died?
+Dialogue: 0,0:06:23.40,0:06:26.65,Dialogue,,0,0,0,,I've already explained this to Mouri{\rHonorifics - Dialogue}-san{\r}.
+Dialogue: 0,0:06:27.19,0:06:30.45,Dialogue,,0,0,0,,Then, please come repeat it at the station...
+Dialogue: 0,0:06:31.49,0:06:33.16,Dialogue,,0,0,0,,I can, but...
+Dialogue: 0,0:06:34.24,0:06:39.33,Dialogue,,0,0,0,,I'll be holding you responsible for my\Npredicament, Mouri Kogorou{\rHonorifics - Dialogue}-san{\r}.
+Dialogue: 0,0:06:40.12,0:06:46.84,Dialogue,,0,0,0,,After all, I am a client of yours who is\Nrecording a statement with the police.
+Dialogue: 0,0:06:48.26,0:06:49.47,Dialogue,,0,0,0,,No...
+Dialogue: 0,0:06:49.68,0:06:51.18,Dialogue,,0,0,0,,I'm counting on you, Mouri{\rHonorifics - Dialogue}-san{\r}!
+Dialogue: 0,0:06:52.22,0:06:54.93,Dialogue,,0,0,0,,Didn't you already get my statement?
+Dialogue: 0,0:06:56.89,0:06:59.85,Dialogue,,0,0,0,,But, there should be no need...
+Dialogue: 0,0:07:00.02,0:07:00.98,Dialogue,,0,0,0,,Mouri{\rHonorifics - Dialogue}-san{\r}!
+Dialogue: 0,0:07:02.31,0:07:02.94,Dialogue,,0,0,0,,Well...
+Dialogue: 0,0:07:03.15,0:07:04.02,Dialogue,,0,0,0,,Mouri{\rHonorifics - Dialogue}-san{\r}!
+Dialogue: 0,0:07:04.57,0:07:05.40,Dialogue,,0,0,0,,Mouri{\rHonorifics - Dialogue}-san{\r}!
+Dialogue: 0,0:07:10.20,0:07:10.91,Dialogue,,0,0,0,,Are you all right?
+Dialogue: 0,0:07:13.95,0:07:14.70,Dialogue,,0,0,0,,Mouri{\rHonorifics - Dialogue}-san{\r}?
+Dialogue: 0,0:07:15.53,0:07:16.83,Dialogue,,0,0,0,,Ikenami{\rHonorifics - Dialogue}-san{\r}...
+Dialogue: 0,0:07:16.83,0:07:21.21,Dialogue,,0,0,0,,With things as they are, you cannot\Navoid being questioned, can you?
+Dialogue: 0,0:07:22.46,0:07:23.17,Dialogue,,0,0,0,,Right?
+Dialogue: 0,0:07:23.54,0:07:24.38,Dialogue,,0,0,0,,However...
+Dialogue: 0,0:07:24.92,0:07:26.09,Dialogue,,0,0,0,,Not as a suspect.
+Dialogue: 0,0:07:26.84,0:07:31.88,Dialogue,,0,0,0,,I will now show the truth of the case...
+Dialogue: 0,0:07:32.30,0:07:34.10,Dialogue,,0,0,0,,With her as my key witness.
+Dialogue: 0,0:07:35.10,0:07:37.93,Dialogue,,0,0,0,,Then, she really didn't do it?
+Dialogue: 0,0:07:38.31,0:07:38.93,Dialogue,,0,0,0,,Yeah.
+Dialogue: 0,0:07:39.56,0:07:43.60,Dialogue,,0,0,0,,She came here with us for the photograph.
+Dialogue: 0,0:07:43.60,0:07:46.98,Dialogue,,0,0,0,,When we came here together earlier...
+Dialogue: 0,0:07:47.90,0:07:51.40,Dialogue,,0,0,0,,We rang the door bell a number of times to no answer.
+Dialogue: 0,0:07:51.95,0:07:57.03,Dialogue,,0,0,0,,She could have opened the door herself.
+Dialogue: 0,0:07:59.08,0:08:04.46,Dialogue,,0,0,0,,If she had been the one that killed Shibata{\rHonorifics - Dialogue}-san{\r}...
+Dialogue: 0,0:08:05.33,0:08:09.13,Dialogue,,0,0,0,,She would have known the door was already unlocked.
+Dialogue: 0,0:08:11.17,0:08:19.60,Dialogue,,0,0,0,,She wouldn't have missed her chance to retrieve the\Nphotograph before the police arrived either, right?
+Dialogue: 0,0:08:19.93,0:08:24.73,Dialogue,,0,0,0,,Then, it's the one who opened the door immediately...
+Dialogue: 0,0:08:24.73,0:08:27.57,Character Card,Sign,0,0,0,,Yoshikawa Takezou (47)\NFriend of Shibata Shirou
+Dialogue: 0,0:08:24.73,0:08:25.98,Dialogue,,0,0,0,,Yoshikawa{\rHonorifics - Dialogue}-san{\r}!
+Dialogue: 0,0:08:25.98,0:08:26.61,Dialogue,,0,0,0,,It's you.
+Dialogue: 0,0:08:27.69,0:08:32.24,Dialogue,,0,0,0,,Let's not forget that you were also the first to find the body.
+Dialogue: 0,0:08:33.03,0:08:36.49,Dialogue,,0,0,0,,You wanted to get here before the police...
+Dialogue: 0,0:08:36.66,0:08:39.41,Dialogue,,0,0,0,,To get rid of the evidence, isn't that right!?
+Dialogue: 0,0:08:39.79,0:08:41.83,Dialogue,,0,0,0,,That's not it...
+Dialogue: 0,0:08:41.83,0:08:45.08,Dialogue,,0,0,0,,No, Yoshikawa{\rHonorifics - Dialogue}-san{\r} isn't the culprit.
+Dialogue: 0,0:08:46.33,0:08:49.71,Dialogue,,0,0,0,,Since Shibata{\rHonorifics - Dialogue}-san{\r} was dead before at least noon...
+Dialogue: 0,0:08:49.71,0:08:53.30,Dialogue,,0,0,0,,We can assume the door was already open.
+Dialogue: 0,0:08:53.76,0:09:02.98,Dialogue,,0,0,0,,So, from the estimated time of death, Yoshikawa{\rHonorifics - Dialogue}-san{\r}\Nhad no alibi and couldn't risk returning to the scene.
+Dialogue: 0,0:09:03.52,0:09:07.40,Dialogue,,0,0,0,,Not to mention that he didn't know\Nthere was evidence to remove.
+Dialogue: 0,0:09:07.86,0:09:12.11,Dialogue,,0,0,0,,So why would he come back to the murder half a day later?
+Dialogue: 0,0:09:13.44,0:09:19.70,Dialogue,,0,0,0,,And why would he call when he\Nknows only a corpse could answer it?
+Dialogue: 0,0:09:20.45,0:09:26.37,Dialogue,,0,0,0,,When we arrived, he shouted at us and told us not to leave.
+Dialogue: 0,0:09:27.33,0:09:33.59,Dialogue,,0,0,0,,If I were the culprit, I'd wait until I was alone to go inside.
+Dialogue: 0,0:09:34.38,0:09:34.72,Dialogue,,0,0,0,,Then...
+Dialogue: 0,0:09:35.38,0:09:37.43,Dialogue,,0,0,0,,Then, could the culprit be...
+Dialogue: 0,0:09:37.72,0:09:38.93,Dialogue,,0,0,0,,Yeah.
+Dialogue: 0,0:09:38.93,0:09:42.64,Dialogue,,0,0,0,,The one with the best alibi...
+Dialogue: 0,0:09:42.97,0:09:44.02,Dialogue,,0,0,0,,It's you...
+Dialogue: 0,0:09:48.94,0:09:49.15,Dialogue,,0,0,0,,Then...
+Dialogue: 0,0:09:50.27,0:09:51.94,Dialogue,,0,0,0,,Then, could the culprit be...
+Dialogue: 0,0:09:52.48,0:09:53.48,Dialogue,,0,0,0,,Yeah.
+Dialogue: 0,0:09:53.48,0:09:56.82,Dialogue,,0,0,0,,The one with the best alibi...
+Dialogue: 0,0:09:57.61,0:09:58.49,Dialogue,,0,0,0,,It's you...
+Dialogue: 0,0:09:59.16,0:10:00.74,Dialogue,,0,0,0,,Shibata Kyouko{\rHonorifics - Dialogue}-san{\r}!
+Dialogue: 0,0:10:02.03,0:10:03.79,Dialogue,,0,0,0,,The {\i1}wife{\i0} is the culprit!?
+Dialogue: 0,0:10:04.83,0:10:07.00,Dialogue,,0,0,0,,Miss, did you really...
+Dialogue: 0,0:10:08.79,0:10:10.58,Dialogue,,0,0,0,,But wait, Mouri{\rHonorifics - Dialogue}-san{\r}...
+Dialogue: 0,0:10:11.21,0:10:15.71,Dialogue,,0,0,0,,Didn't she leave after preparing breakfast at 5:00 A.M.?
+Dialogue: 0,0:10:16.55,0:10:21.30,Dialogue,,0,0,0,,How could the morning newspaper that\Narrived at 6:00 A.M. be on the table?
+Dialogue: 0,0:10:22.30,0:10:27.73,Dialogue,,0,0,0,,Besides, it wasn't until after 7:00 P.M.\Nthat her friends brought her home.
+Dialogue: 0,0:10:28.52,0:10:32.23,Dialogue,,0,0,0,,That's when you arrived, Mouri{\rHonorifics - Dialogue}-san{\r}.
+Dialogue: 0,0:10:32.73,0:10:35.57,Dialogue,,0,0,0,,Since you came before her...
+Dialogue: 0,0:10:36.15,0:10:38.45,Dialogue,,0,0,0,,How did she get the newspaper?
+Dialogue: 0,0:10:39.28,0:10:46.33,Dialogue,,0,0,0,,In actuality, it's all due to her using her time very well.
+Dialogue: 0,0:10:47.66,0:10:51.92,Dialogue,,0,0,0,,Both 7:05 and 7:10 are "after 7:00."
+Dialogue: 0,0:10:52.96,0:10:59.13,Dialogue,,0,0,0,,Could she have not returned home before we arrived?
+Dialogue: 0,0:11:00.51,0:11:01.26,Dialogue,,0,0,0,,Wait a second...
+Dialogue: 0,0:11:02.64,0:11:05.43,Dialogue,,0,0,0,,What about the breakfast?
+Dialogue: 0,0:11:05.72,0:11:11.40,Dialogue,,0,0,0,,That's more likely a meal Shirou{\rHonorifics - Dialogue}-san{\r} had at 3:00 A.M.
+Dialogue: 0,0:11:12.06,0:11:15.86,Dialogue,,0,0,0,,But, if you put the morning newspaper next to it...
+Dialogue: 0,0:11:16.32,0:11:19.11,Dialogue,,0,0,0,,It looks like breakfast, doesn't it?
+Dialogue: 0,0:11:19.32,0:11:21.41,Dialogue,,0,0,0,,But what about the video?
+Dialogue: 0,0:11:21.41,0:11:24.91,Dialogue,,0,0,0,,Wasn't his program recorded at 8:00?
+Dialogue: 0,0:11:26.49,0:11:27.49,Dialogue,,0,0,0,,That's simple.
+Dialogue: 0,0:11:27.95,0:11:33.42,Dialogue,,0,0,0,,Just set the timer and the video tape will record automatically.
+Dialogue: 0,0:11:34.50,0:11:37.09,Dialogue,,0,0,0,,This means she had to just make the arrangements...
+Dialogue: 0,0:11:38.13,0:11:46.10,Dialogue,,0,0,0,,First, you waited for your husband to return\Nhome at 3:00 A.M. and have a shower.
+Dialogue: 0,0:11:46.72,0:11:51.02,Dialogue,,0,0,0,,Before you had to leave at 5:00 A.M.,\Nyou prepared a late night meal for him.
+Dialogue: 0,0:11:51.73,0:11:54.81,Dialogue,,0,0,0,,And, while he was eating...
+Dialogue: 0,0:11:56.07,0:11:58.65,Dialogue,,0,0,0,,You called him out to the corridor and hit him with the bokken.
+Dialogue: 0,0:11:59.49,0:12:01.90,Dialogue,,0,0,0,,Next, you set the video timer...
+Dialogue: 0,0:12:02.82,0:12:05.37,Dialogue,,0,0,0,,Locked the door from outside...
+Dialogue: 0,0:12:06.08,0:12:11.29,Dialogue,,0,0,0,,And waited for your friends to arrive\Nat the apartment building at 5:00.
+Dialogue: 0,0:12:12.54,0:12:15.38,Dialogue,,0,0,0,,After you arrived home at 7:00...
+Dialogue: 0,0:12:15.92,0:12:18.92,Dialogue,,0,0,0,,You took the newspaper from the door\Npostbox and put it by the table.
+Dialogue: 0,0:12:19.46,0:12:22.55,Dialogue,,0,0,0,,That way, after you called the police...
+Dialogue: 0,0:12:24.55,0:12:27.10,Dialogue,,0,0,0,,You would have a perfect alibi.
+Dialogue: 0,0:12:27.93,0:12:28.85,Dialogue,,0,0,0,,I see.
+Dialogue: 0,0:12:29.31,0:12:33.69,Dialogue,,0,0,0,,When the coroner came and saw the newspaper and video...
+Dialogue: 0,0:12:34.23,0:12:39.23,Dialogue,,0,0,0,,He would be led to believe the victim had breakfast\Naround 8:00 A.M., and had been killed around that time.
+Dialogue: 0,0:12:39.57,0:12:44.24,Dialogue,,0,0,0,,But then, something that wasn't in her plan came up...
+Dialogue: 0,0:12:45.07,0:12:49.41,Dialogue,,0,0,0,,It's because her husband wasn't in\Nthe corridor where she'd left him...
+Dialogue: 0,0:12:50.41,0:12:52.83,Dialogue,,0,0,0,,He had struggled into the living room.
+Dialogue: 0,0:12:52.83,0:12:53.46,Dialogue,,0,0,0,,Isn't that it?
+Dialogue: 0,0:12:54.29,0:12:54.71,Dialogue,,0,0,0,,Yeah.
+Dialogue: 0,0:12:55.37,0:12:59.04,Dialogue,,0,0,0,,And, still in shock from seeing this...
+Dialogue: 0,0:12:59.63,0:13:01.30,Dialogue,,0,0,0,,The phone rang.
+Dialogue: 0,0:13:02.17,0:13:04.55,Dialogue,,0,0,0,,Could the caller then have been me?
+Dialogue: 0,0:13:04.72,0:13:05.18,Dialogue,,0,0,0,,Right.
+Dialogue: 0,0:13:05.72,0:13:09.56,Dialogue,,0,0,0,,It was Yoshikawa{\rHonorifics - Dialogue}-san{\r}'s message saying, "I'm coming up now."
+Dialogue: 0,0:13:10.31,0:13:13.39,Dialogue,,0,0,0,,Hearing this message, she realized immediately...
+Dialogue: 0,0:13:14.60,0:13:20.69,Dialogue,,0,0,0,,That it would be far better for her if someone\Nelse found the body and then called the police.
+Dialogue: 0,0:13:21.86,0:13:29.99,Dialogue,,0,0,0,,It was then that she decided to leave\Nand pretend to come back shortly after.
+Dialogue: 0,0:13:30.78,0:13:33.00,Dialogue,,0,0,0,,But then, where was she before?
+Dialogue: 0,0:13:33.54,0:13:40.04,Dialogue,,0,0,0,,She was likely waiting behind the main door on the stairs...
+Dialogue: 0,0:13:40.04,0:13:41.67,Dialogue,,0,0,0,,Until Yoshikawa{\rHonorifics - Dialogue}-san{\r} came.
+Dialogue: 0,0:13:42.17,0:13:47.09,Dialogue,,0,0,0,,But, we showed up before Yoshikawa{\rHonorifics - Dialogue}-san{\r} did, right?
+Dialogue: 0,0:13:47.63,0:13:49.01,Dialogue,,0,0,0,,But wait, Detective...
+Dialogue: 0,0:13:49.47,0:13:51.14,Dialogue,,0,0,0,,What's the deal with that photograph?
+Dialogue: 0,0:13:51.85,0:13:54.93,Dialogue,,0,0,0,,Why was he holding a photograph of that woman?
+Dialogue: 0,0:13:55.52,0:14:01.15,Dialogue,,0,0,0,,That's nothing more than camouflage used to cover up.
+Dialogue: 0,0:14:02.07,0:14:03.36,Dialogue,,0,0,0,,Camouflage?
+Dialogue: 0,0:14:03.90,0:14:07.03,Dialogue,,0,0,0,,Please take a look at the victim's left hand.
+Dialogue: 0,0:14:07.74,0:14:10.24,Dialogue,,0,0,0,,Even though there's blood on his palm...
+Dialogue: 0,0:14:10.24,0:14:13.12,Dialogue,,0,0,0,,There's none on the bandage.
+Dialogue: 0,0:14:16.50,0:14:17.66,Dialogue,,0,0,0,,I-It's true!
+Dialogue: 0,0:14:18.21,0:14:20.50,Dialogue,,0,0,0,,Now, look at his right hand.
+Dialogue: 0,0:14:23.59,0:14:24.17,Dialogue,,0,0,0,,This is...
+Dialogue: 0,0:14:25.21,0:14:26.97,Dialogue,,0,0,0,,Could it be that this is...
+Dialogue: 0,0:14:27.38,0:14:28.18,Dialogue,,0,0,0,,Right.
+Dialogue: 0,0:14:28.88,0:14:34.43,Dialogue,,0,0,0,,Before she found him in the living\Nroom, he was clenching it tightly...
+Dialogue: 0,0:14:34.81,0:14:38.14,Dialogue,,0,0,0,,The proof of their marriage: his wedding ring.
+Dialogue: 0,0:14:39.19,0:14:46.49,Dialogue,,0,0,0,,He always wore the ring on his left\Nhand's fourth finger, but the wife...
+Dialogue: 0,0:14:48.03,0:14:55.33,Dialogue,,0,0,0,,She noticed he wasn't wearing it but holding\Nit in his right hand, so she removed it.
+Dialogue: 0,0:14:56.45,0:15:01.17,Dialogue,,0,0,0,,However, it's unnatural for a hand to\Nbe clenched so tightly around nothing.
+Dialogue: 0,0:15:01.88,0:15:08.76,Dialogue,,0,0,0,,That's when she decided to put the picture of\NIkenami{\rHonorifics - Dialogue}-san{\r} from the nearby book in his hand.
+Dialogue: 0,0:15:10.97,0:15:12.22,Dialogue,,0,0,0,,I see.
+Dialogue: 0,0:15:12.22,0:15:16.47,Dialogue,,0,0,0,,It's to ensure the evidence leads to anyone except her, right?
+Dialogue: 0,0:15:16.93,0:15:17.43,Dialogue,,0,0,0,,Yeah.
+Dialogue: 0,0:15:17.85,0:15:25.90,Dialogue,,0,0,0,,Then, she noticed the traces of a ring being on his ring finger...
+Dialogue: 0,0:15:26.94,0:15:31.11,Dialogue,,0,0,0,,Which is why she covered it with a bandage.
+Dialogue: 0,0:15:32.82,0:15:37.49,Dialogue,,0,0,0,,Well, it's less obvious if the other\Nfingers have bandages on them.
+Dialogue: 0,0:15:38.54,0:15:40.12,Dialogue,,0,0,0,,Detective Yokomizo, it's here!
+Dialogue: 0,0:15:40.12,0:15:42.17,Dialogue,,0,0,0,,There are traces of a ring being under the bandage!
+Dialogue: 0,0:15:43.33,0:15:44.59,Dialogue,,0,0,0,,Take a photograph now!
+Dialogue: 0,0:15:45.00,0:15:45.67,Dialogue,,0,0,0,,All right!
+Dialogue: 0,0:15:45.67,0:15:46.63,Dialogue,,0,0,0,,Next up is the ring!
+Dialogue: 0,0:15:46.88,0:15:48.84,Dialogue,,0,0,0,,Search everywhere in here!
+Dialogue: 0,0:15:48.92,0:15:51.22,Dialogue,,0,0,0,,No, that's not necessary...
+Dialogue: 0,0:15:52.89,0:15:54.55,Dialogue,,0,0,0,,Because his wife...
+Dialogue: 0,0:15:54.55,0:15:56.89,Dialogue,,0,0,0,,Likely still has it in her hand.
+Dialogue: 0,0:15:58.64,0:16:02.35,Dialogue,,0,0,0,,Even if you wiped the blood off of the\Nring, there's still chemical evidence.
+Dialogue: 0,0:16:03.10,0:16:06.86,Dialogue,,0,0,0,,Since she was afraid the police would\Nfind it, she couldn't hide it in the room.
+Dialogue: 0,0:16:08.03,0:16:09.86,Dialogue,,0,0,0,,Of course, she couldn't leave it on the rear stairs.
+Dialogue: 0,0:16:10.69,0:16:15.62,Dialogue,,0,0,0,,The best plan is to take it as far away\Nas possible once the police have left.
+Dialogue: 0,0:16:16.99,0:16:20.29,Dialogue,,0,0,0,,That's why I believe she still has it on her.
+Dialogue: 0,0:16:20.62,0:16:23.54,Dialogue,,0,0,0,,Her husband held it tightly as he slowly faded away...
+Dialogue: 0,0:16:24.04,0:16:26.84,Dialogue,,0,0,0,,His dying message that proved his wife killed him.
+Dialogue: 0,0:16:37.85,0:16:39.85,Dialogue,,0,0,0,,I guess good endings really don't exist for bad people.
+Dialogue: 0,0:16:41.81,0:16:45.56,Dialogue,,0,0,0,,What he and Yoshikawa{\rHonorifics - Dialogue}-san{\r} did going unknown...
+Dialogue: 0,0:16:46.73,0:16:48.19,Dialogue,,0,0,0,,That's not fair.
+Dialogue: 0,0:16:49.48,0:16:50.94,Dialogue,,0,0,0,,Gambling on mah-jong!
+Dialogue: 0,0:16:51.44,0:16:54.91,Dialogue,,0,0,0,,He was gambling day and night on mah-jong!
+Dialogue: 0,0:16:55.36,0:16:58.28,Dialogue,,0,0,0,,The more he gambled, the more he got into debt!
+Dialogue: 0,0:16:59.12,0:17:03.71,Dialogue,,0,0,0,,He sold the computer, my jewelry, the car,\Nthe LD player, the speaker system...
+Dialogue: 0,0:17:04.25,0:17:05.67,Dialogue,,0,0,0,,All until we had nothing left.
+Dialogue: 0,0:17:06.46,0:17:08.63,Dialogue,,0,0,0,,I hate that damn game!
+Dialogue: 0,0:17:09.88,0:17:11.05,Dialogue,,0,0,0,,Then, my husband said...
+Dialogue: 0,0:17:11.76,0:17:14.38,Dialogue,,0,0,0,,My golf clubs were next.
+Dialogue: 0,0:17:14.97,0:17:17.97,Dialogue,,0,0,0,,He said my father's dowry was after that...
+Dialogue: 0,0:17:17.97,0:17:20.26,Dialogue,,0,0,0,,My husband left me with no choice!
+Dialogue: 0,0:17:20.72,0:17:22.89,Dialogue,,0,0,0,,At any rate, we'll need you to come to the station.
+Dialogue: 0,0:17:25.85,0:17:27.35,Dialogue,,0,0,0,,Just let me get changed.
+Dialogue: 0,0:17:33.24,0:17:33.78,Dialogue,,0,0,0,,Dowry...
+Dialogue: 0,0:17:35.15,0:17:35.78,Dialogue,,0,0,0,,Katana!
+Dialogue: 0,0:17:36.32,0:17:37.28,Dialogue,,0,0,0,,C-Could she...
+Dialogue: 0,0:17:41.87,0:17:42.79,Dialogue,,0,0,0,,Stay away!
+Dialogue: 0,0:17:45.46,0:17:47.21,Dialogue,,0,0,0,,It was all the only choice I had!
+Dialogue: 0,0:17:47.75,0:17:50.13,Dialogue,,0,0,0,,That was the only way to stop him!
+Dialogue: 0,0:17:50.13,0:17:51.25,Dialogue,,0,0,0,,Miss, please calm down!
+Dialogue: 0,0:17:52.30,0:17:53.96,Dialogue,,0,0,0,,There's nothing left...
+Dialogue: 0,0:17:53.96,0:17:56.43,Dialogue,,0,0,0,,I killed someone...
+Dialogue: 0,0:17:56.43,0:17:57.13,Dialogue,,0,0,0,,Hey, Miss...
+Dialogue: 0,0:17:57.59,0:17:58.55,Dialogue,,0,0,0,,Allow me.
+Dialogue: 0,0:18:09.10,0:18:10.02,Dialogue,,0,0,0,,What do you want!?
+Dialogue: 0,0:18:10.36,0:18:10.86,Dialogue,,0,0,0,,Stay away!
+Dialogue: 0,0:18:13.98,0:18:15.53,Dialogue,,0,0,0,,Didn't I just tell you to stay away!?
+Dialogue: 0,0:18:22.16,0:18:23.99,Dialogue,,0,0,0,,Did you want to take another life?
+Dialogue: 0,0:18:27.25,0:18:28.79,Dialogue,,0,0,0,,After already killing your husband...
+Dialogue: 0,0:18:29.58,0:18:31.84,Dialogue,,0,0,0,,Did you want to kill again?
+Dialogue: 0,0:18:32.75,0:18:33.71,Dialogue,,0,0,0,,Another life?
+Dialogue: 0,0:18:34.67,0:18:36.42,Dialogue,,0,0,0,,I just wanted to take my own...
+Dialogue: 0,0:18:36.47,0:18:37.01,Dialogue,,0,0,0,,Fool!
+Dialogue: 0,0:18:37.34,0:18:39.22,Dialogue,,0,0,0,,Life is the most precious of all things.
+Dialogue: 0,0:18:39.55,0:18:41.35,Dialogue,,0,0,0,,How could you give in so easily?
+Dialogue: 0,0:18:41.80,0:18:44.81,Dialogue,,0,0,0,,Such behavior makes you no different\Nthan cold-blooded murderers.
+Dialogue: 0,0:18:46.85,0:18:48.69,Dialogue,,0,0,0,,Learn to appreciate yourself.
+Dialogue: 0,0:18:49.85,0:18:50.52,Dialogue,,0,0,0,,Remember that.
+Dialogue: 0,0:18:54.57,0:18:55.57,Dialogue,,0,0,0,,Here you go...
+Dialogue: 0,0:18:56.07,0:18:56.90,Dialogue,,0,0,0,,Detective.
+Dialogue: 0,0:18:58.32,0:18:59.40,Dialogue,,0,0,0,,Yes...
+Dialogue: 0,0:19:00.61,0:19:02.57,Dialogue,,0,0,0,,One last thing, Ikenami{\rHonorifics - Dialogue}-san{\r}.
+Dialogue: 0,0:19:03.78,0:19:06.12,Dialogue,,0,0,0,,Would you mind revealing them to me now?
+Dialogue: 0,0:19:07.04,0:19:09.87,Dialogue,,0,0,0,,The meanings behind those four lies.
+Dialogue: 0,0:19:11.21,0:19:16.63,Dialogue,,0,0,0,,You claimed you were allergic to dust, but enjoyed knitting.
+Dialogue: 0,0:19:17.46,0:19:22.51,Dialogue,,0,0,0,,You said you didn't like cooking, but you\Nrecognized the type of fish on sight.
+Dialogue: 0,0:19:23.18,0:19:24.81,Dialogue,,0,0,0,,You're also married.
+Dialogue: 0,0:19:25.51,0:19:29.35,Dialogue,,0,0,0,,You have a bandage on your left hand's fourth finger.
+Dialogue: 0,0:19:30.56,0:19:31.94,Dialogue,,0,0,0,,And "Reiko"...
+Dialogue: 0,0:19:32.73,0:19:37.03,Dialogue,,0,0,0,,There's no such character in that ninja book.
+Dialogue: 0,0:19:38.15,0:19:40.82,Dialogue,,0,0,0,,You just said it casually at the coffee shop.
+Dialogue: 0,0:19:41.66,0:19:44.20,Dialogue,,0,0,0,,What was "Reiko" really?
+Dialogue: 0,0:19:45.53,0:19:47.62,Dialogue,,0,0,0,,"Reiko" was actually "Reikoo."
+Dialogue: 0,0:19:49.16,0:19:52.12,Dialogue,,0,0,0,,You were probably going to ask for iced coffee...
+Dialogue: 0,0:19:52.79,0:19:57.84,Dialogue,,0,0,0,,But, you stopped abruptly when you realized asking for iced\Ncoffee by saying "reikoo" would reveal you were from Osaka.
+Dialogue: 0,0:19:58.76,0:20:02.68,Dialogue,,0,0,0,,Well, that's something only old men and women say anymore.
+Dialogue: 0,0:20:04.51,0:20:04.97,Dialogue,,0,0,0,,Isn't that right...
+Dialogue: 0,0:20:05.76,0:20:06.64,Dialogue,,0,0,0,,Old lady?
+Dialogue: 0,0:20:07.43,0:20:09.31,Dialogue,,0,0,0,,Hattori{\rHonorifics - Dialogue}-kun{\r} and Kazuha{\rHonorifics - Dialogue}-chan{\r}!?
+Dialogue: 0,0:20:09.47,0:20:10.81,Dialogue,,0,0,0,,No way...
+Dialogue: 0,0:20:12.35,0:20:15.06,Dialogue,,0,0,0,,Hey, old lady, isn't it time to go?
+Dialogue: 0,0:20:15.06,0:20:16.02,Dialogue,,0,0,0,,Get back to Osaka.
+Dialogue: 0,0:20:17.44,0:20:18.07,Dialogue,,0,0,0,,Hey!
+Dialogue: 0,0:20:18.28,0:20:21.24,Dialogue,,0,0,0,,How could you be so rude and call Shizuka{\rHonorifics - Dialogue}-san{\r} an "old lady"!?
+Dialogue: 0,0:20:21.95,0:20:23.82,Dialogue,,0,0,0,,I really doubt she'd mind...
+Dialogue: 0,0:20:23.82,0:20:25.32,Dialogue,,0,0,0,,Since she's my mom.
+Dialogue: 0,0:20:31.71,0:20:33.25,Dialogue,,0,0,0,,You must be lying, since...
+Dialogue: 0,0:20:33.46,0:20:35.00,Dialogue,,0,0,0,,You have different skin tones!
+Dialogue: 0,0:20:36.29,0:20:38.30,Dialogue,,0,0,0,,It's not like that!
+Dialogue: 0,0:20:38.30,0:20:40.38,Dialogue,,0,0,0,,I inherited my dark skin from my grandfather!
+Dialogue: 0,0:20:40.38,0:20:42.51,Dialogue,,0,0,0,,What's with this?
+Dialogue: 0,0:22:09.59,0:22:10.76,Dialogue,,0,0,0,,It was a test?
+Dialogue: 0,0:22:11.14,0:22:12.06,Dialogue,,0,0,0,,For me?
+Dialogue: 0,0:22:12.43,0:22:14.10,Dialogue,,0,0,0,,Yeah, that's right.
+Dialogue: 0,0:22:14.43,0:22:19.02,Dialogue,,0,0,0,,Heiji got hurt the last time he was with you.
+Dialogue: 0,0:22:19.31,0:22:25.65,Dialogue,,0,0,0,,So I thought maybe your detective skills weren't quite\Ngood enough, since you were letting people get injured.
+Dialogue: 0,0:22:28.41,0:22:32.12,Dialogue,,0,0,0,,And the last time you were in Osaka,\Nyou didn't visit or stop to apologize.
+Dialogue: 0,0:22:32.91,0:22:37.96,Dialogue,,0,0,0,,I was beginning to worry that Heiji was\Nfollowing someone with no responsibility.
+Dialogue: 0,0:22:38.25,0:22:43.00,Dialogue,,0,0,0,,So, that time you came and visited the hospital...
+Dialogue: 0,0:22:43.55,0:22:48.17,Dialogue,,0,0,0,,I wanted to see you at least one time, so I guess it's fine, but...
+Dialogue: 0,0:22:48.59,0:22:50.89,Dialogue,,0,0,0,,I guess he really has a reason to respect you.
+Dialogue: 0,0:22:51.26,0:22:56.52,Dialogue,,0,0,0,,It's because you, Mouri{\rHonorifics - Dialogue}-san{\r}, are someone with real intelligence.
+Dialogue: 0,0:22:56.81,0:22:58.56,Dialogue,,0,0,0,,T-Thanks a lot...
+Dialogue: 0,0:22:58.56,0:23:01.81,Dialogue,,0,0,0,,You were able to find Shirou{\rHonorifics - Dialogue}-san{\r} by phone...
+Dialogue: 0,0:23:02.23,0:23:03.77,Dialogue,,0,0,0,,Notice I was lying...
+Dialogue: 0,0:23:04.27,0:23:06.11,Dialogue,,0,0,0,,And all the while solve a murder case.
+Dialogue: 0,0:23:06.57,0:23:10.07,Dialogue,,0,0,0,,It was all solved so swiftly!
+Dialogue: 0,0:23:10.32,0:23:13.58,Dialogue,,0,0,0,,I regret what's happened to Shirou{\rHonorifics - Dialogue}-san{\r}, but...
+Dialogue: 0,0:23:13.58,0:23:16.54,Dialogue,,0,0,0,,I did manage to recover the photograph.
+Dialogue: 0,0:23:17.12,0:23:18.75,Dialogue,,0,0,0,,Another lie...
+Dialogue: 0,0:23:19.08,0:23:24.84,Dialogue,,0,0,0,,You said you got bullied by the first year champion which\Nleft you crying and didn't care if the photograph was lost.
+Dialogue: 0,0:23:25.05,0:23:28.72,Dialogue,,0,0,0,,I don't have to worry at all now about leaving\NHeiji and Kazuha{\rHonorifics - Dialogue}-chan{\r} with you now!
+Dialogue: 0,0:23:29.55,0:23:30.26,Dialogue,,0,0,0,,With me?
+Dialogue: 0,0:23:31.18,0:23:34.55,Dialogue,,0,0,0,,That's right, why do you have so much luggage?
+Dialogue: 0,0:23:34.85,0:23:35.51,Dialogue,,0,0,0,,What?
+Dialogue: 0,0:23:35.51,0:23:37.18,Dialogue,,0,0,0,,That kid didn't tell you?
+Dialogue: 0,0:23:40.94,0:23:42.90,Dialogue,,0,0,0,,He was serious on the phone?
