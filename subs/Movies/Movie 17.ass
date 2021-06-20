@@ -1,0 +1,2203 @@
+[Script Info]
+Title: Detective Conan - Movie 17
+TL Source: M-L
+ScriptType: v4.00+
+WrapStyle: 3
+PlayResX: 1920
+PlayResY: 1080
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Dialogue,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00401311,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Dialogue Top,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00401311,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,8,30,30,55,1
+Style: Signs,FrancophilSans,74,&H14FFFFFF,&H00FFFFFF,&H46101010,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,8,30,30,55,1
+Style: Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,0,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Radio,FrancophilSans,74,&H00BEE1FF,&H00FFFFFF,&H000B2A42,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Narration,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00BF6F00,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Narration Off,FrancophilSans,74,&H6E8C6F00,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,0,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Flashback,FrancophilSans,74,&H00CDFAFF,&H00FFFFFF,&H00373737,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Flashback Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00CCFFFF,&HC0313134,-1,0,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Honorifics - Dialogue,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00401311,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Signs,FrancophilSans,74,&H14FFFFFF,&H00FFFFFF,&H46101010,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,-1,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Honorifics - Radio,FrancophilSans,74,&H00BEE1FF,&H00FFFFFF,&H000B2A42,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Narration,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00BF6F00,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Narration Off,FrancophilSans,74,&H6E8C6F00,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,-1,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Honorifics - Flashback,FrancophilSans,74,&H00CDFAFF,&H00FFFFFF,&H00373737,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Flashback Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00CCFFFF,&HC0313134,-1,-1,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Masks,FrancophilSans,74,&H00000000,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,2,0,0,0,1
+Style: Title,Conan Episode Title,74,&H00E1E4E3,&H000000FF,&HC8DBDAE1,&HC0000000,-1,0,0,0,100,100,0,0,1,1,0,5,0,0,0,1
+Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-1,0,0,0,100,100,0,0,1,0,0,2,0,0,65,1
+Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
+Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
+Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:41.44,0:00:43.81,Dialogue,,0,0,0,,It can't be! That's a...
+Dialogue: 0,0:00:45.78,0:00:46.85,Dialogue,,0,0,0,,This is serious!
+Dialogue: 0,0:00:46.85,0:00:50.83,Dialogue,,0,0,0,,This is an urgent call from Kurata to the Wakasa Coast Guard!
+Dialogue: 0,0:00:50.83,0:00:55.34,Dialogue,,0,0,0,,While on patrol, I found a boat containing explosives rigged to blow it up by the rockface near the fourth district!
+Dialogue: 0,0:00:58.31,0:01:00.24,Radio,,0,0,0,,{\be10}And now for the news.
+Dialogue: 0,0:01:00.24,0:01:05.42,Radio,,0,0,0,,{\be10}The suspicious boat spotted in Maizuru Bay by the Coast Guard contained data and components not found in Japan...
+Dialogue: 0,0:01:05.42,0:01:11.56,Radio,,0,0,0,,{\be10\an8}It is believed to have entered the country illegally, and will undergo further investigation.
+Dialogue: 0,0:01:05.42,0:01:07.88,Dialogue,,0,0,0,,This is Maizuru Bay, isn't it?
+Dialogue: 0,0:01:07.88,0:01:08.80,Dialogue,,0,0,0,,Yeah.
+Dialogue: 0,0:01:08.80,0:01:10.12,Dialogue,,0,0,0,,Did something happen?
+Dialogue: 0,0:01:10.12,0:01:11.56,Dialogue,,0,0,0,,What is it?
+Dialogue: 0,0:01:11.56,0:01:14.75,Dialogue,,0,0,0,,A suspicious boat was spotted on the coast this morning.
+Dialogue: 0,0:01:15.36,0:01:16.84,Dialogue,,0,0,0,,What's a suspicious boat?
+Dialogue: 0,0:01:16.84,0:01:21.79,Dialogue,,0,0,0,,Hey, brats! Move up, don't leave a gap in the line!
+Dialogue: 0,0:01:21.79,0:01:23.02,Dialogue,,0,0,0,,Right...
+Dialogue: 0,0:01:23.02,0:01:24.51,Dialogue,,0,0,0,,Come on, Dad!
+Dialogue: 0,0:01:24.51,0:01:27.65,Dialogue,,0,0,0,,You're the adult here, you're supposed to be watching the kids!
+Dialogue: 0,0:01:27.96,0:01:29.66,Dialogue,,0,0,0,,Oh, shut up.
+Dialogue: 0,0:01:29.66,0:01:32.53,Dialogue,,0,0,0,,I'm only here because you said somebody needed to come with you.
+Dialogue: 0,0:01:32.53,0:01:35.99,Dialogue,,0,0,0,,But it's so rare to get a chance to go aboard an Aegis Destroyer!
+Dialogue: 0,0:01:35.99,0:01:39.10,Dialogue,,0,0,0,,Getting tickets for one is ten times harder than for other ships!
+Dialogue: 0,0:01:39.10,0:01:42.24,Dialogue,,0,0,0,,If only you used that luck with the horses.
+Dialogue: 0,0:01:42.24,0:01:42.70,Dialogue,,0,0,0,,Geez!
+Dialogue: 0,0:01:42.70,0:01:46.16,Thoughts,,0,0,0,,{\be10}Geez, the old man's rude wherever he goes...
+Dialogue: 0,0:01:46.16,0:01:48.94,Dialogue,,0,0,0,,What is an Aegis Destroyer anyway?
+Dialogue: 0,0:01:49.82,0:01:50.95,Dialogue,,0,0,0,,Umm...
+Dialogue: 0,0:01:50.95,0:01:57.13,Dialogue,,0,0,0,,Aegis Destroyers are warships fitted with a weapons system developed by the US Navy!
+Dialogue: 0,0:01:57.13,0:01:59.15,Dialogue,,0,0,0,,They're really strong warships!
+Dialogue: 0,0:01:59.15,0:01:59.72,Dialogue,,0,0,0,,Yeah!
+Dialogue: 0,0:01:59.72,0:02:02.47,Dialogue,,0,0,0,,That's a pretty simple description.
+Dialogue: 0,0:02:02.47,0:02:04.31,Dialogue,,0,0,0,,Are you even interested in warships, Ayumi{\rHonorifics - Dialogue}-chan{\r}?
+Dialogue: 0,0:02:04.31,0:02:05.63,Dialogue,,0,0,0,,No.
+Dialogue: 0,0:02:05.63,0:02:08.72,Dialogue,,0,0,0,,But I love the sea, and we {\i1}did{\i0} win the tickets.
+Dialogue: 0,0:02:08.72,0:02:10.01,Dialogue,,0,0,0,,That's right!
+Dialogue: 0,0:02:10.01,0:02:12.11,Dialogue,,0,0,0,,It's a once-in-a-lifetime experience!
+Dialogue: 0,0:02:12.11,0:02:13.66,Thoughts,,0,0,0,,{\be10}This transmission...
+Dialogue: 0,0:02:12.11,0:02:14.67,Dialogue Top,,0,0,0,,So just forget about horses for now, Dad!
+Dialogue: 0,0:02:14.67,0:02:16.50,Dialogue,,0,0,0,,Okay, okay!
+Dialogue: 0,0:02:16.50,0:02:17.57,Dialogue,,0,0,0,,Conan{\rHonorifics - Dialogue}-kun{\r}?
+Dialogue: 0,0:02:17.57,0:02:19.08,Dialogue,,0,0,0,,I gotta go to the toilet.
+Dialogue: 0,0:02:19.08,0:02:20.69,Dialogue,,0,0,0,,Well, be quick.
+Dialogue: 0,0:02:20.69,0:02:22.57,Dialogue,,0,0,0,,We'll be boarding soon.
+Dialogue: 0,0:02:22.57,0:02:23.37,Dialogue,,0,0,0,,Sure!
+Dialogue: 0,0:02:30.85,0:02:32.54,Dialogue,,0,0,0,,What's up, Doc?
+Dialogue: 0,0:02:32.54,0:02:37.26,Dialogue,,0,0,0,,Oh, I just wanted to see if your\Nnew satellite phone was working.
+Dialogue: 0,0:02:37.26,0:02:40.22,Radio,,0,0,0,,{\be10}We haven't boarded the ship yet, let alone set sail.
+Dialogue: 0,0:02:40.42,0:02:44.14,Dialogue,,0,0,0,,Huh, they must really be taking a long time.
+Dialogue: 0,0:02:44.14,0:02:48.52,Radio,,0,0,0,,{\be10}Yeah, they probably increased the security checks with the commotion about the suspicious boat today.
+Dialogue: 0,0:02:48.96,0:02:50.17,Dialogue,,0,0,0,,I see...
+Dialogue: 0,0:02:50.17,0:02:54.94,Radio,,0,0,0,,{\be10}Even though you made it just for the trip,\NI might be better off not using the satellite phone.
+Dialogue: 0,0:02:55.16,0:02:58.24,Dialogue,,0,0,0,,By the way, did that conference in Ōsaka go well?
+Dialogue: 0,0:02:58.24,0:03:01.69,Dialogue,,0,0,0,,Yeah, thanks to Ai{\rHonorifics - Dialogue}-kun{\r}'s help.
+Dialogue: 0,0:03:01.69,0:03:03.20,Dialogue,,0,0,0,,We got great ratings.
+Dialogue: 0,0:03:03.20,0:03:07.74,Dialogue,,0,0,0,,I see. Then how about we meet up after the public exercises are over?
+Dialogue: 0,0:03:07.74,0:03:09.02,Dialogue,,0,0,0,,I better get back to the line—
+Dialogue: 0,0:03:09.02,0:03:10.38,Radio,,0,0,0,,{\be10}By the way...
+Dialogue: 0,0:03:10.38,0:03:14.38,Radio,,0,0,0,,{\be10}The kids must be getting bored, waiting so long.
+Dialogue: 0,0:03:14.38,0:03:15.37,Dialogue,,0,0,0,,No, not really...
+Dialogue: 0,0:03:15.37,0:03:17.54,Radio,,0,0,0,,{\be10}All right, here's a quiz for them!
+Dialogue: 0,0:03:17.54,0:03:20.01,Dialogue,,0,0,0,,{\i1}That's{\i0} why you called me, huh?
+Dialogue: 0,0:03:20.47,0:03:24.72,Dialogue,,0,0,0,,The 'Aegis' in 'Aegis Destroyer' comes from the name of the shield to drive away evil
+Dialogue: 0,0:03:24.72,0:03:30.49,Dialogue,,0,0,0,,that Zeus gave to his daughter Athena in Greek myth, as I'm sure you know.
+Dialogue: 0,0:03:30.49,0:03:37.42,Dialogue,,0,0,0,,When Zeus fought the demonic Hydra, its sharp fangs are said to have bit him everywhere on his body.
+Dialogue: 0,0:03:37.42,0:03:40.47,Dialogue,,0,0,0,,However, there was one place he wasn't bitten.
+Dialogue: 0,0:03:40.47,0:03:42.11,Dialogue,,0,0,0,,Where do you think it was?
+Dialogue: 0,0:03:42.11,0:03:44.07,Dialogue,,0,0,0,,1. His neck.
+Dialogue: 0,0:03:44.07,0:03:46.03,Dialogue,,0,0,0,,2. His chest.
+Dialogue: 0,0:03:46.03,0:03:47.99,Dialogue,,0,0,0,,3. His stomach.
+Dialogue: 0,0:03:47.99,0:03:50.00,Dialogue,,0,0,0,,4. His back.
+Dialogue: 0,0:03:50.00,0:03:51.54,Dialogue,,0,0,0,,And that's that.
+Dialogue: 0,0:03:51.54,0:03:54.96,Dialogue,,0,0,0,,The doc really wanted me to have you answer it.
+Dialogue: 0,0:03:56.36,0:03:59.96,Dialogue,,0,0,0,,Wait, Conan{\rHonorifics - Dialogue}-kun{\r}, when did you talk to the doctor?
+Dialogue: 0,0:03:59.96,0:04:03.23,Dialogue,,0,0,0,,Huh? Oh, when I was just in the toilet.
+Dialogue: 0,0:04:03.23,0:04:05.31,Dialogue,,0,0,0,,Hey, Conan{\rHonorifics - Dialogue}-kun{\r}, I can't solve it.
+Dialogue: 0,0:04:05.31,0:04:06.29,Dialogue,,0,0,0,,Me neither!
+Dialogue: 0,0:04:06.29,0:04:07.31,Dialogue,,0,0,0,,What's the answer?
+Dialogue: 0,0:04:07.31,0:04:09.55,Dialogue,,0,0,0,,The answer is number four —\hhis back.
+Dialogue: 0,0:04:09.55,0:04:10.59,Dialogue,,0,0,0,,How come?
+Dialogue: 0,0:04:10.59,0:04:12.92,Dialogue,,0,0,0,,It's the 'god's back', so it 'wasn't bitten'.
+Dialogue: 0,0:04:10.59,0:04:12.92,Thoughts,,0,0,0,,{\be10}kami nokoshi
+Dialogue: 0,0:04:10.59,0:04:12.92,Thoughts,,0,0,0,,{\be10}kami no koshi
+Dialogue: 0,0:04:13.60,0:04:15.74,Dialogue,,0,0,0,,Just another pun, huh?!
+Dialogue: 0,0:04:15.74,0:04:19.29,Dialogue,,0,0,0,,Would the next group please get their winning postcard ready and come forward.
+Dialogue: 0,0:04:19.29,0:04:21.26,Dialogue,,0,0,0,,Oh, our turn's finally here!
+Dialogue: 0,0:04:21.26,0:04:22.49,Dialogue,,0,0,0,,Yay!
+Dialogue: 0,0:04:23.06,0:04:25.01,Dialogue,,0,0,0,,I'm tired of waiting!
+Dialogue: 0,0:04:25.01,0:04:27.37,Dialogue,,0,0,0,,Hey! Don't run!
+Dialogue: 0,0:04:28.12,0:04:34.59,Dialogue,,0,0,0,,Please open any hand luggage you may have so it can be checked, and place it in front of one of the inspectors.
+Dialogue: 0,0:04:34.59,0:04:40.38,Dialogue,,0,0,0,,Also, mobile phones are not allowed aboard, so we will hold onto them for you here.
+Dialogue: 0,0:04:40.38,0:04:44.34,Signs,,0,0,0,,Aegis Destroyer Hotaka
+Dialogue: 0,0:05:17.12,0:05:22.34,Dialogue,,0,0,0,,Thank you for joining us on these public exercises aboard an Aegis Destroyer.
+Dialogue: 0,0:05:23.55,0:05:27.51,Signs,,0,0,0,,Chief Navigator of the Hotaka
+Dialogue: 0,0:05:23.55,0:05:27.51,Signs,,0,0,0,,Lt. Commander Fumitada Inoue
+Dialogue: 0,0:05:22.64,0:05:27.22,Dialogue Top,,0,0,0,,My name is Inoue, and I'll be your guide today.
+Dialogue: 0,0:05:27.22,0:05:28.68,Dialogue,,0,0,0,,It's a pleasure to have you here.
+Dialogue: 0,0:05:29.99,0:05:34.31,Dialogue,,0,0,0,,I'll start by explaining the\Ndetails for today's public exercises.
+Dialogue: 0,0:05:34.31,0:05:37.80,Dialogue,,0,0,0,,First, please look at the map on the front screen.
+Dialogue: 0,0:05:37.81,0:05:42.56,Dialogue,,0,0,0,,You're free to look around the sections marked in red.
+Dialogue: 0,0:05:42.56,0:05:45.78,Dialogue,,0,0,0,,However, please avoid going into\Nany other corridors and rooms.
+Dialogue: 0,0:05:45.78,0:05:49.62,Dialogue,,0,0,0,,You'll find further details on the pamphlets in front of you.
+Dialogue: 0,0:05:49.62,0:05:53.50,Dialogue,,0,0,0,,Next, I'll talk about the schedule for today...
+Dialogue: 0,0:05:53.50,0:05:54.20,Dialogue,,0,0,0,,Sonoko...
+Dialogue: 0,0:05:54.20,0:05:54.66,Dialogue,,0,0,0,,Huh?
+Dialogue: 0,0:05:54.66,0:05:55.62,Dialogue,,0,0,0,,What time is it?
+Dialogue: 0,0:05:55.62,0:05:57.25,Dialogue,,0,0,0,,Let's see...
+Dialogue: 0,0:05:57.25,0:05:58.58,Dialogue,,0,0,0,,Ran{\rHonorifics - Dialogue}-neechan{\r}, where's your watch?
+Dialogue: 0,0:05:58.58,0:06:01.55,Dialogue,,0,0,0,,It broke, so I sent it to be repaired.
+Dialogue: 0,0:06:01.55,0:06:05.00,Dialogue,,0,0,0,,I'd been using my mobile phone in the meantime, but...
+Dialogue: 0,0:06:05.00,0:06:06.71,Dialogue,,0,0,0,,You can't because it was confiscated.
+Dialogue: 0,0:06:06.71,0:06:09.80,Dialogue,,0,0,0,,If you want to, you can use my watch.
+Dialogue: 0,0:06:09.80,0:06:12.67,Dialogue,,0,0,0,,Huh? But what about you, Mitsuhiko{\rHonorifics - Dialogue}-kun{\r}?
+Dialogue: 0,0:06:12.67,0:06:15.77,Dialogue,,0,0,0,,My digital camera has a clock, so I'll be fine.
+Dialogue: 0,0:06:18.47,0:06:19.63,Dialogue,,0,0,0,,You heard him.
+Dialogue: 0,0:06:19.63,0:06:20.59,Dialogue,,0,0,0,,Why say no?
+Dialogue: 0,0:06:20.59,0:06:21.23,Dialogue,,0,0,0,,Yeah.
+Dialogue: 0,0:06:21.23,0:06:23.60,Dialogue,,0,0,0,,Thank you, then, Mitsuhiko{\rHonorifics - Dialogue}-kun{\r}.
+Dialogue: 0,0:06:23.60,0:06:24.21,Dialogue,,0,0,0,,Sure.
+Dialogue: 0,0:06:24.21,0:06:27.78,Dialogue,,0,0,0,,It's completely waterproof, so you don't have to worry about the sea breeze.
+Dialogue: 0,0:06:27.78,0:06:31.01,Dialogue,,0,0,0,,And it's a radio clock, so it's very accurate.
+Dialogue: 0,0:06:31.01,0:06:32.49,Dialogue,,0,0,0,,What's a radio clock?
+Dialogue: 0,0:06:32.49,0:06:34.12,Dialogue,,0,0,0,,You don't know?
+Dialogue: 0,0:06:34.12,0:06:38.59,Dialogue,,0,0,0,,It's a clock that sets itself several times a day according to radio signals transmitting the correct time.
+Dialogue: 0,0:06:38.59,0:06:39.58,Dialogue,,0,0,0,,Wow...
+Dialogue: 0,0:06:39.58,0:06:43.04,Dialogue,,0,0,0,,Incidentally, that one sets itself at 5:00 AM and 5:00 PM.
+Dialogue: 0,0:06:43.04,0:06:45.37,Dialogue,,0,0,0,,Where do the signals come from?
+Dialogue: 0,0:06:45.37,0:06:46.59,Dialogue,,0,0,0,,Uh, well...
+Dialogue: 0,0:06:46.59,0:06:49.58,Dialogue,,0,0,0,,Around here, it'd probably be the transmitter in Fukushima.
+Dialogue: 0,0:06:49.58,0:06:50.59,Dialogue,,0,0,0,,Really?
+Dialogue: 0,0:06:50.59,0:06:52.84,Dialogue,,0,0,0,,You sure know a lot, don't you, Conan{\rHonorifics - Dialogue}-kun{\r}?
+Dialogue: 0,0:06:52.84,0:06:55.79,Dialogue,,0,0,0,,O-Oh, I heard about it from Shin'ichi{\rHonorifics - Dialogue}-niichan{\r}...
+Dialogue: 0,0:06:55.79,0:06:57.39,Dialogue,,0,0,0,,Huh? What's that?!
+Dialogue: 0,0:06:57.39,0:06:58.43,Dialogue,,0,0,0,,What?
+Dialogue: 0,0:06:58.43,0:06:59.73,Dialogue,,0,0,0,,What's that creepy sound?
+Dialogue: 0,0:07:00.52,0:07:02.08,Dialogue,,0,0,0,,What? What happened?
+Dialogue: 0,0:07:02.08,0:07:03.35,Dialogue,,0,0,0,,Please calm down.
+Dialogue: 0,0:07:03.35,0:07:04.52,Dialogue,,0,0,0,,Everything's fine.
+Dialogue: 0,0:07:04.52,0:07:04.86,Dialogue,,0,0,0,,Huh?
+Dialogue: 0,0:07:04.86,0:07:10.70,Dialogue,,0,0,0,,The sound you just heard was made by our pumping system letting in a large amount of sea water.
+Dialogue: 0,0:07:10.70,0:07:13.20,Dialogue,,0,0,0,,Hey, Dad!
+Dialogue: 0,0:07:10.70,0:07:13.20,Dialogue Top,,0,0,0,,Please calm down and sit down.
+Dialogue: 0,0:07:13.20,0:07:14.28,Dialogue,,0,0,0,,Oh, and...
+Dialogue: 0,0:07:14.28,0:07:18.79,Dialogue,,0,0,0,,It seems the pump valve in your\Nmouth came loose, so be careful.
+Dialogue: 0,0:07:20.18,0:07:22.12,Dialogue,,0,0,0,,Oh, sorry, sorry.
+Dialogue: 0,0:07:22.12,0:07:22.99,Dialogue,,0,0,0,,Dad!
+Dialogue: 0,0:07:22.99,0:07:24.85,Dialogue,,0,0,0,,Sit down, I'm begging you!
+Dialogue: 0,0:07:26.71,0:07:27.85,Thoughts,,0,0,0,,{\be10}Geez...
+Dialogue: 0,0:07:27.85,0:07:34.31,Dialogue Top,,0,0,0,,Since the pumping system started up, we may be about to leave Maizuru Harbour.
+Dialogue: 0,0:07:28.44,0:07:32.13,Thoughts,,0,0,0,,{\be10}But would a pumping system really make a sound like that?
+Dialogue: 0,0:07:59.11,0:08:02.21,Narration Off,,0,0,0,,{\be10}I'm Shin'ichi Kudō, a high school detective.
+Dialogue: 0,0:08:02.21,0:08:05.76,Narration Off,,0,0,0,,{\be10}While at an amusement park with my childhood friend and classmate, Ran Mouri,
+Dialogue: 0,0:08:05.76,0:08:10.21,Narration Off,,0,0,0,,{\be10}I witnessed a suspicious deal involving a man in black.
+Dialogue: 0,0:08:10.21,0:08:15.51,Narration Off,,0,0,0,,{\be10}Since I was so focused on watching the deal, I didn't realise his partner was sneaking up from behind me.
+Dialogue: 0,0:08:18.35,0:08:23.48,Narration Off,,0,0,0,,{\be10}He forced me to consume poison, and when I came to...
+Dialogue: 0,0:08:23.48,0:08:25.95,Narration Off,,0,0,0,,{\be10}...my body had shrunk!
+Dialogue: 0,0:08:26.48,0:08:29.36,Narration Off,,0,0,0,,{\be10}If those men learnt that Shin'ichi Kudō was still alive,
+Dialogue: 0,0:08:29.36,0:08:32.74,Narration Off,,0,0,0,,{\be10}they'd come back to finish me off, endangering everyone around me.
+Dialogue: 0,0:08:33.13,0:08:36.66,Narration Off,,0,0,0,,{\be10}At Dr. Agasa's suggestion, I hid my identity,
+Dialogue: 0,0:08:36.66,0:08:40.41,Narration Off,,0,0,0,,{\be10}and when Ran asked my name,\NI blurted out 'Conan Edogawa'.
+Dialogue: 0,0:08:40.99,0:08:46.03,Narration Off,,0,0,0,,{\be10}To find out more about those guys, I ended up living with Ran and her detective father.
+Dialogue: 0,0:08:48.06,0:08:50.42,Narration Off,,0,0,0,,{\be10}These are my classmates now...
+Dialogue: 0,0:08:50.42,0:08:51.67,Narration Off,,0,0,0,,{\be10}Genta.
+Dialogue: 0,0:08:51.67,0:08:52.55,Narration Off,,0,0,0,,{\be10}Mitsuhiko.
+Dialogue: 0,0:08:52.55,0:08:53.22,Narration Off,,0,0,0,,{\be10}Ayumi.
+Dialogue: 0,0:08:54.01,0:08:58.68,Narration Off,,0,0,0,,{\be10}They formed the Detective Boys, and forced me to join.
+Dialogue: 0,0:08:58.68,0:09:02.68,Narration Off,,0,0,0,,{\be10}And this old man is Kogorō Mouri.
+Dialogue: 0,0:09:09.73,0:09:11.97,Narration Off,,0,0,0,,{\be10}I don't have to explain that, right?
+Dialogue: 0,0:09:11.97,0:09:14.90,Narration Off,,0,0,0,,{\be10}These two gadgets were made by Dr. Agasa.
+Dialogue: 0,0:09:15.22,0:09:20.30,Narration Off,,0,0,0,,{\be10}He makes all sorts of unique gadgets for my vertically challenged body.
+Dialogue: 0,0:09:20.30,0:09:21.91,Narration Off,,0,0,0,,{\be10}The Instant Football Belt.
+Dialogue: 0,0:09:21.91,0:09:26.60,Narration Off,,0,0,0,,{\be10}When you press the button on the buckle, a ball pops out —\hpretty nifty.
+Dialogue: 0,0:09:27.54,0:09:32.00,Narration Off,,0,0,0,,{\be10}And the main focus this time is on this watch, and its new functions.
+Dialogue: 0,0:09:32.00,0:09:34.97,Narration Off,,0,0,0,,{\be10}It has a satellite phone and a USB flash drive built-in.
+Dialogue: 0,0:09:34.97,0:09:37.93,Narration Off,,0,0,0,,{\be10}Now that it's powered up, it's {\i1}really{\i0} nifty!
+Dialogue: 0,0:09:38.89,0:09:43.77,Narration Off,,0,0,0,,{\be10}By the way, the doc isn't the\Nonly one who knows my identity.
+Dialogue: 0,0:09:44.17,0:09:45.89,Narration Off,,0,0,0,,{\be10}Ai Haibara.
+Dialogue: 0,0:09:45.89,0:09:48.27,Narration Off,,0,0,0,,{\be10}Real name: Shiho Miyano.
+Dialogue: 0,0:09:48.27,0:09:52.21,Narration Off,,0,0,0,,{\be10}She used to be with the men in black,
+Dialogue: 0,0:09:52.21,0:09:58.18,Narration Off,,0,0,0,,{\be10}but to get away from them, she took the same drug that'd been forced on me, and ended up shrinking.
+Dialogue: 0,0:09:59.24,0:10:06.54,Narration Off,,0,0,0,,{\be10}Haibara came to live with the doc, and joined me as a first-year primary school student.
+Dialogue: 0,0:10:08.33,0:10:10.50,Dialogue,,0,0,0,,My body shrunk, but my mind didn't!
+Dialogue: 0,0:10:10.86,0:10:12.67,Dialogue,,0,0,0,,I'm still an undefeated great detective!
+Dialogue: 0,0:10:13.81,0:10:18.68,Dialogue,,0,0,0,,There's always only one truth!
+Dialogue: 0,0:10:26.75,0:10:29.02,Radio,,0,0,0,,{\be10}Prepare for anti-air combat drill!
+Dialogue: 0,0:10:30.81,0:10:32.27,Dialogue,,0,0,0,,All units in position.
+Dialogue: 0,0:10:32.27,0:10:34.40,Radio,,0,0,0,,{\be10}This ship will now enter anti-air combat.
+Dialogue: 0,0:10:34.98,0:10:37.27,Radio,,0,0,0,,{\be10}All hands, hurry to your positions!
+Dialogue: 0,0:10:37.86,0:10:41.30,Dialogue Top,,0,0,0,,If you have children with you, please come to the front.
+Dialogue: 0,0:10:41.30,0:10:45.08,Dialogue Top,,0,0,0,,There's not much space, so if you're in the front line, please stay behind this point.
+Dialogue: 0,0:10:39.78,0:10:43.45,Radio,,0,0,0,,{\be10}We will now perform a publicly observed combat drill.
+Dialogue: 0,0:10:43.45,0:10:45.08,Dialogue,,0,0,0,,Keep a close eye on the sky!
+Dialogue: 0,0:10:45.08,0:10:49.24,Dialogue,,0,0,0,,This is the heart of an Aegis Destroyer, the CIC.
+Dialogue: 0,0:10:46.20,0:10:48.21,Dialogue Top,,0,0,0,,Anti-air radar ready!
+Dialogue: 0,0:10:48.21,0:10:50.32,Dialogue Top,,0,0,0,,SPY detected a target! 40°, 70 miles.
+Dialogue: 0,0:10:50.33,0:10:51.29,Dialogue Top,,0,0,0,,Target #1 approaching!
+Dialogue: 0,0:10:51.29,0:10:54.19,Dialogue Top,,0,0,0,,35°, 66 miles.
+Dialogue: 0,0:10:52.32,0:10:54.19,Dialogue,,0,0,0,,Is it coming here?
+Dialogue: 0,0:10:54.19,0:10:55.92,Dialogue,,0,0,0,,That's just how it's set up...
+Dialogue: 0,0:10:55.92,0:10:57.08,Dialogue,,0,0,0,,I see.
+Dialogue: 0,0:10:57.08,0:10:59.43,Dialogue,,0,0,0,,Oh... Don't scare me like that.
+Dialogue: 0,0:10:59.43,0:11:02.00,Dialogue,,0,0,0,,They seem to be taking it quite lightly...
+Dialogue: 0,0:11:02.00,0:11:05.20,Dialogue Top,,0,0,0,,New target detected! 30°, 40 miles.
+Dialogue: 0,0:11:02.00,0:11:05.20,Dialogue,,0,0,0,,Yeah, they're not acting too well...
+Dialogue: 0,0:11:05.20,0:11:07.98,Dialogue Top,,0,0,0,,Designated as target #2.
+Dialogue: 0,0:11:05.20,0:11:07.98,Dialogue,,0,0,0,,Ain't that because this is the real thing?
+Dialogue: 0,0:11:07.98,0:11:11.31,Dialogue,,0,0,0,,Target #2 is heading straight for us.
+Dialogue: 0,0:11:11.31,0:11:14.16,Radio,,0,0,0,,{\be10}Target #2 is determined to be a threat.
+Dialogue: 0,0:11:14.16,0:11:15.44,Radio,,0,0,0,,{\be10}Prepare to attack immediately!
+Dialogue: 0,0:11:15.97,0:11:19.07,Radio,,0,0,0,,{\be10}Anti-air combat drill target designated by CIC.
+Dialogue: 0,0:11:19.07,0:11:20.60,Radio,,0,0,0,,{\be10}Begin attack!
+Dialogue: 0,0:11:20.60,0:11:21.91,Dialogue,,0,0,0,,Prepare the main gun!
+Dialogue: 0,0:11:22.16,0:11:25.16,Dialogue,,0,0,0,,Prepare to fire the Mark 45 Mod 4.
+Dialogue: 0,0:11:25.16,0:11:28.04,Dialogue,,0,0,0,,Remote aiming at target #2 complete.
+Dialogue: 0,0:11:28.04,0:11:30.36,Dialogue,,0,0,0,,The target has entered the firing range.
+Dialogue: 0,0:11:30.36,0:11:31.62,Dialogue,,0,0,0,,Prepare to fire!
+Dialogue: 0,0:11:31.62,0:11:33.96,Dialogue,,0,0,0,,Begin firing procedure!
+Dialogue: 0,0:11:33.96,0:11:34.71,Dialogue,,0,0,0,,Fire!
+Dialogue: 0,0:11:35.14,0:11:37.45,Dialogue,,0,0,0,,30 seconds to target.
+Dialogue: 0,0:11:38.18,0:11:40.88,Dialogue,,0,0,0,,Huh, it's just images on a screen...?
+Dialogue: 0,0:11:40.88,0:11:42.38,Dialogue,,0,0,0,,Come on, Dad...
+Dialogue: 0,0:11:42.38,0:11:44.76,Dialogue,,0,0,0,,Even just watching a screen in here is impressive...
+Dialogue: 0,0:11:45.08,0:11:50.10,Dialogue,,0,0,0,,This is an Aegis Destroyer's most confidential room —\hit's the first time civilians have been allowed to be here.
+Dialogue: 0,0:11:50.10,0:11:53.85,Dialogue,,0,0,0,,I guess it {\i1}does{\i0} give off that feel of secrecy...
+Dialogue: 0,0:11:54.55,0:11:56.82,Dialogue,,0,0,0,,Target #2 hit.
+Dialogue: 0,0:11:58.40,0:11:59.53,Dialogue,,0,0,0,,Target #2 confirmed to be hit.
+Dialogue: 0,0:11:56.82,0:11:58.40,Dialogue,,0,0,0,,It's like some sort of game!
+Dialogue: 0,0:11:59.96,0:12:02.44,Dialogue,,0,0,0,,Do you think they'll let us have a go too?
+Dialogue: 0,0:12:02.44,0:12:04.37,Dialogue,,0,0,0,,Not in a million years.
+Dialogue: 0,0:12:04.37,0:12:07.33,Dialogue Top,,0,0,0,,He's right! It may look easy, but...
+Dialogue: 0,0:12:04.84,0:12:07.33,Thoughts,,0,0,0,,{\be10}Hey, hey, not you guys too...
+Dialogue: 0,0:12:07.33,0:12:08.66,Dialogue,,0,0,0,,Ready to fire!
+Dialogue: 0,0:12:08.66,0:12:10.20,Dialogue,,0,0,0,,Fire!
+Dialogue: 0,0:12:10.20,0:12:11.36,Dialogue,,0,0,0,,Automatic mode!
+Dialogue: 0,0:12:11.36,0:12:12.90,Dialogue,,0,0,0,,Mark intercepted!
+Dialogue: 0,0:12:12.90,0:12:14.88,Dialogue,,0,0,0,,Target #1 is descending!
+Dialogue: 0,0:12:15.60,0:12:17.97,Dialogue,,0,0,0,,12 seconds to target #1.
+Dialogue: 0,0:12:19.20,0:12:21.21,Dialogue,,0,0,0,,Target #1 hit!
+Dialogue: 0,0:12:21.84,0:12:23.78,Dialogue,,0,0,0,,What happened, did it hit?
+Dialogue: 0,0:12:23.78,0:12:27.55,Dialogue,,0,0,0,,Yes, with that, all of the enemies were shot down.
+Dialogue: 0,0:12:27.55,0:12:29.79,Dialogue,,0,0,0,,Wasn't that great?
+Dialogue: 0,0:12:29.79,0:12:30.49,Dialogue,,0,0,0,,Yeah!
+Dialogue: 0,0:12:30.49,0:12:31.28,Dialogue,,0,0,0,,It's already over?
+Dialogue: 0,0:12:31.28,0:12:33.27,Dialogue,,0,0,0,,I couldn't quite tell what was going on...
+Dialogue: 0,0:12:34.46,0:12:36.95,Dialogue,,0,0,0,,That's all for—
+Dialogue: 0,0:12:35.54,0:12:37.73,Dialogue Top,,0,0,0,,There's a sonar response! Nationality unknown!
+Dialogue: 0,0:12:40.23,0:12:42.07,Dialogue,,0,0,0,,It's heading straight for us!
+Dialogue: 0,0:12:43.74,0:12:44.54,Dialogue,,0,0,0,,Direction: 5°.
+Dialogue: 0,0:12:44.54,0:12:45.84,Dialogue,,0,0,0,,Distance: 8000!
+Dialogue: 0,0:12:45.84,0:12:46.87,Dialogue,,0,0,0,,This is the CIC!
+Dialogue: 0,0:12:50.76,0:12:51.76,Dialogue,,0,0,0,,Captain...
+Dialogue: 0,0:12:53.33,0:12:54.71,Dialogue,,0,0,0,,This is your captain, Tateishi.
+Dialogue: 0,0:12:54.71,0:12:58.71,Signs,,0,0,0,,Capt. Yukio Tateishi
+Dialogue: 0,0:12:54.71,0:12:58.71,Signs,,0,0,0,,Captain of the Hotaka
+Dialogue: 0,0:12:54.71,0:12:58.04,Dialogue,,0,0,0,,Begin search with all radars.
+Dialogue: 0,0:12:58.04,0:12:59.98,Dialogue,,0,0,0,,I'll head to the CIC.
+Dialogue: 0,0:12:59.98,0:13:01.35,Dialogue,,0,0,0,,I'll come with you.
+Dialogue: 0,0:13:03.34,0:13:04.87,Dialogue,,0,0,0,,I'm going to the CIC.
+Dialogue: 0,0:13:04.87,0:13:07.43,Dialogue,,0,0,0,,I leave the vice-captain in command of the bridge.
+Dialogue: 0,0:13:10.97,0:13:11.95,Dialogue,,0,0,0,,Roger.
+Dialogue: 0,0:13:11.95,0:13:14.01,Dialogue,,0,0,0,,Be ready for any change in course or speed from the target!
+Dialogue: 0,0:13:14.01,0:13:15.92,Dialogue,,0,0,0,,Be ready for any attack from the target.
+Dialogue: 0,0:13:15.92,0:13:18.52,Dialogue,,0,0,0,,It is not an animal or a natural phenomenon!
+Dialogue: 0,0:13:18.52,0:13:20.86,Dialogue,,0,0,0,,No response to IFF signals!
+Dialogue: 0,0:13:21.86,0:13:23.94,Dialogue,,0,0,0,,It's a submerged, non-allied ship!
+Dialogue: 0,0:13:24.54,0:13:27.28,Dialogue,,0,0,0,,Start the Nixie! Stop the ship!
+Dialogue: 0,0:13:27.28,0:13:30.14,Dialogue,,0,0,0,,Full speed astern! Hard a-port!
+Dialogue: 0,0:13:30.14,0:13:31.68,Dialogue,,0,0,0,,Aim the bow towards the target.
+Dialogue: 0,0:13:31.68,0:13:32.57,Dialogue,,0,0,0,,Roger.
+Dialogue: 0,0:13:32.57,0:13:33.91,Dialogue,,0,0,0,,Full speed astern!
+Dialogue: 0,0:13:33.91,0:13:37.04,Dialogue,,0,0,0,,Hard a-port! Pivot by 90°!
+Dialogue: 0,0:13:39.81,0:13:41.73,Thoughts,,0,0,0,,{\be10}Did the ship actually stop?
+Dialogue: 0,0:13:41.73,0:13:44.35,Dialogue,,0,0,0,,Looks like the performance suddenly got a lot more realistic!
+Dialogue: 0,0:13:44.35,0:13:46.18,Dialogue,,0,0,0,,Yeah, it's really intense.
+Dialogue: 0,0:13:46.18,0:13:48.59,Dialogue,,0,0,0,,Prepare for anti-submarine combat!\NSend out a warning signal!
+Dialogue: 0,0:13:48.59,0:13:49.66,Dialogue,,0,0,0,,Roger!
+Dialogue: 0,0:13:49.66,0:13:50.49,Dialogue,,0,0,0,,Signal ready.
+Dialogue: 0,0:13:50.49,0:13:52.43,Dialogue,,0,0,0,,Warning signal fired!
+Dialogue: 0,0:13:57.77,0:13:59.80,Dialogue,,0,0,0,,Showing it on the third main monitor!
+Dialogue: 0,0:14:00.56,0:14:01.69,Dialogue,,0,0,0,,Amazing!
+Dialogue: 0,0:14:01.69,0:14:02.70,Dialogue,,0,0,0,,That was so cool!
+Dialogue: 0,0:14:02.70,0:14:03.44,Dialogue,,0,0,0,,Yeah!
+Dialogue: 0,0:14:03.44,0:14:04.72,Dialogue,,0,0,0,,Wasn't that cool?
+Dialogue: 0,0:14:04.72,0:14:06.49,Dialogue,,0,0,0,,I wonder if that light was the real thing?
+Dialogue: 0,0:14:06.49,0:14:07.79,Dialogue,,0,0,0,,No way...!
+Dialogue: 0,0:14:07.79,0:14:09.78,Dialogue,,0,0,0,,Prepare for anti-submarine combat!
+Dialogue: 0,0:14:10.31,0:14:11.66,Dialogue,,0,0,0,,Red alert!
+Dialogue: 0,0:14:12.96,0:14:14.16,Dialogue,,0,0,0,,Aye, sir!
+Dialogue: 0,0:14:14.16,0:14:19.83,Dialogue Top,,0,0,0,,The ship may shake slightly, so if you have children with you, be sure to keep an eye on them.
+Dialogue: 0,0:14:15.85,0:14:19.83,Dialogue,,0,0,0,,Have Ichigaya check the data against nearby submarines.
+Dialogue: 0,0:14:19.83,0:14:21.98,Dialogue,,0,0,0,,Did something happen?
+Dialogue: 0,0:14:21.98,0:14:23.75,Dialogue,,0,0,0,,This is just training, right?
+Dialogue: 0,0:14:23.75,0:14:24.80,Dialogue,,0,0,0,,Of course it is!
+Dialogue: 0,0:14:25.12,0:14:27.57,Dialogue,,0,0,0,,They just finally spiced it up a bit!
+Dialogue: 0,0:14:27.57,0:14:29.76,Thoughts,,0,0,0,,{\be10}No, this might actually be...
+Dialogue: 0,0:14:29.76,0:14:31.29,Dialogue,,0,0,0,,The echo is dull.
+Dialogue: 0,0:14:31.29,0:14:32.17,Dialogue,,0,0,0,,What's the situation?
+Dialogue: 0,0:14:32.17,0:14:33.90,Dialogue,,0,0,0,,The image quality isn't clear.
+Dialogue: 0,0:14:33.90,0:14:35.72,Dialogue,,0,0,0,,It's not good enough for detection.
+Dialogue: 0,0:14:36.12,0:14:37.88,Dialogue,,0,0,0,,Stop the SPY!
+Dialogue: 0,0:14:37.88,0:14:40.67,Dialogue,,0,0,0,,Confirm target with the SH-60K!
+Dialogue: 0,0:14:40.67,0:14:41.92,Dialogue,,0,0,0,,Target still approaching!
+Dialogue: 0,0:14:43.48,0:14:45.18,Dialogue,,0,0,0,,Distance: 3,200 metres!
+Dialogue: 0,0:14:45.19,0:14:47.03,Dialogue,,0,0,0,,We'll be in the target's torpedo range soon!
+Dialogue: 0,0:14:47.03,0:14:48.14,Dialogue,,0,0,0,,What?!
+Dialogue: 0,0:14:48.71,0:14:49.99,Dialogue,,0,0,0,,Still no response from the target?
+Dialogue: 0,0:14:50.75,0:14:51.84,Dialogue,,0,0,0,,Negative.
+Dialogue: 0,0:14:51.84,0:14:53.64,Dialogue,,0,0,0,,Target still approaching!
+Dialogue: 0,0:14:53.64,0:14:55.29,Dialogue,,0,0,0,,Distance: 3,100 metres!
+Dialogue: 0,0:14:55.29,0:14:58.38,Dialogue,,0,0,0,,Only 100 metres left before we're in torpedo range!
+Dialogue: 0,0:14:58.38,0:14:59.33,Dialogue,,0,0,0,,Captain...
+Dialogue: 0,0:14:59.73,0:15:01.25,Dialogue,,0,0,0,,What should we do?
+Dialogue: 0,0:15:03.13,0:15:04.96,Dialogue,,0,0,0,,All hands, prepare for an ambush!
+Dialogue: 0,0:15:05.79,0:15:07.17,Dialogue,,0,0,0,,Hold on, Captain!
+Dialogue: 0,0:15:07.17,0:15:08.62,Dialogue,,0,0,0,,If you do that...
+Dialogue: 0,0:15:08.62,0:15:10.01,Dialogue,,0,0,0,,We might start a war.
+Dialogue: 0,0:15:10.88,0:15:13.39,Dialogue,,0,0,0,,Target speed: 10! Distance: 3,000!
+Dialogue: 0,0:15:13.72,0:15:16.10,Dialogue,,0,0,0,,We're in the target's firing range!
+Dialogue: 0,0:15:16.10,0:15:18.56,Dialogue,,0,0,0,,Maintain a distance of 3,000 metres from the target.
+Dialogue: 0,0:15:18.77,0:15:20.81,Dialogue,,0,0,0,,Start the engines at full speed!
+Dialogue: 0,0:15:20.81,0:15:21.62,Radio,,0,0,0,,{\be10}Roger!
+Dialogue: 0,0:15:21.62,0:15:23.70,Radio,,0,0,0,,{\be10}Starting engines at full speed!
+Dialogue: 0,0:15:24.90,0:15:26.00,Radio,,0,0,0,,{\be10}Take evasive manoeuvres!
+Dialogue: 0,0:15:26.00,0:15:28.61,Radio,,0,0,0,,{\be10}Hard a-starboard! Full speed ahead!
+Dialogue: 0,0:15:34.23,0:15:36.34,Dialogue,,0,0,0,,It feels so tense in here!
+Dialogue: 0,0:15:36.34,0:15:38.44,Dialogue,,0,0,0,,It's even better than a game!
+Dialogue: 0,0:15:38.44,0:15:39.91,Dialogue,,0,0,0,,It's a bit scary.
+Dialogue: 0,0:15:40.23,0:15:42.93,Thoughts,,0,0,0,,{\be10}It's no surprise that they're scared.
+Dialogue: 0,0:15:42.93,0:15:44.48,Thoughts,,0,0,0,,{\be10}This Aegis Destroyer...
+Dialogue: 0,0:15:44.48,0:15:46.80,Thoughts,,0,0,0,,{\be10}...really {\i1}is{\i0} being attacked!
+Dialogue: 0,0:15:48.26,0:15:49.76,Dialogue,,0,0,0,,No response from the target.
+Dialogue: 0,0:15:49.76,0:15:51.14,Dialogue,,0,0,0,,Approaching at a 40° angle from the left.
+Dialogue: 0,0:15:51.14,0:15:53.47,Dialogue,,0,0,0,,I want to see the enemy. Prepare light torpedoes!
+Dialogue: 0,0:15:53.47,0:15:55.24,Dialogue,,0,0,0,,Light torpedoes ready!
+Dialogue: 0,0:15:55.24,0:15:57.31,Dialogue,,0,0,0,,Engines to full power! Hard a-port!
+Dialogue: 0,0:15:57.31,0:15:59.25,Dialogue,,0,0,0,,Anti-submarine light torpedoes ready!
+Dialogue: 0,0:15:59.25,0:16:02.52,Dialogue,,0,0,0,,CIC to the bridge, engines to full power! Hard a-port!
+Dialogue: 0,0:16:02.52,0:16:04.98,Radio,,0,0,0,,{\be10}Full speed ahead! Hard a-port!
+Dialogue: 0,0:16:04.98,0:16:07.07,Dialogue,,0,0,0,,Hard a-port!
+Dialogue: 0,0:16:14.66,0:16:16.12,Dialogue,,0,0,0,,This is the left torpedo launcher.
+Dialogue: 0,0:16:16.56,0:16:18.68,Radio,,0,0,0,,{\be10}Anti-submarine torpedo loaded!
+Dialogue: 0,0:16:18.68,0:16:19.83,Dialogue,,0,0,0,,Launch torpedo!
+Dialogue: 0,0:16:19.83,0:16:22.04,Dialogue,,0,0,0,,Fire anti-submarine light torpedo!
+Dialogue: 0,0:16:39.85,0:16:43.04,Dialogue,,0,0,0,,We'll have a clear visual soon!\NShowing it on the third monitor!
+Dialogue: 0,0:16:44.92,0:16:46.31,Dialogue,,0,0,0,,Shockwave incoming!
+Dialogue: 0,0:16:46.31,0:16:47.75,Dialogue,,0,0,0,,The ship will shake slightly.
+Dialogue: 0,0:16:47.75,0:16:49.61,Dialogue,,0,0,0,,Make sure to keep an eye on your children!
+Dialogue: 0,0:16:57.53,0:16:59.57,Dialogue,,0,0,0,,Hey, are you guys okay?
+Dialogue: 0,0:16:59.57,0:17:00.38,Dialogue,,0,0,0,,Yeah.
+Dialogue: 0,0:17:00.38,0:17:02.15,Dialogue,,0,0,0,,That shake was awesome!
+Dialogue: 0,0:17:02.15,0:17:03.87,Dialogue,,0,0,0,,It was so cool!
+Dialogue: 0,0:17:03.87,0:17:06.06,Thoughts,,0,0,0,,{\be10}Huh? That kid doesn't have any adult with him.
+Dialogue: 0,0:17:06.06,0:17:07.46,Dialogue,,0,0,0,,What's that?!
+Dialogue: 0,0:17:07.46,0:17:08.87,Dialogue,,0,0,0,,A submarine?
+Dialogue: 0,0:17:08.87,0:17:10.38,Dialogue,,0,0,0,,No, that's not it.
+Dialogue: 0,0:17:11.30,0:17:12.58,Dialogue,,0,0,0,,A fishing boat?
+Dialogue: 0,0:17:12.58,0:17:13.51,Dialogue,,0,0,0,,A shipwreck?
+Dialogue: 0,0:17:14.15,0:17:15.38,Dialogue,,0,0,0,,Is that...
+Dialogue: 0,0:17:15.62,0:17:18.10,Dialogue,,0,0,0,,No risk of explosion.
+Dialogue: 0,0:17:18.58,0:17:21.81,Dialogue,,0,0,0,,It's a shipwreck drifting with the tide...
+Dialogue: 0,0:17:24.88,0:17:26.90,Dialogue,,0,0,0,,Cease use of anti-submarine weapons!
+Dialogue: 0,0:17:27.86,0:17:29.77,Dialogue,,0,0,0,,Cease use of anti-submarine weapons!
+Dialogue: 0,0:17:30.20,0:17:33.32,Dialogue,,0,0,0,,Now returning to the route planned for the public exercises.
+Dialogue: 0,0:17:33.32,0:17:38.00,Dialogue,,0,0,0,,I repeat, now returning to the route planned for the public exercises.
+Dialogue: 0,0:17:38.00,0:17:40.71,Dialogue,,0,0,0,,Notify US Navy and SDF submarines that we have ceased combat...
+Dialogue: 0,0:17:40.71,0:17:42.45,Dialogue,,0,0,0,,Is it over?
+Dialogue: 0,0:17:43.31,0:17:48.40,Dialogue,,0,0,0,,Yes, that's the end of the anti-air and anti-submarine combat training.
+Dialogue: 0,0:17:49.04,0:17:50.85,Dialogue,,0,0,0,,Wasn't that amazing?
+Dialogue: 0,0:17:50.85,0:17:51.39,Dialogue,,0,0,0,,Yeah!
+Dialogue: 0,0:17:51.39,0:17:53.52,Dialogue,,0,0,0,,I thought it was a real fight!
+Dialogue: 0,0:17:53.52,0:17:55.63,Dialogue,,0,0,0,,I even forgot I was hungry!
+Dialogue: 0,0:17:55.79,0:17:58.51,Thoughts,,0,0,0,,{\be10}So they're just calling it training...
+Dialogue: 0,0:18:04.77,0:18:07.76,Dialogue,,0,0,0,,Well then, please enjoy looking around the bow.
+Dialogue: 0,0:18:07.76,0:18:08.78,Dialogue,,0,0,0,,Sure!
+Dialogue: 0,0:18:10.44,0:18:12.67,Dialogue,,0,0,0,,Isn't the SDF cool?
+Dialogue: 0,0:18:12.67,0:18:14.88,Dialogue,,0,0,0,,I want to try on an SDF uniform!
+Dialogue: 0,0:18:14.88,0:18:15.40,Dialogue,,0,0,0,,It's so cool!
+Dialogue: 0,0:18:15.40,0:18:17.90,Dialogue,,0,0,0,,Conan{\rHonorifics - Dialogue}-kun{\r}, hurry up, hurry up!
+Dialogue: 0,0:18:17.90,0:18:20.35,Dialogue,,0,0,0,,This Aegis Destroyer's really big!
+Dialogue: 0,0:18:17.90,0:18:20.35,Dialogue Top,,0,0,0,,This cannon's amazing!{Sonoko}
+Dialogue: 0,0:18:20.35,0:18:22.88,Dialogue,,0,0,0,,I wonder how big it really is.
+Dialogue: 0,0:18:20.35,0:18:23.92,Dialogue Top,,0,0,0,,It really feels huge when you see it close up...{Ran}
+Dialogue: 0,0:18:23.92,0:18:27.37,Dialogue,,0,0,0,,We saw it being fired on that video earlier.
+Dialogue: 0,0:18:27.37,0:18:30.08,Dialogue,,0,0,0,,Conan{\rHonorifics - Dialogue}-kun{\r}, let's take a photo with all of us together!
+Dialogue: 0,0:18:30.08,0:18:31.50,Dialogue,,0,0,0,,S-Sure!
+Dialogue: 0,0:18:31.50,0:18:33.17,Dialogue,,0,0,0,,Over here!
+Dialogue: 0,0:18:33.17,0:18:34.96,Dialogue,,0,0,0,,Let's go, Yūki.
+Dialogue: 0,0:18:34.96,0:18:37.58,Dialogue Top,,0,0,0,,Come on, take my hand, Yūki.
+Dialogue: 0,0:18:35.61,0:18:37.58,Thoughts,,0,0,0,,{\be10}Unless I'm mistaken, that kid...
+Dialogue: 0,0:18:40.37,0:18:41.22,Dialogue,,0,0,0,,Hey!
+Dialogue: 0,0:18:41.22,0:18:43.26,Dialogue,,0,0,0,,Is your name Yūki{\rHonorifics - Dialogue}-kun{\r}?
+Dialogue: 0,0:18:43.26,0:18:44.81,Dialogue,,0,0,0,,Huh? Yeah.
+Dialogue: 0,0:18:44.81,0:18:46.14,Dialogue,,0,0,0,,What a relief, huh?
+Dialogue: 0,0:18:46.14,0:18:47.68,Dialogue,,0,0,0,,You managed to find your dad!
+Dialogue: 0,0:18:48.38,0:18:50.77,Dialogue,,0,0,0,,What do you mean, little kid?
+Dialogue: 0,0:18:50.77,0:18:54.90,Dialogue,,0,0,0,,You weren't with him when the ship shook, right?
+Dialogue: 0,0:18:55.11,0:18:57.10,Dialogue,,0,0,0,,I was worried about him.
+Dialogue: 0,0:18:57.10,0:18:59.53,Dialogue,,0,0,0,,Oh, that must've been when I was in the toilet.
+Dialogue: 0,0:18:59.92,0:19:02.24,Dialogue,,0,0,0,,Oh, so that's what happened...
+Dialogue: 0,0:19:03.12,0:19:05.20,Dialogue,,0,0,0,,So you were all alone then, right?
+Dialogue: 0,0:19:05.20,0:19:08.19,Dialogue,,0,0,0,,Well then, let's have a look at the other side, Yūki.
+Dialogue: 0,0:19:08.19,0:19:08.97,Dialogue,,0,0,0,,Okay.
+Dialogue: 0,0:19:10.72,0:19:14.38,Thoughts,,0,0,0,,{\be10}Even if he was in the toilet, he should've felt a shake that big.
+Dialogue: 0,0:19:14.38,0:19:22.22,Thoughts,,0,0,0,,{\be10}But even after the drill in the CIC ended, he didn't show himself until the free time on the deck had already begun.
+Dialogue: 0,0:19:22.22,0:19:23.86,Thoughts,,0,0,0,,{\be10}I wonder...
+Dialogue: 0,0:19:25.49,0:19:26.53,Dialogue,,0,0,0,,Hey!
+Dialogue: 0,0:19:26.53,0:19:28.64,Dialogue,,0,0,0,,Don't go wandering off!
+Dialogue: 0,0:19:28.64,0:19:29.36,Dialogue,,0,0,0,,Geez...
+Dialogue: 0,0:19:29.36,0:19:32.06,Dialogue,,0,0,0,,You vanish as soon as I take my eyes off you!
+Dialogue: 0,0:19:32.44,0:19:34.58,Dialogue,,0,0,0,,I'm sorry...
+Dialogue: 0,0:19:35.48,0:19:38.03,Thoughts,,0,0,0,,{\be10}A female SDF member on an Aegis Destroyer?
+Dialogue: 0,0:19:38.03,0:19:39.31,Dialogue,,0,0,0,,Hey, brat!
+Dialogue: 0,0:19:39.31,0:19:40.49,Dialogue,,0,0,0,,Are you really sorry?
+Dialogue: 0,0:19:40.49,0:19:42.89,Dialogue,,0,0,0,,Oh, how cool!
+Dialogue: 0,0:19:42.89,0:19:43.27,Dialogue,,0,0,0,,Huh?
+Dialogue: 0,0:19:43.27,0:19:45.14,Dialogue,,0,0,0,,It's a female SDF member!
+Dialogue: 0,0:19:45.14,0:19:45.87,Dialogue,,0,0,0,,Huh?!
+Dialogue: 0,0:19:47.10,0:19:49.91,Dialogue,,0,0,0,,It's rare to see female SDF members, so let's get a group photo with her!
+Dialogue: 0,0:19:49.91,0:19:51.18,Dialogue,,0,0,0,,It's true!
+Dialogue: 0,0:19:51.18,0:19:52.19,Dialogue,,0,0,0,,She's beautiful!
+Dialogue: 0,0:19:52.19,0:19:53.76,Dialogue,,0,0,0,,Let's do it, let's do it!
+Dialogue: 0,0:19:53.76,0:19:54.84,Dialogue,,0,0,0,,Hey!
+Dialogue: 0,0:19:54.84,0:19:58.80,Dialogue,,0,0,0,,Miss SDF member, can we take a photo with you?
+Dialogue: 0,0:19:58.80,0:20:01.76,Signs,,0,0,0,,Captain
+Dialogue: 0,0:19:58.80,0:20:01.76,Signs,,0,0,0,,Nanami Fujii
+Dialogue: 0,0:19:58.80,0:20:00.15,Dialogue,,0,0,0,,A-A photo?
+Dialogue: 0,0:20:00.15,0:20:01.76,Dialogue,,0,0,0,,What a beauty!
+Dialogue: 0,0:20:01.76,0:20:05.76,Dialogue,,0,0,0,,A great detective and a beautiful SDF member. Miracles can happen!
+Dialogue: 0,0:20:06.08,0:20:07.37,Dialogue,,0,0,0,,Miss!
+Dialogue: 0,0:20:07.37,0:20:13.29,Dialogue,,0,0,0,,No, divine devotee to the SDF, please pay no mind to the bad manners of these children.
+Dialogue: 0,0:20:14.09,0:20:15.49,Dialogue,,0,0,0,,Hey, Dad!
+Dialogue: 0,0:20:15.49,0:20:18.73,Dialogue,,0,0,0,,What? I was about to ask her\Nif we could take a photo with her!
+Dialogue: 0,0:20:18.73,0:20:20.58,Dialogue,,0,0,0,,You don't have to get {\i1}that{\i0} close to her to do it!
+Dialogue: 0,0:20:20.58,0:20:22.66,Dialogue,,0,0,0,,Mitsuhiko, can I borrow your camera?
+Dialogue: 0,0:20:22.66,0:20:23.66,Dialogue,,0,0,0,,Huh? Okay.
+Dialogue: 0,0:20:23.66,0:20:24.73,Dialogue,,0,0,0,,Thanks.
+Dialogue: 0,0:20:26.91,0:20:28.70,Dialogue,,0,0,0,,Okay, everyone look this way!
+Dialogue: 0,0:20:30.34,0:20:31.62,Dialogue,,0,0,0,,But I don't...
+Dialogue: 0,0:20:31.62,0:20:33.63,Dialogue,,0,0,0,,You don't mind if we take a photo, right?
+Dialogue: 0,0:20:33.63,0:20:34.50,Dialogue,,0,0,0,,Just look around!
+Dialogue: 0,0:20:34.50,0:20:36.62,Dialogue,,0,0,0,,Take a photo of us this time!
+Dialogue: 0,0:20:36.62,0:20:38.87,Dialogue,,0,0,0,,Am I doing the salute right?
+Dialogue: 0,0:20:39.51,0:20:41.37,Dialogue,,0,0,0,,Well, I guess you're right...
+Dialogue: 0,0:20:41.37,0:20:42.26,Dialogue,,0,0,0,,All right!
+Dialogue: 0,0:20:42.26,0:20:43.46,Dialogue,,0,0,0,,I'll go next to her!
+Dialogue: 0,0:20:43.46,0:20:44.87,Dialogue,,0,0,0,,I want to be next to her!
+Dialogue: 0,0:20:44.87,0:20:46.41,Dialogue,,0,0,0,,Me too, me too!
+Dialogue: 0,0:20:46.41,0:20:48.33,Dialogue,,0,0,0,,Conan{\rHonorifics - Dialogue}-kun{\r}, are you okay with not being in the photo?
+Dialogue: 0,0:20:48.33,0:20:48.96,Dialogue,,0,0,0,,It's fine.
+Dialogue: 0,0:20:48.96,0:20:51.40,Dialogue,,0,0,0,,Anyway, you should move closer too, Ran{\rHonorifics - Dialogue}-neechan{\r}.
+Dialogue: 0,0:20:51.40,0:20:52.38,Dialogue,,0,0,0,,Right.
+Dialogue: 0,0:20:52.98,0:20:55.16,Dialogue,,0,0,0,,Okay, I'm taking it!
+Dialogue: 0,0:20:55.69,0:20:57.21,Dialogue,,0,0,0,,Oh, sorry...
+Dialogue: 0,0:20:57.21,0:20:58.23,Dialogue,,0,0,0,,One more time!
+Dialogue: 0,0:20:58.23,0:20:59.18,Dialogue,,0,0,0,,Huh?
+Dialogue: 0,0:20:59.18,0:21:01.68,Dialogue,,0,0,0,,Hey, do you know how to take a photo?
+Dialogue: 0,0:21:01.68,0:21:03.82,Dialogue,,0,0,0,,Yeah, but it was set up wrong.
+Dialogue: 0,0:21:03.82,0:21:05.81,Dialogue,,0,0,0,,Okay, now it's perfect!
+Dialogue: 0,0:21:05.81,0:21:07.03,Dialogue,,0,0,0,,Okay, this time...
+Dialogue: 0,0:21:07.03,0:21:08.75,Dialogue,,0,0,0,,Say 'Aegis'!
+Dialogue: 0,0:21:08.75,0:21:10.26,Dialogue,,0,0,0,,Yay!
+Dialogue: 0,0:21:10.26,0:21:11.05,Dialogue,,0,0,0,,How was it?
+Dialogue: 0,0:21:11.05,0:21:11.92,Dialogue,,0,0,0,,Did you take it?
+Dialogue: 0,0:21:11.92,0:21:13.65,Dialogue,,0,0,0,,Yup! It was perfect this time.
+Dialogue: 0,0:21:13.65,0:21:15.00,Dialogue,,0,0,0,,Let me see, let me see!
+Dialogue: 0,0:21:16.15,0:21:16.69,Dialogue Top,,0,0,0,,Here!
+Dialogue: 0,0:21:15.00,0:21:16.69,Dialogue,,0,0,0,,Thank you.
+Dialogue: 0,0:21:16.69,0:21:18.82,Dialogue,,0,0,0,,It was nothing. Anyway, I better be goin—
+Dialogue: 0,0:21:16.69,0:21:17.75,Dialogue Top,,0,0,0,,Lemme see!
+Dialogue: 0,0:21:17.75,0:21:18.82,Dialogue Top,,0,0,0,,I wanna see!
+Dialogue: 0,0:21:18.82,0:21:19.34,Dialogue,,0,0,0,,Hey!
+Dialogue: 0,0:21:19.34,0:21:21.45,Dialogue,,0,0,0,,Miss SDF member...
+Dialogue: 0,0:21:21.45,0:21:22.21,Dialogue,,0,0,0,,What is it?
+Dialogue: 0,0:21:22.21,0:21:25.18,Dialogue,,0,0,0,,What kind of job do you do here?
+Dialogue: 0,0:21:26.25,0:21:27.84,Dialogue,,0,0,0,,I...
+Dialogue: 0,0:21:27.84,0:21:30.01,Dialogue,,0,0,0,,I cook everyone's meals.
+Dialogue: 0,0:21:30.01,0:21:31.31,Dialogue,,0,0,0,,I see...
+Dialogue: 0,0:21:31.31,0:21:32.94,Thoughts,,0,0,0,,{\be10}She's lying.
+Dialogue: 0,0:21:32.94,0:21:35.39,Thoughts,,0,0,0,,{\be10}Her rank insignia is that of a captain.
+Dialogue: 0,0:21:35.39,0:21:38.48,Thoughts,,0,0,0,,{\be10}She has the same rank as the captain of an Aegis Destroyer.
+Dialogue: 0,0:21:38.48,0:21:42.53,Dialogue,,0,0,0,,Excuse me, but I have work to do, so I have to leave now.
+Dialogue: 0,0:21:42.53,0:21:44.11,Dialogue,,0,0,0,,Thanks a lot!
+Dialogue: 0,0:21:44.11,0:21:46.58,Dialogue,,0,0,0,,Oh, let me give you my business card!
+Dialogue: 0,0:21:47.57,0:21:48.67,Dialogue,,0,0,0,,Sorry about this.
+Dialogue: 0,0:21:47.57,0:21:51.71,Dialogue Top,,0,0,0,,Damn it! This jacket really gets in the way!
+Dialogue: 0,0:21:48.67,0:21:51.71,Dialogue,,0,0,0,,Don't mind him, head back to work.
+Dialogue: 0,0:21:57.68,0:21:59.69,Thoughts,,0,0,0,,{\be10}What's with these flashy cards?
+Dialogue: 0,0:21:59.69,0:22:00.79,Dialogue,,0,0,0,,Good catch, brat!
+Dialogue: 0,0:22:00.79,0:22:02.00,Dialogue,,0,0,0,,Wait for me!
+Dialogue: 0,0:22:02.00,0:22:03.55,Dialogue,,0,0,0,,You beautiful lady!
+Dialogue: 0,0:22:03.55,0:22:06.22,Dialogue,,0,0,0,,What a disgrace...
+Dialogue: 0,0:22:06.22,0:22:08.74,Dialogue,,0,0,0,,Sorry, Sonoko, could you hold these for a second?
+Dialogue: 0,0:22:08.74,0:22:10.76,Dialogue,,0,0,0,,What's with these ugly cards?!
+Dialogue: 0,0:22:10.76,0:22:15.85,Dialogue,,0,0,0,,He had them made recently, saying he wants to stand out at every crime scene.
+Dialogue: 0,0:22:15.85,0:22:18.94,Dialogue,,0,0,0,,But I think he's missing the point a bit...
+Dialogue: 0,0:22:20.37,0:22:23.30,Dialogue,,0,0,0,,Mitsuhiko, can I borrow your camera again?
+Dialogue: 0,0:22:23.30,0:22:24.96,Dialogue,,0,0,0,,All right.
+Dialogue: 0,0:22:24.96,0:22:25.71,Dialogue,,0,0,0,,Here.
+Dialogue: 0,0:22:25.71,0:22:27.34,Dialogue,,0,0,0,,Give these cards to Ran{\rHonorifics - Dialogue}-neechan{\r}.
+Dialogue: 0,0:22:27.34,0:22:28.24,Dialogue,,0,0,0,,Okay.
+Dialogue: 0,0:22:28.24,0:22:29.52,Dialogue,,0,0,0,,I've got to go to the toilet.
+Dialogue: 0,0:22:29.52,0:22:30.06,Dialogue,,0,0,0,,Huh?!
+Dialogue: 0,0:22:30.06,0:22:30.90,Dialogue,,0,0,0,,Conan{\rHonorifics - Dialogue}-kun{\r}!
+Dialogue: 0,0:22:30.90,0:22:33.16,Dialogue,,0,0,0,,What's he gonna take a photo of in the toilet?
+Dialogue: 0,0:22:34.71,0:22:36.50,Dialogue,,0,0,0,,By the way, Ai{\rHonorifics - Dialogue}-kun{\r}...
+Dialogue: 0,0:22:37.91,0:22:38.96,Dialogue,,0,0,0,,What is it?
+Dialogue: 0,0:22:39.68,0:22:43.53,Dialogue,,0,0,0,,I wonder if the kids liked the riddle I gave them earlier.
+Dialogue: 0,0:22:43.53,0:22:46.09,Dialogue,,0,0,0,,They'd like it as long as the answer wasn't number four, his back, right?
+Dialogue: 0,0:22:49.67,0:22:51.28,Dialogue,,0,0,0,,Hello.
+Dialogue: 0,0:22:51.28,0:22:52.06,Radio,,0,0,0,,{\be10}Doc...
+Dialogue: 0,0:22:52.06,0:22:53.71,Radio,,0,0,0,,{\be10}There's something I want you to investigate.
+Dialogue: 0,0:22:53.71,0:22:55.14,Dialogue,,0,0,0,,Oh, it's you, Shin'ichi?
+Dialogue: 0,0:22:55.49,0:22:56.63,Dialogue,,0,0,0,,Yeah...
+Dialogue: 0,0:22:56.63,0:22:59.39,Dialogue,,0,0,0,,You sent a photo to Ai{\rHonorifics - Dialogue}-kun{\r}'s phone?
+Dialogue: 0,0:23:01.22,0:23:03.38,Dialogue,,0,0,0,,Got it, I'll check it out right away.
+Dialogue: 0,0:23:03.38,0:23:06.65,Radio,,0,0,0,,{\be10}By the way, did some kind of case happen?
+Dialogue: 0,0:23:06.65,0:23:09.36,Dialogue,,0,0,0,,No, there's just something that I'm wondering about.
+Dialogue: 0,0:23:09.36,0:23:10.48,Dialogue,,0,0,0,,Did she get the photo?
+Dialogue: 0,0:23:10.48,0:23:12.99,Radio,,0,0,0,,{\be10}Yeah, it was delivered fine.
+Dialogue: 0,0:23:13.22,0:23:15.61,Dialogue,,0,0,0,,It looks like a female SDF member.
+Dialogue: 0,0:23:15.61,0:23:17.22,Dialogue,,0,0,0,,Just the one photo, right?
+Dialogue: 0,0:23:17.22,0:23:20.46,Radio,,0,0,0,,{\be10}Yeah, I want you to look into what department the woman in the photo is stationed in.
+Dialogue: 0,0:23:20.87,0:23:28.66,Radio,,0,0,0,,{\be10}Only 4% of the JMSDF's personnel are women, and many of them are used in adverts, so she shouldn't be hard to find.
+Dialogue: 0,0:23:28.66,0:23:30.54,Dialogue,,0,0,0,,Okay, got it.
+Dialogue: 0,0:23:30.54,0:23:32.96,Dialogue,,0,0,0,,Then we shouldn't have too much of a problem.
+Dialogue: 0,0:23:32.96,0:23:35.89,Dialogue,,0,0,0,,By the way, about the quiz earlier...
+Dialogue: 0,0:23:36.47,0:23:37.93,Dialogue,,0,0,0,,He hung up.
+Dialogue: 0,0:23:37.93,0:23:39.60,Dialogue,,0,0,0,,What a shame, huh?
+Dialogue: 0,0:23:41.44,0:23:43.24,Dialogue,,0,0,0,,A satellite transmission?
+Dialogue: 0,0:23:43.24,0:23:45.06,Dialogue,,0,0,0,,Whereabouts on the deck?
+Dialogue: 0,0:23:45.06,0:23:46.82,Dialogue,,0,0,0,,It's coming from the right side of the deck.
+Dialogue: 0,0:23:46.82,0:23:49.54,Dialogue,,0,0,0,,That's near the civilians.
+Dialogue: 0,0:23:49.54,0:23:50.66,Dialogue,,0,0,0,,Have it investigated.
+Dialogue: 0,0:23:50.66,0:23:51.45,Dialogue,,0,0,0,,Yes, sir!
+Dialogue: 0,0:23:51.88,0:23:53.78,Dialogue,,0,0,0,,This is a transmission from the CIC to all areas.
+Dialogue: 0,0:23:54.02,0:23:59.00,Dialogue Top,,0,0,0,,A satellite transmission was detected on the right side of the deck. Watanabe and Abiko are to head there immediately...
+Dialogue: 0,0:23:54.02,0:23:55.21,Dialogue,,0,0,0,,Captain!
+Dialogue: 0,0:23:55.76,0:23:59.00,Dialogue,,0,0,0,,X couldn't be among the civilians, could he?
+Dialogue: 0,0:23:59.00,0:24:03.38,Dialogue,,0,0,0,,Maybe the shipwreck earlier was connected with X as well...
+Dialogue: 0,0:24:04.58,0:24:06.34,Dialogue,,0,0,0,,X...
+Dialogue: 0,0:24:06.34,0:24:09.55,Dialogue,,0,0,0,,This radar could even be called the eyes of the Aegis.
+Dialogue: 0,0:24:09.55,0:24:19.06,Dialogue,,0,0,0,,You wouldn't know just by looking at it, but this radar can cover over 450 km, and identify over 200 objects at once.
+Dialogue: 0,0:24:19.06,0:24:20.29,Dialogue,,0,0,0,,Amazing!
+Dialogue: 0,0:24:20.29,0:24:22.65,Dialogue,,0,0,0,,It really is a great detective of the seas!
+Dialogue: 0,0:24:22.65,0:24:24.62,Dialogue,,0,0,0,,It's so cool!
+Dialogue: 0,0:24:25.35,0:24:27.01,Thoughts,,0,0,0,,{\be10}That place...?!
+Dialogue: 0,0:24:27.01,0:24:29.48,Thoughts,,0,0,0,,{\be10}That's where I just called the doc...
+Dialogue: 0,0:24:29.70,0:24:32.50,Thoughts,,0,0,0,,{\be10}Did they find out about my satellite communications?
+Dialogue: 0,0:24:32.50,0:24:33.70,Thoughts,,0,0,0,,{\be10}Or perhaps...
+Dialogue: 0,0:24:33.70,0:24:39.66,Dialogue,,0,0,0,,The Aegis System is only given to countries trusted by the US, who developed it.
+Dialogue: 0,0:24:39.66,0:24:46.13,Dialogue Top,,0,0,0,,And we, Japan, were the first country it was awarded to.
+Dialogue: 0,0:24:39.66,0:24:41.45,Dialogue,,0,0,0,,Yeah, got it.
+Dialogue: 0,0:24:41.45,0:24:44.02,Dialogue,,0,0,0,,I guess I better report it in.
+Dialogue: 0,0:24:44.02,0:24:46.13,Dialogue,,0,0,0,,I'm counting on you. I'll check out the deck.
+Dialogue: 0,0:24:46.13,0:24:52.11,Dialogue,,0,0,0,,Now, my next topic is the helicopter stationed at the stern: the SH-60K.
+Dialogue: 0,0:24:52.11,0:24:54.58,Dialogue,,0,0,0,,Wow! They've even got a helicopter!
+Dialogue: 0,0:24:54.58,0:24:56.85,Dialogue,,0,0,0,,Huh? What's wrong, Conan{\rHonorifics - Dialogue}-kun{\r}?
+Dialogue: 0,0:24:55.24,0:24:56.85,Dialogue Top,,0,0,0,,Whoa! How exciting!
+Dialogue: 0,0:24:56.85,0:24:59.00,Dialogue,,0,0,0,,Oh, I gotta go to the toilet.
+Dialogue: 0,0:24:59.00,0:25:00.51,Dialogue,,0,0,0,,Huh? Again?
+Dialogue: 0,0:25:00.51,0:25:02.19,Dialogue,,0,0,0,,Hold on, Conan{\rHonorifics - Dialogue}-kun{\r}!
+Dialogue: 0,0:25:02.19,0:25:02.81,Dialogue,,0,0,0,,Huh?
+Dialogue: 0,0:25:02.81,0:25:04.86,Dialogue,,0,0,0,,I'm going with you.
+Dialogue: 0,0:25:04.86,0:25:06.34,Dialogue,,0,0,0,,Oh, you don't have to!
+Dialogue: 0,0:25:06.34,0:25:07.32,Dialogue,,0,0,0,,Of course I do!
+Dialogue: 0,0:25:07.32,0:25:09.65,Dialogue,,0,0,0,,You vanish as soon as I take my eyes off you!
+Dialogue: 0,0:25:09.65,0:25:11.00,Dialogue,,0,0,0,,I don't—
+Dialogue: 0,0:25:11.00,0:25:13.26,Dialogue,,0,0,0,,You just did, remember?
+Dialogue: 0,0:25:13.26,0:25:14.03,Dialogue,,0,0,0,,Come on...
+Dialogue: 0,0:25:14.03,0:25:15.40,Dialogue,,0,0,0,,Let's go together.
+Dialogue: 0,0:25:15.40,0:25:16.70,Dialogue,,0,0,0,,Okay...
+Dialogue: 0,0:25:17.40,0:25:21.12,Dialogue,,0,0,0,,I nearly got lost when I went to the toilet earlier too.
+Dialogue: 0,0:25:21.32,0:25:23.59,Dialogue Top,,0,0,0,,This destroyer's full of twists and turns...
+Dialogue: 0,0:25:21.88,0:25:24.70,Thoughts,,0,0,0,,{\be10}Even though you're in high school?
+Dialogue: 0,0:25:25.49,0:25:28.79,Thoughts,,0,0,0,,{\be10}That's right, she's not too good with directions...
+Dialogue: 0,0:25:34.22,0:25:37.39,Flashback,,0,0,0,,{\be10}Geez... How far away did you go?
+Dialogue: 0,0:25:37.39,0:25:40.31,Flashback,,0,0,0,,{\be10}Sorry, sorry! I forgot the way back here.
+Dialogue: 0,0:25:40.31,0:25:43.44,Flashback,,0,0,0,,{\be10}That's why I said I'd come with you.
+Dialogue: 0,0:25:43.44,0:25:45.02,Flashback,,0,0,0,,{\be10}But...
+Dialogue: 0,0:25:45.02,0:25:47.19,Flashback,,0,0,0,,{\be10}Don't go wandering off by yourself again, okay?
+Dialogue: 0,0:25:47.19,0:25:50.07,Flashback,,0,0,0,,{\be10}Next time, you mightn't be able to find me.
+Dialogue: 0,0:25:50.07,0:25:51.34,Flashback,,0,0,0,,{\be10}It's fine!
+Dialogue: 0,0:25:51.34,0:25:52.15,Flashback,,0,0,0,,{\be10}Huh?
+Dialogue: 0,0:25:52.15,0:25:54.25,Flashback,,0,0,0,,{\be10}No matter how lost I am,
+Dialogue: 0,0:25:54.25,0:25:55.74,Flashback,,0,0,0,,{\be10}you'll always manage to find me, right?
+Dialogue: 0,0:25:56.82,0:25:59.95,Flashback,,0,0,0,,{\be10}You're a great detective, after all!
+Dialogue: 0,0:26:03.66,0:26:04.74,Flashback,,0,0,0,,{\be10}It's cold!
+Dialogue: 0,0:26:06.91,0:26:08.18,Flashback,,0,0,0,,{\be10}Geez!
+Dialogue: 0,0:26:12.16,0:26:13.34,Flashback,,0,0,0,,{\be10}Don't you worry!
+Dialogue: 0,0:26:13.34,0:26:14.42,Flashback,,0,0,0,,{\be10}Huh?
+Dialogue: 0,0:26:15.68,0:26:21.16,Flashback,,0,0,0,,{\be10}I'll always find you, wherever you are.
+Dialogue: 0,0:26:21.51,0:26:23.16,Thoughts,,0,0,0,,{\be10}That's for sure.
+Dialogue: 0,0:26:23.16,0:26:24.23,Dialogue,,0,0,0,,Huh?
+Dialogue: 0,0:26:26.51,0:26:28.94,Dialogue,,0,0,0,,I thought this way led to the toilet...
+Dialogue: 0,0:26:28.94,0:26:29.44,Dialogue,,0,0,0,,Huh?
+Dialogue: 0,0:26:29.89,0:26:32.39,Dialogue,,0,0,0,,Sorry, Conan{\rHonorifics - Dialogue}-kun{\r}! Looks like I got us lost...
+Dialogue: 0,0:26:32.39,0:26:35.54,Thoughts,,0,0,0,,{\be10}Come on... Don't actually get us lost...
+Dialogue: 0,0:26:36.79,0:26:38.97,Dialogue,,0,0,0,,What was that scream just now?
+Dialogue: 0,0:26:38.97,0:26:40.07,Dialogue,,0,0,0,,Hey, Conan{\rHonorifics - Dialogue}-kun{\r}!
+Dialogue: 0,0:26:40.23,0:26:41.75,Dialogue,,0,0,0,,Sawamura{\rHonorifics - Dialogue}-san{\r}!
+Dialogue: 0,0:26:41.75,0:26:43.65,Dialogue,,0,0,0,,Something terrible got sucked in!
+Dialogue: 0,0:26:43.65,0:26:45.12,Dialogue,,0,0,0,,Something terrible?
+Dialogue: 0,0:26:45.58,0:26:47.64,Dialogue,,0,0,0,,Hey! Don't tell me that's a...?!
+Dialogue: 0,0:26:48.54,0:26:49.42,Dialogue,,0,0,0,,You guys!
+Dialogue: 0,0:26:49.87,0:26:51.67,Dialogue Top,,0,0,0,,This area's off-limits!
+Dialogue: 0,0:26:51.67,0:26:55.35,Dialogue Top,,0,0,0,,We're very sorry, we got lost on the way to the toilet...
+Dialogue: 0,0:26:49.44,0:26:50.50,Thoughts,,0,0,0,,{\be10}Could it be?!
+Dialogue: 0,0:26:50.50,0:26:52.33,Thoughts,,0,0,0,,{\be10}That's a human arm!
+Dialogue: 0,0:26:52.71,0:26:54.09,Dialogue,,0,0,0,,What a mess...
+Dialogue: 0,0:26:54.09,0:26:55.04,Dialogue,,0,0,0,,What should we do?!
+Dialogue: 0,0:26:55.04,0:26:58.87,Dialogue,,0,0,0,,For now, you better tell the Captain about this.
+Dialogue: 0,0:26:58.87,0:26:59.55,Dialogue,,0,0,0,,Understood.
+Dialogue: 0,0:26:59.55,0:27:03.13,Dialogue Top,,0,0,0,,I'll take these two children back to Chief Navigator Inoue.
+Dialogue: 0,0:26:59.55,0:27:03.13,Dialogue,,0,0,0,,Ran{\rHonorifics - Dialogue}-neechan{\r}, let's tell Uncle Kogorō.
+Dialogue: 0,0:27:03.13,0:27:04.25,Dialogue Top,,0,0,0,,Roger.
+Dialogue: 0,0:27:03.13,0:27:04.25,Dialogue,,0,0,0,,You're right.
+Dialogue: 0,0:27:04.25,0:27:05.10,Dialogue,,0,0,0,,Umm...
+Dialogue: 0,0:27:05.10,0:27:07.76,Dialogue,,0,0,0,,Maybe you should consult my father?
+Dialogue: 0,0:27:07.76,0:27:08.28,Dialogue,,0,0,0,,Huh?
+Dialogue: 0,0:27:08.28,0:27:11.63,Dialogue,,0,0,0,,It's a human arm that you have on that table, isn't it?
+Dialogue: 0,0:27:11.63,0:27:12.56,Dialogue,,0,0,0,,That's...
+Dialogue: 0,0:27:12.96,0:27:15.93,Dialogue,,0,0,0,,My father's Kogorō Mouri.
+Dialogue: 0,0:27:16.94,0:27:18.99,Dialogue,,0,0,0,,Have you heard about him?
+Dialogue: 0,0:27:18.99,0:27:21.85,Dialogue,,0,0,0,,He's the great detective known as 'Sleeping Kogorō'.
+Dialogue: 0,0:27:26.22,0:27:27.66,Dialogue,,0,0,0,,Yo! What's up, Kudō?
+Dialogue: 0,0:27:28.01,0:27:30.09,Dialogue,,0,0,0,,Huh, a corpse?!
+Dialogue: 0,0:27:30.09,0:27:32.25,Dialogue,,0,0,0,,Ya found a corpse aboard that Aegis Destroyer?
+Dialogue: 0,0:27:32.25,0:27:35.71,Dialogue,,0,0,0,,No, all that was found was a left arm.
+Dialogue: 0,0:27:35.71,0:27:36.71,Dialogue,,0,0,0,,But most likely...
+Dialogue: 0,0:27:41.05,0:27:44.27,Dialogue,,0,0,0,,The left arm was clothed in a JMSDF uniform.
+Dialogue: 0,0:27:44.27,0:27:46.56,Radio,,0,0,0,,{\be10}So whoever was murdered was in the JMSDF?
+Dialogue: 0,0:27:46.56,0:27:49.91,Dialogue,,0,0,0,,I don't know if it was a murder or an accident yet.
+Dialogue: 0,0:27:49.91,0:27:52.56,Dialogue,,0,0,0,,But whoever died was a Lieutenant.
+Dialogue: 0,0:27:53.04,0:27:54.60,Dialogue,,0,0,0,,Interestin'...
+Dialogue: 0,0:27:55.14,0:27:56.69,Dialogue,,0,0,0,,'Kay, gotcha.
+Dialogue: 0,0:27:56.96,0:27:58.07,Dialogue,,0,0,0,,I'll go there right now.
+Dialogue: 0,0:27:58.07,0:27:59.39,Dialogue,,0,0,0,,I'll wait for your call.
+Dialogue: 0,0:27:59.39,0:28:01.07,Dialogue,,0,0,0,,Found ya!
+Dialogue: 0,0:28:01.07,0:28:03.47,Dialogue,,0,0,0,,Clubs have already started, you know?
+Dialogue: 0,0:28:03.47,0:28:05.28,Dialogue,,0,0,0,,I ain't got time.
+Dialogue: 0,0:28:05.28,0:28:06.35,Dialogue,,0,0,0,,Gotta go to Maizuru.
+Dialogue: 0,0:28:06.35,0:28:06.95,Dialogue,,0,0,0,,Huh?
+Dialogue: 0,0:28:06.95,0:28:08.35,Dialogue,,0,0,0,,Maizuru?
+Dialogue: 0,0:28:08.35,0:28:10.16,Dialogue,,0,0,0,,Hey, Heiji!
+Dialogue: 0,0:28:14.10,0:28:15.13,Dialogue,,0,0,0,,Nothing here.
+Dialogue: 0,0:28:15.13,0:28:15.59,Dialogue,,0,0,0,,Yeah.
+Dialogue: 0,0:28:16.01,0:28:18.71,Dialogue,,0,0,0,,We can't find any machine capable of satellite transmission.
+Dialogue: 0,0:28:19.14,0:28:22.39,Radio,,0,0,0,,{\be10\an8}Keep checking the corners not covered by surveillance cameras.
+Dialogue: 0,0:28:22.39,0:28:24.26,Radio,,0,0,0,,{\be10\an8}X may be hiding in a corner somewhere.
+Dialogue: 0,0:28:19.14,0:28:22.39,Thoughts,,0,0,0,,{\be10}So they {\i1}did{\i0} find out about my transmissions...
+Dialogue: 0,0:28:24.26,0:28:24.72,Dialogue,,0,0,0,,Copy that.
+Dialogue: 0,0:28:24.72,0:28:25.84,Thoughts,,0,0,0,,{\be10}X?
+Dialogue: 0,0:28:25.84,0:28:26.89,Thoughts,,0,0,0,,{\be10}Oh, crap!
+Dialogue: 0,0:28:26.89,0:28:29.18,Dialogue,,0,0,0,,What was that strange noise just now?
+Dialogue: 0,0:28:29.47,0:28:32.39,Dialogue,,0,0,0,,Shin'ichi hung up on me...
+Dialogue: 0,0:28:32.81,0:28:34.40,Dialogue,,0,0,0,,I wonder if something happened...
+Dialogue: 0,0:28:34.40,0:28:37.86,Dialogue,,0,0,0,,And just when we were about to tell him what he asked us for...
+Dialogue: 0,0:28:51.31,0:28:53.44,Dialogue,,0,0,0,,We must've just imagined it.
+Dialogue: 0,0:28:53.44,0:28:53.79,Dialogue,,0,0,0,,Yeah.
+Dialogue: 0,0:28:54.18,0:28:55.68,Dialogue,,0,0,0,,It was nothing.
+Dialogue: 0,0:28:55.68,0:28:57.75,Dialogue,,0,0,0,,We'll keep looking.
+Dialogue: 0,0:28:57.75,0:28:59.77,Thoughts,,0,0,0,,{\be10}That was close!
+Dialogue: 0,0:28:59.77,0:29:03.46,Thoughts,,0,0,0,,{\be10}Well, this is an Aegis Destroyer. Top-notch security indeed.
+Dialogue: 0,0:29:05.02,0:29:08.43,Thoughts,,0,0,0,,{\be10}But I better find a different way to communicate...
+Dialogue: 0,0:29:08.73,0:29:11.64,Thoughts,,0,0,0,,{\be10}I'll be caught right away if I use that without permission.
+Dialogue: 0,0:29:14.25,0:29:15.83,Thoughts,,0,0,0,,{\be10}That mark...
+Dialogue: 0,0:29:15.83,0:29:18.56,Thoughts,,0,0,0,,{\be10}It's the mark signifying a strong magnetic field!
+Dialogue: 0,0:29:19.19,0:29:20.90,Dialogue,,0,0,0,,This room should do...
+Dialogue: 0,0:29:20.90,0:29:23.18,Dialogue,,0,0,0,,I'm the captain, Tateishi.
+Dialogue: 0,0:29:23.18,0:29:24.60,Dialogue,,0,0,0,,You must be Mouri{\rHonorifics - Dialogue}-san{\r}.
+Dialogue: 0,0:29:24.60,0:29:27.62,Dialogue,,0,0,0,,The one and only Great Detective Kogorō Mouri, at your service.
+Dialogue: 0,0:29:30.12,0:29:33.12,Signs,,0,0,0,,Wakasa Military Police
+Dialogue: 0,0:29:30.12,0:29:33.12,Signs,,0,0,0,,Capt. Makoto Sekiguchi
+Dialogue: 0,0:29:27.93,0:29:31.48,Dialogue Top,,0,0,0,,I heard about you from Capt. Sekiguchi.
+Dialogue: 0,0:29:31.48,0:29:33.13,Dialogue Top,,0,0,0,,I'm Sekiguchi, from the Military Police.
+Dialogue: 0,0:29:33.13,0:29:37.21,Dialogue,,0,0,0,,The Military Police are the\Ninternal police of the military, right?
+Dialogue: 0,0:29:37.21,0:29:38.22,Dialogue,,0,0,0,,Correct.
+Dialogue: 0,0:29:38.22,0:29:39.50,Dialogue,,0,0,0,,I see.
+Dialogue: 0,0:29:39.50,0:29:42.94,Dialogue,,0,0,0,,So, this is the dismembered part of a corpse you mentioned?
+Dialogue: 0,0:29:42.94,0:29:43.21,Dialogue,,0,0,0,,Yes.
+Dialogue: 0,0:29:43.61,0:29:44.97,Dialogue,,0,0,0,,Here it is.
+Dialogue: 0,0:29:47.28,0:29:48.44,Dialogue,,0,0,0,,I see...
+Dialogue: 0,0:29:48.44,0:29:52.43,Dialogue,,0,0,0,,It doesn't seem to have been removed using a sharp blade.
+Dialogue: 0,0:29:52.43,0:29:56.54,Dialogue,,0,0,0,,Also, the wound shows no signs of life.
+Dialogue: 0,0:29:56.54,0:29:59.27,Dialogue,,0,0,0,,Then you're saying it was severed post-mortem?
+Dialogue: 0,0:29:59.27,0:30:00.44,Dialogue,,0,0,0,,Correct.
+Dialogue: 0,0:30:00.44,0:30:02.62,Dialogue,,0,0,0,,Where was this arm found?
+Dialogue: 0,0:30:02.62,0:30:04.66,Dialogue,,0,0,0,,In the pumping system's filter.
+Dialogue: 0,0:30:05.72,0:30:08.24,Dialogue,,0,0,0,,Wasn't the pumping system what we...?
+Dialogue: 0,0:30:08.24,0:30:14.08,Flashback,,0,0,0,,{\be10}The sound you just heard was made by our pumping system letting in a large amount of sea water.
+Dialogue: 0,0:30:14.08,0:30:16.58,Dialogue,,0,0,0,,So that's what happened when we heard that sound...!
+Dialogue: 0,0:30:16.58,0:30:22.50,Dialogue,,0,0,0,,Sometimes, when leaving Maizuru Harbour, large pieces of debris carried by the ocean current are sucked up.
+Dialogue: 0,0:30:23.09,0:30:26.55,Dialogue,,0,0,0,,This arm must've got stuck in the filter at that time.
+Dialogue: 0,0:30:26.55,0:30:27.97,Dialogue,,0,0,0,,What do you mean by 'the filter'?
+Dialogue: 0,0:30:27.97,0:30:37.59,Dialogue,,0,0,0,,It's a net placed in the pump gate to stop large pieces of debris, fish, shells and so on from getting in when we draw in sea water.
+Dialogue: 0,0:30:38.90,0:30:40.40,Dialogue,,0,0,0,,So how did {\i1}this{\i0} end up here?
+Dialogue: 0,0:30:40.40,0:30:46.50,Dialogue,,0,0,0,,When a piece of debris obstructs the filter, we collect it to find out what it is.
+Dialogue: 0,0:30:46.50,0:30:49.70,Dialogue,,0,0,0,,It's typically a large piece of seaweed or a plastic bag.
+Dialogue: 0,0:30:50.10,0:30:52.53,Dialogue,,0,0,0,,By the way, do you have any idea who this arm belongs to?
+Dialogue: 0,0:30:54.99,0:30:56.50,Dialogue,,0,0,0,,You do, don't you?
+Dialogue: 0,0:30:56.50,0:30:58.96,Dialogue,,0,0,0,,Who is it, Capt. Tateishi?
+Dialogue: 0,0:31:00.42,0:31:03.67,Dialogue,,0,0,0,,Judging from the rank markings\Non the cuff and the wristwatch,
+Dialogue: 0,0:31:04.06,0:31:07.01,Dialogue,,0,0,0,,I think it's Lt. Sasaura from the Wakasa base.
+Dialogue: 0,0:31:07.92,0:31:13.01,Dialogue,,0,0,0,,When I asked the base to check, they told me they didn't know the whereabouts of Lt. Sasaura.
+Dialogue: 0,0:31:13.03,0:31:15.43,Dialogue,,0,0,0,,Then you're probably right.
+Dialogue: 0,0:31:15.90,0:31:18.54,Dialogue,,0,0,0,,His watch stopped at 5:30 AM.
+Dialogue: 0,0:31:18.54,0:31:20.77,Dialogue,,0,0,0,,How can you tell that it's AM?
+Dialogue: 0,0:31:20.77,0:31:23.48,Dialogue,,0,0,0,,Look at the position of the calendar.
+Dialogue: 0,0:31:23.48,0:31:25.85,Dialogue,,0,0,0,,You can still see a part of yesterday's date,
+Dialogue: 0,0:31:25.85,0:31:28.36,Dialogue,,0,0,0,,so it had to have been in the morning.
+Dialogue: 0,0:31:28.70,0:31:32.20,Dialogue,,0,0,0,,Sasaura{\rHonorifics - Dialogue}-san{\r} was one of the people who normally boards this Aegis Destroyer, right?
+Dialogue: 0,0:31:32.56,0:31:36.16,Dialogue,,0,0,0,,He sometimes comes aboard, but he wasn't planned to be in today's shift.
+Dialogue: 0,0:31:36.62,0:31:40.70,Dialogue,,0,0,0,,You started the pumping system when we left Maizuru Harbour, right?
+Dialogue: 0,0:31:40.70,0:31:41.71,Dialogue,,0,0,0,,Yes.
+Dialogue: 0,0:31:41.71,0:31:46.30,Dialogue,,0,0,0,,I think this left arm got severed by the pump gate at that time.
+Dialogue: 0,0:31:46.30,0:31:47.30,Dialogue,,0,0,0,,I see.
+Dialogue: 0,0:31:47.76,0:31:54.90,Dialogue,,0,0,0,,So at the time, his body was already drifting in the sea, near Maizuru Harbour.
+Dialogue: 0,0:31:54.90,0:31:59.75,Dialogue,,0,0,0,,Then, the pumping system activated, and his body was sucked in with the sea water.
+Dialogue: 0,0:31:59.75,0:32:04.69,Dialogue,,0,0,0,,But his body got caught at the entrance, and only his left arm made it as far as the filter.
+Dialogue: 0,0:32:04.69,0:32:06.64,Dialogue,,0,0,0,,Am I right?
+Dialogue: 0,0:32:06.64,0:32:07.63,Dialogue,,0,0,0,,Yes.
+Dialogue: 0,0:32:07.63,0:32:09.20,Dialogue,,0,0,0,,I believe you're correct.
+Dialogue: 0,0:32:09.20,0:32:12.07,Dialogue,,0,0,0,,And when do we get back to the harbour?
+Dialogue: 0,0:32:12.07,0:32:14.03,Dialogue,,0,0,0,,We plan to return at 5:30 PM.
+Dialogue: 0,0:32:14.27,0:32:19.88,Dialogue Top,,0,0,0,,Then you should contact the Kyōto Police so they can be ready to conduct an autopsy as soon as we get back.
+Dialogue: 0,0:32:19.88,0:32:23.35,Dialogue Top,,0,0,0,,Understood. I'll call them right away.
+Dialogue: 0,0:32:14.79,0:32:20.36,Thoughts,,0,0,0,,{\be10}This doesn't look good. Looking at his arm, it needs to be taken for an autopsy soon.
+Dialogue: 0,0:32:21.48,0:32:23.25,Thoughts,,0,0,0,,{\be10}Oh, yeah!
+Dialogue: 0,0:32:23.25,0:32:25.17,Thoughts,,0,0,0,,{\be10}There's a helicopter on this ship!
+Dialogue: 0,0:32:26.00,0:32:27.69,Dialogue,,0,0,0,,Wow, amazing!
+Dialogue: 0,0:32:27.69,0:32:29.26,Dialogue,,0,0,0,,This is where you drive the ship!
+Dialogue: 0,0:32:29.26,0:32:30.60,Dialogue,,0,0,0,,Conan{\rHonorifics - Dialogue}-kun{\r}...
+Dialogue: 0,0:32:30.60,0:32:33.13,Dialogue,,0,0,0,,Hey, brat, don't stick your nose where it doesn't belong!
+Dialogue: 0,0:32:33.13,0:32:37.25,Dialogue,,0,0,0,,I heard your voice while looking for the helicopter, Uncle!
+Dialogue: 0,0:32:37.25,0:32:38.35,Dialogue,,0,0,0,,Helicopter?
+Dialogue: 0,0:32:38.77,0:32:39.82,Dialogue,,0,0,0,,I see...
+Dialogue: 0,0:32:39.82,0:32:41.06,Dialogue,,0,0,0,,We can take the arm to shore immediately with the helicopter.
+Dialogue: 0,0:32:41.06,0:32:44.48,Dialogue,,0,0,0,,But the passengers might notice if we send out the helicopter.
+Dialogue: 0,0:32:44.48,0:32:46.55,Dialogue,,0,0,0,,This isn't the time to be worrying about that!
+Dialogue: 0,0:32:46.55,0:32:47.38,Dialogue,,0,0,0,,Mouri{\rHonorifics - Dialogue}-san{\r}...
+Dialogue: 0,0:32:47.90,0:32:52.80,Dialogue,,0,0,0,,If the civilians find out about this, it may cause a panic.
+Dialogue: 0,0:32:52.80,0:32:55.49,Dialogue,,0,0,0,,I wish I could see the helicopter flying!
+Dialogue: 0,0:32:55.94,0:32:58.33,Dialogue,,0,0,0,,Like when you showed us the cannon before!
+Dialogue: 0,0:32:59.25,0:33:02.72,Dialogue,,0,0,0,,If you pretend you're doing a demonstration like you did earlier and make the helicopter fly...
+Dialogue: 0,0:33:02.72,0:33:03.67,Dialogue,,0,0,0,,You're right!
+Dialogue: 0,0:33:03.67,0:33:06.62,Dialogue,,0,0,0,,We can avoid exposure that way!
+Dialogue: 0,0:33:06.62,0:33:07.81,Dialogue,,0,0,0,,Capt. Tateishi.
+Dialogue: 0,0:33:08.59,0:33:10.38,Dialogue,,0,0,0,,There's no time to waste.
+Dialogue: 0,0:33:11.97,0:33:13.01,Dialogue,,0,0,0,,Understood.
+Dialogue: 0,0:33:13.01,0:33:15.05,Dialogue,,0,0,0,,I'll get the helicopter ready straight away.
+Dialogue: 0,0:33:15.05,0:33:17.76,Signs,,0,0,0,,Tōkyō Police HQ
+Dialogue: 0,0:33:15.88,0:33:16.55,Dialogue,,0,0,0,,What?
+Dialogue: 0,0:33:16.55,0:33:17.76,Dialogue,,0,0,0,,On an Aegis Destroyer?
+Dialogue: 0,0:33:18.89,0:33:20.18,Dialogue,,0,0,0,,Got it.
+Dialogue: 0,0:33:20.18,0:33:22.35,Dialogue,,0,0,0,,We'll contact the Kyōto Police right away.
+Dialogue: 0,0:33:22.95,0:33:26.19,Dialogue,,0,0,0,,And we'll head there too as soon as we get authorisation to come aboard.
+Dialogue: 0,0:33:26.19,0:33:28.44,Dialogue,,0,0,0,,Please do.
+Dialogue: 0,0:33:28.44,0:33:31.65,Dialogue,,0,0,0,,There's a chance that the killer's\Nstill aboard this Aegis Destroyer.
+Dialogue: 0,0:33:32.76,0:33:37.37,Dialogue,,0,0,0,,First of all, I'm counting on you to investigate this left arm.
+Dialogue: 0,0:33:45.03,0:33:49.13,Dialogue,,0,0,0,,And now we'll show a demonstration\Nof the helicopter taking off.
+Dialogue: 0,0:33:50.50,0:33:54.01,Dialogue,,0,0,0,,It would be dangerous to get any closer, so please stay behind the barrier.
+Dialogue: 0,0:33:54.94,0:33:55.95,Dialogue,,0,0,0,,Phew.
+Dialogue: 0,0:33:55.95,0:33:57.20,Dialogue,,0,0,0,,Somehow, we made it in time.
+Dialogue: 0,0:33:58.77,0:33:59.65,Dialogue,,0,0,0,,You're...
+Dialogue: 0,0:34:00.43,0:34:01.49,Dialogue,,0,0,0,,What's wrong?
+Dialogue: 0,0:34:01.49,0:34:03.10,Dialogue,,0,0,0,,Did you lose your dad again?
+Dialogue: 0,0:34:03.85,0:34:05.67,Dialogue,,0,0,0,,You were alone before too.
+Dialogue: 0,0:34:06.97,0:34:08.90,Dialogue,,0,0,0,,Are you okay?
+Dialogue: 0,0:34:09.33,0:34:10.95,Dialogue,,0,0,0,,Where are your parents?
+Dialogue: 0,0:34:12.36,0:34:16.02,Dialogue,,0,0,0,,His father's supposed to be here, but it seems he got lost.
+Dialogue: 0,0:34:16.02,0:34:16.95,Dialogue,,0,0,0,,Really?
+Dialogue: 0,0:34:18.02,0:34:20.57,Dialogue,,0,0,0,,Your name was Yūki{\rHonorifics - Dialogue}-kun{\r}, right?
+Dialogue: 0,0:34:21.40,0:34:22.08,Dialogue,,0,0,0,,Yeah.
+Dialogue: 0,0:34:22.59,0:34:25.15,Dialogue,,0,0,0,,Then you stay with him, Conan{\rHonorifics - Dialogue}-kun{\r}.
+Dialogue: 0,0:34:25.15,0:34:27.96,Dialogue,,0,0,0,,I'll talk to an SDF member about Yūki{\rHonorifics - Dialogue}-kun{\r}'s situation.
+Dialogue: 0,0:34:28.30,0:34:30.42,Dialogue,,0,0,0,,Stop! If you do that...
+Dialogue: 0,0:34:31.12,0:34:32.30,Dialogue,,0,0,0,,If I do that...?
+Dialogue: 0,0:34:33.46,0:34:35.76,Dialogue,,0,0,0,,I'm fine.
+Dialogue: 0,0:34:36.64,0:34:37.59,Dialogue,,0,0,0,,I'm fine!
+Dialogue: 0,0:34:37.59,0:34:39.30,Dialogue,,0,0,0,,Hold on, Yūki{\rHonorifics - Dialogue}-kun{\r}!
+Dialogue: 0,0:34:43.90,0:34:45.31,Dialogue,,0,0,0,,Here, you dropped these.
+Dialogue: 0,0:34:46.31,0:34:47.35,Dialogue,,0,0,0,,What kind of medicine is it?
+Dialogue: 0,0:34:47.99,0:34:49.48,Dialogue,,0,0,0,,It's for hives.
+Dialogue: 0,0:34:49.48,0:34:51.00,Dialogue,,0,0,0,,It stops me itching.
+Dialogue: 0,0:34:51.00,0:34:51.94,Dialogue,,0,0,0,,Do you have problems often?
+Dialogue: 0,0:34:52.67,0:34:55.00,Dialogue,,0,0,0,,I can't drink things with milk.
+Dialogue: 0,0:34:55.00,0:34:57.38,Dialogue,,0,0,0,,Oh, food allergies.
+Dialogue: 0,0:34:58.28,0:34:59.60,Dialogue,,0,0,0,,Wait, Yūki{\rHonorifics - Dialogue}-kun{\r}!
+Dialogue: 0,0:35:01.03,0:35:02.37,Dialogue,,0,0,0,,Dad told me...
+Dialogue: 0,0:35:03.46,0:35:04.83,Dialogue,,0,0,0,,'You'll be strong!
+Dialogue: 0,0:35:05.32,0:35:07.70,Dialogue,,0,0,0,,That's why I named you Yūki.'
+Dialogue: 0,0:35:05.32,0:35:07.70,Thoughts,,0,0,0,,{\be10}courage
+Dialogue: 0,0:35:08.66,0:35:10.57,Dialogue,,0,0,0,,So I'm fine!
+Dialogue: 0,0:35:10.57,0:35:11.92,Dialogue,,0,0,0,,Yūki!
+Dialogue: 0,0:35:12.48,0:35:14.11,Dialogue,,0,0,0,,So that's where you were!
+Dialogue: 0,0:35:14.81,0:35:16.32,Dialogue,,0,0,0,,Are you his father?
+Dialogue: 0,0:35:16.32,0:35:17.15,Dialogue,,0,0,0,,Yes.
+Dialogue: 0,0:35:17.15,0:35:19.88,Dialogue,,0,0,0,,Great. It seems he got lost...
+Dialogue: 0,0:35:20.32,0:35:22.21,Dialogue,,0,0,0,,Sorry for the bother.
+Dialogue: 0,0:35:22.89,0:35:25.89,Dialogue,,0,0,0,,See, that's what happens when you wander off on your own.
+Dialogue: 0,0:35:46.67,0:35:49.54,Dialogue,,0,0,0,,Hey, aren't we in Maizuru now?
+Dialogue: 0,0:35:50.00,0:35:50.85,Dialogue,,0,0,0,,Yeah.
+Dialogue: 0,0:35:50.85,0:35:53.31,Dialogue,,0,0,0,,But first, we gotta get some intel nearby.
+Dialogue: 0,0:35:54.85,0:35:56.38,Thoughts,,0,0,0,,{\be10}What's with all those people?
+Dialogue: 0,0:35:57.64,0:36:00.47,Dialogue,,0,0,0,,To think something like that\Nhappened on that Aegis Destroyer...
+Dialogue: 0,0:36:00.91,0:36:02.71,Radio,,0,0,0,,{\be10}I was surprised too, to be honest.
+Dialogue: 0,0:36:02.71,0:36:04.93,Dialogue,,0,0,0,,There's a lot of noise. What's going on?
+Dialogue: 0,0:36:04.93,0:36:08.39,Dialogue,,0,0,0,,Oh, I'm in hiding so my satellite\Ntransmissions don't get traced.
+Dialogue: 0,0:36:08.85,0:36:11.31,Radio,,0,0,0,,{\be10}That way you're protected against being traced.
+Dialogue: 0,0:36:11.66,0:36:13.67,Dialogue,,0,0,0,,So, what about that SDF lady?
+Dialogue: 0,0:36:13.67,0:36:16.38,Radio,,0,0,0,,{\be10}I searched, but I couldn't find any\NSDF member that looks like her.
+Dialogue: 0,0:36:19.24,0:36:20.98,Dialogue,,0,0,0,,It really is a person!
+Dialogue: 0,0:36:20.98,0:36:22.42,Dialogue,,0,0,0,,Heiji, what is it?
+Dialogue: 0,0:36:22.42,0:36:24.47,Dialogue,,0,0,0,,Don't worry, just wait for me here.
+Dialogue: 0,0:36:24.47,0:36:25.70,Dialogue,,0,0,0,,Wait, Heiji!
+Dialogue: 0,0:36:26.64,0:36:27.91,Dialogue,,0,0,0,,He doesn't have any left arm!
+Dialogue: 0,0:36:28.89,0:36:30.06,Dialogue,,0,0,0,,Did you call the police?
+Dialogue: 0,0:36:30.06,0:36:31.25,Dialogue,,0,0,0,,They're coming now.
+Dialogue: 0,0:36:31.25,0:36:33.75,Thoughts,,0,0,0,,{\be10}A corpse without a left arm?
+Dialogue: 0,0:36:34.79,0:36:36.46,Thoughts,,0,0,0,,{\be10}A lieutenant's stripes.
+Dialogue: 0,0:36:37.01,0:36:38.30,Thoughts,,0,0,0,,{\be10}There's no doubt then.
+Dialogue: 0,0:36:38.30,0:36:40.80,Thoughts,,0,0,0,,{\be10}It's the body of Sasaura{\rHonorifics - Thoughts\be10}-san{\r\be10} —\hthe guy Kudō was talkin' about.
+Dialogue: 0,0:36:41.90,0:36:42.93,Thoughts,,0,0,0,,{\be10}Is that blood?
+Dialogue: 0,0:36:44.23,0:36:45.52,Thoughts,,0,0,0,,{\be10}No, it ain't blood.
+Dialogue: 0,0:36:45.52,0:36:46.74,Thoughts,,0,0,0,,{\be10}Then what is it?
+Dialogue: 0,0:36:47.65,0:36:49.37,Dialogue,,0,0,0,,You can't, you can't!
+Dialogue: 0,0:36:49.37,0:36:50.74,Dialogue,,0,0,0,,What is it, kid?
+Dialogue: 0,0:36:50.74,0:36:54.60,Dialogue,,0,0,0,,You can't touch or move the body until the police arrive!
+Dialogue: 0,0:37:08.47,0:37:10.62,Dialogue,,0,0,0,,I'm Megure from the Tōkyō Police.
+Dialogue: 0,0:37:10.62,0:37:13.75,Dialogue,,0,0,0,,We came on board along with these people from the Wakasa Coast Guard.
+Dialogue: 0,0:37:14.35,0:37:17.13,Dialogue,,0,0,0,,Welcome. I'm Tateishi, the Captain.
+Dialogue: 0,0:37:17.82,0:37:18.70,Dialogue,,0,0,0,,I'm Satō.
+Dialogue: 0,0:37:18.70,0:37:19.92,Dialogue,,0,0,0,,I'm Takagi.
+Dialogue: 0,0:37:19.92,0:37:23.26,Signs,,0,0,0,,Wakasa Coast Guard Security Dept.
+Dialogue: 0,0:37:19.92,0:37:23.26,Signs,,0,0,0,,Masaaki Kurata
+Dialogue: 0,0:37:21.67,0:37:23.26,Signs,,0,0,0,,Tsutomu Munekawa
+Dialogue: 0,0:37:21.67,0:37:23.26,Signs,,0,0,0,,Wakasa Coast Guard Criminal Affairs
+Dialogue: 0,0:37:20.08,0:37:22.00,Dialogue Top,,0,0,0,,I'm Kurata from the Security Department.
+Dialogue: 0,0:37:22.00,0:37:23.26,Dialogue Top,,0,0,0,,I'm Munekawa from Criminal Affairs.
+Dialogue: 0,0:37:23.78,0:37:25.48,Dialogue,,0,0,0,,Let's talk inside.
+Dialogue: 0,0:37:25.48,0:37:26.25,Dialogue,,0,0,0,,Right.
+Dialogue: 0,0:37:28.25,0:37:28.99,Dialogue,,0,0,0,,What?
+Dialogue: 0,0:37:28.99,0:37:30.43,Dialogue,,0,0,0,,At the shipyard in Wakasa Bay?
+Dialogue: 0,0:37:30.90,0:37:31.70,Dialogue,,0,0,0,,Yeah.
+Dialogue: 0,0:37:31.70,0:37:32.80,Dialogue,,0,0,0,,I'm pretty sure.
+Dialogue: 0,0:37:32.80,0:37:35.39,Dialogue,,0,0,0,,The body has the same rank and missin' body part.
+Dialogue: 0,0:37:35.82,0:37:42.86,Dialogue,,0,0,0,,That means Sasaura{\rHonorifics - Dialogue}-san{\r} got his arm swallowed by the Aegis Destroyer at Maizuru Harbour, and then his corpse drifted here.
+Dialogue: 0,0:37:42.86,0:37:45.41,Dialogue,,0,0,0,,It drifted...? But how?
+Dialogue: 0,0:37:45.41,0:37:48.91,Radio,,0,0,0,,{\be10}Wouldn't it have drifted on the ocean currents?
+Dialogue: 0,0:37:48.91,0:37:50.45,Dialogue,,0,0,0,,Is there even a current going that way?
+Dialogue: 0,0:37:50.83,0:37:52.45,Dialogue,,0,0,0,,Well, I'll check into that.
+Dialogue: 0,0:37:52.45,0:37:55.96,Dialogue,,0,0,0,,Along with the substance I found on his body.
+Dialogue: 0,0:37:56.54,0:37:57.88,Dialogue,,0,0,0,,Substance?
+Dialogue: 0,0:37:57.88,0:38:01.67,Radio,,0,0,0,,{\be10}Yeah. I don't know what it is, but there was a red substance on his neck.
+Dialogue: 0,0:38:02.25,0:38:03.85,Dialogue,,0,0,0,,A red substance...
+Dialogue: 0,0:38:05.14,0:38:07.64,Dialogue,,0,0,0,,Hattori, meet up with Dr. Agasa.
+Dialogue: 0,0:38:11.25,0:38:13.10,Dialogue,,0,0,0,,Chow time!
+Dialogue: 0,0:38:14.38,0:38:15.27,Dialogue,,0,0,0,,Yummy!
+Dialogue: 0,0:38:15.68,0:38:18.18,Dialogue,,0,0,0,,Navy curry is so good!
+Dialogue: 0,0:38:18.18,0:38:20.73,Dialogue,,0,0,0,,It's the best curry I've ever had!
+Dialogue: 0,0:38:24.04,0:38:26.04,Dialogue,,0,0,0,,Right, it's really good!
+Dialogue: 0,0:38:27.88,0:38:28.74,Dialogue,,0,0,0,,Yūki{\rHonorifics - Dialogue}-kun{\r}...
+Dialogue: 0,0:38:33.55,0:38:35.40,Thoughts,,0,0,0,,{\be10}Maybe I'm just overthinking this.
+Dialogue: 0,0:38:35.40,0:38:38.10,Dialogue,,0,0,0,,I wish I could cook curry like this!
+Dialogue: 0,0:38:39.10,0:38:41.42,Dialogue,,0,0,0,,'Yes, yes, it's really nice!'
+Dialogue: 0,0:38:41.42,0:38:42.29,Dialogue,,0,0,0,,What?
+Dialogue: 0,0:38:42.29,0:38:48.46,Dialogue,,0,0,0,,Why don't you call him saying 'I cooked you some delicious curry, so hurry back!'
+Dialogue: 0,0:38:48.46,0:38:51.60,Dialogue,,0,0,0,,Don't be stupid. He won't come back just for curry.
+Dialogue: 0,0:38:52.93,0:38:53.91,Thoughts,,0,0,0,,{\be10}She's right.
+Dialogue: 0,0:38:55.30,0:38:56.98,Dialogue,,0,0,0,,I'll go call him.
+Dialogue: 0,0:38:56.98,0:38:57.95,Dialogue,,0,0,0,,Now you've got it!
+Dialogue: 0,0:38:57.95,0:38:59.65,Dialogue,,0,0,0,,No, it's not that.
+Dialogue: 0,0:38:59.65,0:39:01.92,Dialogue,,0,0,0,,I just have something I want to tell Shin'ichi.
+Dialogue: 0,0:39:01.92,0:39:04.11,Dialogue,,0,0,0,,Yeah, yeah. See ya!
+Dialogue: 0,0:39:04.11,0:39:06.95,Thoughts,,0,0,0,,{\be10}What does she want to tell me?
+Dialogue: 0,0:39:06.95,0:39:08.15,Thoughts,,0,0,0,,{\be10}Oh no, she's gonna call me!
+Dialogue: 0,0:39:09.20,0:39:10.54,Dialogue,,0,0,0,,Conan{\rHonorifics - Dialogue}-kun{\r}, where are you going?
+Dialogue: 0,0:39:10.54,0:39:11.65,Dialogue,,0,0,0,,To the toilet.
+Dialogue: 0,0:39:11.65,0:39:13.14,Dialogue,,0,0,0,,Again?
+Dialogue: 0,0:39:13.14,0:39:14.49,Dialogue,,0,0,0,,I'll be back soon!
+Dialogue: 0,0:39:15.50,0:39:19.12,Dialogue,,0,0,0,,That's my deduction and everything we know so far.
+Dialogue: 0,0:39:19.45,0:39:20.45,Dialogue,,0,0,0,,I see.
+Dialogue: 0,0:39:20.45,0:39:25.10,Dialogue,,0,0,0,,So there hasn't been a thorough investigation yet due to the public exercises.
+Dialogue: 0,0:39:25.10,0:39:25.59,Dialogue,,0,0,0,,Right.
+Dialogue: 0,0:39:25.59,0:39:27.70,Dialogue,,0,0,0,,Where are the civilians now?
+Dialogue: 0,0:39:27.70,0:39:30.45,Dialogue,,0,0,0,,Eating lunch in the cafeteria.
+Dialogue: 0,0:39:30.45,0:39:34.43,Dialogue,,0,0,0,,Then now would be the perfect time to investigate the areas open to the public.
+Dialogue: 0,0:39:34.43,0:39:40.10,Dialogue,,0,0,0,,But I heard that Lt. Sasaura's body was found at a shipyard in Wakasa Bay.
+Dialogue: 0,0:39:40.10,0:39:42.10,Dialogue,,0,0,0,,Do we need a thorough investigation?
+Dialogue: 0,0:39:42.10,0:39:43.63,Dialogue,,0,0,0,,Just to make sure.
+Dialogue: 0,0:39:43.63,0:39:47.75,Dialogue,,0,0,0,,There's still the possibility that he got sucked into the pump gate {\i1}before{\i0} the ship departed.
+Dialogue: 0,0:39:49.84,0:39:51.30,Dialogue,,0,0,0,,Understood.
+Dialogue: 0,0:39:51.30,0:39:52.99,Dialogue,,0,0,0,,I'll guide you around.
+Dialogue: 0,0:39:56.88,0:39:57.33,Radio,,0,0,0,,{\be10}That you, Ran?
+Dialogue: 0,0:39:58.38,0:40:00.04,Dialogue,,0,0,0,,How did you know it's me?
+Dialogue: 0,0:40:00.62,0:40:02.87,Dialogue,,0,0,0,,Never mind that, just tell me what's up.
+Dialogue: 0,0:40:02.87,0:40:03.88,Radio,,0,0,0,,{\be10}Never mind? But...
+Dialogue: 0,0:40:05.03,0:40:06.86,Radio,,0,0,0,,{\be10}Well, Shin'ichi, at the moment...
+Dialogue: 0,0:40:06.86,0:40:08.21,Dialogue,,0,0,0,,...you're aboard an Aegis Destroyer, right?
+Dialogue: 0,0:40:09.11,0:40:11.88,Radio,,0,0,0,,{\be10}You're really lucky. I'd love to ride on one too!
+Dialogue: 0,0:40:11.88,0:40:14.05,Dialogue,,0,0,0,,Wait, how did you know?
+Dialogue: 0,0:40:14.05,0:40:15.57,Radio,,0,0,0,,{\be10}Didn't I tell you before?
+Dialogue: 0,0:40:15.57,0:40:18.31,Radio,,0,0,0,,{\be10}I can find you no matter where you are.
+Dialogue: 0,0:40:19.46,0:40:20.85,Dialogue,,0,0,0,,Shin'ichi...
+Dialogue: 0,0:40:21.49,0:40:22.85,Dialogue,,0,0,0,,Oh, I get it!
+Dialogue: 0,0:40:22.85,0:40:24.06,Dialogue,,0,0,0,,It was Conan{\rHonorifics - Dialogue}-kun{\r}!
+Dialogue: 0,0:40:24.06,0:40:26.09,Dialogue,,0,0,0,,He told you over the phone!
+Dialogue: 0,0:40:26.09,0:40:27.52,Radio,,0,0,0,,{\be10}Y-Yeah.
+Dialogue: 0,0:40:28.25,0:40:30.19,Dialogue,,0,0,0,,Don't worry.
+Dialogue: 0,0:40:30.19,0:40:31.85,Dialogue,,0,0,0,,I'll finish up the case soon.
+Dialogue: 0,0:40:33.19,0:40:35.86,Radio,,0,0,0,,{\be10}Don't say things you don't mean when you're that far away.
+Dialogue: 0,0:40:36.50,0:40:37.62,Dialogue,,0,0,0,,What about it?
+Dialogue: 0,0:40:37.94,0:40:40.12,Radio,,0,0,0,,{\be10}You don't feel safe if I'm not with you or something?
+Dialogue: 0,0:40:40.97,0:40:42.50,Dialogue,,0,0,0,,What are you talking about?
+Dialogue: 0,0:40:42.90,0:40:44.50,Dialogue,,0,0,0,,That makes no sense!
+Dialogue: 0,0:40:44.50,0:40:46.40,Radio,,0,0,0,,{\be10}That's the spirit!
+Dialogue: 0,0:40:46.40,0:40:46.92,Radio,,0,0,0,,{\be10}See ya!
+Dialogue: 0,0:40:46.92,0:40:48.21,Radio,,0,0,0,,{\be10}Do your best!
+Dialogue: 0,0:40:48.80,0:40:50.20,Dialogue,,0,0,0,,Wait!
+Dialogue: 0,0:40:53.83,0:40:55.52,Thoughts,,0,0,0,,{\be10}Though I'm actually pretty close to you.
+Dialogue: 0,0:41:00.70,0:41:02.23,Dialogue,,0,0,0,,Jerk.
+Dialogue: 0,0:41:04.37,0:41:07.70,Dialogue,,0,0,0,,It seems Inspector Megure's group found it on the deck.
+Dialogue: 0,0:41:07.70,0:41:09.03,Dialogue,,0,0,0,,Where on the deck?
+Dialogue: 0,0:41:09.03,0:41:10.34,Dialogue,,0,0,0,,I don't know that...
+Dialogue: 0,0:41:10.34,0:41:12.19,Dialogue,,0,0,0,,Anyway, let's hurry.
+Dialogue: 0,0:41:12.75,0:41:14.71,Thoughts,,0,0,0,,{\be10}Did they find something on the deck?
+Dialogue: 0,0:41:15.94,0:41:17.21,Dialogue,,0,0,0,,Over here!
+Dialogue: 0,0:41:17.21,0:41:18.80,Dialogue,,0,0,0,,Yes, right here.
+Dialogue: 0,0:41:18.80,0:41:23.78,Dialogue,,0,0,0,,Sasaura{\rHonorifics - Dialogue}-san{\r}'s mobile phone was on these missile launchers.
+Dialogue: 0,0:41:23.78,0:41:24.96,Dialogue,,0,0,0,,Where exactly?
+Dialogue: 0,0:41:25.32,0:41:26.71,Dialogue,,0,0,0,,In this gap.
+Dialogue: 0,0:41:27.35,0:41:28.13,Dialogue,,0,0,0,,Let me see.
+Dialogue: 0,0:41:28.60,0:41:30.36,Dialogue,,0,0,0,,When was it last used?
+Dialogue: 0,0:41:30.36,0:41:32.46,Dialogue,,0,0,0,,The last e-mail was yesterday after 9 PM.
+Dialogue: 0,0:41:32.85,0:41:36.20,Dialogue,,0,0,0,,And the last call was this morning at 5:30.
+Dialogue: 0,0:41:36.20,0:41:37.55,Dialogue,,0,0,0,,5:30 this morning?
+Dialogue: 0,0:41:37.55,0:41:40.14,Dialogue,,0,0,0,,That's when his wristwatch stopped.
+Dialogue: 0,0:41:40.14,0:41:42.45,Dialogue,,0,0,0,,It's also his estimated time of death.
+Dialogue: 0,0:41:43.40,0:41:48.36,Dialogue,,0,0,0,,According to the autopsy, Sasaura{\rHonorifics - Dialogue}-san{\r} died this morning between 4 and 6.
+Dialogue: 0,0:41:48.67,0:41:52.69,Dialogue,,0,0,0,,In other words, Sasaura{\rHonorifics - Dialogue}-san{\r} was aboard this Aegis Destroyer until then.
+Dialogue: 0,0:41:52.69,0:41:54.90,Dialogue,,0,0,0,,Did you find out the cause of death?
+Dialogue: 0,0:41:54.90,0:41:55.85,Dialogue,,0,0,0,,Yes.
+Dialogue: 0,0:41:55.85,0:41:56.82,Dialogue,,0,0,0,,Drowning.
+Dialogue: 0,0:41:56.82,0:42:01.74,Dialogue,,0,0,0,,So are you saying Sasaura{\rHonorifics - Dialogue}-san{\r} fell from this Aegis Destroyer at 5:30 AM?
+Dialogue: 0,0:42:02.12,0:42:03.50,Dialogue,,0,0,0,,It seems so.
+Dialogue: 0,0:42:03.50,0:42:05.33,Dialogue,,0,0,0,,I see, I got it!
+Dialogue: 0,0:42:05.62,0:42:09.92,Dialogue,,0,0,0,,At 5:30 this morning, Sasaura{\rHonorifics - Dialogue}-san{\r} was fighting with someone right here.
+Dialogue: 0,0:42:10.23,0:42:12.17,Dialogue,,0,0,0,,That's when he dropped his phone.
+Dialogue: 0,0:42:12.71,0:42:16.43,Dialogue,,0,0,0,,Then, Sasaura{\rHonorifics - Dialogue}-san{\r} ran away, but was probably trapped somewhere nearby.
+Dialogue: 0,0:42:16.43,0:42:18.64,Dialogue,,0,0,0,,And then he was pushed into the sea.
+Dialogue: 0,0:42:19.04,0:42:21.47,Dialogue,,0,0,0,,If you're right, it's a homicide.
+Dialogue: 0,0:42:21.47,0:42:28.34,Dialogue,,0,0,0,,Then Sasaura{\rHonorifics - Dialogue}-san{\r}'s body was swallowed by the ship's pump gate and got stuck in there before the departure.
+Dialogue: 0,0:42:28.34,0:42:29.31,Dialogue,,0,0,0,,Yes.
+Dialogue: 0,0:42:29.70,0:42:38.69,Dialogue,,0,0,0,,Then the ship's pumping system was started again after they left Maizuru Harbour, severing Sasaura{\rHonorifics - Dialogue}-san{\r}'s arm.
+Dialogue: 0,0:42:39.33,0:42:46.04,Dialogue,,0,0,0,,Then, his body drifting in the sea was taken to Wakasa Bay by the ocean current.
+Dialogue: 0,0:42:46.55,0:42:50.47,Dialogue,,0,0,0,,Thinking about it, the fact that his phone is here also—
+Dialogue: 0,0:42:51.68,0:42:54.63,Dialogue,,0,0,0,,This phone has the microSD card slot open!
+Dialogue: 0,0:42:54.63,0:42:56.88,Dialogue,,0,0,0,,I don't remember it being open earlier.
+Dialogue: 0,0:42:57.30,0:42:58.70,Dialogue,,0,0,0,,Does it have a card in there?
+Dialogue: 0,0:42:58.70,0:42:59.95,Dialogue,,0,0,0,,No.
+Dialogue: 0,0:42:59.95,0:43:01.64,Dialogue,,0,0,0,,Could the killer have taken it?
+Dialogue: 0,0:43:01.64,0:43:06.60,Dialogue,,0,0,0,,So the killer murdered Sasaura{\rHonorifics - Dialogue}-san{\r} in order to steal the data card from his phone!
+Dialogue: 0,0:43:06.60,0:43:10.02,Thoughts,,0,0,0,,{\be10}Damn, I can't see the phone from here...
+Dialogue: 0,0:43:10.64,0:43:12.45,Thoughts,,0,0,0,,{\be10}I guess I'll have to get closer.
+Dialogue: 0,0:43:18.83,0:43:19.67,Thoughts,,0,0,0,,{\be10}I won't let you get away!
+Dialogue: 0,0:43:22.33,0:43:23.95,Dialogue,,0,0,0,,What is it, Mouri{\rHonorifics - Dialogue}-kun{\r}?
+Dialogue: 0,0:43:23.95,0:43:25.38,Dialogue,,0,0,0,,No, it's nothing...
+Dialogue: 0,0:43:29.42,0:43:30.46,Dialogue,,0,0,0,,Upstairs?
+Dialogue: 0,0:43:38.19,0:43:38.76,Dialogue,,0,0,0,,No...
+Dialogue: 0,0:43:39.35,0:43:40.22,Dialogue,,0,0,0,,It's broken!
+Dialogue: 0,0:43:43.13,0:43:43.93,Thoughts,,0,0,0,,{\be10}What happened?
+Dialogue: 0,0:43:51.17,0:43:51.60,Dialogue,,0,0,0,,What?
+Dialogue: 0,0:43:51.60,0:43:53.03,Thoughts,,0,0,0,,{\be10}The captain's quarters?
+Dialogue: 0,0:44:16.21,0:44:17.67,Thoughts,,0,0,0,,{\be10}That's a microSD card!
+Dialogue: 0,0:44:18.76,0:44:19.21,Thoughts,,0,0,0,,{\be10}Go!
+Dialogue: 0,0:44:23.09,0:44:25.76,Thoughts,,0,0,0,,{\be10}So this really is the data...
+Dialogue: 0,0:44:25.76,0:44:27.60,Dialogue,,0,0,0,,I'll be in my room.
+Dialogue: 0,0:44:27.60,0:44:30.45,Dialogue,,0,0,0,,Call me as soon as you find out something.
+Dialogue: 0,0:44:30.45,0:44:32.01,Dialogue,,0,0,0,,Oh, Captain!
+Dialogue: 0,0:44:32.01,0:44:33.54,Dialogue,,0,0,0,,Can I take a photo with you?
+Dialogue: 0,0:44:34.23,0:44:38.57,Dialogue,,0,0,0,,Kid, this area is off-limits, so how about we take the photo over there?
+Dialogue: 0,0:44:38.57,0:44:39.91,Dialogue,,0,0,0,,Okay!
+Dialogue: 0,0:44:51.05,0:44:53.76,Thoughts,,0,0,0,,{\be10}Figures —\hshe removed the data card.
+Dialogue: 0,0:44:54.40,0:44:58.37,Thoughts,,0,0,0,,{\be10}But she didn't have time to completely delete the data she extracted on this computer.
+Dialogue: 0,0:45:01.89,0:45:03.59,Dialogue,,0,0,0,,So where is the phone now?
+Dialogue: 0,0:45:04.23,0:45:05.66,Dialogue,,0,0,0,,In the meeting room.
+Dialogue: 0,0:45:05.66,0:45:07.55,Dialogue,,0,0,0,,And the Tōkyō Police?
+Dialogue: 0,0:45:07.55,0:45:09.41,Dialogue Top,,0,0,0,,They're inspecting the contents of the phone.
+Dialogue: 0,0:45:08.13,0:45:09.81,Thoughts,,0,0,0,,{\be10}Why is the Captain here?
+Dialogue: 0,0:45:10.20,0:45:11.70,Thoughts,,0,0,0,,{\be10}Oh, crap.
+Dialogue: 0,0:45:11.70,0:45:12.31,Thoughts,,0,0,0,,{\be10}That voice was...
+Dialogue: 0,0:45:25.35,0:45:26.49,Thoughts,,0,0,0,,{\be10}Did she figure it out?
+Dialogue: 0,0:45:27.45,0:45:28.76,Thoughts,,0,0,0,,{\be10}If only I had more time...!
+Dialogue: 0,0:45:35.79,0:45:36.87,Dialogue,,0,0,0,,Don't move!
+Dialogue: 0,0:45:37.92,0:45:38.66,Dialogue,,0,0,0,,He got me!
+Dialogue: 0,0:45:42.60,0:45:45.18,Thoughts,,0,0,0,,{\be10}Damn, I didn't manage to copy everything.
+Dialogue: 0,0:45:45.18,0:45:47.22,Thoughts,,0,0,0,,{\be10}Why would X be interested in this data now...?
+Dialogue: 0,0:45:47.72,0:45:48.51,Thoughts,,0,0,0,,{\be10}X?
+Dialogue: 0,0:45:47.72,0:45:49.82,Dialogue Top,,0,0,0,,I better put everything back the way it was.
+Dialogue: 0,0:45:49.82,0:45:50.72,Thoughts,,0,0,0,,{\be10}That reminds me...
+Dialogue: 0,0:45:50.97,0:45:53.13,Flashback,,0,0,0,,{\be10}We couldn't find any traces of X either.
+Dialogue: 0,0:45:53.13,0:45:54.52,Flashback Thoughts,,0,0,0,,{\be10}X?
+Dialogue: 0,0:45:55.15,0:45:59.57,Thoughts,,0,0,0,,{\be10}Anyway, I better get out of here as soon as possible, and send what I could copy to the doc.
+Dialogue: 0,0:46:00.33,0:46:01.73,Thoughts,,0,0,0,,{\be10}No, wait.
+Dialogue: 0,0:46:02.31,0:46:07.07,Thoughts,,0,0,0,,{\be10}If I make a satellite transmission\Nhere, I might find out who she is.
+Dialogue: 0,0:46:10.23,0:46:11.66,Dialogue,,0,0,0,,I'm getting satellite signals again!
+Dialogue: 0,0:46:12.63,0:46:14.26,Dialogue,,0,0,0,,They're coming from the captain's quarters!
+Dialogue: 0,0:46:14.26,0:46:15.22,Dialogue,,0,0,0,,What?
+Dialogue: 0,0:46:15.22,0:46:16.71,Dialogue,,0,0,0,,The Captain's in a meeting now.
+Dialogue: 0,0:46:17.15,0:46:19.61,Dialogue,,0,0,0,,Could it be X?
+Dialogue: 0,0:46:19.61,0:46:22.16,Dialogue,,0,0,0,,Go confirm the Captain's whereabouts!
+Dialogue: 0,0:46:22.16,0:46:22.71,Dialogue,,0,0,0,,Sir.
+Dialogue: 0,0:46:24.52,0:46:25.85,Dialogue,,0,0,0,,This is a problem.
+Dialogue: 0,0:46:25.85,0:46:28.47,Dialogue,,0,0,0,,There's important data in the captain's quarters.
+Dialogue: 0,0:46:30.72,0:46:32.95,Dialogue,,0,0,0,,Download complete.
+Dialogue: 0,0:46:32.95,0:46:36.56,Dialogue,,0,0,0,,What did Shin'ichi send us this time?
+Dialogue: 0,0:46:36.98,0:46:38.00,Dialogue,,0,0,0,,Who knows?
+Dialogue: 0,0:46:38.00,0:46:42.02,Dialogue,,0,0,0,,But since it's from Kudō{\rHonorifics - Dialogue}-kun{\r},\NI suppose he wants us to investigate it.
+Dialogue: 0,0:46:42.02,0:46:44.32,Dialogue,,0,0,0,,Oh, we've arrived in Kyōto!
+Dialogue: 0,0:46:46.19,0:46:47.32,Dialogue,,0,0,0,,Don't move!
+Dialogue: 0,0:46:49.84,0:46:50.99,Dialogue,,0,0,0,,What are you doing here?
+Dialogue: 0,0:46:52.13,0:46:54.20,Dialogue,,0,0,0,,You don't need to know.
+Dialogue: 0,0:46:54.20,0:46:55.12,Dialogue,,0,0,0,,Capt. Fujii.
+Dialogue: 0,0:46:55.99,0:46:57.40,Dialogue,,0,0,0,,Was it you?
+Dialogue: 0,0:46:57.40,0:46:59.67,Dialogue,,0,0,0,,Captain, I'll explain later.
+Dialogue: 0,0:47:00.75,0:47:02.46,Dialogue,,0,0,0,,Oh, it's you!
+Dialogue: 0,0:47:03.50,0:47:04.13,Dialogue,,0,0,0,,Who is she?
+Dialogue: 0,0:47:04.46,0:47:05.95,Dialogue,,0,0,0,,It's okay.
+Dialogue: 0,0:47:06.79,0:47:08.25,Dialogue,,0,0,0,,Please get out.
+Dialogue: 0,0:47:08.25,0:47:08.88,Dialogue,,0,0,0,,Yes.
+Dialogue: 0,0:47:10.10,0:47:11.63,Dialogue,,0,0,0,,Wait!
+Dialogue: 0,0:47:11.63,0:47:14.93,Dialogue,,0,0,0,,We came here because a\Nsuspicious transmission was detected!
+Dialogue: 0,0:47:15.25,0:47:18.07,Dialogue,,0,0,0,,Yes, and when we arrived, she was here.
+Dialogue: 0,0:47:18.07,0:47:21.15,Dialogue,,0,0,0,,I think we have the right to ask your identity.
+Dialogue: 0,0:47:21.51,0:47:26.69,Dialogue,,0,0,0,,I'm sorry, but we can't reveal her identity to outsiders.
+Dialogue: 0,0:47:26.69,0:47:28.50,Dialogue,,0,0,0,,Outsiders?
+Dialogue: 0,0:47:28.50,0:47:29.84,Dialogue,,0,0,0,,Are you joking?
+Dialogue: 0,0:47:29.84,0:47:30.75,Dialogue,,0,0,0,,They're right!
+Dialogue: 0,0:47:30.75,0:47:35.24,Dialogue,,0,0,0,,Be it the police or the Coast Guard, we're all partners investigating this case, aren't we?
+Dialogue: 0,0:47:36.85,0:47:40.91,Dialogue,,0,0,0,,Ah! It's the SDF lady!
+Dialogue: 0,0:47:40.91,0:47:42.33,Dialogue,,0,0,0,,You're wandering around again?!
+Dialogue: 0,0:47:42.33,0:47:47.71,Dialogue,,0,0,0,,A friend told me it's very rare for an SDF lady to be aboard an Aegis Destroyer.
+Dialogue: 0,0:47:47.92,0:47:49.67,Dialogue,,0,0,0,,That's enough from you...
+Dialogue: 0,0:47:49.67,0:47:50.80,Dialogue,,0,0,0,,He's right!
+Dialogue: 0,0:47:50.80,0:47:53.89,Dialogue,,0,0,0,,Are female SDF officers even allowed to be on board an Aegis Destroyer?
+Dialogue: 0,0:47:54.78,0:47:55.85,Dialogue,,0,0,0,,Yes.
+Dialogue: 0,0:47:55.85,0:48:00.60,Dialogue,,0,0,0,,There are recent plans that allow female SDF officers aboard Aegis Destroyers too.
+Dialogue: 0,0:48:00.60,0:48:03.35,Dialogue,,0,0,0,,So she's here to guide civilians around...
+Dialogue: 0,0:48:03.35,0:48:05.82,Dialogue,,0,0,0,,I see. That explains it.
+Dialogue: 0,0:48:05.82,0:48:10.07,Dialogue,,0,0,0,,Huh? But she said earlier that she was in charge of cooking!
+Dialogue: 0,0:48:10.96,0:48:13.27,Dialogue,,0,0,0,,Ah, that's right.
+Dialogue: 0,0:48:13.27,0:48:14.70,Dialogue,,0,0,0,,How do you explain that?
+Dialogue: 0,0:48:15.30,0:48:17.39,Dialogue,,0,0,0,,Well...
+Dialogue: 0,0:48:17.39,0:48:24.61,Dialogue,,0,0,0,,If you keep acting like this, we'll have no choice but to assume Sasaura{\rHonorifics - Dialogue}-san{\r}'s killer is one of you.
+Dialogue: 0,0:48:24.61,0:48:25.46,Dialogue,,0,0,0,,Wait.
+Dialogue: 0,0:48:25.93,0:48:29.16,Dialogue,,0,0,0,,We'll cooperate as much as we can.
+Dialogue: 0,0:48:29.16,0:48:29.85,Dialogue,,0,0,0,,Captain!
+Dialogue: 0,0:48:30.93,0:48:34.62,Dialogue,,0,0,0,,Since things turned out this way,\Nmaybe we should tell them...
+Dialogue: 0,0:48:34.62,0:48:35.30,Dialogue,,0,0,0,,Yes.
+Dialogue: 0,0:48:37.40,0:48:40.89,Dialogue,,0,0,0,,I'm a member of Intelligence Security Command.
+Dialogue: 0,0:48:41.32,0:48:42.98,Dialogue,,0,0,0,,Intelligence Security Command?
+Dialogue: 0,0:48:42.98,0:48:45.11,Dialogue,,0,0,0,,The one that reports directly to the Minister of Defence?
+Dialogue: 0,0:48:45.59,0:48:46.63,Dialogue,,0,0,0,,Yes.
+Dialogue: 0,0:48:46.63,0:48:51.57,Dialogue,,0,0,0,,Our job is to manage the SDF's information and to monitor the ideologies of SDF members.{thoughtpolice?!}
+Dialogue: 0,0:48:51.57,0:48:56.22,Dialogue,,0,0,0,,But why is a Intelligence Security Command member on this Aegis Destroyer?
+Dialogue: 0,0:48:56.22,0:48:59.04,Dialogue,,0,0,0,,Oh! It's because of the suspicious boat found this morning, isn't it?
+Dialogue: 0,0:48:59.04,0:49:00.16,Dialogue,,0,0,0,,Yes.
+Dialogue: 0,0:49:00.16,0:49:03.54,Dialogue,,0,0,0,,We think it might be a spy ship from a certain country.
+Dialogue: 0,0:49:04.07,0:49:11.30,Dialogue,,0,0,0,,There {\i1}was{\i0} an antenna for wireless communication, as well as a bomb planted to blow it up.
+Dialogue: 0,0:49:13.05,0:49:15.02,Dialogue,,0,0,0,,You sure know a lot about it.
+Dialogue: 0,0:49:15.02,0:49:17.75,Dialogue,,0,0,0,,I was the one who found that suspicious boat.
+Dialogue: 0,0:49:18.98,0:49:21.06,Dialogue,,0,0,0,,That's why I was put on this investigation.
+Dialogue: 0,0:49:21.06,0:49:26.42,Dialogue,,0,0,0,,Since the suspicious boat was found near Maizuru Harbour, where this Aegis Destroyer was anchored,
+Dialogue: 0,0:49:26.42,0:49:30.41,Dialogue,,0,0,0,,we believe a spy might be on board.
+Dialogue: 0,0:49:30.41,0:49:31.40,Dialogue,,0,0,0,,A spy?
+Dialogue: 0,0:49:31.40,0:49:35.28,Dialogue,,0,0,0,,Yes. In our investigations, we named him 'X'.
+Dialogue: 0,0:49:35.64,0:49:36.81,Thoughts,,0,0,0,,{\be10}X?
+Dialogue: 0,0:49:36.81,0:49:38.95,Dialogue,,0,0,0,,What's the spy's goal?
+Dialogue: 0,0:49:38.95,0:49:43.41,Dialogue,,0,0,0,,We believe he is trying to obtain classified intel on Aegis Destroyers.
+Dialogue: 0,0:49:43.41,0:49:45.71,Dialogue,,0,0,0,,Intel?
+Dialogue: 0,0:49:45.71,0:49:48.25,Dialogue,,0,0,0,,What would happen if that intel leaked out?
+Dialogue: 0,0:49:48.82,0:49:54.54,Dialogue,,0,0,0,,We'd lose a lot of trust with the US, who provided the Aegis system.
+Dialogue: 0,0:49:54.54,0:50:00.55,Dialogue,,0,0,0,,But more importantly, if the routes of the Aegis Destroyers leak out,
+Dialogue: 0,0:50:00.55,0:50:04.10,Dialogue,,0,0,0,,then Japan's line of defence would be known by everybody.
+Dialogue: 0,0:50:04.10,0:50:08.73,Dialogue,,0,0,0,,We'd be defenceless to military\Naggression from other countries.
+Dialogue: 0,0:50:08.73,0:50:13.94,Dialogue,,0,0,0,,In other words, it would cause a national crisis.
+Dialogue: 0,0:50:17.40,0:50:22.75,Dialogue,,0,0,0,,Can I presume then that the victim, Sasaura{\rHonorifics - Dialogue}-san{\r}, knew about the spy?
+Dialogue: 0,0:50:22.75,0:50:23.16,Dialogue,,0,0,0,,Yes.
+Dialogue: 0,0:50:23.63,0:50:25.95,Dialogue,,0,0,0,,He knew about it because of his job.
+Dialogue: 0,0:50:25.95,0:50:27.18,Dialogue,,0,0,0,,His job?
+Dialogue: 0,0:50:28.24,0:50:30.53,Dialogue,,0,0,0,,What was Sasaura{\rHonorifics - Dialogue}-san{\r}'s job?
+Dialogue: 0,0:50:31.16,0:50:33.71,Dialogue,,0,0,0,,As a Lieutenant, he was part of management, right?
+Dialogue: 0,0:50:35.15,0:50:40.10,Dialogue,,0,0,0,,Lt. Sasaura was the Director of Intelligence for the Wakasa JMSDF base.
+Dialogue: 0,0:50:40.10,0:50:41.75,Dialogue,,0,0,0,,Director of Intelligence?
+Dialogue: 0,0:50:41.75,0:50:44.31,Dialogue,,0,0,0,,His duty was to safeguard information on Aegis Destroyers.
+Dialogue: 0,0:50:45.55,0:50:49.45,Dialogue,,0,0,0,,And so he was murdered by X, who wanted to steal that information!
+Dialogue: 0,0:50:49.45,0:50:53.90,Dialogue,,0,0,0,,So whoever took the data card from Sasaura{\rHonorifics - Dialogue}-san{\r}'s phone is X?
+Dialogue: 0,0:50:53.90,0:50:56.58,Dialogue Top,,0,0,0,,No doubt about that.
+Dialogue: 0,0:50:56.58,0:50:59.08,Dialogue Top,,0,0,0,,Then we should search this ship for X.
+Dialogue: 0,0:50:54.74,0:50:57.40,Thoughts,,0,0,0,,{\be10}No, {\i1}she{\i0} took the card out...
+Dialogue: 0,0:50:57.85,0:51:00.74,Thoughts,,0,0,0,,{\be10}But why is she keeping silent about it?
+Dialogue: 0,0:51:00.74,0:51:02.96,Dialogue,,0,0,0,,Excuse me, please let us through.
+Dialogue: 0,0:51:03.64,0:51:07.33,Dialogue,,0,0,0,,Sorry, but we have to inspect the communication tools in this room.
+Dialogue: 0,0:51:07.66,0:51:10.45,Dialogue Top,,0,0,0,,We will also have to inspect your belongings, so don't leave the room.
+Dialogue: 0,0:51:08.20,0:51:09.10,Thoughts,,0,0,0,,{\be10}Crap!
+Dialogue: 0,0:51:10.85,0:51:12.17,Dialogue,,0,0,0,,Hey, Uncle!
+Dialogue: 0,0:51:13.13,0:51:14.48,Dialogue,,0,0,0,,What?
+Dialogue: 0,0:51:14.48,0:51:17.69,Dialogue,,0,0,0,,I forgot I ordered an extra portion of curry.
+Dialogue: 0,0:51:17.69,0:51:18.84,Dialogue,,0,0,0,,Curry?
+Dialogue: 0,0:51:18.84,0:51:22.18,Dialogue,,0,0,0,,Geez, what are you doing here in the first place?!
+Dialogue: 0,0:51:22.18,0:51:23.62,Dialogue,,0,0,0,,Hurry up and get out!
+Dialogue: 0,0:51:23.62,0:51:24.51,Dialogue,,0,0,0,,Okay!
+Dialogue: 0,0:51:25.31,0:51:26.35,Thoughts,,0,0,0,,{\be10}Nice, old man!
+Dialogue: 0,0:51:39.00,0:51:40.36,Dialogue,,0,0,0,,Welcome.
+Dialogue: 0,0:51:45.83,0:51:47.17,Dialogue,,0,0,0,,Hattori, can you hear me?
+Dialogue: 0,0:51:47.89,0:51:51.09,Dialogue,,0,0,0,,Yeah, I met up with Dr. Agasa.
+Dialogue: 0,0:51:51.09,0:51:53.00,Radio,,0,0,0,,{\be10}Did you find out anything about the red substance?
+Dialogue: 0,0:51:53.47,0:51:55.03,Dialogue,,0,0,0,,We're examinin' it now.
+Dialogue: 0,0:51:55.03,0:51:56.73,Dialogue,,0,0,0,,Hold on.
+Dialogue: 0,0:51:56.73,0:52:00.68,Dialogue,,0,0,0,,Though, bein' able to do an examination like this in a car is pretty awesome!
+Dialogue: 0,0:52:01.10,0:52:03.70,Dialogue,,0,0,0,,Well, Ai{\rHonorifics - Dialogue}-kun{\r} was a scientist, after all.
+Dialogue: 0,0:52:03.70,0:52:04.79,Dialogue,,0,0,0,,A scientist?
+Dialogue: 0,0:52:04.79,0:52:08.05,Dialogue,,0,0,0,,What are you blabberin' about? She's just a little kid.
+Dialogue: 0,0:52:08.05,0:52:10.64,Dialogue,,0,0,0,,Don't mind her age.
+Dialogue: 0,0:52:12.08,0:52:13.40,Dialogue,,0,0,0,,Got it. This is it.
+Dialogue: 0,0:52:14.98,0:52:16.32,Dialogue,,0,0,0,,TBT?
+Dialogue: 0,0:52:16.68,0:52:18.09,Dialogue,,0,0,0,,Anti-fouling paint.
+Dialogue: 0,0:52:18.70,0:52:19.90,Dialogue,,0,0,0,,A special paint used for ships.
+Dialogue: 0,0:52:20.39,0:52:21.86,Dialogue,,0,0,0,,Ship paint?
+Dialogue: 0,0:52:21.86,0:52:25.95,Dialogue,,0,0,0,,Can you check if that paint is from this Aegis Destroyer?
+Dialogue: 0,0:52:25.95,0:52:28.58,Radio,,0,0,0,,{\be10}Got it. I'll get the little lady to check it now.
+Dialogue: 0,0:52:28.58,0:52:30.52,Dialogue,,0,0,0,,The little lady?
+Dialogue: 0,0:52:30.52,0:52:33.04,Radio,,0,0,0,,{\be10}Oh, and about the ocean currents...
+Dialogue: 0,0:52:33.04,0:52:38.38,Dialogue,,0,0,0,,There wasn't any current that could've brought Sasaura{\rHonorifics - Dialogue}-san{\r}'s body from Maizuru Harbour to Wakasa Bay.
+Dialogue: 0,0:52:39.38,0:52:42.52,Dialogue,,0,0,0,,So how'd the body end up in Wakasa Bay?
+Dialogue: 0,0:52:42.52,0:52:44.59,Dialogue,,0,0,0,,Oh, and what about the data I sent you?
+Dialogue: 0,0:52:44.59,0:52:45.73,Dialogue,,0,0,0,,Oh, that?
+Dialogue: 0,0:52:46.57,0:52:49.10,Dialogue,,0,0,0,,Kudō wants to ask you somethin' about the data you got earlier.
+Dialogue: 0,0:52:50.55,0:52:54.81,Dialogue,,0,0,0,,Shin'ichi, it looks like it's a piece of data about the Aegis Destroyers.
+Dialogue: 0,0:52:54.81,0:52:56.09,Dialogue,,0,0,0,,I knew it.
+Dialogue: 0,0:52:56.80,0:53:00.57,Radio,,0,0,0,,{\be10}And there are some traces showing it was copied from a certain company's cloud.
+Dialogue: 0,0:53:00.57,0:53:04.55,Dialogue,,0,0,0,,By cloud, you mean a service to store data on the Internet?
+Dialogue: 0,0:53:04.55,0:53:11.25,Dialogue,,0,0,0,,Yes. If we can work out the ID and password, we should be able to get the original data from the cloud.
+Dialogue: 0,0:53:12.80,0:53:14.19,Thoughts,,0,0,0,,{\be10}I see...
+Dialogue: 0,0:53:14.19,0:53:19.88,Thoughts,,0,0,0,,{\be10}That means that Sasaura{\rHonorifics - Thoughts\be10}-san{\r\be10} first stored the Aegis data on an online cloud service.
+Dialogue: 0,0:53:20.55,0:53:23.84,Thoughts,,0,0,0,,{\be10}And later, he copied it to the data card in his phone.
+Dialogue: 0,0:53:24.20,0:53:28.93,Thoughts,,0,0,0,,{\be10}But storing Aegis data on a cloud\Nservice aimed for public usage?
+Dialogue: 0,0:53:29.44,0:53:32.22,Thoughts,,0,0,0,,{\be10}Why would Sasaura{\rHonorifics - Thoughts\be10}-san{\r\be10} do something like that?
+Dialogue: 0,0:53:32.22,0:53:38.11,Dialogue,,0,0,0,,Doc, please use Sasaura{\rHonorifics - Dialogue}-san{\r}'s ID to access the data on the cloud and send it to the captain's room.
+Dialogue: 0,0:53:38.11,0:53:39.04,Dialogue,,0,0,0,,But how—
+Dialogue: 0,0:53:39.04,0:53:40.20,Radio,,0,0,0,,{\be10}It's okay.
+Dialogue: 0,0:53:40.20,0:53:42.40,Radio,,0,0,0,,{\be10}I just used it, and I remember the e-mail address.
+Dialogue: 0,0:53:42.86,0:53:43.79,Dialogue,,0,0,0,,I'm counting on you.
+Dialogue: 0,0:53:48.88,0:53:50.03,Radio,,0,0,0,,{\be10}Sorry to ask you this right when you get here, but could you please tell us the results of your investigation.
+Dialogue: 0,0:53:50.03,0:53:55.00,Dialogue,,0,0,0,,Sorry to ask you this right when you get here, but could you please tell us the results of your investigation.
+Dialogue: 0,0:53:55.52,0:53:57.00,Dialogue,,0,0,0,,Of course.
+Dialogue: 0,0:53:57.00,0:53:58.04,Dialogue,,0,0,0,,Captain...
+Dialogue: 0,0:53:59.71,0:54:02.71,Signs,,0,0,0,,Fumimaro Ayanokōji
+Dialogue: 0,0:53:59.71,0:54:02.71,Signs,,0,0,0,,Kyōto Police Detective
+Dialogue: 0,0:53:59.71,0:54:02.71,Signs,,0,0,0,,Kyōto Police Detective
+Dialogue: 0,0:53:59.71,0:54:02.71,Signs,,0,0,0,,Detective Kurumazaki
+Dialogue: 0,0:53:58.04,0:54:03.72,Dialogue Top,,0,0,0,,Before coming here, we investigated Sasaura{\rHonorifics - Dialogue}-han{\r}'s last actions before his murder.
+Dialogue: 0,0:54:04.53,0:54:11.01,Dialogue,,0,0,0,,At 5:30 this morning, Sasaura{\rHonorifics - Dialogue}-han{\r} was seen waving a Japanese flag on a cliff at Maizuru Harbour.
+Dialogue: 0,0:54:11.01,0:54:13.10,Dialogue,,0,0,0,,An employee from a sightseeing cruise witnessed it.
+Dialogue: 0,0:54:13.64,0:54:16.48,Dialogue,,0,0,0,,Why would Lt. Sasaura do such a thing?
+Dialogue: 0,0:54:16.48,0:54:18.33,Dialogue,,0,0,0,,We don't know...
+Dialogue: 0,0:54:18.33,0:54:20.52,Dialogue,,0,0,0,,But what happened yesterday is even more suspicious.
+Dialogue: 0,0:54:21.19,0:54:25.61,Dialogue,,0,0,0,,You interrogated Sasaura{\rHonorifics - Dialogue}-han{\r}\Nat the Wakasa JMSDF base, right?
+Dialogue: 0,0:54:26.06,0:54:26.99,Dialogue,,0,0,0,,Sekiguchi{\rHonorifics - Dialogue}-han{\r}.
+Dialogue: 0,0:54:28.95,0:54:31.91,Dialogue,,0,0,0,,Why did you question Sasaura{\rHonorifics - Dialogue}-han{\r}?
+Dialogue: 0,0:54:31.91,0:54:33.68,Dialogue,,0,0,0,,It's because...
+Dialogue: 0,0:54:34.90,0:54:36.75,Dialogue,,0,0,0,,You're still hiding things?!
+Dialogue: 0,0:54:37.23,0:54:41.47,Dialogue,,0,0,0,,Fujii{\rHonorifics - Dialogue}-san{\r}, you can't even tell us?\NWe're part of the JMSDF too!
+Dialogue: 0,0:54:41.47,0:54:44.01,Dialogue,,0,0,0,,Unless we get approval from the Ministry of Defence...
+Dialogue: 0,0:54:44.01,0:54:47.80,Dialogue,,0,0,0,,That's enough! Sasaura{\rHonorifics - Dialogue}-san{\r} was murdered!
+Dialogue: 0,0:54:48.84,0:54:52.78,Dialogue,,0,0,0,,We can't help you if you don't tell us the truth...
+Dialogue: 0,0:54:55.02,0:54:58.35,Dialogue,,0,0,0,,He was part of your team, wasn't he?! Your friend was mu—
+Dialogue: 0,0:54:58.35,0:54:59.60,Dialogue,,0,0,0,,That man was no friend of ours!
+Dialogue: 0,0:55:00.80,0:55:02.26,Dialogue,,0,0,0,,If you don't mind explaining...
+Dialogue: 0,0:55:03.33,0:55:04.32,Dialogue,,0,0,0,,What's this?
+Dialogue: 0,0:55:04.70,0:55:06.95,Dialogue,,0,0,0,,Why is the data about the Aegis\NDestroyers being sent here...?
+Dialogue: 0,0:55:07.44,0:55:08.27,Dialogue,,0,0,0,,Inspector.
+Dialogue: 0,0:55:08.27,0:55:09.20,Dialogue,,0,0,0,,Right.
+Dialogue: 0,0:55:09.56,0:55:12.91,Dialogue,,0,0,0,,If you won't cooperate willingly, then we'll have to force you.
+Dialogue: 0,0:55:14.95,0:55:15.62,Dialogue,,0,0,0,,What's this...?
+Dialogue: 0,0:55:16.24,0:55:19.83,Dialogue,,0,0,0,,It's being received under Sasaura{\rHonorifics - Dialogue}-san{\r}'s ID from a cloud service, right?
+Dialogue: 0,0:55:19.83,0:55:21.88,Thoughts,,0,0,0,,{\be10}Nice timing, Doc!
+Dialogue: 0,0:55:21.88,0:55:22.39,Dialogue,,0,0,0,,Cloud?
+Dialogue: 0,0:55:22.39,0:55:25.17,Dialogue,,0,0,0,,It couldn't be to show it to X\Naboard this Aegis Destroyer, could it?
+Dialogue: 0,0:55:25.50,0:55:26.64,Dialogue,,0,0,0,,Hold on!
+Dialogue: 0,0:55:26.64,0:55:29.97,Dialogue,,0,0,0,,Storing data about Aegis Destroyers on the Internet is a breach of protocol!
+Dialogue: 0,0:55:31.15,0:55:32.01,Dialogue,,0,0,0,,I see...
+Dialogue: 0,0:55:32.01,0:55:35.39,Dialogue,,0,0,0,,That's why you questioned Sasaura{\rHonorifics - Dialogue}-han{\r}...
+Dialogue: 0,0:55:36.42,0:55:40.07,Dialogue,,0,0,0,,And that SDF lady knew about it too.
+Dialogue: 0,0:55:41.90,0:55:42.98,Dialogue,,0,0,0,,Where are you going?!
+Dialogue: 0,0:55:44.74,0:55:46.53,Dialogue,,0,0,0,,Hold on, we haven't fini—
+Dialogue: 0,0:55:46.53,0:55:47.40,Dialogue,,0,0,0,,Let go!
+Dialogue: 0,0:55:48.10,0:55:51.30,Dialogue,,0,0,0,,Unlike all of you, I work for the sake of this country!
+Dialogue: 0,0:55:55.50,0:56:02.14,Dialogue,,0,0,0,,With that way of thinking, you won't be able to catch X, let alone protect your country.
+Dialogue: 0,0:56:04.69,0:56:06.22,Dialogue,,0,0,0,,Let's work together.
+Dialogue: 0,0:56:07.25,0:56:08.97,Dialogue,,0,0,0,,For Japan.
+Dialogue: 0,0:56:11.32,0:56:15.18,Dialogue,,0,0,0,,Data about Aegis Destroyers has been being leaked from the Wakasa JMSDF base.
+Dialogue: 0,0:56:15.50,0:56:17.06,Dialogue,,0,0,0,,Not another word, Lt. Sekiguchi!
+Dialogue: 0,0:56:18.27,0:56:21.73,Dialogue,,0,0,0,,I was ordered to investigate it by Capt. Fujii!
+Dialogue: 0,0:56:23.63,0:56:24.44,Thoughts,,0,0,0,,{\be10}I thought so!
+Dialogue: 0,0:56:24.91,0:56:29.09,Dialogue,,0,0,0,,Was it Lt. Sasaura who leaked the data about the Aegis Destroyers?
+Dialogue: 0,0:56:29.09,0:56:29.84,Dialogue,,0,0,0,,Yes.
+Dialogue: 0,0:56:29.84,0:56:33.57,Dialogue,,0,0,0,,Where did he send the data about the Aegis Destroyers to?
+Dialogue: 0,0:56:33.57,0:56:39.19,Dialogue,,0,0,0,,To a detective agency run by a man called Takekawa, that ceased activity a few years ago.
+Dialogue: 0,0:56:39.19,0:56:40.91,Dialogue,,0,0,0,,A shell company?
+Dialogue: 0,0:56:41.79,0:56:46.35,Dialogue,,0,0,0,,The company was bought by a spy who called himself 'Takekawa'.
+Dialogue: 0,0:56:46.35,0:56:48.88,Dialogue,,0,0,0,,It's a common technique used by spies in Japan.
+Dialogue: 0,0:56:49.24,0:56:53.97,Dialogue,,0,0,0,,And Sasaura{\rHonorifics - Dialogue}-san{\r} was sending\Nthe intel to this 'Takekawa', right?
+Dialogue: 0,0:56:54.36,0:56:55.03,Dialogue,,0,0,0,,Yes.
+Dialogue: 0,0:56:55.03,0:56:56.39,Dialogue,,0,0,0,,The day after we discovered this fact,
+Dialogue: 0,0:56:57.34,0:57:02.80,Dialogue,,0,0,0,,we were informed by the Coast Guard that a suspicious boat was found near Maizuru Harbour.
+Dialogue: 0,0:57:03.71,0:57:07.21,Dialogue,,0,0,0,,A suspicious boat happening to appear near Maizuru Harbour, where this Aegis Destroyer was anchored...
+Dialogue: 0,0:57:07.21,0:57:09.32,Dialogue,,0,0,0,,It couldn't have been a coincidence.
+Dialogue: 0,0:57:09.78,0:57:12.95,Dialogue,,0,0,0,,And components from {\i1}that{\i0} country were found in the boat.
+Dialogue: 0,0:57:13.38,0:57:14.10,Dialogue,,0,0,0,,Yeah.
+Dialogue: 0,0:57:14.10,0:57:18.41,Dialogue,,0,0,0,,When we heard that, we figured a spy from the same country as Takekawa had arrived in Japan.
+Dialogue: 0,0:57:18.91,0:57:19.93,Dialogue,,0,0,0,,Don't tell me...
+Dialogue: 0,0:57:19.93,0:57:21.04,Dialogue,,0,0,0,,It was X?!
+Dialogue: 0,0:57:21.38,0:57:27.33,Dialogue,,0,0,0,,We thought X might attempt to board this Destroyer with Lt. Sasaura's help.
+Dialogue: 0,0:57:27.33,0:57:31.46,Dialogue,,0,0,0,,If so, it would likely be today, when the security would be lowered due to the sailing experience.
+Dialogue: 0,0:57:31.46,0:57:34.76,Dialogue,,0,0,0,,Why didn't you say that in the first place?
+Dialogue: 0,0:57:35.70,0:57:39.96,Dialogue,,0,0,0,,An SDF member might've leaked information about Aegis Destroyers to a foreign spy.
+Dialogue: 0,0:57:41.50,0:57:44.73,Dialogue,,0,0,0,,Do you really think we could openly talk about such a huge scandal?
+Dialogue: 0,0:57:45.19,0:57:49.44,Dialogue,,0,0,0,,We decided to investigate it on our own until we could find out the truth.
+Dialogue: 0,0:57:50.42,0:57:53.24,Dialogue,,0,0,0,,So when I found his mobile phone on the deck...
+Dialogue: 0,0:57:56.29,0:57:58.14,Flashback,,0,0,0,,{\be10}Did one of the civilians lose this?
+Dialogue: 0,0:58:01.13,0:58:02.22,Flashback,,0,0,0,,{\be10}Why is this here?
+Dialogue: 0,0:58:03.13,0:58:04.91,Flashback,,0,0,0,,{\be10}It's Lt. Sasaura's phone...
+Dialogue: 0,0:58:14.01,0:58:15.72,Flashback,,0,0,0,,{\be10}Well then, let's begin our investigation on the deck...
+Dialogue: 0,0:58:19.70,0:58:22.65,Dialogue,,0,0,0,,You found it before I did?
+Dialogue: 0,0:58:22.65,0:58:26.72,Dialogue,,0,0,0,,Then Sasaura{\rHonorifics - Dialogue}-san{\r} really {\i1}did{\i0} board this Aegis Destroyer.
+Dialogue: 0,0:58:26.72,0:58:28.90,Dialogue,,0,0,0,,And was then murdered by X...
+Dialogue: 0,0:58:30.55,0:58:34.06,Dialogue,,0,0,0,,Excuse me, I must contact the Ministry of Defence.
+Dialogue: 0,0:58:34.06,0:58:36.95,Dialogue,,0,0,0,,You were the source of the satellite transmissions?!
+Dialogue: 0,0:58:36.95,0:58:38.65,Dialogue,,0,0,0,,I apologise.
+Dialogue: 0,0:58:38.65,0:58:42.16,Dialogue,,0,0,0,,But since you started worrying about it, I've been using it in the Degaussing Chamber.
+Dialogue: 0,0:58:43.55,0:58:46.50,Thoughts,,0,0,0,,{\be10}Phew, we must've almost bumped into each other...
+Dialogue: 0,0:58:46.50,0:58:47.12,Radio,,0,0,0,,{\be10}Fujii speaking.
+Dialogue: 0,0:58:47.55,0:58:53.08,Dialogue,,0,0,0,,The police and Coast Guard found out about the classified case we were investigating...
+Dialogue: 0,0:58:54.75,0:58:56.09,Dialogue,,0,0,0,,What? Takekawa?
+Dialogue: 0,0:58:57.09,0:58:58.34,Dialogue,,0,0,0,,Around two hours ago...
+Dialogue: 0,0:58:58.73,0:59:00.10,Dialogue,,0,0,0,,Yes...
+Dialogue: 0,0:59:00.10,0:59:01.93,Dialogue,,0,0,0,,He was confirmed to have entered Kyōto.
+Dialogue: 0,0:59:02.85,0:59:04.77,Thoughts,,0,0,0,,{\be10} They found Takekawa?!
+Dialogue: 0,0:59:02.85,0:59:04.77,Radio,,0,0,0,,{\be10} {\an8}Right, I'll do so now. I'll be in contact.
+Dialogue: 0,0:59:04.77,0:59:08.13,Dialogue,,0,0,0,,The fact that Takekawa came from Tōkyō to Kyōto means...
+Dialogue: 0,0:59:08.13,0:59:11.15,Dialogue,,0,0,0,,That he might be trying to meet up with X, who's aboard this ship.
+Dialogue: 0,0:59:11.15,0:59:13.87,Dialogue,,0,0,0,,Where's Takekawa now?
+Dialogue: 0,0:59:13.87,0:59:17.05,Dialogue,,0,0,0,,Intelligence Security Command have entered Kyōto and are searching for him.
+Dialogue: 0,0:59:17.05,0:59:19.74,Dialogue,,0,0,0,,Then where was he spotted two hours ago?
+Dialogue: 0,0:59:20.08,0:59:23.79,Dialogue,,0,0,0,,He turned up on a surveillance camera in a hotel in Kyōto.
+Dialogue: 0,0:59:24.21,0:59:27.28,Dialogue,,0,0,0,,You have a photo of Takekawa, right?
+Dialogue: 0,0:59:27.28,0:59:28.21,Dialogue,,0,0,0,,Y-Yes...
+Dialogue: 0,0:59:28.21,0:59:32.17,Dialogue,,0,0,0,,We can track him with the N System, Orbis, and outdoor surveillance cameras!
+Dialogue: 0,0:59:32.17,0:59:36.13,Dialogue,,0,0,0,,If that is your wish, the Kyōto Prefectural Police offers its full support.
+Dialogue: 0,0:59:36.48,0:59:38.80,Dialogue,,0,0,0,,Please accept the help of the Coast Guard as well.
+Dialogue: 0,0:59:40.01,0:59:43.84,Dialogue,,0,0,0,,Please send the footage from all the cameras to this Destroyer.
+Dialogue: 0,0:59:44.54,0:59:45.10,Dialogue,,0,0,0,,I see!
+Dialogue: 0,0:59:45.68,0:59:48.73,Dialogue,,0,0,0,,We can use the Aegis Destroyer Hotaka to quickly analyse all the footage!
+Dialogue: 0,0:59:49.17,0:59:49.90,Dialogue,,0,0,0,,All right!
+Dialogue: 0,0:59:49.90,0:59:52.36,Dialogue,,0,0,0,,See, things worked out pretty well!
+Dialogue: 0,0:59:53.46,0:59:56.57,Dialogue,,0,0,0,,This is the footage from the cameras in Kyōto, two hours ago.
+Dialogue: 0,0:59:56.90,1:00:01.39,Dialogue,,0,0,0,,I asked for footage from the cameras around the hotel where Takekawa was spotted to be sent first.
+Dialogue: 0,1:00:05.54,1:00:06.99,Dialogue,,0,0,0,,A message from the Maizuru base!
+Dialogue: 0,1:00:07.58,1:00:12.88,Dialogue,,0,0,0,,After towing the shipwreck, they found components from {\i1}that{\i0} country in the boat's structure.
+Dialogue: 0,1:00:13.50,1:00:14.71,Dialogue,,0,0,0,,I'm putting it on the main monitor.
+Dialogue: 0,1:00:16.31,1:00:18.55,Dialogue,,0,0,0,,It's from the same country as the one on the suspicious boat...
+Dialogue: 0,1:00:18.94,1:00:22.51,Dialogue,,0,0,0,,But it's unthinkable for foreign ships to be passing through Japanese waters...
+Dialogue: 0,1:00:23.12,1:00:29.35,Dialogue,,0,0,0,,In other words, this shipwreck approaching us can't have been a coincidence.
+Dialogue: 0,1:00:30.11,1:00:30.96,Thoughts,,0,0,0,,{\be10} Don't tell me...
+Dialogue: 0,1:00:30.96,1:00:33.75,Dialogue,,0,0,0,,Are you saying it's an act of terrorism using the tide?
+Dialogue: 0,1:00:33.75,1:00:35.43,Dialogue,,0,0,0,,No, that can't be.
+Dialogue: 0,1:00:36.07,1:00:41.74,Dialogue,,0,0,0,,This morning, before departure, we calculated the tides and the routes of the boats in the nearby area,
+Dialogue: 0,1:00:41.74,1:00:45.00,Dialogue,,0,0,0,,and decided to change our planned route to the left.
+Dialogue: 0,1:00:45.00,1:00:46.70,Dialogue,,0,0,0,,It was changed this morning?
+Dialogue: 0,1:00:46.70,1:00:47.98,Thoughts,,0,0,0,,{\be10}It was changed this morning...
+Dialogue: 0,1:00:47.98,1:00:49.66,Radio,,0,0,0,,{\be10}So the route...
+Dialogue: 0,1:00:50.24,1:00:56.63,Flashback,,0,0,0,,{\be10}At 5:30 this morning, Sasaura{\rHonorifics - Flashback\be10}-han{\r\be10} was seen waving a Japanese flag on a cliff at Maizuru Harbour...
+Dialogue: 0,1:00:57.38,1:00:59.09,Thoughts,,0,0,0,,{\be10}Don't tell me that the reason for that was...
+Dialogue: 0,1:00:59.41,1:01:00.48,Thoughts,,0,0,0,,{\be10}I'll just have to check!
+Dialogue: 0,1:01:01.30,1:01:03.38,Dialogue,,0,0,0,,This route change was decided this morning...
+Dialogue: 0,1:01:03.75,1:01:08.43,Dialogue,,0,0,0,,Without knowing about it, it would have been impossible to target us so precisely with the shipwreck...
+Dialogue: 0,1:01:08.43,1:01:08.97,Dialogue,,0,0,0,,Yes.
+Dialogue: 0,1:01:09.40,1:01:12.26,Dialogue,,0,0,0,,Who knew about the change of route?
+Dialogue: 0,1:01:12.26,1:01:14.27,Dialogue,,0,0,0,,Only people from the Wakasa base.
+Dialogue: 0,1:01:14.27,1:01:16.82,Dialogue,,0,0,0,,I see. So the spy couldn't have known about it.
+Dialogue: 0,1:01:16.82,1:01:19.40,Dialogue,,0,0,0,,Wait, kid! Kid!
+Dialogue: 0,1:01:19.40,1:01:20.79,Dialogue,,0,0,0,,Kid, you're coming here without permission again?
+Dialogue: 0,1:01:20.79,1:01:21.61,Dialogue,,0,0,0,,You can't!
+Dialogue: 0,1:01:21.61,1:01:23.06,Dialogue,,0,0,0,,What is it?
+Dialogue: 0,1:01:23.06,1:01:23.45,Dialogue,,0,0,0,,Is that it?!
+Dialogue: 0,1:01:22.41,1:01:23.82,Dialogue Top,,0,0,0,,I'm so sorry... He just ran past me...
+Dialogue: 0,1:01:24.24,1:01:24.66,Dialogue,,0,0,0,,Hey!
+Dialogue: 0,1:01:25.29,1:01:27.49,Dialogue,,0,0,0,,Don't come in here without permission!
+Dialogue: 0,1:01:28.12,1:01:30.83,Dialogue,,0,0,0,,Oh? This isn't mine!
+Dialogue: 0,1:01:30.83,1:01:32.57,Dialogue,,0,0,0,,Of course it's not!
+Dialogue: 0,1:01:32.57,1:01:34.25,Dialogue,,0,0,0,,How many times do I have to tell you—
+Dialogue: 0,1:01:34.25,1:01:34.91,Dialogue,,0,0,0,,Wait!
+Dialogue: 0,1:01:35.42,1:01:39.75,Dialogue,,0,0,0,,You told us that only people from the Wakasa base knew about the change of route, right?
+Dialogue: 0,1:01:39.75,1:01:40.65,Dialogue,,0,0,0,,Yes.
+Dialogue: 0,1:01:40.65,1:01:43.38,Dialogue,,0,0,0,,Then Lt. Sasaura knew about it too.
+Dialogue: 0,1:01:44.47,1:01:45.84,Dialogue,,0,0,0,,Look at this signal flag!
+Dialogue: 0,1:01:47.00,1:01:52.02,Dialogue,,0,0,0,,In the dim early light of dawn, it wouldn't be hard to mistake it for the Japanese flag.
+Dialogue: 0,1:01:52.31,1:01:53.42,Dialogue,,0,0,0,,Indeed.
+Dialogue: 0,1:01:53.42,1:01:54.56,Dialogue,,0,0,0,,I see!
+Dialogue: 0,1:01:54.56,1:01:58.78,Dialogue,,0,0,0,,Sasaura{\rHonorifics - Dialogue}-san{\r} used this flag to send X a signal this morning!
+Dialogue: 0,1:01:58.78,1:02:00.09,Dialogue,,0,0,0,,A signal?
+Dialogue: 0,1:02:00.09,1:02:02.03,Dialogue,,0,0,0,,What does that flag mean?
+Dialogue: 0,1:02:03.00,1:02:05.51,Dialogue,,0,0,0,,'Change of route to the left'.
+Dialogue: 0,1:02:06.75,1:02:07.51,Dialogue,,0,0,0,,Then...
+Dialogue: 0,1:02:07.51,1:02:08.30,Dialogue,,0,0,0,,Yes.
+Dialogue: 0,1:02:08.30,1:02:11.74,Dialogue,,0,0,0,,X knew about the change of route.
+Dialogue: 0,1:02:12.58,1:02:15.18,Dialogue,,0,0,0,,Oh? I guess I must've left it somewhere else...
+Dialogue: 0,1:02:15.18,1:02:16.71,Dialogue,,0,0,0,,I better get back to the cafeteria...
+Dialogue: 0,1:02:16.71,1:02:18.32,Dialogue,,0,0,0,,Of course it's not here!
+Dialogue: 0,1:02:18.32,1:02:19.09,Dialogue,,0,0,0,,Hold on, kid.
+Dialogue: 0,1:02:19.95,1:02:20.86,Thoughts,,0,0,0,,{\be10} Crap...
+Dialogue: 0,1:02:20.86,1:02:22.09,Dialogue,,0,0,0,,Target spotted!
+Dialogue: 0,1:02:22.09,1:02:23.43,Dialogue,,0,0,0,,Really?
+Dialogue: 0,1:02:23.43,1:02:24.30,Dialogue,,0,0,0,,Yes.
+Dialogue: 0,1:02:24.30,1:02:26.69,Dialogue,,0,0,0,,It's a 93% match.
+Dialogue: 0,1:02:26.69,1:02:28.01,Dialogue,,0,0,0,,It has to be Takekawa!
+Dialogue: 0,1:02:28.35,1:02:29.39,Dialogue,,0,0,0,,Where is he?
+Dialogue: 0,1:02:29.39,1:02:31.00,Dialogue,,0,0,0,,Ponto Town Park, Kyōto.
+Dialogue: 0,1:02:31.00,1:02:32.83,Dialogue,,0,0,0,,12:03 PM.
+Dialogue: 0,1:02:32.83,1:02:33.81,Dialogue,,0,0,0,,Zooming in!
+Dialogue: 0,1:02:40.75,1:02:41.78,Dialogue,,0,0,0,,Ponto Town Park, right?
+Dialogue: 0,1:02:41.78,1:02:42.88,Radio,,0,0,0,,{\be10}Yeah, hurry there!
+Dialogue: 0,1:02:43.86,1:02:46.20,Dialogue,,0,0,0,,If we don't hurry, they'll beat us there!
+Dialogue: 0,1:02:46.20,1:02:47.50,Radio,,0,0,0,,{\be10}Stop badgerin' me!
+Dialogue: 0,1:02:47.50,1:02:49.95,Dialogue,,0,0,0,,Oh, and get a picture of Takekawa too.
+Dialogue: 0,1:02:49.95,1:02:51.15,Dialogue,,0,0,0,,A picture?
+Dialogue: 0,1:02:51.15,1:02:52.28,Dialogue,,0,0,0,,Why?
+Dialogue: 0,1:02:52.28,1:02:52.88,Radio,,0,0,0,,{\be10}I'm counting on you.
+Dialogue: 0,1:02:54.00,1:02:55.23,Dialogue,,0,0,0,,He hung up...
+Dialogue: 0,1:02:56.69,1:02:57.85,Dialogue,,0,0,0,,Anyway, hurry up!
+Dialogue: 0,1:02:57.85,1:02:58.87,Dialogue,,0,0,0,,Here we go!
+Dialogue: 0,1:03:01.09,1:03:01.75,Dialogue,,0,0,0,,Crap...
+Dialogue: 0,1:03:01.75,1:03:03.34,Dialogue,,0,0,0,,Conan{\rHonorifics - Dialogue}-kun{\r} spotted!
+Dialogue: 0,1:03:04.63,1:03:09.39,Dialogue,,0,0,0,,Where did you go? The treasure hunt's already started!
+Dialogue: 0,1:03:11.47,1:03:12.35,Dialogue,,0,0,0,,Target spotted!
+Dialogue: 0,1:03:13.05,1:03:16.56,Dialogue,,0,0,0,,12:10 PM, a platform at Gion-Shijō Station on the Keihan Main Line.
+Dialogue: 0,1:03:17.09,1:03:19.27,Dialogue,,0,0,0,,That platform's for trains to Ōsaka, right?
+Dialogue: 0,1:03:19.27,1:03:20.40,Dialogue,,0,0,0,,Ah, he's getting in!
+Dialogue: 0,1:03:21.98,1:03:22.95,Dialogue,,0,0,0,,It's an express train!
+Dialogue: 0,1:03:22.95,1:03:24.86,Dialogue,,0,0,0,,So there won't be many stations it stops at.
+Dialogue: 0,1:03:25.39,1:03:27.78,Dialogue,,0,0,0,,I'll ask the Ōsaka Police to cooperate.
+Dialogue: 0,1:03:30.74,1:03:32.70,Dialogue,,0,0,0,,The kid's gone...
+Dialogue: 0,1:03:32.70,1:03:35.66,Signs,,0,0,0,,Ōsaka Police HQ
+Dialogue: 0,1:03:34.12,1:03:35.66,Dialogue,,0,0,0,,Please send all surveillance footage
+Dialogue: 0,1:03:35.66,1:03:42.57,Dialogue,,0,0,0,,from cameras at stations served by express trains on the Keihan Main Line between Gion-Shijō and Yodoyabashi to this location.
+Dialogue: 0,1:03:42.57,1:03:45.09,Dialogue,,0,0,0,,The CIC of the Aegis Destroyer Hotaka?
+Dialogue: 0,1:03:45.75,1:03:46.67,Dialogue,,0,0,0,,I'm counting on you, Ōtaki.
+Dialogue: 0,1:03:46.67,1:03:48.28,Dialogue,,0,0,0,,It's urgent!
+Dialogue: 0,1:03:48.28,1:03:48.88,Dialogue,,0,0,0,,Yes, sir!
+Dialogue: 0,1:03:48.88,1:03:54.78,Dialogue,,0,0,0,,For this treasure hunt, we've hidden five types of items around the cafeteria and the front half of the deck.
+Dialogue: 0,1:03:54.78,1:03:56.60,Dialogue,,0,0,0,,Try and find them all!
+Dialogue: 0,1:03:57.10,1:03:58.06,Dialogue,,0,0,0,,Found one!
+Dialogue: 0,1:03:58.06,1:04:00.03,Dialogue,,0,0,0,,Guys, I got one!
+Dialogue: 0,1:04:00.03,1:04:01.97,Dialogue,,0,0,0,,Cool!
+Dialogue: 0,1:04:01.97,1:04:03.18,Dialogue,,0,0,0,,Congratulations.
+Dialogue: 0,1:04:03.18,1:04:04.86,Dialogue,,0,0,0,,That's the third one.
+Dialogue: 0,1:04:04.86,1:04:06.75,Dialogue,,0,0,0,,So there's only two remaining.
+Dialogue: 0,1:04:06.75,1:04:08.49,Dialogue,,0,0,0,,Let's find them quickly and get to the deck.
+Dialogue: 0,1:04:08.49,1:04:08.49,Dialogue,,0,0,0,,Yes.
+Dialogue: 0,1:04:11.05,1:04:12.95,Dialogue,,0,0,0,,Ran, come help us!
+Dialogue: 0,1:04:12.95,1:04:13.78,Dialogue,,0,0,0,,Right.
+Dialogue: 0,1:04:16.74,1:04:18.25,Thoughts,,0,0,0,,{\be10} The discovery of a suspicious boat...
+Dialogue: 0,1:04:20.21,1:04:21.83,Thoughts,,0,0,0,,{\be10} The sudden switch into combat...
+Dialogue: 0,1:04:23.67,1:04:25.80,Thoughts,,0,0,0,,{\be10} And Sasaura{\rHonorifics - Thoughts\be10}-san{\r\be10}'s death...
+Dialogue: 0,1:04:27.99,1:04:31.38,Thoughts,,0,0,0,,{\be10}If they were all the work of {\i1}that{\i0} country's spy, 'X'...
+Dialogue: 0,1:04:31.78,1:04:36.18,Flashback,,0,0,0,,{\be10}We believe he is trying to obtain classified intel on Aegis Destroyers.
+Dialogue: 0,1:04:38.00,1:04:38.85,Dialogue,,0,0,0,,Kid...
+Dialogue: 0,1:04:39.31,1:04:40.81,Dialogue,,0,0,0,,Can I ask you something?
+Dialogue: 0,1:04:40.81,1:04:43.77,Signs,,0,0,0,,Ponto Town Park
+Dialogue: 0,1:04:44.15,1:04:45.75,Dialogue,,0,0,0,,Something smells burnt.
+Dialogue: 0,1:04:45.75,1:04:46.48,Dialogue,,0,0,0,,Yeah.
+Dialogue: 0,1:04:47.09,1:04:49.32,Dialogue,,0,0,0,,This must be what Kudō asked us to find.
+Dialogue: 0,1:04:51.75,1:04:52.89,Radio,,0,0,0,,{\be10} The police are here.
+Dialogue: 0,1:04:59.58,1:05:00.87,Dialogue,,0,0,0,,Found it, there it is!
+Dialogue: 0,1:05:01.37,1:05:03.31,Dialogue,,0,0,0,,Okay, report it in quickly!
+Dialogue: 0,1:05:03.31,1:05:03.96,Dialogue,,0,0,0,,Right!
+Dialogue: 0,1:05:05.42,1:05:06.29,Dialogue,,0,0,0,,Conan{\rHonorifics - Dialogue}-kun{\r}...
+Dialogue: 0,1:05:07.04,1:05:08.83,Dialogue,,0,0,0,,You did a great job back then.
+Dialogue: 0,1:05:08.83,1:05:10.01,Dialogue,,0,0,0,,Huh? What do you mean?
+Dialogue: 0,1:05:11.84,1:05:13.47,Dialogue,,0,0,0,,Just who are you?
+Dialogue: 0,1:05:15.25,1:05:18.93,Dialogue,,0,0,0,,Just what kind of data can only be obtained on this ship?
+Dialogue: 0,1:05:19.85,1:05:23.27,Dialogue,,0,0,0,,Is it data about situations like what would happen if a submarine suddenly attacks?
+Dialogue: 0,1:05:24.50,1:05:26.24,Dialogue,,0,0,0,,How do you know about...
+Dialogue: 0,1:05:26.24,1:05:27.29,Dialogue,,0,0,0,,That's what I thought...
+Dialogue: 0,1:05:29.17,1:05:33.47,Dialogue,,0,0,0,,Do you mean X sent us the shipwreck to get this data?
+Dialogue: 0,1:05:33.47,1:05:36.03,Dialogue,,0,0,0,,Where can the data be accessed?
+Dialogue: 0,1:05:36.03,1:05:38.41,Dialogue,,0,0,0,,In the CIC we were just in...
+Dialogue: 0,1:05:38.41,1:05:40.24,Dialogue,,0,0,0,,...and in the captain's quarters.
+Dialogue: 0,1:05:41.22,1:05:42.11,Thoughts,,0,0,0,,{\be10}That's it!
+Dialogue: 0,1:05:42.94,1:05:47.95,Dialogue,,0,0,0,,During the training, the captain came to the CIC because of the sudden emergency.
+Dialogue: 0,1:05:49.59,1:05:51.88,Dialogue,,0,0,0,,So there was nobody in the captain's quarters at the time.
+Dialogue: 0,1:05:51.88,1:05:53.49,Dialogue,,0,0,0,,I see.
+Dialogue: 0,1:05:53.49,1:05:56.51,Dialogue,,0,0,0,,So that's when X went into the captain's quarters and stole the data!
+Dialogue: 0,1:05:57.61,1:05:59.51,Dialogue,,0,0,0,,Then X is that person!
+Dialogue: 0,1:06:01.24,1:06:02.56,Dialogue,,0,0,0,,Hold on!
+Dialogue: 0,1:06:04.29,1:06:05.02,Dialogue,,0,0,0,,Conan{\rHonorifics - Dialogue}-kun{\r}!
+Dialogue: 0,1:06:05.60,1:06:07.96,Dialogue,,0,0,0,,That brat again?
+Dialogue: 0,1:06:07.96,1:06:09.82,Dialogue,,0,0,0,,I'm a bit worried, so I'm going after him.
+Dialogue: 0,1:06:10.60,1:06:12.86,Dialogue,,0,0,0,,W-Wait, Ran!
+Dialogue: 0,1:06:14.21,1:06:15.79,Dialogue,,0,0,0,,Wait, kid!
+Dialogue: 0,1:06:15.79,1:06:16.65,Dialogue,,0,0,0,,Capt. Fujii!
+Dialogue: 0,1:06:17.89,1:06:20.28,Dialogue,,0,0,0,,Takekawa entered Ōsaka!
+Dialogue: 0,1:06:20.28,1:06:21.04,Dialogue,,0,0,0,,Ōsaka?
+Dialogue: 0,1:06:21.04,1:06:23.10,Dialogue,,0,0,0,,Yes, at Yodoyabashi Station.
+Dialogue: 0,1:06:27.11,1:06:28.25,Dialogue,,0,0,0,,Kudō?
+Dialogue: 0,1:06:28.25,1:06:30.79,Dialogue,,0,0,0,,What Takekawa threw away is some kind of memo.
+Dialogue: 0,1:06:31.37,1:06:32.45,Dialogue,,0,0,0,,A memo?
+Dialogue: 0,1:06:32.45,1:06:36.76,Radio,,0,0,0,,{\be10}Yeah. Most of it is burnt though, so I can't read it.
+Dialogue: 0,1:06:36.76,1:06:38.55,Dialogue,,0,0,0,,It seems Takekawa went to Yodoyabashi Station in Ōsaka.
+Dialogue: 0,1:06:38.55,1:06:42.10,Radio,,0,0,0,,{\be10}It seems Takekawa went to Yodoyabashi Station in Ōsaka.
+Dialogue: 0,1:06:42.10,1:06:43.34,Radio,,0,0,0,,{\be10}Go after him!
+Dialogue: 0,1:06:43.34,1:06:44.02,Dialogue,,0,0,0,,Gotcha!
+Dialogue: 0,1:06:57.14,1:06:59.22,Dialogue,,0,0,0,,Yūki{\rHonorifics - Dialogue}-kun{\r}. Yūki{\rHonorifics - Dialogue}-kun{\r}.
+Dialogue: 0,1:07:05.81,1:07:08.01,Dialogue,,0,0,0,,Amemiya{\rHonorifics - Dialogue}-san{\r}? Amemiya{\rHonorifics - Dialogue}-san{\r}!
+Dialogue: 0,1:07:09.33,1:07:10.46,Dialogue,,0,0,0,,Amemiya{\rHonorifics - Dialogue}-san{\r}!
+Dialogue: 0,1:07:11.91,1:07:12.79,Dialogue,,0,0,0,,Oh, it's you.
+Dialogue: 0,1:07:12.79,1:07:15.34,Dialogue,,0,0,0,,Hey, is Yūki{\rHonorifics - Dialogue}-kun{\r} okay?
+Dialogue: 0,1:07:16.30,1:07:18.07,Dialogue,,0,0,0,,Now that you mention it, where is Yūki...
+Dialogue: 0,1:07:18.07,1:07:21.18,Dialogue,,0,0,0,,He told me he went to the toilet because his eczema flared up.
+Dialogue: 0,1:07:21.18,1:07:23.01,Dialogue,,0,0,0,,Oh, his eczema.
+Dialogue: 0,1:07:23.01,1:07:23.56,Dialogue,,0,0,0,,Yeah.
+Dialogue: 0,1:07:23.56,1:07:27.39,Dialogue,,0,0,0,,When that happens, he has to wash his hands and put on some cream, right?
+Dialogue: 0,1:07:27.39,1:07:29.43,Dialogue,,0,0,0,,Y-Yeah.
+Dialogue: 0,1:07:29.43,1:07:30.35,Dialogue,,0,0,0,,So he's in the toilet...
+Dialogue: 0,1:07:30.95,1:07:32.44,Dialogue,,0,0,0,,Are you worried about Yūki{\rHonorifics - Dialogue}-kun{\r}?
+Dialogue: 0,1:07:32.44,1:07:34.07,Dialogue,,0,0,0,,Of course I am.
+Dialogue: 0,1:07:34.44,1:07:38.53,Dialogue,,0,0,0,,But when the boat shook, you weren't with him...
+Dialogue: 0,1:07:41.04,1:07:43.55,Dialogue,,0,0,0,,I told you I was in the toilet!
+Dialogue: 0,1:07:43.55,1:07:45.74,Dialogue,,0,0,0,,No, you were in the captain's quarters.
+Dialogue: 0,1:07:46.70,1:07:49.96,Dialogue,,0,0,0,,You didn't react when I called you Amemiya{\rHonorifics - Dialogue}-san{\r} either.
+Dialogue: 0,1:07:50.59,1:07:54.34,Dialogue,,0,0,0,,And Yūki{\rHonorifics - Dialogue}-kun{\r} isn't carrying medical cream, but pills.
+Dialogue: 0,1:07:55.42,1:07:58.42,Dialogue,,0,0,0,,And they're not for eczema, but food allergies.
+Dialogue: 0,1:07:58.82,1:08:01.56,Dialogue,,0,0,0,,There's no way his father wouldn't know something like that.
+Dialogue: 0,1:08:01.56,1:08:04.96,Dialogue,,0,0,0,,In other words, you're not Yūki{\rHonorifics - Dialogue}-kun{\r}'s father.
+Dialogue: 0,1:08:04.96,1:08:06.28,Dialogue,,0,0,0,,Isn't that right?
+Dialogue: 0,1:08:06.28,1:08:07.52,Dialogue,,0,0,0,,Mr. Foreign Spy.
+Dialogue: 0,1:08:10.05,1:08:11.85,Dialogue,,0,0,0,,Who the hell are you?
+Dialogue: 0,1:08:13.55,1:08:14.60,Dialogue,,0,0,0,,Conan Edogawa...
+Dialogue: 0,1:08:16.26,1:08:17.28,Dialogue,,0,0,0,,Detective.
+Dialogue: 0,1:08:20.18,1:08:21.36,Dialogue,,0,0,0,,You're just a kid.
+Dialogue: 0,1:08:21.75,1:08:23.20,Dialogue,,0,0,0,,What can you do?
+Dialogue: 0,1:08:35.66,1:08:37.17,Dialogue,,0,0,0,,You okay, kid?
+Dialogue: 0,1:08:42.03,1:08:42.80,Dialogue,,0,0,0,,Wait!
+Dialogue: 0,1:08:42.80,1:08:43.34,Dialogue,,0,0,0,,Stop!
+Dialogue: 0,1:08:44.72,1:08:45.58,Dialogue,,0,0,0,,Stop!
+Dialogue: 0,1:08:45.58,1:08:46.93,Dialogue,,0,0,0,,My dad'll be killed!
+Dialogue: 0,1:08:53.40,1:08:56.73,Thoughts,,0,0,0,,{\be10}Damn it, old man...
+Dialogue: 0,1:09:00.01,1:09:02.40,Dialogue,,0,0,0,,This is the only part I could make readable.
+Dialogue: 0,1:09:02.40,1:09:04.23,Dialogue,,0,0,0,,Senshu...
+Dialogue: 0,1:09:04.23,1:09:05.12,Dialogue,,0,0,0,,What's that at the end?
+Dialogue: 0,1:09:05.60,1:09:10.96,Thoughts,,0,0,0,,{\be10}senshu
+Dialogue: 0,1:09:05.60,1:09:10.96,Dialogue,,0,0,0,,If it's related to an Aegis Destroyer, isn't it the bow of the boat?
+Dialogue: 0,1:09:10.96,1:09:12.87,Dialogue,,0,0,0,,And if it's about boats, isn't that an anchor?
+Dialogue: 0,1:09:12.87,1:09:16.42,Dialogue,,0,0,0,,No! The bottom half of an anchor sign is longer!
+Dialogue: 0,1:09:16.86,1:09:19.05,Dialogue,,0,0,0,,It looks more like an arrow than an anchor.
+Dialogue: 0,1:09:19.72,1:09:21.88,Dialogue,,0,0,0,,An arrow?
+Dialogue: 0,1:09:22.33,1:09:25.08,Dialogue,,0,0,0,,Like an arrow telling you to look up at the sky?
+Dialogue: 0,1:09:25.08,1:09:26.10,Dialogue,,0,0,0,,The sky?
+Dialogue: 0,1:09:26.89,1:09:27.81,Dialogue,,0,0,0,,Oh, I got it!
+Dialogue: 0,1:09:28.20,1:09:30.97,Dialogue,,0,0,0,,Kazuha! That was a great idea!
+Dialogue: 0,1:09:32.09,1:09:32.94,Dialogue,,0,0,0,,A great idea?
+Dialogue: 0,1:09:33.36,1:09:35.75,Dialogue,,0,0,0,,Hey, pops, it's Senshu Airport!
+Dialogue: 0,1:09:35.75,1:09:36.87,Dialogue,,0,0,0,,What?
+Dialogue: 0,1:09:36.87,1:09:38.69,Dialogue,,0,0,0,,This isn't an anchor or an arrow.
+Dialogue: 0,1:09:39.26,1:09:40.34,Dialogue,,0,0,0,,It's an aeroplane!
+Dialogue: 0,1:09:40.34,1:09:41.15,Dialogue,,0,0,0,,An aeroplane?
+Dialogue: 0,1:09:41.15,1:09:43.79,Dialogue,,0,0,0,,Is there even a Senshu Airport?
+Dialogue: 0,1:09:43.79,1:09:46.12,Dialogue,,0,0,0,,It's also known as Kansai International Airport...
+Dialogue: 0,1:09:46.12,1:09:49.83,Dialogue,,0,0,0,,Kansai Airport used to be called 'Senshu Airport'!
+Dialogue: 0,1:09:50.50,1:09:56.79,Dialogue,,0,0,0,,He told me that his father vanished at Maizuru Harbour before departure, and he boarded the ship with a man he didn't know.
+Dialogue: 0,1:09:57.10,1:10:01.39,Dialogue,,0,0,0,,He said he'd kill Dad if I didn't do what he said.
+Dialogue: 0,1:10:01.39,1:10:04.76,Dialogue,,0,0,0,,The man who wasn't with us in\Nthe CIC during the training, right?
+Dialogue: 0,1:10:05.27,1:10:09.44,Dialogue,,0,0,0,,He had to be stealing the training data from the captain's quarters.
+Dialogue: 0,1:10:09.44,1:10:11.43,Dialogue,,0,0,0,,Which means he's X.
+Dialogue: 0,1:10:11.76,1:10:14.07,Dialogue,,0,0,0,,Do you remember his face?
+Dialogue: 0,1:10:14.75,1:10:15.39,Dialogue,,0,0,0,,Yes.
+Dialogue: 0,1:10:15.95,1:10:17.41,Dialogue,,0,0,0,,Will you help us?
+Dialogue: 0,1:10:18.46,1:10:19.73,Dialogue,,0,0,0,,I will!
+Dialogue: 0,1:10:19.73,1:10:21.11,Dialogue,,0,0,0,,I remember his face!
+Dialogue: 0,1:10:21.56,1:10:25.40,Dialogue,,0,0,0,,Then come with us to look at the surveillance camera footage in the CIC.
+Dialogue: 0,1:10:25.40,1:10:26.07,Dialogue,,0,0,0,,Okay!
+Dialogue: 0,1:10:26.07,1:10:28.30,Dialogue,,0,0,0,,Let's go.
+Dialogue: 0,1:10:28.30,1:10:29.55,Dialogue,,0,0,0,,Let's go, little boy.
+Dialogue: 0,1:10:32.71,1:10:36.50,Dialogue,,0,0,0,,Your dad told you why he named you Yūki, didn't he?
+Dialogue: 0,1:10:37.50,1:10:38.71,Thoughts,,0,0,0,,{\be10}yūki
+Dialogue: 0,1:10:37.50,1:10:38.71,Dialogue,,0,0,0,,So be brave and do your best.
+Dialogue: 0,1:10:41.07,1:10:42.63,Dialogue,,0,0,0,,Takekawa and X...
+Dialogue: 0,1:10:42.94,1:10:45.08,Dialogue,,0,0,0,,It seems we haven't been able to catch either of them yet.
+Dialogue: 0,1:10:45.08,1:10:45.97,Dialogue,,0,0,0,,I see.
+Dialogue: 0,1:10:45.97,1:10:47.79,Dialogue,,0,0,0,,It's Kansai Airport!
+Dialogue: 0,1:10:47.79,1:10:49.85,Dialogue,,0,0,0,,There's a high chance Takekawa went to Kansai Airport.
+Dialogue: 0,1:10:50.19,1:10:51.00,Dialogue,,0,0,0,,What?
+Dialogue: 0,1:10:51.00,1:10:52.31,Dialogue,,0,0,0,,How do you know that?
+Dialogue: 0,1:10:52.31,1:10:53.84,Dialogue,,0,0,0,,Well, Hei{\rHonorifics - Dialogue}-chan{\r}...
+Dialogue: 0,1:10:53.84,1:10:54.85,Dialogue,,0,0,0,,I mean, your son...
+Dialogue: 0,1:10:54.85,1:10:56.13,Dialogue,,0,0,0,,Heiji?
+Dialogue: 0,1:10:56.13,1:10:56.56,Dialogue,,0,0,0,,Then?
+Dialogue: 0,1:10:56.56,1:10:59.52,Dialogue,,0,0,0,,I tried to stop him but he's already heading there.
+Dialogue: 0,1:10:59.52,1:11:02.68,Dialogue,,0,0,0,,Tōyama, set up an emergency deployment at Kansai Airport.
+Dialogue: 0,1:11:02.68,1:11:04.49,Dialogue,,0,0,0,,Ōtaki, you meet up with the Kansai Airport police!
+Dialogue: 0,1:11:04.93,1:11:06.15,Dialogue,,0,0,0,,Don't let him get away!
+Dialogue: 0,1:11:14.33,1:11:14.95,Dialogue,,0,0,0,,Here it is...
+Dialogue: 0,1:11:18.06,1:11:19.63,Dialogue,,0,0,0,,And where did Takekawa go after that?
+Dialogue: 0,1:11:20.03,1:11:22.21,Dialogue,,0,0,0,,We last spotted him at Namba Station. Nothing after that.
+Dialogue: 0,1:11:22.21,1:11:23.25,Dialogue,,0,0,0,,Is that so?
+Dialogue: 0,1:11:23.67,1:11:25.47,Dialogue,,0,0,0,,What about the eyewitness for X?
+Dialogue: 0,1:11:25.47,1:11:28.86,Dialogue,,0,0,0,,Conan{\rHonorifics - Dialogue}-kun{\r} ended up helping us with that.
+Dialogue: 0,1:11:30.13,1:11:32.45,Dialogue,,0,0,0,,Okay, sit here and check the monitor.
+Dialogue: 0,1:11:32.45,1:11:33.48,Dialogue,,0,0,0,,Okay!
+Dialogue: 0,1:11:33.48,1:11:35.43,Dialogue,,0,0,0,,How come {\i1}he{\i0} knows X?
+Dialogue: 0,1:11:35.88,1:11:39.40,Dialogue,,0,0,0,,Tell me if you see the man from before on the monitor.
+Dialogue: 0,1:11:39.40,1:11:40.00,Dialogue,,0,0,0,,Yes...
+Dialogue: 0,1:11:40.63,1:11:42.52,Dialogue,,0,0,0,,No, the footage is disappearing!
+Dialogue: 0,1:11:42.86,1:11:43.87,Dialogue,,0,0,0,,What?
+Dialogue: 0,1:11:43.87,1:11:46.65,Dialogue,,0,0,0,,This is footage stored in the server room.
+Dialogue: 0,1:11:46.65,1:11:47.53,Dialogue,,0,0,0,,What is it?
+Dialogue: 0,1:11:47.53,1:11:50.36,Dialogue Top,,0,0,0,,He got us. He must've deleted the footage from the server.
+Dialogue: 0,1:11:47.98,1:11:50.36,Thoughts,,0,0,0,,{\be10}Damn, he beat us to it.
+Dialogue: 0,1:11:50.36,1:11:52.25,Dialogue,,0,0,0,,Don't you have any other footage?
+Dialogue: 0,1:11:52.25,1:11:54.85,Dialogue,,0,0,0,,We can still monitor the real-time camera footage.
+Dialogue: 0,1:11:54.85,1:11:55.92,Dialogue,,0,0,0,,Switch to those, now!
+Dialogue: 0,1:11:55.92,1:11:56.29,Dialogue,,0,0,0,,Right.
+Dialogue: 0,1:11:56.68,1:11:58.55,Dialogue,,0,0,0,,Just hold on for a bit, kid.
+Dialogue: 0,1:11:59.90,1:12:03.56,Thoughts,,0,0,0,,{\be10}I doubt X would screw up and expose himself to a camera at this point.
+Dialogue: 0,1:12:04.25,1:12:07.98,Thoughts,,0,0,0,,{\be10}The only thing we can do now is ask Yūki{\rHonorifics - Thoughts\be10}-kun{\r\be10} about the routes X tended to use.
+Dialogue: 0,1:12:07.98,1:12:09.34,Dialogue,,0,0,0,,A message from the Ōsaka Police.
+Dialogue: 0,1:12:09.34,1:12:13.47,Dialogue,,0,0,0,,There's a high possibility that Takekawa's headed for Kansai International Airport.
+Dialogue: 0,1:12:13.90,1:12:14.46,Dialogue,,0,0,0,,What?
+Dialogue: 0,1:12:14.46,1:12:16.93,Dialogue,,0,0,0,,Is he planning to escape on a plane in plain sight?
+Dialogue: 0,1:12:18.08,1:12:23.07,Dialogue,,0,0,0,,We apologise, but we have to\Nstop the treasure hunt on the deck.
+Dialogue: 0,1:12:23.07,1:12:26.75,Dialogue Top,,0,0,0,,We will continue it in the cafeteria, so please head back inside.
+Dialogue: 0,1:12:25.25,1:12:27.67,Dialogue,,0,0,0,,Where did Conan{\rHonorifics - Dialogue}-kun{\r} go?
+Dialogue: 0,1:12:27.67,1:12:32.03,Dialogue,,0,0,0,,Sorry, the waves are getting\Nrougher, so please head back inside.
+Dialogue: 0,1:12:32.03,1:12:34.94,Dialogue,,0,0,0,,Have you seen a boy wearing glasses?
+Dialogue: 0,1:12:34.94,1:12:36.08,Dialogue,,0,0,0,,A lost kid?
+Dialogue: 0,1:12:36.08,1:12:39.26,Dialogue,,0,0,0,,No, it's not like that...
+Dialogue: 0,1:12:39.26,1:12:41.41,Dialogue,,0,0,0,,Then please get back inside...
+Dialogue: 0,1:12:41.41,1:12:42.95,Dialogue,,0,0,0,,We're sealing off the deck.
+Dialogue: 0,1:12:42.95,1:12:44.04,Dialogue,,0,0,0,,R-Right...
+Dialogue: 0,1:12:44.77,1:12:46.50,Dialogue,,0,0,0,,It seems Takekawa's heading to Kansai Airport.
+Dialogue: 0,1:12:47.23,1:12:50.60,Dialogue,,0,0,0,,I'm going to ask the Coast Guard base at Kansai Airport for their cooperation.
+Dialogue: 0,1:12:51.67,1:12:53.86,Dialogue,,0,0,0,,Inoue{\rHonorifics - Dialogue}-san{\r}, I leave the rest to you.
+Dialogue: 0,1:12:53.86,1:12:54.34,Dialogue,,0,0,0,,Right.
+Dialogue: 0,1:12:56.02,1:12:58.56,Dialogue,,0,0,0,,Now we just have to find X in this ship...
+Dialogue: 0,1:12:59.31,1:13:03.02,Flashback,,0,0,0,,{\be10}Your dad told you why he named you Yūki, didn't he?
+Dialogue: 0,1:13:03.98,1:13:05.23,Signs,,0,0,0,,yūki
+Dialogue: 0,1:13:03.98,1:13:05.23,Flashback,,0,0,0,,{\be10}So be brave and do your best.
+Dialogue: 0,1:13:08.23,1:13:08.69,Dialogue,,0,0,0,,I...
+Dialogue: 0,1:13:10.59,1:13:12.99,Dialogue,,0,0,0,,I want to help catch the spy too!
+Dialogue: 0,1:13:14.38,1:13:15.70,Dialogue,,0,0,0,,Target spotted at Kansai Airport!
+Dialogue: 0,1:13:16.64,1:13:18.66,Dialogue,,0,0,0,,It's a 89% match!
+Dialogue: 0,1:13:19.18,1:13:20.55,Dialogue,,0,0,0,,The North Wing of the terminal.
+Dialogue: 0,1:13:20.55,1:13:22.50,Dialogue,,0,0,0,,This is footage from the surveillance camera outside gate #3.
+Dialogue: 0,1:13:23.01,1:13:24.75,Dialogue,,0,0,0,,He's heading into the airport.
+Dialogue: 0,1:13:25.55,1:13:27.72,Dialogue,,0,0,0,,We'll be there soon, Yūki{\rHonorifics - Dialogue}-kun{\r}.
+Dialogue: 0,1:13:31.55,1:13:33.65,Dialogue,,0,0,0,,Excuse me, can I ask you something?
+Dialogue: 0,1:13:33.65,1:13:34.51,Dialogue,,0,0,0,,Yes. What is it?
+Dialogue: 0,1:13:35.05,1:13:37.05,Dialogue,,0,0,0,,Could it be... You're X—!
+Dialogue: 0,1:13:41.94,1:13:43.31,Dialogue,,0,0,0,,What is it, Yūki?
+Dialogue: 0,1:13:43.80,1:13:47.98,Dialogue,,0,0,0,,Did you think I'd just let you go, when you know my travel routes?
+Dialogue: 0,1:13:49.48,1:13:50.28,Dialogue,,0,0,0,,Stand up!
+Dialogue: 0,1:13:50.95,1:13:52.74,Dialogue,,0,0,0,,Hurry and stand up!
+Dialogue: 0,1:13:57.57,1:14:00.07,Dialogue,,0,0,0,,Geez, that Conan{\rHonorifics - Dialogue}-kun{\r}!
+Dialogue: 0,1:14:00.07,1:14:02.85,Dialogue,,0,0,0,,Next time I find him, I'm never going to let him go about freely again.
+Dialogue: 0,1:14:04.00,1:14:05.75,Dialogue,,0,0,0,,Huh? Is that Yūki{\rHonorifics - Dialogue}-kun{\r} and his dad?
+Dialogue: 0,1:14:06.15,1:14:09.20,Dialogue,,0,0,0,,Didn't they know the deck's off-limits?
+Dialogue: 0,1:14:16.20,1:14:18.05,Dialogue,,0,0,0,,Are you sure he's here?
+Dialogue: 0,1:14:18.05,1:14:21.01,Dialogue,,0,0,0,,Yes, Takekawa's definitely here.
+Dialogue: 0,1:14:21.01,1:14:23.75,Dialogue,,0,0,0,,Then we'll follow you after we park the car.
+Dialogue: 0,1:14:23.75,1:14:25.29,Dialogue,,0,0,0,,Okay, we'll go ahead.
+Dialogue: 0,1:14:25.29,1:14:27.73,Dialogue,,0,0,0,,Hey! Wait, Heiji!
+Dialogue: 0,1:14:28.45,1:14:29.88,Dialogue,,0,0,0,,Why are we here?
+Dialogue: 0,1:14:29.88,1:14:33.60,Dialogue,,0,0,0,,The police know Takekawa's face now.
+Dialogue: 0,1:14:33.60,1:14:35.70,Dialogue,,0,0,0,,He can't mix in with the regular passengers.
+Dialogue: 0,1:14:36.10,1:14:38.05,Dialogue,,0,0,0,,Where did you get this picture?
+Dialogue: 0,1:14:38.05,1:14:39.91,Dialogue,,0,0,0,,I made Ōtaki{\rHonorifics - Dialogue}-han{\r} send it to me.
+Dialogue: 0,1:14:41.19,1:14:43.87,Dialogue,,0,0,0,,So the only way to board a plane without exposing his face is... freight.
+Dialogue: 0,1:14:44.59,1:14:48.10,Dialogue,,0,0,0,,In other words, the only thing he can do is hide in the international freight.
+Dialogue: 0,1:14:48.10,1:14:49.45,Dialogue,,0,0,0,,Hey, kids!
+Dialogue: 0,1:14:49.45,1:14:51.09,Dialogue,,0,0,0,,This place is dangerous, move it!
+Dialogue: 0,1:14:51.09,1:14:51.91,Dialogue,,0,0,0,,Right!
+Dialogue: 0,1:15:03.05,1:15:05.70,Dialogue,,0,0,0,,We're waiting here until the next patrol comes.
+Dialogue: 0,1:15:05.70,1:15:06.35,Dialogue,,0,0,0,,Got it?
+Dialogue: 0,1:15:07.31,1:15:10.41,Dialogue,,0,0,0,,If you stay quiet, you'll get to meet your father.
+Dialogue: 0,1:15:10.41,1:15:11.40,Dialogue,,0,0,0,,Excuse me!
+Dialogue: 0,1:15:11.40,1:15:13.36,Dialogue,,0,0,0,,Have you seen Conan{\rHonorifics - Dialogue}-kun{\r}?
+Dialogue: 0,1:15:13.88,1:15:17.32,Dialogue,,0,0,0,,He's the boy with glasses who was with me.
+Dialogue: 0,1:15:18.54,1:15:20.53,Dialogue,,0,0,0,,No, we haven't seen him.
+Dialogue: 0,1:15:20.85,1:15:22.25,Dialogue,,0,0,0,,Is that so?
+Dialogue: 0,1:15:22.25,1:15:23.49,Dialogue,,0,0,0,,You haven't seen him either, Yūki{\rHonorifics - Dialogue}-kun{\r}?
+Dialogue: 0,1:15:24.89,1:15:28.46,Dialogue,,0,0,0,,Yūki was with me, so I doubt he saw him.
+Dialogue: 0,1:15:29.00,1:15:31.45,Dialogue,,0,0,0,,Lost kids really are a bother, huh?
+Dialogue: 0,1:15:31.45,1:15:32.94,Dialogue,,0,0,0,,Isn't that right.
+Dialogue: 0,1:15:32.94,1:15:34.44,Dialogue,,0,0,0,,See you later, Yūki{\rHonorifics - Dialogue}-kun{\r}.
+Dialogue: 0,1:15:35.19,1:15:36.97,Dialogue,,0,0,0,,Geez, he's always disappearing...
+Dialogue: 0,1:15:41.43,1:15:44.60,Dialogue,,0,0,0,,Oh, I forgot to tell you but this place is off-limits!
+Dialogue: 0,1:15:44.92,1:15:46.30,Dialogue,,0,0,0,,Really?
+Dialogue: 0,1:15:46.30,1:15:49.58,Dialogue,,0,0,0,,Then we'll head back in once Yūki's seasickness is over.
+Dialogue: 0,1:15:50.93,1:15:52.23,Dialogue,,0,0,0,,Miss, save me!
+Dialogue: 0,1:15:52.67,1:15:54.07,Dialogue,,0,0,0,,This man is a spy!
+Dialogue: 0,1:15:54.07,1:15:55.23,Dialogue,,0,0,0,,Yūki!
+Dialogue: 0,1:15:55.73,1:15:57.94,Dialogue,,0,0,0,,Do you really think you can do that?
+Dialogue: 0,1:15:58.51,1:16:00.05,Dialogue,,0,0,0,,What is it, Yūki{\rHonorifics - Dialogue}-kun{\r}?
+Dialogue: 0,1:16:00.05,1:16:01.19,Dialogue,,0,0,0,,Are you okay?
+Dialogue: 0,1:16:01.19,1:16:02.57,Dialogue,,0,0,0,,Excuse us.
+Dialogue: 0,1:16:02.94,1:16:07.40,Dialogue,,0,0,0,,We kept playing spies so I guess it got to his head...
+Dialogue: 0,1:16:07.40,1:16:08.46,Dialogue,,0,0,0,,That's not it!
+Dialogue: 0,1:16:08.46,1:16:10.46,Dialogue,,0,0,0,,This man isn't my father!
+Dialogue: 0,1:16:11.01,1:16:12.23,Dialogue,,0,0,0,,Not your father?
+Dialogue: 0,1:16:14.05,1:16:16.55,Flashback,,0,0,0,,{\be10}Then you stay with him, Conan{\rHonorifics - Flashback\be10}-kun{\r\be10}.
+Dialogue: 0,1:16:16.55,1:16:19.55,Flashback,,0,0,0,,{\be10}I'll talk to an SDF member about Yūki{\rHonorifics - Flashback\be10}-kun{\r\be10}'s situation.
+Dialogue: 0,1:16:19.85,1:16:22.01,Flashback,,0,0,0,,{\be10}Stop. If you do that...
+Dialogue: 0,1:16:22.70,1:16:23.89,Flashback,,0,0,0,,{\be10}If I do that...?
+Dialogue: 0,1:16:25.26,1:16:27.35,Flashback,,0,0,0,,{\be10}I'm fine.
+Dialogue: 0,1:16:28.21,1:16:30.06,Dialogue,,0,0,0,,He really isn't your father, is he?
+Dialogue: 0,1:16:30.53,1:16:32.09,Dialogue,,0,0,0,,No, he's not!
+Dialogue: 0,1:16:32.09,1:16:33.40,Dialogue,,0,0,0,,Save me, Miss!
+Dialogue: 0,1:16:33.40,1:16:35.02,Dialogue,,0,0,0,,Enough, Yūki!
+Dialogue: 0,1:16:35.02,1:16:36.35,Dialogue,,0,0,0,,Yūki{\rHonorifics - Dialogue}-kun{\r}, come here!
+Dialogue: 0,1:16:41.26,1:16:42.91,Dialogue,,0,0,0,,Stupid girl.
+Dialogue: 0,1:16:42.91,1:16:45.66,Dialogue,,0,0,0,,If you'd minded your own business, you wouldn't have to die!
+Dialogue: 0,1:16:45.66,1:16:48.43,Dialogue,,0,0,0,,So you really {\i1}are{\i0} a spy.
+Dialogue: 0,1:16:48.43,1:16:49.70,Dialogue,,0,0,0,,I am...
+Dialogue: 0,1:16:50.17,1:16:52.99,Dialogue,,0,0,0,,But it's too late for you to have regrets.
+Dialogue: 0,1:16:56.65,1:16:57.34,Dialogue,,0,0,0,,What?
+Dialogue: 0,1:17:05.57,1:17:07.78,Dialogue,,0,0,0,,Yūki{\rHonorifics - Dialogue}-kun{\r}, call everybody!
+Dialogue: 0,1:17:07.78,1:17:08.35,Dialogue,,0,0,0,,OK.
+Dialogue: 0,1:17:10.11,1:17:11.56,Dialogue,,0,0,0,,Brat.
+Dialogue: 0,1:17:12.98,1:17:14.81,Dialogue,,0,0,0,,I won't let him go!
+Dialogue: 0,1:17:27.15,1:17:28.65,Dialogue,,0,0,0,,Figures.
+Dialogue: 0,1:17:28.65,1:17:28.99,Dialogue,,0,0,0,,But...
+Dialogue: 0,1:18:08.36,1:18:09.62,Dialogue,,0,0,0,,Target spotted.
+Dialogue: 0,1:18:09.62,1:18:11.20,Dialogue,,0,0,0,,He's at the International Freight Section G.
+Dialogue: 0,1:18:11.60,1:18:12.33,Dialogue,,0,0,0,,Okay.
+Dialogue: 0,1:18:12.33,1:18:13.55,Dialogue,,0,0,0,,You're sure about it?
+Dialogue: 0,1:18:13.55,1:18:16.42,Dialogue,,0,0,0,,Yes, it's a 97% match.
+Dialogue: 0,1:18:16.42,1:18:18.38,Thoughts,,0,0,0,,{\be10}I'm counting on you, Hattori.
+Dialogue: 0,1:18:18.38,1:18:20.59,Dialogue,,0,0,0,,Hello? This is Megure from the Tōkyō Police.
+Dialogue: 0,1:18:20.59,1:18:23.27,Radio,,0,0,0,,{\be10}We spotted Takekawa in Section G.
+Dialogue: 0,1:18:23.27,1:18:23.80,Dialogue,,0,0,0,,Okay.
+Dialogue: 0,1:18:23.80,1:18:25.80,Dialogue,,0,0,0,,Takekawa's in Section G.
+Dialogue: 0,1:18:25.80,1:18:27.00,Dialogue,,0,0,0,,Section G's this way.
+Dialogue: 0,1:18:31.73,1:18:33.36,Dialogue,,0,0,0,,Oh, you can't go in there.
+Dialogue: 0,1:18:33.36,1:18:34.23,Dialogue,,0,0,0,,Let me go!
+Dialogue: 0,1:18:34.23,1:18:36.10,Dialogue,,0,0,0,,Kid, you can't go in there.
+Dialogue: 0,1:18:36.10,1:18:37.90,Dialogue,,0,0,0,,Let me go!
+Dialogue: 0,1:18:37.90,1:18:38.31,Dialogue,,0,0,0,,Stop!
+Dialogue: 0,1:18:38.65,1:18:40.02,Dialogue,,0,0,0,,I told you to let me go!
+Dialogue: 0,1:18:40.02,1:18:40.65,Dialogue,,0,0,0,,Yūki{\rHonorifics - Dialogue}-kun{\r}!
+Dialogue: 0,1:18:40.65,1:18:42.05,Dialogue,,0,0,0,,The spy!
+Dialogue: 0,1:18:42.05,1:18:42.61,Dialogue,,0,0,0,,What?!
+Dialogue: 0,1:18:42.61,1:18:44.57,Dialogue,,0,0,0,,The spy was there!
+Dialogue: 0,1:18:45.25,1:18:49.39,Dialogue,,0,0,0,,With a face like this, he could be anywhere! How am I supposed to find him?
+Dialogue: 0,1:18:49.39,1:18:50.87,Dialogue,,0,0,0,,Hey, watch out!
+Dialogue: 0,1:18:54.04,1:18:55.18,Dialogue,,0,0,0,,You okay?
+Dialogue: 0,1:18:56.47,1:18:57.71,Dialogue,,0,0,0,,Thanks...
+Dialogue: 0,1:18:57.71,1:19:00.00,Dialogue,,0,0,0,,Don't be so stupid.
+Dialogue: 0,1:19:00.50,1:19:02.25,Dialogue,,0,0,0,,Wanderin' around alone like that's dangerous.
+Dialogue: 0,1:19:02.25,1:19:04.29,Dialogue,,0,0,0,,Wait for me here, okay?
+Dialogue: 0,1:19:05.84,1:19:07.25,Dialogue,,0,0,0,,I'll be back soon!
+Dialogue: 0,1:19:07.25,1:19:08.72,Dialogue,,0,0,0,,Hey, Heiji!
+Dialogue: 0,1:19:10.00,1:19:14.18,Dialogue,,0,0,0,,If that's how you're gonna be, I'll show you! I'll find Takekawa before you!
+Dialogue: 0,1:19:18.64,1:19:20.67,Dialogue,,0,0,0,,T-Takekawa?!
+Dialogue: 0,1:19:23.48,1:19:28.83,Dialogue,,0,0,0,,Wait, Takekawa! Wait! You won't get away!
+Dialogue: 0,1:19:28.83,1:19:31.20,Dialogue,,0,0,0,,What is it, Kazuha? Kazuha!
+Dialogue: 0,1:19:31.20,1:19:31.83,Dialogue,,0,0,0,,Where did you go?
+Dialogue: 0,1:19:32.90,1:19:34.87,Dialogue,,0,0,0,,Don't tell me she went off on her own!
+Dialogue: 0,1:19:37.43,1:19:38.50,Dialogue,,0,0,0,,There!
+Dialogue: 0,1:19:38.50,1:19:39.56,Dialogue,,0,0,0,,It's him!
+Dialogue: 0,1:19:41.93,1:19:44.21,Dialogue,,0,0,0,,This is the police! Stop!
+Dialogue: 0,1:19:44.53,1:19:45.34,Dialogue,,0,0,0,,Move!
+Dialogue: 0,1:19:45.77,1:19:46.26,Dialogue,,0,0,0,,Stop!
+Dialogue: 0,1:19:47.57,1:19:48.85,Dialogue,,0,0,0,,Wait, Nanami{\rHonorifics - Dialogue}-san{\r}!
+Dialogue: 0,1:19:49.98,1:19:50.76,Dialogue,,0,0,0,,Let's go to the deck.
+Dialogue: 0,1:19:51.95,1:19:56.68,Dialogue,,0,0,0,,A spy who had his identity exposed isn't going to wait aboard the ship until we reach the harbour.
+Dialogue: 0,1:19:57.62,1:19:58.06,Dialogue,,0,0,0,,You're right.
+Dialogue: 0,1:19:58.58,1:20:00.35,Dialogue,,0,0,0,,But you two...
+Dialogue: 0,1:20:00.35,1:20:01.50,Dialogue,,0,0,0,,Wait, Conan{\rHonorifics - Dialogue}-kun{\r}!
+Dialogue: 0,1:20:01.50,1:20:03.52,Dialogue,,0,0,0,,Yūki{\rHonorifics - Dialogue}-kun{\r}, go back to where everyone is. Okay?
+Dialogue: 0,1:20:04.70,1:20:07.61,Dialogue,,0,0,0,,But that lady...
+Dialogue: 0,1:20:08.06,1:20:09.57,Dialogue,,0,0,0,,Wait!
+Dialogue: 0,1:20:29.72,1:20:31.18,Dialogue,,0,0,0,,Don't come any closer!
+Dialogue: 0,1:20:31.18,1:20:33.22,Dialogue,,0,0,0,,Not one more step!
+Dialogue: 0,1:20:33.22,1:20:34.34,Dialogue,,0,0,0,,Give yourself up!
+Dialogue: 0,1:20:34.34,1:20:35.60,Dialogue,,0,0,0,,You have nowhere to run!
+Dialogue: 0,1:20:36.58,1:20:38.22,Dialogue,,0,0,0,,You sure about that?
+Dialogue: 0,1:20:39.07,1:20:40.60,Dialogue,,0,0,0,,Don't do anything stupid!
+Dialogue: 0,1:20:46.84,1:20:48.36,Dialogue,,0,0,0,,There's too many obstacles in the way.
+Dialogue: 0,1:20:49.25,1:20:50.32,Thoughts,,0,0,0,,{\be10}It's almost vertical.
+Dialogue: 0,1:20:50.88,1:20:52.42,Thoughts,,0,0,0,,{\be10}I can't shoot my ball at that angle.
+Dialogue: 0,1:20:56.70,1:20:57.65,Thoughts,,0,0,0,,{\be10}There!
+Dialogue: 0,1:20:57.65,1:20:58.12,Dialogue,,0,0,0,,Nanami{\rHonorifics - Dialogue}-san{\r}!
+Dialogue: 0,1:20:58.98,1:21:01.71,Dialogue,,0,0,0,,Can you rotate that cannon anticlockwise?
+Dialogue: 0,1:21:01.71,1:21:02.75,Dialogue,,0,0,0,,The cannon?
+Dialogue: 0,1:21:02.75,1:21:04.42,Dialogue,,0,0,0,,If you can, do it right now!
+Dialogue: 0,1:21:04.80,1:21:05.79,Dialogue,,0,0,0,,Please!
+Dialogue: 0,1:21:15.22,1:21:17.84,Dialogue,,0,0,0,,Kazuha!
+Dialogue: 0,1:21:17.84,1:21:18.31,Dialogue,,0,0,0,,Die!
+Dialogue: 0,1:21:19.01,1:21:20.77,Dialogue,,0,0,0,,Hei... ji...
+Dialogue: 0,1:21:21.67,1:21:22.89,Dialogue,,0,0,0,,Get down!
+Dialogue: 0,1:21:33.10,1:21:35.13,Dialogue,,0,0,0,,You okay, Hei{\rHonorifics - Dialogue}-chan{\r}?!
+Dialogue: 0,1:21:41.62,1:21:42.67,Dialogue,,0,0,0,,Stop!
+Dialogue: 0,1:21:43.58,1:21:44.57,Thoughts,,0,0,0,,{\be10}You're not getting away!
+Dialogue: 0,1:21:47.25,1:21:48.46,Dialogue,,0,0,0,,Don't move!
+Dialogue: 0,1:21:57.85,1:22:00.52,Dialogue,,0,0,0,,Go!
+Dialogue: 0,1:22:09.00,1:22:09.61,Dialogue,,0,0,0,,No way!
+Dialogue: 0,1:22:17.99,1:22:19.37,Dialogue,,0,0,0,,Suspect arrested!
+Dialogue: 0,1:22:19.37,1:22:20.90,Dialogue,,0,0,0,,Give yourself up, Takekawa!
+Dialogue: 0,1:22:20.90,1:22:22.90,Dialogue,,0,0,0,,Okay, I'll leave the rest to you.
+Dialogue: 0,1:22:22.90,1:22:24.81,Dialogue,,0,0,0,,You okay, Hei{\rHonorifics - Dialogue}-chan{\r}?
+Dialogue: 0,1:22:24.81,1:22:27.53,Dialogue,,0,0,0,,Hurry up, call an ambulance!
+Dialogue: 0,1:22:27.53,1:22:28.84,Dialogue,,0,0,0,,Don't be so dramatic...
+Dialogue: 0,1:22:28.84,1:22:29.62,Dialogue,,0,0,0,,Heiji!
+Dialogue: 0,1:22:29.62,1:22:32.17,Dialogue,,0,0,0,,I'm fine, it's just a scratch.
+Dialogue: 0,1:22:32.17,1:22:33.65,Dialogue,,0,0,0,,Really, Hei{\rHonorifics - Dialogue}-chan{\r}?
+Dialogue: 0,1:22:33.65,1:22:34.41,Dialogue,,0,0,0,,Yeah.
+Dialogue: 0,1:22:35.36,1:22:37.14,Dialogue,,0,0,0,,What is it, Kazuha?
+Dialogue: 0,1:22:37.14,1:22:37.82,Dialogue,,0,0,0,,Oh, crap.
+Dialogue: 0,1:22:37.82,1:22:38.65,Dialogue,,0,0,0,,Don't cry!
+Dialogue: 0,1:22:43.57,1:22:45.17,Dialogue,,0,0,0,,Ouch!
+Dialogue: 0,1:22:45.17,1:22:46.23,Dialogue,,0,0,0,,I just got shot there, you know!
+Dialogue: 0,1:22:48.63,1:22:49.96,Dialogue,,0,0,0,,Let go! Lemme go!
+Dialogue: 0,1:22:51.48,1:22:53.11,Dialogue,,0,0,0,,Ouch!
+Dialogue: 0,1:22:57.58,1:22:59.72,Dialogue,,0,0,0,,I was getting a bit nervous there.
+Dialogue: 0,1:23:00.42,1:23:01.58,Dialogue,,0,0,0,,But now it's case clos—
+Dialogue: 0,1:23:01.58,1:23:02.30,Dialogue,,0,0,0,,Inspector!
+Dialogue: 0,1:23:02.30,1:23:03.29,Dialogue,,0,0,0,,Please look at this.
+Dialogue: 0,1:23:03.29,1:23:10.63,Dialogue,,0,0,0,,The Kansai Airport Police informed us that they found a pressurised room disguised as a healing capsule among the international freight.
+Dialogue: 0,1:23:10.63,1:23:12.84,Dialogue,,0,0,0,,So he planned to escape in that.
+Dialogue: 0,1:23:12.84,1:23:21.05,Dialogue,,0,0,0,,Also, after seizing Takekawa at Kansai Airport, they found a suspicious voicemail, so I asked them to send it to us.
+Dialogue: 0,1:23:21.05,1:23:23.86,Dialogue,,0,0,0,,Play that voicemail as soon as you can.
+Dialogue: 0,1:23:23.86,1:23:25.85,Dialogue,,0,0,0,,It might be a message from Lt. Sasaura.
+Dialogue: 0,1:23:26.24,1:23:28.55,Dialogue,,0,0,0,,Got it. I'll set it up.
+Dialogue: 0,1:23:32.50,1:23:33.75,Dialogue,,0,0,0,,Yummy!
+Dialogue: 0,1:23:33.75,1:23:34.94,Dialogue,,0,0,0,,Say...
+Dialogue: 0,1:23:34.94,1:23:36.26,Dialogue,,0,0,0,,What is it?
+Dialogue: 0,1:23:36.26,1:23:36.74,Dialogue,,0,0,0,,Are you lost?
+Dialogue: 0,1:23:37.08,1:23:39.27,Dialogue,,0,0,0,,Where is the lady who was with you?
+Dialogue: 0,1:23:39.27,1:23:40.89,Dialogue,,0,0,0,,You mean Ran?
+Dialogue: 0,1:23:41.78,1:23:43.59,Dialogue,,0,0,0,,Now that you mention it, where {\i1}is{\i0} Ran{\rHonorifics - Dialogue}-oneesan{\r}?
+Dialogue: 0,1:23:43.59,1:23:45.97,Dialogue,,0,0,0,,She's still looking for Conan{\rHonorifics - Dialogue}-kun{\r}.
+Dialogue: 0,1:23:46.41,1:23:51.08,Radio,,0,0,0,,{\be10}The access ID is 'aegis0902'.
+Dialogue: 0,1:23:51.80,1:23:55.18,Radio,,0,0,0,,{\be10}The password is '0505informer'.
+Dialogue: 0,1:23:56.10,1:24:01.29,Radio,,0,0,0,,{\be10\an8}Message recorded on April 20th, at 5:30 AM.
+Dialogue: 0,1:23:55.83,1:23:58.30,Dialogue,,0,0,0,,There's no doubt about it, that's Lt. Sasaura's voice.
+Dialogue: 0,1:24:01.29,1:24:04.12,Dialogue,,0,0,0,,That's Sasaura{\rHonorifics - Dialogue}-san{\r}'s estimated time of death.
+Dialogue: 0,1:24:04.12,1:24:07.12,Dialogue,,0,0,0,,This voicemail was on Takekawa's phone.
+Dialogue: 0,1:24:07.12,1:24:11.77,Dialogue,,0,0,0,,This is definitive proof that Lt. Sasaura sent the data about the Aegis Destroyers to Takekawa.
+Dialogue: 0,1:24:11.77,1:24:13.28,Dialogue,,0,0,0,,We could hear the waves too, right?
+Dialogue: 0,1:24:14.13,1:24:16.54,Dialogue,,0,0,0,,So maybe he was somewhere near the sea.
+Dialogue: 0,1:24:16.54,1:24:18.05,Dialogue,,0,0,0,,Waves?
+Dialogue: 0,1:24:18.05,1:24:19.99,Dialogue,,0,0,0,,And we can hear someone else talking too.
+Dialogue: 0,1:24:20.75,1:24:22.08,Dialogue,,0,0,0,,Play it again!
+Dialogue: 0,1:24:22.08,1:24:22.83,Dialogue,,0,0,0,,Right.
+Dialogue: 0,1:24:23.82,1:24:27.70,Radio,,0,0,0,,{\be10}I saved the Aegis data on the KRY Cloud.
+Dialogue: 0,1:24:27.70,1:24:32.85,Radio,,0,0,0,,{\be10}The access ID is 'aegis0902'.
+Dialogue: 0,1:24:32.85,1:24:36.66,Radio,,0,0,0,,{\be10\an8}The password is '0505informer'.
+Dialogue: 0,1:24:34.38,1:24:35.88,Thoughts,,0,0,0,,{\be10}What's that metallic sound?
+Dialogue: 0,1:24:36.95,1:24:38.62,Dialogue,,0,0,0,,Play the last part again.
+Dialogue: 0,1:24:38.62,1:24:39.59,Dialogue,,0,0,0,,Right.
+Dialogue: 0,1:24:40.27,1:24:43.55,Radio,,0,0,0,,{\be10}The password is '0505informer'.
+Dialogue: 0,1:24:43.55,1:24:45.59,Dialogue,,0,0,0,,It's true, you can hear something.
+Dialogue: 0,1:24:45.59,1:24:46.79,Dialogue,,0,0,0,,It's a man's voice.
+Dialogue: 0,1:24:46.79,1:24:49.04,Dialogue,,0,0,0,,But we can't understand what he's saying.
+Dialogue: 0,1:24:49.04,1:24:50.80,Dialogue,,0,0,0,,I'll send it for analysis.
+Dialogue: 0,1:24:50.80,1:24:52.02,Dialogue,,0,0,0,,Thank you.
+Dialogue: 0,1:24:52.50,1:24:54.65,Thoughts,,0,0,0,,{\be10}What's this uneasy feeling I have?
+Dialogue: 0,1:24:54.65,1:24:56.71,Thoughts,,0,0,0,,{\be10}It's like there's something still left unsolved...
+Dialogue: 0,1:25:02.47,1:25:03.70,Dialogue,,0,0,0,,Is that you, Shin'ichi?
+Dialogue: 0,1:25:03.70,1:25:08.75,Dialogue,,0,0,0,,The TBT we found on Sasaura{\rHonorifics - Dialogue}-san{\r}'s body isn't from the Aegis Destroyer Hotaka.
+Dialogue: 0,1:25:11.49,1:25:13.12,Dialogue,,0,0,0,,But it {\i1}is{\i0} boat paint, right?
+Dialogue: 0,1:25:13.43,1:25:18.09,Dialogue,,0,0,0,,Yes. After checking the ships arriving and departing from Maizuru Harbour and Wakasa Harbour,
+Dialogue: 0,1:25:18.43,1:25:23.32,Dialogue,,0,0,0,,we found out that one of the sightseeing cruises passing by the old naval port
+Dialogue: 0,1:25:23.32,1:25:26.10,Dialogue,,0,0,0,,left Maizuru Harbour and passed by Wakasa Shipyard today.
+Dialogue: 0,1:25:26.43,1:25:31.18,Dialogue,,0,0,0,,As expected, the paint on that sightseeing cruise matched with the TBT.
+Dialogue: 0,1:25:31.66,1:25:38.86,Dialogue,,0,0,0,,Then Sasaura{\rHonorifics - Dialogue}-san{\r}'s body was dragged along by that sightseeing cruise and moved from Maizuru Harbour to Wakasa Harbour?
+Dialogue: 0,1:25:39.26,1:25:41.49,Dialogue,,0,0,0,,Yes, there's no doubt about it.
+Dialogue: 0,1:25:41.49,1:25:45.64,Dialogue,,0,0,0,,A sightseeing cruise departing from Maizuru Harbour?
+Dialogue: 0,1:25:45.64,1:25:51.61,Flashback,,0,0,0,,{\be10}At 5:30 this morning, Sasaura{\rHonorifics - Flashback\be10}-han{\r\be10} was seen waving a Japanese flag on a cliff at Maizuru Harbour.
+Dialogue: 0,1:25:51.62,1:25:54.04,Flashback,,0,0,0,,{\be10}An employee from a sightseeing cruise witnessed it.
+Dialogue: 0,1:25:54.04,1:25:55.20,Flashback,,0,0,0,,{\be10}The password is '05—
+Dialogue: 0,1:25:55.21,1:25:59.46,Flashback,,0,0,0,,{\be10}Message recorded on April 20th, at 5:30 AM.
+Dialogue: 0,1:25:59.46,1:26:02.30,Flashback,,0,0,0,,{\be10}His watch stopped at 5:30 AM.
+Dialogue: 0,1:26:02.30,1:26:05.26,Flashback,,0,0,0,,{\be10}And the last call was this morning at 5:30.
+Dialogue: 0,1:26:05.26,1:26:06.89,Flashback,,0,0,0,,{\be10}5:30 this morning?
+Dialogue: 0,1:26:06.89,1:26:08.92,Flashback,,0,0,0,,{\be10}That's when his wristwatch stopped.
+Dialogue: 0,1:26:08.93,1:26:11.14,Flashback,,0,0,0,,{\be10}It's also his estimated time of death.
+Dialogue: 0,1:26:14.36,1:26:17.26,Thoughts,,0,0,0,,{\be10}The time the witness saw Sasaura{\rHonorifics - Thoughts\be10}-san{\r\be10}...
+Dialogue: 0,1:26:17.26,1:26:18.60,Thoughts,,0,0,0,,{\be10}The time he left the voicemail...
+Dialogue: 0,1:26:19.27,1:26:20.53,Thoughts,,0,0,0,,{\be10}The time he died...
+Dialogue: 0,1:26:20.53,1:26:22.90,Thoughts,,0,0,0,,{\be10}They were all at the same time!
+Dialogue: 0,1:26:22.90,1:26:23.86,Thoughts,,0,0,0,,{\be10}5:30!
+Dialogue: 0,1:26:24.66,1:26:28.12,Dialogue,,0,0,0,,Oh, I see! I made a huge mistake!
+Dialogue: 0,1:26:38.50,1:26:40.92,Dialogue,,0,0,0,,After having been arrested at Kansai Airport,
+Dialogue: 0,1:26:41.37,1:26:44.38,Dialogue,,0,0,0,,Takekawa was brought to the Ōsaka Police Security Department's Public Safety Division.
+Dialogue: 0,1:26:44.76,1:26:48.94,Dialogue,,0,0,0,,We're thinking of bringing X there too once we reach Maizuru Harbour.
+Dialogue: 0,1:26:48.94,1:26:50.85,Dialogue,,0,0,0,,You sure the Self-Defence Force doesn't have to be part of the investigation?
+Dialogue: 0,1:26:51.35,1:26:54.71,Dialogue,,0,0,0,,There's no distinction between the JMSDF, the Coast Guard, or the Police when it comes to an investigation.
+Dialogue: 0,1:26:54.71,1:26:57.63,Dialogue,,0,0,0,,Takekawa and X should be investigated together.
+Dialogue: 0,1:26:58.52,1:26:59.94,Dialogue,,0,0,0,,I agree.
+Dialogue: 0,1:26:59.94,1:27:00.68,Dialogue,,0,0,0,,Right.
+Dialogue: 0,1:27:02.88,1:27:04.65,Dialogue,,0,0,0,,Now the case is closed!
+Dialogue: 0,1:27:04.65,1:27:10.55,Dialogue,,0,0,0,,True. Looks like we didn't need your deductions this time, Mouri{\rHonorifics - Dialogue}-kun{\r}.
+Dialogue: 0,1:27:15.73,1:27:16.25,Dialogue,,0,0,0,,Mouri{\rHonorifics - Dialogue}-san{\r}!
+Dialogue: 0,1:27:23.00,1:27:23.84,Dialogue,,0,0,0,,Mouri{\rHonorifics - Dialogue}-san{\r}?
+Dialogue: 0,1:27:23.84,1:27:26.95,Dialogue,,0,0,0,,Umm, that's the captain's seat!
+Dialogue: 0,1:27:26.95,1:27:27.80,Dialogue,,0,0,0,,Are you okay?
+Dialogue: 0,1:27:28.33,1:27:31.26,Dialogue,,0,0,0,,No problem, I just felt slightly overcome.
+Dialogue: 0,1:27:31.82,1:27:34.47,Dialogue,,0,0,0,,Seasickness? In a ship this big?
+Dialogue: 0,1:27:34.47,1:27:38.44,Dialogue,,0,0,0,,No, I was overcome by the brilliance of my own deduction.
+Dialogue: 0,1:27:38.79,1:27:41.44,Dialogue,,0,0,0,,What are you talking about now, Mouri{\rHonorifics - Dialogue}-kun{\r}?
+Dialogue: 0,1:27:41.44,1:27:42.90,Dialogue,,0,0,0,,I figured it out.
+Dialogue: 0,1:27:43.41,1:27:45.86,Dialogue,,0,0,0,,I know who killed Sasaura{\rHonorifics - Dialogue}-san{\r}.
+Dialogue: 0,1:27:46.22,1:27:48.05,Dialogue,,0,0,0,,'Who killed Sasaura{\rHonorifics - Dialogue}-san{\r}'?
+Dialogue: 0,1:27:48.05,1:27:50.32,Dialogue,,0,0,0,,Isn't it X, who we just arrested?
+Dialogue: 0,1:27:50.63,1:27:56.28,Dialogue,,0,0,0,,X {\i1}did{\i0} infiltrate this boat to steal the data about the Aegis Destroyers.
+Dialogue: 0,1:27:56.28,1:28:01.00,Dialogue,,0,0,0,,Yes. And he killed him in order to steal the data card in his phone.
+Dialogue: 0,1:28:01.35,1:28:05.96,Dialogue,,0,0,0,,No, the person who stole the data card from his phone was Capt. Fujii.
+Dialogue: 0,1:28:06.94,1:28:08.03,Dialogue,,0,0,0,,That's true.
+Dialogue: 0,1:28:08.03,1:28:12.29,Dialogue,,0,0,0,,Huh? Then why was Sasaura{\rHonorifics - Dialogue}-san{\r} murdered?
+Dialogue: 0,1:28:12.29,1:28:14.93,Dialogue,,0,0,0,,Indeed, there was no reason for him to be killed.
+Dialogue: 0,1:28:15.36,1:28:18.39,Dialogue,,0,0,0,,In other words, he wasn't killed by X!
+Dialogue: 0,1:28:18.39,1:28:19.60,Dialogue,,0,0,0,,What?
+Dialogue: 0,1:28:19.96,1:28:20.98,Dialogue,,0,0,0,,Then who...?
+Dialogue: 0,1:28:20.98,1:28:22.96,Dialogue,,0,0,0,,Please think back.
+Dialogue: 0,1:28:22.96,1:28:26.69,Dialogue,,0,0,0,,Sasaura{\rHonorifics - Dialogue}-san{\r} was on a cliff at Maizuru Harbour this morning.
+Dialogue: 0,1:28:26.69,1:28:28.95,Dialogue,,0,0,0,,Yes, waving a flag to X.
+Dialogue: 0,1:28:29.35,1:28:32.91,Dialogue,,0,0,0,,Yes, and then he fell into the sea and died.
+Dialogue: 0,1:28:33.44,1:28:38.12,Dialogue,,0,0,0,,In other words, he never boarded this ship today.
+Dialogue: 0,1:28:38.12,1:28:39.35,Dialogue,,0,0,0,,Say what?
+Dialogue: 0,1:28:39.35,1:28:41.79,Dialogue,,0,0,0,,But his phone was aboard this Aegis Destroyer!
+Dialogue: 0,1:28:41.79,1:28:47.51,Dialogue,,0,0,0,,That's because the killer left it there in a hurry to make us think the victim had boarded this ship.
+Dialogue: 0,1:28:48.25,1:28:50.47,Dialogue,,0,0,0,,Think back, Fujii{\rHonorifics - Dialogue}-san{\r}.
+Dialogue: 0,1:28:51.56,1:28:55.43,Dialogue,,0,0,0,,When and where did you find Sasaura{\rHonorifics - Dialogue}-san{\r}'s phone?
+Dialogue: 0,1:28:56.08,1:28:57.53,Dialogue,,0,0,0,,Now that you mention it...
+Dialogue: 0,1:28:57.53,1:28:59.39,Dialogue,,0,0,0,,It was quite some time after we departed.
+Dialogue: 0,1:28:59.93,1:29:04.94,Dialogue,,0,0,0,,And nobody noticed it before, despite being in such an obvious location.
+Dialogue: 0,1:29:04.94,1:29:07.28,Dialogue,,0,0,0,,Exactly. So why?
+Dialogue: 0,1:29:07.28,1:29:10.70,Dialogue,,0,0,0,,It's because it was a fake piece of evidence crafted after our departure.
+Dialogue: 0,1:29:11.39,1:29:15.58,Dialogue,,0,0,0,,In other words, the killer is someone who boarded this Aegis Destroyer midway.
+Dialogue: 0,1:29:16.20,1:29:18.62,Dialogue,,0,0,0,,Isn't that right, Kurata{\rHonorifics - Dialogue}-san{\r}?
+Dialogue: 0,1:29:22.18,1:29:24.08,Dialogue,,0,0,0,,Impossible!
+Dialogue: 0,1:29:24.08,1:29:27.75,Dialogue,,0,0,0,,I hadn't even {\i1}heard{\i0} of Sasaura{\rHonorifics - Dialogue}-san{\r} before this case!
+Dialogue: 0,1:29:27.75,1:29:29.37,Dialogue,,0,0,0,,He's right, Mouri{\rHonorifics - Dialogue}-kun{\r}!
+Dialogue: 0,1:29:29.37,1:29:31.55,Dialogue,,0,0,0,,He had no motive to kill Sasaura{\rHonorifics - Dialogue}-san{\r}!
+Dialogue: 0,1:29:31.55,1:29:34.78,Dialogue,,0,0,0,,Yes, he didn't intend to kill him.
+Dialogue: 0,1:29:34.78,1:29:35.65,Dialogue,,0,0,0,,What?!
+Dialogue: 0,1:29:35.65,1:29:36.50,Dialogue,,0,0,0,,Conan!
+Dialogue: 0,1:29:36.50,1:29:41.11,Dialogue,,0,0,0,,Play the voicemail recorded by Sasaura{\rHonorifics - Dialogue}-san{\r} that we found on Takekawa{\rHonorifics - Dialogue}-san{\r}'s phone.
+Dialogue: 0,1:29:41.81,1:29:46.45,Radio,,0,0,0,,{\be10}I saved the Aegis data on the KRY cloud. The access ID is...
+Dialogue: 0,1:29:46.45,1:29:48.49,Dialogue,,0,0,0,,Can't you hear a metallic sound?
+Dialogue: 0,1:29:48.49,1:29:49.24,Dialogue,,0,0,0,,You're right.
+Dialogue: 0,1:29:49.24,1:29:51.10,Dialogue,,0,0,0,,I've heard that sound somewhere before...
+Dialogue: 0,1:29:51.10,1:29:52.45,Dialogue,,0,0,0,,What is that sound?
+Dialogue: 0,1:29:52.81,1:29:58.41,Dialogue,,0,0,0,,It's the sound made when an expandable baton and a gun secured at your waist bump into each other.
+Dialogue: 0,1:29:58.81,1:30:01.00,Dialogue,,0,0,0,,Isn't that right, Kurata{\rHonorifics - Dialogue}-san{\r}?
+Dialogue: 0,1:30:05.83,1:30:07.34,Dialogue,,0,0,0,,Hold on!
+Dialogue: 0,1:30:07.34,1:30:11.31,Dialogue,,0,0,0,,Everybody in the Security Department of the Coast Guard has an expandable baton and a gun!
+Dialogue: 0,1:30:11.31,1:30:12.34,Dialogue,,0,0,0,,I see.
+Dialogue: 0,1:30:12.34,1:30:16.20,Dialogue,,0,0,0,,But this voicemail was recorded this morning at 5:30.
+Dialogue: 0,1:30:16.20,1:30:17.93,Dialogue,,0,0,0,,And his time of death is...
+Dialogue: 0,1:30:17.93,1:30:19.89,Dialogue,,0,0,0,,This morning at 5:30!
+Dialogue: 0,1:30:21.11,1:30:26.66,Dialogue,,0,0,0,,So he couldn't have boarded this ship while carrying his phone.
+Dialogue: 0,1:30:26.66,1:30:33.32,Dialogue,,0,0,0,,Furthermore, you were the one who found the suspicious ship this morning at Maizuru Harbour, Kurata{\rHonorifics - Dialogue}-san{\r}!
+Dialogue: 0,1:30:33.69,1:30:37.41,Dialogue,,0,0,0,,So at that time, you were patrolling Maizuru Harbour.
+Dialogue: 0,1:30:37.96,1:30:40.37,Dialogue,,0,0,0,,Or are you still going to deny it?
+Dialogue: 0,1:30:41.24,1:30:42.28,Dialogue,,0,0,0,,Don't move!
+Dialogue: 0,1:30:46.71,1:30:48.07,Dialogue,,0,0,0,,To think...
+Dialogue: 0,1:30:48.07,1:30:52.09,Dialogue,,0,0,0,,I never thought things would turn out like this!
+Dialogue: 0,1:30:54.44,1:30:55.76,Flashback,,0,0,0,,{\be10}Who could that be, this early?
+Dialogue: 0,1:30:56.90,1:30:58.01,Flashback,,0,0,0,,{\be10}How strange...
+Dialogue: 0,1:30:59.35,1:31:02.18,Flashback,,0,0,0,,{\be10}Hey! What are you doing there?!
+Dialogue: 0,1:31:03.06,1:31:03.92,Flashback,,0,0,0,,{\be10}Damn...
+Dialogue: 0,1:31:09.81,1:31:10.77,Flashback,,0,0,0,,{\be10}Hold on!
+Dialogue: 0,1:31:10.77,1:31:12.23,Flashback,,0,0,0,,{\be10}This is the Coast Guard!
+Dialogue: 0,1:31:12.67,1:31:14.48,Flashback,,0,0,0,,{\be10\an8}Hey! Stop!
+Dialogue: 0,1:31:13.70,1:31:15.19,Dialogue,,0,0,0,,He was obviously suspicious.
+Dialogue: 0,1:31:16.78,1:31:17.99,Flashback,,0,0,0,,{\be10}Let me go!
+Dialogue: 0,1:31:28.46,1:31:33.25,Dialogue,,0,0,0,,He was running away, having just conveyed the information about the Aegis Destroyers to Takekawa.
+Dialogue: 0,1:31:33.62,1:31:35.59,Dialogue,,0,0,0,,I didn't know that.
+Dialogue: 0,1:31:35.94,1:31:42.22,Dialogue,,0,0,0,,When I rushed to the bottom of the cliff to look for him in the sea, I found that suspicious ship.
+Dialogue: 0,1:31:42.54,1:31:47.70,Dialogue,,0,0,0,,After that, I was busy reporting it to HQ and contacting the JMSDF.
+Dialogue: 0,1:31:49.92,1:31:57.32,Dialogue,,0,0,0,,Then, at that time, we were informed by the Kyōto Police that Lt. Sasaura's arm had been found aboard this Aegis Destroyer.
+Dialogue: 0,1:31:57.73,1:32:01.28,Dialogue,,0,0,0,,I quickly checked the belongings of this man who'd fallen this morning.
+Dialogue: 0,1:32:02.74,1:32:08.30,Dialogue,,0,0,0,,And I realised that the man who'd been acting so suspiciously this morning was Lt. Sasaura.
+Dialogue: 0,1:32:10.44,1:32:15.50,Dialogue,,0,0,0,,More than the charges for professional negligence, I was afraid of being charged with killing a Self-Defence Force member.
+Dialogue: 0,1:32:17.42,1:32:22.35,Dialogue,,0,0,0,,So I asked my boss to let me\Ntake part in this investigation.
+Dialogue: 0,1:32:22.35,1:32:23.64,Dialogue,,0,0,0,,Why did you do such a thing?
+Dialogue: 0,1:32:24.24,1:32:27.89,Dialogue,,0,0,0,,It's because I knew there was a chance he'd been killed aboard this Aegis Destroyer.
+Dialogue: 0,1:32:28.34,1:32:32.56,Dialogue,,0,0,0,,I thought that if he was found to be killed here, I could avoid facing my crime.
+Dialogue: 0,1:32:33.25,1:32:37.78,Dialogue,,0,0,0,,So I pretended to be investigating, and put his phone in an obvious location on the deck.
+Dialogue: 0,1:32:38.24,1:32:40.71,Dialogue,,0,0,0,,After that, you know the rest.
+Dialogue: 0,1:32:42.95,1:32:51.09,Dialogue,,0,0,0,,I sincerely apologise for my selfish behaviour that disturbed the investigation.
+Dialogue: 0,1:32:59.63,1:33:01.18,Dialogue,,0,0,0,,Uncle!
+Dialogue: 0,1:33:01.18,1:33:02.59,Dialogue,,0,0,0,,Have you seen Ran anywhere?
+Dialogue: 0,1:33:02.59,1:33:03.68,Dialogue,,0,0,0,,No.
+Dialogue: 0,1:33:03.68,1:33:05.55,Dialogue,,0,0,0,,No matter how much we search, we can't find her!
+Dialogue: 0,1:33:06.02,1:33:08.02,Dialogue,,0,0,0,,She probably got lost again.
+Dialogue: 0,1:33:08.02,1:33:09.13,Dialogue,,0,0,0,,No!
+Dialogue: 0,1:33:09.13,1:33:10.46,Dialogue,,0,0,0,,We looked everywhere!
+Dialogue: 0,1:33:10.46,1:33:12.81,Dialogue,,0,0,0,,She disappeared after fighting the spy!
+Dialogue: 0,1:33:12.81,1:33:14.21,Dialogue,,0,0,0,,What?!
+Dialogue: 0,1:33:14.21,1:33:15.15,Dialogue,,0,0,0,,Inspector?
+Dialogue: 0,1:33:15.47,1:33:16.85,Dialogue,,0,0,0,,What is it, Satō{\rHonorifics - Dialogue}-kun{\r}?
+Dialogue: 0,1:33:16.85,1:33:19.02,Dialogue,,0,0,0,,X made a rather alarming statement.
+Dialogue: 0,1:33:19.02,1:33:20.24,Dialogue,,0,0,0,,An alarming statement?
+Dialogue: 0,1:33:20.24,1:33:21.28,Dialogue,,0,0,0,,Yes.
+Dialogue: 0,1:33:21.28,1:33:26.33,Dialogue,,0,0,0,,It seems his identity was exposed by a young lady just before we caught him.
+Dialogue: 0,1:33:26.33,1:33:29.40,Dialogue,,0,0,0,,So he said he pushed her into the sea to keep her silent.
+Dialogue: 0,1:33:36.17,1:33:41.05,Dialogue,,0,0,0,,It seems this young lady was of high school age and proficient in karate.
+Dialogue: 0,1:33:41.05,1:33:42.16,Dialogue,,0,0,0,,Karate?
+Dialogue: 0,1:33:42.16,1:33:43.13,Dialogue,,0,0,0,,Could it be?
+Dialogue: 0,1:33:43.13,1:33:44.34,Dialogue,,0,0,0,,R-Ran!
+Dialogue: 0,1:33:44.34,1:33:45.35,Dialogue,,0,0,0,,No way!
+Dialogue: 0,1:33:45.35,1:33:46.85,Dialogue,,0,0,0,,No way! Ran{\rHonorifics - Dialogue}-san{\r}...
+Dialogue: 0,1:33:46.85,1:33:47.60,Dialogue,,0,0,0,,No!
+Dialogue: 0,1:33:48.80,1:33:49.61,Thoughts,,0,0,0,,{\be10}Don't tell me...
+Dialogue: 0,1:33:50.18,1:33:51.27,Thoughts,,0,0,0,,{\be10}Ran!
+Dialogue: 0,1:34:04.01,1:34:06.70,Radio,,0,0,0,,{\be10}Please hold onto any nearby handrails or tables you can find.
+Dialogue: 0,1:34:06.70,1:34:09.58,Radio,,0,0,0,,{\be10}Make sure to hold onto your children.
+Dialogue: 0,1:34:17.43,1:34:22.21,Dialogue,,0,0,0,,According to X's statement, Mouri{\rHonorifics - Dialogue}-san{\r} fell overboard around here.
+Dialogue: 0,1:34:22.21,1:34:24.48,Dialogue,,0,0,0,,We're pretty far away.
+Dialogue: 0,1:34:24.48,1:34:26.13,Dialogue,,0,0,0,,Wait!
+Dialogue: 0,1:34:26.13,1:34:26.85,Dialogue,,0,0,0,,It's fine!
+Dialogue: 0,1:34:26.85,1:34:29.02,Dialogue,,0,0,0,,Anyway, get the patrol helicopter ready!
+Dialogue: 0,1:34:29.02,1:34:29.83,Dialogue,,0,0,0,,Roger!
+Dialogue: 0,1:34:29.83,1:34:31.10,Dialogue,,0,0,0,,Move!
+Dialogue: 0,1:34:31.10,1:34:32.64,Dialogue,,0,0,0,,I made some calculations based on the tides.
+Dialogue: 0,1:34:33.27,1:34:34.56,Dialogue,,0,0,0,,She should be in this area.
+Dialogue: 0,1:34:34.56,1:34:35.88,Dialogue,,0,0,0,,No way...
+Dialogue: 0,1:34:35.88,1:34:37.77,Dialogue,,0,0,0,,It's four times bigger than usual!
+Dialogue: 0,1:34:37.77,1:34:42.03,Dialogue,,0,0,0,,Because of the low pressure coming from the southwest, the ocean currents are faster than usual.
+Dialogue: 0,1:34:42.03,1:34:44.26,Dialogue,,0,0,0,,The waves are starting to get rougher too.
+Dialogue: 0,1:34:44.26,1:34:48.24,Dialogue,,0,0,0,,Considering the stamina of the victim, every second counts...
+Dialogue: 0,1:34:48.24,1:34:50.42,Dialogue,,0,0,0,,Patrol helicopter ready!
+Dialogue: 0,1:34:50.42,1:34:52.45,Dialogue,,0,0,0,,All right. Depart right away!
+Dialogue: 0,1:34:52.45,1:34:52.70,Dialogue,,0,0,0,,Yes, sir!
+Dialogue: 0,1:34:52.70,1:34:53.75,Dialogue,,0,0,0,,Let me get in too!
+Dialogue: 0,1:34:54.80,1:34:56.40,Dialogue,,0,0,0,,Don't be stupid!
+Dialogue: 0,1:34:56.40,1:34:56.94,Dialogue,,0,0,0,,But...
+Dialogue: 0,1:34:56.94,1:34:59.21,Dialogue,,0,0,0,,A kid would just be a hindrance!
+Dialogue: 0,1:34:59.92,1:35:01.17,Thoughts,,0,0,0,,{\be10}Damn it...
+Dialogue: 0,1:35:13.93,1:35:17.75,Dialogue,,0,0,0,,Considering the stamina of the victim, every second counts.
+Dialogue: 0,1:35:17.75,1:35:20.15,Dialogue,,0,0,0,,We have to find her before sunset no matter what!
+Dialogue: 0,1:35:20.15,1:35:21.61,Radio,,0,0,0,,{\be10}Roger.
+Dialogue: 0,1:35:21.61,1:35:23.59,Dialogue,,0,0,0,,Every second counts?
+Dialogue: 0,1:35:23.59,1:35:24.42,Dialogue,,0,0,0,,Ran...
+Dialogue: 0,1:35:24.42,1:35:26.30,Dialogue,,0,0,0,,Ran will be okay, won't she?
+Dialogue: 0,1:35:28.91,1:35:31.58,Dialogue,,0,0,0,,What happens when somebody falls from that deck?
+Dialogue: 0,1:35:31.58,1:35:34.79,Dialogue,,0,0,0,,She should be wearing her lifejacket,
+Dialogue: 0,1:35:34.79,1:35:37.83,Dialogue,,0,0,0,,but that's all she would have.\NIf she fell in the wrong place...
+Dialogue: 0,1:35:37.83,1:35:38.92,Dialogue,,0,0,0,,How...
+Dialogue: 0,1:35:38.92,1:35:41.63,Dialogue,,0,0,0,,Of course, there's still hope.
+Dialogue: 0,1:35:46.14,1:35:46.89,Dialogue,,0,0,0,,Ran{\rHonorifics - Dialogue}-san{\r}!
+Dialogue: 0,1:35:46.89,1:35:47.84,Dialogue,,0,0,0,,No!
+Dialogue: 0,1:35:49.60,1:35:53.36,Dialogue,,0,0,0,,Miss... It's all my fault!
+Dialogue: 0,1:35:54.60,1:35:57.90,Dialogue,,0,0,0,,Don't we have any way to guarantee her safety?
+Dialogue: 0,1:35:57.90,1:36:00.48,Dialogue,,0,0,0,,All we can do now is leave it to the patrol helicopter.
+Dialogue: 0,1:36:01.27,1:36:07.11,Thoughts,,0,0,0,,{\be10}Damn it, even if we reduce the search field, it's nearly impossible to check the whole area before sunset.
+Dialogue: 0,1:36:07.11,1:36:11.03,Thoughts,,0,0,0,,{\be10}Besides, Ran might still be drifting on the waves...!
+Dialogue: 0,1:36:12.66,1:36:16.90,Thoughts,,0,0,0,,{\be10}Save me... Shin'ichi!
+Dialogue: 0,1:36:19.79,1:36:23.04,Dialogue,,0,0,0,,We're on location. We're beginning the search.
+Dialogue: 0,1:36:23.35,1:36:24.90,Radio,,0,0,0,,{\be10}I'll call for her through the speaker.
+Dialogue: 0,1:36:24.90,1:36:26.18,Radio,,0,0,0,,{\be10}Plug me in.
+Dialogue: 0,1:36:26.18,1:36:26.51,Dialogue,,0,0,0,,OK!
+Dialogue: 0,1:36:27.51,1:36:28.75,Radio,,0,0,0,,{\be10}Mouri{\rHonorifics - Radio\be10}-san{\r\be10}!
+Dialogue: 0,1:36:28.75,1:36:30.12,Radio,,0,0,0,,{\be10}Ran Mouri{\rHonorifics - Radio\be10}-san{\r\be10}!
+Dialogue: 0,1:36:30.12,1:36:31.84,Radio,,0,0,0,,{\be10}We came to rescue you!
+Dialogue: 0,1:36:31.84,1:36:33.46,Dialogue,,0,0,0,,We're going to save you!
+Dialogue: 0,1:36:33.46,1:36:35.45,Dialogue,,0,0,0,,Hold on a little bit longer!
+Dialogue: 0,1:36:35.45,1:36:36.04,Dialogue,,0,0,0,,Ran!
+Dialogue: 0,1:36:36.04,1:36:36.93,Dialogue,,0,0,0,,Ran, where are you?
+Dialogue: 0,1:36:36.93,1:36:37.89,Dialogue,,0,0,0,,Ran!
+Dialogue: 0,1:36:37.89,1:36:39.66,Dialogue,,0,0,0,,Hold on just a little!
+Dialogue: 0,1:36:39.66,1:36:40.37,Dialogue,,0,0,0,,Miss!
+Dialogue: 0,1:36:40.37,1:36:40.88,Dialogue,,0,0,0,,Don't die!
+Dialogue: 0,1:36:40.88,1:36:42.44,Dialogue,,0,0,0,,We'll save you soon!
+Dialogue: 0,1:36:42.81,1:36:46.87,Thoughts,,0,0,0,,{\be10}I gotta calm down! There still\Nhas to be a way to find Ran.
+Dialogue: 0,1:36:46.87,1:36:48.65,Dialogue,,0,0,0,,The waves are getting even faster.
+Dialogue: 0,1:36:49.00,1:36:51.36,Dialogue,,0,0,0,,I think we need to enlarge the search field.
+Dialogue: 0,1:36:51.36,1:36:52.97,Dialogue,,0,0,0,,We don't have any time left before sunset.
+Dialogue: 0,1:36:52.97,1:36:56.74,Dialogue,,0,0,0,,Limit the search to the Alpha Bravo Fox area and keep on searching!
+Dialogue: 0,1:36:57.05,1:36:59.53,Radio,,0,0,0,,{\be10}Roger! Heading for the Alpha Bravo Fox area!
+Dialogue: 0,1:37:15.33,1:37:17.51,Dialogue,,0,0,0,,Ran Mouri{\rHonorifics - Dialogue}-san{\r}, we came to rescue you.
+Dialogue: 0,1:37:17.51,1:37:19.48,Dialogue,,0,0,0,,Hold on just a little bit longer!
+Dialogue: 0,1:37:19.48,1:37:21.70,Dialogue,,0,0,0,,It's got a lot darker.
+Dialogue: 0,1:37:22.65,1:37:24.99,Dialogue,,0,0,0,,There's less than 15 minutes before sunset.
+Dialogue: 0,1:37:26.86,1:37:27.94,Dialogue,,0,0,0,,Sunset...
+Dialogue: 0,1:37:29.01,1:37:30.10,Dialogue,,0,0,0,,Sunset?!
+Dialogue: 0,1:37:30.10,1:37:31.07,Dialogue,,0,0,0,,Why does that matter?!
+Dialogue: 0,1:37:31.66,1:37:36.28,Dialogue,,0,0,0,,Keep on looking! Keep on looking until you find her!
+Dialogue: 0,1:37:37.15,1:37:39.43,Dialogue,,0,0,0,,I wish we could...
+Dialogue: 0,1:37:39.43,1:37:45.00,Dialogue,,0,0,0,,But in this season, the water temperature drops suddenly just before sunset, at 5 PM.
+Dialogue: 0,1:37:45.47,1:37:47.70,Dialogue,,0,0,0,,So even if we find her after 5 PM...
+Dialogue: 0,1:37:48.71,1:37:49.65,Dialogue Top,,0,0,0,,That's enough, Kishi{\rHonorifics - Dialogue}-san{\r}!
+Dialogue: 0,1:37:49.65,1:37:54.26,Dialogue Top,,0,0,0,,I'm sorry, miss. A rescue squad are heading here now, and we would best off leaving the rest of the search to them...
+Dialogue: 0,1:37:48.71,1:37:52.05,Thoughts,,0,0,0,,{\be10}Oh, no! The water temperature might already be dropping.
+Dialogue: 0,1:37:52.35,1:37:54.26,Thoughts,,0,0,0,,{\be10}Damn, we don't have time!
+Dialogue: 0,1:37:54.63,1:37:56.77,Thoughts,,0,0,0,,{\be10}Isn't there any way to find her?
+Dialogue: 0,1:37:58.33,1:37:58.93,Thoughts,,0,0,0,,{\be10}Watch?
+Dialogue: 0,1:38:00.78,1:38:03.28,Thoughts,,0,0,0,,{\be10}Oh, yeah, Ran has Mitsuhiko's watch.
+Dialogue: 0,1:38:03.28,1:38:04.35,Dialogue,,0,0,0,,Why?!
+Dialogue: 0,1:38:05.17,1:38:06.85,Dialogue,,0,0,0,,Why are you going to stop looking for her?
+Dialogue: 0,1:38:06.85,1:38:08.60,Dialogue,,0,0,0,,We will find her!
+Dialogue: 0,1:38:08.60,1:38:09.57,Dialogue,,0,0,0,,So don't give up!
+Dialogue: 0,1:38:09.89,1:38:11.75,Dialogue,,0,0,0,,This ship's supposed to be incredible!
+Dialogue: 0,1:38:11.75,1:38:12.29,Dialogue,,0,0,0,,Yes!
+Dialogue: 0,1:38:12.29,1:38:13.35,Dialogue,,0,0,0,,Do something!
+Dialogue: 0,1:38:13.35,1:38:15.24,Dialogue,,0,0,0,,It's the great detective of the seas, right?
+Dialogue: 0,1:38:16.51,1:38:17.66,Thoughts,,0,0,0,,{\be10}The great detective of the seas?
+Dialogue: 0,1:38:20.49,1:38:23.62,Thoughts,,0,0,0,,{\be10}I see. If we use the radar on this Aegis Destroyer...
+Dialogue: 0,1:38:24.97,1:38:31.00,Dialogue,,0,0,0,,At 1700 hours, we will leave the victim rescue to the specialist squad, and head back to Maizuru Harbour.
+Dialogue: 0,1:38:31.00,1:38:33.10,Dialogue,,0,0,0,,The radio watch!
+Dialogue: 0,1:38:33.10,1:38:34.93,Dialogue,,0,0,0,,Ran has a radio watch!
+Dialogue: 0,1:38:35.39,1:38:38.40,Dialogue,,0,0,0,,This Aegis Destroyer should be able to pick up that radio signal, right?
+Dialogue: 0,1:38:38.40,1:38:41.18,Dialogue,,0,0,0,,Mitsuhiko! You said the watch was fully waterproof, right?
+Dialogue: 0,1:38:41.89,1:38:42.35,Dialogue,,0,0,0,,Right!
+Dialogue: 0,1:38:42.93,1:38:45.73,Dialogue,,0,0,0,,The watch sends signals at 5 AM and PM sharp!
+Dialogue: 0,1:38:46.21,1:38:47.19,Dialogue,,0,0,0,,Captain, we don't have time!
+Dialogue: 0,1:38:47.19,1:38:48.85,Dialogue,,0,0,0,,Hurry up!
+Dialogue: 0,1:38:48.85,1:38:50.87,Dialogue,,0,0,0,,Prepare the radio wave radar immediately!
+Dialogue: 0,1:38:53.05,1:38:57.00,Dialogue,,0,0,0,,1 minute 40 seconds left until 5 PM. Can we do it?
+Dialogue: 0,1:38:57.00,1:38:58.03,Dialogue,,0,0,0,,We have to try!
+Dialogue: 0,1:38:59.80,1:39:01.74,Dialogue Top,,0,0,0,,Alert the bridge and the deck! Quickly!
+Dialogue: 0,1:38:59.80,1:39:01.74,Dialogue,,0,0,0,,Start the radio wave radar!
+Dialogue: 0,1:39:01.74,1:39:03.70,Radio,,0,0,0,,{\be10}This is not a drill.
+Dialogue: 0,1:39:03.70,1:39:06.17,Radio,,0,0,0,,{\be10}I repeat, this is not a drill.
+Dialogue: 0,1:39:06.17,1:39:08.20,Radio,,0,0,0,,{\be10}Everyone on deck must evacuate urgently!
+Dialogue: 0,1:39:10.85,1:39:11.38,Dialogue Top,,0,0,0,,Evacuate!
+Dialogue: 0,1:39:08.20,1:39:11.38,Radio,,0,0,0,,{\be10}I repeat, everyone on deck must evacuate urgently!
+Dialogue: 0,1:39:13.05,1:39:14.14,Thoughts,,0,0,0,,{\be10}Please, make it in time!
+Dialogue: 0,1:39:14.14,1:39:14.92,Dialogue,,0,0,0,,Evacuation done!
+Dialogue: 0,1:39:15.28,1:39:18.06,Dialogue,,0,0,0,,Radio wave radar ready!
+Dialogue: 0,1:39:18.06,1:39:19.76,Dialogue,,0,0,0,,Start the ES search.
+Dialogue: 0,1:39:19.76,1:39:21.05,Dialogue,,0,0,0,,Search started!
+Dialogue: 0,1:39:21.42,1:39:25.30,Dialogue,,0,0,0,,It is currently 1659 hours. Only\N10 seconds remaining until 5 PM.
+Dialogue: 0,1:39:26.23,1:39:27.19,Dialogue,,0,0,0,,9...
+Dialogue: 0,1:39:27.19,1:39:28.15,Dialogue,,0,0,0,,8...
+Dialogue: 0,1:39:28.15,1:39:29.10,Dialogue,,0,0,0,,7...
+Dialogue: 0,1:39:29.10,1:39:30.06,Dialogue,,0,0,0,,6...
+Dialogue: 0,1:39:30.06,1:39:31.02,Dialogue,,0,0,0,,5...
+Dialogue: 0,1:39:31.02,1:39:32.06,Dialogue,,0,0,0,,4...
+Dialogue: 0,1:39:32.06,1:39:33.00,Dialogue,,0,0,0,,3...
+Dialogue: 0,1:39:33.00,1:39:33.94,Dialogue,,0,0,0,,2...
+Dialogue: 0,1:39:33.94,1:39:34.90,Dialogue,,0,0,0,,1...
+Dialogue: 0,1:39:35.68,1:39:36.24,Dialogue,,0,0,0,,Now!
+Dialogue: 0,1:39:48.65,1:39:49.29,Dialogue,,0,0,0,,Any response?
+Dialogue: 0,1:39:50.65,1:39:53.75,Dialogue,,0,0,0,,No response within the search range...
+Dialogue: 0,1:39:56.26,1:39:57.55,Dialogue,,0,0,0,,No way... How?!
+Dialogue: 0,1:39:57.55,1:40:04.45,Dialogue,,0,0,0,,Maybe her radio watch has\Nalready sunk deep into the sea...
+Dialogue: 0,1:40:06.41,1:40:07.11,Thoughts,,0,0,0,,{\be10}Ran...
+Dialogue: 0,1:40:19.74,1:40:20.41,Thoughts,,0,0,0,,{\be10}It can't be...
+Dialogue: 0,1:40:20.41,1:40:21.79,Thoughts,,0,0,0,,{\be10}This...
+Dialogue: 0,1:40:21.79,1:40:22.60,Thoughts,,0,0,0,,{\be10}...can't be...
+Dialogue: 0,1:40:22.60,1:40:24.18,Flashback,,0,0,0,,{\be10}You'll always manage to find me, right?
+Dialogue: 0,1:40:26.75,1:40:29.43,Flashback,,0,0,0,,{\be10}That's why I said I'd come with you.
+Dialogue: 0,1:40:29.43,1:40:30.21,Flashback,,0,0,0,,{\be10}But...
+Dialogue: 0,1:40:30.95,1:40:33.05,Flashback,,0,0,0,,{\be10}Don't go wandering off by yourself again, okay?
+Dialogue: 0,1:40:33.68,1:40:36.34,Flashback,,0,0,0,,{\be10}Next time, you mightn't be able to find me.
+Dialogue: 0,1:40:36.34,1:40:37.19,Flashback,,0,0,0,,{\be10}It's fine.
+Dialogue: 0,1:40:38.48,1:40:41.68,Flashback,,0,0,0,,{\be10}No matter how lost I am, you'll\Nalways manage to find me, right?
+Dialogue: 0,1:40:43.19,1:40:45.93,Flashback,,0,0,0,,{\be10}You're a great detective, after all!
+Dialogue: 0,1:40:51.36,1:40:55.40,Thoughts,,0,0,0,,{\be10}How can I be a great detective... I can't even find Ran!
+Dialogue: 0,1:40:56.59,1:40:57.36,Thoughts,,0,0,0,,{\be10}Ran...
+Dialogue: 0,1:40:58.37,1:40:58.89,Thoughts,,0,0,0,,{\be10}Ran...
+Dialogue: 0,1:40:59.85,1:41:00.59,Thoughts,,0,0,0,,{\be10}Ran...
+Dialogue: 0,1:41:01.28,1:41:02.74,Thoughts,,0,0,0,,{\be10}Ran...
+Dialogue: 0,1:41:03.24,1:41:04.20,Thoughts,,0,0,0,,{\be10}Ran...
+Dialogue: 0,1:41:10.21,1:41:14.74,Dialogue,,0,0,0,,Ran!
+Dialogue: 0,1:41:21.02,1:41:23.55,Thoughts,,0,0,0,,{\be10}Just now... That was Conan{\rHonorifics - Thoughts\be10}-kun{\r\be10}'s voice...
+Dialogue: 0,1:41:25.38,1:41:29.31,Flashback,,0,0,0,,{\be10}Didn't I tell you? I'll always find you, no matter what.
+Dialogue: 0,1:41:29.90,1:41:31.78,Thoughts,,0,0,0,,{\be10}You're late!
+Dialogue: 0,1:41:33.60,1:41:35.71,Thoughts,,0,0,0,,{\be10}Shin'ichi!
+Dialogue: 0,1:41:41.29,1:41:41.65,Dialogue,,0,0,0,,Could it be?
+Dialogue: 0,1:41:44.27,1:41:46.86,Dialogue,,0,0,0,,It's very weak, but I'm detecting radio waves!
+Dialogue: 0,1:41:46.86,1:41:47.95,Dialogue,,0,0,0,,They're getting stronger and stronger!
+Dialogue: 0,1:41:48.94,1:41:49.70,Dialogue,,0,0,0,,It's Ran!
+Dialogue: 0,1:41:50.00,1:41:51.04,Dialogue,,0,0,0,,Ran is there!
+Dialogue: 0,1:41:51.04,1:41:52.61,Dialogue,,0,0,0,,Lead the helicopter there!
+Dialogue: 0,1:41:54.02,1:41:56.04,Dialogue,,0,0,0,,Lead the patrol helicopter there!
+Dialogue: 0,1:41:56.04,1:41:57.23,Dialogue,,0,0,0,,Roger!
+Dialogue: 0,1:41:57.23,1:41:59.96,Dialogue,,0,0,0,,Target coordinates are four kilometres northwest of the destroyer.
+Dialogue: 0,1:41:59.96,1:42:01.41,Dialogue,,0,0,0,,Latitude 36°4'.
+Dialogue: 0,1:42:01.41,1:42:02.84,Dialogue,,0,0,0,,Longitude 135°.
+Dialogue: 0,1:42:02.84,1:42:05.55,Dialogue,,0,0,0,,SH, hurry towards the point.
+Dialogue: 0,1:42:05.55,1:42:07.83,Dialogue,,0,0,0,,Roger. Heading towards the point.
+Dialogue: 0,1:42:12.07,1:42:14.10,Dialogue,,0,0,0,,We'll be arriving at the search point soon.
+Dialogue: 0,1:42:18.80,1:42:21.03,Radio,,0,0,0,,{\be10}We're straight above the search point but visibility is low.
+Dialogue: 0,1:42:21.69,1:42:23.74,Radio,,0,0,0,,{\be10}The reflection of the setting sun on the waves is hindering our view.
+Dialogue: 0,1:42:24.25,1:42:26.70,Radio,,0,0,0,,{\be10\an8}Finding someone in these conditions will be hard...
+Dialogue: 0,1:42:24.95,1:42:25.75,Thoughts,,0,0,0,,{\be10}Reflection?
+Dialogue: 0,1:42:26.70,1:42:31.46,Dialogue,,0,0,0,,Hey, that reflection —\his there a\Nsingle spot that's glittering a lot?
+Dialogue: 0,1:42:32.37,1:42:32.92,Dialogue,,0,0,0,,Umm...
+Dialogue: 0,1:42:32.92,1:42:35.07,Dialogue,,0,0,0,,Well? Please answer.
+Dialogue: 0,1:42:35.07,1:42:40.65,Radio,,0,0,0,,{\be10}Yes. Part of the sea is strangely glittering and reflecting light from the helicopter.
+Dialogue: 0,1:42:40.65,1:42:41.64,Dialogue,,0,0,0,,There!
+Dialogue: 0,1:42:41.64,1:42:42.46,Dialogue,,0,0,0,,Follow those lights!
+Dialogue: 0,1:42:43.04,1:42:44.68,Dialogue,,0,0,0,,Ran should be at their source!
+Dialogue: 0,1:42:45.61,1:42:48.70,Dialogue,,0,0,0,,Ask the helicopter to head there as the kid said!
+Dialogue: 0,1:42:48.70,1:42:50.11,Dialogue,,0,0,0,,Please, Captain!
+Dialogue: 0,1:42:51.91,1:42:53.39,Dialogue,,0,0,0,,Follow the bright, floating objects.
+Dialogue: 0,1:42:53.80,1:42:56.38,Radio,,0,0,0,,{\be10}We believe the victim is where those objects concentrate.
+Dialogue: 0,1:42:56.38,1:42:56.85,Dialogue,,0,0,0,,Roger.
+Dialogue: 0,1:43:13.39,1:43:15.91,Dialogue,,0,0,0,,We've reached the location where the floating objects are concentrated.
+Dialogue: 0,1:43:16.39,1:43:17.62,Radio,,0,0,0,,{\be10}We're descending now!
+Dialogue: 0,1:43:20.67,1:43:21.82,Radio,,0,0,0,,{\be10}There's something directly beneath us!
+Dialogue: 0,1:43:24.76,1:43:27.09,Radio,,0,0,0,,{\be10}It's clearly not one of the floating objects.
+Dialogue: 0,1:43:30.56,1:43:31.20,Radio,,0,0,0,,{\be10}Found her!
+Dialogue: 0,1:43:31.81,1:43:32.68,Radio,,0,0,0,,{\be10}We found the victim!
+Dialogue: 0,1:43:33.59,1:43:34.88,Radio,,0,0,0,,{\be10}We can confirm she's alive!
+Dialogue: 0,1:43:34.88,1:43:36.64,Radio,,0,0,0,,{\be10}We're starting the rescue!
+Dialogue: 0,1:43:39.04,1:43:40.48,Dialogue,,0,0,0,,All right!
+Dialogue: 0,1:43:41.41,1:43:42.80,Dialogue,,0,0,0,,We did it, Takagi{\rHonorifics - Dialogue}-kun{\r}!
+Dialogue: 0,1:43:43.37,1:43:44.03,Dialogue,,0,0,0,,Satō{\rHonorifics - Dialogue}-san{\r}...
+Dialogue: 0,1:43:45.84,1:43:50.70,Dialogue,,0,0,0,,Good work. You did well. Take her to the hospital as soon as you pick her up.
+Dialogue: 0,1:43:50.70,1:43:52.04,Dialogue,,0,0,0,,Roger.
+Dialogue: 0,1:43:52.04,1:43:54.00,Dialogue,,0,0,0,,It seems the victim is still conscious.
+Dialogue: 0,1:43:54.00,1:43:55.91,Dialogue,,0,0,0,,But we'll take her to the hospital just in case.
+Dialogue: 0,1:43:56.44,1:43:59.37,Dialogue,,0,0,0,,Her body temperature appears to be low, but her heartbeat is stable.
+Dialogue: 0,1:44:01.15,1:44:02.65,Dialogue,,0,0,0,,Shin'ichi...
+Dialogue: 0,1:44:07.38,1:44:08.26,Thoughts,,0,0,0,,{\be10}Old man...
+Dialogue: 0,1:44:10.40,1:44:11.16,Thoughts,,0,0,0,,{\be10}Thank you!
+Dialogue: 0,1:48:45.77,1:48:49.87,Dialogue,,0,0,0,,It's nothing, it's nothing. It just\Nscratched me. It's really nothing.
+Dialogue: 0,1:48:50.00,1:48:51.27,Radio,,0,0,0,,{\be10}Thanks, Hattori.
+Dialogue: 0,1:48:52.85,1:48:57.19,Dialogue,,0,0,0,,I told you, Kazuha, I'm fine!
+Dialogue: 0,1:48:57.19,1:48:59.76,Dialogue,,0,0,0,,Stop makin' that face!
+Dialogue: 0,1:49:00.64,1:49:02.62,Dialogue,,0,0,0,,Crap... Don't cry!
+Dialogue: 0,1:49:06.20,1:49:07.43,Dialogue,,0,0,0,,What's he doing now?
+Dialogue: 0,1:49:07.73,1:49:10.69,Dialogue,,0,0,0,,Your name was Conan{\rHonorifics - Dialogue}-kun{\r}, right?
+Dialogue: 0,1:49:10.69,1:49:11.64,Dialogue,,0,0,0,,N-Nanami{\rHonorifics - Dialogue}-san{\r}...
+Dialogue: 0,1:49:12.17,1:49:13.86,Dialogue,,0,0,0,,Thanks for all your help.
+Dialogue: 0,1:49:14.22,1:49:15.92,Dialogue,,0,0,0,,That's what I should say to you.
+Dialogue: 0,1:49:17.58,1:49:18.32,Dialogue,,0,0,0,,Thank you.
+Dialogue: 0,1:49:19.69,1:49:20.32,Dialogue,,0,0,0,,Bye!
+Dialogue: 0,1:49:22.28,1:49:23.16,Dialogue,,0,0,0,,Say, Conan{\rHonorifics - Dialogue}-kun{\r}...
+Dialogue: 0,1:49:24.65,1:49:27.04,Dialogue,,0,0,0,,Who exactly are you?
+Dialogue: 0,1:49:29.73,1:49:30.82,Dialogue,,0,0,0,,Conan Edogawa.
+Dialogue: 0,1:49:31.45,1:49:33.05,Dialogue,,0,0,0,,Just an ordinary first-year primary school student.
+Dialogue: 0,1:50:01.40,1:50:05.70,Flashback,,0,0,0,,{\be10\an8}Movie 18 —\hIn cinemas April 2014
+Dialogue: 0,1:50:04.11,1:50:07.03,Dialogue,,0,0,0,,But before that... Aren't you forgetting something?
+Dialogue: 0,1:50:09.65,1:50:14.21,Dialogue,,0,0,0,,Are you sure you want to do this?
+Dialogue: 0,1:50:14.21,1:50:15.93,Dialogue,,0,0,0,,I can't help it.
+Dialogue: 0,1:50:17.00,1:50:18.67,Dialogue,,0,0,0,,Then let's put an end to it.
+Dialogue: 0,1:50:22.76,1:50:24.55,Flashback,,0,0,0,,{\be10\an8}In cinemas December 2013
+Dialogue: 0,0:05:53.50,0:05:59.97,Dialogue Top,,0,0,0,,{0-ji chōdo, kochira no shokudō de kaijōjieitai no shōkai eizō o 15-fun hodo miteitadakimasu.}At noon precisely, we have a roughly 15-minute video showcasing the Japan Maritime Self-Defence Force for you to watch.
+Dialogue: 0,0:05:59.97,0:06:04.50,Dialogue Top,,0,0,0,,{tsuzuite 0-ji 20-fun, kyūmeidōi no setsumei o shimasu.}Afterward, at 12:20, I'll explain to you how to use lifejackets.
+Dialogue: 0,0:06:04.50,0:06:09.08,Dialogue Top,,0,0,0,,{kampan ni deru toki wa, mina-san, kochira o kanarazu chakuyōshitemoraimasu.}When out on deck, please make sure to always wear one of these.
+Dialogue: 0,0:06:09.08,0:06:13.64,Dialogue Top,,0,0,0,,{shūgōjikan o mamotte kudasai.}The deck is a very dangerous place while we are at sea, so please follow any orders you may be given,
+Dialogue: 0,0:06:13.64,0:06:15.77,Dialogue Top,,0,0,0,,{shūgōjikan o mamotte kudasai.}and remember the set gathering times.
+Dialogue: 0,0:06:15.77,0:06:19.10,Dialogue Top,,0,0,0,,{iin desu ka? fune wa jikan genshu desu.}Got it? Keeping time is very important while aboard a ship.
+Dialogue: 0,0:06:19.10,0:06:25.73,Dialogue Top,,0,0,0,,{soshite 0-ji 40-pun, honjitsu no medama, taikūsentō no yōjō kunren o okonaimasu.}Then at 12:40, we'll be holding the main event of the day, anti-air training exercises at sea.
+Dialogue: 0,0:06:25.73,0:06:32.02,Dialogue Top,,0,0,0,,{13-ji, kampan ni dete kakushu heiki ya radar, tōsai heli nado no kengaku o okonaimasu.}At 13:00, you can head out onto the deck, and observe the various weapons and radars, and the on-board helicopter.
+Dialogue: 0,0:06:32.02,0:06:39.58,Dialogue Top,,0,0,0,,{sono ato, 16-ji 30-pun, mina-san ni kaijōjieitai no meibutsu, kaigun curry o tabeteitadakimasu.}After that, at 16:30, you all can enjoy the JMSDF specialty, Navy Curry.
+Dialogue: 0,0:06:39.58,0:06:47.02,Dialogue Top,,0,0,0,,{o-shokuji no ato, kan'nai no shokudō to kampan ni kakusareta takarasagashi game o okonaimasu no de, otanoshimi ni.}After the meal, we'll be holding a treasure hunt for items hidden in the cafeteria and on deck, so look forward to that.
+Dialogue: 0,0:06:47.02,0:06:51.77,Dialogue Top,,0,0,0,,{game o shiteiru aida ni, honkan wa futatabi maizuru-kō o mezashite susumimasu.}During the game, we'll be heading back to Maizuru Harbour.
+Dialogue: 0,0:06:51.77,0:06:55.69,Dialogue Top,,0,0,0,,{minato e no tōchaku jikoku wa, 17-ji 30-pun no yotei desu.}We expect to arrive back at the harbour at 17:30.

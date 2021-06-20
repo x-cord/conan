@@ -1,0 +1,1810 @@
+[Script Info]
+Title: Detective Conan - TV 03
+TL Source: Frostii-DCTP
+ScriptType: v4.00+
+WrapStyle: 3
+PlayResX: 1440
+PlayResY: 1080
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Dialogue,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00401311,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Dialogue Top,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00401311,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,8,30,30,55,1
+Style: Signs,FrancophilSans,74,&H14FFFFFF,&H00FFFFFF,&H46101010,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,8,30,30,55,1
+Style: Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,0,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Radio,FrancophilSans,74,&H00BEE1FF,&H00FFFFFF,&H000B2A42,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Narration,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00BF6F00,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Narration Off,FrancophilSans,74,&H6E8C6F00,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,0,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Flashback,FrancophilSans,74,&H00CDFAFF,&H00FFFFFF,&H00373737,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Flashback Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00CCFFFF,&HC0313134,-1,0,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Honorifics - Dialogue,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00401311,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Signs,FrancophilSans,74,&H14FFFFFF,&H00FFFFFF,&H46101010,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,-1,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Honorifics - Radio,FrancophilSans,74,&H00BEE1FF,&H00FFFFFF,&H000B2A42,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Narration,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00BF6F00,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Narration Off,FrancophilSans,74,&H6E8C6F00,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,-1,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Honorifics - Flashback,FrancophilSans,74,&H00CDFAFF,&H00FFFFFF,&H00373737,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Flashback Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00CCFFFF,&HC0313134,-1,-1,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Masks,FrancophilSans,74,&H00000000,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,2,0,0,0,1
+Style: Title,Conan Episode Title,74,&H00E1E4E3,&H000000FF,&HC8DBDAE1,&HC0000000,-1,0,0,0,100,100,0,0,1,1,0,5,0,0,0,1
+Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-1,0,0,0,100,100,0,0,1,0,0,2,0,0,65,1
+Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
+Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
+Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:30.99,0:00:32.46,Dialogue,SP,0,0,0,,We've arrived at the spot.
+Dialogue: 0,0:00:32.46,0:00:33.34,Dialogue,SP,0,0,0,,We shall now begin.
+Dialogue: 0,0:00:33.34,0:00:35.72,Dialogue,SP,0,0,0,,All clear. All units in position.
+Dialogue: 0,0:01:03.74,0:01:06.63,Dialogue,gerard,0,0,0,,All of you, wait here.
+Dialogue: 0,0:01:06.63,0:01:09.08,Dialogue,gerard,0,0,0,,A large group serves only to scare the game away.
+Dialogue: 0,0:01:12.78,0:01:14.47,Dialogue,sakura,0,0,0,,I shall take that.
+Dialogue: 0,0:01:14.98,0:01:17.17,Dialogue,gerard,0,0,0,,I taught you how to use that.
+Dialogue: 0,0:01:17.17,0:01:18.78,Dialogue,gerard,0,0,0,,You remember, right?
+Dialogue: 0,0:01:18.78,0:01:20.58,Dialogue,jill,0,0,0,,Indeed, quite well.
+Dialogue: 0,0:01:20.58,0:01:23.18,Dialogue,jill,0,0,0,,Oh, should I have forgotten?
+Dialogue: 0,0:01:23.57,0:01:25.48,Dialogue,gerard,0,0,0,,That would assist me greatly.
+Dialogue: 0,0:01:25.48,0:01:26.46,Dialogue,sakura,0,0,0,,Here, take these.
+Dialogue: 0,0:01:27.67,0:01:28.81,Dialogue,gerard,0,0,0,,Oh my...
+Dialogue: 0,0:01:29.43,0:01:31.44,Dialogue,gerard,0,0,0,,It is indeed a privilege to be served by Your Highness.
+Dialogue: 0,0:01:31.44,0:01:35.47,Dialogue,jill,0,0,0,,Mother, will you really not come with us?
+Dialogue: 0,0:01:35.47,0:01:37.45,Dialogue,sakura,0,0,0,,No, thank you.
+Dialogue: 0,0:01:37.45,0:01:42.37,Dialogue,sakura,0,0,0,,I do not like barbaric activities such as hunting.
+Dialogue: 0,0:01:42.37,0:01:44.22,Dialogue,jill,0,0,0,,It isn't barbaric.
+Dialogue: 0,0:01:44.92,0:01:47.38,Dialogue,jill,0,0,0,,Hunting happens to be a noble sport.
+Dialogue: 0,0:01:47.38,0:01:48.98,Dialogue,gerard,0,0,0,,It's all right, Prince.
+Dialogue: 0,0:01:48.98,0:01:51.79,Dialogue,gerard,0,0,0,,Let's have a man-to-man, one-on-one challenge.
+Dialogue: 0,0:01:52.64,0:01:55.74,Dialogue,gerard,0,0,0,,Only men are able to truly enjoy hunting.
+Dialogue: 0,0:01:55.74,0:01:57.22,Dialogue,sakura,0,0,0,,I overheard that.
+Dialogue: 0,0:01:57.22,0:01:59.30,Dialogue,gerard,0,0,0,,Oh dear!
+Dialogue: 0,0:03:03.05,0:03:05.03,Dialogue,sakura,0,0,0,,You mustn't be here.
+Dialogue: 0,0:03:05.03,0:03:07.83,Dialogue,sakura,0,0,0,,Hurry. Run away.
+Dialogue: 0,0:03:39.52,0:03:40.79,Dialogue,jill,0,0,0,,Mother?
+Dialogue: 0,0:03:41.34,0:03:42.50,Dialogue,jill,0,0,0,,No...
+Dialogue: 0,0:03:44.36,0:03:45.47,Dialogue,jill,0,0,0,,This can't be...
+Dialogue: 0,0:03:48.03,0:03:49.88,Dialogue,jill,0,0,0,,This can't be happening!
+Dialogue: 0,0:03:52.45,0:03:53.87,Dialogue,gerard,0,0,0,,It's an emergency! Hurry!
+Dialogue: 0,0:03:53.87,0:03:54.82,Dialogue,kyle,0,0,0,,Sir!
+Dialogue: 0,0:03:54.82,0:03:55.71,Dialogue,kyle,0,0,0,,You, have a car ready!
+Dialogue: 0,0:03:55.71,0:03:56.50,Dialogue,SP,0,0,0,,Yes, sir!
+Dialogue: 0,0:04:11.72,0:04:12.79,Dialogue,kyle,0,0,0,,Duke Gerard!
+Dialogue: 0,0:04:16.97,0:04:20.25,Dialogue,gerard,0,0,0,,I was unable to stop him.
+Dialogue: 0,0:04:25.69,0:04:26.63,Dialogue,commentator,0,0,0,,Again!
+Dialogue: 0,0:04:26.63,0:04:28.37,Dialogue,commentator,0,0,0,,That's yet another walk!
+Dialogue: 0,0:04:28.37,0:04:30.05,Dialogue,commentator,0,0,0,,This is getting scary.
+Dialogue: 0,0:04:30.05,0:04:30.95,Dialogue,commentator,0,0,0,,The bases are now loaded, with no outs.
+Dialogue: 0,0:04:30.95,0:04:32.83,Dialogue,kogoro,0,0,0,,Yeah!
+Dialogue: 0,0:04:32.83,0:04:35.41,Dialogue,kogoro,0,0,0,,More beer!
+Dialogue: 0,0:04:35.41,0:04:36.82,Dialogue,kogoro,0,0,0,,Yum!
+Dialogue: 0,0:04:36.82,0:04:38.34,Dialogue,ran,0,0,0,,Dad, that's your fifth!
+Dialogue: 0,0:04:38.34,0:04:39.77,Dialogue,ran,0,0,0,,That's too much!
+Dialogue: 0,0:04:39.77,0:04:41.82,Thoughts,shin,0,0,0,,{\be10}Give him a break.
+Dialogue: 0,0:04:41.82,0:04:43.76,Thoughts,shin,0,0,0,,{\be10}This is his only joy.
+Dialogue: 0,0:04:44.59,0:04:46.50,Dialogue,kogoro,0,0,0,,Go get them, Rumi!
+Dialogue: 0,0:04:46.50,0:04:48.07,Dialogue,kogoro,0,0,0,,A sac-fly would do!
+Dialogue: 0,0:04:48.07,0:04:50.95,Dialogue,kogoro,0,0,0,,Or better yet, hit it out of the park!
+Dialogue: 0,0:04:50.95,0:04:53.17,Dialogue,ran,0,0,0,,Why did you bring two again?
+Dialogue: 0,0:04:53.17,0:04:54.84,Dialogue,kogoro,0,0,0,,Don't strike out.
+Dialogue: 0,0:04:54.84,0:04:56.27,Dialogue,ran,0,0,0,,Dad!
+Dialogue: 0,0:04:55.33,0:04:58.94,Dialogue Top,commentator,0,0,0,,They really need a strikeout here.
+Dialogue: 0,0:04:58.94,0:05:01.54,Dialogue,commentator,0,0,0,,What will be Coach Hoshino's decision?
+Dialogue: 0,0:05:03.49,0:05:06.61,Dialogue,tv,0,0,0,,We interrupt this sports telecast to bring you breaking news.
+Dialogue: 0,0:05:06.61,0:05:08.07,Dialogue,kogoro,0,0,0,,Oh hey! Come on!
+Dialogue: 0,0:05:08.78,0:05:11.05,Dialogue Top,kogoro,0,0,0,,Not now!
+Dialogue: 0,0:05:08.07,0:05:11.05,Dialogue,tv,0,0,0,,At approximately 10:20 AM local time,
+Dialogue: 0,0:05:11.05,0:05:16.15,Dialogue,tv,0,0,0,,Queen Sakura and Prince Jihl of Vespania were killed in a hunting accident.
+Dialogue: 0,0:05:16.15,0:05:17.26,Dialogue,tv,0,0,0,,I repeat.
+Dialogue: 0,0:05:17.26,0:05:20.82,Dialogue,tv,0,0,0,,Queen Sakura and Prince Jihl of Vespania are dead.
+Dialogue: 0,0:05:20.82,0:05:27.46,Dialogue,tv,0,0,0,,The Kingdom of Vespania recently garnered worldwide attention after a special mineral was discovered there.
+Dialogue: 0,0:05:23.82,0:05:25.92,Dialogue Top,shin,0,0,0,,A hunting accident?
+Dialogue: 0,0:05:27.46,0:05:29.37,Dialogue,tv,0,0,0,,Queen Sakura, noted for her fondness of Japan—
+Dialogue: 0,0:07:00.27,0:07:04.72,Dialogue,keith,0,0,0,,We've delayed the funeral service a month from now, with only a select group of guests invited.
+Dialogue: 0,0:07:04.72,0:07:08.54,Dialogue,gerard,0,0,0,,We cannot help but wait so long after such an incident.
+Dialogue: 0,0:07:08.87,0:07:12.49,Dialogue,gerard,0,0,0,,Such a terrible thing happened, despite my presence at the scene.
+Dialogue: 0,0:07:12.49,0:07:16.65,Dialogue,gerard,0,0,0,,We have to at least prevent the princess from committing suicide.
+Dialogue: 0,0:07:16.65,0:07:19.60,Dialogue,keith,0,0,0,,We can't change what has already taken place.
+Dialogue: 0,0:07:19.60,0:07:21.88,Dialogue,keith,0,0,0,,Please don't blame yourself too much.
+Dialogue: 0,0:07:21.88,0:07:23.49,Dialogue,keith,0,0,0,,Let's think about what is to come.
+Dialogue: 0,0:07:25.12,0:07:27.27,Dialogue,gerard,0,0,0,,I am pleased to hear you say so.
+Dialogue: 0,0:07:28.52,0:07:30.56,Dialogue,gerard,0,0,0,,How is Princess Mira doing?
+Dialogue: 0,0:07:30.56,0:07:32.47,Dialogue,keith,0,0,0,,The same as before.
+Dialogue: 0,0:07:32.47,0:07:35.76,Dialogue,keith,0,0,0,,She's insisting on not becoming queen.
+Dialogue: 0,0:07:36.19,0:07:40.80,Dialogue,gerard,0,0,0,,We can't blame her after she lost both her mother and brother on the same day.
+Dialogue: 0,0:07:40.80,0:07:41.91,Dialogue,gerard,0,0,0,,And...
+Dialogue: 0,0:07:43.53,0:07:44.61,Dialogue,gerard,0,0,0,,there is that matter as well...
+Dialogue: 0,0:07:48.28,0:07:50.75,Dialogue,ppl,0,0,0,,We don't want Princess Mira to be the next queen!
+Dialogue: 0,0:07:50.75,0:07:52.78,Dialogue,ppl,0,0,0,,Don't let a brat rule our country!
+Dialogue: 0,0:07:52.78,0:07:55.78,Dialogue,ppl,0,0,0,,Abolish the monarchy!
+Dialogue: 0,0:07:55.78,0:07:58.41,Dialogue,gerard,0,0,0,,The anti-princess faction...
+Dialogue: 0,0:07:58.41,0:08:02.51,Dialogue,keith,0,0,0,,They have the nerve to call Her Highness a brat?
+Dialogue: 0,0:08:02.51,0:08:05.54,Dialogue,gerard,0,0,0,,I've even heard that some are willing to carry out acts of terrorism.
+Dialogue: 0,0:08:06.18,0:08:09.10,Dialogue,gerard,0,0,0,,I'm counting on you to protect the princess.
+Dialogue: 0,0:08:09.10,0:08:09.84,Dialogue,keith,0,0,0,,Yes, sir.
+Dialogue: 0,0:08:15.07,0:08:16.14,Dialogue,mira,0,0,0,,Don't just stand there!
+Dialogue: 0,0:08:16.14,0:08:18.37,Dialogue,mira,0,0,0,,Hurry and shut them up!
+Dialogue: 0,0:08:18.37,0:08:20.35,Dialogue,maid,0,0,0,,Princess Mira, please calm–
+Dialogue: 0,0:08:20.35,0:08:21.27,Dialogue,mira,0,0,0,,Quiet!
+Dialogue: 0,0:08:21.27,0:08:23.71,Dialogue,mira,0,0,0,,You're okay with them calling me such things?!
+Dialogue: 0,0:08:23.71,0:08:25.54,Dialogue,mira,0,0,0,,Keith! Where's Keith?!
+Dialogue: 0,0:08:25.54,0:08:27.36,Dialogue,mira,0,0,0,,Bring Keith here right now!
+Dialogue: 0,0:08:27.95,0:08:29.19,Dialogue,keith,0,0,0,,I'm right here.
+Dialogue: 0,0:08:30.07,0:08:32.57,Dialogue,keith,0,0,0,,Is there a problem, Princess Mira?
+Dialogue: 0,0:08:33.70,0:08:35.83,Dialogue,mira,0,0,0,,Can't you hear them shouting?
+Dialogue: 0,0:08:35.83,0:08:37.28,Dialogue,mira,0,0,0,,Those are the cries of our people.
+Dialogue: 0,0:08:38.52,0:08:41.69,Dialogue,mira,0,0,0,,They don't need to tell me. I never wanted it in the first place!
+Dialogue: 0,0:08:41.69,0:08:45.29,Dialogue,mira,0,0,0,,I will never be queen!
+Dialogue: 0,0:08:45.29,0:08:48.94,Dialogue,keith,0,0,0,,You are the heir apparent.
+Dialogue: 0,0:08:48.94,0:08:51.93,Dialogue,keith,0,0,0,,Please do not throw a fit. Rather, compose yourself.
+Dialogue: 0,0:08:51.93,0:08:53.88,Dialogue,mira,0,0,0,,I won't have any of that.
+Dialogue: 0,0:08:53.88,0:08:57.55,Dialogue,mira,0,0,0,,I thought my brother was being groomed as the heir apparent to the throne...
+Dialogue: 0,0:08:59.53,0:09:02.55,Dialogue,mira,0,0,0,,I always thought so...
+Dialogue: 0,0:09:04.11,0:09:08.98,Dialogue,keith,0,0,0,,Your first engagement is to fly to Japan for official business.
+Dialogue: 0,0:09:08.98,0:09:10.20,Dialogue,mira,0,0,0,,To Japan?
+Dialogue: 0,0:09:11.09,0:09:12.17,Dialogue,mira,0,0,0,,No!
+Dialogue: 0,0:09:12.17,0:09:15.96,Dialogue,mira,0,0,0,,I've heard there are people out to harm me!
+Dialogue: 0,0:09:16.71,0:09:19.36,Dialogue,mira,0,0,0,,I'm not leaving this room!
+Dialogue: 0,0:09:19.98,0:09:23.72,Dialogue,keith,0,0,0,,We'll protect you even if it costs us our own lives.
+Dialogue: 0,0:09:23.72,0:09:27.34,Dialogue,keith,0,0,0,,Additionally, I'm sending an ideal bodyguard to accompany you.
+Dialogue: 0,0:09:28.32,0:09:29.14,Dialogue,keith,0,0,0,,You may come in.
+Dialogue: 0,0:09:34.55,0:09:36.13,Dialogue,jigen,0,0,0,,Hey, Princess.
+Dialogue: 0,0:09:38.77,0:09:41.26,Dialogue,mira,0,0,0,,I detest bearded men.
+Dialogue: 0,0:10:05.77,0:10:07.46,Dialogue,jigen,0,0,0,,Hey. Good work.
+Dialogue: 0,0:10:08.68,0:10:11.70,Dialogue,guard,0,0,0,,Please train me in marksmanship again!
+Dialogue: 0,0:10:11.70,0:10:13.57,Dialogue,jigen,0,0,0,,Any time.
+Dialogue: 0,0:10:13.57,0:10:14.63,Dialogue,guard,0,0,0,,Master Jigen!
+Dialogue: 0,0:10:14.63,0:10:16.47,Dialogue,jigen,0,0,0,,Stop calling me master.
+Dialogue: 0,0:10:17.04,0:10:19.78,Dialogue,guard,0,0,0,,I thought you had already left for Japan with Her Highness.
+Dialogue: 0,0:10:19.78,0:10:21.76,Dialogue,jigen,0,0,0,,But the princess seems to abhor me.
+Dialogue: 0,0:10:21.76,0:10:22.71,Dialogue,jigen,0,0,0,,What?
+Dialogue: 0,0:10:22.71,0:10:28.51,Dialogue,jigen,0,0,0,,By the way, is the Queen Crown that the princess will wear at her coronation over there?
+Dialogue: 0,0:10:28.51,0:10:30.19,Dialogue,guard,0,0,0,,Yes. Would you like to take a look?
+Dialogue: 0,0:10:30.19,0:10:32.94,Dialogue,jigen,0,0,0,,Oh, I can see it?
+Dialogue: 0,0:10:44.34,0:10:47.06,Dialogue,jigen,0,0,0,,That's the Queen Crown, huh?
+Dialogue: 0,0:10:47.06,0:10:51.16,Dialogue,guard,0,0,0,,It's the country's most prized treasure; passed down from queen to queen for generations.
+Dialogue: 0,0:10:51.16,0:10:53.59,Dialogue,jigen,0,0,0,,Oh, that really is something.
+Dialogue: 0,0:10:53.59,0:10:54.68,Dialogue,guard,0,0,0,,Please don't, Master!
+Dialogue: 0,0:10:55.48,0:10:56.84,Dialogue,jigen,0,0,0,,I'm not swiping it.
+Dialogue: 0,0:10:56.84,0:10:58.25,Dialogue,guard,0,0,0,,It isn't that.
+Dialogue: 0,0:10:58.25,0:11:00.89,Dialogue,guard,0,0,0,,The security beyond that point can't be disabled from this station.
+Dialogue: 0,0:11:01.71,0:11:05.14,Dialogue,guard,0,0,0,,You'll be locked up the moment you step inside.
+Dialogue: 0,0:11:05.62,0:11:09.33,Dialogue,guard,0,0,0,,We don't even have the password to disengage that lock.
+Dialogue: 0,0:11:09.33,0:11:10.14,Dialogue,jigen,0,0,0,,Oh?
+Dialogue: 0,0:11:10.76,0:11:12.87,Dialogue,jigen,0,0,0,,That sounds problematic.
+Dialogue: 0,0:11:16.36,0:11:18.87,Dialogue,lupin,0,0,0,,Yeah, that sure is problematic.
+Dialogue: 0,0:11:18.87,0:11:21.16,Dialogue,lupin,0,0,0,,It's guarded so diligently.
+Dialogue: 0,0:11:21.16,0:11:22.91,Dialogue,lupin,0,0,0,,It's overprotected.
+Dialogue: 0,0:11:22.92,0:11:24.15,Dialogue,lupin,0,0,0,,First...
+Dialogue: 0,0:11:25.06,0:11:26.66,Dialogue,lupin,0,0,0,,If I set even one foot on the floor,
+Dialogue: 0,0:11:27.68,0:11:29.66,Dialogue,lupin,0,0,0,,I'd get caught out by the weight sensor.
+Dialogue: 0,0:11:30.39,0:11:32.09,Dialogue,lupin,0,0,0,,Even if I get past that,
+Dialogue: 0,0:11:33.79,0:11:36.05,Dialogue,lupin,0,0,0,,I'd get caught out by the infrared sensors.
+Dialogue: 0,0:11:36.86,0:11:38.59,Dialogue,lupin,0,0,0,,And even if I get past those,
+Dialogue: 0,0:11:40.12,0:11:42.30,Dialogue,lupin,0,0,0,,I'd get caught out by the thermal sensor.
+Dialogue: 0,0:11:42.84,0:11:45.57,Dialogue,lupin,0,0,0,,Three outs and you're outta here!
+Dialogue: 0,0:11:45.57,0:11:52.45,Dialogue,jigen,0,0,0,,The security was perhaps needlessly heightened since a certain someone made a hash of stealing it once.
+Dialogue: 0,0:11:52.45,0:11:54.73,Dialogue,lupin,0,0,0,,I didn't make a hash of it!
+Dialogue: 0,0:11:54.73,0:11:57.06,Dialogue,jigen,0,0,0,,So, now what?
+Dialogue: 0,0:11:57.06,0:11:59.32,Dialogue,jigen,0,0,0,,Give up and go sightseeing?
+Dialogue: 0,0:11:59.32,0:12:00.74,Dialogue,jigen,0,0,0,,Using my salary?
+Dialogue: 0,0:12:01.42,0:12:04.77,Dialogue,lupin,0,0,0,,Have I ever given up on anything?
+Dialogue: 0,0:12:04.77,0:12:06.94,Dialogue,jigen,0,0,0,,That's why I get into all kinds of trouble.
+Dialogue: 0,0:12:06.94,0:12:08.62,Dialogue,lupin,0,0,0,,Take a look at this.
+Dialogue: 0,0:12:09.53,0:12:10.87,Dialogue,jigen,0,0,0,,Showing off your hacking skills?
+Dialogue: 0,0:12:10.87,0:12:12.16,Dialogue,lupin,0,0,0,,No.
+Dialogue: 0,0:12:12.16,0:12:16.43,Dialogue,lupin,0,0,0,,This stone here could be our lucky item this time.
+Dialogue: 0,0:12:16.43,0:12:18.39,Dialogue,lupin,0,0,0,,The Vesparite Stone.
+Dialogue: 0,0:12:28.97,0:12:30.51,Dialogue,voice,0,0,0,,Chopper #2 to HQ.
+Dialogue: 0,0:12:30.54,0:12:32.69,Dialogue,voice,0,0,0,,We are now circling above Sakurasaku Hotel.
+Dialogue: 0,0:12:32.69,0:12:35.29,Dialogue,voice,0,0,0,,Have you received any requests to guard a VIP?
+Dialogue: 0,0:12:35.29,0:12:37.73,Dialogue,voice,0,0,0,,This is HQ. Negative.
+Dialogue: 0,0:12:39.90,0:12:40.91,Dialogue,sonoko,0,0,0,,Jeez!
+Dialogue: 0,0:12:40.91,0:12:46.12,Dialogue,sonoko,0,0,0,,This was supposed to be her chance to meet all kinds of suave celebrities and sportsmen,
+Dialogue: 0,0:12:46.12,0:12:47.87,Dialogue,sonoko,0,0,0,,and she's caught herself up in a karate lesson.
+Dialogue: 0,0:12:47.87,0:12:50.53,Dialogue,conan,0,0,0,,You sure are fond of that kind of stuff, Sonoko.
+Dialogue: 0,0:12:50.53,0:12:53.54,Dialogue,sonoko,0,0,0,,Yeah, Ran's sure got some taste. I just don't get it.
+Dialogue: 0,0:12:53.95,0:12:56.46,Dialogue,shin,0,0,0,,I was actually talking about you.
+Dialogue: 0,0:12:56.46,0:12:59.04,Dialogue,kogoro,0,0,0,,She said she'd come even if she was late.
+Dialogue: 0,0:12:59.04,0:13:00.06,Dialogue,kogoro,0,0,0,,Anyway...
+Dialogue: 0,0:13:00.06,0:13:02.21,Dialogue,sonoko,0,0,0,,And where has he gone off to?
+Dialogue: 0,0:13:02.21,0:13:03.30,Dialogue,conan,0,0,0,,Don't you get it?
+Dialogue: 0,0:13:03.98,0:13:05.97,Dialogue,conan,0,0,0,,He's trying to find Okino Yoko.
+Dialogue: 0,0:13:05.97,0:13:08.05,Dialogue,sonoko,0,0,0,,As always.
+Dialogue: 0,0:13:09.30,0:13:10.61,Dialogue,mira,0,0,0,,Are you crazy?!
+Dialogue: 0,0:13:10.61,0:13:12.68,Dialogue,mira,0,0,0,,You want me to attend some party when I'm feeling like this?
+Dialogue: 0,0:13:12.68,0:13:13.87,Dialogue,mira,0,0,0,,I already said no!
+Dialogue: 0,0:13:13.87,0:13:15.18,Dialogue,keith,0,0,0,,All right, Your Highness.
+Dialogue: 0,0:13:15.95,0:13:20.30,Dialogue,keith,0,0,0,,So, you wish to cancel this party planned by your late mother,
+Dialogue: 0,0:13:20.30,0:13:24.94,Dialogue,keith,0,0,0,,and return home without saying a word to the people of Japan who too are mourning our loss?
+Dialogue: 0,0:13:25.11,0:13:26.36,Dialogue,mira,0,0,0,,Quiet!
+Dialogue: 0,0:13:27.26,0:13:28.71,Dialogue,maid,0,0,0,,Princess!
+Dialogue: 0,0:13:30.76,0:13:32.89,Dialogue,keith,0,0,0,,It's already past the scheduled time.
+Dialogue: 0,0:13:32.89,0:13:34.60,Dialogue,keith,0,0,0,,Have Her Highness ready quickly.
+Dialogue: 0,0:13:34.60,0:13:35.76,Dialogue,maid,0,0,0,,Y-Yes, sir.
+Dialogue: 0,0:13:37.01,0:13:38.42,Dialogue,maid,0,0,0,,Princess Mira...
+Dialogue: 0,0:13:40.20,0:13:41.92,Dialogue,mira,0,0,0,,I hate this!
+Dialogue: 0,0:13:43.41,0:13:44.92,Dialogue,sonoko,0,0,0,,So, have you found Yoko?
+Dialogue: 0,0:13:44.92,0:13:46.80,Dialogue,kogoro,0,0,0,,She's not here.
+Dialogue: 0,0:13:50.90,0:13:53.48,Dialogue,mc,0,0,0,,Ladies and gentlemen, I apologize for having kept you waiting.
+Dialogue: 0,0:13:53.48,0:13:55.68,Dialogue,mc,0,0,0,,Please welcome her with a warm round of applause:
+Dialogue: 0,0:13:55.68,0:14:01.12,Dialogue,mc,0,0,0,,tonight's surprise guest, Her Highness Princess Mira of Vespania!
+Dialogue: 0,0:14:01.12,0:14:04.54,Dialogue,mc,0,0,0,,Please welcome the surprise guest. Here is Princess Mira!
+Dialogue: 0,0:14:04.54,0:14:05.70,Dialogue,kyle,0,0,0,,The princess has made her entrance.
+Dialogue: 0,0:14:05.70,0:14:08.05,Dialogue,kyle,0,0,0,,All units, keep your eyes on the guests.
+Dialogue: 0,0:14:08.05,0:14:12.15,Dialogue,kyle,0,0,0,,Follow anyone who attempts to leave the room from this point onwards.
+Dialogue: 0,0:14:12.15,0:14:12.91,Dialogue,SP,0,0,0,,Affirmative.
+Dialogue: 0,0:14:13.49,0:14:15.28,Dialogue,SP,0,0,0,,This is the main entrance.
+Dialogue: 0,0:14:15.28,0:14:17.16,Dialogue,SP,0,0,0,,We're cordoning off the entrance for now.
+Dialogue: 0,0:14:17.16,0:14:20.03,Dialogue,SP,0,0,0,,We'll send all further guests to the side doors.
+Dialogue: 0,0:14:20.03,0:14:21.52,Dialogue,kyle,0,0,0,,Did you get that, Unit B?
+Dialogue: 0,0:14:21.52,0:14:22.38,Dialogue,SP,0,0,0,,Yes, sir.
+Dialogue: 0,0:14:22.92,0:14:24.78,Dialogue,mc,0,0,0,,Please have a seat, Your Highness.
+Dialogue: 0,0:14:32.62,0:14:33.77,Thoughts,conan,0,0,0,,{\be10}Ran?
+Dialogue: 0,0:14:33.77,0:14:35.22,Dialogue,sonoko,0,0,0,,She looks just like Ran...
+Dialogue: 0,0:14:37.90,0:14:40.09,Dialogue,kogoro,0,0,0,,Ran never dresses up like that.
+Dialogue: 0,0:14:43.37,0:14:46.32,Thoughts,ran,0,0,0,,{\be10}Oh, did I catch a cold from the shower?
+Dialogue: 0,0:14:47.63,0:14:49.99,Thoughts,ran,0,0,0,,{\be10}Shoot, it's this late already!
+Dialogue: 0,0:14:50.36,0:14:52.95,Thoughts,ran,0,0,0,,{\be10}Sonoko must already be upset.
+Dialogue: 0,0:14:54.32,0:14:58.52,Dialogue,mc,0,0,0,,Princess Mira, may we have a few words from you?
+Dialogue: 0,0:15:03.91,0:15:07.67,Dialogue,keith,0,0,0,,Princess Mira has been enjoying her first visit to Japan.
+Dialogue: 0,0:15:07.67,0:15:11.02,Dialogue,kogoro,0,0,0,,Hey, that guy behind her is doing the talking.
+Dialogue: 0,0:15:12.01,0:15:13.39,Dialogue,sonoko,0,0,0,,The princess looks mean.
+Dialogue: 0,0:15:13.39,0:15:19.22,Dialogue,kogoro,0,0,0,,You think a princess would want to come to a mere hotel reception?
+Dialogue: 0,0:15:19.22,0:15:22.39,Thoughts,shin,0,0,0,,{\be10}The name of this hotel is "Sakurasaku."
+Dialogue: 0,0:15:23.00,0:15:28.90,Thoughts,shin,0,0,0,,{\be10}The late Queen Sakura loved the cherry blossoms with which she shared her name.
+Dialogue: 0,0:15:28.90,0:15:32.36,Thoughts,shin,0,0,0,,{\be10}And this happens to be the reception of a hotel which shares the name of that very tree.
+Dialogue: 0,0:15:32.36,0:15:36.91,Thoughts,shin,0,0,0,,{\be10)}Had she not had that accident, she would most certainly have been the one attending this event.
+Dialogue: 0,0:15:36.91,0:15:41.06,Thoughts,shin,0,0,0,,{\be10}The princess' visit would normally have been canceled,
+Dialogue: 0,0:15:41.06,0:15:46.42,Thoughts,shin,0,0,0,,{\be10}but Vespania must want to be in a better position with Japan so as to make more profitable business dealings.
+Dialogue: 0,0:15:47.19,0:15:48.55,Thoughts,shin,0,0,0,,{\be10}I have to feel sorry for her.
+Dialogue: 0,0:15:50.17,0:15:52.26,Dialogue,mc,0,0,0,,Is there any place in Japan that you wish to visit?
+Dialogue: 0,0:15:52.26,0:15:55.68,Dialogue,keith,0,0,0,,Princess Mira has always wanted to visit Kyoto.
+Dialogue: 0,0:15:55.68,0:15:57.14,Dialogue,mc,0,0,0,,I-I see.
+Dialogue: 0,0:15:57.14,0:16:00.18,Dialogue,mc,0,0,0,,How about any Japanese food that you like?
+Dialogue: 0,0:16:00.18,0:16:02.56,Dialogue,keith,0,0,0,,Her Highness loves sushi.
+Dialogue: 0,0:16:03.10,0:16:05.55,Dialogue,kogoro,0,0,0,,Man, he's answering everything.
+Dialogue: 0,0:16:05.55,0:16:07.18,Dialogue,kogoro,0,0,0,,Here, hold this for a minute.
+Dialogue: 0,0:16:07.18,0:16:08.90,Dialogue,kogoro,0,0,0,,I'm heading over to the restroom.
+Dialogue: 0,0:16:09.32,0:16:12.32,Dialogue,shin,0,0,0,,Don't go off handing wine to a grade schooler.
+Dialogue: 0,0:16:12.71,0:16:17.53,Dialogue,mc,0,0,0,,Now, I would like to request Princess Mira to grant us a toast.
+Dialogue: 0,0:16:17.53,0:16:20.54,Dialogue,mc,0,0,0,,Ladies and gentlemen, please lift your glasses.
+Dialogue: 0,0:16:20.54,0:16:23.36,Dialogue,sonoko,0,0,0,,I'm totally out of juice.
+Dialogue: 0,0:16:24.04,0:16:25.92,Dialogue,conan,0,0,0,,I'll go get us some.
+Dialogue: 0,0:16:25.92,0:16:28.06,Dialogue,sonoko,0,0,0,,Oh, thanks, kiddo.
+Dialogue: 0,0:16:29.49,0:16:31.42,Dialogue Top,sonoko,0,0,0,,Hurry up, okay?
+Dialogue: 0,0:16:28.06,0:16:31.42,Dialogue,shin,0,0,0,,Yeah, right. You motioned at me to get them.
+Dialogue: 0,0:16:47.74,0:16:51.33,Dialogue,mc,0,0,0,,Princess Mira, will you grant us a toast?
+Dialogue: 0,0:16:51.33,0:16:54.09,Dialogue,conan,0,0,0,,Princess Mira, can you give us a toast?
+Dialogue: 0,0:16:55.43,0:16:56.95,Dialogue,conan,0,0,0,,Don't drink that!
+Dialogue: 0,0:16:59.20,0:17:01.68,Dialogue,conan,0,0,0,,I'm sorry, Your Highness.
+Dialogue: 0,0:17:01.68,0:17:06.75,Dialogue,conan,0,0,0,,But could you have that man who poured your wine sample it first?
+Dialogue: 0,0:17:09.20,0:17:10.50,Dialogue,man,0,0,0,,Someone! Please...
+Dialogue: 0,0:17:10.50,0:17:12.86,Dialogue,man,0,0,0,,Please grab that man!
+Dialogue: 0,0:17:12.86,0:17:13.75,Dialogue,man,0,0,0,,Get him!
+Dialogue: 0,0:17:15.76,0:17:18.22,Dialogue,man,0,0,0,,To the kitchen! Contact the exterior unit too!
+Dialogue: 0,0:17:18.22,0:17:20.27,Dialogue,man,0,0,0,,Everyone! Please stay calm!
+Dialogue: 0,0:17:20.27,0:17:22.22,Dialogue,man,0,0,0,,Please don't run! It's not safe!
+Dialogue: 0,0:17:26.45,0:17:27.48,Dialogue,man,0,0,0,,Outta my way!
+Dialogue: 0,0:17:27.48,0:17:29.69,Dialogue,conan,0,0,0,,Uncle! Stop that man!
+Dialogue: 0,0:17:38.07,0:17:41.20,Dialogue,kogoro,0,0,0,,To point a knife at me, Mouri Kogorou—
+Dialogue: 0,0:17:41.47,0:17:45.20,Dialogue,kogoro,0,0,0,,Hey, w-wait! I haven't finished my line yet!
+Dialogue: 0,0:17:45.20,0:17:49.46,Dialogue,takagi,0,0,0,,A lethal dose of poison was discovered in the princess' glass of wine.
+Dialogue: 0,0:17:50.33,0:17:54.40,Dialogue,megure,0,0,0,,Mr. Keith, while a surprise visit is fine,
+Dialogue: 0,0:17:54.40,0:17:58.15,Dialogue,megure,0,0,0,,we can't protect you if you keep it a secret from us as well.
+Dialogue: 0,0:17:59.05,0:18:02.80,Dialogue,keithi,0,0,0,,I had determined that our royal SP units were enough.
+Dialogue: 0,0:18:02.80,0:18:04.58,Dialogue,takagi,0,0,0,,Enough?
+Dialogue: 0,0:18:04.58,0:18:07.28,Dialogue,takagi,0,0,0,,Enough that no guards were spared for the kitchen?
+Dialogue: 0,0:18:07.28,0:18:08.39,Dialogue,megure,0,0,0,,Takagi!
+Dialogue: 0,0:18:09.44,0:18:11.53,Dialogue,keith,0,0,0,,From the outset,
+Dialogue: 0,0:18:11.53,0:18:17.60,Dialogue,keith,0,0,0,,we had advised Her Highness not to have contact with food or drink at the party.
+Dialogue: 0,0:18:17.60,0:18:19.15,Dialogue,keith,0,0,0,,That being said,
+Dialogue: 0,0:18:19.65,0:18:22.61,Dialogue,keith,0,0,0,,I must thank these two gentlemen.
+Dialogue: 0,0:18:28.51,0:18:29.69,Dialogue,maid,0,0,0,,Princess Mira?
+Dialogue: 0,0:18:31.21,0:18:32.41,Dialogue,mira,0,0,0,,No!
+Dialogue: 0,0:18:32.41,0:18:34.43,Dialogue,maid,0,0,0,,P-Please don't worry.
+Dialogue: 0,0:18:34.43,0:18:36.96,Dialogue,maid,0,0,0,,We prepared this glass of water ourselves.
+Dialogue: 0,0:18:38.84,0:18:40.34,Dialogue,mira,0,0,0,,That's enough. Leave this room at once.
+Dialogue: 0,0:18:40.80,0:18:42.15,Dialogue,mira,0,0,0,,Leave me alone!
+Dialogue: 0,0:18:47.62,0:18:49.56,Dialogue,kyle,0,0,0,,We are right outside.
+Dialogue: 0,0:18:49.56,0:18:52.36,Dialogue,kyle,0,0,0,,Summon us if you require anything.
+Dialogue: 0,0:19:03.82,0:19:05.06,Dialogue,mira,0,0,0,,Mother...
+Dialogue: 0,0:19:05.97,0:19:06.90,Dialogue,mira,0,0,0,,I can't...
+Dialogue: 0,0:19:08.67,0:19:11.37,Dialogue,mira,0,0,0,,I can't do this.
+Dialogue: 0,0:19:16.12,0:19:17.60,Dialogue,kyle,0,0,0,,I'll go check the roof.
+Dialogue: 0,0:19:18.53,0:19:20.12,Dialogue,kyle,0,0,0,,Don't allow anyone inside.
+Dialogue: 0,0:19:20.79,0:19:21.63,Dialogue,SP,0,0,0,,Yes, sir.
+Dialogue: 0,0:19:28.60,0:19:30.48,Thoughts,mira,0,0,0,,{\be10}I've had enough.
+Dialogue: 0,0:19:30.48,0:19:32.48,Thoughts,mira,0,0,0,,{\be10}I can't take this anymore.
+Dialogue: 0,0:19:37.02,0:19:41.49,Dialogue,takagi,0,0,0,,The man who had attempted to poison the princess said that he was hired to do it.
+Dialogue: 0,0:19:42.18,0:19:46.05,Dialogue,takagi,0,0,0,,He was told that it was just a prank, and that the drug had been a mere laxative.
+Dialogue: 0,0:19:46.05,0:19:48.34,Dialogue,takagi,0,0,0,,He's cooperating with us now.
+Dialogue: 0,0:19:48.34,0:19:50.49,Dialogue,megure,0,0,0,,Who hired him?
+Dialogue: 0,0:19:50.49,0:19:53.71,Dialogue,takagi,0,0,0,,It was a man he met for the first time today: a foreigner.
+Dialogue: 0,0:19:53.71,0:19:59.71,Dialogue,megure,0,0,0,,Sheesh. Committing a crime merely for some quick cash.
+Dialogue: 0,0:20:00.32,0:20:05.76,Dialogue,megure,0,0,0,,From the information we've gathered, there are extremists within the anti-princess faction.
+Dialogue: 0,0:20:06.16,0:20:09.37,Dialogue,megure,0,0,0,,Can you really protect her just by yourselves?
+Dialogue: 0,0:20:09.37,0:20:15.02,Dialogue,keith,0,0,0,,There is nothing that we wish to request of the Japanese police at this point in time.
+Dialogue: 0,0:20:15.31,0:20:19.94,Dialogue,megure,0,0,0,,By the way, Conan, how did you realize that the sommelier was a fake?
+Dialogue: 0,0:20:19.94,0:20:21.40,Dialogue,megure,0,0,0,,What gave him away?
+Dialogue: 0,0:20:21.69,0:20:27.07,Dialogue,conan,0,0,0,,Well, he smelled of cigarettes when he passed by me.
+Dialogue: 0,0:20:27.63,0:20:33.12,Dialogue,conan,0,0,0,,I've heard that high grade sommeliers don't smoke, so I thought it was peculiar.
+Dialogue: 0,0:20:33.62,0:20:36.26,Dialogue,conan,0,0,0,,This is a five-star hotel, right?
+Dialogue: 0,0:20:36.26,0:20:40.31,Dialogue,kogoro,0,0,0,,While there might be sommeliers who are smokers,
+Dialogue: 0,0:20:40.31,0:20:45.38,Dialogue,kogoro,0,0,0,,they wouldn't smoke right before offering wine to a princess.
+Dialogue: 0,0:20:45.87,0:20:50.60,Dialogue,megure,0,0,0,,Conversely, many smoke right before committing a crime so as to compose themselves.
+Dialogue: 0,0:20:51.00,0:20:53.89,Dialogue,megure,0,0,0,,That was a great catch, Conan.
+Dialogue: 0,0:20:58.43,0:20:59.47,Dialogue,SP,0,0,0,,Princess!
+Dialogue: 0,0:20:59.47,0:21:00.44,Dialogue,maid,0,0,0,,Princess Mira!
+Dialogue: 0,0:21:02.52,0:21:03.44,Dialogue,kyle,0,0,0,,Has a fire broken out?
+Dialogue: 0,0:21:03.44,0:21:05.93,Dialogue,SP,0,0,0,,No, none whatsoever.
+Dialogue: 0,0:21:05.93,0:21:07.99,Dialogue,maid,0,0,0,,Princess Mira is nowhere to be found!
+Dialogue: 0,0:21:07.99,0:21:09.40,Dialogue,kyle,0,0,0,,Why...
+Dialogue: 0,0:21:09.40,0:21:11.11,Dialogue,kyle,0,0,0,,Hasn't anyone been keeping watch over the other door?!
+Dialogue: 0,0:21:11.11,0:21:12.37,Dialogue,SP,0,0,0,,No, sir!
+Dialogue: 0,0:21:12.37,0:21:13.46,Dialogue,kyle,0,0,0,,Idiots!
+Dialogue: 0,0:21:14.45,0:21:15.79,Dialogue,kyle,0,0,0,,Princess Mira!
+Dialogue: 0,0:21:21.21,0:21:22.70,Dialogue,SP,0,0,0,,W-We're sorry, Chief.
+Dialogue: 0,0:21:22.70,0:21:23.76,Dialogue,SP,0,0,0,,Let's take the stairs!
+Dialogue: 0,0:21:24.05,0:21:26.26,Dialogue,kyle,0,0,0,,Do you seriously think we can make it from the top floor?
+Dialogue: 0,0:21:26.26,0:21:27.87,Dialogue,kyle,0,0,0,,Contact the lobby unit at once.
+Dialogue: 0,0:21:27.87,0:21:28.91,Dialogue,kyle,0,0,0,,Assign men to the basement as well!
+Dialogue: 0,0:21:28.91,0:21:29.65,Dialogue,SP,0,0,0,,Yes, sir!
+Dialogue: 0,0:21:29.65,0:21:31.83,Dialogue,kyle,0,0,0,,Keep your eyes on the elevator she took.
+Dialogue: 0,0:21:31.83,0:21:33.38,Dialogue,kyle,0,0,0,,Get in touch with me if it stops at any floor.
+Dialogue: 0,0:21:33.38,0:21:34.35,Dialogue,SP,0,0,0,,Yes, sir!
+Dialogue: 0,0:22:41.33,0:22:43.88,Dialogue,kogoro,0,0,0,,She lit a cigarette lighter by the fire detector.
+Dialogue: 0,0:22:43.88,0:22:47.88,Dialogue,conan,0,0,0,,And fled from the other room during the commotion?
+Dialogue: 0,0:22:47.88,0:22:50.13,Dialogue,kogoro,0,0,0,,She wouldn't have been able to, if this weren't the royal suite.
+Dialogue: 0,0:22:50.13,0:22:52.37,Dialogue,takagi,0,0,0,,It is imperative that we form a cordon.
+Dialogue: 0,0:22:52.37,0:22:54.24,Dialogue,keith,0,0,0,,That won't be necessary!
+Dialogue: 0,0:22:54.24,0:22:56.39,Dialogue,megure,0,0,0,,It'll be too late if something happens to her!
+Dialogue: 0,0:22:59.31,0:23:00.39,Dialogue,kyle,0,0,0,,I repeat.
+Dialogue: 0,0:23:00.39,0:23:01.54,Dialogue,kyle,0,0,0,,This is Kyle.
+Dialogue: 0,0:23:01.54,0:23:03.02,Dialogue,kyle,0,0,0,,I've found Princess Mira.
+Dialogue: 0,0:23:03.02,0:23:04.44,Dialogue,kyle,0,0,0,,I'll be securing her safe retrieval.
+Dialogue: 0,0:23:07.82,0:23:09.19,Dialogue,kyle,0,0,0,,Princess Mira!
+Dialogue: 0,0:23:11.94,0:23:14.03,Dialogue,ran,0,0,0,,I wonder if the party's over by now?
+Dialogue: 0,0:23:17.12,0:23:18.50,Dialogue,ran,0,0,0,,I-I'm sorry!
+Dialogue: 0,0:23:18.50,0:23:19.37,Dialogue,mira,0,0,0,,Sheesh!
+Dialogue: 0,0:23:19.37,0:23:24.38,Dialogue,mira,0,0,0,,Where... were you looking...
+Dialogue: 0,0:23:29.38,0:23:31.36,Dialogue,kyle,0,0,0,,Let's head back, Your Highness.
+Dialogue: 0,0:23:31.36,0:23:33.51,Dialogue,mira,0,0,0,,No! Let go!
+Dialogue: 0,0:23:33.51,0:23:34.43,Dialogue,mira,0,0,0,,Let go of me!
+Dialogue: 0,0:23:34.90,0:23:37.01,Dialogue,kyle,0,0,0,,Princess Mira, please...
+Dialogue: 0,0:23:37.64,0:23:40.06,Dialogue,ran,0,0,0,,Excuse me, let go of her arm!
+Dialogue: 0,0:23:40.06,0:23:41.35,Dialogue,ran,0,0,0,,Can't you see that she's rejected you?
+Dialogue: 0,0:23:44.78,0:23:48.19,Dialogue,kyle,0,0,0,,I'm sorry, but this does not concern you.
+Dialogue: 0,0:23:48.19,0:23:49.48,Dialogue,mira,0,0,0,,Help me!
+Dialogue: 0,0:23:49.48,0:23:52.35,Dialogue,mira,0,0,0,,He wouldn't leave me alone!
+Dialogue: 0,0:23:52.35,0:23:53.40,Dialogue,ran,0,0,0,,Let her go!
+Dialogue: 0,0:23:53.40,0:23:55.24,Dialogue,kyle,0,0,0,,I cannot.
+Dialogue: 0,0:23:55.53,0:23:56.95,Dialogue,kyle,0,0,0,,Stop! Do you want to get—
+Dialogue: 0,0:24:04.59,0:24:05.33,Dialogue,ran,0,0,0,,Hurry!
+Dialogue: 0,0:24:07.97,0:24:09.00,Dialogue,kyle,0,0,0,,Impossible...
+Dialogue: 0,0:24:10.09,0:24:10.80,Dialogue,keith,0,0,0,,What?!
+Dialogue: 0,0:24:10.80,0:24:12.17,Dialogue,keith,0,0,0,,You were... what?!
+Dialogue: 0,0:24:12.17,0:24:13.63,Dialogue,keith,0,0,0,,What were you doing?!
+Dialogue: 0,0:24:13.63,0:24:15.00,Dialogue,megure,0,0,0,,Takagi.
+Dialogue: 0,0:24:15.00,0:24:16.02,Dialogue,takagi,0,0,0,,Yes, sir!
+Dialogue: 0,0:24:16.02,0:24:17.83,Dialogue,megure,0,0,0,,Form a cordon!
+Dialogue: 0,0:24:17.83,0:24:19.01,Dialogue,takagi,0,0,0,,Understood, sir!
+Dialogue: 0,0:24:19.49,0:24:21.15,Dialogue,takagi,0,0,0,,Cordon! Cordon!
+Dialogue: 0,0:24:21.15,0:24:25.02,Dialogue,megure,0,0,0,,I'll be taking this down as an official request from Vespania.
+Dialogue: 0,0:24:25.33,0:24:26.68,Dialogue,megure,0,0,0,,Any objections?
+Dialogue: 0,0:24:30.06,0:24:33.03,Dialogue,conan,0,0,0,,Excuse me, I'd like to take something.
+Dialogue: 0,0:24:33.33,0:24:35.94,Dialogue,concierge,0,0,0,,Yes, one moment please.
+Dialogue: 0,0:24:38.39,0:24:39.87,Dialogue,concierge,0,0,0,,Here.
+Dialogue: 0,0:24:40.45,0:24:41.74,Dialogue,concierge,0,0,0,,Is this your item?
+Dialogue: 0,0:24:43.05,0:24:45.14,Dialogue,conan,0,0,0,,Yeah! Thank you!
+Dialogue: 0,0:24:52.71,0:24:54.93,Dialogue,ran,0,0,0,,You're a real princess?!
+Dialogue: 0,0:24:56.66,0:24:58.26,Dialogue,mira,0,0,0,,Is it really that surprising?
+Dialogue: 0,0:24:58.26,0:25:01.34,Dialogue,ran,0,0,0,,Y-Yes, of course it is!
+Dialogue: 0,0:25:03.88,0:25:07.00,Dialogue,ran,0,0,0,,Then that man from earlier was...
+Dialogue: 0,0:25:07.00,0:25:09.11,Dialogue,mira,0,0,0,,He's my bodyguard.
+Dialogue: 0,0:25:09.11,0:25:10.78,Dialogue,ran,0,0,0,,Thought so!
+Dialogue: 0,0:25:11.29,0:25:14.21,Dialogue,ran,0,0,0,,I'll apologize to him, so let's head back!
+Dialogue: 0,0:25:14.21,0:25:15.27,Dialogue,mira,0,0,0,,Stop it.
+Dialogue: 0,0:25:15.27,0:25:17.20,Dialogue,mira,0,0,0,,I ran away because I didn't want to be there.
+Dialogue: 0,0:25:17.70,0:25:18.91,Dialogue,mira,0,0,0,,I'm not going back.
+Dialogue: 0,0:25:18.91,0:25:20.26,Dialogue,ran,0,0,0,,Why?
+Dialogue: 0,0:25:20.26,0:25:22.20,Dialogue,ran,0,0,0,,Why did you run away?
+Dialogue: 0,0:25:25.12,0:25:26.63,Dialogue,mira,0,0,0,,I got tired of the party.
+Dialogue: 0,0:25:27.71,0:25:29.80,Dialogue,ran,0,0,0,,I wish I could say such things.
+Dialogue: 0,0:25:29.80,0:25:31.73,Dialogue,mira,0,0,0,,Hey, do you have a smoke?
+Dialogue: 0,0:25:31.73,0:25:32.86,Dialogue,ran,0,0,0,,A smoke?
+Dialogue: 0,0:25:32.86,0:25:35.26,Dialogue,ran,0,0,0,,I'm a minor! I don't have any!
+Dialogue: 0,0:25:35.26,0:25:36.63,Dialogue,mira,0,0,0,,How old are you?
+Dialogue: 0,0:25:36.63,0:25:38.42,Dialogue,ran,0,0,0,,I'm seventeen!
+Dialogue: 0,0:25:38.42,0:25:42.11,Dialogue,ran,0,0,0,,I'm a second year at Teitan High School! A young and peppy high school girl!
+Dialogue: 0,0:25:42.11,0:25:43.61,Dialogue,mira,0,0,0,,Don't snap at me.
+Dialogue: 0,0:25:43.61,0:25:45.35,Dialogue,ran,0,0,0,,Really, let's head back.
+Dialogue: 0,0:25:45.35,0:25:47.93,Dialogue,ran,0,0,0,,The party should still be going.
+Dialogue: 0,0:25:47.93,0:25:49.69,Dialogue,mira,0,0,0,,No means no.
+Dialogue: 0,0:25:50.65,0:25:54.45,Dialogue,mira,0,0,0,,I thought we might be of the same age, but it looks like I'm a whole two years older.
+Dialogue: 0,0:25:54.80,0:25:56.96,Dialogue,ran,0,0,0,,So you're nineteen...
+Dialogue: 0,0:25:56.96,0:25:59.43,Dialogue,ran,0,0,0,,You're still a minor!
+Dialogue: 0,0:25:59.43,0:26:03.42,Dialogue,mira,0,0,0,,We can drink and smoke at age eighteen in Vespania.
+Dialogue: 0,0:26:03.42,0:26:05.12,Dialogue,ran,0,0,0,,Really?
+Dialogue: 0,0:26:09.36,0:26:09.92,Dialogue,mira,0,0,0,,What?
+Dialogue: 0,0:26:10.72,0:26:12.88,Dialogue,ran,0,0,0,,This is a bit surprising.
+Dialogue: 0,0:26:12.88,0:26:14.92,Dialogue,ran,0,0,0,,A princess who smokes, huh?
+Dialogue: 0,0:26:14.92,0:26:18.01,Dialogue,mira,0,0,0,,Sorry for shattering your dreams.
+Dialogue: 0,0:26:18.01,0:26:20.42,Dialogue,mira,0,0,0,,Is it wrong for a princess to smoke?
+Dialogue: 0,0:26:20.42,0:26:23.52,Dialogue,mira,0,0,0,,I have a life too! I'm not a doll!
+Dialogue: 0,0:26:23.52,0:26:26.24,Dialogue,ran,0,0,0,,I-I'm sorry. I didn't mean it that way.
+Dialogue: 0,0:26:26.24,0:26:27.86,Dialogue,mira,0,0,0,,It's fine.
+Dialogue: 0,0:26:27.86,0:26:28.94,Dialogue,mira,0,0,0,,I'm used to it.
+Dialogue: 0,0:26:29.49,0:26:31.37,Dialogue,mira,0,0,0,,Everyone says the same thing.
+Dialogue: 0,0:26:32.91,0:26:36.62,Dialogue,ran,0,0,0,,But any girl would envy you.
+Dialogue: 0,0:26:37.27,0:26:43.43,Dialogue,ran,0,0,0,,I'm sure any girl would want to be a princess at least once.
+Dialogue: 0,0:26:48.39,0:26:50.92,Dialogue,mira,0,0,0,,Want to be... a princess?
+Dialogue: 0,0:26:51.63,0:26:54.63,Dialogue,ran,0,0,0,,Wait! Wh-What?! What?!
+Dialogue: 0,0:26:56.27,0:26:59.05,Dialogue,takagi,0,0,0,,Inspector Megure, we're in position.
+Dialogue: 0,0:26:59.05,0:27:02.77,Dialogue,takagi,0,0,0,,Now it's just a matter of time till we find the princess.
+Dialogue: 0,0:27:02.77,0:27:05.58,Dialogue,kogoro,0,0,0,,Hey, Takagi! You seen Conan around?
+Dialogue: 0,0:27:05.58,0:27:07.31,Dialogue,takagi,0,0,0,,Conan's not here?
+Dialogue: 0,0:27:07.31,0:27:09.00,Dialogue,kogoro,0,0,0,,That damn brat!
+Dialogue: 0,0:27:09.00,0:27:10.98,Dialogue,kogoro,0,0,0,,He had the nerve to leave me behind!
+Dialogue: 0,0:27:13.34,0:27:15.49,Dialogue,ran,0,0,0,,Wait! Why?!
+Dialogue: 0,0:27:15.49,0:27:17.49,Dialogue,mira,0,0,0,,Oh, come on.
+Dialogue: 0,0:27:18.69,0:27:20.49,Dialogue,mira,0,0,0,,I'm bigger there though.
+Dialogue: 0,0:27:21.84,0:27:24.24,Dialogue,mira,0,0,0,,Shut up! Listen to your elders!
+Dialogue: 0,0:27:24.24,0:27:25.44,Dialogue,ran,0,0,0,,But!
+Dialogue: 0,0:27:25.44,0:27:26.83,Dialogue,ran,0,0,0,,No! No! No!
+Dialogue: 0,0:27:32.96,0:27:35.19,Dialogue,mira,0,0,0,,There. You can let go now.
+Dialogue: 0,0:27:37.57,0:27:38.76,Dialogue,mira,0,0,0,,See? With this...
+Dialogue: 0,0:27:40.08,0:27:42.47,Dialogue,mira,0,0,0,,you're now a princess.
+Dialogue: 0,0:27:42.47,0:27:43.31,Dialogue,mira,0,0,0,,Right?
+Dialogue: 0,0:27:46.47,0:27:48.27,Dialogue,ran,0,0,0,,This is... me...
+Dialogue: 0,0:27:50.11,0:27:50.89,Dialogue,ran,0,0,0,,But...
+Dialogue: 0,0:27:52.50,0:27:54.33,Dialogue,ran,0,0,0,,P-Princess!
+Dialogue: 0,0:27:55.66,0:27:58.42,Dialogue,mira,0,0,0,,I'll come back when the party's over!
+Dialogue: 0,0:27:58.42,0:28:00.99,Dialogue,ran,0,0,0,,You can't! Don't do this!
+Dialogue: 0,0:28:00.99,0:28:05.70,Dialogue,mira,0,0,0,,You better hurry back, or that bodyguard might come after you!
+Dialogue: 0,0:28:07.05,0:28:08.50,Dialogue,ran,0,0,0,,This can't be happening!
+Dialogue: 0,0:28:10.74,0:28:12.96,Thoughts,mira,0,0,0,,{\be10}But I'm not coming back.
+Dialogue: 0,0:28:21.21,0:28:26.92,Thoughts,shin,0,0,0,,{\be10}Was I too naïve to think that because she ran off in that dress, I'd find her in no time?
+Dialogue: 0,0:28:28.81,0:28:30.14,Dialogue,conan,0,0,0,,Ran!
+Dialogue: 0,0:28:30.40,0:28:32.48,Dialogue,conan,0,0,0,,Ran!
+Dialogue: 0,0:28:32.48,0:28:33.95,Dialogue,conan,0,0,0,,You're late.
+Dialogue: 0,0:28:33.95,0:28:35.73,Dialogue,conan,0,0,0,,Sonoko's mad.
+Dialogue: 0,0:28:35.73,0:28:37.23,Dialogue,mira,0,0,0,,Ran?
+Dialogue: 0,0:28:37.23,0:28:39.61,Dialogue,mira,0,0,0,,You were at the party...
+Dialogue: 0,0:28:48.96,0:28:49.91,Dialogue,conan,0,0,0,,W-Wait!
+Dialogue: 0,0:28:50.56,0:28:53.45,Thoughts,conan,0,0,0,,{\be10}Crap, I didn't realize it for a second there!
+Dialogue: 0,0:29:04.18,0:29:05.14,Dialogue,fujiko,0,0,0,,Hop on.
+Dialogue: 0,0:29:05.46,0:29:08.79,Dialogue,fujiko,0,0,0,,Think about it. I know who you are.
+Dialogue: 0,0:29:08.79,0:29:10.72,Dialogue,fujiko,0,0,0,,If I was an enemy, I'd have hit you just then.
+Dialogue: 0,0:29:12.55,0:29:13.89,Dialogue,fujiko,0,0,0,,Trust me.
+Dialogue: 0,0:29:29.03,0:29:30.52,Dialogue,ran,0,0,0,,What should I say?
+Dialogue: 0,0:29:30.52,0:29:32.20,Dialogue,ran,0,0,0,,It was too long for a bathroom break.
+Dialogue: 0,0:29:32.80,0:29:35.03,Dialogue,ran,0,0,0,,The place was so huge I got lost!
+Dialogue: 0,0:29:35.03,0:29:36.15,Dialogue,ran,0,0,0,,That won't do.
+Dialogue: 0,0:29:37.17,0:29:38.96,Dialogue,ran,0,0,0,,I just need to tell them the truth.
+Dialogue: 0,0:29:45.05,0:29:47.34,Dialogue,ran,0,0,0,,Please, nobody come out.
+Dialogue: 0,0:30:08.23,0:30:09.98,Thoughts,ran,0,0,0,,{\be10}Princess...
+Dialogue: 0,0:30:10.76,0:30:11.54,Dialogue,shin,0,0,0,,Princess Ran!
+Dialogue: 0,0:30:15.97,0:30:17.91,Dialogue,shin,0,0,0,,So this is where you were.
+Dialogue: 0,0:30:17.91,0:30:19.62,Dialogue,ran,0,0,0,,Sh-Shinichi!
+Dialogue: 0,0:30:19.62,0:30:21.85,Dialogue,shin,0,0,0,,Come on, everyone's waiting.
+Dialogue: 0,0:30:21.85,0:30:22.84,Dialogue,shin,0,0,0,,Let's go, Princess.
+Dialogue: 0,0:30:22.84,0:30:25.46,Dialogue,ran,0,0,0,,W-Why are you dressed like that?
+Dialogue: 0,0:30:26.05,0:30:27.57,Dialogue,shin,0,0,0,,Is something strange?
+Dialogue: 0,0:30:27.57,0:30:29.93,Dialogue,ran,0,0,0,,Well, you look like a prince...
+Dialogue: 0,0:30:30.75,0:30:32.64,Dialogue,shin,0,0,0,,A prince?
+Dialogue: 0,0:30:32.64,0:30:33.93,Dialogue,shin,0,0,0,,Are you playing a trick on me?
+Dialogue: 0,0:30:34.60,0:30:36.03,Dialogue,shin,0,0,0,,What a bad girl.
+Dialogue: 0,0:30:37.66,0:30:39.71,Dialogue,ran,0,0,0,,Come on, Shinichi! Let me down!
+Dialogue: 0,0:30:39.71,0:30:41.65,Dialogue,shin,0,0,0,,No, I won't.
+Dialogue: 0,0:30:52.08,0:30:55.06,Dialogue,ran,0,0,0,,What's this, all of sudden?
+Dialogue: 0,0:30:55.06,0:30:56.58,Dialogue,shin,0,0,0,,I have news for all of you!
+Dialogue: 0,0:30:57.84,0:31:01.46,Dialogue,shin,0,0,0,,I am taking Princess Ran as my bride today!
+Dialogue: 0,0:31:03.70,0:31:05.42,Dialogue,ran,0,0,0,,Shinichi...
+Dialogue: 0,0:31:07.65,0:31:11.60,Dialogue,shin,0,0,0,,I've already decided.
+Dialogue: 0,0:31:11.60,0:31:14.54,Dialogue,ran,0,0,0,,O-Oh my...
+Dialogue: 0,0:31:15.48,0:31:18.13,Dialogue,megure,0,0,0,,What's the princess doing?
+Dialogue: 0,0:31:18.13,0:31:19.06,Dialogue,takagi,0,0,0,,Who knows.
+Dialogue: 0,0:31:19.61,0:31:22.13,Dialogue,kogoro,0,0,0,,She must be admiring herself.
+Dialogue: 0,0:31:22.13,0:31:25.94,Dialogue,takagi,0,0,0,,This glass just shows her reflection on the other side.
+Dialogue: 0,0:31:26.70,0:31:29.04,Dialogue,ran,0,0,0,,But that's so sudden...
+Dialogue: 0,0:31:29.04,0:31:31.05,Dialogue,ran,0,0,0,,N-No, I don't hate it...
+Dialogue: 0,0:31:31.05,0:31:33.58,Dialogue,ran,0,0,0,,But, oh, this is too much!
+Dialogue: 0,0:31:34.42,0:31:36.89,Dialogue,voice,0,0,0,,HQ to all units. HQ to all units.
+Dialogue: 0,0:31:36.89,0:31:38.37,Dialogue,voice,0,0,0,,We've secured the target.
+Dialogue: 0,0:31:38.37,0:31:41.08,Dialogue,voice,0,0,0,,The target was secured at 19:53.
+Dialogue: 0,0:31:41.75,0:31:44.17,Dialogue,voice,0,0,0,,We are now returning to standard operational procedure.
+Dialogue: 0,0:31:44.77,0:31:47.09,Dialogue,fujiko,0,0,0,,Okay. Now, let's head out.
+Dialogue: 0,0:31:47.09,0:31:50.18,Dialogue,mira,0,0,0,,Who exactly are you?
+Dialogue: 0,0:31:51.58,0:31:54.85,Dialogue,fujiko,0,0,0,,Like I said, I'm Lady Long-Legs.
+Dialogue: 0,0:31:54.85,0:31:56.22,Dialogue,mira,0,0,0,,Are you making a fool of me?
+Dialogue: 0,0:31:56.22,0:31:58.53,Dialogue,fujiko,0,0,0,,What an unadventurous princess.
+Dialogue: 0,0:31:58.53,0:32:00.17,Dialogue,fujiko,0,0,0,,I could just leave you here.
+Dialogue: 0,0:32:00.17,0:32:01.69,Dialogue,fujiko,0,0,0,,Or would you rather go back to the hotel?
+Dialogue: 0,0:32:02.40,0:32:05.69,Dialogue,fujiko,0,0,0,,Wouldn't it be more fun to play with me till morning?
+Dialogue: 0,0:32:09.71,0:32:10.93,Dialogue,mira,0,0,0,,A transmitter?
+Dialogue: 0,0:32:10.93,0:32:13.87,Dialogue,fujiko,0,0,0,,Yes. It was on your choker.
+Dialogue: 0,0:32:14.92,0:32:16.17,Dialogue,mira,0,0,0,,Then...
+Dialogue: 0,0:32:16.17,0:32:18.08,Dialogue,fujiko,0,0,0,,They could locate you no matter where you went.
+Dialogue: 0,0:32:18.76,0:32:20.66,Dialogue,mira,0,0,0,,Keith must have set it!
+Dialogue: 0,0:32:20.66,0:32:22.58,Dialogue,fujiko,0,0,0,,That's fine then.
+Dialogue: 0,0:32:23.18,0:32:26.08,Dialogue,fujiko,0,0,0,,It could have been someone who...
+Dialogue: 0,0:32:26.08,0:32:27.73,Dialogue,fujiko,0,0,0,,was after you.
+Dialogue: 0,0:32:28.34,0:32:29.38,Dialogue,fujiko,0,0,0,,Hang on tight!
+Dialogue: 0,0:32:34.85,0:32:36.47,Dialogue,fujiko,0,0,0,,That's your enemy.
+Dialogue: 0,0:32:36.47,0:32:38.47,Dialogue,mira,0,0,0,,But I'm not wearing the choker anymore!
+Dialogue: 0,0:32:39.22,0:32:42.08,Dialogue,fujiko,0,0,0,,Maybe they watched you swap places at the park.
+Dialogue: 0,0:32:42.08,0:32:42.93,Dialogue,fujiko,0,0,0,,Just like I did.
+Dialogue: 0,0:32:44.14,0:32:44.76,Dialogue,fujiko,0,0,0,,It's tough to be–
+Dialogue: 0,0:32:44.76,0:32:46.10,Dialogue,mira,0,0,0,,Stop talking and let's just go!
+Dialogue: 0,0:32:46.10,0:32:47.70,Dialogue,fujiko,0,0,0,,Okay!
+Dialogue: 0,0:32:57.78,0:32:59.54,Dialogue,fujiko,0,0,0,,Let me use your restroom!
+Dialogue: 0,0:33:07.33,0:33:09.09,Dialogue,mira,0,0,0,,Hey, are you enjoying this?
+Dialogue: 0,0:33:09.09,0:33:10.96,Dialogue,fujiko,0,0,0,,Oh, you can tell?
+Dialogue: 0,0:33:11.52,0:33:12.61,Dialogue,fujiko,0,0,0,,Don't worry.
+Dialogue: 0,0:33:12.61,0:33:15.53,Dialogue,fujiko,0,0,0,,I'm not clumsy enough to get us caught while riding this.
+Dialogue: 0,0:33:15.53,0:33:17.62,Dialogue,mira,0,0,0,,What if they shoot at us?!
+Dialogue: 0,0:33:17.62,0:33:19.24,Dialogue,fujiko,0,0,0,,We're in Japan.
+Dialogue: 0,0:33:19.24,0:33:22.34,Dialogue,fujiko,0,0,0,,I'm sure they'd want to make this look like an accident.
+Dialogue: 0,0:33:23.40,0:33:26.11,Dialogue,fujiko,0,0,0,,Oh my, I guess we need to get serious.
+Dialogue: 0,0:33:30.31,0:33:31.69,Dialogue,fujiko,0,0,0,,If you want to be the bad guys...
+Dialogue: 0,0:33:53.02,0:33:55.26,Dialogue,mira,0,0,0,,D-Did you kill them?
+Dialogue: 0,0:33:55.26,0:33:56.43,Dialogue,fujiko,0,0,0,,Oh no.
+Dialogue: 0,0:33:56.43,0:33:58.68,Dialogue,fujiko,0,0,0,,I'm not that bad.
+Dialogue: 0,0:33:59.14,0:34:01.39,Dialogue,fujiko,0,0,0,,I don't screw up against amateurs.
+Dialogue: 0,0:34:01.39,0:34:03.19,Dialogue,mira,0,0,0,,Amateurs?
+Dialogue: 0,0:34:03.19,0:34:05.14,Dialogue,mira,0,0,0,,But they had a machine gun.
+Dialogue: 0,0:34:05.14,0:34:07.53,Dialogue,fujiko,0,0,0,,That doesn't mean anything.
+Dialogue: 0,0:34:07.53,0:34:11.34,Dialogue,fujiko,0,0,0,,Only using two cars for a chase, with just two men per car.
+Dialogue: 0,0:34:11.34,0:34:15.65,Dialogue,fujiko,0,0,0,,Shooting from the backseat at a moving target that's in front of you is a definite no-no.
+Dialogue: 0,0:34:16.37,0:34:19.15,Dialogue,fujiko,0,0,0,,And they missed while aiming for my tires.
+Dialogue: 0,0:34:19.15,0:34:22.37,Dialogue,fujiko,0,0,0,,They didn't even compensate their aim for nighttime.
+Dialogue: 0,0:34:22.84,0:34:25.81,Dialogue,fujiko,0,0,0,,They're just some hired guns.
+Dialogue: 0,0:34:26.62,0:34:27.50,Dialogue,mira,0,0,0,,Wow...
+Dialogue: 0,0:34:28.59,0:34:29.79,Dialogue,mira,0,0,0,,You're so cool!
+Dialogue: 0,0:34:38.88,0:34:41.10,Dialogue,fujiko,0,0,0,,Hey, is that your friend?
+Dialogue: 0,0:34:42.03,0:34:43.10,Dialogue,mira,0,0,0,,That boy!
+Dialogue: 0,0:34:53.26,0:34:54.94,Thoughts,fujiko,0,0,0,,{\be10}He anticipated me?
+Dialogue: 0,0:34:54.94,0:34:56.03,Thoughts,fujiko,0,0,0,,{\be10}I was outwitted?
+Dialogue: 0,0:34:56.99,0:34:58.28,Dialogue,fujiko,0,0,0,,We'll up the gears a bit.
+Dialogue: 0,0:35:19.31,0:35:20.14,Thoughts,shin,0,0,0,,{\be10}Gotta do it!
+Dialogue: 0,0:35:34.15,0:35:34.94,Dialogue,fujiko,0,0,0,,Oh!
+Dialogue: 0,0:35:34.94,0:35:36.19,Dialogue,fujiko,0,0,0,,Make way!
+Dialogue: 0,0:35:46.60,0:35:48.25,Dialogue,fujiko,0,0,0,,I'm so sorry.
+Dialogue: 0,0:35:48.25,0:35:50.17,Dialogue,fujiko,0,0,0,,Was that a little immature of me?
+Dialogue: 0,0:35:51.09,0:35:55.92,Dialogue,fujiko,0,0,0,,But you're at fault for making me get serious.
+Dialogue: 0,0:36:02.07,0:36:04.79,Thoughts,shin,0,0,0,,{\be10}Who... was that?
+Dialogue: 0,0:36:05.63,0:36:07.31,Thoughts,shin,0,0,0,,{\be10}She doesn't seem like an enemy.
+Dialogue: 0,0:36:15.12,0:36:17.44,Dialogue,kogoro,0,0,0,,Are you really... Ran?
+Dialogue: 0,0:36:18.89,0:36:21.82,Dialogue,ran,0,0,0,,Can't you even recognize your own daughter?
+Dialogue: 0,0:36:21.82,0:36:24.79,Dialogue,kogoro,0,0,0,,You do look a bit cleverer.
+Dialogue: 0,0:36:24.79,0:36:25.70,Dialogue,ran,0,0,0,,You want me to get mad?
+Dialogue: 0,0:36:27.69,0:36:33.77,Dialogue,megure,0,0,0,,So, Ran, the real princess told you that she'd return by the time the party ends?
+Dialogue: 0,0:36:33.77,0:36:34.68,Dialogue,ran,0,0,0,,Yes.
+Dialogue: 0,0:36:34.68,0:36:38.34,Dialogue,ran,0,0,0,,But I didn't know an incident like this happened at the party.
+Dialogue: 0,0:36:39.12,0:36:40.39,Dialogue,ran,0,0,0,,Had I known...
+Dialogue: 0,0:36:41.31,0:36:42.34,Dialogue,ran,0,0,0,,I'm sorry.
+Dialogue: 0,0:36:42.34,0:36:45.91,Dialogue,takagi,0,0,0,,No, you don't need to feel responsible at all.
+Dialogue: 0,0:36:45.91,0:36:46.85,Dialogue,takagi,0,0,0,,It's all...
+Dialogue: 0,0:36:48.18,0:36:49.66,Dialogue,keith,0,0,0,,I see.
+Dialogue: 0,0:36:49.66,0:36:51.35,Dialogue,keith,0,0,0,,Please.
+Dialogue: 0,0:36:51.87,0:36:53.21,Dialogue,megure,0,0,0,,Mr. Keith,
+Dialogue: 0,0:36:53.21,0:36:57.77,Dialogue,megure,0,0,0,,as you must have heard earlier, we're resuming our search for the princess.
+Dialogue: 0,0:36:57.77,0:36:59.56,Dialogue,keith,0,0,0,,There's no need for that.
+Dialogue: 0,0:37:00.65,0:37:02.14,Dialogue,takagi,0,0,0,,Don't be ridiculous again!
+Dialogue: 0,0:37:02.14,0:37:03.49,Dialogue,takagi,0,0,0,,Listen here!
+Dialogue: 0,0:37:04.22,0:37:07.49,Dialogue,megure,0,0,0,,Tell us why you think it's unnecessary.
+Dialogue: 0,0:37:08.16,0:37:09.50,Dialogue,keith,0,0,0,,Search?
+Dialogue: 0,0:37:10.03,0:37:13.12,Dialogue,keith,0,0,0,,Just who do you intend to find?
+Dialogue: 0,0:37:19.92,0:37:21.93,Dialogue,conan,0,0,0,,Sonoko!
+Dialogue: 0,0:37:22.36,0:37:25.00,Dialogue,sonoko,0,0,0,,J-Jeez! Give me a break!
+Dialogue: 0,0:37:25.00,0:37:26.88,Dialogue,sonoko,0,0,0,,Where have you been? I've been looking for you!
+Dialogue: 0,0:37:26.88,0:37:28.98,Dialogue,conan,0,0,0,,I'm sorry. I got lost.
+Dialogue: 0,0:37:28.98,0:37:31.39,Dialogue,sonoko,0,0,0,,Got lost my ass!
+Dialogue: 0,0:37:31.39,0:37:34.31,Dialogue,sonoko,0,0,0,,You always bring back trouble when you do that!
+Dialogue: 0,0:37:34.31,0:37:38.82,Dialogue,conan,0,0,0,,Say, has Ra—I mean, the princess, returned yet?
+Dialogue: 0,0:37:39.24,0:37:41.45,Dialogue,sonoko,0,0,0,,Well...
+Dialogue: 0,0:37:41.45,0:37:43.93,Dialogue,sonoko,0,0,0,,The princess is probably upstairs.
+Dialogue: 0,0:37:43.93,0:37:45.74,Dialogue,sonoko,0,0,0,,She was with Inspector Megure earlier.
+Dialogue: 0,0:37:46.24,0:37:46.68,Dialogue,conan,0,0,0,,Let's go!
+Dialogue: 0,0:37:46.68,0:37:48.15,Dialogue,sonoko,0,0,0,,Wh-Wha—Hey!
+Dialogue: 0,0:37:49.84,0:37:51.87,Dialogue,kogoro,0,0,0,,Do you realize what you're saying?
+Dialogue: 0,0:37:52.50,0:37:56.58,Dialogue,keith,0,0,0,,If someone from this country abducted the princess,
+Dialogue: 0,0:37:56.58,0:37:59.88,Dialogue,keith,0,0,0,,what would happen to Japan–Vespania relations?
+Dialogue: 0,0:38:00.96,0:38:02.60,Dialogue,takagi,0,0,0,,That really makes me angry!
+Dialogue: 0,0:38:02.60,0:38:04.44,Dialogue,takagi,0,0,0,,You're thinking about using her as a substitute?!
+Dialogue: 0,0:38:04.44,0:38:06.65,Dialogue,megure,0,0,0,,I cannot allow that.
+Dialogue: 0,0:38:06.65,0:38:08.72,Dialogue,megure,0,0,0,,Ran is only an ordinary citizen.
+Dialogue: 0,0:38:09.74,0:38:13.85,Dialogue,megure,0,0,0,,We will not allow you to involve her in something that would endanger her life!
+Dialogue: 0,0:38:14.59,0:38:17.04,Dialogue,kogoro,0,0,0,,Go get changed, Ran. We're going.
+Dialogue: 0,0:38:17.04,0:38:19.32,Dialogue,ran,0,0,0,,U-Um, I...
+Dialogue: 0,0:38:19.98,0:38:23.07,Dialogue,ran,0,0,0,,I could do this until the princess comes back.
+Dialogue: 0,0:38:23.47,0:38:24.86,Dialogue,kogoro,0,0,0,,Stop talking crazy!
+Dialogue: 0,0:38:24.86,0:38:26.30,Dialogue,takagi,0,0,0,,Yeah!
+Dialogue: 0,0:38:26.30,0:38:28.42,Dialogue,takagi,0,0,0,,What if the princess never comes back?
+Dialogue: 0,0:38:28.42,0:38:29.63,Dialogue,megure,0,0,0,,That's right, Ran.
+Dialogue: 0,0:38:29.63,0:38:32.61,Dialogue,megure,0,0,0,,As we told you earlier, you don't need to feel responsible.
+Dialogue: 0,0:38:32.61,0:38:33.91,Dialogue,keith,0,0,0,,We'll be protecting Her Highness.
+Dialogue: 0,0:38:47.08,0:38:50.68,Dialogue,keith,0,0,0,,Please observe appropriate diplomatic protocol from this point onwards.
+Dialogue: 0,0:39:02.41,0:39:07.66,Dialogue,kogoro,0,0,0,,Inspector Megure, I'd like to request a search for Ran.
+Dialogue: 0,0:39:10.32,0:39:11.62,Dialogue,sonoko,0,0,0,,U-Um...
+Dialogue: 0,0:39:11.62,0:39:12.88,Dialogue,megure,0,0,0,,Understood!
+Dialogue: 0,0:39:12.88,0:39:14.20,Dialogue,takagi,0,0,0,,We'll get on it right away!
+Dialogue: 0,0:39:14.20,0:39:17.50,Dialogue,sonoko,0,0,0,,I have no idea what's going on at all!
+Dialogue: 0,0:39:19.96,0:39:21.83,Dialogue,keith,0,0,0,,I'll have another room ready.
+Dialogue: 0,0:39:21.83,0:39:23.32,Dialogue,keith,0,0,0,,Watch Her Highness till then.
+Dialogue: 0,0:39:23.32,0:39:23.71,Dialogue,kyle,0,0,0,,Yes, sir.
+Dialogue: 0,0:39:34.27,0:39:36.76,Thoughts,ran,0,0,0,,{\be10}Oh gosh, that's him.
+Dialogue: 0,0:39:38.37,0:39:40.23,Dialogue,ran,0,0,0,,E-Excuse me...
+Dialogue: 0,0:39:40.88,0:39:45.81,Dialogue,ran,0,0,0,,I didn't know you were the princess' bodyguard...
+Dialogue: 0,0:39:45.81,0:39:48.78,Dialogue,ran,0,0,0,,Um, I'm sorry for that!
+Dialogue: 0,0:39:50.05,0:39:51.94,Dialogue,kyle,0,0,0,,You don't need to apologize.
+Dialogue: 0,0:39:51.94,0:39:56.41,Dialogue,kyle,0,0,0,,My carelessness lead to this situation.
+Dialogue: 0,0:39:57.18,0:39:58.89,Dialogue,kyle,0,0,0,,I'm the one who has to apologize.
+Dialogue: 0,0:39:58.89,0:40:00.82,Dialogue,ran,0,0,0,,N-No, not at all!
+Dialogue: 0,0:40:04.25,0:40:09.32,Dialogue,ran,0,0,0,,I think that's when...
+Dialogue: 0,0:40:10.08,0:40:11.70,Dialogue,ran,0,0,0,,your button came off.
+Dialogue: 0,0:40:24.67,0:40:28.38,Dialogue,lupin,0,0,0,,Around six months ago, a tectonic deformation took place nearby.
+Dialogue: 0,0:40:37.56,0:40:38.92,Dialogue,lupin,0,0,0,,Well, whatever.
+Dialogue: 0,0:40:38.92,0:40:40.99,Dialogue,lupin,0,0,0,,Anyway, what they discovered here was...
+Dialogue: 0,0:40:42.83,0:40:44.67,Dialogue,lupin,0,0,0,,an unknown ore.
+Dialogue: 0,0:40:49.32,0:40:51.42,Dialogue,lupin,0,0,0,,Vesparite.
+Dialogue: 0,0:40:53.37,0:40:55.27,Dialogue,jigen,0,0,0,,Is that the whole thing?
+Dialogue: 0,0:40:55.27,0:40:55.84,Dialogue,lupin,0,0,0,,No.
+Dialogue: 0,0:40:55.84,0:41:01.02,Dialogue,lupin,0,0,0,,They found it here, but only by coincidence.
+Dialogue: 0,0:41:01.02,0:41:01.81,Dialogue,jigen,0,0,0,,By coincidence?
+Dialogue: 0,0:41:02.53,0:41:05.54,Dialogue,jigen,0,0,0,,What kind of power does this stone have?
+Dialogue: 0,0:41:05.54,0:41:06.85,Dialogue,lupin,0,0,0,,Wanna know?
+Dialogue: 0,0:41:08.15,0:41:11.40,Dialogue,lupin,0,0,0,,In terms simple enough for our aging brains,
+Dialogue: 0,0:41:11.40,0:41:13.49,Dialogue,lupin,0,0,0,,it's the ultimate in stealth.
+Dialogue: 0,0:41:13.86,0:41:15.29,Dialogue,jigen,0,0,0,,Stealth?
+Dialogue: 0,0:41:15.29,0:41:20.20,Dialogue,lupin,0,0,0,,You've heard of fighter jets that don't appear on radar, right?
+Dialogue: 0,0:41:20.68,0:41:24.46,Dialogue,lupin,0,0,0,,This stuff can perfect that sort of stealth.
+Dialogue: 0,0:41:24.97,0:41:28.79,Dialogue,lupin,0,0,0,,Ferrite-based radio wave absorbing materials have been improving by the day,
+Dialogue: 0,0:41:28.79,0:41:33.47,Dialogue,lupin,0,0,0,,but they only account for early detection and can't provide total stealth.
+Dialogue: 0,0:41:33.92,0:41:37.51,Dialogue,jigen,0,0,0,,So using this, you can completely disappear?
+Dialogue: 0,0:41:37.51,0:41:38.97,Dialogue,lupin,0,0,0,,That's right.
+Dialogue: 0,0:41:39.42,0:41:42.53,Dialogue,lupin,0,0,0,,It looks like they've been using lots of scanning devices,
+Dialogue: 0,0:41:42.53,0:41:44.48,Dialogue,lupin,0,0,0,,but they're up against a tough one.
+Dialogue: 0,0:41:45.19,0:41:48.96,Dialogue,lupin,0,0,0,,Vesparite won't even show up on these.
+Dialogue: 0,0:41:48.96,0:41:50.44,Dialogue,jigen,0,0,0,,I see.
+Dialogue: 0,0:41:50.44,0:41:55.49,Dialogue,jigen,0,0,0,,So just how do you plan on finding this elusive stone?
+Dialogue: 0,0:41:59.06,0:42:00.90,Dialogue,lupin,0,0,0,,Dowsing.
+Dialogue: 0,0:42:00.90,0:42:01.99,Dialogue,jigen,0,0,0,,Oh, man.
+Dialogue: 0,0:42:01.99,0:42:03.41,Dialogue,jigen,0,0,0,,Have you even tried that before?
+Dialogue: 0,0:42:04.06,0:42:04.83,Dialogue,lupin,0,0,0,,Nope.
+Dialogue: 0,0:42:08.93,0:42:12.89,Dialogue,lupin,0,0,0,,The things I believe in are Fujiko and dowsing.
+Dialogue: 0,0:42:12.89,0:42:13.88,Dialogue,jigen,0,0,0,,Idiot!
+Dialogue: 0,0:42:19.02,0:42:20.43,Dialogue,mira,0,0,0,,Yeah!
+Dialogue: 0,0:42:23.14,0:42:25.56,Dialogue,mira,0,0,0,,Go! Go! Go!
+Dialogue: 0,0:42:25.56,0:42:27.45,Dialogue,mira,0,0,0,,Yeah!
+Dialogue: 0,0:42:28.36,0:42:29.24,Dialogue,mira,0,0,0,,Hey!
+Dialogue: 0,0:42:29.24,0:42:31.35,Dialogue,mira,0,0,0,,I had one! I had one!
+Dialogue: 0,0:42:36.31,0:42:38.32,Dialogue,mira,0,0,0,,You're always keeping watch.
+Dialogue: 0,0:42:39.04,0:42:42.87,Dialogue,fujiko,0,0,0,,A person generally would, after abducting a princess.
+Dialogue: 0,0:42:44.29,0:42:46.39,Dialogue,mira,0,0,0,,Yum!
+Dialogue: 0,0:42:46.39,0:42:48.99,Dialogue,fujiko,0,0,0,,Can't you act more like a hostage?
+Dialogue: 0,0:42:48.99,0:42:50.28,Dialogue,mira,0,0,0,,Okay.
+Dialogue: 0,0:42:50.28,0:42:52.71,Dialogue,fujiko,0,0,0,,Don't put a plate back after you've used it.
+Dialogue: 0,0:42:53.28,0:42:57.54,Dialogue,mira,0,0,0,,I don't know what you're after, but you're not a bad person.
+Dialogue: 0,0:42:58.96,0:43:01.36,Dialogue,mira,0,0,0,,Or are you going to tell me...
+Dialogue: 0,0:43:02.66,0:43:05.65,Dialogue,mira,0,0,0,,what Lady Long-Legs is really after?
+Dialogue: 0,0:43:07.52,0:43:08.72,Dialogue,mira,0,0,0,,See, that shut you up.
+Dialogue: 0,0:43:08.72,0:43:11.77,Dialogue,mira,0,0,0,,But I've already decided to trust...
+Dialogue: 0,0:43:12.48,0:43:15.99,Dialogue,mira,0,0,0,,you and my instinct.
+Dialogue: 0,0:43:19.50,0:43:21.53,Dialogue,fujiko,0,0,0,,You have rice stuck on you.
+Dialogue: 0,0:43:22.68,0:43:25.00,Dialogue,fujiko,0,0,0,,I told you not to put the plates back.
+Dialogue: 0,0:43:26.16,0:43:27.75,Dialogue,megure,0,0,0,,What do you mean?!
+Dialogue: 0,0:43:27.75,0:43:30.46,Dialogue,megure,0,0,0,,No, I'm not satisfied with that!
+Dialogue: 0,0:43:31.16,0:43:32.47,Dialogue,megure,0,0,0,,Yes.
+Dialogue: 0,0:43:32.47,0:43:34.74,Dialogue,megure,0,0,0,,Yes, okay.
+Dialogue: 0,0:43:35.31,0:43:37.59,Dialogue,megure,0,0,0,,I'm going over to talk with HQ again.
+Dialogue: 0,0:43:37.59,0:43:38.93,Dialogue,megure,0,0,0,,Stay here.
+Dialogue: 0,0:43:38.93,0:43:40.47,Dialogue,takagi,0,0,0,,Have they put pressure on HQ?
+Dialogue: 0,0:43:40.94,0:43:42.41,Dialogue,megure,0,0,0,,Most likely.
+Dialogue: 0,0:43:42.41,0:43:45.49,Dialogue,megure,0,0,0,,Don't make any hasty moves till I return.
+Dialogue: 0,0:43:45.49,0:43:46.76,Dialogue,takagi,0,0,0,,Understood.
+Dialogue: 0,0:43:48.35,0:43:51.55,Dialogue,sonoko,0,0,0,,Hey! You better catch that selfish princess, or Ran's—
+Dialogue: 0,0:43:51.55,0:43:53.60,Dialogue,takagi,0,0,0,,We know that!
+Dialogue: 0,0:43:53.60,0:43:56.72,Dialogue,sonoko,0,0,0,,Then why hasn't the search request been accepted?
+Dialogue: 0,0:43:56.72,0:43:57.96,Dialogue,takagi,0,0,0,,That's...
+Dialogue: 0,0:43:57.96,0:43:59.53,Dialogue,takagi,0,0,0,,How do you know that?!
+Dialogue: 0,0:43:59.53,0:44:03.03,Dialogue,sonoko,0,0,0,,Anyone could tell by your reactions!
+Dialogue: 0,0:44:03.77,0:44:05.17,Thoughts,shin,0,0,0,,{\be10}But why?
+Dialogue: 0,0:44:05.17,0:44:07.31,Thoughts,shin,0,0,0,,{\be10}Why would they be trying to stop us?
+Dialogue: 0,0:44:08.19,0:44:12.29,Thoughts,shin,0,0,0,,{\be10}Would it benefit them to have Ran act as the princess?
+Dialogue: 0,0:44:13.15,0:44:14.50,Dialogue,kogoro,0,0,0,,Takagi...
+Dialogue: 0,0:44:15.04,0:44:18.88,Dialogue,kogoro,0,0,0,,If I need you, will you lend me your help?
+Dialogue: 0,0:44:19.55,0:44:20.96,Dialogue,takagi,0,0,0,,Of course.
+Dialogue: 0,0:44:20.96,0:44:22.89,Dialogue,sonoko,0,0,0,,You'll bet your life?
+Dialogue: 0,0:44:22.89,0:44:24.18,Dialogue,takagi,0,0,0,,Y-Yes, of course!
+Dialogue: 0,0:44:26.43,0:44:28.41,Dialogue,lupin,0,0,0,,Here we go!
+Dialogue: 0,0:44:29.40,0:44:30.18,Dialogue,lupin,0,0,0,,Right here!
+Dialogue: 0,0:44:34.45,0:44:37.78,Dialogue,lupin,0,0,0,,You're the one, eh? I so wanted to see you!{He's using a pickup line}
+Dialogue: 0,0:44:39.01,0:44:40.23,Dialogue,jigen,0,0,0,,Have you found it?
+Dialogue: 0,0:44:40.23,0:44:42.41,Dialogue,lupin,0,0,0,,Yeah, it's one hot babe.
+Dialogue: 0,0:44:42.41,0:44:44.22,Dialogue,jigen,0,0,0,,H-Hey!
+Dialogue: 0,0:44:46.49,0:44:49.66,Dialogue,jigen,0,0,0,,This piece of stone will change the world?
+Dialogue: 0,0:44:51.53,0:44:52.58,Dialogue,lupin,0,0,0,,Get this...
+Dialogue: 0,0:44:53.74,0:44:58.91,Dialogue,lupin,0,0,0,,What if a missile equipped with that emerged above your head?
+Dialogue: 0,0:45:01.02,0:45:03.71,Dialogue,lupin,0,0,0,,You'd never know where it came from.
+Dialogue: 0,0:45:03.71,0:45:06.97,Dialogue,lupin,0,0,0,,No, you wouldn't even know you were hit.
+Dialogue: 0,0:45:07.70,0:45:11.09,Dialogue,jigen,0,0,0,,The world's still doing that kind of stuff?
+Dialogue: 0,0:45:11.09,0:45:13.27,Dialogue,jigen,0,0,0,,It never ends.
+Dialogue: 0,0:45:13.27,0:45:16.40,Dialogue,lupin,0,0,0,,We're in an era where you're being peeped at from outer space.
+Dialogue: 0,0:45:17.00,0:45:20.63,Dialogue,lupin,0,0,0,,You can't blame people for wanting to hide from all these towns full of cameras.
+Dialogue: 0,0:45:20.63,0:45:22.44,Dialogue,jigen,0,0,0,,Guilty men do.
+Dialogue: 0,0:45:22.44,0:45:24.03,Dialogue,lupin,0,0,0,,Should a thief be saying that?
+Dialogue: 0,0:45:24.65,0:45:28.82,Dialogue,lupin,0,0,0,,I'm glad this stone wasn't unearthed in some nasty country.
+Dialogue: 0,0:45:28.82,0:45:31.96,Dialogue,lupin,0,0,0,,Vespania's only got nature and peace—
+Dialogue: 0,0:45:33.40,0:45:36.25,Dialogue,lupin,0,0,0,,What's with that Oh crap! yell?
+Dialogue: 0,0:45:37.86,0:45:40.75,Dialogue,lupin,0,0,0,,Why are you hiding your face now?
+Dialogue: 0,0:45:45.15,0:45:46.17,Dialogue,jigen,0,0,0,,Good hit!
+Dialogue: 0,0:45:46.17,0:45:48.17,Dialogue,lupin,0,0,0,,Why are you so satisfied?
+Dialogue: 0,0:45:48.17,0:45:49.17,Dialogue,jigen,0,0,0,,Let's run!
+Dialogue: 0,0:45:50.21,0:45:52.15,Dialogue,lupin,0,0,0,,But that's the wrong way!
+Dialogue: 0,0:45:52.15,0:45:54.21,Dialogue,lupin,0,0,0,,Our other car is that way!
+Dialogue: 0,0:45:54.21,0:45:57.74,Dialogue,jigen,0,0,0,,I taught them to expect two or more getaway cars!
+Dialogue: 0,0:45:57.74,0:45:58.73,Dialogue,lupin,0,0,0,,Taught who?
+Dialogue: 0,0:46:04.08,0:46:05.86,Dialogue,lupin,0,0,0,,My little SSK...
+Dialogue: 0,0:46:05.86,0:46:09.21,Dialogue,lupin,0,0,0,,Hey! Explain this in five words!
+Dialogue: 0,0:46:09.21,0:46:11.75,Dialogue,jigen,0,0,0,,I coached this country's guards!
+Dialogue: 0,0:46:11.75,0:46:13.14,Dialogue,guards,0,0,0,,Let's go!
+Dialogue: 0,0:46:14.59,0:46:17.34,Dialogue,jigen,0,0,0,,First: target them as they emerge with their treasure!
+Dialogue: 0,0:46:17.34,0:46:19.25,Dialogue,jigen,0,0,0,,Second: don't let them get away!
+Dialogue: 0,0:46:19.25,0:46:21.46,Dialogue,guard,0,0,0,,Third: corner them immediately!
+Dialogue: 0,0:46:21.46,0:46:22.61,Dialogue,guard,0,0,0,,Don't hold back!
+Dialogue: 0,0:46:22.61,0:46:24.99,Dialogue,guard,0,0,0,,It's time to put Master Jigen's teaching into practice!
+Dialogue: 0,0:46:24.99,0:46:25.72,Dialogue,guard,0,0,0,,Roger!
+Dialogue: 0,0:46:26.76,0:46:28.94,Dialogue,lupin,0,0,0,,Don't shoot those at us!
+Dialogue: 0,0:46:28.94,0:46:30.39,Dialogue,lupin,0,0,0,,Man!
+Dialogue: 0,0:46:32.36,0:46:34.96,Dialogue,lupin,0,0,0,,Don't tell me you told them about the helicopter!
+Dialogue: 0,0:46:38.27,0:46:43.44,Dialogue,guard,0,0,0,,Remember to watch out for a chopper with a TV station logo!
+Dialogue: 0,0:46:43.44,0:46:45.89,Dialogue,guard,0,0,0,,One identified! 200 meters below!
+Dialogue: 0,0:46:45.89,0:46:48.72,Dialogue,guard,0,0,0,,And it has a TV station logo!
+Dialogue: 0,0:46:50.28,0:46:51.82,Dialogue,lupin,0,0,0,,The chopper is our last resort!
+Dialogue: 0,0:46:51.82,0:46:53.23,Dialogue,lupin,0,0,0,,What're we gonna do?
+Dialogue: 0,0:46:53.23,0:46:54.27,Dialogue,jigen,0,0,0,,Run for it!
+Dialogue: 0,0:46:54.27,0:46:56.61,Dialogue,lupin,0,0,0,,Best of luck, Mr. Coach!
+Dialogue: 0,0:46:56.61,0:46:58.63,Dialogue,jigen,0,0,0,,An economic downturn won't defeat me!
+Dialogue: 0,0:47:01.44,0:47:05.39,Dialogue,jigen,0,0,0,,You don't need to check whether the culprit's chopper is chartered or not.
+Dialogue: 0,0:47:05.39,0:47:07.32,Dialogue,jigen,0,0,0,,Just shoot it down first.
+Dialogue: 0,0:47:07.32,0:47:09.09,Dialogue,jigen,0,0,0,,If you're wrong, you're wrong.
+Dialogue: 0,0:47:09.97,0:47:11.19,Dialogue,guard,0,0,0,,This is great!
+Dialogue: 0,0:47:11.19,0:47:12.10,Dialogue,guard,0,0,0,,A veteran's knowledge...
+Dialogue: 0,0:47:13.27,0:47:16.35,Dialogue,jigen,0,0,0,,That's the hard-boiled world.
+Dialogue: 0,0:47:25.74,0:47:28.69,Dialogue,lupin,0,0,0,,The heck with hard-boiled!
+Dialogue: 0,0:47:29.37,0:47:31.95,Dialogue,ran,0,0,0,,A press conference at Haneda Airport?
+Dialogue: 0,0:47:32.43,0:47:33.39,Dialogue,keith,0,0,0,,Yes.
+Dialogue: 0,0:47:33.39,0:47:35.84,Dialogue,keith,0,0,0,,It will begin at 10 o'clock tomorrow morning.
+Dialogue: 0,0:47:35.84,0:47:38.96,Dialogue,keith,0,0,0,,We shall then fly straight to Vespania afterwards.
+Dialogue: 0,0:47:38.96,0:47:41.07,Dialogue,ran,0,0,0,,Fly?!
+Dialogue: 0,0:47:41.07,0:47:42.66,Dialogue,ran,0,0,0,,I can't!
+Dialogue: 0,0:47:42.66,0:47:46.24,Dialogue,ran,0,0,0,,And I wouldn't know what to say at the press conference.
+Dialogue: 0,0:47:46.24,0:47:48.14,Dialogue,keith,0,0,0,,There's no need to worry.
+Dialogue: 0,0:47:48.14,0:47:49.72,Dialogue,keith,0,0,0,,I'll be doing all the talking.
+Dialogue: 0,0:47:50.09,0:47:53.59,Dialogue,keith,0,0,0,,Also, the real princess will be the one flying out.
+Dialogue: 0,0:47:55.22,0:47:57.77,Dialogue,ran,0,0,0,,Oh, so the princess is safe?
+Dialogue: 0,0:47:58.29,0:48:03.25,Dialogue,ran,0,0,0,,Then, Her Highness can attend the press conference, and not me.
+Dialogue: 0,0:48:03.25,0:48:07.70,Dialogue,keith,0,0,0,,The purpose of tomorrow's press conference is to announce that you were a fake;
+Dialogue: 0,0:48:08.94,0:48:12.41,Dialogue,keith,0,0,0,,that the princess had gone missing in Japan,
+Dialogue: 0,0:48:12.41,0:48:16.20,Dialogue,keith,0,0,0,,and the existence of an exact lookalike.
+Dialogue: 0,0:48:16.76,0:48:18.65,Dialogue,keith,0,0,0,,That's what we'll announce to the public.
+Dialogue: 0,0:48:19.59,0:48:21.41,Dialogue,keith,0,0,0,,I know this is of great inconvenience to you,
+Dialogue: 0,0:48:22.24,0:48:27.73,Dialogue,keith,0,0,0,,but will you assist us until we find those who are after the princess?
+Dialogue: 0,0:48:33.74,0:48:35.88,Dialogue,fujiko,0,0,0,,So, are you satisfied?
+Dialogue: 0,0:48:35.88,0:48:37.72,Dialogue,mira,0,0,0,,It was the best!
+Dialogue: 0,0:48:37.72,0:48:40.39,Dialogue,mira,0,0,0,,I've never had such freedom.
+Dialogue: 0,0:48:41.20,0:48:43.01,Dialogue,mira,0,0,0,,Where are we going today?
+Dialogue: 0,0:48:43.01,0:48:46.14,Dialogue,fujiko,0,0,0,,Well, wherever you're supposed to go.
+Dialogue: 0,0:48:47.87,0:48:49.86,Dialogue,mira,0,0,0,,No. I'm not going back.
+Dialogue: 0,0:48:50.50,0:48:53.46,Dialogue,fujiko,0,0,0,,Oh, did I say anything about going back?
+Dialogue: 0,0:48:53.46,0:48:55.99,Dialogue,fujiko,0,0,0,,So, that's where you're supposed to be after all.
+Dialogue: 0,0:48:55.99,0:48:57.80,Dialogue,mira,0,0,0,,I-It's not!
+Dialogue: 0,0:48:57.80,0:49:02.30,Dialogue,fujiko,0,0,0,,Did you find any place here that you felt you belonged to?
+Dialogue: 0,0:49:02.30,0:49:04.79,Dialogue,fujiko,0,0,0,,Is there anything you can do in this country?
+Dialogue: 0,0:49:07.18,0:49:08.29,Dialogue,fujiko,0,0,0,,Do you want to find out...
+Dialogue: 0,0:49:11.71,0:49:13.92,Dialogue,fujiko,0,0,0,,what only you can do?
+Dialogue: 0,0:49:23.59,0:49:27.65,Dialogue,kogoro,0,0,0,,Remember, we'll take Ran back as soon as the press conference starts.
+Dialogue: 0,0:49:27.65,0:49:28.58,Dialogue,takagi,0,0,0,,Yes!
+Dialogue: 0,0:49:28.58,0:49:29.90,Dialogue,takagi,0,0,0,,I've even prepared my letter of resignation!
+Dialogue: 0,0:49:30.31,0:49:32.90,Thoughts,shin,0,0,0,,{\be10}I don't know if just a resignation is gonna cut it.
+Dialogue: 0,0:49:35.96,0:49:38.34,Dialogue,keith,0,0,0,,You only need to sit there.
+Dialogue: 0,0:49:38.34,0:49:39.41,Dialogue,keith,0,0,0,,Please remain calm.
+Dialogue: 0,0:49:39.41,0:49:41.60,Dialogue,ran,0,0,0,,Yeah.
+Dialogue: 0,0:49:41.60,0:49:43.72,Dialogue,ran,0,0,0,,But, even if it's fake...
+Dialogue: 0,0:49:43.72,0:49:48.75,Dialogue,ran,0,0,0,,it's my first... press conference...
+Dialogue: 0,0:49:56.30,0:49:58.86,Dialogue,kyle,0,0,0,,The flight is ready.
+Dialogue: 0,0:49:58.86,0:50:01.40,Dialogue,keith,0,0,0,,As expected from a girl who managed to knock you out.
+Dialogue: 0,0:50:02.24,0:50:03.39,Dialogue,keith,0,0,0,,It took a while to take effect.
+Dialogue: 0,0:50:04.12,0:50:05.40,Dialogue,keith,0,0,0,,Take her away.
+Dialogue: 0,0:50:05.40,0:50:06.89,Dialogue,keith,0,0,0,,We're taking off immediately.
+Dialogue: 0,0:50:06.89,0:50:08.28,Dialogue,ppl,0,0,0,,Now?
+Dialogue: 0,0:50:08.28,0:50:09.39,Dialogue,ppl,0,0,0,,What's going on?!
+Dialogue: 0,0:50:10.48,0:50:14.74,Dialogue,ppl,0,0,0,,The princess is unable to attend the conference due to a last-minute emergency back home.
+Dialogue: 0,0:50:14.74,0:50:15.73,Dialogue,ppl,0,0,0,,Please quiet down!
+Dialogue: 0,0:50:16.95,0:50:19.40,Dialogue,kogoro,0,0,0,,Where are they now?!
+Dialogue: 0,0:50:19.40,0:50:21.41,Dialogue,ppl,0,0,0,,They're about to take off!
+Dialogue: 0,0:50:22.04,0:50:23.79,Dialogue,kogoro,0,0,0,,What?!
+Dialogue: 0,0:50:36.51,0:50:37.51,Thoughts,shin,0,0,0,,{\be10}Damn!
+Dialogue: 0,0:50:53.62,0:50:57.65,Dialogue,fc,0,0,0,,Royal Flight B-1027, you are cleared for takeoff.
+Dialogue: 0,0:50:58.26,0:50:59.37,Dialogue,fc,0,0,0,,Good luck.
+Dialogue: 0,0:50:59.37,0:51:01.41,Dialogue,pilot,0,0,0,,Thank you, flight control.
+Dialogue: 0,0:51:01.41,0:51:03.03,Dialogue,pilot,0,0,0,,Your cooperation is appreciated.
+Dialogue: 0,0:51:14.60,0:51:15.80,Dialogue,pilot,0,0,0,,Gear up.
+Dialogue: 0,0:51:15.80,0:51:17.09,Dialogue,pilot,0,0,0,,Retracting gears.
+Dialogue: 0,0:51:31.97,0:51:32.73,Dialogue,kogoro,0,0,0,,Ran!
+Dialogue: 0,0:51:34.41,0:51:35.73,Dialogue,takagi,0,0,0,,Mr. Mouri...
+Dialogue: 0,0:51:37.55,0:51:39.15,Dialogue,megure,0,0,0,,There you are.
+Dialogue: 0,0:51:39.64,0:51:41.45,Dialogue,megure,0,0,0,,You'll be leaving right away, Mouri.
+Dialogue: 0,0:51:41.45,0:51:43.91,Dialogue,takagi,0,0,0,,We're going after them?!
+Dialogue: 0,0:51:43.91,0:51:45.65,Dialogue,megure,0,0,0,,Not us.
+Dialogue: 0,0:51:45.65,0:51:49.41,Dialogue,megure,0,0,0,,You're the only one who'll be going, Mouri.
+Dialogue: 0,0:51:49.41,0:51:51.79,Dialogue,takagi,0,0,0,,What do you mean?
+Dialogue: 0,0:51:52.58,0:51:54.92,Dialogue,megure,0,0,0,,Allow me to introduce my old friend...
+Dialogue: 0,0:51:55.62,0:51:58.59,Dialogue,megure,0,0,0,,Inspector Zenigata of the ICPO.
+Dialogue: 0,0:51:58.59,0:51:59.67,Dialogue,zenigata,0,0,0,,Hello.
+Dialogue: 0,0:52:00.85,0:52:04.68,Dialogue,zenigata,0,0,0,,So you're the renowned detective, Mouri Kogorou?
+Dialogue: 0,0:52:04.68,0:52:06.18,Dialogue,kogoro,0,0,0,,Y-Yes.
+Dialogue: 0,0:52:07.04,0:52:12.68,Dialogue,megure,0,0,0,,Inspector Zenigata holds jurisdiction in all countries for one particular case:
+Dialogue: 0,0:52:12.68,0:52:16.15,Dialogue,megure,0,0,0,,the apprehension of Lupin the 3rd.
+Dialogue: 0,0:52:17.10,0:52:19.19,Dialogue,zenigata,0,0,0,,I've heard your story.
+Dialogue: 0,0:52:19.19,0:52:23.91,Dialogue,zenigata,0,0,0,,I'll take you to Vespania as my assistant.
+Dialogue: 0,0:52:25.24,0:52:26.38,Dialogue,kogoro,0,0,0,,Thank you!
+Dialogue: 0,0:52:26.38,0:52:27.91,Dialogue,takagi,0,0,0,,That's great!
+Dialogue: 0,0:52:29.05,0:52:32.12,Dialogue,takagi,0,0,0,,I'm transferring my hopes onto your fists!
+Dialogue: 0,0:52:32.12,0:52:34.46,Dialogue,takagi,0,0,0,,Give that guy a good wallop!
+Dialogue: 0,0:52:34.46,0:52:36.92,Dialogue,kogoro,0,0,0,,Yeah! Leave it to me!
+Dialogue: 0,0:52:36.92,0:52:40.55,Dialogue,takagi,0,0,0,,Here, use the letter of resignation I wrote.
+Dialogue: 0,0:52:41.12,0:52:43.47,Dialogue,kogoro,0,0,0,,Who am I supposed to give this to?
+Dialogue: 0,0:52:49.91,0:52:51.47,Dialogue,fujiko,0,0,0,,Thanks for letting me borrow this!
+Dialogue: 0,0:52:51.47,0:52:54.23,Dialogue,man,0,0,0,,Yeah! I love you, Fujiko!
+Dialogue: 0,0:52:57.54,0:53:00.46,Dialogue,mira,0,0,0,,Hey, seriously, who are you?
+Dialogue: 0,0:53:00.46,0:53:01.78,Dialogue,mira,0,0,0,,CIA?
+Dialogue: 0,0:53:01.78,0:53:03.00,Dialogue,mira,0,0,0,,FBI?
+Dialogue: 0,0:53:03.00,0:53:04.19,Dialogue,mira,0,0,0,,Secret agent?{\Actually, a reference to Matt Helm}
+Dialogue: 0,0:53:04.19,0:53:07.01,Dialogue,fujiko,0,0,0,,No, nothing like that.
+Dialogue: 0,0:53:07.01,0:53:08.60,Dialogue,fujiko,0,0,0,,Just an ordinary person.
+Dialogue: 0,0:53:08.60,0:53:10.24,Dialogue,fujiko,0,0,0,,I just happen to have a lot of friends.
+Dialogue: 0,0:53:10.76,0:53:14.45,Dialogue,mira,0,0,0,,A ordinary person who's about to take off in a F-18 from an aircraft carrier?
+Dialogue: 0,0:53:13.41,0:53:14.45,Dialogue Top,fujiko,0,0,0,,You should stop talking.
+Dialogue: 0,0:53:19.41,0:53:21.34,Dialogue,kogoro,0,0,0,,Queen Crown?
+Dialogue: 0,0:53:21.79,0:53:24.73,Dialogue,kogoro,0,0,0,,That's what Lupin's after?
+Dialogue: 0,0:53:24.73,0:53:26.59,Dialogue,zenigata,0,0,0,,It's confirmed intel.
+Dialogue: 0,0:53:26.59,0:53:30.42,Dialogue,kogoro,0,0,0,,But Lupin the 3rd really exists?
+Dialogue: 0,0:53:30.42,0:53:32.81,Dialogue,kogoro,0,0,0,,I thought he was just a comic book character.
+Dialogue: 0,0:53:32.81,0:53:34.22,Dialogue,zenigata,0,0,0,,What?!
+Dialogue: 0,0:53:34.22,0:53:38.10,Dialogue,zenigata,0,0,0,,You're a detective and you don't know about Lupin?
+Dialogue: 0,0:53:40.66,0:53:41.52,Dialogue,shin,0,0,0,,Ran!
+Dialogue: 0,0:53:42.58,0:53:43.82,Dialogue,shin,0,0,0,,Ran!
+Dialogue: 0,0:53:44.80,0:53:46.26,Dialogue,ran,0,0,0,,Shinichi...
+Dialogue: 0,0:53:49.78,0:53:50.87,Dialogue,keith,0,0,0,,Are you awake?
+Dialogue: 0,0:53:51.32,0:53:52.39,Dialogue,ran,0,0,0,,Where...
+Dialogue: 0,0:53:53.13,0:53:55.25,Dialogue,ran,0,0,0,,Would you please explain what's going on?
+Dialogue: 0,0:53:55.93,0:53:59.25,Dialogue,keith,0,0,0,,Who are you people?
+Dialogue: 0,0:53:59.82,0:54:03.08,Dialogue,ran,0,0,0,,I'm the one who's asking!
+Dialogue: 0,0:54:03.08,0:54:07.13,Dialogue,keith,0,0,0,,A normal girl would start screaming and making a scene.
+Dialogue: 0,0:54:07.13,0:54:09.68,Dialogue,ran,0,0,0,,You want me to do as you expect?
+Dialogue: 0,0:54:10.22,0:54:12.18,Dialogue,ran,0,0,0,,I can scream pretty loud.
+Dialogue: 0,0:54:13.39,0:54:17.18,Dialogue,keith,0,0,0,,We had an incident in-flight while you were asleep.
+Dialogue: 0,0:54:17.60,0:54:21.69,Dialogue,keith,0,0,0,,That boy who found the fake sommelier at the party...
+Dialogue: 0,0:54:22.31,0:54:27.24,Dialogue,keith,0,0,0,,He performed an audacious jump onto the jet, just as it was about to take off.
+Dialogue: 0,0:54:27.75,0:54:29.11,Dialogue,ran,0,0,0,,Conan...
+Dialogue: 0,0:54:29.64,0:54:33.24,Dialogue,keith,0,0,0,,We can't ascend if the barrier beneath the cockpit is open.
+Dialogue: 0,0:54:33.98,0:54:37.83,Dialogue,keith,0,0,0,,So, we reduced altitude at once to examine the barrier.
+Dialogue: 0,0:54:40.36,0:54:42.39,Dialogue,keith,0,0,0,,There, we found...
+Dialogue: 0,0:54:43.68,0:54:44.95,Dialogue,keith,0,0,0,,that boy.
+Dialogue: 0,0:54:45.62,0:54:50.47,Dialogue,keith,0,0,0,,The pilot was astonished at his level-headed judgment and knowledge.
+Dialogue: 0,0:54:51.17,0:54:56.05,Dialogue,keith,0,0,0,,If he had been careless, he could have endangered us 10,000 meters above sea level.
+Dialogue: 0,0:54:56.97,0:55:00.88,Dialogue,keith,0,0,0,,But instead, he located the sensor and alerted the cockpit.
+Dialogue: 0,0:55:01.87,0:55:06.70,Dialogue,keith,0,0,0,,All from the intensely cold and thin-aired front gear compartment.
+Dialogue: 0,0:55:07.77,0:55:09.22,Dialogue,ran,0,0,0,,Is he all right?
+Dialogue: 0,0:55:09.22,0:55:10.78,Dialogue,keith,0,0,0,,No need to worry.
+Dialogue: 0,0:55:10.78,0:55:12.95,Dialogue,keith,0,0,0,,He's only suffering from minor frostbite.
+Dialogue: 0,0:55:13.56,0:55:18.24,Dialogue,keith,0,0,0,,I will not tell you any further lies or fabrications.
+Dialogue: 0,0:55:18.24,0:55:19.45,Dialogue,keith,0,0,0,,Please listen.
+Dialogue: 0,0:55:31.14,0:55:34.20,Dialogue,fujiko,0,0,0,,Lupin, I borrowed your shower.
+Dialogue: 0,0:55:34.20,0:55:35.45,Dialogue,lupin,0,0,0,,Okay!
+Dialogue: 0,0:55:37.91,0:55:38.98,Dialogue,lupin,0,0,0,,F-Fujiko?
+Dialogue: 0,0:55:40.63,0:55:42.48,Dialogue,lupin,0,0,0,,When did you get here?
+Dialogue: 0,0:55:46.29,0:55:47.67,Dialogue,lupin,0,0,0,,Laundry...
+Dialogue: 0,0:55:49.32,0:55:51.55,Dialogue,fujiko,0,0,0,,Didn't I say borrowed?
+Dialogue: 0,0:55:51.55,0:55:52.62,Dialogue,fujiko,0,0,0,,Silly.
+Dialogue: 0,0:55:54.01,0:55:55.52,Dialogue,lupin,0,0,0,,Too bad...
+Dialogue: 0,0:55:56.09,0:55:58.67,Dialogue,lupin,0,0,0,,Still, it was such a pleasant view.
+Dialogue: 0,0:55:59.56,0:56:00.83,Dialogue,lupin,0,0,0,,Toilet seat...
+Dialogue: 0,0:56:02.46,0:56:05.26,Dialogue,lupin,0,0,0,,No wonder you have so many bags.
+Dialogue: 0,0:56:05.26,0:56:06.88,Dialogue,fujiko,0,0,0,,You didn't open them?
+Dialogue: 0,0:56:06.88,0:56:08.99,Dialogue,lupin,0,0,0,,I thought they were Jigen's.
+Dialogue: 0,0:56:08.99,0:56:11.44,Dialogue,fujiko,0,0,0,,Home delivery services have gotten so good these days.
+Dialogue: 0,0:56:11.44,0:56:12.84,Dialogue,lupin,0,0,0,,Too good.
+Dialogue: 0,0:56:13.63,0:56:15.96,Dialogue,lupin,0,0,0,,How did you know about this hideout?
+Dialogue: 0,0:56:15.96,0:56:20.86,Dialogue,fujiko,0,0,0,,There's nothing I don't know about you.
+Dialogue: 0,0:56:21.60,0:56:23.83,Dialogue,fujiko,0,0,0,,Why did you leave me out of this?!
+Dialogue: 0,0:56:23.83,0:56:27.74,Dialogue,lupin,0,0,0,,I was about to tell you.
+Dialogue: 0,0:56:27.74,0:56:28.87,Dialogue,fujiko,0,0,0,,You were?
+Dialogue: 0,0:56:28.87,0:56:33.06,Dialogue,fujiko,0,0,0,,Great! That's why I brought the princess with me.
+Dialogue: 0,0:56:33.06,0:56:35.37,Dialogue,fujiko,0,0,0,,I'm taking her back to the palace tomorrow.
+Dialogue: 0,0:56:35.37,0:56:37.74,Dialogue,fujiko,0,0,0,,Maybe we can get in easily.
+Dialogue: 0,0:56:37.74,0:56:39.63,Dialogue,fujiko,0,0,0,,Anyway, good night.
+Dialogue: 0,0:56:40.12,0:56:42.71,Dialogue,fujiko,0,0,0,,I haven't slept since yesterday.
+Dialogue: 0,0:56:43.62,0:56:45.46,Dialogue,lupin,0,0,0,,Y-You're going to sleep?
+Dialogue: 0,0:56:47.05,0:56:49.69,Dialogue,lupin,0,0,0,,To all of you eighty million adult viewers!
+Dialogue: 0,0:56:49.69,0:56:52.14,Dialogue,lupin,0,0,0,,Thank you for your patience!
+Dialogue: 0,0:56:52.14,0:56:54.63,Dialogue,lupin,0,0,0,,Chow time!
+Dialogue: 0,0:57:00.71,0:57:02.14,Dialogue,fujiko,0,0,0,,See you tomorrow.
+Dialogue: 0,0:57:05.55,0:57:06.85,Dialogue,fujiko,0,0,0,,You forgot these.
+Dialogue: 0,0:57:10.25,0:57:11.50,Dialogue,lupin,0,0,0,,Damn.
+Dialogue: 0,0:57:15.20,0:57:16.90,Dialogue,gerard,0,0,0,,How is the princess doing?
+Dialogue: 0,0:57:17.29,0:57:18.88,Dialogue,keith,0,0,0,,She's settled down now.
+Dialogue: 0,0:57:18.88,0:57:20.72,Dialogue,keith,0,0,0,,She's finished her breakfast as well.
+Dialogue: 0,0:57:20.72,0:57:23.42,Dialogue,keith,0,0,0,,I apologize for all this trouble.
+Dialogue: 0,0:57:23.42,0:57:25.42,Dialogue,gerard,0,0,0,,You don't have to apologize.
+Dialogue: 0,0:57:26.05,0:57:29.92,Dialogue,gerard,0,0,0,,But to learn that the anti-princess faction had sent agents to Japan...
+Dialogue: 0,0:57:29.92,0:57:32.30,Dialogue,gerard,0,0,0,,That was completely unexpected.
+Dialogue: 0,0:57:32.77,0:57:37.43,Dialogue,gerard,0,0,0,,Because of the situation, I'd like to move the date of the coronation forward.
+Dialogue: 0,0:57:38.00,0:57:40.85,Dialogue,keith,0,0,0,,Move the date of the coronation forward?
+Dialogue: 0,0:57:50.39,0:57:51.68,Dialogue,keith,0,0,0,,Thank you for waiting.
+Dialogue: 0,0:57:51.68,0:57:52.71,Dialogue,ran,0,0,0,,Where's the princess?
+Dialogue: 0,0:57:52.71,0:57:55.03,Dialogue,keith,0,0,0,,She hasn't arrived yet.
+Dialogue: 0,0:57:55.03,0:57:59.24,Dialogue,jigen,0,0,0,,Hey, I heard most of the story from her,
+Dialogue: 0,0:57:59.82,0:58:02.41,Dialogue,jigen,0,0,0,,but isn't it a stretch to pair me up with this kid?
+Dialogue: 0,0:58:02.88,0:58:05.86,Dialogue,keith,0,0,0,,You look like a Japanese father–son pair.
+Dialogue: 0,0:58:05.86,0:58:07.66,Dialogue,jigen,0,0,0,,Gimme a break!
+Dialogue: 0,0:58:07.66,0:58:11.38,Dialogue,ran,0,0,0,,You're going to get Conan involved as well?
+Dialogue: 0,0:58:12.07,0:58:17.21,Dialogue,keith,0,0,0,,I'm ashamed to admit it, but the only people I can trust are in this room.
+Dialogue: 0,0:58:17.21,0:58:21.14,Dialogue,kyle,0,0,0,,It was Count Keith's idea to send Her Highness to Japan at a time like this.
+Dialogue: 0,0:58:21.61,0:58:25.81,Dialogue,kyle,0,0,0,,But as a result, we've managed to identify several suspicious individuals among the SP.
+Dialogue: 0,0:58:25.81,0:58:27.64,Dialogue,jigen,0,0,0,,This is too pathetic.
+Dialogue: 0,0:58:28.58,0:58:32.65,Dialogue,jigen,0,0,0,,The one who'll benefit from the princess' death is the next in succession.
+Dialogue: 0,0:58:33.18,0:58:36.87,Dialogue,jigen,0,0,0,,Even this kid would know who's behind all this.
+Dialogue: 0,0:58:36.87,0:58:38.51,Dialogue,keith,0,0,0,,Yes.
+Dialogue: 0,0:58:38.51,0:58:43.37,Dialogue,keith,0,0,0,,I'm certain that it was Duke Gerard who killed the two and made it look like an accident.
+Dialogue: 0,0:58:44.03,0:58:47.71,Dialogue,jigen,0,0,0,,Hey, is it all right for you to say that aloud?
+Dialogue: 0,0:58:47.71,0:58:51.52,Dialogue,ran,0,0,0,,You've already found evidence then?
+Dialogue: 0,0:58:51.52,0:58:53.22,Dialogue,keith,0,0,0,,No, none at all.
+Dialogue: 0,0:58:53.84,0:58:57.69,Dialogue,keith,0,0,0,,We've served the royal family for generations.
+Dialogue: 0,0:58:57.69,0:58:59.62,Dialogue,keith,0,0,0,,That includes Duke Gerard as well.
+Dialogue: 0,0:58:59.62,0:59:03.23,Dialogue,jigen,0,0,0,,You're asking us because you're unable to take action yourselves?
+Dialogue: 0,0:59:04.09,0:59:07.18,Dialogue,jigen,0,0,0,,The judicial system of this country has gone to hell, huh?
+Dialogue: 0,0:59:08.24,0:59:11.43,Dialogue,keith,0,0,0,,Only the queen can pass judgment upon members of the royal family.
+Dialogue: 0,0:59:11.43,0:59:14.49,Dialogue,keith,0,0,0,,As of now, Princess Mira doesn't have that authority yet.
+Dialogue: 0,0:59:15.85,0:59:17.90,Dialogue,jigen,0,0,0,,Do you live in the 19th century?
+Dialogue: 0,0:59:18.44,0:59:19.84,Dialogue,keith,0,0,0,,Please.
+Dialogue: 0,0:59:19.84,0:59:21.74,Dialogue,keith,0,0,0,,We have no time left.
+Dialogue: 0,0:59:21.74,0:59:25.53,Dialogue,keith,0,0,0,,The coronation parade has been scheduled for the day after tomorrow.
+Dialogue: 0,0:59:25.53,0:59:27.04,Dialogue,ran,0,0,0,,No way...
+Dialogue: 0,0:59:27.04,0:59:30.09,Dialogue,ran,0,0,0,,If we can't find the real princess by then...
+Dialogue: 0,0:59:31.02,0:59:32.85,Thoughts,shin,0,0,0,,{\be10}Ran would be in the parade...
+Dialogue: 0,0:59:36.56,0:59:37.94,Dialogue,ran,0,0,0,,Conan...
+Dialogue: 0,0:59:39.12,0:59:42.00,Dialogue,maid,0,0,0,,Princess Ran, please close the curtains.
+Dialogue: 0,0:59:42.00,0:59:44.27,Dialogue,maid,0,0,0,,You never know where a sniper could be.
+Dialogue: 0,0:59:44.92,0:59:47.15,Dialogue,ran,0,0,0,,Don't call me princess.
+Dialogue: 0,0:59:47.15,0:59:49.56,Dialogue,ran,0,0,0,,I'm only a look-alike.
+Dialogue: 0,0:59:49.56,0:59:52.36,Dialogue,ran,0,0,0,,Um, have you two been serving Princess Mira for long?
+Dialogue: 0,0:59:52.36,0:59:56.22,Dialogue,maid,0,0,0,,Yes, I've been serving Her Highness for five years.
+Dialogue: 0,0:59:56.22,0:59:58.73,Dialogue,maid,0,0,0,,I came to the royal palace three years ago.
+Dialogue: 0,0:59:59.31,1:00:03.24,Dialogue,ran,0,0,0,,I've only seen her tomboyish side.
+Dialogue: 0,1:00:03.84,1:00:06.31,Dialogue,ran,0,0,0,,Has she been like that since she was young?
+Dialogue: 0,1:00:08.46,1:00:09.53,Dialogue,maid,0,0,0,,No.
+Dialogue: 0,1:00:09.53,1:00:12.29,Dialogue,maid,0,0,0,,Her Highness is caring and can be easily moved to tears.
+Dialogue: 0,1:00:14.04,1:00:15.71,Dialogue,maid,0,0,0,,But she hasn't...
+Dialogue: 0,1:00:17.50,1:00:19.09,Dialogue,ran,0,0,0,,Hasn't?
+Dialogue: 0,1:00:19.09,1:00:20.34,Dialogue,ran,0,0,0,,What hasn't she done?
+Dialogue: 0,1:00:21.90,1:00:25.09,Dialogue,maid,0,0,0,,Her Highness hasn't cried in anyone else's presence.
+Dialogue: 0,1:00:25.89,1:00:28.65,Dialogue,maid,0,0,0,,She lost two members of her family at once,
+Dialogue: 0,1:00:29.95,1:00:34.69,Dialogue,maid,0,0,0,,so she must have been overwhelmed by grief.
+Dialogue: 0,1:00:35.68,1:00:38.11,Dialogue,maid,0,0,0,,It's so hard to see her in that state!
+Dialogue: 0,1:00:40.04,1:00:41.83,Thoughts,ran,0,0,0,,{\be10}She's not allowed to.
+Dialogue: 0,1:00:42.63,1:00:44.01,Thoughts,ran,0,0,0,,{\be10}So...
+Dialogue: 0,1:00:44.01,1:00:46.93,Thoughts,ran,0,0,0,,{\be10}She had to create a different side of herself.
+Dialogue: 0,1:00:50.14,1:00:53.62,Dialogue,keith,0,0,0,,Are you wondering why I entrusted it to those two?
+Dialogue: 0,1:00:53.62,1:00:55.38,Dialogue,kyle,0,0,0,,Yes.
+Dialogue: 0,1:00:55.38,1:00:58.97,Dialogue,kyle,0,0,0,,Master Jigen I understand, but what could we possibly expect from that boy?
+Dialogue: 0,1:00:59.92,1:01:03.81,Dialogue,keith,0,0,0,,I don't know how it could be possible, but that boy...
+Dialogue: 0,1:01:04.85,1:01:08.98,Dialogue,keith,0,0,0,,Is he really just a boy?
+Dialogue: 0,1:01:10.62,1:01:14.35,Dialogue,keith,0,0,0,,It's as if he has the body of a child but the mind of an adult.
+Dialogue: 0,1:01:18.82,1:01:21.17,Dialogue,lupin,0,0,0,,Fujiko? It's morning.
+Dialogue: 0,1:01:21.17,1:01:22.54,Dialogue,mira,0,0,0,,Quiet!
+Dialogue: 0,1:01:27.15,1:01:28.85,Dialogue,fujiko,0,0,0,,Did you catch a cold?
+Dialogue: 0,1:01:28.85,1:01:30.23,Dialogue,fujiko,0,0,0,,Don't pass it on to us.
+Dialogue: 0,1:01:30.23,1:01:31.68,Dialogue,lupin,0,0,0,,You think you have any right to talk?
+Dialogue: 0,1:01:31.68,1:01:34.16,Dialogue,lupin,0,0,0,,Whose fault is it that I slept in a park last night?
+Dialogue: 0,1:01:34.16,1:01:37.29,Dialogue,fujiko,0,0,0,,Oh my, he's blaming you.
+Dialogue: 0,1:01:37.29,1:01:38.58,Dialogue,mira,0,0,0,,You're the worst.
+Dialogue: 0,1:01:38.58,1:01:40.17,Dialogue,lupin,0,0,0,,Am not!
+Dialogue: 0,1:01:40.68,1:01:44.60,Dialogue,fujiko,0,0,0,,Either way, can't this car go any faster?
+Dialogue: 0,1:01:44.60,1:01:46.16,Dialogue,lupin,0,0,0,,This is the fastest.
+Dialogue: 0,1:01:46.16,1:01:48.00,Dialogue,fujiko,0,0,0,,What about your usual ones?
+Dialogue: 0,1:01:48.00,1:01:50.43,Dialogue,lupin,0,0,0,,They've both passed away.
+Dialogue: 0,1:01:56.27,1:01:58.23,Dialogue,mira,0,0,0,,Hey, I'm thirsty.
+Dialogue: 0,1:01:58.23,1:01:59.14,Dialogue,mira,0,0,0,,Go buy me a cola.
+Dialogue: 0,1:01:59.14,1:02:00.66,Dialogue,lupin,0,0,0,,Yes!
+Dialogue: 0,1:02:00.66,1:02:02.30,Dialogue,fujiko,0,0,0,,And iced coffee for me.
+Dialogue: 0,1:02:02.30,1:02:03.47,Dialogue,lupin,0,0,0,,Yes, yes!
+Dialogue: 0,1:02:03.47,1:02:04.99,Dialogue,mira,0,0,0,,You only need to answer once.
+Dialogue: 0,1:02:04.99,1:02:06.48,Dialogue,lupin,0,0,0,,Damn...
+Dialogue: 0,1:02:09.41,1:02:13.16,Thoughts,shin,0,0,0,,{\be10}The tallest building along the parade course is that one.
+Dialogue: 0,1:02:13.77,1:02:17.08,Dialogue,conan,0,0,0,,Say, Daddy, where would you snipe from?
+Dialogue: 0,1:02:17.08,1:02:19.28,Dialogue,conan,0,0,0,,The tallest building, right?
+Dialogue: 0,1:02:19.28,1:02:21.44,Dialogue,jigen,0,0,0,,Don't get carried away.
+Dialogue: 0,1:02:21.44,1:02:22.04,Dialogue,jigen,0,0,0,,Get off!
+Dialogue: 0,1:02:24.47,1:02:26.11,Dialogue,jigen,0,0,0,,Stop acting cute.
+Dialogue: 0,1:02:26.11,1:02:27.39,Dialogue,conan,0,0,0,,Stingy.
+Dialogue: 0,1:02:27.39,1:02:29.10,Dialogue,conan,0,0,0,,Come on, tell me!
+Dialogue: 0,1:02:29.10,1:02:31.81,Dialogue,conan,0,0,0,,You could even make a quick escape from that building, right?
+Dialogue: 0,1:02:33.53,1:02:34.47,Dialogue,conan,0,0,0,,Wait up!
+Dialogue: 0,1:02:34.95,1:02:37.52,Dialogue,jigen,0,0,0,,I'm not a hitman.
+Dialogue: 0,1:02:37.52,1:02:39.89,Dialogue,jigen,0,0,0,,I wouldn't know where to snipe from.
+Dialogue: 0,1:02:39.89,1:02:42.90,Dialogue,conan,0,0,0,,I never said you were a hitman, Daddy.
+Dialogue: 0,1:02:43.63,1:02:49.07,Dialogue,conan,0,0,0,,But, Daddy, you have callouses on the second joint of your right index finger and on your left palm, don't you?
+Dialogue: 0,1:02:49.07,1:02:54.07,Dialogue,conan,0,0,0,,Isn't that a sign that you use a revolver quite often?
+Dialogue: 0,1:02:55.93,1:02:57.13,Dialogue,jigen,0,0,0,,When did you see them?
+Dialogue: 0,1:02:57.13,1:03:00.67,Dialogue,jigen,0,0,0,,I always keep my hands in my pockets.
+Dialogue: 0,1:03:00.67,1:03:02.67,Dialogue,conan,0,0,0,,For a second, over at the palace!
+Dialogue: 0,1:03:03.54,1:03:04.33,Dialogue,jigen,0,0,0,,Hey, kid...
+Dialogue: 0,1:03:05.70,1:03:07.53,Dialogue,jigen,0,0,0,,Let me tell you something:
+Dialogue: 0,1:03:08.93,1:03:11.13,Dialogue,jigen,0,0,0,,don't call me Daddy ever again!
+Dialogue: 0,1:03:11.97,1:03:13.79,Dialogue,conan,0,0,0,,You shouldn't!
+Dialogue: 0,1:03:13.79,1:03:15.55,Dialogue,conan,0,0,0,,It's still daytime!
+Dialogue: 0,1:03:15.55,1:03:18.14,Dialogue,conan,0,0,0,,You said we were going to the crime scene!
+Dialogue: 0,1:03:18.63,1:03:20.37,Dialogue,jigen,0,0,0,,It's not my fault.
+Dialogue: 0,1:03:20.37,1:03:23.19,Dialogue,jigen,0,0,0,,It's this place's fault for opening so early.
+Dialogue: 0,1:03:23.19,1:03:26.07,Dialogue,conan,0,0,0,,That's a very obvious excuse, you know.
+Dialogue: 0,1:03:26.07,1:03:28.50,Dialogue,jigen,0,0,0,,Don't worry, I'm only having one drink.
+Dialogue: 0,1:03:28.50,1:03:28.98,Dialogue,jigen,0,0,0,,Here.
+Dialogue: 0,1:03:29.72,1:03:31.87,Dialogue,jigen,0,0,0,,That's the equivalent of a 500 yen coin.
+Dialogue: 0,1:03:31.87,1:03:34.04,Dialogue,jigen,0,0,0,,Go get yourself some juice or something and keep the change.
+Dialogue: 0,1:03:34.04,1:03:35.70,Dialogue,conan,0,0,0,,Just one, right?
+Dialogue: 0,1:03:35.70,1:03:40.05,Dialogue,lupin,0,0,0,,Man, it's like I have two princesses with me...
+Dialogue: 0,1:03:40.05,1:03:42.01,Dialogue,lupin,0,0,0,,First, cola.
+Dialogue: 0,1:03:44.76,1:03:47.46,Dialogue,lupin,0,0,0,,Huh? Hey, cola?
+Dialogue: 0,1:03:47.46,1:03:49.43,Dialogue,lupin,0,0,0,,You're not giving me the cola.
+Dialogue: 0,1:03:49.43,1:03:52.18,Dialogue,lupin,0,0,0,,And now you're not paying me back?!
+Dialogue: 0,1:03:52.95,1:03:54.13,Dialogue,lupin,0,0,0,,Oh yeah?
+Dialogue: 0,1:03:54.13,1:03:56.81,Dialogue,lupin,0,0,0,,If that's what you want...
+Dialogue: 0,1:03:56.81,1:04:00.10,Dialogue,lupin,0,0,0,,I'll attack one of the Hidden Pressure Points, iwillgiveeverything!{Reference to... Fist of the North Star}
+Dialogue: 0,1:04:05.81,1:04:08.95,Dialogue,lupin,0,0,0,,You didn't have to give me any tips!
+Dialogue: 0,1:04:08.95,1:04:10.78,Dialogue,conan,0,0,0,,Mister, you shouldn't steal.
+Dialogue: 0,1:04:12.30,1:04:14.11,Dialogue,lupin,0,0,0,,Don't blame me, kid.
+Dialogue: 0,1:04:14.66,1:04:16.58,Dialogue,lupin,0,0,0,,I put the money in.
+Dialogue: 0,1:04:16.58,1:04:17.70,Dialogue,conan,0,0,0,,One can's worth, yes.
+Dialogue: 0,1:04:17.70,1:04:18.93,Dialogue,lupin,0,0,0,,It's all right!
+Dialogue: 0,1:04:18.93,1:04:21.07,Dialogue,lupin,0,0,0,,It's begging me to take these.
+Dialogue: 0,1:04:21.07,1:04:23.33,Dialogue,conan,0,0,0,,Are you really a bad guy?
+Dialogue: 0,1:04:23.33,1:04:25.87,Dialogue,conan,0,0,0,,You don't look like one.
+Dialogue: 0,1:04:25.87,1:04:26.98,Dialogue,lupin,0,0,0,,You better be careful.
+Dialogue: 0,1:04:26.98,1:04:29.63,Dialogue,lupin,0,0,0,,I might just be a heartless thief!
+Dialogue: 0,1:04:29.63,1:04:33.97,Dialogue,conan,0,0,0,,I see! That's why you carry a pistol in your shoulder holster, right?
+Dialogue: 0,1:04:35.46,1:04:38.47,Dialogue,conan,0,0,0,,I thought that might be the case since your left shoulder has a bit of a bulge.
+Dialogue: 0,1:04:39.47,1:04:41.81,Dialogue,lupin,0,0,0,,Say cheese!
+Dialogue: 0,1:04:42.39,1:04:45.73,Dialogue,lupin,0,0,0,,Too bad, huh? It's only a video camera.
+Dialogue: 0,1:04:46.69,1:04:49.73,Dialogue,conan,0,0,0,,I'm sorry. I thought you really might have been a bad guy.
+Dialogue: 0,1:04:50.33,1:04:51.36,Dialogue,conan,0,0,0,,Good.
+Dialogue: 0,1:04:51.36,1:04:54.70,Dialogue,conan,0,0,0,,It's not safe to say that to someone who's actually a bad person.
+Dialogue: 0,1:04:56.79,1:04:59.36,Dialogue,lupin,0,0,0,,Hey, you're only taking one?
+Dialogue: 0,1:04:59.36,1:05:01.12,Dialogue,lupin,0,0,0,,You can take more.
+Dialogue: 0,1:05:01.12,1:05:02.88,Dialogue,lupin,0,0,0,,Let's be partners!
+Dialogue: 0,1:05:03.56,1:05:05.51,Dialogue,conan,0,0,0,,You shouldn't steal.
+Dialogue: 0,1:05:08.11,1:05:10.16,Dialogue,lupin,0,0,0,,What's up with that kid?
+Dialogue: 0,1:05:10.73,1:05:12.34,Dialogue,lupin,0,0,0,,He probably doesn't have many friends.
+Dialogue: 0,1:05:23.95,1:05:26.57,Dialogue,lupin,0,0,0,,I left two cans' worth!
+Dialogue: 0,1:05:38.54,1:05:40.29,Dialogue,gerard,0,0,0,,Welcome.
+Dialogue: 0,1:05:40.29,1:05:42.03,Dialogue,gerard,0,0,0,,You must be from the ICPO.
+Dialogue: 0,1:05:42.49,1:05:44.49,Dialogue,zenigata,0,0,0,,Yes, I'm Zenigata.
+Dialogue: 0,1:05:44.49,1:05:45.25,Dialogue,zenigata,0,0,0,,Now, please—
+Dialogue: 0,1:05:45.25,1:05:48.54,Dialogue,gerard,0,0,0,,Let's not rush.
+Dialogue: 0,1:05:48.54,1:05:51.59,Dialogue,gerard,0,0,0,,Why don't we talk inside?
+Dialogue: 0,1:05:51.59,1:05:52.71,Dialogue,gerard,0,0,0,,And who is this?
+Dialogue: 0,1:05:52.71,1:05:57.49,Dialogue,kogoro,0,0,0,,I am Mouri Kogorou, Inspector Zenigata's assistant!
+Dialogue: 0,1:05:57.49,1:06:01.18,Dialogue,kogoro,0,0,0,,Inspector, I would like to start off with a patrol!
+Dialogue: 0,1:06:01.18,1:06:03.42,Dialogue,gerard,0,0,0,,No need to hurry.
+Dialogue: 0,1:06:03.42,1:06:04.76,Dialogue,gerard,0,0,0,,We have tea prepared inside.
+Dialogue: 0,1:06:04.76,1:06:06.39,Dialogue,kogoro,0,0,0,,Patrol!
+Dialogue: 0,1:06:06.94,1:06:08.89,Dialogue,kogoro,0,0,0,,Where are you, Lupin?!
+Dialogue: 0,1:06:10.62,1:06:13.26,Dialogue,zeginata,0,0,0,,Let's just ignore him.
+Dialogue: 0,1:06:14.24,1:06:15.54,Dialogue,kogoro,0,0,0,,Lupin!
+Dialogue: 0,1:06:15.84,1:06:17.95,Dialogue,kogoro,0,0,0,,Lupin!
+Dialogue: 0,1:06:17.95,1:06:19.79,Dialogue,kogoro,0,0,0,,Ran!
+Dialogue: 0,1:06:19.79,1:06:21.70,Dialogue,kogoro,0,0,0,,Where are you, Ran?!
+Dialogue: 0,1:06:21.70,1:06:23.39,Dialogue,ran,0,0,0,,It's delicious!
+Dialogue: 0,1:06:23.39,1:06:25.29,Dialogue,kogoro,0,0,0,,Ran!
+Dialogue: 0,1:06:25.73,1:06:27.73,Dialogue,ran,0,0,0,,That voice... Dad?
+Dialogue: 0,1:06:27.73,1:06:29.72,Dialogue,maid,0,0,0,,Please wait here, Princess Ran.
+Dialogue: 0,1:06:29.72,1:06:31.46,Dialogue,maid,0,0,0,,It might be a suspicious person.
+Dialogue: 0,1:06:35.59,1:06:37.11,Dialogue,maid,0,0,0,,It is someone suspicious!
+Dialogue: 0,1:06:33.04,1:06:34.67,Dialogue,kogoro,0,0,0,,Ran!
+Dialogue: 0,1:06:37.11,1:06:39.94,Dialogue,maid,0,0,0,,It's a man with a tiny mustache! He looks scary!
+Dialogue: 0,1:06:39.94,1:06:42.61,Dialogue,maid,0,0,0,,There's no way that's your father!
+Dialogue: 0,1:06:42.61,1:06:43.55,Dialogue,ran,0,0,0,,That's him all right.
+Dialogue: 0,1:06:44.80,1:06:46.06,Dialogue,kogoro,0,0,0,,Ran! Ran!
+Dialogue: 0,1:06:46.06,1:06:48.13,Dialogue,kogoro,0,0,0,,Are you all right?!
+Dialogue: 0,1:06:48.13,1:06:51.39,Dialogue,kogoro,0,0,0,,Ran, everything's fine now. We're leaving this place at once!
+Dialogue: 0,1:06:46.06,1:06:48.13,Dialogue Top,ran,0,0,0,,Dad! Why are you here?!
+Dialogue: 0,1:06:48.13,1:06:50.69,Dialogue Top,ran,0,0,0,,It's so good to see you! Please help Conan!
+Dialogue: 0,1:06:51.39,1:06:52.60,Dialogue,keith,0,0,0,,What's all this ruckus?
+Dialogue: 0,1:06:52.60,1:06:53.40,Dialogue,maid,0,0,0,,Count Keith.
+Dialogue: 0,1:06:54.12,1:06:55.65,Dialogue,kogoro,0,0,0,,How dare you!
+Dialogue: 0,1:06:54.12,1:06:55.65,Dialogue Top,ran,0,0,0,,Listen to me, Dad!
+Dialogue: 0,1:06:55.65,1:06:57.06,Dialogue,keith,0,0,0,,You're—
+Dialogue: 0,1:06:56.12,1:06:58.22,Dialogue Top,kogoro,0,0,0,,Prepare yourself, damn it!
+Dialogue: 0,1:06:57.06,1:07:00.48,Dialogue,ran,0,0,0,,Stop it, Dad! Listen to me!
+Dialogue: 0,1:07:00.48,1:07:01.74,Dialogue,ran,0,0,0,,No!
+Dialogue: 0,1:06:59.02,1:07:00.95,Dialogue Top,kogoro,0,0,0,,I'll punch you for starters!
+Dialogue: 0,1:07:00.95,1:07:04.04,Dialogue Top,kogoro,0,0,0,,Don't worry! I have a resignation letter!
+Dialogue: 0,1:07:03.10,1:07:04.30,Dialogue,keith,0,0,0,,Please allow me to expla—
+Dialogue: 0,1:07:04.30,1:07:05.16,Dialogue,kogoro,0,0,0,,Later!
+Dialogue: 0,1:07:06.41,1:07:09.66,Dialogue,gerard,0,0,0,,So, is Lupin really after the Queen Crown?
+Dialogue: 0,1:07:09.66,1:07:12.72,Dialogue,zenigata,0,0,0,,Yes, most definitely.
+Dialogue: 0,1:07:12.72,1:07:18.67,Dialogue,gerard,0,0,0,,But, I was under the impression that Lupin had tried to steal it once but gave up.
+Dialogue: 0,1:07:18.67,1:07:21.68,Dialogue,zenigata,0,0,0,,He has never given up on anything in the past.
+Dialogue: 0,1:07:21.68,1:07:24.09,Dialogue,gerard,0,0,0,,I see.
+Dialogue: 0,1:07:24.09,1:07:28.40,Dialogue,gerard,0,0,0,,We shall defeat Lupin once again.
+Dialogue: 0,1:07:29.15,1:07:34.06,Dialogue,gerard,0,0,0,,Should he be able to breach that security system, we'd be happy to hand the crown to him.
+Dialogue: 0,1:07:35.74,1:07:38.65,Dialogue,zenigata,0,0,0,,I hope that he does give up.
+Dialogue: 0,1:07:41.37,1:07:43.82,Dialogue,gerard,0,0,0,,I have a meal prepared for you in the other room.
+Dialogue: 0,1:07:43.82,1:07:47.05,Dialogue,zenigata,0,0,0,,I'd like to see the safe first.
+Dialogue: 0,1:07:47.05,1:07:49.21,Dialogue,SP,0,0,0,,That man over there will show you the way.
+Dialogue: 0,1:07:49.21,1:07:50.45,Dialogue,zenigata,0,0,0,,Thank you.
+Dialogue: 0,1:07:54.31,1:07:57.08,Dialogue,gerard,0,0,0,,Go ahead and make a big scene.
+Dialogue: 0,1:07:59.67,1:08:02.68,Dialogue,ran,0,0,0,,Conan and that man are trying to find evidence, and I want you to help them out.
+Dialogue: 0,1:08:02.68,1:08:05.68,Dialogue,kogoro,0,0,0,,Since he couldn't go himself, he recommended that I go instead.
+Dialogue: 0,1:08:06.87,1:08:09.26,Dialogue,keith,0,0,0,,Are you satisfied now?
+Dialogue: 0,1:08:09.26,1:08:11.11,Dialogue,kogoro,0,0,0,,Hell no!
+Dialogue: 0,1:08:11.11,1:08:12.64,Dialogue,ran,0,0,0,,Dad...
+Dialogue: 0,1:08:12.64,1:08:16.98,Dialogue,ran,0,0,0,,Conan and that man might not find the evidence by themselves.
+Dialogue: 0,1:08:16.98,1:08:21.05,Dialogue,kogoro,0,0,0,,We still don't know for sure that Duke Gerard is the culprit.
+Dialogue: 0,1:08:21.05,1:08:22.43,Dialogue,ran,0,0,0,,But at the scene...
+Dialogue: 0,1:08:22.43,1:08:23.79,Dialogue,kogoro,0,0,0,,Don't be so naïve.
+Dialogue: 0,1:08:23.79,1:08:26.16,Dialogue,kogoro,0,0,0,,Maybe they're just saying that.
+Dialogue: 0,1:08:26.84,1:08:28.69,Dialogue,kogoro,0,0,0,,You're a count, right?
+Dialogue: 0,1:08:28.69,1:08:33.41,Dialogue,kogoro,0,0,0,,It's possible that you'd want to frame Gerard as a killer so you can be the successor.
+Dialogue: 0,1:08:33.41,1:08:36.67,Dialogue,maid,0,0,0,,No way! Mr. Keith was at the palace that day!
+Dialogue: 0,1:08:37.20,1:08:42.67,Dialogue,kogoro,0,0,0,,Even if he didn't do it directly, he could have easily hired a hitman.
+Dialogue: 0,1:08:43.36,1:08:46.01,Dialogue,ran,0,0,0,,A hitman...
+Dialogue: 0,1:08:48.85,1:08:52.08,Dialogue,kogoro,0,0,0,,Oh? Do you have someone in mind?
+Dialogue: 0,1:08:52.08,1:08:53.48,Dialogue,keith,0,0,0,,You're correct.
+Dialogue: 0,1:08:54.28,1:08:57.73,Dialogue,keith,0,0,0,,I now see how your son grew to be that way.
+Dialogue: 0,1:08:58.34,1:08:59.54,Dialogue,kogoro,0,0,0,,He's not my son!
+Dialogue: 0,1:08:59.54,1:09:01.33,Dialogue,kogoro,0,0,0,,I'm just looking after him!
+Dialogue: 0,1:09:01.33,1:09:03.57,Dialogue,keith,0,0,0,,I would like to ask someone like you...
+Dialogue: 0,1:09:05.14,1:09:07.57,Dialogue,keith,0,0,0,,to undertake a fair investigation.
+Dialogue: 0,1:09:08.96,1:09:12.82,Dialogue,keith,0,0,0,,It's not much, but we can pay this amount in Japanese yen.
+Dialogue: 0,1:09:15.59,1:09:17.29,Dialogue,keith,0,0,0,,Would you accept this?
+Dialogue: 0,1:09:17.29,1:09:21.21,Dialogue,kogoro,0,0,0,,Ye-Yes, absolutely!
+Dialogue: 0,1:09:21.21,1:09:22.38,Dialogue,keith,0,0,0,,Th-Thank you...
+Dialogue: 0,1:09:23.03,1:09:24.84,Dialogue,ran,0,0,0,,Dad...
+Dialogue: 0,1:09:35.14,1:09:38.85,Dialogue,lupin,0,0,0,,A place she has to visit before heading back, huh?
+Dialogue: 0,1:09:38.85,1:09:41.84,Dialogue,fujiko,0,0,0,,Those two died just past this point, right?
+Dialogue: 0,1:09:41.84,1:09:42.61,Dialogue,lupin,0,0,0,,Yeah.
+Dialogue: 0,1:09:43.49,1:09:45.99,Dialogue,fujiko,0,0,0,,Was it all right to leave her alone?
+Dialogue: 0,1:09:45.99,1:09:48.23,Dialogue,fujiko,0,0,0,,She's good at running away.
+Dialogue: 0,1:09:48.23,1:09:50.83,Dialogue,lupin,0,0,0,,She wouldn't have come back here if she intended to run away.
+Dialogue: 0,1:09:51.93,1:09:55.93,Dialogue,lupin,0,0,0,,Besides, she can't cry if we're around.
+Dialogue: 0,1:09:57.11,1:10:00.60,Dialogue,fujiko,0,0,0,,You sure know a lot about her, huh?
+Dialogue: 0,1:10:00.60,1:10:01.95,Dialogue,fujiko,0,0,0,,It seems suspicious.
+Dialogue: 0,1:10:01.95,1:10:04.51,Dialogue,lupin,0,0,0,,Stop it. It's just...
+Dialogue: 0,1:10:04.51,1:10:05.21,Dialogue,fujiko,0,0,0,,Just?
+Dialogue: 0,1:10:06.68,1:10:08.22,Dialogue,lupin,0,0,0,,She carries a resemblance...
+Dialogue: 0,1:10:18.95,1:10:21.50,Dialogue,mira,0,0,0,,Mother, Brother...
+Dialogue: 0,1:10:22.34,1:10:25.19,Dialogue,mira,0,0,0,,This is the only place for me...
+Dialogue: 0,1:10:26.50,1:10:28.41,Dialogue,mira,0,0,0,,I can't do anything.
+Dialogue: 0,1:10:28.41,1:10:30.89,Dialogue,mira,0,0,0,,I can't do what everyone expects of me.
+Dialogue: 0,1:10:31.57,1:10:34.02,Dialogue,mira,0,0,0,,No one loves me...
+Dialogue: 0,1:10:34.81,1:10:37.70,Dialogue,mira,0,0,0,,But, there's nowhere else...
+Dialogue: 0,1:10:38.70,1:10:42.21,Dialogue,mira,0,0,0,,where you two are.
+Dialogue: 0,1:10:43.88,1:10:47.34,Dialogue,mira,0,0,0,,This is the only place!
+Dialogue: 0,1:11:08.72,1:11:10.98,Dialogue,guard,0,0,0,,Even if an ant were to get inside,
+Dialogue: 0,1:11:10.98,1:11:14.62,Dialogue,guard,0,0,0,,this superalloy door would seal the entire room and lock the intruder inside.
+Dialogue: 0,1:11:14.62,1:11:17.36,Dialogue,zenigata,0,0,0,,Is this area guarded round-the-clock?
+Dialogue: 0,1:11:17.36,1:11:20.17,Dialogue,guard,0,0,0,,Yes, three shifts of eight hours each.
+Dialogue: 0,1:11:20.17,1:11:22.25,Dialogue,SP,0,0,0,,Should we increase the number of guards?
+Dialogue: 0,1:11:22.72,1:11:25.13,Dialogue,zenigata,0,0,0,,No, that's not necessary.
+Dialogue: 0,1:11:26.32,1:11:28.14,Dialogue,zenigata,0,0,0,,I'm sure they'll all be put to sleep.
+Dialogue: 0,1:11:30.97,1:11:34.88,Dialogue,kyle,0,0,0,,We control weapon storage ourselves.
+Dialogue: 0,1:11:34.88,1:11:37.85,Dialogue,kyle,0,0,0,,Not even the royal family can use them without us knowing.
+Dialogue: 0,1:11:38.22,1:11:42.64,Dialogue,kogoro,0,0,0,,It says here that no bullet was found in Queen Sakura's body.
+Dialogue: 0,1:11:43.28,1:11:44.31,Dialogue,kyle,0,0,0,,The bullet...
+Dialogue: 0,1:11:45.19,1:11:47.15,Dialogue,kyle,0,0,0,,passed through her.
+Dialogue: 0,1:11:47.15,1:11:49.48,Dialogue,kyle,0,0,0,,It was found in the dirt nearby.
+Dialogue: 0,1:11:49.96,1:11:55.02,Dialogue,kogoro,0,0,0,,And the rifling matched the shotgun that Prince Jihl had.
+Dialogue: 0,1:11:55.02,1:11:58.91,Dialogue,kogoro,0,0,0,,I can believe what's written in this case file, can't I?
+Dialogue: 0,1:11:59.25,1:12:00.47,Dialogue,kyle,0,0,0,,Yes.
+Dialogue: 0,1:12:00.47,1:12:02.93,Dialogue,kyle,0,0,0,,I was there at the investigation as well.
+Dialogue: 0,1:12:02.93,1:12:05.04,Dialogue,kyle,0,0,0,,You may take that notebook.
+Dialogue: 0,1:12:05.87,1:12:07.54,Dialogue,kogoro,0,0,0,,Is that allowed?
+Dialogue: 0,1:12:07.89,1:12:11.63,Dialogue,kyle,0,0,0,,As leader of the SP...
+Dialogue: 0,1:12:11.63,1:12:17.55,Dialogue,kyle,0,0,0,,The queen, the prince, and Princess Mira—I failed to protect them.
+Dialogue: 0,1:12:17.55,1:12:22.19,Dialogue,kyle,0,0,0,,And, as a result, your daughter was endangered as well.
+Dialogue: 0,1:12:24.01,1:12:27.90,Dialogue,kogoro,0,0,0,,I'll find out the truth.
+Dialogue: 0,1:12:32.24,1:12:34.21,Dialogue,jigen,0,0,0,,This is the place.
+Dialogue: 0,1:12:34.21,1:12:36.82,Dialogue,jigen,0,0,0,,It was pretty close.
+Dialogue: 0,1:12:36.82,1:12:38.37,Dialogue,conan,0,0,0,,The cherry blossoms sure are pretty.
+Dialogue: 0,1:12:39.60,1:12:43.14,Dialogue,mira,0,0,0,,Hey, why are you here?
+Dialogue: 0,1:12:43.14,1:12:46.47,Dialogue,jigen,0,0,0,,Oh, Princess? Why are you here?
+Dialogue: 0,1:12:46.47,1:12:49.50,Dialogue,conan,0,0,0,,What a surprise! We didn't know you were here!
+Dialogue: 0,1:12:49.92,1:12:51.92,Thoughts,shin,0,0,0,,{\be10}Did I overdo it?
+Dialogue: 0,1:12:54.60,1:12:58.36,Dialogue,mira,0,0,0,,Are you guys pretending to be detectives?
+Dialogue: 0,1:12:58.36,1:13:01.26,Dialogue,mira,0,0,0,,Well, do your best, sommelier boy.
+Dialogue: 0,1:13:01.26,1:13:05.07,Dialogue,conan,0,0,0,,Hey, did Queen Sakura fall on the ground over there?
+Dialogue: 0,1:13:06.09,1:13:07.64,Dialogue,mira,0,0,0,,That's what I heard.
+Dialogue: 0,1:13:07.64,1:13:08.65,Dialogue,conan,0,0,0,,Then...
+Dialogue: 0,1:13:10.49,1:13:11.73,Dialogue,conan,0,0,0,,Hey, Uncle...
+Dialogue: 0,1:13:12.87,1:13:14.35,Dialogue,conan,0,0,0,,Can you give me a piggyback ride?
+Dialogue: 0,1:13:14.35,1:13:15.99,Dialogue,jigen,0,0,0,,What? Stop getting cocky—
+Dialogue: 0,1:13:15.99,1:13:18.06,Dialogue,conan,0,0,0,,Want me to call you Daddy?
+Dialogue: 0,1:13:18.86,1:13:20.41,Dialogue,conan,0,0,0,,Thank you, Uncle.
+Dialogue: 0,1:13:22.38,1:13:23.33,Dialogue,shin,0,0,0,,It's been burned!
+Dialogue: 0,1:13:24.09,1:13:26.49,Dialogue,mira,0,0,0,,You have a good nose and eyes.
+Dialogue: 0,1:13:26.49,1:13:30.89,Dialogue,mira,0,0,0,,That branch broke the same time my mother fell.
+Dialogue: 0,1:13:31.40,1:13:33.60,Dialogue,conan,0,0,0,,That means...
+Dialogue: 0,1:13:34.27,1:13:37.44,Dialogue,conan,0,0,0,,Hey, can you make a shot from there?
+Dialogue: 0,1:13:37.44,1:13:39.99,Dialogue,jigen,0,0,0,,Huh? You mean the cherry tree branch?
+Dialogue: 0,1:13:39.99,1:13:40.60,Dialogue,conan,0,0,0,,No.
+Dialogue: 0,1:13:41.62,1:13:46.61,Dialogue,mira,0,0,0,,My brother shot the fox behind this cherry tree from that hill.
+Dialogue: 0,1:13:46.61,1:13:51.11,Dialogue,mira,0,0,0,,But, at that moment, my mother was trying to chase it away.
+Dialogue: 0,1:13:52.23,1:13:55.65,Dialogue,mira,0,0,0,,And then my brother grabbed a pistol from our uncle who had just arrived at the scene.
+Dialogue: 0,1:13:55.65,1:13:56.83,Dialogue,both,0,0,0,,Grabbed?
+Dialogue: 0,1:13:59.34,1:14:01.18,Dialogue,jigen,0,0,0,,What are you going to do now, Princess?
+Dialogue: 0,1:14:01.18,1:14:03.30,Dialogue,jigen,0,0,0,,Wanna go back with us on our chopper?
+Dialogue: 0,1:14:03.30,1:14:05.54,Dialogue,conan,0,0,0,,This man is pretty amazing.
+Dialogue: 0,1:14:05.54,1:14:09.92,Dialogue,conan,0,0,0,,He can ask pretty much anything of the soldiers in this country.
+Dialogue: 0,1:14:11.48,1:14:14.30,Dialogue,mira,0,0,0,,No thanks. There are people waiting for me.
+Dialogue: 0,1:14:14.76,1:14:17.36,Dialogue,conan,0,0,0,,Waiting for you? You mean that pretty lady?
+Dialogue: 0,1:14:17.36,1:14:19.98,Dialogue,mira,0,0,0,,Yes. She said she's an international lawyer.
+Dialogue: 0,1:14:19.98,1:14:21.81,Dialogue,mira,0,0,0,,She really enjoyed that chase.
+Dialogue: 0,1:14:22.86,1:14:24.36,Dialogue,jigen,0,0,0,,Lady?
+Dialogue: 0,1:14:24.36,1:14:26.02,Dialogue,jigen,0,0,0,,International lawyer?
+Dialogue: 0,1:14:26.39,1:14:28.81,Dialogue,jigen,0,0,0,,Hey, did she give her name?
+Dialogue: 0,1:14:29.63,1:14:31.47,Dialogue,mira,0,0,0,,She said it was Fuji Mineko.
+Dialogue: 0,1:14:32.34,1:14:33.48,Dialogue,jigen,0,0,0,,Oh man...
+Dialogue: 0,1:14:33.48,1:14:34.52,Dialogue,conan,0,0,0,,You know her?
+Dialogue: 0,1:14:34.94,1:14:37.53,Dialogue,fujiko,0,0,0,,And this has that kind of power?
+Dialogue: 0,1:14:37.53,1:14:40.65,Dialogue,lupin,0,0,0,,It emits a special signal.
+Dialogue: 0,1:14:40.65,1:14:43.11,Dialogue,lupin,0,0,0,,It'll last at least 30 seconds.
+Dialogue: 0,1:14:43.11,1:14:43.90,Dialogue,fujiko,0,0,0,,Don't want it.
+Dialogue: 0,1:14:43.90,1:14:45.49,Dialogue,lupin,0,0,0,,Hey now...
+Dialogue: 0,1:14:45.49,1:14:49.41,Dialogue,fujiko,0,0,0,,I expected it to be a bigger treasure since you were after it.
+Dialogue: 0,1:14:49.41,1:14:51.48,Dialogue,fujiko,0,0,0,,But a mere crown?
+Dialogue: 0,1:14:51.48,1:14:53.76,Dialogue,fujiko,0,0,0,,It doesn't even have that many stones.
+Dialogue: 0,1:14:53.76,1:14:55.13,Dialogue,fujiko,0,0,0,,It's just some cheap item.
+Dialogue: 0,1:14:55.13,1:14:56.71,Dialogue,lupin,0,0,0,,That's a terrible way to put it.
+Dialogue: 0,1:14:56.71,1:14:58.80,Dialogue,lupin,0,0,0,,There's incredible history behind it.
+Dialogue: 0,1:14:58.80,1:15:00.42,Dialogue,fujiko,0,0,0,,Price takes precedence over history.
+Dialogue: 0,1:15:03.43,1:15:06.56,Dialogue,jigen,0,0,0,,Aren't you bothered by something she said?
+Dialogue: 0,1:15:07.75,1:15:13.81,Dialogue,conan,0,0,0,,I see why Prince Jihl would opt for a pistol instead of a long-barreled rifle,
+Dialogue: 0,1:15:14.56,1:15:18.15,Dialogue,conan,0,0,0,,but why was the uncle carrying a pistol?
+Dialogue: 0,1:15:18.15,1:15:22.45,Dialogue,jigen,0,0,0,,Even though the SP was there, he carried a rifle and a pistol.
+Dialogue: 0,1:15:22.45,1:15:24.93,Dialogue,jigen,0,0,0,,Let's inspect those guns once we get back.
+Dialogue: 0,1:15:24.93,1:15:26.85,Dialogue,conan,0,0,0,,You're gonna help me?
+Dialogue: 0,1:15:26.85,1:15:28.32,Dialogue,jigen,0,0,0,,Well, I have no choice.
+Dialogue: 0,1:15:28.32,1:15:29.91,Dialogue,jigen,0,0,0,,It's my job.
+Dialogue: 0,1:15:31.41,1:15:33.92,Dialogue,lupin,0,0,0,,Have you decided on becoming queen?
+Dialogue: 0,1:15:34.38,1:15:36.71,Dialogue,mira,0,0,0,,I'm only going back because I have no other choice.
+Dialogue: 0,1:15:36.71,1:15:39.61,Dialogue,mira,0,0,0,,I'm not thinking about becoming queen yet.
+Dialogue: 0,1:15:39.61,1:15:45.26,Dialogue,fujiko,0,0,0,,Whether you become queen or not, my job is over as soon as I drop you off.
+Dialogue: 0,1:15:45.26,1:15:46.35,Dialogue,fujiko,0,0,0,,Call me again.
+Dialogue: 0,1:15:46.35,1:15:48.68,Dialogue,lupin,0,0,0,,Here goes Fuji Mineko.
+Dialogue: 0,1:15:48.68,1:15:50.71,Dialogue,lupin,0,0,0,,And she's gonna rip her off.
+Dialogue: 0,1:15:50.71,1:15:51.76,Dialogue,fujiko,0,0,0,,Did you say something?
+Dialogue: 0,1:15:51.76,1:15:53.25,Dialogue,lupin,0,0,0,,Not a thing!
+Dialogue: 0,1:15:53.25,1:15:54.90,Dialogue,fujiko,0,0,0,,Oh, stop here!
+Dialogue: 0,1:15:55.94,1:15:57.25,Dialogue,lupin,0,0,0,,What?
+Dialogue: 0,1:15:59.15,1:16:01.83,Dialogue,fujiko,0,0,0,,We girls have lots of necessities.
+Dialogue: 0,1:16:09.61,1:16:11.16,Dialogue,maid,0,0,0,,Princess Mira!
+Dialogue: 0,1:16:12.60,1:16:13.91,Dialogue,mira,0,0,0,,Are you angry with me?
+Dialogue: 0,1:16:14.31,1:16:15.81,Dialogue,ran,0,0,0,,I'm not.
+Dialogue: 0,1:16:15.81,1:16:16.83,Dialogue,mira,0,0,0,,Why?
+Dialogue: 0,1:16:16.83,1:16:18.79,Dialogue,mira,0,0,0,,I made you go through so much trouble.
+Dialogue: 0,1:16:18.79,1:16:22.00,Dialogue,ran,0,0,0,,Well, you didn't really do that.
+Dialogue: 0,1:16:22.00,1:16:23.46,Dialogue,ran,0,0,0,,I heard the whole story.
+Dialogue: 0,1:16:23.46,1:16:24.81,Dialogue,mira,0,0,0,,You told her?
+Dialogue: 0,1:16:25.61,1:16:27.64,Dialogue,ran,0,0,0,,Count Keith told me.
+Dialogue: 0,1:16:28.19,1:16:29.48,Dialogue,mira,0,0,0,,Keith did?
+Dialogue: 0,1:16:30.21,1:16:31.98,Dialogue,keith,0,0,0,,Thank you.
+Dialogue: 0,1:16:31.98,1:16:33.43,Dialogue,fujiko,0,0,0,,No problem.
+Dialogue: 0,1:16:33.43,1:16:35.31,Dialogue,fujiko,0,0,0,,I'm just doing my job.
+Dialogue: 0,1:16:35.79,1:16:38.09,Dialogue,keith,0,0,0,,Is cash really acceptable?
+Dialogue: 0,1:16:38.09,1:16:41.26,Dialogue,keith,0,0,0,,We could have arranged a check or bank transfer as well.
+Dialogue: 0,1:16:41.26,1:16:45.32,Dialogue,fujiko,0,0,0,,I don't trust anything except cash.
+Dialogue: 0,1:16:45.32,1:16:46.76,Dialogue,keith,0,0,0,,Is that so?
+Dialogue: 0,1:16:46.76,1:16:49.46,Dialogue,keith,0,0,0,,So, did the princess enjoy herself?
+Dialogue: 0,1:16:49.46,1:16:50.92,Dialogue,fujiko,0,0,0,,Yes.
+Dialogue: 0,1:16:50.92,1:16:57.47,Dialogue,fujiko,0,0,0,,I believe she was able to be a normal girl and forget about being a princess for a night.
+Dialogue: 0,1:16:57.47,1:16:59.97,Dialogue,keith,0,0,0,,I see.
+Dialogue: 0,1:16:59.97,1:17:01.71,Dialogue,fujiko,0,0,0,,You're so kind.
+Dialogue: 0,1:17:01.71,1:17:05.01,Dialogue,fujiko,0,0,0,,Why don't you tell her the truth?
+Dialogue: 0,1:17:05.01,1:17:09.22,Dialogue,fujiko,0,0,0,,That you wanted to grant her freedom for a day?
+Dialogue: 0,1:17:09.56,1:17:10.35,Dialogue,keith,0,0,0,,I couldn't possibly do that.
+Dialogue: 0,1:17:11.45,1:17:12.89,Dialogue,fujiko,0,0,0,,Don't worry.
+Dialogue: 0,1:17:12.89,1:17:15.18,Dialogue,fujiko,0,0,0,,I keep my clientèle's secrets.
+Dialogue: 0,1:17:15.18,1:17:18.33,Dialogue,fujiko,0,0,0,,I'm a lawyer, after all.
+Dialogue: 0,1:17:19.19,1:17:24.74,Dialogue,lupin,0,0,0,,Thank you for feeding a mere driver.
+Dialogue: 0,1:17:26.68,1:17:28.27,Dialogue,lupin,0,0,0,,Delicious!
+Dialogue: 0,1:17:27.22,1:17:28.80,Dialogue Top,jigen,0,0,0,,Bring us beer and juice.
+Dialogue: 0,1:17:28.80,1:17:29.87,Dialogue,maid,0,0,0,,Y-Yes, sir.
+Dialogue: 0,1:17:29.87,1:17:30.87,Dialogue,jigen,0,0,0,,What?!
+Dialogue: 0,1:17:30.87,1:17:31.74,Dialogue,lupin,0,0,0,,Yo.
+Dialogue: 0,1:17:32.39,1:17:34.12,Dialogue,jigen,0,0,0,,Don't yo me!
+Dialogue: 0,1:17:34.60,1:17:36.66,Dialogue,conan,0,0,0,,Huh? Isn't that...
+Dialogue: 0,1:17:36.66,1:17:37.33,Dialogue,kogoro,0,0,0,,You!
+Dialogue: 0,1:17:37.33,1:17:38.58,Dialogue,kogoro,0,0,0,,Come with me!
+Dialogue: 0,1:17:39.10,1:17:40.65,Dialogue,conan,0,0,0,,Uncle!
+Dialogue: 0,1:17:40.65,1:17:42.88,Dialogue,kogoro,0,0,0,,Don't uncle me!
+Dialogue: 0,1:17:42.88,1:17:44.50,Dialogue,jigen,0,0,0,,What's going on, Lupin?
+Dialogue: 0,1:17:44.50,1:17:47.96,Dialogue,lupin,0,0,0,,I gave the princess a ride and they offered me dinner.
+Dialogue: 0,1:17:47.96,1:17:49.07,Dialogue,jigen,0,0,0,,Not that!
+Dialogue: 0,1:17:49.07,1:17:50.18,Dialogue,jigen,0,0,0,,About Fujiko!
+Dialogue: 0,1:17:50.18,1:17:51.64,Dialogue,lupin,0,0,0,,Oh, that?
+Dialogue: 0,1:17:51.64,1:17:55.06,Dialogue,conan,0,0,0,,No, I snuck into the plane and it was freezing...
+Dialogue: 0,1:17:55.06,1:17:56.54,Dialogue,kogoro,0,0,0,,Not that!
+Dialogue: 0,1:17:56.54,1:17:58.83,Dialogue,kogoro,0,0,0,,Acting all cocky and playing the detective.
+Dialogue: 0,1:17:58.83,1:17:59.98,Dialogue,conan,0,0,0,,Oh, that?
+Dialogue: 0,1:17:59.98,1:18:02.82,Dialogue,jigen,0,0,0,,Has anything good ever come out of her getting involved?
+Dialogue: 0,1:18:02.82,1:18:04.66,Dialogue,kogoro,0,0,0,,You'll only hinder the investigation!
+Dialogue: 0,1:18:04.66,1:18:06.99,Dialogue,lupin,0,0,0,,But she said she'd help.
+Dialogue: 0,1:18:06.99,1:18:08.83,Dialogue,conan,0,0,0,,I'm just trying to help.
+Dialogue: 0,1:18:08.83,1:18:10.25,Dialogue,both,0,0,0,,Huh?
+Dialogue: 0,1:18:10.25,1:18:11.99,Dialogue,both,0,0,0,,Yeah, right!
+Dialogue: 0,1:18:11.99,1:18:14.60,Dialogue,both,0,0,0,,Nothing good has ever come from that!
+Dialogue: 0,1:18:18.57,1:18:21.39,Dialogue,jigen,0,0,0,,Whatever the case, let's just get it over with and get out of here.
+Dialogue: 0,1:18:21.39,1:18:22.17,Dialogue,lupin,0,0,0,,Yeah.
+Dialogue: 0,1:18:22.17,1:18:24.80,Dialogue,kogoro,0,0,0,,So, what did the scene look like?
+Dialogue: 0,1:18:24.80,1:18:27.31,Dialogue,conan,0,0,0,,You checked the rifling, right?
+Dialogue: 0,1:18:31.29,1:18:33.25,Dialogue,maid,0,0,0,,Here you go.
+Dialogue: 0,1:18:33.25,1:18:36.92,Dialogue,zenigata,0,0,0,,Miss, can I have coffee?
+Dialogue: 0,1:18:36.92,1:18:37.87,Dialogue,maid,0,0,0,,Yes, sir.
+Dialogue: 0,1:18:37.87,1:18:38.60,Dialogue,maid,0,0,0,,Oh?
+Dialogue: 0,1:18:38.60,1:18:39.87,Dialogue,zenigata,0,0,0,,Is something wrong?
+Dialogue: 0,1:18:40.70,1:18:43.61,Dialogue,maid,0,0,0,,Weren't they just here?
+Dialogue: 0,1:18:44.13,1:18:45.78,Dialogue,ran,0,0,0,,Dad, Conan.
+Dialogue: 0,1:18:48.26,1:18:51.03,Dialogue,conan,0,0,0,,That's Ran, right?
+Dialogue: 0,1:18:51.03,1:18:52.50,Dialogue,kogoro,0,0,0,,Be careful.
+Dialogue: 0,1:18:52.50,1:18:55.45,Dialogue,kogoro,0,0,0,,If we get them mixed-up now, it'll get scary later.
+Dialogue: 0,1:18:59.01,1:19:00.83,Dialogue,ran,0,0,0,,Those two...
+Dialogue: 0,1:19:01.83,1:19:03.33,Dialogue,kogoro,0,0,0,,Ran!
+Dialogue: 0,1:19:03.59,1:19:04.89,Dialogue,ran,0,0,0,,Unbelievable!
+Dialogue: 0,1:19:04.89,1:19:06.14,Dialogue,ran,0,0,0,,You're both scum!
+Dialogue: 0,1:19:06.14,1:19:08.40,Dialogue,kogoro,0,0,0,,Don't be so upset, Ran!
+Dialogue: 0,1:19:08.40,1:19:10.38,Dialogue,conan,0,0,0,,Ran!
+Dialogue: 0,1:19:10.38,1:19:12.74,Dialogue,maid,0,0,0,,Here is your coffee, sir.
+Dialogue: 0,1:19:12.74,1:19:13.77,Dialogue,zenigata,0,0,0,,Thank you.
+Dialogue: 0,1:19:14.16,1:19:16.00,Dialogue,zenigata,0,0,0,,You're still here?
+Dialogue: 0,1:19:16.00,1:19:16.89,Dialogue,maid,0,0,0,,Yes, sir.
+Dialogue: 0,1:19:16.89,1:19:19.28,Dialogue,maid,0,0,0,,There are only two of us left: the chef and me.
+Dialogue: 0,1:19:19.65,1:19:20.85,Dialogue,zenigata,0,0,0,,Sorry.
+Dialogue: 0,1:19:20.85,1:19:23.28,Dialogue,zenigata,0,0,0,,I'll only be here a little longer.
+Dialogue: 0,1:19:23.28,1:19:25.72,Dialogue,jigen,0,0,0,,Why is the Old Man here?
+Dialogue: 0,1:19:25.72,1:19:27.95,Dialogue,lupin,0,0,0,,As if I know.
+Dialogue: 0,1:19:27.95,1:19:29.17,Dialogue,jigen,0,0,0,,It must be that woman.
+Dialogue: 0,1:19:29.17,1:19:31.29,Dialogue,lupin,0,0,0,,I don't think so.
+Dialogue: 0,1:19:31.81,1:19:36.91,Dialogue,lupin,0,0,0,,Anyway, now that we're all here, shall we begin?
+Dialogue: 0,1:19:42.92,1:19:46.09,Dialogue,mira,0,0,0,,Mother's fragrance...
+Dialogue: 0,1:19:47.82,1:19:49.40,Dialogue,ran,0,0,0,,Princess Mira?
+Dialogue: 0,1:19:49.40,1:19:50.67,Dialogue,mira,0,0,0,,The door's open.
+Dialogue: 0,1:19:51.92,1:19:53.38,Dialogue,ran,0,0,0,,Excuse us.
+Dialogue: 0,1:19:53.74,1:19:55.79,Dialogue,ran,0,0,0,,I brought them.
+Dialogue: 0,1:19:56.43,1:19:58.62,Dialogue,ran,0,0,0,,Is this really all right?
+Dialogue: 0,1:19:58.62,1:19:59.89,Dialogue,mira,0,0,0,,It's fine.
+Dialogue: 0,1:19:59.89,1:20:02.22,Dialogue,mira,0,0,0,,This is my mother's room.
+Dialogue: 0,1:20:02.22,1:20:04.81,Dialogue,mira,0,0,0,,Everything has been left just as it was when she died.
+Dialogue: 0,1:20:05.29,1:20:07.22,Dialogue,mira,0,0,0,,I haven't allowed anyone to touch anything.
+Dialogue: 0,1:20:07.99,1:20:09.29,Dialogue,mira,0,0,0,,You're investigating, aren't you?
+Dialogue: 0,1:20:09.29,1:20:11.03,Dialogue,mira,0,0,0,,I'll help.
+Dialogue: 0,1:20:11.03,1:20:13.84,Dialogue,kogoro,0,0,0,,Then, let's begin.
+Dialogue: 0,1:20:14.67,1:20:16.79,Dialogue,mira,0,0,0,,But how funny is this?
+Dialogue: 0,1:20:16.79,1:20:21.50,Dialogue,mira,0,0,0,,My uncle killed my mother and brother, and I'm helping you find evidence.
+Dialogue: 0,1:20:21.50,1:20:24.83,Dialogue,ran,0,0,0,,We don't know that for sure...
+Dialogue: 0,1:20:26.10,1:20:27.29,Dialogue,ran,0,0,0,,I'm sorry.
+Dialogue: 0,1:20:27.83,1:20:29.85,Dialogue,mira,0,0,0,,Why are you apologizing?
+Dialogue: 0,1:20:30.86,1:20:33.96,Dialogue,mira,0,0,0,,This country has been cursed...
+Dialogue: 0,1:20:34.74,1:20:36.59,Dialogue,mira,0,0,0,,by that stone.
+Dialogue: 0,1:20:36.99,1:20:38.21,Dialogue,ran,0,0,0,,Mira...
+Dialogue: 0,1:20:42.65,1:20:44.81,Dialogue,conan,0,0,0,,Awesome...
+Dialogue: 0,1:20:52.84,1:20:53.54,Thoughts,shin,0,0,0,,{\be10}This is...
+Dialogue: 0,1:21:02.37,1:21:05.73,Thoughts,shin,0,0,0,,{\be10}I now understand Queen Sakura's feelings...
+Dialogue: 0,1:21:08.26,1:21:10.45,Thoughts,shin,0,0,0,,{\be10}The queen's great love...
+Dialogue: 0,1:21:20.85,1:21:22.06,Dialogue,lupin,0,0,0,,Oh?
+Dialogue: 0,1:21:22.06,1:21:25.81,Dialogue,lupin,0,0,0,,A thief's going to come in if you leave the door ajar, you know.
+Dialogue: 0,1:21:25.81,1:21:28.36,Dialogue,lupin,0,0,0,,Sleep spray!
+Dialogue: 0,1:21:28.36,1:21:29.27,Dialogue,lupin,0,0,0,,See?
+Dialogue: 0,1:21:29.79,1:21:30.98,Dialogue,lupin,0,0,0,,Why are you asleep?
+Dialogue: 0,1:21:31.46,1:21:32.57,Dialogue,lupin,0,0,0,,Why is it open?!
+Dialogue: 0,1:21:33.43,1:21:35.32,Dialogue,lupin,0,0,0,,Why is it not here?
+Dialogue: 0,1:21:35.32,1:21:37.65,Dialogue,lupin,0,0,0,,Why did I build this?
+Dialogue: 0,1:21:37.65,1:21:39.36,Dialogue,lupin,0,0,0,,Who are you?
+Dialogue: 0,1:21:39.36,1:21:40.88,Dialogue,fujiko,0,0,0,,Sorry, Lupin.
+Dialogue: 0,1:21:41.18,1:21:42.08,Dialogue,fujiko,0,0,0,,Sorry, Lupin.
+Dialogue: 0,1:21:42.08,1:21:44.33,Dialogue,lupin,0,0,0,,No... Impossible...
+Dialogue: 0,1:21:43.03,1:21:44.33,Dialogue Top,fujiko,0,0,0,,Sorry, Lupin.
+Dialogue: 0,1:21:44.33,1:21:45.72,Dialogue,fujiko,0,0,0,,Sorry, Lupin.
+Dialogue: 0,1:21:45.72,1:21:46.58,Dialogue,fujiko,0,0,0,,Sorry, Lupi—
+Dialogue: 0,1:21:55.72,1:21:57.23,Dialogue,lupin,0,0,0,,I set off all the sensors.
+Dialogue: 0,1:22:01.90,1:22:03.55,Dialogue,fujiko,0,0,0,,Sorry, Lupin.
+Dialogue: 0,1:22:03.55,1:22:06.28,Dialogue,fujiko,0,0,0,,Get captured in my place, okay?
+Dialogue: 0,1:22:07.42,1:22:08.74,Dialogue,fujiko,0,0,0,,What's going on?
+Dialogue: 0,1:22:08.74,1:22:11.74,Dialogue,fujiko,0,0,0,,They got here too quick!
+Dialogue: 0,1:22:13.27,1:22:15.92,Dialogue,zenigata,0,0,0,,Thank you for your cooperation.
+Dialogue: 0,1:22:15.92,1:22:17.07,Dialogue,gerard,0,0,0,,No problem.
+Dialogue: 0,1:22:17.07,1:22:19.05,Dialogue,gerard,0,0,0,,And Lupin appeared as expected.
+Dialogue: 0,1:22:19.05,1:22:20.50,Dialogue,gerard,0,0,0,,Your foresight is rather impressive.
+Dialogue: 0,1:22:21.06,1:22:23.22,Dialogue,zenigata,0,0,0,,I'll see you later then.
+Dialogue: 0,1:22:23.22,1:22:25.94,Dialogue,zenigata,0,0,0,,Lupin! Lupin!
+Dialogue: 0,1:22:25.94,1:22:28.28,Dialogue,gerard,0,0,0,,I shall use the gazebo.
+Dialogue: 0,1:22:28.28,1:22:30.09,Dialogue,gerard,0,0,0,,Is everything ready?
+Dialogue: 0,1:22:30.09,1:22:32.30,Dialogue,SP,0,0,0,,Yes, sir. All is in order.
+Dialogue: 0,1:22:34.71,1:22:37.05,Dialogue,gerard,0,0,0,,It's finally going to end.
+Dialogue: 0,1:22:37.05,1:22:39.50,Dialogue,lupin,0,0,0,,Hello, can you hear me?
+Dialogue: 0,1:22:39.50,1:22:40.05,Dialogue,jigen,0,0,0,,Yeah.
+Dialogue: 0,1:22:40.05,1:22:42.06,Dialogue,lupin,0,0,0,,I got locked up.
+Dialogue: 0,1:22:42.06,1:22:44.14,Dialogue,lupin,0,0,0,,Can you come and get me?
+Dialogue: 0,1:22:44.14,1:22:45.26,Dialogue,jigen,0,0,0,,What about the treasure?
+Dialogue: 0,1:22:45.26,1:22:46.42,Dialogue,lupin,0,0,0,,It's not here.
+Dialogue: 0,1:22:46.42,1:22:47.32,Dialogue,jigen,0,0,0,,I'm turning back.
+Dialogue: 0,1:22:47.32,1:22:49.20,Dialogue,lupin,0,0,0,,Aw, come on.
+Dialogue: 0,1:22:49.20,1:22:51.33,Dialogue,jigen,0,0,0,,Learn your lesson already!
+Dialogue: 0,1:22:51.33,1:22:52.06,Dialogue,lupin,0,0,0,,Okay!
+Dialogue: 0,1:22:52.57,1:22:54.79,Dialogue,jigen,0,0,0,,Master, it's your turn.
+Dialogue: 0,1:22:57.35,1:22:58.57,Dialogue,goemon,0,0,0,,Yes, understood!
+Dialogue: 0,1:23:11.33,1:23:13.84,Dialogue,lupin,0,0,0,,He's cutting more than usual.
+Dialogue: 0,1:23:20.14,1:23:25.25,Dialogue,goemon,0,0,0,,I have slashed through several worthless objects once again.
+Dialogue: 0,1:23:25.25,1:23:27.20,Dialogue,lupin,0,0,0,,Isn't that pose tough to keep?
+Dialogue: 0,1:23:27.20,1:23:28.10,Dialogue,goemon,0,0,0,,Y-Yes...
+Dialogue: 0,1:23:34.68,1:23:35.48,Dialogue,lupin,0,0,0,,Thank you!
+Dialogue: 0,1:23:38.57,1:23:40.70,Dialogue,lupin,0,0,0,,Now, back me up!
+Dialogue: 0,1:23:47.38,1:23:49.49,Dialogue,zenigata,0,0,0,,Only Jigen and Goemon left.
+Dialogue: 0,1:23:49.49,1:23:51.00,Dialogue,zenigata,0,0,0,,Just as I predicted.
+Dialogue: 0,1:23:51.96,1:23:53.29,Dialogue,gerard,0,0,0,,Is everyone here?
+Dialogue: 0,1:23:53.29,1:23:55.72,Dialogue,SP,0,0,0,,I believe we're the last ones.
+Dialogue: 0,1:23:55.72,1:23:57.00,Dialogue,ppl,0,0,0,,Is something going on?
+Dialogue: 0,1:23:57.00,1:23:58.47,Dialogue,ppl,0,0,0,,Why's everyone been called here?
+Dialogue: 0,1:23:58.47,1:24:00.26,Dialogue,ppl,0,0,0,,The inspector requested it.
+Dialogue: 0,1:24:00.69,1:24:03.48,Dialogue,gerard,0,0,0,,Is this what you wanted, Inspector Zenigata?
+Dialogue: 0,1:24:03.90,1:24:05.01,Dialogue,zenigata,0,0,0,,Yes.
+Dialogue: 0,1:24:05.01,1:24:06.53,Dialogue,zenigata,0,0,0,,Thank you.
+Dialogue: 0,1:24:08.14,1:24:11.57,Dialogue,zenigata,0,0,0,,The reason I asked you all here...
+Dialogue: 0,1:24:12.20,1:24:17.38,Dialogue,zenigata,0,0,0,,is because a short while ago, the Queen Crown was stolen from the palace safe.
+Dialogue: 0,1:24:17.38,1:24:21.36,Dialogue,zenigata,0,0,0,,In order to apprehend the thief and take back the Queen Crown,
+Dialogue: 0,1:24:21.36,1:24:25.57,Dialogue,zenigata,0,0,0,,I had to empty the palace as much as possible in order—
+Dialogue: 0,1:24:18.71,1:24:21.36,Dialogue Top,shin,0,0,0,,Sorry, but let me talk first.
+Dialogue: 0,1:24:28.62,1:24:29.53,Dialogue,shin,0,0,0,,Damn!
+Dialogue: 0,1:24:33.85,1:24:35.04,Dialogue,shin,0,0,0,,Gotta go with it!
+Dialogue: 0,1:24:35.86,1:24:37.36,Dialogue,kyle,0,0,0,,Is something the matter?
+Dialogue: 0,1:24:37.36,1:24:39.54,Dialogue,conan,0,0,0,,It's someone here:
+Dialogue: 0,1:24:40.44,1:24:44.05,Dialogue,conan,0,0,0,,the one who's trying to kill Princess Mira.
+Dialogue: 0,1:24:44.05,1:24:45.94,Dialogue,ran,0,0,0,,But, you were investigating that.
+Dialogue: 0,1:24:45.94,1:24:47.47,Dialogue,lupin,0,0,0,,What? Me?
+Dialogue: 0,1:24:47.94,1:24:52.47,Dialogue,conan,0,0,0,,It all began with that peculiar hunting accident.
+Dialogue: 0,1:24:52.47,1:24:54.07,Dialogue,maid,0,0,0,,Was he...
+Dialogue: 0,1:24:54.07,1:24:56.52,Dialogue,kyle,0,0,0,,No, I don't think so.
+Dialogue: 0,1:24:56.52,1:24:59.62,Dialogue,maid,0,0,0,,That boy and Ran's father were investigating this, weren't they?
+Dialogue: 0,1:24:59.62,1:25:02.16,Dialogue,conan,0,0,0,,It was no accident.
+Dialogue: 0,1:25:02.84,1:25:03.87,Thoughts,conan,0,0,0,,{\be10}Yawning?
+Dialogue: 0,1:25:06.90,1:25:07.87,Dialogue,zenigata,0,0,0,,Huh?
+Dialogue: 0,1:25:07.87,1:25:09.32,Thoughts,conan,0,0,0,,{\be10}Are you serious?
+Dialogue: 0,1:25:09.32,1:25:11.37,Thoughts,conan,0,0,0,,{\be10}That's supposed to even keep an elephant down for thirty minutes!
+Dialogue: 0,1:25:11.94,1:25:16.33,Dialogue,lupin,0,0,0,,Yes, it was a murder that was disguised as an accident.
+Dialogue: 0,1:25:18.11,1:25:20.84,Dialogue,zenigata,0,0,0,,What was I...
+Dialogue: 0,1:25:21.45,1:25:23.09,Thoughts,conan,0,0,0,,{\be10}That thief guy?
+Dialogue: 0,1:25:23.79,1:25:26.56,Thoughts,lupin,0,0,0,,{\be10}This seems interesting, kid.
+Dialogue: 0,1:25:26.56,1:25:29.94,Dialogue,lupin,0,0,0,,Can I talk for a minute first, Old Man?
+Dialogue: 0,1:25:29.94,1:25:31.68,Thoughts,conan,0,0,0,,{\be10}Is this for real?
+Dialogue: 0,1:25:31.68,1:25:33.86,Thoughts,conan,0,0,0,,{\be10}Fine, man.
+Dialogue: 0,1:25:33.86,1:25:35.69,Thoughts,conan,0,0,0,,{\be10}Play along with me.
+Dialogue: 0,1:25:35.69,1:25:43.75,Dialogue,conan,0,0,0,,Duke Gerard testified that Prince Jihl was on the hill aiming at a fox behind the cherry tree,
+Dialogue: 0,1:25:43.75,1:25:50.67,Dialogue,conan,0,0,0,,but instead, hit Queen Sakura, who had just stepped out from behind the tree while chasing the fox away.
+Dialogue: 0,1:25:50.67,1:25:53.03,Dialogue,lupin,0,0,0,,Isn't that correct, Princess Mira?
+Dialogue: 0,1:25:53.79,1:25:56.33,Dialogue,mira,0,0,0,,Yes, that's what I've been told.
+Dialogue: 0,1:25:56.33,1:26:00.54,Dialogue,ran,0,0,0,,Don't tell me you mixed the two of us up again, Dad.
+Dialogue: 0,1:26:00.54,1:26:01.91,Dialogue,lupin,0,0,0,,I'm your father?
+Dialogue: 0,1:26:03.56,1:26:06.13,Dialogue,gerard,0,0,0,,Why is that girl here?
+Dialogue: 0,1:26:06.79,1:26:09.97,Dialogue,keith,0,0,0,,So, you knew about that Japanese girl?
+Dialogue: 0,1:26:09.97,1:26:14.73,Dialogue,gerard,0,0,0,,Y-Yes, I had overheard some of the SP talking about her earlier.
+Dialogue: 0,1:26:14.73,1:26:18.64,Dialogue,keith,0,0,0,,I apologize for bringing her to the palace without permission...
+Dialogue: 0,1:26:19.25,1:26:21.71,Dialogue,keith,0,0,0,,and without notifying anyone.
+Dialogue: 0,1:26:21.71,1:26:24.87,Dialogue,gerard,0,0,0,,I see, so that's how it is.
+Dialogue: 0,1:26:24.87,1:26:29.61,Dialogue,conan,0,0,0,,Prince Jihl committed suicide while holding the pistol in his right hand.
+Dialogue: 0,1:26:29.61,1:26:32.40,Dialogue,conan,0,0,0,,The shot was to his right temple.
+Dialogue: 0,1:26:32.40,1:26:34.89,Dialogue,conan,0,0,0,,And it would have been natural for him to hold it with his right hand.
+Dialogue: 0,1:26:34.89,1:26:36.84,Dialogue,conan,0,0,0,,Is that right, Princess Mira?
+Dialogue: 0,1:26:37.85,1:26:40.08,Dialogue,mira,0,0,0,,My brother... was left-handed.
+Dialogue: 0,1:26:41.00,1:26:42.07,Dialogue,conan,0,0,0,,Oh?
+Dialogue: 0,1:26:42.07,1:26:46.27,Dialogue,conan,0,0,0,,That means someone had him hold the pistol in the wrong hand.
+Dialogue: 0,1:26:46.27,1:26:50.51,Dialogue,conan,0,0,0,,Why did that person think the prince was right-handed?
+Dialogue: 0,1:26:50.51,1:26:55.55,Dialogue,conan,0,0,0,,I saw a photo of the prince in Queen Sakura's room.
+Dialogue: 0,1:26:55.55,1:26:58.72,Dialogue,conan,0,0,0,,It was of him playing baseball when he was younger.
+Dialogue: 0,1:26:58.72,1:27:01.10,Dialogue,conan,0,0,0,,He was wearing a glove on his right hand.
+Dialogue: 0,1:27:01.76,1:27:07.81,Dialogue,mira,0,0,0,,Since he was young, my brother had been taught to eat and sign his name with his right hand.
+Dialogue: 0,1:27:07.81,1:27:09.22,Dialogue,conan,0,0,0,,I see.
+Dialogue: 0,1:27:09.22,1:27:13.36,Dialogue,conan,0,0,0,,There must be a number of proper mannerisms to become the nation's ruler, after all.
+Dialogue: 0,1:27:13.36,1:27:18.12,Dialogue,conan,0,0,0,,Kyle, did you bring the rifle?
+Dialogue: 0,1:27:18.12,1:27:19.64,Dialogue,kyle,0,0,0,,Yes, it's right here.
+Dialogue: 0,1:27:19.64,1:27:22.92,Dialogue,kyle,0,0,0,,That boy said you wanted me to bring it.
+Dialogue: 0,1:27:23.68,1:27:26.63,Dialogue,conan,0,0,0,,The two of them were using the same model.
+Dialogue: 0,1:27:26.93,1:27:30.97,Dialogue,conan,0,0,0,,Unless they're custom-made,
+Dialogue: 0,1:27:30.97,1:27:34.92,Dialogue,conan,0,0,0,,all bolt-action rifles are operated with the right hand.
+Dialogue: 0,1:27:35.69,1:27:41.04,Dialogue,conan,0,0,0,,That's because the bolt used for loading ammunition is positioned on the right side.
+Dialogue: 0,1:27:42.78,1:27:43.44,Thoughts,lupin,0,0,0,,{\be10}Huh?
+Dialogue: 0,1:27:43.44,1:27:45.50,Dialogue,lupin,0,0,0,,Oh, so that's what's going on!
+Dialogue: 0,1:27:45.50,1:27:47.78,Dialogue,conan,0,0,0,,Don't talk on your own!
+Dialogue: 0,1:27:47.78,1:27:50.95,Dialogue,lupin,0,0,0,,Now I know who the killer is.
+Dialogue: 0,1:27:49.86,1:27:50.95,Dialogue Top,conan,0,0,0,,Uncle!
+Dialogue: 0,1:27:50.95,1:27:53.20,Dialogue,conan,0,0,0,,I want to hear the rest of your deduction!
+Dialogue: 0,1:27:53.20,1:27:54.49,Dialogue,ran,0,0,0,,Conan!
+Dialogue: 0,1:27:54.49,1:27:56.47,Dialogue,ran,0,0,0,,Don't climb up there!
+Dialogue: 0,1:27:56.47,1:27:58.33,Dialogue,conan,0,0,0,,S-Sorry!
+Dialogue: 0,1:27:58.33,1:28:00.20,Dialogue,lupin,0,0,0,,Duke Gerard...
+Dialogue: 0,1:28:00.20,1:28:02.35,Dialogue,lupin,0,0,0,,Give me a minute.
+Dialogue: 0,1:28:03.09,1:28:06.17,Dialogue,conan,0,0,0,,That's where you made your fatal mistake.
+Dialogue: 0,1:28:06.17,1:28:10.42,Dialogue,conan,0,0,0,,After seeing the prince handling the rifle with his right hand,
+Dialogue: 0,1:28:10.42,1:28:15.43,Dialogue,conan,0,0,0,,you didn't think twice before putting the pistol there.
+Dialogue: 0,1:28:22.08,1:28:23.44,Dialogue,jill,0,0,0,,Why...
+Dialogue: 0,1:28:23.44,1:28:25.10,Dialogue,jill,0,0,0,,Why?!
+Dialogue: 0,1:28:25.10,1:28:27.15,Dialogue,jill,0,0,0,,Why did you shoot her?!
+Dialogue: 0,1:28:29.84,1:28:33.95,Dialogue,gerard,0,0,0,,The one who shot the queen was you.
+Dialogue: 0,1:28:37.36,1:28:40.28,Dialogue,mira,0,0,0,,Did you really do it?
+Dialogue: 0,1:28:40.85,1:28:43.41,Dialogue,gerard,0,0,0,,Is this what you wanted to discuss?
+Dialogue: 0,1:28:43.41,1:28:48.01,Dialogue,gerard,0,0,0,,Inspector Zenigata, it seems your assistant wants to turn this into a murder investigation.
+Dialogue: 0,1:28:48.56,1:28:50.46,Dialogue,gerard,0,0,0,,What shall we do?
+Dialogue: 0,1:28:51.76,1:28:55.34,Dialogue,zenigata,0,0,0,,Mouri, is that all you have to say?
+Dialogue: 0,1:28:55.34,1:28:57.89,Dialogue,lupin,0,0,0,,No, I'm still getting to the best part.
+Dialogue: 0,1:28:57.89,1:29:00.39,Dialogue,shin,0,0,0,,You're talking again!
+Dialogue: 0,1:29:01.87,1:29:03.68,Dialogue,lupin,0,0,0,,Ahem, internal memo.
+Dialogue: 0,1:29:05.00,1:29:06.71,Dialogue,lupin,0,0,0,,I saw the bullet inside.
+Dialogue: 0,1:29:06.71,1:29:08.69,Dialogue,lupin,0,0,0,,Let me show off.
+Dialogue: 0,1:29:09.89,1:29:10.90,Dialogue,lupin,0,0,0,,Now then...
+Dialogue: 0,1:29:11.86,1:29:15.41,Dialogue,lupin,0,0,0,,You insist that it was all an accident, right?
+Dialogue: 0,1:29:15.41,1:29:19.51,Dialogue,lupin,0,0,0,,And that this is the rifle that was used to shoot Queen Sakura?
+Dialogue: 0,1:29:19.51,1:29:20.91,Dialogue,gerard,0,0,0,,So?
+Dialogue: 0,1:29:20.91,1:29:22.79,Dialogue,lupin,0,0,0,,You switched them, didn't you?
+Dialogue: 0,1:29:23.24,1:29:29.73,Dialogue,lupin,0,0,0,,Because of the rifling, you swapped your rifle with the prince's after killing the queen.
+Dialogue: 0,1:29:29.73,1:29:30.54,Dialogue,lupin,0,0,0,,Right?
+Dialogue: 0,1:29:31.69,1:29:33.40,Dialogue,gerard,0,0,0,,Are you done?
+Dialogue: 0,1:29:33.40,1:29:36.63,Dialogue,gerard,0,0,0,,If you'd like to turn this into a murder investigation, please present your evidence.
+Dialogue: 0,1:29:53.90,1:29:56.32,Dialogue,ran,0,0,0,,D-Dad, what have you done?
+Dialogue: 0,1:29:57.06,1:29:58.84,Dialogue,lupin,0,0,0,,It was a blank.
+Dialogue: 0,1:29:58.84,1:30:00.82,Dialogue,gerard,0,0,0,,A-A blank?
+Dialogue: 0,1:30:00.82,1:30:05.37,Dialogue,lupin,0,0,0,,What bothered me was the part about Queen Sakura going along on the hunting trip.
+Dialogue: 0,1:30:06.55,1:30:09.25,Dialogue,ran,0,0,0,,Did your father know my mother?
+Dialogue: 0,1:30:09.25,1:30:11.00,Dialogue,ran,0,0,0,,I've never heard him mention it.
+Dialogue: 0,1:30:11.00,1:30:13.98,Dialogue,ran,0,0,0,,And he's not even acting like his usual self.
+Dialogue: 0,1:30:13.98,1:30:14.88,Dialogue,mira,0,0,0,,His usual self?
+Dialogue: 0,1:30:15.56,1:30:16.81,Dialogue,ran,0,0,0,,He's...
+Dialogue: 0,1:30:16.81,1:30:18.80,Dialogue,ran,0,0,0,,His usual nickname is Sleeping Kogorou...
+Dialogue: 0,1:30:18.80,1:30:24.39,Dialogue,ran,0,0,0,,I can't believe he's talking about the case so boldly...
+Dialogue: 0,1:30:24.39,1:30:27.43,Dialogue,lupin,0,0,0,,Isn't that strange, Gerard?
+Dialogue: 0,1:30:27.43,1:30:30.16,Dialogue,lupin,0,0,0,,Why were you shocked?
+Dialogue: 0,1:30:30.16,1:30:31.77,Dialogue,ran,0,0,0,,Has he gone crazy?
+Dialogue: 0,1:30:31.77,1:30:33.49,Dialogue,shin,0,0,0,,We're doomed.
+Dialogue: 0,1:30:33.49,1:30:34.11,Dialogue,lupin,0,0,0,,This is—
+Dialogue: 0,1:30:34.11,1:30:37.94,Dialogue,conan,0,0,0,,This rifle is the one you were using that day, correct?
+Dialogue: 0,1:30:38.50,1:30:46.63,Dialogue,conan,0,0,0,,I had Conan ask Kyle to bring the rifle that Duke Gerard was using that day.
+Dialogue: 0,1:30:46.63,1:30:48.58,Dialogue,kyle,0,0,0,,Yes, that's what he asked me.
+Dialogue: 0,1:30:49.08,1:30:55.47,Dialogue,conan,0,0,0,,That means you were hunting without realizing that your own rifle had blank shells, correct?
+Dialogue: 0,1:30:56.16,1:31:03.01,Dialogue,conan,0,0,0,,Queen Sakura never liked hunting because animals were killed under the label of a sport.
+Dialogue: 0,1:31:03.01,1:31:06.98,Dialogue,conan,0,0,0,,Perhaps that lead to her wanting to ensure that Prince Jihl disliked it as well.
+Dialogue: 0,1:31:07.60,1:31:12.46,Dialogue,conan,0,0,0,,Thus, she gave Prince Jihl shells that were missing bullets.
+Dialogue: 0,1:31:12.46,1:31:13.69,Dialogue,mira,0,0,0,,Mother...
+Dialogue: 0,1:31:13.69,1:31:19.69,Dialogue,conan,0,0,0,,Kyle and the others recorded that in great detail in the case file.
+Dialogue: 0,1:31:19.69,1:31:26.40,Dialogue,zenigata,0,0,0,,But I can't believe a queen would have such in-depth knowledge about weapons.
+Dialogue: 0,1:31:26.40,1:31:27.84,Dialogue,lupin,0,0,0,,Great question!
+Dialogue: 0,1:31:27.84,1:31:29.72,Dialogue,conan,0,0,0,,Keep quiet!
+Dialogue: 0,1:31:29.72,1:31:30.96,Thoughts,lupin,0,0,0,,{\be10}Fine.
+Dialogue: 0,1:31:31.46,1:31:33.96,Dialogue,conan,0,0,0,,I noticed the many trophies in Queen Sakura's room.
+Dialogue: 0,1:31:34.66,1:31:37.72,Dialogue,conan,0,0,0,,She must have been quite good at sports.
+Dialogue: 0,1:31:37.72,1:31:42.29,Dialogue,conan,0,0,0,,In fact, when she was young, she'd been the winner of a modern pentathlon.
+Dialogue: 0,1:31:42.29,1:31:44.83,Dialogue,conan,0,0,0,,And, naturally, a pentathlon consists of...
+Dialogue: 0,1:31:44.83,1:31:48.89,Dialogue,conan,0,0,0,,equestrianism, swimming, running, fencing, and...
+Dialogue: 0,1:31:48.89,1:31:52.10,Dialogue,conan,0,0,0,,marksmanship.
+Dialogue: 0,1:31:53.00,1:31:58.86,Dialogue,conan,0,0,0,,I also noticed that you had won a trophy yourself, Duke Gerard:
+Dialogue: 0,1:31:59.50,1:32:02.67,Dialogue,conan,0,0,0,,a marksmanship competition, just three years previously.
+Dialogue: 0,1:32:02.67,1:32:03.84,Dialogue,conan,0,0,0,,What a great—
+Dialogue: 0,1:32:03.84,1:32:05.82,Dialogue,gerard,0,0,0,,That's enough, Detective.
+Dialogue: 0,1:32:05.82,1:32:13.96,Dialogue,gerard,0,0,0,,If I am indeed the culprit, why am I merely standing here unconcerned and doing nothing about all this?
+Dialogue: 0,1:32:14.46,1:32:16.47,Dialogue,lupin,0,0,0,,I'll answer that.
+Dialogue: 0,1:32:17.07,1:32:19.88,Dialogue,lupin,0,0,0,,It's so you can eliminate all your pests with one sweep.
+Dialogue: 0,1:32:20.49,1:32:23.35,Dialogue,gerard,0,0,0,,Great work, Detective!
+Dialogue: 0,1:32:23.35,1:32:26.01,Dialogue,gerard,0,0,0,,I'll save killing you for the very end.
+Dialogue: 0,1:32:29.10,1:32:31.08,Dialogue,lupin,0,0,0,,That's so uncool!
+Dialogue: 0,1:32:31.08,1:32:32.56,Dialogue,lupin,0,0,0,,What are you gonna do about that pathetic move?
+Dialogue: 0,1:32:34.27,1:32:37.52,Dialogue,jigen,0,0,0,,Oh? I guess that was it.
+Dialogue: 0,1:32:37.52,1:32:39.07,Dialogue,goemon,0,0,0,,Is this all?
+Dialogue: 0,1:32:39.07,1:32:40.31,Dialogue,goemon,0,0,0,,How drab.
+Dialogue: 0,1:32:40.31,1:32:43.78,Dialogue,jigen,0,0,0,,Well, our opponents were pretty shabby.
+Dialogue: 0,1:32:43.78,1:32:46.12,Dialogue,lupin,0,0,0,,The rest is all yours.
+Dialogue: 0,1:32:46.12,1:32:46.79,Dialogue,keith,0,0,0,,Guards!
+Dialogue: 0,1:32:48.86,1:32:55.58,Dialogue,gerard,0,0,0,,Keith, none of the palace guards will listen to you.
+Dialogue: 0,1:32:55.58,1:32:56.73,Dialogue,lupin,0,0,0,,Oh?
+Dialogue: 0,1:32:56.73,1:32:59.60,Dialogue,lupin,0,0,0,,You're saying you were prepared for this situation?
+Dialogue: 0,1:33:00.07,1:33:02.30,Dialogue,lupin,0,0,0,,Well done, you petty scoundrel!
+Dialogue: 0,1:33:02.30,1:33:04.97,Dialogue,gerard,0,0,0,,And how's this?
+Dialogue: 0,1:33:04.97,1:33:06.23,Dialogue,gerard,0,0,0,,Don't move!
+Dialogue: 0,1:33:07.36,1:33:11.59,Dialogue,gerard,0,0,0,,I have a little surprise hidden inside the center pillar.
+Dialogue: 0,1:33:11.59,1:33:15.39,Dialogue,gerard,0,0,0,,With that, you can all go visit the queen together.
+Dialogue: 0,1:33:15.39,1:33:17.43,Dialogue,lupin,0,0,0,,And what're you gonna do?
+Dialogue: 0,1:33:17.43,1:33:18.94,Dialogue,lupin,0,0,0,,Be blown up with us?
+Dialogue: 0,1:33:19.54,1:33:23.49,Dialogue,gerard,0,0,0,,At this range, it's possible that I'll be caught in the blast.
+Dialogue: 0,1:33:24.22,1:33:26.01,Dialogue,gerard,0,0,0,,So, please, don't make me press this.
+Dialogue: 0,1:33:26.91,1:33:29.30,Dialogue,gerard,0,0,0,,And I'll give you one last chance...
+Dialogue: 0,1:33:29.30,1:33:30.20,Dialogue,gerard,0,0,0,,Keith,
+Dialogue: 0,1:33:30.97,1:33:32.96,Dialogue,gerard,0,0,0,,it's yours.
+Dialogue: 0,1:33:33.49,1:33:37.96,Dialogue,gerard,0,0,0,,Come with me, and let's make Vespania prosper together!
+Dialogue: 0,1:33:38.82,1:33:41.18,Dialogue,gerard,0,0,0,,The title of count has no meaning.
+Dialogue: 0,1:33:41.18,1:33:44.47,Dialogue,gerard,0,0,0,,Are you really content babysitting in the palace?
+Dialogue: 0,1:33:44.97,1:33:49.97,Dialogue,gerard,0,0,0,,Does this chance not excite the blood that runs in you?
+Dialogue: 0,1:33:50.66,1:33:53.21,Dialogue,gerard,0,0,0,,I'll save Kyle as well.
+Dialogue: 0,1:33:53.21,1:33:54.26,Dialogue,gerard,0,0,0,,How about it?
+Dialogue: 0,1:33:54.76,1:33:59.72,Dialogue,gerard,0,0,0,,If you're a man, wouldn't you want to make a big dream come true in this world?
+Dialogue: 0,1:34:00.35,1:34:03.19,Dialogue,gerard,0,0,0,,And it's all for the benefit of our nation!
+Dialogue: 0,1:34:03.19,1:34:07.71,Dialogue,gerard,0,0,0,,Right now, Vespania is on the verge of acquiring power.
+Dialogue: 0,1:34:08.14,1:34:10.38,Dialogue,gerard,0,0,0,,A new energy!
+Dialogue: 0,1:34:10.38,1:34:13.18,Dialogue,gerard,0,0,0,,An infinite power coveted by the entire world!
+Dialogue: 0,1:34:15.96,1:34:17.16,Dialogue,mira,0,0,0,,Keith!
+Dialogue: 0,1:34:17.84,1:34:19.01,Dialogue,kyle,0,0,0,,Count Keith!
+Dialogue: 0,1:34:20.33,1:34:24.21,Dialogue,keith,0,0,0,,The Stinger family has served the royal family for two hundred years.
+Dialogue: 0,1:34:24.21,1:34:27.10,Dialogue,keith,0,0,0,,The blood flowing in me...
+Dialogue: 0,1:34:31.95,1:34:35.12,Dialogue,keith,0,0,0,,Every last drop is loyal to the Vespania Royal Family!
+Dialogue: 0,1:34:35.93,1:34:37.87,Dialogue,lupin,0,0,0,,That's a deal!
+Dialogue: 0,1:34:41.03,1:34:42.60,Dialogue,lupin,0,0,0,,Wh-What's this?
+Dialogue: 0,1:34:42.60,1:34:45.26,Dialogue,zenigata,0,0,0,,I thought you were about to make a run for it.
+Dialogue: 0,1:34:45.26,1:34:48.99,Dialogue,zenigata,0,0,0,,Weren't you going with your usual pattern of fleeing amidst the panic, Lupin?
+Dialogue: 0,1:34:48.99,1:34:50.53,Dialogue,lupin,0,0,0,,Oh, so you knew?
+Dialogue: 0,1:34:50.53,1:34:53.99,Dialogue,zenigata,0,0,0,,Remember what you said nine minutes and thirteen seconds back.
+Dialogue: 0,1:34:53.99,1:34:57.49,Dialogue,lupin,0,0,0,,Can I talk for a minute first, Old Man?
+Dialogue: 0,1:34:58.03,1:35:01.16,Dialogue,zenigata,0,0,0,,You called me Old Man, didn't you?
+Dialogue: 0,1:35:01.16,1:35:04.00,Dialogue,lupin,0,0,0,,Oh my, but what's with this timing?
+Dialogue: 0,1:35:04.36,1:35:06.58,Dialogue,lupin,0,0,0,,That guy over there's being a real man.
+Dialogue: 0,1:35:06.58,1:35:08.17,Dialogue,lupin,0,0,0,,Come on, don't ruin the atmosphere.
+Dialogue: 0,1:35:08.17,1:35:09.16,Dialogue,lupin,0,0,0,,Can't you see?
+Dialogue: 0,1:35:09.16,1:35:10.50,Dialogue,zenigata,0,0,0,,Like I care?
+Dialogue: 0,1:35:10.50,1:35:13.34,Dialogue,zenigata,0,0,0,,All I'm concerned with is arresting you!
+Dialogue: 0,1:35:13.34,1:35:14.71,Dialogue,gerard,0,0,0,,You bastards!
+Dialogue: 0,1:35:14.71,1:35:17.21,Dialogue,mira,0,0,0,,Was it all really...
+Dialogue: 0,1:35:17.21,1:35:18.73,Dialogue,mira,0,0,0,,your doing?!
+Dialogue: 0,1:35:19.18,1:35:20.49,Dialogue,gerard,0,0,0,,Yes.
+Dialogue: 0,1:35:20.49,1:35:22.94,Dialogue,gerard,0,0,0,,I couldn't entrust this country to my sister.
+Dialogue: 0,1:35:23.50,1:35:29.57,Dialogue,sakura,0,0,0,,Once the mining commences and reaches full speed, we will all but lose the natural environs of Vespania!
+Dialogue: 0,1:35:29.57,1:35:34.03,Dialogue,gerard,0,0,0,,You just don't understand how valuable this country is now!
+Dialogue: 0,1:35:34.03,1:35:36.81,Dialogue,sakura,0,0,0,,The one that doesn't understand is you!
+Dialogue: 0,1:35:36.81,1:35:42.04,Dialogue,sakura,0,0,0,,We would lose a priceless treasure in exchange for earthly wealth.
+Dialogue: 0,1:35:42.61,1:35:45.10,Dialogue,sakura,0,0,0,,The small-minded one is you!
+Dialogue: 0,1:35:45.10,1:35:50.35,Dialogue,sakura,0,0,0,,Those who abuse the earth will be abandoned by it!
+Dialogue: 0,1:35:50.35,1:35:53.03,Dialogue,sakura,0,0,0,,How can you not understand that?
+Dialogue: 0,1:35:54.50,1:35:59.16,Dialogue,gerard,0,0,0,,A ruler who has lost their ambition is no longer fit to rule.
+Dialogue: 0,1:35:59.16,1:36:02.81,Dialogue,gerard,0,0,0,,It would not change if this country was to be inherited by her children.
+Dialogue: 0,1:36:02.81,1:36:06.69,Dialogue,mira,0,0,0,,That's why my brother and I...
+Dialogue: 0,1:36:06.69,1:36:09.40,Dialogue,gerard,0,0,0,,Such a shame for you, Keith.
+Dialogue: 0,1:36:09.40,1:36:13.03,Dialogue,gerard,0,0,0,,But I'll grant you your last wish.
+Dialogue: 0,1:36:14.95,1:36:17.50,Dialogue,fujiko,0,0,0,,I pressed the switch.
+Dialogue: 0,1:36:17.50,1:36:18.75,Dialogue,lupin,0,0,0,,All right!
+Dialogue: 0,1:36:20.70,1:36:21.79,Dialogue,lupin,0,0,0,,Caught one!
+Dialogue: 0,1:36:21.79,1:36:22.87,Dialogue,lupin,0,0,0,,Pull, Old Man!
+Dialogue: 0,1:36:22.87,1:36:23.84,Dialogue,zenigata,0,0,0,,What?!
+Dialogue: 0,1:36:24.43,1:36:25.29,Dialogue,guard,0,0,0,,Duke Gerard!
+Dialogue: 0,1:36:25.34,1:36:26.12,Dialogue,keith,0,0,0,,Kyle!
+Dialogue: 0,1:36:26.12,1:36:26.79,Dialogue,kyle,0,0,0,,Yes, sir!
+Dialogue: 0,1:36:31.14,1:36:32.24,Dialogue,mira,0,0,0,,Mineko!
+Dialogue: 0,1:36:32.24,1:36:34.30,Dialogue,fujiko,0,0,0,,Isn't this ball something?
+Dialogue: 0,1:36:38.97,1:36:41.72,Dialogue,mira,0,0,0,,I no longer consider you my uncle.
+Dialogue: 0,1:36:41.72,1:36:46.82,Dialogue,mira,0,0,0,,How could you do that to your own sister and nephew?
+Dialogue: 0,1:36:50.69,1:36:54.53,Dialogue,mira,0,0,0,,I will not forgive you.
+Dialogue: 0,1:36:57.21,1:37:00.64,Dialogue,mira,0,0,0,,I will not hand this country over to you!
+Dialogue: 0,1:37:02.55,1:37:04.19,Dialogue,mira,0,0,0,,The ruler of this country...
+Dialogue: 0,1:37:05.65,1:37:07.59,Dialogue,mira,0,0,0,,is me!
+Dialogue: 0,1:37:12.26,1:37:14.05,Dialogue,maid,0,0,0,,Princess Mira!
+Dialogue: 0,1:37:17.58,1:37:19.56,Dialogue,conan,0,0,0,,Hey, biker lady.
+Dialogue: 0,1:37:19.56,1:37:22.76,Dialogue,conan,0,0,0,,How long will this thing keep working?
+Dialogue: 0,1:37:24.45,1:37:25.93,Dialogue,fujiko,0,0,0,,About three more seconds, I think.
+Dialogue: 0,1:37:25.93,1:37:27.94,Dialogue,lupin,0,0,0,,Jump for it!
+Dialogue: 0,1:37:43.67,1:37:46.29,Dialogue,lupin,0,0,0,,I met your mother here.
+Dialogue: 0,1:37:46.78,1:37:50.85,Dialogue,sakura,0,0,0,,Please steal me along with the crown!
+Dialogue: 0,1:37:50.85,1:37:52.82,Dialogue,sakura,0,0,0,,I don't want to be a bird in a cage.
+Dialogue: 0,1:37:52.82,1:37:54.71,Dialogue,sakura,0,0,0,,I want to fly the vast skies!
+Dialogue: 0,1:37:55.38,1:37:57.81,Dialogue,lupin,0,0,0,,That's not something I can do.
+Dialogue: 0,1:37:57.81,1:37:59.30,Dialogue,sakura,0,0,0,,Why?
+Dialogue: 0,1:37:59.75,1:38:01.17,Dialogue,lupin,0,0,0,,Listen here.
+Dialogue: 0,1:38:01.17,1:38:04.27,Dialogue,lupin,0,0,0,,Just like how my grandfather was a great thief,
+Dialogue: 0,1:38:04.27,1:38:07.33,Dialogue,lupin,0,0,0,,your father is the king of this country.
+Dialogue: 0,1:38:07.33,1:38:10.86,Dialogue,lupin,0,0,0,,And eventually, you'd have to rule this country.
+Dialogue: 0,1:38:10.86,1:38:12.81,Dialogue,lupin,0,0,0,,Wearing this.
+Dialogue: 0,1:38:12.81,1:38:18.11,Dialogue,lupin,0,0,0,,Instead of going with me, you have to fly the vast skies of this country.
+Dialogue: 0,1:38:18.11,1:38:19.46,Dialogue,sakura,0,0,0,,Lupin...
+Dialogue: 0,1:38:19.46,1:38:21.35,Dialogue,lupin,0,0,0,,See ya.
+Dialogue: 0,1:38:21.35,1:38:24.66,Dialogue,lupin,0,0,0,,Once this country becomes a great nation with your help,
+Dialogue: 0,1:38:24.66,1:38:27.24,Dialogue,lupin,0,0,0,,I'll come and steal it one more time.
+Dialogue: 0,1:38:32.28,1:38:35.35,Dialogue,lupin,0,0,0,,She was just like you are now.
+Dialogue: 0,1:38:35.35,1:38:40.80,Dialogue,mira,0,0,0,,The strong mother I had known was once just like me.
+Dialogue: 0,1:38:40.80,1:38:44.32,Dialogue,lupin,0,0,0,,I had long since forgotten that promise,
+Dialogue: 0,1:38:44.94,1:38:49.02,Dialogue,lupin,0,0,0,,but I suddenly remembered when I heard that Sakura had died.
+Dialogue: 0,1:38:49.02,1:38:51.94,Dialogue,conan,0,0,0,,Hey there, stealing is a crime.
+Dialogue: 0,1:38:51.94,1:38:55.44,Dialogue,lupin,0,0,0,,It wasn't me. The biker lady was the one who took it.
+Dialogue: 0,1:38:55.87,1:38:57.15,Dialogue,conan,0,0,0,,But isn't she your partner?
+Dialogue: 0,1:38:57.15,1:39:00.24,Dialogue,lupin,0,0,0,,Don't be so picky. Is this what you want?
+Dialogue: 0,1:39:03.00,1:39:04.51,Dialogue,lupin,0,0,0,,I'm returning this to you.
+Dialogue: 0,1:39:05.86,1:39:09.75,Dialogue,lupin,0,0,0,,Like I thought, it looks best on your head.
+Dialogue: 0,1:39:10.67,1:39:12.58,Dialogue,lupin,0,0,0,,By the way, kiddo.
+Dialogue: 0,1:39:12.58,1:39:13.79,Dialogue,lupin,0,0,0,,Let me ask you something.
+Dialogue: 0,1:39:14.44,1:39:18.58,Dialogue,lupin,0,0,0,,Why did you think that Sakura wasn't shot on accident?
+Dialogue: 0,1:39:18.58,1:39:23.80,Dialogue,lupin,0,0,0,,I heard from your daddy that you made up your mind the second you came here.
+Dialogue: 0,1:39:23.80,1:39:26.63,Dialogue,conan,0,0,0,,It was because of that broken branch.
+Dialogue: 0,1:39:26.63,1:39:28.24,Dialogue,mira,0,0,0,,That branch?
+Dialogue: 0,1:39:28.24,1:39:32.99,Dialogue,conan,0,0,0,,Prince Jihl was aware that your mother loved this tree, wasn't he?
+Dialogue: 0,1:39:32.99,1:39:34.16,Dialogue,mira,0,0,0,,Yes.
+Dialogue: 0,1:39:34.16,1:39:40.08,Dialogue,conan,0,0,0,,So, I figured he'd never point his gun at her precious cherry tree.
+Dialogue: 0,1:39:40.08,1:39:41.55,Dialogue,lupin,0,0,0,,I see.
+Dialogue: 0,1:39:41.55,1:39:43.99,Dialogue,lupin,0,0,0,,That's why the prince couldn't have been the shooter.
+Dialogue: 0,1:39:44.64,1:39:48.37,Dialogue,conan,0,0,0,,It was the cherry tree that showed me.
+Dialogue: 0,1:39:51.62,1:39:55.02,Dialogue,conan,0,0,0,,Oh yeah, can I ask you a question too?
+Dialogue: 0,1:39:55.98,1:40:00.00,Dialogue,conan,0,0,0,,I haven't heard your name yet.
+Dialogue: 0,1:40:01.59,1:40:03.26,Dialogue,lupin,0,0,0,,You haven't, huh?
+Dialogue: 0,1:40:03.26,1:40:05.67,Dialogue,lupin,0,0,0,,My name is...
+Dialogue: 0,1:40:05.67,1:40:08.26,Dialogue,lupin,0,0,0,,Lupin the 3rd.
+Dialogue: 0,1:40:20.28,1:40:23.49,Dialogue,kyle,0,0,0,,Was it all right to keep this a secret from Zenigata?
+Dialogue: 0,1:40:24.24,1:40:26.20,Dialogue,keith,0,0,0,,It's the princess' order.
+Dialogue: 0,1:40:26.20,1:40:28.03,Dialogue,keith,0,0,0,,We can't disobey that.
+Dialogue: 0,1:40:37.67,1:40:39.20,Dialogue,kogoro,0,0,0,,Damn that guy!
+Dialogue: 0,1:40:39.20,1:40:42.98,Dialogue,kogoro,0,0,0,,I'll catch him the next time I see him!
+Dialogue: 0,1:40:42.98,1:40:44.73,Dialogue,ran,0,0,0,,But, I'm relieved.
+Dialogue: 0,1:40:44.73,1:40:46.89,Dialogue,ran,0,0,0,,All the bad guys have been caught.
+Dialogue: 0,1:40:46.89,1:40:48.25,Dialogue,zenigata,0,0,0,,Lupin!
+Dialogue: 0,1:40:48.25,1:40:50.39,Dialogue,ran,0,0,0,,Well, I guess not all of them...
+Dialogue: 0,1:40:59.01,1:41:02.19,Dialogue,mira,0,0,0,,They've left already.
+Dialogue: 0,1:41:02.19,1:41:04.25,Dialogue,keith,0,0,0,,I see.
+Dialogue: 0,1:41:04.25,1:41:08.69,Dialogue,mira,0,0,0,,One of these days, I must get him to come steal the Queen Crown again.
+Dialogue: 0,1:41:10.24,1:41:14.20,Dialogue,mira,0,0,0,,But, unless this becomes a beautiful and peaceful country,
+Dialogue: 0,1:41:14.89,1:41:17.71,Dialogue,mira,0,0,0,,I can't ask him to come back.
+Dialogue: 0,1:41:26.77,1:41:30.53,Dialogue,mira,0,0,0,,I'm truly grateful to you.
+Dialogue: 0,1:41:30.53,1:41:31.97,Dialogue,mira,0,0,0,,Thank you so very much.
+Dialogue: 0,1:41:31.97,1:41:35.42,Dialogue,mira,0,0,0,,Ran, I had a great night with you.
+Dialogue: 0,1:41:35.42,1:41:36.46,Dialogue,mira,0,0,0,,It's all because of you.
+Dialogue: 0,1:41:36.46,1:41:39.87,Dialogue,ran,0,0,0,,No, I got to be a princess.
+Dialogue: 0,1:41:39.87,1:41:41.98,Dialogue,kyle,0,0,0,,Princess Mira, it's time.
+Dialogue: 0,1:41:42.07,1:41:44.38,Dialogue,kogoro,0,0,0,,Huh? Where's Conan?
+Dialogue: 0,1:41:44.38,1:41:45.02,Dialogue,ran,0,0,0,,What?
+Dialogue: 0,1:41:45.02,1:41:47.45,Dialogue,ran,0,0,0,,Wasn't he just saying that he wanted to see the coronation?
+Dialogue: 0,1:41:47.89,1:41:51.28,Dialogue,keith,0,0,0,,Agents from the Japanese Embassy came for him earlier.
+Dialogue: 0,1:41:51.72,1:41:54.53,Dialogue,keith,0,0,0,,After all, he did enter the country illegally.
+Dialogue: 0,1:41:54.53,1:41:56.15,Dialogue,kogoro,0,0,0,,That's true.
+Dialogue: 0,1:41:56.15,1:41:59.00,Dialogue,zenigata,0,0,0,,Then, shall we get going?
+Dialogue: 0,1:42:03.57,1:42:05.67,Dialogue,mira,0,0,0,,Oh my, how terrible!
+Dialogue: 0,1:42:13.47,1:42:14.79,Thoughts,shin,0,0,0,,{\be10}This is bad.
+Dialogue: 0,1:42:14.79,1:42:19.64,Thoughts,shin,0,0,0,,{\be10}If I apply for a passport, the fact that Edogawa Conan doesn't exist will...
+Dialogue: 0,1:42:20.28,1:42:23.94,Dialogue,lupin,0,0,0,,Looks like even the great detective is about to give up, huh?
+Dialogue: 0,1:42:24.57,1:42:27.15,Dialogue,conan,0,0,0,,Uncle—I mean, Mr. Lupin!
+Dialogue: 0,1:42:27.15,1:42:28.99,Dialogue,conan,0,0,0,,That sounds like a mouthful.
+Dialogue: 0,1:42:28.99,1:42:30.68,Dialogue,conan,0,0,0,,You can just call me Uncle.
+Dialogue: 0,1:42:31.30,1:42:33.71,Dialogue,jigen,0,0,0,,We haven't been in disguise for a while now.
+Dialogue: 0,1:42:33.71,1:42:35.19,Dialogue,fujiko,0,0,0,,You hadn't noticed?
+Dialogue: 0,1:42:35.19,1:42:36.90,Dialogue,conan,0,0,0,,Biker lady?
+Dialogue: 0,1:42:36.90,1:42:38.68,Dialogue,conan,0,0,0,,And Daddy!
+Dialogue: 0,1:42:38.68,1:42:40.62,Dialogue,jigen,0,0,0,,What'd I tell you about calling me Daddy, eh?
+Dialogue: 0,1:42:40.62,1:42:41.83,Dialogue,conan,0,0,0,,Your beard stings!
+Dialogue: 0,1:42:41.83,1:42:44.22,Dialogue,goemon,0,0,0,,He most certainly looks like a child.
+Dialogue: 0,1:42:45.31,1:42:48.99,Dialogue,lupin,0,0,0,,But inside, he's an unfortunate high schooler.
+Dialogue: 0,1:42:49.73,1:42:53.92,Dialogue,fujiko,0,0,0,,Isn't it agonizing to have the body of a child?
+Dialogue: 0,1:42:53.92,1:42:55.62,Dialogue,goemon,0,0,0,,Talking dirty?
+Dialogue: 0,1:42:55.62,1:42:58.52,Dialogue,fujiko,0,0,0,,I'm not talking dirty at all, Mr. Old Fashioned.
+Dialogue: 0,1:42:58.52,1:42:59.95,Dialogue,lupin,0,0,0,,Now, now.
+Dialogue: 0,1:42:59.95,1:43:02.15,Dialogue,lupin,0,0,0,,I happen to have the mind of an adult...
+Dialogue: 0,1:43:02.71,1:43:04.58,Dialogue,lupin,0,0,0,,and the body of one as well!
+Dialogue: 0,1:43:05.21,1:43:07.26,Dialogue,lupin,0,0,0,,Ouch...
+Dialogue: 0,1:43:07.26,1:43:08.78,Dialogue,goemon,0,0,0,,Still in the gutter...
+Dialogue: 0,1:43:08.78,1:43:10.56,Dialogue,lupin,0,0,0,,Don't worry.
+Dialogue: 0,1:43:10.56,1:43:14.84,Dialogue,lupin,0,0,0,,This lady will take you to Japan, Mr. Kudo Shinichi.
+Dialogue: 0,1:43:14.84,1:43:18.38,Dialogue,fujiko,0,0,0,,My friend's ship just happens to be nearby.
+Dialogue: 0,1:43:18.38,1:43:20.29,Dialogue,shin,0,0,0,,Thank you.
+Dialogue: 0,1:43:20.29,1:43:23.22,Dialogue,shin,0,0,0,,But, if I find you stealing again,
+Dialogue: 0,1:43:23.22,1:43:25.17,Dialogue,shin,0,0,0,,I'll come catch you.
+Dialogue: 0,1:43:36.53,1:43:37.84,Dialogue,jigen,0,0,0,,What are you gonna do, Lupin?
+Dialogue: 0,1:43:37.84,1:43:40.13,Dialogue,jigen,0,0,0,,He'll catch you if you meet again.
+Dialogue: 0,1:43:41.49,1:43:42.98,Dialogue,lupin,0,0,0,,Are you kidding me?
+Dialogue: 0,1:43:45.07,1:43:47.86,Dialogue,lupin,0,0,0,,Detective Conan, huh?
+Dialogue: 0,1:43:51.84,1:43:54.40,Dialogue,fujiko,0,0,0,,Now, we have plenty of time.
+Dialogue: 0,1:43:54.40,1:43:55.70,Dialogue,fujiko,0,0,0,,Let me check you out.
+Dialogue: 0,1:43:55.70,1:43:56.99,Dialogue,shin,0,0,0,,C-Check out what?
+Dialogue: 0,1:43:56.99,1:44:01.02,Dialogue,fujiko,0,0,0,,What do you mean? The secrets of rejuvenation, of course.
+Dialogue: 0,1:44:01.02,1:44:03.62,Dialogue,shin,0,0,0,,Rejuvenation? I just shrunk.
+Dialogue: 0,1:44:03.62,1:44:05.40,Dialogue,fujiko,0,0,0,,I don't care either way.
+Dialogue: 0,1:44:05.40,1:44:07.87,Dialogue,shin,0,0,0,,No–hey–um...
+Dialogue: 0,1:44:07.87,1:44:10.59,Dialogue,shin,0,0,0,,Could you stop touching me?

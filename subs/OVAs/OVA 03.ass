@@ -1,0 +1,388 @@
+[Script Info]
+Title: Detective Conan - OVA 03
+TL Source: DCTP
+ScriptType: v4.00+
+WrapStyle: 3
+PlayResX: 1440
+PlayResY: 1080
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Dialogue,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00401311,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Dialogue Top,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00401311,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,8,30,30,55,1
+Style: Signs,FrancophilSans,74,&H14FFFFFF,&H00FFFFFF,&H46101010,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,8,30,30,55,1
+Style: Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,0,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Radio,FrancophilSans,74,&H00BEE1FF,&H00FFFFFF,&H000B2A42,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Narration,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00BF6F00,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Narration Off,FrancophilSans,74,&H6E8C6F00,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,0,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Flashback,FrancophilSans,74,&H00CDFAFF,&H00FFFFFF,&H00373737,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Flashback Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00CCFFFF,&HC0313134,-1,0,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Honorifics - Dialogue,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00401311,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Signs,FrancophilSans,74,&H14FFFFFF,&H00FFFFFF,&H46101010,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,-1,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Honorifics - Radio,FrancophilSans,74,&H00BEE1FF,&H00FFFFFF,&H000B2A42,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Narration,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00BF6F00,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Narration Off,FrancophilSans,74,&H6E8C6F00,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,-1,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Honorifics - Flashback,FrancophilSans,74,&H00CDFAFF,&H00FFFFFF,&H00373737,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Flashback Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00CCFFFF,&HC0313134,-1,-1,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Masks,FrancophilSans,74,&H00000000,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,2,0,0,0,1
+Style: Title,Conan Episode Title,74,&H00E1E4E3,&H000000FF,&HC8DBDAE1,&HC0000000,-1,0,0,0,100,100,0,0,1,1,0,5,0,0,0,1
+Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-1,0,0,0,100,100,0,0,1,0,0,2,0,0,65,1
+Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
+Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
+Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:02.20,0:00:06.62,Signs,,0,0,0,,This video is a special release provided to all of you by Shounen Sunday!
+Dialogue: 0,0:00:07.49,0:00:12.29,Signs,,0,0,0,,When you watch this video, brighten the room and don't sit too close to the screen.
+Dialogue: 0,0:00:23.93,0:00:25.55,Thoughts,,0,0,0,,{\be10}One day in the spring,
+Dialogue: 0,0:00:25.55,0:00:28.89,Thoughts,,0,0,0,,{\be10}Ran and I accepted invitation from Hattori and Kazuha...
+Dialogue: 0,0:00:28.89,0:00:30.81,Thoughts,,0,0,0,,{\be10}To visit Osaka again.
+Dialogue: 0,0:00:35.31,0:00:38.65,Thoughts,,0,0,0,,{\be10}This time we were suppose to be there only for sightseeing.
+Dialogue: 0,0:00:38.65,0:00:44.49,Thoughts,,0,0,0,,{\be10}So the first thing we did was go to the Floating Gardens Observatory, which offers a stunning view of Osaka.
+Dialogue: 0,0:00:45.41,0:00:47.78,Dialogue,,0,0,0,,Hey, look over there!
+Dialogue: 0,0:00:47.78,0:00:49.45,Dialogue,,0,0,0,,That is the famous Six Gods Mountains over there.
+Dialogue: 0,0:00:49.99,0:00:55.41,Dialogue,,0,0,0,,And over there, the thing that looks small from here, is the Akashi-Kaikyo Bridge.
+Dialogue: 0,0:00:55.67,0:00:57.62,Dialogue,,0,0,0,,And look over there.
+Dialogue: 0,0:00:58.25,0:01:00.00,Dialogue,,0,0,0,,That is Osaka International Airport.
+Dialogue: 0,0:01:00.75,0:01:02.63,Dialogue,,0,0,0,,Over there is Expoland.
+Dialogue: 0,0:01:03.38,0:01:05.13,Dialogue,,0,0,0,,And there is Osaka Dome.
+Dialogue: 0,0:01:05.93,0:01:07.63,Dialogue,,0,0,0,,Tsuuten Tower.
+Dialogue: 0,0:01:08.43,0:01:10.10,Dialogue,,0,0,0,,And Osaka Castle!
+Dialogue: 0,0:01:10.56,0:01:11.35,Dialogue,,0,0,0,,Well?
+Dialogue: 0,0:01:11.35,0:01:11.97,Dialogue,,0,0,0,,Isn't this...
+Dialogue: 0,0:01:12.64,0:01:13.77,Dialogue,,0,0,0,,A great place?
+Dialogue: 0,0:01:14.23,0:01:15.68,Dialogue,,0,0,0,,Osaka!
+Dialogue: 0,0:01:18.15,0:01:18.81,Dialogue,,0,0,0,,It sure is.
+Dialogue: 0,0:01:19.81,0:01:23.94,Thoughts,,0,0,0,,{\be10}Jeez, these two are so alike.
+Dialogue: 0,0:01:32.12,0:01:33.37,Dialogue,,0,0,0,,All right, let's move on!
+Dialogue: 0,0:01:34.70,0:01:35.45,Dialogue,,0,0,0,,This way, this way!
+Dialogue: 0,0:01:40.50,0:01:41.84,Dialogue,,0,0,0,,What is it, Ran{\rHonorifics - Dialogue}-chan{\r}?
+Dialogue: 0,0:01:44.76,0:01:45.80,Dialogue,,0,0,0,,Those kids...
+Dialogue: 0,0:01:45.84,0:01:47.34,Dialogue,,0,0,0,,They have been sitting there since we came here.
+Dialogue: 0,0:01:47.72,0:01:49.05,Dialogue,,0,0,0,,Were they?
+Dialogue: 0,0:01:51.01,0:01:52.47,Thoughts,,0,0,0,,{\be10}Huh? Those three...
+Dialogue: 0,0:01:55.81,0:01:57.64,Thoughts,,0,0,0,,{\be10}They look just like them!
+Dialogue: 0,0:02:00.02,0:02:03.19,Dialogue,,0,0,0,,You're that high school detective Hattori Heiji, right?
+Dialogue: 0,0:02:04.82,0:02:06.94,Dialogue,,0,0,0,,Well, yes.
+Dialogue: 0,0:02:07.86,0:02:10.22,Dialogue Top,,0,0,0,,My name is Esaka Mayumi.
+Dialogue: 0,0:02:08.47,0:02:11.43,Signs,,0,0,0,,ESAKA MAYUMI (7)
+Dialogue: 0,0:02:10.24,0:02:11.41,Dialogue Top,,0,0,0,,I'm in first grade of elementary school.
+Dialogue: 0,0:02:12.83,0:02:15.72,Dialogue Top,,0,0,0,,This skinny one is Yagi Mikihiko.
+Dialogue: 0,0:02:13.64,0:02:16.60,Signs,,0,0,0,,YAGI MIKIHIKO (7)
+Dialogue: 0,0:02:17.04,0:02:19.44,Dialogue Top,,0,0,0,,And the fat one is Osawa Kenta.
+Dialogue: 0,0:02:17.64,0:02:20.60,Signs,,0,0,0,,OSAWA KENTA (7)
+Dialogue: 0,0:02:21.29,0:02:23.54,Dialogue,,0,0,0,,Ayumi, Mitsuhiko, Genta?
+Dialogue: 0,0:02:23.84,0:02:25.03,Dialogue,,0,0,0,,No, no!
+Dialogue: 0,0:02:24.98,0:02:27.55,Dialogue,,0,0,0,,Mayumi, Mikihiko, Kenta.
+Dialogue: 0,0:02:27.55,0:02:29.47,Dialogue,,0,0,0,,Hey you, you got something wrong with your ears?
+Dialogue: 0,0:02:32.22,0:02:33.97,Thoughts,,0,0,0,,{\be10}Even their names are eerily similar.
+Dialogue: 0,0:02:34.31,0:02:36.97,Dialogue,,0,0,0,,You should see a doctor if you have earing problem.
+Dialogue: 0,0:02:36.98,0:02:39.48,Dialogue,,0,0,0,,Speaking of doctors, I went to see them yesterday.
+Dialogue: 0,0:02:41.48,0:02:43.02,Dialogue,,0,0,0,,"This cavity isn't good..."
+Dialogue: 0,0:02:43.02,0:02:45.15,Dialogue,,0,0,0,,"Looks like we have to yank it."
+Dialogue: 0,0:02:47.57,0:02:48.40,Dialogue,,0,0,0,,You know?
+Dialogue: 0,0:02:48.49,0:02:49.90,Dialogue,,0,0,0,,That's a dentist.
+Dialogue: 0,0:02:49.90,0:02:52.28,Dialogue,,0,0,0,,But my grandpa is even cooler!
+Dialogue: 0,0:02:52.41,0:02:54.91,Dialogue,,0,0,0,,He pulls out his teeth every night.
+Dialogue: 0,0:02:54.91,0:02:56.66,Dialogue,,0,0,0,,Those are dentures.
+Dialogue: 0,0:02:57.00,0:02:58.41,Dialogue,,0,0,0,,You two are so noisy!
+Dialogue: 0,0:02:58.41,0:03:00.16,Dialogue,,0,0,0,,Kenta's story was so lame!
+Dialogue: 0,0:03:03.63,0:03:05.34,Thoughts,,0,0,0,,{\be10}Looks like their personalities are different.
+Dialogue: 0,0:03:07.92,0:03:08.94,Dialogue,,0,0,0,,You're looking for someone?
+Dialogue: 0,0:03:10.09,0:03:10.88,Dialogue,,0,0,0,,And you want me to help?
+Dialogue: 0,0:03:11.47,0:03:14.70,Dialogue,,0,0,0,,In general, yes.
+Dialogue: 0,0:03:15.56,0:03:18.39,Dialogue,,0,0,0,,To be specific, we are looking for a place.
+Dialogue: 0,0:03:18.39,0:03:20.81,Dialogue,,0,0,0,,The place where Satoshi is now.
+Dialogue: 0,0:03:21.85,0:03:22.81,Dialogue,,0,0,0,,Satoshi?
+Dialogue: 0,0:03:23.40,0:03:24.65,Dialogue,,0,0,0,,He's our friend.
+Dialogue: 0,0:03:24.65,0:03:29.03,Dialogue,,0,0,0,,We agreed to meet near the shop at 1:00 in the afternoon, but he didn't show up.
+Dialogue: 0,0:03:29.82,0:03:31.03,Dialogue,,0,0,0,,1:00?
+Dialogue: 0,0:03:31.66,0:03:33.03,Dialogue,,0,0,0,,Now it's already 2:00.
+Dialogue: 0,0:03:34.03,0:03:36.62,Dialogue,,0,0,0,,Did you call his parents?
+Dialogue: 0,0:03:37.20,0:03:38.99,Dialogue,,0,0,0,,We called, but got the answering machine.
+Dialogue: 0,0:03:39.08,0:03:43.75,Dialogue,,0,0,0,,Probably he forgot about us and still playing at his secret place.
+Dialogue: 0,0:03:45.02,0:03:45.98,Dialogue,,0,0,0,,A secret place?
+Dialogue: 0,0:03:46.84,0:03:49.00,Dialogue,,0,0,0,,He said he'd be there until noon.
+Dialogue: 0,0:03:49.38,0:03:54.64,Dialogue,,0,0,0,,It's located where the train from the red line passes in front of the T-Rex's hand.
+Dialogue: 0,0:03:54.64,0:03:58.56,Dialogue,,0,0,0,,Even though it's really fun, that place sometimes can make you cry.
+Dialogue: 0,0:03:58.77,0:04:00.14,Dialogue,,0,0,0,,What are you talking about?
+Dialogue: 0,0:04:01.18,0:04:03.19,Dialogue,,0,0,0,,That's how Satoshi said it.
+Dialogue: 0,0:04:03.19,0:04:04.56,Dialogue,,0,0,0,,It's probably a "CONT".
+Dialogue: 0,0:04:04.56,0:04:05.31,Dialogue,,0,0,0,,It's "HINT".
+Dialogue: 0,0:04:06.56,0:04:10.15,Dialogue,,0,0,0,,In Osaka, the only line with red trains is the Kanjo Line.
+Dialogue: 0,0:04:11.24,0:04:12.24,Dialogue,,0,0,0,,Wait...
+Dialogue: 0,0:04:12.24,0:04:15.41,Dialogue,,0,0,0,,From the Kanjo Line, you can transfer to the Yumesaki Line.
+Dialogue: 0,0:04:16.57,0:04:17.91,Dialogue,,0,0,0,,That's it! I understood!
+Dialogue: 0,0:04:17.95,0:04:18.70,Dialogue,,0,0,0,,It's US...
+Dialogue: 0,0:04:18.70,0:04:20.08,Dialogue,,0,0,0,,USJ is wrong!
+Dialogue: 0,0:04:18.70,0:04:26.94,Dialogue Top,,0,0,0,,{\i1\fs25}(Note - USJ - Universal Studio Japan, the Japanese amusement park of the Universal Studio)
+Dialogue: 0,0:04:22.04,0:04:26.21,Dialogue,,0,0,0,,At first I thought so too, but he said it was wrong.
+Dialogue: 0,0:04:28.88,0:04:32.38,Dialogue,,0,0,0,,What is it then?
+Dialogue: 0,0:04:32.80,0:04:35.84,Thoughts,,0,0,0,,{\be10}I'm not familiar with the Osaka's railway...
+Dialogue: 0,0:04:38.85,0:04:43.81,Dialogue,,0,0,0,,Hey, can you see a T-Rex model or a billboard of one from the Kanjou Line?
+Dialogue: 0,0:04:46.02,0:04:49.23,Dialogue,,0,0,0,,Well, I just remembered that people in Osaka like this kind of thing.
+Dialogue: 0,0:04:50.61,0:04:55.36,Dialogue,,0,0,0,,That's right, we have huge figures of crabs, octopuses, puffer fish and others.
+Dialogue: 0,0:04:55.36,0:04:56.70,Dialogue,,0,0,0,,But there are no dinosaurs.
+Dialogue: 0,0:04:57.74,0:04:59.03,Dialogue,,0,0,0,,Well, Heiji.
+Dialogue: 0,0:04:59.03,0:05:00.62,Dialogue,,0,0,0,,There's only one way to find out.
+Dialogue: 0,0:05:00.62,0:05:03.16,Dialogue,,0,0,0,,Let's take a ride on the Kanjo Line now!
+Dialogue: 0,0:05:03.54,0:05:05.50,Dialogue,,0,0,0,,Idiot! We have two guests...
+Dialogue: 0,0:05:05.50,0:05:07.71,Dialogue,,0,0,0,,No, we don't mind at all!
+Dialogue: 0,0:05:08.96,0:05:10.54,Dialogue,,0,0,0,,Right, Conan{\rHonorifics - Dialogue}-kun{\r}?
+Dialogue: 0,0:05:11.59,0:05:14.38,Dialogue,,0,0,0,,Compared to what Heiji{\rHonorifics - Dialogue}-niichan{\r} has showed us so far,
+Dialogue: 0,0:05:14.59,0:05:16.68,Dialogue,,0,0,0,,This will be much more interesting.
+Dialogue: 0,0:05:18.14,0:05:19.68,Dialogue,,0,0,0,,Then it's decided!
+Dialogue: 0,0:05:20.64,0:05:22.68,Thoughts,,0,0,0,,{\be10}That bastard... I'll remember this.
+Dialogue: 0,0:05:33.11,0:05:35.49,Dialogue,,0,0,0,,That hairpin is really pretty!
+Dialogue: 0,0:05:35.49,0:05:36.99,Dialogue,,0,0,0,,Can I see it for a second?
+Dialogue: 0,0:05:37.32,0:05:38.20,Dialogue,,0,0,0,,Sure.
+Dialogue: 0,0:05:39.62,0:05:41.49,Dialogue,,0,0,0,,Satoshi gave it to me.
+Dialogue: 0,0:05:43.95,0:05:46.29,Dialogue,,0,0,0,,A present from your boyfriend?
+Dialogue: 0,0:05:59.30,0:06:01.22,Thoughts,,0,0,0,,{\be10}This is so embarrassing...
+Dialogue: 0,0:06:04.35,0:06:07.18,Dialogue,,0,0,0,,Hey, Ran{\rHonorifics - Dialogue}-chan{\r}, look over there!
+Dialogue: 0,0:06:07.19,0:06:07.73,Dialogue,,0,0,0,,What is it?
+Dialogue: 0,0:06:08.02,0:06:11.44,Dialogue,,0,0,0,,It's the Floating Garden Observatory where we just went.
+Dialogue: 0,0:06:11.44,0:06:12.73,Dialogue,,0,0,0,,It's beautiful!
+Dialogue: 0,0:06:12.98,0:06:14.61,Dialogue,,0,0,0,,T-Rex, T-Rex...
+Dialogue: 0,0:06:18.70,0:06:21.99,Dialogue,,0,0,0,,Hey, is that a highway going through the building?
+Dialogue: 0,0:06:22.28,0:06:24.20,Dialogue,,0,0,0,,Oh, yes.
+Dialogue: 0,0:06:24.20,0:06:25.58,Dialogue,,0,0,0,,Cool, isn't it?
+Dialogue: 0,0:06:25.58,0:06:27.50,Dialogue,,0,0,0,,Osaka has it all!
+Dialogue: 0,0:06:29.00,0:06:31.63,Thoughts,,0,0,0,,{\be10}If that so, even a dinosaur is quite normal here.
+Dialogue: 0,0:06:32.42,0:06:34.29,Dialogue,,0,0,0,,The mountains!
+Dialogue: 0,0:06:35.55,0:06:37.55,Dialogue,,0,0,0,,What's so special about mountains?
+Dialogue: 0,0:06:37.55,0:06:41.09,Dialogue,,0,0,0,,I get it, it's because people from Tokyo rarely get to see the mountains.
+Dialogue: 0,0:06:48.85,0:06:51.10,Dialogue,,0,0,0,,I don't see any T-Rex billboards.
+Dialogue: 0,0:06:58.49,0:06:59.65,Dialogue,,0,0,0,,Ohtaki{\rHonorifics - Dialogue}-han{\r}!
+Dialogue: 0,0:07:00.70,0:07:04.45,Dialogue,,0,0,0,,Kudou, did you see a white car surrounded by police cars?
+Dialogue: 0,0:07:05.04,0:07:07.58,Dialogue,,0,0,0,,Yes, it was a sedan.
+Dialogue: 0,0:07:07.91,0:07:09.56,Dialogue,,0,0,0,,They found it.
+Dialogue: 0,0:07:09.58,0:07:11.02,Dialogue,,0,0,0,,The robbers' car!
+Dialogue: 0,0:07:15.42,0:07:20.76,Dialogue,,0,0,0,,This morning at 11:30, the credit union in Namba was robbed.
+Dialogue: 0,0:07:20.76,0:07:23.43,Dialogue,,0,0,0,,The criminals were a young couple.
+Dialogue: 0,0:07:23.43,0:07:27.10,Dialogue,,0,0,0,,They disappeared from a white sedan.
+Dialogue: 0,0:07:28.77,0:07:30.81,Dialogue,,0,0,0,,Let them take care of the dinosaur.
+Dialogue: 0,0:07:30.81,0:07:32.06,Dialogue,,0,0,0,,Our stop's coming up.
+Dialogue: 0,0:07:32.73,0:07:33.77,Dialogue,,0,0,0,,Our stop?
+Dialogue: 0,0:07:36.57,0:07:37.61,Dialogue,,0,0,0,,Ohtaki{\rHonorifics - Dialogue}-han{\r}!
+Dialogue: 0,0:07:38.65,0:07:40.61,Dialogue,,0,0,0,,Hei{\rHonorifics - Dialogue}-chan{\r}, what are you doing here?
+Dialogue: 0,0:07:41.40,0:07:43.16,Dialogue,,0,0,0,,We saw you from the train.
+Dialogue: 0,0:07:43.16,0:07:45.32,Dialogue,,0,0,0,,This is a robber's car, isn't it?
+Dialogue: 0,0:07:45.33,0:07:48.99,Dialogue,,0,0,0,,Yes, the witness remembered part of the license plate number.
+Dialogue: 0,0:07:49.62,0:07:53.54,Dialogue,,0,0,0,,So, the criminals switched their car here, right?
+Dialogue: 0,0:07:55.00,0:07:57.92,Dialogue,,0,0,0,,Little boy, aren't you that one...
+Dialogue: 0,0:07:58.80,0:08:00.05,Dialogue,,0,0,0,,Heiji!
+Dialogue: 0,0:08:00.05,0:08:01.42,Dialogue,,0,0,0,,Conan{\rHonorifics - Dialogue}-kun{\r}!
+Dialogue: 0,0:08:02.13,0:08:04.09,Dialogue,,0,0,0,,Really, you're always like this...
+Dialogue: 0,0:08:06.05,0:08:09.85,Dialogue,,0,0,0,,You're Mouri{\rHonorifics - Dialogue}-han{\r}'s daughter, right?
+Dialogue: 0,0:08:09.93,0:08:10.68,Dialogue,,0,0,0,,Inspector!
+Dialogue: 0,0:08:12.89,0:08:13.64,Dialogue,,0,0,0,,Take a look!
+Dialogue: 0,0:08:16.52,0:08:18.19,Dialogue,,0,0,0,,What is that?
+Dialogue: 0,0:08:20.36,0:08:21.49,Dialogue,,0,0,0,,This is...
+Dialogue: 0,0:08:21.99,0:08:23.99,Dialogue,,0,0,0,,A red hairpin.
+Dialogue: 0,0:08:25.41,0:08:27.03,Dialogue,,0,0,0,,That hairpin...
+Dialogue: 0,0:08:27.03,0:08:28.41,Dialogue,,0,0,0,,It's the same as Mayumi{\rHonorifics - Dialogue}-chan{\r}'s!
+Dialogue: 0,0:08:28.95,0:08:30.16,Dialogue,,0,0,0,,Mayumi{\rHonorifics - Dialogue}-chan{\r}?
+Dialogue: 0,0:08:31.04,0:08:32.83,Dialogue,,0,0,0,,This little girl.
+Dialogue: 0,0:08:32.83,0:08:33.46,Dialogue,,0,0,0,,May I?
+Dialogue: 0,0:08:34.00,0:08:34.87,Dialogue,,0,0,0,,Go ahead.
+Dialogue: 0,0:08:36.79,0:08:38.96,Dialogue,,0,0,0,,They are very similar.
+Dialogue: 0,0:08:39.84,0:08:43.13,Dialogue,,0,0,0,,Little girl, where did you buy this hairpin?
+Dialogue: 0,0:08:43.63,0:08:45.63,Dialogue,,0,0,0,,I didn't buy it, someone gave it to me!
+Dialogue: 0,0:08:45.84,0:08:48.22,Dialogue,,0,0,0,,Someone gave it to you? Who?
+Dialogue: 0,0:08:48.56,0:08:49.85,Dialogue,,0,0,0,,A friend!
+Dialogue: 0,0:08:49.85,0:08:52.10,Dialogue,,0,0,0,,He said he found it at a secret place.
+Dialogue: 0,0:08:52.48,0:08:54.10,Dialogue,,0,0,0,,A secret place?
+Dialogue: 0,0:08:59.90,0:09:01.03,Dialogue,,0,0,0,,I see.
+Dialogue: 0,0:09:01.57,0:09:03.57,Dialogue,,0,0,0,,So you all took the Kanjo Line...
+Dialogue: 0,0:09:03.57,0:09:07.32,Dialogue,,0,0,0,,The hairpin found in the car must have been dropped by the criminals?
+Dialogue: 0,0:09:07.62,0:09:09.07,Dialogue,,0,0,0,,That seems likely.
+Dialogue: 0,0:09:10.24,0:09:13.20,Dialogue,,0,0,0,,Both criminals were wearing ski masks.
+Dialogue: 0,0:09:13.20,0:09:16.42,Dialogue,,0,0,0,,It probably flew off when the woman took off her mask in the car.
+Dialogue: 0,0:09:18.21,0:09:22.80,Dialogue,,0,0,0,,So, the hairpin which was given to this little girl, and this hairpin that was dropped...
+Dialogue: 0,0:09:22.80,0:09:24.42,Dialogue,,0,0,0,,I think we can reach a conclusion.
+Dialogue: 0,0:09:25.26,0:09:29.09,Dialogue,,0,0,0,,If you look closely, you can see that both hairpins were painted red, right?
+Dialogue: 0,0:09:31.81,0:09:36.94,Dialogue,,0,0,0,,The criminal probably painted them with nail polish.
+Dialogue: 0,0:09:37.40,0:09:40.27,Dialogue,,0,0,0,,If you try to scratch them, the paint will come off.
+Dialogue: 0,0:09:44.53,0:09:45.78,Dialogue,,0,0,0,,You're right.
+Dialogue: 0,0:09:45.78,0:09:46.95,Dialogue,,0,0,0,,Which means...
+Dialogue: 0,0:09:47.57,0:09:50.82,Dialogue,,0,0,0,,The secret place of Satoshi...
+Dialogue: 0,0:09:51.74,0:09:54.50,Dialogue,,0,0,0,,May have something to do with criminals.
+Dialogue: 0,0:09:55.54,0:10:00.13,Dialogue,,0,0,0,,Mayumi{\rHonorifics - Dialogue}-chan{\r}, does Satoshi often break his promises?
+Dialogue: 0,0:10:00.13,0:10:02.00,Dialogue,,0,0,0,,No, this is the first time.
+Dialogue: 0,0:10:02.55,0:10:03.38,Dialogue,,0,0,0,,This is bad.
+Dialogue: 0,0:10:04.26,0:10:05.92,Dialogue,,0,0,0,,Since Satoshi didn't show up,
+Dialogue: 0,0:10:05.97,0:10:11.35,Dialogue,,0,0,0,,It's likely he ran into the criminals at his secret place.
+Dialogue: 0,0:10:11.35,0:10:12.51,Dialogue,,0,0,0,,What did you say?
+Dialogue: 0,0:10:13.72,0:10:15.97,Dialogue,,0,0,0,,If that's so, this could be dangerous.
+Dialogue: 0,0:10:16.52,0:10:18.85,Dialogue,,0,0,0,,The criminals have guns...
+Dialogue: 0,0:10:19.81,0:10:21.81,Dialogue,,0,0,0,,Who knows what they're capable of?
+Dialogue: 0,0:10:27.95,0:10:30.61,Dialogue,,0,0,0,,But we cannot be sure about this.
+Dialogue: 0,0:10:31.07,0:10:34.08,Dialogue,,0,0,0,,Anyway, let's go to the kid's house and check.
+Dialogue: 0,0:10:42.09,0:10:44.80,Dialogue,,0,0,0,,With this bag, we can completely say goodbye to work!
+Dialogue: 0,0:10:46.72,0:10:48.97,Dialogue,,0,0,0,,But what are we going to do with this kid?
+Dialogue: 0,0:10:49.07,0:10:51.87,Signs,,0,0,0,,MORIGUCHI SATOSHI (7)
+Dialogue: 0,0:10:53.14,0:10:55.18,Dialogue,,0,0,0,,He saw our faces.
+Dialogue: 0,0:10:55.18,0:10:56.85,Dialogue,,0,0,0,,We can't leave a witness.
+Dialogue: 0,0:10:58.18,0:11:01.71,Dialogue Top,,0,0,0,,It looks like we'll have to take him to the mountains and finish him off.
+Dialogue: 0,0:10:58.75,0:11:01.71,Signs,,0,0,0,,MAEJIMA TSUYOSHI (26)
+Dialogue: 0,0:11:03.94,0:11:07.05,Dialogue Top,,0,0,0,,What a pity, but it seems there is no choice.
+Dialogue: 0,0:11:05.42,0:11:08.38,Signs,,0,0,0,,KOMIYA KAORU (21)
+Dialogue: 0,0:11:18.07,0:11:20.07,Signs,,0,0,0,,MORIGUCHI
+Dialogue: 0,0:11:24.09,0:11:25.92,Dialogue,,0,0,0,,What an impressive house!
+Dialogue: 0,0:11:25.92,0:11:27.59,Dialogue,,0,0,0,,And it was built recently, too.
+Dialogue: 0,0:11:27.59,0:11:29.01,Dialogue,,0,0,0,,It looks like it.
+Dialogue: 0,0:11:35.76,0:11:37.68,Dialogue,,0,0,0,,As we thought, no one is home.
+Dialogue: 0,0:11:37.68,0:11:39.68,Dialogue,,0,0,0,,If only his mother was at home...
+Dialogue: 0,0:11:39.68,0:11:43.06,Dialogue,,0,0,0,,We could find out where Satoshi's secret place is.
+Dialogue: 0,0:11:49.07,0:11:51.32,Thoughts,,0,0,0,,{\be10}All the flowers have dried up...
+Dialogue: 0,0:11:51.32,0:11:52.70,Dialogue,,0,0,0,,Strange!
+Dialogue: 0,0:11:54.37,0:11:56.53,Dialogue,,0,0,0,,There is only one lock on the door!
+Dialogue: 0,0:11:57.79,0:11:59.20,Dialogue,,0,0,0,,So what?
+Dialogue: 0,0:11:59.87,0:12:02.58,Dialogue,,0,0,0,,Since the house has a security system, you don't have to worry, right?
+Dialogue: 0,0:12:02.58,0:12:06.96,Dialogue,,0,0,0,,Do you kids know where Satoshi's father works?
+Dialogue: 0,0:12:07.30,0:12:07.84,Dialogue,,0,0,0,,No.
+Dialogue: 0,0:12:10.84,0:12:14.80,Dialogue,,0,0,0,,I see. Well, with some investigating, it'd be easy to find out.
+Dialogue: 0,0:12:15.30,0:12:17.89,Dialogue,,0,0,0,,Satoshi{\rHonorifics - Dialogue}-kun{\r} doesn't go to the same school we do.
+Dialogue: 0,0:12:18.89,0:12:20.47,Dialogue,,0,0,0,,Satoshi goes to a private school.
+Dialogue: 0,0:12:20.48,0:12:22.02,Dialogue,,0,0,0,,While we go to a public school.
+Dialogue: 0,0:12:22.48,0:12:24.52,Dialogue,,0,0,0,,Then how did you all meet him?
+Dialogue: 0,0:12:25.11,0:12:27.44,Dialogue,,0,0,0,,We met him at the nearby pond.
+Dialogue: 0,0:12:27.73,0:12:31.53,Dialogue,,0,0,0,,He was looking up at the sky when we first met him.
+Dialogue: 0,0:12:50.46,0:12:51.26,Thoughts,,0,0,0,,{\be10}What are you doing?
+Dialogue: 0,0:12:52.09,0:12:53.67,Thoughts,,0,0,0,,{\be10}Look up there.
+Dialogue: 0,0:12:55.14,0:12:58.93,Thoughts,,0,0,0,,{\be10}Those clouds look like a rabbit and a turtle chasing each other.
+Dialogue: 0,0:12:59.43,0:13:00.18,Thoughts,,0,0,0,,{\be10}You right.
+Dialogue: 0,0:13:00.72,0:13:02.52,Thoughts,,0,0,0,,{\be10}They really do.
+Dialogue: 0,0:13:14.53,0:13:15.95,Dialogue,,0,0,0,,What an unusual kid...
+Dialogue: 0,0:13:19.95,0:13:25.25,Dialogue,,0,0,0,,Ohtaki{\rHonorifics - Dialogue}-han{\r}, we will back to the Kanjo Line and continue looking for the T-Rex.
+Dialogue: 0,0:13:25.25,0:13:26.25,Dialogue,,0,0,0,,All right then.
+Dialogue: 0,0:13:38.55,0:13:41.16,Dialogue,,0,0,0,,Heiji, how is it going?
+Dialogue: 0,0:13:41.16,0:13:43.27,Dialogue,,0,0,0,,Not well, we couldn't find anything.
+Dialogue: 0,0:13:43.56,0:13:47.27,Dialogue,,0,0,0,,We, too. Even we split up, we couldn't find anything.
+Dialogue: 0,0:13:47.52,0:13:49.77,Dialogue,,0,0,0,,We even went as far as the building of the Yomiuri TV.
+Dialogue: 0,0:13:50.23,0:13:52.69,Dialogue,,0,0,0,,But we didn't see anything like a T-Rex.
+Dialogue: 0,0:13:53.23,0:13:55.59,Dialogue,,0,0,0,,I guess it wasn't the Kanjou Line after all.
+Dialogue: 0,0:13:55.60,0:13:57.70,Dialogue,,0,0,0,,All the trains here are orange.
+Dialogue: 0,0:14:01.41,0:14:03.49,Dialogue,,0,0,0,,Did Inspector Ohtaki come up with anything?
+Dialogue: 0,0:14:03.91,0:14:05.95,Dialogue,,0,0,0,,He called recently and said that...
+Dialogue: 0,0:14:05.96,0:14:07.96,Dialogue,,0,0,0,,They were able to contact Satoshi's father.
+Dialogue: 0,0:14:08.79,0:14:12.00,Dialogue,,0,0,0,,But he doesn't seem to know where this secret place might be.
+Dialogue: 0,0:14:12.34,0:14:15.30,Dialogue,,0,0,0,,What did he say about Satoshi's father works?
+Dialogue: 0,0:14:15.97,0:14:17.76,Dialogue,,0,0,0,,It looks like he's a businessman.
+Dialogue: 0,0:14:18.26,0:14:23.31,Dialogue,,0,0,0,,He started his own business few years ago, and they recently moved to that house.
+Dialogue: 0,0:14:23.77,0:14:27.98,Dialogue,,0,0,0,,But Satoshi is not very happy.
+Dialogue: 0,0:14:30.06,0:14:36.49,Dialogue,,0,0,0,,He recently complained that his dad works hard and fights with his mother all the time.
+Dialogue: 0,0:14:37.11,0:14:37.86,Dialogue,,0,0,0,,Right?
+Dialogue: 0,0:14:38.99,0:14:40.49,Dialogue,,0,0,0,,He was almost crying when saying that.
+Dialogue: 0,0:14:42.24,0:14:44.83,Dialogue,,0,0,0,,By the way, I just remembered something.
+Dialogue: 0,0:14:44.83,0:14:48.33,Dialogue,,0,0,0,,At the museum in Nagai, I saw a large dinosaur skeleton!
+Dialogue: 0,0:14:48.69,0:14:49.65,Dialogue,,0,0,0,,What did you say?
+Dialogue: 0,0:14:50.44,0:14:51.86,Dialogue,,0,0,0,,Speaking of Nagai...
+Dialogue: 0,0:14:52.42,0:14:55.05,Dialogue,,0,0,0,,It seems to be in the south of Tennoji...
+Dialogue: 0,0:14:55.21,0:14:57.84,Dialogue,,0,0,0,,Which is where the Midosuji Line and the Hagane Subway Line intersect.
+Dialogue: 0,0:14:59.05,0:15:01.84,Dialogue,,0,0,0,,And the trains to Midosuji have a red stripe on their bodies.
+Dialogue: 0,0:15:02.93,0:15:04.47,Dialogue,,0,0,0,,And take a look at this.
+Dialogue: 0,0:15:05.56,0:15:07.47,Dialogue,,0,0,0,,The color of the line on the map is also red!
+Dialogue: 0,0:15:07.98,0:15:11.48,Dialogue,,0,0,0,,So, the "red train", he meant the Midosuji Line?
+Dialogue: 0,0:15:11.90,0:15:15.40,Dialogue,,0,0,0,,Not to mention, Satoshi's home is located near Nagai.
+Dialogue: 0,0:15:15.40,0:15:16.73,Dialogue,,0,0,0,,This time we were definitely not wrong.
+Dialogue: 0,0:15:29.33,0:15:31.46,Dialogue,,0,0,0,,This is, of course, a dinosaur, but...
+Dialogue: 0,0:15:32.00,0:15:33.67,Dialogue,,0,0,0,,This is not a T-Rex.
+Dialogue: 0,0:15:34.42,0:15:36.71,Dialogue,,0,0,0,,Found it! It's a T-Rex!
+Dialogue: 0,0:15:39.51,0:15:42.13,Dialogue,,0,0,0,,This is useless, it doesn't have hands.
+Dialogue: 0,0:15:42.39,0:15:43.22,Dialogue,,0,0,0,,Damn it!
+Dialogue: 0,0:15:49.68,0:15:51.60,Dialogue,,0,0,0,,Then, this was also wrong?
+Dialogue: 0,0:15:51.60,0:15:54.73,Dialogue,,0,0,0,,Hey, Heiji, it's getting dark.
+Dialogue: 0,0:15:55.52,0:15:58.98,Dialogue,,0,0,0,,So the Midosuji Line is also not connected to the "red train", huh?
+Dialogue: 0,0:16:05.83,0:16:06.45,Dialogue,,0,0,0,,It's a T-Rex!
+Dialogue: 0,0:16:08.87,0:16:12.79,Dialogue,,0,0,0,,Look at the line diagram. They look a lot like a standing T-Rex, don't they?
+Dialogue: 0,0:16:16.00,0:16:16.96,Dialogue,,0,0,0,,You right!
+Dialogue: 0,0:16:17.34,0:16:18.88,Dialogue,,0,0,0,,Here is the head.
+Dialogue: 0,0:16:18.88,0:16:21.38,Dialogue,,0,0,0,,Here is the body.
+Dialogue: 0,0:16:21.38,0:16:22.76,Dialogue,,0,0,0,,And here are the hands!
+Dialogue: 0,0:16:23.01,0:16:25.18,Dialogue,,0,0,0,,You right, I can see it too.
+Dialogue: 0,0:16:25.18,0:16:26.51,Dialogue,,0,0,0,,This must be right.
+Dialogue: 0,0:16:27.85,0:16:29.97,Dialogue,,0,0,0,,So the station "in front of the hands" is...
+Dialogue: 0,0:16:31.89,0:16:33.02,Dialogue,,0,0,0,,Nakamozu!
+Dialogue: 0,0:16:38.36,0:16:40.99,Dialogue,,0,0,0,,But why is Nakamozu more interesting than others?
+Dialogue: 0,0:16:41.57,0:16:44.32,Dialogue,,0,0,0,,Ohtaki{\rHonorifics - Dialogue}-han{\r} said he would question the boy's father,
+Dialogue: 0,0:16:44.41,0:16:46.53,Dialogue,,0,0,0,,So I hope we find out about it before we get there.
+Dialogue: 0,0:16:47.03,0:16:47.41,Dialogue,,0,0,0,,Hey...
+Dialogue: 0,0:16:48.28,0:16:49.33,Dialogue,,0,0,0,,Why did you asking...
+Dialogue: 0,0:16:50.50,0:16:52.79,Thoughts,,0,0,0,,{\be10}There is only one lock on the door!
+Dialogue: 0,0:16:53.75,0:16:55.67,Dialogue,,0,0,0,,What's you mean by that?
+Dialogue: 0,0:16:56.13,0:16:58.96,Dialogue,,0,0,0,,I just thought they had double-lock...
+Dialogue: 0,0:16:58.96,0:17:01.67,Dialogue,,0,0,0,,Because Satoshi always carries two keys with him.
+Dialogue: 0,0:17:03.30,0:17:08.89,Dialogue,,0,0,0,,One of them is normal key and the other has long teeth.
+Dialogue: 0,0:17:09.18,0:17:10.43,Dialogue,,0,0,0,,Two keys...
+Dialogue: 0,0:17:11.43,0:17:12.10,Dialogue,,0,0,0,,Hattori!
+Dialogue: 0,0:17:12.60,0:17:13.27,Dialogue,,0,0,0,,Yeah...
+Dialogue: 0,0:17:14.39,0:17:15.56,Dialogue,,0,0,0,,That might be the case.
+Dialogue: 0,0:17:19.19,0:17:21.53,Dialogue,,0,0,0,,I got it, Hei{\rHonorifics - Dialogue}-chan{\r}.
+Dialogue: 0,0:17:21.53,0:17:22.94,Dialogue,,0,0,0,,The Moriguchi family...
+Dialogue: 0,0:17:22.94,0:17:24.86,Thoughts,,0,0,0,,{\be10}Lived in Nakamozu before, right?
+Dialogue: 0,0:17:26.20,0:17:29.07,Dialogue,,0,0,0,,Right, but how did you know?
+Dialogue: 0,0:17:32.95,0:17:34.33,Dialogue,,0,0,0,,So, it was what we thought.
+Dialogue: 0,0:17:34.62,0:17:38.58,Thoughts,,0,0,0,,{\be10}They lived in an apartment near Shinnou Pond...
+Dialogue: 0,0:17:39.00,0:17:41.21,Thoughts,,0,0,0,,{\be10}It's called Nankaisho.
+Dialogue: 0,0:17:56.90,0:17:57.69,Dialogue,,0,0,0,,Wait.
+Dialogue: 0,0:18:06.78,0:18:09.32,Dialogue,,0,0,0,,Will you give that kid to us?
+Dialogue: 0,0:18:10.08,0:18:11.03,Dialogue,,0,0,0,,Who are you guys?
+Dialogue: 0,0:18:22.63,0:18:24.92,Dialogue,,0,0,0,,Take this!
+Dialogue: 0,0:19:07.88,0:19:09.22,Dialogue,,0,0,0,,Satoshi!
+Dialogue: 0,0:19:10.01,0:19:11.34,Dialogue,,0,0,0,,Just one second.
+Dialogue: 0,0:19:11.85,0:19:14.72,Dialogue,,0,0,0,,Mayumi{\rHonorifics - Dialogue}-chan{\r}! Mikihiko{\rHonorifics - Dialogue}-kun{\r}! Kenta{\rHonorifics - Dialogue}-kun{\r}!
+Dialogue: 0,0:19:15.39,0:19:16.77,Dialogue,,0,0,0,,Don't worry!
+Dialogue: 0,0:19:17.23,0:19:18.73,Dialogue,,0,0,0,,I'm glad you're okay!
+Dialogue: 0,0:19:18.81,0:19:19.73,Dialogue,,0,0,0,,Me, too!
+Dialogue: 0,0:19:20.27,0:19:21.52,Dialogue,,0,0,0,,You all saved me!
+Dialogue: 0,0:19:22.40,0:19:23.73,Dialogue,,0,0,0,,We were so worried!
+Dialogue: 0,0:19:34.83,0:19:39.66,Dialogue,,0,0,0,,Apparently, only these two criminals lived in this apartment.
+Dialogue: 0,0:19:40.62,0:19:44.59,Dialogue,,0,0,0,,Since Satoshi{\rHonorifics - Dialogue}-kun{\r} had the key to the old house even after the move,
+Dialogue: 0,0:19:44.59,0:19:48.11,Dialogue Top,,0,0,0,,He sometimes came here himself.
+Dialogue: 0,0:19:49.92,0:19:52.95,Dialogue,,0,0,0,,But why did he come here?
+Dialogue: 0,0:19:52.95,0:19:54.66,Dialogue,,0,0,0,,I think it will be better...
+Dialogue: 0,0:19:55.43,0:19:58.68,Dialogue,,0,0,0,,If you two, his parents, see for yourself.
+Dialogue: 0,0:20:08.82,0:20:10.24,Dialogue,,0,0,0,,In the middle of this room...
+Dialogue: 0,0:20:11.20,0:20:12.95,Dialogue,,0,0,0,,There was a dining table.
+Dialogue: 0,0:20:13.49,0:20:16.78,Dialogue,,0,0,0,,Dad was sitting here, and Mom was over here.
+Dialogue: 0,0:20:17.33,0:20:19.70,Dialogue,,0,0,0,,And I sat right here.
+Dialogue: 0,0:20:26.00,0:20:28.88,Dialogue,,0,0,0,,Mom, today you look more beautiful than ever!
+Dialogue: 0,0:20:28.92,0:20:31.13,Dialogue,,0,0,0,,I'm always beautiful!
+Dialogue: 0,0:20:34.84,0:20:36.18,Dialogue,,0,0,0,,And me?
+Dialogue: 0,0:20:36.55,0:20:37.89,Dialogue,,0,0,0,,That's right...
+Dialogue: 0,0:20:37.89,0:20:41.02,Dialogue,,0,0,0,,Kenta{\rHonorifics - Dialogue}-kun{\r}, you can be that pet, Noraya, who often came to play with us!
+Dialogue: 0,0:20:43.19,0:20:45.02,Dialogue,,0,0,0,,Noraya is a cat.
+Dialogue: 0,0:20:57.33,0:21:00.33,Dialogue,,0,0,0,,Satoshi said that in this place...
+Dialogue: 0,0:21:01.41,0:21:05.87,Dialogue,,0,0,0,,"Even though it's really fun, it's also a place that can make you cry."
+Dialogue: 0,0:21:31.11,0:21:32.86,Dialogue,,0,0,0,,Satoshi, we've come to get you.
+Dialogue: 0,0:21:33.53,0:21:36.86,Dialogue,,0,0,0,,Dad! And Mom! Don't you have work to do?
+Dialogue: 0,0:21:36.95,0:21:39.07,Dialogue,,0,0,0,,No, no more work today.
+Dialogue: 0,0:21:39.12,0:21:42.08,Dialogue,,0,0,0,,Let's buy Satoshi's favourite food before we go home.
+Dialogue: 0,0:21:42.08,0:21:43.00,Dialogue,,0,0,0,,That'd be great!
+Dialogue: 0,0:23:19.59,0:23:22.05,Dialogue Top,,0,0,0,,It all ended so well!
+Dialogue: 0,0:23:22.11,0:23:24.94,Signs,,0,0,0,,BIZEN HEISHIROU (34)
+Dialogue: 0,0:23:22.60,0:23:24.93,Dialogue Top,,0,0,0,,Well done, Hei{\rHonorifics - Dialogue}-chan{\r}.
+Dialogue: 0,0:23:25.81,0:23:26.85,Dialogue,,0,0,0,,By the way...
+Dialogue: 0,0:23:26.85,0:23:30.94,Dialogue,,0,0,0,,I wanted to bring them here to try some takoyaki before returned to Tokyo.
+Dialogue: 0,0:23:31.40,0:23:33.06,Dialogue,,0,0,0,,But I forgot again.
+Dialogue: 0,0:23:33.06,0:23:35.15,Dialogue,,0,0,0,,Well, next time you will definitely bring them here.
+Dialogue: 0,0:23:35.15,0:23:36.94,Dialogue,,0,0,0,,And I will give them the best service.
+Dialogue: 0,0:23:37.24,0:23:39.61,Dialogue,,0,0,0,,In that case, thank you.
+Dialogue: 0,0:23:43.53,0:23:45.20,Dialogue,,0,0,0,,You brought us souvenirs?
+Dialogue: 0,0:23:45.20,0:23:46.49,Dialogue,,0,0,0,,I'm touched, Conan.
+Dialogue: 0,0:23:46.49,0:23:47.29,Dialogue,,0,0,0,,Is that fried eel?
+Dialogue: 0,0:23:47.33,0:23:48.91,Dialogue,,0,0,0,,Of course not!
+Dialogue: 0,0:23:49.37,0:23:51.00,Dialogue,,0,0,0,,This is for Mayumi{\rHonorifics - Dialogue}-chan{\r}.
+Dialogue: 0,0:23:51.50,0:23:52.50,Dialogue,,0,0,0,,This is for Kenta.
+Dialogue: 0,0:23:53.25,0:23:54.46,Dialogue,,0,0,0,,And this is for Mikihiko.
+Dialogue: 0,0:23:55.09,0:23:55.84,Dialogue,,0,0,0,,Mayumi?
+Dialogue: 0,0:23:56.30,0:23:56.84,Dialogue,,0,0,0,,Kenta?
+Dialogue: 0,0:23:57.21,0:23:57.84,Dialogue,,0,0,0,,Mikihiko?
+Dialogue: 0,0:23:59.72,0:24:03.64,Dialogue,,0,0,0,,Conan{\rHonorifics - Dialogue}-kun{\r}, did something weird happen to you there in Osaka?
+Dialogue: 0,0:24:06.77,0:24:08.56,Dialogue,,0,0,0,,Maybe it did...

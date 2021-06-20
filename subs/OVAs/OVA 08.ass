@@ -1,0 +1,498 @@
+[Script Info]
+Title: Detective Conan - OVA 08
+TL Source: DCTP
+ScriptType: v4.00+
+WrapStyle: 3
+PlayResX: 1440
+PlayResY: 1080
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Dialogue,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00401311,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Dialogue Top,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00401311,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,8,30,30,55,1
+Style: Signs,FrancophilSans,74,&H14FFFFFF,&H00FFFFFF,&H46101010,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,8,30,30,55,1
+Style: Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,0,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Radio,FrancophilSans,74,&H00BEE1FF,&H00FFFFFF,&H000B2A42,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Narration,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00BF6F00,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Narration Off,FrancophilSans,74,&H6E8C6F00,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,0,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Flashback,FrancophilSans,74,&H00CDFAFF,&H00FFFFFF,&H00373737,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Flashback Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00CCFFFF,&HC0313134,-1,0,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Honorifics - Dialogue,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00401311,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Signs,FrancophilSans,74,&H14FFFFFF,&H00FFFFFF,&H46101010,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,-1,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Honorifics - Radio,FrancophilSans,74,&H00BEE1FF,&H00FFFFFF,&H000B2A42,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Narration,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00BF6F00,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Narration Off,FrancophilSans,74,&H6E8C6F00,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,-1,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Honorifics - Flashback,FrancophilSans,74,&H00CDFAFF,&H00FFFFFF,&H00373737,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Flashback Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00CCFFFF,&HC0313134,-1,-1,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Masks,FrancophilSans,74,&H00000000,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,2,0,0,0,1
+Style: Title,Conan Episode Title,74,&H00E1E4E3,&H000000FF,&HC8DBDAE1,&HC0000000,-1,0,0,0,100,100,0,0,1,1,0,5,0,0,0,1
+Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-1,0,0,0,100,100,0,0,1,0,0,2,0,0,65,1
+Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
+Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
+Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.06,0:00:02.69,Signs,Sign,0,0,0,,WEEKLY NEWS
+Dialogue: 0,0:00:04.86,0:00:07.49,Dialogue Top,,0,0,0,,The deceased is...
+Dialogue: 0,0:00:07.49,0:00:11.07,Dialogue Top,,0,0,0,,The editor-in-chief and president of the magazine "Weekly News"...
+Dialogue: 0,0:00:09.91,0:00:13.24,Signs,Sign,0,0,0,,Ooshita Takeo (54)\NWeekly News President & Editor-in-Chief
+Dialogue: 0,0:00:11.07,0:00:13.24,Dialogue Top,,0,0,0,,Ooshita Takeo{\rHonorifics - Dialogue}-san{\r}, age 54.
+Dialogue: 0,0:00:13.66,0:00:17.29,Dialogue,,0,0,0,,The estimated time of death is yesterday at around 11:00 AM.
+Dialogue: 0,0:00:17.83,0:00:20.37,Dialogue,,0,0,0,,It's already been 24 hours now.
+Dialogue: 0,0:00:20.88,0:00:23.50,Dialogue,,0,0,0,,Stabbed in the back with a knife, huh?
+Dialogue: 0,0:00:23.84,0:00:24.46,Dialogue,,0,0,0,,Yes.
+Dialogue: 0,0:00:25.00,0:00:28.30,Dialogue,,0,0,0,,Judging from the bloodstains on the floor, the\Narrangement of the items on the table...
+Dialogue: 0,0:00:28.30,0:00:31.47,Dialogue,,0,0,0,,As well as the direction of the TV set and the surroundings...
+Dialogue: 0,0:00:31.47,0:00:36.22,Dialogue,,0,0,0,,It would seem Ooshita{\rHonorifics - Dialogue}-san{\r} was sitting on the sofa\Nat the time, eating pizza and watching TV.
+Dialogue: 0,0:01:06.25,0:01:09.34,Dialogue,,0,0,0,,Given that yesterday was a holiday, the office was closed.
+Dialogue: 0,0:01:09.34,0:01:14.55,Dialogue,,0,0,0,,As such, we can conclude it was someone who knew Ooshita{\rHonorifics - Dialogue}-san{\r}\Nwould come to work even on a holiday...
+Dialogue: 0,0:01:14.55,0:01:16.81,Dialogue,,0,0,0,,And could pay a visit to kill him.
+Dialogue: 0,0:01:16.81,0:01:21.27,Dialogue,,0,0,0,,And this "someone" you're referring to\Nis one of these four employees, right?
+Dialogue: 0,0:01:21.56,0:01:23.65,Dialogue,,0,0,0,,The first to discover the body was you, right?
+Dialogue: 0,0:01:23.77,0:01:27.61,Signs,Sign,0,0,0,,Minamisawa Junbei (26)\NWeekly NEWS Employee
+Dialogue: 0,0:01:24.02,0:01:24.77,Dialogue,,0,0,0,,Yes.
+Dialogue: 0,0:01:25.61,0:01:27.61,Dialogue,,0,0,0,,My name is Minamisawa Junbei.
+Dialogue: 0,0:01:27.82,0:01:32.66,Dialogue,,0,0,0,,This morning, you arrived here at work around\N10:00 AM and found the body of the president.
+Dialogue: 0,0:01:33.28,0:01:34.95,Dialogue,,0,0,0,,At that time, was the door locked?
+Dialogue: 0,0:01:35.53,0:01:36.58,Dialogue,,0,0,0,,It was.
+Dialogue: 0,0:01:37.08,0:01:38.45,Dialogue,,0,0,0,,And the TV screen?
+Dialogue: 0,0:01:39.04,0:01:40.04,Dialogue,,0,0,0,,It wasn't on.
+Dialogue: 0,0:01:40.75,0:01:41.62,Dialogue,,0,0,0,,In other words...
+Dialogue: 0,0:01:41.62,0:01:44.33,Dialogue,,0,0,0,,After the culprit killed Ooshita{\rHonorifics - Dialogue}-san{\r}...
+Dialogue: 0,0:01:44.33,0:01:48.00,Dialogue,,0,0,0,,They turned off the TV and locked the door from the outside.
+Dialogue: 0,0:01:48.00,0:01:48.75,Dialogue,,0,0,0,,Yes.
+Dialogue: 0,0:01:49.38,0:01:52.22,Dialogue,,0,0,0,,The culprit must have had the key to the room.
+Dialogue: 0,0:01:52.22,0:01:56.01,Dialogue,,0,0,0,,Speaking of which, Ooshita{\rHonorifics - Dialogue}-san{\r}'s key was left on his desk.
+Dialogue: 0,0:01:56.68,0:01:59.93,Dialogue,,0,0,0,,And the only ones with spare keys are these four.
+Dialogue: 0,0:02:00.35,0:02:01.35,Dialogue,,0,0,0,,I see.
+Dialogue: 0,0:02:01.85,0:02:06.19,Dialogue,,0,0,0,,Furthermore, each of these four have motives for killing Ooshita{\rHonorifics - Dialogue}-san{\r}.
+Dialogue: 0,0:02:06.19,0:02:07.65,Dialogue,,0,0,0,,First is Higashida Naoya{\rHonorifics - Dialogue}-san{\r}.
+Dialogue: 0,0:02:08.57,0:02:11.65,Dialogue,,0,0,0,,Higashida{\rHonorifics - Dialogue}-san{\r} is in charge of editing the magazine.
+Dialogue: 0,0:02:11.65,0:02:14.74,Dialogue,,0,0,0,,He would argue with Ooshita{\rHonorifics - Dialogue}-san{\r} several times a day.
+Dialogue: 0,0:02:15.36,0:02:19.49,Dialogue,,0,0,0,,The night of the incident, the other three employees saw both of them arguing feverishly with each other.
+Dialogue: 0,0:02:19.66,0:02:24.92,Signs,Sign,0,0,0,,Higashida Naoya (32)\NWeekly NEWS Employee
+Dialogue: 0,0:02:19.95,0:02:22.33,Dialogue Top,,0,0,0,,But I didn't do it.
+Dialogue: 0,0:02:22.33,0:02:25.00,Dialogue Top,,0,0,0,,I have nothing to gain from it.
+Dialogue: 0,0:02:25.17,0:02:27.25,Dialogue,,0,0,0,,Next, we have Nishizaki Eiko{\rHonorifics - Dialogue}-san{\r}.
+Dialogue: 0,0:02:27.25,0:02:31.34,Dialogue,,0,0,0,,This magazine company was originally founded by her father.
+Dialogue: 0,0:02:31.34,0:02:33.01,Dialogue,,0,0,0,,But, after it was taken over by Ooshita{\rHonorifics - Dialogue}-san{\r}...
+Dialogue: 0,0:02:33.01,0:02:34.93,Dialogue,,0,0,0,,Her father became depressed and died of an illness.
+Dialogue: 0,0:02:35.38,0:02:37.68,Dialogue,,0,0,0,,You could say the victim was an enemy that killed her father.
+Dialogue: 0,0:02:37.97,0:02:39.26,Dialogue,,0,0,0,,That's right.
+Dialogue: 0,0:02:39.26,0:02:41.81,Dialogue,,0,0,0,,I kept waiting for the opportunity to get my revenge.
+Dialogue: 0,0:02:42.35,0:02:43.85,Dialogue,,0,0,0,,But it wasn't me.
+Dialogue: 0,0:02:43.85,0:02:48.73,Signs,Sign,0,0,0,,Nishizaki Eiko (30)\NWeekly NEWS Employee
+Dialogue: 0,0:02:43.89,0:02:47.27,Dialogue Top,,0,0,0,,If it had been me, I'd have put him through much greater agony.
+Dialogue: 0,0:02:47.27,0:02:48.86,Dialogue Top,,0,0,0,,Maybe by poisoning him, for example.
+Dialogue: 0,0:02:49.19,0:02:51.48,Dialogue,,0,0,0,,The one who loves to gamble, Kitano Tsuyoshi{\rHonorifics - Dialogue}-san{\r}...
+Dialogue: 0,0:02:51.48,0:02:53.82,Dialogue,,0,0,0,,Owed Ooshita{\rHonorifics - Dialogue}-san{\r} a large sum of money...
+Dialogue: 0,0:02:53.82,0:02:55.53,Dialogue,,0,0,0,,And was being forced to return what he owed.
+Dialogue: 0,0:02:56.03,0:02:58.99,Dialogue,,0,0,0,,Should Ooshita{\rHonorifics - Dialogue}-san{\r} have died, he'd be absolved of all his debts.
+Dialogue: 0,0:02:59.41,0:03:02.75,Dialogue,,0,0,0,,Well, I knew this was going to happen.
+Dialogue: 0,0:03:01.58,0:03:05.41,Signs,Sign,0,0,0,,Kitano Tsuyoshi (28)\NWeekly NEWS Employee
+Dialogue: 0,0:03:03.16,0:03:05.41,Dialogue,,0,0,0,,It wasn't too hard for me to predict.
+Dialogue: 0,0:03:05.62,0:03:11.71,Dialogue,,0,0,0,,Moreover, Minamisawa{\rHonorifics - Dialogue}-san{\r} found evidence that supported\Nallegations of corruption that some politician was facing...
+Dialogue: 0,0:03:11.71,0:03:14.05,Dialogue,,0,0,0,,But the draft was rejected by Ooshita{\rHonorifics - Dialogue}-san{\r}.
+Dialogue: 0,0:03:14.42,0:03:17.01,Dialogue,,0,0,0,,It seems that he and the politician in question had vested interests in one another.
+Dialogue: 0,0:03:17.59,0:03:20.30,Dialogue,,0,0,0,,It was really hard to get that evidence.
+Dialogue: 0,0:03:20.30,0:03:21.06,Dialogue,,0,0,0,,But still...
+Dialogue: 0,0:03:21.68,0:03:26.31,Dialogue,,0,0,0,,In other words, each of you has admitted to having a motive...
+Dialogue: 0,0:03:26.31,0:03:28.90,Dialogue,,0,0,0,,But not to doing the deed, correct?
+Dialogue: 0,0:03:30.90,0:03:32.78,Dialogue,,0,0,0,,What do you think, Mouri{\rHonorifics - Dialogue}-kun{\r}?
+Dialogue: 0,0:03:32.78,0:03:33.90,Dialogue,,0,0,0,,Inspector...
+Dialogue: 0,0:03:33.90,0:03:35.90,Dialogue,,0,0,0,,I already know who the culprit is.
+Dialogue: 0,0:03:36.36,0:03:37.32,Dialogue,,0,0,0,,What'd you say?
+Dialogue: 0,0:03:39.66,0:03:42.53,Dialogue,,0,0,0,,Please look closely at Ooshita{\rHonorifics - Dialogue}-san{\r}'s body.
+Dialogue: 0,0:03:43.12,0:03:46.04,Dialogue,,0,0,0,,The way his finger is extended like that...
+Dialogue: 0,0:03:46.71,0:03:48.79,Dialogue,,0,0,0,,Reveals the killer's identity...
+Dialogue: 0,0:03:49.29,0:03:51.38,Dialogue,,0,0,0,,As his dying message.
+Dialogue: 0,0:03:52.00,0:03:53.84,Dialogue,,0,0,0,,That means the killer is...
+Dialogue: 0,0:03:55.13,0:03:56.51,Dialogue,,0,0,0,,Kitano Tsuyoshi{\rHonorifics - Dialogue}-san{\r}...
+Dialogue: 0,0:03:56.51,0:03:57.26,Dialogue,,0,0,0,,It's you.
+Dialogue: 0,0:03:58.55,0:03:59.72,Dialogue,,0,0,0,,The evidence is...
+Dialogue: 0,0:03:59.72,0:04:03.76,Dialogue,,0,0,0,,Ooshita{\rHonorifics - Dialogue}-san{\r}'s finger pointing towards the north.
+Dialogue: 0,0:04:04.14,0:04:05.18,Dialogue,,0,0,0,,Detective Takagi...
+Dialogue: 0,0:04:05.43,0:04:11.06,Dialogue,,0,0,0,,The end of his finger seems to follow an Amidakuji pattern along the cracks between the floorboards.
+Dialogue: 0,0:04:10.73,0:04:15.86,Dialogue,Note,0,0,0,,Amidakuji is the practice of following vertical and\Nhorizontal lines from a top point to a bottom one.
+Dialogue: 0,0:04:14.78,0:04:16.86,Dialogue,,0,0,0,,Let's see...
+Dialogue: 0,0:04:25.12,0:04:26.62,Dialogue,,0,0,0,,North Star Beer...
+Dialogue: 0,0:04:27.58,0:04:29.00,Dialogue,,0,0,0,,North Star?
+Dialogue: 0,0:04:30.00,0:04:31.58,Dialogue,,0,0,0,,Kitano{\rHonorifics - Dialogue}-san{\r} is the culprit?
+Dialogue: 0,0:04:33.96,0:04:34.92,Dialogue,,0,0,0,,That's ridiculous.
+Dialogue: 0,0:04:34.92,0:04:37.88,Dialogue,,0,0,0,,How can you use a stupid game like that to call someone a killer?
+Dialogue: 0,0:04:38.38,0:04:40.30,Dialogue,,0,0,0,,I feel the same way.
+Dialogue: 0,0:04:40.30,0:04:45.35,Dialogue,,0,0,0,,Just before dying, being able to notice the case of North Star Beer...
+Dialogue: 0,0:04:45.35,0:04:50.06,Dialogue,,0,0,0,,Then being able to do the Amidakuji from there to where he was...
+Dialogue: 0,0:04:50.39,0:04:54.23,Dialogue,,0,0,0,,And putting his finger in the correct spot, is that even possible?
+Dialogue: 0,0:04:54.69,0:04:58.57,Dialogue,,0,0,0,,Besides, his finger is pointing in the north-east direction.
+Dialogue: 0,0:04:59.07,0:05:00.36,Dialogue,,0,0,0,,North-east?
+Dialogue: 0,0:05:01.20,0:05:03.91,Dialogue,,0,0,0,,In that case, Higashida{\rHonorifics - Dialogue}-san{\r} must've been Kitano{\rHonorifics - Dialogue}-san{\r}'s accomplice.
+Dialogue: 0,0:05:03.91,0:05:05.28,Dialogue,,0,0,0,,What kind of joke is this?
+Dialogue: 0,0:05:05.28,0:05:06.91,Dialogue,,0,0,0,,Knock it off with those hack deductions!
+Dialogue: 0,0:05:07.70,0:05:08.41,Dialogue,,0,0,0,,Hack?
+Dialogue: 0,0:05:08.66,0:05:10.04,Dialogue,,0,0,0,,Really now.
+Dialogue: 0,0:05:10.04,0:05:12.37,Dialogue,,0,0,0,,The great detective seems a bit shocked to hear that.
+Dialogue: 0,0:05:12.79,0:05:14.42,Dialogue,,0,0,0,,No, no, but...
+Dialogue: 0,0:05:23.01,0:05:25.05,Dialogue,,0,0,0,,You're too naïve, Detective Mouri.
+Dialogue: 0,0:05:25.05,0:05:27.77,Dialogue,,0,0,0,,You can't solve a case with that kind of deduction.
+Dialogue: 0,0:05:33.56,0:05:35.31,Dialogue,,0,0,0,,Female high school detective...
+Dialogue: 0,0:05:35.73,0:05:37.40,Dialogue,,0,0,0,,Suzuki Sonoko, is here!
+Dialogue: 0,0:05:40.94,0:05:46.95,Dialogue Top,Sign,0,0,0,,FEMALE HIGH SCHOOL DETECTIVE\NSUZUKI SONOKO'S CASEBOOK
+Dialogue: 0,0:05:47.37,0:05:50.16,Dialogue,,0,0,0,,"Female high school detective, Suzuki Sonoko, is here!"
+Dialogue: 0,0:05:50.62,0:05:54.71,Dialogue,,0,0,0,,"At that instant, magnificent sound effects chime in while the spotlight is turned on."
+Dialogue: 0,0:05:54.71,0:05:56.75,Dialogue,,0,0,0,,"Then, our heroine Sonoko makes her grand entrance."
+Dialogue: 0,0:05:57.75,0:05:59.63,Dialogue,,0,0,0,,Sonoko{\rHonorifics - Dialogue}-neesan{\r} is so cool!
+Dialogue: 0,0:05:59.63,0:06:02.42,Dialogue,,0,0,0,,It really does feel like a main character making her grand entrance.
+Dialogue: 0,0:06:04.30,0:06:07.68,Dialogue,,0,0,0,,I was actually gonna write "Deduction Queen Suzuki Sonoko is here!"
+Dialogue: 0,0:06:07.81,0:06:09.18,Dialogue,,0,0,0,,Say, say, neechan...
+Dialogue: 0,0:06:09.18,0:06:10.77,Dialogue,,0,0,0,,Is this supposed to be an essay?
+Dialogue: 0,0:06:10.89,0:06:11.85,Dialogue,,0,0,0,,Not at all!
+Dialogue: 0,0:06:11.85,0:06:13.19,Dialogue,,0,0,0,,This is a play script.
+Dialogue: 0,0:06:13.19,0:06:17.82,Dialogue,,0,0,0,,Our school's second-year students are raising\Nmoney for charity by putting on a play at a church.
+Dialogue: 0,0:06:17.82,0:06:20.32,Dialogue,,0,0,0,,I'm writing the script for it.
+Dialogue: 0,0:06:20.32,0:06:21.69,Dialogue,,0,0,0,,Didn't I already tell you that!?
+Dialogue: 0,0:06:21.69,0:06:22.74,Dialogue,,0,0,0,,Did you?
+Dialogue: 0,0:06:23.15,0:06:23.95,Dialogue,,0,0,0,,She did.
+Dialogue: 0,0:06:24.45,0:06:27.74,Dialogue,,0,0,0,,She also mentioned buying herself the roles of both director and the main character.
+Dialogue: 0,0:06:27.91,0:06:29.28,Dialogue,,0,0,0,,Hey...
+Dialogue: 0,0:06:29.28,0:06:31.79,Dialogue,,0,0,0,,Don't make it sound so sinister!
+Dialogue: 0,0:06:31.79,0:06:33.66,Dialogue,,0,0,0,,We decided it after talking it over.
+Dialogue: 0,0:06:34.12,0:06:35.46,Dialogue,,0,0,0,,Kind of...
+Dialogue: 0,0:06:36.25,0:06:37.08,Dialogue,,0,0,0,,Yes!
+Dialogue: 0,0:06:37.08,0:06:39.00,Dialogue,,0,0,0,,Yes, yes, yes, yes, yes!
+Dialogue: 0,0:06:39.17,0:06:39.92,Dialogue,,0,0,0,,Yes!
+Dialogue: 0,0:06:39.92,0:06:41.17,Dialogue,,0,0,0,,Yes, yes, yes!
+Dialogue: 0,0:06:41.67,0:06:42.59,Dialogue,,0,0,0,,I would!
+Dialogue: 0,0:06:42.59,0:06:44.30,Dialogue,,0,0,0,,I'd like to be the main character!
+Dialogue: 0,0:06:44.30,0:06:48.18,Dialogue,,0,0,0,,I'll even write the script and direct!
+Dialogue: 0,0:06:48.89,0:06:51.85,Dialogue,,0,0,0,,And so, that's how everyone decided on her.
+Dialogue: 0,0:06:54.14,0:06:56.44,Dialogue,,0,0,0,,I knew it'd be something like that.
+Dialogue: 0,0:06:56.69,0:06:58.94,Dialogue,,0,0,0,,But it does seem interesting.
+Dialogue: 0,0:06:59.11,0:07:00.86,Dialogue,,0,0,0,,So far, at least.
+Dialogue: 0,0:07:00.86,0:07:01.94,Dialogue,,0,0,0,,Right, right?
+Dialogue: 0,0:07:01.94,0:07:03.65,Dialogue,,0,0,0,,That's the main focus of the story.
+Dialogue: 0,0:07:03.65,0:07:09.70,Dialogue,,0,0,0,,The names of actual police officers and detectives will be included to make the story play out like reality.
+Dialogue: 0,0:07:09.70,0:07:12.45,Dialogue,,0,0,0,,Of course, we'll be the ones acting it out.
+Dialogue: 0,0:07:12.70,0:07:14.08,Dialogue,,0,0,0,,Speaking of which...
+Dialogue: 0,0:07:14.79,0:07:16.87,Dialogue,,0,0,0,,Doesn't it make my dad seem a little...
+Dialogue: 0,0:07:17.25,0:07:18.46,Dialogue,,0,0,0,,I mean...
+Dialogue: 0,0:07:18.46,0:07:21.96,Dialogue,,0,0,0,,It is true that, before he was "Sleeping Kogorou," he would act stupid, but...
+Dialogue: 0,0:07:21.96,0:07:23.13,Dialogue,,0,0,0,,Sorry, sorry.
+Dialogue: 0,0:07:23.13,0:07:25.09,Dialogue,,0,0,0,,I'm the starring character this time.
+Dialogue: 0,0:07:25.09,0:07:27.34,Dialogue,,0,0,0,,He won't be turning into Sleeping Kogorou this time, all right?
+Dialogue: 0,0:07:27.84,0:07:29.09,Dialogue,,0,0,0,,Of course not.
+Dialogue: 0,0:07:29.09,0:07:30.55,Dialogue,,0,0,0,,I'm not in it, after all.
+Dialogue: 0,0:07:31.22,0:07:35.06,Dialogue,,0,0,0,,But is it all right to have those three people up there?
+Dialogue: 0,0:07:35.06,0:07:38.90,Dialogue,,0,0,0,,I think using a murder plot for a church charity play may be a bit...
+Dialogue: 0,0:07:38.90,0:07:40.02,Dialogue,,0,0,0,,It's fine, it's fine.
+Dialogue: 0,0:07:40.02,0:07:42.36,Dialogue,,0,0,0,,There's nothing to worry about as long as it's funny.
+Dialogue: 0,0:07:42.69,0:07:43.61,Dialogue,,0,0,0,,Hey, hey...
+Dialogue: 0,0:07:43.82,0:07:46.95,Dialogue,,0,0,0,,Anyway, hurry and tell us the rest of the story!
+Dialogue: 0,0:07:46.95,0:07:48.36,Dialogue,,0,0,0,,Ayumi wants to hear the rest too!
+Dialogue: 0,0:07:48.70,0:07:50.24,Dialogue,,0,0,0,,Sonoko, what comes after that?
+Dialogue: 0,0:07:50.66,0:07:51.53,Dialogue,,0,0,0,,Nothing.
+Dialogue: 0,0:07:52.66,0:07:54.45,Dialogue,,0,0,0,,The script only goes up to there.
+Dialogue: 0,0:07:54.45,0:07:57.00,Dialogue,,0,0,0,,I can't think of what to write for the rest.
+Dialogue: 0,0:07:58.00,0:08:01.54,Dialogue,,0,0,0,,Then, who was Ooshita{\rHonorifics - Dialogue}-san{\r}'s finger pointing to?
+Dialogue: 0,0:08:01.54,0:08:02.50,Dialogue,,0,0,0,,I don't know.
+Dialogue: 0,0:08:02.75,0:08:04.05,Dialogue,,0,0,0,,Who's the culprit?
+Dialogue: 0,0:08:04.05,0:08:07.55,Dialogue,,0,0,0,,We'll make Higashida the murderer for now.
+Dialogue: 0,0:08:08.26,0:08:12.35,Dialogue,,0,0,0,,Anyway, I only focused on how to make my grand entrance.
+Dialogue: 0,0:08:12.35,0:08:13.76,Dialogue,,0,0,0,,I kinda pushed the rest aside.
+Dialogue: 0,0:08:14.43,0:08:16.23,Dialogue,,0,0,0,,That's just like you.
+Dialogue: 0,0:08:16.52,0:08:19.19,Dialogue,,0,0,0,,But there's only a week before the show starts!
+Dialogue: 0,0:08:19.19,0:08:20.44,Dialogue,,0,0,0,,That's right!
+Dialogue: 0,0:08:20.44,0:08:25.32,Dialogue,,0,0,0,,We still have to rehearse the lines, prepare costumes, set up the stage, and even the music's barely ready at this point.
+Dialogue: 0,0:08:25.98,0:08:28.74,Dialogue,,0,0,0,,With all of that in mind, we have to finish the script today!
+Dialogue: 0,0:08:29.15,0:08:30.45,Dialogue,,0,0,0,,Today?
+Dialogue: 0,0:08:30.82,0:08:31.62,Dialogue,,0,0,0,,Right.
+Dialogue: 0,0:08:31.62,0:08:36.16,Dialogue,,0,0,0,,That's why I was thinking I should get some pointers from a real detective, like your dad.
+Dialogue: 0,0:08:36.16,0:08:37.37,Dialogue,,0,0,0,,Like my dad?
+Dialogue: 0,0:08:37.37,0:08:41.46,Dialogue,,0,0,0,,But, I would be having him in a supporting role and I haven't discussed that with him yet.
+Dialogue: 0,0:08:41.46,0:08:44.96,Dialogue,,0,0,0,,Showing him the script all of a sudden\Nprobably isn't the appropriate thing to do.
+Dialogue: 0,0:08:44.96,0:08:49.72,Dialogue,,0,0,0,,That's why I asked you to come along, to see what you had to say.
+Dialogue: 0,0:08:49.72,0:08:50.18,Dialogue,,0,0,0,,So...
+Dialogue: 0,0:08:54.14,0:08:56.06,Dialogue,,0,0,0,,Why are you guys here, anyway?
+Dialogue: 0,0:08:57.89,0:08:59.48,Dialogue,,0,0,0,,Why are you asking this now?
+Dialogue: 0,0:09:00.27,0:09:01.56,Dialogue,,0,0,0,,Forget it.
+Dialogue: 0,0:09:02.31,0:09:05.77,Dialogue,,0,0,0,,The problem is the true meaning behind the dying message.
+Dialogue: 0,0:09:06.19,0:09:07.48,Dialogue,,0,0,0,,Are you sure that's the only problem?
+Dialogue: 0,0:09:08.28,0:09:11.07,Dialogue,,0,0,0,,Firstly, something is wrong with the setting of your plot.
+Dialogue: 0,0:09:11.07,0:09:13.78,Dialogue,,0,0,0,,Why is Detective Mouri even at the scene of the crime?
+Dialogue: 0,0:09:13.78,0:09:15.66,Dialogue,,0,0,0,,Did Inspector Megure call for him?
+Dialogue: 0,0:09:15.66,0:09:16.29,Dialogue,,0,0,0,,Or, perhaps...
+Dialogue: 0,0:09:16.29,0:09:19.41,Dialogue,,0,0,0,,He was walking along the street, and all of a sudden saw a patrol car pass by?
+Dialogue: 0,0:09:19.41,0:09:23.17,Dialogue,,0,0,0,,The four suspects somehow have the directions east, west, south, and north in their names.
+Dialogue: 0,0:09:23.17,0:09:25.34,Dialogue,,0,0,0,,Well, they're not even real names, so I'll let that go.
+Dialogue: 0,0:09:26.17,0:09:28.88,Dialogue,,0,0,0,,How do you plan on showing the cracks\Nbetween the floorboards to the audience?
+Dialogue: 0,0:09:29.38,0:09:31.05,Dialogue,,0,0,0,,If they're forced to understand the lines without seeing the props...
+Dialogue: 0,0:09:31.68,0:09:33.80,Dialogue,,0,0,0,,It won't be nearly as interesting.
+Dialogue: 0,0:09:33.80,0:09:35.43,Dialogue,,0,0,0,,Those are all completely trivial!
+Dialogue: 0,0:09:35.43,0:09:36.97,Dialogue,,0,0,0,,I never even considered any of that!
+Dialogue: 0,0:09:36.97,0:09:37.89,Dialogue,,0,0,0,,Is that so?
+Dialogue: 0,0:09:38.43,0:09:40.31,Dialogue,,0,0,0,,But the biggest problem is...
+Dialogue: 0,0:09:40.89,0:09:44.77,Dialogue,,0,0,0,,Even if we can think of the true\Nmeaning behind the dying message...
+Dialogue: 0,0:09:45.40,0:09:47.19,Dialogue,,0,0,0,,It will only serve as circumstantial evidence.
+Dialogue: 0,0:09:47.19,0:09:49.99,Dialogue,,0,0,0,,There would still be nothing physical there.
+Dialogue: 0,0:09:50.57,0:09:52.61,Dialogue,,0,0,0,,You should cancel the play while you still can.
+Dialogue: 0,0:09:52.61,0:09:54.66,Dialogue,,0,0,0,,Wouldn't singing a song be better?
+Dialogue: 0,0:09:55.53,0:09:56.83,Dialogue,,0,0,0,,She makes me sound stupid...
+Dialogue: 0,0:09:57.53,0:09:59.83,Dialogue,,0,0,0,,At any rate, let me call my dad first.
+Dialogue: 0,0:10:00.58,0:10:05.00,Dialogue,,0,0,0,,I won't mention that he's in the script, or else he'll\Nstart spouting off all kinds of weird deductions.
+Dialogue: 0,0:10:05.00,0:10:07.38,Dialogue,,0,0,0,,He must have some good ideas.
+Dialogue: 0,0:10:18.60,0:10:21.14,Dialogue,,0,0,0,,It's abrupt to ask such a thing.
+Dialogue: 0,0:10:21.14,0:10:23.52,Dialogue,,0,0,0,,How do you expect me to think of that kinda stuff for you?
+Dialogue: 0,0:10:23.77,0:10:25.40,Dialogue,,0,0,0,,Just try your best.
+Dialogue: 0,0:10:26.10,0:10:28.23,Dialogue,,0,0,0,,Sonoko's feeling really down about it all.
+Dialogue: 0,0:10:28.40,0:10:29.02,Dialogue,,0,0,0,,Jeez...
+Dialogue: 0,0:10:29.48,0:10:31.49,Dialogue,,0,0,0,,I don't feel like dealing with that right now.
+Dialogue: 0,0:10:39.16,0:10:41.54,Dialogue,,0,0,0,,Oh, then how about this?
+Dialogue: 0,0:10:42.08,0:10:47.21,Dialogue,,0,0,0,,Beginning from the tip of his finger, the cracks in the floorboards follow an Amidakuji pattern.
+Dialogue: 0,0:10:47.21,0:10:49.92,Dialogue,,0,0,0,,Then, at the end of the pattern, there's a can of beer...
+Dialogue: 0,0:10:49.92,0:10:52.05,Dialogue,,0,0,0,,The brand of which is "North Star Beer."
+Dialogue: 0,0:10:52.67,0:10:53.59,Dialogue,,0,0,0,,Get it?
+Dialogue: 0,0:10:53.59,0:10:54.72,Dialogue,,0,0,0,,North Star...
+Dialogue: 0,0:10:54.72,0:10:56.26,Dialogue,,0,0,0,,The star is "north."
+Dialogue: 0,0:10:56.26,0:10:58.51,Dialogue,,0,0,0,,Therefore, Kitano is the culprit.
+Dialogue: 0,0:11:02.47,0:11:03.77,Dialogue,,0,0,0,,Thanks...
+Dialogue: 0,0:11:03.77,0:11:05.31,Dialogue,,0,0,0,,I'll pass that on...
+Dialogue: 0,0:11:07.23,0:11:08.19,Dialogue,,0,0,0,,Amazing!
+Dialogue: 0,0:11:08.19,0:11:11.36,Dialogue,,0,0,0,,It's exactly how Sonoko{\rHonorifics - Dialogue}-san{\r} wrote it in the script!
+Dialogue: 0,0:11:11.36,0:11:12.90,Dialogue,,0,0,0,,A hack deduction!
+Dialogue: 0,0:11:12.90,0:11:15.57,Dialogue,,0,0,0,,Dad's not sleeping yet...
+Dialogue: 0,0:11:17.24,0:11:18.32,Dialogue,,0,0,0,,Saw that coming.
+Dialogue: 0,0:11:20.87,0:11:22.87,Dialogue,,0,0,0,,Then, why don't we ask Shinichi?
+Dialogue: 0,0:11:24.41,0:11:26.46,Dialogue,,0,0,0,,He's a second-year student at Teitan High School too.
+Dialogue: 0,0:11:26.46,0:11:27.37,Dialogue,,0,0,0,,He should help us out.
+Dialogue: 0,0:11:28.21,0:11:29.04,Dialogue,,0,0,0,,Going to the bathroom!
+Dialogue: 0,0:11:33.09,0:11:34.09,Dialogue,,0,0,0,,Understand?
+Dialogue: 0,0:11:34.09,0:11:35.88,Dialogue,,0,0,0,,You need to help too!
+Dialogue: 0,0:11:36.22,0:11:37.30,Dialogue,,0,0,0,,I get it...
+Dialogue: 0,0:11:37.30,0:11:39.34,Dialogue,,0,0,0,,But I'm a little busy right now.
+Dialogue: 0,0:11:39.34,0:11:40.39,Dialogue,,0,0,0,,I'll call you back.
+Dialogue: 0,0:11:41.22,0:11:41.81,Dialogue,,0,0,0,,See you.
+Dialogue: 0,0:11:48.94,0:11:50.73,Dialogue,,0,0,0,,What did Shinichi{\rHonorifics - Dialogue}-niichan{\r} say?
+Dialogue: 0,0:11:51.15,0:11:52.94,Dialogue,,0,0,0,,He said he'll call me back later.
+Dialogue: 0,0:11:52.94,0:11:54.90,Dialogue,,0,0,0,,Seems he's busy right now.
+Dialogue: 0,0:11:54.90,0:11:58.49,Dialogue,,0,0,0,,Could it be that even Kudou{\rHonorifics - Dialogue}-kun{\r} couldn't think of something?
+Dialogue: 0,0:11:58.49,0:11:59.95,Dialogue,,0,0,0,,That can't be it.
+Dialogue: 0,0:12:00.32,0:12:01.24,Dialogue,,0,0,0,,That's true.
+Dialogue: 0,0:12:01.83,0:12:02.95,Dialogue,,0,0,0,,Be quiet.
+Dialogue: 0,0:12:03.03,0:12:05.33,Dialogue,,0,0,0,,Then, for the time being...
+Dialogue: 0,0:12:05.33,0:12:07.79,Dialogue,,0,0,0,,Let's think while we wait for Shinichi{\rHonorifics - Dialogue}-san{\r}'s call.
+Dialogue: 0,0:12:07.79,0:12:10.08,Dialogue,,0,0,0,,I'm sure we can figure it out.
+Dialogue: 0,0:12:10.08,0:12:10.79,Dialogue,,0,0,0,,Yeah...
+Dialogue: 0,0:12:11.96,0:12:13.34,Dialogue,,0,0,0,,I have an idea!
+Dialogue: 0,0:12:21.72,0:12:23.22,Dialogue,,0,0,0,,You're too naïve, Uncle.
+Dialogue: 0,0:12:21.72,0:12:23.22,Dialogue,,0,0,0,,"sweet"
+Dialogue: 0,0:12:23.81,0:12:26.73,Dialogue,,0,0,0,,It won't do if you're as "sweet" as the sauce in the eel rice.
+Dialogue: 0,0:12:27.10,0:12:27.93,Dialogue,,0,0,0,,Who's there?
+Dialogue: 0,0:12:33.15,0:12:35.36,Dialogue,,0,0,0,,The leader of the Detective Boys...
+Dialogue: 0,0:12:35.36,0:12:36.74,Dialogue,,0,0,0,,Kojima Genta!
+Dialogue: 0,0:12:36.94,0:12:40.03,Dialogue,,0,0,0,,Isn't Ooshita{\rHonorifics - Dialogue}-san{\r} pointing at something?
+Dialogue: 0,0:12:40.03,0:12:42.03,Dialogue,,0,0,0,,He's trying to say the number "one."
+Dialogue: 0,0:12:42.03,0:12:43.24,Dialogue,,0,0,0,,The number "one"?
+Dialogue: 0,0:12:44.91,0:12:47.29,Dialogue,,0,0,0,,The culprit, Higashida Ichirou...
+Dialogue: 0,0:12:47.29,0:12:48.58,Dialogue,,0,0,0,,Is you!
+Dialogue: 0,0:12:50.17,0:12:51.33,Dialogue,,0,0,0,,Wait right there!
+Dialogue: 0,0:12:51.46,0:12:52.96,Dialogue,,0,0,0,,You're talking nonsense.
+Dialogue: 0,0:12:52.96,0:12:54.88,Dialogue,,0,0,0,,Higashida's given name is Naoya!
+Dialogue: 0,0:12:55.25,0:12:57.55,Dialogue,,0,0,0,,Can't we call him Ichirou instead?
+Dialogue: 0,0:12:57.55,0:12:58.59,Dialogue,,0,0,0,,No is no.
+Dialogue: 0,0:12:58.88,0:13:00.68,Dialogue,,0,0,0,,In that case...
+Dialogue: 0,0:13:06.85,0:13:09.77,Dialogue,,0,0,0,,Ooshita{\rHonorifics - Dialogue}-san{\r} wanted to say "1" in English...
+Dialogue: 0,0:13:09.77,0:13:10.81,Dialogue,,0,0,0,,Which is "one."
+Dialogue: 0,0:13:10.81,0:13:12.60,Dialogue,,0,0,0,,And "one" would be the sound a dog makes.
+Dialogue: 0,0:13:10.81,0:13:12.60,Dialogue,,0,0,0,,wan
+Dialogue: 0,0:13:14.23,0:13:17.94,Dialogue,,0,0,0,,Do any of you have a pet dog?
+Dialogue: 0,0:13:18.15,0:13:19.61,Dialogue,,0,0,0,,That's not what I mean!
+Dialogue: 0,0:13:19.61,0:13:21.95,Dialogue,,0,0,0,,Higashida{\rHonorifics - Dialogue}-san{\r} is actually a dog!
+Dialogue: 0,0:13:26.08,0:13:27.70,Dialogue,,0,0,0,,My head hurts...
+Dialogue: 0,0:13:27.95,0:13:29.75,Dialogue,,0,0,0,,Then, how about this?
+Dialogue: 0,0:13:36.34,0:13:39.17,Dialogue,,0,0,0,,The reason Ooshita{\rHonorifics - Dialogue}-san{\r} extended his finger...
+Dialogue: 0,0:13:39.17,0:13:41.01,Dialogue,,0,0,0,,Was to point out the presence of an alien!
+Dialogue: 0,0:13:41.30,0:13:42.63,Dialogue,,0,0,0,,Alien?
+Dialogue: 0,0:13:48.56,0:13:53.73,Dialogue,,0,0,0,,Higashida{\rHonorifics - Dialogue}-san{\r} is actually an alien who just wants to make friends with earthlings.
+Dialogue: 0,0:13:53.73,0:13:58.44,Dialogue,,0,0,0,,When Ooshita{\rHonorifics - Dialogue}-san{\r} found out, his heart was temporarily stopped.
+Dialogue: 0,0:14:08.08,0:14:09.08,Dialogue,,0,0,0,,Ooshita{\rHonorifics - Dialogue}-san{\r}!
+Dialogue: 0,0:14:09.79,0:14:10.91,Dialogue,,0,0,0,,Are you all right?
+Dialogue: 0,0:14:15.92,0:14:16.67,Dialogue,,0,0,0,,Catch him!
+Dialogue: 0,0:14:17.04,0:14:18.34,Dialogue,,0,0,0,,Catch him!
+Dialogue: 0,0:14:18.84,0:14:19.75,Dialogue,,0,0,0,,This way!
+Dialogue: 0,0:14:19.75,0:14:20.80,Dialogue,,0,0,0,,Wait!
+Dialogue: 0,0:14:24.55,0:14:25.26,Dialogue,,0,0,0,,Excuse me...
+Dialogue: 0,0:14:25.93,0:14:26.93,Dialogue,,0,0,0,,What are you doing!?
+Dialogue: 0,0:14:27.60,0:14:28.56,Dialogue,,0,0,0,,Mitsuhiko{\rHonorifics - Dialogue}-kun{\r}!
+Dialogue: 0,0:14:32.31,0:14:33.56,Dialogue,,0,0,0,,Wait!
+Dialogue: 0,0:14:41.82,0:14:42.32,Dialogue,,0,0,0,,Get on!
+Dialogue: 0,0:14:42.94,0:14:43.70,Dialogue,,0,0,0,,Conan{\rHonorifics - Dialogue}-kun{\r}!
+Dialogue: 0,0:14:43.70,0:14:44.28,Dialogue,,0,0,0,,Conan!
+Dialogue: 0,0:14:55.37,0:14:56.08,Dialogue,,0,0,0,,Conan{\rHonorifics - Dialogue}-kun{\r}!
+Dialogue: 0,0:15:00.34,0:15:01.76,Dialogue,,0,0,0,,What the...
+Dialogue: 0,0:15:04.34,0:15:05.30,Dialogue,,0,0,0,,Stop!
+Dialogue: 0,0:15:05.34,0:15:06.30,Dialogue,,0,0,0,,Stop!
+Dialogue: 0,0:15:06.76,0:15:09.18,Dialogue,,0,0,0,,How can we perform something like this on stage!?
+Dialogue: 0,0:15:09.68,0:15:11.47,Dialogue,,0,0,0,,Not to mention that Uncle somehow disappeared...
+Dialogue: 0,0:15:11.85,0:15:14.18,Dialogue,,0,0,0,,It is quite interesting, but...
+Dialogue: 0,0:15:14.48,0:15:15.39,Dialogue,,0,0,0,,No way!
+Dialogue: 0,0:15:16.06,0:15:17.48,Dialogue,,0,0,0,,All rejected!
+Dialogue: 0,0:15:20.15,0:15:21.82,Dialogue,,0,0,0,,I'm hungry.
+Dialogue: 0,0:15:22.15,0:15:25.11,Dialogue,,0,0,0,,Then, let's all go to my place and order pizza.
+Dialogue: 0,0:15:25.11,0:15:27.86,Dialogue,,0,0,0,,Sonoko{\rHonorifics - Dialogue}-neesan{\r} will buy it for you guys, right?
+Dialogue: 0,0:15:31.37,0:15:32.37,Dialogue,,0,0,0,,Huh?
+Dialogue: 0,0:15:32.37,0:15:33.83,Dialogue,,0,0,0,,Aren't you going to eat, Sonoko?
+Dialogue: 0,0:15:34.00,0:15:36.25,Dialogue,,0,0,0,,I don't feel like eating at all.
+Dialogue: 0,0:15:36.25,0:15:40.00,Dialogue,,0,0,0,,I still haven't figured out what the true meaning behind the dying message should be.
+Dialogue: 0,0:15:40.00,0:15:43.17,Dialogue,,0,0,0,,Even if I did, it's like this little brat said...
+Dialogue: 0,0:15:43.17,0:15:46.09,Dialogue,,0,0,0,,The lack of physical evidence hasn't been resolved yet.
+Dialogue: 0,0:15:46.09,0:15:47.22,Dialogue,,0,0,0,,That's true...
+Dialogue: 0,0:15:47.97,0:15:49.51,Dialogue,,0,0,0,,What do you think, Conan{\rHonorifics - Dialogue}-kun{\r}?
+Dialogue: 0,0:15:49.51,0:15:51.10,Dialogue,,0,0,0,,You're pretty good at this sort of thing.
+Dialogue: 0,0:15:53.01,0:15:55.77,Dialogue,,0,0,0,,It's not quite the same as a real case...
+Dialogue: 0,0:16:04.99,0:16:06.44,Dialogue,,0,0,0,,Jeez, Genta{\rHonorifics - Dialogue}-kun{\r}...
+Dialogue: 0,0:16:06.82,0:16:08.41,Dialogue,,0,0,0,,You should use a handkerchief!
+Dialogue: 0,0:16:09.95,0:16:12.16,Dialogue,,0,0,0,,The grease from the pizza is dripping everywhere.
+Dialogue: 0,0:16:12.16,0:16:14.66,Dialogue,,0,0,0,,Uh oh, Mom's gonna scold me now.
+Dialogue: 0,0:16:15.37,0:16:16.45,Dialogue,,0,0,0,,Found it.
+Dialogue: 0,0:16:16.66,0:16:18.21,Dialogue,,0,0,0,,I'm going to the bathroom.
+Dialogue: 0,0:16:21.04,0:16:22.17,Dialogue,,0,0,0,,Again?
+Dialogue: 0,0:16:22.17,0:16:23.59,Dialogue,,0,0,0,,So frequently...
+Dialogue: 0,0:16:23.59,0:16:25.59,Dialogue,,0,0,0,,But there's a bathroom just over there...
+Dialogue: 0,0:16:25.92,0:16:26.76,Dialogue,,0,0,0,,Three...
+Dialogue: 0,0:16:26.76,0:16:27.72,Dialogue,,0,0,0,,Two...
+Dialogue: 0,0:16:27.72,0:16:28.63,Dialogue,,0,0,0,,One...
+Dialogue: 0,0:16:31.14,0:16:32.22,Dialogue,,0,0,0,,It has to be Shinichi.
+Dialogue: 0,0:16:33.76,0:16:36.60,Signs,Sign,0,0,0,,Caller Kudou Shinichi
+Dialogue: 0,0:16:39.48,0:16:41.65,Dialogue,,0,0,0,,You're too naïve, Detective Mouri.
+Dialogue: 0,0:16:41.65,0:16:44.57,Dialogue,,0,0,0,,You can't solve a case with that kind of deduction.
+Dialogue: 0,0:16:45.44,0:16:46.28,Dialogue,,0,0,0,,That voice is...
+Dialogue: 0,0:16:46.61,0:16:47.69,Dialogue,,0,0,0,,Shinichi!
+Dialogue: 0,0:16:52.70,0:16:54.99,Dialogue,,0,0,0,,Long time no see, Inspector Megure.
+Dialogue: 0,0:16:56.08,0:16:57.37,Dialogue,,0,0,0,,It's been far too long, Kudou{\rHonorifics - Dialogue}-kun{\r}.
+Dialogue: 0,0:16:57.83,0:17:00.21,Dialogue,,0,0,0,,You're that famous high school detective?
+Dialogue: 0,0:17:09.59,0:17:10.34,Dialogue,,0,0,0,,Inspector Megure...
+Dialogue: 0,0:17:11.18,0:17:12.26,Dialogue,,0,0,0,,These blinds...
+Dialogue: 0,0:17:13.47,0:17:15.93,Dialogue,,0,0,0,,They were up when we arrived.
+Dialogue: 0,0:17:15.93,0:17:19.98,Dialogue,,0,0,0,,Takagi{\rHonorifics - Dialogue}-kun{\r} was worried that someone in the building across the street would be able to see inside, so he lowered the blinds.
+Dialogue: 0,0:17:20.44,0:17:24.73,Dialogue,,0,0,0,,The time of death is estimated to be about 24 hours ago, right?
+Dialogue: 0,0:17:25.11,0:17:26.02,Dialogue,,0,0,0,,That's right.
+Dialogue: 0,0:17:27.23,0:17:28.49,Dialogue,,0,0,0,,In that case, Detective Takagi...
+Dialogue: 0,0:17:28.94,0:17:30.40,Dialogue,,0,0,0,,Would you please turn off the lights?
+Dialogue: 0,0:17:32.20,0:17:35.78,Dialogue,,0,0,0,,With this, you'll understand what it was the victim was pointing at.
+Dialogue: 0,0:17:41.16,0:17:42.00,Dialogue,,0,0,0,,Inspector Megure...
+Dialogue: 0,0:17:42.62,0:17:46.50,Dialogue,,0,0,0,,Ooshita{\rHonorifics - Dialogue}-san{\r}'s extended finger is pointing to this!
+Dialogue: 0,0:17:59.43,0:18:00.98,Dialogue,,0,0,0,,The word "NEWS"...
+Dialogue: 0,0:18:01.85,0:18:05.36,Dialogue,,0,0,0,,Can be used to represent North, East, West, and South.
+Dialogue: 0,0:18:05.94,0:18:07.65,Dialogue,,0,0,0,,E is for East, Higashi.
+Dialogue: 0,0:18:08.07,0:18:09.03,Dialogue,,0,0,0,,In other words...
+Dialogue: 0,0:18:09.03,0:18:12.28,Dialogue,,0,0,0,,Before his death, the victim used his finger to...
+Dialogue: 0,0:18:12.28,0:18:14.20,Dialogue,,0,0,0,,Point at the name that carries the word "higashi".
+Dialogue: 0,0:18:12.28,0:18:14.20,Dialogue,,0,0,0,,EAST
+Dialogue: 0,0:18:14.78,0:18:16.12,Dialogue,,0,0,0,,Higashida Naoya{\rHonorifics - Dialogue}-san{\r}...
+Dialogue: 0,0:18:16.12,0:18:16.83,Dialogue,,0,0,0,,It's you!
+Dialogue: 0,0:18:22.75,0:18:24.79,Dialogue,,0,0,0,,When you stabbed Ooshita{\rHonorifics - Dialogue}-san{\r} to death...
+Dialogue: 0,0:18:25.25,0:18:28.50,Dialogue,,0,0,0,,It was cloudy outside, so the sun couldn't shine through.
+Dialogue: 0,0:18:29.46,0:18:31.09,Dialogue,,0,0,0,,After you left...
+Dialogue: 0,0:18:31.09,0:18:35.30,Dialogue,,0,0,0,,The sun emerged from the clouds and cast a shadow of "Weekly News" on the floor.
+Dialogue: 0,0:18:35.97,0:18:38.60,Dialogue,,0,0,0,,At that time, Ooshita{\rHonorifics - Dialogue}-san{\r} was still breathing.
+Dialogue: 0,0:18:40.60,0:18:43.60,Dialogue,,0,0,0,,When the inspector and the others arrived this morning...
+Dialogue: 0,0:18:43.60,0:18:46.98,Dialogue,,0,0,0,,The sun was obscured by the clouds, leaving us with no shadow.
+Dialogue: 0,0:18:47.65,0:18:49.32,Dialogue,,0,0,0,,That's why it wasn't noticed.
+Dialogue: 0,0:18:49.57,0:18:51.32,Dialogue,,0,0,0,,Do you have proof?
+Dialogue: 0,0:18:51.32,0:18:53.24,Dialogue,,0,0,0,,Proof that I killed the president?
+Dialogue: 0,0:18:53.95,0:18:54.61,Dialogue,,0,0,0,,Inspector Megure...
+Dialogue: 0,0:18:55.41,0:18:58.16,Dialogue,,0,0,0,,Please check Higashida{\rHonorifics - Dialogue}-san{\r}'s belt.
+Dialogue: 0,0:18:58.16,0:19:00.95,Dialogue,,0,0,0,,The victim's fingerprints should be on it.
+Dialogue: 0,0:19:00.95,0:19:01.66,Dialogue,,0,0,0,,What?
+Dialogue: 0,0:19:02.12,0:19:03.54,Dialogue,,0,0,0,,That's fine.
+Dialogue: 0,0:19:03.54,0:19:05.67,Dialogue,,0,0,0,,You can check if you'd like.
+Dialogue: 0,0:19:08.88,0:19:11.05,Dialogue,,0,0,0,,Oh, it's not the belt around his waist.
+Dialogue: 0,0:19:11.67,0:19:12.71,Dialogue,,0,0,0,,It's the belt on his watch.
+Dialogue: 0,0:19:14.22,0:19:15.76,Dialogue,,0,0,0,,Looks like you've remembered.
+Dialogue: 0,0:19:16.76,0:19:19.68,Dialogue,,0,0,0,,After you stabbed him in the back with a knife...
+Dialogue: 0,0:19:20.14,0:19:23.31,Dialogue,,0,0,0,,He stood up and grabbed your left arm with his right hand.
+Dialogue: 0,0:19:24.02,0:19:25.39,Dialogue,,0,0,0,,That's when he left his prints.
+Dialogue: 0,0:19:26.48,0:19:28.48,Dialogue,,0,0,0,,Prior to being killed...
+Dialogue: 0,0:19:28.48,0:19:33.11,Dialogue,,0,0,0,,He was sitting on the sofa eating pizza,\Nso his right hand was covered in grease.
+Dialogue: 0,0:19:34.07,0:19:36.74,Dialogue,,0,0,0,,Furthermore, Ooshita{\rHonorifics - Dialogue}-san{\r}, didn't wear a watch...
+Dialogue: 0,0:19:36.74,0:19:39.78,Dialogue,,0,0,0,,So he instead grabbed the belt around his pants before he died...
+Dialogue: 0,0:19:39.78,0:19:41.66,Dialogue,,0,0,0,,Leaving behind a dying message.
+Dialogue: 0,0:19:42.37,0:19:45.04,Dialogue,,0,0,0,,May we examine your watch...
+Dialogue: 0,0:19:45.04,0:19:45.91,Dialogue,,0,0,0,,Higashida{\rHonorifics - Dialogue}-san{\r}?
+Dialogue: 0,0:19:48.04,0:19:49.83,Dialogue,,0,0,0,,There's no need.
+Dialogue: 0,0:19:51.59,0:19:52.96,Dialogue,,0,0,0,,I couldn't forgive him.
+Dialogue: 0,0:19:53.76,0:19:56.17,Dialogue,,0,0,0,,We were both journalists by trade, but that man...
+Dialogue: 0,0:19:57.22,0:19:59.55,Dialogue,,0,0,0,,The president was so materialistic.
+Dialogue: 0,0:19:59.55,0:20:01.93,Dialogue,,0,0,0,,He said the only thing that mattered was that the magazine sold.
+Dialogue: 0,0:20:01.93,0:20:05.39,Dialogue,,0,0,0,,He didn't care about legal cases that didn't appeal to him.
+Dialogue: 0,0:20:05.89,0:20:10.02,Dialogue,,0,0,0,,The president even ordered us to\Nwrite fake reports a number of times.
+Dialogue: 0,0:20:10.02,0:20:12.07,Dialogue,,0,0,0,,There were quite a few times I didn't want to do it.
+Dialogue: 0,0:20:12.90,0:20:14.53,Dialogue,,0,0,0,,But I just couldn't let go...
+Dialogue: 0,0:20:15.82,0:20:18.15,Dialogue,,0,0,0,,I love it, this magazine...
+Dialogue: 0,0:20:19.03,0:20:23.91,Dialogue,,0,0,0,,Ever since the time her father was\Nthe president, of Weekly News...
+Dialogue: 0,0:20:24.41,0:20:26.20,Dialogue,,0,0,0,,And that's why you killed Ooshita{\rHonorifics - Dialogue}-san{\r}?
+Dialogue: 0,0:20:27.12,0:20:31.92,Dialogue,,0,0,0,,He often said he wanted this magazine to be number one, even if it was just once.
+Dialogue: 0,0:20:32.79,0:20:34.75,Dialogue,,0,0,0,,Maybe that dream can be realized.
+Dialogue: 0,0:20:35.38,0:20:37.76,Dialogue,,0,0,0,,It'll be up to this week's issue of "Weekly News."
+Dialogue: 0,0:20:37.84,0:20:41.47,Dialogue,,0,0,0,,However, the one to announce that will not be you.
+Dialogue: 0,0:20:41.47,0:20:43.14,Dialogue,,0,0,0,,It doesn't matter what your reasons were.
+Dialogue: 0,0:20:43.14,0:20:45.60,Dialogue,,0,0,0,,The moment you used your hand to\Nlift a knife and rather than a pen...
+Dialogue: 0,0:20:45.60,0:20:48.48,Dialogue,,0,0,0,,Was the moment you ceased being a professional journalist.
+Dialogue: 0,0:20:48.60,0:20:49.52,Dialogue,,0,0,0,,Right.
+Dialogue: 0,0:20:50.23,0:20:52.48,Dialogue,,0,0,0,,You are nothing more than a murderer!
+Dialogue: 0,0:21:07.00,0:21:08.79,Dialogue,,0,0,0,,It's been a while, Ran.
+Dialogue: 0,0:21:09.21,0:21:11.29,Dialogue,,0,0,0,,What, still trying to act cool?
+Dialogue: 0,0:21:11.29,0:21:13.25,Dialogue,,0,0,0,,Where have you been?
+Dialogue: 0,0:21:13.25,0:21:16.50,Dialogue,,0,0,0,,Sorry, I've been busy with cases.
+Dialogue: 0,0:21:16.75,0:21:18.26,Dialogue,,0,0,0,,You always say that!
+Dialogue: 0,0:21:19.17,0:21:20.97,Dialogue,,0,0,0,,You're just going to leave again...
+Dialogue: 0,0:21:21.22,0:21:24.01,Dialogue,,0,0,0,,No, I'm not going anywhere.
+Dialogue: 0,0:21:25.10,0:21:26.10,Dialogue,,0,0,0,,I promise you.
+Dialogue: 0,0:21:26.51,0:21:27.47,Dialogue,,0,0,0,,Really?
+Dialogue: 0,0:21:29.60,0:21:31.02,Dialogue,,0,0,0,,Uhm, excuse me, but...
+Dialogue: 0,0:21:32.31,0:21:36.15,Dialogue,,0,0,0,,Do we really need to continue this\Nstory with Shinichi{\rHonorifics - Dialogue}-kun{\r} and Ran?
+Dialogue: 0,0:21:36.15,0:21:38.03,Dialogue,,0,0,0,,It's not like that...
+Dialogue: 0,0:21:38.40,0:21:40.78,Dialogue,,0,0,0,,The deduction was impressive, though.
+Dialogue: 0,0:21:40.78,0:21:42.78,Dialogue,,0,0,0,,I hate to admit it, but that's Kudou{\rHonorifics - Dialogue}-kun{\r} for you.
+Dialogue: 0,0:21:43.53,0:21:46.37,Dialogue,,0,0,0,,But, why did female high school detective Suzuki Sonoko...
+Dialogue: 0,0:21:46.37,0:21:49.12,Dialogue,,0,0,0,,Turn into high school detective Kudou Shinichi?
+Dialogue: 0,0:21:49.29,0:21:54.50,Dialogue,,0,0,0,,And it's not like Shinichi{\rHonorifics - Dialogue}-niichan{\r} would make an appearance playing the violin or something.
+Dialogue: 0,0:21:54.71,0:21:55.79,Dialogue,,0,0,0,,What's wrong with that?
+Dialogue: 0,0:21:55.79,0:21:57.80,Dialogue,,0,0,0,,It makes him seem more like the main character.
+Dialogue: 0,0:21:57.80,0:22:00.13,Dialogue,,0,0,0,,Because I'm the main character.
+Dialogue: 0,0:22:00.80,0:22:02.63,Dialogue,,0,0,0,,What does "materialistic" mean?
+Dialogue: 0,0:22:02.63,0:22:05.39,Dialogue,,0,0,0,,It means that the most important thing in his life is money.
+Dialogue: 0,0:22:05.39,0:22:08.01,Dialogue,,0,0,0,,While it's true that money is important...
+Dialogue: 0,0:22:08.01,0:22:10.39,Dialogue,,0,0,0,,The most important thing is love.
+Dialogue: 0,0:22:10.60,0:22:14.19,Dialogue,,0,0,0,,Well, in any case, this should be fine.
+Dialogue: 0,0:22:14.19,0:22:15.90,Dialogue,,0,0,0,,Thanks, Ran.
+Dialogue: 0,0:22:15.90,0:22:17.15,Dialogue,,0,0,0,,Say hello to Kudou{\rHonorifics - Dialogue}-kun{\r} for me.
+Dialogue: 0,0:22:23.15,0:22:24.24,Dialogue,,0,0,0,,Thank goodness.
+Dialogue: 0,0:22:27.24,0:22:28.91,Dialogue,,0,0,0,,Thank you!
+Dialogue: 0,0:22:33.21,0:22:34.29,Dialogue,,0,0,0,,But, Shinichi...
+Dialogue: 0,0:22:34.92,0:22:37.38,Dialogue,,0,0,0,,I wish you really were like that.
+Dialogue: 0,0:24:09.34,0:24:10.43,Dialogue,,0,0,0,,North-east?
+Dialogue: 0,0:24:11.85,0:24:14.64,Dialogue,,0,0,0,,In that case, Higashida{\rHonorifics - Dialogue}-san{\r} must've been Kitano{\rHonorifics - Dialogue}-san{\r}'s accomplice.
+Dialogue: 0,0:24:14.64,0:24:16.06,Dialogue,,0,0,0,,What kind of joke is this?
+Dialogue: 0,0:24:16.06,0:24:17.81,Dialogue,,0,0,0,,Knock it off with those hack deductions!
+Dialogue: 0,0:24:18.56,0:24:19.44,Dialogue,,0,0,0,,Hack?
+Dialogue: 0,0:24:20.52,0:24:23.44,Dialogue,,0,0,0,,One week later —\hthe performance of the play.
+Dialogue: 0,0:24:23.77,0:24:25.94,Dialogue,,0,0,0,,Was it not a good deduction?
+Dialogue: 0,0:24:26.99,0:24:27.61,Dialogue,,0,0,0,,But...
+Dialogue: 0,0:24:28.36,0:24:31.49,Dialogue,,0,0,0,,Sonoko caught a cold and couldn't say a single word.
+Dialogue: 0,0:24:31.49,0:24:32.33,Dialogue,,0,0,0,,Her replacement...
+Dialogue: 0,0:24:35.20,0:24:36.87,Dialogue,,0,0,0,,You're too naïve, Dad.
+Dialogue: 0,0:24:36.87,0:24:38.66,Dialogue,,0,0,0,,Or should I say, Detective Mouri!
+Dialogue: 0,0:24:45.63,0:24:48.80,Dialogue,,0,0,0,,At the last minute, it was decided\Nthat Ran would be the main character.
+Dialogue: 0,0:24:49.68,0:24:53.18,Signs,Sign,0,0,0,,Female High School Detective\NRan's Casebook
+Dialogue: 0,0:24:49.68,0:24:53.18,Signs,Sign,0,0,0,,Teitan High School\NStage Play for Charity
+Dialogue: 0,0:24:53.51,0:24:54.43,Dialogue,,0,0,0,,Because of that...
+Dialogue: 0,0:24:54.68,0:24:57.02,Dialogue,,0,0,0,,What was meant to be a clean surrender of the culprit...
+Dialogue: 0,0:24:57.27,0:24:58.02,Dialogue,,0,0,0,,Dang!
+Dialogue: 0,0:25:07.90,0:25:11.11,Dialogue,,0,0,0,,Turned into a quick action scene.
+Dialogue: 0,0:25:13.41,0:25:15.03,Dialogue,,0,0,0,,Dear Lord...
+Dialogue: 0,0:25:17.37,0:25:19.87,Dialogue,,0,0,0,,I knew this shouldn't have been held in a church.

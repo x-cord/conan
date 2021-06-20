@@ -1,0 +1,159 @@
+[Script Info]
+Title: Detective Conan - Detective Conan vs. Wooo 01
+TL Source: DCTP
+ScriptType: v4.00+
+WrapStyle: 3
+PlayResX: 1440
+PlayResY: 1080
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Dialogue,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00401311,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Dialogue Top,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00401311,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,8,30,30,55,1
+Style: Signs,FrancophilSans,74,&H14FFFFFF,&H00FFFFFF,&H46101010,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,8,30,30,55,1
+Style: Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,0,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Radio,FrancophilSans,74,&H00BEE1FF,&H00FFFFFF,&H000B2A42,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Narration,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00BF6F00,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Narration Off,FrancophilSans,74,&H6E8C6F00,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,0,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Flashback,FrancophilSans,74,&H00CDFAFF,&H00FFFFFF,&H00373737,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Flashback Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00CCFFFF,&HC0313134,-1,0,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Honorifics - Dialogue,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00401311,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Signs,FrancophilSans,74,&H14FFFFFF,&H00FFFFFF,&H46101010,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,-1,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Honorifics - Radio,FrancophilSans,74,&H00BEE1FF,&H00FFFFFF,&H000B2A42,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Narration,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00BF6F00,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Narration Off,FrancophilSans,74,&H6E8C6F00,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,-1,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Honorifics - Flashback,FrancophilSans,74,&H00CDFAFF,&H00FFFFFF,&H00373737,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Flashback Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00CCFFFF,&HC0313134,-1,-1,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Masks,FrancophilSans,74,&H00000000,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,2,0,0,0,1
+Style: Title,Conan Episode Title,74,&H00E1E4E3,&H000000FF,&HC8DBDAE1,&HC0000000,-1,0,0,0,100,100,0,0,1,1,0,5,0,0,0,1
+Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-1,0,0,0,100,100,0,0,1,0,0,2,0,0,65,1
+Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
+Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
+Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:14.48,0:00:16.04,Dialogue,,0,0,0,,Thank you for your assistance!
+Dialogue: 0,0:00:17.75,0:00:19.08,Dialogue,,0,0,0,,I'm back!
+Dialogue: 0,0:00:19.75,0:00:20.08,Dialogue,,0,0,0,,Hey!
+Dialogue: 0,0:00:30.15,0:00:36.15,Dialogue Top,Sign,0,0,0,,FATUOUS DETECTIVE!? MOURI KOGOROU
+Dialogue: 0,0:00:37.20,0:00:38.00,Dialogue,,0,0,0,,Ran!
+Dialogue: 0,0:00:38.00,0:00:40.23,Dialogue,,0,0,0,,Show me the drama you just recorded!
+Dialogue: 0,0:00:41.14,0:00:43.50,Dialogue,,0,0,0,,Geez, Dad...
+Dialogue: 0,0:00:43.51,0:00:46.61,Dialogue,,0,0,0,,Ever since we bought a new TV, you've been watching too much of it.
+Dialogue: 0,0:00:51.55,0:00:54.45,Dialogue,,0,0,0,,The culprit who murdered Kawada Naruhiko{\rHonorifics - Dialogue}-san{\r}...
+Dialogue: 0,0:00:55.22,0:00:56.35,Dialogue,,0,0,0,,Is right among us!
+Dialogue: 0,0:00:58.94,0:01:01.55,Dialogue Top,,0,0,0,,Be it reheating or cooking, tastiness is auto-served!
+Dialogue: 0,0:01:00.39,0:01:01.72,Dialogue,,0,0,0,,I've got it!
+Dialogue: 0,0:01:01.72,0:01:03.39,Dialogue,,0,0,0,,The culprit is Oonuma Shun!
+Dialogue: 0,0:01:04.93,0:01:08.23,Dialogue,,0,0,0,,This trick consists of a simple application of physics.
+Dialogue: 0,0:01:08.23,0:01:10.96,Dialogue,,0,0,0,,And the murder weapon is something that\Nwill vanish with the passing of time...
+Dialogue: 0,0:01:10.97,0:01:11.70,Dialogue,,0,0,0,,Ice!
+Dialogue: 0,0:01:12.00,0:01:15.64,Dialogue,,0,0,0,,That's why the air conditioner was set to\Nan extraordinarily high temperature.
+Dialogue: 0,0:01:17.09,0:01:18.93,Dialogue Top,,0,0,0,,Pursue the perfect close shave.
+Dialogue: 0,0:01:19.31,0:01:22.38,Dialogue,,0,0,0,,The culprit who murdered Kawada Naruhiko{\rHonorifics - Dialogue}-san{\r}...
+Dialogue: 0,0:01:22.81,0:01:24.14,Dialogue,,0,0,0,,Oonuma Shun{\rHonorifics - Dialogue}-san{\r}...
+Dialogue: 0,0:01:24.15,0:01:25.45,Dialogue,,0,0,0,,It was you!
+Dialogue: 0,0:01:26.28,0:01:30.28,Dialogue,,0,0,0,,The trick utilized to commit the crime\Nwas a simple application of physics.
+Dialogue: 0,0:01:30.79,0:01:32.75,Dialogue,,0,0,0,,And the murder weapon was ice!
+Dialogue: 0,0:01:33.42,0:01:34.32,Dialogue,,0,0,0,,Would you look at that!
+Dialogue: 0,0:01:34.32,0:01:35.55,Dialogue,,0,0,0,,I nailed it!
+Dialogue: 0,0:01:35.99,0:01:37.12,Dialogue,,0,0,0,,Hey, hey...
+Dialogue: 0,0:01:37.66,0:01:41.03,Dialogue,,0,0,0,,It's against the rules to blurt out the name\Nof the culprit before they do in the drama!
+Dialogue: 0,0:01:41.03,0:01:43.06,Dialogue,,0,0,0,,If you've already seen it, stay quiet!
+Dialogue: 0,0:01:43.06,0:01:44.67,Dialogue,,0,0,0,,I merely deduced and said it!
+Dialogue: 0,0:01:44.67,0:01:45.93,Dialogue,,0,0,0,,This is my first time watching too!
+Dialogue: 0,0:01:46.63,0:01:47.57,Dialogue,,0,0,0,,You're lying.
+Dialogue: 0,0:01:47.57,0:01:51.06,Dialogue,,0,0,0,,I'd believe it if you had merely guessed the culprit\Nright, but to think even the trick is right on the mark?
+Dialogue: 0,0:01:51.41,0:01:53.54,Dialogue,,0,0,0,,Still, why does something feel out of place here?
+Dialogue: 0,0:01:51.76,0:01:54.10,Dialogue Top,,0,0,0,,That just goes to show that I'm a genius!
+Dialogue: 0,0:01:56.88,0:02:00.95,Dialogue,,0,0,0,,The drama just now was produced from an\Noriginal TV script and wasn't based on a novel.
+Dialogue: 0,0:02:01.72,0:02:05.34,Dialogue,,0,0,0,,The TV in this room is the type that lacks a\Nrecording function —\hthe Wooo "H" series.
+Dialogue: 0,0:02:05.75,0:02:06.62,Dialogue,,0,0,0,,There's no video recorder either.
+Dialogue: 0,0:02:07.79,0:02:10.79,Dialogue,,0,0,0,,Since the PC and his cell phone were both in the living room...
+Dialogue: 0,0:02:10.79,0:02:13.38,Dialogue,,0,0,0,,It'd be impossible for him to know the\Ncontent of the drama from his room.
+Dialogue: 0,0:02:15.23,0:02:16.95,Dialogue,,0,0,0,,Wooo "H" series?
+Dialogue: 0,0:02:18.30,0:02:19.56,Dialogue,,0,0,0,,And the one in the living room...
+Dialogue: 0,0:02:20.19,0:02:23.27,Dialogue,,0,0,0,,Is the type that has a recording function —\hthe Wooo "XP" series!
+Dialogue: 0,0:02:23.77,0:02:25.37,Dialogue,,0,0,0,,Come to think of it, the professor said...
+Dialogue: 0,0:02:26.11,0:02:29.14,Dialogue,,0,0,0,,While this may not be my newest invention...
+Dialogue: 0,0:02:29.14,0:02:30.58,Dialogue,,0,0,0,,It's called a Wooo.
+Dialogue: 0,0:02:30.58,0:02:33.85,Dialogue,,0,0,0,,The unparalleled convenience it brings\Nsurpasses even my own inventions!
+Dialogue: 0,0:02:34.62,0:02:36.31,Dialogue,,0,0,0,,So he had bought a Wooo...
+Dialogue: 0,0:02:37.52,0:02:38.55,Dialogue,,0,0,0,,These left by those guys from before...
+Dialogue: 0,0:02:39.85,0:02:41.14,Dialogue,,0,0,0,,Those two with the TV crew...
+Dialogue: 0,0:02:41.89,0:02:43.88,Dialogue,,0,0,0,,Uncle's abrupt display of a great deduction...
+Dialogue: 0,0:02:44.66,0:02:46.12,Dialogue,,0,0,0,,The living room that feels out of place...
+Dialogue: 0,0:02:46.73,0:02:48.72,Dialogue,,0,0,0,,In addition to this Wooo...
+Dialogue: 0,0:02:49.33,0:02:51.10,Dialogue,,0,0,0,,I see, so that's how it was!
+Dialogue: 0,0:02:55.80,0:02:57.60,Dialogue,,0,0,0,,The culprit is right among us.
+Dialogue: 0,0:02:58.81,0:03:01.64,Dialogue,,0,0,0,,And Kobayashi Hiroaki{\rHonorifics - Dialogue}-san{\r}'s murderer is...
+Dialogue: 0,0:03:03.73,0:03:05.73,Dialogue Top,,0,0,0,,Pressure and steam produce delicious, fast meals!
+Dialogue: 0,0:03:05.74,0:03:07.24,Dialogue Top,,0,0,0,,It cuts off steam, too!
+Dialogue: 0,0:03:05.75,0:03:07.25,Dialogue,,0,0,0,,I've got it today as well!
+Dialogue: 0,0:03:07.52,0:03:08.28,Dialogue,,0,0,0,,The culprit is...
+Dialogue: 0,0:03:08.28,0:03:09.18,Dialogue,,0,0,0,,Yamakami Yuuhei!
+Dialogue: 0,0:03:09.48,0:03:11.65,Dialogue,,0,0,0,,Uncle, you've already watched this drama, haven't you?
+Dialogue: 0,0:03:12.15,0:03:13.09,Dialogue,,0,0,0,,What are you talking about?
+Dialogue: 0,0:03:13.09,0:03:14.76,Dialogue,,0,0,0,,How could I have had the chance to watch this—
+Dialogue: 0,0:03:13.74,0:03:14.74,Dialogue,Alt,0,0,0,,He's right!
+Dialogue: 0,0:03:14.76,0:03:17.39,Dialogue,,0,0,0,,The TV in Dad's room lacks a video recording function.
+Dialogue: 0,0:03:17.39,0:03:22.10,Dialogue,,0,0,0,,And when this drama aired, we were all\Nhere watching a different show, right?
+Dialogue: 0,0:03:22.46,0:03:24.00,Dialogue,,0,0,0,,D L N A.
+Dialogue: 0,0:03:24.77,0:03:25.87,Dialogue,,0,0,0,,D L N A?
+Dialogue: 0,0:03:26.13,0:03:26.73,Dialogue,,0,0,0,,Right.
+Dialogue: 0,0:03:26.73,0:03:28.56,Dialogue,,0,0,0,,Digital Living Network Alliance.
+Dialogue: 0,0:03:28.57,0:03:34.34,Dialogue,,0,0,0,,By using that, the recording of a program from the living\Nroom's TV can be watched on the Wooo in Uncle's room.
+Dialogue: 0,0:03:34.71,0:03:36.11,Dialogue,,0,0,0,,I didn't know that!
+Dialogue: 0,0:03:36.11,0:03:37.95,Dialogue,,0,0,0,,So the Wooo has such a function!
+Dialogue: 0,0:03:38.51,0:03:40.61,Dialogue,,0,0,0,,If you hook your Wooo up to the internet...
+Dialogue: 0,0:03:40.62,0:03:44.15,Dialogue,,0,0,0,,You can watch recorded programs even in a different room.
+Dialogue: 0,0:03:44.15,0:03:45.82,Dialogue,,0,0,0,,That's what I heard from Professor Agasa.
+Dialogue: 0,0:03:46.32,0:03:49.19,Dialogue,,0,0,0,,Uncle simply set up the Wooo in the\Nliving room to record the drama...
+Dialogue: 0,0:03:49.19,0:03:51.89,Dialogue,,0,0,0,,And, by utilizing the DLNA server function...
+Dialogue: 0,0:03:51.89,0:03:54.73,Dialogue,,0,0,0,,He was able to fast-forward and watch\Nthe drama on the Wooo in his room!
+Dialogue: 0,0:03:55.03,0:03:56.50,Dialogue,,0,0,0,,What the heck, Dad!?
+Dialogue: 0,0:03:56.50,0:03:59.60,Dialogue,,0,0,0,,You cheated by watching the pre-recorded\Ndrama beforehand each and every time!?
+Dialogue: 0,0:03:57.72,0:03:59.59,Dialogue Top,,0,0,0,,No, no, it's not what you...
+Dialogue: 0,0:03:59.97,0:04:01.10,Dialogue,,0,0,0,,Ran{\rHonorifics - Dialogue}-neechan{\r}...
+Dialogue: 0,0:04:01.67,0:04:03.07,Dialogue,,0,0,0,,Do you know these guys?
+Dialogue: 0,0:04:03.61,0:04:05.27,Dialogue,,0,0,0,,They're the ones who visited us here the other day, right?
+Dialogue: 0,0:04:05.81,0:04:07.01,Dialogue,,0,0,0,,And, this?
+Dialogue: 0,0:04:07.51,0:04:10.41,Dialogue,,0,0,0,,"24-Hour Close-Up Series"?
+Dialogue: 0,0:04:10.41,0:04:12.68,Dialogue,,0,0,0,,It says a close-up interview, but they haven't returned since...
+Dialogue: 0,0:04:13.38,0:04:14.82,Dialogue,,0,0,0,,This is the candid camera.
+Dialogue: 0,0:04:15.28,0:04:16.78,Dialogue,,0,0,0,,They planted it here back then.
+Dialogue: 0,0:04:17.79,0:04:22.79,Dialogue,,0,0,0,,I thought the room was out of place, turns out\Nit was this plant that was hiding the camera.
+Dialogue: 0,0:04:22.79,0:04:25.26,Dialogue,,0,0,0,,No way—we've been caught on tape this whole time?
+Dialogue: 0,0:04:25.66,0:04:26.96,Dialogue,,0,0,0,,No worries.
+Dialogue: 0,0:04:26.96,0:04:28.66,Dialogue,,0,0,0,,I switched off the camera beforehand.
+Dialogue: 0,0:04:30.45,0:04:31.00,Dialogue,,0,0,0,,Geez!
+Dialogue: 0,0:04:31.25,0:04:34.47,Dialogue,,0,0,0,,Dad, why did you authorize those guys to do this kind of nonsense!?
+Dialogue: 0,0:04:32.86,0:04:34.46,Dialogue Top,,0,0,0,,It's just a free little service!
+Dialogue: 0,0:04:35.20,0:04:39.27,Dialogue,,0,0,0,,Not to mention that they expected us to go about our\Ndaily lives {\i1}naturally{\i0} for that program, didn't they!?
+Dialogue: 0,0:04:39.27,0:04:41.01,Dialogue,,0,0,0,,Geez, what were you thinking?
+Dialogue: 0,0:04:41.01,0:04:42.68,Dialogue,,0,0,0,,Be it Dad or that Shinichi!
+Dialogue: 0,0:04:44.31,0:04:46.38,Dialogue,,0,0,0,,Why do all detectives have to be like this!?
+Dialogue: 0,0:04:46.78,0:04:48.52,Dialogue,,0,0,0,,Man, unbelievable!
+Dialogue: 0,0:04:48.52,0:04:50.22,Dialogue,,0,0,0,,Why do you have to mention me there?
+Dialogue: 0,0:04:50.22,0:04:51.27,Dialogue,,0,0,0,,Unbelievable!
+Dialogue: 0,0:05:33.70,0:05:35.72,Dialogue,,0,0,0,,"24-Hour Close-Up Series"!
+Dialogue: 0,0:05:35.72,0:05:39.30,Dialogue,,0,0,0,,This time, our camera zoomed in on the famous\Ndetective Mouri Kogorou{\rHonorifics - Dialogue}-san{\r} and his family!
+Dialogue: 0,0:05:40.13,0:05:41.27,Dialogue,,0,0,0,,Look at me on TV!
+Dialogue: 0,0:05:42.20,0:05:44.00,Dialogue,,0,0,0,,What a handsome man I'm coming off as!
+Dialogue: 0,0:05:44.01,0:05:45.21,Dialogue,,0,0,0,,I was on tape, too!
+Dialogue: 0,0:05:45.71,0:05:47.67,Dialogue,,0,0,0,,They did a good job capturing my cool pose!
+Dialogue: 0,0:05:48.24,0:05:49.14,Dialogue,,0,0,0,,It was a facade!
+Dialogue: 0,0:05:51.01,0:05:55.78,Dialogue,,0,0,0,,This is the private life of the famous detective Mouri\NKogorou{\rHonorifics - Dialogue}-san{\r}, who has solved trying cases left and right.
+Dialogue: 0,0:05:55.78,0:05:59.59,Dialogue,,0,0,0,,We were also able to glimpse his playful side as\Nhe cooked up a mystery for his family to solve!
+Dialogue: 0,0:06:00.02,0:06:02.86,Dialogue,,0,0,0,,Well, I know he's a deduction freak, but...
+Dialogue: 0,0:06:02.86,0:06:07.53,Dialogue,,0,0,0,,If he's like this even when watching TV,\Nhis family must have a really hard time.
+Dialogue: 0,0:06:08.56,0:06:11.37,Dialogue,,0,0,0,,"His family must have a really hard time," he said.
+Dialogue: 0,0:06:13.17,0:06:14.63,Dialogue,,0,0,0,,What the hell was that!?
+Dialogue: 0,0:06:14.64,0:06:17.07,Dialogue,,0,0,0,,It was a close-up interview of the famous\Ndetective Mouri Kogorou, wasn't it!?
+Dialogue: 0,0:06:17.26,0:06:19.93,Dialogue Top,,0,0,0,,You should've focused on my awesome performance instead!
+Dialogue: 0,0:06:18.87,0:06:22.51,Dialogue,,0,0,0,,If only this could teach Uncle a lesson about being too showy...
+Dialogue: 0,0:06:22.51,0:06:24.20,Dialogue,,0,0,0,,Unbelievable!

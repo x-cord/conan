@@ -1,0 +1,1633 @@
+[Script Info]
+Title: Detective Conan - Movie 18
+TL Source: M-L
+ScriptType: v4.00+
+WrapStyle: 3
+PlayResX: 1920
+PlayResY: 1080
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Dialogue,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00401311,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Dialogue Top,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00401311,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,8,30,30,55,1
+Style: Signs,FrancophilSans,74,&H14FFFFFF,&H00FFFFFF,&H46101010,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,8,30,30,55,1
+Style: Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,0,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Radio,FrancophilSans,74,&H00BEE1FF,&H00FFFFFF,&H000B2A42,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Narration,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00BF6F00,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Narration Off,FrancophilSans,74,&H6E8C6F00,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,0,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Flashback,FrancophilSans,74,&H00CDFAFF,&H00FFFFFF,&H00373737,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Flashback Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00CCFFFF,&HC0313134,-1,0,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Honorifics - Dialogue,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00401311,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Signs,FrancophilSans,74,&H14FFFFFF,&H00FFFFFF,&H46101010,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,-1,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Honorifics - Radio,FrancophilSans,74,&H00BEE1FF,&H00FFFFFF,&H000B2A42,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Narration,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00BF6F00,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Narration Off,FrancophilSans,74,&H6E8C6F00,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,-1,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Honorifics - Flashback,FrancophilSans,74,&H00CDFAFF,&H00FFFFFF,&H00373737,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Flashback Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00CCFFFF,&HC0313134,-1,-1,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Masks,FrancophilSans,74,&H00000000,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,2,0,0,0,1
+Style: Title,Conan Episode Title,74,&H00E1E4E3,&H000000FF,&HC8DBDAE1,&HC0000000,-1,0,0,0,100,100,0,0,1,1,0,5,0,0,0,1
+Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-1,0,0,0,100,100,0,0,1,0,0,2,0,0,65,1
+Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
+Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
+Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:10.99,0:00:18.54,Dialogue,,0,0,0,,So? How's the view from the Bell Tree Tower, built by the power of the Suzuki Financial Group?
+Dialogue: 0,0:00:18.99,0:00:23.56,Dialogue,,0,0,0,,It's amazing, Sonoko! Thanks for inviting us!
+Dialogue: 0,0:00:23.80,0:00:26.33,Dialogue,,0,0,0,,You lot should show some appreciation too!
+Dialogue: 0,0:00:26.33,0:00:31.45,Dialogue,,0,0,0,,This opening ceremony is supposed to be strictly for those who helped build the tower!
+Dialogue: 0,0:00:31.45,0:00:32.26,Dialogue,,0,0,0,,Yeah!
+Dialogue: 0,0:00:32.26,0:00:33.58,Dialogue,,0,0,0,,It's the best!
+Dialogue: 0,0:00:33.58,0:00:34.97,Dialogue,,0,0,0,,Thank you!
+Dialogue: 0,0:00:34.97,0:00:38.97,Dialogue,,0,0,0,,You can sure talk. You're the one who asked us if we wanted to come in the first place!
+Dialogue: 0,0:00:38.97,0:00:41.85,Dialogue,,0,0,0,,Hey! Is it time to leave yet?
+Dialogue: 0,0:00:41.85,0:00:46.10,Dialogue,,0,0,0,,Why would we be leaving, Dad? We just got here!
+Dialogue: 0,0:00:47.38,0:00:50.23,Dialogue,,0,0,0,,How'd I end up being dragged this high up again?!
+Dialogue: 0,0:00:50.71,0:00:54.94,Dialogue,,0,0,0,,Dad, come over here with us! The view's great!
+Dialogue: 0,0:00:54.94,0:00:58.88,Dialogue,,0,0,0,,Hmph! Don't be stupid! I'm leaving!
+Dialogue: 0,0:00:59.66,0:01:00.70,Dialogue,,0,0,0,,Geez...
+Dialogue: 0,0:01:00.70,0:01:05.68,Dialogue,,0,0,0,,Besides, haven't you heard that saying? 'Only fools and so on like high places'!{saying is actually 'fools and smoke' but Kogorou screws it up}
+Dialogue: 0,0:01:06.00,0:01:08.88,Dialogue,,0,0,0,,But the truth is that you're scared, right?
+Dialogue: 0,0:01:10.00,0:01:14.38,Dialogue,,0,0,0,,D-Don't be stupid! B-Being up\Nthis high d-doesn't bother me at all!
+Dialogue: 0,0:01:14.38,0:01:16.88,Dialogue,,0,0,0,,Then you wouldn't be scared at all if you looked at the floor, right?
+Dialogue: 0,0:01:17.31,0:01:19.39,Dialogue,,0,0,0,,Huh? The floor?
+Dialogue: 0,0:01:20.31,0:01:26.18,Dialogue,,0,0,0,,There's no floor!
+Dialogue: 0,0:01:26.18,0:01:27.80,Dialogue,,0,0,0,,I'm scared! I'm scared! I'm scared!
+Dialogue: 0,0:01:27.80,0:01:28.90,Dialogue,,0,0,0,,Hold on, Dad!
+Dialogue: 0,0:01:28.90,0:01:32.61,Dialogue,,0,0,0,,I'm scared of high places!
+Dialogue: 0,0:01:34.55,0:01:35.65,Dialogue,,0,0,0,,Excuse me!
+Dialogue: 0,0:01:35.65,0:01:37.34,Dialogue,,0,0,0,,That lift goes to—
+Dialogue: 0,0:01:38.45,0:01:45.86,Radio,,0,0,0,,{\be10}This lift goes to the special observation deck. Please enjoy the view from a height of 460 metres...
+Dialogue: 0,0:01:47.50,0:01:50.71,Dialogue,,0,0,0,,Get me down!
+Dialogue: 0,0:01:51.84,0:01:54.71,Dialogue,,0,0,0,,Oh, Dad...
+Dialogue: 0,0:01:54.71,0:01:56.16,Dialogue,,0,0,0,,I'm sorry about this, Sonoko.
+Dialogue: 0,0:01:56.16,0:01:59.72,Dialogue,,0,0,0,,Don't worry. This is normal for him, isn't it?
+Dialogue: 0,0:01:58.21,0:01:59.72,Thoughts,,0,0,0,,{\be10\an8}What's he doing?
+Dialogue: 0,0:01:59.72,0:02:02.97,Dialogue,,0,0,0,,Now let's enjoy the great view from the Bell Tree!
+Dialogue: 0,0:02:03.38,0:02:06.10,Dialogue,,0,0,0,,Hey, Sonoko, what's that building?
+Dialogue: 0,0:02:06.53,0:02:09.94,Dialogue,,0,0,0,,Oh, that small thing is the Asakusa Sky Court.
+Dialogue: 0,0:02:09.94,0:02:11.86,Dialogue,,0,0,0,,No connection to the Suzuki Financial Group.
+Dialogue: 0,0:02:11.86,0:02:16.36,Dialogue,,0,0,0,,Even after it's finished, it'll probably only come up to this first observation deck at the most.
+Dialogue: 0,0:02:16.36,0:02:18.65,Dialogue,,0,0,0,,That's a win for the Bell Tree then.
+Dialogue: 0,0:02:18.65,0:02:20.52,Dialogue,,0,0,0,,Of course!
+Dialogue: 0,0:02:21.99,0:02:26.88,Dialogue,,0,0,0,,Hey, have a look at that river! It's got so many bridges!
+Dialogue: 0,0:02:26.88,0:02:28.67,Dialogue,,0,0,0,,Yeah, that's Sumida River.
+Dialogue: 0,0:02:29.00,0:02:31.56,Dialogue,,0,0,0,,The blue one over there is Komagata Bridge.
+Dialogue: 0,0:02:31.56,0:02:33.47,Dialogue,,0,0,0,,The red one is Azuma Bridge.
+Dialogue: 0,0:02:33.47,0:02:36.52,Dialogue,,0,0,0,,And that railway bridge right ahead of us is the Tohto Bell Tree Line.
+Dialogue: 0,0:02:36.52,0:02:38.59,Dialogue,,0,0,0,,Oh! There's a train!
+Dialogue: 0,0:02:38.59,0:02:40.54,Dialogue,,0,0,0,,It's so cool!
+Dialogue: 0,0:02:40.54,0:02:43.12,Dialogue,,0,0,0,,Huh? It's stopping on the bridge...
+Dialogue: 0,0:02:43.12,0:02:48.73,Dialogue,,0,0,0,,It's just slowing down. Asakusa Station is right on the other side of the bridge, after all.
+Dialogue: 0,0:02:49.63,0:02:50.48,Dialogue,,0,0,0,,That's it!
+Dialogue: 0,0:02:50.48,0:02:57.24,Dialogue,,0,0,0,,How about we make a miniature model of the Tohto Bell Tree Tower and its surroundings for our summer homework project?
+Dialogue: 0,0:02:57.24,0:02:59.37,Dialogue,,0,0,0,,Oh, that's a great idea!
+Dialogue: 0,0:02:59.37,0:03:03.28,Dialogue,,0,0,0,,It sounds fun! Conan{\rHonorifics - Dialogue}-kun{\r},\NAi{\rHonorifics - Dialogue}-chan{\r}, let's all work together!
+Dialogue: 0,0:03:03.28,0:03:05.63,Dialogue,,0,0,0,,Hey, that sounds like a lot of hard wo—
+Dialogue: 0,0:03:05.63,0:03:07.04,Dialogue,,0,0,0,,We'd be happy to.
+Dialogue: 0,0:03:07.04,0:03:08.33,Dialogue,,0,0,0,,Yay!
+Dialogue: 0,0:03:08.33,0:03:10.12,Dialogue,,0,0,0,,Then it's decided!
+Dialogue: 0,0:03:10.12,0:03:12.06,Dialogue,,0,0,0,,Let's make an awesome model!
+Dialogue: 0,0:03:12.06,0:03:13.80,Dialogue,,0,0,0,,I guess it's a good thing we came here.
+Dialogue: 0,0:03:13.80,0:03:15.77,Dialogue,,0,0,0,,Let's all take lots of photos!
+Dialogue: 0,0:03:15.77,0:03:17.17,Dialogue,,0,0,0,,I'll take some videos.
+Dialogue: 0,0:03:17.91,0:03:20.98,Dialogue,,0,0,0,,I'll read up about the Bell Tree.
+Dialogue: 0,0:03:20.59,0:03:23.06,Dialogue Top,,0,0,0,,Sure! Go ahead!
+Dialogue: 0,0:03:23.06,0:03:27.32,Dialogue Top,,0,0,0,,I'll use these binoculars to decide how wide an area we should make for our model!
+Dialogue: 0,0:03:20.98,0:03:24.94,Dialogue,,0,0,0,,But I wonder if a certain {\i1}somebody{\i0} will be fine not doing any summer homework.
+Dialogue: 0,0:03:24.94,0:03:26.60,Dialogue,,0,0,0,,Leave me alone.
+Dialogue: 0,0:03:26.60,0:03:30.14,Dialogue,,0,0,0,,There! The yellow building.
+Dialogue: 0,0:03:30.14,0:03:32.73,Dialogue,,0,0,0,,Oh, wow! It's amazing!
+Dialogue: 0,0:03:32.73,0:03:35.90,Dialogue,,0,0,0,,Oh, I see it. What a lovely building.
+Dialogue: 0,0:03:36.55,0:03:39.90,Dialogue,,0,0,0,,This building was built 30 years ago.
+Dialogue: 0,0:03:39.90,0:03:47.99,Dialogue,,0,0,0,,And now, with the completion of the Bell Tree Tower, the view alone is worth four stars.
+Dialogue: 0,0:03:47.99,0:03:51.23,Dialogue,,0,0,0,,It is definitely a five star property.
+Dialogue: 0,0:03:51.23,0:03:52.84,Dialogue,,0,0,0,,Wow!
+Dialogue: 0,0:03:52.85,0:03:56.33,Dialogue Top,,0,0,0,,Darling, I think this may be our lucky day!
+Dialogue: 0,0:03:52.84,0:03:56.33,Thoughts,,0,0,0,,{\be10}Built 30 years ago, isn't that a bit old?
+Dialogue: 0,0:03:56.33,0:03:58.98,Dialogue,,0,0,0,,I absolutely love this house!
+Dialogue: 0,0:03:58.98,0:04:01.91,Dialogue,,0,0,0,,I think so too, this property is...
+Dialogue: 0,0:04:08.95,0:04:09.89,Dialogue,,0,0,0,,What is it?
+Dialogue: 0,0:04:09.89,0:04:12.42,Dialogue,,0,0,0,,No, it's nothing...
+Dialogue: 0,0:04:33.31,0:04:35.00,Dialogue,,0,0,0,,It's a sniper! Everybody get down!
+Dialogue: 0,0:04:36.63,0:04:38.17,Dialogue,,0,0,0,,You're too heavy...{***recheck with BD/animanga for v2}
+Dialogue: 0,0:04:37.69,0:04:40.50,Dialogue Top,,0,0,0,,Everyone, please stay calm!
+Dialogue: 0,0:04:41.92,0:04:45.01,Thoughts,,0,0,0,,{\be10}Damn, everyone's panicking!
+Dialogue: 0,0:04:49.64,0:04:51.56,Thoughts,,0,0,0,,{\be10}So it really was from there.
+Dialogue: 0,0:04:51.56,0:04:52.06,Thoughts,,0,0,0,,{\be10}Where's Ran?
+Dialogue: 0,0:04:53.34,0:04:54.31,Thoughts,,0,0,0,,{\be10}All right!
+Dialogue: 0,0:04:55.06,0:04:57.43,Dialogue,,0,0,0,,Doc! Give me your car keys!
+Dialogue: 0,0:04:57.43,0:04:58.92,Dialogue,,0,0,0,,My car keys?
+Dialogue: 0,0:04:58.92,0:05:00.84,Dialogue,,0,0,0,,I'm gonna go get my skateboard.
+Dialogue: 0,0:05:00.84,0:05:03.44,Dialogue,,0,0,0,,Doc, you're too heavy...
+Dialogue: 0,0:05:04.38,0:05:06.36,Dialogue,,0,0,0,,Oh, wait!
+Dialogue: 0,0:05:06.36,0:05:08.20,Dialogue,,0,0,0,,Everyone, please stay calm!
+Dialogue: 0,0:05:08.85,0:05:10.70,Dialogue,,0,0,0,,Conan{\rHonorifics - Dialogue}-kun{\r}...
+Dialogue: 0,0:05:42.02,0:05:45.44,Narration Off,,0,0,0,,{\be10}I'm Shin'ichi Kudō, a high school detective.
+Dialogue: 0,0:05:45.44,0:05:49.41,Narration Off,,0,0,0,,{\be10}While at an amusement park with my childhood friend and classmate, Ran Mouri,
+Dialogue: 0,0:05:49.41,0:05:52.91,Narration Off,,0,0,0,,{\be10}I witnessed a suspicious deal involving a man in black.
+Dialogue: 0,0:05:54.20,0:06:00.19,Narration Off,,0,0,0,,{\be10}Since I was so focused on watching the deal, I didn't realise his partner was sneaking up from behind me.
+Dialogue: 0,0:06:01.81,0:06:06.17,Narration Off,,0,0,0,,{\be10}He forced me to consume poison, and when I came to...
+Dialogue: 0,0:06:06.17,0:06:09.18,Narration Off,,0,0,0,,{\be10}...my body had shrunk!
+Dialogue: 0,0:06:09.48,0:06:12.05,Narration Off,,0,0,0,,{\be10}If those men learnt that Shin'ichi Kudō was still alive,
+Dialogue: 0,0:06:12.05,0:06:15.43,Narration Off,,0,0,0,,{\be10}they'd come back to finish me off, endangering everyone around me.
+Dialogue: 0,0:06:16.23,0:06:19.35,Narration Off,,0,0,0,,{\be10}At Dr. Agasa's suggestion, I hid my identity,
+Dialogue: 0,0:06:19.35,0:06:23.11,Narration Off,,0,0,0,,{\be10}and when Ran asked my name,\NI blurted out 'Conan Edogawa'.
+Dialogue: 0,0:06:23.51,0:06:29.25,Narration Off,,0,0,0,,{\be10}To find out more about those guys, I ended up living with Ran and her detective father.
+Dialogue: 0,0:06:38.93,0:06:41.95,Narration Off,,0,0,0,,{\be10}The enigmatic Black Organisation...
+Dialogue: 0,0:06:41.95,0:06:46.63,Narration Off,,0,0,0,,{\be10}I'm not the only one who's secretly working to find out their identity.
+Dialogue: 0,0:06:46.63,0:06:50.34,Narration Off,,0,0,0,,{\be10}The Federal Bureau of Investigation —\hthe FBI.
+Dialogue: 0,0:06:50.34,0:06:54.64,Narration Off,,0,0,0,,{\be10}James Black, André Camel, Jodie Starling...
+Dialogue: 0,0:06:54.64,0:06:57.40,Narration Off,,0,0,0,,{\be10}And Shūichi Akai.
+Dialogue: 0,0:06:57.40,0:07:05.04,Narration Off,,0,0,0,,{\be10}He was the sharpest agent at the FBI, and an expert marksman, but then a CIA agent that had infiltrated the organisation went and...
+Dialogue: 0,0:07:07.22,0:07:09.40,Narration Off,,0,0,0,,{\be10}And also, some new characters.
+Dialogue: 0,0:07:10.09,0:07:15.41,Narration Off,,0,0,0,,{\be10}Masumi Sera. She transferred into the same class as Ran and I, and calls herself a detective.
+Dialogue: 0,0:07:17.87,0:07:25.42,Narration Off,,0,0,0,,{\be10}And finally, Subaru Okiya. An engineering post-graduate university student, who is living in my empty house.
+Dialogue: 0,0:07:25.42,0:07:26.92,Narration Off,,0,0,0,,{\be10}But his identity is really...
+Dialogue: 0,0:07:27.52,0:07:29.59,Dialogue,,0,0,0,,My body shrunk, but my mind didn't!
+Dialogue: 0,0:07:30.09,0:07:31.76,Dialogue,,0,0,0,,I'm still an undefeated great detective!
+Dialogue: 0,0:07:32.44,0:07:37.72,Dialogue,,0,0,0,,There's always only one truth!
+Dialogue: 0,0:07:49.43,0:07:57.16,Thoughts,,0,0,0,,{\be10}Sniping someone that accurately from so far away... Don't tell me that {\i1}they're{\i0} behind it?!
+Dialogue: 0,0:07:57.52,0:08:00.29,Thoughts,,0,0,0,,{\be10}I have to know for sure!
+Dialogue: 0,0:08:00.77,0:08:02.21,Thoughts,,0,0,0,,{\be10}I think this was the way to that building...
+Dialogue: 0,0:08:06.84,0:08:08.37,Thoughts,,0,0,0,,{\be10}Oh no!
+Dialogue: 0,0:08:26.43,0:08:27.06,Dialogue,,0,0,0,,What?
+Dialogue: 0,0:08:31.41,0:08:32.53,Dialogue,,0,0,0,,A boy fell in!
+Dialogue: 0,0:08:37.45,0:08:39.59,Thoughts,,0,0,0,,{\be10}This goes right next to the building!
+Dialogue: 0,0:08:41.16,0:08:43.58,Dialogue,,0,0,0,,There it is! All right!
+Dialogue: 0,0:08:59.58,0:09:01.89,Thoughts,,0,0,0,,{\be10}He couldn't have gone too far...
+Dialogue: 0,0:09:02.32,0:09:09.29,Thoughts,,0,0,0,,{\be10}To escape without getting caught in traffic, he'd need to walk or go by bike.
+Dialogue: 0,0:09:11.80,0:09:12.57,Dialogue,,0,0,0,,Could that be him?
+Dialogue: 0,0:09:13.41,0:09:15.28,Thoughts,,0,0,0,,{\be10}That size and thickness...
+Dialogue: 0,0:09:15.28,0:09:17.32,Thoughts,,0,0,0,,{\be10}It must be! That's a rifle bag!
+Dialogue: 0,0:09:23.50,0:09:24.83,Dialogue,,0,0,0,,Haibara, can you hear me?
+Dialogue: 0,0:09:25.89,0:09:27.79,Dialogue,,0,0,0,,Damn, this piece of junk!
+Dialogue: 0,0:09:28.29,0:09:31.05,Dialogue,,0,0,0,,Haibara! Haibara! Answer me, Haibara!
+Dialogue: 0,0:09:31.63,0:09:34.84,Dialogue,,0,0,0,,What is it? I'm getting a lot of static, where are you?
+Dialogue: 0,0:09:34.84,0:09:37.65,Radio,,0,0,0,,{\be10}I'm chasing what I think is the sniper's bike!
+Dialogue: 0,0:09:37.65,0:09:39.67,Dialogue,,0,0,0,,Doctor! Call the police!
+Dialogue: 0,0:09:39.67,0:09:40.89,Dialogue,,0,0,0,,Huh? Right...
+Dialogue: 0,0:09:40.89,0:09:46.31,Dialogue,,0,0,0,,The number plate's 'Shinjuku Se 3317'! He's heading north on Mitsumedōri!
+Dialogue: 0,0:09:47.28,0:09:48.56,Dialogue,,0,0,0,,He turned left!
+Dialogue: 0,0:09:48.56,0:09:50.56,Dialogue,,0,0,0,,Damn, you're not getting away!
+Dialogue: 0,0:09:50.56,0:09:53.84,Radio,,0,0,0,,{\be10}What is it? Edogawa{\rHonorifics - Radio\be10}-kun{\r\be10}, are you okay?
+Dialogue: 0,0:09:53.84,0:09:56.82,Dialogue,,0,0,0,,Yeah, I'm just crossing Kototoi Bridge over the Sumida—
+Dialogue: 0,0:09:57.48,0:10:01.52,Dialogue,,0,0,0,,Damn, was that the badge's limit?!
+Dialogue: 0,0:10:04.62,0:10:07.29,Thoughts,,0,0,0,,{\be10}Oh no! I'm in a blind spot!
+Dialogue: 0,0:10:18.91,0:10:19.72,Dialogue,,0,0,0,,Where is he?!
+Dialogue: 0,0:10:24.51,0:10:27.23,Thoughts,,0,0,0,,{\be10}Heading the wrong way up a one-way street? It couldn't be!
+Dialogue: 0,0:10:30.11,0:10:31.36,Dialogue,,0,0,0,,Look out!
+Dialogue: 0,0:10:31.36,0:10:33.33,Dialogue,,0,0,0,,This is like Yaiba!{Yaiber?***}
+Dialogue: 0,0:10:39.51,0:10:42.45,Thoughts,,0,0,0,,{\be10}Damn, did he notice me after all?!
+Dialogue: 0,0:11:17.84,0:11:23.12,Dialogue,,0,0,0,,What the hell are you—\hI mean, what are you doing here, Sera{\rHonorifics - Dialogue}-neechan{\r}?
+Dialogue: 0,0:11:24.40,0:11:27.33,Dialogue,,0,0,0,,I'll explain later! Let's go!
+Dialogue: 0,0:11:30.58,0:11:34.84,Dialogue,,0,0,0,,The number plate of the suspect's bike is 'Shinjuku Se 3317'.
+Dialogue: 0,0:11:35.24,0:11:40.47,Dialogue,,0,0,0,,According to the latest report, he has crossed Kototoi Bridge, and is heading south along Sumida River.
+Dialogue: 0,0:11:40.47,0:11:44.47,Dialogue,,0,0,0,,All cars currently on patrol nearby, head to the scene immediately! Arrest him!
+Dialogue: 0,0:11:53.53,0:11:55.86,Dialogue,,0,0,0,,What? You were at the Bell Tree?
+Dialogue: 0,0:11:56.29,0:12:01.61,Dialogue,,0,0,0,,I was following the man that was shot. As a detective.
+Dialogue: 0,0:12:01.86,0:12:03.95,Dialogue,,0,0,0,,Then you were there when it happened, weren't you?
+Dialogue: 0,0:12:03.95,0:12:07.18,Dialogue,,0,0,0,,Yeah. I never thought he'd be murdered.
+Dialogue: 0,0:12:07.64,0:12:10.13,Dialogue,,0,0,0,,I see him! Hold on tight!
+Dialogue: 0,0:12:10.13,0:12:10.41,Dialogue,,0,0,0,,Right!
+Dialogue: 0,0:12:17.46,0:12:22.22,Dialogue,,0,0,0,,He's turned left off National Route 6 and headed onto Kuramae Bridge!{***recheck with BD/animanga} Block him in from both sides!
+Dialogue: 0,0:12:22.59,0:12:24.97,Radio,,0,0,0,,{\be10}Roger. All sealed off here.
+Dialogue: 0,0:13:13.77,0:13:16.80,Dialogue,,0,0,0,,Damn! Hold on, we're going after him!
+Dialogue: 0,0:13:16.80,0:13:20.07,Dialogue,,0,0,0,,No, provoking him further is too dangerous.
+Dialogue: 0,0:13:20.07,0:13:24.57,Dialogue,,0,0,0,,Don't worry. I'll know where he's headed soon enough.
+Dialogue: 0,0:13:33.56,0:13:34.66,Dialogue,,0,0,0,,He stopped.
+Dialogue: 0,0:13:35.60,0:13:39.08,Dialogue,,0,0,0,,He might have another getaway vehicle there.
+Dialogue: 0,0:13:39.08,0:13:41.21,Dialogue,,0,0,0,,This is bad... Let's hurry!
+Dialogue: 0,0:13:41.21,0:13:43.80,Dialogue,,0,0,0,,Yeah. But be careful!
+Dialogue: 0,0:13:43.80,0:13:46.93,Dialogue,,0,0,0,,I know! We're just going to check!
+Dialogue: 0,0:13:48.55,0:13:57.19,Radio,,0,0,0,,{\be10}...fleeing on a bike with the number plate Shinjuku Se 3317,{***recheck with BD/animanga} {\an8}currently headed south along the Sumida River...
+Dialogue: 0,0:13:52.52,0:13:54.68,Dialogue,,0,0,0,,It appears he headed this way.
+Dialogue: 0,0:13:55.05,0:13:56.44,Dialogue,,0,0,0,,Right.
+Dialogue: 0,0:14:13.42,0:14:14.69,Dialogue,,0,0,0,,That bike!
+Dialogue: 0,0:14:14.69,0:14:16.63,Dialogue,,0,0,0,,Yeah. That's it.
+Dialogue: 0,0:14:16.63,0:14:18.83,Dialogue,,0,0,0,,So he went on foot from here...
+Dialogue: 0,0:14:34.88,0:14:36.14,Dialogue,,0,0,0,,Damn...
+Dialogue: 0,0:14:36.68,0:14:37.40,Dialogue,,0,0,0,,Sera!
+Dialogue: 0,0:14:37.40,0:14:38.75,Dialogue,,0,0,0,,Hey, Sera!
+Dialogue: 0,0:14:55.15,0:14:57.29,Dialogue,,0,0,0,,Agent Camel!
+Dialogue: 0,0:15:14.89,0:15:16.60,Dialogue,,0,0,0,,You're mine!
+Dialogue: 0,0:15:18.10,0:15:20.35,Dialogue,,0,0,0,,Bring it on!
+Dialogue: 0,0:15:34.95,0:15:36.71,Dialogue,,0,0,0,,Ouch...
+Dialogue: 0,0:15:36.71,0:15:38.82,Dialogue,,0,0,0,,Are you okay, Sera{\rHonorifics - Dialogue}-neechan{\r}?
+Dialogue: 0,0:15:38.82,0:15:40.25,Dialogue,,0,0,0,,Y-Yeah...
+Dialogue: 0,0:15:40.25,0:15:42.91,Dialogue,,0,0,0,,If I didn't have this, I'd be dead for sure...
+Dialogue: 0,0:15:42.91,0:15:46.14,Dialogue,,0,0,0,,Looks like neither of you are hurt.
+Dialogue: 0,0:15:46.14,0:15:48.84,Dialogue,,0,0,0,,Never mind that, are you okay, Agent Camel?
+Dialogue: 0,0:15:49.22,0:15:50.77,Dialogue,,0,0,0,,No problem.
+Dialogue: 0,0:15:50.77,0:15:52.91,Dialogue,,0,0,0,,I was wearing this.
+Dialogue: 0,0:15:52.91,0:15:53.97,Dialogue,,0,0,0,,I see.
+Dialogue: 0,0:15:53.97,0:15:56.28,Dialogue,,0,0,0,,But about Jodie{\rHonorifics - Dialogue}-san{\r}'s gun...
+Dialogue: 0,0:15:56.28,0:15:58.60,Dialogue,,0,0,0,,Keep it a secret, right?
+Dialogue: 0,0:16:01.62,0:16:03.73,Dialogue,,0,0,0,,It's no use. He got away.
+Dialogue: 0,0:16:03.73,0:16:08.38,Dialogue,,0,0,0,,It can't be helped. Let's leave the rest to the Japanese police.
+Dialogue: 0,0:16:08.38,0:16:11.74,Dialogue,,0,0,0,,I'll tell them to search the cliffs near the bay right away.
+Dialogue: 0,0:16:11.74,0:16:12.36,Dialogue,,0,0,0,,Right.
+Dialogue: 0,0:16:12.36,0:16:15.74,Dialogue,,0,0,0,,Well, it's going to be hard to arrest him.
+Dialogue: 0,0:16:15.74,0:16:19.37,Dialogue,,0,0,0,,The sea's like a garden for the SEALs.
+Dialogue: 0,0:16:20.22,0:16:21.75,Dialogue,,0,0,0,,SEALs?
+Dialogue: 0,0:16:26.36,0:16:28.50,Dialogue,,0,0,0,,Have a look at this.
+Dialogue: 0,0:16:28.97,0:16:34.59,Dialogue,,0,0,0,,From the photos we have obtained and his sniping technique, we believe the sniper to be this person.
+Dialogue: 0,0:16:35.05,0:16:37.85,Dialogue,,0,0,0,,Timothy Hunter, 37...
+Dialogue: 0,0:16:37.85,0:16:44.85,Dialogue,,0,0,0,,A former sniper in the Navy's Special Ops squad 'Navy SEALs', who fought in the war in the Middle East for three years from 2003.
+Dialogue: 0,0:16:45.42,0:16:49.08,Dialogue,,0,0,0,,He's a war hero who accomplished many great deeds.
+Dialogue: 0,0:16:49.08,0:16:50.65,Dialogue,,0,0,0,,So why would a hero do this?
+Dialogue: 0,0:16:50.65,0:16:54.38,Dialogue,,0,0,0,,We believe the reason to be this, the Silver Star.
+Dialogue: 0,0:16:54.38,0:16:56.20,Dialogue,,0,0,0,,The Silver Star?
+Dialogue: 0,0:16:56.20,0:17:03.62,Dialogue,,0,0,0,,It's a medal of honour awarded to soldiers who have shown gallantry in action against an enemy of the United States.{lit: bravery in a battle against a hostile armed group}
+Dialogue: 0,0:17:03.62,0:17:08.42,Dialogue,,0,0,0,,Hunter was awarded this medal of heroism in 2005,
+Dialogue: 0,0:17:08.42,0:17:12.64,Dialogue,,0,0,0,,but the next year, he was stripped of it on suspicion of violating the Rules of Engagement.
+Dialogue: 0,0:17:12.64,0:17:13.55,Dialogue,,0,0,0,,Stripped of it?
+Dialogue: 0,0:17:13.55,0:17:20.50,Dialogue,,0,0,0,,Yes. An Army officer put in a complaint saying that he shot an unarmed civilian.
+Dialogue: 0,0:17:20.50,0:17:27.19,Dialogue,,0,0,0,,Of course, Hunter denied it, and the case didn't go to court due to lack of evidence,
+Dialogue: 0,0:17:27.19,0:17:34.16,Dialogue,,0,0,0,,but that one case took him from being called the 'Battlefield Hero' to the 'Suspected Hero'.
+Dialogue: 0,0:17:38.74,0:17:42.49,Dialogue,,0,0,0,,And perhaps due to being stripped of his Silver Star,
+Dialogue: 0,0:17:42.49,0:17:47.08,Dialogue,,0,0,0,,when he returned to the war zone, Hunter had lost his usual calm, and alone on the battlefield...
+Dialogue: 0,0:17:47.79,0:17:50.21,Dialogue,,0,0,0,,...took an enemy bullet to his head.
+Dialogue: 0,0:17:54.01,0:17:55.13,Dialogue,,0,0,0,,Oh no...
+Dialogue: 0,0:17:55.13,0:17:56.52,Dialogue,,0,0,0,,Then what happened to Hunter?
+Dialogue: 0,0:17:56.52,0:17:59.85,Dialogue,,0,0,0,,Luckily, the surgery was successful, and his life was saved.
+Dialogue: 0,0:17:59.85,0:18:02.60,Dialogue,,0,0,0,,But he was discharged due to his wounds.
+Dialogue: 0,0:18:02.60,0:18:07.32,Dialogue,,0,0,0,,He returned to America, but his misfortune didn't end there.
+Dialogue: 0,0:18:07.90,0:18:12.86,Dialogue,,0,0,0,,Seeking a peaceful life back in America, he moved to the countryside of Seattle, Washington,
+Dialogue: 0,0:18:13.57,0:18:20.24,Dialogue,,0,0,0,,but his terrible memories of the warzone never left him, and have pained him ever since.
+Dialogue: 0,0:18:20.48,0:18:26.96,Dialogue,,0,0,0,,But his misfortune still wasn't satisfied, and extended to his wife and sister living with him.
+Dialogue: 0,0:18:26.96,0:18:29.54,Dialogue,,0,0,0,,He was bankrupted by a flawed investment.
+Dialogue: 0,0:18:29.54,0:18:34.76,Dialogue,,0,0,0,,His sister committed suicide due to being abandoned by her fiancé, and his wife died from taking an overdose.
+Dialogue: 0,0:18:34.76,0:18:41.90,Dialogue,,0,0,0,,Hunter lost his honour, his fortune and his beloved family one after another. {Needs split}
+Dialogue: 0,0:18:41.90,0:18:46.97,Dialogue,,0,0,0,,Then we have no knowledge of his whereabouts for the next six years.
+Dialogue: 0,0:18:46.97,0:18:51.92,Dialogue,,0,0,0,,Why is he a suspect in this murder?
+Dialogue: 0,0:18:51.99,0:18:54.15,Dialogue,,0,0,0,,Because of what happened three weeks ago.
+Dialogue: 0,0:18:54.15,0:19:01.24,Dialogue,,0,0,0,,Brian Woods, a reporter for a local newspaper in Seattle, was sniped with a rifle and died.
+Dialogue: 0,0:19:01.65,0:19:04.62,Dialogue,,0,0,0,,When the police investigated that victim,
+Dialogue: 0,0:19:04.62,0:19:09.25,Dialogue,,0,0,0,,they found that he'd been hounding Hunter and his wife while writing a series of articles on the 'Suspected Hero',
+Dialogue: 0,0:19:09.25,0:19:14.25,Dialogue,,0,0,0,,and had driven them both to have mental breakdowns.
+Dialogue: 0,0:19:14.25,0:19:24.10,Dialogue,,0,0,0,,Because of that, the police and FBI investigated Hunter as a suspect, and found he entered Japan two weeks ago.
+Dialogue: 0,0:19:24.45,0:19:31.45,Dialogue,,0,0,0,,And so, since we were on holiday in Japan,\NFBI HQ contacted us and ordered us to arrest him.
+Dialogue: 0,0:19:31.45,0:19:34.61,Dialogue,,0,0,0,,I see. And that brings us up to now.
+Dialogue: 0,0:19:34.61,0:19:38.49,Dialogue,,0,0,0,,Yes. By the way, what about\NHunter's whereabouts since then?
+Dialogue: 0,0:19:38.49,0:19:42.42,Dialogue,,0,0,0,,We've been searching the bay, but we haven't found any real clues yet...
+Dialogue: 0,0:19:42.42,0:19:44.12,Dialogue,,0,0,0,,That's no surprise.
+Dialogue: 0,0:19:44.60,0:19:52.82,Dialogue,,0,0,0,,As you know, the the 'SEAL' in SEALs was taken from 'se{\u0}a', 'a{\u0}ir', and 'l{\u0}and', and swimming is supposed to be one of their talents.
+Dialogue: 0,0:19:52.82,0:19:55.63,Dialogue,,0,0,0,,Another of which is sniping with a rifle.
+Dialogue: 0,0:19:56.07,0:20:02.50,Dialogue,,0,0,0,,As for the sniping, we discovered some strange items from the roof of the building suspected to be the sniping position.
+Dialogue: 0,0:20:02.50,0:20:03.55,Dialogue,,0,0,0,,Strange items?
+Dialogue: 0,0:20:03.55,0:20:04.65,Dialogue,,0,0,0,,Chiba{\rHonorifics - Dialogue}-kun{\r}.
+Dialogue: 0,0:20:04.65,0:20:05.80,Dialogue,,0,0,0,,Right.
+Dialogue: 0,0:20:05.80,0:20:08.81,Dialogue,,0,0,0,,In the space for the window cleaning rails on the side facing the Bell Tree Tower,
+Dialogue: 0,0:20:08.81,0:20:13.15,Dialogue,,0,0,0,,we found a die and a 51 mm bullet shell.
+Dialogue: 0,0:20:13.15,0:20:18.65,Dialogue,,0,0,0,,The shell has the same calibre as the 7.62 mm bullet used in the crime.
+Dialogue: 0,0:20:18.65,0:20:25.00,Dialogue,,0,0,0,,It also matches the NATO bullets used by the MK11, Hunter's favourite rifle.
+Dialogue: 0,0:20:25.00,0:20:26.00,Dialogue,,0,0,0,,Then it was him...?
+Dialogue: 0,0:20:26.00,0:20:32.91,Dialogue,,0,0,0,,About this die... Was there a die left with the shell at the sniping position in the Seattle case as well?
+Dialogue: 0,0:20:32.91,0:20:39.88,Dialogue,,0,0,0,,No, I haven't heard about anything like a die being found there, but there {\i1}is{\i0} a connection between Hunter and dice.
+Dialogue: 0,0:20:39.88,0:20:45.64,Dialogue,,0,0,0,,Hunter loved playing dice games, and has a tattoo of dice here on his left arm.
+Dialogue: 0,0:20:45.64,0:20:47.38,Dialogue,,0,0,0,,I-I see.
+Dialogue: 0,0:20:47.38,0:20:53.52,Dialogue,,0,0,0,,It's a tenuous connection, but it means Hunter could be trying to leave some sort of message with this die.
+Dialogue: 0,0:20:53.52,0:21:01.19,Dialogue,,0,0,0,,Yes. And the greatest piece of evidence that Hunter was behind this lies with the victim.
+Dialogue: 0,0:21:01.54,0:21:07.45,Dialogue,,0,0,0,,You mean that Hunter had a definite motive for murdering Fujinami{\rHonorifics - Dialogue}-san{\r}?
+Dialogue: 0,0:21:07.45,0:21:08.73,Dialogue,,0,0,0,,Yes.
+Dialogue: 0,0:21:08.73,0:21:16.46,Dialogue,,0,0,0,,Seven years ago, Hiroaki Fujinami sold Hunter substandard Japanese property, and is responsible for bankrupting him.
+Dialogue: 0,0:21:16.46,0:21:17.73,Dialogue,,0,0,0,,What?!
+Dialogue: 0,0:21:17.73,0:21:18.29,Dialogue,,0,0,0,,Then that's why...?
+Dialogue: 0,0:21:18.66,0:21:21.93,Dialogue,,0,0,0,,That means Hunter's the culprit for sure.
+Dialogue: 0,0:21:22.04,0:21:26.30,Dialogue,,0,0,0,,Speaking of Fujinami{\rHonorifics - Dialogue}-san{\r}, why\Nwas Sera{\rHonorifics - Dialogue}-neechan{\r} tailing him?
+Dialogue: 0,0:21:26.61,0:21:28.01,Dialogue,,0,0,0,,That's right...
+Dialogue: 0,0:21:28.01,0:21:29.30,Dialogue,,0,0,0,,Why were you tailing Fujinami{\rHonorifics - Dialogue}-san{\r}?
+Dialogue: 0,0:21:29.30,0:21:34.43,Dialogue,,0,0,0,,A relative of a classmate of mine was thinking about marrying Fujinami,
+Dialogue: 0,0:21:34.43,0:21:38.44,Dialogue,,0,0,0,,but she thought he was involved in something fishy, so she asked me to conduct a background check on him.
+Dialogue: 0,0:21:39.78,0:21:43.48,Dialogue Top,,0,0,0,,You doing a background check?! Some nerve...
+Dialogue: 0,0:21:38.44,0:21:43.94,Dialogue,,0,0,0,,And during my investigation I found out about Fujinami swindling good-natured foreigners
+Dialogue: 0,0:21:43.94,0:21:46.83,Dialogue,,0,0,0,,by selling them substandard Japanese property.
+Dialogue: 0,0:21:46.83,0:21:49.32,Thoughts,,0,0,0,,{\be10}Right, even back then...
+Dialogue: 0,0:21:49.62,0:21:53.12,Dialogue,,0,0,0,,Well, it's awful that he was murdered,
+Dialogue: 0,0:21:53.12,0:21:57.25,Dialogue,,0,0,0,,but it's good in the sense that the relative isn't interested in getting remarried anymore.
+Dialogue: 0,0:21:58.28,0:22:04.05,Dialogue,,0,0,0,,Oh, that's right. From what you've said, I doubt this will be the end of Hunter's crime spree.
+Dialogue: 0,0:22:04.05,0:22:05.81,Dialogue,,0,0,0,,Yes, you're right.
+Dialogue: 0,0:22:05.81,0:22:09.61,Dialogue,,0,0,0,,Is there anyone else that Hunter might want dead?
+Dialogue: 0,0:22:09.61,0:22:11.31,Dialogue,,0,0,0,,Jodie{\rHonorifics - Dialogue}-kun{\r}, the photos.
+Dialogue: 0,0:22:11.31,0:22:12.06,Dialogue,,0,0,0,,Right.
+Dialogue: 0,0:22:12.53,0:22:17.55,Dialogue,,0,0,0,,The FBI believe there are at\Nleast three people he may be after.
+Dialogue: 0,0:22:17.55,0:22:19.88,Dialogue,,0,0,0,,T-Three people?!
+Dialogue: 0,0:22:19.88,0:22:25.40,Dialogue,,0,0,0,,Yes. We believe he is likely to\Ntry and murder these three people.
+Dialogue: 0,0:22:26.36,0:22:33.41,Dialogue,,0,0,0,,Jack Waltz, 45. He's the former Army captain who reported that Hunter violated the Rules of Engagement.
+Dialogue: 0,0:22:33.41,0:22:38.42,Dialogue,,0,0,0,,He currently runs a factory making military equipment in San Diego.
+Dialogue: 0,0:22:38.42,0:22:41.59,Dialogue,,0,0,0,,Next, Bill Murphy, 35.
+Dialogue: 0,0:22:41.59,0:22:48.34,Dialogue,,0,0,0,,He's a former Army sergeant who worked under Waltz, and was a witness to Hunter's violation of the Rules of Engagement.
+Dialogue: 0,0:22:48.34,0:22:51.76,Dialogue,,0,0,0,,After being discharged, he joined\NWaltz's company as a secretary.
+Dialogue: 0,0:22:51.76,0:22:54.71,Dialogue,,0,0,0,,I guess he can't murder them if they're in San Diego.
+Dialogue: 0,0:22:54.71,0:22:59.10,Dialogue,,0,0,0,,No, they're both currently in Japan.
+Dialogue: 0,0:22:59.10,0:23:00.24,Dialogue,,0,0,0,,What?!
+Dialogue: 0,0:23:00.24,0:23:06.53,Dialogue,,0,0,0,,Waltz arrived in Kyōto with his family two days ago, and Murphy's staying in Nikkō.{https://en.wikipedia.org/wiki/Nikk%C5%8D,_Tochigi}
+Dialogue: 0,0:23:06.53,0:23:07.84,Dialogue,,0,0,0,,Kyōto and...
+Dialogue: 0,0:23:07.84,0:23:09.15,Dialogue,,0,0,0,,Nikkō, huh?
+Dialogue: 0,0:23:09.15,0:23:13.25,Dialogue,,0,0,0,,Yes. They're planned to be in\Nthe country for another eight days.
+Dialogue: 0,0:23:13.25,0:23:15.16,Dialogue,,0,0,0,,And finally...
+Dialogue: 0,0:23:15.73,0:23:22.04,Dialogue,,0,0,0,,Hitoshi Moriyama, 34. He is the ex-fiancé who was reponsible for the sister's suicide.
+Dialogue: 0,0:23:22.04,0:23:29.34,Dialogue,,0,0,0,,Moriyama lived in Seattle, and worked at a trading company, but retired four years ago, and we don't know where he is now.
+Dialogue: 0,0:23:29.34,0:23:32.51,Dialogue,,0,0,0,,So two out of the three are in Japan...
+Dialogue: 0,0:23:32.51,0:23:35.01,Dialogue,,0,0,0,,He's going to target them for sure!
+Dialogue: 0,0:23:35.01,0:23:40.28,Dialogue,,0,0,0,,Right. Alert the Kyōto and Tochigi Police immediately.
+Dialogue: 0,0:23:40.28,0:23:45.45,Dialogue,,0,0,0,,Okay! Put out an urgent warrant looking for Timothy Hunter as a key person in this case!
+Dialogue: 0,0:23:45.45,0:23:45.80,Dialogue,,0,0,0,,Right.
+Dialogue: 0,0:23:45.80,0:23:46.48,Dialogue,,0,0,0,,Right!
+Dialogue: 0,0:23:47.50,0:23:52.36,Dialogue,,0,0,0,,A former SEALs sniper... Looks like quite a shocking guy has turned up in Japan.
+Dialogue: 0,0:23:52.36,0:23:56.87,Dialogue Top,,0,0,0,,Yeah. And why did he have to choose Japan as the site of his revenge...
+Dialogue: 0,0:23:52.36,0:23:56.87,Thoughts,,0,0,0,,{\be10}But at least I found out that {\i1}they{\i0} don't seem to be involved...
+Dialogue: 0,0:23:59.14,0:24:05.46,Dialogue,,0,0,0,,Still, I wonder why that Hunter guy decided to seek revenge now, six years later?
+Dialogue: 0,0:24:05.46,0:24:06.73,Dialogue,,0,0,0,,Right...
+Dialogue: 0,0:24:06.73,0:24:08.61,Dialogue,,0,0,0,,I see what you mean.
+Dialogue: 0,0:24:08.68,0:24:10.84,Dialogue,,0,0,0,,It just happened to be now, that's all.
+Dialogue: 0,0:24:10.84,0:24:18.19,Dialogue,,0,0,0,,Still, you better stop playing your detective games! You almost died out there!
+Dialogue: 0,0:24:19.27,0:24:20.22,Dialogue,,0,0,0,,And brat!
+Dialogue: 0,0:24:20.22,0:24:22.91,Dialogue,,0,0,0,,You better not go wandering off either!
+Dialogue: 0,0:24:22.91,0:24:23.73,Dialogue,,0,0,0,,Okay!
+Dialogue: 0,0:24:24.34,0:24:25.74,Dialogue,,0,0,0,,Honestly...
+Dialogue: 0,0:24:25.74,0:24:29.65,Dialogue,,0,0,0,,Sera{\rHonorifics - Dialogue}-san{\r}, I am glad that you weren't hurt...
+Dialogue: 0,0:24:30.50,0:24:32.40,Dialogue,,0,0,0,,But please don't put Conan{\rHonorifics - Dialogue}-kun{\r}...
+Dialogue: 0,0:24:33.88,0:24:36.66,Dialogue,,0,0,0,,Don't put Conan{\rHonorifics - Dialogue}-kun{\r} in danger again, okay?
+Dialogue: 0,0:24:36.66,0:24:37.83,Thoughts,,0,0,0,,{\be10}Ran...
+Dialogue: 0,0:24:38.56,0:24:42.75,Dialogue,,0,0,0,,Don't worry! I'll make sure to protect Conan{\rHonorifics - Dialogue}-kun{\r}.
+Dialogue: 0,0:24:43.23,0:24:48.00,Dialogue,,0,0,0,,Not to mention, there's no bullet that can shoot through Conan{\rHonorifics - Dialogue}-kun{\r}'s heart right now.
+Dialogue: 0,0:24:48.00,0:24:51.13,Dialogue,,0,0,0,,Or your heart either, of course!
+Dialogue: 0,0:24:51.13,0:24:52.38,Dialogue,,0,0,0,,Huh?
+Dialogue: 0,0:24:52.38,0:24:55.93,Dialogue,,0,0,0,,Bye! My bike's over this way.
+Dialogue: 0,0:24:55.93,0:24:57.22,Dialogue,,0,0,0,,See you later, Conan{\rHonorifics - Dialogue}-kun{\r}!
+Dialogue: 0,0:24:57.22,0:25:00.83,Dialogue,,0,0,0,,Unbelievable. Doesn't she realise what almost happened?
+Dialogue: 0,0:25:00.83,0:25:04.53,Dialogue,,0,0,0,,I wonder why she said no bullet can shoot through my heart?
+Dialogue: 0,0:25:04.64,0:25:08.36,Dialogue,,0,0,0,,Oh, maybe because you can flick them away with karate, Ran?
+Dialogue: 0,0:25:08.36,0:25:10.61,Dialogue,,0,0,0,,Of course I can't!
+Dialogue: 0,0:25:10.96,0:25:13.82,Thoughts,,0,0,0,,{\be10}No, Ran might just be able to...
+Dialogue: 0,0:25:18.93,0:25:23.53,Dialogue,,0,0,0,,What's wrong with you guys? I thought you'd be happier, with fireworks and all.
+Dialogue: 0,0:25:23.53,0:25:26.67,Dialogue,,0,0,0,,Isn't it obvious? We watched someone being murdered!
+Dialogue: 0,0:25:26.67,0:25:28.59,Dialogue,,0,0,0,,Well, I guess...
+Dialogue: 0,0:25:28.59,0:25:30.02,Dialogue,,0,0,0,,And that's not all!
+Dialogue: 0,0:25:30.02,0:25:30.42,Dialogue,,0,0,0,,Huh?
+Dialogue: 0,0:25:30.42,0:25:33.42,Dialogue,,0,0,0,,They took all the photos we took!
+Dialogue: 0,0:25:33.42,0:25:35.15,Dialogue,,0,0,0,,And all of our cameras!
+Dialogue: 0,0:25:35.15,0:25:38.92,Dialogue,,0,0,0,,They're just holding onto them. They'll give them back soon.
+Dialogue: 0,0:25:38.92,0:25:41.60,Dialogue,,0,0,0,,They might have something\Nuseful to the case, you never know.
+Dialogue: 0,0:25:43.02,0:25:45.73,Dialogue,,0,0,0,,Oh, it went out... {wtf, shameless ayumi pantyshot}
+Dialogue: 0,0:25:46.37,0:25:47.58,Dialogue,,0,0,0,,Oh, mine did too.
+Dialogue: 0,0:25:47.58,0:25:48.56,Dialogue,,0,0,0,,Mine too.
+Dialogue: 0,0:25:55.45,0:25:57.34,Dialogue,,0,0,0,,And that's the end of that.
+Dialogue: 0,0:25:57.34,0:26:00.72,Dialogue,,0,0,0,,How about it, was that a nice diversion?
+Dialogue: 0,0:26:00.72,0:26:02.32,Dialogue,,0,0,0,,It wasn't enough!
+Dialogue: 0,0:26:02.32,0:26:03.92,Dialogue,,0,0,0,,It felt like something was missing...
+Dialogue: 0,0:26:03.92,0:26:05.96,Dialogue,,0,0,0,,You should've bought some more fireworks!
+Dialogue: 0,0:26:07.36,0:26:11.84,Dialogue,,0,0,0,,I thought you'd say that, so I got this ready!
+Dialogue: 0,0:26:14.76,0:26:16.30,Dialogue,,0,0,0,,A Ball-Shooting Belt?
+Dialogue: 0,0:26:16.30,0:26:19.55,Dialogue,,0,0,0,,This one's upgraded!
+Dialogue: 0,0:26:21.50,0:26:24.14,Dialogue,,0,0,0,,Kick it as high as you can!
+Dialogue: 0,0:26:24.14,0:26:26.64,Dialogue,,0,0,0,,I know, just hurry up and do it.
+Dialogue: 0,0:26:26.64,0:26:29.97,Dialogue,,0,0,0,,Okay, let's set the timer...
+Dialogue: 0,0:26:29.97,0:26:31.36,Dialogue,,0,0,0,,Here goes!
+Dialogue: 0,0:26:36.03,0:26:37.99,Dialogue,,0,0,0,,Wow! It's really high!
+Dialogue: 0,0:26:37.99,0:26:39.86,Dialogue,,0,0,0,,Okay! That'll do!
+Dialogue: 0,0:26:48.16,0:26:51.17,Dialogue,,0,0,0,,Wow, that's great! Good work, doc!{uo, sugee! hakase yaru na!}
+Dialogue: 0,0:26:51.17,0:26:52.50,Dialogue,,0,0,0,,It's wonderful!{o-migoto desu!}
+Dialogue: 0,0:26:52.50,0:26:54.92,Dialogue,,0,0,0,,I call them Firework Balls!
+Dialogue: 0,0:26:54.92,0:26:57.92,Dialogue,,0,0,0,,The neighbours are going to complain about this, you know?
+Dialogue: 0,0:26:57.92,0:27:01.88,Dialogue,,0,0,0,,That might be a problem! What now, Ai{\rHonorifics - Dialogue}-kun{\r}?!
+Dialogue: 0,0:27:02.08,0:27:02.93,Dialogue,,0,0,0,,Geez...
+Dialogue: 0,0:27:02.93,0:27:05.42,Dialogue,,0,0,0,,Must be great to be Conan{\rHonorifics - Dialogue}-kun{\r}.
+Dialogue: 0,0:27:05.42,0:27:06.79,Dialogue,,0,0,0,,You're so mean, doc!
+Dialogue: 0,0:27:06.79,0:27:09.46,Dialogue,,0,0,0,,Don't you have anything for the rest of us?
+Dialogue: 0,0:27:10.07,0:27:12.10,Dialogue,,0,0,0,,Well, you've got me there...
+Dialogue: 0,0:27:22.78,0:27:24.08,Dialogue,,0,0,0,,Morning already?
+Dialogue: 0,0:27:25.01,0:27:31.00,Thoughts,,0,0,0,,{\be10}That Hitoshi Moriyama... I was sure I'd seen him in something like a newspaper article!
+Dialogue: 0,0:27:31.00,0:27:33.84,Thoughts,,0,0,0,,{\be10}Maybe I confused him with someone else.
+Dialogue: 0,0:27:34.36,0:27:41.54,Dialogue,,0,0,0,,This is a list from FBI HQ, of the people Hunter is most likely to contact.
+Dialogue: 0,0:27:41.54,0:27:42.54,Dialogue,,0,0,0,,Right...
+Dialogue: 0,0:27:42.54,0:27:51.85,Dialogue,,0,0,0,,We've split into three teams to question them, but could you go over what the FBI knows about them once again?
+Dialogue: 0,0:27:51.85,0:27:53.71,Dialogue,,0,0,0,,Of course.
+Dialogue: 0,0:27:53.71,0:27:55.27,Dialogue,,0,0,0,,First, Scott Green.
+Dialogue: 0,0:27:56.05,0:28:02.95,Dialogue,,0,0,0,,A former Navy chief petty officer who now runs a bicycle store in Machida to enjoy himself while earning money.
+Dialogue: 0,0:28:02.95,0:28:09.10,Dialogue,,0,0,0,,When in the SEALs, he taught at the sniper school, and Hunter was one of his students.
+Dialogue: 0,0:28:09.10,0:28:10.96,Dialogue,,0,0,0,,Next, Kevin Yoshino.
+Dialogue: 0,0:28:10.96,0:28:17.17,Dialogue,,0,0,0,,A former Marine Corps staff sergeant who now runs a military shop in Fussa. {***}
+Dialogue: 0,0:28:17.17,0:28:22.63,Dialogue,,0,0,0,,He uses his special connections to buy up former US military equipment for his shop.
+Dialogue: 0,0:28:23.11,0:28:25.72,Dialogue,,0,0,0,,And finally, Mark Spencer.
+Dialogue: 0,0:28:26.24,0:28:29.97,Dialogue,,0,0,0,,He wasn't on the list you read out yesterday.
+Dialogue: 0,0:28:29.97,0:28:31.27,Dialogue,,0,0,0,,Right.
+Dialogue: 0,0:28:31.27,0:28:40.65,Dialogue,,0,0,0,,Hunter has no direct connection to him, but he's an ex-admiral{shireikan***} who former US military soldiers in Japan often contact for advice.
+Dialogue: 0,0:28:40.65,0:28:45.49,Dialogue,,0,0,0,,Since Hunter doesn't have a wide circle of friends, it's possible that he might be in contact with him.
+Dialogue: 0,0:28:45.49,0:28:47.24,Dialogue,,0,0,0,,I see...
+Dialogue: 0,0:28:47.24,0:28:54.62,Dialogue,,0,0,0,,He must've obtained his rifle and equipment from somewhere, so one of them might be helping him.
+Dialogue: 0,0:28:54.62,0:28:55.42,Dialogue,,0,0,0,,Right.
+Dialogue: 0,0:28:56.40,0:29:00.24,Dialogue,,0,0,0,,Tim—\hI mean, Hunter{\rHonorifics - Dialogue}-san{\r}, wanted for sniping someone?!
+Dialogue: 0,0:29:00.24,0:29:03.16,Dialogue,,0,0,0,,Well, we can't be completely sure yet...
+Dialogue: 0,0:29:03.16,0:29:08.18,Dialogue,,0,0,0,,Apparently Hunter{\rHonorifics - Dialogue}-san{\r} saved your life during the war in the Middle East?
+Dialogue: 0,0:29:08.18,0:29:11.92,Dialogue,,0,0,0,,Yeah. I'd be dead if he hadn't been there.
+Dialogue: 0,0:29:11.92,0:29:15.44,Dialogue,,0,0,0,,What if your rescuer came asking for your aid?
+Dialogue: 0,0:29:15.44,0:29:22.19,Dialogue,,0,0,0,,For example, for an MK11, the gun used in the sniping?
+Dialogue: 0,0:29:22.19,0:29:25.78,Dialogue,,0,0,0,,I don't even have one to give him!\NYou think that's the real thing?
+Dialogue: 0,0:29:26.22,0:29:29.28,Dialogue,,0,0,0,,You can buy it if you really want to check.
+Dialogue: 0,0:29:29.83,0:29:31.54,Dialogue,,0,0,0,,You met Hunter?
+Dialogue: 0,0:29:31.54,0:29:34.65,Dialogue,,0,0,0,,Yeah, he said he'd just arrived in Japan.
+Dialogue: 0,0:29:34.65,0:29:35.92,Dialogue,,0,0,0,,Where is he now?
+Dialogue: 0,0:29:35.92,0:29:39.25,Dialogue,,0,0,0,,Sorry, but I wouldn't know.
+Dialogue: 0,0:29:39.25,0:29:42.38,Dialogue,,0,0,0,,The sniper fled by bike.
+Dialogue: 0,0:29:42.38,0:29:45.26,Dialogue,,0,0,0,,It was a recently repaired second-hand bike with a fake number plate.
+Dialogue: 0,0:29:45.26,0:29:48.01,Dialogue,,0,0,0,,You trying to say I helped him?
+Dialogue: 0,0:29:48.01,0:29:51.76,Dialogue,,0,0,0,,Sorry to disappoint you, but I only sell {\i1}new{\i0} bikes.
+Dialogue: 0,0:29:52.61,0:29:56.39,Dialogue,,0,0,0,,How do you feel about Hunter{\rHonorifics - Dialogue}-san{\r}'s violation of the Rules of Engagement?
+Dialogue: 0,0:29:58.31,0:29:59.65,Dialogue,,0,0,0,,I can't reject the facts.
+Dialogue: 0,0:30:00.79,0:30:08.62,Dialogue,,0,0,0,,Overeager to protect his comrades, he misjudged and shot a defenceless civilian.
+Dialogue: 0,0:30:09.16,0:30:14.45,Dialogue,,0,0,0,,You're wrong! Hunter{\rHonorifics - Dialogue}-san{\r} would never have done that! He was framed!
+Dialogue: 0,0:30:14.45,0:30:16.50,Dialogue,,0,0,0,,Framed?
+Dialogue: 0,0:30:17.04,0:30:21.29,Dialogue,,0,0,0,,That Waltz guy was jealous of Hunter{\rHonorifics - Dialogue}-san{\r}, his replacement.
+Dialogue: 0,0:30:21.76,0:30:24.17,Dialogue,,0,0,0,,So Jack Waltz was a sniper too?
+Dialogue: 0,0:30:24.17,0:30:28.32,Dialogue,,0,0,0,,So he stole away Hunter{\rHonorifics - Dialogue}-san{\r}'s Silver Star...
+Dialogue: 0,0:30:29.30,0:30:31.09,Dialogue,,0,0,0,,...and even... {ORDERED FOR HIM TO BE SHOT! ...but that would be a spoiler}
+Dialogue: 0,0:30:32.81,0:30:36.19,Dialogue,,0,0,0,,You think there was no violation, then?
+Dialogue: 0,0:30:36.19,0:30:38.48,Dialogue,,0,0,0,,Yeah, of course.
+Dialogue: 0,0:30:38.48,0:30:43.69,Dialogue,,0,0,0,,Hunter{\rHonorifics - Dialogue}-san{\r} was a hero, he saved the lives of lots of soldiers out there...
+Dialogue: 0,0:30:44.32,0:30:46.91,Dialogue,,0,0,0,,And if he {\i1}did{\i0} come and ask for my help...
+Dialogue: 0,0:30:46.91,0:30:49.20,Dialogue,,0,0,0,,I'd gladly help him.
+Dialogue: 0,0:30:50.24,0:30:51.70,Dialogue,,0,0,0,,I wouldn't know.
+Dialogue: 0,0:30:51.70,0:30:57.04,Dialogue,,0,0,0,,I've never met Hunter, and\Nhaven't heard anything about him.
+Dialogue: 0,0:30:57.04,0:30:58.90,Dialogue,,0,0,0,,Is that right...
+Dialogue: 0,0:30:58.90,0:31:03.95,Dialogue,,0,0,0,,Then how do you feel about Hunter{\rHonorifics - Dialogue}-san{\r}'s violation of the Rules of Engagement?
+Dialogue: 0,0:31:03.95,0:31:06.96,Dialogue,,0,0,0,,It doesn't matter whether it happened or not.
+Dialogue: 0,0:31:06.96,0:31:14.35,Dialogue,,0,0,0,,If Hunter was behind this sniping, then I can never forgive him, on my pride as a fellow former Marine.
+Dialogue: 0,0:31:15.50,0:31:17.73,Dialogue,,0,0,0,,Shoot him dead the moment you find him.
+Dialogue: 0,0:31:17.73,0:31:19.98,Dialogue,,0,0,0,,S-Shoot him...?
+Dialogue: 0,0:31:20.58,0:31:27.82,Dialogue,,0,0,0,,Your police snipers don't have a hope of beating him. Why don't I lend you my chauffeur?
+Dialogue: 0,0:31:27.82,0:31:29.28,Dialogue,,0,0,0,,Carlos!
+Dialogue: 0,0:31:29.28,0:31:29.94,Dialogue,,0,0,0,,Sir.
+Dialogue: 0,0:31:31.11,0:31:39.12,Dialogue,,0,0,0,,Carlos Lee. A former Marine sniper.\NHe picked up 36 kills in the Middle East.
+Dialogue: 0,0:31:39.12,0:31:43.63,Dialogue,,0,0,0,,That's just counting confirmed kills. If you include the unconfirmed ones, it's 78 kills in all.
+Dialogue: 0,0:31:43.63,0:31:45.88,Dialogue,,0,0,0,,Oh, right.
+Dialogue: 0,0:31:45.88,0:31:50.38,Dialogue,,0,0,0,,Well, even so, it doesn't match up to Hunter's 79 kills.
+Dialogue: 0,0:31:50.99,0:31:54.39,Dialogue,,0,0,0,,But only a sniper can beat a sniper.
+Dialogue: 0,0:31:54.39,0:31:57.05,Dialogue,,0,0,0,,So how about it, do you want him?
+Dialogue: 0,0:32:08.13,0:32:11.74,Thoughts,,0,0,0,,{\be10}If he wasn't in any of the newspapers, then he must've been in a girls' magazine.
+Dialogue: 0,0:32:11.74,0:32:15.16,Thoughts,,0,0,0,,{\be10}But this is going to be a big job...
+Dialogue: 0,0:32:15.16,0:32:17.88,Dialogue,,0,0,0,,Okay, let's spread out the map on the table.
+Dialogue: 0,0:32:17.88,0:32:19.16,Dialogue,,0,0,0,,Right!
+Dialogue: 0,0:32:19.16,0:32:21.87,Dialogue,,0,0,0,,First, we should decide how\Nbig a range we want to include.
+Dialogue: 0,0:32:21.87,0:32:25.25,Dialogue,,0,0,0,,Oh, I see you're jumping straight into your homework!
+Dialogue: 0,0:32:25.25,0:32:26.46,Dialogue,,0,0,0,,Of course!
+Dialogue: 0,0:32:26.46,0:32:30.97,Dialogue,,0,0,0,,That's wonderful! And wonderful kids deserve a reward.
+Dialogue: 0,0:32:30.97,0:32:32.48,Dialogue,,0,0,0,,What is it? What is it?
+Dialogue: 0,0:32:32.48,0:32:34.72,Dialogue,,0,0,0,,You're giving us Firework Belts too?!
+Dialogue: 0,0:32:34.72,0:32:41.14,Dialogue,,0,0,0,,Well, no, they'll annoy the neighbours.\NSo I've got something more practical for you.
+Dialogue: 0,0:32:41.14,0:32:43.45,Dialogue,,0,0,0,,Huh? Detective Badges?
+Dialogue: 0,0:32:43.45,0:32:44.65,Dialogue,,0,0,0,,They've been upgraded.
+Dialogue: 0,0:32:44.65,0:32:48.72,Dialogue,,0,0,0,,I made some improvements, and now they've got better reception.
+Dialogue: 0,0:32:48.72,0:32:52.37,Dialogue,,0,0,0,,It seems {\i1}someone{\i0} called them 'pieces of junk', and really hurt his feelings.
+Dialogue: 0,0:32:52.37,0:32:54.41,Dialogue,,0,0,0,,What, you could hear that?
+Dialogue: 0,0:32:55.35,0:32:57.41,Dialogue,,0,0,0,,They look the same as before...
+Dialogue: 0,0:32:57.41,0:33:00.35,Dialogue,,0,0,0,,The reception's the only change?
+Dialogue: 0,0:33:00.35,0:33:02.11,Dialogue,,0,0,0,,That's so boring...
+Dialogue: 0,0:33:02.66,0:33:04.40,Dialogue,,0,0,0,,That's not all that's different!
+Dialogue: 0,0:33:04.40,0:33:07.88,Dialogue,,0,0,0,,If you change the setting, and then press the button to talk...
+Dialogue: 0,0:33:07.88,0:33:09.86,Dialogue,,0,0,0,,Ah! They lit up!
+Dialogue: 0,0:33:09.86,0:33:11.63,Dialogue,,0,0,0,,LED lamps, right?
+Dialogue: 0,0:33:11.63,0:33:13.53,Dialogue,,0,0,0,,Wow, they're cooler than before!
+Dialogue: 0,0:33:13.53,0:33:14.20,Dialogue,,0,0,0,,Yeah!
+Dialogue: 0,0:33:14.20,0:33:16.51,Dialogue,,0,0,0,,You can even choose the colour,\Nand which badges to light up!
+Dialogue: 0,0:33:16.51,0:33:18.04,Dialogue,,0,0,0,,Wow! That's great!
+Dialogue: 0,0:33:18.04,0:33:21.20,Dialogue,,0,0,0,,But they're making a weird noise, aren't they?
+Dialogue: 0,0:33:21.52,0:33:23.05,Dialogue,,0,0,0,,Huh?!
+Dialogue: 0,0:33:23.05,0:33:24.39,Dialogue,,0,0,0,,Ah!
+Dialogue: 0,0:33:24.39,0:33:26.12,Dialogue,,0,0,0,,I can't hear a thing...
+Dialogue: 0,0:33:26.12,0:33:28.64,Dialogue,,0,0,0,,What? You can't hear it, doc?
+Dialogue: 0,0:33:28.64,0:33:30.32,Dialogue,,0,0,0,,That's mosquito noise.
+Dialogue: 0,0:33:30.32,0:33:36.20,Dialogue,,0,0,0,,High-frequency noises get harder to hear when you get older, so adults can't hear it.
+Dialogue: 0,0:33:36.20,0:33:40.03,Dialogue,,0,0,0,,I guess it must be an accidental side-effect of the improvements I made...
+Dialogue: 0,0:33:40.03,0:33:42.16,Dialogue,,0,0,0,,I'll fix them later.
+Dialogue: 0,0:33:42.16,0:33:47.31,Dialogue,,0,0,0,,Aren't they're fine like this? Who knows, the mosquito noise might come in handy.
+Dialogue: 0,0:33:47.31,0:33:51.37,Dialogue,,0,0,0,,But I guess this means they're faulty...
+Dialogue: 0,0:33:51.37,0:33:53.13,Dialogue,,0,0,0,,That's so lame!
+Dialogue: 0,0:33:53.13,0:33:56.18,Dialogue,,0,0,0,,And I was just getting excited about them...
+Dialogue: 0,0:33:56.36,0:33:59.66,Dialogue,,0,0,0,,All right! Then how about an exciting quiz!
+Dialogue: 0,0:33:59.66,0:34:00.95,Dialogue,,0,0,0,,What?
+Dialogue: 0,0:34:00.95,0:34:02.05,Dialogue,,0,0,0,,Another one?
+Dialogue: 0,0:34:02.05,0:34:03.52,Dialogue,,0,0,0,,It'll just be another pun...
+Dialogue: 0,0:34:04.14,0:34:06.44,Dialogue,,0,0,0,,It won't hurt to hear him out, right?
+Dialogue: 0,0:34:06.44,0:34:08.36,Dialogue Top,,0,0,0,,R-Right!
+Dialogue: 0,0:34:06.44,0:34:08.58,Dialogue,,0,0,0,,Well, if you say so, Ai{\rHonorifics - Dialogue}-chan{\r}...
+Dialogue: 0,0:34:08.58,0:34:09.92,Dialogue,,0,0,0,,Only for you, Haibara{\rHonorifics - Dialogue}-san{\r}...
+Dialogue: 0,0:34:09.92,0:34:11.19,Dialogue,,0,0,0,,Oh well...
+Dialogue: 0,0:34:11.19,0:34:13.19,Dialogue,,0,0,0,,All right! Then here goes!
+Dialogue: 0,0:34:13.19,0:34:21.20,Dialogue,,0,0,0,,A sniper looking for vinegar challenges you to rock-paper-scissors. What should you play to beat him?
+Dialogue: 0,0:34:21.20,0:34:24.52,Dialogue,,0,0,0,,The English word 'sniper' is a hint!{sniper}
+Dialogue: 0,0:34:24.52,0:34:26.25,Dialogue,,0,0,0,,What's a sniper?
+Dialogue: 0,0:34:26.25,0:34:27.60,Dialogue,,0,0,0,,English, huh...?
+Dialogue: 0,0:34:27.60,0:34:29.18,Dialogue,,0,0,0,,Did you work it out, Conan{\rHonorifics - Dialogue}-kun{\r}?
+Dialogue: 0,0:34:29.18,0:34:33.42,Dialogue,,0,0,0,,Y-Yeah. But you won't like the answer.
+Dialogue: 0,0:34:33.42,0:34:35.59,Dialogue,,0,0,0,,I don't know English!
+Dialogue: 0,0:34:35.59,0:34:36.30,Dialogue,,0,0,0,,We give up.
+Dialogue: 0,0:34:36.30,0:34:37.97,Dialogue,,0,0,0,,What's the answer?!
+Dialogue: 0,0:34:37.97,0:34:40.12,Dialogue,,0,0,0,,The answer is scissors!
+Dialogue: 0,0:34:40.12,0:34:47.92,Thoughts,,0,0,0,,{\be10}su nai kaa?
+Dialogue: 0,0:34:40.12,0:34:47.92,Thoughts,,0,0,0,,{\be10}sunaipaa
+Dialogue: 0,0:34:40.12,0:34:47.92,Dialogue,,0,0,0,,You're up against a sniper{sunaipaa}, who's asking 'Got any vinegar?{su nai kaa?}', so scissors would beat him in rock-paper-scissors!
+Dialogue: 0,0:34:47.92,0:34:49.79,Dialogue,,0,0,0,,'Got any vinegar'?!
+Dialogue: 0,0:34:49.79,0:34:51.64,Dialogue,,0,0,0,,So it's 'kaa' and 'paa'?
+Dialogue: 0,0:34:51.64,0:34:54.98,Thoughts,,0,0,0,,{\be10}paa
+Dialogue: 0,0:34:51.64,0:34:54.98,Dialogue,,0,0,0,,And so you're saying scissors would win because he'd pick paper{paa}?
+Dialogue: 0,0:34:56.03,0:34:57.74,Dialogue,,0,0,0,,'Got any vinegar'?
+Dialogue: 0,0:34:57.74,0:34:59.68,Dialogue,,0,0,0,,Well, since he's a sni—
+Dialogue: 0,0:34:59.68,0:35:00.50,Dialogue,,0,0,0,,Ahem.
+Dialogue: 0,0:35:00.50,0:35:00.99,Dialogue,,0,0,0,,Huh?
+Dialogue: 0,0:35:02.36,0:35:06.25,Dialogue,,0,0,0,,Which of these three sports are snipers best at?
+Dialogue: 0,0:35:06.25,0:35:07.71,Dialogue,,0,0,0,,1. Baseball.
+Dialogue: 0,0:35:07.71,0:35:09.60,Dialogue,,0,0,0,,2. Football.
+Dialogue: 0,0:35:09.60,0:35:11.21,Dialogue,,0,0,0,,3. Golf.
+Dialogue: 0,0:35:12.43,0:35:14.51,Dialogue,,0,0,0,,W-Well, it's...
+Dialogue: 0,0:35:14.51,0:35:16.30,Dialogue,,0,0,0,,The answer is number three.
+Dialogue: 0,0:35:16.30,0:35:20.64,Thoughts,,0,0,0,,{\be10}naisu paa
+Dialogue: 0,0:35:17.26,0:35:20.09,Signs,,0,0,0,,SUNAIPAA
+Dialogue: 0,0:35:18.80,0:35:20.09,Signs,,0,0,0,,NAISU PAA
+Dialogue: 0,0:35:16.30,0:35:20.64,Thoughts,,0,0,0,,{\be10}sunaipaa
+Dialogue: 0,0:35:16.30,0:35:20.64,Dialogue,,0,0,0,,If you rearrange the word 'sniper{sunaipaa}', it makes 'nice par{naisu paa}'.{Nice par is wasei-eigo for Good par}
+Dialogue: 0,0:35:20.64,0:35:22.11,Dialogue,,0,0,0,,Amazing, Ai{\rHonorifics - Dialogue}-chan{\r}!
+Dialogue: 0,0:35:22.11,0:35:23.53,Dialogue,,0,0,0,,That was great, Haibara{\rHonorifics - Dialogue}-san{\r}!
+Dialogue: 0,0:35:23.53,0:35:24.60,Dialogue,,0,0,0,,Nice par?
+Dialogue: 0,0:35:24.60,0:35:26.97,Dialogue,,0,0,0,,I guess Haibara can do the quizzes from now on.
+Dialogue: 0,0:35:26.97,0:35:30.78,Dialogue,,0,0,0,,T-Then all my clever wordplay counts for nothing?!
+Dialogue: 0,0:35:30.78,0:35:34.26,Dialogue,,0,0,0,,Hey, let's forget about him and go do our homework!
+Dialogue: 0,0:35:34.26,0:35:35.11,Dialogue,,0,0,0,,Right.
+Dialogue: 0,0:35:35.11,0:35:36.89,Dialogue,,0,0,0,,Let's do it!
+Dialogue: 0,0:35:37.56,0:35:38.99,Dialogue,,0,0,0,,I should've done my homework...{kyoushuku dai... *** recheck animanga/BD}
+Dialogue: 0,0:35:39.47,0:35:45.13,Dialogue,,0,0,0,,Oh, you lost your phone, right?\NApparently the police were in contact about it.
+Dialogue: 0,0:35:45.13,0:35:47.50,Dialogue,,0,0,0,,Oh, doc...
+Dialogue: 0,0:35:47.50,0:35:50.15,Dialogue,,0,0,0,,Surely {\i1}that's{\i0} more important than a quiz.
+Dialogue: 0,0:35:50.15,0:35:52.50,Dialogue,,0,0,0,,Also, about Masumi Sera...
+Dialogue: 0,0:35:53.38,0:35:56.38,Dialogue,,0,0,0,,Be careful. She's dangerous.
+Dialogue: 0,0:35:57.76,0:35:59.94,Dialogue,,0,0,0,,You're one to talk.
+Dialogue: 0,0:36:01.26,0:36:03.28,Dialogue,,0,0,0,,Huh? Conan{\rHonorifics - Dialogue}-kun{\r}?
+Dialogue: 0,0:36:03.28,0:36:03.83,Dialogue,,0,0,0,,Huh?
+Dialogue: 0,0:36:03.83,0:36:05.83,Dialogue,,0,0,0,,He's going to pick up his lost phone.
+Dialogue: 0,0:36:05.83,0:36:08.02,Dialogue,,0,0,0,,Let's start without him.
+Dialogue: 0,0:36:10.52,0:36:17.40,Radio,,0,0,0,,{\be10\an8}Thank you for your patronage. Beika Library is about to close. Please return any books you are reading to their shelves.{***check animanga/BD for v2}
+Dialogue: 0,0:36:15.88,0:36:19.74,Dialogue,,0,0,0,,How weird... Maybe I really did\Nconfuse him for someone else.
+Dialogue: 0,0:36:19.74,0:36:22.07,Dialogue,,0,0,0,,Oh! Bingo!
+Dialogue: 0,0:36:22.07,0:36:26.08,Dialogue Top,,0,0,0,,'Hitoshi and Nami Yasuhara'
+Dialogue: 0,0:36:22.07,0:36:24.16,Dialogue,,0,0,0,,Hitoshi Yasuhara.
+Dialogue: 0,0:36:24.16,0:36:26.08,Dialogue,,0,0,0,,Huh? Not Moriyama?
+Dialogue: 0,0:36:26.08,0:36:29.87,Dialogue,,0,0,0,,He started a private import service four years ago...
+Dialogue: 0,0:36:29.87,0:36:34.97,Dialogue,,0,0,0,,His wife is a charismatic cooking expert.\NShe runs cookery classes in Honjo, Sumida City...
+Dialogue: 0,0:36:34.97,0:36:36.97,Dialogue,,0,0,0,,Excuse me... We're about to close.
+Dialogue: 0,0:36:36.97,0:36:39.97,Dialogue,,0,0,0,,Oh, right. I'll tidy up in just a moment.
+Dialogue: 0,0:36:39.97,0:36:41.51,Dialogue,,0,0,0,,{missing} Sorry for the trouble.
+Dialogue: 0,0:36:41.51,0:36:46.30,Dialogue,,0,0,0,,'Hitoshi Yasuhara{\rHonorifics - Dialogue}-san{\r} chose to take his wife, Nami{\rHonorifics - Dialogue}-san{\r}'s surname when getting married.'
+Dialogue: 0,0:36:46.30,0:36:50.31,Dialogue,,0,0,0,,I get it! His name changed\Nbecause he took his wife's name!
+Dialogue: 0,0:36:50.88,0:36:55.81,Dialogue,,0,0,0,,We should be chasing after that Organisation, but now we've ended up involved in this tough case...
+Dialogue: 0,0:36:55.81,0:36:57.20,Dialogue,,0,0,0,,Yes.
+Dialogue: 0,0:36:57.36,0:37:01.69,Dialogue,,0,0,0,,Still, we're outclassed. To think we're facing a former SEALs sniper...
+Dialogue: 0,0:37:02.77,0:37:05.95,Dialogue,,0,0,0,,If only Akai{\rHonorifics - Dialogue}-san{\r} was here...
+Dialogue: 0,0:37:05.95,0:37:07.92,Dialogue,,0,0,0,,I'm sorry...
+Dialogue: 0,0:37:07.92,0:37:11.70,Dialogue,,0,0,0,,It's fine. I was thinking the same thing.
+Dialogue: 0,0:37:13.09,0:37:22.52,Flashback,,0,0,0,,{\be10}Shū, there's something I'd like to ask. Who has the best sniping technique —\hpolice shooters or military snipers?
+Dialogue: 0,0:37:22.52,0:37:24.36,Flashback,,0,0,0,,{\be10}It depends on the conditions.
+Dialogue: 0,0:37:24.36,0:37:25.53,Flashback,,0,0,0,,{\be10}Huh?
+Dialogue: 0,0:37:25.81,0:37:34.49,Flashback,,0,0,0,,{\be10}If the range is less than 100 metres, then police shooters. They are trained to be more precise with their shots.
+Dialogue: 0,0:37:34.49,0:37:35.10,Flashback,,0,0,0,,{\be10}Really?
+Dialogue: 0,0:37:35.10,0:37:36.59,Flashback,,0,0,0,,{\be10}Yeah...
+Dialogue: 0,0:37:36.69,0:37:40.61,Flashback,,0,0,0,,{\be10}Police shooters are usually called in when hostages are involved.
+Dialogue: 0,0:37:41.19,0:37:48.62,Flashback,,0,0,0,,{\be10}They need to have extremely accurate aim, to be able to stop the target from moving in an instant.
+Dialogue: 0,0:37:48.62,0:37:56.65,Flashback,,0,0,0,,{\be10}There's only one spot where you can kill someone with a single bullet, and cut off all possible convulsions.
+Dialogue: 0,0:37:56.65,0:37:57.88,Flashback,,0,0,0,,{\be10}The brain stem...
+Dialogue: 0,0:37:57.88,0:37:59.84,Flashback,,0,0,0,,{\be10}Right.
+Dialogue: 0,0:37:59.84,0:38:04.22,Flashback,,0,0,0,,{\be10}If you hit anywhere else, for example, even if you shoot through their heart,
+Dialogue: 0,0:38:04.22,0:38:07.47,Flashback,,0,0,0,,{\be10}targets can keep fighting for anywhere up to ten seconds.
+Dialogue: 0,0:38:07.47,0:38:12.64,Flashback,,0,0,0,,{\be10}And so there's the danger that they'll take their hostages, and even other police officers with them to the grave.
+Dialogue: 0,0:38:12.64,0:38:14.48,Flashback,,0,0,0,,{\be10}But where should you aim?
+Dialogue: 0,0:38:14.99,0:38:23.40,Flashback,,0,0,0,,{\be10}Face the target head on, and aim for the tip of their nose. How about it, think you can do it?
+Dialogue: 0,0:38:25.01,0:38:31.33,Flashback,,0,0,0,,{\be10}Don't worry. As long as I'm around, you'll never have to do something like that.
+Dialogue: 0,0:38:32.60,0:38:34.30,Flashback,,0,0,0,,{\be10}I promise.
+Dialogue: 0,0:38:41.79,0:38:43.09,Dialogue,,0,0,0,,Shū...
+Dialogue: 0,0:38:50.09,0:38:52.34,Dialogue,,0,0,0,,Thank you!
+Dialogue: 0,0:38:52.34,0:38:54.79,Dialogue,,0,0,0,,Be careful not to lose it again, okay?
+Dialogue: 0,0:38:54.79,0:38:56.17,Dialogue,,0,0,0,,Right!
+Dialogue: 0,0:38:59.20,0:39:01.73,Radio,,0,0,0,,{\be10}Conan{\rHonorifics - Radio\be10}-kun{\r\be10}?! What have you been doing?!
+Dialogue: 0,0:39:01.73,0:39:03.36,Dialogue,,0,0,0,,Oh, I lost my phone.
+Dialogue: 0,0:39:03.36,0:39:05.92,Dialogue,,0,0,0,,So that's why you weren't answering...
+Dialogue: 0,0:39:05.92,0:39:08.96,Radio,,0,0,0,,{\be10}Sorry. But did something happen?
+Dialogue: 0,0:39:08.96,0:39:12.37,Dialogue,,0,0,0,,Yeah. I found who I think is Hitoshi Moriyama.
+Dialogue: 0,0:39:12.37,0:39:15.57,Radio,,0,0,0,,{\be10}I'm about to go and meet him to find ou—{out}
+Dialogue: 0,0:39:15.57,0:39:17.12,Dialogue,,0,0,0,,Wait! I'll come too!
+Dialogue: 0,0:39:17.12,0:39:18.76,Dialogue,,0,0,0,,But where are you right now?
+Dialogue: 0,0:39:18.76,0:39:21.64,Dialogue,,0,0,0,,Outside the Azuma Bridge Police Box in Honjo, Sumida City.
+Dialogue: 0,0:39:21.64,0:39:24.96,Dialogue,,0,0,0,,That's a surprise. I'm in Honjo too.
+Dialogue: 0,0:39:24.96,0:39:26.14,Dialogue,,0,0,0,,What? Really?
+Dialogue: 0,0:39:26.14,0:39:26.80,Dialogue,,0,0,0,,Yeah.
+Dialogue: 0,0:39:26.80,0:39:31.80,Dialogue,,0,0,0,,It seems fate wants us to solve this case.
+Dialogue: 0,0:40:01.04,0:40:04.09,Dialogue,,0,0,0,,Yeah. Just turn left.
+Dialogue: 0,0:40:04.21,0:40:05.46,Dialogue,,0,0,0,,You got here quick, Conan{\rHonorifics - Dialogue}-kun{\r}.
+Dialogue: 0,0:40:05.46,0:40:08.16,Dialogue,,0,0,0,,Yeah. Have you spotted any signs of movement?
+Dialogue: 0,0:40:08.16,0:40:10.37,Dialogue,,0,0,0,,Don't worry, nothing yet.
+Dialogue: 0,0:40:10.48,0:40:12.51,Dialogue,,0,0,0,,Okay, ready to go in?
+Dialogue: 0,0:40:12.51,0:40:13.80,Dialogue,,0,0,0,,Yeah.
+Dialogue: 0,0:40:15.01,0:40:18.02,Radio,,0,0,0,,{\be10\an8}A vehicle is about to leave. Please be careful.
+Dialogue: 0,0:40:16.54,0:40:18.02,Dialogue,,0,0,0,,Oh, no!
+Dialogue: 0,0:40:50.33,0:40:53.19,Dialogue,,0,0,0,,Oh, crap! Run, Conan{\rHonorifics - Dialogue}-kun{\r}!
+Dialogue: 0,0:40:57.80,0:40:59.06,Dialogue,,0,0,0,,N-No...
+Dialogue: 0,0:41:19.16,0:41:23.04,Dialogue,,0,0,0,,There's two places that shot could've come from. Which do you think it was?
+Dialogue: 0,0:41:23.04,0:41:25.58,Dialogue,,0,0,0,,I bet it was the higher one. What do you think?
+Dialogue: 0,0:41:25.58,0:41:28.59,Dialogue,,0,0,0,,Yeah. I was thinking it was the taller one too.
+Dialogue: 0,0:41:29.49,0:41:33.51,Dialogue,,0,0,0,,If you connect the bullet holes in the windscreen and Moriyama{\rHonorifics - Dialogue}-san{\r} with a straight line,
+Dialogue: 0,0:41:33.51,0:41:36.52,Dialogue,,0,0,0,,the closer, shorter building looks\Nlike it was the sniping position...
+Dialogue: 0,0:41:36.52,0:41:40.89,Dialogue,,0,0,0,,But Moriyama{\rHonorifics - Dialogue}-san{\r}'s car was still halfway in his underground garage when he was shot.
+Dialogue: 0,0:41:40.89,0:41:47.65,Dialogue,,0,0,0,,Which means you have to add in the angle of the slope to calculate the real angle of the shot.
+Dialogue: 0,0:41:47.86,0:41:52.23,Dialogue,,0,0,0,,And there's only one tall building in line with the shot!
+Dialogue: 0,0:41:54.15,0:41:56.16,Dialogue,,0,0,0,,This is it, right?
+Dialogue: 0,0:41:56.16,0:41:59.16,Dialogue,,0,0,0,,Wait, Conan{\rHonorifics - Dialogue}-kun{\r}! You can't just go in there alone!
+Dialogue: 0,0:41:59.16,0:42:01.01,Dialogue,,0,0,0,,Damn!
+Dialogue: 0,0:42:06.20,0:42:09.58,Dialogue,,0,0,0,,Excuse me! You need to be signed in!{adapted, literally 'Can I please ask for you to listen to me?' ***recheck animanga/BD}
+Dialogue: 0,0:42:09.76,0:42:12.00,Dialogue,,0,0,0,,Damn, he's so reckless!
+Dialogue: 0,0:42:12.00,0:42:15.88,Dialogue,,0,0,0,,And Hunter could still be here too!
+Dialogue: 0,0:42:32.19,0:42:34.24,Thoughts,,0,0,0,,{\be10}A three? Don't tell me...
+Dialogue: 0,0:42:34.24,0:42:35.19,Dialogue,,0,0,0,,Conan{\rHonorifics - Dialogue}-kun{\r}!
+Dialogue: 0,0:42:35.19,0:42:38.25,Dialogue,,0,0,0,,Hey, look at this...
+Dialogue: 0,0:42:39.16,0:42:41.42,Dialogue,,0,0,0,,Then he really {\i1}did{\i0} snipe from here...
+Dialogue: 0,0:42:41.42,0:42:42.47,Dialogue,,0,0,0,,Yeah.
+Dialogue: 0,0:42:49.83,0:42:53.34,Dialogue Top,,0,0,0,,'Police HQ'
+Dialogue: 0,0:42:49.83,0:42:53.34,Dialogue,,0,0,0,,So Moriyama{\rHonorifics - Dialogue}-san{\r} was back in Japan too...
+Dialogue: 0,0:42:53.34,0:42:55.61,Dialogue,,0,0,0,,Yes. We were careless...
+Dialogue: 0,0:42:55.61,0:43:01.74,Dialogue,,0,0,0,,With these two being murdered, I think we can conclude that Hunter is the sniper for sure.
+Dialogue: 0,0:43:01.74,0:43:06.60,Dialogue,,0,0,0,,Right. The bullets were even 7.62 mm calibre, matching Hunter's favourite gun, the MK11.
+Dialogue: 0,0:43:06.60,0:43:12.48,Dialogue,,0,0,0,,Also, the scenes of the snipings themselves tell us that Hunter was behind them.
+Dialogue: 0,0:43:12.48,0:43:13.60,Dialogue,,0,0,0,,What do you mean?
+Dialogue: 0,0:43:13.60,0:43:15.66,Dialogue,,0,0,0,,Akahoshi{\rHonorifics - Dialogue}-kun{\r}, if you would explain...
+Dialogue: 0,0:43:15.66,0:43:16.79,Dialogue,,0,0,0,,Right.
+Dialogue: 0,0:43:17.42,0:43:24.24,Dialogue,,0,0,0,,Fujinami{\rHonorifics - Dialogue}-san{\r} always invited his marks out to visit high places, to make their property viewings into a deluxe show.
+Dialogue: 0,0:43:25.00,0:43:28.75,Dialogue,,0,0,0,,He probably tricked Hunter in the same way.
+Dialogue: 0,0:43:28.75,0:43:34.17,Dialogue,,0,0,0,,You mean that's why he chose to snipe Fujinami{\rHonorifics - Dialogue}-san{\r} during a property viewing?
+Dialogue: 0,0:43:34.17,0:43:35.80,Dialogue,,0,0,0,,Yes.
+Dialogue: 0,0:43:35.80,0:43:41.09,Dialogue,,0,0,0,,According to an estate agent he worked with, Fujinami{\rHonorifics - Dialogue}-san{\r} bought up lots of pre-opening tickets to the Bell Tree Tower
+Dialogue: 0,0:43:41.09,0:43:47.27,Dialogue,,0,0,0,,through a backroom deal, and was showing off properties from that spot almost every day.
+Dialogue: 0,0:43:47.47,0:43:54.61,Dialogue,,0,0,0,,And Moriyama{\rHonorifics - Dialogue}-san{\r} broke off his engagement with Hunter's sister, and married another woman.
+Dialogue: 0,0:43:54.61,0:44:00.20,Dialogue,,0,0,0,,That's probably why he picked the home of his love to be his murder scene.
+Dialogue: 0,0:44:00.24,0:44:06.70,Dialogue,,0,0,0,,Moriyama{\rHonorifics - Dialogue}-san{\r} went to meet his wife at her cookery classes at the same time every day.
+Dialogue: 0,0:44:06.70,0:44:08.79,Dialogue,,0,0,0,,We believe that's what Hunter was aiming for.
+Dialogue: 0,0:44:08.79,0:44:15.88,Dialogue,,0,0,0,,But on the days of both snipings, doors and cameras had been shot through with a gun to let him through.
+Dialogue: 0,0:44:15.88,0:44:18.77,Dialogue,,0,0,0,,He must've visited again and again to check beforehand and gather information.
+Dialogue: 0,0:44:18.77,0:44:24.85,Dialogue,,0,0,0,,His snipings were carefully thought-out and meticulously planned —\hexactly what you'd expect from a SEALs sniper.
+Dialogue: 0,0:44:24.85,0:44:26.00,Dialogue,,0,0,0,,Yes.
+Dialogue: 0,0:44:26.25,0:44:31.31,Dialogue,,0,0,0,,Speaking of careful plans, did he leave a shell and a die at this sniping too?
+Dialogue: 0,0:44:31.31,0:44:36.23,Dialogue,,0,0,0,,Oh, yes. Right at the sniping position. Here's a photo.
+Dialogue: 0,0:44:36.69,0:44:39.29,Dialogue,,0,0,0,,This time, the die shows a three...?
+Dialogue: 0,0:44:39.29,0:44:41.49,Dialogue,,0,0,0,,Last time it was a four, wasn't it?
+Dialogue: 0,0:44:41.49,0:44:45.32,Dialogue,,0,0,0,,Could this be... a countdown?
+Dialogue: 0,0:44:47.00,0:44:47.91,Dialogue,,0,0,0,,I see...
+Dialogue: 0,0:44:47.91,0:44:53.92,Dialogue,,0,0,0,,That means Hunter has four targets in Japan in total.
+Dialogue: 0,0:44:54.62,0:44:59.42,Dialogue,,0,0,0,,He killed Hiroaki Fujinami{\rHonorifics - Dialogue}-san{\r}\Nand Hitoshi Moriyama{\rHonorifics - Dialogue}-san{\r} already,
+Dialogue: 0,0:44:59.42,0:45:07.60,Dialogue,,0,0,0,,and is planning to murder two more people, leaving dice showing the numbers two and one where he snipes them.
+Dialogue: 0,0:45:07.60,0:45:09.44,Dialogue,,0,0,0,,This is terrible...
+Dialogue: 0,0:45:09.44,0:45:12.85,Dialogue,,0,0,0,,If this theory's right, then the other two victims will be...
+Dialogue: 0,0:45:12.85,0:45:18.70,Dialogue,,0,0,0,,Yes. He's sure to go after Jack Waltz{\rHonorifics - Dialogue}-san{\r} and Bill Murphy{\rHonorifics - Dialogue}-san{\r}.
+Dialogue: 0,0:45:18.70,0:45:19.86,Dialogue,,0,0,0,,Speaking of those two...
+Dialogue: 0,0:45:19.86,0:45:26.87,Dialogue,,0,0,0,,The local police forces have told each of them about the snipings, and they've changed their sightseeing schedules.
+Dialogue: 0,0:45:26.87,0:45:33.34,Dialogue,,0,0,0,,Originally, they intended to meet in Tōkyō in two days,
+Dialogue: 0,0:45:33.34,0:45:37.63,Dialogue,,0,0,0,,but now they've both decided to stay in their hotels until the case is dealt with.
+Dialogue: 0,0:45:37.63,0:45:42.97,Dialogue,,0,0,0,,Waltz{\rHonorifics - Dialogue}-san{\r}'s family wanted to head straight back to America immediately,
+Dialogue: 0,0:45:42.97,0:45:51.64,Dialogue,,0,0,0,,but there's a chance that Hunter may have anticipated and planned for that, so they're stuck at their hotel for now.
+Dialogue: 0,0:45:51.64,0:45:54.74,Dialogue,,0,0,0,,That may be the best choice...
+Dialogue: 0,0:45:54.74,0:45:55.77,Dialogue,,0,0,0,,Right...
+Dialogue: 0,0:45:55.77,0:46:00.19,Dialogue,,0,0,0,,With the local police on alert, he won't be able to get to them easily,
+Dialogue: 0,0:46:00.75,0:46:07.20,Dialogue,,0,0,0,,and with strict checks set up around Kyōto and Nikkō,\Nit won't be easy for Hunter to enter either city anymore.
+Dialogue: 0,0:46:07.20,0:46:10.45,Dialogue,,0,0,0,,Still, that doesn't give us leave to sit idly by.
+Dialogue: 0,0:46:10.98,0:46:16.89,Dialogue,,0,0,0,,It's likely that Hunter is still in Tōkyō! We have to find him, no matter what!
+Dialogue: 0,0:46:16.89,0:46:18.21,Dialogue,,0,0,0,,Right!
+Dialogue: 0,0:47:21.94,0:47:24.63,Dialogue,,0,0,0,,What is it, Conan{\rHonorifics - Dialogue}-kun{\r}?
+Dialogue: 0,0:47:25.13,0:47:27.25,Dialogue,,0,0,0,,Yeah. Right...
+Dialogue: 0,0:47:27.25,0:47:30.16,Dialogue,,0,0,0,,What?! Hunter was shot dead?!
+Dialogue: 0,0:47:30.16,0:47:35.16,Dialogue,,0,0,0,,They still haven't confirmed his identity, but I doubt it could be anyone else.
+Dialogue: 0,0:47:35.16,0:47:39.92,Dialogue,,0,0,0,,Right. I'll let you know when I know more.
+Dialogue: 0,0:47:30.16,0:47:35.16,Radio,,0,0,0,,{\be10}Early this morning, an American man was shot dead in an abandoned building in Azuma Bridge first district{***CHECK HANDLING BEFORE RELEASE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!}, Sumida City, Tōkyō.{\an8}
+Dialogue: 0,0:47:35.16,0:47:39.92,Radio,,0,0,0,,{\be10}He is believed to be Timothy Hunter. {\an8}
+Dialogue: 0,0:47:40.38,0:47:48.61,Dialogue,,0,0,0,,We found a diary in Hunter's hideout, and after translating it, we were shocked by what he had written.
+Dialogue: 0,0:47:48.61,0:47:50.43,Dialogue,,0,0,0,,Here's a photo of it.
+Dialogue: 0,0:47:50.43,0:47:54.93,Dialogue,,0,0,0,,'August 3rd. He is challenging me, stealing my prey again.'
+Dialogue: 0,0:47:54.93,0:47:58.19,Dialogue,,0,0,0,,'He obviously wants a piece of me.'
+Dialogue: 0,0:47:58.19,0:48:03.89,Dialogue,,0,0,0,,'I have to find a way to kill him {in}and get the last two targets myself.'
+Dialogue: 0,0:48:04.00,0:48:10.82,Dialogue,,0,0,0,,From this, we can understand that someone else killed Fujinami{\rHonorifics - Dialogue}-san{\r} and Moriyama{\rHonorifics - Dialogue}-san{\r} before Hunter had a chance to.
+Dialogue: 0,0:48:10.82,0:48:16.83,Dialogue,,0,0,0,,Then, the real sniper challenged Hunter to a direct contest, and won...
+Dialogue: 0,0:48:17.43,0:48:22.26,Dialogue,,0,0,0,,If so, then that means the man\Nwe saw wasn't Hunter either...
+Dialogue: 0,0:48:22.26,0:48:28.09,Dialogue,,0,0,0,,We believe his sniper shot from a floating platform in Sumida River facing the hideout,
+Dialogue: 0,0:48:28.09,0:48:33.13,Dialogue,,0,0,0,,and found a shell and a die showing the number two there.
+Dialogue: 0,0:48:34.32,0:48:36.64,Dialogue,,0,0,0,,One thing was different this time.
+Dialogue: 0,0:48:36.64,0:48:41.89,Dialogue,,0,0,0,,Despite having the closest range of any of the snipings at only 150 metres,
+Dialogue: 0,0:48:41.89,0:48:46.83,Dialogue,,0,0,0,,there was a bullet embedded into Hunter's door which we believe to be a missed shot.
+Dialogue: 0,0:48:46.83,0:48:50.61,Dialogue,,0,0,0,,There was also a bullet mark on the floating platform which we think was a missed shot,
+Dialogue: 0,0:48:50.61,0:48:53.63,Dialogue,,0,0,0,,and forensics are searching the area for anything else.
+Dialogue: 0,0:48:53.63,0:48:58.22,Dialogue,,0,0,0,,We told the media not to mention\Nthe shells and the dice, right?
+Dialogue: 0,0:48:58.93,0:49:09.25,Dialogue,,0,0,0,,And so to find them at this sniping position means that all three snipings, including Hunter's, were likely by the same man.
+Dialogue: 0,0:49:09.25,0:49:15.26,Dialogue,,0,0,0,,And there was no shell or die at the first sniping position in Seattle to begin with...
+Dialogue: 0,0:49:15.26,0:49:20.20,Dialogue,,0,0,0,,Perhaps Hunter was responsible only for the sniping of Mr Brian Woods?
+Dialogue: 0,0:49:20.20,0:49:23.77,Dialogue,,0,0,0,,Right. That would explain it.
+Dialogue: 0,0:49:23.77,0:49:29.82,Dialogue,,0,0,0,,And if that explanation is right, we need to pay attention to the numbers on the dice.
+Dialogue: 0,0:49:29.82,0:49:34.65,Dialogue,,0,0,0,,Four, three, two, and then... Next would be one?
+Dialogue: 0,0:49:34.65,0:49:36.20,Dialogue,,0,0,0,,Then there's going to be another sniping?!
+Dialogue: 0,0:49:36.20,0:49:40.40,Dialogue,,0,0,0,,Yes. But we have no way to stop it.
+Dialogue: 0,0:49:40.40,0:49:41.45,Dialogue,,0,0,0,,I see...
+Dialogue: 0,0:49:41.45,0:49:50.84,Dialogue,,0,0,0,,The reasons we expected Jack Waltz{\rHonorifics - Dialogue}-san{\r} and Bill Murphy{\rHonorifics - Dialogue}-san{\r} to be targeted no longer apply.
+Dialogue: 0,0:49:50.84,0:49:57.30,Dialogue,,0,0,0,,Yes. And now we have absolutely no idea who will be the next target.
+Dialogue: 0,0:49:57.76,0:50:00.32,Dialogue,,0,0,0,,The worst possible development...
+Dialogue: 0,0:50:03.93,0:50:11.33,Radio,,0,0,0,,{\be10}Early this morning, a third sniping occurred in an abandoned building in Azuma Bridge first district{***CHECK HANDLING BEFORE RELEASE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!}, Sumida City, Tōkyō.
+Dialogue: 0,0:50:11.33,0:50:16.32,Radio,,0,0,0,,{\be10}The victim is thought to be Timothy Hunter{\rHonorifics - Radio\be10}-san{\r\be10}, 37,
+Dialogue: 0,0:50:16.32,0:50:24.45,Radio,,0,0,0,,{\be10\an8}an American and former US SEALs sniper who the police believed to be behind the recent sniping spree.
+Dialogue: 0,0:50:24.45,0:50:33.42,Radio,,0,0,0,,{\be10}The police haven't given out any details yet, but shouldn't we consider this sniping to be by the same sniper as the last two?
+Dialogue: 0,0:50:33.42,0:50:35.23,Radio,,0,0,0,,{\be10}Huh? But that means...
+Dialogue: 0,0:50:35.23,0:50:39.84,Radio,,0,0,0,,{\be10}That this won't be the end of the sniping spree.\NAnd we don't know who'll be the sniper's next target.
+Dialogue: 0,0:50:40.69,0:50:43.20,Radio,,0,0,0,,{\be10}What?! Then it's an utterly random killing spree?!
+Dialogue: 0,0:50:43.20,0:50:50.32,Radio,,0,0,0,,{\be10}Oh, I wouldn't go quite that far. But if they don't catch the sniper soon, people will be scared to go outside.
+Dialogue: 0,0:50:47.97,0:50:50.83,Dialogue Top,,0,0,0,,Did you hear? It's a random killing spree! Scary!
+Dialogue: 0,0:50:50.83,0:50:53.60,Dialogue,,0,0,0,,There's tons of helicopters flying around Sumida River!
+Dialogue: 0,0:50:53.60,0:50:55.45,Dialogue,,0,0,0,,Is it dangerous to be in Shitamachi?!
+Dialogue: 0,0:50:55.45,0:50:57.90,Dialogue,,0,0,0,,No, I heard Shibuya was next.
+Dialogue: 0,0:50:57.90,0:51:00.07,Dialogue,,0,0,0,,Really?! I better take the underground...
+Dialogue: 0,0:51:00.77,0:51:03.56,Dialogue,,0,0,0,,That's right, I heard Harajuku's dangerous!
+Dialogue: 0,0:51:03.56,0:51:07.08,Dialogue,,0,0,0,,It's all fake, don't let this rubbish fool you! Idiots!
+Dialogue: 0,0:51:07.08,0:51:09.79,Dialogue,,0,0,0,,Not a soul in Takeshita Street! What a sight!
+Dialogue: 0,0:51:09.79,0:51:11.08,Dialogue,,0,0,0,,There's never been anything like this before, has there?
+Dialogue: 0,0:51:11.08,0:51:15.09,Dialogue,,0,0,0,,Asakusa's gotta be the key. Apparently children are banned from going outside there.
+Dialogue: 0,0:51:15.09,0:51:19.09,Dialogue,,0,0,0,,You an idiot? All the previous victims were adults!
+Dialogue: 0,0:51:19.09,0:51:23.60,Dialogue,,0,0,0,,There ain't even any old folks visiting the temples... What's going on?
+Dialogue: 0,0:51:23.60,0:51:27.60,Dialogue,,0,0,0,,The Bell Tree Tower was where the first one took place, and it's still being repaired, right?
+Dialogue: 0,0:51:27.60,0:51:32.53,Dialogue,,0,0,0,,By the way, apparently you could see the Bell Tree from where the other snipings happened!
+Dialogue: 0,0:51:32.53,0:51:34.38,Dialogue,,0,0,0,,You could see the Bell Tree, that's right!
+Dialogue: 0,0:51:34.38,0:51:36.11,Dialogue,,0,0,0,,Does that mean the Bell Tree's the key to this case?!
+Dialogue: 0,0:51:36.81,0:51:40.11,Dialogue,,0,0,0,,That means it doesn't matter how far you are, if you can still see the Bell Tree!
+Dialogue: 0,0:51:40.11,0:51:44.12,Dialogue,,0,0,0,,Umbrellas! You can't be seen from above with an umbrella, so you'll be safe!
+Dialogue: 0,0:51:55.69,0:51:57.63,Dialogue,,0,0,0,,That was awesome!{chou ukeru!}
+Dialogue: 0,0:52:01.05,0:52:05.90,Radio,,0,0,0,,{\be10}In all, five people were wounded, several with severe injuries. And that ends our report from the scene at Kinshi Town.
+Dialogue: 0,0:52:06.23,0:52:09.23,Dialogue,,0,0,0,,Looks like all of Tōkyō's in a panic...
+Dialogue: 0,0:52:09.23,0:52:13.79,Dialogue,,0,0,0,,Word of an 'utterly random killing spree' spreads quickly...
+Dialogue: 0,0:52:13.79,0:52:19.61,Dialogue,,0,0,0,,Well, it's no surprise. This is the first time there's ever been a sniping spree in Japan.
+Dialogue: 0,0:52:19.61,0:52:20.24,Dialogue,,0,0,0,,Here.
+Dialogue: 0,0:52:20.24,0:52:22.27,Dialogue,,0,0,0,,Thanks, Ran{\rHonorifics - Dialogue}-chan{\r}.
+Dialogue: 0,0:52:22.27,0:52:23.60,Dialogue,,0,0,0,,Thanks for the tea.
+Dialogue: 0,0:52:23.60,0:52:26.87,Dialogue,,0,0,0,,So, any idea who the sniper is?
+Dialogue: 0,0:52:28.08,0:52:29.25,Dialogue,,0,0,0,,Well...
+Dialogue: 0,0:52:29.25,0:52:34.30,Dialogue,,0,0,0,,To be honest, Hunter's death\Nthrew our investigation into chaos.
+Dialogue: 0,0:52:34.30,0:52:38.66,Dialogue,,0,0,0,,So we came to ask if you had any ideas, Mouri{\rHonorifics - Dialogue}-san{\r}...
+Dialogue: 0,0:52:38.66,0:52:40.17,Dialogue,,0,0,0,,I see...
+Dialogue: 0,0:52:40.17,0:52:43.89,Thoughts,,0,0,0,,{\be10}Come on, asking that old man ain't gonna help you...
+Dialogue: 0,0:52:42.65,0:52:43.89,Dialogue Top,,0,0,0,,Well, let's see...
+Dialogue: 0,0:52:43.89,0:52:50.14,Dialogue,,0,0,0,,First, we can be sure that the sniper was connected with Hunter somehow.
+Dialogue: 0,0:52:50.14,0:52:51.31,Dialogue,,0,0,0,,Right.
+Dialogue: 0,0:52:51.31,0:52:56.15,Dialogue,,0,0,0,,And the only people in Japan that\Nknew Hunter were Scott Green,
+Dialogue: 0,0:52:56.15,0:53:00.20,Dialogue,,0,0,0,,his former teacher at sniping school, and originally a SEALs sniper himself...
+Dialogue: 0,0:53:00.20,0:53:03.40,Dialogue,,0,0,0,,...and the ex-Marine, Kevin Yoshino.
+Dialogue: 0,0:53:03.40,0:53:07.31,Dialogue,,0,0,0,,To tell you the truth, both of them vanished last night...
+Dialogue: 0,0:53:07.31,0:53:08.36,Dialogue,,0,0,0,,What?
+Dialogue: 0,0:53:08.36,0:53:12.58,Dialogue,,0,0,0,,But neither of them had a motive for murdering Hunter.
+Dialogue: 0,0:53:12.58,0:53:15.21,Dialogue,,0,0,0,,Then what about his murder...?
+Dialogue: 0,0:53:15.21,0:53:19.93,Dialogue,,0,0,0,,We suspect it's a third party who we haven't found yet.
+Dialogue: 0,0:53:19.93,0:53:24.22,Dialogue,,0,0,0,,No, there's one person you're forgetting!
+Dialogue: 0,0:53:24.22,0:53:29.60,Dialogue,,0,0,0,,The former admiral of Yokosuka Base, the retired Rear Admiral, Mark Spencer...
+Dialogue: 0,0:53:29.60,0:53:29.60,Dialogue,,0,0,0,,What?
+Dialogue: 0,0:53:30.19,0:53:30.91,Dialogue,,0,0,0,,But—
+Dialogue: 0,0:53:30.91,0:53:37.02,Dialogue,,0,0,0,,His chauffeur. The ex-Marine sniper, Carlos Lee!
+Dialogue: 0,0:53:37.59,0:53:41.12,Dialogue,,0,0,0,,But neither Spencer{\rHonorifics - Dialogue}-san{\r} nor Lee{\rHonorifics - Dialogue}-san{\r}\Nare connected with Hunter...
+Dialogue: 0,0:53:41.12,0:53:42.94,Dialogue,,0,0,0,,Right! To begin with, what motive would he have?
+Dialogue: 0,0:53:42.94,0:53:45.97,Dialogue,,0,0,0,,His motive is his pride as a sniper!
+Dialogue: 0,0:53:45.97,0:53:46.99,Dialogue,,0,0,0,,Pride?
+Dialogue: 0,0:53:46.99,0:53:47.45,Dialogue,,0,0,0,,Yeah.
+Dialogue: 0,0:53:47.45,0:53:52.22,Dialogue,,0,0,0,,Hunter managed 79 kills on the front line. How about Lee?
+Dialogue: 0,0:53:52.22,0:53:57.25,Dialogue,,0,0,0,,U-Uhh... 36 kills in the Middle East.
+Dialogue: 0,0:53:57.25,0:54:01.00,Dialogue,,0,0,0,,That's just the confirmed ones.\NIf you add in the unconfirmed ones...
+Dialogue: 0,0:54:01.00,0:54:02.17,Dialogue,,0,0,0,,U-Uhh, right...
+Dialogue: 0,0:54:02.72,0:54:05.16,Dialogue,,0,0,0,,I think it was 78 kills.
+Dialogue: 0,0:54:05.16,0:54:06.18,Dialogue,,0,0,0,,Right!
+Dialogue: 0,0:54:06.18,0:54:17.56,Dialogue,,0,0,0,,And Lee couldn't bear it. He thought his skills as a sniper were the best. Then, he heard Hunter killed Woods in Seattle.
+Dialogue: 0,0:54:17.56,0:54:23.53,Dialogue,,0,0,0,,Hunter got his 80th kill. So Lee decided to anticipate his next move...
+Dialogue: 0,0:54:24.53,0:54:27.36,Dialogue,,0,0,0,,And killed Fujinami{\rHonorifics - Dialogue}-san{\r} and Moriyama{\rHonorifics - Dialogue}-san{\r}!
+Dialogue: 0,0:54:27.36,0:54:36.79,Dialogue,,0,0,0,,That makes it 80 versus 80. Lee finally managed to catch up with Hunter, so he decided to challenge Hunter to a final contest.
+Dialogue: 0,0:54:37.57,0:54:38.60,Dialogue,,0,0,0,,Bang!
+Dialogue: 0,0:54:38.60,0:54:42.21,Dialogue,,0,0,0,,Got it! We'll look into it!
+Dialogue: 0,0:54:42.21,0:54:44.13,Dialogue,,0,0,0,,R-Right...
+Dialogue: 0,0:54:44.13,0:54:45.69,Dialogue,,0,0,0,,Thank you so much!
+Dialogue: 0,0:54:45.69,0:54:47.52,Dialogue,,0,0,0,,Thank you!
+Dialogue: 0,0:54:49.46,0:54:52.68,Dialogue,,0,0,0,,That was amazing, Dad!
+Dialogue: 0,0:54:55.74,0:54:59.10,Thoughts,,0,0,0,,{\be10}It was an odd deduction, but it makes sense.
+Dialogue: 0,0:54:59.10,0:55:03.82,Thoughts,,0,0,0,,{\be10}Well, whether the old man's theory is right or not, I need more information.
+Dialogue: 0,0:55:05.12,0:55:06.82,Dialogue,,0,0,0,,New information, huh...
+Dialogue: 0,0:55:07.46,0:55:14.67,Dialogue,,0,0,0,,That's right, the size of the bullet retrieved from Hunter's corpse was 5.56 × 45 mm.
+Dialogue: 0,0:55:14.67,0:55:18.33,Dialogue,,0,0,0,,It's lighter than the previous bullets, and didn't go all the way through his head.
+Dialogue: 0,0:55:18.33,0:55:20.94,Dialogue,,0,0,0,,Huh? It was a different type of bullet?
+Dialogue: 0,0:55:20.94,0:55:28.34,Radio,,0,0,0,,{\be10}Yes. The wounds on the corpse were so light that despite having been shot in the head, we immediately knew it was Hunter.
+Dialogue: 0,0:55:28.34,0:55:32.24,Dialogue,,0,0,0,,He used another gun's bullets because of the closer range?
+Dialogue: 0,0:55:32.24,0:55:36.90,Radio,,0,0,0,,{\be10}Right. They'd have less recoil, and be more accurate.
+Dialogue: 0,0:55:37.12,0:55:38.77,Dialogue,,0,0,0,,And yet he missed a shot...
+Dialogue: 0,0:55:39.72,0:55:41.48,Dialogue,,0,0,0,,That is strange...
+Dialogue: 0,0:55:41.48,0:55:43.52,Radio,,0,0,0,,{\be10}Have you found out anything else?
+Dialogue: 0,0:55:43.52,0:55:45.61,Dialogue,,0,0,0,,There is one thing that bugged me.
+Dialogue: 0,0:55:45.61,0:55:50.61,Dialogue,,0,0,0,,{\c}When I saw Hunter's body at the university hospital, he seemed to have lost a lot of weight.
+Dialogue: 0,0:55:50.78,0:55:52.12,Dialogue,,0,0,0,,He lost weight?
+Dialogue: 0,0:55:52.12,0:55:56.37,Radio,,0,0,0,,{\be10}Yes. He looked like a different man to when he was awarded the Silver Star...
+Dialogue: 0,0:55:57.46,0:56:03.00,Dialogue,,0,0,0,,I think you better do a clinical autopsy as well as the forensic autopsy.
+Dialogue: 0,0:56:04.27,0:56:06.64,Radio,,0,0,0,,{\be10}Also, do an X-ray of his skull.
+Dialogue: 0,0:56:06.64,0:56:09.05,Dialogue,,0,0,0,,Got it. I'll go and talk to Inspector Megure.
+Dialogue: 0,0:56:09.22,0:56:11.18,Dialogue,,0,0,0,,Okay, I'll talk to you later.
+Dialogue: 0,0:56:12.23,0:56:13.93,Dialogue,,0,0,0,,Conan{\rHonorifics - Dialogue}-kun{\r}!
+Dialogue: 0,0:56:13.93,0:56:17.42,Dialogue,,0,0,0,,Where are you going? It's dangerous\Noutside, so don't go too far.
+Dialogue: 0,0:56:17.42,0:56:21.64,Dialogue,,0,0,0,,Sure, don't worry. I'm just going to get my skateboard back from Dr. Agasa.
+Dialogue: 0,0:56:21.64,0:56:24.52,Dialogue,,0,0,0,,Oh, wait, Conan{\rHonorifics - Dialogue}-kun{\r}!
+Dialogue: 0,0:56:30.88,0:56:35.55,Dialogue,,0,0,0,,Yeah, I heard. But who'd want to kill Hunter?
+Dialogue: 0,0:56:35.55,0:56:37.58,Radio,,0,0,0,,{\be10}Yeah, I have no idea...
+Dialogue: 0,0:56:37.58,0:56:42.12,Dialogue,,0,0,0,,Well, at least I don't have to worry about Hunter coming after me anymore.
+Dialogue: 0,0:56:42.12,0:56:45.13,Dialogue,,0,0,0,,Remind me to thank his killer...
+Dialogue: 0,0:56:45.13,0:56:49.09,Dialogue,,0,0,0,,Right. But we still better be careful.
+Dialogue: 0,0:56:49.09,0:56:51.45,Radio,,0,0,0,,{\be10}Yeah, as always...
+Dialogue: 0,0:56:51.45,0:56:58.10,Dialogue,,0,0,0,,Setting aside the shooting in Japan, the fact that Brian Woods has been killed means we're also still in danger!
+Dialogue: 0,0:56:58.10,0:57:01.24,Radio,,0,0,0,,{\be10}You always {\i1}did{\i0} worry too much...
+Dialogue: 0,0:57:01.24,0:57:08.07,Dialogue,,0,0,0,,Even if I was just following your orders, I still regret what I did on the battlefield back then...
+Dialogue: 0,0:57:08.07,0:57:11.35,Dialogue,,0,0,0,,What're you going on about now?!
+Dialogue: 0,0:57:11.74,0:57:14.11,Dialogue,,0,0,0,,You lead a life of luxury {\i1}precisely{\i0} because you followed my orders, and took the Silver Star from Hunter! Don't forget it!
+Dialogue: 0,0:57:14.11,0:57:18.16,Radio,,0,0,0,,{\be10}You lead a life of luxury {\i1}precisely{\i0} because you followed my orders, and took the Silver Star from Hunter! Don't forget it!
+Dialogue: 0,0:57:18.16,0:57:21.12,Dialogue,,0,0,0,,Y-Yes, sure. I-I'm sorry...
+Dialogue: 0,0:57:21.12,0:57:27.63,Dialogue,,0,0,0,,Ah, forget it. Look. My family is going back to the US as soon as we get tickets.
+Dialogue: 0,0:57:28.12,0:57:34.63,Dialogue,,0,0,0,,The Japanese police are useless. You'd better get out of here, too. Get on home, and quick.
+Dialogue: 0,0:57:34.63,0:57:36.46,Dialogue,,0,0,0,,Yes, sir...
+Dialogue: 0,0:57:36.46,0:57:38.85,Radio,,0,0,0,,{\be10}I'll see you stateside.
+Dialogue: 0,0:57:43.04,0:57:44.39,Dialogue,,0,0,0,,Mr Murphy?
+Dialogue: 0,0:57:45.51,0:57:47.41,Dialogue,,0,0,0,,I'm at the front reception.
+Dialogue: 0,0:57:47.41,0:57:49.44,Dialogue,,0,0,0,,We have a special delivery for you.
+Dialogue: 0,0:57:49.96,0:57:52.69,Dialogue,,0,0,0,,Oh, right. Thank you.
+Dialogue: 0,0:57:53.41,0:57:55.70,Dialogue,,0,0,0,,From Yokosuka Base?
+Dialogue: 0,0:57:55.70,0:57:57.07,Dialogue,,0,0,0,,But who...?
+Dialogue: 0,0:57:57.07,0:58:00.62,Thoughts,,0,0,0,,{\be10}'I know everything you did in the Middle East'?!
+Dialogue: 0,0:58:01.15,0:58:02.33,Dialogue,,0,0,0,,What?!
+Dialogue: 0,0:58:02.33,0:58:02.95,Dialogue,,0,0,0,,God...
+Dialogue: 0,0:58:03.91,0:58:10.96,Thoughts,,0,0,0,,{\be10}'I don't want to cause a stir. But we need to look into Hunter's breach of Rule of Engagement'?!
+Dialogue: 0,0:58:10.96,0:58:15.88,Thoughts,,0,0,0,,{\be10}'Your ticket is enclosed. Come to Tōkyō or face court-martial'?!
+Dialogue: 0,0:58:16.02,0:58:20.57,Thoughts,,0,0,0,,{\be10}'Do not tell Waltz, and destroy this message immediately.'
+Dialogue: 0,0:58:20.57,0:58:23.15,Dialogue,,0,0,0,,M-M-Mark Spencer?!
+Dialogue: 0,0:58:23.47,0:58:28.23,Dialogue Top,,0,0,0,,'Nikkō → Asakusa'
+Dialogue: 0,0:58:23.47,0:58:26.00,Dialogue,,0,0,0,,Oh, Christ...
+Dialogue: 0,0:58:32.90,0:58:38.81,Dialogue,,0,0,0,,It's really strange... It's the closest-range sniping yet, but they both missed once.
+Dialogue: 0,0:58:38.81,0:58:39.41,Dialogue,,0,0,0,,Yeah...
+Dialogue: 0,0:58:39.41,0:58:43.50,Dialogue,,0,0,0,,Maybe they were both nervous about facing another sniper.
+Dialogue: 0,0:58:43.92,0:58:50.17,Dialogue,,0,0,0,,I'm concerned about all the snipings being near Asakusa too.
+Dialogue: 0,0:58:50.17,0:58:50.96,Dialogue,,0,0,0,,Right...
+Dialogue: 0,0:58:50.96,0:58:56.48,Dialogue,,0,0,0,,Maybe there's some other special meaning behind the dice, ranges and lines of fire...
+Dialogue: 0,0:58:56.48,0:58:57.47,Dialogue,,0,0,0,,Oh!
+Dialogue: 0,0:59:00.14,0:59:01.89,Dialogue,,0,0,0,,What is it, Jodie{\rHonorifics - Dialogue}-sensei{\r}?
+Dialogue: 0,0:59:01.89,0:59:06.02,Dialogue,,0,0,0,,We did that clinical autopsy of Hunter, like you suggested.
+Dialogue: 0,0:59:06.02,0:59:11.75,Radio,,0,0,0,,{\be10}There were a lot of painkillers in his stomach, really strong ones.
+Dialogue: 0,0:59:11.75,0:59:13.52,Dialogue,,0,0,0,,Painkillers?
+Dialogue: 0,0:59:13.52,0:59:17.70,Radio,,0,0,0,,{\be10\c}And we found out why when we did an MRI of his skull.
+Dialogue: 0,0:59:17.70,0:59:23.47,Radio,,0,0,0,,{\be10}There was a bullet shard embedded near his brain stem. And it wasn't recent...
+Dialogue: 0,0:59:23.47,0:59:26.08,Dialogue,,0,0,0,,The bullet he took in the war eight years ago, right?
+Dialogue: 0,0:59:26.08,0:59:27.55,Dialogue,,0,0,0,,Yes.
+Dialogue: 0,0:59:27.55,0:59:31.67,Dialogue,,0,0,0,,The removal was deemed a success,\Nbut a fragment must've been left behind.
+Dialogue: 0,0:59:31.67,0:59:35.49,Dialogue,,0,0,0,,It would've put pressure on his\Nnerves, especially his optic nerves.
+Dialogue: 0,0:59:35.49,0:59:40.59,Dialogue,,0,0,0,,He would've suffered from frequent and intense migraines, and was probably nearly blind.
+Dialogue: 0,0:59:40.59,0:59:45.60,Dialogue,,0,0,0,,Nearly blind? Must've been hard for him to snipe Woods in Seattle, then...
+Dialogue: 0,0:59:45.60,0:59:49.19,Dialogue,,0,0,0,,What if the current sniper was behind that too?
+Dialogue: 0,0:59:50.18,0:59:53.19,Dialogue,,0,0,0,,But then there's no reason for the showdown with Hunter...
+Dialogue: 0,0:59:53.19,0:59:56.19,Dialogue,,0,0,0,,No. There's one possible reason.
+Dialogue: 0,0:59:58.24,0:59:59.11,Dialogue,,0,0,0,,You can't mean...!
+Dialogue: 0,0:59:59.11,1:00:00.29,Dialogue,,0,0,0,,Yeah.
+Dialogue: 0,1:00:00.29,1:00:07.25,Dialogue,,0,0,0,,And if so, then there's another meaning behind the second Japanese sniping and the sniping of Hunter{\rHonorifics - Dialogue}-san{\r}.
+Dialogue: 0,1:00:09.69,1:00:11.08,Dialogue,,0,0,0,,Hi, this is Takagi.
+Dialogue: 0,1:00:11.08,1:00:12.92,Dialogue,,0,0,0,,Oh! Conan{\rHonorifics - Dialogue}-kun{\r}!
+Dialogue: 0,1:00:12.92,1:00:20.04,Dialogue,,0,0,0,,You've got great timing. Could you tell Mouri{\rHonorifics - Dialogue}-san{\r} that Lee{\rHonorifics - Dialogue}-san{\r} actually happened to have an alibi, and also—
+Dialogue: 0,1:00:20.04,1:00:22.43,Radio,,0,0,0,,{\be10}Never mind him, what about Waltz{\rHonorifics - Radio\be10}-san{\r\be10} and Murphy{\rHonorifics - Radio\be10}-san{\r\be10}?
+Dialogue: 0,1:00:22.43,1:00:25.47,Radio,,0,0,0,,{\be10}Huh? Oh, Waltz{\rHonorifics - Radio\be10}-san{\r\be10}'s still in Kyōto,
+Dialogue: 0,1:00:25.47,1:00:29.43,Radio,,0,0,0,,{\be10}but Murphy{\rHonorifics - Radio\be10}-san{\r\be10} said he felt safe now, and left without a word to the local police guard
+Dialogue: 0,1:00:29.43,1:00:33.63,Radio,,0,0,0,,{\be10}boarding the Ōruri Express train leaving for Tōkyō at 9 AM.
+Dialogue: 0,1:00:33.63,1:00:37.15,Radio,,0,0,0,,{\be10}Apparently someone sent him a ticket, and he'd promised to see them.
+Dialogue: 0,1:00:37.15,1:00:38.28,Dialogue,,0,0,0,,Sent him a ticket?!
+Dialogue: 0,1:00:38.28,1:00:39.44,Dialogue,,0,0,0,,If he left at nine...!
+Dialogue: 0,1:00:39.44,1:00:42.82,Radio,,0,0,0,,{\be10}Apparently he's going to arrive at Asakusa Station at eleven.
+Dialogue: 0,1:00:42.82,1:00:43.86,Dialogue,,0,0,0,,No!
+Dialogue: 0,1:00:43.86,1:00:46.62,Dialogue,,0,0,0,,What if that was a trap set by the sniper?!
+Dialogue: 0,1:00:46.62,1:00:49.62,Dialogue,,0,0,0,,He'd be watching the platform with the perfect sniping point!
+Dialogue: 0,1:00:49.62,1:00:53.62,Dialogue,,0,0,0,,His target would even be sitting in the seat he picked!
+Dialogue: 0,1:00:53.62,1:00:55.79,Dialogue,,0,0,0,,He's got to be near Asakusa Station!
+Dialogue: 0,1:00:56.28,1:00:58.21,Dialogue,,0,0,0,,Anyway, we've got to hurry! There's only three minutes!
+Dialogue: 0,1:00:58.55,1:00:59.71,Dialogue,,0,0,0,,This is bad! He's gonna go after Murphy!
+Dialogue: 0,1:00:59.71,1:01:00.72,Radio,,0,0,0,,{\be10}This is bad! He's gonna go after Murphy!
+Dialogue: 0,1:01:01.75,1:01:04.22,Dialogue,,0,0,0,,Conan{\rHonorifics - Dialogue}-kun{\r}?! What's going on, Conan{\rHonorifics - Dialogue}-kun{\r}?!
+Dialogue: 0,1:01:10.33,1:01:12.06,Thoughts,,0,0,0,,{\be10}The express! It's already here?!
+Dialogue: 0,1:01:12.67,1:01:14.69,Thoughts,,0,0,0,,{\be10}That's right, it slows down for the bridge...
+Dialogue: 0,1:01:16.56,1:01:19.32,Thoughts,,0,0,0,,{\be10}What's that van stopped on that bridge...?
+Dialogue: 0,1:01:19.32,1:01:21.19,Thoughts,,0,0,0,,{\be10}Don't tell me...!
+Dialogue: 0,1:01:24.28,1:01:25.24,Dialogue,,0,0,0,,A rifle!
+Dialogue: 0,1:01:27.74,1:01:30.24,Thoughts,,0,0,0,,{\be10}Don't tell me he's going to shoot from there?!
+Dialogue: 0,1:01:30.24,1:01:32.33,Thoughts,,0,0,0,,{\be10}There's no time to get back there!
+Dialogue: 0,1:01:40.05,1:01:41.87,Dialogue,,0,0,0,,Conan{\rHonorifics - Dialogue}-kun{\r}!
+Dialogue: 0,1:01:41.87,1:01:45.97,Dialogue,,0,0,0,,Don't tell me he's going to shoot him while the train's in motion?!
+Dialogue: 0,1:01:54.31,1:01:58.23,Dialogue,,0,0,0,,I've got to block the shot until the train passes!
+Dialogue: 0,1:02:04.08,1:02:05.61,Thoughts,,0,0,0,,{\be10}Please make it in time...
+Dialogue: 0,1:02:06.53,1:02:08.87,Dialogue,,0,0,0,,Go!
+Dialogue: 0,1:02:32.79,1:02:36.10,Dialogue,,0,0,0,,Hey! Over here, Murphy{\rHonorifics - Dialogue}-san{\r}!
+Dialogue: 0,1:02:36.77,1:02:38.60,Radio,,0,0,0,,{\be10}We will shortly be arriving at our destination, Asakusa Station...
+Dialogue: 0,1:02:38.60,1:02:41.48,Thoughts,,0,0,0,,{\be10}Come on, realise what's going on!
+Dialogue: 0,1:02:51.20,1:02:52.24,Dialogue,,0,0,0,,Hey!
+Dialogue: 0,1:02:53.45,1:02:54.83,Thoughts,,0,0,0,,{\be10}No!
+Dialogue: 0,1:02:54.83,1:02:58.33,Dialogue,,0,0,0,,Hey! Murphy{\rHonorifics - Dialogue}-san{\r}!
+Dialogue: 0,1:03:01.88,1:03:03.71,Dialogue,,0,0,0,,Conan{\rHonorifics - Dialogue}-kun{\r}!
+Dialogue: 0,1:03:03.71,1:03:05.21,Dialogue,,0,0,0,,Look out!
+Dialogue: 0,1:03:13.08,1:03:14.64,Dialogue,,0,0,0,,Se... ra...
+Dialogue: 0,1:03:20.58,1:03:21.23,Dialogue,,0,0,0,,Huh?
+Dialogue: 0,1:03:21.23,1:03:22.49,Dialogue,,0,0,0,,What?
+Dialogue: 0,1:03:22.49,1:03:23.86,Dialogue,,0,0,0,,What's that?
+Dialogue: 0,1:03:26.72,1:03:28.61,Dialogue,,0,0,0,,Die!
+Dialogue: 0,1:03:44.92,1:03:47.67,Dialogue,,0,0,0,,Sera! Hold on, Sera!
+Dialogue: 0,1:03:48.34,1:03:50.09,Dialogue,,0,0,0,,How'd this end up happening...
+Dialogue: 0,1:03:50.79,1:03:54.10,Dialogue,,0,0,0,,Damn! Damn! Damn!
+Dialogue: 0,1:03:56.64,1:04:00.68,Dialogue,,0,0,0,,Goddamn!
+Dialogue: 0,1:04:10.35,1:04:13.67,Dialogue,,0,0,0,,You're sure you're okay, you're not hurt?
+Dialogue: 0,1:04:14.03,1:04:16.23,Dialogue,,0,0,0,,But there's blood on your clothes...
+Dialogue: 0,1:04:16.23,1:04:17.85,Dialogue,,0,0,0,,It's not my blood...
+Dialogue: 0,1:04:17.85,1:04:18.87,Dialogue,,0,0,0,,Conan{\rHonorifics - Dialogue}-kun{\r}!
+Dialogue: 0,1:04:20.07,1:04:21.17,Dialogue,,0,0,0,,Inspector Megure!
+Dialogue: 0,1:04:22.02,1:04:23.54,Dialogue,,0,0,0,,Can we talk?
+Dialogue: 0,1:04:26.17,1:04:30.35,Radio,,0,0,0,,{\be10left channel only}#18, please head to counter five. #19... {\an8}
+Dialogue: 0,1:04:26.17,1:04:28.56,Dialogue,,0,0,0,,I hate needles...
+Dialogue: 0,1:04:28.56,1:04:30.35,Dialogue,,0,0,0,,Wanna go home?
+Dialogue: 0,1:04:30.35,1:04:32.18,Dialogue,,0,0,0,,I wonder when Mum'll be back...
+Dialogue: 0,1:04:33.13,1:04:38.94,Dialogue,,0,0,0,,So it wasn't a random murder —\hhe was deliberately aiming for Murphy{\rHonorifics - Dialogue}-san{\r}.
+Dialogue: 0,1:04:38.94,1:04:39.94,Dialogue,,0,0,0,,Yeah.
+Dialogue: 0,1:04:39.94,1:04:42.94,Dialogue,,0,0,0,,Thank you. We had to know for sure.
+Dialogue: 0,1:04:42.94,1:04:46.94,Dialogue,,0,0,0,,So the sniper really {\i1}was{\i0} working with Hunter?
+Dialogue: 0,1:04:46.94,1:04:49.00,Dialogue,,0,0,0,,Huh? What do you mean?
+Dialogue: 0,1:04:49.00,1:04:54.32,Dialogue,,0,0,0,,Thanks to the FBI, some new facts have just come to light.
+Dialogue: 0,1:04:54.32,1:04:56.58,Dialogue,,0,0,0,,New facts?
+Dialogue: 0,1:04:56.58,1:05:05.46,Dialogue,,0,0,0,,We found the bullet that Hunter took to the head eight years ago left him in a state where he could no longer snipe anyone.
+Dialogue: 0,1:05:05.46,1:05:11.97,Dialogue,,0,0,0,,Huh? But Hunter's diary suggested he was in a contest with the sniper...
+Dialogue: 0,1:05:11.97,1:05:18.76,Dialogue,,0,0,0,,We believe that was all a lie,\Nand he hired the sniper to shoot him.
+Dialogue: 0,1:05:18.76,1:05:19.84,Dialogue,,0,0,0,,No way!
+Dialogue: 0,1:05:19.84,1:05:20.97,Dialogue,,0,0,0,,But why...
+Dialogue: 0,1:05:20.97,1:05:26.86,Dialogue,,0,0,0,,His death would throw the investigation into chaos, since he was the top suspect,
+Dialogue: 0,1:05:26.86,1:05:31.53,Dialogue,,0,0,0,,and it would cause his next target, Murphy{\rHonorifics - Dialogue}-san{\r},\Nto let his guard down so he could be sniped more easily.
+Dialogue: 0,1:05:31.53,1:05:35.37,Dialogue,,0,0,0,,He probably planned everything out before he began.
+Dialogue: 0,1:05:35.37,1:05:41.45,Dialogue,,0,0,0,,The reason he missed a shot when shooting Hunter, despite the short range of 150 metres,
+Dialogue: 0,1:05:41.45,1:05:46.21,Dialogue,,0,0,0,,could have been from a moment\Nof hesitation in killing his client.
+Dialogue: 0,1:05:46.67,1:05:49.84,Dialogue,,0,0,0,,And we believe the sniper's use of smaller bullets from another gun,
+Dialogue: 0,1:05:50.55,1:05:56.43,Dialogue,,0,0,0,,just for that sniping, was an expression of his desire to not hurt Hunter's corpse any more than necessary.
+Dialogue: 0,1:05:57.05,1:05:58.64,Dialogue,,0,0,0,,I see...
+Dialogue: 0,1:05:58.64,1:06:04.52,Dialogue,,0,0,0,,Then that means when Hunter fired back despite his bad eyes, it wasn't to try and shoot his sniper...
+Dialogue: 0,1:06:04.52,1:06:08.32,Dialogue,,0,0,0,,It was a reply from Hunter,\Nwho'd sensed his sniper's hesitation...
+Dialogue: 0,1:06:08.32,1:06:09.16,Dialogue,,0,0,0,,Yes.
+Dialogue: 0,1:06:09.16,1:06:13.99,Dialogue,,0,0,0,,And that gives us an explanation for the mystery of why two skilled snipers
+Dialogue: 0,1:06:13.99,1:06:19.95,Dialogue,,0,0,0,,each missed a shot despite facing one another at close range.
+Dialogue: 0,1:06:19.95,1:06:25.71,Dialogue,,0,0,0,,But isn't it dangerous to decide all that just on circumstantial evidence?
+Dialogue: 0,1:06:25.71,1:06:26.21,Dialogue,,0,0,0,,No...
+Dialogue: 0,1:06:28.07,1:06:31.46,Dialogue,,0,0,0,,We have found evidence to back up these theories.
+Dialogue: 0,1:06:31.46,1:06:32.44,Dialogue,,0,0,0,,Huh?!
+Dialogue: 0,1:06:32.44,1:06:34.09,Dialogue,,0,0,0,,Evidence?
+Dialogue: 0,1:06:34.67,1:06:42.60,Dialogue,,0,0,0,,When FBI HQ analysed the videos that Conan{\rHonorifics - Dialogue}-kun{\r}'s friends took at the Bell Tree Tower, where the first sniping took place,
+Dialogue: 0,1:06:42.60,1:06:48.73,Dialogue,,0,0,0,,we discovered they showed not just the culprit, but a suspected accomplice as well.
+Dialogue: 0,1:06:49.16,1:06:50.54,Dialogue,,0,0,0,,It's true!
+Dialogue: 0,1:06:50.54,1:06:52.30,Dialogue,,0,0,0,,There's two of them!
+Dialogue: 0,1:06:52.30,1:06:58.69,Dialogue Top,,0,0,0,,{second half is BG}Hunter probably accompanied the sniper, as a spotter for Fujinami{\rHonorifics - Dialogue}-san{\r}'s sniping.
+Dialogue: 0,1:06:58.69,1:07:06.21,Dialogue Top,,0,0,0,,{BG}I see. It wouldn't be a surprise if he had an accomplice to manage to carry out such a perfectly planned murder spree.
+Dialogue: 0,1:06:56.43,1:07:00.32,Thoughts,,0,0,0,,{\be10}But the SEALs don't usually use spotters!
+Dialogue: 0,1:07:00.32,1:07:04.95,Thoughts,,0,0,0,,{\be10}Was he nervous about it being his first sniping in Japan?
+Dialogue: 0,1:07:04.95,1:07:06.21,Thoughts,,0,0,0,,{\be10}Or perhaps...
+Dialogue: 0,1:07:06.72,1:07:09.21,Dialogue,,0,0,0,,Suffering intense migraines and losing his sight...
+Dialogue: 0,1:07:09.21,1:07:13.59,Dialogue,,0,0,0,,Hunter probably realised he'd never escape his pain as long as he lived,
+Dialogue: 0,1:07:13.59,1:07:17.34,Dialogue,,0,0,0,,and hired the sniper to murder him and take revenge on his behalf.
+Dialogue: 0,1:07:17.34,1:07:20.56,Dialogue,,0,0,0,,Hold on, there's still the riddle of the dice.
+Dialogue: 0,1:07:20.56,1:07:21.65,Dialogue,,0,0,0,,Yes.
+Dialogue: 0,1:07:21.65,1:07:27.69,Dialogue,,0,0,0,,We also found a shell and a die at the latest sniping position.
+Dialogue: 0,1:07:27.69,1:07:29.52,Dialogue,,0,0,0,,How many dots on the die?
+Dialogue: 0,1:07:29.52,1:07:34.27,Dialogue,,0,0,0,,Actually... It wasn't one, but five.
+Dialogue: 0,1:07:34.98,1:07:35.78,Dialogue,,0,0,0,,What?!
+Dialogue: 0,1:07:36.43,1:07:38.59,Dialogue,,0,0,0,,Wasn't it a countdown?
+Dialogue: 0,1:07:38.59,1:07:43.20,Dialogue,,0,0,0,,Four, three, two, but then not one?!
+Dialogue: 0,1:07:43.20,1:07:51.99,Dialogue,,0,0,0,,What's the meaning of this? We thought they were a message to Waltz{\rHonorifics - Dialogue}-san{\r}, each dot vanishing representing a murder, but now?
+Dialogue: 0,1:07:51.99,1:07:57.63,Dialogue,,0,0,0,,It seems we may have been too hasty in coming to our conclusions.
+Dialogue: 0,1:07:58.17,1:08:05.16,Dialogue,,0,0,0,,There may be another reason he has to single out Waltz{\rHonorifics - Dialogue}-san{\r}, instead of the men who made his family commit suicide.
+Dialogue: 0,1:08:05.16,1:08:06.27,Dialogue,,0,0,0,,Anyway...
+Dialogue: 0,1:08:06.27,1:08:08.60,Dialogue,,0,0,0,,Kevin Yoshino and Scott Green.
+Dialogue: 0,1:08:08.60,1:08:11.44,Dialogue,,0,0,0,,Find out where they are immediately!
+Dialogue: 0,1:08:11.44,1:08:15.94,Dialogue Top,,0,0,0,,They're sure to have some connection with this case!
+Dialogue: 0,1:08:16.48,1:08:17.24,Dialogue Top,,0,0,0,,Got it?
+Dialogue: 0,1:08:12.69,1:08:13.96,Thoughts,,0,0,0,,{\be10}No matter what happens...
+Dialogue: 0,1:08:13.96,1:08:15.94,Thoughts,,0,0,0,,{\be10}I won't let that sniper have his way!
+Dialogue: 0,1:08:15.94,1:08:19.82,Thoughts,,0,0,0,,{\be10}I'll stop the next sniping for sure!
+Dialogue: 0,1:08:20.49,1:08:27.08,Dialogue,,0,0,0,,Do you know anything about the Asakusa area or these dice?
+Dialogue: 0,1:08:27.08,1:08:31.33,Dialogue,,0,0,0,,Like I told you, I don't care about Asakusa or dice or whatever!
+Dialogue: 0,1:08:31.33,1:08:36.63,Dialogue,,0,0,0,,Just put out an arrest warrant for Scott Green! He's got to be the sniper!
+Dialogue: 0,1:08:36.63,1:08:41.55,Dialogue,,0,0,0,,B-But at the moment, we don't have enough evidence...
+Dialogue: 0,1:08:41.55,1:08:48.43,Dialogue,,0,0,0,,Honestly! Talking to you Japanese police is just a waste of time!
+Dialogue: 0,1:08:48.43,1:08:49.31,Dialogue,,0,0,0,,Waltz{\rHonorifics - Dialogue}-san{\r}.
+Dialogue: 0,1:08:50.63,1:08:54.44,Dialogue,,0,0,0,,No matter what happens, promise me you won't go to Tōkyō.
+Dialogue: 0,1:08:54.44,1:09:01.36,Dialogue,,0,0,0,,You just need to look at a map. The sniper will be already planning for his next murder in Asakusa.
+Dialogue: 0,1:09:01.88,1:09:05.18,Dialogue,,0,0,0,,Who'd want to go somewhere as sinister as Tōkyō?!
+Dialogue: 0,1:09:05.18,1:09:09.70,Dialogue,,0,0,0,,Just get me tickets to go back home from Kansai International Airport.
+Dialogue: 0,1:09:09.70,1:09:15.54,Dialogue,,0,0,0,,Murphy told us the sniper's location at the cost of his own life.
+Dialogue: 0,1:09:15.54,1:09:19.66,Dialogue,,0,0,0,,If I don't leave the country now,\Nhis death will have been for nothing!
+Dialogue: 0,1:09:19.66,1:09:21.04,Dialogue,,0,0,0,,What a horrible man!
+Dialogue: 0,1:09:21.04,1:09:23.68,Dialogue,,0,0,0,,His secretary's just been murdered!
+Dialogue: 0,1:09:26.90,1:09:34.50,Thoughts,,0,0,0,,{\be10}If someone's taken up Hunter's will, that means they must know about the crimes I committed eight years ago...
+Dialogue: 0,1:09:34.56,1:09:37.73,Thoughts,,0,0,0,,{\be10}Damn... I've got to do something!
+Dialogue: 0,1:09:38.90,1:09:40.31,Dialogue,,0,0,0,,What the hell?
+Dialogue: 0,1:09:41.65,1:09:43.33,Dialogue,,0,0,0,,Hello?
+Dialogue: 0,1:09:44.67,1:09:47.66,Dialogue,,0,0,0,,Y-You!
+Dialogue: 0,1:09:51.33,1:09:53.21,Dialogue,,0,0,0,,Conan{\rHonorifics - Dialogue}-kun{\r}...
+Dialogue: 0,1:09:54.92,1:09:57.33,Dialogue,,0,0,0,,We'll make sure to look after Sera{\rHonorifics - Dialogue}-san{\r}.
+Dialogue: 0,1:09:57.33,1:09:58.75,Dialogue,,0,0,0,,Right.
+Dialogue: 0,1:10:01.20,1:10:06.55,Dialogue,,0,0,0,,Don't worry, she'll be fine. The doctor said her injuries aren't life-threatening.
+Dialogue: 0,1:10:06.55,1:10:10.56,Dialogue,,0,0,0,,I'll let you know as soon as she wakes up, okay?
+Dialogue: 0,1:10:12.65,1:10:13.93,Dialogue,,0,0,0,,Then see you tomorrow.
+Dialogue: 0,1:10:17.34,1:10:20.44,Dialogue,,0,0,0,,Still, I'm glad nothing worse happened...
+Dialogue: 0,1:10:20.44,1:10:24.56,Dialogue,,0,0,0,,If Sera{\rHonorifics - Dialogue}-san{\r} hadn't been there for the brat, he'd have been in danger...
+Dialogue: 0,1:10:24.95,1:10:28.57,Dialogue,,0,0,0,,She risked her life to protect Conan{\rHonorifics - Dialogue}-kun{\r}...
+Dialogue: 0,1:10:29.67,1:10:35.50,Dialogue,,0,0,0,,She really did put her life on the line. Remember what she said before?
+Dialogue: 0,1:10:35.62,1:10:39.21,Flashback,,0,0,0,,{\be10}Don't worry! I'll make sure to protect Conan{\rHonorifics - Flashback\be10}-kun{\r\be10}.
+Dialogue: 0,1:10:39.80,1:10:44.13,Flashback,,0,0,0,,{\be10}Not to mention, there's no bullet that can shoot through Conan{\rHonorifics - Flashback\be10}-kun{\r\be10}'s heart right now.
+Dialogue: 0,1:10:44.13,1:10:47.22,Flashback,,0,0,0,,{\be10}Or your heart either, of course!
+Dialogue: 0,1:10:47.55,1:10:52.72,Dialogue,,0,0,0,,That reminds me, she said there's no bullet that can shoot through your heart either, Ran...
+Dialogue: 0,1:10:52.72,1:10:54.47,Dialogue,,0,0,0,,I can't forgive that sniper...
+Dialogue: 0,1:10:55.67,1:11:00.77,Dialogue,,0,0,0,,For putting Conan{\rHonorifics - Dialogue}-kun{\r} and Sera{\rHonorifics - Dialogue}-san{\r} through all this...
+Dialogue: 0,1:11:00.77,1:11:03.52,Dialogue,,0,0,0,,I'll never forgive him!
+Dialogue: 0,1:11:03.98,1:11:05.34,Dialogue,,0,0,0,,Ran...
+Dialogue: 0,1:11:06.53,1:11:12.25,Dialogue,,0,0,0,,Shū... ni... Shū{\rHonorifics - Dialogue}-nii{\r}!{novel has first shortened and in katakana}
+Dialogue: 0,1:11:12.25,1:11:13.91,Dialogue,,0,0,0,,'Shū{\rHonorifics - Dialogue}-nii{\r}'?
+Dialogue: 0,1:11:13.91,1:11:19.18,Dialogue,,0,0,0,,Maybe she's calling for her late brother?\NShe mentioned she had a brother who'd died before...
+Dialogue: 0,1:11:19.18,1:11:22.67,Dialogue,,0,0,0,,Huh? Was that bouquet there when we came in?
+Dialogue: 0,1:11:22.67,1:11:23.84,Dialogue,,0,0,0,,Oh, you're right.
+Dialogue: 0,1:11:24.86,1:11:27.14,Dialogue,,0,0,0,,Was someone else just here?
+Dialogue: 0,1:11:28.60,1:11:30.16,Dialogue,,0,0,0,,Who's it from?
+Dialogue: 0,1:11:30.16,1:11:31.37,Dialogue,,0,0,0,,I can't tell...
+Dialogue: 0,1:11:31.37,1:11:34.70,Dialogue,,0,0,0,,But look, Sonoko, they're really beautiful!
+Dialogue: 0,1:11:34.70,1:11:37.26,Dialogue,,0,0,0,,So they are! Let's put them on her windowsill.
+Dialogue: 0,1:11:37.26,1:11:39.35,Dialogue,,0,0,0,,Yeah. I'll go and ask for a vase.
+Dialogue: 0,1:11:57.62,1:11:59.03,Dialogue,,0,0,0,,What's wrong, Ran?
+Dialogue: 0,1:11:59.03,1:12:01.96,Dialogue,,0,0,0,,Oh, it's nothing.
+Dialogue: 0,1:12:07.97,1:12:10.59,Dialogue,,0,0,0,,Do we know where Green and Yoshino are?
+Dialogue: 0,1:12:10.59,1:12:15.47,Dialogue,,0,0,0,,Apparently there's been reports of someone who looks like Green in the Kansai region,
+Dialogue: 0,1:12:16.18,1:12:20.56,Dialogue,,0,0,0,,and a large-scale search has been started, centring on Ōsaka.
+Dialogue: 0,1:12:20.56,1:12:24.11,Dialogue,,0,0,0,,Maybe he intends to target Waltz{\rHonorifics - Dialogue}-san{\r} on the way to Kansai International Airport after all...
+Dialogue: 0,1:12:24.11,1:12:25.46,Dialogue,,0,0,0,,This isn't good.
+Dialogue: 0,1:12:25.86,1:12:34.10,Dialogue,,0,0,0,,The timing's too perfect. What if he's a decoy to draw attention away from Yoshino?
+Dialogue: 0,1:12:36.01,1:12:37.12,Dialogue,,0,0,0,,It's Inspector Megure.
+Dialogue: 0,1:12:38.45,1:12:39.31,Dialogue,,0,0,0,,Yes?
+Dialogue: 0,1:12:39.31,1:12:41.62,Dialogue,,0,0,0,,James{\rHonorifics - Dialogue}-san{\r}, I have some news for you.
+Dialogue: 0,1:12:41.62,1:12:45.89,Dialogue,,0,0,0,,What is it? If you mean the reports about Green, I've already heard about those from Camel.
+Dialogue: 0,1:12:45.89,1:12:52.06,Dialogue,,0,0,0,,No, something even worse. Waltz{\rHonorifics - Dialogue}-san{\r} vanished.
+Dialogue: 0,1:12:52.06,1:12:54.18,Dialogue,,0,0,0,,W-What?!
+Dialogue: 0,1:12:54.18,1:12:57.14,Dialogue,,0,0,0,,We were just as surprised...
+Dialogue: 0,1:12:57.14,1:13:00.14,Dialogue,,0,0,0,,According to the Kyōto Police, after they questioned him,
+Dialogue: 0,1:13:00.14,1:13:05.86,Dialogue,,0,0,0,,he told his wife he'd be back tomorrow, and left his hotel through a back door...
+Dialogue: 0,1:13:05.86,1:13:08.28,Dialogue,,0,0,0,,But why?! What possible reason could he have?!
+Dialogue: 0,1:13:08.28,1:13:10.56,Dialogue,,0,0,0,,Looks like something's happened.
+Dialogue: 0,1:13:10.56,1:13:11.85,Dialogue,,0,0,0,,Yeah.
+Dialogue: 0,1:13:09.07,1:13:13.78,Dialogue Top,,0,0,0,,Yes, right. I'll be in touch the moment we discover anything new.
+Dialogue: 0,1:13:18.94,1:13:26.29,Dialogue,,0,0,0,,What is it, Jodie{\rHonorifics - Dialogue}-sensei{\r}? Yeah, I already had Detective Takagi tell me about the reports of Green being spotted.
+Dialogue: 0,1:13:26.29,1:13:28.79,Dialogue,,0,0,0,,Yeah, and then?
+Dialogue: 0,1:13:28.99,1:13:31.05,Dialogue,,0,0,0,,What?! Waltz{\rHonorifics - Dialogue}-san{\r}?!
+Dialogue: 0,1:13:31.49,1:13:33.84,Dialogue,,0,0,0,,I wonder what he could be thinking...
+Dialogue: 0,1:13:33.84,1:13:41.11,Dialogue,,0,0,0,,If we figure out the riddle of the dice the sniper left behind, we should be able to tell where Waltz{\rHonorifics - Dialogue}-san{\r} is headed...
+Dialogue: 0,1:13:41.11,1:13:44.85,Dialogue,,0,0,0,,You mean he's going to the site of the next sniping?
+Dialogue: 0,1:13:44.98,1:13:46.59,Dialogue,,0,0,0,,I don't know...
+Dialogue: 0,1:13:46.59,1:13:55.70,Dialogue,,0,0,0,,But there might be a special connection between the sniper and Waltz{\rHonorifics - Dialogue}-san{\r} —\hsomething that we don't know yet.
+Dialogue: 0,1:13:55.70,1:14:00.70,Dialogue,,0,0,0,,Right. I'll check through the connections between the victims and the suspects again.
+Dialogue: 0,1:14:00.70,1:14:03.30,Dialogue,,0,0,0,,Okay, I'll call you again later.
+Dialogue: 0,1:14:04.70,1:14:07.44,Dialogue,,0,0,0,,Sorry for the wait, Camel! Let's go.
+Dialogue: 0,1:14:07.44,1:14:08.65,Dialogue,,0,0,0,,Right.
+Dialogue: 0,1:14:08.65,1:14:11.67,Dialogue,,0,0,0,,We'll meet up with Investigation Division One, and go over everything once again.
+Dialogue: 0,1:14:11.67,1:14:13.76,Dialogue,,0,0,0,,Right. I'm counting on you.
+Dialogue: 0,1:14:20.93,1:14:25.69,Thoughts,,0,0,0,,{\be10}Waltz{\rHonorifics - Thoughts\be10}-san{\r\be10} told his wife that he'd be back tomorrow.
+Dialogue: 0,1:14:25.69,1:14:34.71,Thoughts,,0,0,0,,{\be10}That means there's going to be another sniping in the next 24 hours!
+Dialogue: 0,1:15:00.85,1:15:06.10,Dialogue,,0,0,0,,I got everything you wanted. All untraceable.
+Dialogue: 0,1:15:06.10,1:15:07.92,Dialogue,,0,0,0,,And the scopes?
+Dialogue: 0,1:15:07.92,1:15:09.98,Dialogue,,0,0,0,,All adjusted.
+Dialogue: 0,1:15:09.98,1:15:13.02,Dialogue,,0,0,0,,Hah, I expected nothing less from you, Carlos.
+Dialogue: 0,1:15:13.02,1:15:15.49,Dialogue,,0,0,0,,You are the best, after all...
+Dialogue: 0,1:15:15.49,1:15:17.15,Dialogue,,0,0,0,,You and Hunter, that is.
+Dialogue: 0,1:15:17.15,1:15:21.50,Dialogue,,0,0,0,,How 'bout I let you take out the shooter this time?
+Dialogue: 0,1:15:21.50,1:15:24.37,Dialogue,,0,0,0,,Then you'll truly be number one.
+Dialogue: 0,1:15:24.37,1:15:29.13,Dialogue,,0,0,0,,Weren't you one kill behind Hunter's record in the war?
+Dialogue: 0,1:15:29.37,1:15:33.92,Dialogue,,0,0,0,,Rear Admiral Spencer's orders were just to procure the weapon.
+Dialogue: 0,1:15:34.55,1:15:35.93,Dialogue,,0,0,0,,Never mind.
+Dialogue: 0,1:15:35.93,1:15:39.53,Dialogue,,0,0,0,,If I know the target, I don't need your help anyway.
+Dialogue: 0,1:15:39.53,1:15:41.69,Dialogue,,0,0,0,,Thanks for the gun.
+Dialogue: 0,1:15:41.69,1:15:44.60,Dialogue,,0,0,0,,I have a message from Admiral Spencer.
+Dialogue: 0,1:15:45.04,1:15:49.86,Dialogue,,0,0,0,,He says there will be no inquiry into the origin of the shooting spree.
+Dialogue: 0,1:15:50.40,1:15:52.95,Dialogue,,0,0,0,,Just eliminate the sniper at all costs.
+Dialogue: 0,1:15:52.95,1:15:55.61,Dialogue,,0,0,0,,Preserve the credibility of the US Military!
+Dialogue: 0,1:15:56.07,1:15:58.24,Dialogue,,0,0,0,,The origin of the shooting spree?
+Dialogue: 0,1:15:58.24,1:16:00.11,Dialogue,,0,0,0,,How much does the admiral know?
+Dialogue: 0,1:16:00.11,1:16:02.49,Dialogue,,0,0,0,,Probably... everything.
+Dialogue: 0,1:16:02.49,1:16:04.95,Thoughts,,0,0,0,,{\be10}What?! But how?!
+Dialogue: 0,1:16:04.95,1:16:10.42,Thoughts,,0,0,0,,{\be10}Only one person alive knows about\Nthat operation, and that's me!
+Dialogue: 0,1:16:10.42,1:16:14.96,Dialogue,,0,0,0,,The sniper used the admiral's name to threaten Bill Murphy.
+Dialogue: 0,1:16:14.96,1:16:16.96,Dialogue,,0,0,0,,Murphy was scared.
+Dialogue: 0,1:16:16.96,1:16:22.69,Dialogue,,0,0,0,,The day before he was killed,\Nhe asked for a reduction of charges.
+Dialogue: 0,1:16:22.69,1:16:30.94,Dialogue,,0,0,0,,He e-mailed the admiral, confessed —\hthe plan to steal Hunter's Silver Star, your orders afterward, everything!
+Dialogue: 0,1:16:31.54,1:16:32.73,Thoughts,,0,0,0,,{\be10}What?!
+Dialogue: 0,1:16:32.73,1:16:37.52,Dialogue,,0,0,0,,Your crimes from eight years ago... They're unforgivable.
+Dialogue: 0,1:16:37.52,1:16:38.61,Dialogue,,0,0,0,,But...
+Dialogue: 0,1:16:38.61,1:16:45.99,Dialogue,,0,0,0,,We have to stop a former American soldier from committing any more murders on foreign soil.
+Dialogue: 0,1:16:47.58,1:16:50.64,Dialogue,,0,0,0,,Well, if he knows everything anyway...
+Dialogue: 0,1:16:50.64,1:16:57.53,Dialogue,,0,0,0,,Please tell the admiral... After this case is settled, I'd like a meeting.
+Dialogue: 0,1:16:57.53,1:16:59.05,Dialogue,,0,0,0,,There's one more thing.
+Dialogue: 0,1:16:59.05,1:16:59.76,Dialogue,,0,0,0,,What?
+Dialogue: 0,1:16:59.76,1:17:02.47,Dialogue,,0,0,0,,Did you figure out the meaning behind the dice?
+Dialogue: 0,1:17:03.68,1:17:07.47,Dialogue,,0,0,0,,Why bother? They're irrelevant now we know the shooter.
+Dialogue: 0,1:17:10.48,1:17:13.65,Radio,,0,0,0,,{\be10}And now for some breaking news.
+Dialogue: 0,1:17:13.65,1:17:20.78,Radio,,0,0,0,,{\be10}Bill Murphy{\rHonorifics - Radio\be10}-san{\r\be10}, who was sniped to death aboard the Tohto Railways Ōruri Express at 11 AM yesterday,
+Dialogue: 0,1:17:20.78,1:17:25.78,Radio,,0,0,0,,{\be10}has been linked to the previously murdered Timothy Hunter{\rHonorifics - Radio\be10}-san{\r\be10}.
+Dialogue: 0,1:17:26.62,1:17:33.67,Radio,,0,0,0,,{\be10}Also, the girl who was injured in the sniping is also expected to make a full recovery. And that's the end of the breaking news.
+Dialogue: 0,1:17:33.67,1:17:37.46,Radio,,0,0,0,,{\be10}Huh? So it wasn't a completely random killing spree then!
+Dialogue: 0,1:17:37.46,1:17:44.70,Radio,,0,0,0,,{\be10}I did warn you! Your careless remark had the whole of Tōkyō panicking for the last two days!
+Dialogue: 0,1:17:44.70,1:17:48.35,Radio,,0,0,0,,{\be10}Oh, really? Well, sorry about that...
+Dialogue: 0,1:17:48.35,1:17:52.36,Dialogue,,0,0,0,,Geez... What a troublemaker.
+Dialogue: 0,1:17:52.36,1:17:53.52,Dialogue,,0,0,0,,Uncle!
+Dialogue: 0,1:17:53.52,1:17:56.31,Dialogue,,0,0,0,,Apparently Sera{\rHonorifics - Dialogue}-neechan{\r} woke up.
+Dialogue: 0,1:17:56.31,1:17:59.48,Dialogue,,0,0,0,,We're all going to visit her...
+Dialogue: 0,1:17:59.48,1:18:05.20,Dialogue,,0,0,0,,Sorry, but you'll have to go without me.\NI've still got some thinking to do about this...
+Dialogue: 0,1:18:05.20,1:18:08.80,Thoughts,,0,0,0,,{\be10}Old man, you've been up all night thinking about the case?
+Dialogue: 0,1:18:05.68,1:18:10.75,Dialogue Top,,0,0,0,,And if my theory about the last die is right, I've solved the riddle of the dice!
+Dialogue: 0,1:18:10.75,1:18:11.87,Dialogue,,0,0,0,,What?! Really?!
+Dialogue: 0,1:18:11.87,1:18:17.67,Dialogue,,0,0,0,,Huh? Yeah! One night's more than enough for a Great Detective like me to solve this!
+Dialogue: 0,1:18:17.67,1:18:20.34,Dialogue,,0,0,0,,So what do they mean?
+Dialogue: 0,1:18:20.34,1:18:23.09,Dialogue,,0,0,0,,They're... a countdown!
+Dialogue: 0,1:18:23.09,1:18:23.59,Dialogue,,0,0,0,,...Huh?
+Dialogue: 0,1:18:23.59,1:18:31.10,Dialogue,,0,0,0,,The bridge must've shook. And so the last die changed from a one to a five!
+Dialogue: 0,1:18:31.10,1:18:34.68,Dialogue,,0,0,0,,See? Once you realise that, everything fits—
+Dialogue: 0,1:18:34.68,1:18:38.10,Dialogue,,0,0,0,,Huh?! Where'd that brat go?!
+Dialogue: 0,1:18:38.10,1:18:42.83,Thoughts,,0,0,0,,{\be10}That's not a countdown. There's another meaning to it.
+Dialogue: 0,1:18:43.36,1:18:47.78,Thoughts,,0,0,0,,{\be10}I should get there quickly and go over what happened yesterday with Sera.
+Dialogue: 0,1:18:53.79,1:18:57.04,Thoughts,,0,0,0,,{\be10}Here! A clear line of fire...
+Dialogue: 0,1:18:57.04,1:18:59.79,Dialogue,,0,0,0,,Yes, I've found it!
+Dialogue: 0,1:18:59.79,1:19:04.29,Dialogue,,0,0,0,,The perfect position to target Chigusa...
+Dialogue: 0,1:19:05.23,1:19:08.32,Dialogue,,0,0,0,,Hah! The game is mine!
+Dialogue: 0,1:19:11.06,1:19:13.44,Flashback,,0,0,0,,{\be10}Y-You!
+Dialogue: 0,1:19:13.44,1:19:17.19,Flashback,,0,0,0,,{\be10}I've taken care of Murphy. Now it is your turn.
+Dialogue: 0,1:19:17.19,1:19:20.19,Flashback,,0,0,0,,{\be10}W-Why? Why you?!
+Dialogue: 0,1:19:20.19,1:19:22.11,Flashback,,0,0,0,,{\be10}Is it the money?
+Dialogue: 0,1:19:22.11,1:19:24.83,Flashback,,0,0,0,,{\be10}How much did he pay? I'll double it!
+Dialogue: 0,1:19:24.83,1:19:26.98,Flashback,,0,0,0,,{\be10}You never change, Waltz.
+Dialogue: 0,1:19:26.98,1:19:27.78,Flashback,,0,0,0,,{\be10}I... uhh...
+Dialogue: 0,1:19:28.45,1:19:35.77,Flashback,,0,0,0,,{\be10}Look, let's make a deal. You, here in a foreign country... You could use some cash, right?
+Dialogue: 0,1:19:35.77,1:19:42.05,Flashback,,0,0,0,,{\be10}Tomorrow night, come to Chigusa in Asakusa at 8 PM sharp. We'll discuss it then.
+Dialogue: 0,1:19:42.05,1:19:46.91,Flashback,,0,0,0,,{\be10}Uh, yeah, okay. Chigusa in Asakusa...
+Dialogue: 0,1:19:46.91,1:19:52.60,Flashback,,0,0,0,,{\be10}If you confess everything... Admit your guilt... I'll let you live.
+Dialogue: 0,1:19:52.60,1:19:59.39,Flashback,,0,0,0,,{\be10}However, if you're even late, say goodbye to your family!{XTL from JP: But, if you don't come, or if you even happen to be late... know that your family will die. Got it?!}
+Dialogue: 0,1:19:59.39,1:20:00.94,Flashback,,0,0,0,,{\be10}Understood?{XTL from JP: But, if you don't come, or if you even happen to be late... know that your family will die. Got it?!}
+Dialogue: 0,1:20:00.94,1:20:04.23,Flashback,,0,0,0,,{\be10}Hello? Hello? Hey, I...
+Dialogue: 0,1:20:04.23,1:20:05.94,Flashback,,0,0,0,,{\be10}Argh, damn it!
+Dialogue: 0,1:20:07.76,1:20:10.66,Flashback,,0,0,0,,{\be10}Helen... Sarah...
+Dialogue: 0,1:20:10.66,1:20:11.41,Flashback,,0,0,0,,{\be10}Waltz{\rHonorifics - Flashback\be10}-san{\r\be10}!
+Dialogue: 0,1:20:11.41,1:20:12.78,Flashback,,0,0,0,,{\be10}We've got a problem!
+Dialogue: 0,1:20:12.78,1:20:16.66,Flashback,,0,0,0,,{\be10}Scott Green's been spotted by\Nthe cameras at Shin-Ōsaka Station!
+Dialogue: 0,1:20:16.66,1:20:19.41,Flashback,,0,0,0,,{\be10}It's too dangerous to go to Kansai International Airport at the moment!
+Dialogue: 0,1:20:19.41,1:20:22.42,Flashback,,0,0,0,,{\be10}I'm sorry, but you'll have to abandon your plans to leave Japan tomorrow.
+Dialogue: 0,1:20:23.69,1:20:28.05,Flashback Thoughts,,0,0,0,,{\be10}Damn! Then it's kill or be killed.
+Dialogue: 0,1:20:30.63,1:20:34.14,Dialogue,,0,0,0,,Here, the perfect position to target Chigusa.
+Dialogue: 0,1:20:34.14,1:20:36.85,Dialogue,,0,0,0,,He'll pick this spot —\hit's textbook!
+Dialogue: 0,1:20:36.85,1:20:38.14,Dialogue,,0,0,0,,Any sniper's dream!
+Dialogue: 0,1:20:38.14,1:20:43.40,Thoughts,,0,0,0,,{\be10}But tonight it's not {\i1}me{\i0} that's going to be the target —\hit's {\i1}him{\i0}!{novel has all of this as one thought, movie starts it as spoken but switches to thought, but I can't tell when}
+Dialogue: 0,1:20:43.85,1:20:47.57,Thoughts,,0,0,0,,{\be10}Takes a sniper to beat a sniper...
+Dialogue: 0,1:20:50.29,1:20:53.11,Thoughts,,0,0,0,,{\be10}It all comes down to second-guessing...
+Dialogue: 0,1:20:53.11,1:20:57.91,Thoughts,,0,0,0,,{\be10}Anticipating your opponent's moves, gaining tactical advantage...
+Dialogue: 0,1:20:57.91,1:21:02.33,Thoughts,,0,0,0,,{\be10}Most of all, superior position guarantees victory.
+Dialogue: 0,1:21:02.33,1:21:05.67,Thoughts,,0,0,0,,{\be10}The fact that I have found this position means...
+Dialogue: 0,1:21:05.67,1:21:08.67,Thoughts,,0,0,0,,{\be10}Victory is mine!
+Dialogue: 0,1:21:08.67,1:21:11.72,Thoughts,,0,0,0,,{\be10}You challenge me, you lose!
+Dialogue: 0,1:21:11.72,1:21:14.94,Thoughts,,0,0,0,,{\be10}Say 'hi' to Hunter in Hell!
+Dialogue: 0,1:21:17.06,1:21:20.19,Dialogue,,0,0,0,,Huh? Conan{\rHonorifics - Dialogue}-kun{\r}, you're here all by yourself?
+Dialogue: 0,1:21:20.19,1:21:22.81,Dialogue,,0,0,0,,Yeah, everyone else is coming by car.
+Dialogue: 0,1:21:22.81,1:21:24.19,Dialogue,,0,0,0,,Ah.
+Dialogue: 0,1:21:24.19,1:21:28.12,Dialogue,,0,0,0,,I was just about to go to the shop downstairs, want to come with me?
+Dialogue: 0,1:21:28.12,1:21:29.82,Dialogue,,0,0,0,,Nah, I'll wait here.
+Dialogue: 0,1:21:30.98,1:21:32.37,Dialogue,,0,0,0,,Okay, let's go, Sonoko!
+Dialogue: 0,1:21:32.37,1:21:35.39,Dialogue,,0,0,0,,Right! Sera{\rHonorifics - Dialogue}-san{\r}, we're heading out for a bit.
+Dialogue: 0,1:21:35.39,1:21:37.90,Dialogue Top,,0,0,0,,Okay, thank you.
+Dialogue: 0,1:21:35.82,1:21:37.90,Dialogue,,0,0,0,,We'll be back before long.
+Dialogue: 0,1:21:37.90,1:21:39.58,Dialogue,,0,0,0,,Let us know if something happens.
+Dialogue: 0,1:21:39.58,1:21:41.58,Dialogue,,0,0,0,,Sure!
+Dialogue: 0,1:21:42.04,1:21:43.63,Dialogue,,0,0,0,,Hi, Conan{\rHonorifics - Dialogue}-kun{\r}.
+Dialogue: 0,1:21:43.63,1:21:47.43,Dialogue,,0,0,0,,Looks like the bullet really didn't hit you.
+Dialogue: 0,1:21:49.90,1:21:52.47,Dialogue,,0,0,0,,I never got a chance to thank you for saving me...
+Dialogue: 0,1:21:52.47,1:21:56.89,Dialogue,,0,0,0,,Don't worry, I was just keeping my promise with Ran{\rHonorifics - Dialogue}-kun{\r}.
+Dialogue: 0,1:21:56.89,1:21:58.47,Dialogue,,0,0,0,,But what about the sniper...?
+Dialogue: 0,1:21:58.47,1:22:02.46,Dialogue,,0,0,0,,Both of the suspects are still in hiding...
+Dialogue: 0,1:22:02.46,1:22:03.14,Dialogue,,0,0,0,,Is that so?
+Dialogue: 0,1:22:04.01,1:22:07.73,Dialogue,,0,0,0,,Yesterday, I noticed something when I was shot...
+Dialogue: 0,1:22:08.59,1:22:12.24,Dialogue,,0,0,0,,The sniper was using a laser sight at the time.
+Dialogue: 0,1:22:12.24,1:22:14.61,Dialogue,,0,0,0,,Isn't that strange?
+Dialogue: 0,1:22:14.61,1:22:20.74,Dialogue,,0,0,0,,Snipers don't usually use them —\htheir targets would realise they're being targeted, and they can even give away their location.
+Dialogue: 0,1:22:21.18,1:22:26.14,Dialogue,,0,0,0,,I get it. That's why Hunter faked that shootout instead of committing suicide...
+Dialogue: 0,1:22:26.14,1:22:27.92,Dialogue,,0,0,0,,Huh? What do you mean?
+Dialogue: 0,1:22:27.92,1:22:31.21,Dialogue,,0,0,0,,If he'd committed suicide, the investigation would've been completely called off,
+Dialogue: 0,1:22:31.21,1:22:33.84,Dialogue,,0,0,0,,and Murphy{\rHonorifics - Dialogue}-san{\r} and Waltz{\rHonorifics - Dialogue}-san{\r} would've let their guard down even more, right?
+Dialogue: 0,1:22:34.95,1:22:36.80,Dialogue,,0,0,0,,But he didn't.
+Dialogue: 0,1:22:36.80,1:22:45.70,Dialogue,,0,0,0,,I get it. That was a final test for the killer, he was making him into a true cold-blooded sniper!
+Dialogue: 0,1:22:45.84,1:22:47.18,Dialogue,,0,0,0,,Yeah.
+Dialogue: 0,1:22:47.52,1:22:51.72,Dialogue,,0,0,0,,The first sniping was the maximum range for an MK11.
+Dialogue: 0,1:22:51.72,1:22:54.68,Dialogue,,0,0,0,,The second sniping was a moving target at night.
+Dialogue: 0,1:22:54.68,1:22:59.37,Dialogue,,0,0,0,,And the third sniping was to check that no emotions could ever change his mind.
+Dialogue: 0,1:23:00.00,1:23:05.32,Dialogue,,0,0,0,,Hunter was making his killer into the ultimate sniper, right up until his death!
+Dialogue: 0,1:23:05.32,1:23:06.29,Dialogue,,0,0,0,,Then that means the sniper is—
+Dialogue: 0,1:23:07.29,1:23:08.83,Dialogue,,0,0,0,,Are you okay?
+Dialogue: 0,1:23:08.83,1:23:11.12,Dialogue,,0,0,0,,Yeah, I'll be fine...
+Dialogue: 0,1:23:11.26,1:23:13.71,Dialogue,,0,0,0,,Hey! We've come over for a visit!
+Dialogue: 0,1:23:13.71,1:23:16.40,Dialogue,,0,0,0,,Hey, Genta{\rHonorifics - Dialogue}-kun{\r}, you're being too loud...
+Dialogue: 0,1:23:16.40,1:23:17.47,Dialogue,,0,0,0,,Oh, sorry...
+Dialogue: 0,1:23:17.47,1:23:18.72,Dialogue,,0,0,0,,Oh, Conan{\rHonorifics - Dialogue}-kun{\r}!
+Dialogue: 0,1:23:18.72,1:23:21.02,Dialogue,,0,0,0,,What's all that stuff you guys brought?
+Dialogue: 0,1:23:21.02,1:23:23.08,Dialogue,,0,0,0,,Something really amazing!
+Dialogue: 0,1:23:23.08,1:23:23.51,Dialogue,,0,0,0,,Right!
+Dialogue: 0,1:23:23.51,1:23:26.43,Dialogue,,0,0,0,,We thought it might help cheer her up. Right?
+Dialogue: 0,1:23:27.26,1:23:28.24,Dialogue,,0,0,0,,Right!
+Dialogue: 0,1:23:28.24,1:23:28.94,Dialogue,,0,0,0,,Huh?
+Dialogue: 0,1:23:29.52,1:23:31.94,Dialogue,,0,0,0,,Wow, that's great!
+Dialogue: 0,1:23:31.94,1:23:34.48,Dialogue,,0,0,0,,You made that all by yourselves?
+Dialogue: 0,1:23:34.48,1:23:35.72,Dialogue,,0,0,0,,Yeah!
+Dialogue: 0,1:23:35.72,1:23:37.98,Dialogue,,0,0,0,,It's for our summer homework project!
+Dialogue: 0,1:23:37.98,1:23:40.38,Dialogue,,0,0,0,,It's not exactly finished yet...
+Dialogue: 0,1:23:40.38,1:23:41.99,Dialogue,,0,0,0,,...but we wanted to show it to you!
+Dialogue: 0,1:23:41.99,1:23:43.56,Dialogue,,0,0,0,,Thanks!
+Dialogue: 0,1:23:43.56,1:23:45.19,Dialogue,,0,0,0,,It really is great!
+Dialogue: 0,1:23:45.19,1:23:46.75,Dialogue,,0,0,0,,Yeah, it's very well-made.
+Dialogue: 0,1:23:46.75,1:23:51.79,Dialogue,,0,0,0,,They may not be the same shapes as the real buildings, but they're the same sizes and in the right places!
+Dialogue: 0,1:23:51.79,1:23:54.21,Dialogue,,0,0,0,,Ai{\rHonorifics - Dialogue}-chan{\r} checked all of them!
+Dialogue: 0,1:23:54.21,1:23:56.24,Dialogue Top,,0,0,0,,Okay, that's the last one!
+Dialogue: 0,1:23:56.24,1:23:57.83,Dialogue Top,,0,0,0,,Yay, it's all done!
+Dialogue: 0,1:23:57.83,1:23:59.47,Dialogue Top,,0,0,0,,It's not finished, but it is complete!
+Dialogue: 0,1:23:54.91,1:23:59.47,Dialogue,,0,0,0,,Though {\i1}one of us{\i0} hasn't bothered to help with anything at all.
+Dialogue: 0,1:23:59.47,1:24:02.08,Dialogue,,0,0,0,,You've done all that, but it's not finished?
+Dialogue: 0,1:24:02.08,1:24:04.27,Dialogue,,0,0,0,,It looks good just like that.
+Dialogue: 0,1:24:04.27,1:24:05.39,Dialogue,,0,0,0,,What's left to do?
+Dialogue: 0,1:24:05.39,1:24:08.06,Dialogue,,0,0,0,,We gotta paint 'em...
+Dialogue: 0,1:24:08.06,1:24:13.11,Dialogue,,0,0,0,,But we only had a chance to take photos of the west side when we were at the Bell Tree,
+Dialogue: 0,1:24:13.11,1:24:15.40,Dialogue,,0,0,0,,so we don't know what colours the rest should be.
+Dialogue: 0,1:24:15.40,1:24:19.09,Dialogue,,0,0,0,,We would've liked to go up one more time before we start painting it, but well...
+Dialogue: 0,1:24:19.09,1:24:20.78,Dialogue,,0,0,0,,Then why don't we take another look?
+Dialogue: 0,1:24:20.78,1:24:25.39,Dialogue,,0,0,0,,It hasn't reopened yet, but the repairs are all done, so you could have the whole tower to yourselves!
+Dialogue: 0,1:24:25.39,1:24:26.64,Dialogue,,0,0,0,,Really?!
+Dialogue: 0,1:24:26.64,1:24:27.66,Dialogue,,0,0,0,,You mean it?!
+Dialogue: 0,1:24:27.66,1:24:29.31,Dialogue,,0,0,0,,Yay!
+Dialogue: 0,1:24:29.97,1:24:31.92,Dialogue,,0,0,0,,What is it?
+Dialogue: 0,1:24:31.92,1:24:36.17,Dialogue,,0,0,0,,That'll make our summer homework project perfect!
+Dialogue: 0,1:24:36.17,1:24:40.64,Dialogue,,0,0,0,,{main}Haibara... That model's got the right scale, right?
+Dialogue: 0,1:24:40.64,1:24:41.93,Dialogue,,0,0,0,,{main}Yes.
+Dialogue: 0,1:24:28.75,1:24:31.92,Dialogue Top,,0,0,0,,{left speaker only}But Sonoko, they haven't caught the sniper yet, have they?
+Dialogue: 0,1:24:32.77,1:24:36.17,Dialogue Top,,0,0,0,,{left speaker only}It's fine! Do you really think he'd\Nturn up at the same place twice?
+Dialogue: 0,1:24:37.79,1:24:41.93,Dialogue Top,,0,0,0,,{left speaker only}And even the TV said that it's not actually a random killing spree after all!
+Dialogue: 0,1:24:41.93,1:24:41.93,Dialogue Top,,0,0,0,,{left speaker only}I guess.
+Dialogue: 0,1:24:41.93,1:24:45.68,Dialogue,,0,0,0,,Okay! Then let's hurry back and get our cameras!
+Dialogue: 0,1:24:45.68,1:24:46.57,Dialogue,,0,0,0,,Yeah!
+Dialogue: 0,1:24:46.57,1:24:48.84,Dialogue,,0,0,0,,Huh? What is it, Conan{\rHonorifics - Dialogue}-kun{\r}?
+Dialogue: 0,1:24:48.84,1:24:49.18,Dialogue,,0,0,0,,Huh?
+Dialogue: 0,1:24:49.18,1:24:51.14,Thoughts,,0,0,0,,{\be10}What's this feeling?
+Dialogue: 0,1:24:51.14,1:24:54.19,Thoughts,,0,0,0,,{\be10}I feel like I just spotted something\NI couldn't see before on a map...
+Dialogue: 0,1:24:54.19,1:24:57.61,Dialogue,,0,0,0,,Hey, make sure you help us paint it, you hear?
+Dialogue: 0,1:24:57.61,1:24:59.86,Thoughts,,0,0,0,,{\be10}What is it, Conan{\rHonorifics - Thoughts\be10}-kun{\r\be10}?
+Dialogue: 0,1:24:59.86,1:25:01.36,Dialogue,,0,0,0,,What is it?
+Dialogue: 0,1:25:01.36,1:25:03.36,Dialogue,,0,0,0,,Did you spot something, Conan?
+Dialogue: 0,1:25:06.40,1:25:07.82,Dialogue,,0,0,0,,Wow, that's interesting!
+Dialogue: 0,1:25:07.82,1:25:09.41,Dialogue,,0,0,0,,Huh? What is?
+Dialogue: 0,1:25:09.41,1:25:15.84,Dialogue,,0,0,0,,If you look at it from down here, it looks like some of the buildings we made are the same height!
+Dialogue: 0,1:25:16.99,1:25:18.43,Dialogue,,0,0,0,,Conan{\rHonorifics - Dialogue}-kun{\r}!
+Dialogue: 0,1:25:18.43,1:25:20.62,Dialogue,,0,0,0,,Genta... Sorry, but can you show me?
+Dialogue: 0,1:25:20.62,1:25:21.92,Dialogue,,0,0,0,,Huh? Take a look.
+Dialogue: 0,1:25:21.92,1:25:23.40,Dialogue,,0,0,0,,Wow, you're right!
+Dialogue: 0,1:25:23.40,1:25:24.84,Dialogue,,0,0,0,,That is interesting!
+Dialogue: 0,1:25:24.84,1:25:29.85,Dialogue Top,,0,0,0,,{BG}That's because things close to you look bigger than things in the distance.
+Dialogue: 0,1:25:25.30,1:25:29.85,Thoughts,,0,0,0,,{\be10}I get it! That message wasn't supposed to be seen in two dimensions...
+Dialogue: 0,1:25:30.51,1:25:33.85,Thoughts,,0,0,0,,{\be10}...but something you have to see in 3D!
+Dialogue: 0,1:25:34.37,1:25:35.70,Thoughts,,0,0,0,,{\be10}Here!
+Dialogue: 0,1:25:35.70,1:25:39.86,Thoughts,,0,0,0,,{\be10}If you look from here, the height of the first and second sniping positions match!
+Dialogue: 0,1:25:40.48,1:25:42.65,Thoughts,,0,0,0,,{\be10}What about the others?!
+Dialogue: 0,1:25:43.11,1:25:47.37,Thoughts,,0,0,0,,{\be10}The third was a floating platform, and the fourth was Komagata Bridge...
+Dialogue: 0,1:25:47.37,1:25:51.01,Thoughts,,0,0,0,,{\be10}If I add those and look at all of them from the same place...
+Dialogue: 0,1:25:51.01,1:25:52.16,Thoughts,,0,0,0,,{\be10}It's an isosceles trapezium!
+Dialogue: 0,1:25:52.59,1:25:57.17,Thoughts,,0,0,0,,{\be10}Hold on... If I add the observation deck of the Bell Tree Tower, right in the middle...
+Dialogue: 0,1:25:59.61,1:26:01.67,Thoughts,,0,0,0,,{\be10}It's a pentagon!
+Dialogue: 0,1:26:02.36,1:26:08.89,Thoughts,,0,0,0,,{\be10}This shape wouldn't just appear by chance! It had to have been planned intentionally!
+Dialogue: 0,1:26:09.87,1:26:13.00,Dialogue,,0,0,0,,Ran{\rHonorifics - Dialogue}-neechan{\r}! I've got to go, I forgot something!
+Dialogue: 0,1:26:13.00,1:26:17.29,Dialogue,,0,0,0,,H-Hey! Conan{\rHonorifics - Dialogue}-kun{\r}! Don't you want to go to the Bell Tree?!
+Dialogue: 0,1:26:16.23,1:26:19.19,Dialogue Top,,0,0,0,,What, you're running off on us again?!
+Dialogue: 0,1:26:17.29,1:26:19.19,Thoughts,,0,0,0,,{\be10}Be careful, Conan{\rHonorifics - Thoughts\be10}-kun{\r\be10}...
+Dialogue: 0,1:26:19.19,1:26:21.80,Dialogue,,0,0,0,,No, I'll pass for today!
+Dialogue: 0,1:26:47.31,1:26:50.84,Thoughts,,0,0,0,,{\be10}When he vanished, Waltz{\rHonorifics - Thoughts\be10}-san{\r\be10} said he'd be back in Kyōto today.
+Dialogue: 0,1:26:50.84,1:26:55.77,Thoughts,,0,0,0,,{\be10}That means he'll have to finish up here by around 8 PM so he can get on the bullet train{shinkansen}.
+Dialogue: 0,1:26:55.77,1:26:58.47,Thoughts,,0,0,0,,{\be10}Damn, I gotta hurry!
+Dialogue: 0,1:26:59.27,1:27:02.02,Dialogue,,0,0,0,,Hi, Cool Kid. I've got new info.
+Dialogue: 0,1:27:02.57,1:27:05.40,Dialogue,,0,0,0,,The Ōsaka Police have arrested Scott Green.
+Dialogue: 0,1:27:06.34,1:27:13.29,Radio,,0,0,0,,{\be10}Apparently Hunter asked him to sneak into Ōsaka and avoid being caught until just now.
+Dialogue: 0,1:27:13.29,1:27:13.79,Radio,,0,0,0,,{\be10}Then like I thought...
+Dialogue: 0,1:27:14.28,1:27:19.71,Dialogue,,0,0,0,,Yes. Apparently he did have some notion that Hunter was in Japan to enact his revenge,
+Dialogue: 0,1:27:19.88,1:27:21.54,Dialogue,,0,0,0,,but when he actually saw him and the determination on his face,
+Dialogue: 0,1:27:22.21,1:27:25.88,Dialogue,,0,0,0,,he decided to help him achieve the closure on his life that he desired so much.
+Dialogue: 0,1:27:25.97,1:27:28.71,Dialogue,,0,0,0,,If he was a decoy, then the sniper must be...
+Dialogue: 0,1:27:28.71,1:27:29.38,Radio,,0,0,0,,{\be10}Yeah!
+Dialogue: 0,1:27:29.38,1:27:33.01,Radio,,0,0,0,,{\be10}Oh, and I've got some new intel from FBI HQ as well.
+Dialogue: 0,1:27:33.01,1:27:39.79,Dialogue,,0,0,0,,Apparently there were reports of Hunter living with an Asian man after he lost his family!
+Dialogue: 0,1:27:39.79,1:27:43.19,Dialogue,,0,0,0,,And if that man was Kevin Yoshino...
+Dialogue: 0,1:27:43.19,1:27:45.70,Radio,,0,0,0,,{\be10}Then he could be behind it all!
+Dialogue: 0,1:27:45.70,1:27:48.15,Dialogue,,0,0,0,,Yeah. Thanks, Jodie{\rHonorifics - Dialogue}-sensei{\r}.
+Dialogue: 0,1:27:48.15,1:27:50.36,Radio,,0,0,0,,{\be10}By the way, where are you now, Conan{\rHonorifics - Radio\be10}-kun{\r\be10}?
+Dialogue: 0,1:27:50.36,1:27:53.36,Dialogue,,0,0,0,,I'm heading to what I think is the next sniping position.
+Dialogue: 0,1:27:53.36,1:27:55.84,Radio,,0,0,0,,{\be10}What?! You solved the riddle of the dice?!
+Dialogue: 0,1:27:55.84,1:28:00.04,Dialogue,,0,0,0,,No, I can't be sure yet, so I'm headed to check, but there's no time...
+Dialogue: 0,1:28:00.04,1:28:02.40,Dialogue,,0,0,0,,Is there any way I can help?
+Dialogue: 0,1:28:02.40,1:28:07.34,Radio,,0,0,0,,{\be10}If my deduction is right, the observation deck of the Bell Tree Tower will be involved again.
+Dialogue: 0,1:28:07.34,1:28:08.30,Dialogue,,0,0,0,,The Bell Tree...
+Dialogue: 0,1:28:08.83,1:28:11.40,Dialogue,,0,0,0,,Okay! We'll head there now!
+Dialogue: 0,1:28:11.40,1:28:11.80,Radio,,0,0,0,,{\be10}Right.
+Dialogue: 0,1:28:11.80,1:28:14.12,Dialogue,,0,0,0,,Just make sure to be careful!
+Dialogue: 0,1:28:14.39,1:28:15.45,Dialogue,,0,0,0,,Let's go.
+Dialogue: 0,1:28:15.45,1:28:16.72,Dialogue,,0,0,0,,Right!
+Dialogue: 0,1:28:24.61,1:28:27.69,Dialogue,,0,0,0,,From the model, it should be somewhere around here...
+Dialogue: 0,1:28:29.15,1:28:30.95,Thoughts,,0,0,0,,{\be10}From the top of that building...
+Dialogue: 0,1:28:31.40,1:28:33.16,Thoughts,,0,0,0,,{\be10}You might be able to see it!
+Dialogue: 0,1:28:46.50,1:28:48.26,Thoughts,,0,0,0,,{\be10}Where's the Bell Tree?!
+Dialogue: 0,1:28:56.13,1:29:00.69,Thoughts,,0,0,0,,{\be10}The building where he shot Fujinami{\rHonorifics - Thoughts\be10}-san{\r\be10}\Nand the building where he shot Yasuhara{\rHonorifics - Thoughts\be10}-san{\r\be10}...
+Dialogue: 0,1:29:01.72,1:29:05.31,Thoughts,,0,0,0,,{\be10}It's just like I thought with the\Nmodel —\hthey make a horizontal line!
+Dialogue: 0,1:29:05.31,1:29:07.57,Thoughts,,0,0,0,,{\be10}And that means...
+Dialogue: 0,1:29:07.94,1:29:13.09,Thoughts,,0,0,0,,{\be10}If I connect up the positions for the third and fourth snipings, it's an isosceles trapezium...
+Dialogue: 0,1:29:13.09,1:29:16.33,Thoughts,,0,0,0,,{\be10}And if I add the first observation deck of the Bell Tree Tower...
+Dialogue: 0,1:29:16.33,1:29:19.75,Thoughts,,0,0,0,,{\be10}That's definitely a pentagon!
+Dialogue: 0,1:29:20.37,1:29:26.98,Thoughts,,0,0,0,,{\be10}If I consider the dice left at each sniping position too, and put the remaining faces at the Bell Tree Tower...
+Dialogue: 0,1:29:28.85,1:29:32.24,Thoughts,,0,0,0,,{\be10}I get it, so that's what it means!
+Dialogue: 0,1:29:32.85,1:29:37.20,Thoughts,,0,0,0,,{\be10}What the sniper wanted to show Waltz{\rHonorifics - Thoughts\be10}-san{\r\be10}, his last target...
+Dialogue: 0,1:29:37.20,1:29:38.10,Thoughts,,0,0,0,,{\be10}Was a star!
+Dialogue: 0,1:29:38.71,1:29:43.17,Thoughts,,0,0,0,,{\be10}A star that represents that Silver Star stolen from Hunter!
+Dialogue: 0,1:29:43.17,1:29:49.03,Thoughts,,0,0,0,,{\be10}Hunter and the sniper intended for Waltz{\rHonorifics - Thoughts\be10}-san{\r\be10} to see this star, the Silver Star, from the very beginning!
+Dialogue: 0,1:29:49.73,1:29:50.74,Dialogue,,0,0,0,,{***this section is all thought in novel, but first bit is spoken in movie}And that means...
+Dialogue: 0,1:29:50.74,1:29:56.32,Thoughts,,0,0,0,,{\be10}There's been a 'one' die at the first observation deck of the Bell Tree Tower all along,
+Dialogue: 0,1:29:56.32,1:30:00.33,Thoughts,,0,0,0,,{\be10}and the sniping position for the sniper's next murder is the first observation deck too!
+Dialogue: 0,1:30:00.33,1:30:01.33,Thoughts,,0,0,0,,{\be10}There!
+Dialogue: 0,1:30:01.33,1:30:03.62,Thoughts,,0,0,0,,{\be10}So the sniper really was...
+Dialogue: 0,1:30:04.38,1:30:06.33,Thoughts,,0,0,0,,{\be10}Kevin Yoshino!
+Dialogue: 0,1:30:06.33,1:30:09.17,Dialogue,,0,0,0,,Damn! Where's he aiming at?!
+Dialogue: 0,1:30:10.02,1:30:15.58,Dialogue,,0,0,0,,A slightly taller building would be able to see the star better...
+Dialogue: 0,1:30:15.58,1:30:17.55,Dialogue,,0,0,0,,That must be where Waltz{\rHonorifics - Dialogue}-san{\r} is going...
+Dialogue: 0,1:30:17.55,1:30:18.76,Dialogue,,0,0,0,,There?!
+Dialogue: 0,1:30:23.10,1:30:26.49,Dialogue,,0,0,0,,Say 'hi' to Hunter in Hell!
+Dialogue: 0,1:30:27.02,1:30:28.94,Thoughts,,0,0,0,,{\be10}Come on, Waltz.
+Dialogue: 0,1:30:28.94,1:30:30.52,Thoughts,,0,0,0,,{\be10}Come to the window...
+Dialogue: 0,1:30:30.52,1:30:34.78,Thoughts,,0,0,0,,{\be10}The mo{r}ment you decipher our message will be your last!
+Dialogue: 0,1:30:37.41,1:30:39.91,Thoughts,,0,0,0,,{\be10}This time I'm going to stop you for sure!
+Dialogue: 0,1:30:40.99,1:30:43.54,Dialogue,,0,0,0,,Today I'll finally be rid of Hunter's ghost...
+Dialogue: 0,1:30:43.54,1:30:45.83,Dialogue,,0,0,0,,Settle the score, once and for all!
+Dialogue: 0,1:30:46.37,1:30:48.27,Dialogue,,0,0,0,,W-W-What the...?!
+Dialogue: 0,1:30:48.70,1:30:51.61,Dialogue,,0,0,0,,T-That wasn't here before...
+Dialogue: 0,1:30:52.58,1:30:55.88,Dialogue,,0,0,0,,Did they leave this for me to see?!
+Dialogue: 0,1:30:57.17,1:31:00.37,Dialogue,,0,0,0,,Go!
+Dialogue: 0,1:31:03.11,1:31:03.97,Dialogue,,0,0,0,,Die!
+Dialogue: 0,1:31:18.70,1:31:19.87,Dialogue,,0,0,0,,What?!
+Dialogue: 0,1:31:19.87,1:31:21.74,Dialogue,,0,0,0,,That flash...
+Dialogue: 0,1:31:22.46,1:31:25.70,Dialogue,,0,0,0,,It came from that building...
+Dialogue: 0,1:31:28.04,1:31:28.04,Dialogue,,0,0,0,,What?!
+Dialogue: 0,1:31:28.58,1:31:31.00,Dialogue,,0,0,0,,That kid, interfering again?!
+Dialogue: 0,1:31:32.67,1:31:34.17,Dialogue,,0,0,0,,Crap!
+Dialogue: 0,1:31:35.12,1:31:35.84,Dialogue,,0,0,0,,You...
+Dialogue: 0,1:31:36.37,1:31:38.62,Dialogue,,0,0,0,,You'll pay for that!
+Dialogue: 0,1:31:38.62,1:31:39.51,Dialogue,,0,0,0,,You brat!
+Dialogue: 0,1:31:41.93,1:31:44.22,Thoughts,,0,0,0,,{\be10}Damn, there's nowhere to hide on this roof!
+Dialogue: 0,1:31:55.15,1:31:57.10,Thoughts,,0,0,0,,{\be10}M-My leg...!
+Dialogue: 0,1:32:02.85,1:32:04.16,Thoughts,,0,0,0,,{\be10}Oh, crap...
+Dialogue: 0,1:32:04.16,1:32:05.79,Thoughts,,0,0,0,,{\be10}You twerp!
+Dialogue: 0,1:32:05.79,1:32:08.88,Thoughts,,0,0,0,,{\be10}You ruined everything! Everything!
+Dialogue: 0,1:32:24.60,1:32:26.60,Dialogue,,0,0,0,,No way! He was sniped?!
+Dialogue: 0,1:32:26.60,1:32:30.48,Dialogue,,0,0,0,,But where could someone even target somewhere that high?!
+Dialogue: 0,1:32:30.48,1:32:31.98,Dialogue,,0,0,0,,From there?!
+Dialogue: 0,1:32:37.41,1:32:40.08,Dialogue,,0,0,0,,Another sniper?!
+Dialogue: 0,1:32:41.24,1:32:43.20,Dialogue,,0,0,0,,But how?!
+Dialogue: 0,1:32:43.20,1:32:48.75,Dialogue,,0,0,0,,The only place with a shot is Asakusa Sky Court...
+Dialogue: 0,1:32:48.75,1:32:51.08,Dialogue,,0,0,0,,But that building is...{too far}
+Dialogue: 0,1:32:51.46,1:32:54.68,Flashback,,0,0,0,,{\be10}Finally, if you shoot from the Bell Tree here, you'll be safe.
+Dialogue: 0,1:32:54.68,1:32:59.92,Flashback,,0,0,0,,{\be10}But what if Waltz figures out the Silver Star message and targets me from the Asakusa Sky Court...?
+Dialogue: 0,1:32:59.92,1:33:01.63,Flashback,,0,0,0,,{\be10}Relax...
+Dialogue: 0,1:33:01.63,1:33:06.89,Flashback,,0,0,0,,{\be10}The one sniper who could make such an distant, upward shot is gone.
+Dialogue: 0,1:33:07.72,1:33:10.99,Flashback,,0,0,0,,{\be10}O-Oh, right. Your eyes, Tim...
+Dialogue: 0,1:33:10.99,1:33:15.06,Flashback,,0,0,0,,{\be10}No. I'd never have been able to pull off a shot with this long a range.
+Dialogue: 0,1:33:15.90,1:33:18.04,Flashback,,0,0,0,,{\be10}Are you saying there was a better sniper than you, Tim?
+Dialogue: 0,1:33:18.04,1:33:20.07,Flashback,,0,0,0,,{\be10}Yeah, in the FBI.
+Dialogue: 0,1:33:20.07,1:33:23.61,Flashback,,0,0,0,,{\be10}They had a sniper with amazing skills, dubbed the 'Silver Bullet'.
+Dialogue: 0,1:33:23.61,1:33:29.83,Flashback,,0,0,0,,{\be10}But you've got nothing to worry about.\NHe's missing, presumed dead.
+Dialogue: 0,1:33:30.88,1:33:33.58,Dialogue,,0,0,0,,I-Impossible... It was him?! {and suddenly the movie gives up on english}
+Dialogue: 0,1:33:34.32,1:33:37.59,Dialogue,,0,0,0,,The Silver Bullet actually appeared?!
+Dialogue: 0,1:33:39.17,1:33:40.59,Dialogue,,0,0,0,,Subaru{\rHonorifics - Dialogue}-san{\r}?!
+Dialogue: 0,1:33:41.30,1:33:42.84,Dialogue,,0,0,0,,Why is he there?!
+Dialogue: 0,1:33:44.02,1:33:49.08,Dialogue,,0,0,0,,I see. Subaru{\rHonorifics - Dialogue}-san{\r} figured out the riddle of the dice too!
+Dialogue: 0,1:33:49.60,1:33:54.35,Dialogue,,0,0,0,,Conan{\rHonorifics - Dialogue}-kun{\r}! We're at the Bell Tree. We're asking to be let up there now.
+Dialogue: 0,1:33:54.35,1:33:59.36,Dialogue,,0,0,0,,Great. Head straight to the roof of the observation deck! Yoshino's there!
+Dialogue: 0,1:33:59.36,1:34:01.53,Dialogue,,0,0,0,,Then he really was the sniper.
+Dialogue: 0,1:34:01.53,1:34:03.74,Radio,,0,0,0,,{\be10}Yeah. So how about it, can you get up there?
+Dialogue: 0,1:34:04.98,1:34:08.24,Dialogue,,0,0,0,,No luck! Apparently the owners have it reserved for today, they won't let us in!
+Dialogue: 0,1:34:08.24,1:34:10.03,Radio,,0,0,0,,{\be10}No luck! Apparently the owners have it reserved for today, they won't let us in!
+Dialogue: 0,1:34:10.03,1:34:11.25,Dialogue,,0,0,0,,That's right...!
+Dialogue: 0,1:34:11.25,1:34:14.25,Dialogue,,0,0,0,,Jodie{\rHonorifics - Dialogue}-sensei{\r}! It's Ran and my friends up there!
+Dialogue: 0,1:34:14.82,1:34:18.50,Dialogue,,0,0,0,,Explain what's going on, come up to the observation deck and arrest Yoshino!
+Dialogue: 0,1:34:18.50,1:34:22.63,Radio,,0,0,0,,{\be10}Got it! I'll get Inspector Megure to make them let us in!
+Dialogue: 0,1:34:23.43,1:34:25.85,Dialogue,,0,0,0,,Wow, it's really beautiful!
+Dialogue: 0,1:34:25.85,1:34:29.26,Dialogue,,0,0,0,,Isn't it? The Bell Tree has the best views at night too!
+Dialogue: 0,1:34:29.26,1:34:30.60,Dialogue,,0,0,0,,It's so cool!
+Dialogue: 0,1:34:30.60,1:34:32.46,Dialogue,,0,0,0,,It's even prettier at night!
+Dialogue: 0,1:34:32.46,1:34:34.27,Dialogue,,0,0,0,,That's right!
+Dialogue: 0,1:34:34.27,1:34:37.39,Dialogue,,0,0,0,,Now, let's go to the other side we haven't photographed yet!
+Dialogue: 0,1:34:37.39,1:34:38.12,Dialogue,,0,0,0,,Yeah!
+Dialogue: 0,1:34:38.12,1:34:39.02,Dialogue,,0,0,0,,Let's go!
+Dialogue: 0,1:34:42.39,1:34:44.28,Thoughts,,0,0,0,,{\be10}S-Shin'ichi?
+Dialogue: 0,1:34:46.53,1:34:49.03,Dialogue,,0,0,0,,So that shot didn't completely neutralise him?
+Dialogue: 0,1:34:53.38,1:34:56.12,Thoughts,,0,0,0,,{\be10}I've come so far, I can't give up now!
+Dialogue: 0,1:34:56.12,1:34:59.16,Thoughts,,0,0,0,,{\be10}I promised Hunter{\rHonorifics - Thoughts\be10}-san{\r\be10}...
+Dialogue: 0,1:35:01.11,1:35:03.04,Flashback,,0,0,0,,{\be10}Good. You've improved.
+Dialogue: 0,1:35:03.04,1:35:05.67,Flashback,,0,0,0,,{\be10}Now all you need is actual experience.
+Dialogue: 0,1:35:05.67,1:35:10.79,Flashback,,0,0,0,,{\be10}Right! I'll start with Brian Woods. And I'll make Waltz pay...!
+Dialogue: 0,1:35:10.79,1:35:12.31,Flashback,,0,0,0,,{\be10}Are you really sure about this?
+Dialogue: 0,1:35:12.31,1:35:12.81,Flashback,,0,0,0,,{\be10}Huh?
+Dialogue: 0,1:35:12.81,1:35:17.44,Flashback,,0,0,0,,{\be10}It's a bit late to worry about it now, but I regret getting you involved...
+Dialogue: 0,1:35:17.44,1:35:19.23,Flashback,,0,0,0,,{\be10}What's got into you, Tim?
+Dialogue: 0,1:35:19.23,1:35:23.11,Flashback,,0,0,0,,{\be10}You saved my life so many times out there on the front line.
+Dialogue: 0,1:35:23.11,1:35:26.43,Flashback,,0,0,0,,{\be10}And now, I finally have a chance to repay you!
+Dialogue: 0,1:35:26.43,1:35:27.61,Flashback,,0,0,0,,{\be10}Still...
+Dialogue: 0,1:35:27.61,1:35:31.53,Flashback,,0,0,0,,{\be10}And I can never forgive Waltz and Murphy.
+Dialogue: 0,1:35:31.53,1:35:39.06,Flashback,,0,0,0,,{\be10}He falsely accused you and took away your Silver Star just because your deeds were overshadowing his!
+Dialogue: 0,1:35:39.06,1:35:45.63,Flashback,,0,0,0,,{\be10}And then just when we asked for the case to be re-opened, he ordered Murphy to kill you!
+Dialogue: 0,1:35:54.45,1:35:56.52,Flashback,,0,0,0,,{\be10}Yeah, that's right...
+Dialogue: 0,1:35:56.52,1:36:02.91,Flashback,,0,0,0,,{\be10}If you hadn't had your suspicions and compared the surgically removed bullet with Murphy's gun,
+Dialogue: 0,1:36:02.91,1:36:05.03,Flashback,,0,0,0,,{\be10}the truth would've stayed forever in the dark.
+Dialogue: 0,1:36:05.03,1:36:09.61,Flashback,,0,0,0,,{\be10}But then they even stole the proof out from under us, and we couldn't do a thing!
+Dialogue: 0,1:36:09.61,1:36:12.07,Flashback,,0,0,0,,{\be10}Kevin, I'll say this one last time.
+Dialogue: 0,1:36:12.07,1:36:18.54,Flashback,,0,0,0,,{\be10}Avenge my wife and sister, and send Waltz and everyone who destroyed my life straight to Hell!
+Dialogue: 0,1:36:18.54,1:36:20.54,Flashback,,0,0,0,,{\be10}Sure! I promise!
+Dialogue: 0,1:36:20.54,1:36:22.25,Flashback,,0,0,0,,{\be10}I'll do it!
+Dialogue: 0,1:36:22.25,1:36:25.46,Flashback,,0,0,0,,{\be10}I'll make sure to send them all to Hell!
+Dialogue: 0,1:36:26.17,1:36:27.38,Flashback,,0,0,0,,{\be10}I'm counting on you!
+Dialogue: 0,1:36:27.63,1:36:31.28,Thoughts,,0,0,0,,{\be10}That's right. I can't give up now!
+Dialogue: 0,1:36:31.28,1:36:34.39,Thoughts,,0,0,0,,{\be10}I can still get away if I use my escape plan...!
+Dialogue: 0,1:36:34.39,1:36:37.39,Thoughts,,0,0,0,,{\be10}And Waltz has to pay!
+Dialogue: 0,1:36:37.39,1:36:40.39,Dialogue,,0,0,0,,Right! So you have to get everyone out of there right now!
+Dialogue: 0,1:36:41.23,1:36:42.37,Radio,,0,0,0,,{\be10}But what about the sniper?
+Dialogue: 0,1:36:42.37,1:36:45.32,Dialogue,,0,0,0,,Don't worry! The FBI are coming up to deal with him!
+Dialogue: 0,1:36:45.32,1:36:47.48,Dialogue,,0,0,0,,Okay, got it!
+Dialogue: 0,1:36:52.87,1:36:54.56,Dialogue,,0,0,0,,The emergency stairs are this way!
+Dialogue: 0,1:36:54.56,1:36:55.74,Dialogue,,0,0,0,,Right.
+Dialogue: 0,1:36:57.49,1:36:59.29,Dialogue,,0,0,0,,Sonoko!
+Dialogue: 0,1:36:59.29,1:37:00.64,Dialogue,,0,0,0,,Who the heck are you?!
+Dialogue: 0,1:37:00.64,1:37:01.92,Dialogue,,0,0,0,,Give us back Ayumi{\rHonorifics - Dialogue}-chan{\r}!
+Dialogue: 0,1:37:01.92,1:37:04.72,Dialogue,,0,0,0,,What're you two doing?! Run and hide!
+Dialogue: 0,1:37:04.72,1:37:05.53,Dialogue,,0,0,0,,But...
+Dialogue: 0,1:37:05.53,1:37:06.34,Dialogue,,0,0,0,,He's got Ayumi!
+Dialogue: 0,1:37:06.34,1:37:07.88,Dialogue,,0,0,0,,Get back, you brats!
+Dialogue: 0,1:37:09.80,1:37:11.13,Dialogue,,0,0,0,,No...
+Dialogue: 0,1:37:11.13,1:37:11.93,Dialogue,,0,0,0,,Sonoko!
+Dialogue: 0,1:37:11.93,1:37:16.30,Dialogue,,0,0,0,,Don't cause any trouble, you brats! Just stay where you are!
+Dialogue: 0,1:37:16.30,1:37:18.65,Dialogue,,0,0,0,,I'm gonna borrow this girl!
+Dialogue: 0,1:37:19.67,1:37:21.14,Dialogue,,0,0,0,,Stay back!
+Dialogue: 0,1:37:21.14,1:37:24.22,Dialogue,,0,0,0,,This is the FBI! Drop your gun!
+Dialogue: 0,1:37:24.22,1:37:28.71,Dialogue,,0,0,0,,Shut up! If you come any closer, I'll kill this girl!
+Dialogue: 0,1:37:29.80,1:37:31.15,Dialogue,,0,0,0,,Muzzle flashes...!
+Dialogue: 0,1:37:31.15,1:37:33.57,Dialogue,,0,0,0,,Damn, he {\i1}still{\i0} hasn't given up?!
+Dialogue: 0,1:37:33.57,1:37:35.82,Dialogue,,0,0,0,,Don't let him head around the back.
+Dialogue: 0,1:37:35.82,1:37:37.58,Dialogue,,0,0,0,,Bring him this way...
+Dialogue: 0,1:37:41.66,1:37:43.12,Dialogue,,0,0,0,,Stop running around!
+Dialogue: 0,1:37:43.12,1:37:45.17,Dialogue,,0,0,0,,You want me to kill the girl?!
+Dialogue: 0,1:37:45.17,1:37:47.13,Dialogue Top,,0,0,0,,Drop your guns and let me through!
+Dialogue: 0,1:37:47.60,1:37:51.44,Dialogue Top,,0,0,0,,{BG}Okay! We'll do what you say, so just calm down! {I literally can't hear this at all}
+Dialogue: 0,1:37:45.72,1:37:48.62,Dialogue,,0,0,0,,All right, we've gotta save Ayumi{\rHonorifics - Dialogue}-chan{\r}!
+Dialogue: 0,1:37:48.62,1:37:49.45,Dialogue,,0,0,0,,Right!
+Dialogue: 0,1:37:49.45,1:37:52.88,Dialogue,,0,0,0,,Don't be stupid! He's got a gun!
+Dialogue: 0,1:37:52.88,1:37:54.89,Thoughts,,0,0,0,,{\be10}But we do have to save her somehow...
+Dialogue: 0,1:37:54.89,1:37:57.55,Dialogue,,0,0,0,,Sonoko! Come on! Sonoko!
+Dialogue: 0,1:37:58.63,1:38:01.10,Thoughts,,0,0,0,,{\be10}What should I do, Shin'ichi?
+Dialogue: 0,1:38:01.10,1:38:02.06,Thoughts,,0,0,0,,{\be10}Help me...
+Dialogue: 0,1:38:02.06,1:38:05.06,Dialogue,,0,0,0,,Damn! I can't do anything from down here!
+Dialogue: 0,1:38:05.06,1:38:06.75,Dialogue,,0,0,0,,That's enough!
+Dialogue: 0,1:38:06.75,1:38:09.19,Dialogue,,0,0,0,,Do it now or I'll kill her!
+Dialogue: 0,1:38:09.19,1:38:13.61,Thoughts,,0,0,0,,{\be10}To ensure successful recovery of hostages, you have to disable the target instantly.
+Dialogue: 0,1:38:13.61,1:38:14.74,Thoughts,,0,0,0,,{\be10}But to do that...
+Dialogue: 0,1:38:14.86,1:38:22.75,Flashback,,0,0,0,,{\be10}There's only one spot where you can kill someone with a single bullet, and cut off all possible convulsions.
+Dialogue: 0,1:38:22.79,1:38:24.21,Flashback,,0,0,0,,{\be10}The brain stem...
+Dialogue: 0,1:38:24.21,1:38:25.54,Flashback,,0,0,0,,{\be10}Right.
+Dialogue: 0,1:38:25.91,1:38:27.71,Thoughts,,0,0,0,,{\be10}I have to do it!
+Dialogue: 0,1:38:27.71,1:38:30.71,Thoughts,,0,0,0,,{\be10}Damn, they won't let me through...
+Dialogue: 0,1:38:31.76,1:38:33.34,Dialogue,,0,0,0,,Jodie{\rHonorifics - Dialogue}-san{\r}!
+Dialogue: 0,1:38:35.63,1:38:36.80,Dialogue,,0,0,0,,Yoshino!
+Dialogue: 0,1:38:38.47,1:38:39.60,Thoughts,,0,0,0,,{\be10}You're mine!
+Dialogue: 0,1:38:55.24,1:38:57.24,Dialogue,,0,0,0,,No! What's going on?!
+Dialogue: 0,1:38:57.82,1:38:59.42,Dialogue,,0,0,0,,I can't see a thing!
+Dialogue: 0,1:38:59.42,1:39:00.57,Dialogue,,0,0,0,,A power cut?!
+Dialogue: 0,1:39:00.57,1:39:02.74,Dialogue,,0,0,0,,Quiet, both of you! Get back!
+Dialogue: 0,1:39:05.75,1:39:08.04,Dialogue,,0,0,0,,Damn! He got the lights!
+Dialogue: 0,1:39:08.04,1:39:09.67,Dialogue,,0,0,0,,Now Subaru{\rHonorifics - Dialogue}-san{\r} can't...
+Dialogue: 0,1:39:10.57,1:39:11.67,Dialogue,,0,0,0,,I see.
+Dialogue: 0,1:39:11.67,1:39:15.67,Dialogue,,0,0,0,,He intends to escape under cover of darkness.
+Dialogue: 0,1:39:16.47,1:39:17.68,Dialogue,,0,0,0,,What should I do?
+Dialogue: 0,1:39:17.68,1:39:18.97,Dialogue,,0,0,0,,We're in trouble!
+Dialogue: 0,1:39:18.97,1:39:21.22,Dialogue,,0,0,0,,He'll end up taking Ayumi with him!
+Dialogue: 0,1:39:21.22,1:39:22.22,Signs,,0,0,0,,NIGHT VISION MODE
+Dialogue: 0,1:39:27.12,1:39:30.31,Thoughts,,0,0,0,,{\be10}Don't tell me... Night-vision goggles?!
+Dialogue: 0,1:39:30.31,1:39:32.60,Dialogue,,0,0,0,,Run, Jodie{\rHonorifics - Dialogue}-sensei{\r}!
+Dialogue: 0,1:39:36.37,1:39:38.66,Dialogue,,0,0,0,,Yoshino! You can't win, so give up!{lit. Resistance is futile!}
+Dialogue: 0,1:39:42.45,1:39:43.87,Dialogue,,0,0,0,,Camel!
+Dialogue: 0,1:39:43.87,1:39:46.28,Dialogue,,0,0,0,,Say something, Camel!
+Dialogue: 0,1:39:46.79,1:39:50.89,Dialogue,,0,0,0,,Damn it, he's going to kill everyone!
+Dialogue: 0,1:39:50.89,1:39:55.88,Thoughts,,0,0,0,,{\be10}If I can just shine light on him somehow, Subaru{\rHonorifics - Thoughts\be10}-san{\r\be10} should be able to snipe him.
+Dialogue: 0,1:39:55.97,1:39:58.38,Thoughts,,0,0,0,,{\be10}But I can't support myself with my leg like this!
+Dialogue: 0,1:39:59.09,1:40:01.73,Thoughts,,0,0,0,,{\be10}How can I let him see Yoshino?
+Dialogue: 0,1:40:01.94,1:40:05.56,Thoughts,,0,0,0,,{\be10}Hold on! Those night-vision goggles are old style ones...
+Dialogue: 0,1:40:05.98,1:40:10.48,Thoughts,,0,0,0,,{\be10}That means I just have to shine light on the Bell Tree!
+Dialogue: 0,1:40:10.48,1:40:11.65,Thoughts,,0,0,0,,{\be10}How about that?!
+Dialogue: 0,1:40:12.83,1:40:16.14,Dialogue,,0,0,0,,If I use this height, it might work!
+Dialogue: 0,1:40:16.14,1:40:19.32,Dialogue,,0,0,0,,No, it {\i1}has{\i0} to work!
+Dialogue: 0,1:40:22.32,1:40:23.82,Dialogue,,0,0,0,,Edogawa{\rHonorifics - Dialogue}-kun{\r}?
+Dialogue: 0,1:40:23.82,1:40:24.80,Dialogue,,0,0,0,,Hello?
+Dialogue: 0,1:40:24.80,1:40:27.95,Radio,,0,0,0,,{\be10}Light! Shine light on the sniper!
+Dialogue: 0,1:40:28.32,1:40:31.37,Dialogue,,0,0,0,,He's wearing night-vision goggles. It'll blind him!
+Dialogue: 0,1:40:31.37,1:40:33.69,Dialogue,,0,0,0,,But where is he...?
+Dialogue: 0,1:40:34.02,1:40:35.77,Radio,,0,0,0,,{\be10}Right. Use that.
+Dialogue: 0,1:40:35.77,1:40:36.71,Dialogue,,0,0,0,,Got it.
+Dialogue: 0,1:40:36.71,1:40:38.59,Radio,,0,0,0,,{\be10}He'll be passing by you soon.
+Dialogue: 0,1:40:38.59,1:40:41.89,Radio,,0,0,0,,{\be10}Don't move for thirty seconds, so he doesn't get suspicious.
+Dialogue: 0,1:40:41.89,1:40:43.39,Radio,,0,0,0,,{\be10}I'm hanging up!
+Dialogue: 0,1:40:43.39,1:40:47.06,Dialogue,,0,0,0,,Listen. You have to stay perfectly still for the next thirty seconds!
+Dialogue: 0,1:40:47.06,1:40:47.06,Dialogue,,0,0,0,,Right.
+Dialogue: 0,1:40:47.51,1:40:48.31,Dialogue,,0,0,0,,Sure!
+Dialogue: 0,1:40:55.82,1:40:58.07,Thoughts,,0,0,0,,{\be10}I'll get one more chance.
+Dialogue: 0,1:40:58.58,1:41:00.82,Thoughts,,0,0,0,,{\be10}I can count on that boy...
+Dialogue: 0,1:41:02.07,1:41:03.82,Thoughts,,0,0,0,,{\be10}Please, let this work...
+Dialogue: 0,1:41:04.56,1:41:05.74,Dialogue,,0,0,0,,You ready?
+Dialogue: 0,1:41:05.74,1:41:07.52,Dialogue,,0,0,0,,Right!
+Dialogue: 0,1:41:07.92,1:41:09.00,Dialogue,,0,0,0,,Here goes!
+Dialogue: 0,1:41:19.17,1:41:21.90,Dialogue,,0,0,0,,Where is it?! Where's it coming from?!
+Dialogue: 0,1:41:21.90,1:41:23.18,Dialogue,,0,0,0,,Hold on!
+Dialogue: 0,1:41:28.47,1:41:29.55,Dialogue,,0,0,0,,Over there!
+Dialogue: 0,1:41:29.55,1:41:30.10,Dialogue,,0,0,0,,All right!
+Dialogue: 0,1:41:30.10,1:41:31.60,Dialogue,,0,0,0,,Here goes!
+Dialogue: 0,1:41:33.19,1:41:33.60,Dialogue,,0,0,0,,Now!
+Dialogue: 0,1:41:34.73,1:41:35.61,Dialogue,,0,0,0,,What?!
+Dialogue: 0,1:41:40.20,1:41:41.86,Dialogue,,0,0,0,,Yoshida{\rHonorifics - Dialogue}-san{\r}, over here!
+Dialogue: 0,1:41:45.41,1:41:47.41,Dialogue,,0,0,0,,Ai{\rHonorifics - Dialogue}-chan{\r}!
+Dialogue: 0,1:41:47.41,1:41:50.33,Dialogue,,0,0,0,,You dumb brats!
+Dialogue: 0,1:41:50.70,1:41:53.12,Dialogue,,0,0,0,,Everybody run!
+Dialogue: 0,1:41:53.63,1:41:54.54,Dialogue,,0,0,0,,Ran{\rHonorifics - Dialogue}-san{\r}!
+Dialogue: 0,1:41:54.54,1:41:56.71,Dialogue,,0,0,0,,Stop, Ran!
+Dialogue: 0,1:42:05.84,1:42:07.12,Dialogue,,0,0,0,,Ran!
+Dialogue: 0,1:42:07.12,1:42:09.85,Dialogue,,0,0,0,,Damn! I can't just sit here!
+Dialogue: 0,1:42:14.23,1:42:16.73,Thoughts,,0,0,0,,{\be10}What should I do, Shin'ichi?
+Dialogue: 0,1:42:23.50,1:42:25.19,Thoughts,,0,0,0,,{\be10}You had to try and be a hero...
+Dialogue: 0,1:42:25.19,1:42:26.61,Thoughts,,0,0,0,,{\be10}Now I've got a new hostage.
+Dialogue: 0,1:42:28.74,1:42:29.88,Dialogue,,0,0,0,,It's now or never...
+Dialogue: 0,1:42:29.88,1:42:31.12,Dialogue,,0,0,0,,I've got to do this!
+Dialogue: 0,1:42:31.12,1:42:32.62,Dialogue,,0,0,0,,Just hold on...
+Dialogue: 0,1:42:33.90,1:42:35.62,Dialogue,,0,0,0,,Ran!
+Dialogue: 0,1:43:07.82,1:43:10.49,Dialogue,,0,0,0,,Go!
+Dialogue: 0,1:43:18.00,1:43:18.88,Dialogue,,0,0,0,,Now!
+Dialogue: 0,1:43:25.67,1:43:26.67,Dialogue,,0,0,0,,Hmph...
+Dialogue: 0,1:43:33.41,1:43:34.35,Dialogue,,0,0,0,,What?!
+Dialogue: 0,1:43:35.06,1:43:36.23,Dialogue,,0,0,0,,What is that?!
+Dialogue: 0,1:43:53.74,1:43:54.74,Dialogue,,0,0,0,,Ran!
+Dialogue: 0,1:43:59.17,1:44:00.75,Dialogue,,0,0,0,,This is for Sonoko!
+Dialogue: 0,1:44:03.92,1:44:06.71,Dialogue,,0,0,0,,And Ayumi{\rHonorifics - Dialogue}-chan{\r}!
+Dialogue: 0,1:44:12.22,1:44:15.64,Dialogue,,0,0,0,,And Sera{\rHonorifics - Dialogue}-san{\r}!
+Dialogue: 0,1:44:25.08,1:44:27.57,Dialogue,,0,0,0,,Right. We've secured Yoshino!
+Dialogue: 0,1:44:30.07,1:44:31.39,Dialogue,,0,0,0,,That was great!
+Dialogue: 0,1:44:31.39,1:44:33.38,Dialogue,,0,0,0,,You were amazing, Ran{\rHonorifics - Dialogue}-san{\r}!
+Dialogue: 0,1:44:33.38,1:44:34.16,Dialogue,,0,0,0,,Ran!
+Dialogue: 0,1:44:34.81,1:44:36.05,Dialogue,,0,0,0,,Sonoko!
+Dialogue: 0,1:44:36.05,1:44:37.41,Dialogue,,0,0,0,,That was so cool, Ran!
+Dialogue: 0,1:44:38.41,1:44:41.05,Dialogue,,0,0,0,,Are you feeling okay, Sonoko?
+Dialogue: 0,1:44:41.05,1:44:43.92,Dialogue,,0,0,0,,I have no idea what's going on, but I'm perfectly fine!
+Dialogue: 0,1:44:43.92,1:44:47.76,Dialogue,,0,0,0,,Huh? Wait, why are the lights out? Was there a power cut...?
+Dialogue: 0,1:44:47.76,1:44:49.92,Dialogue,,0,0,0,,Oh, Sonoko...
+Dialogue: 0,1:44:55.08,1:44:58.44,Dialogue,,0,0,0,,Damn, she's relentless...
+Dialogue: 0,1:44:58.93,1:45:03.08,Dialogue,,0,0,0,,Target silenced. All clear.
+Dialogue: 0,1:45:03.22,1:45:09.40,Radio,,0,0,0,,{\be10}Right. I just heard from Jodie{\rHonorifics - Radio\be10}-kun{\r\be10}. Good work. I'll be in contact again.
+Dialogue: 0,1:45:13.92,1:45:15.44,Dialogue,,0,0,0,,Roger.
+Dialogue: 0,1:48:09.37,1:48:11.48,Dialogue,,0,0,0,,So you're finally going home tomorrow?
+Dialogue: 0,1:48:11.48,1:48:14.34,Dialogue,,0,0,0,,Yeah. Thanks for looking after me for all this time.
+Dialogue: 0,1:48:14.34,1:48:16.38,Dialogue,,0,0,0,,It's fine. Don't worry about it.
+Dialogue: 0,1:48:17.21,1:48:20.80,Dialogue,,0,0,0,,Oh, right. Waltz{\rHonorifics - Dialogue}-san{\r} was on TV.
+Dialogue: 0,1:48:20.80,1:48:27.58,Dialogue,,0,0,0,,Apparently the sniping spree brought to light all of the crimes he committed in his past.
+Dialogue: 0,1:48:27.58,1:48:30.94,Dialogue,,0,0,0,,He'll be spending the rest of his days in prison.
+Dialogue: 0,1:48:30.94,1:48:36.07,Dialogue,,0,0,0,,It turns out that the pair behind the snipings were victims of his, just trying to get revenge.
+Dialogue: 0,1:48:36.07,1:48:37.49,Dialogue,,0,0,0,,Even so, Ran...
+Dialogue: 0,1:48:37.49,1:48:41.60,Dialogue,,0,0,0,,I can't believe you took on that man with a machine gun!
+Dialogue: 0,1:48:41.60,1:48:43.33,Dialogue,,0,0,0,,I was just in a trance...
+Dialogue: 0,1:48:43.33,1:48:46.58,Dialogue,,0,0,0,,Really, I'm glad that you got off with just a few scratches!
+Dialogue: 0,1:48:46.58,1:48:50.52,Dialogue,,0,0,0,,What if a bullet'd gone through your heart?! I can't help but worry...
+Dialogue: 0,1:48:50.52,1:48:53.40,Dialogue,,0,0,0,,Well, you know I've got good luck...
+Dialogue: 0,1:48:53.40,1:48:55.09,Dialogue,,0,0,0,,It'll be fine!
+Dialogue: 0,1:48:55.59,1:49:00.34,Dialogue,,0,0,0,,There's only one man who can snipe Ran{\rHonorifics - Dialogue}-kun{\r}'s heart!
+Dialogue: 0,1:49:03.99,1:49:07.14,Dialogue,,0,0,0,,Right, her beloved Shin'ichi{\rHonorifics - Dialogue}-kun{\r}!
+Dialogue: 0,1:49:07.14,1:49:09.89,Dialogue Top,,0,0,0,,Oh, Sonoko...
+Dialogue: 0,1:49:08.36,1:49:09.89,Thoughts,,0,0,0,,{\be10}For now, anyway...
+Dialogue: 0,1:49:12.40,1:49:14.60,Dialogue,,0,0,0,,Are you okay, Conan{\rHonorifics - Dialogue}-kun{\r}?
+Dialogue: 0,1:49:14.60,1:49:16.92,Dialogue,,0,0,0,,You better not be trying to get out of this.
+Dialogue: 0,1:49:16.92,1:49:21.17,Dialogue,,0,0,0,,You're going to make up for all the work you left us to do!
+Dialogue: 0,1:49:21.17,1:49:22.96,Dialogue,,0,0,0,,Okay, let's go to the pool!
+Dialogue: 0,1:49:22.96,1:49:23.48,Dialogue,,0,0,0,,Sure!
+Dialogue: 0,1:49:23.48,1:49:27.50,Dialogue,,0,0,0,,Sorry about leaving you behind, Haibara{\rHonorifics - Dialogue}-san{\r},\Nbut thanks for agreeing to watch Conan{\rHonorifics - Dialogue}-kun{\r}!
+Dialogue: 0,1:49:27.50,1:49:28.40,Dialogue,,0,0,0,,Sure.
+Dialogue: 0,1:49:28.40,1:49:30.41,Dialogue,,0,0,0,,Your hands aren't moving.
+Dialogue: 0,1:49:30.41,1:49:34.84,Dialogue,,0,0,0,,Don't tell me they expect me to finish this all by myself?!
+Dialogue: 0,1:49:52.64,1:49:58.87,Flashback,,0,0,0,,{\be10\an8\c0}Movie 19 —\hIn Cinemas April 2015

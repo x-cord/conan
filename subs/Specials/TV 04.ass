@@ -1,0 +1,350 @@
+[Script Info]
+Title: Detective Conan - TV 04
+TL Source: Nyaa616038
+ScriptType: v4.00+
+WrapStyle: 3
+PlayResX: 1440
+PlayResY: 1080
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Dialogue,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00401311,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Dialogue Top,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00401311,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,8,30,30,55,1
+Style: Signs,FrancophilSans,74,&H14FFFFFF,&H00FFFFFF,&H46101010,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,8,30,30,55,1
+Style: Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,0,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Radio,FrancophilSans,74,&H00BEE1FF,&H00FFFFFF,&H000B2A42,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Narration,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00BF6F00,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Narration Off,FrancophilSans,74,&H6E8C6F00,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,0,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Flashback,FrancophilSans,74,&H00CDFAFF,&H00FFFFFF,&H00373737,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Flashback Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00CCFFFF,&HC0313134,-1,0,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Honorifics - Dialogue,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00401311,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Signs,FrancophilSans,74,&H14FFFFFF,&H00FFFFFF,&H46101010,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,-1,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Honorifics - Radio,FrancophilSans,74,&H00BEE1FF,&H00FFFFFF,&H000B2A42,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Narration,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00BF6F00,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Narration Off,FrancophilSans,74,&H6E8C6F00,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,-1,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Honorifics - Flashback,FrancophilSans,74,&H00CDFAFF,&H00FFFFFF,&H00373737,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Flashback Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00CCFFFF,&HC0313134,-1,-1,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Masks,FrancophilSans,74,&H00000000,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,2,0,0,0,1
+Style: Title,Conan Episode Title,74,&H00E1E4E3,&H000000FF,&HC8DBDAE1,&HC0000000,-1,0,0,0,100,100,0,0,1,1,0,5,0,0,0,1
+Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-1,0,0,0,100,100,0,0,1,0,0,2,0,0,65,1
+Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
+Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
+Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:12.06,Signs,,0,0,0,,Dimensional Sniper
+Dialogue: 0,0:00:02.55,0:00:05.60,Narration,,0,0,0,,{\be10}Detective Conan celebrates its 20 years!
+Dialogue: 0,0:00:06.04,0:00:09.98,Narration,,0,0,0,,{\be10}This is a special episode for the premiere of {\i1}'Dimensional Sniper'{\i0},
+Dialogue: 0,0:00:09.98,0:00:11.39,Narration,,0,0,0,,{\be10}by Nottv!
+Dialogue: 0,0:00:13.88,0:00:16.56,Narration Off,,0,0,0,,{\be10}Hi, I'm Edogawa Conan.
+Dialogue: 0,0:00:17.20,0:00:21.68,Narration Off,,0,0,0,,{\be10}Have you watched the recently released movie {\i1}'Dimensional Sniper'{\i0} yet?
+Dialogue: 0,0:00:22.50,0:00:28.14,Narration Off,,0,0,0,,{\be10}The case of this movie is set in the tallest tower of Japan, the Bell Tree Tower.
+Dialogue: 0,0:00:28.70,0:00:33.10,Narration Off,,0,0,0,,{\be10}And now, here is the trailer of the movie!
+Dialogue: 0,0:00:35.72,0:00:37.23,Signs,,0,0,0,,It's high!
+Dialogue: 0,0:00:44.30,0:00:45.74,Signs,,0,0,0,,Dimensional Sniper
+Dialogue: 0,0:00:46.11,0:00:47.84,Signs,,0,0,0,,Damn, you can't escape!
+Dialogue: 0,0:00:51.23,0:00:53.20,Narration Off,,0,0,0,,{\be10\a4}That was the beginning of the sniper case...
+Dialogue: 0,0:00:53.73,0:00:54.35,Signs,,0,0,0,,FBI!
+Dialogue: 0,0:00:54.52,0:00:56.54,Narration Off,,0,0,0,,{\be10\a4}... that opened a door to the past.
+Dialogue: 0,0:00:56.87,0:00:57.32,Dialogue,,0,0,0,,What?
+Dialogue: 0,0:00:59.03,0:01:00.65,Dialogue,,0,0,0,,So, we are dealing with a sniper...
+Dialogue: 0,0:01:03.25,0:01:04.76,Dialogue,,0,0,0,,If only Akai{\rHonorifics - Dialogue}-san{\r} was there...
+Dialogue: 0,0:01:06.21,0:01:08.04,Dialogue,,0,0,0,,Sera{\rHonorifics - Dialogue}-neechan{\r}, what are you doing here?
+Dialogue: 0,0:01:13.00,0:01:17.00,Narration Off,,0,0,0,,{\be10\a4}Don't make that face. Whatever happens,\NI'll protect you with my life.
+Dialogue: 0,0:01:14.08,0:01:17.00,Narration Off,,0,0,0,,{\be10}FBI Agent Killed in the Line of Duty
+Dialogue: 0,0:01:14.08,0:01:17.00,Narration Off,,0,0,0,,{\be10}Akai Shuuichi
+Dialogue: 0,0:01:17.65,0:01:18.46,Thoughts,,0,0,0,,{\be10}「Shuu...」
+Dialogue: 0,0:01:17.69,0:01:18.46,Thoughts,,0,0,0,,{\be10}Shuu...
+Dialogue: 0,0:01:19.08,0:01:21.56,Narration Off,,0,0,0,,{\be10\a4}What was the purpose of the sniper who\Ntargeted Akai Shuuichi?
+Dialogue: 0,0:01:21.74,0:01:22.42,Dialogue,,0,0,0,,Conan{\rHonorifics - Dialogue}-kun{\r}...
+Dialogue: 0,0:01:22.85,0:01:25.20,Narration Off,,0,0,0,,{\be10\a4}And the second sniper attack!
+Dialogue: 0,0:01:25.24,0:01:27.52,Dialogue,,0,0,0,,All of Tokyo is in panic!
+Dialogue: 0,0:01:28.36,0:01:30.80,Signs,,0,0,0,,Begin
+Dialogue: 0,0:01:29.48,0:01:30.75,Signs,,0,0,0,,Countdown to Death
+Dialogue: 0,0:01:28.58,0:01:30.88,Dialogue,,0,0,0,,This must be a countdown.
+Dialogue: 0,0:01:30.88,0:01:31.50,Dialogue,,0,0,0,,What do you mean?
+Dialogue: 0,0:01:34.40,0:01:34.98,Dialogue,,0,0,0,,Watch out!
+Dialogue: 0,0:01:37.50,0:01:39.28,Narration Off,,0,0,0,,{\be10\a4}The former FBI sniper is missing!
+Dialogue: 0,0:01:39.64,0:01:41.80,Narration Off,,0,0,0,,{\be10\a4}The hidden truth will be unveiled!
+Dialogue: 0,0:01:41.08,0:01:43.20,Narration Off,,0,0,0,,{\be10}Revealed
+Dialogue: 0,0:01:41.08,0:01:43.20,Narration Off,,0,0,0,,{\be10}Hidden
+Dialogue: 0,0:01:41.08,0:01:43.20,Narration Off,,0,0,0,,{\be10}Truth
+Dialogue: 0,0:01:42.39,0:01:44.20,Thoughts,,0,0,0,,{\be10\a4}Where are you, Shinichi?
+Dialogue: 0,0:01:46.12,0:01:47.36,Thoughts,,0,0,0,,{\be10}Escape, Ran!
+Dialogue: 0,0:01:47.63,0:01:49.26,Thoughts,,0,0,0,,{\be10}Everything depends on you, Cool Kid.
+Dialogue: 0,0:01:49.26,0:01:50.72,Thoughts,,0,0,0,,{\be10}You are our last hope!
+Dialogue: 0,0:01:51.01,0:01:53.98,Thoughts,,0,0,0,,{\be10}The game is over, Detective!
+Dialogue: 0,0:01:55.52,0:01:59.14,Signs,,0,0,0,,Dimensional Sniper
+Dialogue: 0,0:02:00.42,0:02:01.24,Dialogue,,0,0,0,,Shuu{\rHonorifics - Dialogue}-nii{\r}...
+Dialogue: 0,0:02:02.22,0:02:03.10,Thoughts,,0,0,0,,{\be10}Impossible!
+Dialogue: 0,0:02:03.84,0:02:05.89,Narration Off,,0,0,0,,{\be10}This time, it is on Nottv,
+Dialogue: 0,0:02:05.89,0:02:10.52,Narration Off,,0,0,0,,{\be10}for the premiere of the movie {\i1}'Dimensional Sniper'{\i0}.
+Dialogue: 0,0:02:10.97,0:02:15.40,Narration Off,,0,0,0,,{\be10}It had never been animated, except in an opening song of the episodes.
+Dialogue: 0,0:02:15.77,0:02:17.72,Narration Off,,0,0,0,,{\be10}What is its title?
+Dialogue: 0,0:02:18.28,0:02:18.90,Narration Off,,0,0,0,,{\be10}Here it is!
+Dialogue: 0,0:02:22.12,0:02:28.08,Narration Off,,0,0,0,,{\be10}Actually, this story had never been adapted into {\i1}anime{\i0}.
+Dialogue: 0,0:02:28.76,0:02:34.60,Narration Off,,0,0,0,,{\be10}On the phone, you can answer questions about this episode to win presents,
+Dialogue: 0,0:02:35.16,0:02:37.06,Narration Off,,0,0,0,,{\be10}so please pay attention!
+Dialogue: 0,0:02:52.23,0:02:53.48,Dialogue,,0,0,0,,Welcome, Mouri{\rHonorifics - Dialogue}-san{\r}.
+Dialogue: 0,0:02:58.03,0:03:00.04,Dialogue,,0,0,0,,Yes, as usual.
+Dialogue: 0,0:03:07.60,0:03:11.32,Narration Off,,0,0,0,,{\be10}I'm Mouri Kogoro, a detective.
+Dialogue: 0,0:03:12.09,0:03:16.48,Narration Off,,0,0,0,,{\be10}A job where you have to reveal actions that would otherwise have remained secret.
+Dialogue: 0,0:03:20.14,0:03:24.72,Narration Off,,0,0,0,,{\be10}It is easy to cause resentment and be targeted.
+Dialogue: 0,0:03:26.30,0:03:30.96,Narration Off,,0,0,0,,{\be10}Dealing with the idiots who do these kinds of things is also part of the job.
+Dialogue: 0,0:03:32.68,0:03:35.92,Narration Off,,0,0,0,,{\be10}But running away is not my style.
+Dialogue: 0,0:03:37.10,0:03:38.74,Dialogue,,0,0,0,,Thank you for waiting.
+Dialogue: 0,0:03:39.98,0:03:41.16,Dialogue,,0,0,0,,Enjoy your drink.
+Dialogue: 0,0:03:41.44,0:03:46.72,Dialogue,,0,0,0,,By the way, Azusa{\rHonorifics - Dialogue}-kun{\r}, could you please not tell anyone that I was here?
+Dialogue: 0,0:03:47.07,0:03:47.50,Dialogue,,0,0,0,,Huh?
+Dialogue: 0,0:03:48.10,0:03:50.45,Dialogue,,0,0,0,,To be frank,
+Dialogue: 0,0:03:50.85,0:03:53.35,Dialogue,,0,0,0,,I'm being chased.
+Dialogue: 0,0:04:16.58,0:04:17.94,Narration Off,Conan,0,0,0,,{\be10}He sees the single truth for what it is
+Dialogue: 0,0:04:08.70,0:04:12.26,Narration Off,Conan,0,0,0,,{\be10}Only the light of deductions can tear apart black shadows and deep darkness!
+Dialogue: 0,0:04:17.94,0:04:19.76,Narration Off,Conan,0,0,0,,{\be10}and looks like a kid but has the mind of an adult.
+Dialogue: 0,0:04:20.04,0:04:22.28,Narration Off,Conan,0,0,0,,{\be10}His name? Detective Conan!
+Dialogue: 0,0:05:38.76,0:05:39.60,Signs,,0,0,0,,You can't escape!
+Dialogue: 0,0:05:40.54,0:05:42.08,Narration Off,,0,0,0,,{\be10\a4}That was the beginning of the sniper case...
+Dialogue: 0,0:05:41.16,0:05:42.68,Narration Off,,0,0,0,,{\be10}An Incredible
+Dialogue: 0,0:05:41.16,0:05:42.68,Narration Off,,0,0,0,,{\be10}Sniper Incident
+Dialogue: 0,0:05:44.54,0:05:45.20,Dialogue,,0,0,0,,Conan{\rHonorifics - Dialogue}-kun{\r}...
+Dialogue: 0,0:05:45.38,0:05:47.80,Narration Off,,0,0,0,,{\be10\a4}... that opened a door to the past.
+Dialogue: 0,0:05:46.30,0:05:47.84,Narration Off,,0,0,0,,{\be10}Was Sealed
+Dialogue: 0,0:05:46.30,0:05:47.84,Narration Off,,0,0,0,,{\be10}in the Past
+Dialogue: 0,0:05:48.35,0:05:49.08,Dialogue,,0,0,0,,Watch out!
+Dialogue: 0,0:05:50.35,0:05:52.20,Narration Off,,0,0,0,,{\be10\a4}The former FBI sniper is missing!
+Dialogue: 0,0:05:50.93,0:05:52.20,Narration Off,,0,0,0,,{\be10}FBI Agent
+Dialogue: 0,0:05:50.96,0:05:52.20,Narration Off,,0,0,0,,{\be10}Akai Shuuichi
+Dialogue: 0,0:05:52.64,0:05:54.56,Narration Off,,0,0,0,,{\be10\a4}The hidden truth will be unveiled!
+Dialogue: 0,0:05:53.25,0:05:55.04,Narration Off,,0,0,0,,{\be10}Revealed
+Dialogue: 0,0:05:53.25,0:05:55.04,Narration Off,,0,0,0,,{\be10}Hidden
+Dialogue: 0,0:05:53.25,0:05:55.04,Narration Off,,0,0,0,,{\be10}Truth
+Dialogue: 0,0:05:54.60,0:05:55.16,Thoughts,,0,0,0,,{\be10\a4}Shinichi...
+Dialogue: 0,0:05:55.52,0:05:57.08,Thoughts,,0,0,0,,{\be10}Escape, Ran!
+Dialogue: 0,0:05:57.12,0:05:58.34,Thoughts,,0,0,0,,{\be10}It's over.
+Dialogue: 0,0:05:59.92,0:06:02.30,Signs,,0,0,0,,Dimensional Sniper
+Dialogue: 0,0:06:03.49,0:06:04.12,Thoughts,,0,0,0,,{\be10}Impossible!
+Dialogue: 0,0:06:13.09,0:06:14.76,Dialogue,,0,0,0,,Thank you for the cup.
+Dialogue: 0,0:06:19.26,0:06:21.20,Narration Off,,0,0,0,,{\be10}It's not just embarrassing.
+Dialogue: 0,0:06:30.14,0:06:31.28,Dialogue,,0,0,0,,Welcome!
+Dialogue: 0,0:06:31.45,0:06:34.44,Thoughts,,0,0,0,,{\be10}Damn, they are here.
+Dialogue: 0,0:06:35.19,0:06:37.68,Thoughts,,0,0,0,,{\be10}Don't panic, keep calm...
+Dialogue: 0,0:06:38.67,0:06:43.48,Thoughts,,0,0,0,,{\be10}The waitress, Azusa{\rHonorifics - Thoughts\be10}-chan{\r\be10}, said she would cover up my presence here...
+Dialogue: 0,0:06:44.07,0:06:48.92,Thoughts,,0,0,0,,{\be10}Everything is fine. I'll hide here, they'll never find out...
+Dialogue: 0,0:06:49.11,0:06:51.52,Dialogue,,0,0,0,,Oh, Mouri{\rHonorifics - Dialogue}-san{\r}? He's in the toilet...
+Dialogue: 0,0:06:53.02,0:06:55.62,Dialogue,,0,0,0,,Darn it. I wasn't supposed to tell...
+Dialogue: 0,0:07:02.20,0:07:03.20,Thoughts,,0,0,0,,{\be10}Are you kidding...
+Dialogue: 0,0:07:04.89,0:07:07.32,Thoughts,,0,0,0,,{\be10}I didn't come here to get caught!
+Dialogue: 0,0:07:08.14,0:07:12.24,Thoughts,,0,0,0,,{\be10}I just have to make it through today, and everything will be okay.
+Dialogue: 0,0:07:13.37,0:07:17.08,Thoughts,,0,0,0,,{\be10}In any case, I need to find another hiding place!
+Dialogue: 0,0:07:18.08,0:07:21.64,Thoughts,,0,0,0,,{\be10}A place where they can't find me!
+Dialogue: 0,0:07:22.52,0:07:24.00,Thoughts,,0,0,0,,{\be10}A place like that...
+Dialogue: 0,0:07:25.16,0:07:26.66,Thoughts,,0,0,0,,{\be10}... could only be there!
+Dialogue: 0,0:07:42.32,0:07:44.58,Thoughts,,0,0,0,,{\be10}A leaf is hidden in a forest...
+Dialogue: 0,0:07:45.16,0:07:47.45,Thoughts,,0,0,0,,{\be10}... and a person in a crowd!
+Dialogue: 0,0:07:48.18,0:07:52.08,Thoughts,,0,0,0,,{\be10}Those annoying people can never find me here.
+Dialogue: 0,0:07:52.08,0:07:53.32,Thoughts,,0,0,0,,{\be10}As expected from me!
+Dialogue: 0,0:07:57.66,0:08:00.50,Narration Off,,0,0,0,,{\be10}Beika city's resident, Mouri Kogoro{\rHonorifics - Narration Off\be10}-sama{\r\be10},
+Dialogue: 0,0:08:00.70,0:08:02.78,Narration Off,,0,0,0,,{\be10}there is someone waiting for you at Gate 5.
+Dialogue: 0,0:08:04.39,0:08:07.32,Narration Off,,0,0,0,,{\be10}Beika city's resident, Mouri Kogoro{\rHonorifics - Narration Off\be10}-sama{\r\be10},
+Dialogue: 0,0:08:07.32,0:08:09.28,Narration Off,,0,0,0,,{\be10}there is someone waiting for you at Gate 5.
+Dialogue: 0,0:08:06.10,0:08:09.28,Thoughts,,0,0,0,,{\be10}Oh no, they found me.
+Dialogue: 0,0:08:10.96,0:08:12.35,Thoughts,,0,0,0,,{\be10}But it's not a problem.
+Dialogue: 0,0:08:12.35,0:08:15.92,Thoughts,,0,0,0,,{\be10}I'll pretend I didn't hear it!
+Dialogue: 0,0:08:16.76,0:08:21.52,Thoughts,,0,0,0,,{\be10}This is a racecourse, there are 50,000 people here!
+Dialogue: 0,0:08:22.20,0:08:22.68,Dialogue,,0,0,0,,Hey...
+Dialogue: 0,0:08:24.80,0:08:25.60,Dialogue,,0,0,0,,You there.
+Dialogue: 0,0:08:27.75,0:08:31.40,Dialogue,,0,0,0,,Aren't you Mouri Kogoro? The detective?
+Dialogue: 0,0:08:32.26,0:08:33.10,Dialogue,,0,0,0,,Y-yes...
+Dialogue: 0,0:08:33.35,0:08:38.48,Dialogue,,0,0,0,,Then you should get going. Someone's waiting for you at Gate 5.
+Dialogue: 0,0:08:39.48,0:08:40.34,Dialogue,,0,0,0,,Well...
+Dialogue: 0,0:08:41.03,0:08:43.36,Dialogue,,0,0,0,,Huh, isn't it the Sleeping Kogoro?
+Dialogue: 0,0:08:44.07,0:08:44.76,Dialogue,,0,0,0,,Seriously?
+Dialogue: 0,0:08:45.45,0:08:46.26,Dialogue,,0,0,0,,It's really him!
+Dialogue: 0,0:08:46.58,0:08:47.36,Dialogue,,0,0,0,,What?
+Dialogue: 0,0:08:48.14,0:08:50.20,Dialogue,,0,0,0,,Did a criminal take refuge here?
+Dialogue: 0,0:08:50.59,0:08:52.15,Dialogue,,0,0,0,,May I click a photo?
+Dialogue: 0,0:08:52.35,0:08:53.28,Dialogue,,0,0,0,,Me too, me too!
+Dialogue: 0,0:08:54.31,0:08:57.32,Thoughts,,0,0,0,,{\be10}This is not good, I stand out too much...
+Dialogue: 0,0:09:00.80,0:09:02.68,Thoughts,,0,0,0,,{\be10}Damn, what's with this!
+Dialogue: 0,0:09:03.16,0:09:05.60,Thoughts,,0,0,0,,{\be10}These people are smarter than I thought!
+Dialogue: 0,0:09:06.18,0:09:10.08,Thoughts,,0,0,0,,{\be10}I have to go to someone's place, overnight if necessary.
+Dialogue: 0,0:09:11.40,0:09:12.68,Thoughts,,0,0,0,,{\be10}Overnight?
+Dialogue: 0,0:09:14.14,0:09:15.66,Thoughts,,0,0,0,,{\be10}There {\i1}is{\i0} a way!
+Dialogue: 0,0:09:17.00,0:09:17.78,Dialogue,,0,0,0,,Mahjong?
+Dialogue: 0,0:09:18.60,0:09:21.16,Dialogue,,0,0,0,,Play Mahjong today?
+Dialogue: 0,0:09:21.39,0:09:24.00,Dialogue,,0,0,0,,Yeah. When we were in college,
+Dialogue: 0,0:09:24.10,0:09:27.16,Dialogue,,0,0,0,,we used to play at your place. I want to relive those memories.
+Dialogue: 0,0:09:27.68,0:09:28.29,Dialogue,,0,0,0,,Really...
+Dialogue: 0,0:09:29.08,0:09:30.80,Dialogue,,0,0,0,,It's Sunday,
+Dialogue: 0,0:09:30.90,0:09:34.00,Dialogue,,0,0,0,,so no one's busy, but...
+Dialogue: 0,0:09:34.44,0:09:38.13,Dialogue,,0,0,0,,But overnight? I have to do work tomorrow.
+Dialogue: 0,0:09:38.88,0:09:43.15,Dialogue,,0,0,0,,It's all right! Just play until midnight, then everything will be fine...
+Dialogue: 0,0:09:43.96,0:09:44.88,Dialogue,,0,0,0,,Everything will be fine?
+Dialogue: 0,0:09:45.32,0:09:48.80,Dialogue,,0,0,0,,No, I meant that I will win today.
+Dialogue: 0,0:09:49.44,0:09:52.68,Dialogue,,0,0,0,,Well, it's good to know you're coming.
+Dialogue: 0,0:09:53.02,0:09:54.20,Dialogue,,0,0,0,,It's good?
+Dialogue: 0,0:09:54.48,0:09:59.82,Dialogue,,0,0,0,,Yeah. Someone just called, saying they were looking for you.
+Dialogue: 0,0:10:02.19,0:10:03.00,Dialogue,,0,0,0,,What?!
+Dialogue: 0,0:10:04.08,0:10:07.28,Dialogue,,0,0,0,,They said they don't have an appointment today, but if you came by,
+Dialogue: 0,0:10:07.28,0:10:13.06,Dialogue,,0,0,0,,you should contact them, to clear things up.
+Dialogue: 0,0:10:13.50,0:10:16.44,Dialogue,,0,0,0,,Forget it, no more Mahjong!
+Dialogue: 0,0:10:16.88,0:10:19.24,Dialogue,,0,0,0,,Please pretend I didn't call!
+Dialogue: 0,0:10:20.43,0:10:22.56,Thoughts,,0,0,0,,{\be10}Damn, what's their problem?
+Dialogue: 0,0:10:23.40,0:10:28.40,Thoughts,,0,0,0,,{\be10}No doubt they tracked down all the people I know!
+Dialogue: 0,0:10:28.98,0:10:29.72,Thoughts,,0,0,0,,{\be10}What should I do?
+Dialogue: 0,0:10:30.54,0:10:33.00,Thoughts,,0,0,0,,{\be10}Think, think...
+Dialogue: 0,0:10:33.81,0:10:37.08,Thoughts,,0,0,0,,{\be10}of a place where those guys couldn't find me!
+Dialogue: 0,0:10:42.00,0:10:44.62,Dialogue,,0,0,0,,Damn! I'm out of cigarettes!
+Dialogue: 0,0:10:48.00,0:10:48.96,Dialogue,,0,0,0,,That's right!
+Dialogue: 0,0:10:52.48,0:10:56.28,Thoughts,,0,0,0,,{\be10}I found it... the perfect hiding place!
+Dialogue: 0,0:11:22.64,0:11:24.12,Thoughts,,0,0,0,,{\be10}This place is good...
+Dialogue: 0,0:11:25.12,0:11:29.44,Thoughts,,0,0,0,,{\be10}My all-new secret hideout.
+Dialogue: 0,0:11:31.08,0:11:33.96,Thoughts,,0,0,0,,{\be10}What a beautiful Paris style decoration.
+Dialogue: 0,0:11:34.55,0:11:38.10,Thoughts,,0,0,0,,{\be10}The old record playing the music in the background...
+Dialogue: 0,0:11:38.88,0:11:40.92,Thoughts,,0,0,0,,{\be10}So soothing to the heart...
+Dialogue: 0,0:11:44.28,0:11:45.75,Dialogue,,0,0,0,,Enjoy your meal.
+Dialogue: 0,0:11:46.82,0:11:50.82,Thoughts,,0,0,0,,{\be10}Finally, I can enjoy the taste of the French cuisine.
+Dialogue: 0,0:11:51.30,0:11:55.64,Thoughts,,0,0,0,,{\be10}Forget those guys and relax a bit...
+Dialogue: 0,0:11:59.30,0:12:03.64,Dialogue,,0,0,0,,True, it's a really nice restaurant...
+Dialogue: 0,0:12:04.92,0:12:07.60,Dialogue,,0,0,0,,... it's his favourite restaurant.
+Dialogue: 0,0:12:07.75,0:12:08.58,Dialogue,,0,0,0,,Isn't it?
+Dialogue: 0,0:12:10.41,0:12:11.80,Thoughts,,0,0,0,,{\be10}Eri? Ran?
+Dialogue: 0,0:12:12.54,0:12:15.25,Dialogue,,0,0,0,,But did he really tell you that?
+Dialogue: 0,0:12:15.68,0:12:16.90,Dialogue,,0,0,0,,Conan{\rHonorifics - Dialogue}-kun{\r} did!
+Dialogue: 0,0:12:18.19,0:12:23.64,Dialogue,,0,0,0,,He found flyers of this restaurant all over Dad's desk.
+Dialogue: 0,0:12:25.32,0:12:29.06,Thoughts,,0,0,0,,{\be10}Damn, that brat with glasses...
+Dialogue: 0,0:12:29.59,0:12:33.64,Dialogue,,0,0,0,,Huh? Mum, don't you think that person behind you looks like Dad?
+Dialogue: 0,0:12:34.87,0:12:38.72,Dialogue,,0,0,0,,No way. He had work to do today.
+Dialogue: 0,0:12:39.32,0:12:42.02,Dialogue,,0,0,0,,Didn't he say he'd return late this evening?
+Dialogue: 0,0:12:42.65,0:12:47.38,Dialogue,,0,0,0,,What reason would he have to leave work and come to a restaurant?
+Dialogue: 0,0:12:47.59,0:12:48.48,Dialogue,,0,0,0,,That's true.
+Dialogue: 0,0:12:51.84,0:12:55.66,Thoughts,,0,0,0,,{\be10}What is this?! What did I do to deserve this?
+Dialogue: 0,0:12:56.06,0:13:00.19,Thoughts,,0,0,0,,{\be10}God, help me overcome this obstacle!
+Dialogue: 0,0:12:59.90,0:13:01.62,Signs,,0,0,0,,Starring Okino Yoko
+Dialogue: 0,0:12:59.90,0:13:01.62,Signs,,0,0,0,,Nationwide Release
+Dialogue: 0,0:13:08.38,0:13:10.00,Dialogue,,0,0,0,,My Goddess!
+Dialogue: 0,0:13:12.84,0:13:15.38,Thoughts,,0,0,0,,{\be10}As expected from a Yoko{\rHonorifics - Thoughts\be10}-chan{\r\be10} movie...
+Dialogue: 0,0:13:16.02,0:13:17.68,Thoughts,,0,0,0,,{\be10}A blockbuster!
+Dialogue: 0,0:13:18.40,0:13:22.76,Thoughts,,0,0,0,,{\be10}This many people in a dark theatre...
+Dialogue: 0,0:13:23.19,0:13:25.56,Thoughts,,0,0,0,,{\be10}and during the intermission, I'll go to the bathroom to hide,
+Dialogue: 0,0:13:25.76,0:13:29.90,Thoughts,,0,0,0,,{\be10}and wait for the last show at midnight to come out.
+Dialogue: 0,0:13:30.46,0:13:32.94,Dialogue,,0,0,0,,Take a look at the long queue!
+Dialogue: 0,0:13:33.70,0:13:37.60,Dialogue,,0,0,0,,And this is only the first day of release! What a blockbuster!
+Dialogue: 0,0:13:37.95,0:13:39.32,Dialogue,,0,0,0,,Eh? TV camera?
+Dialogue: 0,0:13:40.20,0:13:44.00,Dialogue,,0,0,0,,Now, let's interrogate the spectators in the queue!
+Dialogue: 0,0:13:46.05,0:13:48.10,Dialogue,,0,0,0,,Hello, We're from Nichiuri TV...
+Dialogue: 0,0:13:49.07,0:13:51.18,Thoughts,,0,0,0,,{\be10}Hey, hey, if I'm caught on TV...
+Dialogue: 0,0:13:51.58,0:13:54.20,Thoughts,,0,0,0,,{\be10}it'll be bad!
+Dialogue: 0,0:13:52.07,0:13:56.92,Narration Off,,0,0,0,,{\be10}Ah, it's the famous Detective Mouri!
+Dialogue: 0,0:13:57.22,0:13:58.60,Narration Off,,0,0,0,,{\be10}Er, no...
+Dialogue: 0,0:14:09.07,0:14:12.46,Thoughts,,0,0,0,,{\be10}Those guys would know exactly where I am!
+Dialogue: 0,0:14:15.38,0:14:20.56,Thoughts,,0,0,0,,{\be10}They will come and search the theatre to find me!
+Dialogue: 0,0:14:21.17,0:14:24.08,Thoughts,,0,0,0,,{\be10}Even hiding in the bathroom won't work...
+Dialogue: 0,0:14:24.78,0:14:29.28,Thoughts,,0,0,0,,{\be10}And it'd serve me no good to watch some other movie I don't want to see!
+Dialogue: 0,0:14:30.25,0:14:32.56,Thoughts,,0,0,0,,{\be10}Think, think...
+Dialogue: 0,0:14:33.19,0:14:34.81,Thoughts,,0,0,0,,{\be10}THINK!
+Dialogue: 0,0:14:35.92,0:14:37.80,Thoughts,,0,0,0,,{\be10}There {\i1}has{\i0} to be a place!
+Dialogue: 0,0:14:38.07,0:14:41.80,Thoughts,,0,0,0,,{\be10}A place where those guys cannot find me!
+Dialogue: 0,0:14:43.02,0:14:45.00,Thoughts,,0,0,0,,{\be10}Think!
+Dialogue: 0,0:14:47.80,0:14:49.56,Thoughts,,0,0,0,,{\be10}The Columbo Restaurant;
+Dialogue: 0,0:14:51.80,0:14:53.64,Thoughts,,0,0,0,,{\be10}the Pachinko Hammer;
+Dialogue: 0,0:14:55.80,0:14:57.72,Thoughts,,0,0,0,,{\be10}the liquor shop, Kousuke.
+Dialogue: 0,0:14:59.87,0:15:01.60,Thoughts,,0,0,0,,{\be10}Ah, damn!
+Dialogue: 0,0:15:01.89,0:15:05.00,Thoughts,,0,0,0,,{\be10}They find me no matter where I go!
+Dialogue: 0,0:15:06.37,0:15:08.60,Thoughts,,0,0,0,,{\be10}They even made it to Poirot!
+Dialogue: 0,0:15:10.35,0:15:11.00,Thoughts,,0,0,0,,{\be10}Poirot?
+Dialogue: 0,0:15:12.80,0:15:15.20,Thoughts,,0,0,0,,{\be10}Wait, come to think of it...
+Dialogue: 0,0:15:15.60,0:15:18.48,Thoughts,,0,0,0,,{\be10}They know that I escaped from there.
+Dialogue: 0,0:15:19.57,0:15:25.36,Thoughts,,0,0,0,,{\be10}If it's them, they would think I won't go back!
+Dialogue: 0,0:15:33.40,0:15:36.28,Narration Off,,0,0,0,,{\be10}I am Mouri Kogoro, a detective.
+Dialogue: 0,0:15:45.05,0:15:46.04,Dialogue,,0,0,0,,Mouri{\rHonorifics - Dialogue}-san{\r}!
+Dialogue: 0,0:15:47.16,0:15:51.72,Narration Off,,0,0,0,,{\be10}The chase that took place today... is already over.
+Dialogue: 0,0:15:52.34,0:15:55.68,Narration Off,,0,0,0,,{\be10}And, they weren't able to find me.
+Dialogue: 0,0:15:56.52,0:15:59.96,Dialogue,,0,0,0,,I was so worried! You disappeared just like that...
+Dialogue: 0,0:16:00.42,0:16:02.32,Dialogue,,0,0,0,,Yeah, sorry.
+Dialogue: 0,0:16:03.34,0:16:07.60,Dialogue,,0,0,0,,A client called while I was in the toilet.
+Dialogue: 0,0:16:08.25,0:16:09.52,Dialogue,,0,0,0,,I see.
+Dialogue: 0,0:16:10.03,0:16:13.06,Dialogue,,0,0,0,,But it's good that you're back.
+Dialogue: 0,0:16:14.60,0:16:15.74,Dialogue,,0,0,0,,It's good?
+Dialogue: 0,0:16:23.66,0:16:25.24,Dialogue,,0,0,0,,You're back!
+Dialogue: 0,0:16:27.23,0:16:28.38,Dialogue,,0,0,0,,You guys?!
+Dialogue: 0,0:16:28.72,0:16:33.66,Dialogue,,0,0,0,,If it's Uncle Kogoro, it's either horse racing, Mahjong or Okino Yoko{\rHonorifics - Dialogue}-san{\r}, right?
+Dialogue: 0,0:16:34.11,0:16:37.84,Dialogue,,0,0,0,,First we called your friend at the racecourse,
+Dialogue: 0,0:16:38.18,0:16:43.34,Dialogue,,0,0,0,,but as your phone was switched off, we asked them to announce your name!
+Dialogue: 0,0:16:43.78,0:16:47.30,Dialogue,,0,0,0,,Then, we called your Mahjong friend,
+Dialogue: 0,0:16:47.88,0:16:50.90,Dialogue,,0,0,0,,and asked him to tell us if you called him.
+Dialogue: 0,0:16:51.41,0:16:55.85,Dialogue,,0,0,0,,Yes, and when Ran{\rHonorifics - Dialogue}-neechan{\r} and Auntie Eri\Nsaid they were going to eat out,
+Dialogue: 0,0:16:55.85,0:16:59.76,Dialogue,,0,0,0,,Conan{\rHonorifics - Dialogue}-kun{\r} told them the name of your favourite restaurant!
+Dialogue: 0,0:17:00.20,0:17:03.69,Dialogue,,0,0,0,,Well, being at Okino Yoko's movie premiere...
+Dialogue: 0,0:17:03.69,0:17:07.38,Dialogue,,0,0,0,,... was rather risky, as you might get caught on TV.
+Dialogue: 0,0:17:07.92,0:17:11.52,Dialogue,,0,0,0,,And I thought you'll end up coming back here again!
+Dialogue: 0,0:17:11.74,0:17:14.56,Dialogue,,0,0,0,,Of course we thought of every possible place you could have gone...
+Dialogue: 0,0:17:15.78,0:17:16.72,Dialogue,,0,0,0,,I see.
+Dialogue: 0,0:17:16.85,0:17:18.00,Dialogue,,0,0,0,,So, now...
+Dialogue: 0,0:17:21.60,0:17:23.40,Dialogue,,0,0,0,,Our New Year envelopes!
+Dialogue: 0,0:17:21.60,0:17:25.96,Dialogue Top,,0,0,0,,{\fs16\a7\fad(0,100)}On New Year's Day, Japanese people have a custom of giving money to children. This is known as {\i1}'otoshidama'{\i0}. It is handed out in small decorated envelopes.
+Dialogue: 0,0:17:23.78,0:17:26.08,Dialogue,,0,0,0,,You promised us last year!
+Dialogue: 0,0:17:26.38,0:17:29.48,Dialogue,,0,0,0,,That if you meet us on New Year, you'll give it to us!
+Dialogue: 0,0:17:29.58,0:17:33.18,Dialogue,,0,0,0,,In Kantou, New Year's holiday is until the 7th!
+Dialogue: 0,0:17:34.20,0:17:37.20,Dialogue,,0,0,0,,B-but I didn't bring the envelopes...
+Dialogue: 0,0:17:37.64,0:17:38.60,Dialogue,,0,0,0,,I've brought them!
+Dialogue: 0,0:17:40.06,0:17:43.10,Dialogue,,0,0,0,,They were cheap, so I bought them just in case...
+Dialogue: 0,0:17:43.86,0:17:44.64,Dialogue,,0,0,0,,Okay...
+Dialogue: 0,0:17:45.43,0:17:47.92,Dialogue,,0,0,0,,Here you are. Use them wisely!
+Dialogue: 0,0:17:47.99,0:17:49.29,Dialogue,,0,0,0,,Thank you!
+Dialogue: 0,0:17:51.05,0:17:52.32,Dialogue,,0,0,0,,You guys don't want one?
+Dialogue: 0,0:17:52.46,0:17:53.52,Dialogue,,0,0,0,,I'll pass.
+Dialogue: 0,0:17:54.00,0:17:55.32,Dialogue,,0,0,0,,Same.
+Dialogue: 0,0:17:59.38,0:18:02.08,Thoughts,,0,0,0,,{\be10}Wait till I get something bigger...
+Dialogue: 0,0:18:05.85,0:18:08.42,Dialogue,,0,0,0,,Doctor, Happy New Year!
+Dialogue: 0,0:18:09.02,0:18:10.68,Dialogue,,0,0,0,,Oh, same to you.
+Dialogue: 0,0:18:11.09,0:18:13.15,Dialogue,,0,0,0,,It's good that you have come.
+Dialogue: 0,0:18:13.15,0:18:16.05,Dialogue,,0,0,0,,But I'm a little busy right now.
+Dialogue: 0,0:18:16.05,0:18:17.65,Dialogue,,0,0,0,,Do - c - tor.
+Dialogue: 0,0:18:19.06,0:18:20.68,Dialogue,,0,0,0,,Happy New Year.
+Dialogue: 0,0:18:21.06,0:18:22.44,Dialogue,,0,0,0,,Same to you!
+Dialogue: 0,0:18:23.83,0:18:26.48,Dialogue,,0,0,0,,What's better than a quiz to celebrate --
+Dialogue: 0,0:18:26.56,0:18:30.52,Dialogue,,0,0,0,,Doctor Agasa. A very Happy New Year to you.
+Dialogue: 0,0:18:32.02,0:18:34.00,Dialogue,,0,0,0,,To begin the new year --
+Dialogue: 0,0:18:34.06,0:18:35.80,Dialogue,,0,0,0,,Happy. New. Year.
+Dialogue: 0,0:18:36.26,0:18:37.62,Dialogue,,0,0,0,,In the beginning of a year --
+Dialogue: 0,0:18:37.62,0:18:39.62,Dialogue,,0,0,0,,Happy New Year, Doctor.
+Dialogue: 0,0:18:41.48,0:18:44.54,Dialogue,,0,0,0,,Alright, I get it. You want your New Year's money.
+Dialogue: 0,0:18:44.92,0:18:47.02,Dialogue,,0,0,0,,You could have clearly said it.
+Dialogue: 0,0:18:47.60,0:18:50.20,Dialogue,,0,0,0,,Here, I prepared one for you.
+Dialogue: 0,0:18:50.65,0:18:51.54,Dialogue,,0,0,0,,Thank you.
+Dialogue: 0,0:18:52.56,0:18:53.88,Dialogue,,0,0,0,,Sorry, for each year.
+Dialogue: 0,0:18:56.19,0:18:57.52,Dialogue,,0,0,0,,N-nothing's inside?
+Dialogue: 0,0:18:58.37,0:19:00.18,Dialogue,,0,0,0,,Look carefully at the bottom.
+Dialogue: 0,0:19:00.70,0:19:02.18,Dialogue,,0,0,0,,Bottom?
+Dialogue: 0,0:19:08.74,0:19:10.20,Dialogue,,0,0,0,,Only 500 yen?!
+Dialogue: 0,0:19:10.20,0:19:12.87,Dialogue,,0,0,0,,That's right, use it well.
+Dialogue: 0,0:19:12.87,0:19:16.00,Dialogue,,0,0,0,,500 yen for a high school student...
+Dialogue: 0,0:19:16.00,0:19:21.46,Dialogue,,0,0,0,,Why, you're still in primary school, Edogawa Conan{\rHonorifics - Dialogue}-kun{\r}.
+Dialogue: 0,0:19:21.46,0:19:22.11,Dialogue,,0,0,0,,Hey!
+Dialogue: 0,0:19:22.11,0:19:24.28,Dialogue,,0,0,0,,Act like a schoolboy, not an adult.
+Dialogue: 0,0:19:24.45,0:19:25.60,Dialogue,,0,0,0,,As if that's possible.
+Dialogue: 0,0:19:25.78,0:19:27.51,Dialogue,,0,0,0,,That's what I do.
+Dialogue: 0,0:19:28.78,0:19:30.00,Dialogue,,0,0,0,,I'm only joking.
+Dialogue: 0,0:20:53.93,0:20:57.20,Narration Off,,0,0,0,,{\be10}Did you enjoy watching {\i1}'The Fugitive: Mouri Kogoro'{\i0}?
+Dialogue: 0,0:20:57.61,0:21:00.56,Narration Off,,0,0,0,,{\be10}Well, it's time for the quiz to win presents!
+Dialogue: 0,0:21:00.88,0:21:04.76,Narration Off,,0,0,0,,{\be10}If you carefully watched this episode, it will be easy!
+Dialogue: 0,0:21:05.32,0:21:06.90,Narration Off,,0,0,0,,{\be10}First question:
+Dialogue: 0,0:21:08.68,0:21:14.80,Narration Off,,0,0,0,,{\be10}The case of the latest film, {\i1}'Dimensional Sniper'{\i0}, is set around the Bell Tree Tower.
+Dialogue: 0,0:21:15.45,0:21:19.52,Narration Off,,0,0,0,,{\be10}A tower was shown in {\i1}'The Fugitive: Mouri Kogoro'{\i0}.
+Dialogue: 0,0:21:19.72,0:21:23.04,Narration Off,,0,0,0,,{\be10}So, what is the real name of this tower?
+Dialogue: 0,0:21:24.37,0:21:27.64,Narration Off,,0,0,0,,{\be10}Do you know it? And now, question 2:
+Dialogue: 0,0:21:29.01,0:21:32.32,Narration Off,,0,0,0,,{\be10}Actually, in {\i1}'The Fugitive: Mouri Kogoro'{\i0},
+Dialogue: 0,0:21:32.32,0:21:35.80,Narration Off,,0,0,0,,{\be10}high school detective girl, Sera Masumi, was shown.
+Dialogue: 0,0:21:36.78,0:21:41.36,Narration Off,,0,0,0,,{\be10}So, what was the colour of her backpack?
+Dialogue: 0,0:21:42.18,0:21:43.60,Narration Off,,0,0,0,,{\be10}(A) {\c&H030304&\3c&H757886&}Black {\i1}(kuro){\i0}
+Dialogue: 0,0:21:44.24,0:21:45.60,Narration Off,,0,0,0,,{\be10}(B) {\c&H4F4FB4&}Red {\i1}(aka){\i0}
+Dialogue: 0,0:21:46.19,0:21:47.72,Narration Off,,0,0,0,,{\be10}(C) {\c&HD6D6E2&}White {\i1}(shiro){\i0}
+Dialogue: 0,0:21:48.21,0:21:49.40,Narration Off,,0,0,0,,{\be10}Do you remember?
+Dialogue: 0,0:21:50.60,0:21:55.94,Narration Off,,0,0,0,,{\be10}People who have answered the questions correctly will get presents!
+Dialogue: 0,0:21:59.52,0:22:03.24,Narration Off,,0,0,0,,{\be10}Here are the ways to contact us. Please don't hesitate!
+Dialogue: 0,0:22:10.58,0:22:14.20,Dialogue,,0,0,0,,There is always only one truth!

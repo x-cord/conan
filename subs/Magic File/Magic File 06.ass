@@ -1,0 +1,470 @@
+[Script Info]
+Title: Detective Conan - Magic File 06
+TL Source: DCTP
+ScriptType: v4.00+
+WrapStyle: 3
+PlayResX: 1440
+PlayResY: 1080
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Dialogue,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00401311,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Dialogue Top,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00401311,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,8,30,30,55,1
+Style: Signs,FrancophilSans,74,&H14FFFFFF,&H00FFFFFF,&H46101010,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,8,30,30,55,1
+Style: Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,0,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Radio,FrancophilSans,74,&H00BEE1FF,&H00FFFFFF,&H000B2A42,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Narration,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00BF6F00,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Narration Off,FrancophilSans,74,&H6E8C6F00,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,0,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Flashback,FrancophilSans,74,&H00CDFAFF,&H00FFFFFF,&H00373737,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Flashback Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00CCFFFF,&HC0313134,-1,0,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Honorifics - Dialogue,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00401311,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Signs,FrancophilSans,74,&H14FFFFFF,&H00FFFFFF,&H46101010,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,-1,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Honorifics - Radio,FrancophilSans,74,&H00BEE1FF,&H00FFFFFF,&H000B2A42,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Narration,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00BF6F00,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Narration Off,FrancophilSans,74,&H6E8C6F00,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,-1,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Honorifics - Flashback,FrancophilSans,74,&H00CDFAFF,&H00FFFFFF,&H00373737,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Flashback Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00CCFFFF,&HC0313134,-1,-1,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Masks,FrancophilSans,74,&H00000000,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,2,0,0,0,1
+Style: Title,Conan Episode Title,74,&H00E1E4E3,&H000000FF,&HC8DBDAE1,&HC0000000,-1,0,0,0,100,100,0,0,1,1,0,5,0,0,0,1
+Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-1,0,0,0,100,100,0,0,1,0,0,2,0,0,65,1
+Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
+Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
+Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:07.65,0:00:08.98,Dialogue,,0,0,0,,Two years ago during the summer.
+Dialogue: 0,0:00:10.19,0:00:13.32,Dialogue,,0,0,0,,Riding a winning streak all the way to the Tokyo Championship...
+Dialogue: 0,0:00:13.32,0:00:15.24,Dialogue,,0,0,0,,Was our Teitan Middle School soccer club.
+Dialogue: 0,0:00:27.96,0:00:29.80,Dialogue,,0,0,0,,Shinichi{\rHonorifics - Dialogue}-kun{\r}'s got swag!
+Dialogue: 0,0:00:41.64,0:00:43.10,Dialogue,,0,0,0,,Yes!
+Dialogue: 0,0:00:45.02,0:00:46.48,Dialogue,,0,0,0,,Shinichi!
+Dialogue: 0,0:00:46.48,0:00:47.06,Dialogue,,0,0,0,,Awesome!
+Dialogue: 0,0:00:47.06,0:00:48.31,Dialogue,,0,0,0,,He's awesome, Ran!
+Dialogue: 0,0:00:59.99,0:01:01.33,Dialogue,,0,0,0,,Here he comes!
+Dialogue: 0,0:01:12.46,0:01:16.30,Dialogue,,0,0,0,,At the last moment, we caught their two-point\Nlead and moved on to the penalty shoot-out.
+Dialogue: 0,0:01:17.13,0:01:17.72,Dialogue,,0,0,0,,However...
+Dialogue: 0,0:01:31.52,0:01:33.23,Dialogue,,0,0,0,,In the end, I missed...
+Dialogue: 0,0:01:39.70,0:01:42.99,Dialogue,,0,0,0,,And lost our chance of victory and the chance\Nto participate in the National Championship.
+Dialogue: 0,0:01:54.34,0:01:55.55,Dialogue,,0,0,0,,You were so close.
+Dialogue: 0,0:01:57.47,0:02:00.85,Dialogue,,0,0,0,,About your last penalty shoot-out,\NI think you did well on the decisive kick.
+Dialogue: 0,0:02:02.35,0:02:03.47,Dialogue,,0,0,0,,Thank you.
+Dialogue: 0,0:02:03.97,0:02:04.64,Dialogue,,0,0,0,,It's Higo!
+Dialogue: 0,0:02:04.85,0:02:10.23,Signs,Sign,0,0,0,,Higo Ryuusuke
+Dialogue: 0,0:02:04.85,0:02:10.23,Signs,Sign,0,0,0,,Endou Rikuo
+Dialogue: 0,0:02:04.85,0:02:10.23,Signs,Sign,0,0,0,,Noir Tokyo Player
+Dialogue: 0,0:02:04.85,0:02:10.23,Signs,Sign,0,0,0,,Noir Tokyo Player
+Dialogue: 0,0:02:05.14,0:02:08.60,Dialogue Top,,0,0,0,,They're Noir Tokyo's Higo Ryuusuke and Endou Rikuo!
+Dialogue: 0,0:02:09.56,0:02:10.23,Dialogue Top,,0,0,0,,How about it?
+Dialogue: 0,0:02:10.81,0:02:15.61,Dialogue,,0,0,0,,Will you considering joining our brothers\Nin Noir Tokyo as we aim for the top?
+Dialogue: 0,0:02:15.99,0:02:18.03,Dialogue,,0,0,0,,Oh, no, that's just...
+Dialogue: 0,0:02:20.16,0:02:20.99,Dialogue,,0,0,0,,Please excuse me.
+Dialogue: 0,0:02:22.32,0:02:23.70,Dialogue,,0,0,0,,Hey...
+Dialogue: 0,0:02:23.70,0:02:24.74,Dialogue,,0,0,0,,Hold it, Kudou...
+Dialogue: 0,0:02:25.41,0:02:26.20,Dialogue,,0,0,0,,Geez...
+Dialogue: 0,0:02:26.20,0:02:26.62,Dialogue,,0,0,0,,Hey.
+Dialogue: 0,0:02:26.95,0:02:27.54,Dialogue,,0,0,0,,You.
+Dialogue: 0,0:02:28.12,0:02:28.58,Dialogue,,0,0,0,,Yes?
+Dialogue: 0,0:02:29.17,0:02:30.37,Dialogue,,0,0,0,,What's his name?
+Dialogue: 0,0:02:30.37,0:02:31.42,Dialogue,,0,0,0,,It's Kudou!
+Dialogue: 0,0:02:31.42,0:02:32.59,Dialogue,,0,0,0,,Kudou Shinichi!
+Dialogue: 0,0:02:34.21,0:02:34.92,Dialogue,,0,0,0,,Kudou...
+Dialogue: 0,0:02:35.50,0:02:36.80,Dialogue,,0,0,0,,Shinichi{\rHonorifics - Dialogue}-kun{\r}, huh?
+Dialogue: 0,0:02:46.06,0:02:52.06,Signs,Sign,0,0,0,,FLOWER OF FANTASISTA
+Dialogue: 0,0:02:52.23,0:02:56.03,Signs,Sign,0,0,0,,1 Week Later
+Dialogue: 0,0:03:01.45,0:03:02.87,Dialogue,,0,0,0,,Good morning!
+Dialogue: 0,0:03:04.07,0:03:05.45,Dialogue,,0,0,0,,Everyone showed up!
+Dialogue: 0,0:03:05.45,0:03:06.45,Dialogue,,0,0,0,,Good.
+Dialogue: 0,0:03:07.45,0:03:09.25,Dialogue,,0,0,0,,3-7-5-5...
+Dialogue: 0,0:03:09.58,0:03:11.25,Dialogue,,0,0,0,,Everyone go-go.
+Dialogue: 0,0:03:09.58,0:03:11.25,Signs,alt,0,0,0,,mi
+Dialogue: 0,0:03:09.58,0:03:11.25,Signs,alt,0,0,0,,na
+Dialogue: 0,0:03:09.58,0:03:11.25,Signs,alt,0,0,0,,go
+Dialogue: 0,0:03:09.58,0:03:11.25,Signs,alt,0,0,0,,go
+Dialogue: 0,0:03:09.58,0:03:11.25,Signs,alt,0,0,0,,(3)
+Dialogue: 0,0:03:09.58,0:03:11.25,Signs,alt,0,0,0,,(7)
+Dialogue: 0,0:03:09.58,0:03:11.25,Signs,alt,0,0,0,,(5)
+Dialogue: 0,0:03:09.58,0:03:11.25,Signs,alt,0,0,0,,(5)
+Dialogue: 0,0:03:17.21,0:03:18.30,Dialogue,,0,0,0,,What's this!?
+Dialogue: 0,0:03:20.84,0:03:25.05,Dialogue,,0,0,0,,"Teitan Middle Soccer Club: the regular players' flaws"?
+Dialogue: 0,0:03:25.39,0:03:26.39,Dialogue,,0,0,0,,What's that, what's that?
+Dialogue: 0,0:03:26.39,0:03:27.47,Dialogue,,0,0,0,,Lemme see, lemme see!
+Dialogue: 0,0:03:29.60,0:03:32.02,Dialogue,,0,0,0,,"Number 1, Goalkeeper: Kikukawa."
+Dialogue: 0,0:03:32.56,0:03:34.36,Dialogue,,0,0,0,,"Unreliable catching."
+Dialogue: 0,0:03:34.36,0:03:35.48,Dialogue,,0,0,0,,Mind your own business!
+Dialogue: 0,0:03:36.32,0:03:38.53,Dialogue,,0,0,0,,"Number 2, Defense: Inoue."
+Dialogue: 0,0:03:38.53,0:03:39.78,Dialogue,,0,0,0,,"Bad at positioning."
+Dialogue: 0,0:03:40.24,0:03:41.24,Dialogue,,0,0,0,,Well, my bad...
+Dialogue: 0,0:03:41.61,0:03:43.91,Dialogue,,0,0,0,,"Number 3, Defense: Shinohara."
+Dialogue: 0,0:03:43.91,0:03:44.95,Dialogue,,0,0,0,,"Overwhelmed when tackled."
+Dialogue: 0,0:03:46.08,0:03:47.87,Dialogue,,0,0,0,,I did lose out a lot...
+Dialogue: 0,0:03:48.45,0:03:50.70,Dialogue,,0,0,0,,"Number 4, Defense: Hiramatsu."
+Dialogue: 0,0:03:50.70,0:03:52.21,Dialogue,,0,0,0,,"Lack of persistence."
+Dialogue: 0,0:03:52.21,0:03:53.50,Dialogue,,0,0,0,,I guess I don't have it.
+Dialogue: 0,0:03:53.50,0:03:55.42,Dialogue,,0,0,0,,Everything here is right on the mark!
+Dialogue: 0,0:03:56.25,0:03:58.17,Dialogue,,0,0,0,,"Number 5, Defense: Tonooka."
+Dialogue: 0,0:03:59.59,0:04:01.09,Dialogue,,0,0,0,,"Amateurish marking."
+Dialogue: 0,0:04:01.09,0:04:02.59,Dialogue,,0,0,0,,"Weak in man-to-man defense."
+Dialogue: 0,0:04:02.59,0:04:04.22,Dialogue,,0,0,0,,"Unable to predict the flow of the game."
+Dialogue: 0,0:04:04.68,0:04:06.80,Dialogue,,0,0,0,,Why is it that only I have as many as three flaws!?
+Dialogue: 0,0:04:06.80,0:04:07.89,Dialogue,,0,0,0,,'Cause you're the captain!
+Dialogue: 0,0:04:10.31,0:04:14.23,Dialogue,,0,0,0,,"Number 6, Midfielder—bracketed substitute: Sugimura."
+Dialogue: 0,0:04:14.81,0:04:16.61,Dialogue,,0,0,0,,"Not enough workout."
+Dialogue: 0,0:04:16.61,0:04:18.02,Dialogue,,0,0,0,,The "substitute" is unnecessary!
+Dialogue: 0,0:04:18.69,0:04:20.57,Dialogue,,0,0,0,,"Number 7, Midfielder: Shouji."
+Dialogue: 0,0:04:20.57,0:04:22.19,Dialogue,,0,0,0,,"Carrying the ball too often."
+Dialogue: 0,0:04:22.19,0:04:23.40,Dialogue,,0,0,0,,True indeed...
+Dialogue: 0,0:04:23.82,0:04:26.12,Dialogue,,0,0,0,,"Number 8, Midfielder: Hama."
+Dialogue: 0,0:04:26.12,0:04:27.99,Dialogue,,0,0,0,,"Lacking precision at kicking."
+Dialogue: 0,0:04:28.91,0:04:31.33,Dialogue,,0,0,0,,"Number 9, Midfielder: Yamaichi."
+Dialogue: 0,0:04:31.33,0:04:33.08,Dialogue,,0,0,0,,"Chasing the ball too often."
+Dialogue: 0,0:04:33.08,0:04:34.37,Dialogue,,0,0,0,,Is it bad to chase it?
+Dialogue: 0,0:04:34.83,0:04:38.21,Dialogue,,0,0,0,,It means instead of chasing down the ball, pay\Nattention to the direction of the pass, see?
+Dialogue: 0,0:04:38.21,0:04:39.55,Dialogue,,0,0,0,,Oh, I see.
+Dialogue: 0,0:04:41.05,0:04:43.80,Dialogue,,0,0,0,,"Number 10, Midfielder: Kudou."
+Dialogue: 0,0:04:43.80,0:04:45.47,Dialogue,,0,0,0,,"Not enough malicia."
+Dialogue: 0,0:04:45.97,0:04:48.47,Dialogue,,0,0,0,,What does "malicia" mean?
+Dialogue: 0,0:04:48.47,0:04:50.81,Dialogue,,0,0,0,,In Portuguese, it means "sneakiness".
+Dialogue: 0,0:04:51.27,0:04:53.89,Dialogue,,0,0,0,,The former Brazil football captain Dunga...
+Dialogue: 0,0:04:53.89,0:04:57.02,Dialogue,,0,0,0,,Once commented that Japanese players are not sneaky enough.
+Dialogue: 0,0:04:57.31,0:04:59.98,Dialogue,,0,0,0,,It's true Kudou, your play is honest to a fault.
+Dialogue: 0,0:04:59.98,0:05:01.90,Dialogue,,0,0,0,,As far as soccer is concerned, that is.
+Dialogue: 0,0:05:01.90,0:05:03.99,Dialogue,,0,0,0,,What do you mean "as far as soccer is concerned"?
+Dialogue: 0,0:05:04.15,0:05:06.78,Dialogue,,0,0,0,,"Number 11, Forward: Oshihara."
+Dialogue: 0,0:05:06.78,0:05:08.20,Dialogue,,0,0,0,,"Underperformed in decisive shots."
+Dialogue: 0,0:05:09.99,0:05:11.08,Dialogue,,0,0,0,,Well said, well said!
+Dialogue: 0,0:05:11.83,0:05:14.00,Dialogue,,0,0,0,,"Number 13, Forward: Mizushima."
+Dialogue: 0,0:05:14.00,0:05:16.50,Dialogue,,0,0,0,,{\i1}Underperformed{\i0} in decisive shots!
+Dialogue: 0,0:05:16.50,0:05:17.92,Dialogue,,0,0,0,,Hey, Mizushima!
+Dialogue: 0,0:05:19.04,0:05:21.59,Dialogue,,0,0,0,,"Does not defend at all," isn't that right?
+Dialogue: 0,0:05:24.59,0:05:26.97,Dialogue,,0,0,0,,Who was the one that did all this scribbling?
+Dialogue: 0,0:05:26.97,0:05:28.47,Dialogue,,0,0,0,,Answer me truthfully!
+Dialogue: 0,0:05:28.47,0:05:29.93,Dialogue,,0,0,0,,I know who you are!
+Dialogue: 0,0:05:31.18,0:05:35.02,Dialogue,,0,0,0,,The culprit, barring Mizushima who's the\Nonly second-year playing as a regular...
+Dialogue: 0,0:05:35.73,0:05:38.15,Dialogue,,0,0,0,,Is one of you first and second-year guys!
+Dialogue: 0,0:05:39.40,0:05:40.56,Dialogue,,0,0,0,,All right?
+Dialogue: 0,0:05:40.56,0:05:43.44,Dialogue,,0,0,0,,Our club room has its windows and door locked.
+Dialogue: 0,0:05:44.15,0:05:48.41,Dialogue,,0,0,0,,And the only ones who know about the\Nfour-digit code to the padlock on the door...
+Dialogue: 0,0:05:48.41,0:05:49.45,Dialogue,,0,0,0,,Are club members.
+Dialogue: 0,0:05:50.03,0:05:51.91,Dialogue,,0,0,0,,All of us know that.
+Dialogue: 0,0:05:52.41,0:05:55.04,Dialogue,,0,0,0,,That means the culprit is an insider.
+Dialogue: 0,0:05:55.04,0:05:57.04,Dialogue,,0,0,0,,No doubt it's someone among you!
+Dialogue: 0,0:05:59.46,0:06:00.75,Dialogue,,0,0,0,,Very well.
+Dialogue: 0,0:06:00.75,0:06:03.05,Dialogue,,0,0,0,,Until the culprit comes forward, each one of you...
+Dialogue: 0,0:06:03.05,0:06:04.80,Dialogue,,0,0,0,,Is banned from participating in our practice!
+Dialogue: 0,0:06:10.76,0:06:12.18,Dialogue,,0,0,0,,This scribbling...
+Dialogue: 0,0:06:12.18,0:06:13.72,Dialogue,,0,0,0,,Is not the work of any of them.
+Dialogue: 0,0:06:16.60,0:06:17.60,Dialogue,,0,0,0,,Take a look at this.
+Dialogue: 0,0:06:23.11,0:06:24.57,Dialogue,,0,0,0,,What is that?
+Dialogue: 0,0:06:24.57,0:06:25.53,Dialogue,,0,0,0,,Chalk?
+Dialogue: 0,0:06:26.15,0:06:29.45,Dialogue,,0,0,0,,Yeah, probably a chalk print from someone's left thumb.
+Dialogue: 0,0:06:30.03,0:06:31.49,Dialogue,,0,0,0,,Someone's left...
+Dialogue: 0,0:06:31.49,0:06:32.24,Dialogue,,0,0,0,,Thumb?
+Dialogue: 0,0:06:32.57,0:06:35.66,Dialogue,,0,0,0,,And, this one here is likely from their left index finger.
+Dialogue: 0,0:06:36.25,0:06:38.08,Dialogue,,0,0,0,,Their left index finger?
+Dialogue: 0,0:06:38.62,0:06:39.71,Dialogue,,0,0,0,,What does that mean?
+Dialogue: 0,0:06:40.17,0:06:41.38,Dialogue,,0,0,0,,In short...
+Dialogue: 0,0:06:41.38,0:06:46.71,Dialogue,,0,0,0,,Initially the culprit, at a height where their\Nhand could reach, wrote down the title.
+Dialogue: 0,0:06:47.76,0:06:50.51,Dialogue,,0,0,0,,Then they kept writing from number 1 and onwards.
+Dialogue: 0,0:06:50.51,0:06:52.51,Dialogue,,0,0,0,,But when they reached the bottom of the board...
+Dialogue: 0,0:06:53.35,0:06:58.68,Dialogue,,0,0,0,,The space for writing numbers 10, 11,\Nand 13 wasn't available anymore.
+Dialogue: 0,0:06:58.68,0:07:02.23,Dialogue,,0,0,0,,As such, without a choice, they brought a chair here...
+Dialogue: 0,0:07:02.23,0:07:05.02,Dialogue,,0,0,0,,And stood on it to continue writing.
+Dialogue: 0,0:07:05.36,0:07:08.03,Dialogue,,0,0,0,,That's why they left their fingerprints on the chair.
+Dialogue: 0,0:07:08.99,0:07:11.07,Dialogue,,0,0,0,,In other words, the culprit has a small build...
+Dialogue: 0,0:07:11.41,0:07:14.62,Dialogue,,0,0,0,,And was holding a piece of chalk in their\Nleft hand—a southpaw, so to speak.
+Dialogue: 0,0:07:15.91,0:07:17.37,Dialogue,,0,0,0,,In that case, the culprit is...
+Dialogue: 0,0:07:17.83,0:07:18.75,Dialogue,,0,0,0,,Hold on.
+Dialogue: 0,0:07:18.75,0:07:21.25,Dialogue,,0,0,0,,There's a first-year kid out there who's a shortie.
+Dialogue: 0,0:07:21.25,0:07:23.00,Dialogue,,0,0,0,,Hey, first-year shortie!
+Dialogue: 0,0:07:25.09,0:07:25.79,Dialogue,,0,0,0,,Me?
+Dialogue: 0,0:07:25.96,0:07:28.09,Dialogue,,0,0,0,,Oh, but he's...
+Dialogue: 0,0:07:31.55,0:07:32.13,Dialogue,,0,0,0,,There!
+Dialogue: 0,0:07:33.26,0:07:34.34,Dialogue,,0,0,0,,See?
+Dialogue: 0,0:07:34.34,0:07:35.05,Dialogue,,0,0,0,,Right-handed.
+Dialogue: 0,0:07:35.55,0:07:37.01,Dialogue,,0,0,0,,So it wasn't him?
+Dialogue: 0,0:07:37.43,0:07:40.18,Dialogue,,0,0,0,,As for someone else who's short and left-handed...
+Dialogue: 0,0:07:41.35,0:07:43.94,Dialogue,,0,0,0,,It wasn't me who wrote those!
+Dialogue: 0,0:07:43.94,0:07:47.32,Dialogue,,0,0,0,,But, if the culprit isn't one of us club members...
+Dialogue: 0,0:07:47.32,0:07:49.61,Dialogue,,0,0,0,,Then is the culprit an outsider?
+Dialogue: 0,0:07:49.61,0:07:51.15,Dialogue,,0,0,0,,No way that's possible!
+Dialogue: 0,0:07:51.15,0:07:52.36,Dialogue,,0,0,0,,How did they sneak into the room?
+Dialogue: 0,0:07:52.61,0:07:55.82,Dialogue,,0,0,0,,Say, it's been bothering me for a while...
+Dialogue: 0,0:07:55.82,0:07:57.83,Dialogue,,0,0,0,,Whenever you unlock, you always chant...
+Dialogue: 0,0:07:58.12,0:07:59.87,Dialogue,,0,0,0,,3-7-5-5...
+Dialogue: 0,0:07:59.87,0:08:01.29,Dialogue,,0,0,0,,Everyone go-go.
+Dialogue: 0,0:07:59.87,0:08:01.29,Signs,alt,0,0,0,,mi
+Dialogue: 0,0:07:59.87,0:08:01.29,Signs,alt,0,0,0,,na
+Dialogue: 0,0:07:59.87,0:08:01.29,Signs,alt,0,0,0,,go
+Dialogue: 0,0:07:59.87,0:08:01.29,Signs,alt,0,0,0,,go
+Dialogue: 0,0:07:59.87,0:08:01.29,Signs,alt,0,0,0,,(3)
+Dialogue: 0,0:07:59.87,0:08:01.29,Signs,alt,0,0,0,,(7)
+Dialogue: 0,0:07:59.87,0:08:01.29,Signs,alt,0,0,0,,(5)
+Dialogue: 0,0:07:59.87,0:08:01.29,Signs,alt,0,0,0,,(5)
+Dialogue: 0,0:08:01.66,0:08:05.67,Dialogue,,0,0,0,,Not to mention you leave the unlocked\Npadlock hanging outside just like that.
+Dialogue: 0,0:08:06.08,0:08:09.76,Dialogue,,0,0,0,,If someone heard or saw what you were\Ndoing, they'd know the number, no?
+Dialogue: 0,0:08:09.76,0:08:11.51,Dialogue,,0,0,0,,Well, but...
+Dialogue: 0,0:08:11.51,0:08:12.72,Dialogue,,0,0,0,,That reminds me, you...
+Dialogue: 0,0:08:12.72,0:08:17.80,Dialogue,,0,0,0,,At the end of one practice before summer vacation, you came\Nback yourself to retrieve something you'd forgotten, right?
+Dialogue: 0,0:08:18.18,0:08:20.77,Dialogue,,0,0,0,,At that time, did you chant 3-7-5-5?
+Dialogue: 0,0:08:21.02,0:08:22.31,Dialogue,,0,0,0,,I did...
+Dialogue: 0,0:08:22.31,0:08:23.39,Dialogue,,0,0,0,,Maybe.
+Dialogue: 0,0:08:23.69,0:08:25.81,Dialogue,,0,0,0,,And did you leave the padlock hanging outside?
+Dialogue: 0,0:08:26.31,0:08:27.56,Dialogue,,0,0,0,,Maybe...
+Dialogue: 0,0:08:27.56,0:08:28.69,Dialogue,,0,0,0,,Might have.
+Dialogue: 0,0:08:34.40,0:08:35.78,Dialogue,,0,0,0,,Well!
+Dialogue: 0,0:08:35.78,0:08:38.41,Dialogue,,0,0,0,,In that case, I'll leave the culprit investigation to Kudou...
+Dialogue: 0,0:08:39.24,0:08:40.99,Dialogue,,0,0,0,,Everyone, get changed and go practice!
+Dialogue: 0,0:08:40.99,0:08:42.45,Dialogue,,0,0,0,,Everyone, go-go!
+Dialogue: 0,0:08:55.18,0:08:56.68,Dialogue,,0,0,0,,Oh, Kudou.
+Dialogue: 0,0:08:56.68,0:08:58.18,Dialogue,,0,0,0,,Done with your practice?
+Dialogue: 0,0:08:58.18,0:08:59.18,Dialogue,,0,0,0,,Yes, sir.
+Dialogue: 0,0:08:59.18,0:09:01.68,Dialogue,,0,0,0,,That final match the other day was a close one.
+Dialogue: 0,0:09:02.06,0:09:03.68,Dialogue,,0,0,0,,Who knew in the end you would...
+Dialogue: 0,0:09:03.68,0:09:04.69,Dialogue,,0,0,0,,Sensei...
+Dialogue: 0,0:09:04.69,0:09:06.65,Dialogue,,0,0,0,,I have something I would like to ask you.
+Dialogue: 0,0:09:09.48,0:09:10.57,Dialogue,,0,0,0,,Let's go home!
+Dialogue: 0,0:09:11.15,0:09:12.15,Dialogue,,0,0,0,,Let's go, let's go!
+Dialogue: 0,0:09:16.24,0:09:17.16,Dialogue,,0,0,0,,Wait up!
+Dialogue: 0,0:09:31.00,0:09:31.63,Dialogue,,0,0,0,,Hey.
+Dialogue: 0,0:09:33.80,0:09:36.38,Dialogue,,0,0,0,,The one who scribbled on the blackboard\Nin our club room was you, right?
+Dialogue: 0,0:09:42.01,0:09:44.98,Signs,Sign,0,0,0,,Sawamura Naomi (13)
+Dialogue: 0,0:09:42.01,0:09:44.98,Signs,Sign,0,0,0,,Teitan Middle School First-Year
+Dialogue: 0,0:09:42.47,0:09:44.98,Dialogue Top,,0,0,0,,How'd you know it was me who did the scribbling?
+Dialogue: 0,0:09:45.48,0:09:47.89,Dialogue,,0,0,0,,There were chalk marks on the chair.
+Dialogue: 0,0:09:47.89,0:09:50.48,Dialogue,,0,0,0,,From a left thumb and a left index finger.
+Dialogue: 0,0:09:50.98,0:09:54.53,Dialogue,,0,0,0,,Then, I deduced that the culprit was\Nleft-handed and had a small build.
+Dialogue: 0,0:09:55.49,0:09:59.49,Dialogue,,0,0,0,,Plus, the club room was neatly cleaned, unlike the way it had been.
+Dialogue: 0,0:09:59.99,0:10:00.99,Dialogue,,0,0,0,,Almost as if...
+Dialogue: 0,0:10:05.91,0:10:06.91,Dialogue,,0,0,0,,Hey, hey!
+Dialogue: 0,0:10:07.41,0:10:09.46,Dialogue,,0,0,0,,A cleanup, a cleanup!
+Dialogue: 0,0:10:09.46,0:10:10.54,Dialogue,,0,0,0,,There!
+Dialogue: 0,0:10:10.54,0:10:11.63,Dialogue,,0,0,0,,Wake up, wake up!
+Dialogue: 0,0:10:13.05,0:10:16.88,Dialogue,,0,0,0,,I didn't even ask you, so don't go around\Ncleaning people's rooms as you please!
+Dialogue: 0,0:10:16.88,0:10:17.84,Dialogue,,0,0,0,,What's wrong with that?
+Dialogue: 0,0:10:18.47,0:10:20.64,Dialogue,,0,0,0,,You really made a big mess!
+Dialogue: 0,0:10:20.64,0:10:22.55,Dialogue,,0,0,0,,This is just like my dad!
+Dialogue: 0,0:10:27.18,0:10:28.77,Dialogue,,0,0,0,,You're a lot like...
+Dialogue: 0,0:10:28.77,0:10:29.56,Dialogue,,0,0,0,,Someone.
+Dialogue: 0,0:10:29.90,0:10:30.81,Dialogue,,0,0,0,,Huh?
+Dialogue: 0,0:10:30.81,0:10:32.48,Dialogue,,0,0,0,,Oh, nothing...
+Dialogue: 0,0:10:32.48,0:10:35.28,Dialogue,,0,0,0,,Anyway, I suspected that a girl was behind it.
+Dialogue: 0,0:10:36.49,0:10:40.24,Dialogue,,0,0,0,,Not to mention what was written all hit the nail on the head.
+Dialogue: 0,0:10:40.24,0:10:45.45,Dialogue,,0,0,0,,That means it was no doubt someone knowledgeable\Nabout soccer and is even actively playing it herself.
+Dialogue: 0,0:10:45.99,0:10:52.79,Dialogue,,0,0,0,,That's why I asked Sakuragi whether there was any girl who came\Nand said she wanted to join the soccer club before summer vacation.
+Dialogue: 0,0:10:52.79,0:10:54.38,Dialogue,,0,0,0,,And then, as I expected...
+Dialogue: 0,0:10:55.13,0:10:57.05,Dialogue,,0,0,0,,Yeah, there was one.
+Dialogue: 0,0:10:57.05,0:10:58.59,Dialogue,,0,0,0,,A first-year girl of small physique.
+Dialogue: 0,0:11:00.43,0:11:02.47,Dialogue,,0,0,0,,So, I asked for the girl's name...
+Dialogue: 0,0:11:03.05,0:11:07.47,Dialogue,,0,0,0,,And from a first-year boy who's a member and\Nyour classmate, I got your approximate address...
+Dialogue: 0,0:11:07.47,0:11:08.98,Dialogue,,0,0,0,,Hence my visit.
+Dialogue: 0,0:11:11.94,0:11:13.27,Dialogue,,0,0,0,,My apologies.
+Dialogue: 0,0:11:13.27,0:11:14.82,Dialogue,,0,0,0,,I was the one who wrote it.
+Dialogue: 0,0:11:15.77,0:11:16.98,Dialogue,,0,0,0,,As I thought.
+Dialogue: 0,0:11:17.28,0:11:21.99,Dialogue,,0,0,0,,At the end of June, I transferred here\Nfrom a middle school in Yokohama.
+Dialogue: 0,0:11:22.91,0:11:28.29,Dialogue,,0,0,0,,I've been playing soccer since I was in kindergarten,\Nand at the middle school there, I was a regular.
+Dialogue: 0,0:11:28.50,0:11:30.46,Dialogue,,0,0,0,,Awesome!
+Dialogue: 0,0:11:30.46,0:11:31.92,Dialogue,,0,0,0,,A regular already since first-year?
+Dialogue: 0,0:11:32.67,0:11:34.50,Dialogue,,0,0,0,,In that middle school...
+Dialogue: 0,0:11:34.50,0:11:36.38,Dialogue,,0,0,0,,Three tenths of the club members are girls.
+Dialogue: 0,0:11:36.38,0:11:41.17,Dialogue,,0,0,0,,So I assumed Teitan Middle would be more or less\Nthe same, but it turned out there are no girls here.
+Dialogue: 0,0:11:42.26,0:11:44.43,Dialogue,,0,0,0,,Our school team is one of the toughest, that's why.
+Dialogue: 0,0:11:44.93,0:11:46.81,Dialogue,,0,0,0,,Girls would chicken out and refuse to join.
+Dialogue: 0,0:11:47.51,0:11:51.77,Dialogue,,0,0,0,,I was a bit hesitant, but I really do want to play soccer.
+Dialogue: 0,0:11:52.19,0:11:54.44,Dialogue,,0,0,0,,That's why I went to see Sakuragi{\rHonorifics - Dialogue}-sensei{\r}.
+Dialogue: 0,0:11:55.23,0:11:56.48,Dialogue,,0,0,0,,And then...
+Dialogue: 0,0:11:58.23,0:11:59.57,Dialogue,,0,0,0,,Here to apply for Manager, right?
+Dialogue: 0,0:12:00.69,0:12:03.07,Dialogue,,0,0,0,,Good timing with the Tokyo Championship coming up next month!
+Dialogue: 0,0:12:03.07,0:12:04.11,Dialogue,,0,0,0,,You'll be welcomed!
+Dialogue: 0,0:12:06.99,0:12:07.99,Dialogue,,0,0,0,,I...
+Dialogue: 0,0:12:09.33,0:12:12.12,Dialogue,,0,0,0,,Was quite shocked after hearing sensei's words.
+Dialogue: 0,0:12:12.66,0:12:18.17,Dialogue,,0,0,0,,"Oh... so girls are not expected to be part of this\Nschool's soccer club members?" was on my mind.
+Dialogue: 0,0:12:18.17,0:12:21.05,Dialogue,,0,0,0,,I already realized that Sakuragi mistook your intention.
+Dialogue: 0,0:12:22.01,0:12:24.05,Dialogue,,0,0,0,,Since he said...
+Dialogue: 0,0:12:25.14,0:12:29.43,Dialogue,,0,0,0,,I told her she's welcome to be our manager,\Nbut that was the last time we spoke.
+Dialogue: 0,0:12:31.85,0:12:33.19,Dialogue,,0,0,0,,I...
+Dialogue: 0,0:12:33.19,0:12:37.02,Dialogue,,0,0,0,,Without much of a choice, decided to\Nwatch your soccer club practice from afar.
+Dialogue: 0,0:12:43.99,0:12:45.49,Dialogue,,0,0,0,,And, what were your thoughts?
+Dialogue: 0,0:12:45.95,0:12:46.45,Dialogue,,0,0,0,,Yes.
+Dialogue: 0,0:12:47.37,0:12:52.00,Dialogue,,0,0,0,,I was thinking, "While this team is indeed at a high\Nlevel, it isn't a challenge that I can't take on."
+Dialogue: 0,0:12:52.62,0:12:56.33,Dialogue,,0,0,0,,But the fact that there are no girls was a huge limiting factor.
+Dialogue: 0,0:12:59.00,0:13:02.59,Dialogue,,0,0,0,,So while I was being indecisive about whether\NI should join or not, summer vacation came around.
+Dialogue: 0,0:13:03.01,0:13:05.01,Dialogue,,0,0,0,,And the Tokyo Championship started.
+Dialogue: 0,0:13:05.72,0:13:08.39,Dialogue,,0,0,0,,I had been watching since the preliminary matches.
+Dialogue: 0,0:13:09.43,0:13:13.31,Dialogue,,0,0,0,,Thanks to your fine play, Kudou{\rHonorifics - Dialogue}-senpai{\r}, Teitan\NMiddle was able to stay on a winning streak.
+Dialogue: 0,0:13:13.85,0:13:17.44,Dialogue,,0,0,0,,But, I was also starting to see the\Nweaknesses of your team little by little.
+Dialogue: 0,0:13:18.61,0:13:21.40,Dialogue,,0,0,0,,And at the final match, our team lost.
+Dialogue: 0,0:13:23.07,0:13:26.32,Dialogue,,0,0,0,,I went to school the next day...
+Dialogue: 0,0:13:26.32,0:13:29.28,Dialogue,,0,0,0,,And wrote everything I observed on your club's blackboard.
+Dialogue: 0,0:13:30.33,0:13:33.45,Dialogue,,0,0,0,,Now that I think back, why did I do such a thing?
+Dialogue: 0,0:13:34.04,0:13:37.92,Dialogue,,0,0,0,,Perhaps it's because I wanted to join the\Nsoccer club but couldn't make up my mind.
+Dialogue: 0,0:13:37.92,0:13:41.67,Dialogue,,0,0,0,,Maybe part of the reason was to vent my frustration?
+Dialogue: 0,0:13:45.51,0:13:46.97,Dialogue,,0,0,0,,What about the combination lock?
+Dialogue: 0,0:13:47.97,0:13:49.34,Dialogue,,0,0,0,,Before summer vacation started...
+Dialogue: 0,0:13:49.34,0:13:53.60,Dialogue,,0,0,0,,I saw the number on the lock Captain Tonooka left\Nhanging outside when he went in the club room.
+Dialogue: 0,0:13:53.60,0:13:55.43,Dialogue,,0,0,0,,As I thought.
+Dialogue: 0,0:13:55.43,0:13:57.69,Dialogue,,0,0,0,,He must have mumbled this when he was opening the lock:
+Dialogue: 0,0:13:57.69,0:13:59.48,Dialogue,,0,0,0,,"Everyone, go-go!"
+Dialogue: 0,0:14:01.73,0:14:04.36,Dialogue,,0,0,0,,But your scribbling was sort of harsh.
+Dialogue: 0,0:14:04.36,0:14:06.03,Dialogue,,0,0,0,,Some of our guys took it real hard.
+Dialogue: 0,0:14:06.70,0:14:07.53,Dialogue,,0,0,0,,I'm sorry.
+Dialogue: 0,0:14:08.91,0:14:10.37,Dialogue,,0,0,0,,You're such a brat, aren't ya?
+Dialogue: 0,0:14:10.37,0:14:11.99,Dialogue,,0,0,0,,The type who likes to bully someone she loves?
+Dialogue: 0,0:14:14.74,0:14:17.29,Dialogue,,0,0,0,,Well, how do you really feel?
+Dialogue: 0,0:14:17.29,0:14:18.37,Dialogue,,0,0,0,,About our final match earlier.
+Dialogue: 0,0:14:19.50,0:14:20.67,Dialogue,,0,0,0,,I was extremely hyped!
+Dialogue: 0,0:14:21.59,0:14:24.75,Dialogue,,0,0,0,,Kudou{\rHonorifics - Dialogue}-senpai{\r}, each time you dribbled\Nand passed through your opponents...
+Dialogue: 0,0:14:24.75,0:14:26.59,Dialogue,,0,0,0,,My body would move simultaneously.
+Dialogue: 0,0:14:27.05,0:14:29.80,Dialogue,,0,0,0,,When you scored a goal, I was super excited!
+Dialogue: 0,0:14:30.68,0:14:33.05,Dialogue,,0,0,0,,That's why, at the end...
+Dialogue: 0,0:14:33.51,0:14:35.56,Dialogue,,0,0,0,,I was so frustrated and mortified.
+Dialogue: 0,0:14:37.27,0:14:40.69,Dialogue,,0,0,0,,Well, do you still have that feeling\Nof wanting to join our soccer club?
+Dialogue: 0,0:14:41.52,0:14:42.31,Dialogue,,0,0,0,,Yes!
+Dialogue: 0,0:14:43.11,0:14:45.73,Dialogue,,0,0,0,,But, since I did something like that...
+Dialogue: 0,0:14:46.28,0:14:47.44,Dialogue,,0,0,0,,Got it.
+Dialogue: 0,0:14:47.44,0:14:50.41,Dialogue,,0,0,0,,While there may be one guy who'd be hard to deal with...
+Dialogue: 0,0:14:50.41,0:14:51.62,Dialogue,,0,0,0,,Just leave it to me.
+Dialogue: 0,0:14:56.45,0:14:57.00,Dialogue,,0,0,0,,All right?
+Dialogue: 0,0:15:01.75,0:15:05.05,Signs,Sign,0,0,0,,Days Later
+Dialogue: 0,0:15:07.30,0:15:08.55,Dialogue,,0,0,0,,And with that said...
+Dialogue: 0,0:15:09.26,0:15:11.97,Dialogue,,0,0,0,,This is our new teammate starting from today—Sawamura.
+Dialogue: 0,0:15:12.22,0:15:14.01,Dialogue,,0,0,0,,I'm Sawamura Naomi.
+Dialogue: 0,0:15:14.01,0:15:15.26,Dialogue,,0,0,0,,Pleased to be friends with all of you.
+Dialogue: 0,0:15:16.43,0:15:19.10,Dialogue,,0,0,0,,And, about my blackboard scribbling...
+Dialogue: 0,0:15:19.60,0:15:20.94,Dialogue,,0,0,0,,Please forgive me.
+Dialogue: 0,0:15:20.94,0:15:22.94,Dialogue,,0,0,0,,It's all right, all right.
+Dialogue: 0,0:15:22.94,0:15:25.40,Dialogue,,0,0,0,,What you wrote about us was all true, anyway.
+Dialogue: 0,0:15:25.52,0:15:28.11,Dialogue,,0,0,0,,Right, the bit about Tonooka was especially epic!
+Dialogue: 0,0:15:28.53,0:15:29.78,Dialogue,,0,0,0,,"Amateurish marking."
+Dialogue: 0,0:15:29.78,0:15:31.36,Dialogue,,0,0,0,,"Weak in man-to-man defense."
+Dialogue: 0,0:15:31.36,0:15:33.03,Dialogue,,0,0,0,,"Unable to predict the flow of the game."
+Dialogue: 0,0:15:34.28,0:15:36.28,Dialogue,,0,0,0,,In other words, you mean he's an idiot!
+Dialogue: 0,0:15:36.45,0:15:37.33,Dialogue,,0,0,0,,Hey, you!
+Dialogue: 0,0:15:37.33,0:15:38.83,Dialogue,,0,0,0,,She didn't say anything like that!
+Dialogue: 0,0:15:40.16,0:15:43.00,Dialogue,,0,0,0,,First and second-years, you shouldn't be laughing!
+Dialogue: 0,0:15:45.71,0:15:47.42,Dialogue,,0,0,0,,What's wrong, Mizushima?
+Dialogue: 0,0:15:47.42,0:15:48.96,Dialogue,,0,0,0,,Something you want to let out?
+Dialogue: 0,0:15:48.96,0:15:50.42,Dialogue,,0,0,0,,Kudou{\rHonorifics - Dialogue}-senpai{\r}...
+Dialogue: 0,0:15:50.42,0:15:53.18,Dialogue,,0,0,0,,Next year, when you and the others leave the team...
+Dialogue: 0,0:15:53.97,0:15:56.18,Dialogue,,0,0,0,,It'll be up to us to aim for a win in the Tokyo Championship.
+Dialogue: 0,0:15:56.64,0:15:57.97,Dialogue,,0,0,0,,Yeah, so?
+Dialogue: 0,0:15:58.35,0:16:00.60,Dialogue,,0,0,0,,And yet a {\i1}girl{\i0} member?
+Dialogue: 0,0:16:00.60,0:16:02.10,Dialogue,,0,0,0,,She'll only slow us down!
+Dialogue: 0,0:16:03.14,0:16:05.06,Dialogue,,0,0,0,,Hey, don't say that!
+Dialogue: 0,0:16:05.06,0:16:08.36,Dialogue,,0,0,0,,If you think she'll slow you down, why\Ndon't you just show her the ropes?
+Dialogue: 0,0:16:08.98,0:16:10.03,Dialogue,,0,0,0,,But...
+Dialogue: 0,0:16:10.49,0:16:15.37,Dialogue,,0,0,0,,Like Mizushima said, we truly want you to\Ntriumph in the Tokyo Championship next year.
+Dialogue: 0,0:16:15.37,0:16:22.16,Dialogue,,0,0,0,,As such, we third-years will be having a practice match today\Nagainst some of you second-years who are would-be regulars.
+Dialogue: 0,0:16:22.16,0:16:24.17,Dialogue,,0,0,0,,The match will last for thirty minutes.
+Dialogue: 0,0:16:24.17,0:16:25.58,Dialogue,,0,0,0,,First-years will be observing!
+Dialogue: 0,0:16:25.58,0:16:26.04,Dialogue,,0,0,0,,Yes!
+Dialogue: 0,0:16:31.51,0:16:33.22,Dialogue,,0,0,0,,Let's go, boys!
+Dialogue: 0,0:16:33.22,0:16:34.30,Dialogue,,0,0,0,,Yeah!
+Dialogue: 0,0:16:42.27,0:16:43.31,Dialogue,,0,0,0,,Mizushima, they're gonna steal!
+Dialogue: 0,0:16:46.10,0:16:47.56,Dialogue,,0,0,0,,First point secured!
+Dialogue: 0,0:16:48.57,0:16:49.57,Dialogue,,0,0,0,,Second point!
+Dialogue: 0,0:16:50.40,0:16:51.53,Dialogue,,0,0,0,,Third point!
+Dialogue: 0,0:16:52.11,0:16:53.57,Dialogue,,0,0,0,,This is our fourth point!
+Dialogue: 0,0:16:54.20,0:16:55.11,Dialogue,,0,0,0,,Damn!
+Dialogue: 0,0:17:02.37,0:17:04.37,Dialogue,,0,0,0,,Kudou, a hat-trick already?
+Dialogue: 0,0:17:04.37,0:17:06.62,Dialogue,,0,0,0,,Your skill is unparalleled, indeed.
+Dialogue: 0,0:17:06.62,0:17:09.13,Dialogue,,0,0,0,,You'll be a badass in next year's Tokyo Championship!
+Dialogue: 0,0:17:13.38,0:17:14.30,Dialogue,,0,0,0,,Ow, ow, oww!
+Dialogue: 0,0:17:14.51,0:17:16.47,Dialogue,,0,0,0,,My leg's cramping up!
+Dialogue: 0,0:17:16.47,0:17:18.34,Dialogue,,0,0,0,,I probably pulled a muscle!
+Dialogue: 0,0:17:18.34,0:17:19.51,Dialogue,,0,0,0,,Hey, hey...
+Dialogue: 0,0:17:19.51,0:17:21.64,Dialogue,,0,0,0,,Geez, you're giving us trouble...
+Dialogue: 0,0:17:21.64,0:17:23.10,Dialogue,,0,0,0,,Oww, can't go on!
+Dialogue: 0,0:17:23.10,0:17:25.14,Dialogue,,0,0,0,,Sorry, but I gotta quit!
+Dialogue: 0,0:17:25.14,0:17:25.77,Dialogue,,0,0,0,,Tonooka!
+Dialogue: 0,0:17:26.14,0:17:27.19,Dialogue,,0,0,0,,Ow, ow, oww!
+Dialogue: 0,0:17:29.56,0:17:30.82,Dialogue,,0,0,0,,What do we do?
+Dialogue: 0,0:17:30.82,0:17:33.07,Dialogue,,0,0,0,,There are only eleven of us third-years!
+Dialogue: 0,0:17:33.07,0:17:35.24,Dialogue,,0,0,0,,No choice here, we'll have to play as ten.
+Dialogue: 0,0:17:35.61,0:17:38.74,Dialogue,,0,0,0,,No, just pick someone from the first-years.
+Dialogue: 0,0:17:38.74,0:17:40.58,Dialogue,,0,0,0,,That's it, Sawamura!
+Dialogue: 0,0:17:40.58,0:17:40.99,Dialogue,,0,0,0,,Yes?
+Dialogue: 0,0:17:41.62,0:17:43.16,Dialogue,,0,0,0,,Take the position in my stead.
+Dialogue: 0,0:17:43.16,0:17:43.91,Dialogue,,0,0,0,,You're Forward!
+Dialogue: 0,0:17:45.00,0:17:46.87,Dialogue,,0,0,0,,There, it's your debut match.
+Dialogue: 0,0:17:47.37,0:17:48.71,Dialogue,,0,0,0,,Give it all you've got!
+Dialogue: 0,0:17:50.25,0:17:50.92,Dialogue,,0,0,0,,Yes!
+Dialogue: 0,0:17:53.05,0:17:54.84,Dialogue,,0,0,0,,Oh, there she is!
+Dialogue: 0,0:17:54.84,0:17:57.76,Dialogue,,0,0,0,,It's that girl over there who was with Shinichi{\rHonorifics - Dialogue}-kun{\r}!
+Dialogue: 0,0:17:58.68,0:17:59.97,Dialogue,,0,0,0,,Isn't she a cute girl?
+Dialogue: 0,0:18:00.43,0:18:01.76,Dialogue,,0,0,0,,Go for it, Sawamura!
+Dialogue: 0,0:18:01.76,0:18:02.93,Dialogue,,0,0,0,,Beat those second-years!
+Dialogue: 0,0:18:05.73,0:18:06.48,Dialogue,,0,0,0,,Sawamura!
+Dialogue: 0,0:18:10.02,0:18:11.77,Dialogue,,0,0,0,,Since you wrote those things about me...
+Dialogue: 0,0:18:11.77,0:18:13.11,Dialogue,,0,0,0,,I've brushed up on my defense!
+Dialogue: 0,0:18:14.19,0:18:15.53,Dialogue,,0,0,0,,Mizushima{\rHonorifics - Dialogue}-kun{\r}...
+Dialogue: 0,0:18:15.53,0:18:17.03,Dialogue,,0,0,0,,Don't you think he's too much?
+Dialogue: 0,0:18:17.03,0:18:18.32,Dialogue,,0,0,0,,Yeah, really...
+Dialogue: 0,0:18:24.83,0:18:25.75,Dialogue,,0,0,0,,Again!?
+Dialogue: 0,0:18:26.79,0:18:27.41,Dialogue,,0,0,0,,She stood up!
+Dialogue: 0,0:18:38.76,0:18:39.55,Dialogue,,0,0,0,,Go!
+Dialogue: 0,0:18:39.55,0:18:41.05,Dialogue,,0,0,0,,Go for it, Sawamura!
+Dialogue: 0,0:18:43.89,0:18:44.72,Dialogue,,0,0,0,,Do your best.
+Dialogue: 0,0:18:56.90,0:18:58.78,Dialogue,,0,0,0,,Sawamura, nice assist!
+Dialogue: 0,0:18:58.78,0:18:59.61,Dialogue,,0,0,0,,Thanks!
+Dialogue: 0,0:19:05.37,0:19:07.25,Dialogue,,0,0,0,,She did well, that girl.
+Dialogue: 0,0:19:11.62,0:19:12.88,Dialogue,,0,0,0,,Mark that Sawamura!
+Dialogue: 0,0:19:14.59,0:19:17.01,Dialogue,,0,0,0,,Oh dear, she's so small we can't see her!
+Dialogue: 0,0:19:17.71,0:19:20.01,Dialogue,,0,0,0,,Shinichi{\rHonorifics - Dialogue}-kun{\r} will probably just work with another guy, right?
+Dialogue: 0,0:19:20.72,0:19:21.76,Dialogue,,0,0,0,,I wonder...
+Dialogue: 0,0:19:34.69,0:19:35.90,Dialogue,,0,0,0,,Awesome!
+Dialogue: 0,0:19:38.86,0:19:40.65,Dialogue,,0,0,0,,Great job, Sawamura!
+Dialogue: 0,0:19:40.65,0:19:42.11,Dialogue,,0,0,0,,Nice first goal!
+Dialogue: 0,0:19:42.11,0:19:43.24,Dialogue,,0,0,0,,You're fantastic!
+Dialogue: 0,0:19:43.66,0:19:48.20,Dialogue,,0,0,0,,You guys, if you don't get a grip, that shortie\Nwill steal away your regular positions!
+Dialogue: 0,0:19:49.00,0:19:51.87,Dialogue,,0,0,0,,Looks like we can look forward to the\NTokyo Championship next year!
+Dialogue: 0,0:19:53.54,0:19:54.13,Dialogue,,0,0,0,,Yeah.
+Dialogue: 0,0:19:55.92,0:19:57.09,Dialogue,,0,0,0,,All right, let's go home.
+Dialogue: 0,0:19:58.21,0:20:00.30,Dialogue,,0,0,0,,Aren't you going to confirm it with Shinichi{\rHonorifics - Dialogue}-kun{\r}?
+Dialogue: 0,0:20:00.80,0:20:02.30,Dialogue,,0,0,0,,Confirm what?
+Dialogue: 0,0:20:03.55,0:20:05.22,Dialogue,,0,0,0,,What do you mean, "what"?
+Dialogue: 0,0:20:06.47,0:20:07.68,Dialogue,,0,0,0,,Hey, Ran...
+Dialogue: 0,0:20:07.68,0:20:09.97,Dialogue,,0,0,0,,Isn't it about time you come of age?
+Dialogue: 0,0:20:10.60,0:20:12.02,Dialogue,,0,0,0,,"Come of age"?
+Dialogue: 0,0:20:13.85,0:20:16.15,Dialogue,,0,0,0,,I'm—telling—you...
+Dialogue: 0,0:20:16.86,0:20:17.57,Dialogue,,0,0,0,,Never mind.
+Dialogue: 0,0:20:18.98,0:20:20.74,Dialogue,,0,0,0,,Hey, what is it?
+Dialogue: 0,0:20:21.24,0:20:22.99,Dialogue,,0,0,0,,Thank you very much!
+Dialogue: 0,0:20:33.21,0:20:39.59,Dialogue Top,ED JP,0,0,0,,Ikura matteitatte kono mise wa
+Dialogue: 0,0:20:33.21,0:20:39.59,Dialogue,ED EN,0,0,0,,No matter how long we wait at this shop
+Dialogue: 0,0:20:41.55,0:20:48.85,Dialogue Top,ED JP,0,0,0,,Dare mo nani mo motte kite wa kurenain dayone
+Dialogue: 0,0:20:41.55,0:20:48.85,Dialogue,ED EN,0,0,0,,No one will come and serve us anything, right?
+Dialogue: 0,0:20:49.43,0:20:53.18,Dialogue Top,ED JP,0,0,0,,Serufu sabisu nan dakara
+Dialogue: 0,0:20:49.43,0:20:53.18,Dialogue,ED EN,0,0,0,,It is self-service after all
+Dialogue: 0,0:20:53.56,0:20:57.44,Dialogue Top,ED JP,0,0,0,,Kono machi mo kono kuni mo
+Dialogue: 0,0:20:53.56,0:20:57.44,Dialogue,ED EN,0,0,0,,Also in this city and country
+Dialogue: 0,0:20:57.90,0:21:04.03,Dialogue Top,ED JP,0,0,0,,Muboubi ni tada ikite kite shimatta ne
+Dialogue: 0,0:20:57.90,0:21:04.03,Dialogue,ED EN,0,0,0,,All of us have come to live defenselessly so far
+Dialogue: 0,0:21:05.41,0:21:13.33,Dialogue Top,ED JP,0,0,0,,Kanashii hodo kyou no yuuhi kirei dane
+Dialogue: 0,0:21:05.41,0:21:13.33,Dialogue,ED EN,0,0,0,,Today's sunset is so sorrowfully beautiful
+Dialogue: 0,0:21:14.04,0:21:21.63,Dialogue Top,ED JP,0,0,0,,Minna suppin datta ano SEVENTEEN DAYS
+Dialogue: 0,0:21:14.04,0:21:21.63,Dialogue,ED EN,0,0,0,,Remembering our 17-year-old days without makeup
+Dialogue: 0,0:21:22.13,0:21:29.85,Dialogue Top,ED JP,0,0,0,,Fushigi na kurai kimi wa dokokara kita no
+Dialogue: 0,0:21:22.13,0:21:29.85,Dialogue,ED EN,0,0,0,,It feels incredible —\hwhere'd you come from?
+Dialogue: 0,0:21:30.56,0:21:39.06,Dialogue Top,ED JP,0,0,0,,Soshite bokura wa doko ni mukatte ikun darou
+Dialogue: 0,0:21:30.56,0:21:39.06,Dialogue,ED EN,0,0,0,,And I wonder where we're headed...
+Dialogue: 0,0:21:45.07,0:21:47.16,Dialogue,,0,0,0,,And then, the second term started.
+Dialogue: 0,0:21:47.66,0:21:52.49,Dialogue,,0,0,0,,Ever since then, that Mizushima guy\Nhas gotten along well with Sawamura.
+Dialogue: 0,0:21:52.49,0:21:58.42,Dialogue,,0,0,0,,But, I gotta say about Sawamura's play of jumping on the\NDefense to serve as her foothold in order to reach higher...
+Dialogue: 0,0:21:58.42,0:22:00.71,Dialogue,,0,0,0,,It's against the rules, strictly speaking.
+Dialogue: 0,0:22:00.71,0:22:04.88,Dialogue,,0,0,0,,But well, you can say it's within bounds of legal physical contact.
+Dialogue: 0,0:22:04.88,0:22:08.13,Dialogue,,0,0,0,,Perhaps that's one of those so-called "malicia" moves.
+Dialogue: 0,0:22:08.13,0:22:10.89,Dialogue,,0,0,0,,That sort of cunningness is something I lack...
+Dialogue: 0,0:22:10.89,0:22:13.43,Dialogue,,0,0,0,,And I feel like I learned a lot from Sawamura.
+Dialogue: 0,0:22:14.97,0:22:17.64,Dialogue,,0,0,0,,You've been talking about that Sawamura girl this entire time.
+Dialogue: 0,0:22:18.14,0:22:20.69,Dialogue,,0,0,0,,Could it be that you maybe like that girl?
+Dialogue: 0,0:22:21.56,0:22:22.48,Dialogue,,0,0,0,,Idiot!
+Dialogue: 0,0:22:24.23,0:22:25.44,Dialogue,,0,0,0,,The one I like {\i1}is{\i0}...
+Dialogue: 0,0:22:28.99,0:22:29.70,Dialogue,,0,0,0,,White...
+Dialogue: 0,0:22:33.49,0:22:34.33,Dialogue,,0,0,0,,Oh, no...
+Dialogue: 0,0:22:35.04,0:22:37.00,Dialogue,,0,0,0,,Hold it, Shinichi!
+Dialogue: 0,0:22:37.83,0:22:39.42,Dialogue,,0,0,0,,I didn't see anything!
+Dialogue: 0,0:22:41.00,0:22:42.59,Dialogue,,0,0,0,,What was I doing, I wonder?

@@ -1,0 +1,362 @@
+[Script Info]
+Title: Detective Conan - OVA 05
+TL Source: DCTP
+ScriptType: v4.00+
+WrapStyle: 3
+PlayResX: 1440
+PlayResY: 1080
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Dialogue,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00401311,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Dialogue Top,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00401311,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,8,30,30,55,1
+Style: Signs,FrancophilSans,74,&H14FFFFFF,&H00FFFFFF,&H46101010,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,8,30,30,55,1
+Style: Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,0,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Radio,FrancophilSans,74,&H00BEE1FF,&H00FFFFFF,&H000B2A42,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Narration,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00BF6F00,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Narration Off,FrancophilSans,74,&H6E8C6F00,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,0,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Flashback,FrancophilSans,74,&H00CDFAFF,&H00FFFFFF,&H00373737,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Flashback Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00CCFFFF,&HC0313134,-1,0,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Honorifics - Dialogue,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00401311,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Signs,FrancophilSans,74,&H14FFFFFF,&H00FFFFFF,&H46101010,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,-1,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Honorifics - Radio,FrancophilSans,74,&H00BEE1FF,&H00FFFFFF,&H000B2A42,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Narration,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00BF6F00,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Narration Off,FrancophilSans,74,&H6E8C6F00,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,-1,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Honorifics - Flashback,FrancophilSans,74,&H00CDFAFF,&H00FFFFFF,&H00373737,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Flashback Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00CCFFFF,&HC0313134,-1,-1,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Masks,FrancophilSans,74,&H00000000,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,2,0,0,0,1
+Style: Title,Conan Episode Title,74,&H00E1E4E3,&H000000FF,&HC8DBDAE1,&HC0000000,-1,0,0,0,100,100,0,0,1,1,0,5,0,0,0,1
+Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-1,0,0,0,100,100,0,0,1,0,0,2,0,0,65,1
+Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
+Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
+Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:04.01,0:00:08.60,Dialogue,,0,0,0,,This video is a special release provided to all of you by Shogakukan.
+Dialogue: 0,0:00:09.56,0:00:15.00,Dialogue,,0,0,0,,When watching this video, please brighten the room and watch at a distance from the TV.
+Dialogue: 0,0:00:23.72,0:00:28.88,Dialogue,,0,0,0,,Last week, you all explored Beika City and found many different stores, right?
+Dialogue: 0,0:00:29.75,0:00:31.50,Dialogue,,0,0,0,,What kind of stores were there?
+Dialogue: 0,0:00:31.50,0:00:32.50,Dialogue,,0,0,0,,A grocery store!
+Dialogue: 0,0:00:32.50,0:00:33.80,Dialogue,,0,0,0,,A flower shop!
+Dialogue: 0,0:00:33.80,0:00:34.92,Dialogue,,0,0,0,,A bakery!
+Dialogue: 0,0:00:34.92,0:00:35.97,Dialogue,,0,0,0,,A supermarket!
+Dialogue: 0,0:00:35.97,0:00:37.13,Dialogue,,0,0,0,,A liquor store!
+Dialogue: 0,0:00:37.13,0:00:40.85,Dialogue,,0,0,0,,Right, Genta{\rHonorifics - Dialogue}-kun{\r}'s family owns a liquor store, right?
+Dialogue: 0,0:00:40.85,0:00:42.90,Dialogue,,0,0,0,,It's called Kojima Liquor Store.
+Dialogue: 0,0:00:44.19,0:00:47.65,Dialogue,,0,0,0,,Now you need to pick one store as your example.
+Dialogue: 0,0:00:47.65,0:00:53.84,Dialogue,,0,0,0,,Find out what the store is selling, the plans of the owners, and so on.
+Dialogue: 0,0:00:54.94,0:00:59.84,Dialogue,,0,0,0,,Of course, it doesn't have to be a store, for example, a post office or a library.
+Dialogue: 0,0:00:59.84,0:01:03.19,Dialogue,,0,0,0,,Ask what kind of work they do, what is difficult about their work...
+Dialogue: 0,0:01:03.19,0:01:06.87,Dialogue,,0,0,0,,Find out as much as you can and then make a presentation about it in the class.
+Dialogue: 0,0:01:07.57,0:01:10.80,Dialogue,,0,0,0,,Well then, you can start discussing which store you're going to pick.
+Dialogue: 0,0:01:10.80,0:01:11.96,Dialogue,,0,0,0,,Okay!
+Dialogue: 0,0:01:12.95,0:01:15.21,Dialogue,,0,0,0,,So, which one will we choose?
+Dialogue: 0,0:01:15.21,0:01:17.14,Dialogue,,0,0,0,,Well...
+Dialogue: 0,0:01:17.14,0:01:19.80,Dialogue,,0,0,0,,I know, let's go to a store that sells rice with eel!
+Dialogue: 0,0:01:19.80,0:01:22.43,Dialogue,,0,0,0,,If we do, they can treat us with delicious food!
+Dialogue: 0,0:01:23.63,0:01:25.19,Dialogue,,0,0,0,,You guys are awesome!
+Dialogue: 0,0:01:25.19,0:01:27.23,Dialogue,,0,0,0,,All right, this one is on Uncle!
+Dialogue: 0,0:01:27.23,0:01:28.58,Dialogue,,0,0,0,,Eh? Where's mine?
+Dialogue: 0,0:01:30.56,0:01:32.21,Dialogue,,0,0,0,,Uh, Genta{\rHonorifics - Dialogue}-kun{\r}...
+Dialogue: 0,0:01:32.21,0:01:36.10,Dialogue,,0,0,0,,Thanks for the food!
+Dialogue: 0,0:01:37.02,0:01:40.07,Dialogue,,0,0,0,,Something like that.
+Dialogue: 0,0:01:40.07,0:01:42.39,Dialogue,,0,0,0,,That's impossible, Genta{\rHonorifics - Dialogue}-kun{\r}.
+Dialogue: 0,0:01:42.39,0:01:45.02,Dialogue,,0,0,0,,That is so Genta{\rHonorifics - Dialogue}-kun{\r}.
+Dialogue: 0,0:01:45.02,0:01:47.15,Dialogue,,0,0,0,,But I think it's possible.
+Dialogue: 0,0:01:47.15,0:01:49.88,Dialogue,,0,0,0,,Ai{\rHonorifics - Dialogue}-chan{\r}, where do you think we should go?
+Dialogue: 0,0:01:49.94,0:01:52.00,Dialogue,,0,0,0,,That's right! What do you think, Haibara{\rHonorifics - Dialogue}-san{\r}?
+Dialogue: 0,0:01:52.00,0:01:57.36,Dialogue,,0,0,0,,Well, I would be interested to go to that beauty salon in front of the station.
+Dialogue: 0,0:01:58.78,0:02:00.26,Dialogue,,0,0,0,,B-Beauty...
+Dialogue: 0,0:02:00.26,0:02:04.09,Dialogue,,0,0,0,,Beauty saloon? In front of the station?
+Dialogue: 0,0:02:04.09,0:02:05.28,Dialogue,,0,0,0,,In front of the station?
+Dialogue: 0,0:02:06.35,0:02:08.45,Dialogue,,0,0,0,,What is it, Mitsuhiko{\rHonorifics - Dialogue}-kun{\r}?
+Dialogue: 0,0:02:08.45,0:02:11.20,Dialogue,,0,0,0,,That's it! That's a great place!
+Dialogue: 0,0:02:11.50,0:02:16.38,Dialogue,,0,0,0,,It is unique and will be very helpful for the development of Detective Boys!
+Dialogue: 0,0:02:18.50,0:02:22.26,Thoughts,,0,0,0,,{\be10}Unique and helpful for the development of Detective Boys?
+Dialogue: 0,0:02:25.76,0:02:27.46,Dialogue,,0,0,0,,Hey, could it be...
+Dialogue: 0,0:02:35.20,0:02:36.51,Dialogue,,0,0,0,,So that's how it is!
+Dialogue: 0,0:02:36.51,0:02:38.85,Dialogue,,0,0,0,,Please help us out!
+Dialogue: 0,0:02:40.48,0:02:45.12,Dialogue,,0,0,0,,Since this is related to the school, I guess I have no choice.
+Dialogue: 0,0:02:46.95,0:02:49.65,Dialogue,,0,0,0,,Jeez, dad...
+Dialogue: 0,0:02:49.65,0:02:52.09,Dialogue,,0,0,0,,Everyone, don't hesitate to ask any questions.
+Dialogue: 0,0:02:52.38,0:02:53.38,Dialogue,,0,0,0,,Okay!
+Dialogue: 0,0:02:53.76,0:02:55.79,Dialogue,,0,0,0,,Then, let's get straight to it.
+Dialogue: 0,0:02:55.79,0:02:57.71,Dialogue,,0,0,0,,What kind of work you do?
+Dialogue: 0,0:02:59.08,0:03:03.54,Dialogue,,0,0,0,,In general, being a professional means receiving different task from clients.
+Dialogue: 0,0:03:03.54,0:03:06.38,Dialogue,,0,0,0,,From investigations to direct assistance.
+Dialogue: 0,0:03:06.38,0:03:12.03,Dialogue,,0,0,0,,But for me, wherever I go, cases just seem to happen.
+Dialogue: 0,0:03:14.70,0:03:19.68,Dialogue,,0,0,0,,And I have to unravel the tricks of the criminals instead of the police.
+Dialogue: 0,0:03:19.68,0:03:23.12,Thoughts,,0,0,0,,{\be10}Except the one who does that is me.
+Dialogue: 0,0:03:23.56,0:03:25.18,Dialogue,,0,0,0,,Here you go, Conan{\rHonorifics - Dialogue}-kun{\r}.
+Dialogue: 0,0:03:26.19,0:03:27.91,Dialogue,,0,0,0,,Thanks.
+Dialogue: 0,0:03:27.91,0:03:32.19,Dialogue,,0,0,0,,What do you do best or what do you like the most?
+Dialogue: 0,0:03:32.19,0:03:35.06,Dialogue,,0,0,0,,Best at... Like the most...
+Dialogue: 0,0:03:35.06,0:03:38.88,Dialogue,,0,0,0,,Of course, investigations with young girls.
+Dialogue: 0,0:03:38.88,0:03:44.16,Dialogue,,0,0,0,,And tons of free drinks while investigating at club is lots of fun!
+Dialogue: 0,0:03:48.87,0:03:54.48,Dialogue,,0,0,0,,Oh, what I mean is, there is no place for preference in detective work.
+Dialogue: 0,0:03:54.48,0:03:59.52,Dialogue,,0,0,0,,Speaking of young girls, my dad recently dated one.
+Dialogue: 0,0:03:59.52,0:04:02.31,Dialogue,,0,0,0,,And then my mother severely scolded him,
+Dialogue: 0,0:04:02.31,0:04:04.79,Dialogue,,0,0,0,,It's because of some smell of perfume from his clothes.
+Dialogue: 0,0:04:06.10,0:04:11.22,Dialogue,,0,0,0,,Tell your dad to go to a restaurant with tempura after the date.
+Dialogue: 0,0:04:11.22,0:04:16.42,Dialogue,,0,0,0,,After sitting at the counter for an hour, he will carry smell of oil instead of perfume.
+Dialogue: 0,0:04:18.80,0:04:23.02,Dialogue,,0,0,0,,No wonder you're always go there so often.
+Dialogue: 0,0:04:23.02,0:04:26.47,Dialogue,,0,0,0,,Oh, no, I really love tempura.
+Dialogue: 0,0:04:26.47,0:04:28.68,Thoughts,,0,0,0,,{\be10}Uncle, you brought that on yourself.
+Dialogue: 0,0:04:29.70,0:04:33.66,Dialogue,,0,0,0,,Uncle, since you are married, why don't you live with your wife?
+Dialogue: 0,0:04:34.44,0:04:39.37,Dialogue,,0,0,0,,I'm sure your wife just kicked you out because he played around with young girls!
+Dialogue: 0,0:04:39.37,0:04:41.66,Dialogue,,0,0,0,,That's what I figured too.
+Dialogue: 0,0:04:41.66,0:04:43.97,Dialogue,,0,0,0,,It could be irreconcilable differences.
+Dialogue: 0,0:04:45.31,0:04:49.18,Dialogue,,0,0,0,,Or it could be because of financial problems.
+Dialogue: 0,0:04:49.18,0:04:50.96,Dialogue,,0,0,0,,By the way, what is your annual income?
+Dialogue: 0,0:04:52.25,0:04:55.28,Dialogue,,0,0,0,,Are these kids really elementary school students?
+Dialogue: 0,0:04:55.28,0:04:58.38,Dialogue,,0,0,0,,Dad, just answer their questions.
+Dialogue: 0,0:04:59.75,0:05:01.47,Thoughts,,0,0,0,,{\be10}Don't joke with me.
+Dialogue: 0,0:05:01.60,0:05:03.96,Thoughts,,0,0,0,,{\be10}If I keep hanging around with these little monsters...
+Dialogue: 0,0:05:04.81,0:05:07.65,Dialogue,,0,0,0,,Oh no, is it so late already?
+Dialogue: 0,0:05:07.65,0:05:12.19,Dialogue,,0,0,0,,Well you guys, I'm sorry, but I have work to do.
+Dialogue: 0,0:05:15.31,0:05:17.90,Dialogue,,0,0,0,,What was that? Did he just ran away?
+Dialogue: 0,0:05:17.90,0:05:20.16,Dialogue,,0,0,0,,Then we should get going too.
+Dialogue: 0,0:05:20.16,0:05:21.28,Dialogue,,0,0,0,,Are you going home?
+Dialogue: 0,0:05:21.28,0:05:26.36,Dialogue,,0,0,0,,No, we're going to go shadowing Detective Mouri to observe his actual working environment.
+Dialogue: 0,0:05:27.48,0:05:28.50,Dialogue,,0,0,0,,That sounds fun!
+Dialogue: 0,0:05:28.50,0:05:30.31,Dialogue,,0,0,0,,Let's go, let's go!
+Dialogue: 0,0:05:30.31,0:05:32.09,Dialogue,,0,0,0,,Thanks for the treat!
+Dialogue: 0,0:05:32.09,0:05:33.04,Dialogue,,0,0,0,,You're welcome.
+Dialogue: 0,0:05:34.10,0:05:35.50,Dialogue,,0,0,0,,Hey, you guys!
+Dialogue: 0,0:05:35.50,0:05:38.89,Dialogue,,0,0,0,,Haibara{\rHonorifics - Dialogue}-san{\r}, we'll go ahead!
+Dialogue: 0,0:05:38.89,0:05:41.50,Dialogue,,0,0,0,,Well, what are you going to do?
+Dialogue: 0,0:05:43.11,0:05:45.11,Dialogue,,0,0,0,,Conan{\rHonorifics - Dialogue}-kun{\r}.
+Dialogue: 0,0:05:45.11,0:05:48.85,Dialogue,,0,0,0,,Make sure he doesn't go to any tempura restaurants.
+Dialogue: 0,0:05:50.92,0:05:53.82,Dialogue,,0,0,0,,Oh, here comes the great detective.
+Dialogue: 0,0:05:54.82,0:05:56.21,Dialogue,,0,0,0,,Which way did they go?
+Dialogue: 0,0:05:56.21,0:05:57.09,Dialogue,,0,0,0,,That way.
+Dialogue: 0,0:06:12.80,0:06:15.42,Dialogue,,0,0,0,,Just like the ninja from the manga.
+Dialogue: 0,0:06:15.42,0:06:17.25,Dialogue,,0,0,0,,He will notice them right away.
+Dialogue: 0,0:06:17.25,0:06:19.84,Dialogue,,0,0,0,,And send them away or shake them off.
+Dialogue: 0,0:06:26.46,0:06:28.13,Dialogue,,0,0,0,,Doesn't look like it.
+Dialogue: 0,0:06:28.13,0:06:31.85,Dialogue,,0,0,0,,Yeah. Notice them already. Are you a detective or what?
+Dialogue: 0,0:06:37.64,0:06:39.40,Dialogue,,0,0,0,,Thank you very much!
+Dialogue: 0,0:06:46.91,0:06:52.41,Thoughts,,0,0,0,,{\be10}On the first track from the Touto loop line, a train will arrives at Sibahama station.
+Dialogue: 0,0:07:11.10,0:07:12.35,Dialogue,,0,0,0,,Oh, no!
+Dialogue: 0,0:07:12.35,0:07:13.31,Dialogue,,0,0,0,,Wait.
+Dialogue: 0,0:07:13.31,0:07:14.98,Dialogue,,0,0,0,,He will notice you if you get off now.
+Dialogue: 0,0:07:14.98,0:07:19.80,Dialogue,,0,0,0,,But he just left before the doors closed. That means he's already noticed us!
+Dialogue: 0,0:07:19.80,0:07:21.85,Dialogue,,0,0,0,,No, I don't think so.
+Dialogue: 0,0:07:27.28,0:07:31.41,Dialogue,,0,0,0,,He jumped off because he thought there was 500 yen on the floor.
+Dialogue: 0,0:07:31.41,0:07:34.30,Dialogue,,0,0,0,,But it looks like it's just a game token or something.
+Dialogue: 0,0:07:35.36,0:07:37.19,Dialogue,,0,0,0,,He'd get off because of that?
+Dialogue: 0,0:07:37.19,0:07:39.28,Dialogue,,0,0,0,,What should we do now, Conan{\rHonorifics - Dialogue}-kun{\r}?
+Dialogue: 0,0:07:39.28,0:07:41.21,Dialogue,,0,0,0,,We can't follow him anymore.
+Dialogue: 0,0:07:41.21,0:07:46.37,Dialogue,,0,0,0,,No, in 8-9 out of 10 he will take the next train, so we just have to wait for him at the next station.
+Dialogue: 0,0:07:46.37,0:07:49.37,Dialogue,,0,0,0,,However, he will most likely now on the train a bit further back.
+Dialogue: 0,0:08:02.74,0:08:03.19,Dialogue,,0,0,0,,See?
+Dialogue: 0,0:08:03.19,0:08:04.09,Dialogue,,0,0,0,,Amazing!
+Dialogue: 0,0:08:04.09,0:08:07.50,Dialogue,,0,0,0,,He really is one train further back...
+Dialogue: 0,0:08:07.50,0:08:09.82,Dialogue,,0,0,0,,The trash can was a little further.
+Dialogue: 0,0:08:09.82,0:08:13.37,Dialogue,,0,0,0,,And he was embarrassed, so he wouldn't get on the same train.
+Dialogue: 0,0:08:13.37,0:08:17.26,Dialogue,,0,0,0,,It's the same happens when you miss the train.
+Dialogue: 0,0:08:17.26,0:08:19.22,Dialogue,,0,0,0,,Conan{\rHonorifics - Dialogue}-kun{\r} is so smart!
+Dialogue: 0,0:08:19.22,0:08:21.50,Dialogue,,0,0,0,,Just like a real detective!
+Dialogue: 0,0:08:21.50,0:08:22.92,Thoughts,,0,0,0,,{\be10}I am a detective.
+Dialogue: 0,0:08:29.44,0:08:32.07,Signs,,0,0,0,,MURAKAMI MASAYA (26)
+Dialogue: 0,0:08:41.11,0:08:43.69,Dialogue,,0,0,0,,2-3-2-4-2-7.
+Dialogue: 0,0:08:48.07,0:08:52.13,Dialogue,,0,0,0,,Looks like he's staking out that guy.
+Dialogue: 0,0:08:52.13,0:08:54.79,Dialogue,,0,0,0,,If I remember correctly, his name is Murakami Masaya.
+Dialogue: 0,0:08:54.79,0:09:00.05,Dialogue,,0,0,0,,10 days ago, a wealthy family asked him to find out about the life of their only daughter's boyfriend.
+Dialogue: 0,0:09:01.18,0:09:02.92,Dialogue,,0,0,0,,Like that! Come on, come on!
+Dialogue: 0,0:09:02.92,0:09:04.91,Dialogue,,0,0,0,,His acting skill is so good!
+Dialogue: 0,0:09:04.91,0:09:07.54,Dialogue,,0,0,0,,Is it so that no one knows he's a detective, right?
+Dialogue: 0,0:09:07.54,0:09:09.77,Dialogue,,0,0,0,,I recently read about this.
+Dialogue: 0,0:09:09.77,0:09:14.10,Dialogue,,0,0,0,,The basic rule for a professional stakeout is to blend in with the environment.
+Dialogue: 0,0:09:14.48,0:09:18.65,Dialogue,,0,0,0,,Surely his stupid behavior is planned to be part of this Saturday park.
+Dialogue: 0,0:09:18.65,0:09:20.75,Dialogue,,0,0,0,,He's truly a great detective!
+Dialogue: 0,0:09:20.75,0:09:24.58,Thoughts,,0,0,0,,{\be10}That was his true face, the face of a mad horse-racing fan.
+Dialogue: 0,0:10:07.30,0:10:09.42,Dialogue,,0,0,0,,I think he's a nice guy.
+Dialogue: 0,0:10:09.42,0:10:11.27,Dialogue,,0,0,0,,Even though he's not my type.
+Dialogue: 0,0:10:11.27,0:10:14.36,Dialogue,,0,0,0,,He's being cautious for some reason, and that bothers me.
+Dialogue: 0,0:10:18.18,0:10:19.09,Dialogue,,0,0,0,,Oh, no!
+Dialogue: 0,0:10:21.20,0:10:23.01,Dialogue,,0,0,0,,What are you guys doing here?!
+Dialogue: 0,0:10:30.11,0:10:31.19,Dialogue,,0,0,0,,Uncle!
+Dialogue: 0,0:10:33.47,0:10:35.09,Dialogue,,0,0,0,,Wait!
+Dialogue: 0,0:10:42.71,0:10:46.62,Dialogue,,0,0,0,,Damn it! Right in front of my eyes!
+Dialogue: 0,0:10:46.62,0:10:49.07,Dialogue,,0,0,0,,But we've called the police right away.
+Dialogue: 0,0:10:49.07,0:10:52.13,Dialogue,,0,0,0,,And we remember the car's license plate number!
+Dialogue: 0,0:10:52.13,0:10:54.97,Dialogue,,0,0,0,,Shouldn't the criminals have been caught already?
+Dialogue: 0,0:10:54.97,0:10:57.20,Dialogue,,0,0,0,,If so...
+Dialogue: 0,0:10:57.20,0:10:59.67,Dialogue,,0,0,0,,Why was he kidnapped?
+Dialogue: 0,0:10:59.67,0:11:02.93,Dialogue,,0,0,0,,The criminals must have a purpose.
+Dialogue: 0,0:11:02.93,0:11:05.85,Dialogue,,0,0,0,,Maybe this was done by people from the finance company.
+Dialogue: 0,0:11:05.85,0:11:07.29,Dialogue,,0,0,0,,Finance company?
+Dialogue: 0,0:11:07.29,0:11:12.87,Dialogue,,0,0,0,,That Murakami is an ordinary employee at a credit company.
+Dialogue: 0,0:11:12.87,0:11:15.60,Dialogue,,0,0,0,,So there is nothing unusual.
+Dialogue: 0,0:11:15.60,0:11:17.97,Dialogue,,0,0,0,,He gave out the loan to help his friend.
+Dialogue: 0,0:11:18.43,0:11:21.93,Dialogue,,0,0,0,,No, that's not right, the subject of an investigation should be kept secret.
+Dialogue: 0,0:11:22.27,0:11:26.02,Dialogue,,0,0,0,,He is responsible for the debt, right? And his friend disappeared.
+Dialogue: 0,0:11:26.10,0:11:28.77,Dialogue,,0,0,0,,And now the finance company wants him to pay it back, right?
+Dialogue: 0,0:11:28.94,0:11:30.48,Dialogue,,0,0,0,,How did you know?
+Dialogue: 0,0:11:31.15,0:11:33.57,Dialogue,,0,0,0,,I just guessed from what you said.
+Dialogue: 0,0:11:34.15,0:11:36.11,Thoughts,,0,0,0,,{\be10}So that's why he was being so cautious.
+Dialogue: 0,0:11:37.37,0:11:40.41,Dialogue,,0,0,0,,When I was on stakeout, I noticed them.
+Dialogue: 0,0:11:40.79,0:11:44.91,Dialogue,,0,0,0,,Even though it was only a split second, it was definitely those two.
+Dialogue: 0,0:11:45.17,0:11:48.13,Dialogue,,0,0,0,,Do you know the name of this financial company?
+Dialogue: 0,0:11:48.67,0:11:51.27,Dialogue,,0,0,0,,No, I was going to figure that out soon.
+Dialogue: 0,0:11:51.27,0:11:53.52,Dialogue,,0,0,0,,And you guys should go home.
+Dialogue: 0,0:11:53.52,0:11:57.91,Dialogue,,0,0,0,,But, Uncle, what do they want to achieve by kidnapping Murakami{\rHonorifics - Dialogue}-san{\r}?
+Dialogue: 0,0:11:59.34,0:12:03.70,Dialogue,,0,0,0,,Even if they grab Murakami{\rHonorifics - Dialogue}-san{\r}, they won't get their money, right?
+Dialogue: 0,0:12:04.26,0:12:05.98,Dialogue,,0,0,0,,Well, you right.
+Dialogue: 0,0:12:06.75,0:12:08.72,Dialogue,,0,0,0,,Then why?
+Dialogue: 0,0:12:08.72,0:12:10.23,Thoughts,,0,0,0,,{\be10}What is the criminals' objective?
+Dialogue: 0,0:12:11.70,0:12:12.82,Thoughts,,0,0,0,,{\be10}Could it be?
+Dialogue: 0,0:12:14.00,0:12:17.88,Signs,,0,0,0,,One hour later
+Dialogue: 0,0:12:20.00,0:12:22.63,Signs,,0,0,0,,AYANO ETSUKO (24)
+Dialogue: 0,0:12:29.53,0:12:31.12,Dialogue,,0,0,0,,It was just as I thought.
+Dialogue: 0,0:12:31.12,0:12:35.51,Dialogue,,0,0,0,,She use six different ATM's at two banks.
+Dialogue: 0,0:12:35.51,0:12:38.09,Dialogue,,0,0,0,,She's definitely withdrawing a lot of money.
+Dialogue: 0,0:12:38.09,0:12:42.77,Dialogue,,0,0,0,,One ATM can only withdraw not more than 2 million yen,
+Dialogue: 0,0:12:42.77,0:12:45.61,Dialogue,,0,0,0,,And it is possible to cash out at most 5 million yen per day.
+Dialogue: 0,0:12:45.61,0:12:49.03,Dialogue,,0,0,0,,So, most likely she's withdrawn about 10 million yen.
+Dialogue: 0,0:12:49.03,0:12:52.01,Dialogue,,0,0,0,,Yes, it looks like that.
+Dialogue: 0,0:12:52.01,0:12:54.63,Dialogue,,0,0,0,,Who's that lady?
+Dialogue: 0,0:12:54.63,0:12:58.34,Dialogue,,0,0,0,,The girlfriend of the kidnapped Murakami{\rHonorifics - Dialogue}-san{\r}, Yano Etsuko{\rHonorifics - Dialogue}-san{\r}.
+Dialogue: 0,0:12:58.34,0:13:00.22,Dialogue,,0,0,0,,Why would Etsuko{\rHonorifics - Dialogue}-san{\r} do something like that?
+Dialogue: 0,0:13:01.61,0:13:03.50,Dialogue,,0,0,0,,I see! I understand!
+Dialogue: 0,0:13:03.50,0:13:06.88,Dialogue,,0,0,0,,The scoundrels from the finance company are most likely using Murakami{\rHonorifics - Dialogue}-san{\r},
+Dialogue: 0,0:13:06.88,0:13:10.52,Dialogue,,0,0,0,,To force his girlfriend to pay off the loan.
+Dialogue: 0,0:13:10.52,0:13:13.38,Dialogue,,0,0,0,,She's the daughter from a wealthy family.
+Dialogue: 0,0:13:13.38,0:13:16.65,Dialogue,,0,0,0,,She definitely be able to prepare that amount of cash.
+Dialogue: 0,0:13:16.65,0:13:19.63,Dialogue,,0,0,0,,Hasn't she go to the police?
+Dialogue: 0,0:13:19.63,0:13:23.97,Dialogue,,0,0,0,,As far as I can tell, she hasn't even consulted with her father yet.
+Dialogue: 0,0:13:23.97,0:13:29.45,Dialogue,,0,0,0,,It's unfortunate, she's already worn out, waiting for a call from the criminals.
+Dialogue: 0,0:13:32.31,0:13:34.09,Dialogue,,0,0,0,,Looks like they just called.
+Dialogue: 0,0:13:41.18,0:13:43.09,Dialogue,,0,0,0,,It's time to start tracking.
+Dialogue: 0,0:13:55.85,0:13:58.50,Dialogue,,0,0,0,,She seems to be looking behind her a lot.
+Dialogue: 0,0:13:58.50,0:14:03.19,Dialogue,,0,0,0,,Most likely, the criminals told her to beware of cars that might follow her.
+Dialogue: 0,0:14:03.32,0:14:08.76,Dialogue,,0,0,0,,Perhaps the criminals noticed that Uncle was stakeout Murakami{\rHonorifics - Dialogue}-san{\r}.
+Dialogue: 0,0:14:08.96,0:14:13.23,Dialogue,,0,0,0,,That's why I told you to get in the car.
+Dialogue: 0,0:14:13.23,0:14:17.58,Dialogue,,0,0,0,,Who would believe that the detective will be accompanied by five little brats with him?
+Dialogue: 0,0:14:17.58,0:14:20.73,Dialogue,,0,0,0,,I see! It's called camouflage, right?
+Dialogue: 0,0:14:20.73,0:14:24.83,Dialogue,,0,0,0,,Was this rent car is part of a camouflage too?
+Dialogue: 0,0:14:24.83,0:14:27.24,Dialogue,,0,0,0,,No, he just doesn't have his own car.
+Dialogue: 0,0:14:28.75,0:14:30.98,Dialogue,,0,0,0,,After all, cars are very expensive.
+Dialogue: 0,0:14:30.98,0:14:33.14,Dialogue,,0,0,0,,The cost of maintaining car is also very expensive!
+Dialogue: 0,0:14:33.14,0:14:35.90,Dialogue,,0,0,0,,That's the reality of being a detective.
+Dialogue: 0,0:14:39.43,0:14:43.55,Thoughts,,0,0,0,,{\be10}But, having her bring the money directly is very unusual.
+Dialogue: 0,0:14:43.55,0:14:47.60,Thoughts,,0,0,0,,{\be10}Are the criminals planning something else?
+Dialogue: 0,0:14:56.77,0:14:58.09,Dialogue,,0,0,0,,She turned around again!
+Dialogue: 0,0:15:00.37,0:15:03.68,Dialogue,,0,0,0,,It looks like she's saying something to the driver.
+Dialogue: 0,0:15:03.68,0:15:07.66,Dialogue,,0,0,0,,We've been following the taxi for half an hour.
+Dialogue: 0,0:15:07.66,0:15:09.99,Dialogue,,0,0,0,,The driver might be getting suspicious.
+Dialogue: 0,0:15:13.47,0:15:15.48,Dialogue,,0,0,0,,They're slowing down.
+Dialogue: 0,0:15:15.48,0:15:18.31,Dialogue,,0,0,0,,Maybe they want to check whether our car will pass them or not.
+Dialogue: 0,0:15:18.31,0:15:20.21,Dialogue,,0,0,0,,What happens if we pass them?
+Dialogue: 0,0:15:20.21,0:15:24.13,Dialogue,,0,0,0,,We will no longer raise suspicions, and we will also not be able to track them.
+Dialogue: 0,0:15:24.13,0:15:26.10,Dialogue,,0,0,0,,You right.
+Dialogue: 0,0:15:26.10,0:15:27.94,Dialogue,,0,0,0,,What should we do next?
+Dialogue: 0,0:15:27.94,0:15:31.50,Dialogue,,0,0,0,,If they find out about us, we will not be able to track them.
+Dialogue: 0,0:15:31.50,0:15:33.06,Dialogue,,0,0,0,,Really?
+Dialogue: 0,0:15:33.06,0:15:36.40,Dialogue,,0,0,0,,The key of shadowing someone is to be unnoticed.
+Dialogue: 0,0:15:36.40,0:15:38.18,Dialogue,,0,0,0,,Even for a professional detective.
+Dialogue: 0,0:15:38.18,0:15:41.09,Dialogue,,0,0,0,,If you are exposed, then your cover will be useless.
+Dialogue: 0,0:15:46.22,0:15:47.41,Dialogue,,0,0,0,,Professor!
+Dialogue: 0,0:15:49.90,0:15:51.62,Dialogue,,0,0,0,,Finally he caught up with us!
+Dialogue: 0,0:15:51.62,0:15:53.55,Dialogue,,0,0,0,,Did you call him, Conan{\rHonorifics - Dialogue}-kun{\r}?
+Dialogue: 0,0:15:53.55,0:15:56.05,Dialogue,,0,0,0,,When Uncle was in the bank a while ago,
+Dialogue: 0,0:15:56.05,0:15:58.41,Dialogue,,0,0,0,,I went out and called him.
+Dialogue: 0,0:15:58.41,0:16:03.05,Dialogue,,0,0,0,,I asked the professor to use the spare criminal-tacking glasses to find me.
+Dialogue: 0,0:16:04.07,0:16:08.06,Dialogue,,0,0,0,,Finally, I can focus on the road!
+Dialogue: 0,0:16:08.06,0:16:10.09,Dialogue,,0,0,0,,So we can use the professor's car...
+Dialogue: 0,0:16:12.32,0:16:14.75,Dialogue,,0,0,0,,They're stopping! Is this her destination?
+Dialogue: 0,0:16:24.02,0:16:25.09,Dialogue,,0,0,0,,Don't open the door!
+Dialogue: 0,0:16:30.69,0:16:34.06,Dialogue,,0,0,0,,Looks like they are only checking if this car is actually following them,
+Dialogue: 0,0:16:34.06,0:16:36.63,Dialogue,,0,0,0,,So they stopped temporarily.
+Dialogue: 0,0:16:36.63,0:16:40.47,Dialogue,,0,0,0,,But if we don't have a reason to stop, it will be even more suspicious.
+Dialogue: 0,0:16:40.47,0:16:42.93,Dialogue,,0,0,0,,Genta, get out of the car quickly and do something!
+Dialogue: 0,0:16:42.93,0:16:44.09,Dialogue,,0,0,0,,Anything! Hurry!
+Dialogue: 0,0:16:47.12,0:16:53.09,Dialogue,,0,0,0,,Oh! I have to go, what should I do? Oh, I'll go there!
+Dialogue: 0,0:17:05.97,0:17:09.41,Dialogue,,0,0,0,,Ayumi{\rHonorifics - Dialogue}-chan{\r}, Mitsuhiko, let's get into the professor's car!
+Dialogue: 0,0:17:09.41,0:17:11.93,Dialogue,,0,0,0,,Haibara, stay here and keep in touch.
+Dialogue: 0,0:17:11.93,0:17:12.62,Dialogue,,0,0,0,,Roger.
+Dialogue: 0,0:17:13.80,0:17:17.84,Dialogue,,0,0,0,,Hey! Wait! Wait for me!
+Dialogue: 0,0:17:17.84,0:17:19.09,Dialogue,,0,0,0,,This time, Ayumi{\rHonorifics - Dialogue}-chan{\r} sit at front!
+Dialogue: 0,0:17:20.17,0:17:21.43,Dialogue,,0,0,0,,I said wait!
+Dialogue: 0,0:17:34.70,0:17:36.68,Dialogue,,0,0,0,,It looks like we won this round.
+Dialogue: 0,0:17:36.68,0:17:39.37,Dialogue,,0,0,0,,This is Conan. We caught up with the target.
+Dialogue: 0,0:17:39.37,0:17:40.69,Dialogue,,0,0,0,,Roger.
+Dialogue: 0,0:17:40.69,0:17:41.48,Dialogue,,0,0,0,,Let's go.
+Dialogue: 0,0:17:41.48,0:17:42.48,Dialogue,,0,0,0,,Oh, okay.
+Dialogue: 0,0:17:54.20,0:17:56.68,Dialogue,,0,0,0,,Take the fourth Kojima intersection.
+Dialogue: 0,0:17:56.68,0:18:00.14,Dialogue,,0,0,0,,Drive past the Koichi entrance to the Okahata Highway and continue forward.
+Dialogue: 0,0:18:00.14,0:18:01.10,Thoughts,,0,0,0,,{\be10}Roger.
+Dialogue: 0,0:18:01.10,0:18:02.75,Dialogue,,0,0,0,,It's just like in the movies!
+Dialogue: 0,0:18:02.75,0:18:05.58,Dialogue,,0,0,0,,This is the shadowing method used by professional detectives!
+Dialogue: 0,0:18:05.58,0:18:08.09,Dialogue,,0,0,0,,I really need to go to the toilet right now.
+Dialogue: 0,0:18:22.94,0:18:25.16,Dialogue,,0,0,0,,It looks like she's getting a little antsy.
+Dialogue: 0,0:18:25.16,0:18:27.32,Dialogue,,0,0,0,,We should be getting closer to her destination.
+Dialogue: 0,0:18:30.32,0:18:31.10,Dialogue,,0,0,0,,Haibara!
+Dialogue: 0,0:18:31.10,0:18:31.82,Thoughts,,0,0,0,,{\be10}We saw it.
+Dialogue: 0,0:18:32.11,0:18:34.20,Dialogue,,0,0,0,,Professor, let's turn around here.
+Dialogue: 0,0:18:34.20,0:18:34.97,Dialogue,,0,0,0,,Okay.
+Dialogue: 0,0:19:01.15,0:19:03.09,Dialogue,,0,0,0,,Contact the police for me.
+Dialogue: 0,0:19:11.58,0:19:12.34,Dialogue,,0,0,0,,Where is Uncle?
+Dialogue: 0,0:19:16.73,0:19:18.16,Dialogue,,0,0,0,,All right, let's go too!
+Dialogue: 0,0:19:18.16,0:19:19.25,Dialogue,,0,0,0,,You can't.
+Dialogue: 0,0:19:19.25,0:19:20.24,Dialogue,,0,0,0,,You can't go there.
+Dialogue: 0,0:19:21.25,0:19:22.15,Dialogue,,0,0,0,,Why not?
+Dialogue: 0,0:19:22.15,0:19:25.04,Dialogue,,0,0,0,,Isn't this a good time to show the skills of Detective Boys?
+Dialogue: 0,0:19:25.04,0:19:28.17,Dialogue,,0,0,0,,Courage and recklessness are not the same thing.
+Dialogue: 0,0:19:28.17,0:19:30.31,Dialogue,,0,0,0,,If you guys really want to help,
+Dialogue: 0,0:19:30.31,0:19:34.54,Dialogue,,0,0,0,,Do something harmless and within your capabilities.
+Dialogue: 0,0:19:34.54,0:19:36.45,Dialogue,,0,0,0,,Something harmless...
+Dialogue: 0,0:19:36.45,0:19:38.41,Dialogue,,0,0,0,,Within our capabilities...
+Dialogue: 0,0:19:43.23,0:19:44.16,Dialogue,,0,0,0,,Masaya{\rHonorifics - Dialogue}-san{\r}!
+Dialogue: 0,0:19:46.14,0:19:48.63,Dialogue,,0,0,0,,I brought the money as you requested.
+Dialogue: 0,0:19:50.79,0:19:53.03,Dialogue,,0,0,0,,Please let go of Masaya{\rHonorifics - Dialogue}-san{\r}!
+Dialogue: 0,0:19:53.03,0:19:55.76,Dialogue,,0,0,0,,Sorry, but it's not gonna happen.
+Dialogue: 0,0:19:56.01,0:20:00.43,Dialogue,,0,0,0,,Now we're going to use you as a hostage to get money from your father.
+Dialogue: 0,0:20:01.30,0:20:05.49,Dialogue,,0,0,0,,How could you? This isn't what we promise!
+Dialogue: 0,0:20:05.49,0:20:09.92,Dialogue,,0,0,0,,Agreements are made to be broken, little lady.
+Dialogue: 0,0:20:14.97,0:20:17.14,Dialogue,,0,0,0,,I knew you would do something like that.
+Dialogue: 0,0:20:19.27,0:20:19.85,Dialogue,,0,0,0,,Who is there?
+Dialogue: 0,0:20:25.27,0:20:27.10,Dialogue,,0,0,0,,Sleeping Kogorou!
+Dialogue: 0,0:20:27.10,0:20:30.61,Dialogue,,0,0,0,,Agreements are made to be fulfilled.
+Dialogue: 0,0:20:31.48,0:20:33.61,Dialogue,,0,0,0,,Let me teach you guys that.
+Dialogue: 0,0:20:33.61,0:20:35.54,Dialogue,,0,0,0,,What?
+Dialogue: 0,0:20:35.54,0:20:36.53,Dialogue,,0,0,0,,Take this!
+Dialogue: 0,0:21:04.39,0:21:06.23,Dialogue,,0,0,0,,Victory!
+Dialogue: 0,0:21:06.23,0:21:07.68,Dialogue,,0,0,0,,Hooray!
+Dialogue: 0,0:21:09.50,0:21:10.31,Dialogue,,0,0,0,,We did it!
+Dialogue: 0,0:21:11.23,0:21:12.23,Dialogue,,0,0,0,,Amazing!
+Dialogue: 0,0:21:12.44,0:21:14.65,Dialogue,,0,0,0,,After all, we're the Detective Boys!
+Dialogue: 0,0:21:15.34,0:21:16.38,Thoughts,,0,0,0,,{\be10}These guys...
+Dialogue: 0,0:21:25.32,0:21:31.28,Dialogue,,0,0,0,,So that was Izawa{\rHonorifics - Dialogue}-san{\r}, Yamamoto{\rHonorifics - Dialogue}-san{\r} and Kaneko{\rHonorifics - Dialogue}-san{\r} with their report on the music store.
+Dialogue: 0,0:21:31.28,0:21:33.09,Dialogue,,0,0,0,,The next is...
+Dialogue: 0,0:21:33.63,0:21:34.09,Dialogue,,0,0,0,,Here!
+Dialogue: 0,0:21:35.75,0:21:36.59,Dialogue,,0,0,0,,Here!
+Dialogue: 0,0:21:36.90,0:21:38.09,Dialogue,,0,0,0,,It's us!
+Dialogue: 0,0:21:38.42,0:21:45.08,Dialogue,,0,0,0,,Let's see, Yoshida{\rHonorifics - Dialogue}-san{\r}, Kojima{\rHonorifics - Dialogue}-kun{\r}, Tsuburai{\rHonorifics - Dialogue}-kun{\r}, Edogawa{\rHonorifics - Dialogue}-kun{\r} and Haibara{\rHonorifics - Dialogue}-san{\r}.
+Dialogue: 0,0:21:45.08,0:21:48.09,Dialogue,,0,0,0,,Let's hear to your report, "Being a Detective is Fun!"
+Dialogue: 0,0:21:49.78,0:21:51.41,Dialogue,,0,0,0,,Thank you! Thank you!
+Dialogue: 0,0:21:56.79,0:21:59.99,Dialogue,,0,0,0,,When Detective Mouri is stakeout on someone, he becomes part of the environment.
+Dialogue: 0,0:21:59.99,0:22:02.12,Dialogue,,0,0,0,,So it's impossible for his opponent to notice it.
+Dialogue: 0,0:22:02.12,0:22:03.81,Dialogue,,0,0,0,,This is how a real professionals work!
+Dialogue: 0,0:22:03.81,0:22:07.05,Dialogue,,0,0,0,,Later, we accompanying Detective Mouri,
+Dialogue: 0,0:22:07.05,0:22:10.70,Dialogue,,0,0,0,,For the first time we experienced the shadowing method used by professionals.
+Dialogue: 0,0:22:21.09,0:22:22.32,Dialogue,,0,0,0,,What? Take this!
+Dialogue: 0,0:22:34.33,0:22:37.49,Thoughts,,0,0,0,,{\be10}Our report on the activities of Uncle and Detective Boys...
+Dialogue: 0,0:22:37.49,0:22:41.65,Thoughts,,0,0,0,,{\be10}Was a big success with the teacher and classmates.
+Dialogue: 0,0:22:42.60,0:22:43.59,Thoughts,,0,0,0,,{\be10}However...
+Dialogue: 0,0:22:44.53,0:22:48.14,Dialogue,,0,0,0,,Our Keron{\rHonorifics - Dialogue}-chan{\r} hasn't been home since yesterday!
+Dialogue: 0,0:22:48.14,0:22:51.25,Dialogue,,0,0,0,,I lost my Kamen Yaiba's card somewhere!
+Dialogue: 0,0:22:51.25,0:22:55.63,Dialogue,,0,0,0,,Can you find out where my friends from kindergarten are now?
+Dialogue: 0,0:22:55.63,0:22:57.61,Dialogue,,0,0,0,,Wait! Wait a minute!
+Dialogue: 0,0:22:58.12,0:23:01.69,Dialogue,,0,0,0,,How come we don't even get any case?
+Dialogue: 0,0:23:01.69,0:23:04.08,Dialogue,,0,0,0,,It looks like we really miscalculated...
+Dialogue: 0,0:23:04.08,0:23:06.49,Dialogue,,0,0,0,,Why do they only need Uncle?
+Dialogue: 0,0:23:06.78,0:23:09.84,Dialogue,,0,0,0,,Please babysit my little brother!
+Dialogue: 0,0:23:11.20,0:23:14.46,Dialogue,,0,0,0,,Isn't this great, dad? Business is booming!
+Dialogue: 0,0:23:14.85,0:23:16.61,Dialogue,,0,0,0,,A-Are you kidding me!?
+Dialogue: 0,0:23:17.42,0:23:21.09,Dialogue,,0,0,0,,Well, maybe this is better suited to Uncle's talents

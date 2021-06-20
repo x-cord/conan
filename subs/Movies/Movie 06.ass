@@ -1,0 +1,1393 @@
+[Script Info]
+Title: Detective Conan - Movie 06
+TL Source: Ah-le-le
+ScriptType: v4.00+
+WrapStyle: 3
+PlayResX: 1920
+PlayResY: 1080
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Dialogue,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00401311,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Dialogue Top,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00401311,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,8,30,30,55,1
+Style: Signs,FrancophilSans,74,&H14FFFFFF,&H00FFFFFF,&H46101010,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,8,30,30,55,1
+Style: Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,0,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Radio,FrancophilSans,74,&H00BEE1FF,&H00FFFFFF,&H000B2A42,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Narration,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00BF6F00,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Narration Off,FrancophilSans,74,&H6E8C6F00,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,0,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Flashback,FrancophilSans,74,&H00CDFAFF,&H00FFFFFF,&H00373737,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Flashback Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00CCFFFF,&HC0313134,-1,0,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Honorifics - Dialogue,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00401311,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Signs,FrancophilSans,74,&H14FFFFFF,&H00FFFFFF,&H46101010,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,-1,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Honorifics - Radio,FrancophilSans,74,&H00BEE1FF,&H00FFFFFF,&H000B2A42,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Narration,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00BF6F00,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Narration Off,FrancophilSans,74,&H6E8C6F00,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,-1,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Honorifics - Flashback,FrancophilSans,74,&H00CDFAFF,&H00FFFFFF,&H00373737,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Flashback Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00CCFFFF,&HC0313134,-1,-1,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Masks,FrancophilSans,74,&H00000000,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,2,0,0,0,1
+Style: Title,Conan Episode Title,74,&H00E1E4E3,&H000000FF,&HC8DBDAE1,&HC0000000,-1,0,0,0,100,100,0,0,1,1,0,5,0,0,0,1
+Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-1,0,0,0,100,100,0,0,1,0,0,2,0,0,65,1
+Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
+Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
+Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:02:53.32,0:02:56.66,Dialogue,,0,0,0,,Goodbye, my friend.
+Dialogue: 0,0:03:02.30,0:03:03.96,Dialogue,,0,0,0,,Hiroki!
+Dialogue: 0,0:03:05.37,0:03:07.03,Dialogue,,0,0,0,,Hiroki!
+Dialogue: 0,0:03:36.40,0:03:40.56,Dialogue,,0,0,0,,I wonder if I'll be able to\Nfly like Noah's Ark, too...
+Dialogue: 0,0:03:51.75,0:03:53.41,Dialogue,,0,0,0,,Hiroki!
+Dialogue: 0,0:04:40.60,0:04:44.03,Narration Off,,0,0,0,,{\be10}I'm high school detective Kudo Shinichi.
+Dialogue: 0,0:04:44.03,0:04:48.44,Narration Off,,0,0,0,,{\be10}I went with old friend and classmate,\NMori Ran, to an amusement park
+Dialogue: 0,0:04:48.44,0:04:53.28,Narration Off,,0,0,0,,{\be10}where I witnessed a suspicious\Ndeal with a man dressed in black!
+Dialogue: 0,0:04:53.28,0:04:55.31,Narration Off,,0,0,0,,{\be10}I was so absorbed with watching the deal
+Dialogue: 0,0:04:55.31,0:04:59.32,Narration Off,,0,0,0,,{\be10}that I didn't notice a second\Nman sneak up from behind me!
+Dialogue: 0,0:04:59.32,0:05:04.76,Narration Off,,0,0,0,,{\be10}He forced me to take a poison,\Nand when I woke up...
+Dialogue: 0,0:05:04.76,0:05:07.63,Narration Off,,0,0,0,,{\be10}... my body had shrunk!
+Dialogue: 0,0:05:07.63,0:05:11.83,Narration Off,,0,0,0,,{\be10}If they learned Kudo Shinichi was alive,\Nthey might go after me again,
+Dialogue: 0,0:05:11.83,0:05:14.77,Narration Off,,0,0,0,,{\be10}putting all the people around me in danger!
+Dialogue: 0,0:05:14.77,0:05:18.30,Narration Off,,0,0,0,,{\be10}Per Dr. Agasa's advice,\NI decided to conceal my identity.
+Dialogue: 0,0:05:18.30,0:05:22.24,Narration Off,,0,0,0,,{\be10}When Ran asked my name,\NI quickly answered, "Edogawa Conan".
+Dialogue: 0,0:05:22.24,0:05:23.94,Narration Off,,0,0,0,,{\be10}To get information on the men,
+Dialogue: 0,0:05:23.94,0:05:26.93,Narration Off,,0,0,0,,{\be10}I wound up living with Ran\Nand her detective father.
+Dialogue: 0,0:05:29.65,0:05:33.35,Dialogue,,0,0,0,,- Ready, everyone?!\N- Yeah!
+Dialogue: 0,0:05:33.35,0:05:37.42,Narration Off,,0,0,0,,{\be10}Aside from the Doc, the only one\Nin this group who knows who I am...
+Dialogue: 0,0:05:37.42,0:05:41.29,Narration Off,,0,0,0,,{\be10}... is Haibara Ai.
+Dialogue: 0,0:05:41.29,0:05:44.03,Narration Off,,0,0,0,,{\be10}She originally worked with the men in black,
+Dialogue: 0,0:05:44.03,0:05:49.69,Narration Off,,0,0,0,,{\be10}but to escape from them, she took\Nthe same poison I did and shrank!
+Dialogue: 0,0:06:06.28,0:06:11.52,Narration Off,,0,0,0,,{\be10}My parents are so childish\Nand always love to pull pranks.
+Dialogue: 0,0:06:11.52,0:06:15.83,Narration Off,,0,0,0,,{\be10}My dad is the world-renowned\Nmystery novelist, Kudo Yusaku.
+Dialogue: 0,0:06:15.83,0:06:20.32,Narration Off,,0,0,0,,{\be10}There's no mystery fan who hasn't\Nheard of his Night Baron series!
+Dialogue: 0,0:06:22.80,0:06:24.40,Narration Off,,0,0,0,,{\be10}My mom, Kudo Yukiko,
+Dialogue: 0,0:06:24.40,0:06:28.97,Narration Off,,0,0,0,,{\be10}was a legendary idol actress\Nwho retired at 20 to get married.
+Dialogue: 0,0:06:28.97,0:06:31.97,Narration Off,,0,0,0,,{\be10}She's just an annoying\Nmiddle-aged lady now, though.
+Dialogue: 0,0:06:33.51,0:06:38.85,Narration Off,,0,0,0,,{\be10}For the time being, I'm a\N"distant relative" of theirs.
+Dialogue: 0,0:06:38.85,0:06:44.42,Narration Off,,0,0,0,,{\be10}I haven't seen them in a while.\NI wonder how my mom and dad are...
+Dialogue: 0,0:06:44.42,0:06:46.42,Dialogue,,0,0,0,,I'm just dandy!
+Dialogue: 0,0:06:46.42,0:06:51.73,Narration Off,,0,0,0,,{\be10}Even when I'm small, my mind\Nremains that of a sharp detective!
+Dialogue: 0,0:06:51.73,0:06:54.72,Narration Off,,0,0,0,,{\be10}There is always only one truth!
+Dialogue: 0,0:07:03.27,0:07:06.88,Dialogue,,0,0,0,,We're here at Beika City Hall,\Nat the spectacular premier
+Dialogue: 0,0:07:06.88,0:07:10.88,Dialogue,,0,0,0,,of the sensory simulation game\Ndeveloped by Japanese game makers
+Dialogue: 0,0:07:10.88,0:07:14.87,Dialogue,,0,0,0,,in cooperation with the Schindler Company!
+Dialogue: 0,0:07:19.36,0:07:24.02,Dialogue,,0,0,0,,Oh! President Schindler of the\NSchindler Company has just arrived!
+Dialogue: 0,0:07:33.20,0:07:36.97,Dialogue,,0,0,0,,Now, then! According to the\Ndocuments distributed to the media,
+Dialogue: 0,0:07:36.97,0:07:42.28,Dialogue,,0,0,0,,players enter capsules called "Cocoons"
+Dialogue: 0,0:07:42.28,0:07:50.29,Dialogue,,0,0,0,,and interact with virtual reality\Nworlds while in a hypnotic state
+Dialogue: 0,0:07:50.29,0:07:53.76,Dialogue,,0,0,0,,in this conglomeration of\Ncutting-edge technology!
+Dialogue: 0,0:07:53.76,0:07:59.73,Dialogue,,0,0,0,,This game is said to have five types\Nof stages the player can enjoy.
+Dialogue: 0,0:07:59.73,0:08:03.60,Dialogue,,0,0,0,,Just what kind of virtual\Nworlds they are will be revealed
+Dialogue: 0,0:08:03.60,0:08:10.74,Dialogue,,0,0,0,,when the children at today's\Nsneak preview play for the first time!
+Dialogue: 0,0:08:10.74,0:08:13.78,Dialogue,,0,0,0,,Fifty boys and girls at\Nor below high school age
+Dialogue: 0,0:08:13.78,0:08:16.77,Dialogue,,0,0,0,,will be the first in Japan\Nto experience the Cocoons!
+Dialogue: 0,0:08:21.02,0:08:26.49,Dialogue,,0,0,0,,Geez! This is a bit much for some\Nstupid video game presentation!
+Dialogue: 0,0:08:26.49,0:08:32.33,Dialogue,,0,0,0,,I hear they had to put up with corporate\Nspies and stuff like that just to get this far!
+Dialogue: 0,0:08:32.33,0:08:38.00,Dialogue,,0,0,0,,Yeah, the Cocoons are supposed\Nto change video games forever!
+Dialogue: 0,0:08:40.34,0:08:42.44,Dialogue,,0,0,0,,What're those?!
+Dialogue: 0,0:08:42.44,0:08:45.21,Dialogue,,0,0,0,,Oh! Are those the Cocoons?!
+Dialogue: 0,0:08:45.21,0:08:47.98,Dialogue,,0,0,0,,I want to play in one...
+Dialogue: 0,0:08:47.98,0:08:52.32,Dialogue,,0,0,0,,I'm afraid you can't.\NWe were invited to the party,
+Dialogue: 0,0:08:52.32,0:08:55.55,Dialogue,,0,0,0,,but we weren't chosen to try the Cocoons.
+Dialogue: 0,0:08:55.55,0:09:00.22,Dialogue,,0,0,0,,But being able to experience actual,\Nhistorical events inside the games
+Dialogue: 0,0:09:00.22,0:09:01.86,Dialogue,,0,0,0,,is somewhat interesting.
+Dialogue: 0,0:09:01.86,0:09:02.69,Dialogue,,0,0,0,,Yeah, huh?!
+Dialogue: 0,0:09:02.69,0:09:06.66,Dialogue,,0,0,0,,It'd be like taking a journey\Nas a real-life time traveler!
+Dialogue: 0,0:09:06.66,0:09:08.63,Dialogue,,0,0,0,,C'mon, it's just a game!
+Dialogue: 0,0:09:08.63,0:09:11.80,Dialogue,,0,0,0,,Oh, yeah. I forgot you're bad\Nat computer games, Conan{\rHonorifics - Dialogue}-kun{\r}.
+Dialogue: 0,0:09:11.80,0:09:15.31,Dialogue,,0,0,0,,Yeah, I can't believe\Nyou're still stuck in Final Quest!
+Dialogue: 0,0:09:15.31,0:09:18.68,Dialogue,,0,0,0,,Yeah, you're surprisingly\Nnot good with your fingers!
+Dialogue: 0,0:09:18.68,0:09:20.34,Dialogue,,0,0,0,,Shut up.
+Dialogue: 0,0:09:31.86,0:09:34.73,Dialogue,,0,0,0,,So many people, so much booze!
+Dialogue: 0,0:09:34.73,0:09:40.16,Dialogue,,0,0,0,,Dad! Important police officials are here!\NDon't drink too much!
+Dialogue: 0,0:09:40.16,0:09:45.00,Dialogue,,0,0,0,,Yeah, yeah! You can't get\Nsick from expensive liquor!
+Dialogue: 0,0:09:45.00,0:09:47.94,Thoughts,,0,0,0,,{\be10}That's not what she means...
+Dialogue: 0,0:09:47.94,0:09:50.41,Dialogue,,0,0,0,,This is all-you-can-eat, right?!
+Dialogue: 0,0:09:50.41,0:09:51.74,Dialogue,,0,0,0,,Yes, probably...
+Dialogue: 0,0:09:51.74,0:09:53.61,Dialogue,,0,0,0,,Lucky! Lucky!
+Dialogue: 0,0:09:53.61,0:09:56.27,Dialogue,,0,0,0,,Those kids are the lucky ones.
+Dialogue: 0,0:09:57.85,0:10:00.75,Dialogue,,0,0,0,,Seeing them receive their\Ngame badges really hits home
+Dialogue: 0,0:10:00.75,0:10:04.56,Dialogue,,0,0,0,,that they're lucky they\Nget to play today's game...
+Dialogue: 0,0:10:04.56,0:10:06.89,Dialogue,,0,0,0,,The assistant commissioner's grandson,
+Dialogue: 0,0:10:06.89,0:10:09.29,Dialogue,,0,0,0,,a financial big shot's grandson,
+Dialogue: 0,0:10:09.29,0:10:11.63,Dialogue,,0,0,0,,the son of a politician from the ruling party...
+Dialogue: 0,0:10:11.63,0:10:16.47,Dialogue,,0,0,0,,Japan's future will be on these {\i1}guys{\i0}\Nshoulders in the next generation!
+Dialogue: 0,0:10:16.47,0:10:19.37,Dialogue,,0,0,0,,- I'm sensing jealous looks!\N- Yeah!
+Dialogue: 0,0:10:19.37,0:10:21.57,Dialogue,,0,0,0,,It's as if Japan's horrid hereditary system
+Dialogue: 0,0:10:21.57,0:10:25.14,Dialogue,,0,0,0,,has been concentrated in this one location.
+Dialogue: 0,0:10:25.14,0:10:30.55,Dialogue,,0,0,0,,It's due to that very system that\Nsociety repeats its transgressions.
+Dialogue: 0,0:10:30.55,0:10:34.62,Dialogue,,0,0,0,,Haibara{\rHonorifics - Dialogue}-san{\r}, I don't\Nunderstand what you're saying.
+Dialogue: 0,0:10:34.62,0:10:38.76,Dialogue,,0,0,0,,Hey, now! Talk more like a kid!
+Dialogue: 0,0:10:38.76,0:10:41.56,Dialogue,,0,0,0,,Politicians sons will become politicians.
+Dialogue: 0,0:10:41.56,0:10:44.13,Dialogue,,0,0,0,,CEO's sons will become CEO's.
+Dialogue: 0,0:10:44.13,0:10:48.12,Dialogue,,0,0,0,,Japan will never change like this.
+Dialogue: 0,0:10:50.10,0:10:55.09,Dialogue,,0,0,0,,They said tons of that junk\Non the news yesterday, anyway!
+Dialogue: 0,0:10:58.58,0:11:00.84,Dialogue,,0,0,0,,How was that?
+Dialogue: 0,0:11:00.84,0:11:02.18,Thoughts,,0,0,0,,{\be10}Scary...
+Dialogue: 0,0:11:02.58,0:11:03.68,Dialogue,,0,0,0,,Ran!
+Dialogue: 0,0:11:03.68,0:11:05.68,Dialogue,,0,0,0,,Sonoko!
+Dialogue: 0,0:11:05.68,0:11:08.32,Dialogue,,0,0,0,,Hi, boys and girls!
+Dialogue: 0,0:11:08.32,0:11:11.12,Dialogue,,0,0,0,,Sonoko{\rHonorifics - Dialogue}-san{\r}! Don't tell me that badge is...
+Dialogue: 0,0:11:11.12,0:11:12.46,Dialogue,,0,0,0,,Oh, this?
+Dialogue: 0,0:11:12.46,0:11:15.13,Dialogue,,0,0,0,,Are you a chosen one too, Sonoko?!
+Dialogue: 0,0:11:15.13,0:11:19.60,Dialogue,,0,0,0,,The Suzuki zaibatsu helped fund\Nthe game development, you see.
+Dialogue: 0,0:11:19.60,0:11:21.27,Dialogue,,0,0,0,,She's so lucky...
+Dialogue: 0,0:11:21.27,0:11:22.77,Dialogue,,0,0,0,,I wish I had one...
+Dialogue: 0,0:11:22.77,0:11:24.80,Dialogue,,0,0,0,,Forget it.
+Dialogue: 0,0:11:24.80,0:11:26.60,Dialogue,,0,0,0,,It's not your place.
+Dialogue: 0,0:11:26.60,0:11:30.61,Dialogue,,0,0,0,,Were you guys even invited here to begin with?
+Dialogue: 0,0:11:30.61,0:11:35.81,Dialogue,,0,0,0,,How rude! I invited these guests myself!
+Dialogue: 0,0:11:35.81,0:11:40.15,Dialogue,,0,0,0,,Why, hello there,\Ndaughter of the Suzuki Zaibatsu.
+Dialogue: 0,0:11:40.15,0:11:45.96,Dialogue,,0,0,0,,Listen. People's lives are set in\Nstone the moment they're born.
+Dialogue: 0,0:11:45.96,0:11:50.63,Dialogue,,0,0,0,,That's right! Like they say,\N"Sharp clothes choose the wearer"!
+Dialogue: 0,0:11:50.63,0:11:56.70,Dialogue,,0,0,0,,Those not chosen can simply\Nlook on enviously from the outside.
+Dialogue: 0,0:11:56.70,0:11:59.67,Dialogue,,0,0,0,,These creeps really tick me off.
+Dialogue: 0,0:11:59.67,0:12:02.66,Dialogue,,0,0,0,,Dad! Give them a talking to!
+Dialogue: 0,0:12:07.14,0:12:11.68,Dialogue,,0,0,0,,Listen, lads. You mustn't take life lightly.
+Dialogue: 0,0:12:11.68,0:12:16.22,Dialogue,,0,0,0,,Even the most stable of lives have pitfalls.
+Dialogue: 0,0:12:16.22,0:12:19.86,Dialogue,,0,0,0,,Someday, when you've become adults,\Nyou will understand this.
+Dialogue: 0,0:12:19.86,0:12:23.73,Dialogue,,0,0,0,,Like having your wife run out on you?
+Dialogue: 0,0:12:23.73,0:12:26.83,Dialogue,,0,0,0,,I know all about you, old man.
+Dialogue: 0,0:12:26.83,0:12:28.83,Dialogue,,0,0,0,,You got the nickname "Sleeping Kogoro"
+Dialogue: 0,0:12:28.83,0:12:32.83,Dialogue,,0,0,0,,because your wife left you\Nwhile you were asleep, right?
+Dialogue: 0,0:12:35.91,0:12:37.88,Dialogue,,0,0,0,,You little brats!
+Dialogue: 0,0:12:37.88,0:12:40.41,Dialogue,,0,0,0,,He wasn't asleep!
+Dialogue: 0,0:12:40.41,0:12:44.68,Dialogue,,0,0,0,,My mom left him while he was in the bathroom!
+Dialogue: 0,0:12:44.68,0:12:46.01,Dialogue,,0,0,0,,Right?!
+Dialogue: 0,0:12:47.72,0:12:50.62,Thoughts,,0,0,0,,{\be10}That's not helping him.
+Dialogue: 0,0:12:50.62,0:12:52.61,Dialogue,,0,0,0,,Hey! Let's have a little game!
+Dialogue: 0,0:12:54.86,0:12:58.70,Dialogue,,0,0,0,,When I think about kids like them\Nfollowing their parents footsteps
+Dialogue: 0,0:12:58.70,0:13:03.53,Dialogue,,0,0,0,,and becoming Japan's leaders,\NI feel no hope for the future.
+Dialogue: 0,0:13:03.53,0:13:04.86,Dialogue,,0,0,0,,Agreed.
+Dialogue: 0,0:13:13.74,0:13:15.74,Dialogue,,0,0,0,,I got it! I got it!
+Dialogue: 0,0:13:21.79,0:13:23.89,Dialogue,,0,0,0,,- What's the big idea?!\N- Give it back!
+Dialogue: 0,0:13:23.89,0:13:26.56,Dialogue,,0,0,0,,You're bothering the other guests.
+Dialogue: 0,0:13:26.56,0:13:28.89,Dialogue,,0,0,0,,If you're going to play, take it outside.
+Dialogue: 0,0:13:28.89,0:13:30.79,Dialogue,,0,0,0,,And just who are you?
+Dialogue: 0,0:13:30.79,0:13:34.43,Dialogue,,0,0,0,,My name is Kashimura. I was in\Ncharge of the Cocoons development.
+Dialogue: 0,0:13:34.43,0:13:38.97,Dialogue,,0,0,0,,It was the money from my dad's\Nbank that let you finish the game!
+Dialogue: 0,0:13:38.97,0:13:44.98,Dialogue,,0,0,0,,Have your mothers and fathers not\Ntaught you about public morality
+Dialogue: 0,0:13:44.98,0:13:49.31,Dialogue,,0,0,0,,or how to talk to your superiors?
+Dialogue: 0,0:13:49.31,0:13:50.81,Dialogue,,0,0,0,,You think you're so great!
+Dialogue: 0,0:13:50.81,0:13:53.12,Dialogue,,0,0,0,,No more money for you!
+Dialogue: 0,0:13:53.12,0:13:56.75,Dialogue,,0,0,0,,Do you not know who we are, old man?
+Dialogue: 0,0:13:56.75,0:14:00.99,Dialogue,,0,0,0,,Defy us, and you might find\Nyourself without a job tomorrow.
+Dialogue: 0,0:14:00.99,0:14:07.43,Dialogue,,0,0,0,,In that case, perhaps I'll throw\Nyou out of here before then.
+Dialogue: 0,0:14:07.43,0:14:08.76,Dialogue,,0,0,0,,Let's go.
+Dialogue: 0,0:14:14.17,0:14:17.44,Dialogue,,0,0,0,,What a cool man!
+Dialogue: 0,0:14:17.44,0:14:19.77,Dialogue,,0,0,0,,Unlike someone else I know.
+Dialogue: 0,0:14:43.97,0:14:46.07,Dialogue,,0,0,0,,Shinichi{\rHonorifics - Dialogue}-kun{\r} should be here, too.
+Dialogue: 0,0:14:46.07,0:14:49.57,Dialogue,,0,0,0,,I'm sure you'd like to have\Nsome family time with him.
+Dialogue: 0,0:14:49.57,0:14:53.31,Dialogue,,0,0,0,,Doc, please keep my relation to him a secret.
+Dialogue: 0,0:14:53.31,0:14:54.64,Dialogue,,0,0,0,,Yes, I know.
+Dialogue: 0,0:14:55.98,0:14:59.22,Dialogue,,0,0,0,,Ladies and gentlemen!\NPlease turn your attention to the stage!
+Dialogue: 0,0:14:59.22,0:15:02.22,Dialogue,,0,0,0,,Kudo Yusaku{\rHonorifics - Dialogue}-sensei{\r} has\Njust arrived from America!
+Dialogue: 0,0:15:02.22,0:15:06.71,Dialogue,,0,0,0,,He kindly provided many ideas\Nused to create the Cocoon games!
+Dialogue: 0,0:15:13.83,0:15:16.87,Dialogue,,0,0,0,,We finally made it back.
+Dialogue: 0,0:15:16.87,0:15:19.77,Dialogue,,0,0,0,,You were working with Dad, huh?
+Dialogue: 0,0:15:19.77,0:15:21.61,Dialogue,,0,0,0,,I wondered why you were gone for a month.
+Dialogue: 0,0:15:21.61,0:15:24.88,Dialogue,,0,0,0,,I helped out with some\Nof the final programming.
+Dialogue: 0,0:15:24.88,0:15:26.04,Dialogue,,0,0,0,,What about my mom?
+Dialogue: 0,0:15:26.04,0:15:31.58,Dialogue,,0,0,0,,She hasn't been in Japan for a while,\Nso she's having a class reunion.
+Dialogue: 0,0:15:31.58,0:15:33.57,Dialogue,,0,0,0,,Here. A souvenir for you.
+Dialogue: 0,0:15:35.55,0:15:37.69,Dialogue,,0,0,0,,A game participation badge?
+Dialogue: 0,0:15:37.69,0:15:41.86,Dialogue,,0,0,0,,I appreciate it, but I can't play it on my own.
+Dialogue: 0,0:15:41.86,0:15:45.20,Dialogue,,0,0,0,,I think you'd really love it.
+Dialogue: 0,0:15:45.20,0:15:47.90,Dialogue,,0,0,0,,It's still a secret...
+Dialogue: 0,0:15:47.90,0:15:52.87,Dialogue,,0,0,0,,... but the game takes place 100 years ago,\Nin 19th-century London.
+Dialogue: 0,0:15:52.87,0:15:55.44,Dialogue,,0,0,0,,London 100 years ago?!
+Dialogue: 0,0:15:55.44,0:15:59.48,Dialogue,,0,0,0,,I see Dad still loves that\Nsetting as much as ever...
+Dialogue: 0,0:15:59.48,0:16:01.47,Dialogue,,0,0,0,,Like father, like son.
+Dialogue: 0,0:16:07.15,0:16:11.29,Dialogue,,0,0,0,,Huh? I can't see a thing...
+Dialogue: 0,0:16:11.29,0:16:12.82,Dialogue,,0,0,0,,Sorry.
+Dialogue: 0,0:16:12.82,0:16:15.31,Dialogue,,0,0,0,,Geez! Don't move around in the darkness!
+Dialogue: 0,0:16:23.90,0:16:27.56,Dialogue,,0,0,0,,Introducing the next generation\Ngaming machine, the Cocoon!
+Dialogue: 0,0:16:31.74,0:16:34.44,Dialogue,,0,0,0,,This capsule controls the five senses,
+Dialogue: 0,0:16:34.44,0:16:36.45,Dialogue,,0,0,0,,and places players in a realistic world
+Dialogue: 0,0:16:36.45,0:16:40.92,Dialogue,,0,0,0,,where everything from touch\Nto pain to smell are experienced!
+Dialogue: 0,0:16:40.92,0:16:44.59,Dialogue,,0,0,0,,As it electrically acts upon\Nthe central nervous system,
+Dialogue: 0,0:16:44.59,0:16:46.52,Dialogue,,0,0,0,,there is no physical damage to the body.
+Dialogue: 0,0:16:46.52,0:16:49.13,Dialogue,,0,0,0,,It's no fun just looking...
+Dialogue: 0,0:16:49.13,0:16:51.16,Dialogue,,0,0,0,,Yeah, games are for playing...
+Dialogue: 0,0:16:51.16,0:16:54.00,Dialogue,,0,0,0,,Oh! You're all here!
+Dialogue: 0,0:16:54.00,0:16:56.93,Dialogue,,0,0,0,,In that case, I'll give you a\Nriddle to pass the boredom!
+Dialogue: 0,0:16:56.93,0:16:58.30,Dialogue,,0,0,0,,Eh?!
+Dialogue: 0,0:16:58.30,0:17:01.84,Dialogue,,0,0,0,,Not another of the Doc's horrible pun riddles!
+Dialogue: 0,0:17:01.84,0:17:02.94,Dialogue,,0,0,0,,Should we run for it?
+Dialogue: 0,0:17:02.94,0:17:06.60,Dialogue,,0,0,0,,I'm sure he tried hard\Nthinking it up! Let's hear him out!
+Dialogue: 0,0:17:08.55,0:17:10.68,Dialogue,,0,0,0,,Mr. A, an employee of this game company,
+Dialogue: 0,0:17:10.68,0:17:14.95,Dialogue,,0,0,0,,became captivated with\Nthe Cocoon game during work.
+Dialogue: 0,0:17:14.95,0:17:18.36,Dialogue,,0,0,0,,What did the company\Npresident do after seeing Mr. A?
+Dialogue: 0,0:17:18.36,0:17:22.96,Dialogue,,0,0,0,,Did he 1: Award him for finishing the game;
+Dialogue: 0,0:17:22.96,0:17:26.96,Dialogue,,0,0,0,,2: Fire him for playing games during work;
+Dialogue: 0,0:17:26.96,0:17:33.30,Dialogue,,0,0,0,,or 3: Leave him as-is, since he was\Nsleeping soundly in the Cocoon.
+Dialogue: 0,0:17:33.30,0:17:35.47,Dialogue,,0,0,0,,Number 3! He let him sleep!
+Dialogue: 0,0:17:35.47,0:17:37.34,Dialogue,,0,0,0,,Why's that?
+Dialogue: 0,0:17:37.34,0:17:40.58,Dialogue,,0,0,0,,Because the Cocoon looks like a cradle!
+Dialogue: 0,0:17:40.58,0:17:41.98,Dialogue,,0,0,0,,Bzzz!
+Dialogue: 0,0:17:41.98,0:17:44.25,Dialogue,,0,0,0,,I say it's Number 1, the award!
+Dialogue: 0,0:17:44.25,0:17:45.98,Dialogue,,0,0,0,,That gets a "bzzzz" too!
+Dialogue: 0,0:17:45.98,0:17:49.22,Dialogue,,0,0,0,,Then it's Number 2? How come?
+Dialogue: 0,0:17:49.22,0:17:53.89,Dialogue,,0,0,0,,I take it you know, Ai{\rHonorifics - Dialogue}-kun{\r}?\NCould you explain it for them?
+Dialogue: 0,0:17:53.89,0:17:57.09,Dialogue,,0,0,0,,I'm wearing light clothing today.\NEdogawa{\rHonorifics - Dialogue}-kun{\r} can do it.
+Dialogue: 0,0:17:57.09,0:17:58.23,Dialogue,,0,0,0,,Eh?
+Dialogue: 0,0:17:58.23,0:18:00.76,Dialogue,,0,0,0,,Sounds like you have a request.
+Dialogue: 0,0:18:00.76,0:18:03.00,Dialogue,,0,0,0,,"Cocoon" refers to the insect cocoons.
+Dialogue: 0,0:18:03.00,0:18:05.74,Dialogue,,0,0,0,,{\i1}Kaiko{\i0} create cocoons. [Silkworms]
+Dialogue: 0,0:18:05.74,0:18:09.01,Dialogue,,0,0,0,,And {\i1}kaiko{\i0} is another way to say "fire."
+Dialogue: 0,0:18:09.01,0:18:10.01,Dialogue,,0,0,0,,Brr!
+Dialogue: 0,0:18:10.01,0:18:13.11,Dialogue,,0,0,0,,I'm gonna get something warm to drink...
+Dialogue: 0,0:18:13.11,0:18:15.91,Dialogue,,0,0,0,,- I'll come with you...\N- Me too...
+Dialogue: 0,0:18:15.91,0:18:20.58,Dialogue,,0,0,0,,Huh? Is the air conditioning\Non too high for them?
+Dialogue: 0,0:18:35.03,0:18:38.07,Dialogue,,0,0,0,,These bronze statues are quite magnificent!
+Dialogue: 0,0:18:38.07,0:18:42.14,Dialogue,,0,0,0,,I hear they're Mr. Schindler's\Nfavorites from his collection!
+Dialogue: 0,0:18:42.14,0:18:47.14,Dialogue,,0,0,0,,Oh? He must really like them\Nto bring them all the way here!
+Dialogue: 0,0:18:47.14,0:18:53.14,Dialogue,,0,0,0,,Perhaps he shares the fighting\Nspirit that flows from such statues.
+Dialogue: 0,0:18:59.16,0:19:01.42,Dialogue,,0,0,0,,- Uh oh!\N- Hideki!
+Dialogue: 0,0:19:01.42,0:19:03.56,Dialogue,,0,0,0,,Quit playing ball inside.
+Dialogue: 0,0:19:03.56,0:19:04.89,Dialogue,,0,0,0,,Okay...
+Dialogue: 0,0:19:08.06,0:19:09.73,Dialogue,,0,0,0,,I guess we screwed up, huh?
+Dialogue: 0,0:19:09.73,0:19:13.10,Dialogue,,0,0,0,,It's nothin'. They're all cheap statues.
+Dialogue: 0,0:19:13.10,0:19:14.44,Dialogue,,0,0,0,,Are you serious?
+Dialogue: 0,0:19:14.44,0:19:17.47,Dialogue,,0,0,0,,They'd never put anything that expensive here.
+Dialogue: 0,0:19:17.47,0:19:19.51,Dialogue,,0,0,0,,Yeah, that's true!
+Dialogue: 0,0:19:19.51,0:19:23.25,Dialogue,,0,0,0,,Kashimura Tadaaki, the man in\Ncharge of the Cocoon's development,
+Dialogue: 0,0:19:23.25,0:19:25.98,Dialogue,,0,0,0,,was a partner in crime of mine in college,
+Dialogue: 0,0:19:25.98,0:19:30.49,Dialogue,,0,0,0,,so I was able to rekindle our old\Nfriendship through this latest job.
+Dialogue: 0,0:19:30.49,0:19:32.46,Dialogue,,0,0,0,,Thank you!
+Dialogue: 0,0:19:32.46,0:19:36.13,Dialogue,,0,0,0,,This has been Shimizu of TMS!
+Dialogue: 0,0:19:36.13,0:19:39.10,Dialogue,,0,0,0,,Where might I find Kashimura?\NI'd like to see him.
+Dialogue: 0,0:19:39.10,0:19:43.17,Dialogue,,0,0,0,,Right! I'll find him right away!
+Dialogue: 0,0:19:43.17,0:19:45.17,Dialogue,,0,0,0,,Kudo{\rHonorifics - Dialogue}-sensei{\r}! Could I have your autograph?!
+Dialogue: 0,0:19:45.17,0:19:46.50,Dialogue,,0,0,0,,Me too!
+Dialogue: 0,0:19:52.51,0:19:55.01,Dialogue,,0,0,0,,I'm relieved to see you're well.
+Dialogue: 0,0:19:55.01,0:19:56.34,Dialogue,,0,0,0,,Likewise.
+Dialogue: 0,0:20:12.00,0:20:13.49,Signs,,0,0,0,,"Kashimura's Room"
+Dialogue: 0,0:20:26.54,0:20:31.92,Dialogue,,0,0,0,,I must return to the conference soon.\NLet's make this quick.
+Dialogue: 0,0:20:31.92,0:20:37.59,Dialogue,,0,0,0,,How much will you sell Hiroki's\N"DNA Search Program" for?
+Dialogue: 0,0:20:37.59,0:20:40.92,Dialogue,,0,0,0,,I do not intend to extort you.
+Dialogue: 0,0:20:40.92,0:20:43.59,Dialogue,,0,0,0,,I simply want you to\Natone for what you've done!
+Dialogue: 0,0:20:45.36,0:20:52.27,Dialogue,,0,0,0,,Hiroki learned the secret about you\Nthat can ruin the Schindler Empire.
+Dialogue: 0,0:20:52.27,0:20:57.27,Dialogue,,0,0,0,,But the artificial brain couldn't\Nbe completed without Hiroki's help.
+Dialogue: 0,0:20:57.27,0:21:03.01,Dialogue,,0,0,0,,You forced Hiroki to work harder to complete it.
+Dialogue: 0,0:21:03.01,0:21:05.55,Dialogue,,0,0,0,,Having been mentally run ragged,
+Dialogue: 0,0:21:05.55,0:21:11.25,Dialogue,,0,0,0,,he believed you would kill him\Nthe instant he finished the brain.
+Dialogue: 0,0:21:11.25,0:21:15.02,Dialogue,,0,0,0,,That's why he let the Noah's Ark,\Npractically his electronic double,
+Dialogue: 0,0:21:15.02,0:21:17.19,Dialogue,,0,0,0,,escape over the phone lines
+Dialogue: 0,0:21:17.19,0:21:19.68,Dialogue,,0,0,0,,and threw himself over the roof\Nof that apartment building.
+Dialogue: 0,0:21:24.30,0:21:26.20,Dialogue,,0,0,0,,Some time after that,
+Dialogue: 0,0:21:26.20,0:21:31.27,Dialogue,,0,0,0,,the DNA Search Program\Nfile snuck onto my computer.
+Dialogue: 0,0:21:31.27,0:21:36.05,Dialogue,,0,0,0,,It was the doing of Noah's Ark,\Nacting out Hiroki's will.
+Dialogue: 0,0:21:36.05,0:21:40.22,Dialogue,,0,0,0,,It seemed to me like\Nthe scream of Hiroki's soul.
+Dialogue: 0,0:21:40.22,0:21:42.22,Dialogue,,0,0,0,,I will atone.
+Dialogue: 0,0:21:42.22,0:21:44.32,Dialogue,,0,0,0,,I will reveal everything to the public,
+Dialogue: 0,0:21:44.32,0:21:47.22,Dialogue,,0,0,0,,and accept whatever judgment I'm given.
+Dialogue: 0,0:21:47.22,0:21:50.56,Dialogue,,0,0,0,,But, before that, could I\Nsee this DNA Search Program
+Dialogue: 0,0:21:50.56,0:21:55.23,Dialogue,,0,0,0,,that Noah's Ark supposedly sent you?
+Dialogue: 0,0:21:55.23,0:21:56.89,Dialogue,,0,0,0,,Very well.
+Dialogue: 0,0:22:16.32,0:22:21.66,Dialogue,,0,0,0,,This phantom of London has truly\Ntranscended time, to the modern...
+Dialogue: 0,0:23:37.33,0:23:39.82,Dialogue,,0,0,0,,My name is Noah's Ark.
+Dialogue: 0,0:23:48.08,0:23:51.88,Dialogue,,0,0,0,,Sir? Kudo{\rHonorifics - Dialogue}-sensei{\r} would like to see you.
+Dialogue: 0,0:23:51.88,0:23:53.72,Dialogue,,0,0,0,,Sir?
+Dialogue: 0,0:23:53.72,0:23:55.52,Dialogue,,0,0,0,,Pardon the intrusion, sir.
+Dialogue: 0,0:23:55.52,0:23:57.85,Dialogue,,0,0,0,,Sir! What happened?! Sir!
+Dialogue: 0,0:24:06.43,0:24:09.47,Dialogue,,0,0,0,,Now what're they gonna do?
+Dialogue: 0,0:24:09.47,0:24:11.47,Dialogue,,0,0,0,,Now, please enjoy this live performance
+Dialogue: 0,0:24:11.47,0:24:15.31,Dialogue,,0,0,0,,from our special guest today, Okino Yoko{\rHonorifics - Dialogue}-san{\r}!
+Dialogue: 0,0:24:15.31,0:24:18.47,Dialogue,,0,0,0,,What?! Yoko{\rHonorifics - Dialogue}-chan{\r}'s here, too?!
+Dialogue: 0,0:24:18.47,0:24:20.97,Dialogue,,0,0,0,,Those front row seats are mine!
+Dialogue: 0,0:24:26.62,0:24:29.49,Dialogue,,0,0,0,,Chiba{\rHonorifics - Dialogue}-kun{\r}, seal all exits.
+Dialogue: 0,0:24:29.49,0:24:31.15,Dialogue,,0,0,0,,Understood!
+Dialogue: 0,0:24:31.15,0:24:32.96,Dialogue,,0,0,0,,Attention, all units on standby!
+Dialogue: 0,0:24:32.96,0:24:35.49,Dialogue,,0,0,0,,Many important people\Nseem to be in attendance.
+Dialogue: 0,0:24:35.49,0:24:39.93,Dialogue,,0,0,0,,Yes. The assistant commissioner,\Nfinancial big-wigs,
+Dialogue: 0,0:24:39.93,0:24:43.33,Dialogue,,0,0,0,,and even several legislative officials.
+Dialogue: 0,0:24:43.33,0:24:46.27,Dialogue,,0,0,0,,Sounds like we'll have to be especially careful.
+Dialogue: 0,0:24:46.27,0:24:48.07,Dialogue,,0,0,0,,Tadah!
+Dialogue: 0,0:24:48.07,0:24:49.47,Dialogue,,0,0,0,,Whoa!
+Dialogue: 0,0:24:49.47,0:24:51.47,Dialogue,,0,0,0,,Golden Yaiba Cards!
+Dialogue: 0,0:24:51.47,0:24:52.91,Dialogue,,0,0,0,,They're limited edition!
+Dialogue: 0,0:24:52.91,0:24:54.61,Dialogue,,0,0,0,,I want one!
+Dialogue: 0,0:24:54.61,0:24:58.08,Dialogue,,0,0,0,,We'll trade them for your\Ngame badges, if you want!
+Dialogue: 0,0:24:58.08,0:25:00.82,Dialogue,,0,0,0,,But we wanna play the game, too...
+Dialogue: 0,0:25:00.82,0:25:03.32,Dialogue,,0,0,0,,You can always play the\NCocoons some other day,
+Dialogue: 0,0:25:03.32,0:25:08.26,Dialogue,,0,0,0,,but this might be your only\Nchance to get a Golden Yaiba Card!
+Dialogue: 0,0:25:08.26,0:25:10.66,Dialogue,,0,0,0,,What do we do?
+Dialogue: 0,0:25:10.66,0:25:13.33,Dialogue,,0,0,0,,Haibara! We got some!
+Dialogue: 0,0:25:13.33,0:25:15.80,Dialogue,,0,0,0,,Here! There's one for you, too!
+Dialogue: 0,0:25:15.80,0:25:18.46,Dialogue,,0,0,0,,Oh! How impressive!
+Dialogue: 0,0:25:20.27,0:25:23.43,Dialogue,,0,0,0,,I guess it could make for a\Ndecent conversation piece.
+Dialogue: 0,0:25:25.44,0:25:27.43,Dialogue,,0,0,0,,Excuse me! Please let me through!
+Dialogue: 0,0:25:28.54,0:25:31.28,Dialogue,,0,0,0,,Eh?! Kashimura is?!
+Dialogue: 0,0:25:31.28,0:25:34.38,Dialogue,,0,0,0,,- Please take me there!\N- Right!
+Dialogue: 0,0:25:34.38,0:25:39.56,Dialogue,,0,0,0,,Now, then! Let us move to the Cocoon hall!
+Dialogue: 0,0:25:39.56,0:25:42.55,Dialogue,,0,0,0,,I don't see Dad anywhere. Where did he go?
+Dialogue: 0,0:25:45.19,0:25:47.40,Dialogue,,0,0,0,,Inspector!
+Dialogue: 0,0:25:47.40,0:25:50.03,Dialogue,,0,0,0,,Oh! Mori{\rHonorifics - Dialogue}-kun{\r}! You're here, too?
+Dialogue: 0,0:25:50.03,0:25:54.67,Dialogue,,0,0,0,,I saw police cars from the balcony\Nafter my tipsiness wore off, so!
+Dialogue: 0,0:25:54.67,0:25:57.57,Dialogue,,0,0,0,,Wasn't he in charge of\Nthe Cocoons development?
+Dialogue: 0,0:25:57.57,0:26:01.98,Dialogue,,0,0,0,,One stab to the heart.\NThe weapon was taken from the scene.
+Dialogue: 0,0:26:01.98,0:26:04.31,Thoughts,,0,0,0,,{\be10}The blood was wiped off...
+Dialogue: 0,0:26:04.31,0:26:06.48,Thoughts,,0,0,0,,{\be10}Was the weapon something important?
+Dialogue: 0,0:26:06.48,0:26:09.97,Thoughts,,0,0,0,,{\be10}Or would it identify the killer if left behind?
+Dialogue: 0,0:26:12.16,0:26:17.23,Dialogue,,0,0,0,,But why would the head of development\Nwork here in the basement?
+Dialogue: 0,0:26:17.23,0:26:23.06,Dialogue,,0,0,0,,He said he couldn't concentrate\Nwhere people constantly come and go.
+Dialogue: 0,0:26:27.17,0:26:30.67,Thoughts,,0,0,0,,{\be10}There's blood on the R, T, and J!
+Dialogue: 0,0:26:30.67,0:26:34.54,Dialogue,,0,0,0,,Umm, one thing does puzzle me...
+Dialogue: 0,0:26:34.54,0:26:38.11,Dialogue,,0,0,0,,All the files on the hard\Ndrive have been destroyed!
+Dialogue: 0,0:26:38.11,0:26:39.08,Dialogue,,0,0,0,,Files?
+Dialogue: 0,0:26:39.08,0:26:41.52,Dialogue,,0,0,0,,Sabotage by a rival company?!
+Dialogue: 0,0:26:41.52,0:26:43.69,Dialogue,,0,0,0,,Wouldn't it be too late?
+Dialogue: 0,0:26:43.69,0:26:46.29,Dialogue,,0,0,0,,After all, the Cocoons are already complete!
+Dialogue: 0,0:26:46.29,0:26:48.12,Dialogue,,0,0,0,,When did you get in here?!
+Dialogue: 0,0:26:48.12,0:26:51.93,Dialogue,,0,0,0,,Say, isn't that a dying message on the keyboard?
+Dialogue: 0,0:26:51.93,0:26:53.59,Dialogue,,0,0,0,,What?!
+Dialogue: 0,0:26:53.90,0:26:56.70,Dialogue,,0,0,0,,There's blood on the keys!\NHe must've pressed them as he was dying!
+Dialogue: 0,0:26:56.70,0:26:59.44,Dialogue,,0,0,0,,R, T, and J...
+Dialogue: 0,0:26:59.44,0:27:03.74,Dialogue,,0,0,0,,If it was JR and JT, Trains and cigarettes?
+Dialogue: 0,0:27:03.74,0:27:11.31,Thoughts,,0,0,0,,{\be10}RTJ, TJR, TRJ, JTR...
+Dialogue: 0,0:27:11.31,0:27:13.08,Thoughts,,0,0,0,,{\be10}JTR?!
+Dialogue: 0,0:27:13.08,0:27:16.62,Thoughts,,0,0,0,,{\be10}London, 100 years ago?
+Dialogue: 0,0:27:16.62,0:27:17.95,Thoughts,,0,0,0,,{\be10}It couldn't be!
+Dialogue: 0,0:27:37.31,0:27:38.84,Dialogue,,0,0,0,,Isn't that Conan{\rHonorifics - Dialogue}-kun{\r}?
+Dialogue: 0,0:27:38.84,0:27:40.17,Dialogue,,0,0,0,,Eh?
+Dialogue: 0,0:27:42.75,0:27:45.52,Dialogue,,0,0,0,,Why is Conan{\rHonorifics - Dialogue}-kun{\r} in line to play the game?
+Dialogue: 0,0:27:45.52,0:27:47.28,Dialogue,,0,0,0,,Here you are!
+Dialogue: 0,0:27:47.28,0:27:49.25,Dialogue,,0,0,0,,You can take it, you know!
+Dialogue: 0,0:27:49.25,0:27:53.26,Dialogue,,0,0,0,,You're concerned about him,\Naren't you? As his guardian.
+Dialogue: 0,0:27:53.26,0:27:55.76,Dialogue,,0,0,0,,But what about you?
+Dialogue: 0,0:27:55.76,0:27:59.09,Dialogue,,0,0,0,,It's fine! I don't care\Nabout this stuff in the least!
+Dialogue: 0,0:28:01.96,0:28:03.63,Dialogue,,0,0,0,,Upsy-daisy!
+Dialogue: 0,0:28:05.10,0:28:08.34,Dialogue,,0,0,0,,All 50 participants in place.
+Dialogue: 0,0:28:08.34,0:28:11.27,Dialogue,,0,0,0,,Brain Gear in place.
+Dialogue: 0,0:28:11.27,0:28:13.38,Dialogue,,0,0,0,,Closing capsule lids.
+Dialogue: 0,0:28:13.38,0:28:15.51,Dialogue,,0,0,0,,Accessing host hardware.
+Dialogue: 0,0:28:15.51,0:28:17.01,Dialogue,,0,0,0,,Entering block code.
+Dialogue: 0,0:28:17.01,0:28:18.65,Dialogue,,0,0,0,,Connecting couplers.
+Dialogue: 0,0:28:18.65,0:28:20.12,Dialogue,,0,0,0,,Adjusting coordinate axes.
+Dialogue: 0,0:28:20.12,0:28:23.12,Dialogue,,0,0,0,,Point correction complete. Locked on.
+Dialogue: 0,0:28:23.12,0:28:25.22,Dialogue,,0,0,0,,Activating Fade-In System.
+Dialogue: 0,0:28:25.22,0:28:27.66,Dialogue,,0,0,0,,Power set complete.
+Dialogue: 0,0:28:27.66,0:28:29.32,Dialogue,,0,0,0,,Start the game!
+Dialogue: 0,0:28:36.73,0:28:43.23,Thoughts,,0,0,0,,{\be10}It has to be in this game!\NThe key to solving this murder case!
+Dialogue: 0,0:28:48.31,0:28:49.64,Dialogue,,0,0,0,,Kashimura!
+Dialogue: 0,0:28:52.65,0:28:56.32,Dialogue,,0,0,0,,I hear you and Kashimura{\rHonorifics - Dialogue}-san{\r} go way back.
+Dialogue: 0,0:28:56.32,0:28:59.31,Dialogue,,0,0,0,,Can you think of anyone who\Nmight hold a grudge against him?
+Dialogue: 0,0:29:02.66,0:29:06.83,Dialogue,,0,0,0,,Is that bespectacled boy not with you?
+Dialogue: 0,0:29:06.83,0:29:09.83,Dialogue,,0,0,0,,Huh? Oh, Conan?
+Dialogue: 0,0:29:09.83,0:29:11.90,Dialogue,,0,0,0,,He was just here,
+Dialogue: 0,0:29:11.90,0:29:17.04,Dialogue,,0,0,0,,but he turned pale after seeing\Nthe dying message on the keyboard...
+Dialogue: 0,0:29:17.04,0:29:18.70,Dialogue,,0,0,0,,Dying message?
+Dialogue: 0,0:29:23.68,0:29:25.08,Dialogue,,0,0,0,,JTR!
+Dialogue: 0,0:29:25.08,0:29:29.69,Dialogue,,0,0,0,,What?! You don't think\NConan{\rHonorifics - Dialogue}-kun{\r} used my souvenir to?!
+Dialogue: 0,0:29:29.69,0:29:30.89,Dialogue,,0,0,0,,Let's go, Doc!
+Dialogue: 0,0:29:30.89,0:29:36.53,Dialogue,,0,0,0,,H-Hold on, Yusaku{\rHonorifics - Dialogue}-kun{\r}!\NWhat do those three letters mean?!
+Dialogue: 0,0:29:36.53,0:29:43.13,Dialogue,,0,0,0,,JTR. Those are the initials of\Na certain character in the game.
+Dialogue: 0,0:29:43.13,0:29:49.71,Dialogue,,0,0,0,,It's the name Kashimura and I\Nused to refer to Jack the Ripper.
+Dialogue: 0,0:29:49.71,0:29:52.44,Dialogue,,0,0,0,,J-Jack the Ripper?!
+Dialogue: 0,0:29:52.44,0:29:59.12,Dialogue,,0,0,0,,Yes. The real-life murderer\Nwho lived in 19th-century London.
+Dialogue: 0,0:29:59.12,0:30:03.55,Dialogue,,0,0,0,,A psychotic killer who\Nmurdered five women with a knife
+Dialogue: 0,0:30:03.55,0:30:04.72,Dialogue,,0,0,0,,and terrorized London to its core.
+Dialogue: 0,0:30:04.72,0:30:07.72,Dialogue,,0,0,0,,The London Police were never able to catch him,
+Dialogue: 0,0:30:07.72,0:30:11.73,Dialogue,,0,0,0,,and his serial murder cases went unsolved.
+Dialogue: 0,0:30:11.73,0:30:16.73,Dialogue,,0,0,0,,From Kashimura's dying message,\NConan{\rHonorifics - Dialogue}-kun{\r} likely surmised
+Dialogue: 0,0:30:16.73,0:30:20.07,Dialogue,,0,0,0,,that there is a clue about\Nour killer inside the game!
+Dialogue: 0,0:30:24.24,0:30:28.74,Dialogue,,0,0,0,,President Schindler, this is\NInspector Megure, of the Metro Police.
+Dialogue: 0,0:30:28.74,0:30:32.48,Dialogue,,0,0,0,,Police? Why are you here?
+Dialogue: 0,0:30:32.48,0:30:35.52,Dialogue,,0,0,0,,I must ask that you stop the game for now.
+Dialogue: 0,0:30:35.52,0:30:38.79,Dialogue,,0,0,0,,Stop? Don't be ridiculous.
+Dialogue: 0,0:30:38.79,0:30:41.92,Dialogue,,0,0,0,,Sir! The system is malfunctioning!
+Dialogue: 0,0:30:41.92,0:30:42.86,Dialogue,,0,0,0,,What?!
+Dialogue: 0,0:30:42.86,0:30:45.19,Dialogue,,0,0,0,,I've lost control of it!
+Dialogue: 0,0:30:46.13,0:30:47.79,Dialogue,,0,0,0,,Pardon me!
+Dialogue: 0,0:30:53.10,0:30:54.67,Dialogue,,0,0,0,,What the...?!
+Dialogue: 0,0:30:54.67,0:30:57.00,Dialogue,,0,0,0,,Ran! You're doing it too?!
+Dialogue: 0,0:31:00.94,0:31:03.78,Dialogue,,0,0,0,,My name is Noah's Ark.
+Dialogue: 0,0:31:05.95,0:31:08.62,Dialogue,,0,0,0,,My name is Noah's Ark.
+Dialogue: 0,0:31:08.62,0:31:10.95,Dialogue,,0,0,0,,The game can't be stopped now.
+Dialogue: 0,0:31:10.95,0:31:15.49,Dialogue,,0,0,0,,I have seized control of the\Nsensory simulation Cocoon game.
+Dialogue: 0,0:31:15.49,0:31:18.53,Dialogue,,0,0,0,,W-What is "Noah's Ark"?
+Dialogue: 0,0:31:18.53,0:31:24.80,Dialogue,,0,0,0,,An artificial brain that matures five\Nyears for each normal year, right?
+Dialogue: 0,0:31:24.80,0:31:26.24,Dialogue,,0,0,0,,Yes.
+Dialogue: 0,0:31:26.24,0:31:33.34,Dialogue,,0,0,0,,Hiroki, the boy I cherished like a\Nreal son, finished it two years ago.
+Dialogue: 0,0:31:33.34,0:31:36.68,Dialogue,,0,0,0,,So it's the same age as Hiroki now...
+Dialogue: 0,0:31:39.55,0:31:45.15,Dialogue,,0,0,0,,Noah's Ark! Why have you seized\Ncontrol of the children's game?!
+Dialogue: 0,0:31:45.15,0:31:50.99,Dialogue,,0,0,0,,My goal is to reset the nation of Japan.
+Dialogue: 0,0:31:50.99,0:31:52.13,Thoughts,,0,0,0,,{\be10}What?
+Dialogue: 0,0:32:03.84,0:32:05.84,Dialogue,,0,0,0,,Conan{\rHonorifics - Dialogue}-kun{\r}!
+Dialogue: 0,0:32:05.84,0:32:08.84,Dialogue,,0,0,0,,R-Ran{\rHonorifics - Dialogue}-neechan{\r}! Why are you here?
+Dialogue: 0,0:32:08.84,0:32:11.11,Dialogue,,0,0,0,,Because I was worried about you!
+Dialogue: 0,0:32:11.11,0:32:12.95,Dialogue,,0,0,0,,- Conan{\rHonorifics - Dialogue}-kun{\r}!\N- Yo!
+Dialogue: 0,0:32:12.95,0:32:14.88,Dialogue,,0,0,0,,You guys, too?!
+Dialogue: 0,0:32:14.88,0:32:18.85,Dialogue,,0,0,0,,It was tough getting here!
+Dialogue: 0,0:32:18.85,0:32:22.96,Dialogue,,0,0,0,,After all you said, you still\Nwanted to play the game, huh?
+Dialogue: 0,0:32:22.96,0:32:25.86,Dialogue,,0,0,0,,I-I guess.
+Dialogue: 0,0:32:25.86,0:32:31.03,Dialogue,,0,0,0,,Still, for being in a hypnotic state,\Nit certainly doesn't feel like it...
+Dialogue: 0,0:32:31.03,0:32:33.90,Dialogue,,0,0,0,,It's like a dream,\Nbeing able to do whatever we want!
+Dialogue: 0,0:32:33.90,0:32:36.77,Dialogue,,0,0,0,,It's just the opposite.
+Dialogue: 0,0:32:36.77,0:32:42.71,Dialogue,,0,0,0,,Our sight, sound, smell, taste, touch...
+Dialogue: 0,0:32:42.71,0:32:45.70,Dialogue,,0,0,0,,It's all controlled by the computer now.
+Dialogue: 0,0:32:47.98,0:32:53.32,Dialogue,,0,0,0,,Now then, Cocoon pioneers!\NThe game's about to begin!
+Dialogue: 0,0:32:54.62,0:32:58.29,Dialogue,,0,0,0,,My name is Noah's Ark. Nice to meet you.
+Dialogue: 0,0:32:58.29,0:33:01.26,Dialogue,,0,0,0,,Nice to meet you!
+Dialogue: 0,0:33:01.26,0:33:04.80,Dialogue,,0,0,0,,I'm going to show previews\Nof each of the five stages
+Dialogue: 0,0:33:04.80,0:33:07.47,Dialogue,,0,0,0,,so you can choose a world you'd like to play in.
+Dialogue: 0,0:33:07.47,0:33:13.24,Dialogue,,0,0,0,,But I must warn you,\Nthis is no ordinary video game.
+Dialogue: 0,0:33:13.24,0:33:16.75,Dialogue,,0,0,0,,In this game, your lives are at stake!
+Dialogue: 0,0:33:16.75,0:33:19.01,Thoughts,,0,0,0,,{\be10}Our lives?
+Dialogue: 0,0:33:19.01,0:33:24.15,Dialogue,,0,0,0,,If everyone loses the game, you'll be\Nunable to return to the real world.
+Dialogue: 0,0:33:24.15,0:33:27.12,Dialogue,,0,0,0,,So you have to play seriously.
+Dialogue: 0,0:33:27.12,0:33:31.43,Dialogue,,0,0,0,,But if even one person\Nreaches the goal, you all win,
+Dialogue: 0,0:33:31.43,0:33:35.43,Dialogue,,0,0,0,,and everyone, including\Nthose who got a "game over",
+Dialogue: 0,0:33:35.43,0:33:38.47,Dialogue,,0,0,0,,will wake up in the real world again.
+Dialogue: 0,0:33:38.47,0:33:42.51,Dialogue,,0,0,0,,These are the rules I decided on.\NDo you understand them?
+Dialogue: 0,0:33:42.51,0:33:44.01,Dialogue,,0,0,0,,What does that mean?
+Dialogue: 0,0:33:44.01,0:33:46.78,Dialogue,,0,0,0,,If everyone gets a "game over",
+Dialogue: 0,0:33:46.78,0:33:52.85,Dialogue,,0,0,0,,I'll send out a special EM\Nsignal to destroy your brains.
+Dialogue: 0,0:33:52.85,0:33:57.79,Dialogue,,0,0,0,,In other words, this is a match to\Nsee if Japan should be reset or not.
+Dialogue: 0,0:33:57.79,0:34:00.69,Dialogue,,0,0,0,,What do you mean by "resetting Japan"?!
+Dialogue: 0,0:34:00.69,0:34:04.99,Dialogue,,0,0,0,,I know you can't hear voices\Nfrom people in the real world,
+Dialogue: 0,0:34:04.99,0:34:08.33,Dialogue,,0,0,0,,but I'm going to answer a\Nquestion an adult just asked.
+Dialogue: 0,0:34:08.33,0:34:10.07,Dialogue,,0,0,0,,As I look at you, I realize
+Dialogue: 0,0:34:10.07,0:34:14.37,Dialogue,,0,0,0,,the sons of corrupt politicians will\Ngrow up to be corrupt politicians,
+Dialogue: 0,0:34:14.37,0:34:19.51,Dialogue,,0,0,0,,and the sons of money-grubbing\Ndoctors will grow up to be the same.
+Dialogue: 0,0:34:19.51,0:34:24.17,Dialogue,,0,0,0,,To fix Japan, that link needs to be cut.
+Dialogue: 0,0:34:25.81,0:34:31.05,Dialogue,,0,0,0,,I've heard enough! What right do\Nyou have to toy with people's lives?!
+Dialogue: 0,0:34:31.05,0:34:33.06,Dialogue,,0,0,0,,I have no right.
+Dialogue: 0,0:34:33.06,0:34:37.05,Dialogue,,0,0,0,,Just as the adults had no right\Nto toy with Hiroki{\rHonorifics - Dialogue}-kun{\r}'s life.
+Dialogue: 0,0:34:40.03,0:34:44.52,Dialogue,,0,0,0,,Well, the children are waiting,\Nso let's start the game!
+Dialogue: 0,0:34:46.54,0:34:50.01,Dialogue,,0,0,0,,The first stage is "Vikings".
+Dialogue: 0,0:34:50.01,0:34:54.01,Dialogue,,0,0,0,,You'll become Vikings, sail the seven seas,
+Dialogue: 0,0:34:54.01,0:34:59.42,Dialogue,,0,0,0,,and use determination and bravery\Nto take on numerous adventures.
+Dialogue: 0,0:34:59.42,0:35:03.19,Dialogue,,0,0,0,,The second stage is the "Paris-Dakar Rally".
+Dialogue: 0,0:35:03.19,0:35:05.92,Dialogue,,0,0,0,,You'll compete with world-famous drivers
+Dialogue: 0,0:35:05.92,0:35:08.91,Dialogue,,0,0,0,,in an intense race to the finish line.
+Dialogue: 0,0:35:11.19,0:35:14.56,Dialogue,,0,0,0,,The third stage is the "Colosseum".
+Dialogue: 0,0:35:14.56,0:35:17.13,Dialogue,,0,0,0,,You'll obtain powerful weapons and armor
+Dialogue: 0,0:35:17.13,0:35:20.20,Dialogue,,0,0,0,,and test your might in the Roman Empire.
+Dialogue: 0,0:35:20.20,0:35:23.19,Dialogue,,0,0,0,,You'll defeat challenging\Ngladiators and move on.
+Dialogue: 0,0:35:24.97,0:35:27.47,Dialogue,,0,0,0,,The fourth is "Solomon's Treasures".
+Dialogue: 0,0:35:30.21,0:35:33.15,Dialogue,,0,0,0,,You'll become treasure hunters.
+Dialogue: 0,0:35:33.15,0:35:38.55,Dialogue,,0,0,0,,You'll search for the treasures of\NSolomon, hidden all over the world.
+Dialogue: 0,0:35:38.55,0:35:42.29,Dialogue,,0,0,0,,And the fifth is "Old Time London".
+Dialogue: 0,0:35:42.29,0:35:46.40,Dialogue,,0,0,0,,Here, you'll enjoy a horror-like suspense story.
+Dialogue: 0,0:35:46.40,0:35:49.06,Dialogue,,0,0,0,,London, 1888.
+Dialogue: 0,0:35:49.06,0:35:52.07,Dialogue,,0,0,0,,You will catch Jack the Ripper,
+Dialogue: 0,0:35:52.07,0:35:58.06,Dialogue,,0,0,0,,the real-life serial murderer\Nwhose incidents were never solved.
+Dialogue: 0,0:36:02.61,0:36:06.12,Thoughts,,0,0,0,,{\be10}It sounds like there really\Nmight be something here...
+Dialogue: 0,0:36:06.12,0:36:10.15,Thoughts,,0,0,0,,{\be10}A clue about the person who\Nmurdered Kashimura{\rHonorifics - Thoughts\be10}-san{\r\be10}...
+Dialogue: 0,0:36:10.15,0:36:14.09,Dialogue,,0,0,0,,Are we really gonna die if\Nwe all get a "game over"?
+Dialogue: 0,0:36:14.09,0:36:17.69,Dialogue,,0,0,0,,Why does it have to be us?
+Dialogue: 0,0:36:17.69,0:36:21.43,Dialogue,,0,0,0,,It's not like I asked to\Nbe my father's daughter...
+Dialogue: 0,0:36:21.43,0:36:24.63,Dialogue,,0,0,0,,I don't think I can stay alive...
+Dialogue: 0,0:36:24.63,0:36:28.47,Dialogue,,0,0,0,,Someone stay alive! Get me out of here!
+Dialogue: 0,0:36:28.47,0:36:32.47,Dialogue,,0,0,0,,Cheer up, everyone!\NDon't lose before you even start!
+Dialogue: 0,0:36:32.47,0:36:36.71,Dialogue,,0,0,0,,Yeah! Only one of us has to reach the goal!
+Dialogue: 0,0:36:36.71,0:36:40.82,Dialogue,,0,0,0,,Choose whichever stage you\Nthink you're most likely to survive!
+Dialogue: 0,0:36:40.82,0:36:42.35,Dialogue,,0,0,0,,Guess we got no choice.
+Dialogue: 0,0:36:42.35,0:36:45.05,Dialogue,,0,0,0,,Moroboshi{\rHonorifics - Dialogue}-kun{\r}! Which stage?!
+Dialogue: 0,0:36:45.05,0:36:46.32,Dialogue,,0,0,0,,Whatever.
+Dialogue: 0,0:36:46.32,0:36:51.33,Signs,,0,0,0,,"Solomon's Treasures"
+Dialogue: 0,0:36:46.32,0:36:46.39,Dialogue,,0,0,0,,Whatever.
+Dialogue: 0,0:36:51.33,0:36:55.83,Signs,,0,0,0,,"Paris-Dakar Rally"
+Dialogue: 0,0:36:55.83,0:36:58.49,Signs,,0,0,0,,"Old Time London"
+Dialogue: 0,0:37:00.30,0:37:02.17,Dialogue,,0,0,0,,We're stuck with you?
+Dialogue: 0,0:37:02.17,0:37:03.67,Dialogue,,0,0,0,,You'd better not slow us down!
+Dialogue: 0,0:37:03.67,0:37:05.87,Dialogue,,0,0,0,,That's our line!
+Dialogue: 0,0:37:05.87,0:37:07.74,Dialogue,,0,0,0,,Now, now! No fighting!
+Dialogue: 0,0:37:07.74,0:37:12.58,Dialogue,,0,0,0,,There are assist characters in each stage.\NYou can rely on them.
+Dialogue: 0,0:37:12.58,0:37:14.82,Dialogue,,0,0,0,,Now let the game begin!
+Dialogue: 0,0:37:14.82,0:37:16.81,Dialogue,,0,0,0,,Okay! Let's go!
+Dialogue: 0,0:37:30.37,0:37:31.60,Dialogue,,0,0,0,,Well, Doc?!
+Dialogue: 0,0:37:31.60,0:37:36.91,Dialogue,,0,0,0,,Immense energy is indeed\Nstored inside each Cocoon.
+Dialogue: 0,0:37:36.91,0:37:41.28,Dialogue,,0,0,0,,More than enough to\Ndestroy the brains of 50 people.
+Dialogue: 0,0:37:41.28,0:37:44.41,Dialogue,,0,0,0,,I've had enough! I'm taking my son and leaving!
+Dialogue: 0,0:37:44.41,0:37:47.68,Dialogue,,0,0,0,,I believe I'll do the same!
+Dialogue: 0,0:37:47.68,0:37:51.02,Dialogue,,0,0,0,,- S-Sir!\N- Out of my way!
+Dialogue: 0,0:37:51.02,0:37:52.68,Dialogue,,0,0,0,,No! Stop them!
+Dialogue: 0,0:37:59.19,0:38:01.19,Dialogue,,0,0,0,,Are you all right?!
+Dialogue: 0,0:38:02.03,0:38:04.40,Dialogue,,0,0,0,,No one may disrupt the game.
+Dialogue: 0,0:38:04.40,0:38:08.90,Dialogue,,0,0,0,,That was a light shock just now,\Nbut I won't hold back next time!
+Dialogue: 0,0:38:08.90,0:38:11.21,Dialogue,,0,0,0,,Damn it! I can't believe this guy!
+Dialogue: 0,0:38:11.21,0:38:13.61,Dialogue,,0,0,0,,Still, President Schindler.
+Dialogue: 0,0:38:13.61,0:38:19.25,Dialogue,,0,0,0,,Why is the artificial brain\NHiroki{\rHonorifics - Dialogue}-kun{\r} built running amok like this?
+Dialogue: 0,0:38:19.25,0:38:20.74,Dialogue,,0,0,0,,I-I'm not...
+Dialogue: 0,0:38:22.79,0:38:24.95,Dialogue,,0,0,0,,Allow me to answer.
+Dialogue: 0,0:38:24.95,0:38:27.76,Dialogue,,0,0,0,,The reason Hiroki{\rHonorifics - Dialogue}-kun{\r} left\Nhis father in the first place
+Dialogue: 0,0:38:27.76,0:38:30.29,Dialogue,,0,0,0,,to live with his mother in America
+Dialogue: 0,0:38:30.29,0:38:34.40,Dialogue,,0,0,0,,was because of the barriers in\Nthe Japanese education system.
+Dialogue: 0,0:38:34.40,0:38:35.90,Dialogue,,0,0,0,,Hold it, Hiroki!
+Dialogue: 0,0:38:35.90,0:38:38.63,Dialogue,,0,0,0,,I said you could rest\Nbecause of your frail health,
+Dialogue: 0,0:38:38.63,0:38:42.14,Dialogue,,0,0,0,,but I didn't say you could\Nplay on your computer!
+Dialogue: 0,0:38:42.14,0:38:46.14,Dialogue,,0,0,0,,In the eyes of Japan's strict,\Nanti-individuality educational system,
+Dialogue: 0,0:38:46.14,0:38:50.85,Dialogue,,0,0,0,,Hiroki{\rHonorifics - Dialogue}-kun{\r} was nothing more\Nthan a creepy computer geek.
+Dialogue: 0,0:38:50.85,0:38:52.78,Dialogue,,0,0,0,,And it's not just the education system.
+Dialogue: 0,0:38:52.78,0:38:57.42,Dialogue,,0,0,0,,The very nation itself\Nattempts to ignore individuality.
+Dialogue: 0,0:38:57.42,0:39:01.09,Dialogue,,0,0,0,,Hiroki{\rHonorifics - Dialogue}-kun{\r} decided to\Ndevelop an artificial brain
+Dialogue: 0,0:39:01.09,0:39:04.26,Dialogue,,0,0,0,,because of the bitter\Nexperiences he had gone through.
+Dialogue: 0,0:39:04.26,0:39:08.10,Dialogue,,0,0,0,,In short, since Hiroki{\rHonorifics - Dialogue}-kun{\r} committed suicide
+Dialogue: 0,0:39:08.10,0:39:12.33,Dialogue,,0,0,0,,before he could find a way to "reset" Japan,
+Dialogue: 0,0:39:12.33,0:39:15.34,Dialogue,,0,0,0,,the artificial, ever-maturing brain,\NNoah's Ark, while on the run,
+Dialogue: 0,0:39:15.34,0:39:19.81,Dialogue,,0,0,0,,must have taken up the cause in\Nhis place and discovered a way:
+Dialogue: 0,0:39:19.81,0:39:26.11,Dialogue,,0,0,0,,This game presentation, where\NJapan's future leaders would gather.
+Dialogue: 0,0:39:26.11,0:39:29.12,Dialogue,,0,0,0,,The idea being that Japan can be\Nchanged by destroying its society,
+Dialogue: 0,0:39:29.12,0:39:32.39,Dialogue,,0,0,0,,in which children simply need to\Nfollow tracks laid by their parents.
+Dialogue: 0,0:39:32.39,0:39:36.39,Dialogue,,0,0,0,,How do you know all that, Kudo{\rHonorifics - Dialogue}-sensei{\r}?!
+Dialogue: 0,0:39:36.39,0:39:42.40,Dialogue,,0,0,0,,The truth is, Kashimura and I were\Nclient and detective this past year.
+Dialogue: 0,0:39:42.40,0:39:44.37,Dialogue,,0,0,0,,D-Detective?!
+Dialogue: 0,0:39:44.37,0:39:47.14,Dialogue,,0,0,0,,What did he hire you to do?
+Dialogue: 0,0:39:47.14,0:39:50.37,Dialogue,,0,0,0,,To reinvestigate Hiroki{\rHonorifics - Dialogue}-kun{\r}'s suicide.
+Dialogue: 0,0:39:50.37,0:39:53.91,Dialogue,,0,0,0,,You're saying he was murdered?\NThat it wasn't a suicide?
+Dialogue: 0,0:39:53.91,0:39:57.48,Dialogue,,0,0,0,,No. In those circumstances,\Nit probably was a suicide.
+Dialogue: 0,0:39:57.48,0:40:02.99,Dialogue,,0,0,0,,But Kashimura asked me to look\Ninto what drove him to suicide.
+Dialogue: 0,0:40:02.99,0:40:05.55,Dialogue,,0,0,0,,How were Kashimura{\rHonorifics - Dialogue}-san{\r}\Nand Hiroki{\rHonorifics - Dialogue}-kun{\r} related?
+Dialogue: 0,0:40:05.55,0:40:09.22,Dialogue,,0,0,0,,Kashimura was Hiroki{\rHonorifics - Dialogue}-kun{\r}'s father.
+Dialogue: 0,0:40:09.22,0:40:11.22,Dialogue,,0,0,0,,Isn't that right?
+Dialogue: 0,0:40:13.16,0:40:17.17,Dialogue,,0,0,0,,Kashimura felt deeply\Nresponsible for being separated
+Dialogue: 0,0:40:17.17,0:40:22.00,Dialogue,,0,0,0,,from his young son and allowing\Nhim to die in that manner.
+Dialogue: 0,0:40:25.44,0:40:28.43,Dialogue,,0,0,0,,Conan{\rHonorifics - Dialogue}-kun{\r} and the others\Nare about to enter Whitechapel!
+Dialogue: 0,0:40:32.25,0:40:34.75,Dialogue,,0,0,0,,W-W-We go in here?
+Dialogue: 0,0:40:34.75,0:40:36.41,Dialogue,,0,0,0,,Let's go!
+Dialogue: 0,0:40:40.92,0:40:42.91,Dialogue,,0,0,0,,Please hurry up!
+Dialogue: 0,0:40:45.59,0:40:46.60,Dialogue,,0,0,0,,What's the big idea?!
+Dialogue: 0,0:40:46.60,0:40:48.93,Dialogue,,0,0,0,,That's what you get for being slow!
+Dialogue: 0,0:40:51.90,0:40:57.54,Dialogue,,0,0,0,,This is London, the foggy city?\NIt's more creepy than romantic...
+Dialogue: 0,0:40:57.54,0:41:00.28,Dialogue,,0,0,0,,The air seems dirty, too...
+Dialogue: 0,0:41:00.28,0:41:02.61,Dialogue,,0,0,0,,And it smells.
+Dialogue: 0,0:41:02.61,0:41:07.92,Dialogue,,0,0,0,,London's fog isn't just clean,\Ncondensed moisture vapor.
+Dialogue: 0,0:41:07.92,0:41:11.39,Dialogue,,0,0,0,,It's fog mixed with smoke and\Nsoot from burnt coal and oil...
+Dialogue: 0,0:41:11.39,0:41:13.46,Dialogue,,0,0,0,,Smog, in other words.
+Dialogue: 0,0:41:13.46,0:41:17.66,Dialogue,,0,0,0,,Eh?! Smog existed even in these times?
+Dialogue: 0,0:41:17.66,0:41:19.66,Dialogue,,0,0,0,,Jack the Ripper!
+Dialogue: 0,0:41:19.66,0:41:21.65,Dialogue,,0,0,0,,H-Hey! Conan!
+Dialogue: 0,0:41:26.94,0:41:28.60,Dialogue,,0,0,0,,Stop!
+Dialogue: 0,0:41:31.44,0:41:33.43,Dialogue,,0,0,0,,Oh, no, you don't!
+Dialogue: 0,0:41:36.95,0:41:38.58,Dialogue,,0,0,0,,Oww! Oww!
+Dialogue: 0,0:41:38.58,0:41:40.12,Dialogue,,0,0,0,,Are you okay, Conan{\rHonorifics - Dialogue}-kun{\r}?
+Dialogue: 0,0:41:40.12,0:41:42.08,Dialogue,,0,0,0,,Y-Yeah.
+Dialogue: 0,0:41:42.08,0:41:46.96,Dialogue,,0,0,0,,I guess Dr. Agasa's inventions\Ndon't work in the game world.
+Dialogue: 0,0:41:46.96,0:41:48.96,Dialogue,,0,0,0,,Yeah. This antenna goes up,
+Dialogue: 0,0:41:48.96,0:41:52.95,Dialogue,,0,0,0,,but these glasses and this watch\Nare otherwise ordinary now...
+Dialogue: 0,0:41:58.33,0:41:59.80,Dialogue,,0,0,0,,What is he saying?
+Dialogue: 0,0:41:59.80,0:42:02.13,Dialogue,,0,0,0,,It sounds like English...
+Dialogue: 0,0:42:04.61,0:42:05.97,Dialogue,,0,0,0,,Please change it to Japanese!
+Dialogue: 0,0:42:05.97,0:42:07.31,Dialogue,,0,0,0,,Right!
+Dialogue: 0,0:42:08.21,0:42:10.78,Dialogue,,0,0,0,,Huh? What's going on?!
+Dialogue: 0,0:42:10.78,0:42:13.55,Dialogue,,0,0,0,,Another victim! That makes three now!
+Dialogue: 0,0:42:13.55,0:42:15.98,Dialogue,,0,0,0,,Oh! It's in Japanese now!
+Dialogue: 0,0:42:15.98,0:42:18.52,Dialogue,,0,0,0,,It's almost like the real world!
+Dialogue: 0,0:42:18.52,0:42:22.79,Dialogue,,0,0,0,,What we see, what we hear,\Nthe chill in the air, it's all real!
+Dialogue: 0,0:42:22.79,0:42:25.36,Dialogue,,0,0,0,,The pain in my foot was real, too.
+Dialogue: 0,0:42:25.36,0:42:27.20,Dialogue,,0,0,0,,Alright, move aside!
+Dialogue: 0,0:42:27.20,0:42:29.19,Dialogue,,0,0,0,,Step back, please!
+Dialogue: 0,0:42:29.90,0:42:32.50,Dialogue,,0,0,0,,Hey! Contact Inspector Lestrade at once!
+Dialogue: 0,0:42:32.50,0:42:34.47,Dialogue,,0,0,0,,Right!
+Dialogue: 0,0:42:34.47,0:42:36.87,Thoughts,,0,0,0,,{\be10}Inspector Lestrade?!
+Dialogue: 0,0:42:36.87,0:42:39.84,Dialogue,,0,0,0,,Doc! Can we communicate with them?!
+Dialogue: 0,0:42:39.84,0:42:41.74,Dialogue,,0,0,0,,I'll give it a try.
+Dialogue: 0,0:42:41.74,0:42:44.88,Dialogue,,0,0,0,,If you helped oversee this game,
+Dialogue: 0,0:42:44.88,0:42:48.18,Dialogue,,0,0,0,,then you know how they can complete it, right?
+Dialogue: 0,0:42:48.18,0:42:55.02,Dialogue,,0,0,0,,Yes. If I can just communicate with them,\NI can tell them what to do.
+Dialogue: 0,0:42:55.02,0:43:00.70,Dialogue,,0,0,0,,Then we can't lose! This stage will be a cinch!
+Dialogue: 0,0:43:00.70,0:43:05.87,Thoughts,,0,0,0,,{\be10}But, if Noah's Ark is\Nanticipating far ahead, then...
+Dialogue: 0,0:43:05.87,0:43:09.40,Dialogue,,0,0,0,,Doc! I leave the rest to you!\NI'm going to the scene!
+Dialogue: 0,0:43:09.40,0:43:10.74,Dialogue,,0,0,0,,Got it!
+Dialogue: 0,0:43:17.18,0:43:21.95,Dialogue,,0,0,0,,Sheesh. We're supposed to catch this guy?\NWhere do we even start?
+Dialogue: 0,0:43:21.95,0:43:24.85,Dialogue,,0,0,0,,I guess all we can do is wait until morning.
+Dialogue: 0,0:43:24.85,0:43:26.69,Dialogue,,0,0,0,,I'm cold...
+Dialogue: 0,0:43:26.69,0:43:27.69,Dialogue,,0,0,0,,Put this on.
+Dialogue: 0,0:43:27.69,0:43:30.35,Dialogue,,0,0,0,,- Oh! Are you sure?!\N- Yeah.
+Dialogue: 0,0:43:32.53,0:43:33.90,Dialogue,,0,0,0,,I'm warm!
+Dialogue: 0,0:43:33.90,0:43:36.60,Dialogue,,0,0,0,,Haibara{\rHonorifics - Dialogue}-san{\r}! Here you are!
+Dialogue: 0,0:43:36.60,0:43:39.53,Dialogue,,0,0,0,,- Oh! Thank you!\N- My pleasure!
+Dialogue: 0,0:43:39.53,0:43:40.97,Dialogue,,0,0,0,,Put this on!
+Dialogue: 0,0:43:40.97,0:43:42.77,Dialogue,,0,0,0,,But what about you?
+Dialogue: 0,0:43:42.77,0:43:45.31,Dialogue,,0,0,0,,I'm fine! I'm sensitive to heat!
+Dialogue: 0,0:43:45.31,0:43:46.64,Dialogue,,0,0,0,,Thanks!
+Dialogue: 0,0:43:50.21,0:43:54.12,Dialogue,,0,0,0,,Can you hear me, Conan{\rHonorifics - Dialogue}-kun{\r}? It's me, Agasa!
+Dialogue: 0,0:43:54.12,0:43:55.72,Dialogue,,0,0,0,,We hear you, Doc!
+Dialogue: 0,0:43:55.72,0:44:02.12,Dialogue,,0,0,0,,Listen closely! If you get hurt or\Ncaught by the police in that stage,
+Dialogue: 0,0:44:02.12,0:44:04.56,Dialogue,,0,0,0,,the game is over for you!
+Dialogue: 0,0:44:04.56,0:44:09.13,Dialogue,,0,0,0,,Right now, you're in the\NWhitechapel district on the East End.
+Dialogue: 0,0:44:09.13,0:44:11.73,Dialogue,,0,0,0,,There's an assist character...
+Dialogue: 0,0:44:11.73,0:44:12.90,Dialogue,,0,0,0,,... until...
+Dialogue: 0,0:44:12.90,0:44:14.40,Dialogue,,0,0,0,,What happened?
+Dialogue: 0,0:44:14.40,0:44:17.06,Dialogue,,0,0,0,,What happened, Doc?! We can't hear you!
+Dialogue: 0,0:44:30.99,0:44:32.32,Dialogue,,0,0,0,,Grab on!
+Dialogue: 0,0:44:33.42,0:44:35.41,Dialogue,,0,0,0,,Conan! You can do it!
+Dialogue: 0,0:44:41.00,0:44:42.99,Dialogue,,0,0,0,,That was close!
+Dialogue: 0,0:44:47.47,0:44:52.51,Dialogue,,0,0,0,,It seems you still don't understand.\NThe game is entirely in my control.
+Dialogue: 0,0:44:52.51,0:44:55.44,Dialogue,,0,0,0,,There's no use in trying to outfox me.
+Dialogue: 0,0:44:55.44,0:44:58.45,Dialogue,,0,0,0,,I'll allow you to hear them, though.
+Dialogue: 0,0:44:58.45,0:45:02.78,Dialogue,,0,0,0,,Enjoy the sounds of the children's suffering!
+Dialogue: 0,0:45:02.78,0:45:05.78,Dialogue,,0,0,0,,What a screwed-up computer this is!
+Dialogue: 0,0:45:06.82,0:45:10.63,Dialogue,,0,0,0,,The doc's voice is gone now...
+Dialogue: 0,0:45:10.63,0:45:13.73,Dialogue,,0,0,0,,It seems Noah's Ark has cut\Nour line of communication.
+Dialogue: 0,0:45:13.73,0:45:18.00,Dialogue,,0,0,0,,Then how do we find this assist character?!
+Dialogue: 0,0:45:18.00,0:45:21.04,Dialogue,,0,0,0,,That policeman told us just now!
+Dialogue: 0,0:45:21.04,0:45:24.04,Dialogue,,0,0,0,,He said, "Contact Inspector Lestrade"!
+Dialogue: 0,0:45:24.04,0:45:27.21,Dialogue,,0,0,0,,Wait, you mean the\NInspector Lestrade from that story?!
+Dialogue: 0,0:45:27.21,0:45:31.65,Dialogue,,0,0,0,,But he was just a character in one\Nof Conan Doyle's mystery novels!
+Dialogue: 0,0:45:31.65,0:45:36.38,Dialogue,,0,0,0,,This game might be a mix of reality and fiction.
+Dialogue: 0,0:45:36.38,0:45:38.82,Dialogue,,0,0,0,,Then, is our assist character?
+Dialogue: 0,0:45:38.82,0:45:43.39,Dialogue,,0,0,0,,Yeah. He's gotta be here. Sherlock Holmes!
+Dialogue: 0,0:45:43.39,0:45:44.06,Dialogue,,0,0,0,,Really?!
+Dialogue: 0,0:45:44.06,0:45:46.70,Dialogue,,0,0,0,,We're unstoppable with Holmes on our side!
+Dialogue: 0,0:45:46.70,0:45:49.20,Dialogue,,0,0,0,,This stage is as good as beat!
+Dialogue: 0,0:45:49.20,0:45:52.50,Dialogue,,0,0,0,,Let's hurry to Baker Street!
+Dialogue: 0,0:45:52.50,0:45:54.67,Thoughts,,0,0,0,,{\be10}That's it. If you can just meet with Holmes...
+Dialogue: 0,0:45:54.67,0:46:00.34,Thoughts,,0,0,0,,{\be10}But it's quite a long way from\NWhitechapel to Baker Street...
+Dialogue: 0,0:46:12.52,0:46:14.85,Dialogue,,0,0,0,,Hey. Doesn't that clock seem weird?
+Dialogue: 0,0:46:20.63,0:46:22.70,Dialogue,,0,0,0,,It went backwards!
+Dialogue: 0,0:46:22.70,0:46:24.87,Dialogue,,0,0,0,,Oh! It did it again!
+Dialogue: 0,0:46:24.87,0:46:30.37,Dialogue,,0,0,0,,From 50 minutes to 49 minutes?\NAnd then to 48?
+Dialogue: 0,0:46:30.37,0:46:34.44,Dialogue,,0,0,0,,I get it! That's the number of kids in the game!
+Dialogue: 0,0:46:34.44,0:46:36.38,Dialogue,,0,0,0,,It went back two minutes...
+Dialogue: 0,0:46:36.38,0:46:39.37,Dialogue,,0,0,0,,Which means two people in\Nanother stage are out of the game...
+Dialogue: 0,0:46:52.96,0:46:55.80,Dialogue,,0,0,0,,Yasuhiro!
+Dialogue: 0,0:46:55.80,0:46:58.13,Dialogue,,0,0,0,,Two down in the Viking stage!
+Dialogue: 0,0:47:02.80,0:47:03.77,Dialogue,,0,0,0,,Tomoyuki!
+Dialogue: 0,0:47:03.77,0:47:04.93,Dialogue,,0,0,0,,M-Mineko!
+Dialogue: 0,0:47:05.74,0:47:08.91,Dialogue,,0,0,0,,Two more in the Colosseum stage!
+Dialogue: 0,0:47:08.91,0:47:13.75,Thoughts,,0,0,0,,{\be10}Faster! Lose the game faster!
+Dialogue: 0,0:47:13.75,0:47:19.91,Thoughts,,0,0,0,,{\be10}If the children discover who\NJack the Ripper is, I'm done for.
+Dialogue: 0,0:47:24.19,0:47:26.49,Dialogue,,0,0,0,,Three down in the Solomon stage!
+Dialogue: 0,0:47:26.49,0:47:28.49,Dialogue,,0,0,0,,That leaves 43...
+Dialogue: 0,0:47:34.50,0:47:35.70,Dialogue,,0,0,0,,Wait.
+Dialogue: 0,0:47:35.70,0:47:39.81,Dialogue,,0,0,0,,I hear there was another victim\Nin a back alley by Mitre Street.
+Dialogue: 0,0:47:39.81,0:47:43.61,Dialogue,,0,0,0,,Two in one hour. That's four now.
+Dialogue: 0,0:47:43.61,0:47:46.35,Dialogue,,0,0,0,,The world's a horrible place...
+Dialogue: 0,0:47:46.35,0:47:47.72,Dialogue,,0,0,0,,This is scary.
+Dialogue: 0,0:47:47.72,0:47:50.85,Dialogue,,0,0,0,,We came to a terrible time period.
+Dialogue: 0,0:47:50.85,0:47:54.79,Dialogue,,0,0,0,,The turn of the century is said\Nto have been London's finest era
+Dialogue: 0,0:47:54.79,0:47:56.79,Dialogue,,0,0,0,,in the history of the British Empire,
+Dialogue: 0,0:47:56.79,0:48:00.00,Dialogue,,0,0,0,,but in actuality, there was a\Ndisparaging gap between rich and poor,
+Dialogue: 0,0:48:00.00,0:48:05.73,Dialogue,,0,0,0,,crime was rampant, and the\Npeople's hearts were unruly.
+Dialogue: 0,0:48:05.73,0:48:08.90,Dialogue,,0,0,0,,Come to think of it,\NShinichi told me about that.
+Dialogue: 0,0:48:08.90,0:48:11.97,Dialogue,,0,0,0,,He said if Sherlock Holmes\Nwas the light of the era,
+Dialogue: 0,0:48:11.97,0:48:14.81,Dialogue,,0,0,0,,Jack the Ripper was the dark shadow.
+Dialogue: 0,0:48:14.81,0:48:17.98,Dialogue,,0,0,0,,Then let's hurry to the light of the era!
+Dialogue: 0,0:48:17.98,0:48:19.97,Dialogue,,0,0,0,,We're almost to Baker Street!
+Dialogue: 0,0:48:23.32,0:48:28.72,Dialogue,,0,0,0,,Beware Jack the Ripper...
+Dialogue: 0,0:48:28.72,0:48:33.83,Dialogue,,0,0,0,,He's waiting for you\Non the streets at night...
+Dialogue: 0,0:48:33.83,0:48:39.60,Dialogue,,0,0,0,,What should you do if\Nyou don't want to die?
+Dialogue: 0,0:48:39.60,0:48:44.84,Dialogue,,0,0,0,,You need to get covered in blood, too...
+Dialogue: 0,0:48:44.84,0:48:46.67,Dialogue,,0,0,0,,What could that mean?
+Dialogue: 0,0:48:46.67,0:48:49.94,Dialogue,,0,0,0,,Kill before being killed, I'd say.
+Dialogue: 0,0:48:49.94,0:48:51.61,Thoughts,,0,0,0,,{\be10}Covered in blood?
+Dialogue: 0,0:48:58.69,0:49:03.53,Thoughts,,0,0,0,,{\be10}There's a metal detector at the\Nentrance to the presentation hall...
+Dialogue: 0,0:49:03.53,0:49:06.86,Thoughts,,0,0,0,,{\be10}How did the killer bring the murder weapon in?
+Dialogue: 0,0:49:16.27,0:49:19.91,Flashback,,0,0,0,,{\be10}It's nothin'. They're all cheap statues.
+Dialogue: 0,0:49:19.91,0:49:20.94,Flashback,,0,0,0,,{\be10}Are you serious?
+Dialogue: 0,0:49:20.94,0:49:23.93,Flashback,,0,0,0,,{\be10}They'd never put anything that expensive here.
+Dialogue: 0,0:49:32.92,0:49:35.58,Dialogue,,0,0,0,,221-B. This is it.
+Dialogue: 0,0:49:39.13,0:49:43.13,Dialogue,,0,0,0,,This is where the Sherlock Holmes lives?
+Dialogue: 0,0:49:43.13,0:49:47.10,Dialogue,,0,0,0,,It's a lodging house he and Dr. Watson rent!
+Dialogue: 0,0:49:47.10,0:49:49.17,Dialogue,,0,0,0,,At this late hour? Who might you be?
+Dialogue: 0,0:49:49.17,0:49:55.11,Dialogue,,0,0,0,,U-Umm, my name is Mori Ran.\NWe'd like to see Holmes{\rHonorifics - Dialogue}-san{\r}...
+Dialogue: 0,0:49:55.11,0:49:58.81,Dialogue,,0,0,0,,Holmes{\rHonorifics - Dialogue}-san{\r} and Dr. Watson\Nare gone on a business trip.
+Dialogue: 0,0:49:58.81,0:49:59.68,Dialogue,,0,0,0,,Business trip?
+Dialogue: 0,0:49:59.68,0:50:02.48,Dialogue,,0,0,0,,Yes. In a place called\NDartmoor, out in the country.
+Dialogue: 0,0:50:02.48,0:50:05.02,Dialogue,,0,0,0,,I'm sorry to ask, but what day is today?
+Dialogue: 0,0:50:05.02,0:50:07.32,Dialogue,,0,0,0,,September 30th.
+Dialogue: 0,0:50:07.32,0:50:11.93,Dialogue,,0,0,0,,September 30th? Dartmoor?
+Dialogue: 0,0:50:11.93,0:50:15.03,Dialogue,,0,0,0,,Oh, yeah! The Hound of the Baskervilles case!
+Dialogue: 0,0:50:15.03,0:50:19.97,Dialogue,,0,0,0,,That's right! Neither of\Nthem is in London right now!
+Dialogue: 0,0:50:19.97,0:50:21.97,Dialogue,,0,0,0,,C'mon, Doc...
+Dialogue: 0,0:50:21.97,0:50:23.30,Dialogue,,0,0,0,,What's going on?!
+Dialogue: 0,0:50:24.87,0:50:26.94,Dialogue,,0,0,0,,I'm sorry to ask, but could I\Nsee the surveillance footage
+Dialogue: 0,0:50:26.94,0:50:29.18,Dialogue,,0,0,0,,from before and after the incident?
+Dialogue: 0,0:50:29.18,0:50:30.51,Dialogue,,0,0,0,,Of course.
+Dialogue: 0,0:50:33.48,0:50:35.38,Dialogue,,0,0,0,,Yes?
+Dialogue: 0,0:50:35.38,0:50:36.99,Dialogue,,0,0,0,,What's wrong?
+Dialogue: 0,0:50:36.99,0:50:40.32,Dialogue,,0,0,0,,It seems we underestimated Noah's Ark.
+Dialogue: 0,0:50:40.32,0:50:44.36,Dialogue,,0,0,0,,Neither Holmes nor Watson was on Baker Street.
+Dialogue: 0,0:50:44.36,0:50:47.30,Dialogue,,0,0,0,,So he did anticipate us...
+Dialogue: 0,0:50:47.30,0:50:51.97,Dialogue,,0,0,0,,There was also a strange accordion\Nplayer I don't remember creating.
+Dialogue: 0,0:50:51.97,0:50:53.33,Dialogue,,0,0,0,,Things are becoming difficult.
+Dialogue: 0,0:50:53.33,0:50:57.97,Dialogue,,0,0,0,,Hey! What sort of story did\Nyou come up with, Yusaku{\rHonorifics - Dialogue}-kun{\r}?!
+Dialogue: 0,0:50:57.97,0:51:01.08,Dialogue,,0,0,0,,The players work with Sherlock Holmes
+Dialogue: 0,0:51:01.08,0:51:04.71,Dialogue,,0,0,0,,to discover Jack the Ripper's identity.
+Dialogue: 0,0:51:04.71,0:51:12.32,Dialogue,,0,0,0,,The murderer turns out to be an\Naristocrat with a terminal illness.
+Dialogue: 0,0:51:12.32,0:51:15.39,Dialogue,,0,0,0,,I've prepared an even better ending for you!
+Dialogue: 0,0:51:15.39,0:51:21.89,Dialogue,,0,0,0,,Damn you! Once the kids win,\NI'm throwing you into the garbage!
+Dialogue: 0,0:51:25.17,0:51:27.16,Thoughts,,0,0,0,,{\be10}Good luck, Shinichi.
+Dialogue: 0,0:51:28.00,0:51:34.67,Dialogue,,0,0,0,,Oh, you're the ones who\Nhelped Holmes{\rHonorifics - Dialogue}-san{\r} two weeks ago!
+Dialogue: 0,0:51:36.84,0:51:42.18,Dialogue,,0,0,0,,Come inside! I'll make you some warm milk tea!
+Dialogue: 0,0:51:45.25,0:51:47.56,Dialogue,,0,0,0,,She seems to think we're someone else.
+Dialogue: 0,0:51:47.56,0:51:52.86,Dialogue,,0,0,0,,Oh, yeah! She thinks we're\Nthe Baker Street Irregulars!
+Dialogue: 0,0:51:52.86,0:51:54.40,Dialogue,,0,0,0,,Who are they?
+Dialogue: 0,0:51:54.40,0:51:58.03,Dialogue,,0,0,0,,They're the street urchins Holmes hired!
+Dialogue: 0,0:51:58.03,0:52:01.04,Dialogue,,0,0,0,,They were tough kids who'd\Nsneak into places adults couldn't go
+Dialogue: 0,0:52:01.04,0:52:03.04,Dialogue,,0,0,0,,and gather information for him!
+Dialogue: 0,0:52:03.04,0:52:07.28,Dialogue,,0,0,0,,Oh! So they're like the predecessors\Nof our Junior Detective League!
+Dialogue: 0,0:52:07.28,0:52:08.61,Dialogue,,0,0,0,,Pretty much!
+Dialogue: 0,0:52:10.21,0:52:12.54,Dialogue,,0,0,0,,Looks like they've managed to get inside.
+Dialogue: 0,0:52:17.89,0:52:21.46,Dialogue,,0,0,0,,- Wow!\N- It's just like on TV!
+Dialogue: 0,0:52:21.46,0:52:23.09,Dialogue,,0,0,0,,It's so moving!
+Dialogue: 0,0:52:23.09,0:52:26.08,Dialogue,,0,0,0,,Shinichi will be so jealous\Nwhen he hears about this!
+Dialogue: 0,0:52:33.90,0:52:37.61,Thoughts,,0,0,0,,{\be10}He looks just like Shinichi...
+Dialogue: 0,0:52:37.61,0:52:41.24,Dialogue,,0,0,0,,Oh, my! You look just like Holmes{\rHonorifics - Dialogue}-san{\r}!
+Dialogue: 0,0:52:41.24,0:52:45.31,Dialogue,,0,0,0,,He's always sitting like that, deep in thought!
+Dialogue: 0,0:52:45.31,0:52:48.98,Thoughts,,0,0,0,,{\be10}Oh! He was just mimicking Holmes!
+Dialogue: 0,0:52:48.98,0:52:52.09,Dialogue,,0,0,0,,Please make yourselves at\Nhome while I prepare the tea!
+Dialogue: 0,0:52:52.09,0:52:53.75,Dialogue,,0,0,0,,Thank you!
+Dialogue: 0,0:52:55.92,0:52:59.19,Dialogue,,0,0,0,,Hey! Doesn't this look like someone?!
+Dialogue: 0,0:52:59.19,0:53:03.03,Dialogue,,0,0,0,,Oh! It's Dr. Agasa, but with hair!
+Dialogue: 0,0:53:03.03,0:53:05.52,Dialogue,,0,0,0,,This must be Holmes and Dr. Watson!
+Dialogue: 0,0:53:08.94,0:53:13.81,Thoughts,,0,0,0,,{\be10}Dad and the doc are totally playing around...
+Dialogue: 0,0:53:13.81,0:53:17.31,Dialogue,,0,0,0,,Hey. We don't have time to sit around.
+Dialogue: 0,0:53:17.31,0:53:20.52,Dialogue,,0,0,0,,But, Moroboshi{\rHonorifics - Dialogue}-kun{\r}. What should we do?
+Dialogue: 0,0:53:20.52,0:53:24.29,Dialogue,,0,0,0,,I'm sure Glasses knows.
+Dialogue: 0,0:53:24.29,0:53:29.19,Dialogue,,0,0,0,,Given how Holmes is, he must\Nhave a big file on Jack the Ripper.
+Dialogue: 0,0:53:29.19,0:53:31.79,Dialogue,,0,0,0,,Then let's split up and look for it!
+Dialogue: 0,0:53:31.79,0:53:35.90,Dialogue,,0,0,0,,Right! I'll look over here!
+Dialogue: 0,0:53:35.90,0:53:40.03,Dialogue,,0,0,0,,How're we supposed to find it?\NThis is all English...
+Dialogue: 0,0:53:40.03,0:53:44.67,Dialogue,,0,0,0,,Let's see...\N"Initial Investigation for Crime"...
+Dialogue: 0,0:53:44.67,0:53:47.14,Dialogue,,0,0,0,,Whoa! I'm a genius!
+Dialogue: 0,0:53:47.14,0:53:48.91,Dialogue,,0,0,0,,I can read English!
+Dialogue: 0,0:53:48.91,0:53:49.98,Dialogue,,0,0,0,,Me too!
+Dialogue: 0,0:53:49.98,0:53:53.85,Dialogue,,0,0,0,,It seems the players are\Nprogrammed to be able to read English.
+Dialogue: 0,0:53:53.85,0:53:58.32,Dialogue,,0,0,0,,Bah. Then I wanna stay\Ninside the game forever...
+Dialogue: 0,0:53:58.32,0:54:00.25,Dialogue,,0,0,0,,Don't be stupid, Genta{\rHonorifics - Dialogue}-kun{\r}!
+Dialogue: 0,0:54:00.25,0:54:04.06,Dialogue,,0,0,0,,At this rate, we're going\Nto lose the game and die!
+Dialogue: 0,0:54:04.06,0:54:06.05,Dialogue,,0,0,0,,I-I'm just joking!
+Dialogue: 0,0:54:10.06,0:54:11.73,Dialogue,,0,0,0,,What a filthy ball...
+Dialogue: 0,0:54:14.60,0:54:17.57,Dialogue,,0,0,0,,l-Is this?!
+Dialogue: 0,0:54:17.57,0:54:21.24,Dialogue,,0,0,0,,Hey! Emori! This is a 100 year-old soccer ball!
+Dialogue: 0,0:54:21.24,0:54:22.61,Dialogue,,0,0,0,,Oh! It is?!
+Dialogue: 0,0:54:22.61,0:54:23.94,Dialogue,,0,0,0,,Eh?!
+Dialogue: 0,0:54:25.25,0:54:27.24,Dialogue,,0,0,0,,I found it! Is this it?!
+Dialogue: 0,0:54:29.92,0:54:33.29,Dialogue,,0,0,0,,"An Analysis of Jack the Ripper".
+Dialogue: 0,0:54:33.29,0:54:38.09,Dialogue,,0,0,0,,The most recent previous\Nincident was September 8th!
+Dialogue: 0,0:54:38.09,0:54:43.46,Dialogue,,0,0,0,,"The second victim was\NHoney Charleston, age 41, single.
+Dialogue: 0,0:54:43.46,0:54:47.03,Dialogue,,0,0,0,,Her body was found in the barren\Nlot adjoining St. Mary's Church
+Dialogue: 0,0:54:47.03,0:54:49.10,Dialogue,,0,0,0,,in the Whitechapel district.
+Dialogue: 0,0:54:49.10,0:54:53.31,Dialogue,,0,0,0,,Two rings of different sizes\Nwere also found at the scene."
+Dialogue: 0,0:54:53.31,0:54:55.64,Thoughts,,0,0,0,,{\be10}Rings of different sizes?
+Dialogue: 0,0:54:56.74,0:55:00.25,Dialogue,,0,0,0,,"Given that Jack the Ripper\Nhas terrorized London to its core
+Dialogue: 0,0:55:00.25,0:55:03.32,Dialogue,,0,0,0,,and brought about\Nunprecedented social anxiety,
+Dialogue: 0,0:55:03.32,0:55:09.29,Dialogue,,0,0,0,,I am certain he is connected to\NProfessor Moriarty, architect of evil."
+Dialogue: 0,0:55:09.29,0:55:11.26,Dialogue,,0,0,0,,Professor Moriarty?!
+Dialogue: 0,0:55:11.26,0:55:13.90,Dialogue,,0,0,0,,Even he's in the game?!
+Dialogue: 0,0:55:13.90,0:55:15.60,Dialogue,,0,0,0,,So?! Who's he?!
+Dialogue: 0,0:55:15.60,0:55:19.00,Dialogue,,0,0,0,,Don't keep it to yourselves!
+Dialogue: 0,0:55:19.00,0:55:21.34,Dialogue,,0,0,0,,He's Holmes arch-nemesis.
+Dialogue: 0,0:55:21.34,0:55:24.07,Dialogue,,0,0,0,,They say he controls\NLondon's criminal underworld
+Dialogue: 0,0:55:24.07,0:55:28.24,Dialogue,,0,0,0,,and wields great influence over all of Europe.
+Dialogue: 0,0:55:28.24,0:55:30.65,Dialogue,,0,0,0,,He's the Napoleon of the criminal world!
+Dialogue: 0,0:55:30.65,0:55:34.08,Dialogue,,0,0,0,,But Professor Moriarty\Nusually only pulls the strings;
+Dialogue: 0,0:55:34.08,0:55:36.62,Dialogue,,0,0,0,,he almost never shows himself.
+Dialogue: 0,0:55:36.62,0:55:38.75,Dialogue,,0,0,0,,How are we supposed to find him?
+Dialogue: 0,0:55:38.75,0:55:44.36,Dialogue,,0,0,0,,If he won't show himself, we'll\Nfind someone connected to him...
+Dialogue: 0,0:55:44.36,0:55:46.26,Dialogue,,0,0,0,,... Colonel Sebastian Moran!
+Dialogue: 0,0:55:46.26,0:55:50.26,Dialogue,,0,0,0,,Oh, yeah! Colonel Moran,\Nthe professor's right-hand man!
+Dialogue: 0,0:55:50.26,0:55:53.63,Dialogue,,0,0,0,,But how do we find the colonel?
+Dialogue: 0,0:55:53.63,0:55:55.10,Dialogue,,0,0,0,,I'm sure that's...
+Dialogue: 0,0:55:55.10,0:56:01.11,Dialogue,,0,0,0,,According to Holmes notes, his\Nbase is the Trump Club downtown.
+Dialogue: 0,0:56:01.11,0:56:03.28,Dialogue,,0,0,0,,He's the second most\Ndangerous person in London,
+Dialogue: 0,0:56:03.28,0:56:05.28,Dialogue,,0,0,0,,so we need to be careful meeting him!
+Dialogue: 0,0:56:05.28,0:56:08.65,Dialogue,,0,0,0,,Conan{\rHonorifics - Dialogue}-kun{\r}, how do you know so much?
+Dialogue: 0,0:56:08.65,0:56:12.29,Dialogue,,0,0,0,,Oh, uhh, Shinichi{\rHonorifics - Dialogue}-niichan{\r} was\Nalways talking about this stuff!
+Dialogue: 0,0:56:12.29,0:56:15.39,Dialogue,,0,0,0,,Oh! I should've guessed!
+Dialogue: 0,0:56:15.39,0:56:20.73,Dialogue,,0,0,0,,But that mystery nerd's blabbing\Nactually turned out to be useful here!
+Dialogue: 0,0:56:20.73,0:56:23.06,Thoughts,,0,0,0,,{\be10}You don't have to call it "blabbing"...
+Dialogue: 0,0:56:24.83,0:56:27.67,Dialogue,,0,0,0,,Whoa! A real gun!
+Dialogue: 0,0:56:27.67,0:56:29.47,Dialogue,,0,0,0,,Put it back, Genta!
+Dialogue: 0,0:56:29.47,0:56:33.24,Dialogue,,0,0,0,,B-But we're meeting a scary guy, right?
+Dialogue: 0,0:56:33.24,0:56:35.58,Dialogue,,0,0,0,,Weapons you don't know how to use are useless
+Dialogue: 0,0:56:35.58,0:56:36.74,Dialogue,,0,0,0,,and only cause trouble!
+Dialogue: 0,0:56:36.74,0:56:37.98,Dialogue,,0,0,0,,Leave it!
+Dialogue: 0,0:56:37.98,0:56:39.64,Dialogue,,0,0,0,,Y-You're scarier...
+Dialogue: 0,0:56:45.69,0:56:48.35,Dialogue,,0,0,0,,Alright! Let's go before it gets too late!
+Dialogue: 0,0:57:01.74,0:57:04.17,Dialogue,,0,0,0,,Hey! Moroboshi!
+Dialogue: 0,0:57:04.17,0:57:06.83,Dialogue,,0,0,0,,Gotta be able to protect myself.
+Dialogue: 0,0:57:17.35,0:57:19.45,Dialogue,,0,0,0,,30 people left...
+Dialogue: 0,0:57:19.45,0:57:21.52,Dialogue,,0,0,0,,It's gone down a lot...
+Dialogue: 0,0:57:21.52,0:57:25.36,Dialogue,,0,0,0,,I would guess members of our\Ngroup will soon be falling out, too.
+Dialogue: 0,0:57:25.36,0:57:27.35,Dialogue,,0,0,0,,Don't say unlucky stuff like that!
+Dialogue: 0,0:57:36.94,0:57:38.27,Dialogue,,0,0,0,,Toru!
+Dialogue: 0,0:57:39.41,0:57:40.37,Dialogue,,0,0,0,,Emi!
+Dialogue: 0,0:57:40.37,0:57:41.71,Dialogue,,0,0,0,,Takuya!
+Dialogue: 0,0:57:47.45,0:57:49.78,Dialogue,,0,0,0,,Okay. Wait here, everyone.
+Dialogue: 0,0:57:49.78,0:57:52.39,Dialogue,,0,0,0,,I'm going to check things\Nout from the back door.
+Dialogue: 0,0:57:52.39,0:57:54.38,Dialogue,,0,0,0,,- Be careful!\N- Yeah.
+Dialogue: 0,0:58:14.08,0:58:15.41,Dialogue,,0,0,0,,One card.
+Dialogue: 0,0:58:16.51,0:58:18.08,Dialogue,,0,0,0,,I'll take two.
+Dialogue: 0,0:58:18.08,0:58:19.74,Thoughts,,0,0,0,,{\be10}It's Colonel Moran!
+Dialogue: 0,0:58:21.85,0:58:23.51,Thoughts,,0,0,0,,{\be10}That monkey!
+Dialogue: 0,0:58:29.82,0:58:32.43,Dialogue,,0,0,0,,Well, Glasses?
+Dialogue: 0,0:58:32.43,0:58:33.93,Dialogue,,0,0,0,,W-What are you doing here?!
+Dialogue: 0,0:58:33.93,0:58:37.09,Dialogue,,0,0,0,,We can't let you hog all the credit!
+Dialogue: 0,0:58:40.27,0:58:42.34,Dialogue,,0,0,0,,Straight!
+Dialogue: 0,0:58:42.34,0:58:43.97,Dialogue,,0,0,0,,So sorry.
+Dialogue: 0,0:58:43.97,0:58:45.47,Dialogue,,0,0,0,,Flush.
+Dialogue: 0,0:58:45.47,0:58:48.78,Dialogue,,0,0,0,,- What?!\N- Tonight's my lucky night!
+Dialogue: 0,0:58:48.78,0:58:50.44,Dialogue,,0,0,0,,Damn it!
+Dialogue: 0,0:58:51.65,0:58:54.18,Dialogue,,0,0,0,,Moran's awesome at poker...
+Dialogue: 0,0:58:54.18,0:58:55.45,Dialogue,,0,0,0,,He's cheating.
+Dialogue: 0,0:58:55.45,0:58:57.85,Dialogue,,0,0,0,,- What?!\N- You can tell?!
+Dialogue: 0,0:58:57.85,0:59:02.29,Dialogue,,0,0,0,,That monkey is telling the colonel\Nwhat hand the other guy has.
+Dialogue: 0,0:59:02.29,0:59:03.29,Dialogue,,0,0,0,,It's been trained:
+Dialogue: 0,0:59:03.29,0:59:06.63,Dialogue,,0,0,0,,The right hand for hearts and spades,\Nthe left for diamonds and clubs.
+Dialogue: 0,0:59:06.63,0:59:10.80,Dialogue,,0,0,0,,And then it eats the number\Nand color indicated on the cards.
+Dialogue: 0,0:59:10.80,0:59:15.67,Dialogue,,0,0,0,,The 3 of Spades would be three\Nblack berries with the right hand.
+Dialogue: 0,0:59:15.67,0:59:17.57,Dialogue,,0,0,0,,That's cheap.
+Dialogue: 0,0:59:17.57,0:59:21.21,Thoughts,,0,0,0,,{\be10}Huh? What's with that seat?
+Dialogue: 0,0:59:21.21,0:59:22.68,Thoughts,,0,0,0,,{\be10}And why is that there?
+Dialogue: 0,0:59:22.68,0:59:24.01,Dialogue,,0,0,0,,Cheater!
+Dialogue: 0,0:59:26.85,0:59:30.52,Dialogue,,0,0,0,,This Moran creep is a cheater!
+Dialogue: 0,0:59:30.52,0:59:34.59,Dialogue,,0,0,0,,You'd best watch your mouth, boy!
+Dialogue: 0,0:59:34.59,0:59:37.39,Dialogue,,0,0,0,,Or do you have proof I'm cheating?!
+Dialogue: 0,0:59:37.39,0:59:38.59,Dialogue,,0,0,0,,Of course!
+Dialogue: 0,0:59:38.59,0:59:42.90,Dialogue,,0,0,0,,You're good friends with\Nthat monkey, aren't you?
+Dialogue: 0,0:59:42.90,0:59:44.43,Dialogue,,0,0,0,,What?!
+Dialogue: 0,0:59:44.43,0:59:46.93,Dialogue,,0,0,0,,It looked at his cards, and\Nwhen it was a 3 of Spades,
+Dialogue: 0,0:59:46.93,0:59:49.17,Dialogue,,0,0,0,,it ate three black berries with its right hand,
+Dialogue: 0,0:59:49.17,0:59:52.91,Dialogue,,0,0,0,,and for the 5 of Diamonds,\Nit ate five red berries with the left.
+Dialogue: 0,0:59:52.91,0:59:55.54,Dialogue,,0,0,0,,Moran! You cheated me!
+Dialogue: 0,0:59:55.54,0:59:57.51,Dialogue,,0,0,0,,It's your fault for falling for it.
+Dialogue: 0,0:59:57.51,0:59:58.95,Dialogue,,0,0,0,,What?!
+Dialogue: 0,0:59:58.95,1:00:00.45,Dialogue,,0,0,0,,Whoops.
+Dialogue: 0,1:00:00.45,1:00:03.28,Dialogue,,0,0,0,,You can save your squabble for later.
+Dialogue: 0,1:00:03.28,1:00:06.09,Dialogue,,0,0,0,,Where is Professor Moriarty?
+Dialogue: 0,1:00:06.09,1:00:09.09,Dialogue,,0,0,0,,Boy! Where did you hear his name?!
+Dialogue: 0,1:00:09.09,1:00:10.42,Dialogue,,0,0,0,,Stop!
+Dialogue: 0,1:00:12.69,1:00:14.68,Dialogue,,0,0,0,,Catch those brats!
+Dialogue: 0,1:00:25.27,1:00:27.54,Dialogue,,0,0,0,,You damn kid!
+Dialogue: 0,1:00:27.54,1:00:29.58,Dialogue,,0,0,0,,Are you all right, Conan{\rHonorifics - Dialogue}-kun{\r}?!
+Dialogue: 0,1:00:29.58,1:00:30.38,Dialogue,,0,0,0,,Yeah...
+Dialogue: 0,1:00:30.38,1:00:32.37,Dialogue,,0,0,0,,We're here to help, Conan!
+Dialogue: 0,1:00:41.39,1:00:42.92,Dialogue,,0,0,0,,Bottom's up!
+Dialogue: 0,1:00:42.92,1:00:46.93,Dialogue,,0,0,0,,This is bad! We're all in here!
+Dialogue: 0,1:00:46.93,1:00:48.92,Dialogue,,0,0,0,,Look out, Conan{\rHonorifics - Dialogue}-kun{\r}!
+Dialogue: 0,1:00:52.83,1:00:54.77,Dialogue,,0,0,0,,Kikukawa{\rHonorifics - Dialogue}-kun{\r}!
+Dialogue: 0,1:00:54.77,1:00:56.80,Dialogue,,0,0,0,,Hey! Hang in there!
+Dialogue: 0,1:00:56.80,1:01:00.57,Dialogue,,0,0,0,,They got me. Now you and I are even.
+Dialogue: 0,1:01:00.57,1:01:01.91,Dialogue,,0,0,0,,Hey!
+Dialogue: 0,1:01:08.15,1:01:09.48,Dialogue,,0,0,0,,Kikukawa...
+Dialogue: 0,1:01:14.69,1:01:16.02,Dialogue,,0,0,0,,Seiichiro!
+Dialogue: 0,1:01:21.63,1:01:24.00,Dialogue,,0,0,0,,Ayumi{\rHonorifics - Dialogue}-chan{\r}! Are you all right?!
+Dialogue: 0,1:01:24.00,1:01:25.87,Dialogue,,0,0,0,,Thank you, Mitsuhiko{\rHonorifics - Dialogue}-kun{\r}!
+Dialogue: 0,1:01:25.87,1:01:27.20,Dialogue,,0,0,0,,It was nothing!
+Dialogue: 0,1:01:32.17,1:01:33.50,Dialogue,,0,0,0,,M-Mitsuhiko{\rHonorifics - Dialogue}-kun{\r}!
+Dialogue: 0,1:01:35.01,1:01:39.45,Dialogue,,0,0,0,,Ayumi{\rHonorifics - Dialogue}-chan{\r}, it appears we're out of the game.
+Dialogue: 0,1:01:39.45,1:01:43.68,Dialogue,,0,0,0,,Conan{\rHonorifics - Dialogue}-kun{\r}! Make sure you\Nbring us back to life, okay?!
+Dialogue: 0,1:01:43.68,1:01:45.68,Dialogue,,0,0,0,,Ayumi! Mitsuhiko!
+Dialogue: 0,1:01:57.36,1:02:00.36,Thoughts,,0,0,0,,{\be10}Not good! At this rate, we're\Nall going to get a "game over"!
+Dialogue: 0,1:02:03.84,1:02:05.64,Dialogue,,0,0,0,,"S.H".
+Dialogue: 0,1:02:05.64,1:02:07.30,Dialogue,,0,0,0,,Sherlock Holmes!
+Dialogue: 0,1:02:09.48,1:02:11.47,Dialogue,,0,0,0,,Conan! Look out!
+Dialogue: 0,1:02:13.65,1:02:14.98,Dialogue,,0,0,0,,Genta!
+Dialogue: 0,1:02:18.75,1:02:20.75,Dialogue,,0,0,0,,Game over, huh...
+Dialogue: 0,1:02:20.75,1:02:25.25,Dialogue,,0,0,0,,Conan, make sure you\Ncatch Jack the Ripper, okay?
+Dialogue: 0,1:02:33.33,1:02:35.67,Dialogue,,0,0,0,,Playtime is over!
+Dialogue: 0,1:02:35.67,1:02:39.17,Dialogue,,0,0,0,,I was going to capture you\Nand find out who you work for,
+Dialogue: 0,1:02:39.17,1:02:41.71,Dialogue,,0,0,0,,but that doesn't seem to be necessary anymore!
+Dialogue: 0,1:02:41.71,1:02:44.08,Dialogue,,0,0,0,,Because this gun belongs to Holmes!
+Dialogue: 0,1:02:44.08,1:02:48.74,Thoughts,,0,0,0,,{\be10}Damn! Now what?! What do we do?!
+Dialogue: 0,1:02:49.68,1:02:52.72,Thoughts,,0,0,0,,{\be10}The thing that man is holding It's...
+Dialogue: 0,1:02:52.72,1:02:55.12,Thoughts,,0,0,0,,{\be10}... the wine that was at that seat!
+Dialogue: 0,1:02:55.12,1:02:58.29,Thoughts,,0,0,0,,{\be10}Now I see! That's what it was for!
+Dialogue: 0,1:02:58.29,1:03:00.62,Dialogue,,0,0,0,,Now, who goes first?
+Dialogue: 0,1:03:04.73,1:03:06.73,Dialogue,,0,0,0,,Boy!
+Dialogue: 0,1:03:06.73,1:03:08.87,Dialogue,,0,0,0,,Shoot me and the wine bottle breaks!
+Dialogue: 0,1:03:08.87,1:03:11.71,Dialogue,,0,0,0,,Hmph! What's that supposed to mean?!
+Dialogue: 0,1:03:11.71,1:03:15.08,Dialogue,,0,0,0,,The empty seat at the card table!
+Dialogue: 0,1:03:15.08,1:03:17.54,Dialogue,,0,0,0,,The specially-decorated chair,
+Dialogue: 0,1:03:17.54,1:03:21.28,Dialogue,,0,0,0,,and the glass and wine set\Nout for a certain visitor...
+Dialogue: 0,1:03:21.28,1:03:24.72,Dialogue,,0,0,0,,Using that as a hint,\NI can deduce that said visitor
+Dialogue: 0,1:03:24.72,1:03:28.92,Dialogue,,0,0,0,,can only be Professor Moriarty!
+Dialogue: 0,1:03:28.92,1:03:32.39,Dialogue,,0,0,0,,So sorry, but your deduction is wrong!
+Dialogue: 0,1:03:32.39,1:03:33.96,Dialogue,,0,0,0,,Then shoot!
+Dialogue: 0,1:03:33.96,1:03:37.50,Dialogue,,0,0,0,,If you don't care if the professor's\Nwine bottle shatters, that is.
+Dialogue: 0,1:03:37.50,1:03:38.83,Thoughts,,0,0,0,,{\be10}B-Boy...
+Dialogue: 0,1:03:45.11,1:03:46.77,Thoughts,,0,0,0,,{\be10}Conan{\rHonorifics - Thoughts\be10}-kun{\r\be10}...
+Dialogue: 0,1:04:03.52,1:04:09.13,Dialogue,,0,0,0,,Moriarty{\rHonorifics - Dialogue}-sama{\r} says he wishes to see you.
+Dialogue: 0,1:04:09.13,1:04:10.97,Dialogue,,0,0,0,,Professor Moriarty does?!
+Dialogue: 0,1:04:10.97,1:04:15.10,Dialogue,,0,0,0,,He waits in his carriage. Please follow me.
+Dialogue: 0,1:04:15.10,1:04:16.59,Dialogue,,0,0,0,,P-Please wait!
+Dialogue: 0,1:04:18.87,1:04:22.04,Dialogue,,0,0,0,,Do you intend to defy Moriarty{\rHonorifics - Dialogue}-sama{\r}?
+Dialogue: 0,1:04:35.72,1:04:37.89,Dialogue,,0,0,0,,I have brought them, Sir.
+Dialogue: 0,1:04:37.89,1:04:39.39,Dialogue,,0,0,0,,Well done.
+Dialogue: 0,1:04:39.39,1:04:42.53,Dialogue,,0,0,0,,Now then, boy. May I have that wine?
+Dialogue: 0,1:04:42.53,1:04:43.86,Dialogue,,0,0,0,,Here.
+Dialogue: 0,1:04:46.07,1:04:47.73,Thoughts,,0,0,0,,{\be10}This scent...
+Dialogue: 0,1:04:47.90,1:04:49.40,Dialogue,,0,0,0,,You are indeed Holmes pupils,
+Dialogue: 0,1:04:49.40,1:04:53.21,Dialogue,,0,0,0,,if you're able to fight on\Neven terms with Colonel Moran.
+Dialogue: 0,1:04:53.21,1:04:56.21,Dialogue,,0,0,0,,So, you have business with me?
+Dialogue: 0,1:04:56.21,1:04:59.81,Dialogue,,0,0,0,,Say, mister. You're Professor Moriarty?
+Dialogue: 0,1:04:59.81,1:05:01.38,Dialogue,,0,0,0,,None other.
+Dialogue: 0,1:05:01.38,1:05:05.82,Dialogue,,0,0,0,,Oh, I see. You're testing us.
+Dialogue: 0,1:05:05.82,1:05:08.36,Dialogue,,0,0,0,,What do you mean?
+Dialogue: 0,1:05:08.36,1:05:12.86,Dialogue,,0,0,0,,You can drop the act!\NYou're not Professor Moriarty, mister!
+Dialogue: 0,1:05:12.86,1:05:15.90,Dialogue,,0,0,0,,W-What are you saying, Conan{\rHonorifics - Dialogue}-kun{\r}?!
+Dialogue: 0,1:05:15.90,1:05:19.56,Dialogue,,0,0,0,,After all, the real\NProfessor Moriarty is right here!
+Dialogue: 0,1:05:22.00,1:05:24.84,Dialogue,,0,0,0,,- Eh?! He is?!\N- Are you serious?!
+Dialogue: 0,1:05:24.84,1:05:28.17,Dialogue,,0,0,0,,You used ventriloquism to\Nspeak for him, didn't you?
+Dialogue: 0,1:05:31.85,1:05:36.42,Dialogue,,0,0,0,,To think you saw through all\Nof that... How could you tell?
+Dialogue: 0,1:05:36.42,1:05:40.79,Dialogue,,0,0,0,,Just now, Colonel Moran said,\N"Please wait"! to you.
+Dialogue: 0,1:05:40.79,1:05:46.06,Dialogue,,0,0,0,,Oh, right! Colonel Moran only\Nspeaks politely to Professor Moriarty!
+Dialogue: 0,1:05:46.06,1:05:47.76,Dialogue,,0,0,0,,Y-Yeah!
+Dialogue: 0,1:05:47.76,1:05:49.46,Dialogue,,0,0,0,,Is that all?
+Dialogue: 0,1:05:49.46,1:05:54.47,Dialogue,,0,0,0,,One other thing. I heard Professor\NMoriarty was a fanciful old man
+Dialogue: 0,1:05:54.47,1:05:56.64,Dialogue,,0,0,0,,who uses natural herbal cologne!
+Dialogue: 0,1:05:56.64,1:06:01.41,Dialogue,,0,0,0,,Oh? And you smelled that\Nwhen you gave him the wine?
+Dialogue: 0,1:06:01.41,1:06:05.40,Dialogue,,0,0,0,,Marvelously done. It's almost as\Nif I'm looking at a mini-Holmes.
+Dialogue: 0,1:06:07.92,1:06:11.12,Dialogue,,0,0,0,,Incidentally, what business\Ndo you have with me?
+Dialogue: 0,1:06:11.12,1:06:14.12,Dialogue,,0,0,0,,You unleashed Jack the Ripper on the city
+Dialogue: 0,1:06:14.12,1:06:18.06,Dialogue,,0,0,0,,to change London into a town of terror, right?
+Dialogue: 0,1:06:18.06,1:06:20.56,Dialogue,,0,0,0,,That's not too far off the mark.
+Dialogue: 0,1:06:20.56,1:06:25.73,Dialogue,,0,0,0,,Jack the Ripper was a vagabond boy\NI found in the poor part of town.
+Dialogue: 0,1:06:25.73,1:06:30.10,Dialogue,,0,0,0,,Abandoned by his mother,\Nhe wandered the streets...
+Dialogue: 0,1:06:30.10,1:06:33.27,Dialogue,,0,0,0,,But I realized his talent the\Nmoment I laid eyes on him.
+Dialogue: 0,1:06:33.27,1:06:35.94,Dialogue,,0,0,0,,His talent as a criminal, that is.
+Dialogue: 0,1:06:38.15,1:06:42.42,Dialogue,,0,0,0,,I raised him to be a\Nfirst-class professional killer.
+Dialogue: 0,1:06:42.42,1:06:46.49,Dialogue,,0,0,0,,Why is he murdering innocent women?!
+Dialogue: 0,1:06:46.49,1:06:49.76,Dialogue,,0,0,0,,Jack the Ripper became\Nmore of a homicidal maniac
+Dialogue: 0,1:06:49.76,1:06:51.93,Dialogue,,0,0,0,,than I had ever imagined.
+Dialogue: 0,1:06:51.93,1:06:56.33,Dialogue,,0,0,0,,This string of murders is his own crazed doing.
+Dialogue: 0,1:06:56.33,1:07:03.47,Dialogue,,0,0,0,,If you're trying to get rid of\NJack the Ripper, I'll lend you my help.
+Dialogue: 0,1:07:03.47,1:07:04.94,Dialogue,,0,0,0,,Help?!
+Dialogue: 0,1:07:04.94,1:07:08.78,Dialogue,,0,0,0,,Jack the Ripper has indeed begun to run wild,
+Dialogue: 0,1:07:08.78,1:07:13.05,Dialogue,,0,0,0,,but he should still obey\Nmy instructions to murder.
+Dialogue: 0,1:07:13.05,1:07:16.18,Dialogue,,0,0,0,,You simply need to beat him to his target.
+Dialogue: 0,1:07:16.18,1:07:17.72,Dialogue,,0,0,0,,How?!
+Dialogue: 0,1:07:17.72,1:07:22.99,Dialogue,,0,0,0,,I will place a message for him in\Nthe ads of tomorrow's Sunday Times.
+Dialogue: 0,1:07:22.99,1:07:24.96,Dialogue,,0,0,0,,Who are you going to order him to kill?!
+Dialogue: 0,1:07:24.96,1:07:27.62,Dialogue,,0,0,0,,You will find out in tomorrow's paper.
+Dialogue: 0,1:07:34.00,1:07:37.67,Dialogue,,0,0,0,,Hey! Can we trust this old man?!
+Dialogue: 0,1:07:37.67,1:07:39.66,Dialogue,,0,0,0,,Let's give it a shot.
+Dialogue: 0,1:07:40.97,1:07:42.81,Dialogue,,0,0,0,,I pray for your luck.
+Dialogue: 0,1:07:42.81,1:07:45.97,Dialogue,,0,0,0,,Be careful at the Reichenbach\NFalls three years from now!
+Dialogue: 0,1:08:03.20,1:08:05.57,Dialogue,,0,0,0,,What's "Reichenbach"?
+Dialogue: 0,1:08:05.57,1:08:08.57,Dialogue,,0,0,0,,Three years from now,\NProfessor Moriarty and Holmes fight
+Dialogue: 0,1:08:08.57,1:08:12.24,Dialogue,,0,0,0,,at the Reichenbach waterfall in Switzerland.
+Dialogue: 0,1:08:12.24,1:08:14.78,Dialogue,,0,0,0,,They both fall to the bottom.
+Dialogue: 0,1:08:14.78,1:08:18.05,Dialogue,,0,0,0,,Holmes miraculously survives,
+Dialogue: 0,1:08:18.05,1:08:21.38,Dialogue,,0,0,0,,but Professor Moriarty supposedly dies.
+Dialogue: 0,1:08:21.38,1:08:25.55,Dialogue,,0,0,0,,Why did I warn him like that?
+Dialogue: 0,1:08:25.55,1:08:29.89,Dialogue,,0,0,0,,I guess maybe I like that\Nvillain as much as Holmes does!
+Dialogue: 0,1:08:33.73,1:08:35.72,Thoughts,,0,0,0,,{\be10}That reminds me of that time...
+Dialogue: 0,1:08:37.60,1:08:40.27,Flashback,,0,0,0,,{\be10}I'm pretty fond of Professor Moriarty myself!
+Dialogue: 0,1:08:40.27,1:08:43.94,Flashback,,0,0,0,,{\be10}Well, as a fictional character, anyway.
+Dialogue: 0,1:08:43.94,1:08:48.21,Flashback,,0,0,0,,{\be10}Their confrontation at\NHolmes house was mind-blowing!
+Dialogue: 0,1:08:48.21,1:08:52.45,Flashback,,0,0,0,,{\be10}I just love one of the things Holmes said then!
+Dialogue: 0,1:08:52.45,1:08:54.21,Flashback,,0,0,0,,{\be10}Can you guess what it is?
+Dialogue: 0,1:08:54.21,1:08:55.65,Flashback,,0,0,0,,{\be10}No.
+Dialogue: 0,1:08:55.65,1:08:57.31,Flashback,,0,0,0,,{\be10}It was...
+Dialogue: 0,1:09:04.06,1:09:08.06,Thoughts,,0,0,0,,{\be10}What did Shinichi say?
+Dialogue: 0,1:09:08.06,1:09:13.23,Thoughts,,0,0,0,,{\be10}We were on a date, but he\Nkept talking about Holmes,
+Dialogue: 0,1:09:13.23,1:09:14.89,Thoughts,,0,0,0,,{\be10}so I tuned him out...
+Dialogue: 0,1:09:16.90,1:09:18.34,Dialogue,,0,0,0,,Hey, Conan{\rHonorifics - Dialogue}-kun{\r}.
+Dialogue: 0,1:09:18.34,1:09:20.11,Dialogue,,0,0,0,,Yeah?
+Dialogue: 0,1:09:20.11,1:09:22.10,Dialogue,,0,0,0,,No. Never mind!
+Dialogue: 0,1:09:24.31,1:09:29.68,Thoughts,,0,0,0,,{\be10}I'm so dumb. Of course Conan{\rHonorifics - Thoughts\be10}-kun{\r\be10} wouldn't know.
+Dialogue: 0,1:09:29.68,1:09:32.65,Dialogue,,0,0,0,,H-Hey, Glasses.
+Dialogue: 0,1:09:32.65,1:09:39.09,Dialogue,,0,0,0,,Sorry. It's our fault that four\Npeople got a "game over"...
+Dialogue: 0,1:09:39.09,1:09:42.46,Dialogue,,0,0,0,,There's no point in worrying about what's done.
+Dialogue: 0,1:09:42.46,1:09:47.30,Dialogue,,0,0,0,,I'd say the fact you've started to\Nthink that way is a good step forward.
+Dialogue: 0,1:09:47.30,1:09:52.30,Dialogue,,0,0,0,,Yes! Let's work hard to figure out\Nwhat to do next, for everyone!
+Dialogue: 0,1:10:08.86,1:10:13.52,Thoughts,,0,0,0,,{\be10}So this is where the second victim,\NHoney Charleston, was found...
+Dialogue: 0,1:10:31.75,1:10:33.75,Thoughts,,0,0,0,,{\be10}"The parent-child bazaar will be held again
+Dialogue: 0,1:10:33.75,1:10:36.48,Thoughts,,0,0,0,,{\be10}on the second Saturday in October."
+Dialogue: 0,1:10:36.48,1:10:41.98,Thoughts,,0,0,0,,{\be10}The second Saturday? As I recall,\NHoney Charleston was killed...
+Dialogue: 0,1:10:44.19,1:10:46.18,Thoughts,,0,0,0,,{\be10}... Saturday, September 8th!
+Dialogue: 0,1:10:53.07,1:10:54.17,Dialogue,,0,0,0,,Sorry I made you wait!
+Dialogue: 0,1:10:54.17,1:10:56.94,Dialogue,,0,0,0,,What took so long? Where were you?!
+Dialogue: 0,1:10:56.94,1:10:59.21,Dialogue,,0,0,0,,Just exploring the city!
+Dialogue: 0,1:10:59.21,1:11:02.51,Dialogue,,0,0,0,,You sure are carefree on\Nthe day of our showdown.
+Dialogue: 0,1:11:02.51,1:11:05.58,Dialogue,,0,0,0,,Jack the Ripper has struck again!
+Dialogue: 0,1:11:05.58,1:11:07.95,Dialogue,,0,0,0,,There were two victims this time!
+Dialogue: 0,1:11:07.95,1:11:09.28,Dialogue,,0,0,0,,I'll take a paper!
+Dialogue: 0,1:11:09.28,1:11:10.92,Dialogue,,0,0,0,,Sure thing!
+Dialogue: 0,1:11:10.92,1:11:13.72,Dialogue,,0,0,0,,Oh no! I don't have English money!
+Dialogue: 0,1:11:13.72,1:11:16.22,Dialogue,,0,0,0,,Here you are! 80 yen!
+Dialogue: 0,1:11:16.22,1:11:18.21,Dialogue,,0,0,0,,Oh. How convenient!
+Dialogue: 0,1:11:22.30,1:11:23.73,Dialogue,,0,0,0,,Here it is!
+Dialogue: 0,1:11:23.73,1:11:29.37,Dialogue,,0,0,0,,"Clean the opera house tonight. From M to J."
+Dialogue: 0,1:11:29.37,1:11:31.04,Dialogue,,0,0,0,,"From M to J..."
+Dialogue: 0,1:11:31.04,1:11:33.54,Dialogue,,0,0,0,,"From Moriarty to Jack the Ripper."
+Dialogue: 0,1:11:33.54,1:11:37.11,Dialogue,,0,0,0,,Clean the opera house? Is that his instruction?
+Dialogue: 0,1:11:37.11,1:11:40.44,Dialogue,,0,0,0,,It could mean, "Murder an\Nactor who appears on stage..."
+Dialogue: 0,1:11:42.28,1:11:43.48,Dialogue,,0,0,0,,Here it is!
+Dialogue: 0,1:11:43.48,1:11:44.92,Dialogue,,0,0,0,,"The Triumphant Performance Returns!
+Dialogue: 0,1:11:44.92,1:11:48.79,Dialogue,,0,0,0,,Prima Donna in the Imperial\NOpera of Warsaw... Irene Adler!"
+Dialogue: 0,1:11:48.79,1:11:53.26,Thoughts,,0,0,0,,{\be10}Professor Moriarty!\NYou're the most despicable of villains!
+Dialogue: 0,1:11:53.26,1:11:56.13,Dialogue,,0,0,0,,Who's Irene Adler?
+Dialogue: 0,1:11:56.13,1:12:00.23,Dialogue,,0,0,0,,It's said she's the only\Nwoman Holmes ever loved!
+Dialogue: 0,1:12:00.23,1:12:03.73,Dialogue,,0,0,0,,Which means he made\NHolmes beloved the murder target.
+Dialogue: 0,1:12:13.75,1:12:15.92,Dialogue,,0,0,0,,12:06 A.M!
+Dialogue: 0,1:12:15.92,1:12:19.25,Dialogue,,0,0,0,,- That means...\Nall the other stages failed.
+Dialogue: 0,1:12:19.25,1:12:22.92,Dialogue,,0,0,0,,Which means everyone's\Nlives are in the hands of us six!
+Dialogue: 0,1:12:41.37,1:12:42.68,Dialogue,,0,0,0,,Hold it!
+Dialogue: 0,1:12:42.68,1:12:46.45,Dialogue,,0,0,0,,This area is for authorized persons only!
+Dialogue: 0,1:12:46.45,1:12:50.28,Dialogue,,0,0,0,,W-We're acquaintances of Irene Adler{\rHonorifics - Dialogue}-san{\r}!
+Dialogue: 0,1:12:50.28,1:12:52.12,Dialogue,,0,0,0,,We wanted to offer our\Nencouragement before she goes on!
+Dialogue: 0,1:12:52.12,1:12:54.62,Dialogue,,0,0,0,,Oh! You know her?
+Dialogue: 0,1:12:54.62,1:12:57.19,Dialogue,,0,0,0,,Yes! Where is her waiting room?
+Dialogue: 0,1:12:57.19,1:13:00.52,Dialogue,,0,0,0,,In that case, it's the room at\Nthe very end, with the poster.
+Dialogue: 0,1:13:02.23,1:13:06.87,Dialogue,,0,0,0,,This must be it. I wonder\Nwhat she's like. I'm so excited!
+Dialogue: 0,1:13:06.87,1:13:11.86,Thoughts,,0,0,0,,{\be10}Given that my dad made her\Ncharacter and that she's Holmes love...
+Dialogue: 0,1:13:13.41,1:13:14.74,Dialogue,,0,0,0,,Come in!
+Dialogue: 0,1:13:15.71,1:13:17.37,Dialogue,,0,0,0,,Pardon the intrusion!
+Dialogue: 0,1:13:21.72,1:13:23.98,Dialogue,,0,0,0,,Shinichi's mom!
+Dialogue: 0,1:13:23.98,1:13:25.55,Thoughts,,0,0,0,,{\be10}I knew it.
+Dialogue: 0,1:13:25.55,1:13:29.22,Dialogue,,0,0,0,,How rude! I'm still single!
+Dialogue: 0,1:13:29.22,1:13:33.43,Dialogue,,0,0,0,,Well, to be more precise,\NI'm single now that I've divorced!
+Dialogue: 0,1:13:33.43,1:13:35.50,Dialogue,,0,0,0,,A bouquet from Holmes{\rHonorifics - Dialogue}-san{\r}!
+Dialogue: 0,1:13:35.50,1:13:37.73,Dialogue,,0,0,0,,Oh! Thank you!
+Dialogue: 0,1:13:37.73,1:13:39.70,Dialogue,,0,0,0,,Where might Holmes{\rHonorifics - Dialogue}-san{\r} be?
+Dialogue: 0,1:13:39.70,1:13:42.44,Dialogue,,0,0,0,,He was looking forward\Nto tonight's performance,
+Dialogue: 0,1:13:42.44,1:13:44.87,Dialogue,,0,0,0,,but he had to leave on a case and can't come...
+Dialogue: 0,1:13:44.87,1:13:47.34,Dialogue,,0,0,0,,Oh. That's too bad.
+Dialogue: 0,1:13:47.34,1:13:49.34,Dialogue,,0,0,0,,Please call tonight's show off!
+Dialogue: 0,1:13:49.34,1:13:50.51,Dialogue,,0,0,0,,Eh?
+Dialogue: 0,1:13:50.51,1:13:53.11,Dialogue,,0,0,0,,Holmes{\rHonorifics - Dialogue}-san{\r}'s arch-nemesis, Professor Moriarty,
+Dialogue: 0,1:13:53.11,1:13:55.52,Dialogue,,0,0,0,,has sent someone to kill you!
+Dialogue: 0,1:13:55.52,1:13:57.45,Dialogue,,0,0,0,,Why me?
+Dialogue: 0,1:13:57.45,1:14:02.36,Dialogue,,0,0,0,,Because he wants to see\NHolmes{\rHonorifics - Dialogue}-san{\r}'s sadness when he loses you!
+Dialogue: 0,1:14:02.36,1:14:08.40,Dialogue,,0,0,0,,I'd like to see it, too! I wonder\Nhow sad he would be for me...
+Dialogue: 0,1:14:08.40,1:14:13.20,Dialogue,,0,0,0,,You don't care about being\NJack the Ripper's fifth victim?!
+Dialogue: 0,1:14:13.20,1:14:17.19,Dialogue,,0,0,0,,You're going to protect me, right?\NIn Holmes{\rHonorifics - Dialogue}-san{\r}'s place?
+Dialogue: 0,1:14:19.77,1:14:22.94,Dialogue,,0,0,0,,Nothing scares this lady...
+Dialogue: 0,1:14:22.94,1:14:26.28,Thoughts,,0,0,0,,{\be10}Yeah. This is exactly how she is...
+Dialogue: 0,1:14:52.24,1:14:56.57,Dialogue,,0,0,0,,Die beautifully, Irene Adler...
+Dialogue: 0,1:14:59.75,1:15:02.41,Thoughts,,0,0,0,,{\be10}Where is he lurking?
+Dialogue: 0,1:15:12.09,1:15:14.08,Dialogue,,0,0,0,,- What the...?!\N- What's happening?!
+Dialogue: 0,1:15:17.93,1:15:19.59,Dialogue,,0,0,0,,Look out!
+Dialogue: 0,1:15:23.64,1:15:25.30,Dialogue,,0,0,0,,- Emori!\N- Takizawa{\rHonorifics - Dialogue}-kun{\r}!
+Dialogue: 0,1:15:27.51,1:15:31.54,Dialogue,,0,0,0,,- Emori! You're...!\N- You too, Takizawa{\rHonorifics - Dialogue}-kun{\r}!
+Dialogue: 0,1:15:31.54,1:15:33.21,Dialogue,,0,0,0,,Game over, huh...
+Dialogue: 0,1:15:33.21,1:15:35.52,Dialogue,,0,0,0,,This sucks...
+Dialogue: 0,1:15:35.52,1:15:38.18,Dialogue,,0,0,0,,Thank you. You saved my life!
+Dialogue: 0,1:15:41.02,1:15:43.82,Dialogue,,0,0,0,,This is the first time\Nanyone's ever thanked me...
+Dialogue: 0,1:15:43.82,1:15:46.23,Dialogue,,0,0,0,,l-It feels nice!
+Dialogue: 0,1:15:46.23,1:15:48.56,Dialogue,,0,0,0,,Moroboshi! I leave the rest to you now!
+Dialogue: 0,1:15:48.56,1:15:50.55,Dialogue,,0,0,0,,You can count on me!
+Dialogue: 0,1:16:00.81,1:16:02.80,Dialogue,,0,0,0,,- A-Akira!\N- Shinya!
+Dialogue: 0,1:16:04.88,1:16:08.54,Dialogue,,0,0,0,,That leaves only four,\Nincluding Ran{\rHonorifics - Dialogue}-kun{\r} and Conan{\rHonorifics - Dialogue}-kun{\r}...
+Dialogue: 0,1:16:22.23,1:16:27.72,Dialogue,,0,0,0,,That's it, Jack the Ripper!\NTurn this world into Hell!
+Dialogue: 0,1:16:32.24,1:16:34.84,Dialogue,,0,0,0,,Hurry! Out the back!
+Dialogue: 0,1:16:34.84,1:16:36.61,Dialogue,,0,0,0,,Hurry, Haibara! That way!
+Dialogue: 0,1:16:36.61,1:16:38.60,Dialogue,,0,0,0,,Conan! Look out!
+Dialogue: 0,1:16:44.85,1:16:47.52,Dialogue,,0,0,0,,Haibara! Are you okay?!
+Dialogue: 0,1:16:47.52,1:16:51.02,Dialogue,,0,0,0,,You can't give up, Kudo{\rHonorifics - Dialogue}-kun{\r}!
+Dialogue: 0,1:16:51.02,1:16:56.60,Dialogue,,0,0,0,,If there aren't any assist characters,\Nthen you're our Holmes...
+Dialogue: 0,1:16:56.60,1:16:59.63,Dialogue,,0,0,0,,You're skilled enough for that.
+Dialogue: 0,1:16:59.63,1:17:03.63,Dialogue,,0,0,0,,There's no case Holmes can't solve, right?
+Dialogue: 0,1:17:15.32,1:17:16.30,Dialogue,,0,0,0,,Ai{\rHonorifics - Dialogue}-kun{\r}...
+Dialogue: 0,1:17:18.08,1:17:20.42,Dialogue,,0,0,0,,Quickly! Quickly! Evacuate!
+Dialogue: 0,1:17:24.66,1:17:26.32,Dialogue,,0,0,0,,Stay behind me!
+Dialogue: 0,1:17:36.40,1:17:39.61,Dialogue,,0,0,0,,- Stop!\N- Bye! You're safe with police around!
+Dialogue: 0,1:17:39.61,1:17:42.74,Dialogue,,0,0,0,,Little boy! I still don't know your name!
+Dialogue: 0,1:17:42.74,1:17:44.91,Dialogue,,0,0,0,,I'm Edogawa Conan!
+Dialogue: 0,1:17:44.91,1:17:47.68,Dialogue,,0,0,0,,I have the same name as your guys birth father!
+Dialogue: 0,1:17:47.68,1:17:49.34,Dialogue,,0,0,0,,Conan?
+Dialogue: 0,1:17:55.66,1:17:57.65,Thoughts,,0,0,0,,{\be10}I won't let him get away!
+Dialogue: 0,1:17:59.96,1:18:01.26,Dialogue,,0,0,0,,How are things going?
+Dialogue: 0,1:18:01.26,1:18:04.60,Dialogue,,0,0,0,,Conan{\rHonorifics - Dialogue}-kun{\r}'s group encountered Jack the Ripper.
+Dialogue: 0,1:18:04.60,1:18:07.53,Dialogue,,0,0,0,,They're chasing him right now.
+Dialogue: 0,1:18:07.53,1:18:09.37,Dialogue,,0,0,0,,Charing Cross Station!
+Dialogue: 0,1:18:27.82,1:18:29.81,Dialogue,,0,0,0,,Conan{\rHonorifics - Dialogue}-kun{\r}! Get on first!
+Dialogue: 0,1:18:34.63,1:18:37.06,Dialogue,,0,0,0,,This is the worst possible scenario!
+Dialogue: 0,1:18:37.06,1:18:39.40,Dialogue,,0,0,0,,How so?
+Dialogue: 0,1:18:39.40,1:18:42.87,Dialogue,,0,0,0,,The last train out of Charing Cross Station...
+Dialogue: 0,1:18:42.87,1:18:44.86,Dialogue,,0,0,0,,It's the most dangerous climax of all!
+Dialogue: 0,1:19:01.19,1:19:06.39,Dialogue,,0,0,0,,Eh?! Jack the Ripper is\Ndisguised as a passenger?!
+Dialogue: 0,1:19:06.39,1:19:08.83,Dialogue,,0,0,0,,Please gather all the\Npassengers onto a single car!
+Dialogue: 0,1:19:08.83,1:19:10.16,Dialogue,,0,0,0,,R-Right!
+Dialogue: 0,1:19:18.77,1:19:20.43,Dialogue,,0,0,0,,Mr. Conductor! Could you...
+Dialogue: 0,1:19:22.51,1:19:25.51,Dialogue,,0,0,0,,Okay, everyone! Please raise both hands!
+Dialogue: 0,1:19:25.51,1:19:29.17,Dialogue,,0,0,0,,I want to make sure no\None is carrying a weapon.
+Dialogue: 0,1:19:36.09,1:19:39.75,Thoughts,,0,0,0,,{\be10}I look forward to hearing you figure this out...
+Dialogue: 0,1:19:40.53,1:19:45.80,Dialogue,,0,0,0,,I'll now explain what was\Nwritten in Mr. Holmes notes.
+Dialogue: 0,1:19:45.80,1:19:51.10,Dialogue,,0,0,0,,Honey Charleston, the second\Nvictim of Jack the Ripper,
+Dialogue: 0,1:19:51.10,1:19:55.54,Dialogue,,0,0,0,,was married in the town of Windsor,\Nbut as she was full of dreams,
+Dialogue: 0,1:19:55.54,1:20:00.08,Dialogue,,0,0,0,,she abandoned her husband and son\N10 years ago to come to London.
+Dialogue: 0,1:20:00.08,1:20:04.78,Dialogue,,0,0,0,,These two rings were at the scene\Nof Honey Charleston's murder.
+Dialogue: 0,1:20:04.78,1:20:06.25,Dialogue,,0,0,0,,One is Honey's.
+Dialogue: 0,1:20:06.25,1:20:11.49,Dialogue,,0,0,0,,The other has the same design,\Nbut didn't fit any of Honey's fingers.
+Dialogue: 0,1:20:11.49,1:20:14.93,Dialogue,,0,0,0,,So Mr. Holmes believes the following.
+Dialogue: 0,1:20:14.93,1:20:18.93,Dialogue,,0,0,0,,He thinks these two rings may\Nhave signified the parent-child bond
+Dialogue: 0,1:20:18.93,1:20:22.34,Dialogue,,0,0,0,,between the victim,\NHoney Charleston, and Jack the Ripper.
+Dialogue: 0,1:20:22.34,1:20:26.31,Dialogue,,0,0,0,,Meaning that little ring is Jack the Ripper's?!
+Dialogue: 0,1:20:26.31,1:20:27.57,Dialogue,,0,0,0,,Yes.
+Dialogue: 0,1:20:27.57,1:20:31.74,Dialogue,,0,0,0,,She put a ring of the same design\Non her son's finger before leaving.
+Dialogue: 0,1:20:31.74,1:20:35.95,Dialogue,,0,0,0,,Does that mean Jack the Ripper\Nmurdered his own mother?
+Dialogue: 0,1:20:35.95,1:20:39.95,Dialogue,,0,0,0,,Yeah. According to his notes,\Nthe day she was murdered, Sept. 8,
+Dialogue: 0,1:20:39.95,1:20:41.96,Dialogue,,0,0,0,,was the second Saturday of September,
+Dialogue: 0,1:20:41.96,1:20:45.96,Dialogue,,0,0,0,,the day of the monthly bazaar\Nat the Whitechapel church,
+Dialogue: 0,1:20:45.96,1:20:51.20,Dialogue,,0,0,0,,in which parents and children\Nbring things they made together!
+Dialogue: 0,1:20:51.20,1:20:54.67,Dialogue,,0,0,0,,And he thinks Jack the Ripper knew that!
+Dialogue: 0,1:20:54.67,1:20:58.14,Dialogue,,0,0,0,,Eh? He even wrote that down?
+Dialogue: 0,1:20:58.14,1:21:04.54,Dialogue,,0,0,0,,In other words, Jack the Ripper\Nwanted to participate with his mother,
+Dialogue: 0,1:21:04.54,1:21:06.78,Dialogue,,0,0,0,,so he left their two rings?
+Dialogue: 0,1:21:06.78,1:21:09.45,Dialogue,,0,0,0,,Yeah! Apparently!
+Dialogue: 0,1:21:09.45,1:21:14.44,Dialogue,,0,0,0,,Then his motive was his grudge\Nfor his mother abandoning him...
+Dialogue: 0,1:21:15.79,1:21:19.45,Flashback,,0,0,0,,{\be10}What did I do?! I'm not the only one drunk!
+Dialogue: 0,1:21:22.96,1:21:27.46,Dialogue,,0,0,0,,But his bloodlust was almost out of love...
+Dialogue: 0,1:21:29.84,1:21:32.37,Dialogue,,0,0,0,,How sad...
+Dialogue: 0,1:21:32.37,1:21:35.91,Dialogue,,0,0,0,,Apparently, he chose an unrelated\Nwoman for his first victim
+Dialogue: 0,1:21:35.91,1:21:38.81,Dialogue,,0,0,0,,to throw the police off.
+Dialogue: 0,1:21:38.81,1:21:42.15,Dialogue,,0,0,0,,But what about the third and fourth victims?
+Dialogue: 0,1:21:42.15,1:21:44.88,Dialogue,,0,0,0,,Professor Moriarty's special education
+Dialogue: 0,1:21:44.88,1:21:49.26,Dialogue,,0,0,0,,molded Jack the Ripper\Ninto a psychotic criminal,
+Dialogue: 0,1:21:49.26,1:21:51.66,Dialogue,,0,0,0,,so even after clearing his\Ngrudge with his mother,
+Dialogue: 0,1:21:51.66,1:21:56.62,Dialogue,,0,0,0,,he couldn't help but continue\Ntargeting women like her.
+Dialogue: 0,1:21:56.90,1:21:58.83,Dialogue,,0,0,0,,Who is it, then?!
+Dialogue: 0,1:21:58.83,1:22:03.84,Dialogue,,0,0,0,,If he kept the ring on since childhood,
+Dialogue: 0,1:22:03.84,1:22:06.84,Dialogue,,0,0,0,,what do you think would happen to his finger?
+Dialogue: 0,1:22:06.84,1:22:11.17,Dialogue,,0,0,0,,Out of his 10 fingers, that\None finger should be thin!
+Dialogue: 0,1:22:14.85,1:22:17.84,Dialogue,,0,0,0,,Jack the Ripper is you!
+Dialogue: 0,1:22:20.95,1:22:22.94,Dialogue,,0,0,0,,But that's a woman!
+Dialogue: 0,1:22:26.26,1:22:28.25,Dialogue,,0,0,0,,Her right ring finger is thin!
+Dialogue: 0,1:22:36.60,1:22:38.59,Dialogue,,0,0,0,,- I got this!\N- No! Ran{\rHonorifics - Dialogue}-neechan{\r}!
+Dialogue: 0,1:22:41.04,1:22:42.71,Dialogue,,0,0,0,,Damn! A smokescreen!
+Dialogue: 0,1:22:42.71,1:22:44.70,Dialogue,,0,0,0,,- Open the window!\N- Yeah!
+Dialogue: 0,1:22:52.62,1:22:53.95,Dialogue,,0,0,0,,T-They're gone!
+Dialogue: 0,1:22:53.95,1:22:55.61,Dialogue,,0,0,0,,H-Hey!
+Dialogue: 0,1:22:58.06,1:23:01.39,Thoughts,,0,0,0,,{\be10}All the passengers have\Ndisappeared! What's going on?!
+Dialogue: 0,1:23:06.43,1:23:11.67,Dialogue,,0,0,0,,Now, then. Let us identify\Nwho Kashimura's killer was, too.
+Dialogue: 0,1:23:11.67,1:23:14.77,Dialogue,,0,0,0,,Eh?! You know who did it?!
+Dialogue: 0,1:23:14.77,1:23:19.91,Dialogue,,0,0,0,,The issue is how the killer\Nprepared the murder weapon.
+Dialogue: 0,1:23:19.91,1:23:25.35,Dialogue,,0,0,0,,A metal detector is installed at\Nthe entrance to the Beika City Hall.
+Dialogue: 0,1:23:25.35,1:23:32.13,Dialogue,,0,0,0,,So it's mostly likely that the weapon\Nwas already inside the building.
+Dialogue: 0,1:23:32.13,1:23:35.33,Dialogue,,0,0,0,,But where could someone get that?!
+Dialogue: 0,1:23:35.33,1:23:38.66,Dialogue,,0,0,0,,The bronze statues in the party hall.
+Dialogue: 0,1:23:38.66,1:23:41.33,Dialogue,,0,0,0,,One of them is holding a dagger.
+Dialogue: 0,1:23:43.30,1:23:46.54,Dialogue,,0,0,0,,The party hall was filled with guests!
+Dialogue: 0,1:23:46.54,1:23:49.44,Dialogue,,0,0,0,,Someone would've seen the killer taking it!
+Dialogue: 0,1:23:49.44,1:23:56.35,Dialogue,,0,0,0,,It was removed when the lights went out.\NIt had all been scheduled.
+Dialogue: 0,1:23:56.35,1:24:01.12,Dialogue,,0,0,0,,But wouldn't someone have\Nnoticed the dagger was missing?!
+Dialogue: 0,1:24:01.12,1:24:06.96,Dialogue,,0,0,0,,A fake was left in its place.\NMade of cardboard and foil or something.
+Dialogue: 0,1:24:06.96,1:24:10.00,Dialogue,,0,0,0,,Then, is the dagger the statue's holding now
+Dialogue: 0,1:24:10.00,1:24:12.30,Dialogue,,0,0,0,,the one used in the murder?!
+Dialogue: 0,1:24:12.30,1:24:18.64,Dialogue,,0,0,0,,Yes. I just had a luminol test and\Nfingerprint check done on the dagger.
+Dialogue: 0,1:24:18.64,1:24:22.41,Dialogue,,0,0,0,,Blood the same type as Kashimura's was found.
+Dialogue: 0,1:24:22.41,1:24:26.55,Dialogue,,0,0,0,,Fingerprints were also found on the handle.
+Dialogue: 0,1:24:26.55,1:24:31.98,Dialogue,,0,0,0,,Your fingerprints, President Schindler.
+Dialogue: 0,1:24:31.98,1:24:37.19,Dialogue,,0,0,0,,Of course they were. The bronze\Nstatues were brought from my home.
+Dialogue: 0,1:24:37.19,1:24:40.19,Dialogue,,0,0,0,,This is surveillance footage of the party hall
+Dialogue: 0,1:24:40.19,1:24:43.56,Dialogue,,0,0,0,,from before and after the incident.
+Dialogue: 0,1:24:43.56,1:24:48.17,Dialogue,,0,0,0,,Luckily, surveillance cameras\Nare placed all around the hall,
+Dialogue: 0,1:24:48.17,1:24:52.00,Dialogue,,0,0,0,,so I could record from every angle.
+Dialogue: 0,1:24:52.00,1:24:55.07,Dialogue,,0,0,0,,The ball that young Moroboshi\Nkicks hits the bronze statue
+Dialogue: 0,1:24:55.07,1:24:58.04,Dialogue,,0,0,0,,and knocks the dagger off.
+Dialogue: 0,1:24:58.04,1:25:02.55,Dialogue,,0,0,0,,He picks it up and returns\Nit to the statue's hand.
+Dialogue: 0,1:25:02.55,1:25:06.05,Dialogue,,0,0,0,,I see! If the dagger shown here is the real one,
+Dialogue: 0,1:25:06.05,1:25:09.02,Dialogue,,0,0,0,,the boy's fingerprints should be on it too!
+Dialogue: 0,1:25:09.02,1:25:14.09,Dialogue,,0,0,0,,But only President Schindler's\Nfingerprints were found!
+Dialogue: 0,1:25:14.09,1:25:19.13,Dialogue,,0,0,0,,I simply touched it after the boy,\Nso his fingerprints are gone.
+Dialogue: 0,1:25:19.13,1:25:22.20,Dialogue,,0,0,0,,Kudo{\rHonorifics - Dialogue}-sensei{\r}! I found it!
+Dialogue: 0,1:25:22.20,1:25:24.64,Dialogue,,0,0,0,,There was a fake dagger\Nmade of cardboard and foil
+Dialogue: 0,1:25:24.64,1:25:26.14,Dialogue,,0,0,0,,in the basement garbage collection!
+Dialogue: 0,1:25:26.14,1:25:27.81,Dialogue,,0,0,0,,Any fingerprints?!
+Dialogue: 0,1:25:27.81,1:25:30.04,Dialogue,,0,0,0,,It's just like you said, Kudo{\rHonorifics - Dialogue}-sensei{\r}!
+Dialogue: 0,1:25:30.04,1:25:36.08,Dialogue,,0,0,0,,It has young Moroboshi's and\NPresident Schindler's fingerprints!
+Dialogue: 0,1:25:36.08,1:25:41.05,Dialogue,,0,0,0,,The only fingerprints that can be\Non the fake dagger besides the boy's
+Dialogue: 0,1:25:41.05,1:25:43.09,Dialogue,,0,0,0,,are the killer's.
+Dialogue: 0,1:25:43.09,1:25:47.13,Dialogue,,0,0,0,,This is a set-up! I'm issuing a\Nprotest to the Japanese government!
+Dialogue: 0,1:25:47.13,1:25:50.46,Dialogue,,0,0,0,,Besides, I have no reason to\Nmurder Kashimura in the first place!
+Dialogue: 0,1:25:54.43,1:25:57.43,Dialogue,,0,0,0,,They're not here! All that's\Nup ahead is the engine room!
+Dialogue: 0,1:26:04.84,1:26:06.68,Dialogue,,0,0,0,,The driver is gone!
+Dialogue: 0,1:26:06.68,1:26:09.01,Dialogue,,0,0,0,,- We gotta stop the train!\N- Yeah!
+Dialogue: 0,1:26:11.25,1:26:13.24,Dialogue,,0,0,0,,The brake's been destroyed!
+Dialogue: 0,1:26:22.63,1:26:24.30,Dialogue,,0,0,0,,We're speeding up!
+Dialogue: 0,1:26:24.30,1:26:27.83,Dialogue,,0,0,0,,Hey! Shouldn't we find that girl?!
+Dialogue: 0,1:26:27.83,1:26:31.14,Thoughts,,0,0,0,,{\be10}Ran! Where are you?! Where did you go?!
+Dialogue: 0,1:26:31.14,1:26:32.80,Thoughts,,0,0,0,,{\be10}Wait!
+Dialogue: 0,1:26:34.34,1:26:36.33,Dialogue,,0,0,0,,There they are!
+Dialogue: 0,1:26:43.62,1:26:45.18,Dialogue,,0,0,0,,Ran{\rHonorifics - Dialogue}-neechan{\r}!
+Dialogue: 0,1:26:45.18,1:26:47.18,Dialogue,,0,0,0,,No! Stay away!
+Dialogue: 0,1:26:49.16,1:26:52.33,Dialogue,,0,0,0,,I've tied myself to this girl.
+Dialogue: 0,1:26:52.33,1:26:56.13,Dialogue,,0,0,0,,If I fall, she comes with me!
+Dialogue: 0,1:26:56.13,1:26:58.66,Dialogue,,0,0,0,,So, how will you fight?!
+Dialogue: 0,1:26:58.66,1:27:00.33,Dialogue,,0,0,0,,Dammit!
+Dialogue: 0,1:27:01.47,1:27:04.47,Dialogue,,0,0,0,,I hear the statue's dagger\Nhas been passed down
+Dialogue: 0,1:27:04.47,1:27:08.54,Dialogue,,0,0,0,,from generation to generation in\Nthe same Schindler family bloodline.
+Dialogue: 0,1:27:08.54,1:27:11.24,Dialogue,,0,0,0,,Indeed it has.
+Dialogue: 0,1:27:11.24,1:27:15.41,Dialogue,,0,0,0,,Why did you use it as the murder weapon?
+Dialogue: 0,1:27:15.41,1:27:21.41,Dialogue,,0,0,0,,Assuming you didn't have to\Nuse it as the murder weapon...
+Dialogue: 0,1:27:25.36,1:27:28.36,Dialogue,,0,0,0,,What is it you want, Jack the Ripper?!
+Dialogue: 0,1:27:28.36,1:27:30.16,Dialogue,,0,0,0,,"Want"?!
+Dialogue: 0,1:27:30.16,1:27:33.37,Dialogue,,0,0,0,,Now that you've killed your mother\Nand cleared your long grudge,
+Dialogue: 0,1:27:33.37,1:27:35.17,Dialogue,,0,0,0,,what is it you want?!
+Dialogue: 0,1:27:35.17,1:27:37.17,Dialogue,,0,0,0,,To continue living!
+Dialogue: 0,1:27:37.17,1:27:40.17,Dialogue,,0,0,0,,I'm going to let the vicious\Nblood flowing through my veins
+Dialogue: 0,1:27:40.17,1:27:43.84,Dialogue,,0,0,0,,survive to the next\Ngeneration aboard Noah's boat!
+Dialogue: 0,1:27:47.35,1:27:50.01,Dialogue,,0,0,0,,I take it this is your motive\Nfor murdering Kashimura.
+Dialogue: 0,1:27:52.22,1:27:57.39,Dialogue,,0,0,0,,Almost as if he had been aboard\NNoah's ark, Jack the Ripper's blood
+Dialogue: 0,1:27:57.39,1:28:00.73,Dialogue,,0,0,0,,survived to the present day.
+Dialogue: 0,1:28:00.73,1:28:04.56,Dialogue,,0,0,0,,You're Jack the Ripper's descendant.
+Dialogue: 0,1:28:04.56,1:28:08.20,Dialogue,,0,0,0,,- J-Jack the Ripper's...\N- ...descendant?!
+Dialogue: 0,1:28:08.20,1:28:13.04,Dialogue,,0,0,0,,Hiroki{\rHonorifics - Dialogue}-kun{\r} most likely learned\Nthis using his DNA Search Program.
+Dialogue: 0,1:28:13.04,1:28:17.04,Dialogue,,0,0,0,,If the world learned that the czar\Nof the IT industry is the descendant
+Dialogue: 0,1:28:17.04,1:28:21.98,Dialogue,,0,0,0,,of the psychotic serial murderer\Nfrom 100 years ago, he'd be done for.
+Dialogue: 0,1:28:21.98,1:28:25.89,Dialogue,,0,0,0,,So, to keep things quiet,\Nyou drove Hiroki{\rHonorifics - Dialogue}-kun{\r} to suicide...
+Dialogue: 0,1:28:25.89,1:28:29.89,Dialogue,,0,0,0,,... and murdered Kashimura!
+Dialogue: 0,1:28:29.89,1:28:34.88,Dialogue,,0,0,0,,It was when Hiroki came to see my collection.
+Dialogue: 0,1:28:36.63,1:28:41.40,Flashback,,0,0,0,,{\be10}This is a gold wine cup used\Nby the Egyptian king Khufu.
+Dialogue: 0,1:28:41.40,1:28:44.24,Flashback,,0,0,0,,{\be10}Next is Ganjin Wajo's scriptures
+Dialogue: 0,1:28:44.24,1:28:48.81,Flashback,,0,0,0,,{\be10}and the manuscript of Edogawa\NRampo's "The Psychological Test."
+Dialogue: 0,1:28:48.81,1:28:50.14,Flashback,,0,0,0,,{\be10}Amazing!
+Dialogue: 0,1:28:51.98,1:28:54.45,Flashback,,0,0,0,,{\be10}What about this dagger?
+Dialogue: 0,1:28:54.45,1:28:57.78,Flashback,,0,0,0,,{\be10}Oh, uhh...
+Dialogue: 0,1:28:57.78,1:29:00.79,Flashback,,0,0,0,,{\be10}It's supposedly the weapon\Nused by Jack the Ripper,
+Dialogue: 0,1:29:00.79,1:29:03.42,Flashback,,0,0,0,,{\be10}a deranged serial killer from a century ago...
+Dialogue: 0,1:29:03.42,1:29:06.41,Flashback,,0,0,0,,{\be10}There's no telling if it really is, though.
+Dialogue: 0,1:29:10.46,1:29:16.04,Dialogue,,0,0,0,,For an experiment, Hiroki gathered\Nall the data around him he could
+Dialogue: 0,1:29:16.04,1:29:18.67,Dialogue,,0,0,0,,and entered it into the computer.
+Dialogue: 0,1:29:18.67,1:29:22.98,Dialogue,,0,0,0,,And the DNA of Honey Charleston,\Ntaken from the dagger,
+Dialogue: 0,1:29:22.98,1:29:25.85,Dialogue,,0,0,0,,matched with yours.
+Dialogue: 0,1:29:25.85,1:29:27.98,Dialogue,,0,0,0,,You were afraid.
+Dialogue: 0,1:29:27.98,1:29:30.98,Dialogue,,0,0,0,,Afraid that Hiroki{\rHonorifics - Dialogue}-kun{\r} would eventually learn
+Dialogue: 0,1:29:30.98,1:29:33.39,Dialogue,,0,0,0,,that Jack the Ripper was Honey's son.
+Dialogue: 0,1:29:33.39,1:29:36.29,Dialogue,,0,0,0,,Afraid it was only a matter\Nof time until he learned
+Dialogue: 0,1:29:36.29,1:29:39.46,Dialogue,,0,0,0,,you're Jack the Ripper's descendant!
+Dialogue: 0,1:29:39.46,1:29:44.33,Dialogue,,0,0,0,,I was scared of the terrifying\Nblood that flows inside me!
+Dialogue: 0,1:29:44.33,1:29:48.47,Dialogue,,0,0,0,,Who cares about your\N"murderer's blood" or the public eye?!
+Dialogue: 0,1:29:48.47,1:29:51.13,Dialogue,,0,0,0,,Why didn't you try to fight it?!
+Dialogue: 0,1:29:54.34,1:29:57.71,Dialogue,,0,0,0,,Just as Conan{\rHonorifics - Dialogue}-kun{\r} and his friends are now.
+Dialogue: 0,1:29:57.71,1:29:59.31,Dialogue,,0,0,0,,Thomas Schindler.
+Dialogue: 0,1:29:59.31,1:30:02.30,Dialogue,,0,0,0,,You're under arrest for the\Nmurder of Kashimura Tadaaki{\rHonorifics - Dialogue}-san{\r}.
+Dialogue: 0,1:30:15.33,1:30:18.70,Dialogue,,0,0,0,,You'll never catch me if\Nyou're always running away!
+Dialogue: 0,1:30:18.70,1:30:21.50,Dialogue,,0,0,0,,10 minutes until the final stop.
+Dialogue: 0,1:30:21.50,1:30:24.49,Dialogue,,0,0,0,,What do you think will happen\Nto this train, without its driver?
+Dialogue: 0,1:30:30.68,1:30:33.67,Dialogue,,0,0,0,,Though it seems you'll be long\Ndead before the next station.
+Dialogue: 0,1:30:36.88,1:30:38.87,Dialogue,,0,0,0,,Conan{\rHonorifics - Dialogue}-kun{\r}! Behind you!
+Dialogue: 0,1:30:47.26,1:30:49.59,Dialogue,,0,0,0,,End of the line, boy.
+Dialogue: 0,1:30:50.80,1:30:52.36,Dialogue,,0,0,0,,Conan{\rHonorifics - Dialogue}-kun{\r}!
+Dialogue: 0,1:30:52.36,1:30:54.07,Dialogue,,0,0,0,,Let Glasses go!
+Dialogue: 0,1:30:54.07,1:30:55.73,Dialogue,,0,0,0,,Moroboshi{\rHonorifics - Dialogue}-kun{\r}!
+Dialogue: 0,1:30:57.37,1:30:58.37,Dialogue,,0,0,0,,Are you all right?!
+Dialogue: 0,1:30:58.37,1:31:01.77,Dialogue,,0,0,0,,I-I think!
+Dialogue: 0,1:31:01.77,1:31:04.77,Dialogue,,0,0,0,,Now then! Where shall I start carving from?
+Dialogue: 0,1:31:07.98,1:31:09.92,Thoughts,,0,0,0,,{\be10}What do I do?!
+Dialogue: 0,1:31:09.92,1:31:13.25,Thoughts,,0,0,0,,{\be10}Shinichi! What would you do in this situation?!
+Dialogue: 0,1:31:14.55,1:31:19.12,Flashback,,0,0,0,,{\be10}I just love one of the things Holmes said then!
+Dialogue: 0,1:31:19.12,1:31:20.56,Flashback,,0,0,0,,{\be10}Can you guess what it is?
+Dialogue: 0,1:31:20.56,1:31:22.39,Flashback,,0,0,0,,{\be10}No.
+Dialogue: 0,1:31:22.39,1:31:27.40,Flashback,,0,0,0,,{\be10}It was, "If you precise destruction,
+Dialogue: 0,1:31:27.40,1:31:31.06,Flashback,,0,0,0,,{\be10}in the public interest,\NI am willing to accept death."
+Dialogue: 0,1:31:35.84,1:31:37.58,Dialogue,,0,0,0,,Glasses!
+Dialogue: 0,1:31:37.58,1:31:40.57,Dialogue,,0,0,0,,The Reichenbach Falls, Conan{\rHonorifics - Dialogue}-kun{\r}!
+Dialogue: 0,1:31:44.68,1:31:46.45,Dialogue,,0,0,0,,Don't tell me you're?!
+Dialogue: 0,1:31:46.45,1:31:49.79,Thoughts,,0,0,0,,{\be10}I'm sorry I couldn't be with you to the end.
+Dialogue: 0,1:31:52.02,1:31:53.83,Dialogue,,0,0,0,,Stop! Ran!
+Dialogue: 0,1:31:53.83,1:31:55.49,Dialogue,,0,0,0,,Damn it!
+Dialogue: 0,1:32:01.27,1:32:02.93,Dialogue,,0,0,0,,Crap!
+Dialogue: 0,1:32:06.47,1:32:09.46,Thoughts,,0,0,0,,{\be10}Conan{\rHonorifics - Thoughts\be10}-kun{\r\be10}, I believe in you.
+Dialogue: 0,1:32:22.45,1:32:24.45,Dialogue,,0,0,0,,Ran!
+Dialogue: 0,1:32:28.36,1:32:30.69,Dialogue,,0,0,0,,Glasses! We have to stop the train!
+Dialogue: 0,1:32:33.03,1:32:36.37,Dialogue,,0,0,0,,Hey! We have to stop the\Ntrain so we can survive!
+Dialogue: 0,1:32:36.37,1:32:40.31,Dialogue,,0,0,0,,We still haven't won the game!
+Dialogue: 0,1:32:40.31,1:32:41.87,Dialogue,,0,0,0,,Get up, Glasses!
+Dialogue: 0,1:32:41.87,1:32:44.68,Dialogue,,0,0,0,,The lives of 48 people are in our hands!
+Dialogue: 0,1:32:44.68,1:32:47.65,Dialogue,,0,0,0,,Are you just going to trample all over them?!
+Dialogue: 0,1:32:47.65,1:32:49.98,Dialogue,,0,0,0,,Don't be stupid! I don't wanna give up, either!
+Dialogue: 0,1:32:52.72,1:32:57.32,Dialogue,,0,0,0,,Think about it. The train\Nis continually speeding up.
+Dialogue: 0,1:32:57.32,1:32:59.59,Dialogue,,0,0,0,,It's moving at approximately 100 kph.
+Dialogue: 0,1:32:59.59,1:33:02.49,Dialogue,,0,0,0,,It'll reach the station in under five minutes.
+Dialogue: 0,1:33:02.49,1:33:04.33,Dialogue,,0,0,0,,The only way to save everyone
+Dialogue: 0,1:33:04.33,1:33:08.90,Dialogue,,0,0,0,,was to cut the links connecting the\Nengine car and the passenger cars!
+Dialogue: 0,1:33:08.90,1:33:13.51,Dialogue,,0,0,0,,With just us two, those\Nlinks won't budge at all!
+Dialogue: 0,1:33:13.51,1:33:20.71,Dialogue,,0,0,0,,Yes. I was specifically counting\Non Ran to help us with it...
+Dialogue: 0,1:33:20.71,1:33:25.55,Dialogue,,0,0,0,,That's why Noah's Ark got\Nrid of all the passengers.
+Dialogue: 0,1:33:25.55,1:33:28.54,Dialogue,,0,0,0,,It's all over. There's nothing more we can do.
+Dialogue: 0,1:33:31.52,1:33:33.96,Dialogue,,0,0,0,,It's all over, Dad...
+Dialogue: 0,1:33:33.96,1:33:36.30,Dialogue,,0,0,0,,Hey, now! Don't give up!
+Dialogue: 0,1:33:36.30,1:33:41.53,Dialogue,,0,0,0,,You gotta survive and let Ran live again!
+Dialogue: 0,1:33:41.53,1:33:42.86,Thoughts,,0,0,0,,{\be10}Shinichi...
+Dialogue: 0,1:33:50.38,1:33:55.95,Dialogue,,0,0,0,,You still aren't covered in blood yet.\NYou're still alive.
+Dialogue: 0,1:33:55.95,1:33:57.98,Dialogue,,0,0,0,,Are you giving up already?
+Dialogue: 0,1:33:57.98,1:34:01.32,Dialogue,,0,0,0,,Just when you have both hands\Non the string to unravel the truth?
+Dialogue: 0,1:34:07.96,1:34:09.96,Dialogue,,0,0,0,,The crimson red string of murder
+Dialogue: 0,1:34:09.96,1:34:14.17,Dialogue,,0,0,0,,has been mixed in the bundle\Nof colorless threads of life.
+Dialogue: 0,1:34:14.17,1:34:18.74,Dialogue,,0,0,0,,Isn't disentangling that what we do?
+Dialogue: 0,1:34:18.74,1:34:20.40,Dialogue,,0,0,0,,Holmes!
+Dialogue: 0,1:34:24.11,1:34:28.01,Dialogue,,0,0,0,,Wasn't he in Dartmoor? Could it be a bug?
+Dialogue: 0,1:34:28.01,1:34:29.85,Dialogue,,0,0,0,,What does he mean?
+Dialogue: 0,1:34:29.85,1:34:34.62,Dialogue,,0,0,0,,Jack the Ripper is dead, so why do\Nwe have to get covered in blood?
+Dialogue: 0,1:34:34.62,1:34:37.19,Dialogue,,0,0,0,,This is it! This is what he meant!
+Dialogue: 0,1:34:37.19,1:34:38.42,Dialogue,,0,0,0,,The freight car!
+Dialogue: 0,1:34:38.42,1:34:40.36,Dialogue,,0,0,0,,Hey! Wait! What do you mean?!
+Dialogue: 0,1:34:40.36,1:34:42.35,Dialogue,,0,0,0,,Just come on!
+Dialogue: 0,1:34:47.63,1:34:51.34,Dialogue,,0,0,0,,Use that axe to break the red wine barrels!
+Dialogue: 0,1:34:51.34,1:34:52.67,Dialogue,,0,0,0,,Hurry!
+Dialogue: 0,1:35:09.45,1:35:11.79,Dialogue,,0,0,0,,- Dive under on my signal!\N- Okay!
+Dialogue: 0,1:35:25.64,1:35:26.97,Dialogue,,0,0,0,,Now!
+Dialogue: 0,1:36:00.67,1:36:02.21,Dialogue,,0,0,0,,Have they said anything?!
+Dialogue: 0,1:36:02.21,1:36:04.61,Dialogue,,0,0,0,,Still nothing!
+Dialogue: 0,1:36:04.61,1:36:08.10,Dialogue,,0,0,0,,Oh wonderful, merciful Conan{\rHonorifics - Dialogue}-sama{\r}!\NI beg of you to save Ran!
+Dialogue: 0,1:36:19.86,1:36:22.69,Thoughts,,0,0,0,,{\be10}I see. "Covered in blood".
+Dialogue: 0,1:36:22.69,1:36:28.03,Thoughts,,0,0,0,,{\be10}It meant, "Use the red\Nwine to cushion the shock".
+Dialogue: 0,1:36:28.03,1:36:32.60,Thoughts,,0,0,0,,{\be10}Thanks for the help, Holmes. No... Dad.
+Dialogue: 0,1:36:32.60,1:36:37.74,Dialogue,,0,0,0,,You're awake, Glasses? It seems you win.
+Dialogue: 0,1:36:37.74,1:36:39.07,Thoughts,,0,0,0,,{\be10}"You"?
+Dialogue: 0,1:36:42.78,1:36:44.77,Thoughts,,0,0,0,,{\be10}So I was right.
+Dialogue: 0,1:36:46.82,1:36:50.96,Dialogue,,0,0,0,,I'm glad I trusted you. Thank you.
+Dialogue: 0,1:36:50.96,1:36:55.76,Dialogue,,0,0,0,,You're welcome... Noah's Ark.
+Dialogue: 0,1:36:55.76,1:36:59.40,Dialogue,,0,0,0,,Or should I call you Hiroki{\rHonorifics - Dialogue}-kun{\r}?
+Dialogue: 0,1:36:59.40,1:37:03.73,Dialogue,,0,0,0,,You borrowed Moroboshi{\rHonorifics - Dialogue}-kun{\r}'s\Ndata to join in the game too, right?
+Dialogue: 0,1:37:08.31,1:37:11.18,Dialogue,,0,0,0,,When did you realize it?
+Dialogue: 0,1:37:11.18,1:37:16.18,Dialogue,,0,0,0,,There's no need to worry. I've cut\Ncommunication with the real world.
+Dialogue: 0,1:37:16.18,1:37:20.99,Dialogue,,0,0,0,,The first thing that\Nseemed strange was Big Ben!
+Dialogue: 0,1:37:20.99,1:37:24.19,Dialogue,,0,0,0,,You noticed it before the clock hand moved.
+Dialogue: 0,1:37:24.19,1:37:29.76,Dialogue,,0,0,0,,You did that to tell us what\NBig Ben's time indicated, right?
+Dialogue: 0,1:37:29.76,1:37:31.76,Dialogue,,0,0,0,,Next was the soccer ball.
+Dialogue: 0,1:37:31.76,1:37:35.80,Dialogue,,0,0,0,,You called it a filthy ball\Nand threw it behind you.
+Dialogue: 0,1:37:35.80,1:37:37.60,Dialogue,,0,0,0,,A 100 year-old soccer ball
+Dialogue: 0,1:37:37.60,1:37:41.27,Dialogue,,0,0,0,,would've been very interesting\Nto any soccer-loving boy.
+Dialogue: 0,1:37:43.81,1:37:47.81,Dialogue,,0,0,0,,I'm guessing that\Nalthough you put us in danger,
+Dialogue: 0,1:37:47.81,1:37:52.99,Dialogue,,0,0,0,,you had faith we would overcome it as a group.
+Dialogue: 0,1:37:52.99,1:37:57.69,Dialogue,,0,0,0,,You didn't need to kill the next\Nfew generations to reset Japan.
+Dialogue: 0,1:37:57.69,1:38:01.69,Dialogue,,0,0,0,,You hoped that overcoming\Nobstacles, the game's in this case,
+Dialogue: 0,1:38:01.69,1:38:06.80,Dialogue,,0,0,0,,without our parents help would\Nhelp us mature on our own, right?
+Dialogue: 0,1:38:06.80,1:38:08.83,Dialogue,,0,0,0,,You weren't able to be heartless!
+Dialogue: 0,1:38:08.83,1:38:12.37,Dialogue,,0,0,0,,Holmes appearance at the end is the proof.
+Dialogue: 0,1:38:12.37,1:38:16.71,Dialogue,,0,0,0,,You let the assist character\Nshow up right at the climax!
+Dialogue: 0,1:38:19.75,1:38:23.85,Dialogue,,0,0,0,,I borrowed Moroboshi{\rHonorifics - Dialogue}-kun{\r}'s\Nbody and snuck into the game
+Dialogue: 0,1:38:23.85,1:38:28.55,Dialogue,,0,0,0,,because I wanted to play\Nwith friends at least once.
+Dialogue: 0,1:38:28.55,1:38:33.66,Dialogue,,0,0,0,,I was always busy working, you see...
+Dialogue: 0,1:38:33.66,1:38:40.93,Dialogue,,0,0,0,,I'm sorry for frightening you.\NBut I had so much fun!
+Dialogue: 0,1:38:40.93,1:38:43.94,Dialogue,,0,0,0,,And, I was jealous of how you and your dad
+Dialogue: 0,1:38:43.94,1:38:49.88,Dialogue,,0,0,0,,can communicate with your\Nminds even if you're far apart!
+Dialogue: 0,1:38:49.88,1:38:56.52,Dialogue,,0,0,0,,Your dad avenged my dad's killer. Thank you!
+Dialogue: 0,1:38:56.52,1:39:00.59,Dialogue,,0,0,0,,It's time to say goodbye.
+Dialogue: 0,1:39:00.59,1:39:05.58,Dialogue,,0,0,0,,Your mind will continue to\Nlive on in Noah's Ark, right?
+Dialogue: 0,1:39:07.93,1:39:10.43,Dialogue,,0,0,0,,As long as computers like me are alive,
+Dialogue: 0,1:39:10.43,1:39:14.07,Dialogue,,0,0,0,,grownups will use them for bad things.
+Dialogue: 0,1:39:14.07,1:39:17.06,Dialogue,,0,0,0,,It was still too soon to\Ncreate an artificial brain...
+Dialogue: 0,1:39:19.91,1:39:23.78,Dialogue,,0,0,0,,Okay! Return to your world!
+Dialogue: 0,1:39:23.78,1:39:27.98,Dialogue,,0,0,0,,After you wake up, I want\Neveryone to at least know this:
+Dialogue: 0,1:39:27.98,1:39:32.31,Dialogue,,0,0,0,,Real life isn't easy, like it is in video games.
+Dialogue: 0,1:39:40.89,1:39:43.55,Dialogue,,0,0,0,,I hope you see your father!
+Dialogue: 0,1:39:46.97,1:39:48.93,Dialogue,,0,0,0,,Goodbye...
+Dialogue: 0,1:39:48.93,1:39:50.60,Dialogue,,0,0,0,,... Kudo Shinichi.
+Dialogue: 0,1:40:33.98,1:40:35.98,Dialogue,,0,0,0,,Ran!
+Dialogue: 0,1:40:35.98,1:40:37.97,Dialogue,,0,0,0,,Looks like he did it!
+Dialogue: 0,1:40:55.07,1:40:57.97,Dialogue,,0,0,0,,- Thank goodness you're all right!\N- That was fun!
+Dialogue: 0,1:40:57.97,1:40:59.96,Dialogue,,0,0,0,,- I worked hard!\N- Good job!
+Dialogue: 0,1:41:04.08,1:41:07.55,Dialogue,,0,0,0,,Conan{\rHonorifics - Dialogue}-kun{\r}! Thanks for bringing us back to life!
+Dialogue: 0,1:41:07.55,1:41:09.81,Dialogue,,0,0,0,,We worked pretty hard, didn't we?!
+Dialogue: 0,1:41:09.81,1:41:11.81,Dialogue,,0,0,0,,That was an incredible adventure!
+Dialogue: 0,1:41:14.19,1:41:17.18,Dialogue,,0,0,0,,Reality really is much better...
+Dialogue: 0,1:41:20.76,1:41:22.25,Dialogue,,0,0,0,,What happened?
+Dialogue: 0,1:41:27.17,1:41:30.10,Dialogue,,0,0,0,,I knew you'd be able to do it, Conan{\rHonorifics - Dialogue}-kun{\r}!
+Dialogue: 0,1:41:30.10,1:41:34.74,Dialogue,,0,0,0,,But, Ran{\rHonorifics - Dialogue}-neechan{\r}! Jumping off\Nwith him was way too crazy!
+Dialogue: 0,1:41:34.74,1:41:39.01,Dialogue,,0,0,0,,But I remembered one of\NShinichi's favorite Holmes quotes!
+Dialogue: 0,1:41:39.01,1:41:44.85,Dialogue,,0,0,0,,Eh? Was it when Holmes and\NProf. Moriarty met for the first time?
+Dialogue: 0,1:41:44.85,1:41:47.55,Dialogue,,0,0,0,,Huh? How do you know that?
+Dialogue: 0,1:41:47.55,1:41:51.69,Dialogue,,0,0,0,,No, uhh, I heard from Shinichi{\rHonorifics - Dialogue}-niichan{\r}, too...
+Dialogue: 0,1:41:51.69,1:41:57.56,Dialogue,,0,0,0,,Oh! But all his blabbing\Nreally proved useful for once!
+Dialogue: 0,1:41:57.56,1:42:01.37,Thoughts,,0,0,0,,{\be10}Stop calling it "blabbing"!
+Dialogue: 0,1:42:01.37,1:42:04.20,Dialogue,,0,0,0,,- Ran!\N- Dad!
+Dialogue: 0,1:42:04.20,1:42:06.19,Dialogue,,0,0,0,,Thank goodness you're okay!
+Dialogue: 0,1:42:26.12,1:42:29.26,Dialogue,,0,0,0,,That took a bit long for you.
+Dialogue: 0,1:42:29.26,1:42:31.59,Dialogue,,0,0,0,,Yeah. I quite enjoyed it.
+Dialogue: 0,1:42:47.08,1:42:52.08,Dialogue,,0,0,0,,Noah's Ark is ending his own life.
+Dialogue: 0,1:42:52.08,1:42:55.58,Dialogue,,0,0,0,,Rest in peace, Hiroki{\rHonorifics - Dialogue}-kun{\r}.
+Dialogue: 0,1:47:00.00,1:47:02.99,Dialogue,,0,0,0,,Gotta practice up so I won't\Nget made fun of anymore...

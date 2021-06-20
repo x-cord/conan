@@ -1,0 +1,1534 @@
+[Script Info]
+Title: Detective Conan - Movie 09
+TL Source: KnKF
+ScriptType: v4.00+
+WrapStyle: 3
+PlayResX: 1920
+PlayResY: 1080
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Dialogue,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00401311,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Dialogue Top,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00401311,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,8,30,30,55,1
+Style: Signs,FrancophilSans,74,&H14FFFFFF,&H00FFFFFF,&H46101010,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,8,30,30,55,1
+Style: Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,0,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Radio,FrancophilSans,74,&H00BEE1FF,&H00FFFFFF,&H000B2A42,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Narration,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00BF6F00,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Narration Off,FrancophilSans,74,&H6E8C6F00,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,0,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Flashback,FrancophilSans,74,&H00CDFAFF,&H00FFFFFF,&H00373737,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Flashback Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00CCFFFF,&HC0313134,-1,0,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Honorifics - Dialogue,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00401311,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Signs,FrancophilSans,74,&H14FFFFFF,&H00FFFFFF,&H46101010,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,-1,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Honorifics - Radio,FrancophilSans,74,&H00BEE1FF,&H00FFFFFF,&H000B2A42,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Narration,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00BF6F00,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Narration Off,FrancophilSans,74,&H6E8C6F00,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,-1,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Honorifics - Flashback,FrancophilSans,74,&H00CDFAFF,&H00FFFFFF,&H00373737,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Flashback Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00CCFFFF,&HC0313134,-1,-1,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Masks,FrancophilSans,74,&H00000000,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,2,0,0,0,1
+Style: Title,Conan Episode Title,74,&H00E1E4E3,&H000000FF,&HC8DBDAE1,&HC0000000,-1,0,0,0,100,100,0,0,1,1,0,5,0,0,0,1
+Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-1,0,0,0,100,100,0,0,1,0,0,2,0,0,65,1
+Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
+Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
+Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:20.06,0:00:24.65,Signs,,0,0,0,,15 years ago, Northern Atlantic Ocean
+Dialogue: 0,0:00:38.60,0:00:42.53,Signs,,0,0,0,,Kaidou Wataru (41)\NNumber 1 St. Yashiro, First-Mate
+Dialogue: 0,0:00:41.50,0:00:43.02,Dialogue Top,,0,0,0,,Iceberg, 12 o'clock!
+Dialogue: 0,0:00:43.02,0:00:44.39,Dialogue,,0,0,0,,Hard to port!
+Dialogue: 0,0:01:07.65,0:01:08.92,Dialogue,,0,0,0,,Captain...
+Dialogue: 0,0:01:08.92,0:01:10.63,Dialogue,,0,0,0,,Captain, are you all right?!
+Dialogue: 0,0:01:11.85,0:01:12.98,Dialogue,,0,0,0,,Excuse me.
+Dialogue: 0,0:01:14.10,0:01:15.23,Dialogue,,0,0,0,,Captain...
+Dialogue: 0,0:01:17.02,0:01:17.94,Dialogue,,0,0,0,,Captain!
+Dialogue: 0,0:01:17.94,0:01:19.80,Dialogue,,0,0,0,,Please hold on, Captain!
+Dialogue: 0,0:01:33.58,0:01:35.48,Dialogue,,0,0,0,,First-mate...
+Dialogue: 0,0:02:12.23,0:02:17.15,Signs,,0,0,0,,Half a month ago, Nishitama City
+Dialogue: 0,0:02:18.86,0:02:21.20,Signs,,0,0,0,,Yashiro
+Dialogue: 0,0:02:44.14,0:02:47.64,Signs,,0,0,0,,Yashiro Hideto (49)\NYashiro Cruiser Designer
+Dialogue: 0,0:03:20.42,0:03:22.10,Dialogue,,0,0,0,,It's so beautiful.
+Dialogue: 0,0:03:23.37,0:03:27.27,Dialogue,,0,0,0,,I wish I could show Shinichi this beautiful sunset.
+Dialogue: 0,0:03:31.53,0:03:32.69,Thoughts,,0,0,0,,{\be10}I see it.
+Dialogue: 0,0:03:35.14,0:03:36.74,Dialogue,,0,0,0,,Wha... What?!
+Dialogue: 0,0:03:36.74,0:03:38.61,Dialogue,,0,0,0,,You'll be able to see better from up here.
+Dialogue: 0,0:03:41.09,0:03:43.96,Thoughts,,0,0,0,,{\be10}It's true that I can see better now,
+Dialogue: 0,0:03:43.96,0:03:45.98,Thoughts,,0,0,0,,{\be10}but what an embarrassing position...
+Dialogue: 0,0:03:47.99,0:03:49.80,Dialogue,,0,0,0,,We saw that, Conan!
+Dialogue: 0,0:03:50.50,0:03:51.35,Thoughts,,0,0,0,,{\be10}Crap!
+Dialogue: 0,0:03:51.35,0:03:53.42,Dialogue,,0,0,0,,Let me down, Ran{\rHonorifics - Dialogue}-neechan{\r}!
+Dialogue: 0,0:03:53.42,0:03:55.09,Dialogue,,0,0,0,,We saw you, we saw you!
+Dialogue: 0,0:03:55.09,0:03:58.52,Dialogue,,0,0,0,,We saw you! You were indulging\Nwith Ran{\rHonorifics - Dialogue}-san{\r} again, weren't you?
+Dialogue: 0,0:03:58.52,0:04:00.55,Dialogue,,0,0,0,,Idiot, it's nothing like that!
+Dialogue: 0,0:04:00.99,0:04:02.95,Dialogue,,0,0,0,,Your face is red, Conan{\rHonorifics - Dialogue}-kun{\r}.
+Dialogue: 0,0:04:02.95,0:04:05.47,Dialogue,,0,0,0,,What are you talking about?\NThat's just because of the sunset.
+Dialogue: 0,0:04:06.32,0:04:09.26,Dialogue,,0,0,0,,He's turning red!
+Dialogue: 0,0:04:09.26,0:04:11.43,Dialogue,,0,0,0,,Stupid! No, I'm not!
+Dialogue: 0,0:04:11.90,0:04:14.52,Flashback,,0,0,0,,{\be10}What are you talking about?
+Dialogue: 0,0:04:14.87,0:04:17.52,Flashback,,0,0,0,,{\be10}I'm telling you, it's because of the sunset!
+Dialogue: 0,0:04:19.13,0:04:21.03,Dialogue,,0,0,0,,It's the same as that time.
+Dialogue: 0,0:04:21.03,0:04:22.40,Dialogue,,0,0,0,,Eh? What is?
+Dialogue: 0,0:04:23.81,0:04:25.80,Dialogue,,0,0,0,,It's nothing.
+Dialogue: 0,0:04:25.80,0:04:27.86,Dialogue,,0,0,0,,What is it? Tell me!
+Dialogue: 0,0:04:27.86,0:04:29.83,Dialogue,,0,0,0,,I'm telling you, it's nothing!
+Dialogue: 0,0:05:21.86,0:05:25.09,Signs,,0,0,0,,Detective CONAN
+Dialogue: 0,0:05:21.86,0:05:25.09,Signs,,0,0,0,,Strategy Above The Depths
+Dialogue: 0,0:05:30.18,0:05:32.31,Narration Off,,0,0,0,,{\be10}I'm high school detective Kudou Shinichi.
+Dialogue: 0,0:05:32.82,0:05:36.58,Narration Off,,0,0,0,,{\be10}While I went to an amusement park\Nwith my childhood friend Mouri Ran...
+Dialogue: 0,0:05:32.31,0:05:36.28,Signs,,0,0,0,,Original story: Aoyama Gosho
+Dialogue: 0,0:05:36.58,0:05:40.50,Narration Off,,0,0,0,,{\be10}I witnessed a suspicious transaction by a man in black.
+Dialogue: 0,0:05:37.20,0:05:41.07,Signs,,0,0,0,,Script: Furuuichi Issei
+Dialogue: 0,0:05:40.87,0:05:43.05,Narration Off,,0,0,0,,{\be10}Because my attention was focused on the transaction,
+Dialogue: 0,0:05:43.05,0:05:46.11,Narration Off,,0,0,0,,{\be10}I didn't notice another member\Napproaching me from behind.
+Dialogue: 0,0:05:48.01,0:05:50.64,Narration Off,,0,0,0,,{\be10}He forced me to take some poison.
+Dialogue: 0,0:05:47.52,0:05:51.20,Signs,,0,0,0,,Music: Oono Katsuo
+Dialogue: 0,0:05:51.20,0:05:52.54,Narration Off,,0,0,0,,{\be10}And when I came to...
+Dialogue: 0,0:05:53.19,0:05:55.41,Narration Off,,0,0,0,,{\be10}My body had shrunk!
+Dialogue: 0,0:05:55.73,0:05:58.29,Narration Off,,0,0,0,,{\be10}If the men in black find out that Kudou Shinichi is still alive,
+Dialogue: 0,0:05:55.41,0:05:59.21,Signs,,0,0,0,,Character Design: Sudou Masatomo
+Dialogue: 0,0:05:58.29,0:06:01.67,Narration Off,,0,0,0,,{\be10}they'll come after me again and endanger the lives of my friends and family.
+Dialogue: 0,0:06:02.79,0:06:05.95,Narration Off,,0,0,0,,{\be10}Following Professor Agasa's advice,\NI decided to hide my identity.
+Dialogue: 0,0:06:00.14,0:06:04.13,Signs,,0,0,0,,Art Director: Shibuya Yukihiro\NConstruction: Nishi Kayoko
+Dialogue: 0,0:06:05.95,0:06:09.34,Narration Off,,0,0,0,,{\be10}When Ran asked my name,\NI suddenly blurted out, "Edogawa Conan."
+Dialogue: 0,0:06:04.92,0:06:08.92,Signs,,0,0,0,,Director of Photography: Nomura Takashi\NDirector of Sound: Izawa Ki
+Dialogue: 0,0:06:09.76,0:06:14.57,Narration Off,,0,0,0,,{\be10}In order to get information about the men in black,\NI moved in with Ran and her father, a detective.
+Dialogue: 0,0:06:17.40,0:06:21.62,Dialogue,,0,0,0,,I'm from Teitan Elementary Grade 1,\NClass B. Kojima Genta.
+Dialogue: 0,0:06:22.05,0:06:24.45,Dialogue,,0,0,0,,The same, Tsuburaya Mitsuhiko.
+Dialogue: 0,0:06:24.92,0:06:26.34,Dialogue,,0,0,0,,Yoshida Ayumi.
+Dialogue: 0,0:06:26.34,0:06:27.76,Dialogue,,0,0,0,,Along with my apprentice, Conan...
+Dialogue: 0,0:06:27.76,0:06:28.90,Dialogue,,0,0,0,,And Ai{\rHonorifics - Dialogue}-chan{\r}...
+Dialogue: 0,0:06:32.71,0:06:35.05,Dialogue,,0,0,0,,We are the Detective Boys!
+Dialogue: 0,0:06:35.45,0:06:39.86,Dialogue,,0,0,0,,These sparkling detective badges on our chests\Neach contain a microscopic transceiver.
+Dialogue: 0,0:06:39.86,0:06:42.51,Dialogue,,0,0,0,,They also have homing signals.\NIt's the very latest technology!
+Dialogue: 0,0:06:43.22,0:06:49.87,Dialogue,,0,0,0,,These wristwatch flashlights are waterproof,\Nso you can even use them in the ocean!
+Dialogue: 0,0:06:50.25,0:06:54.26,Narration Off,,0,0,0,,{\be10}These two devices are Professor Agasa's inventions.
+Dialogue: 0,0:06:50.05,0:06:54.10,Signs,,0,0,0,,Edogawa Conan: Takayama Minami
+Dialogue: 0,0:06:55.87,0:07:00.52,Narration Off,,0,0,0,,{\be10}The Professor's made other unique\Ngadgets for the shrunken me.
+Dialogue: 0,0:07:00.85,0:07:05.15,Narration Off,,0,0,0,,{\be10\an8}Most importantly, the Super Bowtie Voice Changer and the Wrist Watch Tranquilizer.
+Dialogue: 0,0:07:00.85,0:07:05.15,Signs,,0,0,0,,Wrist Watch Tranquilizer
+Dialogue: 0,0:07:00.85,0:07:05.15,Signs,,0,0,0,,Super Bowtie Voice Changer
+Dialogue: 0,0:07:06.15,0:07:10.99,Narration Off,,0,0,0,,{\be10}Thanks to these two devices, the famous detective "Sleeping Kogorou" was born.
+Dialogue: 0,0:07:05.76,0:07:09.64,Signs,,0,0,0,,Mouri Kogorou: Kamiya Akira\NMouri Ran: Yamazaki Wakana
+Dialogue: 0,0:07:14.01,0:07:20.12,Dialogue,,0,0,0,,You know, Haibara{\rHonorifics - Dialogue}-san{\r}'s a bit cool.\NOr rather mature for her age.
+Dialogue: 0,0:07:14.23,0:07:18.11,Signs,,0,0,0,,Haibara Ai: Hayashibara Megumi\NDr. Agasa: Ogata Kenichi
+Dialogue: 0,0:07:20.12,0:07:22.42,Narration Off,,0,0,0,,{\be10}Of course she is.
+Dialogue: 0,0:07:18.45,0:07:22.42,Signs,,0,0,0,,Kudou Shinichi: Yamaguchi Kappei
+Dialogue: 0,0:07:23.05,0:07:26.25,Narration Off,,0,0,0,,{\be10}Haibara Ai's real name is Miyano Shiho.
+Dialogue: 0,0:07:26.92,0:07:30.08,Narration Off,,0,0,0,,{\be10}She was originally a part of the Black Syndicate.
+Dialogue: 0,0:07:30.54,0:07:36.24,Narration Off,,0,0,0,,{\be10}But to get away from the organization, she took the same drug that I'd been forced to take, and her body shrank as well.
+Dialogue: 0,0:07:37.97,0:07:43.29,Narration Off,,0,0,0,,{\be10}And so I, who went from being a high school\Ndetective to an elementary school detective,
+Dialogue: 0,0:07:44.11,0:07:46.73,Narration Off,,0,0,0,,{\be10}have been solving one complex case after another,
+Dialogue: 0,0:07:47.82,0:07:51.40,Narration Off,,0,0,0,,{\be10}As I secretly try to find out\Nthe identities of the men in black.
+Dialogue: 0,0:07:52.31,0:07:53.91,Narration Off,,0,0,0,,{\be10}But Uncle...
+Dialogue: 0,0:07:54.48,0:07:57.49,Narration Off,,0,0,0,,{\be10}If only his deductions would get a little better...
+Dialogue: 0,0:07:53.91,0:07:58.32,Signs,,0,0,0,,Producers:
+Dialogue: 0,0:07:53.91,0:07:58.32,Signs,,0,0,0,,Suwa Michiko\NYoshioka Masahito
+Dialogue: 0,0:08:00.11,0:08:02.06,Narration Off,,0,0,0,,{\be10}Even though I'm much smaller,\Nmy intellect remains the same.
+Dialogue: 0,0:08:03.05,0:08:05.04,Narration Off,,0,0,0,,{\be10}The detective with no unsolvable mysteries.
+Dialogue: 0,0:08:05.66,0:08:08.28,Narration Off,,0,0,0,,{\be10}There's always only one truth!
+Dialogue: 0,0:08:04.71,0:08:09.49,Signs,,0,0,0,,Director: Yamamoto Taiichiro
+Dialogue: 0,0:08:23.41,0:08:25.44,Dialogue,,0,0,0,,Wow, it's so big!
+Dialogue: 0,0:08:25.44,0:08:27.23,Dialogue,,0,0,0,,It sure is luxurious.
+Dialogue: 0,0:08:27.23,0:08:28.75,Dialogue,,0,0,0,,Of course, it is.
+Dialogue: 0,0:08:28.75,0:08:32.11,Dialogue,,0,0,0,,Yashiro Group is a pretty big financial group.
+Dialogue: 0,0:08:32.67,0:08:37.67,Dialogue,,0,0,0,,This is that 100-million dollar\Ngroup's first cruise ship ever built.
+Dialogue: 0,0:08:37.67,0:08:39.49,Dialogue,,0,0,0,,It's gotta be this luxurious.
+Dialogue: 0,0:08:41.32,0:08:42.79,Dialogue,,0,0,0,,Welcome.
+Dialogue: 0,0:08:43.32,0:08:45.09,Dialogue,,0,0,0,,You must be Mouri{\rHonorifics - Dialogue}-sama{\r}.
+Dialogue: 0,0:08:45.09,0:08:45.92,Dialogue,,0,0,0,,Uh, yes.
+Dialogue: 0,0:08:46.42,0:08:50.56,Dialogue,,0,0,0,,We're preparing your seats right now.\NPlease wait a moment.
+Dialogue: 0,0:08:54.36,0:08:55.55,Dialogue,,0,0,0,,Hey Professor. What is that?
+Dialogue: 0,0:08:56.36,0:09:00.43,Dialogue,,0,0,0,,This? It's just a regular IC recorder.
+Dialogue: 0,0:09:00.43,0:09:05.02,Dialogue,,0,0,0,,I was thinking I could use it to immediately record my thoughts when I get hints or ideas for new inventions.
+Dialogue: 0,0:09:05.02,0:09:07.79,Dialogue,,0,0,0,,Oh, speaking of new inventions,
+Dialogue: 0,0:09:08.12,0:09:11.32,Dialogue,,0,0,0,,Tada! Cufflink speakers.
+Dialogue: 0,0:09:11.32,0:09:12.69,Dialogue,,0,0,0,,It contains a transceiver as well.
+Dialogue: 0,0:09:13.89,0:09:15.77,Dialogue,,0,0,0,,That's pretty cool.
+Dialogue: 0,0:09:16.38,0:09:17.66,Dialogue,,0,0,0,,These are awesome.
+Dialogue: 0,0:09:17.66,0:09:19.78,Dialogue,,0,0,0,,Those are some nice cuff links.
+Dialogue: 0,0:09:20.17,0:09:22.37,Dialogue,,0,0,0,,This is great. I'll borrow these for awhile.
+Dialogue: 0,0:09:22.56,0:09:23.64,Dialogue,,0,0,0,,But those are...
+Dialogue: 0,0:09:23.64,0:09:28.79,Dialogue,,0,0,0,,You idiot. These things are made for dandy men like me.
+Dialogue: 0,0:09:29.29,0:09:32.04,Dialogue,,0,0,0,,It's still a bit too early for a kid like you.
+Dialogue: 0,0:09:32.04,0:09:33.80,Dialogue,,0,0,0,,But, Dad! Those are...
+Dialogue: 0,0:09:34.55,0:09:36.82,Dialogue,,0,0,0,,It's fine, Ran{\rHonorifics - Dialogue}-neechan{\r}.
+Dialogue: 0,0:09:37.43,0:09:39.61,Thoughts,,0,0,0,,{\be10}I probably won't need them inside this ship anyways.
+Dialogue: 0,0:09:39.61,0:09:40.81,Dialogue,,0,0,0,,Mouri{\rHonorifics - Dialogue}-san{\r}?
+Dialogue: 0,0:09:42.46,0:09:45.06,Dialogue,,0,0,0,,You're the famous detective,\NMouri Kogorou{\rHonorifics - Dialogue}-san{\r}, right?
+Dialogue: 0,0:09:45.06,0:09:46.78,Dialogue,,0,0,0,,Yes, that's right...
+Dialogue: 0,0:09:46.78,0:09:48.16,Dialogue,,0,0,0,,Cool!
+Dialogue: 0,0:09:48.16,0:09:49.56,Thoughts,,0,0,0,,{\be10}What's with this guy?
+Dialogue: 0,0:09:49.88,0:09:53.45,Dialogue Top,,0,0,0,,I'm a script writer, Kusaka Hironari.
+Dialogue: 0,0:09:50.70,0:09:54.97,Signs,,0,0,0,,Kusaka Hironari (26)\NScript Writer
+Dialogue: 0,0:09:53.45,0:09:55.36,Dialogue Top,,0,0,0,,I'm a big fan of yours, Mouri{\rHonorifics - Dialogue}-san{\r}.
+Dialogue: 0,0:09:55.75,0:09:57.34,Dialogue,,0,0,0,,Oh, thank you.
+Dialogue: 0,0:09:58.35,0:09:59.74,Dialogue,,0,0,0,,Ah, this is...
+Dialogue: 0,0:10:00.05,0:10:01.83,Dialogue,,0,0,0,,Akiyoshi Minako{\rHonorifics - Dialogue}-san{\r}.
+Dialogue: 0,0:10:01.83,0:10:05.30,Dialogue,,0,0,0,,She's a sub-leader of the design team for this ship,
+Dialogue: 0,0:10:05.30,0:10:09.14,Dialogue Top,,0,0,0,,And she gave this ship, the St. Aphrodite, its beautiful name.
+Dialogue: 0,0:10:05.91,0:10:10.79,Signs,,0,0,0,,Akiyoshi Minako (32)\NYashiro Cruise Designer
+Dialogue: 0,0:10:09.14,0:10:11.25,Dialogue Top,,0,0,0,,I'm Akiyoshi. Nice to meet you.
+Dialogue: 0,0:10:11.57,0:10:13.75,Dialogue,,0,0,0,,I'm Mouri...
+Dialogue: 0,0:10:14.27,0:10:16.51,Dialogue,,0,0,0,,Wow, she's beautiful.
+Dialogue: 0,0:10:16.51,0:10:17.47,Dialogue,,0,0,0,,Yeah...
+Dialogue: 0,0:10:18.19,0:10:19.52,Dialogue,,0,0,0,,Excuse me, Mouri{\rHonorifics - Dialogue}-sama{\r}.
+Dialogue: 0,0:10:21.06,0:10:23.80,Dialogue,,0,0,0,,Sorry to keep you waiting.\NYour seats have been prepared.
+Dialogue: 0,0:10:23.80,0:10:25.06,Dialogue,,0,0,0,,Oh, sorry.
+Dialogue: 0,0:10:25.46,0:10:26.93,Dialogue,,0,0,0,,Could you add two more?
+Dialogue: 0,0:10:26.93,0:10:28.39,Dialogue,,0,0,0,,It's okay with you, right, Mouri{\rHonorifics - Dialogue}-san{\r}?
+Dialogue: 0,0:10:28.39,0:10:29.97,Dialogue,,0,0,0,,Yeah...
+Dialogue: 0,0:10:29.97,0:10:31.29,Dialogue,,0,0,0,,Then, right this way.
+Dialogue: 0,0:10:35.60,0:10:37.90,Dialogue,,0,0,0,,Hey, isn't your dad acting a bit strange?
+Dialogue: 0,0:10:38.56,0:10:39.39,Dialogue,,0,0,0,,Why?
+Dialogue: 0,0:10:39.39,0:10:41.28,Dialogue,,0,0,0,,Well, because if it were the usual him, then...
+Dialogue: 0,0:10:41.57,0:10:45.75,Dialogue,,0,0,0,,"Speaking of Aphrodite, she's the goddess of beauty and love!"
+Dialogue: 0,0:10:45.75,0:10:49.96,Dialogue,,0,0,0,,"That name would be better suited\Nfor you rather than for the ship."
+Dialogue: 0,0:10:52.66,0:10:54.13,Dialogue,,0,0,0,,That's what he would say, isn't it?
+Dialogue: 0,0:10:55.24,0:10:59.34,Dialogue,,0,0,0,,That's probably because\NMinako{\rHonorifics - Dialogue}-san{\r} resembles my mother.
+Dialogue: 0,0:10:59.99,0:11:01.84,Dialogue,,0,0,0,,I see.
+Dialogue: 0,0:11:02.24,0:11:04.35,Dialogue,,0,0,0,,Come to think of it, they do look alike.
+Dialogue: 0,0:11:05.76,0:11:09.01,Thoughts,,0,0,0,,{\be10}That means she's the type Uncle\Nwould have a hard time dealing with.
+Dialogue: 0,0:11:14.02,0:11:19.40,Dialogue,,0,0,0,,I'm actually writing a drama series\Nset on a luxury cruise ship.
+Dialogue: 0,0:11:19.67,0:11:22.66,Dialogue,,0,0,0,,And I met Minako{\rHonorifics - Dialogue}-san{\r} while I was collecting data.
+Dialogue: 0,0:11:22.66,0:11:23.75,Dialogue,,0,0,0,,More or less.
+Dialogue: 0,0:11:23.75,0:11:24.95,Dialogue,,0,0,0,,I see...
+Dialogue: 0,0:11:25.47,0:11:29.09,Dialogue,,0,0,0,,By the way, Mouri{\rHonorifics - Dialogue}-san{\r}.\NYou were invited of course, right?
+Dialogue: 0,0:11:29.55,0:11:32.46,Dialogue,,0,0,0,,Or did they hire you to investigate some matters?
+Dialogue: 0,0:11:32.46,0:11:35.52,Dialogue,,0,0,0,,Well, how can I say this?\NTo say it was an invitation...
+Dialogue: 0,0:11:35.52,0:11:37.50,Dialogue,,0,0,0,,Actually, that's not it.
+Dialogue: 0,0:11:38.59,0:11:39.52,Dialogue,,0,0,0,,It's not?
+Dialogue: 0,0:11:39.52,0:11:43.80,Dialogue,,0,0,0,,The ones invited were actually Sonoko's parents.
+Dialogue: 0,0:11:43.80,0:11:47.28,Dialogue,,0,0,0,,Her father is the President of Suzuki Financial Group.
+Dialogue: 0,0:11:48.67,0:11:53.58,Dialogue,,0,0,0,,But my parent just couldn't make it,\Nso I came in their place.
+Dialogue: 0,0:11:53.58,0:11:56.73,Dialogue,,0,0,0,,And I thought, the more the merrier, so...
+Dialogue: 0,0:11:57.13,0:12:01.00,Dialogue,,0,0,0,,She managed to get invitations\Nfor the eight of us as well.
+Dialogue: 0,0:12:02.27,0:12:03.93,Dialogue,,0,0,0,,So that's how it was.
+Dialogue: 0,0:12:03.93,0:12:06.78,Dialogue,,0,0,0,,Well, you could say that I'm just here as her guardian.
+Dialogue: 0,0:12:07.15,0:12:08.57,Dialogue,,0,0,0,,Oh, I see.
+Dialogue: 0,0:12:09.48,0:12:11.29,Dialogue,,0,0,0,,I see...
+Dialogue: 0,0:12:11.53,0:12:14.04,Dialogue,,0,0,0,,By the way, what kind of story are you writing?
+Dialogue: 0,0:12:14.80,0:12:18.02,Dialogue,,0,0,0,,Is it a story where someone goes\Naround the world on a luxury cruise?
+Dialogue: 0,0:12:18.02,0:12:19.59,Dialogue,,0,0,0,,I like that.
+Dialogue: 0,0:12:19.59,0:12:20.55,Dialogue,,0,0,0,,Yeah!
+Dialogue: 0,0:12:20.99,0:12:26.05,Dialogue,,0,0,0,,Maybe it's a panic story like the Titanic\Nwhere the ship sinks in the middle of the ocean.
+Dialogue: 0,0:12:26.05,0:12:27.92,Dialogue,,0,0,0,,Hey, Ai{\rHonorifics - Dialogue}-kun{\r}...
+Dialogue: 0,0:12:29.71,0:12:31.69,Dialogue,,0,0,0,,Speaking of sinking,
+Dialogue: 0,0:12:31.69,0:12:37.74,Dialogue,,0,0,0,,There was a case a long time ago\Nwhere a Yashiro ship hit an iceberg.
+Dialogue: 0,0:12:37.74,0:12:40.82,Dialogue,,0,0,0,,Yes. It was an accident during\Nthe winter about 15 years ago.
+Dialogue: 0,0:12:41.43,0:12:44.49,Dialogue,,0,0,0,,I believe that due to the misjudgment of the captain,
+Dialogue: 0,0:12:44.49,0:12:49.33,Dialogue,,0,0,0,,One staff member died, and the captain\Nended his life along with the ship, too.
+Dialogue: 0,0:12:49.59,0:12:50.90,Dialogue,,0,0,0,,Really?
+Dialogue: 0,0:12:50.90,0:12:53.03,Dialogue,,0,0,0,,What are we going to do if this ship sinks, too?
+Dialogue: 0,0:12:53.03,0:12:55.37,Dialogue,,0,0,0,,I can only swim seven meters.
+Dialogue: 0,0:12:56.01,0:12:57.43,Dialogue,,0,0,0,,Don't worry.
+Dialogue: 0,0:12:57.43,0:12:59.92,Dialogue,,0,0,0,,The St. Aphrodite has a very good captain.
+Dialogue: 0,0:12:59.92,0:13:02.01,Dialogue,,0,0,0,,And there aren't any icebergs\Naround this part of the ocean.
+Dialogue: 0,0:13:02.53,0:13:08.11,Dialogue,,0,0,0,,Although, if the ship sinks, the first ones to be\Nrescued will probably be those folks over there.
+Dialogue: 0,0:13:11.13,0:13:14.98,Dialogue,,0,0,0,,Hey, isn't that Niemi{\rHonorifics - Dialogue}-san{\r}, the former captain?
+Dialogue: 0,0:13:16.07,0:13:19.26,Dialogue,,0,0,0,,And his company. Also, there's the very talented...
+Dialogue: 0,0:13:19.26,0:13:21.65,Dialogue,,0,0,0,,Hey, that's Uruashi Shimai!
+Dialogue: 0,0:13:21.65,0:13:25.15,Dialogue,,0,0,0,,No matter how many times I see her, she's still got a nice body.
+Dialogue: 0,0:13:25.15,0:13:30.64,Dialogue,,0,0,0,,They were all personally invited by\Nthe President of the Yashiro group.
+Dialogue: 0,0:13:32.16,0:13:33.91,Dialogue,,0,0,0,,The Yashiro family has arrived.
+Dialogue: 0,0:13:34.23,0:13:38.92,Signs,,0,0,0,,Yashiro Takae (51)\NYashiro Cruiser Chief Executive,\NEntarou's daughter
+Dialogue: 0,0:13:34.23,0:13:38.92,Signs,,0,0,0,,Yashiro Entarou (78)\NYashiro Group President
+Dialogue: 0,0:13:34.67,0:13:38.92,Dialogue Top,,0,0,0,,His daughter Takae is married and is\Nthe Chief Executive of Yashiro Cruiser.
+Dialogue: 0,0:13:39.57,0:13:45.14,Dialogue,,0,0,0,,Oh, Chief Takae's husband died\Nin a car accident recently, right?
+Dialogue: 0,0:13:45.14,0:13:46.36,Dialogue,,0,0,0,,Really?
+Dialogue: 0,0:13:46.36,0:13:48.64,Dialogue,,0,0,0,,Yes. Yashiro Hideto{\rHonorifics - Dialogue}-sensei{\r}...
+Dialogue: 0,0:13:49.48,0:13:53.28,Dialogue,,0,0,0,,He was my superior and the leader\Nof this ship's design crew.
+Dialogue: 0,0:13:53.28,0:13:55.16,Dialogue,,0,0,0,,I see.
+Dialogue: 0,0:13:55.16,0:14:01.57,Dialogue,,0,0,0,,As I recall, he had a heart attack\Nwhile he was driving and drove off a cliff.
+Dialogue: 0,0:14:02.31,0:14:04.07,Dialogue,,0,0,0,,Hey, it's the captain!
+Dialogue: 0,0:14:04.65,0:14:06.56,Dialogue,,0,0,0,,He's so cool!
+Dialogue: 0,0:14:08.83,0:14:10.95,Dialogue,,0,0,0,,That's Captain Kaidou Wataru.
+Dialogue: 0,0:14:11.67,0:14:14.51,Dialogue,,0,0,0,,Remember the accident 15 years ago\Nthat we talked about earlier?
+Dialogue: 0,0:14:15.35,0:14:18.74,Dialogue,,0,0,0,,He was the first-mate of that ship.
+Dialogue: 0,0:14:19.83,0:14:22.20,Dialogue,,0,0,0,,What? Something you don't find right?
+Dialogue: 0,0:14:22.20,0:14:24.80,Dialogue,,0,0,0,,About Yashiro Hideto-shi's accident?
+Dialogue: 0,0:14:25.09,0:14:31.18,Dialogue,,0,0,0,,The fact that his heart attack came while\Nhe was in the middle of descending a hill...
+Dialogue: 0,0:14:31.18,0:14:35.61,Dialogue,,0,0,0,,But according to the department's analysis,\Nthere weren't any suspicious points, right?
+Dialogue: 0,0:14:35.61,0:14:37.18,Dialogue,,0,0,0,,Yes, but...
+Dialogue: 0,0:14:37.48,0:14:42.26,Dialogue,,0,0,0,,Why not? It's not a bad thing to\Ninvestigate until you're satisfied.
+Dialogue: 0,0:14:42.26,0:14:45.23,Dialogue,,0,0,0,,I'll notify the department.
+Dialogue: 0,0:14:46.07,0:14:47.40,Dialogue,,0,0,0,,Thank you, sir.
+Dialogue: 0,0:14:48.09,0:14:50.54,Dialogue,,0,0,0,,Satou{\rHonorifics - Dialogue}-san{\r}, would you like me to help you?
+Dialogue: 0,0:14:50.54,0:14:52.68,Dialogue,,0,0,0,,You still haven't finished your report though, right?
+Dialogue: 0,0:14:53.27,0:14:53.78,Dialogue,,0,0,0,,Chiba{\rHonorifics - Dialogue}-kun{\r}.
+Dialogue: 0,0:14:55.05,0:14:56.18,Dialogue,,0,0,0,,Help me out a bit.
+Dialogue: 0,0:14:56.18,0:14:57.25,Dialogue,,0,0,0,,R-right...
+Dialogue: 0,0:15:07.47,0:15:10.11,Dialogue,,0,0,0,,Now that the drinks are all set...
+Dialogue: 0,0:15:10.11,0:15:12.75,Dialogue,,0,0,0,,Wait. Let me do it, please?
+Dialogue: 0,0:15:15.36,0:15:18.68,Dialogue,,0,0,0,,Well, then. To this fun cruise trip,
+Dialogue: 0,0:15:18.68,0:15:22.56,Dialogue,,0,0,0,,And to Ran's gold medal at the Kantou competition.
+Dialogue: 0,0:15:27.90,0:15:29.19,Dialogue,,0,0,0,,Cheers!
+Dialogue: 0,0:15:29.51,0:15:30.86,Dialogue,,0,0,0,,Cheers!
+Dialogue: 0,0:15:32.89,0:15:36.37,Dialogue,,0,0,0,,Thank you. Geez, Sonoko...
+Dialogue: 0,0:15:36.77,0:15:38.48,Dialogue,,0,0,0,,Hey, Ran{\rHonorifics - Dialogue}-oneesan{\r}.
+Dialogue: 0,0:15:38.48,0:15:41.58,Dialogue,,0,0,0,,You're amazing, winning first place at the karate tournament.
+Dialogue: 0,0:15:41.81,0:15:43.84,Dialogue Top,,0,0,0,,Kantou Taikai: Is a martial arts tournament, any form of martial arts is allowed, however, only hand to hand combat is allowed.
+Dialogue: 0,0:15:41.81,0:15:43.84,Dialogue,,0,0,0,,Not only that, it was the Kantou competition.
+Dialogue: 0,0:15:43.84,0:15:46.34,Dialogue,,0,0,0,,That's awesome! Awesome, awesome!
+Dialogue: 0,0:15:47.55,0:15:50.86,Dialogue,,0,0,0,,So, did you get some kind of present from Kudou{\rHonorifics - Dialogue}-kun{\r}?
+Dialogue: 0,0:15:50.86,0:15:51.84,Dialogue,,0,0,0,,Shinichi?
+Dialogue: 0,0:15:53.21,0:15:56.56,Dialogue,,0,0,0,,When I told him on the phone\Nall he said was, "Oh? Good for you".
+Dialogue: 0,0:15:56.87,0:15:58.47,Dialogue,,0,0,0,,That's it?
+Dialogue: 0,0:15:59.20,0:16:02.06,Dialogue,,0,0,0,,He's probably all caught up\Nin his investigations on his cases.
+Dialogue: 0,0:16:02.06,0:16:03.48,Dialogue,,0,0,0,,That deduction maniac.
+Dialogue: 0,0:16:05.37,0:16:08.85,Thoughts,,0,0,0,,{\be10}That was right after I said\Ncongratulations like mad as Conan...
+Dialogue: 0,0:16:13.59,0:16:15.32,Dialogue,,0,0,0,,I'm full!
+Dialogue: 0,0:16:15.92,0:16:17.62,Dialogue,,0,0,0,,That was a good steak.
+Dialogue: 0,0:16:17.62,0:16:19.50,Dialogue,,0,0,0,,I wish I could eat it every day.
+Dialogue: 0,0:16:19.50,0:16:21.21,Dialogue,,0,0,0,,I wonder if dessert is next?
+Dialogue: 0,0:16:22.87,0:16:24.00,Dialogue,,0,0,0,,What's wrong?
+Dialogue: 0,0:16:24.54,0:16:26.76,Dialogue,,0,0,0,,I think I'm a bit seasick.
+Dialogue: 0,0:16:26.76,0:16:29.52,Dialogue,,0,0,0,,Yeah, I'm also a little off...
+Dialogue: 0,0:16:29.52,0:16:31.54,Dialogue,,0,0,0,,You just drank too much alcohol.
+Dialogue: 0,0:16:31.54,0:16:33.80,Dialogue,,0,0,0,,Ran{\rHonorifics - Dialogue}-chan{\r}, so strict...
+Dialogue: 0,0:16:34.80,0:16:35.90,Dialogue,,0,0,0,,Geez...
+Dialogue: 0,0:16:35.90,0:16:37.48,Dialogue,,0,0,0,,You have a very interesting father.
+Dialogue: 0,0:16:37.48,0:16:39.81,Dialogue,,0,0,0,,No, he's just a drunken old man.
+Dialogue: 0,0:16:40.26,0:16:44.39,Dialogue,,0,0,0,,I'm sorry. I think I'll leave and rest in my room.
+Dialogue: 0,0:16:44.63,0:16:46.01,Dialogue,,0,0,0,,Are you going to be okay?
+Dialogue: 0,0:16:46.01,0:16:48.84,Dialogue,,0,0,0,,Yes. I have medicine in my room, so...
+Dialogue: 0,0:16:48.84,0:16:49.86,Dialogue,,0,0,0,,Take care...
+Dialogue: 0,0:17:26.37,0:17:30.12,Dialogue,,0,0,0,,Hey, Dad! Are you sure you're all right?
+Dialogue: 0,0:17:31.76,0:17:34.90,Dialogue,,0,0,0,,Mouri Kogorou is okay!
+Dialogue: 0,0:17:36.51,0:17:38.32,Dialogue,,0,0,0,,It's fine, Ran{\rHonorifics - Dialogue}-neechan{\r}.
+Dialogue: 0,0:17:38.81,0:17:41.04,Dialogue,,0,0,0,,All that's left is to put him in bed, so...
+Dialogue: 0,0:17:41.04,0:17:45.54,Dialogue,,0,0,0,,Sorry about this. Then, Conan{\rHonorifics - Dialogue}-kun{\r},\NI'll leave Dad to you, okay?
+Dialogue: 0,0:17:45.54,0:17:46.25,Dialogue,,0,0,0,,Sure.
+Dialogue: 0,0:17:46.75,0:17:48.20,Dialogue,,0,0,0,,I'm sorry, Professor.
+Dialogue: 0,0:17:48.20,0:17:49.97,Dialogue,,0,0,0,,It's not a problem.
+Dialogue: 0,0:17:49.97,0:17:51.65,Dialogue,,0,0,0,,It's fine, it's fine.
+Dialogue: 0,0:17:53.06,0:17:54.76,Dialogue,,0,0,0,,Good night, Ran{\rHonorifics - Dialogue}-chan{\r}.
+Dialogue: 0,0:17:57.44,0:17:58.64,Dialogue,,0,0,0,,It's open, Professor.
+Dialogue: 0,0:17:58.64,0:17:59.65,Dialogue,,0,0,0,,Right.
+Dialogue: 0,0:18:01.68,0:18:03.64,Dialogue,,0,0,0,,All right. Us, too.
+Dialogue: 0,0:18:03.64,0:18:04.22,Dialogue,,0,0,0,,Yeah.
+Dialogue: 0,0:18:04.42,0:18:06.07,Dialogue,,0,0,0,,Well then, Conan{\rHonorifics - Dialogue}-kun{\r}.
+Dialogue: 0,0:18:06.07,0:18:08.25,Dialogue,,0,0,0,,I'll leave Dad with you, okay?
+Dialogue: 0,0:18:14.79,0:18:15.28,Dialogue,,0,0,0,,Eh?
+Dialogue: 0,0:18:15.59,0:18:16.54,Dialogue,,0,0,0,,Yo!
+Dialogue: 0,0:18:16.54,0:18:18.14,Dialogue,,0,0,0,,We're visiting!
+Dialogue: 0,0:18:18.14,0:18:20.55,Dialogue,,0,0,0,,What are you guys doing all together?
+Dialogue: 0,0:18:20.55,0:18:25.29,Dialogue,,0,0,0,,We've decided to give something to Ran{\rHonorifics - Dialogue}-san{\r}\Nas a present for winning the competition.
+Dialogue: 0,0:18:25.70,0:18:26.29,Dialogue,,0,0,0,,What are these?
+Dialogue: 0,0:18:26.56,0:18:30.29,Dialogue,,0,0,0,,They're pretty, huh? We picked them up on that island we visited this afternoon.
+Dialogue: 0,0:18:30.47,0:18:33.76,Dialogue,,0,0,0,,We're going to make a gold medal from\Nthese and give it to her as her present.
+Dialogue: 0,0:18:33.76,0:18:37.71,Dialogue,,0,0,0,,It's a bit sad that she didn't get\Nanything from Shinichi-oniisan, right?
+Dialogue: 0,0:18:40.18,0:18:40.82,Dialogue,,0,0,0,,Good luck with that.
+Dialogue: 0,0:18:41.58,0:18:43.40,Dialogue,,0,0,0,,I'm going to take a bath.
+Dialogue: 0,0:18:43.40,0:18:44.91,Dialogue,,0,0,0,,A bath?!
+Dialogue: 0,0:18:45.53,0:18:47.52,Dialogue,,0,0,0,,What, you want to join me?
+Dialogue: 0,0:18:47.77,0:18:49.34,Dialogue,,0,0,0,,No, that's...
+Dialogue: 0,0:18:57.82,0:19:00.53,Dialogue,,0,0,0,,I'll read your schedule for tomorrow.
+Dialogue: 0,0:19:00.99,0:19:05.89,Dialogue Top,,0,0,0,,Your breakfast will be at 7:00 A.M., I will bring you a western-style meal set to your room.
+Dialogue: 0,0:19:05.89,0:19:09.59,Dialogue Top,,0,0,0,,After that, Chief Takae will be at a squash session with Madam Niemi at 9 A.M.
+Dialogue: 0,0:19:03.49,0:19:06.33,Signs,,0,0,0,,Tsujimoto Natsuho (25)\NPurser, Yashiro family's assistant
+Dialogue: 0,0:19:09.59,0:19:12.26,Dialogue,,0,0,0,,We've booked a court on the 7th floor.
+Dialogue: 0,0:19:12.26,0:19:15.34,Radio,,0,0,0,,{\be10}The President will attend a gathering at 9:30 A.M.
+Dialogue: 0,0:19:15.47,0:19:18.51,Radio,,0,0,0,,{\be10}It has been moved to the pool bar on the 3rd floor.
+Dialogue: 0,0:19:19.00,0:19:23.76,Radio,,0,0,0,,{\be10}After the squash game, Chief Takae will return to the room around 9:30 A.M.
+Dialogue: 0,0:19:44.67,0:19:46.28,Dialogue,,0,0,0,,It feels so good!
+Dialogue: 0,0:19:46.69,0:19:51.32,Dialogue,,0,0,0,,Indeed, morning tea is really\Nsomething in the salty breeze.
+Dialogue: 0,0:19:54.25,0:19:56.09,Dialogue,,0,0,0,,It's really something.
+Dialogue: 0,0:19:56.62,0:19:59.05,Dialogue,,0,0,0,,Yeah, it really is something.
+Dialogue: 0,0:19:59.32,0:20:01.22,Dialogue,,0,0,0,,It really is something.
+Dialogue: 0,0:20:11.41,0:20:14.22,Dialogue,,0,0,0,,Hey, did you see Chief Takae's legs?
+Dialogue: 0,0:20:14.22,0:20:16.44,Dialogue,,0,0,0,,They really don't look like they're in their 50's.
+Dialogue: 0,0:20:21.40,0:20:25.32,Dialogue Top,,0,0,0,,Geez, how can you think of such\Nthings so early in the morning?!
+Dialogue: 0,0:20:23.09,0:20:25.32,Dialogue,,0,0,0,,Professor, isn't it about that time?
+Dialogue: 0,0:20:26.34,0:20:28.60,Dialogue,,0,0,0,,You know, your famous lame quizzes.
+Dialogue: 0,0:20:28.60,0:20:32.41,Dialogue,,0,0,0,,If you're going to ask us, then do it fast. It's unsettling.
+Dialogue: 0,0:20:33.59,0:20:36.96,Thoughts,,0,0,0,,{\be10}He's completely being toyed with.
+Dialogue: 0,0:20:36.96,0:20:42.01,Dialogue,,0,0,0,,All right, then I'll answer your request\Nand give the quiz based on this cruise.
+Dialogue: 0,0:20:42.88,0:20:47.44,Dialogue,,0,0,0,,It appears that Genta{\rHonorifics - Dialogue}-kun{\r}'s received some\Ntreatment at the doctor's office on the ship.
+Dialogue: 0,0:20:47.44,0:20:50.47,Dialogue,,0,0,0,,Now then, what's happened to Genta{\rHonorifics - Dialogue}-kun{\r}?
+Dialogue: 0,0:20:52.69,0:20:53.48,Dialogue,,0,0,0,,One.
+Dialogue: 0,0:20:53.85,0:20:56.94,Dialogue,,0,0,0,,He ate too much and hurt his stomach.
+Dialogue: 0,0:20:57.27,0:21:00.40,Dialogue,,0,0,0,,Two. He twisted his ankle after tripping.
+Dialogue: 0,0:21:00.83,0:21:05.48,Dialogue,,0,0,0,,Three. He was out too long in the sun and got heat stroke.
+Dialogue: 0,0:21:06.80,0:21:09.25,Dialogue,,0,0,0,,Now then, what's the right answer?
+Dialogue: 0,0:21:10.88,0:21:13.79,Dialogue,,0,0,0,,If it's the usual Genta{\rHonorifics - Dialogue}-kun{\r},\Nthen it's choice one, but...
+Dialogue: 0,0:21:13.99,0:21:16.66,Dialogue,,0,0,0,,Nope, it's not the first one.
+Dialogue: 0,0:21:16.66,0:21:18.79,Dialogue,,0,0,0,,I'll never hurt my stomach no matter how much I eat.
+Dialogue: 0,0:21:18.99,0:21:20.80,Dialogue,,0,0,0,,I've got it!
+Dialogue: 0,0:21:21.05,0:21:22.30,Dialogue,,0,0,0,,Me, too.
+Dialogue: 0,0:21:22.30,0:21:25.73,Dialogue,,0,0,0,,But isn't that riddle a bit hard for kids?
+Dialogue: 0,0:21:25.73,0:21:26.86,Dialogue,,0,0,0,,Because you have to use English, and...
+Dialogue: 0,0:21:26.86,0:21:28.39,Dialogue,,0,0,0,,Sonoko!
+Dialogue: 0,0:21:28.76,0:21:31.59,Dialogue,,0,0,0,,English? English is the hint?
+Dialogue: 0,0:21:31.59,0:21:33.48,Dialogue,,0,0,0,,The second hint is "ship".
+Dialogue: 0,0:21:33.82,0:21:35.03,Dialogue,,0,0,0,,Ship?
+Dialogue: 0,0:21:36.35,0:21:40.40,Dialogue,,0,0,0,,I got it, the answer is "2" where he twisted his ankle.
+Dialogue: 0,0:21:40.40,0:21:42.48,Dialogue,,0,0,0,,"Fune" in English is "ship", right?
+Dialogue: 0,0:21:42.48,0:21:44.61,Dialogue,,0,0,0,,Genta{\rHonorifics - Dialogue}-kun{\r} put a "shippu" on his leg.
+Dialogue: 0,0:21:42.48,0:21:44.61,Signs,,0,0,0,,Note: a "shippu" is a medicine pack.
+Dialogue: 0,0:21:44.92,0:21:46.59,Dialogue,,0,0,0,,That's correct.
+Dialogue: 0,0:21:46.59,0:21:49.06,Dialogue,,0,0,0,,Just some extra, "Yuujou" is "Friendship".
+Dialogue: 0,0:21:49.06,0:21:51.45,Dialogue,,0,0,0,,"Uwasabanashi" is "Gossip".
+Dialogue: 0,0:21:51.45,0:21:54.09,Thoughts,,0,0,0,,{\be10}Hey, hey. "Gossip" is different.
+Dialogue: 0,0:21:54.54,0:21:56.08,Dialogue,,0,0,0,,Well then, I'll see you at 10:00 A.M.
+Dialogue: 0,0:21:57.74,0:22:00.18,Dialogue,,0,0,0,,The ship was shippu, huh?
+Dialogue: 0,0:22:00.18,0:22:05.13,Dialogue,,0,0,0,,Hey Mitsuhiko, if I was in a fight while I'm\Ncrossing the ocean, then I'll regret it, right?
+Dialogue: 0,0:22:00.18,0:22:05.13,Signs,,0,0,0,,Note: this is another pun, Goukai means crossing he ocean and Koukai means to regret. So it's a play on the sound of the word.
+Dialogue: 0,0:22:05.15,0:22:06.52,Dialogue,,0,0,0,,What the heck is that?
+Dialogue: 0,0:22:06.77,0:22:08.48,Dialogue,,0,0,0,,You think you're so good, huh?
+Dialogue: 0,0:22:08.48,0:22:11.93,Dialogue,,0,0,0,,Oh yeah. When are we going to give it to her?
+Dialogue: 0,0:22:11.93,0:22:14.06,Dialogue,,0,0,0,,We could give it now...
+Dialogue: 0,0:22:14.52,0:22:16.31,Dialogue,,0,0,0,,Hey, how about something like this?
+Dialogue: 0,0:22:19.16,0:22:21.55,Dialogue,,0,0,0,,Let's go and get the last round of drinks.
+Dialogue: 0,0:22:21.55,0:22:22.66,Dialogue,,0,0,0,,All right.
+Dialogue: 0,0:22:23.02,0:22:24.89,Dialogue,,0,0,0,,We've gotta bring back tons.
+Dialogue: 0,0:22:24.89,0:22:26.74,Dialogue,,0,0,0,,Don't overact about it
+Dialogue: 0,0:22:29.80,0:22:31.71,Dialogue,,0,0,0,,We're going to get some drinks too.
+Dialogue: 0,0:22:31.71,0:22:33.63,Dialogue,,0,0,0,,Let's go and get some!
+Dialogue: 0,0:22:33.63,0:22:35.94,Dialogue,,0,0,0,,What kind of juice should I get?
+Dialogue: 0,0:22:38.12,0:22:39.66,Dialogue,,0,0,0,,Right. Let's go!
+Dialogue: 0,0:22:40.06,0:22:40.75,Dialogue,,0,0,0,,Wait up!
+Dialogue: 0,0:22:41.14,0:22:43.25,Dialogue,,0,0,0,,What are they so excited about?
+Dialogue: 0,0:23:11.74,0:23:17.75,Dialogue,,0,0,0,,I know the secret of 15 years ago.\NAt 10:15 A.M., come to the basement marina.
+Dialogue: 0,0:23:28.71,0:23:34.14,Dialogue,,0,0,0,,I see. He really did fall from the road\Nright outside of his mansion.
+Dialogue: 0,0:23:36.83,0:23:38.98,Dialogue,,0,0,0,,Let's go check it out.
+Dialogue: 0,0:23:40.75,0:23:44.23,Dialogue,,0,0,0,,What should we do now?
+Dialogue: 0,0:23:44.94,0:23:47.69,Dialogue,,0,0,0,,It's still a bit cold to go for a swim.
+Dialogue: 0,0:23:47.69,0:23:49.69,Dialogue,,0,0,0,,I have to go and change.
+Dialogue: 0,0:23:50.53,0:23:51.61,Dialogue,,0,0,0,,Change?
+Dialogue: 0,0:23:53.01,0:23:57.04,Dialogue,,0,0,0,,I got an invitation from Uruashi Shimai.
+Dialogue: 0,0:23:58.40,0:24:02.35,Dialogue,,0,0,0,,Apparently, she wants to hear the stories\Nof the great detective Mouri Kogorou.
+Dialogue: 0,0:24:02.35,0:24:03.91,Dialogue,,0,0,0,,Later...
+Dialogue: 0,0:24:04.43,0:24:06.46,Dialogue,,0,0,0,,He's a real showoff, huh...
+Dialogue: 0,0:24:06.46,0:24:09.05,Dialogue,,0,0,0,,I wonder when he got the invitation.
+Dialogue: 0,0:24:10.45,0:24:11.84,Dialogue,,0,0,0,,Let's just leave him.
+Dialogue: 0,0:24:11.84,0:24:13.43,Dialogue,,0,0,0,,But what do you all want to do?
+Dialogue: 0,0:24:16.07,0:24:17.62,Dialogue,,0,0,0,,I want to play hide and seek.
+Dialogue: 0,0:24:17.62,0:24:19.19,Dialogue,,0,0,0,,S-Sounds fun.
+Dialogue: 0,0:24:19.19,0:24:20.14,Dialogue,,0,0,0,,Let's do it!
+Dialogue: 0,0:24:20.47,0:24:23.19,Dialogue,,0,0,0,,Hide and seek? How nostalgic.
+Dialogue: 0,0:24:23.19,0:24:24.91,Dialogue,,0,0,0,,We played it a lot when we were kids.
+Dialogue: 0,0:24:24.91,0:24:28.03,Dialogue,,0,0,0,,Yeah. At the park, at my house, and stuff.
+Dialogue: 0,0:24:28.34,0:24:30.98,Dialogue,,0,0,0,,I even played it in elementary school once.
+Dialogue: 0,0:24:30.98,0:24:32.40,Dialogue,,0,0,0,,Oh, really?
+Dialogue: 0,0:24:32.95,0:24:34.46,Dialogue,,0,0,0,,Sorry, but I'll pass.
+Dialogue: 0,0:24:35.59,0:24:37.46,Dialogue,,0,0,0,,Let's play, Conan{\rHonorifics - Dialogue}-kun{\r}.
+Dialogue: 0,0:24:37.46,0:24:39.16,Dialogue,,0,0,0,,You're not being part of the group.
+Dialogue: 0,0:24:39.16,0:24:42.62,Dialogue,,0,0,0,,Come to think of it, I think I was\Nrefused by Shinichi at that time, too.
+Dialogue: 0,0:24:43.00,0:24:46.04,Dialogue,,0,0,0,,All right! Let's play hide and seek.
+Dialogue: 0,0:24:46.36,0:24:48.80,Dialogue,,0,0,0,,Well, I suppose it'll kill some time.
+Dialogue: 0,0:24:49.11,0:24:50.17,Dialogue,,0,0,0,,What about you, Professor?
+Dialogue: 0,0:24:50.17,0:24:52.54,Dialogue,,0,0,0,,I have a massage reservation I requested.
+Dialogue: 0,0:24:52.54,0:24:54.06,Dialogue,,0,0,0,,Like an old man.
+Dialogue: 0,0:24:54.91,0:24:56.72,Dialogue,,0,0,0,,Okay, let's decide on the rules.
+Dialogue: 0,0:24:57.52,0:24:59.32,Dialogue,,0,0,0,,The time limit is 30 minutes.
+Dialogue: 0,0:24:59.32,0:25:02.00,Dialogue,,0,0,0,,The hiding area is from the 1st to the 7th floors.
+Dialogue: 0,0:25:02.00,0:25:05.73,Dialogue,,0,0,0,,Cabins and employees-only areas are off-limits.
+Dialogue: 0,0:25:05.95,0:25:08.21,Dialogue,,0,0,0,,Same with the bathrooms and the observation room.
+Dialogue: 0,0:25:08.21,0:25:09.07,Dialogue,,0,0,0,,How's that?
+Dialogue: 0,0:25:09.50,0:25:10.78,Dialogue,,0,0,0,,Agreed.
+Dialogue: 0,0:25:11.09,0:25:13.65,Dialogue,,0,0,0,,Well then, everyone. Gather around.
+Dialogue: 0,0:25:13.65,0:25:16.66,Dialogue,,0,0,0,,Rock-Paper-Scissors.
+Dialogue: 0,0:25:19.51,0:25:21.24,Dialogue,,0,0,0,,Sonoko's the seeker!
+Dialogue: 0,0:25:19.51,0:25:21.24,Signs,,0,0,0,,Note: in Japanese you would call the seeker "Oni" which in Japanese means monster or demon.
+Dialogue: 0,0:25:21.24,0:25:27.39,Dialogue,,0,0,0,,Hold on, impossible! I can't find six people on a ship this big in 30 minutes!
+Dialogue: 0,0:25:27.39,0:25:28.67,Dialogue,,0,0,0,,Totally impossible.
+Dialogue: 0,0:25:29.85,0:25:32.47,Dialogue,,0,0,0,,Well, let's make another seeker.
+Dialogue: 0,0:25:33.03,0:25:34.50,Dialogue,,0,0,0,,Two seekers?
+Dialogue: 0,0:25:34.50,0:25:36.53,Dialogue,,0,0,0,,Why not? It's different.
+Dialogue: 0,0:25:36.53,0:25:38.68,Dialogue,,0,0,0,,Well then, rock-paper-scissors again.
+Dialogue: 0,0:25:42.69,0:25:43.69,Dialogue,,0,0,0,,I look forward to working with you.
+Dialogue: 0,0:25:43.69,0:25:45.02,Dialogue,,0,0,0,,M-Me, too...
+Dialogue: 0,0:25:45.31,0:25:47.57,Thoughts,,0,0,0,,{\be10}Heh, he. Quite an unique combination.
+Dialogue: 0,0:25:47.57,0:25:50.86,Dialogue,,0,0,0,,Oh. Lend me you detective badge.
+Dialogue: 0,0:25:50.86,0:25:52.23,Dialogue,,0,0,0,,Why?
+Dialogue: 0,0:25:52.53,0:25:55.82,Dialogue,,0,0,0,,If there are two seekers, then we won't know who's been caught, right?
+Dialogue: 0,0:25:55.82,0:25:58.07,Dialogue,,0,0,0,,We're going to communicate with those badges.
+Dialogue: 0,0:25:58.39,0:26:00.07,Dialogue,,0,0,0,,Fine. Don't lose it.
+Dialogue: 0,0:26:00.29,0:26:03.93,Dialogue,,0,0,0,,Well then, we'll start at 9:50 A.M. So...
+Dialogue: 0,0:26:03.93,0:26:07.79,Dialogue,,0,0,0,,if the seekers find everyone by\N10:20 A.M. then the seekers win.
+Dialogue: 0,0:26:08.00,0:26:09.96,Dialogue,,0,0,0,,Okay, I won't lose!
+Dialogue: 0,0:26:11.13,0:26:13.88,Dialogue,,0,0,0,,Too bad, but we'll win because...
+Dialogue: 0,0:26:14.19,0:26:16.56,Dialogue,,0,0,0,,We've got Conan{\rHonorifics - Dialogue}-kun{\r}.
+Dialogue: 0,0:26:16.56,0:26:18.34,Thoughts,,0,0,0,,{\be10}Even if you say that...
+Dialogue: 0,0:26:18.34,0:26:20.00,Dialogue,,0,0,0,,All right, let's go.
+Dialogue: 0,0:26:20.00,0:26:21.81,Dialogue,,0,0,0,,Hide and seek... Start!
+Dialogue: 0,0:26:21.81,0:26:23.68,Dialogue,,0,0,0,,Yay!
+Dialogue: 0,0:26:24.01,0:26:25.02,Dialogue,,0,0,0,,Later.
+Dialogue: 0,0:26:25.02,0:26:26.65,Dialogue,,0,0,0,,We'll start in five minutes.
+Dialogue: 0,0:26:29.07,0:26:31.45,Dialogue,,0,0,0,,Ran{\rHonorifics - Dialogue}-oneesan{\r} didn't notice it.
+Dialogue: 0,0:26:31.45,0:26:33.94,Dialogue,,0,0,0,,She'll surely notice it while we're playing.
+Dialogue: 0,0:26:33.94,0:26:36.07,Dialogue,,0,0,0,,She'll be so surprised!
+Dialogue: 0,0:26:39.92,0:26:40.67,Dialogue,,0,0,0,,All right.
+Dialogue: 0,0:26:40.67,0:26:41.78,Dialogue,,0,0,0,,I got it!
+Dialogue: 0,0:26:44.38,0:26:46.00,Dialogue,,0,0,0,,I guess this isn't a good place.
+Dialogue: 0,0:26:47.36,0:26:49.30,Dialogue,,0,0,0,,When was the movie?
+Dialogue: 0,0:26:49.30,0:26:50.88,Dialogue,,0,0,0,,Wasn't it at 10:00 A.M.?
+Dialogue: 0,0:26:52.65,0:26:53.81,Dialogue,,0,0,0,,We should get going.
+Dialogue: 0,0:26:53.81,0:26:54.63,Dialogue,,0,0,0,,Hurry!
+Dialogue: 0,0:26:54.63,0:26:55.66,Dialogue,,0,0,0,,It's gonna start.
+Dialogue: 0,0:27:13.31,0:27:14.77,Dialogue,,0,0,0,,That was close.
+Dialogue: 0,0:27:22.20,0:27:22.82,Dialogue,,0,0,0,,All right!
+Dialogue: 0,0:27:40.00,0:27:43.01,Dialogue,,0,0,0,,Who would have thought that I'd be the seeker?
+Dialogue: 0,0:27:43.37,0:27:47.02,Dialogue,,0,0,0,,But, I suppose it's nice to be\Non the seeking side for once.
+Dialogue: 0,0:27:48.11,0:27:49.39,Dialogue,,0,0,0,,Five minutes have passed.
+Dialogue: 0,0:27:49.67,0:27:52.98,Dialogue,,0,0,0,,I'll look from floor five and up.\NI'll leave the bottom to you, okay?
+Dialogue: 0,0:27:53.57,0:27:55.12,Dialogue,,0,0,0,,S-Sure...
+Dialogue: 0,0:27:58.95,0:28:00.65,Dialogue,,0,0,0,,Hey, Kudou{\rHonorifics - Dialogue}-kun{\r}.
+Dialogue: 0,0:28:01.06,0:28:02.47,Dialogue,,0,0,0,,Hey, Haibara.
+Dialogue: 0,0:28:03.86,0:28:07.12,Dialogue,,0,0,0,,You know, I don't think you understand\Nthe meaning of hide and seek.
+Dialogue: 0,0:28:14.10,0:28:15.57,Dialogue,,0,0,0,,Got one.
+Dialogue: 0,0:28:16.55,0:28:18.88,Dialogue,,0,0,0,,Darn. How did you know?
+Dialogue: 0,0:28:18.88,0:28:22.47,Dialogue,,0,0,0,,The ones who eat a lot have always hidden at the cafeteria since the old days.
+Dialogue: 0,0:28:33.48,0:28:35.77,Dialogue,,0,0,0,,Whoa! Haibara{\rHonorifics - Dialogue}-san{\r}...
+Dialogue: 0,0:28:36.61,0:28:38.36,Dialogue,,0,0,0,,I'm guessing you borrowed that from the Professor.
+Dialogue: 0,0:28:38.90,0:28:41.36,Dialogue,,0,0,0,,You need to hide where it fits in.
+Dialogue: 0,0:28:42.08,0:28:43.90,Dialogue,,0,0,0,,Hey. Come out.
+Dialogue: 0,0:28:43.90,0:28:47.78,Dialogue,,0,0,0,,Ah, man. I thought it was a good hiding place.
+Dialogue: 0,0:28:48.00,0:28:52.19,Dialogue,,0,0,0,,Nope. You're still ten years too early to beat me.
+Dialogue: 0,0:29:01.54,0:29:03.22,Dialogue,,0,0,0,,Hello. This is Akiyoshi.
+Dialogue: 0,0:29:03.52,0:29:05.75,Dialogue,,0,0,0,,Hello, Minako{\rHonorifics - Dialogue}-san{\r}? It's Kusaka.
+Dialogue: 0,0:29:05.75,0:29:06.47,Dialogue,,0,0,0,,Yes.
+Dialogue: 0,0:29:06.96,0:29:10.18,Dialogue,,0,0,0,,Well, then. To get right to the point,
+Dialogue: 0,0:29:10.83,0:29:13.39,Dialogue,,0,0,0,,Okazaki Nanami, age 20.
+Dialogue: 0,0:29:13.39,0:29:16.19,Dialogue,,0,0,0,,An attendant on the luxury cruise St. Sazan Cross.
+Dialogue: 0,0:29:26.19,0:29:28.78,Dialogue,,0,0,0,,All right, I'm going to read the story.
+Dialogue: 0,0:29:32.66,0:29:39.20,Dialogue,,0,0,0,,Okazaki Nanami loved the ocean ever since she was born.
+Dialogue: 0,0:29:39.55,0:29:43.09,Dialogue,,0,0,0,,She loved its vastness more than anything else.
+Dialogue: 0,0:30:40.99,0:30:43.23,Dialogue,,0,0,0,,We managed to find these four pretty easily, but...
+Dialogue: 0,0:30:43.83,0:30:46.74,Dialogue,,0,0,0,,The hardest one turned out to be the last as suspected.
+Dialogue: 0,0:30:47.58,0:30:50.11,Dialogue,,0,0,0,,Ran{\rHonorifics - Dialogue}-san{\r}'s really good at hiding?
+Dialogue: 0,0:30:50.33,0:30:52.43,Dialogue,,0,0,0,,She's like a ninja, a ninja!
+Dialogue: 0,0:30:52.43,0:30:56.87,Dialogue,,0,0,0,,Does an ordinary elementary kid\Nclimb on ceilings and dive in ponds?
+Dialogue: 0,0:30:56.87,0:30:58.55,Dialogue,,0,0,0,,Ceilings...
+Dialogue: 0,0:30:58.55,0:31:00.77,Dialogue,,0,0,0,,Inside ponds...
+Dialogue: 0,0:31:01.57,0:31:03.01,Dialogue,,0,0,0,,Wow...
+Dialogue: 0,0:31:05.05,0:31:08.80,Thoughts,,0,0,0,,{\be10}Haha. She's had a lot of\Nstamina since she was younger.
+Dialogue: 0,0:31:10.25,0:31:12.80,Dialogue,,0,0,0,,We still have 12 minutes. Let's find her.
+Dialogue: 0,0:31:24.78,0:31:26.87,Dialogue,,0,0,0,,This place isn't it, either.
+Dialogue: 0,0:31:27.79,0:31:29.53,Dialogue,,0,0,0,,10:11 A.M.
+Dialogue: 0,0:31:29.81,0:31:32.65,Dialogue,,0,0,0,,Geez, there are only nine minutes left.
+Dialogue: 0,0:31:52.36,0:31:54.89,Dialogue,,0,0,0,,Sorry to keep you waiting. It's me, Mouri!
+Dialogue: 0,0:32:08.50,0:32:09.96,Dialogue,,0,0,0,,I'm taking revenge for my father!
+Dialogue: 0,0:32:57.63,0:32:58.99,Dialogue,,0,0,0,,I'm starting the countdown.
+Dialogue: 0,0:32:59.25,0:33:00.24,Dialogue,,0,0,0,,5...
+Dialogue: 0,0:33:00.53,0:33:01.25,Dialogue,,0,0,0,,4...
+Dialogue: 0,0:33:01.57,0:33:02.25,Dialogue,,0,0,0,,3...
+Dialogue: 0,0:33:02.56,0:33:03.25,Dialogue,,0,0,0,,2...
+Dialogue: 0,0:33:03.54,0:33:04.25,Dialogue,,0,0,0,,1...
+Dialogue: 0,0:33:04.52,0:33:05.43,Dialogue,,0,0,0,,Zero!
+Dialogue: 0,0:33:05.43,0:33:07.59,Dialogue,,0,0,0,,We win hide and seek!
+Dialogue: 0,0:33:09.11,0:33:10.69,Dialogue,,0,0,0,,It's all thanks to ninja Ran{\rHonorifics - Dialogue}-san{\r}.
+Dialogue: 0,0:33:10.69,0:33:12.14,Dialogue,,0,0,0,,Yeah, yeah.
+Dialogue: 0,0:33:12.14,0:33:13.05,Dialogue,,0,0,0,,Ran{\rHonorifics - Dialogue}-oneesan{\r}!
+Dialogue: 0,0:33:14.13,0:33:16.43,Dialogue,,0,0,0,,I told you we'd win.
+Dialogue: 0,0:33:16.69,0:33:19.09,Dialogue,,0,0,0,,Where were you hiding, Ran{\rHonorifics - Dialogue}-neechan{\r}?
+Dialogue: 0,0:33:19.09,0:33:23.64,Dialogue,,0,0,0,,You were kicking the soccer ball\Nthe entire time, right? I knew it all along.
+Dialogue: 0,0:33:24.33,0:33:27.02,Dialogue,,0,0,0,,It doesn't look like Ran{\rHonorifics - Dialogue}-oneesan{\r} found it yet.
+Dialogue: 0,0:33:27.02,0:33:28.52,Dialogue,,0,0,0,,That's strange.
+Dialogue: 0,0:33:28.52,0:33:30.02,Dialogue,,0,0,0,,Maybe she's just slow.
+Dialogue: 0,0:33:30.44,0:33:32.82,Dialogue,,0,0,0,,I wonder if she's still looking?
+Dialogue: 0,0:33:38.64,0:33:43.24,Dialogue,,0,0,0,,Wha... So cold! What is this?
+Dialogue: 0,0:33:46.78,0:33:49.18,Dialogue,,0,0,0,,A box? Am I in an box?
+Dialogue: 0,0:33:54.39,0:33:58.57,Dialogue,,0,0,0,,No... Someone... Someone help!
+Dialogue: 0,0:34:01.51,0:34:04.33,Dialogue,,0,0,0,,Help! Somebody, help me!
+Dialogue: 0,0:34:04.33,0:34:06.85,Dialogue,,0,0,0,,What's wrong, Sonoko{\rHonorifics - Dialogue}-neechan{\r}?
+Dialogue: 0,0:34:07.35,0:34:08.90,Dialogue,,0,0,0,,Help!
+Dialogue: 0,0:34:09.57,0:34:11.48,Dialogue,,0,0,0,,Calm down Sonoko, where are you?
+Dialogue: 0,0:34:12.76,0:34:16.75,Dialogue,,0,0,0,,I'm in a box somewhere...
+Dialogue: 0,0:34:16.75,0:34:19.63,Dialogue,,0,0,0,,I can't hear you, Sonoko, say that again!
+Dialogue: 0,0:34:24.54,0:34:26.34,Thoughts,,0,0,0,,{\be10}Are the batteries dead?
+Dialogue: 0,0:34:29.46,0:34:31.65,Thoughts,,0,0,0,,{\be10}Shit, back there...
+Dialogue: 0,0:34:31.65,0:34:35.28,Dialogue,,0,0,0,,You're cold, Sonoko? It's cold?
+Dialogue: 0,0:34:35.76,0:34:37.38,Thoughts,,0,0,0,,{\be10}She's shivering.
+Dialogue: 0,0:34:38.29,0:34:39.72,Dialogue,,0,0,0,,It's the freezer!
+Dialogue: 0,0:34:43.58,0:34:45.14,Dialogue,,0,0,0,,Hey! What are you guys doing?
+Dialogue: 0,0:34:45.47,0:34:47.11,Dialogue,,0,0,0,,Where's your freezer?
+Dialogue: 0,0:34:47.11,0:34:48.15,Dialogue,,0,0,0,,Freezer?
+Dialogue: 0,0:34:48.15,0:34:50.48,Dialogue,,0,0,0,,Please, my friend is in trouble!
+Dialogue: 0,0:34:50.88,0:34:52.87,Dialogue,,0,0,0,,It's on the second basement floor.
+Dialogue: 0,0:34:58.53,0:35:00.14,Dialogue,,0,0,0,,There are so many!
+Dialogue: 0,0:35:00.14,0:35:00.91,Dialogue,,0,0,0,,Which one is it?
+Dialogue: 0,0:35:01.27,0:35:02.78,Dialogue,,0,0,0,,Let's split up and find her.
+Dialogue: 0,0:35:02.78,0:35:03.55,Dialogue,,0,0,0,,Yes.
+Dialogue: 0,0:35:04.83,0:35:06.41,Dialogue,,0,0,0,,Sonoko{\rHonorifics - Dialogue}-neechan{\r}!
+Dialogue: 0,0:35:08.70,0:35:10.00,Dialogue,,0,0,0,,Sonoko{\rHonorifics - Dialogue}-san{\r}.
+Dialogue: 0,0:35:10.41,0:35:12.96,Dialogue,,0,0,0,,Sonoko! Are you here?
+Dialogue: 0,0:35:13.17,0:35:15.84,Dialogue,,0,0,0,,Sonoko{\rHonorifics - Dialogue}-oneesan{\r}, where are you?!
+Dialogue: 0,0:35:16.54,0:35:19.03,Dialogue,,0,0,0,,It doesn't look like she's here. Let's go outside.
+Dialogue: 0,0:35:20.93,0:35:23.29,Dialogue,,0,0,0,,That was cold.
+Dialogue: 0,0:35:23.29,0:35:25.26,Dialogue,,0,0,0,,Sonoko, Sonoko! Answer me, Sonoko!
+Dialogue: 0,0:35:25.46,0:35:28.73,Thoughts,,0,0,0,,{\be10}Damn it! Where? Where is she?
+Dialogue: 0,0:35:28.99,0:35:31.92,Dialogue,,0,0,0,,Hey, maybe she's already dead...
+Dialogue: 0,0:35:31.92,0:35:34.04,Dialogue,,0,0,0,,Don't say such things!
+Dialogue: 0,0:35:34.04,0:35:38.16,Dialogue,,0,0,0,,But there isn't any other place that's cold, is there?
+Dialogue: 0,0:35:38.48,0:35:40.06,Thoughts,,0,0,0,,{\be10}Dead...
+Dialogue: 0,0:35:40.87,0:35:41.74,Dialogue,,0,0,0,,It's there!
+Dialogue: 0,0:35:42.54,0:35:44.74,Dialogue,,0,0,0,,This ship has a place like this?
+Dialogue: 0,0:35:45.32,0:35:47.24,Dialogue,,0,0,0,,It's a little bizarre, huh?
+Dialogue: 0,0:35:49.79,0:35:51.00,Dialogue,,0,0,0,,It's heavy.
+Dialogue: 0,0:35:55.44,0:35:56.62,Dialogue,,0,0,0,,Sonoko!
+Dialogue: 0,0:36:00.53,0:36:02.00,Dialogue,,0,0,0,,Sonoko...
+Dialogue: 0,0:36:02.00,0:36:03.76,Dialogue,,0,0,0,,Let's get her to the infirmary.
+Dialogue: 0,0:36:06.61,0:36:09.27,Dialogue,,0,0,0,,Ha... I'm alive again.
+Dialogue: 0,0:36:09.50,0:36:11.08,Dialogue,,0,0,0,,There's no need to worry.
+Dialogue: 0,0:36:11.08,0:36:16.02,Dialogue,,0,0,0,,Once she warms her body and relaxes,\Nshe should be able to move soon.
+Dialogue: 0,0:36:16.36,0:36:18.14,Dialogue,,0,0,0,,Thank you.
+Dialogue: 0,0:36:18.14,0:36:19.94,Dialogue,,0,0,0,,Isn't that great, Sonoko?
+Dialogue: 0,0:36:20.61,0:36:21.70,Thoughts,,0,0,0,,{\be10}But...
+Dialogue: 0,0:36:21.70,0:36:23.45,Dialogue,,0,0,0,,Who would pull a prank like this?
+Dialogue: 0,0:36:23.94,0:36:27.09,Dialogue,,0,0,0,,Prank? This is no prank.
+Dialogue: 0,0:36:27.09,0:36:29.16,Dialogue,,0,0,0,,It's an official murder attempt.
+Dialogue: 0,0:36:29.55,0:36:31.24,Dialogue,,0,0,0,,Please call the police immediately.
+Dialogue: 0,0:36:31.24,0:36:33.08,Dialogue,,0,0,0,,Y-Yes, sir.
+Dialogue: 0,0:36:34.65,0:36:37.21,Dialogue,,0,0,0,,Tell me the story.
+Dialogue: 0,0:36:37.21,0:36:38.38,Dialogue,,0,0,0,,Where were you attacked?
+Dialogue: 0,0:36:38.79,0:36:41.46,Dialogue,,0,0,0,,At the marina. I went to look for Ran,
+Dialogue: 0,0:36:41.46,0:36:44.39,Dialogue,,0,0,0,,then I was suddenly hit on\Nthe shoulder by a stick or something,
+Dialogue: 0,0:36:44.39,0:36:46.39,Dialogue,,0,0,0,,And I think I lost consciousness from there.
+Dialogue: 0,0:36:46.39,0:36:48.18,Dialogue,,0,0,0,,What about the face of the attacker?
+Dialogue: 0,0:36:48.42,0:36:52.46,Dialogue,,0,0,0,,Hmm. I think I saw it, but I don't remember.
+Dialogue: 0,0:36:52.46,0:36:53.41,Dialogue,,0,0,0,,What about the time?
+Dialogue: 0,0:36:53.41,0:36:56.52,Dialogue,,0,0,0,,Oh, I remember that. It was at 10:11 A.M.
+Dialogue: 0,0:36:57.39,0:36:59.20,Thoughts,,0,0,0,,{\be10}10:11 A.M.
+Dialogue: 0,0:37:02.05,0:37:06.95,Dialogue,,0,0,0,,I see. From here, the mortuary is only feet away.
+Dialogue: 0,0:37:06.95,0:37:10.79,Dialogue,,0,0,0,,But why was Sonoko{\rHonorifics - Dialogue}-neechan{\r} attacked?
+Dialogue: 0,0:37:19.93,0:37:20.59,Dialogue,,0,0,0,,This is...
+Dialogue: 0,0:37:21.14,0:37:23.43,Dialogue,,0,0,0,,President Yashiro's metallic fan.
+Dialogue: 0,0:37:23.43,0:37:25.59,Dialogue,,0,0,0,,Why would it be in a place like this?
+Dialogue: 0,0:37:30.14,0:37:30.99,Dialogue,,0,0,0,,No one's here.
+Dialogue: 0,0:37:30.99,0:37:33.86,Dialogue,,0,0,0,,Mouri{\rHonorifics - Dialogue}-san{\r}! The captain said that the police...
+Dialogue: 0,0:37:36.43,0:37:38.77,Dialogue,,0,0,0,,This is President Yashiro's room.
+Dialogue: 0,0:37:38.95,0:37:41.90,Dialogue,,0,0,0,,Yeah, I heard from Uruashi Shimai earlier.
+Dialogue: 0,0:37:42.94,0:37:46.28,Dialogue,,0,0,0,,Come to think of it, someone came out of this room.
+Dialogue: 0,0:37:46.76,0:37:48.17,Dialogue,,0,0,0,,Who?
+Dialogue: 0,0:37:48.52,0:37:50.05,Dialogue,,0,0,0,,I didn't see the person's face...
+Dialogue: 0,0:37:51.14,0:37:54.54,Dialogue,,0,0,0,,Whoever it was wore a windbreaker and a hood...
+Dialogue: 0,0:37:55.02,0:37:56.12,Dialogue,,0,0,0,,What time?
+Dialogue: 0,0:37:56.37,0:37:59.26,Dialogue,,0,0,0,,I think it was about 10:15 A.M.
+Dialogue: 0,0:37:59.26,0:38:00.75,Dialogue,,0,0,0,,Really, Mouri{\rHonorifics - Dialogue}-san{\r}?
+Dialogue: 0,0:38:01.37,0:38:05.63,Dialogue,,0,0,0,,That's strange. Neither of them wear a windbreaker,
+Dialogue: 0,0:38:06.12,0:38:09.81,Dialogue,,0,0,0,,And at that time, only Chief Takae should have been here.
+Dialogue: 0,0:38:13.10,0:38:16.47,Dialogue,,0,0,0,,Hey. Wearing a windbreaker hood in the hallway,
+Dialogue: 0,0:38:16.47,0:38:19.31,Dialogue,,0,0,0,,isn't that like the person was\Ntrying to hide his or her face?
+Dialogue: 0,0:38:20.65,0:38:22.47,Dialogue,,0,0,0,,Could something have happened to the Chief?
+Dialogue: 0,0:38:22.47,0:38:25.70,Dialogue,,0,0,0,,Chief! It's Tsujimoto. Chief!
+Dialogue: 0,0:38:25.70,0:38:27.88,Dialogue,,0,0,0,,Hey, you have a master key, right?
+Dialogue: 0,0:38:27.88,0:38:28.88,Dialogue,,0,0,0,,But...
+Dialogue: 0,0:38:28.88,0:38:30.37,Dialogue,,0,0,0,,Chief, excuse me for intruding.
+Dialogue: 0,0:38:39.10,0:38:39.88,Dialogue,,0,0,0,,Chief!
+Dialogue: 0,0:38:39.88,0:38:41.78,Dialogue,,0,0,0,,Don't move! Stay here.
+Dialogue: 0,0:38:51.41,0:38:52.52,Dialogue,,0,0,0,,That can't be...
+Dialogue: 0,0:38:52.52,0:38:53.72,Dialogue,,0,0,0,,Who in the world...
+Dialogue: 0,0:38:53.72,0:38:57.02,Dialogue,,0,0,0,,About 30 minutes have passed since she died.
+Dialogue: 0,0:38:57.02,0:38:58.50,Dialogue,,0,0,0,,I'll go and tell the captain.
+Dialogue: 0,0:38:58.50,0:39:00.18,Dialogue,,0,0,0,,I'll go to the President.
+Dialogue: 0,0:39:02.58,0:39:05.61,Dialogue,,0,0,0,,It looks like she was stabbed\Nwhen she came out of the bathroom.
+Dialogue: 0,0:39:12.27,0:39:14.56,Thoughts,,0,0,0,,{\be10}The blood on this side has been wiped clean.
+Dialogue: 0,0:39:14.56,0:39:15.55,Thoughts,,0,0,0,,{\be10}But why?
+Dialogue: 0,0:39:16.41,0:39:17.79,Thoughts,,0,0,0,,{\be10}Why only the blood on this side...
+Dialogue: 0,0:39:20.52,0:39:22.13,Dialogue,,0,0,0,,What the heck are you doing?
+Dialogue: 0,0:39:23.59,0:39:24.50,Dialogue,,0,0,0,,Ouch...
+Dialogue: 0,0:39:25.03,0:39:25.88,Dialogue,,0,0,0,,Geez.
+Dialogue: 0,0:39:26.31,0:39:27.40,Dialogue,,0,0,0,,Mouri{\rHonorifics - Dialogue}-san{\r}!
+Dialogue: 0,0:39:28.66,0:39:30.44,Dialogue,,0,0,0,,About President Yashiro.
+Dialogue: 0,0:39:30.44,0:39:33.89,Dialogue,,0,0,0,,Niemi{\rHonorifics - Dialogue}-san{\r} says he never came back\Nafter he left the billiard room.
+Dialogue: 0,0:39:34.23,0:39:35.85,Dialogue,,0,0,0,,What?!
+Dialogue: 0,0:39:37.11,0:39:42.19,Dialogue,,0,0,0,,President Yashiro may have gotten\Ninto some trouble as well.
+Dialogue: 0,0:40:04.31,0:40:05.22,Dialogue,,0,0,0,,Thanks for coming.
+Dialogue: 0,0:40:05.22,0:40:06.05,Dialogue,,0,0,0,,Mouri{\rHonorifics - Dialogue}-san{\r}.
+Dialogue: 0,0:40:06.05,0:40:07.99,Dialogue,,0,0,0,,Thank you for coming, Chief Inspector.
+Dialogue: 0,0:40:08.83,0:40:10.46,Dialogue,,0,0,0,,Have you located President Yashiro?
+Dialogue: 0,0:40:10.46,0:40:12.68,Dialogue,,0,0,0,,We still don't know where he is.
+Dialogue: 0,0:40:12.68,0:40:16.64,Dialogue,,0,0,0,,The crew split up and searched the entire ship, but...
+Dialogue: 0,0:40:16.92,0:40:21.89,Dialogue,,0,0,0,,In the air or on the waters, cases follow\Nyou wherever you go, Mouri{\rHonorifics - Dialogue}-san{\r}.
+Dialogue: 0,0:40:22.09,0:40:23.72,Dialogue,,0,0,0,,Will it be space next time?
+Dialogue: 0,0:40:23.72,0:40:25.19,Dialogue,,0,0,0,,Going to get on some rocket?
+Dialogue: 0,0:40:25.50,0:40:27.57,Dialogue,,0,0,0,,Of course not!
+Dialogue: 0,0:40:44.27,0:40:46.84,Dialogue,,0,0,0,,What? The President's fingerprints?
+Dialogue: 0,0:40:47.07,0:40:52.30,Dialogue,,0,0,0,,Yes, they were focused around the area where traces of blood were discovered at the marina.
+Dialogue: 0,0:40:52.30,0:40:57.97,Dialogue,,0,0,0,,Of course, the blood found on the exit door also matched that of President Yashiro.
+Dialogue: 0,0:40:58.24,0:41:01.98,Dialogue,,0,0,0,,Thank you. Keep up the good work.
+Dialogue: 0,0:41:01.98,0:41:03.30,Dialogue,,0,0,0,,Also, Chief Inspector.
+Dialogue: 0,0:41:03.30,0:41:05.67,Dialogue,,0,0,0,,According to the marina employees,
+Dialogue: 0,0:41:05.67,0:41:09.92,Dialogue,,0,0,0,,Those doors appeared to have been opened.
+Dialogue: 0,0:41:09.92,0:41:11.28,Dialogue,,0,0,0,,Furthermore, they were opened recently.
+Dialogue: 0,0:41:11.51,0:41:12.36,Dialogue,,0,0,0,,What?
+Dialogue: 0,0:41:14.27,0:41:17.84,Dialogue,,0,0,0,,The fingerprints, the traces of blood, the door's lock.
+Dialogue: 0,0:41:18.31,0:41:20.10,Dialogue,,0,0,0,,Chief Inspector, this looks like...
+Dialogue: 0,0:41:20.10,0:41:24.48,Dialogue,,0,0,0,,It looks like President Yashiro was\Nattacked by someone in the marina,
+Dialogue: 0,0:41:24.48,0:41:27.33,Dialogue,,0,0,0,,And was thrown into the ocean through the door.
+Dialogue: 0,0:41:28.00,0:41:30.30,Dialogue,,0,0,0,,I believe we can safely assume that.
+Dialogue: 0,0:41:30.46,0:41:32.00,Dialogue,,0,0,0,,Indeed.
+Dialogue: 0,0:41:32.00,0:41:37.14,Dialogue,,0,0,0,,Shiratori{\rHonorifics - Dialogue}-kun{\r}, contact the coast guard\Nand ask for a sweep of the immediate area.
+Dialogue: 0,0:41:37.14,0:41:38.31,Dialogue,,0,0,0,,Understood.
+Dialogue: 0,0:41:38.31,0:41:39.24,Dialogue,,0,0,0,,Takagi{\rHonorifics - Dialogue}-kun{\r}.
+Dialogue: 0,0:41:39.24,0:41:40.06,Dialogue,,0,0,0,,Yes.
+Dialogue: 0,0:41:40.35,0:41:42.85,Dialogue,,0,0,0,,I want to talk to the Niemi couple as well.
+Dialogue: 0,0:41:42.85,0:41:43.81,Dialogue,,0,0,0,,Bring them to me.
+Dialogue: 0,0:41:43.81,0:41:44.40,Dialogue,,0,0,0,,Yes, sir.
+Dialogue: 0,0:41:47.60,0:41:49.28,Dialogue,,0,0,0,,Now then, Conan{\rHonorifics - Dialogue}-kun{\r}.
+Dialogue: 0,0:41:49.28,0:41:50.32,Dialogue,,0,0,0,,Yes?
+Dialogue: 0,0:41:50.57,0:41:52.52,Dialogue,,0,0,0,,Leave the rest to us.
+Dialogue: 0,0:41:52.52,0:41:54.19,Dialogue,,0,0,0,,I want you to return to your room.
+Dialogue: 0,0:41:54.57,0:41:57.73,Dialogue,,0,0,0,,Don't go outside unnecessarily.
+Dialogue: 0,0:41:57.73,0:42:01.16,Dialogue,,0,0,0,,There's a high chance that the murderer is still on this ship.
+Dialogue: 0,0:42:01.41,0:42:02.75,Dialogue,,0,0,0,,Okay.
+Dialogue: 0,0:42:09.94,0:42:11.77,Dialogue,,0,0,0,,Wow, there's a cake, too!
+Dialogue: 0,0:42:11.77,0:42:13.39,Dialogue,,0,0,0,,It looks delicious.
+Dialogue: 0,0:42:15.30,0:42:17.22,Dialogue,,0,0,0,,Roast beef...
+Dialogue: 0,0:42:20.86,0:42:23.04,Dialogue,,0,0,0,,I suppose occasionally it's fine...
+Dialogue: 0,0:42:25.87,0:42:27.26,Dialogue,,0,0,0,,Not even occasionally.
+Dialogue: 0,0:42:28.62,0:42:29.76,Dialogue,,0,0,0,,Oh Professor,
+Dialogue: 0,0:42:29.76,0:42:32.96,Dialogue,,0,0,0,,Should we bring Ran{\rHonorifics - Dialogue}-san{\r}\Nand Sonoko{\rHonorifics - Dialogue}-san{\r}'s meals too?
+Dialogue: 0,0:42:33.20,0:42:35.19,Dialogue,,0,0,0,,I'm sure they're hungry, too.
+Dialogue: 0,0:42:35.43,0:42:38.95,Dialogue,,0,0,0,,No, we should let the doctors take care of Sonoko{\rHonorifics - Dialogue}-kun{\r}.
+Dialogue: 0,0:42:39.29,0:42:42.98,Dialogue,,0,0,0,,Ran{\rHonorifics - Dialogue}-oneesan{\r} said that she would eat\Nlater so don't worry about it.
+Dialogue: 0,0:42:42.98,0:42:44.14,Dialogue,,0,0,0,,I see...
+Dialogue: 0,0:42:44.14,0:42:45.49,Dialogue,,0,0,0,,Hey Mitsuhiko,
+Dialogue: 0,0:42:45.49,0:42:47.16,Dialogue,,0,0,0,,do you think she found the gold medal?
+Dialogue: 0,0:42:47.54,0:42:50.11,Dialogue,,0,0,0,,I don't think Ran{\rHonorifics - Dialogue}-san{\r} has had the time\Nto think about something like that.
+Dialogue: 0,0:42:50.11,0:42:51.25,Dialogue,,0,0,0,,I thought so...
+Dialogue: 0,0:42:51.25,0:42:53.05,Dialogue,,0,0,0,,Where's Conan{\rHonorifics - Dialogue}-kun{\r}?
+Dialogue: 0,0:42:53.33,0:42:55.38,Dialogue,,0,0,0,,Come to think of it, he's not here.
+Dialogue: 0,0:42:55.79,0:43:00.09,Dialogue,,0,0,0,,Maybe he sneaked out to listen\Nto the police investigation!
+Dialogue: 0,0:43:00.45,0:43:02.10,Dialogue,,0,0,0,,Probably.
+Dialogue: 0,0:43:02.10,0:43:05.47,Dialogue,,0,0,0,,It seems he's good at that kind of hide and seek
+Dialogue: 0,0:43:05.85,0:43:08.10,Dialogue,,0,0,0,,Thank you for your cooperation.
+Dialogue: 0,0:43:08.99,0:43:12.98,Dialogue,,0,0,0,,I probably don't need to say this,\Nbut please catch the culprit as soon as possible.
+Dialogue: 0,0:43:12.98,0:43:13.74,Dialogue,,0,0,0,,Yes, sir!
+Dialogue: 0,0:43:20.31,0:43:21.49,Dialogue,,0,0,0,,Now, then.
+Dialogue: 0,0:43:22.00,0:43:27.50,Dialogue,,0,0,0,,If we assume that Chief Takae was murdered right after she returned to her room from her squash game and took a bath,
+Dialogue: 0,0:43:27.95,0:43:34.55,Dialogue,,0,0,0,,I believe we can safely say that the person wearing the windbreaker that Mouri{\rHonorifics - Dialogue}-kun{\r} saw leaving her room was the culprit.
+Dialogue: 0,0:43:35.40,0:43:39.97,Dialogue,,0,0,0,,If that culprit went down to the basement marina afterwards,
+Dialogue: 0,0:43:39.97,0:43:43.97,Dialogue,,0,0,0,,and murdered President Yashiro,\Nwho got called out earlier...
+Dialogue: 0,0:43:44.25,0:43:46.43,Dialogue,,0,0,0,,Then it would be just right time-wise as well.
+Dialogue: 0,0:43:46.43,0:43:52.41,Dialogue,,0,0,0,,Meaning that these two cases were most likely done by the same individual.
+Dialogue: 0,0:43:55.03,0:43:57.57,Dialogue,,0,0,0,,Mouri{\rHonorifics - Dialogue}-kun{\r}, what about the culprit's characteristics?
+Dialogue: 0,0:43:57.94,0:44:00.78,Dialogue,,0,0,0,,The height was about 170 cm.
+Dialogue: 0,0:44:00.78,0:44:02.95,Dialogue,,0,0,0,,And it was a fairly skinny individual.
+Dialogue: 0,0:44:03.26,0:44:07.42,Dialogue,,0,0,0,,With just the height, we can't be certain whether it was a male or female.
+Dialogue: 0,0:44:07.42,0:44:12.70,Dialogue,,0,0,0,,Come to think of it, the murdered Chief Takae\Nwas about the same height as well.
+Dialogue: 0,0:44:14.06,0:44:16.26,Dialogue,,0,0,0,,Tsujimoto{\rHonorifics - Dialogue}-san{\r}, is that the...
+Dialogue: 0,0:44:16.26,0:44:16.84,Dialogue,,0,0,0,,Yes.
+Dialogue: 0,0:44:17.28,0:44:21.72,Dialogue,,0,0,0,,As a complimentary item for being on\Nthis ship, we gave one to each guest.
+Dialogue: 0,0:44:21.87,0:44:26.65,Dialogue,,0,0,0,,But if they really wanted to, the crew\Ncould have gotten a hold of one, right?
+Dialogue: 0,0:44:27.94,0:44:30.78,Dialogue,,0,0,0,,Shiratori{\rHonorifics - Dialogue}-kun{\r}, what about the culprit's motives?
+Dialogue: 0,0:44:30.78,0:44:33.44,Dialogue,,0,0,0,,I believe we can say it was a grudge.
+Dialogue: 0,0:44:33.98,0:44:37.32,Dialogue,,0,0,0,,The victim's jewelry and wallet were never touched.
+Dialogue: 0,0:44:37.80,0:44:41.45,Dialogue,,0,0,0,,There was no trace of the lock being picked.
+Dialogue: 0,0:44:41.45,0:44:44.82,Dialogue,,0,0,0,,Either the victim herself invited the culprit in,
+Dialogue: 0,0:44:45.34,0:44:49.29,Dialogue,,0,0,0,,or the culprit used a master key of some sort and sneaked in.
+Dialogue: 0,0:44:49.29,0:44:52.82,Dialogue,,0,0,0,,Misaki{\rHonorifics - Dialogue}-san{\r}, who holds the master keys?
+Dialogue: 0,0:44:52.82,0:44:54.83,Dialogue,,0,0,0,,There are quite a few.
+Dialogue: 0,0:44:55.22,0:44:57.32,Dialogue,,0,0,0,,I, of course, as a security officer.
+Dialogue: 0,0:44:57.32,0:44:59.07,Dialogue,,0,0,0,,The house assistant, Natsuho{\rHonorifics - Dialogue}-kun{\r}.
+Dialogue: 0,0:44:59.07,0:45:03.22,Dialogue,,0,0,0,,And the chief cabin attendants all have one.
+Dialogue: 0,0:45:03.57,0:45:04.98,Dialogue,,0,0,0,,I see...
+Dialogue: 0,0:45:04.98,0:45:09.43,Dialogue,,0,0,0,,Chief Inspector, the culprit targeted the victim when she was alone.
+Dialogue: 0,0:45:09.90,0:45:14.44,Dialogue,,0,0,0,,If that's the case, then perhaps the culprit knew the victim's schedule.
+Dialogue: 0,0:45:16.75,0:45:21.76,Dialogue,,0,0,0,,Tsujimoto{\rHonorifics - Dialogue}-san{\r}, you arranged their schedules, is that right?
+Dialogue: 0,0:45:21.76,0:45:22.49,Dialogue,,0,0,0,,Yes.
+Dialogue: 0,0:45:23.07,0:45:26.08,Dialogue,,0,0,0,,Who else knew about them?
+Dialogue: 0,0:45:26.08,0:45:28.93,Dialogue,,0,0,0,,I told the chief purser, Misaki{\rHonorifics - Dialogue}-san{\r},
+Dialogue: 0,0:45:29.44,0:45:31.37,Dialogue,,0,0,0,,but never told anyone else.
+Dialogue: 0,0:45:33.13,0:45:33.87,Dialogue,,0,0,0,,Meaning,
+Dialogue: 0,0:45:34.26,0:45:37.04,Dialogue,,0,0,0,,if you were 10 cm taller,
+Dialogue: 0,0:45:37.04,0:45:39.79,Dialogue,,0,0,0,,or if Misaki{\rHonorifics - Dialogue}-san{\r}'s weight was 10 kg less,
+Dialogue: 0,0:45:39.79,0:45:41.97,Dialogue,,0,0,0,,one of you would have become the prime suspect.
+Dialogue: 0,0:45:44.00,0:45:45.61,Dialogue,,0,0,0,,Also, one more thing.
+Dialogue: 0,0:45:45.61,0:45:50.56,Dialogue,,0,0,0,,Whether Sonoko{\rHonorifics - Dialogue}-kun{\r}'s case has\Nanything to do with these two cases.
+Dialogue: 0,0:45:52.05,0:45:57.86,Dialogue,,0,0,0,,But to pass by someone who may have been the culprit and not to have seen their face...
+Dialogue: 0,0:45:58.57,0:46:00.42,Dialogue,,0,0,0,,I'm very sorry.
+Dialogue: 0,0:46:00.42,0:46:02.23,Dialogue,,0,0,0,,Anyhow, Chief Inspector...
+Dialogue: 0,0:46:02.23,0:46:04.42,Dialogue,,0,0,0,,This place is a closed room above the ocean.
+Dialogue: 0,0:46:04.42,0:46:07.41,Dialogue,,0,0,0,,The murderer is definitely somewhere on this ship.
+Dialogue: 0,0:46:07.75,0:46:12.66,Dialogue,,0,0,0,,The crew and the guests, all together,\Nit's only 600 suspects, right?
+Dialogue: 0,0:46:14.55,0:46:15.97,Dialogue,,0,0,0,,Anyway, Takagi{\rHonorifics - Dialogue}-kun{\r},
+Dialogue: 0,0:46:15.97,0:46:19.02,Dialogue,,0,0,0,,continue your questioning with\Nthe guests and find a witness.
+Dialogue: 0,0:46:19.02,0:46:19.86,Dialogue,,0,0,0,,Yes, sir!
+Dialogue: 0,0:46:20.26,0:46:21.88,Dialogue,,0,0,0,,Misaki{\rHonorifics - Dialogue}-san{\r} and Tsujimoto{\rHonorifics - Dialogue}-san{\r},
+Dialogue: 0,0:46:22.35,0:46:25.09,Dialogue,,0,0,0,,Please tell us thoroughly about\Neach guest and crew member.
+Dialogue: 0,0:46:25.09,0:46:26.37,Dialogue,,0,0,0,,Understood.
+Dialogue: 0,0:46:28.47,0:46:31.22,Thoughts,,0,0,0,,{\be10}It's exactly as Officer Shiratori said.
+Dialogue: 0,0:46:31.22,0:46:34.32,Thoughts,,0,0,0,,{\be10}The culprit knew about the Yashiro family's schedule.
+Dialogue: 0,0:46:35.55,0:46:38.22,Thoughts,,0,0,0,,{\be10}Natsuho{\rHonorifics - Thoughts\be10}-san{\r\be10} says she didn't tell anyone.
+Dialogue: 0,0:46:39.54,0:46:40.81,Thoughts,,0,0,0,,{\be10}That's...
+Dialogue: 0,0:46:41.41,0:46:44.32,Thoughts,,0,0,0,,{\be10}I see! If one used that...
+Dialogue: 0,0:46:45.04,0:46:48.28,Dialogue,,0,0,0,,Hey, hey! I have something to ask you, Oneesan.
+Dialogue: 0,0:46:49.05,0:46:50.04,Dialogue,,0,0,0,,Conan{\rHonorifics - Dialogue}-kun{\r}?
+Dialogue: 0,0:46:50.04,0:46:52.66,Dialogue,,0,0,0,,Hey! Where did you come from?
+Dialogue: 0,0:46:57.16,0:47:01.60,Dialogue,,0,0,0,,Last night, didn't you talk about today's schedule in the President's room?
+Dialogue: 0,0:47:01.60,0:47:06.72,Dialogue,,0,0,0,,Yes, after we had dinner and\Ncame back to the suite.
+Dialogue: 0,0:47:06.98,0:47:11.40,Dialogue,,0,0,0,,Then, was there any time yesterday\Nwhen no one was in the President's room?
+Dialogue: 0,0:47:11.40,0:47:18.66,Dialogue,,0,0,0,,Let's see, yesterday, President Yashiro said\Nhe was tired, so he was resting until dinner...
+Dialogue: 0,0:47:18.66,0:47:21.73,Dialogue,,0,0,0,,The only time the room was empty was during dinner.
+Dialogue: 0,0:47:22.05,0:47:23.27,Thoughts,,0,0,0,,{\be10}I see...
+Dialogue: 0,0:47:23.27,0:47:25.20,Dialogue,,0,0,0,,You little!
+Dialogue: 0,0:47:26.04,0:47:29.86,Dialogue,,0,0,0,,You were listening to the conversation, weren't you?
+Dialogue: 0,0:47:32.30,0:47:34.62,Dialogue,,0,0,0,,Ouch!
+Dialogue: 0,0:47:35.68,0:47:38.96,Dialogue,,0,0,0,,Misaki{\rHonorifics - Dialogue}-san{\r}, was there anyone\Nthat didn't show up to dinner?
+Dialogue: 0,0:47:39.35,0:47:42.46,Dialogue,,0,0,0,,No, I believe everyone came.
+Dialogue: 0,0:47:44.02,0:47:46.46,Thoughts,,0,0,0,,{\be10}Then the culprit should be one of the crew members.
+Dialogue: 0,0:47:48.36,0:47:52.43,Flashback,,0,0,0,,{\be10}Sorry, I'm going to leave now and rest in my room.
+Dialogue: 0,0:47:55.08,0:47:58.73,Dialogue,,0,0,0,,Hey, have you ever participated\Nin Kusaka{\rHonorifics - Dialogue}-san{\r}'s research?
+Dialogue: 0,0:47:59.06,0:48:02.10,Dialogue,,0,0,0,,Kusaka Hironari{\rHonorifics - Dialogue}-san{\r}? Yes, I have.
+Dialogue: 0,0:48:02.10,0:48:05.70,Dialogue,,0,0,0,,Did a master key go missing after that by any chance?
+Dialogue: 0,0:48:06.82,0:48:09.82,Dialogue,,0,0,0,,Enough already, of course not!
+Dialogue: 0,0:48:10.35,0:48:15.99,Dialogue,,0,0,0,,Actually, about three weeks ago,\Nwe realized that one had gone missing.
+Dialogue: 0,0:48:15.99,0:48:17.24,Dialogue,,0,0,0,,What... There is...?
+Dialogue: 0,0:48:17.48,0:48:22.00,Dialogue,,0,0,0,,Further more, it was right after I participated in Kusaka{\rHonorifics - Dialogue}-san{\r}'s research, just as Conan{\rHonorifics - Dialogue}-kun{\r} said.
+Dialogue: 0,0:48:22.00,0:48:26.63,Dialogue,,0,0,0,,Hold on. Who is this Kusaka{\rHonorifics - Dialogue}-san{\r}?
+Dialogue: 0,0:48:26.80,0:48:30.63,Dialogue,,0,0,0,,He's a script writer who has come here for research purposes a few times.
+Dialogue: 0,0:48:30.87,0:48:32.33,Dialogue,,0,0,0,,I see...
+Dialogue: 0,0:48:32.33,0:48:36.35,Dialogue,,0,0,0,,So, Conan{\rHonorifics - Dialogue}-kun{\r}. Are there any\Nsuspicious points to that person?
+Dialogue: 0,0:48:36.35,0:48:40.50,Dialogue,,0,0,0,,Yeah. Kusaka{\rHonorifics - Dialogue}-san{\r} returned to\Nhis room in the middle of dinner.
+Dialogue: 0,0:48:40.50,0:48:42.23,Dialogue,,0,0,0,,Saying he got seasick.
+Dialogue: 0,0:48:42.49,0:48:47.54,Dialogue,,0,0,0,,But maybe he was hiding in the\NPresident's room and eavesdropping.
+Dialogue: 0,0:48:47.54,0:48:51.74,Dialogue,,0,0,0,,Idiot. He's not a kid, so he won't do\Nsome hide and seek stuff like that...
+Dialogue: 0,0:48:51.93,0:48:53.03,Dialogue,,0,0,0,,Wire tapping.
+Dialogue: 0,0:48:55.17,0:48:59.13,Dialogue,,0,0,0,,Maybe he left a tapping device in the President's room.
+Dialogue: 0,0:48:59.13,0:49:04.21,Dialogue,,0,0,0,,I see, how about it, Mouri{\rHonorifics - Dialogue}-kun{\r}?\NWhat's Kusaka{\rHonorifics - Dialogue}-san{\r}'s physical stature?
+Dialogue: 0,0:49:04.76,0:49:08.00,Dialogue,,0,0,0,,Now that you mention it,\Nit does resemble the culprit's.
+Dialogue: 0,0:49:08.26,0:49:10.96,Dialogue,,0,0,0,,All right, let's go to see Kusaka{\rHonorifics - Dialogue}-san{\r}.
+Dialogue: 0,0:49:16.31,0:49:18.97,Dialogue,,0,0,0,,I see, a tapping device.
+Dialogue: 0,0:49:19.58,0:49:22.39,Dialogue,,0,0,0,,You're indeed the great detective Mouri Kogorou.
+Dialogue: 0,0:49:22.75,0:49:26.40,Dialogue,,0,0,0,,Actually, this time it was thanks to Conan{\rHonorifics - Dialogue}-kun{\r}'s idea,
+Dialogue: 0,0:49:26.63,0:49:28.39,Dialogue,,0,0,0,,And we did a bit of reasoning.
+Dialogue: 0,0:49:29.40,0:49:31.71,Dialogue,,0,0,0,,Really?
+Dialogue: 0,0:49:31.71,0:49:33.78,Dialogue,,0,0,0,,But that reasoning is wrong.
+Dialogue: 0,0:49:34.03,0:49:36.55,Dialogue,,0,0,0,,Around 10:15 A.M.,
+Dialogue: 0,0:49:36.55,0:49:39.39,Dialogue,,0,0,0,,I was on the phone with Minako{\rHonorifics - Dialogue}-san{\r} in this room.
+Dialogue: 0,0:49:40.53,0:49:42.58,Dialogue,,0,0,0,,You mean the designer Minako{\rHonorifics - Dialogue}-san{\r}?
+Dialogue: 0,0:49:42.99,0:49:47.56,Dialogue,,0,0,0,,Yes, because we're on the ocean,\NI couldn't use my cell phone.
+Dialogue: 0,0:49:47.56,0:49:48.63,Dialogue,,0,0,0,,So I was using this phone right here.
+Dialogue: 0,0:49:49.05,0:49:50.63,Dialogue,,0,0,0,,The exact time you were on the phone?
+Dialogue: 0,0:49:50.91,0:49:54.38,Dialogue,,0,0,0,,Let's see, from about 10:00 until 10:30 A.M.
+Dialogue: 0,0:49:54.85,0:49:56.64,Dialogue,,0,0,0,,If you check the calling record,
+Dialogue: 0,0:49:56.64,0:49:59.08,Dialogue,,0,0,0,,I think you'll get the exact time.
+Dialogue: 0,0:50:00.16,0:50:02.46,Dialogue,,0,0,0,,And what was the phone call about?
+Dialogue: 0,0:50:03.01,0:50:04.43,Dialogue,,0,0,0,,If you don't mind.
+Dialogue: 0,0:50:05.45,0:50:09.19,Dialogue,,0,0,0,,I was done with the script draft,\Nso I thought of having her listen to it.
+Dialogue: 0,0:50:09.39,0:50:10.83,Dialogue,,0,0,0,,The script draft?
+Dialogue: 0,0:50:11.19,0:50:16.03,Dialogue,,0,0,0,,Yes, the draft for a drama series\Nset on an luxury cruise liner.
+Dialogue: 0,0:50:16.34,0:50:19.49,Dialogue,,0,0,0,,I've been receiving advise from her about cruise ships.
+Dialogue: 0,0:50:28.81,0:50:31.13,Dialogue,,0,0,0,,Cruising Love Story?
+Dialogue: 0,0:50:31.85,0:50:33.86,Dialogue,,0,0,0,,I specifically asked for an open room alone,
+Dialogue: 0,0:50:33.86,0:50:37.59,Dialogue,,0,0,0,,so that I could finish this without\Nbeing disturbed by anyone else.
+Dialogue: 0,0:50:37.88,0:50:41.01,Dialogue,,0,0,0,,But why didn't you see her\Nin person and talk to her about it?
+Dialogue: 0,0:50:41.01,0:50:42.78,Dialogue,,0,0,0,,You're both on the same ship.
+Dialogue: 0,0:50:43.16,0:50:47.27,Dialogue,,0,0,0,,She's still single, so to go to her room is a little...
+Dialogue: 0,0:50:47.82,0:50:51.82,Dialogue,,0,0,0,,And at a cafe or a lounge,\Nthere is a chance someone will hear us.
+Dialogue: 0,0:50:52.44,0:50:56.19,Dialogue,,0,0,0,,It happens a lot in my career.\NStealing ideas, I mean.
+Dialogue: 0,0:50:56.44,0:50:58.15,Dialogue,,0,0,0,,I see...
+Dialogue: 0,0:51:03.28,0:51:06.62,Dialogue,,0,0,0,,From what I can see, Kusaka{\rHonorifics - Dialogue}-san{\r} is clear.
+Dialogue: 0,0:51:07.03,0:51:11.08,Dialogue,,0,0,0,,We don't know yet, not until we can confirm his alibi.
+Dialogue: 0,0:51:20.82,0:51:22.30,Dialogue,,0,0,0,,What's wrong, Mouri{\rHonorifics - Dialogue}-san{\r}?
+Dialogue: 0,0:51:24.38,0:51:26.61,Dialogue,,0,0,0,,He was probably caught on that lady there.
+Dialogue: 0,0:51:26.61,0:51:28.44,Dialogue,,0,0,0,,She was pretty cute, so...
+Dialogue: 0,0:51:35.11,0:51:37.86,Dialogue,,0,0,0,,I heard about the case from Misaki{\rHonorifics - Dialogue}-san{\r}.
+Dialogue: 0,0:51:38.26,0:51:42.12,Dialogue,,0,0,0,,It's true that at precisely 10:00 A.M.,\NI received a call from Kusaka{\rHonorifics - Dialogue}-san{\r}.
+Dialogue: 0,0:51:42.12,0:51:44.11,Dialogue,,0,0,0,,And we talked for about 30 minutes.
+Dialogue: 0,0:51:45.09,0:51:48.02,Dialogue,,0,0,0,,He's been asking me to review his work,
+Dialogue: 0,0:51:48.02,0:51:49.99,Dialogue,,0,0,0,,So this morning, during tea time,
+Dialogue: 0,0:51:49.99,0:51:53.59,Dialogue,,0,0,0,,He said, "The story will be finished soon,\Nso I want to hear what you think about it".
+Dialogue: 0,0:51:53.97,0:51:58.09,Dialogue,,0,0,0,,"I'll call you at 10:00 A.M.,\Nso please be in your room at that time."
+Dialogue: 0,0:51:58.54,0:52:02.46,Dialogue,,0,0,0,,I see. Well, as long as we can confirm that.
+Dialogue: 0,0:52:02.46,0:52:04.05,Dialogue,,0,0,0,,Sorry to bother you.
+Dialogue: 0,0:52:15.39,0:52:18.32,Dialogue,,0,0,0,,I guess Mr. Kusaka's alibi is confirmed.
+Dialogue: 0,0:52:18.32,0:52:21.82,Dialogue,,0,0,0,,Yes, as long as the two aren't working together.
+Dialogue: 0,0:52:22.21,0:52:24.95,Dialogue,,0,0,0,,The phone isn't wireless in their rooms.
+Dialogue: 0,0:52:25.27,0:52:28.95,Dialogue,,0,0,0,,It's impossible to commit the crime as they talk on the phone.
+Dialogue: 0,0:52:33.03,0:52:34.54,Dialogue,,0,0,0,,What's up, Mouri{\rHonorifics - Dialogue}-san{\r}?
+Dialogue: 0,0:52:36.33,0:52:38.84,Dialogue,,0,0,0,,You were probably thinking about Minako{\rHonorifics - Dialogue}-san{\r}, right?
+Dialogue: 0,0:52:38.84,0:52:41.01,Dialogue,,0,0,0,,She's pretty good looking, too.
+Dialogue: 0,0:52:45.51,0:52:47.47,Dialogue,,0,0,0,,- From the above...\N- Tome{\rHonorifics - Dialogue}-san{\r}.
+Dialogue: 0,0:52:47.47,0:52:48.86,Dialogue,,0,0,0,,Chief Inspector Megure.
+Dialogue: 0,0:52:48.86,0:52:49.97,Dialogue,,0,0,0,,How is it?
+Dialogue: 0,0:52:50.31,0:52:52.09,Dialogue,,0,0,0,,We've finished going over it once,
+Dialogue: 0,0:52:52.09,0:52:54.33,Dialogue,,0,0,0,,But there isn't really anything that jumps out.
+Dialogue: 0,0:52:54.33,0:52:55.61,Dialogue,,0,0,0,,I see.
+Dialogue: 0,0:52:55.82,0:53:01.57,Dialogue,,0,0,0,,Just that there were traces of a reddish yellow substance that were wiped off on the floor near the body.
+Dialogue: 0,0:53:01.57,0:53:03.36,Dialogue,,0,0,0,,A reddish-yellow substance?
+Dialogue: 0,0:53:03.71,0:53:06.03,Dialogue,,0,0,0,,Hey, Tome{\rHonorifics - Dialogue}-san{\r}, that wasn't blood?
+Dialogue: 0,0:53:06.35,0:53:10.62,Dialogue,,0,0,0,,No. It's got the same color,\Nbut it didn't respond like blood.
+Dialogue: 0,0:53:10.95,0:53:12.29,Thoughts,,0,0,0,,{\be10}Then what was it?
+Dialogue: 0,0:53:14.03,0:53:15.12,Dialogue,,0,0,0,,Chief Inspector Megure.
+Dialogue: 0,0:53:16.33,0:53:20.05,Dialogue,,0,0,0,,I've talked to all the guests and\Ncrew members on the sixth floor,
+Dialogue: 0,0:53:20.50,0:53:22.75,Dialogue,,0,0,0,,But still haven't found any witnesses.
+Dialogue: 0,0:53:22.75,0:53:24.25,Dialogue,,0,0,0,,I see...
+Dialogue: 0,0:53:25.34,0:53:28.05,Dialogue,,0,0,0,,The welcome party starts at 5:00 P.M.
+Dialogue: 0,0:53:28.46,0:53:32.95,Dialogue,,0,0,0,,Let's split up and ask the other\Nguests on the ship as well.
+Dialogue: 0,0:53:32.95,0:53:33.56,Dialogue,,0,0,0,,Yes, sir!
+Dialogue: 0,0:53:33.56,0:53:35.41,Dialogue,,0,0,0,,Well then, Chief Inspector.
+Dialogue: 0,0:53:35.41,0:53:39.02,Dialogue,,0,0,0,,We will be heading back to HQ\Nwith the evidence we've collected.
+Dialogue: 0,0:53:39.27,0:53:41.11,Dialogue,,0,0,0,,Thanks for your work.
+Dialogue: 0,0:53:53.65,0:53:55.08,Dialogue,,0,0,0,,Oneesan.
+Dialogue: 0,0:53:56.72,0:53:59.54,Dialogue,,0,0,0,,I've been looking for you.\NCan I ask you one more question?
+Dialogue: 0,0:54:00.01,0:54:02.38,Dialogue,,0,0,0,,Sure thing, little detective.
+Dialogue: 0,0:54:02.38,0:54:03.72,Dialogue,,0,0,0,,What is it?
+Dialogue: 0,0:54:04.02,0:54:06.84,Dialogue,,0,0,0,,What was the phone call\Nbetween you and Kusaka{\rHonorifics - Dialogue}-san{\r} like?
+Dialogue: 0,0:54:06.84,0:54:14.35,Dialogue,,0,0,0,,Well... He was reading his story\Nand I was just listening.
+Dialogue: 0,0:54:14.66,0:54:16.27,Dialogue,,0,0,0,,You were just listening?
+Dialogue: 0,0:54:16.54,0:54:20.18,Dialogue,,0,0,0,,Yes. If I interrupt in the middle, he gets angry...
+Dialogue: 0,0:54:20.18,0:54:22.46,Dialogue,,0,0,0,,He would tell me, "Stay quiet and listen".
+Dialogue: 0,0:54:23.73,0:54:29.16,Dialogue,,0,0,0,,Something like that happened before,\Nso I decided not to interrupt him.
+Dialogue: 0,0:54:29.16,0:54:33.66,Dialogue,,0,0,0,,Then you were just listening silently\Nuntil he finished his story?
+Dialogue: 0,0:54:34.20,0:54:39.58,Dialogue,,0,0,0,,Yes. He finished reading his story in about\N20 minutes and asked me how it was.
+Dialogue: 0,0:54:39.96,0:54:42.19,Dialogue,,0,0,0,,So I replied it was good.
+Dialogue: 0,0:54:44.03,0:54:45.07,Dialogue,,0,0,0,,Done!
+Dialogue: 0,0:54:45.81,0:54:46.59,Dialogue,,0,0,0,,Here.
+Dialogue: 0,0:54:46.59,0:54:48.49,Dialogue,,0,0,0,,Oh... Thank you...
+Dialogue: 0,0:54:55.54,0:54:57.60,Dialogue,,0,0,0,,How are you feeling, Sonoko?
+Dialogue: 0,0:54:57.91,0:54:59.60,Dialogue,,0,0,0,,I'm fine now.
+Dialogue: 0,0:54:59.60,0:55:03.04,Dialogue,,0,0,0,,Maybe it would have been better if\Nwe hadn't played hide and seek.
+Dialogue: 0,0:55:03.04,0:55:04.73,Dialogue,,0,0,0,,Not at all.
+Dialogue: 0,0:55:04.73,0:55:06.95,Dialogue,,0,0,0,,But right before we played hide and seek, you said,
+Dialogue: 0,0:55:08.14,0:55:10.61,Dialogue,,0,0,0,,We're going to win this. Because...
+Dialogue: 0,0:55:11.32,0:55:13.28,Dialogue,,0,0,0,,What were you going to say after that?
+Dialogue: 0,0:55:14.57,0:55:17.51,Dialogue,,0,0,0,,I told you that I played hide and seek once during elementary school, right?
+Dialogue: 0,0:55:17.51,0:55:18.29,Dialogue,,0,0,0,,Yeah.
+Dialogue: 0,0:55:18.88,0:55:22.88,Dialogue,,0,0,0,,That was during the school field\Nexpansion when I was in first grade.
+Dialogue: 0,0:55:22.88,0:55:25.66,Dialogue,,0,0,0,,I invited Shinichi at the time too, but...
+Dialogue: 0,0:55:27.01,0:55:29.68,Flashback,,0,0,0,,{\be10}Shinichi, are you listening to me?
+Dialogue: 0,0:55:29.90,0:55:31.10,Flashback,,0,0,0,,{\be10}Come on, Shinichi.
+Dialogue: 0,0:55:31.10,0:55:32.61,Flashback,,0,0,0,,{\be10}Let's play hide and seek.
+Dialogue: 0,0:55:32.61,0:55:33.93,Flashback,,0,0,0,,{\be10}It's fun.
+Dialogue: 0,0:55:34.32,0:55:35.83,Flashback,,0,0,0,,{\be10}Sorry, but I'll pass.
+Dialogue: 0,0:55:36.99,0:55:38.95,Flashback,,0,0,0,,{\be10}The soccer tournament is coming up.
+Dialogue: 0,0:55:38.95,0:55:40.56,Dialogue,,0,0,0,,That spoiled brat.
+Dialogue: 0,0:55:40.94,0:55:43.44,Dialogue,,0,0,0,,He's been saying stuff like that since he was a kid?
+Dialogue: 0,0:55:43.90,0:55:46.69,Dialogue,,0,0,0,,And we decided to play without Shinichi.
+Dialogue: 0,0:55:46.69,0:55:50.45,Dialogue,,0,0,0,,But you remember how the area under the\Nstage in the gym was used as storage?
+Dialogue: 0,0:55:50.71,0:55:53.45,Dialogue,,0,0,0,,Oh, yeah! The folding chairs were stored there, right?
+Dialogue: 0,0:55:53.74,0:55:59.57,Dialogue,,0,0,0,,Yeah. And on the side of the stage, under the stairs, there was a small space there as well.
+Dialogue: 0,0:56:03.77,0:56:05.67,Dialogue,,0,0,0,,So you hid there...
+Dialogue: 0,0:56:05.89,0:56:09.40,Dialogue,,0,0,0,,Yeah. I thought that if I hid there\Nno one would ever find me.
+Dialogue: 0,0:56:09.40,0:56:14.08,Dialogue,,0,0,0,,Then the teacher who came to check things out\Nput the stairs back and I got stuck inside.
+Dialogue: 0,0:56:15.06,0:56:16.41,Dialogue,,0,0,0,,And then...?
+Dialogue: 0,0:56:16.99,0:56:19.66,Dialogue,,0,0,0,,No matter how hard everyone looked, they couldn't find me.
+Dialogue: 0,0:56:19.66,0:56:22.56,Dialogue,,0,0,0,,And I couldn't get out so I was wondering what to do.
+Dialogue: 0,0:56:22.56,0:56:25.69,Dialogue,,0,0,0,,But then, Shinichi found me easily.
+Dialogue: 0,0:56:28.40,0:56:33.59,Dialogue,,0,0,0,,On the way home, I asked him how\Nhe knew where I was and he said...
+Dialogue: 0,0:56:33.59,0:56:35.07,Flashback,,0,0,0,,{\be10}"The Demons of the School."
+Dialogue: 0,0:56:36.53,0:56:42.02,Flashback,,0,0,0,,{\be10}In that movie, the kids who hid in the school building were all eaten by the demon, right?
+Dialogue: 0,0:56:42.02,0:56:45.68,Flashback,,0,0,0,,{\be10}That means, the chance of you hiding in any of the school buildings would be zero.
+Dialogue: 0,0:56:45.68,0:56:49.80,Flashback,,0,0,0,,{\be10}Wait a sec, how did you know I watched that movie?
+Dialogue: 0,0:56:49.80,0:56:54.83,Flashback,,0,0,0,,{\be10}Every time we passed the video store,\Nyou always looked at that movie poster.
+Dialogue: 0,0:56:54.83,0:56:59.34,Flashback,,0,0,0,,{\be10}Even though you're afraid of ghosts and demons, you always watch those movies.
+Dialogue: 0,0:57:01.51,0:57:05.06,Flashback,,0,0,0,,{\be10}That means you were hiding somewhere in the outer school buildings.
+Dialogue: 0,0:57:05.06,0:57:09.98,Flashback,,0,0,0,,{\be10}You, an animal lover, wouldn't hide in the hen house where you'd scare all the chickens.
+Dialogue: 0,0:57:10.76,0:57:14.18,Flashback,,0,0,0,,{\be10}At that time, the basketball club's\Nolder students were cleaning,
+Dialogue: 0,0:57:14.18,0:57:17.79,Flashback,,0,0,0,,{\be10}So you couldn't have hid in the gym storage\Nand gotten stuck there, either.
+Dialogue: 0,0:57:17.79,0:57:20.95,Flashback,,0,0,0,,{\be10}The pool is under construction,\Nso all that's left is the gym.
+Dialogue: 0,0:57:21.60,0:57:23.96,Flashback,,0,0,0,,{\be10}That's why I thought that would be\Nthe only place you could have been.
+Dialogue: 0,0:57:24.62,0:57:29.46,Flashback,,0,0,0,,{\be10}Besides, you were looking underneath the stairs\Na while ago right before the gym class.
+Dialogue: 0,0:57:31.95,0:57:33.59,Flashback,,0,0,0,,{\be10}How's that? Are you surprised?
+Dialogue: 0,0:57:33.99,0:57:37.89,Flashback,,0,0,0,,{\be10}You're always looking after me, Shinichi.
+Dialogue: 0,0:57:39.17,0:57:41.30,Flashback,,0,0,0,,{\be10}You idiot, it's nothing like that.
+Dialogue: 0,0:57:41.73,0:57:43.56,Flashback,,0,0,0,,{\be10}Hey, your face is turning red!
+Dialogue: 0,0:57:43.85,0:57:46.85,Flashback,,0,0,0,,{\be10}What are you talking about?\NIt's just because of the sunset.
+Dialogue: 0,0:57:54.30,0:57:56.33,Dialogue,,0,0,0,,All right, I get it.
+Dialogue: 0,0:57:56.33,0:58:00.83,Dialogue,,0,0,0,,The "It's the same as that time" you said yesterday was about this, right?
+Dialogue: 0,0:58:01.88,0:58:03.57,Dialogue,,0,0,0,,Then what you were trying to say earlier was...
+Dialogue: 0,0:58:03.57,0:58:06.35,Dialogue,,0,0,0,,"We're going to win,"
+Dialogue: 0,0:58:06.35,0:58:11.19,Dialogue,,0,0,0,,"Because the only one who can find me is Shinichi," right?
+Dialogue: 0,0:58:11.19,0:58:12.88,Dialogue,,0,0,0,,It's nothing like that!
+Dialogue: 0,0:58:13.13,0:58:16.12,Dialogue,,0,0,0,,What's this? Your face is a bit red!
+Dialogue: 0,0:58:16.12,0:58:18.80,Dialogue,,0,0,0,,What are you talking about?\NThat's just the sunset.
+Dialogue: 0,0:58:34.10,0:58:36.84,Thoughts,,0,0,0,,{\be10}Uncle, what was he doing at Kusaka's?
+Dialogue: 0,0:58:38.45,0:58:39.34,Dialogue,,0,0,0,,Yes?
+Dialogue: 0,0:58:41.66,0:58:43.32,Dialogue,,0,0,0,,Oh, it's the boy this time.
+Dialogue: 0,0:58:43.83,0:58:45.16,Dialogue,,0,0,0,,I came to play.
+Dialogue: 0,0:58:48.16,0:58:51.86,Dialogue,,0,0,0,,I saw this a bit earlier, but this sure is a cool laptop.
+Dialogue: 0,0:58:51.86,0:58:54.17,Dialogue,,0,0,0,,Yeah, it's a commercial product, so...
+Dialogue: 0,0:58:58.61,0:59:00.44,Dialogue,,0,0,0,,That's not something kids should read.
+Dialogue: 0,0:59:00.44,0:59:01.87,Dialogue,,0,0,0,,Okay.
+Dialogue: 0,0:59:03.98,0:59:07.06,Dialogue,,0,0,0,,Hey, this is the same as the Professor's!
+Dialogue: 0,0:59:07.55,0:59:09.56,Dialogue,,0,0,0,,Huh, I don't hear anything.
+Dialogue: 0,0:59:09.95,0:59:11.56,Dialogue,,0,0,0,,Brat...
+Dialogue: 0,0:59:12.20,0:59:13.39,Dialogue,,0,0,0,,Get out.
+Dialogue: 0,0:59:15.04,0:59:18.20,Thoughts,,0,0,0,,{\be10}I suppose no one leaves the evidence behind forever.
+Dialogue: 0,0:59:34.43,0:59:37.92,Dialogue,,0,0,0,,Aww, our trip turned out to be a disaster.
+Dialogue: 0,0:59:38.18,0:59:40.61,Dialogue,,0,0,0,,Don't say things like that, Genta{\rHonorifics - Dialogue}-kun{\r}.
+Dialogue: 0,0:59:40.61,0:59:42.23,Dialogue,,0,0,0,,This is a serious case.
+Dialogue: 0,0:59:42.23,0:59:43.93,Dialogue,,0,0,0,,Right...
+Dialogue: 0,0:59:44.15,0:59:48.11,Dialogue,,0,0,0,,But why do people hurt each other?
+Dialogue: 0,0:59:48.11,0:59:50.78,Dialogue,,0,0,0,,If only everyone could get along.
+Dialogue: 0,0:59:50.78,0:59:52.27,Dialogue,,0,0,0,,That's impossible.
+Dialogue: 0,0:59:53.32,0:59:55.27,Dialogue,,0,0,0,,People have emotions.
+Dialogue: 0,0:59:55.90,1:00:00.44,Dialogue,,0,0,0,,A troublesome attribute that's not only invisible, but also changes easily.
+Dialogue: 0,1:00:01.03,1:00:03.62,Dialogue,,0,0,0,,If it's friendship or love, then that's fine.
+Dialogue: 0,1:00:04.23,1:00:07.72,Dialogue,,0,0,0,,But if by some trigger it changes to malice and vengeance,
+Dialogue: 0,1:00:07.72,1:00:10.12,Dialogue,,0,0,0,,Then that could bring forth thoughts of murder.
+Dialogue: 0,1:00:10.40,1:00:15.88,Dialogue,,0,0,0,,But my Mom and Dad are fighting all the time, but they still get along well.
+Dialogue: 0,1:00:16.29,1:00:20.09,Dialogue,,0,0,0,,That's because they love each other.
+Dialogue: 0,1:00:21.39,1:00:28.10,Dialogue,,0,0,0,,Just as Ai{\rHonorifics - Dialogue}-kun{\r} said, a person can easily\Nbecome the giver or the receiver of pain.
+Dialogue: 0,1:00:28.46,1:00:33.60,Dialogue,,0,0,0,,In order to keep something like that from happening,\None must always hold good feelings for others.
+Dialogue: 0,1:00:33.92,1:00:36.27,Dialogue,,0,0,0,,Good feelings for others...
+Dialogue: 0,1:00:36.83,1:00:37.98,Dialogue,,0,0,0,,Professor!
+Dialogue: 0,1:00:40.05,1:00:42.74,Dialogue,,0,0,0,,I want to borrow something from you.
+Dialogue: 0,1:00:55.69,1:00:57.42,Dialogue,,0,0,0,,The seatbelt's lock.
+Dialogue: 0,1:00:59.96,1:01:01.30,Dialogue,,0,0,0,,Chiba{\rHonorifics - Dialogue}-kun{\r}, come here a moment.
+Dialogue: 0,1:01:01.58,1:01:02.45,Dialogue,,0,0,0,,Sure...
+Dialogue: 0,1:01:04.24,1:01:05.58,Dialogue,,0,0,0,,Did you find something?
+Dialogue: 0,1:01:06.08,1:01:06.80,Dialogue,,0,0,0,,Look at this.
+Dialogue: 0,1:01:07.48,1:01:10.14,Dialogue,,0,0,0,,The seatbelt's lock?
+Dialogue: 0,1:01:10.14,1:01:14.69,Dialogue,,0,0,0,,Do you see this unusual burn mark left behind here?\NIt's as though something was tied there.
+Dialogue: 0,1:01:15.21,1:01:20.23,Dialogue,,0,0,0,,I see it. It's roughly the width of a kite string.
+Dialogue: 0,1:01:22.44,1:01:24.24,Dialogue,,0,0,0,,A kite string, huh...
+Dialogue: 0,1:01:28.51,1:01:30.44,Dialogue,,0,0,0,,Huh? What are you doing, Uncle?
+Dialogue: 0,1:01:30.44,1:01:34.01,Dialogue,,0,0,0,,Where have you been all this time?\NThe party's starting soon.
+Dialogue: 0,1:01:35.58,1:01:39.46,Dialogue,,0,0,0,,Oh, Mouri{\rHonorifics - Dialogue}-san{\r}. Chief Inspector Megure wants you to come for a second.
+Dialogue: 0,1:01:39.46,1:01:40.63,Dialogue,,0,0,0,,The Chief Inspector?
+Dialogue: 0,1:01:40.98,1:01:42.54,Dialogue,,0,0,0,,All right.
+Dialogue: 0,1:01:42.54,1:01:43.27,Dialogue,,0,0,0,,Me too!
+Dialogue: 0,1:01:43.27,1:01:44.96,Dialogue,,0,0,0,,You stay behind and get ready.
+Dialogue: 0,1:01:49.47,1:01:53.43,Dialogue,,0,0,0,,I see. So there are suspicions about\NMr. Yashiro Hidetoshi's accident, too.
+Dialogue: 0,1:01:53.69,1:02:00.50,Dialogue,,0,0,0,,Yes. From what Satou{\rHonorifics - Dialogue}-san{\r} stated, the kite string mark on the seat belt is suspicious.
+Dialogue: 0,1:02:00.50,1:02:03.44,Dialogue,,0,0,0,,How about it, Mouri{\rHonorifics - Dialogue}-kun{\r}?\NCan you think of anything?
+Dialogue: 0,1:02:04.74,1:02:08.32,Dialogue,,0,0,0,,Even if you say so... What were the\Nother items left behind by the deceased?
+Dialogue: 0,1:02:08.56,1:02:12.78,Dialogue,,0,0,0,,Right. There was a juice can that was burnt to\Na crisp and a few miscellaneous items like that,
+Dialogue: 0,1:02:12.78,1:02:17.67,Dialogue,,0,0,0,,But it says here that they've\Nall been tossed out already.
+Dialogue: 0,1:02:17.67,1:02:21.85,Dialogue,,0,0,0,,Hmm, a juice can and kite string, huh...
+Dialogue: 0,1:02:22.91,1:02:24.42,Thoughts,,0,0,0,,{\be10}Maybe if that was used...
+Dialogue: 0,1:02:33.21,1:02:34.35,Dialogue,,0,0,0,,Were you all surprised?
+Dialogue: 0,1:02:34.67,1:02:36.14,Dialogue,,0,0,0,,You little brat!
+Dialogue: 0,1:02:36.43,1:02:40.88,Dialogue,,0,0,0,,I actually thought of shaking a can of soda and making it go psshhhh,
+Dialogue: 0,1:02:40.88,1:02:42.36,Dialogue,,0,0,0,,But they weren't selling any soda...
+Dialogue: 0,1:02:42.65,1:02:44.15,Dialogue,,0,0,0,,Soda...!!?
+Dialogue: 0,1:02:45.39,1:02:47.89,Dialogue,,0,0,0,,I thought my heart was going to stop.
+Dialogue: 0,1:02:48.90,1:02:51.37,Dialogue,,0,0,0,,Ahhh! Being surprised by a can could be...
+Dialogue: 0,1:02:51.74,1:02:53.04,Dialogue,,0,0,0,,A stun grenade.
+Dialogue: 0,1:02:55.07,1:02:58.12,Dialogue,,0,0,0,,Perhaps the culprit used a stun grenade.
+Dialogue: 0,1:02:58.64,1:02:59.88,Thoughts,,0,0,0,,{\be10}That's right.
+Dialogue: 0,1:03:00.20,1:03:03.35,Dialogue,,0,0,0,,What's this, Shiratori{\rHonorifics - Dialogue}-kun{\r}? A stun...?
+Dialogue: 0,1:03:03.35,1:03:05.84,Dialogue,,0,0,0,,Stun grenade. Also known as a flash bomb.
+Dialogue: 0,1:03:06.44,1:03:10.35,Dialogue,,0,0,0,,With a bright flash and an explosion,\Nit stuns the opponent's movement.
+Dialogue: 0,1:03:10.35,1:03:13.85,Dialogue,,0,0,0,,It's a type of grenade shaped like a juice can.
+Dialogue: 0,1:03:14.21,1:03:19.06,Dialogue,,0,0,0,,For instance, tying a kite string to the stun\Ngrenade which has its pin pulled out already,
+Dialogue: 0,1:03:19.06,1:03:23.11,Dialogue,,0,0,0,,And then tying the other end of the kite string to the seat belt's lock,
+Dialogue: 0,1:03:23.55,1:03:26.93,Dialogue,,0,0,0,,Just as one pulls on the lock to secure his seat belt...
+Dialogue: 0,1:03:30.42,1:03:36.54,Dialogue,,0,0,0,,I see. Even if he didn't have a heart attack,\Nhe would be unable to drive after he lost consciousness,
+Dialogue: 0,1:03:36.54,1:03:39.50,Dialogue,,0,0,0,,And the car would run straight off the cliff.
+Dialogue: 0,1:03:43.11,1:03:46.65,Dialogue,,0,0,0,,But a stun grenade isn't something so easily...
+Dialogue: 0,1:03:46.65,1:03:51.01,Dialogue,,0,0,0,,Then again, we're in an era\Nwhere a person can get anything.
+Dialogue: 0,1:03:51.33,1:03:58.48,Dialogue,,0,0,0,,Yes, and if he only wanted to shock the victim,\Nthen he didn't even need to use a real one.
+Dialogue: 0,1:03:58.71,1:04:02.23,Dialogue,,0,0,0,,Even a large cracker could have done the trick.
+Dialogue: 0,1:04:06.30,1:04:09.20,Dialogue,,0,0,0,,Chief Inspector, we've just received a call.
+Dialogue: 0,1:04:10.28,1:04:12.99,Dialogue,,0,0,0,,They say that they found a body\Nthat's believed to be President Yashiro.
+Dialogue: 0,1:04:15.95,1:04:18.82,Dialogue,,0,0,0,,Captain, I have something that\NI wish to talk to you about.
+Dialogue: 0,1:04:18.82,1:04:19.66,Dialogue,,0,0,0,,What is it?
+Dialogue: 0,1:04:19.89,1:04:24.17,Dialogue,,0,0,0,,It's about the welcome party at 5:00 P.M.,\NI want you to cancel it.
+Dialogue: 0,1:04:24.76,1:04:28.50,Dialogue,,0,0,0,,If the culprit is planning his next murder,
+Dialogue: 0,1:04:28.50,1:04:31.38,Dialogue,,0,0,0,,Then there's a good chance that he'll\Ntry to use the confusion of the party.
+Dialogue: 0,1:04:31.73,1:04:33.39,Dialogue,,0,0,0,,But...
+Dialogue: 0,1:04:33.82,1:04:35.58,Dialogue,,0,0,0,,Please, Captain.
+Dialogue: 0,1:04:35.58,1:04:37.41,Dialogue,,0,0,0,,No, Chief Inspector.
+Dialogue: 0,1:04:38.69,1:04:40.60,Dialogue,,0,0,0,,Let's have this party.
+Dialogue: 0,1:04:41.67,1:04:44.64,Dialogue,,0,0,0,,All the questions should be answered there.
+Dialogue: 0,1:04:44.64,1:04:46.68,Dialogue,,0,0,0,,Mouri{\rHonorifics - Dialogue}-kun{\r}, did you...
+Dialogue: 0,1:04:46.68,1:04:48.86,Dialogue,,0,0,0,,Did it come, the usual thing?!
+Dialogue: 0,1:04:51.41,1:04:53.03,Dialogue,,0,0,0,,But he's not asleep.
+Dialogue: 0,1:04:57.35,1:04:59.54,Thoughts,,0,0,0,,{\be10}Are you sure, Uncle?
+Dialogue: 0,1:05:18.84,1:05:20.82,Dialogue,,0,0,0,,All right. I'm gonna party!
+Dialogue: 0,1:05:20.82,1:05:23.02,Dialogue,,0,0,0,,I'll make up for the half day I spent resting.
+Dialogue: 0,1:05:23.19,1:05:25.11,Dialogue,,0,0,0,,Sonoko...
+Dialogue: 0,1:05:27.11,1:05:28.89,Dialogue,,0,0,0,,Hey, why don't you ask Ran{\rHonorifics - Dialogue}-oneesan{\r}?
+Dialogue: 0,1:05:28.89,1:05:30.46,Dialogue,,0,0,0,,About the you-know-what.
+Dialogue: 0,1:05:30.46,1:05:31.82,Dialogue,,0,0,0,,I suppose.
+Dialogue: 0,1:05:32.90,1:05:35.53,Dialogue,,0,0,0,,A gold medal made from sea shells?
+Dialogue: 0,1:05:35.87,1:05:39.22,Dialogue,,0,0,0,,Although the string became too short\Nand it turned into a bracelet...
+Dialogue: 0,1:05:39.22,1:05:41.57,Dialogue,,0,0,0,,So you didn't notice it after all.
+Dialogue: 0,1:05:41.57,1:05:42.50,Dialogue,,0,0,0,,What a pity.
+Dialogue: 0,1:05:42.75,1:05:45.42,Dialogue,,0,0,0,,I'm so sorry. I promise I'll look at it later.
+Dialogue: 0,1:05:45.86,1:05:49.92,Dialogue,,0,0,0,,But thanks, guys. I appreciate your thoughtfulness.
+Dialogue: 0,1:05:54.01,1:05:57.14,Dialogue,,0,0,0,,Everyone, welcome to the St. Aphrodite.
+Dialogue: 0,1:05:57.71,1:06:03.85,Dialogue,,0,0,0,,I will be your host for tonight, Tsujimoto Natsuho.
+Dialogue: 0,1:06:05.38,1:06:06.69,Dialogue,,0,0,0,,Thank you.
+Dialogue: 0,1:06:07.31,1:06:11.15,Dialogue,,0,0,0,,First, let me introduce to you our main staff.
+Dialogue: 0,1:06:11.15,1:06:14.01,Dialogue,,0,0,0,,First, our chief purser, Misaki Naoya.
+Dialogue: 0,1:06:17.03,1:06:20.04,Dialogue,,0,0,0,,Next is the doctor on board, Doctor Mizu Tsubu.
+Dialogue: 0,1:06:23.07,1:06:25.80,Dialogue,,0,0,0,,Our head chef, Chef Shiomi Katsuhiko.
+Dialogue: 0,1:06:27.71,1:06:29.68,Dialogue,,0,0,0,,Did you find out who the culprit is?
+Dialogue: 0,1:06:29.68,1:06:34.62,Dialogue,,0,0,0,,Yeah. But I still can't find any solid evidence.
+Dialogue: 0,1:06:35.64,1:06:37.62,Dialogue,,0,0,0,,Now then, I've kept you all waiting.
+Dialogue: 0,1:06:37.62,1:06:40.22,Dialogue,,0,0,0,,Our captain, Kaidou Wataru.
+Dialogue: 0,1:06:45.74,1:06:50.69,Dialogue,,0,0,0,,Before I say my greetings, I would like to introduce you\Nto the beautiful woman who designed this ship.
+Dialogue: 0,1:06:51.35,1:06:54.11,Dialogue,,0,0,0,,The designer, Akioshi Minako{\rHonorifics - Dialogue}-san{\r}.
+Dialogue: 0,1:07:03.23,1:07:07.25,Dialogue,,0,0,0,,Captain, is it true that Chief Takae was murdered?
+Dialogue: 0,1:07:07.53,1:07:10.63,Dialogue,,0,0,0,,There's a rumor that President Yashiro is also missing.
+Dialogue: 0,1:07:11.01,1:07:11.92,Dialogue,,0,0,0,,That's...
+Dialogue: 0,1:07:12.40,1:07:15.49,Dialogue,,0,0,0,,You're the inspector, right?\NDid you catch the culprit yet?
+Dialogue: 0,1:07:15.49,1:07:18.49,Dialogue,,0,0,0,,Are you sure it's safe for us to participate in this party?
+Dialogue: 0,1:07:20.77,1:07:23.43,Dialogue,,0,0,0,,Calm down. Everyone, please calm down.
+Dialogue: 0,1:07:23.82,1:07:25.60,Dialogue,,0,0,0,,What in the word is going on?
+Dialogue: 0,1:07:25.60,1:07:29.05,Dialogue,,0,0,0,,Well... Mouri{\rHonorifics - Dialogue}-san{\r}?
+Dialogue: 0,1:07:29.05,1:07:31.48,Dialogue,,0,0,0,,Huh, Mouri{\rHonorifics - Dialogue}-san{\r}?!
+Dialogue: 0,1:07:31.48,1:07:34.19,Dialogue,,0,0,0,,Everyone, please calm yourselves.
+Dialogue: 0,1:07:34.83,1:07:36.87,Dialogue,,0,0,0,,There's no need to worry.
+Dialogue: 0,1:07:36.87,1:07:44.20,Dialogue,,0,0,0,,The gruesome serial killer has already been identified by me, Mouri Kogorou!
+Dialogue: 0,1:07:44.81,1:07:46.62,Dialogue,,0,0,0,,We've been waiting, great detective!
+Dialogue: 0,1:07:48.80,1:07:54.57,Dialogue,,0,0,0,,The culprit who murdered Chief Yashiro Takae, and President Entarou.
+Dialogue: 0,1:07:55.05,1:07:59.80,Dialogue,,0,0,0,,That is... Akiyoshi Minako{\rHonorifics - Dialogue}-san{\r}, you!
+Dialogue: 0,1:08:03.47,1:08:09.97,Dialogue,,0,0,0,,Her motive was revenge for Yashiro Hideto-shi's accident which occurred about half a month ago.
+Dialogue: 0,1:08:10.36,1:08:15.94,Dialogue,,0,0,0,,That accident was actually a murder case orchestrated by the Yashiro family.
+Dialogue: 0,1:08:16.23,1:08:20.40,Dialogue,,0,0,0,,But why would Akiyoshi{\rHonorifics - Dialogue}-san{\r} take revenge upon Yashiro{\rHonorifics - Dialogue}-san{\r}'s death?
+Dialogue: 0,1:08:20.86,1:08:25.37,Dialogue,,0,0,0,,That is most likely because Minako{\rHonorifics - Dialogue}-san{\r} and\NHideto-shi had a romantic relationship.
+Dialogue: 0,1:08:25.73,1:08:27.93,Dialogue,,0,0,0,,Hold on, Mouri{\rHonorifics - Dialogue}-san{\r}.
+Dialogue: 0,1:08:28.30,1:08:32.70,Dialogue,,0,0,0,,It's true that I did admire Yashiro{\rHonorifics - Dialogue}-sensei{\r}\Nas an important superior.
+Dialogue: 0,1:08:33.05,1:08:35.13,Dialogue,,0,0,0,,But I didn't have any feelings for him.
+Dialogue: 0,1:08:35.46,1:08:41.01,Dialogue,,0,0,0,,Also, I was talking to Kusaka{\rHonorifics - Dialogue}-san{\r} over the phone\Nin my room during the time of the crime as an alibi.
+Dialogue: 0,1:08:41.18,1:08:50.52,Dialogue,,0,0,0,,But in reality, you let Kusaka{\rHonorifics - Dialogue}-san{\r} read the story on his own for about 20 minutes,
+Dialogue: 0,1:08:51.01,1:08:54.27,Dialogue,,0,0,0,,That means there's no alibi\Nfor you during those 20 minutes.
+Dialogue: 0,1:08:54.27,1:08:55.94,Dialogue,,0,0,0,,Enough already.
+Dialogue: 0,1:08:56.33,1:09:00.32,Dialogue,,0,0,0,,If Kusaka{\rHonorifics - Dialogue}-san{\r} stopped reading in the middle and asked me something,
+Dialogue: 0,1:09:00.32,1:09:03.32,Dialogue,,0,0,0,,He would know that there wasn't anyone on the other end of the phone.
+Dialogue: 0,1:09:03.32,1:09:06.99,Dialogue,,0,0,0,,I'm not stupid enough to try\Nto create such an idiotic alibi.
+Dialogue: 0,1:09:07.38,1:09:11.58,Dialogue,,0,0,0,,If you still insist on saying that I'm the culprit,\Nthen show me the evidence right now!
+Dialogue: 0,1:09:13.26,1:09:16.21,Dialogue,,0,0,0,,Hey! You have proof, right, Mouri{\rHonorifics - Dialogue}-kun{\r}?
+Dialogue: 0,1:09:16.79,1:09:19.09,Dialogue,,0,0,0,,Well...
+Dialogue: 0,1:09:19.37,1:09:24.09,Dialogue,,0,0,0,,Could Dad... Could he suspect Minako{\rHonorifics - Dialogue}-san{\r} just because she looks like Mom?
+Dialogue: 0,1:09:24.61,1:09:26.13,Dialogue,,0,0,0,,Well, Mouri{\rHonorifics - Dialogue}-san{\r}?
+Dialogue: 0,1:09:26.13,1:09:28.89,Dialogue,,0,0,0,,Sorry. I need a little washroom break...
+Dialogue: 0,1:09:28.89,1:09:30.39,Dialogue,,0,0,0,,A break?
+Dialogue: 0,1:09:38.72,1:09:40.28,Thoughts,,0,0,0,,{\be10}I found it.
+Dialogue: 0,1:09:40.64,1:09:44.44,Dialogue,,0,0,0,,Chief Inspector, we should do something while everyone's still laughing.
+Dialogue: 0,1:09:44.44,1:09:46.14,Dialogue,,0,0,0,,But...
+Dialogue: 0,1:09:46.14,1:09:48.28,Dialogue,,0,0,0,,No need to worry, Chief Inspector Megure.
+Dialogue: 0,1:09:48.67,1:09:51.01,Dialogue,,0,0,0,,I know the true culprit.
+Dialogue: 0,1:09:51.01,1:09:53.45,Dialogue,,0,0,0,,Really, Professor Agasa?
+Dialogue: 0,1:09:54.70,1:09:57.00,Dialogue,,0,0,0,,This time, it's the Professor's deduction show!
+Dialogue: 0,1:09:57.27,1:10:01.62,Dialogue,,0,0,0,,Everyone, do you know the\Noriginal meaning of a cruise?
+Dialogue: 0,1:10:01.62,1:10:03.71,Dialogue,,0,0,0,,It's an act of piracy.
+Dialogue: 0,1:10:03.71,1:10:07.97,Dialogue,,0,0,0,,Apparently the name came from pirates\Nsearching for prey and zigzagging on their voyage.
+Dialogue: 0,1:10:08.78,1:10:11.82,Dialogue,,0,0,0,,There is a pirate on this ship as well.
+Dialogue: 0,1:10:12.27,1:10:17.98,Dialogue,,0,0,0,,A pirate who steals others' lives instead of their wealth. A pirate by the name of murderer.
+Dialogue: 0,1:10:18.45,1:10:25.03,Dialogue,,0,0,0,,Yes. That pirate is...\NThe script writer, Kusaka Hironari{\rHonorifics - Dialogue}-san{\r}, you!
+Dialogue: 0,1:10:25.50,1:10:30.10,Dialogue,,0,0,0,,You sure say strange things.\NWeren't you listening to Minako{\rHonorifics - Dialogue}-san{\r}'s words?
+Dialogue: 0,1:10:30.10,1:10:35.51,Dialogue,,0,0,0,,During the time of the incident,\NI was telling her about my story on the phone.
+Dialogue: 0,1:10:35.51,1:10:37.58,Dialogue,,0,0,0,,You mean this story?
+Dialogue: 0,1:10:39.02,1:10:41.59,Dialogue,,0,0,0,,Okazaki Nanami loved the ocean...
+Dialogue: 0,1:10:42.00,1:10:45.35,Dialogue,,0,0,0,,ever since she was born.
+Dialogue: 0,1:10:45.35,1:10:48.55,Dialogue,,0,0,0,,She loved its vastness more than anything else.
+Dialogue: 0,1:10:48.67,1:10:50.92,Dialogue,,0,0,0,,It's a simple trick.
+Dialogue: 0,1:10:50.92,1:10:56.00,Dialogue,,0,0,0,,You used a tape recording you premade, left it by the phone,
+Dialogue: 0,1:10:56.00,1:10:58.52,Dialogue,,0,0,0,,And murdered the two during that time.
+Dialogue: 0,1:10:58.52,1:11:01.15,Dialogue,,0,0,0,,That can't be. I know I erased that already!
+Dialogue: 0,1:11:01.15,1:11:02.42,Dialogue,,0,0,0,,Erased?
+Dialogue: 0,1:11:02.42,1:11:06.77,Dialogue,,0,0,0,,No, you thought you erased it.
+Dialogue: 0,1:11:07.17,1:11:12.12,Dialogue,,0,0,0,,Something important such as this, if you don't confirm it properly, then it could be life-threatening.
+Dialogue: 0,1:11:14.79,1:11:16.72,Dialogue,,0,0,0,,Forged evidence, right?
+Dialogue: 0,1:11:16.72,1:11:20.52,Dialogue,,0,0,0,,That tape... You used his voice and recreated it, right?
+Dialogue: 0,1:11:20.52,1:11:22.67,Dialogue,,0,0,0,,Yeah, more or less.
+Dialogue: 0,1:11:22.67,1:11:26.55,Dialogue,,0,0,0,,But there's still further solid proof.
+Dialogue: 0,1:11:26.90,1:11:31.55,Dialogue,,0,0,0,,But that can't be used as\Nevidence for the murder, can it?
+Dialogue: 0,1:11:31.83,1:11:33.52,Dialogue,,0,0,0,,The evidence is right there.
+Dialogue: 0,1:11:33.52,1:11:34.64,Dialogue,,0,0,0,,Look there
+Dialogue: 0,1:11:36.23,1:11:38.56,Dialogue,,0,0,0,,What's wrong, Onii{\rHonorifics - Dialogue}-san{\r}?
+Dialogue: 0,1:11:38.94,1:11:42.18,Dialogue,,0,0,0,,There's a blackish hair mixed with your red ones.
+Dialogue: 0,1:11:43.71,1:11:46.19,Dialogue,,0,0,0,,Isn't that... Blood?
+Dialogue: 0,1:11:46.19,1:11:47.44,Dialogue,,0,0,0,,Blood?
+Dialogue: 0,1:11:48.78,1:11:50.78,Dialogue,,0,0,0,,Kusaka{\rHonorifics - Dialogue}-san{\r}...
+Dialogue: 0,1:11:50.78,1:11:52.16,Dialogue,,0,0,0,,I get it.
+Dialogue: 0,1:11:52.16,1:11:55.04,Dialogue,,0,0,0,,Oniisan, after you did those bad things,\Nyou looked into the mirror,
+Dialogue: 0,1:11:55.04,1:11:59.50,Dialogue,,0,0,0,,But since your hair color is very\Nsimilar to blood, you didn't notice it.
+Dialogue: 0,1:12:00.13,1:12:01.96,Dialogue,,0,0,0,,But your should remember this.
+Dialogue: 0,1:12:02.49,1:12:05.10,Dialogue,,0,0,0,,Blood will clot as time goes on,
+Dialogue: 0,1:12:05.10,1:12:06.92,Dialogue,,0,0,0,,And the color will change.
+Dialogue: 0,1:12:08.67,1:12:12.60,Dialogue,,0,0,0,,Also, could you remove that scarf around your neck?
+Dialogue: 0,1:12:13.12,1:12:17.20,Dialogue,,0,0,0,,If my deduction is right,\Nthere still should be marks left over.
+Dialogue: 0,1:12:17.77,1:12:23.81,Dialogue,,0,0,0,,From President Yashiro's nail or finger marks\Nwhen he fought back so hard against your attack.
+Dialogue: 0,1:12:24.15,1:12:25.69,Dialogue,,0,0,0,,Excuse me.
+Dialogue: 0,1:12:28.49,1:12:33.12,Dialogue,,0,0,0,,Kusaka{\rHonorifics - Dialogue}-san{\r}, may we hear your\Nstory in detail in another room?
+Dialogue: 0,1:12:33.32,1:12:35.96,Dialogue,,0,0,0,,Hold on. Geez.
+Dialogue: 0,1:12:35.96,1:12:37.24,Dialogue,,0,0,0,,I still have...
+Dialogue: 0,1:12:38.03,1:12:40.04,Dialogue,,0,0,0,,One last trick up my sleeve!
+Dialogue: 0,1:12:43.70,1:12:46.70,Dialogue,,0,0,0,,Don't move! If you do, I'll detonate the bombs!
+Dialogue: 0,1:12:46.70,1:12:47.71,Dialogue,,0,0,0,,Bombs!
+Dialogue: 0,1:12:48.88,1:12:51.88,Dialogue,,0,0,0,,If you don't want me to sink this ship,\Nthen listen to what I say!
+Dialogue: 0,1:12:59.91,1:13:02.64,Dialogue,,0,0,0,,That's the guy who attacked me!
+Dialogue: 0,1:13:03.79,1:13:05.15,Dialogue,,0,0,0,,You finally remembered?
+Dialogue: 0,1:13:05.79,1:13:09.07,Dialogue,,0,0,0,,Please calm down.\NWhy are you doing this?
+Dialogue: 0,1:13:09.07,1:13:10.50,Dialogue,,0,0,0,,I'm taking revenge for my father.
+Dialogue: 0,1:13:10.50,1:13:11.36,Dialogue,,0,0,0,,Revenge?
+Dialogue: 0,1:13:11.57,1:13:18.08,Dialogue,,0,0,0,,15 years ago, the crew member who\Ndied on the St. Yashiro was my father!
+Dialogue: 0,1:13:19.66,1:13:22.29,Thoughts,,0,0,0,,{\be10}I see, that was...!
+Dialogue: 0,1:13:22.61,1:13:26.82,Dialogue,,0,0,0,,Two years ago, I heard a strange rumor from one of my father's friends,
+Dialogue: 0,1:13:26.82,1:13:30.26,Dialogue,,0,0,0,,who came to visit my father's grave, about the incident.
+Dialogue: 0,1:13:31.93,1:13:36.85,Dialogue,,0,0,0,,During the time, Yashiro Cruise's Chief and First-mate Executive Entarou and Takae,
+Dialogue: 0,1:13:36.85,1:13:40.83,Dialogue,,0,0,0,,Decided to sink the ship for its insurance.
+Dialogue: 0,1:13:41.48,1:13:47.50,Dialogue,,0,0,0,,Furthermore, there was a crew who was after the accomplishments of Captain Okita and his seat,
+Dialogue: 0,1:13:47.50,1:13:50.44,Dialogue,,0,0,0,,They brought in their first man, Kaidou First Mate.
+Dialogue: 0,1:13:54.41,1:13:55.99,Dialogue,,0,0,0,,You, who got talked into it,
+Dialogue: 0,1:13:56.22,1:13:59.51,Dialogue,,0,0,0,,put Captain Okita to sleep with drugged coffee.
+Dialogue: 0,1:13:59.51,1:14:02.18,Dialogue,,0,0,0,,Purposefully crashing the ship to the iceberg.
+Dialogue: 0,1:14:05.42,1:14:09.53,Dialogue,,0,0,0,,And at the same time, you blew up the bombs you'd set up beforehand.
+Dialogue: 0,1:14:12.18,1:14:17.59,Dialogue,,0,0,0,,The locations to put the bombs were most likely organized by the designer Yashiro Hideto-shi.
+Dialogue: 0,1:14:18.06,1:14:19.55,Dialogue,,0,0,0,,Are you saying that Sensei...?
+Dialogue: 0,1:14:20.02,1:14:23.02,Dialogue,,0,0,0,,How did you kill President Yashiro?
+Dialogue: 0,1:14:23.27,1:14:26.72,Dialogue,,0,0,0,,He lunged at me and choked me on the floor,
+Dialogue: 0,1:14:26.72,1:14:30.46,Dialogue,,0,0,0,,so I threw him into the ocean as the ship swayed.
+Dialogue: 0,1:14:30.46,1:14:33.99,Dialogue,,0,0,0,,And, just as you did, I was planning to blow up this ship,
+Dialogue: 0,1:14:34.40,1:14:37.79,Dialogue,,0,0,0,,And kill you in the confusion.
+Dialogue: 0,1:14:38.46,1:14:39.70,Dialogue,,0,0,0,,What a bunch of nonsense.
+Dialogue: 0,1:14:40.15,1:14:43.79,Dialogue,,0,0,0,,Just a minute! At least remove your finger from that remote button.
+Dialogue: 0,1:14:44.16,1:14:46.12,Dialogue,,0,0,0,,Shut up! Don't come any closer!
+Dialogue: 0,1:14:54.67,1:14:55.34,Dialogue,,0,0,0,,He's gone!
+Dialogue: 0,1:14:57.76,1:14:58.95,Thoughts,,0,0,0,,{\be10}You're not getting away!
+Dialogue: 0,1:14:59.64,1:15:00.74,Dialogue,,0,0,0,,Conan{\rHonorifics - Dialogue}-kun{\r}!
+Dialogue: 0,1:15:01.10,1:15:02.24,Dialogue,,0,0,0,,Get him!
+Dialogue: 0,1:15:24.20,1:15:25.28,Dialogue,,0,0,0,,Damn it.
+Dialogue: 0,1:15:27.52,1:15:29.09,Dialogue,,0,0,0,,Wait, Conan{\rHonorifics - Dialogue}-kun{\r}!
+Dialogue: 0,1:15:29.09,1:15:29.88,Dialogue,,0,0,0,,Wait up.
+Dialogue: 0,1:15:30.70,1:15:31.79,Dialogue,,0,0,0,,Hey, you guys...
+Dialogue: 0,1:15:31.79,1:15:33.29,Dialogue,,0,0,0,,We're going, too.
+Dialogue: 0,1:15:33.29,1:15:35.86,Dialogue,,0,0,0,,We're not letting you take all the credit.
+Dialogue: 0,1:15:35.86,1:15:37.05,Dialogue,,0,0,0,,Hey, Haibara...
+Dialogue: 0,1:15:37.65,1:15:39.38,Dialogue,,0,0,0,,Well, like they said...
+Dialogue: 0,1:15:42.41,1:15:43.89,Dialogue,,0,0,0,,Don't get shaken off.
+Dialogue: 0,1:16:35.21,1:16:36.72,Dialogue,,0,0,0,,Shift to the left!
+Dialogue: 0,1:16:45.16,1:16:46.52,Dialogue,,0,0,0,,Now right!
+Dialogue: 0,1:16:52.06,1:16:53.25,Dialogue,,0,0,0,,We passed him!
+Dialogue: 0,1:16:55.30,1:16:56.89,Dialogue,,0,0,0,,Haibara, take the wheel.
+Dialogue: 0,1:17:22.30,1:17:23.99,Dialogue,,0,0,0,,Conan{\rHonorifics - Dialogue}-kun{\r}!
+Dialogue: 0,1:17:24.23,1:17:25.99,Dialogue,,0,0,0,,You did it, Conan!
+Dialogue: 0,1:17:28.27,1:17:30.06,Dialogue,,0,0,0,,All right!
+Dialogue: 0,1:17:30.06,1:17:33.84,Dialogue,,0,0,0,,The Detective Boys win again!
+Dialogue: 0,1:17:39.37,1:17:40.92,Dialogue,,0,0,0,,Hey!
+Dialogue: 0,1:17:40.92,1:17:43.22,Dialogue,,0,0,0,,Are you all okay?
+Dialogue: 0,1:17:43.22,1:17:44.82,Dialogue,,0,0,0,,Hey!
+Dialogue: 0,1:17:46.47,1:17:48.01,Dialogue,,0,0,0,,Don't you guys ever do that again!
+Dialogue: 0,1:17:48.59,1:17:51.02,Dialogue,,0,0,0,,He was a suspect for a murder case!
+Dialogue: 0,1:17:51.45,1:17:54.07,Dialogue,,0,0,0,,What if something went wrong?
+Dialogue: 0,1:17:54.07,1:17:55.52,Dialogue,,0,0,0,,We're sorry...
+Dialogue: 0,1:18:06.76,1:18:08.68,Dialogue,,0,0,0,,Chief Inspector Megure...
+Dialogue: 0,1:18:08.68,1:18:11.58,Dialogue,,0,0,0,,H-How many bombs did he set up?
+Dialogue: 0,1:18:24.65,1:18:25.97,Dialogue,,0,0,0,,How is it, Izawa{\rHonorifics - Dialogue}-kun{\r}?
+Dialogue: 0,1:18:26.31,1:18:30.80,Dialogue,,0,0,0,,Captain, a number of holes were opened by the bombs.
+Dialogue: 0,1:18:30.80,1:18:31.77,Dialogue,,0,0,0,,What about the chamber locks?
+Dialogue: 0,1:18:32.23,1:18:36.12,Dialogue,,0,0,0,,We locked them, but the water is\Nreaching from the 3rd block to the 4th.
+Dialogue: 0,1:18:36.42,1:18:37.27,Dialogue,,0,0,0,,What?!
+Dialogue: 0,1:18:37.82,1:18:39.77,Dialogue,,0,0,0,,Captain, please give the order for evacuation.
+Dialogue: 0,1:18:41.76,1:18:42.78,Dialogue,,0,0,0,,Captain!
+Dialogue: 0,1:18:44.76,1:18:46.78,Dialogue,,0,0,0,,Evacuate all personnel.
+Dialogue: 0,1:18:49.67,1:18:52.79,Dialogue,,0,0,0,,All guests, this is your voyage guide, Norizama.
+Dialogue: 0,1:18:53.12,1:18:58.26,Dialogue,,0,0,0,,Please take your emergency life vests\Nand move to the deck on the first floor.
+Dialogue: 0,1:18:58.26,1:19:02.63,Dialogue,,0,0,0,,This is not a drill. I repeat, this is not a drill!
+Dialogue: 0,1:19:03.19,1:19:04.80,Dialogue,,0,0,0,,Please move calmly.
+Dialogue: 0,1:19:05.08,1:19:08.90,Dialogue,,0,0,0,,All crew members are to guide all guests to the designated locations.
+Dialogue: 0,1:19:13.01,1:19:16.68,Dialogue,,0,0,0,,It's not here. The gold medal that\Nthose kids were talking about.
+Dialogue: 0,1:19:16.68,1:19:18.02,Dialogue,,0,0,0,,Where did it go?
+Dialogue: 0,1:19:18.22,1:19:19.04,Dialogue,,0,0,0,,Ran...
+Dialogue: 0,1:19:19.47,1:19:21.36,Dialogue,,0,0,0,,Hey, we're leaving. Hurry up!
+Dialogue: 0,1:19:21.36,1:19:22.54,Dialogue,,0,0,0,,Ran, let's go.
+Dialogue: 0,1:19:33.43,1:19:37.11,Dialogue,,0,0,0,,There's no need to rush, there's still plenty of time.
+Dialogue: 0,1:19:37.11,1:19:39.33,Dialogue,,0,0,0,,Please continue moving without pushing.
+Dialogue: 0,1:19:39.33,1:19:41.58,Dialogue,,0,0,0,,Dad, where's Conan{\rHonorifics - Dialogue}-kun{\r} and everyone else?
+Dialogue: 0,1:19:41.58,1:19:43.13,Dialogue,,0,0,0,,They're fine.
+Dialogue: 0,1:19:43.52,1:19:45.77,Dialogue,,0,0,0,,According to Chief Inspector Megure,
+Dialogue: 0,1:19:45.77,1:19:51.94,Dialogue,,0,0,0,,After they went chasing Kusaka in a motor boat,\Nthey were picked up by a nearby cruiser.
+Dialogue: 0,1:19:51.94,1:19:53.14,Dialogue,,0,0,0,,That's good.
+Dialogue: 0,1:19:58.95,1:20:02.90,Dialogue,,0,0,0,,Ran, you two leave on this boat.
+Dialogue: 0,1:20:03.58,1:20:05.40,Dialogue,,0,0,0,,I'll go on a different one.
+Dialogue: 0,1:20:05.40,1:20:06.13,Dialogue,,0,0,0,,But...
+Dialogue: 0,1:20:06.13,1:20:07.37,Dialogue,,0,0,0,,Well then, see you later.
+Dialogue: 0,1:20:07.37,1:20:08.32,Dialogue,,0,0,0,,Dad!
+Dialogue: 0,1:20:08.70,1:20:11.48,Dialogue,,0,0,0,,Don't rush. Follow the person in front of you.
+Dialogue: 0,1:20:11.48,1:20:14.40,Dialogue,,0,0,0,,Once you hit the water, get away from the ship as quickly as possible.
+Dialogue: 0,1:20:14.40,1:20:17.95,Dialogue,,0,0,0,,If you get sucked down by the ship's whirlpool,\Nthere won't be anything left of you.
+Dialogue: 0,1:20:17.95,1:20:18.76,Dialogue,,0,0,0,,Understood.
+Dialogue: 0,1:20:19.54,1:20:22.16,Dialogue,,0,0,0,,It's blazing in here.
+Dialogue: 0,1:20:22.16,1:20:24.71,Dialogue,,0,0,0,,We're in a crisis, suck it up.
+Dialogue: 0,1:20:25.05,1:20:28.42,Dialogue,,0,0,0,,But when it's hot, it's hot!
+Dialogue: 0,1:20:29.46,1:20:30.30,Dialogue,,0,0,0,,I remembered now!
+Dialogue: 0,1:20:30.30,1:20:31.77,Dialogue,,0,0,0,,What?
+Dialogue: 0,1:20:31.77,1:20:33.79,Dialogue,,0,0,0,,I dropped it where I hid for hide and seek.
+Dialogue: 0,1:20:33.79,1:20:34.80,Dialogue,,0,0,0,,You mean the gold medal?
+Dialogue: 0,1:20:35.39,1:20:37.89,Dialogue,,0,0,0,,I'm lowering the raft. Hold on tightly.
+Dialogue: 0,1:20:37.89,1:20:39.68,Dialogue,,0,0,0,,Wait, I'm getting off.
+Dialogue: 0,1:20:40.01,1:20:41.08,Dialogue,,0,0,0,,Hey Ran!
+Dialogue: 0,1:20:41.08,1:20:42.76,Dialogue,,0,0,0,,I'm going to go and get it so go on ahead.
+Dialogue: 0,1:20:42.76,1:20:43.31,Dialogue,,0,0,0,,But...
+Dialogue: 0,1:20:43.87,1:20:46.76,Dialogue,,0,0,0,,It's true that it's just a medal made from sea shells.
+Dialogue: 0,1:20:46.76,1:20:49.32,Dialogue,,0,0,0,,But to me, it's a precious treasure.
+Dialogue: 0,1:20:49.55,1:20:50.70,Dialogue,,0,0,0,,Well, I'll catch you later.
+Dialogue: 0,1:20:50.70,1:20:51.82,Dialogue,,0,0,0,,Wait a second, Ran!
+Dialogue: 0,1:21:08.31,1:21:10.05,Dialogue,,0,0,0,,This is it!
+Dialogue: 0,1:21:21.35,1:21:23.73,Dialogue,,0,0,0,,We sure were lucky,
+Dialogue: 0,1:21:23.73,1:21:26.30,Dialogue,,0,0,0,,that this ship was nearby.
+Dialogue: 0,1:21:26.30,1:21:29.23,Dialogue,,0,0,0,,I wonder if the people on the ship are okay?
+Dialogue: 0,1:21:29.23,1:21:31.00,Dialogue,,0,0,0,,I'm worried.
+Dialogue: 0,1:21:34.37,1:21:37.77,Dialogue,,0,0,0,,Don't worry, she's probably on the emergency boat and...
+Dialogue: 0,1:21:37.77,1:21:43.25,Dialogue,,0,0,0,,Kusaka said that he was planning to kill Kaidou{\rHonorifics - Dialogue}-san{\r} in the confusion.
+Dialogue: 0,1:21:43.66,1:21:47.46,Dialogue,,0,0,0,,But aren't there a bit too many bombs for that?
+Dialogue: 0,1:21:47.46,1:21:51.46,Dialogue,,0,0,0,,It's as though he really was trying to sink the ship.
+Dialogue: 0,1:21:51.46,1:21:54.68,Dialogue,,0,0,0,,And that trick he used for his alibi,
+Dialogue: 0,1:21:54.68,1:21:56.47,Dialogue,,0,0,0,,now that I think about it, it's a bit too simple.
+Dialogue: 0,1:21:56.85,1:22:00.00,Dialogue,,0,0,0,,If Minako{\rHonorifics - Dialogue}-san{\r} said anything\Nin the middle of the conversation,
+Dialogue: 0,1:22:00.00,1:22:01.47,Dialogue,,0,0,0,,then the trick would fall apart right there.
+Dialogue: 0,1:22:01.89,1:22:04.18,Dialogue,,0,0,0,,Maybe he tested it a few times already.
+Dialogue: 0,1:22:04.18,1:22:08.10,Dialogue,,0,0,0,,He probably thought he could use it to create his alibi,
+Dialogue: 0,1:22:08.10,1:22:10.50,Dialogue,,0,0,0,,after he confirmed the fact that she wouldn't interrupt.
+Dialogue: 0,1:22:10.50,1:22:11.71,Dialogue,,0,0,0,,She did say...
+Dialogue: 0,1:22:12.12,1:22:15.24,Flashback,,0,0,0,,{\be10}If I say something in the middle, he gets angry.
+Dialogue: 0,1:22:16.49,1:22:17.32,Dialogue,,0,0,0,,Chief Inspector Megure.
+Dialogue: 0,1:22:18.37,1:22:21.54,Dialogue,,0,0,0,,I just had a talk with the coast guards.
+Dialogue: 0,1:22:21.54,1:22:25.94,Dialogue,,0,0,0,,Apparently, they discovered a fruit knife\Nstabbed into President Yashiro's back.
+Dialogue: 0,1:22:25.94,1:22:26.75,Dialogue,,0,0,0,,What?
+Dialogue: 0,1:22:27.42,1:22:29.16,Dialogue,,0,0,0,,What does this mean?
+Dialogue: 0,1:22:29.16,1:22:32.27,Dialogue,,0,0,0,,Kusaka didn't say anything about a knife.
+Dialogue: 0,1:22:35.09,1:22:36.97,Flashback,,0,0,0,,{\be10}It was 10:11 A.M.
+Dialogue: 0,1:22:37.20,1:22:39.46,Flashback,,0,0,0,,{\be10}It was about 10:15 A.M.
+Dialogue: 0,1:22:39.46,1:22:41.85,Thoughts,,0,0,0,,{\be10}No, it wasn't Kusaka...
+Dialogue: 0,1:22:42.28,1:22:43.84,Thoughts,,0,0,0,,{\be10}Then who...
+Dialogue: 0,1:22:43.84,1:22:46.38,Flashback,,0,0,0,,{\be10}They really don't look like they're in their 50's.
+Dialogue: 0,1:22:54.77,1:22:55.95,Dialogue,,0,0,0,,Hey, Conan...
+Dialogue: 0,1:22:55.95,1:22:57.86,Dialogue,,0,0,0,,Where are you going Conan{\rHonorifics - Dialogue}-kun{\r}?
+Dialogue: 0,1:22:57.86,1:22:59.07,Dialogue,,0,0,0,,Conan{\rHonorifics - Dialogue}-kun{\r}.
+Dialogue: 0,1:23:01.43,1:23:03.08,Dialogue,,0,0,0,,I wonder what it is.
+Dialogue: 0,1:23:03.67,1:23:05.94,Dialogue,,0,0,0,,Something just doesn't feel right.
+Dialogue: 0,1:23:05.94,1:23:11.09,Dialogue,,0,0,0,,A feeling that says if I just let it sink like this, I'd be losing something that I'll never be able to get back.
+Dialogue: 0,1:23:11.09,1:23:13.46,Dialogue,,0,0,0,,You mean about the case?
+Dialogue: 0,1:23:13.83,1:23:15.46,Dialogue,,0,0,0,,Yeah, probably.
+Dialogue: 0,1:23:16.27,1:23:17.18,Dialogue,,0,0,0,,Most likely.
+Dialogue: 0,1:23:20.87,1:23:22.12,Dialogue,,0,0,0,,Conan{\rHonorifics - Dialogue}-kun{\r}...
+Dialogue: 0,1:23:25.04,1:23:30.42,Thoughts,,0,0,0,,{\be10}The case? Are you sure that's all, Kudou{\rHonorifics - Thoughts\be10}-kun{\r\be10}?
+Dialogue: 0,1:23:36.68,1:23:39.63,Thoughts,,0,0,0,,{\be10}If my deduction is right, then the real culprit is...
+Dialogue: 0,1:23:45.41,1:23:46.44,Dialogue,,0,0,0,,Captain.
+Dialogue: 0,1:23:48.54,1:23:50.83,Dialogue,,0,0,0,,The evacuation of the guests is now complete.
+Dialogue: 0,1:23:52.20,1:23:54.38,Dialogue,,0,0,0,,I'll take the life raft.
+Dialogue: 0,1:23:54.38,1:23:57.05,Dialogue,,0,0,0,,You go ahead on the emergency boat first\Nonce you've gathered all the crew members.
+Dialogue: 0,1:23:57.05,1:23:58.08,Dialogue,,0,0,0,,Understood.
+Dialogue: 0,1:24:07.36,1:24:11.93,Dialogue,,0,0,0,,Aren't you going down with the ship, Captain?
+Dialogue: 0,1:24:14.71,1:24:18.12,Dialogue,,0,0,0,,You! What are you still doing here?\NHurry and evacuate!
+Dialogue: 0,1:24:18.12,1:24:20.42,Dialogue,,0,0,0,,You should have some recollection of this.
+Dialogue: 0,1:24:21.05,1:24:23.95,Dialogue,,0,0,0,,It was something my father loved.
+Dialogue: 0,1:24:24.44,1:24:26.14,Dialogue,,0,0,0,,An origami boat...
+Dialogue: 0,1:24:27.87,1:24:29.08,Dialogue,,0,0,0,,Are you...
+Dialogue: 0,1:24:29.60,1:24:32.78,Dialogue,,0,0,0,,That's right. I'm the daughter of Captain Okita,
+Dialogue: 0,1:24:32.78,1:24:36.63,Dialogue,,0,0,0,,the one you and the Yashiro family murdered.
+Dialogue: 0,1:24:38.36,1:24:42.14,Dialogue,,0,0,0,,Sorry to tell you this, but I've\Ndestroyed the remaining life rafts.
+Dialogue: 0,1:24:42.36,1:24:43.73,Dialogue,,0,0,0,,H-how could you?
+Dialogue: 0,1:24:43.73,1:24:45.14,Dialogue,,0,0,0,,Don't move!
+Dialogue: 0,1:24:45.90,1:24:47.85,Dialogue,,0,0,0,,This is a pretty small place.
+Dialogue: 0,1:24:48.61,1:24:53.69,Dialogue,,0,0,0,,Let's go somewhere bigger and have a long chat about this as we feel the salty air.
+Dialogue: 0,1:25:15.61,1:25:17.63,Dialogue,,0,0,0,,It was half a year ago,
+Dialogue: 0,1:25:18.31,1:25:22.13,Dialogue,,0,0,0,,That Kusaka came to see me,\Nsaying it was for his drama research.
+Dialogue: 0,1:25:22.61,1:25:29.14,Dialogue,,0,0,0,,But I found it strange that he held more interest in the Yashiro family, which had nothing to do with his research.
+Dialogue: 0,1:25:29.92,1:25:33.13,Dialogue,,0,0,0,,That was when I took the chance when he left to go to the washroom...
+Dialogue: 0,1:25:41.11,1:25:44.91,Dialogue,,0,0,0,,I saw, "The truth behind the St. Yashiro Number 1 Sinking Case".
+Dialogue: 0,1:25:46.22,1:25:49.08,Dialogue,,0,0,0,,And learned that was Kusaka's true goal.
+Dialogue: 0,1:25:50.94,1:25:52.78,Dialogue,,0,0,0,,I didn't think it could be true,
+Dialogue: 0,1:25:52.78,1:25:55.25,Dialogue,,0,0,0,,But I asked Yashiro Hideto the following day.
+Dialogue: 0,1:25:56.35,1:25:59.96,Dialogue,,0,0,0,,Once I gave him a bit of high-proof alcohol, he spilled everything.
+Dialogue: 0,1:26:00.90,1:26:06.16,Dialogue,,0,0,0,,The truth about how that sinking case was not an accident, but a planned murder.
+Dialogue: 0,1:26:07.59,1:26:10.82,Dialogue,,0,0,0,,Without even knowing that I was Okita's daughter.
+Dialogue: 0,1:26:13.81,1:26:17.15,Dialogue,,0,0,0,,I-I didn't know. I was ordered by the Chief, and...
+Dialogue: 0,1:26:17.15,1:26:18.56,Dialogue,,0,0,0,,I don't need excuses!
+Dialogue: 0,1:26:19.19,1:26:22.44,Dialogue,,0,0,0,,I'll have you chase after the Yashiro family.
+Dialogue: 0,1:26:22.87,1:26:27.45,Dialogue,,0,0,0,,For my father who died a depressing death.
+Dialogue: 0,1:26:29.51,1:26:31.67,Thoughts,,0,0,0,,{\be10}Damn it! Let me get there in time!
+Dialogue: 0,1:26:32.92,1:26:34.83,Dialogue,,0,0,0,,Please, forgive me!
+Dialogue: 0,1:26:35.55,1:26:37.82,Dialogue,,0,0,0,,Goodbye, Captain.
+Dialogue: 0,1:26:44.88,1:26:46.04,Dialogue,,0,0,0,,Hold it!
+Dialogue: 0,1:26:50.79,1:26:55.44,Dialogue,,0,0,0,,So you were the real culprit, Akiyoshi Minako{\rHonorifics - Dialogue}-san{\r}.
+Dialogue: 0,1:26:55.86,1:26:56.69,Thoughts,,0,0,0,,{\be10}Uncle...!
+Dialogue: 0,1:26:57.21,1:26:58.15,Dialogue,,0,0,0,,Don't move!
+Dialogue: 0,1:27:01.25,1:27:04.35,Dialogue,,0,0,0,,Sorry, but I made sure that gun\Ncouldn't be used anymore.
+Dialogue: 0,1:27:07.13,1:27:10.83,Dialogue,,0,0,0,,I found it in your room during my washroom break.
+Dialogue: 0,1:27:15.66,1:27:16.29,Dialogue,,0,0,0,,Captain.
+Dialogue: 0,1:27:19.51,1:27:23.42,Dialogue,,0,0,0,,I'll have a long talk with you later.
+Dialogue: 0,1:27:26.39,1:27:29.02,Dialogue,,0,0,0,,Akiyoshi{\rHonorifics - Dialogue}-san{\r}, based on my deductions...
+Dialogue: 0,1:27:29.02,1:27:32.89,Dialogue,,0,0,0,,Let's just drop the act.\NAll three of us are going to die anyways.
+Dialogue: 0,1:27:33.10,1:27:37.89,Dialogue,,0,0,0,,A deduction like that on top\Nof a sinking ship is pointless.
+Dialogue: 0,1:27:39.15,1:27:40.90,Dialogue,,0,0,0,,How can I stop?
+Dialogue: 0,1:27:41.66,1:27:45.36,Dialogue,,0,0,0,,Revealing the truth is what detectives live for.
+Dialogue: 0,1:27:47.39,1:27:53.76,Dialogue,,0,0,0,,Most likely, you learned that Kusaka was planning to murder the four of them.
+Dialogue: 0,1:27:54.31,1:27:57.00,Dialogue,,0,0,0,,But there was an impossibility in his plan.
+Dialogue: 0,1:27:57.59,1:28:03.50,Dialogue,,0,0,0,,That's why you killed Hideto-shi first as though\Nhe died from an accident caused by a heart attack.
+Dialogue: 0,1:28:04.45,1:28:07.00,Dialogue,,0,0,0,,Using a self-made stun grenade.
+Dialogue: 0,1:28:09.22,1:28:14.16,Dialogue,,0,0,0,,With Hideto-shi's death, Kusaka changed the four murders to just three.
+Dialogue: 0,1:28:14.16,1:28:17.23,Dialogue,,0,0,0,,And decided to use you as an alibi.
+Dialogue: 0,1:28:17.51,1:28:24.23,Dialogue,,0,0,0,,Knowing that, you decided to take revenge with your own hands by using his plan.
+Dialogue: 0,1:28:24.54,1:28:28.45,Dialogue,,0,0,0,,First, you set up bombs separately from Kusaka's.
+Dialogue: 0,1:28:28.87,1:28:30.95,Dialogue,,0,0,0,,This is the ship you designed.
+Dialogue: 0,1:28:30.95,1:28:34.88,Dialogue,,0,0,0,,You should know exactly where to hit for it to sink.
+Dialogue: 0,1:28:35.24,1:28:39.29,Dialogue,,0,0,0,,Then, this morning at 10:00 A.M., you received the phone call from Kusaka,
+Dialogue: 0,1:28:39.29,1:28:42.70,Dialogue,,0,0,0,,and dashed out of your room\Njust as Kusaka began to read his story.
+Dialogue: 0,1:28:42.70,1:28:45.73,Dialogue,,0,0,0,,You knocked out Chief Takae who was taking a bath,
+Dialogue: 0,1:28:45.73,1:28:49.26,Dialogue,,0,0,0,,and put on the bath robe and pretended to be the Chief.
+Dialogue: 0,1:28:49.77,1:28:56.68,Dialogue,,0,0,0,,Then Kusaka came in and thought you were\NChief Takae since you were wearing a bathrobe,
+Dialogue: 0,1:28:57.79,1:29:01.11,Dialogue,,0,0,0,,And you pretended to fight him by trying to take the knife from him,
+Dialogue: 0,1:29:01.11,1:29:04.77,Dialogue,,0,0,0,,and stabbed it into your own stomach where you'd already put a blood-like substance.
+Dialogue: 0,1:29:05.04,1:29:09.14,Dialogue,,0,0,0,,And after Kusaka left, thinking he\Nhad done what he came for,
+Dialogue: 0,1:29:09.14,1:29:11.28,Dialogue,,0,0,0,,you murdered Chief Takae.
+Dialogue: 0,1:29:13.56,1:29:18.55,Dialogue,,0,0,0,,After you wiped the reddish substance from the floor and put on the windbreaker, you left the room.
+Dialogue: 0,1:29:33.72,1:29:39.68,Dialogue,,0,0,0,,At the time, I thought it was because you didn't want me to see your face that you turned your back to me.
+Dialogue: 0,1:29:40.26,1:29:42.46,Dialogue,,0,0,0,,But I realized it later.
+Dialogue: 0,1:29:42.90,1:29:44.69,Dialogue,,0,0,0,,Perhaps it was a woman.
+Dialogue: 0,1:29:44.95,1:29:48.15,Dialogue,,0,0,0,,Instinctively trying to turn away her chest.
+Dialogue: 0,1:29:48.32,1:29:49.33,Thoughts,,0,0,0,,{\be10}I see...
+Dialogue: 0,1:29:53.20,1:29:54.96,Thoughts,,0,0,0,,{\be10}That's why that time, he...
+Dialogue: 0,1:29:58.20,1:30:01.37,Dialogue,,0,0,0,,Afterwards, you went to the basement marina.
+Dialogue: 0,1:30:01.77,1:30:07.04,Dialogue,,0,0,0,,When you got there, it was just when the\NPresident sat on top of Kusaka, choking him.
+Dialogue: 0,1:30:07.85,1:30:12.05,Dialogue,,0,0,0,,You quickly ran up to the two of them,\Nthen held both feet of the President...
+Dialogue: 0,1:30:12.71,1:30:13.47,Dialogue,,0,0,0,,Both feet...?
+Dialogue: 0,1:30:14.43,1:30:20.26,Dialogue,,0,0,0,,That's right. You made sure that you didn't touch either of Kusaka's feet,
+Dialogue: 0,1:30:21.23,1:30:24.44,Dialogue,,0,0,0,,Right, right... Stabbed him in the back.
+Dialogue: 0,1:30:31.42,1:30:37.28,Dialogue,,0,0,0,,Since you hid yourself right afterwards,\NKusaka believed he did it himself.
+Dialogue: 0,1:30:37.28,1:30:40.16,Dialogue,,0,0,0,,All according to your plan.
+Dialogue: 0,1:30:41.51,1:30:44.82,Dialogue,,0,0,0,,You're indeed the great detective, Mouri Kogorou{\rHonorifics - Dialogue}-san{\r}.
+Dialogue: 0,1:30:45.36,1:30:51.27,Dialogue,,0,0,0,,I decided to use that man, because I learned that you were coming on this cruise.
+Dialogue: 0,1:30:51.27,1:30:56.38,Dialogue,,0,0,0,,In order to fool the eyes of the great detective, I needed a fake culprit.
+Dialogue: 0,1:30:56.73,1:31:00.89,Dialogue,,0,0,0,,Furthermore, I needed a culprit who really did think he had done it.
+Dialogue: 0,1:31:01.62,1:31:09.27,Dialogue,,0,0,0,,That man called my father, whose fate went down with the ship, the representation of an anachronism on his laptop.
+Dialogue: 0,1:31:09.99,1:31:12.74,Dialogue,,0,0,0,,I won't forgive anyone who talks badly about my father.
+Dialogue: 0,1:31:13.18,1:31:15.75,Dialogue,,0,0,0,,You're the one who cannot be forgiven.
+Dialogue: 0,1:31:16.86,1:31:20.05,Dialogue,,0,0,0,,Not only did you take the lives of those three,
+Dialogue: 0,1:31:20.05,1:31:23.29,Dialogue,,0,0,0,,You put a lot of innocent people in danger,
+Dialogue: 0,1:31:23.29,1:31:26.37,Dialogue,,0,0,0,,And you even sunk the ship\Nyou created to do such an act...
+Dialogue: 0,1:31:27.08,1:31:29.68,Dialogue,,0,0,0,,I've done detailed simulations over and over again.
+Dialogue: 0,1:31:29.68,1:31:34.02,Dialogue,,0,0,0,,The number of bombs, the amount of water entering the ship, the time it takes for the evacuation,
+Dialogue: 0,1:31:34.50,1:31:38.38,Dialogue,,0,0,0,,And even to the point where I saw that man over there,
+Dialogue: 0,1:31:38.38,1:31:43.72,Dialogue,,0,0,0,,Dying a gruesome, lonely, and depressing death upon these giant blue waves.
+Dialogue: 0,1:31:46.52,1:31:51.08,Dialogue,,0,0,0,,St. Aphrodite was born from nothing.
+Dialogue: 0,1:31:51.54,1:31:53.40,Dialogue,,0,0,0,,Its fate is to return to nothing.
+Dialogue: 0,1:31:55.19,1:31:59.41,Dialogue,,0,0,0,,But since you've managed to figure things out up until this point, I guess I have no choice.
+Dialogue: 0,1:31:59.41,1:32:01.28,Dialogue,,0,0,0,,I'll turn myself in quietly.
+Dialogue: 0,1:32:08.17,1:32:11.29,Dialogue,,0,0,0,,It's not my hobby to fight with a woman.
+Dialogue: 0,1:32:12.42,1:32:14.21,Dialogue,,0,0,0,,Isn't that sexist?
+Dialogue: 0,1:32:21.24,1:32:22.35,Thoughts,,0,0,0,,{\be10}Uncle...
+Dialogue: 0,1:32:29.18,1:32:32.35,Dialogue,,0,0,0,,What? Still can't change your hobby?
+Dialogue: 0,1:32:33.19,1:32:36.23,Dialogue,,0,0,0,,Like I said, fighting a woman isn't my hobby.
+Dialogue: 0,1:32:36.57,1:32:39.87,Dialogue,,0,0,0,,All three of us are going to die here anyway.
+Dialogue: 0,1:32:39.87,1:32:43.12,Dialogue,,0,0,0,,That's because you got in the way of my revenge!
+Dialogue: 0,1:33:06.89,1:33:08.28,Dialogue,,0,0,0,,That kid...
+Dialogue: 0,1:33:08.28,1:33:09.20,Dialogue,,0,0,0,,Shinichi?
+Dialogue: 0,1:33:09.20,1:33:09.93,Dialogue,,0,0,0,,Huh?
+Dialogue: 0,1:33:09.93,1:33:11.30,Dialogue,,0,0,0,,No, nothing...
+Dialogue: 0,1:33:41.92,1:33:44.43,Dialogue,,0,0,0,,Shall we end this soon...
+Dialogue: 0,1:33:46.11,1:33:47.64,Dialogue,,0,0,0,,Mouri Kogorou{\rHonorifics - Dialogue}-san{\r}?
+Dialogue: 0,1:33:58.51,1:34:03.24,Dialogue,,0,0,0,,I don't really want to see the great detective looking like this, but...
+Dialogue: 0,1:34:03.97,1:34:05.74,Dialogue,,0,0,0,,Mind your own business.
+Dialogue: 0,1:34:22.66,1:34:23.37,Dialogue,,0,0,0,,Uncle!
+Dialogue: 0,1:34:41.48,1:34:43.69,Dialogue,,0,0,0,,How unlucky,
+Dialogue: 0,1:34:44.07,1:34:47.70,Dialogue,,0,0,0,,to have the great detective\Nsuspect me from the very start.
+Dialogue: 0,1:34:48.74,1:34:53.20,Dialogue,,0,0,0,,Do I look that much like some woman you hate?
+Dialogue: 0,1:34:53.49,1:34:55.51,Dialogue,,0,0,0,,It's just the opposite.
+Dialogue: 0,1:34:55.51,1:34:57.85,Dialogue,,0,0,0,,You resemble her too much.
+Dialogue: 0,1:34:58.27,1:35:01.06,Dialogue,,0,0,0,,So I thought, as long as the culprit wasn't you, then it would be fine.
+Dialogue: 0,1:35:01.06,1:35:04.15,Dialogue,,0,0,0,,As I tried to find evidence to prove your innocence,
+Dialogue: 0,1:35:04.15,1:35:05.74,Dialogue,,0,0,0,,it turned out like this...
+Dialogue: 0,1:35:07.55,1:35:09.04,Dialogue,,0,0,0,,Uncle!
+Dialogue: 0,1:35:09.60,1:35:11.60,Dialogue,,0,0,0,,Are you all right, Uncle?
+Dialogue: 0,1:35:12.02,1:35:14.60,Thoughts,,0,0,0,,{\be10}That was a great deduction, Uncle!
+Dialogue: 0,1:35:15.25,1:35:17.31,Dialogue,,0,0,0,,What the heck are you doing here?
+Dialogue: 0,1:35:17.68,1:35:19.77,Dialogue,,0,0,0,,First thing first, we have to get out of here.
+Dialogue: 0,1:35:20.58,1:35:21.52,Thoughts,,0,0,0,,{\be10}Run away...?
+Dialogue: 0,1:35:21.85,1:35:28.10,Dialogue,,0,0,0,,We can't. All the emergency boats are gone and this woman's destroyed all the life rafts.
+Dialogue: 0,1:35:28.10,1:35:29.16,Dialogue,,0,0,0,,Hey, hey...
+Dialogue: 0,1:35:29.16,1:35:30.66,Dialogue,,0,0,0,,Captain!
+Dialogue: 0,1:35:30.89,1:35:32.31,Dialogue,,0,0,0,,Captain!
+Dialogue: 0,1:35:34.84,1:35:36.04,Dialogue,,0,0,0,,Captain...
+Dialogue: 0,1:35:36.51,1:35:37.90,Dialogue,,0,0,0,,We're saved.
+Dialogue: 0,1:35:41.53,1:35:43.53,Thoughts,,0,0,0,,{\be10}What's this feeling?
+Dialogue: 0,1:35:43.93,1:35:46.05,Thoughts,,0,0,0,,{\be10}The case has already been solved.
+Dialogue: 0,1:35:46.06,1:35:51.31,Thoughts,,0,0,0,,{\be10}So what's this stomach turning, unsettling feeling?
+Dialogue: 0,1:35:55.28,1:35:57.48,Dialogue,,0,0,0,,It's going to sink soon. Hurry.
+Dialogue: 0,1:36:01.21,1:36:03.83,Dialogue,,0,0,0,,Hey, you're next. Move it!
+Dialogue: 0,1:36:08.28,1:36:10.73,Dialogue,,0,0,0,,What are you doing? Hurry up and get on!
+Dialogue: 0,1:36:12.09,1:36:15.04,Dialogue,,0,0,0,,W-Where's Ran{\rHonorifics - Dialogue}-neechan{\r}?
+Dialogue: 0,1:36:15.98,1:36:17.91,Dialogue,,0,0,0,,Ran got on an emergency boat a long time ago...
+Dialogue: 0,1:36:18.09,1:36:20.62,Dialogue,,0,0,0,,What? You aren't with Ran?
+Dialogue: 0,1:36:21.24,1:36:22.84,Dialogue,,0,0,0,,Hey, what are you saying?
+Dialogue: 0,1:36:23.18,1:36:26.40,Dialogue,,0,0,0,,She went back to her hiding spot from\Nplaying hide and seek to get her gold medal.
+Dialogue: 0,1:36:26.40,1:36:28.84,Dialogue,,0,0,0,,So I thought she was with you...
+Dialogue: 0,1:36:28.84,1:36:30.30,Thoughts,,0,0,0,,{\be10}That's it!
+Dialogue: 0,1:36:30.57,1:36:32.42,Dialogue,,0,0,0,,Hey, hold on a minute!
+Dialogue: 0,1:36:50.69,1:36:53.74,Dialogue,,0,0,0,,Hey, where's Ran?
+Dialogue: 0,1:36:57.83,1:36:59.58,Dialogue,,0,0,0,,Someone!
+Dialogue: 0,1:36:59.58,1:37:02.08,Dialogue,,0,0,0,,Is anyone there?!
+Dialogue: 0,1:37:09.40,1:37:12.70,Flashback,,0,0,0,,{\be10}Hey, Ran. So you were here all along.
+Dialogue: 0,1:37:13.92,1:37:18.43,Thoughts,,0,0,0,,{\be10}Shinichi, you'll find me, right?
+Dialogue: 0,1:37:18.79,1:37:20.18,Thoughts,,0,0,0,,{\be10}Shinichi?
+Dialogue: 0,1:37:21.77,1:37:23.85,Dialogue,,0,0,0,,Hey, where's Ran?
+Dialogue: 0,1:37:23.85,1:37:27.36,Dialogue,,0,0,0,,Ran{\rHonorifics - Dialogue}-neechan{\r} knew that I was kicking\Nthe ball here the entire time.
+Dialogue: 0,1:37:27.71,1:37:29.15,Dialogue,,0,0,0,,That means...
+Dialogue: 0,1:37:31.11,1:37:32.57,Dialogue,,0,0,0,,the upper deck!
+Dialogue: 0,1:37:35.72,1:37:37.26,Thoughts,,0,0,0,,{\be10}I'll find you.
+Dialogue: 0,1:37:37.26,1:37:40.45,Thoughts,,0,0,0,,{\be10}I promise I'll find you.\NSo wait for me, Ran!
+Dialogue: 0,1:37:44.53,1:37:46.92,Dialogue,,0,0,0,,Hey, where's Ran?!
+Dialogue: 0,1:37:47.75,1:37:50.73,Thoughts,,0,0,0,,{\be10}Calm down. Calm down and think.
+Dialogue: 0,1:37:51.25,1:37:53.43,Thoughts,,0,0,0,,{\be10}You found her easily at that time, too.
+Dialogue: 0,1:37:57.01,1:37:58.19,Thoughts,,0,0,0,,{\be10}Come to think of it...
+Dialogue: 0,1:37:58.70,1:38:01.03,Flashback,,0,0,0,,{\be10}How did you know where I was?
+Dialogue: 0,1:38:01.03,1:38:03.89,Flashback,,0,0,0,,{\be10}You were so caught up in kicking your soccer ball.
+Dialogue: 0,1:38:03.89,1:38:07.20,Flashback,,0,0,0,,{\be10}You were kicking the soccer ball the entire time.\NWeren't you, Conan{\rHonorifics - Flashback\be10}-kun{\r\be10}?
+Dialogue: 0,1:38:07.20,1:38:08.69,Flashback,,0,0,0,,{\be10}I know it all.
+Dialogue: 0,1:38:08.93,1:38:11.75,Thoughts,,0,0,0,,{\be10}That's it. That day and today, both times...
+Dialogue: 0,1:38:11.75,1:38:12.57,Dialogue,,0,0,0,,Uncle!
+Dialogue: 0,1:38:12.95,1:38:15.84,Dialogue,,0,0,0,,Are there any places where you\Ncan hide under the floor?
+Dialogue: 0,1:38:17.88,1:38:19.37,Dialogue,,0,0,0,,I found one!
+Dialogue: 0,1:38:27.68,1:38:30.36,Dialogue,,0,0,0,,Damn it. It won't open.
+Dialogue: 0,1:38:35.91,1:38:36.64,Dialogue,,0,0,0,,Uncle!
+Dialogue: 0,1:38:48.56,1:38:50.07,Dialogue,,0,0,0,,It broke through!
+Dialogue: 0,1:38:50.29,1:38:51.98,Dialogue,,0,0,0,,Ran! You there, Ran?!
+Dialogue: 0,1:38:57.78,1:38:58.99,Dialogue,,0,0,0,,Dad?
+Dialogue: 0,1:38:59.43,1:39:00.54,Dialogue,,0,0,0,,She's all right.
+Dialogue: 0,1:39:00.54,1:39:02.41,Dialogue,,0,0,0,,We need to hurry, Uncle.
+Dialogue: 0,1:39:02.41,1:39:03.92,Dialogue,,0,0,0,,Damn it!
+Dialogue: 0,1:39:07.08,1:39:09.02,Dialogue,,0,0,0,,This is bad... This is bad...
+Dialogue: 0,1:39:09.02,1:39:11.88,Dialogue,,0,0,0,,If we don't turn around the boat soon,\NRan and the others will sink!
+Dialogue: 0,1:39:12.33,1:39:14.50,Dialogue,,0,0,0,,I'm sorry, but I can't do that.
+Dialogue: 0,1:39:14.50,1:39:18.39,Dialogue,,0,0,0,,If we return now, there's a chance that we'll get caught in the whirlpool from the cruiser as it sinks.
+Dialogue: 0,1:39:18.39,1:39:19.56,Dialogue,,0,0,0,,Oh, no!
+Dialogue: 0,1:39:24.64,1:39:26.84,Dialogue,,0,0,0,,It's the rescue chopper from the coast guard!
+Dialogue: 0,1:39:26.84,1:39:27.64,Dialogue,,0,0,0,,Thank goodness!
+Dialogue: 0,1:39:34.40,1:39:35.53,Dialogue,,0,0,0,,It's a rescue chopper!
+Dialogue: 0,1:39:38.05,1:39:38.83,Dialogue,,0,0,0,,This isn't good.
+Dialogue: 0,1:39:38.83,1:39:40.08,Dialogue,,0,0,0,,Let's run to the bow.
+Dialogue: 0,1:39:48.08,1:39:49.92,Dialogue,,0,0,0,,Hey, we're over here!
+Dialogue: 0,1:39:50.17,1:39:51.47,Dialogue,,0,0,0,,Hey!
+Dialogue: 0,1:40:05.99,1:40:07.51,Dialogue,,0,0,0,,Is this everyone?
+Dialogue: 0,1:40:07.51,1:40:08.39,Dialogue,,0,0,0,,Yes.
+Dialogue: 0,1:40:08.39,1:40:12.33,Dialogue,,0,0,0,,Boy, just hold on a little longer.\NI'll save you right now.
+Dialogue: 0,1:40:12.33,1:40:12.98,Dialogue,,0,0,0,,OK.
+Dialogue: 0,1:40:22.22,1:40:24.47,Dialogue,,0,0,0,,All right. Hold on tightly, son.
+Dialogue: 0,1:40:24.47,1:40:25.04,Dialogue,,0,0,0,,OK.
+Dialogue: 0,1:40:25.39,1:40:29.36,Dialogue,,0,0,0,,We'll pull you up now.\NSupport the young lady firmly.
+Dialogue: 0,1:40:29.36,1:40:30.42,Dialogue,,0,0,0,,I got it.
+Dialogue: 0,1:40:51.93,1:40:52.85,Dialogue,,0,0,0,,What happened?
+Dialogue: 0,1:41:02.78,1:41:04.16,Dialogue,,0,0,0,,Grab on!
+Dialogue: 0,1:41:07.48,1:41:08.51,Dialogue,,0,0,0,,Shit!
+Dialogue: 0,1:41:25.66,1:41:28.22,Dialogue,,0,0,0,,Hold on tight, Conan{\rHonorifics - Dialogue}-kun{\r}.
+Dialogue: 0,1:41:30.04,1:41:31.73,Dialogue,,0,0,0,,Ran, are you all right?
+Dialogue: 0,1:41:40.91,1:41:42.15,Dialogue,,0,0,0,,Boy!
+Dialogue: 0,1:41:43.76,1:41:44.95,Dialogue,,0,0,0,,Give me your hand.
+Dialogue: 0,1:46:02.05,1:46:03.19,Dialogue,,0,0,0,,We're almost there.
+Dialogue: 0,1:46:03.19,1:46:04.50,Dialogue,,0,0,0,,Thank you.
+Dialogue: 0,1:46:05.09,1:46:07.17,Dialogue,,0,0,0,,Your parents' boats are already nearby.
+Dialogue: 0,1:46:11.55,1:46:17.68,Dialogue,,0,0,0,,Then you first figured out that she was the culprit\Nwhen you realized Kusaka's alibi plan was too simple?
+Dialogue: 0,1:46:17.68,1:46:22.32,Dialogue,,0,0,0,,Yeah. The reason such a simple alibi plan worked,
+Dialogue: 0,1:46:22.32,1:46:27.69,Dialogue,,0,0,0,,was because the phone partner,\NMinako{\rHonorifics - Dialogue}-san{\r}, used that alibi as well.
+Dialogue: 0,1:46:27.69,1:46:31.96,Dialogue,,0,0,0,,And the only one who can disguise herself as Chief Takae with her smooth legs,
+Dialogue: 0,1:46:31.96,1:46:35.16,Dialogue,,0,0,0,,is Minako{\rHonorifics - Dialogue}-san{\r}, who has the same smooth legs.
+Dialogue: 0,1:46:35.16,1:46:40.12,Dialogue,,0,0,0,,I see. But I'm impressed you\Nfound out where Ran{\rHonorifics - Dialogue}-kun{\r} was.
+Dialogue: 0,1:46:40.12,1:46:42.00,Dialogue,,0,0,0,,Oh, that's because...
+Dialogue: 0,1:46:42.00,1:46:44.32,Dialogue,,0,0,0,,I was more worried than you, you know!
+Dialogue: 0,1:46:44.32,1:46:49.67,Dialogue,,0,0,0,,That time, I was kicking a volley ball,\Nbut Ran{\rHonorifics - Dialogue}-neechan{\r} said it was a soccer ball.
+Dialogue: 0,1:46:50.28,1:46:54.67,Dialogue,,0,0,0,,That's why I thought she might be somewhere where she could only hear the sound.
+Dialogue: 0,1:46:55.03,1:46:57.06,Dialogue,,0,0,0,,But it's really disappointing.
+Dialogue: 0,1:46:57.06,1:47:03.85,Dialogue,,0,0,0,,I'm happy that Ran got saved and all, but, I thought the only person that could find Ran was Kudou{\rHonorifics - Dialogue}-kun{\r}.
+Dialogue: 0,1:47:05.57,1:47:07.28,Thoughts,,0,0,0,,{\be10}No. The one who was saved was...
+Dialogue: 0,1:47:07.28,1:47:09.15,Dialogue,,0,0,0,,Ran{\rHonorifics - Dialogue}-oneesan{\r}!
+Dialogue: 0,1:47:09.15,1:47:11.65,Dialogue,,0,0,0,,We fixed the gold medal!
+Dialogue: 0,1:47:11.91,1:47:15.65,Dialogue,,0,0,0,,We've made it so that you can actually put it on your neck with a longer string.
+Dialogue: 0,1:47:16.06,1:47:17.53,Dialogue,,0,0,0,,I'll put it on for you!
+Dialogue: 0,1:47:25.59,1:47:26.92,Dialogue,,0,0,0,,Thank you.
+Dialogue: 0,1:47:26.92,1:47:29.05,Dialogue,,0,0,0,,It looks nice on you.
+Dialogue: 0,1:47:29.05,1:47:31.88,Dialogue,,0,0,0,,I'll treasure it always.
+Dialogue: 0,1:47:36.53,1:47:38.30,Thoughts,,0,0,0,,{\be10}I was saved...
+Dialogue: 0,1:47:38.90,1:47:43.38,Thoughts,,0,0,0,,{\be10}Thanks to those guys' considerate feelings for others.

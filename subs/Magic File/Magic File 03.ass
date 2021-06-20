@@ -1,0 +1,450 @@
+[Script Info]
+Title: Detective Conan - Magic File 03
+TL Source: DCTP
+ScriptType: v4.00+
+WrapStyle: 3
+PlayResX: 1440
+PlayResY: 1080
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Dialogue,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00401311,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Dialogue Top,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00401311,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,8,30,30,55,1
+Style: Signs,FrancophilSans,74,&H14FFFFFF,&H00FFFFFF,&H46101010,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,8,30,30,55,1
+Style: Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,0,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Radio,FrancophilSans,74,&H00BEE1FF,&H00FFFFFF,&H000B2A42,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Narration,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00BF6F00,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Narration Off,FrancophilSans,74,&H6E8C6F00,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,0,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Flashback,FrancophilSans,74,&H00CDFAFF,&H00FFFFFF,&H00373737,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Flashback Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00CCFFFF,&HC0313134,-1,0,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Honorifics - Dialogue,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00401311,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Signs,FrancophilSans,74,&H14FFFFFF,&H00FFFFFF,&H46101010,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,-1,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Honorifics - Radio,FrancophilSans,74,&H00BEE1FF,&H00FFFFFF,&H000B2A42,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Narration,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00BF6F00,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Narration Off,FrancophilSans,74,&H6E8C6F00,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,-1,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Honorifics - Flashback,FrancophilSans,74,&H00CDFAFF,&H00FFFFFF,&H00373737,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Flashback Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00CCFFFF,&HC0313134,-1,-1,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Masks,FrancophilSans,74,&H00000000,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,2,0,0,0,1
+Style: Title,Conan Episode Title,74,&H00E1E4E3,&H000000FF,&HC8DBDAE1,&HC0000000,-1,0,0,0,100,100,0,0,1,1,0,5,0,0,0,1
+Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-1,0,0,0,100,100,0,0,1,0,0,2,0,0,65,1
+Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
+Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
+Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:01.55,0:00:04.92,Signs,Sign,0,0,0,,Riichi\NBeika Mahjong
+Dialogue: 0,0:00:08.65,0:00:10.96,Dialogue,,0,0,0,,As expected, it's tiring, isn't it?
+Dialogue: 0,0:00:11.29,0:00:13.93,Dialogue,,0,0,0,,We've been at this for nearly twelve hours, after all.
+Dialogue: 0,0:00:15.06,0:00:17.00,Dialogue,,0,0,0,,This is the last round.
+Dialogue: 0,0:00:17.00,0:00:18.90,Dialogue,,0,0,0,,Let's finish this quickly.
+Dialogue: 0,0:00:20.77,0:00:22.20,Dialogue,,0,0,0,,Yes!
+Dialogue: 0,0:00:22.20,0:00:24.57,Dialogue,,0,0,0,,Finally! Just one more tile to win this!
+Dialogue: 0,0:00:44.92,0:00:46.99,Dialogue,,0,0,0,,Only a single 1-Pin tile left, huh?
+Dialogue: 0,0:00:47.16,0:00:49.23,Dialogue,,0,0,0,,The probability of it appearing is fifty-fifty.
+Dialogue: 0,0:00:50.03,0:00:52.03,Dialogue,,0,0,0,,If I can get that 1-Pin...
+Dialogue: 0,0:00:55.20,0:00:57.67,Dialogue,,0,0,0,,This'll be my walk-off home run!
+Dialogue: 0,0:01:08.75,0:01:11.02,Dialogue,,0,0,0,,Come to Papa, 1-Pin!
+Dialogue: 0,0:01:14.32,0:01:15.25,Dialogue,,0,0,0,,1-Pin...
+Dialogue: 0,0:01:19.02,0:01:20.26,Dialogue,,0,0,0,,1-Pin...
+Dialogue: 0,0:01:22.76,0:01:24.16,Dialogue,,0,0,0,,I've won!
+Dialogue: 0,0:01:24.16,0:01:28.03,Dialogue,,0,0,0,,Four concealed triplets, one pair to-be, all\Nones and nines—a triple yakuman bonus!
+Dialogue: 0,0:01:28.03,0:01:29.23,Dialogue,,0,0,0,,Uncle?
+Dialogue: 0,0:01:31.84,0:01:33.41,Dialogue,,0,0,0,,Mouri{\rHonorifics - Dialogue}-chan{\r}, this...
+Dialogue: 0,0:01:33.41,0:01:34.47,Dialogue,,0,0,0,,Isn't a win, is it?
+Dialogue: 0,0:01:35.54,0:01:36.61,Dialogue,,0,0,0,,Oh!
+Dialogue: 0,0:01:36.61,0:01:38.54,Dialogue,,0,0,0,,It's a grape peel.
+Dialogue: 0,0:01:40.38,0:01:41.55,Dialogue,,0,0,0,,A white tile!?
+Dialogue: 0,0:01:41.95,0:01:44.78,Dialogue,,0,0,0,,Could it be that you thought it was a 1-Pin?
+Dialogue: 0,0:01:45.08,0:01:47.42,Dialogue,,0,0,0,,Unfortunately, a goof up.
+Dialogue: 0,0:01:47.42,0:01:49.72,Dialogue,,0,0,0,,That means you automatically finish in last place.
+Dialogue: 0,0:01:50.32,0:01:53.16,Dialogue,,0,0,0,,No... No way!
+Dialogue: 0,0:01:56.66,0:02:02.73,Signs,Sign,0,0,0,,SHINICHI & RAN\NMEMORIES OF MAHJONG TILES & TANABATA
+Dialogue: 0,0:02:06.27,0:02:09.47,Dialogue,,0,0,0,,He thought a white was a 1-Pin because of a grape peel?
+Dialogue: 0,0:02:09.77,0:02:11.48,Dialogue,,0,0,0,,What a blunder!
+Dialogue: 0,0:02:12.44,0:02:15.15,Dialogue,,0,0,0,,Uncle hasn't eaten any grapes since.
+Dialogue: 0,0:02:15.15,0:02:16.82,Dialogue,,0,0,0,,Seems he was put off by that experience.
+Dialogue: 0,0:02:17.28,0:02:19.08,Dialogue,,0,0,0,,What's a "White"?
+Dialogue: 0,0:02:19.08,0:02:20.59,Dialogue,,0,0,0,,What's a "1-pin"?
+Dialogue: 0,0:02:20.95,0:02:22.82,Dialogue,,0,0,0,,I'm not sure either, but...
+Dialogue: 0,0:02:22.82,0:02:24.36,Dialogue,,0,0,0,,They appear to be mahjong terms.
+Dialogue: 0,0:02:24.72,0:02:25.66,Dialogue,,0,0,0,,That's right...
+Dialogue: 0,0:02:25.66,0:02:27.99,Dialogue,,0,0,0,,You guys aren't familiar with mahjong.
+Dialogue: 0,0:02:29.29,0:02:32.00,Dialogue,,0,0,0,,Let's see, it should be around here somewhere...
+Dialogue: 0,0:02:33.40,0:02:34.87,Dialogue,,0,0,0,,Yeah, this is the one.
+Dialogue: 0,0:02:38.77,0:02:39.37,Dialogue,,0,0,0,,They're pretty!
+Dialogue: 0,0:02:39.87,0:02:41.34,Dialogue,,0,0,0,,These are mahjong tiles.
+Dialogue: 0,0:02:42.14,0:02:45.68,Dialogue,,0,0,0,,Man, Sou, and Pin are suits of numbered tiles...
+Dialogue: 0,0:02:45.68,0:02:48.35,Dialogue,,0,0,0,,And these are the Dragon and Wind tiles.
+Dialogue: 0,0:02:48.85,0:02:50.62,Dialogue,,0,0,0,,Ayumi can read these kanji!
+Dialogue: 0,0:02:51.05,0:02:54.39,Dialogue,,0,0,0,,Higashi, minami, nishi, kita...
+Dialogue: 0,0:02:51.05,0:02:54.39,Signs,alt,0,0,0,,east
+Dialogue: 0,0:02:51.05,0:02:54.39,Signs,alt,0,0,0,,west
+Dialogue: 0,0:02:51.05,0:02:54.39,Signs,alt,0,0,0,,south
+Dialogue: 0,0:02:51.05,0:02:54.39,Signs,alt,0,0,0,,north
+Dialogue: 0,0:02:54.39,0:02:55.82,Dialogue,,0,0,0,,That's how they're written, right?
+Dialogue: 0,0:02:56.35,0:02:57.09,Dialogue,,0,0,0,,That's right, but...
+Dialogue: 0,0:02:57.09,0:02:59.06,Dialogue,,0,0,0,,In mahjong, we use faux-Chinese pronunciation.
+Dialogue: 0,0:02:59.06,0:03:02.56,Dialogue,,0,0,0,,This way, they're read ton, nan, sha, pei.
+Dialogue: 0,0:03:02.89,0:03:05.33,Dialogue,,0,0,0,,Similarly, the numbers 1 through 9 are read as...
+Dialogue: 0,0:03:05.96,0:03:12.04,Dialogue,,0,0,0,,I, ryan, san, su, wu, rou, chi, pa, kyu.
+Dialogue: 0,0:03:12.04,0:03:15.57,Dialogue,,0,0,0,,Some pronounce kyu as chu, like me.
+Dialogue: 0,0:03:15.84,0:03:18.18,Dialogue,,0,0,0,,These are the kanji for the numbers, right?
+Dialogue: 0,0:03:18.18,0:03:20.98,Dialogue,,0,0,0,,But, why is five written as 伍 instead of 五?
+Dialogue: 0,0:03:21.38,0:03:26.55,Dialogue,,0,0,0,,This special kanji for five is used in currency writing.
+Dialogue: 0,0:03:27.15,0:03:32.82,Dialogue,,0,0,0,,And the kanji "man" is a motif of the\Ncurrency unit used in ancient China.
+Dialogue: 0,0:03:33.36,0:03:35.43,Dialogue,,0,0,0,,The same goes for Pin's and Sou's, right?
+Dialogue: 0,0:03:35.83,0:03:38.83,Dialogue,,0,0,0,,The circular Pin's represent coins...
+Dialogue: 0,0:03:39.20,0:03:45.34,Dialogue,,0,0,0,,While the rod-like Sou's represent bamboo sticks\Nthat were used to string coins together in the past.
+Dialogue: 0,0:03:46.34,0:03:48.61,Dialogue,,0,0,0,,Those are numbers, too?
+Dialogue: 0,0:03:48.61,0:03:50.34,Dialogue,,0,0,0,,I see, so that's it!
+Dialogue: 0,0:03:50.81,0:03:52.98,Dialogue,,0,0,0,,For Pin's, you can count the number of circles...
+Dialogue: 0,0:03:52.98,0:03:56.18,Dialogue,,0,0,0,,And for Sou's, you can count the amount of rods, right?
+Dialogue: 0,0:03:56.95,0:03:58.18,Dialogue,,0,0,0,,And this bird?
+Dialogue: 0,0:03:58.45,0:04:00.59,Dialogue,,0,0,0,,That's the "one" in the Sou suit.
+Dialogue: 0,0:04:01.02,0:04:04.19,Dialogue,,0,0,0,,As for why it's a bird, I'm not sure either, but...
+Dialogue: 0,0:04:04.56,0:04:07.19,Dialogue,,0,0,0,,Let's take the Pin's suit for instance.
+Dialogue: 0,0:04:07.63,0:04:10.26,Dialogue,,0,0,0,,This is a 1-Pin, read as ipin...
+Dialogue: 0,0:04:10.26,0:04:12.23,Dialogue,,0,0,0,,7-Pin, or chipin...
+Dialogue: 0,0:04:12.23,0:04:14.40,Dialogue,,0,0,0,,And 9-Pin, or chupin.
+Dialogue: 0,0:04:14.90,0:04:16.03,Dialogue,,0,0,0,,I see!
+Dialogue: 0,0:04:16.03,0:04:17.47,Dialogue,,0,0,0,,This is interesting!
+Dialogue: 0,0:04:17.47,0:04:19.17,Dialogue,,0,0,0,,I don't really get it...
+Dialogue: 0,0:04:19.17,0:04:21.41,Dialogue,,0,0,0,,Professor, what was the "White" you mentioned just now?
+Dialogue: 0,0:04:22.11,0:04:23.07,Dialogue,,0,0,0,,Just look at these.
+Dialogue: 0,0:04:23.61,0:04:25.48,Dialogue,,0,0,0,,White, Green, and Red tiles.
+Dialogue: 0,0:04:25.94,0:04:28.08,Dialogue,,0,0,0,,These three are also called Dragon tiles.
+Dialogue: 0,0:04:28.35,0:04:29.51,Dialogue,,0,0,0,,White is for skin color...
+Dialogue: 0,0:04:29.51,0:04:30.98,Dialogue,,0,0,0,,Dark Green is for hair color...
+Dialogue: 0,0:04:30.98,0:04:35.45,Dialogue,,0,0,0,,And Red is for lip color, representing the three features of a beauty.
+Dialogue: 0,0:04:39.49,0:04:40.43,Dialogue,,0,0,0,,Hey, hey...
+Dialogue: 0,0:04:41.26,0:04:44.53,Dialogue,,0,0,0,,And when he saw this White with a round grape peel on top of it...
+Dialogue: 0,0:04:44.53,0:04:47.97,Dialogue,,0,0,0,,Mouri{\rHonorifics - Dialogue}-kun{\r} mistook it as a 1-Pin.
+Dialogue: 0,0:04:48.80,0:04:50.17,Dialogue,,0,0,0,,They don't look alike at all.
+Dialogue: 0,0:04:50.17,0:04:53.34,Dialogue,,0,0,0,,Even though the 1-Pin does look purplish, it has a bright red center...
+Dialogue: 0,0:04:53.34,0:04:54.67,Dialogue,,0,0,0,,How stupid.
+Dialogue: 0,0:04:58.48,0:05:02.48,Dialogue,,0,0,0,,They finally understand why you and the professor laughed.
+Dialogue: 0,0:05:02.48,0:05:03.28,Dialogue,,0,0,0,,Yeah.
+Dialogue: 0,0:05:03.28,0:05:04.15,Dialogue,,0,0,0,,But...
+Dialogue: 0,0:05:04.15,0:05:07.52,Dialogue,,0,0,0,,Was it necessary to go through all\Nthat just to explain White and 1-Pin's?
+Dialogue: 0,0:05:07.52,0:05:11.02,Signs,Sign,0,0,0,,Riichi\NBeika Mahjong
+Dialogue: 0,0:05:16.63,0:05:17.70,Dialogue,,0,0,0,,W-What?
+Dialogue: 0,0:05:17.86,0:05:19.33,Dialogue,,0,0,0,,You're discarding that tile?
+Dialogue: 0,0:05:19.33,0:05:20.43,Dialogue,,0,0,0,,It's such a waste.
+Dialogue: 0,0:05:20.73,0:05:22.23,Dialogue,,0,0,0,,I agree.
+Dialogue: 0,0:05:22.23,0:05:23.13,Dialogue,,0,0,0,,It's better to keep...
+Dialogue: 0,0:05:23.54,0:05:24.54,Dialogue,,0,0,0,,Shut up!
+Dialogue: 0,0:05:24.54,0:05:27.04,Dialogue,,0,0,0,,I can think for myself!
+Dialogue: 0,0:05:28.47,0:05:30.01,Dialogue,,0,0,0,,Discarding your bonus tile, Mouri{\rHonorifics - Dialogue}-chan{\r}?
+Dialogue: 0,0:05:28.47,0:05:33.31,Signs,Note,0,0,0,,The bonus tile is determined prior to each round.\NIn this particular round, the bonus tile is 1-pin.
+Dialogue: 0,0:05:30.58,0:05:32.94,Dialogue,,0,0,0,,As Ran{\rHonorifics - Dialogue}-chan{\r} said, it's such a waste.
+Dialogue: 0,0:05:33.18,0:05:34.58,Dialogue,,0,0,0,,I said it's fine!
+Dialogue: 0,0:05:34.98,0:05:36.28,Dialogue,,0,0,0,,Outsiders should shut up!
+Dialogue: 0,0:05:36.95,0:05:38.92,Dialogue,,0,0,0,,You're Kouda{\rHonorifics - Dialogue}-kun{\r}, aren't you?
+Dialogue: 0,0:05:38.92,0:05:40.29,Dialogue,,0,0,0,,What's your occupation?
+Dialogue: 0,0:05:40.89,0:05:42.52,Dialogue,,0,0,0,,Just an ordinary office worker.
+Dialogue: 0,0:05:43.05,0:05:45.12,Dialogue,,0,0,0,,But his wife is amazing.
+Dialogue: 0,0:05:45.46,0:05:47.89,Dialogue,,0,0,0,,She's a best-selling illustrator.
+Dialogue: 0,0:05:48.19,0:05:49.46,Dialogue,,0,0,0,,Heard of her?
+Dialogue: 0,0:05:49.46,0:05:50.53,Dialogue,,0,0,0,,"Kouda Jun," that is.
+Dialogue: 0,0:05:51.23,0:05:52.26,Dialogue,,0,0,0,,Yes, I have.
+Dialogue: 0,0:05:52.26,0:05:55.53,Dialogue,,0,0,0,,She's a beauty with great drawing ability, right?
+Dialogue: 0,0:05:56.80,0:05:58.30,Dialogue,,0,0,0,,Is she really that beautiful?
+Dialogue: 0,0:05:58.67,0:06:01.01,Dialogue,,0,0,0,,But, poor Kouda{\rHonorifics - Dialogue}-chan{\r} here...
+Dialogue: 0,0:06:01.01,0:06:03.31,Dialogue,,0,0,0,,He's been apart from his wife for three months.
+Dialogue: 0,0:06:03.74,0:06:04.24,Dialogue,,0,0,0,,Why?
+Dialogue: 0,0:06:04.78,0:06:07.75,Dialogue,,0,0,0,,His wife's currently confining herself to a mountain villa in Izu.
+Dialogue: 0,0:06:07.75,0:06:10.38,Dialogue,,0,0,0,,It seems she can't concentrate on her work unless she stays there.
+Dialogue: 0,0:06:10.38,0:06:11.55,Dialogue,,0,0,0,,Right, Kouda{\rHonorifics - Dialogue}-chan{\r}?
+Dialogue: 0,0:06:13.89,0:06:16.65,Dialogue,,0,0,0,,Then, you're living alone at the moment?
+Dialogue: 0,0:06:16.65,0:06:18.16,Dialogue,,0,0,0,,Yeah, I guess.
+Dialogue: 0,0:06:21.59,0:06:23.03,Dialogue,,0,0,0,,I told you so!
+Dialogue: 0,0:06:23.60,0:06:25.23,Dialogue,,0,0,0,,I just hate these 1-Pin's!
+Dialogue: 0,0:06:27.27,0:06:29.57,Dialogue,,0,0,0,,Just because of the blunder you made that time...
+Dialogue: 0,0:06:29.97,0:06:34.11,Dialogue,,0,0,0,,Well, you should use this opportunity to\Nenjoy your bachelorhood once more.
+Dialogue: 0,0:06:34.47,0:06:35.27,Dialogue,,0,0,0,,Yep.
+Dialogue: 0,0:06:35.27,0:06:38.28,Dialogue,,0,0,0,,Your wife could be having the time of her life over there as well.
+Dialogue: 0,0:06:39.98,0:06:41.61,Dialogue,,0,0,0,,What do you mean by {\i1}that{\i0}?
+Dialogue: 0,0:06:44.45,0:06:48.52,Dialogue,,0,0,0,,Are you insinuating that she's having an affair?
+Dialogue: 0,0:06:49.19,0:06:49.82,Dialogue,,0,0,0,,No...
+Dialogue: 0,0:06:49.82,0:06:51.52,Dialogue,,0,0,0,,Why would I say that?
+Dialogue: 0,0:06:53.39,0:06:55.09,Dialogue,,0,0,0,,I was just joking.
+Dialogue: 0,0:06:55.09,0:06:56.06,Dialogue,,0,0,0,,My bad.
+Dialogue: 0,0:06:56.39,0:06:58.63,Dialogue,,0,0,0,,Really, that's just wrong, Okano.
+Dialogue: 0,0:06:58.63,0:07:00.03,Dialogue,,0,0,0,,C'mon, let's continue the game.
+Dialogue: 0,0:07:08.37,0:07:09.37,Dialogue,,0,0,0,,That's risky.
+Dialogue: 0,0:07:09.97,0:07:11.98,Dialogue,,0,0,0,,I don't think you should discard that either.
+Dialogue: 0,0:07:14.55,0:07:15.75,Dialogue,,0,0,0,,My win!
+Dialogue: 0,0:07:16.15,0:07:18.85,Dialogue,,0,0,0,,All sequence tiles, junchan, three same\Nsequence tiles, and double bonus tiles!
+Dialogue: 0,0:07:16.15,0:07:23.19,Signs,Note,0,0,0,,Junchan refers to any five of the 11, 99, 111, 123, 789, and 999 combinations of the Man, Pin, and\NSou suits. Adding the discarded 1-Sou, his 789-Man, 123789-Sou, 11789-Pin, 123-Sou would qualify.
+Dialogue: 0,0:07:20.35,0:07:21.92,Dialogue,,0,0,0,,Double yakuman bonus!?
+Dialogue: 0,0:07:22.22,0:07:24.39,Dialogue,,0,0,0,,See, isn't that exactly what I said?
+Dialogue: 0,0:07:24.39,0:07:27.33,Dialogue,,0,0,0,,You can tell from the tiles Hasegawa{\rHonorifics - Dialogue}-san{\r} discarded.
+Dialogue: 0,0:07:27.33,0:07:28.49,Dialogue,,0,0,0,,Shut up!
+Dialogue: 0,0:07:28.49,0:07:32.43,Dialogue,,0,0,0,,It's all because you two were so noisy!
+Dialogue: 0,0:07:32.43,0:07:33.30,Dialogue,,0,0,0,,Get lost!
+Dialogue: 0,0:07:35.10,0:07:36.10,Dialogue,,0,0,0,,Conan{\rHonorifics - Dialogue}-kun{\r}!
+Dialogue: 0,0:07:37.77,0:07:38.87,Dialogue,,0,0,0,,Are you all right?
+Dialogue: 0,0:07:39.74,0:07:40.61,Dialogue,,0,0,0,,I'm used to it.
+Dialogue: 0,0:07:41.34,0:07:42.17,Dialogue,,0,0,0,,What's with you?
+Dialogue: 0,0:07:42.17,0:07:44.48,Dialogue,,0,0,0,,We were only trying to offer our advice.
+Dialogue: 0,0:07:45.41,0:07:46.98,Dialogue,,0,0,0,,This is much better.
+Dialogue: 0,0:07:49.48,0:07:50.45,Dialogue,,0,0,0,,This set of tiles...
+Dialogue: 0,0:07:51.62,0:07:53.18,Dialogue,,0,0,0,,Do these tiles exist?
+Dialogue: 0,0:07:54.49,0:07:55.75,Dialogue,,0,0,0,,Those are flower tiles.
+Dialogue: 0,0:07:55.75,0:07:56.45,Dialogue,,0,0,0,,Flower tiles?
+Dialogue: 0,0:07:56.86,0:08:00.96,Dialogue,,0,0,0,,I've heard they use those when they\Nplay Hong Kong or Taiwan mahjong.
+Dialogue: 0,0:08:02.89,0:08:04.30,Dialogue,,0,0,0,,This is my first time seeing them.
+Dialogue: 0,0:08:04.30,0:08:04.70,Dialogue,,0,0,0,,So pretty.
+Dialogue: 0,0:08:05.63,0:08:06.73,Dialogue,,0,0,0,,Spring...
+Dialogue: 0,0:08:06.73,0:08:08.43,Dialogue,,0,0,0,,Summer...
+Dialogue: 0,0:08:08.43,0:08:10.03,Dialogue,,0,0,0,,Autumn...
+Dialogue: 0,0:08:10.03,0:08:10.57,Dialogue,,0,0,0,,Winter.
+Dialogue: 0,0:08:11.80,0:08:14.71,Dialogue,,0,0,0,,Plum blossom, orchid, chrysanthemum, and bamboo, right?
+Dialogue: 0,0:08:15.21,0:08:17.31,Dialogue,,0,0,0,,"Orchid" is Ran{\rHonorifics - Dialogue}-neechan{\r}'s tile, right?
+Dialogue: 0,0:08:15.21,0:08:18.54,Signs,Note,0,0,0,,Ran means orchid in Japanese.
+Dialogue: 0,0:08:17.64,0:08:18.54,Dialogue,,0,0,0,,Yep.
+Dialogue: 0,0:08:18.91,0:08:20.38,Dialogue,,0,0,0,,For Conan{\rHonorifics - Dialogue}-kun{\r}...
+Dialogue: 0,0:08:20.38,0:08:21.51,Dialogue,,0,0,0,,It'd be "south," right?
+Dialogue: 0,0:08:20.38,0:08:23.45,Signs,Note,0,0,0,,The "nan" in Conan means "south."
+Dialogue: 0,0:08:22.38,0:08:24.28,Dialogue,,0,0,0,,For Shinichi, it should be...
+Dialogue: 0,0:08:24.28,0:08:25.15,Dialogue,,0,0,0,,This one.
+Dialogue: 0,0:08:25.95,0:08:28.65,Dialogue,,0,0,0,,"Shinichi, when are you coming back?"
+Dialogue: 0,0:08:25.95,0:08:29.45,Signs,Note,0,0,0,,The kanji for "ichi" is on the face of the tile.
+Dialogue: 0,0:08:30.22,0:08:31.66,Dialogue,,0,0,0,,"Sorry, sorry..."
+Dialogue: 0,0:08:31.66,0:08:34.43,Dialogue,,0,0,0,,"I'm busy investigating a case right now."
+Dialogue: 0,0:08:34.43,0:08:35.69,Dialogue,,0,0,0,,"You always say that."
+Dialogue: 0,0:08:35.69,0:08:38.63,Dialogue,,0,0,0,,"Case this, case that—isn't that right, Conan{\rHonorifics - Dialogue}-kun{\r}?"
+Dialogue: 0,0:08:40.10,0:08:41.40,Dialogue,,0,0,0,,"Yeah, you're right."
+Dialogue: 0,0:08:43.33,0:08:44.77,Dialogue,,0,0,0,,"And as we speak..."
+Dialogue: 0,0:08:45.37,0:08:45.90,Dialogue,,0,0,0,,"Spring..."
+Dialogue: 0,0:08:46.67,0:08:47.51,Dialogue,,0,0,0,,"Summer..."
+Dialogue: 0,0:08:48.01,0:08:48.74,Dialogue,,0,0,0,,"Autumn..."
+Dialogue: 0,0:08:49.37,0:08:50.31,Dialogue,,0,0,0,,"Winter..."
+Dialogue: 0,0:08:51.38,0:08:53.44,Dialogue,,0,0,0,,"All those excuses later, a year will go by in a flash."
+Dialogue: 0,0:08:54.25,0:08:55.41,Dialogue,,0,0,0,,"I know."
+Dialogue: 0,0:08:59.15,0:09:00.22,Dialogue,,0,0,0,,Just kidding.
+Dialogue: 0,0:09:02.52,0:09:04.36,Dialogue,,0,0,0,,Are you aiming for junchan again?
+Dialogue: 0,0:09:04.72,0:09:06.86,Dialogue,,0,0,0,,Kouda{\rHonorifics - Dialogue}-chan{\r}, someone is eying your wife Jun{\rHonorifics - Dialogue}-chan{\r}—get it?
+Dialogue: 0,0:09:09.89,0:09:11.60,Dialogue,,0,0,0,,I'm just kidding!
+Dialogue: 0,0:09:11.60,0:09:12.53,Dialogue,,0,0,0,,Okano!
+Dialogue: 0,0:09:12.93,0:09:14.73,Dialogue,,0,0,0,,They're still at it?
+Dialogue: 0,0:09:19.24,0:09:19.87,Dialogue,,0,0,0,,Huh?
+Dialogue: 0,0:09:19.87,0:09:21.11,Dialogue,,0,0,0,,Bamboo...
+Dialogue: 0,0:09:21.47,0:09:22.31,Dialogue,,0,0,0,,Yeah.
+Dialogue: 0,0:09:22.31,0:09:25.68,Dialogue,,0,0,0,,Tanabata's just around the corner, so I'm preparing\Nthe bamboo for hanging the decorative wish cards.
+Dialogue: 0,0:09:22.71,0:09:28.85,Signs,Note,0,0,0,,Tanabata is a star festival held in summer.
+Dialogue: 0,0:09:27.15,0:09:28.71,Dialogue,,0,0,0,,Mahjong club and bamboo...
+Dialogue: 0,0:09:28.71,0:09:30.68,Dialogue,,0,0,0,,A surprising combination indeed.
+Dialogue: 0,0:09:31.02,0:09:32.82,Dialogue,,0,0,0,,It's not that surprising.
+Dialogue: 0,0:09:32.82,0:09:35.25,Dialogue,,0,0,0,,The relationship between a mahjong\Nclub and bamboo runs pretty deep.
+Dialogue: 0,0:09:35.89,0:09:37.62,Dialogue,,0,0,0,,See, the Sou's are bamboos themselves.
+Dialogue: 0,0:09:38.22,0:09:40.26,Dialogue,,0,0,0,,There's also bamboo on the flower tiles.
+Dialogue: 0,0:09:40.26,0:09:41.39,Dialogue,,0,0,0,,Ah, I see.
+Dialogue: 0,0:09:41.83,0:09:42.66,Dialogue,,0,0,0,,Speaking of which...
+Dialogue: 0,0:09:42.66,0:09:44.90,Dialogue,,0,0,0,,Has Conan{\rHonorifics - Dialogue}-kun{\r}'s class started hanging\Nup wish cards on the bamboo?
+Dialogue: 0,0:09:46.13,0:09:46.90,Dialogue,,0,0,0,,Not yet...
+Dialogue: 0,0:09:47.17,0:09:48.90,Dialogue,,0,0,0,,Well, it should be soon.
+Dialogue: 0,0:09:48.90,0:09:54.41,Dialogue,,0,0,0,,At Teitan Elementary, the 1st and 2nd years always hang\Nwish cards on the bamboo at the start of July, every year.
+Dialogue: 0,0:09:55.47,0:09:56.57,Dialogue,,0,0,0,,Really?
+Dialogue: 0,0:09:57.11,0:09:59.14,Dialogue,,0,0,0,,Come to think of it, I guess that's true...
+Dialogue: 0,0:09:59.58,0:10:01.58,Dialogue,,0,0,0,,Shinichi and I did it before as well.
+Dialogue: 0,0:10:01.95,0:10:02.65,Dialogue,,0,0,0,,And...
+Dialogue: 0,0:10:03.18,0:10:06.25,Dialogue,,0,0,0,,During our second year, there was a small incident...
+Dialogue: 0,0:10:11.26,0:10:12.49,Dialogue,,0,0,0,,All right, everyone.
+Dialogue: 0,0:10:12.49,0:10:14.89,Dialogue,,0,0,0,,Write your wish on the paper card.
+Dialogue: 0,0:10:15.16,0:10:16.69,Dialogue,,0,0,0,,Yes!
+Dialogue: 0,0:10:19.03,0:10:20.73,Dialogue,,0,0,0,,What would you wish for?
+Dialogue: 0,0:10:20.73,0:10:23.03,Dialogue,,0,0,0,,Even if you talk about wishes...
+Dialogue: 0,0:10:25.60,0:10:27.61,Dialogue Top,Sign,0,0,0,,I want to become prettier
+Dialogue: 0,0:10:28.27,0:10:29.14,Dialogue,,0,0,0,,Mom...
+Dialogue: 0,0:10:29.61,0:10:32.11,Dialogue Top,Sign,0,0,0,,I hope Mom comes home soon
+Dialogue: 0,0:10:29.64,0:10:32.11,Dialogue,,0,0,0,,Had quarreled with Dad a year before...
+Dialogue: 0,0:10:32.51,0:10:34.11,Dialogue,,0,0,0,,And left home.
+Dialogue: 0,0:10:40.25,0:10:41.09,Dialogue,,0,0,0,,Mouri!
+Dialogue: 0,0:10:41.82,0:10:45.59,Dialogue,,0,0,0,,I heard your mom left home and\Nhasn't been back since—that true?
+Dialogue: 0,0:10:45.59,0:10:46.39,Dialogue,,0,0,0,,What!?
+Dialogue: 0,0:10:46.39,0:10:47.49,Dialogue,,0,0,0,,What about it!?
+Dialogue: 0,0:10:47.83,0:10:50.19,Dialogue,,0,0,0,,And all your dad does is drink and play mahjong!
+Dialogue: 0,0:10:50.90,0:10:53.77,Dialogue,,0,0,0,,That's what they call a dysfunctional family.
+Dialogue: 0,0:10:54.00,0:10:55.30,Dialogue,,0,0,0,,Shut up!
+Dialogue: 0,0:10:55.30,0:10:57.20,Dialogue,,0,0,0,,It's got nothing to do with you!
+Dialogue: 0,0:10:58.97,0:11:00.24,Dialogue,,0,0,0,,That rascal!
+Dialogue: 0,0:11:01.47,0:11:04.41,Dialogue,,0,0,0,,That Daisuke guy, so annoying!
+Dialogue: 0,0:11:04.41,0:11:05.48,Dialogue,,0,0,0,,Never mind.
+Dialogue: 0,0:11:05.48,0:11:06.78,Dialogue,,0,0,0,,It's true, anyway.
+Dialogue: 0,0:11:09.31,0:11:12.52,Dialogue,,0,0,0,,Hey, why aren't you saying anything?
+Dialogue: 0,0:11:12.52,0:11:14.69,Dialogue,,0,0,0,,If you're a guy, you should give him a punch!
+Dialogue: 0,0:11:14.69,0:11:16.39,Dialogue,,0,0,0,,This has nothing to do with me.
+Dialogue: 0,0:11:17.86,0:11:18.86,Dialogue,,0,0,0,,That idiot!
+Dialogue: 0,0:11:20.69,0:11:22.96,Dialogue,,0,0,0,,Poor Ran{\rHonorifics - Dialogue}-chan{\r}...
+Dialogue: 0,0:11:24.03,0:11:26.76,Dialogue,,0,0,0,,That Shinichi was in the wrong, too.
+Dialogue: 0,0:11:26.76,0:11:29.40,Dialogue,,0,0,0,,Boys should help girls.
+Dialogue: 0,0:11:31.34,0:11:32.74,Dialogue,,0,0,0,,But still...
+Dialogue: 0,0:11:32.74,0:11:34.64,Dialogue,,0,0,0,,Writing such a wish on the paper card...
+Dialogue: 0,0:11:35.24,0:11:36.91,Dialogue,,0,0,0,,Makes me want to tear up.
+Dialogue: 0,0:11:36.91,0:11:39.01,Dialogue,,0,0,0,,Nevertheless, the wish came true.
+Dialogue: 0,0:11:40.38,0:11:43.15,Dialogue,,0,0,0,,A few days later, on the day of Tanabata...
+Dialogue: 0,0:11:43.15,0:11:44.82,Dialogue,,0,0,0,,Mom came home for me.
+Dialogue: 0,0:11:45.82,0:11:46.82,Dialogue,,0,0,0,,Mommy...
+Dialogue: 0,0:11:47.35,0:11:49.65,Dialogue,,0,0,0,,Mommy!
+Dialogue: 0,0:11:52.32,0:11:53.42,Dialogue,,0,0,0,,At that time...
+Dialogue: 0,0:11:53.42,0:11:55.99,Dialogue,,0,0,0,,I thought God had heard and granted my wish.
+Dialogue: 0,0:11:56.49,0:11:57.93,Dialogue,,0,0,0,,I was so happy.
+Dialogue: 0,0:11:58.53,0:12:03.43,Dialogue,,0,0,0,,That is, even though Mom quarreled\Nwith Dad again that night and left...
+Dialogue: 0,0:12:04.57,0:12:07.17,Dialogue,,0,0,0,,It seems they're talking about you, Mouri{\rHonorifics - Dialogue}-chan{\r}.
+Dialogue: 0,0:12:07.54,0:12:09.41,Dialogue,,0,0,0,,Can't hear them, can't hear them...
+Dialogue: 0,0:12:10.88,0:12:13.18,Dialogue,,0,0,0,,And then, the next morning...
+Dialogue: 0,0:12:16.05,0:12:17.05,Dialogue,,0,0,0,,What now?
+Dialogue: 0,0:12:18.38,0:12:19.68,Dialogue,,0,0,0,,Mouri...
+Dialogue: 0,0:12:19.68,0:12:21.25,Dialogue,,0,0,0,,I'm sorry about what happened before...
+Dialogue: 0,0:12:22.19,0:12:23.39,Dialogue,,0,0,0,,Your mom...
+Dialogue: 0,0:12:23.89,0:12:24.89,Dialogue,,0,0,0,,Is a beauty.
+Dialogue: 0,0:12:30.63,0:12:32.06,Dialogue,,0,0,0,,What's up with that guy?
+Dialogue: 0,0:12:32.53,0:12:33.43,Dialogue,,0,0,0,,No idea...
+Dialogue: 0,0:12:39.37,0:12:40.30,Dialogue,,0,0,0,,That day...
+Dialogue: 0,0:12:40.30,0:12:43.91,Dialogue,,0,0,0,,Everyone took down their decorative wish notes from the bamboo...
+Dialogue: 0,0:12:42.84,0:12:44.28,Signs,Sign,0,0,0,,I hope\NMom comes\Nhome soon
+Dialogue: 0,0:12:42.84,0:12:44.28,Signs,Sign,0,0,0,,Mouri Ran
+Dialogue: 0,0:12:44.28,0:12:47.98,Dialogue,,0,0,0,,And kept one decoration and their own note as souvenirs.
+Dialogue: 0,0:12:48.88,0:12:52.55,Dialogue,,0,0,0,,I took care of the note from that time, and still have it.
+Dialogue: 0,0:12:53.82,0:12:55.02,Dialogue,,0,0,0,,That's a great story.
+Dialogue: 0,0:12:55.69,0:12:57.26,Dialogue,,0,0,0,,But, this Daisuke...
+Dialogue: 0,0:12:57.26,0:12:59.06,Dialogue,,0,0,0,,Why did he suddenly apologize?
+Dialogue: 0,0:12:59.49,0:13:03.93,Dialogue,,0,0,0,,He must've been scolded by his Mom or Dad.
+Dialogue: 0,0:13:03.93,0:13:05.46,Dialogue,,0,0,0,,That's gotta be why he apologized.
+Dialogue: 0,0:13:05.96,0:13:08.00,Dialogue,,0,0,0,,I thought so too, but...
+Dialogue: 0,0:13:08.00,0:13:10.20,Dialogue,,0,0,0,,Much later, I discovered the real reason.
+Dialogue: 0,0:13:11.40,0:13:13.74,Dialogue,,0,0,0,,One day, when I was in middle school...
+Dialogue: 0,0:13:13.74,0:13:18.48,Dialogue,,0,0,0,,Mom told me what happened on July 6th, nine years ago.
+Dialogue: 0,0:13:27.92,0:13:29.62,Dialogue,,0,0,0,,What's something like this doing here?
+Dialogue: 0,0:13:31.56,0:13:33.96,Signs,Sign,0,0,0,,I hope\NMom comes\Nhome soon
+Dialogue: 0,0:13:31.56,0:13:33.96,Signs,Sign,0,0,0,,Mouri Ran
+Dialogue: 0,0:13:34.59,0:13:35.39,Dialogue,,0,0,0,,Ran...
+Dialogue: 0,0:13:38.70,0:13:40.00,Dialogue,,0,0,0,,Shinichi{\rHonorifics - Dialogue}-kun{\r}?
+Dialogue: 0,0:13:40.00,0:13:41.03,Dialogue,,0,0,0,,Good evening.
+Dialogue: 0,0:13:42.80,0:13:43.47,Dialogue,,0,0,0,,Hey...
+Dialogue: 0,0:13:43.47,0:13:45.54,Dialogue,,0,0,0,,This is Daisuke.
+Dialogue: 0,0:13:45.54,0:13:46.67,Dialogue,,0,0,0,,He's Ran's friend.
+Dialogue: 0,0:13:50.98,0:13:52.21,Dialogue,,0,0,0,,Really now?
+Dialogue: 0,0:13:52.21,0:13:54.61,Dialogue,,0,0,0,,I hope you'll remain friends with Ran.
+Dialogue: 0,0:13:55.58,0:13:56.15,Dialogue,,0,0,0,,Yes, ma'am...
+Dialogue: 0,0:13:56.15,0:13:57.01,Dialogue,,0,0,0,,Bye!
+Dialogue: 0,0:14:04.59,0:14:06.12,Dialogue,,0,0,0,,Mom, you mean...
+Dialogue: 0,0:14:06.29,0:14:09.63,Dialogue,,0,0,0,,You came home because you saw my wish on that paper card?
+Dialogue: 0,0:14:09.96,0:14:10.96,Dialogue,,0,0,0,,Right.
+Dialogue: 0,0:14:10.96,0:14:12.13,Dialogue,,0,0,0,,Shinichi{\rHonorifics - Dialogue}-kun{\r}...
+Dialogue: 0,0:14:12.13,0:14:14.40,Dialogue,,0,0,0,,I think he wanted to show me that wish card...
+Dialogue: 0,0:14:14.40,0:14:17.10,Dialogue,,0,0,0,,And decided to bring the bamboo from the classroom to my place.
+Dialogue: 0,0:14:17.10,0:14:19.87,Dialogue,,0,0,0,,He probably enlisted Daisuke as his helper.
+Dialogue: 0,0:14:21.27,0:14:24.04,Dialogue,,0,0,0,,That kid—he mocked you, didn't he?
+Dialogue: 0,0:14:24.41,0:14:25.71,Dialogue,,0,0,0,,He did...
+Dialogue: 0,0:14:25.71,0:14:28.01,Dialogue,,0,0,0,,But the next day, he apologized.
+Dialogue: 0,0:14:28.21,0:14:31.08,Dialogue,,0,0,0,,He even said, "Your mom is a beauty."
+Dialogue: 0,0:14:31.55,0:14:33.72,Dialogue,,0,0,0,,I thought that was unbelievable...
+Dialogue: 0,0:14:34.25,0:14:38.06,Dialogue,,0,0,0,,All of that was Shinichi{\rHonorifics - Dialogue}-kun{\r}'s doing, just for you.
+Dialogue: 0,0:14:38.79,0:14:40.36,Dialogue,,0,0,0,,That kid has his good points too.
+Dialogue: 0,0:14:41.06,0:14:42.56,Dialogue,,0,0,0,,Shinichi...
+Dialogue: 0,0:15:00.31,0:15:01.15,Dialogue,,0,0,0,,Clear.
+Dialogue: 0,0:15:13.86,0:15:17.70,Dialogue,,0,0,0,,I didn't know anything about it until then.
+Dialogue: 0,0:15:18.13,0:15:20.30,Dialogue,,0,0,0,,Since Shinichi, of course, kept quiet...
+Dialogue: 0,0:15:20.30,0:15:23.90,Dialogue,,0,0,0,,And that Daisuke changed schools afterward.
+Dialogue: 0,0:15:25.34,0:15:28.44,Dialogue,,0,0,0,,That Shinichi kid sure sounds like a gentleman.
+Dialogue: 0,0:15:28.44,0:15:29.74,Dialogue,,0,0,0,,Yeah, quite impressive.
+Dialogue: 0,0:15:30.24,0:15:31.64,Dialogue,,0,0,0,,Ah, no, you flatter me...
+Dialogue: 0,0:15:33.98,0:15:35.21,Dialogue,,0,0,0,,I mean, he really is, isn't he?
+Dialogue: 0,0:15:37.21,0:15:39.28,Dialogue,,0,0,0,,Are you laughing at me too, Mouri{\rHonorifics - Dialogue}-san{\r}!?
+Dialogue: 0,0:15:40.65,0:15:42.22,Dialogue,,0,0,0,,I can't take this anymore!
+Dialogue: 0,0:15:42.22,0:15:42.92,Dialogue,,0,0,0,,I quit!
+Dialogue: 0,0:15:44.42,0:15:45.49,Dialogue,,0,0,0,,Hey!
+Dialogue: 0,0:15:48.43,0:15:50.53,Dialogue,,0,0,0,,Dad, what did you say to that man?
+Dialogue: 0,0:15:52.03,0:15:54.00,Dialogue,,0,0,0,,You said something about his wife, didn't you?
+Dialogue: 0,0:15:54.33,0:15:56.87,Dialogue,,0,0,0,,No, I didn't...
+Dialogue: 0,0:15:56.87,0:15:57.50,Dialogue,,0,0,0,,Right?
+Dialogue: 0,0:15:57.84,0:16:01.24,Dialogue,,0,0,0,,Yeah, only Okano poked fun at his wife...
+Dialogue: 0,0:16:01.87,0:16:03.84,Dialogue,,0,0,0,,But I stopped after that.
+Dialogue: 0,0:16:03.84,0:16:06.21,Dialogue,,0,0,0,,I figured I'd angered him.
+Dialogue: 0,0:16:06.21,0:16:08.75,Dialogue,,0,0,0,,Mouri{\rHonorifics - Dialogue}-chan{\r} didn't say anything, really.
+Dialogue: 0,0:16:09.78,0:16:12.35,Dialogue,,0,0,0,,Then, why did he leave in such a fury?
+Dialogue: 0,0:16:12.78,0:16:13.95,Dialogue,,0,0,0,,Dunno.
+Dialogue: 0,0:16:20.89,0:16:22.69,Dialogue,,0,0,0,,Wait, this...
+Dialogue: 0,0:16:23.69,0:16:25.06,Dialogue,,0,0,0,,I see how it was.
+Dialogue: 0,0:16:25.66,0:16:28.90,Dialogue,,0,0,0,,Say, that man must've looked at Uncle's discard pile...
+Dialogue: 0,0:16:28.90,0:16:31.17,Dialogue,,0,0,0,,And thought he was being made fun of again.
+Dialogue: 0,0:16:32.47,0:16:33.50,Dialogue,,0,0,0,,See it?
+Dialogue: 0,0:16:33.50,0:16:35.01,Dialogue,,0,0,0,,3-Sou is...
+Dialogue: 0,0:16:35.01,0:16:36.31,Dialogue,,0,0,0,,Pronounced sansou, like "villa."
+Dialogue: 0,0:16:37.04,0:16:38.68,Dialogue,,0,0,0,,And the white, green, and red tiles...
+Dialogue: 0,0:16:38.68,0:16:42.31,Dialogue,,0,0,0,,Represent white skin, dark green hair, and red lips.
+Dialogue: 0,0:16:42.78,0:16:45.82,Dialogue,,0,0,0,,Even the professor said these were the characteristics of a beauty.
+Dialogue: 0,0:16:46.22,0:16:48.95,Dialogue,,0,0,0,,5-Man is pronounced wuman, similar to woman.
+Dialogue: 0,0:16:48.95,0:16:52.32,Dialogue,,0,0,0,,The kanji here can be read as "fujin," which\Nhas the same pronunciation as "wife."
+Dialogue: 0,0:16:52.32,0:16:55.89,Dialogue,,0,0,0,,And, with 9-Man, 9-Pin, and 9-Sou...
+Dialogue: 0,0:16:55.89,0:16:58.33,Dialogue,,0,0,0,,Which is pronounced chu-man, chu-pin, and chu-sou...
+Dialogue: 0,0:16:58.43,0:16:59.96,Dialogue,,0,0,0,,We get "chu-chu-chu."
+Dialogue: 0,0:17:00.70,0:17:02.17,Dialogue,,0,0,0,,Put them together, and...
+Dialogue: 0,0:17:02.53,0:17:03.90,Dialogue,,0,0,0,,At the villa...
+Dialogue: 0,0:17:04.70,0:17:06.17,Dialogue,,0,0,0,,His beautiful wife...
+Dialogue: 0,0:17:06.50,0:17:08.01,Dialogue,,0,0,0,,Kiss-kiss-kiss.
+Dialogue: 0,0:17:09.61,0:17:11.41,Dialogue,,0,0,0,,How to put this...
+Dialogue: 0,0:17:11.41,0:17:13.01,Dialogue,,0,0,0,,I'm speechless.
+Dialogue: 0,0:17:14.41,0:17:16.91,Dialogue,,0,0,0,,I'll go get Kouda{\rHonorifics - Dialogue}-chan{\r} back.
+Dialogue: 0,0:17:17.42,0:17:19.85,Dialogue,,0,0,0,,It was my fault for making fun of him in the first place.
+Dialogue: 0,0:17:19.85,0:17:21.89,Dialogue,,0,0,0,,I'll tell him his imagination was getting the better of him.
+Dialogue: 0,0:17:23.29,0:17:24.79,Dialogue,,0,0,0,,Jeez...
+Dialogue: 0,0:17:24.79,0:17:26.99,Dialogue,,0,0,0,,Sending a message using mahjong tiles?
+Dialogue: 0,0:17:27.53,0:17:31.96,Dialogue,,0,0,0,,No one would want to do something so stupid and troublesome.
+Dialogue: 0,0:17:33.10,0:17:33.93,Dialogue,,0,0,0,,In fact...
+Dialogue: 0,0:17:34.27,0:17:37.40,Dialogue,,0,0,0,,Someone did come up with something this elaborate.
+Dialogue: 0,0:17:38.30,0:17:41.07,Dialogue,,0,0,0,,What's worse, as a serial killer.
+Dialogue: 0,0:17:42.11,0:17:45.68,Dialogue,,0,0,0,,However, I only figured this out much later...
+Dialogue: 0,0:17:50.92,0:17:53.95,Dialogue,,0,0,0,,It's great that Kouda{\rHonorifics - Dialogue}-san{\r} realized it was a misunderstanding.
+Dialogue: 0,0:17:54.35,0:17:57.12,Dialogue,,0,0,0,,But it does look like Uncle's going to play mahjong all night again.
+Dialogue: 0,0:17:57.12,0:17:58.46,Dialogue,,0,0,0,,Conan{\rHonorifics - Dialogue}-kun{\r}!
+Dialogue: 0,0:18:00.32,0:18:01.26,Dialogue,,0,0,0,,What is it, you all?
+Dialogue: 0,0:18:01.46,0:18:03.53,Dialogue,,0,0,0,,Conan, let's go bug-catching tomorrow.
+Dialogue: 0,0:18:04.16,0:18:05.03,Dialogue,,0,0,0,,Bug-catching?
+Dialogue: 0,0:18:05.20,0:18:08.93,Dialogue,,0,0,0,,The professor said he'll take us to Beika Forest by car.
+Dialogue: 0,0:18:08.93,0:18:10.80,Dialogue,,0,0,0,,We're gonna meet at his house at 4:00 AM.
+Dialogue: 0,0:18:11.17,0:18:11.97,Dialogue,,0,0,0,,4:00 AM?
+Dialogue: 0,0:18:12.37,0:18:14.31,Dialogue,,0,0,0,,If we don't get there by dawn...
+Dialogue: 0,0:18:14.31,0:18:16.91,Dialogue,,0,0,0,,There won't be any beetles!
+Dialogue: 0,0:18:17.44,0:18:19.91,Dialogue,,0,0,0,,But, I have my own things to attend to...
+Dialogue: 0,0:18:20.34,0:18:22.08,Dialogue,,0,0,0,,What things?
+Dialogue: 0,0:18:23.21,0:18:24.78,Dialogue,,0,0,0,,Well, I mean...
+Dialogue: 0,0:18:25.52,0:18:27.08,Dialogue,,0,0,0,,Fine, I'll go!
+Dialogue: 0,0:18:27.59,0:18:30.39,Dialogue,,0,0,0,,Then we'll go buy some bug cages.
+Dialogue: 0,0:18:30.39,0:18:32.02,Dialogue,,0,0,0,,Ran{\rHonorifics - Dialogue}-oneesan{\r}, bye-bye!
+Dialogue: 0,0:18:32.69,0:18:33.16,Dialogue,,0,0,0,,Let's go!
+Dialogue: 0,0:18:33.16,0:18:33.72,Dialogue,,0,0,0,,Yes!
+Dialogue: 0,0:18:33.72,0:18:34.46,Dialogue,,0,0,0,,Bye!
+Dialogue: 0,0:18:34.83,0:18:35.99,Dialogue,,0,0,0,,Be careful!
+Dialogue: 0,0:18:36.26,0:18:37.46,Dialogue,,0,0,0,,Damn...
+Dialogue: 0,0:18:37.46,0:18:38.80,Dialogue,,0,0,0,,They're pushy.
+Dialogue: 0,0:18:39.06,0:18:41.23,Dialogue,,0,0,0,,Say, about my story earlier...
+Dialogue: 0,0:18:42.40,0:18:45.07,Dialogue,,0,0,0,,There's one thing left I can't figure out.
+Dialogue: 0,0:18:45.07,0:18:49.97,Dialogue,,0,0,0,,Why did Daisuke{\rHonorifics - Dialogue}-kun{\r} decide to\Nhelp Shinichi carry the bamboo?
+Dialogue: 0,0:18:50.57,0:18:53.78,Dialogue,,0,0,0,,Or, should I say, what did Shinichi say to make him help?
+Dialogue: 0,0:18:55.25,0:18:56.41,Dialogue,,0,0,0,,Well...
+Dialogue: 0,0:19:01.05,0:19:02.65,Dialogue,,0,0,0,,What is it you want from me?
+Dialogue: 0,0:19:03.02,0:19:05.36,Dialogue,,0,0,0,,Say, you love Mouri, right?
+Dialogue: 0,0:19:07.16,0:19:08.46,Dialogue,,0,0,0,,I do not!
+Dialogue: 0,0:19:08.46,0:19:09.63,Dialogue,,0,0,0,,What're you talking about?
+Dialogue: 0,0:19:10.26,0:19:11.03,Dialogue,,0,0,0,,I'll give you this.
+Dialogue: 0,0:19:12.56,0:19:14.13,Dialogue,,0,0,0,,Only if you do as I say.
+Dialogue: 0,0:19:14.63,0:19:15.67,Dialogue,,0,0,0,,Really?
+Dialogue: 0,0:19:16.53,0:19:18.04,Dialogue,,0,0,0,,Speaking of Tanabata...
+Dialogue: 0,0:19:19.97,0:19:24.24,Dialogue,,0,0,0,,During first grade, I went to the Star Festival at Mall Ave...
+Dialogue: 0,0:19:24.24,0:19:26.28,Dialogue,,0,0,0,,And took a photo with Shinichi.
+Dialogue: 0,0:19:26.78,0:19:28.81,Dialogue,,0,0,0,,It was my first time wearing a yukata...
+Dialogue: 0,0:19:30.08,0:19:33.18,Dialogue,,0,0,0,,That's right—where is that photo now?
+Dialogue: 0,0:19:33.48,0:19:34.99,Dialogue,,0,0,0,,Where is it...
+Dialogue: 0,0:19:35.62,0:19:37.52,Dialogue,,0,0,0,,Well...
+Dialogue: 0,0:19:38.69,0:19:39.22,Dialogue,,0,0,0,,Here.
+Dialogue: 0,0:19:50.63,0:19:51.50,Dialogue,,0,0,0,,Right...
+Dialogue: 0,0:19:51.90,0:19:53.34,Dialogue,,0,0,0,,As for that photo...
+Dialogue: 0,0:19:53.84,0:19:56.71,Dialogue,,0,0,0,,I cut myself out, and gave it to him.
+Dialogue: 0,0:19:58.31,0:20:02.28,Dialogue,,0,0,0,,And I'll never tell.

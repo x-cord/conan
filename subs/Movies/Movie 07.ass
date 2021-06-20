@@ -1,0 +1,2049 @@
+[Script Info]
+Title: Detective Conan - Movie 07
+TL Source: KnKF
+ScriptType: v4.00+
+WrapStyle: 3
+PlayResX: 1920
+PlayResY: 1080
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Dialogue,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00401311,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Dialogue Top,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00401311,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,8,30,30,55,1
+Style: Signs,FrancophilSans,74,&H14FFFFFF,&H00FFFFFF,&H46101010,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,8,30,30,55,1
+Style: Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,0,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Radio,FrancophilSans,74,&H00BEE1FF,&H00FFFFFF,&H000B2A42,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Narration,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00BF6F00,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Narration Off,FrancophilSans,74,&H6E8C6F00,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,0,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Flashback,FrancophilSans,74,&H00CDFAFF,&H00FFFFFF,&H00373737,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Flashback Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00CCFFFF,&HC0313134,-1,0,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Honorifics - Dialogue,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00401311,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Signs,FrancophilSans,74,&H14FFFFFF,&H00FFFFFF,&H46101010,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,-1,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Honorifics - Radio,FrancophilSans,74,&H00BEE1FF,&H00FFFFFF,&H000B2A42,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Narration,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00BF6F00,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Narration Off,FrancophilSans,74,&H6E8C6F00,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,-1,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Honorifics - Flashback,FrancophilSans,74,&H00CDFAFF,&H00FFFFFF,&H00373737,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Flashback Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00CCFFFF,&HC0313134,-1,-1,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Masks,FrancophilSans,74,&H00000000,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,2,0,0,0,1
+Style: Title,Conan Episode Title,74,&H00E1E4E3,&H000000FF,&HC8DBDAE1,&HC0000000,-1,0,0,0,100,100,0,0,1,1,0,5,0,0,0,1
+Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-1,0,0,0,100,100,0,0,1,0,0,2,0,0,65,1
+Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
+Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
+Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:01:07.25,0:01:11.00,Dialogue Top,Sign,0,0,0,,Detective Conan —\hCrossroad In The Ancient Capital
+Dialogue: 0,0:01:16.55,0:01:18.59,Narration Off,,0,0,0,,{\be10}I'm high school detective, Kudou Shinichi.
+Dialogue: 0,0:01:18.55,0:01:22.52,Signs,Sign,0,0,0,,Original Story: Aoyama Gosho
+Dialogue: 0,0:01:19.43,0:01:21.43,Narration Off,,0,0,0,,{\be10}When I went to an amusement park\Nwith my childhood friend Mouri Ran,
+Dialogue: 0,0:01:21.64,0:01:26.52,Narration Off,,0,0,0,,{\be10}I witnessed a suspicious\Ntransaction between some men in black.
+Dialogue: 0,0:01:23.43,0:01:27.39,Signs,Sign,0,0,0,,Script: Furuuichi Issei
+Dialogue: 0,0:01:28.19,0:01:29.90,Narration Off,,0,0,0,,{\be10}Because my attention was focused on the transaction,
+Dialogue: 0,0:01:30.40,0:01:32.98,Narration Off,,0,0,0,,{\be10}I didn't notice another member approach me from behind.
+Dialogue: 0,0:01:33.61,0:01:37.45,Signs,Sign,0,0,0,,Music: Oono Katsuo
+Dialogue: 0,0:01:34.36,0:01:36.40,Narration Off,,0,0,0,,{\be10}I was given a poison.
+Dialogue: 0,0:01:37.40,0:01:38.28,Narration Off,,0,0,0,,{\be10}When I came to,
+Dialogue: 0,0:01:39.28,0:01:40.83,Narration Off,,0,0,0,,{\be10}my body had shrunk!
+Dialogue: 0,0:01:41.70,0:01:45.62,Signs,Sign,0,0,0,,Vice Director: Akira Nishimori
+Dialogue: 0,0:01:42.08,0:01:44.25,Narration Off,,0,0,0,,{\be10}If they found out that Kudou Shinichi was still alive,
+Dialogue: 0,0:01:44.75,0:01:47.67,Narration Off,,0,0,0,,{\be10}they would come after me again and\Nendanger the lives of those around me.
+Dialogue: 0,0:01:46.04,0:01:50.17,Signs,Sign,0,0,0,,Character Design: Sudou Masatomo
+Dialogue: 0,0:01:48.67,0:01:51.13,Narration Off,,0,0,0,,{\be10}Following Professor Agasa's\Nadvice, I decided to hide my identity.
+Dialogue: 0,0:01:50.58,0:01:54.92,Signs,Sign,0,0,0,,Art Director: Shibuya Yukihiro
+Dialogue: 0,0:01:50.58,0:01:54.92,Signs,Sign,0,0,0,,Construction: Nishi Kayoko
+Dialogue: 0,0:01:51.84,0:01:55.34,Narration Off,,0,0,0,,{\be10}When Ran asked who I was, I\Nblurted out "Edogawa Conan".
+Dialogue: 0,0:01:53.13,0:01:55.34,Dialogue Top,Note,0,0,0,,Books: "Edogawa Ranpo Volume 13, 14, 15" and "Conan Doyle"
+Dialogue: 0,0:01:55.34,0:01:59.43,Signs,Sign,0,0,0,,Director of Photography: Nomura Takashi
+Dialogue: 0,0:01:55.34,0:01:59.43,Signs,Sign,0,0,0,,Director of Acoustics: Kobayashi Katsuyoshi
+Dialogue: 0,0:01:55.92,0:01:57.38,Narration Off,,0,0,0,,{\be10}In order to find more information about the men in black,
+Dialogue: 0,0:01:57.59,0:02:00.22,Narration Off,,0,0,0,,{\be10}I moved in with Ran and her father, who is a detective.
+Dialogue: 0,0:02:12.36,0:02:14.28,Dialogue,,0,0,0,,I'm the high school detective of Osaka,
+Dialogue: 0,0:02:14.61,0:02:15.61,Dialogue,,0,0,0,,Hattori Heiji.
+Dialogue: 0,0:02:16.44,0:02:18.07,Dialogue,,0,0,0,,My strong reasoning and kendo skills,
+Dialogue: 0,0:02:16.44,0:02:19.49,Signs,Note,0,0,0,,Note: "Kendo" is the Japanese martial art practiced by samurai.
+Dialogue: 0,0:02:18.74,0:02:20.95,Dialogue,,0,0,0,,were passed on to me by my father who works\Nin the Osaka Prefectural Police Headquarters.
+Dialogue: 0,0:02:21.57,0:02:22.83,Dialogue,,0,0,0,,and my bravery was inherited from,
+Dialogue: 0,0:02:23.78,0:02:24.79,Dialogue,,0,0,0,,my mother.
+Dialogue: 0,0:02:25.54,0:02:28.46,Dialogue,,0,0,0,,By the way, I inherited my\Ndark-colored skin from my grandfather.
+Dialogue: 0,0:02:29.42,0:02:31.88,Dialogue,,0,0,0,,They used to say "Hattori of\Nthe West" and "Kudou of the East",
+Dialogue: 0,0:02:33.42,0:02:35.09,Dialogue,,0,0,0,,Both of us were equally well-known, but...
+Dialogue: 0,0:02:35.21,0:02:41.39,Signs,Sign,0,0,0,,Edogawa Conan: Takayama Minami
+Dialogue: 0,0:02:37.88,0:02:39.26,Dialogue,,0,0,0,,Kudou really is something.
+Dialogue: 0,0:02:40.13,0:02:43.55,Dialogue,,0,0,0,,With the help of Professor Agasa,\Nan inventor of strange machines,
+Dialogue: 0,0:02:45.31,0:02:49.85,Signs,Sign,0,0,0,,Mouri Kogorou: Kamiya Akira
+Dialogue: 0,0:02:45.31,0:02:49.85,Signs,Sign,0,0,0,,Mouri Ran: Yamazaki Wakana
+Dialogue: 0,0:02:46.52,0:02:48.85,Dialogue,,0,0,0,,He has solved many cases.
+Dialogue: 0,0:02:49.52,0:02:51.35,Dialogue,,0,0,0,,There are people who know Kudou's real identity,
+Dialogue: 0,0:02:50.35,0:02:55.23,Signs,Sign,0,0,0,,Inspector Megure: Chafurin
+Dialogue: 0,0:02:50.35,0:02:55.23,Signs,Sign,0,0,0,,Dr. Agasa: Ogata Kenichi
+Dialogue: 0,0:02:51.69,0:02:53.31,Dialogue,,0,0,0,,besides Professor Agasa and myself.
+Dialogue: 0,0:02:54.06,0:02:55.61,Dialogue,,0,0,0,,Kudou's father and mother,
+Dialogue: 0,0:02:55.65,0:02:59.61,Signs,Sign,0,0,0,,Kudou Shinichi: Yamaguchi Kappei
+Dialogue: 0,0:02:56.15,0:02:59.49,Dialogue,,0,0,0,,and a girl who attends the same\Nelementary school as Kudou, Haibara Ai.
+Dialogue: 0,0:03:00.40,0:03:03.95,Dialogue,,0,0,0,,This little girl used to be in the\Nsame organization as the men in black.
+Dialogue: 0,0:03:04.53,0:03:05.91,Dialogue,,0,0,0,,But in order to escape,
+Dialogue: 0,0:03:06.54,0:03:09.37,Dialogue,,0,0,0,,she drank the same poison that Kudou was given,
+Dialogue: 0,0:03:10.00,0:03:11.62,Dialogue,,0,0,0,,and her body shrank as well.
+Dialogue: 0,0:03:12.33,0:03:16.30,Signs,Sign,0,0,0,,Producers:
+Dialogue: 0,0:03:12.33,0:03:16.30,Signs,Sign,0,0,0,,Suwa Michiko
+Dialogue: 0,0:03:12.33,0:03:16.30,Signs,Sign,0,0,0,,Yoshioka Masahito
+Dialogue: 0,0:03:12.37,0:03:15.17,Dialogue,,0,0,0,,By the way, I have a childhood\Nfriend who's in the same grade as me.
+Dialogue: 0,0:03:15.46,0:03:18.88,Dialogue,,0,0,0,,Her name is Tooyama Kazuha. She's a fussy woman.
+Dialogue: 0,0:03:19.22,0:03:20.34,Dialogue,,0,0,0,,Who are you calling fussy!?
+Dialogue: 0,0:03:22.80,0:03:24.72,Dialogue,,0,0,0,,Hey! Don't show up so suddenly, idiot!
+Dialogue: 0,0:03:25.01,0:03:26.10,Dialogue,,0,0,0,,You're the idiot!
+Dialogue: 0,0:03:26.39,0:03:27.81,Dialogue,,0,0,0,,Who were you talking to?
+Dialogue: 0,0:03:27.97,0:03:28.93,Dialogue,,0,0,0,,Who?
+Dialogue: 0,0:03:29.14,0:03:31.64,Dialogue,,0,0,0,,I'm making it easier to\Nunderstand for everybody that's watching!
+Dialogue: 0,0:03:32.23,0:03:32.65,Dialogue,,0,0,0,,Right?
+Dialogue: 0,0:03:33.23,0:03:33.65,Dialogue,,0,0,0,,Huh?
+Dialogue: 0,0:03:34.19,0:03:36.02,Dialogue,,0,0,0,,Is something wrong with your head?
+Dialogue: 0,0:03:36.23,0:03:37.36,Dialogue,,0,0,0,,You're the one who's got something wrong.
+Dialogue: 0,0:03:37.73,0:03:40.61,Narration Off,,0,0,0,,{\be10}Even though I've become\Nsmall, my mind is still the same.
+Dialogue: 0,0:03:38.07,0:03:42.36,Signs,Sign,0,0,0,,Director: Kanetsugu Kodama
+Dialogue: 0,0:03:41.07,0:03:42.82,Narration Off,,0,0,0,,{\be10}There is only one truth!
+Dialogue: 0,0:03:47.45,0:03:49.66,Dialogue Top,,0,0,0,,Beika, Beika station, the exit will be...
+Dialogue: 0,0:03:49.66,0:03:52.00,Radio,,0,0,0,,{\be10}So you won't be able to come back for a while.
+Dialogue: 0,0:03:52.25,0:03:55.38,Dialogue,,0,0,0,,Yeah, I'm pretty busy investigating a case right now.
+Dialogue: 0,0:03:55.71,0:03:56.17,Dialogue,,0,0,0,,Oh.
+Dialogue: 0,0:03:57.67,0:04:01.34,Dialogue,,0,0,0,,It's been cold these past few\Ndays, so you'd better be careful.
+Dialogue: 0,0:04:02.26,0:04:04.05,Dialogue,,0,0,0,,Same to you. Don't sleep with your stomach exposed.
+Dialogue: 0,0:04:05.43,0:04:07.68,Dialogue,,0,0,0,,I don't sleep with my stomach exposed! Idiot!
+Dialogue: 0,0:04:07.76,0:04:09.56,Dialogue,,0,0,0,,Yoshinoyama!
+Dialogue: 0,0:04:07.76,0:04:13.56,Signs,Note,0,0,0,,Note: Yoshinoyama refers to a play written about two characters in\NJapanese history, Minamoto Yoshitsune and his concubine, Shizuka Gozen.\NThey separated when Yoshitsune's brother pressed him to flee to northern Japan.
+Dialogue: 0,0:04:09.93,0:04:13.02,Dialogue,,0,0,0,,Treading through the white snow of the mountain,
+Dialogue: 0,0:04:13.10,0:04:16.81,Dialogue,,0,0,0,,longing for a trace of life to appear...
+Dialogue: 0,0:04:17.27,0:04:19.61,Dialogue,,0,0,0,,It's as if you two were Yoshitsune and Shizuka Gozen.
+Dialogue: 0,0:04:20.07,0:04:21.07,Dialogue,,0,0,0,,What!?
+Dialogue: 0,0:04:21.36,0:04:24.53,Dialogue,,0,0,0,,Is there something wrong about\Nworrying for your childhood friend?
+Dialogue: 0,0:04:25.36,0:04:27.07,Dialogue,,0,0,0,,I'm going to hang up now because my dad's being noisy.
+Dialogue: 0,0:04:28.16,0:04:28.87,Dialogue,,0,0,0,,Ah... Hey!
+Dialogue: 0,0:04:29.08,0:04:30.45,Dialogue,,0,0,0,,Really...
+Dialogue: 0,0:04:31.20,0:04:33.87,Dialogue,,0,0,0,,Next time I'll call when he's not around.
+Dialogue: 0,0:04:35.62,0:04:37.25,Dialogue,,0,0,0,,Yoshitsune and Shizuka Gozen?
+Dialogue: 0,0:04:38.34,0:04:41.84,Dialogue,,0,0,0,,After they separated, they never reunited...
+Dialogue: 0,0:04:42.63,0:04:43.55,Thoughts,,0,0,0,,{\be10}Hey, hey.
+Dialogue: 0,0:04:44.34,0:04:47.26,Signs,Sign,0,0,0,,Tokyo —\hNishikuni Tachi City
+Dialogue: 0,0:04:49.22,0:04:52.56,Signs,Sign,0,0,0,,Kamei no Rokurou (35)
+Dialogue: 0,0:04:49.51,0:04:58.48,Signs,Note,0,0,0,,Note: Everyone here has numbers in their\Nname, "Rokurou"= 6, "Hachirou"= 8, "Shichirou"= 7
+Dialogue: 0,0:04:52.98,0:04:55.56,Signs,Sign,0,0,0,,Kataoka no Hachirou (34)
+Dialogue: 0,0:04:55.98,0:04:58.56,Signs,Sign,0,0,0,,Washinoo no Shichirou (35)
+Dialogue: 0,0:05:11.54,0:05:13.45,Dialogue,,0,0,0,,He's so slow, that Benkei.
+Dialogue: 0,0:05:13.79,0:05:16.67,Dialogue,,0,0,0,,Yeah, he claimed he had solved the mystery.
+Dialogue: 0,0:05:17.17,0:05:19.96,Dialogue,,0,0,0,,He was the most enthusiastic about this thing.
+Dialogue: 0,0:05:26.30,0:05:26.93,Dialogue,,0,0,0,,Kataoka!
+Dialogue: 0,0:05:59.96,0:06:02.21,Signs,Sign,0,0,0,,Osaka —\hLate at night
+Dialogue: 0,0:06:02.63,0:06:05.21,Signs,Sign,0,0,0,,Neyagawashi "Takohei"
+Dialogue: 0,0:06:07.22,0:06:11.14,Signs,Note,0,0,0,,Note: "shi"= 4
+Dialogue: 0,0:06:07.26,0:06:10.47,Signs,Sign,0,0,0,,Bizen no Heishirou (35)
+Dialogue: 0,0:06:16.18,0:06:18.69,Signs,Sign,0,0,0,,Kyoto —\hEarly dawn
+Dialogue: 0,0:06:18.89,0:06:21.48,Signs,Sign,0,0,0,,East Mountain District "Snack Jirou"
+Dialogue: 0,0:06:21.90,0:06:24.19,Signs,Sign,0,0,0,,Surugano Jirou (32)
+Dialogue: 0,0:06:22.15,0:06:24.23,Signs,Note,0,0,0,,Note: "ji"= 2
+Dialogue: 0,0:06:38.66,0:06:41.13,Signs,Sign,0,0,0,,—Several days later—
+Dialogue: 0,0:06:38.66,0:06:41.13,Signs,Sign,0,0,0,,Tokyo —\hPolice headquarters
+Dialogue: 0,0:06:41.79,0:06:43.46,Dialogue,,0,0,0,,The results of the investigation show,
+Dialogue: 0,0:06:44.17,0:06:47.13,Dialogue,,0,0,0,,five victims in Tokyo, Osaka, and Kyoto.
+Dialogue: 0,0:06:48.05,0:06:54.22,Signs,Note,0,0,0,,Note: Genji refers to "Genji Monogatari," which translates to "Genji Tales," written by\NMurasaki Shikibu. Genji had a younger brother named "Hotaru" which means "firefly."
+Dialogue: 0,0:06:48.05,0:06:52.22,Dialogue,,0,0,0,,It was confirmed that they're\Nmembers of the robbery group, Genjibotaru.
+Dialogue: 0,0:06:53.18,0:06:53.85,Dialogue,,0,0,0,,Therefore,
+Dialogue: 0,0:06:54.35,0:06:55.26,Dialogue,,0,0,0,,this case...
+Dialogue: 0,0:06:54.76,0:07:00.19,Signs,Sign,0,0,0,,Kyoto Prefectural Police
+Dialogue: 0,0:06:54.76,0:07:00.19,Signs,Sign,0,0,0,,Ayanokouji Fumimaru
+Dialogue: 0,0:06:55.39,0:06:56.06,Dialogue,,0,0,0,,Satou{\rHonorifics - Dialogue}-san{\r},
+Dialogue: 0,0:06:56.85,0:06:59.52,Dialogue,,0,0,0,,Inspector Ayanokouji of the Kyoto Prefectural Police,
+Dialogue: 0,0:06:59.64,0:07:01.65,Dialogue,,0,0,0,,was in the same class as Inspector Shiratori?
+Dialogue: 0,0:07:01.98,0:07:02.31,Dialogue,,0,0,0,,Yes.
+Dialogue: 0,0:07:03.15,0:07:05.27,Dialogue,,0,0,0,,He's of noble descent and is called "The Royal Inspector".
+Dialogue: 0,0:07:06.11,0:07:07.82,Dialogue,,0,0,0,,Look, in his left pocket.
+Dialogue: 0,0:07:07.99,0:07:08.40,Dialogue,,0,0,0,,Eh?
+Dialogue: 0,0:07:10.11,0:07:11.03,Dialogue,,0,0,0,,What is that?
+Dialogue: 0,0:07:11.70,0:07:12.82,Dialogue,,0,0,0,,His pet chipmunk.
+Dialogue: 0,0:07:13.57,0:07:15.12,Dialogue,,0,0,0,,He takes it everywhere.
+Dialogue: 0,0:07:16.08,0:07:17.87,Dialogue,,0,0,0,,He's even weirder than Shiratori.
+Dialogue: 0,0:07:18.75,0:07:21.17,Dialogue,,0,0,0,,Genjibotaru has been stealing famous Buddhist statues.
+Dialogue: 0,0:07:21.71,0:07:23.71,Dialogue,,0,0,0,,Their activities have been centered in,
+Dialogue: 0,0:07:24.17,0:07:27.50,Dialogue,,0,0,0,,Tokyo, Osaka, and Kyoto since 1991.
+Dialogue: 0,0:07:28.05,0:07:29.05,Dialogue,,0,0,0,,Their major trait is,
+Dialogue: 0,0:07:29.92,0:07:32.72,Dialogue,,0,0,0,,their members are named after servants of Yoshitsune,
+Dialogue: 0,0:07:33.30,0:07:36.56,Dialogue,,0,0,0,,and hold identical Yoshitsune Chronicles.
+Dialogue: 0,0:07:35.80,0:07:37.51,Signs,Sign,0,0,0,,Yoshitsune Chronicles
+Dialogue: 0,0:07:38.52,0:07:39.68,Dialogue,,0,0,0,,Their leader is Yoshitsune.
+Dialogue: 0,0:07:39.06,0:07:47.19,Signs,Sign,0,0,0,,Yoshitsune
+Dialogue: 0,0:07:39.06,0:07:47.19,Signs,Sign,0,0,0,,Benkei
+Dialogue: 0,0:07:39.06,0:07:47.19,Signs,Sign,0,0,0,,Suruga no Jirou
+Dialogue: 0,0:07:39.06,0:07:47.19,Signs,Sign,0,0,0,,Ise no Saburou
+Dialogue: 0,0:07:39.06,0:07:47.19,Signs,Sign,0,0,0,,Bizen no Heishirou
+Dialogue: 0,0:07:39.06,0:07:47.19,Signs,Sign,0,0,0,,Kamei no Rokurou
+Dialogue: 0,0:07:39.06,0:07:47.19,Signs,Sign,0,0,0,,Washinoo\Nno Shichirou
+Dialogue: 0,0:07:39.06,0:07:47.19,Signs,Sign,0,0,0,,Kataoka\Nno Hachirou
+Dialogue: 0,0:07:40.18,0:07:40.73,Dialogue,,0,0,0,,Following are:
+Dialogue: 0,0:07:41.06,0:07:41.60,Dialogue,,0,0,0,,Benkei,
+Dialogue: 0,0:07:41.77,0:07:42.81,Dialogue,,0,0,0,,Ise no Saburou,
+Dialogue: 0,0:07:42.98,0:07:43.94,Dialogue,,0,0,0,,all totaling to eight members.
+Dialogue: 0,0:07:44.69,0:07:47.36,Dialogue,,0,0,0,,This time, all but three have been killed,
+Dialogue: 0,0:07:48.11,0:07:50.40,Dialogue,,0,0,0,,and their Yoshitsune Chronicles have been stolen.
+Dialogue: 0,0:07:51.28,0:07:52.57,Dialogue,,0,0,0,,Any leads on the suspect?
+Dialogue: 0,0:07:52.74,0:07:57.66,Signs,Sign,0,0,0,,Osaka Prefectural Police
+Dialogue: 0,0:07:52.74,0:07:57.66,Signs,Sign,0,0,0,,Inspector Ootaki
+Dialogue: 0,0:07:52.74,0:07:55.82,Dialogue Top,,0,0,0,,All we know is that the suspect is\Nskilled in swordmanship and archery.
+Dialogue: 0,0:07:56.28,0:07:59.50,Dialogue,,0,0,0,,As to Yoshitsune, Benkei, and Ise no Saburou,
+Dialogue: 0,0:07:59.91,0:08:02.92,Dialogue,,0,0,0,,we do not know their ages or genders.
+Dialogue: 0,0:08:03.37,0:08:04.25,Dialogue,,0,0,0,,At any rate,
+Dialogue: 0,0:08:04.79,0:08:10.05,Dialogue,,0,0,0,,the culprit and the remaining\Nmembers of the group must be arrested.
+Dialogue: 0,0:08:10.63,0:08:12.76,Dialogue,,0,0,0,,We will do our best to continue the investigation.
+Dialogue: 0,0:08:14.97,0:08:17.26,Signs,Sign,0,0,0,,Hattori Residence
+Dialogue: 0,0:08:19.26,0:08:24.27,Dialogue Top,Sign,0,0,0,,Magazine: "Yoshitsune of the 20th Century, The Head of a Robbery Group"
+Dialogue: 0,0:08:19.89,0:08:21.10,Dialogue,,0,0,0,,Yoshitsune of the 20th century,
+Dialogue: 0,0:08:22.02,0:08:23.94,Dialogue,,0,0,0,,The head of a robbery group.
+Dialogue: 0,0:08:50.00,0:08:50.80,Dialogue,,0,0,0,,Heiji! Are you there?
+Dialogue: 0,0:08:58.43,0:09:01.35,Dialogue,,0,0,0,,That's not good. This is important to you, right?
+Dialogue: 0,0:09:01.68,0:09:04.35,Dialogue,,0,0,0,,Uh, y-yeah, I should put it away.
+Dialogue: 0,0:09:05.48,0:09:06.60,Dialogue,,0,0,0,,Heiji, are you going out?
+Dialogue: 0,0:09:06.94,0:09:09.57,Dialogue,,0,0,0,,Yeah, there's something I wanted to check out.
+Dialogue: 0,0:09:11.23,0:09:12.19,Dialogue,,0,0,0,,Was there something you wanted?
+Dialogue: 0,0:09:13.61,0:09:14.11,Dialogue,,0,0,0,,No.
+Dialogue: 0,0:09:14.90,0:09:17.61,Dialogue,,0,0,0,,I just thought you'd like to see\Nthe Sakura blossoms at Tomorogi.
+Dialogue: 0,0:09:18.32,0:09:18.99,Dialogue,,0,0,0,,But, that's alright.
+Dialogue: 0,0:09:19.41,0:09:19.87,Dialogue,,0,0,0,,Really?
+Dialogue: 0,0:09:20.37,0:09:21.79,Dialogue,,0,0,0,,Then I'll be leaving.
+Dialogue: 0,0:09:23.66,0:09:24.66,Dialogue,,0,0,0,,Take care!
+Dialogue: 0,0:09:25.12,0:09:25.46,Dialogue,,0,0,0,,Yes.
+Dialogue: 0,0:09:29.96,0:09:32.21,Dialogue,,0,0,0,,Why do I have to see him off with a smiling face!?
+Dialogue: 0,0:09:37.51,0:09:41.35,Dialogue,,0,0,0,,As I thought, Kyoto is the\Nhometown of all Japanese people!
+Dialogue: 0,0:09:41.64,0:09:44.43,Dialogue,,0,0,0,,Alright, I brought you here on a special occasion,
+Dialogue: 0,0:09:44.81,0:09:46.35,Dialogue,,0,0,0,,so don't get in my way.
+Dialogue: 0,0:09:46.64,0:09:47.64,Dialogue,,0,0,0,,Yes sir.
+Dialogue: 0,0:09:49.02,0:09:51.86,Dialogue,,0,0,0,,Conan{\rHonorifics - Dialogue}-kun{\r}'s so lucky, he went to Kyoto.
+Dialogue: 0,0:09:52.36,0:09:56.36,Dialogue,,0,0,0,,There was a request for Mouri\Nfrom a temple called Sannou Temple.
+Dialogue: 0,0:09:58.24,0:10:00.28,Dialogue,,0,0,0,,We want to go to Kyoto, too!
+Dialogue: 0,0:10:00.49,0:10:01.07,Dialogue,,0,0,0,,Hmm...
+Dialogue: 0,0:10:01.45,0:10:03.95,Dialogue,,0,0,0,,I could take you there, but...
+Dialogue: 0,0:10:05.16,0:10:06.16,Dialogue,,0,0,0,,Really?
+Dialogue: 0,0:10:06.66,0:10:08.00,Dialogue,,0,0,0,,I can meet Conan{\rHonorifics - Dialogue}-kun{\r}!
+Dialogue: 0,0:10:08.46,0:10:09.83,Dialogue Top,,0,0,0,,Kyoto! Kyoto!
+Dialogue: 0,0:10:10.00,0:10:10.71,Dialogue Top,,0,0,0,,Tomorrow is...
+Dialogue: 0,0:10:10.38,0:10:13.42,Dialogue,,0,0,0,,However, that's if you can answer this quiz.
+Dialogue: 0,0:10:13.71,0:10:14.67,Dialogue,,0,0,0,,Here we go.
+Dialogue: 0,0:10:15.01,0:10:17.13,Dialogue,,0,0,0,,You probably aren't going to take us, right?
+Dialogue: 0,0:10:17.59,0:10:18.34,Dialogue,,0,0,0,,Isn't this alright?
+Dialogue: 0,0:10:19.13,0:10:20.01,Dialogue,,0,0,0,,Hear him out.
+Dialogue: 0,0:10:21.18,0:10:22.89,Dialogue,,0,0,0,,It'll kill some time.
+Dialogue: 0,0:10:23.68,0:10:24.85,Dialogue,,0,0,0,,Hey, what should we do?
+Dialogue: 0,0:10:25.39,0:10:26.48,Dialogue,,0,0,0,,Let's try.
+Dialogue: 0,0:10:27.35,0:10:28.19,Dialogue,,0,0,0,,Alright.
+Dialogue: 0,0:10:29.81,0:10:31.90,Dialogue,,0,0,0,,The three of you know who Benkei is, right?
+Dialogue: 0,0:10:32.23,0:10:32.56,Dialogue,,0,0,0,,Yes.
+Dialogue: 0,0:10:33.15,0:10:34.61,Dialogue,,0,0,0,,He's Yoshitsune's servant.
+Dialogue: 0,0:10:35.23,0:10:35.69,Dialogue,,0,0,0,,Hey,
+Dialogue: 0,0:10:36.07,0:10:37.36,Dialogue,,0,0,0,,Who's Yoshitsune?
+Dialogue: 0,0:10:37.94,0:10:39.40,Dialogue,,0,0,0,,His childhood name is Ushiwakamaru.
+Dialogue: 0,0:10:39.91,0:10:41.49,Dialogue,,0,0,0,,And on Kyoto's Gojyouoohashi,
+Dialogue: 0,0:10:41.99,0:10:44.37,Dialogue,,0,0,0,,he defeated Benkei, who was\Naiming to get his 1000th sword.
+Dialogue: 0,0:10:44.87,0:10:46.50,Dialogue,,0,0,0,,Benkei then became his servant.
+Dialogue: 0,0:10:46.83,0:10:48.33,Dialogue,,0,0,0,,That is Minamoto Yoshitsune.
+Dialogue: 0,0:10:49.21,0:10:49.71,Dialogue,,0,0,0,,At that time,
+Dialogue: 0,0:10:50.08,0:10:51.83,Dialogue,,0,0,0,,The Genji clan and Heike clan were fighting,
+Dialogue: 0,0:10:52.25,0:10:54.38,Dialogue,,0,0,0,,and Yoshitsune defeated the Heike clan.
+Dialogue: 0,0:10:54.88,0:10:56.76,Dialogue,,0,0,0,,But he was hated by his older brother, Yoritomo.
+Dialogue: 0,0:10:57.30,0:10:58.30,Dialogue,,0,0,0,,He committed suicide,
+Dialogue: 0,0:10:58.80,0:11:02.14,Dialogue,,0,0,0,,at Koromogawa of Hiraizumi,\Nwhere today's Iwate prefecture would be.
+Dialogue: 0,0:11:02.55,0:11:04.81,Dialogue,,0,0,0,,Wow, you seem to know a lot about him.
+Dialogue: 0,0:11:05.26,0:11:06.31,Dialogue,,0,0,0,,Now the question is:
+Dialogue: 0,0:11:07.14,0:11:10.48,Dialogue,,0,0,0,,Benkei had a first love named Uzune.
+Dialogue: 0,0:11:10.85,0:11:13.86,Dialogue,,0,0,0,,When he found out that she\Nwas going to marry another man,
+Dialogue: 0,0:11:14.31,0:11:15.94,Dialogue,,0,0,0,,Benkei...
+Dialogue: 0,0:11:16.48,0:11:17.73,Dialogue,,0,0,0,,1. Became Angry
+Dialogue: 0,0:11:18.28,0:11:19.65,Dialogue,,0,0,0,,2. Became Happy
+Dialogue: 0,0:11:19.99,0:11:21.07,Dialogue,,0,0,0,,3. Cried
+Dialogue: 0,0:11:21.78,0:11:22.95,Dialogue,,0,0,0,,So, which one is it?
+Dialogue: 0,0:11:24.45,0:11:25.78,Dialogue,,0,0,0,,His first love!?
+Dialogue: 0,0:11:31.46,0:11:33.33,Dialogue,,0,0,0,,Of course he will be angry!
+Dialogue: 0,0:11:33.46,0:11:35.63,Dialogue,,0,0,0,,There's no reason for him to be happy!
+Dialogue: 0,0:11:36.00,0:11:38.80,Dialogue,,0,0,0,,So you say the answer is "Became Angry"?
+Dialogue: 0,0:11:39.42,0:11:40.01,Dialogue,,0,0,0,,He cried.
+Dialogue: 0,0:11:43.14,0:11:45.01,Dialogue,,0,0,0,,The answer is "Cried".
+Dialogue: 0,0:11:45.47,0:11:47.81,Dialogue,,0,0,0,,You got the idea from "Benkei's crying spot", right?
+Dialogue: 0,0:11:48.52,0:11:51.48,Dialogue,,0,0,0,,I'm no match for you, Ai{\rHonorifics - Dialogue}-kun{\r}.
+Dialogue: 0,0:11:52.19,0:11:53.77,Dialogue,,0,0,0,,"Benkei's crying spot"?
+Dialogue: 0,0:11:54.44,0:12:00.28,Dialogue,,0,0,0,,Even a guy as strong as Benkei has a\Nspot that hurts enough to cry if kicked.
+Dialogue: 0,0:12:01.03,0:12:04.36,Dialogue,,0,0,0,,That's right here. "Mukouzune" is "Benkei's crying spot".
+Dialogue: 0,0:12:05.16,0:12:06.07,Dialogue,,0,0,0,,But...
+Dialogue: 0,0:12:06.45,0:12:09.49,Dialogue,,0,0,0,,What does that have to do with the quiz?
+Dialogue: 0,0:12:09.62,0:12:10.20,Dialogue,,0,0,0,,Uh,
+Dialogue: 0,0:12:10.41,0:12:11.79,Dialogue,,0,0,0,,Well that is...
+Dialogue: 0,0:12:11.87,0:12:12.91,Dialogue,,0,0,0,,I get it!
+Dialogue: 0,0:12:14.33,0:12:17.34,Dialogue,,0,0,0,,The people getting married are "Muko" and "Uzune".
+Dialogue: 0,0:12:15.46,0:12:17.34,Signs,Note,0,0,0,,Note: "Muko" translates to groom.
+Dialogue: 0,0:12:17.84,0:12:20.13,Dialogue,,0,0,0,,Muko and Uzune make "Mukouzune".
+Dialogue: 0,0:12:22.13,0:12:23.55,Dialogue,,0,0,0,,It's another big pun.
+Dialogue: 0,0:12:24.13,0:12:27.76,Dialogue,,0,0,0,,But since we got the right\Nanswer, we can go to Kyoto now!
+Dialogue: 0,0:12:27.93,0:12:31.14,Dialogue,,0,0,0,,Uh... No, because Ai got the right answer...
+Dialogue: 0,0:12:31.56,0:12:35.31,Dialogue,,0,0,0,,Haibara{\rHonorifics - Dialogue}-san{\r} is part of the Detective Boys, too!
+Dialogue: 0,0:12:35.73,0:12:38.69,Dialogue,,0,0,0,,Don't leave Haibara{\rHonorifics - Dialogue}-san{\r} out!
+Dialogue: 0,0:12:38.90,0:12:43.32,Dialogue,,0,0,0,,My mom told me not to become\Nan adult that goes back on his word.
+Dialogue: 0,0:12:56.67,0:12:58.00,Dialogue,,0,0,0,,Thank you very much.
+Dialogue: 0,0:12:58.38,0:12:59.63,Dialogue,,0,0,0,,Thanks.
+Dialogue: 0,0:13:01.42,0:13:04.59,Signs,Sign,0,0,0,,Sannou Temple
+Dialogue: 0,0:13:08.72,0:13:11.85,Dialogue,,0,0,0,,Even if you say so, this doesn't leave here.
+Dialogue: 0,0:13:11.14,0:13:14.10,Signs,Sign,0,0,0,,Ryuen (34)
+Dialogue: 0,0:13:11.14,0:13:14.10,Signs,Sign,0,0,0,,Monk of Sannou Temple
+Dialogue: 0,0:13:12.72,0:13:13.98,Dialogue,,0,0,0,,Oh, Mouri{\rHonorifics - Dialogue}-san{\r}!
+Dialogue: 0,0:13:15.06,0:13:17.60,Dialogue,,0,0,0,,Thank you for coming to such a far away place.
+Dialogue: 0,0:13:18.06,0:13:20.82,Dialogue,,0,0,0,,I am Ryuen, the one who called you.
+Dialogue: 0,0:13:21.57,0:13:22.57,Dialogue,,0,0,0,,Please allow me to introduce you to,
+Dialogue: 0,0:13:22.90,0:13:25.45,Signs,Sign,0,0,0,,Enkai (65)
+Dialogue: 0,0:13:22.90,0:13:25.45,Signs,Sign,0,0,0,,Chief Priest of Sannou Temple
+Dialogue: 0,0:13:23.11,0:13:24.65,Dialogue,,0,0,0,,The Chief Priest, Enkai.
+Dialogue: 0,0:13:25.99,0:13:28.82,Dialogue,,0,0,0,,these three are supporters of this temple.
+Dialogue: 0,0:13:29.20,0:13:33.62,Signs,Sign,0,0,0,,Sakura Shouzou (51)
+Dialogue: 0,0:13:29.20,0:13:33.62,Signs,Sign,0,0,0,,Antique Arts Dealer
+Dialogue: 0,0:13:29.66,0:13:30.87,Dialogue,,0,0,0,,Sakura Shouzou{\rHonorifics - Dialogue}-san{\r}.
+Dialogue: 0,0:13:31.37,0:13:33.91,Dialogue Top,,0,0,0,,He manages an antique art\Ndealership on Teramachi Road.
+Dialogue: 0,0:13:34.62,0:13:37.67,Dialogue,,0,0,0,,You're the famous detective Mouri Kogorou?
+Dialogue: 0,0:13:39.17,0:13:41.84,Dialogue,,0,0,0,,Ah, really? Am I that famous?
+Dialogue: 0,0:13:42.09,0:13:47.09,Signs,Sign,0,0,0,,Mizuo Shuntarou (33)
+Dialogue: 0,0:13:42.09,0:13:47.09,Signs,Sign,0,0,0,,Noh Performer
+Dialogue: 0,0:13:42.38,0:13:43.17,Dialogue,,0,0,0,,Next to him is,
+Dialogue: 0,0:13:42.38,0:13:47.34,Signs,Note,0,0,0,,Note: Noh theater is a special theatrical performance over 600\Nyears old. It incorporates the Noh masks and a lot of dancing.
+Dialogue: 0,0:13:43.38,0:13:45.22,Dialogue,,0,0,0,,The young master of the Mizuo style Noh theater,
+Dialogue: 0,0:13:45.59,0:13:46.76,Dialogue,,0,0,0,,Mizuo Shuntarou.
+Dialogue: 0,0:13:47.51,0:13:50.43,Dialogue Top,,0,0,0,,And this is Saijou Taiga{\rHonorifics - Dialogue}-san{\r},\Nthe owner of a used book store.
+Dialogue: 0,0:13:47.59,0:13:52.35,Signs,Sign,0,0,0,,Saijou Taiga (35)
+Dialogue: 0,0:13:47.59,0:13:52.35,Signs,Sign,0,0,0,,Used Book Store Owner
+Dialogue: 0,0:13:51.14,0:13:52.60,Dialogue,,0,0,0,,Nice to meet you.
+Dialogue: 0,0:13:52.85,0:13:56.27,Dialogue,,0,0,0,,Well, they're all more of friends in kendo than supporters.
+Dialogue: 0,0:13:56.56,0:13:58.85,Dialogue,,0,0,0,,Oh, everyone is skilled in kendo?
+Dialogue: 0,0:13:59.56,0:14:02.98,Dialogue,,0,0,0,,No wonder you are so vigorous at an old age.
+Dialogue: 0,0:14:03.32,0:14:03.86,Thoughts,,0,0,0,,{\be10}Huh...
+Dialogue: 0,0:14:04.03,0:14:05.07,Thoughts,,0,0,0,,{\be10}Kendo friends?
+Dialogue: 0,0:14:05.94,0:14:06.65,Dialogue,,0,0,0,,By the way,
+Dialogue: 0,0:14:06.99,0:14:12.03,Dialogue,,0,0,0,,There is a wooden Buddha\Nunveiled every 12 years at this temple.
+Dialogue: 0,0:14:12.28,0:14:12.74,Dialogue,,0,0,0,,Yes.
+Dialogue: 0,0:14:13.45,0:14:15.29,Dialogue,,0,0,0,,The main statue of this temple, the Healing Buddha.
+Dialogue: 0,0:14:15.66,0:14:18.00,Dialogue,,0,0,0,,It will be presented for worship two days after tomorrow.
+Dialogue: 0,0:14:18.75,0:14:21.21,Dialogue,,0,0,0,,We are looking forward to it.
+Dialogue: 0,0:14:21.63,0:14:22.59,Dialogue,,0,0,0,,Well,
+Dialogue: 0,0:14:23.21,0:14:25.80,Dialogue,,0,0,0,,I believe the Healing Buddha will be delighted.
+Dialogue: 0,0:14:29.55,0:14:30.72,Dialogue,,0,0,0,,What are you saying!?
+Dialogue: 0,0:14:31.09,0:14:32.85,Dialogue,,0,0,0,,The principal object of worship was stolen!?
+Dialogue: 0,0:14:33.14,0:14:33.47,Dialogue,,0,0,0,,Yes.
+Dialogue: 0,0:14:33.97,0:14:35.72,Dialogue,,0,0,0,,It has been eight years since it happened.
+Dialogue: 0,0:14:39.39,0:14:41.98,Signs,Sign,0,0,0,,Sunlight bodhisattva
+Dialogue: 0,0:14:39.85,0:14:42.06,Dialogue,,0,0,0,,On the right, as one faces it, is the Sunlight bodhisattva.
+Dialogue: 0,0:14:42.40,0:14:44.98,Signs,Sign,0,0,0,,Moonlight bodhisattva
+Dialogue: 0,0:14:42.48,0:14:45.03,Dialogue,,0,0,0,,On the left, as one faces it, is the Moonlight bodhisattva.
+Dialogue: 0,0:14:45.61,0:14:49.11,Dialogue,,0,0,0,,The Healing Buddha in the\Ncenter was subject to burglary.
+Dialogue: 0,0:14:49.86,0:14:52.91,Dialogue,,0,0,0,,I was going to report it to the police immediately,
+Dialogue: 0,0:14:54.08,0:14:55.74,Dialogue,,0,0,0,,but the chief priest stopped me.
+Dialogue: 0,0:14:56.45,0:15:00.83,Dialogue,,0,0,0,,He said that there may be a\Nchance that it would return one day.
+Dialogue: 0,0:15:01.08,0:15:02.67,Dialogue,,0,0,0,,How easygoing of him.
+Dialogue: 0,0:15:03.92,0:15:04.59,Dialogue,,0,0,0,,And,
+Dialogue: 0,0:15:04.92,0:15:06.46,Dialogue,,0,0,0,,Eight years from the event,
+Dialogue: 0,0:15:07.26,0:15:08.51,Dialogue,,0,0,0,,five days ago,
+Dialogue: 0,0:15:09.05,0:15:10.59,Dialogue,,0,0,0,,in the temple's mailbox was this.
+Dialogue: 0,0:15:10.88,0:15:11.89,Signs,Sign,0,0,0,,{\an8}Sannou Temple
+Dialogue: 0,0:15:11.89,0:15:12.84,Dialogue,,0,0,0,,No stamps,
+Dialogue: 0,0:15:13.30,0:15:15.56,Dialogue,,0,0,0,,and no sender.
+Dialogue: 0,0:15:19.02,0:15:20.81,Dialogue,,0,0,0,,Solve the puzzle in the picture,
+Dialogue: 0,0:15:20.85,0:15:23.40,Dialogue,,0,0,0,,and you will find the whereabouts of the Buddhist statue.
+Dialogue: 0,0:15:24.73,0:15:26.57,Dialogue,,0,0,0,,What is this picture?
+Dialogue: 0,0:15:32.61,0:15:33.66,Dialogue,,0,0,0,,Thanks, sir.
+Dialogue: 0,0:15:36.12,0:15:37.87,Dialogue,,0,0,0,,As I thought, there aren't that many witnesses,
+Dialogue: 0,0:15:37.87,0:15:39.20,Dialogue,,0,0,0,,to a crime committed in early dawn.
+Dialogue: 0,0:15:40.71,0:15:41.96,Dialogue,,0,0,0,,Thief!
+Dialogue: 0,0:15:44.13,0:15:45.04,Dialogue,,0,0,0,,Out of the way!
+Dialogue: 0,0:15:49.97,0:15:50.88,Dialogue,,0,0,0,,That hurts!
+Dialogue: 0,0:15:53.22,0:15:54.80,Dialogue,,0,0,0,,That was "Benkei's crying spot".
+Dialogue: 0,0:15:55.22,0:15:56.30,Dialogue,,0,0,0,,It hurts a lot, that spot.
+Dialogue: 0,0:15:58.64,0:15:59.02,Dialogue,,0,0,0,,Here.
+Dialogue: 0,0:15:59.47,0:16:00.18,Dialogue,,0,0,0,,It's yours, right?
+Dialogue: 0,0:16:00.56,0:16:01.56,Dialogue,,0,0,0,,Thank you.
+Dialogue: 0,0:16:01.94,0:16:03.94,Dialogue,,0,0,0,,That was very kind of you.
+Dialogue: 0,0:16:04.23,0:16:05.73,Dialogue,,0,0,0,,Well, not at all.
+Dialogue: 0,0:16:06.02,0:16:10.57,Signs,Sign,0,0,0,,Yamakura Tae (52)
+Dialogue: 0,0:16:06.02,0:16:10.57,Signs,Sign,0,0,0,,Mistress of a Tea House\Nin Miyagawachou
+Dialogue: 0,0:16:06.15,0:16:09.48,Dialogue,,0,0,0,,I manage a tea house in Miyagawachou.
+Dialogue: 0,0:16:09.61,0:16:11.03,Dialogue,,0,0,0,,My name is Yamakura Tae.
+Dialogue: 0,0:16:12.95,0:16:14.66,Dialogue,,0,0,0,,Take yours out as well.
+Dialogue: 0,0:16:14.49,0:16:17.03,Signs,Sign,0,0,0,,Chika Suzu (19)
+Dialogue: 0,0:16:14.49,0:16:17.03,Signs,Sign,0,0,0,,Dancer
+Dialogue: 0,0:16:14.91,0:16:15.32,Dialogue,,0,0,0,,Yes.
+Dialogue: 0,0:16:16.41,0:16:17.45,Dialogue,,0,0,0,,I am Chika Suzu.
+Dialogue: 0,0:16:17.87,0:16:19.62,Dialogue,,0,0,0,,Nice to meet you.
+Dialogue: 0,0:16:23.33,0:16:25.00,Dialogue,,0,0,0,,How should we thank you?
+Dialogue: 0,0:16:25.21,0:16:27.84,Dialogue,,0,0,0,,I didn't do very much, so it's alright.
+Dialogue: 0,0:16:28.42,0:16:31.01,Dialogue,,0,0,0,,Then please come visit next time.
+Dialogue: 0,0:16:32.38,0:16:33.30,Dialogue,,0,0,0,,Take care going home.
+Dialogue: 0,0:16:33.93,0:16:34.80,Dialogue,,0,0,0,,Thank you.
+Dialogue: 0,0:16:47.23,0:16:49.23,Dialogue,,0,0,0,,What is this picture?
+Dialogue: 0,0:16:50.03,0:16:52.78,Dialogue,,0,0,0,,On the very top row, the fifth row,
+Dialogue: 0,0:16:53.24,0:16:55.41,Dialogue,,0,0,0,,a cicada, Tengu, and goldfish is drawn.
+Dialogue: 0,0:16:53.90,0:16:57.62,Signs,Note,0,0,0,,Note: Tengu is a long-nosed demon that often appears in Japanese literature.
+Dialogue: 0,0:16:55.99,0:16:57.57,Dialogue,,0,0,0,,And below that, on the fourth row,
+Dialogue: 0,0:16:57.91,0:16:59.08,Dialogue,,0,0,0,,are a chicken and a...
+Dialogue: 0,0:16:59.74,0:17:00.62,Dialogue,,0,0,0,,Loach?
+Dialogue: 0,0:17:01.29,0:17:04.04,Dialogue,,0,0,0,,The yellow loach looks disgusting.
+Dialogue: 0,0:17:04.54,0:17:06.33,Dialogue,,0,0,0,,What's this dot-like mark?
+Dialogue: 0,0:17:06.54,0:17:07.71,Dialogue,,0,0,0,,It's probably just a stain.
+Dialogue: 0,0:17:08.96,0:17:10.71,Dialogue,,0,0,0,,Between the second and third rows,
+Dialogue: 0,0:17:11.30,0:17:13.51,Dialogue,,0,0,0,,there's a violet, Tengu, and Mt. Fuji.
+Dialogue: 0,0:17:14.05,0:17:15.88,Dialogue,,0,0,0,,Beside them is an acorn.
+Dialogue: 0,0:17:17.18,0:17:18.01,Dialogue,,0,0,0,,Father,
+Dialogue: 0,0:17:18.68,0:17:20.60,Dialogue,,0,0,0,,will we be able to find it\Nbefore the two days after tomorrow?
+Dialogue: 0,0:17:21.10,0:17:22.68,Dialogue,,0,0,0,,D-Don't worry,
+Dialogue: 0,0:17:23.02,0:17:26.44,Dialogue,,0,0,0,,if it's up to me, this is not a mystery at all.
+Dialogue: 0,0:17:26.56,0:17:28.65,Thoughts,,0,0,0,,{\be10}Hey hey, is that really true?
+Dialogue: 0,0:17:30.07,0:17:31.90,Dialogue,,0,0,0,,Let's leave the searching for\Nthe Buddhist statue up to the pros,
+Dialogue: 0,0:17:32.23,0:17:34.61,Dialogue,,0,0,0,,and go sightseeing in Kyoto.
+Dialogue: 0,0:17:34.74,0:17:36.32,Dialogue,,0,0,0,,Ah, go right ahead.
+Dialogue: 0,0:17:36.74,0:17:38.57,Dialogue,,0,0,0,,If you guys are here, you'll only be disturbing me.
+Dialogue: 0,0:17:38.99,0:17:41.83,Dialogue,,0,0,0,,Actually, I contacted Kazuha,
+Dialogue: 0,0:17:42.16,0:17:44.62,Dialogue,,0,0,0,,and she's going to be guiding us around Kyoto tomorrow.
+Dialogue: 0,0:17:45.33,0:17:48.37,Dialogue,,0,0,0,,Hattori{\rHonorifics - Dialogue}-kun{\r} has some other plans, so he won't be coming.
+Dialogue: 0,0:17:48.67,0:17:51.46,Dialogue,,0,0,0,,A guy whose girlfriend is already\Ndecided doesn't need to be there.
+Dialogue: 0,0:17:52.09,0:17:52.96,Thoughts,,0,0,0,,{\be10}Oh...
+Dialogue: 0,0:17:53.21,0:17:54.55,Thoughts,,0,0,0,,{\be10}That guy isn't coming.
+Dialogue: 0,0:17:55.63,0:17:57.22,Dialogue,,0,0,0,,Conan{\rHonorifics - Dialogue}-kun{\r} you're coming with us, right?
+Dialogue: 0,0:17:57.43,0:17:59.26,Dialogue,,0,0,0,,Uh, I'm alright.
+Dialogue: 0,0:18:00.01,0:18:03.06,Dialogue,,0,0,0,,I already promised to go fishing\Nin the river with the kids nearby.
+Dialogue: 0,0:18:03.31,0:18:03.85,Dialogue,,0,0,0,,Wow,
+Dialogue: 0,0:18:04.10,0:18:05.31,Dialogue,,0,0,0,,You made friends already?
+Dialogue: 0,0:18:05.81,0:18:07.02,Dialogue,,0,0,0,,Then be careful, alright?
+Dialogue: 0,0:18:07.19,0:18:08.19,Dialogue,,0,0,0,,Uh, yeah.
+Dialogue: 0,0:18:09.60,0:18:11.73,Thoughts,,0,0,0,,{\be10}The one who stole the\NBuddhist statue from Sannou Temple,
+Dialogue: 0,0:18:12.32,0:18:13.94,Thoughts,,0,0,0,,{\be10}must be the Genjibotaru group.
+Dialogue: 0,0:18:15.11,0:18:15.61,Thoughts,,0,0,0,,{\be10}However,
+Dialogue: 0,0:18:16.40,0:18:18.91,Thoughts,,0,0,0,,{\be10}who sent this picture and with what intentions?
+Dialogue: 0,0:18:19.91,0:18:22.49,Thoughts,,0,0,0,,{\be10}Also, what's the connection between the five murders?
+Dialogue: 0,0:18:24.95,0:18:26.04,Thoughts,,0,0,0,,{\be10}Genjibotaru...
+Dialogue: 0,0:18:27.08,0:18:28.79,Thoughts,,0,0,0,,{\be10}Speaking of Yoshitsune and Benkei,
+Dialogue: 0,0:18:29.71,0:18:31.13,Thoughts,,0,0,0,,{\be10}that must be the place.
+Dialogue: 0,0:18:38.13,0:18:41.01,Signs,Sign,0,0,0,,Gojyou Bridge
+Dialogue: 0,0:18:46.10,0:18:48.98,Dialogue,,0,0,0,,There seems to be nothing here\Nrelated to this mysterious picture.
+Dialogue: 0,0:18:50.81,0:18:52.86,Dialogue,,0,0,0,,On the Gojyou bridge of Kyoto,
+Dialogue: 0,0:18:53.94,0:18:55.78,Dialogue,,0,0,0,,the large man Benkei,
+Dialogue: 0,0:18:56.40,0:18:58.07,Dialogue,,0,0,0,,raised his long halberd.
+Dialogue: 0,0:18:58.19,0:18:59.95,Dialogue,,0,0,0,,Aiming at Ushiwakamaru, he slashed downward.
+Dialogue: 0,0:19:04.53,0:19:05.95,Dialogue,,0,0,0,,Ha-Hattori!
+Dialogue: 0,0:19:07.08,0:19:11.17,Dialogue,,0,0,0,,The gods have done some\Ntasteful things for me to meet you here.
+Dialogue: 0,0:19:12.58,0:19:14.96,Dialogue,,0,0,0,,Nii{\rHonorifics - Dialogue}-chan{\r}, can you give me back my shinai?
+Dialogue: 0,0:19:14.96,0:19:21.34,Signs,Note,0,0,0,,Note: A "shinai" is a wooden practice sword used in kendo.
+Dialogue: 0,0:19:16.17,0:19:17.21,Dialogue,,0,0,0,,Oh, sorry, sorry!
+Dialogue: 0,0:19:17.34,0:19:18.09,Dialogue,,0,0,0,,Thanks.
+Dialogue: 0,0:19:18.63,0:19:19.59,Dialogue,,0,0,0,,Let's go.
+Dialogue: 0,0:19:23.05,0:19:24.51,Dialogue,,0,0,0,,Make sure you practice hard!
+Dialogue: 0,0:19:25.35,0:19:27.10,Dialogue,,0,0,0,,Don't borrow some kid's shinai.
+Dialogue: 0,0:19:27.64,0:19:28.43,Dialogue,,0,0,0,,Anyways,
+Dialogue: 0,0:19:29.14,0:19:30.35,Dialogue,,0,0,0,,What are you doing in a place like this?
+Dialogue: 0,0:19:31.06,0:19:32.81,Dialogue,,0,0,0,,Same to you, what are you doing?
+Dialogue: 0,0:19:34.77,0:19:37.86,Dialogue,,0,0,0,,As a matter of fact, the murdered\Nowner of the takoyaki shop in Osaka,
+Dialogue: 0,0:19:34.77,0:19:39.74,Signs,Note,0,0,0,,Note: "Takoyaki" are dumplings with octopus in the middle.
+Dialogue: 0,0:19:38.23,0:19:39.36,Dialogue,,0,0,0,,was an acquaintance of mine.
+Dialogue: 0,0:19:40.45,0:19:43.11,Dialogue,,0,0,0,,He was supposedly a member of a robbery group.
+Dialogue: 0,0:19:43.91,0:19:46.08,Dialogue,,0,0,0,,I went to his shop often while I was in middle school.
+Dialogue: 0,0:19:46.87,0:19:48.12,Dialogue,,0,0,0,,I'm indebted to him in a way.
+Dialogue: 0,0:19:48.66,0:19:51.21,Dialogue,,0,0,0,,So, I want to find the culprit and avenge his death.
+Dialogue: 0,0:19:51.71,0:19:53.42,Dialogue,,0,0,0,,That's why you came to Kyoto.
+Dialogue: 0,0:19:53.71,0:19:56.13,Dialogue,,0,0,0,,You're looking for leads to the culprit.
+Dialogue: 0,0:19:56.92,0:19:58.59,Dialogue,,0,0,0,,If that's so, then I have something good to show you.
+Dialogue: 0,0:20:04.22,0:20:05.14,Dialogue,,0,0,0,,I see.
+Dialogue: 0,0:20:06.18,0:20:07.68,Dialogue,,0,0,0,,If you solve the mystery behind the puzzle,
+Dialogue: 0,0:20:07.93,0:20:09.31,Dialogue,,0,0,0,,not only do you find the Buddhist statue,
+Dialogue: 0,0:20:09.64,0:20:11.94,Dialogue,,0,0,0,,but it might also lead to clues about the murders.
+Dialogue: 0,0:20:13.23,0:20:13.98,Dialogue,,0,0,0,,That's why you...
+Dialogue: 0,0:20:15.36,0:20:17.77,Dialogue,,0,0,0,,If the Genjibotaru group was the\None who stole the Buddhist statue,
+Dialogue: 0,0:20:18.19,0:20:20.65,Dialogue,,0,0,0,,then if we go around the locations\Nrelated to Yoshitsune and Benkei,
+Dialogue: 0,0:20:21.11,0:20:24.32,Dialogue,,0,0,0,,There might be some leads\Nas to how to solve the mystery.
+Dialogue: 0,0:20:25.20,0:20:26.91,Dialogue,,0,0,0,,I don't understand Kyoto at all.
+Dialogue: 0,0:20:27.37,0:20:29.12,Dialogue,,0,0,0,,Then from now on, leave it to me.
+Dialogue: 0,0:20:29.95,0:20:31.04,Dialogue,,0,0,0,,I'll guide you.
+Dialogue: 0,0:20:35.17,0:20:38.75,Signs,Sign,0,0,0,,Gojyouten Shrine
+Dialogue: 0,0:20:37.42,0:20:38.96,Dialogue,,0,0,0,,Here is Gojyouten Shrine.
+Dialogue: 0,0:20:39.84,0:20:42.42,Dialogue,,0,0,0,,According to the Yoshitsune\NChronicles, it wasn't the Gojyou Bridge,
+Dialogue: 0,0:20:42.51,0:20:44.51,Dialogue,,0,0,0,,where they met, but here.
+Dialogue: 0,0:20:46.05,0:20:46.68,Dialogue,,0,0,0,,How about it...
+Dialogue: 0,0:20:47.39,0:20:49.22,Dialogue,,0,0,0,,Do you see any common features between them?
+Dialogue: 0,0:20:49.31,0:20:50.72,Dialogue,,0,0,0,,Hmm, no.
+Dialogue: 0,0:20:51.27,0:20:52.39,Dialogue,,0,0,0,,There doesn't seem to be any.
+Dialogue: 0,0:20:52.98,0:20:54.19,Dialogue,,0,0,0,,Then let's get going to the next spot.
+Dialogue: 0,0:20:55.14,0:20:56.60,Dialogue,,0,0,0,,Something doesn't please me...
+Dialogue: 0,0:20:57.94,0:21:01.73,Dialogue,,0,0,0,,Why didn't the monk from\NSannou Temple request for me?
+Dialogue: 0,0:21:02.32,0:21:04.36,Dialogue,,0,0,0,,If he were looking for a\NKansai detective, that would be me.
+Dialogue: 0,0:21:02.32,0:21:06.11,Signs,Note,0,0,0,,Note: Kansai is the southwestern half of Japan, including Osaka.
+Dialogue: 0,0:21:04.70,0:21:06.28,Dialogue,,0,0,0,,Oh, well...
+Dialogue: 0,0:21:06.70,0:21:09.12,Dialogue,,0,0,0,,Probably because they didn't want\Nthe police knowing about the incident.
+Dialogue: 0,0:21:09.45,0:21:12.37,Dialogue,,0,0,0,,You know, your dad is a\Nsuperior in the police department.
+Dialogue: 0,0:21:14.54,0:21:15.58,Dialogue,,0,0,0,,Hmm, oh well.
+Dialogue: 0,0:21:17.17,0:21:17.75,Thoughts,,0,0,0,,{\be10}Wait a second.
+Dialogue: 0,0:21:18.29,0:21:19.34,Thoughts,,0,0,0,,{\be10}Now that you mention it...
+Dialogue: 0,0:21:24.22,0:21:25.47,Dialogue,,0,0,0,,Here we are. It's right here.
+Dialogue: 0,0:21:28.68,0:21:31.26,Signs,Sign,0,0,0,,Benkei Stone
+Dialogue: 0,0:21:29.43,0:21:30.85,Dialogue,,0,0,0,,Benkei Stone?
+Dialogue: 0,0:21:31.93,0:21:34.60,Dialogue,,0,0,0,,It's said Benkei was always sitting on it,
+Dialogue: 0,0:21:34.89,0:21:36.56,Dialogue,,0,0,0,,or that he had thrown it from Mt. Hie.
+Dialogue: 0,0:21:37.15,0:21:38.90,Dialogue,,0,0,0,,There's various traditions handed down.
+Dialogue: 0,0:21:39.86,0:21:42.19,Dialogue,,0,0,0,,This place doesn't have any connections either.
+Dialogue: 0,0:21:42.65,0:21:43.23,Dialogue,,0,0,0,,Okay.
+Dialogue: 0,0:21:44.03,0:21:44.74,Dialogue,,0,0,0,,Onwards to the next place.
+Dialogue: 0,0:21:45.36,0:21:46.20,Dialogue,,0,0,0,,Where's the next place?
+Dialogue: 0,0:21:47.11,0:21:48.57,Dialogue,,0,0,0,,Keage Incline.
+Dialogue: 0,0:21:50.91,0:21:52.95,Dialogue,,0,0,0,,I am Inspector Ayanokouji of\Nthe Kyoto Prefectural Police.
+Dialogue: 0,0:21:53.37,0:21:56.83,Dialogue,,0,0,0,,You seem to be doing some various\Ninvestigations on the Genjibotaru group.
+Dialogue: 0,0:21:57.67,0:21:59.33,Dialogue,,0,0,0,,This is different than Osaka.
+Dialogue: 0,0:21:59.71,0:22:01.38,Dialogue,,0,0,0,,Amateurs should not stick their\Nnoses in other people's business.
+Dialogue: 0,0:22:09.34,0:22:10.35,Thoughts,,0,0,0,,{\be10}It's a chipmunk.
+Dialogue: 0,0:22:11.60,0:22:12.51,Dialogue,,0,0,0,,Alright?
+Dialogue: 0,0:22:17.39,0:22:19.77,Dialogue,,0,0,0,,There seem to be uncommon inspectors everywhere.
+Dialogue: 0,0:22:20.73,0:22:23.02,Signs,Sign,0,0,0,,Kiyomizudera Temple
+Dialogue: 0,0:22:23.69,0:22:24.73,Dialogue,,0,0,0,,I'm going to take a picture.
+Dialogue: 0,0:22:25.03,0:22:26.57,Dialogue,,0,0,0,,Let's take it in front of the Sakura blossoms.
+Dialogue: 0,0:22:27.03,0:22:27.99,Dialogue,,0,0,0,,It's so beautiful.
+Dialogue: 0,0:22:29.45,0:22:31.41,Dialogue,,0,0,0,,To be able to see such a wonderful sight...
+Dialogue: 0,0:22:31.66,0:22:35.45,Dialogue,,0,0,0,,With Makoto{\rHonorifics - Dialogue}-san{\r} would make me so happy!
+Dialogue: 0,0:22:36.54,0:22:37.58,Dialogue,,0,0,0,,Ran!
+Dialogue: 0,0:22:38.66,0:22:39.92,Dialogue,,0,0,0,,I'm just doing what you always do to me.
+Dialogue: 0,0:22:47.38,0:22:48.13,Dialogue,,0,0,0,,Kazuha{\rHonorifics - Dialogue}-chan{\r},
+Dialogue: 0,0:22:48.47,0:22:50.22,Dialogue,,0,0,0,,Did you get in a fight with Hattori{\rHonorifics - Dialogue}-kun{\r}?
+Dialogue: 0,0:22:51.80,0:22:52.85,Dialogue,,0,0,0,,Actually, Heiji,
+Dialogue: 0,0:22:53.47,0:22:55.52,Dialogue,,0,0,0,,came to Kyoto to investigate a case.
+Dialogue: 0,0:22:56.64,0:22:57.64,Dialogue,,0,0,0,,Also in Kyoto,
+Dialogue: 0,0:22:57.98,0:22:59.81,Dialogue,,0,0,0,,Is Heiji's first love!
+Dialogue: 0,0:23:03.40,0:23:07.32,Signs,Sign,0,0,0,,Keage Incline "Canal Park"
+Dialogue: 0,0:23:08.11,0:23:10.66,Signs,Sign,0,0,0,,Yoshitsune, Perfected Great Sun Buddha
+Dialogue: 0,0:23:13.28,0:23:14.62,Dialogue,,0,0,0,,This one's a miss, too?
+Dialogue: 0,0:23:16.12,0:23:17.04,Dialogue,,0,0,0,,Why don't we have lunch?
+Dialogue: 0,0:23:17.62,0:23:18.12,Dialogue,,0,0,0,,Sure.
+Dialogue: 0,0:23:27.71,0:23:28.63,Dialogue,,0,0,0,,Sakura...
+Dialogue: 0,0:23:31.63,0:23:33.76,Dialogue,,0,0,0,,When I see Sakura blossoms,\NI always recall what happened,
+Dialogue: 0,0:23:34.43,0:23:35.60,Dialogue,,0,0,0,,Eight years ago.
+Dialogue: 0,0:23:36.97,0:23:39.02,Dialogue,,0,0,0,,I was on an expedition in Kyoto's temples,
+Dialogue: 0,0:23:39.89,0:23:42.10,Dialogue,,0,0,0,,and when I jumped on to the temple's latticed window,
+Dialogue: 0,0:23:43.44,0:23:45.23,Dialogue,,0,0,0,,the grid broke.
+Dialogue: 0,0:23:46.44,0:23:48.44,Dialogue,,0,0,0,,Then I hit my head on the floor,
+Dialogue: 0,0:23:48.82,0:23:50.11,Dialogue,,0,0,0,,and I lost consciousness.
+Dialogue: 0,0:23:51.82,0:23:54.41,Dialogue,,0,0,0,,I don't know how long I was sleeping.
+Dialogue: 0,0:23:54.82,0:23:56.37,Dialogue,,0,0,0,,But when I woke up...
+Dialogue: 0,0:24:56.09,0:24:58.47,Dialogue,,0,0,0,,It was like a dream, but it's a true story.
+Dialogue: 0,0:25:01.43,0:25:03.98,Dialogue,,0,0,0,,Maybe one day we'll be able to meet again.
+Dialogue: 0,0:25:08.23,0:25:08.61,Dialogue,,0,0,0,,Hey.
+Dialogue: 0,0:25:09.07,0:25:10.11,Dialogue,,0,0,0,,What are you laughing at?
+Dialogue: 0,0:25:11.78,0:25:13.40,Dialogue,,0,0,0,,Sorry, please continue.
+Dialogue: 0,0:25:13.90,0:25:16.57,Dialogue,,0,0,0,,When I come to Kyoto, I always take this with me.
+Dialogue: 0,0:25:18.74,0:25:19.87,Dialogue,,0,0,0,,It's a crystal ball.
+Dialogue: 0,0:25:21.08,0:25:22.83,Dialogue,,0,0,0,,I've seen this shape somewhere before.
+Dialogue: 0,0:25:23.45,0:25:23.87,Dialogue,,0,0,0,,Really!?
+Dialogue: 0,0:25:24.62,0:25:26.08,Dialogue,,0,0,0,,Does someone have the same thing?
+Dialogue: 0,0:25:27.54,0:25:27.92,Dialogue,,0,0,0,,No.
+Dialogue: 0,0:25:29.00,0:25:29.59,Dialogue,,0,0,0,,So,
+Dialogue: 0,0:25:29.96,0:25:31.63,Dialogue,,0,0,0,,Does she know about this?
+Dialogue: 0,0:25:32.26,0:25:32.92,Dialogue,,0,0,0,,She?
+Dialogue: 0,0:25:33.80,0:25:35.30,Dialogue,,0,0,0,,Oh, you mean Kazuha?
+Dialogue: 0,0:25:36.26,0:25:38.97,Dialogue,,0,0,0,,I haven't told her anything in\Ndetail, but she seems to know about it.
+Dialogue: 0,0:25:39.85,0:25:42.43,Dialogue,,0,0,0,,To begin with, she found out about it...
+Dialogue: 0,0:25:43.64,0:25:45.23,Dialogue,,0,0,0,,In a magazine interview article?
+Dialogue: 0,0:25:45.98,0:25:46.35,Dialogue,,0,0,0,,Right.
+Dialogue: 0,0:25:47.02,0:25:49.61,Dialogue,,0,0,0,,In Kansai's really popular information magazine,
+Dialogue: 0,0:25:50.36,0:25:53.44,Dialogue,,0,0,0,,Heiji was asked about his first love.
+Dialogue: 0,0:25:54.15,0:25:55.90,Dialogue,,0,0,0,,He answered that it was a girl,
+Dialogue: 0,0:25:56.11,0:25:58.41,Dialogue,,0,0,0,,a little older than him that he met in third grade.
+Dialogue: 0,0:25:59.70,0:26:02.99,Dialogue,,0,0,0,,Moreover, he said that there's an\Nimportant artifact that concerns this girl.
+Dialogue: 0,0:26:03.54,0:26:06.04,Dialogue,,0,0,0,,They took a picture like this.
+Dialogue: 0,0:26:07.08,0:26:08.17,Dialogue,,0,0,0,,What is this?
+Dialogue: 0,0:26:08.83,0:26:10.04,Dialogue,,0,0,0,,An ordinary crystal ball.
+Dialogue: 0,0:26:10.59,0:26:12.25,Dialogue,,0,0,0,,He probably received it from that girl.
+Dialogue: 0,0:26:12.92,0:26:14.80,Dialogue,,0,0,0,,Then Kazuha{\rHonorifics - Dialogue}-chan{\r}, about that girl...
+Dialogue: 0,0:26:15.21,0:26:16.51,Dialogue,,0,0,0,,Know her? Of course not!
+Dialogue: 0,0:26:17.72,0:26:19.89,Dialogue,,0,0,0,,Heiji seems to have only met her that one time.
+Dialogue: 0,0:26:20.47,0:26:23.06,Dialogue,,0,0,0,,Whenever he comes to Kyoto, he looks for her.
+Dialogue: 0,0:26:23.56,0:26:26.23,Dialogue,,0,0,0,,Ah, so that's why he has the crystal ball in the picture.
+Dialogue: 0,0:26:26.85,0:26:29.94,Dialogue,,0,0,0,,Maybe he thinks that girl will read this article,
+Dialogue: 0,0:26:29.94,0:26:32.23,Dialogue,,0,0,0,,and might contact him.
+Dialogue: 0,0:26:33.19,0:26:34.69,Dialogue,,0,0,0,,See, isn't that unpleasant!?
+Dialogue: 0,0:26:36.24,0:26:39.20,Dialogue,,0,0,0,,As a bonus, there's even a\Npicture of him taken around that time.
+Dialogue: 0,0:26:39.11,0:26:41.62,Signs,Note,0,0,0,,Note: The bold letters underneath Heiji's kid picture read "Heiji in third grade"
+Dialogue: 0,0:26:40.91,0:26:41.70,Dialogue,,0,0,0,,How cute!
+Dialogue: 0,0:26:42.07,0:26:42.99,Dialogue,,0,0,0,,Don't you agree?
+Dialogue: 0,0:26:43.24,0:26:44.87,Dialogue,,0,0,0,,Heiji was so cute back then.
+Dialogue: 0,0:26:46.45,0:26:46.95,Dialogue,,0,0,0,,Ran{\rHonorifics - Dialogue}-chan{\r}...
+Dialogue: 0,0:26:47.37,0:26:48.96,Dialogue,,0,0,0,,That isn't the problem.
+Dialogue: 0,0:26:49.67,0:26:51.79,Dialogue,,0,0,0,,I don't think you should be concerned about it.
+Dialogue: 0,0:26:52.38,0:26:54.84,Dialogue,,0,0,0,,Even if Hattori{\rHonorifics - Dialogue}-kun{\r} had a first love,
+Dialogue: 0,0:26:55.25,0:26:56.67,Dialogue,,0,0,0,,she's in the past.
+Dialogue: 0,0:26:57.63,0:27:00.09,Dialogue,,0,0,0,,Right now, it looks like it's going well with you.
+Dialogue: 0,0:27:00.68,0:27:01.51,Dialogue,,0,0,0,,However,
+Dialogue: 0,0:27:01.55,0:27:05.39,Dialogue,,0,0,0,,to men, their first love is special.
+Dialogue: 0,0:27:06.56,0:27:07.18,Dialogue,,0,0,0,,Sonoko!
+Dialogue: 0,0:27:08.77,0:27:11.23,Dialogue,,0,0,0,,Let's stop this boring conversation.
+Dialogue: 0,0:27:11.65,0:27:13.11,Dialogue,,0,0,0,,Anyway, why don't we eat some zenzai?
+Dialogue: 0,0:27:11.65,0:27:14.27,Signs,Note,0,0,0,,Note: Zenzai is a dessert of sweet beans, kind of like jam.
+Dialogue: 0,0:27:13.81,0:27:17.49,Dialogue,,0,0,0,,Ma'am! Three zenzai, please! And hurry!
+Dialogue: 0,0:27:30.50,0:27:32.54,Dialogue,,0,0,0,,That is the west gate of Kurama Temple.
+Dialogue: 0,0:27:33.21,0:27:35.59,Dialogue,,0,0,0,,Usually we'd go in from the Nioumon,
+Dialogue: 0,0:27:33.21,0:27:36.71,Signs,Note,0,0,0,,Note: "Nioumon" is the "second large gate"
+Dialogue: 0,0:27:36.21,0:27:37.88,Dialogue,,0,0,0,,but this way is better because it's a shortcut.
+Dialogue: 0,0:27:40.72,0:27:43.01,Signs,Sign,0,0,0,,Kurama Temple —\hInner Sanctuary 588 meters
+Dialogue: 0,0:28:08.37,0:28:11.29,Signs,Sign,0,0,0,,Immobile Hall of Soujyougatani
+Dialogue: 0,0:28:08.83,0:28:11.04,Dialogue,,0,0,0,,This is the Immobile Hall of Soujyougatani.
+Dialogue: 0,0:28:12.00,0:28:15.71,Dialogue,,0,0,0,,Ushiwakamaru met the Tengu\Nand was instructed in the art of war.
+Dialogue: 0,0:28:18.42,0:28:22.01,Dialogue,,0,0,0,,This is definitely a good place to train in swordsmanship.
+Dialogue: 0,0:28:24.14,0:28:27.51,Dialogue,,0,0,0,,Nevertheless, this tree is really big.
+Dialogue: 0,0:28:32.48,0:28:34.06,Dialogue,,0,0,0,,Hattori, this place is also not...
+Dialogue: 0,0:28:35.77,0:28:36.48,Dialogue,,0,0,0,,Get down!
+Dialogue: 0,0:28:42.07,0:28:42.82,Dialogue,,0,0,0,,Wait!
+Dialogue: 0,0:28:43.40,0:28:44.20,Dialogue,,0,0,0,,Hey, Kudou!
+Dialogue: 0,0:28:59.67,0:29:01.30,Dialogue,,0,0,0,,That guy is like Ushiwakamaru!
+Dialogue: 0,0:29:10.72,0:29:11.27,Dialogue,,0,0,0,,Damn it.
+Dialogue: 0,0:29:13.02,0:29:14.44,Dialogue,,0,0,0,,Here Kudou, we're going!
+Dialogue: 0,0:29:33.33,0:29:34.50,Dialogue,,0,0,0,,We got him!
+Dialogue: 0,0:30:04.65,0:30:05.74,Dialogue,,0,0,0,,What is he doing!?
+Dialogue: 0,0:30:18.96,0:30:21.29,Signs,Sign,0,0,0,,Kurama Temple
+Dialogue: 0,0:30:29.59,0:30:31.85,Signs,Sign,0,0,0,,Kurama Temple Station
+Dialogue: 0,0:30:32.35,0:30:34.43,Dialogue,,0,0,0,,Those taking the train, please hurry,
+Dialogue: 0,0:30:34.68,0:30:35.85,Dialogue,,0,0,0,,the train will be leaving short...
+Dialogue: 0,0:30:37.52,0:30:40.27,Dialogue,,0,0,0,,Well, you don't have to hurry to that extent.
+Dialogue: 0,0:30:46.28,0:30:48.07,Dialogue,,0,0,0,,Hey, these are the train tracks.
+Dialogue: 0,0:30:48.40,0:30:50.24,Dialogue,,0,0,0,,You're distracting, don't talk to me!
+Dialogue: 0,0:30:51.37,0:30:52.70,Thoughts,,0,0,0,,{\be10}Violation of traffic laws.
+Dialogue: 0,0:30:52.99,0:30:54.37,Thoughts,,0,0,0,,{\be10}You'll get your license suspended at this rate.
+Dialogue: 0,0:31:06.80,0:31:07.63,Dialogue,,0,0,0,,What's his plan?
+Dialogue: 0,0:31:21.98,0:31:22.90,Dialogue,,0,0,0,,Damn!
+Dialogue: 0,0:31:23.86,0:31:25.23,Dialogue,,0,0,0,,We were so close...
+Dialogue: 0,0:31:26.19,0:31:26.82,Dialogue,,0,0,0,,As I thought,
+Dialogue: 0,0:31:27.19,0:31:27.82,Dialogue,,0,0,0,,That was the culprit,
+Dialogue: 0,0:31:28.32,0:31:30.95,Dialogue,,0,0,0,,who murdered the members of the Genjibotaru group.
+Dialogue: 0,0:31:31.57,0:31:32.24,Dialogue,,0,0,0,,That's likely.
+Dialogue: 0,0:31:32.95,0:31:35.24,Dialogue,,0,0,0,,However, I don't understand why he targeted you.
+Dialogue: 0,0:31:44.25,0:31:45.13,Dialogue,,0,0,0,,Hattori{\rHonorifics - Dialogue}-kun{\r}?
+Dialogue: 0,0:31:45.34,0:31:46.38,Dialogue,,0,0,0,,Why are you here?
+Dialogue: 0,0:31:47.46,0:31:47.84,Dialogue,,0,0,0,,Well,
+Dialogue: 0,0:31:48.05,0:31:49.34,Dialogue,,0,0,0,,By chance I ran into Kud—
+Dialogue: 0,0:31:49.34,0:31:50.13,Dialogue,,0,0,0,,No, this kid.
+Dialogue: 0,0:31:50.34,0:31:51.43,Dialogue,,0,0,0,,And I thought we should solve,
+Dialogue: 0,0:31:51.97,0:31:53.84,Dialogue,,0,0,0,,the mystery behind the picture together.
+Dialogue: 0,0:31:54.35,0:31:54.93,Dialogue,,0,0,0,,And...
+Dialogue: 0,0:31:55.47,0:31:57.14,Dialogue,,0,0,0,,Were you able to solve the mystery behind the picture?
+Dialogue: 0,0:31:57.47,0:31:57.97,Dialogue,,0,0,0,,Not yet.
+Dialogue: 0,0:31:58.72,0:31:59.89,Dialogue,,0,0,0,,It's pretty difficult.
+Dialogue: 0,0:32:00.85,0:32:02.90,Dialogue,,0,0,0,,By the way, was uncle able to solve it?
+Dialogue: 0,0:32:03.85,0:32:05.19,Dialogue,,0,0,0,,Well...
+Dialogue: 0,0:32:12.74,0:32:15.70,Signs,Sign,0,0,0,,Bantochou
+Dialogue: 0,0:32:16.74,0:32:19.70,Signs,Sign,0,0,0,,"Sakura" Tea House
+Dialogue: 0,0:32:26.75,0:32:30.71,Signs,Note,0,0,0,,Note: Geisha are professional hostesses who\Nentertain guests through various performing arts in tea houses.
+Dialogue: 0,0:32:26.79,0:32:29.71,Signs,Sign,0,0,0,,Ichi Kayo
+Dialogue: 0,0:32:26.79,0:32:29.71,Signs,Sign,0,0,0,,Geisha
+Dialogue: 0,0:32:48.48,0:32:52.44,Signs,Note,0,0,0,,Note: Maiko are apprentice geisha. It usually takes about\Nfive years of training for them to "graduate" to full geisha status.
+Dialogue: 0,0:32:48.52,0:32:51.44,Signs,Sign,0,0,0,,Chika Suzu (19)
+Dialogue: 0,0:32:48.52,0:32:51.44,Signs,Sign,0,0,0,,Maiko
+Dialogue: 0,0:32:57.99,0:33:00.95,Dialogue,,0,0,0,,Chika Suzu{\rHonorifics - Dialogue}-chan{\r}, you're Japan's number one!
+Dialogue: 0,0:33:01.54,0:33:03.54,Dialogue,,0,0,0,,Thank you, I hope it has pleased you.
+Dialogue: 0,0:33:04.62,0:33:05.12,Dialogue,,0,0,0,,Come now,
+Dialogue: 0,0:33:05.62,0:33:07.04,Dialogue,,0,0,0,,And serve Mouri{\rHonorifics - Dialogue}-sensei{\r}.
+Dialogue: 0,0:33:07.33,0:33:07.75,Dialogue,,0,0,0,,Yes.
+Dialogue: 0,0:33:19.60,0:33:20.60,Dialogue,,0,0,0,,Pardon me.
+Dialogue: 0,0:33:24.39,0:33:26.90,Dialogue,,0,0,0,,Kogorou{\rHonorifics - Dialogue}-chan{\r} may climb to the heavens!
+Dialogue: 0,0:33:26.98,0:33:28.65,Dialogue,,0,0,0,,Why don't you keep climbing!?
+Dialogue: 0,0:33:30.40,0:33:32.40,Dialogue,,0,0,0,,You guys, why are you...
+Dialogue: 0,0:33:34.19,0:33:36.20,Dialogue,,0,0,0,,The chief priest told us.
+Dialogue: 0,0:33:36.45,0:33:37.41,Dialogue,,0,0,0,,Is that so,
+Dialogue: 0,0:33:37.61,0:33:38.66,Dialogue,,0,0,0,,The chief priest...
+Dialogue: 0,0:33:39.41,0:33:41.54,Dialogue,,0,0,0,,Then how about it? Would you like to join us?
+Dialogue: 0,0:33:41.87,0:33:44.54,Dialogue,,0,0,0,,Excuse us for interrupting.
+Dialogue: 0,0:33:50.63,0:33:51.00,Dialogue,,0,0,0,,Hey,
+Dialogue: 0,0:33:51.67,0:33:52.92,Dialogue,,0,0,0,,Aren't you from Miyagawachou?
+Dialogue: 0,0:33:53.26,0:33:53.63,Dialogue,,0,0,0,,Yes.
+Dialogue: 0,0:33:54.55,0:33:55.59,Dialogue,,0,0,0,,I'm Chika Suzu.
+Dialogue: 0,0:33:56.13,0:33:57.68,Dialogue,,0,0,0,,Thank you for the help earlier.
+Dialogue: 0,0:33:58.89,0:34:00.22,Dialogue,,0,0,0,,Do you know her?
+Dialogue: 0,0:34:00.64,0:34:01.89,Dialogue,,0,0,0,,Yeah, just a little bit.
+Dialogue: 0,0:34:03.60,0:34:05.43,Dialogue,,0,0,0,,If I let you out of my sight for just one second...
+Dialogue: 0,0:34:06.02,0:34:06.64,Dialogue,,0,0,0,,Ran{\rHonorifics - Dialogue}-san{\r}...
+Dialogue: 0,0:34:07.10,0:34:09.23,Dialogue,,0,0,0,,Please don't scold your father.
+Dialogue: 0,0:34:09.65,0:34:11.82,Dialogue,,0,0,0,,We're the ones who invited him.
+Dialogue: 0,0:34:12.11,0:34:12.82,Dialogue,,0,0,0,,That's right,
+Dialogue: 0,0:34:13.23,0:34:15.40,Dialogue,,0,0,0,,we thought we could ask the famous detective,
+Dialogue: 0,0:34:15.69,0:34:17.20,Dialogue,,0,0,0,,to reason the Genjibotaru case.
+Dialogue: 0,0:34:17.70,0:34:20.66,Signs,Sign,0,0,0,,Sakura Tea House —\hMistress
+Dialogue: 0,0:34:18.03,0:34:19.45,Dialogue Top,,0,0,0,,Talking about the Genjibotaru,
+Dialogue: 0,0:34:19.82,0:34:23.08,Dialogue Top,,0,0,0,,don't all the members have a\Ncopy of the Yoshitsune Chronicles?
+Dialogue: 0,0:34:23.45,0:34:24.75,Dialogue,,0,0,0,,I have one too.
+Dialogue: 0,0:34:25.25,0:34:26.87,Dialogue,,0,0,0,,It's a really great book.
+Dialogue: 0,0:34:27.41,0:34:28.29,Dialogue,,0,0,0,,Right, used book seller?
+Dialogue: 0,0:34:28.58,0:34:29.25,Dialogue,,0,0,0,,Yes.
+Dialogue: 0,0:34:30.13,0:34:32.59,Dialogue,,0,0,0,,But I don't like it very much.
+Dialogue: 0,0:34:33.21,0:34:36.42,Dialogue,,0,0,0,,Even if they say it's the Yoshitsune\NChronicles, it actually depicts Benkei's activities.
+Dialogue: 0,0:34:36.51,0:34:37.84,Dialogue,,0,0,0,,It is the Benkei Chronicles.
+Dialogue: 0,0:34:38.30,0:34:39.55,Dialogue,,0,0,0,,I like it.
+Dialogue: 0,0:34:40.22,0:34:41.64,Dialogue,,0,0,0,,Especially the "Ataka no Benkei",
+Dialogue: 0,0:34:41.76,0:34:42.43,Dialogue,,0,0,0,,it's the best.
+Dialogue: 0,0:34:42.85,0:34:44.56,Dialogue,,0,0,0,,Ataka? What is that?
+Dialogue: 0,0:34:45.06,0:34:46.77,Dialogue,,0,0,0,,It's one of the programs of the Noh theater.
+Dialogue: 0,0:34:47.27,0:34:49.35,Dialogue,,0,0,0,,While escaping from Yoritomo's pursuing party,
+Dialogue: 0,0:34:49.81,0:34:51.19,Dialogue,,0,0,0,,Yoshitsune and his servants,
+Dialogue: 0,0:34:51.48,0:34:52.86,Dialogue,,0,0,0,,disguise themselves as mountain priests.
+Dialogue: 0,0:34:53.19,0:34:55.48,Dialogue,,0,0,0,,They try to get through the Ataka checkpoint, but,
+Dialogue: 0,0:34:55.90,0:34:59.07,Dialogue,,0,0,0,,Yoshitsune's disguise is almost seen through.
+Dialogue: 0,0:35:00.03,0:35:01.91,Dialogue,,0,0,0,,Benkei used his Kongoubou,
+Dialogue: 0,0:35:00.03,0:35:03.91,Signs,Note,0,0,0,,Note: Kongoubou is a special staff that mountain priests carry.
+Dialogue: 0,0:35:02.20,0:35:03.62,Dialogue,,0,0,0,,to hit Yoshitsune at once.
+Dialogue: 0,0:35:04.87,0:35:05.54,Dialogue,,0,0,0,,Why?
+Dialogue: 0,0:35:06.50,0:35:08.58,Dialogue,,0,0,0,,In order to deceive the checkpoint guards.
+Dialogue: 0,0:35:09.21,0:35:13.42,Dialogue,,0,0,0,,No one would ever believe that a\Nservant would hit his master with a staff.
+Dialogue: 0,0:35:13.96,0:35:14.50,Dialogue,,0,0,0,,Then,
+Dialogue: 0,0:35:14.75,0:35:17.71,Dialogue,,0,0,0,,Yoshitsune and his party were able\Nto safely pass through the checkpoint.
+Dialogue: 0,0:35:18.47,0:35:21.80,Dialogue,,0,0,0,,Later, when Benkei apologized with tears,
+Dialogue: 0,0:35:22.43,0:35:25.39,Dialogue,,0,0,0,,Yoshitsune praised him for his quick wits.
+Dialogue: 0,0:35:26.18,0:35:27.98,Dialogue,,0,0,0,,You can understand how deep their bond was.
+Dialogue: 0,0:35:28.39,0:35:29.52,Dialogue,,0,0,0,,It's a good story.
+Dialogue: 0,0:35:32.23,0:35:35.52,Dialogue,,0,0,0,,I'm sorry, but I haven't had much sleep lately.
+Dialogue: 0,0:35:35.90,0:35:39.24,Dialogue,,0,0,0,,May I rest in one of the rooms downstairs?
+Dialogue: 0,0:35:39.40,0:35:40.20,Dialogue,,0,0,0,,If that's the case,
+Dialogue: 0,0:35:40.53,0:35:44.16,Dialogue,,0,0,0,,there are no other guests\Ntonight, so take the room next to...
+Dialogue: 0,0:35:44.37,0:35:47.16,Dialogue,,0,0,0,,No thank you, I can settle down better downstairs.
+Dialogue: 0,0:35:48.12,0:35:48.91,Dialogue,,0,0,0,,Do you think,
+Dialogue: 0,0:35:49.66,0:35:51.08,Dialogue,,0,0,0,,you can wake me up at nine?
+Dialogue: 0,0:35:53.08,0:35:55.59,Dialogue,,0,0,0,,Please enjoy yourselves everybody.
+Dialogue: 0,0:36:02.55,0:36:04.47,Dialogue,,0,0,0,,Wow! You can see the river!
+Dialogue: 0,0:36:04.97,0:36:06.10,Dialogue,,0,0,0,,That is the Kamogawa.
+Dialogue: 0,0:36:04.97,0:36:08.10,Signs,Note,0,0,0,,Note: "Gawa" is suffix for river.
+Dialogue: 0,0:36:06.72,0:36:08.27,Dialogue,,0,0,0,,The Sakura blossoms are beautiful.
+Dialogue: 0,0:36:08.35,0:36:09.73,Dialogue,,0,0,0,,Yes, they really are.
+Dialogue: 0,0:36:10.48,0:36:11.98,Dialogue,,0,0,0,,Ran, come and see.
+Dialogue: 0,0:36:12.94,0:36:16.44,Dialogue,,0,0,0,,It's good to see the Sakura blossoms\Nfrom the river bed of Kamogawa as a couple.
+Dialogue: 0,0:36:17.02,0:36:21.74,Dialogue,,0,0,0,,However, the view from the river\Nthat flows beneath this building,
+Dialogue: 0,0:36:22.07,0:36:23.57,Dialogue,,0,0,0,,Misogigawa, is exceptional.
+Dialogue: 0,0:36:24.28,0:36:25.62,Dialogue,,0,0,0,,It really is beautiful.
+Dialogue: 0,0:36:25.70,0:36:27.78,Dialogue,,0,0,0,,Yeah, it's beautiful.
+Dialogue: 0,0:36:28.20,0:36:30.50,Dialogue,,0,0,0,,Your fingers are like a white fish.
+Dialogue: 0,0:36:30.79,0:36:32.04,Dialogue,,0,0,0,,I almost want to eat it!
+Dialogue: 0,0:36:35.71,0:36:37.21,Dialogue,,0,0,0,,Did you get injured?
+Dialogue: 0,0:36:37.50,0:36:38.92,Dialogue,,0,0,0,,Yes, a little bit.
+Dialogue: 0,0:36:39.67,0:36:41.63,Dialogue,,0,0,0,,Let Kogorou heal it for you.
+Dialogue: 0,0:36:42.05,0:36:43.30,Dialogue,,0,0,0,,Stop it and act properly!
+Dialogue: 0,0:36:44.30,0:36:45.01,Thoughts,,0,0,0,,{\be10}Haha.
+Dialogue: 0,0:36:45.22,0:36:46.60,Thoughts,,0,0,0,,{\be10}This guy will never learn.
+Dialogue: 0,0:36:47.01,0:36:47.47,Dialogue,,0,0,0,,Hey,
+Dialogue: 0,0:36:48.10,0:36:48.81,Dialogue,,0,0,0,,Look at that!
+Dialogue: 0,0:36:51.52,0:36:52.68,Dialogue,,0,0,0,,Inspector Ayanokouji!
+Dialogue: 0,0:36:53.23,0:36:55.02,Dialogue,,0,0,0,,What is he doing at a place like that?
+Dialogue: 0,0:36:55.85,0:36:56.40,Dialogue,,0,0,0,,You guys,
+Dialogue: 0,0:36:56.69,0:36:59.52,Dialogue,,0,0,0,,should see the evening cherry\Nblossoms from the balcony below.
+Dialogue: 0,0:37:00.28,0:37:02.24,Dialogue,,0,0,0,,Tonight the clouds will clear up,
+Dialogue: 0,0:37:02.53,0:37:03.90,Dialogue,,0,0,0,,and a good moon will come out.
+Dialogue: 0,0:37:04.61,0:37:05.28,Dialogue,,0,0,0,,Let's go.
+Dialogue: 0,0:37:05.53,0:37:05.99,Dialogue,,0,0,0,,Yes.
+Dialogue: 0,0:37:06.24,0:37:06.91,Dialogue,,0,0,0,,It sounds great.
+Dialogue: 0,0:37:07.37,0:37:08.83,Dialogue,,0,0,0,,I'm going to stay here.
+Dialogue: 0,0:37:09.28,0:37:09.83,Dialogue,,0,0,0,,Me too.
+Dialogue: 0,0:37:10.29,0:37:10.95,Dialogue,,0,0,0,,Why?
+Dialogue: 0,0:37:11.75,0:37:13.37,Dialogue,,0,0,0,,Are you anxious about that dancing girl?
+Dialogue: 0,0:37:13.83,0:37:14.50,Dialogue,,0,0,0,,Idiot...
+Dialogue: 0,0:37:14.96,0:37:16.12,Dialogue,,0,0,0,,Don't ask anything pointless.
+Dialogue: 0,0:37:28.39,0:37:29.10,Dialogue,,0,0,0,,Damn!
+Dialogue: 0,0:37:29.64,0:37:31.64,Dialogue,,0,0,0,,That guy's engine is full throttle!
+Dialogue: 0,0:37:32.14,0:37:33.73,Dialogue,,0,0,0,,He's constantly like that.
+Dialogue: 0,0:37:34.23,0:37:37.06,Dialogue,,0,0,0,,Chika Suzu{\rHonorifics - Dialogue}-chan{\r}, revenge, revenge.
+Dialogue: 0,0:37:37.40,0:37:38.36,Dialogue,,0,0,0,,I'm going to the bathroom as well.
+Dialogue: 0,0:37:39.31,0:37:41.23,Dialogue,,0,0,0,,It's alright, I'm not drunk yet.
+Dialogue: 0,0:37:41.90,0:37:42.82,Dialogue,,0,0,0,,You stay with Mouri{\rHonorifics - Dialogue}-sensei{\r}.
+Dialogue: 0,0:37:43.24,0:37:43.57,Dialogue,,0,0,0,,Yes.
+Dialogue: 0,0:37:44.49,0:37:45.90,Dialogue,,0,0,0,,Alright, here I go!
+Dialogue: 0,0:37:47.53,0:37:47.91,Dialogue,,0,0,0,,Oh,
+Dialogue: 0,0:37:48.45,0:37:49.53,Dialogue,,0,0,0,,The moon is coming out.
+Dialogue: 0,0:37:54.87,0:37:55.54,Dialogue,,0,0,0,,The moon.
+Dialogue: 0,0:37:57.17,0:37:57.58,Dialogue,,0,0,0,,What's wrong?
+Dialogue: 0,0:37:58.17,0:37:58.67,Dialogue,,0,0,0,,No,
+Dialogue: 0,0:37:59.33,0:38:02.38,Dialogue,,0,0,0,,It just reminded me of when I was\Nsupposed to meet Ran somewhere.
+Dialogue: 0,0:38:03.42,0:38:05.34,Dialogue,,0,0,0,,When I remembered our arranged meeting,
+Dialogue: 0,0:38:05.76,0:38:07.22,Dialogue,,0,0,0,,it was already two hours past the set time.
+Dialogue: 0,0:38:07.63,0:38:08.68,Dialogue,,0,0,0,,That's pretty bad.
+Dialogue: 0,0:38:09.64,0:38:12.51,Dialogue,,0,0,0,,I thought that she wouldn't be waiting anymore.
+Dialogue: 0,0:38:13.27,0:38:15.56,Dialogue,,0,0,0,,But for the time being, I went to our meeting place.
+Dialogue: 0,0:38:26.74,0:38:27.28,Flashback,,0,0,0,,{\be10}Who is it?
+Dialogue: 0,0:38:33.91,0:38:34.58,Flashback,,0,0,0,,{\be10}I'm sorry Ran.
+Dialogue: 0,0:38:35.37,0:38:36.12,Flashback,,0,0,0,,{\be10}Actually I...
+Dialogue: 0,0:38:36.41,0:38:37.04,Flashback,,0,0,0,,{\be10}Completely...
+Dialogue: 0,0:38:37.46,0:38:38.46,Flashback,,0,0,0,,{\be10}I'm so glad,
+Dialogue: 0,0:38:39.12,0:38:42.38,Flashback,,0,0,0,,{\be10}I thought that something had\Nhappened to you, and I was really worried.
+Dialogue: 0,0:38:48.97,0:38:50.30,Dialogue,,0,0,0,,It was then, huh?
+Dialogue: 0,0:38:50.59,0:38:54.35,Dialogue,,0,0,0,,When your thoughts changed\Nabout her being just a childhood friend.
+Dialogue: 0,0:38:55.10,0:38:55.89,Dialogue,,0,0,0,,Idiot!
+Dialogue: 0,0:38:56.39,0:38:57.31,Dialogue,,0,0,0,,It's not like that.
+Dialogue: 0,0:38:59.44,0:39:01.31,Thoughts,,0,0,0,,{\be10}Since a long time ago, I've been...
+Dialogue: 0,0:39:03.82,0:39:04.61,Thoughts,,0,0,0,,{\be10}Even now,
+Dialogue: 0,0:39:05.28,0:39:06.86,Thoughts,,0,0,0,,{\be10}she's still waiting for me.
+Dialogue: 0,0:39:11.24,0:39:12.37,Dialogue,,0,0,0,,What's the matter, Ran{\rHonorifics - Dialogue}-chan{\r}?
+Dialogue: 0,0:39:14.16,0:39:14.79,Dialogue,,0,0,0,,Nothing.
+Dialogue: 0,0:39:17.87,0:39:19.08,Dialogue,,0,0,0,,That guy, Heiji,
+Dialogue: 0,0:39:19.50,0:39:20.67,Dialogue,,0,0,0,,he really makes me angry.
+Dialogue: 0,0:39:21.04,0:39:21.42,Dialogue,,0,0,0,,But...
+Dialogue: 0,0:39:22.38,0:39:23.84,Dialogue,,0,0,0,,Kazuha{\rHonorifics - Dialogue}-chan{\r}, I envy you.
+Dialogue: 0,0:39:24.17,0:39:24.50,Dialogue,,0,0,0,,Eh?
+Dialogue: 0,0:39:24.96,0:39:25.46,Dialogue,,0,0,0,,Because,
+Dialogue: 0,0:39:26.42,0:39:28.22,Dialogue,,0,0,0,,you can meet him whenever you want to.
+Dialogue: 0,0:39:30.13,0:39:30.97,Dialogue,,0,0,0,,Ran{\rHonorifics - Dialogue}-chan{\r}.
+Dialogue: 0,0:39:31.97,0:39:33.01,Dialogue,,0,0,0,,That's true.
+Dialogue: 0,0:39:33.51,0:39:36.06,Dialogue,,0,0,0,,I can't easily meet with Makoto{\rHonorifics - Dialogue}-san{\r} either.
+Dialogue: 0,0:39:36.93,0:39:39.10,Dialogue,,0,0,0,,A maiden's worries are endless.
+Dialogue: 0,0:39:39.60,0:39:40.39,Dialogue,,0,0,0,,Here we go!
+Dialogue: 0,0:39:40.44,0:39:41.65,Dialogue,,0,0,0,,Compared to us,
+Dialogue: 0,0:39:42.31,0:39:44.56,Dialogue,,0,0,0,,those old guys are energetic.
+Dialogue: 0,0:39:45.65,0:39:48.99,Dialogue,,0,0,0,,Tiger, tiger, tiger, tiger.
+Dialogue: 0,0:40:12.26,0:40:12.97,Dialogue,,0,0,0,,Sakura{\rHonorifics - Dialogue}-han{\r},
+Dialogue: 0,0:40:13.47,0:40:14.59,Dialogue,,0,0,0,,it's nine.
+Dialogue: 0,0:40:15.05,0:40:15.64,Dialogue,,0,0,0,,Sakura{\rHonorifics - Dialogue}-han{\r}?
+Dialogue: 0,0:40:16.89,0:40:17.76,Dialogue,,0,0,0,,Pardon me.
+Dialogue: 0,0:40:18.60,0:40:18.89,Dialogue,,0,0,0,,Oh?
+Dialogue: 0,0:40:20.10,0:40:21.10,Dialogue,,0,0,0,,Where did he go?
+Dialogue: 0,0:40:25.77,0:40:26.82,Dialogue,,0,0,0,,Surely not...
+Dialogue: 0,0:40:36.45,0:40:37.28,Dialogue,,0,0,0,,Sakura{\rHonorifics - Dialogue}-han{\r}?
+Dialogue: 0,0:40:42.37,0:40:42.71,Dialogue,,0,0,0,,Oh?
+Dialogue: 0,0:40:49.71,0:40:51.26,Dialogue,,0,0,0,,What? Who screamed?
+Dialogue: 0,0:40:51.88,0:40:53.05,Dialogue,,0,0,0,,Someone!
+Dialogue: 0,0:40:55.51,0:40:56.34,Dialogue,,0,0,0,,What's the matter?
+Dialogue: 0,0:40:57.30,0:40:58.56,Dialogue,,0,0,0,,Sa-Sakura{\rHonorifics - Dialogue}-han{\r} is...
+Dialogue: 0,0:41:03.19,0:41:04.90,Dialogue,,0,0,0,,Sa-Sakura{\rHonorifics - Dialogue}-han{\r}...
+Dialogue: 0,0:41:05.48,0:41:07.19,Dialogue,,0,0,0,,No one can go inside.
+Dialogue: 0,0:41:07.48,0:41:07.86,Dialogue,,0,0,0,,Ran,
+Dialogue: 0,0:41:08.19,0:41:09.32,Dialogue,,0,0,0,,call the police!
+Dialogue: 0,0:41:09.73,0:41:10.15,Dialogue,,0,0,0,,Yes.
+Dialogue: 0,0:41:12.03,0:41:14.99,Dialogue,,0,0,0,,A sharp edged tool cut his carotid artery.
+Dialogue: 0,0:41:15.53,0:41:16.78,Dialogue,,0,0,0,,It's a magnificent slit.
+Dialogue: 0,0:41:17.32,0:41:19.70,Dialogue,,0,0,0,,This could have been done by the\Nsame criminal from the series of cases.
+Dialogue: 0,0:41:20.45,0:41:20.99,Dialogue,,0,0,0,,You.
+Dialogue: 0,0:41:21.16,0:41:23.12,Dialogue,,0,0,0,,I thought I'd seen you from somewhere.
+Dialogue: 0,0:41:23.50,0:41:25.83,Dialogue,,0,0,0,,Are you the high school detective, Hattori Heiji?
+Dialogue: 0,0:41:26.42,0:41:27.00,Dialogue,,0,0,0,,That's right.
+Dialogue: 0,0:41:27.54,0:41:30.88,Dialogue,,0,0,0,,Everyone, until the police come,\Ncan you stay in the rooms you were in?
+Dialogue: 0,0:41:31.80,0:41:33.80,Dialogue,,0,0,0,,Don't go outside for any reason.
+Dialogue: 0,0:41:35.30,0:41:36.22,Dialogue,,0,0,0,,I understand.
+Dialogue: 0,0:41:40.26,0:41:41.18,Dialogue,,0,0,0,,Sakura{\rHonorifics - Dialogue}-san{\r},
+Dialogue: 0,0:41:41.68,0:41:43.98,Dialogue,,0,0,0,,was looking for something in\Nparticular in this storage room,
+Dialogue: 0,0:41:43.98,0:41:45.56,Dialogue,,0,0,0,,when he was killed.
+Dialogue: 0,0:41:46.14,0:41:47.10,Dialogue,,0,0,0,,But what on earth was it?
+Dialogue: 0,0:41:49.27,0:41:51.65,Dialogue,,0,0,0,,The button on his coat looks like it was torn off.
+Dialogue: 0,0:41:52.28,0:41:52.78,Dialogue,,0,0,0,,Yes.
+Dialogue: 0,0:41:53.40,0:41:56.45,Dialogue,,0,0,0,,It seems like it was troublesome to unfasten them,
+Dialogue: 0,0:41:56.70,0:41:59.32,Dialogue,,0,0,0,,but the wallet stuffed tightly with cash is safe.
+Dialogue: 0,0:42:00.70,0:42:02.41,Dialogue,,0,0,0,,This isn't a robbery.
+Dialogue: 0,0:42:05.00,0:42:06.58,Dialogue,,0,0,0,,Don't touch the corpse!
+Dialogue: 0,0:42:06.79,0:42:08.33,Dialogue,,0,0,0,,How many times do I have to\Ntell you until you understand?
+Dialogue: 0,0:42:10.67,0:42:11.92,Dialogue,,0,0,0,,That hurts!
+Dialogue: 0,0:42:15.80,0:42:16.26,Dialogue,,0,0,0,,Yes.
+Dialogue: 0,0:42:16.93,0:42:18.89,Dialogue,,0,0,0,,I am Ayanokouji of the Kyoto Prefectural Police.
+Dialogue: 0,0:42:19.43,0:42:21.97,Dialogue,,0,0,0,,Thank you very much for your efforts, please come in.
+Dialogue: 0,0:42:22.93,0:42:23.72,Dialogue,,0,0,0,,You, stay outside.
+Dialogue: 0,0:42:23.97,0:42:24.22,Dialogue,,0,0,0,,Yes.
+Dialogue: 0,0:42:27.77,0:42:29.31,Dialogue,,0,0,0,,Inspector of the Kyoto Prefectural Police.
+Dialogue: 0,0:42:30.19,0:42:31.61,Dialogue,,0,0,0,,You are remarkably fast in arriving.
+Dialogue: 0,0:42:35.24,0:42:36.32,Dialogue,,0,0,0,,Did you bring your chipmunk today?
+Dialogue: 0,0:42:37.74,0:42:39.70,Dialogue,,0,0,0,,I don't always take it with me.
+Dialogue: 0,0:42:41.24,0:42:41.87,Dialogue,,0,0,0,,What do you think?
+Dialogue: 0,0:42:42.49,0:42:43.79,Dialogue,,0,0,0,,Is it an external offender?
+Dialogue: 0,0:42:44.66,0:42:46.00,Dialogue,,0,0,0,,I wouldn't say the possibility is zero.
+Dialogue: 0,0:42:46.79,0:42:48.62,Dialogue,,0,0,0,,If the front door was opened, there would be a sound,
+Dialogue: 0,0:42:48.96,0:42:50.25,Dialogue,,0,0,0,,and the okami would have noticed it.
+Dialogue: 0,0:42:51.17,0:42:51.84,Dialogue,,0,0,0,,Moreover,
+Dialogue: 0,0:42:52.42,0:42:53.67,Dialogue,,0,0,0,,the criminal knew that Sakura{\rHonorifics - Dialogue}-san{\r},
+Dialogue: 0,0:42:54.05,0:42:56.97,Dialogue,,0,0,0,,would be in the storage room for whatever reason.
+Dialogue: 0,0:42:57.80,0:42:58.30,Dialogue,,0,0,0,,In other words...
+Dialogue: 0,0:42:59.01,0:43:00.51,Dialogue,,0,0,0,,Sakura{\rHonorifics - Dialogue}-san{\r}'s acquaintances,
+Dialogue: 0,0:43:00.80,0:43:02.39,Dialogue,,0,0,0,,Saijou{\rHonorifics - Dialogue}-san{\r}, Ryuen{\rHonorifics - Dialogue}-san{\r},
+Dialogue: 0,0:43:02.39,0:43:05.35,Dialogue,,0,0,0,,and Mizuo{\rHonorifics - Dialogue}-san{\r} are the suspects.
+Dialogue: 0,0:43:06.60,0:43:07.52,Dialogue,,0,0,0,,The three of them,
+Dialogue: 0,0:43:07.98,0:43:10.15,Dialogue,,0,0,0,,after Sakura{\rHonorifics - Dialogue}-san{\r} and Ran and them left,
+Dialogue: 0,0:43:10.65,0:43:12.19,Dialogue,,0,0,0,,have each gotten up once to go to the restroom.
+Dialogue: 0,0:43:12.77,0:43:13.19,Dialogue,,0,0,0,,Furthermore,
+Dialogue: 0,0:43:13.57,0:43:15.78,Dialogue,,0,0,0,,there is a staircase that leads to the\Nbasement on the way to the restroom.
+Dialogue: 0,0:43:16.86,0:43:19.20,Dialogue,,0,0,0,,The three could have pretended to go to the restroom,
+Dialogue: 0,0:43:19.70,0:43:21.99,Dialogue,,0,0,0,,and killed Sakura{\rHonorifics - Dialogue}-san{\r},
+Dialogue: 0,0:43:22.24,0:43:24.12,Dialogue,,0,0,0,,who was in the storage room.
+Dialogue: 0,0:43:26.58,0:43:28.29,Dialogue,,0,0,0,,One thing that concerns me is,
+Dialogue: 0,0:43:28.83,0:43:30.67,Dialogue,,0,0,0,,when Mizuo{\rHonorifics - Dialogue}-san{\r} went to the restroom,
+Dialogue: 0,0:43:31.12,0:43:33.00,Dialogue,,0,0,0,,Chika Suzu{\rHonorifics - Dialogue}-san{\r} followed him.
+Dialogue: 0,0:43:33.42,0:43:33.92,Dialogue,,0,0,0,,Yes.
+Dialogue: 0,0:43:34.84,0:43:36.55,Dialogue,,0,0,0,,All dancers do that.
+Dialogue: 0,0:43:37.21,0:43:37.63,Dialogue,,0,0,0,,However,
+Dialogue: 0,0:43:37.88,0:43:40.80,Dialogue,,0,0,0,,for Ryuen{\rHonorifics - Dialogue}-san{\r} and Saijou{\rHonorifics - Dialogue}-san{\r}, she didn't go.
+Dialogue: 0,0:43:41.34,0:43:43.85,Dialogue,,0,0,0,,That was because she was playing a game with uncle.
+Dialogue: 0,0:43:44.30,0:43:46.10,Dialogue,,0,0,0,,Conversely, the criminal may have aimed,
+Dialogue: 0,0:43:46.10,0:43:48.22,Dialogue,,0,0,0,,for that chance and gotten up to go to the restroom.
+Dialogue: 0,0:43:48.60,0:43:49.56,Dialogue,,0,0,0,,That means,
+Dialogue: 0,0:43:50.10,0:43:52.15,Dialogue,,0,0,0,,Ryuen{\rHonorifics - Dialogue}-san{\r} or Saijou{\rHonorifics - Dialogue}-san{\r} is the criminal,
+Dialogue: 0,0:43:52.52,0:43:53.77,Dialogue,,0,0,0,,and Mizuo{\rHonorifics - Dialogue}-san{\r} is innocent.
+Dialogue: 0,0:43:54.31,0:43:56.48,Dialogue,,0,0,0,,If Chika Suzu{\rHonorifics - Dialogue}-san{\r} is not an accomplice...
+Dialogue: 0,0:43:59.19,0:43:59.69,Dialogue,,0,0,0,,That's right.
+Dialogue: 0,0:44:00.90,0:44:01.66,Dialogue,,0,0,0,,Then let's go.
+Dialogue: 0,0:44:01.95,0:44:02.28,Dialogue,,0,0,0,,Eh?
+Dialogue: 0,0:44:03.03,0:44:04.20,Dialogue,,0,0,0,,Don't play dumb.
+Dialogue: 0,0:44:05.24,0:44:07.91,Dialogue,,0,0,0,,That's why you searched Sakura{\rHonorifics - Dialogue}-san{\r}'s coat, right?
+Dialogue: 0,0:44:08.20,0:44:08.70,Dialogue,,0,0,0,,Oh.
+Dialogue: 0,0:44:09.54,0:44:10.37,Dialogue,,0,0,0,,You mean these?
+Dialogue: 0,0:44:11.33,0:44:12.54,Dialogue,,0,0,0,,Sakura{\rHonorifics - Dialogue}-san{\r}'s shop was,
+Dialogue: 0,0:44:12.87,0:44:14.46,Dialogue,,0,0,0,,on Teramachi Avenue, if I'm not mistaken.
+Dialogue: 0,0:44:12.87,0:44:16.46,Signs,Note,0,0,0,,Note: "Teramachi" literally means "temple town"
+Dialogue: 0,0:44:15.13,0:44:17.84,Signs,Sign,0,0,0,,Sakura Antique Art Shop
+Dialogue: 0,0:44:26.43,0:44:27.35,Dialogue,,0,0,0,,Yoshitsune Chronicles.
+Dialogue: 0,0:44:30.48,0:44:31.27,Dialogue,,0,0,0,,Ise no Saburou!?
+Dialogue: 0,0:44:32.31,0:44:32.85,Dialogue,,0,0,0,,Hattori!
+Dialogue: 0,0:44:37.07,0:44:37.61,Dialogue,,0,0,0,,What?
+Dialogue: 0,0:44:38.23,0:44:40.32,Dialogue,,0,0,0,,Sakura{\rHonorifics - Dialogue}-san{\r} was Ise no Saburou!?
+Dialogue: 0,0:44:42.24,0:44:42.86,Dialogue,,0,0,0,,What is this?
+Dialogue: 0,0:44:43.74,0:44:44.86,Dialogue,,0,0,0,,T-This is...
+Dialogue: 0,0:44:45.82,0:44:46.74,Dialogue,,0,0,0,,A copy of the picture!
+Dialogue: 0,0:44:47.78,0:44:48.70,Dialogue,,0,0,0,,What is the meaning of this?
+Dialogue: 0,0:44:49.29,0:44:51.91,Dialogue,,0,0,0,,If Sakura{\rHonorifics - Dialogue}-san{\r} had this picture...
+Dialogue: 0,0:44:52.96,0:44:56.29,Dialogue,,0,0,0,,Then he was the one who\Ndelivered that letter to Sannou Temple.
+Dialogue: 0,0:44:57.63,0:44:59.63,Dialogue,,0,0,0,,But, for what reason?
+Dialogue: 0,0:45:01.09,0:45:01.80,Dialogue,,0,0,0,,What?
+Dialogue: 0,0:45:02.30,0:45:03.88,Dialogue,,0,0,0,,Sakura{\rHonorifics - Dialogue}-san{\r} was Ise no Saburou?
+Dialogue: 0,0:45:04.34,0:45:04.72,Dialogue,,0,0,0,,Yes.
+Dialogue: 0,0:45:05.43,0:45:07.64,Dialogue,,0,0,0,,That person was a member of the Genjibotaru group.
+Dialogue: 0,0:45:08.43,0:45:09.26,Dialogue,,0,0,0,,Hold on,
+Dialogue: 0,0:45:09.14,0:45:13.23,Signs,Sign,0,0,0,,Suruga no Jirou
+Dialogue: 0,0:45:09.14,0:45:13.23,Signs,Sign,0,0,0,,Ise no Saburou
+Dialogue: 0,0:45:09.14,0:45:13.23,Signs,Sign,0,0,0,,Bizen no\NHeishirou
+Dialogue: 0,0:45:09.14,0:45:13.23,Signs,Sign,0,0,0,,Kamei no\NRokurou
+Dialogue: 0,0:45:09.14,0:45:13.23,Signs,Sign,0,0,0,,Washinoo no\NShichirou
+Dialogue: 0,0:45:09.14,0:45:13.23,Signs,Sign,0,0,0,,Kataoka no\NHachirou
+Dialogue: 0,0:45:09.43,0:45:11.35,Dialogue,,0,0,0,,so now the murdered victims are...
+Dialogue: 0,0:45:12.27,0:45:15.35,Dialogue,,0,0,0,,surely not me, whose name\Npossess the missing number five?
+Dialogue: 0,0:45:12.27,0:45:15.35,Signs,Note,0,0,0,,Note: Mouri is referring to the numbers in the names of the Genjibotaru group.
+Dialogue: 0,0:45:13.98,0:45:16.44,Signs,Sign,0,0,0,,Suruga no Jirou
+Dialogue: 0,0:45:13.98,0:45:16.44,Signs,Sign,0,0,0,,Ise no Saburou
+Dialogue: 0,0:45:13.98,0:45:16.44,Signs,Sign,0,0,0,,Bizen no\NHeishirou
+Dialogue: 0,0:45:13.98,0:45:16.44,Signs,Sign,0,0,0,,Kamei no\NRokurou
+Dialogue: 0,0:45:13.98,0:45:16.44,Signs,Sign,0,0,0,,Washinoo no\NShichirou
+Dialogue: 0,0:45:13.98,0:45:16.44,Signs,Sign,0,0,0,,Kataoka no\NHachirou
+Dialogue: 0,0:45:15.23,0:45:16.44,Signs,Sign,0,0,0,,Mouri Kogorou
+Dialogue: 0,0:45:16.86,0:45:17.31,Dialogue,,0,0,0,,Ha?
+Dialogue: 0,0:45:18.02,0:45:19.94,Thoughts,,0,0,0,,{\be10}That happened a long time ago.
+Dialogue: 0,0:45:18.02,0:45:21.94,Signs,Note,0,0,0,,Note: This is a reference to The Fourteenth Target, Detective Conan's second movie.
+Dialogue: 0,0:45:21.86,0:45:25.07,Dialogue,,0,0,0,,If the picture at Sakura{\rHonorifics - Dialogue}-san{\r}'s was just a copy,
+Dialogue: 0,0:45:25.41,0:45:27.66,Dialogue,,0,0,0,,and Sakura{\rHonorifics - Dialogue}-san{\r} held onto the original,
+Dialogue: 0,0:45:27.99,0:45:30.16,Dialogue,,0,0,0,,then didn't the criminal take that one?
+Dialogue: 0,0:45:30.45,0:45:31.20,Dialogue,,0,0,0,,I see,
+Dialogue: 0,0:45:32.00,0:45:35.75,Dialogue,,0,0,0,,the criminal didn't think that\NSakura{\rHonorifics - Dialogue}-san{\r} had taken a copy.
+Dialogue: 0,0:45:36.42,0:45:36.88,Dialogue,,0,0,0,,Then,
+Dialogue: 0,0:45:37.50,0:45:38.75,Dialogue,,0,0,0,,who's the real criminal?
+Dialogue: 0,0:45:39.67,0:45:41.92,Dialogue,,0,0,0,,I think that it's either Ryuen{\rHonorifics - Dialogue}-san{\r}, Saijou{\rHonorifics - Dialogue}-san{\r},
+Dialogue: 0,0:45:42.17,0:45:44.92,Dialogue,,0,0,0,,Mizuo{\rHonorifics - Dialogue}-san{\r} or Chika Suzu{\rHonorifics - Dialogue}-san{\r}.
+Dialogue: 0,0:45:46.51,0:45:49.05,Dialogue,,0,0,0,,But none of them had a weapon.
+Dialogue: 0,0:45:49.60,0:45:51.39,Dialogue,,0,0,0,,After you guys slipped out,
+Dialogue: 0,0:45:51.64,0:45:53.39,Dialogue,,0,0,0,,we inspected their bodies.
+Dialogue: 0,0:45:53.81,0:45:55.64,Dialogue,,0,0,0,,Well, no one's stupid enough,
+Dialogue: 0,0:45:55.64,0:45:57.90,Dialogue,,0,0,0,,to keep the weapon with him after he murders someone.
+Dialogue: 0,0:45:58.56,0:46:00.57,Dialogue,,0,0,0,,He must have thrown it away or hid it somewhere.
+Dialogue: 0,0:46:01.02,0:46:01.44,Dialogue,,0,0,0,,But,
+Dialogue: 0,0:46:01.90,0:46:04.28,Dialogue,,0,0,0,,nothing was found inside of the store.
+Dialogue: 0,0:46:04.65,0:46:05.74,Dialogue,,0,0,0,,How about from the Misogigawa?
+Dialogue: 0,0:46:06.36,0:46:07.57,Dialogue,,0,0,0,,He could have thrown it away,
+Dialogue: 0,0:46:07.86,0:46:09.57,Dialogue,,0,0,0,,from the glass window in the corridor of the basement.
+Dialogue: 0,0:46:09.78,0:46:10.70,Dialogue,,0,0,0,,Don't you agree!?
+Dialogue: 0,0:46:11.16,0:46:12.62,Dialogue,,0,0,0,,I thought so, too.
+Dialogue: 0,0:46:12.91,0:46:13.16,Dialogue,,0,0,0,,Eh?
+Dialogue: 0,0:46:14.41,0:46:15.16,Dialogue,,0,0,0,,Sonoko says,
+Dialogue: 0,0:46:15.58,0:46:18.96,Dialogue,,0,0,0,,that she heard something splash into the Misogigawa.
+Dialogue: 0,0:46:19.21,0:46:19.71,Dialogue,,0,0,0,,Really?
+Dialogue: 0,0:46:20.13,0:46:21.17,Dialogue,,0,0,0,,There's no mistake.
+Dialogue: 0,0:46:21.71,0:46:22.34,Dialogue,,0,0,0,,But,
+Dialogue: 0,0:46:23.09,0:46:24.96,Dialogue,,0,0,0,,the police searched the river,
+Dialogue: 0,0:46:25.26,0:46:26.97,Dialogue,,0,0,0,,but they didn't find anything.
+Dialogue: 0,0:46:27.80,0:46:29.76,Dialogue,,0,0,0,,It's strange...
+Dialogue: 0,0:46:30.30,0:46:31.89,Dialogue,,0,0,0,,there must've been an accomplice.
+Dialogue: 0,0:46:32.43,0:46:35.64,Dialogue,,0,0,0,,The accomplice was outside and\Ngrabbed the weapon out of the river.
+Dialogue: 0,0:46:35.89,0:46:37.39,Dialogue,,0,0,0,,I don't think that's possible.
+Dialogue: 0,0:46:38.73,0:46:39.69,Dialogue,,0,0,0,,Why do you think so, Ku—
+Dialogue: 0,0:46:39.77,0:46:41.44,Dialogue,,0,0,0,,No, I mean Conan{\rHonorifics - Dialogue}-kun{\r}.
+Dialogue: 0,0:46:42.40,0:46:44.78,Dialogue,,0,0,0,,Tonight was a full moon, and it was bright outside.
+Dialogue: 0,0:46:45.57,0:46:49.61,Dialogue,,0,0,0,,That balcony floor had gaps to be able to see below.
+Dialogue: 0,0:46:49.78,0:46:52.12,Signs,Sign,0,0,0,,Sakura Tea House
+Dialogue: 0,0:46:49.78,0:46:52.12,Signs,Sign,0,0,0,,Balcony
+Dialogue: 0,0:46:49.78,0:46:52.12,Signs,Sign,0,0,0,,Misogigawa
+Dialogue: 0,0:46:49.78,0:46:52.12,Signs,Sign,0,0,0,,Bank
+Dialogue: 0,0:46:50.41,0:46:52.91,Dialogue,,0,0,0,,If there was an accomplice,
+Dialogue: 0,0:46:53.33,0:46:55.16,Dialogue,,0,0,0,,Ran{\rHonorifics - Dialogue}-neechan{\r} and everybody would have noticed him.
+Dialogue: 0,0:46:56.45,0:46:57.37,Dialogue,,0,0,0,,Oh, right.
+Dialogue: 0,0:46:57.75,0:46:58.92,Dialogue,,0,0,0,,The real situation was,
+Dialogue: 0,0:46:59.87,0:47:01.33,Dialogue,,0,0,0,,that it was an outsider.
+Dialogue: 0,0:47:01.75,0:47:03.84,Dialogue,,0,0,0,,Before Ran and everybody came out to the balcony,
+Dialogue: 0,0:47:04.42,0:47:06.38,Dialogue,,0,0,0,,he sought entry through the basement's glass window,
+Dialogue: 0,0:47:07.05,0:47:09.26,Dialogue,,0,0,0,,and hid in the bathroom.
+Dialogue: 0,0:47:10.01,0:47:13.43,Dialogue,,0,0,0,,When Sakura{\rHonorifics - Dialogue}-san{\r} came looking for\Nsomething in the storage room, he murdered him.
+Dialogue: 0,0:47:14.26,0:47:16.39,Dialogue,,0,0,0,,And while still holding the weapon,
+Dialogue: 0,0:47:16.81,0:47:18.64,Dialogue,,0,0,0,,he escaped from the glass window.
+Dialogue: 0,0:47:19.35,0:47:21.69,Dialogue,,0,0,0,,But we didn't see anything,
+Dialogue: 0,0:47:22.40,0:47:24.86,Dialogue,,0,0,0,,and there were no witnesses on the bank.
+Dialogue: 0,0:47:25.40,0:47:26.48,Dialogue,,0,0,0,,It's just a coincidence.
+Dialogue: 0,0:47:27.03,0:47:28.70,Dialogue,,0,0,0,,The murderer was lucky.
+Dialogue: 0,0:47:30.20,0:47:32.07,Dialogue,,0,0,0,,Hmm, I'm not very satisfied with that explanation.
+Dialogue: 0,0:48:04.19,0:48:05.77,Thoughts,,0,0,0,,{\be10}That guy, he's the same one from Kuramayama.
+Dialogue: 0,0:48:19.62,0:48:21.46,Dialogue,,0,0,0,,Kazuha, don't let go!
+Dialogue: 0,0:48:21.62,0:48:22.42,Dialogue,,0,0,0,,What!?
+Dialogue: 0,0:48:35.60,0:48:37.06,Dialogue,,0,0,0,,You stay here, alright!?
+Dialogue: 0,0:48:38.89,0:48:39.39,Dialogue,,0,0,0,,Heiji!
+Dialogue: 0,0:48:56.70,0:48:57.12,Dialogue,,0,0,0,,Hmph.
+Dialogue: 0,0:48:57.37,0:48:58.83,Dialogue,,0,0,0,,You want to have a contest with me?
+Dialogue: 0,0:48:59.20,0:48:59.91,Dialogue,,0,0,0,,Alright.
+Dialogue: 0,0:49:04.62,0:49:06.08,Thoughts,,0,0,0,,{\be10}What? There are gaps of opportunity everywhere.
+Dialogue: 0,0:49:11.34,0:49:12.22,Dialogue,,0,0,0,,He's wearing kote?
+Dialogue: 0,0:49:12.22,0:49:14.51,Signs,Note,0,0,0,,Note: "Kote" are gauntlets worn in kendo.
+Dialogue: 0,0:49:29.73,0:49:32.11,Dialogue,,0,0,0,,Are you the one who murdered Sakura{\rHonorifics - Dialogue}-san{\r}?
+Dialogue: 0,0:49:32.94,0:49:36.28,Dialogue,,0,0,0,,If that's so, then do the same thing and slice me here!
+Dialogue: 0,0:50:10.57,0:50:12.44,Dialogue,,0,0,0,,This isn't something that you'd want.
+Dialogue: 0,0:50:14.53,0:50:16.11,Dialogue,,0,0,0,,Something's wrong with my eyes.
+Dialogue: 0,0:50:29.08,0:50:30.67,Dialogue,,0,0,0,,Detective, over here, over here.
+Dialogue: 0,0:50:39.72,0:50:41.10,Dialogue,,0,0,0,,Heiji? Are you alright?
+Dialogue: 0,0:50:41.60,0:50:42.06,Dialogue,,0,0,0,,Kazuha...
+Dialogue: 0,0:50:42.81,0:50:43.51,Dialogue,,0,0,0,,The detective?
+Dialogue: 0,0:50:44.14,0:50:45.77,Dialogue,,0,0,0,,It's a lie.
+Dialogue: 0,0:50:46.85,0:50:49.40,Dialogue,,0,0,0,,Where did you learn to do that?
+Dialogue: 0,0:50:50.27,0:50:51.56,Dialogue,,0,0,0,,You can be a terrible woman.
+Dialogue: 0,0:50:53.23,0:50:53.86,Dialogue,,0,0,0,,Heiji!
+Dialogue: 0,0:50:58.03,0:51:00.07,Signs,Sign,0,0,0,,Umekouji Hospital
+Dialogue: 0,0:51:04.70,0:51:05.95,Dialogue,,0,0,0,,Heiji, are you awake?
+Dialogue: 0,0:51:06.75,0:51:07.41,Dialogue,,0,0,0,,Kazuha.
+Dialogue: 0,0:51:08.16,0:51:08.96,Dialogue,,0,0,0,,We're glad you're alright.
+Dialogue: 0,0:51:09.25,0:51:10.83,Dialogue,,0,0,0,,We were worried, Hei{\rHonorifics - Dialogue}-chan{\r}.
+Dialogue: 0,0:51:13.17,0:51:13.84,Dialogue,,0,0,0,,Ootaki{\rHonorifics - Dialogue}-san{\r}...
+Dialogue: 0,0:51:14.59,0:51:16.13,Dialogue,,0,0,0,,And who was that again?
+Dialogue: 0,0:51:18.01,0:51:19.38,Dialogue,,0,0,0,,I am Shiratori from police headquarters.
+Dialogue: 0,0:51:20.09,0:51:21.97,Dialogue,,0,0,0,,I heard that the murdered Sakura Shouzou,
+Dialogue: 0,0:51:22.14,0:51:23.85,Dialogue,,0,0,0,,was a member of the Genjibotaru group.
+Dialogue: 0,0:51:24.31,0:51:25.43,Dialogue,,0,0,0,,I rushed from Tokyo.
+Dialogue: 0,0:51:26.72,0:51:27.23,Dialogue,,0,0,0,,Does it hurt?
+Dialogue: 0,0:51:28.18,0:51:29.02,Dialogue,,0,0,0,,Just a little.
+Dialogue: 0,0:51:29.60,0:51:34.11,Dialogue,,0,0,0,,Stolen artifacts were found in Sakura's shop.
+Dialogue: 0,0:51:35.32,0:51:36.57,Dialogue,,0,0,0,,Are you awake?
+Dialogue: 0,0:51:37.49,0:51:39.03,Dialogue,,0,0,0,,Inspector, the short sword, did you...
+Dialogue: 0,0:51:39.61,0:51:41.16,Dialogue,,0,0,0,,We have turned it over to an expert.
+Dialogue: 0,0:51:42.12,0:51:43.95,Dialogue,,0,0,0,,Tell me as soon as the results come out.
+Dialogue: 0,0:51:44.33,0:51:46.08,Dialogue,,0,0,0,,If there's not enough evidence,
+Dialogue: 0,0:51:47.37,0:51:49.25,Dialogue,,0,0,0,,I'll offer this wound as evidence too.
+Dialogue: 0,0:51:49.66,0:51:50.00,Dialogue,,0,0,0,,Eh?
+Dialogue: 0,0:51:50.37,0:51:51.21,Dialogue,,0,0,0,,Evidence?
+Dialogue: 0,0:51:52.58,0:51:56.55,Dialogue,,0,0,0,,Evidence that the short sword\Nwas used to murder Sakura{\rHonorifics - Dialogue}-san{\r}.
+Dialogue: 0,0:51:57.42,0:51:59.63,Dialogue,,0,0,0,,It really would have been better if\Nwe had something that the criminal,
+Dialogue: 0,0:51:59.76,0:52:00.88,Dialogue,,0,0,0,,had touched with his skin.
+Dialogue: 0,0:52:01.68,0:52:02.72,Dialogue,,0,0,0,,Ah, the motorcycle!
+Dialogue: 0,0:52:03.34,0:52:04.43,Dialogue,,0,0,0,,There was a motorcycle, right?
+Dialogue: 0,0:52:04.60,0:52:06.01,Dialogue,,0,0,0,,That was a stolen vehicle.
+Dialogue: 0,0:52:06.72,0:52:08.39,Dialogue,,0,0,0,,Evidence that would specify the criminal?
+Dialogue: 0,0:52:12.19,0:52:12.85,Dialogue,,0,0,0,,By the way,
+Dialogue: 0,0:52:14.15,0:52:16.61,Dialogue,,0,0,0,,do you know what this picture is?
+Dialogue: 0,0:52:17.57,0:52:19.90,Dialogue,,0,0,0,,It was held between the pages of\NSakura's Yoshitsune Chronicles.
+Dialogue: 0,0:52:21.99,0:52:22.82,Dialogue,,0,0,0,,Are you sure?
+Dialogue: 0,0:52:24.70,0:52:25.66,Dialogue,,0,0,0,,Very well.
+Dialogue: 0,0:52:31.00,0:52:33.21,Dialogue,,0,0,0,,You should learn by this\Nexperience and be obedient next time.
+Dialogue: 0,0:52:34.67,0:52:35.92,Dialogue,,0,0,0,,With this, I must go as well.
+Dialogue: 0,0:52:37.50,0:52:38.80,Dialogue,,0,0,0,,Take care, Hei{\rHonorifics - Dialogue}-chan{\r}.
+Dialogue: 0,0:52:44.51,0:52:46.60,Dialogue,,0,0,0,,I'm going to call my dad.
+Dialogue: 0,0:52:49.22,0:52:50.77,Dialogue,,0,0,0,,Then I will ask the doctor...
+Dialogue: 0,0:52:51.52,0:52:52.06,Dialogue,,0,0,0,,Yes.
+Dialogue: 0,0:52:52.73,0:52:53.90,Dialogue,,0,0,0,,Conan{\rHonorifics - Dialogue}-kun{\r} is with me so—
+Dialogue: 0,0:52:53.90,0:52:56.19,Dialogue,,0,0,0,,Ran{\rHonorifics - Dialogue}-chan{\r}, I'm going out for a while,
+Dialogue: 0,0:52:56.44,0:52:57.44,Dialogue,,0,0,0,,so look after Heiji for me.
+Dialogue: 0,0:53:10.16,0:53:11.29,Dialogue,,0,0,0,,Are you going to be alright,
+Dialogue: 0,0:53:11.79,0:53:12.83,Dialogue,,0,0,0,,not resting?
+Dialogue: 0,0:53:13.08,0:53:13.87,Dialogue,,0,0,0,,I'm alright.
+Dialogue: 0,0:53:14.37,0:53:16.42,Dialogue,,0,0,0,,Moreover, he was a really unusual guy.
+Dialogue: 0,0:53:17.38,0:53:18.88,Dialogue,,0,0,0,,It's the first time I've seen that sort of style.
+Dialogue: 0,0:53:19.63,0:53:22.51,Dialogue,,0,0,0,,Perhaps he had metal reinforcements\Nin his kote and was using it as a shield.
+Dialogue: 0,0:53:23.80,0:53:26.97,Dialogue,,0,0,0,,I thought I'd get a comparison\Nof the weapon from my wound,
+Dialogue: 0,0:53:27.30,0:53:29.39,Dialogue,,0,0,0,,so I made him get out his short\Nsword and wound me on purpose.
+Dialogue: 0,0:53:29.85,0:53:31.68,Dialogue,,0,0,0,,But he left that sword behind.
+Dialogue: 0,0:53:32.31,0:53:33.02,Dialogue,,0,0,0,,Why would he?
+Dialogue: 0,0:53:33.85,0:53:34.56,Dialogue,,0,0,0,,Not only that,
+Dialogue: 0,0:53:35.19,0:53:35.81,Dialogue,,0,0,0,,that guy,
+Dialogue: 0,0:53:36.56,0:53:37.81,Dialogue,,0,0,0,,While we were fighting,
+Dialogue: 0,0:53:38.02,0:53:40.73,Dialogue,,0,0,0,,tried to pick up the pouch I dropped.
+Dialogue: 0,0:53:41.11,0:53:42.94,Dialogue,,0,0,0,,There are so many things I don't understand.
+Dialogue: 0,0:53:43.40,0:53:46.99,Dialogue,,0,0,0,,You don't think that old man\Nmight have been your first love?
+Dialogue: 0,0:53:47.28,0:53:47.99,Dialogue,,0,0,0,,Hahaha!
+Dialogue: 0,0:53:48.12,0:53:49.24,Dialogue,,0,0,0,,Right on the mark!
+Dialogue: 0,0:53:50.28,0:53:51.12,Dialogue,,0,0,0,,Of course not!
+Dialogue: 0,0:53:51.41,0:53:53.70,Signs,Sign,0,0,0,,Mizuo Mansion
+Dialogue: 0,0:53:54.50,0:53:56.62,Dialogue,,0,0,0,,You were attacked afterwards?
+Dialogue: 0,0:53:57.33,0:53:58.83,Dialogue,,0,0,0,,I know it's impolite,
+Dialogue: 0,0:53:59.25,0:54:01.17,Dialogue,,0,0,0,,but I came to ask if you had an alibi.
+Dialogue: 0,0:54:01.67,0:54:02.71,Dialogue,,0,0,0,,In any case, the criminal,
+Dialogue: 0,0:54:03.09,0:54:04.72,Dialogue,,0,0,0,,had on a Noh mask.
+Dialogue: 0,0:54:04.92,0:54:05.97,Dialogue,,0,0,0,,A Noh mask?
+Dialogue: 0,0:54:06.68,0:54:08.30,Dialogue,,0,0,0,,Because of that, may I ask if Saijou{\rHonorifics - Dialogue}-san{\r},
+Dialogue: 0,0:54:08.55,0:54:11.01,Dialogue,,0,0,0,,and Ryuen{\rHonorifics - Dialogue}-san{\r} have an alibi?
+Dialogue: 0,0:54:11.43,0:54:12.60,Dialogue,,0,0,0,,Us too?
+Dialogue: 0,0:54:12.89,0:54:14.14,Dialogue,,0,0,0,,This is unbearable.
+Dialogue: 0,0:54:14.52,0:54:16.48,Dialogue,,0,0,0,,Today we came thinking,
+Dialogue: 0,0:54:16.81,0:54:18.94,Dialogue,,0,0,0,,about conversing with Chika Suzu,
+Dialogue: 0,0:54:19.19,0:54:20.73,Dialogue,,0,0,0,,about who the murderer of Sakura{\rHonorifics - Dialogue}-san{\r} is.
+Dialogue: 0,0:54:21.23,0:54:21.82,Dialogue,,0,0,0,,Right?
+Dialogue: 0,0:54:23.73,0:54:24.24,Dialogue,,0,0,0,,It's alright.
+Dialogue: 0,0:54:24.82,0:54:27.57,Dialogue,,0,0,0,,Last night I went straight\Nhome from the tea house and slept.
+Dialogue: 0,0:54:28.24,0:54:29.95,Dialogue,,0,0,0,,However, I'm single,
+Dialogue: 0,0:54:30.70,0:54:32.66,Dialogue,,0,0,0,,and my room and my mother's room are separated,
+Dialogue: 0,0:54:33.16,0:54:36.54,Dialogue,,0,0,0,,so I can't prove that I was home the whole time.
+Dialogue: 0,0:54:37.12,0:54:38.87,Dialogue,,0,0,0,,I'm in the same situation.
+Dialogue: 0,0:54:39.33,0:54:41.25,Dialogue,,0,0,0,,I live by myself on the second floor of my shop,
+Dialogue: 0,0:54:41.59,0:54:42.88,Dialogue,,0,0,0,,on Teramachi Avenue.
+Dialogue: 0,0:54:43.50,0:54:46.63,Dialogue,,0,0,0,,I read some Buddhist\Nscriptures in the main temple building,
+Dialogue: 0,0:54:47.09,0:54:48.55,Dialogue,,0,0,0,,before I went to rest in my room.
+Dialogue: 0,0:54:49.34,0:54:50.43,Dialogue,,0,0,0,,I don't have any witnesses.
+Dialogue: 0,0:54:50.89,0:54:51.68,Dialogue,,0,0,0,,I see.
+Dialogue: 0,0:54:52.68,0:54:53.56,Dialogue,,0,0,0,,One more thing,
+Dialogue: 0,0:54:53.85,0:54:55.98,Dialogue,,0,0,0,,does everybody do archery?
+Dialogue: 0,0:54:56.73,0:54:57.44,Dialogue,,0,0,0,,Archery?
+Dialogue: 0,0:54:57.85,0:54:58.23,Dialogue,,0,0,0,,No.
+Dialogue: 0,0:54:58.69,0:55:00.31,Dialogue,,0,0,0,,On the autumn-leaf viewing stage,
+Dialogue: 0,0:55:00.90,0:55:04.57,Signs,Note,0,0,0,,Note: A bow made of a catalpa branch was a standard\Nimplement used by shamanesses in Northeastern Japan.
+Dialogue: 0,0:55:00.90,0:55:02.69,Dialogue,,0,0,0,,I do hold a catalpa bow.
+Dialogue: 0,0:55:03.44,0:55:05.23,Dialogue,,0,0,0,,I've used the bow string balance,
+Dialogue: 0,0:55:05.69,0:55:08.32,Dialogue,,0,0,0,,to ward off evil spirits, only on mere form.
+Dialogue: 0,0:55:08.86,0:55:09.86,Dialogue,,0,0,0,,Then no one,
+Dialogue: 0,0:55:10.16,0:55:12.37,Dialogue,,0,0,0,,that was there at the tea house that night,
+Dialogue: 0,0:55:12.78,0:55:13.87,Dialogue,,0,0,0,,was skilled in archery?
+Dialogue: 0,0:55:14.79,0:55:16.70,Dialogue,,0,0,0,,Which reminds me, Yamakura...
+Dialogue: 0,0:55:18.46,0:55:20.42,Dialogue,,0,0,0,,That Yamakura was doing archery?
+Dialogue: 0,0:55:19.50,0:55:22.42,Signs,Sign,0,0,0,,Yamakura Tae
+Dialogue: 0,0:55:20.96,0:55:23.09,Dialogue,,0,0,0,,But she wasn't there at that time.
+Dialogue: 0,0:55:23.54,0:55:24.21,Dialogue,,0,0,0,,Uh, no.
+Dialogue: 0,0:55:25.76,0:55:26.59,Dialogue,,0,0,0,,Excuse me.
+Dialogue: 0,0:55:26.84,0:55:27.88,Dialogue,,0,0,0,,Oh, you came.
+Dialogue: 0,0:55:29.38,0:55:29.72,Dialogue,,0,0,0,,Eh?
+Dialogue: 0,0:55:30.01,0:55:30.59,Dialogue,,0,0,0,,What's the matter?
+Dialogue: 0,0:55:30.93,0:55:31.68,Dialogue,,0,0,0,,Come, come.
+Dialogue: 0,0:55:32.64,0:55:33.93,Dialogue,,0,0,0,,Are you Chika Suzu{\rHonorifics - Dialogue}-san{\r}?
+Dialogue: 0,0:55:34.14,0:55:35.31,Dialogue,,0,0,0,,Yes, that's right.
+Dialogue: 0,0:55:35.81,0:55:37.27,Dialogue,,0,0,0,,She surprised me because she looks different,
+Dialogue: 0,0:55:37.27,0:55:38.35,Dialogue,,0,0,0,,from her dancing girl appearance.
+Dialogue: 0,0:55:38.77,0:55:39.56,Dialogue,,0,0,0,,Come, please enter.
+Dialogue: 0,0:55:40.90,0:55:41.23,Dialogue,,0,0,0,,Yes,
+Dialogue: 0,0:55:41.60,0:55:42.31,Dialogue,,0,0,0,,Thank you.
+Dialogue: 0,0:55:54.16,0:55:55.45,Dialogue,,0,0,0,,Thank you for last night.
+Dialogue: 0,0:55:55.74,0:55:57.33,Dialogue,,0,0,0,,Please come again.
+Dialogue: 0,0:55:57.95,0:55:59.00,Dialogue,,0,0,0,,It is I who should thank you.
+Dialogue: 0,0:56:02.42,0:56:03.83,Dialogue,,0,0,0,,Thank you, goodbye.
+Dialogue: 0,0:56:05.54,0:56:07.96,Dialogue,,0,0,0,,Sannouji was on Rokkaku avenue.
+Dialogue: 0,0:56:08.51,0:56:10.55,Dialogue,,0,0,0,,This is Ebisu avenue, so...
+Dialogue: 0,0:56:10.97,0:56:14.22,Dialogue,,0,0,0,,Marutake Ebisu Ni Oshi Oike.
+Dialogue: 0,0:56:14.68,0:56:16.85,Dialogue,,0,0,0,,Ane{\rHonorifics - Dialogue}-san{\r} Rokakku.
+Dialogue: 0,0:56:17.52,0:56:18.89,Dialogue,,0,0,0,,It'll be the sixth one.
+Dialogue: 0,0:56:27.32,0:56:28.82,Dialogue,,0,0,0,,What was the song you just sang called?
+Dialogue: 0,0:56:29.11,0:56:29.57,Dialogue,,0,0,0,,Well,
+Dialogue: 0,0:56:30.15,0:56:33.41,Signs,Note,0,0,0,,Note: "Temari" is a traditional Japanese handball game.
+Dialogue: 0,0:56:30.15,0:56:32.41,Dialogue,,0,0,0,,we just call it a temari song.
+Dialogue: 0,0:56:34.41,0:56:36.41,Dialogue,,0,0,0,,It's about Kyoto's roads that run East and West,
+Dialogue: 0,0:56:36.70,0:56:38.74,Dialogue,,0,0,0,,and they're sung in the order of North to South.
+Dialogue: 0,0:57:11.49,0:57:15.78,Dialogue,,0,0,0,,All the children of Kyoto learn\Nthe names of the roads by this song.
+Dialogue: 0,0:57:17.24,0:57:19.91,Dialogue,,0,0,0,,Then does that mean you're from Kyoto as well?
+Dialogue: 0,0:57:20.58,0:57:21.62,Dialogue,,0,0,0,,Yes, that's right.
+Dialogue: 0,0:57:21.95,0:57:22.50,Dialogue,,0,0,0,,And your age?
+Dialogue: 0,0:57:22.71,0:57:23.71,Dialogue,,0,0,0,,Nineteen.
+Dialogue: 0,0:57:24.04,0:57:24.67,Dialogue,,0,0,0,,Nineteen?
+Dialogue: 0,0:57:30.84,0:57:32.30,Dialogue,,0,0,0,,This is Oike avenue.
+Dialogue: 0,0:57:33.34,0:57:34.63,Dialogue,,0,0,0,,Then I will leave from here.
+Dialogue: 0,0:57:36.84,0:57:37.72,Dialogue,,0,0,0,,Goodbye.
+Dialogue: 0,0:57:38.10,0:57:38.68,Dialogue,,0,0,0,,Goodbye.
+Dialogue: 0,0:57:40.22,0:57:41.89,Dialogue,,0,0,0,,Do you think she is...
+Dialogue: 0,0:57:42.27,0:57:43.10,Dialogue,,0,0,0,,There's no mistake,
+Dialogue: 0,0:57:43.64,0:57:46.81,Dialogue,,0,0,0,,she's from Kyoto and she's two years older than me.
+Dialogue: 0,0:57:47.27,0:57:48.06,Dialogue,,0,0,0,,But,
+Dialogue: 0,0:57:48.36,0:57:50.32,Dialogue,,0,0,0,,all the children in Kyoto have...
+Dialogue: 0,0:57:50.40,0:57:52.11,Dialogue,,0,0,0,,Finally I was able to meet her, finally.
+Dialogue: 0,0:57:54.11,0:57:54.99,Dialogue,,0,0,0,,Yes. Hello.
+Dialogue: 0,0:57:55.03,0:57:56.36,Radio,,0,0,0,,{\be10}Hei{\rHonorifics - Radio\be10}-chan{\r\be10}, what are you doing?
+Dialogue: 0,0:57:57.03,0:57:59.07,Radio,,0,0,0,,{\be10}You can't just jump out the hospital on your own.
+Dialogue: 0,0:57:59.41,0:58:00.49,Dialogue,,0,0,0,,Ah, Ootaki{\rHonorifics - Dialogue}-san{\r}.
+Dialogue: 0,0:58:00.62,0:58:04.58,Signs,Sign,0,0,0,,Kyoto Prefectural Police
+Dialogue: 0,0:58:01.20,0:58:02.37,Dialogue,,0,0,0,,Well, leaving that,
+Dialogue: 0,0:58:02.87,0:58:04.62,Dialogue,,0,0,0,,the test results are in.
+Dialogue: 0,0:58:05.83,0:58:07.79,Dialogue,,0,0,0,,It was from the hilt of the short sword.
+Dialogue: 0,0:58:08.13,0:58:12.25,Dialogue,,0,0,0,,The same blood type of Sakura{\rHonorifics - Dialogue}-san{\r}'s was detected,
+Dialogue: 0,0:58:12.84,0:58:17.01,Dialogue,,0,0,0,,and the impression on\NSakura{\rHonorifics - Dialogue}-san{\r}'s wound matched as well.
+Dialogue: 0,0:58:17.26,0:58:17.97,Dialogue,,0,0,0,,Is that true?
+Dialogue: 0,0:58:18.55,0:58:18.97,Dialogue,,0,0,0,,Hei{\rHonorifics - Dialogue}-chan{\r},
+Dialogue: 0,0:58:19.47,0:58:20.64,Dialogue,,0,0,0,,I'll say this just in case,
+Dialogue: 0,0:58:21.01,0:58:22.18,Dialogue,,0,0,0,,but don't be rash.
+Dialogue: 0,0:58:22.93,0:58:24.39,Dialogue,,0,0,0,,If something ever happened to you,
+Dialogue: 0,0:58:24.85,0:58:26.10,Dialogue,,0,0,0,,how will I ever explain it to your father?
+Dialogue: 0,0:58:26.44,0:58:27.65,Radio,,0,0,0,,{\be10}Alright, I understand.
+Dialogue: 0,0:58:27.94,0:58:29.27,Radio,,0,0,0,,{\be10}Thanks, Ootaki{\rHonorifics - Radio\be10}-han{\r\be10}.
+Dialogue: 0,0:58:35.74,0:58:37.99,Dialogue,,0,0,0,,Now we know that the old masked man that attacked me,
+Dialogue: 0,0:58:38.32,0:58:41.45,Dialogue,,0,0,0,,is the same person that murdered Sakura{\rHonorifics - Dialogue}-san{\r}.
+Dialogue: 0,0:58:41.91,0:58:42.79,Dialogue,,0,0,0,,Then,
+Dialogue: 0,0:58:43.16,0:58:46.00,Dialogue,,0,0,0,,the four people that were unable to dispose the weapon,
+Dialogue: 0,0:58:46.58,0:58:48.42,Dialogue,,0,0,0,,are not suspects anymore.
+Dialogue: 0,0:59:04.27,0:59:06.64,Dialogue,,0,0,0,,Conan{\rHonorifics - Dialogue}-kun{\r}! What are you doing?
+Dialogue: 0,0:59:08.14,0:59:09.48,Dialogue,,0,0,0,,You guys! Why?
+Dialogue: 0,0:59:09.69,0:59:11.15,Dialogue,,0,0,0,,As a reward for answering Professor's quiz,
+Dialogue: 0,0:59:11.44,0:59:13.07,Dialogue,,0,0,0,,he took us along.
+Dialogue: 0,0:59:13.44,0:59:14.86,Dialogue,,0,0,0,,However, Genta{\rHonorifics - Dialogue}-kun{\r}...
+Dialogue: 0,0:59:15.36,0:59:16.65,Dialogue,,0,0,0,,He got lost.
+Dialogue: 0,0:59:16.99,0:59:17.70,Dialogue,,0,0,0,,Ah!
+Dialogue: 0,0:59:18.74,0:59:20.28,Dialogue,,0,0,0,,Well then, use the detective badges.
+Dialogue: 0,0:59:20.66,0:59:23.28,Dialogue,,0,0,0,,We've already called him and made contact,
+Dialogue: 0,0:59:23.87,0:59:24.33,Dialogue,,0,0,0,,but...
+Dialogue: 0,0:59:24.58,0:59:26.37,Dialogue,,0,0,0,,Genta{\rHonorifics - Dialogue}-kun{\r} can't read kanji,
+Dialogue: 0,0:59:26.66,0:59:28.16,Dialogue,,0,0,0,,so he can't tell where he is right now.
+Dialogue: 0,0:59:28.66,0:59:32.21,Dialogue,,0,0,0,,We thought you could find him\Nby using those glasses of yours.
+Dialogue: 0,0:59:32.63,0:59:33.25,Dialogue,,0,0,0,,Okay.
+Dialogue: 0,0:59:33.59,0:59:34.59,Dialogue,,0,0,0,,Leave it to me.
+Dialogue: 0,0:59:36.17,0:59:37.09,Dialogue,,0,0,0,,Oh!
+Dialogue: 0,0:59:37.42,0:59:37.88,Dialogue,,0,0,0,,Hey!
+Dialogue: 0,0:59:38.17,0:59:40.05,Dialogue,,0,0,0,,This is interesting. Oh! He's over there!
+Dialogue: 0,0:59:41.14,0:59:41.64,Dialogue,,0,0,0,,Jeez...
+Dialogue: 0,0:59:53.02,0:59:55.15,Dialogue,,0,0,0,,There seems to be a case over here, too.
+Dialogue: 0,0:59:55.86,0:59:56.32,Dialogue,,0,0,0,,Yeah.
+Dialogue: 0,0:59:56.73,0:59:58.32,Dialogue,,0,0,0,,I'll tell you the details later.
+Dialogue: 0,0:59:59.90,1:00:00.53,Dialogue,,0,0,0,,Hold on...
+Dialogue: 0,1:00:00.95,1:00:02.41,Dialogue,,0,0,0,,Ai{\rHonorifics - Dialogue}-kun{\r} the drug please.
+Dialogue: 0,1:00:08.87,1:00:09.46,Dialogue,,0,0,0,,What's that?
+Dialogue: 0,1:00:09.79,1:00:11.54,Dialogue,,0,0,0,,A drug that suppresses growling stomachs.
+Dialogue: 0,1:00:12.00,1:00:14.42,Dialogue,,0,0,0,,Professor developed it for\Nceremonies and special occasions.
+Dialogue: 0,1:00:15.04,1:00:17.25,Dialogue,,0,0,0,,Plus, other drugs for people who are weak with alcohol,
+Dialogue: 0,1:00:17.42,1:00:20.09,Dialogue,,0,0,0,,and some others that turn\Nyour face red right after you take it.
+Dialogue: 0,1:00:20.38,1:00:23.34,Dialogue,,0,0,0,,Also, I developed drugs for people\Nwho want to take a day off from work,
+Dialogue: 0,1:00:23.34,1:00:25.14,Dialogue,,0,0,0,,which gives you the same symptoms as a cold.
+Dialogue: 0,1:00:26.43,1:00:28.60,Dialogue,,0,0,0,,I got help from Ai while developing all the drugs.
+Dialogue: 0,1:00:28.97,1:00:30.60,Thoughts,,0,0,0,,{\be10}None of them seem to be of any use to me.
+Dialogue: 0,1:00:30.68,1:00:34.69,Signs,Sign,0,0,0,,Rokakku Building
+Dialogue: 0,1:00:31.69,1:00:32.77,Dialogue,,0,0,0,,Oh, right here, right here.
+Dialogue: 0,1:00:33.06,1:00:34.40,Dialogue,,0,0,0,,He's in this Rokakku building.
+Dialogue: 0,1:00:35.52,1:00:36.36,Dialogue,,0,0,0,,He's here?
+Dialogue: 0,1:00:37.86,1:00:38.73,Dialogue,,0,0,0,,That's good.
+Dialogue: 0,1:00:39.23,1:00:40.24,Dialogue,,0,0,0,,Mom...
+Dialogue: 0,1:00:40.40,1:00:41.99,Dialogue,,0,0,0,,Ah, there he is!
+Dialogue: 0,1:00:43.78,1:00:44.78,Dialogue,,0,0,0,,I'm saved.
+Dialogue: 0,1:00:45.07,1:00:46.62,Dialogue,,0,0,0,,We're glad you're okay, Genta{\rHonorifics - Dialogue}-kun{\r}!
+Dialogue: 0,1:00:46.91,1:00:49.41,Dialogue,,0,0,0,,I thought we'd never meet for a lifetime.
+Dialogue: 0,1:00:49.50,1:00:50.45,Dialogue,,0,0,0,,Me too!
+Dialogue: 0,1:00:50.45,1:00:52.46,Dialogue,,0,0,0,,Nevertheless, that's pretty convenient.
+Dialogue: 0,1:00:54.08,1:00:56.54,Dialogue,,0,0,0,,A badge with a transmitter.
+Dialogue: 0,1:00:57.00,1:00:57.71,Dialogue,,0,0,0,,Yes.
+Dialogue: 0,1:00:58.09,1:01:00.26,Dialogue,,0,0,0,,The frequency waves that the badge transmits,
+Dialogue: 0,1:01:00.59,1:01:02.22,Dialogue,,0,0,0,,synchronizes with these glasses and...
+Dialogue: 0,1:01:03.76,1:01:04.26,Dialogue,,0,0,0,,Hattori!
+Dialogue: 0,1:01:04.39,1:01:05.14,Dialogue,,0,0,0,,Oh, that's how!
+Dialogue: 0,1:01:05.93,1:01:06.76,Dialogue,,0,0,0,,Wh-what!?
+Dialogue: 0,1:01:08.22,1:01:09.72,Dialogue,,0,0,0,,Kudou, you don't think...
+Dialogue: 0,1:01:18.11,1:01:19.32,Dialogue,,0,0,0,,There's no mistake.
+Dialogue: 0,1:01:21.07,1:01:22.57,Dialogue,,0,0,0,,The sound that girl heard was,
+Dialogue: 0,1:01:23.15,1:01:25.03,Dialogue,,0,0,0,,the sound of the weapon hitting the water.
+Dialogue: 0,1:01:25.74,1:01:26.41,Dialogue,,0,0,0,,Then,
+Dialogue: 0,1:01:26.74,1:01:28.66,Dialogue,,0,0,0,,the suspect is among the four people there.
+Dialogue: 0,1:01:29.33,1:01:30.45,Dialogue,,0,0,0,,No, among the three.
+Dialogue: 0,1:01:31.37,1:01:34.46,Dialogue,,0,0,0,,There's no way that my first love is the murderer, right?
+Dialogue: 0,1:01:34.79,1:01:35.54,Dialogue,,0,0,0,,Hey, hey.
+Dialogue: 0,1:01:36.21,1:01:38.84,Dialogue,,0,0,0,,There's only one thing that concerns me.
+Dialogue: 0,1:01:39.17,1:01:42.17,Dialogue,,0,0,0,,Between the song that we just\Nheard and the song I remember,
+Dialogue: 0,1:01:42.46,1:01:43.59,Dialogue,,0,0,0,,there's one part that's different.
+Dialogue: 0,1:01:44.76,1:01:46.01,Dialogue,,0,0,0,,My first love sang,
+Dialogue: 0,1:01:46.39,1:01:49.85,Dialogue,,0,0,0,,the part of "Ane{\rHonorifics - Dialogue}-san{\r} Rokakku" as "Yome{\rHonorifics - Dialogue}-san{\r} Rokakku".
+Dialogue: 0,1:01:49.85,1:01:53.10,Signs,Note,0,0,0,,Note: "Yome" means bride. "Ane" means older sister.
+Dialogue: 0,1:01:51.52,1:01:52.81,Dialogue,,0,0,0,,I wonder why...
+Dialogue: 0,1:01:53.43,1:01:54.02,Dialogue,,0,0,0,,How would I know?
+Dialogue: 0,1:02:08.41,1:02:09.16,Dialogue,,0,0,0,,I found it!
+Dialogue: 0,1:02:09.45,1:02:10.49,Dialogue,,0,0,0,,The fragment of the mask!
+Dialogue: 0,1:02:20.88,1:02:21.63,Dialogue,,0,0,0,,Hmm...
+Dialogue: 0,1:02:21.63,1:02:22.13,Dialogue,,0,0,0,,Inspector!
+Dialogue: 0,1:02:23.30,1:02:24.80,Dialogue,,0,0,0,,What's the groaning about?
+Dialogue: 0,1:02:25.22,1:02:25.72,Dialogue,,0,0,0,,This is...?
+Dialogue: 0,1:02:27.13,1:02:30.35,Dialogue,,0,0,0,,The three members who were\Nmurdered in Tokyo wore them.
+Dialogue: 0,1:02:31.01,1:02:34.81,Dialogue,,0,0,0,,One wore the hat, another wore the\Nscarf, and the other wore the gloves.
+Dialogue: 0,1:02:35.31,1:02:37.19,Dialogue,,0,0,0,,The color, design and material are all the same.
+Dialogue: 0,1:02:37.85,1:02:39.35,Dialogue,,0,0,0,,Don't you think it's strange?
+Dialogue: 0,1:02:39.94,1:02:41.19,Dialogue,,0,0,0,,Yes, you're right.
+Dialogue: 0,1:02:42.11,1:02:42.94,Dialogue,,0,0,0,,Why? What's strange?
+Dialogue: 0,1:02:43.32,1:02:43.86,Dialogue,,0,0,0,,For example,
+Dialogue: 0,1:02:44.40,1:02:46.95,Dialogue,,0,0,0,,if Shiratori{\rHonorifics - Dialogue}-kun{\r} wore all three items,
+Dialogue: 0,1:02:47.32,1:02:48.74,Dialogue,,0,0,0,,It isn't unusual. However,
+Dialogue: 0,1:02:49.53,1:02:51.07,Dialogue,,0,0,0,,if Inspector Megure had the hat,
+Dialogue: 0,1:02:51.74,1:02:52.91,Dialogue,,0,0,0,,I had the scarf,
+Dialogue: 0,1:02:53.49,1:02:55.25,Dialogue,,0,0,0,,and Takagi{\rHonorifics - Dialogue}-kun{\r} had on the gloves,
+Dialogue: 0,1:02:55.54,1:02:56.50,Dialogue,,0,0,0,,something would be strange, right?
+Dialogue: 0,1:02:57.00,1:02:57.87,Dialogue,,0,0,0,,That's for sure.
+Dialogue: 0,1:02:58.83,1:03:00.79,Dialogue,,0,0,0,,It seems as though Shiratori{\rHonorifics - Dialogue}-san{\r} had died,
+Dialogue: 0,1:03:01.00,1:03:03.46,Dialogue,,0,0,0,,and divided his belongings between us.
+Dialogue: 0,1:03:05.26,1:03:05.96,Dialogue,,0,0,0,,That's it!
+Dialogue: 0,1:03:06.84,1:03:07.88,Dialogue,,0,0,0,,Wh-What?
+Dialogue: 0,1:03:11.26,1:03:12.22,Dialogue,,0,0,0,,I'm hungry.
+Dialogue: 0,1:03:12.30,1:03:13.47,Dialogue,,0,0,0,,Be patient.
+Dialogue: 0,1:03:14.01,1:03:17.23,Dialogue,,0,0,0,,Chika Suzu{\rHonorifics - Dialogue}-san{\r}'s mother was a\Nyoung geisha in Miyagawachou,
+Dialogue: 0,1:03:17.94,1:03:19.77,Dialogue,,0,0,0,,and passed away due to illness when she was five.
+Dialogue: 0,1:03:20.85,1:03:22.19,Dialogue,,0,0,0,,Her mother was not married.
+Dialogue: 0,1:03:23.11,1:03:26.69,Dialogue,,0,0,0,,Chika Suzu{\rHonorifics - Dialogue}-san{\r} was taken in and\Nraised by the mistress of a tea house,
+Dialogue: 0,1:03:27.11,1:03:28.28,Dialogue,,0,0,0,,Yamakura Tae.
+Dialogue: 0,1:03:28.65,1:03:30.57,Dialogue,,0,0,0,,What does unwed mother mean?
+Dialogue: 0,1:03:31.16,1:03:32.16,Dialogue,,0,0,0,,Well that is...
+Dialogue: 0,1:03:32.49,1:03:35.58,Dialogue,,0,0,0,,A woman who didn't marry but had a child.
+Dialogue: 0,1:03:36.37,1:03:38.87,Dialogue,,0,0,0,,We don't know who her father is.
+Dialogue: 0,1:03:39.33,1:03:41.38,Dialogue,,0,0,0,,However, there is an anonymous payment,
+Dialogue: 0,1:03:41.38,1:03:42.58,Dialogue,,0,0,0,,sent to the tea house every month.
+Dialogue: 0,1:03:43.38,1:03:43.79,Dialogue,,0,0,0,,But,
+Dialogue: 0,1:03:44.17,1:03:45.50,Dialogue,,0,0,0,,for some reason, three months ago,
+Dialogue: 0,1:03:45.88,1:03:47.42,Dialogue,,0,0,0,,the payment stopped.
+Dialogue: 0,1:03:49.42,1:03:52.09,Dialogue,,0,0,0,,It certainly does seem like a worrisome account.
+Dialogue: 0,1:03:52.97,1:03:54.51,Dialogue,,0,0,0,,Three months ago?
+Dialogue: 0,1:03:55.85,1:03:58.27,Dialogue,,0,0,0,,But Inspector Shiratori,\Nwhere did you get such information?
+Dialogue: 0,1:03:58.98,1:04:00.73,Dialogue,,0,0,0,,You heard it from the Royal Inspector right?
+Dialogue: 0,1:04:00.94,1:04:01.90,Dialogue,,0,0,0,,That's wrong.
+Dialogue: 0,1:04:02.52,1:04:07.11,Signs,Note,0,0,0,,Note: Gion is the entertainment district of Kyoto.
+Dialogue: 0,1:04:02.52,1:04:05.73,Dialogue,,0,0,0,,Even if it doesn't look it, I am a\Nknown face in the Gion district.
+Dialogue: 0,1:04:06.44,1:04:06.86,Thoughts,,0,0,0,,{\be10}Heh,
+Dialogue: 0,1:04:07.11,1:04:07.94,Thoughts,,0,0,0,,{\be10}Is that a boast?
+Dialogue: 0,1:04:08.65,1:04:09.36,Dialogue,,0,0,0,,Generally,
+Dialogue: 0,1:04:09.74,1:04:11.86,Dialogue,,0,0,0,,even if they say he is my rival,
+Dialogue: 0,1:04:12.41,1:04:15.28,Dialogue,,0,0,0,,don't compare me with someone\Nwho always takes his chipmunk.
+Dialogue: 0,1:04:15.28,1:04:16.16,Dialogue,,0,0,0,,A chipmunk?
+Dialogue: 0,1:04:16.29,1:04:16.66,Dialogue,,0,0,0,,Yes.
+Dialogue: 0,1:04:17.12,1:04:18.45,Dialogue,,0,0,0,,He has it in his pocket.
+Dialogue: 0,1:04:18.75,1:04:21.79,Dialogue,,0,0,0,,As one would expect, he left it\Nwhen he came to the scene of the crime.
+Dialogue: 0,1:04:22.25,1:04:22.96,Dialogue,,0,0,0,,A chipmunk...
+Dialogue: 0,1:04:25.09,1:04:26.67,Dialogue,,0,0,0,,Yes, this is Shiratori.
+Dialogue: 0,1:04:27.30,1:04:28.01,Dialogue,,0,0,0,,This is Megure.
+Dialogue: 0,1:04:28.51,1:04:30.13,Dialogue,,0,0,0,,About Yoshitsune and Benkei,
+Dialogue: 0,1:04:30.38,1:04:31.88,Dialogue,,0,0,0,,there may be one possibility...
+Dialogue: 0,1:04:33.05,1:04:33.89,Dialogue,,0,0,0,,Distribution of mementos?
+Dialogue: 0,1:04:34.34,1:04:36.18,Dialogue,,0,0,0,,If we think about it that way, the mystery can be solved.
+Dialogue: 0,1:04:36.81,1:04:37.39,Dialogue,,0,0,0,,In other words,
+Dialogue: 0,1:04:37.76,1:04:42.60,Dialogue,,0,0,0,,either Yoshitsune or Benkei has\Nalready died. That's what we reasoned.
+Dialogue: 0,1:04:44.48,1:04:45.90,Dialogue,,0,0,0,,I get it!
+Dialogue: 0,1:04:56.53,1:04:57.08,Dialogue,,0,0,0,,Mouri{\rHonorifics - Dialogue}-san{\r},
+Dialogue: 0,1:04:57.78,1:05:01.00,Dialogue,,0,0,0,,you said you know who\Nmurdered Sakura{\rHonorifics - Dialogue}-san{\r}, is this really true?
+Dialogue: 0,1:05:01.41,1:05:01.87,Dialogue,,0,0,0,,Yes.
+Dialogue: 0,1:05:04.46,1:05:05.83,Dialogue,,0,0,0,,Well then, please allow me to tell you.
+Dialogue: 0,1:05:06.38,1:05:07.34,Dialogue,,0,0,0,,The culprit is...
+Dialogue: 0,1:05:07.67,1:05:08.46,Dialogue,,0,0,0,,Chika Suzu{\rHonorifics - Dialogue}-san{\r}...
+Dialogue: 0,1:05:09.05,1:05:09.67,Dialogue,,0,0,0,,It's you!
+Dialogue: 0,1:05:10.71,1:05:11.59,Dialogue,,0,0,0,,That's absurd!
+Dialogue: 0,1:05:13.09,1:05:14.59,Dialogue,,0,0,0,,Your reasoning is off.
+Dialogue: 0,1:05:15.22,1:05:16.39,Dialogue,,0,0,0,,Is he alright?
+Dialogue: 0,1:05:16.47,1:05:18.26,Dialogue,,0,0,0,,Anyhow, let's hear him out until the end.
+Dialogue: 0,1:05:20.22,1:05:23.31,Dialogue,,0,0,0,,The motive is revenge for the murder of your father,
+Dialogue: 0,1:05:23.52,1:05:27.69,Dialogue,,0,0,0,,who is the leader of the robbery group, Yoshitsune.
+Dialogue: 0,1:05:29.57,1:05:33.70,Dialogue,,0,0,0,,Yoshitsune was betrayed by his\Nservants and murdered three months ago.
+Dialogue: 0,1:05:34.15,1:05:36.28,Dialogue,,0,0,0,,That's why the payments to the tea house stopped.
+Dialogue: 0,1:05:37.03,1:05:37.70,Dialogue,,0,0,0,,I see...
+Dialogue: 0,1:05:38.91,1:05:40.83,Dialogue,,0,0,0,,Plus, you had an accomplice.
+Dialogue: 0,1:05:41.58,1:05:42.29,Dialogue,,0,0,0,,Benkei.
+Dialogue: 0,1:05:42.87,1:05:43.54,Dialogue,,0,0,0,,Benkei?
+Dialogue: 0,1:05:44.21,1:05:46.04,Dialogue,,0,0,0,,As to Benkei, who is it?
+Dialogue: 0,1:05:46.83,1:05:47.63,Dialogue,,0,0,0,,The Royal Inspector!
+Dialogue: 0,1:05:48.25,1:05:49.09,Dialogue,,0,0,0,,It's you!
+Dialogue: 0,1:05:51.63,1:05:52.67,Dialogue,,0,0,0,,Chika Suzu{\rHonorifics - Dialogue}-san{\r},
+Dialogue: 0,1:05:52.97,1:05:56.39,Dialogue,,0,0,0,,when you came to the tea\Nhouse, you secretly brought something.
+Dialogue: 0,1:05:56.89,1:06:00.72,Dialogue,,0,0,0,,The short sword and the inspector's chipmunk!
+Dialogue: 0,1:06:04.18,1:06:05.02,Dialogue,,0,0,0,,How cute!
+Dialogue: 0,1:06:05.60,1:06:08.27,Dialogue,,0,0,0,,That chipmunk was the key to the trick.
+Dialogue: 0,1:06:08.69,1:06:09.73,Dialogue,,0,0,0,,Chika Suzu{\rHonorifics - Dialogue}-san{\r},
+Dialogue: 0,1:06:09.94,1:06:15.36,Signs,Note,0,0,0,,Note: Zashiki is a Japanese tatami room.
+Dialogue: 0,1:06:09.94,1:06:13.44,Dialogue,,0,0,0,,You gave the appearance of going to\Nthe restroom on the way to the zashiki,
+Dialogue: 0,1:06:13.69,1:06:15.36,Dialogue,,0,0,0,,and murdered Sakura{\rHonorifics - Dialogue}-san{\r} in the storage room.
+Dialogue: 0,1:06:16.03,1:06:19.03,Dialogue,,0,0,0,,Then you tied the short sword to the\Nchipmunk you had hidden in a cupboard,
+Dialogue: 0,1:06:19.32,1:06:22.62,Dialogue,,0,0,0,,and let it escape from the basement's glass window.
+Dialogue: 0,1:06:23.50,1:06:26.87,Dialogue,,0,0,0,,The chipmunk jumped into\NMisogigawa and made for the bank.
+Dialogue: 0,1:06:28.33,1:06:31.34,Dialogue,,0,0,0,,That's where the Inspector was waiting to pick them up.
+Dialogue: 0,1:06:31.63,1:06:34.59,Dialogue,,0,0,0,,Later, he tried to murder Heiji with the short sword.
+Dialogue: 0,1:06:35.26,1:06:35.97,Dialogue,,0,0,0,,I get it!
+Dialogue: 0,1:06:36.22,1:06:39.30,Dialogue,,0,0,0,,So the sound I heard was the\Nchipmunk jumping into the water!
+Dialogue: 0,1:06:40.01,1:06:43.02,Dialogue,,0,0,0,,Besides Sakura{\rHonorifics - Dialogue}-san{\r}'s murder, you\Ntwo are involved in the other cases.
+Dialogue: 0,1:06:43.81,1:06:46.10,Dialogue,,0,0,0,,Inspector, do you do archery?
+Dialogue: 0,1:06:46.60,1:06:49.15,Dialogue,,0,0,0,,Do I look like I've done anything that complicated?
+Dialogue: 0,1:06:49.60,1:06:51.36,Dialogue,,0,0,0,,Is that really true?
+Dialogue: 0,1:06:52.77,1:06:54.19,Dialogue,,0,0,0,,However, Chika Suzu{\rHonorifics - Dialogue}-san{\r},
+Dialogue: 0,1:06:54.69,1:06:55.82,Dialogue,,0,0,0,,I hear that people,
+Dialogue: 0,1:06:56.07,1:06:58.99,Dialogue,,0,0,0,,who do archery have an injury\Nhere where the arrowhead scraped.
+Dialogue: 0,1:06:59.99,1:07:00.82,Dialogue,,0,0,0,,Certainly,
+Dialogue: 0,1:07:01.45,1:07:04.91,Dialogue,,0,0,0,,I injured my "yanomakura" due to archery, but,
+Dialogue: 0,1:07:07.66,1:07:09.25,Dialogue,,0,0,0,,I just started.
+Dialogue: 0,1:07:09.54,1:07:11.75,Dialogue,,0,0,0,,There's no way I could shoot anyone.
+Dialogue: 0,1:07:12.34,1:07:13.84,Dialogue,,0,0,0,,I think so, too.
+Dialogue: 0,1:07:14.34,1:07:17.17,Dialogue,,0,0,0,,If you injure that spot, it's proof that you're a beginner.
+Dialogue: 0,1:07:17.67,1:07:20.14,Dialogue,,0,0,0,,That's what I heard my\Nacquaintances from the archery club say.
+Dialogue: 0,1:07:20.76,1:07:23.64,Dialogue,,0,0,0,,And if there was murder, the\Ndistribution of the mementos...
+Dialogue: 0,1:07:24.14,1:07:25.43,Dialogue,,0,0,0,,Mouri{\rHonorifics - Dialogue}-han{\r}!
+Dialogue: 0,1:07:25.56,1:07:28.52,Dialogue,,0,0,0,,Do you really think this girl is the culprit!?
+Dialogue: 0,1:07:28.81,1:07:29.90,Dialogue,,0,0,0,,Therefore, I...
+Dialogue: 0,1:07:29.90,1:07:31.27,Dialogue,,0,0,0,,Enough joking around!
+Dialogue: 0,1:07:31.61,1:07:34.86,Dialogue,,0,0,0,,Dancers are busy performing and entertaining guests,
+Dialogue: 0,1:07:35.15,1:07:37.49,Dialogue,,0,0,0,,there is no time for them to be murdering people!
+Dialogue: 0,1:07:37.78,1:07:38.53,Dialogue,,0,0,0,,Hey, hey.
+Dialogue: 0,1:07:38.95,1:07:39.45,Dialogue,,0,0,0,,What is it?
+Dialogue: 0,1:07:39.91,1:07:40.95,Dialogue,,0,0,0,,About the chipmunk...
+Dialogue: 0,1:07:41.24,1:07:44.16,Dialogue,,0,0,0,,With a small body like that, I don't\Nthink it could carry a short sword.
+Dialogue: 0,1:07:45.12,1:07:45.83,Dialogue,,0,0,0,,Shut up!
+Dialogue: 0,1:07:46.45,1:07:48.16,Dialogue,,0,0,0,,Then I'll show you the proof!
+Dialogue: 0,1:07:51.12,1:07:53.00,Dialogue,,0,0,0,,C'mon, move chipmunk!
+Dialogue: 0,1:07:53.67,1:07:55.46,Dialogue,,0,0,0,,I am too shocked to be able to speak.
+Dialogue: 0,1:07:56.25,1:07:59.72,Dialogue,,0,0,0,,You're purposefully ignoring me\Nin order to be free from guilt, huh?
+Dialogue: 0,1:08:01.89,1:08:02.97,Dialogue,,0,0,0,,Stop it!
+Dialogue: 0,1:08:03.05,1:08:05.64,Dialogue,,0,0,0,,Don't you feel sorry for it!?
+Dialogue: 0,1:08:06.06,1:08:07.77,Dialogue,,0,0,0,,It's animal cruelty!
+Dialogue: 0,1:08:07.81,1:08:09.89,Dialogue,,0,0,0,,You kids shut up!
+Dialogue: 0,1:08:10.14,1:08:11.94,Dialogue,,0,0,0,,Genta{\rHonorifics - Dialogue}-kun{\r}, save the chipmunk!
+Dialogue: 0,1:08:12.06,1:08:12.60,Dialogue,,0,0,0,,Oh.
+Dialogue: 0,1:08:13.81,1:08:14.19,Dialogue,,0,0,0,,Kudou.
+Dialogue: 0,1:08:15.57,1:08:16.11,Dialogue,,0,0,0,,Yeah.
+Dialogue: 0,1:08:16.82,1:08:19.07,Dialogue,,0,0,0,,Thanks to uncle, I know who the culprit is.
+Dialogue: 0,1:08:20.11,1:08:20.65,Dialogue,,0,0,0,,Same here.
+Dialogue: 0,1:08:21.45,1:08:24.57,Dialogue,,0,0,0,,Only those who do archery would say that.
+Dialogue: 0,1:08:25.28,1:08:26.66,Dialogue,,0,0,0,,What's left is the evidence...
+Dialogue: 0,1:08:28.25,1:08:29.75,Dialogue,,0,0,0,,And the location of the Buddhist statue.
+Dialogue: 0,1:08:30.41,1:08:32.54,Dialogue,,0,0,0,,Poor chipmunk.
+Dialogue: 0,1:08:33.04,1:08:34.84,Dialogue,,0,0,0,,Let's give it something to eat!
+Dialogue: 0,1:08:35.34,1:08:37.80,Dialogue,,0,0,0,,I have some acorns...
+Dialogue: 0,1:08:42.80,1:08:47.06,Signs,Note,0,0,0,,Note: A Japanese children song about an acorn that falls into a puddle.
+Dialogue: 0,1:08:42.80,1:08:45.10,Dialogue,,0,0,0,,It's almost like the song, "Donguri Koro Koro"
+Dialogue: 0,1:08:45.68,1:08:46.68,Dialogue,,0,0,0,,Donguri Koro Koro?
+Dialogue: 0,1:08:48.27,1:08:49.10,Thoughts,,0,0,0,,{\be10}Perhaps...
+Dialogue: 0,1:08:54.23,1:08:55.73,Dialogue,,0,0,0,,Hey! What's the matter, Kudou?
+Dialogue: 0,1:08:56.02,1:09:00.82,Dialogue,,0,0,0,,Perhaps the copied picture concerned the roads of Kyoto.
+Dialogue: 0,1:09:01.15,1:09:01.82,Dialogue,,0,0,0,,What?
+Dialogue: 0,1:09:05.91,1:09:07.33,Dialogue,,0,0,0,,First are the roads that run East to West.
+Dialogue: 0,1:09:08.29,1:09:09.41,Dialogue,,0,0,0,,The fifth row stands for,
+Dialogue: 0,1:09:09.79,1:09:12.50,Signs,Sign,0,0,0,,Gojyou Avenue
+Dialogue: 0,1:09:10.37,1:09:12.04,Signs,Note,0,0,0,,Note: "Gojyou" means fifth.
+Dialogue: 0,1:09:10.37,1:09:11.04,Dialogue,,0,0,0,,"Gojyou Avenue".
+Dialogue: 0,1:09:12.25,1:09:13.04,Dialogue,,0,0,0,,The fourth row,
+Dialogue: 0,1:09:12.62,1:09:15.96,Signs,Sign,0,0,0,,Shijyou Avenue
+Dialogue: 0,1:09:13.96,1:09:15.79,Signs,Note,0,0,0,,Note: "Shijyou" means fourth.
+Dialogue: 0,1:09:13.96,1:09:14.79,Dialogue,,0,0,0,,is "Shijyou Avenue".
+Dialogue: 0,1:09:15.75,1:09:17.67,Dialogue,,0,0,0,,And in between the third and second row,
+Dialogue: 0,1:09:18.00,1:09:19.80,Dialogue,,0,0,0,,which means between 2nd and 3rd Avenue,
+Dialogue: 0,1:09:19.84,1:09:23.18,Signs,Sign,0,0,0,,Oike Avenue
+Dialogue: 0,1:09:20.30,1:09:22.22,Signs,Note,0,0,0,,Note: "Oike" is literally the "honourable lake."
+Dialogue: 0,1:09:20.30,1:09:21.09,Dialogue,,0,0,0,,is "Oike Avenue".
+Dialogue: 0,1:09:22.42,1:09:23.34,Dialogue,,0,0,0,,And to prove it,
+Dialogue: 0,1:09:24.80,1:09:26.01,Dialogue,,0,0,0,,Donguri Koro Koro?
+Dialogue: 0,1:09:27.51,1:09:28.85,Dialogue,,0,0,0,,Next are the roads that run North to South.
+Dialogue: 0,1:09:29.68,1:09:33.85,Signs,Note,0,0,0,,Note: Literally "The Spring River". It is also a traditional Japanese\Nchildrens song which tells about a river in the spring that blooms with violets.
+Dialogue: 0,1:09:29.68,1:09:31.85,Dialogue,,0,0,0,,The violet, which is present in the song "Haru no Ogawa",
+Dialogue: 0,1:09:31.43,1:09:33.85,Signs,Sign,0,0,0,,Ogawa Avenue
+Dialogue: 0,1:09:32.48,1:09:33.23,Dialogue,,0,0,0,,is part of "Ogawa Avenue".
+Dialogue: 0,1:09:34.14,1:09:37.31,Signs,Note,0,0,0,,Note: "Karasuma" is literally "crow circle".
+Dialogue: 0,1:09:34.14,1:09:36.86,Dialogue,,0,0,0,,The Tengu or "Crow billed Tengu" is\Nrepresented in "Karasuma Avenue".
+Dialogue: 0,1:09:34.98,1:09:37.27,Signs,Sign,0,0,0,,Karasuma Avenue
+Dialogue: 0,1:09:37.40,1:09:39.86,Signs,Sign,0,0,0,,Fuji{\rHonorifics - Signs}-san{\r} → Tomi
+Dialogue: 0,1:09:37.77,1:09:38.73,Dialogue,,0,0,0,,And for Mt. Fuji,
+Dialogue: 0,1:09:39.65,1:09:42.15,Signs,Note,0,0,0,,Note: "Tominokouji" literally means "wealthy, small road"
+Dialogue: 0,1:09:39.65,1:09:41.65,Dialogue,,0,0,0,,the character "fu" is "tomi".\NSo it is "Tominokouji Avenue".
+Dialogue: 0,1:09:39.86,1:09:42.19,Signs,Sign,0,0,0,,Tominokouji Avenue
+Dialogue: 0,1:09:42.99,1:09:44.24,Dialogue,,0,0,0,,What is the chicken for?
+Dialogue: 0,1:09:44.78,1:09:46.62,Signs,Note,0,0,0,,Note: "Yana gawa nabe" is a sort of soup prepared with loach.
+Dialogue: 0,1:09:44.78,1:09:46.53,Dialogue,,0,0,0,,The loach has something to do with "Yana gawa nabe",
+Dialogue: 0,1:09:46.74,1:09:49.16,Signs,Sign,0,0,0,,Yanaginobanba Avenue
+Dialogue: 0,1:09:46.95,1:09:49.16,Signs,Note,0,0,0,,Note: Yanaginobanba literally means "Horse willow place".
+Dialogue: 0,1:09:46.95,1:09:48.87,Dialogue,,0,0,0,,so it must represent "Yanaginobanba Avenue".
+Dialogue: 0,1:09:49.66,1:09:50.70,Dialogue,,0,0,0,,The chicken is...
+Dialogue: 0,1:09:52.41,1:09:53.87,Dialogue,,0,0,0,,Nishinotouin Avenue!
+Dialogue: 0,1:09:54.33,1:09:57.38,Signs,Sign,0,0,0,,Chicken → West
+Dialogue: 0,1:09:54.33,1:09:57.38,Signs,Sign,0,0,0,,Nishinotouin Avenue
+Dialogue: 0,1:09:54.66,1:09:56.83,Dialogue Top,,0,0,0,,The character for chicken is\Nsimilar to the character for west.
+Dialogue: 0,1:09:57.58,1:09:59.13,Dialogue,,0,0,0,,Well that's pretty hard.
+Dialogue: 0,1:10:00.63,1:10:02.34,Dialogue,,0,0,0,,Then what does this one mean?
+Dialogue: 0,1:10:05.34,1:10:08.47,Dialogue,,0,0,0,,For the cicada, there's an "abura semi",\Nwhich relates to "Aburanokouji Avenue".
+Dialogue: 0,1:10:06.93,1:10:08.64,Signs,Sign,0,0,0,,Aburanokouji Avenue
+Dialogue: 0,1:10:08.89,1:10:10.51,Dialogue,,0,0,0,,The Tengu represents "Karasuma Avenue".
+Dialogue: 0,1:10:09.30,1:10:10.43,Signs,Sign,0,0,0,,Karasuma Avenue
+Dialogue: 0,1:10:11.06,1:10:12.10,Dialogue,,0,0,0,,And if the goldfish,
+Dialogue: 0,1:10:12.56,1:10:14.52,Signs,Note,0,0,0,,Note: "Fu" is literally wheat bran.
+Dialogue: 0,1:10:12.56,1:10:14.52,Dialogue,,0,0,0,,has something to do with goldfish food "fu",
+Dialogue: 0,1:10:13.31,1:10:15.73,Signs,Sign,0,0,0,,Fuyachou Avenue
+Dialogue: 0,1:10:14.81,1:10:15.89,Dialogue,,0,0,0,,it represents "Fuyachou Avenue".
+Dialogue: 0,1:10:16.48,1:10:19.06,Dialogue,,0,0,0,,Then if you connect the\Nsimilarly colored violet and Mt. Fuji,
+Dialogue: 0,1:10:19.69,1:10:21.86,Dialogue,,0,0,0,,the chicken and loach, the cicada and goldfish,
+Dialogue: 0,1:10:22.15,1:10:23.74,Dialogue,,0,0,0,,and both tengu's together in a line...
+Dialogue: 0,1:10:24.74,1:10:25.20,Dialogue,,0,0,0,,"King".
+Dialogue: 0,1:10:26.11,1:10:27.20,Dialogue,,0,0,0,,Why is it a king?
+Dialogue: 0,1:10:30.28,1:10:30.74,Dialogue,,0,0,0,,It's a dot!
+Dialogue: 0,1:10:31.70,1:10:32.24,Dialogue,,0,0,0,,Isn't it like this?
+Dialogue: 0,1:10:34.87,1:10:38.63,Signs,Sign,0,0,0,,Tama → Gyoku
+Dialogue: 0,1:10:35.96,1:10:37.29,Dialogue,,0,0,0,,Tama can also be read as gyoku,
+Dialogue: 0,1:10:37.58,1:10:38.58,Dialogue,,0,0,0,,or jewels.
+Dialogue: 0,1:10:38.63,1:10:41.09,Signs,Sign,0,0,0,,Bukkou Temple
+Dialogue: 0,1:10:40.00,1:10:40.71,Dialogue,,0,0,0,,This place is...
+Dialogue: 0,1:10:42.34,1:10:43.13,Dialogue,,0,0,0,,Bukkou Temple!
+Dialogue: 0,1:10:44.13,1:10:46.34,Dialogue,,0,0,0,,It's the same as if we found the treasure!
+Dialogue: 0,1:11:05.57,1:11:06.19,Dialogue,,0,0,0,,What's wrong?
+Dialogue: 0,1:11:07.07,1:11:07.53,Dialogue,,0,0,0,,Nothing.
+Dialogue: 0,1:11:08.32,1:11:09.28,Dialogue,,0,0,0,,I just feel a little dizzy.
+Dialogue: 0,1:11:09.53,1:11:11.83,Signs,Sign,0,0,0,,Rokakku Building
+Dialogue: 0,1:11:14.79,1:11:15.83,Dialogue,,0,0,0,,Sorry, thanks.
+Dialogue: 0,1:11:16.41,1:11:17.75,Dialogue,,0,0,0,,How do you feel now?
+Dialogue: 0,1:11:18.58,1:11:18.96,Dialogue,,0,0,0,,Yes.
+Dialogue: 0,1:11:19.87,1:11:20.92,Dialogue,,0,0,0,,I feel better.
+Dialogue: 0,1:11:22.17,1:11:22.79,Dialogue,,0,0,0,,Hattori.
+Dialogue: 0,1:11:23.50,1:11:24.34,Dialogue,,0,0,0,,Eight years ago,
+Dialogue: 0,1:11:24.75,1:11:27.05,Dialogue,,0,0,0,,the temple you snuck into was Sannou Temple.
+Dialogue: 0,1:11:28.05,1:11:28.93,Dialogue,,0,0,0,,How did you know that!?
+Dialogue: 0,1:11:29.76,1:11:30.30,Dialogue,,0,0,0,,Idiot.
+Dialogue: 0,1:11:30.68,1:11:33.47,Dialogue,,0,0,0,,While you were admiring the\NSakura blossoms, it came to me.
+Dialogue: 0,1:11:34.22,1:11:36.98,Dialogue,,0,0,0,,Also, there was the latticed window you talked about.
+Dialogue: 0,1:11:39.06,1:11:39.56,Dialogue,,0,0,0,,That's right.
+Dialogue: 0,1:11:40.35,1:11:43.06,Dialogue,,0,0,0,,I picked up this crystal ball under the Sakura tree.
+Dialogue: 0,1:11:44.44,1:11:45.94,Dialogue,,0,0,0,,I'm sorry to throw water onto things,
+Dialogue: 0,1:11:46.32,1:11:47.44,Dialogue,,0,0,0,,but that crystal ball,
+Dialogue: 0,1:11:47.90,1:11:50.74,Dialogue,,0,0,0,,wasn't dropped by your first love.
+Dialogue: 0,1:11:51.82,1:11:52.62,Dialogue,,0,0,0,,What?
+Dialogue: 0,1:11:53.41,1:11:54.03,Dialogue,,0,0,0,,Actually...
+Dialogue: 0,1:11:54.83,1:11:56.24,Dialogue,,0,0,0,,It's from the stolen Buddhist statue.
+Dialogue: 0,1:11:56.24,1:11:58.87,Signs,Note,0,0,0,,Note: Byakugou is the crystal ball just between the eyes.
+Dialogue: 0,1:11:56.24,1:11:58.66,Dialogue,,0,0,0,,It's Sannou Temple's "crystal ball",\Nwhich was inserted in its forehead.
+Dialogue: 0,1:11:56.54,1:11:59.04,Signs,Sign,0,0,0,,Byakugou
+Dialogue: 0,1:11:59.58,1:12:00.29,Dialogue,,0,0,0,,Crystal ball?
+Dialogue: 0,1:12:00.83,1:12:04.67,Dialogue,,0,0,0,,Is that the thing that's in the\NBuddha's brow which releases light?
+Dialogue: 0,1:12:05.17,1:12:05.71,Dialogue,,0,0,0,,Yes.
+Dialogue: 0,1:12:06.50,1:12:09.26,Dialogue,,0,0,0,,In Buddhist statues it's\Nfrequently represented as a crystal ball.
+Dialogue: 0,1:12:10.30,1:12:11.30,Dialogue,,0,0,0,,It's the same in Noh masks.
+Dialogue: 0,1:12:13.18,1:12:14.60,Dialogue,,0,0,0,,My reasoning is this.
+Dialogue: 0,1:12:15.14,1:12:17.72,Dialogue,,0,0,0,,Eight years ago, the robbery group Genjibotaru,
+Dialogue: 0,1:12:18.48,1:12:20.31,Dialogue,,0,0,0,,snuck into the main hall of Sannou Temple,
+Dialogue: 0,1:12:20.89,1:12:22.69,Dialogue,,0,0,0,,and stole the treasured Buddhist statue.
+Dialogue: 0,1:12:26.57,1:12:30.11,Dialogue,,0,0,0,,However, while taking it away, the byakugou fell out.
+Dialogue: 0,1:12:37.54,1:12:39.41,Dialogue,,0,0,0,,When the leader, Yoshitsune, noticed it later,
+Dialogue: 0,1:12:39.91,1:12:42.54,Dialogue,,0,0,0,,he sent one of his servants to Sannou Temple to find it.
+Dialogue: 0,1:12:43.00,1:12:43.92,Dialogue,,0,0,0,,It was then that...
+Dialogue: 0,1:12:56.76,1:12:58.47,Flashback,,0,0,0,,{\be10}I want to eat some zenzai!
+Dialogue: 0,1:12:58.52,1:13:00.64,Signs,Note,0,0,0,,Note: Anmitsu is syrup covered bean jam.
+Dialogue: 0,1:12:58.52,1:12:59.89,Flashback,,0,0,0,,{\be10}I want anmitsu!
+Dialogue: 0,1:13:02.81,1:13:04.56,Dialogue,,0,0,0,,Reluctantly, the leader stored the Buddhist statue,
+Dialogue: 0,1:13:04.56,1:13:06.77,Dialogue,,0,0,0,,in the storage room of Sakura{\rHonorifics - Dialogue}-san{\r}'s shop.
+Dialogue: 0,1:13:07.48,1:13:08.48,Dialogue,,0,0,0,,And eight years later,
+Dialogue: 0,1:13:08.90,1:13:13.66,Dialogue,,0,0,0,,the culprit found out that the\Nboy from eight years ago was you.
+Dialogue: 0,1:13:14.20,1:13:15.28,Dialogue,,0,0,0,,It was that magazine!
+Dialogue: 0,1:13:19.16,1:13:22.08,Dialogue,,0,0,0,,Around the same time, there was an\Nevent that occurred in the robbery group.
+Dialogue: 0,1:13:22.62,1:13:25.63,Dialogue,,0,0,0,,Perhaps the leader became seriously ill or something.
+Dialogue: 0,1:13:26.25,1:13:27.54,Dialogue,,0,0,0,,The leader, who felt his time was near,
+Dialogue: 0,1:13:28.00,1:13:31.42,Dialogue,,0,0,0,,hid the stolen Buddhist statue in another location.
+Dialogue: 0,1:13:32.13,1:13:35.51,Dialogue,,0,0,0,,He gave each of his servants a\Npicture that held the location of it,
+Dialogue: 0,1:13:36.72,1:13:39.31,Dialogue,,0,0,0,,and left a will saying whoever\Nwas to find the Buddhist statue,
+Dialogue: 0,1:13:39.31,1:13:40.47,Dialogue,,0,0,0,,would become the new leader.
+Dialogue: 0,1:13:42.73,1:13:44.52,Dialogue,,0,0,0,,Then he died.
+Dialogue: 0,1:13:45.23,1:13:46.81,Dialogue,,0,0,0,,The remaining servants,
+Dialogue: 0,1:13:47.11,1:13:49.82,Dialogue,,0,0,0,,tried earnestly to solve the mystery, but were unable to.
+Dialogue: 0,1:13:50.44,1:13:50.98,Dialogue,,0,0,0,,Around that time...
+Dialogue: 0,1:13:51.73,1:13:53.74,Dialogue,,0,0,0,,As Sakura{\rHonorifics - Dialogue}-san{\r} was one of the members,
+Dialogue: 0,1:13:54.11,1:13:55.91,Dialogue,,0,0,0,,he came to the culprit to join arms.
+Dialogue: 0,1:13:56.95,1:13:59.41,Dialogue,,0,0,0,,Sakura{\rHonorifics - Dialogue}-san{\r} knew his skill as a swordsman,
+Dialogue: 0,1:13:59.70,1:14:02.62,Dialogue,,0,0,0,,and tried to goad him into killing the other members.
+Dialogue: 0,1:14:03.04,1:14:03.87,Dialogue,,0,0,0,,Then,
+Dialogue: 0,1:14:05.08,1:14:07.67,Dialogue,,0,0,0,,they'd find the location of the\NBuddhist statue and its Byakugou,
+Dialogue: 0,1:14:07.96,1:14:10.30,Dialogue,,0,0,0,,and split the money made from selling the statue.
+Dialogue: 0,1:14:12.38,1:14:13.05,Dialogue,,0,0,0,,Perhaps,
+Dialogue: 0,1:14:13.42,1:14:16.59,Dialogue,,0,0,0,,within the robbery group,\NSakura{\rHonorifics - Dialogue}-san{\r}, the owner of an antique art shop,
+Dialogue: 0,1:14:17.14,1:14:19.80,Dialogue,,0,0,0,,was the only one who had seized the sale\Nand distribution routes of the black market.
+Dialogue: 0,1:14:20.56,1:14:23.43,Dialogue,,0,0,0,,He probably felt he was the only one who was safe.
+Dialogue: 0,1:14:24.18,1:14:26.77,Dialogue,,0,0,0,,The culprit acted as if he agreed to Sakura{\rHonorifics - Dialogue}-san{\r}'s plan,
+Dialogue: 0,1:14:27.27,1:14:29.40,Dialogue,,0,0,0,,when his true feelings were to\Nmurder all the members of the group,
+Dialogue: 0,1:14:29.52,1:14:31.27,Dialogue,,0,0,0,,and monopolize the treasure.
+Dialogue: 0,1:14:32.32,1:14:36.70,Dialogue,,0,0,0,,But in order to do that, he had to\Nsolve the mystery left by the leader.
+Dialogue: 0,1:14:34.40,1:14:37.49,Signs,Sign,0,0,0,,Bukkou Temple
+Dialogue: 0,1:14:38.07,1:14:39.12,Dialogue,,0,0,0,,So the culprit thought...
+Dialogue: 0,1:14:39.24,1:14:42.99,Dialogue,,0,0,0,,to ask the famous detective, Mouri\NKogorou to solve the mystery for him.
+Dialogue: 0,1:14:44.91,1:14:45.75,Dialogue,,0,0,0,,Bukkou Temple...
+Dialogue: 0,1:14:46.29,1:14:46.83,Dialogue,,0,0,0,,It's right here.
+Dialogue: 0,1:14:49.50,1:14:52.75,Dialogue,,0,0,0,,But is the Buddhist statue really hidden here?
+Dialogue: 0,1:14:53.00,1:14:55.26,Dialogue,,0,0,0,,Yeah, something doesn't seem right.
+Dialogue: 0,1:14:56.13,1:14:56.80,Dialogue,,0,0,0,,H-hey!
+Dialogue: 0,1:14:59.68,1:15:00.35,Dialogue,,0,0,0,,Hey, what's the matter?
+Dialogue: 0,1:15:00.89,1:15:01.39,Dialogue,,0,0,0,,Hey Kudou!
+Dialogue: 0,1:15:01.72,1:15:02.89,Dialogue,,0,0,0,,What have you found?
+Dialogue: 0,1:15:04.93,1:15:05.39,Dialogue,,0,0,0,,This is...
+Dialogue: 0,1:15:05.23,1:15:09.60,Dialogue Top,Sign,0,0,0,,Stone: "Jewel Dragon Temple Remains"
+Dialogue: 0,1:15:10.02,1:15:10.81,Dialogue,,0,0,0,,Jewel Dragon Temple?
+Dialogue: 0,1:15:11.27,1:15:12.69,Dialogue,,0,0,0,,The dot on the picture pointed to this?
+Dialogue: 0,1:15:13.02,1:15:13.53,Dialogue,,0,0,0,,Yes.
+Dialogue: 0,1:15:15.99,1:15:16.49,Dialogue,,0,0,0,,It's Kazuha.
+Dialogue: 0,1:15:16.95,1:15:17.45,Dialogue,,0,0,0,,It's me.
+Dialogue: 0,1:15:17.86,1:15:19.16,Radio,,0,0,0,,{\be10}I have the girl in my custody.
+Dialogue: 0,1:15:19.95,1:15:20.70,Radio,,0,0,0,,{\be10}In an hour,
+Dialogue: 0,1:15:21.32,1:15:23.37,Radio,,0,0,0,,{\be10}come alone to the Jewel Dragon Temple in Kuramayama.
+Dialogue: 0,1:15:24.04,1:15:25.37,Radio,,0,0,0,,{\be10}If you contact the police,
+Dialogue: 0,1:15:25.66,1:15:26.83,Radio,,0,0,0,,{\be10}the girl will die.
+Dialogue: 0,1:15:27.46,1:15:28.54,Radio,,0,0,0,,{\be10}Heiji, don't come!
+Dialogue: 0,1:15:28.75,1:15:29.62,Radio,,0,0,0,,{\be10}You'll be killed!
+Dialogue: 0,1:15:30.12,1:15:30.63,Dialogue,,0,0,0,,Kazuha!
+Dialogue: 0,1:15:30.92,1:15:31.46,Dialogue,,0,0,0,,Kazuha!
+Dialogue: 0,1:15:32.63,1:15:33.21,Dialogue,,0,0,0,,Hattori?
+Dialogue: 0,1:15:33.92,1:15:34.59,Dialogue,,0,0,0,,Kazuha was...
+Dialogue: 0,1:15:35.05,1:15:36.46,Dialogue,,0,0,0,,Kazuha was kidnapped.
+Dialogue: 0,1:15:36.71,1:15:37.13,Dialogue,,0,0,0,,What!?
+Dialogue: 0,1:15:37.55,1:15:41.34,Dialogue,,0,0,0,,In an hour I was told to go alone\Nto Gyokuryu Temple in Kuramayama.
+Dialogue: 0,1:15:41.84,1:15:42.64,Dialogue,,0,0,0,,Gyokuryu Temple!
+Dialogue: 0,1:15:46.52,1:15:47.60,Dialogue,,0,0,0,,Well, isn't that good?
+Dialogue: 0,1:15:48.69,1:15:50.35,Dialogue,,0,0,0,,We can break in there together and...
+Dialogue: 0,1:15:55.28,1:15:55.82,Dialogue,,0,0,0,,Hattori!
+Dialogue: 0,1:15:56.73,1:15:59.82,Signs,Sign,0,0,0,,Return Bridge
+Dialogue: 0,1:16:00.03,1:16:04.03,Signs,Sign,0,0,0,,"When the child that heard of his father's death from afar, rushed to Kyoto."
+Dialogue: 0,1:16:04.03,1:16:07.37,Signs,Sign,0,0,0,,"The funeral procession was just going over this bridge."
+Dialogue: 0,1:16:07.37,1:16:11.04,Signs,Sign,0,0,0,,"In that moment, the father temporarily revived,"
+Dialogue: 0,1:16:11.04,1:16:14.54,Signs,Sign,0,0,0,,"and the father and child exchanged words."
+Dialogue: 0,1:16:17.67,1:16:18.21,Dialogue,,0,0,0,,Hello.
+Dialogue: 0,1:16:20.59,1:16:23.18,Signs,Sign,0,0,0,,Kuramayama
+Dialogue: 0,1:16:23.43,1:16:26.35,Signs,Sign,0,0,0,,Gyokuryu Temple
+Dialogue: 0,1:16:38.15,1:16:39.07,Dialogue,,0,0,0,,It's the teacher's will.
+Dialogue: 0,1:16:39.44,1:16:40.74,Dialogue,,0,0,0,,Put the "Underworld Katana" in Benkei's drawer,
+Dialogue: 0,1:16:40.95,1:16:42.82,Dialogue,,0,0,0,,and put the bow in Rokakku's drawer.
+Dialogue: 0,1:16:43.78,1:16:46.45,Dialogue,,0,0,0,,Um, Benkei's drawer is...
+Dialogue: 0,1:16:47.58,1:16:49.08,Dialogue,,0,0,0,,From the top, one, two, three...
+Dialogue: 0,1:16:50.41,1:16:53.37,Dialogue,,0,0,0,,I wonder what those are, the\NBenkei and Rokakku drawers...
+Dialogue: 0,1:16:54.46,1:16:55.29,Dialogue,,0,0,0,,Bukkou Temple?
+Dialogue: 0,1:16:56.34,1:16:58.42,Dialogue,,0,0,0,,I heard them talking about it, but...
+Dialogue: 0,1:17:04.72,1:17:07.43,Dialogue,,0,0,0,,Really, where have those two gone?
+Dialogue: 0,1:17:07.93,1:17:10.56,Dialogue,,0,0,0,,Even if I call Kazuha's cell phone, she isn't answering.
+Dialogue: 0,1:17:11.68,1:17:12.48,Dialogue,,0,0,0,,Gyokuryu Temple?
+Dialogue: 0,1:17:12.77,1:17:14.23,Dialogue,,0,0,0,,I'm hungry!
+Dialogue: 0,1:17:14.40,1:17:16.27,Dialogue,,0,0,0,,Is that so? Then once we get back...
+Dialogue: 0,1:17:16.31,1:17:17.11,Dialogue,,0,0,0,,Excuse me.
+Dialogue: 0,1:17:18.02,1:17:19.19,Dialogue,,0,0,0,,This Gyokuryu Temple,
+Dialogue: 0,1:17:19.73,1:17:20.99,Dialogue,,0,0,0,,where is it now?
+Dialogue: 0,1:17:21.07,1:17:22.99,Dialogue,,0,0,0,,It's back deep in Kuramayama.
+Dialogue: 0,1:17:23.49,1:17:26.82,Dialogue,,0,0,0,,But I heard that it was evacuated a long time ago.
+Dialogue: 0,1:17:27.58,1:17:28.28,Dialogue,,0,0,0,,Thank you.
+Dialogue: 0,1:17:30.83,1:17:31.83,Dialogue,,0,0,0,,Kuramayama?
+Dialogue: 0,1:17:41.26,1:17:42.01,Dialogue,,0,0,0,,He's late.
+Dialogue: 0,1:17:42.88,1:17:45.80,Dialogue,,0,0,0,,Knowing that it's a trap, no one will come that easily.
+Dialogue: 0,1:17:46.30,1:17:47.26,Dialogue,,0,0,0,,Do you really think so?
+Dialogue: 0,1:17:47.93,1:17:50.35,Dialogue,,0,0,0,,Maybe the wind of cowardice blew in his direction.
+Dialogue: 0,1:17:55.31,1:17:56.02,Dialogue,,0,0,0,,Heiji!
+Dialogue: 0,1:18:10.45,1:18:10.99,Dialogue,,0,0,0,,You!
+Dialogue: 0,1:18:11.83,1:18:13.50,Dialogue,,0,0,0,,You didn't hurt Kazuha, did you?
+Dialogue: 0,1:18:15.16,1:18:16.71,Dialogue,,0,0,0,,I'm alright, Heiji.
+Dialogue: 0,1:18:17.38,1:18:19.13,Dialogue,,0,0,0,,What you really wanted,
+Dialogue: 0,1:18:19.50,1:18:20.09,Dialogue,,0,0,0,,was this.
+Dialogue: 0,1:18:24.47,1:18:26.68,Dialogue,,0,0,0,,In order to get back this crystal ball,
+Dialogue: 0,1:18:27.14,1:18:29.51,Dialogue,,0,0,0,,you attacked me yesterday on this mountain.
+Dialogue: 0,1:18:29.89,1:18:31.43,Dialogue,,0,0,0,,Looks like you failed, though.
+Dialogue: 0,1:18:32.39,1:18:35.02,Dialogue,,0,0,0,,Next, you thought you'd monopolize the treasure,
+Dialogue: 0,1:18:35.27,1:18:38.19,Dialogue,,0,0,0,,so you attacked Sakura{\rHonorifics - Dialogue}-san{\r}\Nat the tea house in Hontochou.
+Dialogue: 0,1:18:39.02,1:18:42.36,Dialogue,,0,0,0,,It wasn't Giyon or Miyagawachou because,
+Dialogue: 0,1:18:42.98,1:18:45.95,Dialogue,,0,0,0,,the tea house in Hontochou has a river flowing behind it.
+Dialogue: 0,1:18:46.40,1:18:46.99,Dialogue,,0,0,0,,River?
+Dialogue: 0,1:18:47.49,1:18:50.95,Dialogue,,0,0,0,,After you murdered Sakura{\rHonorifics - Dialogue}-san{\r}\Nwho was searching the storage room,
+Dialogue: 0,1:18:51.70,1:18:55.41,Dialogue,,0,0,0,,you put a terminal that security\Ncompanies use for thefts and lost individuals,
+Dialogue: 0,1:18:55.66,1:18:57.96,Dialogue,,0,0,0,,along with the weapon in a\Nplastic bottle and threw it out.
+Dialogue: 0,1:19:00.71,1:19:02.42,Dialogue,,0,0,0,,Then later, with a cell phone,
+Dialogue: 0,1:19:02.92,1:19:05.34,Dialogue,,0,0,0,,you accessed the security company's website,
+Dialogue: 0,1:19:05.72,1:19:08.09,Dialogue,,0,0,0,,to find the location of the\Nterminal, which you then recovered.
+Dialogue: 0,1:19:08.89,1:19:09.93,Dialogue,,0,0,0,,After that,
+Dialogue: 0,1:19:10.18,1:19:12.39,Dialogue,,0,0,0,,you waited in ambush with your\Nmotorcycle for me, who was returning to Osaka,
+Dialogue: 0,1:19:12.68,1:19:14.56,Dialogue,,0,0,0,,And tried to kill me with the same short sword.
+Dialogue: 0,1:19:17.98,1:19:21.02,Dialogue,,0,0,0,,This attempt was thwarted\Nbecause of Kazuha's intervention.
+Dialogue: 0,1:19:21.31,1:19:23.07,Dialogue,,0,0,0,,But you purposefully dropped the short sword,
+Dialogue: 0,1:19:23.07,1:19:24.73,Dialogue,,0,0,0,,in order to be removed from being a suspect.
+Dialogue: 0,1:19:24.90,1:19:26.11,Dialogue,,0,0,0,,The culprit wanted to make us believe,
+Dialogue: 0,1:19:26.24,1:19:28.70,Dialogue,,0,0,0,,That it was someone who had\Nescaped with the weapon from the tea house.
+Dialogue: 0,1:19:29.07,1:19:29.91,Dialogue,,0,0,0,,Isn't that right?
+Dialogue: 0,1:19:30.32,1:19:31.32,Dialogue,,0,0,0,,Saijou Taiga{\rHonorifics - Dialogue}-san{\r}.
+Dialogue: 0,1:19:31.74,1:19:35.08,Dialogue,,0,0,0,,Or should I say Musashibou Benkei.
+Dialogue: 0,1:19:41.13,1:19:43.54,Dialogue,,0,0,0,,As one would expect from the\Nhigh school detective from Osaka,
+Dialogue: 0,1:19:43.88,1:19:44.92,Dialogue,,0,0,0,,Hattori Heiji.
+Dialogue: 0,1:19:45.76,1:19:47.55,Dialogue,,0,0,0,,How did you know it was me?
+Dialogue: 0,1:19:47.84,1:19:51.01,Dialogue,,0,0,0,,You tried to hide that you did archery.
+Dialogue: 0,1:19:51.80,1:19:53.10,Dialogue,,0,0,0,,When you sat down,
+Dialogue: 0,1:19:53.60,1:19:55.81,Dialogue,,0,0,0,,you drew back your right foot halfway before sitting.
+Dialogue: 0,1:19:56.10,1:20:00.39,Signs,Note,0,0,0,,Note: "Hansoku wo Hiku" means To pull foot halfway.
+Dialogue: 0,1:19:56.39,1:19:58.10,Dialogue,,0,0,0,,That's called "hansoku wo hiku".
+Dialogue: 0,1:19:58.35,1:20:01.27,Dialogue,,0,0,0,,People who do archery sometimes do it out of habit.
+Dialogue: 0,1:20:02.02,1:20:02.65,Dialogue,,0,0,0,,Also,
+Dialogue: 0,1:20:03.19,1:20:06.11,Dialogue,,0,0,0,,when asked if you did any\Narchery, you thoughtlessly started to say,
+Dialogue: 0,1:20:06.32,1:20:07.86,Dialogue,,0,0,0,,"Yamakura".
+Dialogue: 0,1:20:09.20,1:20:10.91,Flashback,,0,0,0,,{\be10}Which reminds me, Yamakura...
+Dialogue: 0,1:20:11.74,1:20:14.41,Dialogue,,0,0,0,,You weren't talking about\NYamakura{\rHonorifics - Dialogue}-san{\r} of the tea house,
+Dialogue: 0,1:20:14.70,1:20:15.54,Dialogue,,0,0,0,,but of "Ya no makura"
+Dialogue: 0,1:20:15.95,1:20:17.58,Dialogue,,0,0,0,,When you draw an arrow, you place the arrow,
+Dialogue: 0,1:20:17.95,1:20:21.00,Dialogue,,0,0,0,,on the second joint of the thumb on the left hand.
+Dialogue: 0,1:20:22.08,1:20:24.29,Dialogue,,0,0,0,,Perhaps you tried to say it like this.
+Dialogue: 0,1:20:24.67,1:20:29.05,Dialogue,,0,0,0,,Which reminds me, Chika\NSuzu{\rHonorifics - Dialogue}-san{\r} had an injury on her "yamakura".
+Dialogue: 0,1:20:29.88,1:20:33.80,Dialogue,,0,0,0,,Only people who do archery would know a term like that.
+Dialogue: 0,1:20:34.97,1:20:37.35,Dialogue,,0,0,0,,By the way, Ryuen{\rHonorifics - Dialogue}-san{\r} is an amateur in archery.
+Dialogue: 0,1:20:37.10,1:20:39.93,Signs,Note,0,0,0,,Note: The character for bow string is "gen" or "tsuru"
+Dialogue: 0,1:20:37.22,1:20:40.18,Signs,Sign,0,0,0,,Gen = Tsuru
+Dialogue: 0,1:20:37.81,1:20:40.10,Dialogue,,0,0,0,,He called the bow string, "gen" instead of "tsuru."
+Dialogue: 0,1:20:42.44,1:20:45.52,Dialogue,,0,0,0,,I attended the town's kendo\Ngym with Ryuen and everybody.
+Dialogue: 0,1:20:46.11,1:20:47.65,Dialogue,,0,0,0,,But one day,
+Dialogue: 0,1:20:48.07,1:20:51.45,Dialogue,,0,0,0,,I learned that there was an old\Ntechnique in Kyoto, a "Yoshitsune style".
+Dialogue: 0,1:20:52.15,1:20:54.78,Dialogue,,0,0,0,,I studied the "Yoshitsune-style" by myself,
+Dialogue: 0,1:20:55.49,1:20:57.87,Dialogue,,0,0,0,,And two years ago, I stopped attending the kendo gym.
+Dialogue: 0,1:20:58.37,1:21:01.12,Dialogue,,0,0,0,,Then personally called myself the\Nsuccessor of the Yoshitsune style.
+Dialogue: 0,1:21:01.75,1:21:03.33,Dialogue,,0,0,0,,Benkei, the successor of the Yoshitsune style.
+Dialogue: 0,1:21:04.29,1:21:08.30,Dialogue,,0,0,0,,I... I liked Yoshitsune more\Nthan Benkei from the beginning.
+Dialogue: 0,1:21:08.67,1:21:10.21,Dialogue,,0,0,0,,I wanted to become Yoshitsune!
+Dialogue: 0,1:21:11.92,1:21:12.63,Dialogue,,0,0,0,,However,
+Dialogue: 0,1:21:12.97,1:21:14.59,Dialogue,,0,0,0,,the leader took the title of Yoshitsune,
+Dialogue: 0,1:21:14.97,1:21:16.93,Dialogue,,0,0,0,,and I, who stood at the top of the robbery group,
+Dialogue: 0,1:21:17.35,1:21:20.14,Dialogue,,0,0,0,,was given the name of Benkei.
+Dialogue: 0,1:21:20.81,1:21:23.10,Dialogue,,0,0,0,,The reason you tried to monopolize the Buddhist statue,
+Dialogue: 0,1:21:23.52,1:21:24.35,Dialogue,,0,0,0,,was it for money?
+Dialogue: 0,1:21:24.81,1:21:26.81,Dialogue,,0,0,0,,That's right, but it wasn't for personal desire.
+Dialogue: 0,1:21:27.61,1:21:30.19,Dialogue,,0,0,0,,It was to make a dojo here.
+Dialogue: 0,1:21:30.65,1:21:33.24,Dialogue,,0,0,0,,This temple was where the leader was the chief priest.
+Dialogue: 0,1:21:33.61,1:21:36.66,Dialogue,,0,0,0,,Even after it was evacuated,\Nit was supervised by the leader,
+Dialogue: 0,1:21:37.33,1:21:40.45,Dialogue,,0,0,0,,and I used it as a place to practice the Yoshitsune style.
+Dialogue: 0,1:21:41.33,1:21:43.79,Dialogue,,0,0,0,,But the leader died three months ago,
+Dialogue: 0,1:21:44.17,1:21:45.71,Dialogue,,0,0,0,,and the temple was going to be taken down.
+Dialogue: 0,1:21:47.00,1:21:49.63,Dialogue,,0,0,0,,I wasn't going to be able to use it as a dojo!
+Dialogue: 0,1:21:50.25,1:21:51.76,Dialogue,,0,0,0,,There's one thing I wanted to ask.
+Dialogue: 0,1:21:52.51,1:21:54.63,Dialogue,,0,0,0,,You just took advantage of Ryuen{\rHonorifics - Dialogue}-san{\r}.
+Dialogue: 0,1:21:55.38,1:21:56.05,Dialogue,,0,0,0,,That's right.
+Dialogue: 0,1:21:56.34,1:21:58.64,Dialogue,,0,0,0,,I heard him talking about the statue some time ago,
+Dialogue: 0,1:21:59.22,1:22:01.31,Dialogue,,0,0,0,,and when I sent that letter to Sannou Temple.
+Dialogue: 0,1:22:02.02,1:22:03.64,Dialogue,,0,0,0,,Sure enough, he came to discuss it with me.
+Dialogue: 0,1:22:04.56,1:22:05.14,Dialogue,,0,0,0,,So,
+Dialogue: 0,1:22:05.60,1:22:08.56,Dialogue,,0,0,0,,I set him up to send a request to Mouri Kogorou.
+Dialogue: 0,1:22:10.27,1:22:11.78,Dialogue,,0,0,0,,I killed Sakura{\rHonorifics - Dialogue}-san{\r},
+Dialogue: 0,1:22:11.98,1:22:15.95,Dialogue,,0,0,0,,because I could find someone\Nto purchase the Buddhist statue.
+Dialogue: 0,1:22:16.82,1:22:20.58,Dialogue,,0,0,0,,Now there's something convenient called the Internet.
+Dialogue: 0,1:22:20.91,1:22:21.54,Dialogue,,0,0,0,,Come.
+Dialogue: 0,1:22:21.91,1:22:23.29,Dialogue,,0,0,0,,Chatting time is over.
+Dialogue: 0,1:22:23.75,1:22:25.67,Dialogue,,0,0,0,,Hand over the crystal ball!
+Dialogue: 0,1:22:26.25,1:22:28.13,Dialogue,,0,0,0,,In exchange for it, let Kazuha go!
+Dialogue: 0,1:22:28.33,1:22:29.17,Dialogue,,0,0,0,,That's fine...
+Dialogue: 0,1:22:29.67,1:22:32.09,Dialogue,,0,0,0,,If you tell me where the statue's hidden.
+Dialogue: 0,1:22:32.46,1:22:33.01,Dialogue,,0,0,0,,What?
+Dialogue: 0,1:22:33.88,1:22:34.42,Dialogue,,0,0,0,,Well...
+Dialogue: 0,1:22:34.97,1:22:35.97,Dialogue,,0,0,0,,Where is the statue?
+Dialogue: 0,1:22:36.76,1:22:37.84,Dialogue,,0,0,0,,It's in this temple.
+Dialogue: 0,1:22:38.26,1:22:39.14,Dialogue,,0,0,0,,What are you saying?
+Dialogue: 0,1:22:39.55,1:22:42.06,Signs,Note,0,0,0,,Note: This is a Japanese idiom, and it's like... Is it\Nthat you can't see what you already have in front of you?
+Dialogue: 0,1:22:39.55,1:22:41.26,Dialogue,,0,0,0,,Is it that you can't see the forest because of the trees?
+Dialogue: 0,1:22:41.72,1:22:42.52,Dialogue,,0,0,0,,You're lying!
+Dialogue: 0,1:22:42.93,1:22:44.64,Dialogue,,0,0,0,,I've already searched this temple!
+Dialogue: 0,1:22:44.89,1:22:45.56,Dialogue,,0,0,0,,There's no...
+Dialogue: 0,1:22:45.69,1:22:46.64,Dialogue,,0,0,0,,It's not a lie!
+Dialogue: 0,1:23:03.24,1:23:04.25,Dialogue,,0,0,0,,Kazuha! Run!
+Dialogue: 0,1:23:05.45,1:23:06.00,Dialogue,,0,0,0,,Heiji!
+Dialogue: 0,1:23:25.06,1:23:26.43,Dialogue,,0,0,0,,They're my disciples.
+Dialogue: 0,1:23:27.14,1:23:28.60,Dialogue,,0,0,0,,You guys stay out of it!
+Dialogue: 0,1:23:35.32,1:23:35.94,Dialogue,,0,0,0,,Heiji!
+Dialogue: 0,1:23:40.24,1:23:40.87,Dialogue,,0,0,0,,Stop it!
+Dialogue: 0,1:23:41.12,1:23:42.58,Dialogue,,0,0,0,,This person isn't Heiji!
+Dialogue: 0,1:23:51.29,1:23:52.59,Dialogue,,0,0,0,,Wh-who?
+Dialogue: 0,1:23:53.38,1:23:54.80,Dialogue,,0,0,0,,Who are you!?
+Dialogue: 0,1:23:55.88,1:23:57.21,Dialogue,,0,0,0,,Kudou Shinichi.
+Dialogue: 0,1:23:59.43,1:24:00.22,Dialogue,,0,0,0,,A detective.
+Dialogue: 0,1:24:01.05,1:24:01.68,Dialogue,,0,0,0,,What?
+Dialogue: 0,1:24:02.64,1:24:03.35,Dialogue,,0,0,0,,What?
+Dialogue: 0,1:24:03.76,1:24:05.14,Dialogue,,0,0,0,,You let him take the medicine?
+Dialogue: 0,1:24:06.43,1:24:07.68,Dialogue,,0,0,0,,Kudou{\rHonorifics - Dialogue}-kun{\r} called.
+Dialogue: 0,1:24:08.02,1:24:11.98,Dialogue,,0,0,0,,He asked if there was a way to\Nreturn to Kudou Shinichi once more,
+Dialogue: 0,1:24:12.06,1:24:12.90,Dialogue,,0,0,0,,Even temporarily.
+Dialogue: 0,1:24:13.69,1:24:14.11,Dialogue,,0,0,0,,But,
+Dialogue: 0,1:24:14.61,1:24:17.94,Dialogue,,0,0,0,,there isn't any more of the trial antidote to APTX 4869.
+Dialogue: 0,1:24:18.86,1:24:20.53,Dialogue,,0,0,0,,And before, even the Paical,
+Dialogue: 0,1:24:20.91,1:24:22.62,Dialogue,,0,0,0,,which he drank as a cold\Nmedicine and returned to his original body,
+Dialogue: 0,1:24:23.28,1:24:25.20,Dialogue,,0,0,0,,is ineffective as he has created an antibody to it.
+Dialogue: 0,1:24:26.33,1:24:27.66,Dialogue,,0,0,0,,Then it occurred to me...
+Dialogue: 0,1:24:28.75,1:24:31.75,Dialogue,,0,0,0,,If he took the medicine that\Ngave you symptoms of a severe cold,
+Dialogue: 0,1:24:32.33,1:24:34.17,Dialogue,,0,0,0,,and drank the Paical one more time,
+Dialogue: 0,1:24:35.50,1:24:39.09,Dialogue,,0,0,0,,he might be able to return to his original body.
+Dialogue: 0,1:24:39.76,1:24:40.93,Dialogue,,0,0,0,,So then...
+Dialogue: 0,1:24:42.55,1:24:44.76,Dialogue,,0,0,0,,As I thought, the experiment was a huge success.
+Dialogue: 0,1:24:45.39,1:24:47.60,Dialogue,,0,0,0,,Kudou{\rHonorifics - Dialogue}-kun{\r} returned to his original body.
+Dialogue: 0,1:24:48.52,1:24:51.06,Dialogue,,0,0,0,,However, it's the same as having a severe cold.
+Dialogue: 0,1:24:51.27,1:24:52.31,Dialogue,,0,0,0,,His body is shaky.
+Dialogue: 0,1:24:52.77,1:24:54.36,Dialogue,,0,0,0,,I can't guarantee his life.
+Dialogue: 0,1:24:54.73,1:24:56.48,Dialogue,,0,0,0,,And how is Heiji{\rHonorifics - Dialogue}-kun{\r} feeling?
+Dialogue: 0,1:24:56.98,1:24:57.61,Dialogue,,0,0,0,,Who knows?
+Dialogue: 0,1:24:58.03,1:25:01.36,Dialogue,,0,0,0,,Until he undergoes examination tomorrow, he must rest.
+Dialogue: 0,1:25:01.86,1:25:04.70,Dialogue,,0,0,0,,For the time being, I've been\Nassigned the role to keep guard.
+Dialogue: 0,1:25:13.25,1:25:14.00,Dialogue,,0,0,0,,Kudou{\rHonorifics - Dialogue}-kun{\r}?
+Dialogue: 0,1:25:17.50,1:25:17.96,Dialogue,,0,0,0,,Damn.
+Dialogue: 0,1:25:18.75,1:25:19.88,Dialogue,,0,0,0,,You've deceived me.
+Dialogue: 0,1:25:30.02,1:25:31.68,Thoughts,,0,0,0,,{\be10}I thought that somehow I'd be\Nable to at least let her escape,
+Dialogue: 0,1:25:32.31,1:25:33.73,Thoughts,,0,0,0,,{\be10}But my body won't move the way I want.
+Dialogue: 0,1:25:37.23,1:25:40.07,Thoughts,,0,0,0,,{\be10}This is dangerous, the effect of the Paical is wearing off.
+Dialogue: 0,1:25:42.78,1:25:43.40,Thoughts,,0,0,0,,{\be10}I'm done for!
+Dialogue: 0,1:25:46.32,1:25:48.74,Dialogue,,0,0,0,,For a detective, you'd be the best in the world.
+Dialogue: 0,1:25:49.87,1:25:51.00,Dialogue,,0,0,0,,But as a samurai,
+Dialogue: 0,1:25:51.83,1:25:52.91,Dialogue,,0,0,0,,You're not very good.
+Dialogue: 0,1:25:53.54,1:25:54.12,Dialogue,,0,0,0,,Hattori!
+Dialogue: 0,1:25:54.46,1:25:55.04,Dialogue,,0,0,0,,Heiji!
+Dialogue: 0,1:25:55.42,1:25:56.46,Dialogue,,0,0,0,,I made you wait, Kazuha.
+Dialogue: 0,1:25:57.38,1:25:59.42,Dialogue,,0,0,0,,What do you mean, making me wait? You idiot!
+Dialogue: 0,1:25:59.50,1:26:00.71,Dialogue,,0,0,0,,What were you doing until now?
+Dialogue: 0,1:26:04.09,1:26:04.72,Dialogue,,0,0,0,,Hey Kudou!
+Dialogue: 0,1:26:06.89,1:26:08.72,Dialogue,,0,0,0,,You seem to have snatched my clothes.
+Dialogue: 0,1:26:09.47,1:26:10.10,Dialogue,,0,0,0,,Also,
+Dialogue: 0,1:26:10.85,1:26:12.18,Dialogue,,0,0,0,,I don't know what you painted on your face,
+Dialogue: 0,1:26:12.64,1:26:14.44,Dialogue,,0,0,0,,But I'm not this dark-colored.
+Dialogue: 0,1:26:14.85,1:26:15.44,Dialogue,,0,0,0,,Really?
+Dialogue: 0,1:26:16.06,1:26:16.73,Dialogue,,0,0,0,,That's alright.
+Dialogue: 0,1:26:17.06,1:26:18.27,Dialogue,,0,0,0,,I'll take it from here.
+Dialogue: 0,1:26:18.65,1:26:19.36,Dialogue,,0,0,0,,You hurry and go!
+Dialogue: 0,1:26:20.07,1:26:21.94,Dialogue,,0,0,0,,Hide before you become small.
+Dialogue: 0,1:26:22.65,1:26:24.24,Dialogue,,0,0,0,,And when you return to normal, come back.
+Dialogue: 0,1:26:27.99,1:26:28.78,Dialogue,,0,0,0,,Wait there!
+Dialogue: 0,1:26:29.16,1:26:30.70,Dialogue,,0,0,0,,Your opponent is me!
+Dialogue: 0,1:26:33.54,1:26:34.08,Dialogue,,0,0,0,,Kazuha,
+Dialogue: 0,1:26:34.46,1:26:36.08,Dialogue,,0,0,0,,Don't tell anyone you met Kudou here,
+Dialogue: 0,1:26:37.12,1:26:38.08,Dialogue,,0,0,0,,even to that girl.
+Dialogue: 0,1:26:38.38,1:26:39.29,Dialogue,,0,0,0,,Eh? Even to Ran{\rHonorifics - Dialogue}-chan{\r}?
+Dialogue: 0,1:26:39.34,1:26:39.96,Dialogue,,0,0,0,,Why?
+Dialogue: 0,1:26:40.46,1:26:41.34,Dialogue,,0,0,0,,Just because.
+Dialogue: 0,1:26:42.34,1:26:43.51,Dialogue,,0,0,0,,They probably won't meet anyways.
+Dialogue: 0,1:26:44.47,1:26:45.76,Dialogue,,0,0,0,,It's better she doesn't know.
+Dialogue: 0,1:26:50.64,1:26:53.10,Dialogue,,0,0,0,,I won't allow you two to return alive.
+Dialogue: 0,1:26:56.85,1:26:58.35,Dialogue,,0,0,0,,This sword is too weak.
+Dialogue: 0,1:27:02.61,1:27:03.19,Dialogue,,0,0,0,,After them!
+Dialogue: 0,1:27:07.49,1:27:08.45,Dialogue,,0,0,0,,Hey, did you find him?
+Dialogue: 0,1:27:08.91,1:27:09.57,Dialogue,,0,0,0,,No, not yet.
+Dialogue: 0,1:27:09.91,1:27:10.62,Dialogue,,0,0,0,,Search harder!
+Dialogue: 0,1:27:12.20,1:27:12.70,Dialogue,,0,0,0,,What?
+Dialogue: 0,1:27:13.79,1:27:14.91,Dialogue,,0,0,0,,Shh, be quiet.
+Dialogue: 0,1:27:15.45,1:27:16.16,Dialogue,,0,0,0,,Don't move.
+Dialogue: 0,1:27:28.13,1:27:29.05,Dialogue,,0,0,0,,Shinichi!
+Dialogue: 0,1:27:29.64,1:27:30.72,Dialogue,,0,0,0,,You have the same expression.
+Dialogue: 0,1:27:31.64,1:27:32.26,Dialogue,,0,0,0,,Like that time.
+Dialogue: 0,1:27:34.47,1:27:35.31,Dialogue,,0,0,0,,What happened?
+Dialogue: 0,1:27:36.27,1:27:37.52,Dialogue,,0,0,0,,You're covered in sweat.
+Dialogue: 0,1:27:38.10,1:27:39.06,Dialogue,,0,0,0,,And those people...
+Dialogue: 0,1:27:39.73,1:27:40.65,Dialogue,,0,0,0,,Who are they?
+Dialogue: 0,1:27:45.44,1:27:46.32,Dialogue,,0,0,0,,Where did he go?
+Dialogue: 0,1:27:46.61,1:27:47.86,Dialogue,,0,0,0,,It can't be helped, let's go back.
+Dialogue: 0,1:27:50.20,1:27:51.03,Dialogue,,0,0,0,,I'm sorry Ran.
+Dialogue: 0,1:27:51.78,1:27:53.16,Dialogue,,0,0,0,,Right now, to meet with you, I...
+Dialogue: 0,1:28:12.55,1:28:14.68,Dialogue,,0,0,0,,It's been locked, the door won't open.
+Dialogue: 0,1:28:15.10,1:28:15.89,Dialogue,,0,0,0,,Do something!
+Dialogue: 0,1:28:16.77,1:28:19.10,Signs,Note,0,0,0,,Note: Tatami are Japanese floor coverings, woven out of straw.
+Dialogue: 0,1:28:16.77,1:28:17.89,Dialogue,,0,0,0,,The smell of this tatami...
+Dialogue: 0,1:28:18.52,1:28:20.14,Dialogue,,0,0,0,,It's the room that I was pushed into.
+Dialogue: 0,1:28:22.44,1:28:24.06,Dialogue,,0,0,0,,Bring me the axe, hurry!
+Dialogue: 0,1:28:24.65,1:28:25.23,Dialogue,,0,0,0,,Damn!
+Dialogue: 0,1:28:25.82,1:28:27.69,Dialogue,,0,0,0,,It's only a matter of time until they break in.
+Dialogue: 0,1:28:28.36,1:28:30.45,Dialogue,,0,0,0,,Is there anything that can be used as a weapon...
+Dialogue: 0,1:28:34.70,1:28:35.33,Dialogue,,0,0,0,,What is this?
+Dialogue: 0,1:28:36.08,1:28:37.79,Dialogue,,0,0,0,,This chest has a large amount of drawers.
+Dialogue: 0,1:28:39.37,1:28:39.87,Dialogue,,0,0,0,,Ah!
+Dialogue: 0,1:28:40.37,1:28:41.67,Dialogue,,0,0,0,,Put the "Underworld Katana" in Benkei's drawer,
+Dialogue: 0,1:28:42.08,1:28:44.00,Dialogue,,0,0,0,,And the bow and arrows in Rokakku's drawer.
+Dialogue: 0,1:28:44.71,1:28:45.09,Dialogue,,0,0,0,,Heiji!
+Dialogue: 0,1:28:45.63,1:28:47.71,Dialogue,,0,0,0,,The sword is in Benkei's drawer.
+Dialogue: 0,1:28:47.92,1:28:48.38,Dialogue,,0,0,0,,What?
+Dialogue: 0,1:28:48.84,1:28:49.67,Dialogue,,0,0,0,,In this chest?
+Dialogue: 0,1:28:51.13,1:28:55.22,Dialogue,,0,0,0,,But there are so many. How\Nam I to know which one is his?
+Dialogue: 0,1:29:05.44,1:29:07.52,Dialogue,,0,0,0,,I feel like I've seen this before.
+Dialogue: 0,1:29:09.57,1:29:12.57,Dialogue,,0,0,0,,The beams of these drawers,\Naren't they like the roads of Kyoto?
+Dialogue: 0,1:29:21.33,1:29:22.00,Dialogue,,0,0,0,,I get it.
+Dialogue: 0,1:29:22.66,1:29:25.63,Dialogue,,0,0,0,,This beam is Karasuma Avenue\Nand this one Takoyakushi Avenue.
+Dialogue: 0,1:29:26.50,1:29:27.00,Dialogue,,0,0,0,,Hold on...
+Dialogue: 0,1:29:28.05,1:29:31.55,Dialogue,,0,0,0,,Could it be the names of drawers\Nare taken from the names of places?
+Dialogue: 0,1:29:32.13,1:29:32.76,Dialogue,,0,0,0,,The names of places?
+Dialogue: 0,1:29:35.51,1:29:36.26,Dialogue,,0,0,0,,That's it!
+Dialogue: 0,1:29:36.80,1:29:38.01,Dialogue,,0,0,0,,Rokakku means Rokakku Hall.
+Dialogue: 0,1:29:39.22,1:29:41.14,Dialogue,,0,0,0,,Benkei's drawer means...
+Dialogue: 0,1:29:43.60,1:29:44.94,Dialogue,,0,0,0,,Benkei's Stone!
+Dialogue: 0,1:29:44.81,1:29:46.02,Signs,Sign,0,0,0,,Sanjou Avenue
+Dialogue: 0,1:29:45.52,1:29:47.19,Dialogue,,0,0,0,,Going East from Sanjou to Fuyachou.
+Dialogue: 0,1:29:46.15,1:29:47.31,Signs,Sign,0,0,0,,Fuyachou Avenue
+Dialogue: 0,1:29:47.77,1:29:48.52,Dialogue,,0,0,0,,It's the temari song!
+Dialogue: 0,1:29:49.27,1:29:51.36,Dialogue,,0,0,0,,Hmm... Marutake Ebisu Ni...
+Dialogue: 0,1:29:52.82,1:29:54.15,Dialogue,,0,0,0,,Marutake Ebisu Ni...
+Dialogue: 0,1:29:55.07,1:29:56.37,Dialogue,,0,0,0,,What was after that?
+Dialogue: 0,1:29:58.53,1:29:59.41,Dialogue,,0,0,0,,Ah, damn!
+Dialogue: 0,1:29:59.83,1:30:00.83,Dialogue,,0,0,0,,I can't remember!
+Dialogue: 0,1:30:08.88,1:30:10.84,Dialogue,,0,0,0,,Heiji! Sanjyou is two before Tako.
+Dialogue: 0,1:30:12.42,1:30:14.38,Dialogue,,0,0,0,,Two above Tako, and the road that runs West to East is...
+Dialogue: 0,1:30:15.01,1:30:16.26,Dialogue,,0,0,0,,Temple then... Fuya...
+Dialogue: 0,1:30:16.93,1:30:18.01,Dialogue,,0,0,0,,Fuyachou is the third one!
+Dialogue: 0,1:30:18.64,1:30:19.14,Dialogue,,0,0,0,,It's right here!
+Dialogue: 0,1:30:21.93,1:30:22.81,Dialogue,,0,0,0,,Be prepared!
+Dialogue: 0,1:30:39.53,1:30:41.79,Dialogue,,0,0,0,,The equal sides of this unique blade...
+Dialogue: 0,1:30:43.08,1:30:44.50,Dialogue,,0,0,0,,It's the demon sword "Muramasa"!
+Dialogue: 0,1:30:47.12,1:30:49.63,Dialogue,,0,0,0,,It's just right for cutting monsters,
+Dialogue: 0,1:30:49.96,1:30:51.46,Dialogue,,0,0,0,,That have possessed Yoshitsune.
+Dialogue: 0,1:30:51.92,1:30:52.59,Dialogue,,0,0,0,,What did you say!?
+Dialogue: 0,1:30:55.09,1:30:56.38,Dialogue,,0,0,0,,Get out of the way!
+Dialogue: 0,1:31:01.97,1:31:02.93,Dialogue,,0,0,0,,What are you doing!?
+Dialogue: 0,1:31:03.31,1:31:04.39,Dialogue,,0,0,0,,Hurry and go after them!
+Dialogue: 0,1:31:04.52,1:31:05.23,Dialogue,,0,0,0,,Yes.
+Dialogue: 0,1:31:09.15,1:31:10.94,Dialogue,,0,0,0,,Alright, I'm going to delay them.
+Dialogue: 0,1:31:11.23,1:31:12.65,Dialogue,,0,0,0,,Meanwhile, you escape.
+Dialogue: 0,1:31:13.15,1:31:13.65,Dialogue,,0,0,0,,No!
+Dialogue: 0,1:31:14.03,1:31:15.03,Dialogue,,0,0,0,,I want to be with...
+Dialogue: 0,1:31:15.74,1:31:16.90,Dialogue,,0,0,0,,Listen to me!
+Dialogue: 0,1:31:18.03,1:31:18.61,Dialogue,,0,0,0,,Heiji.
+Dialogue: 0,1:31:18.99,1:31:19.57,Dialogue,,0,0,0,,He's here!
+Dialogue: 0,1:31:20.57,1:31:21.33,Dialogue,,0,0,0,,Hurry, go!
+Dialogue: 0,1:31:27.21,1:31:27.87,Dialogue,,0,0,0,,You guys,
+Dialogue: 0,1:31:28.12,1:31:29.37,Dialogue,,0,0,0,,After the girl!
+Dialogue: 0,1:31:41.22,1:31:41.89,Dialogue,,0,0,0,,Conan{\rHonorifics - Dialogue}-kun{\r}!
+Dialogue: 0,1:31:42.30,1:31:43.01,Dialogue,,0,0,0,,Kazuha{\rHonorifics - Dialogue}-neechan{\r},
+Dialogue: 0,1:31:43.64,1:31:44.52,Dialogue,,0,0,0,,What about Heiji{\rHonorifics - Dialogue}-niisan{\r}?
+Dialogue: 0,1:31:49.39,1:31:50.06,Dialogue,,0,0,0,,Over there!
+Dialogue: 0,1:31:50.69,1:31:51.31,Thoughts,,0,0,0,,{\be10}Hattori!
+Dialogue: 0,1:31:56.82,1:31:57.53,Thoughts,,0,0,0,,{\be10}Damn!
+Dialogue: 0,1:31:57.99,1:32:00.57,Thoughts,,0,0,0,,{\be10}I want to inform the police, but my\Ncell phone doesn't have any reception.
+Dialogue: 0,1:32:02.32,1:32:02.82,Thoughts,,0,0,0,,{\be10}That's it!
+Dialogue: 0,1:32:20.43,1:32:21.89,Dialogue,,0,0,0,,Hey, put it out immediately.
+Dialogue: 0,1:32:22.39,1:32:22.93,Dialogue,,0,0,0,,Yes.
+Dialogue: 0,1:32:25.35,1:32:27.72,Dialogue,,0,0,0,,Alright, now if someone notices this fire...
+Dialogue: 0,1:32:28.56,1:32:29.02,Dialogue,,0,0,0,,Hey.
+Dialogue: 0,1:32:29.60,1:32:30.39,Dialogue,,0,0,0,,Hey Ran.
+Dialogue: 0,1:32:33.65,1:32:34.57,Dialogue,,0,0,0,,Are you awake?
+Dialogue: 0,1:32:35.15,1:32:35.98,Dialogue,,0,0,0,,Dad!
+Dialogue: 0,1:32:39.07,1:32:39.78,Dialogue,,0,0,0,,Where's Shinichi?
+Dialogue: 0,1:32:39.95,1:32:42.03,Dialogue,,0,0,0,,What? Are you still half asleep?
+Dialogue: 0,1:32:42.57,1:32:44.07,Dialogue,,0,0,0,,Why would he be here?
+Dialogue: 0,1:32:44.78,1:32:47.37,Dialogue,,0,0,0,,More importantly, why are you sleeping here?
+Dialogue: 0,1:32:47.79,1:32:50.00,Dialogue,,0,0,0,,And you Dad, what are you doing here?
+Dialogue: 0,1:32:50.04,1:32:51.16,Dialogue,,0,0,0,,I notified him,
+Dialogue: 0,1:32:51.92,1:32:54.38,Dialogue,,0,0,0,,About Kazuha being kidnapped by the Genjibotaru group.
+Dialogue: 0,1:32:54.63,1:32:55.09,Dialogue,,0,0,0,,Mouri{\rHonorifics - Dialogue}-san{\r}!
+Dialogue: 0,1:33:09.81,1:33:12.02,Dialogue,,0,0,0,,It's about time to come to a conclusion.
+Dialogue: 0,1:33:14.73,1:33:15.90,Dialogue,,0,0,0,,As you wish!
+Dialogue: 0,1:33:21.74,1:33:23.53,Dialogue,,0,0,0,,You aren't going to trick me again.
+Dialogue: 0,1:33:24.28,1:33:24.82,Dialogue,,0,0,0,,Then,
+Dialogue: 0,1:33:25.57,1:33:26.28,Dialogue,,0,0,0,,How about this?
+Dialogue: 0,1:33:27.45,1:33:28.08,Dialogue,,0,0,0,,A short sword!
+Dialogue: 0,1:33:28.95,1:33:30.50,Dialogue,,0,0,0,,It's not an ordinary short sword.
+Dialogue: 0,1:33:31.20,1:33:33.71,Dialogue,,0,0,0,,There's a deadly poison with\Nimmediate results painted on it.
+Dialogue: 0,1:33:35.04,1:33:35.71,Dialogue,,0,0,0,,What did you say?
+Dialogue: 0,1:33:36.08,1:33:38.55,Dialogue,,0,0,0,,Just a little scratch and you're dead.
+Dialogue: 0,1:33:41.01,1:33:42.59,Dialogue,,0,0,0,,What a coward!
+Dialogue: 0,1:34:09.74,1:34:11.24,Dialogue,,0,0,0,,Oh no! Heiji's in danger!
+Dialogue: 0,1:34:11.54,1:34:13.04,Dialogue,,0,0,0,,You can't run away anymore.
+Dialogue: 0,1:34:13.79,1:34:15.75,Dialogue,,0,0,0,,From below, the arrows are aimed at you.
+Dialogue: 0,1:34:21.63,1:34:22.51,Dialogue,,0,0,0,,Something has to be done.
+Dialogue: 0,1:34:24.05,1:34:24.68,Dialogue,,0,0,0,,Conan{\rHonorifics - Dialogue}-kun{\r}!?
+Dialogue: 0,1:34:24.84,1:34:25.43,Dialogue,,0,0,0,,Wait there!
+Dialogue: 0,1:34:29.85,1:34:31.22,Dialogue,,0,0,0,,Hey! Over here!
+Dialogue: 0,1:34:46.57,1:34:47.66,Dialogue,,0,0,0,,Take this!
+Dialogue: 0,1:34:56.46,1:34:57.75,Dialogue,,0,0,0,,Go Hattori!
+Dialogue: 0,1:34:57.92,1:34:58.75,Dialogue,,0,0,0,,Heiji!
+Dialogue: 0,1:35:27.32,1:35:29.45,Dialogue,,0,0,0,,The Benkei who wanted to become Yoshitsune.
+Dialogue: 0,1:35:30.24,1:35:31.58,Dialogue,,0,0,0,,If you were Benkei,
+Dialogue: 0,1:35:31.95,1:35:34.37,Dialogue,,0,0,0,,Yoshitsune would have been\Nkilled at the Ataka checkpoint.
+Dialogue: 0,1:35:35.45,1:35:36.71,Dialogue,,0,0,0,,The leader's been defeated!
+Dialogue: 0,1:35:53.18,1:35:54.18,Dialogue,,0,0,0,,Arrest them all!
+Dialogue: 0,1:35:54.35,1:35:54.85,Dialogue,,0,0,0,,Yes.
+Dialogue: 0,1:35:55.52,1:35:56.81,Dialogue,,0,0,0,,It turned out good, Conan{\rHonorifics - Dialogue}-kun{\r}!
+Dialogue: 0,1:35:56.98,1:35:57.43,Dialogue,,0,0,0,,Yes!
+Dialogue: 0,1:35:58.14,1:36:01.90,Dialogue Top,Note,0,0,0,,Japanese culture: You usually affix {\rHonorifics - Dialogue}-san{\r} after\Nthe last name. It's like the "Mr." in Mr. Smith.
+Dialogue: 0,1:35:58.14,1:36:01.35,Dialogue,,0,0,0,,But back there, you addressed Heiji as Hattori.
+Dialogue: 0,1:36:01.56,1:36:03.65,Dialogue,,0,0,0,,Sorry, I just got caught up in the excitement.
+Dialogue: 0,1:36:04.19,1:36:04.78,Dialogue,,0,0,0,,It's Heiji!
+Dialogue: 0,1:36:05.40,1:36:06.07,Dialogue,,0,0,0,,Heiji!
+Dialogue: 0,1:36:10.41,1:36:11.16,Dialogue,,0,0,0,,This temple...
+Dialogue: 0,1:36:21.37,1:36:23.13,Dialogue,,0,0,0,,Now all the mysteries are solved.
+Dialogue: 0,1:36:26.71,1:36:30.43,Dialogue,,0,0,0,,It seems like the effect of the drug was only temporary.
+Dialogue: 0,1:36:31.13,1:36:31.64,Dialogue,,0,0,0,,Well,
+Dialogue: 0,1:36:31.89,1:36:34.64,Dialogue,,0,0,0,,Thanks to you, I was able to collect some valuable data.
+Dialogue: 0,1:36:37.27,1:36:38.64,Dialogue,,0,0,0,,Are you alright, Heiji?
+Dialogue: 0,1:36:38.89,1:36:39.77,Dialogue,,0,0,0,,Yes, one way or another.
+Dialogue: 0,1:36:40.14,1:36:42.44,Dialogue,,0,0,0,,But where is the Buddhist statue?
+Dialogue: 0,1:36:42.90,1:36:43.52,Dialogue,,0,0,0,,Ahem.
+Dialogue: 0,1:36:47.48,1:36:48.61,Dialogue,,0,0,0,,Hattori{\rHonorifics - Dialogue}-kun{\r}, Shin...
+Dialogue: 0,1:36:49.99,1:36:50.90,Dialogue,,0,0,0,,Hm? What?
+Dialogue: 0,1:36:51.53,1:36:52.91,Dialogue,,0,0,0,,No, nothing.
+Dialogue: 0,1:36:54.70,1:36:56.74,Dialogue,,0,0,0,,Of course, that was only a dream.
+Dialogue: 0,1:37:19.93,1:37:21.73,Signs,Sign,0,0,0,,Sannou Temple —\hEarly Morning
+Dialogue: 0,1:37:22.19,1:37:23.65,Dialogue,,0,0,0,,I am truly ashamed that I was not able,
+Dialogue: 0,1:37:24.15,1:37:26.27,Dialogue,,0,0,0,,to ascertain the location of the Buddhist statue.
+Dialogue: 0,1:37:26.77,1:37:27.40,Dialogue,,0,0,0,,No,
+Dialogue: 0,1:37:27.90,1:37:30.78,Dialogue,,0,0,0,,this is what Buddha has chosen.
+Dialogue: 0,1:37:31.53,1:37:32.99,Dialogue,,0,0,0,,Do not worry about it.
+Dialogue: 0,1:37:33.74,1:37:35.99,Dialogue,,0,0,0,,Everyone, please be careful.
+Dialogue: 0,1:37:38.62,1:37:39.29,Dialogue,,0,0,0,,Goodbye.
+Dialogue: 0,1:37:47.67,1:37:48.84,Dialogue,,0,0,0,,But this is worrisome,
+Dialogue: 0,1:37:49.42,1:37:52.38,Dialogue,,0,0,0,,there is only one hour left until the\Nunveiling of the Buddhist statue.
+Dialogue: 0,1:37:53.09,1:37:53.88,Dialogue,,0,0,0,,It's alright,
+Dialogue: 0,1:37:54.38,1:37:56.22,Dialogue,,0,0,0,,we'll just proceed as usual.
+Dialogue: 0,1:38:04.64,1:38:06.69,Dialogue,,0,0,0,,The... The Healing Buddha!
+Dialogue: 0,1:38:07.44,1:38:09.19,Dialogue,,0,0,0,,He has returned!
+Dialogue: 0,1:38:11.36,1:38:13.65,Signs,Sign,0,0,0,,Gyokuryu Temple —\hEarly Dawn
+Dialogue: 0,1:38:20.66,1:38:21.70,Dialogue,,0,0,0,,It's here, Kudou.
+Dialogue: 0,1:38:22.33,1:38:23.75,Dialogue,,0,0,0,,See, it's just as I said.
+Dialogue: 0,1:38:28.25,1:38:30.80,Dialogue,,0,0,0,,Well, I never thought that the\Nshape of the temple would be "tama",
+Dialogue: 0,1:38:31.46,1:38:33.38,Dialogue,,0,0,0,,and the position of the dot indicated the bell tower.
+Dialogue: 0,1:38:35.30,1:38:37.84,Dialogue,,0,0,0,,Even I didn't notice that...
+Dialogue: 0,1:38:37.80,1:38:41.60,Signs,Note,0,0,0,,Note: "tama" means ball and "takara" means treasure.
+Dialogue: 0,1:38:37.84,1:38:41.60,Signs,Note,0,0,0,,Note: A "ukanmuri" is the sort of roof style thing that you see in the explanation.
+Dialogue: 0,1:38:37.89,1:38:41.81,Signs,Sign,0,0,0,,Tama
+Dialogue: 0,1:38:39.14,1:38:41.81,Signs,Sign,0,0,0,,Takara
+Dialogue: 0,1:38:38.26,1:38:39.97,Dialogue,,0,0,0,,If you put an "ukanmuri" on the top of "tama",
+Dialogue: 0,1:38:40.39,1:38:41.47,Dialogue,,0,0,0,,it becomes "treasure".
+Dialogue: 0,1:38:42.35,1:38:44.48,Dialogue,,0,0,0,,The ukanmuri represented a roof.
+Dialogue: 0,1:38:45.10,1:38:46.27,Dialogue,,0,0,0,,I see...
+Dialogue: 0,1:38:54.90,1:38:56.20,Dialogue,,0,0,0,,Now it's back to normal.
+Dialogue: 0,1:38:56.86,1:38:57.32,Dialogue,,0,0,0,,Yes.
+Dialogue: 0,1:39:01.41,1:39:03.87,Dialogue,,0,0,0,,Those two are a good combination.
+Dialogue: 0,1:39:04.70,1:39:07.12,Dialogue,,0,0,0,,Almost like Yoshitsune and Benkei.
+Dialogue: 0,1:39:09.46,1:39:12.17,Dialogue,,0,0,0,,Do you mean that boy Hattori\Nand the famous detective Mouri?
+Dialogue: 0,1:39:13.00,1:39:15.63,Dialogue,,0,0,0,,You still have some way to go in your training...
+Dialogue: 0,1:39:16.01,1:39:18.39,Dialogue,,0,0,0,,Ha ha ha.
+Dialogue: 0,1:39:21.10,1:39:21.72,Dialogue,,0,0,0,,Well now...
+Dialogue: 0,1:39:25.73,1:39:26.23,Dialogue,,0,0,0,,Alright,
+Dialogue: 0,1:39:26.52,1:39:28.23,Dialogue,,0,0,0,,Ayumi{\rHonorifics - Dialogue}-chan{\r} you're next.
+Dialogue: 0,1:39:30.11,1:39:31.52,Dialogue,,0,0,0,,It's so cute!
+Dialogue: 0,1:39:32.07,1:39:33.82,Dialogue,,0,0,0,,Maybe I should take it home!
+Dialogue: 0,1:39:33.86,1:39:34.73,Dialogue,,0,0,0,,That's too bad.
+Dialogue: 0,1:39:35.19,1:39:36.86,Dialogue,,0,0,0,,It's my number one friend.
+Dialogue: 0,1:39:37.57,1:39:41.20,Dialogue,,0,0,0,,Inspector, could it be that you\Ndon't have many human friends?
+Dialogue: 0,1:39:43.33,1:39:46.20,Dialogue,,0,0,0,,I'm sorry I called both of you the culprits.
+Dialogue: 0,1:39:46.96,1:39:47.87,Dialogue,,0,0,0,,That's alright.
+Dialogue: 0,1:39:48.50,1:39:51.33,Dialogue,,0,0,0,,To tell the truth, I knew who my father was.
+Dialogue: 0,1:39:51.63,1:39:55.05,Dialogue,,0,0,0,,I told him myself that it was\Nalright not to send me any more money.
+Dialogue: 0,1:39:55.71,1:39:57.34,Dialogue,,0,0,0,,Y-Your father!?
+Dialogue: 0,1:39:57.92,1:39:58.55,Dialogue,,0,0,0,,Who is he?
+Dialogue: 0,1:39:59.26,1:40:00.14,Dialogue,,0,0,0,,It's a secret.
+Dialogue: 0,1:40:05.31,1:40:08.06,Dialogue,,0,0,0,,That dirty priest!
+Dialogue: 0,1:40:17.40,1:40:19.61,Dialogue,,0,0,0,,It's not "yome{\rHonorifics - Dialogue}-san{\r}", it's "ane{\rHonorifics - Dialogue}-san{\r}", idiot.
+Dialogue: 0,1:40:20.32,1:40:22.16,Dialogue,,0,0,0,,Where did you learn that song?
+Dialogue: 0,1:40:22.82,1:40:24.53,Dialogue,,0,0,0,,From my relatives in Kyoto.
+Dialogue: 0,1:40:25.54,1:40:27.79,Dialogue,,0,0,0,,Was it sometime while I was in third grade?
+Dialogue: 0,1:40:28.25,1:40:30.87,Dialogue,,0,0,0,,When I went to visit with you, I was taught it.
+Dialogue: 0,1:40:31.37,1:40:31.96,Dialogue,,0,0,0,,With me?
+Dialogue: 0,1:40:32.25,1:40:33.96,Dialogue,,0,0,0,,What? You don't remember?
+Dialogue: 0,1:40:34.46,1:40:35.09,Dialogue,,0,0,0,,Oh yes,
+Dialogue: 0,1:40:35.63,1:40:37.84,Dialogue,,0,0,0,,I remember you couldn't wait for my preparations,
+Dialogue: 0,1:40:38.17,1:40:41.51,Dialogue,,0,0,0,,so you said you'd be going to Sannou Temple and left.
+Dialogue: 0,1:40:42.05,1:40:42.72,Dialogue,,0,0,0,,That time,
+Dialogue: 0,1:40:43.01,1:40:45.22,Dialogue,,0,0,0,,I was helped into wearing a kimono.
+Dialogue: 0,1:40:45.64,1:40:46.85,Dialogue,,0,0,0,,I also did my hair,
+Dialogue: 0,1:40:47.10,1:40:48.64,Dialogue,,0,0,0,,and wore a little bit of makeup.
+Dialogue: 0,1:40:49.27,1:40:51.90,Dialogue,,0,0,0,,Then I went to go find you at Sannou Temple but,
+Dialogue: 0,1:40:52.27,1:40:55.07,Dialogue,,0,0,0,,you weren't to be found anywhere, so I played with a ball.
+Dialogue: 0,1:40:56.48,1:40:57.07,Dialogue,,0,0,0,,Really,
+Dialogue: 0,1:40:57.32,1:40:58.99,Dialogue,,0,0,0,,I wish you could have seen it.
+Dialogue: 0,1:40:59.32,1:41:02.45,Dialogue,,0,0,0,,The Sakura blossoms fluttered about, it was so beautiful!
+Dialogue: 0,1:41:18.51,1:41:20.38,Dialogue,,0,0,0,,So I was finally able to meet her.
+Dialogue: 0,1:41:21.76,1:41:22.38,Dialogue,,0,0,0,,Meet her?
+Dialogue: 0,1:41:22.88,1:41:24.80,Dialogue,,0,0,0,,You met your first love, Heiji?
+Dialogue: 0,1:41:25.30,1:41:26.85,Dialogue,,0,0,0,,Who is it? Is it the dancing girl?
+Dialogue: 0,1:41:27.81,1:41:30.18,Dialogue,,0,0,0,,Even if it takes a lifetime, I won't tell you, idiot.
+Dialogue: 0,1:41:30.68,1:41:32.39,Dialogue,,0,0,0,,C'mon stingy, you can tell me.
+Dialogue: 0,1:41:32.64,1:41:36.15,Dialogue,,0,0,0,,Alright, I'll tell you in another 1500 years.
+Dialogue: 0,1:41:37.07,1:41:38.27,Dialogue,,0,0,0,,What does that mean!?
+Dialogue: 0,1:41:51.00,1:41:51.91,Dialogue,,0,0,0,,Conan{\rHonorifics - Dialogue}-kun{\r}!
+Dialogue: 0,1:41:52.04,1:41:53.25,Dialogue,,0,0,0,,What are you doing?
+Dialogue: 0,1:41:58.29,1:41:59.63,Dialogue,,0,0,0,,You're covered in sweat!
+Dialogue: 0,1:42:01.09,1:42:03.09,Dialogue,,0,0,0,,Shi-Shinichi...
+Dialogue: 0,1:42:04.47,1:42:07.55,Dialogue,,0,0,0,,By the way, I gave Shinichi{\rHonorifics - Dialogue}-niichan{\r} a call.
+Dialogue: 0,1:42:08.05,1:42:12.39,Dialogue,,0,0,0,,I wanted him to appear as\NHeiji{\rHonorifics - Dialogue}-niichan{\r} and save Kazuha{\rHonorifics - Dialogue}-neechan{\r}, right?
+Dialogue: 0,1:42:13.52,1:42:14.10,Dialogue,,0,0,0,,Yes.
+Dialogue: 0,1:42:14.44,1:42:17.11,Dialogue,,0,0,0,,But that guy was really weak.
+Dialogue: 0,1:42:18.15,1:42:19.61,Dialogue,,0,0,0,,He escaped halfway.
+Dialogue: 0,1:42:20.44,1:42:22.69,Dialogue,,0,0,0,,Even after you told me not to tell anyone else...
+Dialogue: 0,1:42:26.57,1:42:27.37,Thoughts,,0,0,0,,{\be10}That's right...
+Dialogue: 0,1:42:28.20,1:42:31.24,Thoughts,,0,0,0,,{\be10}So that really... That really was Shinichi.
+Dialogue: 0,1:42:34.96,1:42:36.08,Thoughts,,0,0,0,,{\be10}I was finally able to meet you.
+Dialogue: 0,1:46:55.47,1:46:56.68,Dialogue,,0,0,0,,I'd like some ice cream.
+Dialogue: 0,1:46:56.97,1:46:58.85,Signs,Note,0,0,0,,Note: 100 yen is roughly 1.00 USD
+Dialogue: 0,1:46:56.97,1:46:58.85,Dialogue,,0,0,0,,Alright, it'll be 300 yen.
+Dialogue: 0,1:47:00.85,1:47:04.27,Dialogue,,0,0,0,,In the end, I'm the only one who\Ncouldn't meet the person I wanted to.
+Dialogue: 0,1:47:04.81,1:47:07.94,Dialogue,,0,0,0,,Sonoko, you'll eventually be\Nable to meet Kyougoku{\rHonorifics - Dialogue}-san{\r} for sure.
+Dialogue: 0,1:47:08.86,1:47:09.86,Dialogue,,0,0,0,,But you know,
+Dialogue: 0,1:47:10.27,1:47:13.57,Dialogue,,0,0,0,,I'm not that good at waiting for people.
+Dialogue: 0,1:47:14.40,1:47:15.61,Dialogue,,0,0,0,,Isn't that true for you as well, Ran?
+Dialogue: 0,1:47:15.82,1:47:16.28,Dialogue,,0,0,0,,Really?
+Dialogue: 0,1:47:17.07,1:47:19.53,Dialogue,,0,0,0,,I don't mind waiting for people.
+Dialogue: 0,1:47:20.70,1:47:23.37,Dialogue,,0,0,0,,Because the longer you wait,
+Dialogue: 0,1:47:23.83,1:47:24.79,Dialogue,,0,0,0,,when you do meet...
+Dialogue: 0,1:47:28.88,1:47:31.17,Flashback,,0,0,0,,{\be10}You have the same expression as that time.
+Dialogue: 0,1:47:32.34,1:47:33.42,Dialogue,,0,0,0,,you'll be more happy.
+Dialogue: 0,1:47:34.09,1:47:35.05,Dialogue,,0,0,0,,Ah damn.
+Dialogue: 0,1:47:35.55,1:47:38.97,Dialogue,,0,0,0,,If only Kudou{\rHonorifics - Dialogue}-kun{\r} could have heard those words...

@@ -1,0 +1,1439 @@
+[Script Info]
+Title: Detective Conan - Movie 01
+TL Source: CF&B
+ScriptType: v4.00+
+WrapStyle: 3
+PlayResX: 1920
+PlayResY: 1080
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Dialogue,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00401311,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Dialogue Top,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00401311,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,8,30,30,55,1
+Style: Signs,FrancophilSans,74,&H14FFFFFF,&H00FFFFFF,&H46101010,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,8,30,30,55,1
+Style: Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,0,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Radio,FrancophilSans,74,&H00BEE1FF,&H00FFFFFF,&H000B2A42,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Narration,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00BF6F00,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Narration Off,FrancophilSans,74,&H6E8C6F00,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,0,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Flashback,FrancophilSans,74,&H00CDFAFF,&H00FFFFFF,&H00373737,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Flashback Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00CCFFFF,&HC0313134,-1,0,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Honorifics - Dialogue,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00401311,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Signs,FrancophilSans,74,&H14FFFFFF,&H00FFFFFF,&H46101010,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,-1,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Honorifics - Radio,FrancophilSans,74,&H00BEE1FF,&H00FFFFFF,&H000B2A42,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Narration,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00BF6F00,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Narration Off,FrancophilSans,74,&H6E8C6F00,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,-1,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Honorifics - Flashback,FrancophilSans,74,&H00CDFAFF,&H00FFFFFF,&H00373737,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Flashback Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00CCFFFF,&HC0313134,-1,-1,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Masks,FrancophilSans,74,&H00000000,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,2,0,0,0,1
+Style: Title,Conan Episode Title,74,&H00E1E4E3,&H000000FF,&HC8DBDAE1,&HC0000000,-1,0,0,0,100,100,0,0,1,1,0,5,0,0,0,1
+Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-1,0,0,0,100,100,0,0,1,0,0,2,0,0,65,1
+Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
+Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
+Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:11.01,0:00:18.93,Dialogue,,0,0,0,,{\a5}A ColdFusion & Baaro Release\Nhttp://www.fusion-rips.fr/\Nhttp://baaro.buric.co/
+Dialogue: 0,0:00:19.01,0:00:22.27,Character Card,,0,0,0,,Kurokawa Mansion
+Dialogue: 0,0:00:25.94,0:00:29.90,Character Card,,0,0,0,,Daizo Kurokawa (62)\NKurokawa Hospital Director
+Dialogue: 0,0:00:53.84,0:00:56.80,Character Card,,0,0,0,,Mina Kurokawa (32)\NDaizo's Second Wife
+Dialogue: 0,0:00:56.80,0:00:59.76,Character Card,,0,0,0,,Daisuke Kurokawa (36)\NEldest Son ∙ Physician
+Dialogue: 0,0:00:59.76,0:01:03.73,Character Card,,0,0,0,,Manami Nakazawa (27)\NHousekeeper
+Dialogue: 0,0:07:33.53,0:07:35.99,Dialogue Top,,0,0,0,,"Detective Boys"
+Dialogue: 0,0:08:42.77,0:08:45.72,Character Card,,0,0,0,,Dr. Agasa's House\NApril 28th (Saturday)
+Dialogue: 0,0:08:49.19,0:08:52.94,Character Card,,0,0,0,,Conan Edogawa\N(Shin'ichi Kudo)
+Dialogue: 0,0:10:04.63,0:10:07.26,Dialogue Top,,0,0,0,,"Shin'ichi Kudo\N2-21 Beika Town, Beika City"
+Dialogue: 0,0:10:28.42,0:10:32.29,Character Card,,0,0,0,,Hiroshi Agasa (52)\NInventor
+Dialogue: 0,0:11:19.67,0:11:27.14,Character Card,,0,0,0,,Ran Mouri\NTeitan High School Junior
+Dialogue: 0,0:12:26.49,0:12:30.16,Character Card,,0,0,0,,Kogoro Mouri\NPrivate Detective
+Dialogue: 0,0:13:05.95,0:13:09.83,Character Card,,0,0,0,,Inspector Megure\NPolice HQ ∙ Investigation Division
+Dialogue: 0,0:13:13.50,0:13:17.42,Character Card,,0,0,0,,Detective Shiratori\NPolice HQ ∙ Investigation Division
+Dialogue: 0,0:15:50.32,0:15:54.07,Character Card,,0,0,0,,Moriya Mansion\NApril 29th (Tuesday)
+Dialogue: 0,0:17:16.66,0:17:20.70,Character Card,,0,0,0,,Teiji Moriya (47)\NArchitect
+Dialogue: 0,0:23:38.41,0:23:41.12,Character Card,,0,0,0,,May 3rd (Saturday)
+Dialogue: 0,0:26:42.14,0:26:45.85,Character Card,,0,0,0,,Teimuzu River Green Park
+Dialogue: 0,0:26:49.94,0:26:53.73,Character Card,,0,0,0,,Ayumi
+Dialogue: 0,0:26:49.94,0:26:53.73,Character Card,,0,0,0,,Genta
+Dialogue: 0,0:26:49.94,0:26:53.73,Character Card,,0,0,0,,Mitsuhiko
+Dialogue: 0,0:33:02.19,0:33:06.15,Character Card,,0,0,0,,Sonoko Suzuki\NTeitan High School Junior
+Dialogue: 0,0:38:11.75,0:38:14.87,Character Card,,0,0,0,,Shin'ichi Kudo\NTeitan High School Junior
+Dialogue: 0,0:38:17.08,0:38:20.01,Character Card,,0,0,0,,Mayor Okamoto (52)\NWest Tama City Mayor
+Dialogue: 0,0:38:17.08,0:38:20.01,Character Card,,0,0,0,,Kohei Okamoto (21)\NMayor's Son
+Dialogue: 0,0:45:24.01,0:45:26.97,Character Card,,0,0,0,,Tohto Railway Terminal Station
+Dialogue: 0,0:45:26.97,0:45:31.02,Character Card,,0,0,0,,Tohto Railway Traffic Control Room
+Dialogue: 0,0:45:33.14,0:45:40.44,Character Card,,0,0,0,,Traffic Dept. Head\NSakaguchi (52)
+Dialogue: 0,0:45:33.14,0:45:40.44,Character Card,,0,0,0,,Command Chief\NKusunoki (45)
+Dialogue: 0,0:54:56.88,0:54:59.88,Character Card,,0,0,0,,Shibahama Station
+Dialogue: 0,1:15:11.09,1:15:15.09,Character Card,,0,0,0,,Beika City Building\NBeika Cinema 1
+Dialogue: 0,1:30:47.90,1:30:50.49,Dialogue Top,,0,0,0,,"Legend of the Red Thread"
+Dialogue: 0,0:55:56.54,0:56:04.38,Dialogue,,0,0,0,,{\a7}utsumuku sono senaka ni itai ame ga tsukisasaru\N{\c}I sadly watched the rain pound on you as you bent over
+Dialogue: 0,0:56:04.38,0:56:11.12,Dialogue,,0,0,0,,{\a7}inoru omoide mite ita\N{\c}I sadly watched the rain pound on you as you bent over
+Dialogue: 0,0:56:11.12,0:56:18.94,Dialogue,,0,0,0,,{\a7}kono yo ni moshi mo kasa ga tatta hitotsu da to shite mo\N{\c}If there was only one umbrella in this world, I'd find it for you
+Dialogue: 0,0:56:18.94,0:56:25.63,Dialogue,,0,0,0,,{\a7}sagashite kimi ni watasu yo\N{\c}If there was only one umbrella in this world, I'd find it for you
+Dialogue: 0,0:56:25.63,0:56:40.29,Dialogue,,0,0,0,,{\a7}nanimo dekinai kedo kimi no kawari nureru kurai wake mo nai sa\N{\c}I can't do anything, but I can't get drenched in your place, either
+Dialogue: 0,0:56:40.29,0:56:51.92,Dialogue,,0,0,0,,{\a7}onegai sono nayami o dou ka watashi ni uchiakete\N{\c}I beg of you, please confess your worries to me
+Dialogue: 0,1:25:23.90,1:25:30.88,Dialogue,,0,0,0,,{\a5}ude o kumi hashaide couple ga\N{\c}Arm in arm, a merry couple strolled by, their voices just bursting out
+Dialogue: 0,1:25:30.88,1:25:34.85,Dialogue,,0,0,0,,{\a5}me no mae toorisugiru\N{\c}Arm in arm, a merry couple strolled by, their voices just bursting out
+Dialogue: 0,1:25:34.85,1:25:39.12,Dialogue,,0,0,0,,{\a5}koe ga hajiketeta\N{\c}Arm in arm, a merry couple strolled by, their voices just bursting out
+Dialogue: 0,1:25:39.12,1:25:46.90,Dialogue,,0,0,0,,{\a5}chotto dake urayamashikunatte\N{\c}I grew a little jealous as I was reminded that you weren't here
+Dialogue: 0,1:25:46.90,1:25:53.73,Dialogue,,0,0,0,,{\a5}koko ni inai anata o omoidashita\N{\c}I grew a little jealous as I was reminded that you weren't here
+Dialogue: 0,1:25:53.73,1:26:03.30,Dialogue,,0,0,0,,{\a5}nee kokoro wa yudan shiteru to\N{\c}You know, when my heart lets its guard down, it wants to be weak
+Dialogue: 0,1:26:03.30,1:26:09.82,Dialogue,,0,0,0,,{\a5}sugu ni yowakunaritagaru kara\N{\c}You know, when my heart lets its guard down, it wants to be weak
+Dialogue: 0,1:26:09.82,1:26:19.09,Dialogue,,0,0,0,,{\a5}sou okuba o gyutto kamishime\N{\c}so, yes, I gritted my teeth and tried putting on a forced smile
+Dialogue: 0,1:26:19.09,1:26:26.30,Dialogue,,0,0,0,,{\a5}muriyari ni warattemita\N{\c}so, yes, I gritted my teeth and tried putting on a forced smile
+Dialogue: 0,1:26:26.30,1:26:34.14,Dialogue,,0,0,0,,{\a5}aitai ima sugu ni\N{\c}I want to see you, right now
+Dialogue: 0,1:26:34.14,1:26:40.38,Dialogue,,0,0,0,,{\a5}aitai yo\N{\c}I want to see you
+Dialogue: 0,0:00:22.71,0:00:26.91,Dialogue,,0,0,0,,As Mr. Kurokawa sat at his word processor, having a drink,
+Dialogue: 0,0:00:26.91,0:00:29.88,Dialogue,,0,0,0,,someone hit and killed him from behind.
+Dialogue: 0,0:00:30.52,0:00:34.43,Dialogue,,0,0,0,,The weapon was undoubtedly the bronze statue lying next to him.
+Dialogue: 0,0:00:34.89,0:00:37.39,Dialogue,,0,0,0,,But this is what I don't understand.
+Dialogue: 0,0:00:37.39,0:00:42.10,Dialogue,,0,0,0,,While it appears to be a dying message, what does "JUN" mean?
+Dialogue: 0,0:00:43.76,0:00:46.56,Dialogue,,0,0,0,,It identifies the culprit, loud and clear.
+Dialogue: 0,0:00:46.56,0:00:47.56,Dialogue,,0,0,0,,Say what?!
+Dialogue: 0,0:00:48.00,0:00:51.96,Dialogue,,0,0,0,,What's more, the killer is one of those three!
+Dialogue: 0,0:00:51.96,0:00:53.84,Thoughts,,0,0,0,,{\be10}He's on the ball for once!
+Dialogue: 0,0:00:54.64,0:00:56.80,Dialogue,,0,0,0,,His wife, Mina Kurokawa{\rHonorifics - Dialogue}-san{\r},
+Dialogue: 0,0:00:56.80,0:00:59.76,Dialogue,,0,0,0,,his oldest son, Daisuke Kurokawa{\rHonorifics - Dialogue}-san{\r},
+Dialogue: 0,0:00:59.76,0:01:03.72,Dialogue,,0,0,0,,and his housekeeper, Manami Nakazawa{\rHonorifics - Dialogue}-san{\r}. One of these is the killer.
+Dialogue: 0,0:01:03.72,0:01:07.15,Dialogue,,0,0,0,,Great, Mouri{\rHonorifics - Dialogue}-kun{\r}! So, who is it?!
+Dialogue: 0,0:01:07.84,0:01:10.67,Dialogue,,0,0,0,,The person who killed Daizo Kurokawa is...
+Dialogue: 0,0:01:10.67,0:01:11.54,Dialogue,,0,0,0,,...you!
+Dialogue: 0,0:01:12.13,0:01:13.76,Dialogue,,0,0,0,,H-His wife?!
+Dialogue: 0,0:01:15.01,0:01:19.06,Dialogue,,0,0,0,,The letters "JUN" that Mr. Kurokawa left behind
+Dialogue: 0,0:01:19.06,0:01:23.20,Dialogue,,0,0,0,,correspond to the English word for the six month of the year: June.
+Dialogue: 0,0:01:23.20,0:01:27.51,Dialogue,,0,0,0,,This month can also be called "Minazuki" in Japanese.
+Dialogue: 0,0:01:27.51,0:01:30.44,Dialogue,,0,0,0,,In other words, "Mina{\rHonorifics - Dialogue}-san{\r}". What's more, you—
+Dialogue: 0,0:01:30.94,0:01:35.28,Dialogue,,0,0,0,,So what if I was born in June?! So what if "Mina" is in "Minazuki"?!
+Dialogue: 0,0:01:35.28,0:01:38.16,Dialogue,,0,0,0,,You're gonna pin this on me with some lousy pun?!
+Dialogue: 0,0:01:38.16,0:01:42.09,Dialogue,,0,0,0,,No, no, this is a logical deduction based on—
+Dialogue: 0,0:01:42.09,0:01:46.76,Dialogue,,0,0,0,,Would someone on the verge of death do something so roundabout?
+Dialogue: 0,0:01:46.76,0:01:49.76,Dialogue,,0,0,0,,If it was me, I'd just type the killer's name straight out.
+Dialogue: 0,0:01:49.76,0:01:51.37,Dialogue,,0,0,0,,Not you, too, Inspector?
+Dialogue: 0,0:01:52.44,0:01:55.96,Thoughts,,0,0,0,,{\be10}That's the extent of his logic? Oh well...
+Dialogue: 0,0:01:55.96,0:01:59.45,Dialogue,,0,0,0,,Is making innocent people out to be guilty what detectives do?!
+Dialogue: 0,0:01:59.45,0:02:01.97,Thoughts,,0,0,0,,{\be10}I'll do it like always and use this Tranquilizer Watch Gun
+Dialogue: 0,0:02:01.97,0:02:04.60,Thoughts,,0,0,0,,{\be10}to have the old man sleep again!
+Dialogue: 0,0:02:07.56,0:02:08.85,Dialogue,,0,0,0,,Here it comes!
+Dialogue: 0,0:02:08.85,0:02:10.23,Dialogue,,0,0,0,,Really?! I've been waiting!
+Dialogue: 0,0:02:13.92,0:02:18.03,Dialogue,,0,0,0,,Yes. I was merely joking when I said you were the killer.
+Dialogue: 0,0:02:18.76,0:02:19.96,Dialogue,,0,0,0,,Joking?
+Dialogue: 0,0:02:19.96,0:02:22.98,Dialogue,,0,0,0,,Inspector Megure. Take a close look at the body.
+Dialogue: 0,0:02:23.95,0:02:28.91,Dialogue,,0,0,0,,Mr. Kurokawa's right pinky is the only finger with blood on it.
+Dialogue: 0,0:02:29.27,0:02:30.57,Dialogue,,0,0,0,,Indeed it is.
+Dialogue: 0,0:02:30.57,0:02:34.38,Dialogue,,0,0,0,,So, which parts of the keyboard have blood on them?
+Dialogue: 0,0:02:34.71,0:02:39.30,Dialogue,,0,0,0,,"Ke", "mu", "ro", and the uppercase English key on the left side.
+Dialogue: 0,0:02:39.84,0:02:43.93,Dialogue,,0,0,0,,The blood on the "ke", "mu", and "ro" keys came from his pinky
+Dialogue: 0,0:02:44.38,0:02:50.22,Dialogue,,0,0,0,,when Mr. Kurokawa typed "JUN" with his index finger,
+Dialogue: 0,0:02:50.22,0:02:56.19,Dialogue,,0,0,0,,but no one presses keys on the very left side with their right pinky.
+Dialogue: 0,0:02:57.10,0:03:00.87,Dialogue,,0,0,0,,Then where did the blood on that left key come from?
+Dialogue: 0,0:03:00.87,0:03:06.70,Dialogue,,0,0,0,,Most likely, Mr. Kurokawa was hit from behind by the stealthy culprit,
+Dialogue: 0,0:03:06.70,0:03:08.97,Dialogue,,0,0,0,,upon which he put his right hand to his head.
+Dialogue: 0,0:03:08.97,0:03:11.68,Dialogue,,0,0,0,,This is probably where the blood on his pinky came from.
+Dialogue: 0,0:03:11.68,0:03:14.21,Dialogue,,0,0,0,,Then, when he looked back, he was hit again,
+Dialogue: 0,0:03:14.21,0:03:19.05,Dialogue,,0,0,0,,and he knocked over the keyboard with his pinky as he fell.
+Dialogue: 0,0:03:19.05,0:03:23.45,Dialogue,,0,0,0,,In other words, the English uppercase key on the very left
+Dialogue: 0,0:03:23.45,0:03:26.89,Dialogue,,0,0,0,,was not pressed of Mr. Kurokawa's will at the time of the crime,
+Dialogue: 0,0:03:26.89,0:03:30.27,Dialogue,,0,0,0,,but just happened to be pressed as he fell instead.
+Dialogue: 0,0:03:30.80,0:03:37.60,Dialogue,,0,0,0,,Then, after the killer left, Mr. Kurokawa used the last of his strength
+Dialogue: 0,0:03:37.60,0:03:39.93,Dialogue,,0,0,0,,to press the keys in front of him...
+Dialogue: 0,0:03:42.24,0:03:43.82,Dialogue,,0,0,0,,...thinking he was typing in Japanese kana.
+Dialogue: 0,0:03:44.41,0:03:48.45,Dialogue,,0,0,0,,Then what would "JUN" have been in kana?!
+Dialogue: 0,0:03:49.18,0:03:51.62,Dialogue,,0,0,0,,"Manami"!
+Dialogue: 0,0:03:51.95,0:03:55.62,Dialogue,,0,0,0,,Yes. The housewife, Manami Nakazawa{\rHonorifics - Dialogue}-san{\r}...
+Dialogue: 0,0:03:55.62,0:03:57.52,Dialogue,,0,0,0,,You did it!
+Dialogue: 0,0:03:57.52,0:04:02.69,Dialogue,,0,0,0,,Y-You're joking, right, Detective? There's no proof, after all...
+Dialogue: 0,0:04:02.69,0:04:05.01,Dialogue,,0,0,0,,Oh, but there is proof.
+Dialogue: 0,0:04:05.43,0:04:09.53,Dialogue,,0,0,0,,You removed your slippers at the time of the crime, did you not?
+Dialogue: 0,0:04:11.00,0:04:14.64,Dialogue,,0,0,0,,Because the slippers would have made noise on the wood flooring,
+Dialogue: 0,0:04:14.64,0:04:19.15,Dialogue,,0,0,0,,making it impossible for you to sneak up on Mr. Kurokawa unnoticed.
+Dialogue: 0,0:04:19.81,0:04:21.49,Dialogue,,0,0,0,,Unbeknownst to you...
+Dialogue: 0,0:04:24.05,0:04:27.49,Dialogue,,0,0,0,,...you actually stepped in some of the blood on the ground.
+Dialogue: 0,0:04:27.49,0:04:32.91,Dialogue,,0,0,0,,The inexplicably missing bit of blood in Exhibit A proves this.
+Dialogue: 0,0:04:33.36,0:04:37.75,Dialogue,,0,0,0,,There should be blood on the bottom of your white sock!
+Dialogue: 0,0:04:42.73,0:04:48.93,Dialogue,,0,0,0,,You also said in your statement that you hadn't gotten near the body.
+Dialogue: 0,0:04:49.64,0:04:54.23,Dialogue,,0,0,0,,May I ask that we be allowed to examine the blood on your foot?
+Dialogue: 0,0:04:55.28,0:05:00.19,Dialogue,,0,0,0,,Kurokawa killed my husband one year ago.
+Dialogue: 0,0:05:01.52,0:05:05.49,Dialogue,,0,0,0,,You mean the patient my old man did heart surgery on?!
+Dialogue: 0,0:05:05.86,0:05:07.16,Dialogue,,0,0,0,,That's right!
+Dialogue: 0,0:05:07.16,0:05:11.43,Dialogue,,0,0,0,,I'm the wife of the patient who died after he operated on him drunk!
+Dialogue: 0,0:05:11.43,0:05:15.67,Dialogue,,0,0,0,,The fact no one noticed the simple changes to my hair and name
+Dialogue: 0,0:05:15.67,0:05:20.84,Dialogue,,0,0,0,,means the incident wasn't big enough for any of you to remember it.
+Dialogue: 0,0:05:21.97,0:05:27.01,Dialogue,,0,0,0,,I tried to get testimonies from the hospital staff so I could accuse him,
+Dialogue: 0,0:05:27.01,0:05:29.98,Dialogue,,0,0,0,,but not a single person would help me!
+Dialogue: 0,0:05:29.98,0:05:32.64,Dialogue,,0,0,0,,They were all afraid of Kurokawa!
+Dialogue: 0,0:05:34.25,0:05:37.46,Dialogue,,0,0,0,,So you decided to avenge your husband...
+Dialogue: 0,0:05:37.46,0:05:40.66,Dialogue,,0,0,0,,Today was the anniversary of his death...
+Dialogue: 0,0:05:40.66,0:05:42.73,Dialogue,,0,0,0,,I regret nothing!
+Dialogue: 0,0:05:42.73,0:05:45.49,Dialogue,,0,0,0,,I managed to get revenge for him!
+Dialogue: 0,0:05:58.48,0:05:59.81,Dialogue,,0,0,0,,Let's go.
+Dialogue: 0,0:06:07.35,0:06:10.80,Thoughts,,0,0,0,,{\be10}Wound up giving him all the credit again...
+Dialogue: 0,0:06:23.03,0:06:26.67,Narration Off,,0,0,0,,{\be10}I'm high school detective Shin'ichi Kudo.
+Dialogue: 0,0:06:26.67,0:06:31.04,Narration Off,,0,0,0,,{\be10}I went with old friend and classmate, Ran Mouri, to an amusement park
+Dialogue: 0,0:06:31.04,0:06:35.16,Narration Off,,0,0,0,,{\be10}where I witnessed a suspicious deal with a man dressed in black.
+Dialogue: 0,0:06:36.38,0:06:38.62,Narration Off,,0,0,0,,{\be10}I was so absorbed with watching the deal
+Dialogue: 0,0:06:38.62,0:06:42.08,Narration Off,,0,0,0,,{\be10}that I didn't notice a second man sneak up from behind me!
+Dialogue: 0,0:06:43.79,0:06:47.63,Narration Off,,0,0,0,,{\be10}He forced me to take a poison, and when I woke up...
+Dialogue: 0,0:06:47.63,0:06:50.59,Narration Off,,0,0,0,,{\be10}...my body had shrunk!
+Dialogue: 0,0:06:50.59,0:06:54.63,Narration Off,,0,0,0,,{\be10}If they learned Shin'ichi Kudo was alive, they might go after me again,
+Dialogue: 0,0:06:54.63,0:06:57.06,Narration Off,,0,0,0,,{\be10}putting all the people around me in danger!
+Dialogue: 0,0:06:57.06,0:07:00.94,Narration Off,,0,0,0,,{\be10}Per Dr. Agasa's advice, I decided to conceal my identity.
+Dialogue: 0,0:07:00.94,0:07:04.69,Narration Off,,0,0,0,,{\be10}When Ran asked my name, I quickly answered, "Conan Edogawa."
+Dialogue: 0,0:07:05.18,0:07:06.94,Narration Off,,0,0,0,,{\be10}To get information on the men,
+Dialogue: 0,0:07:06.94,0:07:10.15,Narration Off,,0,0,0,,{\be10}I wound up living with Ran and her detective father.
+Dialogue: 0,0:07:10.51,0:07:14.37,Narration Off,,0,0,0,,{\be10}But the old guy's such a bonehead detective...
+Dialogue: 0,0:07:14.37,0:07:16.75,Narration Off,,0,0,0,,{\be10}Unable to stand by and watch, I took his place
+Dialogue: 0,0:07:16.75,0:07:20.45,Narration Off,,0,0,0,,{\be10}and used my powers of deduction to solve tough case after tough case.
+Dialogue: 0,0:07:21.83,0:07:26.29,Narration Off,,0,0,0,,{\be10}As a result, the old man's now a prominent and famous detective,
+Dialogue: 0,0:07:26.29,0:07:29.26,Narration Off,,0,0,0,,{\be10}while I'm stuck doing grade school all over again.
+Dialogue: 0,0:07:29.97,0:07:32.54,Narration Off,,0,0,0,,{\be10}I even wound up in the "Detective Boys"
+Dialogue: 0,0:07:32.54,0:07:35.97,Narration Off,,0,0,0,,{\be10}with my classmates Ayumi, Genta, and Mitsuhiko.
+Dialogue: 0,0:07:38.91,0:07:42.71,Dialogue,,0,0,0,,Now let me introduce the gadgets the doctor has built for me!
+Dialogue: 0,0:07:42.71,0:07:44.31,Dialogue,,0,0,0,,First is the Tranquilizer Watch Gun!
+Dialogue: 0,0:07:45.05,0:07:47.95,Dialogue,,0,0,0,,Pressing the button while using the aiming device on the cover
+Dialogue: 0,0:07:47.95,0:07:51.95,Dialogue,,0,0,0,,will launch an tranquilizing needle that can knock a person out instantly.
+Dialogue: 0,0:07:52.46,0:07:54.91,Dialogue,,0,0,0,,Next is the Voice-Altering Bow Tie!
+Dialogue: 0,0:07:55.26,0:07:57.50,Dialogue,,0,0,0,,By adjusting the dials on the back,
+Dialogue: 0,0:07:57.50,0:08:00.87,Dialogue,,0,0,0,,I can produce all types of voices, from children to adult!
+Dialogue: 0,0:08:00.87,0:08:04.17,Dialogue,,0,0,0,,For offensive items, I have the Power Kick Shoes!
+Dialogue: 0,0:08:04.17,0:08:06.42,Dialogue,,0,0,0,,They use electricity and magnetic fields
+Dialogue: 0,0:08:06.42,0:08:09.50,Dialogue,,0,0,0,,to stimulate my feet muscles and maximize my kick power!
+Dialogue: 0,0:08:09.50,0:08:12.97,Narration Off,,0,0,0,,{\be10}To chase down criminals, I have the Turbo-Engine Skateboard!
+Dialogue: 0,0:08:14.18,0:08:20.10,Narration Off,,0,0,0,,{\be10}But as it's solar-powered, it can only be used when the sun is out.
+Dialogue: 0,0:08:20.79,0:08:22.55,Narration Off,,0,0,0,,{\be10}Whoops, can't forget this one!
+Dialogue: 0,0:08:22.55,0:08:26.46,Narration Off,,0,0,0,,{\be10}The Detective Boys' badges contain miniature transceivers
+Dialogue: 0,0:08:26.46,0:08:29.45,Narration Off,,0,0,0,,{\be10}as well as transmitters!
+Dialogue: 0,0:08:30.46,0:08:32.96,Dialogue,,0,0,0,,There are plenty of others,
+Dialogue: 0,0:08:32.96,0:08:36.37,Dialogue,,0,0,0,,but my main weapon is undoubtedly this!
+Dialogue: 0,0:08:36.37,0:08:40.07,Dialogue,,0,0,0,,Even when I'm small, my mind remains that of a sharp detective!
+Dialogue: 0,0:08:40.07,0:08:42.25,Dialogue,,0,0,0,,There is always only one truth!
+Dialogue: 0,0:08:45.71,0:08:49.17,Dialogue,,0,0,0,,"To Yusaku Kudo..." "To Mr. Yusaku Kudo..."
+Dialogue: 0,0:08:49.17,0:08:51.42,Dialogue,,0,0,0,,They're all to Dad...
+Dialogue: 0,0:08:51.82,0:08:55.45,Dialogue,,0,0,0,,Probably all fan letters anyway...
+Dialogue: 0,0:08:55.45,0:08:59.96,Dialogue,,0,0,0,,Come to think of it, I hear your father's latest Night Baron book
+Dialogue: 0,0:08:59.96,0:09:02.64,Dialogue,,0,0,0,,was a huge best seller in America, too!
+Dialogue: 0,0:09:02.64,0:09:05.70,Dialogue,,0,0,0,,Yeah. But he's in Switzerland now.
+Dialogue: 0,0:09:05.70,0:09:08.23,Dialogue,,0,0,0,,It's gotta be a pain sending him fan letters
+Dialogue: 0,0:09:08.23,0:09:11.87,Dialogue,,0,0,0,,when he's constantly traveling all over the world.
+Dialogue: 0,0:09:11.87,0:09:15.71,Dialogue,,0,0,0,,Well, the important thing is that he's getting to do what he wants.
+Dialogue: 0,0:09:15.71,0:09:17.17,Dialogue,,0,0,0,,Yeah, yeah.
+Dialogue: 0,0:09:17.17,0:09:19.94,Dialogue,,0,0,0,,Incidentally, Doc, what're you making?
+Dialogue: 0,0:09:19.94,0:09:21.33,Dialogue,,0,0,0,,A new gadget for me?
+Dialogue: 0,0:09:21.81,0:09:24.92,Dialogue,,0,0,0,,Sorry, but it's nothing that paltry.
+Dialogue: 0,0:09:24.92,0:09:29.35,Dialogue,,0,0,0,,Humankind studied the birds in the sky to create airplanes!
+Dialogue: 0,0:09:29.35,0:09:34.71,Dialogue,,0,0,0,,But no one has yet duplicated the wing-flapping mechanism of insects!
+Dialogue: 0,0:09:35.26,0:09:39.18,Dialogue,,0,0,0,,If I can create the very first one and sell it as a toy,
+Dialogue: 0,0:09:39.66,0:09:43.67,Dialogue,,0,0,0,,I'll capture the interest of children the world over!
+Dialogue: 0,0:09:43.67,0:09:47.94,Dialogue,,0,0,0,,And then I'll get oodles of money and become a billionaire!
+Dialogue: 0,0:09:51.78,0:09:54.05,Thoughts,,0,0,0,,{\be10}And just when is that gonna be reality?
+Dialogue: 0,0:09:54.05,0:09:57.82,Thoughts,,0,0,0,,{\be10}I've been hearing him say that since I was a kid...
+Dialogue: 0,0:09:57.82,0:10:01.99,Dialogue,,0,0,0,,Still, the fact I never get fan letters anymore must mean
+Dialogue: 0,0:10:01.99,0:10:04.63,Dialogue,,0,0,0,,that society has completely forgotten—
+Dialogue: 0,0:10:05.59,0:10:07.26,Dialogue,,0,0,0,,It's to me.
+Dialogue: 0,0:10:07.26,0:10:09.02,Dialogue,,0,0,0,,"Teiji Moriya"?
+Dialogue: 0,0:10:10.69,0:10:13.00,Dialogue,,0,0,0,,{\i1}The{\i0} Teiji Moriya?
+Dialogue: 0,0:10:13.00,0:10:16.09,Dialogue,,0,0,0,,"Please forgive the suddenness of my letter."
+Dialogue: 0,0:10:16.63,0:10:19.54,Dialogue,,0,0,0,,"I've heard much about your exploits as a high school detective
+Dialogue: 0,0:10:19.54,0:10:23.18,Dialogue,,0,0,0,,in the newspapers and on television,
+Dialogue: 0,0:10:23.18,0:10:28.39,Dialogue,,0,0,0,,and very much wanted the chance to speak with you in person."
+Dialogue: 0,0:10:28.39,0:10:32.27,Dialogue,,0,0,0,,"As such, I would like to invite you to the afternoon tea garden party
+Dialogue: 0,0:10:32.85,0:10:39.24,Dialogue,,0,0,0,,I am holding at my home on Tuesday, April 29, at 3:30 PM."
+Dialogue: 0,0:10:39.76,0:10:42.35,Dialogue,,0,0,0,,"I do hope that you will attend."
+Dialogue: 0,0:10:43.45,0:10:46.33,Dialogue,,0,0,0,,Oh, so it's a party invitation?
+Dialogue: 0,0:10:46.33,0:10:48.79,Dialogue,,0,0,0,,Doc. You know who Teiji Moriya is, right?
+Dialogue: 0,0:10:49.20,0:10:50.97,Dialogue,,0,0,0,,I most certainly do!
+Dialogue: 0,0:10:50.97,0:10:53.30,Dialogue,,0,0,0,,He's an architecture professor at Tohto University,
+Dialogue: 0,0:10:53.30,0:10:55.91,Dialogue,,0,0,0,,and one of the best architects in all of Japan!
+Dialogue: 0,0:10:55.91,0:10:59.64,Dialogue,,0,0,0,,Why would such a big shot want to invite me?
+Dialogue: 0,0:10:59.64,0:11:05.55,Dialogue,,0,0,0,,Architecture is art, so he's probably always looking for inspiration.
+Dialogue: 0,0:11:05.55,0:11:09.64,Dialogue,,0,0,0,,Plus, Professor Moriya is a master genius just like me!
+Dialogue: 0,0:11:14.99,0:11:17.69,Thoughts,,0,0,0,,{\be10}Master genius, indeed...
+Dialogue: 0,0:11:18.50,0:11:19.67,Dialogue,,0,0,0,,A garden party?
+Dialogue: 0,0:11:19.67,0:11:24.84,Dialogue,,0,0,0,,Yeah. I can't make it, seeing as I'm in the middle of this one case...
+Dialogue: 0,0:11:24.84,0:11:27.14,Dialogue,,0,0,0,,So you want me to go in your place?
+Dialogue: 0,0:11:27.14,0:11:30.27,Dialogue,,0,0,0,,The invitation said companions are welcome too,
+Dialogue: 0,0:11:30.27,0:11:33.18,Dialogue,,0,0,0,,so you should go with your dad and that one kid living with you—
+Dialogue: 0,0:11:33.18,0:11:34.38,Dialogue,,0,0,0,,What's his name again?
+Dialogue: 0,0:11:34.38,0:11:35.11,Radio,,0,0,0,,{\be10}Conan{\rHonorifics - Radio\be10}-kun{\r\be10}?
+Dialogue: 0,0:11:35.48,0:11:41.15,Dialogue,,0,0,0,,Yeah. You three should go. The invitation's in your mailbox now.
+Dialogue: 0,0:11:41.15,0:11:45.42,Dialogue,,0,0,0,,Geez! You hardly ever call, and when you do, it's for selfish reasons!
+Dialogue: 0,0:11:45.42,0:11:47.56,Dialogue,,0,0,0,,Okay! But on one condition!
+Dialogue: 0,0:11:47.56,0:11:48.63,Dialogue,,0,0,0,,Condition?
+Dialogue: 0,0:11:48.63,0:11:52.33,Dialogue,,0,0,0,,See an all-night movie with me next Saturday!
+Dialogue: 0,0:11:52.33,0:11:53.10,Dialogue,,0,0,0,,Eh?!
+Dialogue: 0,0:11:53.53,0:11:56.17,Dialogue,,0,0,0,,Come on! I haven't seen you in a while!
+Dialogue: 0,0:11:56.17,0:11:58.82,Dialogue,,0,0,0,,Meet me in the lobby of the Beika Cinema at 10:00 PM!
+Dialogue: 0,0:11:59.20,0:12:03.45,Dialogue,,0,0,0,,W-Wait! Next Saturday's no good! Maybe later on when—
+Dialogue: 0,0:12:03.45,0:12:06.32,Dialogue,,0,0,0,,No! We have to go during May!
+Dialogue: 0,0:12:07.75,0:12:10.88,Dialogue,,0,0,0,,Say, which do you like better, red or blue?
+Dialogue: 0,0:12:10.88,0:12:13.78,Dialogue,,0,0,0,,Red or blue? What brought that on?
+Dialogue: 0,0:12:13.78,0:12:15.79,Dialogue,,0,0,0,,Just answer!
+Dialogue: 0,0:12:15.79,0:12:17.79,Dialogue,,0,0,0,,Well, red, I guess?
+Dialogue: 0,0:12:18.32,0:12:22.76,Dialogue,,0,0,0,,Red? I should've guessed! That's what I was going to say, too!
+Dialogue: 0,0:12:23.49,0:12:26.49,Thoughts,,0,0,0,,{\be10}Well, red is your favorite color...
+Dialogue: 0,0:12:27.06,0:12:29.03,Dialogue,,0,0,0,,Hey, where's dinner?
+Dialogue: 0,0:12:29.03,0:12:31.40,Dialogue,,0,0,0,,Yes, yes, I'll get right on it.
+Dialogue: 0,0:12:31.40,0:12:35.23,Dialogue,,0,0,0,,Alright, Shin'ichi! The night of the 3rd, at 10:00! Don't forget now!
+Dialogue: 0,0:12:35.87,0:12:37.41,Dialogue,,0,0,0,,Wait!
+Dialogue: 0,0:12:37.41,0:12:38.41,Dialogue,,0,0,0,,Geez.
+Dialogue: 0,0:12:38.41,0:12:43.28,Dialogue,,0,0,0,,If I could see a movie, I wouldn't have said I couldn't make a party.
+Dialogue: 0,0:12:45.15,0:12:49.15,Thoughts,,0,0,0,,{\be10}Still, why does it have to be May 3rd?
+Dialogue: 0,0:12:49.15,0:12:51.62,Thoughts,,0,0,0,,{\be10}Did something happen on that day?
+Dialogue: 0,0:12:51.62,0:12:57.71,Thoughts,,0,0,0,,{\be10}May 4th is when Holmes and Moriarty fell into the Reichenbach Falls,
+Dialogue: 0,0:12:57.71,0:13:00.73,Thoughts,,0,0,0,,{\be10}and May 5th is Children's Day...
+Dialogue: 0,0:13:00.73,0:13:02.05,Dialogue,,0,0,0,,Hey, Conan{\rHonorifics - Dialogue}-kun{\r}!
+Dialogue: 0,0:13:02.57,0:13:04.09,Dialogue,,0,0,0,,On your way home?
+Dialogue: 0,0:13:04.09,0:13:05.95,Dialogue,,0,0,0,,Inspector! On another case?!
+Dialogue: 0,0:13:05.95,0:13:08.00,Dialogue,,0,0,0,,Yes, on a couple...
+Dialogue: 0,0:13:08.00,0:13:13.34,Dialogue,,0,0,0,,Oh, let me introduce you. This is my newest assistant, Shiratori{\rHonorifics - Dialogue}-kun{\r}.
+Dialogue: 0,0:13:13.34,0:13:17.55,Dialogue,,0,0,0,,My name's Shiratori. The Inspector's told me about you.
+Dialogue: 0,0:13:17.55,0:13:19.90,Dialogue,,0,0,0,,I hear you notice interesting things...
+Dialogue: 0,0:13:20.38,0:13:22.98,Dialogue,,0,0,0,,No, it's all just coincidence!
+Dialogue: 0,0:13:24.05,0:13:27.95,Dialogue,,0,0,0,,Yes. Multiple coincidences are common...
+Dialogue: 0,0:13:28.86,0:13:29.91,Thoughts,,0,0,0,,{\be10}Well, I'll be!
+Dialogue: 0,0:13:30.49,0:13:34.16,Dialogue,,0,0,0,,With all these incidents, I won't get to relax during Golden Week.
+Dialogue: 0,0:13:34.16,0:13:35.50,Dialogue,,0,0,0,,Bye!
+Dialogue: 0,0:13:37.84,0:13:39.74,Dialogue,,0,0,0,,Golden Week?
+Dialogue: 0,0:13:39.74,0:13:41.33,Dialogue,,0,0,0,,Oh, yeah!
+Dialogue: 0,0:13:42.94,0:13:46.28,Dialogue,,0,0,0,,May 3rd is Constitution Memorial Day!
+Dialogue: 0,0:13:46.28,0:13:48.13,Dialogue,,0,0,0,,And that's gotta do with what?
+Dialogue: 0,0:13:48.68,0:13:50.09,Dialogue,,0,0,0,,Birthday?
+Dialogue: 0,0:13:50.09,0:13:54.22,Dialogue,,0,0,0,,That's right! May 4th is Shin'ichi's birthday!
+Dialogue: 0,0:13:54.22,0:13:57.15,Dialogue,,0,0,0,,My plan is to invite him to an all-night movie on May 3rd,
+Dialogue: 0,0:13:57.15,0:14:01.39,Dialogue,,0,0,0,,and then surprise him by handing him a red polo shirt for a present
+Dialogue: 0,0:14:01.39,0:14:03.07,Dialogue,,0,0,0,,when the clock strikes midnight!
+Dialogue: 0,0:14:03.39,0:14:06.86,Thoughts,,0,0,0,,{\be10}Oh, yeah! May 4th is my birthday!
+Dialogue: 0,0:14:06.86,0:14:08.03,Thoughts,,0,0,0,,{\be10}I totally forgot...
+Dialogue: 0,0:14:08.50,0:14:11.34,Dialogue,,0,0,0,,So what movie are you seein'?
+Dialogue: 0,0:14:11.34,0:14:12.87,Dialogue,,0,0,0,,"Legend of the Red Thread".
+Dialogue: 0,0:14:12.87,0:14:13.99,Dialogue,,0,0,0,,Red thread?
+Dialogue: 0,0:14:14.41,0:14:16.14,Dialogue,,0,0,0,,Oh, you never heard of it?
+Dialogue: 0,0:14:16.14,0:14:19.44,Dialogue,,0,0,0,,It's a romantic movie based on a story about a man and a woman
+Dialogue: 0,0:14:19.44,0:14:25.38,Dialogue,,0,0,0,,whose pinkies were connected by a red thread of destiny since birth!
+Dialogue: 0,0:14:25.38,0:14:27.67,Thoughts,,0,0,0,,{\be10}Ick! That's so girly...
+Dialogue: 0,0:14:27.67,0:14:32.35,Dialogue,,0,0,0,,And look! Both Shin'ichi and I have red as our lucky color for May!
+Dialogue: 0,0:14:32.79,0:14:35.31,Dialogue,,0,0,0,,So I decided that we gotta see this!
+Dialogue: 0,0:14:35.31,0:14:39.94,Thoughts,,0,0,0,,{\be10}That's nice, but there's no way I can see it with you...
+Dialogue: 0,0:14:41.17,0:14:45.53,Dialogue,,0,0,0,,Hold on! Didn't you say this was an all-night movie?!
+Dialogue: 0,0:14:45.53,0:14:46.70,Dialogue,,0,0,0,,That's right...
+Dialogue: 0,0:14:46.70,0:14:49.17,Dialogue,,0,0,0,,Forget it! I forbid it!
+Dialogue: 0,0:14:49.17,0:14:53.71,Dialogue,,0,0,0,,A young man and woman getting all cozy in the dark, late at night—
+Dialogue: 0,0:14:53.71,0:14:57.28,Dialogue,,0,0,0,,It's not like that! Don't be creepy!
+Dialogue: 0,0:14:57.28,0:15:01.19,Dialogue,,0,0,0,,Shin'ichi always forgets his birthday!
+Dialogue: 0,0:15:01.19,0:15:04.29,Dialogue,,0,0,0,,I have to remind him every year!
+Dialogue: 0,0:15:04.29,0:15:06.38,Dialogue,,0,0,0,,Otherwise he'd just get older and older!
+Dialogue: 0,0:15:08.06,0:15:09.92,Thoughts,,0,0,0,,{\be10}Though I'm actually smaller now...
+Dialogue: 0,0:15:09.92,0:15:14.03,Dialogue,,0,0,0,,Yeah, but... He's still in high school—
+Dialogue: 0,0:15:14.03,0:15:15.53,Dialogue,,0,0,0,,Oh, yeah!
+Dialogue: 0,0:15:15.53,0:15:19.10,Dialogue,,0,0,0,,Dad! Let's go to Teiji Moriya's garden party!
+Dialogue: 0,0:15:19.10,0:15:20.77,Dialogue,,0,0,0,,W-What brought that on?
+Dialogue: 0,0:15:21.47,0:15:25.68,Dialogue,,0,0,0,,Shin'ichi was actually the one invited, but he can't make it...
+Dialogue: 0,0:15:25.68,0:15:27.43,Dialogue,,0,0,0,,Wanna come too, Conan{\rHonorifics - Dialogue}-kun{\r}?
+Dialogue: 0,0:15:27.43,0:15:29.48,Dialogue,,0,0,0,,Yeah! I do!
+Dialogue: 0,0:15:29.48,0:15:32.57,Dialogue,,0,0,0,,Like we can really go, using an invitation for Shin'ichi!
+Dialogue: 0,0:15:33.15,0:15:36.49,Dialogue,,0,0,0,,Teiji Moriya is a famous architect, right?
+Dialogue: 0,0:15:36.49,0:15:40.18,Dialogue,,0,0,0,,It'd be a historical meeting between great detective and great architect!
+Dialogue: 0,0:15:41.93,0:15:45.04,Dialogue,,0,0,0,,Great detective and great architect, huh?!
+Dialogue: 0,0:15:46.50,0:15:49.66,Thoughts,,0,0,0,,{\be10}He is so easy to manipulate...
+Dialogue: 0,0:15:56.17,0:15:59.07,Dialogue,,0,0,0,,Conan{\rHonorifics - Dialogue}-kun{\r}! Wait! We need the invitation!
+Dialogue: 0,0:16:04.88,0:16:05.94,Dialogue,,0,0,0,,Enjoy yourselves!
+Dialogue: 0,0:16:05.94,0:16:06.94,Dialogue,,0,0,0,,Thanks!
+Dialogue: 0,0:16:12.69,0:16:13.82,Dialogue,,0,0,0,,Wow!
+Dialogue: 0,0:16:14.32,0:16:19.16,Dialogue,,0,0,0,,Truly a building from 17th century England's House of Stewart era!
+Dialogue: 0,0:16:21.60,0:16:23.93,Dialogue,,0,0,0,,You know a lot about architecture, Dad!
+Dialogue: 0,0:16:23.93,0:16:27.60,Dialogue,,0,0,0,,Yes, I was once known as the Walking Library!
+Dialogue: 0,0:16:27.60,0:16:30.63,Dialogue,,0,0,0,,More importantly, look closely at the left and right sides.
+Dialogue: 0,0:16:35.71,0:16:36.81,Dialogue,,0,0,0,,Hey, look!
+Dialogue: 0,0:16:36.81,0:16:39.68,Dialogue,,0,0,0,,When you stand in the middle, the left and right sides look the same!
+Dialogue: 0,0:16:40.75,0:16:42.43,Dialogue,,0,0,0,,The garden and the building!
+Dialogue: 0,0:16:42.95,0:16:46.40,Dialogue,,0,0,0,,This is what they call "symmetry"!
+Dialogue: 0,0:16:47.29,0:16:51.03,Dialogue,,0,0,0,,Professor Moriya lived in England until high school,
+Dialogue: 0,0:16:51.03,0:16:55.03,Dialogue,,0,0,0,,so he is quite fond of English-style architecture. In particular—
+Dialogue: 0,0:16:55.53,0:16:58.34,Dialogue,,0,0,0,,In particular, uhh...
+Dialogue: 0,0:16:58.34,0:17:02.34,Dialogue,,0,0,0,,His keenness for classical-style symmetry is remarkable!
+Dialogue: 0,0:17:02.34,0:17:04.58,Thoughts,,0,0,0,,{\be10}A cheat sheet...
+Dialogue: 0,0:17:05.08,0:17:10.04,Dialogue,,0,0,0,,He even changed how he writes "Teiji" to give his name symmetry!
+Dialogue: 0,0:17:10.54,0:17:12.30,Thoughts,,0,0,0,,{\be10}Almost sounds like a disease...
+Dialogue: 0,0:17:12.80,0:17:15.80,Dialogue,,0,0,0,,This is the first time I've seen such a wonderful garden!
+Dialogue: 0,0:17:16.30,0:17:18.99,Dialogue,,0,0,0,,I thank you for your kind praise!
+Dialogue: 0,0:17:18.99,0:17:20.68,Dialogue,,0,0,0,,Hello, I am Teiji Moriya.
+Dialogue: 0,0:17:21.20,0:17:25.26,Dialogue,,0,0,0,,I-I'm Ran Mouri! This is my father, and Conan Edogawa{\rHonorifics - Dialogue}-kun{\r}.
+Dialogue: 0,0:17:25.26,0:17:29.27,Dialogue,,0,0,0,,Shin'ichi—I mean, Kudo{\rHonorifics - Dialogue}-kun{\r}—couldn't make it today,
+Dialogue: 0,0:17:29.27,0:17:30.44,Dialogue,,0,0,0,,so we came in his place!
+Dialogue: 0,0:17:32.60,0:17:35.40,Dialogue,,0,0,0,,I see. So Kudo{\rHonorifics - Dialogue}-kun{\r} couldn't come...
+Dialogue: 0,0:17:35.90,0:17:39.64,Dialogue,,0,0,0,,But this man's a famous detective, too!
+Dialogue: 0,0:17:39.64,0:17:42.30,Dialogue,,0,0,0,,Hey! Whadya mean, "too"?!
+Dialogue: 0,0:17:46.02,0:17:47.65,Dialogue,,0,0,0,,I'm Kogoro Mouri.
+Dialogue: 0,0:17:47.65,0:17:51.29,Dialogue,,0,0,0,,Oh! You're that famous detective! Pleasure to meet you!
+Dialogue: 0,0:17:54.56,0:17:57.59,Dialogue,,0,0,0,,Right this way. The party is in the rear garden.
+Dialogue: 0,0:17:59.33,0:18:02.13,Dialogue,,0,0,0,,The rear garden is just as wonderful!
+Dialogue: 0,0:18:02.13,0:18:04.68,Thoughts,,0,0,0,,{\be10}Just what I'd expect from a famous architect's party—
+Dialogue: 0,0:18:05.18,0:18:10.81,Thoughts,,0,0,0,,{\be10}musicians, models, corporate execs, critics, and celebrities...
+Dialogue: 0,0:18:10.81,0:18:13.57,Thoughts,,0,0,0,,{\be10}All famous people from TV...
+Dialogue: 0,0:18:14.07,0:18:17.87,Dialogue,,0,0,0,,Please, make yourselves at home this afternoon!
+Dialogue: 0,0:18:19.62,0:18:22.99,Dialogue,,0,0,0,,How pretty! Are these all homemade?
+Dialogue: 0,0:18:22.99,0:18:28.39,Dialogue,,0,0,0,,But of course. It's only proper to serve homemade food at a tea party.
+Dialogue: 0,0:18:28.39,0:18:30.06,Dialogue,,0,0,0,,Please, have some.
+Dialogue: 0,0:18:30.06,0:18:30.79,Dialogue,,0,0,0,,Thank you!
+Dialogue: 0,0:18:32.96,0:18:35.43,Dialogue,,0,0,0,,How does it taste?
+Dialogue: 0,0:18:35.43,0:18:37.40,Dialogue,,0,0,0,,These cookies are delicious!
+Dialogue: 0,0:18:37.40,0:18:39.60,Dialogue,,0,0,0,,I'm glad to hear it!
+Dialogue: 0,0:18:39.60,0:18:42.30,Dialogue,,0,0,0,,Spending all night making them was worth it!
+Dialogue: 0,0:18:42.80,0:18:45.26,Dialogue,,0,0,0,,Oh, Professor! You cook?!
+Dialogue: 0,0:18:46.31,0:18:48.95,Dialogue,,0,0,0,,I might not look it, but I am single.
+Dialogue: 0,0:18:48.95,0:18:54.19,Dialogue,,0,0,0,,All the food here—the scones, sandwiches, cookies—I made it all.
+Dialogue: 0,0:18:54.69,0:18:57.78,Dialogue,,0,0,0,,I'm the type who isn't satisfied unless I do everything myself...
+Dialogue: 0,0:18:58.28,0:19:02.99,Dialogue,,0,0,0,,I see! That's the mentality that produces all those beautiful buildings?
+Dialogue: 0,0:19:03.96,0:19:08.13,Dialogue,,0,0,0,,I do not consider something architecture if it is not beautiful!
+Dialogue: 0,0:19:08.13,0:19:11.21,Dialogue,,0,0,0,,Most young architects these days lack artistic sense!
+Dialogue: 0,0:19:11.71,0:19:15.84,Dialogue,,0,0,0,,They need to feel much more responsibility for their works!
+Dialogue: 0,0:19:18.04,0:19:22.45,Dialogue,,0,0,0,,Incidentally, Mouri{\rHonorifics - Dialogue}-san{\r}. Would you mind if I posed a quiz?
+Dialogue: 0,0:19:22.45,0:19:24.18,Dialogue,,0,0,0,,A quiz?
+Dialogue: 0,0:19:24.18,0:19:27.78,Dialogue,,0,0,0,,Yes. The goal is to deduce the password to a computer
+Dialogue: 0,0:19:27.78,0:19:29.68,Dialogue,,0,0,0,,that three men use for their business,
+Dialogue: 0,0:19:30.62,0:19:35.15,Dialogue,,0,0,0,,though I'm sure it will take the great Kogoro Mouri{\rHonorifics - Dialogue}-san{\r} no time at all.
+Dialogue: 0,0:19:36.13,0:19:38.77,Dialogue,,0,0,0,,- He's the famous Kogoro Mouri{\rHonorifics - Dialogue}-san{\r}!\N- This'll be great!
+Dialogue: 0,0:19:38.77,0:19:40.22,Dialogue,,0,0,0,,Certainly!
+Dialogue: 0,0:19:40.22,0:19:40.99,Dialogue,,0,0,0,,Go ahead!
+Dialogue: 0,0:19:41.49,0:19:42.95,Thoughts,,0,0,0,,{\be10}Hey, now. You gonna be alright?
+Dialogue: 0,0:19:43.45,0:19:46.94,Dialogue,,0,0,0,,Well, then, here is the data on those three people.
+Dialogue: 0,0:19:46.94,0:19:50.66,Dialogue,,0,0,0,,The password is a five-character word based on their commonalities.
+Dialogue: 0,0:19:51.77,0:19:53.80,Dialogue,,0,0,0,,Would you like to try too, Ran{\rHonorifics - Dialogue}-san{\r}?
+Dialogue: 0,0:19:55.13,0:20:00.05,Dialogue,,0,0,0,,You have three minutes to solve it. Please think it over, everyone.
+Dialogue: 0,0:20:05.96,0:20:07.81,Dialogue,,0,0,0,,Ready, begin!
+Dialogue: 0,0:20:09.89,0:20:12.14,Dialogue,,0,0,0,,Their names have no common characters...
+Dialogue: 0,0:20:13.00,0:20:17.87,Dialogue,,0,0,0,,Their birthdates and blood types are all different, as are their hobbies.
+Dialogue: 0,0:20:17.87,0:20:20.61,Dialogue,,0,0,0,,This is harder than I thought...
+Dialogue: 0,0:20:21.11,0:20:23.78,Dialogue,,0,0,0,,What could it be? Do you suppose they have something in common?
+Dialogue: 0,0:20:42.01,0:20:46.20,Dialogue,,0,0,0,,I give up. I think I'll wait for the pro's answer.
+Dialogue: 0,0:20:46.20,0:20:47.47,Dialogue,,0,0,0,,Same here...
+Dialogue: 0,0:20:50.80,0:20:53.33,Dialogue,,0,0,0,,Do you think Dad'll be all right?
+Dialogue: 0,0:20:54.27,0:20:57.73,Thoughts,,0,0,0,,{\be10}Wait, these three people were each born a year apart...
+Dialogue: 0,0:21:01.17,0:21:02.07,Thoughts,,0,0,0,,{\be10}I got it!
+Dialogue: 0,0:21:03.08,0:21:04.28,Dialogue,,0,0,0,,It's Momotaro!
+Dialogue: 0,0:21:05.78,0:21:07.62,Dialogue,,0,0,0,,M-Momotaro?!
+Dialogue: 0,0:21:07.62,0:21:09.03,Dialogue,,0,0,0,,It's their Chinese zodiac signs!
+Dialogue: 0,0:21:09.53,0:21:12.56,Dialogue,,0,0,0,,The years of the monkey, the rooster, and the dog...
+Dialogue: 0,0:21:12.56,0:21:16.75,Dialogue,,0,0,0,,A monkey, a bird, and a dog were all Momotaro's retainers!
+Dialogue: 0,0:21:18.21,0:21:21.66,Dialogue,,0,0,0,,Correct, little boy! Most impressive!
+Dialogue: 0,0:21:24.88,0:21:27.84,Thoughts,,0,0,0,,{\be10}Gotta have embarrassments sometimes too, old man!
+Dialogue: 0,0:21:29.24,0:21:31.31,Dialogue,,0,0,0,,Seeing as you've solved the puzzle,
+Dialogue: 0,0:21:31.31,0:21:35.65,Dialogue,,0,0,0,,I'll give you a special tour of my gallery, Conan{\rHonorifics - Dialogue}-kun{\r}!
+Dialogue: 0,0:21:35.65,0:21:37.18,Dialogue,,0,0,0,,You may come too, Ran{\rHonorifics - Dialogue}-san{\r}!
+Dialogue: 0,0:21:37.18,0:21:37.81,Dialogue,,0,0,0,,Okay!
+Dialogue: 0,0:21:40.05,0:21:41.77,Dialogue,,0,0,0,,Please feel free to look around!
+Dialogue: 0,0:21:53.36,0:21:57.03,Dialogue,,0,0,0,,Huh? Ran{\rHonorifics - Dialogue}-neechan{\r}! Isn't this that one house?
+Dialogue: 0,0:21:58.87,0:22:00.04,Dialogue,,0,0,0,,Oh, it is!
+Dialogue: 0,0:22:00.04,0:22:01.74,Dialogue,,0,0,0,,It's Kurokawa{\rHonorifics - Dialogue}-san{\r}'s mansion!
+Dialogue: 0,0:22:01.74,0:22:05.28,Dialogue,,0,0,0,,Speaking of which, wasn't Kurokawa{\rHonorifics - Dialogue}-san{\r} murdered?
+Dialogue: 0,0:22:05.28,0:22:06.61,Dialogue,,0,0,0,,Yes...
+Dialogue: 0,0:22:06.61,0:22:10.81,Dialogue,,0,0,0,,I designed this house very shortly after I struck out on my own.
+Dialogue: 0,0:22:10.81,0:22:14.48,Dialogue,,0,0,0,,Everything beyond it is from my 30s.
+Dialogue: 0,0:22:16.39,0:22:20.02,Dialogue,,0,0,0,,I was still inept in my youth. Please don't pay them much attention...
+Dialogue: 0,0:22:21.19,0:22:22.65,Thoughts,,0,0,0,,{\be10}He's even designed a bridge...
+Dialogue: 0,0:22:23.15,0:22:26.94,Dialogue,,0,0,0,,Incidentally, Ran{\rHonorifics - Dialogue}-san{\r}. Are you and Kudo{\rHonorifics - Dialogue}-kun{\r} very close?
+Dialogue: 0,0:22:27.44,0:22:29.30,Dialogue,,0,0,0,,Yes, I suppose!
+Dialogue: 0,0:22:29.30,0:22:32.64,Dialogue,,0,0,0,,We grew up together, and we go to the same high school!
+Dialogue: 0,0:22:32.64,0:22:34.41,Dialogue,,0,0,0,,Though I haven't seen him at all recently...
+Dialogue: 0,0:22:36.57,0:22:39.01,Dialogue,,0,0,0,,But this Sunday, Shin'ichi—
+Dialogue: 0,0:22:39.01,0:22:43.42,Dialogue,,0,0,0,,No, he and I have a date to see a movie on his birthday!
+Dialogue: 0,0:22:43.92,0:22:46.92,Dialogue,,0,0,0,,Oh, that sounds like fun!
+Dialogue: 0,0:22:46.92,0:22:49.13,Dialogue,,0,0,0,,I take it you've already gotten him a present?
+Dialogue: 0,0:22:49.63,0:22:51.95,Dialogue,,0,0,0,,No, on Saturday I'm going to—
+Dialogue: 0,0:22:51.95,0:22:55.49,Dialogue,,0,0,0,,He and I both like the color red!
+Dialogue: 0,0:22:55.49,0:22:58.90,Dialogue,,0,0,0,,And we both have red as our lucky color for May!
+Dialogue: 0,0:22:58.90,0:23:01.98,Dialogue,,0,0,0,,So I was thinking of giving him a red polo shirt!
+Dialogue: 0,0:23:03.43,0:23:07.77,Dialogue,,0,0,0,,That sounds like a marvelous present! I'm sure Kudo{\rHonorifics - Dialogue}-kun{\r} will love it!
+Dialogue: 0,0:23:07.77,0:23:08.40,Dialogue,,0,0,0,,Thanks!
+Dialogue: 0,0:23:08.90,0:23:12.28,Thoughts,,0,0,0,,{\be10}Crap! I haven't figured out what to do on my birthday!
+Dialogue: 0,0:23:13.28,0:23:17.15,Dialogue,,0,0,0,,Oh? Isn't this the Beika City Building?
+Dialogue: 0,0:23:17.15,0:23:17.75,Dialogue,,0,0,0,,That's right.
+Dialogue: 0,0:23:18.92,0:23:22.25,Dialogue,,0,0,0,,We're seeing the movie in this building, in Beika Cinema 1!
+Dialogue: 0,0:23:22.25,0:23:24.46,Dialogue,,0,0,0,,We're meeting in the lobby at 10:00 on the night of the 3rd!
+Dialogue: 0,0:23:24.96,0:23:29.46,Dialogue,,0,0,0,,Is that so? This building is one of my best works...
+Dialogue: 0,0:23:29.46,0:23:34.68,Dialogue,,0,0,0,,There's no better place for a young couple to celebrate a birthday at!
+Dialogue: 0,0:23:35.18,0:23:37.62,Thoughts,,0,0,0,,{\be10}W-What am I gonna do?
+Dialogue: 0,0:23:41.62,0:23:44.27,Dialogue,,0,0,0,,Well, order something for dinner, okay?
+Dialogue: 0,0:23:44.27,0:23:44.94,Dialogue,,0,0,0,,Okay...
+Dialogue: 0,0:23:45.44,0:23:48.24,Dialogue,,0,0,0,,Ten hours until 10:00 at night...
+Dialogue: 0,0:23:48.24,0:23:49.82,Dialogue,,0,0,0,,I am so screwed...
+Dialogue: 0,0:23:53.99,0:23:55.92,Dialogue,,0,0,0,,See you later!
+Dialogue: 0,0:23:55.92,0:23:57.70,Dialogue,,0,0,0,,What am I hiding for?
+Dialogue: 0,0:23:58.62,0:24:01.16,Dialogue,,0,0,0,,I told you to turn her down earlier!
+Dialogue: 0,0:24:01.66,0:24:03.46,Dialogue,,0,0,0,,I couldn't help it!
+Dialogue: 0,0:24:03.46,0:24:06.90,Dialogue,,0,0,0,,I couldn't turn Ran down after seeing her check her calendar
+Dialogue: 0,0:24:06.90,0:24:09.47,Dialogue,,0,0,0,,so happily everyday!
+Dialogue: 0,0:24:09.47,0:24:12.13,Dialogue,,0,0,0,,Doc, build me a fancy Shin'ichi robot!
+Dialogue: 0,0:24:12.63,0:24:16.67,Dialogue,,0,0,0,,I'm afraid that's not possible, even for a genius like me!
+Dialogue: 0,0:24:16.67,0:24:17.10,Thoughts,,0,0,0,,{\be10}Didn't think so...
+Dialogue: 0,0:24:18.31,0:24:20.88,Radio,,0,0,0,,{\be10}Two days ago, a large amount of explosives,
+Dialogue: 0,0:24:20.88,0:24:23.69,Radio,,0,0,0,,{\be10}containing octogen, was stolen from a Toyo Munitions warehouse.
+Dialogue: 0,0:24:24.21,0:24:28.45,Radio,,0,0,0,,{\be10}The police have mobilized over 100 officers for the investigation,
+Dialogue: 0,0:24:28.45,0:24:30.35,Radio,,0,0,0,,{\be10}but no clues have been found yet.
+Dialogue: 0,0:24:30.35,0:24:32.15,Dialogue,,0,0,0,,Talk about scary...
+Dialogue: 0,0:24:33.19,0:24:37.89,Dialogue,,0,0,0,,Yeah. Octogen molded together with plastic makes plastic explosives.
+Dialogue: 0,0:24:37.89,0:24:41.58,Radio,,0,0,0,,{\be10}—Kurokawa mansion burned down, including several nearby houses.
+Dialogue: 0,0:24:42.50,0:24:44.90,Dialogue,,0,0,0,,That's the Kurokawa house from the other day!
+Dialogue: 0,0:24:44.90,0:24:47.70,Dialogue,,0,0,0,,Yes, where that murder took place...
+Dialogue: 0,0:24:47.70,0:24:50.61,Dialogue,,0,0,0,,There sure have been a lot of arsons lately...
+Dialogue: 0,0:24:50.61,0:24:55.51,Radio,,0,0,0,,{\be10}—the police believe the same person is responsible for this fire—
+Dialogue: 0,0:24:57.01,0:24:58.88,Dialogue,,0,0,0,,Yes, hello?
+Dialogue: 0,0:24:58.88,0:25:00.88,Radio,,0,0,0,,{\be10}Is Shin'ichi Kudo there?
+Dialogue: 0,0:25:00.88,0:25:02.06,Dialogue,,0,0,0,,Just a minute.
+Dialogue: 0,0:25:02.92,0:25:04.82,Dialogue,,0,0,0,,It's for you, Shin'ichi.
+Dialogue: 0,0:25:04.82,0:25:06.02,Dialogue,,0,0,0,,How do they know I'm here?!
+Dialogue: 0,0:25:06.52,0:25:13.49,Dialogue,,0,0,0,,Don't be silly! You know all calls to your house get routed here now!
+Dialogue: 0,0:25:14.53,0:25:17.00,Dialogue,,0,0,0,,Oh, right! My bad...
+Dialogue: 0,0:25:17.00,0:25:20.95,Dialogue,,0,0,0,,But I never get calls anymore, so I completely forgot.
+Dialogue: 0,0:25:21.45,0:25:26.17,Dialogue,,0,0,0,,He sounds odd, as if he's using a voice changer too!
+Dialogue: 0,0:25:27.01,0:25:27.42,Dialogue,,0,0,0,,Hello?
+Dialogue: 0,0:25:27.92,0:25:29.40,Radio,,0,0,0,,{\be10}Shin'ichi Kudo?
+Dialogue: 0,0:25:29.40,0:25:30.25,Dialogue,,0,0,0,,Yes.
+Dialogue: 0,0:25:30.25,0:25:34.28,Radio,,0,0,0,,{\be10}You catch the news? I stole the explosives from Toyo Munitions!
+Dialogue: 0,0:25:34.28,0:25:34.88,Dialogue,,0,0,0,,What?!
+Dialogue: 0,0:25:35.38,0:25:39.52,Radio,,0,0,0,,{\be10}Think you could give me your cell phone number?
+Dialogue: 0,0:25:39.52,0:25:41.85,Dialogue,,0,0,0,,I have no obligation to give it to you!
+Dialogue: 0,0:25:42.35,0:25:47.06,Radio,,0,0,0,,{\be10}Oh, so you don't care if your only contact with me gets cut?
+Dialogue: 0,0:25:48.93,0:25:50.02,Dialogue,,0,0,0,,Alright. The number is—
+Dialogue: 0,0:25:54.07,0:25:58.84,Radio,,0,0,0,,{\be10}Alright. Now take your phone and come to Green Park on the Teimuzu River.
+Dialogue: 0,0:25:58.84,0:26:00.87,Radio,,0,0,0,,{\be10}I have something interesting to show you!
+Dialogue: 0,0:26:01.37,0:26:02.78,Dialogue,,0,0,0,,Green Park?!
+Dialogue: 0,0:26:02.78,0:26:04.33,Radio,,0,0,0,,{\be10}Better hurry before some kids die!
+Dialogue: 0,0:26:04.33,0:26:05.13,Dialogue,,0,0,0,,What?!
+Dialogue: 0,0:26:06.79,0:26:07.78,Dialogue,,0,0,0,,Shin'ichi!
+Dialogue: 0,0:26:07.78,0:26:09.32,Dialogue,,0,0,0,,I gotta check it out!
+Dialogue: 0,0:26:09.32,0:26:10.95,Dialogue,,0,0,0,,You sure it's not just a prank call?
+Dialogue: 0,0:26:10.95,0:26:13.42,Dialogue,,0,0,0,,Using a voice changer is too much to be a prank!
+Dialogue: 0,0:26:14.32,0:26:16.23,Dialogue,,0,0,0,,Contact Inspector Megure, Doc!
+Dialogue: 0,0:26:16.23,0:26:17.38,Dialogue,,0,0,0,,Right! Be careful, now!
+Dialogue: 0,0:26:17.88,0:26:18.97,Dialogue,,0,0,0,,Yeah, yeah!
+Dialogue: 0,0:26:50.42,0:26:52.76,Dialogue,,0,0,0,,C'mon, Mitsuhiko! Lemme fly it now!
+Dialogue: 0,0:26:52.76,0:26:54.10,Dialogue,,0,0,0,,I want to try, too!
+Dialogue: 0,0:26:54.10,0:26:56.00,Dialogue,,0,0,0,,Hold on a minute.
+Dialogue: 0,0:26:56.00,0:26:59.17,Dialogue,,0,0,0,,Piloting a remote-control plane is quite tough...
+Dialogue: 0,0:26:59.17,0:27:01.89,Dialogue,,0,0,0,,Hey, Mitsuhiko! Where'd you get that plane?!
+Dialogue: 0,0:27:02.39,0:27:03.41,Dialogue,,0,0,0,,Conan{\rHonorifics - Dialogue}-kun{\r}!
+Dialogue: 0,0:27:03.41,0:27:05.91,Dialogue,,0,0,0,,A man with a beard gave it to us!
+Dialogue: 0,0:27:05.91,0:27:07.60,Dialogue,,0,0,0,,He said it was a bomber plane!
+Dialogue: 0,0:27:08.58,0:27:09.85,Dialogue,,0,0,0,,A bomber plane?!
+Dialogue: 0,0:27:10.35,0:27:12.86,Thoughts,,0,0,0,,{\be10}That thing beneath its fuselage...
+Dialogue: 0,0:27:13.36,0:27:14.32,Thoughts,,0,0,0,,{\be10}...could it be a bomb?!
+Dialogue: 0,0:27:14.32,0:27:15.81,Dialogue,,0,0,0,,Gimme that, Mitsuhiko!
+Dialogue: 0,0:27:15.81,0:27:18.51,Dialogue,,0,0,0,,What?! It's my turn next!
+Dialogue: 0,0:27:18.51,0:27:19.99,Dialogue,,0,0,0,,There's a bomb on that plane!
+Dialogue: 0,0:27:21.99,0:27:22.41,Dialogue,,0,0,0,,You idiots!
+Dialogue: 0,0:27:23.53,0:27:24.79,Dialogue,,0,0,0,,Oh no!
+Dialogue: 0,0:27:24.79,0:27:26.26,Dialogue,,0,0,0,,The antenna broke off!
+Dialogue: 0,0:27:26.26,0:27:27.75,Dialogue,,0,0,0,,Conan{\rHonorifics - Dialogue}-kun{\r}! The plane!
+Dialogue: 0,0:27:29.66,0:27:31.50,Dialogue,,0,0,0,,It's no use! Everyone, run!
+Dialogue: 0,0:27:33.20,0:27:35.00,Dialogue,,0,0,0,,You idiots! Not that way!
+Dialogue: 0,0:27:36.50,0:27:37.21,Dialogue,,0,0,0,,Conan! Do something!
+Dialogue: 0,0:27:37.71,0:27:39.05,Dialogue,,0,0,0,,Damn it!
+Dialogue: 0,0:27:45.97,0:27:46.76,Thoughts,,0,0,0,,{\be10}Not good!
+Dialogue: 0,0:27:49.19,0:27:49.68,Dialogue,,0,0,0,,Go!
+Dialogue: 0,0:27:59.57,0:28:00.92,Dialogue,,0,0,0,,What blew up?
+Dialogue: 0,0:28:00.92,0:28:01.74,Dialogue,,0,0,0,,Fireworks?
+Dialogue: 0,0:28:01.74,0:28:03.03,Dialogue,,0,0,0,,It was a plane!
+Dialogue: 0,0:28:05.16,0:28:08.23,Dialogue,,0,0,0,,An orange flash! Plastic explosives!
+Dialogue: 0,0:28:13.44,0:28:14.91,Dialogue,,0,0,0,,What's the big idea?!
+Dialogue: 0,0:28:14.91,0:28:16.25,Radio,,0,0,0,,{\be10}Where's Kudo?
+Dialogue: 0,0:28:16.25,0:28:17.35,Thoughts,,0,0,0,,{\be10}Crap!
+Dialogue: 0,0:28:17.35,0:28:22.05,Radio,,0,0,0,,{\be10}Ah, so he's saying a brat like you is enough to handle me...
+Dialogue: 0,0:28:22.05,0:28:23.39,Thoughts,,0,0,0,,{\be10}"Like you"?
+Dialogue: 0,0:28:23.39,0:28:24.39,Thoughts,,0,0,0,,{\be10}Is he watching me from somewhere?!
+Dialogue: 0,0:28:28.39,0:28:29.63,Radio,,0,0,0,,{\be10}Alright, listen up!
+Dialogue: 0,0:28:29.63,0:28:32.31,Radio,,0,0,0,,{\be10}In exactly one hour, another bomb will explode!
+Dialogue: 0,0:28:32.31,0:28:34.27,Dialogue,,0,0,0,,Exactly one hour?!
+Dialogue: 0,0:28:34.27,0:28:36.73,Radio,,0,0,0,,{\be10}In the plaza in front of Beika Station!
+Dialogue: 0,0:28:36.73,0:28:40.30,Radio,,0,0,0,,{\be10}If Kudo won't come, then you find it!
+Dialogue: 0,0:28:40.30,0:28:44.21,Dialogue,,0,0,0,,Wait! I'm just a kid; I can't find it that easy!
+Dialogue: 0,0:28:44.21,0:28:45.36,Dialogue,,0,0,0,,Gimme a hint or something!
+Dialogue: 0,0:28:46.21,0:28:47.32,Radio,,0,0,0,,{\be10}Hello?
+Dialogue: 0,0:28:47.82,0:28:51.98,Radio,,0,0,0,,{\be10}Beneath a tree. But it's not exactly buried beneath one.
+Dialogue: 0,0:28:51.98,0:28:55.29,Radio,,0,0,0,,{\be10}You better hurry, or someone might wind up taking it!
+Dialogue: 0,0:28:58.38,0:28:59.66,Thoughts,,0,0,0,,{\be10}Damn it!
+Dialogue: 0,0:28:59.66,0:29:00.69,Dialogue,,0,0,0,,Conan{\rHonorifics - Dialogue}-kun{\r}!
+Dialogue: 0,0:29:00.69,0:29:02.30,Dialogue,,0,0,0,,Hey, Conan! Where are you going?!
+Dialogue: 0,0:29:21.54,0:29:22.65,Thoughts,,0,0,0,,{\be10}Ten to 1:00!
+Dialogue: 0,0:29:31.37,0:29:33.00,Thoughts,,0,0,0,,{\be10}No luck! Can't find anything!
+Dialogue: 0,0:29:43.76,0:29:44.76,Dialogue,,0,0,0,,Welcome!
+Dialogue: 0,0:29:50.51,0:29:52.98,Thoughts,,0,0,0,,{\be10}What does "under a tree" mean?!
+Dialogue: 0,0:29:52.98,0:29:55.14,Thoughts,,0,0,0,,{\be10}And what does he mean that someone'll take it?!
+Dialogue: 0,0:30:00.48,0:30:03.45,Dialogue,,0,0,0,,"Please, someone take her."
+Dialogue: 0,0:30:06.59,0:30:09.79,Dialogue,,0,0,0,,Did someone abandon you? You poor thing...
+Dialogue: 0,0:30:09.79,0:30:13.73,Dialogue,,0,0,0,,Don't worry! I'll take care of you!
+Dialogue: 0,0:30:16.50,0:30:19.90,Thoughts,,0,0,0,,{\be10}Roots are beneath a tree...
+Dialogue: 0,0:30:16.50,0:30:19.90,Signs,,0,0,0,,nekko
+Dialogue: 0,0:30:19.90,0:30:20.75,Thoughts,,0,0,0,,{\be10}A cat?!
+Dialogue: 0,0:30:19.90,0:30:20.75,Signs,,0,0,0,,neko
+Dialogue: 0,0:30:24.17,0:30:25.64,Dialogue,,0,0,0,,Thank you!
+Dialogue: 0,0:30:25.64,0:30:26.13,Dialogue,,0,0,0,,Huh?
+Dialogue: 0,0:30:29.30,0:30:32.14,Dialogue,,0,0,0,,Wait, old lady!
+Dialogue: 0,0:30:32.64,0:30:35.35,Dialogue,,0,0,0,,You idiot! Can't you see the stoplight?!
+Dialogue: 0,0:30:35.35,0:30:36.68,Dialogue,,0,0,0,,S-Sorry!
+Dialogue: 0,0:30:39.56,0:30:40.94,Dialogue,,0,0,0,,Oh no!
+Dialogue: 0,0:30:41.44,0:30:42.40,Dialogue,,0,0,0,,Five minutes to 1:00!
+Dialogue: 0,0:30:42.90,0:30:43.68,Dialogue,,0,0,0,,Dammit!
+Dialogue: 0,0:30:59.58,0:31:00.79,Dialogue,,0,0,0,,Four minutes to 1:00!
+Dialogue: 0,0:31:04.63,0:31:07.46,Dialogue,,0,0,0,,Alright! She's caught in traffic!
+Dialogue: 0,0:31:07.96,0:31:09.80,Dialogue,,0,0,0,,What's going on?! The sun is still high up...
+Dialogue: 0,0:31:10.29,0:31:13.76,Dialogue,,0,0,0,,Oh, yeah! It must've broken somewhere when it went flying!
+Dialogue: 0,0:31:20.63,0:31:23.00,Dialogue,,0,0,0,,I'm borrowin' your bike, kid!
+Dialogue: 0,0:31:23.00,0:31:23.56,Dialogue,,0,0,0,,Wait!
+Dialogue: 0,0:31:25.82,0:31:29.03,Dialogue,,0,0,0,,Huh? "Kid"? I'm younger than him?!
+Dialogue: 0,0:31:32.86,0:31:34.37,Dialogue,,0,0,0,,Oh no! It's starting to move!
+Dialogue: 0,0:31:34.87,0:31:35.66,Dialogue,,0,0,0,,Three minutes to 1:00!
+Dialogue: 0,0:31:36.16,0:31:41.00,Dialogue,,0,0,0,,Hey, yeah! This road makes a big curve to the left!
+Dialogue: 0,0:31:53.90,0:31:55.47,Dialogue,,0,0,0,,A-Are you alright, kid?!
+Dialogue: 0,0:31:55.47,0:31:57.39,Dialogue,,0,0,0,,Gimme this case, old lady!
+Dialogue: 0,0:32:00.64,0:32:01.48,Dialogue,,0,0,0,,25 seconds left!
+Dialogue: 0,0:32:01.98,0:32:03.94,Dialogue,,0,0,0,,Hey, kid! Are you alright?!
+Dialogue: 0,0:32:03.94,0:32:04.44,Dialogue,,0,0,0,,Yeah...
+Dialogue: 0,0:32:04.44,0:32:05.90,Thoughts,,0,0,0,,{\be10}Damn!
+Dialogue: 0,0:32:05.90,0:32:08.73,Thoughts,,0,0,0,,{\be10}I can't let it detonate here! What do I do?!
+Dialogue: 0,0:32:11.45,0:32:12.70,Thoughts,,0,0,0,,{\be10}It stopped?! Alright!
+Dialogue: 0,0:32:14.58,0:32:16.91,Thoughts,,0,0,0,,{\be10}I'm pretty sure there's an empty lot past the freeway!
+Dialogue: 0,0:32:20.62,0:32:22.29,Dialogue,,0,0,0,,You don't need this?
+Dialogue: 0,0:32:26.29,0:32:27.25,Dialogue,,0,0,0,,It's ticking again!
+Dialogue: 0,0:33:02.16,0:33:04.60,Dialogue,,0,0,0,,Yeah, this is the one!
+Dialogue: 0,0:33:04.60,0:33:07.07,Dialogue,,0,0,0,,- Ooh, how flashy!\N- But this color is—
+Dialogue: 0,0:33:07.07,0:33:11.81,Radio,,0,0,0,,{\be10}After being injured trying to distance the device from people's homes,
+Dialogue: 0,0:33:11.81,0:33:15.09,Radio,,0,0,0,,{\be10}the boy was rushed to the police hospital, where he is being treated.
+Dialogue: 0,0:33:33.86,0:33:35.36,Dialogue,,0,0,0,,Conan{\rHonorifics - Dialogue}-kun{\r}! You're awake!
+Dialogue: 0,0:33:35.36,0:33:37.39,Dialogue,,0,0,0,,Conan! You okay?!
+Dialogue: 0,0:33:38.77,0:33:39.56,Dialogue,,0,0,0,,Where am I?
+Dialogue: 0,0:33:39.56,0:33:40.66,Dialogue,,0,0,0,,The hospital!
+Dialogue: 0,0:33:40.66,0:33:43.58,Dialogue,,0,0,0,,Conan! What the hell were you doing?!
+Dialogue: 0,0:33:43.58,0:33:44.37,Dialogue,,0,0,0,,Now, now...
+Dialogue: 0,0:33:44.37,0:33:46.21,Dialogue,,0,0,0,,Explain so I can understand!
+Dialogue: 0,0:33:46.21,0:33:48.68,Dialogue,,0,0,0,,Your questions can wait! Go get the doctor!
+Dialogue: 0,0:33:48.68,0:33:49.43,Dialogue,,0,0,0,,Conan!
+Dialogue: 0,0:33:49.43,0:33:50.96,Dialogue,,0,0,0,,I'll get him!
+Dialogue: 0,0:34:00.26,0:34:01.22,Dialogue,,0,0,0,,Right.
+Dialogue: 0,0:34:01.22,0:34:03.06,Dialogue,,0,0,0,,Nothing to worry about now.
+Dialogue: 0,0:34:03.06,0:34:07.33,Dialogue,,0,0,0,,His brain waves were just fine when we checked earlier,
+Dialogue: 0,0:34:07.33,0:34:09.57,Dialogue,,0,0,0,,so he can probably leave tomorrow.
+Dialogue: 0,0:34:09.57,0:34:11.11,Dialogue,,0,0,0,,Thank you...
+Dialogue: 0,0:34:12.74,0:34:13.76,Dialogue,,0,0,0,,Take care.
+Dialogue: 0,0:34:13.76,0:34:15.47,Dialogue,,0,0,0,,Take care of yourself.
+Dialogue: 0,0:34:18.24,0:34:21.91,Dialogue,,0,0,0,,Sorry to be sudden, Conan{\rHonorifics - Dialogue}-kun{\r}, but can you tell us what happened?!
+Dialogue: 0,0:34:22.41,0:34:23.87,Dialogue,,0,0,0,,Yeah!
+Dialogue: 0,0:34:26.85,0:34:27.98,Dialogue,,0,0,0,,I see...
+Dialogue: 0,0:34:27.98,0:34:33.19,Dialogue,,0,0,0,,So you rode the bike to protect others from the explosion?
+Dialogue: 0,0:34:33.19,0:34:34.02,Dialogue,,0,0,0,,Yeah...
+Dialogue: 0,0:34:34.02,0:34:35.80,Dialogue,,0,0,0,,Oh, Inspector!
+Dialogue: 0,0:34:36.30,0:34:40.72,Dialogue,,0,0,0,,The culprit makes contact by calling Shin'ichi{\rHonorifics - Dialogue}-niichan{\r}'s cell phone!
+Dialogue: 0,0:34:41.22,0:34:43.51,Dialogue,,0,0,0,,But you can't use cell phones in hospitals...
+Dialogue: 0,0:34:44.01,0:34:46.10,Dialogue,,0,0,0,,Oh, there's no need to worry.
+Dialogue: 0,0:34:46.10,0:34:49.14,Dialogue,,0,0,0,,We're isolated from that ward there,
+Dialogue: 0,0:34:49.14,0:34:52.44,Dialogue,,0,0,0,,and there are no electronic medical devices here,
+Dialogue: 0,0:34:52.44,0:34:55.48,Dialogue,,0,0,0,,so cell phones can be used here!
+Dialogue: 0,0:34:55.98,0:35:00.55,Dialogue,,0,0,0,,Dr. Agasa explained the situation, which is why we brought you here!
+Dialogue: 0,0:35:00.55,0:35:01.45,Dialogue,,0,0,0,,That's a relief...
+Dialogue: 0,0:35:01.95,0:35:05.39,Dialogue,,0,0,0,,Also, I ruined that bicycle...
+Dialogue: 0,0:35:05.39,0:35:08.12,Dialogue,,0,0,0,,Could you pay for it later, mister?
+Dialogue: 0,0:35:08.12,0:35:12.23,Dialogue,,0,0,0,,Never mind that—why did you do something so reckless?!
+Dialogue: 0,0:35:12.23,0:35:14.93,Dialogue,,0,0,0,,You nearly died, you know!
+Dialogue: 0,0:35:14.93,0:35:15.46,Dialogue,,0,0,0,,Sorry...
+Dialogue: 0,0:35:15.96,0:35:22.10,Dialogue,,0,0,0,,Anyways, where is Shin'ichi?! The guy's trying to call him, right?!
+Dialogue: 0,0:35:22.10,0:35:24.74,Dialogue,,0,0,0,,As I said, Shin'ichi{\rHonorifics - Dialogue}-kun{\r} is busy with something else,
+Dialogue: 0,0:35:24.74,0:35:26.93,Dialogue,,0,0,0,,so he asked Conan{\rHonorifics - Dialogue}-kun{\r} to handle this...
+Dialogue: 0,0:35:27.43,0:35:31.98,Dialogue,,0,0,0,,What a lowlife! I'll teach him a lesson next time I see him!
+Dialogue: 0,0:35:31.98,0:35:35.19,Thoughts,,0,0,0,,{\be10}Definitely can't tell him {\i1}I'm{\i0} Shin'ichi Kudo...
+Dialogue: 0,0:35:36.94,0:35:39.99,Dialogue,,0,0,0,,Anyway, Inspector! Did you find out what kind of bombs they were?!
+Dialogue: 0,0:35:40.49,0:35:41.42,Dialogue,,0,0,0,,Yes.
+Dialogue: 0,0:35:41.42,0:35:46.79,Dialogue,,0,0,0,,Both the plane and the carrying case bombs used plastic explosives.
+Dialogue: 0,0:35:47.90,0:35:49.12,Thoughts,,0,0,0,,{\be10}Just as I thought...
+Dialogue: 0,0:35:55.50,0:36:00.13,Thoughts,,0,0,0,,{\be10}A blue-tinged, orange flash is the telltale sign of a plastic explosive!
+Dialogue: 0,0:36:01.44,0:36:04.97,Dialogue,,0,0,0,,They were most likely explosives stolen from Toyo Munitions.
+Dialogue: 0,0:36:05.47,0:36:10.22,Dialogue,,0,0,0,,The plane had a concussion bomb with a detonator cap attached,
+Dialogue: 0,0:36:10.22,0:36:14.94,Dialogue,,0,0,0,,while the carrying case had a time bomb connected to a timer.
+Dialogue: 0,0:36:15.44,0:36:20.90,Dialogue,,0,0,0,,But the fact it temporarily stopped 16 seconds before 1:00 bugs me...
+Dialogue: 0,0:36:21.40,0:36:22.24,Dialogue,,0,0,0,,About that...
+Dialogue: 0,0:36:23.20,0:36:27.00,Dialogue,,0,0,0,,The only possibilities are that the timer stopped due to a malfunction,
+Dialogue: 0,0:36:27.00,0:36:33.96,Dialogue,,0,0,0,,or that the culprit stopped it remotely for whatever reason...
+Dialogue: 0,0:36:34.81,0:36:38.45,Dialogue,,0,0,0,,From the fact that the culprit went out of his way to phone Kudo{\rHonorifics - Dialogue}-kun{\r},
+Dialogue: 0,0:36:38.45,0:36:42.88,Dialogue,,0,0,0,,he either wanted to challenge the famous high school detective,
+Dialogue: 0,0:36:43.75,0:36:47.32,Dialogue,,0,0,0,,or he's someone with a personal grudge against him.
+Dialogue: 0,0:36:47.32,0:36:48.68,Dialogue,,0,0,0,,From what I've looked into,
+Dialogue: 0,0:36:49.18,0:36:52.23,Dialogue,,0,0,0,,all the criminals from cases solved by Shin'ichi Kudo{\rHonorifics - Dialogue}-kun{\r}
+Dialogue: 0,0:36:52.23,0:36:54.64,Dialogue,,0,0,0,,are currently serving out their prison sentences.
+Dialogue: 0,0:36:55.14,0:36:58.23,Dialogue,,0,0,0,,Meaning it must be a relative or lover...
+Dialogue: 0,0:36:58.23,0:37:03.61,Dialogue,,0,0,0,,In any case, we're out looking for the man from the sketch they drew.
+Dialogue: 0,0:37:04.11,0:37:06.58,Dialogue,,0,0,0,,He means this, Conan! It looks just like him!
+Dialogue: 0,0:37:06.58,0:37:07.48,Dialogue,,0,0,0,,It's a work of art!
+Dialogue: 0,0:37:07.48,0:37:09.64,Dialogue,,0,0,0,,We all drew it together!
+Dialogue: 0,0:37:12.01,0:37:14.25,Dialogue,,0,0,0,,You really got his main features!
+Dialogue: 0,0:37:14.25,0:37:16.89,Thoughts,,0,0,0,,{\be10}But it doesn't ring any bells...
+Dialogue: 0,0:37:16.89,0:37:19.88,Thoughts,,0,0,0,,{\be10}He used a voice changer to alter his voice!
+Dialogue: 0,0:37:20.59,0:37:23.92,Thoughts,,0,0,0,,{\be10}It could be someone I know!
+Dialogue: 0,0:37:24.42,0:37:28.26,Dialogue,,0,0,0,,Inspector. Out of all of Shin'ichi{\rHonorifics - Dialogue}-kun{\r}'s cases so far,
+Dialogue: 0,0:37:28.26,0:37:31.99,Dialogue,,0,0,0,,which one received the most public attention?
+Dialogue: 0,0:37:34.30,0:37:40.48,Dialogue,,0,0,0,,That'd be the one involving Mayor Okamoto of West Tama City...
+Dialogue: 0,0:37:41.98,0:37:44.74,Dialogue,,0,0,0,,A 25 year old female office worker living in West Tama City died
+Dialogue: 0,0:37:44.74,0:37:49.62,Dialogue,,0,0,0,,when she was hit by a car the mayor's son was driving.
+Dialogue: 0,0:38:04.92,0:38:07.09,Dialogue,,0,0,0,,The mayor had been in the passenger seat
+Dialogue: 0,0:38:07.09,0:38:11.22,Dialogue,,0,0,0,,during what at first seemed to be a regular accident...
+Dialogue: 0,0:38:11.72,0:38:14.85,Dialogue,,0,0,0,,...but Kudo{\rHonorifics - Dialogue}-kun{\r} was skeptical about it.
+Dialogue: 0,0:38:30.29,0:38:34.49,Dialogue,,0,0,0,,This cigarette butt was found lying directly next to the victim.
+Dialogue: 0,0:38:35.60,0:38:37.16,Dialogue,,0,0,0,,The son's saliva was found on it.
+Dialogue: 0,0:38:38.10,0:38:39.50,Dialogue,,0,0,0,,So you tossed this away?
+Dialogue: 0,0:38:39.50,0:38:41.34,Dialogue,,0,0,0,,Y-Yes.
+Dialogue: 0,0:38:41.34,0:38:44.59,Dialogue,,0,0,0,,After I hit her, I rushed out of the driver's seat and over to her.
+Dialogue: 0,0:38:45.74,0:38:48.55,Dialogue,,0,0,0,,I probably unconsciously threw it away then.
+Dialogue: 0,0:38:51.55,0:38:52.75,Dialogue,,0,0,0,,I see.
+Dialogue: 0,0:38:52.75,0:38:57.35,Dialogue,,0,0,0,,Judging from its length, it hadn't been lit for very long at all.
+Dialogue: 0,0:38:57.35,0:38:59.86,Dialogue,,0,0,0,,Yes, it happened just after I lit it.
+Dialogue: 0,0:38:59.86,0:39:00.72,Dialogue,,0,0,0,,With a lighter?
+Dialogue: 0,0:39:00.72,0:39:01.62,Dialogue,,0,0,0,,Yes.
+Dialogue: 0,0:39:01.62,0:39:03.06,Dialogue,,0,0,0,,What lighter did you use?
+Dialogue: 0,0:39:04.19,0:39:05.78,Dialogue,,0,0,0,,The car's cigarette lighter.
+Dialogue: 0,0:39:07.23,0:39:11.24,Dialogue,,0,0,0,,Then please get in the driver's seat and try lighting a cigarette!
+Dialogue: 0,0:39:16.77,0:39:18.08,Dialogue,,0,0,0,,You need only go through the actions.
+Dialogue: 0,0:39:21.54,0:39:24.71,Dialogue,,0,0,0,,But... with your seatbelt on, please.
+Dialogue: 0,0:39:24.71,0:39:25.70,Dialogue,,0,0,0,,Okay.
+Dialogue: 0,0:39:28.48,0:39:29.80,Dialogue,,0,0,0,,Here...
+Dialogue: 0,0:39:30.32,0:39:32.26,Dialogue,,0,0,0,,Use one of these.
+Dialogue: 0,0:39:32.76,0:39:36.33,Dialogue,,0,0,0,,They're the same kind as the one found at the scene.
+Dialogue: 0,0:39:36.33,0:39:37.39,Dialogue,,0,0,0,,Alright...
+Dialogue: 0,0:39:46.40,0:39:47.73,Dialogue,,0,0,0,,Stop!
+Dialogue: 0,0:39:48.23,0:39:49.07,Dialogue,,0,0,0,,Yes...
+Dialogue: 0,0:39:49.07,0:39:53.37,Dialogue,,0,0,0,,The only way to reach it from the driver's seat is with your left hand.
+Dialogue: 0,0:39:54.41,0:39:59.33,Dialogue,,0,0,0,,But that lighter only had fingerprints from your right hand on it.
+Dialogue: 0,0:39:59.83,0:40:02.29,Dialogue,,0,0,0,,How do you explain that, Kohei{\rHonorifics - Dialogue}-san{\r}?
+Dialogue: 0,0:40:02.79,0:40:04.99,Dialogue,,0,0,0,,I must've used my own lighter to—
+Dialogue: 0,0:40:04.99,0:40:06.21,Dialogue,,0,0,0,,Nope.
+Dialogue: 0,0:40:07.75,0:40:12.13,Dialogue,,0,0,0,,You accidentally left this lighter where you had just been.
+Dialogue: 0,0:40:12.13,0:40:15.26,Dialogue,,0,0,0,,And your father doesn't smoke...
+Dialogue: 0,0:40:18.06,0:40:23.02,Dialogue,,0,0,0,,You unquestionably used this car's lighter from the passenger seat...
+Dialogue: 0,0:40:23.97,0:40:26.98,Dialogue,,0,0,0,,...as your father sat next to you, driving!
+Dialogue: 0,0:40:28.21,0:40:32.01,Dialogue,,0,0,0,,All other fingerprints were craftily replaced...
+Dialogue: 0,0:40:32.01,0:40:35.85,Dialogue,,0,0,0,,Even the seat positions and mirror angles were perfect...
+Dialogue: 0,0:40:35.85,0:40:42.69,Dialogue,,0,0,0,,But it seems you overlooked the cigarette lighter, Mayor Okamoto...
+Dialogue: 0,0:40:47.60,0:40:54.97,Dialogue,,0,0,0,,My son, Kohei, volunteered to take my place to save my position...
+Dialogue: 0,0:40:56.71,0:41:00.71,Dialogue,,0,0,0,,I was really the one driving!
+Dialogue: 0,0:41:00.71,0:41:02.98,Dialogue,,0,0,0,,I'm so very sorry!
+Dialogue: 0,0:41:05.65,0:41:07.02,Thoughts,,0,0,0,,{\be10}Dad...
+Dialogue: 0,0:41:10.02,0:41:13.89,Dialogue,,0,0,0,,As a result of that incident, Mayor Okamoto lost his position,
+Dialogue: 0,0:41:13.89,0:41:20.20,Dialogue,,0,0,0,,and his plans for a revitalized West Tama City were scrapped.
+Dialogue: 0,0:41:22.66,0:41:27.13,Dialogue,,0,0,0,,Inspector. Do you suppose his son holds a grudge for what happened?
+Dialogue: 0,0:41:28.37,0:41:33.42,Dialogue,,0,0,0,,Come to think of it, he was an electrical engineering student...
+Dialogue: 0,0:41:33.92,0:41:35.14,Dialogue,,0,0,0,,I'll look into it!
+Dialogue: 0,0:41:38.18,0:41:41.64,Dialogue,,0,0,0,,Do you remember anything else about the culprit?
+Dialogue: 0,0:41:42.14,0:41:44.14,Dialogue,,0,0,0,,Anything at all...
+Dialogue: 0,0:41:46.64,0:41:48.44,Dialogue,,0,0,0,,Hmm...
+Dialogue: 0,0:41:51.13,0:41:52.03,Dialogue,,0,0,0,,A smell...
+Dialogue: 0,0:41:53.78,0:41:58.32,Dialogue,,0,0,0,,There was this sweet smell when he gave Mitsuhiko{\rHonorifics - Dialogue}-kun{\r} the plane...
+Dialogue: 0,0:41:58.83,0:42:02.27,Dialogue,,0,0,0,,There was? I didn't notice anything!
+Dialogue: 0,0:42:02.27,0:42:03.29,Dialogue,,0,0,0,,Me neither...
+Dialogue: 0,0:42:03.79,0:42:07.28,Dialogue,,0,0,0,,Could the sweet smell have been from cosmetics or something?
+Dialogue: 0,0:42:07.28,0:42:12.42,Dialogue,,0,0,0,,I don't know. But it seemed different from perfume...
+Dialogue: 0,0:42:12.92,0:42:14.88,Thoughts,,0,0,0,,{\be10}A sweet smell?
+Dialogue: 0,0:42:15.38,0:42:19.49,Dialogue,,0,0,0,,Alright. If you remember anything, let me know.
+Dialogue: 0,0:42:19.49,0:42:20.68,Dialogue,,0,0,0,,We will!
+Dialogue: 0,0:42:21.62,0:42:24.79,Dialogue,,0,0,0,,Well, we should probably get going...
+Dialogue: 0,0:42:24.79,0:42:27.60,Dialogue,,0,0,0,,Yeah. Conan is all better now...
+Dialogue: 0,0:42:29.90,0:42:33.13,Dialogue,,0,0,0,,If anything bad happens, I'll rush straight here!
+Dialogue: 0,0:42:33.13,0:42:34.57,Dialogue,,0,0,0,,Y-Yeah, thanks...
+Dialogue: 0,0:42:35.07,0:42:36.87,Dialogue,,0,0,0,,He's so lucky...
+Dialogue: 0,0:42:36.87,0:42:39.03,Dialogue,,0,0,0,,We should get hospitalized, too!
+Dialogue: 0,0:42:39.53,0:42:43.49,Dialogue,,0,0,0,,You certainly are popular with the girls, loverboy!
+Dialogue: 0,0:42:45.15,0:42:46.91,Thoughts,,0,0,0,,{\be10}He has no idea how to read people...
+Dialogue: 0,0:42:47.82,0:42:49.87,Dialogue,,0,0,0,,Well, bye!
+Dialogue: 0,0:42:49.87,0:42:50.99,Dialogue,,0,0,0,,See ya, Conan!
+Dialogue: 0,0:42:50.99,0:42:52.38,Dialogue,,0,0,0,,Thanks!
+Dialogue: 0,0:42:52.88,0:42:57.22,Dialogue,,0,0,0,,Still, where could Kudo{\rHonorifics - Dialogue}-kun{\r} have gone at such an important time?!
+Dialogue: 0,0:43:05.18,0:43:06.54,Dialogue,,0,0,0,,Wait, Conan!
+Dialogue: 0,0:43:06.54,0:43:08.60,Dialogue,,0,0,0,,Listen. If it's the bomber, I'll handle him!
+Dialogue: 0,0:43:11.51,0:43:12.57,Dialogue,,0,0,0,,Hello?
+Dialogue: 0,0:43:12.57,0:43:15.91,Radio,,0,0,0,,{\be10}I'm impressed you found the bombs. Well done.
+Dialogue: 0,0:43:15.91,0:43:19.65,Radio,,0,0,0,,{\be10}But children's time is over. Put Kudo on!
+Dialogue: 0,0:43:21.91,0:43:24.41,Dialogue,,0,0,0,,Yes, now it's adult time!
+Dialogue: 0,0:43:24.91,0:43:27.04,Radio,,0,0,0,,{\be10}Who's this?! Where's Kudo?!
+Dialogue: 0,0:43:27.54,0:43:32.09,Dialogue,,0,0,0,,Kudo isn't here! Now you're dealing with me!
+Dialogue: 0,0:43:32.09,0:43:35.00,Dialogue,,0,0,0,,The great detective, Kogoro Mouri!
+Dialogue: 0,0:43:36.53,0:43:40.57,Radio,,0,0,0,,{\be10}Fine. Now listen close; I'll only say this once!
+Dialogue: 0,0:43:40.57,0:43:44.14,Radio,,0,0,0,,{\be10}I've planted five bombs on the Tohto Loop Line!
+Dialogue: 0,0:43:44.64,0:43:45.47,Dialogue,,0,0,0,,Five—
+Dialogue: 0,0:43:45.97,0:43:47.22,Dialogue,,0,0,0,,—bombs?!
+Dialogue: 0,0:43:51.35,0:43:58.55,Radio,,0,0,0,,{\be10}If any trains travel below 60 km/h after 4:00 PM, the bombs'll blow.
+Dialogue: 0,0:43:58.55,0:44:03.66,Radio,,0,0,0,,{\be10}They're also set to explode if not dismantled by sundown.
+Dialogue: 0,0:44:04.16,0:44:06.12,Radio,,0,0,0,,{\be10}I'll give you just one hint...
+Dialogue: 0,0:44:08.41,0:44:13.83,Radio,,0,0,0,,{\be10}The bombs are planted "X the X" on the Tohto Loop Line.
+Dialogue: 0,0:44:13.83,0:44:16.81,Radio,,0,0,0,,{\be10}In each "X" goes one word.
+Dialogue: 0,0:44:16.81,0:44:20.47,Radio,,0,0,0,,{\be10}Well, good luck, Great Detective Mouri.
+Dialogue: 0,0:44:24.89,0:44:29.55,Dialogue,,0,0,0,,H-He's just bluffing! Planting bombs on the Loop...
+Dialogue: 0,0:44:29.55,0:44:31.06,Dialogue,,0,0,0,,No, he means business.
+Dialogue: 0,0:44:31.56,0:44:36.02,Dialogue,,0,0,0,,He most likely has the detonators set for 4:00 PM,
+Dialogue: 0,0:44:36.02,0:44:41.36,Dialogue,,0,0,0,,and if the trains fall below 60 km/h after that... they'll explode.
+Dialogue: 0,0:44:44.91,0:44:48.20,Dialogue,,0,0,0,,In any case, I need to contact HQ...
+Dialogue: 0,0:44:50.74,0:44:52.67,Dialogue,,0,0,0,,It's Megure...
+Dialogue: 0,0:44:52.67,0:44:55.40,Thoughts,,0,0,0,,{\be10}I agree with Inspector Megure...
+Dialogue: 0,0:44:57.58,0:45:04.68,Thoughts,,0,0,0,,{\be10}But what exactly is the bomber after?! Why do something like this?!
+Dialogue: 0,0:45:17.90,0:45:19.63,Dialogue,,0,0,0,,Just made it!
+Dialogue: 0,0:45:19.63,0:45:21.03,Dialogue,,0,0,0,,Today's our lucky day!
+Dialogue: 0,0:45:26.01,0:45:26.95,Dialogue,,0,0,0,,Bombs on the Loop?!
+Dialogue: 0,0:45:27.47,0:45:30.68,Dialogue,,0,0,0,,We just received emergency contact from the police department!
+Dialogue: 0,0:45:30.68,0:45:33.64,Dialogue,,0,0,0,,Understood! I'll stop all trains at once and have them inspected!
+Dialogue: 0,0:45:33.64,0:45:36.42,Dialogue,,0,0,0,,No! We can't stop them!
+Dialogue: 0,0:45:36.42,0:45:43.96,Dialogue,,0,0,0,,The bombs'll explode if the trains go below 60 km/h after 4:00 PM!
+Dialogue: 0,0:45:45.23,0:45:46.18,Dialogue,,0,0,0,,Say what?!
+Dialogue: 0,0:45:48.30,0:45:50.80,Dialogue,,0,0,0,,There's only three minutes until 4:00!
+Dialogue: 0,0:45:50.80,0:45:57.90,Dialogue,,0,0,0,,Order all trains on the Loop to travel above 60, no, 70 km/h!
+Dialogue: 0,0:45:58.40,0:46:00.44,Dialogue,,0,0,0,,What about the trains stopped at stations?!
+Dialogue: 0,0:46:00.44,0:46:01.84,Dialogue,,0,0,0,,Get them moving immediately!
+Dialogue: 0,0:46:01.84,0:46:03.55,Dialogue,,0,0,0,,What about trains about to stop?
+Dialogue: 0,0:46:03.55,0:46:04.49,Dialogue,,0,0,0,,Send them through!
+Dialogue: 0,0:46:04.99,0:46:07.55,Dialogue,,0,0,0,,All we can do is keep all the trains running nonstop
+Dialogue: 0,0:46:07.55,0:46:09.57,Dialogue,,0,0,0,,until the bombs are found!
+Dialogue: 0,0:46:10.07,0:46:10.92,Dialogue,,0,0,0,,Kusunoki{\rHonorifics - Dialogue}-kun{\r}!
+Dialogue: 0,0:46:10.92,0:46:12.16,Dialogue,,0,0,0,,U-Understood!
+Dialogue: 0,0:46:13.92,0:46:15.96,Dialogue,,0,0,0,,Emergency orders! Emergency orders!
+Dialogue: 0,0:46:16.46,0:46:19.92,Dialogue,,0,0,0,,Attention, all trains! Someone has planted bombs!
+Dialogue: 0,0:46:19.92,0:46:21.38,Radio,,0,0,0,,{\be10}They'll explode if they're traveling under 60 km/h!
+Dialogue: 0,0:46:22.53,0:46:24.30,Radio,,0,0,0,,{\be10}All trains are to stay at 70 km/h!
+Dialogue: 0,0:46:24.80,0:46:27.64,Radio,,0,0,0,,{\be10}I repeat, someone has planted bombs!
+Dialogue: 0,0:46:27.64,0:46:29.67,Radio,,0,0,0,,{\be10}They'll explode if they're traveling under 60 km/h!
+Dialogue: 0,0:46:29.67,0:46:30.97,Radio,,0,0,0,,{\be10}All trains are to stay at 70 km/h!
+Dialogue: 0,0:46:34.41,0:46:36.85,Dialogue,,0,0,0,,Hey, doesn't this train seem strange?
+Dialogue: 0,0:46:36.85,0:46:38.55,Dialogue,,0,0,0,,How so, Genta{\rHonorifics - Dialogue}-kun{\r}?
+Dialogue: 0,0:46:38.55,0:46:42.90,Dialogue,,0,0,0,,We're almost to Beika Station, but we're slowly speeding up...
+Dialogue: 0,0:46:44.19,0:46:45.99,Radio,,0,0,0,,{\be10}Attention, passengers.
+Dialogue: 0,0:46:45.99,0:46:50.36,Radio,,0,0,0,,{\be10}Due to an emergency, this train will pass through Beika Station.
+Dialogue: 0,0:46:51.89,0:46:54.87,Dialogue,,0,0,0,,Hey! What does "emergency" mean?
+Dialogue: 0,0:46:55.37,0:47:02.38,Radio,,0,0,0,,{\be10}Due to an emergency, the train on Line #1 will be passing through.
+Dialogue: 0,0:47:08.09,0:47:10.64,Dialogue,,0,0,0,,I see! Alright!
+Dialogue: 0,0:47:11.14,0:47:14.85,Dialogue,,0,0,0,,Apparently, no trains have exploded so far.
+Dialogue: 0,0:47:15.35,0:47:17.23,Dialogue,,0,0,0,,I've got it, Inspector Megure!
+Dialogue: 0,0:47:18.05,0:47:19.60,Dialogue,,0,0,0,,Got what?
+Dialogue: 0,0:47:20.10,0:47:26.39,Dialogue,,0,0,0,,"X the X" means "beneath the seats", or "above the racks"!
+Dialogue: 0,0:47:26.39,0:47:28.57,Dialogue,,0,0,0,,That's where the bombs are!
+Dialogue: 0,0:47:29.07,0:47:32.16,Dialogue,,0,0,0,,"Under the trains" is also a possibility.
+Dialogue: 0,0:47:32.66,0:47:34.87,Dialogue,,0,0,0,,Yes, well...
+Dialogue: 0,0:47:35.37,0:47:40.07,Dialogue,,0,0,0,,Say, weren't Ayumi{\rHonorifics - Dialogue}-kun{\r} and the others getting on the Loop Line
+Dialogue: 0,0:47:40.07,0:47:43.42,Dialogue,,0,0,0,,from Midoridai Station to get back to Beika?
+Dialogue: 0,0:47:46.17,0:47:51.13,Radio,,0,0,0,,{\be10}Again, this train will continue to run nonstop for the time being.
+Dialogue: 0,0:47:51.63,0:47:54.09,Radio,,0,0,0,,{\be10}Should you find a suspicious item onboard,
+Dialogue: 0,0:47:54.09,0:47:57.56,Radio,,0,0,0,,{\be10}please refrain from touching it and let the conductor know.
+Dialogue: 0,0:47:58.06,0:48:00.43,Dialogue,,0,0,0,,W-What does "suspicious item" mean?!
+Dialogue: 0,0:48:00.43,0:48:02.23,Dialogue,,0,0,0,,He means something out of the ordinary!
+Dialogue: 0,0:48:02.23,0:48:04.52,Dialogue,,0,0,0,,I know that! But what's "out of the ordinary"?!
+Dialogue: 0,0:48:05.02,0:48:07.20,Dialogue,,0,0,0,,Well, that would be, uhh...
+Dialogue: 0,0:48:07.20,0:48:08.77,Radio,,0,0,0,,{\be10}Ayumi{\rHonorifics - Radio\be10}-chan{\r\be10}, do you read me?!
+Dialogue: 0,0:48:08.77,0:48:10.28,Dialogue,,0,0,0,,Conan{\rHonorifics - Dialogue}-kun{\r}! I read you!
+Dialogue: 0,0:48:10.78,0:48:11.74,Dialogue,,0,0,0,,Where are you right now?!
+Dialogue: 0,0:48:12.24,0:48:13.53,Radio,,0,0,0,,{\be10}On the Loop...
+Dialogue: 0,0:48:15.61,0:48:16.45,Dialogue,,0,0,0,,I thought so...
+Dialogue: 0,0:48:16.95,0:48:20.52,Dialogue,,0,0,0,,Hey, Conan! What in the world's goin' on?
+Dialogue: 0,0:48:20.52,0:48:23.42,Dialogue,,0,0,0,,Don't tell us there's something that starts with a "b" on the train?!
+Dialogue: 0,0:48:25.49,0:48:27.72,Dialogue,,0,0,0,,Don't worry, it's nothin'!
+Dialogue: 0,0:48:27.72,0:48:32.97,Dialogue,,0,0,0,,Look! There's no guarantee the bombs are only inside the trains!
+Dialogue: 0,0:48:34.18,0:48:35.03,Dialogue,,0,0,0,,Bombs?!
+Dialogue: 0,0:48:35.03,0:48:36.46,Dialogue,,0,0,0,,I knew it!
+Dialogue: 0,0:48:36.46,0:48:38.93,Dialogue,,0,0,0,,Does that mean we're gonna die?!
+Dialogue: 0,0:48:39.43,0:48:42.06,Dialogue,,0,0,0,,Of course not! I will find where they're hidden!
+Dialogue: 0,0:48:44.10,0:48:45.56,Dialogue,,0,0,0,,Conan{\rHonorifics - Dialogue}-kun{\r}...
+Dialogue: 0,0:48:47.51,0:48:50.41,Dialogue,,0,0,0,,Damn it! We can't leave this all to Conan{\rHonorifics - Dialogue}-kun{\r}!
+Dialogue: 0,0:48:50.41,0:48:53.91,Dialogue,,0,0,0,,We gotta try hard, too! This calls for the Detective Boys!
+Dialogue: 0,0:48:54.41,0:48:55.75,Dialogue,,0,0,0,,Detective...
+Dialogue: 0,0:48:55.75,0:48:57.15,Dialogue,,0,0,0,,...Boys?
+Dialogue: 0,0:48:58.52,0:49:02.66,Dialogue,,0,0,0,,Y-You're right! The bombs do seem to be inside the trains!
+Dialogue: 0,0:49:04.29,0:49:07.63,Dialogue,,0,0,0,,Alright! Let's go, Detective Boys!
+Dialogue: 0,0:49:08.13,0:49:08.88,Dialogue,,0,0,0,,Yeah!
+Dialogue: 0,0:49:09.38,0:49:11.17,Dialogue,,0,0,0,,W-Wait, you guys!
+Dialogue: 0,0:49:11.17,0:49:13.30,Dialogue,,0,0,0,,They cut me off!
+Dialogue: 0,0:49:13.30,0:49:14.59,Dialogue,,0,0,0,,They gonna be alright?!
+Dialogue: 0,0:49:15.09,0:49:18.14,Dialogue,,0,0,0,,Alright! Got it!
+Dialogue: 0,0:49:18.14,0:49:21.94,Dialogue,,0,0,0,,A joint task force has been assembled at HQ.
+Dialogue: 0,0:49:21.94,0:49:24.78,Dialogue,,0,0,0,,I'm off to Tohto Railways' command center.
+Dialogue: 0,0:49:24.78,0:49:25.71,Dialogue,,0,0,0,,Will you come too?
+Dialogue: 0,0:49:27.18,0:49:28.69,Dialogue,,0,0,0,,Yes! I will accompany you!
+Dialogue: 0,0:49:31.53,0:49:33.96,Dialogue,,0,0,0,,It's just past 4:30!
+Dialogue: 0,0:49:33.96,0:49:38.16,Dialogue,,0,0,0,,Look! All trains on the Tohto Loop Line have continued to run nonstop
+Dialogue: 0,0:49:38.16,0:49:41.53,Dialogue,,0,0,0,,for over half an hour!
+Dialogue: 0,0:49:46.12,0:49:49.59,Dialogue,,0,0,0,,Both Tohto Railways and the police department have only commented
+Dialogue: 0,0:49:50.09,0:49:54.57,Radio,,0,0,0,,{\be10}by saying that there has been an emergency situation!
+Dialogue: 0,0:49:55.72,0:49:59.74,Thoughts,,0,0,0,,{\be10}30 minutes is the most the police can keep it under wraps...
+Dialogue: 0,0:50:05.75,0:50:09.69,Dialogue,,0,0,0,,Borrowed this from a nurse! It'd be best to watch from your room.
+Dialogue: 0,0:50:18.11,0:50:23.96,Thoughts,,0,0,0,,{\be10}Rigging them to explode if they go under 60 km/h makes some sense...
+Dialogue: 0,0:50:24.91,0:50:29.88,Thoughts,,0,0,0,,{\be10}...but having them explode if they're not dismantled before sundown?
+Dialogue: 0,0:50:30.38,0:50:32.84,Thoughts,,0,0,0,,{\be10}What's that about?
+Dialogue: 0,0:50:33.34,0:50:37.45,Thoughts,,0,0,0,,{\be10}Why would they blow up when the sun sets?
+Dialogue: 0,0:50:37.45,0:50:40.30,Thoughts,,0,0,0,,{\be10}Does it have something to do with the trains' lights?
+Dialogue: 0,0:50:48.70,0:50:50.36,Dialogue,,0,0,0,,Here you are!
+Dialogue: 0,0:50:53.70,0:50:55.10,Dialogue,,0,0,0,,Please enjoy!
+Dialogue: 0,0:50:56.44,0:51:00.61,Dialogue,,0,0,0,,That outfit's pretty sweet! You look good in red!
+Dialogue: 0,0:51:00.61,0:51:02.01,Dialogue,,0,0,0,,Thanks!
+Dialogue: 0,0:51:02.01,0:51:04.70,Dialogue,,0,0,0,,Both Shin'ichi and I have red as our lucky color this month!
+Dialogue: 0,0:51:06.48,0:51:10.75,Dialogue,,0,0,0,,Come to think of it, I haven't seen Shin'ichi{\rHonorifics - Dialogue}-kun{\r} in a while either...
+Dialogue: 0,0:51:10.75,0:51:12.42,Dialogue,,0,0,0,,Maybe I should go with you too!
+Dialogue: 0,0:51:13.32,0:51:19.13,Dialogue,,0,0,0,,But it's going to be a boring movie, plus he's pretty boring himself...
+Dialogue: 0,0:51:19.63,0:51:24.30,Dialogue,,0,0,0,,I'm just kidding! No one's gonna get in your guys' way!
+Dialogue: 0,0:51:24.30,0:51:28.30,Dialogue,,0,0,0,,You get serious so easily, Ran! That's why I love teasin' ya!
+Dialogue: 0,0:51:28.30,0:51:30.44,Dialogue,,0,0,0,,You're so silly, Sonoko...
+Dialogue: 0,0:51:30.44,0:51:34.02,Dialogue,,0,0,0,,But I'm surprised your dad's letting you go to an all-night movie!
+Dialogue: 0,0:51:34.52,0:51:38.01,Dialogue,,0,0,0,,He was against it, but I ignored him!
+Dialogue: 0,0:51:38.01,0:51:44.62,Dialogue,,0,0,0,,I bet he and Conan{\rHonorifics - Dialogue}-kun{\r} are discussing dinner right about now!
+Dialogue: 0,0:51:47.74,0:51:51.71,Dialogue,,0,0,0,,So you couldn't find anything suspicious inside the trains?!
+Dialogue: 0,0:51:52.21,0:51:53.39,Dialogue,,0,0,0,,That's right...
+Dialogue: 0,0:51:53.39,0:51:59.13,Dialogue,,0,0,0,,All 21 trains were thoroughly searched by their conductors,
+Dialogue: 0,0:51:59.13,0:52:01.80,Dialogue,,0,0,0,,but all items had owners!
+Dialogue: 0,0:52:01.80,0:52:02.68,Dialogue,,0,0,0,,So, how about your end?
+Dialogue: 0,0:52:03.18,0:52:09.64,Dialogue,,0,0,0,,Videos taken along the tracks showed no bombs under the train cars.
+Dialogue: 0,0:52:10.14,0:52:11.28,Dialogue,,0,0,0,,I see...
+Dialogue: 0,0:52:11.28,0:52:13.82,Dialogue,,0,0,0,,Then where could the bombs be?!
+Dialogue: 0,0:52:13.82,0:52:16.61,Dialogue,,0,0,0,,Bad news, sir! The passengers are getting unruly!
+Dialogue: 0,0:52:19.44,0:52:21.49,Dialogue,,0,0,0,,How long're you gonna keep this thing going?!
+Dialogue: 0,0:52:21.49,0:52:22.40,Dialogue,,0,0,0,,Just stop it already!
+Dialogue: 0,0:52:22.90,0:52:26.74,Dialogue,,0,0,0,,My child has a stomachache! Please, let us get off!
+Dialogue: 0,0:52:28.74,0:52:32.21,Dialogue,,0,0,0,,What is this "suspicious item" anyway?! Don't tell me it's a bomb?!
+Dialogue: 0,0:52:32.71,0:52:33.80,Dialogue,,0,0,0,,A-A bomb?!
+Dialogue: 0,0:52:33.80,0:52:37.21,Dialogue,,0,0,0,,Screw this! I'm gettin' off! I'm jumpin' out!
+Dialogue: 0,0:52:37.21,0:52:39.33,Dialogue,,0,0,0,,Calm down, sir! Stop!
+Dialogue: 0,0:52:40.67,0:52:42.78,Radio,,0,0,0,,{\be10}Chief Director! I can't keep this up!
+Dialogue: 0,0:52:42.78,0:52:44.22,Dialogue,,0,0,0,,Hang in there a little longer!
+Dialogue: 0,0:52:44.71,0:52:49.64,Dialogue,,0,0,0,,Mouri{\rHonorifics - Dialogue}-kun{\r}! Have you figured out any way to locate the bombs?!
+Dialogue: 0,0:52:51.92,0:52:55.60,Dialogue,,0,0,0,,An hour and a half until sunset...
+Dialogue: 0,0:52:57.40,0:53:00.57,Dialogue,,0,0,0,,Still, having them go off when the sun sets...
+Dialogue: 0,0:53:01.06,0:53:04.66,Dialogue,,0,0,0,,That's like the exact opposite of my skateboard...
+Dialogue: 0,0:53:05.60,0:53:11.47,Dialogue,,0,0,0,,You know, it's solar-powered, so it doesn't work once the sun sets.
+Dialogue: 0,0:53:11.47,0:53:13.53,Dialogue,,0,0,0,,The sun?
+Dialogue: 0,0:53:15.58,0:53:17.38,Dialogue,,0,0,0,,I got it! I got it, Doc!
+Dialogue: 0,0:53:26.59,0:53:27.89,Dialogue,,0,0,0,,Megure here!
+Dialogue: 0,0:53:27.89,0:53:29.22,Radio,,0,0,0,,{\be10}Inspector! It's Kudo!
+Dialogue: 0,0:53:29.22,0:53:31.56,Dialogue,,0,0,0,,Oh! Kudo{\rHonorifics - Dialogue}-kun{\r}! I've been waiting!
+Dialogue: 0,0:53:32.46,0:53:34.52,Dialogue,,0,0,0,,Dr. Agasa explained everything!
+Dialogue: 0,0:53:35.02,0:53:39.50,Dialogue,,0,0,0,,The bombs are not "below the seats",
+Dialogue: 0,0:53:39.50,0:53:42.48,Dialogue,,0,0,0,,"above the racks", or "under the trains"!
+Dialogue: 0,0:53:43.50,0:53:44.95,Dialogue,,0,0,0,,They're "between the tracks"!
+Dialogue: 0,0:53:45.45,0:53:46.91,Dialogue,,0,0,0,,Between the tracks?!
+Dialogue: 0,0:53:47.41,0:53:52.87,Dialogue,,0,0,0,,The bombs are set to detonate after a dozen or so seconds of darkness!
+Dialogue: 0,0:53:54.12,0:53:59.67,Dialogue,,0,0,0,,When the trains pass over, the cars block the light for a few seconds!
+Dialogue: 0,0:54:00.17,0:54:05.09,Dialogue,,0,0,0,,One car is 20 meters in length; 10 cars are 200 meters long.
+Dialogue: 0,0:54:05.59,0:54:08.80,Dialogue,,0,0,0,,60 kilometers per hour is 16.7 meters per second.
+Dialogue: 0,0:54:08.80,0:54:13.06,Dialogue,,0,0,0,,In other words, it takes about 12 seconds to travel 200 meters!
+Dialogue: 0,0:54:13.56,0:54:18.53,Dialogue,,0,0,0,,The bombs are rigged to explode just barely after that amount of time!
+Dialogue: 0,0:54:20.27,0:54:24.18,Radio,,0,0,0,,{\be10}So move the trains onto other lines immediately!
+Dialogue: 0,0:54:24.18,0:54:27.70,Radio,,0,0,0,,{\be10}There's no danger in stopping them as long as they're off the Loop!
+Dialogue: 0,0:54:28.20,0:54:29.95,Dialogue,,0,0,0,,Understood!
+Dialogue: 0,0:54:29.95,0:54:32.41,Dialogue,,0,0,0,,Mr. Sakaguchi. You heard what to do!
+Dialogue: 0,0:54:32.91,0:54:34.15,Dialogue,,0,0,0,,Right!
+Dialogue: 0,0:54:39.83,0:54:44.70,Dialogue,,0,0,0,,Divert Train #11 onto the Shibahama Station cargo line in 3 minutes!
+Dialogue: 0,0:54:44.70,0:54:45.55,Dialogue,,0,0,0,,Get everything ready!
+Dialogue: 0,0:54:46.57,0:54:50.01,Dialogue,,0,0,0,,Train #11, Train #11! Track switch in three minutes!
+Dialogue: 0,0:54:50.51,0:54:52.47,Dialogue,,0,0,0,,Shibahama Station, circuit confirm interlock on!
+Dialogue: 0,0:54:52.97,0:54:54.93,Dialogue,,0,0,0,,Move all cargo trains onto emergency sidetracks!
+Dialogue: 0,0:54:55.43,0:54:56.88,Dialogue,,0,0,0,,Train #11, passing through Kawashina Station!
+Dialogue: 0,0:54:56.88,0:54:59.87,Dialogue,,0,0,0,,Train #10, passing through Shibahama Station!
+Dialogue: 0,0:54:59.87,0:55:01.24,Dialogue,,0,0,0,,Switching track!
+Dialogue: 0,0:55:15.24,0:55:17.20,Dialogue,,0,0,0,,Reducing speed, now!
+Dialogue: 0,0:55:20.23,0:55:23.27,Dialogue,,0,0,0,,68 km/h... 66 km/h...
+Dialogue: 0,0:55:23.27,0:55:26.01,Dialogue,,0,0,0,,64... 63 km/h...
+Dialogue: 0,0:55:26.01,0:55:28.97,Radio,,0,0,0,,{\be10}62... 61...
+Dialogue: 0,0:55:28.97,0:55:31.21,Radio,,0,0,0,,{\be10}60 km/h!
+Dialogue: 0,0:55:31.21,0:55:33.55,Radio,,0,0,0,,{\be10}59! 58 km/h!
+Dialogue: 0,0:55:33.55,0:55:34.65,Dialogue,,0,0,0,,Everything normal?!
+Dialogue: 0,0:55:34.65,0:55:36.35,Radio,,0,0,0,,{\be10}Yes! All normal!
+Dialogue: 0,0:55:36.85,0:55:41.12,Radio,,0,0,0,,{\be10}Alright! Keep slowing and stop at the next cargo station!
+Dialogue: 0,0:55:41.12,0:55:41.69,Dialogue,,0,0,0,,Roger that!
+Dialogue: 0,0:55:42.19,0:55:43.62,Dialogue,,0,0,0,,We did it!
+Dialogue: 0,0:55:43.62,0:55:48.65,Dialogue,,0,0,0,,No, we can't rest easy yet! There are still 20 more trains on the Loop!
+Dialogue: 0,0:56:13.42,0:56:15.12,Radio,,0,0,0,,{\be10}Train #9! All normal!
+Dialogue: 0,0:56:15.12,0:56:16.97,Radio,,0,0,0,,{\be10}Train #20! All normal!
+Dialogue: 0,0:56:17.46,0:56:18.43,Dialogue,,0,0,0,,One train left!
+Dialogue: 0,0:56:31.70,0:56:36.16,Dialogue,,0,0,0,,This is Train #10! Currently at 55 km/h! All normal here!
+Dialogue: 0,0:56:36.66,0:56:38.12,Dialogue,,0,0,0,,We did it!
+Dialogue: 0,0:56:40.58,0:56:43.04,Dialogue,,0,0,0,,We did it! We did it! We pulled it off!
+Dialogue: 0,0:56:43.04,0:56:46.06,Dialogue,,0,0,0,,A truly excellent display of skill!
+Dialogue: 0,0:56:46.06,0:56:47.38,Dialogue,,0,0,0,,Excellent work!
+Dialogue: 0,0:56:47.88,0:56:49.84,Dialogue,,0,0,0,,Now it's our turn to handle things!
+Dialogue: 0,0:56:55.43,0:56:57.67,Dialogue,,0,0,0,,Whew, we finally managed to get off!
+Dialogue: 0,0:56:57.67,0:57:00.27,Dialogue,,0,0,0,,I'm never rushing onto a train last-minute again!
+Dialogue: 0,0:57:01.24,0:57:03.17,Dialogue,,0,0,0,,Really?! That's great!
+Dialogue: 0,0:57:04.73,0:57:08.19,Radio,,0,0,0,,{\be10}Say, was it you who found the bombs, Conan{\rHonorifics - Radio\be10}-kun{\r\be10}?!
+Dialogue: 0,0:57:08.69,0:57:12.15,Dialogue,,0,0,0,,No, it was Shin'ichi{\rHonorifics - Dialogue}-niichan{\r} who found them!
+Dialogue: 0,0:57:12.15,0:57:16.03,Dialogue,,0,0,0,,Though the bombs haven't actually been found yet...
+Dialogue: 0,0:57:19.49,0:57:22.59,Dialogue,,0,0,0,,The bombs are placed where there wouldn't be shade
+Dialogue: 0,0:57:22.59,0:57:24.96,Dialogue,,0,0,0,,from buildings or walls after 4:00 PM!
+Dialogue: 0,0:57:25.46,0:57:28.38,Dialogue,,0,0,0,,When searching, always be aware of the sun's location
+Dialogue: 0,0:57:28.38,0:57:32.59,Dialogue,,0,0,0,,and be very careful not to cover the bombs with your own shadows!
+Dialogue: 0,0:57:45.78,0:57:46.94,Dialogue,,0,0,0,,Bomb located!
+Dialogue: 0,0:57:50.68,0:57:51.57,Dialogue,,0,0,0,,Bomb located!
+Dialogue: 0,0:57:55.99,0:57:56.99,Dialogue,,0,0,0,,Bomb located!
+Dialogue: 0,0:57:58.99,0:57:59.99,Dialogue,,0,0,0,,Bomb located!
+Dialogue: 0,0:58:01.96,0:58:03.25,Dialogue,,0,0,0,,Bomb located!
+Dialogue: 0,0:58:03.75,0:58:05.00,Dialogue,,0,0,0,,Understood!
+Dialogue: 0,0:58:06.63,0:58:09.08,Dialogue,,0,0,0,,The five bombs have been safely collected.
+Dialogue: 0,0:58:09.40,0:58:09.98,Dialogue,,0,0,0,,Yes!
+Dialogue: 0,0:58:09.98,0:58:10.96,Dialogue,,0,0,0,,Alright!
+Dialogue: 0,0:58:10.96,0:58:13.42,Dialogue,,0,0,0,,It was all as Kudo{\rHonorifics - Dialogue}-kun{\r} deduced...
+Dialogue: 0,0:58:13.92,0:58:16.78,Dialogue,,0,0,0,,Fifteen minutes until sunset...
+Dialogue: 0,0:58:16.78,0:58:18.39,Dialogue,,0,0,0,,Talk about a close call...
+Dialogue: 0,0:58:21.08,0:58:23.52,Dialogue,,0,0,0,,But it's too early to celebrate...
+Dialogue: 0,0:58:24.62,0:58:28.69,Dialogue,,0,0,0,,The amount of explosives used so far accounts for only one-fourth
+Dialogue: 0,0:58:28.69,0:58:30.77,Dialogue,,0,0,0,,of the stolen quantity...
+Dialogue: 0,0:58:31.26,0:58:36.24,Dialogue,,0,0,0,,Meaning that the bomber still has the remaining three-fourths?!
+Dialogue: 0,0:58:38.93,0:58:39.91,Dialogue,,0,0,0,,Sorry I'm late.
+Dialogue: 0,0:58:40.41,0:58:41.78,Dialogue,,0,0,0,,So, what'd you find out?
+Dialogue: 0,0:58:42.28,0:58:46.54,Dialogue,,0,0,0,,Well, about Mayor Okamoto's son Kohei...
+Dialogue: 0,0:58:46.54,0:58:50.75,Dialogue,,0,0,0,,I learned that he left early this morning for the Izu area.
+Dialogue: 0,0:58:51.25,0:58:53.11,Dialogue,,0,0,0,,Which means he's innocent...
+Dialogue: 0,0:58:53.11,0:58:53.96,Dialogue,,0,0,0,,Yes...
+Dialogue: 0,0:58:54.46,0:58:56.95,Dialogue,,0,0,0,,Umm, about the bombing incident...
+Dialogue: 0,0:58:56.95,0:58:58.85,Dialogue,,0,0,0,,Solved.
+Dialogue: 0,0:58:58.85,0:59:00.34,Dialogue,,0,0,0,,All thanks to Kudo{\rHonorifics - Dialogue}-kun{\r}...
+Dialogue: 0,0:59:00.86,0:59:03.81,Dialogue,,0,0,0,,The issue now is the remaining explosives and the bomber's identity.
+Dialogue: 0,0:59:04.31,0:59:08.73,Dialogue,,0,0,0,,About all we know for sure is that the bomber doesn't live near
+Dialogue: 0,0:59:09.23,0:59:13.19,Dialogue,,0,0,0,,any of the five spots along the Loop, right?
+Dialogue: 0,0:59:15.03,0:59:20.49,Dialogue,,0,0,0,,Right?! If the bombs blew up, entire trains could've been sent flying!
+Dialogue: 0,0:59:21.44,0:59:24.41,Dialogue,,0,0,0,,He wouldn't risk that near his own house—
+Dialogue: 0,0:59:24.91,0:59:31.54,Dialogue,,0,0,0,,Could that also be why he stopped the timer in the carrying case?!
+Dialogue: 0,0:59:32.83,0:59:36.30,Thoughts,,0,0,0,,{\be10}There was a playground and an apartment building nearby...
+Dialogue: 0,0:59:36.80,0:59:40.76,Dialogue,,0,0,0,,That's it! The bomber lives in those apartments!
+Dialogue: 0,0:59:41.26,0:59:44.56,Dialogue,,0,0,0,,Alright! Straight to those apartments!
+Dialogue: 0,0:59:47.47,0:59:48.98,Dialogue,,0,0,0,,Nothing at all?!
+Dialogue: 0,0:59:48.98,0:59:54.28,Dialogue,,0,0,0,,Yes. We checked not just that building, but all other nearby houses...
+Dialogue: 0,0:59:54.28,0:59:56.74,Dialogue,,0,0,0,,But they were all in the clear...
+Dialogue: 0,0:59:56.74,0:59:57.90,Dialogue,,0,0,0,,Oh...
+Dialogue: 0,0:59:58.40,1:00:03.37,Dialogue,,0,0,0,,Say, Inspector. What kind of places were the train bombs planted at?
+Dialogue: 0,1:00:03.97,1:00:08.32,Dialogue,,0,0,0,,What kind? Just regular ol' residential areas...
+Dialogue: 0,1:00:08.32,1:00:12.83,Dialogue,,0,0,0,,Oh, yes. There was one on a bridge, over the Sumida Canal.
+Dialogue: 0,1:00:13.33,1:00:14.66,Dialogue,,0,0,0,,On a bridge?
+Dialogue: 0,1:00:16.92,1:00:18.83,Dialogue,,0,0,0,,Isn't this that bridge?
+Dialogue: 0,1:00:23.93,1:00:25.21,Thoughts,,0,0,0,,{\be10}Hold on...
+Dialogue: 0,1:00:25.21,1:00:28.27,Thoughts,,0,0,0,,{\be10}Wasn't there a photo of this in Professor Moriya's gallery?
+Dialogue: 0,1:00:30.93,1:00:34.94,Dialogue,,0,0,0,,Say, didn't Professor Moriya design this bridge?
+Dialogue: 0,1:00:35.88,1:00:37.22,Dialogue,,0,0,0,,He did?
+Dialogue: 0,1:00:37.22,1:00:38.40,Dialogue,,0,0,0,,That's correct.
+Dialogue: 0,1:00:39.69,1:00:42.59,Dialogue,,0,0,0,,Teiji Moriya designed it.
+Dialogue: 0,1:00:42.59,1:00:45.66,Dialogue,,0,0,0,,The bridge was completed in 1983,
+Dialogue: 0,1:00:45.66,1:00:49.29,Dialogue,,0,0,0,,and the fact it was built of stone in an English style instead of iron
+Dialogue: 0,1:00:49.29,1:00:51.67,Dialogue,,0,0,0,,was quite the topic at the time.
+Dialogue: 0,1:00:51.67,1:00:53.75,Dialogue,,0,0,0,,With this bridge's design, Teiji Moriya won
+Dialogue: 0,1:00:53.75,1:00:56.87,Dialogue,,0,0,0,,the Architectural Association of Japan's Newcomer Award!
+Dialogue: 0,1:00:56.87,1:00:59.21,Dialogue,,0,0,0,,You certainly are well-informed!
+Dialogue: 0,1:00:59.71,1:01:02.42,Dialogue,,0,0,0,,Architecture interests me...
+Dialogue: 0,1:01:05.71,1:01:09.26,Radio,,0,0,0,,{\be10}—the recent series of arson incidents. Police believe—
+Dialogue: 0,1:01:09.76,1:01:11.39,Dialogue,,0,0,0,,That's enough. It's distracting.
+Dialogue: 0,1:01:11.39,1:01:12.14,Dialogue,,0,0,0,,'Kay...
+Dialogue: 0,1:01:13.39,1:01:17.29,Thoughts,,0,0,0,,{\be10}Come to think of it, the Kurokawa mansion that was set on fire
+Dialogue: 0,1:01:17.29,1:01:19.40,Thoughts,,0,0,0,,{\be10}was also designed by Professor Moriya...
+Dialogue: 0,1:01:22.07,1:01:27.49,Dialogue,,0,0,0,,Say, I wonder who designed all these houses that were set on fire!
+Dialogue: 0,1:01:28.99,1:01:32.45,Dialogue,,0,0,0,,I bet we might find something interesting if we look into it!
+Dialogue: 0,1:01:33.34,1:01:35.42,Dialogue,,0,0,0,,Interesting, indeed...
+Dialogue: 0,1:01:43.84,1:01:45.55,Dialogue,,0,0,0,,I'll go now.
+Dialogue: 0,1:01:45.55,1:01:48.26,Dialogue,,0,0,0,,Okay. Thanks for coming with me today!
+Dialogue: 0,1:01:48.26,1:01:50.31,Dialogue,,0,0,0,,Better give me the details later!
+Dialogue: 0,1:01:50.81,1:01:52.77,Dialogue,,0,0,0,,Steal at least a kiss from him!
+Dialogue: 0,1:02:05.82,1:02:07.28,Thoughts,,0,0,0,,{\be10}9:00...
+Dialogue: 0,1:02:08.94,1:02:10.81,Thoughts,,0,0,0,,{\be10}In one hour...
+Dialogue: 0,1:02:12.74,1:02:15.71,Dialogue,,0,0,0,,Say what?! They were all designed by Mr. Moriya?!
+Dialogue: 0,1:02:16.21,1:02:17.02,Dialogue,,0,0,0,,Yes.
+Dialogue: 0,1:02:17.02,1:02:21.19,Dialogue,,0,0,0,,The Kurokawa, Mizushima, Yasuda, and Akutsu mansions—
+Dialogue: 0,1:02:21.19,1:02:23.82,Dialogue,,0,0,0,,which were all burned down—
+Dialogue: 0,1:02:23.82,1:02:26.68,Dialogue,,0,0,0,,were designed by Professor Moriya in his early 30s.
+Dialogue: 0,1:02:28.86,1:02:30.97,Dialogue,,0,0,0,,Hard to think it's a coincidence...
+Dialogue: 0,1:02:31.47,1:02:36.44,Dialogue,,0,0,0,,Maybe the bombs on the Loop were really meant for that bridge, too!
+Dialogue: 0,1:02:37.37,1:02:38.87,Dialogue,,0,0,0,,That bridge?!
+Dialogue: 0,1:02:38.87,1:02:39.91,Dialogue,,0,0,0,,It's quite possible.
+Dialogue: 0,1:02:39.91,1:02:42.82,Dialogue,,0,0,0,,The bomber could be the arsonist,
+Dialogue: 0,1:02:42.82,1:02:45.28,Dialogue,,0,0,0,,who's going after Professor Moriya's designs!
+Dialogue: 0,1:02:45.78,1:02:48.92,Dialogue,,0,0,0,,Aha! That's it, Inspector!
+Dialogue: 0,1:02:48.92,1:02:52.09,Dialogue,,0,0,0,,The culprit is someone with a grudge against Professor Moriya,
+Dialogue: 0,1:02:52.09,1:02:54.49,Dialogue,,0,0,0,,or someone who's jealous of his success!
+Dialogue: 0,1:02:54.49,1:02:57.75,Dialogue,,0,0,0,,His challenge to Shin'ichi was just camouflage!
+Dialogue: 0,1:02:58.25,1:03:01.06,Dialogue,,0,0,0,,I see. It is highly likely...
+Dialogue: 0,1:03:01.06,1:03:02.21,Dialogue,,0,0,0,,I agree.
+Dialogue: 0,1:03:02.70,1:03:07.23,Dialogue,,0,0,0,,Homemade igniters were used during each arson!
+Dialogue: 0,1:03:07.23,1:03:10.59,Dialogue,,0,0,0,,I now realize they have something in common with the bombings!
+Dialogue: 0,1:03:11.87,1:03:15.56,Thoughts,,0,0,0,,{\be10}Everything being targeted is work from his 30s...
+Dialogue: 0,1:03:15.86,1:03:19.18,Dialogue,,0,0,0,,Alright! For now, let's go speak with Professor Moriya!
+Dialogue: 0,1:03:19.18,1:03:21.15,Dialogue,,0,0,0,,Mouri{\rHonorifics - Dialogue}-kun{\r}! Lead the way!
+Dialogue: 0,1:03:21.15,1:03:22.52,Dialogue,,0,0,0,,Right, where was it again?
+Dialogue: 0,1:03:23.02,1:03:25.19,Dialogue,,0,0,0,,I remember, mister!
+Dialogue: 0,1:03:25.19,1:03:26.23,Dialogue,,0,0,0,,I'll lead the way!
+Dialogue: 0,1:03:26.73,1:03:28.66,Dialogue,,0,0,0,,Don't be silly! You're still not—
+Dialogue: 0,1:03:28.66,1:03:30.89,Dialogue,,0,0,0,,I'm all better now! Come on!
+Dialogue: 0,1:03:30.89,1:03:32.09,Dialogue,,0,0,0,,Hey, wait!
+Dialogue: 0,1:03:34.08,1:03:36.54,Thoughts,,0,0,0,,{\be10}I leave it to you, Shin'ichi...
+Dialogue: 0,1:03:39.97,1:03:44.80,Dialogue,,0,0,0,,Mouri{\rHonorifics - Dialogue}-san{\r}. Just ahead is where the bomb timer temporarily stopped...
+Dialogue: 0,1:03:50.80,1:03:52.26,Thoughts,,0,0,0,,{\be10}A playground...
+Dialogue: 0,1:03:52.78,1:03:57.72,Dialogue,,0,0,0,,Yeesh! We wasted so much time, all because of those crude bombs!
+Dialogue: 0,1:04:14.70,1:04:18.47,Dialogue,,0,0,0,,I see. That's indeed too much to be a mere coincidence...
+Dialogue: 0,1:04:18.47,1:04:22.17,Dialogue,,0,0,0,,Can you think of anyone who might do something like this?
+Dialogue: 0,1:04:22.67,1:04:25.97,Dialogue,,0,0,0,,Hmm, let me think...
+Dialogue: 0,1:04:27.31,1:04:31.62,Dialogue,,0,0,0,,That's a photograph from when I was ten, Conan{\rHonorifics - Dialogue}-kun{\r}.
+Dialogue: 0,1:04:31.62,1:04:34.18,Dialogue,,0,0,0,,With me are my mother and father.
+Dialogue: 0,1:04:35.22,1:04:38.93,Dialogue,,0,0,0,,Your father must be a really great person, Professor Moriya!
+Dialogue: 0,1:04:39.79,1:04:43.00,Dialogue,,0,0,0,,He was a world-renowned architect.
+Dialogue: 0,1:04:43.00,1:04:45.63,Dialogue,,0,0,0,,He was particularly active in England...
+Dialogue: 0,1:04:45.63,1:04:48.53,Dialogue,,0,0,0,,I was a big fan of his architecture...
+Dialogue: 0,1:04:49.54,1:04:50.90,Dialogue,,0,0,0,,I believe he passed away—
+Dialogue: 0,1:04:51.40,1:04:55.01,Dialogue,,0,0,0,,—fifteen years ago, in a fire at his villa.
+Dialogue: 0,1:04:55.01,1:04:56.88,Dialogue,,0,0,0,,Together with my mother...
+Dialogue: 0,1:04:56.88,1:05:00.34,Dialogue,,0,0,0,,I inherited this mansion after it happened.
+Dialogue: 0,1:05:01.37,1:05:07.21,Dialogue,,0,0,0,,And that's when your designs suddenly began to get the spotlight, right, Moriya{\rHonorifics - Dialogue}-san{\r}?
+Dialogue: 0,1:05:07.72,1:05:09.88,Dialogue,,0,0,0,,Yes, that's right...
+Dialogue: 0,1:05:10.39,1:05:13.49,Thoughts,,0,0,0,,{\be10}Huh?! This smell...
+Dialogue: 0,1:05:13.49,1:05:15.09,Thoughts,,0,0,0,,{\be10}Could it be?!
+Dialogue: 0,1:05:15.59,1:05:19.06,Dialogue,,0,0,0,,Moriya{\rHonorifics - Dialogue}-san{\r}. Do you have any ideas who could be behind this?
+Dialogue: 0,1:05:19.56,1:05:21.89,Dialogue,,0,0,0,,Oh, right...
+Dialogue: 0,1:05:35.86,1:05:39.58,Thoughts,,0,0,0,,{\be10}This is where his works from his 30s begin!
+Dialogue: 0,1:05:40.08,1:05:41.04,Thoughts,,0,0,0,,{\be10}The Kurokawa mansion...
+Dialogue: 0,1:05:41.04,1:05:42.52,Thoughts,,0,0,0,,{\be10}The Mizushima mansion...
+Dialogue: 0,1:05:42.52,1:05:44.46,Thoughts,,0,0,0,,{\be10}The Yasuda mansion and the Akutsu mansion...
+Dialogue: 0,1:05:44.46,1:05:46.46,Thoughts,,0,0,0,,{\be10}And then the bridge...
+Dialogue: 0,1:05:47.29,1:05:48.67,Thoughts,,0,0,0,,{\be10}Wait a minute! This bridge—
+Dialogue: 0,1:05:51.33,1:05:52.55,Thoughts,,0,0,0,,{\be10}No doubt about it!
+Dialogue: 0,1:05:53.05,1:05:57.44,Flashback,,0,0,0,,{\be10}I was still inept in my youth. Please don't pay them much attention...
+Dialogue: 0,1:05:58.64,1:06:01.48,Thoughts,,0,0,0,,{\be10}No way! Is that even plausible?!
+Dialogue: 0,1:06:01.48,1:06:03.71,Thoughts,,0,0,0,,{\be10}But that smell...
+Dialogue: 0,1:06:06.01,1:06:08.52,Thoughts,,0,0,0,,{\be10}Was this here last time?
+Dialogue: 0,1:06:08.52,1:06:11.98,Thoughts,,0,0,0,,{\be10}"My Visionary New Town, West Tama City"?
+Dialogue: 0,1:06:12.89,1:06:13.74,Dialogue,,0,0,0,,Come to think of it...
+Dialogue: 0,1:06:14.24,1:06:17.46,Flashback,,0,0,0,,{\be10}As a result of that incident, Mayor Okamoto lost his position,
+Dialogue: 0,1:06:17.46,1:06:25.25,Flashback,,0,0,0,,{\be10}and his plans for a revitalized West Tama City were scrapped.
+Dialogue: 0,1:06:25.62,1:06:30.46,Dialogue,,0,0,0,,I get it! It was Professor Moriya who was planning this!
+Dialogue: 0,1:06:45.60,1:06:48.56,Dialogue,,0,0,0,,A new town, with perfect symmetry...
+Dialogue: 0,1:06:52.86,1:06:55.90,Dialogue,,0,0,0,,It's the same as the lampposts in the playground!
+Dialogue: 0,1:06:55.90,1:06:58.28,Dialogue,,0,0,0,,Ah! So that's why—
+Dialogue: 0,1:06:59.13,1:07:01.30,Dialogue,,0,0,0,,That person is the culprit, after all!
+Dialogue: 0,1:07:01.30,1:07:02.74,Dialogue,,0,0,0,,But there's no proof.
+Dialogue: 0,1:07:03.24,1:07:07.21,Dialogue,,0,0,0,,Guess I'll just have to wing it...
+Dialogue: 0,1:07:16.25,1:07:17.84,Dialogue,,0,0,0,,Perfect!
+Dialogue: 0,1:07:17.84,1:07:20.62,Dialogue,,0,0,0,,Now for some scissors, tape, and a marker...
+Dialogue: 0,1:07:23.66,1:07:25.10,Dialogue,,0,0,0,,A lighter?
+Dialogue: 0,1:07:25.59,1:07:28.31,Dialogue,,0,0,0,,I see. So you can't think of anyone...
+Dialogue: 0,1:07:28.81,1:07:31.06,Dialogue,,0,0,0,,I apologize for not being of use.
+Dialogue: 0,1:07:31.06,1:07:35.94,Dialogue,,0,0,0,,Well, if you can think of anything, please let us know.
+Dialogue: 0,1:07:35.94,1:07:37.46,Dialogue,,0,0,0,,Where's Conan{\rHonorifics - Dialogue}-kun{\r}?
+Dialogue: 0,1:07:39.03,1:07:40.60,Dialogue,,0,0,0,,Pardon me...
+Dialogue: 0,1:07:42.01,1:07:43.41,Dialogue,,0,0,0,,This is Megure...
+Dialogue: 0,1:07:43.41,1:07:44.41,Dialogue,,0,0,0,,Oh! Kudo{\rHonorifics - Dialogue}-kun{\r}!
+Dialogue: 0,1:07:46.85,1:07:50.95,Dialogue,,0,0,0,,Okay! Got it! I'll gather everyone in the gallery right away!
+Dialogue: 0,1:07:50.95,1:07:55.30,Dialogue,,0,0,0,,Moriya{\rHonorifics - Dialogue}-san{\r}. I'm sorry to ask, but could we see your gallery?
+Dialogue: 0,1:07:55.82,1:08:00.26,Dialogue,,0,0,0,,Very well. But would you mind if I stopped by my study first?
+Dialogue: 0,1:08:00.76,1:08:01.72,Dialogue,,0,0,0,,Not at all!
+Dialogue: 0,1:08:11.73,1:08:14.27,Dialogue,,0,0,0,,Sorry for the delay. Right this way...
+Dialogue: 0,1:08:16.11,1:08:18.54,Dialogue,,0,0,0,,The gallery is on the second floor.
+Dialogue: 0,1:08:20.71,1:08:22.03,Dialogue,,0,0,0,,Right in here...
+Dialogue: 0,1:08:34.29,1:08:38.21,Dialogue,,0,0,0,,Megure here. Yes, we're in the gallery now.
+Dialogue: 0,1:08:38.71,1:08:42.43,Dialogue,,0,0,0,,Inspector Megure. Press the speaker button so that everyone can hear.
+Dialogue: 0,1:08:42.43,1:08:42.43,Dialogue,,0,0,0,,Alright...
+Dialogue: 0,1:08:44.94,1:08:49.64,Radio,,0,0,0,,{\be10}Actually, I've figured out who's behind these arsons and bombings!
+Dialogue: 0,1:08:49.64,1:08:53.14,Dialogue,,0,0,0,,You have?! Who is it?!
+Dialogue: 0,1:08:53.64,1:08:56.11,Dialogue,,0,0,0,,Hold it! I've figured it out, too!
+Dialogue: 0,1:08:57.57,1:08:59.90,Dialogue,,0,0,0,,The culprit is you, Detective Shiratori!
+Dialogue: 0,1:09:00.85,1:09:02.11,Dialogue,,0,0,0,,What?!
+Dialogue: 0,1:09:03.49,1:09:06.59,Dialogue,,0,0,0,,As someone with deep respect for Professor Moriya's father,
+Dialogue: 0,1:09:06.59,1:09:10.56,Dialogue,,0,0,0,,you were suspicious about his death and began to suspect his son,
+Dialogue: 0,1:09:10.56,1:09:14.00,Dialogue,,0,0,0,,who had stepped into the spotlight immediately afterward!
+Dialogue: 0,1:09:14.00,1:09:17.46,Dialogue,,0,0,0,,You were suspicious that he had set the fire that killed him!
+Dialogue: 0,1:09:17.96,1:09:21.91,Dialogue,,0,0,0,,Certain of this, you set fire to each of Professor Moriya's buildings!
+Dialogue: 0,1:09:21.91,1:09:23.72,Radio,,0,0,0,,{\be10}Certain of this, you set fire to each of Professor Moriya's buildings!
+Dialogue: 0,1:09:24.22,1:09:29.12,Dialogue,,0,0,0,,Your respect for the father became desire for revenge against the son!
+Dialogue: 0,1:09:29.12,1:09:34.39,Dialogue,,0,0,0,,What's more, you were always absent whenever the bomber called!
+Dialogue: 0,1:09:34.39,1:09:36.79,Dialogue,,0,0,0,,H-Hold on, now!
+Dialogue: 0,1:09:36.79,1:09:39.79,Dialogue,,0,0,0,,Well, Shin'ichi?! Isn't that what you wanna say, too?!
+Dialogue: 0,1:09:39.79,1:09:40.78,Radio,,0,0,0,,{\be10}No!
+Dialogue: 0,1:09:40.78,1:09:40.78,Dialogue,,0,0,0,,What?!
+Dialogue: 0,1:09:43.26,1:09:45.13,Radio,,0,0,0,,{\be10}These incidents were not perpetrated by someone
+Dialogue: 0,1:09:45.13,1:09:48.28,Radio,,0,0,0,,{\be10}with a grudge against Professor Moriya!
+Dialogue: 0,1:09:48.78,1:09:51.81,Dialogue,,0,0,0,,The one responsible is the designer of the four mansions set on fire,
+Dialogue: 0,1:09:51.81,1:09:56.37,Dialogue,,0,0,0,,as well as the bridge... You, Professor Moriya!
+Dialogue: 0,1:09:58.21,1:09:59.75,Dialogue,,0,0,0,,What?!
+Dialogue: 0,1:10:02.87,1:10:07.85,Dialogue,,0,0,0,,You idiot! What kind of architect destroys his own work?!
+Dialogue: 0,1:10:07.85,1:10:13.19,Radio,,0,0,0,,{\be10}Early on, Professor Moriya inherited his father's architectural talent,
+Dialogue: 0,1:10:13.19,1:10:17.60,Radio,,0,0,0,,{\be10}and in his early 30s, he made his unusually young debut into the architectural world.
+Dialogue: 0,1:10:17.60,1:10:18.90,Dialogue,,0,0,0,,Hello?
+Dialogue: 0,1:10:19.60,1:10:22.44,Dialogue,,0,0,0,,And with his design of the bridge on the Loop,
+Dialogue: 0,1:10:22.44,1:10:25.61,Dialogue,,0,0,0,,he won the Architectural Association of Japan's Newcomer Award!
+Dialogue: 0,1:10:26.87,1:10:31.18,Radio,,0,0,0,,{\be10}Professor Moriya continued to produce new buildings after that,
+Dialogue: 0,1:10:31.18,1:10:32.82,Radio,,0,0,0,,{\be10}when he suddenly—
+Dialogue: 0,1:10:32.82,1:10:35.75,Dialogue,,0,0,0,,or maybe not so suddenly—
+Dialogue: 0,1:10:35.75,1:10:38.58,Dialogue,,0,0,0,,wanted to get rid of the works he created in his youth.
+Dialogue: 0,1:10:39.28,1:10:44.55,Dialogue,,0,0,0,,This can be surmised from the professor's words at the tea party...
+Dialogue: 0,1:10:45.25,1:10:49.20,Flashback,,0,0,0,,{\be10}Most young architects these days lack artistic sense!
+Dialogue: 0,1:10:49.20,1:10:53.01,Flashback,,0,0,0,,{\be10}They need to feel much more responsibility for their works!
+Dialogue: 0,1:10:53.71,1:10:55.98,Dialogue,,0,0,0,,In short, you put those words into action.
+Dialogue: 0,1:10:56.68,1:10:58.91,Dialogue,,0,0,0,,That does sound familiar...
+Dialogue: 0,1:10:58.91,1:11:02.08,Dialogue,,0,0,0,,Hold on! You weren't even at his party! How do you—
+Dialogue: 0,1:11:02.08,1:11:02.93,Radio,,0,0,0,,{\be10}Now then, everyone.
+Dialogue: 0,1:11:02.93,1:11:03.94,Dialogue,,0,0,0,,Hey...
+Dialogue: 0,1:11:04.14,1:11:06.40,Radio,,0,0,0,,{\be10}Have a look at the panel photographs.
+Dialogue: 0,1:11:06.40,1:11:09.32,Radio,,0,0,0,,{\be10}Look closely at the Kurokawa mansion,\Nthe Mizushima mansion, the Yasuda mansion,
+Dialogue: 0,1:11:09.32,1:11:13.28,Radio,,0,0,0,,{\be10}and the Akutsu mansion, as well as the bridge.
+Dialogue: 0,1:11:13.98,1:11:17.92,Dialogue,,0,0,0,,They each use classic English-style architecture,
+Dialogue: 0,1:11:17.92,1:11:20.25,Dialogue,,0,0,0,,but do you notice anything about them?
+Dialogue: 0,1:11:20.95,1:11:25.17,Dialogue,,0,0,0,,They all look like splendid works of architecture to me...
+Dialogue: 0,1:11:25.17,1:11:27.22,Dialogue,,0,0,0,,They're not perfectly symmetrical!
+Dialogue: 0,1:11:27.22,1:11:31.87,Dialogue,,0,0,0,,Correct! Their left-right symmetries are slightly off.
+Dialogue: 0,1:11:31.87,1:11:34.51,Dialogue,,0,0,0,,Most likely, the clients ordered it that way,
+Dialogue: 0,1:11:34.51,1:11:39.85,Dialogue,,0,0,0,,or he had to compromise due to building laws or the like.
+Dialogue: 0,1:11:39.85,1:11:44.40,Dialogue,,0,0,0,,Professor Moriya, being a perfectionist, couldn't stand that.
+Dialogue: 0,1:11:45.42,1:11:48.39,Radio,,0,0,0,,{\be10}Around the same time, a shadow began to creep
+Dialogue: 0,1:11:48.39,1:11:52.37,Radio,,0,0,0,,{\be10}into his life as an architect, which had been smooth-sailing until then.
+Dialogue: 0,1:11:53.07,1:11:55.13,Radio,,0,0,0,,{\be10}His plan for a revitalized West Tama City,
+Dialogue: 0,1:11:55.13,1:11:58.36,Radio,,0,0,0,,{\be10}which he had spent a great deal of time on...
+Dialogue: 0,1:11:58.36,1:12:02.33,Radio,,0,0,0,,{\be10}...was suddenly cancelled as a result of the mayor's arrest!
+Dialogue: 0,1:12:03.40,1:12:06.59,Dialogue,,0,0,0,,Ah! So Professor Moriya designed this, too?!
+Dialogue: 0,1:12:07.29,1:12:11.24,Radio,,0,0,0,,{\be10}By challenging me and tarnishing my name as a high school detective,
+Dialogue: 0,1:12:11.24,1:12:13.48,Radio,,0,0,0,,{\be10}the professor hoped to exact revenge on me,
+Dialogue: 0,1:12:13.48,1:12:18.79,Radio,,0,0,0,,{\be10}while also trying to camouflage his goal—the bridge's destruction—
+Dialogue: 0,1:12:18.79,1:12:22.35,Radio,,0,0,0,,{\be10}to look unrelated to the recent string of mansion arsons!
+Dialogue: 0,1:12:23.23,1:12:27.69,Dialogue,,0,0,0,,And the reason he stopped the bomb timer in the carrying case...
+Dialogue: 0,1:12:28.19,1:12:31.20,Dialogue,,0,0,0,,...was because of the gas lampposts in the playground!
+Dialogue: 0,1:12:31.57,1:12:35.45,Dialogue,,0,0,0,,They were a symbol of his new West Tama City!
+Dialogue: 0,1:12:37.06,1:12:39.57,Radio,,0,0,0,,{\be10}The professor didn't want to destroy them;
+Dialogue: 0,1:12:39.57,1:12:44.63,Radio,,0,0,0,,{\be10}he designed them to resemble the ones from his beloved London!
+Dialogue: 0,1:12:44.63,1:12:45.84,Dialogue,,0,0,0,,Am I wrong?!
+Dialogue: 0,1:12:48.25,1:12:50.78,Dialogue,,0,0,0,,An interesting theory, Kudo{\rHonorifics - Dialogue}-kun{\r}...
+Dialogue: 0,1:12:50.78,1:12:54.39,Dialogue,,0,0,0,,But unfortunately, there is no proof.
+Dialogue: 0,1:12:54.39,1:12:57.60,Dialogue,,0,0,0,,Oh, but there is... Behind the model case!
+Dialogue: 0,1:13:01.21,1:13:03.64,Dialogue,,0,0,0,,This is the bomber's disguise!
+Dialogue: 0,1:13:03.64,1:13:06.10,Dialogue,,0,0,0,,Impossible! That's in my safe in the study!
+Dialogue: 0,1:13:06.10,1:13:12.14,Dialogue,,0,0,0,,Oh, so the bomber's disguise is actually hidden in your safe?
+Dialogue: 0,1:13:12.14,1:13:12.78,Dialogue,,0,0,0,,What?!
+Dialogue: 0,1:13:15.24,1:13:18.24,Dialogue,,0,0,0,,These are my glasses!
+Dialogue: 0,1:13:18.24,1:13:20.24,Dialogue,,0,0,0,,I painted them black with a marker!
+Dialogue: 0,1:13:22.91,1:13:26.69,Dialogue,,0,0,0,,I made the mustache and wig by cutting that helmet's decorative hair
+Dialogue: 0,1:13:26.69,1:13:28.21,Dialogue,,0,0,0,,and then taping it together!
+Dialogue: 0,1:13:28.76,1:13:31.16,Dialogue,,0,0,0,,These were all Shin'ichi{\rHonorifics - Dialogue}-niichan{\r}'s ideas!
+Dialogue: 0,1:13:33.15,1:13:36.35,Dialogue,,0,0,0,,Professor Moriya. I must ask you to come down to the—
+Dialogue: 0,1:13:36.35,1:13:37.36,Dialogue,,0,0,0,,Don't move!
+Dialogue: 0,1:13:37.36,1:13:40.56,Dialogue,,0,0,0,,Move, and I'll blow the bombs I set in this mansion!
+Dialogue: 0,1:13:41.51,1:13:43.47,Dialogue,,0,0,0,,They won't blow up.
+Dialogue: 0,1:13:43.47,1:13:46.05,Dialogue,,0,0,0,,After all, that detonator...
+Dialogue: 0,1:13:46.05,1:13:47.18,Dialogue,,0,0,0,,...has no batteries!
+Dialogue: 0,1:13:47.18,1:13:48.98,Dialogue,,0,0,0,,Impossible!
+Dialogue: 0,1:13:50.51,1:13:52.08,Dialogue,,0,0,0,,W-When did you—
+Dialogue: 0,1:13:52.08,1:13:54.35,Dialogue,,0,0,0,,How did you know this was a detonator?!
+Dialogue: 0,1:13:55.03,1:13:57.78,Dialogue,,0,0,0,,Well, you don't use lighters!
+Dialogue: 0,1:13:57.78,1:14:00.33,Dialogue,,0,0,0,,Plus you used long matches to light your pipe...
+Dialogue: 0,1:14:01.93,1:14:06.57,Dialogue,,0,0,0,,...and the sweet smell Ayumi{\rHonorifics - Dialogue}-chan{\r} mentioned was your pipe's smell!
+Dialogue: 0,1:14:06.89,1:14:08.82,Dialogue,,0,0,0,,Arrest him!
+Dialogue: 0,1:14:11.83,1:14:15.20,Dialogue,,0,0,0,,Alright! That solves all the cases!
+Dialogue: 0,1:14:15.20,1:14:16.96,Dialogue,,0,0,0,,What a happy ending!
+Dialogue: 0,1:14:16.97,1:14:22.84,Dialogue,,0,0,0,,It's hardly happy, Mouri{\rHonorifics - Dialogue}-san{\r}! You're horrible, calling people criminals!
+Dialogue: 0,1:14:22.84,1:14:27.18,Dialogue,,0,0,0,,Yeah, sorry about that! Even monkeys fall from trees, as they say!
+Dialogue: 0,1:14:28.64,1:14:32.78,Thoughts,,0,0,0,,{\be10}Though in his case, his theories fell instead...
+Dialogue: 0,1:14:35.05,1:14:39.06,Dialogue,,0,0,0,,You're gravely mistaken if you think you've resolved everything.
+Dialogue: 0,1:14:39.06,1:14:42.49,Dialogue,,0,0,0,,There is one other building I wanted to get rid of!
+Dialogue: 0,1:14:45.87,1:14:47.96,Dialogue,,0,0,0,,No! The Beika City Building?!
+Dialogue: 0,1:14:49.30,1:14:52.38,Dialogue,,0,0,0,,Don't tell me it doesn't have perfect symmetry too?!
+Dialogue: 0,1:14:52.38,1:14:55.11,Dialogue,,0,0,0,,All because of the absurd reason that the building budget was lost
+Dialogue: 0,1:14:55.11,1:14:57.26,Dialogue,,0,0,0,,due to the bubble economy's collapse!
+Dialogue: 0,1:14:57.88,1:15:00.72,Dialogue,,0,0,0,,It's my grandest and lousiest work of all!
+Dialogue: 0,1:15:00.72,1:15:04.05,Dialogue,,0,0,0,,None of you would ever understand my aesthetics!
+Dialogue: 0,1:15:04.05,1:15:07.19,Dialogue,,0,0,0,,Well, then. One minute to 10:00...
+Dialogue: 0,1:15:07.89,1:15:09.10,Thoughts,,0,0,0,,{\be10}Ran...
+Dialogue: 0,1:15:24.07,1:15:25.45,Dialogue,,0,0,0,,Yes, this is Mouri...
+Dialogue: 0,1:15:25.45,1:15:27.74,Radio,,0,0,0,,{\be10}Ran{\rHonorifics - Radio\be10}-neechan{\r\be10}! Get out, quick!
+Dialogue: 0,1:15:43.85,1:15:46.16,Dialogue,,0,0,0,,Ran{\rHonorifics - Dialogue}-neechan{\r}! Are you okay?! Ran{\rHonorifics - Dialogue}-neechan{\r}!
+Dialogue: 0,1:15:46.16,1:15:47.06,Dialogue,,0,0,0,,Gimme that!
+Dialogue: 0,1:15:47.56,1:15:50.53,Dialogue,,0,0,0,,Hey, Ran! What happened?! Respond! Ran!
+Dialogue: 0,1:15:50.53,1:15:51.90,Dialogue,,0,0,0,,Damn it!
+Dialogue: 0,1:15:52.60,1:15:56.44,Dialogue,,0,0,0,,What the hell are you doing to my Ran?!
+Dialogue: 0,1:15:56.44,1:16:00.44,Dialogue,,0,0,0,,I've only blocked the lobby's entrance and emergency exits so far.
+Dialogue: 0,1:16:00.44,1:16:02.08,Dialogue,,0,0,0,,The best is yet to come...
+Dialogue: 0,1:16:02.08,1:16:03.38,Dialogue,,0,0,0,,What?!
+Dialogue: 0,1:16:03.38,1:16:06.24,Dialogue,,0,0,0,,Hey, Kudo! I assume you're listening from somewhere!
+Dialogue: 0,1:16:06.24,1:16:10.71,Dialogue,,0,0,0,,You better hurry before your beloved girlfriend winds up in scraps!
+Dialogue: 0,1:16:11.11,1:16:13.17,Dialogue,,0,0,0,,You'll pay for this!
+Dialogue: 0,1:16:13.17,1:16:13.87,Dialogue,,0,0,0,,Mouri{\rHonorifics - Dialogue}-kun{\r}! No violence!
+Dialogue: 0,1:16:17.59,1:16:18.67,Dialogue,,0,0,0,,What're you doing, kid?!
+Dialogue: 0,1:16:21.33,1:16:22.59,Thoughts,,0,0,0,,{\be10}These are—
+Dialogue: 0,1:16:22.97,1:16:25.28,Dialogue,,0,0,0,,What the—Bomb blueprints?!
+Dialogue: 0,1:16:25.28,1:16:25.83,Dialogue,,0,0,0,,What?!
+Dialogue: 0,1:16:25.83,1:16:28.27,Dialogue,,0,0,0,,I'll go give them to Shin'ichi{\rHonorifics - Dialogue}-niichan{\r}!
+Dialogue: 0,1:16:28.27,1:16:29.47,Dialogue,,0,0,0,,Hold on!
+Dialogue: 0,1:16:29.47,1:16:32.27,Dialogue,,0,0,0,,I'll send the bomb disposal unit right away!
+Dialogue: 0,1:16:37.98,1:16:40.95,Thoughts,,0,0,0,,{\be10}I can't wait for the bomb disposal unit!
+Dialogue: 0,1:16:42.42,1:16:43.91,Dialogue,,0,0,0,,Wait!
+Dialogue: 0,1:16:44.41,1:16:46.35,Dialogue,,0,0,0,,If you see Kudo, tell him this!
+Dialogue: 0,1:16:46.35,1:16:50.87,Dialogue,,0,0,0,,"I gave you three minutes! Enjoy it all you can!"
+Dialogue: 0,1:16:53.03,1:16:54.76,Dialogue,,0,0,0,,Wait, Conan{\rHonorifics - Dialogue}-kun{\r}!
+Dialogue: 0,1:16:54.76,1:16:57.16,Dialogue,,0,0,0,,Shiratori{\rHonorifics - Dialogue}-kun{\r}! Take care of Professor Moriya!
+Dialogue: 0,1:16:57.16,1:16:57.71,Dialogue,,0,0,0,,Right!
+Dialogue: 0,1:17:33.24,1:17:34.43,Dialogue,,0,0,0,,Ran!
+Dialogue: 0,1:17:34.43,1:17:35.75,Dialogue,,0,0,0,,Where are you, Ran?!
+Dialogue: 0,1:17:36.45,1:17:38.60,Dialogue,,0,0,0,,Ran! Ran! Damn it!
+Dialogue: 0,1:17:38.60,1:17:39.51,Dialogue,,0,0,0,,Mouri{\rHonorifics - Dialogue}-kun{\r}!
+Dialogue: 0,1:17:39.51,1:17:41.51,Dialogue,,0,0,0,,Ran!
+Dialogue: 0,1:17:41.51,1:17:45.43,Dialogue,,0,0,0,,Inspector! What are the rescue units doing?!
+Dialogue: 0,1:17:45.43,1:17:47.51,Dialogue,,0,0,0,,Calm down, Mouri{\rHonorifics - Dialogue}-kun{\r}! Calm down!
+Dialogue: 0,1:17:50.85,1:17:53.31,Thoughts,,0,0,0,,{\be10}Hold on, Ran! I'm coming!
+Dialogue: 0,1:18:13.57,1:18:16.60,Dialogue,,0,0,0,,It's all right! Help will be here soon!
+Dialogue: 0,1:18:22.95,1:18:23.58,Dialogue,,0,0,0,,Hello?
+Dialogue: 0,1:18:23.58,1:18:24.84,Radio,,0,0,0,,{\be10}R-Ran?!
+Dialogue: 0,1:18:24.84,1:18:26.52,Dialogue,,0,0,0,,S-Shin'ichi?!
+Dialogue: 0,1:18:26.52,1:18:29.29,Radio,,0,0,0,,{\be10}Lucky! Looks like the phone lines haven't been cut yet!
+Dialogue: 0,1:18:29.29,1:18:33.46,Dialogue,,0,0,0,,Where were you?! You're always gone at the most important times!
+Dialogue: 0,1:18:33.46,1:18:35.56,Dialogue,,0,0,0,,You're really always—always—
+Dialogue: 0,1:18:36.66,1:18:39.60,Dialogue,,0,0,0,,Do you even know what situation I'm in now?!
+Dialogue: 0,1:18:39.60,1:18:41.60,Radio,,0,0,0,,{\be10}Yeah, I know.
+Dialogue: 0,1:18:41.60,1:18:45.73,Radio,,0,0,0,,{\be10}I'm right in front of the emergency exit; it's blocked with debris...
+Dialogue: 0,1:18:50.61,1:18:55.41,Dialogue,,0,0,0,,I managed to squeeze through the rubble to get here...
+Dialogue: 0,1:18:55.41,1:18:58.62,Dialogue,,0,0,0,,...but the shock from the bomb...
+Dialogue: 0,1:18:58.62,1:19:02.42,Dialogue,,0,0,0,,...seems to have deformed the door, so there's no way to open it...
+Dialogue: 0,1:19:03.12,1:19:08.26,Dialogue,,0,0,0,,Say, is there anything weird in the lobby, like a briefcase or suitcase?
+Dialogue: 0,1:19:08.26,1:19:09.85,Dialogue,,0,0,0,,Weird?
+Dialogue: 0,1:19:24.81,1:19:28.38,Dialogue,,0,0,0,,What is this? It's really heavy and big!
+Dialogue: 0,1:19:28.38,1:19:30.53,Dialogue,,0,0,0,,And there's this digital clock on it...
+Dialogue: 0,1:19:31.23,1:19:32.99,Dialogue,,0,0,0,,Be careful! That's a bomb!
+Dialogue: 0,1:19:33.69,1:19:34.58,Dialogue,,0,0,0,,A bomb?!
+Dialogue: 0,1:19:39.11,1:19:42.66,Thoughts,,0,0,0,,{\be10}Damn you, Professor! You put the biggest one here!
+Dialogue: 0,1:19:42.66,1:19:43.88,Dialogue,,0,0,0,,Ran! What's the timer say?!
+Dialogue: 0,1:19:44.58,1:19:45.83,Dialogue,,0,0,0,,Hold on!
+Dialogue: 0,1:19:47.97,1:19:49.97,Dialogue,,0,0,0,,42 minutes and 7 seconds...
+Dialogue: 0,1:19:50.67,1:19:52.43,Thoughts,,0,0,0,,{\be10}42 minutes, huh...
+Dialogue: 0,1:19:52.43,1:19:55.27,Thoughts,,0,0,0,,{\be10}Which means it'll explode three minutes after midnight...
+Dialogue: 0,1:19:55.27,1:19:56.47,Thoughts,,0,0,0,,{\be10}Three minutes?
+Dialogue: 0,1:19:57.17,1:20:00.31,Flashback,,0,0,0,,{\be10}"I gave you three minutes! Enjoy it all you can!"
+Dialogue: 0,1:20:01.01,1:20:03.44,Thoughts,,0,0,0,,{\be10}What is this "three minutes" thing?!
+Dialogue: 0,1:20:07.39,1:20:07.99,Dialogue,,0,0,0,,Well?!
+Dialogue: 0,1:20:07.99,1:20:10.66,Dialogue,,0,0,0,,It's no use! All stairwells are buried in debris!
+Dialogue: 0,1:20:10.66,1:20:15.62,Dialogue,,0,0,0,,It'll take more time to reach the people trapped in the 5th floor lobby!
+Dialogue: 0,1:20:17.46,1:20:18.25,Thoughts,,0,0,0,,{\be10}Ran...
+Dialogue: 0,1:20:21.66,1:20:22.42,Thoughts,,0,0,0,,{\be10}18 minutes left!
+Dialogue: 0,1:20:23.12,1:20:25.87,Thoughts,,0,0,0,,{\be10}There's no time left! We have no choice...
+Dialogue: 0,1:20:25.87,1:20:28.38,Dialogue,,0,0,0,,Hey, Ran! Do you got any scissors on you?
+Dialogue: 0,1:20:29.08,1:20:33.01,Dialogue,,0,0,0,,I have sewing kit scissors, but what are we going to do with those?
+Dialogue: 0,1:20:34.78,1:20:37.97,Dialogue,,0,0,0,,You're going to disarm the bomb!
+Dialogue: 0,1:20:40.13,1:20:41.98,Dialogue,,0,0,0,,Now listen, follow my instructions...
+Dialogue: 0,1:20:42.68,1:20:45.99,Dialogue,,0,0,0,,Wait! I can't do it while on the phone!
+Dialogue: 0,1:20:45.99,1:20:46.94,Dialogue,,0,0,0,,I'll go by you!
+Dialogue: 0,1:20:47.64,1:20:48.28,Dialogue,,0,0,0,,Wait!
+Dialogue: 0,1:20:50.10,1:20:53.43,Dialogue,,0,0,0,,Alright. There doesn't seem to be a vibration detector on it...
+Dialogue: 0,1:20:53.43,1:20:54.74,Dialogue,,0,0,0,,But do it gently!
+Dialogue: 0,1:20:54.74,1:20:55.24,Dialogue,,0,0,0,,Alright!
+Dialogue: 0,1:21:07.28,1:21:08.65,Dialogue,,0,0,0,,Can you hear me, Shin'ichi?
+Dialogue: 0,1:21:08.65,1:21:10.74,Dialogue,,0,0,0,,Yeah, loud and clear!
+Dialogue: 0,1:21:13.55,1:21:15.15,Dialogue,,0,0,0,,I'm tearing the bag now.
+Dialogue: 0,1:21:15.15,1:21:16.25,Dialogue,,0,0,0,,Be careful!
+Dialogue: 0,1:21:25.73,1:21:27.48,Dialogue,,0,0,0,,What is it, Ran? Are you all right?
+Dialogue: 0,1:21:28.18,1:21:30.33,Dialogue,,0,0,0,,Y-Yeah... I'm fine...
+Dialogue: 0,1:21:40.57,1:21:42.87,Dialogue,,0,0,0,,Okay! I'm ready!
+Dialogue: 0,1:21:43.57,1:21:48.89,Dialogue,,0,0,0,,Alright. First, let's remove the outer cover. Pull it up and off.
+Dialogue: 0,1:21:48.89,1:21:49.71,Dialogue,,0,0,0,,Gently, now!
+Dialogue: 0,1:21:50.42,1:21:51.32,Dialogue,,0,0,0,,R-Right...
+Dialogue: 0,1:21:55.26,1:21:56.43,Dialogue,,0,0,0,,It's off, Shin'ichi!
+Dialogue: 0,1:21:57.13,1:22:01.40,Dialogue,,0,0,0,,Great! Now we're going to cut the wiring inside...
+Dialogue: 0,1:22:01.40,1:22:03.89,Dialogue,,0,0,0,,Mess up the order in the slightest and we're goners!
+Dialogue: 0,1:22:07.43,1:22:10.61,Dialogue,,0,0,0,,First, the yellow cord near the bottom...
+Dialogue: 0,1:22:17.18,1:22:18.03,Dialogue,,0,0,0,,I'm cutting it!
+Dialogue: 0,1:22:18.73,1:22:19.99,Dialogue,,0,0,0,,Okay!
+Dialogue: 0,1:22:27.08,1:22:29.41,Dialogue,,0,0,0,,Inspector! Don't tell me Ran is—
+Dialogue: 0,1:22:29.41,1:22:33.30,Dialogue,,0,0,0,,Calm down, Mouri{\rHonorifics - Dialogue}-kun{\r}! That isn't where Ran{\rHonorifics - Dialogue}-kun{\r} is!
+Dialogue: 0,1:22:33.30,1:22:38.26,Dialogue,,0,0,0,,Don't worry! Your daughter still has 15 minutes until she's blown up!
+Dialogue: 0,1:22:38.26,1:22:43.91,Dialogue,,0,0,0,,Damn you! Talk! How do we stop the bomb?!
+Dialogue: 0,1:22:43.91,1:22:46.41,Dialogue,,0,0,0,,It's a special bomb, you see...
+Dialogue: 0,1:22:46.41,1:22:52.11,Dialogue,,0,0,0,,Even if it can be disarmed, the last wire will determine her fate!
+Dialogue: 0,1:22:54.57,1:22:57.53,Dialogue,,0,0,0,,Several pillars of smoke are rising from the Beika City Building—
+Dialogue: 0,1:23:05.11,1:23:06.46,Dialogue,,0,0,0,,It's cut.
+Dialogue: 0,1:23:08.57,1:23:11.54,Dialogue,,0,0,0,,Alright... It looks like we'll make it in time!
+Dialogue: 0,1:23:11.54,1:23:14.30,Dialogue,,0,0,0,,Once we cut the final black cord, the timer'll stop!
+Dialogue: 0,1:23:15.00,1:23:16.76,Dialogue,,0,0,0,,The black cord?
+Dialogue: 0,1:23:20.68,1:23:22.95,Dialogue,,0,0,0,,S-Shin'ichi...
+Dialogue: 0,1:23:22.95,1:23:26.82,Dialogue,,0,0,0,,I cut the black cord, but the timer isn't stopping...
+Dialogue: 0,1:23:26.82,1:23:30.29,Dialogue,,0,0,0,,P-Plus there are still two cords left!
+Dialogue: 0,1:23:30.29,1:23:31.61,Dialogue,,0,0,0,,A red one and a blue one!
+Dialogue: 0,1:23:31.61,1:23:33.61,Dialogue,,0,0,0,,What?!
+Dialogue: 0,1:23:36.64,1:23:39.91,Dialogue,,0,0,0,,The path to the 4th floor stairway is finally open!
+Dialogue: 0,1:23:40.61,1:23:44.62,Dialogue,,0,0,0,,Hurry! There's only four minutes until it detonates!
+Dialogue: 0,1:23:44.62,1:23:46.64,Dialogue,,0,0,0,,Ran! Ran! I'm coming!
+Dialogue: 0,1:23:46.64,1:23:47.65,Dialogue,,0,0,0,,Mouri{\rHonorifics - Dialogue}-san{\r}!
+Dialogue: 0,1:23:47.65,1:23:49.74,Dialogue,,0,0,0,,Where are you going, Mouri{\rHonorifics - Dialogue}-san{\r}?!
+Dialogue: 0,1:23:49.74,1:23:52.42,Dialogue,,0,0,0,,Let go of me! I have to save Ran!
+Dialogue: 0,1:23:53.12,1:23:55.65,Dialogue,,0,0,0,,Please stop! The rescue team will save—
+Dialogue: 0,1:23:55.65,1:23:57.98,Dialogue,,0,0,0,,Ran! Ran!
+Dialogue: 0,1:23:58.98,1:24:02.05,Dialogue,,0,0,0,,The hapless love of a father for his daughter...
+Dialogue: 0,1:24:02.05,1:24:04.56,Dialogue,,0,0,0,,Architecture has no need for love...
+Dialogue: 0,1:24:04.56,1:24:06.10,Dialogue,,0,0,0,,Nor does life!
+Dialogue: 0,1:24:07.66,1:24:11.66,Thoughts,,0,0,0,,{\be10}Wait, Professor! Don't tell me you purposely left out the two wires
+Dialogue: 0,1:24:11.66,1:24:13.40,Thoughts,,0,0,0,,{\be10}to set me up?!
+Dialogue: 0,1:24:14.10,1:24:16.47,Dialogue,,0,0,0,,What should I do? Cut them both?
+Dialogue: 0,1:24:16.47,1:24:19.00,Dialogue,,0,0,0,,You idiot! One of them's a booby trap!
+Dialogue: 0,1:24:19.00,1:24:20.36,Dialogue,,0,0,0,,It'll blow the instant you cut it!
+Dialogue: 0,1:24:21.06,1:24:23.32,Dialogue,,0,0,0,,A-Are you serious?!
+Dialogue: 0,1:24:30.44,1:24:32.42,Thoughts,,0,0,0,,{\be10}Damn! Which is it?!
+Dialogue: 0,1:24:32.42,1:24:35.50,Thoughts,,0,0,0,,{\be10}Red or blue?! Which should we cut?!
+Dialogue: 0,1:24:51.05,1:24:54.17,Dialogue,,0,0,0,,Midnight... Three minutes left...
+Dialogue: 0,1:24:54.17,1:24:57.18,Dialogue,,0,0,0,,Damn it! Which is it?! Which one?!
+Dialogue: 0,1:24:57.18,1:24:58.71,Dialogue,,0,0,0,,Shin'ichi?
+Dialogue: 0,1:24:58.71,1:24:59.32,Dialogue,,0,0,0,,Yeah?
+Dialogue: 0,1:25:00.75,1:25:03.28,Dialogue,,0,0,0,,Happy birthday, Shin'ichi...
+Dialogue: 0,1:25:05.32,1:25:07.22,Dialogue,,0,0,0,,After all...
+Dialogue: 0,1:25:07.22,1:25:11.87,Dialogue,,0,0,0,,I... might never get to say it again...
+Dialogue: 0,1:25:12.57,1:25:13.62,Thoughts,,0,0,0,,{\be10}Ran...
+Dialogue: 0,1:25:30.41,1:25:31.43,Dialogue,,0,0,0,,Cut it...
+Dialogue: 0,1:25:32.85,1:25:34.85,Dialogue,,0,0,0,,Cut whichever color you want...
+Dialogue: 0,1:25:34.85,1:25:36.98,Dialogue,,0,0,0,,But... what if I get it wrong?
+Dialogue: 0,1:25:38.15,1:25:39.82,Dialogue,,0,0,0,,It doesn't matter.
+Dialogue: 0,1:25:39.82,1:25:42.62,Dialogue,,0,0,0,,We're goners anyway, once time is up...
+Dialogue: 0,1:25:42.62,1:25:45.20,Dialogue,,0,0,0,,So choose your color...
+Dialogue: 0,1:25:45.90,1:25:46.91,Dialogue,,0,0,0,,B-But...
+Dialogue: 0,1:25:50.07,1:25:56.60,Dialogue,,0,0,0,,Don't worry! I'll be right here with you until you're done cutting!
+Dialogue: 0,1:25:58.20,1:26:00.54,Dialogue,,0,0,0,,We'll be together when we die...
+Dialogue: 0,1:26:03.41,1:26:04.76,Thoughts,,0,0,0,,{\be10}Shin'ichi...
+Dialogue: 0,1:26:29.95,1:26:33.41,Flashback,,0,0,0,,{\be10}Which color do you like better, red or blue?
+Dialogue: 0,1:26:33.41,1:26:34.50,Flashback,,0,0,0,,{\be10}Red, I guess?
+Dialogue: 0,1:26:35.15,1:26:39.29,Flashback,,0,0,0,,{\be10}And look! Both Shin'ichi and I have red as our lucky color for May!
+Dialogue: 0,1:26:39.99,1:26:42.21,Flashback,,0,0,0,,{\be10}So I decided that we gotta see this!
+Dialogue: 0,1:26:53.88,1:26:56.73,Dialogue,,0,0,0,,Ran! Ran! You alright?!
+Dialogue: 0,1:26:56.73,1:26:58.73,Dialogue,,0,0,0,,Damn! She can't hear me!
+Dialogue: 0,1:26:58.73,1:27:00.43,Dialogue,,0,0,0,,Oh, yeah! My cell phone!
+Dialogue: 0,1:27:00.43,1:27:01.53,Dialogue,,0,0,0,,It's gone!
+Dialogue: 0,1:27:01.53,1:27:03.67,Dialogue,,0,0,0,,Damn, did I drop it earlier?!
+Dialogue: 0,1:27:03.67,1:27:05.66,Dialogue,,0,0,0,,T-There's a little boy here!
+Dialogue: 0,1:27:07.44,1:27:10.44,Dialogue,,0,0,0,,You're safe now, little boy! Let's go!
+Dialogue: 0,1:27:10.44,1:27:15.51,Dialogue,,0,0,0,,W-Wait! There are still people trapped inside!
+Dialogue: 0,1:27:15.51,1:27:16.85,Dialogue,,0,0,0,,Alright, wait here!
+Dialogue: 0,1:27:19.65,1:27:21.69,Dialogue,,0,0,0,,It's no use! Get the jackhammer!
+Dialogue: 0,1:27:21.69,1:27:22.21,Dialogue,,0,0,0,,Right!
+Dialogue: 0,1:27:23.46,1:27:25.62,Dialogue,,0,0,0,,Today's my wedding anniversary,
+Dialogue: 0,1:27:25.62,1:27:27.93,Dialogue,,0,0,0,,but it doesn't look like I'll be enjoying it much...
+Dialogue: 0,1:27:29.96,1:27:33.39,Flashback,,0,0,0,,{\be10}"I gave you three minutes! Enjoy it all you can!"
+Dialogue: 0,1:27:34.07,1:27:41.21,Thoughts,,0,0,0,,{\be10}I get it! He was telling me to enjoy three minutes of my birthday!
+Dialogue: 0,1:27:41.21,1:27:43.40,Thoughts,,0,0,0,,{\be10}Wait! Wasn't that when—
+Dialogue: 0,1:27:43.97,1:27:46.81,Flashback,,0,0,0,,{\be10}Oh, that sounds like fun!
+Dialogue: 0,1:27:46.81,1:27:49.36,Flashback,,0,0,0,,{\be10}I take it you've already gotten him a present?
+Dialogue: 0,1:27:49.36,1:27:51.82,Flashback,,0,0,0,,{\be10}No, on Saturday I'm going to—
+Dialogue: 0,1:27:51.82,1:27:55.49,Flashback,,0,0,0,,{\be10}He and I both like the color red!
+Dialogue: 0,1:27:55.49,1:27:58.29,Flashback,,0,0,0,,{\be10}And we both have red as our lucky color for May!
+Dialogue: 0,1:27:58.96,1:28:01.23,Thoughts,,0,0,0,,{\be10}Lucky color?
+Dialogue: 0,1:28:01.23,1:28:02.35,Thoughts,,0,0,0,,{\be10}Oh no!
+Dialogue: 0,1:28:04.20,1:28:05.42,Dialogue,,0,0,0,,Run, little boy!
+Dialogue: 0,1:28:06.33,1:28:08.26,Dialogue,,0,0,0,,- Little boy!\N- Ran! The red one's a trap!
+Dialogue: 0,1:28:08.96,1:28:10.77,Dialogue,,0,0,0,,Cut the blue one! Don't cut the red one!
+Dialogue: 0,1:28:10.77,1:28:12.83,Dialogue,,0,0,0,,Ran, where are you?! Respond!
+Dialogue: 0,1:28:22.10,1:28:24.77,Dialogue,,0,0,0,,Ran! Ran! Ran!
+Dialogue: 0,1:28:24.77,1:28:26.73,Dialogue,,0,0,0,,Ran!
+Dialogue: 0,1:28:45.03,1:28:47.30,Thoughts,,0,0,0,,{\be10}Goodbye, Shin'ichi...
+Dialogue: 0,1:28:48.00,1:28:48.55,Dialogue,,0,0,0,,Ran!
+Dialogue: 0,1:29:23.81,1:29:26.08,Thoughts,,0,0,0,,{\be10}I-Impossible!
+Dialogue: 0,1:29:45.76,1:29:50.47,Dialogue,,0,0,0,,It's so wonderful that Ran{\rHonorifics - Dialogue}-kun{\r} is all right, Mouri{\rHonorifics - Dialogue}-kun{\r}!
+Dialogue: 0,1:29:50.47,1:29:52.40,Dialogue,,0,0,0,,Yes! Thank you!
+Dialogue: 0,1:29:52.40,1:29:54.03,Dialogue,,0,0,0,,- I'm with Nichiuri TV!\N- Give us your thoughts!
+Dialogue: 0,1:29:54.03,1:29:56.21,Dialogue,,0,0,0,,What role did the great detective play?!
+Dialogue: 0,1:29:56.21,1:30:02.51,Dialogue,,0,0,0,,These bombings were meant to tarnish my name as a great detective
+Dialogue: 0,1:30:02.51,1:30:05.75,Dialogue,,0,0,0,,by leading my daughter Ran into a trap that—
+Dialogue: 0,1:30:08.79,1:30:09.29,Dialogue,,0,0,0,,Oh!
+Dialogue: 0,1:30:13.43,1:30:17.20,Dialogue,,0,0,0,,Conan{\rHonorifics - Dialogue}-kun{\r}! You came because you were worried?
+Dialogue: 0,1:30:17.20,1:30:18.80,Dialogue,,0,0,0,,Yeah...
+Dialogue: 0,1:30:18.80,1:30:20.87,Dialogue,,0,0,0,,Where'd you get that bandage?
+Dialogue: 0,1:30:20.87,1:30:22.53,Dialogue,,0,0,0,,Oh, I just fell...
+Dialogue: 0,1:30:22.53,1:30:24.77,Dialogue,,0,0,0,,You need to be careful.
+Dialogue: 0,1:30:24.77,1:30:27.71,Dialogue,,0,0,0,,Say, Conan{\rHonorifics - Dialogue}-kun{\r}. Have you seen Shin'ichi?
+Dialogue: 0,1:30:27.71,1:30:30.64,Dialogue,,0,0,0,,Huh? He was just here a minute ago...
+Dialogue: 0,1:30:30.64,1:30:33.07,Dialogue,,0,0,0,,Ugh! After I went and got him a present...
+Dialogue: 0,1:30:33.77,1:30:37.42,Dialogue,,0,0,0,,Come to think of it, Shin'ichi{\rHonorifics - Dialogue}-niichan{\r} did seem puzzled!
+Dialogue: 0,1:30:37.42,1:30:40.65,Dialogue,,0,0,0,,He thought you'd pick the red wire for sure,
+Dialogue: 0,1:30:40.65,1:30:43.04,Dialogue,,0,0,0,,so he was wondering why you cut the blue one instead...
+Dialogue: 0,1:30:44.09,1:30:47.00,Dialogue,,0,0,0,,I didn't want to cut it.
+Dialogue: 0,1:30:49.23,1:30:53.40,Dialogue,,0,0,0,,After all, Shin'ichi and I...
+Dialogue: 0,1:30:53.40,1:30:55.42,Dialogue,,0,0,0,,...might be connected!
+Dialogue: 0,1:34:00.50,1:34:03.49,Thoughts,,0,0,0,,{\be10}T-There's no red thread!
+Dialogue: 0,1:34:04.24,1:34:07.17,Thoughts,,0,0,0,,{\be10}Guess that means I'm outta luck as long as I'm Conan...

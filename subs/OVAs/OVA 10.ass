@@ -1,0 +1,352 @@
+[Script Info]
+Title: Detective Conan - OVA 10
+TL Source: DCTP
+ScriptType: v4.00+
+WrapStyle: 3
+PlayResX: 1440
+PlayResY: 1080
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Dialogue,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00401311,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Dialogue Top,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00401311,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,8,30,30,55,1
+Style: Signs,FrancophilSans,74,&H14FFFFFF,&H00FFFFFF,&H46101010,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,8,30,30,55,1
+Style: Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,0,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Radio,FrancophilSans,74,&H00BEE1FF,&H00FFFFFF,&H000B2A42,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Narration,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00BF6F00,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Narration Off,FrancophilSans,74,&H6E8C6F00,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,0,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Flashback,FrancophilSans,74,&H00CDFAFF,&H00FFFFFF,&H00373737,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Flashback Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00CCFFFF,&HC0313134,-1,0,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Honorifics - Dialogue,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00401311,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Signs,FrancophilSans,74,&H14FFFFFF,&H00FFFFFF,&H46101010,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,-1,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Honorifics - Radio,FrancophilSans,74,&H00BEE1FF,&H00FFFFFF,&H000B2A42,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Narration,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00BF6F00,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Narration Off,FrancophilSans,74,&H6E8C6F00,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,-1,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Honorifics - Flashback,FrancophilSans,74,&H00CDFAFF,&H00FFFFFF,&H00373737,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Flashback Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00CCFFFF,&HC0313134,-1,-1,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Masks,FrancophilSans,74,&H00000000,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,2,0,0,0,1
+Style: Title,Conan Episode Title,74,&H00E1E4E3,&H000000FF,&HC8DBDAE1,&HC0000000,-1,0,0,0,100,100,0,0,1,1,0,5,0,0,0,1
+Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-1,0,0,0,100,100,0,0,1,0,0,2,0,0,65,1
+Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
+Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
+Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:08.35,0:00:11.42,Signs,,0,0,0,,This is a request from the Detective Boys!
+Dialogue: 0,0:00:11.95,0:00:16.56,Signs,,0,0,0,,This special DVD is presented by Shogakukan for everyone.
+Dialogue: 0,0:00:17.12,0:00:20.23,Signs,,0,0,0,,When watching a DVD, please keep the room bright...
+Dialogue: 0,0:00:20.49,0:00:23.16,Signs,,0,0,0,,And be sure to watch the monitor or TV...
+Dialogue: 0,0:00:23.43,0:00:24.83,Signs,,0,0,0,,From a distance!!
+Dialogue: 0,0:00:47.15,0:00:53.99,Signs,,0,0,0,,On the Sea 1000km North-Northest of Tokyo
+Dialogue: 0,0:00:55.94,0:01:00.70,Signs,,0,0,0,,Koyakejima
+Dialogue: 0,0:01:15.28,0:01:18.18,Dialogue,,0,0,0,,Artemis's Teardrop?
+Dialogue: 0,0:01:19.62,0:01:22.76,Dialogue,,0,0,0,,Indeed looks like something Kid would aim for.
+Dialogue: 0,0:01:26.53,0:01:28.99,Dialogue,,0,0,0,,Only five minutes until Kid appears!
+Dialogue: 0,0:01:29.90,0:01:31.96,Dialogue,,0,0,0,,Damn, a small island like this...
+Dialogue: 0,0:01:32.60,0:01:36.97,Dialogue,,0,0,0,,If we use helicopters, Kid would have nowhere to run!
+Dialogue: 0,0:01:38.17,0:01:43.98,Signs,,0,0,0,,Today is our hotel's first anniversary and we're having a huge ceremony!
+Dialogue: 0,0:01:41.94,0:01:48.05,Character Card,,0,0,0,,Nezu Shinzou (58)\NPresident of Nezu Corporation
+Dialogue: 0,0:01:44.08,0:01:45.98,Signs,,0,0,0,,I don't want to scare my guests.
+Dialogue: 0,0:01:46.81,0:01:48.98,Signs,,0,0,0,,Please guard this place discreetly.
+Dialogue: 0,0:01:51.12,0:01:52.12,Thoughts,,0,0,0,,{\be10}Fine.
+Dialogue: 0,0:01:52.18,0:01:55.85,Thoughts,,0,0,0,,{\be10}My men may intimidating, but they are all handpicked elites.
+Dialogue: 0,0:01:56.86,0:02:00.19,Thoughts,,0,0,0,,{\be10}I've also made sure that none of them is Kid in disguise.
+Dialogue: 0,0:02:02.13,0:02:04.83,Thoughts,,0,0,0,,{\be10}Plus, we have a secret weapon.
+Dialogue: 0,0:02:08.13,0:02:10.17,Thoughts,,0,0,0,,{\be10}Retinal Recognition System.
+Dialogue: 0,0:02:16.11,0:02:22.75,Thoughts,,0,0,0,,{\be10}This glass cane cannot be opened or closed without data on my retina.
+Dialogue: 0,0:02:24.02,0:02:27.99,Thoughts,,0,0,0,,{\be10}Not to mention the visor is always with me.
+Dialogue: 0,0:02:28.49,0:02:30.72,Dialogue,,0,0,0,,Come here if you dare, Kid!
+Dialogue: 0,0:02:30.53,0:02:33.63,Character Card,,0,0,0,,Yagami Toshihiro (28)\NNezu's Secretary
+Dialogue: 0,0:02:31.16,0:02:33.49,Signs,,0,0,0,,I'll definitely capture you tonight!
+Dialogue: 0,0:02:33.99,0:02:35.59,Dialogue,,0,0,0,,Prepare to be dominated!
+Dialogue: 0,0:02:37.63,0:02:39.24,Signs,,0,0,0,,{\fad(0,300)}Keep Out
+Dialogue: 0,0:02:56.92,0:02:58.18,Dialogue,,0,0,0,,One minute left...
+Dialogue: 0,0:03:03.22,0:03:04.39,Dialogue,,0,0,0,,Thirty seconds left!
+Dialogue: 0,0:03:13.07,0:03:15.63,Dialogue,,0,0,0,,Seven, six, five...
+Dialogue: 0,0:03:18.04,0:03:19.91,Dialogue,,0,0,0,,Two, one...
+Dialogue: 0,0:03:32.08,0:03:33.79,Dialogue,,0,0,0,,Kid will steal the diamond while we're blinded by light!
+Dialogue: 0,0:03:34.25,0:03:35.22,Dialogue,,0,0,0,,Stay focused!
+Dialogue: 0,0:03:35.99,0:03:37.09,Dialogue,,0,0,0,,Inspector, put on the sunglasses.
+Dialogue: 0,0:03:37.99,0:03:38.46,Dialogue,,0,0,0,,Thank you.
+Dialogue: 0,0:03:53.64,0:03:54.47,Dialogue,,0,0,0,,Bastard...
+Dialogue: 0,0:03:54.81,0:03:55.47,Dialogue,,0,0,0,,You're Kid!?
+Dialogue: 0,0:04:09.49,0:04:10.32,Dialogue,,0,0,0,,How's that?
+Dialogue: 0,0:04:10.42,0:04:14.63,Dialogue,,0,0,0,,This plastic face is just like the real thing, right?
+Dialogue: 0,0:04:22.63,0:04:23.60,Dialogue,,0,0,0,,Kid!
+Dialogue: 0,0:04:23.67,0:04:25.14,Dialogue,,0,0,0,,Buh-bye, baby!
+Dialogue: 0,0:04:25.64,0:04:26.71,Dialogue,,0,0,0,,Wait, Kid!
+Dialogue: 0,0:04:34.83,0:04:36.35,Dialogue,,0,0,0,,Kid...
+Dialogue: 0,0:04:36.45,0:04:37.38,Dialogue,,0,0,0,,After him!
+Dialogue: 0,0:04:41.79,0:04:42.72,Dialogue,,0,0,0,,The elevator!
+Dialogue: 0,0:04:46.19,0:04:46.63,Dialogue,,0,0,0,,Hurry!
+Dialogue: 0,0:05:04.68,0:05:05.21,Dialogue,,0,0,0,,Drive!
+Dialogue: 0,0:05:08.75,0:05:10.05,Dialogue,,0,0,0,,What the...
+Dialogue: 0,0:05:17.92,0:05:19.02,Dialogue,,0,0,0,,Damn it!
+Dialogue: 0,0:05:20.93,0:05:21.93,Dialogue,,0,0,0,,We chase by foot!
+Dialogue: 0,0:05:23.26,0:05:23.76,Dialogue,,0,0,0,,Kid!
+Dialogue: 0,0:05:23.86,0:05:25.10,Dialogue,,0,0,0,,You're not getting away!
+Dialogue: 0,0:05:38.11,0:05:39.68,Dialogue,,0,0,0,,Every single time...
+Dialogue: 0,0:05:39.75,0:05:42.21,Dialogue,,0,0,0,,They fall for my dummy trick.
+Dialogue: 0,0:05:45.45,0:05:47.79,Dialogue,,0,0,0,,"He really never learns, does he?"
+Dialogue: 0,0:05:47.79,0:05:48.66,Dialogue,,0,0,0,,"That inspector."
+Dialogue: 0,0:05:53.76,0:05:55.19,Dialogue,,0,0,0,,Right?
+Dialogue: 0,0:05:55.26,0:05:57.20,Dialogue,,0,0,0,,Kaito Kid{\rHonorifics - Dialogue}-san{\r}.
+Dialogue: 0,0:06:00.00,0:06:01.70,Dialogue,,0,0,0,,How'd you know it was a dummy?
+Dialogue: 0,0:06:02.13,0:06:03.64,Dialogue,,0,0,0,,Easy.
+Dialogue: 0,0:06:03.74,0:06:05.30,Dialogue,,0,0,0,,The wind was blowing from the west...
+Dialogue: 0,0:06:03.74,0:06:09.68,Signs,,0,0,0,,Hang gliders usually fly against the wind to progress.
+Dialogue: 0,0:06:05.90,0:06:09.64,Dialogue,,0,0,0,,But that hang glider was heading east.
+Dialogue: 0,0:06:10.81,0:06:12.08,Dialogue,,0,0,0,,I really must hand it to you.
+Dialogue: 0,0:06:12.81,0:06:16.45,Dialogue,,0,0,0,,By the way, was it my manifesto that brought you here?
+Dialogue: 0,0:06:16.95,0:06:18.55,Dialogue,,0,0,0,,No, just by chance.
+Dialogue: 0,0:06:19.58,0:06:24.56,Dialogue,,0,0,0,,Sonoko's family received invitations to celebrate the anniversary of this hotel...
+Dialogue: 0,0:06:25.09,0:06:27.53,Dialogue,,0,0,0,,But no one except Sonoko could make it...
+Dialogue: 0,0:06:27.93,0:06:30.76,Dialogue,,0,0,0,,So she invited us instead.
+Dialogue: 0,0:06:32.83,0:06:34.07,Dialogue,,0,0,0,,Then...
+Dialogue: 0,0:06:34.13,0:06:37.84,Dialogue,,0,0,0,,I happened to see Inspector Nakamori patrolling this hotel.
+Dialogue: 0,0:06:37.94,0:06:40.27,Dialogue,,0,0,0,,That's why I thought something like this would happen.
+Dialogue: 0,0:06:42.11,0:06:43.31,Dialogue,,0,0,0,,I see.
+Dialogue: 0,0:06:43.64,0:06:44.81,Dialogue,,0,0,0,,However...
+Dialogue: 0,0:06:45.24,0:06:49.61,Dialogue,,0,0,0,,Isn't Inspector Nakamori's security net a little bit too loose this time?
+Dialogue: 0,0:06:50.02,0:06:50.92,Dialogue,,0,0,0,,Yeah.
+Dialogue: 0,0:06:50.98,0:06:55.12,Dialogue,,0,0,0,,Although it looks like the inspector wanted to set up a gigantic cordon with helicopters as always...
+Dialogue: 0,0:06:55.22,0:06:59.86,Signs,,0,0,0,,Everyone, regarding our hotel's anniversary party...
+Dialogue: 0,0:06:58.16,0:06:59.86,Dialogue,,0,0,0,,But President Nezu not allow it.
+Dialogue: 0,0:07:00.83,0:07:06.13,Dialogue,,0,0,0,,He firmly requested the security to kept discreetly without media interference.
+Dialogue: 0,0:07:06.63,0:07:07.97,Dialogue,,0,0,0,,I see.
+Dialogue: 0,0:07:08.03,0:07:08.70,Dialogue,,0,0,0,,Well then...
+Dialogue: 0,0:07:09.70,0:07:11.47,Dialogue,,0,0,0,,Chitchat time is over.
+Dialogue: 0,0:07:13.71,0:07:14.81,Dialogue,,0,0,0,,Hey...
+Dialogue: 0,0:07:14.87,0:07:17.14,Dialogue,,0,0,0,,Don't tell me you're going to shoot the soccer ball at me again!?
+Dialogue: 0,0:07:17.88,0:07:19.04,Dialogue,,0,0,0,,You got that right.
+Dialogue: 0,0:07:30.06,0:07:30.86,Dialogue,,0,0,0,,Damn it!
+Dialogue: 0,0:07:48.11,0:07:48.81,Thoughts,,0,0,0,,{\be10}He's smiling?
+Dialogue: 0,0:07:50.01,0:07:52.31,Thoughts,,0,0,0,,{\be10}Even though his precious diamond was stolen? Why?
+Dialogue: 0,0:07:57.25,0:07:59.35,Dialogue,,0,0,0,,Well, now we're finished our desserts...
+Dialogue: 0,0:07:59.42,0:08:01.69,Dialogue,,0,0,0,,Let's leave this party and go play elsewhere!
+Dialogue: 0,0:08:03.05,0:08:03.56,Dialogue,,0,0,0,,Huh?
+Dialogue: 0,0:08:03.66,0:08:05.56,Dialogue,,0,0,0,,Where are Conan{\rHonorifics - Dialogue}-kun{\r} and the others?
+Dialogue: 0,0:08:05.86,0:08:07.69,Dialogue,,0,0,0,,Now that you mention it, they're gone.
+Dialogue: 0,0:08:09.09,0:08:10.50,Dialogue,,0,0,0,,Where could they be?
+Dialogue: 0,0:08:11.66,0:08:13.53,Dialogue,,0,0,0,,Couldn't they have returned to their rooms to sleep?
+Dialogue: 0,0:08:14.73,0:08:16.74,Dialogue,,0,0,0,,It's past 8:00 anyway.
+Dialogue: 0,0:08:16.84,0:08:19.34,Dialogue,,0,0,0,,Let's not worry about the kids.
+Dialogue: 0,0:08:19.40,0:08:21.94,Dialogue,,0,0,0,,Now it's quality time for adults! Let's enjoy ourselves!
+Dialogue: 0,0:08:22.04,0:08:22.67,Dialogue,,0,0,0,,Wait...
+Dialogue: 0,0:08:33.32,0:08:34.35,Dialogue,,0,0,0,,How is it, Ayumi?
+Dialogue: 0,0:08:34.92,0:08:36.42,Dialogue,,0,0,0,,Have you see Kid yet?
+Dialogue: 0,0:08:37.96,0:08:39.42,Dialogue,,0,0,0,,It's too dark to see well.
+Dialogue: 0,0:08:40.56,0:08:41.69,Dialogue,,0,0,0,,If only the moon would come out...
+Dialogue: 0,0:08:48.37,0:08:48.93,Dialogue,,0,0,0,,There he is!
+Dialogue: 0,0:08:50.60,0:08:52.40,Dialogue,,0,0,0,,I can see him too!
+Dialogue: 0,0:08:52.74,0:08:55.57,Dialogue,,0,0,0,,So he really flying to the west.
+Dialogue: 0,0:08:55.64,0:08:57.64,Dialogue,,0,0,0,,Just like I predicted!
+Dialogue: 0,0:08:57.98,0:08:59.95,Dialogue,,0,0,0,,Paper airplane, launch!
+Dialogue: 0,0:09:06.75,0:09:07.42,Dialogue,,0,0,0,,What is it?
+Dialogue: 0,0:09:14.43,0:09:15.46,Dialogue,,0,0,0,,Got it!
+Dialogue: 0,0:09:15.53,0:09:16.63,Dialogue,,0,0,0,,Awesome!
+Dialogue: 0,0:09:21.13,0:09:22.73,Dialogue,,0,0,0,,Genta{\rHonorifics - Dialogue}-kun{\r}, do it now!
+Dialogue: 0,0:09:23.44,0:09:24.50,Dialogue,,0,0,0,,Go!
+Dialogue: 0,0:09:28.01,0:09:28.77,Dialogue,,0,0,0,,Got it!
+Dialogue: 0,0:09:33.85,0:09:34.95,Dialogue,,0,0,0,,It's too heavy!
+Dialogue: 0,0:09:37.72,0:09:38.65,Dialogue,,0,0,0,,Genta{\rHonorifics - Dialogue}-kun{\r}!
+Dialogue: 0,0:09:48.29,0:09:49.86,Dialogue,,0,0,0,,Kid just crashed!
+Dialogue: 0,0:09:51.70,0:09:52.53,Dialogue,,0,0,0,,Right in front of us!
+Dialogue: 0,0:09:57.07,0:09:59.10,Dialogue,,0,0,0,,We can't go in like this.
+Dialogue: 0,0:10:03.54,0:10:05.11,Dialogue,,0,0,0,,We can, if we get through this hole!
+Dialogue: 0,0:10:05.98,0:10:07.31,Dialogue,,0,0,0,,I wonder who made this hole...
+Dialogue: 0,0:10:07.95,0:10:09.11,Dialogue,,0,0,0,,Doesn't matter who!
+Dialogue: 0,0:10:09.18,0:10:09.78,Dialogue,,0,0,0,,Let's go!
+Dialogue: 0,0:10:10.35,0:10:10.55,Dialogue,,0,0,0,,All right.
+Dialogue: 0,0:10:12.82,0:10:15.33,Signs,,0,0,0,,Private property - Do not enter\NNEZU CORPORATION
+Dialogue: 0,0:10:19.16,0:10:20.03,Dialogue,,0,0,0,,All right...
+Dialogue: 0,0:10:20.13,0:10:21.06,Dialogue,,0,0,0,,Now what?
+Dialogue: 0,0:10:28.40,0:10:30.44,Dialogue,,0,0,0,,I crashed, got fished, and I fell...
+Dialogue: 0,0:10:32.87,0:10:34.07,Dialogue,,0,0,0,,What a bummer...
+Dialogue: 0,0:10:35.24,0:10:37.58,Dialogue,,0,0,0,,I can't fly like this.
+Dialogue: 0,0:11:00.40,0:11:02.44,Dialogue,,0,0,0,,Kid's hang glider!
+Dialogue: 0,0:11:02.57,0:11:03.37,Dialogue,,0,0,0,,And his costume!
+Dialogue: 0,0:11:03.70,0:11:06.00,Dialogue,,0,0,0,,Kid must be somewhere near!
+Dialogue: 0,0:11:15.41,0:11:17.38,Thoughts,,0,0,0,,{\be10}Oh, no! They saw my face!
+Dialogue: 0,0:11:19.22,0:11:20.92,Dialogue,,0,0,0,,Shinichi{\rHonorifics - Dialogue}-san{\r}...
+Dialogue: 0,0:11:20.99,0:11:21.59,Dialogue,,0,0,0,,Is it?
+Dialogue: 0,0:11:23.05,0:11:23.96,Dialogue,,0,0,0,,That's right!
+Dialogue: 0,0:11:24.06,0:11:25.52,Dialogue,,0,0,0,,It's Shinichi-oniisan!
+Dialogue: 0,0:11:26.09,0:11:26.93,Dialogue,,0,0,0,,Who's that?
+Dialogue: 0,0:11:27.33,0:11:29.06,Dialogue,,0,0,0,,Come on, Genta{\rHonorifics - Dialogue}-kun{\r}!
+Dialogue: 0,0:11:29.13,0:11:31.50,Dialogue,,0,0,0,,He is Ran{\rHonorifics - Dialogue}-oneesan{\r}'s childhood friend...
+Dialogue: 0,0:11:31.60,0:11:34.90,Dialogue,,0,0,0,,And a high school detective, Kudo Shinichi{\rHonorifics - Dialogue}-san{\r}!
+Dialogue: 0,0:11:36.90,0:11:38.37,Dialogue,,0,0,0,,Oh, right! Right! Right!
+Dialogue: 0,0:11:39.40,0:11:40.97,Dialogue,,0,0,0,,I am Kudo Shinichi!
+Dialogue: 0,0:11:41.07,0:11:42.64,Dialogue,,0,0,0,,Long time no see, guys!
+Dialogue: 0,0:11:43.14,0:11:45.74,Dialogue,,0,0,0,,Shinichi-oniisan, did you come to catch Kid too?
+Dialogue: 0,0:11:46.65,0:11:47.81,Dialogue,,0,0,0,,Yes...
+Dialogue: 0,0:11:47.91,0:11:50.72,Dialogue,,0,0,0,,But he got away as I was getting close.
+Dialogue: 0,0:11:50.78,0:11:52.32,Dialogue,,0,0,0,,In that case, let's chase him together!
+Dialogue: 0,0:11:53.82,0:11:56.05,Dialogue,,0,0,0,,I don't think he's gotten that that far away!
+Dialogue: 0,0:11:57.19,0:11:58.26,Dialogue,,0,0,0,,Well...
+Dialogue: 0,0:11:58.49,0:11:59.76,Dialogue,,0,0,0,,What's the matter?
+Dialogue: 0,0:11:59.82,0:12:01.99,Dialogue,,0,0,0,,Aren't you here to catch Kid?
+Dialogue: 0,0:12:02.29,0:12:03.66,Dialogue,,0,0,0,,Well...
+Dialogue: 0,0:12:03.76,0:12:04.66,Dialogue,,0,0,0,,I suppose so...
+Dialogue: 0,0:12:04.93,0:12:06.23,Dialogue,,0,0,0,,Then, it's decided!
+Dialogue: 0,0:12:06.60,0:12:09.00,Dialogue,,0,0,0,,We Detective Boys...
+Dialogue: 0,0:12:09.10,0:12:11.10,Dialogue,,0,0,0,,And a high school detective...
+Dialogue: 0,0:12:11.17,0:12:13.07,Dialogue,,0,0,0,,Make for a stellar collaboration!
+Dialogue: 0,0:12:13.14,0:12:14.17,Dialogue,,0,0,0,,Awesome!
+Dialogue: 0,0:12:14.64,0:12:15.94,Dialogue,,0,0,0,,Cool!
+Dialogue: 0,0:12:16.01,0:12:17.58,Thoughts,,0,0,0,,{\be10}What a drag...
+Dialogue: 0,0:12:17.64,0:12:19.91,Thoughts,,0,0,0,,{\be10}I need to figure out how to get out of here.
+Dialogue: 0,0:12:23.68,0:12:24.35,Dialogue,,0,0,0,,Is it Kid?
+Dialogue: 0,0:12:26.69,0:12:27.75,Dialogue,,0,0,0,,A boar!
+Dialogue: 0,0:12:31.02,0:12:34.03,Dialogue,,0,0,0,,Could it be that the hole made by that boar!?
+Dialogue: 0,0:12:34.99,0:12:36.86,Dialogue,,0,0,0,,That's not what you should be worried about!
+Dialogue: 0,0:12:36.96,0:12:38.20,Dialogue,,0,0,0,,Wait for me!
+Dialogue: 0,0:12:49.01,0:12:50.54,Dialogue,,0,0,0,,Where exactly are they planning to go?
+Dialogue: 0,0:13:00.05,0:13:02.32,Dialogue,,0,0,0,,Shinichi{\rHonorifics - Dialogue}-san{\r}, hurry up!
+Dialogue: 0,0:13:02.39,0:13:03.52,Dialogue,,0,0,0,,Hurry! Hurry!
+Dialogue: 0,0:13:04.09,0:13:06.52,Thoughts,,0,0,0,,{\be10}Give me a break already...
+Dialogue: 0,0:13:10.13,0:13:12.16,Dialogue,,0,0,0,,We'll have to chase him to the end!
+Dialogue: 0,0:13:13.60,0:13:15.87,Dialogue,,0,0,0,,I'm too starved to move an inch...
+Dialogue: 0,0:13:15.97,0:13:17.57,Dialogue,,0,0,0,,Then, let's have our bagged lunched!
+Dialogue: 0,0:13:18.44,0:13:19.14,Dialogue,,0,0,0,,Bagged lunches?
+Dialogue: 0,0:13:19.67,0:13:21.31,Dialogue,,0,0,0,,First, let's spread this out.
+Dialogue: 0,0:13:23.01,0:13:23.98,Dialogue,,0,0,0,,Ta-daa!
+Dialogue: 0,0:13:24.18,0:13:25.91,Dialogue,,0,0,0,,My main dish!
+Dialogue: 0,0:13:26.01,0:13:27.18,Dialogue,,0,0,0,,It has eel in it!
+Dialogue: 0,0:13:27.68,0:13:30.75,Dialogue,,0,0,0,,I've brought sandwiches and pizza!
+Dialogue: 0,0:13:30.85,0:13:32.25,Dialogue,,0,0,0,,And I've brought dessert!
+Dialogue: 0,0:13:34.22,0:13:36.79,Dialogue,,0,0,0,,Are these all from the party?
+Dialogue: 0,0:13:37.16,0:13:39.76,Dialogue,,0,0,0,,Let's eat!
+Dialogue: 0,0:13:43.03,0:13:44.06,Dialogue,,0,0,0,,Delicious!
+Dialogue: 0,0:13:45.10,0:13:48.10,Dialogue,,0,0,0,,It's so nice to eat under the starry sky! It's really great!
+Dialogue: 0,0:13:48.67,0:13:49.70,Thoughts,,0,0,0,,{\be10}These kids...
+Dialogue: 0,0:13:50.24,0:13:52.27,Thoughts,,0,0,0,,{\be10}They think they're on a picnic or something?
+Dialogue: 0,0:13:52.44,0:13:54.11,Dialogue,,0,0,0,,Next is...
+Dialogue: 0,0:13:54.21,0:13:56.17,Dialogue,,0,0,0,,Mitsuhiko, eat some carrots too!
+Dialogue: 0,0:13:57.31,0:13:59.94,Dialogue,,0,0,0,,I don't like carrots...
+Dialogue: 0,0:14:00.71,0:14:03.21,Dialogue,,0,0,0,,Shinichi-oniisan, is there anything you don't like to eat?
+Dialogue: 0,0:14:04.38,0:14:05.85,Dialogue,,0,0,0,,I can't deal with fish.
+Dialogue: 0,0:14:06.18,0:14:07.25,Dialogue,,0,0,0,,Can't deal with fish...
+Dialogue: 0,0:14:07.32,0:14:08.22,Dialogue,,0,0,0,,Are you afraid of them?
+Dialogue: 0,0:14:09.49,0:14:10.79,Dialogue,,0,0,0,,So funny!
+Dialogue: 0,0:14:12.52,0:14:13.83,Dialogue,,0,0,0,,Is it that funny?
+Dialogue: 0,0:14:36.65,0:14:37.95,Dialogue,,0,0,0,,So thrilling!
+Dialogue: 0,0:14:39.15,0:14:40.39,Dialogue,,0,0,0,,Coming up is a bridge!
+Dialogue: 0,0:15:13.85,0:15:14.89,Dialogue,,0,0,0,,Is everyone all right?
+Dialogue: 0,0:15:15.89,0:15:16.75,Dialogue,,0,0,0,,Barely...
+Dialogue: 0,0:15:22.23,0:15:23.43,Thoughts,,0,0,0,,{\be10}A spy camera...
+Dialogue: 0,0:15:24.16,0:15:25.50,Thoughts,,0,0,0,,{\be10}We've been spied?
+Dialogue: 0,0:15:29.00,0:15:29.93,Dialogue,,0,0,0,,Look at this!
+Dialogue: 0,0:15:30.80,0:15:31.67,Dialogue,,0,0,0,,What is it?
+Dialogue: 0,0:15:36.37,0:15:37.98,Dialogue,,0,0,0,,It's Artemis's Teardrop!
+Dialogue: 0,0:15:38.54,0:15:40.18,Dialogue,,0,0,0,,Kid must have dropped it...
+Dialogue: 0,0:15:42.98,0:15:45.18,Dialogue,,0,0,0,,Well done, Ayumi{\rHonorifics - Dialogue}-chan{\r}!
+Dialogue: 0,0:15:46.99,0:15:49.79,Dialogue,,0,0,0,,So this is the diamond worth 100 million yen?
+Dialogue: 0,0:15:49.85,0:15:51.49,Dialogue,,0,0,0,,Awesome! Awesome!
+Dialogue: 0,0:15:51.56,0:15:52.46,Dialogue,,0,0,0,,Carefully!
+Dialogue: 0,0:15:52.52,0:15:55.23,Dialogue,,0,0,0,,Genta{\rHonorifics - Dialogue}-kun{\r}, your snort just got the diamond blurred!
+Dialogue: 0,0:15:58.86,0:15:59.46,Dialogue,,0,0,0,,Let me see.
+Dialogue: 0,0:16:06.44,0:16:07.24,Dialogue,,0,0,0,,This is...
+Dialogue: 0,0:16:07.74,0:16:08.84,Dialogue,,0,0,0,,A fake.
+Dialogue: 0,0:16:08.91,0:16:09.84,Dialogue,,0,0,0,,Fake?
+Dialogue: 0,0:16:10.61,0:16:13.91,Dialogue,,0,0,0,,If you breathe on a real diamond, the vapor will immediately disappear.
+Dialogue: 0,0:16:14.91,0:16:16.81,Dialogue,,0,0,0,,Due to the high thermal conductivity of the diamond.
+Dialogue: 0,0:16:17.45,0:16:19.25,Dialogue,,0,0,0,,However, the vapor on this didn't disappear.
+Dialogue: 0,0:16:19.75,0:16:23.02,Dialogue,,0,0,0,,But, why would Kid steal a fake diamond?
+Dialogue: 0,0:16:23.49,0:16:27.53,Dialogue,,0,0,0,,We'll have to ask President Nezu personally about that.
+Dialogue: 0,0:16:31.20,0:16:32.56,Dialogue,,0,0,0,,Did you hear anything?
+Dialogue: 0,0:16:32.90,0:16:33.40,Dialogue,,0,0,0,,Yes...
+Dialogue: 0,0:16:34.03,0:16:35.77,Dialogue,,0,0,0,,The noise is closing in...
+Dialogue: 0,0:16:42.24,0:16:43.94,Dialogue,,0,0,0,,Crocodile!
+Dialogue: 0,0:16:44.04,0:16:44.61,Dialogue,,0,0,0,,Run!
+Dialogue: 0,0:16:48.25,0:16:49.58,Dialogue,,0,0,0,,Everyone, here!
+Dialogue: 0,0:16:52.18,0:16:54.59,Dialogue,,0,0,0,,Why are there crocodiles here anyway?
+Dialogue: 0,0:16:54.69,0:16:57.19,Dialogue,,0,0,0,,Now that you mention it, I heard that they build a crocodile park here!
+Dialogue: 0,0:16:57.72,0:16:59.79,Dialogue,,0,0,0,,That means we're in the crocodile park now?
+Dialogue: 0,0:17:00.26,0:17:01.29,Dialogue,,0,0,0,,No...
+Dialogue: 0,0:17:01.39,0:17:03.73,Dialogue,,0,0,0,,Someone released them!
+Dialogue: 0,0:17:03.80,0:17:05.76,Dialogue,,0,0,0,,To get rid of us!
+Dialogue: 0,0:17:07.80,0:17:08.53,Thoughts,,0,0,0,,{\be10}Now what?
+Dialogue: 0,0:17:09.37,0:17:11.04,Thoughts,,0,0,0,,{\be10}I could run away if I was alone.
+Dialogue: 0,0:17:11.70,0:17:13.47,Thoughts,,0,0,0,,{\be10}But I can't leave them...
+Dialogue: 0,0:17:18.54,0:17:19.41,Dialogue,,0,0,0,,You guys!
+Dialogue: 0,0:17:19.48,0:17:21.75,Dialogue,,0,0,0,,Give me those rubber bands you tied on your lunch bags!
+Dialogue: 0,0:17:22.21,0:17:22.95,Dialogue,,0,0,0,,Rubber bands?
+Dialogue: 0,0:17:23.05,0:17:23.55,Dialogue,,0,0,0,,Hurry!
+Dialogue: 0,0:17:24.92,0:17:25.45,Dialogue,,0,0,0,,Here.
+Dialogue: 0,0:17:28.89,0:17:29.92,Dialogue,,0,0,0,,Stay here.
+Dialogue: 0,0:17:43.43,0:17:44.60,Dialogue,,0,0,0,,Now everything is all right.
+Dialogue: 0,0:17:45.44,0:17:46.74,Dialogue,,0,0,0,,Using only rubber bands...
+Dialogue: 0,0:17:47.64,0:17:51.34,Dialogue,,0,0,0,,Crocodiles are powerful when closing their mouths, however...
+Dialogue: 0,0:17:51.44,0:17:53.51,Dialogue,,0,0,0,,It's not so easy to opening them.
+Dialogue: 0,0:17:55.18,0:17:56.98,Dialogue,,0,0,0,,Now let's get out of here before it gets really bad.
+Dialogue: 0,0:18:12.40,0:18:13.63,Dialogue,,0,0,0,,There's a door there!
+Dialogue: 0,0:18:13.90,0:18:14.87,Dialogue,,0,0,0,,No time to think!
+Dialogue: 0,0:18:14.97,0:18:15.63,Dialogue,,0,0,0,,Just get in!
+Dialogue: 0,0:18:25.71,0:18:26.54,Thoughts,,0,0,0,,{\be10}Strange...
+Dialogue: 0,0:18:27.31,0:18:29.35,Thoughts,,0,0,0,,{\be10}Why it has a room in this cave like this?
+Dialogue: 0,0:18:30.55,0:18:32.28,Dialogue,,0,0,0,,I wonder what's in this room.
+Dialogue: 0,0:18:36.69,0:18:38.12,Dialogue,,0,0,0,,So many gems!
+Dialogue: 0,0:18:38.19,0:18:39.29,Dialogue,,0,0,0,,Awesome!
+Dialogue: 0,0:18:40.56,0:18:41.23,Dialogue,,0,0,0,,No.
+Dialogue: 0,0:18:41.86,0:18:44.90,Dialogue,,0,0,0,,There's no way that they'd let real gems just lie around here.
+Dialogue: 0,0:18:45.60,0:18:46.90,Dialogue,,0,0,0,,These are all fakes!
+Dialogue: 0,0:18:47.73,0:18:48.70,Dialogue,,0,0,0,,Fake?
+Dialogue: 0,0:18:50.33,0:18:54.11,Dialogue,,0,0,0,,Looks like President Nezu is in the business of counterfeiting gems and art...
+Dialogue: 0,0:18:54.41,0:18:55.34,Dialogue,,0,0,0,,And also...
+Dialogue: 0,0:18:55.41,0:18:57.24,Dialogue,,0,0,0,,The illegal smuggling weapons.
+Dialogue: 0,0:18:58.08,0:19:01.15,Dialogue,,0,0,0,,The reason he let Kid steal this fake diamond...
+Dialogue: 0,0:19:01.91,0:19:03.85,Dialogue,,0,0,0,,Is to get insurance in the amount of 100 million.
+Dialogue: 0,0:19:07.72,0:19:11.19,Dialogue,,0,0,0,,I think you saw something that you shouldn't.
+Dialogue: 0,0:19:11.96,0:19:13.19,Dialogue,,0,0,0,,President Nezu...
+Dialogue: 0,0:19:13.52,0:19:16.56,Dialogue,,0,0,0,,I will let you see at a real diamond as a parting gift.
+Dialogue: 0,0:19:19.86,0:19:21.57,Dialogue,,0,0,0,,I appreciate for your generosity.
+Dialogue: 0,0:19:22.17,0:19:24.64,Dialogue,,0,0,0,,But you carry the real one out of fear, huh?
+Dialogue: 0,0:19:25.44,0:19:28.24,Dialogue,,0,0,0,,You think Kid will take away the real one after discovering the fake.
+Dialogue: 0,0:19:28.51,0:19:29.41,Dialogue,,0,0,0,,Shut up!
+Dialogue: 0,0:19:29.51,0:19:32.08,Dialogue,,0,0,0,,Because you know our secret, you have to die.
+Dialogue: 0,0:19:35.75,0:19:36.85,Thoughts,,0,0,0,,{\be10}Damn...
+Dialogue: 0,0:19:36.91,0:19:39.02,Thoughts,,0,0,0,,{\be10}These guys are more troublesome than the crocodiles...
+Dialogue: 0,0:19:42.49,0:19:43.19,Dialogue,,0,0,0,,Fire!
+Dialogue: 0,0:19:49.79,0:19:50.23,Dialogue,,0,0,0,,You...
+Dialogue: 0,0:19:54.63,0:19:55.47,Dialogue,,0,0,0,,Damn it!
+Dialogue: 0,0:20:35.41,0:20:38.51,Dialogue,,0,0,0,,President Nezu specifically refused to use helicopters...
+Dialogue: 0,0:20:38.61,0:20:41.25,Dialogue,,0,0,0,,to let you escape, am I right?
+Dialogue: 0,0:20:41.31,0:20:41.98,Dialogue,,0,0,0,,Yeah.
+Dialogue: 0,0:20:43.65,0:20:48.82,Dialogue,,0,0,0,,Even if I return the fake to the police later on...
+Dialogue: 0,0:20:48.89,0:20:51.46,Dialogue,,0,0,0,,He'd say that it was Kid who made the switch.
+Dialogue: 0,0:20:51.52,0:20:55.29,Dialogue,,0,0,0,,And he'd hold to claim that the real one was truly stolen.
+Dialogue: 0,0:20:55.36,0:20:56.43,Dialogue,,0,0,0,,That's how he planned it.
+Dialogue: 0,0:20:57.13,0:21:02.13,Dialogue,,0,0,0,,If you give me the Artemis's Teardrop, I'll make an exception for you and let you go.
+Dialogue: 0,0:21:02.20,0:21:04.44,Dialogue,,0,0,0,,As a means of repaying the favor for saving the children.
+Dialogue: 0,0:21:04.84,0:21:06.47,Dialogue,,0,0,0,,My, how kind you are.
+Dialogue: 0,0:21:07.24,0:21:11.58,Dialogue,,0,0,0,,To be honest, these kids completely wore me out.
+Dialogue: 0,0:21:11.68,0:21:14.68,Dialogue,,0,0,0,,But I can somewhat understand it now...
+Dialogue: 0,0:21:15.71,0:21:18.52,Dialogue,,0,0,0,,How does it feel to you from day to day.
+Dialogue: 0,0:21:21.82,0:21:23.05,Dialogue,,0,0,0,,Well, then...
+Dialogue: 0,0:21:23.15,0:21:24.96,Dialogue,,0,0,0,,Until next time, Great Detective!
+Dialogue: 0,0:22:57.08,0:23:00.65,Dialogue,,0,0,0,,I'm really surprised about that President Nezu had counterfeited gems and works of art.
+Dialogue: 0,0:23:01.45,0:23:04.42,Dialogue,,0,0,0,,And about the smuggling of weapons too...
+Dialogue: 0,0:23:04.86,0:23:08.26,Dialogue,,0,0,0,,But the biggest disappointment is that I didn't meet Kid{\rHonorifics - Dialogue}-sama{\r}!
+Dialogue: 0,0:23:09.63,0:23:11.60,Dialogue,,0,0,0,,I'll go walk a little.
+Dialogue: 0,0:23:11.60,0:23:12.43,Dialogue,,0,0,0,,Where are you going?
+Dialogue: 0,0:23:12.43,0:23:14.13,Dialogue,,0,0,0,,I'm going to find Shinichi!
+Dialogue: 0,0:23:14.70,0:23:16.23,Dialogue,,0,0,0,,He didn't answer my call!
+Dialogue: 0,0:23:16.23,0:23:18.17,Dialogue,,0,0,0,,And ignored my text messages.
+Dialogue: 0,0:23:18.60,0:23:21.47,Dialogue,,0,0,0,,I'm sure he's still on the island somewhere.
+Dialogue: 0,0:23:21.47,0:23:23.17,Dialogue,,0,0,0,,He'll get it when I find him!
+Dialogue: 0,0:23:23.51,0:23:24.68,Thoughts,,0,0,0,,{\be10}I'm already here...
+Dialogue: 0,0:23:25.14,0:23:27.31,Dialogue,,0,0,0,,Then let's search together!
+Dialogue: 0,0:23:28.15,0:23:31.32,Dialogue,,0,0,0,,We've come to know this place pretty well.
+Dialogue: 0,0:23:31.62,0:23:33.22,Dialogue,,0,0,0,,Detective Boys...
+Dialogue: 0,0:23:33.22,0:23:34.92,Dialogue,,0,0,0,,Let's go!
+Dialogue: 0,0:23:35.99,0:23:37.32,Thoughts,,0,0,0,,{\be10}Really?
+Dialogue: 0,0:23:38.36,0:23:41.49,Thoughts,,0,0,0,,{\be10}By the way, how did he escape without a hang glider?
+Dialogue: 0,0:23:47.60,0:23:49.67,Dialogue,,0,0,0,,Jii!
+Dialogue: 0,0:23:49.70,0:23:52.07,Dialogue,,0,0,0,,Hurry and get me out of here!
+Dialogue: 0,0:23:55.67,0:24:00.98,Dialogue,,0,0,0,,FISH!

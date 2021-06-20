@@ -1,0 +1,1667 @@
+[Script Info]
+Title: Detective Conan - Movie 11
+TL Source: Kienai
+ScriptType: v4.00+
+WrapStyle: 3
+PlayResX: 1920
+PlayResY: 1080
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Dialogue,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00401311,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Dialogue Top,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00401311,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,8,30,30,55,1
+Style: Signs,FrancophilSans,74,&H14FFFFFF,&H00FFFFFF,&H46101010,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,8,30,30,55,1
+Style: Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,0,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Radio,FrancophilSans,74,&H00BEE1FF,&H00FFFFFF,&H000B2A42,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Narration,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00BF6F00,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Narration Off,FrancophilSans,74,&H6E8C6F00,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,0,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Flashback,FrancophilSans,74,&H00CDFAFF,&H00FFFFFF,&H00373737,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Flashback Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00CCFFFF,&HC0313134,-1,0,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Honorifics - Dialogue,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00401311,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Signs,FrancophilSans,74,&H14FFFFFF,&H00FFFFFF,&H46101010,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,-1,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Honorifics - Radio,FrancophilSans,74,&H00BEE1FF,&H00FFFFFF,&H000B2A42,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Narration,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00BF6F00,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Narration Off,FrancophilSans,74,&H6E8C6F00,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,-1,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Honorifics - Flashback,FrancophilSans,74,&H00CDFAFF,&H00FFFFFF,&H00373737,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Flashback Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00CCFFFF,&HC0313134,-1,-1,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Masks,FrancophilSans,74,&H00000000,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,2,0,0,0,1
+Style: Title,Conan Episode Title,74,&H00E1E4E3,&H000000FF,&HC8DBDAE1,&HC0000000,-1,0,0,0,100,100,0,0,1,1,0,5,0,0,0,1
+Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-1,0,0,0,100,100,0,0,1,0,0,2,0,0,65,1
+Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
+Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
+Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:19.54,0:00:20.66,Dialogue,,0,0,0,,Emergency!
+Dialogue: 0,0:00:20.66,0:00:22.96,Dialogue,,0,0,0,,Patrol car #503 calling headquarters...
+Dialogue: 0,0:00:22.96,0:00:23.96,Radio,,0,0,0,,{\be10}Emergency...
+Dialogue: 0,0:00:23.96,0:00:25.33,Radio,,0,0,0,,{\be10}Patrol 503, over
+Dialogue: 0,0:00:25.67,0:00:29.30,Dialogue,,0,0,0,,We found the criminals! They're in a stolen vehicle,
+Dialogue: 0,0:00:29.30,0:00:31.96,Dialogue,,0,0,0,,and are traveling along Sotobari and Gyoki roads.
+Dialogue: 0,0:00:31.96,0:00:33.17,Radio,,0,0,0,,{\be10}Roger.
+Dialogue: 0,0:00:33.17,0:00:37.30,Radio,,0,0,0,,{\be10}Please State the license plate number of the suspects car, and what both the car and the suspects look like. Over.
+Dialogue: 0,0:00:37.51,0:00:38.72,Dialogue,,0,0,0,,Roger.
+Dialogue: 0,0:00:39.18,0:00:40.72,Dialogue,,0,0,0,,It's a black SUV,
+Dialogue: 0,0:00:40.72,0:00:44.06,Dialogue,,0,0,0,,with plate number Shinzuku 500, SA 32-55.
+Dialogue: 0,0:00:44.06,0:00:46.15,Dialogue,,0,0,0,,And the suspects look like...
+Dialogue: 0,0:00:46.44,0:00:48.94,Dialogue,,0,0,0,,Lupin and Fujiko!
+Dialogue: 0,0:00:50.90,0:00:52.78,Radio,,0,0,0,,{\be10}Patrol 503, please stop joking around.
+Dialogue: 0,0:00:53.03,0:00:54.53,Dialogue,,0,0,0,,I'm not joking...
+Dialogue: 0,0:00:57.49,0:00:59.58,Dialogue,,0,0,0,,Patrol car #503 calling headquarters...
+Dialogue: 0,0:00:59.58,0:01:02.79,Dialogue,,0,0,0,,Lupin is now turning off Gyoki Road onto Middle Road.
+Dialogue: 0,0:01:02.79,0:01:04.79,Radio,,0,0,0,,{\be10}Patrol 503, just cut the crap already...
+Dialogue: 0,0:01:04.96,0:01:05.25,Radio,,0,0,0,,{\be10}Over.
+Dialogue: 0,0:01:05.62,0:01:08.13,Dialogue,,0,0,0,,I told you, I'm being serious here!
+Dialogue: 0,0:01:10.29,0:01:12.13,Dialogue,,0,0,0,,Wait a second, Sato{\rHonorifics - Dialogue}-san{\r}.
+Dialogue: 0,0:01:12.13,0:01:14.05,Dialogue,,0,0,0,,Please drive a little more carefully...
+Dialogue: 0,0:01:14.05,0:01:15.59,Dialogue,,0,0,0,,Shouldn't you still be contacting headquarters?
+Dialogue: 0,0:01:15.59,0:01:16.80,Dialogue,,0,0,0,,Ah... Yes!
+Dialogue: 0,0:01:17.18,0:01:19.22,Dialogue,,0,0,0,,Patrol #503 calling headquarters...
+Dialogue: 0,0:01:19.22,0:01:21.31,Dialogue,,0,0,0,,Suspects are turning right onto Harumi Road.
+Dialogue: 0,0:01:20.22,0:01:22.77,Dialogue Top,,0,0,0,,How dare you wear a lupin mask for a robbery...
+Dialogue: 0,0:01:23.02,0:01:24.18,Dialogue,,0,0,0,,I'll never forgive you for that!
+Dialogue: 0,0:01:30.73,0:01:32.44,Dialogue,,0,0,0,,Welcome, and good evening to you!
+Dialogue: 0,0:01:41.33,0:01:43.99,Dialogue,,0,0,0,,That'll be 1,237 yen.
+Dialogue: 0,0:01:49.75,0:01:52.13,Radio,,0,0,0,,{\be10}Pull your car over now!
+Dialogue: 0,0:01:57.76,0:01:59.47,Dialogue,,0,0,0,,What's going on?
+Dialogue: 0,0:01:59.47,0:02:00.85,Dialogue,,0,0,0,,Awesome!
+Dialogue: 0,0:02:01.39,0:02:02.89,Radio,,0,0,0,,{\be10}Pull your car over now!
+Dialogue: 0,0:02:02.89,0:02:04.31,Radio,,0,0,0,,{\be10}Let me repeat myself...
+Dialogue: 0,0:02:04.68,0:02:07.06,Radio,,0,0,0,,{\be10}There's nowhere for you to run,
+Dialogue: 0,0:02:07.43,0:02:09.52,Radio,,0,0,0,,{\be10}so pull your car over now!
+Dialogue: 0,0:02:17.24,0:02:18.20,Dialogue,,0,0,0,,You shouldn't have done that...
+Dialogue: 0,0:02:18.45,0:02:20.57,Dialogue,,0,0,0,,Now, I'll pay you back with an eye for an eye!
+Dialogue: 0,0:03:04.62,0:03:07.08,Dialogue,,0,0,0,,Sato{\rHonorifics - Dialogue}-san{\r}, they're getting away!
+Dialogue: 0,0:03:07.75,0:03:09.04,Dialogue,,0,0,0,,Hold on to your seat.
+Dialogue: 0,0:03:13.38,0:03:15.29,Dialogue,,0,0,0,,Sato{\rHonorifics - Dialogue}-san{\r}, what are you doing?
+Dialogue: 0,0:03:15.29,0:03:16.92,Dialogue,,0,0,0,,You'll bite your tongue if you keep talking...
+Dialogue: 0,0:03:27.85,0:03:29.14,Dialogue,,0,0,0,,Sa-Sato{\rHonorifics - Dialogue}-san{\r}!
+Dialogue: 0,0:03:29.14,0:03:29.73,Dialogue,,0,0,0,,Just hold on!
+Dialogue: 0,0:03:35.56,0:03:37.40,Dialogue,,0,0,0,,Wa-wait, Sato{\rHonorifics - Dialogue}-san{\r}!
+Dialogue: 0,0:03:48.58,0:03:50.54,Dialogue,,0,0,0,,Takagi{\rHonorifics - Dialogue}-kun{\r}, contact headquarters.
+Dialogue: 0,0:03:50.54,0:03:51.58,Dialogue,,0,0,0,,Yes, ma'am!
+Dialogue: 0,0:03:55.58,0:03:57.29,Dialogue,,0,0,0,,Honestly...
+Dialogue: 0,0:03:57.29,0:03:58.84,Dialogue,,0,0,0,,Sato{\rHonorifics - Dialogue}-san{\r},
+Dialogue: 0,0:03:58.84,0:04:01.84,Dialogue,,0,0,0,,Backup and ambulances are on their way.
+Dialogue: 0,0:04:02.38,0:04:03.38,Dialogue,,0,0,0,,This bastard has only himself to thank.
+Dialogue: 0,0:04:04.72,0:04:08.22,Dialogue,,0,0,0,,How dare he wear the mask of my first love?
+Dialogue: 0,0:04:09.01,0:04:11.18,Dialogue,,0,0,0,,F-first love?
+Dialogue: 0,0:04:11.18,0:04:12.77,Dialogue,,0,0,0,,Go and have a look at Fujiko.
+Dialogue: 0,0:04:13.06,0:04:13.73,Dialogue,,0,0,0,,Okay.
+Dialogue: 0,0:04:17.44,0:04:20.69,Dialogue,,0,0,0,,Hang on! The ambulance will be here soon.
+Dialogue: 0,0:04:20.69,0:04:21.69,Dialogue,,0,0,0,,Sato{\rHonorifics - Dialogue}-san{\r}!
+Dialogue: 0,0:04:22.03,0:04:23.24,Dialogue,,0,0,0,,Fujiko just fainted.
+Dialogue: 0,0:04:23.24,0:04:25.86,Dialogue,,0,0,0,,The injury isn't very serious.
+Dialogue: 0,0:04:25.86,0:04:26.87,Dialogue,,0,0,0,,Really?
+Dialogue: 0,0:04:26.87,0:04:32.16,Dialogue,,0,0,0,,But, why did they commit a robbery in such odd masks?
+Dialogue: 0,0:04:32.37,0:04:34.79,Dialogue,,0,0,0,,Koumi... Island...
+Dialogue: 0,0:04:34.79,0:04:36.08,Dialogue,,0,0,0,,Koumi Island?
+Dialogue: 0,0:04:37.46,0:04:40.17,Dialogue,,0,0,0,,Is that why you committed robbery, so that you could take a vacation on that island?
+Dialogue: 0,0:04:40.17,0:04:41.51,Dialogue,,0,0,0,,N-no...
+Dialogue: 0,0:04:41.51,0:04:43.05,Dialogue,,0,0,0,,No?
+Dialogue: 0,0:04:43.05,0:04:45.01,Dialogue,,0,0,0,,What about that island, then?
+Dialogue: 0,0:04:45.01,0:04:45.88,Dialogue,,0,0,0,,J-
+Dialogue: 0,0:04:45.88,0:04:46.72,Dialogue,,0,0,0,,J-Jolly...
+Dialogue: 0,0:04:47.14,0:04:50.68,Dialogue,,0,0,0,,Jolly Roger...
+Dialogue: 0,0:04:51.18,0:04:52.68,Dialogue,,0,0,0,,Jolly Roger?
+Dialogue: 0,0:04:53.10,0:04:54.31,Dialogue,,0,0,0,,Do you know what that is?
+Dialogue: 0,0:04:54.31,0:04:55.35,Dialogue,,0,0,0,,No idea...
+Dialogue: 0,0:05:09.03,0:05:12.70,Signs,,0,0,0,,Koumi Island
+Dialogue: 0,0:05:21.05,0:05:23.26,Dialogue,,0,0,0,,Mama! Hurry, hurry!
+Dialogue: 0,0:05:23.26,0:05:24.13,Dialogue,,0,0,0,,Let's go over there!
+Dialogue: 0,0:05:24.13,0:05:25.17,Dialogue,,0,0,0,,Wait for me!
+Dialogue: 0,0:05:25.42,0:05:28.05,Dialogue,,0,0,0,,Hey, do you know how to use this?
+Dialogue: 0,0:05:28.05,0:05:29.18,Dialogue,,0,0,0,,Let me show you.
+Dialogue: 0,0:05:29.18,0:05:31.64,Dialogue,,0,0,0,,Sensei, what kind of fish are here?
+Dialogue: 0,0:05:37.27,0:05:40.06,Dialogue,,0,0,0,,Good morning! may I have the name you made reservations under?
+Dialogue: 0,0:05:40.36,0:05:43.61,Dialogue,,0,0,0,,Mouri Kogoro, the famous detective.
+Dialogue: 0,0:05:43.90,0:05:46.99,Dialogue,,0,0,0,,We have two adults, two students, and five children.
+Dialogue: 0,0:05:47.45,0:05:48.99,Dialogue,,0,0,0,,Let me look you up.
+Dialogue: 0,0:05:51.58,0:05:57.83,Dialogue,,0,0,0,,You know how the 'Daily Times' publishes a puzzle to solve each week, right?
+Dialogue: 0,0:05:57.83,0:05:59.33,Dialogue,,0,0,0,,They're really hard!
+Dialogue: 0,0:05:59.33,0:06:01.54,Dialogue,,0,0,0,,The cash prize keeps accumulating if no one sends in the right answer.
+Dialogue: 0,0:06:01.75,0:06:04.55,Dialogue,,0,0,0,,It even reached 300,000 yen!
+Dialogue: 0,0:06:05.01,0:06:08.63,Dialogue,,0,0,0,,And do you know who it was that won all that money...?
+Dialogue: 0,0:06:09.80,0:06:10.97,Dialogue,,0,0,0,,I have no idea...
+Dialogue: 0,0:06:10.97,0:06:12.72,Dialogue,,0,0,0,,Oh, you mean...
+Dialogue: 0,0:06:13.18,0:06:14.77,Dialogue,,0,0,0,,Bingo!
+Dialogue: 0,0:06:14.77,0:06:16.60,Dialogue,,0,0,0,,After all, I am a famous detective.
+Dialogue: 0,0:06:16.60,0:06:18.39,Dialogue,,0,0,0,,Puzzles are a piece of cake for me!
+Dialogue: 0,0:06:19.44,0:06:21.06,Thoughts,,0,0,0,,{\be10}Although, I'm the one who told you the right answer...
+Dialogue: 0,0:06:21.23,0:06:24.69,Dialogue,,0,0,0,,If you have 300,000 yen, you can take a vacation in Paris.
+Dialogue: 0,0:06:25.69,0:06:28.95,Dialogue,,0,0,0,,The streets of Paris are just my style, but then I'd feel guilty having all the fun myself,
+Dialogue: 0,0:06:29.41,0:06:34.20,Dialogue,,0,0,0,,and it's not like we always have opportunities like this,
+Dialogue: 0,0:06:34.20,0:06:38.37,Dialogue,,0,0,0,,so I brought them along as well.
+Dialogue: 0,0:06:38.37,0:06:40.71,Dialogue,,0,0,0,,I'm just a really kind man, don't you think?
+Dialogue: 0,0:06:41.17,0:06:42.50,Dialogue,,0,0,0,,Y-yeah...
+Dialogue: 0,0:06:42.50,0:06:44.63,Dialogue,,0,0,0,,What are our room numbers then?
+Dialogue: 0,0:06:44.63,0:06:49.09,Dialogue,,0,0,0,,I'm sorry, but I couldn't find your reservation.
+Dialogue: 0,0:06:49.55,0:06:50.84,Dialogue,,0,0,0,,Are you serious?!?
+Dialogue: 0,0:06:50.97,0:06:52.22,Thoughts,,0,0,0,,{\be10}Hey, hey...
+Dialogue: 0,0:06:52.39,0:06:54.18,Dialogue,,0,0,0,,Wait a minute,
+Dialogue: 0,0:06:54.18,0:06:56.10,Dialogue,,0,0,0,,I made this reservation a while ago!
+Dialogue: 0,0:06:56.10,0:06:59.48,Dialogue,,0,0,0,,But, I couldn't find your name on the reservation list.
+Dialogue: 0,0:06:59.64,0:07:02.15,Dialogue,,0,0,0,,Are we going to have to camp outside?
+Dialogue: 0,0:07:02.15,0:07:06.07,Dialogue,,0,0,0,,This island has a tropical climate, so there might be poisonous bugs all over the place.
+Dialogue: 0,0:07:06.07,0:07:08.24,Dialogue,,0,0,0,,If only we'd known that it'd end up like this...
+Dialogue: 0,0:07:08.24,0:07:10.86,Dialogue,,0,0,0,,Well, we'll think of something.
+Dialogue: 0,0:07:10.86,0:07:13.82,Dialogue,,0,0,0,,After all, it's not like we can't talk to people here.
+Dialogue: 0,0:07:14.16,0:07:16.24,Dialogue,,0,0,0,,Wow! Haibara{\rHonorifics - Dialogue}-san{\r} sounds like an adult.
+Dialogue: 0,0:07:16.24,0:07:19.41,Dialogue,,0,0,0,,Well, I'm pretty sure she's not a child...
+Dialogue: 0,0:07:21.04,0:07:25.84,Dialogue,,0,0,0,,The front desk said that they'll contact the Tourism Division.
+Dialogue: 0,0:07:25.84,0:07:27.00,Dialogue,,0,0,0,,Sorry for all the trouble.
+Dialogue: 0,0:07:27.00,0:07:28.96,Dialogue,,0,0,0,,But that man promised me!
+Dialogue: 0,0:07:28.96,0:07:32.30,Dialogue,,0,0,0,,He said the reservation was confirmed!
+Dialogue: 0,0:07:32.30,0:07:34.43,Dialogue,,0,0,0,,Well, I'm confused too.
+Dialogue: 0,0:07:34.43,0:07:36.72,Dialogue,,0,0,0,,Good afternoon, sorry to keep you waiting.
+Dialogue: 0,0:07:36.72,0:07:39.48,Dialogue,,0,0,0,,You must be Mouri Kogoro{\rHonorifics - Dialogue}-san{\r}, the famous detective...
+Dialogue: 0,0:07:45.73,0:07:47.36,Dialogue,,0,0,0,,I apologize...
+Dialogue: 0,0:07:47.36,0:07:48.69,Dialogue,,0,0,0,,I'm Iwanaga from the Tourism Division.
+Dialogue: 0,0:07:48.82,0:07:53.11,Signs,,0,0,0,,Iwanaga Jouji\NKoumi Island Tourism Division
+Dialogue: 0,0:07:50.07,0:07:53.24,Dialogue,,0,0,0,,The amount of tourists has just skyrocketed this month.
+Dialogue: 0,0:07:53.24,0:07:54.70,Dialogue,,0,0,0,,Hotels are all completely booked.
+Dialogue: 0,0:07:54.70,0:07:57.16,Dialogue,,0,0,0,,Seems all the happy travelers are causing busyness for us...
+Dialogue: 0,0:07:57.33,0:08:00.83,Dialogue,,0,0,0,,But I already made your reservations for you.
+Dialogue: 0,0:08:00.83,0:08:04.12,Dialogue,,0,0,0,,You {\i1}are{\i0} the famous detective Mouri Kogoro, after all.
+Dialogue: 0,0:08:04.37,0:08:06.84,Dialogue,,0,0,0,,Please, follow me. This way.
+Dialogue: 0,0:08:07.88,0:08:09.25,Dialogue,,0,0,0,,What a dumbass...
+Dialogue: 0,0:08:09.25,0:08:10.51,Dialogue,,0,0,0,,What is he doing?
+Dialogue: 0,0:08:13.97,0:08:15.93,Dialogue,,0,0,0,,Who are they?
+Dialogue: 0,0:08:15.93,0:08:17.93,Dialogue,,0,0,0,,They're probably treasure hunters.
+Dialogue: 0,0:08:17.93,0:08:19.52,Dialogue,,0,0,0,,Treasure Hunters?
+Dialogue: 0,0:08:19.52,0:08:21.39,Dialogue,,0,0,0,,Do they repair pipes?
+Dialogue: 0,0:08:21.98,0:08:24.39,Dialogue,,0,0,0,,Flushing toilets and stuff like that?
+Dialogue: 0,0:08:26.31,0:08:28.57,Dialogue,,0,0,0,,That's not it, Genta{\rHonorifics - Dialogue}-kun{\r}.
+Dialogue: 0,0:08:28.57,0:08:32.49,Dialogue,,0,0,0,,They look for treasure all over the world.
+Dialogue: 0,0:08:33.61,0:08:37.20,Dialogue,,0,0,0,,But how do you know that they're treasure hunters?
+Dialogue: 0,0:08:37.20,0:08:39.24,Dialogue,,0,0,0,,Ah, just look at them.
+Dialogue: 0,0:08:39.99,0:08:43.16,Dialogue,,0,0,0,,Their skin is nicely tanned,
+Dialogue: 0,0:08:43.16,0:08:47.38,Dialogue,,0,0,0,,but only on their hands and heads, and not anywhere else, right?
+Dialogue: 0,0:08:47.38,0:08:50.00,Dialogue,,0,0,0,,They must wear wet suits a lot.
+Dialogue: 0,0:08:50.30,0:08:54.34,Dialogue,,0,0,0,,Plus the color of their hair has faded from prolonged contact with sea water.
+Dialogue: 0,0:08:54.34,0:08:57.14,Dialogue,,0,0,0,,But that only proves that they dive a lot.
+Dialogue: 0,0:08:57.14,0:08:59.01,Dialogue,,0,0,0,,That may be true...
+Dialogue: 0,0:08:59.01,0:09:00.47,Dialogue,,0,0,0,,But, if you look at that poster,
+Dialogue: 0,0:09:00.93,0:09:02.39,Dialogue,,0,0,0,,You'll realize that my deduction is logical.
+Dialogue: 0,0:09:06.52,0:09:07.52,Dialogue,,0,0,0,,Treasure!!
+Dialogue: 0,0:09:07.65,0:09:08.48,Dialogue,,0,0,0,,Yeah.
+Dialogue: 0,0:09:09.19,0:09:10.77,Dialogue,,0,0,0,,They must be dreaming...
+Dialogue: 0,0:09:11.98,0:09:14.49,Dialogue,,0,0,0,,...of finding the treasure sleeping under the sea.
+Dialogue: 0,0:09:40.26,0:09:42.85,Narration Off,,0,0,0,,{\be10}I'm high school detective, Kudo Shinichi.
+Dialogue: 0,0:09:42.85,0:09:45.48,Narration Off,,0,0,0,,{\be10}Eh? You say I don't look like a high-schooler?
+Dialogue: 0,0:09:46.39,0:09:49.94,Signs,,0,0,0,,Original Creator Aoyama Gosho\Nserialized in Shogakukan's weekly Shounen Sunday
+Dialogue: 0,0:09:49.77,0:09:52.48,Narration Off,,0,0,0,,{\be10}While visiting an amusement park with my\Nchildhood friend and classmate, Mouri Ran...
+Dialogue: 0,0:09:53.53,0:09:58.74,Narration Off,,0,0,0,,{\be10}I went to investigate, and witnessed a man in black in the middle of a suspicious transaction.
+Dialogue: 0,0:09:53.44,0:09:56.86,Signs,,0,0,0,,Screenplay Hiroshi Kawashiabara
+Dialogue: 0,0:09:57.82,0:10:01.49,Signs,,0,0,0,,Music Katsuo Ohno
+Dialogue: 0,0:09:59.91,0:10:02.20,Narration Off,,0,0,0,,{\be10}Engrossed in watching the deal,
+Dialogue: 0,0:10:02.20,0:10:04.70,Narration Off,,0,0,0,,{\be10}I didn't notice his partner sneaking up behind me.
+Dialogue: 0,0:10:03.12,0:10:06.71,Signs,,0,0,0,,Character Design Sudou Masatomo
+Dialogue: 0,0:10:07.79,0:10:11.25,Signs,,0,0,0,,Art Director Shibuya Yukihiro\NColor Planning Nishi Kayoko
+Dialogue: 0,0:10:08.25,0:10:12.67,Narration Off,,0,0,0,,{\be10}I was forced to take a poison, and when I woke up...
+Dialogue: 0,0:10:13.34,0:10:15.67,Narration Off,,0,0,0,,{\be10}My body had shrunk!
+Dialogue: 0,0:10:16.17,0:10:19.68,Signs,,0,0,0,,Director of Photography Nomura Takashi\NSound Director Izawa Motoi
+Dialogue: 0,0:10:16.26,0:10:19.01,Narration Off,,0,0,0,,{\be10}If they found out that Kudo Shinichi was still alive,
+Dialogue: 0,0:10:19.01,0:10:21.93,Narration Off,,0,0,0,,{\be10}They would come after me again and endanger the lives of those around me.
+Dialogue: 0,0:10:22.14,0:10:25.68,Signs,,0,0,0,,Edogawa Conan Takayama Minami
+Dialogue: 0,0:10:22.80,0:10:25.85,Narration Off,,0,0,0,,{\be10}Following Prof. Agasa advice I decided to hide my identity.
+Dialogue: 0,0:10:26.14,0:10:29.77,Narration Off,,0,0,0,,{\be10}When Ran asked me who I was, I blurted out, "Edogawa Conan".
+Dialogue: 0,0:10:30.31,0:10:32.31,Narration Off,,0,0,0,,{\be10}In order to find more information on the men in black,
+Dialogue: 0,0:10:34.57,0:10:38.20,Signs,,0,0,0,,Mouri Kogoro Kamiya Akira\NMouri Ran Yamazaki Wakana
+Dialogue: 0,0:10:32.31,0:10:34.98,Narration Off,,0,0,0,,{\be10}I moved in with Ran and her father, who is a detective.
+Dialogue: 0,0:10:37.11,0:10:41.41,Narration Off,,0,0,0,,{\be10}Yes, this old man is Ran's Father, the "famous detective", Mouri Kogoro.
+Dialogue: 0,0:10:42.62,0:10:44.62,Narration Off,,0,0,0,,{\be10}People call him "Sleeping Kogoro",
+Dialogue: 0,0:10:46.83,0:10:49.75,Narration Off,,0,0,0,,{\be10}but that's because... that's what's really happening.
+Dialogue: 0,0:10:51.63,0:10:53.67,Narration Off,,0,0,0,,{\be10}Her name is Suzuki Sonoko,
+Dialogue: 0,0:10:54.00,0:10:55.71,Narration Off,,0,0,0,,{\be10}She's Ran classmate.
+Dialogue: 0,0:10:53.88,0:10:57.46,Signs,,0,0,0,,Suzuki Sonoko Matsui Naoko\NProfessor Agasa Ogata Kenichi
+Dialogue: 0,0:10:55.71,0:10:59.63,Narration Off,,0,0,0,,{\be10}By looking, you'd never know she comes from a wealthy family, since she's a rather easy-going girl.
+Dialogue: 0,0:11:00.26,0:11:02.47,Narration Off,,0,0,0,,{\be10}This man is professor Agasa
+Dialogue: 0,0:11:03.89,0:11:08.52,Narration Off,,0,0,0,,{\be10}Professor Agasa has invented a lot of interesting and unique gadgets for me since my body has shrunk.
+Dialogue: 0,0:11:11.85,0:11:14.02,Narration Off,,0,0,0,,{\be10}This girl is Haibara Ai.
+Dialogue: 0,0:11:14.77,0:11:18.19,Signs,,0,0,0,,Haibara Ai Hayashibara Megumi
+Dialogue: 0,0:11:14.86,0:11:16.73,Narration Off,,0,0,0,,{\be10}Her true identity is Miyano Shiho.
+Dialogue: 0,0:11:17.36,0:11:21.24,Narration Off,,0,0,0,,{\be10}She used to be a member of the black Organization, but in order to escape,
+Dialogue: 0,0:11:21.24,0:11:26.95,Narration Off,,0,0,0,,{\be10}She swallowed the same poison that I was given, and her body shrank as well.
+Dialogue: 0,0:11:28.41,0:11:32.50,Signs,,0,0,0,,Producers
+Dialogue: 0,0:11:28.41,0:11:32.50,Signs,,0,0,0,,Suwa Michihiko\NYoshioka Masahito
+Dialogue: 0,0:11:28.66,0:11:32.50,Narration Off,,0,0,0,,{\be10}I still don't know the true identities of those men in black,
+Dialogue: 0,0:11:32.50,0:11:35.96,Narration Off,,0,0,0,,{\be10}But I bet on my name as a detective, I'll have it out with them one day.
+Dialogue: 0,0:11:37.30,0:11:41.51,Signs,,0,0,0,,Director Yamamoto Yasuichiro
+Dialogue: 0,0:11:37.46,0:11:39.55,Narration Off,,0,0,0,,{\be10}Even though I've become small,
+Dialogue: 0,0:11:40.01,0:11:41.72,Narration Off,,0,0,0,,{\be10}My mind is still that of a great detective.
+Dialogue: 0,0:11:42.26,0:11:45.39,Narration Off,,0,0,0,,{\be10}There is only one truth!
+Dialogue: 0,0:11:50.81,0:11:52.44,Dialogue,,0,0,0,,Speaking of which...
+Dialogue: 0,0:11:52.44,0:11:56.44,Dialogue,,0,0,0,,Why are treasure hunters coming on this island?
+Dialogue: 0,0:11:56.82,0:12:00.24,Dialogue,,0,0,0,,Someone found some treasure two weeks ago.
+Dialogue: 0,0:12:00.78,0:12:01.70,Dialogue,,0,0,0,,Treasure?
+Dialogue: 0,0:12:01.70,0:12:06.37,Dialogue,,0,0,0,,I heard that they found silver in Seabed Palace. Is that true?
+Dialogue: 0,0:12:06.37,0:12:08.16,Dialogue,,0,0,0,,I think so.
+Dialogue: 0,0:12:08.16,0:12:09.95,Dialogue,,0,0,0,,What's Seabed Palace?
+Dialogue: 0,0:12:09.95,0:12:13.21,Dialogue,,0,0,0,,See that deserted island over there?
+Dialogue: 0,0:12:14.25,0:12:17.25,Signs,,0,0,0,,Yorioya Island
+Dialogue: 0,0:12:13.54,0:12:15.50,Dialogue,,0,0,0,,It's Yorioya Island.
+Dialogue: 0,0:12:15.83,0:12:19.30,Dialogue,,0,0,0,,200 meters east of the island,
+Dialogue: 0,0:12:19.30,0:12:23.30,Dialogue,,0,0,0,,there are ruins in the seabed.
+Dialogue: 0,0:12:23.30,0:12:30.22,Dialogue,,0,0,0,,Ten years ago, there was a rumor saying\Nthat there were ruins near Koumi Island.
+Dialogue: 0,0:12:30.97,0:12:33.98,Dialogue,,0,0,0,,Many scholars came to do a research on it,
+Dialogue: 0,0:12:33.44,0:12:37.06,Signs,,0,0,0,,Seabed Palace
+Dialogue: 0,0:12:33.98,0:12:38.82,Dialogue,,0,0,0,,but they never concluded whether it's man-made or natural.
+Dialogue: 0,0:12:39.27,0:12:43.78,Dialogue,,0,0,0,,Yorioya Island used to be exposed above water.
+Dialogue: 0,0:12:43.78,0:12:48.62,Dialogue,,0,0,0,,300 Years ago, earthquakes caused it to sink into the ocean depths.
+Dialogue: 0,0:12:48.62,0:12:50.49,Dialogue,,0,0,0,,Due to earthquakes?
+Dialogue: 0,0:12:50.49,0:12:52.20,Dialogue,,0,0,0,,Like in a landslide?
+Dialogue: 0,0:12:52.20,0:12:58.08,Dialogue,,0,0,0,,Yes, I heard that the seabed nearby contains methane hydrate.
+Dialogue: 0,0:12:58.59,0:13:01.25,Dialogue,,0,0,0,,The earthquakes disturbed it and caused a landslide.
+Dialogue: 0,0:13:01.25,0:13:04.34,Dialogue,,0,0,0,,That's the most logical explanation so far.
+Dialogue: 0,0:13:05.72,0:13:07.01,Dialogue,,0,0,0,,Hey Conan...
+Dialogue: 0,0:13:07.47,0:13:10.47,Dialogue,,0,0,0,,What's "meat-tanned-hand-maid?"
+Dialogue: 0,0:13:11.22,0:13:13.14,Dialogue Top,,0,0,0,,Methane hydrate.
+Dialogue: 0,0:13:13.56,0:13:16.23,Dialogue Top,,0,0,0,,In a low temperature, high pressure environment,
+Dialogue: 0,0:13:16.23,0:13:19.94,Dialogue Top,,0,0,0,,Water combines with methane and forms a kind of cage.
+Dialogue: 0,0:13:12.68,0:13:20.11,Signs,,0,0,0,,Methane Hydrate
+Dialogue: 0,0:13:20.57,0:13:22.48,Dialogue,,0,0,0,,It's also called combustible ice.
+Dialogue: 0,0:13:22.48,0:13:24.11,Dialogue,,0,0,0,,Combustible Ice?
+Dialogue: 0,0:13:24.11,0:13:25.82,Dialogue,,0,0,0,,Water cage?
+Dialogue: 0,0:13:25.82,0:13:27.61,Dialogue,,0,0,0,,I don't get it at all.
+Dialogue: 0,0:13:28.91,0:13:30.83,Dialogue,,0,0,0,,To put it simply,
+Dialogue: 0,0:13:30.83,0:13:33.41,Dialogue,,0,0,0,,you've built a house of cards before, right?
+Dialogue: 0,0:13:33.41,0:13:36.71,Dialogue,,0,0,0,,Water builds a house like that,
+Dialogue: 0,0:13:36.71,0:13:40.13,Dialogue,,0,0,0,,and each room contains methane.
+Dialogue: 0,0:13:40.96,0:13:45.42,Dialogue,,0,0,0,,If the temperature rises or the pressure falls,
+Dialogue: 0,0:13:45.42,0:13:49.09,Dialogue,,0,0,0,,it'll become unstable, and the whole thing will collapse, releasing the methane.
+Dialogue: 0,0:13:49.09,0:13:50.30,Dialogue,,0,0,0,,I see!
+Dialogue: 0,0:13:50.30,0:13:55.77,Dialogue,,0,0,0,,That's why the island, being held up by methane, lost its support and cause a landslide.
+Dialogue: 0,0:13:56.81,0:13:59.06,Dialogue,,0,0,0,,Something like that.
+Dialogue: 0,0:14:02.07,0:14:04.32,Dialogue,,0,0,0,,I learned that from what they said on TV...
+Dialogue: 0,0:14:05.44,0:14:06.95,Dialogue,,0,0,0,,Oh, I see...
+Dialogue: 0,0:14:09.66,0:14:10.82,Dialogue,,0,0,0,,Idiot...
+Dialogue: 0,0:14:12.28,0:14:14.58,Dialogue,,0,0,0,,Excuse me, Mima{\rHonorifics - Dialogue}-san{\r}?
+Dialogue: 0,0:14:14.58,0:14:16.45,Dialogue,,0,0,0,,This is Iwanaga from the Tourism Division.
+Dialogue: 0,0:14:16.45,0:14:19.88,Dialogue,,0,0,0,,Mima{\rHonorifics - Dialogue}-san{\r}, are you here? Mima{\rHonorifics - Dialogue}-san{\r}?
+Dialogue: 0,0:14:19.88,0:14:22.54,Dialogue,,0,0,0,,It's so different from the hotel.
+Dialogue: 0,0:14:22.54,0:14:23.34,Dialogue,,0,0,0,,I know...
+Dialogue: 0,0:14:26.51,0:14:29.30,Dialogue,,0,0,0,,I'm sorry. He must not be here right now.
+Dialogue: 0,0:14:29.30,0:14:30.72,Dialogue,,0,0,0,,I just tried calling for him.
+Dialogue: 0,0:14:30.72,0:14:32.26,Dialogue,,0,0,0,,What's all the noise for?
+Dialogue: 0,0:14:32.85,0:14:33.68,Dialogue,,0,0,0,,Oh, Mima{\rHonorifics - Dialogue}-san{\r}!
+Dialogue: 0,0:14:33.97,0:14:37.56,Signs,,0,0,0,,Mima Kasuo\NLandlord of "Koumi Inn" Lodge
+Dialogue: 0,0:14:33.85,0:14:36.39,Dialogue,,0,0,0,,This is Mouri{\rHonorifics - Dialogue}-san{\r} and his guests, of whom I told you about over the phone.
+Dialogue: 0,0:14:36.39,0:14:39.02,Dialogue,,0,0,0,,Two rooms and meals for one night, 5000 yen.
+Dialogue: 0,0:14:39.02,0:14:40.52,Dialogue,,0,0,0,,Take it or leave it.
+Dialogue: 0,0:14:40.52,0:14:42.11,Dialogue,,0,0,0,,Wait a minute, Mima{\rHonorifics - Dialogue}-san{\r}!
+Dialogue: 0,0:14:42.11,0:14:43.82,Dialogue,,0,0,0,,What a rude guy...
+Dialogue: 0,0:14:43.82,0:14:46.19,Dialogue,,0,0,0,,Sorry, he's really a good man,
+Dialogue: 0,0:14:46.19,0:14:47.99,Dialogue,,0,0,0,,but he can be a bit weird sometimes.
+Dialogue: 0,0:14:48.57,0:14:52.37,Dialogue,,0,0,0,,So Who's participating in the treasure hunt?
+Dialogue: 0,0:14:54.58,0:14:55.87,Dialogue,,0,0,0,,We are!
+Dialogue: 0,0:14:52.37,0:14:53.91,Dialogue,,0,0,0,,We are!
+Dialogue: 0,0:14:56.29,0:14:58.71,Dialogue,,0,0,0,,You two young ladies are planning to go diving, right?
+Dialogue: 0,0:14:58.71,0:14:59.37,Dialogue,,0,0,0,,Yes.
+Dialogue: 0,0:14:59.71,0:15:02.58,Dialogue,,0,0,0,,I can give you a ride if you want to go right now.
+Dialogue: 0,0:15:02.58,0:15:04.04,Dialogue,,0,0,0,,We'd like that, please.
+Dialogue: 0,0:15:04.42,0:15:06.21,Dialogue,,0,0,0,,What about the two of you?
+Dialogue: 0,0:15:06.59,0:15:09.01,Dialogue,,0,0,0,,Treasure hunting is fun.
+Dialogue: 0,0:15:09.01,0:15:11.93,Dialogue,,0,0,0,,I want to relax. Don't worry about me.
+Dialogue: 0,0:15:11.93,0:15:13.18,Dialogue,,0,0,0,,What about Mouri{\rHonorifics - Dialogue}-san{\r}?
+Dialogue: 0,0:15:13.60,0:15:14.43,Dialogue,,0,0,0,,Want to go treas-
+Dialogue: 0,0:15:14.43,0:15:15.14,Dialogue,,0,0,0,,No thanks.
+Dialogue: 0,0:15:15.14,0:15:19.94,Dialogue,,0,0,0,,Just tell me where I can buy drinks and find\Nbeautiful hostesses at the same time.
+Dialogue: 0,0:15:26.52,0:15:29.53,Dialogue,,0,0,0,,Mouri Ran{\rHonorifics - Dialogue}-san{\r} and Suzuki Sonoko{\rHonorifics - Dialogue}-san{\r}, right?
+Dialogue: 0,0:15:26.78,0:15:30.49,Signs,,0,0,0,,Mabuchi Chika\NOwner of "The Grotto" Diving Equipment Shop
+Dialogue: 0,0:15:30.24,0:15:32.32,Dialogue,,0,0,0,,Would you like to rent the whole set?
+Dialogue: 0,0:15:32.32,0:15:33.24,Dialogue,,0,0,0,,Yep!
+Dialogue: 0,0:15:33.24,0:15:34.41,Dialogue,,0,0,0,,Kimiko!
+Dialogue: 0,0:15:37.24,0:15:40.79,Signs,,0,0,0,,Yamakuchi Kimiko\NDiving Instructor
+Dialogue: 0,0:15:37.29,0:15:38.12,Dialogue,,0,0,0,,You two...
+Dialogue: 0,0:15:38.12,0:15:40.33,Dialogue,,0,0,0,,Will these wets suites work for you?
+Dialogue: 0,0:15:40.33,0:15:43.17,Dialogue,,0,0,0,,I think Size M should fit you.
+Dialogue: 0,0:15:43.17,0:15:44.00,Dialogue,,0,0,0,,Yes!
+Dialogue: 0,0:15:44.00,0:15:45.04,Dialogue,,0,0,0,,Those are perfect.
+Dialogue: 0,0:15:45.04,0:15:46.34,Dialogue,,0,0,0,,Great!
+Dialogue: 0,0:15:46.34,0:15:49.76,Dialogue,,0,0,0,,To be honest, we don't have a very big selection of wet suits here.
+Dialogue: 0,0:15:49.76,0:15:52.09,Dialogue,,0,0,0,,Really? Sorry to trouble you in finding these, then.
+Dialogue: 0,0:15:52.09,0:15:54.09,Dialogue,,0,0,0,,These wet suits look so nice!
+Dialogue: 0,0:15:54.09,0:15:55.35,Dialogue,,0,0,0,,You think so?
+Dialogue: 0,0:15:55.35,0:15:56.64,Dialogue,,0,0,0,,Excuse me!
+Dialogue: 0,0:15:56.64,0:16:00.73,Dialogue,,0,0,0,,Hey, clean up after you're done!
+Dialogue: 0,0:16:01.73,0:16:02.94,Dialogue,,0,0,0,,We'll be back.
+Dialogue: 0,0:16:06.48,0:16:09.48,Dialogue,,0,0,0,,They're treasure hunters, right?
+Dialogue: 0,0:16:09.48,0:16:11.03,Dialogue,,0,0,0,,Are they going to be our diving partners?
+Dialogue: 0,0:16:11.03,0:16:14.99,Dialogue,,0,0,0,,No, they just came to borrow our air compressor.
+Dialogue: 0,0:16:14.99,0:16:18.16,Dialogue,,0,0,0,,There have been a lot of them recently, which causes us a lot of trouble.
+Dialogue: 0,0:16:19.12,0:16:21.29,Dialogue,,0,0,0,,Is it because of the silver that was found?
+Dialogue: 0,0:16:21.87,0:16:28.34,Dialogue,,0,0,0,,There's a legend saying that Anne escaped from the jail and hid her treasure on this island.
+Dialogue: 0,0:16:28.34,0:16:29.46,Dialogue,,0,0,0,,Who's Anne?
+Dialogue: 0,0:16:29.46,0:16:30.26,Dialogue,,0,0,0,,That's her.
+Dialogue: 0,0:16:31.63,0:16:36.76,Radio,,0,0,0,,{\be10}270 years ago, during the Kyoto Era of the Edo period,
+Dialogue: 0,0:16:36.76,0:16:40.43,Radio,,0,0,0,,{\be10}The Seabed Palace was still above ground.
+Dialogue: 0,0:16:41.06,0:16:45.98,Radio,,0,0,0,,{\be10}Two rare artifacts were found at Seabed Palace,
+Dialogue: 0,0:16:45.98,0:16:49.40,Radio,,0,0,0,,{\be10}a cutlass and a pistol.
+Dialogue: 0,0:16:50.03,0:16:53.49,Radio,,0,0,0,,{\be10}According to the initials on the cutlass and the pistol,
+Dialogue: 0,0:16:53.49,0:16:58.58,Radio,,0,0,0,,{\be10}These weapons used to belong to two female pirates who were active around 1730,
+Dialogue: 0,0:16:58.58,0:17:02.37,Radio,,0,0,0,,{\be10}Whose names were Anne Bonny and Mary Read.
+Dialogue: 0,0:17:03.29,0:17:06.37,Radio,,0,0,0,,{\be10}They were led by captain Jack Rickman.
+Dialogue: 0,0:17:07.13,0:17:09.38,Dialogue,,0,0,0,,They were female pirates?
+Dialogue: 0,0:17:09.38,0:17:10.50,Dialogue,,0,0,0,,That's right.
+Dialogue: 0,0:17:10.50,0:17:16.51,Dialogue,,0,0,0,,Anne Bonny and Mary Read were pirates under Captain Jack.
+Dialogue: 0,0:17:17.05,0:17:20.06,Dialogue,,0,0,0,,But when they were attacked by the English Navy,
+Dialogue: 0,0:17:20.47,0:17:28.02,Dialogue,,0,0,0,,all the crewmen hid below deck while the two women fought bravery back-to-back.
+Dialogue: 0,0:17:28.81,0:17:30.57,Dialogue,,0,0,0,,Back-to-back?
+Dialogue: 0,0:17:30.57,0:17:34.15,Dialogue,,0,0,0,,Yes... The idea is to let your partner watch your back,
+Dialogue: 0,0:17:34.15,0:17:37.20,Dialogue,,0,0,0,,so that you can concentrate on the enemy before you.
+Dialogue: 0,0:17:37.20,0:17:39.87,Dialogue,,0,0,0,,If either person lacked trust in the other, it wouldn't work.
+Dialogue: 0,0:17:41.41,0:17:43.41,Dialogue,,0,0,0,,Ran, You're...
+Dialogue: 0,0:17:43.41,0:17:47.83,Dialogue,,0,0,0,,Ran, You're... You're the only one I trust to watch my back.
+Dialogue: 0,0:17:48.54,0:17:50.29,Dialogue,,0,0,0,,S-Sonoko...
+Dialogue: 0,0:17:51.50,0:17:53.00,Dialogue,,0,0,0,,Just kidding!
+Dialogue: 0,0:17:53.00,0:17:55.80,Dialogue,,0,0,0,,But, you want Shinichi{\rHonorifics - Dialogue}-kun{\r} to watch your back, don't you?
+Dialogue: 0,0:17:56.26,0:17:58.01,Dialogue,,0,0,0,,I don't care about him.
+Dialogue: 0,0:17:58.01,0:17:59.26,Dialogue,,0,0,0,,{\i1}Really?{\i0}
+Dialogue: 0,0:17:59.26,0:18:01.01,Dialogue,,0,0,0,,Yes, really!
+Dialogue: 0,0:18:02.31,0:18:07.39,Radio,,0,0,0,,{\be10}Anne escaped from her prison in the Bahamas and moved to the Pacific Ocean.
+Dialogue: 0,0:18:07.39,0:18:12.02,Radio,,0,0,0,,{\be10}She continued as a pirate and waited for Mary to escape from prison as well.
+Dialogue: 0,0:18:12.02,0:18:14.23,Radio,,0,0,0,,{\be10}Many years later, this story was confirmed,
+Dialogue: 0,0:18:14.23,0:18:19.91,Radio,,0,0,0,,{\be10}causing a legend about the two hiding their treasure on Koumi Island.
+Dialogue: 0,0:18:19.91,0:18:24.16,Radio,,0,0,0,,{\be10}So, let's go look for Anne and Mary's treasure!
+Dialogue: 0,0:18:25.29,0:18:27.37,Dialogue,,0,0,0,,Are these real?
+Dialogue: 0,0:18:27.66,0:18:29.17,Dialogue,,0,0,0,,Who knows?
+Dialogue: 0,0:18:29.17,0:18:31.88,Dialogue,,0,0,0,,If they are, protecting them must cause a lot of trouble...
+Dialogue: 0,0:18:32.71,0:18:35.51,Dialogue,,0,0,0,,Maybe they were made just to publicize this island.
+Dialogue: 0,0:18:36.38,0:18:39.22,Dialogue,,0,0,0,,That would cause even more trouble.
+Dialogue: 0,0:18:39.59,0:18:41.51,Dialogue,,0,0,0,,Seems like they cause trouble either way.
+Dialogue: 0,0:18:41.85,0:18:43.35,Dialogue,,0,0,0,,Sorry, sorry!
+Dialogue: 0,0:18:43.35,0:18:44.85,Dialogue,,0,0,0,,Sorry to keep you waiting-
+Dialogue: 0,0:18:46.06,0:18:47.73,Thoughts,,0,0,0,,{\be10}Hey, hey...
+Dialogue: 0,0:18:48.18,0:18:50.73,Dialogue,,0,0,0,,Here. This is the map for the treasure hunt.
+Dialogue: 0,0:18:50.73,0:18:58.24,Dialogue,,0,0,0,,Starting here, you want to go to each of the five points on the map, solve their riddles, and collect the stamp from each area.
+Dialogue: 0,0:18:58.82,0:19:01.07,Dialogue,,0,0,0,,This is the first point.
+Dialogue: 0,0:19:01.07,0:19:04.24,Dialogue,,0,0,0,,Take the stamp and stamp it on the blank space here,
+Dialogue: 0,0:19:04.24,0:19:08.75,Dialogue,,0,0,0,,then take a hint card for the next point from the treasure chest there.
+Dialogue: 0,0:19:09.33,0:19:11.12,Dialogue,,0,0,0,,This game's just a way to keep kids occupied.
+Dialogue: 0,0:19:11.12,0:19:12.71,Dialogue,,0,0,0,,Don't say that.
+Dialogue: 0,0:19:12.71,0:19:14.71,Dialogue,,0,0,0,,Everyone looks so enthusiastic about it.
+Dialogue: 0,0:19:14.71,0:19:16.59,Dialogue,,0,0,0,,10 and 12...
+Dialogue: 0,0:19:16.59,0:19:19.38,Dialogue,,0,0,0,,This is the key to finding the treasure.
+Dialogue: 0,0:19:19.38,0:19:21.26,Dialogue,,0,0,0,,The clue for the next point is...
+Dialogue: 0,0:19:20.51,0:19:24.47,Signs,,0,0,0,,even near the end of the sunset,\Na pirate still shines
+Dialogue: 0,0:19:21.26,0:19:24.76,Dialogue,,0,0,0,,"Even near the end of the sunset, a pirate still shines."
+Dialogue: 0,0:19:24.76,0:19:26.31,Dialogue,,0,0,0,,What does that mean?
+Dialogue: 0,0:19:26.31,0:19:28.14,Dialogue,,0,0,0,,Well, do your best!
+Dialogue: 0,0:19:28.14,0:19:31.60,Dialogue,,0,0,0,,You'll get a present if you find the treasure!
+Dialogue: 0,0:19:31.60,0:19:35.06,Dialogue,,0,0,0,,Is the present an all-you-eat-buffet?
+Dialogue: 0,0:19:35.06,0:19:37.65,Dialogue,,0,0,0,,You'll know once you solve all the riddles.
+Dialogue: 0,0:19:37.65,0:19:39.53,Dialogue,,0,0,0,,Alright, I have to work really hard now!
+Dialogue: 0,0:19:39.53,0:19:42.24,Dialogue,,0,0,0,,You don't even know if that's the prize yet...
+Dialogue: 0,0:19:42.24,0:19:43.53,Dialogue,,0,0,0,,Hey, Uncle!
+Dialogue: 0,0:19:43.53,0:19:45.07,Dialogue,,0,0,0,,Yes, What?
+Dialogue: 0,0:19:45.07,0:19:48.37,Dialogue,,0,0,0,,Did you think of these riddles yourself?
+Dialogue: 0,0:19:48.37,0:19:50.87,Dialogue,,0,0,0,,Eh? Kind of...
+Dialogue: 0,0:19:50.87,0:19:52.33,Dialogue,,0,0,0,,Oh, by the way,
+Dialogue: 0,0:19:52.33,0:19:56.04,Dialogue,,0,0,0,,There's a place you can rent bikes next door.
+Dialogue: 0,0:19:56.04,0:19:58.30,Dialogue,,0,0,0,,You'll be really tired if you walk, so take a bike.
+Dialogue: 0,0:19:58.30,0:19:59.51,Dialogue,,0,0,0,,Okay!
+Dialogue: 0,0:20:01.84,0:20:04.80,Dialogue,,0,0,0,,I can see you're enthusiastic about this too, Kudo{\rHonorifics - Dialogue}-kun{\r}!
+Dialogue: 0,0:20:23.24,0:20:25.49,Dialogue,,0,0,0,,Alright, you're all set!
+Dialogue: 0,0:20:25.49,0:20:30.41,Dialogue,,0,0,0,,Just follow Kimiko's instructions and have a safe, fun dive!
+Dialogue: 0,0:20:30.41,0:20:33.87,Dialogue,,0,0,0,,Watch out of the area south of Seabed Palace,
+Dialogue: 0,0:20:33.87,0:20:35.50,Dialogue,,0,0,0,,it's really deep over there.
+Dialogue: 0,0:20:35.50,0:20:37.25,Dialogue,,0,0,0,,Please don't scare us.
+Dialogue: 0,0:20:37.92,0:20:41.05,Dialogue,,0,0,0,,Don't worry, I'll be with you.
+Dialogue: 0,0:20:41.05,0:20:42.26,Dialogue,,0,0,0,,You're right.
+Dialogue: 0,0:20:42.26,0:20:43.93,Dialogue,,0,0,0,,Please take care of us!
+Dialogue: 0,0:22:58.27,0:22:59.60,Dialogue,,0,0,0,,That was quick.
+Dialogue: 0,0:22:59.60,0:23:00.60,Dialogue,,0,0,0,,Did something happen?
+Dialogue: 0,0:23:00.94,0:23:01.94,Dialogue,,0,0,0,,Sharks!
+Dialogue: 0,0:23:04.57,0:23:06.73,Dialogue,,0,0,0,,Since the riddle mentioned the sunset,
+Dialogue: 0,0:23:06.73,0:23:09.95,Dialogue,,0,0,0,,we came to the west side of the island,
+Dialogue: 0,0:23:09.95,0:23:12.66,Dialogue,,0,0,0,,but where's the treasure box with the next hint?
+Dialogue: 0,0:23:14.33,0:23:16.12,Dialogue,,0,0,0,,Oh! I got it!
+Dialogue: 0,0:23:16.70,0:23:21.87,Dialogue,,0,0,0,,The hint was... "Even near the end of the sunset, a pirate still shines", right?
+Dialogue: 0,0:23:21.87,0:23:23.38,Dialogue,,0,0,0,,So that must mean...
+Dialogue: 0,0:23:23.92,0:23:25.17,Dialogue,,0,0,0,,It's out there!
+Dialogue: 0,0:23:25.17,0:23:26.75,Dialogue,,0,0,0,,Really?
+Dialogue: 0,0:23:26.75,0:23:27.96,Dialogue,,0,0,0,,And then what?
+Dialogue: 0,0:23:29.38,0:23:32.39,Dialogue,,0,0,0,,You mean the stamp is in the middle of the ocean?
+Dialogue: 0,0:23:33.47,0:23:35.22,Dialogue,,0,0,0,,I guess that's not it after all...
+Dialogue: 0,0:23:36.31,0:23:37.81,Dialogue,,0,0,0,,Oh, I see...
+Dialogue: 0,0:23:38.85,0:23:40.27,Dialogue,,0,0,0,,Look over there!
+Dialogue: 0,0:23:40.27,0:23:41.98,Dialogue,,0,0,0,,What is that?
+Dialogue: 0,0:23:41.98,0:23:43.52,Dialogue,,0,0,0,,It's a large school of fish.
+Dialogue: 0,0:23:43.52,0:23:45.52,Dialogue,,0,0,0,,Are there any eel there?
+Dialogue: 0,0:23:45.52,0:23:47.78,Dialogue,,0,0,0,,There wouldn't be any eel here...
+Dialogue: 0,0:23:47.78,0:23:49.24,Dialogue,,0,0,0,,Now I understand!
+Dialogue: 0,0:23:49.65,0:23:50.90,Dialogue,,0,0,0,,Hey, Conan!
+Dialogue: 0,0:23:52.07,0:23:54.49,Dialogue,,0,0,0,,Why is it that {\i1}you're{\i0} always saying, "I understand, I understand?"
+Dialogue: 0,0:23:54.49,0:23:56.33,Dialogue,,0,0,0,,What did you figure out?
+Dialogue: 0,0:24:11.63,0:24:14.68,Dialogue,,0,0,0,,Do you know why fish always swim in groups?
+Dialogue: 0,0:24:14.68,0:24:16.26,Dialogue,,0,0,0,,Well...
+Dialogue: 0,0:24:16.26,0:24:18.18,Dialogue,,0,0,0,,So they can play together?
+Dialogue: 0,0:24:18.18,0:24:21.60,Dialogue,,0,0,0,,Or maybe they get together to eat because they're hungry.
+Dialogue: 0,0:24:21.60,0:24:22.52,Dialogue,,0,0,0,,Bingo!
+Dialogue: 0,0:24:22.77,0:24:24.90,Dialogue,,0,0,0,,So, what is it that fish eat?
+Dialogue: 0,0:24:25.31,0:24:27.48,Dialogue,,0,0,0,,Plankton?
+Dialogue: 0,0:24:27.48,0:24:28.57,Dialogue,,0,0,0,,Exactly.
+Dialogue: 0,0:24:32.03,0:24:33.45,Dialogue,,0,0,0,,Amazing!
+Dialogue: 0,0:24:36.41,0:24:38.45,Dialogue,,0,0,0,,Is there anything down here?
+Dialogue: 0,0:24:38.45,0:24:39.33,Dialogue,,0,0,0,,Just look here.
+Dialogue: 0,0:24:43.96,0:24:45.92,Dialogue,,0,0,0,,It's bio-luminescent plankton!
+Dialogue: 0,0:24:45.92,0:24:46.96,Dialogue,,0,0,0,,I got it!
+Dialogue: 0,0:24:46.96,0:24:50.05,Dialogue,,0,0,0,,"Even near the end of the sunset, a pirate still shines."
+Dialogue: 0,0:24:50.05,0:24:51.88,Dialogue,,0,0,0,,That must mean this is the place!
+Dialogue: 0,0:24:51.88,0:24:53.05,Dialogue,,0,0,0,,Found it.
+Dialogue: 0,0:24:58.72,0:25:01.31,Dialogue,,0,0,0,,"A skinny pirate would just laugh."
+Dialogue: 0,0:25:01.56,0:25:04.19,Dialogue,,0,0,0,,You can laugh even if you're not thin.
+Dialogue: 0,0:25:09.02,0:25:10.73,Dialogue,,0,0,0,,What's wrong, Haibara?
+Dialogue: 0,0:25:10.73,0:25:15.24,Dialogue,,0,0,0,,I saw someone in a wet suit, covered in blood, being carried away.
+Dialogue: 0,0:25:15.24,0:25:16.16,Dialogue,,0,0,0,,What?
+Dialogue: 0,0:25:16.53,0:25:19.03,Dialogue,,0,0,0,,I don't know if it Ran{\rHonorifics - Dialogue}-san{\r} or not, though.
+Dialogue: 0,0:25:19.03,0:25:20.16,Dialogue,,0,0,0,,Conan{\rHonorifics - Dialogue}-kun{\r}!
+Dialogue: 0,0:25:20.83,0:25:23.29,Dialogue,,0,0,0,,I have to leave with Edogawa{\rHonorifics - Dialogue}-kun{\r} for a while,
+Dialogue: 0,0:25:23.29,0:25:25.21,Dialogue,,0,0,0,,so you guys continue on without us.
+Dialogue: 0,0:25:25.21,0:25:26.67,Dialogue,,0,0,0,,Why is Haibara{\rHonorifics - Dialogue}-san{\r} leaving too?
+Dialogue: 0,0:25:26.67,0:25:30.13,Dialogue,,0,0,0,,Don't worry, I'm still here!
+Dialogue: 0,0:25:30.13,0:25:33.05,Dialogue,,0,0,0,,We can find the treasure by ourselves.
+Dialogue: 0,0:25:33.55,0:25:34.88,Dialogue,,0,0,0,,You're right.
+Dialogue: 0,0:25:49.56,0:25:51.73,Dialogue,,0,0,0,,Ran-Ran{\rHonorifics - Dialogue}-neechan{\r}!
+Dialogue: 0,0:25:51.73,0:25:53.19,Dialogue,,0,0,0,,Conan{\rHonorifics - Dialogue}-kun{\r}!
+Dialogue: 0,0:25:53.19,0:25:54.40,Dialogue,,0,0,0,,Ai{\rHonorifics - Dialogue}-chan{\r}'s here too?
+Dialogue: 0,0:25:54.94,0:25:56.32,Dialogue,,0,0,0,,Are you okay?
+Dialogue: 0,0:25:56.90,0:25:58.36,Dialogue,,0,0,0,,We're fine.
+Dialogue: 0,0:26:00.28,0:26:03.83,Signs,,0,0,0,,Officer Uehira\NKoumi Island Resident Policeman
+Dialogue: 0,0:26:01.37,0:26:03.74,Dialogue,,0,0,0,,How is it, Uehira{\rHonorifics - Dialogue}-san{\r}?
+Dialogue: 0,0:26:03.74,0:26:04.83,Dialogue,,0,0,0,,Kimi{\rHonorifics - Dialogue}-chan{\r}!
+Dialogue: 0,0:26:04.83,0:26:06.71,Dialogue,,0,0,0,,Were you there too?
+Dialogue: 0,0:26:07.71,0:26:11.17,Dialogue,,0,0,0,,I was guiding my clients for a dive nearby.
+Dialogue: 0,0:26:11.17,0:26:15.51,Dialogue,,0,0,0,,But I was shocked when I heard that sharks were attacking people.
+Dialogue: 0,0:26:15.51,0:26:19.84,Dialogue,,0,0,0,,It's strange how there were three of them, but only one was attacked.
+Dialogue: 0,0:26:19.84,0:26:21.10,Dialogue,,0,0,0,,What are you getting at?
+Dialogue: 0,0:26:21.43,0:26:22.81,Dialogue,,0,0,0,,Nothing.
+Dialogue: 0,0:26:22.81,0:26:24.64,Dialogue,,0,0,0,,But it's so troubling...
+Dialogue: 0,0:26:24.64,0:26:27.73,Dialogue,,0,0,0,,It's been a long time since the last accident.
+Dialogue: 0,0:26:27.73,0:26:31.56,Dialogue,,0,0,0,,Speaking of which, this is the first time I've seen sharks at that spot.
+Dialogue: 0,0:26:38.74,0:26:39.99,Dialogue,,0,0,0,,What is it?
+Dialogue: 0,0:26:39.99,0:26:45.79,Dialogue,,0,0,0,,Kimiko{\rHonorifics - Dialogue}-san{\r} said there were three of them diving together, but only one was attacked.
+Dialogue: 0,0:26:45.79,0:26:47.33,Dialogue,,0,0,0,,You don't think it was an accident?
+Dialogue: 0,0:26:47.33,0:26:51.75,Dialogue,,0,0,0,,They should know how to deal with sharks since they're all professionals.
+Dialogue: 0,0:26:55.96,0:26:57.05,Dialogue,,0,0,0,,What did you find?
+Dialogue: 0,0:26:57.97,0:26:59.59,Dialogue,,0,0,0,,A plastic bag.
+Dialogue: 0,0:27:02.80,0:27:04.56,Dialogue,,0,0,0,,Fish blood?
+Dialogue: 0,0:27:04.56,0:27:06.27,Dialogue,,0,0,0,,So that's the reason...
+Dialogue: 0,0:27:06.27,0:27:07.27,Dialogue,,0,0,0,,Yeah.
+Dialogue: 0,0:27:07.27,0:27:10.35,Dialogue,,0,0,0,,Take fish blood, seal it in a plastic bag,
+Dialogue: 0,0:27:10.35,0:27:13.11,Dialogue,,0,0,0,,and hide it in the jacket of the swim suit.
+Dialogue: 0,0:27:13.56,0:27:17.32,Dialogue,,0,0,0,,Underwater, atmospheric pressure increases by one for every 10 meters,
+Dialogue: 0,0:27:17.32,0:27:19.74,Dialogue,,0,0,0,,and sea level is already at one atmospheric pressure.
+Dialogue: 0,0:27:19.74,0:27:22.03,Dialogue,,0,0,0,,It become two when you dive 10 meters,
+Dialogue: 0,0:27:22.03,0:27:24.08,Dialogue,,0,0,0,,and four when you get to 30 meters.
+Dialogue: 0,0:27:24.53,0:27:30.96,Dialogue,,0,0,0,,With such a high water pressure weighing down on it, the plastic bag would eventually burst.
+Dialogue: 0,0:27:31.79,0:27:34.38,Dialogue,,0,0,0,,Sharks can hear noises from miles away,
+Dialogue: 0,0:27:35.09,0:27:39.51,Dialogue,,0,0,0,,and can smell blood from even farther.
+Dialogue: 0,0:27:50.89,0:27:52.48,Dialogue,,0,0,0,,This is a murder case.
+Dialogue: 0,0:27:52.48,0:27:55.19,Dialogue,,0,0,0,,Yes, although it's not over yet.
+Dialogue: 0,0:27:55.19,0:27:57.44,Dialogue,,0,0,0,,Hey, you brats!
+Dialogue: 0,0:27:57.44,0:28:01.28,Dialogue,,0,0,0,,What're you two doing here?
+Dialogue: 0,0:28:01.28,0:28:02.95,Dialogue,,0,0,0,,Uncle, a case happened!
+Dialogue: 0,0:28:02.95,0:28:04.53,Dialogue,,0,0,0,,What?
+Dialogue: 0,0:28:04.53,0:28:07.37,Dialogue,,0,0,0,,Why don't they ever contact me first...
+Dialogue: 0,0:28:13.04,0:28:16.79,Dialogue,,0,0,0,,'Cuz I'm the famous detective, Mouri Kogoro.
+Dialogue: 0,0:28:21.76,0:28:23.97,Dialogue,,0,0,0,,A shark's mouth sure is big...
+Dialogue: 0,0:28:23.97,0:28:29.68,Dialogue,,0,0,0,,The thing is... being bitten by a shark isn't a case, it's an accident.
+Dialogue: 0,0:28:36.15,0:28:38.27,Dialogue,,0,0,0,,I don't see anything over there...
+Dialogue: 0,0:28:38.27,0:28:39.65,Dialogue,,0,0,0,,Huh? What's this?
+Dialogue: 0,0:28:47.45,0:28:49.79,Dialogue,,0,0,0,,How is he, Doctor?
+Dialogue: 0,0:28:49.79,0:28:51.66,Dialogue,,0,0,0,,I did everything I could,
+Dialogue: 0,0:28:51.66,0:28:54.25,Dialogue,,0,0,0,,but it was too late.
+Dialogue: 0,0:28:54.25,0:28:55.67,Dialogue,,0,0,0,,I'm sorry...
+Dialogue: 0,0:28:55.67,0:28:56.79,Dialogue,,0,0,0,,Damn!
+Dialogue: 0,0:28:56.79,0:28:58.17,Dialogue,,0,0,0,,No way...
+Dialogue: 0,0:28:58.17,0:29:00.25,Dialogue,,0,0,0,,How could this accident happen?
+Dialogue: 0,0:29:00.25,0:29:02.88,Dialogue,,0,0,0,,It's not an accident.
+Dialogue: 0,0:29:06.39,0:29:08.01,Dialogue,,0,0,0,,You're the famous detective...
+Dialogue: 0,0:29:08.47,0:29:10.56,Dialogue,,0,0,0,,Mouri Kogoro.
+Dialogue: 0,0:29:10.56,0:29:11.77,Dialogue,,0,0,0,,Dad.
+Dialogue: 0,0:29:11.77,0:29:12.73,Dialogue,,0,0,0,,Uncle.
+Dialogue: 0,0:29:12.73,0:29:16.15,Dialogue,,0,0,0,,Hey, you said that this wasn't an accident. what did you mean by that?
+Dialogue: 0,0:29:16.15,0:29:20.82,Dialogue,,0,0,0,,Someone lured the sharks to attack you on purpose.
+Dialogue: 0,0:29:20.82,0:29:26.61,Dialogue,,0,0,0,,They hid a bag of fish blood in the lining of this BC jacket.
+Dialogue: 0,0:29:20.82,0:29:25.45,Signs,,0,0,0,,{\an8}Note: BC is an acronym for Buoyancy control
+Dialogue: 0,0:29:27.87,0:29:32.20,Dialogue,,0,0,0,,Considering you are both treasure hunters,
+Dialogue: 0,0:29:32.20,0:29:34.54,Dialogue,,0,0,0,,you are the main suspects here.
+Dialogue: 0,0:29:37.63,0:29:39.46,Dialogue,,0,0,0,,Hey, Ran{\rHonorifics - Dialogue}-neechan{\r}.
+Dialogue: 0,0:29:40.38,0:29:43.34,Dialogue,,0,0,0,,Where are the BC jackets usually kept?
+Dialogue: 0,0:29:43.34,0:29:44.72,Dialogue,,0,0,0,,Well...
+Dialogue: 0,0:29:44.72,0:29:47.68,Dialogue,,0,0,0,,We don't bring them back to the hotel room.
+Dialogue: 0,0:29:47.68,0:29:51.01,Dialogue,,0,0,0,,I think they're usually kept in the diving shop,
+Dialogue: 0,0:29:51.01,0:29:53.27,Dialogue,,0,0,0,,and they fill the air tanks there too.
+Dialogue: 0,0:30:08.57,0:30:11.83,Thoughts,,0,0,0,,{\be10}If someone wanted to tamper with the BC\Njackets, this would be the easiest place.
+Dialogue: 0,0:30:12.49,0:30:14.91,Thoughts,,0,0,0,,{\be10}Since it'd be risky to do anything after someone's already taken it out.
+Dialogue: 0,0:30:15.37,0:30:16.62,Dialogue,,0,0,0,,Wait a second... Kudo{\rHonorifics - Dialogue}-kun{\r}!
+Dialogue: 0,0:30:22.04,0:30:23.30,Dialogue,,0,0,0,,What is it, Haibara?
+Dialogue: 0,0:30:24.55,0:30:25.63,Dialogue,,0,0,0,,Look at this.
+Dialogue: 0,0:30:26.26,0:30:29.18,Dialogue,,0,0,0,,They usually wash the instruments here,
+Dialogue: 0,0:30:29.18,0:30:31.30,Dialogue,,0,0,0,,so this place is always damp.
+Dialogue: 0,0:30:31.30,0:30:34.64,Dialogue,,0,0,0,,Thanks. Could you please take some photos for me?
+Dialogue: 0,0:30:34.97,0:30:37.10,Dialogue,,0,0,0,,I have to check on other stuff.
+Dialogue: 0,0:30:37.10,0:30:41.06,Dialogue,,0,0,0,,Huh? Since when did I become your assistant?
+Dialogue: 0,0:30:41.73,0:30:44.53,Dialogue,,0,0,0,,Not assistant, partner!
+Dialogue: 0,0:30:45.65,0:30:47.53,Dialogue,,0,0,0,,You're a smooth talker, aren't you?
+Dialogue: 0,0:30:47.53,0:30:49.20,Dialogue,,0,0,0,,So, I'll be back in a bit.
+Dialogue: 0,0:30:49.20,0:30:50.24,Dialogue,,0,0,0,,Yeah, yeah...
+Dialogue: 0,0:30:58.79,0:31:00.54,Dialogue,,0,0,0,,Hey, Onee{\rHonorifics - Dialogue}-san{\r}.
+Dialogue: 0,0:31:00.54,0:31:01.67,Dialogue,,0,0,0,,What is it?
+Dialogue: 0,0:31:01.67,0:31:03.96,Dialogue,,0,0,0,,Does anyone work here at night?
+Dialogue: 0,0:31:04.46,0:31:06.13,Dialogue,,0,0,0,,Are you playing a detective game?
+Dialogue: 0,0:31:07.26,0:31:09.38,Dialogue,,0,0,0,,I live behind this shop,
+Dialogue: 0,0:31:09.38,0:31:12.05,Dialogue,,0,0,0,,and Kimiko lives in an apartment near the port,
+Dialogue: 0,0:31:12.05,0:31:13.80,Dialogue,,0,0,0,,so there isn't anyone here at night.
+Dialogue: 0,0:31:13.80,0:31:14.81,Dialogue,,0,0,0,,I see.
+Dialogue: 0,0:31:14.81,0:31:20.44,Dialogue,,0,0,0,,And since there aren't any thieves on this island, we usually don't lock the door.
+Dialogue: 0,0:31:21.02,0:31:24.36,Dialogue,,0,0,0,,Kimiko, you closed the shop last night, right?
+Dialogue: 0,0:31:24.36,0:31:27.36,Dialogue,,0,0,0,,Y-Yeah, but why do you ask?
+Dialogue: 0,0:31:27.36,0:31:30.70,Dialogue,,0,0,0,,This little detective here was asking me a few questions.
+Dialogue: 0,0:31:31.82,0:31:33.32,Dialogue,,0,0,0,,I see...
+Dialogue: 0,0:31:33.99,0:31:37.04,Dialogue,,0,0,0,,You're trying to figure out who could have\Ndone something to the BC, aren't you?
+Dialogue: 0,0:31:37.95,0:31:43.29,Dialogue,,0,0,0,,It's true that I closed the shop last night and opened the shop this morning,
+Dialogue: 0,0:31:43.29,0:31:47.50,Dialogue,,0,0,0,,But we don't lock the door, so anyone could have snuck in.
+Dialogue: 0,0:31:52.26,0:31:54.01,Dialogue,,0,0,0,,Find anything interesting?
+Dialogue: 0,0:31:54.39,0:31:55.35,Dialogue,,0,0,0,,No...
+Dialogue: 0,0:31:55.97,0:31:58.10,Dialogue,,0,0,0,,Nothing of use yet.
+Dialogue: 0,0:31:59.06,0:32:00.68,Dialogue,,0,0,0,,I hope you can find something.
+Dialogue: 0,0:32:04.06,0:32:05.15,Dialogue,,0,0,0,,What is it?
+Dialogue: 0,0:32:05.15,0:32:06.86,Radio,,0,0,0,,{\be10}What is it?!
+Dialogue: 0,0:32:06.86,0:32:08.69,Radio,,0,0,0,,{\be10}What are you doing, Conan?
+Dialogue: 0,0:32:08.69,0:32:12.40,Radio,,0,0,0,,{\be10}We're still looking for the pirate's treasure, and can't find it without you!
+Dialogue: 0,0:32:12.40,0:32:15.16,Dialogue,,0,0,0,,You need to start using your brains once in a while.
+Dialogue: 0,0:32:15.16,0:32:17.20,Radio,,0,0,0,,{\be10}We've tried, but we're completely stumped!
+Dialogue: 0,0:32:19.62,0:32:21.46,Dialogue,,0,0,0,,Where are you guys right now?
+Dialogue: 0,0:32:21.46,0:32:23.79,Radio,,0,0,0,,{\be10}We're walking towards a hanging bridge.
+Dialogue: 0,0:32:23.79,0:32:25.33,Dialogue,,0,0,0,,Hanging bridge?
+Dialogue: 0,0:32:25.33,0:32:27.84,Radio,,0,0,0,,{\be10}It's on the map!
+Dialogue: 0,0:32:27.84,0:32:29.92,Dialogue,,0,0,0,,The treasure map...
+Dialogue: 0,0:32:29.92,0:32:31.97,Dialogue,,0,0,0,,Okay, I see it.
+Dialogue: 0,0:32:31.97,0:32:33.84,Radio,,0,0,0,,{\be10}Hurry up and get over here!
+Dialogue: 0,0:32:33.84,0:32:35.47,Dialogue,,0,0,0,,Okay, okay...
+Dialogue: 0,0:32:35.72,0:32:37.30,Dialogue,,0,0,0,,I have no choice.
+Dialogue: 0,0:32:38.10,0:32:40.10,Dialogue,,0,0,0,,Hey Haibara, you coming?
+Dialogue: 0,0:32:40.10,0:32:41.14,Dialogue,,0,0,0,,I'll pass.
+Dialogue: 0,0:32:41.85,0:32:42.98,Dialogue,,0,0,0,,I knew it.
+Dialogue: 0,0:32:44.60,0:32:46.86,Dialogue,,0,0,0,,Hey, hey! What's this?
+Dialogue: 0,0:32:46.86,0:32:49.36,Dialogue,,0,0,0,,The road is completely blocked!
+Dialogue: 0,0:32:49.36,0:32:50.94,Dialogue,,0,0,0,,Geez...
+Dialogue: 0,0:32:52.40,0:32:53.86,Dialogue,,0,0,0,,Are you by yourself?
+Dialogue: 0,0:32:54.86,0:32:58.12,Dialogue,,0,0,0,,Your friends are over by the hanging bridge.
+Dialogue: 0,0:32:58.12,0:32:59.99,Dialogue,,0,0,0,,I want to go there,
+Dialogue: 0,0:32:59.99,0:33:02.37,Dialogue,,0,0,0,,but I can't use this road.
+Dialogue: 0,0:33:02.37,0:33:03.41,Dialogue,,0,0,0,,Sorry, sorry,
+Dialogue: 0,0:33:04.00,0:33:08.00,Dialogue,,0,0,0,,Last week, an earthquake caused a landslide which blocked the road.
+Dialogue: 0,0:33:08.00,0:33:11.55,Dialogue,,0,0,0,,Up ahead, there's a road that turns left.
+Dialogue: 0,0:33:11.55,0:33:13.13,Dialogue,,0,0,0,,You can use that road.
+Dialogue: 0,0:33:14.22,0:33:15.93,Dialogue,,0,0,0,,Thanks, Iwanaga{\rHonorifics - Dialogue}-san{\r}!
+Dialogue: 0,0:33:16.55,0:33:18.39,Dialogue,,0,0,0,,Take care!
+Dialogue: 0,0:33:18.39,0:33:19.30,Dialogue,,0,0,0,,Okay!
+Dialogue: 0,0:33:27.02,0:33:29.98,Dialogue,,0,0,0,,I give up, I don't know the answer.
+Dialogue: 0,0:33:29.98,0:33:32.44,Dialogue,,0,0,0,,Once Conan{\rHonorifics - Dialogue}-kun{\r} gets here, we'll be able to solve the riddle.
+Dialogue: 0,0:33:32.44,0:33:36.45,Dialogue,,0,0,0,,It's okay even if he doesn't come! Can't we still figure it out ourselves?
+Dialogue: 0,0:33:37.82,0:33:38.74,Dialogue,,0,0,0,,Huh?
+Dialogue: 0,0:33:38.74,0:33:41.33,Dialogue,,0,0,0,,There's a sign posted on the other side of the bridge.
+Dialogue: 0,0:33:43.58,0:33:44.62,Dialogue,,0,0,0,,What does it say?
+Dialogue: 0,0:33:44.96,0:33:46.17,Dialogue,,0,0,0,,Let's go take a look.
+Dialogue: 0,0:33:46.17,0:33:46.87,Dialogue,,0,0,0,,Okay.
+Dialogue: 0,0:33:51.30,0:33:53.38,Dialogue,,0,0,0,,I'm starving...
+Dialogue: 0,0:33:54.42,0:33:57.47,Dialogue,,0,0,0,,Hey, wait for me!
+Dialogue: 0,0:34:12.23,0:34:13.53,Dialogue,,0,0,0,,Wait, please!
+Dialogue: 0,0:34:14.07,0:34:15.99,Dialogue,,0,0,0,,Don't move!
+Dialogue: 0,0:34:16.70,0:34:18.57,Dialogue,,0,0,0,,W-Why?
+Dialogue: 0,0:34:19.16,0:34:20.57,Dialogue,,0,0,0,,This is...
+Dialogue: 0,0:34:22.70,0:34:24.58,Dialogue,,0,0,0,,What is it?!?
+Dialogue: 0,0:34:24.58,0:34:26.54,Dialogue,,0,0,0,,How much do you weigh, Genta{\rHonorifics - Dialogue}-kun{\r}?
+Dialogue: 0,0:34:26.54,0:34:27.79,Dialogue,,0,0,0,,39 kilograms!
+Dialogue: 0,0:34:27.79,0:34:28.46,Dialogue,,0,0,0,,You're lying!
+Dialogue: 0,0:34:30.21,0:34:32.92,Dialogue,,0,0,0,,Wait, I might have put on a little weight recently... maybe 45 kilograms?
+Dialogue: 0,0:34:32.92,0:34:34.25,Dialogue,,0,0,0,,That's really bad!
+Dialogue: 0,0:34:34.25,0:34:38.22,Dialogue,,0,0,0,,The bridge will break if someone over 40 kilograms crosses it!
+Dialogue: 0,0:34:38.22,0:34:40.18,Dialogue,,0,0,0,,A-Are you serious!?
+Dialogue: 0,0:34:40.55,0:34:42.14,Dialogue,,0,0,0,,I see, I got it now!
+Dialogue: 0,0:34:42.47,0:34:44.47,Dialogue,,0,0,0,,"A skinny pirate would just laugh."
+Dialogue: 0,0:34:44.47,0:34:46.81,Dialogue,,0,0,0,,It's telling us to walk across the bridge!
+Dialogue: 0,0:34:46.81,0:34:48.23,Dialogue,,0,0,0,,That's right!
+Dialogue: 0,0:34:48.23,0:34:50.23,Dialogue,,0,0,0,,"A skinny pirate would just laugh" must mean...
+Dialogue: 0,0:34:50.23,0:34:52.15,Dialogue,,0,0,0,,that a fat pirate would cry!
+Dialogue: 0,0:34:53.52,0:34:56.57,Dialogue,,0,0,0,,Help me, Mommy!
+Dialogue: 0,0:34:57.44,0:34:58.57,Dialogue,,0,0,0,,Found it!
+Dialogue: 0,0:35:03.37,0:35:06.16,Dialogue,,0,0,0,,What does "a pirate never cries" mean?
+Dialogue: 0,0:35:06.75,0:35:10.46,Dialogue,,0,0,0,,It's already 4 PM. Let's continue tomorrow.
+Dialogue: 0,0:35:11.04,0:35:13.09,Dialogue,,0,0,0,,But how do we go back?
+Dialogue: 0,0:35:13.09,0:35:14.21,Dialogue,,0,0,0,,Well...
+Dialogue: 0,0:35:14.63,0:35:17.17,Dialogue,,0,0,0,,If Genta{\rHonorifics - Dialogue}-kun{\r} keeps squatting there,
+Dialogue: 0,0:35:17.17,0:35:20.43,Dialogue,,0,0,0,,The bridge will break once as soon as we step on it.
+Dialogue: 0,0:35:20.72,0:35:23.85,Dialogue,,0,0,0,,Hey, what are you guys doing over there?
+Dialogue: 0,0:35:23.85,0:35:26.27,Dialogue,,0,0,0,,Conan{\rHonorifics - Dialogue}-kun{\r}, we found it!
+Dialogue: 0,0:35:26.27,0:35:28.14,Dialogue,,0,0,0,,Nice going, you guys!
+Dialogue: 0,0:35:28.43,0:35:31.56,Dialogue,,0,0,0,,The next hint is "a pirate never cries".
+Dialogue: 0,0:35:31.56,0:35:36.07,Dialogue,,0,0,0,,However, this bridge will break if someone who weighs more than 40 kilograms goes across it! He might fall!
+Dialogue: 0,0:35:36.07,0:35:37.90,Dialogue,,0,0,0,,Was that written on that board?
+Dialogue: 0,0:35:37.44,0:35:42.95,Signs,,0,0,0,,Warning
+Dialogue: 0,0:35:37.90,0:35:43.12,Dialogue,,0,0,0,,Not really. What's written on it is "Passage forbidden to anyone who weighs over 40 kilograms!"
+Dialogue: 0,0:35:43.45,0:35:44.83,Thoughts,,0,0,0,,{\be10}I see.
+Dialogue: 0,0:35:44.83,0:35:47.87,Thoughts,,0,0,0,,{\be10}That's why the skinny pirate would laugh.
+Dialogue: 0,0:35:47.87,0:35:50.75,Dialogue,,0,0,0,,It's okay, just walk through.
+Dialogue: 0,0:35:50.75,0:35:53.04,Dialogue,,0,0,0,,It was just a hint.
+Dialogue: 0,0:35:53.04,0:35:56.92,Dialogue,,0,0,0,,The only people who could weigh under 40 kilograms are women and children,
+Dialogue: 0,0:35:57.25,0:36:01.97,Dialogue,,0,0,0,,So that was just a code that only they could solve.
+Dialogue: 0,0:36:27.74,0:36:30.16,Dialogue,,0,0,0,,Thank you for coming, Inspector!
+Dialogue: 0,0:36:30.58,0:36:33.92,Dialogue,,0,0,0,,But did you have to come all the way here?
+Dialogue: 0,0:36:34.25,0:36:36.75,Dialogue,,0,0,0,,I found some aspects to be weird.
+Dialogue: 0,0:36:36.75,0:36:37.96,Dialogue,,0,0,0,,I-Inspector!
+Dialogue: 0,0:36:37.96,0:36:40.34,Dialogue,,0,0,0,,Thank you for coming all the way out here.
+Dialogue: 0,0:36:40.96,0:36:42.72,Dialogue,,0,0,0,,I want to know all of the details.
+Dialogue: 0,0:36:43.26,0:36:44.89,Dialogue,,0,0,0,,Yes, sir!
+Dialogue: 0,0:36:46.64,0:36:48.89,Dialogue,,0,0,0,,You treat us like we're the criminals,
+Dialogue: 0,0:36:49.31,0:36:51.98,Dialogue,,0,0,0,,but we're the victims, okay?
+Dialogue: 0,0:36:48.89,0:36:51.68,Signs,,0,0,0,,Izu Yamataro\NTreasure Hunter
+Dialogue: 0,0:36:51.98,0:36:56.19,Dialogue,,0,0,0,,If you're the victim, then tell us the truth!
+Dialogue: 0,0:36:57.56,0:37:01.53,Dialogue,,0,0,0,,Have you seen these two men?
+Dialogue: 0,0:37:04.28,0:37:06.87,Dialogue,,0,0,0,,Nope. Never seen them before.
+Dialogue: 0,0:37:06.87,0:37:11.50,Dialogue,,0,0,0,,They robbed a supermarket in Shinbashi last night, taking the cash from the store.
+Dialogue: 0,0:37:12.04,0:37:14.46,Dialogue,,0,0,0,,They told us you ordered them to do so,
+Dialogue: 0,0:37:14.79,0:37:17.46,Dialogue,,0,0,0,,as an initiation to join your gang.
+Dialogue: 0,0:37:17.46,0:37:19.29,Dialogue Top,,0,0,0,,I don't know anything about that.
+Dialogue: 0,0:37:17.83,0:37:20.96,Signs,,0,0,0,,Matsumoto Mitsushi\NTreasure Hunter
+Dialogue: 0,0:37:19.29,0:37:21.71,Dialogue,,0,0,0,,It was probably just a bluff so you incompetent police would let him go.
+Dialogue: 0,0:37:21.71,0:37:22.88,Dialogue,,0,0,0,,You bastard!
+Dialogue: 0,0:37:22.88,0:37:25.59,Dialogue,,0,0,0,,Do you have any evidence?
+Dialogue: 0,0:37:25.59,0:37:27.59,Dialogue,,0,0,0,,Aside from their word?
+Dialogue: 0,0:37:29.30,0:37:31.18,Dialogue,,0,0,0,,Now, now,
+Dialogue: 0,0:37:31.18,0:37:33.14,Dialogue,,0,0,0,,Calm down, everyone.
+Dialogue: 0,0:37:33.14,0:37:35.73,Dialogue,,0,0,0,,Let's have a cold drink.
+Dialogue: 0,0:37:51.79,0:37:58.67,Dialogue,,0,0,0,,I'd like to return to my room if you have nothing else to say.
+Dialogue: 0,0:37:58.67,0:38:05.09,Dialogue,,0,0,0,,So you have no idea who might want to attack you, Matsumoto{\rHonorifics - Dialogue}-san{\r}?
+Dialogue: 0,0:38:05.09,0:38:06.80,Dialogue,,0,0,0,,No, none at all.
+Dialogue: 0,0:38:07.51,0:38:09.01,Dialogue,,0,0,0,,That's all then, I guess.
+Dialogue: 0,0:38:09.01,0:38:12.64,Dialogue,,0,0,0,,Excuse me, do you happen to have a match with you?
+Dialogue: 0,0:38:12.64,0:38:14.02,Dialogue,,0,0,0,,I forgot to bring my lighter with me.
+Dialogue: 0,0:38:14.98,0:38:16.23,Dialogue,,0,0,0,,Here.
+Dialogue: 0,0:38:16.23,0:38:17.39,Dialogue,,0,0,0,,Thanks.
+Dialogue: 0,0:38:25.19,0:38:26.90,Dialogue,,0,0,0,,Thanks.
+Dialogue: 0,0:38:29.82,0:38:32.12,Dialogue,,0,0,0,,What a waste of time.
+Dialogue: 0,0:38:35.20,0:38:37.33,Dialogue,,0,0,0,,Can I have a sip of that?
+Dialogue: 0,0:38:37.33,0:38:38.96,Dialogue,,0,0,0,,I'm a little thirsty.
+Dialogue: 0,0:38:38.96,0:38:42.54,Dialogue,,0,0,0,,Go ahead. They didn't touch them at all.
+Dialogue: 0,0:38:42.54,0:38:44.67,Dialogue,,0,0,0,,I was trying to get their fingerprints.
+Dialogue: 0,0:38:46.42,0:38:48.59,Dialogue,,0,0,0,,But even if we had gotten their fingerprints,
+Dialogue: 0,0:38:48.59,0:38:52.89,Dialogue,,0,0,0,,it takes more time,
+Dialogue: 0,0:38:52.89,0:38:56.06,Dialogue,,0,0,0,,regardless of whether we got someone to come analyze them or sent them back for testing.
+Dialogue: 0,0:38:56.85,0:38:58.73,Dialogue,,0,0,0,,By the way, Takagi{\rHonorifics - Dialogue}-kun{\r},
+Dialogue: 0,0:38:58.73,0:39:00.06,Dialogue,,0,0,0,,do you smoke?
+Dialogue: 0,0:39:01.36,0:39:02.86,Dialogue,,0,0,0,,Sorry.
+Dialogue: 0,0:39:03.44,0:39:06.03,Dialogue,,0,0,0,,Do you have UHU glue?
+Dialogue: 0,0:39:13.45,0:39:16.08,Dialogue,,0,0,0,,Sorry to interrupt your meal.
+Dialogue: 0,0:39:16.08,0:39:17.87,Dialogue,,0,0,0,,Is it time for quiz?
+Dialogue: 0,0:39:18.75,0:39:20.00,Dialogue,,0,0,0,,You got it.
+Dialogue: 0,0:39:20.00,0:39:21.12,Thoughts,,0,0,0,,{\be10}Not again...
+Dialogue: 0,0:39:21.12,0:39:22.38,Dialogue,,0,0,0,,You want to play it {\i1}now?{\i0}
+Dialogue: 0,0:39:22.38,0:39:24.59,Dialogue,,0,0,0,,I knew it was coming...
+Dialogue: 0,0:39:27.09,0:39:30.63,Dialogue,,0,0,0,,In the fish kingdom on the abandoned ocean floor,
+Dialogue: 0,0:39:30.63,0:39:33.30,Dialogue,,0,0,0,,The evil deeds of the previous king were revealed,
+Dialogue: 0,0:39:33.30,0:39:36.18,Dialogue,,0,0,0,,and the sea bream fish became the next king.
+Dialogue: 0,0:39:36.18,0:39:40.06,Dialogue,,0,0,0,,Of the following choices then, who was the previous king?
+Dialogue: 0,0:39:40.06,0:39:44.15,Signs,,0,0,0,,1. Squid, 2. Octopus, or 3. Crab?
+Dialogue: 0,0:39:40.14,0:39:44.15,Signs,,0,0,0,,Ika (Squid)
+Dialogue: 0,0:39:41.35,0:39:44.15,Signs,,0,0,0,,Tako (Octopus)
+Dialogue: 0,0:39:42.77,0:39:44.15,Signs,,0,0,0,,Kani (Crab)
+Dialogue: 0,0:39:44.31,0:39:46.02,Dialogue,,0,0,0,,So, take a guess, guys.
+Dialogue: 0,0:39:50.70,0:39:52.03,Dialogue,,0,0,0,,I know!
+Dialogue: 0,0:39:52.03,0:39:53.41,Dialogue,,0,0,0,,It's the third one, the crab!
+Dialogue: 0,0:39:53.41,0:39:54.66,Dialogue,,0,0,0,,Why is it the crab?
+Dialogue: 0,0:39:54.66,0:39:57.37,Dialogue,,0,0,0,,It uses its pincers to cut off the heads of those it hates.
+Dialogue: 0,0:39:57.37,0:39:59.29,Dialogue,,0,0,0,,What? That's so mean!
+Dialogue: 0,0:40:00.79,0:40:01.75,Dialogue,,0,0,0,,Wrong, wrong.
+Dialogue: 0,0:40:03.08,0:40:05.25,Dialogue,,0,0,0,,That's really far off...
+Dialogue: 0,0:40:07.59,0:40:08.63,Dialogue,,0,0,0,,It must be the octopus!
+Dialogue: 0,0:40:09.38,0:40:10.51,Dialogue,,0,0,0,,Why?
+Dialogue: 0,0:40:10.51,0:40:14.93,Dialogue,,0,0,0,,King Octopus pocketed the kingdom's money.
+Dialogue: 0,0:40:14.93,0:40:17.43,Dialogue,,0,0,0,,Just picture how an octopus looks.
+Dialogue: 0,0:40:18.39,0:40:21.35,Dialogue,,0,0,0,,In other words, you're saying baldies are usually rich?
+Dialogue: 0,0:40:21.35,0:40:22.60,Dialogue,,0,0,0,,That's right.
+Dialogue: 0,0:40:22.60,0:40:23.85,Dialogue,,0,0,0,,I don't think so.
+Dialogue: 0,0:40:24.44,0:40:26.36,Dialogue,,0,0,0,,Then, it's the first choice, the squid!
+Dialogue: 0,0:40:27.40,0:40:28.32,Dialogue,,0,0,0,,Why?
+Dialogue: 0,0:40:29.65,0:40:31.36,Dialogue,,0,0,0,,Let me answer that!
+Dialogue: 0,0:40:31.36,0:40:33.61,Dialogue,,0,0,0,,I can do it this time.
+Dialogue: 0,0:40:34.95,0:40:38.62,Signs,,0,0,0,,The King
+Dialogue: 0,0:40:34.95,0:40:38.62,Dialogue,,0,0,0,,Osama can be separated into "o" and "sama."
+Dialogue: 0,0:40:38.62,0:40:43.00,Signs,,0,0,0,,Squid King Squid King
+Dialogue: 0,0:40:38.62,0:40:43.00,Dialogue,,0,0,0,,Adding "ika" in front of "sama" gives you "ika{\rHonorifics - Dialogue}-sama{\r}."
+Dialogue: 0,0:40:43.00,0:40:45.46,Dialogue,,0,0,0,,Ika{\rHonorifics - Dialogue}-sama{\r}?
+Dialogue: 0,0:40:45.46,0:40:46.88,Dialogue,,0,0,0,,That means he cheated!
+Dialogue: 0,0:40:48.17,0:40:49.67,Dialogue,,0,0,0,,That's right!
+Dialogue: 0,0:40:49.67,0:40:51.80,Dialogue,,0,0,0,,Something's fishy here...
+Dialogue: 0,0:40:53.59,0:40:55.76,Dialogue,,0,0,0,,Hey, Conan{\rHonorifics - Dialogue}-kun{\r}!
+Dialogue: 0,0:40:55.59,0:40:57.55,Signs,,0,0,0,,Osama can be separated\Ninto o and sama\Nadding ika in front of sama\Ngives you ika{\rHonorifics - Signs}-sama{\r}
+Dialogue: 0,0:40:58.35,0:41:00.02,Dialogue,,0,0,0,,This is truly...
+Dialogue: 0,0:41:00.02,0:41:01.06,Signs,,0,0,0,,Ikasama
+Dialogue: 0,0:41:00.02,0:41:01.06,Dialogue,,0,0,0,,...Cheating.
+Dialogue: 0,0:41:04.60,0:41:06.73,Dialogue,,0,0,0,,Such a beautiful moon.
+Dialogue: 0,0:41:06.73,0:41:08.23,Dialogue,,0,0,0,,Yeah.
+Dialogue: 0,0:41:08.77,0:41:12.19,Dialogue,,0,0,0,,By the way, I was wondering\Nwhy you provide lodging to tourists at your house?
+Dialogue: 0,0:41:14.36,0:41:19.08,Dialogue,,0,0,0,,Well, I live by myself and fish for a living.
+Dialogue: 0,0:41:19.74,0:41:25.21,Dialogue,,0,0,0,,The Tourism Division asked me to provide lodging so that they could get more tourist to visit.
+Dialogue: 0,0:41:25.21,0:41:26.75,Dialogue,,0,0,0,,I see...
+Dialogue: 0,0:41:26.75,0:41:32.09,Dialogue,,0,0,0,,I hope that we aren't interfering with your daily life.
+Dialogue: 0,0:41:32.46,0:41:35.93,Dialogue,,0,0,0,,It's better to have you stay than the treasure hunters.
+Dialogue: 0,0:41:36.47,0:41:41.10,Dialogue,,0,0,0,,Speaking of treasure hunters, is there really treasure here?
+Dialogue: 0,0:41:42.14,0:41:46.19,Dialogue,,0,0,0,,Hyenas don't gather at places that don't have treasure,
+Dialogue: 0,0:41:46.19,0:41:49.90,Dialogue,,0,0,0,,although it's probably not the type of treasure they are expecting.
+Dialogue: 0,0:41:49.90,0:41:51.86,Dialogue,,0,0,0,,I can't find the answer.
+Dialogue: 0,0:41:51.86,0:41:54.15,Dialogue,,0,0,0,,Why does a pirate never cry?
+Dialogue: 0,0:41:54.15,0:41:57.32,Dialogue,,0,0,0,,Genta{\rHonorifics - Dialogue}-kun{\r}, please try to concentrate more.
+Dialogue: 0,0:41:57.32,0:41:58.82,Dialogue,,0,0,0,,Hey kids...
+Dialogue: 0,0:41:58.82,0:42:01.74,Dialogue,,0,0,0,,Is the hint "a pirate never cries"?
+Dialogue: 0,0:42:01.74,0:42:03.58,Dialogue,,0,0,0,,Yeah, that's right.
+Dialogue: 0,0:42:03.58,0:42:06.50,Dialogue,,0,0,0,,If it's "pirates cry," I know where it is.
+Dialogue: 0,0:42:06.79,0:42:09.79,Dialogue,,0,0,0,,Pirates cry?
+Dialogue: 0,0:42:09.79,0:42:11.84,Dialogue,,0,0,0,,Maybe there's a hint there.
+Dialogue: 0,0:42:12.38,0:42:14.09,Dialogue,,0,0,0,,Would you like to go take a look?
+Dialogue: 0,0:42:14.92,0:42:16.47,Dialogue,,0,0,0,,Going out at this hour?
+Dialogue: 0,0:42:16.47,0:42:19.39,Dialogue,,0,0,0,,It's dark outside. Why don't you go tomorrow?
+Dialogue: 0,0:42:19.39,0:42:22.22,Dialogue,,0,0,0,,The weather might change tomorrow.
+Dialogue: 0,0:42:22.22,0:42:23.81,Dialogue,,0,0,0,,Is it going to rain?
+Dialogue: 0,0:42:24.72,0:42:28.85,Dialogue,,0,0,0,,We don't go out to the sea when the south wind starts blowing.
+Dialogue: 0,0:42:28.85,0:42:30.73,Dialogue,,0,0,0,,The waves will be very violent, almost like a storm.
+Dialogue: 0,0:42:30.73,0:42:32.77,Dialogue,,0,0,0,,Is that called "Life Knowledge"?
+Dialogue: 0,0:42:33.15,0:42:34.90,Dialogue,,0,0,0,,Then, let's go together.
+Dialogue: 0,0:42:34.90,0:42:36.70,Dialogue,,0,0,0,,It can be an after-dinner walk.
+Dialogue: 0,0:42:36.70,0:42:37.65,Dialogue,,0,0,0,,Yay!
+Dialogue: 0,0:42:42.83,0:42:45.25,Dialogue,,0,0,0,,What are you trying to do, Takagi{\rHonorifics - Dialogue}-kun{\r}?
+Dialogue: 0,0:42:46.25,0:42:49.67,Dialogue,,0,0,0,,This is called cyanide methacrylate.
+Dialogue: 0,0:42:49.67,0:42:54.38,Dialogue,,0,0,0,,UHU glue contains cyanide methacrylate,
+Dialogue: 0,0:42:54.38,0:42:58.01,Dialogue,,0,0,0,,which reacts to the water in secretion.
+Dialogue: 0,0:42:58.01,0:43:00.72,Dialogue,,0,0,0,,You can use this to get fingerprints.
+Dialogue: 0,0:43:01.18,0:43:04.89,Dialogue,,0,0,0,,Now you just have to wait for the fingerprints to show.
+Dialogue: 0,0:43:05.77,0:43:08.10,Dialogue,,0,0,0,,You're really talented to know how to do this!
+Dialogue: 0,0:43:09.23,0:43:11.69,Dialogue,,0,0,0,,Actually... I saw this method in a movie one time,
+Dialogue: 0,0:43:11.69,0:43:14.36,Dialogue,,0,0,0,,so I asked an officer from the identification bureau how to do it.
+Dialogue: 0,0:43:14.36,0:43:17.32,Dialogue,,0,0,0,,Then, I hope this works as smoothly as it did in the movie.
+Dialogue: 0,0:43:28.96,0:43:32.71,Dialogue,,0,0,0,,Hey, is this where the "a pirate never cries" hint leads to?
+Dialogue: 0,0:43:32.71,0:43:36.21,Dialogue,,0,0,0,,I don't know if this is the right place, but the "cry" place is here.
+Dialogue: 0,0:43:37.17,0:43:38.26,Dialogue,,0,0,0,,Cry...
+Dialogue: 0,0:43:38.97,0:43:40.84,Dialogue,,0,0,0,,Is it the sound of the wind...?
+Dialogue: 0,0:43:40.84,0:43:42.64,Dialogue,,0,0,0,,It kind of sounds like someone crying...
+Dialogue: 0,0:43:43.14,0:43:44.22,Dialogue,,0,0,0,,It really does!
+Dialogue: 0,0:43:44.22,0:43:46.97,Dialogue,,0,0,0,,Except that I heard the wind on the way here as well.
+Dialogue: 0,0:43:47.77,0:43:49.73,Dialogue,,0,0,0,,Well, I knew that already!
+Dialogue: 0,0:43:52.27,0:43:56.19,Dialogue,,0,0,0,,The sand here contains a lot of quartz,
+Dialogue: 0,0:43:56.52,0:43:58.07,Dialogue,,0,0,0,,and it's fine too.
+Dialogue: 0,0:44:04.62,0:44:06.03,Dialogue,,0,0,0,,I see.
+Dialogue: 0,0:44:08.29,0:44:09.70,Dialogue,,0,0,0,,Hey, Conan...
+Dialogue: 0,0:44:09.70,0:44:11.12,Dialogue,,0,0,0,,What did you find out?
+Dialogue: 0,0:44:12.17,0:44:13.58,Dialogue,,0,0,0,,Listen carefully.
+Dialogue: 0,0:44:16.46,0:44:18.05,Dialogue,,0,0,0,,The {\i1}sand{\i0} is crying!
+Dialogue: 0,0:44:18.05,0:44:21.97,Dialogue,,0,0,0,,So that's why it was "a {\i1}pirate{\i0} never cries"!
+Dialogue: 0,0:44:21.97,0:44:24.43,Dialogue,,0,0,0,,You'll have to figure out the rest yourselves.
+Dialogue: 0,0:44:24.43,0:44:25.93,Dialogue,,0,0,0,,Okay.
+Dialogue: 0,0:44:26.35,0:44:29.81,Thoughts,,0,0,0,,{\be10}The hint is "a pirate never cries".
+Dialogue: 0,0:44:31.39,0:44:32.56,Thoughts,,0,0,0,,{\be10}Could it be there?
+Dialogue: 0,0:44:36.94,0:44:39.03,Dialogue,,0,0,0,,Come over here! There's no sound here.
+Dialogue: 0,0:44:39.03,0:44:42.11,Dialogue,,0,0,0,,So that's the "a pirate never cries" place!
+Dialogue: 0,0:44:48.28,0:44:50.54,Thoughts,,0,0,0,,{\be10}They sure set this up to create the right atmosphere...
+Dialogue: 0,0:44:53.04,0:44:54.96,Signs,,0,0,0,,A pirate's soul will\Ngo to heaven
+Dialogue: 0,0:44:55.25,0:44:59.59,Dialogue,,0,0,0,,The next one is, "A pirate's soul will go to heaven".
+Dialogue: 0,0:44:59.59,0:45:01.51,Dialogue,,0,0,0,,Another odd hint again.
+Dialogue: 0,0:45:01.80,0:45:05.43,Dialogue,,0,0,0,,The head of the Tourism Division sure is good!
+Dialogue: 0,0:45:05.89,0:45:08.35,Dialogue,,0,0,0,,Iwanaga{\rHonorifics - Dialogue}-san{\r}, the head of the Tourism Division.
+Dialogue: 0,0:45:08.35,0:45:11.93,Dialogue,,0,0,0,,He said that he thought of these riddles himself.
+Dialogue: 0,0:45:12.98,0:45:15.90,Dialogue,,0,0,0,,That's his job after all.
+Dialogue: 0,0:45:16.86,0:45:18.86,Dialogue,,0,0,0,,Such an impassive person...
+Dialogue: 0,0:45:20.94,0:45:22.03,Dialogue,,0,0,0,,What is it?
+Dialogue: 0,0:45:24.57,0:45:26.11,Dialogue,,0,0,0,,What is it, Conan{\rHonorifics - Dialogue}-kun{\r}?
+Dialogue: 0,0:45:29.28,0:45:31.12,Thoughts,,0,0,0,,{\be10}This is getting interesting.
+Dialogue: 0,0:45:31.70,0:45:32.87,Dialogue,,0,0,0,,Conan{\rHonorifics - Dialogue}-kun{\r}?
+Dialogue: 0,0:45:33.87,0:45:36.71,Dialogue,,0,0,0,,Sorry, I need to go somewhere for a bit.
+Dialogue: 0,0:45:36.71,0:45:37.79,Dialogue,,0,0,0,,Why don't you all head back without me?
+Dialogue: 0,0:45:37.79,0:45:39.54,Dialogue,,0,0,0,,Wait, Conan{\rHonorifics - Dialogue}-kun{\r}!
+Dialogue: 0,0:45:39.54,0:45:40.67,Dialogue,,0,0,0,,Not again...
+Dialogue: 0,0:45:41.30,0:45:43.72,Dialogue,,0,0,0,,That brat has no team spirit at all.
+Dialogue: 0,0:45:43.72,0:45:44.97,Dialogue,,0,0,0,,Conan{\rHonorifics - Dialogue}-kun{\r}...
+Dialogue: 0,0:45:57.02,0:45:58.15,Dialogue,,0,0,0,,It appeared!
+Dialogue: 0,0:45:58.73,0:46:02.69,Dialogue,,0,0,0,,Now we just have to change it into data and send it on to be examined.
+Dialogue: 0,0:46:02.69,0:46:04.03,Dialogue,,0,0,0,,Well done Takagi{\rHonorifics - Dialogue}-kun{\r}!
+Dialogue: 0,0:46:04.03,0:46:05.32,Dialogue,,0,0,0,,It was nothing...
+Dialogue: 0,0:46:06.49,0:46:09.62,Dialogue,,0,0,0,,Tell me if you ever want to transfer to the Identification bureau.
+Dialogue: 0,0:46:10.07,0:46:13.12,Dialogue,,0,0,0,,I can write you a recommendation letter.
+Dialogue: 0,0:46:13.12,0:46:14.75,Dialogue,,0,0,0,,Please don't joke with me.
+Dialogue: 0,0:46:15.62,0:46:17.79,Dialogue,,0,0,0,,Anyway, send that back to headquarters.
+Dialogue: 0,0:46:17.79,0:46:19.04,Dialogue,,0,0,0,,Right away!
+Dialogue: 0,0:46:53.45,0:46:55.25,Dialogue,,0,0,0,,What are you doing here?
+Dialogue: 0,0:46:55.25,0:46:58.83,Dialogue,,0,0,0,,I was taking a walk and I got lost.
+Dialogue: 0,0:46:59.29,0:47:00.83,Dialogue,,0,0,0,,How do I get back to Koumi Inn?
+Dialogue: 0,0:47:01.42,0:47:02.29,Dialogue,,0,0,0,,Go that way.
+Dialogue: 0,0:47:02.67,0:47:05.17,Dialogue,,0,0,0,,Thank you. Good night!
+Dialogue: 0,0:47:10.05,0:47:11.97,Dialogue,,0,0,0,,How is it, Takagi{\rHonorifics - Dialogue}-kun{\r}?
+Dialogue: 0,0:47:11.97,0:47:13.64,Dialogue,,0,0,0,,Any news from headquarters yet?
+Dialogue: 0,0:47:13.64,0:47:15.22,Dialogue,,0,0,0,,Nope, not yet.
+Dialogue: 0,0:47:15.64,0:47:17.18,Dialogue,,0,0,0,,I see.
+Dialogue: 0,0:47:20.27,0:47:21.06,Dialogue,,0,0,0,,What's wrong?!
+Dialogue: 0,0:47:23.94,0:47:25.82,Dialogue,,0,0,0,,The alarm in the Tourism Division has gone off!
+Dialogue: 0,0:47:31.41,0:47:34.74,Dialogue,,0,0,0,,Then, something must have happened in the Tourism Division's office.
+Dialogue: 0,0:47:34.74,0:47:37.50,Dialogue,,0,0,0,,No, their alarm often malfunctions.
+Dialogue: 0,0:47:37.50,0:47:39.62,Dialogue,,0,0,0,,We better go and take a look just in case.
+Dialogue: 0,0:47:39.62,0:47:40.67,Dialogue,,0,0,0,,Where is it?
+Dialogue: 0,0:47:40.67,0:47:42.88,Dialogue,,0,0,0,,Next to the police station.
+Dialogue: 0,0:47:42.88,0:47:44.04,Dialogue,,0,0,0,,We'll be borrowing your car...
+Dialogue: 0,0:47:44.04,0:47:45.00,Dialogue,,0,0,0,,Okay.
+Dialogue: 0,0:47:45.00,0:47:47.51,Dialogue,,0,0,0,,Headquarters might send a report back later.
+Dialogue: 0,0:47:47.51,0:47:48.26,Dialogue,,0,0,0,,Please take care of it.
+Dialogue: 0,0:47:48.67,0:47:50.43,Dialogue,,0,0,0,,G-Got it.
+Dialogue: 0,0:48:05.11,0:48:08.78,Dialogue,,0,0,0,,Damn, why are there so many incidents happening lately?
+Dialogue: 0,0:48:09.36,0:48:11.03,Dialogue,,0,0,0,,I-It's here!
+Dialogue: 0,0:48:12.99,0:48:13.91,Dialogue,,0,0,0,,Let's see...
+Dialogue: 0,0:48:20.25,0:48:21.96,Dialogue,,0,0,0,,Th-This is...
+Dialogue: 0,0:48:49.65,0:48:50.99,Dialogue,,0,0,0,,Hurry, get in!
+Dialogue: 0,0:49:40.74,0:49:47.88,Dialogue,,0,0,0,,Geez, I asked for about pubs with beautiful hostesses.
+Dialogue: 0,0:49:53.21,0:49:54.13,Dialogue,,0,0,0,,Damn...
+Dialogue: 0,0:49:54.13,0:49:56.34,Dialogue,,0,0,0,,Can't I have a drink in peace?
+Dialogue: 0,0:49:56.34,0:49:58.55,Dialogue,,0,0,0,,I hate coming to tourist spots.
+Dialogue: 0,0:49:58.55,0:50:00.18,Dialogue,,0,0,0,,I'm getting angry!
+Dialogue: 0,0:50:01.26,0:50:03.14,Dialogue,,0,0,0,,Hey, shut up!
+Dialogue: 0,0:50:03.14,0:50:04.73,Dialogue,,0,0,0,,Huh? What happened?
+Dialogue: 0,0:50:06.14,0:50:07.56,Dialogue,,0,0,0,,Hey, wait a minute!
+Dialogue: 0,0:50:08.52,0:50:10.19,Dialogue,,0,0,0,,What are you doing?
+Dialogue: 0,0:50:11.32,0:50:15.86,Dialogue,,0,0,0,,There aren't any beautiful hostesses here, Head of the Tourism Division!
+Dialogue: 0,0:50:15.86,0:50:17.49,Dialogue,,0,0,0,,What does it matter?
+Dialogue: 0,0:50:17.49,0:50:20.03,Dialogue,,0,0,0,,She'll look beautiful when she's in a dark room anyway!
+Dialogue: 0,0:50:20.03,0:50:21.49,Dialogue,,0,0,0,,You have to take responsibility!
+Dialogue: 0,0:50:21.49,0:50:23.16,Dialogue,,0,0,0,,I'm busy right now!
+Dialogue: 0,0:50:23.16,0:50:24.04,Dialogue,,0,0,0,,What?!
+Dialogue: 0,0:50:24.04,0:50:27.46,Dialogue,,0,0,0,,Someone broke into the display room at the Tourism Division's office.
+Dialogue: 0,0:50:27.46,0:50:29.67,Dialogue,,0,0,0,,What? A thief?
+Dialogue: 0,0:50:29.67,0:50:31.13,Dialogue,,0,0,0,,Let me take the bike.
+Dialogue: 0,0:50:31.46,0:50:32.88,Dialogue,,0,0,0,,Wait a minute.
+Dialogue: 0,0:50:32.88,0:50:36.17,Dialogue,,0,0,0,,Get on! Or I'll go without you!
+Dialogue: 0,0:50:36.17,0:50:37.97,Dialogue,,0,0,0,,Please wait for me!
+Dialogue: 0,0:50:37.97,0:50:40.22,Dialogue,,0,0,0,,Sit tight, I'm going to go fast!
+Dialogue: 0,0:50:40.22,0:50:42.85,Dialogue,,0,0,0,,Wait, you haven't paid your bill yet!
+Dialogue: 0,0:50:42.85,0:50:45.02,Dialogue,,0,0,0,,Customer{\rHonorifics - Dialogue}-san{\r}!
+Dialogue: 0,0:50:45.64,0:50:47.44,Dialogue,,0,0,0,,What's the problem, ma'am?
+Dialogue: 0,0:50:47.44,0:50:49.44,Dialogue,,0,0,0,,Uehira{\rHonorifics - Dialogue}-chan{\r}, someone ran away and didn't pay his bill.
+Dialogue: 0,0:50:49.44,0:50:50.69,Dialogue,,0,0,0,,Please get him for me.
+Dialogue: 0,0:50:51.02,0:50:54.11,Dialogue,,0,0,0,,Geez... Not {\i1}another{\i0} incident!
+Dialogue: 0,0:50:55.90,0:50:58.95,Dialogue,,0,0,0,,They broke the display counter using a small crowbar.
+Dialogue: 0,0:50:59.32,0:51:00.70,Dialogue,,0,0,0,,It was a pretty bold move.
+Dialogue: 0,0:51:05.58,0:51:07.08,Dialogue,,0,0,0,,Yes, Sato{\rHonorifics - Dialogue}-kun{\r}?
+Dialogue: 0,0:51:08.00,0:51:10.96,Dialogue,,0,0,0,,Like Conan{\rHonorifics - Dialogue}-kun{\r} said, there were gunshots.
+Dialogue: 0,0:51:10.96,0:51:12.67,Dialogue,,0,0,0,,There are blood stains at the crime scene.
+Dialogue: 0,0:51:12.67,0:51:13.88,Dialogue,,0,0,0,,I see.
+Dialogue: 0,0:51:14.50,0:51:16.17,Dialogue,,0,0,0,,Can you maintain the area?
+Dialogue: 0,0:51:16.63,0:51:18.67,Dialogue,,0,0,0,,It would be quiet difficult to do so.
+Dialogue: 0,0:51:18.67,0:51:19.97,Dialogue,,0,0,0,,That's what I was afraid of.
+Dialogue: 0,0:51:19.97,0:51:23.60,Dialogue,,0,0,0,,Take a picture of the crime scene and come back here.
+Dialogue: 0,0:51:23.60,0:51:24.43,Dialogue,,0,0,0,,Yes, sir!
+Dialogue: 0,0:51:28.81,0:51:30.39,Dialogue,,0,0,0,,The cutlass and the pistol were stolen!
+Dialogue: 0,0:51:31.15,0:51:33.06,Dialogue,,0,0,0,,Were they worth a lot?
+Dialogue: 0,0:51:33.06,0:51:35.73,Dialogue,,0,0,0,,They were priceless artifacts found inside Seabed Palace,
+Dialogue: 0,0:51:36.28,0:51:40.15,Dialogue,,0,0,0,,the cutlass of Anne Bonny and the pistol of Mary Read.
+Dialogue: 0,0:51:40.15,0:51:43.53,Dialogue,,0,0,0,,There's no need to worry, cause I'm here!
+Dialogue: 0,0:51:44.74,0:51:46.99,Dialogue,,0,0,0,,Mouri{\rHonorifics - Dialogue}-kun{\r}, you're red.
+Dialogue: 0,0:51:47.41,0:51:48.83,Dialogue,,0,0,0,,No,
+Dialogue: 0,0:51:48.83,0:51:50.96,Dialogue,,0,0,0,,I'm just excited to see everyone here.
+Dialogue: 0,0:51:50.96,0:51:53.67,Dialogue,,0,0,0,,Mouri Kogoro, you are under arrest!
+Dialogue: 0,0:51:53.67,0:51:57.59,Dialogue,,0,0,0,,You didn't pay your bill, stole a bicycle, and were riding it while drunk!
+Dialogue: 0,0:52:02.97,0:52:04.22,Thoughts,,0,0,0,,{\be10}Hey, hey...
+Dialogue: 0,0:52:04.93,0:52:06.93,Dialogue,,0,0,0,,Is that true?
+Dialogue: 0,0:52:06.93,0:52:07.77,Dialogue,,0,0,0,,Yes.
+Dialogue: 0,0:52:07.77,0:52:10.02,Dialogue,,0,0,0,,He didn't pay his bill at the pub,
+Dialogue: 0,0:52:10.02,0:52:12.73,Dialogue,,0,0,0,,stole Iwanaga{\rHonorifics - Dialogue}-san{\r}'s bicycle, and rode away.
+Dialogue: 0,0:52:12.73,0:52:13.90,Dialogue,,0,0,0,,That's what the hostess told me.
+Dialogue: 0,0:52:13.90,0:52:15.65,Dialogue,,0,0,0,,I didn't steal his bike.
+Dialogue: 0,0:52:15.65,0:52:19.03,Dialogue,,0,0,0,,I rode him here while he sat right behind me!
+Dialogue: 0,0:52:19.03,0:52:19.94,Dialogue,,0,0,0,,Right? Right?
+Dialogue: 0,0:52:19.94,0:52:20.95,Dialogue,,0,0,0,,Yeah...
+Dialogue: 0,0:52:22.45,0:52:24.91,Dialogue,,0,0,0,,Oh! I almost forgot, Inspector...
+Dialogue: 0,0:52:24.91,0:52:27.20,Dialogue,,0,0,0,,The results from the fingerprints analysis arrived.
+Dialogue: 0,0:52:28.41,0:52:31.25,Dialogue,,0,0,0,,Hey, is this true?
+Dialogue: 0,0:52:32.17,0:52:33.92,Dialogue,,0,0,0,,Matsumoto Mitsushi.
+Dialogue: 0,0:52:33.92,0:52:36.29,Dialogue,,0,0,0,,He has stolen important cultural artifacts from ruins all over the world,
+Dialogue: 0,0:52:36.29,0:52:39.80,Dialogue,,0,0,0,,along with committing theft and burglary of works of art, and even murder.
+Dialogue: 0,0:52:39.80,0:52:40.80,Dialogue,,0,0,0,,He's a big fish.
+Dialogue: 0,0:52:40.80,0:52:44.39,Dialogue,,0,0,0,,So they're international fugitives.
+Dialogue: 0,0:52:44.39,0:52:48.39,Dialogue,,0,0,0,,Damn, so they really are trying to steal Anne and Mary's treasure.
+Dialogue: 0,0:52:49.10,0:52:50.47,Dialogue,,0,0,0,,What do you mean?
+Dialogue: 0,0:52:50.81,0:52:54.73,Dialogue,,0,0,0,,There's more treasure besides the stolen cutlass and pistol?
+Dialogue: 0,0:52:55.19,0:52:56.40,Dialogue,,0,0,0,,Yes.
+Dialogue: 0,0:52:56.40,0:52:59.78,Dialogue,,0,0,0,,Anne Bonny and Mary Read were pirates.
+Dialogue: 0,0:53:00.36,0:53:03.15,Dialogue,,0,0,0,,Before they got caught 300 years ago,
+Dialogue: 0,0:53:03.53,0:53:07.12,Dialogue,,0,0,0,,they hid their treasure here in Koumi Island.
+Dialogue: 0,0:53:08.08,0:53:10.66,Dialogue,,0,0,0,,Is it true that they hid their treasure here?
+Dialogue: 0,0:53:10.66,0:53:14.79,Dialogue,,0,0,0,,Yes, the stolen pistol and cutlass are the best evidence of that.
+Dialogue: 0,0:53:22.59,0:53:24.13,Dialogue,,0,0,0,,Hey, Uncle...
+Dialogue: 0,0:53:24.13,0:53:26.84,Dialogue,,0,0,0,,I thought you were at a pub with beautiful hostesses.
+Dialogue: 0,0:53:29.14,0:53:31.60,Dialogue,,0,0,0,,Not only was she not beautiful,
+Dialogue: 0,0:53:31.60,0:53:34.06,Dialogue,,0,0,0,,she was an old hag!
+Dialogue: 0,0:53:34.06,0:53:35.44,Thoughts,,0,0,0,,{\be10}I knew it.
+Dialogue: 0,0:53:35.44,0:53:37.06,Thoughts,,0,0,0,,{\be10}It's that smell.
+Dialogue: 0,0:53:39.52,0:53:41.57,Dialogue,,0,0,0,,You've got something on you, Uncle.
+Dialogue: 0,0:53:41.57,0:53:43.99,Dialogue,,0,0,0,,What is this?
+Dialogue: 0,0:53:44.78,0:53:46.32,Thoughts,,0,0,0,,{\be10}I see.
+Dialogue: 0,0:53:48.32,0:53:50.70,Dialogue,,0,0,0,,How do you get off of this island?
+Dialogue: 0,0:53:50.70,0:53:53.87,Dialogue,,0,0,0,,There is only one scheduled ship that leaves here every afternoon,
+Dialogue: 0,0:53:53.87,0:53:55.87,Dialogue,,0,0,0,,but you could also leave in a fishing boat.
+Dialogue: 0,0:53:55.87,0:53:59.17,Dialogue,,0,0,0,,Alright then, ask everyone to be extra careful,
+Dialogue: 0,0:53:59.17,0:54:00.88,Dialogue,,0,0,0,,to avoid having their fishing boats stolen.
+Dialogue: 0,0:54:00.88,0:54:02.59,Dialogue,,0,0,0,,Understood!
+Dialogue: 0,0:54:03.30,0:54:05.34,Dialogue,,0,0,0,,Hey, what about the cuffs?
+Dialogue: 0,0:54:05.34,0:54:06.88,Dialogue,,0,0,0,,Hey!!
+Dialogue: 0,0:54:06.88,0:54:08.80,Dialogue,,0,0,0,,Hey, Inspector Megure...
+Dialogue: 0,0:54:09.39,0:54:16.94,Dialogue,,0,0,0,,I saw that Matsumoto guy paying on the diving shop owner, Mabuchi{\rHonorifics - Dialogue}-san{\r}.
+Dialogue: 0,0:54:16.94,0:54:17.85,Dialogue,,0,0,0,,What?
+Dialogue: 0,0:54:17.85,0:54:18.81,Dialogue,,0,0,0,,Inspector Megure,
+Dialogue: 0,0:54:19.44,0:54:21.07,Dialogue,,0,0,0,,we're back.
+Dialogue: 0,0:54:21.07,0:54:22.15,Dialogue,,0,0,0,,Thank you for your hard work.
+Dialogue: 0,0:54:22.15,0:54:23.53,Dialogue,,0,0,0,,I need you to check on something.
+Dialogue: 0,0:54:23.53,0:54:27.07,Dialogue,,0,0,0,,The diving shop owner has had some contact with Matsumoto.
+Dialogue: 0,0:54:27.07,0:54:29.24,Dialogue,,0,0,0,,Both of you immediately go to the diving shop.
+Dialogue: 0,0:54:29.62,0:54:32.03,Dialogue,,0,0,0,,We'll go to the hotel where Matsumoto is staying.
+Dialogue: 0,0:54:32.03,0:54:32.83,Dialogue,,0,0,0,,Yes, sir!
+Dialogue: 0,0:54:32.83,0:54:35.00,Dialogue,,0,0,0,,Inspector Megure, the cuffs on my wrists!
+Dialogue: 0,0:54:48.38,0:54:50.01,Dialogue,,0,0,0,,How's the weather?
+Dialogue: 0,0:54:50.01,0:54:51.85,Dialogue,,0,0,0,,The wind is strong...
+Dialogue: 0,0:54:52.26,0:54:54.77,Dialogue,,0,0,0,,but since the sun is out, there shouldn't be a problem.
+Dialogue: 0,0:54:55.98,0:54:57.48,Dialogue,,0,0,0,,I'll zoom in on the picture.
+Dialogue: 0,0:55:00.40,0:55:02.36,Dialogue,,0,0,0,,The pattern on the tracks is different from the ones on the tire.
+Dialogue: 0,0:55:03.36,0:55:05.82,Dialogue,,0,0,0,,Just like I thought, it's not this bike.
+Dialogue: 0,0:55:05.82,0:55:07.07,Dialogue,,0,0,0,,Conan{\rHonorifics - Dialogue}-kun{\r}?
+Dialogue: 0,0:55:07.49,0:55:08.74,Dialogue,,0,0,0,,Yeah?
+Dialogue: 0,0:55:09.57,0:55:11.70,Dialogue,,0,0,0,,Conan{\rHonorifics - Dialogue}-kun{\r}, the food is ready!
+Dialogue: 0,0:55:11.70,0:55:12.91,Dialogue,,0,0,0,,Be there in a second!
+Dialogue: 0,0:55:13.58,0:55:14.41,Dialogue,,0,0,0,,What is it?
+Dialogue: 0,0:55:15.16,0:55:16.91,Dialogue,,0,0,0,,I think it's a GPS tracker.
+Dialogue: 0,0:55:16.91,0:55:20.58,Dialogue,,0,0,0,,GPS tracker? Why would a bike have one of those?
+Dialogue: 0,0:55:23.04,0:55:25.50,Dialogue,,0,0,0,,Geez... What is Conan doing?
+Dialogue: 0,0:55:25.50,0:55:28.17,Dialogue,,0,0,0,,He said he was coming, just give him a minute!
+Dialogue: 0,0:55:28.17,0:55:28.80,Dialogue,,0,0,0,,Here he comes!
+Dialogue: 0,0:55:28.80,0:55:29.68,Dialogue,,0,0,0,,Sorry to keep you waiting!
+Dialogue: 0,0:55:29.68,0:55:32.55,Dialogue,,0,0,0,,You are so slow, Conan. I'm starving!
+Dialogue: 0,0:55:32.55,0:55:33.93,Dialogue,,0,0,0,,Sorry, sorry.
+Dialogue: 0,0:55:34.89,0:55:37.52,Dialogue,,0,0,0,,Huh? Where's Uncle?
+Dialogue: 0,0:55:38.23,0:55:41.73,Dialogue,,0,0,0,,He has a meeting with the police, so he went down to the station.
+Dialogue: 0,0:55:42.98,0:55:44.73,Dialogue,,0,0,0,,Okay then, everyone's here.
+Dialogue: 0,0:55:44.73,0:55:46.53,Dialogue,,0,0,0,,Let's dig in!
+Dialogue: 0,0:55:48.99,0:55:51.45,Dialogue,,0,0,0,,I never thought that it'd be nearby!
+Dialogue: 0,0:56:00.25,0:56:01.96,Dialogue,,0,0,0,,Yummy! I want another one!
+Dialogue: 0,0:56:01.96,0:56:05.71,Dialogue,,0,0,0,,Hey, did you meet Iwanaga{\rHonorifics - Dialogue}-san{\r} on the way to the hanging bridge?
+Dialogue: 0,0:56:05.71,0:56:07.25,Dialogue,,0,0,0,,Iwanaga{\rHonorifics - Dialogue}-san{\r}?
+Dialogue: 0,0:56:07.63,0:56:09.47,Dialogue,,0,0,0,,Ah, you mean the head of the Tourism Division?
+Dialogue: 0,0:56:09.47,0:56:10.55,Dialogue,,0,0,0,,Yeah.
+Dialogue: 0,0:56:10.55,0:56:13.34,Dialogue,,0,0,0,,No, we didn't see him, right?
+Dialogue: 0,0:56:13.34,0:56:14.47,Dialogue,,0,0,0,,Yep.
+Dialogue: 0,0:56:14.47,0:56:17.26,Dialogue,,0,0,0,,We found that place ourselves.
+Dialogue: 0,0:56:17.56,0:56:18.77,Dialogue,,0,0,0,,I see.
+Dialogue: 0,0:56:22.77,0:56:24.61,Dialogue,,0,0,0,,Does everyone have enough food?
+Dialogue: 0,0:56:25.31,0:56:28.11,Dialogue,,0,0,0,,Yes, we're fine. Thank you very much.
+Dialogue: 0,0:56:29.28,0:56:31.70,Dialogue,,0,0,0,,Are you going for a dive today as well?
+Dialogue: 0,0:56:31.70,0:56:35.37,Dialogue,,0,0,0,,No, my heart is still fluttering with fear from what happened yesterday.
+Dialogue: 0,0:56:35.37,0:56:38.58,Dialogue,,0,0,0,,But there won't be any time left tomorrow,
+Dialogue: 0,0:56:38.58,0:56:40.96,Dialogue,,0,0,0,,so we'd like to take a boat ride later.
+Dialogue: 0,0:56:40.96,0:56:43.50,Dialogue,,0,0,0,,Better not go out to sea this afternoon,
+Dialogue: 0,0:56:44.08,0:56:45.58,Dialogue,,0,0,0,,The waves might get stormy.
+Dialogue: 0,0:56:45.96,0:56:47.80,Dialogue,,0,0,0,,Really?
+Dialogue: 0,0:56:48.17,0:56:51.13,Dialogue,,0,0,0,,Then, we need to hurry up and find the treasure before that happens.
+Dialogue: 0,0:56:51.42,0:56:55.05,Dialogue,,0,0,0,,You're right, we only have one hint left now.
+Dialogue: 0,0:56:55.05,0:56:57.05,Dialogue,,0,0,0,,Let's work together, Conan{\rHonorifics - Dialogue}-kun{\r}.
+Dialogue: 0,0:56:57.85,0:57:01.98,Dialogue,,0,0,0,,I need to go somewhere, so you guys go ahead without me!
+Dialogue: 0,0:57:05.31,0:57:09.65,Dialogue,,0,0,0,,Well, I guess we'll leave the anti-social guy here.
+Dialogue: 0,0:57:09.65,0:57:13.28,Dialogue,,0,0,0,,Let's find the treasure and split it amongst ourselves.
+Dialogue: 0,0:57:13.28,0:57:14.82,Dialogue,,0,0,0,,Sounds good to me!
+Dialogue: 0,0:57:25.79,0:57:28.84,Thoughts,,0,0,0,,{\be10}I thought so. None of the other bikes have GPS trackers.
+Dialogue: 0,0:57:28.84,0:57:31.67,Dialogue,,0,0,0,,Sir, the latest information on the weather.
+Dialogue: 0,0:57:33.38,0:57:36.64,Dialogue,,0,0,0,,That's not good... it looks like a small typhoon.
+Dialogue: 0,0:57:36.64,0:57:39.81,Dialogue,,0,0,0,,Anyway, go and let the fishing association and the hotel know.
+Dialogue: 0,0:57:39.81,0:57:40.64,Dialogue,,0,0,0,,Yes.
+Dialogue: 0,0:57:40.64,0:57:41.93,Dialogue,,0,0,0,,What a pain...
+Dialogue: 0,0:57:51.98,0:57:55.20,Dialogue,,0,0,0,,Matsumoto and Izuyama haven't gone back to their hotel room yet,
+Dialogue: 0,0:57:55.20,0:57:57.74,Dialogue,,0,0,0,,but there's nothing that shows that they left the island either.
+Dialogue: 0,0:57:58.12,0:58:00.70,Dialogue,,0,0,0,,So, they must be hiding somewhere.
+Dialogue: 0,0:58:00.99,0:58:07.92,Dialogue,,0,0,0,,At least one of them was shot. They're probably looking for a doctor.
+Dialogue: 0,0:58:07.92,0:58:11.38,Dialogue,,0,0,0,,I've checked with the clinics, but there's no sign of them.
+Dialogue: 0,0:58:11.80,0:58:14.92,Dialogue,,0,0,0,,About the diving shop owner, Mabuchi,
+Dialogue: 0,0:58:14.92,0:58:17.13,Dialogue,,0,0,0,,I found out what Conan{\rHonorifics - Dialogue}-kun{\r} saw last night.
+Dialogue: 0,0:58:17.43,0:58:20.47,Dialogue,,0,0,0,,Matsumoto was asking her to prepare a boat for them to escape in.
+Dialogue: 0,0:58:21.26,0:58:23.06,Flashback,,0,0,0,,{\be10}First of all...
+Dialogue: 0,0:58:23.06,0:58:25.81,Flashback,,0,0,0,,{\be10}Let me tell you that I have no idea where Matsumoto is.
+Dialogue: 0,0:58:26.14,0:58:29.65,Flashback,,0,0,0,,{\be10}It's hard to make a living from just this diving shop,
+Dialogue: 0,0:58:29.65,0:58:31.98,Flashback,,0,0,0,,{\be10}so I agreed to help Matsumoto.
+Dialogue: 0,0:58:32.61,0:58:34.61,Flashback,,0,0,0,,{\be10}I never thought that I'd have such bad luck.
+Dialogue: 0,0:58:35.36,0:58:36.61,Dialogue,,0,0,0,,I see.
+Dialogue: 0,0:58:36.61,0:58:40.32,Dialogue,,0,0,0,,The bullet shells that Takagi{\rHonorifics - Dialogue}-kun{\r} found were from old bullets,
+Dialogue: 0,0:58:40.32,0:58:44.83,Dialogue,,0,0,0,,Bullets that had been stored and preserved for a very long time.
+Dialogue: 0,0:58:45.66,0:58:49.58,Dialogue,,0,0,0,,We're checking with the hunter's association in regards to the rifle.
+Dialogue: 0,0:58:50.67,0:58:51.63,Dialogue,,0,0,0,,Please come in.
+Dialogue: 0,0:58:52.21,0:58:54.00,Dialogue,,0,0,0,,Sorry to interrupt,
+Dialogue: 0,0:58:54.00,0:58:59.55,Dialogue,,0,0,0,,but I just got a report saying that Mineo{\rHonorifics - Dialogue}-san{\r}, a member of the hunter's association, is missing his rifle.
+Dialogue: 0,0:58:59.55,0:59:01.10,Dialogue,,0,0,0,,Is that so?
+Dialogue: 0,0:59:01.10,0:59:02.93,Dialogue,,0,0,0,,Who is Mineo{\rHonorifics - Dialogue}-san{\r}?
+Dialogue: 0,0:59:03.64,0:59:06.39,Dialogue,,0,0,0,,He's an old man living all by himself.
+Dialogue: 0,0:59:06.39,0:59:11.77,Dialogue,,0,0,0,,His niece, Mabuchi Chika{\rHonorifics - Dialogue}-san{\r} who runs the diving shop, takes care of him.
+Dialogue: 0,0:59:14.36,0:59:17.32,Dialogue,,0,0,0,,Ask Mineo{\rHonorifics - Dialogue}-san{\r} for more details,
+Dialogue: 0,0:59:17.32,0:59:20.28,Dialogue,,0,0,0,,and please ask Mabuchi{\rHonorifics - Dialogue}-san{\r} to come over here as well.
+Dialogue: 0,0:59:20.28,0:59:21.41,Dialogue,,0,0,0,,Yes, Sir!
+Dialogue: 0,0:59:23.58,0:59:26.62,Dialogue,,0,0,0,,Do your best to find the stolen cutlass and pistol!
+Dialogue: 0,0:59:26.91,0:59:28.16,Dialogue,,0,0,0,,I'm begging you!
+Dialogue: 0,0:59:28.79,0:59:30.46,Dialogue,,0,0,0,,We'll do our best.
+Dialogue: 0,0:59:31.04,0:59:35.05,Dialogue,,0,0,0,,But, why did they wait until now...
+Dialogue: 0,0:59:35.05,0:59:37.09,Dialogue,,0,0,0,,Why commit the crime while all of the police are here?
+Dialogue: 0,0:59:37.09,0:59:41.43,Dialogue,,0,0,0,,That's true. When Uehira{\rHonorifics - Dialogue}-san{\r} was the only officer here,
+Dialogue: 0,0:59:41.43,0:59:44.22,Dialogue,,0,0,0,,it would have been much easier to get off of the island.
+Dialogue: 0,0:59:44.22,0:59:49.39,Dialogue,,0,0,0,,Most likely, the criminal was worried that his identity might be exposed if this went on.
+Dialogue: 0,0:59:49.39,0:59:52.31,Dialogue,,0,0,0,,What about the backup from Tokyo?
+Dialogue: 0,0:59:52.90,0:59:56.61,Dialogue,,0,0,0,,Helicopters can't come because of the low air pressure from the storm, and ships would take too long.
+Dialogue: 0,0:59:58.03,1:00:00.36,Dialogue,,0,0,0,,We have to depend on ourselves...
+Dialogue: 0,1:00:00.36,1:00:02.70,Dialogue,,0,0,0,,Not only in looking for Matsumoto,
+Dialogue: 0,1:00:03.03,1:00:06.95,Dialogue,,0,0,0,,but also the person who attempted to kill them.
+Dialogue: 0,1:00:15.63,1:00:16.55,Dialogue,,0,0,0,,There it is...
+Dialogue: 0,1:00:18.42,1:00:19.67,Dialogue,,0,0,0,,I found it!
+Dialogue: 0,1:00:19.67,1:00:21.18,Dialogue,,0,0,0,,Great!
+Dialogue: 0,1:00:21.18,1:00:23.47,Dialogue,,0,0,0,,The last hint was really easy!
+Dialogue: 0,1:00:24.01,1:00:27.06,Dialogue,,0,0,0,,"A pirate's soul will go to heaven."
+Dialogue: 0,1:00:27.06,1:00:28.85,Dialogue,,0,0,0,,The only possibility is the observatory!
+Dialogue: 0,1:00:31.31,1:00:37.52,Signs,,0,0,0,,The numbers on the stamps are the hint.\NNow, go and find our treasure!
+Dialogue: 0,1:00:31.77,1:00:34.23,Dialogue,,0,0,0,,"The numbers on the stamps are the hint."
+Dialogue: 0,1:00:34.23,1:00:36.90,Dialogue,,0,0,0,,"Now, go find our treasure!"
+Dialogue: 0,1:00:37.86,1:00:40.86,Dialogue,,0,0,0,,My boss went to go check on the situation at sea.
+Dialogue: 0,1:00:40.86,1:00:42.24,Dialogue,,0,0,0,,Please wait for just a moment.
+Dialogue: 0,1:00:42.24,1:00:43.16,Dialogue,,0,0,0,,Okay.
+Dialogue: 0,1:00:43.16,1:00:44.74,Dialogue,,0,0,0,,Sorry to keep you waiting.
+Dialogue: 0,1:00:44.74,1:00:49.04,Dialogue,,0,0,0,,Sorry! I don't think we can go out to sea today.
+Dialogue: 0,1:00:49.04,1:00:50.75,Dialogue,,0,0,0,,The waves are really rough out there.
+Dialogue: 0,1:00:50.75,1:00:52.16,Dialogue,,0,0,0,,How unlucky...
+Dialogue: 0,1:00:52.16,1:00:53.71,Dialogue,,0,0,0,,But nothing can be done.
+Dialogue: 0,1:00:53.71,1:00:57.25,Dialogue,,0,0,0,,Let's just go to a beach then.
+Dialogue: 0,1:00:58.34,1:01:00.30,Dialogue,,0,0,0,,Good morning, Uehira{\rHonorifics - Dialogue}-san{\r}.
+Dialogue: 0,1:01:00.71,1:01:01.63,Dialogue,,0,0,0,,Good morning.
+Dialogue: 0,1:01:01.63,1:01:03.55,Dialogue,,0,0,0,,Why do you look so serious?
+Dialogue: 0,1:01:03.55,1:01:04.76,Dialogue,,0,0,0,,Did something happen?
+Dialogue: 0,1:01:05.26,1:01:07.72,Dialogue,,0,0,0,,Chika{\rHonorifics - Dialogue}-chan{\r}, please come with me.
+Dialogue: 0,1:01:08.22,1:01:10.68,Dialogue,,0,0,0,,Inspector Megure would like to talk to you.
+Dialogue: 0,1:01:19.57,1:01:20.73,Dialogue,,0,0,0,,Uncle!
+Dialogue: 0,1:01:21.28,1:01:22.49,Dialogue,,0,0,0,,What is it?
+Dialogue: 0,1:01:24.11,1:01:30.91,Dialogue,,0,0,0,,Why did the treasure hunters steal the cutlass and pistol from the Tourism Division?
+Dialogue: 0,1:01:33.33,1:01:35.12,Dialogue,,0,0,0,,They, should be after The treasure...
+Dialogue: 0,1:01:35.12,1:01:37.38,Dialogue,,0,0,0,,But instead stole those items.
+Dialogue: 0,1:01:38.09,1:01:44.76,Dialogue,,0,0,0,,Could it be that they need them to get to the real treasure?
+Dialogue: 0,1:01:45.34,1:01:50.22,Dialogue,,0,0,0,,That's why I think those men went to where the treasure is hidden.
+Dialogue: 0,1:01:51.18,1:01:52.68,Dialogue,,0,0,0,,Uncle, do you know where it is?
+Dialogue: 0,1:01:54.27,1:01:57.15,Dialogue,,0,0,0,,Why are you asking me?
+Dialogue: 0,1:01:57.15,1:01:58.86,Dialogue,,0,0,0,,Uncle, did you used to be...
+Dialogue: 0,1:01:59.48,1:02:01.61,Dialogue,,0,0,0,,...a treasure hunter too?
+Dialogue: 0,1:02:08.66,1:02:12.54,Dialogue,,0,0,0,,Even if I were a treasure hunter,
+Dialogue: 0,1:02:12.54,1:02:16.25,Dialogue,,0,0,0,,How would I know where the treasure is hidden?
+Dialogue: 0,1:02:16.83,1:02:19.21,Dialogue,,0,0,0,,Didn't you say it yesterday?
+Dialogue: 0,1:02:19.59,1:02:24.51,Flashback,,0,0,0,,{\be10}Speaking of treasure hunters, is there really treasure here?
+Dialogue: 0,1:02:24.51,1:02:29.26,Flashback,,0,0,0,,{\be10}Hmph, hyenas don't gather at places that don't have treasure,
+Dialogue: 0,1:02:29.26,1:02:32.51,Flashback,,0,0,0,,{\be10}although it's probably not the type of treasure they are expecting.
+Dialogue: 0,1:02:33.64,1:02:37.31,Dialogue,,0,0,0,,"It's probably not the type of treasure they are expecting."
+Dialogue: 0,1:02:37.90,1:02:41.44,Dialogue,,0,0,0,,So, you know what the treasure is, right?
+Dialogue: 0,1:02:45.90,1:02:47.07,Dialogue,,0,0,0,,Follow me.
+Dialogue: 0,1:02:54.33,1:02:58.42,Dialogue,,0,0,0,,Why are some of the numbers red, and some blue?
+Dialogue: 0,1:03:00.63,1:03:01.92,Dialogue,,0,0,0,,Give me a pair of scissors.
+Dialogue: 0,1:03:01.92,1:03:03.21,Dialogue,,0,0,0,,Okay.
+Dialogue: 0,1:03:06.26,1:03:08.38,Dialogue,,0,0,0,,There are two questions:
+Dialogue: 0,1:03:08.38,1:03:11.39,Dialogue,,0,0,0,,Why are they separated into two colors?
+Dialogue: 0,1:03:11.39,1:03:13.51,Dialogue,,0,0,0,,And what do the numbers mean?
+Dialogue: 0,1:03:13.51,1:03:16.98,Dialogue,,0,0,0,,Could the numbers lead to an address on this island?
+Dialogue: 0,1:03:18.56,1:03:19.98,Dialogue,,0,0,0,,I know!
+Dialogue: 0,1:03:19.98,1:03:21.77,Dialogue,,0,0,0,,Let's ask Uncle!
+Dialogue: 0,1:03:21.77,1:03:23.15,Dialogue,,0,0,0,,Uncle!
+Dialogue: 0,1:03:30.86,1:03:35.49,Dialogue,,0,0,0,,I wonder what Inspector Megure needs Mabuchi{\rHonorifics - Dialogue}-san{\r} for?
+Dialogue: 0,1:03:35.49,1:03:37.20,Dialogue,,0,0,0,,Maybe it's related to the case...
+Dialogue: 0,1:03:37.66,1:03:39.54,Dialogue,,0,0,0,,There's probably just some kind of misunderstanding.
+Dialogue: 0,1:03:39.54,1:03:40.83,Dialogue,,0,0,0,,Hop in, you two.
+Dialogue: 0,1:03:40.83,1:03:41.88,Dialogue,,0,0,0,,Okay!
+Dialogue: 0,1:03:48.88,1:03:51.72,Dialogue,,0,0,0,,Put these in the car as well.
+Dialogue: 0,1:03:51.72,1:03:52.97,Dialogue,,0,0,0,,Wait, you?!
+Dialogue: 0,1:03:54.39,1:03:56.18,Dialogue,,0,0,0,,Get back in the car!
+Dialogue: 0,1:03:56.72,1:03:58.73,Dialogue,,0,0,0,,You wouldn't want anything to happen to your friend here...
+Dialogue: 0,1:04:25.46,1:04:28.38,Dialogue,,0,0,0,,Uncle, did you used to be a treasure hunter?
+Dialogue: 0,1:04:28.38,1:04:31.38,Dialogue,,0,0,0,,Yes, when I was young.
+Dialogue: 0,1:04:31.38,1:04:37.64,Dialogue,,0,0,0,,I came to this island to look for the treasure of Anne and Mary, and I've been here ever since.
+Dialogue: 0,1:04:37.64,1:04:42.02,Dialogue,,0,0,0,,That was when I fell in love with a woman,\Nmarried her, and became a fisherman.
+Dialogue: 0,1:04:43.81,1:04:45.94,Dialogue,,0,0,0,,This is a map of how this island looked 300 years ago.
+Dialogue: 0,1:05:02.08,1:05:03.83,Dialogue,,0,0,0,,And that's how it is...
+Dialogue: 0,1:05:05.29,1:05:07.29,Dialogue,,0,0,0,,The numbers are drawn according to this map.
+Dialogue: 0,1:05:07.75,1:05:10.17,Dialogue,,0,0,0,,Iwanaga{\rHonorifics - Dialogue}-san{\r}, from the Tourism Division...
+Dialogue: 0,1:05:10.17,1:05:13.43,Dialogue,,0,0,0,,He wrote those numbers out according to this ancient map.
+Dialogue: 0,1:05:13.43,1:05:16.68,Dialogue,,0,0,0,,But, so far, no one's been able to piece the puzzle together.
+Dialogue: 0,1:05:17.35,1:05:20.39,Dialogue,,0,0,0,,So, it was created 300 years ago,
+Dialogue: 0,1:05:20.39,1:05:22.85,Dialogue,,0,0,0,,by Anne Bonny herself.
+Dialogue: 0,1:05:23.39,1:05:24.44,Dialogue,,0,0,0,,Yes.
+Dialogue: 0,1:05:24.44,1:05:26.31,Dialogue,,0,0,0,,So we will find the real treasure
+Dialogue: 0,1:05:26.31,1:05:28.77,Dialogue,,0,0,0,,If we manage to solve the riddle?
+Dialogue: 0,1:05:29.36,1:05:31.11,Dialogue,,0,0,0,,Probably.
+Dialogue: 0,1:05:32.86,1:05:36.95,Dialogue,,0,0,0,,There were no addresses here 300 years ago.
+Dialogue: 0,1:05:36.95,1:05:40.04,Dialogue,,0,0,0,,The easiest way to solve this code would be to use the alphabet.
+Dialogue: 0,1:05:40.04,1:05:42.04,Dialogue,,0,0,0,,So, the number five means...
+Dialogue: 0,1:05:42.08,1:05:42.91,Dialogue,,0,0,0,,Five means...
+Dialogue: 0,1:05:43.00,1:05:44.67,Dialogue,,0,0,0,,A, B, C, D, E...
+Dialogue: 0,1:05:44.67,1:05:45.08,Dialogue,,0,0,0,,It's "E"!
+Dialogue: 0,1:05:45.08,1:05:45.54,Dialogue,,0,0,0,,That's right!
+Dialogue: 0,1:05:48.92,1:05:50.50,Dialogue,,0,0,0,,Seven is "G"!
+Dialogue: 0,1:05:50.50,1:05:51.42,Dialogue,,0,0,0,,12 is...
+Dialogue: 0,1:05:51.42,1:05:51.63,Dialogue,,0,0,0,,A,
+Dialogue: 0,1:05:51.63,1:05:51.84,Dialogue,,0,0,0,,A, B,
+Dialogue: 0,1:05:51.84,1:05:52.13,Dialogue,,0,0,0,,A, B, C,
+Dialogue: 0,1:05:52.13,1:05:52.42,Dialogue,,0,0,0,,A, B, C, D,
+Dialogue: 0,1:05:52.42,1:05:52.67,Dialogue,,0,0,0,,A, B, C, D, E,
+Dialogue: 0,1:05:52.67,1:05:52.88,Dialogue,,0,0,0,,A, B, C, D, E, F,
+Dialogue: 0,1:05:52.88,1:05:53.17,Dialogue,,0,0,0,,A, B, C, D, E, F, G,
+Dialogue: 0,1:05:53.17,1:05:53.51,Dialogue,,0,0,0,,A, B, C, D, E, F, G, H,
+Dialogue: 0,1:05:53.51,1:05:53.76,Dialogue,,0,0,0,,A, B, C, D, E, F, G, H, I,
+Dialogue: 0,1:05:53.76,1:05:54.09,Dialogue,,0,0,0,,A, B, C, D, E, F, G, H, I, J,
+Dialogue: 0,1:05:54.09,1:05:54.30,Dialogue,,0,0,0,,A, B, C, D, E, F, G, H, I, J, K,
+Dialogue: 0,1:05:54.30,1:05:55.59,Dialogue,,0,0,0,,A, B, C, D, E, F, G, H, I, J, K, um...
+Dialogue: 0,1:05:56.05,1:05:57.72,Dialogue,,0,0,0,,The 12th letter is "L".
+Dialogue: 0,1:05:57.72,1:05:58.39,Dialogue,,0,0,0,,It's "L"!
+Dialogue: 0,1:06:12.40,1:06:14.24,Dialogue,,0,0,0,,These are all the letters.
+Dialogue: 0,1:06:14.24,1:06:15.82,Dialogue,,0,0,0,,The red letters are on top,
+Dialogue: 0,1:06:15.82,1:06:19.49,Dialogue,,0,0,0,,and the blue letters are on the bottom.
+Dialogue: 0,1:06:19.49,1:06:21.66,Dialogue,,0,0,0,,Now, we just have to unscramble them.
+Dialogue: 0,1:06:21.66,1:06:23.12,Dialogue,,0,0,0,,Is it a name?
+Dialogue: 0,1:06:23.12,1:06:25.54,Dialogue,,0,0,0,,Red could be their last name, and blue could be their first name.
+Dialogue: 0,1:06:26.08,1:06:27.29,Dialogue,,0,0,0,,That's possible.
+Dialogue: 0,1:06:29.38,1:06:32.09,Dialogue,,0,0,0,,Do you think it's related to the two pirates?
+Dialogue: 0,1:06:32.55,1:06:34.21,Dialogue,,0,0,0,,Probably.
+Dialogue: 0,1:06:34.21,1:06:37.68,Dialogue,,0,0,0,,Look, look! This looks like a name!
+Dialogue: 0,1:06:40.72,1:06:42.68,Dialogue,,0,0,0,,It's... "Jolly"?
+Dialogue: 0,1:06:43.72,1:06:44.89,Thoughts,,0,0,0,,{\be10}"Jolly..."?
+Dialogue: 0,1:06:58.28,1:06:59.57,Dialogue,,0,0,0,,Girls, hurry and escape!
+Dialogue: 0,1:07:05.41,1:07:06.62,Dialogue,,0,0,0,,Don't move!
+Dialogue: 0,1:07:08.42,1:07:09.62,Dialogue,,0,0,0,,Ran!
+Dialogue: 0,1:07:09.96,1:07:13.34,Dialogue,,0,0,0,,So, you know karate, miss?
+Dialogue: 0,1:07:13.34,1:07:16.42,Dialogue,,0,0,0,,But, if you don't listen to me, your friend's going to die.
+Dialogue: 0,1:07:36.15,1:07:37.74,Dialogue,,0,0,0,,This is our boat...
+Dialogue: 0,1:07:38.40,1:07:40.41,Dialogue,,0,0,0,,Why is it here?
+Dialogue: 0,1:07:40.41,1:07:42.95,Dialogue,,0,0,0,,I asked your boss, the owner, to prepare it for me.
+Dialogue: 0,1:07:43.83,1:07:45.58,Dialogue,,0,0,0,,Money talks, doesn't it...?
+Dialogue: 0,1:07:45.58,1:07:47.70,Dialogue,,0,0,0,,N-No way...
+Dialogue: 0,1:07:47.70,1:07:49.16,Dialogue,,0,0,0,,You're of no use to me anymore.
+Dialogue: 0,1:07:52.13,1:07:54.04,Dialogue,,0,0,0,,We don't have enough air tanks.
+Dialogue: 0,1:07:54.04,1:07:55.13,Dialogue,,0,0,0,,Kimiko{\rHonorifics - Dialogue}-san{\r}!
+Dialogue: 0,1:07:55.13,1:07:56.21,Dialogue,,0,0,0,,Don't move!
+Dialogue: 0,1:07:56.21,1:07:57.63,Dialogue,,0,0,0,,Bitch, stop moving!
+Dialogue: 0,1:07:59.09,1:08:00.93,Dialogue,,0,0,0,,Come on, come on! Get on the boat!
+Dialogue: 0,1:08:04.76,1:08:08.31,Dialogue,,0,0,0,,Why do I such at this...
+Dialogue: 0,1:08:08.31,1:08:09.98,Dialogue,,0,0,0,,Well, how about this?
+Dialogue: 0,1:08:09.98,1:08:11.77,Dialogue,,0,0,0,,How do you read that?
+Dialogue: 0,1:08:12.06,1:08:13.61,Dialogue,,0,0,0,,I think it's pronounced "Groe"...
+Dialogue: 0,1:08:14.19,1:08:15.57,Dialogue,,0,0,0,,Is it "Jolly Groe"?
+Dialogue: 0,1:08:15.57,1:08:16.44,Dialogue,,0,0,0,,No...
+Dialogue: 0,1:08:21.53,1:08:22.66,Dialogue,,0,0,0,,It's "Roger".
+Dialogue: 0,1:08:23.16,1:08:24.57,Dialogue,,0,0,0,,"Jolly Roger!"
+Dialogue: 0,1:08:25.78,1:08:27.24,Dialogue,,0,0,0,,"Jolly Roger?"
+Dialogue: 0,1:08:27.24,1:08:28.29,Dialogue,,0,0,0,,Who is that?
+Dialogue: 0,1:08:28.29,1:08:29.83,Dialogue,,0,0,0,,Is that a famous pirate or something?
+Dialogue: 0,1:08:30.58,1:08:33.50,Dialogue,,0,0,0,,The direct translation would be "Happy Roger", right?
+Dialogue: 0,1:08:34.08,1:08:36.04,Dialogue,,0,0,0,,"Jolly Roger"...
+Dialogue: 0,1:08:36.04,1:08:40.63,Dialogue,,0,0,0,,It's something that sailors in the 17th century never wanted to see.
+Dialogue: 0,1:08:41.17,1:08:45.85,Dialogue,,0,0,0,,The name consist of "Jolly Rouge", which means "Red Flag",
+Dialogue: 0,1:08:45.85,1:08:48.81,Dialogue,,0,0,0,,and "Old Roger", which means "Demon".
+Dialogue: 0,1:08:49.10,1:08:50.06,Dialogue,,0,0,0,,"Red Flag?"
+Dialogue: 0,1:08:50.06,1:08:51.23,Dialogue,,0,0,0,,"Demon?"
+Dialogue: 0,1:08:52.98,1:08:54.27,Dialogue,,0,0,0,,Yes,
+Dialogue: 0,1:08:54.27,1:08:57.27,Dialogue,,0,0,0,,The "Jolly Roger" the puzzle is referring to...
+Dialogue: 0,1:08:57.27,1:08:59.23,Dialogue,,0,0,0,,is the pirate flag on the map.
+Dialogue: 0,1:08:59.23,1:09:01.53,Dialogue,,0,0,0,,Amazing, Conan{\rHonorifics - Dialogue}-kun{\r}!
+Dialogue: 0,1:09:03.78,1:09:04.87,Dialogue,,0,0,0,,Well done.
+Dialogue: 0,1:09:08.12,1:09:09.20,Dialogue,,0,0,0,,What's this?
+Dialogue: 0,1:09:09.20,1:09:16.67,Dialogue,,0,0,0,,300 years ago, a sailor drew this as they were passing through on a ship bound for Spain.
+Dialogue: 0,1:09:17.29,1:09:20.80,Dialogue,,0,0,0,,This island has since sunk into the sea.
+Dialogue: 0,1:09:20.80,1:09:24.01,Dialogue,,0,0,0,,I heard it was due to methane hydrate.
+Dialogue: 0,1:09:27.01,1:09:32.27,Flashback,,0,0,0,,{\be10}Yorioya Island used to be exposed above water.
+Dialogue: 0,1:09:32.27,1:09:37.36,Flashback,,0,0,0,,{\be10}Three hundred years ago, earthquakes caused it to sink into the ocean depths.
+Dialogue: 0,1:09:45.82,1:09:47.62,Dialogue,,0,0,0,,Yorioya Island?
+Dialogue: 0,1:09:47.62,1:09:49.41,Dialogue,,0,0,0,,Does that mean there's treasure on that island?
+Dialogue: 0,1:09:49.41,1:09:51.29,Dialogue,,0,0,0,,Yeah, most likely.
+Dialogue: 0,1:09:51.87,1:09:54.00,Dialogue,,0,0,0,,But there must be something else,
+Dialogue: 0,1:09:54.00,1:09:57.71,Dialogue,,0,0,0,,something that gives a better hint.
+Dialogue: 0,1:09:58.88,1:10:00.42,Dialogue,,0,0,0,,What is it, Conan?
+Dialogue: 0,1:10:00.42,1:10:02.09,Dialogue,,0,0,0,,Did you find something?
+Dialogue: 0,1:10:02.09,1:10:05.01,Dialogue,,0,0,0,,This pirate flag drawn on the ancient map...
+Dialogue: 0,1:10:06.05,1:10:07.72,Dialogue,,0,0,0,,The skull's teeth...
+Dialogue: 0,1:10:08.05,1:10:10.01,Dialogue,,0,0,0,,... don't you think they look like letters?
+Dialogue: 0,1:10:13.85,1:10:15.44,Dialogue,,0,0,0,,You're right,
+Dialogue: 0,1:10:15.44,1:10:17.15,Dialogue,,0,0,0,,They look like letters from the alphabet!
+Dialogue: 0,1:10:17.90,1:10:21.23,Dialogue,,0,0,0,,The top row is D-O-S.
+Dialogue: 0,1:10:21.23,1:10:26.32,Dialogue,,0,0,0,,The bottom row is D-I-O-S-A-S.
+Dialogue: 0,1:10:27.03,1:10:28.78,Dialogue,,0,0,0,,What does it mean?
+Dialogue: 0,1:10:28.78,1:10:30.03,Dialogue,,0,0,0,,It says "Dos Diosas".
+Dialogue: 0,1:10:31.08,1:10:34.54,Signs,,0,0,0,,It means "Two goddesses in Spanish".
+Dialogue: 0,1:10:30.58,1:10:35.25,Signs,,0,0,0,,Two goddesses
+Dialogue: 0,1:10:35.25,1:10:36.54,Dialogue,,0,0,0,,Amazing!
+Dialogue: 0,1:10:36.87,1:10:38.58,Dialogue,,0,0,0,,As expected of you, Haibara{\rHonorifics - Dialogue}-san{\r}!
+Dialogue: 0,1:10:39.00,1:10:40.88,Dialogue,,0,0,0,,So, is that it?
+Dialogue: 0,1:10:40.88,1:10:43.05,Dialogue,,0,0,0,,We should go to the island to take a look.
+Dialogue: 0,1:10:43.05,1:10:47.05,Dialogue,,0,0,0,,But, aren't the treasure hunters looking for treasure in the ocean?
+Dialogue: 0,1:10:47.05,1:10:49.43,Dialogue,,0,0,0,,So, that must mean the treasure is underwater.
+Dialogue: 0,1:10:49.43,1:10:54.31,Dialogue,,0,0,0,,No, there would have been a hint about the ocean\Nif it was really underwater.
+Dialogue: 0,1:10:54.31,1:10:57.27,Dialogue,,0,0,0,,Not to mention, Poseidon is the {\i1}male{\i0} god of the sea.
+Dialogue: 0,1:10:57.60,1:11:01.06,Dialogue,,0,0,0,,They're probably looking for another way to get in.
+Dialogue: 0,1:11:02.61,1:11:06.90,Dialogue,,0,0,0,,The entrance of the two goddesses collapsed because of the landslide,
+Dialogue: 0,1:11:07.15,1:11:10.16,Dialogue,,0,0,0,,and no adult can pass through.
+Dialogue: 0,1:11:10.87,1:11:12.87,Dialogue,,0,0,0,,So they must have found another entrance somewhere...
+Dialogue: 0,1:11:13.45,1:11:16.33,Dialogue,,0,0,0,,That's why even with the police here investigating,
+Dialogue: 0,1:11:16.33,1:11:20.04,Dialogue,,0,0,0,,they risked stealing the cutlass and the pistol anyway.
+Dialogue: 0,1:11:24.34,1:11:25.88,Dialogue,,0,0,0,,The girl from the diving shop!
+Dialogue: 0,1:11:27.47,1:11:28.80,Dialogue,,0,0,0,,What happened?
+Dialogue: 0,1:11:30.09,1:11:31.76,Dialogue,,0,0,0,,Where's Mouri{\rHonorifics - Dialogue}-san{\r}?
+Dialogue: 0,1:11:31.76,1:11:33.10,Dialogue,,0,0,0,,He's not here.
+Dialogue: 0,1:11:33.10,1:11:34.89,Dialogue,,0,0,0,,He should be at the police station right now.
+Dialogue: 0,1:11:34.89,1:11:37.35,Dialogue,,0,0,0,,Ran{\rHonorifics - Dialogue}-chan{\r} and Sonoko{\rHonorifics - Dialogue}-chan{\r} have been kidnapped.
+Dialogue: 0,1:11:38.18,1:11:39.39,Dialogue,,0,0,0,,They were taken away by boat.
+Dialogue: 0,1:11:39.39,1:11:41.73,Dialogue,,0,0,0,,Who? Who kidnapped them?
+Dialogue: 0,1:11:43.02,1:11:46.19,Dialogue,,0,0,0,,Matsumoto, the treasure hunter.
+Dialogue: 0,1:11:47.65,1:11:50.11,Dialogue,,0,0,0,,They must be going to Yorioya Island!
+Dialogue: 0,1:11:50.86,1:11:54.41,Dialogue,,0,0,0,,You guys, hurry and inform Uncle and the police.
+Dialogue: 0,1:11:54.41,1:11:55.20,Dialogue,,0,0,0,,Got it.
+Dialogue: 0,1:12:02.25,1:12:03.59,Dialogue,,0,0,0,,Be careful.
+Dialogue: 0,1:12:03.59,1:12:04.38,Dialogue,,0,0,0,,Yep.
+Dialogue: 0,1:12:11.05,1:12:12.39,Dialogue,,0,0,0,,Uncle,
+Dialogue: 0,1:12:13.55,1:12:15.14,Dialogue,,0,0,0,,Can you take me out to sea?
+Dialogue: 0,1:12:15.14,1:12:17.56,Dialogue,,0,0,0,,I need you to get me to that island.
+Dialogue: 0,1:12:17.56,1:12:18.64,Dialogue,,0,0,0,,What?
+Dialogue: 0,1:12:18.98,1:12:21.14,Dialogue,,0,0,0,,Not to find the treasure.
+Dialogue: 0,1:12:21.14,1:12:23.31,Dialogue,,0,0,0,,I want to save Ran{\rHonorifics - Dialogue}-neechan{\r} and her friend.
+Dialogue: 0,1:12:24.61,1:12:26.19,Dialogue,,0,0,0,,Shinichi!
+Dialogue: 0,1:12:27.28,1:12:28.40,Dialogue,,0,0,0,,Conan{\rHonorifics - Dialogue}-kun{\r},
+Dialogue: 0,1:12:28.40,1:12:30.78,Dialogue,,0,0,0,,I heard that Ran{\rHonorifics - Dialogue}-kun{\r} was kidnapped.
+Dialogue: 0,1:12:30.78,1:12:31.78,Dialogue,,0,0,0,,Yeah.
+Dialogue: 0,1:12:33.32,1:12:36.28,Dialogue,,0,0,0,,I know you're going to go save her, even if I tried to stop you.
+Dialogue: 0,1:12:37.29,1:12:40.16,Dialogue,,0,0,0,,Hold on a second before you go. I want to give you something.
+Dialogue: 0,1:12:40.16,1:12:42.71,Dialogue,,0,0,0,,I'll get the boat ready.
+Dialogue: 0,1:12:43.08,1:12:44.08,Dialogue,,0,0,0,,Got it.
+Dialogue: 0,1:12:48.38,1:12:50.76,Dialogue,,0,0,0,,Take these with you.
+Dialogue: 0,1:12:50.76,1:12:52.76,Dialogue,,0,0,0,,These are mini-air tanks.
+Dialogue: 0,1:12:52.76,1:12:56.89,Dialogue,,0,0,0,,Just pull, put in your mouth, you'll get 10 min worth of oxygen.
+Dialogue: 0,1:12:56.89,1:12:59.18,Dialogue,,0,0,0,,Unfortunately, I only have two of them with me.
+Dialogue: 0,1:12:59.18,1:13:01.27,Dialogue,,0,0,0,,So, save them for when you really need one.
+Dialogue: 0,1:13:02.19,1:13:03.77,Dialogue,,0,0,0,,Thank you, professor.
+Dialogue: 0,1:13:10.53,1:13:13.36,Dialogue,,0,0,0,,The two of you can share one air tank.
+Dialogue: 0,1:13:13.36,1:13:16.37,Dialogue,,0,0,0,,You don't need us anymore! why don't you let us go?
+Dialogue: 0,1:13:16.37,1:13:19.37,Dialogue,,0,0,0,,There's just one last thing I need from you...
+Dialogue: 0,1:13:21.75,1:13:23.08,Dialogue,,0,0,0,,Hurry and get everything ready!
+Dialogue: 0,1:13:34.59,1:13:36.05,Thoughts,,0,0,0,,{\be10}Could it be...
+Dialogue: 0,1:13:37.51,1:13:38.89,Dialogue,,0,0,0,,Sonoko!
+Dialogue: 0,1:13:41.06,1:13:43.48,Dialogue,,0,0,0,,It's your turn, miss.
+Dialogue: 0,1:13:43.48,1:13:45.90,Dialogue,,0,0,0,,What exactly do you want us to do?
+Dialogue: 0,1:13:45.90,1:13:48.52,Dialogue,,0,0,0,,Don't worry, your turn's next.
+Dialogue: 0,1:13:52.36,1:13:53.78,Dialogue,,0,0,0,,What?
+Dialogue: 0,1:13:53.78,1:13:56.49,Dialogue,,0,0,0,,Ran and her friend were really kidnapped by Matsumoto?
+Dialogue: 0,1:13:56.49,1:13:58.24,Dialogue,,0,0,0,,Where did they go?
+Dialogue: 0,1:13:58.24,1:14:00.24,Dialogue,,0,0,0,,They went to an island, and island!
+Dialogue: 0,1:14:00.24,1:14:01.58,Dialogue,,0,0,0,,It's called Yorioya Island.
+Dialogue: 0,1:14:01.58,1:14:05.83,Dialogue,,0,0,0,,They figured out where the treasure is, and are going to get it now!
+Dialogue: 0,1:14:05.83,1:14:07.29,Dialogue,,0,0,0,,Get ready to head out to the sea.
+Dialogue: 0,1:14:07.29,1:14:08.96,Dialogue,,0,0,0,,I'm going to save them!
+Dialogue: 0,1:14:08.96,1:14:10.38,Dialogue,,0,0,0,,Yes, sir!
+Dialogue: 0,1:14:14.76,1:14:18.39,Dialogue,,0,0,0,,But, why did they take hostages with them?
+Dialogue: 0,1:14:18.39,1:14:21.93,Dialogue,,0,0,0,,A hostage would only get in their way of finding the treasure.
+Dialogue: 0,1:14:21.93,1:14:23.27,Dialogue,,0,0,0,,They have some other use for them.
+Dialogue: 0,1:14:23.27,1:14:24.98,Dialogue,,0,0,0,,Another use?
+Dialogue: 0,1:14:24.98,1:14:28.15,Dialogue,,0,0,0,,They were both injured by that rifle shot last night.
+Dialogue: 0,1:14:28.98,1:14:33.69,Dialogue,,0,0,0,,The place they're going now is the same\Nspot that the sharks attacked yesterday.
+Dialogue: 0,1:14:34.19,1:14:36.32,Dialogue,,0,0,0,,They're going to be used as bait?!?
+Dialogue: 0,1:14:36.32,1:14:37.61,Dialogue,,0,0,0,,Most likely.
+Dialogue: 0,1:14:47.04,1:14:48.29,Dialogue,,0,0,0,,There it is!
+Dialogue: 0,1:15:04.39,1:15:05.56,Thoughts,,0,0,0,,{\be10}I knew it.
+Dialogue: 0,1:15:06.48,1:15:08.77,Dialogue,,0,0,0,,What should we do! there's not much time left.
+Dialogue: 0,1:15:09.10,1:15:10.65,Dialogue,,0,0,0,,Continue on to Yorioya Island.
+Dialogue: 0,1:15:10.65,1:15:11.73,Dialogue,,0,0,0,,What?!?
+Dialogue: 0,1:15:12.19,1:15:15.28,Dialogue,,0,0,0,,I'm small enough to get through the entrance of the Two goddesses.
+Dialogue: 0,1:17:24.36,1:17:25.16,Thoughts,,0,0,0,,{\be10}Not good...
+Dialogue: 0,1:18:10.12,1:18:11.62,Dialogue,,0,0,0,,Impressive.
+Dialogue: 0,1:18:11.62,1:18:13.79,Dialogue,,0,0,0,,I can't believe you're still alive.
+Dialogue: 0,1:18:13.79,1:18:16.67,Dialogue,,0,0,0,,Take these torches,
+Dialogue: 0,1:18:16.67,1:18:18.38,Dialogue,,0,0,0,,or you won't be able to see anything inside the dark cavern.
+Dialogue: 0,1:18:18.96,1:18:21.71,Dialogue,,0,0,0,,You'll only die if you stay here.
+Dialogue: 0,1:18:26.18,1:18:27.84,Dialogue,,0,0,0,,Keep moving!
+Dialogue: 0,1:18:28.93,1:18:30.22,Dialogue,,0,0,0,,Stop pushing me!
+Dialogue: 0,1:18:34.10,1:18:35.02,Dialogue,,0,0,0,,This is...
+Dialogue: 0,1:18:35.81,1:18:38.77,Dialogue,,0,0,0,,We've already been here a lot of times.
+Dialogue: 0,1:18:38.77,1:18:43.48,Dialogue,,0,0,0,,We just {\i1}have{\i0} to find Anne Bonny and Mary Read's treasure today.
+Dialogue: 0,1:18:44.57,1:18:47.24,Dialogue,,0,0,0,,You two, stay here. And don't you dare think of running away, either...
+Dialogue: 0,1:18:52.95,1:18:56.29,Dialogue,,0,0,0,,There's a small temple straight ahead of you on that path.
+Dialogue: 0,1:18:56.66,1:18:59.38,Dialogue,,0,0,0,,with statues of two goddesses by it.
+Dialogue: 0,1:18:59.38,1:19:00.75,Dialogue,,0,0,0,,The entrance is behind them.
+Dialogue: 0,1:19:00.75,1:19:01.88,Dialogue,,0,0,0,,Got it!
+Dialogue: 0,1:19:01.88,1:19:03.76,Dialogue,,0,0,0,,You can only stay for 30 minutes,
+Dialogue: 0,1:19:03.76,1:19:06.05,Dialogue,,0,0,0,,or the boat will be gone, and you won't be able to get back.
+Dialogue: 0,1:19:06.09,1:19:07.59,Dialogue,,0,0,0,,Thanks!
+Dialogue: 0,1:19:07.59,1:19:10.80,Dialogue,,0,0,0,,I'll go save Ran{\rHonorifics - Dialogue}-neechan{\r} and Sonoko{\rHonorifics - Dialogue}-neechan{\r} now!
+Dialogue: 0,1:19:17.44,1:19:20.02,Dialogue,,0,0,0,,Anne Bonny and Mary Read, huh?
+Dialogue: 0,1:19:37.12,1:19:38.54,Thoughts,,0,0,0,,{\be10}This is weird...
+Dialogue: 0,1:19:38.54,1:19:40.37,Thoughts,,0,0,0,,{\be10}An adult should be able to fit through this...
+Dialogue: 0,1:19:40.67,1:19:44.84,Flashback,,0,0,0,,{\be10}Last week, an earthquake caused a landslide which blocked the road.
+Dialogue: 0,1:19:45.46,1:19:46.84,Thoughts,,0,0,0,,{\be10}I see.
+Dialogue: 0,1:19:46.84,1:19:48.88,Thoughts,,0,0,0,,{\be10}The earthquake made the entrance bigger.
+Dialogue: 0,1:19:52.09,1:19:53.64,Dialogue,,0,0,0,,Could they have taken Ran and...
+Dialogue: 0,1:19:54.01,1:19:57.23,Dialogue,,0,0,0,,No, since they bothered to take them all the way here, I don't think they would kill them.
+Dialogue: 0,1:19:57.23,1:19:58.35,Dialogue,,0,0,0,,But, what if...?
+Dialogue: 0,1:19:58.35,1:20:02.23,Dialogue,,0,0,0,,What we do know is that Matsumoto was shot by a rifle last night.
+Dialogue: 0,1:20:04.15,1:20:05.48,Dialogue,,0,0,0,,If they dive,
+Dialogue: 0,1:20:05.48,1:20:08.61,Dialogue,,0,0,0,,the smell of blood would attract sharks.
+Dialogue: 0,1:20:08.61,1:20:09.65,Dialogue,,0,0,0,,So, what does that mean?
+Dialogue: 0,1:20:10.91,1:20:14.45,Dialogue,,0,0,0,,I means Ran{\rHonorifics - Dialogue}-san{\r} and her friend might be used as bait.
+Dialogue: 0,1:20:16.79,1:20:18.29,Dialogue,,0,0,0,,Wait a minute, Mouri{\rHonorifics - Dialogue}-san{\r}!
+Dialogue: 0,1:20:18.29,1:20:19.16,Dialogue,,0,0,0,,What are you doing?
+Dialogue: 0,1:20:19.16,1:20:21.71,Dialogue,,0,0,0,,Let go of me! I can't just leave Ran in the hands of some scum-bags!
+Dialogue: 0,1:20:21.71,1:20:23.29,Dialogue,,0,0,0,,It's impossible, Mouri{\rHonorifics - Dialogue}-san{\r}!
+Dialogue: 0,1:20:23.29,1:20:25.42,Dialogue,,0,0,0,,The storm's getting worse!
+Dialogue: 0,1:20:25.42,1:20:27.46,Dialogue,,0,0,0,,Shut up! Let me go!
+Dialogue: 0,1:20:27.46,1:20:28.51,Dialogue,,0,0,0,,I'm sorry I have to do this, but...
+Dialogue: 0,1:20:34.18,1:20:35.89,Dialogue,,0,0,0,,What should we do now?
+Dialogue: 0,1:20:36.43,1:20:38.47,Dialogue,,0,0,0,,We have to go back for now.
+Dialogue: 0,1:20:38.47,1:20:40.14,Dialogue,,0,0,0,,I have a bad feeling about this, though.
+Dialogue: 0,1:20:46.11,1:20:49.36,Dialogue,,0,0,0,,Hurry and come inside. It's really dangerous out here.
+Dialogue: 0,1:20:49.36,1:20:51.70,Dialogue,,0,0,0,,But, they're in danger right now,
+Dialogue: 0,1:20:51.70,1:20:55.32,Dialogue,,0,0,0,,Conan{\rHonorifics - Dialogue}-kun{\r}, Ran{\rHonorifics - Dialogue}-oneesan{\r}, and Sonoko{\rHonorifics - Dialogue}-neesan{\r}.
+Dialogue: 0,1:20:55.32,1:20:56.16,Dialogue,,0,0,0,,Yeah.
+Dialogue: 0,1:20:56.16,1:20:56.99,Dialogue,,0,0,0,,That's right.
+Dialogue: 0,1:21:04.79,1:21:06.54,Dialogue,,0,0,0,,The water level's gone down some.
+Dialogue: 0,1:21:06.54,1:21:08.30,Dialogue,,0,0,0,,The tide is ebbing right now.
+Dialogue: 0,1:21:08.30,1:21:09.84,Dialogue,,0,0,0,,Are we going into that cave?
+Dialogue: 0,1:21:09.84,1:21:11.72,Dialogue,,0,0,0,,That's right.
+Dialogue: 0,1:21:11.72,1:21:15.26,Dialogue,,0,0,0,,It's a shortcut to the treasure.
+Dialogue: 0,1:21:15.26,1:21:18.47,Dialogue,,0,0,0,,Okay, bring two air tanks.
+Dialogue: 0,1:21:35.78,1:21:39.37,Dialogue,,0,0,0,,So, the legend of the pirates was true...
+Dialogue: 0,1:21:39.66,1:21:41.08,Dialogue,,0,0,0,,I guess so...
+Dialogue: 0,1:21:56.22,1:21:57.97,Dialogue,,0,0,0,,Put the air tanks down. You're going in first.
+Dialogue: 0,1:21:59.14,1:22:00.01,Dialogue,,0,0,0,,But...
+Dialogue: 0,1:22:00.01,1:22:01.43,Dialogue,,0,0,0,,Shut up, and get moving!
+Dialogue: 0,1:22:13.82,1:22:15.95,Dialogue,,0,0,0,,Bones! Bones! Bones!
+Dialogue: 0,1:22:17.53,1:22:19.74,Dialogue,,0,0,0,,Looks like everything's safe this time around.
+Dialogue: 0,1:22:20.79,1:22:22.04,Dialogue,,0,0,0,,The gas is gone...
+Dialogue: 0,1:22:22.04,1:22:22.91,Dialogue,,0,0,0,,Gas?
+Dialogue: 0,1:22:22.91,1:22:27.00,Dialogue,,0,0,0,,This place is full of gas when the wind isn't blowing as hard.
+Dialogue: 0,1:22:27.58,1:22:29.59,Dialogue,,0,0,0,,That's why you told us to go first?
+Dialogue: 0,1:22:30.29,1:22:33.55,Dialogue,,0,0,0,,Why else would we need you here?
+Dialogue: 0,1:22:33.55,1:22:34.42,Dialogue,,0,0,0,,Hurry, and keep going.
+Dialogue: 0,1:22:43.47,1:22:44.77,Dialogue,,0,0,0,,What?
+Dialogue: 0,1:22:44.77,1:22:45.98,Dialogue,,0,0,0,,This is it!
+Dialogue: 0,1:22:48.65,1:22:50.11,Dialogue,,0,0,0,,We finally found it!
+Dialogue: 0,1:22:53.40,1:22:55.19,Dialogue,,0,0,0,,What an idiot...
+Dialogue: 0,1:22:55.19,1:22:57.70,Dialogue,,0,0,0,,Who asked you to put this in to open it?
+Dialogue: 0,1:22:57.70,1:22:59.45,Dialogue,,0,0,0,,That's why you died.
+Dialogue: 0,1:23:00.20,1:23:01.45,Dialogue,,0,0,0,,You need to use this.
+Dialogue: 0,1:23:13.96,1:23:15.42,Dialogue,,0,0,0,,You, open it!
+Dialogue: 0,1:23:15.42,1:23:16.55,Dialogue,,0,0,0,,Me?
+Dialogue: 0,1:23:16.55,1:23:17.97,Dialogue,,0,0,0,,Let me do it.
+Dialogue: 0,1:23:29.35,1:23:30.40,Dialogue,,0,0,0,,Ran!
+Dialogue: 0,1:23:30.40,1:23:32.61,Dialogue,,0,0,0,,Shit, it's not working after all?
+Dialogue: 0,1:23:41.82,1:23:43.33,Dialogue,,0,0,0,,Just give it up, already!
+Dialogue: 0,1:23:45.08,1:23:47.87,Dialogue,,0,0,0,,So that's what it is.
+Dialogue: 0,1:23:47.87,1:23:49.17,Dialogue,,0,0,0,,Do you know how to open it?
+Dialogue: 0,1:23:49.17,1:23:53.71,Dialogue,,0,0,0,,Anne and Mary always fought back-to-back.
+Dialogue: 0,1:23:53.71,1:23:55.13,Dialogue,,0,0,0,,Which means...
+Dialogue: 0,1:23:56.13,1:23:57.80,Dialogue,,0,0,0,,...they should be put this way.
+Dialogue: 0,1:24:15.52,1:24:17.69,Dialogue,,0,0,0,,We found it, we found it!
+Dialogue: 0,1:24:21.24,1:24:22.66,Dialogue,,0,0,0,,Give me the torch!
+Dialogue: 0,1:24:42.34,1:24:43.68,Dialogue,,0,0,0,,It's amazing...
+Dialogue: 0,1:24:43.68,1:24:44.60,Dialogue,,0,0,0,,The treasure...
+Dialogue: 0,1:24:44.60,1:24:45.89,Dialogue,,0,0,0,,Where's the treasure?!
+Dialogue: 0,1:24:49.06,1:24:50.77,Dialogue,,0,0,0,,Be patient!
+Dialogue: 0,1:24:51.98,1:24:54.11,Dialogue,,0,0,0,,Ran, what should we do now?
+Dialogue: 0,1:24:54.11,1:24:56.19,Dialogue,,0,0,0,,We could run away now,
+Dialogue: 0,1:24:56.19,1:24:59.44,Dialogue,,0,0,0,,but we don't have an air tank, so we'd drown\Nbefore ever getting to the surface.
+Dialogue: 0,1:24:59.74,1:25:00.74,Dialogue,,0,0,0,,You're right.
+Dialogue: 0,1:25:01.28,1:25:04.41,Dialogue,,0,0,0,,So, we just have to try and hold them on\Nuntil someone comes and saves us.
+Dialogue: 0,1:25:04.41,1:25:05.62,Dialogue,,0,0,0,,That's right.
+Dialogue: 0,1:25:11.54,1:25:12.67,Dialogue,,0,0,0,,There's wind.
+Dialogue: 0,1:25:12.67,1:25:13.54,Dialogue,,0,0,0,,There's an opening around here!
+Dialogue: 0,1:25:14.29,1:25:15.08,Dialogue,,0,0,0,,Dammit!
+Dialogue: 0,1:25:16.00,1:25:18.67,Dialogue,,0,0,0,,Where is it? Where is this freaking treasure at?
+Dialogue: 0,1:25:18.67,1:25:22.47,Dialogue,,0,0,0,,It's the same for me!\NI can't find even a single piece of treasure anywhere!
+Dialogue: 0,1:25:22.72,1:25:24.30,Dialogue,,0,0,0,,Not even a coin!
+Dialogue: 0,1:25:24.30,1:25:28.26,Dialogue,,0,0,0,,I don't know how, but someone must have gotten here before us.
+Dialogue: 0,1:25:28.26,1:25:30.02,Dialogue,,0,0,0,,Hey, this is different from what we talked about!
+Dialogue: 0,1:25:30.02,1:25:32.85,Dialogue,,0,0,0,,I came all the way here because\Nyou told me there would be treasure!
+Dialogue: 0,1:25:32.85,1:25:34.52,Dialogue,,0,0,0,,Shut up!
+Dialogue: 0,1:25:37.40,1:25:41.61,Dialogue,,0,0,0,,There's no helping it then.\NWe better get out of here before air runs out.
+Dialogue: 0,1:25:41.61,1:25:45.41,Dialogue,,0,0,0,,Yeah, but first, let's get rid of the dead-weight.
+Dialogue: 0,1:25:50.20,1:25:54.54,Dialogue,,0,0,0,,Sorry, but this is how it ends for you.
+Dialogue: 0,1:25:55.29,1:25:56.38,Dialogue,,0,0,0,,Don't come any closer!
+Dialogue: 0,1:25:56.38,1:25:58.50,Dialogue,,0,0,0,,Ran, I trust you to watch my back.
+Dialogue: 0,1:25:58.50,1:26:00.17,Dialogue,,0,0,0,,Be careful, Sonoko!
+Dialogue: 0,1:26:04.55,1:26:05.72,Dialogue,,0,0,0,,Bitch!
+Dialogue: 0,1:26:15.35,1:26:18.19,Dialogue,,0,0,0,,Damn, this woman sure is a fighter.
+Dialogue: 0,1:26:18.94,1:26:20.69,Dialogue,,0,0,0,,Indeed.
+Dialogue: 0,1:26:21.19,1:26:25.45,Dialogue,,0,0,0,,But, no matter how good the are, they can't do anything...
+Dialogue: 0,1:26:25.45,1:26:27.32,Dialogue,,0,0,0,,...against this!
+Dialogue: 0,1:26:29.33,1:26:32.29,Dialogue,,0,0,0,,Always play your trump card last.
+Dialogue: 0,1:26:40.88,1:26:42.42,Dialogue,,0,0,0,,Both of you, get down!
+Dialogue: 0,1:26:51.35,1:26:52.56,Dialogue,,0,0,0,,Are you okay...
+Dialogue: 0,1:26:53.89,1:26:55.68,Dialogue,,0,0,0,,...Ran{\rHonorifics - Dialogue}-neechan{\r}, Sonoko{\rHonorifics - Dialogue}-neechan{\r}?
+Dialogue: 0,1:26:56.35,1:26:58.31,Dialogue,,0,0,0,,What a relief you came, you brave boy!
+Dialogue: 0,1:26:58.31,1:27:00.90,Dialogue,,0,0,0,,But, how did you get all the way down here?
+Dialogue: 0,1:27:00.90,1:27:02.65,Dialogue,,0,0,0,,There's a tunnel that leads here from Yorioya Island.
+Dialogue: 0,1:27:03.53,1:27:07.11,Dialogue,,0,0,0,,So, the pirates' treasure really does exist?
+Dialogue: 0,1:27:08.32,1:27:09.87,Dialogue,,0,0,0,,There's no treasure here.
+Dialogue: 0,1:27:10.24,1:27:13.79,Dialogue,,0,0,0,,They said that it was taken by someone who found this place before us.
+Dialogue: 0,1:27:15.29,1:27:16.83,Dialogue,,0,0,0,,Did you hear that?
+Dialogue: 0,1:27:16.83,1:27:17.87,Dialogue,,0,0,0,,Isn't that a shame?
+Dialogue: 0,1:27:19.08,1:27:21.00,Dialogue,,0,0,0,,You can stop hiding now.
+Dialogue: 0,1:27:21.50,1:27:24.42,Dialogue,,0,0,0,,You were sneaking behind me, and following me all the way down here, weren't you?
+Dialogue: 0,1:27:33.06,1:27:36.43,Dialogue,,0,0,0,,Inspector Megure, we can go out to sea now!
+Dialogue: 0,1:27:36.43,1:27:38.69,Dialogue,,0,0,0,,The wind is dying down now!
+Dialogue: 0,1:27:38.69,1:27:39.77,Dialogue,,0,0,0,,Mouri{\rHonorifics - Dialogue}-san{\r}.
+Dialogue: 0,1:27:39.77,1:27:44.40,Dialogue,,0,0,0,,The weather forecast said that the storm won't stop until morning.
+Dialogue: 0,1:27:44.40,1:27:46.15,Dialogue,,0,0,0,,But... Look...
+Dialogue: 0,1:27:46.15,1:27:48.49,Dialogue,,0,0,0,,The storm is really calming down now.
+Dialogue: 0,1:27:48.49,1:27:50.24,Dialogue,,0,0,0,,Calm down, Mouri{\rHonorifics - Dialogue}-san{\r}.
+Dialogue: 0,1:27:50.24,1:27:52.37,Dialogue,,0,0,0,,How can I calm down?
+Dialogue: 0,1:27:52.37,1:27:54.49,Dialogue,,0,0,0,,Ran has been kidnapped,
+Dialogue: 0,1:27:54.49,1:27:58.58,Dialogue,,0,0,0,,and I have to put my faith in a brat to go save her!
+Dialogue: 0,1:27:58.58,1:28:02.00,Dialogue,,0,0,0,,All the while, we adults have to just sit and do nothing!
+Dialogue: 0,1:28:02.00,1:28:03.04,Dialogue,,0,0,0,,Mouri{\rHonorifics - Dialogue}-kun{\r},
+Dialogue: 0,1:28:03.71,1:28:08.88,Dialogue,,0,0,0,,I understand how you feel, but there's nothing we can do, if we can't go out to sea.
+Dialogue: 0,1:28:10.13,1:28:12.01,Dialogue,,0,0,0,,Once the storm calms,
+Dialogue: 0,1:28:12.01,1:28:14.35,Dialogue,,0,0,0,,We'll go save Ran at once.
+Dialogue: 0,1:28:14.35,1:28:16.14,Dialogue,,0,0,0,,Now, be patient.
+Dialogue: 0,1:28:17.77,1:28:19.14,Dialogue,,0,0,0,,Damn it!
+Dialogue: 0,1:28:22.44,1:28:24.86,Dialogue,,0,0,0,,You can stop hiding now.
+Dialogue: 0,1:28:24.86,1:28:27.48,Dialogue,,0,0,0,,You were sneaking behind me, and following me all the way down here, weren't you?
+Dialogue: 0,1:28:28.03,1:28:29.53,Dialogue,,0,0,0,,Iwanaga{\rHonorifics - Dialogue}-san{\r}.
+Dialogue: 0,1:28:34.12,1:28:35.87,Dialogue,,0,0,0,,Now, now...
+Dialogue: 0,1:28:35.87,1:28:38.25,Dialogue,,0,0,0,,Saying that I was "sneaking" is a little too harsh.
+Dialogue: 0,1:28:38.25,1:28:41.37,Dialogue,,0,0,0,,Just like you, I wanted to save them.
+Dialogue: 0,1:28:41.37,1:28:43.38,Dialogue,,0,0,0,,Then, why are you carrying a rifle with you?
+Dialogue: 0,1:28:43.71,1:28:47.42,Dialogue,,0,0,0,,I heard that they were international fugitives.
+Dialogue: 0,1:28:47.84,1:28:50.92,Dialogue,,0,0,0,,That's the rifle that belongs to Mineo{\rHonorifics - Dialogue}-san{\r}, right?
+Dialogue: 0,1:28:51.47,1:28:53.01,Dialogue,,0,0,0,,N-No...
+Dialogue: 0,1:28:53.01,1:28:56.22,Dialogue,,0,0,0,,You brought the rifle with you because you were afraid of the treasure being stolen.
+Dialogue: 0,1:28:56.22,1:28:58.31,Dialogue,,0,0,0,,This has nothing to do with the treasure!
+Dialogue: 0,1:29:00.56,1:29:01.94,Dialogue,,0,0,0,,Iwanaga{\rHonorifics - Dialogue}-san{\r},
+Dialogue: 0,1:29:02.31,1:29:07.69,Dialogue,,0,0,0,,you told us you thought of all those hints on the cards yourself, right?
+Dialogue: 0,1:29:07.69,1:29:09.11,Dialogue,,0,0,0,,Uh, yeah...
+Dialogue: 0,1:29:09.44,1:29:14.74,Dialogue,,0,0,0,,But I saw the exact same numerical hint in Mima{\rHonorifics - Dialogue}-san{\r}'s house.
+Dialogue: 0,1:29:14.74,1:29:17.33,Dialogue,,0,0,0,,It was on a three-hundred year old map,
+Dialogue: 0,1:29:18.16,1:29:21.08,Dialogue,,0,0,0,,which I heard was left by Anne Bonny herself.
+Dialogue: 0,1:29:22.79,1:29:26.92,Dialogue,,0,0,0,,In other words, you saw that map before, but couldn't figure out its clues.
+Dialogue: 0,1:29:27.63,1:29:31.09,Dialogue,,0,0,0,,So, you used the map's clues to invent a game for tourists who came to the island...
+Dialogue: 0,1:29:31.55,1:29:35.76,Dialogue,,0,0,0,,so they could help you solve the clues, right?
+Dialogue: 0,1:29:35.76,1:29:37.05,Dialogue,,0,0,0,,Oh, yeah!
+Dialogue: 0,1:29:37.05,1:29:40.89,Dialogue,,0,0,0,,You even tried to get my dad to join in the treasure hunt game too!
+Dialogue: 0,1:29:40.89,1:29:41.68,Dialogue,,0,0,0,,I see!
+Dialogue: 0,1:29:41.98,1:29:46.94,Dialogue,,0,0,0,,The probability of a famous detective solving the clues is much higher than a bunch of kids.
+Dialogue: 0,1:29:46.94,1:29:51.03,Dialogue,,0,0,0,,In order to track the movements\Nof the people taking part in the treasure hunt,
+Dialogue: 0,1:29:51.03,1:29:54.15,Dialogue,,0,0,0,,you installed GPS trackers on the rental bikes, right?
+Dialogue: 0,1:29:54.66,1:29:57.70,Dialogue,,0,0,0,,Th-That's because I was worried that those who participated might run into danger.
+Dialogue: 0,1:29:57.70,1:30:01.58,Dialogue,,0,0,0,,If change the numbers on the map into the letters of the alphabet,
+Dialogue: 0,1:30:01.58,1:30:05.17,Dialogue,,0,0,0,,they spell out "Jolly Roger", referring to a pirate flag.
+Dialogue: 0,1:30:05.62,1:30:10.17,Dialogue,,0,0,0,,If you looked at Yorioya island from above, it looked like a skull.
+Dialogue: 0,1:30:10.17,1:30:12.38,Dialogue,,0,0,0,,That's why Anne Bonny left such a hint.
+Dialogue: 0,1:30:12.97,1:30:16.43,Dialogue,,0,0,0,,Also, even the pronunciation of Yorioya Island,
+Dialogue: 0,1:30:16.43,1:30:18.64,Dialogue,,0,0,0,,came from the pronunciation of the words "Jolly Roger".
+Dialogue: 0,1:30:20.10,1:30:23.93,Dialogue,,0,0,0,,I'm sure you already knew about this,
+Dialogue: 0,1:30:23.93,1:30:26.77,Dialogue,,0,0,0,,but there's another meaning behind the "Jolly Roger".
+Dialogue: 0,1:30:26.77,1:30:27.90,Dialogue,,0,0,0,,What is it?
+Dialogue: 0,1:30:28.69,1:30:34.24,Dialogue,,0,0,0,,You know how the real map has the pirate flag, or Jolly Roger, on it?
+Dialogue: 0,1:30:34.24,1:30:37.99,Dialogue,,0,0,0,,The teeth of the skull gave the second hint,
+Dialogue: 0,1:30:38.74,1:30:40.58,Dialogue,,0,0,0,,"Dos Diosas."
+Dialogue: 0,1:30:40.58,1:30:42.87,Dialogue,,0,0,0,,The hint is "Two goddesses".
+Dialogue: 0,1:30:43.54,1:30:44.71,Dialogue,,0,0,0,,Conan{\rHonorifics - Dialogue}-kun{\r}?
+Dialogue: 0,1:30:46.04,1:30:47.04,Dialogue,,0,0,0,,That's right,
+Dialogue: 0,1:30:47.04,1:30:49.84,Dialogue,,0,0,0,,you should have seen it when you followed me just now,
+Dialogue: 0,1:30:50.42,1:30:52.96,Dialogue,,0,0,0,,the temple with the statues of two goddesses.
+Dialogue: 0,1:30:53.51,1:30:55.80,Dialogue,,0,0,0,,That's the entrance.
+Dialogue: 0,1:30:56.93,1:30:58.18,Dialogue,,0,0,0,,I see.
+Dialogue: 0,1:30:58.59,1:31:00.14,Dialogue,,0,0,0,,How did you know?
+Dialogue: 0,1:31:00.85,1:31:02.01,Dialogue,,0,0,0,,Damn it,
+Dialogue: 0,1:31:02.01,1:31:04.18,Dialogue,,0,0,0,,was my guess wrong from the very beginning?
+Dialogue: 0,1:31:07.19,1:31:09.98,Dialogue,,0,0,0,,The rigged BC jacket,
+Dialogue: 0,1:31:09.98,1:31:12.90,Dialogue,,0,0,0,,and the rifle attack on the treasure hunters...
+Dialogue: 0,1:31:12.90,1:31:14.69,Dialogue,,0,0,0,,You did all of those, didn't you?
+Dialogue: 0,1:31:15.07,1:31:17.20,Dialogue,,0,0,0,,There were tire marks left by your bike...
+Dialogue: 0,1:31:17.20,1:31:22.33,Dialogue,,0,0,0,,both behind the cave, and at the place where the bullet shells from the rifle were found.
+Dialogue: 0,1:31:24.91,1:31:28.12,Dialogue,,0,0,0,,I made mistakes that even an grade-schooler noticed...
+Dialogue: 0,1:31:28.92,1:31:30.58,Dialogue,,0,0,0,,It wasn't a grade-schooler.
+Dialogue: 0,1:31:33.46,1:31:35.46,Dialogue,,0,0,0,,Uncle Kogoro told me.
+Dialogue: 0,1:31:35.76,1:31:38.63,Dialogue,,0,0,0,,He told me all this,
+Dialogue: 0,1:31:38.63,1:31:43.39,Dialogue,,0,0,0,,and he noticed how Iwanaga{\rHonorifics - Dialogue}-san{\r} had the smell of gunpowder on him.
+Dialogue: 0,1:31:43.85,1:31:50.23,Dialogue,,0,0,0,,It's probably because it's an old rifle which doesn't work as well, so the gunpowder flies all over the place.
+Dialogue: 0,1:31:50.23,1:31:51.52,Dialogue,,0,0,0,,I get it now.
+Dialogue: 0,1:31:51.52,1:31:52.48,Dialogue,,0,0,0,,I should've known.
+Dialogue: 0,1:31:53.65,1:31:56.19,Dialogue,,0,0,0,,As expected of the famous detective, Mouri Kogoro.
+Dialogue: 0,1:31:59.11,1:32:00.41,Dialogue,,0,0,0,,E-Earthquake?
+Dialogue: 0,1:32:03.53,1:32:04.54,Dialogue,,0,0,0,,It stopped.
+Dialogue: 0,1:32:07.00,1:32:08.79,Dialogue,,0,0,0,,This isn't good! We need to get out of here fast!
+Dialogue: 0,1:32:08.79,1:32:11.08,Dialogue,,0,0,0,,Yeah, let's bring them out.
+Dialogue: 0,1:32:13.92,1:32:15.63,Dialogue,,0,0,0,,Give me a hand, Iwanaga{\rHonorifics - Dialogue}-san{\r}!
+Dialogue: 0,1:32:15.63,1:32:16.63,Dialogue,,0,0,0,,Okay.
+Dialogue: 0,1:32:23.76,1:32:24.81,Dialogue,,0,0,0,,Damn it!
+Dialogue: 0,1:32:25.26,1:32:27.27,Dialogue,,0,0,0,,What should we do? The rock blocked the entrance!
+Dialogue: 0,1:32:29.52,1:32:30.56,Dialogue,,0,0,0,,It's gas!
+Dialogue: 0,1:32:30.85,1:32:32.23,Dialogue,,0,0,0,,Get to the boat!
+Dialogue: 0,1:32:32.65,1:32:33.69,Dialogue,,0,0,0,,Hurry!
+Dialogue: 0,1:32:48.54,1:32:50.54,Thoughts,,0,0,0,,{\be10}Damn, if this continues...
+Dialogue: 0,1:32:50.96,1:32:53.79,Dialogue,,0,0,0,,Conan{\rHonorifics - Dialogue}-kun{\r}, what should we do now?
+Dialogue: 0,1:32:53.79,1:32:57.05,Dialogue,,0,0,0,,Bring them to the cabin, just in case.
+Dialogue: 0,1:32:57.05,1:32:59.92,Dialogue,,0,0,0,,Hook an air tank up to them so they can get some oxygen,
+Dialogue: 0,1:32:59.92,1:33:01.76,Dialogue,,0,0,0,,and don't let them breathe in the gas.
+Dialogue: 0,1:33:02.05,1:33:04.64,Dialogue,,0,0,0,,Ran{\rHonorifics - Dialogue}-neechan{\r}, you two could use these.
+Dialogue: 0,1:33:05.76,1:33:06.85,Dialogue,,0,0,0,,What are these?
+Dialogue: 0,1:33:07.18,1:33:10.18,Dialogue,,0,0,0,,They're mini-air tanks that professor Agasa invented.
+Dialogue: 0,1:33:10.18,1:33:11.35,Dialogue,,0,0,0,,What about you?
+Dialogue: 0,1:33:11.35,1:33:14.06,Dialogue,,0,0,0,,I have another one right here. Don't worry!
+Dialogue: 0,1:33:15.52,1:33:16.52,Dialogue,,0,0,0,,Is that so...?
+Dialogue: 0,1:33:25.87,1:33:27.37,Thoughts,,0,0,0,,{\be10}Damn, what do I do now?
+Dialogue: 0,1:33:27.74,1:33:29.29,Thoughts,,0,0,0,,{\be10}If this goes on, the gas will...
+Dialogue: 0,1:33:30.50,1:33:31.54,Thoughts,,0,0,0,,{\be10}Gas?
+Dialogue: 0,1:33:34.46,1:33:36.46,Thoughts,,0,0,0,,{\be10}The gas is probably methane.
+Dialogue: 0,1:33:37.09,1:33:39.09,Thoughts,,0,0,0,,{\be10}It probably rose and accumulated at the top of the cave.
+Dialogue: 0,1:33:39.76,1:33:41.55,Thoughts,,0,0,0,,{\be10}If we can make use of the gas...
+Dialogue: 0,1:33:42.22,1:33:44.51,Thoughts,,0,0,0,,{\be10}Is there anything, anything at all?
+Dialogue: 0,1:33:46.51,1:33:47.60,Thoughts,,0,0,0,,{\be10}That'll work!
+Dialogue: 0,1:33:48.56,1:33:50.77,Dialogue,,0,0,0,,Ran{\rHonorifics - Dialogue}-neechan{\r}, Sonoko{\rHonorifics - Dialogue}-neechan{\r},
+Dialogue: 0,1:33:50.77,1:33:52.10,Dialogue,,0,0,0,,Please, listen to me.
+Dialogue: 0,1:33:53.14,1:33:55.65,Dialogue,,0,0,0,,Since the water flowing into this place broke through,
+Dialogue: 0,1:33:55.65,1:33:57.90,Dialogue,,0,0,0,,the walls probably aren't very thick.
+Dialogue: 0,1:33:57.90,1:34:02.19,Dialogue,,0,0,0,,That's why, I think if we make the gas explode, we can make an opening in the top of the cave so the ship can...
+Dialogue: 0,1:34:03.11,1:34:06.66,Dialogue,,0,0,0,,You want us to ride the ship out to escape?
+Dialogue: 0,1:34:06.66,1:34:07.66,Dialogue,,0,0,0,,Will we be alright?
+Dialogue: 0,1:34:08.37,1:34:09.20,Dialogue,,0,0,0,,I don't know...
+Dialogue: 0,1:34:09.66,1:34:14.50,Dialogue,,0,0,0,,But, we'll all drown or be poisoned by the gas if we don't get out soon.
+Dialogue: 0,1:34:15.21,1:34:16.12,Dialogue,,0,0,0,,We'll die anyway.
+Dialogue: 0,1:34:17.88,1:34:19.84,Dialogue,,0,0,0,,We might as well give it a try.
+Dialogue: 0,1:34:21.25,1:34:22.76,Dialogue,,0,0,0,,What are you going to do, Conan{\rHonorifics - Dialogue}-kun{\r}?
+Dialogue: 0,1:34:23.84,1:34:28.97,Dialogue,,0,0,0,,I'm going to kick that chain fragment\Nat the rocks at the top of the cave.
+Dialogue: 0,1:34:29.51,1:34:31.31,Dialogue,,0,0,0,,It'll create a spark,
+Dialogue: 0,1:34:31.31,1:34:33.43,Dialogue,,0,0,0,,Which should be able to make the gas explode.
+Dialogue: 0,1:34:33.43,1:34:37.10,Dialogue,,0,0,0,,Ran{\rHonorifics - Dialogue}-neechan{\r}, you two go into the cabin\Nand breathe through the air tanks.
+Dialogue: 0,1:34:37.10,1:34:40.98,Dialogue,,0,0,0,,When the gas explodes,\Nall of the oxygen in the air will be gone in an instant.
+Dialogue: 0,1:34:42.23,1:34:43.49,Dialogue,,0,0,0,,What about you?
+Dialogue: 0,1:34:43.49,1:34:44.90,Dialogue,,0,0,0,,I'll be fine...
+Dialogue: 0,1:34:44.90,1:34:48.28,Dialogue,,0,0,0,,As soon as I kick the chain, I'll jump into the cabin along with you.
+Dialogue: 0,1:34:48.28,1:34:49.32,Dialogue,,0,0,0,,Don't worry.
+Dialogue: 0,1:34:57.83,1:34:59.04,Dialogue,,0,0,0,,I got it.
+Dialogue: 0,1:35:07.59,1:35:08.55,Dialogue,,0,0,0,,Inspector...
+Dialogue: 0,1:35:09.72,1:35:11.30,Dialogue,,0,0,0,,Get the ship ready!
+Dialogue: 0,1:35:11.30,1:35:12.31,Dialogue,,0,0,0,,We're heading out to sea!
+Dialogue: 0,1:35:12.64,1:35:13.77,Dialogue,,0,0,0,,Yes, sir!
+Dialogue: 0,1:35:31.74,1:35:33.74,Dialogue,,0,0,0,,Everything's prepared and okay, Conan{\rHonorifics - Dialogue}-kun{\r}!
+Dialogue: 0,1:35:39.62,1:35:40.75,Dialogue,,0,0,0,,Yes!
+Dialogue: 0,1:36:40.19,1:36:40.94,Thoughts,,0,0,0,,{\be10}This is bad!
+Dialogue: 0,1:36:59.75,1:37:00.75,Thoughts,,0,0,0,,{\be10}Conan{\rHonorifics - Thoughts\be10}-kun{\r\be10}...
+Dialogue: 0,1:37:01.54,1:37:02.62,Thoughts,,0,0,0,,{\be10}Conan{\rHonorifics - Thoughts\be10}-kun{\r\be10}!
+Dialogue: 0,1:37:03.75,1:37:05.17,Thoughts,,0,0,0,,{\be10}Hang on, Conan{\rHonorifics - Thoughts\be10}-kun{\r\be10}!
+Dialogue: 0,1:37:08.17,1:37:09.09,Thoughts,,0,0,0,,{\be10}Ran...
+Dialogue: 0,1:37:17.14,1:37:18.72,Dialogue,,0,0,0,,Hurry up, hurry up!
+Dialogue: 0,1:37:18.72,1:37:20.60,Dialogue,,0,0,0,,Full speed!
+Dialogue: 0,1:37:38.83,1:37:40.91,Dialogue,,0,0,0,,A-A pirate ship?!?
+Dialogue: 0,1:37:57.35,1:37:58.51,Dialogue,,0,0,0,,Ran!
+Dialogue: 0,1:37:59.31,1:38:01.64,Dialogue,,0,0,0,,Ran, are you alright?
+Dialogue: 0,1:38:01.64,1:38:03.81,Dialogue,,0,0,0,,I'm fine!
+Dialogue: 0,1:38:03.81,1:38:04.81,Dialogue,,0,0,0,,We're saved!
+Dialogue: 0,1:38:17.95,1:38:19.33,Dialogue,,0,0,0,,Everyone, get off the boat!
+Dialogue: 0,1:38:19.99,1:38:21.08,Dialogue,,0,0,0,,Watch out!
+Dialogue: 0,1:38:21.08,1:38:22.66,Dialogue,,0,0,0,,Jump into the ocean!
+Dialogue: 0,1:38:22.66,1:38:23.46,Dialogue,,0,0,0,,Sonoko!
+Dialogue: 0,1:38:26.83,1:38:28.21,Dialogue,,0,0,0,,This way!
+Dialogue: 0,1:38:50.86,1:38:53.61,Dialogue,,0,0,0,,So, did you find the treasure?
+Dialogue: 0,1:38:53.61,1:38:54.69,Dialogue,,0,0,0,,Nope.
+Dialogue: 0,1:38:54.69,1:38:57.41,Dialogue,,0,0,0,,There was just this wreck of a pirate ship.
+Dialogue: 0,1:38:57.41,1:38:59.12,Dialogue,,0,0,0,,Maybe that ship was the treasure
+Dialogue: 0,1:38:59.95,1:39:03.62,Dialogue,,0,0,0,,The map that Anne Bonny left behind...
+Dialogue: 0,1:39:03.62,1:39:05.91,Dialogue,,0,0,0,,...wasn't a map leading to treasure.
+Dialogue: 0,1:39:05.91,1:39:11.13,Dialogue,,0,0,0,,She was just trying to send a message to Mary Read, who was in jail.
+Dialogue: 0,1:39:11.67,1:39:13.17,Dialogue,,0,0,0,,A message?
+Dialogue: 0,1:39:13.17,1:39:14.76,Dialogue,,0,0,0,,I'm right here!
+Dialogue: 0,1:39:14.76,1:39:19.05,Dialogue,,0,0,0,,I'll always be here waiting for you, Shinichi!
+Dialogue: 0,1:39:19.05,1:39:20.35,Dialogue,,0,0,0,,Just kidding...
+Dialogue: 0,1:39:20.35,1:39:21.60,Dialogue,,0,0,0,,Sonoko!
+Dialogue: 0,1:39:23.89,1:39:27.19,Dialogue,,0,0,0,,Who do you think you are, acting like a know-it-all?
+Dialogue: 0,1:39:27.19,1:39:30.90,Dialogue,,0,0,0,,No, there's a strong possibility that he's right.
+Dialogue: 0,1:39:32.61,1:39:37.99,Dialogue,,0,0,0,,Most likely, Anne built that ship and stored it there for Mary,
+Dialogue: 0,1:39:37.99,1:39:41.57,Dialogue,,0,0,0,,in preparation for the day\Nwhen they could go back out to sea together.
+Dialogue: 0,1:39:41.78,1:39:43.95,Dialogue,,0,0,0,,That's why she built the ship.
+Dialogue: 0,1:39:44.45,1:39:50.79,Dialogue,,0,0,0,,However, Mary fell sick in prison,\Nand passed away before that could happen.
+Dialogue: 0,1:39:50.79,1:39:55.42,Dialogue,,0,0,0,,Anne continues to wait for her partner, Mary,\Nuntil the day she died as well.
+Dialogue: 0,1:39:55.80,1:39:58.80,Dialogue,,0,0,0,,The ship that was left behind,
+Dialogue: 0,1:39:58.80,1:40:05.72,Dialogue,,0,0,0,,ended up in a cave at the bottom of the ocean, waiting for the day to come where it could set sail with its builder.
+Dialogue: 0,1:40:05.89,1:40:07.85,Dialogue,,0,0,0,,And now, three hundred years later,
+Dialogue: 0,1:40:07.85,1:40:10.98,Dialogue,,0,0,0,,it finally had its first and final voyage.
+Dialogue: 0,1:40:10.98,1:40:18.90,Dialogue,,0,0,0,,It sent all of you to the surface, then crumbled and vanished, just like the people who built it.
+Dialogue: 0,1:40:20.20,1:40:22.87,Dialogue,,0,0,0,,I'm just guessing though.
+Dialogue: 0,1:40:22.87,1:40:23.87,Dialogue,,0,0,0,,So, don't take it seriously.
+Dialogue: 0,1:40:28.54,1:40:34.04,Dialogue,,0,0,0,,It's been three hundred years, though,\Nso it's unlikely we'll ever know the truth.
+Dialogue: 0,1:40:34.04,1:40:39.30,Thoughts,,0,0,0,,{\be10}No, I don't doubt that Anne was waiting for Mary, Uncle.
+Dialogue: 0,1:40:39.30,1:40:43.01,Thoughts,,0,0,0,,{\be10}The proof is below the skull of the Jolly Roger...
+Dialogue: 0,1:40:48.73,1:40:52.15,Thoughts,,0,0,0,,{\be10}Anne and Mary's pistol and cutlass.
+Dialogue: 0,1:44:50.80,1:44:51.72,Dialogue,,0,0,0,,Hey...
+Dialogue: 0,1:44:52.43,1:44:54.64,Dialogue,,0,0,0,,Ran{\rHonorifics - Dialogue}-neechan{\r}, I was wondering...
+Dialogue: 0,1:44:55.10,1:45:00.14,Dialogue,,0,0,0,,How did you know I didn't have a mini-air tank back there?
+Dialogue: 0,1:45:02.81,1:45:06.11,Dialogue,,0,0,0,,Because you're just like that guy.
+Dialogue: 0,1:45:08.03,1:45:10.07,Dialogue,,0,0,0,,I think it was when I was in eight grade,
+Dialogue: 0,1:45:10.70,1:45:14.53,Dialogue,,0,0,0,,and there was a sudden rainstorm after school...
+Dialogue: 0,1:45:22.17,1:45:23.88,Flashback,,0,0,0,,{\be10}Why'd this have to happen now...?
+Dialogue: 0,1:45:24.75,1:45:26.00,Flashback,,0,0,0,,{\be10}Here, take this.
+Dialogue: 0,1:45:28.59,1:45:30.59,Flashback,,0,0,0,,{\be10}You have to hurry back home, right?
+Dialogue: 0,1:45:30.84,1:45:32.97,Flashback,,0,0,0,,{\be10}Yeah... thanks.
+Dialogue: 0,1:45:33.34,1:45:34.51,Flashback,,0,0,0,,{\be10}But what about you?
+Dialogue: 0,1:45:34.97,1:45:37.89,Flashback,,0,0,0,,{\be10}Stupid, I'm a detective!
+Dialogue: 0,1:45:37.89,1:45:40.22,Flashback,,0,0,0,,{\be10}I already knew it was going to rain,
+Dialogue: 0,1:45:41.89,1:45:43.98,Flashback,,0,0,0,,{\be10}so I brought an extra umbrella with me in this.
+Dialogue: 0,1:45:44.23,1:45:45.56,Flashback,,0,0,0,,{\be10}Really?
+Dialogue: 0,1:45:45.56,1:45:48.57,Flashback,,0,0,0,,{\be10}Thank goodness. I couldn't be late for my meeting with my mom.
+Dialogue: 0,1:45:48.57,1:45:49.86,Flashback,,0,0,0,,{\be10}I'll be borrowing this umbrella then!
+Dialogue: 0,1:45:50.11,1:45:51.28,Flashback,,0,0,0,,{\be10}I'll give it back to you tomorrow!
+Dialogue: 0,1:45:51.32,1:45:52.03,Flashback,,0,0,0,,{\be10}Okay!
+Dialogue: 0,1:45:53.45,1:45:57.41,Dialogue,,0,0,0,,But, I found out later that\NShinichi didn't really bring an extra umbrella.
+Dialogue: 0,1:45:58.37,1:46:01.45,Dialogue,,0,0,0,,He got drenched walking home, and ended up catching a cold.
+Dialogue: 0,1:46:02.75,1:46:03.87,Dialogue,,0,0,0,,That's right,
+Dialogue: 0,1:46:03.87,1:46:06.38,Dialogue,,0,0,0,,You reminded me of Shinichi at that time.
+Dialogue: 0,1:46:07.46,1:46:08.80,Dialogue,,0,0,0,,You're stubborn,
+Dialogue: 0,1:46:08.80,1:46:11.13,Dialogue,,0,0,0,,just like that stupid detective freak!
+Dialogue: 0,1:46:15.13,1:46:17.72,Thoughts,,0,0,0,,{\be10}Well, excuse me for being stupid...

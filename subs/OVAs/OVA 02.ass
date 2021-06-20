@@ -1,0 +1,409 @@
+[Script Info]
+Title: Detective Conan - OVA 02
+TL Source: DCTP
+ScriptType: v4.00+
+WrapStyle: 3
+PlayResX: 1440
+PlayResY: 1080
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Dialogue,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00401311,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Dialogue Top,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00401311,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,8,30,30,55,1
+Style: Signs,FrancophilSans,74,&H14FFFFFF,&H00FFFFFF,&H46101010,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,8,30,30,55,1
+Style: Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,0,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Radio,FrancophilSans,74,&H00BEE1FF,&H00FFFFFF,&H000B2A42,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Narration,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00BF6F00,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Narration Off,FrancophilSans,74,&H6E8C6F00,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,0,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Flashback,FrancophilSans,74,&H00CDFAFF,&H00FFFFFF,&H00373737,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Flashback Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00CCFFFF,&HC0313134,-1,0,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Honorifics - Dialogue,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00401311,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Signs,FrancophilSans,74,&H14FFFFFF,&H00FFFFFF,&H46101010,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,-1,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Honorifics - Radio,FrancophilSans,74,&H00BEE1FF,&H00FFFFFF,&H000B2A42,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Narration,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00BF6F00,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Narration Off,FrancophilSans,74,&H6E8C6F00,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,-1,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Honorifics - Flashback,FrancophilSans,74,&H00CDFAFF,&H00FFFFFF,&H00373737,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Flashback Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00CCFFFF,&HC0313134,-1,-1,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Masks,FrancophilSans,74,&H00000000,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,2,0,0,0,1
+Style: Title,Conan Episode Title,74,&H00E1E4E3,&H000000FF,&HC8DBDAE1,&HC0000000,-1,0,0,0,100,100,0,0,1,1,0,5,0,0,0,1
+Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-1,0,0,0,100,100,0,0,1,0,0,2,0,0,65,1
+Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
+Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
+Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:01.44,0:00:06.53,Dialogue,,0,0,0,,Hello! This video is a special release provided to all of you by Shounen Sunday.
+Dialogue: 0,0:00:08.08,0:00:13.54,Dialogue,,0,0,0,,When you watch this video, please brighten the room and don't sit to close to the screen.
+Dialogue: 0,0:00:46.91,0:00:50.78,Dialogue,,0,0,0,,Caviar, fois gras, oysters! I can't resist!
+Dialogue: 0,0:00:51.29,0:00:52.62,Dialogue,,0,0,0,,In that case, I'll have too...
+Dialogue: 0,0:00:52.62,0:00:53.58,Dialogue,,0,0,0,,Professor.
+Dialogue: 0,0:00:54.25,0:00:56.04,Dialogue,,0,0,0,,I'm sure you understand.
+Dialogue: 0,0:00:56.75,0:00:59.29,Dialogue,,0,0,0,,L-Low calorie foods, right?
+Dialogue: 0,0:00:59.75,0:01:00.96,Dialogue,,0,0,0,,What a life...
+Dialogue: 0,0:01:01.43,0:01:04.60,Dialogue,,0,0,0,,Hey, Mitsuhiko, I wonder if I can eat it all.
+Dialogue: 0,0:01:05.27,0:01:08.98,Dialogue,,0,0,0,,Calm down, Genta{\rHonorifics - Dialogue}-kun{\r}, this food isn't just for you.
+Dialogue: 0,0:01:10.19,0:01:13.57,Dialogue,,0,0,0,,Inspector Shiratori, this food is called Hors D'oeuvres, right?
+Dialogue: 0,0:01:13.90,0:01:14.78,Dialogue,,0,0,0,,That's right.
+Dialogue: 0,0:01:14.98,0:01:16.36,Dialogue,,0,0,0,,Satou{\rHonorifics - Dialogue}-san{\r}.
+Dialogue: 0,0:01:17.70,0:01:20.28,Dialogue,,0,0,0,,Since you don't care for the French cuisine we're having this time,
+Dialogue: 0,0:01:20.74,0:01:22.78,Dialogue,,0,0,0,,I made these snacks especially for you.
+Dialogue: 0,0:01:23.28,0:01:24.16,Dialogue,,0,0,0,,Here you go.
+Dialogue: 0,0:01:27.79,0:01:30.37,Dialogue,,0,0,0,,Th-thanks, it looks delicious.
+Dialogue: 0,0:01:31.54,0:01:32.46,Dialogue,,0,0,0,,What is it?
+Dialogue: 0,0:01:32.54,0:01:33.96,Dialogue,,0,0,0,,Oh, no, nothing.
+Dialogue: 0,0:01:34.38,0:01:36.42,Dialogue,,0,0,0,,It look really delicious, doesn't it?
+Dialogue: 0,0:01:37.38,0:01:40.26,Dialogue,,0,0,0,,Well, Mouri{\rHonorifics - Dialogue}-kun{\r}? A glass of champagne?
+Dialogue: 0,0:01:40.55,0:01:43.39,Dialogue,,0,0,0,,Oh, Inspector{\rHonorifics - Dialogue}-dono{\r}, that's very kind of you.
+Dialogue: 0,0:01:43.39,0:01:44.62,Dialogue,,0,0,0,,Hold on, dear.
+Dialogue: 0,0:01:45.52,0:01:47.73,Dialogue,,0,0,0,,That's the wrong glass.
+Dialogue: 0,0:01:49.06,0:01:51.15,Dialogue,,0,0,0,,This one is for champagne.
+Dialogue: 0,0:01:51.94,0:01:53.69,Dialogue,,0,0,0,,Don't make every little thing an issue.
+Dialogue: 0,0:01:53.90,0:01:56.36,Dialogue,,0,0,0,,I can't drink enough with this one.
+Dialogue: 0,0:01:56.78,0:02:01.03,Dialogue,,0,0,0,,You don't drink this without stopping like you do normal liquor. This one is perfect.
+Dialogue: 0,0:02:01.45,0:02:03.74,Dialogue,,0,0,0,,Bossy woman. Mind your own business.
+Dialogue: 0,0:02:04.03,0:02:05.66,Dialogue,,0,0,0,,Now, now, Mouri{\rHonorifics - Dialogue}-kun{\r}.
+Dialogue: 0,0:02:07.50,0:02:09.00,Dialogue,,0,0,0,,The air is so fresh!
+Dialogue: 0,0:02:09.08,0:02:09.96,Dialogue,,0,0,0,,You're right
+Dialogue: 0,0:02:11.04,0:02:12.67,Dialogue,,0,0,0,,I'm glad we came here, right, Conan{\rHonorifics - Dialogue}-kun{\r}?
+Dialogue: 0,0:02:12.96,0:02:13.54,Dialogue,,0,0,0,,Yes!
+Dialogue: 0,0:02:14.09,0:02:18.05,Dialogue,,0,0,0,,It looks like we have chosen a very perfect time to come visit Tokyo.
+Dialogue: 0,0:02:18.51,0:02:22.05,Dialogue,,0,0,0,,Exactly! I've never been to Karuizawa before!
+Dialogue: 0,0:02:22.05,0:02:23.47,Dialogue,,0,0,0,,And me, and me too!
+Dialogue: 0,0:02:24.43,0:02:28.43,Dialogue,,0,0,0,,I thought your family had a villa in Karuizawa too.
+Dialogue: 0,0:02:29.02,0:02:31.64,Dialogue,,0,0,0,,Unfortunately, we don't have one in Karuizawa.
+Dialogue: 0,0:02:31.85,0:02:36.44,Dialogue,,0,0,0,,We have villas in Hawaii, Nice, Monaco...
+Dialogue: 0,0:02:37.48,0:02:38.48,Dialogue,,0,0,0,,Is that so?
+Dialogue: 0,0:02:40.95,0:02:44.53,Thoughts,,0,0,0,,{\be10}One day in autumn day, Inspector Shiratori invited his friends...
+Dialogue: 0,0:02:44.53,0:02:47.95,Thoughts,,0,0,0,,{\be10}To a party to celebrate the completion of his villa.
+Dialogue: 0,0:02:50.58,0:02:54.63,Thoughts,,0,0,0,,{\be10}The focus of the party was on Inspector Shiratori's collection of expensive wines.
+Dialogue: 0,0:02:56.34,0:02:57.71,Dialogue,,0,0,0,,Hey, Inspector Shiratori.
+Dialogue: 0,0:02:58.17,0:02:58.71,Dialogue,,0,0,0,,Yes?
+Dialogue: 0,0:02:59.09,0:03:00.92,Dialogue,,0,0,0,,Where are the wines you mentioned?
+Dialogue: 0,0:03:02.18,0:03:03.43,Dialogue,,0,0,0,,Oh, exactly.
+Dialogue: 0,0:03:04.34,0:03:06.85,Dialogue,,0,0,0,,Well, everyone, let's take a walk to the cellar.
+Dialogue: 0,0:03:15.56,0:03:18.32,Dialogue,,0,0,0,,The stairs are steep, so please be carefully.
+Dialogue: 0,0:03:22.49,0:03:23.74,Dialogue,,0,0,0,,These are the toilets.
+Dialogue: 0,0:03:24.45,0:03:27.12,Dialogue,,0,0,0,,On the right is for women, and on the left is for men.
+Dialogue: 0,0:03:27.70,0:03:28.78,Dialogue,,0,0,0,,And here...
+Dialogue: 0,0:03:34.17,0:03:37.25,Dialogue,,0,0,0,,I'm amazed. Is this all the wine cellar?
+Dialogue: 0,0:03:37.46,0:03:40.75,Dialogue,,0,0,0,,Awesome, it's as big as ours!
+Dialogue: 0,0:03:40.76,0:03:41.80,Dialogue,,0,0,0,,You right.
+Dialogue: 0,0:03:43.51,0:03:45.63,Dialogue,,0,0,0,,Do you have a wine cellar at home too?
+Dialogue: 0,0:03:45.76,0:03:47.34,Dialogue,,0,0,0,,No, that's not it.
+Dialogue: 0,0:03:47.60,0:03:49.60,Dialogue,,0,0,0,,Genta{\rHonorifics - Dialogue}-kun{\r}'s parents run a liquor store.
+Dialogue: 0,0:03:49.60,0:03:51.56,Dialogue,,0,0,0,,Please patronize Kojima Liquors Shop!
+Dialogue: 0,0:03:52.10,0:03:53.81,Dialogue,,0,0,0,,I-I see.
+Dialogue: 0,0:03:54.64,0:03:56.56,Dialogue,,0,0,0,,Wh-What is this?
+Dialogue: 0,0:03:57.00,0:04:01.02,Dialogue,,0,0,0,,This is a custom-made wine rack that made from a real oak.
+Dialogue: 0,0:04:01.57,0:04:05.20,Dialogue,,0,0,0,,This is where I keep my most precious wines.
+Dialogue: 0,0:04:06.11,0:04:10.70,Dialogue,,0,0,0,,For example, here is 1979 Chateau Margot.
+Dialogue: 0,0:04:11.75,0:04:13.75,Dialogue,,0,0,0,,1985 Chateau Lafite.
+Dialogue: 0,0:04:14.87,0:04:16.71,Dialogue,,0,0,0,,1992 Le Pin.
+Dialogue: 0,0:04:19.71,0:04:22.30,Dialogue,,0,0,0,,And this is what we will try today.
+Dialogue: 0,0:04:22.88,0:04:25.97,Dialogue,,0,0,0,,1961 Chateau Latour.
+Dialogue: 0,0:04:27.59,0:04:30.80,Dialogue,,0,0,0,,Look, there seems to be something floating inside.
+Dialogue: 0,0:04:31.35,0:04:33.81,Dialogue,,0,0,0,,You right! Has it gone bad?
+Dialogue: 0,0:04:34.31,0:04:38.02,Dialogue,,0,0,0,,It's a sediment. It is formed during aging.
+Dialogue: 0,0:04:38.65,0:04:40.52,Dialogue,,0,0,0,,Only mature wines have it.
+Dialogue: 0,0:04:41.40,0:04:46.74,Dialogue,,0,0,0,,If the sedimentation process is disrupted, the wine may deteriorate and have to be thrown away.
+Dialogue: 0,0:04:48.45,0:04:52.08,Dialogue,,0,0,0,,Inspector Shiratori, is that wine really that good?
+Dialogue: 0,0:04:52.79,0:04:55.70,Dialogue,,0,0,0,,Yes, it's completely different than a cheap wines.
+Dialogue: 0,0:04:56.08,0:04:58.33,Dialogue,,0,0,0,,You can tell right away when you taste it.
+Dialogue: 0,0:04:58.88,0:05:00.75,Dialogue,,0,0,0,,Oh, is that so?
+Dialogue: 0,0:05:03.17,0:05:05.67,Dialogue,,0,0,0,,Why is the next bottle section empty?
+Dialogue: 0,0:05:08.22,0:05:11.93,Dialogue,,0,0,0,,There was a bottle of 1989 Sassicaia.
+Dialogue: 0,0:05:12.60,0:05:14.93,Dialogue,,0,0,0,,My sister and her husband drank it yesterday.
+Dialogue: 0,0:05:16.64,0:05:19.56,Dialogue,,0,0,0,,All right, everyone, let's go back to the living room.
+Dialogue: 0,0:05:22.23,0:05:25.86,Dialogue,,0,0,0,,Heiji, look, the floor in this section is made from marble.
+Dialogue: 0,0:05:26.32,0:05:29.32,Dialogue,,0,0,0,,You right. It must be really expensive.
+Dialogue: 0,0:05:29.61,0:05:32.20,Dialogue,,0,0,0,,Well, everyone has their own hobbies.
+Dialogue: 0,0:05:33.74,0:05:35.08,Dialogue,,0,0,0,,I guess so.
+Dialogue: 0,0:05:35.70,0:05:39.42,Dialogue,,0,0,0,,Well now, everyone, I'm going to cook the main dish.
+Dialogue: 0,0:05:39.67,0:05:41.46,Dialogue,,0,0,0,,Please relax for about an hour.
+Dialogue: 0,0:05:50.18,0:05:52.64,Dialogue,,0,0,0,,What's wrong? Why are you sighing like that?
+Dialogue: 0,0:05:53.01,0:05:57.06,Dialogue,,0,0,0,,Oh, well, Inspector Shiratori has so much money.
+Dialogue: 0,0:05:57.43,0:06:01.48,Dialogue,,0,0,0,,Well, this is the wealthy of Shiratori{\rHonorifics - Dialogue}-kun{\r}'s family, not Shiratori{\rHonorifics - Dialogue}-kun{\r} himself.
+Dialogue: 0,0:06:01.94,0:06:04.06,Dialogue,,0,0,0,,It's true, but...
+Dialogue: 0,0:06:05.86,0:06:08.61,Dialogue,,0,0,0,,You're a man, don't worry about stuff like that.
+Dialogue: 0,0:06:09.78,0:06:11.91,Dialogue,,0,0,0,,Oh, right. Mouri{\rHonorifics - Dialogue}-san{\r}!
+Dialogue: 0,0:06:14.16,0:06:16.16,Dialogue,,0,0,0,,It's about that case the other day.
+Dialogue: 0,0:06:16.45,0:06:17.33,Dialogue,,0,0,0,,Oh, what?
+Dialogue: 0,0:06:17.66,0:06:20.29,Thoughts,,0,0,0,,{\be10}It's because I'm a man that I have to worry about it.
+Dialogue: 0,0:06:26.63,0:06:29.34,Dialogue,,0,0,0,,Hey, I wonder what the other rooms look like.
+Dialogue: 0,0:06:29.55,0:06:32.30,Dialogue,,0,0,0,,You right. Let's go explore for a bit!
+Dialogue: 0,0:06:33.05,0:06:35.43,Dialogue,,0,0,0,,Let's go! It will be fun!
+Dialogue: 0,0:06:35.72,0:06:37.22,Dialogue,,0,0,0,,Genta{\rHonorifics - Dialogue}-kun{\r}, let's go!
+Dialogue: 0,0:06:37.56,0:06:39.56,Dialogue,,0,0,0,,Hey! Wait!
+Dialogue: 0,0:06:40.98,0:06:42.10,Dialogue,,0,0,0,,Hurry, hurry!
+Dialogue: 0,0:06:42.15,0:06:43.85,Dialogue,,0,0,0,,Hey, wait for me!
+Dialogue: 0,0:06:46.19,0:06:48.48,Dialogue,,0,0,0,,Hey, let's take a walk.
+Dialogue: 0,0:06:48.69,0:06:51.65,Dialogue,,0,0,0,,I don't mind, but I'm not familiar with this place.
+Dialogue: 0,0:06:52.11,0:06:53.82,Dialogue,,0,0,0,,Then, let me show you around.
+Dialogue: 0,0:06:54.41,0:06:56.53,Dialogue,,0,0,0,,What? Ran{\rHonorifics - Dialogue}-chan{\r}, you've been here before?
+Dialogue: 0,0:06:56.70,0:07:00.79,Dialogue,,0,0,0,,Yes, Shinichi's parents brought me here once.
+Dialogue: 0,0:07:02.37,0:07:04.21,Thoughts,,0,0,0,,{\be10}Yeah, we did.
+Dialogue: 0,0:07:04.67,0:07:06.42,Dialogue,,0,0,0,,Well, let's all go together.
+Dialogue: 0,0:07:06.71,0:07:07.67,Dialogue,,0,0,0,,Come on, Heiji?
+Dialogue: 0,0:07:08.09,0:07:09.21,Dialogue,,0,0,0,,I guess I have to.
+Dialogue: 0,0:07:09.51,0:07:12.01,Dialogue,,0,0,0,,Oh, go without me. I have something else to do.
+Dialogue: 0,0:07:12.38,0:07:14.05,Dialogue,,0,0,0,,Eh? Something else to do?
+Dialogue: 0,0:07:14.26,0:07:15.47,Dialogue,,0,0,0,,Nothing special.
+Dialogue: 0,0:07:16.81,0:07:18.01,Dialogue,,0,0,0,,Haibara, what about you?
+Dialogue: 0,0:07:18.31,0:07:21.10,Dialogue,,0,0,0,,I'll pass. But the four of you should go.
+Dialogue: 0,0:07:21.77,0:07:22.56,Thoughts,,0,0,0,,{\be10}Geez...
+Dialogue: 0,0:07:31.95,0:07:33.74,Dialogue,,0,0,0,,What a wonderful place!
+Dialogue: 0,0:07:33.91,0:07:37.62,Dialogue,,0,0,0,,Yes, this street is called the "Whispering Path".
+Dialogue: 0,0:07:38.08,0:07:40.83,Dialogue,,0,0,0,,Oh, "Whispering Path"?
+Dialogue: 0,0:07:41.08,0:07:43.33,Dialogue,,0,0,0,,Hey, Heiji, whisper something.
+Dialogue: 0,0:07:44.21,0:07:46.63,Dialogue,,0,0,0,,Okay. Bring your ear closer.
+Dialogue: 0,0:07:47.63,0:07:49.00,Dialogue,,0,0,0,,Come on...
+Dialogue: 0,0:07:51.59,0:07:52.38,Dialogue,,0,0,0,,You are...
+Dialogue: 0,0:07:53.30,0:07:54.51,Dialogue,,0,0,0,,AN IDIOT!!!
+Dialogue: 0,0:07:57.64,0:07:59.22,Dialogue,,0,0,0,,Got you, got you!
+Dialogue: 0,0:08:02.77,0:08:03.56,Thoughts,,0,0,0,,{\be10}Brat.
+Dialogue: 0,0:08:05.73,0:08:08.02,Dialogue,,0,0,0,,This is Kyu-Karuizawa Christian Church.
+Dialogue: 0,0:08:09.61,0:08:12.03,Dialogue,,0,0,0,,Wow, a wedding!
+Dialogue: 0,0:08:13.86,0:08:15.20,Dialogue,,0,0,0,,That's so beautiful!
+Dialogue: 0,0:08:15.41,0:08:17.24,Dialogue,,0,0,0,,So romantic!
+Dialogue: 0,0:08:21.12,0:08:22.24,Dialogue,,0,0,0,,Ran{\rHonorifics - Dialogue}-chan{\r}?
+Dialogue: 0,0:08:23.66,0:08:26.46,Dialogue,,0,0,0,,Did you imagine yourself and Kudou{\rHonorifics - Dialogue}-kun{\r} in their place just now?
+Dialogue: 0,0:08:27.04,0:08:29.29,Dialogue,,0,0,0,,What are you talking about? I didn't imagine anything!
+Dialogue: 0,0:08:29.92,0:08:33.51,Dialogue,,0,0,0,,Really? And what was that dreamy expression on your face?
+Dialogue: 0,0:08:35.84,0:08:38.01,Dialogue,,0,0,0,,Kazuha{\rHonorifics - Dialogue}-chan{\r}, what about yourself?
+Dialogue: 0,0:08:39.10,0:08:42.10,Dialogue,,0,0,0,,What are you talking about? We won't do that!
+Dialogue: 0,0:08:42.31,0:08:45.64,Dialogue,,0,0,0,,Oh my, what kind of thing you won't do?
+Dialogue: 0,0:08:45.64,0:08:47.64,Dialogue,,0,0,0,,And who is this "we"?
+Dialogue: 0,0:08:48.31,0:08:50.15,Dialogue,,0,0,0,,Shh! Not so loud!
+Dialogue: 0,0:08:50.40,0:08:51.15,Dialogue,,0,0,0,,Oh, I'm sorry.
+Dialogue: 0,0:08:53.53,0:08:55.03,Dialogue,,0,0,0,,This is Kumoba Pond.
+Dialogue: 0,0:08:56.74,0:08:59.95,Dialogue,,0,0,0,,Shinichi and I rode our bicycles from his house to this shore.
+Dialogue: 0,0:09:01.33,0:09:03.20,Dialogue,,0,0,0,,It's beautiful!
+Dialogue: 0,0:09:04.20,0:09:06.54,Dialogue,,0,0,0,,Just like you said!
+Dialogue: 0,0:09:06.71,0:09:09.83,Dialogue,,0,0,0,,I know, right? It's been a long time ago.
+Dialogue: 0,0:09:10.79,0:09:14.17,Dialogue,,0,0,0,,I wonder why, it's only been two to three years.
+Dialogue: 0,0:09:17.84,0:09:18.84,Thoughts,,0,0,0,,{\be10}Kudou!
+Dialogue: 0,0:09:24.56,0:09:25.97,Dialogue,,0,0,0,,What's the matter, Haji?
+Dialogue: 0,0:09:26.27,0:09:27.98,Dialogue,,0,0,0,,Is there something in your eye?
+Dialogue: 0,0:09:29.31,0:09:30.44,Dialogue,,0,0,0,,Oh, no.
+Dialogue: 0,0:09:30.81,0:09:32.86,Dialogue,,0,0,0,,Let's go a little further!
+Dialogue: 0,0:09:33.15,0:09:36.32,Dialogue,,0,0,0,,There's an island called "Water Bird Island" this way.
+Dialogue: 0,0:09:38.20,0:09:39.24,Dialogue,,0,0,0,,Hey, Kazuha.
+Dialogue: 0,0:09:40.24,0:09:40.99,Dialogue,,0,0,0,,What?
+Dialogue: 0,0:09:41.53,0:09:42.32,Dialogue,,0,0,0,,Let's go back.
+Dialogue: 0,0:09:42.66,0:09:43.91,Dialogue,,0,0,0,,What? Why?
+Dialogue: 0,0:09:44.29,0:09:45.49,Dialogue,,0,0,0,,It's okay, let's go.
+Dialogue: 0,0:09:45.79,0:09:47.16,Dialogue,,0,0,0,,Geez.
+Dialogue: 0,0:09:51.96,0:09:54.29,Dialogue,,0,0,0,,Heiji, wait!
+Dialogue: 0,0:10:02.14,0:10:03.05,Dialogue,,0,0,0,,A swan!
+Dialogue: 0,0:10:03.56,0:10:04.56,Dialogue,,0,0,0,,You right.
+Dialogue: 0,0:10:14.48,0:10:15.57,Thoughts,,0,0,0,,{\be10}Out!
+Dialogue: 0,0:10:15.86,0:10:17.40,Thoughts,,0,0,0,,{\be10}Oh, damn it!
+Dialogue: 0,0:10:17.40,0:10:19.03,Thoughts,,0,0,0,,{\be10}Love - 40!
+Dialogue: 0,0:10:19.14,0:10:20.73,Thoughts,,0,0,0,,{\be10}Hey, Ran.
+Dialogue: 0,0:10:20.72,0:10:22.41,Thoughts,,0,0,0,,{\be10}Can we use our legs?
+Dialogue: 0,0:10:22.74,0:10:26.29,Thoughts,,0,0,0,,{\be10}Of course not! This is not a soccer!
+Dialogue: 0,0:10:28.62,0:10:32.12,Thoughts,,0,0,0,,{\be10}Wait, Shinichi! Where are we going in such a hurry?
+Dialogue: 0,0:10:32.88,0:10:34.54,Thoughts,,0,0,0,,{\be10}Just follow me and you will find out!
+Dialogue: 0,0:10:35.13,0:10:35.92,Thoughts,,0,0,0,,{\be10}Geez.
+Dialogue: 0,0:10:48.73,0:10:50.02,Thoughts,,0,0,0,,{\be10}It's so calm here.
+Dialogue: 0,0:10:51.06,0:10:51.69,Thoughts,,0,0,0,,{\be10}Yes.
+Dialogue: 0,0:11:00.70,0:11:02.65,Dialogue,,0,0,0,,Where are Hattori{\rHonorifics - Dialogue}-kun{\r} and Kazuha{\rHonorifics - Dialogue}-chan{\r}?
+Dialogue: 0,0:11:02.91,0:11:03.95,Dialogue,,0,0,0,,They're not here.
+Dialogue: 0,0:11:04.20,0:11:06.83,Dialogue,,0,0,0,,Maybe they left without us?
+Dialogue: 0,0:11:07.83,0:11:10.62,Thoughts,,0,0,0,,{\be10}Geez, that Hattori.
+Dialogue: 0,0:11:12.92,0:11:15.21,Dialogue,,0,0,0,,Everyone, sorry for the wait!
+Dialogue: 0,0:11:15.67,0:11:17.63,Dialogue,,0,0,0,,The main dish for today is ready.
+Dialogue: 0,0:11:19.38,0:11:21.38,Dialogue,,0,0,0,,I'm so hungry!
+Dialogue: 0,0:11:23.13,0:11:24.97,Dialogue,,0,0,0,,It looks delicious!
+Dialogue: 0,0:11:25.60,0:11:28.18,Dialogue,,0,0,0,,It sure does! What is this dish?
+Dialogue: 0,0:11:28.68,0:11:30.35,Dialogue,,0,0,0,,Roast lamb shoulder.
+Dialogue: 0,0:11:31.56,0:11:32.85,Dialogue,,0,0,0,,Ninzaburo-style.
+Dialogue: 0,0:11:33.35,0:11:34.35,Dialogue,,0,0,0,,Who is that?
+Dialogue: 0,0:11:35.94,0:11:37.77,Dialogue,,0,0,0,,Did you cook that yourself, Shiratori{\rHonorifics - Dialogue}-kun{\r}?
+Dialogue: 0,0:11:38.07,0:11:40.78,Dialogue,,0,0,0,,Yes, cooking is another hobby of mine.
+Dialogue: 0,0:11:41.28,0:11:44.03,Dialogue,,0,0,0,,Amazing! You would make a great son-in-law!
+Dialogue: 0,0:11:44.11,0:11:44.74,Thoughts,,0,0,0,,{\be10}Eh!
+Dialogue: 0,0:11:45.07,0:11:45.86,Dialogue,,0,0,0,,No, no.
+Dialogue: 0,0:11:48.28,0:11:50.91,Dialogue,,0,0,0,,Well then, I'll bring the wine now.
+Dialogue: 0,0:11:58.13,0:11:59.42,Dialogue,,0,0,0,,We're back.
+Dialogue: 0,0:12:00.21,0:12:01.76,Dialogue,,0,0,0,,Welcome back, Ran{\rHonorifics - Dialogue}-chan{\r}!
+Dialogue: 0,0:12:02.13,0:12:04.97,Dialogue,,0,0,0,,So you two did come back without us.
+Dialogue: 0,0:12:05.34,0:12:09.10,Dialogue,,0,0,0,,Sorry, Heiji suddenly wanted to come back.
+Dialogue: 0,0:12:10.18,0:12:11.47,Dialogue,,0,0,0,,Are you all right, Hattori{\rHonorifics - Dialogue}-kun{\r}?
+Dialogue: 0,0:12:12.64,0:12:14.69,Dialogue,,0,0,0,,Oh, yes, I'm fine
+Dialogue: 0,0:12:18.44,0:12:20.98,Dialogue,,0,0,0,,Sonoko{\rHonorifics - Dialogue}-neechan{\r}, what are you looking at?
+Dialogue: 0,0:12:22.86,0:12:23.86,Dialogue,,0,0,0,,Nothing.
+Dialogue: 0,0:12:24.36,0:12:27.57,Dialogue,,0,0,0,,By the way, Ran, is it okay to leave him like that?
+Dialogue: 0,0:12:32.95,0:12:34.79,Dialogue,,0,0,0,,Dad!
+Dialogue: 0,0:12:35.46,0:12:37.00,Dialogue,,0,0,0,,Geez.
+Dialogue: 0,0:12:37.29,0:12:40.09,Dialogue,,0,0,0,,Don't worry. Maybe he just tired while driving here.
+Dialogue: 0,0:12:42.09,0:12:45.47,Dialogue,,0,0,0,,It's terrible! My Chateau Latour...
+Dialogue: 0,0:12:45.93,0:12:47.22,Dialogue,,0,0,0,,Has been smashed!
+Dialogue: 0,0:12:51.81,0:12:53.56,Dialogue,,0,0,0,,What?
+Dialogue: 0,0:12:58.61,0:13:00.02,Dialogue,,0,0,0,,This is horrible.
+Dialogue: 0,0:13:00.23,0:13:03.28,Dialogue,,0,0,0,,Shiratori{\rHonorifics - Dialogue}-kun{\r}, how much was this wine worth?
+Dialogue: 0,0:13:03.82,0:13:07.78,Dialogue,,0,0,0,,Probably to get this kind of wine now would cost several million.
+Dialogue: 0,0:13:07.99,0:13:09.70,Dialogue,,0,0,0,,Se-several million!?
+Dialogue: 0,0:13:09.70,0:13:10.99,Dialogue,,0,0,0,,This is really bad!
+Dialogue: 0,0:13:13.16,0:13:17.54,Dialogue,,0,0,0,,It's either slipped from someone's hand when they took it out...
+Dialogue: 0,0:13:18.08,0:13:20.63,Dialogue,,0,0,0,,Or it was broken by someone on purpose.
+Dialogue: 0,0:13:25.01,0:13:28.01,Dialogue,,0,0,0,,Damn. That's completely obvious!
+Dialogue: 0,0:13:28.18,0:13:29.51,Dialogue,,0,0,0,,Oh, I guess so.
+Dialogue: 0,0:13:31.97,0:13:34.01,Dialogue,,0,0,0,,But who could have done it?
+Dialogue: 0,0:13:35.10,0:13:40.06,Dialogue,,0,0,0,,The problem is that there isn't much chance that it was an outsider.
+Dialogue: 0,0:13:40.52,0:13:44.57,Dialogue,,0,0,0,,Common sense would say, the suspect is one of us.
+Dialogue: 0,0:13:48.24,0:13:52.07,Dialogue,,0,0,0,,Anyway, let's discuss it in the living room instead of down here.
+Dialogue: 0,0:13:52.58,0:13:53.78,Dialogue,,0,0,0,,That's right.
+Dialogue: 0,0:13:54.62,0:13:58.00,Dialogue,,0,0,0,,All right then, I'll come back and clean it up later.
+Dialogue: 0,0:14:05.96,0:14:07.09,Dialogue,,0,0,0,,Well, did you find it?
+Dialogue: 0,0:14:07.22,0:14:09.55,Dialogue,,0,0,0,,No. I haven't found anything.
+Dialogue: 0,0:14:10.76,0:14:12.85,Dialogue,,0,0,0,,Hey, what are you guys doing here?
+Dialogue: 0,0:14:14.01,0:14:14.72,Dialogue,,0,0,0,,Nothing.
+Dialogue: 0,0:14:14.85,0:14:16.56,Dialogue,,0,0,0,,We're not doing anything.
+Dialogue: 0,0:14:18.02,0:14:19.60,Dialogue,,0,0,0,,Come on, we should go too!
+Dialogue: 0,0:14:19.89,0:14:20.98,Dialogue,,0,0,0,,Oh, yes.
+Dialogue: 0,0:14:22.15,0:14:26.32,Dialogue,,0,0,0,,What we know now is that after our visit to the wine cellar,
+Dialogue: 0,0:14:26.74,0:14:28.69,Dialogue,,0,0,0,,And before Shiratori{\rHonorifics - Dialogue}-kun{\r} went down there a second time,
+Dialogue: 0,0:14:29.40,0:14:31.95,Dialogue,,0,0,0,,Only an hour passed where the case was committed during this interval.
+Dialogue: 0,0:14:32.45,0:14:35.87,Dialogue,,0,0,0,,"The case"? Satou{\rHonorifics - Dialogue}-san{\r}...
+Dialogue: 0,0:14:36.20,0:14:40.33,Dialogue,,0,0,0,,Did anyone go down to the cellar during this period of time?
+Dialogue: 0,0:14:41.25,0:14:42.83,Dialogue,,0,0,0,,Y-You guys?
+Dialogue: 0,0:14:44.09,0:14:46.75,Dialogue,,0,0,0,,We were exploring this villa.
+Dialogue: 0,0:14:47.01,0:14:49.51,Dialogue,,0,0,0,,And we also went into the wine cellar.
+Dialogue: 0,0:14:49.55,0:14:51.55,Dialogue,,0,0,0,,But we never touch the bottle!
+Dialogue: 0,0:14:52.05,0:14:53.55,Dialogue,,0,0,0,,Is that true?
+Dialogue: 0,0:14:53.76,0:14:55.93,Dialogue,,0,0,0,,Don't be childish!
+Dialogue: 0,0:14:56.31,0:14:58.02,Dialogue,,0,0,0,,Come to think of it, what about you?
+Dialogue: 0,0:14:58.43,0:15:00.06,Dialogue,,0,0,0,,Are you sure when you being drunk...
+Dialogue: 0,0:15:00.14,0:15:05.02,Dialogue,,0,0,0,,You didn't wander into the cellar and break the wine?
+Dialogue: 0,0:15:05.40,0:15:07.69,Dialogue,,0,0,0,,No way! How could I?
+Dialogue: 0,0:15:10.49,0:15:12.15,Dialogue,,0,0,0,,Dad?
+Dialogue: 0,0:15:12.49,0:15:18.12,Dialogue,,0,0,0,,Actually, I can't remember anything other than going to the toilet.
+Dialogue: 0,0:15:18.54,0:15:21.16,Dialogue,,0,0,0,,Does this mean that you are the most likely suspect?
+Dialogue: 0,0:15:21.50,0:15:22.41,Dialogue,,0,0,0,,What?
+Dialogue: 0,0:15:22.67,0:15:26.34,Dialogue,,0,0,0,,Calm down! Many people went to the toilet.
+Dialogue: 0,0:15:26.63,0:15:27.80,Dialogue,,0,0,0,,For example, I also go there too...
+Dialogue: 0,0:15:28.92,0:15:32.05,Dialogue,,0,0,0,,Could it be, you the one who smashed my Latour because of jealous, Takagi{\rHonorifics - Dialogue}-kun{\r}?
+Dialogue: 0,0:15:32.51,0:15:34.80,Dialogue,,0,0,0,,There's no way I would do that.
+Dialogue: 0,0:15:34.83,0:15:35.78,Dialogue,,0,0,0,,Is that true?
+Dialogue: 0,0:15:37.26,0:15:41.10,Dialogue,,0,0,0,,And can we be sure that you didn't break it yourself?
+Dialogue: 0,0:15:41.31,0:15:42.64,Dialogue,,0,0,0,,N-Nonsense!
+Dialogue: 0,0:15:42.98,0:15:45.02,Dialogue,,0,0,0,,Stop it, both of you!
+Dialogue: 0,0:15:45.02,0:15:46.61,Dialogue,,0,0,0,,That's right, behave yourself!
+Dialogue: 0,0:15:47.82,0:15:49.19,Dialogue,,0,0,0,,What's wrong, Heiji?
+Dialogue: 0,0:15:50.28,0:15:55.16,Dialogue,,0,0,0,,You know, you've been quiet for a while. That's not look like you.
+Dialogue: 0,0:15:55.28,0:15:56.74,Dialogue,,0,0,0,,Nothing.
+Dialogue: 0,0:15:57.49,0:15:59.03,Dialogue,,0,0,0,,I'm just thinking about something.
+Dialogue: 0,0:16:02.62,0:16:04.79,Dialogue,,0,0,0,,Did you noticed anything?
+Dialogue: 0,0:16:05.13,0:16:06.00,Dialogue,,0,0,0,,Nothing.
+Dialogue: 0,0:16:06.42,0:16:11.30,Dialogue,,0,0,0,,Except for one person who went out with a bag with a serious look.
+Dialogue: 0,0:16:15.18,0:16:16.14,Dialogue,,0,0,0,,Her?
+Dialogue: 0,0:16:17.85,0:16:20.68,Dialogue,,0,0,0,,But where could that thing have gone?
+Dialogue: 0,0:16:21.43,0:16:24.56,Dialogue,,0,0,0,,I told you, someone picked it up and ate it!
+Dialogue: 0,0:16:24.77,0:16:27.40,Dialogue,,0,0,0,,No way, only you would do that.
+Dialogue: 0,0:16:27.61,0:16:28.61,Dialogue,,0,0,0,,Hey, you guys.
+Dialogue: 0,0:16:29.90,0:16:31.86,Dialogue,,0,0,0,,Are you hiding something from me again?
+Dialogue: 0,0:16:32.82,0:16:34.45,Dialogue,,0,0,0,,Nothing important.
+Dialogue: 0,0:16:34.78,0:16:38.12,Dialogue,,0,0,0,,Genta{\rHonorifics - Dialogue}-kun{\r} dropped a grape in the cellar,
+Dialogue: 0,0:16:38.37,0:16:40.87,Dialogue,,0,0,0,,And it rolled under the wine rack.
+Dialogue: 0,0:16:41.54,0:16:43.83,Dialogue,,0,0,0,,But we just looked before and it just vanished.
+Dialogue: 0,0:16:44.66,0:16:47.00,Dialogue,,0,0,0,,Someone must have picked it up and threw it away.
+Dialogue: 0,0:17:04.43,0:17:05.73,Thoughts,,0,0,0,,{\be10}Just a wind...
+Dialogue: 0,0:17:12.28,0:17:14.44,Thoughts,,0,0,0,,{\be10}Is this... Could it be?
+Dialogue: 0,0:17:24.66,0:17:25.33,Thoughts,,0,0,0,,{\be10}Is this...
+Dialogue: 0,0:17:26.96,0:17:28.62,Dialogue,,0,0,0,,This bottle is new!
+Dialogue: 0,0:17:28.88,0:17:29.96,Dialogue,,0,0,0,,Strange, isn't it?
+Dialogue: 0,0:17:31.25,0:17:33.30,Dialogue,,0,0,0,,I noticed that too.
+Dialogue: 0,0:17:33.46,0:17:34.38,Dialogue,,0,0,0,,Hattori.
+Dialogue: 0,0:17:35.22,0:17:36.17,Dialogue,,0,0,0,,So is that mean...
+Dialogue: 0,0:17:36.47,0:17:37.34,Dialogue,,0,0,0,,Yeah.
+Dialogue: 0,0:17:37.68,0:17:40.30,Dialogue,,0,0,0,,After hearing what that little girl said, I finally understood it.
+Dialogue: 0,0:17:40.89,0:17:44.14,Dialogue,,0,0,0,,She is the only person who could have done this.
+Dialogue: 0,0:17:44.68,0:17:45.31,Dialogue,,0,0,0,,Right?
+Dialogue: 0,0:17:49.19,0:17:51.31,Dialogue,,0,0,0,,You have solved the case?
+Dialogue: 0,0:17:51.86,0:17:53.77,Dialogue,,0,0,0,,It that true, Hattori{\rHonorifics - Dialogue}-kun{\r}?
+Dialogue: 0,0:17:54.11,0:17:57.32,Dialogue,,0,0,0,,Yes, the culprit who broke the wine is...
+Dialogue: 0,0:18:02.16,0:18:03.33,Dialogue,,0,0,0,,What's wrong?
+Dialogue: 0,0:18:03.37,0:18:05.62,Dialogue,,0,0,0,,This is annoying, tell us already!
+Dialogue: 0,0:18:06.71,0:18:10.83,Dialogue,,0,0,0,,Oh, sorry, Kudou. Oh, no, Conan{\rHonorifics - Dialogue}-kun{\r}, you explain it.
+Dialogue: 0,0:18:12.59,0:18:14.09,Dialogue,,0,0,0,,What's wrong, Heiji?
+Dialogue: 0,0:18:14.50,0:18:16.51,Dialogue,,0,0,0,,It's okay. Go ahead, Conan{\rHonorifics - Dialogue}-kun{\r}.
+Dialogue: 0,0:18:20.30,0:18:24.85,Dialogue,,0,0,0,,In fact, the culprit is a dormouse who accidentally sneaked into this villa.
+Dialogue: 0,0:18:25.39,0:18:26.22,Dialogue,,0,0,0,,Dormouse?
+Dialogue: 0,0:18:26.81,0:18:29.85,Dialogue,,0,0,0,,Dormouse? You mean those little animal that look like a mouse?
+Dialogue: 0,0:18:30.02,0:18:30.64,Dialogue,,0,0,0,,Yes.
+Dialogue: 0,0:18:31.23,0:18:33.36,Dialogue,,0,0,0,,What do you mean?
+Dialogue: 0,0:18:33.90,0:18:38.07,Dialogue,,0,0,0,,This dormouse that snuck into the villa was attracted by the smells from the wine cellar.
+Dialogue: 0,0:18:38.65,0:18:41.41,Dialogue,,0,0,0,,So it went down stairs to the door of the wine cellar.
+Dialogue: 0,0:18:41.99,0:18:45.87,Dialogue,,0,0,0,,And at the same time, Mitsuhiko and the others were opened the wine cellar door.
+Dialogue: 0,0:18:46.33,0:18:48.70,Dialogue,,0,0,0,,So it got into the wine cellar.
+Dialogue: 0,0:18:49.29,0:18:53.75,Dialogue,,0,0,0,,I see! It was the dormouse who ate the grape that Genta{\rHonorifics - Dialogue}-kun{\r} dropped!
+Dialogue: 0,0:18:54.00,0:18:54.50,Dialogue,,0,0,0,,Yes.
+Dialogue: 0,0:18:55.05,0:18:59.30,Dialogue,,0,0,0,,Then, after the three of them left, it was started when Uncle came in.
+Dialogue: 0,0:18:59.72,0:19:02.26,Dialogue,,0,0,0,,The dormouse climbed up into the special wine rack...
+Dialogue: 0,0:19:02.64,0:19:05.97,Dialogue,,0,0,0,,And hiding inside an empty wine slot.
+Dialogue: 0,0:19:07.02,0:19:09.52,Dialogue,,0,0,0,,Uncle didn't notice...
+Dialogue: 0,0:19:18.74,0:19:24.36,Dialogue,,0,0,0,,And he mistakenly put the wine bottle back at the empty slot where the dormouse hiding.
+Dialogue: 0,0:19:24.66,0:19:26.28,Dialogue,,0,0,0,,Eh? In that case...
+Dialogue: 0,0:19:26.62,0:19:32.75,Dialogue,,0,0,0,,Yes, after Uncle left, the dormouse pushed the wine bottle out, and it smashed.
+Dialogue: 0,0:19:33.29,0:19:34.33,Dialogue,,0,0,0,,And the evidence is...
+Dialogue: 0,0:19:34.75,0:19:35.67,Dialogue,,0,0,0,,Look.
+Dialogue: 0,0:19:36.15,0:19:41.65,Signs,,0,0,0,,Japanese Dormouse
+Dialogue: 0,0:19:36.29,0:19:38.55,Dialogue,,0,0,0,,I found it behind the wine rack.
+Dialogue: 0,0:19:38.63,0:19:40.71,Dialogue,,0,0,0,,It's almost halfway into its hibernated.
+Dialogue: 0,0:19:42.26,0:19:44.97,Dialogue,,0,0,0,,What are you going to do now, Dad? You have to pay for it.
+Dialogue: 0,0:19:46.39,0:19:48.22,Dialogue,,0,0,0,,I don't think that will be necessary.
+Dialogue: 0,0:19:49.56,0:19:51.73,Dialogue,,0,0,0,,Because that wine is a fake.
+Dialogue: 0,0:19:53.02,0:19:54.65,Dialogue,,0,0,0,,F-Fake?
+Dialogue: 0,0:19:55.06,0:19:56.52,Dialogue,,0,0,0,,Is that right, Heiji{\rHonorifics - Dialogue}-niichan{\r}?
+Dialogue: 0,0:19:56.86,0:19:58.94,Dialogue,,0,0,0,,Oh, yes, the real one is...
+Dialogue: 0,0:20:01.86,0:20:02.95,Dialogue,,0,0,0,,Here.
+Dialogue: 0,0:20:04.49,0:20:07.32,Dialogue,,0,0,0,,It really is my Chateau Latour!
+Dialogue: 0,0:20:07.99,0:20:09.28,Dialogue,,0,0,0,,What does it mean?
+Dialogue: 0,0:20:09.83,0:20:12.29,Dialogue,,0,0,0,,Sonoko{\rHonorifics - Dialogue}-neechan{\r}, you don't have to pretend anymore.
+Dialogue: 0,0:20:14.12,0:20:16.71,Dialogue,,0,0,0,,Oh no, they discovered me.
+Dialogue: 0,0:20:17.13,0:20:21.71,Dialogue,,0,0,0,,The fact is that we recently finished a bottle of the same wine at a family party.
+Dialogue: 0,0:20:22.13,0:20:28.72,Dialogue,,0,0,0,,Then a great idea came to my mind, and I switched a label with a cheap Latour and brought it with me.
+Dialogue: 0,0:20:29.31,0:20:32.73,Dialogue,,0,0,0,,Consider this a little girlish prank!
+Dialogue: 0,0:20:34.85,0:20:36.98,Dialogue,,0,0,0,,Come on, Sonoko...
+Dialogue: 0,0:20:37.73,0:20:38.73,Dialogue,,0,0,0,,Sorry, sorry.
+Dialogue: 0,0:20:39.15,0:20:41.69,Dialogue,,0,0,0,,Well, thanks to you, everything worked out.
+Dialogue: 0,0:20:41.94,0:20:45.74,Dialogue,,0,0,0,,Exactly! Thanks to you, the wine bottle was not damaged.
+Dialogue: 0,0:20:46.41,0:20:48.95,Dialogue,,0,0,0,,Well, in that case, shall we all make a toast?
+Dialogue: 0,0:20:49.91,0:20:51.45,Dialogue,,0,0,0,,Cheers!
+Dialogue: 0,0:20:52.66,0:20:56.54,Thoughts,,0,0,0,,{\be10}Thus, the case was solved, and everyone became happy again.
+Dialogue: 0,0:20:58.33,0:21:01.09,Thoughts,,0,0,0,,{\be10}Everyone, except Uncle, who was forbidden to drink by Auntie...
+Dialogue: 0,0:21:02.51,0:21:04.38,Thoughts,,0,0,0,,{\be10}And Hattori Heiji.
+Dialogue: 0,0:21:10.93,0:21:12.31,Dialogue,,0,0,0,,Hey, Hattori.
+Dialogue: 0,0:21:14.48,0:21:16.64,Dialogue,,0,0,0,,Why is your sock rolled up?
+Dialogue: 0,0:21:17.06,0:21:18.60,Dialogue,,0,0,0,,Is there some reason for that?
+Dialogue: 0,0:21:21.11,0:21:24.44,Dialogue,,0,0,0,,Oh, this? This is the latest style in Osaka.
+Dialogue: 0,0:21:30.12,0:21:31.83,Dialogue,,0,0,0,,You broke the wine bottle, right?
+Dialogue: 0,0:21:33.04,0:21:34.62,Dialogue,,0,0,0,,W-what are you talking about?
+Dialogue: 0,0:21:35.21,0:21:37.37,Dialogue,,0,0,0,,Under the rolled up part of your socks...
+Dialogue: 0,0:21:37.67,0:21:40.92,Dialogue,,0,0,0,,There was a stain from that wine.
+Dialogue: 0,0:21:41.42,0:21:43.17,Dialogue,,0,0,0,,That was a solid evidence.
+Dialogue: 0,0:21:46.67,0:21:48.63,Dialogue,,0,0,0,,So you knew.
+Dialogue: 0,0:21:49.76,0:21:55.85,Dialogue,,0,0,0,,When I went to the toilet, I wanted to look at that expensive wine again.
+Dialogue: 0,0:21:56.77,0:21:59.14,Dialogue,,0,0,0,,But when I got to the rack...
+Dialogue: 0,0:21:59.90,0:22:03.86,Dialogue,,0,0,0,,The bottle was not at the original place and it was sticking out a bit.
+Dialogue: 0,0:22:04.94,0:22:08.90,Dialogue,,0,0,0,,I thought, "That's strange..." and when I took out the bottle...
+Dialogue: 0,0:22:14.29,0:22:17.87,Dialogue,,0,0,0,,So stupid! It was the worst blunder in Hattori Heiji's life!
+Dialogue: 0,0:22:18.71,0:22:23.29,Dialogue,,0,0,0,,Kudou, I wanted to tell you everything right away, but...
+Dialogue: 0,0:22:23.50,0:22:24.88,Dialogue,,0,0,0,,I know.
+Dialogue: 0,0:22:25.42,0:22:27.51,Dialogue,,0,0,0,,Kisaki{\rHonorifics - Dialogue}-sensei{\r} also noticed.
+Dialogue: 0,0:22:27.51,0:22:32.26,Dialogue,,0,0,0,,And she said, "This is a great opportunity to restrict my husband's drinking. Work with me."
+Dialogue: 0,0:22:34.01,0:22:35.18,Dialogue,,0,0,0,,She found me out.
+Dialogue: 0,0:22:36.85,0:22:39.14,Dialogue,,0,0,0,,Yes, everything was written on your face.
+Dialogue: 0,0:22:39.14,0:22:40.94,Signs,,0,0,0,,I\NDID\NIT
+Dialogue: 0,0:22:41.31,0:22:45.98,Dialogue,,0,0,0,,Forget it, that so-called "stupid honesty" is kind of a plus for you.
+Dialogue: 0,0:22:46.78,0:22:50.65,Dialogue,,0,0,0,,Kisaki{\rHonorifics - Dialogue}-sensei{\r} is just want to take care of Uncle's health.
+Dialogue: 0,0:22:51.16,0:22:53.24,Dialogue,,0,0,0,,I won't say anything either.
+Dialogue: 0,0:22:53.99,0:22:57.08,Dialogue,,0,0,0,,I'm embarrassed that I owe you another favor again.
+Dialogue: 0,0:22:57.37,0:22:59.37,Dialogue,,0,0,0,,No, I'm just returning your favor.
+Dialogue: 0,0:23:01.33,0:23:07.42,Thoughts,,0,0,0,,{\be10}Idiot, thanks to you, I was able to feel again what I have not felt for a long time.
+Dialogue: 0,0:23:08.80,0:23:11.34,Thoughts,,0,0,0,,{\be10}But I will not tell anyone about this.

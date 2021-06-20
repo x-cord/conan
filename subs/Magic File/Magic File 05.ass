@@ -1,0 +1,525 @@
+[Script Info]
+Title: Detective Conan - Magic File 05
+TL Source: DCTP
+ScriptType: v4.00+
+WrapStyle: 3
+PlayResX: 1440
+PlayResY: 1080
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Dialogue,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00401311,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Dialogue Top,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00401311,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,8,30,30,55,1
+Style: Signs,FrancophilSans,74,&H14FFFFFF,&H00FFFFFF,&H46101010,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,8,30,30,55,1
+Style: Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,0,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Radio,FrancophilSans,74,&H00BEE1FF,&H00FFFFFF,&H000B2A42,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Narration,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00BF6F00,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Narration Off,FrancophilSans,74,&H6E8C6F00,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,0,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Flashback,FrancophilSans,74,&H00CDFAFF,&H00FFFFFF,&H00373737,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Flashback Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00CCFFFF,&HC0313134,-1,0,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Honorifics - Dialogue,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00401311,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Signs,FrancophilSans,74,&H14FFFFFF,&H00FFFFFF,&H46101010,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,-1,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Honorifics - Radio,FrancophilSans,74,&H00BEE1FF,&H00FFFFFF,&H000B2A42,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Narration,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00BF6F00,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Narration Off,FrancophilSans,74,&H6E8C6F00,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,-1,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Honorifics - Flashback,FrancophilSans,74,&H00CDFAFF,&H00FFFFFF,&H00373737,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Flashback Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00CCFFFF,&HC0313134,-1,-1,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Masks,FrancophilSans,74,&H00000000,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,2,0,0,0,1
+Style: Title,Conan Episode Title,74,&H00E1E4E3,&H000000FF,&HC8DBDAE1,&HC0000000,-1,0,0,0,100,100,0,0,1,1,0,5,0,0,0,1
+Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-1,0,0,0,100,100,0,0,1,0,0,2,0,0,65,1
+Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
+Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
+Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:05.40,0:00:07.94,Dialogue,,0,0,0,,Conan{\rHonorifics - Dialogue}-kun{\r}, breakfast is ready!
+Dialogue: 0,0:00:09.78,0:00:11.53,Dialogue,,0,0,0,,Here, Conan{\rHonorifics - Dialogue}-kun{\r}, your rice.
+Dialogue: 0,0:00:11.53,0:00:12.99,Dialogue,,0,0,0,,Thank you...
+Dialogue: 0,0:00:12.99,0:00:15.49,Dialogue,,0,0,0,,It's gotta be in Japanese style if we're talkin' about breakfast!
+Dialogue: 0,0:00:18.91,0:00:21.16,Dialogue,,0,0,0,,Aw snaps, this miso soup has a great flavor!
+Dialogue: 0,0:00:25.25,0:00:27.59,Dialogue,,0,0,0,,The stock is made from kelp and dried bonito flakes, right?
+Dialogue: 0,0:00:27.59,0:00:30.88,Dialogue,,0,0,0,,Yeah, I had some time this morning, so I brewed some soup stock.
+Dialogue: 0,0:00:31.09,0:00:32.51,Dialogue,,0,0,0,,How thoughtful of ya!
+Dialogue: 0,0:00:32.51,0:00:36.34,Dialogue,,0,0,0,,As for my mom, she sometimes uses fish bones and shells as stock.
+Dialogue: 0,0:00:38.10,0:00:42.64,Dialogue,,0,0,0,,Ya gotta let your stock simmer and\Nadd a {\i1}dash{\i0} of flavor with sweet miso!
+Dialogue: 0,0:00:42.64,0:00:44.85,Dialogue,,0,0,0,,Add a lesser amount of miso if you're makin' Kansai style.
+Dialogue: 0,0:00:46.10,0:00:47.98,Dialogue,,0,0,0,,And why the hell are you here!?
+Dialogue: 0,0:00:53.61,0:00:54.20,Dialogue,,0,0,0,,Oh, no...
+Dialogue: 0,0:00:54.78,0:00:56.57,Dialogue,,0,0,0,,Why is Heiji{\rHonorifics - Dialogue}-niichan{\r} staying here?
+Dialogue: 0,0:00:57.16,0:01:03.75,Dialogue,,0,0,0,,Hattori{\rHonorifics - Dialogue}-kun{\r} saw that incident on the news and rushed\Nover because he was worried about you, Conan{\rHonorifics - Dialogue}-kun{\r}.
+Dialogue: 0,0:01:04.00,0:01:05.58,Dialogue,,0,0,0,,Grabbed the first bullet train in the mornin'!
+Dialogue: 0,0:01:05.96,0:01:07.71,Dialogue,,0,0,0,,And then, Ku—
+Dialogue: 0,0:01:08.58,0:01:11.38,Dialogue,,0,0,0,,{\i1}Couth{\i0} as I was, when I saw you sleepin' so soundly...
+Dialogue: 0,0:01:11.38,0:01:14.38,Dialogue,,0,0,0,,I chose not to wake you up, Conan{\rHonorifics - Dialogue}-kun{\r}.
+Dialogue: 0,0:01:15.05,0:01:16.09,Dialogue,,0,0,0,,Geez!
+Dialogue: 0,0:01:16.72,0:01:19.60,Dialogue,,0,0,0,,Last night I missed Youko{\rHonorifics - Dialogue}-chan{\r}'s drama...
+Dialogue: 0,0:01:19.60,0:01:23.85,Dialogue,,0,0,0,,And since early in the morning I had to listen to\Nall of that yadda yadda in the Kansai dialect...
+Dialogue: 0,0:01:23.85,0:01:25.31,Dialogue,,0,0,0,,What a pain!
+Dialogue: 0,0:01:26.64,0:01:27.39,Dialogue,,0,0,0,,Right.
+Dialogue: 0,0:01:27.39,0:01:28.60,Dialogue,,0,0,0,,Before I forget...
+Dialogue: 0,0:01:28.94,0:01:29.44,Dialogue,,0,0,0,,May I?
+Dialogue: 0,0:01:30.94,0:01:32.90,Dialogue,,0,0,0,,My souvenirs, sou-ve-nirs!
+Dialogue: 0,0:01:33.53,0:01:34.90,Dialogue,,0,0,0,,I'd better get 'em while I still remember.
+Dialogue: 0,0:01:34.90,0:01:36.20,Dialogue,,0,0,0,,Nothing for you!
+Dialogue: 0,0:01:36.74,0:01:37.49,Dialogue,,0,0,0,,I mean we didn't buy yours...
+Dialogue: 0,0:01:38.11,0:01:39.28,Dialogue,,0,0,0,,Sorry...
+Dialogue: 0,0:01:39.28,0:01:41.95,Dialogue,,0,0,0,,I totally forgot about buying yours and Kazuha{\rHonorifics - Dialogue}-chan{\r}'s.
+Dialogue: 0,0:01:41.95,0:01:43.66,Dialogue,,0,0,0,,Geez, that's too bad.
+Dialogue: 0,0:01:43.87,0:01:47.92,Dialogue,,0,0,0,,Instead of souvenirs, I'll just have to settle for\Nhearing about all your brilliant exploits this time.
+Dialogue: 0,0:01:51.21,0:01:52.80,Dialogue,,0,0,0,,This grilled egg roll is sweet!
+Dialogue: 0,0:01:53.75,0:01:59.22,Dialogue,,0,0,0,,We call it a dashimaki in Kansai, and instead of adding\Nsugar, we mix beaten eggs in dashi and mirin...
+Dialogue: 0,0:01:57.47,0:02:01.51,Dialogue Top,,0,0,0,,Come to think of it, I wonder if those guys\Ngave Kobayashi{\rHonorifics - Dialogue}-sensei{\r} her gift already?
+Dialogue: 0,0:02:02.97,0:02:08.98,Signs,Sign,0,0,0,,NIIGATA~TOKYO SOUVENIR CAPRICCIO
+Dialogue: 0,0:02:14.82,0:02:16.07,Dialogue,,0,0,0,,This is for me?
+Dialogue: 0,0:02:16.61,0:02:17.44,Dialogue,,0,0,0,,Yes!
+Dialogue: 0,0:02:17.44,0:02:20.45,Dialogue,,0,0,0,,We think this suits you perfectly, Kobayashi{\rHonorifics - Dialogue}-sensei{\r}.
+Dialogue: 0,0:02:20.45,0:02:22.78,Dialogue,,0,0,0,,We picked this out for you with Ai{\rHonorifics - Dialogue}-chan{\r}!
+Dialogue: 0,0:02:22.78,0:02:24.74,Dialogue,,0,0,0,,Though the one who paid for it was the professor.
+Dialogue: 0,0:02:25.24,0:02:26.37,Dialogue,,0,0,0,,Thank you!
+Dialogue: 0,0:02:26.37,0:02:27.41,Dialogue,,0,0,0,,May I open it?
+Dialogue: 0,0:02:27.41,0:02:28.58,Dialogue,,0,0,0,,Of course!
+Dialogue: 0,0:02:32.79,0:02:34.71,Dialogue,,0,0,0,,Wow, how cute!
+Dialogue: 0,0:02:34.71,0:02:35.88,Dialogue,,0,0,0,,Thank you!
+Dialogue: 0,0:02:35.88,0:02:37.09,Dialogue,,0,0,0,,It's a snow lass, right?
+Dialogue: 0,0:02:40.38,0:02:41.76,Dialogue,,0,0,0,,Let me take a look, please!
+Dialogue: 0,0:02:43.47,0:02:44.35,Dialogue,,0,0,0,,Isn't this...
+Dialogue: 0,0:02:44.35,0:02:46.43,Dialogue,,0,0,0,,The doll Sonoko{\rHonorifics - Dialogue}-oneesan{\r} bought?
+Dialogue: 0,0:02:47.93,0:02:48.81,Dialogue,,0,0,0,,Come to think of it...
+Dialogue: 0,0:02:49.56,0:02:50.77,Dialogue,,0,0,0,,Hey, Ran!
+Dialogue: 0,0:02:50.77,0:02:51.90,Dialogue,,0,0,0,,What do you think of this?
+Dialogue: 0,0:02:52.73,0:02:53.56,Dialogue,,0,0,0,,What do you mean "what"?
+Dialogue: 0,0:02:54.19,0:02:56.11,Dialogue,,0,0,0,,It's a souvenir for Makoto{\rHonorifics - Dialogue}-san{\r}!
+Dialogue: 0,0:02:57.32,0:02:59.28,Dialogue,,0,0,0,,Why not, it's really cute!
+Dialogue: 0,0:02:59.28,0:03:00.91,Dialogue,,0,0,0,,And looks a little like Sonoko.
+Dialogue: 0,0:03:00.91,0:03:01.74,Dialogue,,0,0,0,,Really?
+Dialogue: 0,0:03:02.95,0:03:05.91,Dialogue,,0,0,0,,And what is it doing here?
+Dialogue: 0,0:03:05.91,0:03:06.87,Dialogue,,0,0,0,,Beats me...
+Dialogue: 0,0:03:07.54,0:03:09.00,Dialogue,,0,0,0,,Uhm, you guys...
+Dialogue: 0,0:03:11.25,0:03:13.25,Dialogue,,0,0,0,,If this thing is here with us, that must mean...
+Dialogue: 0,0:03:22.09,0:03:23.18,Dialogue,,0,0,0,,Here, for you.
+Dialogue: 0,0:03:24.60,0:03:25.39,Dialogue,,0,0,0,,What's this?
+Dialogue: 0,0:03:25.93,0:03:27.22,Dialogue,,0,0,0,,A present.
+Dialogue: 0,0:03:27.22,0:03:29.14,Dialogue,,0,0,0,,I was in Niigata yesterday, you know.
+Dialogue: 0,0:03:29.81,0:03:30.60,Dialogue,,0,0,0,,I'm honored.
+Dialogue: 0,0:03:31.44,0:03:32.52,Dialogue,,0,0,0,,Niigata, you say?
+Dialogue: 0,0:03:35.02,0:03:36.57,Dialogue,,0,0,0,,I want you to open it and see!
+Dialogue: 0,0:03:36.57,0:03:37.73,Dialogue,,0,0,0,,Oh, sorry...
+Dialogue: 0,0:03:39.86,0:03:43.57,Dialogue,,0,0,0,,Please think of it as me and carry with you all times.
+Dialogue: 0,0:03:46.37,0:03:47.24,Dialogue,,0,0,0,,I see.
+Dialogue: 0,0:03:48.04,0:03:50.12,Dialogue,,0,0,0,,Although I don't know which is you...
+Dialogue: 0,0:03:50.12,0:03:54.42,Dialogue,,0,0,0,,Among the two swans here, the female\None must represent Sonoko{\rHonorifics - Dialogue}-san{\r}, right?
+Dialogue: 0,0:03:54.79,0:03:57.21,Dialogue,,0,0,0,,Yes, that female one represents me...
+Dialogue: 0,0:03:58.42,0:03:59.26,Dialogue,,0,0,0,,Female?
+Dialogue: 0,0:04:03.80,0:04:06.35,Dialogue,,0,0,0,,S-WHAAAAA—!?
+Dialogue: 0,0:04:08.18,0:04:08.76,Dialogue,,0,0,0,,Uhm...
+Dialogue: 0,0:04:08.76,0:04:10.02,Dialogue,,0,0,0,,Could there have been a mix-up?
+Dialogue: 0,0:04:11.18,0:04:12.10,Dialogue,,0,0,0,,Yeah, well...
+Dialogue: 0,0:04:13.56,0:04:14.60,Dialogue,,0,0,0,,I see.
+Dialogue: 0,0:04:15.35,0:04:18.52,Dialogue,,0,0,0,,The same wrappers from the lodge and the same-sized boxes...
+Dialogue: 0,0:04:19.78,0:04:20.53,Dialogue,,0,0,0,,And they weigh...
+Dialogue: 0,0:04:21.49,0:04:22.61,Dialogue,,0,0,0,,Almost the same.
+Dialogue: 0,0:04:23.53,0:04:27.62,Dialogue,,0,0,0,,Because of this, it's no wonder that you,\Nmiss, and the kids here didn't notice it.
+Dialogue: 0,0:04:27.95,0:04:28.74,Dialogue,,0,0,0,,But...
+Dialogue: 0,0:04:28.74,0:04:31.37,Dialogue,,0,0,0,,Why were the two boxes swapped?
+Dialogue: 0,0:04:32.16,0:04:33.71,Dialogue,,0,0,0,,That is the question!
+Dialogue: 0,0:04:33.71,0:04:34.42,Dialogue,,0,0,0,,Oh, thanks.
+Dialogue: 0,0:04:35.08,0:04:40.09,Dialogue,,0,0,0,,The question is when, where, and\Nhow the two boxes got confused.
+Dialogue: 0,0:04:40.55,0:04:41.92,Dialogue,,0,0,0,,If I had to hazard a guess...
+Dialogue: 0,0:04:42.72,0:04:44.22,Dialogue,,0,0,0,,Sorry, is it too hot?
+Dialogue: 0,0:04:44.97,0:04:46.55,Dialogue,,0,0,0,,This is indeed a mystery.
+Dialogue: 0,0:04:47.64,0:04:48.14,Dialogue,,0,0,0,,Mist?
+Dialogue: 0,0:04:48.14,0:04:48.85,Dialogue,,0,0,0,,You want water?
+Dialogue: 0,0:04:48.85,0:04:50.68,Dialogue,,0,0,0,,Mystery, mystery!
+Dialogue: 0,0:04:50.68,0:04:51.52,Dialogue,,0,0,0,,I see...
+Dialogue: 0,0:04:52.14,0:04:53.23,Dialogue,,0,0,0,,"Mystery"?
+Dialogue: 0,0:04:53.23,0:04:54.10,Dialogue,,0,0,0,,Don't exaggerate things.
+Dialogue: 0,0:04:54.56,0:04:57.31,Dialogue,,0,0,0,,Nah, you can't be too sure.
+Dialogue: 0,0:04:57.31,0:05:03.49,Dialogue,,0,0,0,,Some mysteries may appear trivial, but oftentimes\Nthey connect to a colossal-scaled enigma!
+Dialogue: 0,0:05:04.19,0:05:05.07,Dialogue,,0,0,0,,Well...
+Dialogue: 0,0:05:05.07,0:05:08.99,Dialogue,,0,0,0,,Given that Conan{\rHonorifics - Dialogue}-kun{\r} is still so little, there's\Nno way he could've comprehended that part.
+Dialogue: 0,0:05:10.03,0:05:11.16,Dialogue,,0,0,0,,Could it be...
+Dialogue: 0,0:05:11.16,0:05:13.75,Dialogue,,0,0,0,,This is the work of someone who'd\Nwant me and Makoto{\rHonorifics - Dialogue}-san{\r} separated?
+Dialogue: 0,0:05:14.41,0:05:16.04,Dialogue,,0,0,0,,Well, that's definitely possible.
+Dialogue: 0,0:05:16.54,0:05:17.00,Dialogue,,0,0,0,,Not.
+Dialogue: 0,0:05:17.67,0:05:18.58,Dialogue,,0,0,0,,On the other hand...
+Dialogue: 0,0:05:18.58,0:05:22.00,Dialogue,,0,0,0,,Someone might've wanted to interfere with\NKobayashi{\rHonorifics - Dialogue}-sensei{\r} and Inspector Shiratori's feelings...
+Dialogue: 0,0:05:22.00,0:05:23.59,Dialogue,,0,0,0,,Causing them to play this kind of trick!
+Dialogue: 0,0:05:24.42,0:05:26.09,Dialogue,,0,0,0,,That possibility is quite high, too.
+Dialogue: 0,0:05:26.55,0:05:27.97,Dialogue,,0,0,0,,I said that's not it!
+Dialogue: 0,0:05:28.97,0:05:31.10,Dialogue,,0,0,0,,But, ladies and gentlemen!
+Dialogue: 0,0:05:31.10,0:05:34.64,Dialogue,,0,0,0,,As long as the famous Detective of the\NWest—Hattori Heiji—is in charge...
+Dialogue: 0,0:05:34.64,0:05:36.19,Dialogue,,0,0,0,,No mystery will be left unsolved!
+Dialogue: 0,0:05:37.14,0:05:38.56,Dialogue,,0,0,0,,Just leave it to the expert!
+Dialogue: 0,0:05:39.73,0:05:41.07,Dialogue,,0,0,0,,We're counting on you!
+Dialogue: 0,0:05:43.32,0:05:47.20,Dialogue,,0,0,0,,Oh, right, we've also bought senbei from Niigata!
+Dialogue: 0,0:05:47.20,0:05:49.24,Dialogue,,0,0,0,,You don't have to worry about gifts for me.
+Dialogue: 0,0:05:49.24,0:05:51.53,Dialogue,,0,0,0,,It's all right, because we've bought a lot.
+Dialogue: 0,0:05:52.08,0:05:55.58,Dialogue,,0,0,0,,But, I don't think hot cocoa and senbei go together...
+Dialogue: 0,0:05:57.75,0:06:01.09,Dialogue,,0,0,0,,So did you guys return from Kitanosawamura by car?
+Dialogue: 0,0:06:01.50,0:06:02.50,Dialogue,,0,0,0,,Yeah.
+Dialogue: 0,0:06:02.50,0:06:06.84,Dialogue,,0,0,0,,Everyone rode with Uncle Mouri in his rental car.
+Dialogue: 0,0:06:06.84,0:06:10.30,Dialogue,,0,0,0,,If that's the case, it's likely the presents got swapped in the car.
+Dialogue: 0,0:06:11.01,0:06:11.26,Dialogue,,0,0,0,,And?
+Dialogue: 0,0:06:11.72,0:06:13.89,Dialogue,,0,0,0,,Where were the two boxes placed?
+Dialogue: 0,0:06:14.47,0:06:15.47,Dialogue,,0,0,0,,Inside a bag?
+Dialogue: 0,0:06:16.64,0:06:18.52,Dialogue,,0,0,0,,Ayumi held it at all times.
+Dialogue: 0,0:06:18.52,0:06:19.73,Dialogue,,0,0,0,,I'd hate to see it break.
+Dialogue: 0,0:06:20.19,0:06:22.52,Dialogue,,0,0,0,,I also had mine placed on my lap the whole time.
+Dialogue: 0,0:06:23.44,0:06:26.86,Dialogue,,0,0,0,,Because it's a super-super important\Nsouvenir for my awesome Makoto{\rHonorifics - Dialogue}-san{\r}!
+Dialogue: 0,0:06:29.99,0:06:31.16,Dialogue,,0,0,0,,Well, anyway...
+Dialogue: 0,0:06:31.16,0:06:34.03,Dialogue,,0,0,0,,Go ahead and tell me where everyone was sitting in the car.
+Dialogue: 0,0:06:36.91,0:06:38.71,Dialogue,,0,0,0,,The boxes in question were...
+Dialogue: 0,0:06:40.08,0:06:45.09,Signs,Sign,0,0,0,,Conan
+Dialogue: 0,0:06:40.08,0:06:45.09,Signs,Sign,0,0,0,,Mouri
+Dialogue: 0,0:06:40.08,0:06:45.09,Signs,Sign,0,0,0,,Ran
+Dialogue: 0,0:06:40.08,0:06:45.09,Signs,Sign,0,0,0,,Sono
+Dialogue: 0,0:06:40.08,0:06:45.09,Signs,Sign,0,0,0,,Agasa
+Dialogue: 0,0:06:40.08,0:06:45.09,Signs,Sign,0,0,0,,Hai
+Dialogue: 0,0:06:40.08,0:06:45.09,Signs,Sign,0,0,0,,Gen
+Dialogue: 0,0:06:40.08,0:06:45.09,Signs,Sign,0,0,0,,Mitsu
+Dialogue: 0,0:06:40.08,0:06:45.09,Signs,Sign,0,0,0,,Ayu
+Dialogue: 0,0:06:41.46,0:06:45.09,Dialogue,,0,0,0,,Beside the window of the second and fourth rows, I see.
+Dialogue: 0,0:06:45.71,0:06:46.67,Dialogue,,0,0,0,,And...
+Dialogue: 0,0:06:46.67,0:06:50.09,Dialogue,,0,0,0,,Did anything special happen in the car during your return?
+Dialogue: 0,0:06:50.76,0:06:51.84,Dialogue,,0,0,0,,Something did!
+Dialogue: 0,0:06:51.84,0:06:53.51,Dialogue,,0,0,0,,We met a deer, right?
+Dialogue: 0,0:06:53.51,0:06:54.97,Dialogue,,0,0,0,,And we were spinning round and round!
+Dialogue: 0,0:06:56.56,0:06:57.35,Dialogue,,0,0,0,,What do you mean?
+Dialogue: 0,0:06:57.77,0:07:00.10,Dialogue,,0,0,0,,It happened soon after we left the village...
+Dialogue: 0,0:07:00.69,0:07:01.65,Dialogue,,0,0,0,,Teitan...
+Dialogue: 0,0:07:02.31,0:07:03.27,Dialogue,,0,0,0,,Teitan...
+Dialogue: 0,0:07:04.23,0:07:07.28,Dialogue,,0,0,0,,Teitan Elementary School!
+Dialogue: 0,0:07:08.40,0:07:11.41,Dialogue,,0,0,0,,Can't those guys stop with that song already?
+Dialogue: 0,0:07:11.41,0:07:12.28,Dialogue,,0,0,0,,Agreed.
+Dialogue: 0,0:07:16.33,0:07:17.79,Dialogue,,0,0,0,,Wait for me, Youko{\rHonorifics - Dialogue}-chan{\r}!
+Dialogue: 0,0:07:18.41,0:07:20.66,Dialogue,,0,0,0,,I'm gonna rush home just for you!
+Dialogue: 0,0:07:20.66,0:07:22.83,Dialogue,,0,0,0,,Don't speed and get into an accident.
+Dialogue: 0,0:07:22.83,0:07:23.75,Dialogue,,0,0,0,,Shut up!
+Dialogue: 0,0:07:23.75,0:07:25.29,Dialogue,,0,0,0,,I know that already!
+Dialogue: 0,0:07:25.29,0:07:26.21,Dialogue,,0,0,0,,Uncle, up ahead!
+Dialogue: 0,0:07:28.38,0:07:29.80,Dialogue,,0,0,0,,Oh deer!
+Dialogue: 0,0:07:32.59,0:07:33.18,Dialogue,,0,0,0,,That's it!
+Dialogue: 0,0:07:35.43,0:07:36.89,Dialogue,,0,0,0,,The truth is...
+Dialogue: 0,0:07:36.89,0:07:39.93,Dialogue,,0,0,0,,Just as he slammed on the brakes and the car started spinnin'...
+Dialogue: 0,0:07:44.35,0:07:45.31,Dialogue,,0,0,0,,Such idiocy.
+Dialogue: 0,0:07:49.57,0:07:53.32,Dialogue,,0,0,0,,Well, since this isn't a comedy show, I guess that's not it.
+Dialogue: 0,0:07:56.45,0:07:58.83,Dialogue,,0,0,0,,There anything that seemed outta place?
+Dialogue: 0,0:07:58.83,0:08:02.54,Dialogue,,0,0,0,,We later got on the highway and headed straight for Tokyo.
+Dialogue: 0,0:08:03.00,0:08:06.42,Dialogue,,0,0,0,,If that's true, this case must've happened on the highway.
+Dialogue: 0,0:08:06.84,0:08:07.92,Dialogue,,0,0,0,,"Case", huh?
+Dialogue: 0,0:08:08.30,0:08:12.34,Dialogue,,0,0,0,,You guys, think hard and lemme know\Nthe details of your highway journey.
+Dialogue: 0,0:08:14.51,0:08:17.47,Dialogue,,0,0,0,,It couldn't be that you guys rode\Nnonstop without stoppin' somewhere.
+Dialogue: 0,0:08:18.68,0:08:20.06,Dialogue,,0,0,0,,Now that you mention it...
+Dialogue: 0,0:08:20.06,0:08:23.48,Dialogue,,0,0,0,,A little after we got on the highway,\NGenta{\rHonorifics - Dialogue}-kun{\r} said he had to use the restroom.
+Dialogue: 0,0:08:23.85,0:08:24.94,Dialogue,,0,0,0,,Right, right.
+Dialogue: 0,0:08:24.94,0:08:27.23,Dialogue,,0,0,0,,That's when we stopped at a parking area.
+Dialogue: 0,0:08:30.28,0:08:31.57,Dialogue,,0,0,0,,Can't hold it, can't hold it!
+Dialogue: 0,0:08:31.57,0:08:32.44,Dialogue,,0,0,0,,Gotta go!
+Dialogue: 0,0:08:32.99,0:08:35.66,Dialogue,,0,0,0,,Hey, why don't we take a breather?
+Dialogue: 0,0:08:35.66,0:08:36.78,Dialogue,,0,0,0,,Sure!
+Dialogue: 0,0:08:36.78,0:08:37.95,Dialogue,,0,0,0,,In that case, me too.
+Dialogue: 0,0:08:40.83,0:08:42.58,Dialogue,,0,0,0,,You're not coming, Ai{\rHonorifics - Dialogue}-kun{\r}?
+Dialogue: 0,0:08:43.08,0:08:44.50,Dialogue,,0,0,0,,I'm all right.
+Dialogue: 0,0:08:44.50,0:08:46.21,Dialogue,,0,0,0,,Are you OK being alone?
+Dialogue: 0,0:08:46.21,0:08:46.79,Dialogue,,0,0,0,,I'll be fine.
+Dialogue: 0,0:08:47.96,0:08:49.29,Dialogue,,0,0,0,,I'm used to being alone anyway.
+Dialogue: 0,0:08:50.50,0:08:52.67,Dialogue,,0,0,0,,Well, to be safe, I'm locking the door.
+Dialogue: 0,0:08:57.22,0:08:57.80,Dialogue,,0,0,0,,That's it!
+Dialogue: 0,0:08:59.10,0:08:59.68,Dialogue,,0,0,0,,"That"?
+Dialogue: 0,0:09:00.39,0:09:02.81,Dialogue,,0,0,0,,When you guys left the car...
+Dialogue: 0,0:09:02.81,0:09:05.56,Dialogue,,0,0,0,,That lil girl took the chance to swap the boxes.
+Dialogue: 0,0:09:12.03,0:09:13.15,Dialogue,,0,0,0,,Why?
+Dialogue: 0,0:09:13.15,0:09:15.15,Dialogue,,0,0,0,,It was a prank, a prank!
+Dialogue: 0,0:09:15.15,0:09:17.03,Dialogue,,0,0,0,,Haibara{\rHonorifics - Dialogue}-san{\r} did what?
+Dialogue: 0,0:09:17.03,0:09:18.66,Dialogue,,0,0,0,,Ai{\rHonorifics - Dialogue}-chan{\r} would never do something like that!
+Dialogue: 0,0:09:19.03,0:09:21.12,Dialogue,,0,0,0,,Naïveté, my dear Watson!
+Dialogue: 0,0:09:21.12,0:09:24.08,Dialogue,,0,0,0,,Oftentimes the culprit is someone beyond your expectations.
+Dialogue: 0,0:09:24.08,0:09:25.21,Dialogue,,0,0,0,,For the sake of argument...
+Dialogue: 0,0:09:25.21,0:09:28.29,Dialogue,,0,0,0,,Suppose this naughty-lookin' young man was the culprit...
+Dialogue: 0,0:09:28.29,0:09:30.13,Dialogue,,0,0,0,,It wouldn't be interestin' at all!
+Dialogue: 0,0:09:32.13,0:09:33.21,Dialogue,,0,0,0,,You're flattering me!
+Dialogue: 0,0:09:33.80,0:09:34.72,Dialogue,,0,0,0,,That wasn't a compliment.
+Dialogue: 0,0:09:35.42,0:09:37.63,Dialogue,,0,0,0,,Havin' said that, Conan{\rHonorifics - Dialogue}-kun{\r}...
+Dialogue: 0,0:09:37.63,0:09:38.47,Dialogue,,0,0,0,,Call her and check.
+Dialogue: 0,0:09:38.47,0:09:39.22,Dialogue,,0,0,0,,Me!?
+Dialogue: 0,0:09:39.89,0:09:43.60,Dialogue,,0,0,0,,Coz that lil girl and ya are like best buds forevah, Conan{\rHonorifics - Dialogue}-kun{\r}!
+Dialogue: 0,0:09:44.39,0:09:45.85,Dialogue,,0,0,0,,I wonder why, though?
+Dialogue: 0,0:09:47.19,0:09:47.89,Dialogue,,0,0,0,,Geez...
+Dialogue: 0,0:09:50.81,0:09:51.57,Dialogue,,0,0,0,,Hey, you.
+Dialogue: 0,0:09:52.36,0:09:53.61,Dialogue,,0,0,0,,Who do you think you're asking?
+Dialogue: 0,0:09:53.98,0:09:56.70,Dialogue,,0,0,0,,Well, I did say that was nonsense but...
+Dialogue: 0,0:09:59.16,0:10:00.28,Dialogue,,0,0,0,,Wasn't her, as expected.
+Dialogue: 0,0:10:00.99,0:10:02.20,Dialogue,,0,0,0,,Really?
+Dialogue: 0,0:10:03.79,0:10:07.04,Dialogue,,0,0,0,,There's no doubt coz we're best buds forevah like ya said!
+Dialogue: 0,0:10:07.75,0:10:08.75,Dialogue,,0,0,0,,That so...
+Dialogue: 0,0:10:09.79,0:10:13.50,Dialogue,,0,0,0,,It woulda been fascinating if that lil girl were the culprit...
+Dialogue: 0,0:10:14.13,0:10:15.51,Dialogue,,0,0,0,,Was there anything else outta the ordi—
+Dialogue: 0,0:10:16.34,0:10:17.13,Dialogue,,0,0,0,,What is it?
+Dialogue: 0,0:10:17.13,0:10:17.88,Dialogue,,0,0,0,,You remember somethin'?
+Dialogue: 0,0:10:18.30,0:10:19.97,Dialogue,,0,0,0,,Look at the time!
+Dialogue: 0,0:10:19.97,0:10:22.89,Dialogue,,0,0,0,,Can we have the pork buns you brought us as souvenirs for lunch?
+Dialogue: 0,0:10:23.18,0:10:24.68,Dialogue,,0,0,0,,Sure, no problem...
+Dialogue: 0,0:10:25.06,0:10:26.43,Dialogue,,0,0,0,,I'll go microwave them now.
+Dialogue: 0,0:10:26.77,0:10:27.89,Dialogue,,0,0,0,,I want three of them!
+Dialogue: 0,0:10:27.89,0:10:28.48,Dialogue,,0,0,0,,Got it.
+Dialogue: 0,0:10:28.48,0:10:29.98,Dialogue,,0,0,0,,Pork buns, pork buns!
+Dialogue: 0,0:10:29.27,0:10:31.31,Dialogue Top,,0,0,0,,Didn't you already eat some senbei just now?
+Dialogue: 0,0:10:31.90,0:10:35.61,Dialogue,,0,0,0,,Keep in mind that Genta{\rHonorifics - Dialogue}-kun{\r} is the\Nowner of a stomach made of steel.
+Dialogue: 0,0:10:37.69,0:10:38.49,Dialogue,,0,0,0,,Is that so?
+Dialogue: 0,0:10:48.71,0:10:49.33,Dialogue,,0,0,0,,Dinner...
+Dialogue: 0,0:10:50.12,0:10:52.00,Dialogue,,0,0,0,,It's still too early for dinner!
+Dialogue: 0,0:10:52.00,0:10:53.21,Dialogue,,0,0,0,,We're having lunch now, you know.
+Dialogue: 0,0:10:53.84,0:10:55.09,Dialogue,,0,0,0,,No, no.
+Dialogue: 0,0:10:55.09,0:10:57.59,Dialogue,,0,0,0,,I was wondering about how you guys took care of dinner that day.
+Dialogue: 0,0:10:58.30,0:10:59.84,Dialogue,,0,0,0,,You ate at a service area, right?
+Dialogue: 0,0:11:00.76,0:11:01.59,Dialogue,,0,0,0,,And what about the boxes?
+Dialogue: 0,0:11:03.47,0:11:05.76,Dialogue,,0,0,0,,I thought about bringing my box with me, but...
+Dialogue: 0,0:11:06.26,0:11:08.73,Dialogue,,0,0,0,,We decided to leave them in the car after all.
+Dialogue: 0,0:11:08.73,0:11:12.27,Dialogue,,0,0,0,,But I'm sure that everyone definitely got out.
+Dialogue: 0,0:11:13.19,0:11:16.27,Dialogue,,0,0,0,,Was there no one who returned to the car halfway?
+Dialogue: 0,0:11:18.99,0:11:20.28,Dialogue,,0,0,0,,I'll have eel rice!
+Dialogue: 0,0:11:21.15,0:11:23.28,Dialogue,,0,0,0,,You have to pay for whatever's over the budget.
+Dialogue: 0,0:11:24.28,0:11:25.20,Dialogue,,0,0,0,,Then, ramen...
+Dialogue: 0,0:11:25.87,0:11:27.74,Dialogue,,0,0,0,,I'll have curry rice.
+Dialogue: 0,0:11:27.74,0:11:29.29,Dialogue,,0,0,0,,Ayumi wants hamburger meat.
+Dialogue: 0,0:11:29.62,0:11:30.62,Dialogue,,0,0,0,,Professor?
+Dialogue: 0,0:11:30.62,0:11:31.21,Dialogue,,0,0,0,,What's wrong?
+Dialogue: 0,0:11:32.08,0:11:35.79,Dialogue,,0,0,0,,Looks like I forgot my cell phone in the car.
+Dialogue: 0,0:11:35.79,0:11:37.05,Dialogue,,0,0,0,,Let me go get it.
+Dialogue: 0,0:11:37.50,0:11:38.00,Dialogue,,0,0,0,,That's it!
+Dialogue: 0,0:11:38.34,0:11:39.21,Dialogue,,0,0,0,,What now?
+Dialogue: 0,0:11:39.80,0:11:42.38,Dialogue,,0,0,0,,It was that old man who swapped the boxes!
+Dialogue: 0,0:11:42.38,0:11:43.68,Dialogue,,0,0,0,,The professor?
+Dialogue: 0,0:11:43.68,0:11:44.26,Dialogue,,0,0,0,,Why?
+Dialogue: 0,0:11:44.55,0:11:46.14,Dialogue,,0,0,0,,Again with a prank?
+Dialogue: 0,0:11:47.26,0:11:48.47,Dialogue,,0,0,0,,That's right...
+Dialogue: 0,0:11:48.47,0:11:50.98,Dialogue,,0,0,0,,Isn't that old guy kinda mischievous in a way?
+Dialogue: 0,0:11:51.39,0:11:52.77,Dialogue,,0,0,0,,That's true.
+Dialogue: 0,0:11:52.77,0:11:55.81,Dialogue,,0,0,0,,He's a much more likely candidate than Haibara{\rHonorifics - Dialogue}-san{\r}.
+Dialogue: 0,0:11:55.81,0:11:58.11,Dialogue,,0,0,0,,What's more, at that time, the professor...
+Dialogue: 0,0:11:57.32,0:12:01.49,Signs,Sign,0,0,0,,PREMIERE!!\NSTEAK COMBO
+Dialogue: 0,0:11:59.19,0:12:01.49,Dialogue,,0,0,0,,Premiere steak combo, huh...
+Dialogue: 0,0:12:03.36,0:12:04.03,Dialogue,,0,0,0,,You can't.
+Dialogue: 0,0:12:05.28,0:12:07.33,Dialogue,,0,0,0,,You and I will have salad udon, Professor.
+Dialogue: 0,0:12:10.08,0:12:11.00,Dialogue,,0,0,0,,I see!
+Dialogue: 0,0:12:11.00,0:12:12.58,Dialogue,,0,0,0,,He got upset about it...
+Dialogue: 0,0:12:12.58,0:12:13.83,Dialogue,,0,0,0,,And played a prank to relieve stress.
+Dialogue: 0,0:12:14.33,0:12:15.29,Dialogue,,0,0,0,,Hey, hey...
+Dialogue: 0,0:12:17.63,0:12:20.67,Dialogue,,0,0,0,,Guilty as charged, it was I who swapped the boxes!
+Dialogue: 0,0:12:23.72,0:12:24.68,Dialogue,,0,0,0,,Not him as I thought.
+Dialogue: 0,0:12:25.84,0:12:27.05,Dialogue,,0,0,0,,How do you know?
+Dialogue: 0,0:12:27.05,0:12:28.47,Dialogue,,0,0,0,,Of course I'd know something like that!
+Dialogue: 0,0:12:29.14,0:12:31.27,Dialogue,,0,0,0,,The professor and I have been friends since my childhood.
+Dialogue: 0,0:12:31.27,0:12:32.27,Dialogue,,0,0,0,,Since your childhood?
+Dialogue: 0,0:12:32.81,0:12:34.39,Dialogue,,0,0,0,,How old do you think you are now?
+Dialogue: 0,0:12:35.15,0:12:35.98,Dialogue,,0,0,0,,Nah...
+Dialogue: 0,0:12:38.98,0:12:42.28,Dialogue,,0,0,0,,But, if it wasn't those two...
+Dialogue: 0,0:12:42.28,0:12:44.78,Dialogue,,0,0,0,,Then it couldn't have been someone's prank, no?
+Dialogue: 0,0:12:45.32,0:12:48.70,Dialogue,,0,0,0,,So you guys didn't go anywhere else after dinner?
+Dialogue: 0,0:12:48.70,0:12:50.04,Dialogue,,0,0,0,,I suppose not.
+Dialogue: 0,0:12:50.04,0:12:51.29,Dialogue,,0,0,0,,I fell asleep actually.
+Dialogue: 0,0:12:51.79,0:12:53.79,Dialogue,,0,0,0,,I fell asleep after that too.
+Dialogue: 0,0:12:53.79,0:12:56.79,Dialogue,,0,0,0,,My tummy was full and I was getting too comfortable...
+Dialogue: 0,0:12:56.79,0:12:58.84,Dialogue,,0,0,0,,I dreamed about having eel rice!
+Dialogue: 0,0:12:59.29,0:13:00.63,Dialogue,,0,0,0,,Good for you, I guess.
+Dialogue: 0,0:13:01.17,0:13:01.92,Dialogue,,0,0,0,,And you, miss?
+Dialogue: 0,0:13:02.42,0:13:04.01,Dialogue,,0,0,0,,I fell asleep as well.
+Dialogue: 0,0:13:04.01,0:13:05.18,Dialogue,,0,0,0,,I was awake, though.
+Dialogue: 0,0:13:05.59,0:13:08.80,Dialogue,,0,0,0,,It'd be bad if Uncle Kogorou were driving while drowsy.
+Dialogue: 0,0:13:09.30,0:13:10.06,Dialogue,,0,0,0,,And?
+Dialogue: 0,0:13:10.06,0:13:12.10,Dialogue,,0,0,0,,Were the old man and the lil girl asleep too?
+Dialogue: 0,0:13:13.23,0:13:16.69,Dialogue,,0,0,0,,Later, when we exited the Beika interchange, I woke everyone up.
+Dialogue: 0,0:13:17.15,0:13:20.40,Dialogue,,0,0,0,,So you mean durin' the course of action,\Nyou were on the highway nonstop?
+Dialogue: 0,0:13:20.90,0:13:22.57,Dialogue,,0,0,0,,We did encounter a little traffic jam, though.
+Dialogue: 0,0:13:23.15,0:13:23.99,Dialogue,,0,0,0,,Traffic jam?
+Dialogue: 0,0:13:25.57,0:13:27.61,Dialogue,,0,0,0,,It happened soon after we passed Beika Tunnel.
+Dialogue: 0,0:13:28.66,0:13:31.12,Dialogue,,0,0,0,,That was the part where the road goes downhill for a while...
+Dialogue: 0,0:13:31.62,0:13:35.12,Dialogue,,0,0,0,,Followed by a continuous uphill slope,\Nleading to pretty frequent congestion.
+Dialogue: 0,0:13:35.12,0:13:35.87,Dialogue,,0,0,0,,That's it!
+Dialogue: 0,0:13:36.67,0:13:37.37,Dialogue,,0,0,0,,Not again...
+Dialogue: 0,0:13:38.29,0:13:39.25,Dialogue,,0,0,0,,Listen up.
+Dialogue: 0,0:13:39.25,0:13:43.30,Dialogue,,0,0,0,,First, the boxes fell to the floor from\Nthe knees of the two sleeping people.
+Dialogue: 0,0:13:43.30,0:13:49.01,Signs,Sign,0,0,0,,Sonoko
+Dialogue: 0,0:13:43.30,0:13:49.01,Signs,Sign,0,0,0,,Ayumi
+Dialogue: 0,0:13:44.09,0:13:46.88,Dialogue,,0,0,0,,And, when the car went through the long downhill road...
+Dialogue: 0,0:13:46.88,0:13:48.89,Dialogue,,0,0,0,,The two boxes slid away.
+Dialogue: 0,0:13:50.51,0:13:51.51,Dialogue,,0,0,0,,Then...
+Dialogue: 0,0:13:51.51,0:13:52.93,Dialogue,,0,0,0,,When it climbed the hill...
+Dialogue: 0,0:13:52.18,0:13:54.27,Signs,Sign,0,0,0,,Sonoko
+Dialogue: 0,0:13:52.18,0:13:54.27,Signs,Sign,0,0,0,,Ayumi
+Dialogue: 0,0:13:54.68,0:13:55.73,Dialogue,,0,0,0,,Finally...
+Dialogue: 0,0:13:55.73,0:14:00.36,Dialogue,,0,0,0,,The two people woke up and picked\Nup the swapped boxes, you see!
+Dialogue: 0,0:14:00.86,0:14:01.73,Dialogue,,0,0,0,,How 'bout it?
+Dialogue: 0,0:14:01.73,0:14:04.61,Dialogue,,0,0,0,,But I never picked up any boxes.
+Dialogue: 0,0:14:05.53,0:14:06.57,Dialogue,,0,0,0,,Ayumi neither.
+Dialogue: 0,0:14:06.57,0:14:08.95,Dialogue,,0,0,0,,When I woke up, my box was still there on my knees.
+Dialogue: 0,0:14:09.45,0:14:13.41,Dialogue,,0,0,0,,Somethin' like that must've happened when someone\Nelse picked them up and put them on your knees!
+Dialogue: 0,0:14:14.04,0:14:14.37,Dialogue,,0,0,0,,Right?
+Dialogue: 0,0:14:15.83,0:14:17.29,Dialogue,,0,0,0,,I didn't do anything like that.
+Dialogue: 0,0:14:19.25,0:14:21.75,Dialogue,,0,0,0,,I didn't pick up anything either.
+Dialogue: 0,0:14:21.75,0:14:23.59,Dialogue,,0,0,0,,I also dreamed about eating rice cake soup!
+Dialogue: 0,0:14:29.97,0:14:31.55,Dialogue,,0,0,0,,So that wasn't it either?
+Dialogue: 0,0:14:32.68,0:14:36.06,Dialogue,,0,0,0,,Well, at least it was better speculation than that deer nonsense.
+Dialogue: 0,0:14:38.02,0:14:40.56,Dialogue,,0,0,0,,Looks like you guys had already arrived at Beika City.
+Dialogue: 0,0:14:41.98,0:14:43.06,Dialogue,,0,0,0,,Hurry, hurry!
+Dialogue: 0,0:14:43.06,0:14:45.98,Dialogue,,0,0,0,,Only fifteen minutes left until Youko{\rHonorifics - Dialogue}-chan{\r}'s drama starts!
+Dialogue: 0,0:14:46.28,0:14:48.11,Dialogue,,0,0,0,,Stop rushing us already!
+Dialogue: 0,0:14:48.99,0:14:50.66,Dialogue,,0,0,0,,That was a good nap.
+Dialogue: 0,0:14:50.86,0:14:51.82,Dialogue,,0,0,0,,Let's go!
+Dialogue: 0,0:14:51.82,0:14:53.45,Dialogue,,0,0,0,,Wait for me, Genta{\rHonorifics - Dialogue}-kun{\r}...
+Dialogue: 0,0:14:57.08,0:14:57.75,Dialogue,,0,0,0,,That's it!
+Dialogue: 0,0:14:58.54,0:15:01.46,Dialogue,,0,0,0,,When the two of you picked up the pair of boxes you dropped...
+Dialogue: 0,0:15:01.46,0:15:02.29,Dialogue,,0,0,0,,I see!
+Dialogue: 0,0:15:02.29,0:15:04.42,Dialogue,,0,0,0,,The boxes were swapped as a result.
+Dialogue: 0,0:15:04.84,0:15:06.05,Dialogue,,0,0,0,,While {\i1}falling in love{\i0}!
+Dialogue: 0,0:15:08.55,0:15:13.01,Dialogue,,0,0,0,,See, it was the one where De Niro and Meryl\NStreep ran into each other in a bookstore...
+Dialogue: 0,0:15:13.01,0:15:14.68,Dialogue,,0,0,0,,And accidentally swapped bags.
+Dialogue: 0,0:15:14.68,0:15:18.27,Dialogue,,0,0,0,,It was a romance movie masterpiece from the year 1984!
+Dialogue: 0,0:15:18.93,0:15:19.89,Dialogue,,0,0,0,,Don't you guys know?
+Dialogue: 0,0:15:21.02,0:15:22.19,Dialogue,,0,0,0,,Looks that way...
+Dialogue: 0,0:15:23.65,0:15:25.44,Dialogue,,0,0,0,,Anyway, looks like we've found out what happened.
+Dialogue: 0,0:15:26.52,0:15:27.15,Dialogue,,0,0,0,,Yeah...
+Dialogue: 0,0:15:27.90,0:15:29.57,Dialogue,,0,0,0,,I hereby announce that the case is closed!
+Dialogue: 0,0:15:30.78,0:15:31.61,Dialogue,,0,0,0,,Wrong!
+Dialogue: 0,0:15:33.57,0:15:34.32,Dialogue,,0,0,0,,"Wrong"?
+Dialogue: 0,0:15:34.32,0:15:34.91,Dialogue,,0,0,0,,What do you mean?
+Dialogue: 0,0:15:35.49,0:15:38.62,Dialogue,,0,0,0,,It couldn't be that the boxes were swapped at that time.
+Dialogue: 0,0:15:38.62,0:15:42.21,Dialogue,,0,0,0,,Because I had already marked my own box.
+Dialogue: 0,0:15:42.21,0:15:42.62,Dialogue,,0,0,0,,Look!
+Dialogue: 0,0:15:44.67,0:15:45.67,Dialogue,,0,0,0,,It's true.
+Dialogue: 0,0:15:46.13,0:15:47.50,Dialogue,,0,0,0,,There's a kiss mark.
+Dialogue: 0,0:15:48.21,0:15:49.84,Dialogue,,0,0,0,,What's a kiss mark?
+Dialogue: 0,0:15:49.84,0:15:52.22,Dialogue,,0,0,0,,It's something you don't need to know, Genta{\rHonorifics - Dialogue}-kun{\r}!
+Dialogue: 0,0:15:52.93,0:15:55.10,Dialogue,,0,0,0,,Allow me to reconfirm this again, but...
+Dialogue: 0,0:15:55.10,0:15:57.35,Dialogue,,0,0,0,,The box you had today...
+Dialogue: 0,0:15:57.35,0:15:59.35,Dialogue,,0,0,0,,Really was wrapped with this piece of paper?
+Dialogue: 0,0:16:00.60,0:16:04.06,Dialogue,,0,0,0,,I double-checked my mark before\Nbringing it out, so there's no doubt.
+Dialogue: 0,0:16:04.06,0:16:10.44,Dialogue,,0,0,0,,In that case, when you and the lil girl bumped into each other, you\Nwere certain you had correctly picked up the respective boxes?
+Dialogue: 0,0:16:10.44,0:16:11.99,Dialogue,,0,0,0,,I've been saying that, haven't I?
+Dialogue: 0,0:16:12.49,0:16:14.32,Dialogue,,0,0,0,,Say, Sonoko{\rHonorifics - Dialogue}-neechan{\r}...
+Dialogue: 0,0:16:14.32,0:16:15.82,Dialogue,,0,0,0,,When did you make that mark?
+Dialogue: 0,0:16:16.57,0:16:17.91,Dialogue,,0,0,0,,Right after I bought it.
+Dialogue: 0,0:16:17.91,0:16:20.25,Dialogue,,0,0,0,,As soon as I came out the lodge and was headed for the car.
+Dialogue: 0,0:16:22.66,0:16:24.75,Dialogue,,0,0,0,,What, is that it?
+Dialogue: 0,0:16:24.75,0:16:26.88,Dialogue,,0,0,0,,Why didn't you mention that earlier?
+Dialogue: 0,0:16:28.00,0:16:30.42,Dialogue,,0,0,0,,I know the reason why the boxes were swapped.
+Dialogue: 0,0:16:30.96,0:16:31.92,Dialogue,,0,0,0,,The culprit is...
+Dialogue: 0,0:16:33.09,0:16:34.72,Dialogue,,0,0,0,,Hello, thank you for holding.
+Dialogue: 0,0:16:34.72,0:16:35.89,Dialogue,,0,0,0,,Mizuta Kana speaking.
+Dialogue: 0,0:16:36.89,0:16:37.68,Dialogue,,0,0,0,,Conan{\rHonorifics - Dialogue}-kun{\r}?
+Dialogue: 0,0:16:37.97,0:16:39.51,Dialogue,,0,0,0,,Yesterday was pretty tough, huh?
+Dialogue: 0,0:16:40.27,0:16:41.60,Dialogue,,0,0,0,,Souvenirs?
+Dialogue: 0,0:16:41.60,0:16:43.52,Dialogue,,0,0,0,,Yeah, I remember them.
+Dialogue: 0,0:16:43.52,0:16:46.60,Dialogue,,0,0,0,,I was in charge of the souvenir counter yesterday.
+Dialogue: 0,0:16:47.56,0:16:49.94,Dialogue,,0,0,0,,Then, do you still remember who bought what?
+Dialogue: 0,0:16:50.40,0:16:56.11,Dialogue,,0,0,0,,If I recall correctly, the two high school girls bought\Na wooden owl sculpture and a mug with swans.
+Dialogue: 0,0:16:56.11,0:17:00.12,Dialogue,,0,0,0,,And the elementary school girl got the snow lass doll, right?
+Dialogue: 0,0:17:00.12,0:17:00.95,Dialogue,,0,0,0,,As I thought.
+Dialogue: 0,0:17:01.75,0:17:02.62,Dialogue,,0,0,0,,Thank you!
+Dialogue: 0,0:17:02.62,0:17:03.41,Dialogue,,0,0,0,,Bye!
+Dialogue: 0,0:17:04.66,0:17:06.62,Dialogue,,0,0,0,,Well, do you see what's wrong now?
+Dialogue: 0,0:17:07.21,0:17:11.63,Dialogue,,0,0,0,,By the time the two boxes reached the hands\Nof Sonoko{\rHonorifics - Dialogue}-neechan{\r} and Ayumi{\rHonorifics - Dialogue}-chan{\r}...
+Dialogue: 0,0:17:11.63,0:17:13.47,Dialogue,,0,0,0,,They had already been switched.
+Dialogue: 0,0:17:13.47,0:17:14.30,Dialogue,,0,0,0,,What the...
+Dialogue: 0,0:17:14.67,0:17:17.01,Dialogue,,0,0,0,,As expected of our awesome Conan{\rHonorifics - Dialogue}-kun{\r}!
+Dialogue: 0,0:17:17.01,0:17:19.22,Dialogue,,0,0,0,,The Great Detective of the West totally lost face!
+Dialogue: 0,0:17:21.39,0:17:23.22,Dialogue,,0,0,0,,Hey, what on earth is a kiss mark?
+Dialogue: 0,0:17:23.22,0:17:26.56,Dialogue,,0,0,0,,Well, we should hurry up and hand over the correct souvenir!
+Dialogue: 0,0:17:26.56,0:17:28.48,Dialogue,,0,0,0,,Let's go and give it to Kobayashi{\rHonorifics - Dialogue}-sensei{\r} now.
+Dialogue: 0,0:17:30.15,0:17:32.40,Dialogue,,0,0,0,,Then, let me rewrap it for you.
+Dialogue: 0,0:17:32.40,0:17:35.57,Dialogue,,0,0,0,,And I have to set up an appointment with Makoto{\rHonorifics - Dialogue}-san{\r} again!
+Dialogue: 0,0:17:37.41,0:17:38.49,Dialogue,,0,0,0,,Oh, right!
+Dialogue: 0,0:17:38.49,0:17:40.58,Dialogue,,0,0,0,,Did you already give that souvenir to Shinichi{\rHonorifics - Dialogue}-kun{\r}?
+Dialogue: 0,0:17:42.37,0:17:43.41,Dialogue,,0,0,0,,No...
+Dialogue: 0,0:17:43.41,0:17:45.58,Dialogue,,0,0,0,,All I get is his voice mail even when I call his cell phone.
+Dialogue: 0,0:17:46.16,0:17:46.83,Dialogue,,0,0,0,,Done.
+Dialogue: 0,0:17:47.50,0:17:48.58,Dialogue,,0,0,0,,Here you go.
+Dialogue: 0,0:17:48.58,0:17:49.83,Dialogue,,0,0,0,,Thank you very much!
+Dialogue: 0,0:17:50.59,0:17:55.47,Dialogue,,0,0,0,,That's why I figured I should do what Shinichi\Nsuggested and drop it off at his house later.
+Dialogue: 0,0:17:55.80,0:17:56.09,Dialogue,,0,0,0,,See?
+Dialogue: 0,0:17:56.72,0:17:59.05,Dialogue,,0,0,0,,Perhaps that was also swapped with someone else's gift!
+Dialogue: 0,0:18:00.14,0:18:01.55,Dialogue,,0,0,0,,No need to worry.
+Dialogue: 0,0:18:01.55,0:18:05.18,Dialogue,,0,0,0,,Because the lady just now mentioned a wooden owl sculpture.
+Dialogue: 0,0:18:05.18,0:18:05.98,Dialogue,,0,0,0,,That's true!
+Dialogue: 0,0:18:05.98,0:18:08.06,Dialogue,,0,0,0,,What a pity.
+Dialogue: 0,0:18:08.06,0:18:09.98,Dialogue,,0,0,0,,You just lost your chance to regain your tarnished name!
+Dialogue: 0,0:18:11.65,0:18:15.15,Signs,Sign,0,0,0,,REGAIN\NONE'S\NREPUTATION\NMEIYOBANKAI
+Dialogue: 0,0:18:11.65,0:18:15.15,Signs,Sign,0,0,0,,RESTORE\NONE'S\NTARNISHED\NNAME\NOMEIHENJOU
+Dialogue: 0,0:18:11.98,0:18:13.90,Dialogue,,0,0,0,,Why would I want to {\i1}regain{\i0} my {\i1}tarnished{\i0} name?
+Dialogue: 0,0:18:15.28,0:18:16.78,Dialogue,,0,0,0,,Later, Conan!
+Dialogue: 0,0:18:16.78,0:18:17.57,Dialogue,,0,0,0,,See you tomorrow!
+Dialogue: 0,0:18:17.57,0:18:18.82,Dialogue,,0,0,0,,Bye-bye!
+Dialogue: 0,0:18:23.45,0:18:26.04,Dialogue,,0,0,0,,All this dealin' with kids drained me of all my strength!
+Dialogue: 0,0:18:27.83,0:18:28.50,Dialogue,,0,0,0,,Oops!
+Dialogue: 0,0:18:29.17,0:18:33.67,Dialogue Top,Sign,0,0,0,,TO YOUKO-CHAN
+Dialogue: 0,0:18:29.96,0:18:30.63,Dialogue,,0,0,0,,What's this?
+Dialogue: 0,0:18:32.71,0:18:33.67,Dialogue,,0,0,0,,Youko{\rHonorifics - Dialogue}-chan{\r}?
+Dialogue: 0,0:18:35.80,0:18:40.84,Dialogue,,0,0,0,,That sneaky man kept it a secret from everyone\Nand bought a souvenir for Okino Youko.
+Dialogue: 0,0:18:40.84,0:18:42.55,Dialogue,,0,0,0,,What a sly old fox he is!
+Dialogue: 0,0:18:50.60,0:18:54.02,Dialogue Top,Sign,0,0,0,,TO YOUKO-CHAN
+Dialogue: 0,0:19:01.95,0:19:03.74,Dialogue,,0,0,0,,Okiya{\rHonorifics - Dialogue}-san{\r} went out?
+Dialogue: 0,0:19:11.21,0:19:12.25,Dialogue,,0,0,0,,There it is.
+Dialogue: 0,0:19:13.54,0:19:16.21,Dialogue,,0,0,0,,If I don't tell her that I've dropped by and opened it...
+Dialogue: 0,0:19:16.21,0:19:18.80,Dialogue,,0,0,0,,She's gonna phone me like crazy and it'll be a drag.
+Dialogue: 0,0:19:22.93,0:19:23.60,Dialogue,,0,0,0,,Huh?
+Dialogue: 0,0:19:24.01,0:19:25.85,Dialogue,,0,0,0,,Shouldn't it have been a wooden owl sculpture?
+Dialogue: 0,0:19:28.10,0:19:28.85,Dialogue,,0,0,0,,What's this?
+Dialogue: 0,0:19:30.06,0:19:33.23,Dialogue,,0,0,0,,What are the odds that this got mixed up too?
+Dialogue: 0,0:19:33.23,0:19:37.07,Dialogue,,0,0,0,,But if I recall correctly, no one other\Nthan me was at the register back then.
+Dialogue: 0,0:19:40.99,0:19:41.78,Dialogue,,0,0,0,,Don't tell me...
+Dialogue: 0,0:19:44.28,0:19:45.78,Signs,Sign,0,0,0,,OKINO\NYOUKO
+Dialogue: 0,0:19:46.33,0:19:48.12,Dialogue,,0,0,0,,Is this for me?
+Dialogue: 0,0:19:48.12,0:19:48.54,Dialogue,,0,0,0,,Yes!
+Dialogue: 0,0:19:49.08,0:19:53.88,Dialogue,,0,0,0,,From the silvery-white world, I selected\Nthis baby just for Youko{\rHonorifics - Dialogue}-chan{\r}!
+Dialogue: 0,0:19:53.88,0:19:54.54,Dialogue,,0,0,0,,I'm so glad!
+Dialogue: 0,0:19:55.13,0:19:56.00,Dialogue,,0,0,0,,Wonder what it is?
+Dialogue: 0,0:19:57.05,0:19:59.05,Dialogue,,0,0,0,,It's my honor to have made you glad.
+Dialogue: 0,0:19:59.76,0:20:01.63,Dialogue,,0,0,0,,I hope someone resembling an elf like you...
+Dialogue: 0,0:20:02.34,0:20:05.64,Dialogue,,0,0,0,,Will enjoy putting those on your beautiful ears.
+Dialogue: 0,0:20:07.39,0:20:08.56,Dialogue,,0,0,0,,This, you mean?
+Dialogue: 0,0:20:08.97,0:20:09.64,Dialogue,,0,0,0,,Yeah.
+Dialogue: 0,0:20:10.60,0:20:13.69,Dialogue,,0,0,0,,If you will put them on your beautiful ears for me...
+Dialogue: 0,0:20:13.69,0:20:16.90,Dialogue,,0,0,0,,I presume that the owl will also be thrilled and go hoot-hoot...
+Dialogue: 0,0:20:20.24,0:20:20.90,Dialogue,,0,0,0,,Like this?
+Dialogue: 0,0:20:23.53,0:20:25.87,Dialogue,,0,0,0,,W-OOOOOT!?
+Dialogue: 0,0:20:38.88,0:20:42.55,Dialogue Top,ED JP,0,0,0,,nagasugiru ame datta
+Dialogue: 0,0:20:38.88,0:20:42.55,Dialogue,ED EN,0,0,0,,The rain lasted almost forever
+Dialogue: 0,0:20:42.88,0:20:51.22,Dialogue Top,ED JP,0,0,0,,konna ni aoi tsuki dakedo kagayaku hi wo matteita
+Dialogue: 0,0:20:42.88,0:20:51.22,Dialogue,ED EN,0,0,0,,Although we have a moon so blue,\NI still await the shining sun
+Dialogue: 0,0:20:52.23,0:20:53.64,Dialogue Top,ED JP,0,0,0,,open my eyes...
+Dialogue: 0,0:20:53.64,0:20:57.69,Dialogue Top,ED JP,0,0,0,,negai\Ntsuyoku ikiru koto ni sukoshi tsukare
+Dialogue: 0,0:20:53.64,0:20:57.69,Dialogue,ED EN,0,0,0,,「My wish」\NI'm a bit tired of trying to live tough
+Dialogue: 0,0:20:57.69,0:21:01.69,Dialogue Top,ED JP,0,0,0,,todoke\Nkumorigakatta boku no michi wa nagai
+Dialogue: 0,0:20:57.69,0:21:01.69,Dialogue,ED EN,0,0,0,,「Deliver」\NMy cloudy path is still long
+Dialogue: 0,0:21:01.69,0:21:05.70,Dialogue Top,ED JP,0,0,0,,fukaku\Nhikaritsuzuketakute sora ni shita
+Dialogue: 0,0:21:01.69,0:21:05.70,Dialogue,ED EN,0,0,0,,「Deeper」\NI wish for it to keep radiating under the sky
+Dialogue: 0,0:21:05.70,0:21:09.49,Dialogue Top,ED JP,0,0,0,,tsuyoku\Ninoru kimi no koe de harewataru
+Dialogue: 0,0:21:05.70,0:21:09.49,Dialogue,ED EN,0,0,0,,「Stronger」\NWith your praying voice, it should all clear up
+Dialogue: 0,0:21:09.62,0:21:14.46,Dialogue Top,ED JP,0,0,0,,kimi ni aitai sore igai kotae nante nai
+Dialogue: 0,0:21:09.62,0:21:14.46,Dialogue,ED EN,0,0,0,,"I want to meet you"\NNothing other than that is my true answer
+Dialogue: 0,0:21:14.58,0:21:24.30,Dialogue Top,ED JP,0,0,0,,nando demo sakebe\Nhitori juugoya no sora ni yume egaitara
+Dialogue: 0,0:21:14.58,0:21:24.30,Dialogue,ED EN,0,0,0,,Shout as many times as needed! If I paint\Nmy dream alone in the sky with a full moon
+Dialogue: 0,0:21:24.67,0:21:31.31,Dialogue Top,ED JP,0,0,0,,kimi ni mo mieru kana\Njuugoya kuraishisu
+Dialogue: 0,0:21:24.67,0:21:31.31,Dialogue,ED EN,0,0,0,,Perhaps you can see it too\N(full moon night crisis)
+Dialogue: 0,0:21:32.60,0:21:39.11,Dialogue Top,ED JP,0,0,0,,kimi ni mo mieru kana\Nkimi ni aitai
+Dialogue: 0,0:21:32.60,0:21:39.11,Dialogue,ED EN,0,0,0,,Perhaps you can see it too\N(I want to meet you)
+Dialogue: 0,0:21:44.49,0:21:45.28,Dialogue,,0,0,0,,How's it, Kudou?
+Dialogue: 0,0:21:45.95,0:21:49.37,Dialogue,,0,0,0,,Did you enjoy the lil memento I left ya?
+Dialogue: 0,0:21:49.37,0:21:50.28,Dialogue,,0,0,0,,Geez...
+Dialogue: 0,0:21:50.28,0:21:51.78,Dialogue,,0,0,0,,So it was you who messed with it.
+Dialogue: 0,0:21:53.24,0:21:55.25,Dialogue,,0,0,0,,Did you figure out what was inside the box?
+Dialogue: 0,0:21:56.96,0:22:00.34,Dialogue,,0,0,0,,Something like what the man was thinkin' can be easily figured out.
+Dialogue: 0,0:22:00.34,0:22:03.38,Dialogue,,0,0,0,,Judging from the size of the box, it's probably some accessories.
+Dialogue: 0,0:22:04.01,0:22:07.38,Dialogue,,0,0,0,,And lookin' at the shape, it's very unlikely for it to be a necklace...
+Dialogue: 0,0:22:07.38,0:22:09.34,Dialogue,,0,0,0,,Not to mention a ring would be too suggestive.
+Dialogue: 0,0:22:10.22,0:22:11.72,Dialogue,,0,0,0,,The most likely answer would be earrings.
+Dialogue: 0,0:22:12.43,0:22:13.18,Dialogue,,0,0,0,,Correct.
+Dialogue: 0,0:22:14.93,0:22:15.60,Dialogue,,0,0,0,,Well?
+Dialogue: 0,0:22:15.60,0:22:17.27,Dialogue,,0,0,0,,Don't you think it suits you perfectly?
+Dialogue: 0,0:22:18.10,0:22:19.19,Dialogue,,0,0,0,,Ms. Kudou?
+Dialogue: 0,0:22:20.15,0:22:21.86,Dialogue,,0,0,0,,How the hell does it suit me!?
+Dialogue: 0,0:22:23.57,0:22:25.36,Dialogue,,0,0,0,,And don't you dare think the wrong thing!
