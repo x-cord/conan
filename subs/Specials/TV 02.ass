@@ -33,7 +33,6 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: Dialogue,Myriad Pro Cond,29,&H00ECECEC,&H000000FF,&H002B7318,&H00000000,-1,-1,0,0,100,100,0,0,1,1.77778,0,2,9,9,11,204
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -63,10 +62,10 @@ Dialogue: 0,0:01:19.70,0:01:23.33,Dialogue,,0,0,0,,My nose can sniff out traitor
 Dialogue: 0,0:01:25.87,0:01:29.00,Dialogue,,0,0,0,,And when I do, I'll show them what real fear is.
 Dialogue: 0,0:01:30.38,0:01:33.55,Dialogue,,0,0,0,,Her, and that man she is with.
 Dialogue: 0,0:01:49.15,0:01:50.06,Narration Off,,0,0,0,,{\be10}So...
+Dialogue: 0,0:01:50.06,0:01:53.27,Dialogue,,0,0,0,,You will not become a good detective if you are so easily deceived!
 Dialogue: 0,0:01:50.36,0:01:52.02,Narration Off,,0,0,0,,{\be10}it all started that day...
 Dialogue: 0,0:01:54.44,0:01:57.24,Narration Off,,0,0,0,,{\be10}Ran and I came to an amusement park,
 Dialogue: 0,0:01:57.36,0:01:59.11,Narration Off,,0,0,0,,{\be10}and before our eyes there was a murder.
-Dialogue: 0,0:01:50.06,0:01:53.27,Dialogue,,0,0,0,,You will not become a good detective if you are so easily deceived!
 Dialogue: 0,0:02:06.08,0:02:06.83,Dialogue,,0,0,0,,Water?
 Dialogue: 0,0:02:17.55,0:02:19.97,Narration Off,,0,0,0,,{\be10}They were also on the rollercoaster.
 Dialogue: 0,0:02:21.22,0:02:24.05,Dialogue,,0,0,0,,So temporarily taking you and Ran{\rHonorifics - Dialogue}-kun{\r} out of the picture,
@@ -194,8 +193,8 @@ Dialogue: 0,0:08:48.52,0:08:51.69,Dialogue,,0,0,0,,The snow is unusually trample
 Dialogue: 0,0:08:53.28,0:08:54.82,Thoughts,,0,0,0,,{\be10}I'm glad I found you, Gin!
 Dialogue: 0,0:09:02.12,0:09:04.08,Dialogue,,0,0,0,,This time, you won't escape...
 Dialogue: 0,0:09:09.71,0:09:13.09,Narration Off,,0,0,0,,{\be10}We tracked down one of the members of the Organization, code-named Pisco,
-Dialogue: 0,0:09:13.67,0:09:16.44,Narration Off,,0,0,0,,{\be10}who's job was kill a politician.
 Dialogue: 0,0:09:13.07,0:09:16.34,Thoughts,,0,0,0,,{\be10}It's a funeral farewell party, everyone is dressed in black.
+Dialogue: 0,0:09:13.67,0:09:16.44,Narration Off,,0,0,0,,{\be10}who's job was kill a politician.
 Dialogue: 0,0:09:17.55,0:09:19.82,Thoughts,,0,0,0,,{\be10}Everybody's starting to look suspicious.
 Dialogue: 0,0:09:20.60,0:09:21.10,Narration Off,,0,0,0,,{\be10}Yet...
 Dialogue: 0,0:09:21.56,0:09:22.06,Dialogue,,0,0,0,,What?
@@ -261,8 +260,8 @@ Dialogue: 0,0:13:13.25,0:13:15.48,Narration Off,,0,0,0,,{\be10}The new English t
 Dialogue: 0,0:13:15.47,0:13:17.76,Signs,,0,0,0,,JODY STARLING
 Dialogue: 0,0:13:15.71,0:13:17.20,Narration Off,,0,0,0,,{\be10}using the the alias of Jody Santemillion,
 Dialogue: 0,0:13:17.21,0:13:18.77,Narration Off,,0,0,0,,{\be10}is Agent Jody Starling.
-Dialogue: 0,0:13:21.14,0:13:24.10,Signs,,0,0,0,,АКАI SHUICHI
 Dialogue: 0,0:13:20.67,0:13:23.59,Narration Off,,0,0,0,,{\be10}The trump card of the FBI is Agent Akai Shuichi.
+Dialogue: 0,0:13:21.14,0:13:24.10,Signs,,0,0,0,,АКАI SHUICHI
 Dialogue: 0,0:13:25.30,0:13:26.72,Narration Off,,0,0,0,,{\be10}And the head of their group...
 Dialogue: 0,0:13:26.40,0:13:28.65,Signs,,0,0,0,,JAMES BLACK
 Dialogue: 0,0:13:26.72,0:13:28.34,Narration Off,,0,0,0,,{\be10}Agent James Black.

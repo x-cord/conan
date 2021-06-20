@@ -33,7 +33,6 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: Narration Off,PT Sans Nonligature,53,&H0AAAD3FD,&H000019FF,&H00000000,&HC0FFFFFF,-1,0,0,0,104,100,0.333333,0,1,1.06667,1.5,2,10,10,17,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -202,11 +201,11 @@ Dialogue: 0,0:14:27.42,0:14:30.14,Radio,,0,0,0,,{\be10}But, as of now, no known 
 Dialogue: 0,0:14:30.55,0:14:36.27,Radio,,0,0,0,,{\be10}Conan{\rHonorifics - Radio\be10}-kun{\r\be10} also said he couldn't tell the culprit's face, age, or gender.
 Dialogue: 0,0:14:36.81,0:14:41.69,Radio,,0,0,0,,{\be10}We police consider this a crime against Governor\NAsakura's 4-year Tokyo administration...
 Dialogue: 0,0:14:41.69,0:14:45.73,Radio,,0,0,0,,{\be10}Motivated by one-sided dissatisfaction and hatred.
-Dialogue: 0,0:14:45.73,0:14:47.53,Radio,,0,0,0,,{\be10}Our investigation is focusing on that angle.
+Dialogue: 0,0:14:42.73,0:14:51.41,Signs,,0,0,0,,MPD PRESS CONFERENCE
 Dialogue: 0,0:14:42.73,0:14:51.41,Signs,,0,0,0,,MPD PRESS CONFERENCE
 Dialogue: 0,0:14:42.73,0:14:51.41,Signs,,0,0,0,,MPD PRESS CONFERENCE
 Dialogue: 2,0:14:42.73,0:14:51.41,Signs,,0,0,0,,MPD PRESS CONFERENCE
-Dialogue: 0,0:14:42.73,0:14:51.41,Signs,,0,0,0,,MPD PRESS CONFERENCE
+Dialogue: 0,0:14:45.73,0:14:47.53,Radio,,0,0,0,,{\be10}Our investigation is focusing on that angle.
 Dialogue: 0,0:14:48.24,0:14:49.03,Radio,,0,0,0,,{\be10}That will be all.
 Dialogue: 0,0:14:51.95,0:14:55.08,Radio,,0,0,0,,{\be10}This has been a live broadcast from the press\Nconference held at police headquarters.
 Dialogue: 0,0:14:56.66,0:14:58.96,Dialogue,,0,0,0,,What, so that's it?
@@ -667,15 +666,15 @@ Dialogue: 0,0:36:44.80,0:36:45.97,Dialogue,,0,0,0,,Of course!
 Dialogue: 0,0:36:47.68,0:36:51.93,Dialogue,,0,0,0,,Well, to think we're able to meet with\Na great detective at a place like this!
 Dialogue: 0,0:36:51.93,0:36:52.48,Dialogue,,0,0,0,,Right?
 Dialogue: 0,0:36:53.48,0:36:54.94,Dialogue,,0,0,0,,Allow me to introduce ourselves.
-Dialogue: 0,0:36:55.48,0:36:58.90,Signs,,0,0,0,,Yamao Keisuke (34)
 Dialogue: 0,0:36:54.94,0:36:57.86,Dialogue,,0,0,0,,The guy sitting next to me is Yamao Keisuke.
+Dialogue: 0,0:36:55.48,0:36:58.90,Signs,,0,0,0,,Yamao Keisuke (34)
 Dialogue: 0,0:36:59.53,0:37:00.65,Dialogue,,0,0,0,,The ladies facing him are...
 Dialogue: 0,0:37:00.65,0:37:05.07,Signs,,0,0,0,,Toono Mizuki (33)
+Dialogue: 0,0:37:00.65,0:37:05.07,Signs,,0,0,0,,Tachihara Fuyumi (34)
 Dialogue: 0,0:37:00.99,0:37:02.19,Dialogue,,0,0,0,,Toono Mizuki and...
 Dialogue: 0,0:37:03.07,0:37:04.07,Dialogue,,0,0,0,,Tachihara Fuyumi.
-Dialogue: 0,0:37:00.65,0:37:05.07,Signs,,0,0,0,,Tachihara Fuyumi (34)
-Dialogue: 0,0:37:05.78,0:37:07.20,Dialogue,,0,0,0,,And this is Mutou Takehiko.
 Dialogue: 0,0:37:05.45,0:37:08.74,Signs,,0,0,0,,Mutou Takehiko (34)
+Dialogue: 0,0:37:05.78,0:37:07.20,Dialogue,,0,0,0,,And this is Mutou Takehiko.
 Dialogue: 0,0:37:09.03,0:37:12.58,Signs,,0,0,0,,Hikawa Shougo (34)
 Dialogue: 0,0:37:09.49,0:37:11.75,Dialogue,,0,0,0,,Finally, I'm Hikawa Shougo.
 Dialogue: 0,0:37:13.33,0:37:16.75,Dialogue,,0,0,0,,Everyone here was born in the original Kitanosawa Village.
@@ -1332,16 +1331,16 @@ Dialogue: 0,1:11:55.08,1:11:56.12,Thoughts,,0,0,0,,{\be10}Those guys...
 Dialogue: 0,1:11:56.12,1:11:56.83,Thoughts,,0,0,0,,{\be10}Don't tell me...
 Dialogue: 0,1:11:56.83,1:12:00.00,Dialogue Top,,0,0,0,,♪With overflowing strength...
 Dialogue: 0,1:12:00.00,1:12:03.71,Dialogue Top,,0,0,0,,♪Let's try out our courage!
-Dialogue: 0,1:12:03.71,1:12:07.46,Dialogue Top,,0,0,0,,♪By uniting our hearts as one...
-Dialogue: 0,1:12:07.46,1:12:10.93,Dialogue Top,,0,0,0,,♪Let's leap forward and I'm sorry!
-Dialogue: 0,1:12:11.09,1:12:14.85,Dialogue Top,,0,0,0,,♪Step firmly on the ground...
-Dialogue: 0,1:12:14.85,1:12:16.97,Dialogue Top,,0,0,0,,♪And resoundingly we need to...
 Dialogue: 0,1:12:01.29,1:12:03.13,Dialogue,,0,0,0,,Does this place look about right?
 Dialogue: 0,1:12:03.13,1:12:04.96,Dialogue,,0,0,0,,Yeah, I think so.
+Dialogue: 0,1:12:03.71,1:12:07.46,Dialogue Top,,0,0,0,,♪By uniting our hearts as one...
 Dialogue: 0,1:12:05.59,1:12:07.46,Dialogue,,0,0,0,,Hey, you're too noisy!
+Dialogue: 0,1:12:07.46,1:12:10.93,Dialogue Top,,0,0,0,,♪Let's leap forward and I'm sorry!
 Dialogue: 0,1:12:07.46,1:12:10.93,Dialogue,,0,0,0,,♪We know we're being noisy!
+Dialogue: 0,1:12:11.09,1:12:14.85,Dialogue Top,,0,0,0,,♪Step firmly on the ground...
 Dialogue: 0,1:12:12.05,1:12:12.97,Dialogue,,0,0,0,,How's it?
 Dialogue: 0,1:12:12.97,1:12:13.89,Dialogue,,0,0,0,,Someone still there?
+Dialogue: 0,1:12:14.85,1:12:16.97,Dialogue Top,,0,0,0,,♪And resoundingly we need to...
 Dialogue: 0,1:12:17.10,1:12:18.06,Dialogue,,0,0,0,,Keep walking...
 Dialogue: 0,1:12:18.77,1:12:20.06,Dialogue,,0,0,0,,Still there!
 Dialogue: 0,1:12:20.06,1:12:21.14,Dialogue,,0,0,0,,Why's this happening!?
@@ -1910,8 +1909,8 @@ Dialogue: 0,1:47:56.86,1:47:58.28,Dialogue,,0,0,0,,Thank you very much.
 Dialogue: 0,1:47:58.28,1:47:59.36,Dialogue,,0,0,0,,We're grateful for everything.
 Dialogue: 0,1:47:59.95,1:48:02.03,Dialogue,,0,0,0,,Although things turned out this way...
 Dialogue: 0,1:48:02.03,1:48:03.66,Dialogue,,0,0,0,,Please still feel free to come again!
-Dialogue: 0,1:48:03.91,1:48:04.83,Dialogue,,0,0,0,,We'll come again!
 Dialogue: 0,1:48:03.66,1:48:04.58,Dialogue,,0,0,0,,Yes!
+Dialogue: 0,1:48:03.91,1:48:04.83,Dialogue,,0,0,0,,We'll come again!
 Dialogue: 0,1:48:04.83,1:48:06.00,Dialogue,,0,0,0,,We'll definitely come!
 Dialogue: 0,1:48:10.33,1:48:12.38,Dialogue,,0,0,0,,Hey, you guys, hurry up already!
 Dialogue: 0,1:48:13.09,1:48:14.84,Dialogue,,0,0,0,,If you mess about, I'm gonna leave you here!
