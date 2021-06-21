@@ -36,20 +36,19 @@ Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:02.10,0:00:03.69,Dialogue,,0,0,0,,Reasoning and hints are interlinked,
-Dialogue: 0,0:00:03.94,0:00:05.86,Dialogue,,0,0,0,,Allowing us to understand a case's mystery.
-Dialogue: 0,0:00:06.19,0:00:07.82,Dialogue,,0,0,0,,Today's case is in a wine cellar!
-Dialogue: 0,0:00:07.86,0:00:09.61,Dialogue,,0,0,0,,Something happens with the resting wine bottles.
-Dialogue: 0,0:00:09.90,0:00:11.61,Dialogue,,0,0,0,,Recognizing that single truth...
-Dialogue: 0,0:00:11.61,0:00:13.53,Dialogue,,0,0,0,,a child with the intellect of an adult...
-Dialogue: 0,0:00:13.53,0:00:15.99,Dialogue,,0,0,0,,His name is... Detective Conan!
-Dialogue: 0,0:01:41.33,0:01:47.04,Signs,Sign,0,0,0,,The Locked Wine Cellar
+Dialogue: 0,0:00:02.10,0:00:03.69,Narration Off,,0,0,0,,{\be10}Reasoning and hints are interlinked,
+Dialogue: 0,0:00:03.94,0:00:05.86,Narration Off,,0,0,0,,{\be10}Allowing us to understand a case's mystery.
+Dialogue: 0,0:00:06.19,0:00:07.82,Narration Off,,0,0,0,,{\be10}Today's case is in a wine cellar!
+Dialogue: 0,0:00:07.86,0:00:09.61,Narration Off,,0,0,0,,{\be10}Something happens with the resting wine bottles.
+Dialogue: 0,0:00:09.90,0:00:11.61,Narration Off,,0,0,0,,{\be10}Recognizing that single truth...
+Dialogue: 0,0:00:11.61,0:00:13.53,Narration Off,,0,0,0,,{\be10}a child with the intellect of an adult...
+Dialogue: 0,0:00:13.53,0:00:15.99,Narration Off,,0,0,0,,{\be10}His name is... Detective Conan!
+Dialogue: 0,0:01:41.33,0:01:47.04,Title,Sign,0,0,0,,The Locked Wine Cellar
 Dialogue: 0,0:01:47.67,0:01:52.59,Dialogue,,0,0,0,,Wow, what an impressive collection!
 Dialogue: 0,0:01:53.17,0:01:55.34,Dialogue,,0,0,0,,It definitely has some value.
 Dialogue: 0,0:01:55.59,0:01:57.97,Dialogue,,0,0,0,,Do you know a lot about this, Mouri{\rHonorifics - Dialogue}-san{\r}?
 Dialogue: 0,0:01:57.97,0:02:00.34,Dialogue,,0,0,0,,Uh... well...
-Dialogue: 0,0:02:00.22,0:02:04.72,Signs,Sign,0,0,0,,President of\NFinancial Business
-Dialogue: 0,0:02:00.22,0:02:04.72,Signs,Sign,0,0,0,,Shouhei Kusaka (52)
+Dialogue: 0,0:02:00.22,0:02:04.72,Character Card,Sign,0,0,0,,Shouhei Kusaka (52)\NPresident of\NFinancial Business
 Dialogue: 0,0:02:00.59,0:02:03.43,Dialogue,,0,0,0,,Wow, you really do know about my collection.
 Dialogue: 0,0:02:03.43,0:02:04.81,Dialogue,,0,0,0,,You truly are a great detective.
 Dialogue: 0,0:02:05.10,0:02:07.23,Dialogue,,0,0,0,,I'm not {\i1}that{\i0} great.
@@ -58,13 +57,13 @@ Dialogue: 0,0:02:18.65,0:02:20.86,Dialogue,,0,0,0,,Looks like Mouri{\rHonorifics
 Dialogue: 0,0:02:21.91,0:02:24.29,Dialogue,,0,0,0,,Now we won't be able to drink wine for a while.
 Dialogue: 0,0:02:24.29,0:02:26.50,Dialogue,,0,0,0,,What does that mean?
 Dialogue: 0,0:02:26.54,0:02:30.50,Dialogue,,0,0,0,,Your father just complimented his collection.
-Dialogue: 0,0:02:28.25,0:02:31.46,Signs,Sign,0,0,0,,Takeo Nonaka (42)\NCompany President
+Dialogue: 0,0:02:28.25,0:02:31.46,Character Card,Sign,0,0,0,,Takeo Nonaka (42)\NCompany President
 Dialogue: 0,0:02:30.50,0:02:31.63,Dialogue,,0,0,0,,Then...
 Dialogue: 0,0:02:33.13,0:02:37.34,Dialogue,,0,0,0,,Like a switch flipped inside of him, his bragging won't stop.
-Dialogue: 0,0:02:37.55,0:02:40.88,Signs,Sign,0,0,0,,Jyoukichi Tonomura (40)\NSommelier
+Dialogue: 0,0:02:37.55,0:02:40.88,Character Card,Sign,0,0,0,,Jyoukichi Tonomura (40)\NSommelier
 Dialogue: 0,0:02:38.30,0:02:40.88,Dialogue,,0,0,0,,He won't let go of Mouri{\rHonorifics - Dialogue}-san{\r} for a while.
-Dialogue: 0,0:02:42.93,0:02:45.68,Dialogue,,0,0,0,,An otaku, huh?
-Dialogue: 0,0:02:45.64,0:02:49.60,Signs,Sign,0,0,0,,Yukari Takano (38)\NArt Museum Owner
+Dialogue: 0,0:02:42.93,0:02:45.68,Thoughts,,0,0,0,,{\be10}An otaku, huh?
+Dialogue: 0,0:02:45.64,0:02:49.60,Character Card,Sign,0,0,0,,Yukari Takano (38)\NArt Museum Owner
 Dialogue: 0,0:02:45.68,0:02:49.60,Dialogue,,0,0,0,,Well, he says the same things over and over again.
 Dialogue: 0,0:02:50.31,0:02:54.82,Dialogue,,0,0,0,,Like, "This is very hard to get."
 Dialogue: 0,0:02:55.36,0:02:59.70,Dialogue,,0,0,0,,This is very hard to get. It's a bottle of Mosel wine.
@@ -89,7 +88,7 @@ Dialogue: 0,0:03:54.12,0:03:57.00,Dialogue,,0,0,0,,Nonaka{\rHonorifics - Dialogu
 Dialogue: 0,0:03:57.00,0:04:01.05,Dialogue,,0,0,0,,Takano{\rHonorifics - Dialogue}-san{\r} borrows money to run her art museum.
 Dialogue: 0,0:04:02.67,0:04:05.18,Dialogue,,0,0,0,,And I'm using his money for training to become a sommelier.
 Dialogue: 0,0:04:06.18,0:04:08.47,Dialogue,,0,0,0,,What are you talking about?
-Dialogue: 0,0:04:06.51,0:04:10.85,Signs,Sign,0,0,0,,Toshiko Kusaka\NShouhei Kusaka's wife
+Dialogue: 0,0:04:06.51,0:04:10.85,Character Card,Sign,0,0,0,,Toshiko Kusaka\NShouhei Kusaka's wife
 Dialogue: 0,0:04:08.72,0:04:10.56,Dialogue,,0,0,0,,You seem to be having fun.
 Dialogue: 0,0:04:11.14,0:04:16.56,Dialogue,,0,0,0,,Oh, we were just saying how Kusaka{\rHonorifics - Dialogue}-san{\r}'s\Nparties always have excellent wine,
 Dialogue: 0,0:04:16.56,0:04:19.53,Dialogue,,0,0,0,,and how we were looking forward to this.
@@ -106,7 +105,7 @@ Dialogue: 0,0:04:46.43,0:04:49.22,Dialogue,,0,0,0,,My best wine is there.
 Dialogue: 0,0:04:49.60,0:04:50.68,Dialogue,,0,0,0,,Honey?
 Dialogue: 0,0:04:52.06,0:04:55.69,Dialogue,,0,0,0,,The other guests are waiting for the tasting to start.
 Dialogue: 0,0:04:56.14,0:04:59.02,Dialogue,,0,0,0,,Oh, shoot! I forgot about that.
-Dialogue: 0,0:05:01.61,0:05:02.78,Dialogue,,0,0,0,,I'm saved.
+Dialogue: 0,0:05:01.61,0:05:02.78,Thoughts,,0,0,0,,{\be10}I'm saved.
 Dialogue: 0,0:05:03.28,0:05:06.61,Dialogue,,0,0,0,,Hello, everyone. I'm sorry I made you wait.
 Dialogue: 0,0:05:07.24,0:05:10.37,Dialogue,,0,0,0,,I thought the party was over.
 Dialogue: 0,0:05:10.83,0:05:12.20,Dialogue,,0,0,0,,Sorry.
@@ -124,7 +123,7 @@ Dialogue: 0,0:05:46.78,0:05:49.45,Dialogue,,0,0,0,,If Tonomura{\rHonorifics - Di
 Dialogue: 0,0:05:49.99,0:05:52.53,Dialogue,,0,0,0,,I'll take care of that matter.
 Dialogue: 0,0:05:53.66,0:05:57.04,Dialogue,,0,0,0,,I see. Then there's no need for me to decline.
 Dialogue: 0,0:06:07.09,0:06:10.43,Dialogue,,0,0,0,,All right, everyone. Please drink as much as you want.
-Dialogue: 0,0:06:10.76,0:06:12.60,Dialogue,,0,0,0,,Ittadakimasu!
+Dialogue: 0,0:06:10.76,0:06:12.60,Dialogue,,0,0,0,,Itadakimasu!
 Dialogue: 0,0:06:23.02,0:06:25.32,Dialogue,,0,0,0,,Let's see...
 Dialogue: 0,0:06:51.76,0:06:52.39,Dialogue,,0,0,0,,Good.
 Dialogue: 0,0:06:54.01,0:06:57.31,Dialogue,,0,0,0,,Tuscany region in Italy. Solaia.
@@ -169,9 +168,9 @@ Dialogue: 0,0:09:58.36,0:10:01.49,Dialogue,,0,0,0,,Madam. Please call the police
 Dialogue: 0,0:10:02.08,0:10:04.08,Dialogue,,0,0,0,,Your husband is dead.
 Dialogue: 0,0:10:06.45,0:10:07.58,Dialogue,,0,0,0,,Madam!
 Dialogue: 0,0:10:08.33,0:10:11.00,Dialogue,,0,0,0,,Please get a hold of yourself! Madam!
-Dialogue: 0,0:10:11.04,0:10:11.92,Dialogue,,0,0,0,,Why?
-Dialogue: 0,0:10:12.84,0:10:15.88,Dialogue,,0,0,0,,Why is he in such an abnormal position?
-Dialogue: 0,0:10:17.17,0:10:18.05,Dialogue,,0,0,0,,Why?
+Dialogue: 0,0:10:11.04,0:10:11.92,Thoughts,,0,0,0,,{\be10}Why?
+Dialogue: 0,0:10:12.84,0:10:15.88,Thoughts,,0,0,0,,{\be10}Why is he in such an abnormal position?
+Dialogue: 0,0:10:17.17,0:10:18.05,Thoughts,,0,0,0,,{\be10}Why?
 Dialogue: 0,0:10:25.27,0:10:28.81,Dialogue,,0,0,0,,The victim is Shouhei Kusaka. Fifty-two years old.
 Dialogue: 0,0:10:28.85,0:10:32.69,Dialogue,,0,0,0,,The husband of this household and president\Nof a financial business in Beika City.
 Dialogue: 0,0:10:33.44,0:10:39.78,Dialogue,,0,0,0,,He was strangled to death by a\Nrope that was around his neck.
@@ -217,12 +216,12 @@ Dialogue: 0,0:13:00.63,0:13:05.17,Dialogue,,0,0,0,,If you fought in such a small
 Dialogue: 0,0:13:05.34,0:13:08.05,Dialogue,,0,0,0,,I see... that certainly is true.
 Dialogue: 0,0:13:11.85,0:13:14.02,Dialogue,,0,0,0,,That's a coincidence, a coincidence!
 Dialogue: 0,0:13:15.18,0:13:17.35,Dialogue,,0,0,0,,What are these marks?
-Dialogue: 0,0:13:18.69,0:13:21.40,Dialogue,,0,0,0,,It looks like something rubbed the floor really hard...
+Dialogue: 0,0:13:18.69,0:13:21.40,Thoughts,,0,0,0,,{\be10}It looks like something rubbed the floor really hard...
 Dialogue: 0,0:13:23.40,0:13:27.61,Dialogue,,0,0,0,,Anyways, Inspector. Let's look at the back of this house.
-Dialogue: 0,0:13:28.32,0:13:31.16,Dialogue,,0,0,0,,If there's no trace that he came from the back door,
-Dialogue: 0,0:13:30.07,0:13:31.49,Dialogue,,0,0,0,,Wait...
-Dialogue: 0,0:13:31.49,0:13:32.74,Dialogue,,0,0,0,,then the people in the house...
-Dialogue: 0,0:13:32.87,0:13:33.62,Dialogue,,0,0,0,,Maybe...
+Dialogue: 0,0:13:28.32,0:13:31.16,Dialogue Top,,0,0,0,,If there's no trace that he came from the back door,
+Dialogue: 0,0:13:30.07,0:13:31.49,Thoughts,,0,0,0,,{\be10}Wait...
+Dialogue: 0,0:13:31.49,0:13:32.74,Dialogue Top,,0,0,0,,then the people in the house...
+Dialogue: 0,0:13:32.87,0:13:33.62,Thoughts,,0,0,0,,{\be10}Maybe...
 Dialogue: 0,0:13:36.91,0:13:40.54,Dialogue,,0,0,0,,It doesn't look like anyone tried to unlock the back door.
 Dialogue: 0,0:13:41.63,0:13:45.17,Dialogue,,0,0,0,,Maybe someone made a spare key...
 Dialogue: 0,0:13:45.26,0:13:47.80,Dialogue,,0,0,0,,Oh, I don't think that's possible.
@@ -253,8 +252,8 @@ Dialogue: 0,0:15:07.46,0:15:08.71,Dialogue,,0,0,0,,Well...
 Dialogue: 0,0:15:11.93,0:15:15.35,Dialogue,,0,0,0,,No, I didn't hear that they found something like that.
 Dialogue: 0,0:15:16.18,0:15:17.35,Dialogue,,0,0,0,,Did you?
 Dialogue: 0,0:15:17.93,0:15:20.14,Dialogue,,0,0,0,,Nope. There haven't been any reports about that.
-Dialogue: 0,0:15:21.48,0:15:24.11,Dialogue,,0,0,0,,I found solid evidence!
-Dialogue: 0,0:15:25.11,0:15:27.53,Dialogue,,0,0,0,,The culprit should still have it with him!
+Dialogue: 0,0:15:21.48,0:15:24.11,Thoughts,,0,0,0,,{\be10}I found solid evidence!
+Dialogue: 0,0:15:25.11,0:15:27.53,Thoughts,,0,0,0,,{\be10}The culprit should still have it with him!
 Dialogue: 0,0:15:28.82,0:15:30.19,Dialogue,,0,0,0,,W-What?
 Dialogue: 0,0:15:30.32,0:15:33.24,Dialogue,,0,0,0,,So you're saying the culprit is one of us?
 Dialogue: 0,0:15:33.66,0:15:35.74,Dialogue,,0,0,0,,Please explain, Inspector.
@@ -353,4 +352,4 @@ Dialogue: 0,0:23:25.84,0:23:30.97,Dialogue,,0,0,0,,Hm? Did I lend him something?
 Dialogue: 0,0:23:31.01,0:23:32.72,Dialogue,,0,0,0,,Whatever.
 Dialogue: 0,0:23:33.84,0:23:36.68,Dialogue,,0,0,0,,You can return it any time!
 Dialogue: 0,0:23:36.68,0:23:39.43,Dialogue,,0,0,0,,Oww...
-Dialogue: 0,0:23:40.98,0:23:43.52,Dialogue,,0,0,0,,Sorry, Officer Takagi.
+Dialogue: 0,0:23:40.98,0:23:43.52,Thoughts,,0,0,0,,{\be10}Sorry, Officer Takagi.
