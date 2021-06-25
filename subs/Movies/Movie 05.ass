@@ -33,7 +33,6 @@ Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-
 Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
 Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
 Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
-Style: Cards,A-OTF Shin Go Pro M,63,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,97,100,0,0,1,0.45,2.25,2,15,15,30,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -512,9 +511,9 @@ Dialogue: 0,0:30:09.40,0:30:13.07,Dialogue,,0,0,0,,It's too bad Haibara{\rHonori
 Dialogue: 0,0:30:13.07,0:30:15.38,Dialogue,,0,0,0,,Huh? You invited her, too?
 Dialogue: 0,0:30:15.38,0:30:16.31,Dialogue,,0,0,0,,Yes!
 Dialogue: 0,0:30:16.31,0:30:20.30,Dialogue,,0,0,0,,But she said she was\Nbusy cleaning house today!
-Dialogue: 0,0:30:34.56,0:30:36.80,Cards,,0,0,0,,Brother!
-Dialogue: 0,0:30:36.80,0:30:42.40,Cards,,0,0,0,,I guess this is what traitors get...
-Dialogue: 0,0:30:42.40,0:30:46.24,Cards,,0,0,0,,Brother! Brother!
+Dialogue: 0,0:30:34.56,0:30:36.80,Flashback,,0,0,0,,Brother!
+Dialogue: 0,0:30:36.80,0:30:42.40,Flashback,,0,0,0,,I guess this is what traitors get...
+Dialogue: 0,0:30:42.40,0:30:46.24,Flashback,,0,0,0,,Brother! Brother!
 Dialogue: 0,0:30:52.81,0:30:57.85,Dialogue,,0,0,0,,I believe Kazama{\rHonorifics - Dialogue}-san{\r}'s\Napartment is right by the station.
 Dialogue: 0,0:30:57.85,0:30:59.82,Dialogue,,0,0,0,,And Kisaragi{\rHonorifics - Dialogue}-san{\r}'s house is...
 Dialogue: 0,0:30:59.82,0:31:03.26,Dialogue,,0,0,0,,Yeah! Up on that hill!
