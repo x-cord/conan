@@ -1,0 +1,559 @@
+[Script Info]
+Title: Detective Conan - TV 01
+TL Source: KnKF
+ScriptType: v4.00+
+WrapStyle: 3
+PlayResX: 1440
+PlayResY: 1080
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Dialogue,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00401311,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Dialogue Top,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00401311,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,8,30,30,55,1
+Style: Signs,FrancophilSans,74,&H14FFFFFF,&H00FFFFFF,&H46101010,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,8,30,30,55,1
+Style: Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,0,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Radio,FrancophilSans,74,&H00BEE1FF,&H00FFFFFF,&H000B2A42,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Narration,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00BF6F00,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Narration Off,FrancophilSans,74,&H6E8C6F00,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,0,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Flashback,FrancophilSans,74,&H00CDFAFF,&H00FFFFFF,&H00373737,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Flashback Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00CCFFFF,&HC0313134,-1,0,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Honorifics - Dialogue,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00401311,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Signs,FrancophilSans,74,&H14FFFFFF,&H00FFFFFF,&H46101010,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,-1,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Honorifics - Radio,FrancophilSans,74,&H00BEE1FF,&H00FFFFFF,&H000B2A42,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Narration,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00BF6F00,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Narration Off,FrancophilSans,74,&H6E8C6F00,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,-1,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Honorifics - Flashback,FrancophilSans,74,&H00CDFAFF,&H00FFFFFF,&H00373737,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Flashback Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00CCFFFF,&HC0313134,-1,-1,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Masks,FrancophilSans,74,&H00000000,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,2,0,0,0,1
+Style: Title,Conan Episode Title,74,&H00E1E4E3,&H000000FF,&HC8DBDAE1,&HC0000000,-1,0,0,0,100,100,0,0,1,1,0,5,0,0,0,1
+Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-1,0,0,0,100,100,0,0,1,0,0,2,0,0,65,1
+Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
+Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
+Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:13.70,0:00:14.70,Dialogue,,0,0,0,,Just a moment.
+Dialogue: 0,0:00:15.50,0:00:16.80,Dialogue,,0,0,0,,This time I will be playing the lead role.
+Dialogue: 0,0:00:18.70,0:00:20.50,Dialogue,,0,0,0,,Kaitou 1412.
+Dialogue: 0,0:00:21.41,0:00:24.11,Dialogue,,0,0,0,,This is what the police refer to me as.
+Dialogue: 0,0:00:25.11,0:00:26.81,Dialogue,,0,0,0,,They call me the Phantom Thief.
+Dialogue: 0,0:00:27.41,0:00:31.52,Dialogue,,0,0,0,,A menace to society.
+Dialogue: 0,0:00:32.02,0:00:34.89,Dialogue,,0,0,0,,How dare they compare me to petty thieves.
+Dialogue: 0,0:00:36.09,0:00:37.59,Dialogue,,0,0,0,,I play the game on a grander scale.
+Dialogue: 0,0:00:38.09,0:00:39.69,Dialogue,,0,0,0,,An artist with amazing creativity.
+Dialogue: 0,0:00:40.49,0:00:41.49,Dialogue,,0,0,0,,That is who I am.
+Dialogue: 0,0:00:42.29,0:00:44.09,Dialogue,,0,0,0,,I am "Kaitou-Kid".
+Dialogue: 0,0:00:45.70,0:00:48.50,Dialogue,,0,0,0,,This time I prepared another chance for us to meet.
+Dialogue: 0,0:00:49.20,0:00:52.30,Dialogue,,0,0,0,,To demonstrate to you that gorgeous wonder.
+Dialogue: 0,0:00:53.00,0:00:55.71,Dialogue,,0,0,0,,My plans failed because of that kid detective.\NPainfully I lost my precious goods.
+Dialogue: 0,0:00:56.11,0:00:57.21,Dialogue,,0,0,0,,This time it won't be that easy.
+Dialogue: 0,0:00:58.41,0:01:01.71,Dialogue,,0,0,0,,Everyone, please be witness to this.
+Dialogue: 0,0:01:01.81,0:01:05.42,Dialogue,,0,0,0,,The incident aboard the soaring silver wings in the night.
+Dialogue: 0,0:01:06.78,0:01:07.88,Dialogue,,0,0,0,,The next 30 minutes.
+Dialogue: 0,0:01:08.49,0:01:12.79,Dialogue,,0,0,0,,You might as well believe that I, Kaitou\NKid, will give you all another challenge.
+Dialogue: 0,0:01:15.19,0:01:17.99,Dialogue,,0,0,0,,Ladies and Gentlemen.
+Dialogue: 0,0:01:18.40,0:01:19.90,Dialogue,,0,0,0,,It's a show time.
+Dialogue: 0,0:01:21.80,0:01:22.60,Dialogue,,0,0,0,,Detective Conan.
+Dialogue: 0,0:01:23.00,0:01:24.60,Dialogue,,0,0,0,,Magician of the silver sky.
+Dialogue: 0,0:01:26.70,0:01:27.90,Dialogue,,0,0,0,,Please look forward to the show.
+Dialogue: 0,0:01:29.51,0:01:31.41,Dialogue,,0,0,0,,Wonderful! It's complete.
+Dialogue: 0,0:01:32.71,0:01:35.31,Dialogue,,0,0,0,,This will definitely help Shinichi and Mouri.
+Dialogue: 0,0:01:36.31,0:01:38.62,Dialogue,,0,0,0,,By only entering the criminal's data,
+Dialogue: 0,0:01:38.92,0:01:42.89,Dialogue,,0,0,0,,it can automatically pull up the criminal's profile.
+Dialogue: 0,0:01:43.39,0:01:44.99,Dialogue,,0,0,0,,Christies YP.
+Dialogue: 0,0:01:45.39,0:01:46.29,Dialogue,,0,0,0,,My own invention.
+Dialogue: 0,0:01:46.79,0:01:48.89,Dialogue,,0,0,0,,Well, let's do a test run.
+Dialogue: 0,0:01:52.70,0:01:53.90,Dialogue,,0,0,0,,This is the first time we've met, Professor.
+Dialogue: 0,0:01:54.00,0:01:55.90,Dialogue,,0,0,0,,I am Christies YP.
+Dialogue: 0,0:01:57.20,0:01:58.60,Dialogue,,0,0,0,,Startup is a success!
+Dialogue: 0,0:01:59.20,0:02:01.40,Dialogue,,0,0,0,,I'll start with this data then.
+Dialogue: 0,0:02:02.01,0:02:03.91,Dialogue,,0,0,0,,Lets see what this guy's true identity is.
+Dialogue: 0,0:02:04.81,0:02:08.71,Dialogue,Sign,0,0,0,,Kaitou Kid.
+Dialogue: 0,0:02:10.81,0:02:12.52,Dialogue,,0,0,0,,Know the answer already?
+Dialogue: 0,0:02:12.72,0:02:13.58,Dialogue,,0,0,0,,Of course.
+Dialogue: 0,0:02:13.68,0:02:15.49,Dialogue,,0,0,0,,Kaitou Kid's true identity is...
+Dialogue: 0,0:02:15.99,0:02:16.89,Dialogue,,0,0,0,,True identity is...
+Dialogue: 0,0:02:17.49,0:02:19.09,Dialogue,,0,0,0,,Kaitou Kid's real identity is...
+Dialogue: 0,0:02:19.39,0:02:20.59,Dialogue,,0,0,0,,Kudo Shinichi.
+Dialogue: 0,0:02:22.39,0:02:24.29,Dialogue,,0,0,0,,Stupid, what are you talking about?
+Dialogue: 0,0:02:24.39,0:02:25.60,Dialogue,,0,0,0,,That's impossible.
+Dialogue: 0,0:02:26.20,0:02:28.80,Dialogue,,0,0,0,,I just analyzed the data,
+Dialogue: 0,0:02:29.30,0:02:30.60,Dialogue,,0,0,0,,there's no way it can be wrong.
+Dialogue: 0,0:02:31.00,0:02:34.10,Dialogue,,0,0,0,,Oh yea, Kaitou Kid doesn't have\Nany criminal records as of yet.
+Dialogue: 0,0:02:34.20,0:02:35.71,Dialogue,,0,0,0,,That's why it came to this conclusion.
+Dialogue: 0,0:02:36.11,0:02:37.81,Dialogue,,0,0,0,,Better do some more data inputting...
+Dialogue: 0,0:02:37.91,0:02:40.21,Dialogue,,0,0,0,,Yeah...we can't go on like this.
+Dialogue: 0,0:02:40.71,0:02:41.31,Dialogue,,0,0,0,,I will go check the timeline.
+Dialogue: 0,0:02:41.41,0:02:46.18,Dialogue,,0,0,0,,Go collect Kaitou Kid's, Kudo Shinichi and Conan's data.
+Dialogue: 0,0:02:46.38,0:02:47.68,Dialogue,,0,0,0,,Let's research.
+Dialogue: 0,0:02:49.19,0:02:51.79,Dialogue,,0,0,0,,Where is Kaitou Kid's data...
+Dialogue: 0,0:02:52.39,0:02:53.69,Dialogue,,0,0,0,,Ah! Got it.
+Dialogue: 0,0:02:54.29,0:02:56.79,Dialogue,,0,0,0,,This guy is Kaitou 1412
+Dialogue: 0,0:02:57.09,0:02:58.20,Dialogue,,0,0,0,,People call him "Kaitou Kid".
+Dialogue: 0,0:02:58.50,0:03:02.50,Dialogue,,0,0,0,,His white suit makes him look like a bridesgroom.
+Dialogue: 0,0:03:02.60,0:03:03.40,Dialogue,,0,0,0,,This cannot be wrong.
+Dialogue: 0,0:03:04.70,0:03:06.10,Dialogue,,0,0,0,,Yo brat.
+Dialogue: 0,0:03:07.20,0:03:08.61,Dialogue,,0,0,0,,What are you doing here?
+Dialogue: 0,0:03:11.21,0:03:12.61,Dialogue,,0,0,0,,Kaitou Kid has no shame.
+Dialogue: 0,0:03:13.71,0:03:15.71,Dialogue,,0,0,0,,Kaitou Kid's image is so eye catching.
+Dialogue: 0,0:03:16.11,0:03:17.91,Dialogue,,0,0,0,,He seldomly makes an appearance.
+Dialogue: 0,0:03:18.01,0:03:20.18,Dialogue,,0,0,0,,hence the name Phantom.
+Dialogue: 0,0:03:21.38,0:03:23.89,Dialogue,,0,0,0,,He has only appeared in the theaters once.
+Dialogue: 0,0:03:24.39,0:03:25.29,Dialogue,,0,0,0,,Even though he has only appeared once,
+Dialogue: 0,0:03:25.39,0:03:27.59,Dialogue,,0,0,0,,he's popular among girls.
+Dialogue: 0,0:03:28.09,0:03:28.99,Dialogue,,0,0,0,,Maybe he's trying to aim for their love.
+Dialogue: 0,0:03:29.09,0:03:31.60,Dialogue,,0,0,0,,Letting others to believe he's a "heart" stealing thief.
+Dialogue: 0,0:03:33.90,0:03:35.60,Dialogue,,0,0,0,,As for the Kid's first encounter...
+Dialogue: 0,0:03:36.70,0:03:39.50,Dialogue,,0,0,0,,Conan and Kid first met in this case.
+Dialogue: 0,0:03:39.60,0:03:42.11,Dialogue,,0,0,0,,Looking at the letter's elegance,
+Dialogue: 0,0:03:42.21,0:03:43.91,Dialogue,,0,0,0,,Could you say he's a very discrete person?
+Dialogue: 0,0:03:44.51,0:03:46.51,Dialogue,,0,0,0,,I'd also like to see,
+Dialogue: 0,0:03:47.31,0:03:49.21,Dialogue,,0,0,0,,the real person behind these letters.
+Dialogue: 0,0:03:50.01,0:03:52.02,Dialogue,,0,0,0,,The big bandit's true colors.
+Dialogue: 0,0:03:54.68,0:03:58.59,Dialogue,,0,0,0,,Kid wants to steal Suzuki financial\Ngroup's "Black Star" jewelry.
+Dialogue: 0,0:03:59.09,0:04:01.79,Dialogue,,0,0,0,,The police are insuring the safety and protection,
+Dialogue: 0,0:04:02.19,0:04:03.89,Dialogue,,0,0,0,,but that guy is completely disregarding that fact,
+Dialogue: 0,0:04:03.99,0:04:05.20,Dialogue,,0,0,0,,and landing on the roof.
+Dialogue: 0,0:04:05.90,0:04:08.60,Dialogue,,0,0,0,,The one who appears in the moonlight\Nis not a bird but rather Kid.
+Dialogue: 0,0:04:08.70,0:04:12.20,Dialogue,,0,0,0,,Yes. That guy always uses some different\Nway of appearing from the sky.
+Dialogue: 0,0:04:12.80,0:04:15.71,Dialogue,,0,0,0,,But this time the one with the upper hand is Conan.
+Dialogue: 0,0:04:16.21,0:04:18.41,Dialogue,,0,0,0,,Even Kid has no way out of it.
+Dialogue: 0,0:04:19.11,0:04:21.41,Dialogue,,0,0,0,,What, you also thought of it too?
+Dialogue: 0,0:04:21.91,0:04:24.11,Dialogue,,0,0,0,,Naive, too naive?
+Dialogue: 0,0:04:25.82,0:04:28.39,Dialogue,,0,0,0,,You're not an ordinary kid.
+Dialogue: 0,0:04:29.99,0:04:30.69,Dialogue,,0,0,0,,Edogawa Conan.
+Dialogue: 0,0:04:31.09,0:04:31.79,Dialogue,,0,0,0,,I'm a detective.
+Dialogue: 0,0:04:33.19,0:04:35.19,Dialogue,,0,0,0,,Ahh...This is Chakiwa.
+Dialogue: 0,0:04:35.59,0:04:36.89,Dialogue,,0,0,0,,This is Kid's little trick.
+Dialogue: 0,0:04:37.29,0:04:39.50,Dialogue,,0,0,0,,He can impersonate the voices of important\Npersonnel, so be careful.
+Dialogue: 0,0:04:40.00,0:04:42.10,Dialogue,,0,0,0,,If he entered into an impersonation\Ncontest, he'd be the champion.
+Dialogue: 0,0:04:43.80,0:04:44.90,Dialogue,,0,0,0,,Don't move, Kid!
+Dialogue: 0,0:04:45.50,0:04:47.30,Dialogue,,0,0,0,,Ah It's Officer Nakamori.
+Dialogue: 0,0:04:47.60,0:04:48.71,Dialogue,,0,0,0,,You came pretty fast this time.
+Dialogue: 0,0:04:49.41,0:04:50.31,Dialogue,,0,0,0,,Quick, grab him!
+Dialogue: 0,0:04:50.71,0:04:51.01,Dialogue,,0,0,0,,Move!
+Dialogue: 0,0:04:53.81,0:04:54.41,Dialogue,,0,0,0,,Flashbomb...
+Dialogue: 0,0:04:55.11,0:04:55.71,Dialogue,,0,0,0,,Just like that.
+Dialogue: 0,0:04:56.31,0:04:57.11,Dialogue,,0,0,0,,He'll flash...
+Dialogue: 0,0:04:57.81,0:04:58.62,Dialogue,,0,0,0,,And disappear...
+Dialogue: 0,0:04:59.52,0:05:01.89,Dialogue,,0,0,0,,Amazing.
+Dialogue: 0,0:05:02.19,0:05:02.99,Dialogue,,0,0,0,,He's gone!
+Dialogue: 0,0:05:04.79,0:05:07.39,Dialogue,,0,0,0,,Actually, before this incident, these two have already met.
+Dialogue: 0,0:05:07.79,0:05:10.69,Dialogue,,0,0,0,,It happened when Kudo Shinichi hadn't\Ntransformed into Conan yet.
+Dialogue: 0,0:05:11.19,0:05:14.00,Dialogue,,0,0,0,,It was when Kid hinted us that he'd\Ngo steal the Time Skyscraper.
+Dialogue: 0,0:05:14.40,0:05:16.30,Dialogue,,0,0,0,,Shinichi came in time to stop him.
+Dialogue: 0,0:05:16.70,0:05:17.50,Dialogue,,0,0,0,,Well done.
+Dialogue: 0,0:05:19.00,0:05:19.80,Dialogue,,0,0,0,,Then...
+Dialogue: 0,0:05:20.60,0:05:21.81,Dialogue,,0,0,0,,Who are you?
+Dialogue: 0,0:05:25.41,0:05:26.31,Dialogue,,0,0,0,,I am
+Dialogue: 0,0:05:27.21,0:05:28.31,Dialogue,,0,0,0,,Kudo Shinichi.
+Dialogue: 0,0:05:31.31,0:05:32.42,Dialogue,,0,0,0,,A detective.
+Dialogue: 0,0:05:35.99,0:05:37.29,Dialogue,,0,0,0,,Let me borrow this.
+Dialogue: 0,0:05:38.29,0:05:38.79,Dialogue,,0,0,0,,Even if you are a detective.
+Dialogue: 0,0:05:38.89,0:05:41.49,Dialogue,,0,0,0,,Can you borrow things like this?
+Dialogue: 0,0:05:41.89,0:05:43.99,Dialogue,,0,0,0,,Normally from this distance you can't shoot him.
+Dialogue: 0,0:05:45.20,0:05:45.80,Dialogue,,0,0,0,,Damn.
+Dialogue: 0,0:05:46.80,0:05:47.90,Dialogue,,0,0,0,,Not bad!
+Dialogue: 0,0:05:49.40,0:05:51.90,Dialogue,,0,0,0,,Then how did Kid shoot under these circumstances?
+Dialogue: 0,0:05:52.00,0:05:54.00,Dialogue,,0,0,0,,What actually came out of the gun was a card.
+Dialogue: 0,0:05:54.50,0:05:57.01,Dialogue,,0,0,0,,Not harming people is actually one of his common routines.
+Dialogue: 0,0:05:58.01,0:05:58.71,Dialogue,,0,0,0,,What?
+Dialogue: 0,0:05:58.91,0:06:01.21,Dialogue,,0,0,0,,People say he's not such a bad guy.
+Dialogue: 0,0:06:02.11,0:06:02.71,Dialogue,,0,0,0,,Then.
+Dialogue: 0,0:06:03.41,0:06:05.82,Dialogue,,0,0,0,,Kid's greatest method of stealing is through his disguises.
+Dialogue: 0,0:06:06.48,0:06:08.18,Dialogue,,0,0,0,,His face and voice will all change.
+Dialogue: 0,0:06:08.28,0:06:10.49,Dialogue,,0,0,0,,Blending in with any circumstance is not a problem.
+Dialogue: 0,0:06:12.99,0:06:14.49,Dialogue,,0,0,0,,He can even disguise as someone close to you.
+Dialogue: 0,0:06:15.19,0:06:17.89,Dialogue,,0,0,0,,The person next to you might even be Kid.
+Dialogue: 0,0:06:18.50,0:06:20.70,Dialogue,,0,0,0,,He's just a guy who loves using flashbombs.
+Dialogue: 0,0:06:21.30,0:06:22.40,Dialogue,,0,0,0,,Dad!
+Dialogue: 0,0:06:30.51,0:06:31.51,Dialogue,,0,0,0,,Kaitou Kid?
+Dialogue: 0,0:06:32.21,0:06:34.41,Dialogue,,0,0,0,,He falsely posed as Mouri Kogoro.
+Dialogue: 0,0:06:35.11,0:06:39.52,Dialogue,,0,0,0,,Then the only person who hasn't been posed is me?
+Dialogue: 0,0:06:39.78,0:06:41.68,Dialogue,,0,0,0,,What are you thinking of doing first?
+Dialogue: 0,0:06:42.09,0:06:42.99,Dialogue,,0,0,0,,Mr. Thief.
+Dialogue: 0,0:06:43.09,0:06:45.99,Dialogue,,0,0,0,,The battle between Conan, Kid, and Shinichi has begun.
+Dialogue: 0,0:06:46.09,0:06:48.59,Dialogue,,0,0,0,,The latest movie details are in all these scenes.
+Dialogue: 0,0:06:49.09,0:06:49.69,Dialogue,,0,0,0,,You can't miss it.
+Dialogue: 0,0:06:51.90,0:06:54.70,Dialogue,,0,0,0,,Where is Kid's next profile report?
+Dialogue: 0,0:06:55.20,0:06:55.80,Dialogue,,0,0,0,,This one.
+Dialogue: 0,0:06:57.40,0:06:59.00,Dialogue,,0,0,0,,It's the latest theatre version.
+Dialogue: 0,0:06:59.90,0:07:03.51,Dialogue,,0,0,0,,The latest movie "Magician of\Nthe Silver Sky" premieres at...
+Dialogue: 0,0:07:03.61,0:07:04.51,Dialogue,,0,0,0,,Tokyo's theatre.
+Dialogue: 0,0:07:05.11,0:07:07.61,Dialogue,,0,0,0,,At the universal theatre...
+Dialogue: 0,0:07:09.31,0:07:11.51,Dialogue,,0,0,0,,Well then, let's do the introduction.
+Dialogue: 0,0:07:12.22,0:07:13.78,Dialogue,,0,0,0,,During this play,
+Dialogue: 0,0:07:14.38,0:07:16.69,Dialogue,,0,0,0,,there is a piece of jewelry used by Josephine.
+Dialogue: 0,0:07:17.39,0:07:18.49,Dialogue,,0,0,0,,Star Sapphire
+Dialogue: 0,0:07:19.09,0:07:22.89,Dialogue,,0,0,0,,This time, this is Kaitou Kid's target.
+Dialogue: 0,0:07:23.56,0:07:29.53,Dialogue Top,Sign,0,0,0,,Dressing Room\NMaki Juri
+Dialogue: 0,0:07:25.20,0:07:26.10,Dialogue,,0,0,0,,Maki Juri.
+Dialogue: 0,0:07:26.20,0:07:28.00,Dialogue,,0,0,0,,Mouri{\rHonorifics - Dialogue}-san{\r} is here.
+Dialogue: 0,0:07:28.40,0:07:29.30,Dialogue,,0,0,0,,Please come in.
+Dialogue: 0,0:07:32.20,0:07:33.10,Dialogue,,0,0,0,,Sorry to interrupt.
+Dialogue: 0,0:07:33.90,0:07:35.21,Dialogue,,0,0,0,,Welcome Mouri{\rHonorifics - Dialogue}-san{\r}.
+Dialogue: 0,0:07:35.91,0:07:36.71,Dialogue,,0,0,0,,Hello.
+Dialogue: 0,0:07:36.81,0:07:38.61,Dialogue,,0,0,0,,The one invited here is Mouri Kogoro.
+Dialogue: 0,0:07:38.71,0:07:39.91,Dialogue,,0,0,0,,The group of people in the same performance.
+Dialogue: 0,0:07:40.41,0:07:41.71,Dialogue,,0,0,0,,Heard that Mouri Kogoro had arrived.
+Dialogue: 0,0:07:41.81,0:07:45.22,Dialogue,,0,0,0,,The people involved in this play one by one came out.
+Dialogue: 0,0:07:45.92,0:07:47.88,Dialogue,,0,0,0,,Kid should be one of them.
+Dialogue: 0,0:07:48.59,0:07:49.09,Dialogue,,0,0,0,,That's right.
+Dialogue: 0,0:07:50.49,0:07:52.59,Dialogue,,0,0,0,,I am Narusawa Bunjirou.
+Dialogue: 0,0:07:51.49,0:07:55.49,Character Card,,0,0,0,,Narusawa Bunjirou (34)\NActor
+Dialogue: 0,0:07:52.99,0:07:54.49,Dialogue,,0,0,0,,Actor Narusawa Bunjiro.
+Dialogue: 0,0:07:55.09,0:07:57.19,Dialogue,,0,0,0,,He is Maki Juri's ex-husband.
+Dialogue: 0,0:07:57.79,0:07:59.30,Dialogue,,0,0,0,,Actress : Tajima Tenko
+Dialogue: 0,0:07:58.36,0:08:02.10,Character Card,,0,0,0,,Tajima Tenko (36)\NActress
+Dialogue: 0,0:07:59.70,0:08:01.40,Dialogue,,0,0,0,,She is Maki Juri's old friend.
+Dialogue: 0,0:08:02.60,0:08:06.50,Dialogue,,0,0,0,,He is Tajima's husband, he is an actor and stage manager.
+Dialogue: 0,0:08:03.70,0:08:07.10,Character Card,,0,0,0,,Ban Tooru (45)\NDirector and Actor
+Dialogue: 0,0:08:07.60,0:08:10.71,Dialogue,,0,0,0,,Actor Shinjou Isao is Maki Juri's current boyfriend.
+Dialogue: 0,0:08:09.17,0:08:12.94,Character Card,,0,0,0,,Shinjou Isao (28)\NActor
+Dialogue: 0,0:08:11.21,0:08:12.71,Dialogue,,0,0,0,,However he's not able to hold his ground\Nin front of Yaguchi Makiyo.
+Dialogue: 0,0:08:13.24,0:08:17.95,Character Card,,0,0,0,,Yaguchi Makiyo (32)\NManager
+Dialogue: 0,0:08:13.61,0:08:14.81,Dialogue,,0,0,0,,Yaguchi Makiyo is Maki Juri's manager.
+Dialogue: 0,0:08:14.91,0:08:16.61,Dialogue,,0,0,0,,She often gets scolded.
+Dialogue: 0,0:08:18.11,0:08:21.78,Dialogue,,0,0,0,,This is Maki Juri, the star actress, getting\Nher own make-up artist of course.
+Dialogue: 0,0:08:18.25,0:08:22.82,Character Card,,0,0,0,,Maki Juri (37)\NActress
+Dialogue: 0,0:08:22.29,0:08:26.09,Dialogue,,0,0,0,,She's the professional, Sakai Natsuki.
+Dialogue: 0,0:08:26.59,0:08:29.69,Dialogue,,0,0,0,,This person's background is secretly complicated.
+Dialogue: 0,0:08:27.56,0:08:30.93,Character Card,,0,0,0,,Sakai Natsuki (26)\NHair Stylist
+Dialogue: 0,0:08:29.79,0:08:30.99,Dialogue,,0,0,0,,Quite scary.
+Dialogue: 0,0:08:32.40,0:08:33.40,Dialogue,,0,0,0,,Lastly there is one more person.
+Dialogue: 0,0:08:35.60,0:08:36.20,Dialogue,,0,0,0,,Hello everybody.
+Dialogue: 0,0:08:36.30,0:08:37.30,Dialogue,,0,0,0,,I am Kudo Shinichi.
+Dialogue: 0,0:08:38.20,0:08:39.10,Dialogue,,0,0,0,,What?!
+Dialogue: 0,0:08:39.40,0:08:42.41,Dialogue,,0,0,0,,High school student, Kudo Shinichi, has finally appeared.
+Dialogue: 0,0:08:42.81,0:08:45.31,Dialogue,,0,0,0,,Who did Kid exactly disguise as?
+Dialogue: 0,0:08:45.81,0:08:46.71,Dialogue,,0,0,0,,Is it them?
+Dialogue: 0,0:08:47.51,0:08:48.31,Dialogue,,0,0,0,,Nope.
+Dialogue: 0,0:08:49.41,0:08:51.01,Dialogue,,0,0,0,,Can't be a child right?
+Dialogue: 0,0:08:51.61,0:08:54.08,Dialogue,,0,0,0,,However Genta{\rHonorifics - Dialogue}-kun{\r} could be a possibility.
+Dialogue: 0,0:08:56.69,0:08:57.39,Dialogue,,0,0,0,,Kudo Shinichi.
+Dialogue: 0,0:08:57.79,0:08:58.49,Dialogue,,0,0,0,,Suspicious.
+Dialogue: 0,0:08:59.09,0:09:01.09,Dialogue,,0,0,0,,No, everyone here is suspicious.
+Dialogue: 0,0:09:01.69,0:09:04.09,Dialogue,,0,0,0,,So who did he disguise as then?
+Dialogue: 0,0:09:04.59,0:09:05.19,Dialogue,,0,0,0,,Kaitou Kid.
+Dialogue: 0,0:09:07.30,0:09:09.00,Dialogue,,0,0,0,,Profile: Saved by Kaitou Kid.
+Dialogue: 0,0:09:11.30,0:09:13.10,Dialogue,,0,0,0,,The Conan then was very cool.
+Dialogue: 0,0:09:14.50,0:09:16.91,Dialogue,,0,0,0,,Almost like Shinichi.
+Dialogue: 0,0:09:17.31,0:09:17.71,Dialogue,,0,0,0,,Yes.
+Dialogue: 0,0:09:17.91,0:09:20.51,Dialogue,,0,0,0,,Kid also disguised as Kudo Shinichi.
+Dialogue: 0,0:09:20.61,0:09:21.01,Dialogue,,0,0,0,,Ran...
+Dialogue: 0,0:09:21.11,0:09:24.11,Dialogue,,0,0,0,,Because the lonely Ran rarely sees\NShinichi, she sheds tears.
+Dialogue: 0,0:09:24.41,0:09:25.32,Dialogue,,0,0,0,,Conan is held without an answer.
+Dialogue: 0,0:09:25.72,0:09:26.78,Dialogue,,0,0,0,,And therefore can't help her.
+Dialogue: 0,0:09:28.28,0:09:29.19,Dialogue,,0,0,0,,It's gotten to a serious point now.
+Dialogue: 0,0:09:30.69,0:09:33.29,Dialogue,,0,0,0,,Ready to reveal himself,
+Dialogue: 0,0:09:33.69,0:09:34.49,Dialogue,,0,0,0,,he finally makes the decision.
+Dialogue: 0,0:09:34.59,0:09:36.39,Dialogue,,0,0,0,,Speaking sincerely.
+Dialogue: 0,0:09:38.90,0:09:39.40,Dialogue,,0,0,0,,Actually.
+Dialogue: 0,0:09:40.10,0:09:40.70,Dialogue,,0,0,0,,I.
+Dialogue: 0,0:09:41.10,0:09:41.90,Dialogue,,0,0,0,,really.
+Dialogue: 0,0:09:42.50,0:09:43.30,Dialogue,,0,0,0,,It is at this time.
+Dialogue: 0,0:09:44.10,0:09:44.80,Dialogue,,0,0,0,,Shinichi.
+Dialogue: 0,0:09:47.30,0:09:50.71,Dialogue,,0,0,0,,the Kid disguised as Kudo Shinichi appears.
+Dialogue: 0,0:09:51.41,0:09:52.71,Dialogue,,0,0,0,,That's right.
+Dialogue: 0,0:09:53.91,0:09:55.81,Dialogue,,0,0,0,,Jerk! What is wrong with you?
+Dialogue: 0,0:09:55.91,0:09:57.11,Dialogue,,0,0,0,,You don't even call me.
+Dialogue: 0,0:09:57.41,0:09:58.21,Dialogue,,0,0,0,,Sorry, Sorry.
+Dialogue: 0,0:09:58.31,0:09:59.42,Dialogue,,0,0,0,,I got caught up in cases.
+Dialogue: 0,0:10:00.28,0:10:03.29,Dialogue,,0,0,0,,I also have to leave tonight.
+Dialogue: 0,0:10:03.69,0:10:05.99,Dialogue,,0,0,0,,Hold on, let me get something for you to dry yourself with.
+Dialogue: 0,0:10:06.59,0:10:09.19,Dialogue,,0,0,0,,It doesn't matter if she knew if he was\Nan imposter. Kid helped out Conan.
+Dialogue: 0,0:10:09.59,0:10:12.10,Dialogue,,0,0,0,,But don't you think he went overboard with the doves?
+Dialogue: 0,0:10:13.60,0:10:15.00,Dialogue,,0,0,0,,Mouri Ran's profile.
+Dialogue: 0,0:10:16.50,0:10:18.30,Dialogue,,0,0,0,,Shinichi and Ran were childhood friends.
+Dialogue: 0,0:10:19.00,0:10:22.71,Dialogue,,0,0,0,,Ran, who likes Shinichi, is supposedly very gentle.
+Dialogue: 0,0:10:22.81,0:10:24.61,Dialogue,,0,0,0,,But sometimes she can be very vicious.
+Dialogue: 0,0:10:25.01,0:10:26.01,Dialogue,,0,0,0,,Please be understanding of her.
+Dialogue: 0,0:10:27.51,0:10:30.91,Dialogue,,0,0,0,,He is one who is arrogant and causes trouble for others.
+Dialogue: 0,0:10:32.22,0:10:35.08,Dialogue,,0,0,0,,But he has his good points.
+Dialogue: 0,0:10:35.99,0:10:37.99,Dialogue,,0,0,0,,Trying to let others praise your courage?
+Dialogue: 0,0:10:39.09,0:10:40.89,Dialogue,,0,0,0,,Conan, how do you know?
+Dialogue: 0,0:10:41.89,0:10:42.59,Dialogue,,0,0,0,,Could it be...
+Dialogue: 0,0:10:44.39,0:10:46.40,Dialogue,,0,0,0,,Could it be that this kid is...
+Dialogue: 0,0:10:47.10,0:10:51.20,Dialogue,,0,0,0,,Conan can't help changing his habits and personality.
+Dialogue: 0,0:10:52.70,0:10:56.11,Dialogue,,0,0,0,,Where have I seen this face...
+Dialogue: 0,0:10:58.21,0:10:59.81,Dialogue,,0,0,0,,Wait a minute, this is...
+Dialogue: 0,0:10:59.91,0:11:02.61,Dialogue,,0,0,0,,Boy! Shinichi was quite cute when he was young.
+Dialogue: 0,0:11:03.21,0:11:04.71,Dialogue,,0,0,0,,Looks exactly like Conan!
+Dialogue: 0,0:11:05.31,0:11:06.68,Dialogue,,0,0,0,,She should have noticed that by now.
+Dialogue: 0,0:11:07.38,0:11:10.49,Dialogue,,0,0,0,,Planning on collecting evidence to have him tell the truth.
+Dialogue: 0,0:11:14.99,0:11:15.79,Dialogue,,0,0,0,,Conan.
+Dialogue: 0,0:11:16.59,0:11:17.29,Dialogue,,0,0,0,,This is too weird.
+Dialogue: 0,0:11:17.39,0:11:20.30,Dialogue,,0,0,0,,As an elementary school kid, his actions are too weird.
+Dialogue: 0,0:11:20.80,0:11:22.00,Dialogue,,0,0,0,,What elementary school kid?
+Dialogue: 0,0:11:23.00,0:11:25.60,Dialogue,,0,0,0,,This kind of speed is even faster than any ordinary adult.
+Dialogue: 0,0:11:26.30,0:11:27.20,Dialogue,,0,0,0,,Too fast.
+Dialogue: 0,0:11:27.40,0:11:29.21,Dialogue,,0,0,0,,Too late, he's been suspected.
+Dialogue: 0,0:11:29.71,0:11:32.61,Dialogue,,0,0,0,,Ran, hurry up and bring Ougawa here.\NWe're running out of time.
+Dialogue: 0,0:11:33.81,0:11:34.41,Dialogue,,0,0,0,,Hurry!
+Dialogue: 0,0:11:34.71,0:11:35.61,Dialogue,,0,0,0,,There's no time left.
+Dialogue: 0,0:11:38.31,0:11:39.32,Dialogue,,0,0,0,,There's no mistake (Yes)
+Dialogue: 0,0:11:39.42,0:11:40.58,Dialogue,,0,0,0,,That attitude (Yes), behavior (Yes),
+Dialogue: 0,0:11:40.68,0:11:41.88,Dialogue,,0,0,0,,reasoning (Yes)...
+Dialogue: 0,0:11:41.98,0:11:43.29,Dialogue,,0,0,0,,No matter how you look at it, it's Shinichi (That's right)
+Dialogue: 0,0:11:43.59,0:11:44.19,Dialogue,,0,0,0,,Can't be wrong.
+Dialogue: 0,0:11:45.59,0:11:47.29,Dialogue,,0,0,0,,She said it to my face.
+Dialogue: 0,0:11:47.89,0:11:48.89,Dialogue,,0,0,0,,Yes.
+Dialogue: 0,0:11:49.89,0:11:51.89,Dialogue,,0,0,0,,I just feel there is something wrong.
+Dialogue: 0,0:11:52.40,0:11:53.80,Dialogue,,0,0,0,,You are Shinichi!
+Dialogue: 0,0:11:54.50,0:11:55.40,Dialogue,,0,0,0,,But, But... this
+Dialogue: 0,0:11:55.90,0:11:56.60,Dialogue,,0,0,0,,Absolutely correct!
+Dialogue: 0,0:11:57.00,0:11:59.70,Dialogue,,0,0,0,,Conan, who is Shinichi, is lying,
+Dialogue: 0,0:12:00.50,0:12:02.81,Dialogue,,0,0,0,,saying how it will bring danger to Ran.
+Dialogue: 0,0:12:03.01,0:12:07.01,Dialogue,,0,0,0,,Actually you were enjoying these situations.
+Dialogue: 0,0:12:08.21,0:12:09.51,Dialogue,,0,0,0,,You were always lying right?
+Dialogue: 0,0:12:11.21,0:12:12.01,Dialogue,,0,0,0,,Right?
+Dialogue: 0,0:12:13.68,0:12:14.38,Dialogue,,0,0,0,,Shinichi.
+Dialogue: 0,0:12:15.49,0:12:17.69,Dialogue,,0,0,0,,Everytime when Conan's true identity\Nis about to be revealed,
+Dialogue: 0,0:12:17.99,0:12:20.59,Dialogue,,0,0,0,,there'd always be someone who knew\Nthe truth to come save him.
+Dialogue: 0,0:12:21.29,0:12:23.09,Dialogue,,0,0,0,,First it was Shinichi's mother.
+Dialogue: 0,0:12:23.89,0:12:24.89,Dialogue,,0,0,0,,Not good!
+Dialogue: 0,0:12:25.39,0:12:27.80,Dialogue,,0,0,0,,If mom said something she shouldn't...
+Dialogue: 0,0:12:27.90,0:12:29.20,Dialogue,,0,0,0,,Isn't this Conan?
+Dialogue: 0,0:12:29.30,0:12:30.10,Dialogue,,0,0,0,,Long time no see!
+Dialogue: 0,0:12:32.30,0:12:33.60,Dialogue,,0,0,0,,You know this kid?
+Dialogue: 0,0:12:33.70,0:12:34.30,Dialogue,,0,0,0,,Of course.
+Dialogue: 0,0:12:34.40,0:12:39.41,Dialogue,,0,0,0,,Because this kid is my Grandfather's, brother's,\Ndaughter's, cousin's nephew.
+Dialogue: 0,0:12:39.71,0:12:40.41,Dialogue,,0,0,0,,What?
+Dialogue: 0,0:12:40.51,0:12:45.62,Dialogue,,0,0,0,,Grandfather's, brother's, daughter's, cousin's nephew?
+Dialogue: 0,0:12:46.12,0:12:47.78,Dialogue,,0,0,0,,This also counts as a relative?
+Dialogue: 0,0:12:48.48,0:12:49.29,Dialogue,,0,0,0,,It's basically a stranger.
+Dialogue: 0,0:12:49.49,0:12:51.79,Dialogue,,0,0,0,,How can Ran fall for such a lie?
+Dialogue: 0,0:12:52.39,0:12:53.39,Dialogue,,0,0,0,,I'm sorry Conan.
+Dialogue: 0,0:12:53.89,0:12:55.89,Dialogue,,0,0,0,,Big sis got it all mixed up again.
+Dialogue: 0,0:12:56.39,0:12:57.49,Dialogue,,0,0,0,,She fell for it...
+Dialogue: 0,0:12:58.29,0:13:00.20,Dialogue,,0,0,0,,He can also get away like this...
+Dialogue: 0,0:13:00.70,0:13:01.30,Dialogue,,0,0,0,,Long time no see
+Dialogue: 0,0:13:02.00,0:13:03.20,Dialogue,,0,0,0,,Shinichi.
+Dialogue: 0,0:13:04.20,0:13:04.60,Dialogue,,0,0,0,,No way!
+Dialogue: 0,0:13:04.70,0:13:05.80,Dialogue,,0,0,0,,Because Shinichi, he...
+Dialogue: 0,0:13:06.40,0:13:09.71,Dialogue,,0,0,0,,Hey, hey You couldn't have already\Nforgotten my voice have you?
+Dialogue: 0,0:13:10.31,0:13:11.61,Dialogue,,0,0,0,,How cruel and thoughtless.
+Dialogue: 0,0:13:12.21,0:13:15.11,Dialogue,,0,0,0,,I can't help but make the tone of my voice younger.
+Dialogue: 0,0:13:15.91,0:13:17.11,Dialogue,,0,0,0,,Better borrow this first then.
+Dialogue: 0,0:13:17.71,0:13:19.32,Dialogue,,0,0,0,,Isn't this Conan?
+Dialogue: 0,0:13:19.42,0:13:20.68,Dialogue,,0,0,0,,Yes.
+Dialogue: 0,0:13:20.78,0:13:21.48,Dialogue,,0,0,0,,Edogawa{\rHonorifics - Dialogue}-kun{\r}.
+Dialogue: 0,0:13:24.09,0:13:25.29,Dialogue,,0,0,0,,Kudo Shinichi.
+Dialogue: 0,0:13:26.49,0:13:27.89,Dialogue,,0,0,0,,Aren't you...
+Dialogue: 0,0:13:30.19,0:13:31.29,Dialogue,,0,0,0,,Heiji, What are you doing here?
+Dialogue: 0,0:13:32.50,0:13:33.20,Dialogue,,0,0,0,,Kazuha!
+Dialogue: 0,0:13:33.90,0:13:35.30,Dialogue,,0,0,0,,I thought I told you not to come.
+Dialogue: 0,0:13:35.70,0:13:38.10,Dialogue,,0,0,0,,You should really think about changing accents.
+Dialogue: 0,0:13:39.00,0:13:44.31,Dialogue,,0,0,0,,Not exposing your true identity in front\Nof Ran means she won't meet Shinichi.
+Dialogue: 0,0:13:45.01,0:13:48.51,Dialogue,,0,0,0,,Just when the hopeful Ran can't\Nsee Shinichi, she becomes sad.
+Dialogue: 0,0:13:48.61,0:13:50.91,Dialogue,,0,0,0,,Being a girl it can't be wrong.
+Dialogue: 0,0:13:51.01,0:13:51.71,Dialogue,,0,0,0,,Uh.
+Dialogue: 0,0:13:53.18,0:13:54.48,Dialogue,,0,0,0,,Shinichi{\rHonorifics - Dialogue}-niichan{\r} said.
+Dialogue: 0,0:13:54.58,0:13:54.98,Dialogue,,0,0,0,,No!
+Dialogue: 0,0:13:55.08,0:13:55.89,Dialogue,,0,0,0,,Don't say anymore.
+Dialogue: 0,0:13:56.89,0:13:57.69,Dialogue,,0,0,0,,I don't want to hear it.
+Dialogue: 0,0:13:58.89,0:14:01.99,Dialogue,,0,0,0,,Ah! Ran's sorrowful heart has also been downloaded.
+Dialogue: 0,0:14:02.59,0:14:03.19,Dialogue,,0,0,0,,Sorrow.
+Dialogue: 0,0:14:04.69,0:14:08.60,Dialogue,,0,0,0,,Ran's sorrowful heart can't even be described on TV.
+Dialogue: 0,0:14:08.70,0:14:10.70,Dialogue,,0,0,0,,It has finally flooded in to the movies.
+Dialogue: 0,0:14:13.20,0:14:14.50,Dialogue,,0,0,0,,We'll be together when we die.
+Dialogue: 0,0:14:18.21,0:14:19.11,Dialogue,,0,0,0,,Shinichi.
+Dialogue: 0,0:14:19.91,0:14:20.51,Dialogue,,0,0,0,,I love you...
+Dialogue: 0,0:14:22.31,0:14:24.01,Dialogue,,0,0,0,,Because I love you!
+Dialogue: 0,0:14:25.11,0:14:28.28,Dialogue,,0,0,0,,I love you more than anyone on this earth.
+Dialogue: 0,0:14:29.09,0:14:31.49,Dialogue,,0,0,0,,I understand your feelings right now.
+Dialogue: 0,0:14:38.19,0:14:41.30,Dialogue,,0,0,0,,They have elevated their relationship to another level.
+Dialogue: 0,0:14:43.10,0:14:47.40,Dialogue,,0,0,0,,This new work Magician of the Silver Sky\Nalso contains a new and improved,
+Dialogue: 0,0:14:47.60,0:14:51.81,Dialogue,,0,0,0,,romantic scene with the sudden\Nappearance of Kudo Shinichi.
+Dialogue: 0,0:14:52.61,0:14:54.41,Dialogue,,0,0,0,,If you like him, why don't you come out and say it?
+Dialogue: 0,0:14:55.11,0:14:55.91,Dialogue,,0,0,0,,What nonsense are you saying!
+Dialogue: 0,0:14:56.31,0:14:58.41,Dialogue,,0,0,0,,I already told you it wasn't like that.
+Dialogue: 0,0:14:58.92,0:14:59.78,Dialogue,,0,0,0,,But this is a movie.
+Dialogue: 0,0:15:00.28,0:15:03.59,Dialogue,,0,0,0,,Until now, Ran has not revealed her true feelings.
+Dialogue: 0,0:15:04.19,0:15:06.19,Dialogue,,0,0,0,,3, 2, 1.
+Dialogue: 0,0:15:06.99,0:15:08.89,Dialogue,,0,0,0,,I love you Shinichi.
+Dialogue: 0,0:15:09.29,0:15:10.89,Dialogue,,0,0,0,,Whoaaa She said it!
+Dialogue: 0,0:15:10.99,0:15:13.50,Dialogue,,0,0,0,,This was actually her first time confessing.
+Dialogue: 0,0:15:13.60,0:15:15.50,Dialogue,,0,0,0,,Let's rewind that.
+Dialogue: 0,0:15:16.10,0:15:18.40,Dialogue,,0,0,0,,3. 2. 1.
+Dialogue: 0,0:15:19.30,0:15:21.00,Dialogue,,0,0,0,,I love you Shinichi.
+Dialogue: 0,0:15:21.60,0:15:24.01,Dialogue,,0,0,0,,I said it for you
+Dialogue: 0,0:15:24.51,0:15:26.21,Dialogue,,0,0,0,,I am such a good person.
+Dialogue: 0,0:15:26.91,0:15:30.11,Dialogue,,0,0,0,,Following is a spectacular advertisement...
+Dialogue: 0,0:15:30.41,0:15:32.32,Dialogue,,0,0,0,,After the advertisement, its even better.
+Dialogue: 0,0:15:34.88,0:15:36.49,Dialogue,,0,0,0,,What is the next profile?
+Dialogue: 0,0:15:36.69,0:15:37.49,Dialogue,,0,0,0,,Found it.
+Dialogue: 0,0:15:37.59,0:15:38.59,Dialogue,,0,0,0,,It's the music.
+Dialogue: 0,0:15:41.09,0:15:44.59,Dialogue,,0,0,0,,How did Kid become this uncle?
+Dialogue: 0,0:15:44.89,0:15:46.10,Dialogue,,0,0,0,,Who is this?
+Dialogue: 0,0:15:46.60,0:15:51.70,Dialogue,,0,0,0,,I see, this is the person who composes\Nthe music for Conan.
+Dialogue: 0,0:15:52.30,0:15:55.20,Dialogue,,0,0,0,,Where will the music be amazing this time?
+Dialogue: 0,0:15:56.41,0:15:59.01,Dialogue,,0,0,0,,It will feel like it blows you away.
+Dialogue: 0,0:15:59.11,0:16:00.51,Dialogue,,0,0,0,,I feel that the music is really good.
+Dialogue: 0,0:16:00.61,0:16:02.11,Dialogue,,0,0,0,,This doesn't look like something I should say.
+Dialogue: 0,0:16:03.01,0:16:05.82,Dialogue,,0,0,0,,He said it himself, so how is it?
+Dialogue: 0,0:16:06.38,0:16:10.59,Dialogue,,0,0,0,,Is there some place where its even more amazing?
+Dialogue: 0,0:16:10.79,0:16:15.89,Dialogue,,0,0,0,,Rina Aluchi created the theme song.
+Dialogue: 0,0:16:15.99,0:16:17.99,Dialogue,,0,0,0,,It is I am by your side kind of song.
+Dialogue: 0,0:16:18.09,0:16:20.50,Dialogue,,0,0,0,,Which also means it speaks out Conan's heart.
+Dialogue: 0,0:16:21.10,0:16:24.50,Dialogue,,0,0,0,,How about we let Ran know Conan's real feelings?
+Dialogue: 0,0:16:25.40,0:16:27.20,Dialogue,,0,0,0,,If that were to happen, Conan would probably end.
+Dialogue: 0,0:16:28.10,0:16:29.31,Dialogue,,0,0,0,,This would be serious then.
+Dialogue: 0,0:16:30.71,0:16:32.11,Dialogue,,0,0,0,,What do you say?
+Dialogue: 0,0:16:32.71,0:16:33.51,Dialogue,,0,0,0,,Forget it.
+Dialogue: 0,0:16:33.71,0:16:37.81,Dialogue,,0,0,0,,At the end of the show, there will be a\Nvery exciting present. Pay attention.
+Dialogue: 0,0:16:38.51,0:16:39.42,Dialogue,,0,0,0,,To obtain this present.
+Dialogue: 0,0:16:40.98,0:16:42.49,Dialogue,,0,0,0,,It is you!
+Dialogue: 0,0:16:45.09,0:16:49.69,Dialogue,,0,0,0,,How did Shinichi become Conan?
+Dialogue: 0,0:16:50.69,0:16:51.99,Dialogue,,0,0,0,,The cause of his small stature...
+Dialogue: 0,0:16:54.10,0:16:57.00,Dialogue,,0,0,0,,The reason Shinichi became Conan is because
+Dialogue: 0,0:16:57.60,0:17:00.70,Dialogue,,0,0,0,,of those Men in black.
+Dialogue: 0,0:17:01.00,0:17:03.41,Dialogue,,0,0,0,,From crimes, to managing a first class enterprise,
+Dialogue: 0,0:17:03.71,0:17:05.21,Dialogue,,0,0,0,,their activities are numerous.
+Dialogue: 0,0:17:05.81,0:17:07.91,Dialogue,,0,0,0,,The whole organization's size and goals are all unknown.
+Dialogue: 0,0:17:08.61,0:17:11.11,Dialogue,,0,0,0,,Story goes as deep as the FBI.
+Dialogue: 0,0:17:11.41,0:17:13.98,Dialogue,,0,0,0,,The Japanese police force doesn't even\Nknow the existence of this organization.
+Dialogue: 0,0:17:15.79,0:17:17.19,Dialogue,,0,0,0,,When Shinichi was on a date with Ran,
+Dialogue: 0,0:17:17.69,0:17:20.09,Dialogue,,0,0,0,,he stumbled upon a location where the Men\Nin black were making a transaction.
+Dialogue: 0,0:17:20.49,0:17:21.89,Dialogue,,0,0,0,,He was knocked cold.
+Dialogue: 0,0:17:22.89,0:17:25.39,Dialogue,,0,0,0,,He was forced to take a mysterious drug.
+Dialogue: 0,0:17:25.90,0:17:28.00,Dialogue,,0,0,0,,And his body changed to the size of a 6 year old.
+Dialogue: 0,0:17:32.10,0:17:33.50,Dialogue,,0,0,0,,His body shrunk.
+Dialogue: 0,0:17:35.60,0:17:36.31,Dialogue,,0,0,0,,Why?
+Dialogue: 0,0:17:37.11,0:17:37.71,Dialogue,,0,0,0,,Could it be.
+Dialogue: 0,0:17:37.81,0:17:38.91,Dialogue,,0,0,0,,The name of this drug is...
+Dialogue: 0,0:17:39.41,0:17:42.31,Dialogue,,0,0,0,,APTX4869
+Dialogue: 0,0:17:43.51,0:17:46.02,Dialogue,,0,0,0,,The one who invented this drug was Haibara Ai.
+Dialogue: 0,0:17:46.38,0:17:48.48,Dialogue,,0,0,0,,Very cute, huh?
+Dialogue: 0,0:17:48.78,0:17:50.39,Dialogue,,0,0,0,,A very good match for me.
+Dialogue: 0,0:17:50.79,0:17:54.19,Dialogue,,0,0,0,,This woman, who created this chemical\Ndrug while in organization,
+Dialogue: 0,0:17:54.79,0:17:57.59,Dialogue,,0,0,0,,refused to continue the development\Non this drug and was held captive.
+Dialogue: 0,0:17:57.99,0:17:59.80,Dialogue,,0,0,0,,Therefore to escape, she took the drug she created.
+Dialogue: 0,0:17:59.90,0:18:01.60,Dialogue,,0,0,0,,and like Conan, became a small child.
+Dialogue: 0,0:18:02.20,0:18:04.50,Dialogue,,0,0,0,,And thus escaped from the organization.
+Dialogue: 0,0:18:05.00,0:18:06.40,Dialogue,,0,0,0,,I don't know if this is good or bad fortune,
+Dialogue: 0,0:18:06.60,0:18:08.60,Dialogue,,0,0,0,,but I feel it's a good thing.
+Dialogue: 0,0:18:09.31,0:18:13.01,Dialogue,,0,0,0,,Another person involved with the development\Nof the drug is this mysterious person.
+Dialogue: 0,0:18:13.41,0:18:14.91,Dialogue,,0,0,0,,What a group of shady operations...
+Dialogue: 0,0:18:15.21,0:18:17.61,Dialogue,,0,0,0,,What exactly is their true purpose?
+Dialogue: 0,0:18:18.11,0:18:19.42,Dialogue,,0,0,0,,The only clue is.
+Dialogue: 0,0:18:19.68,0:18:22.59,Dialogue,,0,0,0,,The ones who want to eliminate the rebel\NSherry, also know as Haibara, are
+Dialogue: 0,0:18:22.89,0:18:26.89,Dialogue,,0,0,0,,the most important people to pay attention\Nin the organization, the duo Gin and Vodka.
+Dialogue: 0,0:18:28.79,0:18:34.00,Dialogue,,0,0,0,,There is also Vermouth, who has\Nbeen keeping an eye on Sherry.
+Dialogue: 0,0:18:34.70,0:18:35.30,Dialogue,,0,0,0,,They should be careful.
+Dialogue: 0,0:18:39.20,0:18:42.61,Dialogue,,0,0,0,,Being eyed by these dangerous people\Nis certainly not an honor.
+Dialogue: 0,0:18:44.31,0:18:46.21,Dialogue,,0,0,0,,Maybe it's best to continue as a child.
+Dialogue: 0,0:18:47.31,0:18:48.31,Dialogue,,0,0,0,,Be patient for awhile.
+Dialogue: 0,0:18:49.21,0:18:50.01,Dialogue,,0,0,0,,I'm very sorry.
+Dialogue: 0,0:18:50.91,0:18:54.98,Dialogue,,0,0,0,,These are the newest orders from a certain person.
+Dialogue: 0,0:18:55.68,0:18:57.29,Dialogue,,0,0,0,,About that person.
+Dialogue: 0,0:18:57.89,0:18:59.69,Dialogue,,0,0,0,,Who is that man?
+Dialogue: 0,0:18:59.79,0:19:00.89,Dialogue,,0,0,0,,Him?
+Dialogue: 0,0:19:01.79,0:19:02.49,Dialogue,,0,0,0,,Who... Who exactly is it?
+Dialogue: 0,0:19:02.89,0:19:03.59,Dialogue,,0,0,0,,What... What is this?
+Dialogue: 0,0:19:03.79,0:19:04.39,Dialogue,,0,0,0,,It's no good.
+Dialogue: 0,0:19:04.99,0:19:05.69,Dialogue,,0,0,0,,What is happening?
+Dialogue: 0,0:19:07.30,0:19:08.60,Dialogue,,0,0,0,,Better go back.
+Dialogue: 0,0:19:09.30,0:19:10.40,Dialogue,,0,0,0,,I'm back.
+Dialogue: 0,0:19:11.10,0:19:12.40,Dialogue,,0,0,0,,I'm finally back.
+Dialogue: 0,0:19:12.90,0:19:14.80,Dialogue,,0,0,0,,What is it Christies YP?
+Dialogue: 0,0:19:15.60,0:19:17.41,Dialogue,,0,0,0,,Ah. Haibara is really cute!
+Dialogue: 0,0:19:17.51,0:19:19.31,Dialogue,,0,0,0,,Have you clarified the information on Kid?
+Dialogue: 0,0:19:20.41,0:19:21.81,Dialogue,,0,0,0,,What have you found out so far?
+Dialogue: 0,0:19:22.21,0:19:26.12,Dialogue,,0,0,0,,Stop always researching the past. You\Nshould also go collect the newest data.
+Dialogue: 0,0:19:26.58,0:19:28.08,Dialogue,,0,0,0,,Ok. Off I go.
+Dialogue: 0,0:19:30.49,0:19:31.49,Dialogue,,0,0,0,,About the theme song.
+Dialogue: 0,0:19:32.89,0:19:35.99,Dialogue,,0,0,0,,In regards to the movie's theme song.
+Dialogue: 0,0:19:36.09,0:19:39.09,Dialogue,,0,0,0,,Rina aluchi's new song DreamDream.
+Dialogue: 0,0:19:39.80,0:19:41.60,Dialogue,,0,0,0,,So what is the meaning of DreamDream?
+Dialogue: 0,0:19:42.90,0:19:43.80,Dialogue,,0,0,0,,Personal dream.
+Dialogue: 0,0:19:43.90,0:19:47.90,Dialogue,,0,0,0,,Then the opposite party's dream is also yours.
+Dialogue: 0,0:19:48.50,0:19:50.41,Dialogue,,0,0,0,,Becoming one,
+Dialogue: 0,0:19:50.71,0:19:53.61,Dialogue,,0,0,0,,Becoming one big dream.
+Dialogue: 0,0:19:54.31,0:19:57.01,Dialogue,,0,0,0,,Therefore I wrote these lyrics for the theme song.
+Dialogue: 0,0:19:57.71,0:19:59.88,Dialogue,,0,0,0,,With this much said, any theme song in each of the movies
+Dialogue: 0,0:20:00.58,0:20:04.39,Dialogue,,0,0,0,,in the Detective Conan series is a new song.
+Dialogue: 0,0:20:04.69,0:20:05.39,Dialogue,,0,0,0,,That's right
+Dialogue: 0,0:20:07.19,0:20:09.19,Dialogue,,0,0,0,,About the movie's theme song.
+Dialogue: 0,0:21:19.60,0:21:24.30,Dialogue,,0,0,0,,These songs are so fast and so fresh.
+Dialogue: 0,0:21:24.80,0:21:28.80,Dialogue,,0,0,0,,The theme song for the television\Nseries "Start" is also new.
+Dialogue: 0,0:21:29.91,0:21:36.31,Dialogue,,0,0,0,,I feel that the feeling the lyrics gives is\Nvery suitable for the Conan's opening.
+Dialogue: 0,0:21:37.71,0:21:39.58,Dialogue,,0,0,0,,Everyone, please listen to it once.
+Dialogue: 0,0:21:40.28,0:21:41.58,Dialogue,,0,0,0,,I am Rina Aluchi...
+Dialogue: 0,0:21:43.19,0:21:44.19,Dialogue,,0,0,0,,There is more news,
+Dialogue: 0,0:21:44.89,0:21:46.99,Dialogue,,0,0,0,,Kaitou Kid has appeared again.
+Dialogue: 0,0:21:47.69,0:21:51.59,Dialogue,,0,0,0,,This time while attempting to steal Blue Wonder,
+Dialogue: 0,0:21:51.79,0:21:53.60,Dialogue,,0,0,0,,Kid performed a stunt by walking in air.
+Dialogue: 0,0:21:54.30,0:21:57.50,Dialogue,,0,0,0,,Committing a crime in front of such a large\Naudience? What is wrong with this guy?
+Dialogue: 0,0:21:58.10,0:21:58.60,Dialogue,,0,0,0,,Disguised and changing voices,
+Dialogue: 0,0:21:58.90,0:22:00.90,Dialogue,,0,0,0,,Defying the laws of gravity,
+Dialogue: 0,0:22:01.00,0:22:04.51,Dialogue,,0,0,0,,These techniques by Kid are indeed well planned.
+Dialogue: 0,0:22:04.61,0:22:06.71,Dialogue,,0,0,0,,No wonder he is Conan's strongest rival.
+Dialogue: 0,0:22:06.91,0:22:07.61,Dialogue,,0,0,0,,Yes.
+Dialogue: 0,0:22:08.11,0:22:10.51,Dialogue,,0,0,0,,What is his next target?
+Dialogue: 0,0:22:13.28,0:22:13.98,Dialogue,,0,0,0,,Here it is.
+Dialogue: 0,0:22:14.38,0:22:17.59,Dialogue,,0,0,0,,About the newest movie.
+Dialogue: 0,0:22:18.39,0:22:23.59,Dialogue,,0,0,0,,The story starts with an undated letter.
+Dialogue: 0,0:22:24.59,0:22:26.50,Dialogue,,0,0,0,,These 26 letters of the alphabet\Ndance like circles in the air.
+Dialogue: 0,0:22:26.60,0:22:29.10,Dialogue,,0,0,0,,I've come for the "Gem of Destiny".
+Dialogue: 0,0:22:29.70,0:22:30.30,Dialogue,,0,0,0,,Kaitou Kid.
+Dialogue: 0,0:22:32.10,0:22:34.50,Dialogue,,0,0,0,,Should we determine victory or defeat in one move.
+Dialogue: 0,0:22:37.81,0:22:41.61,Dialogue,,0,0,0,,Yea your lover is at home waiting\Nfor you to come to dinner.
+Dialogue: 0,0:22:42.21,0:22:43.41,Dialogue,,0,0,0,,Conan and Kid face off.
+Dialogue: 0,0:22:44.01,0:22:46.38,Dialogue,,0,0,0,,Even in mid-air,
+Dialogue: 0,0:22:47.28,0:22:49.28,Dialogue,,0,0,0,,he will not let go of Kid.
+Dialogue: 0,0:22:49.49,0:22:51.59,Dialogue,,0,0,0,,He should appear again somewhere.
+Dialogue: 0,0:22:52.89,0:22:55.09,Dialogue,,0,0,0,,At 10,000m in the air, a murder occurs.
+Dialogue: 0,0:22:55.29,0:22:56.89,Dialogue,,0,0,0,,Who is the criminal?
+Dialogue: 0,0:22:57.59,0:22:59.40,Dialogue,,0,0,0,,Then Shinichi appears before Conan.
+Dialogue: 0,0:22:59.50,0:23:00.60,Dialogue,,0,0,0,,I am Kudo Shinichi.
+Dialogue: 0,0:23:01.20,0:23:02.80,Dialogue,,0,0,0,,He's not Shinichi{\rHonorifics - Dialogue}-onichan{\r}.
+Dialogue: 0,0:23:03.20,0:23:04.50,Dialogue,,0,0,0,,Then who is it?
+Dialogue: 0,0:23:05.00,0:23:06.60,Dialogue,,0,0,0,,Who did Kid disguise as?
+Dialogue: 0,0:23:07.20,0:23:07.50,Dialogue,,0,0,0,,Is it her?
+Dialogue: 0,0:23:07.50,0:23:07.90,Dialogue,,0,0,0,,Or her?
+Dialogue: 0,0:23:08.40,0:23:09.91,Dialogue,,0,0,0,,Everyone is involved in this puzzle.
+Dialogue: 0,0:23:10.41,0:23:12.11,Dialogue,,0,0,0,,It's a race with the incident at hand.
+Dialogue: 0,0:23:12.61,0:23:14.41,Dialogue,,0,0,0,,All of these people have complicated\Nbackgrounds and circumstances.
+Dialogue: 0,0:23:14.51,0:23:17.41,Dialogue,,0,0,0,,How does Conan, Shinichi confront these situations?
+Dialogue: 0,0:23:18.01,0:23:20.18,Dialogue,,0,0,0,,Then there's also the most critical event.
+Dialogue: 0,0:23:20.48,0:23:21.98,Dialogue,,0,0,0,,The crew and passenger fall into panic state!
+Dialogue: 0,0:23:22.38,0:23:24.09,Dialogue,,0,0,0,,Can Conan rescue them?
+Dialogue: 0,0:23:24.89,0:23:26.49,Dialogue,,0,0,0,,A mystery filled with twists and turns.
+Dialogue: 0,0:23:26.89,0:23:28.69,Dialogue,,0,0,0,,Conan's deciphering ability is the key.
+Dialogue: 0,0:23:28.99,0:23:30.29,Dialogue,,0,0,0,,Everything is determined by the people imagination.
+Dialogue: 0,0:23:30.69,0:23:32.29,Dialogue,,0,0,0,,Add on Ran's burning emotions.
+Dialogue: 0,0:23:33.20,0:23:34.10,Dialogue,,0,0,0,,Conan and Kid.
+Dialogue: 0,0:23:34.80,0:23:37.90,Dialogue,,0,0,0,,This pair's eternal gamble for pride.
+Dialogue: 0,0:23:38.00,0:23:39.50,Dialogue,,0,0,0,,Finally the battle that will decide it all
+Dialogue: 0,0:23:40.20,0:23:42.20,Dialogue,,0,0,0,,Who wins the battle?
+Dialogue: 0,0:23:43.81,0:23:45.91,Dialogue,,0,0,0,,Detective Conan Magician of the Silver Sky
+Dialogue: 0,0:23:46.51,0:23:48.11,Dialogue,,0,0,0,,I love you Shinichi.
+Dialogue: 0,0:23:51.21,0:23:53.78,Dialogue,,0,0,0,,With this, the software will finally be functional.
+Dialogue: 0,0:23:54.48,0:23:55.88,Dialogue,,0,0,0,,Right Christies YP?
+Dialogue: 0,0:23:56.39,0:23:56.99,Dialogue,,0,0,0,,Yes.
+Dialogue: 0,0:23:57.09,0:23:58.99,Dialogue,,0,0,0,,Originally, I was worried if I could\Nget along with an old man.
+Dialogue: 0,0:23:59.09,0:24:02.89,Dialogue,,0,0,0,,It looks like it's not a problem anymore.
+Dialogue: 0,0:24:03.29,0:24:03.89,Dialogue,,0,0,0,,That's right.
+Dialogue: 0,0:24:03.99,0:24:04.89,Dialogue,,0,0,0,,That's what I wanted to say.
+Dialogue: 0,0:24:05.69,0:24:06.30,Dialogue,,0,0,0,,But...
+Dialogue: 0,0:24:06.80,0:24:07.70,Dialogue,,0,0,0,,Careful...
+Dialogue: 0,0:24:07.80,0:24:10.20,Dialogue,,0,0,0,,What is it Christies YP?
+Dialogue: 0,0:24:11.60,0:24:14.70,Dialogue,,0,0,0,,You will never find out my true identity\Nusing this kind of software.
+Dialogue: 0,0:24:15.30,0:24:19.41,Dialogue,,0,0,0,,In fact I think it's better if you go to\Nthat glasses wearing kid Detective.
+Dialogue: 0,0:24:20.31,0:24:21.41,Dialogue,,0,0,0,,Professor Agasa.
+Dialogue: 0,0:24:24.11,0:24:25.21,Dialogue,,0,0,0,,I've been hacked again.
+Dialogue: 0,0:24:25.31,0:24:26.28,Dialogue,,0,0,0,,That guy Kid...
+Dialogue: 0,0:24:26.98,0:24:29.59,Dialogue,,0,0,0,,I guess I still need Shinichi.
+Dialogue: 0,0:24:30.49,0:24:32.49,Dialogue,,0,0,0,,Don't worry professor, there's still the present.
+Dialogue: 0,0:24:33.09,0:24:37.49,Dialogue,,0,0,0,,Magician of the Silver Sky Original tape and cds.
+Dialogue: 0,0:24:37.99,0:24:40.50,Dialogue,,0,0,0,,The complete music CD set will be\Ngiven 30 audience members.
+Dialogue: 0,0:24:41.00,0:24:43.30,Dialogue,,0,0,0,,There's also Detective Conan photo\Nalbums provided by SOURCE NEXT,
+Dialogue: 0,0:24:43.40,0:24:46.30,Dialogue,,0,0,0,,which is also 30 sets
+Dialogue: 0,0:24:46.60,0:24:47.90,Dialogue,,0,0,0,,will be given as gifts.
+Dialogue: 0,0:24:49.20,0:24:54.71,Dialogue,,0,0,0,,People hoping to get these gifts should write down the\Nfollowing information and send it to the following address.
+Dialogue: 0,0:24:55.61,0:24:58.11,Dialogue,,0,0,0,,See you in theatres!
