@@ -1,0 +1,506 @@
+[Script Info]
+Title: Detective Conan - OVA 11
+TL Source: DCTP
+ScriptType: v4.00+
+WrapStyle: 3
+PlayResX: 1440
+PlayResY: 1080
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Dialogue,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00401311,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Dialogue Top,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00401311,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,8,30,30,55,1
+Style: Signs,FrancophilSans,74,&H14FFFFFF,&H00FFFFFF,&H46101010,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,8,30,30,55,1
+Style: Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,0,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Radio,FrancophilSans,74,&H00BEE1FF,&H00FFFFFF,&H000B2A42,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Narration,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00BF6F00,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Narration Off,FrancophilSans,74,&H6E8C6F00,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,0,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Flashback,FrancophilSans,74,&H00CDFAFF,&H00FFFFFF,&H00373737,&HC0313134,-1,0,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Flashback Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00CCFFFF,&HC0313134,-1,0,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Honorifics - Dialogue,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00401311,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Signs,FrancophilSans,74,&H14FFFFFF,&H00FFFFFF,&H46101010,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,-1,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Honorifics - Radio,FrancophilSans,74,&H00BEE1FF,&H00FFFFFF,&H000B2A42,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Narration,FrancophilSans,74,&H00FFFFFF,&H00FFFFFF,&H00BF6F00,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Narration Off,FrancophilSans,74,&H6E8C6F00,&H00FFFFFF,&H00FFFFFF,&HC0313134,-1,-1,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Honorifics - Flashback,FrancophilSans,74,&H00CDFAFF,&H00FFFFFF,&H00373737,&HC0313134,-1,-1,0,0,100,100,0,0,1,4,2.5,2,30,30,55,1
+Style: Honorifics - Flashback Thoughts,FrancophilSans,74,&H46360001,&H00FFFFFF,&H00CCFFFF,&HC0313134,-1,-1,0,0,100,100,0,0,1,3,2.5,2,30,30,55,1
+Style: Masks,FrancophilSans,74,&H00000000,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,2,0,0,0,1
+Style: Title,Conan Episode Title,74,&H00E1E4E3,&H000000FF,&HC8DBDAE1,&HC0000000,-1,0,0,0,100,100,0,0,1,1,0,5,0,0,0,1
+Style: OPED,A-OTF Shin Go Pro M,63,&H14F3FCFE,&H000000FF,&H96171717,&H00141414,-1,0,0,0,100,100,0,0,1,0,0,2,0,0,65,1
+Style: Eyecatch,Calibri,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,16,16,16,1
+Style: Character Card,A-OTF Shin Go Pro B,63,&H0FFFFFFF,&H000000FF,&H00B46E0E,&H00000000,-1,0,0,0,90,100,0,0,1,3.4,0,2,90,90,45,1
+Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0,0,0,100,100,0,0,1,0.5,0,2,90,90,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:12.72,0:00:16.89,Dialogue,,0,0,0,,After being invited by Diana{\rHonorifics - Dialogue}-san{\r}, a British woman\Nwe happened to make the acquaintance of...
+Dialogue: 0,0:00:17.51,0:00:20.35,Dialogue,,0,0,0,,We found ourselves preparing for a trip to Great Britain.
+Dialogue: 0,0:00:21.02,0:00:24.56,Dialogue,,0,0,0,,Of course, since I can't fly overseas as Edogawa Conan...
+Dialogue: 0,0:00:25.06,0:00:30.53,Dialogue,,0,0,0,,I temporarily returned to Kudou Shinichi's form\Nby taking medicine developed by Haibara.
+Dialogue: 0,0:00:31.19,0:00:33.99,Dialogue,,0,0,0,,But, at the same time I was headed for the UK...
+Dialogue: 0,0:00:34.61,0:00:37.95,Dialogue,,0,0,0,,I had no idea something like {\i1}that{\i0} would happen.
+Dialogue: 0,0:00:42.44,0:00:46.86,Dialogue,Sign,0,0,0,,10:00 AM
+Dialogue: 0,0:01:01.64,0:01:03.18,Dialogue,,0,0,0,,Oh, right...
+Dialogue: 0,0:01:03.18,0:01:05.69,Dialogue,,0,0,0,,Yoshida{\rHonorifics - Dialogue}-san{\r} allowed me to stay at her place.
+Dialogue: 0,0:01:11.57,0:01:13.97,Dialogue,,0,0,0,,A huge difference compared to my room.
+Dialogue: 0,0:01:17.03,0:01:19.03,Dialogue,,0,0,0,,Ai{\rHonorifics - Dialogue}-chan{\r}, you awake?
+Dialogue: 0,0:01:20.78,0:01:24.23,Dialogue,,0,0,0,,Papa and mama had urgent errands to run, so they went out.
+Dialogue: 0,0:01:24.23,0:01:24.69,Dialogue,,0,0,0,,I see.
+Dialogue: 0,0:01:25.33,0:01:28.29,Dialogue,,0,0,0,,Mama's made some sandwiches for us, so let's eat together!
+Dialogue: 0,0:01:31.75,0:01:33.46,Dialogue,,0,0,0,,Now, rise and shine!
+Dialogue: 0,0:01:33.46,0:01:35.05,Dialogue,,0,0,0,,Wash your face!
+Dialogue: 0,0:01:41.10,0:01:42.43,Dialogue,,0,0,0,,I've finally found you.
+Dialogue: 0,0:01:56.90,0:01:57.99,Dialogue,,0,0,0,,It's me.
+Dialogue: 0,0:01:57.99,0:01:59.20,Dialogue,,0,0,0,,I've tracked down her location.
+Dialogue: 0,0:01:59.99,0:02:02.83,Dialogue,,0,0,0,,Yeah, no doubt about it.
+Dialogue: 0,0:02:02.83,0:02:04.66,Dialogue,,0,0,0,,I'm counting on you, as we planned.
+Dialogue: 0,0:02:04.98,0:02:07.20,Dialogue,,0,0,0,,Yes, understood.
+Dialogue: 0,0:02:16.41,0:02:17.87,Dialogue Top,Sign,0,0,0,,TSUBURAYA
+Dialogue: 0,0:02:17.30,0:02:19.72,Dialogue,,0,0,0,,Geez, sis!
+Dialogue: 0,0:02:20.26,0:02:22.93,Dialogue,,0,0,0,,Stack them up neatly before throwing them away!
+Dialogue: 0,0:02:25.22,0:02:27.60,Dialogue,,0,0,0,,Who do you think is doing it for you every time!?
+Dialogue: 0,0:02:29.55,0:02:31.46,Dialogue,Sign,0,0,0,,American Beauty\NGrace Aihara\NGrace Aihara, 8.\NThis stunning little lady\Nis hot in the USA drama showbiz.\NHer favorite food is... Guess what?\NPeanut butter and blueberry jam sandwich!
+Dialogue: 0,0:02:36.03,0:02:37.61,Dialogue,,0,0,0,,Grace Aihara...
+Dialogue: 0,0:02:38.24,0:02:41.41,Dialogue,,0,0,0,,This kid looks just like Haibara{\rHonorifics - Dialogue}-san{\r}!
+Dialogue: 0,0:02:43.31,0:02:44.48,Dialogue,,0,0,0,,Mit{\rHonorifics - Dialogue}-chan{\r}!
+Dialogue: 0,0:02:44.48,0:02:45.23,Dialogue,,0,0,0,,Phone.
+Dialogue: 0,0:02:45.69,0:02:46.15,Dialogue,,0,0,0,,All right.
+Dialogue: 0,0:02:47.00,0:02:48.29,Dialogue,,0,0,0,,It's from Conan{\rHonorifics - Dialogue}-kun{\r}.
+Dialogue: 0,0:02:49.16,0:02:50.58,Dialogue,,0,0,0,,From Conan{\rHonorifics - Dialogue}-kun{\r}?
+Dialogue: 0,0:02:50.58,0:02:52.82,Dialogue,,0,0,0,,Sounds like he's in a hurry.
+Dialogue: 0,0:02:53.74,0:02:54.57,Dialogue,,0,0,0,,Hello?
+Dialogue: 0,0:02:54.57,0:02:55.70,Dialogue,,0,0,0,,Mitsuhiko?
+Dialogue: 0,0:02:55.71,0:02:58.34,Dialogue,,0,0,0,,Do not let Haibara go near the Professor's house anytime today!
+Dialogue: 0,0:02:59.22,0:03:02.72,Dialogue,,0,0,0,,You can go keep her company, but do not\Ntake your sight off Haibara, got it?
+Dialogue: 0,0:03:05.01,0:03:05.60,Dialogue,,0,0,0,,Hello?
+Dialogue: 0,0:03:05.87,0:03:07.14,Dialogue,,0,0,0,,Hello?
+Dialogue: 0,0:03:09.64,0:03:12.60,Dialogue,,0,0,0,,"Do not let Haibara{\rHonorifics - Dialogue}-san{\r} go near the Professor's house"?
+Dialogue: 0,0:03:13.44,0:03:16.05,Dialogue,,0,0,0,,Why in the world...
+Dialogue: 0,0:03:28.10,0:03:29.52,Dialogue,Title,0,0,0,,A Secret Order From London!
+Dialogue: 0,0:03:31.02,0:03:35.36,Dialogue,Title,0,0,0,,A Secret Order From London!
+Dialogue: 0,0:03:35.36,0:03:37.11,Dialogue Top,Sign,0,0,0,,TSUBURAYA
+Dialogue: 0,0:03:37.55,0:03:40.82,Dialogue,,0,0,0,,See, she looks just like Haibara{\rHonorifics - Dialogue}-san{\r}, right?
+Dialogue: 0,0:03:41.26,0:03:42.76,Dialogue,,0,0,0,,Who the heck is she?
+Dialogue: 0,0:03:43.34,0:03:45.14,Dialogue,,0,0,0,,Grace Aihara.
+Dialogue: 0,0:03:45.14,0:03:48.85,Dialogue,,0,0,0,,She's a well-known child star in the American drama showbiz.
+Dialogue: 0,0:03:48.85,0:03:50.98,Dialogue,,0,0,0,,Her hair color and hairstyle look strikingly similar...
+Dialogue: 0,0:03:51.39,0:03:54.35,Dialogue,,0,0,0,,And not to mention her eyes are an exact copy of Haibara{\rHonorifics - Dialogue}-san{\r}'s!
+Dialogue: 0,0:03:54.35,0:03:55.40,Dialogue,,0,0,0,,That so?
+Dialogue: 0,0:03:56.98,0:04:02.05,Dialogue,,0,0,0,,"Her favorite food is peanut butter and blueberry jam sandwich!"
+Dialogue: 0,0:04:02.05,0:04:03.20,Dialogue,,0,0,0,,Sounds yummy!
+Dialogue: 0,0:04:03.78,0:04:06.53,Dialogue,,0,0,0,,The only difference is her age.
+Dialogue: 0,0:04:06.53,0:04:11.33,Dialogue,,0,0,0,,That magazine came out a year ago, and since it says she was eight years old...
+Dialogue: 0,0:04:11.33,0:04:13.21,Dialogue,,0,0,0,,It means she should be nine now.
+Dialogue: 0,0:04:13.21,0:04:16.46,Dialogue,,0,0,0,,Haibara is seven just like us, right?
+Dialogue: 0,0:04:16.46,0:04:21.05,Dialogue,,0,0,0,,But it's not uncommon for celebrities to fake their ages.
+Dialogue: 0,0:04:21.05,0:04:24.59,Dialogue,,0,0,0,,And—I'm talking about speculation and what-ifs now...
+Dialogue: 0,0:04:25.51,0:04:28.97,Dialogue,,0,0,0,,But I think it's possible that she {\i1}is{\i0} Haibara{\rHonorifics - Dialogue}-san{\r}.
+Dialogue: 0,0:04:30.31,0:04:33.23,Dialogue,,0,0,0,,Well, didn't she tell us this a while ago?
+Dialogue: 0,0:04:33.23,0:04:37.44,Dialogue,,0,0,0,,That Haibara{\rHonorifics - Dialogue}-san{\r} was in the US and her mother was British.
+Dialogue: 0,0:04:37.73,0:04:38.90,Dialogue,,0,0,0,,She said something like that?
+Dialogue: 0,0:04:39.36,0:04:41.32,Dialogue,,0,0,0,,It's the same for this girl!
+Dialogue: 0,0:04:41.32,0:04:45.86,Dialogue,,0,0,0,,She's a half, born from her Japanese dad and British mom.
+Dialogue: 0,0:04:46.18,0:04:47.11,Dialogue,,0,0,0,,Half?
+Dialogue: 0,0:04:47.49,0:04:49.95,Dialogue,,0,0,0,,If... I mean {\i1}if{\i0}...
+Dialogue: 0,0:04:50.44,0:04:53.79,Dialogue,,0,0,0,,If this girl is Haibara{\rHonorifics - Dialogue}-san{\r} herself...
+Dialogue: 0,0:04:53.79,0:04:56.33,Dialogue,,0,0,0,,Why did she have to change her name and come to Japan?
+Dialogue: 0,0:04:57.75,0:04:59.78,Dialogue,,0,0,0,,No, hold on a second.
+Dialogue: 0,0:04:59.78,0:05:02.28,Dialogue,,0,0,0,,This girl's name is Grace.
+Dialogue: 0,0:05:02.28,0:05:04.78,Dialogue,,0,0,0,,Gray in Japanese is haiiro.
+Dialogue: 0,0:05:04.80,0:05:08.47,Dialogue,,0,0,0,,And her surname Aihara can be taken as Ai and Hara...
+Dialogue: 0,0:05:08.47,0:05:09.46,Dialogue,,0,0,0,,I see!
+Dialogue: 0,0:05:09.47,0:05:14.73,Dialogue,,0,0,0,,"Grace Aihara" is likely to be Haibara Ai's stage name altered from her real name!
+Dialogue: 0,0:05:16.34,0:05:18.02,Dialogue,,0,0,0,,But...
+Dialogue: 0,0:05:18.02,0:05:23.57,Dialogue,,0,0,0,,Why would Conan call and tell you not to\Nlet Haibara go near the Professor's house?
+Dialogue: 0,0:05:23.89,0:05:25.22,Dialogue,,0,0,0,,That's...
+Dialogue: 0,0:05:26.18,0:05:28.03,Dialogue,,0,0,0,,It says something right here.
+Dialogue: 0,0:05:28.45,0:05:33.16,Dialogue,,0,0,0,,"Grace Aihara announced her shocking retirement half a year ago...
+Dialogue: 0,0:05:33.16,0:05:36.16,Dialogue,,0,0,0,,"And her whereabouts after returning to the UK are unknown."
+Dialogue: 0,0:05:36.16,0:05:37.58,Dialogue,,0,0,0,,UK?
+Dialogue: 0,0:05:37.58,0:05:40.54,Dialogue,,0,0,0,,Conan and the Professor are going to the UK too, aren't they?
+Dialogue: 0,0:05:40.54,0:05:43.00,Dialogue,,0,0,0,,So did he give you a call from the UK?
+Dialogue: 0,0:05:43.00,0:05:44.95,Dialogue,,0,0,0,,I don't think it's possible.
+Dialogue: 0,0:05:44.95,0:05:47.47,Dialogue,,0,0,0,,Conan{\rHonorifics - Dialogue}-kun{\r} and the others should arrive in London in...
+Dialogue: 0,0:05:47.93,0:05:51.76,Dialogue,,0,0,0,,About seven hours still, so it was from their plane.
+Dialogue: 0,0:05:51.76,0:05:55.06,Dialogue,,0,0,0,,Can you even make a phone call from a plane?
+Dialogue: 0,0:05:55.06,0:05:58.73,Dialogue,,0,0,0,,You can't with a cell phone, but I\Nthink they have in-flight phones.
+Dialogue: 0,0:05:59.40,0:06:02.57,Dialogue,,0,0,0,,The fact that he went as far as to call me in that situation...
+Dialogue: 0,0:06:02.57,0:06:06.69,Dialogue,,0,0,0,,There must be an urgent reason not to let Haibara{\rHonorifics - Dialogue}-san{\r} near the Professor's.
+Dialogue: 0,0:06:07.61,0:06:13.41,Dialogue,,0,0,0,,Perhaps Conan{\rHonorifics - Dialogue}-kun{\r} and the others' reason for visiting the UK was related to this!
+Dialogue: 0,0:06:14.16,0:06:15.77,Dialogue,,0,0,0,,We can't just sit here.
+Dialogue: 0,0:06:15.77,0:06:17.33,Dialogue,,0,0,0,,Genta{\rHonorifics - Dialogue}-kun{\r}, let's go!
+Dialogue: 0,0:06:17.33,0:06:18.79,Dialogue,,0,0,0,,Go where, the UK?
+Dialogue: 0,0:06:20.17,0:06:22.25,Dialogue,,0,0,0,,Now that's impossible, isn't it?
+Dialogue: 0,0:06:22.25,0:06:23.42,Dialogue,,0,0,0,,I mean Ayumi{\rHonorifics - Dialogue}-chan{\r}'s house!
+Dialogue: 0,0:06:24.30,0:06:28.05,Dialogue,,0,0,0,,It could be that danger is lurking around Haibara{\rHonorifics - Dialogue}-san{\r} right now!
+Dialogue: 0,0:06:35.35,0:06:36.97,Dialogue,,0,0,0,,Ai{\rHonorifics - Dialogue}-chan{\r}, delicious?
+Dialogue: 0,0:06:37.88,0:06:39.18,Dialogue,,0,0,0,,Yeah.
+Dialogue: 0,0:06:39.19,0:06:42.65,Dialogue,,0,0,0,,Yoshida{\rHonorifics - Dialogue}-san{\r}'s mother is pretty good at cooking, I see.
+Dialogue: 0,0:06:44.07,0:06:47.15,Dialogue,,0,0,0,,Ayumi loves ham sandwiches and egg sandwiches...
+Dialogue: 0,0:06:47.15,0:06:49.53,Dialogue,,0,0,0,,So mama always makes these for me.
+Dialogue: 0,0:06:49.53,0:06:51.61,Dialogue,,0,0,0,,Ai{\rHonorifics - Dialogue}-chan{\r}, what kind of sandwich do you like?
+Dialogue: 0,0:06:52.82,0:06:54.03,Dialogue,,0,0,0,,I guess...
+Dialogue: 0,0:06:54.70,0:06:57.08,Dialogue,,0,0,0,,Peanut butter and blueberry jam.
+Dialogue: 0,0:06:57.66,0:07:00.41,Dialogue,,0,0,0,,Peanut butter and blueberry jam?
+Dialogue: 0,0:07:00.42,0:07:01.08,Dialogue,,0,0,0,,Yeah.
+Dialogue: 0,0:07:01.37,0:07:04.63,Dialogue,,0,0,0,,Spread each on one side of separate pieces of bread and stick them together...
+Dialogue: 0,0:07:04.63,0:07:07.96,Dialogue,,0,0,0,,And you get a peanut butter and jelly sandwich.
+Dialogue: 0,0:07:07.96,0:07:10.05,Dialogue,,0,0,0,,It's a staple in American lunches.
+Dialogue: 0,0:07:10.38,0:07:14.93,Dialogue,,0,0,0,,Even now, I can't help myself but to yearn for that sandwich from time to time.
+Dialogue: 0,0:07:14.93,0:07:17.64,Dialogue,,0,0,0,,But, one time I was eating some at the Professor's...
+Dialogue: 0,0:07:17.64,0:07:20.04,Dialogue,,0,0,0,,He was looking at me with puppy eyes.
+Dialogue: 0,0:07:20.04,0:07:21.52,Dialogue,,0,0,0,,That's why I gave up eating that.
+Dialogue: 0,0:07:21.81,0:07:23.19,Dialogue,,0,0,0,,I understand!
+Dialogue: 0,0:07:23.19,0:07:26.90,Dialogue,,0,0,0,,If the Professor were to eat any of that, he'd become more overweight, right?
+Dialogue: 0,0:07:28.03,0:07:29.55,Dialogue,,0,0,0,,That's right, Ai{\rHonorifics - Dialogue}-chan{\r}!
+Dialogue: 0,0:07:29.55,0:07:30.93,Dialogue,,0,0,0,,Let's go and get some!
+Dialogue: 0,0:07:31.86,0:07:37.20,Dialogue,,0,0,0,,But, what they have in the nearby supermarket is completely different from what I had in America.
+Dialogue: 0,0:07:37.20,0:07:39.87,Dialogue,,0,0,0,,It's no good if they're not from an import food shop.
+Dialogue: 0,0:07:39.87,0:07:43.08,Dialogue,,0,0,0,,I know just the place that's on the opposite side of Beika Station!
+Dialogue: 0,0:07:43.79,0:07:45.28,Dialogue,,0,0,0,,Well, let's go and buy some!
+Dialogue: 0,0:07:45.28,0:07:47.42,Dialogue,,0,0,0,,Ayumi wants to try it out too!
+Dialogue: 0,0:07:49.51,0:07:50.55,Dialogue,,0,0,0,,You're right.
+Dialogue: 0,0:07:51.17,0:07:53.51,Dialogue,,0,0,0,,I'm in the mood for some as well, after such a long time.
+Dialogue: 0,0:07:53.51,0:07:55.47,Dialogue,,0,0,0,,Then, we should get going right now!
+Dialogue: 0,0:07:57.39,0:07:58.93,Dialogue,,0,0,0,,But, before we do that...
+Dialogue: 0,0:08:00.89,0:08:03.30,Dialogue,,0,0,0,,Well, aren't you getting ahead of yourself?
+Dialogue: 0,0:08:03.30,0:08:04.85,Dialogue,,0,0,0,,What's this "danger" about, anyway?
+Dialogue: 0,0:08:05.31,0:08:06.73,Dialogue,,0,0,0,,I don't know.
+Dialogue: 0,0:08:06.73,0:08:09.27,Dialogue,,0,0,0,,But, judging from the nervous tone in Conan{\rHonorifics - Dialogue}-kun{\r}'s call...
+Dialogue: 0,0:08:09.28,0:08:10.82,Dialogue,,0,0,0,,Something bad is bound to happen.
+Dialogue: 0,0:08:11.24,0:08:13.99,Dialogue,,0,0,0,,Hey, should we make a detour in front of the Professor's?
+Dialogue: 0,0:08:14.32,0:08:16.62,Dialogue,,0,0,0,,No, let's go straight this way.
+Dialogue: 0,0:08:16.62,0:08:19.24,Dialogue,,0,0,0,,It will be closer to Ayumi{\rHonorifics - Dialogue}-chan{\r}'s condo from here.
+Dialogue: 0,0:08:20.70,0:08:22.91,Dialogue,,0,0,0,,Genta{\rHonorifics - Dialogue}-kun{\r}, I'm leaving you behind!
+Dialogue: 0,0:08:29.55,0:08:32.99,Dialogue,,0,0,0,,Ayumi wants to try this just once!
+Dialogue: 0,0:08:32.99,0:08:34.72,Dialogue,,0,0,0,,Ai{\rHonorifics - Dialogue}-chan{\r}, do this with me!
+Dialogue: 0,0:08:34.72,0:08:37.34,Dialogue,,0,0,0,,But, why do we have to apply make-up?
+Dialogue: 0,0:08:37.85,0:08:42.98,Dialogue,,0,0,0,,The supermarket in front of the train station is a fancy store celebrities always go to.
+Dialogue: 0,0:08:42.98,0:08:45.98,Dialogue,,0,0,0,,That's why we have to make ourselves look like celebs as well!
+Dialogue: 0,0:08:45.98,0:08:47.15,Dialogue,,0,0,0,,But still...
+Dialogue: 0,0:08:48.69,0:08:49.86,Dialogue,,0,0,0,,Why not?
+Dialogue: 0,0:08:49.86,0:08:50.65,Dialogue,,0,0,0,,Let's try it out!
+Dialogue: 0,0:08:52.99,0:08:53.86,Dialogue,,0,0,0,,You're right.
+Dialogue: 0,0:08:54.49,0:08:56.11,Dialogue,,0,0,0,,It's been too long for me anyway.
+Dialogue: 0,0:08:56.49,0:08:57.49,Dialogue,,0,0,0,,Huh?
+Dialogue: 0,0:08:57.49,0:09:00.49,Dialogue,,0,0,0,,Ai{\rHonorifics - Dialogue}-chan{\r}, you've already tried putting make-up before?
+Dialogue: 0,0:09:01.24,0:09:04.71,Dialogue,,0,0,0,,No, I didn't mean it that way...
+Dialogue: 0,0:09:04.71,0:09:06.12,Dialogue,,0,0,0,,Whew, I was so shocked!
+Dialogue: 0,0:09:06.75,0:09:09.29,Dialogue,,0,0,0,,Sometimes you mumble weird things, Ai{\rHonorifics - Dialogue}-chan{\r}.
+Dialogue: 0,0:09:09.29,0:09:10.59,Dialogue,,0,0,0,,Same for Conan{\rHonorifics - Dialogue}-kun{\r}, though.
+Dialogue: 0,0:09:12.76,0:09:15.53,Dialogue,,0,0,0,,Mama won't return home until this evening.
+Dialogue: 0,0:09:15.53,0:09:17.05,Dialogue,,0,0,0,,Let's give ourselves a grand transformation!
+Dialogue: 0,0:09:27.19,0:09:28.60,Dialogue,,0,0,0,,Done!
+Dialogue: 0,0:09:29.15,0:09:30.65,Dialogue,,0,0,0,,How's it, Ai{\rHonorifics - Dialogue}-chan{\r}?
+Dialogue: 0,0:09:33.03,0:09:35.49,Dialogue,,0,0,0,,Maybe I put on too much eyeshadow...?
+Dialogue: 0,0:09:35.49,0:09:37.07,Dialogue,,0,0,0,,Right...
+Dialogue: 0,0:09:37.07,0:09:39.20,Dialogue,,0,0,0,,I think a more natural look suits you...
+Dialogue: 0,0:09:39.78,0:09:41.16,Dialogue,,0,0,0,,"Natural"?
+Dialogue: 0,0:09:41.16,0:09:43.83,Dialogue,,0,0,0,,Don't worry, I'll do it for you.
+Dialogue: 0,0:09:51.78,0:09:54.21,Dialogue,,0,0,0,,It doesn't look like Ayumi at all!
+Dialogue: 0,0:09:54.21,0:09:56.51,Dialogue,,0,0,0,,Ai{\rHonorifics - Dialogue}-chan{\r}, you're really good at make-up!
+Dialogue: 0,0:09:56.51,0:09:59.51,Dialogue,,0,0,0,,It's because you have large eyes and a cute face to begin with, Yoshida{\rHonorifics - Dialogue}-san{\r}.
+Dialogue: 0,0:10:00.14,0:10:01.51,Dialogue,,0,0,0,,Thank you!
+Dialogue: 0,0:10:01.51,0:10:03.04,Dialogue,,0,0,0,,Ai{\rHonorifics - Dialogue}-chan{\r} looks very pretty as well!
+Dialogue: 0,0:10:03.75,0:10:04.54,Dialogue,,0,0,0,,That so?
+Dialogue: 0,0:10:16.65,0:10:17.36,Dialogue,,0,0,0,,She came out.
+Dialogue: 0,0:10:18.28,0:10:20.82,Dialogue,,0,0,0,,So she thinks she'd fool me with that make-up?
+Dialogue: 0,0:10:21.12,0:10:23.87,Dialogue,,0,0,0,,Nah, I'd say this is even better.
+Dialogue: 0,0:10:27.15,0:10:28.36,Dialogue,,0,0,0,,It's me.
+Dialogue: 0,0:10:28.37,0:10:30.36,Dialogue,,0,0,0,,Target's on the move.
+Dialogue: 0,0:10:30.36,0:10:31.46,Dialogue,,0,0,0,,I'm counting on you.
+Dialogue: 0,0:10:35.13,0:10:36.80,Dialogue,,0,0,0,,Did you see that, Mitsuhiko?
+Dialogue: 0,0:10:36.80,0:10:37.34,Dialogue,,0,0,0,,Yeah.
+Dialogue: 0,0:10:38.01,0:10:43.76,Dialogue,,0,0,0,,Haibara{\rHonorifics - Dialogue}-san{\r} and Ayumi{\rHonorifics - Dialogue}-chan{\r} both look even more beautiful and cuter than usual!
+Dialogue: 0,0:10:43.76,0:10:45.76,Dialogue,,0,0,0,,Their mouths were all red.
+Dialogue: 0,0:10:45.77,0:10:47.68,Dialogue,,0,0,0,,Did they have ketchup on them?
+Dialogue: 0,0:10:47.68,0:10:49.10,Dialogue,,0,0,0,,That's lipstick!
+Dialogue: 0,0:10:49.10,0:10:50.81,Dialogue,,0,0,0,,They put on make-up, both of them.
+Dialogue: 0,0:10:51.17,0:10:52.09,Dialogue,,0,0,0,,Make-up?
+Dialogue: 0,0:10:52.09,0:10:52.80,Dialogue,,0,0,0,,Yes.
+Dialogue: 0,0:10:52.81,0:10:55.57,Dialogue,,0,0,0,,It's likely that Ayumi{\rHonorifics - Dialogue}-chan{\r}'s make-up was done by Haibara{\rHonorifics - Dialogue}-san{\r}.
+Dialogue: 0,0:10:55.57,0:10:57.78,Dialogue,,0,0,0,,A child star should be good at putting on make-up.
+Dialogue: 0,0:10:58.44,0:10:59.95,Dialogue,,0,0,0,,As I thought, Haibara{\rHonorifics - Dialogue}-san{\r} is...
+Dialogue: 0,0:10:59.95,0:11:02.53,Dialogue,,0,0,0,,What do we do now, they're leaving!
+Dialogue: 0,0:11:02.53,0:11:03.66,Dialogue,,0,0,0,,Let's chase them.
+Dialogue: 0,0:11:03.66,0:11:05.20,Dialogue,,0,0,0,,Although I don't know the reason...
+Dialogue: 0,0:11:05.20,0:11:09.41,Dialogue,,0,0,0,,It'd be best if we followed Haibara{\rHonorifics - Dialogue}-san{\r} as Conan{\rHonorifics - Dialogue}-kun{\r} suggested.
+Dialogue: 0,0:11:09.41,0:11:11.46,Dialogue,,0,0,0,,That sounds like fun!
+Dialogue: 0,0:11:22.51,0:11:23.87,Dialogue,,0,0,0,,Hey, Ai{\rHonorifics - Dialogue}-chan{\r}...
+Dialogue: 0,0:11:23.87,0:11:24.55,Dialogue,,0,0,0,,Yeah.
+Dialogue: 0,0:11:25.01,0:11:28.02,Dialogue,,0,0,0,,Although I don't know what those two are up to now...
+Dialogue: 0,0:11:32.77,0:11:35.01,Dialogue,,0,0,0,,Don't tell me, that man...
+Dialogue: 0,0:11:36.11,0:11:37.61,Dialogue,,0,0,0,,Ai{\rHonorifics - Dialogue}-chan{\r}, what's wrong?
+Dialogue: 0,0:11:38.53,0:11:40.49,Dialogue,,0,0,0,,No, nothing.
+Dialogue: 0,0:11:40.49,0:11:41.28,Dialogue,,0,0,0,,Let's go.
+Dialogue: 0,0:11:48.91,0:11:50.11,Dialogue,,0,0,0,,It can't be...
+Dialogue: 0,0:11:56.13,0:11:57.84,Dialogue,,0,0,0,,She's headed towards Beika Station.
+Dialogue: 0,0:11:58.42,0:12:00.09,Dialogue,,0,0,0,,Yeah, don't screw up.
+Dialogue: 0,0:12:03.30,0:12:06.18,Dialogue,,0,0,0,,This store looks pretty awesome!
+Dialogue: 0,0:12:06.47,0:12:11.04,Dialogue,,0,0,0,,This is a fancy supermarket where they carry imported goods from foreign countries.
+Dialogue: 0,0:12:11.56,0:12:15.90,Dialogue,,0,0,0,,Usually, Haibara{\rHonorifics - Dialogue}-san{\r} would never come and shop here.
+Dialogue: 0,0:12:15.90,0:12:16.90,Dialogue,,0,0,0,,This is too odd.
+Dialogue: 0,0:12:17.57,0:12:19.07,Dialogue,,0,0,0,,Let's see...
+Dialogue: 0,0:12:19.47,0:12:22.03,Dialogue,,0,0,0,,Peanut butter here...
+Dialogue: 0,0:12:22.53,0:12:26.02,Dialogue,,0,0,0,,And, blueberry jam here.
+Dialogue: 0,0:12:29.33,0:12:34.62,Dialogue,,0,0,0,,When I was young, around Ayumi{\rHonorifics - Dialogue}-chan{\r}'s\Nage, these were my favorites.
+Dialogue: 0,0:12:35.07,0:12:37.53,Dialogue,,0,0,0,,Isn't she the same age right now?
+Dialogue: 0,0:12:38.88,0:12:40.53,Dialogue,,0,0,0,,If I recall correctly, that report...
+Dialogue: 0,0:12:42.53,0:12:43.28,Dialogue,,0,0,0,,As I thought.
+Dialogue: 0,0:12:43.91,0:12:47.50,Dialogue,,0,0,0,,Her favorite food is peanut butter and blueberry jam sandwich.
+Dialogue: 0,0:12:48.22,0:12:50.47,Dialogue,,0,0,0,,And what Haibara{\rHonorifics - Dialogue}-san{\r} said just now...
+Dialogue: 0,0:12:51.31,0:12:57.42,Dialogue,,0,0,0,,When I was young, around Ayumi{\rHonorifics - Dialogue}-chan{\r}'s\Nage, these were my favorites.
+Dialogue: 0,0:12:57.86,0:13:02.57,Dialogue,,0,0,0,,That must be the truth coming from a slip of the tongue.
+Dialogue: 0,0:13:02.57,0:13:04.82,Dialogue,,0,0,0,,So if Haibara{\rHonorifics - Dialogue}-san{\r} isn't seven years old...
+Dialogue: 0,0:13:04.82,0:13:07.93,Dialogue,,0,0,0,,But in fact older, like nine or ten...
+Dialogue: 0,0:13:07.95,0:13:12.41,Dialogue,,0,0,0,,Then it's a match to this girl idol's age of eight years old a year ago.
+Dialogue: 0,0:13:12.66,0:13:15.62,Dialogue,,0,0,0,,Right, this girl is indeed Haibara{\rHonorifics - Dialogue}-san{\r}!
+Dialogue: 0,0:13:15.62,0:13:18.90,Dialogue,,0,0,0,,That's why Haibara{\rHonorifics - Dialogue}-san{\r} always looks more mature than us.
+Dialogue: 0,0:13:26.84,0:13:31.89,Dialogue,,0,0,0,,In American supermarkets, they have dozens of kinds of items on display, even for peanut butter jars.
+Dialogue: 0,0:13:32.64,0:13:39.06,Dialogue,,0,0,0,,Some stores even have machines that can squeeze out peanut butter as you would for soft serve ice cream.
+Dialogue: 0,0:13:39.73,0:13:40.77,Dialogue,,0,0,0,,Sounds interesting!
+Dialogue: 0,0:13:43.48,0:13:44.76,Dialogue,,0,0,0,,A woman in black...
+Dialogue: 0,0:13:45.15,0:13:46.30,Dialogue,,0,0,0,,Don't tell me...
+Dialogue: 0,0:13:49.28,0:13:50.45,Dialogue,,0,0,0,,The man from before...
+Dialogue: 0,0:13:50.78,0:13:51.64,Dialogue,,0,0,0,,They've cornered me?
+Dialogue: 0,0:14:03.03,0:14:05.03,Dialogue,,0,0,0,,I don't feel the organization vibe.
+Dialogue: 0,0:14:05.05,0:14:06.13,Dialogue,,0,0,0,,Pretty!
+Dialogue: 0,0:14:06.47,0:14:07.41,Dialogue,,0,0,0,,But...
+Dialogue: 0,0:14:11.35,0:14:13.14,Dialogue,,0,0,0,,Why did Haibara{\rHonorifics - Dialogue}-san{\r}...
+Dialogue: 0,0:14:13.12,0:14:14.25,Dialogue Top,,0,0,0,,Our next story:
+Dialogue: 0,0:14:14.25,0:14:17.29,Signs,Sign,0,0,0,,Supermodel In Fact\NAn Undercover Spy
+Dialogue: 0,0:14:17.29,0:14:20.51,Signs,Sign,0,0,0,,Supermodel In Fact\NAn Undercover Spy
+Dialogue: 0,0:14:14.83,0:14:17.29,Dialogue Top,,0,0,0,,A supermodel playing an active part in the showbiz around the world...
+Dialogue: 0,0:14:17.88,0:14:20.51,Dialogue Top,,0,0,0,,Was discovered to be an undercover international spy.
+Dialogue: 0,0:14:21.17,0:14:24.18,Dialogue Top,,0,0,0,,She was a frequent icon in fashion shows from well-known brands...
+Dialogue: 0,0:14:24.07,0:14:28.78,Dialogue,,0,0,0,,My proposition is that Haibara{\rHonorifics - Dialogue}-san{\r}'s true identity may be that of a spy!
+Dialogue: 0,0:14:24.18,0:14:26.80,Dialogue Top,,0,0,0,,And enjoyed resplendent celeb stardom in many countries.
+Dialogue: 0,0:14:26.80,0:14:30.47,Dialogue Top,,0,0,0,,This incident has caused a massive\Nripple across the fashion gamut...
+Dialogue: 0,0:14:28.78,0:14:29.61,Dialogue,,0,0,0,,A spy?
+Dialogue: 0,0:14:29.61,0:14:31.62,Dialogue,,0,0,0,,Isn't she an idol?
+Dialogue: 0,0:14:31.62,0:14:37.04,Dialogue,,0,0,0,,Haibara{\rHonorifics - Dialogue}-san{\r}, as known as Grace Aihara, the flourishing girl TV personality in America...
+Dialogue: 0,0:14:37.04,0:14:41.38,Dialogue,,0,0,0,,Was trying to sniff out the dark connection\Nbetween the American showbiz and the Mafia.
+Dialogue: 0,0:14:41.67,0:14:43.50,Dialogue,,0,0,0,,What is a Mafia?
+Dialogue: 0,0:14:43.50,0:14:48.34,Dialogue,,0,0,0,,But with her identity exposed by the Mafia, Haibara{\rHonorifics - Dialogue}-san{\r} fled to the UK.
+Dialogue: 0,0:14:48.97,0:14:51.05,Dialogue,,0,0,0,,In other words, Haibara{\rHonorifics - Dialogue}-san{\r} was working for...
+Dialogue: 0,0:14:51.64,0:14:54.55,Dialogue,,0,0,0,,The UK's Secret Intelligence Service—MI6!
+Dialogue: 0,0:14:55.25,0:14:57.00,Dialogue,,0,0,0,,MI...?
+Dialogue: 0,0:14:58.64,0:15:03.65,Dialogue,,0,0,0,,And Haibara{\rHonorifics - Dialogue}-san{\r} came to Japan in order to escape from the Mafia's pursuit.
+Dialogue: 0,0:15:04.73,0:15:07.22,Dialogue,,0,0,0,,She hid herself in the house of the Professor as his relative...
+Dialogue: 0,0:15:07.22,0:15:09.57,Dialogue,,0,0,0,,And transfered to Teitan Elementary School.
+Dialogue: 0,0:15:10.20,0:15:14.64,Dialogue,,0,0,0,,She's actually nine or ten years old, but deliberately lied about being seven.
+Dialogue: 0,0:15:15.08,0:15:20.32,Dialogue,,0,0,0,,On the other hand, the American Mafia followed Haibara{\rHonorifics - Dialogue}-san{\r}'s footsteps and arrived in Japan.
+Dialogue: 0,0:15:20.92,0:15:24.04,Dialogue,,0,0,0,,The reason Conan{\rHonorifics - Dialogue}-kun{\r} and the\NProfessor flew to the UK in a hurry...
+Dialogue: 0,0:15:24.04,0:15:28.80,Dialogue,,0,0,0,,Must be because they've noticed this and decided to ask for help from the UK's Secret Intelligence Service.
+Dialogue: 0,0:15:29.42,0:15:33.26,Dialogue,,0,0,0,,However, the Mafia found out about the Professor's house.
+Dialogue: 0,0:15:33.83,0:15:37.60,Dialogue,,0,0,0,,They learned this fact on the plane, and contacted me in great haste...
+Dialogue: 0,0:15:37.60,0:15:40.98,Dialogue,,0,0,0,,Telling me not to let Haibara{\rHonorifics - Dialogue}-san{\r} go back near the Professor's house.
+Dialogue: 0,0:15:42.02,0:15:43.56,Dialogue,,0,0,0,,A perfect deduction!
+Dialogue: 0,0:15:43.56,0:15:46.40,Dialogue,,0,0,0,,Say, what's a Mafia anyway?
+Dialogue: 0,0:15:46.40,0:15:49.44,Dialogue,,0,0,0,,Genta{\rHonorifics - Dialogue}-kun{\r}, a Mafia is in fact...
+Dialogue: 0,0:15:50.07,0:15:51.03,Dialogue,,0,0,0,,They just came out.
+Dialogue: 0,0:15:51.89,0:15:53.77,Dialogue,,0,0,0,,And a Mafia is...?
+Dialogue: 0,0:15:53.77,0:15:55.49,Dialogue,,0,0,0,,An American gang.
+Dialogue: 0,0:15:55.49,0:15:56.45,Dialogue,,0,0,0,,A gang?
+Dialogue: 0,0:15:56.45,0:16:00.04,Dialogue,,0,0,0,,Do they wear black suits and sunglasses by any chance?
+Dialogue: 0,0:16:00.04,0:16:01.62,Dialogue,,0,0,0,,Correct, that's absolutely right.
+Dialogue: 0,0:16:02.00,0:16:04.08,Dialogue,,0,0,0,,In that case, there's one behind you.
+Dialogue: 0,0:16:05.38,0:16:07.38,Dialogue,,0,0,0,,When did that man...!?
+Dialogue: 0,0:16:07.38,0:16:10.09,Dialogue,,0,0,0,,I dunno, but he was in that supermarket.
+Dialogue: 0,0:16:10.95,0:16:12.84,Dialogue,,0,0,0,,Yeah, that's right.
+Dialogue: 0,0:16:12.84,0:16:14.80,Dialogue,,0,0,0,,Let's get those two at once.
+Dialogue: 0,0:16:16.01,0:16:18.22,Dialogue,,0,0,0,,He's going to get those two at once?
+Dialogue: 0,0:16:18.22,0:16:21.00,Dialogue,,0,0,0,,So he's aiming for not only Haibara{\rHonorifics - Dialogue}-san{\r}, but also Ayumi{\rHonorifics - Dialogue}-chan{\r}!?
+Dialogue: 0,0:16:21.43,0:16:23.69,Dialogue,,0,0,0,,You should cut them off from the front.
+Dialogue: 0,0:16:23.69,0:16:24.77,Dialogue,,0,0,0,,We'll corner them.
+Dialogue: 0,0:16:25.15,0:16:26.48,Dialogue,,0,0,0,,Corner them?
+Dialogue: 0,0:16:26.48,0:16:27.55,Dialogue,,0,0,0,,He has an accomplice?
+Dialogue: 0,0:16:28.36,0:16:30.51,Dialogue,,0,0,0,,Haibara{\rHonorifics - Dialogue}-san{\r} and Ayumi{\rHonorifics - Dialogue}-chan{\r} are in danger!
+Dialogue: 0,0:16:30.99,0:16:32.99,Dialogue,,0,0,0,,Yeah, I'm about to finish this up.
+Dialogue: 0,0:16:33.82,0:16:34.95,Dialogue,,0,0,0,,After you.
+Dialogue: 0,0:16:35.49,0:16:36.68,Dialogue,,0,0,0,,I can't...
+Dialogue: 0,0:16:36.70,0:16:39.10,Dialogue,,0,0,0,,They're not opponents I can deal with!
+Dialogue: 0,0:16:39.74,0:16:40.77,Dialogue,,0,0,0,,But...
+Dialogue: 0,0:16:46.08,0:16:49.07,Dialogue,,0,0,0,,Hey, little princesses.
+Dialogue: 0,0:16:49.09,0:16:50.46,Dialogue,,0,0,0,,Over here!
+Dialogue: 0,0:16:50.96,0:16:52.92,Dialogue,,0,0,0,,Can't you give us a bit of your time?
+Dialogue: 0,0:16:53.59,0:16:55.76,Dialogue,,0,0,0,,These two are so cute!
+Dialogue: 0,0:16:56.47,0:16:58.60,Dialogue,,0,0,0,,My radar's never wrong, see?
+Dialogue: 0,0:16:58.83,0:16:59.55,Dialogue,,0,0,0,,Gun?
+Dialogue: 0,0:16:59.93,0:17:01.58,Dialogue,,0,0,0,,No way, in the middle of the street!?
+Dialogue: 0,0:17:05.27,0:17:06.56,Dialogue,,0,0,0,,Both of you, run away at once!
+Dialogue: 0,0:17:07.27,0:17:08.92,Dialogue,,0,0,0,,What the hell are you doing, brat!?
+Dialogue: 0,0:17:08.92,0:17:10.30,Dialogue,,0,0,0,,Hurry up!
+Dialogue: 0,0:17:11.32,0:17:13.40,Dialogue,,0,0,0,,What the hell are you doing to Mitsuhiko!?
+Dialogue: 0,0:17:15.40,0:17:16.53,Dialogue,,0,0,0,,You guys...
+Dialogue: 0,0:17:18.60,0:17:20.12,Dialogue,,0,0,0,,What's going on!?
+Dialogue: 0,0:17:23.16,0:17:24.70,Dialogue,,0,0,0,,A talent production!?
+Dialogue: 0,0:17:25.19,0:17:25.90,Dialogue,,0,0,0,,Yeah.
+Dialogue: 0,0:17:26.33,0:17:29.75,Dialogue,,0,0,0,,We merely wanted to scout her.
+Dialogue: 0,0:17:29.75,0:17:30.59,Dialogue,,0,0,0,,Scout?
+Dialogue: 0,0:17:30.57,0:17:33.03,Dialogue,Sign,0,0,0,,TMS Agency\NKurokawa Youji\NManager\NTokyo Prefecture\NBeika City 1st District\NBlock 16\NNo. 20
+Dialogue: 0,0:17:30.57,0:17:33.03,Dialogue,Sign,0,0,0,,TMS Agency\NSeino Chiharu\NManager\NTokyo Prefecture\NBeika City 1st District\NBlock 16\NNo. 20
+Dialogue: 0,0:17:31.05,0:17:33.03,Dialogue,,0,0,0,,So you guys aren't with the Mafia?
+Dialogue: 0,0:17:33.51,0:17:34.70,Dialogue,,0,0,0,,Mafia?
+Dialogue: 0,0:17:34.72,0:17:38.89,Dialogue,,0,0,0,,I see, you mistook those two as part of the Mafia?
+Dialogue: 0,0:17:39.33,0:17:41.39,Dialogue,,0,0,0,,That's just a huge misunderstanding!
+Dialogue: 0,0:17:42.62,0:17:44.25,Dialogue,,0,0,0,,I'm sorry...
+Dialogue: 0,0:17:44.27,0:17:46.64,Dialogue,,0,0,0,,It's just you guys were following them...
+Dialogue: 0,0:17:46.64,0:17:49.73,Dialogue,,0,0,0,,And you said something like you're getting those two at once.
+Dialogue: 0,0:17:49.73,0:17:50.90,Dialogue,,0,0,0,,Geez.
+Dialogue: 0,0:17:50.90,0:17:57.61,Dialogue,,0,0,0,,We were informed that there's a elementary schoolgirl nearby who looks just like the American child star Grace Aihara.
+Dialogue: 0,0:17:57.61,0:17:58.86,Dialogue,,0,0,0,,We've been tracking her down since.
+Dialogue: 0,0:17:59.64,0:18:01.10,Dialogue,,0,0,0,,Grace Aihara!
+Dialogue: 0,0:18:01.10,0:18:01.81,Dialogue,,0,0,0,,What?
+Dialogue: 0,0:18:02.35,0:18:03.33,Dialogue,,0,0,0,,Nothing...
+Dialogue: 0,0:18:03.33,0:18:05.75,Dialogue,,0,0,0,,After a month's work, we finally found you.
+Dialogue: 0,0:18:06.08,0:18:09.42,Dialogue,,0,0,0,,And, just as we thought we'd arrange for a chat today...
+Dialogue: 0,0:18:09.42,0:18:13.46,Dialogue,,0,0,0,,We saw you and your friend coming out, all dressed up and with make-up on too!
+Dialogue: 0,0:18:13.46,0:18:16.72,Dialogue,,0,0,0,,That's when we decided to get you both for our scouting.
+Dialogue: 0,0:18:17.34,0:18:21.09,Dialogue,,0,0,0,,So was that what you meant by "getting those two at once"?
+Dialogue: 0,0:18:21.10,0:18:23.62,Dialogue,,0,0,0,,What else did you think we meant by that?
+Dialogue: 0,0:18:23.62,0:18:26.60,Dialogue,,0,0,0,,And, if I'm dealing with a little girl like her...
+Dialogue: 0,0:18:26.60,0:18:30.69,Dialogue,,0,0,0,,I figured it'd be best if I had a young\Nwoman along rather than just myself.
+Dialogue: 0,0:18:30.69,0:18:32.56,Dialogue,,0,0,0,,That's why I called her in for backup.
+Dialogue: 0,0:18:32.94,0:18:34.82,Dialogue,,0,0,0,,That sums up what happened.
+Dialogue: 0,0:18:34.82,0:18:38.45,Dialogue,,0,0,0,,Now that we've cleared our misunderstanding, can you listen to what we have to say?
+Dialogue: 0,0:18:38.45,0:18:42.24,Dialogue,,0,0,0,,I think if you guys were to team up and become a princess unit, you'd sell big!
+Dialogue: 0,0:18:42.91,0:18:44.95,Dialogue,,0,0,0,,Princess unit?
+Dialogue: 0,0:18:44.95,0:18:46.04,Dialogue,,0,0,0,,I refuse your offer.
+Dialogue: 0,0:18:47.29,0:18:49.29,Dialogue,,0,0,0,,I don't care what went wrong.
+Dialogue: 0,0:18:49.29,0:18:55.17,Dialogue,,0,0,0,,But I have no intention whatsoever of cooperating\Nwith a man who would hit a child's head with a wallet.
+Dialogue: 0,0:18:55.17,0:18:56.30,Dialogue,,0,0,0,,Same for her.
+Dialogue: 0,0:18:59.88,0:19:01.84,Dialogue,,0,0,0,,What a waste of time.
+Dialogue: 0,0:19:01.84,0:19:03.72,Dialogue,,0,0,0,,Bunch of stinky brats!
+Dialogue: 0,0:19:03.72,0:19:04.54,Dialogue,,0,0,0,,Let's go!
+Dialogue: 0,0:19:05.42,0:19:07.25,Dialogue,,0,0,0,,Wait for me!
+Dialogue: 0,0:19:07.96,0:19:09.42,Dialogue,,0,0,0,,Hey, well said!
+Dialogue: 0,0:19:10.06,0:19:15.65,Dialogue,,0,0,0,,Just like you said, it'd do you no good to go to a company that's willing to employ such ill-mannered staff.
+Dialogue: 0,0:19:15.65,0:19:16.90,Dialogue,,0,0,0,,Good thing you refused.
+Dialogue: 0,0:19:17.65,0:19:21.36,Dialogue,,0,0,0,,And, you guys who stood up to them in order to protect your friends...
+Dialogue: 0,0:19:21.36,0:19:22.60,Dialogue,,0,0,0,,Were splendid as well!
+Dialogue: 0,0:19:22.60,0:19:23.43,Dialogue,,0,0,0,,Nah...
+Dialogue: 0,0:19:25.24,0:19:29.04,Dialogue,,0,0,0,,But, you're too young for make-up, little princesses.
+Dialogue: 0,0:19:29.04,0:19:29.75,Dialogue,,0,0,0,,Yeah...
+Dialogue: 0,0:19:30.96,0:19:34.42,Dialogue,,0,0,0,,It seems those two weren't related to the organization after all.
+Dialogue: 0,0:19:34.42,0:19:37.21,Dialogue,,0,0,0,,Then, the pressure I felt at the beginning...
+Dialogue: 0,0:19:37.21,0:19:39.16,Dialogue,,0,0,0,,Was it just my imagination?
+Dialogue: 0,0:19:40.84,0:19:42.20,Dialogue,,0,0,0,,I see.
+Dialogue: 0,0:19:42.22,0:19:44.14,Dialogue,,0,0,0,,So that's why you followed us.
+Dialogue: 0,0:19:44.64,0:19:45.71,Dialogue,,0,0,0,,You're right!
+Dialogue: 0,0:19:45.72,0:19:47.10,Dialogue,,0,0,0,,She looks just like Ai{\rHonorifics - Dialogue}-chan{\r}!
+Dialogue: 0,0:19:47.47,0:19:48.96,Dialogue,,0,0,0,,I know, right?
+Dialogue: 0,0:19:48.97,0:19:51.43,Dialogue,,0,0,0,,That's why I thought she was indeed Haibara{\rHonorifics - Dialogue}-san{\r}.
+Dialogue: 0,0:19:51.44,0:19:57.86,Dialogue,,0,0,0,,But your theory concluding Ai{\rHonorifics - Dialogue}-chan{\r} is a spy, was being chased by the Mafia, and hid herself in the Professor's house...
+Dialogue: 0,0:19:57.86,0:20:00.19,Dialogue,,0,0,0,,That was really clever of you, Mitsuhiko{\rHonorifics - Dialogue}-kun{\r}!
+Dialogue: 0,0:20:00.19,0:20:03.07,Dialogue,,0,0,0,,Well, some of it wasn't exactly wrong.
+Dialogue: 0,0:20:04.74,0:20:06.89,Dialogue,,0,0,0,,Nah, don't worry about it.
+Dialogue: 0,0:20:07.41,0:20:09.35,Dialogue,,0,0,0,,But if that's the case...
+Dialogue: 0,0:20:09.37,0:20:14.79,Dialogue,,0,0,0,,Why did Conan{\rHonorifics - Dialogue}-kun{\r} tell me not to let\NHaibara{\rHonorifics - Dialogue}-san{\r} go near the Professor's house?
+Dialogue: 0,0:20:14.79,0:20:18.46,Dialogue,,0,0,0,,Come to think of it, when we were\Nnear the Professor's house earlier...
+Dialogue: 0,0:20:18.46,0:20:20.30,Dialogue,,0,0,0,,I saw someone going through the gate.
+Dialogue: 0,0:20:21.80,0:20:24.97,Dialogue,,0,0,0,,It was that Okiya guy living next door.
+Dialogue: 0,0:20:26.68,0:20:28.81,Dialogue,,0,0,0,,While the Professor and I are absent...
+Dialogue: 0,0:20:28.81,0:20:30.50,Dialogue,,0,0,0,,What on earth is that person up to?
+Dialogue: 0,0:20:31.68,0:20:33.23,Dialogue,,0,0,0,,Ai{\rHonorifics - Dialogue}-chan{\r}!
+Dialogue: 0,0:20:45.49,0:20:46.82,Dialogue,,0,0,0,,What's wrong, Ai{\rHonorifics - Dialogue}-chan{\r}?
+Dialogue: 0,0:20:47.24,0:20:49.31,Dialogue,,0,0,0,,Running away all of a sudden!
+Dialogue: 0,0:20:49.31,0:20:51.70,Dialogue,,0,0,0,,Huh, what's in that cardboard box?
+Dialogue: 0,0:20:52.41,0:20:54.87,Dialogue,,0,0,0,,What are you planning to abscond with...
+Dialogue: 0,0:20:54.87,0:20:57.17,Dialogue,,0,0,0,,From a house that's currently vacant?
+Dialogue: 0,0:20:57.42,0:20:59.17,Dialogue,,0,0,0,,Oh, no.
+Dialogue: 0,0:20:59.17,0:21:00.59,Dialogue,,0,0,0,,It's a package delivery.
+Dialogue: 0,0:21:01.26,0:21:02.21,Dialogue,,0,0,0,,Package delivery?
+Dialogue: 0,0:21:02.92,0:21:08.18,Dialogue,,0,0,0,,The Professor asked me to get the package that's scheduled to arrive today for him.
+Dialogue: 0,0:21:09.01,0:21:11.39,Dialogue,,0,0,0,,I'm counting on you then, Subaru{\rHonorifics - Dialogue}-kun{\r}.
+Dialogue: 0,0:21:11.39,0:21:14.23,Dialogue,,0,0,0,,Yes, understood.
+Dialogue: 0,0:21:14.69,0:21:18.34,Dialogue,,0,0,0,,That's why I've been checking the\NProfessor's house from time to time.
+Dialogue: 0,0:21:18.34,0:21:20.44,Dialogue,,0,0,0,,And that's when Genta{\rHonorifics - Dialogue}-kun{\r} saw you!
+Dialogue: 0,0:21:20.76,0:21:23.28,Dialogue,,0,0,0,,But again, how come Conan{\rHonorifics - Dialogue}-kun{\r}...
+Dialogue: 0,0:21:23.28,0:21:27.32,Dialogue,,0,0,0,,Told me not to let Haibara{\rHonorifics - Dialogue}-san{\r} go near this house?
+Dialogue: 0,0:21:27.32,0:21:31.24,Dialogue,,0,0,0,,If a package delivery is scheduled,\Nwhy not just ask Haibara{\rHonorifics - Dialogue}-san{\r} to get it?
+Dialogue: 0,0:21:32.44,0:21:33.91,Dialogue,,0,0,0,,Let me see the receipt.
+Dialogue: 0,0:21:37.82,0:21:39.78,Dialogue,Sign,0,0,0,,Delivery Receipt\NDeliver to\NAddress Tokyo Prefecture, Beika City, 2nd District, Block 22\NName Agasa Hiroshi\NNote\NReturn to sender if recipient is absent. Do not redirect. Fragile.\NCustomer Service: 0120-867-5309 Mon-Fri 9:00 AM-7:00 PM
+Dialogue: 0,0:21:40.50,0:21:41.78,Dialogue,,0,0,0,,Don't tell me...
+Dialogue: 0,0:21:42.92,0:21:44.46,Dialogue,,0,0,0,,Is it all right to open it?
+Dialogue: 0,0:21:46.72,0:21:47.59,Dialogue,,0,0,0,,As I thought.
+Dialogue: 0,0:21:48.09,0:21:49.83,Dialogue,,0,0,0,,Peanut butter?
+Dialogue: 0,0:21:49.85,0:21:51.62,Dialogue,,0,0,0,,Blueberry jam?
+Dialogue: 0,0:21:56.00,0:21:59.46,Dialogue,Sign,0,0,0,,Items\NPeanut Butter (3)\NBlueberry Jam (3)\NThank you for your continued patronage.\NPoints earned from this order: 50P\NTotal: 650P\NYou may redeem 650P on your next purchase.
+Dialogue: 0,0:21:56.48,0:21:58.31,Dialogue,,0,0,0,,"Your continued patronage"?
+Dialogue: 0,0:21:58.31,0:21:59.48,Dialogue,,0,0,0,,"Continued"?
+Dialogue: 0,0:22:00.48,0:22:02.19,Dialogue,,0,0,0,,Could it be that the Professor...
+Dialogue: 0,0:22:02.19,0:22:04.78,Dialogue,,0,0,0,,Keeps buying these when Ai{\rHonorifics - Dialogue}-chan{\r}'s not looking?
+Dialogue: 0,0:22:04.78,0:22:07.45,Dialogue,,0,0,0,,Pro...fess...or...
+Dialogue: 0,0:22:07.45,0:22:11.12,Dialogue,,0,0,0,,The Professor went to the UK without\Nremembering a package was coming for him.
+Dialogue: 0,0:22:11.12,0:22:14.23,Dialogue,,0,0,0,,Then, was that the reason they called Mitsuhiko?
+Dialogue: 0,0:22:14.23,0:22:19.04,Dialogue,,0,0,0,,But, the way Conan{\rHonorifics - Dialogue}-kun{\r} panicked didn't feel like it was anything ordinary.
+Dialogue: 0,0:22:19.04,0:22:23.04,Dialogue,,0,0,0,,You need to use a credit card when using in-flight payphones...
+Dialogue: 0,0:22:23.05,0:22:25.32,Dialogue,,0,0,0,,And the charge is pretty expensive.
+Dialogue: 0,0:22:25.32,0:22:26.99,Dialogue,,0,0,0,,That's why he was in a hurry.
+Dialogue: 0,0:22:26.99,0:22:28.62,Dialogue,,0,0,0,,I see...
+Dialogue: 0,0:22:31.05,0:22:32.35,Dialogue,,0,0,0,,Here's an idea.
+Dialogue: 0,0:22:32.35,0:22:34.39,Dialogue,,0,0,0,,Why don't we enjoy this together?
+Dialogue: 0,0:22:35.88,0:22:36.96,Dialogue,,0,0,0,,Is that OK?
+Dialogue: 0,0:22:37.35,0:22:43.02,Dialogue,,0,0,0,,After all, the Professor's being so kind as to order these just for {\i1}me{\i0}!
+Dialogue: 0,0:22:43.02,0:22:45.05,Dialogue,,0,0,0,,No, didn't the Professor...
+Dialogue: 0,0:22:45.05,0:22:47.30,Dialogue,,0,0,0,,Want to splurge on these...?
+Dialogue: 0,0:22:47.30,0:22:49.01,Dialogue,,0,0,0,,Ai{\rHonorifics - Dialogue}-chan{\r}, you're kind of scary...
+Dialogue: 0,0:22:49.01,0:22:51.74,Dialogue,,0,0,0,,Peanut butter and blueberry jam...
+Dialogue: 0,0:22:52.37,0:22:54.66,Dialogue,,0,0,0,,They go with sandwiches very well.
+Dialogue: 0,0:22:54.66,0:23:00.75,Dialogue,,0,0,0,,That's right, earlier I bought some bread at the bakery in front of the station that's famous for its tastiness.
+Dialogue: 0,0:23:00.75,0:23:02.92,Dialogue,,0,0,0,,Shall we make sandwiches with them?
+Dialogue: 0,0:23:04.53,0:23:07.41,Dialogue,,0,0,0,,Don't tell me, the pressure I felt at that time...
+Dialogue: 0,0:23:07.84,0:23:10.58,Dialogue,,0,0,0,,Was coming from this person at the bakery?
+Dialogue: 0,0:23:13.60,0:23:15.50,Dialogue,,0,0,0,,I want some sandwiches now!
+Dialogue: 0,0:23:15.50,0:23:17.17,Dialogue,,0,0,0,,I'd love some too!
+Dialogue: 0,0:23:17.17,0:23:18.73,Dialogue,,0,0,0,,Me too!
+Dialogue: 0,0:23:18.73,0:23:20.59,Dialogue,,0,0,0,,All right, follow me.
+Dialogue: 0,0:23:20.60,0:23:22.17,Dialogue,,0,0,0,,I have great hot chocolate too.
+Dialogue: 0,0:23:22.17,0:23:24.02,Dialogue,,0,0,0,,Ai{\rHonorifics - Dialogue}-chan{\r}, let's go!
+Dialogue: 0,0:23:42.36,0:23:43.03,Dialogue Top,,0,0,0,,Sandwiches!
+Dialogue: 0,0:23:42.98,0:23:43.78,Dialogue,,0,0,0,,Yes.
+Dialogue: 0,0:23:43.03,0:23:44.19,Dialogue Top,,0,0,0,,Awesome!
+Dialogue: 0,0:23:44.19,0:23:45.70,Dialogue Top,,0,0,0,,Working on my appetite!
+Dialogue: 0,0:23:44.21,0:23:46.59,Dialogue,,0,0,0,,Oh, Professor Agasa.
+Dialogue: 0,0:23:45.70,0:23:47.03,Dialogue Top,,0,0,0,,I can't wait!
+Dialogue: 0,0:23:47.05,0:23:49.76,Dialogue,,0,0,0,,Yes, I received the package, but...
+Dialogue: 0,0:23:50.26,0:23:51.34,Dialogue,,0,0,0,,I'll take over.
+Dialogue: 0,0:23:54.33,0:23:55.47,Dialogue,,0,0,0,,Professor...
+Dialogue: 0,0:23:55.47,0:23:59.46,Dialogue,,0,0,0,,Thank you {\i1}so much{\i0} for the peanut butter and blueberry jam!
+Dialogue: 0,0:23:59.46,0:24:00.63,Dialogue,,0,0,0,,Ai{\rHonorifics - Dialogue}-kun{\r}!?
+Dialogue: 0,0:24:00.64,0:24:06.40,Dialogue,,0,0,0,,You must've wanted me to enjoy some peanut butter and jelly sandwiches—my favorite.
+Dialogue: 0,0:24:06.40,0:24:08.78,Dialogue,,0,0,0,,That must be why you ordered them behind my back.
+Dialogue: 0,0:24:09.19,0:24:13.03,Dialogue,,0,0,0,,But you didn't realize they'd be delivered today until after you already got on the plane...
+Dialogue: 0,0:24:13.03,0:24:15.60,Dialogue,,0,0,0,,So you placed an in-flight call in a hurry, right?
+Dialogue: 0,0:24:15.60,0:24:17.10,Dialogue,,0,0,0,,That's right...
+Dialogue: 0,0:24:17.10,0:24:20.62,Dialogue,,0,0,0,,I only wanted to surprise you and make you happy, Ai{\rHonorifics - Dialogue}-kun{\r}...
+Dialogue: 0,0:24:20.62,0:24:25.83,Dialogue,,0,0,0,,It's not like I'd secretly order those to enjoy all by myself without you knowing...
+Dialogue: 0,0:24:25.83,0:24:28.67,Dialogue,,0,0,0,,No, no, this is definitely not an excuse...
+Dialogue: 0,0:24:28.67,0:24:29.91,Dialogue,,0,0,0,,You're so busted.
+Dialogue: 0,0:24:30.63,0:24:32.34,Dialogue,,0,0,0,,Thank you, Professor.
+Dialogue: 0,0:24:32.34,0:24:35.08,Dialogue,,0,0,0,,Since I feel like it, I'll invite everyone to dig in!
+Dialogue: 0,0:24:35.09,0:24:37.08,Dialogue,,0,0,0,,Thank you for your treat, Professor!
+Dialogue: 0,0:24:37.08,0:24:39.10,Dialogue,,0,0,0,,I'm gonna eat a bellyful!
+Dialogue: 0,0:24:39.10,0:24:41.08,Dialogue,,0,0,0,,I'll bring some home for mama and papa!
+Dialogue: 0,0:24:42.43,0:24:45.38,Dialogue,,0,0,0,,That's right, can I talk to Edogawa{\rHonorifics - Dialogue}-kun{\r}?
+Dialogue: 0,0:24:47.40,0:24:49.32,Dialogue,,0,0,0,,She wants to talk to Edogawa{\rHonorifics - Dialogue}-kun{\r}.
+Dialogue: 0,0:24:52.28,0:24:53.44,Dialogue,,0,0,0,,Hello?
+Dialogue: 0,0:24:53.45,0:24:58.45,Dialogue,,0,0,0,,Edogawa{\rHonorifics - Dialogue}-kun{\r}, I'd also like to thank you for calling Tsuburaya{\rHonorifics - Dialogue}-kun{\r} about this.
+Dialogue: 0,0:24:58.45,0:25:01.54,Dialogue,,0,0,0,,You've got quite a personality, you know.
+Dialogue: 0,0:25:01.54,0:25:03.91,Dialogue,,0,0,0,,And you have a nice trip too, buddy!
+Dialogue: 0,0:25:05.53,0:25:06.61,Dialogue,,0,0,0,,Geez!
+Dialogue: 0,0:25:12.51,0:25:15.26,Dialogue,,0,0,0,,If Haibara{\rHonorifics - Dialogue}-san{\r} and I can get married...
+Dialogue: 0,0:25:15.26,0:25:20.75,Dialogue,,0,0,0,,I'll be able to enjoy a {\i1}sweet{\i0} life where Haibara{\rHonorifics - Dialogue}-san{\r} makes me sandwiches like this everyday!
+Dialogue: 0,0:25:21.83,0:25:23.38,Dialogue,,0,0,0,,Here, enjoy.
+Dialogue: 0,0:25:23.38,0:25:24.96,Dialogue,,0,0,0,,Let's dig in!
+Dialogue: 0,0:25:27.69,0:25:29.05,Dialogue,,0,0,0,,This is so tasty!
+Dialogue: 0,0:25:29.05,0:25:30.13,Dialogue,,0,0,0,,Delicious!
+Dialogue: 0,0:25:31.82,0:25:33.15,Dialogue,,0,0,0,,{\i1}Too{\i0} sweet...
+Dialogue: 0,0:25:43.91,0:25:46.33,Dialogue,,0,0,0,,I don't get to play my role at all...
+Dialogue: 0,0:25:46.33,0:25:48.53,Dialogue,,0,0,0,,Is that even fair?
+Dialogue: 0,0:25:48.94,0:25:50.24,Dialogue,,0,0,0,,That's even fairer.
+Dialogue: 0,0:25:50.24,0:25:51.07,Dialogue,,0,0,0,,Yeah, right.
