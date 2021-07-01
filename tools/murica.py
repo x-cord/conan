@@ -165,13 +165,6 @@ mappings = {
 'aedile':'edile',
 'aediles':'ediles',
 'aedility':'edility',
-'Aegean':'Aegean',
-'aeger':'eger',
-'aegilops':'egilops',
-'aegis':'egis',
-'aeglogue':'eglogue',
-'aegophony':'egophony',
-'aegritude':'egritude',
 'aemule':'emule',
 'aemuled':'emuled',
 'aemules':'emules',
@@ -2365,18 +2358,6 @@ mappings = {
 'caenogenetically':'cenogenetically',
 'caenozoic':'cenozoic',
 'caerule':'cerule',
-'caesar':'cesar',
-'caesarean':'cesarean',
-'caesarean\'s':'cesarean\'s',
-'caesareans':'cesareans',
-'Caesaria':'Cesaria',
-'Caesaria\'s':'Cesaria\'s',
-'caesarian':'cesarean',
-'caesarian\'s':'cesarean\'s',
-'caesarians':'cesareans',
-'Caesarise':'Caesarize',
-'Caesarise\'s':'Caesarize\'s',
-'Caesarises':'Caesarizes',
 'caesious':'cesious',
 'caesium':'cesium',
 'caesium\'s':'cesium\'s',
@@ -7411,9 +7392,6 @@ mappings = {
 'glamorizes':'glamourizes',
 'glamorizing':'glamourizing',
 'glamorless':'glamourless',
-'glamorous':'glamourous',
-'glamorousness':'glamourousness',
-'glamorousness\'s':'glamourousness\'s',
 'glauconitisation':'glauconitization',
 'glauconitisations':'glauconitizations',
 'glazkovoff':'glazkovov',
@@ -8578,14 +8556,9 @@ mappings = {
 'hookeys':'hookies',
 'hooliganise':'hooliganize',
 'hooliganises':'hooliganizes',
-'hoorah':'hurrah',
-'hoorah\'s':'hurrah\'s',
-'hoorahs':'hurrahs',
-'hooray':'hurrah',
-'hooray\'s':'hurrah\'s',
-'hoorayed':'hurrahed',
-'hooraying':'hurrahing',
-'hoorays':'hurrahs',
+'hoorah':'hurray',
+'hoorah\'s':'hurray\'s',
+'hoorahs':'hurrays',
 'Hoosierise':'Hoosierize',
 'Hoosierise\'s':'Hoosierize\'s',
 'Hoosierises':'Hoosierizes',
@@ -8673,16 +8646,20 @@ mappings = {
 'humoursome':'humorsome',
 'humoursomeness':'humorsomeness',
 'humungous':'humongous',
-'humus':'hummus',
 'hure':'huer',
 'hurrah':'hooray',
 'hurrahes':'hurrahs',
 'hurray':'hooray',
-'hurray':'hurrah',
-'hurray\'s':'hurrah\'s',
-'hurrayed':'hurrahed',
-'hurraying':'hurrahing',
-'hurrays':'hurrahs',
+'hurrah':'hooray',
+'hurrah\'s':'hurray\'s',
+'hurrahed':'hoorayed',
+'hurrahing':'hooraying',
+'hurrahs':'hoorays',
+'hurray':'hooray',
+'hurray\'s':'hooray\'s',
+'hurrayed':'hoorayed',
+'hurraying':'hooraying',
+'hurrays':'hoorays',
 'hurricanise':'hurricanize',
 'hurricanises':'hurricanizes',
 'hutzpa':'chutzpah',
@@ -10904,17 +10881,14 @@ mappings = {
 'magnetising':'magnetizing',
 'magomedovoff':'magomedovov',
 'magomedovov':'magomedovov',
-'mahjong':'mah-jong',
-'mahjongs':'mah-jongs',
+'mah-jong':'mahjong',
+'mah-jongs':'mahjongs',
 'maharaja':'maharajah',
 'maharaja\'s':'maharajah\'s',
 'maharajas':'maharajahes',
 'maharanee':'maharani',
 'maharanee\'s':'maharani\'s',
 'maharanees':'maharanis',
-'mahjong':'mahjong',
-'mahjong\'s':'mahjong\'s',
-'mahjongs':'mahjongs',
 'mahoganise':'mahoganize',
 'mahoganised':'mahoganized',
 'mahoganises':'mahoganizes',
@@ -22414,10 +22388,16 @@ for folder in next(os.walk("../subs"))[1]:
                     txt = parts[9].split(" ")
                     txt2 = parts[9].split(" ")
                     for i, word in enumerate(txt2):
+                        up = False
+                        if word == word.upper():
+                            up = True
+                            word = word.lower()
                         if word.lower() in mappings:
                             txt[i] = word[0] + mappings[word.lower()][1:]
-                        elif word[-1] in [".", ",", "!", "?"] and word[:-1].lower() in mappings:
-                            txt[i] = word[0] + mappings[word.lower()][1:] + word[-1]
+                        elif len(word) > 1 and word[-1] in [".", ",", "!", "?", ":", ";"] and word[:-1].lower() in mappings:
+                            txt[i] = word[0] + mappings[word[:-1].lower()][1:] + word[-1]
+                        if up:
+                            word = word.upper()
                     txt = " ".join(txt)
                     parts[9] = txt
                     parts[9] = parts[9].strip()
