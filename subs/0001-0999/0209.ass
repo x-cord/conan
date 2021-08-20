@@ -1,6 +1,6 @@
 [Script Info]
 Title: Detective Conan - 0209
-TL Source: AZFS
+TL Source: Baaro
 ScriptType: v4.00+
 WrapStyle: 3
 PlayResX: 1440
@@ -36,349 +36,413 @@ Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:19.06,0:00:23.07,Narration Off,,0,0,0,,{\be10}With a strong heart and mind, a rhythm that has meaning.
-Dialogue: 0,0:00:23.07,0:00:26.71,Narration Off,,0,0,0,,{\be10}Drive safely in the mountains or encounter\Nan accident at the bottom!
-Dialogue: 0,0:00:26.91,0:00:28.41,Narration Off,,0,0,0,,{\be10}Seeing the one and only truth...
-Dialogue: 0,0:00:28.54,0:00:30.18,Narration Off,,0,0,0,,{\be10}A kid with the intellect of an adult...
-Dialogue: 0,0:00:30.38,0:00:32.61,Narration Off,,0,0,0,,{\be10}His name is... Detective Conan!
-Dialogue: 0,0:01:40.28,0:01:43.85,Character Card,Sign,0,0,0,,Nishitama District, Mt. Ryuujin
-Dialogue: 0,0:01:44.28,0:01:47.85,Signs,Note,0,0,0,,Note: Tsuzuraori means winding.
-Dialogue: 0,0:01:44.28,0:01:47.85,Character Card,Sign,0,0,0,,Tsuzuraori Pass
-Dialogue: 0,0:01:48.65,0:01:53.69,Dialogue,,0,0,0,,Wow, beautiful! This is the best ever!
-Dialogue: 0,0:01:54.09,0:01:59.00,Dialogue,,0,0,0,,We've only just begun. We're barely halfway to the top.
-Dialogue: 0,0:01:59.00,0:02:01.40,Dialogue,,0,0,0,,Aww, you're not serious.
-Dialogue: 0,0:02:01.80,0:02:02.87,Dialogue,,0,0,0,,Are you all right?
-Dialogue: 0,0:02:03.90,0:02:09.51,Dialogue,,0,0,0,,Well, we keep turning back and forth,\Nback and forth. I'm getting dizzy.
-Dialogue: 0,0:02:09.57,0:02:12.01,Dialogue,,0,0,0,,You're hopeless.
-Dialogue: 0,0:02:13.51,0:02:20.32,Dialogue,,0,0,0,,In any case, this is the famous Tsuzuraori Pass. It has 99 turns.
-Dialogue: 0,0:02:21.99,0:02:24.86,Dialogue,,0,0,0,,Just hearing about it makes me feel worse.
-Dialogue: 0,0:02:25.06,0:02:27.79,Dialogue,,0,0,0,,Hmm? Where's Mitsuhiko{\rHonorifics - Dialogue}-kun{\r}?
-Dialogue: 0,0:02:28.89,0:02:32.33,Dialogue,,0,0,0,,Mitsuhiko's in the car reading a book.
-Dialogue: 0,0:02:32.33,0:02:33.50,Dialogue,,0,0,0,,Really?
-Dialogue: 0,0:02:34.33,0:02:38.40,Dialogue,,0,0,0,,Mitsuhiko{\rHonorifics - Dialogue}-kun{\r}! Come on out. It's much nicer out here!
-Dialogue: 0,0:02:38.44,0:02:41.94,Dialogue,,0,0,0,,Not interested. I'm fine in here.
-Dialogue: 0,0:02:44.01,0:02:47.45,Dialogue,,0,0,0,,Come to think of it, Professor, why didn't Haibara{\rHonorifics - Dialogue}-san{\r} come?
-Dialogue: 0,0:02:47.68,0:02:52.78,Dialogue,,0,0,0,,Ah, Ai{\rHonorifics - Dialogue}-kun{\r} had to meet with somebody important today.
-Dialogue: 0,0:02:54.92,0:02:58.42,Dialogue,,0,0,0,,Professor, I'm sure she said something like:
-Dialogue: 0,0:02:58.42,0:03:04.13,Dialogue,,0,0,0,,"I don't like to visit the countryside because it's full of bugs."
-Dialogue: 0,0:03:04.33,0:03:06.93,Dialogue,,0,0,0,,Ha ha, Genta{\rHonorifics - Dialogue}-kun{\r}, you sound just like her!
-Dialogue: 0,0:03:06.93,0:03:08.93,Thoughts,,0,0,0,,{\be10}Yeah, right on the mark.
-Dialogue: 0,0:03:11.34,0:03:11.80,Dialogue,,0,0,0,,What's that?
-Dialogue: 0,0:03:19.74,0:03:20.81,Dialogue,,0,0,0,,This is terrible!
-Dialogue: 0,0:03:20.85,0:03:22.58,Dialogue,,0,0,0,,Professor, call the police and an ambulance!
-Dialogue: 0,0:03:22.58,0:03:23.08,Dialogue,,0,0,0,,Alright!
-Dialogue: 0,0:03:33.99,0:03:39.90,Title,Sign,0,0,0,,The Falling from Mt. Ryuujin Case
-Dialogue: 0,0:03:42.37,0:03:49.94,Dialogue,,0,0,0,,So, you were enjoying the scenery along the Tsuzuraori\NPass when the car fell over the edge. Is that about right?
-Dialogue: 0,0:03:50.21,0:03:50.84,Dialogue,,0,0,0,,Yeah.
-Dialogue: 0,0:03:51.24,0:03:55.98,Dialogue,,0,0,0,,Hmm? Dents in the trunk? That would mean...
-Dialogue: 0,0:03:56.48,0:04:01.99,Dialogue,,0,0,0,,I'd like to ask you once more. Did you see\Nany suspicious vehicles or persons?
-Dialogue: 0,0:04:02.25,0:04:04.42,Dialogue,,0,0,0,,No, I didn't happen to see anyone suspicious.
-Dialogue: 0,0:04:04.99,0:04:06.36,Dialogue,,0,0,0,,Is that so?
-Dialogue: 0,0:04:07.23,0:04:08.19,Thoughts,,0,0,0,,{\be10}Of course.
-Dialogue: 0,0:04:09.43,0:04:10.70,Dialogue,,0,0,0,,Hey, Mr. Policeman.
-Dialogue: 0,0:04:11.03,0:04:13.16,Dialogue,,0,0,0,,Hmm? What's up, kid?
-Dialogue: 0,0:04:13.70,0:04:17.00,Dialogue,,0,0,0,,Can I go see what the policemen up there are doing?
-Dialogue: 0,0:04:17.27,0:04:19.70,Dialogue,,0,0,0,,I don't think so! This is not something children should see.
-Dialogue: 0,0:04:20.04,0:04:23.91,Dialogue,,0,0,0,,No, we're just about done. It doesn't matter.
-Dialogue: 0,0:04:24.31,0:04:25.34,Dialogue,,0,0,0,,Yeah, but...
-Dialogue: 0,0:04:26.21,0:04:27.08,Dialogue,,0,0,0,,On one condition, kid:
-Dialogue: 0,0:04:27.51,0:04:31.12,Dialogue,,0,0,0,,You mustn't interfere with the officers' work.
-Dialogue: 0,0:04:31.58,0:04:32.75,Dialogue,,0,0,0,,Okay!
-Dialogue: 0,0:04:37.49,0:04:41.19,Dialogue,,0,0,0,,Hey, Mitsuhiko, shouldn't we go with him?
-Dialogue: 0,0:04:41.33,0:04:41.59,Dialogue,,0,0,0,,Huh?
-Dialogue: 0,0:04:42.26,0:04:45.23,Dialogue,,0,0,0,,Conan's going off by himself again.
-Dialogue: 0,0:04:45.93,0:04:49.03,Dialogue,,0,0,0,,Yeah, it doesn't matter. Let him go off by himself.
-Dialogue: 0,0:04:49.60,0:04:52.54,Dialogue,,0,0,0,,We have something better to do.
-Dialogue: 0,0:04:53.00,0:04:54.51,Dialogue,,0,0,0,,Something better than following Conan?
-Dialogue: 0,0:05:02.78,0:05:03.98,Dialogue,,0,0,0,,Ready when you are.
-Dialogue: 0,0:05:04.05,0:05:04.95,Dialogue,,0,0,0,,Alright!
-Dialogue: 0,0:05:05.55,0:05:08.42,Dialogue,,0,0,0,,Uhh... 16.33 meters.
-Dialogue: 0,0:05:09.32,0:05:11.26,Dialogue,,0,0,0,,16.33
-Dialogue: 0,0:05:11.39,0:05:11.96,Dialogue,,0,0,0,,Over here!
-Dialogue: 0,0:05:13.06,0:05:14.03,Dialogue,,0,0,0,,It's a paint chip.
-Dialogue: 0,0:05:14.66,0:05:15.33,Dialogue,,0,0,0,,Are you sure?
-Dialogue: 0,0:05:18.96,0:05:21.00,Dialogue,,0,0,0,,Look, it's dark blue.
-Dialogue: 0,0:05:21.47,0:05:22.47,Dialogue,,0,0,0,,Dark blue?
-Dialogue: 0,0:05:22.87,0:05:24.14,Dialogue,,0,0,0,,D-Does that mean...
-Dialogue: 0,0:05:24.47,0:05:25.17,Dialogue,,0,0,0,,Yeah.
-Dialogue: 0,0:05:26.04,0:05:28.67,Thoughts,,0,0,0,,{\be10}Hmm... so that's how it is.
-Dialogue: 0,0:05:31.38,0:05:37.02,Dialogue,,0,0,0,,Even though we were gonna have a picnic, we\Nwitnessed that unfortunate accident instead.
-Dialogue: 0,0:05:37.25,0:05:38.42,Dialogue,,0,0,0,,That was no accident.
-Dialogue: 0,0:05:39.02,0:05:39.42,Dialogue,,0,0,0,,Huh?
-Dialogue: 0,0:05:40.42,0:05:41.99,Dialogue,,0,0,0,,It wasn't an accident?
-Dialogue: 0,0:05:42.69,0:05:47.59,Dialogue,,0,0,0,,Professor, the police asked you if you\Nsaw any other cars, didn't they?
-Dialogue: 0,0:05:47.76,0:05:48.33,Dialogue,,0,0,0,,Yeah.
-Dialogue: 0,0:05:49.19,0:05:53.70,Dialogue,,0,0,0,,That car was rammed over the edge by another car.
-Dialogue: 0,0:05:54.23,0:05:55.20,Dialogue,,0,0,0,,What do you mean?
-Dialogue: 0,0:05:55.33,0:06:04.38,Dialogue,,0,0,0,,There was a large dent in the trunk, meaning it was hit from behind.
-Dialogue: 0,0:06:05.38,0:06:09.61,Dialogue,,0,0,0,,Moreover, the police found paint chips\Nfrom another car near the skid marks.
-Dialogue: 0,0:06:09.95,0:06:12.75,Dialogue,,0,0,0,,So this was a murder then?
-Dialogue: 0,0:06:13.02,0:06:13.45,Dialogue,,0,0,0,,Yeah.
-Dialogue: 0,0:06:14.55,0:06:16.82,Dialogue,,0,0,0,,Do you think we should help the police?
-Dialogue: 0,0:06:17.69,0:06:20.93,Dialogue,,0,0,0,,They'll be fine. They have more than enough evidence.
-Dialogue: 0,0:06:21.33,0:06:25.13,Dialogue,,0,0,0,,But all they have right now are paint chips and skid marks...
-Dialogue: 0,0:06:25.93,0:06:29.00,Dialogue,,0,0,0,,The Japanese Police excel in the basics of criminal investigation.
-Dialogue: 0,0:06:29.00,0:06:34.01,Dialogue,,0,0,0,,If they analyze the paint chip, they will\Nknow the make and model of the car.
-Dialogue: 0,0:06:34.24,0:06:37.88,Dialogue,,0,0,0,,From there, they can find the car's serial\Nnumber and arrest the culprit.
-Dialogue: 0,0:06:38.51,0:06:40.08,Dialogue,,0,0,0,,I see now!
-Dialogue: 0,0:06:42.51,0:06:45.82,Dialogue,,0,0,0,,Mitsuhiko, what was so important?
-Dialogue: 0,0:06:45.82,0:06:49.02,Dialogue,,0,0,0,,Keep quiet or Conan will hear you.
-Dialogue: 0,0:06:54.06,0:06:55.73,Dialogue,,0,0,0,,This is it, Genta{\rHonorifics - Dialogue}-kun{\r}.
-Dialogue: 0,0:06:56.06,0:06:58.60,Dialogue,,0,0,0,,Huh, what is this?
-Dialogue: 0,0:06:59.13,0:07:00.30,Dialogue,,0,0,0,,It's a code.
-Dialogue: 0,0:07:00.30,0:07:01.20,Dialogue,,0,0,0,,A code?
-Dialogue: 0,0:07:01.20,0:07:02.00,Dialogue,,0,0,0,,Shh!
-Dialogue: 0,0:07:04.87,0:07:08.27,Dialogue,,0,0,0,,I found it near the car that flew off the edge earlier.
-Dialogue: 0,0:07:08.74,0:07:12.78,Dialogue,,0,0,0,,Shouldn't you have given it to the police?
-Dialogue: 0,0:07:13.14,0:07:18.95,Dialogue,,0,0,0,,The accident earlier was just that —\han\Naccident. I don't think it's related.
-Dialogue: 0,0:07:19.82,0:07:25.09,Dialogue,,0,0,0,,Right. Coded notes are usually connected to hidden treasure.
-Dialogue: 0,0:07:25.32,0:07:26.32,Dialogue,,0,0,0,,Yeah, yeah.
-Dialogue: 0,0:07:27.33,0:07:28.99,Dialogue,,0,0,0,,Hidden treasure...
-Dialogue: 0,0:07:29.49,0:07:36.50,Dialogue,,0,0,0,,Look at this. It looks like the first part is\Na subtraction problem: 100 minus 1.
-Dialogue: 0,0:07:37.07,0:07:39.57,Dialogue,,0,0,0,,Alright, Genta{\rHonorifics - Dialogue}-kun{\r}, what's 100 minus 1?
-Dialogue: 0,0:07:39.57,0:07:44.11,Dialogue,,0,0,0,,Huh? N-Nine, n-nine... ninety-nine.
-Dialogue: 0,0:07:44.81,0:07:45.68,Dialogue,,0,0,0,,Yep, that's correct.
-Dialogue: 0,0:07:47.68,0:07:51.75,Dialogue,,0,0,0,,So, Genta{\rHonorifics - Dialogue}-kun{\r}, what does 99 make you think of?
-Dialogue: 0,0:07:52.88,0:07:55.29,Dialogue,,0,0,0,,99... 99...
-Dialogue: 0,0:07:55.75,0:07:57.29,Dialogue,,0,0,0,,9... 9...
-Dialogue: 0,0:07:57.29,0:07:58.92,Dialogue,,0,0,0,,Ah! An ambulance!
-Dialogue: 0,0:07:59.02,0:08:00.39,Dialogue,,0,0,0,,Wroooong!
-Dialogue: 0,0:08:01.86,0:08:05.96,Dialogue,,0,0,0,,Good grief. How does an ambulance relate to 99 here?
-Dialogue: 0,0:08:06.50,0:08:08.47,Dialogue,,0,0,0,,How about a band-aid...
-Dialogue: 0,0:08:08.53,0:08:09.57,Dialogue,,0,0,0,,I got it!
-Dialogue: 0,0:08:10.40,0:08:16.37,Dialogue,,0,0,0,,It's Tsuzuraori Pass. Didn't the professor\Ntell us this road has 99 sharp turns?
-Dialogue: 0,0:08:16.61,0:08:19.84,Dialogue,,0,0,0,,Exactly! This coded note...
-Dialogue: 0,0:08:20.25,0:08:23.85,Dialogue,,0,0,0,,should lead to a secret place along Tsuzuraori Pass.
-Dialogue: 0,0:08:24.05,0:08:26.45,Dialogue,,0,0,0,,Do you know where it is, Mitsuhiko?
-Dialogue: 0,0:08:27.02,0:08:31.02,Dialogue,,0,0,0,,No, not yet. But I feel like I've seen this code somewhere before.
-Dialogue: 0,0:08:31.52,0:08:33.46,Dialogue,,0,0,0,,Where'd you see it, Mitsuhiko{\rHonorifics - Dialogue}-kun{\r}?
-Dialogue: 0,0:08:35.46,0:08:36.53,Dialogue,,0,0,0,,Hey, guys!
-Dialogue: 0,0:08:38.20,0:08:40.60,Dialogue,,0,0,0,,What have you been whispering about back there?
-Dialogue: 0,0:08:40.83,0:08:42.33,Dialogue,,0,0,0,,Nothing, nothing!
-Dialogue: 0,0:08:42.40,0:08:44.00,Dialogue,,0,0,0,,Yeah, yeah, we don't have a code or anything.
-Dialogue: 0,0:08:45.17,0:08:45.77,Dialogue,,0,0,0,,A code?
-Dialogue: 0,0:08:45.94,0:08:51.01,Dialogue,,0,0,0,,No, well, uh... he's referring to the codes\Nfrom the book I was reading earlier.
-Dialogue: 0,0:08:51.01,0:08:54.01,Dialogue,,0,0,0,,I'm sure they would be too simple for you, Conan{\rHonorifics - Dialogue}-kun{\r}—
-Dialogue: 0,0:08:55.31,0:08:57.78,Thoughts,,0,0,0,,{\be10}Oh, little kid stuff...
-Dialogue: 0,0:09:01.52,0:09:02.55,Dialogue,,0,0,0,,I've got it.
-Dialogue: 0,0:09:07.86,0:09:12.86,Dialogue,,0,0,0,,The professor and I are going fishing,\Nso you guys go gather some firewood.
-Dialogue: 0,0:09:12.93,0:09:14.13,Dialogue,,0,0,0,,Okay!
-Dialogue: 0,0:09:14.80,0:09:15.23,Dialogue,,0,0,0,,Later.
-Dialogue: 0,0:09:18.24,0:09:18.97,Dialogue,,0,0,0,,See you later!
-Dialogue: 0,0:09:20.44,0:09:22.71,Dialogue,,0,0,0,,Mitsuhiko, did you really decipher the code?
-Dialogue: 0,0:09:23.44,0:09:25.41,Dialogue,,0,0,0,,It was in the book I'm reading.
-Dialogue: 0,0:09:25.81,0:09:26.61,Dialogue,,0,0,0,,Really?
-Dialogue: 0,0:09:27.21,0:09:27.98,Dialogue,,0,0,0,,This is it.
-Dialogue: 0,0:09:29.25,0:09:30.28,Dialogue,,0,0,0,,What is this?
-Dialogue: 0,0:09:31.02,0:09:32.58,Dialogue,,0,0,0,,A computer keyboard?
-Dialogue: 0,0:09:32.92,0:09:33.65,Dialogue,,0,0,0,,That's right.
-Dialogue: 0,0:09:34.19,0:09:40.46,Dialogue,,0,0,0,,The numbers are in order from left to right and top to\Nbottom in combination with the hiragana characters.
-Dialogue: 0,0:09:40.86,0:09:45.43,Dialogue,,0,0,0,,For example, 14 is "ta," 27 is "to," and so on.
-Dialogue: 0,0:09:46.20,0:09:47.03,Dialogue,,0,0,0,,We did it!
-Dialogue: 0,0:09:47.23,0:09:48.43,Dialogue,,0,0,0,,Let's try to decipher it.
-Dialogue: 0,0:09:49.27,0:09:52.27,Dialogue,,0,0,0,,Genta{\rHonorifics - Dialogue}-kun{\r}, read the code's numbers please.
-Dialogue: 0,0:09:52.87,0:09:57.41,Dialogue,,0,0,0,,Let's see... 04, 23, 38.
-Dialogue: 0,0:09:57.74,0:10:03.11,Dialogue,,0,0,0,,04 is "u." 23 is "se." 38 is "tsu."
-Dialogue: 0,0:10:04.15,0:10:04.98,Dialogue,,0,0,0,,Right turn!
-Dialogue: 0,0:10:06.12,0:10:09.29,Dialogue,,0,0,0,,But what does this mark mean?
-Dialogue: 0,0:10:11.52,0:10:14.49,Dialogue,,0,0,0,,Hey, maybe it's the shape of the road.
-Dialogue: 0,0:10:15.03,0:10:17.20,Dialogue,,0,0,0,,I see! That has to be it!
-Dialogue: 0,0:10:17.43,0:10:21.30,Dialogue,,0,0,0,,That means the first line reads, "Turn right at the crossroads."
-Dialogue: 0,0:10:22.27,0:10:23.60,Dialogue,,0,0,0,,Mitsuhiko{\rHonorifics - Dialogue}-kun{\r}, you're amazing!
-Dialogue: 0,0:10:24.87,0:10:25.60,Dialogue,,0,0,0,,Let's continue.
-Dialogue: 0,0:10:25.84,0:10:27.07,Dialogue,,0,0,0,,I'll write it down!
-Dialogue: 0,0:10:34.45,0:10:35.68,Dialogue,,0,0,0,,This is so boring...
-Dialogue: 0,0:10:37.95,0:10:38.75,Dialogue,,0,0,0,,We've done it!
-Dialogue: 0,0:10:39.32,0:10:43.22,Dialogue,,0,0,0,,Okay, read it aloud and I'll follow it on the map.
-Dialogue: 0,0:10:43.42,0:10:49.83,Dialogue,,0,0,0,,Okay. Turn right at the crossroads after Tsuzuraori Pass.
-Dialogue: 0,0:10:49.83,0:10:54.37,Dialogue,,0,0,0,,Turn right again, then turn left and go over two bridges.
-Dialogue: 0,0:10:54.37,0:10:56.13,Dialogue,,0,0,0,,Then turn right, and you're there.
-Dialogue: 0,0:10:57.37,0:10:59.17,Dialogue,,0,0,0,,I've got it. It's right here!
-Dialogue: 0,0:11:00.04,0:11:03.68,Dialogue,,0,0,0,,And we're right here... It's really close by!
-Dialogue: 0,0:11:04.28,0:11:05.44,Dialogue,,0,0,0,,Let's go!
-Dialogue: 0,0:11:06.01,0:11:07.68,Dialogue,,0,0,0,,Maybe we'll find treasure!
-Dialogue: 0,0:11:07.91,0:11:10.18,Dialogue,,0,0,0,,Conan{\rHonorifics - Dialogue}-kun{\r} will be so jealous!
-Dialogue: 0,0:11:18.62,0:11:19.79,Dialogue,,0,0,0,,We're back.
-Dialogue: 0,0:11:21.89,0:11:24.43,Dialogue,,0,0,0,,Hey! You kids upstairs?
-Dialogue: 0,0:11:25.16,0:11:26.66,Dialogue,,0,0,0,,Where are you hiding?
-Dialogue: 0,0:11:27.10,0:11:27.90,Dialogue,,0,0,0,,Hey!
-Dialogue: 0,0:11:28.10,0:11:29.90,Thoughts,,0,0,0,,{\be10}Hm? What's this?
-Dialogue: 0,0:11:33.07,0:11:37.44,Dialogue,,0,0,0,,Hey! This is bad! The kids aren't here!
-Dialogue: 0,0:11:37.54,0:11:38.44,Dialogue,,0,0,0,,What?!
-Dialogue: 0,0:11:46.82,0:11:48.32,Dialogue,,0,0,0,,Hey, Mitsuhiko.
-Dialogue: 0,0:11:50.29,0:11:51.86,Dialogue,,0,0,0,,Are we there yet?
-Dialogue: 0,0:11:52.99,0:11:56.09,Dialogue,,0,0,0,,It's only a little farther. Hang in there, Genta{\rHonorifics - Dialogue}-kun{\r}!
-Dialogue: 0,0:11:57.63,0:12:00.53,Dialogue,,0,0,0,,We're crossing the second bridge now.
-Dialogue: 0,0:12:01.10,0:12:03.50,Dialogue,,0,0,0,,We just have to take the next right and we'll be there.
-Dialogue: 0,0:12:05.00,0:12:07.04,Dialogue,,0,0,0,,Aw, we still have that far to go?
-Dialogue: 0,0:12:07.04,0:12:08.47,Dialogue,,0,0,0,,Come on, Genta{\rHonorifics - Dialogue}-kun{\r}!
-Dialogue: 0,0:12:09.04,0:12:11.04,Dialogue,,0,0,0,,If we find treasure, you can eat a mountain of eel!
-Dialogue: 0,0:12:12.18,0:12:17.65,Dialogue,,0,0,0,,A mountain of eel? Alright! After we find the\Ntreasure, I'm gonna eat eel 'til I burst!
-Dialogue: 0,0:12:17.85,0:12:21.32,Dialogue,,0,0,0,,Let's go, Mitsuhiko! I'm gonna eat all the eel in world!
-Dialogue: 0,0:12:21.32,0:12:23.02,Dialogue,,0,0,0,,Alright! That's the spirit!
-Dialogue: 0,0:12:26.26,0:12:28.29,Dialogue,,0,0,0,,Damn it! They're in danger.
-Dialogue: 0,0:12:29.19,0:12:31.10,Dialogue,,0,0,0,,Huh? Did you figure something out?
-Dialogue: 0,0:12:31.50,0:12:33.60,Dialogue,,0,0,0,,Professor, call the police right away!
-Dialogue: 0,0:12:33.83,0:12:34.30,Dialogue,,0,0,0,,What?
-Dialogue: 0,0:12:35.07,0:12:38.74,Dialogue,,0,0,0,,They're headed to the hideout of the criminal\Nwho caused the car accident earlier.
-Dialogue: 0,0:12:38.84,0:12:40.10,Dialogue,,0,0,0,,What did you say?!
-Dialogue: 0,0:12:41.04,0:12:45.54,Thoughts,,0,0,0,,{\be10}This must be the code they were talking about in the car earlier.
-Dialogue: 0,0:12:45.54,0:12:46.34,Thoughts,,0,0,0,,{\be10}Shit!
-Dialogue: 0,0:12:57.46,0:12:59.62,Dialogue,,0,0,0,,We did it! We've arrived, Genta{\rHonorifics - Dialogue}-kun{\r}!
-Dialogue: 0,0:12:59.92,0:13:00.79,Dialogue,,0,0,0,,It's right there.
-Dialogue: 0,0:13:05.80,0:13:09.47,Dialogue,,0,0,0,,Hey, Mitsuhiko, is this really the place?
-Dialogue: 0,0:13:09.77,0:13:12.64,Dialogue,,0,0,0,,This doesn't feel like a place with treasure, does it?
-Dialogue: 0,0:13:13.64,0:13:18.34,Dialogue,,0,0,0,,What are you guys saying? We followed the directions\Ncorrectly. This has to be the place!
-Dialogue: 0,0:13:18.81,0:13:23.25,Dialogue,,0,0,0,,And besides, treasure is usually hidden\Nin these sorts of unexpected places!
-Dialogue: 0,0:13:24.05,0:13:25.98,Dialogue,,0,0,0,,Alright! Let's go!
-Dialogue: 0,0:13:33.49,0:13:36.23,Dialogue,,0,0,0,,Yes. Thank you very much.
-Dialogue: 0,0:13:37.80,0:13:40.80,Dialogue,,0,0,0,,It seems like the police are busy, but will hurry there soon.
-Dialogue: 0,0:13:41.20,0:13:42.80,Dialogue,,0,0,0,,In that case, let's hurry as well.
-Dialogue: 0,0:13:43.00,0:13:43.90,Dialogue,,0,0,0,,Alright!
-Dialogue: 0,0:13:45.47,0:13:47.10,Dialogue,,0,0,0,,It doesn't seem like anyone's here.
-Dialogue: 0,0:13:48.07,0:13:52.04,Dialogue,,0,0,0,,Hey, Mitsuhiko, where's the treasure?
-Dialogue: 0,0:13:52.48,0:13:53.54,Dialogue,,0,0,0,,Hmm...
-Dialogue: 0,0:13:57.45,0:14:00.52,Dialogue,,0,0,0,,Ah! The biggest building!
-Dialogue: 0,0:14:02.32,0:14:06.72,Dialogue,,0,0,0,,Take a look at it. Only that building has a lock.
-Dialogue: 0,0:14:07.46,0:14:08.43,Dialogue,,0,0,0,,The treasure must be in there!
-Dialogue: 0,0:14:08.63,0:14:09.19,Dialogue,,0,0,0,,Yeah!
-Dialogue: 0,0:14:09.73,0:14:10.83,Dialogue,,0,0,0,,Let's go!
-Dialogue: 0,0:14:19.77,0:14:21.74,Dialogue,,0,0,0,,Th-This is...
-Dialogue: 0,0:14:21.74,0:14:22.67,Dialogue,,0,0,0,,Wow!
-Dialogue: 0,0:14:27.78,0:14:30.01,Dialogue,,0,0,0,,Look at all these expensive cars.
-Dialogue: 0,0:14:30.95,0:14:35.92,Dialogue,,0,0,0,,But you know, Mitsuhiko, I don't see treasure anywhere.
-Dialogue: 0,0:14:36.19,0:14:39.16,Dialogue,,0,0,0,,Yeah... this is odd.
-Dialogue: 0,0:14:39.16,0:14:40.56,Dialogue,,0,0,0,,Hey, guys.
-Dialogue: 0,0:14:41.79,0:14:43.63,Dialogue,,0,0,0,,There's something strange about this car.
-Dialogue: 0,0:14:44.03,0:14:47.43,Dialogue,,0,0,0,,Look, it doesn't have a license plate.
-Dialogue: 0,0:14:47.90,0:14:48.80,Dialogue,,0,0,0,,You're right.
-Dialogue: 0,0:14:50.07,0:14:51.20,Dialogue,,0,0,0,,Hey, Mitsuhiko!
-Dialogue: 0,0:14:51.70,0:14:53.44,Dialogue,,0,0,0,,That car doesn't have one either!
-Dialogue: 0,0:14:54.67,0:14:57.71,Dialogue,,0,0,0,,Maybe these cars were stolen.
-Dialogue: 0,0:14:58.04,0:14:58.68,Dialogue,,0,0,0,,What?!
-Dialogue: 0,0:14:59.14,0:15:01.58,Dialogue,,0,0,0,,They probably intend to sell them overseas.
-Dialogue: 0,0:15:03.01,0:15:06.82,Dialogue,,0,0,0,,That means we're in a criminal's hideout.
-Dialogue: 0,0:15:06.82,0:15:08.12,Dialogue,,0,0,0,,Indeed you are.
-Dialogue: 0,0:15:16.96,0:15:19.90,Dialogue,,0,0,0,,So you're the brats who saw the accident.
-Dialogue: 0,0:15:22.83,0:15:24.34,Dialogue,,0,0,0,,Well, that's good.
-Dialogue: 0,0:15:25.37,0:15:28.31,Dialogue,,0,0,0,,Where's the old guy with the mustache and the other brat?
-Dialogue: 0,0:15:28.91,0:15:30.11,Dialogue,,0,0,0,,Who are you talking about?
-Dialogue: 0,0:15:31.24,0:15:32.11,Dialogue,,0,0,0,,Don't mess with me!
-Dialogue: 0,0:15:34.78,0:15:35.95,Dialogue,,0,0,0,,What was that sound just now?
-Dialogue: 0,0:15:36.85,0:15:37.62,Dialogue,,0,0,0,,A gun shot.
-Dialogue: 0,0:15:37.88,0:15:38.45,Dialogue,,0,0,0,,What?
-Dialogue: 0,0:15:39.05,0:15:40.62,Dialogue,,0,0,0,,Professor, hurry up!
-Dialogue: 0,0:15:40.82,0:15:41.79,Dialogue,,0,0,0,,I'm going!
-Dialogue: 0,0:15:48.63,0:15:53.26,Dialogue,,0,0,0,,I'll ask once more: Where's the old guy\Nwith the mustache and the other brat?
-Dialogue: 0,0:15:54.80,0:15:56.67,Dialogue,,0,0,0,,We don't know who you're talking about.
-Dialogue: 0,0:15:56.97,0:15:57.84,Dialogue,,0,0,0,,What?
-Dialogue: 0,0:15:58.37,0:15:59.87,Dialogue,,0,0,0,,Hey, Mitsuhiko...
-Dialogue: 0,0:16:00.07,0:16:01.44,Dialogue,,0,0,0,,Mitsuhiko{\rHonorifics - Dialogue}-kun{\r}...
-Dialogue: 0,0:16:01.71,0:16:04.88,Dialogue,,0,0,0,,We can't! This is our problem.
-Dialogue: 0,0:16:04.88,0:16:07.01,Dialogue,,0,0,0,,We can't tell him about the professor and Conan{\rHonorifics - Dialogue}-kun{\r}.
-Dialogue: 0,0:16:08.51,0:16:09.48,Dialogue,,0,0,0,,You're right...
-Dialogue: 0,0:16:09.65,0:16:10.18,Dialogue,,0,0,0,,Yeah.
-Dialogue: 0,0:16:10.98,0:16:14.29,Dialogue,,0,0,0,,Oh? Seems like you want to die then.
-Dialogue: 0,0:16:23.43,0:16:27.47,Dialogue,,0,0,0,,Yeah, it's me. Sorry, but at the moment I can only supply 5 cars.
-Dialogue: 0,0:16:27.50,0:16:31.54,Dialogue,,0,0,0,,Yeah, if that's the case, it should be fine.
-Dialogue: 0,0:16:32.10,0:16:38.34,Dialogue,,0,0,0,,No, he escaped, but I caught him and rammed his car over a cliff.
-Dialogue: 0,0:16:39.98,0:16:41.48,Dialogue,,0,0,0,,Hey, I'm not gonna mess this up.
-Dialogue: 0,0:16:42.28,0:16:44.25,Dialogue,,0,0,0,,Once I fix my car and take care of a few things,
-Dialogue: 0,0:16:45.12,0:16:47.92,Dialogue,,0,0,0,,there'll be no evidence left.
-Dialogue: 0,0:16:52.19,0:16:52.89,Dialogue,,0,0,0,,That's...
-Dialogue: 0,0:16:53.39,0:16:53.69,Dialogue,,0,0,0,,Huh?
-Dialogue: 0,0:17:00.60,0:17:01.70,Dialogue,,0,0,0,,What the hell are you doing?!
-Dialogue: 0,0:17:02.00,0:17:06.07,Dialogue,,0,0,0,,How dare you! Why are you pointing a gun at these kids?
-Dialogue: 0,0:17:06.34,0:17:07.67,Dialogue,,0,0,0,,Professor!
-Dialogue: 0,0:17:08.54,0:17:10.01,Dialogue,,0,0,0,,Ah, you're the old man.
-Dialogue: 0,0:17:10.21,0:17:12.88,Dialogue,,0,0,0,,That's perfect. Now I don't have to look for you.
-Dialogue: 0,0:17:12.88,0:17:14.28,Dialogue,,0,0,0,,It's useless, mister.
-Dialogue: 0,0:17:14.85,0:17:16.55,Dialogue,,0,0,0,,You hear that, don't you?
-Dialogue: 0,0:17:17.65,0:17:19.25,Dialogue,,0,0,0,,The sound of patrol car sirens.
-Dialogue: 0,0:17:19.52,0:17:20.02,Dialogue,,0,0,0,,What?
-Dialogue: 0,0:17:20.99,0:17:23.05,Dialogue,,0,0,0,,The patrol cars are coming here...
-Dialogue: 0,0:17:24.39,0:17:26.59,Dialogue,,0,0,0,,to arrest you, of course.
-Dialogue: 0,0:17:27.06,0:17:27.76,Dialogue,,0,0,0,,What?
-Dialogue: 0,0:17:31.86,0:17:33.10,Dialogue,,0,0,0,,We're saved!
-Dialogue: 0,0:17:34.87,0:17:37.10,Dialogue,,0,0,0,,Hey, hey, policemen, why are you here?
-Dialogue: 0,0:17:37.74,0:17:40.17,Dialogue,,0,0,0,,I haven't done anything wrong.
-Dialogue: 0,0:17:40.67,0:17:43.97,Dialogue,,0,0,0,,Before we have a conversation, I'd\Nlike you to hand over your weapon.
-Dialogue: 0,0:17:44.11,0:17:52.58,Dialogue,,0,0,0,,You mean this gun? I was only trying\Nto scare these trespassing kids.
-Dialogue: 0,0:17:52.95,0:17:54.09,Dialogue,,0,0,0,,Is that so?
-Dialogue: 0,0:17:55.29,0:17:57.56,Dialogue,,0,0,0,,By the way, is that car over there yours?
-Dialogue: 0,0:17:58.19,0:18:00.52,Dialogue,,0,0,0,,Uhh, yeah. Is something wrong with it?
-Dialogue: 0,0:18:00.99,0:18:06.00,Dialogue,,0,0,0,,Ah, well, there was a traffic collision on Tsuzuraori\NPass today involving a car similar to this one.
-Dialogue: 0,0:18:06.83,0:18:11.34,Dialogue,,0,0,0,,And it seems like it was rammed over\Nthe edge by a car just like yours.
-Dialogue: 0,0:18:12.20,0:18:15.87,Dialogue,,0,0,0,,And judging from appearances, your\Ncar seems to have been hit recently.
-Dialogue: 0,0:18:16.24,0:18:19.01,Dialogue,,0,0,0,,What? You think I caused the accident?
-Dialogue: 0,0:18:19.71,0:18:21.88,Dialogue,,0,0,0,,There are tons of other people with the same car.
-Dialogue: 0,0:18:22.55,0:18:26.18,Dialogue,,0,0,0,,Of those people, how many do you think were\Nnear the scene of the collision this morning?
-Dialogue: 0,0:18:27.62,0:18:29.05,Dialogue,,0,0,0,,Where were {\i1}you{\i0} this morning?
-Dialogue: 0,0:18:30.72,0:18:33.86,Dialogue,,0,0,0,,I'm sorry. It was a complete accident.
-Dialogue: 0,0:18:34.26,0:18:40.56,Dialogue,,0,0,0,,The scenery was so beautiful that I got distracted\Nfor a moment and then, wham!
-Dialogue: 0,0:18:41.00,0:18:42.03,Dialogue,,0,0,0,,He's lying, Officer!
-Dialogue: 0,0:18:42.43,0:18:44.20,Dialogue,,0,0,0,,Shut up! No one asked you, brat!
-Dialogue: 0,0:18:44.47,0:18:49.61,Dialogue,,0,0,0,,I heard him tell someone on the phone\Nthat he rammed the car over the cliff!
-Dialogue: 0,0:18:49.91,0:18:51.01,Dialogue,,0,0,0,,I heard it too!
-Dialogue: 0,0:18:51.54,0:18:52.34,Dialogue,,0,0,0,,Me too!
-Dialogue: 0,0:18:53.14,0:18:57.65,Dialogue,,0,0,0,,Hey, Officer, can you really trust what the brats are saying?
-Dialogue: 0,0:18:58.32,0:19:02.75,Dialogue,,0,0,0,,First of all, is it even possible to have done\Nsuch a thing on that sharp of a—
-Dialogue: 0,0:19:02.82,0:19:06.99,Dialogue,,0,0,0,,It is, and you did it flawlessly.
-Dialogue: 0,0:19:07.76,0:19:09.73,Dialogue,,0,0,0,,Stop talking shit, you old fart!
-Dialogue: 0,0:19:10.03,0:19:11.60,Dialogue,,0,0,0,,What's your proof?
-Dialogue: 0,0:19:11.83,0:19:13.60,Dialogue,,0,0,0,,Of course I have proof.
-Dialogue: 0,0:19:13.90,0:19:23.41,Dialogue,,0,0,0,,At the scene of the accident, there are two sets\Nof skid marks belonging to the cars involved.
-Dialogue: 0,0:19:23.41,0:19:26.91,Dialogue,,0,0,0,,In other words, you hit the other car twice.
-Dialogue: 0,0:19:27.71,0:19:31.72,Dialogue,,0,0,0,,I was distracted, so maybe I bumped him twice.
-Dialogue: 0,0:19:32.82,0:19:35.82,Dialogue,,0,0,0,,Well, that is possible, but...
-Dialogue: 0,0:19:36.89,0:19:41.56,Dialogue,,0,0,0,,Were the lengths of the two skid marks measured?
-Dialogue: 0,0:19:42.19,0:19:44.93,Dialogue,,0,0,0,,Yes, both were 16.33 meters long.
-Dialogue: 0,0:19:45.80,0:19:50.77,Dialogue,,0,0,0,,Tell me, sir. About how fast were you driving?
-Dialogue: 0,0:19:52.47,0:19:54.64,Signs,Note,0,0,0,,Note: About 20 mph.
-Dialogue: 0,0:19:52.47,0:19:54.64,Dialogue,,0,0,0,,I think about 30 km/h.
-Dialogue: 0,0:19:54.97,0:20:05.02,Dialogue,,0,0,0,,Well, if that's true, your car was moving\Nat about 8.3 meters per second.
-Dialogue: 0,0:20:05.68,0:20:12.72,Dialogue,,0,0,0,,In other words, it would take about 2 seconds\Nto travel 16.33 meters at that speed.
-Dialogue: 0,0:20:13.49,0:20:23.20,Dialogue,,0,0,0,,You had the chance to hit your brakes\Nand avoid a second hit, but you didn't.
-Dialogue: 0,0:20:24.17,0:20:26.37,Dialogue,,0,0,0,,I'm certain you hit the second time intentionally.
-Dialogue: 0,0:20:28.27,0:20:33.81,Dialogue,,0,0,0,,Now, if you don't mind, you need to come with\Nus to the station for further questioning.
-Dialogue: 0,0:20:34.21,0:20:34.68,Dialogue,,0,0,0,,Shit.
-Dialogue: 0,0:20:35.55,0:20:37.01,Dialogue,,0,0,0,,Um, Officer.
-Dialogue: 0,0:20:37.28,0:20:37.85,Dialogue,,0,0,0,,Hmm?
-Dialogue: 0,0:20:38.25,0:20:42.02,Dialogue,,0,0,0,,There are a lot of expensive cars without\Nlicense plates in the biggest building.
-Dialogue: 0,0:20:42.95,0:20:44.62,Dialogue,,0,0,0,,I'm sure they're all stolen.
-Dialogue: 0,0:20:45.96,0:20:48.33,Dialogue,,0,0,0,,Excellent investigative work, kids!
-Dialogue: 0,0:20:50.33,0:20:54.10,Dialogue,,0,0,0,,But never do something this dangerous again!
-Dialogue: 0,0:20:54.50,0:20:56.57,Dialogue,,0,0,0,,Yes, sir...
-Dialogue: 0,0:22:33.10,0:22:36.10,Dialogue,,0,0,0,,Damn, chopping wood is not my thing.
-Dialogue: 0,0:22:38.17,0:22:39.27,Dialogue,,0,0,0,,Shit, shit!
-Dialogue: 0,0:22:40.04,0:22:42.64,Dialogue,,0,0,0,,Hey, we need more firewood!
-Dialogue: 0,0:22:43.04,0:22:47.14,Dialogue,,0,0,0,,Come on, Conan{\rHonorifics - Dialogue}-kun{\r}, give us a hand!
-Dialogue: 0,0:22:47.71,0:22:54.75,Dialogue,,0,0,0,,No way! It's your punishment for wandering\Noff instead of gathering firewood.
-Dialogue: 0,0:22:55.62,0:22:57.82,Dialogue,,0,0,0,,Yeah, yeah, you're right.
-Dialogue: 0,0:22:58.02,0:22:59.12,Dialogue,,0,0,0,,I am every time!
-Dialogue: 0,0:22:59.66,0:22:59.99,Dialogue,,0,0,0,,Yes!
-Dialogue: 0,0:23:00.92,0:23:04.63,Dialogue,,0,0,0,,I hope they learned their lesson and stop getting into trouble.
-Dialogue: 0,0:23:06.70,0:23:09.00,Dialogue,,0,0,0,,But it sure is disappointing.
-Dialogue: 0,0:23:09.27,0:23:10.23,Dialogue,,0,0,0,,What is?
-Dialogue: 0,0:23:10.77,0:23:14.87,Dialogue,,0,0,0,,Sneaky Conan{\rHonorifics - Dialogue}-kun{\r} solved the code so easily.
-Dialogue: 0,0:23:15.04,0:23:17.01,Dialogue,,0,0,0,,Mitsuhiko{\rHonorifics - Dialogue}-kun{\r}, you were really awesome too!
-Dialogue: 0,0:23:17.44,0:23:20.81,Dialogue,,0,0,0,,You not only solved the code, you also found the criminal's hideout.
-Dialogue: 0,0:23:21.21,0:23:25.02,Dialogue,,0,0,0,,I figured it out because the same trick was used in my book.
-Dialogue: 0,0:23:25.35,0:23:29.05,Dialogue,,0,0,0,,That's amazing. Maybe I should read too.
-Dialogue: 0,0:23:29.42,0:23:35.86,Dialogue,,0,0,0,,Oh yeah! I have the perfect book for\Nyou: {\i1}A Child's Lunch Murder Mystery{\i0}!
-Dialogue: 0,0:23:35.86,0:23:36.79,Dialogue,,0,0,0,,What a funny title!
-Dialogue: 0,0:23:36.79,0:23:40.46,Dialogue,,0,0,0,,The tragedy is not getting to eat barbecued eel.
-Dialogue: 0,0:23:41.50,0:23:44.00,Thoughts,,0,0,0,,{\be10}They haven't learned a thing.
-Dialogue: 0,0:23:46.17,0:23:47.81,Dialogue,,0,0,0,,How nice and bitter!
-Dialogue: 0,0:23:48.07,0:23:50.11,Dialogue,,0,0,0,,This is indeed what you call\Nthe world of 'Wabi Sabi'!
-Dialogue: 0,0:23:50.58,0:23:51.51,Thoughts,,0,0,0,,{\be10}Huh?
-Dialogue: 0,0:23:51.51,0:23:54.31,Thoughts,,0,0,0,,{\be10}I wonder what's up?\NWhy is she looking around like that?
-Dialogue: 0,0:23:55.02,0:23:58.05,Dialogue,,0,0,0,,Are you saying that the master\Nis afraid of a monster?
-Dialogue: 0,0:23:59.05,0:24:01.25,Dialogue,,0,0,0,,I wonder if there really is such\Na thing as a monster?
-Dialogue: 0,0:24:01.55,0:24:04.39,Dialogue,,0,0,0,,D-Don't be ridiculous!\NNo way should such a thing exists!
-Dialogue: 0,0:24:07.43,0:24:09.40,Dialogue,,0,0,0,,R-Ryozo has...
-Dialogue: 0,0:24:09.90,0:24:15.53,Signs,,0,0,0,,THE LEGEND OF THE 5 COLORED WATER PALACE\N(Part 1)
-Dialogue: 0,0:24:16.18,0:24:18.74,Dialogue,,0,0,0,,Next Conan's Hint!
-Dialogue: 0,0:24:18.74,0:24:20.54,Dialogue,,0,0,0,,Hanging scroll
-Dialogue: 0,0:24:20.60,0:24:22.50,Dialogue Top,,0,0,0,,Next time is an anime original!
-Dialogue: 0,0:24:22.50,0:24:24.21,Dialogue Top,,0,0,0,,I don't know how many times I've seen it.
+Dialogue: 0,0:00:19.15,0:00:21.16,Narration Off,,0,0,0,,{\be10}A strong heart and the power of deduction!
+Dialogue: 0,0:00:21.16,0:00:23.16,Narration Off,,0,0,0,,{\be10}A sharp rhythm gets to the root of its true nature.
+Dialogue: 0,0:00:23.16,0:00:24.95,Narration Off,,0,0,0,,{\be10}Today, a mountain road! Drive slowly!
+Dialogue: 0,0:00:24.95,0:00:26.95,Narration Off,,0,0,0,,{\be10}At the bottom of the valley is the scent of a case!
+Dialogue: 0,0:00:26.95,0:00:28.51,Narration Off,,0,0,0,,{\be10}He sees the single truth for what it is,
+Dialogue: 0,0:00:28.51,0:00:30.43,Narration Off,,0,0,0,,{\be10}and looks like a kid but has the mind of an adult!
+Dialogue: 0,0:00:30.43,0:00:32.62,Narration Off,,0,0,0,,{\be10}His name? Detective Conan!
+Dialogue: 0,0:01:40.00,0:01:43.94,Character Card,,0,0,0,,Nishitama-gun, Mt. Ryujin
+Dialogue: 0,0:01:43.94,0:01:47.90,Character Card,,0,0,0,,Tsuzura Ori Pass\N("99 Bends")
+Dialogue: 0,0:01:48.53,0:01:50.63,Dialogue,,0,0,0,,Wow, amazing!
+Dialogue: 0,0:01:51.32,0:01:53.82,Dialogue,,0,0,0,,We've come so far up.
+Dialogue: 0,0:01:53.82,0:01:56.12,Dialogue,,0,0,0,,We've still got a long way to go.
+Dialogue: 0,0:01:56.12,0:01:58.87,Dialogue,,0,0,0,,We've only come about halfway.
+Dialogue: 0,0:01:58.87,0:02:01.54,Dialogue,,0,0,0,,Bleh. You can't be serious!
+Dialogue: 0,0:02:01.83,0:02:03.50,Dialogue,,0,0,0,,What's up?
+Dialogue: 0,0:02:03.50,0:02:05.04,Dialogue,,0,0,0,,Oh, man...
+Dialogue: 0,0:02:05.04,0:02:09.07,Dialogue,,0,0,0,,With all those hard right and left turns, I got dizzy...
+Dialogue: 0,0:02:09.76,0:02:12.09,Dialogue,,0,0,0,,Come on, what a sissy.
+Dialogue: 0,0:02:13.51,0:02:16.28,Dialogue,,0,0,0,,This place called Tsuzura Ori Pass
+Dialogue: 0,0:02:16.81,0:02:20.77,Dialogue,,0,0,0,,has a total of 99 curves, big and small.
+Dialogue: 0,0:02:22.10,0:02:24.73,Dialogue,,0,0,0,,Ugh! I feel sick to my stomach just listening to you...
+Dialogue: 0,0:02:25.90,0:02:28.15,Dialogue,,0,0,0,,Huh? Where's Mitsuhiko{\rHonorifics - Dialogue}-kun{\r}?
+Dialogue: 0,0:02:28.90,0:02:32.24,Dialogue,,0,0,0,,Mitsuhiko's reading a book in the car.
+Dialogue: 0,0:02:34.20,0:02:35.72,Dialogue,,0,0,0,,Mitsuhiko{\rHonorifics - Dialogue}-kun{\r}!
+Dialogue: 0,0:02:36.08,0:02:38.45,Dialogue,,0,0,0,,It's really nice out here!
+Dialogue: 0,0:02:38.45,0:02:41.85,Dialogue,,0,0,0,,No thanks, I'm reading the best part now!
+Dialogue: 0,0:02:44.00,0:02:47.56,Dialogue,,0,0,0,,Um, Doc, Haibara{\rHonorifics - Dialogue}-san{\r} didn't come along again.
+Dialogue: 0,0:02:48.34,0:02:52.99,Dialogue,,0,0,0,,Oh... Ai{\rHonorifics - Dialogue}-kun{\r} was saying she had something to do...
+Dialogue: 0,0:02:55.01,0:02:56.91,Dialogue,,0,0,0,,I know, Doc!
+Dialogue: 0,0:02:56.91,0:02:58.76,Dialogue,,0,0,0,,It went like this, right?
+Dialogue: 0,0:02:58.76,0:03:02.39,Dialogue,,0,0,0,,"I'm not interested in camps..."
+Dialogue: 0,0:03:02.39,0:03:04.14,Dialogue,,0,0,0,,"Snuff, snuff, snuff..."{tsun tsun no tsun}
+Dialogue: 0,0:03:04.81,0:03:07.73,Dialogue,,0,0,0,,You're really good, Genta{\rHonorifics - Dialogue}-kun{\r}. That's a perfect impression!
+Dialogue: 0,0:03:07.73,0:03:08.92,Thoughts,,0,0,0,,{\be10}Bullseye.
+Dialogue: 0,0:03:11.19,0:03:11.96,Dialogue,,0,0,0,,What's that?
+Dialogue: 0,0:03:19.66,0:03:20.70,Dialogue,,0,0,0,,Oh, no!
+Dialogue: 0,0:03:20.70,0:03:22.54,Dialogue,,0,0,0,,Doc! Get the police and an ambulance!
+Dialogue: 0,0:03:22.54,0:03:23.52,Dialogue,,0,0,0,,Okay!
+Dialogue: 0,0:03:42.22,0:03:45.81,Dialogue,,0,0,0,,You said you were resting at the scenic spot there,
+Dialogue: 0,0:03:45.81,0:03:50.11,Dialogue,,0,0,0,,when you witnessed the car go over the cliff, so you came running over, right?
+Dialogue: 0,0:03:50.11,0:03:51.19,Dialogue,,0,0,0,,Yeah.
+Dialogue: 0,0:03:52.69,0:03:54.32,Thoughts,,0,0,0,,{\be10}A dent...
+Dialogue: 0,0:03:54.82,0:03:56.32,Thoughts,,0,0,0,,{\be10}If so...
+Dialogue: 0,0:03:56.32,0:03:58.53,Dialogue,,0,0,0,,I'd like to ask you once again...
+Dialogue: 0,0:03:58.53,0:04:01.97,Dialogue,,0,0,0,,Did you notice something else suspicious, like a car or a person?
+Dialogue: 0,0:04:01.97,0:04:04.87,Dialogue,,0,0,0,,No, nothing at all...
+Dialogue: 0,0:04:04.87,0:04:06.39,Dialogue,,0,0,0,,I see...
+Dialogue: 0,0:04:07.17,0:04:09.17,Thoughts,,0,0,0,,{\be10}Oh... I see.
+Dialogue: 0,0:04:09.17,0:04:10.77,Dialogue,,0,0,0,,Um, officer...
+Dialogue: 0,0:04:11.96,0:04:13.59,Dialogue,,0,0,0,,What is it, sonny?
+Dialogue: 0,0:04:13.59,0:04:17.22,Dialogue,,0,0,0,,May I go and take a look at what the men are doing above?
+Dialogue: 0,0:04:17.22,0:04:19.68,Dialogue,,0,0,0,,No, no, it's not something for a child to watch!
+Dialogue: 0,0:04:19.68,0:04:22.89,Dialogue,,0,0,0,,I think they're almost finished up there anyway...
+Dialogue: 0,0:04:22.89,0:04:24.22,Dialogue,,0,0,0,,It should be okay.
+Dialogue: 0,0:04:24.22,0:04:26.10,Dialogue,,0,0,0,,But...
+Dialogue: 0,0:04:26.10,0:04:27.16,Dialogue,,0,0,0,,But, sonny,
+Dialogue: 0,0:04:27.16,0:04:31.48,Dialogue,,0,0,0,,make sure you don't get in the way of their work when you watch them!
+Dialogue: 0,0:04:31.48,0:04:32.94,Dialogue,,0,0,0,,Yes, sir!
+Dialogue: 0,0:04:37.32,0:04:39.07,Dialogue,,0,0,0,,Hey, Mitsuhiko,
+Dialogue: 0,0:04:39.07,0:04:41.20,Dialogue,,0,0,0,,don't we have to go too?
+Dialogue: 0,0:04:42.24,0:04:45.37,Dialogue,,0,0,0,,Conan's going to go off on his own like always you know!
+Dialogue: 0,0:04:45.75,0:04:49.54,Dialogue,,0,0,0,,Oh... who cares, let him do what he pleases...
+Dialogue: 0,0:04:49.54,0:04:52.56,Dialogue,,0,0,0,,We've got something better here!
+Dialogue: 0,0:04:53.00,0:04:55.01,Dialogue,,0,0,0,,Something better?
+Dialogue: 0,0:05:02.53,0:05:04.01,Dialogue,,0,0,0,,Okay, here!
+Dialogue: 0,0:05:04.01,0:05:05.20,Dialogue,,0,0,0,,Okay!
+Dialogue: 0,0:05:05.20,0:05:09.23,Dialogue,,0,0,0,,Uh... 16.33 meters.
+Dialogue: 0,0:05:09.23,0:05:11.19,Dialogue,,0,0,0,,16.33...
+Dialogue: 0,0:05:11.19,0:05:12.58,Dialogue,,0,0,0,,There...
+Dialogue: 0,0:05:12.58,0:05:14.52,Dialogue,,0,0,0,,It's a piece of polish that rubbed off!
+Dialogue: 0,0:05:14.52,0:05:15.78,Dialogue,,0,0,0,,Really?!
+Dialogue: 0,0:05:18.90,0:05:21.28,Dialogue,,0,0,0,,Look, it's dark blue!
+Dialogue: 0,0:05:21.28,0:05:22.49,Dialogue,,0,0,0,,Dark blue...
+Dialogue: 0,0:05:22.49,0:05:24.20,Dialogue,,0,0,0,,W-Which means...
+Dialogue: 0,0:05:24.20,0:05:25.47,Dialogue,,0,0,0,,Yeah!
+Dialogue: 0,0:05:27.25,0:05:29.39,Thoughts,,0,0,0,,{\be10}So that's what happened!
+Dialogue: 0,0:05:31.21,0:05:34.42,Dialogue,,0,0,0,,We came all the way out here to have a picnic and
+Dialogue: 0,0:05:34.42,0:05:37.17,Dialogue,,0,0,0,,get messed up in an accident like this...
+Dialogue: 0,0:05:37.17,0:05:38.88,Dialogue,,0,0,0,,It's no accident...
+Dialogue: 0,0:05:40.30,0:05:42.55,Dialogue,,0,0,0,,What do you mean, "it's no accident"?
+Dialogue: 0,0:05:42.55,0:05:47.68,Dialogue,,0,0,0,,Didn't the officer there ask you if you saw any other cars?
+Dialogue: 0,0:05:47.68,0:05:49.10,Dialogue,,0,0,0,,Yeah...
+Dialogue: 0,0:05:49.10,0:05:53.73,Dialogue,,0,0,0,,That car fell over because it was pushed from behind by another car.
+Dialogue: 0,0:05:53.73,0:05:55.19,Dialogue,,0,0,0,,What?!
+Dialogue: 0,0:05:55.19,0:05:57.61,Dialogue,,0,0,0,,That car had a dent in the rear,
+Dialogue: 0,0:05:57.61,0:05:59.65,Dialogue,,0,0,0,,an indication of it having been hit from behind.
+Dialogue: 0,0:05:59.65,0:06:01.66,Dialogue,,0,0,0,,Besides,
+Dialogue: 0,0:06:01.66,0:06:04.95,Dialogue,,0,0,0,,the paint that seemed to have rubbed off from the other car was also found.
+Dialogue: 0,0:06:04.95,0:06:06.24,Dialogue,,0,0,0,,Moreover,
+Dialogue: 0,0:06:06.24,0:06:09.68,Dialogue,,0,0,0,,the car that hit from behind most likely did so deliberately.
+Dialogue: 0,0:06:09.91,0:06:12.75,Dialogue,,0,0,0,,T-then it's homicide.
+Dialogue: 0,0:06:12.75,0:06:14.33,Dialogue,,0,0,0,,Yeah...
+Dialogue: 0,0:06:14.33,0:06:17.50,Dialogue,,0,0,0,,Don't we have to cooperate with the police?
+Dialogue: 0,0:06:17.50,0:06:20.94,Dialogue,,0,0,0,,It'll be fine. after all they've got so much evidence.
+Dialogue: 0,0:06:20.94,0:06:25.76,Dialogue,,0,0,0,,But, all they've got is rubbed off paint and a dent in the rear...
+Dialogue: 0,0:06:25.76,0:06:29.22,Dialogue,,0,0,0,,The Japanese police is usually very efficient.
+Dialogue: 0,0:06:29.22,0:06:31.06,Dialogue,,0,0,0,,So long as a piece of rubbed off paint is found,
+Dialogue: 0,0:06:31.06,0:06:34.02,Dialogue,,0,0,0,,from the color and substance they can figure out the model of the car too.
+Dialogue: 0,0:06:34.02,0:06:36.36,Dialogue,,0,0,0,,Then, all they have to do is
+Dialogue: 0,0:06:36.36,0:06:38.25,Dialogue,,0,0,0,,go asking around for details to get to the one who did it.
+Dialogue: 0,0:06:38.44,0:06:40.44,Dialogue,,0,0,0,,I see...
+Dialogue: 0,0:06:42.32,0:06:43.74,Dialogue,,0,0,0,,Mitsuhiko,
+Dialogue: 0,0:06:43.74,0:06:45.07,Dialogue,,0,0,0,,what do you mean by something better?
+Dialogue: 0,0:06:45.07,0:06:49.76,Dialogue,,0,0,0,,Shh! Quiet! Conan{\rHonorifics - Dialogue}-kun{\r} will hear you!
+Dialogue: 0,0:06:53.96,0:06:55.81,Dialogue,,0,0,0,,This is it, Genta{\rHonorifics - Dialogue}-kun{\r}!
+Dialogue: 0,0:06:57.42,0:06:58.65,Dialogue,,0,0,0,,What is this?
+Dialogue: 0,0:06:58.65,0:07:00.38,Dialogue,,0,0,0,,It's a code!
+Dialogue: 0,0:07:00.38,0:07:01.13,Dialogue,,0,0,0,,A code?!
+Dialogue: 0,0:07:01.13,0:07:02.09,Dialogue,,0,0,0,,Shh!
+Dialogue: 0,0:07:04.68,0:07:08.68,Dialogue,,0,0,0,,I picked it up near the site of the accident just a while ago.
+Dialogue: 0,0:07:09.64,0:07:13.02,Dialogue,,0,0,0,,Then, shouldn't you have told the police about it?
+Dialogue: 0,0:07:13.02,0:07:16.36,Dialogue,,0,0,0,,But, what we saw was just an accident, wasn't it?
+Dialogue: 0,0:07:16.36,0:07:19.69,Dialogue,,0,0,0,,It's hard to believe that a code has anything to do with it.
+Dialogue: 0,0:07:19.69,0:07:20.98,Dialogue,,0,0,0,,Right...
+Dialogue: 0,0:07:20.98,0:07:25.20,Dialogue,,0,0,0,,Codes are usually used for figuring out where treasures are hidden, aren't they?
+Dialogue: 0,0:07:25.20,0:07:27.20,Dialogue,,0,0,0,,Right, exactly!
+Dialogue: 0,0:07:27.20,0:07:29.37,Dialogue,,0,0,0,,Treasure, eh...
+Dialogue: 0,0:07:29.37,0:07:31.64,Dialogue,,0,0,0,,So, take a good look at this!
+Dialogue: 0,0:07:31.64,0:07:36.60,Dialogue,,0,0,0,,See, on the very top, in the square, the equation 100-1 is written.
+Dialogue: 0,0:07:36.60,0:07:39.50,Dialogue,,0,0,0,,Okay Genta{\rHonorifics - Dialogue}-kun{\r}, what is 100-1?
+Dialogue: 0,0:07:40.30,0:07:44.72,Dialogue,,0,0,0,,Nnnn... nine... ninety-nine?
+Dialogue: 0,0:07:44.72,0:07:46.09,Dialogue,,0,0,0,,Right.
+Dialogue: 0,0:07:47.59,0:07:51.68,Dialogue,,0,0,0,,Is there something that crosses your mind when you think of the number 99?
+Dialogue: 0,0:07:52.89,0:07:55.60,Dialogue,,0,0,0,,99... 99...
+Dialogue: 0,0:07:55.60,0:07:57.23,Dialogue,,0,0,0,,9, 9...
+Dialogue: 0,0:07:57.85,0:07:58.96,Dialogue,,0,0,0,,911! Ambulance!{similarity in sound between "ambulance" and "nine nine"}
+Dialogue: 0,0:07:58.96,0:08:00.19,Dialogue,,0,0,0,,Nope!
+Dialogue: 0,0:08:01.65,0:08:06.41,Dialogue,,0,0,0,,Whatever gave you the idea of calling 911 at this point?!
+Dialogue: 0,0:08:06.41,0:08:08.37,Dialogue,,0,0,0,,First aid bandage then?
+Dialogue: 0,0:08:08.37,0:08:10.20,Dialogue,,0,0,0,,I got it!
+Dialogue: 0,0:08:10.20,0:08:11.80,Dialogue,,0,0,0,,The Tsuzura Ori Pass, right?!
+Dialogue: 0,0:08:11.80,0:08:16.39,Dialogue,,0,0,0,,Doc just explained that there is a succession of 99 hairpin curves, didn't he?!
+Dialogue: 0,0:08:16.39,0:08:18.54,Dialogue,,0,0,0,,Correct!
+Dialogue: 0,0:08:18.54,0:08:19.88,Dialogue,,0,0,0,,Which means that this code indicates
+Dialogue: 0,0:08:19.88,0:08:23.86,Dialogue,,0,0,0,,a place somewhere in the Tsuzura Ori Pass area.
+Dialogue: 0,0:08:23.86,0:08:26.88,Dialogue,,0,0,0,,And, did you figune out where it is, Mitsuhiko?
+Dialogue: 0,0:08:26.88,0:08:31.47,Dialogue,,0,0,0,,No, but this code sure looks familiar...
+Dialogue: 0,0:08:31.47,0:08:33.56,Dialogue,,0,0,0,,Where did you see it, Mitsuhiko{\rHonorifics - Dialogue}-kun{\r}?
+Dialogue: 0,0:08:35.27,0:08:36.69,Dialogue,,0,0,0,,Hey you guys!
+Dialogue: 0,0:08:38.02,0:08:40.61,Dialogue,,0,0,0,,What's with all the racket?
+Dialogue: 0,0:08:40.61,0:08:42.27,Dialogue,,0,0,0,,Um, it's nothing!
+Dialogue: 0,0:08:42.27,0:08:44.82,Dialogue,,0,0,0,,Right, right, we're not talking about any codes.
+Dialogue: 0,0:08:45.07,0:08:45.82,Dialogue,,0,0,0,,Codes?!
+Dialogue: 0,0:08:45.82,0:08:47.86,Dialogue,,0,0,0,,Oh, uh...
+Dialogue: 0,0:08:47.86,0:08:51.24,Dialogue,,0,0,0,,Well, the novel that I was reading you see...
+Dialogue: 0,0:08:51.24,0:08:54.83,Dialogue,,0,0,0,,Some codes came out... They're too easy for you, so...
+Dialogue: 0,0:08:54.83,0:08:58.29,Thoughts,,0,0,0,,{\be10}Oh, for children's stuff...
+Dialogue: 0,0:09:01.33,0:09:02.77,Dialogue,,0,0,0,,Good gracious...
+Dialogue: 0,0:09:07.67,0:09:08.61,Dialogue,,0,0,0,,Okay then, you guys,
+Dialogue: 0,0:09:08.97,0:09:11.01,Dialogue,,0,0,0,,Doc and I are going fishing,
+Dialogue: 0,0:09:11.30,0:09:12.89,Dialogue,,0,0,0,,don't forget to chop the firewood.
+Dialogue: 0,0:09:12.89,0:09:14.24,Dialogue,,0,0,0,,Okay!
+Dialogue: 0,0:09:14.72,0:09:16.12,Dialogue,,0,0,0,,Bye.
+Dialogue: 0,0:09:18.25,0:09:18.81,Dialogue,,0,0,0,,Here goes!
+Dialogue: 0,0:09:20.35,0:09:22.69,Dialogue,,0,0,0,,Mitsuhiko, did you really figure it out?!
+Dialogue: 0,0:09:23.36,0:09:25.61,Dialogue,,0,0,0,,It was in the book that I was reading!
+Dialogue: 0,0:09:25.61,0:09:26.65,Dialogue,,0,0,0,,Really?!
+Dialogue: 0,0:09:27.11,0:09:28.63,Dialogue,,0,0,0,,This!
+Dialogue: 0,0:09:29.11,0:09:30.82,Dialogue,,0,0,0,,What is this?
+Dialogue: 0,0:09:30.82,0:09:32.82,Dialogue,,0,0,0,,The keyboard of a computer?
+Dialogue: 0,0:09:32.82,0:09:33.80,Dialogue,,0,0,0,,Yes.
+Dialogue: 0,0:09:33.80,0:09:36.79,Dialogue,,0,0,0,,Numbers are written in numerical order from the top left.
+Dialogue: 0,0:09:36.79,0:09:40.27,Dialogue,,0,0,0,,and they correspond to the same hiragana keys!
+Dialogue: 0,0:09:40.75,0:09:41.54,Dialogue,,0,0,0,,For instance,
+Dialogue: 0,0:09:41.54,0:09:43.04,Dialogue,,0,0,0,,1 and 4 equals the hiragana "ta".
+Dialogue: 0,0:09:43.04,0:09:45.73,Dialogue,,0,0,0,,2 and 7 equals "to" and so forth.
+Dialogue: 0,0:09:46.09,0:09:47.17,Dialogue,,0,0,0,,All right!
+Dialogue: 0,0:09:47.17,0:09:49.17,Dialogue,,0,0,0,,Let's try it!
+Dialogue: 0,0:09:49.17,0:09:52.30,Dialogue,,0,0,0,,Genta, please read the number codes.
+Dialogue: 0,0:09:52.72,0:09:53.85,Dialogue,,0,0,0,,Okay!
+Dialogue: 0,0:09:54.26,0:09:55.18,Dialogue,,0,0,0,,0 and 4,
+Dialogue: 0,0:09:55.18,0:09:56.10,Dialogue,,0,0,0,,2 and 3,
+Dialogue: 0,0:09:56.10,0:09:57.45,Dialogue,,0,0,0,,3 and 8...
+Dialogue: 0,0:09:57.45,0:09:59.43,Dialogue,,0,0,0,,0 and 4 equals... "u".
+Dialogue: 0,0:09:59.43,0:10:01.23,Dialogue,,0,0,0,,2 and 3 equals "se".
+Dialogue: 0,0:10:01.23,0:10:03.61,Dialogue,,0,0,0,,3 and 8 equals "tsu"...
+Dialogue: 0,0:10:03.61,0:10:05.40,Dialogue,,0,0,0,,"A right turn"!{usetsu}
+Dialogue: 0,0:10:06.02,0:10:07.00,Dialogue,,0,0,0,,But...
+Dialogue: 0,0:10:07.40,0:10:09.44,Dialogue,,0,0,0,,What is this mark supposed to mean?
+Dialogue: 0,0:10:11.45,0:10:14.41,Dialogue,,0,0,0,,Maybe this is the shape of the road?
+Dialogue: 0,0:10:14.91,0:10:17.10,Dialogue,,0,0,0,,Right! You're probably right!
+Dialogue: 0,0:10:17.29,0:10:19.16,Dialogue,,0,0,0,,That's why the first code can be deciphered as
+Dialogue: 0,0:10:19.16,0:10:21.54,Dialogue,,0,0,0,,"Turn right at the intersection!
+Dialogue: 0,0:10:22.21,0:10:24.14,Dialogue,,0,0,0,,You're fantastic, Mitsuhiko{\rHonorifics - Dialogue}-kun{\r}!
+Dialogue: 0,0:10:24.75,0:10:25.71,Dialogue,,0,0,0,,Let's continue!
+Dialogue: 0,0:10:25.71,0:10:27.34,Dialogue,,0,0,0,,I'll write it down!
+Dialogue: 0,0:10:37.85,0:10:38.81,Dialogue,,0,0,0,,There, it's done!
+Dialogue: 0,0:10:39.18,0:10:40.89,Dialogue,,0,0,0,,Please read it.
+Dialogue: 0,0:10:41.64,0:10:43.27,Dialogue,,0,0,0,,I'll follow along on the map.
+Dialogue: 0,0:10:43.27,0:10:44.04,Dialogue,,0,0,0,,Okay!
+Dialogue: 0,0:10:44.04,0:10:47.82,Dialogue,,0,0,0,,Turn right at the intersection after passing Tsuzura Ori Pass.
+Dialogue: 0,0:10:47.82,0:10:49.57,Dialogue,,0,0,0,,Turn right at the forked road,
+Dialogue: 0,0:10:49.57,0:10:52.03,Dialogue,,0,0,0,,then turn left at the next fork.
+Dialogue: 0,0:10:52.03,0:10:53.97,Dialogue,,0,0,0,,Cross two bridges,
+Dialogue: 0,0:10:53.97,0:10:57.28,Dialogue,,0,0,0,,turn left after the 2nd bridge and jackpot!
+Dialogue: 0,0:10:57.28,0:10:59.47,Dialogue,,0,0,0,,Okay, it's over here!
+Dialogue: 0,0:10:59.95,0:11:03.89,Dialogue,,0,0,0,,The pension house is over here. so it's pretty close!
+Dialogue: 0,0:11:04.17,0:11:05.46,Dialogue,,0,0,0,,Let's go check it out!
+Dialogue: 0,0:11:05.92,0:11:07.71,Dialogue,,0,0,0,,Maybe we'll find the treasure!
+Dialogue: 0,0:11:07.71,0:11:10.13,Dialogue,,0,0,0,,I'm sure Conan{\rHonorifics - Dialogue}-kun{\r} will be vexed.
+Dialogue: 0,0:11:18.56,0:11:19.81,Dialogue,,0,0,0,,We're here.
+Dialogue: 0,0:11:21.77,0:11:25.02,Dialogue,,0,0,0,,Hey, are you guys upstairs?!
+Dialogue: 0,0:11:25.02,0:11:27.02,Dialogue,,0,0,0,,We've had a big catch!
+Dialogue: 0,0:11:27.02,0:11:27.98,Dialogue,,0,0,0,,Hey...
+Dialogue: 0,0:11:29.02,0:11:30.19,Dialogue,,0,0,0,,What's this?
+Dialogue: 0,0:11:32.99,0:11:34.99,Dialogue,,0,0,0,,Hey, bad news.
+Dialogue: 0,0:11:35.36,0:11:37.49,Dialogue,,0,0,0,,The kids are nowhere in sight!
+Dialogue: 0,0:11:37.49,0:11:38.95,Dialogue,,0,0,0,,What?!
+Dialogue: 0,0:11:46.71,0:11:48.34,Dialogue,,0,0,0,,Hey, Mitsuhiko...
+Dialogue: 0,0:11:50.21,0:11:51.63,Dialogue,,0,0,0,,Are we there yet?
+Dialogue: 0,0:11:52.71,0:11:56.01,Dialogue,,0,0,0,,We've only got a little more to go, so hang in there, Genta{\rHonorifics - Dialogue}-kun{\r}.
+Dialogue: 0,0:11:57.55,0:12:00.43,Dialogue,,0,0,0,,We're crossing the 2nd bridge now.
+Dialogue: 0,0:12:01.01,0:12:04.14,Dialogue,,0,0,0,,After we turn right at the next fork, we'll get there!
+Dialogue: 0,0:12:04.89,0:12:06.77,Dialogue,,0,0,0,,We've still got that much more to go.
+Dialogue: 0,0:12:06.77,0:12:09.11,Dialogue,,0,0,0,,Hang in there, Genta{\rHonorifics - Dialogue}-kun{\r}!
+Dialogue: 0,0:12:09.11,0:12:11.23,Dialogue,,0,0,0,,If we find the treasure. you'll get a luxurious serving of eels over rice!!
+Dialogue: 0,0:12:11.86,0:12:13.78,Dialogue,,0,0,0,,Eels over rice...
+Dialogue: 0,0:12:13.78,0:12:17.45,Dialogue,,0,0,0,,Okay, if we find the treasure, I'll eat all the eels over rice I can eat!
+Dialogue: 0,0:12:17.45,0:12:21.28,Dialogue,,0,0,0,,Let's go, Mitsuhiko, for 100,000 eels over rice!
+Dialogue: 0,0:12:21.28,0:12:23.04,Dialogue,,0,0,0,,Yes, let's do it!
+Dialogue: 0,0:12:26.16,0:12:28.38,Dialogue,,0,0,0,,Shoot! This could be...
+Dialogue: 0,0:12:29.83,0:12:31.42,Dialogue,,0,0,0,,Hmm?! Did you figure it out?
+Dialogue: 0,0:12:31.42,0:12:33.63,Dialogue,,0,0,0,,Doc, call the police right away!
+Dialogue: 0,0:12:33.63,0:12:34.30,Dialogue,,0,0,0,,What?!
+Dialogue: 0,0:12:34.96,0:12:38.80,Dialogue,,0,0,0,,They went to the hideout of the one who pushed the car over just a while ago!
+Dialogue: 0,0:12:39.09,0:12:40.14,Dialogue,,0,0,0,,What?!
+Dialogue: 0,0:12:41.01,0:12:44.99,Thoughts,,0,0,0,,{\be10}So this was the code they were talking about in the car a while ago...
+Dialogue: 0,0:12:45.48,0:12:46.98,Thoughts,,0,0,0,,{\be10}Darn!
+Dialogue: 0,0:12:57.24,0:12:59.38,Dialogue,,0,0,0,,We did it! We've finally come, Genta{\rHonorifics - Dialogue}-kun{\r}!
+Dialogue: 0,0:12:59.38,0:13:01.37,Dialogue,,0,0,0,,It's over there!
+Dialogue: 0,0:13:05.75,0:13:07.62,Dialogue,,0,0,0,,Hey, Mitsuhiko,
+Dialogue: 0,0:13:07.62,0:13:09.62,Dialogue,,0,0,0,,are you sure this is the right place?
+Dialogue: 0,0:13:09.62,0:13:12.65,Dialogue,,0,0,0,,It doesn't look like it has anything to do with a treasure, does it?
+Dialogue: 0,0:13:13.50,0:13:14.96,Dialogue,,0,0,0,,What a thing to say!
+Dialogue: 0,0:13:14.96,0:13:18.34,Dialogue,,0,0,0,,We came exactly where the code said to go, so it's gotta be right!
+Dialogue: 0,0:13:18.76,0:13:24.06,Dialogue,,0,0,0,,Besides, it's places like this where treasures are usually hidden.
+Dialogue: 0,0:13:24.06,0:13:26.10,Dialogue,,0,0,0,,Okay, let's go inside then.
+Dialogue: 0,0:13:33.52,0:13:36.25,Dialogue,,0,0,0,,Yes, thank you!
+Dialogue: 0,0:13:37.61,0:13:40.84,Dialogue,,0,0,0,,The police will rush over to the site immediately!
+Dialogue: 0,0:13:40.84,0:13:42.91,Dialogue,,0,0,0,,Let's hurry on over too!
+Dialogue: 0,0:13:42.91,0:13:43.97,Dialogue,,0,0,0,,Okay!
+Dialogue: 0,0:13:45.33,0:13:47.93,Dialogue,,0,0,0,,It seems that nobody is in...
+Dialogue: 0,0:13:47.93,0:13:52.42,Dialogue,,0,0,0,,Hey, Mitsuhiko, where's the treasure?!
+Dialogue: 0,0:13:58.72,0:14:00.53,Dialogue,,0,0,0,,The building farthest beyond...
+Dialogue: 0,0:14:02.18,0:14:03.60,Dialogue,,0,0,0,,Look!
+Dialogue: 0,0:14:03.60,0:14:06.99,Dialogue,,0,0,0,,That building over there is the only one capable of being locked.
+Dialogue: 0,0:14:07.39,0:14:08.52,Dialogue,,0,0,0,,I'm sure its there!
+Dialogue: 0,0:14:09.64,0:14:11.12,Dialogue,,0,0,0,,Let's check it out!
+Dialogue: 0,0:14:19.63,0:14:21.61,Dialogue,,0,0,0,,T-this is...
+Dialogue: 0,0:14:21.61,0:14:22.66,Dialogue,,0,0,0,,Wow!
+Dialogue: 0,0:14:26.66,0:14:30.31,Dialogue,,0,0,0,,Wow, look at all those foreign car models!
+Dialogue: 0,0:14:30.87,0:14:33.08,Dialogue,,0,0,0,,Hey, Mitsuhiko,
+Dialogue: 0,0:14:33.08,0:14:36.09,Dialogue,,0,0,0,,there's no treasure anywhere, though...
+Dialogue: 0,0:14:37.55,0:14:39.09,Dialogue,,0,0,0,,Hmm... strange...
+Dialogue: 0,0:14:39.09,0:14:40.80,Dialogue,,0,0,0,,Hey, you two...
+Dialogue: 0,0:14:41.72,0:14:43.93,Dialogue,,0,0,0,,There's something funny about this car...
+Dialogue: 0,0:14:43.93,0:14:44.72,Dialogue,,0,0,0,,See...
+Dialogue: 0,0:14:44.72,0:14:47.43,Dialogue,,0,0,0,,It has no license plate.
+Dialogue: 0,0:14:47.76,0:14:49.85,Dialogue,,0,0,0,,You're right...
+Dialogue: 0,0:14:49.85,0:14:51.14,Dialogue,,0,0,0,,Hey, Mitsuhiko.
+Dialogue: 0,0:14:51.81,0:14:53.87,Dialogue,,0,0,0,,There's none on this one too!
+Dialogue: 0,0:14:54.56,0:14:57.61,Dialogue,,0,0,0,,Maybe they're all stolen cars.
+Dialogue: 0,0:14:59.03,0:15:02.17,Dialogue,,0,0,0,,I'm sure they're planning to sell them off to some foreign country.
+Dialogue: 0,0:15:02.90,0:15:06.89,Dialogue,,0,0,0,,We've come to the hideout of car smugglers!
+Dialogue: 0,0:15:06.89,0:15:08.22,Dialogue,,0,0,0,,Exactly!
+Dialogue: 0,0:15:16.92,0:15:20.02,Dialogue,,0,0,0,,You're the brats that were at the site of the the accident...
+Dialogue: 0,0:15:23.34,0:15:25.26,Dialogue,,0,0,0,,Who cares!
+Dialogue: 0,0:15:25.26,0:15:28.39,Dialogue,,0,0,0,,Where's the guy with the mustache and the other kid?
+Dialogue: 0,0:15:28.81,0:15:30.18,Dialogue,,0,0,0,,Just {\i1}who{\i0} are you referring to?
+Dialogue: 0,0:15:31.02,0:15:32.10,Dialogue,,0,0,0,,Don't you play dumb with me!
+Dialogue: 0,0:15:34.69,0:15:35.85,Dialogue,,0,0,0,,What was that sound?
+Dialogue: 0,0:15:36.65,0:15:37.73,Dialogue,,0,0,0,,The sound of gunfire!
+Dialogue: 0,0:15:37.73,0:15:38.48,Dialogue,,0,0,0,,What?!
+Dialogue: 0,0:15:38.48,0:15:40.65,Dialogue,,0,0,0,,Hurry up will you, Doc?
+Dialogue: 0,0:15:40.65,0:15:41.71,Dialogue,,0,0,0,,I know!
+Dialogue: 0,0:15:48.53,0:15:50.24,Dialogue,,0,0,0,,I'll ask you once more.
+Dialogue: 0,0:15:50.24,0:15:53.29,Dialogue,,0,0,0,,Where's the guy with the mustache and the other kid?
+Dialogue: 0,0:15:53.83,0:15:56.64,Dialogue,,0,0,0,,I-I have no idea what you're talking about
+Dialogue: 0,0:15:57.21,0:15:57.85,Dialogue,,0,0,0,,What?!
+Dialogue: 0,0:15:58.29,0:16:00.00,Dialogue,,0,0,0,,Hey, Mitsuhiko...
+Dialogue: 0,0:16:00.00,0:16:01.71,Dialogue,,0,0,0,,Mitsuhiko{\rHonorifics - Dialogue}-kun{\r}...
+Dialogue: 0,0:16:01.71,0:16:04.80,Dialogue,,0,0,0,,No, I can't get Conan{\rHonorifics - Dialogue}-kun{\r} and Doc involved in something
+Dialogue: 0,0:16:04.80,0:16:08.43,Dialogue,,0,0,0,,I got mixed up in because of my own actions!
+Dialogue: 0,0:16:08.43,0:16:09.55,Dialogue,,0,0,0,,He's right...
+Dialogue: 0,0:16:09.55,0:16:10.62,Dialogue,,0,0,0,,Yeah...
+Dialogue: 0,0:16:10.62,0:16:14.29,Dialogue,,0,0,0,,Oh... you must really want to die.
+Dialogue: 0,0:16:23.48,0:16:25.07,Dialogue,,0,0,0,,It's me.
+Dialogue: 0,0:16:25.07,0:16:27.13,Dialogue,,0,0,0,,Sorry, I've only got 5 for now.
+Dialogue: 0,0:16:27.86,0:16:31.58,Dialogue,,0,0,0,,Sada chickened out and rode off with one.
+Dialogue: 0,0:16:31.99,0:16:34.50,Dialogue,,0,0,0,,Yeah, I took care of that.
+Dialogue: 0,0:16:34.50,0:16:38.44,Dialogue,,0,0,0,,I hit him from behind at the ridge, and he fell head first all the way down.
+Dialogue: 0,0:16:39.79,0:16:41.21,Dialogue,,0,0,0,,I'm no goof...
+Dialogue: 0,0:16:42.09,0:16:44.78,Dialogue,,0,0,0,,I'll scrap the car before the police get to it.
+Dialogue: 0,0:16:44.78,0:16:47.55,Dialogue,,0,0,0,,Once it's scrapped, there's no proof.
+Dialogue: 0,0:16:52.01,0:16:53.06,Dialogue,,0,0,0,,That's...
+Dialogue: 0,0:17:00.61,0:17:01.73,Dialogue,,0,0,0,,Hey, what's with you guys?
+Dialogue: 0,0:17:01.73,0:17:03.73,Dialogue,,0,0,0,,What's with you?!
+Dialogue: 0,0:17:03.73,0:17:06.07,Dialogue,,0,0,0,,Swinging a rifle around towards children!
+Dialogue: 0,0:17:06.07,0:17:07.30,Dialogue,,0,0,0,,Doc!
+Dialogue: 0,0:17:08.40,0:17:10.16,Dialogue,,0,0,0,,You're the one who was at the scene of the accident...
+Dialogue: 0,0:17:10.16,0:17:12.78,Dialogue,,0,0,0,,Phooey, there couldn't be better timing... You saved me time looking for you!
+Dialogue: 0,0:17:12.78,0:17:14.51,Dialogue,,0,0,0,,No use, mister.
+Dialogue: 0,0:17:14.51,0:17:17.50,Dialogue,,0,0,0,,See, you hear it, don't you?
+Dialogue: 0,0:17:17.50,0:17:19.37,Dialogue,,0,0,0,,The sound of police car sirens...
+Dialogue: 0,0:17:19.37,0:17:20.08,Dialogue,,0,0,0,,What?!
+Dialogue: 0,0:17:20.83,0:17:23.25,Dialogue,,0,0,0,,They're coming here...
+Dialogue: 0,0:17:24.30,0:17:26.59,Dialogue,,0,0,0,,to arrest you, mister!
+Dialogue: 0,0:17:27.01,0:17:27.73,Dialogue,,0,0,0,,What?!
+Dialogue: 0,0:17:31.70,0:17:33.60,Dialogue,,0,0,0,,All right!
+Dialogue: 0,0:17:34.76,0:17:37.16,Dialogue,,0,0,0,,Hey, hey, officers...
+Dialogue: 0,0:17:37.64,0:17:40.21,Dialogue,,0,0,0,,What's with all the racket?{half bluff}
+Dialogue: 0,0:17:40.21,0:17:44.07,Dialogue,,0,0,0,,Before we hear you out, give us that gun of yours.
+Dialogue: 0,0:17:44.07,0:17:46.15,Dialogue,,0,0,0,,Oh, you mean {\i1}this{\i0} gun?
+Dialogue: 0,0:17:46.15,0:17:52.62,Dialogue,,0,0,0,,I was only trying to scare the kids because they trespassed on my property.
+Dialogue: 0,0:17:52.62,0:17:54.16,Dialogue,,0,0,0,,I see...
+Dialogue: 0,0:17:55.20,0:17:57.58,Dialogue,,0,0,0,,By the way, is that your car?
+Dialogue: 0,0:17:58.08,0:18:00.56,Dialogue,,0,0,0,,Yeah, that's right. Anything wrong?
+Dialogue: 0,0:18:00.96,0:18:06.63,Dialogue,,0,0,0,,Well, a car happened to go over the cliff at Tsuzura Ori Pass...
+Dialogue: 0,0:18:06.63,0:18:10.72,Dialogue,,0,0,0,,and it seems that a car of the same model as yours pushed that car over from behind.
+Dialogue: 0,0:18:12.09,0:18:15.87,Dialogue,,0,0,0,,Your car has a dent too, and it looks like it struck something...
+Dialogue: 0,0:18:15.87,0:18:19.56,Dialogue,,0,0,0,,What?! Are you suspecting me of something?!
+Dialogue: 0,0:18:19.56,0:18:22.00,Dialogue,,0,0,0,,There are several hundreds of cars like this, aren't there?!
+Dialogue: 0,0:18:22.40,0:18:26.19,Dialogue,,0,0,0,,Just how many of those hundreds do you think happened to be at the scene of the accident?
+Dialogue: 0,0:18:27.44,0:18:29.44,Dialogue,,0,0,0,,And where were you, may I ask, at that time?
+Dialogue: 0,0:18:30.57,0:18:33.87,Dialogue,,0,0,0,,Sorry... that was an accident...
+Dialogue: 0,0:18:33.87,0:18:36.45,Dialogue,,0,0,0,,Since the scenery was so beautiful,
+Dialogue: 0,0:18:36.45,0:18:38.62,Dialogue,,0,0,0,,I took my eyes of the road...
+Dialogue: 0,0:18:38.62,0:18:40.58,Dialogue,,0,0,0,,And the next thing I knew, crash!
+Dialogue: 0,0:18:40.58,0:18:42.14,Dialogue,,0,0,0,,He's lying, officer!
+Dialogue: 0,0:18:42.14,0:18:44.17,Dialogue,,0,0,0,,Shut up, stay out of this, brat!
+Dialogue: 0,0:18:44.17,0:18:45.42,Dialogue,,0,0,0,,No, I'm not shutting up!
+Dialogue: 0,0:18:45.42,0:18:49.67,Dialogue,,0,0,0,,You just said on the phone, that you struck the car and pushed it over the cliff!
+Dialogue: 0,0:18:49.67,0:18:51.42,Dialogue,,0,0,0,,I heard you say so too!
+Dialogue: 0,0:18:51.42,0:18:53.05,Dialogue,,0,0,0,,Me too!
+Dialogue: 0,0:18:53.05,0:18:57.64,Dialogue,,0,0,0,,Hey officer, are you going to believe what those brats say?!
+Dialogue: 0,0:18:58.26,0:19:02.73,Dialogue,,0,0,0,,For one, how could I push a car over a cliff by crashing into it from behind at such a sharp curve?
+Dialogue: 0,0:19:02.73,0:19:03.87,Dialogue,,0,0,0,,You did exactly that!
+Dialogue: 0,0:19:03.87,0:19:07.07,Dialogue,,0,0,0,,You succeeded perfectly!
+Dialogue: 0,0:19:07.73,0:19:09.90,Dialogue,,0,0,0,,Old man! Quit your gibberish!
+Dialogue: 0,0:19:09.90,0:19:11.78,Dialogue,,0,0,0,,Do have proof, or what? Proof!
+Dialogue: 0,0:19:11.78,0:19:13.70,Dialogue,,0,0,0,,Of course there's proof.
+Dialogue: 0,0:19:13.70,0:19:16.49,Dialogue,,0,0,0,,In the foreground of the curve where that car fell over,
+Dialogue: 0,0:19:16.49,0:19:19.04,Dialogue,,0,0,0,,there were two pairs of tire marks,
+Dialogue: 0,0:19:19.04,0:19:23.27,Dialogue,,0,0,0,,that were left behind when the car was hit from behind.
+Dialogue: 0,0:19:23.27,0:19:26.98,Dialogue,,0,0,0,,In other words, you collided twice!
+Dialogue: 0,0:19:27.59,0:19:29.21,Dialogue,,0,0,0,,So what?!
+Dialogue: 0,0:19:29.21,0:19:32.67,Dialogue,,0,0,0,,I wasn't looking at the road and I collided twice!
+Dialogue: 0,0:19:32.67,0:19:36.22,Dialogue,,0,0,0,,Well, there is a possibility too, however...
+Dialogue: 0,0:19:36.80,0:19:40.89,Dialogue,,0,0,0,,Do you know the space between the tires of the car that fell over?
+Dialogue: 0,0:19:42.14,0:19:44.94,Dialogue,,0,0,0,,Yes, 16.33 meters.
+Dialogue: 0,0:19:45.60,0:19:51.36,Dialogue,,0,0,0,,And, at what speed were you going at on that road?
+Dialogue: 0,0:19:52.40,0:19:54.67,Dialogue,,0,0,0,,Just about 30 km/h!
+Dialogue: 0,0:19:54.67,0:19:57.45,Dialogue,,0,0,0,,Well, I guess so...
+Dialogue: 0,0:19:58.24,0:20:01.85,Dialogue,,0,0,0,,The fact that you were going at 30 km/h means
+Dialogue: 0,0:20:01.85,0:20:05.46,Dialogue,,0,0,0,,you were going at about 8.3 meters per second.
+Dialogue: 0,0:20:05.46,0:20:11.09,Dialogue,,0,0,0,,In order to leave skid marks at a spacing of 16.33 meters,
+Dialogue: 0,0:20:11.09,0:20:13.01,Dialogue,,0,0,0,,it would take you approximately 2 seconds.
+Dialogue: 0,0:20:13.42,0:20:17.18,Dialogue,,0,0,0,,After colliding into the car in question, the first time, for a period of 2 seconds,
+Dialogue: 0,0:20:17.18,0:20:19.43,Dialogue,,0,0,0,,you never steered to avoid another collision,
+Dialogue: 0,0:20:19.43,0:20:21.14,Dialogue,,0,0,0,,nor did you step on the brakes.
+Dialogue: 0,0:20:21.14,0:20:23.24,Dialogue,,0,0,0,,Rather, you collided again!
+Dialogue: 0,0:20:24.06,0:20:26.52,Dialogue,,0,0,0,,If this is not called colliding deliberately, what else would you call it?
+Dialogue: 0,0:20:28.31,0:20:31.11,Dialogue,,0,0,0,,So... if you have anything more you want to say,
+Dialogue: 0,0:20:31.11,0:20:34.07,Dialogue,,0,0,0,,we'll hear you out at the station.
+Dialogue: 0,0:20:34.07,0:20:35.49,Dialogue,,0,0,0,,Darn!
+Dialogue: 0,0:20:35.49,0:20:37.20,Dialogue,,0,0,0,,Um, officer...
+Dialogue: 0,0:20:38.09,0:20:42.49,Dialogue,,0,0,0,,There are luxurious cars without license plates in the building beyond.
+Dialogue: 0,0:20:42.49,0:20:45.04,Dialogue,,0,0,0,,I'm sure those cars are all stolen!
+Dialogue: 0,0:20:45.71,0:20:48.23,Dialogue,,0,0,0,,Good work, all of you!
+Dialogue: 0,0:20:50.21,0:20:51.50,Dialogue,,0,0,0,,But listen,
+Dialogue: 0,0:20:51.50,0:20:54.11,Dialogue,,0,0,0,,don't ever do something dangerous like this again!
+Dialogue: 0,0:20:54.42,0:20:56.55,Dialogue,,0,0,0,,Y-Y-Yes sir!
+Dialogue: 0,0:22:32.96,0:22:35.92,Dialogue,,0,0,0,,Darn. I just don't seem to have the knack for chopping firewood.
+Dialogue: 0,0:22:38.11,0:22:39.36,Dialogue,,0,0,0,,Darn, darn it!
+Dialogue: 0,0:22:40.03,0:22:42.86,Dialogue,,0,0,0,,Hey, we need more firewood!
+Dialogue: 0,0:22:42.86,0:22:47.62,Dialogue,,0,0,0,,Hey, Conan{\rHonorifics - Dialogue}-kun{\r}, why don't you help us a bit on this side too?
+Dialogue: 0,0:22:47.62,0:22:48.81,Dialogue,,0,0,0,,No way!
+Dialogue: 0,0:22:49.41,0:22:53.21,Dialogue,,0,0,0,,It's your own fault for loafing around without chopping firewood like you should've been,
+Dialogue: 0,0:22:53.21,0:22:54.73,Dialogue,,0,0,0,,serves you right.
+Dialogue: 0,0:22:55.50,0:22:57.92,Dialogue,,0,0,0,,Yes, yes, all right.
+Dialogue: 0,0:22:57.92,0:22:59.42,Dialogue,,0,0,0,,One "yes" is enough!
+Dialogue: 0,0:22:59.42,0:23:00.40,Dialogue,,0,0,0,,Yes!
+Dialogue: 0,0:23:00.88,0:23:05.01,Dialogue,,0,0,0,,I hope they learn their lesson and quit doing dangerous things.
+Dialogue: 0,0:23:06.55,0:23:09.27,Dialogue,,0,0,0,,How disappointing though.
+Dialogue: 0,0:23:09.27,0:23:10.56,Dialogue,,0,0,0,,What is?
+Dialogue: 0,0:23:10.56,0:23:14.87,Dialogue,,0,0,0,,Conan{\rHonorifics - Dialogue}-kun{\r} deciphered that code in no time at all!
+Dialogue: 0,0:23:14.87,0:23:17.36,Dialogue,,0,0,0,,You were fantastic too, Mitsuhiko{\rHonorifics - Dialogue}-kun{\r}!
+Dialogue: 0,0:23:17.36,0:23:20.84,Dialogue,,0,0,0,,Not only did you figure out the code, you also were right about the smugglers.
+Dialogue: 0,0:23:22.07,0:23:25.11,Dialogue,,0,0,0,,Oh. I just thought so because it was in the book I was reading!
+Dialogue: 0,0:23:25.11,0:23:29.24,Dialogue,,0,0,0,,Wow, just great. Maybe I should look through it too...
+Dialogue: 0,0:23:29.24,0:23:32.37,Dialogue,,0,0,0,,Oh, we got just the thing for you, Genta{\rHonorifics - Dialogue}-kun{\r}!
+Dialogue: 0,0:23:32.83,0:23:35.83,Dialogue,,0,0,0,,"Children's Lunch Murder Case" is the title of it.
+Dialogue: 0,0:23:35.83,0:23:36.75,Dialogue,,0,0,0,,What a funny title!
+Dialogue: 0,0:23:36.75,0:23:41.38,Dialogue,,0,0,0,,I would rather have eels over rice than a children's lunch.
+Dialogue: 0,0:23:41.38,0:23:43.72,Thoughts,,0,0,0,,{\be10}Hey, haven't you guys learned your lesson or what?!
+Dialogue: 0,0:23:46.22,0:23:48.07,Dialogue,,0,0,0,,How nice and bitter!
+Dialogue: 0,0:23:48.07,0:23:50.24,Dialogue,,0,0,0,,This is indeed what you call the world of {\i1}wabisabi{\i0}!
+Dialogue: 0,0:23:50.64,0:23:51.24,Thoughts,,0,0,0,,{\be10}Huh?
+Dialogue: 0,0:23:51.56,0:23:52.81,Thoughts,,0,0,0,,{\be10}I wonder what's up?
+Dialogue: 0,0:23:52.81,0:23:54.66,Thoughts,,0,0,0,,{\be10}Why is she looking around like that?
+Dialogue: 0,0:23:54.66,0:23:58.08,Dialogue,,0,0,0,,Are you saying that the master is afraid of a monster?
+Dialogue: 0,0:23:59.11,0:24:01.29,Dialogue,,0,0,0,,I wonder if there really is such a thing as a monster?
+Dialogue: 0,0:24:01.61,0:24:05.26,Dialogue,,0,0,0,,D-Don't be ridiculous! No way such a thing exists!
+Dialogue: 0,0:24:07.41,0:24:09.89,Dialogue,,0,0,0,,T-The master is...
+Dialogue: 0,0:24:09.89,0:24:15.52,Signs,,0,0,0,,The Five-Colored Legendary Water Palace\N(Part 1)
+Dialogue: 0,0:24:15.52,0:24:20.54,Dialogue,,0,0,0,,Next Conan's Hint: Hanging Scroll
+Dialogue: 0,0:24:20.54,0:24:22.55,Dialogue Top,,0,0,0,,Next time, a hard to understand anime original!
+Dialogue: 0,0:24:20.54,0:24:22.55,Signs,,0,0,0,,nankai
+Dialogue: 0,0:24:22.55,0:24:24.26,Dialogue Top,,0,0,0,,You won't get it, no matter how many times you watch.
+Dialogue: 0,0:24:22.55,0:24:24.26,Signs,,0,0,0,,nankai
