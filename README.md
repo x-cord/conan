@@ -28,7 +28,7 @@ When making pull requests:
 
 ## Current focus
 - Translate all introduction, preview, hint and end joke segments.
-- Properly time all subtitles to DVD (Reghost-Fabre\*), TV (usotsuki&WinxBloom1980) and WEB (Intervención&Erai-raws)
+- Properly time all subtitles to DVD (Reghost-Fabre\*&SOFCJ-Raws), TV (usotsuki&WinxBloom1980) and WEB (Intervención&Erai-raws)
 - Tag every line of dialogue that happens in a special context. (Thoughts, Over the phone, Narration, Flashback)
 
 \* Reghost-Fabre suffers from heavy blending, making scene snaps impossible. While waiting for better encodes, count the start of a blend as the scene cut.
