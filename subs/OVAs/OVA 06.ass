@@ -36,10 +36,11 @@ Style: Farewell Card,Calibri,70,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:01.45,0:00:02.16,Dialogue,,0,0,0,,Notice.
-Dialogue: 0,0:00:02.30,0:00:06.10,Dialogue,,0,0,0,,This DVD is specially made by Shogakukan for everyone.
+Dialogue: 0,0:00:01.45,0:00:06.10,Dialogue,,0,0,0,,Notice: This DVD is specially made by Shogakukan for everyone.
 Dialogue: 0,0:00:06.72,0:00:10.70,Dialogue,,0,0,0,,When watching this DVD, please watch in a bright room and sit away from the TV.
 Dialogue: 0,0:00:11.48,0:00:12.31,Dialogue,,0,0,0,,Kaitou Kid!?
+Dialogue: 0,0:00:25.30,0:00:30.01,Title,,0,0,0,,FOLLOW THE VANISHED DIAMOND!\NCONAN & HEIJI VS. KID!
+Dialogue: 0,0:00:30.01,0:00:31.49,Signs,,0,0,0,,Beika Shopping District
 Dialogue: 0,0:00:34.82,0:00:36.66,Dialogue,,0,0,0,,What would you like for dinner, Conan{\rHonorifics - Dialogue}-kun{\r}?
 Dialogue: 0,0:00:36.72,0:00:38.05,Dialogue,,0,0,0,,Anything is fine.
 Dialogue: 0,0:00:38.37,0:00:43.15,Dialogue,,0,0,0,,Honestly, I really want to make sukiyaki, but my dad hasn't had much work lately,
@@ -96,14 +97,14 @@ Dialogue: 0,0:03:29.09,0:03:30.68,Dialogue,,0,0,0,,What about you, Conan{\rHonor
 Dialogue: 0,0:03:31.00,0:03:32.82,Dialogue,,0,0,0,,It's look suspicious?
 Dialogue: 0,0:03:33.14,0:03:35.68,Dialogue,,0,0,0,,Right? There must be something...
 Dialogue: 0,0:03:41.13,0:03:41.92,Dialogue,,0,0,0,,Yes!
-Dialogue: 0,0:03:42.24,0:03:43.34,Thoughts,,0,0,0,,{\be10}Have you prepared the money?
+Dialogue: 0,0:03:42.24,0:03:43.34,Radio,,0,0,0,,{\be10}Have you prepared the money?
 Dialogue: 0,0:03:43.66,0:03:44.09,Dialogue,,0,0,0,,Eh?
-Dialogue: 0,0:03:44.41,0:03:47.12,Thoughts,,0,0,0,,{\be10}Don't "eh" to me, have you prepared the...
+Dialogue: 0,0:03:44.41,0:03:47.12,Radio,,0,0,0,,{\be10}Don't "eh" to me, have you prepared the...
 Dialogue: 0,0:03:47.44,0:03:48.88,Dialogue,,0,0,0,,Who are you!?
 Dialogue: 0,0:03:49.20,0:03:50.12,Thoughts,,0,0,0,,{\be10}Blackmailer.
-Dialogue: 0,0:03:50.44,0:03:50.68,Dialogue,,0,0,0,,Record!
-Dialogue: 0,0:03:51.00,0:03:51.66,Thoughts,,0,0,0,,{\be10}Good morning!
-Dialogue: 0,0:03:51.98,0:03:53.89,Thoughts,,0,0,0,,{\be10}Damn!
+Dialogue: 0,0:03:50.44,0:03:50.98,Dialogue,,0,0,0,,Record!
+Dialogue: 0,0:03:51.00,0:03:51.66,Radio,,0,0,0,,{\be10}Good morning!
+Dialogue: 0,0:03:51.98,0:03:53.89,Radio,,0,0,0,,{\be10}Damn!
 Dialogue: 0,0:03:54.21,0:03:56.45,Dialogue,,0,0,0,,Hello? Hello!?
 Dialogue: 0,0:03:56.77,0:03:59.95,Dialogue,,0,0,0,,What is it, Conan{\rHonorifics - Dialogue}-kun{\r}?
 Dialogue: 0,0:03:59.63,0:04:01.63,Signs,,0,0,0,,NUMBER IS NOT AVAILABLE
@@ -125,23 +126,23 @@ Dialogue: 0,0:04:45.14,0:04:48.48,Thoughts,,0,0,0,,{\be10}If this is a kidnappin
 Dialogue: 0,0:04:48.80,0:04:50.07,Dialogue,,0,0,0,,Bye!
 Dialogue: 0,0:04:50.39,0:04:51.87,Dialogue,,0,0,0,,Dad!
 Dialogue: 0,0:04:52.19,0:04:53.21,Thoughts,,0,0,0,,{\be10}But before that...
-Dialogue: 0,0:04:54.99,0:04:56.83,Thoughts,,0,0,0,,{\be10}Have you prepared the money?
-Dialogue: 0,0:04:57.15,0:04:59.86,Thoughts,,0,0,0,,{\be10}Don't "eh" to me, have you prepared the...
-Dialogue: 0,0:05:00.18,0:05:01.15,Thoughts,,0,0,0,,{\be10}Who are you!?
+Dialogue: 0,0:04:54.99,0:04:56.83,Flashback,,0,0,0,,{\be10}Have you prepared the money?
+Dialogue: 0,0:04:57.15,0:04:59.86,Flashback,,0,0,0,,{\be10}Don't "eh" to me, have you prepared the...
+Dialogue: 0,0:05:00.18,0:05:01.15,Flashback,,0,0,0,,{\be10}Who are you!?
 Dialogue: 0,0:05:02.48,0:05:05.46,Thoughts,,0,0,0,,{\be10}That voice... I've heard it before...
 Dialogue: 0,0:05:05.78,0:05:07.11,Thoughts,,0,0,0,,{\be10}Also...
-Dialogue: 0,0:05:07.43,0:05:08.10,Thoughts,,0,0,0,,{\be10}Good morning!
-Dialogue: 0,0:05:08.42,0:05:08.92,Thoughts,,0,0,0,,{\be10}Damn!
+Dialogue: 0,0:05:07.43,0:05:08.10,Flashback,,0,0,0,,{\be10}Good morning!
+Dialogue: 0,0:05:08.42,0:05:08.92,Flashback,,0,0,0,,{\be10}Damn!
 Dialogue: 0,0:05:09.24,0:05:13.68,Thoughts,,0,0,0,,{\be10}I think I've already heard that voice somewhere, but where?
 Dialogue: 0,0:05:14.57,0:05:18.79,Thoughts,,0,0,0,,{\be10}Wait a minute, the only voices I've heard recently...
 Dialogue: 0,0:05:19.11,0:05:20.07,Dialogue,,0,0,0,,Jeez...
-Dialogue: 0,0:05:20.85,0:05:22.77,Thoughts,,0,0,0,,{\be10}Cheap fish!
-Dialogue: 0,0:05:23.09,0:05:23.87,Thoughts,,0,0,0,,{\be10}Well?
-Dialogue: 0,0:05:24.19,0:05:26.51,Thoughts,,0,0,0,,{\be10}You look good as always, Ran{\rHonorifics - Thoughts\be10}-chan{\r\be10}.
-Dialogue: 0,0:05:26.83,0:05:28.95,Thoughts,,0,0,0,,{\be10}Today we have a discount on beef.
-Dialogue: 0,0:05:29.27,0:05:32.07,Thoughts,,0,0,0,,{\be10}He's not Mouri{\rHonorifics - Thoughts\be10}-san{\r\be10}'s illegitimate son, is he?
-Dialogue: 0,0:05:32.39,0:05:34.85,Thoughts,,0,0,0,,{\be10}Cabbage, tomatoes...
-Dialogue: 0,0:05:35.17,0:05:38.68,Thoughts,,0,0,0,,{\be10}But who would have thought that Ran{\rHonorifics - Thoughts\be10}-chan{\r\be10} had a little brother.
+Dialogue: 0,0:05:20.85,0:05:22.77,Flashback,,0,0,0,,{\be10}Cheap fish!
+Dialogue: 0,0:05:23.09,0:05:23.87,Flashback,,0,0,0,,{\be10}Well?
+Dialogue: 0,0:05:24.19,0:05:26.51,Flashback,,0,0,0,,{\be10}You look good as always, Ran{\rHonorifics - Flashback\be10}-chan{\r\be10}.
+Dialogue: 0,0:05:26.83,0:05:28.95,Flashback,,0,0,0,,{\be10}Today we have a discount on beef.
+Dialogue: 0,0:05:29.27,0:05:32.07,Flashback,,0,0,0,,{\be10}He's not Mouri{\rHonorifics - Flashback\be10}-san{\r\be10}'s illegitimate son, is he?
+Dialogue: 0,0:05:32.39,0:05:34.85,Flashback,,0,0,0,,{\be10}Cabbage, tomatoes...
+Dialogue: 0,0:05:35.17,0:05:38.68,Flashback,,0,0,0,,{\be10}But who would have thought that Ran{\rHonorifics - Flashback\be10}-chan{\r\be10} had a little brother.
 Dialogue: 0,0:05:40.25,0:05:41.56,Thoughts,,0,0,0,,{\be10}What if it was...!?
 Dialogue: 0,0:05:42.19,0:05:44.34,Dialogue,,0,0,0,,It's because ours is pesticide-free!
 Dialogue: 0,0:05:44.66,0:05:47.08,Dialogue,,0,0,0,,You will definitely like it!
@@ -175,21 +176,21 @@ Dialogue: 0,0:07:47.99,0:07:49.45,Dialogue,,0,0,0,,Prepare dinner?
 Dialogue: 0,0:07:49.77,0:07:52.25,Dialogue,,0,0,0,,What a homely detective agency, huh?
 Dialogue: 0,0:07:52.57,0:07:54.90,Dialogue,,0,0,0,,Hey, save the jokes for later. Let's start!
 Dialogue: 0,0:07:55.22,0:07:56.43,Dialogue,,0,0,0,,Alright.
-Dialogue: 0,0:08:06.41,0:08:07.19,Thoughts,,0,0,0,,{\be10}Hello, this is Inoue.
+Dialogue: 0,0:08:06.41,0:08:07.19,Radio,,0,0,0,,{\be10}Hello, this is Inoue.
 Dialogue: 0,0:08:08.45,0:08:16.12,Signs,,0,0,0,,Hattori first says "ya" at the end, then corrects it to "da". The first option is the Osaka dialect, the second is the classic one.
 Dialogue: 0,0:08:08.78,0:08:10.66,Dialogue,,0,0,0,,This is me. Eh... It's me!
-Dialogue: 0,0:08:10.98,0:08:12.67,Thoughts,,0,0,0,,{\be10}Huh? Who is this?
+Dialogue: 0,0:08:10.98,0:08:12.67,Radio,,0,0,0,,{\be10}Huh? Who is this?
 Dialogue: 0,0:08:12.99,0:08:14.64,Dialogue,,0,0,0,,Sorry, I must have a wrong number.
 Dialogue: 0,0:08:20.20,0:08:20.66,Dialogue,,0,0,0,,It's me.
-Dialogue: 0,0:08:20.98,0:08:21.36,Thoughts,,0,0,0,,{\be10}Huh?
+Dialogue: 0,0:08:20.98,0:08:21.36,Radio,,0,0,0,,{\be10}Huh?
 Dialogue: 0,0:08:21.68,0:08:24.13,Dialogue,,0,0,0,,S-Sorry, I have a wrong number.
 Dialogue: 0,0:08:26.07,0:08:28.12,Dialogue,,0,0,0,,Uh, sorry.
-Dialogue: 0,0:08:33.21,0:08:34.73,Thoughts,,0,0,0,,{\be10}Hello, this is Yuwatsume.
-Dialogue: 0,0:08:35.05,0:08:35.45,Thoughts,,0,0,0,,{\be10}It's me.
-Dialogue: 0,0:08:35.77,0:08:36.68,Thoughts,,0,0,0,,{\be10}Oh, you!
-Dialogue: 0,0:08:38.38,0:08:41.40,Thoughts,,0,0,0,,{\be10}What else do you want? You dirty thief!
-Dialogue: 0,0:08:41.72,0:08:45.25,Thoughts,,0,0,0,,{\be10}I handed over 10 million yen and haven't spoken with the police as we agreed.
-Dialogue: 0,0:08:45.57,0:08:47.55,Thoughts,,0,0,0,,{\be10}You shouldn't have any more business with me.
+Dialogue: 0,0:08:33.21,0:08:34.73,Radio,,0,0,0,,{\be10}Hello, this is Yuwatsume.
+Dialogue: 0,0:08:35.05,0:08:35.45,Dialogue,,0,0,0,,It's me.
+Dialogue: 0,0:08:35.77,0:08:36.68,Radio,,0,0,0,,{\be10}Oh, you!
+Dialogue: 0,0:08:38.38,0:08:41.40,Radio,,0,0,0,,{\be10}What else do you want? You dirty thief!
+Dialogue: 0,0:08:41.72,0:08:45.25,Radio,,0,0,0,,{\be10}I handed over 10 million yen and haven't spoken with the police as we agreed.
+Dialogue: 0,0:08:45.57,0:08:47.55,Radio,,0,0,0,,{\be10}You shouldn't have any more business with me.
 Dialogue: 0,0:08:47.87,0:08:48.57,Dialogue,,0,0,0,,I'll call you later.
 Dialogue: 0,0:08:51.23,0:08:52.25,Dialogue,,0,0,0,,Bingo, huh?
 Dialogue: 0,0:08:52.57,0:08:58.07,Dialogue,,0,0,0,,From what we heard, he has already paid out the money and completed the deal.
@@ -315,12 +316,12 @@ Dialogue: 0,0:15:53.21,0:15:56.38,Dialogue,,0,0,0,,So this is what it means, "Se
 Dialogue: 0,0:15:56.70,0:15:59.87,Dialogue,,0,0,0,,Hattori, you can go home now.
 Dialogue: 0,0:16:00.19,0:16:01.21,Dialogue,,0,0,0,,Kudo!
 Dialogue: 0,0:16:01.53,0:16:02.76,Dialogue,,0,0,0,,I'm kidding.
-Dialogue: 0,0:16:04.08,0:16:08.26,Thoughts,,0,0,0,,{\be10}Please listen to the voice of the suspect relating to the jewel theft.
-Dialogue: 0,0:16:08.87,0:16:10.04,Thoughts,,0,0,0,,{\be10}Have you prepared the money?
-Dialogue: 0,0:16:11.45,0:16:13.81,Thoughts,,0,0,0,,{\be10}Don't "eh" to me, have you prepared the...
-Dialogue: 0,0:16:14.13,0:16:15.63,Thoughts,,0,0,0,,{\be10}Who are you!?
-Dialogue: 0,0:16:15.95,0:16:20.47,Thoughts,,0,0,0,,{\be10}Those who can identify the suspect's voice...
-Dialogue: 0,0:16:21.22,0:16:25.13,Signs,,0,0,0,,Please call the special number...
+Dialogue: 0,0:16:04.08,0:16:08.26,Radio,,0,0,0,,{\be10}Please listen to the voice of the suspect relating to the jewel theft.
+Dialogue: 0,0:16:08.87,0:16:10.04,Radio,,0,0,0,,{\be10}Have you prepared the money?
+Dialogue: 0,0:16:11.45,0:16:13.81,Radio,,0,0,0,,{\be10}Don't "eh" to me, have you prepared the...
+Dialogue: 0,0:16:14.13,0:16:15.63,Radio,,0,0,0,,{\be10}Who are you!?
+Dialogue: 0,0:16:15.95,0:16:20.47,Radio,,0,0,0,,{\be10}Those who can identify the suspect's voice...
+Dialogue: 0,0:16:21.22,0:16:25.13,Radio,,0,0,0,,{\be10}Please call the special number...
 Dialogue: 0,0:16:21.76,0:16:26.20,Dialogue,,0,0,0,,That was Hattori{\rHonorifics - Dialogue}-kun{\r}'s voice, right?\NYour standard Japanese accent is very good.
 Dialogue: 0,0:16:26.71,0:16:30.14,Dialogue,,0,0,0,,Well, yes. I am a detective after all...
 Dialogue: 0,0:16:31.76,0:16:33.82,Dialogue,,0,0,0,,But I'm surprised they didn't catch you.
@@ -330,7 +331,7 @@ Dialogue: 0,0:16:44.14,0:16:46.68,Dialogue,,0,0,0,,That old man has a lot of gut
 Dialogue: 0,0:16:50.37,0:16:58.21,Dialogue,,0,0,0,,Thanks to the widespread influence of TV, all viewers will immediately rush to call.
 Dialogue: 0,0:16:58.53,0:16:59.68,Dialogue,,0,0,0,,It's Kazuha.
 Dialogue: 0,0:17:00.56,0:17:00.85,Dialogue,,0,0,0,,It's me.
-Dialogue: 0,0:17:01.17,0:17:03.43,Thoughts,,0,0,0,,{\be10}Heiji!!! What are you doing!?
+Dialogue: 0,0:17:01.17,0:17:03.43,Radio,,0,0,0,,{\be10}Heiji!!! What are you doing!?
 Dialogue: 0,0:17:03.75,0:17:06.51,Dialogue,,0,0,0,,Your voice was just on TV!
 Dialogue: 0,0:17:06.83,0:17:10.57,Dialogue,,0,0,0,,It spoke some weird Tokyo Japanese accent, but it was definitely your voice!
 Dialogue: 0,0:17:10.89,0:17:13.70,Dialogue,,0,0,0,,Is your family has big financial problems that you have to stole the jewelry!?
@@ -352,8 +353,8 @@ Dialogue: 0,0:17:58.70,0:18:02.68,Dialogue,,0,0,0,,I can't believe it. What is t
 Dialogue: 0,0:18:06.39,0:18:07.55,Dialogue,,0,0,0,,Can I take a look?
 Dialogue: 0,0:18:08.55,0:18:10.68,Thoughts,,0,0,0,,{\be10}Wait a minute, Ookino Yoko...
 Dialogue: 0,0:18:11.10,0:18:13.28,Dialogue,,0,0,0,,This is well made, isn't it?
-Dialogue: 0,0:18:13.60,0:18:14.16,Thoughts,,0,0,0,,{\be10}Good morning!
-Dialogue: 0,0:18:14.90,0:18:16.88,Thoughts,,0,0,0,,{\be10}It's morning, please wake up!
+Dialogue: 0,0:18:13.60,0:18:14.16,Radio,,0,0,0,,{\be10}Good morning!
+Dialogue: 0,0:18:14.90,0:18:16.88,Radio,,0,0,0,,{\be10}It's morning, please wake up!
 Dialogue: 0,0:18:17.20,0:18:19.31,Dialogue,,0,0,0,,It's that voice!
 Dialogue: 0,0:18:19.63,0:18:22.68,Dialogue,,0,0,0,,Ran{\rHonorifics - Dialogue}-neechan{\r}, this is the voice from that call!
 Dialogue: 0,0:18:25.39,0:18:26.58,Dialogue,,0,0,0,,Don't touch her!
@@ -373,17 +374,17 @@ Dialogue: 0,0:19:03.23,0:19:06.04,Dialogue,,0,0,0,,Only 200 of them were made?
 Dialogue: 0,0:19:06.36,0:19:09.14,Dialogue,,0,0,0,,We can get his name from the fan club.
 Dialogue: 0,0:19:09.46,0:19:14.58,Dialogue,,0,0,0,,Yes, the criminal probably bought the clock and set the wrong time.
 Dialogue: 0,0:19:14.90,0:19:16.70,Dialogue,,0,0,0,,So when he was talking to me...
-Dialogue: 0,0:19:17.02,0:19:17.66,Thoughts,,0,0,0,,{\be10}Good morning!
-Dialogue: 0,0:19:17.98,0:19:18.81,Thoughts,,0,0,0,,{\be10}Damn it!
+Dialogue: 0,0:19:17.02,0:19:17.66,Flashback,,0,0,0,,{\be10}Good morning!
+Dialogue: 0,0:19:17.98,0:19:18.81,Flashback,,0,0,0,,{\be10}Damn it!
 Dialogue: 0,0:19:20.09,0:19:21.90,Dialogue,,0,0,0,,Hello? Hello!?
-Dialogue: 0,0:19:26.87,0:19:33.13,Thoughts,,0,0,0,,{\be10}The next day, thanks to a fan club list and a call from one of the viewers, we found the thief.
+Dialogue: 0,0:19:26.87,0:19:33.13,Narration Off,,0,0,0,,{\be10}The next day, thanks to a fan club list and a call from one of the viewers, we found the thief.
 Dialogue: 0,0:19:44.07,0:19:44.33,Dialogue,,0,0,0,,Stop!
 Dialogue: 0,0:19:45.83,0:19:48.67,Dialogue,,0,0,0,,If anyone come any closer, I'll throw it this into the sea!
 Dialogue: 0,0:19:50.73,0:19:52.08,Dialogue,,0,0,0,,Damn it...
 Dialogue: 0,0:19:52.83,0:19:55.98,Dialogue,,0,0,0,,His voice really does sound like mine...
 Dialogue: 0,0:20:05.26,0:20:05.99,Dialogue,,0,0,0,,Kid!
-Dialogue: 0,0:20:19.94,0:20:22.75,Thoughts,,0,0,0,,{\be10}Good morning! It's morning already! Please wake up!
-Dialogue: 0,0:20:23.07,0:20:25.74,Thoughts,,0,0,0,,{\be10}Good morning! It's morning already! Please wake up!
+Dialogue: 0,0:20:19.94,0:20:22.75,Radio,,0,0,0,,{\be10}Good morning! It's morning already! Please wake up!
+Dialogue: 0,0:20:23.07,0:20:25.74,Radio,,0,0,0,,{\be10}Good morning! It's morning already! Please wake up!
 Dialogue: 0,0:20:54.68,0:20:55.70,Dialogue,,0,0,0,,Why is Kid...?
 Dialogue: 0,0:20:56.84,0:20:59.77,Dialogue,,0,0,0,,Most likely, Kid also want the jewel as well.
 Dialogue: 0,0:21:00.09,0:21:04.51,Dialogue,,0,0,0,,It was probably him that was there before the interview.
