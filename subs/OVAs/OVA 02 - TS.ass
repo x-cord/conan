@@ -36,13 +36,25 @@ Style: Farewell Card,Calibri,35,&H14DAEFEB,&H000000FF,&H46101010,&H641B1B1B,-1,0
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:37.23,0:00:41.55,Signs,16_suspects,0,0,0,,{\fad(1100,1200)\an7\pos(0,0)\fscx100\fscy100\p1\bord0\shad0\c&H127B88&\1a&H00&\blur30\fscx100\fscy100\p1\clip(98,430,613,506)}m 0 183 l 290 183 290 540 0 540
+Dialogue: 0,0:00:37.23,0:00:41.55,Signs,16_suspects,0,0,0,,{\fad(1100,1200)\an7\pos(0,0)\fscx100\fscy100\p1\bord0\shad0\c&H127B88&\1a&H00&\blur30\fscx100\fscy100\p1\fscx100\fscy100\p1\clip(98,430,613,506)}m 419 118 l 701 118 701 612 419 612
+Dialogue: 1,0:00:37.23,0:00:41.55,Signs,16_suspects,0,0,0,,{\fad(1100,1200)\an7\pos(0,0)\fscx100\fscy100\p1\bord0\shad0\c&H12B0B4&\1a&HFF&\t(100,100,\1a&H00&)\blur40\fscx100\fscy100\p1\fscx100\fscy100\p1\fscx100\fscy100\p1\fscx100\fscy100\p1\clip(98,430,613,506)}m 137 203 l 573 203 573 540 137 540
+Dialogue: 3,0:00:37.23,0:00:41.55,Masks,16_suspects,0,0,0,,{\fad(900,1200)\fnGrain\fscx200\fscy170\1c&H169AAA&\blur2\pos(374.297,502.884)\clip(98,430,613,506)}cpijikk
+Dialogue: 11,0:00:37.23,0:00:41.55,Masks,16_suspects,0,0,0,,{\fad(900,1200)\fnGrain\fscx200\fscy170\1c&H127B88&\blur7\pos(356,501)\clip(98,430,613,506)}szksidzv
+Dialogue: 4,0:00:37.23,0:00:41.55,Masks,16_suspects,0,0,0,,{\fad(900,1200)\an7\pos(0,0)\fscx100\fscy100\p1\1c&H0B5A64&\be1}m 610 432 l 613 430 613 506 610 506
+Dialogue: 5,0:00:37.23,0:00:41.55,Masks,16_suspects,0,0,0,,{\an7\fad(900,1200)\pos(0,0)\fscx100\fscy100\p1\c&H144C51&\1aH&10&\be1\fscx100\fscy100\p1\iclip(72.047,504,614.553,503.672)}m 99 502 l 610 502 613 506 99 506
+Dialogue: 6,0:00:37.23,0:00:41.55,Masks,16_suspects,0,0,0,,{\an7\fad(900,1200)\pos(0,0)\fscx100\fscy100\p1\c&H1AC7D0&\1aH&10&\be1\fscx100\fscy100\p1\fscx100\fscy100\p1}m 98 431 l 612 431 608 433 98 433
+Dialogue: 7,0:00:37.23,0:00:41.55,Masks,16_suspects,0,0,0,,{\an7\fad(900,1200)\pos(-1,0)\fscx100\fscy100\p1\c&H0B575C&\1aH&10&\be1\fscx100\fscy100\p1\fscx100\fscy100\p1\fscx100\fscy100\p1}m 99 432 l 101 432 101 504 99 504
+Dialogue: 8,0:00:37.32,0:00:41.37,Signs,16_suspects,0,0,0,,{\fad(1100,1200)\fs52\fscx130\fscy130\fnBerthold City\1c&H18B2B2&\bord0\be0\shad0\pos(353,433)\iclip(374.574,426.129,641.491,511.532)}16{\fscx100\fscy100\fnDFPHSMincho-W9} SUSPECTS?!
+Dialogue: 8,0:00:37.32,0:00:41.55,Signs,16_suspects,0,0,0,,{\fad(1100,1200)\fs52\fscx130\fscy130\fnBerthold City\1c&H12B0B4&\bord0\be0\shad0\pos(353,433)\clip(374.574,426.129,641.491,511.532)}16{\fscx100\fscy100\fnDFPHSMincho-W9} SUSPECTS?!
+Dialogue: 9,0:00:37.32,0:00:41.55,Signs,16_suspects,0,0,0,,{\fad(1100,1200)\fs52\fscx130\fscy130\fnBerthold City\1c&H01656E&\3c&H12B0B4&\bord0\be0\shad2\pos(355,433)\iclip(374.574,426.129,641.491,511.532)\1a&H6B&}16{\fscx100\fscy100\fnDFPHSMincho-W9} SUSPECTS?!
+Dialogue: 9,0:00:37.32,0:00:41.55,Signs,16_suspects,0,0,0,,{\fad(1100,1200)\fs52\fscx130\fscy130\fnBerthold City\1c&H01656E&\3c&H18B2B2&\bord0\be0\shad2\pos(355,433)\clip(374.574,426.129,641.491,511.532)\1a&H6B&}16{\fscx100\fscy100\fnDFPHSMincho-W9} SUSPECTS?!
 Dialogue: 0,0:19:36.12,0:19:41.62,Masks,charcard1,0,0,0,,{\an7\blur0.8\pos(0,93)\p1\1c&HC41744&\1a&H28&\fad(500,0)}m 258.6 384 l 430.4 384 430.4 440 258.6 440
 Dialogue: 1,0:19:36.12,0:19:41.62,Character Card,charcard1,0,0,0,,{\bord0\fs21\pos(344,514)\fad(500,0)\blur0.4}Japanese Dormouse
-Dialogue: 0,0:00:37.29,0:00:41.58,Signs,,0,0,0,,16 suspects
 Comment: 0,0:22:39.10,0:22:40.92,Signs,i_did_it,0,0,0,,{\fnBabyDoll\1c&H080B0A&\bord0\blur0.4\3c&H3B516D&\pos(360.1,155)\shad1\fax0.1}I\N{\fax-0.1}D{\fax-0.05}I{\fax0}D\N{\fax0.1}I{\fsp-4\fax-0.1} T
 Dialogue: 2,0:22:39.10,0:22:40.92,Signs,i_did_it,0,0,0,,{\fnBabyDoll\1c&H080B0A&\bord0\blur0.7\3c&H3B516D&\shad1\fax0.3\fs46\pos(282.263,305.14)}I
 Dialogue: 2,0:22:39.10,0:22:40.92,Signs,i_did_it,0,0,0,,{\fnBabyDoll\1c&H080B0A&\bord0\blur0.7\3c&H3B516D&\shad1\fax0.1\fsp-2\fs48\pos(362.118,320.264)}D {\fax-0.1}I {\fax-0.3}D
-Dialogue: 2,0:22:39.10,0:22:40.92,Signs,i_did_it,0,0,0,,{\fnBabyDoll\1c&H080B0A&\bord0\blur0.7\3c&H3B516D&\shad1\fax-0.1\fs46\pos(426.178,289.127)\fsp-4}I {\fax-0.2}T
+Dialogue: 2,0:22:39.10,0:22:40.92,Signs,i_did_it,0,0,0,,{\fnBabyDoll\1c&H080B0A&\bord0\blur0.7\3c&H3B516D&\shad1\fax-0.1\fs46\pos(426.178,289.127)\fsp-4}I {\fax-0.2}T{\fsp-9} !
 Dialogue: 1,0:22:39.10,0:22:39.19,Masks,i_did_it,0,0,0,,{\an7\pos(0,0)\fscx100\fscy100\p1\c&H3B516D&\fscx100\fscy100\p1\be1}m 349 286 l 337 276 318 272 303 283 288 289 277 281 271 285 272 295 264 298 269 323 280 327 284 344 285 350 297 357 303 368 314 375 347 372 355 368 364 369 373 369 386 366 391 363 394 360 403 364 431 360 437 353 447 326 461 281 467 253 414 270 398 259 388 265 389 324 356 327
 Dialogue: 0,0:22:39.10,0:22:39.19,Masks,i_did_it,0,0,0,,{\an7\fscx100\fscy100\p1\c&H3B516D&\fscx100\fscy100\p1\iclip(352.451,359.515,404.154,376.253)\pos(658.21,232.101)}m 349 286 l 337 276 318 272 303 283 288 289 277 281 271 285 271 295 264 298 268 323 280 327 284 344 284 350 297 357 303 368 314 375 346 372 355 368 364 369 373 369 386 366 391 363 394 360 403 364 431 360 437 353 447 326 461 281 467 253 414 270 398 259 388 265 389 324 356 327
 Dialogue: 0,0:22:39.19,0:22:40.92,Masks,i_did_it,0,0,0,,{\an7\pos(0,0)\fscx100\fscy100\p1\c&H3B516D&\fscx100\fscy100\p1}m 349 286 l 337 276 318 272 303 283 288 289 277 281 271 285 272 295 264 298 269 323 280 327 284 344 285 350 297 357 303 368 314 375 347 372 360 372 370 372 381 369 389 366 391 363 394 361 404 364 431 360 437 353 447 326 461 281 467 253 414 270 398 259 388 265 389 324 355 327
