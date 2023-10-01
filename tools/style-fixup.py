@@ -128,7 +128,7 @@ for folder in next(os.walk("../subs"))[1]:
                 out += line + "\n"
             out = re.sub(r"\[Aegisub Project Garbage\].*?^\[", "[", out, flags=re.MULTILINE | re.DOTALL)
             out = re.sub(r"\n+^\[Events\]", "\n\n[Events]", out, flags=re.MULTILINE)
-            out = out.replace("﻿", "").replace("‘", "'")
+            out = out.replace("﻿", "").replace("‬", "").replace("‭", "").replace("‘", "'")
             out = re.sub(r"([a-zA-Z])\.\.\.([a-zA-Z])", r"\1... \2", out)
             out = re.sub(r",,\.\.\. ([a-zA-Z])", r",,...\1", out)
             #out = re.sub("!!+", "!", out)
