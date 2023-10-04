@@ -10,7 +10,7 @@ A community effort to provide Detective Conan subtitles with consistent styling 
 If editing a subtitle file already in the repo:
 - Open in Aegisub and load your video. When prompted, *do not* resample the file, simply discard the dialog box.
 - Make desired edits.
-- Open a terminal in `tools/` and run `style-fixup.py`. This will reapply any missing styling and remove Aegisub version information.
+- Open a terminal in `tools/` and run `style-fixup.py`. This will reapply any missing styling and remove Aegisub version information to not mess up git history.
 
 If importing brand new subtitles:
 - Make a directory `og/` with relevant sub-dirs for the file to be imported, e.g. `og/0001-0999/`
@@ -35,16 +35,17 @@ When making pull requests:
 
 ## Long-term goals
 - Translation check of all episodes, completely new translations for those deemed unsalvageable.
-- Consistent character names.
+- Retiming to newer video sources (CR/NF remasters and Bilibili)
+- Sign typesetting.
 - Song translations & karaoke.
 - Tag the "Actor" field.
-- Sign typesetting.
-- Movies, OVAs and other specials.
 
 ## Completed work
 - OCR all ~400 remaining hardcoded subtitles.
 - Restyle all episodes.
 - Spellcheck and basic fixes.
+- Consistent character names.
+- Movies, OVAs and other specials.
 
 ## Acknowledgments
 Most of these are not wholly original translations, but an attempt at providing a cohesive experience across existing translations produced over many years by many different people.  
