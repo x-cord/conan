@@ -127,6 +127,19 @@ for folder in next(os.walk("../subs"))[1]:
                     """
                     #parts[9] = unidecode(parts[9], errors="preserve")
                     parts[9] = parts[9].strip()
+                    if style == "Signs":
+                        if parts[9].lower() == "look forward to the next episode":
+                            continue
+                        if parts[9].lower() == "look forward to the next episode!":
+                            continue
+                        if parts[9].lower() == "60 seconds until the next episode's hint!":
+                            continue
+                        if parts[9] == "NEXT EPISODE":
+                            continue
+                        if parts[9] == "Next episode's hint right after this!":
+                            continue
+                    if parts[9] == "Please look forward to the next episode!":
+                        continue
                     line = ",".join(parts)
                 out += line + "\n"
             out = re.sub(r"\[Aegisub Project Garbage\].*?^\[", "[", out, flags=re.MULTILINE | re.DOTALL)
