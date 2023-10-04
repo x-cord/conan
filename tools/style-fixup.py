@@ -6,11 +6,14 @@ from natsort import natsorted
 
 for folder in next(os.walk("../subs"))[1]:
     for file in natsorted(os.listdir("../subs/" + folder)):
-        if not file.endswith(".ass"):
+        if not file.endswith(".ass") or " - TS" in file:
             continue
         out = ""
         ep, ext = file.split(".")
-        ep = int(re.sub("[a-z]", "", ep.split(" ")[0].split("-")[0]))
+        try:
+            ep = int(re.sub("[a-z]", "", ep.split(" ")[0].split("-")[0]))
+        except:
+            pass
         with open("../subs/" + folder + "/" + file, encoding="utf8") as f:
             content = f.read()
             lines = content.splitlines()
@@ -55,8 +58,8 @@ for folder in next(os.walk("../subs"))[1]:
                         parts[9] = r"{\be10}" + parts[9]
                         line = ",".join(parts)
                         parts = line.split(",", 9)
-                    if parts[1] == parts[2]:
-                        parts[3] = "Signs"
+                    #if parts[1] == parts[2]:
+                    #    parts[3] = "Signs"
                     style = parts[3]
                     parts[9] = re.sub(r"Honorifics - [^}\\]+", "Honorifics - "+style.replace(" Top", ""), parts[9])
                     if r"\be10" in parts[9]:
@@ -105,14 +108,14 @@ for folder in next(os.walk("../subs"))[1]:
                     line = line.replace(",, ", ",,")
                     #line = line.replace("l-I", "I-I")
                     line = line.strip()
-                    line = line.replace("— ", r"—\h")
+                    #line = line.replace("— ", r"—\h")
                     line = re.sub(r"—\\h$", "—", line)
                     line = line.strip()
                     parts = line.split(",", 9)
                     #parts[9] = parts[9].replace(" s ", "'s ")
                     parts[9] = parts[9].replace(" . ", ". ")
                     parts[9] = parts[9].replace("..,", "...")
-                    parts[9] = re.sub(r"([^\.A-Z])\. ([a-z])", r"\1, \2", parts[9])
+                    #parts[9] = re.sub(r"([^\.A-Z])\. ([a-z])", r"\1, \2", parts[9])
                     """
                     parts[9] = parts[9].replace(r"\\N", r" \\N ")
                     parts[9] = parts[9].replace("}", "} ")
@@ -129,8 +132,8 @@ for folder in next(os.walk("../subs"))[1]:
             out = re.sub(r"\[Aegisub Project Garbage\].*?^\[", "[", out, flags=re.MULTILINE | re.DOTALL)
             out = re.sub(r"\n+^\[Events\]", "\n\n[Events]", out, flags=re.MULTILINE)
             out = out.replace("﻿", "").replace("‬", "").replace("‭", "").replace("‘", "'")
-            out = re.sub(r"([a-zA-Z])\.\.\.([a-zA-Z])", r"\1... \2", out)
-            out = re.sub(r",,\.\.\. ([a-zA-Z])", r",,...\1", out)
+            #out = re.sub(r"([a-zA-Z])\.\.\.([a-zA-Z])", r"\1... \2", out)
+            #out = re.sub(r",,\.\.\. ([a-zA-Z])", r",,...\1", out)
             #out = re.sub("!!+", "!", out)
             out = re.sub(r"([a-zA-Z0-9!])\?\?+", r"\1?", out)
             out = re.sub(r"\.{2}", "...", out)
