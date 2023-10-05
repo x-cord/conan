@@ -102,6 +102,7 @@ for folder in next(os.walk("../subs"))[1]:
                         continue
                     parts[9] = re.sub(r"(\\be\d+)\}\{(\\an\d+)", r"\1\2", parts[9])
                     parts[9] = re.sub(r"(\\an\d+)\}\{(\\be\d+)", r"\2\1", parts[9])
+                    parts[9] = re.sub(r" ([{][^}]+[}]$)", r"\1", parts[9])
                     line = ",".join(parts)
                     while r",,\N" in line:
                         line = line.replace(r",,\N", ",,")
