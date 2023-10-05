@@ -27,6 +27,7 @@ for folder in next(os.walk("../subs"))[1]:
                     parts = line.split(",", 9)
                     parts[9] = parts[9].strip()
                     line = ",".join(parts)
+                    parts[9] = re.sub(r"(\\be10(?:\\an8)?)(?![\\}])", r"}{\1", parts[9])
                     style = parts[3]
                     if style in [
                         "Dialogue",
@@ -91,17 +92,25 @@ for folder in next(os.walk("../subs"))[1]:
                     if r"\i1" not in parts[9]:
                         parts[9] = parts[9].replace(r"\i0", "")
                     if r"\i0" not in parts[9] and r"\i1" in parts[9]:
-                        print(ep, parts[1], parts[9])
+                        print("i", ep, parts[1], parts[9])
+                    if r"\b0" not in parts[9] and r"\b1" in parts[9]:
+                        print("b", ep, parts[1], parts[9])
                         #parts[9] = parts[9].replace(r"\i1", "")
                     if not parts[9]:
                         continue
+                    parts[9] = re.sub(r"(\\be\d+)\}\{(\\an\d+)", r"\1\2", parts[9])
+                    parts[9] = re.sub(r"(\\an\d+)\}\{(\\be\d+)", r"\2\1", parts[9])
                     line = ",".join(parts)
                     while r",,\N" in line:
                         line = line.replace(r",,\N", ",,")
                     while r"\N}" in line:
                         line = line.replace(r"\N}", "}")
+                    while r"{\N" in line:
+                        line = line.replace(r"{\N", "{")
                     line = line.replace(r"\}", "}")
-                    line = line.replace("}{", "")
+                    #line = line.replace("{ ", "{")
+                    #line = line.replace(" }", "}")
+                    line = line.replace("}{\\", "\\")
                     line = line.replace("{}", "")
                     line = line.replace(r"\c)", "")
                     line = line.replace(r"\an8\an8", r"\an8")
