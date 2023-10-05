@@ -93,6 +93,8 @@ for folder in next(os.walk("../subs"))[1]:
                         parts[9] = parts[9].replace(r"\i0", "")
                     if r"\i0" not in parts[9] and r"\i1" in parts[9]:
                         print("i", ep, parts[1], parts[9])
+                    if r"\b1" not in parts[9]:
+                        parts[9] = parts[9].replace(r"\b0", "")
                     if r"\b0" not in parts[9] and r"\b1" in parts[9]:
                         print("b", ep, parts[1], parts[9])
                         #parts[9] = parts[9].replace(r"\i1", "")
